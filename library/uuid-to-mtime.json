@@ -564,21 +564,6 @@
     "meta": 1710235082645,
     "relativePath": "Games/WhatWillHappenNext"
   },
-  "31d9393b-5bcc-4d0f-b2c1-90e9dc3a521f": {
-    "asset": 1710234892759,
-    "meta": 1710235082645,
-    "relativePath": "resources/audios"
-  },
-  "a8f3e3b5-37aa-432e-a7a3-e52b1bc0bfe3": {
-    "asset": 1710234892766,
-    "meta": 1710235082646,
-    "relativePath": "resources/images"
-  },
-  "25d9a004-bb1c-4412-84e4-e65114c48575": {
-    "asset": 1710234892759,
-    "meta": 1710235082655,
-    "relativePath": "resources/game_data.json"
-  },
   "e956d2a1-01f9-4647-bb8d-3b039eefcf01": {
     "asset": 1710219734736,
     "meta": 1710235082655,
@@ -879,30 +864,10 @@
     "meta": 1710235082843,
     "relativePath": "Framework/WebView/WebViewDemo.fire"
   },
-  "b95fc79b-6b1f-4cdf-9166-b1d0f49c1934": {
-    "asset": 1710234892754,
-    "meta": 1710235083009,
-    "relativePath": "resources/audios/Matchtheshapetoitsshadow.mp3"
-  },
-  "c5817a34-2cf9-48d7-a003-4b652b6ac0dc": {
-    "asset": 1710234892758,
-    "meta": 1710235083010,
-    "relativePath": "resources/audios/square.mp3"
-  },
-  "aa1fabba-faf1-4efd-b669-ce5424525453": {
-    "asset": 1710234892757,
-    "meta": 1710235083011,
-    "relativePath": "resources/audios/circle.mp3"
-  },
   "5edb2237-a558-4508-8e24-a5e5537795e9": {
     "asset": 1710219734732,
     "meta": 1710235083011,
     "relativePath": "Framework/CommonAudios/incorrect_common.mp3"
-  },
-  "7d859164-56f6-4ce1-8478-52961d20b9bb": {
-    "asset": 1710234892758,
-    "meta": 1710235083012,
-    "relativePath": "resources/audios/rectangle.mp3"
   },
   "b70e7097-9d5c-4dbe-9ab5-1db455695380": {
     "asset": 1710219734730,
@@ -914,105 +879,25 @@
     "meta": 1710235083012,
     "relativePath": "Framework/CommonAudios/correct_common.mp3"
   },
-  "4c631302-c860-42c3-9d73-1e444d4f2992": {
-    "asset": 1710234892759,
-    "meta": 1710235083014,
-    "relativePath": "resources/audios/star.mp3"
-  },
-  "f762d6cd-2f17-4b41-8d18-3f6785192e0d": {
-    "asset": 1710234892759,
-    "meta": 1710235083016,
-    "relativePath": "resources/audios/triangle.mp3"
-  },
-  "8aca1a40-fbf6-4d5b-8a0e-e338362e6ae6": {
-    "asset": 1710234892754,
-    "meta": 1710235083016,
-    "relativePath": "resources/audios/BGMpatterngame.mp3"
-  },
-  "d9a3dcca-a499-4f8a-9c0a-3811c0250739": {
-    "asset": 1710234892760,
-    "meta": 1710235083026,
-    "relativePath": "resources/images/Artboard10.png"
-  },
-  "dd47c2e8-8e18-4f2f-b89a-d82c2332359a": {
-    "asset": 1710234892761,
-    "meta": 1710235083031,
-    "relativePath": "resources/images/Artboard9.png"
-  },
-  "5e990b4f-96ef-4ffd-a8ac-df4141b06a51": {
-    "asset": 1710234892761,
-    "meta": 1710235083032,
-    "relativePath": "resources/images/Artboard7.png"
-  },
-  "8cf100f3-ef61-4cf1-8b65-cec9f8b4fe8f": {
-    "asset": 1710234892760,
-    "meta": 1710235083032,
-    "relativePath": "resources/images/Artboard11.png"
-  },
   "a43fd2ad-ac0b-4282-bdb8-77697915034a": {
     "asset": 1710235079371,
     "meta": 1710235083044,
     "relativePath": "Framework/Framework/Prefabs/Progressbar"
-  },
-  "a055e498-1f76-4d80-b348-a8d722003c1f": {
-    "asset": 1710234892761,
-    "meta": 1710235083033,
-    "relativePath": "resources/images/Artboard8.png"
-  },
-  "aed2d332-6cb8-455b-9e51-272aa501045d": {
-    "asset": 1710234892765,
-    "meta": 1710235083042,
-    "relativePath": "resources/images/rectangle.png"
-  },
-  "13b67c81-4afb-4c20-9123-cf39061ee62b": {
-    "asset": 1710234892766,
-    "meta": 1710235083044,
-    "relativePath": "resources/images/star.png"
-  },
-  "f95301b2-6f73-4534-a38e-b16f90f31107": {
-    "asset": 1710234892766,
-    "meta": 1710235083044,
-    "relativePath": "resources/images/square.png"
   },
   "75e60408-2330-41d2-b16e-0e00bb442fe9": {
     "asset": 1710219734762,
     "meta": 1710235083057,
     "relativePath": "Framework/Jockeys/Babli/BABLI.atlas"
   },
-  "5d5284dc-abaf-4e62-b2e4-ffe84a0cf53d": {
-    "asset": 1710234892765,
-    "meta": 1710235083047,
-    "relativePath": "resources/images/empty.png"
-  },
   "3a640a5a-d133-41f6-8504-94eab60c7a9b": {
     "asset": 1710219734771,
     "meta": 1710235083065,
     "relativePath": "Framework/Jockeys/Scripts/Jockey.ts"
   },
-  "34459f35-30af-4b75-8f97-5e0b2cc5c014": {
-    "asset": 1710234892764,
-    "meta": 1710235083048,
-    "relativePath": "resources/images/cirlce.png"
-  },
-  "16666a88-969a-4bc1-97e9-6381dc4a1e19": {
-    "asset": 1710234892765,
-    "meta": 1710235083056,
-    "relativePath": "resources/images/matchshapes.png"
-  },
   "8f4d62f0-b815-4e3d-a63a-46def66a8509": {
     "asset": 1710219734769,
     "meta": 1710235083074,
     "relativePath": "Framework/Jockeys/Milli/Milli_Casual_anim.atlas"
-  },
-  "6f600341-ea46-401c-bb06-90ec7dc30c45": {
-    "asset": 1710234892763,
-    "meta": 1710235083072,
-    "relativePath": "resources/images/PLAYSCHOOL.png"
-  },
-  "f1f69f41-c23b-4e0a-84ad-aa3d5a76bfc7": {
-    "asset": 1710234892764,
-    "meta": 1710235083072,
-    "relativePath": "resources/images/bg.png"
   },
   "4a0abe58-e4a2-418b-ad94-e946cb0d7109": {
     "asset": 1710219734775,
@@ -1023,11 +908,6 @@
     "asset": 1710219734775,
     "meta": 1710235083083,
     "relativePath": "Framework/Prefabs/ProgressBar/Scripts"
-  },
-  "122edf99-21a0-4f51-bf20-4965738aa93a": {
-    "asset": 1710234892766,
-    "meta": 1710235083078,
-    "relativePath": "resources/images/triangle.png"
   },
   "c2c79ec3-51de-4781-bbda-80e4a87ddc5d": {
     "asset": 1710234892663,
@@ -1525,8 +1405,8 @@
     "relativePath": "Games/WhatWillHappenNext/Scene/1.fire"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1710235118168,
-    "meta": 1710235118172,
+    "asset": 1710239233048,
+    "meta": 1710239233052,
     "relativePath": "Games/WhatWillHappenNext/Scene/Title.fire"
   },
   "51f71569-6b9e-43a6-9703-1106a9f3d9d1": {
