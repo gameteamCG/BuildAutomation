@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "tut2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.9,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "c74c9a31-a546-4529-8016-dd94f68fb281"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "d09e8e0c-94ad-4579-96dc-478bf299d4fd"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "20e8ef87-0274-4fb1-9990-fdf7f0e0897f"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "5605467f-e2bd-4622-bf96-367a28796d8f"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "5605467f-e2bd-4622-bf96-367a28796d8f"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "20e8ef87-0274-4fb1-9990-fdf7f0e0897f"
+            }
+          },
+          {
+            "frame": 0.7,
+            "value": {
+              "__uuid__": "d09e8e0c-94ad-4579-96dc-478bf299d4fd"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "c74c9a31-a546-4529-8016-dd94f68fb281"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "scale": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 0.8,
+            "y": 0.8
+          }
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255
+        }
+      ],
+      "anchorY": [
+        {
+          "frame": 0,
+          "value": 0.8
+        }
+      ]
+    }
+  },
+  "events": []
+}

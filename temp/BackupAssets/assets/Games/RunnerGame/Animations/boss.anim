@@ -1,0 +1,68 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "boss",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.5166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "key": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -15,
+                -365,
+                0
+              ]
+            },
+            {
+              "frame": 1.0166666666666666,
+              "value": [
+                486.995,
+                -320.851,
+                0
+              ]
+            }
+          ],
+          "scale": [],
+          "opacity": [
+            {
+              "frame": 1.0166666666666666,
+              "value": 255
+            },
+            {
+              "frame": 1.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "jail": {
+        "props": {
+          "y": [
+            {
+              "frame": 1.5,
+              "value": -191.676,
+              "curve": [
+                0.6,
+                -0.27,
+                0.73,
+                0.04
+              ]
+            },
+            {
+              "frame": 2.5166666666666666,
+              "value": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

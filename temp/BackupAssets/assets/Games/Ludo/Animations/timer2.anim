@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "timer",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 15,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "fillRange": [
+          {
+            "frame": 0,
+            "value": 1
+          },
+          {
+            "frame": 15,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "props": {
+      "color": []
+    }
+  },
+  "events": []
+}

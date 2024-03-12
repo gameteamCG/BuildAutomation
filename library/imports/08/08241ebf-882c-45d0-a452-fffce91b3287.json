@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Milli_Casual_anim",
+    "texture": "dcd856ba-7fdd-47b8-9da9-814a63d54a17",
+    "atlas": "",
+    "rect": [
+      3,
+      2,
+      1008,
+      124
+    ],
+    "offset": [
+      -5,
+      0
+    ],
+    "originalSize": [
+      1024,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

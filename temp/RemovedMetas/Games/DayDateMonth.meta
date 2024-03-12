@@ -1,0 +1,17 @@
+{
+  "ver": "1.1.3",
+<<<<<<<< Updated upstream:assets/Games/DayDateMonth.meta
+  "uuid": "648bfcb9-1feb-4f0a-9283-dd47abdad4a7",
+========
+  "uuid": "09f808dc-98aa-4c38-bdff-726639919841",
+>>>>>>>> Stashed changes:assets/Games/NumberLineSubtraction.meta
+  "importer": "folder",
+  "isBundle": false,
+  "bundleName": "",
+  "priority": 1,
+  "compressionType": {},
+  "optimizeHotUpdate": {},
+  "inlineSpriteFrames": {},
+  "isRemoteBundle": {},
+  "subMetas": {}
+}

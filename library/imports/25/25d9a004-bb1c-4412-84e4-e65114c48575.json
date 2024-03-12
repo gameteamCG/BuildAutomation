@@ -1,0 +1,110 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "5",
+      "TitleImageName": "matchshapes.png",
+      "introBgName": "PLAYSCHOOL.png",
+      "bgmMusicName": "BGMpatterngame.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "Podar",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "match shape",
+        "questionImageName": "Artboard7.png",
+        "questionAudioName": "Matchtheshapetoitsshadow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "rectangle.png",
+          "cirlce.png"
+        ],
+        "correctAudios": [
+          "rectangle.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "match shape",
+        "questionImageName": "Artboard9.png",
+        "questionAudioName": "Matchtheshapetoitsshadow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "triangle.png",
+          "cirlce.png"
+        ],
+        "correctAudios": [
+          "circle.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "match shape",
+        "questionImageName": "Artboard8.png",
+        "questionAudioName": "Matchtheshapetoitsshadow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "star.png",
+          "square.png"
+        ],
+        "correctAudios": [
+          "square.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "match shape",
+        "questionImageName": "Artboard11.png",
+        "questionAudioName": "Matchtheshapetoitsshadow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "star.png",
+          "rectangle.png"
+        ],
+        "correctAudios": [
+          "star.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "match shape",
+        "questionImageName": "Artboard10.png",
+        "questionAudioName": "Matchtheshapetoitsshadow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "cirlce.png",
+          "triangle.png"
+        ],
+        "correctAudios": [
+          "triangle.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

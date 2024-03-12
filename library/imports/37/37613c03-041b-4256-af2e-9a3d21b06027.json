@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cirlce",
+    "texture": "34459f35-30af-4b75-8f97-5e0b2cc5c014",
+    "atlas": "",
+    "rect": [
+      16,
+      17,
+      485,
+      484
+    ],
+    "offset": [
+      8,
+      -8.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
