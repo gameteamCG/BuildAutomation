@@ -510,8 +510,8 @@
     "relativePath": "Games"
   },
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1710234892759,
-    "meta": 1710235082642,
+    "asset": 1710239231068,
+    "meta": 1710239304042,
     "relativePath": "resources"
   },
   "47c7a0d5-0378-4e24-a68a-552946845f14": {
@@ -2743,5 +2743,10 @@
     "asset": 1710234892679,
     "meta": 1710235084191,
     "relativePath": "Games/WhatWillHappenNext/Assets/jaipuria_UI/stallion/output 34/side_horse0001.json"
+  },
+  "48531029-3cfd-4d23-abb9-057b4b7762b9": {
+    "asset": 1710239325202,
+    "meta": 1710239329161,
+    "relativePath": "resources/empty.ts"
   }
 }
