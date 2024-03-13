@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: windows-latest
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
@@ -21,11 +21,11 @@ jobs:
 
     - name: Download Cocos Creator
       run: |
-        wget https://download.cocos.com/CocosCreator/v2.4.8/CocosCreator_v2.4.8_mac.dmg
+        Invoke-WebRequest -Uri https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/cocosInstaller/CocosCreator.exe -O CocosCreator_v2.4.8_windows.exe
 
     - name: Install Cocos Creator
       run: |
-        sudo dpkg -i CocosCreator_v2.4.8_mac.dmg
+        sudo chmod +x CocosCreator_v2.4.8_windows.exe
 
     - name: Build Cocos Project
       run: |
