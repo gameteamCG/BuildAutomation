@@ -34,7 +34,10 @@ jobs:
     - name: Build Cocos Project
       run: |
         C:\cocos\CocosCreator.exe --path $GITHUB_WORKSPACE --build "platform=web-mobile;debug=false"
-        
+
+    - name: List Build Output
+      run: ls "${GITHUB_WORKSPACE}/build/web-mobile"
+  
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v2
       with:
