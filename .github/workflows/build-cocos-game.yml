@@ -23,8 +23,8 @@ jobs:
       run: New-Item -ItemType Directory -Force -Path C:\cocos\builds\${{ github.run_id }}
 
     - name: Build Cocos Project
-      run: |
-        C:\cocos\CocosCreator.exe --path $GITHUB_WORKSPACE --build "platform=web-mobile;debug=false;buildPath=C:/cocos/builds/${{ github.run_id }}"
+      run: Start-Process -FilePath "C:\cocos\CocosCreator.exe" -ArgumentList "--path $GITHUB_WORKSPACE --build `"`"platform=web-mobile;debug=false;buildPath=C:/cocos/builds/8264497506`"`"" -NoNewWindow -Wait
+
 
     - name: Zip Build Output
       run: Compress-Archive -Path C:\cocos\builds\${{ github.run_id }} -DestinationPath $GITHUB_WORKSPACE/build.zip
