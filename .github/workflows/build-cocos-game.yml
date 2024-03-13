@@ -19,50 +19,25 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
-    - name: Create Directory
-      run: |
-        mkdir C:\cocos
-
-    - name: Download Cocos Creator
-      run: |
-        Invoke-WebRequest -Uri 'https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/cocosInstaller/CocosCreator.exe' -OutFile 'C:\cocos\CocosCreator.exe'
-
-    - name: Install Cocos Creator
-      run: |
-        C:\cocos\CocosCreator.exe /S /D=C:\cocos
+    - name: Create Builds Directory
+      run: New-Item -ItemType Directory -Force -Path C:\cocos\builds\${{ github.run_id }}
 
     - name: Build Cocos Project
       run: |
-        C:\cocos\CocosCreator.exe --path $GITHUB_WORKSPACE --build "platform=web-mobile;debug=false;buildPath=${GITHUB_WORKSPACE}/build/web-mobile"
+        C:\cocos\CocosCreator.exe --path $GITHUB_WORKSPACE --build "platform=web-mobile;debug=false;buildPath=C:/cocos/builds/${{ github.run_id }}"
 
+    - name: Zip Build Output
+      run: Compress-Archive -Path C:\cocos\builds\${{ github.run_id }} -DestinationPath $GITHUB_WORKSPACE/build.zip
 
-    - name: List Workspace Contents
-      run: Get-ChildItem -Path "${env:GITHUB_WORKSPACE}" -Force
-
-    - name: Show Current Working Directory
-      run: Get-Location
-      
-    - name: List Build Output
-      run: Get-ChildItem -Path "${env:GITHUB_WORKSPACE}\build\web-mobile" -Force
-
-  
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: web-mobile-build
-        path: $GITHUB_WORKSPACE/build/web-mobile
-
-    - name: Zip Build Output
-      run: |
-        Compress-Archive -Path $GITHUB_WORKSPACE/build/web-mobile -DestinationPath build.zip
-
+        name: web-mobile-build-${{ github.run_id }}
+        path: $GITHUB_WORKSPACE/build.zip
 
     - name: Upload to Slack
       env:
-        SLACK_TOKEN: ${{ secrets.xoxb-1857507923188-6274594411956-i6MTQlS5Q0vlh89mJCXp3JsO }}
+        SLACK_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }} # Ensure you've set SLACK_BOT_TOKEN in your repository's secrets
         SLACK_CHANNEL: 'D0680486QTC'
       run: |
-        curl -F file=@build.zip -F "initial_comment=New build available" -F channels=${SLACK_CHANNEL} -H "Authorization: Bearer ${SLACK_TOKEN}" https://slack.com/api/files.upload
-
-    
-    
+        curl -F file=@$GITHUB_WORKSPACE/build.zip -F "initial_comment=New build available" -F channels=${SLACK_CHANNEL} -H "Authorization: Bearer ${SLACK_TOKEN}" https://slack.com/api/files.upload
