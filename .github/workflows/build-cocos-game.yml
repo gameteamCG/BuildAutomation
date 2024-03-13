@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
@@ -21,11 +21,11 @@ jobs:
 
     - name: Download Cocos Creator
       run: |
-        wget https://download.cocos.com/CocosCreator/v2.4.8/CocosCreator_v2.4.8_linux.deb
+        wget https://download.cocos.com/CocosCreator/v2.4.8/CocosCreator_v2.4.8_mac.dmg
 
     - name: Install Cocos Creator
       run: |
-        sudo dpkg -i CocosCreator_v2.4.8_linux.deb
+        sudo dpkg -i CocosCreator_v2.4.8_mac.dmg
 
     - name: Build Cocos Project
       run: |
