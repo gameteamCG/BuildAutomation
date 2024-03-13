@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
@@ -19,18 +19,22 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
+    - name: Create Directory
+      run: |
+        mkdir C:\cocos
+
     - name: Download Cocos Creator
       run: |
-        wget https://example.com/path/to/CocosCreator_v2.4.8_linux.deb -O CocosCreator_v2.4.8_linux.deb
-    
+        Invoke-WebRequest -Uri 'https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/cocosInstaller/CocosCreator.exe' -OutFile 'C:\cocos\CocosCreator.exe'
+
     - name: Install Cocos Creator
       run: |
-        sudo dpkg -i CocosCreator_v2.4.8_linux.deb
+        C:\cocos\CocosCreator.exe /S /D=C:\cocos
 
     - name: Build Cocos Project
       run: |
-        /opt/cocos-creator/CocosCreator/2.4.8/CocosCreator --path $GITHUB_WORKSPACE --build "platform=web-mobile;debug=false"
-
+        C:\cocos\CocosCreator.exe --path $GITHUB_WORKSPACE --build "platform=web-mobile;debug=false"
+        
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v2
       with:
@@ -39,7 +43,8 @@ jobs:
 
     - name: Zip Build Output
       run: |
-        zip -r build.zip build/web-mobile
+        Compress-Archive -Path $GITHUB_WORKSPACE/build/web-mobile -DestinationPath build.zip
+
 
     - name: Upload to Slack
       env:
@@ -47,3 +52,6 @@ jobs:
         SLACK_CHANNEL: 'D0680486QTC'
       run: |
         curl -F file=@build.zip -F "initial_comment=New build available" -F channels=${SLACK_CHANNEL} -H "Authorization: Bearer ${SLACK_TOKEN}" https://slack.com/api/files.upload
+
+    
+    
