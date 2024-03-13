@@ -19,17 +19,27 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
-    - name: Build Project with Cocos Creator CLI
-      env:
-        COCOS_CREATOR_VERSION: '2.4.8'
+    - name: Download Cocos Creator
       run: |
-        wget https://download.cocos.com/CocosCreator/v${COCOS_CREATOR_VERSION}/CocosCreator_v${COCOS_CREATOR_VERSION}_linux.deb
-        sudo dpkg -i CocosCreator_v${COCOS_CREATOR_VERSION}_linux.deb
+        wget https://example.com/path/to/CocosCreator_v2.4.8_linux.deb -O CocosCreator_v2.4.8_linux.deb
+    
+    - name: Install Cocos Creator
+      run: |
+        sudo dpkg -i CocosCreator_v2.4.8_linux.deb
+
+    - name: Build Cocos Project
+      run: |
         /opt/cocos-creator/CocosCreator/2.4.8/CocosCreator --path $GITHUB_WORKSPACE --build "platform=web-mobile;debug=false"
+
+    - name: Upload Build Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: web-mobile-build
+        path: $GITHUB_WORKSPACE/build/web-mobile
 
     - name: Zip Build Output
       run: |
-        zip -r build.zip path/to/your/build/output
+        zip -r build.zip build/web-mobile
 
     - name: Upload to Slack
       env:
