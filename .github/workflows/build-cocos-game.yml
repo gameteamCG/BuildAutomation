@@ -36,7 +36,8 @@ jobs:
         C:\cocos\CocosCreator.exe --path $GITHUB_WORKSPACE --build "platform=web-mobile;debug=false"
 
     - name: List Build Output
-      run: ls "${GITHUB_WORKSPACE}/build/web-mobile"
+      run: Get-ChildItem -Path "${env:GITHUB_WORKSPACE}\build\web-mobile" -Force
+
   
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v2
