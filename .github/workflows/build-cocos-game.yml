@@ -1,0 +1,39 @@
+name: Cocos Creator Build and Upload
+
+on:
+  repository_dispatch:
+    types: [trigger-cocos-build]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Build Project with Cocos Creator CLI
+      env:
+        COCOS_CREATOR_VERSION: '2.4.8'
+      run: |
+        wget https://download.cocos.com/CocosCreator/v${COCOS_CREATOR_VERSION}/CocosCreator_v${COCOS_CREATOR_VERSION}_linux.deb
+        sudo dpkg -i CocosCreator_v${COCOS_CREATOR_VERSION}_linux.deb
+        /opt/cocos-creator/CocosCreator/2.4.8/CocosCreator --path $GITHUB_WORKSPACE --build "platform=web-mobile;debug=false"
+
+    - name: Zip Build Output
+      run: |
+        zip -r build.zip path/to/your/build/output
+
+    - name: Upload to Slack
+      env:
+        SLACK_TOKEN: ${{ secrets.xoxb-1857507923188-6274594411956-i6MTQlS5Q0vlh89mJCXp3JsO }}
+        SLACK_CHANNEL: 'D0680486QTC'
+      run: |
+        curl -F file=@build.zip -F "initial_comment=New build available" -F channels=${SLACK_CHANNEL} -H "Authorization: Bearer ${SLACK_TOKEN}" https://slack.com/api/files.upload
