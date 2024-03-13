@@ -21,7 +21,7 @@ jobs:
 
     - name: Download Cocos Creator
       run: |
-        Invoke-WebRequest -Uri https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/cocosInstaller/CocosCreator.exe -O CocosCreator_v2.4.8_windows.exe
+        wget https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/cocosInstaller/CocosCreator.exe
 
     - name: Install Cocos Creator
       run: |
