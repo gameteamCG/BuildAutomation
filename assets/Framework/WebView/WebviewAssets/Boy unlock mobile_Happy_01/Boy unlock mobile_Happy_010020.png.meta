@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6a36321a-e690-4a0f-9df0-6e4eb6fbe321",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 400,
+  "platformSettings": {},
+  "subMetas": {
+    "Boy unlock mobile_Happy_010020": {
+      "ver": "1.0.6",
+      "uuid": "cbae4db9-13ba-4bbe-85d0-becfbe6f918c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6a36321a-e690-4a0f-9df0-6e4eb6fbe321",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 3,
+      "offsetY": 1,
+      "trimX": 91,
+      "trimY": 4,
+      "width": 324,
+      "height": 390,
+      "rawWidth": 500,
+      "rawHeight": 400,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "tweenOut",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.7,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "a11ba71d-a27e-4564-bdfe-5ef68045151c"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "fe59f16f-303c-4cbc-a714-bc83c97052c6"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "2dff8484-45e6-402c-808b-f2264e99aabc"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "c0533b8a-8a55-4c59-ac0e-6d92effd426e"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "15ab1b59-3527-4e45-872f-c8fcfd454ea1"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "96e893bc-fcc8-496b-9830-823a8f45bf6c"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "731fc782-b99d-4f11-a759-0ea06709d434"
+            }
+          }
+        ]
+      }
+    },
+    "paths": {
+      "toon": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "MIGHTY_RAJU_SUPER_HERO",
+    "texture": "0ef13381-bd67-4918-963c-15d837a23b8d",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      1016,
+      251
+    ],
+    "offset": [
+      -1,
+      -0.5
+    ],
+    "originalSize": [
+      1024,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

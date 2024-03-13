@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "MobileBox",
+    "texture": "dda3b78f-076a-4f0d-91f2-884a414c7fa3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      238,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      238,
+      40
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

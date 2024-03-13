@@ -1,0 +1,17 @@
+{
+  "ver": "1.1.3",
+<<<<<<< Updated upstream
+  "uuid": "161e9c48-34ae-4b26-a3cc-d1dc2a993000",
+=======
+  "uuid": "77dff53b-47de-4017-b1d4-ba1888835db0",
+>>>>>>> Stashed changes
+  "importer": "folder",
+  "isBundle": false,
+  "bundleName": "",
+  "priority": 1,
+  "compressionType": {},
+  "optimizeHotUpdate": {},
+  "inlineSpriteFrames": {},
+  "isRemoteBundle": {},
+  "subMetas": {}
+}

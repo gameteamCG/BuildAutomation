@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "playerTimer",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 15,
+  "sample": 15,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "fill": {
+        "props": {
+          "width": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 15,
+              "value": 352
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

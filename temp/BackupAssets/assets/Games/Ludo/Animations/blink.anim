@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "blink",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 22,
+  "curveData": {
+    "props": {
+      "color": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Color",
+            "r": 104,
+            "g": 104,
+            "b": 104,
+            "a": 255
+          }
+        },
+        {
+          "frame": 0.4166666666666667,
+          "value": {
+            "__type__": "cc.Color",
+            "r": 104,
+            "g": 104,
+            "b": 104,
+            "a": 255
+          }
+        },
+        {
+          "frame": 0.5,
+          "value": {
+            "__type__": "cc.Color",
+            "r": 104,
+            "g": 104,
+            "b": 104,
+            "a": 255
+          }
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.4166666666666667,
+          "value": 255
+        },
+        {
+          "frame": 0.5,
+          "value": 255
+        }
+      ]
+    }
+  },
+  "events": []
+}
