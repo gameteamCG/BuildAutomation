@@ -33,7 +33,8 @@ jobs:
 
     - name: Build Cocos Project
       run: |
-        C:\cocos\CocosCreator.exe --path $GITHUB_WORKSPACE --build "platform=web-mobile;debug=false"
+        C:\cocos\CocosCreator.exe --path $GITHUB_WORKSPACE --build "platform=web-mobile;debug=false;buildPath=${GITHUB_WORKSPACE}/build/web-mobile"
+
 
     - name: List Workspace Contents
       run: Get-ChildItem -Path "${env:GITHUB_WORKSPACE}" -Force
