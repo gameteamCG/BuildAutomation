@@ -33,7 +33,7 @@ jobs:
 
     - name: Build Cocos Project
       run: |
-        C:\cocos\CocosCreator.exe --path $GITHUB_WORKSPACE --build "platform=web-mobile;debug=false"
+        C:\cocos\CocosCreator.exe --path $GITHUB_WORKSPACE/build --build "platform=web-mobile;debug=false"
         
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v2
