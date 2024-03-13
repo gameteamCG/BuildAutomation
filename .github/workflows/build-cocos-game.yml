@@ -21,16 +21,16 @@ jobs:
 
     - name: Download Cocos Creator
       run: |
-        Invoke-WebRequest -Uri 'https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/cocosInstaller/CocosCreator.exe' -OutFile 'C:\CocosCreator.exe'
+        Invoke-WebRequest -Uri 'https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/cocosInstaller/CocosCreator.exe' -OutFile 'C:\cocos\CocosCreator.exe'
 
     - name: Install Cocos Creator
       run: |
-        .\CocosCreator.exe /S /D=C:\CocosCreator
+        .\cocos\CocosCreator.exe /S /D=C:\cocos
 
     - name: Build Cocos Project
       run: |
-        C:\CocosCreator\CocosCreator.exe --path $GITHUB_WORKSPACE --build "platform=web-mobile;debug=false"
-
+        C:\cocos\CocosCreator.exe --path $GITHUB_WORKSPACE --build "platform=web-mobile;debug=false"
+        
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v2
       with:
