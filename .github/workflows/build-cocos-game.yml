@@ -35,7 +35,7 @@ jobs:
 
     - name: List Build Directory Contents
       run: |
-        Get-ChildItem -Path "${GITHUB_WORKSPACE}/build" -Force
+        Get-ChildItem -Path "${GITHUB_WORKSPACE}\build" -Force
 
     
     - name: Debug Build Output Directory
