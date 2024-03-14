@@ -32,9 +32,12 @@ jobs:
     - name: Build Cocos Project
       run: |
         C:\cocos\CocosCreator.exe --path "${{ github.workspace }}" --build "platform=web-mobile;debug=false;buildPath=${GITHUB_WORKSPACE}/build/web-mobile"
-    
+
     - name: Debug Build Command
-      run: echo "C:\cocos\CocosCreator.exe --path $GITHUB_WORKSPACE --build 'platform=web-mobile;debug=false'"
+      run: |
+        $GITHUB_WORKSPACE  # Output the value of the variable
+        echo "C:\cocos\CocosCreator.exe --path $env:GITHUB_WORKSPACE --build 'platform=web-mobile;debug=false'"
+      shell: pwsh
 
     - name: List Workspace Contents
       run: Get-ChildItem -Path "${env:GITHUB_WORKSPACE}" -Force
