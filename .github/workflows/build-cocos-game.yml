@@ -31,39 +31,7 @@ jobs:
     
     - name: Build Cocos Project
       run: |
-        C:\cocos\CocosCreator.exe --path "${{ github.workspace }}\assets" --build "platform=web-mobile;debug=false;buildPath=${GITHUB_WORKSPACE}/build/web-mobile"
-
-    - name: List Build Directory Contents
-      run: |
-        Get-ChildItem -Path "${GITHUB_WORKSPACE}\build" -Force
-
-    
-    - name: Debug Build Output Directory
-      run: |
-        echo "Build output directory: ${GITHUB_WORKSPACE}\build"
-        Get-ChildItem -Path "${GITHUB_WORKSPACE}\build" -Force
-        
-    - name: Debug Build Output Web mobile Directory
-      run: |
-        echo "Build output directory: ${GITHUB_WORKSPACE}\build/web-mobile"
-        Get-ChildItem -Path "${GITHUB_WORKSPACE}\build/web-mobile" -Force
-
-
-
-    - name: Debug Build Command
-      run: |
-        $GITHUB_WORKSPACE  # Output the value of the variable
-        echo "C:\cocos\CocosCreator.exe --path $env:GITHUB_WORKSPACE --build 'platform=web-mobile;debug=false'"
-      shell: pwsh
-
-    - name: List Workspace Contents
-      run: Get-ChildItem -Path "${env:GITHUB_WORKSPACE}" -Force
-    
-    - name: Show Current Working Directory
-      run: Get-Location
-    
-    - name: List Build Output
-      run: Get-ChildItem -Path "${env:GITHUB_WORKSPACE}\build/web-mobile" -Force
+        C:\cocos\CocosCreator.exe --path "${{ github.workspace }}" --build "platform=web-mobile;debug=false;buildPath=${GITHUB_WORKSPACE}/build/web-mobile"
     
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v2
