@@ -33,6 +33,9 @@ jobs:
       run: |
         C:\cocos\CocosCreator.exe --path "${{ github.workspace }}" --build "platform=web-mobile;debug=false;buildPath=${GITHUB_WORKSPACE}/build/web-mobile"
     
+    - name: Debug Build Command
+      run: echo "C:\cocos\CocosCreator.exe --path $GITHUB_WORKSPACE --build 'platform=web-mobile;debug=false'"
+
     - name: List Workspace Contents
       run: Get-ChildItem -Path "${env:GITHUB_WORKSPACE}" -Force
     
