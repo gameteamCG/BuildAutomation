@@ -46,7 +46,8 @@ jobs:
     
     - name: Zip Build Output
       run: |
-        Compress-Archive -Path $GITHUB_WORKSPACE/build/web-mobile -DestinationPath build.zip
+        Compress-Archive -Path build/web-mobile/* -DestinationPath build.zip
+
     
     - name: Upload to Slack
       env:
