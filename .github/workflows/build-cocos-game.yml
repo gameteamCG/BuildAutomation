@@ -33,6 +33,17 @@ jobs:
       run: |
         C:\cocos\CocosCreator.exe --path "${{ github.workspace }}" --build "platform=web-mobile;debug=false;buildPath=${GITHUB_WORKSPACE}/build/web-mobile"
 
+    - name: Debug Build Output Directory
+      run: |
+        echo "Build output directory: ${GITHUB_WORKSPACE}/build"
+        ls -al "${GITHUB_WORKSPACE}/build"
+        
+    - name: Debug Build Output Webmobile Directory
+      run: |
+        echo "Build output directory: ${GITHUB_WORKSPACE}/build/web-mobile"
+        ls -al "${GITHUB_WORKSPACE}/build/web-mobile"
+
+
     - name: Debug Build Command
       run: |
         $GITHUB_WORKSPACE  # Output the value of the variable
