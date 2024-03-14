@@ -40,13 +40,13 @@ jobs:
     
     - name: Debug Build Output Directory
       run: |
-        echo "Build output directory: ${GITHUB_WORKSPACE}/build"
-        Get-ChildItem -Path "${GITHUB_WORKSPACE}/build" -Force
+        echo "Build output directory: ${GITHUB_WORKSPACE}\build"
+        Get-ChildItem -Path "${GITHUB_WORKSPACE}\build" -Force
         
     - name: Debug Build Output Web mobile Directory
       run: |
-        echo "Build output directory: ${GITHUB_WORKSPACE}/build/web-mobile"
-        Get-ChildItem -Path "${GITHUB_WORKSPACE}/build/web-mobile" -Force
+        echo "Build output directory: ${GITHUB_WORKSPACE}\build/web-mobile"
+        Get-ChildItem -Path "${GITHUB_WORKSPACE}\build/web-mobile" -Force
 
 
 
@@ -63,7 +63,7 @@ jobs:
       run: Get-Location
     
     - name: List Build Output
-      run: Get-ChildItem -Path "${env:GITHUB_WORKSPACE}\build\web-mobile" -Force
+      run: Get-ChildItem -Path "${env:GITHUB_WORKSPACE}\build/web-mobile" -Force
     
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v2
