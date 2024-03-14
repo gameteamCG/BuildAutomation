@@ -31,13 +31,18 @@ jobs:
     
     - name: Build Cocos Project
       run: |
-        C:\cocos\CocosCreator.exe --path "${{ github.workspace }}" --build "platform=web-mobile;debug=false;buildPath=${GITHUB_WORKSPACE}/build/web-mobile"
+        C:\cocos\CocosCreator.exe --path . --build "platform=web-mobile;debug=false;buildPath=build/web-mobile"
+
+    - name: List Build Directory Contents
+      run: |
+        Get-ChildItem -Path "build/web-mobile" -Force
+
 
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v2
       with:
         name: web-mobile-build
-        path: $GITHUB_WORKSPACE/build/web-mobile/**
+        path: build/web-mobile/**
     
     - name: Zip Build Output
       run: |
