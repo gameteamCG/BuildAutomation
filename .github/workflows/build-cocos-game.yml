@@ -39,10 +39,11 @@ jobs:
       run: |
         git config --global user.name 'ritheeshCG'
         git config --global user.email 'ritheesh@creativegalileo.com'
-        git add build/
-        git commit -m "Update build directory"
+        git add -A build/
+        git status
+        git commit -m "Update build directory" || echo "No changes to commit"
         git push
-      shell: bash
+        shell: bash
       
     - name: List Build Directory Contents
       run: |
