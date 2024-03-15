@@ -41,11 +41,12 @@ jobs:
       run: |
         Compress-Archive -Path build/web-mobile/* -DestinationPath build.zip
 
-    - name: Upload Build Zip as Artifact
+    - name: Upload build artifact
       uses: actions/upload-artifact@v2
       with:
         name: web-mobile-build
         path: build.zip
+        if-no-files-found: warn
     
     - name: Upload to Slack
       env:
