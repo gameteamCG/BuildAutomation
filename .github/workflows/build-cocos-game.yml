@@ -35,6 +35,15 @@ jobs:
       run: |
         C:\cocos\CocosCreator.exe --path . --build "platform=web-mobile;debug=false;buildPath=build/web-mobile"
 
+    - name: Commit and Push Build Directory
+      run: |
+        git config --global user.name 'ritheeshCG'
+        git config --global user.email 'ritheesh@creativegalileo.com'
+        git add build/
+        git commit -m "Update build directory"
+        git push
+      shell: bash
+      
     - name: List Build Directory Contents
       run: |
         Get-ChildItem -Path "build/web-mobile" -Force
@@ -49,6 +58,7 @@ jobs:
         name: web-mobile-build
         path: build.zip
         if-no-files-found: warn
+
 
     - name: Upload to Slack
       run: |
