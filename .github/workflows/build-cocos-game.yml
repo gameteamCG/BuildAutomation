@@ -43,7 +43,9 @@ jobs:
         git status
         git commit -m "Update build directory" || echo "No changes to commit"
         git push
-        shell: bash
+      env:
+        GIT_ASKPASS: echo ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      shell: pwsh
       
     - name: List Build Directory Contents
       run: |
