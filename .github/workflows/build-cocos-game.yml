@@ -38,6 +38,12 @@ jobs:
     - name: List Build Directory Contents
       run: |
         Get-ChildItem -Path "build/web-mobile" -Force
+
+    - name: Verify Build Output Location
+      run: |
+        Get-ChildItem -Path "C:\cocos" -Recurse -Force
+      shell: pwsh
+
     
     - name: Zip Build Output
       run: |
