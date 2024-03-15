@@ -4,7 +4,7 @@ on:
     types: [trigger-cocos-build]
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: macos-latest
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
@@ -18,22 +18,10 @@ jobs:
         
     - name: Install Dependencies
       run: npm install
-      
-    - name: Create Directory
-      run: |
-        mkdir C:\cocos
-        
-    - name: Download Cocos Creator
-      run: |
-        Invoke-WebRequest -Uri 'https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/cocosInstaller/CocosCreator.exe' -OutFile 'C:\cocos\CocosCreator.exe'
-    
-    - name: Install Cocos Creator
-      run: |
-        C:\cocos\CocosCreator.exe /S /D=C:\cocos
     
     - name: Build Cocos Project
       run: |
-        C:\cocos\CocosCreator.exe --path ./build --build "platform=web-mobile;debug=true;buildPath=build/web-mobile"
+        /Applications/CocosCreator/Creator/2.4.8/CocosCreator.app/Contents/MacOS/CocosCreator --path . --build "platform=web-mobile;debug=true"
       
     - name: List Build Directory Contents
       run: |
@@ -69,6 +57,7 @@ jobs:
 
     - name: Upload to Slack
       run: |
-        curl.exe -F file=@build.zip -F channels=D0680486QTC,C067U15GV54 -F token=${{ secrets.SLACK_TOKEN }} -F initial_comment="Here is the latest Cocos Automation build." https://slack.com/api/files.upload
+        curl -F file=@build.zip -F channels=D0680486QTC,C067U15GV54 -F token=${{ secrets.SLACK_TOKEN }} -F initial_comment="Here is the latest Cocos Automation build." https://slack.com/api/files.upload
       shell: pwsh
+
 
