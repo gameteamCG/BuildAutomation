@@ -50,6 +50,22 @@ jobs:
         path: build.zip
         if-no-files-found: warn
 
+    - name: Configure Git
+      run: |
+        git config --global user.name 'ritheeshCG'
+        git config --global user.email 'ritheesh@creativegalileo.com'
+
+    - name: Commit Build Folder
+      run: |
+        git add build/
+        git commit -m "Update build folder with latest build" || echo "No changes to commit"
+
+    - name: Push Changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
+
 
     - name: Upload to Slack
       run: |
