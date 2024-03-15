@@ -30,11 +30,6 @@ jobs:
     - name: Install Cocos Creator
       run: |
         C:\cocos\CocosCreator.exe /S /D=C:\cocos
-        
-    - name: Clean Build Directory
-      run: |
-        Remove-Item -Path build/web-mobile/* -Recurse -Force
-
     
     - name: Build Cocos Project
       run: |
