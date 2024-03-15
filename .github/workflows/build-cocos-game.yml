@@ -53,4 +53,4 @@ jobs:
         SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
         SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
       run: |
-        curl -F file=@build.zip -F "initial_comment=New build available" -F channels=${SLACK_CHANNEL} -H "Authorization: Bearer ${SLACK_TOKEN}" https://slack.com/api/files.upload
+        curl -v -F file=@build.zip -F "initial_comment=New build available" -F channels=${SLACK_CHANNEL} -H "Authorization: Bearer ${SLACK_TOKEN}" https://slack.com/api/files.upload
