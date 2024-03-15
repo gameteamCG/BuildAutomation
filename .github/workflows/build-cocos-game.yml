@@ -4,24 +4,36 @@ on:
     types: [trigger-cocos-build]
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: windows-latest
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         ref: ${{ github.event.client_payload.branch }}
       
     - name: Setup Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
         node-version: '14'
         
     - name: Install Dependencies
       run: npm install
+      
+    - name: Create Directory
+      run: |
+        mkdir C:\cocos
+        
+    - name: Download Cocos Creator
+      run: |
+        Invoke-WebRequest -Uri 'https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/cocosInstaller/CocosCreator.exe' -OutFile 'C:\cocos\CocosCreator.exe'
+    
+    - name: Install Cocos Creator
+      run: |
+        C:\cocos\CocosCreator.exe /S /D=C:\cocos
     
     - name: Build Cocos Project
       run: |
-        /Applications/CocosCreator/Creator/2.4.8/CocosCreator.app/Contents/MacOS/CocosCreator --path . --build "platform=web-mobile;debug=true"
+        C:\cocos\CocosCreator.exe --path . --build "platform=web-mobile;debug=true;buildPath=build/web-mobile"
       
     - name: List Build Directory Contents
       run: |
@@ -32,7 +44,7 @@ jobs:
         Compress-Archive -Path build/web-mobile/* -DestinationPath build.zip
 
     - name: Upload build artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: web-mobile-build
         path: build.zip
@@ -57,7 +69,7 @@ jobs:
 
     - name: Upload to Slack
       run: |
-        curl -F file=@build.zip -F channels=D0680486QTC,C067U15GV54 -F token=${{ secrets.SLACK_TOKEN }} -F initial_comment="Here is the latest Cocos Automation build." https://slack.com/api/files.upload
+        curl.exe -F file=@build.zip -F channels=D0680486QTC,C067U15GV54 -F token=${{ secrets.SLACK_TOKEN }} -F initial_comment="Here is the latest Cocos Automation build." https://slack.com/api/files.upload
       shell: pwsh
 
 
