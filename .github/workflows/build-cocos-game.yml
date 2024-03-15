@@ -36,18 +36,16 @@ jobs:
     - name: List Build Directory Contents
       run: |
         Get-ChildItem -Path "build/web-mobile" -Force
-
-
-    - name: Upload Build Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: web-mobile-build
-        path: build/web-mobile/**
     
     - name: Zip Build Output
       run: |
         Compress-Archive -Path build/web-mobile/* -DestinationPath build.zip
 
+    - name: Upload Build Zip as Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: web-mobile-build
+        path: build.zip
     
     - name: Upload to Slack
       env:
