@@ -50,6 +50,16 @@ jobs:
         path: build.zip
         if-no-files-found: warn
 
+    - name: Commit and Push Build Directory
+      run: |
+        git config --global user.name 'ritheeshCG'
+        git config --global user.email 'ritheesh@creativegalileo.com'
+        git add build/
+        git commit -m "Update build directory"
+        git push
+      shell: bash
+
+
     - name: Upload to Slack
       run: |
         curl.exe -F file=@build.zip -F channels=D0680486QTC,C067U15GV54 -F token=${{ secrets.SLACK_TOKEN }} -F initial_comment="Here is the latest Cocos Automation build." https://slack.com/api/files.upload
