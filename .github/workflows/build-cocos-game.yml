@@ -7,12 +7,12 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         ref: ${{ github.event.client_payload.branch }}
       
     - name: Setup Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
         node-version: '14'
         
@@ -34,19 +34,6 @@ jobs:
     - name: Build Cocos Project
       run: |
         C:\cocos\CocosCreator.exe --path . --build "platform=web-mobile;debug=false;buildPath=build/web-mobile"
-
-    - name: Commit and Push Build Directory
-      run: |
-        git config user.name 'ritheeshCG'
-        git config user.email 'ritheesh@creativegalileo.com'
-        git add -A build/
-        git status
-        git commit -m "Update build directory" || echo "No changes to commit"
-        git push origin ${GITHUB_REF#refs/heads/}:refs/heads/${GITHUB_REF#refs/heads/}
-      shell: pwsh
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       
     - name: List Build Directory Contents
       run: |
@@ -57,7 +44,7 @@ jobs:
         Compress-Archive -Path build/web-mobile/* -DestinationPath build.zip
 
     - name: Upload build artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: web-mobile-build
         path: build.zip
