@@ -33,7 +33,7 @@ jobs:
     
     - name: Build Cocos Project
       run: |
-        C:\cocos\CocosCreator.exe --path . --build "platform=web-mobile;debug=false;buildPath=build/web-mobile"
+        C:\cocos\CocosCreator.exe --path . --build "platform=web-mobile;debug=true;buildPath=build/web-mobile"
       
     - name: List Build Directory Contents
       run: |
