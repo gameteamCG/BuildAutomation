@@ -21,7 +21,7 @@ jobs:
     
     - name: Build Cocos Project
       run: |
-        Invoke-WebRequest -Uri 'https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/Cocos_Directory/CocosCreator.app/Contents/MacOS/CocosCreator' --path . --build "platform=web-mobile;debug=true;buildPath=build/web-mobile"
+        'https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/Cocos_Directory/CocosCreator.app/Contents/MacOS/CocosCreator' --path . --build "platform=web-mobile;debug=true;buildPath=build/web-mobile"
       
     - name: List Build Directory Contents
       run: |
