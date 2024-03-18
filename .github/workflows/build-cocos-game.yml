@@ -18,10 +18,18 @@ jobs:
         
     - name: Install Dependencies
       run: npm install
-    
+
+    - name: Download Cocos Creator
+      run: |
+        curl -L "https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/Cocos_2.4.8_zip/CocosCreator.zip" -o CocosCreator.zip
+
+    - name: Unzip Cocos Creator
+      run: |
+        unzip CocosCreator.zip
+
     - name: Build Cocos Project
       run: |
-        'https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/Cocos_Directory/CocosCreator.app/Contents/MacOS/CocosCreator' --path . --build "platform=web-mobile;debug=true;buildPath=build/web-mobile"
+        ./CocosCreator.app/Contents/MacOS/CocosCreator --path . --build "platform=web-mobile;debug=true;buildPath=build/web-mobile"
       
     - name: List Build Directory Contents
       run: |
@@ -59,5 +67,4 @@ jobs:
       run: |
         curl.exe -F file=@build.zip -F channels=D0680486QTC,C067U15GV54 -F token=${{ secrets.SLACK_TOKEN }} -F initial_comment="Here is the latest Cocos Automation build." https://slack.com/api/files.upload
       shell: pwsh
-
 
