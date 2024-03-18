@@ -4,7 +4,7 @@ on:
     types: [trigger-cocos-build]
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: macos-latest
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
@@ -18,32 +18,14 @@ jobs:
         
     - name: Install Dependencies
       run: npm install
-      
-    - name: Create Directory
-      run: |
-        mkdir C:\cocos
-        
-    - name: Download Cocos Creator
-      run: |
-        Invoke-WebRequest -Uri 'https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/cocosInstaller/CocosCreator.exe' -OutFile 'C:\cocos\CocosCreator.exe'
-    
-    - name: Install Cocos Creator
-      run: |
-        C:\cocos\CocosCreator.exe /S /D=C:\cocos
     
     - name: Build Cocos Project
       run: |
-        C:\cocos\CocosCreator.exe --path . --build "platform=web-mobile;debug=true;
+        Invoke-WebRequest -Uri 'https://s3.ap-south-1.amazonaws.com/cggames.creativegalileo.com/Cocos_Directory/CocosCreator.app/Contents/MacOS/CocosCreator' --path . --build "platform=web-mobile;debug=true;buildPath=build/web-mobile"
       
     - name: List Build Directory Contents
       run: |
         Get-ChildItem -Path "build/web-mobile" -Force
-
-    - name: Verify Build Output Location
-      run: |
-        Get-ChildItem -Path "C:\cocos" -Recurse -Force
-      shell: pwsh
-
     
     - name: Zip Build Output
       run: |
