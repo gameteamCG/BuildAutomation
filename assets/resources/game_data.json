@@ -1,0 +1,31 @@
+{
+  "additionalData": {
+    "GameID": "testing the game name",
+    "totalLevel": "1",
+    "TitleImageName": "letterCcDd.png",
+    "introBgName": "bgmain.png",
+    "bgmMusicName": "bgm2.mp3",
+    "mainBgName": "bg2.png",
+    "JockeyName": "Singham",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "test 1",
+      "questionAudioName": "identify_the_lowercase_D.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 2,
+      "options": [
+        "duck.png",
+        "car.png"
+      ],
+      "correctAudios": [
+        "duck.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
