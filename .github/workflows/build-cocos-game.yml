@@ -1,17 +1,17 @@
-name: Cocos Creator Build and Upload
+name: Cocos Creator Build and Upload (Windows)
 on:
   repository_dispatch:
     types: [trigger-cocos-build]
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: windows-latest
     steps:
     - name: Checkout Repository and Fetch LFS Objects
       uses: actions/checkout@v3
       with:
         ref: ${{ github.event.client_payload.branch }}
         lfs: true
-      
+        
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
@@ -19,43 +19,44 @@ jobs:
         
     - name: Install Dependencies
       run: npm install
+      shell: cmd
 
     - name: Unzip Cocos Creator
-      run: |
-        unzip 2.4.8.zip -d CocosCreator
+      run: Expand-Archive -Path 2.4.8.zip -DestinationPath CocosCreator
+      shell: powershell
 
     - name: Build Cocos Project
-      run: |
-        ./CocosCreator/CocosCreator.app/Contents/MacOS/CocosCreator --path . --build "platform=web-mobile;debug=true;buildPath=build/web-mobile" --verbose
+      run: .\CocosCreator\CocosCreator.exe --path . --build "platform=web-mobile;debug=true;buildPath=build\web-mobile"
+      shell: cmd
       
-    - name: List Build Directory Contents
-      run: ls -la build/web-mobile
-    
     - name: Zip Build Output
-      run: zip -r build.zip build/web-mobile/
+      run: Compress-Archive -Path build/web-mobile/* -DestinationPath build.zip
+      shell: powershell
 
     - name: Upload build artifact
       uses: actions/upload-artifact@v3
       with:
         name: web-mobile-build
         path: build.zip
-        if-no-files-found: warn
 
     - name: Configure Git
       run: |
         git config --global user.name 'ritheeshCG'
         git config --global user.email 'ritheesh@creativegalileo.com'
+      shell: cmd
 
     - name: Commit Build Folder
       run: |
         git add build/
         git commit -m "Update build folder with latest build" || echo "No changes to commit"
+      shell: cmd
 
     - name: Push Changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+        branch: ${{ github.event.client_payload.branch }}
+
 
     - name: Upload to Slack
       run: |
