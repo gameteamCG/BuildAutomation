@@ -21,9 +21,10 @@ jobs:
       run: npm install
       shell: cmd
 
-    - name: Unzip Cocos Creator
-      run: Expand-Archive -Path 2.4.8.zip -DestinationPath CocosCreator
-      shell: powershell
+    - name: Unzip Cocos Creator with 7-Zip
+      run: 7z x 2.4.8.zip -oCocosCreator
+      shell: cmd
+
 
     - name: Build Cocos Project
       run: .\CocosCreator\CocosCreator.exe --path . --build "platform=web-mobile;debug=true;buildPath=build\web-mobile"
