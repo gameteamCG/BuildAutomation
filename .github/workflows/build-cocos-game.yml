@@ -25,9 +25,12 @@ jobs:
       run: 7z x 2.4.8.zip -oCocosCreator
       shell: cmd
 
+    - name: List CocosCreator Directory Contents
+      run: dir CocosCreator
+      shell: cmd
 
     - name: Build Cocos Project
-      run: .\CocosCreator\CocosCreator.exe --path . --build "platform=web-mobile;debug=true;buildPath=build\web-mobile"
+      run: .\CocosCreator\2.4.8\CocosCreator.exe --path . --build "platform=web-mobile;debug=true;buildPath=build\web-mobile"
       shell: cmd
       
     - name: Zip Build Output
