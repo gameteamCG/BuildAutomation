@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Test game for game name",
+      "totalLevel": "1",
+      "TitleImageName": "Asset101.png",
+      "introBgName": "jrkg.png",
+      "bgmMusicName": "bgmpattern.mp3",
+      "mainBgName": "BG1.png",
+      "JockeyName": "tlc",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Test Question 1",
+        "questionAudioName": "van.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0006_500x500_0010_strawberry.png",
+          "500x500_0004_500x500_0014_hut.png"
+        ],
+        "correctAudios": [
+          "L1correct.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
