@@ -1,0 +1,157 @@
+{
+    "paths": {
+        "520WYTqu9CNKCHy4v2UOHI": [
+            "audios/Q_sour",
+            "cc.AudioClip"
+        ],
+        "25Mmj9efpJtaWWb+8oLjvW": [
+            "audios/bgm_sc",
+            "cc.AudioClip"
+        ],
+        "6f9SKsEpRDhLuVLIv4zgr0": [
+            "audios/spinech",
+            "cc.AudioClip"
+        ],
+        "7fuX5L3MdGRo9H5ASIABMd": [
+            "game_data",
+            "cc.JsonAsset"
+        ],
+        "a9Zl0KD9NFSZX7EmLza1UC": [
+            "images/500x500_0001_apple",
+            "cc.Texture2D"
+        ],
+        "f8nYSl81pPmoj8enL7vwno": [
+            "images/500x500_0001_apple",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b8y34h5s1I7aRjRoh9S4WT": [
+            "images/500x500_0001_spinach",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d8rpDzSHdMYb58ouoDGxQ0": [
+            "images/500x500_0001_spinach",
+            "cc.Texture2D"
+        ],
+        "1b/8BdGyRFO5//+SiIpbcQ": [
+            "images/panel",
+            "cc.SpriteFrame",
+            1
+        ],
+        "deGyZZzQtEx5Y6fwCTlZNi": [
+            "images/panel",
+            "cc.Texture2D"
+        ],
+        "4d2/YuHjFKo5cAQtXxp8q3": [
+            "images/restaurant_bg",
+            "cc.Texture2D"
+        ],
+        "9cENcyoL5FFKUqeuuXzUaE": [
+            "images/restaurant_bg",
+            "cc.SpriteFrame",
+            1
+        ],
+        "77YCfhHaNPZqLkiN5cX3EA": [
+            "images/sortbytaste",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f3HIkbNolE/K/stBwoFrhb": [
+            "images/sortbytaste",
+            "cc.Texture2D"
+        ],
+        "06R6mtu95P9IMWUlT5PgTf": [
+            "images/tlc_bg",
+            "cc.SpriteFrame",
+            1
+        ],
+        "47skVkjdRDoKyR8uHwvvkL": [
+            "images/tlc_bg",
+            "cc.Texture2D"
+        ]
+    },
+    "uuids": [
+        "06R6mtu95P9IMWUlT5PgTf",
+        "1b/8BdGyRFO5//+SiIpbcQ",
+        "25Mmj9efpJtaWWb+8oLjvW",
+        "47skVkjdRDoKyR8uHwvvkL",
+        "4d2/YuHjFKo5cAQtXxp8q3",
+        "520WYTqu9CNKCHy4v2UOHI",
+        "6f9SKsEpRDhLuVLIv4zgr0",
+        "77YCfhHaNPZqLkiN5cX3EA",
+        "7fuX5L3MdGRo9H5ASIABMd",
+        "9cENcyoL5FFKUqeuuXzUaE",
+        "a9Zl0KD9NFSZX7EmLza1UC",
+        "b8y34h5s1I7aRjRoh9S4WT",
+        "d8rpDzSHdMYb58ouoDGxQ0",
+        "deGyZZzQtEx5Y6fwCTlZNi",
+        "f3HIkbNolE/K/stBwoFrhb",
+        "f8nYSl81pPmoj8enL7vwno"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {
+        "08bb18fd3": [
+            "47skVkjdRDoKyR8uHwvvkL",
+            "4d2/YuHjFKo5cAQtXxp8q3",
+            "a9Zl0KD9NFSZX7EmLza1UC",
+            "d8rpDzSHdMYb58ouoDGxQ0",
+            "deGyZZzQtEx5Y6fwCTlZNi",
+            "f3HIkbNolE/K/stBwoFrhb"
+        ]
+    },
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "06R6mtu95P9IMWUlT5PgTf",
+            "b76d0",
+            "08bb18fd3",
+            "6e003",
+            "1b/8BdGyRFO5//+SiIpbcQ",
+            "5da50",
+            "25Mmj9efpJtaWWb+8oLjvW",
+            "c4575",
+            "520WYTqu9CNKCHy4v2UOHI",
+            "3f141",
+            "6f9SKsEpRDhLuVLIv4zgr0",
+            "f78a1",
+            "77YCfhHaNPZqLkiN5cX3EA",
+            "09eac",
+            "7fuX5L3MdGRo9H5ASIABMd",
+            "9a17e",
+            "9cENcyoL5FFKUqeuuXzUaE",
+            "74f30",
+            "b8y34h5s1I7aRjRoh9S4WT",
+            "97b8c",
+            "f8nYSl81pPmoj8enL7vwno",
+            "bc2d8"
+        ],
+        "native": [
+            "25Mmj9efpJtaWWb+8oLjvW",
+            "50928",
+            "47skVkjdRDoKyR8uHwvvkL",
+            "69a01",
+            "4d2/YuHjFKo5cAQtXxp8q3",
+            "90c94",
+            "520WYTqu9CNKCHy4v2UOHI",
+            "fab59",
+            "6f9SKsEpRDhLuVLIv4zgr0",
+            "9a5de",
+            "a9Zl0KD9NFSZX7EmLza1UC",
+            "d7322",
+            "d8rpDzSHdMYb58ouoDGxQ0",
+            "2fa82",
+            "deGyZZzQtEx5Y6fwCTlZNi",
+            "4ee05",
+            "f3HIkbNolE/K/stBwoFrhb",
+            "f014f"
+        ]
+    }
+}

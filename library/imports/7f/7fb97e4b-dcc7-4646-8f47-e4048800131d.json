@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Null",
+      "totalLevel": "1",
+      "TitleImageName": "sortbytaste.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "bgm_sc.mp3",
+      "mainBgName": "restaurant_bg.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Sort by taste",
+        "questionAudioName": "Q_sour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0001_spinach.png",
+          "500x500_0001_apple.png"
+        ],
+        "correctAudios": [
+          "spinech.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

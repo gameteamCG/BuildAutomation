@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f3HIkbNolE/K/stBwoFrhb"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "sortbytaste",
+      "rect": [
+        0,
+        4,
+        466,
+        244
+      ],
+      "offset": [
+        0,
+        19
+      ],
+      "originalSize": [
+        466,
+        290
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
