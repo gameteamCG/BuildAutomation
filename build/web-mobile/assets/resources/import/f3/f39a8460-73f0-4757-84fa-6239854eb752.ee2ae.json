@@ -1,0 +1,65 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "additionalData": {
+          "GameID": "null",
+          "totalLevel": "1",
+          "TitleImageName": "Asset81.png",
+          "introBgName": "b.png",
+          "bgmMusicName": "Identify-the-pictures-that-begin-with-the-letter-sound-d.mp3",
+          "mainBgName": "b.png",
+          "JockeyName": "Mighty_Raju",
+          "templateType": "SimpleTap"
+        },
+        "questionData": [
+          {
+            "questionText": "test",
+            "questionAudioName": "Anchor.mp3",
+            "shouldPlayQuestionAudio": false,
+            "commonOptionImageName": "",
+            "isOptionText": true,
+            "isOptionBG": false,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "1",
+            "options": [
+              "a",
+              "b"
+            ],
+            "correctAudios": [
+              "Anchor.mp3"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

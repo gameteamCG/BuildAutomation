@@ -1,0 +1,84 @@
+{
+    "paths": {
+        "7flmmBz75BKYSrtdikPqgt": [
+            "audios/Anchor",
+            "cc.AudioClip"
+        ],
+        "14sVxuCjlNIo89s4E0vQ12": [
+            "audios/Identify-the-pictures-that-begin-with-the-letter-sound-d",
+            "cc.AudioClip"
+        ],
+        "f3moRgc/BHV4T6YjmFTrdS": [
+            "game_data",
+            "cc.JsonAsset"
+        ],
+        "08s5GJ6cRIv7cryiRnrEb6": [
+            "images/Asset81",
+            "cc.SpriteFrame",
+            1
+        ],
+        "89VRwYhzJPCaVlv4809RFp": [
+            "images/Asset81",
+            "cc.Texture2D"
+        ],
+        "04hpckDfFMGpb7w8ZJ/Scr": [
+            "images/b",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f8HFxSNuRF7bBNP76kIte7": [
+            "images/b",
+            "cc.Texture2D"
+        ]
+    },
+    "uuids": [
+        "04hpckDfFMGpb7w8ZJ/Scr",
+        "08s5GJ6cRIv7cryiRnrEb6",
+        "14sVxuCjlNIo89s4E0vQ12",
+        "7flmmBz75BKYSrtdikPqgt",
+        "89VRwYhzJPCaVlv4809RFp",
+        "f3moRgc/BHV4T6YjmFTrdS",
+        "f8HFxSNuRF7bBNP76kIte7"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {
+        "04ee3a760": [
+            "89VRwYhzJPCaVlv4809RFp",
+            "f8HFxSNuRF7bBNP76kIte7"
+        ]
+    },
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "04hpckDfFMGpb7w8ZJ/Scr",
+            "86456",
+            "04ee3a760",
+            "60ab2",
+            "08s5GJ6cRIv7cryiRnrEb6",
+            "aef9d",
+            "14sVxuCjlNIo89s4E0vQ12",
+            "0ee50",
+            "7flmmBz75BKYSrtdikPqgt",
+            "80503",
+            "f3moRgc/BHV4T6YjmFTrdS",
+            "ee2ae"
+        ],
+        "native": [
+            "14sVxuCjlNIo89s4E0vQ12",
+            "a8db0",
+            "7flmmBz75BKYSrtdikPqgt",
+            "ac005",
+            "89VRwYhzJPCaVlv4809RFp",
+            "27657",
+            "f8HFxSNuRF7bBNP76kIte7",
+            "0285f"
+        ]
+    }
+}
