@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "44/uXA1sRH+qanW8BsgVyT"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Redchillie",
+      "rect": [
+        60,
+        12,
+        343,
+        455
+      ],
+      "offset": [
+        -18.5,
+        10.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

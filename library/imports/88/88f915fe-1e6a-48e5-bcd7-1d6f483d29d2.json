@@ -1,0 +1,83 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Abhay CG129",
+      "totalLevel": "3",
+      "TitleImageName": "Asset.png",
+      "introBgName": "Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Mighty_Raju",
+      "templateType": "TapToCollect"
+    },
+    "questionData": [
+      {
+        "questionText": " Collect the matching colour",
+        "questionImageName": "redbasket.png",
+        "questionAudioName": "Queaudio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "tile.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "Redchillie.png",
+          "Redstrawberrey.png",
+          "YellowCorn.png",
+          "Yellowlemon.png"
+        ],
+        "correctAudios": [
+          "redchillies.mp3",
+          "redstrawberries.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionText": " Collect the matching colour",
+        "questionImageName": "bluebasket.png",
+        "questionAudioName": "Queaudio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "tile.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "Blueberry.png",
+          "Redstrawberrey.png",
+          "Bluedress.png",
+          "Basketball.png"
+        ],
+        "correctAudios": [
+          "blueberry.mp3",
+          "bluedress.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionText": " Collect the matching colour",
+        "questionImageName": "yellowbasket.png",
+        "questionAudioName": "Queaudio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "tile.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "YellowCorn.png",
+          "redcrab.png",
+          "orangefish.png",
+          "Yellowlemon.png"
+        ],
+        "correctAudios": [
+          "yellowcorn.mp3",
+          "yellowlemon.mp3"
+        ],
+        "correctAnswerNum": "14"
+      }
+    ]
+  }
+}

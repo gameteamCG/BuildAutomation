@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "orangefish",
+    "texture": "75444f7c-bc1a-4427-bc7a-40981dd33c0b",
+    "atlas": "",
+    "rect": [
+      23,
+      107,
+      454,
+      286
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

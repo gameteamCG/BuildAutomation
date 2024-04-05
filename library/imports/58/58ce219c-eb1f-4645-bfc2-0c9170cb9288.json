@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Yellowlemon",
+    "texture": "2af14086-6f35-4fe1-86de-1044407f1a2a",
+    "atlas": "",
+    "rect": [
+      73,
+      72,
+      354,
+      356
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
