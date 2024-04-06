@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "quiz overlay -8",
+    "texture": "39194ac3-bbbb-44a6-898f-c42d61daacfb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      973,
+      546
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      973,
+      546
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

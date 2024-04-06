@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "star bar-min",
+    "texture": "7c2da352-5edf-4c60-8b65-cd11490e47e8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      479,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      479,
+      85
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

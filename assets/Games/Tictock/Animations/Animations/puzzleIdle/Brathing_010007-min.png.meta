@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d63c6632-b842-491b-852a-f303a6635db1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Brathing_010007-min": {
+      "ver": "1.0.6",
+      "uuid": "059147bd-ed8a-4456-9b64-addcb5495426",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d63c6632-b842-491b-852a-f303a6635db1",
+      "trimType": "none",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 500,
+      "height": 500,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

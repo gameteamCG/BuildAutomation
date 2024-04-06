@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "player remaining grey-8",
+    "texture": "c14c711f-d784-4c4a-a557-644420d31758",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      934,
+      12
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      934,
+      12
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

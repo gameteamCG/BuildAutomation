@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "puzzleJump",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.4,
+  "sample": 10,
+  "speed": 0.7,
+  "wrapMode": 22,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "bb83a7f7-ab1d-4b3c-9084-f7fd1cf23c4b"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "0c2879c5-40c2-4e3d-bf9e-e62cfc8082e9"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "703acbaa-8aff-4d51-8701-940b3c532901"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "y": [
+        {
+          "frame": 0,
+          "value": -124.002
+        },
+        {
+          "frame": 0.1,
+          "value": 4.081
+        },
+        {
+          "frame": 0.3,
+          "value": 87.578
+        },
+        {
+          "frame": 0.4,
+          "value": 110.296
+        }
+      ],
+      "height": [
+        {
+          "frame": 0,
+          "value": 200
+        },
+        {
+          "frame": 0.1,
+          "value": 301
+        },
+        {
+          "frame": 0.3,
+          "value": 211
+        },
+        {
+          "frame": 0.4,
+          "value": 230
+        }
+      ],
+      "scale": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 1.5,
+            "y": 1.5
+          }
+        },
+        {
+          "frame": 0.4,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 2,
+            "y": 2
+          }
+        }
+      ],
+      "width": [
+        {
+          "frame": 0,
+          "value": 250
+        }
+      ]
+    }
+  },
+  "events": []
+}

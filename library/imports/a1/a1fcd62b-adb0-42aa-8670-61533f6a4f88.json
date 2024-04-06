@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "puzzleWrong",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.4666666666666667,
+  "sample": 15,
+  "speed": 0.5,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "8d2216df-f30e-41f6-8ce6-0c27096ea3ac"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "9535785a-4d6c-4719-bda5-cd21315e7386"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "fd0cd30c-c486-48e5-b721-81d35d8961e2"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "f9bdcf7f-e1c8-4fb5-9aa4-f50aaa36cf8c"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "2e7092b4-8f37-49fa-bd79-4f42d4815a15"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "486966e7-aa19-45b5-a196-3b54cdfa7eb6"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "464ca5c4-d272-41b2-be41-ee2391ba7743"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

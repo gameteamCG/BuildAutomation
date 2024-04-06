@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "PAPPI",
+    "texture": "553e0a61-d459-41b8-9451-cc1ebcf6c37f",
+    "atlas": "",
+    "rect": [
+      96,
+      27,
+      308,
+      473
+    ],
+    "offset": [
+      0,
+      -13.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

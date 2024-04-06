@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "LAXMAN",
+    "texture": "12f7a8a1-93c1-459e-88e3-012f70787b95",
+    "atlas": "",
+    "rect": [
+      18,
+      33,
+      455,
+      457
+    ],
+    "offset": [
+      -4.5,
+      -11.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

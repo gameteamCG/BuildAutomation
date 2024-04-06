@@ -1,0 +1,66 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "puzzleIdle1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "y": [
+        {
+          "frame": 0,
+          "value": -185.917
+        },
+        {
+          "frame": 1,
+          "value": -174
+        },
+        {
+          "frame": 2,
+          "value": -185.917
+        }
+      ],
+      "height": [
+        {
+          "frame": 0,
+          "value": 250
+        },
+        {
+          "frame": 1,
+          "value": 273
+        },
+        {
+          "frame": 2,
+          "value": 250
+        }
+      ],
+      "width": [
+        {
+          "frame": 0,
+          "value": 250
+        },
+        {
+          "frame": 2,
+          "value": 250
+        }
+      ],
+      "scale": []
+    },
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "da350e3d-e786-43e8-a999-8fb50a3d2b4e"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

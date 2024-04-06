@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "384958a9-555e-42a6-a482-92385e7a31cd",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Quiz-time0003": {
+      "ver": "1.0.6",
+      "uuid": "828ac676-5c8d-4463-9e28-255988c961ed",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "384958a9-555e-42a6-a482-92385e7a31cd",
+      "trimType": "none",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 500,
+      "height": 500,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

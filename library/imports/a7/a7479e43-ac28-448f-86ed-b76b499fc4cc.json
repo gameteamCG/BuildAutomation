@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "question box-min",
+    "texture": "683e0926-3486-4e80-b32b-384f0f1be180",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      621,
+      531
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      621,
+      531
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

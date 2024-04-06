@@ -1,0 +1,181 @@
+
+toondomy0001.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blink0001
+  rotate: false
+  xy: 1102, 1413
+  size: 143, 179
+  orig: 143, 179
+  offset: 0, 0
+  index: -1
+blink0002
+  rotate: false
+  xy: 1102, 1232
+  size: 143, 179
+  orig: 143, 179
+  offset: 0, 0
+  index: -1
+blink0003
+  rotate: false
+  xy: 1102, 1051
+  size: 143, 179
+  orig: 143, 179
+  offset: 0, 0
+  index: -1
+blink0004
+  rotate: true
+  xy: 1102, 906
+  size: 143, 179
+  orig: 143, 179
+  offset: 0, 0
+  index: -1
+blink0005
+  rotate: false
+  xy: 1161, 725
+  size: 143, 179
+  orig: 143, 179
+  offset: 0, 0
+  index: -1
+blink0006
+  rotate: true
+  xy: 1161, 580
+  size: 143, 179
+  orig: 143, 179
+  offset: 0, 0
+  index: -1
+cup0001
+  rotate: true
+  xy: 957, 578
+  size: 311, 202
+  orig: 311, 202
+  offset: 0, 0
+  index: -1
+cup0002
+  rotate: false
+  xy: 1288, 48
+  size: 91, 115
+  orig: 91, 115
+  offset: 0, 0
+  index: -1
+cup0003
+  rotate: false
+  xy: 1288, 165
+  size: 99, 109
+  orig: 99, 109
+  offset: 0, 0
+  index: -1
+cup0004
+  rotate: false
+  xy: 104, 25
+  size: 105, 44
+  orig: 105, 44
+  offset: 0, 0
+  index: -1
+cup0005
+  rotate: false
+  xy: 2, 21
+  size: 100, 48
+  orig: 100, 48
+  offset: 0, 0
+  index: -1
+cup0006
+  rotate: true
+  xy: 1102, 1775
+  size: 155, 172
+  orig: 155, 172
+  offset: 0, 0
+  index: -1
+cup0007
+  rotate: false
+  xy: 1102, 1594
+  size: 144, 179
+  orig: 144, 179
+  offset: 0, 0
+  index: -1
+cup0008
+  rotate: false
+  xy: 2, 891
+  size: 1098, 1155
+  orig: 1098, 1155
+  offset: 0, 0
+  index: -1
+toondomy0001
+  rotate: false
+  xy: 1102, 1932
+  size: 306, 114
+  orig: 306, 114
+  offset: 0, 0
+  index: -1
+toondomy0002
+  rotate: true
+  xy: 1064, 2
+  size: 85, 104
+  orig: 85, 104
+  offset: 0, 0
+  index: -1
+toondomy0003
+  rotate: true
+  xy: 957, 2
+  size: 85, 105
+  orig: 85, 105
+  offset: 0, 0
+  index: -1
+toondomy0004
+  rotate: false
+  xy: 303, 30
+  size: 98, 39
+  orig: 98, 39
+  offset: 0, 0
+  index: -1
+toondomy0005
+  rotate: false
+  xy: 211, 21
+  size: 90, 48
+  orig: 90, 48
+  offset: 0, 0
+  index: -1
+toondomy0006
+  rotate: false
+  xy: 1273, 411
+  size: 133, 167
+  orig: 133, 167
+  offset: 0, 0
+  index: -1
+toondomy0007
+  rotate: true
+  xy: 1273, 276
+  size: 133, 165
+  orig: 133, 165
+  offset: 0, 0
+  index: -1
+toondomy0008
+  rotate: false
+  xy: 2, 71
+  size: 953, 818
+  orig: 953, 818
+  offset: 0, 0
+  index: -1
+tunge0001
+  rotate: false
+  xy: 957, 89
+  size: 329, 156
+  orig: 329, 156
+  offset: 0, 0
+  index: -1
+tunge0002
+  rotate: true
+  xy: 957, 247
+  size: 329, 156
+  orig: 329, 156
+  offset: 0, 0
+  index: -1
+tunge0003
+  rotate: true
+  xy: 1115, 247
+  size: 329, 156
+  orig: 329, 156
+  offset: 0, 0
+  index: -1

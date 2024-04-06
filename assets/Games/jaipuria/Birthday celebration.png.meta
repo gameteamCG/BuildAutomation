@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "555ca3bd-7e5a-4e19-b38c-d7747bd05b7c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 959,
+  "height": 348,
+  "platformSettings": {},
+  "subMetas": {
+    "Birthday celebration": {
+      "ver": "1.0.6",
+      "uuid": "897dc456-c945-4734-9369-9578f1011b76",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "555ca3bd-7e5a-4e19-b38c-d7747bd05b7c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 11,
+      "offsetY": -3,
+      "trimX": 24,
+      "trimY": 24,
+      "width": 933,
+      "height": 306,
+      "rawWidth": 959,
+      "rawHeight": 348,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

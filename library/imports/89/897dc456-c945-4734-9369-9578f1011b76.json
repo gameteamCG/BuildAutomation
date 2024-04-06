@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Birthday celebration",
+    "texture": "555ca3bd-7e5a-4e19-b38c-d7747bd05b7c",
+    "atlas": "",
+    "rect": [
+      24,
+      24,
+      933,
+      306
+    ],
+    "offset": [
+      11,
+      -3
+    ],
+    "originalSize": [
+      959,
+      348
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

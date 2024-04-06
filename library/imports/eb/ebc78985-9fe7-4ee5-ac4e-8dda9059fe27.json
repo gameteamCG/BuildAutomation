@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "end word-min",
+    "texture": "1295ac25-b9f3-420d-a7fb-a6d717877d9c",
+    "atlas": "",
+    "rect": [
+      2,
+      11,
+      492,
+      73
+    ],
+    "offset": [
+      0.5,
+      -3
+    ],
+    "originalSize": [
+      495,
+      89
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

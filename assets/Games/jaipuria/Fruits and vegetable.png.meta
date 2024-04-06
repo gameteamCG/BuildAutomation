@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d3b0d230-1edb-4ba5-9195-6f0af41d78c7",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 911,
+  "height": 368,
+  "platformSettings": {},
+  "subMetas": {
+    "Fruits and vegetable": {
+      "ver": "1.0.6",
+      "uuid": "88a07517-e41e-4604-a552-5caf6bb47194",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d3b0d230-1edb-4ba5-9195-6f0af41d78c7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 11.5,
+      "offsetY": -12,
+      "trimX": 25,
+      "trimY": 25,
+      "width": 884,
+      "height": 342,
+      "rawWidth": 911,
+      "rawHeight": 368,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

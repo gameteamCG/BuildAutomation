@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "puzzleStars",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 7,
+  "speed": 0.5,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "1f1f6d1b-6c32-451f-9c0a-acbcf51f1f7f"
+            }
+          },
+          {
+            "frame": 0.14285714285714285,
+            "value": {
+              "__uuid__": "fa8429f0-5b74-4242-b4ab-7ee7510f4442"
+            }
+          },
+          {
+            "frame": 0.2857142857142857,
+            "value": {
+              "__uuid__": "f2b14c12-1c8e-4a2e-aea8-b4412650aa5f"
+            }
+          },
+          {
+            "frame": 0.42857142857142855,
+            "value": {
+              "__uuid__": "c04aa379-3d6d-49d3-b372-0c0c5256016b"
+            }
+          },
+          {
+            "frame": 0.5714285714285714,
+            "value": {
+              "__uuid__": "f00b8da5-a339-4152-8199-d828233dd1d5"
+            }
+          },
+          {
+            "frame": 0.7142857142857143,
+            "value": {
+              "__uuid__": "e33aee50-e61a-418b-8316-6aaa11aa6d73"
+            }
+          },
+          {
+            "frame": 0.8571428571428571,
+            "value": {
+              "__uuid__": "5c29a095-b4f8-4980-89ce-bbabbc9073af"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

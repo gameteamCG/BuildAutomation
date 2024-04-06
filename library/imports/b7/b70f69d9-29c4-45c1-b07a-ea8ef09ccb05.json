@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wrong star-min",
+    "texture": "055cc6b8-be5e-4c6d-bd9b-7bb819ef4524",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      54,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      54,
+      55
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "curtainAnim2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.3333333333333333,
+  "sample": 15,
+  "speed": 1,
+  "wrapMode": 0,
+  "curveData": {
+    "props": {
+      "skewX": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.3333333333333333,
+          "value": -5
+        }
+      ],
+      "x": [
+        {
+          "frame": 0,
+          "value": 640
+        },
+        {
+          "frame": 1.3333333333333333,
+          "value": 1475
+        }
+      ]
+    }
+  },
+  "events": []
+}

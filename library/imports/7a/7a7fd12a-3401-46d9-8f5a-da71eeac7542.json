@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "NECKLACE",
+    "texture": "2b8a13cf-9b31-4630-bf21-3119f8b58c8b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      293,
+      440
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      293,
+      440
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

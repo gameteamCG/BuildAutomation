@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bangles",
+    "texture": "5b6ea93b-a07d-4810-8ca1-e05ae10acfdc",
+    "atlas": "",
+    "rect": [
+      7,
+      126,
+      485,
+      284
+    ],
+    "offset": [
+      -0.5,
+      -18
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "video play area-8",
+    "texture": "fdfa0a44-d84a-4c34-8cf3-98d8bdf188e2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      940,
+      513
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      940,
+      513
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
