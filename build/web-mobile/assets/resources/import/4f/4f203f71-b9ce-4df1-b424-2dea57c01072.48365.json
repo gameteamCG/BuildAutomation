@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "58mSagsxNHHadJLkTn+4Ty"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "500x500_0000_Play-at-the-Park",
+      "rect": [
+        21,
+        15,
+        462,
+        466
+      ],
+      "offset": [
+        2,
+        2
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

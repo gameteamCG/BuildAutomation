@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_driving",
+    "texture": "25e1c942-8802-4ef5-a532-12d21ff3ae54",
+    "atlas": "",
+    "rect": [
+      21,
+      22,
+      460,
+      460
+    ],
+    "offset": [
+      1,
+      -2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

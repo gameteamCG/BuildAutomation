@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "activitiesathome",
+    "texture": "6e734ddd-bf26-4668-81f2-c9b9b743ba03",
+    "atlas": "",
+    "rect": [
+      24,
+      25,
+      823,
+      339
+    ],
+    "offset": [
+      11,
+      -3
+    ],
+    "originalSize": [
+      849,
+      383
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

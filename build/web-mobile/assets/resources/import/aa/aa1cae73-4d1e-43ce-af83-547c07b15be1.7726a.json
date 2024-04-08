@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "41jUPe7iFGAYq3snMpLpTl"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "500x500_0002_watching-tv",
+      "rect": [
+        0,
+        114,
+        500,
+        274
+      ],
+      "offset": [
+        0,
+        -1
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

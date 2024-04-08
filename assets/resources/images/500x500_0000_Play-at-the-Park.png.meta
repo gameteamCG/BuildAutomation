@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "589926a0-b313-471d-a749-2e44e7fb84f2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0000_Play-at-the-Park": {
+      "ver": "1.0.6",
+      "uuid": "4f203f71-b9ce-4df1-b424-2dea57c01072",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "589926a0-b313-471d-a749-2e44e7fb84f2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": 2,
+      "trimX": 21,
+      "trimY": 15,
+      "width": 462,
+      "height": 466,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "254clCiAJO9aUyEtIf865U"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "500x500_0001_driving",
+      "rect": [
+        21,
+        22,
+        460,
+        460
+      ],
+      "offset": [
+        1,
+        -2
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

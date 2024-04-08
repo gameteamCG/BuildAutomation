@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0006_flying-in-a-plane",
+    "texture": "3d2c4ec2-c096-4cc1-8d3f-511221dba541",
+    "atlas": "",
+    "rect": [
+      0,
+      69,
+      500,
+      362
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

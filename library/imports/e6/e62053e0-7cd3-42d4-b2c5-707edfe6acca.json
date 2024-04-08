@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0003_playing-football",
+    "texture": "efa7bcdb-9584-4517-9c82-a036ffe8e3e4",
+    "atlas": "",
+    "rect": [
+      54,
+      24,
+      393,
+      467
+    ],
+    "offset": [
+      0.5,
+      -7.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

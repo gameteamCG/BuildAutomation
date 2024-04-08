@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0000_Play-at-the-Park",
+    "texture": "589926a0-b313-471d-a749-2e44e7fb84f2",
+    "atlas": "",
+    "rect": [
+      21,
+      15,
+      462,
+      466
+    ],
+    "offset": [
+      2,
+      2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

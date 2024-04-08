@@ -1,0 +1,150 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "additionalData": {
+          "GameID": "null",
+          "totalLevel": "6",
+          "TitleImageName": "activitiesathome.png",
+          "introBgName": "bgmain.png",
+          "bgmMusicName": "BGMuncut.mp3",
+          "mainBgName": "playroom bg.png",
+          "JockeyName": "Singham",
+          "templateType": "SimpleTap"
+        },
+        "questionData": [
+          {
+            "questionText": "Identify activities done at home",
+            "questionAudioName": "identifyactivities.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "anscard.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "1",
+            "options": [
+              "500x500_0011_brush.png",
+              "500x500_0001_driving.png"
+            ],
+            "correctAudios": [
+              "brushingteeth.mp3"
+            ]
+          },
+          {
+            "questionText": "Identify activities done at home",
+            "questionAudioName": "identifyactivities.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "anscard.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "1",
+            "options": [
+              "500x500_0005_sleep.png",
+              "500x500_0008_swimming.png"
+            ],
+            "correctAudios": [
+              "Sleeping.mp3"
+            ]
+          },
+          {
+            "questionText": "Identify activities done at home",
+            "questionAudioName": "identifyactivities.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "anscard.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "2",
+            "options": [
+              "500x500_0007_climbing.png",
+              "500x500_0009_eating-dinner.png"
+            ],
+            "correctAudios": [
+              "eatingdinner.mp3"
+            ]
+          },
+          {
+            "questionText": "Identify activities done at home",
+            "questionAudioName": "identifyactivities.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "anscard.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "1",
+            "options": [
+              "500x500_0004_taking-bath.png",
+              "500x500_0006_flying-in-a-plane.png"
+            ],
+            "correctAudios": [
+              "bathing.mp3"
+            ]
+          },
+          {
+            "questionText": "Identify activities done at home",
+            "questionAudioName": "identifyactivities.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "anscard.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "2",
+            "options": [
+              "500x500_0003_playing-football.png",
+              "500x500_0002_watching-tv.png"
+            ],
+            "correctAudios": [
+              "watchingtv.mp3"
+            ]
+          },
+          {
+            "questionText": "Identify activities done at home",
+            "questionAudioName": "identifyactivities.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "anscard.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "2",
+            "options": [
+              "500x500_0000_Play-at-the-Park.png",
+              "500x500_0010_cooking.png"
+            ],
+            "correctAudios": [
+              "cookingfood.mp3"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

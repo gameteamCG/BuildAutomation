@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "6ec03dvyZGaIHyybm3Q7oD"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "activitiesathome",
+      "rect": [
+        24,
+        25,
+        823,
+        339
+      ],
+      "offset": [
+        11,
+        -3
+      ],
+      "originalSize": [
+        849,
+        383
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

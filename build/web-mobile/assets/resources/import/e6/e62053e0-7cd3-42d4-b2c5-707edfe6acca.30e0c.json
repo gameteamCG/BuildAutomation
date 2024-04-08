@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "efp7zblYRFF5yCoDb/6OPk"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "500x500_0003_playing-football",
+      "rect": [
+        54,
+        24,
+        393,
+        467
+      ],
+      "offset": [
+        0.5,
+        -7.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
