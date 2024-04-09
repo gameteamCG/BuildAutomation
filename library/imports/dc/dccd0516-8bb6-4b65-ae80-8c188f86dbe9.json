@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Pink Balloon-8",
+    "texture": "32dbe1fc-87c0-48c9-a9df-9d0ba8232da8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      183,
+      337
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      183,
+      337
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

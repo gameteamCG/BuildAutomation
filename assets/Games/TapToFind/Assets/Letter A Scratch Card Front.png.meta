@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1c4ae7a9-036d-4c3c-8367-ea09edc69ba5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 884,
+  "height": 672,
+  "platformSettings": {},
+  "subMetas": {
+    "Letter A Scratch Card Front": {
+      "ver": "1.0.6",
+      "uuid": "1d29938a-cc1d-4999-b779-11ab970f3661",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1c4ae7a9-036d-4c3c-8367-ea09edc69ba5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 880,
+      "height": 668,
+      "rawWidth": 884,
+      "rawHeight": 672,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

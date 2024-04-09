@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Apple Colouring",
+    "texture": "385e6e9e-382c-46d2-b58c-13ad028bb67f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      429,
+      549
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      429,
+      549
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

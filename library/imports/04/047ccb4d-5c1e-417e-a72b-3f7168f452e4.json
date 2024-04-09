@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Apple Tracing",
+    "texture": "c5f9dd01-e2b7-4b19-8e63-e2152c7ee4a2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      429,
+      549
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      429,
+      549
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

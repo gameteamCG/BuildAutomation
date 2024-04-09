@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Letter A Scratch Card Back",
+    "texture": "eb406220-a034-4b6e-96ea-52cdb248226e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      854,
+      642
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      854,
+      642
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

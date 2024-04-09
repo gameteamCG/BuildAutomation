@@ -1,34 +1,24 @@
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-
-import globalVariables from "../../Games/WhatWillHappenNext/Scripts/globalVariables";
 interface AdditionalData {
     GameID: string;
     totalLevel: string;
     TitleImageName: string;
     introBgName: string;
     bgmMusicName: string;
-    mainBgName: string;
     JockeyName: string;
-    optionLayout: string;
-    templateType: string;
 }
 
 interface QuestionData {
-    questionText: string;
-    questionImageName: string;
+    questionLayout: string;
+    questionBgName: string;
     questionAudioName: string;
     shouldPlayQuestionAudio: boolean;
-    commonOptionImageName: string;
     isOptionText: boolean;
-    isOptionBG: boolean;
     numberOfOptions: number;
     options: string[]; // This will either contain text options or image names based on isOptionText flag
-    correctAudios: string[];
+    optionsBg: string[];
+    correctAudioName: string;
+    wrongAudioName: string;
+    reiterationAudioName: string[];
     correctAnswerNum: string;
 }
 
@@ -36,18 +26,19 @@ interface MyJSONData {
     additionalData: AdditionalData;
     questionData: QuestionData[];
 }
-
 const { ccclass, property } = cc._decorator;
-
 
 @ccclass
 export default class startGame extends cc.Component {
+
     @property(cc.AudioClip)
     BGM_audio: cc.AudioClip = null;
     @property(Number)
-    volume: number = 0.1;
+    volume: number = 1;
     @property(cc.String)
     NextSceneName: string = "1";
+    @property(Number)
+    TotalLevels: number = 7;
     @property(cc.Boolean)
     isAgeParameterNeeded = true;
     @property(Number)
@@ -55,7 +46,7 @@ export default class startGame extends cc.Component {
     isMusicOn: boolean = true;
 
     levelType: string = "1";
-    currentLevel: string = "1";
+    currentLevel: number = 1;
     hasAccess: boolean = false;
     hasMobile: boolean = false;
     mobileNumber: string = null;
@@ -68,21 +59,17 @@ export default class startGame extends cc.Component {
     premiumLevel: number = 3;
     // mobNumAvailable: boolean = false;
 
-    mainBg: cc.SpriteFrame = null;
 
     @property(cc.Node)
     jockey: cc.Node = null;
+
+    @property(cc.AudioClip)
+    playBtn_audio: cc.AudioClip = null;
 
     JockeyNode: cc.Node = null;
 
     firstClick: number = 1;
     clickEvent: boolean = false;
-
-    @property(Number)
-    totalLevels: number = 7;
-
-    @property(cc.AudioClip)
-    playBtn_audio: cc.AudioClip = null;
     // currentHealth: number = 10;
 
     timer: number = 0;
@@ -102,8 +89,6 @@ export default class startGame extends cc.Component {
     // private totalLevels: string = "";
     private titleImageName: string = "";
     jockeyName: string = "";
-    templateType: string = "";
-    optionLayout: string = "horizontal";
     questions: QuestionData[] = [];
 
     static get Instance() {
@@ -123,24 +108,19 @@ export default class startGame extends cc.Component {
                 this.JockeyNode = element;
             }
         });
-        // const storedJSONData = cc.sys.localStorage.getItem('gameData');
-
-        // if (storedJSONData) {
-        //     const jsonData = JSON.parse(storedJSONData);
-        // }
     }
 
     logData() {
-        console.log("Game ID:", this.gameID);
-        console.log("Total Levels:", this.totalLevels);
-        console.log("BGM audio name:", this.BGM_audio.name);
+        // console.log("Game ID:", this.gameID);
+        console.log("Total Levels:", this.TotalLevels);
+        // console.log("BGM audio name:", this.BGM_audio.name);
         console.log("Title Image Name:", this.titleImageName);
         console.log("Jockey Name:", this.jockeyName);
 
         // Log question data
         this.questions.forEach((question, index) => {
             console.log(`Question ${index + 1}:`);
-            console.log("Question Image Name:", question.questionImageName);
+            console.log("Question Image Name:", question.questionBgName);
             console.log("Question Audio Name:", question.questionAudioName);
             // console.log("Option 1 Image Name:", question.option1ImageName);
             // console.log("Option 2 Image Name:", question.option2ImageName);
@@ -157,6 +137,16 @@ export default class startGame extends cc.Component {
     }
 
     updateJSONdata() {
+        // this.scheduleOnce(() => {
+        //     cc.loader.load("https://s3.ap-south-1.amazonaws.com/cgv2-prod-images.creativegalileo.com/HybridLZAssets/BTN-bg-orange.png", (err, texture) => {
+        //         if (err) {
+        //             console.error("Failed to load image:", err);
+        //             return;
+        //         }
+        //         const spriteFrame = new cc.SpriteFrame(texture);
+        //         cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+        //     });
+        // }, 1);
         if (this.isDemoGame) {
             const urlParams = new URLSearchParams(window.location.search);
 
@@ -171,13 +161,9 @@ export default class startGame extends cc.Component {
             // Assign additional data to variables
             this.gameID = jsonData.additionalData.GameID;
             let levelCount = jsonData.additionalData.totalLevel;
-            this.totalLevels = parseInt(levelCount);
+            this.TotalLevels = parseInt(levelCount);
             this.titleImageName = jsonData.additionalData.TitleImageName;
             this.jockeyName = jsonData.additionalData.JockeyName;
-            this.optionLayout = jsonData.additionalData.optionLayout;
-            this.templateType = jsonData.additionalData.templateType;
-
-            //console.log("optionLayout @@@@@@@@@@@@@@@@ = ", this.optionLayout);
 
             // Assign question data to the variable
             this.questions = jsonData.questionData;
@@ -210,22 +196,21 @@ export default class startGame extends cc.Component {
                 cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 this.introBG = spriteFrame;
             });
-            cc.loader.load(jsonData.additionalData.mainBgName, (err, texture) => {
-                if (err) {
-                    console.error("Failed to load image:", err);
-                    return;
-                }
-                const spriteFrame = new cc.SpriteFrame(texture);
-                this.mainBg = spriteFrame;
-            });
+            // cc.loader.load(jsonData.additionalData.mainBgName, (err, texture) => {
+            //     if (err) {
+            //         console.error("Failed to load image:", err);
+            //         return;
+            //     }
+            //     const spriteFrame = new cc.SpriteFrame(texture);
+            //     this.mainBg = spriteFrame;
+            // });
 
-            if (this.templateType != "SimpleTap") {
-                this.questions.forEach(question => {
-                    question.questionImageName = question.questionImageName
-                    // question.option1ImageName = question.option1ImageName
-                    // question.option2ImageName = question.option2ImageName
-                });
-            }
+            this.questions.forEach(question => {
+                // question.questionBgName = question.questionBgName;
+                // question.questionBgName = question.questionBgName;
+                // question.option1ImageName = question.option1ImageName
+                // question.option2ImageName = question.option2ImageName
+            });
             // Now you can use these variables within this script
             this.logData();
         }
@@ -241,11 +226,9 @@ export default class startGame extends cc.Component {
                 // Assign additional data to variables
                 this.gameID = jsonData.additionalData.GameID;
                 let levelCount = jsonData.additionalData.totalLevel;
-                this.totalLevels = parseInt(levelCount);
+                this.TotalLevels = parseInt(levelCount);
                 this.titleImageName = jsonData.additionalData.TitleImageName;
                 this.jockeyName = jsonData.additionalData.JockeyName;
-                this.optionLayout = jsonData.additionalData.optionLayout;
-                this.templateType = jsonData.additionalData.templateType;
 
                 // Assign question data to the variable
                 this.questions = jsonData.questionData;
@@ -262,17 +245,18 @@ export default class startGame extends cc.Component {
                     let id = cc.audioEngine.playMusic(this.BGM_audio, true);
                     cc.audioEngine.setVolume(id, this.volume);
                 });
-                this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.mainBgName), (spriteFrame) => {
-                    this.mainBg = spriteFrame;
-                });
+                // this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.mainBgName), (spriteFrame) => {
+                //     this.mainBg = spriteFrame;
+                // });
                 this.questions.forEach(question => {
-                    if (this.templateType != "SimpleTap") {
-                        question.questionImageName = this.removeExtension(question.questionImageName);
-                    }
-                    question.commonOptionImageName = this.removeExtension(question.commonOptionImageName);
+                    question.questionBgName = this.removeExtension(question.questionBgName);
                     question.options = question.options.map(option => this.removeExtension(option));
-                    // question.option1ImageName = this.removeExtension(question.option1ImageName);
-                    // question.option2ImageName = this.removeExtension(question.option2ImageName);
+                    question.optionsBg = question.optionsBg.map(optionsBg => this.removeExtension(optionsBg));
+                    question.questionAudioName = this.removeAudioExtension(question.questionAudioName);
+                    question.correctAudioName = this.removeAudioExtension(question.correctAudioName);
+                    question.wrongAudioName = this.removeAudioExtension(question.wrongAudioName);
+                    // question.reiterationAudioName = this.removeAudioExtension(question.reiterationAudioName);
+                    question.reiterationAudioName = question.reiterationAudioName.map(reiterationAudioName => this.removeAudioExtension(reiterationAudioName));
                 });
                 // Now you can use these variables within this script
                 this.logData(); // You can call a function to log the data or use it in other functions
@@ -280,6 +264,7 @@ export default class startGame extends cc.Component {
 
         }
     }
+
 
     start() {
         var url_string = window.location.href;
@@ -290,6 +275,7 @@ export default class startGame extends cc.Component {
         var mobile = url.searchParams.get("mobile");
         var level = url.searchParams.get("level");
         var premium = url.searchParams.get("premium");
+        var isPremium = url.searchParams.get("isPremium");
         var demo = url.searchParams.get("isdemo");
         if (demo == "true") {
             this.isDemoGame = true;
@@ -297,15 +283,14 @@ export default class startGame extends cc.Component {
         }
 
         this.updateJSONdata();
+
         if (premium != null) {
             this.premiumLevel = parseInt(premium);
         }
         if (level != null) {
             this.NextSceneName = level;
-            globalVariables.Instance.currentLevel = parseInt(this.NextSceneName);
-            if (parseInt(this.NextSceneName) >= 7) {
-                this.NextSceneName = "7";
-                globalVariables.Instance.currentLevel = 7;
+            if (parseInt(this.NextSceneName) >= this.TotalLevels) {
+                this.NextSceneName = this.TotalLevels.toString();
             }
         }
 
@@ -326,19 +311,26 @@ export default class startGame extends cc.Component {
             this.hasAccess = true;
         }
 
-        let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-        cc.audioEngine.setVolume(id, this.volume);
-        if (isAudio == "false") {
-            this.node.getChildByName("music").children[0].active = true;
-            this.isMusicOn = false;
-            cc.audioEngine.stopMusic();
-        }
-        else {
-            this.node.getChildByName("music").children[0].active = false;
+        if (isPremium == "1") {
             this.isMusicOn = true;
-            let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-            cc.audioEngine.setVolume(id, this.volume);
         }
+        else if (isPremium == "0") {
+            this.isMusicOn = false;
+        }
+
+        // let id = cc.audioEngine.playMusic(this.BGM_audio, true);
+        // cc.audioEngine.setVolume(id, this.volume);
+        // if (isAudio == "false") {
+        //     this.node.getChildByName("music").children[0].active = true;
+        //     this.isMusicOn = false;
+        //     cc.audioEngine.stopMusic();
+        // }
+        // else {
+        //     this.node.getChildByName("music").children[0].active = false;
+        //     this.isMusicOn = true;
+        //     let id = cc.audioEngine.playMusic(this.BGM_audio, true);
+        //     cc.audioEngine.setVolume(id, this.volume);
+        // }
 
         let ageValue: number = parseInt(age);
 
@@ -370,12 +362,14 @@ export default class startGame extends cc.Component {
 
 
         cc.director.preloadScene(this.NextSceneName);
-
         this.scheduleOnce(() => {
             console.log("jockey name = ", this.jockeyName);
 
             if (this.jockeyName == "Podar") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
+            }
+            else if (this.jockeyName == "stallion") {
+                cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
             }
             else if (this.jockeyName == "tlc") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("tlc").active = true;
@@ -383,12 +377,10 @@ export default class startGame extends cc.Component {
             else if (this.jockeyName == "supercub") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("supercub").active = true;
             }
-            else if (this.jockeyName == "stallion") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
-            }
             else if (this.jockeyName == "bag" || this.jockeyName == "cryon") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
+
 
             if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
                 this.scheduleOnce(() => {
@@ -417,30 +409,15 @@ export default class startGame extends cc.Component {
         }
     }
 
-    OnPlayBtn(_event: cc.Event) {
-        _event.target.getComponent(cc.Button).interactable = false;
-        cc.audioEngine.playEffect(this.playBtn_audio, false);
-        cc.director.loadScene(this.NextSceneName);
-        _event.target.active = false;
-        _event.target.parent.getChildByName("loading").active = true;
-    }
-
     OnBack() {
         console.log("gameExit--true");
     }
 
-    // OnTimer() {
-    //     let delay = 1;
-    //     for (let i = 0; i < 9999; i++) {
-    //         this.scheduleOnce(() => {
-    //             if (cc.director.getScene().name != "gameEnd") {
-    //                 this.timer++;
-    //             }
-    //         }, delay);
-    //         delay += 1;
-    //     }
-
-    // }
+    OnPlayBtn(_event: cc.Event) {
+        _event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.playBtn_audio, false);
+        cc.director.loadScene(this.NextSceneName);
+    }
 
     loadSpriteFrame(imageName: string, callback: (spriteFrame: cc.SpriteFrame) => void) {
         cc.loader.loadRes("images/" + imageName, cc.SpriteFrame, (err, spriteFrame) => {
@@ -460,22 +437,6 @@ export default class startGame extends cc.Component {
             callback(spriteFrame);
         });
     }
-
-
-
-    // blobToDataURL(blobUrl, callback) {
-    //     var xhr = new XMLHttpRequest();
-    //     xhr.onload = function () {
-    //         var reader = new FileReader();
-    //         reader.onloadend = function () {
-    //             callback(reader.result);
-    //         };
-    //         reader.readAsDataURL(xhr.response);
-    //     };
-    //     xhr.open('GET', blobUrl);
-    //     xhr.responseType = 'blob';
-    //     xhr.send();
-    // }
 
     // update (dt) {}
 }

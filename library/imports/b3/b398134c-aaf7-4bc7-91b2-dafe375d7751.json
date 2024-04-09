@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Yellow Star Balloon-8",
+    "texture": "20ee8657-7203-46d5-a959-ec81d5f6903f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      214,
+      318
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      214,
+      318
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Letter A Scratch Card Front",
+    "texture": "1c4ae7a9-036d-4c3c-8367-ea09edc69ba5",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      880,
+      668
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      884,
+      672
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

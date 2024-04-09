@@ -1,5 +1,5 @@
 "use strict";
-cc._RF.push(module, '48531ApPP1NI6u5BXtLd2K5', 'empty');
+cc._RF.push(module, '3fa0emSZ1JKE7Ie2Kn0qtft', 'empty');
 // resources/empty.ts
 
 "use strict";

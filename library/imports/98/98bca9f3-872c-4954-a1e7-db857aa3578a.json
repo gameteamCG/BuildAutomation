@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Orange Star Balloon-8",
+    "texture": "95febb22-713c-4caf-8d04-ea5d2679804f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      214,
+      320
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      214,
+      320
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Green Star Balloon-8",
+    "texture": "bc19f913-e59d-4047-9b79-039be133768d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      214,
+      318
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      214,
+      318
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

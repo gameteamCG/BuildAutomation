@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "branch",
+    "texture": "81566f6e-0ab4-4eb0-b604-e8385c3c1be6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1480,
+      277
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1480,
+      277
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

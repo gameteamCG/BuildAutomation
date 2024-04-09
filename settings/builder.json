@@ -1,7 +1,7 @@
 {
   "title": "CocosGamesCG",
   "packageName": "org.cocos2d.demo",
-  "startScene": "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a",
+  "startScene": "ebbfd67d-8bd5-4775-bed9-f5fe9f32faef",
   "excludeScenes": [
     "7cd7cb8d-bf09-4440-8ed4-8c45bdf9377d",
     "ad0c8321-8aca-489f-8799-3a914615d4de"

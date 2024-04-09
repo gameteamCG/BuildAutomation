@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "95febb22-713c-4caf-8d04-ea5d2679804f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 214,
+  "height": 320,
+  "platformSettings": {},
+  "subMetas": {
+    "Orange Star Balloon-8": {
+      "ver": "1.0.6",
+      "uuid": "98bca9f3-872c-4954-a1e7-db857aa3578a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "95febb22-713c-4caf-8d04-ea5d2679804f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 214,
+      "height": 320,
+      "rawWidth": 214,
+      "rawHeight": 320,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

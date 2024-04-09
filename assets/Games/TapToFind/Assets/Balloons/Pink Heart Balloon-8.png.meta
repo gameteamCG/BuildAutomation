@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f7c5c77f-54c7-405c-9f96-47598937aae2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 212,
+  "height": 318,
+  "platformSettings": {},
+  "subMetas": {
+    "Pink Heart Balloon-8": {
+      "ver": "1.0.6",
+      "uuid": "05c41f19-91c1-47c2-ad63-be910c3e8412",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f7c5c77f-54c7-405c-9f96-47598937aae2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 212,
+      "height": 318,
+      "rawWidth": 212,
+      "rawHeight": 318,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Green Balloon-8",
+    "texture": "0de07192-02df-4dec-81ad-c9f449d74b95",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      183,
+      337
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      183,
+      337
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

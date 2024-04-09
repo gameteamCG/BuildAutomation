@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "20ee8657-7203-46d5-a959-ec81d5f6903f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 214,
+  "height": 318,
+  "platformSettings": {},
+  "subMetas": {
+    "Yellow Star Balloon-8": {
+      "ver": "1.0.6",
+      "uuid": "b398134c-aaf7-4bc7-91b2-dafe375d7751",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "20ee8657-7203-46d5-a959-ec81d5f6903f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 214,
+      "height": 318,
+      "rawWidth": 214,
+      "rawHeight": 318,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

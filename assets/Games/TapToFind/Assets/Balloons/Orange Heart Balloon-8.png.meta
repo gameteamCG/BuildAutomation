@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f0191e2a-1be7-454d-9d37-a9bfe120a17c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 213,
+  "height": 319,
+  "platformSettings": {},
+  "subMetas": {
+    "Orange Heart Balloon-8": {
+      "ver": "1.0.6",
+      "uuid": "960964a6-21f2-46c5-95c4-7fd8f7916341",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f0191e2a-1be7-454d-9d37-a9bfe120a17c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 213,
+      "height": 319,
+      "rawWidth": 213,
+      "rawHeight": 319,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

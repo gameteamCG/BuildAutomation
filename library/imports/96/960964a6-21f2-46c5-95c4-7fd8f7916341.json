@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Orange Heart Balloon-8",
+    "texture": "f0191e2a-1be7-454d-9d37-a9bfe120a17c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      213,
+      319
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      213,
+      319
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

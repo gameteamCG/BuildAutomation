@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Purple Star Balloon-8",
+    "texture": "91681d71-f040-4a83-af74-6020baa26e37",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      214,
+      319
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      214,
+      319
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
