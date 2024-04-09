@@ -1,0 +1,84 @@
+{
+    "paths": {
+        "8fXQLuHY1K+JkELR6t9Zi4": [
+            "audios/Solve the picture puzzle",
+            "cc.AudioClip"
+        ],
+        "de0GsMNsxHI6ujurZXZ2rv": [
+            "audios/butter",
+            "cc.AudioClip"
+        ],
+        "94YXV6PcpLUYqqGjFLqUWR": [
+            "game_data",
+            "cc.JsonAsset"
+        ],
+        "c9adiLTrBFDZ26P4EU7IVC": [
+            "images/Asset 109",
+            "cc.Texture2D"
+        ],
+        "fdGfF3EXtMh7SwwHXIijwb": [
+            "images/Asset 109",
+            "cc.SpriteFrame",
+            1
+        ],
+        "63sf4LnMxKbaWE0JuXRdnZ": [
+            "images/Bg(8)",
+            "cc.SpriteFrame",
+            1
+        ],
+        "90cf17sxJKhbr+nMqOW5hW": [
+            "images/Bg(8)",
+            "cc.Texture2D"
+        ]
+    },
+    "uuids": [
+        "63sf4LnMxKbaWE0JuXRdnZ",
+        "8fXQLuHY1K+JkELR6t9Zi4",
+        "90cf17sxJKhbr+nMqOW5hW",
+        "94YXV6PcpLUYqqGjFLqUWR",
+        "c9adiLTrBFDZ26P4EU7IVC",
+        "de0GsMNsxHI6ujurZXZ2rv",
+        "fdGfF3EXtMh7SwwHXIijwb"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {
+        "0ece21fba": [
+            "90cf17sxJKhbr+nMqOW5hW",
+            "c9adiLTrBFDZ26P4EU7IVC"
+        ]
+    },
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "0ece21fba",
+            "60ab2",
+            "63sf4LnMxKbaWE0JuXRdnZ",
+            "18664",
+            "8fXQLuHY1K+JkELR6t9Zi4",
+            "58288",
+            "94YXV6PcpLUYqqGjFLqUWR",
+            "7b0c0",
+            "de0GsMNsxHI6ujurZXZ2rv",
+            "ac537",
+            "fdGfF3EXtMh7SwwHXIijwb",
+            "9ae43"
+        ],
+        "native": [
+            "8fXQLuHY1K+JkELR6t9Zi4",
+            "20ef4",
+            "90cf17sxJKhbr+nMqOW5hW",
+            "233f0",
+            "c9adiLTrBFDZ26P4EU7IVC",
+            "ccdb0",
+            "de0GsMNsxHI6ujurZXZ2rv",
+            "27c1e"
+        ]
+    }
+}
