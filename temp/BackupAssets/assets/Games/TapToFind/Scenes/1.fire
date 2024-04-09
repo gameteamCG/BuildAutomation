@@ -1218,9 +1218,9 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 129,
-      "g": 129,
-      "b": 129,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
@@ -2640,11 +2640,11 @@
       "__id__": 5
     },
     "_enabled": true,
-    "podar_font": {
-      "__uuid__": "d9348f57-e185-484c-b22d-019c41022ac4"
-    },
+    "podar_font": null,
     "jaipuria_font": null,
-    "supercub_font": null,
+    "supercub_font": {
+      "__uuid__": "a3ed727b-d7e5-49a6-89de-84365f6e7b27"
+    },
     "tlc_font": null,
     "pop_audio": {
       "__uuid__": "a5db067a-1f92-46e4-9867-4a5f9d270d07"

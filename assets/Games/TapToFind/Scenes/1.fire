@@ -2640,18 +2640,12 @@
       "__id__": 5
     },
     "_enabled": true,
-    "podar_font": {
-      "__uuid__": "d9348f57-e185-484c-b22d-019c41022ac4"
-    },
-    "jaipuria_font": {
-      "__uuid__": "cacb2c50-3d51-46f1-b72c-d9833b56f3ea"
-    },
+    "podar_font": null,
+    "jaipuria_font": null,
     "supercub_font": {
       "__uuid__": "a3ed727b-d7e5-49a6-89de-84365f6e7b27"
     },
-    "tlc_font": {
-      "__uuid__": "9bd6c337-4f3c-42b2-9ac2-effc833609a2"
-    },
+    "tlc_font": null,
     "pop_audio": {
       "__uuid__": "a5db067a-1f92-46e4-9867-4a5f9d270d07"
     },
