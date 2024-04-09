@@ -1,0 +1,46 @@
+{
+    "paths": {
+        "dbPdCHE6NOkLD+FN0/KvVs": [
+            "game_data",
+            "cc.JsonAsset"
+        ],
+        "00EREmUX5P/48bn6xp043M": [
+            "images/Asset 109",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f6aHWMM2FNio0hH3W1PmY7": [
+            "images/Asset 109",
+            "cc.Texture2D"
+        ]
+    },
+    "uuids": [
+        "00EREmUX5P/48bn6xp043M",
+        "dbPdCHE6NOkLD+FN0/KvVs",
+        "f6aHWMM2FNio0hH3W1PmY7"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {},
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "00EREmUX5P/48bn6xp043M",
+            "bee6b",
+            "dbPdCHE6NOkLD+FN0/KvVs",
+            "75ce4",
+            "f6aHWMM2FNio0hH3W1PmY7",
+            "7be92"
+        ],
+        "native": [
+            "f6aHWMM2FNio0hH3W1PmY7",
+            "ccdb0"
+        ]
+    }
+}
