@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "5aFr/0MlZItoFTvXSwpn6i"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Asse",
+      "rect": [
+        109,
+        82,
+        877,
+        460
+      ],
+      "offset": [
+        -10,
+        -19
+      ],
+      "originalSize": [
+        1115,
+        586
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
