@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "'an' word family : LKG Course Book 1",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/an_14578667453_1712750470772.mp4",
+      "TitleImageName": "eeee.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": true,
+        "QuestionText": "Ran",
+        "QuestionImageName": "",
+        "QuestionAudioName": "match.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "ran.png",
+          "map.png"
+        ],
+        "ReiterationAudioName": "Ran.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "can.png",
+        "QuestionAudioName": "I2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "sun.png",
+          "can.png"
+        ],
+        "ReiterationAudioName": "Can.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "pan.png",
+        "QuestionAudioName": "I2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "bed.png",
+          "pan.png"
+        ],
+        "ReiterationAudioName": "Pan.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "men.png",
+        "QuestionAudioName": "Identify the picture and tap on the correct letters to complete the word.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "an.png",
+          "ob.png"
+        ],
+        "ReiterationAudioName": "An.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "fan.png",
+        "QuestionAudioName": "LOOK.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "f.png",
+          "d.png"
+        ],
+        "ReiterationAudioName": "FFFFF.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
