@@ -1,0 +1,133 @@
+{
+  "additionalData": {
+    "GameID": "Recognize the colours",
+    "totalLevel": "7",
+    "TitleImageName": "title.png",
+    "introBgName": "bg.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "Bg2.jpg",
+    "JockeyName": "supercub",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "blue",
+      "questionAudioName": "tapblue.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankbox.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "bluecrayonbox.png",
+        "redcrayonbox.png"
+      ],
+      "correctAudios": [
+        "blue.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "green",
+      "questionAudioName": "tapgreen.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankbox.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "orangecrayonbox.png",
+        "greencrayonbox.png"
+      ],
+      "correctAudios": [
+        "GREEN.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "orange",
+      "questionAudioName": "taporange.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankbox.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "orangecrayonbox.png",
+        "yellowcrayonbox.png"
+      ],
+      "correctAudios": [
+        "orange.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "pink",
+      "questionAudioName": "tappink.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankbox.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "pinkcrayonbox.png",
+        "purplecrayonbox.png"
+      ],
+      "correctAudios": [
+        "pink.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "purple\n",
+      "questionAudioName": "tappurple.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankbox.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "purplecrayonbox.png",
+        "greencrayonbox.png"
+      ],
+      "correctAudios": [
+        "purple.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "red",
+      "questionAudioName": "tapred.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankbox.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "redcrayonbox.png",
+        "orangecrayonbox.png"
+      ],
+      "correctAudios": [
+        "red.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "yellow",
+      "questionAudioName": "tapyellow.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankbox.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "yellowcrayonbox.png",
+        "orangecrayonbox.png"
+      ],
+      "correctAudios": [
+        "YELLOW.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
