@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "49i1r0sOtD4piedxnFVuPg"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "bluecrayonbox",
+      "rect": [
+        87,
+        32,
+        326,
+        437
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

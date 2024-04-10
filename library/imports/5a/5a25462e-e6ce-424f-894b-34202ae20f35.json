@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "purplecrayonbox",
+    "texture": "14f2c8ac-c590-4d7b-815a-6ef8ef3b59d4",
+    "atlas": "",
+    "rect": [
+      87,
+      32,
+      326,
+      437
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

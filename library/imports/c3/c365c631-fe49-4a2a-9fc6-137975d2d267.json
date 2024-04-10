@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "redcrayonbox",
+    "texture": "477254c2-f14d-418a-afa0-07b77eff1764",
+    "atlas": "",
+    "rect": [
+      88,
+      32,
+      325,
+      437
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

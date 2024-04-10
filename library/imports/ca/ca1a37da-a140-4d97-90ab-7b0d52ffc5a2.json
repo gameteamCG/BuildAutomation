@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bluecrayonbox",
+    "texture": "498b5af4-b0eb-43e2-989e-7719c556e3e0",
+    "atlas": "",
+    "rect": [
+      87,
+      32,
+      326,
+      437
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

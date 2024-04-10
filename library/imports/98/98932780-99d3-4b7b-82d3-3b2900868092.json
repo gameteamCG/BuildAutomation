@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pinkcrayonbox",
+    "texture": "5b4feddd-a244-41db-b9c4-127d69c54d0b",
+    "atlas": "",
+    "rect": [
+      88,
+      32,
+      325,
+      437
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

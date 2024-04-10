@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "52eeGIqIdLGZvDvnqMhW1e"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "blankbox",
+      "rect": [
+        10,
+        15,
+        489,
+        479
+      ],
+      "offset": [
+        4.5,
+        -4.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
