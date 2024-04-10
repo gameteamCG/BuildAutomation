@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "eeHyt1eAhEGrNml4BloqYj"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "den",
+      "rect": [
+        0,
+        14,
+        250,
+        221
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

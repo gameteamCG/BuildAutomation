@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tap",
+    "texture": "008ed3e5-fcb2-481d-9e3e-79730e19edad",
+    "atlas": "",
+    "rect": [
+      35,
+      0,
+      180,
+      250
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

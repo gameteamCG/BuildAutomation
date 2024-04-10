@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "'en' family words : LKG Course Book 1",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/enwordfamily_1712746836471.mp4",
+      "TitleImageName": "Aset.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "men.png",
+        "QuestionAudioName": "Tapontherightworddescribingtheimage.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "men",
+          "ram"
+        ],
+        "ReiterationAudioName": "Men.mp3",
+        "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "ten",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Matchthewordtoitspicture.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "ten.png",
+          "can.png"
+        ],
+        "ReiterationAudioName": "Ten.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "yen.png",
+        "QuestionAudioName": "Identifythepictureandtaponthecorrectletterstocompletetheword.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "a",
+          "y"
+        ],
+        "ReiterationAudioName": "Y.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "den",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Readthewordandmatchittoitsimage.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "den.png",
+          "tap.png"
+        ],
+        "ReiterationAudioName": "Den.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "hen.png",
+        "QuestionAudioName": "Identifythepictureandtaponthecorrectletterstocompletetheword.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "od",
+          "en"
+        ],
+        "ReiterationAudioName": "EN.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

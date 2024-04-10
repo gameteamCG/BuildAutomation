@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yen",
+    "texture": "5d6a8ff3-bc69-4fa6-a9fe-9f57442ba801",
+    "atlas": "",
+    "rect": [
+      78,
+      21,
+      293,
+      408
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      450,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

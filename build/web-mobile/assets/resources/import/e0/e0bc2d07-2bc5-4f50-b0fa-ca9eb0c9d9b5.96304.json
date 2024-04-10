@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "5dao/zvGlPpqn+n1dEK6gB"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "yen",
+      "rect": [
+        78,
+        21,
+        293,
+        408
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        450,
+        450
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
