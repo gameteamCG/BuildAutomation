@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f3JXPG5XFElLcpOQXGOKnX"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "mobilephone",
+      "rect": [
+        126,
+        38,
+        203,
+        381
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        456,
+        457
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

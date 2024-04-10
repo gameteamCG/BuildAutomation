@@ -1,0 +1,71 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Simple tap",
+      "totalLevel": "3",
+      "TitleImageName": "title.png",
+      "introBgName": "jrkg.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "bag",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Things you see around you.",
+        "questionAudioName": "Clickonthethingsyouseearoundyou.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cb.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "mobilephone.png",
+          "tiger.png"
+        ],
+        "correctAudios": [
+          "mobilephone.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Things you see around you.",
+        "questionAudioName": "Clickonthethingsyouseearoundyou.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cb.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "bear.png",
+          "washing_machine.png"
+        ],
+        "correctAudios": [
+          "Washing machine.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Things you see around you.",
+        "questionAudioName": "Clickonthethingsyouseearoundyou.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cb.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "television.png",
+          "giraffe.png"
+        ],
+        "correctAudios": [
+          "television (3).mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

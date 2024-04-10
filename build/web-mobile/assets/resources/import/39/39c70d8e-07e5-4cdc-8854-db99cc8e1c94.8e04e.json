@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d6U21RM+RIaqrO1Bag4HbI"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "washing_machine",
+      "rect": [
+        83,
+        46,
+        351,
+        439
+      ],
+      "offset": [
+        8.5,
+        -15.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

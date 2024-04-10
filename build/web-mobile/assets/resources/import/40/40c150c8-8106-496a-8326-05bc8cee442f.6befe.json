@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "9fJ0BfEQpHu7ZE7hkoAHNC"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "television",
+      "rect": [
+        49,
+        45,
+        403,
+        412
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

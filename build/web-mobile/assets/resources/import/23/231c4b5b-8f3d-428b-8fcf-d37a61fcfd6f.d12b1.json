@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "0bxRkCwVhGVqztB74SDWo4"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "title",
+      "rect": [
+        25,
+        24,
+        943,
+        397
+      ],
+      "offset": [
+        11.5,
+        12
+      ],
+      "originalSize": [
+        970,
+        469
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
