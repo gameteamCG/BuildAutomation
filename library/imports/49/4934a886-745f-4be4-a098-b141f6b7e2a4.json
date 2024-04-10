@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "'at' word family",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/atwordfamily_1712747231610.mp4",
+      "TitleImageName": "Asset.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Mat",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Readthewordandmatchittoitsimage.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "mat.png",
+          "den.png"
+        ],
+        "ReiterationAudioName": "mat.mp3",
+        "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "cat.png",
+        "QuestionAudioName": "Identifytheimageandmatchittoitsword.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "tub",
+          "cat"
+        ],
+        "ReiterationAudioName": "Cat.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "hat.png",
+        "QuestionAudioName": "Identifythepictureandtaponthecorrectletterstocompletethe.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "at",
+          "ig"
+        ],
+        "ReiterationAudioName": "hat.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Rat",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Readthewordandmatchittoitsimage.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "rat.png",
+          "cat.png"
+        ],
+        "ReiterationAudioName": "Rat.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "sat.png",
+        "QuestionAudioName": "Identifytheimageandmatchittoitsword.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "jam",
+          "sat"
+        ],
+        "ReiterationAudioName": "sat.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
