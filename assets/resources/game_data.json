@@ -1,0 +1,103 @@
+{
+  "AdditionalData": {
+    "GameID": "sound of short 'e': LKG Course Book 1",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Lettere_1712747882268.mp4",
+    "TitleImageName": "e.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Which letter makes the sound ?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "tapEinitsname.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "g",
+        "e"
+      ],
+      "ReiterationAudioName": "e.mp3",
+      "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Tap on the image that begins with e",
+      "QuestionImageName": "",
+      "QuestionAudioName": "TapontheimagethatbeginswithE.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "elf.png",
+        "hat.png"
+      ],
+      "ReiterationAudioName": "elf.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Sound of short ‘e’",
+      "QuestionImageName": "",
+      "QuestionAudioName": "tapEinitsname.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Egg.png",
+        "eel.png"
+      ],
+      "ReiterationAudioName": "Egg.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Sound of short ‘e’ ",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Selecttheimagethathassoundofshorteinitsname.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "pin.png",
+        "pen.png"
+      ],
+      "ReiterationAudioName": "Pen.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Sound of short ‘e’",
+      "QuestionImageName": "",
+      "QuestionAudioName": "shorte.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "beg.png",
+        "bag.png"
+      ],
+      "ReiterationAudioName": "beg.mp3",
+      "CorrectAudioName": "GOODEFFORT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
