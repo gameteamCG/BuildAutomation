@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "6emBrteE1I+oXzbQRYw6EU"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Group4",
+      "rect": [
+        88,
+        8,
+        274,
+        433
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        450,
+        450
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "37zGzkTHtLo56KTk2YN+6Q"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Sap",
+      "rect": [
+        0,
+        0,
+        248,
+        176
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        248,
+        176
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
