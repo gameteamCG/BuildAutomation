@@ -510,8 +510,8 @@
     "relativePath": "Games"
   },
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1712758353221,
-    "meta": 1712844248614,
+    "asset": 1712844438848,
+    "meta": 1712844439084,
     "relativePath": "resources"
   },
   "47c7a0d5-0378-4e24-a68a-552946845f14": {
@@ -2743,5 +2743,170 @@
     "asset": 1712844220285,
     "meta": 1712844249459,
     "relativePath": "Games/WhatWillHappenNext/Scene/Title.fire"
+  },
+  "5a8e9544-923b-4f62-8fcf-b3c05b52e276": {
+    "asset": 1712844438863,
+    "meta": 1712844439084,
+    "relativePath": "resources/audios"
+  },
+  "5a581b13-63c9-4367-a669-0395f8c17189": {
+    "asset": 1712844438866,
+    "meta": 1712844439085,
+    "relativePath": "resources/images"
+  },
+  "4ef97c70-a4e3-4dcd-bb20-4118d8769705": {
+    "asset": 1712844432098,
+    "meta": 1712844439165,
+    "relativePath": "resources/game_data.json"
+  },
+  "f87e7ef6-3948-4b55-bc85-7397e2666325": {
+    "asset": 1712844432097,
+    "meta": 1712844439518,
+    "relativePath": "resources/audios/identifytheimagethatdisplayspersonalandphysicalhygiene.mp3"
+  },
+  "966e0269-c3de-4875-b445-778c5238159a": {
+    "asset": 1712844432097,
+    "meta": 1712844439518,
+    "relativePath": "resources/audios/hairneatlycombedandtied.mp3"
+  },
+  "18ccd4dd-e543-4c52-8649-fd5c5f00994f": {
+    "asset": 1712844432097,
+    "meta": 1712844439519,
+    "relativePath": "resources/audios/eatingwithdirtyhand.mp3"
+  },
+  "ef440309-35a3-48ea-986e-775686b824b1": {
+    "asset": 1712844432097,
+    "meta": 1712844439519,
+    "relativePath": "resources/audios/takingyourhandsoutofthebuswindow.mp3"
+  },
+  "5cbb5997-e046-4707-8ce1-2209fc9c5336": {
+    "asset": 1712844432097,
+    "meta": 1712844439519,
+    "relativePath": "resources/audios/notwashinghandsafterusingthewashroom.mp3"
+  },
+  "5c520395-d035-4d78-919c-b14e9f2e0cb5": {
+    "asset": 1712844432097,
+    "meta": 1712844439520,
+    "relativePath": "resources/audios/runningonabusyroad.mp3"
+  },
+  "40fc5b4f-5790-4ab7-a67c-03128df76728": {
+    "asset": 1712844432094,
+    "meta": 1712844439520,
+    "relativePath": "resources/audios/GOINGTOSLEEPWEARINGMUDDYCLOTHES.mp3"
+  },
+  "f5ab245b-08ef-4753-ae22-a2a838e88946": {
+    "asset": 1712844432096,
+    "meta": 1712844439521,
+    "relativePath": "resources/audios/bgmss.mp3"
+  },
+  "cf6a865a-a47a-4ed1-a5f9-784aea3b1787": {
+    "asset": 1712844432097,
+    "meta": 1712844439527,
+    "relativePath": "resources/audios/washingthefruitbeforeeating.mp3"
+  },
+  "df7ea65a-52e6-4a14-ad7a-93c1f1e51660": {
+    "asset": 1712844432098,
+    "meta": 1712844439535,
+    "relativePath": "resources/audios/wearingcleanclothes.mp3"
+  },
+  "902ba5df-e2f0-458c-bd6b-ef59ca00695b": {
+    "asset": 1712844432100,
+    "meta": 1712844439534,
+    "relativePath": "resources/images/cleanclothes.png"
+  },
+  "85fb5dc8-e2ff-440a-af7b-0dd6c6d09e3a": {
+    "asset": 1712844432100,
+    "meta": 1712844439536,
+    "relativePath": "resources/images/bus1.png"
+  },
+  "f519c39b-033a-4e13-b645-284a2f7c1db9": {
+    "asset": 1712844432100,
+    "meta": 1712844439536,
+    "relativePath": "resources/images/bus.png"
+  },
+  "b327fd98-72c8-481a-967f-c176d8230240": {
+    "asset": 1712844432100,
+    "meta": 1712844439544,
+    "relativePath": "resources/images/cleanhand.png"
+  },
+  "feed74cf-18d4-426f-9a93-3249b612eee9": {
+    "asset": 1712844432100,
+    "meta": 1712844439546,
+    "relativePath": "resources/images/commonasset.png"
+  },
+  "ac5536d6-7ee6-42ca-b3de-53bd2553f530": {
+    "asset": 1712844432101,
+    "meta": 1712844439551,
+    "relativePath": "resources/images/dirtyclothes.png"
+  },
+  "c2cbf972-ea12-47be-a5d0-c83dd3f3006c": {
+    "asset": 1712844432099,
+    "meta": 1712844439553,
+    "relativePath": "resources/images/bg.png"
+  },
+  "f6064fd4-2958-4c49-839f-de475b9508f9": {
+    "asset": 1712844432101,
+    "meta": 1712844439555,
+    "relativePath": "resources/images/dirtyhand.png"
+  },
+  "73542b8b-99b9-45c2-b59e-22c36c7effe9": {
+    "asset": 1712844432102,
+    "meta": 1712844439557,
+    "relativePath": "resources/images/haorcomb1.png"
+  },
+  "5f5d57c7-c468-4cb1-83c4-51845193f3a6": {
+    "asset": 1712844432102,
+    "meta": 1712844439558,
+    "relativePath": "resources/images/haircomb.png"
+  },
+  "61959637-2ec0-4958-8bfb-f45a0a700ca3": {
+    "asset": 1712844432104,
+    "meta": 1712844439570,
+    "relativePath": "resources/images/roadcrossing1.png"
+  },
+  "ac538585-3356-496f-996c-a51ccc2e396b": {
+    "asset": 1712844432104,
+    "meta": 1712844439571,
+    "relativePath": "resources/images/sleeing.png"
+  },
+  "9a4e9627-6a49-4b7d-9e08-684ec1fbc1b5": {
+    "asset": 1712844432102,
+    "meta": 1712844439572,
+    "relativePath": "resources/images/notwashandeat.png"
+  },
+  "e3cf5666-02c7-4e99-b379-8a873c29b13e": {
+    "asset": 1712844432098,
+    "meta": 1712844439573,
+    "relativePath": "resources/images/NURSE.png"
+  },
+  "65e5d904-1cd2-4673-9f41-30b11c7fa3a2": {
+    "asset": 1712844432104,
+    "meta": 1712844439580,
+    "relativePath": "resources/images/sleeping1.png"
+  },
+  "be089a2f-e0af-4c4c-b0a7-6bcf52435605": {
+    "asset": 1712844432103,
+    "meta": 1712844439581,
+    "relativePath": "resources/images/roadcrossing.png"
+  },
+  "1880a002-2167-4072-85d2-b5e05a27f36a": {
+    "asset": 1712844432105,
+    "meta": 1712844439582,
+    "relativePath": "resources/images/washandeat.png"
+  },
+  "007bd388-b41c-4dd5-bceb-f21651622baf": {
+    "asset": 1712844432103,
+    "meta": 1712844439591,
+    "relativePath": "resources/images/personalandphysicalhygeine.png"
+  },
+  "de75024b-ce32-47cf-b49f-bb9cfb8b4b71": {
+    "asset": 1712844432105,
+    "meta": 1712844439596,
+    "relativePath": "resources/images/washinghand.png"
+  },
+  "ebb4856c-e019-4298-8512-e32b2f35220e": {
+    "asset": 1712844432105,
+    "meta": 1712844439596,
+    "relativePath": "resources/images/washinghand1.png"
   }
 }
