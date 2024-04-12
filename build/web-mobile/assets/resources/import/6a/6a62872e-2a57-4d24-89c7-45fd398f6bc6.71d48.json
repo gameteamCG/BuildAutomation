@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a4Q9t5ROxDyrRonfdAoFrm"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "roadcrossing1",
+      "rect": [
+        0,
+        0,
+        501,
+        501
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

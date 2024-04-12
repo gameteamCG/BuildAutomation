@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "77sNQzsIlB+5qBbF48ZQjP"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "sleeping1",
+      "rect": [
+        0,
+        0,
+        501,
+        501
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

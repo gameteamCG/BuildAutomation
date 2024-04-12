@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d16r2Fo+NMSouNZCA2D7dC"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "washandeat",
+      "rect": [
+        0,
+        0,
+        501,
+        501
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

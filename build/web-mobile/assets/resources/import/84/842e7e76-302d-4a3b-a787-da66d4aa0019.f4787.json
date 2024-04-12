@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "10TSSsw7BPTYlEUQil3Qsb"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "personalandphysicalhygeine",
+      "rect": [
+        27,
+        26,
+        1345,
+        363
+      ],
+      "offset": [
+        8.5,
+        -8
+      ],
+      "originalSize": [
+        1382,
+        399
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
