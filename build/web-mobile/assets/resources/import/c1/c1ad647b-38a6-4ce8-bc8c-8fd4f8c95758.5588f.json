@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "9350+RZ51FF5zwKsBHSdtp"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "ererr",
+      "rect": [
+        14,
+        134,
+        422,
+        182
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        450,
+        450
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

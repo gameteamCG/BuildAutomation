@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "29XHNaO79LV59YIER0Yf13"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "rgg",
+      "rect": [
+        111,
+        28,
+        228,
+        394
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        450,
+        450
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
