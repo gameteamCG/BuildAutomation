@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a7tT8prXhM6bmjSTch6yYY"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "500x500_0003_pressurecooker",
+      "rect": [
+        89,
+        120,
+        393,
+        260
+      ],
+      "offset": [
+        35.5,
+        0
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

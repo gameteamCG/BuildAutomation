@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "deJuswFfZBvZxgvzlrnpiF"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "500x500_0011_bathtub",
+      "rect": [
+        109,
+        26,
+        374,
+        451
+      ],
+      "offset": [
+        46,
+        -1.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

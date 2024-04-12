@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "de26eb30-15f6-41bd-9c60-bf396b9e9885",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0011_bathtub": {
+      "ver": "1.0.6",
+      "uuid": "3314d88d-9310-488a-b5ed-44009e8ff15c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "de26eb30-15f6-41bd-9c60-bf396b9e9885",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 46,
+      "offsetY": -1.5,
+      "trimX": 109,
+      "trimY": 26,
+      "width": 374,
+      "height": 451,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

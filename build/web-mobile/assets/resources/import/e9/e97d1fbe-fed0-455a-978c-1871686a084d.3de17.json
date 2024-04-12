@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "93XftsQdJLgbyjGbLfBmnn"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "500x500_0006_lamp",
+      "rect": [
+        111,
+        30,
+        278,
+        446
+      ],
+      "offset": [
+        0,
+        -3
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

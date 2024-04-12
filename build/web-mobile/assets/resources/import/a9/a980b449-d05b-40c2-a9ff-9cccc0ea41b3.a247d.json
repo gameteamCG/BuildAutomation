@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a5siL0y5pMzIJstXil5kB9"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "500x500_0009_desk",
+      "rect": [
+        88,
+        66,
+        395,
+        383
+      ],
+      "offset": [
+        35.5,
+        -7.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

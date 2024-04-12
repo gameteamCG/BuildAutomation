@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mybedroom",
+    "texture": "2cb80d9a-c2b5-4191-b4a8-52a0755f087c",
+    "atlas": "",
+    "rect": [
+      25,
+      25,
+      1002,
+      199
+    ],
+    "offset": [
+      11.5,
+      -12
+    ],
+    "originalSize": [
+      1029,
+      225
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

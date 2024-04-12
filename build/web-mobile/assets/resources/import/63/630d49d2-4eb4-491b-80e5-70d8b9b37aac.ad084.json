@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "2cuA2awrVBkbSoUqB1Xwh8"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "mybedroom",
+      "rect": [
+        25,
+        25,
+        1002,
+        199
+      ],
+      "offset": [
+        11.5,
+        -12
+      ],
+      "originalSize": [
+        1029,
+        225
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

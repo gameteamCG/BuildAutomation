@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a36P0HolNApb04kTlA/AmN"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "nighttable",
+      "rect": [
+        105,
+        29,
+        381,
+        444
+      ],
+      "offset": [
+        45.5,
+        -1
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
