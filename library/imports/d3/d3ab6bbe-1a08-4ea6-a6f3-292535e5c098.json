@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "universe",
+    "texture": "8600f522-af9c-47d7-bbca-95bc27ca229d",
+    "atlas": "",
+    "rect": [
+      24,
+      24,
+      843,
+      193
+    ],
+    "offset": [
+      11,
+      13
+    ],
+    "originalSize": [
+      869,
+      267
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
