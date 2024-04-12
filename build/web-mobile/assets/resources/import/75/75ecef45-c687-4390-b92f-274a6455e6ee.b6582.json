@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "0f+52gFLNE1LqacZPY2jFQ"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "leoj",
+      "rect": [
+        9,
+        52,
+        432,
+        345
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        450,
+        450
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
