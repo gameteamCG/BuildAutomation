@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "96bNytDC5B/reSOo6AMqCH"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "universe",
+      "rect": [
+        24,
+        24,
+        843,
+        193
+      ],
+      "offset": [
+        11,
+        13
+      ],
+      "originalSize": [
+        869,
+        267
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
