@@ -88,7 +88,9 @@ export default class NewClass extends cc.Component {
     Play() {
         this.videoPlayerNode.getComponent(cc.VideoPlayer).remoteURL = startGame.Instance.videoLink;
         this.jockeyName = startGame.Instance.jockeyName;
-        this.node.getChildByName("tlc").active = false;
+        if (startGame.Instance.jockeyName == "tlc") {
+            this.node.getChildByName("tlc").active = false;
+        }
         cc.audioEngine.playEffect(this.btnClick, false);
         this.node.getChildByName("play").getComponent(cc.Button).interactable = false;
         cc.tween(this.node.getChildByName("title")).to(1, { y: 800 }, { easing: "backInOut" }).start();
