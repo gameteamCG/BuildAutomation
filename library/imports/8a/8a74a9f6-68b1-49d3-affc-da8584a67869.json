@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Baseball_gloves",
+    "texture": "ad1180d1-7272-4971-9367-5644ab2a731f",
+    "atlas": "",
+    "rect": [
+      25,
+      77,
+      377,
+      347
+    ],
+    "offset": [
+      -37,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

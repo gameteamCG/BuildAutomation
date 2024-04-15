@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rugby_ground",
+    "texture": "7a38da88-d8a0-4681-a432-9b400695885b",
+    "atlas": "",
+    "rect": [
+      9,
+      41,
+      427,
+      419
+    ],
+    "offset": [
+      -28,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

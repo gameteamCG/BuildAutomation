@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "04deRuWeFG+a5m8/IKNW46"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "golfground",
+      "rect": [
+        21,
+        73,
+        379,
+        355
+      ],
+      "offset": [
+        -40,
+        0
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

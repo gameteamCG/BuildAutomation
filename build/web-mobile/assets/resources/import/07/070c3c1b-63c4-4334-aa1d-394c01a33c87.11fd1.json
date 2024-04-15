@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "76r/D1EUlCrZ11w9N9skGX"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Vector_Smart_Object",
+      "rect": [
+        42,
+        42,
+        415,
+        416
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

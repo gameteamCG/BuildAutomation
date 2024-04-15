@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "30CkF+wNNNzaD6q1/9f3Yx"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "volleyball_ground",
+      "rect": [
+        10,
+        130,
+        450,
+        241
+      ],
+      "offset": [
+        -15.5,
+        0
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

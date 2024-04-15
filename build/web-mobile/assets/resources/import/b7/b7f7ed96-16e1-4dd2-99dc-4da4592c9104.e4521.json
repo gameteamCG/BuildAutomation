@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d8NMiBF+hP45N2aWf5v2c0"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Basket_ball",
+      "rect": [
+        101,
+        58,
+        383,
+        385
+      ],
+      "offset": [
+        42,
+        0
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

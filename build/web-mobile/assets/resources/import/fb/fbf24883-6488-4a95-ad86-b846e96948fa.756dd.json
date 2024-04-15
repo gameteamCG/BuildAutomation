@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "c8b3D2AWhKq4Z3AhFNIwTm"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Tennis racket",
+      "rect": [
+        27,
+        64,
+        401,
+        373
+      ],
+      "offset": [
+        -23,
+        0
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

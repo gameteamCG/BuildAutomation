@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "b87plxNZ9KPJpKR6RJbuKG"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "cricketball",
+      "rect": [
+        142,
+        88,
+        320,
+        326
+      ],
+      "offset": [
+        51.5,
+        -0.5
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

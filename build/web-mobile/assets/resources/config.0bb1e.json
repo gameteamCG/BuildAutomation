@@ -1,0 +1,419 @@
+{
+    "paths": {
+        "d8kkQpGqxAPKkW1XnrKWjf": [
+            "audios/19128524_2_basket_ball",
+            "cc.AudioClip"
+        ],
+        "f5j93+fwxGBZnAynKNICDU": [
+            "audios/19128524_3_baseball",
+            "cc.AudioClip"
+        ],
+        "e3RxnYwBBNRZXGoZcgApfN": [
+            "audios/19128524_4_tennisball",
+            "cc.AudioClip"
+        ],
+        "31WJcAk1lJe7LNSYi8DpYw": [
+            "audios/19128524_6_cricket",
+            "cc.AudioClip"
+        ],
+        "18YdDTA29GaZGA1PYQqRnc": [
+            "audios/19128524_7_volleyball",
+            "cc.AudioClip"
+        ],
+        "63/cbYCj9HZ44n8RKeEDLk": [
+            "audios/19128524_8_rugby",
+            "cc.AudioClip"
+        ],
+        "94oytgQApGZ7bIbGkXqry8": [
+            "audios/BGM_1",
+            "cc.AudioClip"
+        ],
+        "93oojwZOlIK6+AqBzqiu98": [
+            "audios/GOLF",
+            "cc.AudioClip"
+        ],
+        "1dpbaaIZFKF43um9l85Lvb": [
+            "audios/match_the_game_with_it_correct_ball",
+            "cc.AudioClip"
+        ],
+        "4cqWY9wGhO/7deX2GY1laZ": [
+            "game_data",
+            "cc.JsonAsset"
+        ],
+        "a413lBBwxGPoOwGJszuJsd": [
+            "images/Baseball",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f5yEGZUy5P96dphrd2E9zB": [
+            "images/Baseball",
+            "cc.Texture2D"
+        ],
+        "8adKn2aLFJ06/82oWEpnhp": [
+            "images/Baseball_gloves",
+            "cc.SpriteFrame",
+            1
+        ],
+        "adEYDRcnJJcZNnVkSrKnMf": [
+            "images/Baseball_gloves",
+            "cc.Texture2D"
+        ],
+        "b79+2WFuFN0pncTaRZLJEE": [
+            "images/Basket_ball",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d8NMiBF+hP45N2aWf5v2c0": [
+            "images/Basket_ball",
+            "cc.Texture2D"
+        ],
+        "68lPoZWrtDs67BIrzgz6xA": [
+            "images/Basket_net",
+            "cc.Texture2D"
+        ],
+        "8aTfTx0hVMmrWWuQLL4bIw": [
+            "images/Basket_net",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0fsAI/lLVGlZkgJoqkqrmc": [
+            "images/Tennis ball",
+            "cc.Texture2D"
+        ],
+        "18KK5BbEpO7Y7ltYoLA56M": [
+            "images/Tennis ball",
+            "cc.SpriteFrame",
+            1
+        ],
+        "c8b3D2AWhKq4Z3AhFNIwTm": [
+            "images/Tennis racket",
+            "cc.Texture2D"
+        ],
+        "fb8kiDZIhKla2GuEbpaUj6": [
+            "images/Tennis racket",
+            "cc.SpriteFrame",
+            1
+        ],
+        "6avCHwRBhKlKRt/GC7Ivv9": [
+            "images/Vector_Smart Object_1",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f6fdyy5pFI4LW04haPB4k6": [
+            "images/Vector_Smart Object_1",
+            "cc.Texture2D"
+        ],
+        "07DDwbY8RDNKodOUwBozyH": [
+            "images/Vector_Smart_Object",
+            "cc.SpriteFrame",
+            1
+        ],
+        "76r/D1EUlCrZ11w9N9skGX": [
+            "images/Vector_Smart_Object",
+            "cc.Texture2D"
+        ],
+        "16soWbluBHLb1t7XN0KlbI": [
+            "images/bg5",
+            "cc.Texture2D"
+        ],
+        "95DkPQ6gJKzomVqeLp/GYW": [
+            "images/bg5",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b7kEwaRBlAGKK2XgT1LmuW": [
+            "images/cricket ground",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f8cMODAO9H86MOyI0fmao+": [
+            "images/cricket ground",
+            "cc.Texture2D"
+        ],
+        "4cyZ+WE6NFhpDkCSZfKv6E": [
+            "images/cricketball",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b87plxNZ9KPJpKR6RJbuKG": [
+            "images/cricketball",
+            "cc.Texture2D"
+        ],
+        "94+C8oWnhHcrro7y5UZQSN": [
+            "images/golfball",
+            "cc.SpriteFrame",
+            1
+        ],
+        "a7NOWgbxdP/rFX7FwGJG03": [
+            "images/golfball",
+            "cc.Texture2D"
+        ],
+        "04deRuWeFG+a5m8/IKNW46": [
+            "images/golfground",
+            "cc.Texture2D"
+        ],
+        "25xJnr9NBHVY+vIK6ruWTX": [
+            "images/golfground",
+            "cc.SpriteFrame",
+            1
+        ],
+        "792wR5ExRI764wQcfZy76f": [
+            "images/matchwithgamesusingballs",
+            "cc.Texture2D"
+        ],
+        "9f3oAYphdOPb/t8iZOvtDZ": [
+            "images/matchwithgamesusingballs",
+            "cc.SpriteFrame",
+            1
+        ],
+        "2crtaIXuFFaLwTp7P39BSi": [
+            "images/rugby",
+            "cc.Texture2D"
+        ],
+        "baTwI/UMNIMLoBqT+tMenL": [
+            "images/rugby",
+            "cc.SpriteFrame",
+            1
+        ],
+        "1bTOJ/7gpOxY2ZxDJrm+qE": [
+            "images/rugby_ground",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7aONqI2KBGgaQym0AGlYhb": [
+            "images/rugby_ground",
+            "cc.Texture2D"
+        ],
+        "35sQcm3h5DOJBlQxt+1LPU": [
+            "images/titlebg",
+            "cc.Texture2D"
+        ],
+        "c6uO6QkBZBxILC7Yls4gfA": [
+            "images/titlebg",
+            "cc.SpriteFrame",
+            1
+        ],
+        "17bz99JWpCiKtAQMEFNnbd": [
+            "images/volleyball",
+            "cc.SpriteFrame",
+            1
+        ],
+        "56fi0rnM9M/6PTJs+YlgEC": [
+            "images/volleyball",
+            "cc.Texture2D"
+        ],
+        "30CkF+wNNNzaD6q1/9f3Yx": [
+            "images/volleyball_ground",
+            "cc.Texture2D"
+        ],
+        "edGh6DzkdI0JL1e4T3PsuX": [
+            "images/volleyball_ground",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "04deRuWeFG+a5m8/IKNW46",
+        "07DDwbY8RDNKodOUwBozyH",
+        "0fsAI/lLVGlZkgJoqkqrmc",
+        "16soWbluBHLb1t7XN0KlbI",
+        "17bz99JWpCiKtAQMEFNnbd",
+        "18KK5BbEpO7Y7ltYoLA56M",
+        "18YdDTA29GaZGA1PYQqRnc",
+        "1bTOJ/7gpOxY2ZxDJrm+qE",
+        "1dpbaaIZFKF43um9l85Lvb",
+        "25xJnr9NBHVY+vIK6ruWTX",
+        "2crtaIXuFFaLwTp7P39BSi",
+        "30CkF+wNNNzaD6q1/9f3Yx",
+        "31WJcAk1lJe7LNSYi8DpYw",
+        "35sQcm3h5DOJBlQxt+1LPU",
+        "4cqWY9wGhO/7deX2GY1laZ",
+        "4cyZ+WE6NFhpDkCSZfKv6E",
+        "56fi0rnM9M/6PTJs+YlgEC",
+        "63/cbYCj9HZ44n8RKeEDLk",
+        "68lPoZWrtDs67BIrzgz6xA",
+        "6avCHwRBhKlKRt/GC7Ivv9",
+        "76r/D1EUlCrZ11w9N9skGX",
+        "792wR5ExRI764wQcfZy76f",
+        "7aONqI2KBGgaQym0AGlYhb",
+        "8aTfTx0hVMmrWWuQLL4bIw",
+        "8adKn2aLFJ06/82oWEpnhp",
+        "93oojwZOlIK6+AqBzqiu98",
+        "94oytgQApGZ7bIbGkXqry8",
+        "94+C8oWnhHcrro7y5UZQSN",
+        "95DkPQ6gJKzomVqeLp/GYW",
+        "9f3oAYphdOPb/t8iZOvtDZ",
+        "a413lBBwxGPoOwGJszuJsd",
+        "a7NOWgbxdP/rFX7FwGJG03",
+        "adEYDRcnJJcZNnVkSrKnMf",
+        "b7kEwaRBlAGKK2XgT1LmuW",
+        "b79+2WFuFN0pncTaRZLJEE",
+        "b87plxNZ9KPJpKR6RJbuKG",
+        "baTwI/UMNIMLoBqT+tMenL",
+        "c6uO6QkBZBxILC7Yls4gfA",
+        "c8b3D2AWhKq4Z3AhFNIwTm",
+        "d8NMiBF+hP45N2aWf5v2c0",
+        "d8kkQpGqxAPKkW1XnrKWjf",
+        "e3RxnYwBBNRZXGoZcgApfN",
+        "edGh6DzkdI0JL1e4T3PsuX",
+        "f5j93+fwxGBZnAynKNICDU",
+        "f5yEGZUy5P96dphrd2E9zB",
+        "f6fdyy5pFI4LW04haPB4k6",
+        "f8cMODAO9H86MOyI0fmao+",
+        "fb8kiDZIhKla2GuEbpaUj6"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {
+        "0edd0abf0": [
+            "04deRuWeFG+a5m8/IKNW46",
+            "0fsAI/lLVGlZkgJoqkqrmc",
+            "16soWbluBHLb1t7XN0KlbI",
+            "2crtaIXuFFaLwTp7P39BSi",
+            "30CkF+wNNNzaD6q1/9f3Yx",
+            "35sQcm3h5DOJBlQxt+1LPU",
+            "56fi0rnM9M/6PTJs+YlgEC",
+            "68lPoZWrtDs67BIrzgz6xA",
+            "76r/D1EUlCrZ11w9N9skGX",
+            "792wR5ExRI764wQcfZy76f",
+            "7aONqI2KBGgaQym0AGlYhb",
+            "a7NOWgbxdP/rFX7FwGJG03",
+            "adEYDRcnJJcZNnVkSrKnMf",
+            "b87plxNZ9KPJpKR6RJbuKG",
+            "c8b3D2AWhKq4Z3AhFNIwTm",
+            "d8NMiBF+hP45N2aWf5v2c0",
+            "f5yEGZUy5P96dphrd2E9zB",
+            "f6fdyy5pFI4LW04haPB4k6",
+            "f8cMODAO9H86MOyI0fmao+"
+        ]
+    },
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "07DDwbY8RDNKodOUwBozyH",
+            "11fd1",
+            "0edd0abf0",
+            "35bb3",
+            "17bz99JWpCiKtAQMEFNnbd",
+            "d55ed",
+            "18KK5BbEpO7Y7ltYoLA56M",
+            "4a473",
+            "18YdDTA29GaZGA1PYQqRnc",
+            "87256",
+            "1bTOJ/7gpOxY2ZxDJrm+qE",
+            "7b3a4",
+            "1dpbaaIZFKF43um9l85Lvb",
+            "cbc76",
+            "25xJnr9NBHVY+vIK6ruWTX",
+            "0d7f1",
+            "31WJcAk1lJe7LNSYi8DpYw",
+            "2c024",
+            "4cqWY9wGhO/7deX2GY1laZ",
+            "c59da",
+            "4cyZ+WE6NFhpDkCSZfKv6E",
+            "69d09",
+            "63/cbYCj9HZ44n8RKeEDLk",
+            "a370b",
+            "6avCHwRBhKlKRt/GC7Ivv9",
+            "31e7d",
+            "8aTfTx0hVMmrWWuQLL4bIw",
+            "5e870",
+            "8adKn2aLFJ06/82oWEpnhp",
+            "62bdf",
+            "93oojwZOlIK6+AqBzqiu98",
+            "ad83e",
+            "94oytgQApGZ7bIbGkXqry8",
+            "016eb",
+            "94+C8oWnhHcrro7y5UZQSN",
+            "5f6c6",
+            "95DkPQ6gJKzomVqeLp/GYW",
+            "843de",
+            "9f3oAYphdOPb/t8iZOvtDZ",
+            "09146",
+            "a413lBBwxGPoOwGJszuJsd",
+            "9a4f1",
+            "b7kEwaRBlAGKK2XgT1LmuW",
+            "578a8",
+            "b79+2WFuFN0pncTaRZLJEE",
+            "e4521",
+            "baTwI/UMNIMLoBqT+tMenL",
+            "98277",
+            "c6uO6QkBZBxILC7Yls4gfA",
+            "fcd3f",
+            "d8kkQpGqxAPKkW1XnrKWjf",
+            "070b5",
+            "e3RxnYwBBNRZXGoZcgApfN",
+            "055a1",
+            "edGh6DzkdI0JL1e4T3PsuX",
+            "16079",
+            "f5j93+fwxGBZnAynKNICDU",
+            "69634",
+            "fb8kiDZIhKla2GuEbpaUj6",
+            "756dd"
+        ],
+        "native": [
+            "04deRuWeFG+a5m8/IKNW46",
+            "8e532",
+            "0fsAI/lLVGlZkgJoqkqrmc",
+            "9646a",
+            "16soWbluBHLb1t7XN0KlbI",
+            "2a5f1",
+            "18YdDTA29GaZGA1PYQqRnc",
+            "00593",
+            "1dpbaaIZFKF43um9l85Lvb",
+            "15d8b",
+            "2crtaIXuFFaLwTp7P39BSi",
+            "469d1",
+            "30CkF+wNNNzaD6q1/9f3Yx",
+            "5f1db",
+            "31WJcAk1lJe7LNSYi8DpYw",
+            "817b8",
+            "35sQcm3h5DOJBlQxt+1LPU",
+            "ac28b",
+            "56fi0rnM9M/6PTJs+YlgEC",
+            "e7c35",
+            "63/cbYCj9HZ44n8RKeEDLk",
+            "2cc68",
+            "68lPoZWrtDs67BIrzgz6xA",
+            "8a573",
+            "76r/D1EUlCrZ11w9N9skGX",
+            "cd498",
+            "792wR5ExRI764wQcfZy76f",
+            "96fc4",
+            "7aONqI2KBGgaQym0AGlYhb",
+            "1f1ab",
+            "93oojwZOlIK6+AqBzqiu98",
+            "dc70a",
+            "94oytgQApGZ7bIbGkXqry8",
+            "2e657",
+            "a7NOWgbxdP/rFX7FwGJG03",
+            "5ddc8",
+            "adEYDRcnJJcZNnVkSrKnMf",
+            "f5954",
+            "b87plxNZ9KPJpKR6RJbuKG",
+            "ac695",
+            "c8b3D2AWhKq4Z3AhFNIwTm",
+            "4d039",
+            "d8NMiBF+hP45N2aWf5v2c0",
+            "18661",
+            "d8kkQpGqxAPKkW1XnrKWjf",
+            "8102b",
+            "e3RxnYwBBNRZXGoZcgApfN",
+            "603e4",
+            "f5j93+fwxGBZnAynKNICDU",
+            "8080a",
+            "f5yEGZUy5P96dphrd2E9zB",
+            "65048",
+            "f6fdyy5pFI4LW04haPB4k6",
+            "1ebd5",
+            "f8cMODAO9H86MOyI0fmao+",
+            "aff72"
+        ]
+    }
+}

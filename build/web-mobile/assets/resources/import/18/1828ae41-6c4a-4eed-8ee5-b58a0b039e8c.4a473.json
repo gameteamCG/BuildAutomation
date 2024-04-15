@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "0fsAI/lLVGlZkgJoqkqrmc"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Tennis ball",
+      "rect": [
+        109,
+        81,
+        342,
+        339
+      ],
+      "offset": [
+        29.5,
+        0
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
