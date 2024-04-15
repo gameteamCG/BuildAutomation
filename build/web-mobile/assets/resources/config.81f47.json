@@ -1,0 +1,64 @@
+{
+    "paths": {
+        "65F4lSDDtBvbggzEHdqQhp": [
+            "audios/hellodearfriends",
+            "cc.AudioClip"
+        ],
+        "411Ux9cTNOG4xQx8hMUhum": [
+            "audios/subwithob",
+            "cc.AudioClip"
+        ],
+        "72b7XWwIxLiK5EN/XllJe3": [
+            "game_data",
+            "cc.JsonAsset"
+        ],
+        "0dB3zs095F44IrXuLqLLwa": [
+            "images/subb",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3fd23SHvBKVaHSUuA/wg3V": [
+            "images/subb",
+            "cc.Texture2D"
+        ]
+    },
+    "uuids": [
+        "0dB3zs095F44IrXuLqLLwa",
+        "3fd23SHvBKVaHSUuA/wg3V",
+        "411Ux9cTNOG4xQx8hMUhum",
+        "65F4lSDDtBvbggzEHdqQhp",
+        "72b7XWwIxLiK5EN/XllJe3"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {},
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "0dB3zs095F44IrXuLqLLwa",
+            "5dec8",
+            "3fd23SHvBKVaHSUuA/wg3V",
+            "7be92",
+            "411Ux9cTNOG4xQx8hMUhum",
+            "3e727",
+            "65F4lSDDtBvbggzEHdqQhp",
+            "47379",
+            "72b7XWwIxLiK5EN/XllJe3",
+            "8a0c3"
+        ],
+        "native": [
+            "3fd23SHvBKVaHSUuA/wg3V",
+            "6e4ae",
+            "411Ux9cTNOG4xQx8hMUhum",
+            "c617c",
+            "65F4lSDDtBvbggzEHdqQhp",
+            "776f6"
+        ]
+    }
+}

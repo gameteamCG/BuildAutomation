@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "subb",
+    "texture": "3f776dd2-1ef0-4a55-a1d2-52e03fc20dd5",
+    "atlas": "",
+    "rect": [
+      25,
+      24,
+      1104,
+      416
+    ],
+    "offset": [
+      11,
+      -9.5
+    ],
+    "originalSize": [
+      1132,
+      445
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
