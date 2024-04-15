@@ -2325,18 +2325,12 @@
     "extraImg": {
       "__uuid__": "fe7bee84-c27e-4e2c-bfe9-4452ad2d6dae"
     },
-    "podar_font": {
-      "__uuid__": "d9348f57-e185-484c-b22d-019c41022ac4"
-    },
+    "podar_font": null,
     "jaipuria_font": {
       "__uuid__": "cacb2c50-3d51-46f1-b72c-d9833b56f3ea"
     },
-    "tlc_font": {
-      "__uuid__": "9bd6c337-4f3c-42b2-9ac2-effc833609a2"
-    },
-    "supercub_font": {
-      "__uuid__": "a3ed727b-d7e5-49a6-89de-84365f6e7b27"
-    },
+    "tlc_font": null,
+    "supercub_font": null,
     "popSound": [
       {
         "__uuid__": "34f9d273-9dff-4094-bcdb-4e79ee69dcbf"
@@ -2362,68 +2356,10 @@
         "__uuid__": "d29dd2e9-c05e-4373-9073-832a638090ff"
       }
     ],
-    "positiveAudio": [
-      {
-        "__uuid__": "3915feac-6973-4261-ae69-06ae3073118a"
-      },
-      {
-        "__uuid__": "346db365-650c-4190-8fdb-794bf95d7571"
-      },
-      {
-        "__uuid__": "0604bdaa-d0cc-46c9-b385-963eb6144bbf"
-      },
-      {
-        "__uuid__": "b5e4cb3e-072e-4404-83ac-588cc9733a80"
-      },
-      {
-        "__uuid__": "bb7c4c69-d1d4-4f18-afe7-c253211897fd"
-      },
-      {
-        "__uuid__": "619a3ebd-af46-4fcd-9aa6-a199126b7548"
-      }
-    ],
-    "negativeAudio": [
-      {
-        "__uuid__": "e82bd679-7602-4c68-9d62-1dbc42dd1ff4"
-      },
-      {
-        "__uuid__": "6f820990-47ef-4338-8909-29f6c6687e32"
-      },
-      {
-        "__uuid__": "34ce46ba-a4d4-4dce-ba93-7a35fdd8386a"
-      },
-      {
-        "__uuid__": "cfa8cf7f-9650-43fe-a4a0-8f0a94e23770"
-      },
-      {
-        "__uuid__": "e82bd679-7602-4c68-9d62-1dbc42dd1ff4"
-      },
-      {
-        "__uuid__": "6f820990-47ef-4338-8909-29f6c6687e32"
-      }
-    ],
-    "stallionPositive": [
-      {
-        "__uuid__": "3cb6f5fd-7732-4a10-a85f-4ca6bcd6dbc8"
-      },
-      {
-        "__uuid__": "71f69b65-e102-4538-a62a-498d4d88afa9"
-      },
-      {
-        "__uuid__": "cd4955f7-d6dc-4b08-8777-b7e8d7cc7fc0"
-      },
-      {
-        "__uuid__": "f09b87b4-4ea0-4bd6-9e5c-0bb845d47b7b"
-      }
-    ],
-    "stallionNegative": [
-      {
-        "__uuid__": "402bed4f-1d0c-415b-afcf-ae20af948f4e"
-      },
-      {
-        "__uuid__": "9abad598-172f-4dd1-ada8-1d1673d7409d"
-      }
-    ],
+    "positiveAudio": [],
+    "negativeAudio": [],
+    "stallionPositive": [],
+    "stallionNegative": [],
     "bagPositive": [
       {
         "__uuid__": "87cf9f95-04f3-4d8f-b633-6e09a2f30c63"
@@ -2452,111 +2388,17 @@
         "__uuid__": "9bf14701-26b4-41d5-ba20-3f1593c2fecd"
       }
     ],
-    "cryonPositive": [
-      {
-        "__uuid__": "cd66dfed-4c36-4952-98eb-6a2786f9eb7c"
-      },
-      {
-        "__uuid__": "08584640-4772-419e-9fe7-00b0f4edb092"
-      },
-      {
-        "__uuid__": "72ff7273-32e6-4d7a-9e37-cd536fc11765"
-      },
-      {
-        "__uuid__": "1d2d4b5d-82d1-4fb8-89e1-c99eb05d8c15"
-      },
-      {
-        "__uuid__": "2145858d-8bcf-4e14-8719-51d6d3bc1335"
-      }
-    ],
-    "cryonNegative": [
-      {
-        "__uuid__": "6bacaabc-c1d1-47e3-9938-c1d9f3256d10"
-      },
-      {
-        "__uuid__": "1a50c330-f540-4df2-9da3-3b422e1748d4"
-      },
-      {
-        "__uuid__": "f79299f0-129c-4dba-a06e-15789983a305"
-      }
-    ],
-    "tlcPositive": [
-      {
-        "__uuid__": "1572870f-2fcf-41da-890e-bc0c40006d9e"
-      },
-      {
-        "__uuid__": "f5110930-9533-48bb-9587-e0b448b4c712"
-      },
-      {
-        "__uuid__": "8a3ec6eb-f41d-4ff6-b5bb-004a1ee62183"
-      },
-      {
-        "__uuid__": "5bd7250f-1f36-4132-b523-d14087334888"
-      },
-      {
-        "__uuid__": "6fed4222-f6bd-4618-bcee-272dd05a8b8b"
-      },
-      {
-        "__uuid__": "51ef5ee3-c8b4-4fa9-9894-fc425bdd25c1"
-      }
-    ],
-    "tlcNegative": [
-      {
-        "__uuid__": "d58eefe1-c218-4ec7-9d24-4fc9b5299330"
-      },
-      {
-        "__uuid__": "2e028d76-c894-45ef-b12c-2df0b05be6cf"
-      },
-      {
-        "__uuid__": "81c45238-e8f3-4721-a206-a26d1e926f58"
-      }
-    ],
-    "supercubPositive": [
-      {
-        "__uuid__": "cad2114e-189b-4794-9d58-196649822638"
-      },
-      {
-        "__uuid__": "49851f62-2c77-411a-94eb-bdf624726894"
-      },
-      {
-        "__uuid__": "7490fb7b-19fe-4254-bc2a-b816311c28a3"
-      },
-      {
-        "__uuid__": "20a39b12-96e5-41a9-89dd-36a01283980b"
-      },
-      {
-        "__uuid__": "c7e6dd45-30cd-4b7b-96a6-90e6ac281769"
-      }
-    ],
-    "supercubNegative": [
-      {
-        "__uuid__": "0a1e3b01-cbd2-44f2-959b-50847ff1d870"
-      },
-      {
-        "__uuid__": "0a1e3b01-cbd2-44f2-959b-50847ff1d870"
-      },
-      {
-        "__uuid__": "75b3faa8-0585-4716-91e7-a7f3c5135c16"
-      },
-      {
-        "__uuid__": "44ae7fe3-daa1-4b74-8a58-7e162090cf58"
-      }
-    ],
-    "tlc_birdFlying": {
-      "__uuid__": "79aaed45-e47b-40f2-871f-31cf3ceeeffd"
-    },
-    "supercub_Pos1": {
-      "__uuid__": "f5fa552f-bd1e-4f9b-ad45-51c4ab467e38"
-    },
-    "supercub_Pos2": {
-      "__uuid__": "97854dce-7055-4026-bb0b-0e412e8a47ea"
-    },
-    "supercub_Neg1": {
-      "__uuid__": "d1003217-faf5-422a-be0c-4b14afeab458"
-    },
-    "supercub_Neg2": {
-      "__uuid__": "36cc86c1-e7d0-447d-aab0-ede55d5fb0bc"
-    },
+    "cryonPositive": [],
+    "cryonNegative": [],
+    "tlcPositive": [],
+    "tlcNegative": [],
+    "supercubPositive": [],
+    "supercubNegative": [],
+    "tlc_birdFlying": null,
+    "supercub_Pos1": null,
+    "supercub_Pos2": null,
+    "supercub_Neg1": null,
+    "supercub_Neg2": null,
     "defaultMat": {
       "__uuid__": "08ffa63e-16c2-4ca0-8529-cbdbddf9d7f9"
     },
