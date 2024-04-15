@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "connnn",
+    "texture": "768e943a-a7a1-4df9-8844-44404ba23bb3",
+    "atlas": "",
+    "rect": [
+      24,
+      24,
+      1267,
+      391
+    ],
+    "offset": [
+      11,
+      12
+    ],
+    "originalSize": [
+      1293,
+      463
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

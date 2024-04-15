@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "76jpQ6p6FN+YhEREBLojuz"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "connnn",
+      "rect": [
+        24,
+        24,
+        1267,
+        391
+      ],
+      "offset": [
+        11,
+        12
+      ],
+      "originalSize": [
+        1293,
+        463
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
