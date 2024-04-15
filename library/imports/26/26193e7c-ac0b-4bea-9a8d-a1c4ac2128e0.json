@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thelump",
+    "texture": "2173397a-ee69-4680-bd5f-be47830e3d21",
+    "atlas": "",
+    "rect": [
+      25,
+      24,
+      854,
+      210
+    ],
+    "offset": [
+      11.5,
+      -7.5
+    ],
+    "originalSize": [
+      881,
+      243
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

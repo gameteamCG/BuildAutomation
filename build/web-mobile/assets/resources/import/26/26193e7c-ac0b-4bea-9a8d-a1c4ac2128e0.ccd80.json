@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "21czl67mlGgL1fvkeDDj0h"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "thelump",
+      "rect": [
+        25,
+        24,
+        854,
+        210
+      ],
+      "offset": [
+        11.5,
+        -7.5
+      ],
+      "originalSize": [
+        881,
+        243
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
