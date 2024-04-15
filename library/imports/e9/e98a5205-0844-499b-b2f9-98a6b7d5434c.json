@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "test",
+      "VideoLink": "",
+      "TitleImageName": "",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}

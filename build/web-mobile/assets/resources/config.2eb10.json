@@ -1,0 +1,28 @@
+{
+    "paths": {
+        "e9ilIFCERJm7L5mKa31UNM": [
+            "game_data",
+            "cc.JsonAsset"
+        ]
+    },
+    "uuids": [
+        "e9ilIFCERJm7L5mKa31UNM"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {},
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "e9ilIFCERJm7L5mKa31UNM",
+            "13917"
+        ],
+        "native": []
+    }
+}

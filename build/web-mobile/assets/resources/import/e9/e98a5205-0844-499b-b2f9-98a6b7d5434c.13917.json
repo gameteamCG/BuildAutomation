@@ -1,0 +1,46 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "test",
+          "VideoLink": "",
+          "TitleImageName": "",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "puzzle",
+          "TotalLevel": "0"
+        },
+        "QuestionData": []
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]
