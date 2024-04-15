@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "letter x",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/78964365_freecompress_CINUR_Letterx_Video1_CO_1713158739730.mp4",
+      "TitleImageName": "Assetx.png",
+      "IntroAudio1Name": "hiifriends.mp3",
+      "IntroAudio2Name": "TodaywewilllearnabouttheletterX.mp3",
+      "JockeyName": "crayon",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
