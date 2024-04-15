@@ -1,0 +1,200 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "additionalData": {
+          "GameID": "opposite wet and dry",
+          "totalLevel": "7",
+          "TitleImageName": "Asset.png",
+          "introBgName": "bg.png",
+          "bgmMusicName": "ColourBGM1.mp3",
+          "JockeyName": "tlc"
+        },
+        "questionData": [
+          {
+            "questionLayout": "layout2",
+            "questionBgName": "clothbg.png",
+            "questionAudioName": "tap on the dry clothing item .mp3",
+            "shouldPlayQuestionAudio": true,
+            "isOptionText": false,
+            "numberOfOptions": 3,
+            "correctAudioName": "FANTASTIC.mp3",
+            "wrongAudioName": "Oopsietryoncemore.mp3",
+            "correctAnswerNum": "1",
+            "options": [
+              "",
+              "",
+              ""
+            ],
+            "optionsBg": [
+              "7.png",
+              "13.png",
+              "6.png"
+            ],
+            "reiterationAudioName": []
+          },
+          {
+            "questionLayout": "layout2",
+            "questionBgName": "clothbg.png",
+            "questionAudioName": "tap on the wet clothing item.mp3",
+            "shouldPlayQuestionAudio": true,
+            "isOptionText": false,
+            "numberOfOptions": 3,
+            "correctAudioName": "GOODEFFORT.mp3",
+            "wrongAudioName": "ohoh.mp3",
+            "correctAnswerNum": "2",
+            "options": [
+              "7.png",
+              "",
+              ""
+            ],
+            "optionsBg": [
+              "",
+              "13.png",
+              "8.png"
+            ],
+            "reiterationAudioName": []
+          },
+          {
+            "questionLayout": "layout2",
+            "questionBgName": "flowerbg.png",
+            "questionAudioName": "tap on the dry clothing item .mp3",
+            "shouldPlayQuestionAudio": true,
+            "isOptionText": false,
+            "numberOfOptions": 3,
+            "correctAudioName": "GOODJOB.mp3",
+            "wrongAudioName": "nevermindtryagain.mp3",
+            "correctAnswerNum": "3",
+            "options": [
+              "",
+              "",
+              ""
+            ],
+            "optionsBg": [
+              "2.png",
+              "6.png",
+              "14.png"
+            ],
+            "reiterationAudioName": []
+          },
+          {
+            "questionLayout": "layout2",
+            "questionBgName": "flowerbg.png",
+            "questionAudioName": "tap on the wet clothing item.mp3",
+            "shouldPlayQuestionAudio": true,
+            "isOptionText": false,
+            "numberOfOptions": 3,
+            "correctAudioName": "MAGNIFICENT.mp3",
+            "wrongAudioName": "ohoh.mp3",
+            "correctAnswerNum": "1",
+            "options": [
+              "",
+              "",
+              ""
+            ],
+            "optionsBg": [
+              "13.png",
+              "10.png",
+              "11.png"
+            ],
+            "reiterationAudioName": []
+          },
+          {
+            "questionLayout": "layout2",
+            "questionBgName": "clothbg.png",
+            "questionAudioName": "tap on the dry clothing item .mp3",
+            "shouldPlayQuestionAudio": true,
+            "isOptionText": false,
+            "numberOfOptions": 3,
+            "correctAudioName": "IMPRESSIVEWORK.mp3",
+            "wrongAudioName": "Oopsietryoncemore.mp3",
+            "correctAnswerNum": "3",
+            "options": [
+              "",
+              "",
+              ""
+            ],
+            "optionsBg": [
+              "13.png",
+              "5.png",
+              "7.png"
+            ],
+            "reiterationAudioName": []
+          },
+          {
+            "questionLayout": "layout2",
+            "questionBgName": "clothbg.png",
+            "questionAudioName": "tap on the wet clothing item.mp3",
+            "shouldPlayQuestionAudio": true,
+            "isOptionText": false,
+            "numberOfOptions": 3,
+            "correctAudioName": "INCREDIBLE.mp3",
+            "wrongAudioName": "ohoh.mp3",
+            "correctAnswerNum": "1",
+            "options": [
+              "",
+              "",
+              ""
+            ],
+            "optionsBg": [
+              "2.png",
+              "3.png",
+              "9.png"
+            ],
+            "reiterationAudioName": []
+          },
+          {
+            "questionLayout": "layout2",
+            "questionBgName": "flowerbg.png",
+            "questionAudioName": "tap on the dry clothing item .mp3",
+            "shouldPlayQuestionAudio": true,
+            "isOptionText": false,
+            "numberOfOptions": 3,
+            "correctAudioName": "MAGNIFICENT.mp3",
+            "wrongAudioName": "nevermindtryagain.mp3",
+            "correctAnswerNum": "2",
+            "options": [
+              "",
+              "",
+              ""
+            ],
+            "optionsBg": [
+              "2.png",
+              "8.png",
+              "5.png"
+            ],
+            "reiterationAudioName": []
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

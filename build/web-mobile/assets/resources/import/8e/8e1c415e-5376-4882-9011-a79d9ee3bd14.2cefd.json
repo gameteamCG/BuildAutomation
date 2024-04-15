@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "99iI0nZBJClpweo97o3jXV"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "flowerbg",
+      "rect": [
+        0,
+        0,
+        1915,
+        1080
+      ],
+      "offset": [
+        -2.5,
+        0
+      ],
+      "originalSize": [
+        1920,
+        1080
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
