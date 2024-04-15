@@ -1,0 +1,64 @@
+{
+    "paths": {
+        "94Ro6Iq6VBJ6bMworU/Uiz": [
+            "audios/Today_we_will_learn_about_shapes",
+            "cc.AudioClip"
+        ],
+        "a31TBqZZpD9KmibepmerjD": [
+            "audios/hellolovelypeople",
+            "cc.AudioClip"
+        ],
+        "0ds4/2V/NInpcHD3f0rqBc": [
+            "game_data",
+            "cc.JsonAsset"
+        ],
+        "20WvgobflDRIE2mnqdcBWl": [
+            "images/13",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d9pHYfcP9JZJsG0TZ3PIS7": [
+            "images/13",
+            "cc.Texture2D"
+        ]
+    },
+    "uuids": [
+        "0ds4/2V/NInpcHD3f0rqBc",
+        "20WvgobflDRIE2mnqdcBWl",
+        "94Ro6Iq6VBJ6bMworU/Uiz",
+        "a31TBqZZpD9KmibepmerjD",
+        "d9pHYfcP9JZJsG0TZ3PIS7"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {},
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "0ds4/2V/NInpcHD3f0rqBc",
+            "bf528",
+            "20WvgobflDRIE2mnqdcBWl",
+            "74105",
+            "94Ro6Iq6VBJ6bMworU/Uiz",
+            "41803",
+            "a31TBqZZpD9KmibepmerjD",
+            "0a637",
+            "d9pHYfcP9JZJsG0TZ3PIS7",
+            "7be92"
+        ],
+        "native": [
+            "94Ro6Iq6VBJ6bMworU/Uiz",
+            "13d09",
+            "a31TBqZZpD9KmibepmerjD",
+            "89f46",
+            "d9pHYfcP9JZJsG0TZ3PIS7",
+            "cbf6a"
+        ]
+    }
+}
