@@ -1,0 +1,64 @@
+{
+    "paths": {
+        "06CYFLs2lI6Z0MPTPnyGFq": [
+            "audios/Today_we_will_recall_the_concept_of_more_less_and_equal",
+            "cc.AudioClip"
+        ],
+        "9asJdS8SxLZbq+0tPQbtFY": [
+            "audios/heyfriends",
+            "cc.AudioClip"
+        ],
+        "23MuOXw1FG6aRqF7udj4f8": [
+            "game_data",
+            "cc.JsonAsset"
+        ],
+        "caK7vG5ZRAlKO4W2UsHBK+": [
+            "images/10",
+            "cc.Texture2D"
+        ],
+        "e1aekw3WdNr7Oi6X9BXTs0": [
+            "images/10",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "06CYFLs2lI6Z0MPTPnyGFq",
+        "23MuOXw1FG6aRqF7udj4f8",
+        "9asJdS8SxLZbq+0tPQbtFY",
+        "caK7vG5ZRAlKO4W2UsHBK+",
+        "e1aekw3WdNr7Oi6X9BXTs0"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {},
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "06CYFLs2lI6Z0MPTPnyGFq",
+            "151cb",
+            "23MuOXw1FG6aRqF7udj4f8",
+            "dad99",
+            "9asJdS8SxLZbq+0tPQbtFY",
+            "6694e",
+            "caK7vG5ZRAlKO4W2UsHBK+",
+            "7be92",
+            "e1aekw3WdNr7Oi6X9BXTs0",
+            "85b06"
+        ],
+        "native": [
+            "06CYFLs2lI6Z0MPTPnyGFq",
+            "c88bd",
+            "9asJdS8SxLZbq+0tPQbtFY",
+            "6a6b8",
+            "caK7vG5ZRAlKO4W2UsHBK+",
+            "1a11f"
+        ]
+    }
+}
