@@ -1,0 +1,64 @@
+{
+    "paths": {
+        "73zbBz3+BCbpt7aVem8Fii": [
+            "audios/Today_we_will_learn_about_planets",
+            "cc.AudioClip"
+        ],
+        "38yVi1ujtCtK6l++WDEhis": [
+            "audios/hellodearfriends",
+            "cc.AudioClip"
+        ],
+        "73BIAIW0FOQpAKoJR1Nmba": [
+            "game_data",
+            "cc.JsonAsset"
+        ],
+        "14LuTIDaZIEbO8dK3NdH6D": [
+            "images/14",
+            "cc.SpriteFrame",
+            1
+        ],
+        "39MRKyEB9PPriMHzl6EGaq": [
+            "images/14",
+            "cc.Texture2D"
+        ]
+    },
+    "uuids": [
+        "14LuTIDaZIEbO8dK3NdH6D",
+        "38yVi1ujtCtK6l++WDEhis",
+        "39MRKyEB9PPriMHzl6EGaq",
+        "73BIAIW0FOQpAKoJR1Nmba",
+        "73zbBz3+BCbpt7aVem8Fii"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {},
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "14LuTIDaZIEbO8dK3NdH6D",
+            "d0dfc",
+            "38yVi1ujtCtK6l++WDEhis",
+            "47379",
+            "39MRKyEB9PPriMHzl6EGaq",
+            "7be92",
+            "73BIAIW0FOQpAKoJR1Nmba",
+            "c3856",
+            "73zbBz3+BCbpt7aVem8Fii",
+            "edff1"
+        ],
+        "native": [
+            "38yVi1ujtCtK6l++WDEhis",
+            "776f6",
+            "39MRKyEB9PPriMHzl6EGaq",
+            "8f909",
+            "73zbBz3+BCbpt7aVem8Fii",
+            "b2c8f"
+        ]
+    }
+}
