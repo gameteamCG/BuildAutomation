@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "62HNEA4iNIGLnSPzwSTer1"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "monster",
+      "rect": [
+        0,
+        74,
+        500,
+        351
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

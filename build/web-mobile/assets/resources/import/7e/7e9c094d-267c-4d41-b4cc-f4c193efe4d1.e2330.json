@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "36uEHMSXlCSpmr5et2RR5z"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Bike",
+      "rect": [
+        3,
+        90,
+        493,
+        320
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
