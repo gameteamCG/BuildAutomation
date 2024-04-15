@@ -2241,7 +2241,7 @@
       "ctor": "Float64Array",
       "array": [
         240.012,
-        90,
+        40,
         0,
         0,
         0,
@@ -2325,18 +2325,12 @@
     "extraImg": {
       "__uuid__": "fe7bee84-c27e-4e2c-bfe9-4452ad2d6dae"
     },
-    "podar_font": {
-      "__uuid__": "d9348f57-e185-484c-b22d-019c41022ac4"
-    },
+    "podar_font": null,
     "jaipuria_font": {
       "__uuid__": "cacb2c50-3d51-46f1-b72c-d9833b56f3ea"
     },
-    "tlc_font": {
-      "__uuid__": "9bd6c337-4f3c-42b2-9ac2-effc833609a2"
-    },
-    "supercub_font": {
-      "__uuid__": "a3ed727b-d7e5-49a6-89de-84365f6e7b27"
-    },
+    "tlc_font": null,
+    "supercub_font": null,
     "popSound": [
       {
         "__uuid__": "34f9d273-9dff-4094-bcdb-4e79ee69dcbf"
@@ -2362,54 +2356,40 @@
         "__uuid__": "d29dd2e9-c05e-4373-9073-832a638090ff"
       }
     ],
-    "positiveAudio": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "negativeAudio": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
+    "positiveAudio": [],
+    "negativeAudio": [],
     "stallionPositive": [],
     "stallionNegative": [],
-    "bagPositive": [
+    "bagPositive": [],
+    "bagNegative": [],
+    "cryonPositive": [
       {
-        "__uuid__": "87cf9f95-04f3-4d8f-b633-6e09a2f30c63"
+        "__uuid__": "cd66dfed-4c36-4952-98eb-6a2786f9eb7c"
       },
       {
-        "__uuid__": "0fc4ace4-a063-4245-9667-7b7b49abf666"
+        "__uuid__": "08584640-4772-419e-9fe7-00b0f4edb092"
       },
       {
-        "__uuid__": "7914dcc8-7a42-4f45-b48c-c36f57156549"
+        "__uuid__": "72ff7273-32e6-4d7a-9e37-cd536fc11765"
       },
       {
-        "__uuid__": "2a0c44af-6921-4b04-a360-f603304932fc"
+        "__uuid__": "1d2d4b5d-82d1-4fb8-89e1-c99eb05d8c15"
       },
       {
-        "__uuid__": "93e5bce9-491e-4c17-9da2-01075a41c0b3"
+        "__uuid__": "2145858d-8bcf-4e14-8719-51d6d3bc1335"
       }
     ],
-    "bagNegative": [
+    "cryonNegative": [
       {
-        "__uuid__": "b1fa9384-70ea-4eef-bc69-738d790b79f8"
+        "__uuid__": "6bacaabc-c1d1-47e3-9938-c1d9f3256d10"
       },
       {
-        "__uuid__": "de2f2ba2-5814-42b0-bffe-db42bebf0a92"
+        "__uuid__": "1a50c330-f540-4df2-9da3-3b422e1748d4"
       },
       {
-        "__uuid__": "9bf14701-26b4-41d5-ba20-3f1593c2fecd"
+        "__uuid__": "f79299f0-129c-4dba-a06e-15789983a305"
       }
     ],
-    "cryonPositive": [],
-    "cryonNegative": [],
     "tlcPositive": [],
     "tlcNegative": [],
     "supercubPositive": [],
