@@ -1,0 +1,64 @@
+{
+    "paths": {
+        "0efe80SkRBq5QPyhGME2sf": [
+            "audios/Today_we_will_listen_to_a_story_Me_and_my_place_in_space_by_Joan_Sweeney",
+            "cc.AudioClip"
+        ],
+        "e715uxqkZN7Lu1ImHxBg4u": [
+            "audios/hellodearfriends",
+            "cc.AudioClip"
+        ],
+        "08HhDYEXVPyJr+6oVtCHt7": [
+            "game_data",
+            "cc.JsonAsset"
+        ],
+        "35EcFUA+hFoYwYdBwSoNlI": [
+            "images/15",
+            "cc.SpriteFrame",
+            1
+        ],
+        "43UEVp4ttGs6A8ubHTUJvE": [
+            "images/15",
+            "cc.Texture2D"
+        ]
+    },
+    "uuids": [
+        "08HhDYEXVPyJr+6oVtCHt7",
+        "0efe80SkRBq5QPyhGME2sf",
+        "35EcFUA+hFoYwYdBwSoNlI",
+        "43UEVp4ttGs6A8ubHTUJvE",
+        "e715uxqkZN7Lu1ImHxBg4u"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {},
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "08HhDYEXVPyJr+6oVtCHt7",
+            "2b372",
+            "0efe80SkRBq5QPyhGME2sf",
+            "7b9fb",
+            "35EcFUA+hFoYwYdBwSoNlI",
+            "6dfc6",
+            "43UEVp4ttGs6A8ubHTUJvE",
+            "7be92",
+            "e715uxqkZN7Lu1ImHxBg4u",
+            "47379"
+        ],
+        "native": [
+            "0efe80SkRBq5QPyhGME2sf",
+            "3e633",
+            "43UEVp4ttGs6A8ubHTUJvE",
+            "0ffd8",
+            "e715uxqkZN7Lu1ImHxBg4u",
+            "776f6"
+        ]
+    }
+}
