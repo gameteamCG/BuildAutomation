@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f6Edp9ug9H9prD8qvlazQL"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "crow",
+      "rect": [
+        55,
+        0,
+        385,
+        500
+      ],
+      "offset": [
+        -2.5,
+        0
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

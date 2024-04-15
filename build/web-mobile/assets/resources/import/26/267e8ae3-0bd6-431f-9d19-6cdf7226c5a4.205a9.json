@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "4dRAlcADVObaEwDqjgy6OS"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "mug",
+      "rect": [
+        56,
+        0,
+        384,
+        500
+      ],
+      "offset": [
+        -2,
+        0
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

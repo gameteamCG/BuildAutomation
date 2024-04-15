@@ -1,0 +1,218 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Living and non-living things",
+      "totalLevel": "11",
+      "TitleImageName": "livingandnonlivingthings.png",
+      "introBgName": "seniorkg.png",
+      "bgmMusicName": "bgmss.mp3",
+      "mainBgName": "outdoorBG.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "living and non-living things",
+        "questionAudioName": "taponthenonliving.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "fan.png",
+          "lion.png",
+          "whale.png"
+        ],
+        "correctAudios": [
+          "fan.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "living and non-living things",
+        "questionAudioName": "taponthelivingthin.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "bottle.png",
+          "car.png",
+          "dog.png"
+        ],
+        "correctAudios": [
+          "dog.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "living and non-living things",
+        "questionAudioName": "taponthelivingthin.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "fan.png",
+          "monkey.png",
+          "mug.png"
+        ],
+        "correctAudios": [
+          "monkey.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "living and non-living things",
+        "questionAudioName": "taponthenonliving.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "monkey.png",
+          "dog.png",
+          "shoes.png"
+        ],
+        "correctAudios": [
+          "shoes.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "living and non-living things",
+        "questionAudioName": "taponthenonliving.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "television.png",
+          "spider.png",
+          "lion.png"
+        ],
+        "correctAudios": [
+          "television.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "living and non-living things",
+        "questionAudioName": "taponthelivingthin.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "cow.png",
+          "clouds.png",
+          "window.png"
+        ],
+        "correctAudios": [
+          "cow.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "living and non-living things",
+        "questionAudioName": "taponthelivingthin.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "teddy.png",
+          "shoes.png",
+          "crow.png"
+        ],
+        "correctAudios": [
+          "crow.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "living and non-living things",
+        "questionAudioName": "taponthelivingthin.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "bowl.png",
+          "frog.png",
+          "table.png"
+        ],
+        "correctAudios": [
+          "frog.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "living and non-living things",
+        "questionAudioName": "taponthenonliving.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "snail.png",
+          "pigeon.png",
+          "mobilephone.png"
+        ],
+        "correctAudios": [
+          "mobilephone.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "living and non-living things",
+        "questionAudioName": "taponthelivingthin.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "fish.png",
+          "car.png",
+          "television.png"
+        ],
+        "correctAudios": [
+          "fish.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "living and non-living things",
+        "questionAudioName": "taponthenonliving.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "crow.png",
+          "table.png",
+          "cow.png"
+        ],
+        "correctAudios": [
+          "table.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

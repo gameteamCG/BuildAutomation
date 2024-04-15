@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "3ek5i0uCNLK4/E0in9Q/vl"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "lion",
+      "rect": [
+        56,
+        0,
+        384,
+        500
+      ],
+      "offset": [
+        -2,
+        0
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

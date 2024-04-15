@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a5ZeZ2ap5NC5FrDFz9acPi"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "fan",
+      "rect": [
+        56,
+        0,
+        384,
+        500
+      ],
+      "offset": [
+        -2,
+        0
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
