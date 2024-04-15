@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "44rcCnePBKO5qVT4c6zjS9"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "tomato",
+      "rect": [
+        17,
+        37,
+        464,
+        431
+      ],
+      "offset": [
+        -1,
+        -2.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

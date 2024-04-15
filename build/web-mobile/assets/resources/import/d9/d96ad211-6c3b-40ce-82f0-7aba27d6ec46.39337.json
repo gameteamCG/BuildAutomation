@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "04EY3esVtOqZ1uqLqUOtwR"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "bulb",
+      "rect": [
+        173,
+        82,
+        189,
+        317
+      ],
+      "offset": [
+        17,
+        10
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
