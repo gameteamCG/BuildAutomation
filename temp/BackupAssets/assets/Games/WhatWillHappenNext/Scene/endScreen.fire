@@ -468,7 +468,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        174.724,
+        209.01,
         0,
         0,
         0,
@@ -562,7 +562,7 @@
       "ctor": "Float64Array",
       "array": [
         -180.26,
-        111.14,
+        145.426,
         0,
         0,
         0,
@@ -656,7 +656,7 @@
       "ctor": "Float64Array",
       "array": [
         177.935,
-        111.14,
+        145.426,
         0,
         0,
         0,
@@ -775,7 +775,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "bbVr/Pc2pMoYgMRYZyybq3"
+    "_id": "bdhgo+wTtAG60GQgiz5kKY"
   },
   {
     "__type__": "cc.Node",
@@ -837,7 +837,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "83K2HK5O5JALOqdSQMDWDS"
+    "_id": "d2jxph3pNKIb5jUX9yBccc"
   },
   {
     "__type__": "cc.Sprite",
@@ -869,7 +869,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": "3dhOBzvH5IUr6cCsEEcOQ9"
+    "_id": "c2hjqxwDZOeqExKlp48b7Q"
   },
   {
     "__type__": "cc.Node",
@@ -937,7 +937,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "dclzr1FJ1NwKKQEkLSiFZp"
+    "_id": "09I1QyOQxBKraG44X8rWx3"
   },
   {
     "__type__": "cc.Sprite",
@@ -969,7 +969,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": "06b5agYpFFM4hRPBgB55Zb"
+    "_id": "cbAjIFAeNDzY9G68tErAHV"
   },
   {
     "__type__": "cc.Animation",
@@ -988,7 +988,7 @@
       }
     ],
     "playOnLoad": true,
-    "_id": "a7iZVOJcZGPqH+qB84Soiw"
+    "_id": "00TFbY0+FNx4Uta56CZd92"
   },
   {
     "__type__": "cc.Button",
@@ -1062,7 +1062,7 @@
     "_N$target": {
       "__id__": 18
     },
-    "_id": "243mC0bwZD2Jr+Jv8JafCn"
+    "_id": "dcMyQ5U31DaK7Z1KzjxIxD"
   },
   {
     "__type__": "cc.ClickEvent",
@@ -1089,9 +1089,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": {
-      "__uuid__": "fbb9ca0b-3278-42cc-8a1c-a7174f17a495"
-    },
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -1125,17 +1123,11 @@
       }
     ],
     "podarEnd": {
-      "__uuid__": "edd6b085-f50c-4240-90dd-00cbc64674a8"
+      "__uuid__": "fd3c3bf1-0ab0-4006-8cc2-35184d621727"
     },
-    "jaipuriaEnd": {
-      "__uuid__": "7ee6385b-10a2-46f5-a385-17206245ca4f"
-    },
-    "tlcEnd": {
-      "__uuid__": "77f3fb43-c29b-4227-a7bd-b2509cd0bd08"
-    },
-    "supercubEnd": {
-      "__uuid__": "7b20195f-9785-44a0-b4aa-74d8f58294ad"
-    },
+    "jaipuriaEnd": null,
+    "tlcEnd": null,
+    "supercubEnd": null,
     "_id": "49kBSRX51J4KpX1AFElryd"
   },
   {

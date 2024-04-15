@@ -2241,7 +2241,7 @@
       "ctor": "Float64Array",
       "array": [
         240.012,
-        90,
+        40,
         0,
         0,
         0,
@@ -2328,15 +2328,9 @@
     "podar_font": {
       "__uuid__": "d9348f57-e185-484c-b22d-019c41022ac4"
     },
-    "jaipuria_font": {
-      "__uuid__": "cacb2c50-3d51-46f1-b72c-d9833b56f3ea"
-    },
-    "tlc_font": {
-      "__uuid__": "9bd6c337-4f3c-42b2-9ac2-effc833609a2"
-    },
-    "supercub_font": {
-      "__uuid__": "a3ed727b-d7e5-49a6-89de-84365f6e7b27"
-    },
+    "jaipuria_font": null,
+    "tlc_font": null,
+    "supercub_font": null,
     "popSound": [
       {
         "__uuid__": "34f9d273-9dff-4094-bcdb-4e79ee69dcbf"
@@ -2363,51 +2357,49 @@
       }
     ],
     "positiveAudio": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      {
+        "__uuid__": "3915feac-6973-4261-ae69-06ae3073118a"
+      },
+      {
+        "__uuid__": "346db365-650c-4190-8fdb-794bf95d7571"
+      },
+      {
+        "__uuid__": "0604bdaa-d0cc-46c9-b385-963eb6144bbf"
+      },
+      {
+        "__uuid__": "b5e4cb3e-072e-4404-83ac-588cc9733a80"
+      },
+      {
+        "__uuid__": "bb7c4c69-d1d4-4f18-afe7-c253211897fd"
+      },
+      {
+        "__uuid__": "619a3ebd-af46-4fcd-9aa6-a199126b7548"
+      }
     ],
     "negativeAudio": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      {
+        "__uuid__": "e82bd679-7602-4c68-9d62-1dbc42dd1ff4"
+      },
+      {
+        "__uuid__": "6f820990-47ef-4338-8909-29f6c6687e32"
+      },
+      {
+        "__uuid__": "34ce46ba-a4d4-4dce-ba93-7a35fdd8386a"
+      },
+      {
+        "__uuid__": "cfa8cf7f-9650-43fe-a4a0-8f0a94e23770"
+      },
+      {
+        "__uuid__": "e82bd679-7602-4c68-9d62-1dbc42dd1ff4"
+      },
+      {
+        "__uuid__": "6f820990-47ef-4338-8909-29f6c6687e32"
+      }
     ],
     "stallionPositive": [],
     "stallionNegative": [],
-    "bagPositive": [
-      {
-        "__uuid__": "87cf9f95-04f3-4d8f-b633-6e09a2f30c63"
-      },
-      {
-        "__uuid__": "0fc4ace4-a063-4245-9667-7b7b49abf666"
-      },
-      {
-        "__uuid__": "7914dcc8-7a42-4f45-b48c-c36f57156549"
-      },
-      {
-        "__uuid__": "2a0c44af-6921-4b04-a360-f603304932fc"
-      },
-      {
-        "__uuid__": "93e5bce9-491e-4c17-9da2-01075a41c0b3"
-      }
-    ],
-    "bagNegative": [
-      {
-        "__uuid__": "b1fa9384-70ea-4eef-bc69-738d790b79f8"
-      },
-      {
-        "__uuid__": "de2f2ba2-5814-42b0-bffe-db42bebf0a92"
-      },
-      {
-        "__uuid__": "9bf14701-26b4-41d5-ba20-3f1593c2fecd"
-      }
-    ],
+    "bagPositive": [],
+    "bagNegative": [],
     "cryonPositive": [],
     "cryonNegative": [],
     "tlcPositive": [],
