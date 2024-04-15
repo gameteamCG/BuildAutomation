@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Assetmyneighborhood",
+    "texture": "4ae48fff-5a43-43ce-9651-3f8822939237",
+    "atlas": "",
+    "rect": [
+      24,
+      27,
+      913,
+      295
+    ],
+    "offset": [
+      10.5,
+      -13
+    ],
+    "originalSize": [
+      940,
+      323
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
