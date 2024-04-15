@@ -1,0 +1,46 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "more ,less ,equal",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/GLKG_WP31_2A_more_less_equal_1713184509466.mp4",
+          "TitleImageName": "10.png",
+          "IntroAudio1Name": "heyfriends.mp3",
+          "IntroAudio2Name": "Today_we_will_recall_the_concept_of_more_less_and_equal.mp3",
+          "JockeyName": "bag",
+          "TotalLevel": "0"
+        },
+        "QuestionData": []
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]
