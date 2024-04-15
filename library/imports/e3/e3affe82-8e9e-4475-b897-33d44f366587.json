@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "peecock",
+    "texture": "e8abd992-1719-4d72-a3e8-30693cae7e9b",
+    "atlas": "",
+    "rect": [
+      25,
+      67,
+      451,
+      367
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

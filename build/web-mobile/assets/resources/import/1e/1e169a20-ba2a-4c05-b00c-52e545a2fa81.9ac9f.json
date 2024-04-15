@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "9e5LhYcoNCHI/aIKCF3hrw"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "lotus",
+      "rect": [
+        51,
+        98,
+        398,
+        305
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
