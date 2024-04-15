@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "19W1GbQtZLgLI/U6k9xGTC"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "lattuse",
+      "rect": [
+        26,
+        66,
+        449,
+        368
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        501,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

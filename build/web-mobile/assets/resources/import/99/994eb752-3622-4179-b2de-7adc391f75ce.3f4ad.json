@@ -1,0 +1,192 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "additionalData": {
+          "GameID": "Fruit and vegetable baskets",
+          "totalLevel": "8",
+          "TitleImageName": "fruitandvegetablebaskets.png",
+          "introBgName": "titlebg.png",
+          "bgmMusicName": "BGM_2.mp3",
+          "mainBgName": "fruir_busket_bg.png",
+          "JockeyName": "supercub",
+          "templateType": "ObjectsTweenIn"
+        },
+        "questionData": [
+          {
+            "questionText": "fruit",
+            "questionImageName": "bucket_4.png",
+            "questionAudioName": "19244311_1_tap_and_collect_fr.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "blankbox.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "1",
+            "options": [
+              "pine_apple.png",
+              "broccoli.png"
+            ],
+            "correctAudios": [
+              "pineapple.mp3"
+            ]
+          },
+          {
+            "questionText": "fruit",
+            "questionImageName": "bucket_4.png",
+            "questionAudioName": "19244311_1_tap_and_collect_fr.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "blankbox.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "2",
+            "options": [
+              "colliflower.png",
+              "banana.png"
+            ],
+            "correctAudios": [
+              "Banana.mp3"
+            ]
+          },
+          {
+            "questionText": "vegetable",
+            "questionImageName": "bucket_4.png",
+            "questionAudioName": "19244311_2_tap_and_collect_the_ve.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "blankbox.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "2",
+            "options": [
+              "apple.png",
+              "pumpkin.png"
+            ],
+            "correctAudios": [
+              "Pumpkin.mp3"
+            ]
+          },
+          {
+            "questionText": "vegetable",
+            "questionImageName": "bucket_4.png",
+            "questionAudioName": "19244311_2_tap_and_collect_the_ve.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "blankbox.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "1",
+            "options": [
+              "colliflower.png",
+              "watermelon.png"
+            ],
+            "correctAudios": [
+              "colliflower.mp3"
+            ]
+          },
+          {
+            "questionText": "fruit",
+            "questionImageName": "bucket_4.png",
+            "questionAudioName": "19244311_1_tap_and_collect_fr.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "blankbox.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "1",
+            "options": [
+              "kiwi.png",
+              "bringal.png"
+            ],
+            "correctAudios": [
+              "kiwi.mp3"
+            ]
+          },
+          {
+            "questionText": "fruit",
+            "questionImageName": "bucket_4.png",
+            "questionAudioName": "19244311_1_tap_and_collect_fr.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "blankbox.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "2",
+            "options": [
+              "tomato.png",
+              "pear.png"
+            ],
+            "correctAudios": [
+              "Pear.mp3"
+            ]
+          },
+          {
+            "questionText": "vegetable",
+            "questionImageName": "bucket_4.png",
+            "questionAudioName": "19244311_2_tap_and_collect_the_ve.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "blankbox.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "2",
+            "options": [
+              "strawberry.png",
+              "carrot.png"
+            ],
+            "correctAudios": [
+              "Carrot.mp3"
+            ]
+          },
+          {
+            "questionText": "vegetable",
+            "questionImageName": "bucket_4.png",
+            "questionAudioName": "19244311_2_tap_and_collect_the_ve.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "blankbox.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "1",
+            "options": [
+              "lattuse.png",
+              "mango.png"
+            ],
+            "correctAudios": [
+              "lattuse.mp3"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

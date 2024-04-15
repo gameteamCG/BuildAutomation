@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f2bSJitQpGkpFWfpYRNPXY"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "colliflower",
+      "rect": [
+        41,
+        79,
+        420,
+        344
+      ],
+      "offset": [
+        0.5,
+        -0.5
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

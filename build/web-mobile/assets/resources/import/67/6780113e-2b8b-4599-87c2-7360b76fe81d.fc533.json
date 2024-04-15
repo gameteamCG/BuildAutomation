@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "0dxF3L30xJdIjJ6aOY+ZoF"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "bucket_4",
+      "rect": [
+        1,
+        58,
+        298,
+        185
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        300,
+        300
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

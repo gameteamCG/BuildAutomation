@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "colliflower",
+    "texture": "f26d2262-b50a-4692-9156-7e961134f5d8",
+    "atlas": "",
+    "rect": [
+      41,
+      79,
+      420,
+      344
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a9WrAO9oVBzaTFqV2JtWyc"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "kiwi",
+      "rect": [
+        46,
+        97,
+        409,
+        305
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        501,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "dfGRk3dPdNYYMAuWoOkeij"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "fruitandvegetablebaskets",
+      "rect": [
+        26,
+        26,
+        831,
+        266
+      ],
+      "offset": [
+        5.5,
+        -3.5
+      ],
+      "originalSize": [
+        872,
+        311
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fruitandvegetablebaskets",
+    "texture": "df191937-74f7-4d61-8300-b96a0e91e8a3",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      831,
+      266
+    ],
+    "offset": [
+      5.5,
+      -3.5
+    ],
+    "originalSize": [
+      872,
+      311
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

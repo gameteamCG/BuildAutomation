@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "dbE6ZzjlZJ8JCg9K3DRg8O"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "watermelon",
+      "rect": [
+        63,
+        51,
+        375,
+        398
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
