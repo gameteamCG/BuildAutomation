@@ -2241,7 +2241,7 @@
       "ctor": "Float64Array",
       "array": [
         240.012,
-        90,
+        40,
         0,
         0,
         0,
@@ -2325,18 +2325,12 @@
     "extraImg": {
       "__uuid__": "fe7bee84-c27e-4e2c-bfe9-4452ad2d6dae"
     },
-    "podar_font": {
-      "__uuid__": "d9348f57-e185-484c-b22d-019c41022ac4"
-    },
-    "jaipuria_font": {
-      "__uuid__": "cacb2c50-3d51-46f1-b72c-d9833b56f3ea"
-    },
+    "podar_font": null,
+    "jaipuria_font": null,
     "tlc_font": {
       "__uuid__": "9bd6c337-4f3c-42b2-9ac2-effc833609a2"
     },
-    "supercub_font": {
-      "__uuid__": "a3ed727b-d7e5-49a6-89de-84365f6e7b27"
-    },
+    "supercub_font": null,
     "popSound": [
       {
         "__uuid__": "34f9d273-9dff-4094-bcdb-4e79ee69dcbf"
@@ -2362,59 +2356,50 @@
         "__uuid__": "d29dd2e9-c05e-4373-9073-832a638090ff"
       }
     ],
-    "positiveAudio": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "negativeAudio": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
+    "positiveAudio": [],
+    "negativeAudio": [],
     "stallionPositive": [],
     "stallionNegative": [],
-    "bagPositive": [
-      {
-        "__uuid__": "87cf9f95-04f3-4d8f-b633-6e09a2f30c63"
-      },
-      {
-        "__uuid__": "0fc4ace4-a063-4245-9667-7b7b49abf666"
-      },
-      {
-        "__uuid__": "7914dcc8-7a42-4f45-b48c-c36f57156549"
-      },
-      {
-        "__uuid__": "2a0c44af-6921-4b04-a360-f603304932fc"
-      },
-      {
-        "__uuid__": "93e5bce9-491e-4c17-9da2-01075a41c0b3"
-      }
-    ],
-    "bagNegative": [
-      {
-        "__uuid__": "b1fa9384-70ea-4eef-bc69-738d790b79f8"
-      },
-      {
-        "__uuid__": "de2f2ba2-5814-42b0-bffe-db42bebf0a92"
-      },
-      {
-        "__uuid__": "9bf14701-26b4-41d5-ba20-3f1593c2fecd"
-      }
-    ],
+    "bagPositive": [],
+    "bagNegative": [],
     "cryonPositive": [],
     "cryonNegative": [],
-    "tlcPositive": [],
-    "tlcNegative": [],
+    "tlcPositive": [
+      {
+        "__uuid__": "1572870f-2fcf-41da-890e-bc0c40006d9e"
+      },
+      {
+        "__uuid__": "f5110930-9533-48bb-9587-e0b448b4c712"
+      },
+      {
+        "__uuid__": "8a3ec6eb-f41d-4ff6-b5bb-004a1ee62183"
+      },
+      {
+        "__uuid__": "5bd7250f-1f36-4132-b523-d14087334888"
+      },
+      {
+        "__uuid__": "6fed4222-f6bd-4618-bcee-272dd05a8b8b"
+      },
+      {
+        "__uuid__": "51ef5ee3-c8b4-4fa9-9894-fc425bdd25c1"
+      }
+    ],
+    "tlcNegative": [
+      {
+        "__uuid__": "d58eefe1-c218-4ec7-9d24-4fc9b5299330"
+      },
+      {
+        "__uuid__": "2e028d76-c894-45ef-b12c-2df0b05be6cf"
+      },
+      {
+        "__uuid__": "81c45238-e8f3-4721-a206-a26d1e926f58"
+      }
+    ],
     "supercubPositive": [],
     "supercubNegative": [],
-    "tlc_birdFlying": null,
+    "tlc_birdFlying": {
+      "__uuid__": "79aaed45-e47b-40f2-871f-31cf3ceeeffd"
+    },
     "supercub_Pos1": null,
     "supercub_Pos2": null,
     "supercub_Neg1": null,
