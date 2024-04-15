@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "7aOcH1jWhANpxoUt3r+GQV"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Assethotandcold",
+      "rect": [
+        24,
+        24,
+        681,
+        357
+      ],
+      "offset": [
+        11,
+        8.5
+      ],
+      "originalSize": [
+        707,
+        422
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

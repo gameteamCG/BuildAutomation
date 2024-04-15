@@ -1,0 +1,64 @@
+{
+    "paths": {
+        "d9NT2VbEFPe5Kij4fb1KTg": [
+            "audios/Todaywewilllearntheconceptofhotandcold",
+            "cc.AudioClip"
+        ],
+        "8bO0lbwtZI2J8BLddbK8qT": [
+            "audios/hellodearfriends",
+            "cc.AudioClip"
+        ],
+        "d35IPG8spMu5mb2PFqFTn8": [
+            "game_data",
+            "cc.JsonAsset"
+        ],
+        "7aOcH1jWhANpxoUt3r+GQV": [
+            "images/Assethotandcold",
+            "cc.Texture2D"
+        ],
+        "b5anWJe0RBYouPIfWWeOLG": [
+            "images/Assethotandcold",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "7aOcH1jWhANpxoUt3r+GQV",
+        "8bO0lbwtZI2J8BLddbK8qT",
+        "b5anWJe0RBYouPIfWWeOLG",
+        "d35IPG8spMu5mb2PFqFTn8",
+        "d9NT2VbEFPe5Kij4fb1KTg"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {},
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "7aOcH1jWhANpxoUt3r+GQV",
+            "7be92",
+            "8bO0lbwtZI2J8BLddbK8qT",
+            "47379",
+            "b5anWJe0RBYouPIfWWeOLG",
+            "5334a",
+            "d35IPG8spMu5mb2PFqFTn8",
+            "0cb15",
+            "d9NT2VbEFPe5Kij4fb1KTg",
+            "28fb2"
+        ],
+        "native": [
+            "7aOcH1jWhANpxoUt3r+GQV",
+            "fa53e",
+            "8bO0lbwtZI2J8BLddbK8qT",
+            "776f6",
+            "d9NT2VbEFPe5Kij4fb1KTg",
+            "83fb9"
+        ]
+    }
+}
