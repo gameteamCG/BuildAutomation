@@ -1,0 +1,64 @@
+{
+    "paths": {
+        "6e6z5TXRxAT5JtM4jXA7iG": [
+            "audios/Lets sing along the song, We are Indians",
+            "cc.AudioClip"
+        ],
+        "c5F+QSsBlNELHSiGFkzyeY": [
+            "audios/hellodearfriends",
+            "cc.AudioClip"
+        ],
+        "5ceDtmoQdL6b7WYQEBWygV": [
+            "game_data",
+            "cc.JsonAsset"
+        ],
+        "72jwj2Y0dFao+JsKW7pyYk": [
+            "images/11",
+            "cc.Texture2D"
+        ],
+        "f8llypbthH25vqU0bNlr1V": [
+            "images/11",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "5ceDtmoQdL6b7WYQEBWygV",
+        "6e6z5TXRxAT5JtM4jXA7iG",
+        "72jwj2Y0dFao+JsKW7pyYk",
+        "c5F+QSsBlNELHSiGFkzyeY",
+        "f8llypbthH25vqU0bNlr1V"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {},
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "5ceDtmoQdL6b7WYQEBWygV",
+            "be750",
+            "6e6z5TXRxAT5JtM4jXA7iG",
+            "3012b",
+            "72jwj2Y0dFao+JsKW7pyYk",
+            "7be92",
+            "c5F+QSsBlNELHSiGFkzyeY",
+            "47379",
+            "f8llypbthH25vqU0bNlr1V",
+            "f7051"
+        ],
+        "native": [
+            "6e6z5TXRxAT5JtM4jXA7iG",
+            "97e8e",
+            "72jwj2Y0dFao+JsKW7pyYk",
+            "83e4a",
+            "c5F+QSsBlNELHSiGFkzyeY",
+            "776f6"
+        ]
+    }
+}
