@@ -1,0 +1,133 @@
+{
+  "additionalData": {
+    "GameID": "identify the national symbol",
+    "totalLevel": "7",
+    "TitleImageName": "title.png",
+    "introBgName": "bg.png",
+    "bgmMusicName": "PID_10 BGM_1.mp3",
+    "mainBgName": "mainbg.png",
+    "JockeyName": "tlc",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "National Animal ",
+      "questionAudioName": "ANIMAL.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Artboard3.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "tiger.png",
+        "fo.png"
+      ],
+      "correctAudios": [
+        "tiger.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "National Flower",
+      "questionAudioName": "FLOWER.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Artboard3.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "fgg.png",
+        "lotus.png"
+      ],
+      "correctAudios": [
+        "Lotus.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "National Fruit",
+      "questionAudioName": "FRUIT.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Artboard3.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "mango.png",
+        "apple.png"
+      ],
+      "correctAudios": [
+        "Mango.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "National Emblem ",
+      "questionAudioName": "EMBLEM.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Artboard3.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "EMB.png",
+        "Teddy.png"
+      ],
+      "correctAudios": [
+        "asko.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "National Bird ",
+      "questionAudioName": "BIRD.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Artboard3.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "peecock.png",
+        "fle.png"
+      ],
+      "correctAudios": [
+        "peacock.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "National Flag",
+      "questionAudioName": "FLAG.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Artboard3.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "aus.png",
+        "india.png"
+      ],
+      "correctAudios": [
+        "tiranga.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "National Tree",
+      "questionAudioName": "TREE.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Artboard3.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "TREE.png",
+        "cac.png"
+      ],
+      "correctAudios": [
+        "baniyan.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
