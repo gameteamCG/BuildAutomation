@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "4bomfgHaBE4Z+T4bJ2bzV2"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "compus",
+      "rect": [
+        81,
+        32,
+        339,
+        438
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

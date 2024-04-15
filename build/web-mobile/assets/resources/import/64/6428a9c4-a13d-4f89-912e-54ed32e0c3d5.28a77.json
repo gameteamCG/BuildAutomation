@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "59FB5OcNRJoLH58H0fZDsP"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "fridge",
+      "rect": [
+        154,
+        38,
+        192,
+        425
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

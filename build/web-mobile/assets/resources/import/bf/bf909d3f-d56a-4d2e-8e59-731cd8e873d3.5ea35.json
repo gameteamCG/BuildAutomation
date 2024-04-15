@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a3Qz0voXlCfIme32Ue42uO"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "bucket_with_square2",
+      "rect": [
+        5,
+        75,
+        291,
+        190
+      ],
+      "offset": [
+        0,
+        -19.5
+      ],
+      "originalSize": [
+        301,
+        301
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

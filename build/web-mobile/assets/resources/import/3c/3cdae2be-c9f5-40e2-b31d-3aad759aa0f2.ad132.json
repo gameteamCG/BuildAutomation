@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "43kohlBVJCrrO6nRXZwfJh"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "hat",
+      "rect": [
+        103,
+        61,
+        296,
+        379
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

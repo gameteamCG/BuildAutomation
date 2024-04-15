@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "632UxAQ7pEDp3Sqp+dHZj6"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "bucket_with_triangle2",
+      "rect": [
+        5,
+        75,
+        291,
+        190
+      ],
+      "offset": [
+        0,
+        -19.5
+      ],
+      "originalSize": [
+        301,
+        301
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
