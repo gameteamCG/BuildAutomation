@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "52ZKhqQixIdLnhO9CUMtK/"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Counting",
+      "rect": [
+        0,
+        0,
+        891,
+        485
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        891,
+        485
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
