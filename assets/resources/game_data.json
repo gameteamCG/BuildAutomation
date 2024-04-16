@@ -1,0 +1,121 @@
+{
+  "AdditionalData": {
+    "GameID": "Letter N",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/LETTER_N+_+NINA_AND_HER_NEW_NEST_00000004_1713258487745.mp4",
+    "TitleImageName": "Asset_15.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "6"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Identify the letter N",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Identify_the_letter_n.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "D",
+        "N"
+      ],
+      "ReiterationAudioName": "Cartoon_Girl_Saying_Letters_Of_Alphabet_27_N.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Who was Nina?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "who_was_nina.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Nina.png",
+        "squirrel.png"
+      ],
+      "ReiterationAudioName": "nina_was_a_nightingale.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "identify the neem tree",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identify_the_neem_tree.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "neem tree.png",
+        "rose plant.png"
+      ],
+      "ReiterationAudioName": "neem_tree.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What do Nicky use to build Nina's nest?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "What_do_Nicky_use_to_build_Nina_s_est.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "leaves.png",
+        "newspaper and nutshells.png"
+      ],
+      "ReiterationAudioName": "newspaper_and_nutshell.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "How many eggs were there in Nina's nest?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "How_many_eggs_were_there_in_Nina_s_nest.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "five",
+        "nine"
+      ],
+      "ReiterationAudioName": "09.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Tap on the body part that starts with 'N' sound",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Tap_on_the_body_part_that_starts_with_N_sound.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "hands.png",
+        "nose.png"
+      ],
+      "ReiterationAudioName": "nose.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
