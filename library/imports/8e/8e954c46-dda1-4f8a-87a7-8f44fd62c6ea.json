@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Matching letters - A to F",
+      "totalLevel": "6",
+      "TitleImageName": "Asset.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "measurementBGM_1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "match the uppercase letter",
+        "questionAudioName": "identify_and_match_the_uppercase_letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "A.png"
+        ],
+        "reiterations": [
+          "A.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "A.png",
+          "F.png"
+        ]
+      },
+      {
+        "questionText": "match the uppercase letter",
+        "questionAudioName": "identify_and_match_the_uppercase_letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "B.png"
+        ],
+        "reiterations": [
+          "B.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "B.png",
+          "E.png"
+        ]
+      },
+      {
+        "questionText": "match the uppercase letter",
+        "questionAudioName": "identify_and_match_the_uppercase_letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "C.png"
+        ],
+        "reiterations": [
+          "C.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "C.png",
+          "D.png"
+        ]
+      },
+      {
+        "questionText": "match the uppercase letter",
+        "questionAudioName": "identify_and_match_the_uppercase_letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "D.png"
+        ],
+        "reiterations": [
+          ""
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "D.png",
+          "C.png"
+        ]
+      },
+      {
+        "questionText": "match the uppercase letter",
+        "questionAudioName": "identify_and_match_the_uppercase_letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "E.png"
+        ],
+        "reiterations": [
+          "E.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "E.png",
+          "B.png"
+        ]
+      },
+      {
+        "questionText": "match the uppercase letter",
+        "questionAudioName": "identify_and_match_the_uppercase_letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "F.png"
+        ],
+        "reiterations": [
+          "F.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "F.png",
+          "A.png"
+        ]
+      }
+    ]
+  }
+}
