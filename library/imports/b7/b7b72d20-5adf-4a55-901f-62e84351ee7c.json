@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "more, less, same:LKG Course Book 1 [3]",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/moreless_2020029823_1713268746457.mp4",
+      "TitleImageName": "tai.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "supercub",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "mo.png",
+        "QuestionAudioName": "what0s0more.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "5fro.png",
+          "2truiiy.png"
+        ],
+        "ReiterationAudioName": "5frogs.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "less.png",
+        "QuestionAudioName": "what0is0less.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "3truii.png",
+          "4frog.png"
+        ],
+        "ReiterationAudioName": "3turtles.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "larger.png",
+        "QuestionAudioName": "which0number0is0larger.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "1_.png",
+          "0_.png"
+        ],
+        "ReiterationAudioName": "01.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "smaller.png",
+        "QuestionAudioName": "which0number0is0smallest.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "2_.png",
+          "5_.png"
+        ],
+        "ReiterationAudioName": "02.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "666.png",
+        "QuestionAudioName": "howomanyoinoall.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "2_.png",
+          "6_.png"
+        ],
+        "ReiterationAudioName": "06.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
