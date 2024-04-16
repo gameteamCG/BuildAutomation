@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a2OqR1dCJPE6RS4+Q6+fcM"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "tai",
+      "rect": [
+        0,
+        4,
+        839,
+        330
+      ],
+      "offset": [
+        -15.5,
+        8
+      ],
+      "originalSize": [
+        870,
+        354
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
