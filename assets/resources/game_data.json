@@ -1,0 +1,103 @@
+{
+  "AdditionalData": {
+    "GameID": "reverse counting",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Reverse_counting_1713248008543.mp4",
+    "TitleImageName": "Counting.png",
+    "IntroAudio1Name": "hellodearfriends.mp3",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "20, 19, 18, __",
+      "QuestionImageName": "",
+      "QuestionAudioName": "select the missing number.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "17",
+        "12"
+      ],
+      "ReiterationAudioName": "17.mp3",
+      "CorrectAudioName": "GOODEFFORT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "15, 14, 13, ___",
+      "QuestionImageName": "",
+      "QuestionAudioName": "select the missing number.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "18",
+        "12"
+      ],
+      "ReiterationAudioName": "12.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "12, 11, 10, __",
+      "QuestionImageName": "",
+      "QuestionAudioName": "select the missing number.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "9",
+        "3"
+      ],
+      "ReiterationAudioName": "09.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "7, 6, 5, __",
+      "QuestionImageName": "",
+      "QuestionAudioName": "select the missing number.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "9",
+        "4"
+      ],
+      "ReiterationAudioName": "04.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "4, 3, 2, __",
+      "QuestionImageName": "",
+      "QuestionAudioName": "select the missing number.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "1",
+        "6"
+      ],
+      "ReiterationAudioName": "01.mp3",
+      "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
