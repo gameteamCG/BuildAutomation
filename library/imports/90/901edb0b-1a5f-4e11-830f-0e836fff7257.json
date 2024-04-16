@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Siya",
+    "texture": "a3c60e74-a224-43ab-b4b2-66184d68b6a3",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      244,
+      247
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
