@@ -1875,18 +1875,12 @@
       "__id__": 5
     },
     "_enabled": true,
-    "podar_font": {
-      "__uuid__": "a426a11c-b728-4548-94db-08b918e1e775"
-    },
+    "podar_font": null,
     "jaipuria_font": {
       "__uuid__": "77537a50-eb9e-4e43-b8f5-28ac98c7d9fc"
     },
-    "tlc_font": {
-      "__uuid__": "9bd6c337-4f3c-42b2-9ac2-effc833609a2"
-    },
-    "supercub_font": {
-      "__uuid__": "a3ed727b-d7e5-49a6-89de-84365f6e7b27"
-    },
+    "tlc_font": null,
+    "supercub_font": null,
     "optionsNode": {
       "__id__": 27
     },
@@ -1904,40 +1898,8 @@
         "__uuid__": "29027d26-1edf-45d2-94eb-5f255fda5ae6"
       }
     ],
-    "positiveAudio": [
-      {
-        "__uuid__": "3915feac-6973-4261-ae69-06ae3073118a"
-      },
-      {
-        "__uuid__": "346db365-650c-4190-8fdb-794bf95d7571"
-      },
-      {
-        "__uuid__": "0604bdaa-d0cc-46c9-b385-963eb6144bbf"
-      },
-      {
-        "__uuid__": "b5e4cb3e-072e-4404-83ac-588cc9733a80"
-      },
-      {
-        "__uuid__": "bb7c4c69-d1d4-4f18-afe7-c253211897fd"
-      },
-      {
-        "__uuid__": "619a3ebd-af46-4fcd-9aa6-a199126b7548"
-      }
-    ],
-    "stallionPositive": [
-      {
-        "__uuid__": "3cb6f5fd-7732-4a10-a85f-4ca6bcd6dbc8"
-      },
-      {
-        "__uuid__": "71f69b65-e102-4538-a62a-498d4d88afa9"
-      },
-      {
-        "__uuid__": "cd4955f7-d6dc-4b08-8777-b7e8d7cc7fc0"
-      },
-      {
-        "__uuid__": "f09b87b4-4ea0-4bd6-9e5c-0bb845d47b7b"
-      }
-    ],
+    "positiveAudio": [],
+    "stallionPositive": [],
     "bagPositive": [
       {
         "__uuid__": "87cf9f95-04f3-4d8f-b633-6e09a2f30c63"
@@ -1955,54 +1917,9 @@
         "__uuid__": "93e5bce9-491e-4c17-9da2-01075a41c0b3"
       }
     ],
-    "cryonPositive": [
-      {
-        "__uuid__": "cd66dfed-4c36-4952-98eb-6a2786f9eb7c"
-      },
-      {
-        "__uuid__": "08584640-4772-419e-9fe7-00b0f4edb092"
-      },
-      {
-        "__uuid__": "72ff7273-32e6-4d7a-9e37-cd536fc11765"
-      },
-      {
-        "__uuid__": "1d2d4b5d-82d1-4fb8-89e1-c99eb05d8c15"
-      },
-      {
-        "__uuid__": "2145858d-8bcf-4e14-8719-51d6d3bc1335"
-      }
-    ],
-    "tlcPositive": [
-      {
-        "__uuid__": "1572870f-2fcf-41da-890e-bc0c40006d9e"
-      },
-      {
-        "__uuid__": "f5110930-9533-48bb-9587-e0b448b4c712"
-      },
-      {
-        "__uuid__": "8a3ec6eb-f41d-4ff6-b5bb-004a1ee62183"
-      },
-      {
-        "__uuid__": "5bd7250f-1f36-4132-b523-d14087334888"
-      },
-      {
-        "__uuid__": "6fed4222-f6bd-4618-bcee-272dd05a8b8b"
-      },
-      {
-        "__uuid__": "51ef5ee3-c8b4-4fa9-9894-fc425bdd25c1"
-      }
-    ],
-    "supercubPositive": [
-      {
-        "__uuid__": "7490fb7b-19fe-4254-bc2a-b816311c28a3"
-      },
-      {
-        "__uuid__": "20a39b12-96e5-41a9-89dd-36a01283980b"
-      },
-      {
-        "__uuid__": "c7e6dd45-30cd-4b7b-96a6-90e6ac281769"
-      }
-    ],
+    "cryonPositive": [],
+    "tlcPositive": [],
+    "supercubPositive": [],
     "_id": "03jscIYStLqZvHzt1uVeBb"
   },
   {
