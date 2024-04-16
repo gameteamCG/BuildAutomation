@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "aa5UazUvtFo4M20d0Uke1a"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "addition",
+      "rect": [
+        0,
+        0,
+        806,
+        252
+      ],
+      "offset": [
+        0,
+        4
+      ],
+      "originalSize": [
+        806,
+        260
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
