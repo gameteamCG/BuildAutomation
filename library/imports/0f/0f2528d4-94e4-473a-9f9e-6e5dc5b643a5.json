@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mojo",
+    "texture": "c6b64ea5-657c-4b7a-b550-054881a86ac6",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      244,
+      245
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
