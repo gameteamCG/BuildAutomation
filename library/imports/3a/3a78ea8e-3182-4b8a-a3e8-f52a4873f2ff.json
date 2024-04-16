@@ -1,0 +1,397 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter to object matching",
+      "totalLevel": "18",
+      "TitleImageName": "lettertoobjectmatching.png",
+      "introBgName": "NURSE.png",
+      "bgmMusicName": "bgmss.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "m.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "m"
+        ],
+        "reiterations": [
+          "Monkey.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "monkey1.png",
+          "wolf1.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "c.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "c"
+        ],
+        "reiterations": [
+          ""
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset42.png",
+          "Asset38.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "i.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "i"
+        ],
+        "reiterations": [
+          "Iguana.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset63.png",
+          "Asset34.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "l.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "l"
+        ],
+        "reiterations": [
+          "Lion.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset28.png",
+          "Asset30.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "d.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "d"
+        ],
+        "reiterations": [
+          "Donkey.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset34.png",
+          "Asset52.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "j.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "j"
+        ],
+        "reiterations": [
+          "Jackal.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset40.png",
+          "Asset61.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "z.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "z"
+        ],
+        "reiterations": [
+          "Zebra.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset46.png",
+          "Asset34.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "hh.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "h"
+        ],
+        "reiterations": [
+          "Horse.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset38.png",
+          "Asset42.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "o.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "o"
+        ],
+        "reiterations": [
+          "Ostrich.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset64.png",
+          "Asset52.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "w.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "w"
+        ],
+        "reiterations": [
+          "Wolf.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "wolf1.png",
+          "Asset32.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "g.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "g"
+        ],
+        "reiterations": [
+          "Gorilla.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset52.png",
+          "Asset44.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "v.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "v"
+        ],
+        "reiterations": [
+          "Vulture.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset30.png",
+          "Asset28.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "k.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "k"
+        ],
+        "reiterations": [
+          "Kangaroo.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset65.png",
+          "Asset28.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "r.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "r"
+        ],
+        "reiterations": [
+          "Rabbit.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset59.png",
+          "Asset66.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "y.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Y"
+        ],
+        "reiterations": [
+          "Yak.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset66.png",
+          "Asset63.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "b.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "b"
+        ],
+        "reiterations": [
+          "Bear.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset60.png",
+          "Asset61.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "s.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "s"
+        ],
+        "reiterations": [
+          "Snake.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset32.png",
+          "Asset40.png"
+        ]
+      },
+      {
+        "questionText": "letter to object matching",
+        "questionAudioName": "e.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonasset.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "e"
+        ],
+        "reiterations": [
+          "Elephant.mp3"
+        ],
+        "commonRightOptionImageName": "commonasset.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset61.png",
+          "Asset57.png"
+        ]
+      }
+    ]
+  }
+}

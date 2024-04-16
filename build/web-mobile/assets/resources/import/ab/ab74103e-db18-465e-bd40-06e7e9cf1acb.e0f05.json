@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "72aU6vDvNCHKVDp/68Rl+G"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "lettertoobjectmatching",
+      "rect": [
+        27,
+        26,
+        752,
+        579
+      ],
+      "offset": [
+        8,
+        -8
+      ],
+      "originalSize": [
+        790,
+        615
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
