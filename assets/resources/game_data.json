@@ -1,0 +1,121 @@
+{
+  "AdditionalData": {
+    "GameID": "Letter L",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/LETTER_L+_+TWO_LAMBS_AND_THE_LION_000002_1713249924580.mp4",
+    "TitleImageName": "Asset_13.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "6"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "Identify the letter L",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Identify the letter L (2).mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "L",
+        "I"
+      ],
+      "ReiterationAudioName": "Cartoon Girl Saying Letters Of Alphabet 23 L.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "Identify Lipu and Lola",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identify-lipu-and-lola.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Q02_Options_01.png",
+        "Q02_Options_02.png"
+      ],
+      "ReiterationAudioName": "lipu-and-lola.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "Tap on the picture of lake",
+      "QuestionImageName": "",
+      "QuestionAudioName": "tap-on-the-picture-of-lake.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Q03_Options_01.png",
+        "Q03_Options_02.png"
+      ],
+      "ReiterationAudioName": "lake (4).mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "Who was lazy?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "who-was-lazy.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Q02_Options_02.png",
+        "Q04_Options_02.png"
+      ],
+      "ReiterationAudioName": "lion (3).mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "Who were Lipu and Lola?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "who-were-lipu-and-lola (2).mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Q05_Options_01.png",
+        "Q05_Options_02.png"
+      ],
+      "ReiterationAudioName": "lambs (2).mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "identify an object that starts with 'L' sound",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Identify-an-object-that starts with L sound - Copy.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "lamp.png",
+        "Q06_Options_02.png"
+      ],
+      "ReiterationAudioName": "Lamp.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
