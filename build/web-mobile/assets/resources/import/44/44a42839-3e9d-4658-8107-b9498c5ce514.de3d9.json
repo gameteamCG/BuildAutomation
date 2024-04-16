@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d8VAjRJSlKCYNEAoJEDZ+d"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "oranges",
+      "rect": [
+        3,
+        3,
+        244,
+        245
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
