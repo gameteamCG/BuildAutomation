@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e85263d2-3530-4f6a-b26f-06cfaf401950",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "Tina_a_tiny_tortise": {
+      "ver": "1.0.6",
+      "uuid": "b432ecaa-614b-4dfd-926d-be98d81f7f66",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e85263d2-3530-4f6a-b26f-06cfaf401950",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 3,
+      "trimY": 3,
+      "width": 244,
+      "height": 245,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
