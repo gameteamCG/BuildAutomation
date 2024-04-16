@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f82QRv279JJZOurqU1gog2"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Nina",
+      "rect": [
+        3,
+        3,
+        244,
+        246
+      ],
+      "offset": [
+        0,
+        -1
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
