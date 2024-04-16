@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "51wUIYf1BFr7L1EYQ4ZAuQ"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "tuii",
+      "rect": [
+        0,
+        0,
+        1039,
+        474
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1039,
+        474
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "22ej8ikypI8KsYgsGOJcgh"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "barber",
+      "rect": [
+        53,
+        13,
+        143,
+        223
+      ],
+      "offset": [
+        -0.5,
+        0.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

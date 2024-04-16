@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tuii",
+    "texture": "51c14218-7f50-45af-b2f5-118438640b90",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1039,
+      474
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1039,
+      474
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toys",
+    "texture": "a5aa74c1-40da-4d53-ac67-59ff1aaaf7b0",
+    "atlas": "",
+    "rect": [
+      75,
+      145,
+      299,
+      160
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      450,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
