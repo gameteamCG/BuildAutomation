@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "cc7XsvouxF8ZoGuTD5BVSW"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "backpack",
+      "rect": [
+        10,
+        164,
+        430,
+        121
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        450,
+        450
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

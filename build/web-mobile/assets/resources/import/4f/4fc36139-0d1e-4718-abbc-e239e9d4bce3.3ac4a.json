@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "5cu+tVsCZJKb5JYPo3aWKg"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "crayons",
+      "rect": [
+        19,
+        171,
+        412,
+        107
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        450,
+        450
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

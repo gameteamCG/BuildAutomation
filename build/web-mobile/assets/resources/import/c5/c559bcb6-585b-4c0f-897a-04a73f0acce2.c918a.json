@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a6zhKcG8FO7YAkLZfBQnMU"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "pencils",
+      "rect": [
+        20,
+        147,
+        409,
+        156
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        450,
+        450
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
