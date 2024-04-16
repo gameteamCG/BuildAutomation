@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Letter Q",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/LETTER_Q__QUEEN_QUINCY_AND_HER_QUAIL_0000007_1713262415429.mp4",
+      "TitleImageName": "Asset_18.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the letter Q",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identify_the_letter_q.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Q",
+          "O"
+        ],
+        "ReiterationAudioName": "Q.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "identify the picture of Queen Quincy",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identify_the_picture_of_queen_quincy.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Quial.png",
+          "Queen_Quincy.png"
+        ],
+        "ReiterationAudioName": "queen_quincy.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Who sings songs for Queen Quincy",
+        "QuestionImageName": "",
+        "QuestionAudioName": "who_sings_songs_for_queen_quincy.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Quial.png",
+          "parrot.png"
+        ],
+        "ReiterationAudioName": "quela_the_quail.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Tap on the body part that starts with 'Q' sound",
+        "QuestionImageName": "",
+        "QuestionAudioName": "tap_on_the_body_part_that_starts_with_Q_sound.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "pillow.png",
+          "quilt.png"
+        ],
+        "ReiterationAudioName": "quilt.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
