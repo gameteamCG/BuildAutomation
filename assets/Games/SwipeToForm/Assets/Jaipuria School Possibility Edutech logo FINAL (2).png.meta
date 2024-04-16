@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "8ff8d4db-ad29-4503-b374-1c90d6cf3015",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 396,
+  "height": 83,
+  "platformSettings": {},
+  "subMetas": {
+    "Jaipuria School Possibility Edutech logo FINAL (2)": {
+      "ver": "1.0.6",
+      "uuid": "d6665b9f-9875-4acd-9cd8-a261202052e2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "8ff8d4db-ad29-4503-b374-1c90d6cf3015",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 396,
+      "height": 83,
+      "rawWidth": 396,
+      "rawHeight": 83,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

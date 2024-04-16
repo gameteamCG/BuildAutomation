@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3789d1fe-ef36-44b6-902f-41190f72e0ad",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Confetti_129": {
+      "ver": "1.0.6",
+      "uuid": "4bc46425-cbf3-4dd6-93cf-73aac163be76",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3789d1fe-ef36-44b6-902f-41190f72e0ad",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": 6,
+      "trimX": 23,
+      "trimY": 1,
+      "width": 457,
+      "height": 486,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

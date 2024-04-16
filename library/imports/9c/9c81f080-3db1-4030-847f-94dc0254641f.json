@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Confetti_131",
+    "texture": "757150bb-2eb9-4f3d-b3b0-db85a010139b",
+    "atlas": "",
+    "rect": [
+      17,
+      4,
+      469,
+      481
+    ],
+    "offset": [
+      1.5,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

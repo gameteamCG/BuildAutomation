@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Jaipuria School Possibility Edutech logo FINAL (2)",
+    "texture": "8ff8d4db-ad29-4503-b374-1c90d6cf3015",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      396,
+      83
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      396,
+      83
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
