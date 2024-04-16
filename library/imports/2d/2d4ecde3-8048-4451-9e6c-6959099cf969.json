@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "musicroom",
+    "texture": "4463fb4f-67e5-4c0d-9a0d-e4d00c15a607",
+    "atlas": "",
+    "rect": [
+      45,
+      121,
+      359,
+      207
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      450,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

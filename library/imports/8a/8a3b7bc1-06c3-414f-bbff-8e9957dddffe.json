@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "staffroom",
+    "texture": "c8e895f6-c588-4452-8004-2a0a2c14d308",
+    "atlas": "",
+    "rect": [
+      87,
+      107,
+      276,
+      235
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      450,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

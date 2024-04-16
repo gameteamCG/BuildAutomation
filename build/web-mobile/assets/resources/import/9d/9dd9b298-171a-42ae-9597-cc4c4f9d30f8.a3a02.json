@@ -1,0 +1,137 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "My school",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Myschool_1713253997567.mp4",
+          "TitleImageName": "MySchool.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "bgm1.mp3",
+          "JockeyName": "puzzle",
+          "TotalLevel": "5"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "school.png",
+            "QuestionAudioName": "Identifytheimageofschool.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "School(3).mp3",
+            "CorrectAudioName": "AWESOME YOU SAVED IT.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "school.png",
+              "hospital.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "99999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "library.png",
+            "QuestionAudioName": "Clickontheimageoflibrary.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "library.mp3",
+            "CorrectAudioName": "BRILLIANT.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "bathroom.png",
+              "library.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "999999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "playground.png",
+            "QuestionAudioName": "Tapontheschoolplayground.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "playground.mp3",
+            "CorrectAudioName": "AWESOME YOU SAVED IT.mp3",
+            "WrongAudioName": "nevermind,tryagain.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "playground(2).png",
+              "livingroom.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "99999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "musicroom.png",
+            "QuestionAudioName": "Choosethemusicroom.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "Music-room.mp3",
+            "CorrectAudioName": "EXCELLENTJOB.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "bedroom.png",
+              "musicroom.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "99999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "staffroom.png",
+            "QuestionAudioName": "Identifythepictureofthestaffroom.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "Staff-room.mp3",
+            "CorrectAudioName": "GORGEOUSWORK.mp3",
+            "WrongAudioName": "nevermind,tryagain.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "kitchen-illustration-sm.png",
+              "staffroom.png"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]
