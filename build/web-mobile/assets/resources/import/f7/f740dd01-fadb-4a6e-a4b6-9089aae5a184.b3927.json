@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "55bqM3301GXa6+5nlATPAM"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "colourwheel",
+      "rect": [
+        0,
+        0,
+        668,
+        444
+      ],
+      "offset": [
+        -11.5,
+        3
+      ],
+      "originalSize": [
+        691,
+        450
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
