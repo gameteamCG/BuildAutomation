@@ -1,0 +1,121 @@
+{
+  "AdditionalData": {
+    "GameID": "Letter O",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/LETTER_O_OTTO_AT_AN_OLD_CAVE_000005_1713347192278.mp4",
+    "TitleImageName": "Asset_55.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "6"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "identify",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identify_the_letter_o.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "A",
+        "O"
+      ],
+      "ReiterationAudioName": "O.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Otto",
+      "QuestionImageName": "",
+      "QuestionAudioName": "who_is_otto.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "owl.png",
+        "Otto.png"
+      ],
+      "ReiterationAudioName": "otto_is_a_baby_ostrich.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": " Olly",
+      "QuestionImageName": "",
+      "QuestionAudioName": "who_is_olly.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Olly.png",
+        "monkey.png"
+      ],
+      "ReiterationAudioName": "olly_is_an_owl.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "ozzy",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Identify_Olly_s_friend_Ozzy.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "ozzy.png",
+        "goat.png"
+      ],
+      "ReiterationAudioName": "Ozzy_the_ox.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Okaya",
+      "QuestionImageName": "",
+      "QuestionAudioName": "who_is_okaya.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "orangutan.png",
+        "elephant.png"
+      ],
+      "ReiterationAudioName": "okaya_is_an_orangutan.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What does everyone eat?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "what_does_everyone_eat.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "oranges.png",
+        "apples.png"
+      ],
+      "ReiterationAudioName": "oranges.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
