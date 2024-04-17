@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "1bOhKkL/1C6o9Ngj9+URUs"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Sumi",
+      "rect": [
+        3,
+        3,
+        244,
+        245
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

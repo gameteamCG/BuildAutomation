@@ -1,0 +1,155 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "Letter S",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/LETTER_S_+SUMI_SEES_A_SNAKE_0000008_1713351541853.mp4",
+          "TitleImageName": "Asset_59.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "puzzle",
+          "TotalLevel": "6"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "identify",
+            "QuestionImageName": "",
+            "QuestionAudioName": "Identify_the_letter_s.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": true,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "S.mp3",
+            "CorrectAudioName": "GREATWORK.mp3",
+            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "L",
+              "S"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "Sumi",
+            "QuestionImageName": "",
+            "QuestionAudioName": "Who_is_sumi.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "Sumi_is_a_smart_girl.mp3",
+            "CorrectAudioName": "BRILLIANT.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "Sumi.png",
+              "boy.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "sister",
+            "QuestionImageName": "",
+            "QuestionAudioName": "Who_is_sumis_sister.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "siya.mp3",
+            "CorrectAudioName": "EXCELLENTJOB.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "snake.png",
+              "Siya.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "Where is Sumi and Siya going?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "Where_is_Sumi_and_Siya_going.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "School.mp3",
+            "CorrectAudioName": "FANTASTIC.mp3",
+            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "market.png",
+              "School.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "snake",
+            "QuestionImageName": "",
+            "QuestionAudioName": "Tap_on_the_image_of_a_snake.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "snake.mp3",
+            "CorrectAudioName": "GOODJOB.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "snake.png",
+              "sheep.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "'S'  letter sound",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identifytheanimalthatstartswithSsound.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "Snail.mp3",
+            "CorrectAudioName": "GREATWORK.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "Snail.png",
+              "ant.png"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

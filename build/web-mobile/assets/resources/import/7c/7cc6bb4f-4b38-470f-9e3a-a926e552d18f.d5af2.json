@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "5eCZoJAj5BbIDTlTYPaj7P"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Siya",
+      "rect": [
+        3,
+        3,
+        244,
+        247
+      ],
+      "offset": [
+        0,
+        -1.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
