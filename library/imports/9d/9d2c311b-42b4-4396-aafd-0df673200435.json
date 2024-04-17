@@ -1,0 +1,127 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "this is my school",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/86474879_This_is_my_School_1713353399982.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "hellolovelypeople.mp3",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "classroom ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyimageofclassroom.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "2.png",
+          "3.png"
+        ],
+        "ReiterationAudioName": "classroom.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "library",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyimageoflibrary.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "10.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "library.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "music room",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyimageofmusicroom.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "9.png",
+          "1.png"
+        ],
+        "ReiterationAudioName": "musicroom.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "computer room",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyimageofcomputerroom.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "7.png",
+          "5.png"
+        ],
+        "ReiterationAudioName": "computerroom.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "science room",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyimageofscienceroom.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "3.png",
+          "9.png"
+        ],
+        "ReiterationAudioName": "scienceroom.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "auditorium",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyimageofauditorium.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "11.png",
+          "8.png"
+        ],
+        "ReiterationAudioName": "auditorium.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
