@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f6rjVdsyJEEbZx/pzJaqoE"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "5erwtfregy",
+      "rect": [
+        64,
+        0,
+        122,
+        251
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        251,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
