@@ -1,0 +1,192 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "additionalData": {
+          "GameID": "Matching letters - S to Z",
+          "totalLevel": "8",
+          "TitleImageName": "Asset.png",
+          "introBgName": "titlebg.png",
+          "bgmMusicName": "tens_&_ones _BGM.mp3",
+          "mainBgName": "bg.png",
+          "JockeyName": "supercub",
+          "templateType": "ObjectsTweenIn"
+        },
+        "questionData": [
+          {
+            "questionText": "match letters",
+            "questionImageName": "flowerss.png",
+            "questionAudioName": "439653746_identify_and_match_the_uppercase_letter.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "blue_buttterfly.png",
+            "isOptionText": false,
+            "isOptionBG": false,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "1",
+            "options": [
+              "bees.png",
+              "beet.png"
+            ],
+            "correctAudios": [
+              "S .mp3"
+            ]
+          },
+          {
+            "questionText": "match letters",
+            "questionImageName": "flowerst.png",
+            "questionAudioName": "439653746_identify_and_match_the_uppercase_letter.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "purple_buttterfly.png",
+            "isOptionText": false,
+            "isOptionBG": false,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "2",
+            "options": [
+              "bee_x.png",
+              "beet.png"
+            ],
+            "correctAudios": [
+              "T.mp3"
+            ]
+          },
+          {
+            "questionText": "match letters",
+            "questionImageName": "flowersu.png",
+            "questionAudioName": "439653746_identify_and_match_the_uppercase_letter.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "pink_buttterfly.png",
+            "isOptionText": false,
+            "isOptionBG": false,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "2",
+            "options": [
+              "bees.png",
+              "beeu.png"
+            ],
+            "correctAudios": [
+              "U.mp3"
+            ]
+          },
+          {
+            "questionText": "match letters",
+            "questionImageName": "flowersv.png",
+            "questionAudioName": "439653746_identify_and_match_the_uppercase_letter.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "orange_buttterfly.png",
+            "isOptionText": false,
+            "isOptionBG": false,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "1",
+            "options": [
+              "bee_v.png",
+              "beew.png"
+            ],
+            "correctAudios": [
+              "V.mp3"
+            ]
+          },
+          {
+            "questionText": "match letters",
+            "questionImageName": "flowersw.png",
+            "questionAudioName": "439653746_identify_and_match_the_uppercase_letter.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "yellow_buttterfly.png",
+            "isOptionText": false,
+            "isOptionBG": false,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "2",
+            "options": [
+              "bee_u.png",
+              "beew.png"
+            ],
+            "correctAudios": [
+              "W.mp3"
+            ]
+          },
+          {
+            "questionText": "match letters",
+            "questionImageName": "flowersx.png",
+            "questionAudioName": "439653746_identify_and_match_the_uppercase_letter.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "blue_buttterfly.png",
+            "isOptionText": false,
+            "isOptionBG": false,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "1",
+            "options": [
+              "bee_x.png",
+              "beev.png"
+            ],
+            "correctAudios": [
+              "X.mp3"
+            ]
+          },
+          {
+            "questionText": "match letters",
+            "questionImageName": "flowersy.png",
+            "questionAudioName": "439653746_identify_and_match_the_uppercase_letter.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "purple_buttterfly.png",
+            "isOptionText": false,
+            "isOptionBG": false,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "1",
+            "options": [
+              "bee_y.png",
+              "beew.png"
+            ],
+            "correctAudios": [
+              "Y.mp3"
+            ]
+          },
+          {
+            "questionText": "match letters",
+            "questionImageName": "flowersz.png",
+            "questionAudioName": "439653746_identify_and_match_the_uppercase_letter.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "pink_buttterfly.png",
+            "isOptionText": false,
+            "isOptionBG": false,
+            "numberOfOptions": 2,
+            "correctAnswerNum": "1",
+            "options": [
+              "bee_z.png",
+              "beeu.png"
+            ],
+            "correctAudios": [
+              "Z.mp3"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

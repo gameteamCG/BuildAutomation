@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flowerst",
+    "texture": "2b48c8d2-a975-48d8-a053-95d92820a7b1",
+    "atlas": "",
+    "rect": [
+      4,
+      24,
+      293,
+      276
+    ],
+    "offset": [
+      0,
+      -12
+    ],
+    "originalSize": [
+      301,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

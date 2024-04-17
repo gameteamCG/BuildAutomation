@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "purple_buttterfly",
+    "texture": "f8330a46-cd68-465a-a6ae-46309e74d10b",
+    "atlas": "",
+    "rect": [
+      0,
+      45,
+      250,
+      161
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

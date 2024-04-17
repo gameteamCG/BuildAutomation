@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flowersu",
+    "texture": "e1ad7408-18e7-4bfb-b749-66cb49d380a2",
+    "atlas": "",
+    "rect": [
+      4,
+      24,
+      293,
+      276
+    ],
+    "offset": [
+      0,
+      -12
+    ],
+    "originalSize": [
+      301,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

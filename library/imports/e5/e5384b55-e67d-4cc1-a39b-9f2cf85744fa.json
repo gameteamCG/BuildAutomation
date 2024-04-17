@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flowersy",
+    "texture": "af5f0293-b29f-4e50-9d5b-6f7c45404559",
+    "atlas": "",
+    "rect": [
+      4,
+      24,
+      293,
+      276
+    ],
+    "offset": [
+      0,
+      -12
+    ],
+    "originalSize": [
+      301,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

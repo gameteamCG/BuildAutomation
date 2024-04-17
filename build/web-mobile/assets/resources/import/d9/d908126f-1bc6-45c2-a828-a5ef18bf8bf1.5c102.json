@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "83h9u+t0FEPowDUL7UM/it"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "flowerss",
+      "rect": [
+        4,
+        24,
+        293,
+        276
+      ],
+      "offset": [
+        0,
+        -12
+      ],
+      "originalSize": [
+        301,
+        300
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

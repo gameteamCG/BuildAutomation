@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yellow_buttterfly",
+    "texture": "0cf8a9e5-9e07-470d-b07d-afcd323074e7",
+    "atlas": "",
+    "rect": [
+      0,
+      74,
+      250,
+      161
+    ],
+    "offset": [
+      0,
+      -29
+    ],
+    "originalSize": [
+      250,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

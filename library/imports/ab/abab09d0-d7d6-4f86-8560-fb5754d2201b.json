@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "orange_buttterfly",
+    "texture": "83555d62-380c-4fa0-b091-59764889da8b",
+    "atlas": "",
+    "rect": [
+      20,
+      102,
+      459,
+      297
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

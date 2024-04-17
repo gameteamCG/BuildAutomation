@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "beev",
+    "texture": "f6043637-aec4-4c8a-b203-5bcd8d2e7438",
+    "atlas": "",
+    "rect": [
+      8,
+      51,
+      485,
+      430
+    ],
+    "offset": [
+      0,
+      -15.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

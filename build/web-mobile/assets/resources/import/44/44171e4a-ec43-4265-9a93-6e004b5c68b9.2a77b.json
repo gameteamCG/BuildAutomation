@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "0c+KnlngdHDbB9r80yMHTn"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "yellow_buttterfly",
+      "rect": [
+        0,
+        74,
+        250,
+        161
+      ],
+      "offset": [
+        0,
+        -29
+      ],
+      "originalSize": [
+        250,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

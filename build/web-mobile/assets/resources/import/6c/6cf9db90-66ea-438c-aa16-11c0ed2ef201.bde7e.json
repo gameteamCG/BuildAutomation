@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "fcb+yWwNBMsZ0zOXcTu0o7"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "beet",
+      "rect": [
+        8,
+        51,
+        485,
+        430
+      ],
+      "offset": [
+        0,
+        -15.5
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

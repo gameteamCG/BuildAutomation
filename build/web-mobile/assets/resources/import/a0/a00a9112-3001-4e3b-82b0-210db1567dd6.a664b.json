@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "7cHbJOnIlMGI9FWnRnh+ZK"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "blue_buttterfly",
+      "rect": [
+        0,
+        45,
+        250,
+        161
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        250,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

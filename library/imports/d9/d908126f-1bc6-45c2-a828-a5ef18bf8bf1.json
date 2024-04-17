@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flowerss",
+    "texture": "8387dbbe-b741-443e-8c03-50bed433f8ad",
+    "atlas": "",
+    "rect": [
+      4,
+      24,
+      293,
+      276
+    ],
+    "offset": [
+      0,
+      -12
+    ],
+    "originalSize": [
+      301,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

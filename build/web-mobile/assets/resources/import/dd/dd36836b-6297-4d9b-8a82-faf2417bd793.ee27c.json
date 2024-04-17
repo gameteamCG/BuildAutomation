@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d1i6teqXVDQLFGs8p5EBBd"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "beeu",
+      "rect": [
+        8,
+        51,
+        485,
+        430
+      ],
+      "offset": [
+        0,
+        -15.5
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
