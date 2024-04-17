@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "43rtyre",
+    "texture": "1d6687c9-f85e-4897-b75b-dfbcee7778cb",
+    "atlas": "",
+    "rect": [
+      0,
+      32,
+      251,
+      187
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
