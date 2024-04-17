@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "658eytre",
+    "texture": "44e40a03-737d-40de-b157-fc791ae1d535",
+    "atlas": "",
+    "rect": [
+      31,
+      49,
+      188,
+      153
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

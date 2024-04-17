@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0001_cleanhands",
+    "texture": "b707ce83-e5e6-4999-b9d0-6dc7309aac65",
+    "atlas": "",
+    "rect": [
+      7,
+      25,
+      238,
+      201
+    ],
+    "offset": [
+      1,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
