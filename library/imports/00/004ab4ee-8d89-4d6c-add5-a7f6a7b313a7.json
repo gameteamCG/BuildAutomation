@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Nina",
+    "texture": "6253a5c6-23cb-4043-80f0-bf2b26c0286c",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      244,
+      246
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
