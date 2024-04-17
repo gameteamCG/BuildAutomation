@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "897guhyi",
+    "texture": "00c35178-4ac5-4905-849b-878ceb7f1099",
+    "atlas": "",
+    "rect": [
+      11,
+      11,
+      229,
+      230
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
