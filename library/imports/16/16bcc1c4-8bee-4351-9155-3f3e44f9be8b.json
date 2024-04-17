@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "orangutan",
+    "texture": "123ec054-2bd3-4586-9e76-e9b2f3e56344",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      244,
+      245
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

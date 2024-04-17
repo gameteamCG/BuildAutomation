@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Olly",
+    "texture": "a9bfd094-bc96-4d7c-9695-e5c1b88dcc11",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      244,
+      247
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
