@@ -1,0 +1,133 @@
+{
+  "additionalData": {
+    "GameID": "Blend words - 'dr' and 'fr'",
+    "totalLevel": "8",
+    "TitleImageName": "blendword_drfr.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "bgm_1.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "tlc"
+  },
+  "questionData": [
+    {
+      "questionText": "blend words",
+      "questionImageName": "drinh.png",
+      "questionAudioName": "tap_on_the_beginning_blend_sound_for_drink.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blank_box.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "dr.png",
+        "br.png"
+      ],
+      "correctAudioName": "drink.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "blend words",
+      "questionImageName": "drive.png",
+      "questionAudioName": "tap_on_the _beginning_blend_sound_for_drive.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blank_box.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "kr.png",
+        "dr.png"
+      ],
+      "correctAudioName": "drive.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "blend words",
+      "questionImageName": "drop.png",
+      "questionAudioName": "tap_on_the_beginning_blend_sound_for_drip.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blank_box.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "dr.png",
+        "mg.png"
+      ],
+      "correctAudioName": "drip.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "blend words",
+      "questionImageName": "drum.png",
+      "questionAudioName": "tap_on_the_beginning_blend_sound_for_drum.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blank_box.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "pr.png",
+        "dr.png"
+      ],
+      "correctAudioName": "drum.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "blend words",
+      "questionImageName": "frame.png",
+      "questionAudioName": "tap_on_the_beginning_blend_sound_for_frame.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blank_box.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "fr.png",
+        "kr.png"
+      ],
+      "correctAudioName": "frame.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "blend words",
+      "questionImageName": "fries.png",
+      "questionAudioName": "tap_on_the_beginning_blend_sound_for_fries.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blank_box.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "br.png",
+        "fr.png"
+      ],
+      "correctAudioName": "fries.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "blend words",
+      "questionImageName": "fruits.png",
+      "questionAudioName": "tap_on_the_beginning_blend_sound_for_fruits.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blank_box.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "fr.png",
+        "kr.png"
+      ],
+      "correctAudioName": "fruits.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "blend words",
+      "questionImageName": "rog.png",
+      "questionAudioName": "tap_on_the_beginning_blend_sound_for_frog.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blank_box.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "mg.png",
+        "fr.png"
+      ],
+      "correctAudioName": "frog.mp3",
+      "correctAnswerNum": "2"
+    }
+  ]
+}
