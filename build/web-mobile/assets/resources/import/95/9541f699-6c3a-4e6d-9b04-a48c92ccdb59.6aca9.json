@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "9bvEL1/lxCG4YGI8erZJhX"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "drop",
+      "rect": [
+        112,
+        39,
+        272,
+        424
+      ],
+      "offset": [
+        -2.5,
+        -0.5
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

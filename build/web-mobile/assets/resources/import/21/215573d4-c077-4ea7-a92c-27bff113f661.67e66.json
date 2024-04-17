@@ -1,0 +1,39 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.AudioClip",
+      [
+        "_name",
+        "_native",
+        "duration"
+      ],
+      0
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      4
+    ]
+  ],
+  [
+    [
+      0,
+      "tap_on_the _beginning_blend_sound_for_drive",
+      ".mp3",
+      2.832
+    ],
+    -1
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

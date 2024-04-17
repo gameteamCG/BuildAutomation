@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "14OmM7yT9NtrmOb2YfMWYF"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "blendword_drfr",
+      "rect": [
+        0,
+        5,
+        795,
+        239
+      ],
+      "offset": [
+        0,
+        27
+      ],
+      "originalSize": [
+        795,
+        303
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

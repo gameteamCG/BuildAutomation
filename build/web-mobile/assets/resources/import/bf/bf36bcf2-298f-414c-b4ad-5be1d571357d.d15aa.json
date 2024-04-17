@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "98I1O12qZCe5RGQgKy+Ahf"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "drive",
+      "rect": [
+        40,
+        69,
+        421,
+        394
+      ],
+      "offset": [
+        0,
+        -15.5
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a6UcDhkhdOw67HkORwSdSE"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "fries",
+      "rect": [
+        89,
+        51,
+        319,
+        431
+      ],
+      "offset": [
+        -2,
+        -16
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
