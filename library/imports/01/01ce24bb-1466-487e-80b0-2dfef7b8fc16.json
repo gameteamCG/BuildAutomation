@@ -1,0 +1,127 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "null",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/video_1713348727842.mp4",
+      "TitleImageName": "Asset32-8.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "bag",
+        "QuestionImageName": "",
+        "QuestionAudioName": "taponimageofschoolbag.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0005_Asset28-8.png",
+          "250x250_0004_Asset29-8.png"
+        ],
+        "ReiterationAudioName": "schoolbag.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "pencil",
+        "QuestionImageName": "",
+        "QuestionAudioName": "taponimageofpencil.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0000_Asset22-8.png",
+          "250x250_0007_Asset26-8.png"
+        ],
+        "ReiterationAudioName": "pencil.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "books",
+        "QuestionImageName": "",
+        "QuestionAudioName": "taponimageofbooks.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0001_Asset33-8.png",
+          "250x250_0002_Asset31-8.png"
+        ],
+        "ReiterationAudioName": "books.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "student",
+        "QuestionImageName": "",
+        "QuestionAudioName": "taponimageofstudent.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0006_teacher.png",
+          "250x250_0008_Asset25-8.png"
+        ],
+        "ReiterationAudioName": "student.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "table",
+        "QuestionImageName": "",
+        "QuestionAudioName": "taponimageoftable.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0006_Asset27-8.png",
+          "250x250_0010_Asset23-8.png"
+        ],
+        "ReiterationAudioName": "taponimageoftable.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "chair",
+        "QuestionImageName": "",
+        "QuestionAudioName": "taponimageofchair.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0003_Asset30-8.png",
+          "250x250_0009_Asset24-8.png"
+        ],
+        "ReiterationAudioName": "chair.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
