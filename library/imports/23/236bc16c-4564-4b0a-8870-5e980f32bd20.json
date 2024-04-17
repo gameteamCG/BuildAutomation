@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blendword_prtr",
+    "texture": "4593ab8c-949e-4b07-a862-323ce32ae7d1",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      795,
+      272
+    ],
+    "offset": [
+      0,
+      10.5
+    ],
+    "originalSize": [
+      795,
+      303
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

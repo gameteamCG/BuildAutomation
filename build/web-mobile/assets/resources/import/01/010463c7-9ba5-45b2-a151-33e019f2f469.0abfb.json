@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "edoamhVYRFcb6x424nEXdm"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "pram_text",
+      "rect": [
+        36,
+        103,
+        181,
+        50
+      ],
+      "offset": [
+        1,
+        -2.5
+      ],
+      "originalSize": [
+        251,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "6cybTwyaRP8qyTON2l1Dsy"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "prize_text",
+      "rect": [
+        45,
+        87,
+        164,
+        66
+      ],
+      "offset": [
+        1.5,
+        5.5
+      ],
+      "originalSize": [
+        251,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

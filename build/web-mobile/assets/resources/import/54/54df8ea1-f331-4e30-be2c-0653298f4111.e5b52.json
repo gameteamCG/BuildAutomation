@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "8feez9SPlN2q46umIA/1oc"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "prince_text",
+      "rect": [
+        148,
+        212,
+        210,
+        66
+      ],
+      "offset": [
+        2.5,
+        5.5
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

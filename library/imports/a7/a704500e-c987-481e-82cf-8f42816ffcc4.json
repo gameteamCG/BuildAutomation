@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pray",
+    "texture": "ca1e36ad-d9a7-4542-9fa4-e1f8f40d53dc",
+    "atlas": "",
+    "rect": [
+      52,
+      103,
+      153,
+      50
+    ],
+    "offset": [
+      3,
+      -2.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "19WSgA/LhLdoV4xWrrlQjw"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "trip",
+      "rect": [
+        66,
+        87,
+        119,
+        66
+      ],
+      "offset": [
+        0,
+        5.5
+      ],
+      "originalSize": [
+        251,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

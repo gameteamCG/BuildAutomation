@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "913UvcBgZNDJD71FoaAgx5"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "trap",
+      "rect": [
+        53,
+        94,
+        145,
+        59
+      ],
+      "offset": [
+        0,
+        2
+      ],
+      "originalSize": [
+        251,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
