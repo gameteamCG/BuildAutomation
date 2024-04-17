@@ -1,0 +1,155 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "null",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/video_1713348785727.mp4",
+          "TitleImageName": "67futt.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "puzzle",
+          "TotalLevel": "6"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "What has the power to make you sick?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "whathasthepowertomakeyousick.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "germs.mp3",
+            "CorrectAudioName": "GORGEOUSWORK.mp3",
+            "WrongAudioName": "nevermind,tryagain.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "34fv.png",
+              "8654efwtg.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "stop germs",
+            "QuestionImageName": "",
+            "QuestionAudioName": "howcanwestopgerms.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "coverthenosewithatissuewhenyousneeze.mp3",
+            "CorrectAudioName": "GOODJOB.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "563fg.png",
+              "8fdver3.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "21erd23f.png",
+            "QuestionAudioName": "cangermsspreadfromhands.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": true,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "yes.mp3",
+            "CorrectAudioName": "FANTASTIC.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "yes",
+              "no"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "Tap on the image where germs can be found",
+            "QuestionImageName": "",
+            "QuestionAudioName": "tapontheimagewheregermscanbefound.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "dirtyhands.mp3",
+            "CorrectAudioName": "GOODJOB.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "250x250_0001_cleanhands.png",
+              "250x250_0000_dirty-hands.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "We can use ___ to wash our hands",
+            "QuestionImageName": "",
+            "QuestionAudioName": "wecanuse___towashourhands.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "soap.mp3",
+            "CorrectAudioName": "GREATWORK.mp3",
+            "WrongAudioName": "nevermind,tryagain.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "6rtgw5v42.png",
+              "250x250_0013_ball.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "dry your hands",
+            "QuestionImageName": "",
+            "QuestionAudioName": "whichtowelshouldweusetodryourhands.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "cleantowel.mp3",
+            "CorrectAudioName": "EXCELLENTJOB.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "231dwfet.png",
+              "658eytre.png"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

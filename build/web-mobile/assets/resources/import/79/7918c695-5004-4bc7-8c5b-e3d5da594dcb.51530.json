@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "e7pxojZhpBkqij0Hkg5djY"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0000_dirty-hands",
+      "rect": [
+        7,
+        25,
+        238,
+        201
+      ],
+      "offset": [
+        1,
+        -0.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
