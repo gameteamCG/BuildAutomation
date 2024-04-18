@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0013_magician",
+    "texture": "12f6ad1d-2134-43e8-ba35-edc0a74aea6b",
+    "atlas": "",
+    "rect": [
+      12,
+      3,
+      225,
+      244
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

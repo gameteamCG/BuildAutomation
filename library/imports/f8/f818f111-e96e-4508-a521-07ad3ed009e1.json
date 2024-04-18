@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0004_policemanhat",
+    "texture": "b05e94d5-a0b9-4fac-bbd2-95d95c868485",
+    "atlas": "",
+    "rect": [
+      0,
+      97,
+      500,
+      306
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

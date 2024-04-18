@@ -1,0 +1,167 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "Recap of Community Helpers Learnt",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/whosehatisthis_53819364_1713419309965.mp4",
+          "TitleImageName": "recapofcommunityhelpers.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "puzzle",
+          "TotalLevel": "6"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "500x500_0000_firemanhat.png",
+            "QuestionAudioName": "whosehatisthis.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "firefighter.mp3",
+            "CorrectAudioName": "BRILLIANT.mp3",
+            "WrongAudioName": "nevermind,tryagain.mp3",
+            "CorrectAnswer": "3",
+            "Options": [
+              "250x250_0013_magician.png",
+              "250x250_0017_dentist.png",
+              "250x250_0005_fireman.png",
+              "250x250_0014_librarian.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "500x500_0001_chefhat.png",
+            "QuestionAudioName": "whosehatisthis.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "chef.mp3",
+            "CorrectAudioName": "MAGNIFICENT.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "4",
+            "Options": [
+              "250x250_0006_pilot.png",
+              "250x250_0008_mechanic.png",
+              "250x250_0015_lawyer.png",
+              "250x250_0004_chef.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "500x500_0004_policemanhat.png",
+            "QuestionAudioName": "whosehatisthis.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "policeofficer.mp3",
+            "CorrectAudioName": "GOODEFFORT.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "250x250_0012_nurse.png",
+              "250x250_0011_police.png",
+              "250x250_0002_waiter.png",
+              "250x250_0010_vet.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "500x500_0003_astronauthat.png",
+            "QuestionAudioName": "whosehatisthis.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "astronaut.mp3",
+            "CorrectAudioName": "INCREDIBLE.mp3",
+            "WrongAudioName": "nevermind,tryagain.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "250x250_0001_astronaut.png",
+              "250x250_0019_bee-keeper.png",
+              "250x250_0000_artist.png",
+              "250x250_0007_postman.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "500x500_0002_builderhat.png",
+            "QuestionAudioName": "whosehatisthis.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "constructionworker.mp3",
+            "CorrectAudioName": "GORGEOUSWORK.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "3",
+            "Options": [
+              "250x250_0009_plumber.png",
+              "250x250_0003_farmer.png",
+              "250x250_0018_construction-worker.png",
+              "250x250_0016_farmer.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "beekeeperhat.png",
+            "QuestionAudioName": "whosehatisthis.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "beekeeper.mp3",
+            "CorrectAudioName": "INCREDIBLE.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "250x250_0005_fireman.png",
+              "250x250_0019_bee-keeper.png",
+              "250x250_0011_police.png",
+              "250x250_0015_lawyer.png"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

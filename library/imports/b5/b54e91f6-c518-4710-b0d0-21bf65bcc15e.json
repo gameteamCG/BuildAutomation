@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_chefhat",
+    "texture": "0711448e-f8a3-416b-9d82-f6767b4d5f8a",
+    "atlas": "",
+    "rect": [
+      0,
+      70,
+      500,
+      360
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

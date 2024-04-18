@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7935b8e7-52e4-44e3-a718-46d1ebe42860",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0019_bee-keeper": {
+      "ver": "1.0.6",
+      "uuid": "dfb21ee0-8698-4f54-996e-33ee3c8b92f0",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7935b8e7-52e4-44e3-a718-46d1ebe42860",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 37,
+      "trimY": 3,
+      "width": 175,
+      "height": 243,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

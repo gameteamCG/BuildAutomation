@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "82dfGt+JhIZYBQyppp6z03"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "beekeeperhat",
+      "rect": [
+        0,
+        53,
+        500,
+        386
+      ],
+      "offset": [
+        0,
+        4
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

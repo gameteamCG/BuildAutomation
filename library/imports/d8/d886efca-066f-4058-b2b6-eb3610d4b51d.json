@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_builderhat",
+    "texture": "9702a78e-bc98-4a1f-a245-466308df7ff1",
+    "atlas": "",
+    "rect": [
+      0,
+      53,
+      500,
+      394
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "31lOeH8c5JzKVSy0XgZbwK"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0015_lawyer",
+      "rect": [
+        50,
+        3,
+        150,
+        243
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "86QVZJMb9PjaNBjZVIrx1q"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0002_waiter",
+      "rect": [
+        29,
+        8,
+        190,
+        234
+      ],
+      "offset": [
+        -1,
+        0
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

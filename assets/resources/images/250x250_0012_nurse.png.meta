@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "31795e88-e2fb-43c2-b87d-288fafad039e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0012_nurse": {
+      "ver": "1.0.6",
+      "uuid": "5abc8e3a-9ac4-468c-9d62-c69a57372e5f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "31795e88-e2fb-43c2-b87d-288fafad039e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 62,
+      "trimY": 3,
+      "width": 127,
+      "height": 244,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0003_astronauthat",
+    "texture": "d9842da2-5a67-4752-91b8-3c72e5329142",
+    "atlas": "",
+    "rect": [
+      0,
+      13,
+      500,
+      474
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

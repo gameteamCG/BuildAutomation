@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a64L56SgJBD7FbheSIRBlo"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0011_police",
+      "rect": [
+        70,
+        17,
+        109,
+        219
+      ],
+      "offset": [
+        -0.5,
+        -1.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

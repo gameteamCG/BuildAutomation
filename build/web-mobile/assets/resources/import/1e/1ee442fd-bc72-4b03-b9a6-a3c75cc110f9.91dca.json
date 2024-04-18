@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "7dvpHIQ8lOArV+uu8MX/XL"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0003_farmer",
+      "rect": [
+        50,
+        9,
+        148,
+        233
+      ],
+      "offset": [
+        -1,
+        -0.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

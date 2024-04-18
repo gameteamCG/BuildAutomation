@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0015_lawyer",
+    "texture": "3194e787-f1ce-49cc-a552-cb45e065bc0a",
+    "atlas": "",
+    "rect": [
+      50,
+      3,
+      150,
+      243
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

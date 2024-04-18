@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0000_firemanhat",
+    "texture": "8554f1d6-97ab-4edc-9e2a-cc5852b2a51f",
+    "atlas": "",
+    "rect": [
+      0,
+      48,
+      500,
+      404
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

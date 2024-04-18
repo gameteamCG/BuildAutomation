@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "beekeeperhat",
+    "texture": "8275f1ad-f898-4865-8050-ca9a69eb3d37",
+    "atlas": "",
+    "rect": [
+      0,
+      53,
+      500,
+      386
+    ],
+    "offset": [
+      0,
+      4
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
