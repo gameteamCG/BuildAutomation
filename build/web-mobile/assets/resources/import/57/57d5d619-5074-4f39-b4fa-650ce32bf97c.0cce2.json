@@ -1,0 +1,155 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "community helpers",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/36247068247_CommunityHelpers_1713430790389.mp4",
+          "TitleImageName": "12.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "puzzle",
+          "TotalLevel": "6"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "999999999999",
+            "IsQuestionText": true,
+            "QuestionText": "Who makes the furniture?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "19460962_whomakesthefurnitur.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "carpenter.mp3",
+            "CorrectAudioName": "GOODEFFORT.mp3",
+            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "a.png",
+              "e.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "999999999999",
+            "IsQuestionText": true,
+            "QuestionText": "who fixes the fan and light?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "19460962_whofixesthefanand.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "electrician.mp3",
+            "CorrectAudioName": "FANTASTIC.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "c.png",
+              "i.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "999999999999",
+            "IsQuestionText": true,
+            "QuestionText": "Who stiches our clothes?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "19460962_whostichesourclothe.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "sweeper.mp3",
+            "CorrectAudioName": "EXCEPTIONAL.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "k.png",
+              "b.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "999999999999",
+            "IsQuestionText": true,
+            "QuestionText": "Who cuts and trim our hair?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "19460962_whocutsandtrimsour.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "barber.mp3",
+            "CorrectAudioName": "EXCELLENTJOB.mp3",
+            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "g.png",
+              "h.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "999999999999",
+            "IsQuestionText": true,
+            "QuestionText": "Who grows and takes care of our garden?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "19460962_9_whogrowsandtakesca.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "gardener.mp3",
+            "CorrectAudioName": "BRILLIANT.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "a.png",
+              "d.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "999999999999",
+            "IsQuestionText": true,
+            "QuestionText": "Who keeps our streets clean?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "19460962_11_who_keepsour_streets.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "sweeper.mp3",
+            "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "i.png",
+              "f.png"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]
