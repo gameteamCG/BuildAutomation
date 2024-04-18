@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vehical323",
+    "texture": "84f91f6f-e867-4bbd-8ae4-d9d57871e937",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      1131,
+      395
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      1131,
+      398
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "84+R9v6GdLvYrk2dV4cek3"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "vehical323",
+      "rect": [
+        0,
+        3,
+        1131,
+        395
+      ],
+      "offset": [
+        0,
+        -1.5
+      ],
+      "originalSize": [
+        1131,
+        398
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
