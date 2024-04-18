@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "58oVg7v/JCm5h5HsI7nG79"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "martialandhisship",
+      "rect": [
+        4,
+        0,
+        218,
+        207
+      ],
+      "offset": [
+        -12.5,
+        22
+      ],
+      "originalSize": [
+        251,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

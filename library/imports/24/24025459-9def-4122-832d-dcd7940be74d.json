@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "martialandhisship",
+    "texture": "58a1583b-bff2-429b-9879-1ec23b9c6efd",
+    "atlas": "",
+    "rect": [
+      4,
+      0,
+      218,
+      207
+    ],
+    "offset": [
+      -12.5,
+      22
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
