@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "iibas",
+    "texture": "4e959179-e3af-4edd-be61-927a06920c54",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      746,
+      387
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      746,
+      389
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

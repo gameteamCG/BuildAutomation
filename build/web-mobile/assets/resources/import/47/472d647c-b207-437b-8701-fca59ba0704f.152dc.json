@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "4elZF5469O3b5hknoGkgxU"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "iibas",
+      "rect": [
+        0,
+        0,
+        746,
+        387
+      ],
+      "offset": [
+        0,
+        1
+      ],
+      "originalSize": [
+        746,
+        389
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
