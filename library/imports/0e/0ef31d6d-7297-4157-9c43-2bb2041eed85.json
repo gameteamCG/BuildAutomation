@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "levi768",
+    "texture": "e99057d1-d445-4ef8-8147-afffc08dcf30",
+    "atlas": "",
+    "rect": [
+      0,
+      19,
+      251,
+      213
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "My Home Has Rooms",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/6891534995_rooms_1713423573147.mp4",
+      "TitleImageName": "mhhr.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Where do we take a bath?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "wheredowetakeabath.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "bathy788.png",
+          "levi768.png"
+        ],
+        "ReiterationAudioName": "bathroom.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Which room has a bed in it?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whichroomhasabedinit.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "kitchn.png",
+          "bedit778.png"
+        ],
+        "ReiterationAudioName": "bedroom.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "In which room do you watch TV?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "inwhichroomdoyouwatchtv.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "gar758.png",
+          "levi768.png"
+        ],
+        "ReiterationAudioName": "livingroom.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Where do we cook food?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "wheredowecookfood.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "kitchn.png",
+          "bathy788.png"
+        ],
+        "ReiterationAudioName": "kitchen.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

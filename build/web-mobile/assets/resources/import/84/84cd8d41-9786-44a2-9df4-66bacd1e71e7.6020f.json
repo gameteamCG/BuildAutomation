@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "ce4GDvbRlKdpXY3Iq0AELn"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "bathy788",
+      "rect": [
+        21,
+        31,
+        209,
+        189
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        251,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

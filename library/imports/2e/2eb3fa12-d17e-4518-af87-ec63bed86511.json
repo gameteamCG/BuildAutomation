@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bedit778",
+    "texture": "9fc9458c-554c-4df7-9626-832e3f855efa",
+    "atlas": "",
+    "rect": [
+      13,
+      13,
+      225,
+      225
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
