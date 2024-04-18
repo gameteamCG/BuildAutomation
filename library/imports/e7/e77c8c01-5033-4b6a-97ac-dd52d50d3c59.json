@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bire_text",
+    "texture": "432db2ce-b08d-4b2e-ba67-0f3f08c8f239",
+    "atlas": "",
+    "rect": [
+      44,
+      87,
+      166,
+      53
+    ],
+    "offset": [
+      1.5,
+      12
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

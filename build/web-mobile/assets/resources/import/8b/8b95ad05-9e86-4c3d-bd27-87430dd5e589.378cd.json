@@ -1,0 +1,187 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "Sea turtles",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/38907694_Sea+turtles4_1713413897213.mp4",
+          "TitleImageName": "title_seaturtle.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "tlc",
+          "TotalLevel": "7"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "2000",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "Q1.png",
+            "QuestionAudioName": "What_do_Darwin_and_Newts_find_while_playing.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "egg.mp3",
+            "CorrectAudioName": "GOODJOB.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "treasure_chest.png",
+              "egg.png",
+              "giftbaox.png",
+              "ball.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "2000",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "Q2.png",
+            "QuestionAudioName": "Whom_do_they_ask_if_the_egg_is_theirs.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "BIRDS.mp3",
+            "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "4",
+            "Options": [
+              "dogs_text.png",
+              "fish_text.png",
+              "cats_text.png",
+              "bire_text.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "2000",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "Q3.png",
+            "QuestionAudioName": "click_on_frog_eggs.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "frog_eggs.mp3",
+            "CorrectAudioName": "INCREDIBLE.mp3",
+            "WrongAudioName": "nevermind,tryagain.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "frog_eggs.png",
+              "quail eggs.png",
+              "eggs.png",
+              "easter eggs.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "2000",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "Q4.png",
+            "QuestionAudioName": "Which_animal_hatched_from_the_eggs.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "sea_turtle.mp3",
+            "CorrectAudioName": "MAGNIFICENT.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "3",
+            "Options": [
+              "bird.png",
+              "fish.png",
+              "sea_turtle.png",
+              "crab.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "2000",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "Q5.png",
+            "QuestionAudioName": "Who_lays_their_eggs_in_water.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "frogs.mp3",
+            "CorrectAudioName": "FANTASTIC.mp3",
+            "WrongAudioName": "nevermind,tryagain.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "duck.png",
+              "frog.png",
+              "ostrich.png",
+              "sea_turtle.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "2000",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "Q6.png",
+            "QuestionAudioName": "Where_do_the_sea_turtles_lay_their_eggs.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "SAND.mp3",
+            "CorrectAudioName": "EXCEPTIONAL.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "4",
+            "Options": [
+              "tree.png",
+              "water.png",
+              "rock.png",
+              "sand.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "2000",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "Q7.png",
+            "QuestionAudioName": "Where_do_the_baby_sea_turtles_go_once_they_hatch.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "water.mp3",
+            "CorrectAudioName": "BRILLIANT.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "water.png",
+              "tent.png",
+              "building.png",
+              "jungle.png"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

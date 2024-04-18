@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "1aN13UGPtKDY6a/ws8Rvcu"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "cats_text",
+      "rect": [
+        59,
+        94,
+        134,
+        46
+      ],
+      "offset": [
+        0.5,
+        8.5
+      ],
+      "originalSize": [
+        251,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

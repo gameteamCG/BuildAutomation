@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "43LbLOsI1LLrpnDz8IyPI5"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "bire_text",
+      "rect": [
+        44,
+        87,
+        166,
+        53
+      ],
+      "offset": [
+        1.5,
+        12
+      ],
+      "originalSize": [
+        251,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

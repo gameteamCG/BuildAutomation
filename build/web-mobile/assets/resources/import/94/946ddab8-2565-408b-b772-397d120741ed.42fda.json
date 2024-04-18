@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "884MRiRIlEqpUsBZp/ZwL0"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "dogs_text",
+      "rect": [
+        45,
+        89,
+        162,
+        64
+      ],
+      "offset": [
+        0.5,
+        4.5
+      ],
+      "originalSize": [
+        251,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

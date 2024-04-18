@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "518o+8T6xBNKtnEx15S75t"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "fish_text",
+      "rect": [
+        66,
+        87,
+        117,
+        53
+      ],
+      "offset": [
+        -1,
+        12
+      ],
+      "originalSize": [
+        251,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
