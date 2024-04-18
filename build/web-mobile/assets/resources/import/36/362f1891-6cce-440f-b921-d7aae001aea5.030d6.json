@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "787cGtmONFg7k8je/EPJwV"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "title_seaturtle",
+      "rect": [
+        0,
+        5,
+        693,
+        124
+      ],
+      "offset": [
+        0,
+        27
+      ],
+      "originalSize": [
+        693,
+        188
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

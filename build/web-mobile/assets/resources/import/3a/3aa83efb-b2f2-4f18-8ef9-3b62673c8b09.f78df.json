@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "e5zhQdF95ANK2slx1V673P"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "tent",
+      "rect": [
+        11,
+        52,
+        228,
+        145
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

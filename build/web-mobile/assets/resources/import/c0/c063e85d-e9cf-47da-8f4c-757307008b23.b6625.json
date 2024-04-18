@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "09kNps/1FE67iYOwp8Ab12"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "easter eggs",
+      "rect": [
+        54,
+        28,
+        145,
+        204
+      ],
+      "offset": [
+        1.5,
+        -5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
