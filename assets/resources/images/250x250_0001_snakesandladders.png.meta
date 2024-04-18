@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "cf619c30-78b5-4057-9321-ac6f31f7e0f0",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0001_snakesandladders": {
+      "ver": "1.0.6",
+      "uuid": "38970ce2-93d1-496e-9d2c-e0c4743401ca",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "cf619c30-78b5-4057-9321-ac6f31f7e0f0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -0.5,
+      "trimX": 6,
+      "trimY": 52,
+      "width": 239,
+      "height": 147,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

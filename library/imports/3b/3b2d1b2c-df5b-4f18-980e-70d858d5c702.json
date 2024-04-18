@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0003_seesaw",
+    "texture": "ac31788c-4bba-48cc-92b7-b5598d95a38c",
+    "atlas": "",
+    "rect": [
+      5,
+      92,
+      240,
+      66
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

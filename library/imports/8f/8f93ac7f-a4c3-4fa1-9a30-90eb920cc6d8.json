@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0008_carrom",
+    "texture": "0219dfff-ba9f-4370-942c-5e4aa2736d53",
+    "atlas": "",
+    "rect": [
+      6,
+      6,
+      238,
+      238
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

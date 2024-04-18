@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0009_bowlingpin",
+    "texture": "bd7b6941-8b3a-4125-a393-1ab30df99bcd",
+    "atlas": "",
+    "rect": [
+      33,
+      5,
+      185,
+      239
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
