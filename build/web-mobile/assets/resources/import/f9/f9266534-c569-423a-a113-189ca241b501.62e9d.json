@@ -1,0 +1,119 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "Off to school rhyme",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Offtoschoolrhyme_765342546_1713418447310.mp4",
+          "TitleImageName": "567grht.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "puzzle",
+          "TotalLevel": "4"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "school",
+            "QuestionImageName": "",
+            "QuestionAudioName": "tapontheclothesyouweartoschool.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "schooluniform.mp3",
+            "CorrectAudioName": "GORGEOUSWORK.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "456re.png",
+              "8r67tyht.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "bag",
+            "QuestionImageName": "",
+            "QuestionAudioName": "taponthebagyoucarrytoschool.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "schoolbag.mp3",
+            "CorrectAudioName": "EXCELLENTJOB.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "87ytrvbyu.png",
+              "09fn.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "school bag",
+            "QuestionImageName": "",
+            "QuestionAudioName": "taponthethingsyoucarryinyourschoolbag.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "books.mp3",
+            "CorrectAudioName": "BRILLIANT.mp3",
+            "WrongAudioName": "nevermind,tryagain.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "7856frdsttv.png",
+              "250x250_0001_Asset33-8.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "school",
+            "QuestionImageName": "",
+            "QuestionAudioName": "tapontheimageofschool.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "school.mp3",
+            "CorrectAudioName": "FANTASTIC.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "56rsvgrdt.png",
+              "987fgbhd.png"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

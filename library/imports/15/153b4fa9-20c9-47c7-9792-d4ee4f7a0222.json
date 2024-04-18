@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "7856frdsttv",
+    "texture": "b69f7869-c046-4b55-a5ed-359aeae261cd",
+    "atlas": "",
+    "rect": [
+      11,
+      59,
+      230,
+      134
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

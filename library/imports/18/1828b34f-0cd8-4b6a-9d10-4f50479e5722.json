@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "56rsvgrdt",
+    "texture": "fbbc8675-3c81-43c2-91a0-779176a7694b",
+    "atlas": "",
+    "rect": [
+      0,
+      52,
+      251,
+      146
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
