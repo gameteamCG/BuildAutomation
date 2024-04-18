@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "daWGSG3sVH84ZS5iXW49xp"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "olives1",
+      "rect": [
+        82,
+        13,
+        336,
+        473
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

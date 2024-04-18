@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "33dXqQES1ID7uk5W4vPf7N"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "milk1",
+      "rect": [
+        120,
+        39,
+        259,
+        424
+      ],
+      "offset": [
+        -0.5,
+        -1
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

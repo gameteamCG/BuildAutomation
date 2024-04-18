@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a33vzSaQhHTI0zhR/TYxM2"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "mushroom1",
+      "rect": [
+        68,
+        22,
+        364,
+        457
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
