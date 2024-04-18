@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "3d3dE8nOJATqZ6dNw27jsz"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0013_ball",
+      "rect": [
+        9,
+        7,
+        234,
+        233
+      ],
+      "offset": [
+        1,
+        1.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
