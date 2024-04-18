@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hutt34",
+    "texture": "b7cff723-747e-4c47-89fc-010e174874cb",
+    "atlas": "",
+    "rect": [
+      1,
+      30,
+      249,
+      200
+    ],
+    "offset": [
+      0.5,
+      -4.5
+    ],
+    "originalSize": [
+      250,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

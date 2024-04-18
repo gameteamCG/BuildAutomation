@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "b7z/cjdH5MR4n8AQ4XSHTL"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "hutt34",
+      "rect": [
+        1,
+        30,
+        249,
+        200
+      ],
+      "offset": [
+        0.5,
+        -4.5
+      ],
+      "originalSize": [
+        250,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

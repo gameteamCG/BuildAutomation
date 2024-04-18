@@ -1,0 +1,147 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "Recap of types of houses",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/8766004314_home_1713441283643.mp4",
+          "TitleImageName": "iltitl.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "puzzle",
+          "TotalLevel": "5"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "identify the image of a hut",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identifyimageofhut.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "hut.mp3",
+            "CorrectAudioName": "EXCEPTIONAL.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "3",
+            "Options": [
+              "q9.png",
+              "q6.png",
+              "hutt34.png",
+              "w28.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "identify the image of adobe home",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identifyimageofadobehome.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "adobehome.mp3",
+            "CorrectAudioName": "FANTASTIC.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "w398.png",
+              "q9.png",
+              "q6.png",
+              "housebot.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "identify the image of houseboat",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identifyimageofhouseboat.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "houseboat.mp3",
+            "CorrectAudioName": "GOODJOB.mp3",
+            "WrongAudioName": "nevermind.mp3",
+            "CorrectAnswer": "3",
+            "Options": [
+              "q3.png",
+              "w28.png",
+              "housebot.png",
+              "hutt34.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "identify the image of building",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identifyimageofbuilding.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "building.mp3",
+            "CorrectAudioName": "GREATWORK.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "4",
+            "Options": [
+              "hutt34.png",
+              "housebot.png",
+              "q7.png",
+              "q6.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "identify image of stilt house",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identifyimageofstilthouse.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "stilthouse.mp3",
+            "CorrectAudioName": "EXCELLENTJOB.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "q8.png",
+              "hutt34.png",
+              "q9.png",
+              "housebot.png"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

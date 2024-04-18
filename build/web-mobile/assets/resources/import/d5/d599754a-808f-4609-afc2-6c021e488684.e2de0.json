@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "6eftki0pJMjIanFGhTtQGv"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "housebot",
+      "rect": [
+        0,
+        8,
+        250,
+        230
+      ],
+      "offset": [
+        0,
+        2.5
+      ],
+      "originalSize": [
+        250,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

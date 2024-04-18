@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d3h4PfWrhLpLFdZSKs0CiB"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "q8",
+      "rect": [
+        0,
+        43,
+        250,
+        208
+      ],
+      "offset": [
+        0,
+        -21.5
+      ],
+      "originalSize": [
+        250,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
