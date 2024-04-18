@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "9cQlakzGdN7bNBgrnJxGYU"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "recapofcommunityhelpers",
+      "rect": [
+        152,
+        122,
+        896,
+        362
+      ],
+      "offset": [
+        0,
+        -53
+      ],
+      "originalSize": [
+        1200,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

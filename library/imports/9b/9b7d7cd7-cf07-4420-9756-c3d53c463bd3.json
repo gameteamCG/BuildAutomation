@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0001_shop-keeper",
+    "texture": "fa233362-9643-47ad-b1d4-6b1cf2979241",
+    "atlas": "",
+    "rect": [
+      48,
+      5,
+      154,
+      240
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

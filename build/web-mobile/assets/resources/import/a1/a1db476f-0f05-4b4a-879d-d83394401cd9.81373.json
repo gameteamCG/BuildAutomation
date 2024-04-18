@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "12AXGuHT1AV4kXJWiVQKfk"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0005_nurse-outfit",
+      "rect": [
+        6,
+        12,
+        236,
+        225
+      ],
+      "offset": [
+        -1,
+        0.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0007_firetruck",
+    "texture": "1a0f6b3c-74ee-41a4-908e-14cdcba64685",
+    "atlas": "",
+    "rect": [
+      7,
+      74,
+      236,
+      102
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "2a18Was/1HNrPEu678Dv4b"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0015_policevan",
+      "rect": [
+        10,
+        78,
+        233,
+        99
+      ],
+      "offset": [
+        1.5,
+        -2.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

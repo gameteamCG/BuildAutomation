@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "28P68pTOdHL4yRqr9U9N9z"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0002_School-bus",
+      "rect": [
+        6,
+        68,
+        238,
+        115
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

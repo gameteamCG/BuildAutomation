@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "6aQ9h0NdRBRI8Tqm5rwxYO"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0010_dress",
+      "rect": [
+        23,
+        6,
+        212,
+        239
+      ],
+      "offset": [
+        4,
+        -0.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

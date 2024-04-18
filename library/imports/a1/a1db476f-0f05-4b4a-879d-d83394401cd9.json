@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0005_nurse-outfit",
+    "texture": "120171ae-1d3d-4057-8917-25689540a7e4",
+    "atlas": "",
+    "rect": [
+      6,
+      12,
+      236,
+      225
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

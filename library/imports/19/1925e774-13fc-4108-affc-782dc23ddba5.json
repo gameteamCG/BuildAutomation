@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0015_policevan",
+    "texture": "2ad7c59a-b3fd-4736-b3c4-bbaefc0efe1b",
+    "atlas": "",
+    "rect": [
+      10,
+      78,
+      233,
+      99
+    ],
+    "offset": [
+      1.5,
+      -2.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

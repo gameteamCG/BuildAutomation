@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "120171ae-1d3d-4057-8917-25689540a7e4",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0005_nurse-outfit": {
+      "ver": "1.0.6",
+      "uuid": "a1db476f-0f05-4b4a-879d-d83394401cd9",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "120171ae-1d3d-4057-8917-25689540a7e4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 0.5,
+      "trimX": 6,
+      "trimY": 12,
+      "width": 236,
+      "height": 225,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
