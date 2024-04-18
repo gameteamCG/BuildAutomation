@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "recapofactivitiesinschool",
+    "texture": "cff64553-df8a-4549-8805-e2b87389131a",
+    "atlas": "",
+    "rect": [
+      127,
+      115,
+      884,
+      402
+    ],
+    "offset": [
+      0,
+      -42
+    ],
+    "originalSize": [
+      1138,
+      548
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

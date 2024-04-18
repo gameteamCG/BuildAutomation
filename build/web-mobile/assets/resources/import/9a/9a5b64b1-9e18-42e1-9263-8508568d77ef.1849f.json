@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "abrpE+3VlCTbruNX8JIgkq"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0006_teacher",
+      "rect": [
+        69,
+        7,
+        130,
+        237
+      ],
+      "offset": [
+        9,
+        -0.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
