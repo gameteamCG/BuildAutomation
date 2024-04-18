@@ -1,0 +1,155 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "Letter W",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/LETTER_W_WENDY_AND_MR_WALRUS_00000000011_1713415559082.mp4",
+          "TitleImageName": "Asset_63.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "puzzle",
+          "TotalLevel": "6"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "identify",
+            "QuestionImageName": "",
+            "QuestionAudioName": "Identify_the_letter_w.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": true,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "w.mp3",
+            "CorrectAudioName": "BRILLIANT.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "Q",
+              "W"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "Wolly, the wolf",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identify_the_image_of_Wolly_the_wolf.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "wolly_the_wolf.mp3",
+            "CorrectAudioName": "GREATWORK.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "dog.png",
+              "wolly_the_wolf.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": " Walrus",
+            "QuestionImageName": "",
+            "QuestionAudioName": "tap_on_the_picture_of_walrus.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "walrus.mp3",
+            "CorrectAudioName": "GOODJOB.mp3",
+            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "walrus.png",
+              "tortise.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "Whale",
+            "QuestionImageName": "",
+            "QuestionAudioName": "Tap_on_the_image_of_whale.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "Whale.mp3",
+            "CorrectAudioName": "FANTASTIC.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "octopus.png",
+              "whale.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "Watch",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identify_the_image_of_watch.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "Watch.mp3",
+            "CorrectAudioName": "EXCELLENTJOB.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "watch.png",
+              "sunglasses.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "'W'  letter sound",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identify_the_fruit_that_starts_with_w_sound.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "watermelon.mp3",
+            "CorrectAudioName": "BRILLIANT.mp3",
+            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "watermelon.png",
+              "grapes.png"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]
