@@ -1,0 +1,155 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "Whose Hands Are These?",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/98325879_Whose_Hands_Are_These_1713437518111.mp4",
+          "TitleImageName": "a.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "puzzle",
+          "TotalLevel": "6"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "99999999999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "b.png",
+            "QuestionAudioName": "whosehandsarethese2.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": true,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "farmer2.mp3",
+            "CorrectAudioName": "GOODJOB.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "teacher",
+              "farmer"
+            ]
+          },
+          {
+            "QuestionAppearTime": "99999999999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "f.png",
+            "QuestionAudioName": "whosehandsarethese2.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": true,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "cook2.mp3",
+            "CorrectAudioName": "GORGEOUSWORK.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "cook",
+              "taler"
+            ]
+          },
+          {
+            "QuestionAppearTime": "99999999999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "g.png",
+            "QuestionAudioName": "whosehandsarethese2.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": true,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "potter2.mp3",
+            "CorrectAudioName": "GREATWORK.mp3",
+            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "policeman",
+              "potter"
+            ]
+          },
+          {
+            "QuestionAppearTime": "99999999999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "e.png",
+            "QuestionAudioName": "whosehandsarethese2.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": true,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "mechanic2.mp3",
+            "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "mechanic",
+              "news reporter"
+            ]
+          },
+          {
+            "QuestionAppearTime": "99999999999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "c.png",
+            "QuestionAudioName": "whosehandsarethese2.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": true,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "refree2.mp3",
+            "CorrectAudioName": "INCREDIBLE.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "architect",
+              "refree"
+            ]
+          },
+          {
+            "QuestionAppearTime": "99999999999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "d.png",
+            "QuestionAudioName": "whosehandsarethese2.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": true,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "teacher2.mp3",
+            "CorrectAudioName": "MAGNIFICENT.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "teacher",
+              "docter"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]
