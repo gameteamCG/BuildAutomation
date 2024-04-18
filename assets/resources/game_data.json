@@ -1,0 +1,73 @@
+{
+  "AdditionalData": {
+    "GameID": "Recap of Community Helpers Learnt",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/recapofcommunityhelperslearnt_856104932_1713423440629.mp4",
+    "TitleImageName": "recapofcommunityhelpers.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "fire truck",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifyimageofafiretruck.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "250x250_0015_ambulance.png",
+        "250x250_0007_firetruck.png",
+        "250x250_0015_policevan.png",
+        "250x250_0002_School-bus.png"
+      ],
+      "ReiterationAudioName": "firetruck.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "fire fighter",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifyimageofafirefighter.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "250x250_0008_fireman.png",
+        "250x250_0004_pilot.png",
+        "250x250_0001_shop-keeper.png",
+        "250x250_0017_waiter.png"
+      ],
+      "ReiterationAudioName": "firefighter.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "uniform",
+      "QuestionImageName": "",
+      "QuestionAudioName": "tapontheimageoffirefightersuniform.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "250x250_0010_dress.png",
+        "250x250_0018_uniform.png",
+        "250x250_0009_firefighter-unicorm.png",
+        "250x250_0005_nurse-outfit.png"
+      ],
+      "ReiterationAudioName": "firefightersuniform.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    }
+  ]
+}
