@@ -1,0 +1,85 @@
+{
+  "AdditionalData": {
+    "GameID": "The Things I LOVE About School",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/loveschool_8456795746_1713421858397.mp4",
+    "TitleImageName": "titll.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Classroom",
+      "QuestionImageName": "",
+      "QuestionAudioName": "tapontheobjectyoucanfindinclassroom.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "books1.png",
+        "presss1.png"
+      ],
+      "ReiterationAudioName": "books.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "person that you can find in school",
+      "QuestionImageName": "",
+      "QuestionAudioName": "selectthepersonthatyoucanfindinschool.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "polisss22.png",
+        "tiiicher88.png"
+      ],
+      "ReiterationAudioName": "teacher.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Where do you play with your friends in school?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "wheredoyouplaywithyourfriendsinschool.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "plqwe.png",
+        "clooo78.png"
+      ],
+      "ReiterationAudioName": "playground.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": " activity that you do in school",
+      "QuestionImageName": "",
+      "QuestionAudioName": "tapontheactivitythatyoudoinschool.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "brush44.png",
+        "cbgdfbfgb.png"
+      ],
+      "ReiterationAudioName": "exercise.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
