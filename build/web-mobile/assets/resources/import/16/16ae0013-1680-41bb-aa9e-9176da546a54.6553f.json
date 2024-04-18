@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "5eZlruSjVOx7fS0/k/80qz"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "identifysounds",
+      "rect": [
+        26,
+        26,
+        641,
+        315
+      ],
+      "offset": [
+        7.5,
+        -1.5
+      ],
+      "originalSize": [
+        678,
+        364
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

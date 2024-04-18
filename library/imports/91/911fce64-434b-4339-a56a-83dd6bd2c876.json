@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Identify sounds",
+      "totalLevel": "6",
+      "TitleImageName": "identifysounds.png",
+      "introBgName": "PLAYGROUP.png",
+      "bgmMusicName": "bgmss.mp3",
+      "mainBgName": "Asset2.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "identify sounds",
+        "questionAudioName": "listenidentifycat.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset3.png",
+          "Asset9.png"
+        ],
+        "correctAudios": [
+          "cat.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "identify sounds",
+        "questionAudioName": "listenidentifydog.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset11.png",
+          "Asset4.png"
+        ],
+        "correctAudios": [
+          "dog.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "identify sounds",
+        "questionAudioName": "girlsound.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset3.png",
+          "Asset10.png"
+        ],
+        "correctAudios": [
+          "girl.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "identify sounds",
+        "questionAudioName": "listenidentifylion.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset5.png",
+          "Asset9.png"
+        ],
+        "correctAudios": [
+          "lion.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "identify sounds",
+        "questionAudioName": "boysound.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset4.png",
+          "Asset9.png"
+        ],
+        "correctAudios": [
+          "boy.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "identify sounds",
+        "questionAudioName": "listenidentifytiger.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset6.png",
+          "Asset11.png"
+        ],
+        "correctAudios": [
+          "tiger.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
