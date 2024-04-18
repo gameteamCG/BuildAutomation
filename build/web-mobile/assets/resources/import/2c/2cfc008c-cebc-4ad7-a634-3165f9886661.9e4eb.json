@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "3fs5jSWaFFno2CNRWEy6+T"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0005_lady",
+      "rect": [
+        88,
+        7,
+        74,
+        238
+      ],
+      "offset": [
+        0,
+        -1
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "01ru2DafFJx4SRwVEGACMw"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0012_buddy",
+      "rect": [
+        12,
+        53,
+        217,
+        149
+      ],
+      "offset": [
+        -4.5,
+        -2.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

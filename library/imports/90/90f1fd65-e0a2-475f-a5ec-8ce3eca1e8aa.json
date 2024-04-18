@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0008_firestation",
+    "texture": "f8430dd5-a681-4dd7-8972-ec66cf2e2212",
+    "atlas": "",
+    "rect": [
+      6,
+      22,
+      238,
+      205
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

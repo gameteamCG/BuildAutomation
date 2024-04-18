@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0012_buddy",
+    "texture": "01aeed83-69f1-49c7-8491-c15106002330",
+    "atlas": "",
+    "rect": [
+      12,
+      53,
+      217,
+      149
+    ],
+    "offset": [
+      -4.5,
+      -2.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
