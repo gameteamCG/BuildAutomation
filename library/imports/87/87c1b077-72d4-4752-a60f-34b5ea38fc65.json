@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Community Helpers",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/com9895142300_1713422514616.mp4",
+      "TitleImageName": "ssc.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Who brings us mail?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whobringsusmail.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset398.png",
+          "Asset368.png"
+        ],
+        "ReiterationAudioName": "mailman.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "who keeps us safe?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whokeepsussafe.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset398.png",
+          "Asset388.png"
+        ],
+        "ReiterationAudioName": "policeman.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "who puts out fire?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whoputsoutfire.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset348.png",
+          "Asset338.png"
+        ],
+        "ReiterationAudioName": "fireman.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "who keeps us well?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whokeepsuswell.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset378.png",
+          "Asset358.png"
+        ],
+        "ReiterationAudioName": "doctor.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "who grows food?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whogrowsfood.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset408.png",
+          "Asset338.png"
+        ],
+        "ReiterationAudioName": "farmer.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
