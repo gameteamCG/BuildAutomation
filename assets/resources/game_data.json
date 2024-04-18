@@ -1,0 +1,113 @@
+{
+  "AdditionalData": {
+    "GameID": "Introduction to Indoor games",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/IntroductiontoIndoorgames_87545328_1713419276126.mp4",
+    "TitleImageName": "introductiontoindoorgames.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "carrom",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifyimageofindoorgamecarrom.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "250x250_0007_chess.png",
+        "250x250_0008_carrom.png",
+        "250x250_0001_snakesandladders.png",
+        "250x250_0010_blocks.png"
+      ],
+      "ReiterationAudioName": "carrom.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "scrabble",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifyimageofindoorgamescrabble.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "250x250_0005_playingcards.png",
+        "250x250_0009_bowlingpin.png",
+        "250x250_0004_scrabble.png",
+        "250x250_0006_jenga.png"
+      ],
+      "ReiterationAudioName": "scrabble.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "chess",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifyimageofindoorgamechess.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "250x250_0007_chess.png",
+        "250x250_0010_blocks.png",
+        "250x250_0005_playingcards.png",
+        "250x250_0002_slide.png"
+      ],
+      "ReiterationAudioName": "chess.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "snakes and ladders",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifyimageofindoorgamesnakesandladders.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "250x250_0007_chess.png",
+        "250x250_0004_scrabble.png",
+        "250x250_0010_blocks.png",
+        "250x250_0001_snakesandladders.png"
+      ],
+      "ReiterationAudioName": "snakesandladders.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "playing cards",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifyimageofindoorgameplayingcards.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "250x250_0009_bowlingpin.png",
+        "250x250_0003_seesaw.png",
+        "250x250_0005_playingcards.png",
+        "250x250_0000_badminton.png"
+      ],
+      "ReiterationAudioName": "playingcards.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "3"
+    }
+  ]
+}
