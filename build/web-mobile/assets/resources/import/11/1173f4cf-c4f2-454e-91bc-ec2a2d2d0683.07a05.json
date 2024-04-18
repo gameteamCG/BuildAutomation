@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "b3MBUf1eRE/IV7w7AZXIOb"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "hug",
+      "rect": [
+        55,
+        8,
+        266,
+        343
+      ],
+      "offset": [
+        13,
+        -4
+      ],
+      "originalSize": [
+        350,
+        351
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

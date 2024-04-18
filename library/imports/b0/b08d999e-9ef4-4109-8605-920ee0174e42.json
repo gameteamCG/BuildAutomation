@@ -1,0 +1,126 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "my body song",
+      "TitleImageName": "1.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "toes",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifytheimageoftoes.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "12.png",
+          "11.png"
+        ],
+        "ReiterationAudioName": "toes.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "hug.png",
+        "QuestionAudioName": "whichbodypartdoweusetohugourfriends.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "7.png",
+          "5.png"
+        ],
+        "ReiterationAudioName": "arms.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "jump.png",
+        "QuestionAudioName": "whichbodyparthelpsyoutojump.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "7.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "legs.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "smell.png",
+        "QuestionAudioName": "whichbodyparthelpsustosmellflowers.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "10.png",
+          "2.png"
+        ],
+        "ReiterationAudioName": "nose.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "neck",
+        "QuestionImageName": "",
+        "QuestionAudioName": "tapontheimageofneck.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "3.png",
+          "9.png"
+        ],
+        "ReiterationAudioName": "neck.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "read",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whichbodyparthelpsyoutoread.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "2.png",
+          "8.png"
+        ],
+        "ReiterationAudioName": "",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f6gPaFP7pBxalhLHGio96T"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "smell",
+      "rect": [
+        76,
+        40,
+        226,
+        273
+      ],
+      "offset": [
+        13.5,
+        -1
+      ],
+      "originalSize": [
+        351,
+        351
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
