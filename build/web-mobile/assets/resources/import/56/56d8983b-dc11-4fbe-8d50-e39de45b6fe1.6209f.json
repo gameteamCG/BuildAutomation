@@ -1,0 +1,155 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "Letter Z",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/LETTER_Z_ZEZE_IN_THE_ZOO_0000000013_1713423173794.mp4",
+          "TitleImageName": "Asset_65.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "puzzle",
+          "TotalLevel": "6"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "identify",
+            "QuestionImageName": "",
+            "QuestionAudioName": "Identify_the_letter_z.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": true,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "Z_.mp3",
+            "CorrectAudioName": "GREATWORK.mp3",
+            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "Z",
+              "X"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "Zeze, the zebra",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identify_the_image_of_Zeezee_the_zeebra.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "zeze_the_zebra.mp3",
+            "CorrectAudioName": "BRILLIANT.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "horse.png",
+              "Zeze_the_zebra.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "Where does zeze live?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "where_does_zeezee_live.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "zoo.mp3",
+            "CorrectAudioName": "EXCELLENTJOB.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "ZOO.png",
+              "farm.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "zig-zag",
+            "QuestionImageName": "",
+            "QuestionAudioName": "tap_on_zig_zag_lines.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "zig_zag.mp3",
+            "CorrectAudioName": "FANTASTIC.mp3",
+            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "spiral.png",
+              "zig_zag.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "Q05.png",
+            "QuestionAudioName": "How_many_lines_do_Moo_have.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "zero.mp3",
+            "CorrectAudioName": "GOODJOB.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "ten.png",
+              "zero.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": " 'Z'  letter sound",
+            "QuestionImageName": "",
+            "QuestionAudioName": "IdentifytheobjectthatstartswiththeZsound.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "Zip.mp3",
+            "CorrectAudioName": "GREATWORK.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "shirt.png",
+              "zip.png"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]
