@@ -1,0 +1,85 @@
+{
+  "AdditionalData": {
+    "GameID": "the way back home",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/63248327_THE_WAY_BACK_HOME_1713425872430.mp4",
+    "TitleImageName": "8.png",
+    "IntroAudio1Name": "greetingseveryone.mp3",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "999999999",
+      "IsQuestionText": true,
+      "QuestionText": "What did the boy find in his cupboard?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "whatdidtheboyfindinhiscupboard.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "5.png",
+        "4.png"
+      ],
+      "ReiterationAudioName": "anaeroplane.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Where was the boy stuck?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "wherewastheboystuck.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "7.png",
+        "6.png"
+      ],
+      "ReiterationAudioName": "onthemoon.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Who else got stuck on the moon?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "whoelsegotstuckonthemoon.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "martialandhisship.png",
+        "3.png"
+      ],
+      "ReiterationAudioName": "themartianandhisship.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999999",
+      "IsQuestionText": true,
+      "QuestionText": "How did boy go back to the moon?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "howdidtheboygoback.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "2.png",
+        "1.png"
+      ],
+      "ReiterationAudioName": "byclimbingtherope.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
