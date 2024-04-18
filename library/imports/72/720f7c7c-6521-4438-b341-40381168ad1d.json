@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "plqwe",
+    "texture": "0469d0db-31aa-4f91-99f6-09a2059464a5",
+    "atlas": "",
+    "rect": [
+      33,
+      50,
+      186,
+      152
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

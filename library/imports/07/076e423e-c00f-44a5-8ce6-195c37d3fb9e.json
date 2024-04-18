@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "polisss22",
+    "texture": "8be7db7d-7c4a-4110-bf1f-e62c1dcf3ccb",
+    "atlas": "",
+    "rect": [
+      21,
+      6,
+      213,
+      244
+    ],
+    "offset": [
+      2.5,
+      -3
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

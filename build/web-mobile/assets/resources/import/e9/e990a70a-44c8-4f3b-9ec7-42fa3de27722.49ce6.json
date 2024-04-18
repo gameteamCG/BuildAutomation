@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d64oy5tIJBn5+KfvHVYB7M"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "presss1",
+      "rect": [
+        23,
+        72,
+        205,
+        108
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        251,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
