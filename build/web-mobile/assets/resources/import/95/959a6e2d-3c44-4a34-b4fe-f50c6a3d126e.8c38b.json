@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "76fYE7EL9JWLMSSFOQZpaC"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0006_jenga",
+      "rect": [
+        14,
+        8,
+        223,
+        236
+      ],
+      "offset": [
+        0.5,
+        -1
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
