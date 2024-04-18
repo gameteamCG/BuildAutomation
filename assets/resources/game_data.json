@@ -1,0 +1,121 @@
+{
+  "AdditionalData": {
+    "GameID": "Whose Hands Are These?",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/98325879_Whose_Hands_Are_These_1713437518111.mp4",
+    "TitleImageName": "a.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "6"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "b.png",
+      "QuestionAudioName": "whosehandsarethese2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "teacher",
+        "farmer"
+      ],
+      "ReiterationAudioName": "farmer2.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "f.png",
+      "QuestionAudioName": "whosehandsarethese2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "cook",
+        "taler"
+      ],
+      "ReiterationAudioName": "cook2.mp3",
+      "CorrectAudioName": "GORGEOUSWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "g.png",
+      "QuestionAudioName": "whosehandsarethese2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "policeman",
+        "potter"
+      ],
+      "ReiterationAudioName": "potter2.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "e.png",
+      "QuestionAudioName": "whosehandsarethese2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "mechanic",
+        "news reporter"
+      ],
+      "ReiterationAudioName": "mechanic2.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "c.png",
+      "QuestionAudioName": "whosehandsarethese2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "architect",
+        "refree"
+      ],
+      "ReiterationAudioName": "refree2.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "d.png",
+      "QuestionAudioName": "whosehandsarethese2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "teacher",
+        "docter"
+      ],
+      "ReiterationAudioName": "teacher2.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
