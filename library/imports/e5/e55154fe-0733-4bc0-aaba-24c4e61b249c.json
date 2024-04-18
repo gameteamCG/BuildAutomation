@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0005_playingcards",
+    "texture": "fd594e88-59ab-4d24-8c45-fe5a4c4c2246",
+    "atlas": "",
+    "rect": [
+      6,
+      58,
+      239,
+      134
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

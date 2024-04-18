@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "fd594e88-59ab-4d24-8c45-fe5a4c4c2246",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0005_playingcards": {
+      "ver": "1.0.6",
+      "uuid": "e55154fe-0733-4bc0-aaba-24c4e61b249c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "fd594e88-59ab-4d24-8c45-fe5a4c4c2246",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 6,
+      "trimY": 58,
+      "width": 239,
+      "height": 134,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

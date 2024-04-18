@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "31e8ad24-f2ce-4601-8cd4-a26c63ba23c9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0000_badminton": {
+      "ver": "1.0.6",
+      "uuid": "cf242cf6-9a94-4289-9b8d-7e78fe2d6d46",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "31e8ad24-f2ce-4601-8cd4-a26c63ba23c9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 11,
+      "trimY": 6,
+      "width": 229,
+      "height": 238,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

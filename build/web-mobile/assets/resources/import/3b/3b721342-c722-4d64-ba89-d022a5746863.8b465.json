@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "08RZ5Vd5JCd5buCIwC4ESr"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "introductiontoindoorgames",
+      "rect": [
+        152,
+        81,
+        1071,
+        272
+      ],
+      "offset": [
+        0,
+        -33
+      ],
+      "originalSize": [
+        1375,
+        368
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
