@@ -1,0 +1,121 @@
+{
+  "AdditionalData": {
+    "GameID": "Germs are not for sharing",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Germsarenotforsharing_4524365_1713426937389.mp4",
+    "TitleImageName": "67futt.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "6"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What has the power to make you sick?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "whathasthepowertomakeyousick.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "34fv.png",
+        "8654efwtg.png"
+      ],
+      "ReiterationAudioName": "germs.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "How can we stop germs?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "howcanwestopgerms.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "250x250_0001_covermouth.png",
+        "250x250_0000_sneeze.png"
+      ],
+      "ReiterationAudioName": "coverthenosewithatissuewhenyousneeze.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Can germs spread from hands?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "cangermsspreadfromhands.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Yes",
+        "No"
+      ],
+      "ReiterationAudioName": "yes.mp3",
+      "CorrectAudioName": "GOODEFFORT.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Tap on the image where germs can be found",
+      "QuestionImageName": "",
+      "QuestionAudioName": "tapontheimagewheregermscanbefound.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "250x250_0001_cleanhands.png",
+        "250x250_0000_dirty-hands.png"
+      ],
+      "ReiterationAudioName": "dirtyhands.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "We can use ___ to wash our hands",
+      "QuestionImageName": "",
+      "QuestionAudioName": "wecanuse___towashourhands.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "250x250_0013_ball.png",
+        "6rtgw5v42.png"
+      ],
+      "ReiterationAudioName": "soap.mp3",
+      "CorrectAudioName": "GORGEOUSWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Which towel should we use to dry our hands?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "whichtowelshouldweusetodryourhands.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "658eytre.png",
+        "231dwfet.png"
+      ],
+      "ReiterationAudioName": "cleantowel.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
