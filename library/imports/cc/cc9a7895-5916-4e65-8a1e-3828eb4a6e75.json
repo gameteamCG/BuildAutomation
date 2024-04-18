@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "apcu",
+    "texture": "82bd935c-ab05-4bab-bf48-23a63c624f23",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1072,
+      393
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1072,
+      393
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "82vZNcqwVLq79II6Y8Yk8j"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "apcu",
+      "rect": [
+        0,
+        0,
+        1072,
+        393
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1072,
+        393
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
