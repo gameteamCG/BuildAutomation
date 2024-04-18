@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "prepositionbehind",
+    "texture": "9ebfb20a-971e-490e-870f-b1e54bb4a990",
+    "atlas": "",
+    "rect": [
+      26,
+      27,
+      967,
+      349
+    ],
+    "offset": [
+      7.5,
+      -3
+    ],
+    "originalSize": [
+      1004,
+      397
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

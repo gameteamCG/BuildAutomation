@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "9ev7IKlx5JDocPseVLtKmQ"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "prepositionbehind",
+      "rect": [
+        26,
+        27,
+        967,
+        349
+      ],
+      "offset": [
+        7.5,
+        -3
+      ],
+      "originalSize": [
+        1004,
+        397
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

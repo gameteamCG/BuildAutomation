@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "9eE2yc/npHdK74+sP2swFK"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Asset13",
+      "rect": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1920,
+        1080
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
