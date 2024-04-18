@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Vero_the_volcano",
+    "texture": "874d114b-5afe-499c-aa01-85b4be02f230",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      247,
+      245
+    ],
+    "offset": [
+      -1.5,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

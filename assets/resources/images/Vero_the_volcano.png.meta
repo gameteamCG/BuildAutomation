@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "874d114b-5afe-499c-aa01-85b4be02f230",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "Vero_the_volcano": {
+      "ver": "1.0.6",
+      "uuid": "62181f79-a742-4c94-b61a-a5aaa2f178ff",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "874d114b-5afe-499c-aa01-85b4be02f230",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1.5,
+      "offsetY": -0.5,
+      "trimX": 0,
+      "trimY": 3,
+      "width": 247,
+      "height": 245,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
