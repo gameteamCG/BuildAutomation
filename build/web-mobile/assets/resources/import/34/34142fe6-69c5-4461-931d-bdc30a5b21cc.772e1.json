@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "ac5ZEwTH9FHZt+XMSDTHCu"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "IMADTCR",
+      "rect": [
+        0,
+        2,
+        887,
+        434
+      ],
+      "offset": [
+        0,
+        13
+      ],
+      "originalSize": [
+        887,
+        464
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

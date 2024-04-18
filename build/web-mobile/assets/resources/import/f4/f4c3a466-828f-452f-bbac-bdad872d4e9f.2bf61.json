@@ -1,0 +1,155 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "I Am a Doctor",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/doc1992188716_1713424477986.mp4",
+          "TitleImageName": "IMADTCR.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "puzzle",
+          "TotalLevel": "6"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "Doctor",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identifyimageofdoctor.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "doctor.mp3",
+            "CorrectAudioName": "BRILLIANT.mp3",
+            "WrongAudioName": "nevermind.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "Asset258.png",
+              "Asset268.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "Object that doctor use",
+            "QuestionImageName": "",
+            "QuestionAudioName": "tapontheobjectthedoctoruses.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "stethoscope.mp3",
+            "CorrectAudioName": "EXCELLENTJOB.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "Asset188.png",
+              "Asset208.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "99999",
+            "IsQuestionText": true,
+            "QuestionText": "Injection",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identifyimageofinjection.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "injection.mp3",
+            "CorrectAudioName": "EXCEPTIONAL.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "Asset178.png",
+              "Asset168.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "X-ray",
+            "QuestionImageName": "",
+            "QuestionAudioName": "taponimageofxray.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "xray.mp3",
+            "CorrectAudioName": "GOODEFFORT.mp3",
+            "WrongAudioName": "nevermind.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "Asset158.png",
+              "Asset248.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "Bandage",
+            "QuestionImageName": "",
+            "QuestionAudioName": "tapontheimageofbandage.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "bandage.mp3",
+            "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "Asset198.png",
+              "Asset228.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "Where does a doctor works?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "wheredoesadoctorwork.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "ReiterationAudioName": "hospital.mp3",
+            "CorrectAudioName": "MAGNIFICENT.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "Asset218.png",
+              "Asset148.png"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]
