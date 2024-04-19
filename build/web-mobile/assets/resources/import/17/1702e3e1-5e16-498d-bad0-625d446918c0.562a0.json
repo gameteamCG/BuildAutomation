@@ -1,0 +1,107 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "ab family words",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/46017425_ab_family_words_1713520296112.mp4",
+          "TitleImageName": "abfamilywords.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "supercub",
+          "TotalLevel": "3"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "2000",
+            "IsQuestionText": true,
+            "QuestionText": "cab",
+            "QuestionImageName": "",
+            "QuestionAudioName": "Select_the_image_of_cab.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "CAB.mp3",
+            "CorrectAudioName": "FANTASTIC.mp3",
+            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "truck.png",
+              "cab2.png",
+              "bicycle.png",
+              "bike.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "2000",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "lab.png",
+            "QuestionAudioName": "what_is_this.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": true,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "lab.mp3",
+            "CorrectAudioName": "INCREDIBLE.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "3",
+            "Options": [
+              "dab",
+              "cab",
+              "lab",
+              "fab"
+            ]
+          },
+          {
+            "QuestionAppearTime": "2000",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "crab.png",
+            "QuestionAudioName": "Which_animal_is_this.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": true,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "crab.mp3",
+            "CorrectAudioName": "BRILLIANT.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "4",
+            "Options": [
+              "nab",
+              "stab",
+              "jab",
+              "crab"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

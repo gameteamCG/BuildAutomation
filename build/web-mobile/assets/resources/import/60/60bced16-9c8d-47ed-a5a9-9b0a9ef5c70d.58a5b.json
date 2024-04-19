@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "9br+lgqSZB6bIyTlv8KJE8"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "crab",
+      "rect": [
+        64,
+        63,
+        465,
+        371
+      ],
+      "offset": [
+        1.5,
+        1.5
+      ],
+      "originalSize": [
+        590,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
