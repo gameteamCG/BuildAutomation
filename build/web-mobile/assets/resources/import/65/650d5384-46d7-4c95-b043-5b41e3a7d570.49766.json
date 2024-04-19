@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "3emsQzV0lDP77qYLKwXOze"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "slide",
+      "rect": [
+        103,
+        162,
+        244,
+        125
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        450,
+        450
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

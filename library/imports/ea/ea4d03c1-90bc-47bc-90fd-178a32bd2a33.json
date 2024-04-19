@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "my playground",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/159628_1713512320841.mp4",
+      "TitleImageName": "Myplayground(1).png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "BBgmwhatsnext.mp3",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": " playground.png",
+        "QuestionAudioName": "Identifytheimageofaplayground..mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Layer671.png",
+          "shoppingmall.png"
+        ],
+        "ReiterationAudioName": "playground.mp3",
+        "CorrectAudioName": "AWESOME YOU SAVED IT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "slide.png",
+        "QuestionAudioName": "Clickontheimageofaslide..mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "playground.png",
+          "Merrygoround.png"
+        ],
+        "ReiterationAudioName": "Slide.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Asset6.png",
+        "QuestionAudioName": "Selectthepictureofaswing..mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Tubeslide.png",
+          "swing.png"
+        ],
+        "ReiterationAudioName": "Swing.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "see-saw.png",
+        "QuestionAudioName": "Tapontheimageofseesaw.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "seesaw.png",
+          "Monkeybars.png"
+        ],
+        "ReiterationAudioName": "Seesaw.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

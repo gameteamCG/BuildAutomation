@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Myplayground(1)",
+    "texture": "74725460-af28-4610-9359-1e039950f6fa",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1000,
+      440
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1000,
+      440
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

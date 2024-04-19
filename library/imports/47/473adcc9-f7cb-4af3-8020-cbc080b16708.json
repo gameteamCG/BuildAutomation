@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Monkeybars",
+    "texture": "6758e50c-b2da-4893-b6ae-8d6b23d9dced",
+    "atlas": "",
+    "rect": [
+      9,
+      68,
+      232,
+      113
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

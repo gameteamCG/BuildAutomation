@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "90sKUzA1lDE5AuIjuaKVaj"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "see-saw",
+      "rect": [
+        11,
+        184,
+        427,
+        82
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        450,
+        450
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

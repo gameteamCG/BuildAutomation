@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Tubeslide",
+    "texture": "93fac0ce-014b-47cc-b1bf-01a6cde42624",
+    "atlas": "",
+    "rect": [
+      0,
+      56,
+      250,
+      137
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
