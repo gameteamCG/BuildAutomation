@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "giftbox1",
+    "texture": "e21974f5-c7ce-4fb4-87d1-aca63d695344",
+    "atlas": "",
+    "rect": [
+      64,
+      42,
+      369,
+      419
+    ],
+    "offset": [
+      -1.5,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "05tc4JnE5LyLlAp6+f7atH"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Drum",
+      "rect": [
+        15,
+        16,
+        466,
+        482
+      ],
+      "offset": [
+        -2,
+        -7
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "7dGmXC82JMhLBFausK2Cgi"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "magnifyglass",
+      "rect": [
+        35,
+        108,
+        432,
+        224
+      ],
+      "offset": [
+        0.5,
+        30.5
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "b1d9HZctpGibhOmIIWSnRn"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "carrot",
+      "rect": [
+        10,
+        52,
+        481,
+        395
+      ],
+      "offset": [
+        0.5,
+        0.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

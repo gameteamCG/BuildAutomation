@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "c4SaC0NMZDVZ6v269/sG2E"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "mango",
+      "rect": [
+        32,
+        37,
+        437,
+        428
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
