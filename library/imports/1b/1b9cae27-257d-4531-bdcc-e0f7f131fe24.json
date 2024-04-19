@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "school",
+    "texture": "426cff97-b2de-42de-9482-b5b5aadcfe89",
+    "atlas": "",
+    "rect": [
+      2,
+      58,
+      246,
+      133
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

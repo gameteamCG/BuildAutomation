@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "8aecHj2JVISbQtLWLrEqPm"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Bank_",
+      "rect": [
+        110,
+        175,
+        240,
+        109
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        460,
+        460
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "62+/+8xoBHyZfM1MHC2IwQ"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Supermarket_",
+      "rect": [
+        15,
+        176,
+        430,
+        107
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        460,
+        460
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

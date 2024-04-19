@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "my neighbourhood",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/301066_1713505806934.mp4",
+      "TitleImageName": "Myneighbourhood.pg.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "BBgmwhatsnext.mp3",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Supermarket_.png",
+        "QuestionAudioName": "identifytheimageofsupermarket.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "school.png",
+          "supermarket.png"
+        ],
+        "ReiterationAudioName": "supermarket.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Bank_.png",
+        "QuestionAudioName": "Tapontheimageofbank.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "bank.png",
+          "playground.png"
+        ],
+        "ReiterationAudioName": "bank.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Hospital_.png",
+        "QuestionAudioName": "Clickonthepictureofhospital.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "restaurant.png",
+          "Hospital.png"
+        ],
+        "ReiterationAudioName": "hospital.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Postoffice_.png",
+        "QuestionAudioName": "Identifythepictureofapostoffice.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Postoffice.png",
+          "policestation.png"
+        ],
+        "ReiterationAudioName": "post-office.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Bakery_.png",
+        "QuestionAudioName": "Taponthepictureofabakery.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "firestation.png",
+          "Bakery(1).png"
+        ],
+        "ReiterationAudioName": "bakery.mp3",
+        "CorrectAudioName": "AWESOME YOU SAVED IT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

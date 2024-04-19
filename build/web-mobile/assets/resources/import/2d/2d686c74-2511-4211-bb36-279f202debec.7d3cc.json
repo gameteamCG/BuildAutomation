@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "03M+eiAEJJdq/TVqLdr3Gm"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Hospital_",
+      "rect": [
+        31,
+        155,
+        398,
+        150
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        460,
+        460
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

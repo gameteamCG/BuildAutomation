@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Myneighbourhood",
+    "texture": "4139ea97-913e-441c-bc97-ed4fa9291f16",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1008,
+      340
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1008,
+      340
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

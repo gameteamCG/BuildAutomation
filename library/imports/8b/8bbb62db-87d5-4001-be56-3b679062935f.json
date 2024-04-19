@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Supermarket_",
+    "texture": "62fbffbc-c680-47c9-97cc-d4c1c2d88c10",
+    "atlas": "",
+    "rect": [
+      15,
+      176,
+      430,
+      107
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

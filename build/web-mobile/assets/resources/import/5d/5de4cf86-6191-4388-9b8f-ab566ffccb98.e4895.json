@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "54L024c4BEhL83bJ51Vpp5"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Postoffice_",
+      "rect": [
+        4,
+        161,
+        452,
+        137
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        460,
+        460
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

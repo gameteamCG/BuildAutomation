@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "42bP+Xst5C3pSCtbWq3P6J"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "school",
+      "rect": [
+        2,
+        58,
+        246,
+        133
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
