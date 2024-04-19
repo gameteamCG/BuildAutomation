@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "23Tx7YBZ5LXozfQ+fTNndK"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "giftbox",
+      "rect": [
+        65,
+        42,
+        368,
+        418
+      ],
+      "offset": [
+        -1,
+        -1
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

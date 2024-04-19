@@ -1,0 +1,93 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "letter 'm' objects",
+      "totalLevel": "3",
+      "TitleImageName": "Asset56.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BBgmwhatsnext.mp3",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BackBG(2).png",
+        "questionAudioName": "taponthepicturesthatbeginwithletterM.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "magnet.png",
+          "milk.png",
+          "carrot.png"
+        ],
+        "optionsBg": [
+          "magnet_1.png",
+          "milk1.png",
+          "carrot1.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "magnet.mp3",
+          "milk.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BackBG(2).png",
+        "questionAudioName": "taponthepicturesthatbeginwithletterM.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "magnifyglass.png",
+          "giftbox.png",
+          "monkey.png"
+        ],
+        "optionsBg": [
+          "magnifyglass1.png",
+          "giftbox1.png",
+          "monkey1.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "magnifyingglass.mp3",
+          "monkey.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BackBG(2).png",
+        "questionAudioName": "taponthepicturesthatbeginwithletterM.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "fox.png",
+          "mask.png",
+          "mouse.png"
+        ],
+        "optionsBg": [
+          "fox1.png",
+          "mask1.png",
+          "mouse1.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "mask.mp3",
+          "mouse.mp3"
+        ],
+        "correctAnswerNum": "23"
+      }
+    ]
+  }
+}
