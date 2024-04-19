@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mad",
+    "texture": "ddaeecea-5c17-4bbe-8a57-345de501db39",
+    "atlas": "",
+    "rect": [
+      148,
+      38,
+      204,
+      423
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

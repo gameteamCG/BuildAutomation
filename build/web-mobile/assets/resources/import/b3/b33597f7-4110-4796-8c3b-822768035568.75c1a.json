@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "e0/9fF3fRJrpkPt/4bHcJR"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "left_box",
+      "rect": [
+        0,
+        36,
+        496,
+        437
+      ],
+      "offset": [
+        -2.5,
+        -4
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

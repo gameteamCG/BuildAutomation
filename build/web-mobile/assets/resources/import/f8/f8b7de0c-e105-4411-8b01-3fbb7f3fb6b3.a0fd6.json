@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "ddruzqXBdLvopXNF3lAds5"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "mad",
+      "rect": [
+        148,
+        38,
+        204,
+        423
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
