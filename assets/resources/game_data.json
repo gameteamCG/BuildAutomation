@@ -1,0 +1,73 @@
+{
+  "AdditionalData": {
+    "GameID": "aw family words",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/67217248_aw_family_words_1713521222838.mp4",
+    "TitleImageName": "awfamilywords.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "supercub",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": true,
+      "QuestionText": "paw",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Identify_the_picture_of_paw.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "hand.png",
+        "feet.png",
+        "paw.png",
+        "eyes.png"
+      ],
+      "ReiterationAudioName": "paw.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": true,
+      "QuestionText": "straw",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Tap_on_the_image_of_a_straw.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "knife.png",
+        "fork.png",
+        "spoon.png",
+        "straw.png"
+      ],
+      "ReiterationAudioName": "straw.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "saw.png",
+      "QuestionAudioName": "what_is_this.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "saw",
+        "raw",
+        "law",
+        "xaw"
+      ],
+      "ReiterationAudioName": "saw.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
