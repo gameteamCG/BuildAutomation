@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "7e+wUEQyROf52B+RaAnMb2"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "saw",
+      "rect": [
+        44,
+        42,
+        501,
+        416
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        590,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

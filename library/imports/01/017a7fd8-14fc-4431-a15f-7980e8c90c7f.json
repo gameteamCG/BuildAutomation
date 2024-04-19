@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "paw",
+    "texture": "5dcd9601-617f-4b67-b6c8-bedd0d1685e3",
+    "atlas": "",
+    "rect": [
+      40,
+      26,
+      170,
+      198
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
