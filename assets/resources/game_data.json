@@ -1,0 +1,139 @@
+{
+  "additionalData": {
+    "GameID": " 'ad' family words",
+    "totalLevel": "6",
+    "TitleImageName": "adfamilywords.png",
+    "introBgName": "titlebg.png",
+    "bgmMusicName": "BGM3.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "supercub"
+  },
+  "questionData": [
+    {
+      "questionText": "match",
+      "questionAudioName": "matching_correct_ad_family_word_with_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left_box.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "bad"
+      ],
+      "reiterations": [
+        "BAD.mp3"
+      ],
+      "commonRightOptionImageName": "right_box.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "bad.png",
+        "sad.png"
+      ]
+    },
+    {
+      "questionText": "match",
+      "questionAudioName": "matching_correct_ad_family_word_with_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left_box.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "dad"
+      ],
+      "reiterations": [
+        "dad.mp3"
+      ],
+      "commonRightOptionImageName": "right_box.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "dad.png",
+        "mad.png"
+      ]
+    },
+    {
+      "questionText": "match",
+      "questionAudioName": "matching_correct_ad_family_word_with_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left_box.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "lad"
+      ],
+      "reiterations": [
+        "lad.mp3"
+      ],
+      "commonRightOptionImageName": "right_box.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "lad.png",
+        "mad.png"
+      ]
+    },
+    {
+      "questionText": "match",
+      "questionAudioName": "matching_correct_ad_family_word_with_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left_box.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "pad"
+      ],
+      "reiterations": [
+        "pad.mp3"
+      ],
+      "commonRightOptionImageName": "right_box.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "pad.png",
+        "bad.png"
+      ]
+    },
+    {
+      "questionText": "match",
+      "questionAudioName": "matching_correct_ad_family_word_with_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left_box.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "mad"
+      ],
+      "reiterations": [
+        "mad.mp3"
+      ],
+      "commonRightOptionImageName": "right_box.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "mad.png",
+        "bad.png"
+      ]
+    },
+    {
+      "questionText": "match",
+      "questionAudioName": "matching_correct_ad_family_word_with_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left_box.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "sad"
+      ],
+      "reiterations": [
+        "sad.mp3"
+      ],
+      "commonRightOptionImageName": "right_box.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "sad.png",
+        "lad.png"
+      ]
+    }
+  ]
+}
