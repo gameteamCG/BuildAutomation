@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "c06lJmHbFLOogYw1CdsEkR"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "star",
+      "rect": [
+        145,
+        56,
+        300,
+        372
+      ],
+      "offset": [
+        0,
+        8
+      ],
+      "originalSize": [
+        590,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

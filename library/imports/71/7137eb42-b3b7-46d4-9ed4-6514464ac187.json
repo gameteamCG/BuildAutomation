@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boytree",
+    "texture": "795e26dd-6263-484b-ad61-309ed4c0596b",
+    "atlas": "",
+    "rect": [
+      102,
+      62,
+      400,
+      380
+    ],
+    "offset": [
+      7,
+      -2
+    ],
+    "originalSize": [
+      590,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
