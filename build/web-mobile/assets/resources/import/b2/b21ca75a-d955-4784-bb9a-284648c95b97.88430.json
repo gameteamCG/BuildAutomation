@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "cdUrGaGfFFLqD8iLQhfPzX"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "arfamilywords",
+      "rect": [
+        27,
+        26,
+        503,
+        227
+      ],
+      "offset": [
+        -0.5,
+        2.5
+      ],
+      "originalSize": [
+        558,
+        284
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

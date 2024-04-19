@@ -1,0 +1,110 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": " 'ar' family words",
+      "totalLevel": "5",
+      "TitleImageName": "arfamilywords.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "PID_10BGM_1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "supercub",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "collect correct word",
+        "questionImageName": "bar1.png",
+        "questionAudioName": "collect_the_correct_word_for_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset6.png",
+          "Asset4.png"
+        ],
+        "correctAudios": [
+          "bar.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "collect correct word",
+        "questionImageName": "car1.png",
+        "questionAudioName": "collect_the_correct_word_for_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset2.png",
+          "Asset4.png"
+        ],
+        "correctAudios": [
+          "car1.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "collect correct word",
+        "questionImageName": "far1.png",
+        "questionAudioName": "collect_the_correct_word_for_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset3.png",
+          "Asset5.png"
+        ],
+        "correctAudios": [
+          "far.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "collect correct word",
+        "questionImageName": "jar1.png",
+        "questionAudioName": "collect_the_correct_word_for_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset6.png",
+          "Asset2.png"
+        ],
+        "correctAudios": [
+          "jar.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "collect correct word",
+        "questionImageName": "tar1.png",
+        "questionAudioName": "collect_the_correct_word_for_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset5.png",
+          "Asset2.png"
+        ],
+        "correctAudios": [
+          "tar.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

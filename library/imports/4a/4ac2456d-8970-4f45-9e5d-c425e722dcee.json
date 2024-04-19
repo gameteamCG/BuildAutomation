@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tar1",
+    "texture": "b2ab79f4-640a-45e5-b616-729819101f9c",
+    "atlas": "",
+    "rect": [
+      27,
+      138,
+      447,
+      224
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
