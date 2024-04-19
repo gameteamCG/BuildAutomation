@@ -1,0 +1,73 @@
+{
+  "AdditionalData": {
+    "GameID": "ib family words",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/81447490_ib_family_words_1713533295631.mp4",
+    "TitleImageName": "ibfamilywords.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "supercub",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": true,
+      "QuestionText": "bib",
+      "QuestionImageName": "",
+      "QuestionAudioName": "select_the_picture_of_bib.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "short.png",
+        "bib.png",
+        "pant.png",
+        "dress.png"
+      ],
+      "ReiterationAudioName": "19586549_2_bib.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "rib.png",
+      "QuestionAudioName": "what_is_this.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "rib",
+        "nib",
+        "lib",
+        "jib"
+      ],
+      "ReiterationAudioName": "19586549_3_rib.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": true,
+      "QuestionText": "crib",
+      "QuestionImageName": "",
+      "QuestionAudioName": "tap_on_the_image_of_crib.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "table.png",
+        "sofa.png",
+        "chair.png",
+        "crib.png"
+      ],
+      "ReiterationAudioName": "19586549_5_crib.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "4"
+    }
+  ]
+}
