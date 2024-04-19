@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "ab/TBlFGpOwoC/NZxZBW0P"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "The_horse_eats",
+      "rect": [
+        117,
+        41,
+        371,
+        409
+      ],
+      "offset": [
+        7.5,
+        4.5
+      ],
+      "originalSize": [
+        590,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

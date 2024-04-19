@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wesayhello",
+    "texture": "50ba2088-beee-490f-ba8d-fbe8ddc0c1a8",
+    "atlas": "",
+    "rect": [
+      111,
+      32,
+      384,
+      376
+    ],
+    "offset": [
+      8,
+      30
+    ],
+    "originalSize": [
+      590,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

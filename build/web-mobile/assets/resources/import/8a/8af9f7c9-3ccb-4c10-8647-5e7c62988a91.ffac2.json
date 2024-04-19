@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "e5jXtv+aFCWpGCM13MmtLF"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "iplaymydog",
+      "rect": [
+        90,
+        24,
+        422,
+        441
+      ],
+      "offset": [
+        6,
+        5.5
+      ],
+      "originalSize": [
+        590,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

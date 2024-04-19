@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "iplaymydog",
+    "texture": "e58d7b6f-f9a1-425a-9182-335dcc9ad2c5",
+    "atlas": "",
+    "rect": [
+      90,
+      24,
+      422,
+      441
+    ],
+    "offset": [
+      6,
+      5.5
+    ],
+    "originalSize": [
+      590,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

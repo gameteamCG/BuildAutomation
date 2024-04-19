@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "90Y6yK2IRNR6VhZ8CUjJ1E"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "moon",
+      "rect": [
+        25,
+        29,
+        199,
+        197
+      ],
+      "offset": [
+        -0.5,
+        -2.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

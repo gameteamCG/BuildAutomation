@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "The_horse_eats",
+    "texture": "abfd3065-146a-4ec2-80bf-359c59056d0f",
+    "atlas": "",
+    "rect": [
+      117,
+      41,
+      371,
+      409
+    ],
+    "offset": [
+      7.5,
+      4.5
+    ],
+    "originalSize": [
+      590,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
