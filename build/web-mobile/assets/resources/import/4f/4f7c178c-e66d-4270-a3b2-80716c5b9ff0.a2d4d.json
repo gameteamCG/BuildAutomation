@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f7HDDOcflOJYDMDS2iggNu"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "abfamilywords",
+      "rect": [
+        26,
+        26,
+        505,
+        221
+      ],
+      "offset": [
+        5,
+        2.5
+      ],
+      "originalSize": [
+        547,
+        278
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
