@@ -1,0 +1,127 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "Introduction to community helpers (plumber, painter, cobbler)",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/545767863_postman_pats_difficult_1713606471481.mp4",
+          "TitleImageName": "12.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "puzzle",
+          "TotalLevel": "4"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "99999999999",
+            "IsQuestionText": true,
+            "QuestionText": "painter",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identify_image_of_a_painter.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "painter.mp3",
+            "CorrectAudioName": "GREATWORK.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "Asset19.png",
+              "Asset20.png",
+              "Asset.png",
+              "Asset22.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "99999999999",
+            "IsQuestionText": true,
+            "QuestionText": "paint brush",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identify_image_of_a_paintbrush.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "paintbrush.mp3",
+            "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "3",
+            "Options": [
+              "Asset23.png",
+              "Asset4.png",
+              "Asset25.png",
+              "Asset26.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "99999999999",
+            "IsQuestionText": true,
+            "QuestionText": "What were Vinay and Veena painting?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "what_were_vinay_and_veena_painting.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "gate.mp3",
+            "CorrectAudioName": "INCREDIBLE.mp3",
+            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAnswer": "4",
+            "Options": [
+              "Asset28.png",
+              "Asset29.png",
+              "Asset30.png",
+              "Asset27.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "99999999999",
+            "IsQuestionText": true,
+            "QuestionText": "paint cans",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identify_the_image_of_paint_cans.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "paintcans.mp3",
+            "CorrectAudioName": "MAGNIFICENT.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "3",
+            "Options": [
+              "Asset31.png",
+              "Asset32.png",
+              "Asset33.png",
+              "Asset34.png"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]
