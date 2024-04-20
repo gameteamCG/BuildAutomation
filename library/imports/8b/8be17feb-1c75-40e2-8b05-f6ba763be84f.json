@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Introduction to community helpers (vet)",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/724389339_I_Want_to_Be_a_Veterinarian_1713607076495.mp4",
+      "TitleImageName": "12.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "veterinarian",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identify_the_image_of_a_veterinarian.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset65.png",
+          "Asset66.png",
+          "Asset67.png",
+          "Asset68.png"
+        ],
+        "ReiterationAudioName": "veterinarian.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "9999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "vet",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identify the patient of asmall_animal_vet.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset70.png",
+          "Asset71.png",
+          "Asset72.png",
+          "Asset73.png"
+        ],
+        "ReiterationAudioName": "a_dog.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "9999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "vet",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identify_the_patient_of_a_large_animal_vet.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset74.png",
+          "Asset75.png",
+          "Asset76.png",
+          "Asset77.png"
+        ],
+        "ReiterationAudioName": "horse.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
