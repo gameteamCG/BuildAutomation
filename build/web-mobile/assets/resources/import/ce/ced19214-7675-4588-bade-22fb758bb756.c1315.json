@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "9dogf/L0JBJ74VrXQ3JqKL"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "500x500_0010_grass",
+      "rect": [
+        26,
+        5,
+        384,
+        491
+      ],
+      "offset": [
+        -32,
+        -0.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

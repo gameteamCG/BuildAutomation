@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "celTW6VPtK8qC2ypeIXv3L"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "500x500_0006_table2",
+      "rect": [
+        7,
+        96,
+        488,
+        296
+      ],
+      "offset": [
+        1,
+        6
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
