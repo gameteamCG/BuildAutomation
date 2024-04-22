@@ -1,0 +1,119 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Introduction to water and its uses",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/77677854_Save_Water_Senior_KG_Rhymes_1713769007419.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "uses of water",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Tap_on_an_activity_for_which_we_need_water.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "washing_clothes.mp3",
+        "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "save water",
+        "QuestionImageName": "",
+        "QuestionAudioName": "tap_on_the_image_which_helps_us_to_save_water.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "close_tap_when_not_in_use.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "uses of water",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Tap_on_an_activity_for_which_we_need_water.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "bathing.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "uses of water",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Tap_on_an_activity_for_which_we_need_water.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "growing_plants.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "save water",
+        "QuestionImageName": "",
+        "QuestionAudioName": "tap_on_the_image_which_helps_us_to_save_water.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "3.png"
+        ],
+        "ReiterationAudioName": "watering_plants_with_a_can.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}
