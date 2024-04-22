@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "16j5dhONVM7pH4gBOD9L8m"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "turtle_0010__0002_turtle",
+      "rect": [
+        41,
+        160,
+        421,
+        199
+      ],
+      "offset": [
+        1.5,
+        -9.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

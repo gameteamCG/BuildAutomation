@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "6dJgxIE3BPj5eq86wEzyYk"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "tiger",
+      "rect": [
+        21,
+        95,
+        457,
+        391
+      ],
+      "offset": [
+        -0.5,
+        -40.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

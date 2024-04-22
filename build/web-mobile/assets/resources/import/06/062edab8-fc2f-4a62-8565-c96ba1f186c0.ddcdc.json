@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d99aeGS6FBOoTo9/cDnaeA"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "identifytheletter",
+      "rect": [
+        31,
+        148,
+        438,
+        192
+      ],
+      "offset": [
+        0,
+        6
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
