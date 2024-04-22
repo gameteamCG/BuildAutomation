@@ -1,0 +1,208 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Hh",
+      "totalLevel": "9",
+      "TitleImageName": "Hh.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "bgm_sc.mp3",
+      "mainBgName": "Bg_2_01.jpg",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Match_the_picture_that_begins_with_the_letter_sound_h.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "letterHh.png"
+        ],
+        "reiterations": [
+          "heart.mp3"
+        ],
+        "commonRightOptionImageName": "puz2_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "0012_500x500_0002_heart.png",
+          "500x500_0003_cabbage.png"
+        ]
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Match_the_picture_that_begins_with_the_letter_sound_h.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "letterHh.png"
+        ],
+        "reiterations": [
+          "house.mp3"
+        ],
+        "commonRightOptionImageName": "puz2_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "0002_500x500_0012_house.png",
+          "0005_500x500_0008_elbow.png"
+        ]
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Match_the_picture_that_begins_with_the_letter_sound_h.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "letterHh.png"
+        ],
+        "reiterations": [
+          "hand.mp3"
+        ],
+        "commonRightOptionImageName": "puz2_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "0010_500x500_0003_hand.png",
+          "0014_500x500_0000_corn.png"
+        ]
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Match_the_picture_that_begins_with_the_letter_sound_h.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "letterHh.png"
+        ],
+        "reiterations": [
+          "hammer.mp3"
+        ],
+        "commonRightOptionImageName": "puz2_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "0008_500x500_0004_hammer.png",
+          "0000_500x500_0001_envelope.png"
+        ]
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Match_the_picture_that_begins_with_the_letter_sound_h.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "letterHh.png"
+        ],
+        "reiterations": [
+          "hen.mp3"
+        ],
+        "commonRightOptionImageName": "puz2_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "0011_500x500_0002_hen.png",
+          "0007_500x500_0006_emerald.png"
+        ]
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Match_the_picture_that_begins_with_the_letter_sound_h.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "letterHh.png"
+        ],
+        "reiterations": [
+          "horse.mp3"
+        ],
+        "commonRightOptionImageName": "puz2_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "0014_500x500_0000_horse.png",
+          "0014_500x500_0000_corn.png"
+        ]
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Match_the_picture_that_begins_with_the_letter_sound_h.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "letterHh.png"
+        ],
+        "reiterations": [
+          "hut.mp3"
+        ],
+        "commonRightOptionImageName": "puz2_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "0002_500x500_0012_hut.png",
+          "sheep.png"
+        ]
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Match_the_picture_that_begins_with_the_letter_sound_h.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "letterHh.png"
+        ],
+        "reiterations": [
+          "helicopter.mp3"
+        ],
+        "commonRightOptionImageName": "puz2_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "0013_500x500_0001_helicopter.png",
+          "coconut.png"
+        ]
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Match_the_picture_that_begins_with_the_letter_sound_h.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "letterHh.png"
+        ],
+        "reiterations": [
+          "honey.mp3"
+        ],
+        "commonRightOptionImageName": "puz2_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "0001_500x500_0014_honey.png",
+          "0000_500x500_0001_egg.png"
+        ]
+      }
+    ]
+  }
+}

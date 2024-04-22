@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "b5mDdctCxF6aIODfdMlu/+"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "sheep",
+      "rect": [
+        100,
+        55,
+        385,
+        392
+      ],
+      "offset": [
+        42,
+        -0.5
+      ],
+      "originalSize": [
+        501,
+        501
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

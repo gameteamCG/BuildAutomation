@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "78H4CjLvhBkofoI7V25yzw"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "puz1_1",
+      "rect": [
+        0,
+        30,
+        500,
+        453
+      ],
+      "offset": [
+        0,
+        -6.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

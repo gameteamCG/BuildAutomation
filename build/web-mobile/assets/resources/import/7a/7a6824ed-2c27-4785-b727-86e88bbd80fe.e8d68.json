@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "5eEuEXEYRCyaMNuUqRtSM4"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "0010_500x500_0003_hand",
+      "rect": [
+        137,
+        73,
+        300,
+        376
+      ],
+      "offset": [
+        37,
+        -11
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

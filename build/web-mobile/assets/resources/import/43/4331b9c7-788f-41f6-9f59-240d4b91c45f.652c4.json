@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "c0U+w4flZPAqnhWcLejIdK"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "0007_500x500_0006_emerald",
+      "rect": [
+        123,
+        91,
+        323,
+        313
+      ],
+      "offset": [
+        34.5,
+        2.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

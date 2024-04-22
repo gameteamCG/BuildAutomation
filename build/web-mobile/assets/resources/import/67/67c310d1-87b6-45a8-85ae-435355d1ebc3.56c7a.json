@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f1Snzftf9LrrWa+/jjCkSU"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "0013_500x500_0001_helicopter",
+      "rect": [
+        93,
+        182,
+        378,
+        152
+      ],
+      "offset": [
+        32,
+        -8
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

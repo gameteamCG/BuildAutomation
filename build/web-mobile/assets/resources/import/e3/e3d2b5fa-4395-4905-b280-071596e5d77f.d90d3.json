@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "17noDLBxRJXbeZXYNGpWzz"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "0000_500x500_0001_envelope",
+      "rect": [
+        100,
+        117,
+        366,
+        264
+      ],
+      "offset": [
+        33,
+        1
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

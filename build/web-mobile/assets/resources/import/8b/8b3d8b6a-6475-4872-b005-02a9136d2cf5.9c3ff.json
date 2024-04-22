@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d3J1+nqQVK1bQ45edOuO0O"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "coconut",
+      "rect": [
+        93,
+        131,
+        378,
+        238
+      ],
+      "offset": [
+        32,
+        0
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

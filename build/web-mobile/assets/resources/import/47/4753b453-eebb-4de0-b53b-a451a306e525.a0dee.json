@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "dcA1kvBmBN1Z8eNbWe4bVp"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "0011_500x500_0002_hen",
+      "rect": [
+        98,
+        71,
+        372,
+        355
+      ],
+      "offset": [
+        34,
+        1.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
