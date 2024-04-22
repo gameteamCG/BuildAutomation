@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f0t6M6yx5H/7fbmYGfSF0z"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "jug",
+      "rect": [
+        41,
+        32,
+        182,
+        192
+      ],
+      "offset": [
+        7,
+        -3
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
