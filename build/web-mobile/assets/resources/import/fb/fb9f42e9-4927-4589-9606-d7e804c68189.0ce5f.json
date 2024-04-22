@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "03y1gHFIlIiaddMFtsR/Zw"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Myneighbourhood",
+      "rect": [
+        0,
+        0,
+        1008,
+        340
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1008,
+        340
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "03cb5807-1489-4889-a75d-305b6c47f670",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1008,
+  "height": 340,
+  "platformSettings": {},
+  "subMetas": {
+    "Myneighbourhood.pg": {
+      "ver": "1.0.6",
+      "uuid": "fb9f42e9-4927-4589-9606-d7e804c68189",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "03cb5807-1489-4889-a75d-305b6c47f670",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1008,
+      "height": 340,
+      "rawWidth": 1008,
+      "rawHeight": 340,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

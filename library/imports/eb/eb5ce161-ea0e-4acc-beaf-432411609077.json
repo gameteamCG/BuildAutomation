@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "restaurant",
+    "texture": "82be2861-ed01-47fd-9bc8-2693ca67fc08",
+    "atlas": "",
+    "rect": [
+      8,
+      47,
+      233,
+      155
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

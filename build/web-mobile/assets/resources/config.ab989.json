@@ -1,0 +1,452 @@
+{
+    "paths": {
+        "edjhex3JlN6bihawEYcxOI": [
+            "audios/BBgmwhatsnext",
+            "cc.AudioClip"
+        ],
+        "2bRV1XU5FCm6jSRi2/RWox": [
+            "audios/BRILLIANT",
+            "cc.AudioClip"
+        ],
+        "3c7wFur1ROdpwV5O1P+VYx": [
+            "audios/Clickonthepictureofhospital",
+            "cc.AudioClip"
+        ],
+        "9c1i/Nk4tMUrTb1XB25wWc": [
+            "audios/EXCEPTIONAL",
+            "cc.AudioClip"
+        ],
+        "2djlyyW/9LjJx5VbhaL/sB": [
+            "audios/FANTASTIC",
+            "cc.AudioClip"
+        ],
+        "dfRyQmiexJ154JFLPXV0VQ": [
+            "audios/GOODEFFORT",
+            "cc.AudioClip"
+        ],
+        "47GPPyWN5MZ5/83InOiq8F": [
+            "audios/Identifythepictureofapostoffice",
+            "cc.AudioClip"
+        ],
+        "adjSWoz35GVavtBHXUg6VM": [
+            "audios/Oopsietryoncemore",
+            "cc.AudioClip"
+        ],
+        "67Jt5gpr9K97JJB57YzqmG": [
+            "audios/Tapontheimageofbank",
+            "cc.AudioClip"
+        ],
+        "9aHDpRgXVCQIHMbooPt10A": [
+            "audios/Taponthepictureofabakery",
+            "cc.AudioClip"
+        ],
+        "48ab6SvghNA5pA2HHcoyoR": [
+            "audios/bakery",
+            "cc.AudioClip"
+        ],
+        "47bXLY0bBF/oFEqwXkoqh3": [
+            "audios/bank",
+            "cc.AudioClip"
+        ],
+        "33rd/uKDlIEZHvO3iiiLID": [
+            "audios/hospital",
+            "cc.AudioClip"
+        ],
+        "63bU6RDH9FiJeJcnT+jusC": [
+            "audios/identifytheimageofsupermarket",
+            "cc.AudioClip"
+        ],
+        "d5qASG+GBETKhvWnO4EMKf": [
+            "audios/nevermind,tryagain",
+            "cc.AudioClip"
+        ],
+        "7cV2xsQ4RGD42aoAWC29xA": [
+            "audios/ohoh",
+            "cc.AudioClip"
+        ],
+        "989HN4bm5LYZH1oXqU3FZy": [
+            "audios/post-office",
+            "cc.AudioClip"
+        ],
+        "f6/hZ1vqRInJJHMnPcODKz": [
+            "audios/supermarket",
+            "cc.AudioClip"
+        ],
+        "624YcDGg5IvIefAB+Etwau": [
+            "game_data",
+            "cc.JsonAsset"
+        ],
+        "40NTRF6gBOabC01kVMM0G9": [
+            "images/Bakery(1)",
+            "cc.SpriteFrame",
+            1
+        ],
+        "45/oT/DyhMi5Y/0gEEJCSZ": [
+            "images/Bakery(1)",
+            "cc.Texture2D"
+        ],
+        "4cV3N2VPFI3abOhvjq86WX": [
+            "images/Bakery_",
+            "cc.Texture2D"
+        ],
+        "deMOdCUNdCCb1opwY4/3Uu": [
+            "images/Bakery_",
+            "cc.SpriteFrame",
+            1
+        ],
+        "08L51Ct2lPlpLNjiQGpYGd": [
+            "images/Bank_",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0cWp3drhJHEKi9miMzA33V": [
+            "images/Bank_",
+            "cc.Texture2D"
+        ],
+        "4dPyJrQFJLfpj2yyIk29Xi": [
+            "images/Hospital",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d9ZCkE0kJI8byIS+rnkrZF": [
+            "images/Hospital",
+            "cc.Texture2D"
+        ],
+        "6ejM12WXBJbZBkfa5cJatk": [
+            "images/Hospital_",
+            "cc.SpriteFrame",
+            1
+        ],
+        "c7JoRw451PW5HxKoEapylw": [
+            "images/Hospital_",
+            "cc.Texture2D"
+        ],
+        "03y1gHFIlIiaddMFtsR/Zw": [
+            "images/Myneighbourhood.pg",
+            "cc.Texture2D"
+        ],
+        "fbn0LpSSdFiZYG1+gExoGJ": [
+            "images/Myneighbourhood.pg",
+            "cc.SpriteFrame",
+            1
+        ],
+        "1fM8Qwu5pNNpGL3YfNUpDy": [
+            "images/Postoffice",
+            "cc.SpriteFrame",
+            1
+        ],
+        "52IHm8RaNExKppjsP1f7wO": [
+            "images/Postoffice",
+            "cc.Texture2D"
+        ],
+        "56KRlteP1F85RMguGzL1XD": [
+            "images/Postoffice_",
+            "cc.SpriteFrame",
+            1
+        ],
+        "5fh2jvo61LsIuP9ANFjSIc": [
+            "images/Postoffice_",
+            "cc.Texture2D"
+        ],
+        "15Y9BHPWhL3pnkQiLwLLUp": [
+            "images/Supermarket_",
+            "cc.Texture2D"
+        ],
+        "93OQfcea5KYrrV70pXag9o": [
+            "images/Supermarket_",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0fZfmv5sxBl6BOi7a5J8wm": [
+            "images/bank",
+            "cc.Texture2D"
+        ],
+        "a0uUjJ/EZMragmeROHfPym": [
+            "images/bank",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3ebnKaPKJP9LGnsuiC2olK": [
+            "images/firestation",
+            "cc.SpriteFrame",
+            1
+        ],
+        "889xe/8aFBE5pLTZslX+kV": [
+            "images/firestation",
+            "cc.Texture2D"
+        ],
+        "8fr8yVMP5L5bkS7BHxa5gX": [
+            "images/playground",
+            "cc.Texture2D"
+        ],
+        "af7O4VH3RBipNgOaxAx1Cu": [
+            "images/playground",
+            "cc.SpriteFrame",
+            1
+        ],
+        "58y35UnmhCI7BnTyS+IbHq": [
+            "images/policestation",
+            "cc.Texture2D"
+        ],
+        "c2qkMgaClOKr1t1dI0nlL/": [
+            "images/policestation",
+            "cc.SpriteFrame",
+            1
+        ],
+        "82vihh7QFH/ZvIJpPKZ/wI": [
+            "images/restaurant",
+            "cc.Texture2D"
+        ],
+        "ebXOFh6g5KzL6vQyQRYJB3": [
+            "images/restaurant",
+            "cc.SpriteFrame",
+            1
+        ],
+        "aasamb4XVMibvgoXDmvxgv": [
+            "images/school",
+            "cc.Texture2D"
+        ],
+        "eckBlJygFAtpxOZOUlDh+9": [
+            "images/school",
+            "cc.SpriteFrame",
+            1
+        ],
+        "30wtUDkQ9Ga5D2z8Q5C71G": [
+            "images/supermarket",
+            "cc.Texture2D"
+        ],
+        "68h7ZuuwRMoIXTgUa0Q3GQ": [
+            "images/supermarket",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "03y1gHFIlIiaddMFtsR/Zw",
+        "08L51Ct2lPlpLNjiQGpYGd",
+        "0cWp3drhJHEKi9miMzA33V",
+        "0fZfmv5sxBl6BOi7a5J8wm",
+        "15Y9BHPWhL3pnkQiLwLLUp",
+        "1fM8Qwu5pNNpGL3YfNUpDy",
+        "2bRV1XU5FCm6jSRi2/RWox",
+        "2djlyyW/9LjJx5VbhaL/sB",
+        "30wtUDkQ9Ga5D2z8Q5C71G",
+        "33rd/uKDlIEZHvO3iiiLID",
+        "3c7wFur1ROdpwV5O1P+VYx",
+        "3ebnKaPKJP9LGnsuiC2olK",
+        "40NTRF6gBOabC01kVMM0G9",
+        "45/oT/DyhMi5Y/0gEEJCSZ",
+        "47GPPyWN5MZ5/83InOiq8F",
+        "47bXLY0bBF/oFEqwXkoqh3",
+        "48ab6SvghNA5pA2HHcoyoR",
+        "4cV3N2VPFI3abOhvjq86WX",
+        "4dPyJrQFJLfpj2yyIk29Xi",
+        "52IHm8RaNExKppjsP1f7wO",
+        "56KRlteP1F85RMguGzL1XD",
+        "58y35UnmhCI7BnTyS+IbHq",
+        "5fh2jvo61LsIuP9ANFjSIc",
+        "624YcDGg5IvIefAB+Etwau",
+        "63bU6RDH9FiJeJcnT+jusC",
+        "67Jt5gpr9K97JJB57YzqmG",
+        "68h7ZuuwRMoIXTgUa0Q3GQ",
+        "6ejM12WXBJbZBkfa5cJatk",
+        "7cV2xsQ4RGD42aoAWC29xA",
+        "82vihh7QFH/ZvIJpPKZ/wI",
+        "889xe/8aFBE5pLTZslX+kV",
+        "8fr8yVMP5L5bkS7BHxa5gX",
+        "93OQfcea5KYrrV70pXag9o",
+        "989HN4bm5LYZH1oXqU3FZy",
+        "9aHDpRgXVCQIHMbooPt10A",
+        "9c1i/Nk4tMUrTb1XB25wWc",
+        "a0uUjJ/EZMragmeROHfPym",
+        "aasamb4XVMibvgoXDmvxgv",
+        "adjSWoz35GVavtBHXUg6VM",
+        "af7O4VH3RBipNgOaxAx1Cu",
+        "c2qkMgaClOKr1t1dI0nlL/",
+        "c7JoRw451PW5HxKoEapylw",
+        "d5qASG+GBETKhvWnO4EMKf",
+        "d9ZCkE0kJI8byIS+rnkrZF",
+        "deMOdCUNdCCb1opwY4/3Uu",
+        "dfRyQmiexJ154JFLPXV0VQ",
+        "ebXOFh6g5KzL6vQyQRYJB3",
+        "eckBlJygFAtpxOZOUlDh+9",
+        "edjhex3JlN6bihawEYcxOI",
+        "f6/hZ1vqRInJJHMnPcODKz",
+        "fbn0LpSSdFiZYG1+gExoGJ"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {
+        "07e557dff": [
+            "03y1gHFIlIiaddMFtsR/Zw",
+            "0cWp3drhJHEKi9miMzA33V",
+            "0fZfmv5sxBl6BOi7a5J8wm",
+            "15Y9BHPWhL3pnkQiLwLLUp",
+            "30wtUDkQ9Ga5D2z8Q5C71G",
+            "45/oT/DyhMi5Y/0gEEJCSZ",
+            "4cV3N2VPFI3abOhvjq86WX",
+            "52IHm8RaNExKppjsP1f7wO",
+            "58y35UnmhCI7BnTyS+IbHq",
+            "5fh2jvo61LsIuP9ANFjSIc",
+            "82vihh7QFH/ZvIJpPKZ/wI",
+            "889xe/8aFBE5pLTZslX+kV",
+            "8fr8yVMP5L5bkS7BHxa5gX",
+            "aasamb4XVMibvgoXDmvxgv",
+            "c7JoRw451PW5HxKoEapylw",
+            "d9ZCkE0kJI8byIS+rnkrZF"
+        ]
+    },
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "07e557dff",
+            "27601",
+            "08L51Ct2lPlpLNjiQGpYGd",
+            "8ff04",
+            "1fM8Qwu5pNNpGL3YfNUpDy",
+            "9fe47",
+            "2bRV1XU5FCm6jSRi2/RWox",
+            "62047",
+            "2djlyyW/9LjJx5VbhaL/sB",
+            "83bf4",
+            "33rd/uKDlIEZHvO3iiiLID",
+            "ea7e5",
+            "3c7wFur1ROdpwV5O1P+VYx",
+            "932bf",
+            "3ebnKaPKJP9LGnsuiC2olK",
+            "f677e",
+            "40NTRF6gBOabC01kVMM0G9",
+            "b009f",
+            "47GPPyWN5MZ5/83InOiq8F",
+            "0d2da",
+            "47bXLY0bBF/oFEqwXkoqh3",
+            "75c8e",
+            "48ab6SvghNA5pA2HHcoyoR",
+            "fb00e",
+            "4dPyJrQFJLfpj2yyIk29Xi",
+            "b938c",
+            "56KRlteP1F85RMguGzL1XD",
+            "28186",
+            "624YcDGg5IvIefAB+Etwau",
+            "7d65f",
+            "63bU6RDH9FiJeJcnT+jusC",
+            "152dc",
+            "67Jt5gpr9K97JJB57YzqmG",
+            "c29c7",
+            "68h7ZuuwRMoIXTgUa0Q3GQ",
+            "d0e66",
+            "6ejM12WXBJbZBkfa5cJatk",
+            "cdfa7",
+            "7cV2xsQ4RGD42aoAWC29xA",
+            "77c38",
+            "93OQfcea5KYrrV70pXag9o",
+            "135ff",
+            "989HN4bm5LYZH1oXqU3FZy",
+            "6440e",
+            "9aHDpRgXVCQIHMbooPt10A",
+            "9ad59",
+            "9c1i/Nk4tMUrTb1XB25wWc",
+            "83e15",
+            "a0uUjJ/EZMragmeROHfPym",
+            "df082",
+            "adjSWoz35GVavtBHXUg6VM",
+            "7c807",
+            "af7O4VH3RBipNgOaxAx1Cu",
+            "4e327",
+            "c2qkMgaClOKr1t1dI0nlL/",
+            "c4380",
+            "d5qASG+GBETKhvWnO4EMKf",
+            "81dd3",
+            "deMOdCUNdCCb1opwY4/3Uu",
+            "57462",
+            "dfRyQmiexJ154JFLPXV0VQ",
+            "49f56",
+            "ebXOFh6g5KzL6vQyQRYJB3",
+            "354ec",
+            "eckBlJygFAtpxOZOUlDh+9",
+            "2e889",
+            "edjhex3JlN6bihawEYcxOI",
+            "2e4bf",
+            "f6/hZ1vqRInJJHMnPcODKz",
+            "e5735",
+            "fbn0LpSSdFiZYG1+gExoGJ",
+            "0ce5f"
+        ],
+        "native": [
+            "03y1gHFIlIiaddMFtsR/Zw",
+            "f9afd",
+            "0cWp3drhJHEKi9miMzA33V",
+            "e35b2",
+            "0fZfmv5sxBl6BOi7a5J8wm",
+            "1f835",
+            "15Y9BHPWhL3pnkQiLwLLUp",
+            "a099d",
+            "2bRV1XU5FCm6jSRi2/RWox",
+            "c4980",
+            "2djlyyW/9LjJx5VbhaL/sB",
+            "970b5",
+            "30wtUDkQ9Ga5D2z8Q5C71G",
+            "5183a",
+            "33rd/uKDlIEZHvO3iiiLID",
+            "b8936",
+            "3c7wFur1ROdpwV5O1P+VYx",
+            "b9981",
+            "45/oT/DyhMi5Y/0gEEJCSZ",
+            "62aa9",
+            "47GPPyWN5MZ5/83InOiq8F",
+            "86d79",
+            "47bXLY0bBF/oFEqwXkoqh3",
+            "7cb50",
+            "48ab6SvghNA5pA2HHcoyoR",
+            "8f43a",
+            "4cV3N2VPFI3abOhvjq86WX",
+            "a349f",
+            "52IHm8RaNExKppjsP1f7wO",
+            "22ff4",
+            "58y35UnmhCI7BnTyS+IbHq",
+            "34d6c",
+            "5fh2jvo61LsIuP9ANFjSIc",
+            "5c000",
+            "63bU6RDH9FiJeJcnT+jusC",
+            "40806",
+            "67Jt5gpr9K97JJB57YzqmG",
+            "07af7",
+            "7cV2xsQ4RGD42aoAWC29xA",
+            "bee5e",
+            "82vihh7QFH/ZvIJpPKZ/wI",
+            "73bc0",
+            "889xe/8aFBE5pLTZslX+kV",
+            "e1cd7",
+            "8fr8yVMP5L5bkS7BHxa5gX",
+            "ed323",
+            "989HN4bm5LYZH1oXqU3FZy",
+            "1f2bd",
+            "9aHDpRgXVCQIHMbooPt10A",
+            "6caea",
+            "9c1i/Nk4tMUrTb1XB25wWc",
+            "4e73b",
+            "aasamb4XVMibvgoXDmvxgv",
+            "0f610",
+            "adjSWoz35GVavtBHXUg6VM",
+            "cf9c2",
+            "c7JoRw451PW5HxKoEapylw",
+            "8e3bd",
+            "d5qASG+GBETKhvWnO4EMKf",
+            "e2338",
+            "d9ZCkE0kJI8byIS+rnkrZF",
+            "6199a",
+            "dfRyQmiexJ154JFLPXV0VQ",
+            "b5710",
+            "edjhex3JlN6bihawEYcxOI",
+            "3370f",
+            "f6/hZ1vqRInJJHMnPcODKz",
+            "667ed"
+        ]
+    }
+}
