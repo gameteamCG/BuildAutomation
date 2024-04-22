@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "b3nUUMNvRMYJkoibfFlwJQ"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Communityhelper",
+      "rect": [
+        0,
+        0,
+        829,
+        329
+      ],
+      "offset": [
+        -8,
+        0
+      ],
+      "originalSize": [
+        845,
+        329
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

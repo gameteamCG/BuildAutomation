@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "4bFKSYV+tJSai3d5akTSIH"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "cobblershop_",
+      "rect": [
+        38,
+        68,
+        383,
+        324
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        460,
+        460
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

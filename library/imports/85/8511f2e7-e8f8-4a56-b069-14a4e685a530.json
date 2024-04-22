@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cobblershop_",
+    "texture": "4b14a498-57eb-4949-a8b7-7796a44d2207",
+    "atlas": "",
+    "rect": [
+      38,
+      68,
+      383,
+      324
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

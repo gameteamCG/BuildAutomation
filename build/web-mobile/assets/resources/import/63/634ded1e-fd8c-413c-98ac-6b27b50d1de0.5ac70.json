@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "0cdcKFjbpLBbL0MG8jqBOe"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Whomendsourshoes__",
+      "rect": [
+        7,
+        132,
+        446,
+        195
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        460,
+        460
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
