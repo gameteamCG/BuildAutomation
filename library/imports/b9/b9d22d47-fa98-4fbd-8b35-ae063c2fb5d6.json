@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "breakglass_",
+    "texture": "4320b1b3-1784-4fc9-a779-6a6c05946ad2",
+    "atlas": "",
+    "rect": [
+      110,
+      95,
+      239,
+      270
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

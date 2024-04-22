@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "cd4yXzpntB+ou/GTGg1imv"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "vehicle_",
+      "rect": [
+        66,
+        175,
+        327,
+        110
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        460,
+        460
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

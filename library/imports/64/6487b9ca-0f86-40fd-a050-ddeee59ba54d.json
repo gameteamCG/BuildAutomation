@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fireextinguisher1",
+    "texture": "d0e79081-f6ab-4638-bc65-8ffb4e197f48",
+    "atlas": "",
+    "rect": [
+      76,
+      24,
+      98,
+      201
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

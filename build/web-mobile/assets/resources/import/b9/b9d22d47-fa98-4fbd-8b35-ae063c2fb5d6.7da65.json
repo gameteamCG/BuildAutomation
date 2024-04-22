@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "43ILGzF4RPyad5amwFlGrS"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "breakglass_",
+      "rect": [
+        110,
+        95,
+        239,
+        270
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        460,
+        460
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

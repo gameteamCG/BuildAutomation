@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Whoputsoutthefire",
+    "texture": "466acac5-9162-4006-992f-67d8fc88278d",
+    "atlas": "",
+    "rect": [
+      19,
+      125,
+      421,
+      209
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

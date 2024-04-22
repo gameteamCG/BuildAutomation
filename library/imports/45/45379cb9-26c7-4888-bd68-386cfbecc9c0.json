@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Deliveryvan",
+    "texture": "f97bd14b-93f5-4aa4-bf78-d6ffba7b430e",
+    "atlas": "",
+    "rect": [
+      63,
+      8,
+      123,
+      233
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
