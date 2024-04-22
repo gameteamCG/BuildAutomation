@@ -1,0 +1,127 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": " ob family words",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/49419333_ob_family_words_1713762152330.mp4",
+          "TitleImageName": "obfamilywords.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "supercub",
+          "TotalLevel": "4"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "2000",
+            "IsQuestionText": true,
+            "QuestionText": "cob",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identify_the_image_of_cob.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "cob.mp3",
+            "CorrectAudioName": "GOODEFFORT.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "cob.png",
+              "brinjal.png",
+              "lady_finger.png",
+              "Peas.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "2000",
+            "IsQuestionText": true,
+            "QuestionText": "rob",
+            "QuestionImageName": "",
+            "QuestionAudioName": "tap_on_the_picture_of_rob.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "rob.mp3",
+            "CorrectAudioName": "GREATWORK.mp3",
+            "WrongAudioName": "nevermindtryagain.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "sing.png",
+              "rob.png",
+              "dance.png",
+              "read.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "2000",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "sob.png",
+            "QuestionAudioName": "what_is_this.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": true,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "sob.mp3",
+            "CorrectAudioName": "EXCEPTIONAL.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "4",
+            "Options": [
+              "job",
+              "mob",
+              "bob",
+              "sob"
+            ]
+          },
+          {
+            "QuestionAppearTime": "2000",
+            "IsQuestionText": false,
+            "QuestionText": "",
+            "QuestionImageName": "job.png",
+            "QuestionAudioName": "he_is_on_the_dash.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": true,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "job.mp3",
+            "CorrectAudioName": "FANTASTIC.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "3",
+            "Options": [
+              "cob",
+              "sob",
+              "job",
+              "bob"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

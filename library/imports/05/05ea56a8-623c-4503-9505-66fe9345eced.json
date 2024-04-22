@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "obfamilywords",
+    "texture": "02c73037-a1e1-4773-9a1b-4d93d9e548d2",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      492,
+      221
+    ],
+    "offset": [
+      5.5,
+      2.5
+    ],
+    "originalSize": [
+      533,
+      278
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

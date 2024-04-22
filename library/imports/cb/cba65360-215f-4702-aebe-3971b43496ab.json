@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "job",
+    "texture": "4c463013-f0e9-4935-93c4-665591ef324b",
+    "atlas": "",
+    "rect": [
+      60,
+      15,
+      476,
+      413
+    ],
+    "offset": [
+      3,
+      28.5
+    ],
+    "originalSize": [
+      590,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "52KPSyWJJAvrFLSfEKxNzu"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "dance",
+      "rect": [
+        41,
+        10,
+        167,
+        230
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
