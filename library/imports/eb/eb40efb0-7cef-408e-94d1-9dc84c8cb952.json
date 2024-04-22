@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Introduction to Non- living Things",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/346576285_Whats_Alive_1713768507710.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "non-living thing",
+        "QuestionImageName": "",
+        "QuestionAudioName": "tap_on_the_image_of_a_non_living_thing.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "books.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "non-living thing",
+        "QuestionImageName": "",
+        "QuestionAudioName": "tap_on_the_image_of_a_non_living_thing.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "boat.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "non-living thing",
+        "QuestionImageName": "",
+        "QuestionAudioName": "tap_on_the_image_of_a_non_living_thing.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "clothes.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "non-living thing",
+        "QuestionImageName": "",
+        "QuestionAudioName": "tap_on_the_image_of_a_non_living_thing.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "guitar.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "non-living thing",
+        "QuestionImageName": "",
+        "QuestionAudioName": "",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "building.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "non-living thing",
+        "QuestionImageName": "",
+        "QuestionAudioName": "",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "merry_go_round.mp3",
+        "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}
