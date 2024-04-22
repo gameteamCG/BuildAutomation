@@ -1,0 +1,103 @@
+{
+  "AdditionalData": {
+    "GameID": "community helper",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/93769Firefighter-Introduction_1713783289857.mp4",
+    "TitleImageName": "Communityhelper.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Whoputsoutthefire.png",
+      "QuestionAudioName": "Whoputsoutthefire.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "firefighter.png",
+        "doctor.png"
+      ],
+      "ReiterationAudioName": "firefighter.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "vehicle_.png",
+      "QuestionAudioName": "Taponthevehicleoffirefighter.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Deliveryvan.png",
+        "Firetruck.png"
+      ],
+      "ReiterationAudioName": "firetruck.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "tools_.png",
+      "QuestionAudioName": "Identifythetoolsofafirefighter.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Hoseandladder.png",
+        "needle.png"
+      ],
+      "ReiterationAudioName": "hoseandladder.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "breakglass_.png",
+      "QuestionAudioName": "Whatdofirefightersusetobreakglass.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "helm-clipart-md.png",
+        "axe.png"
+      ],
+      "ReiterationAudioName": "axe.mp3",
+      "CorrectAudioName": "GORGEOUSWORK.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "fireextinguisher_.png",
+      "QuestionAudioName": "Tapontheimageofafireextinguisher.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "fireextinguisher1.png",
+        "torch.png"
+      ],
+      "ReiterationAudioName": "fireextinguisher.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
