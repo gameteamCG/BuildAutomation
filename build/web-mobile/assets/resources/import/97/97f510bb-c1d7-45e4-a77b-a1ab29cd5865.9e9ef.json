@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "8a2IAxBsNH7I6spCmD3bfz"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "rib",
+      "rect": [
+        120,
+        29,
+        349,
+        442
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        590,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
