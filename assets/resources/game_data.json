@@ -1,0 +1,85 @@
+{
+  "AdditionalData": {
+    "GameID": "Community helper ",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Cobbler+Cobbler5698_1713786479026.mp4",
+    "TitleImageName": "Communityhelper.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Whomendsourshoes__.png",
+      "QuestionAudioName": "Whomendsourshoes.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "cobbler.png",
+        "painter.png"
+      ],
+      "ReiterationAudioName": "cobbler.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "shoes_.png",
+      "QuestionAudioName": "Identifytheimageofshoes.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "shirt.png",
+        "shoes.png"
+      ],
+      "ReiterationAudioName": "shoes.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "tools_.png",
+      "QuestionAudioName": "Identifythetoolsofacobbler.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "stethoscope.png",
+        "needleandthread.png"
+      ],
+      "ReiterationAudioName": "needleandthread.mp3",
+      "CorrectAudioName": "AWESOME YOU SAVED IT.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "cobblershop_.png",
+      "QuestionAudioName": "Tapontheimageofacobblershop.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "cobblershop.png",
+        "Bakery_.png"
+      ],
+      "ReiterationAudioName": "cobblershop.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
