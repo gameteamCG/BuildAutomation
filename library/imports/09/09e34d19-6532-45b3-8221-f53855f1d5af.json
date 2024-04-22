@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Doingpapercraft",
+    "texture": "226e5d28-d889-4c46-a48f-94d98abfac8e",
+    "atlas": "",
+    "rect": [
+      18,
+      18,
+      464,
+      464
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

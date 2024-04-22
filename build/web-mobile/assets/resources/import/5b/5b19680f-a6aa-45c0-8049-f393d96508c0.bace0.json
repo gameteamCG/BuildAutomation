@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "4eyfeigRpMMI+lRH7iG3Nl"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Layer2",
+      "rect": [
+        59,
+        91,
+        382,
+        317
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

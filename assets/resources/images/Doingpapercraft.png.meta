@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "226e5d28-d889-4c46-a48f-94d98abfac8e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Doingpapercraft": {
+      "ver": "1.0.6",
+      "uuid": "09e34d19-6532-45b3-8221-f53855f1d5af",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "226e5d28-d889-4c46-a48f-94d98abfac8e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 18,
+      "trimY": 18,
+      "width": 464,
+      "height": 464,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

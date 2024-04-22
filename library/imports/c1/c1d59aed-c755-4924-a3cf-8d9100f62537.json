@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Doingmaths",
+    "texture": "603d3ab1-9d27-4b42-9da3-a07257bf0c65",
+    "atlas": "",
+    "rect": [
+      20,
+      20,
+      460,
+      460
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

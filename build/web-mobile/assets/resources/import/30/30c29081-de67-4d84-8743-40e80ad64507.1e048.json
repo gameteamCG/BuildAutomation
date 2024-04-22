@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "c5w7V4OYJEZbk0Vr+pa91y"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Activitiesatschool",
+      "rect": [
+        0,
+        0,
+        938,
+        442
+      ],
+      "offset": [
+        0,
+        5
+      ],
+      "originalSize": [
+        938,
+        452
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Listeningtostories",
+    "texture": "e399b39a-d510-43c1-8736-ef26b965663c",
+    "atlas": "",
+    "rect": [
+      33,
+      106,
+      432,
+      288
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
