@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "e91oGSkQ9DM4yYQfdVhnGD"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "monkey2",
+      "rect": [
+        57,
+        32,
+        387,
+        438
+      ],
+      "offset": [
+        0.5,
+        -1
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
