@@ -1,0 +1,73 @@
+{
+  "AdditionalData": {
+    "GameID": "ud family words",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/94115352_ud_family_words_1713762315694.mp4",
+    "TitleImageName": "udfamilywords.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "supercub",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "bud.png",
+      "QuestionAudioName": "what_is_this.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "dud",
+        "bud",
+        "cud",
+        "thud"
+      ],
+      "ReiterationAudioName": "bud.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "pig.png",
+      "QuestionAudioName": "Pig_is_in_the_dash.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "mud",
+        "bud",
+        "dud",
+        "cud"
+      ],
+      "ReiterationAudioName": "mud.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "cow.png",
+      "QuestionAudioName": "The_cow_chews_the_dash.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "mud",
+        "bud",
+        "cud",
+        "stud"
+      ],
+      "ReiterationAudioName": "cud.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    }
+  ]
+}
