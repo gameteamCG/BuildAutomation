@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "220eNdDxdMAY9/Bv/6GACV"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "pig",
+      "rect": [
+        55,
+        0,
+        486,
+        443
+      ],
+      "offset": [
+        3,
+        28.5
+      ],
+      "originalSize": [
+        590,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

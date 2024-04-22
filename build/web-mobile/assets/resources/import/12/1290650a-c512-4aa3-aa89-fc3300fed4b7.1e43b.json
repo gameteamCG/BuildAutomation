@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "acanEad/lP/7GC4eSw/TcH"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "udfamilywords",
+      "rect": [
+        27,
+        26,
+        518,
+        221
+      ],
+      "offset": [
+        5.5,
+        2.5
+      ],
+      "originalSize": [
+        561,
+        278
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "61qytqlqtOkJQNQA3auzXX"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "cow",
+      "rect": [
+        120,
+        3,
+        374,
+        457
+      ],
+      "offset": [
+        12,
+        18.5
+      ],
+      "originalSize": [
+        590,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

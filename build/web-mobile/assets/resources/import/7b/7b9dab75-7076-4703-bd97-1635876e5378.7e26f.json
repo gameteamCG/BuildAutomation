@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "06oYViKfhEHY1oZYax9NZ8"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "bud",
+      "rect": [
+        186,
+        35,
+        218,
+        430
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        590,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
