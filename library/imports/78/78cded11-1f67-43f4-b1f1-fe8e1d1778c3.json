@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tree_greyscale",
+    "texture": "e42a16e7-be7a-4544-8490-4ab781aa5f78",
+    "atlas": "",
+    "rect": [
+      102,
+      0,
+      298,
+      501
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      502,
+      502
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

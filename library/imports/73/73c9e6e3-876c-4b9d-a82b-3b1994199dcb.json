@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "turtle_greyscale",
+    "texture": "a447bfcb-b1c3-4c99-97a9-6c546b67a991",
+    "atlas": "",
+    "rect": [
+      5,
+      30,
+      316,
+      229
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      326,
+      289
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
