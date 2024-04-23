@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "olives",
+    "texture": "51f239eb-635d-4e01-90c5-a4deaf0f074d",
+    "atlas": "",
+    "rect": [
+      30,
+      128,
+      440,
+      244
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
