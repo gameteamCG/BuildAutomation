@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "polis",
+    "texture": "ec280f8a-28ac-4142-9e46-9a0584e1426a",
+    "atlas": "",
+    "rect": [
+      129,
+      27,
+      193,
+      398
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      451,
+      451
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

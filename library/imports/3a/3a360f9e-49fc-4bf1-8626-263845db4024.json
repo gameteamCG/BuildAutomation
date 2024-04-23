@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dvxcvmnk",
+    "texture": "7e2a815d-e830-48e2-9946-ddd301ab2a0f",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      1207,
+      285
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      1207,
+      286
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

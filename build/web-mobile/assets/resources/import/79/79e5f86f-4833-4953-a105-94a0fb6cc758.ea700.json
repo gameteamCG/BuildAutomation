@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "ecKA+KKKxBQp5GmgWE4UJq"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "polis",
+      "rect": [
+        129,
+        27,
+        193,
+        398
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        451,
+        451
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
