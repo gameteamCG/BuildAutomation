@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f06b5d11-627a-4734-ac98-6f90e0db6a5f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 300,
+  "height": 300,
+  "platformSettings": {},
+  "subMetas": {
+    "mushroomJ": {
+      "ver": "1.0.6",
+      "uuid": "cb7888d4-4d7d-4f81-bb94-f876ea68c0ce",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f06b5d11-627a-4734-ac98-6f90e0db6a5f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 29,
+      "trimY": 21,
+      "width": 243,
+      "height": 258,
+      "rawWidth": 300,
+      "rawHeight": 300,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
