@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d0Git5ivZMG7yIWJ464szm"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "fork",
+      "rect": [
+        201,
+        27,
+        101,
+        448
+      ],
+      "offset": [
+        1.5,
+        -1
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

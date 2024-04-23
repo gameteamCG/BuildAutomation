@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "3cZ+2sb5ZL0ZjBVnLc4pmm"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Artboard84copy138",
+      "rect": [
+        6,
+        12,
+        493,
+        477
+      ],
+      "offset": [
+        2.5,
+        -0.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
