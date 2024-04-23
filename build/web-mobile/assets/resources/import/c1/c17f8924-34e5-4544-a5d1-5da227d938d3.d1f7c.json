@@ -1,0 +1,167 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "additionalData": {
+          "GameID": "E F G H : Nursery Practice Book 1",
+          "totalLevel": "8",
+          "TitleImageName": "Asset81.png",
+          "introBgName": "bg1.png",
+          "bgmMusicName": "B2.mp3",
+          "mainBgName": "bg2tomato.png",
+          "JockeyName": "Singham"
+        },
+        "questionData": [
+          {
+            "questionText": "Beginning letter sound\n",
+            "questionImageName": "Elephant.png",
+            "questionAudioName": "Identifyelephant.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Artboard4.png",
+            "isOptionText": true,
+            "numberOfOptions": 2,
+            "correctAudioName": "Sounofe.mp3",
+            "correctAnswerNum": "1",
+            "options": [
+              "e",
+              "f"
+            ]
+          },
+          {
+            "questionText": "Beginning letter sound\n",
+            "questionImageName": "Goat.png",
+            "questionAudioName": "Identifygoat.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Artboard4.png",
+            "isOptionText": true,
+            "numberOfOptions": 2,
+            "correctAudioName": "Soundofg.mp3",
+            "correctAnswerNum": "2",
+            "options": [
+              "h",
+              "g"
+            ]
+          },
+          {
+            "questionText": "Beginning letter sound\n",
+            "questionImageName": "horse.png",
+            "questionAudioName": "Identifyhorse.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Artboard4.png",
+            "isOptionText": true,
+            "numberOfOptions": 2,
+            "correctAudioName": "Soundofh.mp3",
+            "correctAnswerNum": "1",
+            "options": [
+              "h",
+              "i"
+            ]
+          },
+          {
+            "questionText": "Beginning letter sound\n",
+            "questionImageName": "Green.png",
+            "questionAudioName": "Identiffrog..mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Artboard4.png",
+            "isOptionText": true,
+            "numberOfOptions": 2,
+            "correctAudioName": "Soundoff.mp3",
+            "correctAnswerNum": "2",
+            "options": [
+              "o",
+              "f"
+            ]
+          },
+          {
+            "questionText": "Beginning letter sound\n",
+            "questionImageName": "Hippo.png",
+            "questionAudioName": "Identifyhippo.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Artboard4.png",
+            "isOptionText": true,
+            "numberOfOptions": 2,
+            "correctAudioName": "Soundofh.mp3",
+            "correctAnswerNum": "1",
+            "options": [
+              "h",
+              "g"
+            ]
+          },
+          {
+            "questionText": "Beginning letter sound\n",
+            "questionImageName": "Gorrilla.png",
+            "questionAudioName": "Identifygorilla.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Artboard4.png",
+            "isOptionText": true,
+            "numberOfOptions": 2,
+            "correctAudioName": "Soundofg.mp3",
+            "correctAnswerNum": "2",
+            "options": [
+              "a",
+              "g"
+            ]
+          },
+          {
+            "questionText": "Beginning letter sound\n",
+            "questionImageName": "Egg.png",
+            "questionAudioName": "Identifyeggs.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Artboard4.png",
+            "isOptionText": true,
+            "numberOfOptions": 2,
+            "correctAudioName": "Sounofe.mp3",
+            "correctAnswerNum": "1",
+            "options": [
+              "e",
+              "a"
+            ]
+          },
+          {
+            "questionText": "Beginning letter sound\n",
+            "questionImageName": "fox.png",
+            "questionAudioName": "Identifyfox.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Artboard4.png",
+            "isOptionText": true,
+            "numberOfOptions": 2,
+            "correctAudioName": "Soundoff.mp3",
+            "correctAnswerNum": "2",
+            "options": [
+              "u",
+              "f"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

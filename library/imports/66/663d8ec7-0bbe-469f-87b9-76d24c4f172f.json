@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Gorrilla",
+    "texture": "62be6291-47fe-4007-9ada-9aad000f23a7",
+    "atlas": "",
+    "rect": [
+      12,
+      24,
+      476,
+      465
+    ],
+    "offset": [
+      0,
+      -6.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

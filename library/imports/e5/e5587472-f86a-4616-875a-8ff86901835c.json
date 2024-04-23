@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Hippo",
+    "texture": "be347c7d-0b2e-4610-8629-e5d7e0e77ae9",
+    "atlas": "",
+    "rect": [
+      11,
+      121,
+      478,
+      258
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
