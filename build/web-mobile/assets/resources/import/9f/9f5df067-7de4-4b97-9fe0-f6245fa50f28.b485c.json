@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "33vkxhBblKwY3ICIMV/BsK"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Rocket",
+      "rect": [
+        47,
+        24,
+        386,
+        464
+      ],
+      "offset": [
+        -10,
+        -6
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
