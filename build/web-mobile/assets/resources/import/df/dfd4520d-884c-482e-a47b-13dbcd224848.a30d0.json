@@ -1,0 +1,147 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "game_data",
+      {
+        "AdditionalData": {
+          "GameID": "Recap of Living and Non-living things",
+          "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/alive_3456659569_1713863426994.mp4",
+          "TitleImageName": "dfgb.png",
+          "IntroAudio1Name": "",
+          "IntroAudio2Name": "",
+          "JockeyName": "puzzle",
+          "TotalLevel": "5"
+        },
+        "QuestionData": [
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "Living thing",
+            "QuestionImageName": "",
+            "QuestionAudioName": "taponimageoflivingthing.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "bird.mp3",
+            "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "Asset228.png",
+              "Asset28.png",
+              "Asset318.png",
+              "Asset218.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "What do living things need to grow?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "whatdolivingthingsneedtogrow.mp3",
+            "PlayQuestionAudio": false,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "water.mp3",
+            "CorrectAudioName": "FANTASTIC.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "2",
+            "Options": [
+              "Asset288.png",
+              "Asset198.png",
+              "Asset308.png",
+              "Asset298.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "What do living things need to grow?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "whatdolivingthingsneedtogrow.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "Food.mp3",
+            "CorrectAudioName": "GOODJOB.mp3",
+            "WrongAudioName": "nevermind.mp3",
+            "CorrectAnswer": "3",
+            "Options": [
+              "Asset208.png",
+              "DGGDF.png",
+              "Asset78.png",
+              "Asset188.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "what do plants need to grow?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "whatdoplantsneedtogrow.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "sunlight.mp3",
+            "CorrectAudioName": "FANTASTIC.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "4",
+            "Options": [
+              "Asset178.png",
+              "Asset148.png",
+              "Asset18.png",
+              "sun.png"
+            ]
+          },
+          {
+            "QuestionAppearTime": "9999",
+            "IsQuestionText": true,
+            "QuestionText": "Non-living thing",
+            "QuestionImageName": "",
+            "QuestionAudioName": "taponimageofnonlivingthing.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "ReiterationAudioName": "teddybear.mp3",
+            "CorrectAudioName": "BRILLIANT.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "1",
+            "Options": [
+              "Asset48.png",
+              "Asset268.png",
+              "Asset258.png",
+              "Asset238.png"
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

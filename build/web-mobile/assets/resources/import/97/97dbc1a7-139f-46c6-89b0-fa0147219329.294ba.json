@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "ffZNvMpD5CIKMIzpSVXJyn"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "DGGDF",
+      "rect": [
+        55,
+        17,
+        141,
+        218
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        251,
+        251
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
