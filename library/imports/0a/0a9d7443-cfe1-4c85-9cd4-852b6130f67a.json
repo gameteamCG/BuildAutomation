@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Introduction to my playground and the activities we do there",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Fun_3698521471_1713950399283.mp4",
+      "TitleImageName": "Assetjol.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Playground",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyimageofplayground.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "playground.png",
+          "hospital.png",
+          "school.png",
+          "shoppingmall.png"
+        ],
+        "ReiterationAudioName": "playground.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Slide",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyimageofslide.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "swing.png",
+          "slide.png",
+          "seesawvu.png",
+          "merrygoround.png"
+        ],
+        "ReiterationAudioName": "slide.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Swing",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyimageofswing.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "slide.png",
+          "merrygoround.png",
+          "swing.png",
+          "seesawvu.png"
+        ],
+        "ReiterationAudioName": "swing.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "seesaw.png",
+        "QuestionAudioName": "taponfirstletterof.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "f",
+          "h",
+          "s",
+          "m"
+        ],
+        "ReiterationAudioName": "s.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}

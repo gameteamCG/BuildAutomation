@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "seesawvu",
+    "texture": "8bfb3322-7d3f-473c-a8f3-7daf67f8a578",
+    "atlas": "",
+    "rect": [
+      4,
+      92,
+      243,
+      67
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
