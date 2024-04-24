@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whatisthisplan",
+    "texture": "65535c76-b89a-4e82-8255-ca8989c6fc6e",
+    "atlas": "",
+    "rect": [
+      56,
+      26,
+      394,
+      446
+    ],
+    "offset": [
+      3,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "1cn9frSR9MXa67Eq3OyfWO"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "plum",
+      "rect": [
+        67,
+        91,
+        366,
+        381
+      ],
+      "offset": [
+        0,
+        -31.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
