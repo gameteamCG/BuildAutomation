@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b00c3573-4809-4bce-974e-f0fc3d421c11",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1921,
+  "height": 1081,
+  "platformSettings": {},
+  "subMetas": {
+    "island outdoor bg": {
+      "ver": "1.0.6",
+      "uuid": "c8248e94-d699-4fb9-afc9-8de9c324ce5e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b00c3573-4809-4bce-974e-f0fc3d421c11",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1921,
+      "height": 1081,
+      "rawWidth": 1921,
+      "rawHeight": 1081,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
