@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "57i9pJnhJIcZI9q/tfEzbb"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "drummerisplayingthedrum",
+      "rect": [
+        3,
+        40,
+        493,
+        428
+      ],
+      "offset": [
+        -0.5,
+        -4
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
