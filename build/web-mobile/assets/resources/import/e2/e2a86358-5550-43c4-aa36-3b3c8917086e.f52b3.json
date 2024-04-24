@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "bfunIjmr9LA7mbgaw1s3E5"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "coconut_water1",
+      "rect": [
+        126,
+        91,
+        298,
+        301
+      ],
+      "offset": [
+        25,
+        8.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "86WoJYGotD/ZlUVIxIp2Xp"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "winteritems",
+      "rect": [
+        27,
+        26,
+        944,
+        221
+      ],
+      "offset": [
+        6,
+        2.5
+      ],
+      "originalSize": [
+        986,
+        278
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

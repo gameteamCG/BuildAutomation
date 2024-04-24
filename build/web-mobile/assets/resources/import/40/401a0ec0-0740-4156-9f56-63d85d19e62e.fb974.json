@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a3Dl3b9QlIppP1cRC9xkHN"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "glaves",
+      "rect": [
+        119,
+        139,
+        313,
+        222
+      ],
+      "offset": [
+        25.5,
+        0
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

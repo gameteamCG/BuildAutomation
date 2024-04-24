@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shoe",
+    "texture": "6875a4e1-b807-4e94-b628-31535a142f3b",
+    "atlas": "",
+    "rect": [
+      132,
+      151,
+      295,
+      182
+    ],
+    "offset": [
+      29.5,
+      8
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
