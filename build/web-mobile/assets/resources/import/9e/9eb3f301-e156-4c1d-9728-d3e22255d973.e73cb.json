@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "0e5MdD3+FLWJGJ6BEzqoai"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "500x500_0006_curtain2",
+      "rect": [
+        23,
+        22,
+        455,
+        422
+      ],
+      "offset": [
+        0.5,
+        17
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
