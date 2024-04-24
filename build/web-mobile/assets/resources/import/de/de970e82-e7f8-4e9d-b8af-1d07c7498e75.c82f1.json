@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a07z9ytfBDT44/qo4qFswX"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "ub_family_words",
+      "rect": [
+        27,
+        26,
+        535,
+        221
+      ],
+      "offset": [
+        6,
+        2.5
+      ],
+      "originalSize": [
+        577,
+        278
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

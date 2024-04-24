@@ -1,7 +1,7 @@
 {
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1713942689495,
-    "meta": 1713942745131,
+    "asset": 1713945599086,
+    "meta": 1713945599463,
     "relativePath": "resources"
   },
   "48531029-3cfd-4d23-abb9-057b4b7762b9": {
@@ -4328,5 +4328,140 @@
     "asset": 1713940000585,
     "meta": 1713942746196,
     "relativePath": "Framework/Prefabs/Progressbar/ProgressBar"
+  },
+  "c934ad30-7f65-4e13-9431-08bf50253a8d": {
+    "asset": 1713945599137,
+    "meta": 1713945599463,
+    "relativePath": "resources/audios"
+  },
+  "028cb5c0-7087-4d2d-8db2-7120d3213e64": {
+    "asset": 1713945599138,
+    "meta": 1713945599464,
+    "relativePath": "resources/images"
+  },
+  "3f4bc2fa-5cee-4e1c-851d-27d6dc77b794": {
+    "asset": 1713945591928,
+    "meta": 1713945599548,
+    "relativePath": "resources/game_data.json"
+  },
+  "8d337d9b-9b08-4909-bfd4-04caf29cc53a": {
+    "asset": 1713945591927,
+    "meta": 1713945599970,
+    "relativePath": "resources/audios/click_on_the_correct_picture_for_the_word.mp3"
+  },
+  "ce613b1f-2f0a-41d5-b5f7-917885011b27": {
+    "asset": 1713945591926,
+    "meta": 1713945599971,
+    "relativePath": "resources/audios/GOODJOB.mp3"
+  },
+  "d337c25f-aede-47f5-8e5c-736f45877580": {
+    "asset": 1713945591927,
+    "meta": 1713945599971,
+    "relativePath": "resources/audios/club.mp3"
+  },
+  "ff99c58f-3108-4b2f-a8ac-ef43bc02a65c": {
+    "asset": 1713945591927,
+    "meta": 1713945599971,
+    "relativePath": "resources/audios/cub.mp3"
+  },
+  "664a874a-48bb-4774-8e3e-556c7acdae83": {
+    "asset": 1713943049320,
+    "meta": 1713945599972,
+    "relativePath": "resources/audios/EXCELLENTJOB.mp3"
+  },
+  "8f5237ac-c3f1-46ec-ab70-1ab345df9626": {
+    "asset": 1713943049328,
+    "meta": 1713945599972,
+    "relativePath": "resources/audios/Oopsietryoncemore.mp3"
+  },
+  "71c714dc-516a-41bf-be9c-5f8f69679d9c": {
+    "asset": 1713945361117,
+    "meta": 1713945599972,
+    "relativePath": "resources/audios/GREATWORK.mp3"
+  },
+  "c12ff7ba-c17f-45c0-94e7-ce41133900d0": {
+    "asset": 1713945361114,
+    "meta": 1713945599973,
+    "relativePath": "resources/audios/FANTASTIC.mp3"
+  },
+  "9cf66ca0-29f8-48e0-a307-76a1af9b8ca3": {
+    "asset": 1713943049329,
+    "meta": 1713945599977,
+    "relativePath": "resources/audios/nevermindtryagain.mp3"
+  },
+  "70854aa6-3500-4095-898c-e653a2694067": {
+    "asset": 1713943049329,
+    "meta": 1713945599978,
+    "relativePath": "resources/audios/ohoh.mp3"
+  },
+  "3eea211e-f8b9-4de0-b4af-4f23122dea5b": {
+    "asset": 1713945591927,
+    "meta": 1713945599981,
+    "relativePath": "resources/audios/sub.mp3"
+  },
+  "14c94f28-6a58-4062-abbf-54776829a2de": {
+    "asset": 1713945591928,
+    "meta": 1713945599982,
+    "relativePath": "resources/audios/tub.mp3"
+  },
+  "f5d3c1a4-bd5f-44ed-87c2-cb956a3bad51": {
+    "asset": 1713945591928,
+    "meta": 1713945599983,
+    "relativePath": "resources/audios/what_do_we_call_a_baby_bear.mp3"
+  },
+  "2815e3a9-930b-4250-9817-4007bd116396": {
+    "asset": 1713945361121,
+    "meta": 1713945599983,
+    "relativePath": "resources/audios/what_is_this.mp3"
+  },
+  "0d44af17-7000-42c2-802d-fba2897d5b1f": {
+    "asset": 1713945591928,
+    "meta": 1713945600000,
+    "relativePath": "resources/images/Q01.png"
+  },
+  "c88d5eef-d9c9-4ae8-aa1c-ca63161e27a1": {
+    "asset": 1713945591928,
+    "meta": 1713945600003,
+    "relativePath": "resources/images/Q02.png"
+  },
+  "af4a976c-46af-4ecd-a077-62ca0d762b9a": {
+    "asset": 1713945591930,
+    "meta": 1713945600005,
+    "relativePath": "resources/images/Q04.png"
+  },
+  "c028a691-957e-4a29-8863-d916dfd9bd2a": {
+    "asset": 1713945591930,
+    "meta": 1713945600006,
+    "relativePath": "resources/images/bucket.png"
+  },
+  "e7876727-867c-473b-b012-a91d39c9f6d1": {
+    "asset": 1713943049332,
+    "meta": 1713945600010,
+    "relativePath": "resources/images/undefined"
+  },
+  "f516a4d4-90da-484d-acba-eaf2753122af": {
+    "asset": 1713945591930,
+    "meta": 1713945600006,
+    "relativePath": "resources/images/bathtub.png"
+  },
+  "e07b3a6c-0b06-448b-b3a0-2dd9feea0972": {
+    "asset": 1713945591929,
+    "meta": 1713945600009,
+    "relativePath": "resources/images/Q03.png"
+  },
+  "7648bc3b-e312-4ed7-ab2b-97d7997ef7d3": {
+    "asset": 1713945591931,
+    "meta": 1713945600010,
+    "relativePath": "resources/images/soap.png"
+  },
+  "2fe6af7b-2ef9-4d66-8a51-0cebaafbcaf4": {
+    "asset": 1713945591931,
+    "meta": 1713945600011,
+    "relativePath": "resources/images/tap.png"
+  },
+  "a0ef3f72-b5f0-434f-8e3f-aa8e2a16cc17": {
+    "asset": 1713945591931,
+    "meta": 1713945600013,
+    "relativePath": "resources/images/ub_family_words.png"
   }
 }
