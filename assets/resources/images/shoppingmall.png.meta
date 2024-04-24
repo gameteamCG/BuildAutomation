@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "070a3c04-9b45-4c63-b044-e5e645eee703",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "shoppingmall": {
+      "ver": "1.0.6",
+      "uuid": "06c9d9d3-a977-4e4b-93cc-5abc205cb3fc",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "070a3c04-9b45-4c63-b044-e5e645eee703",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 5,
+      "trimX": 7,
+      "trimY": 77,
+      "width": 236,
+      "height": 86,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

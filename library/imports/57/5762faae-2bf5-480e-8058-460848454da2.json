@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "movietheatre",
+    "texture": "b475f004-a09c-4f3e-9bcc-ecd342809362",
+    "atlas": "",
+    "rect": [
+      5,
+      58,
+      240,
+      134
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

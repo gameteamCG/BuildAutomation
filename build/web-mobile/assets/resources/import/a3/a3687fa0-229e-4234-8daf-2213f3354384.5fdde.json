@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "33RrkUiEJKnpkulVrNmlGv"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "dss",
+      "rect": [
+        13,
+        14,
+        726,
+        313
+      ],
+      "offset": [
+        6,
+        -6.5
+      ],
+      "originalSize": [
+        740,
+        328
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

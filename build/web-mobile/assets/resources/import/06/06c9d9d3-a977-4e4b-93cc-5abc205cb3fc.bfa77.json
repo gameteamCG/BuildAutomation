@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "07CjwEm0VMY7BE5eZF7ucD"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "shoppingmall",
+      "rect": [
+        7,
+        77,
+        236,
+        86
+      ],
+      "offset": [
+        0,
+        5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

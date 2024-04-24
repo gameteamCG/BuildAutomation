@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bakery",
+    "texture": "32b6211b-fe39-461c-91e7-9da4c6d4cb6c",
+    "atlas": "",
+    "rect": [
+      6,
+      56,
+      242,
+      140
+    ],
+    "offset": [
+      2,
+      -1
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
