@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a3AhjL4NZB8ZiE9LLDbefx"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "ip_family_words",
+      "rect": [
+        26,
+        26,
+        524,
+        221
+      ],
+      "offset": [
+        5,
+        2.5
+      ],
+      "originalSize": [
+        566,
+        278
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
