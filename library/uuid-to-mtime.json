@@ -1,7 +1,7 @@
 {
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1713942689495,
-    "meta": 1713942745131,
+    "asset": 1713945367039,
+    "meta": 1713945367418,
     "relativePath": "resources"
   },
   "48531029-3cfd-4d23-abb9-057b4b7762b9": {
@@ -4328,5 +4328,140 @@
     "asset": 1713940000585,
     "meta": 1713942746196,
     "relativePath": "Framework/Prefabs/Progressbar/ProgressBar"
+  },
+  "1d780f53-6e9e-4852-a1ad-c688871ff4e3": {
+    "asset": 1713945367091,
+    "meta": 1713945367419,
+    "relativePath": "resources/audios"
+  },
+  "cbf16fda-1d46-4964-8d69-168a74c6c816": {
+    "asset": 1713945367093,
+    "meta": 1713945367419,
+    "relativePath": "resources/images"
+  },
+  "5a3de42c-9c9a-4ee9-9266-272b03015bce": {
+    "asset": 1713945361121,
+    "meta": 1713945367523,
+    "relativePath": "resources/game_data.json"
+  },
+  "401392f0-52a1-462d-879a-55b550a0df12": {
+    "asset": 1713945361118,
+    "meta": 1713945367872,
+    "relativePath": "resources/audios/identify_the_correct_picture_for_the_word.mp3"
+  },
+  "f1497c18-65a0-4dde-ae93-6ffe2b29b611": {
+    "asset": 1713945361118,
+    "meta": 1713945367872,
+    "relativePath": "resources/audios/gum.mp3"
+  },
+  "bbbc3640-733a-410f-9726-e8d259e85865": {
+    "asset": 1713944811799,
+    "meta": 1713945367873,
+    "relativePath": "resources/audios/BRILLIANT.mp3"
+  },
+  "5890bc9b-5884-4fbb-837f-59cef8eab8fa": {
+    "asset": 1713945361118,
+    "meta": 1713945367874,
+    "relativePath": "resources/audios/drum.mp3"
+  },
+  "3a057c3e-18c6-4385-8e97-739c270a7bf8": {
+    "asset": 1713945361114,
+    "meta": 1713945367874,
+    "relativePath": "resources/audios/FANTASTIC.mp3"
+  },
+  "bed8a82b-ac59-43d6-ae69-b61838424c40": {
+    "asset": 1713943049320,
+    "meta": 1713945367875,
+    "relativePath": "resources/audios/EXCELLENTJOB.mp3"
+  },
+  "bf7d1b1a-6c30-4dfa-b963-0a72722cc205": {
+    "asset": 1713943049328,
+    "meta": 1713945367876,
+    "relativePath": "resources/audios/Oopsietryoncemore.mp3"
+  },
+  "02e2509f-a2bb-45b1-b10e-f6e7a1f9d165": {
+    "asset": 1713945361117,
+    "meta": 1713945367877,
+    "relativePath": "resources/audios/GREATWORK.mp3"
+  },
+  "7903b3e3-d5d3-418a-bd34-b8b11df3255e": {
+    "asset": 1713943049329,
+    "meta": 1713945367881,
+    "relativePath": "resources/audios/nevermindtryagain.mp3"
+  },
+  "c169dcea-c69b-4d5d-9423-0e31cdce80d2": {
+    "asset": 1713945361118,
+    "meta": 1713945367884,
+    "relativePath": "resources/audios/plum.mp3"
+  },
+  "2935c61a-1798-463a-bf24-bf09f486b557": {
+    "asset": 1713945361121,
+    "meta": 1713945367884,
+    "relativePath": "resources/audios/what_is_this.mp3"
+  },
+  "ac42aa14-e2e8-456e-857e-d0ffe41a4a2d": {
+    "asset": 1713945361118,
+    "meta": 1713945367885,
+    "relativePath": "resources/audios/sum.mp3"
+  },
+  "ff83ff7c-ac5c-4cf8-9354-b2137d6d1cfc": {
+    "asset": 1713945361118,
+    "meta": 1713945367886,
+    "relativePath": "resources/audios/the_girl_is_eating_a.mp3"
+  },
+  "18be2ba6-2e76-4502-96ff-93def8ca026b": {
+    "asset": 1713943049329,
+    "meta": 1713945367887,
+    "relativePath": "resources/audios/ohoh.mp3"
+  },
+  "85f57e87-9f0b-448a-a1f8-f9977fb6ff6e": {
+    "asset": 1713945361121,
+    "meta": 1713945367904,
+    "relativePath": "resources/images/Q01.png"
+  },
+  "7e51b87b-75de-4099-9f06-208a4caa067a": {
+    "asset": 1713945361122,
+    "meta": 1713945367907,
+    "relativePath": "resources/images/Q03.png"
+  },
+  "2adbb5af-451e-42ef-92c5-fbf023fa23d6": {
+    "asset": 1713945361122,
+    "meta": 1713945367908,
+    "relativePath": "resources/images/apple.png"
+  },
+  "8048724a-2d2f-4598-ad42-0216d1d5647c": {
+    "asset": 1713945361122,
+    "meta": 1713945367910,
+    "relativePath": "resources/images/Q02.png"
+  },
+  "b19c8ed6-79aa-4cc5-b064-94b805498559": {
+    "asset": 1713943049332,
+    "meta": 1713945367917,
+    "relativePath": "resources/images/undefined"
+  },
+  "6c70ae26-2616-4246-901f-e0b77e18b139": {
+    "asset": 1713945361122,
+    "meta": 1713945367911,
+    "relativePath": "resources/images/banana.png"
+  },
+  "9d3bcd2d-4d4a-4f76-894b-ed8ea8ed5af2": {
+    "asset": 1713945361122,
+    "meta": 1713945367913,
+    "relativePath": "resources/images/Q04.png"
+  },
+  "0d9e201b-baa8-4d3c-afdb-1963a40ce0a4": {
+    "asset": 1713945361123,
+    "meta": 1713945367914,
+    "relativePath": "resources/images/grapes.png"
+  },
+  "3af56c1e-5bfc-4633-be4d-1332d12a58e6": {
+    "asset": 1713945361123,
+    "meta": 1713945367918,
+    "relativePath": "resources/images/plum.png"
+  },
+  "9befaa57-5deb-4e92-be63-1c61276fe620": {
+    "asset": 1713945361123,
+    "meta": 1713945367920,
+    "relativePath": "resources/images/um_family_words.png"
   }
 }
