@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "05oULWb7pME4RzBdU0Sv1E"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "tall_pencil",
+      "rect": [
+        199,
+        30,
+        79,
+        441
+      ],
+      "offset": [
+        -11.5,
+        -0.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

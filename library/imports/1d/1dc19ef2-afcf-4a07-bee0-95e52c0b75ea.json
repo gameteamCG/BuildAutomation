@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tall_pencil",
+    "texture": "05a142d6-6fba-4c13-8473-05d5344afd44",
+    "atlas": "",
+    "rect": [
+      199,
+      30,
+      79,
+      441
+    ],
+    "offset": [
+      -11.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

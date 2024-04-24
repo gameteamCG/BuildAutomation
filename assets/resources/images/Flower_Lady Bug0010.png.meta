@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "cdc1d536-fe15-468b-9834-d970184f2d3a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Flower_Lady Bug0010": {
+      "ver": "1.0.6",
+      "uuid": "f21f1f33-6bf7-4a48-a79f-3538db8ded2b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "cdc1d536-fe15-468b-9834-d970184f2d3a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -2.5,
+      "offsetY": 6.5,
+      "trimX": 58,
+      "trimY": 78,
+      "width": 379,
+      "height": 331,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

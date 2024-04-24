@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "4ayT2lk1BDAK//TxbbvyC5"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "sandwitch",
+      "rect": [
+        34,
+        140,
+        432,
+        220
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

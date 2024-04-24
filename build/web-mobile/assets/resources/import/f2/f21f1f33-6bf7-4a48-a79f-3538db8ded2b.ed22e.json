@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "cdwdU2/hVGi5g02XAYTy06"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Flower_Lady Bug0010",
+      "rect": [
+        58,
+        78,
+        379,
+        331
+      ],
+      "offset": [
+        -2.5,
+        6.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

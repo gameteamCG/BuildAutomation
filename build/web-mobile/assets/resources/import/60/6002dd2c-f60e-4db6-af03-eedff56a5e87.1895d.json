@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f26z8NxzJApI0zsMBml9r8"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "thin_brush",
+      "rect": [
+        232,
+        11,
+        39,
+        476
+      ],
+      "offset": [
+        1.5,
+        1
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

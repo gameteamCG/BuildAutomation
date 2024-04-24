@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "7arpzCFH5A9pz/N3tjpDVg"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "thick_color",
+      "rect": [
+        128,
+        58,
+        245,
+        382
+      ],
+      "offset": [
+        0.5,
+        1
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

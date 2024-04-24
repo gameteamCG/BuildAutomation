@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "60grGe70pKy7Z0+2V0uvso"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "bee",
+      "rect": [
+        32,
+        44,
+        436,
+        428
+      ],
+      "offset": [
+        0,
+        -8
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

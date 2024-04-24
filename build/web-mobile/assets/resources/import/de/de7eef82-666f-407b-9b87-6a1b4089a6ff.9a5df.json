@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "8dNhj7N5hEH7rPCxvwrz/x"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "short_bottle",
+      "rect": [
+        198,
+        273,
+        105,
+        197
+      ],
+      "offset": [
+        0.5,
+        -121.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

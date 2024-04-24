@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Flower_Lady Bug0010",
+    "texture": "cdc1d536-fe15-468b-9834-d970184f2d3a",
+    "atlas": "",
+    "rect": [
+      58,
+      78,
+      379,
+      331
+    ],
+    "offset": [
+      -2.5,
+      6.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

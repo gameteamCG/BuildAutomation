@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thick_brush",
+    "texture": "2af730dc-a55b-407f-a2f6-34692d93dc52",
+    "atlas": "",
+    "rect": [
+      206,
+      7,
+      90,
+      484
+    ],
+    "offset": [
+      1,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

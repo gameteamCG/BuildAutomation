@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "e3YhP0PyVCVKZ+x1lgIAGV"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "short_pencil",
+      "rect": [
+        199,
+        237,
+        79,
+        247
+      ],
+      "offset": [
+        -11.5,
+        -110.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

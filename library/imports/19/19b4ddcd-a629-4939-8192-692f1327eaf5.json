@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thick_sharpner",
+    "texture": "0cdd28ca-9875-4676-8600-1e4f1c3c089e",
+    "atlas": "",
+    "rect": [
+      117,
+      64,
+      267,
+      369
+    ],
+    "offset": [
+      0.5,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

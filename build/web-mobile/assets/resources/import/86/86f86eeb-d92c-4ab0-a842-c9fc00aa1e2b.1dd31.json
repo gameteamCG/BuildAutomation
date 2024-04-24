@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "6fmgy/y1VPQITOmtxFUVIf"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "opposites",
+      "rect": [
+        0,
+        2,
+        663,
+        156
+      ],
+      "offset": [
+        0,
+        12
+      ],
+      "originalSize": [
+        663,
+        184
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

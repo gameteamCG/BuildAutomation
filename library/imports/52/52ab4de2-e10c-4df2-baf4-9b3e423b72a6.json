@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thick_bottle",
+    "texture": "394d1676-4d25-4253-bc2d-96e3abcd3a63",
+    "atlas": "",
+    "rect": [
+      144,
+      10,
+      214,
+      477
+    ],
+    "offset": [
+      1,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bee",
+    "texture": "6082b19e-ef4a-4acb-b674-fb6574bafb28",
+    "atlas": "",
+    "rect": [
+      32,
+      44,
+      436,
+      428
+    ],
+    "offset": [
+      0,
+      -8
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jelly",
+    "texture": "e0b20d4c-34f0-446f-98af-a928fdf38a12",
+    "atlas": "",
+    "rect": [
+      0,
+      30,
+      250,
+      190
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

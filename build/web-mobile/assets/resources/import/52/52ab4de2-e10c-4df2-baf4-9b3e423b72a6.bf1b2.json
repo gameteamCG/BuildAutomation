@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "39TRZ2TSVCU7wtluOrzTpj"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "thick_bottle",
+      "rect": [
+        144,
+        10,
+        214,
+        477
+      ],
+      "offset": [
+        1,
+        1.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
