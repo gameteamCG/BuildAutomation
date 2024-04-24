@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "scared emoji",
+    "texture": "24c21ba3-5364-41e6-afd3-529c1c708763",
+    "atlas": "",
+    "rect": [
+      9,
+      8,
+      235,
+      235
+    ],
+    "offset": [
+      1.5,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
