@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f1tJVM1VBDkaDheqnRA9Ki"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "500x500_0017_globe",
+      "rect": [
+        80,
+        30,
+        340,
+        441
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

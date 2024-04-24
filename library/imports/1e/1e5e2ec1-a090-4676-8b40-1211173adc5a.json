@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "0_0006_500x500_0002_starfish",
+    "texture": "6daeb7c8-a1e9-49c7-a538-ea18dfcc1567",
+    "atlas": "",
+    "rect": [
+      45,
+      33,
+      424,
+      432
+    ],
+    "offset": [
+      7,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

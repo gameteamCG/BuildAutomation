@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "0_0004_500x500_0006_inflated-pool",
+    "texture": "26e6a772-2afe-41d9-8459-b62e709d73b2",
+    "atlas": "",
+    "rect": [
+      46,
+      121,
+      407,
+      296
+    ],
+    "offset": [
+      -0.5,
+      -19
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
