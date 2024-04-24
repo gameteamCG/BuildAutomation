@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Introduction to water pollution and its causes",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/02580179_Environmental_Songs_1713941637065.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": true,
+        "QuestionText": "water pollution",
+        "QuestionImageName": "",
+        "QuestionAudioName": "What_causes_water_pollution.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "1.png",
+          "2.png"
+        ],
+        "ReiterationAudioName": "throwing_litter_in_the_water_bodies.mp3",
+        "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": true,
+        "QuestionText": "water pollution",
+        "QuestionImageName": "",
+        "QuestionAudioName": "What_causes_water_pollution.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "1.png",
+          "2.png"
+        ],
+        "ReiterationAudioName": "dumping_toxic_factory_waste_in_water.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": true,
+        "QuestionText": "water pollution",
+        "QuestionImageName": "",
+        "QuestionAudioName": "What_causes_water_pollution.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "1.png",
+          "2.png"
+        ],
+        "ReiterationAudioName": "oil_leak_from_ships.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": true,
+        "QuestionText": "water pollution",
+        "QuestionImageName": "",
+        "QuestionAudioName": "What_causes_water_pollution.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "1.png",
+          "2.png"
+        ],
+        "ReiterationAudioName": "people_throwing_waste_in_lakes.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

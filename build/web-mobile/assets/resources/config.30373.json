@@ -1,0 +1,190 @@
+{
+    "paths": {
+        "deFUmWuCdJtJuIZ5VL3y+1": [
+            "audios/AWESOMEYOUSAVEDIT",
+            "cc.AudioClip"
+        ],
+        "4ctrMXQGtI1Jz0HMfj52eB": [
+            "audios/BRILLIANT",
+            "cc.AudioClip"
+        ],
+        "a0PP/AJHpJmbBpK/7RVfRD": [
+            "audios/EXCELLENTJOB",
+            "cc.AudioClip"
+        ],
+        "4cIp5cPj5J859dSivb+xrL": [
+            "audios/EXCEPTIONAL",
+            "cc.AudioClip"
+        ],
+        "dbWhDcgxFA4qRXk0MQpdpm": [
+            "audios/Oopsietryoncemore",
+            "cc.AudioClip"
+        ],
+        "0brdfjKcpKxalnvi6CodrY": [
+            "audios/What_causes_water_pollution",
+            "cc.AudioClip"
+        ],
+        "bc3VR9FklH7YAuxdbH0iB7": [
+            "audios/dumping_toxic_factory_waste_in_water",
+            "cc.AudioClip"
+        ],
+        "d86M9V4J9ISLpYebGRBpW7": [
+            "audios/nevermindtryagain",
+            "cc.AudioClip"
+        ],
+        "89aRDvOCtIXpqlmx0eYrVH": [
+            "audios/ohoh",
+            "cc.AudioClip"
+        ],
+        "71rMKHuOtCvItCy70gUjHx": [
+            "audios/oil_leak_from_ships",
+            "cc.AudioClip"
+        ],
+        "41aLeWK09FC7aGniRMNzmd": [
+            "audios/people_throwing_waste_in_lakes",
+            "cc.AudioClip"
+        ],
+        "7cpMCYC7xJrrsyWmi0l2xL": [
+            "audios/throwing_litter_in_the_water_bodies",
+            "cc.AudioClip"
+        ],
+        "576uhw3TxKSrH8ZGYoZKsD": [
+            "game_data",
+            "cc.JsonAsset"
+        ],
+        "4061r6ZchI2Y6LArjYQTeo": [
+            "images/1",
+            "cc.Texture2D"
+        ],
+        "feQ1JFwtxCVqgn+eTQ8crg": [
+            "images/1",
+            "cc.SpriteFrame",
+            1
+        ],
+        "40/ZC65J9G+b7Pkyd/v5WK": [
+            "images/2",
+            "cc.Texture2D"
+        ],
+        "b6blT0C6BIVJ5S0zZs0VuT": [
+            "images/2",
+            "cc.SpriteFrame",
+            1
+        ],
+        "1ftk/mT+VG96LBxbPevmDn": [
+            "images/title",
+            "cc.Texture2D"
+        ],
+        "a6f4VdKnBPn7Y6xmLeeaNP": [
+            "images/title",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "0brdfjKcpKxalnvi6CodrY",
+        "1ftk/mT+VG96LBxbPevmDn",
+        "4061r6ZchI2Y6LArjYQTeo",
+        "40/ZC65J9G+b7Pkyd/v5WK",
+        "41aLeWK09FC7aGniRMNzmd",
+        "4cIp5cPj5J859dSivb+xrL",
+        "4ctrMXQGtI1Jz0HMfj52eB",
+        "576uhw3TxKSrH8ZGYoZKsD",
+        "71rMKHuOtCvItCy70gUjHx",
+        "7cpMCYC7xJrrsyWmi0l2xL",
+        "89aRDvOCtIXpqlmx0eYrVH",
+        "a0PP/AJHpJmbBpK/7RVfRD",
+        "a6f4VdKnBPn7Y6xmLeeaNP",
+        "b6blT0C6BIVJ5S0zZs0VuT",
+        "bc3VR9FklH7YAuxdbH0iB7",
+        "d86M9V4J9ISLpYebGRBpW7",
+        "dbWhDcgxFA4qRXk0MQpdpm",
+        "deFUmWuCdJtJuIZ5VL3y+1",
+        "feQ1JFwtxCVqgn+eTQ8crg"
+    ],
+    "scenes": {},
+    "redirect": [],
+    "deps": [],
+    "packs": {
+        "0f5065f0b": [
+            "1ftk/mT+VG96LBxbPevmDn",
+            "4061r6ZchI2Y6LArjYQTeo",
+            "40/ZC65J9G+b7Pkyd/v5WK"
+        ]
+    },
+    "name": "resources",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "0brdfjKcpKxalnvi6CodrY",
+            "c2691",
+            "0f5065f0b",
+            "01145",
+            "41aLeWK09FC7aGniRMNzmd",
+            "6a036",
+            "4cIp5cPj5J859dSivb+xrL",
+            "83e15",
+            "4ctrMXQGtI1Jz0HMfj52eB",
+            "62047",
+            "576uhw3TxKSrH8ZGYoZKsD",
+            "871d3",
+            "71rMKHuOtCvItCy70gUjHx",
+            "7f112",
+            "7cpMCYC7xJrrsyWmi0l2xL",
+            "88f3f",
+            "89aRDvOCtIXpqlmx0eYrVH",
+            "77c38",
+            "a0PP/AJHpJmbBpK/7RVfRD",
+            "7e663",
+            "a6f4VdKnBPn7Y6xmLeeaNP",
+            "2dd65",
+            "b6blT0C6BIVJ5S0zZs0VuT",
+            "35177",
+            "bc3VR9FklH7YAuxdbH0iB7",
+            "05aff",
+            "d86M9V4J9ISLpYebGRBpW7",
+            "33d2b",
+            "dbWhDcgxFA4qRXk0MQpdpm",
+            "7c807",
+            "deFUmWuCdJtJuIZ5VL3y+1",
+            "5aa64",
+            "feQ1JFwtxCVqgn+eTQ8crg",
+            "2e6ca"
+        ],
+        "native": [
+            "0brdfjKcpKxalnvi6CodrY",
+            "36ca5",
+            "1ftk/mT+VG96LBxbPevmDn",
+            "086e0",
+            "4061r6ZchI2Y6LArjYQTeo",
+            "35427",
+            "40/ZC65J9G+b7Pkyd/v5WK",
+            "d198c",
+            "41aLeWK09FC7aGniRMNzmd",
+            "17e50",
+            "4cIp5cPj5J859dSivb+xrL",
+            "4e73b",
+            "4ctrMXQGtI1Jz0HMfj52eB",
+            "c4980",
+            "71rMKHuOtCvItCy70gUjHx",
+            "2eb3f",
+            "7cpMCYC7xJrrsyWmi0l2xL",
+            "63f8e",
+            "89aRDvOCtIXpqlmx0eYrVH",
+            "bee5e",
+            "a0PP/AJHpJmbBpK/7RVfRD",
+            "33d3a",
+            "bc3VR9FklH7YAuxdbH0iB7",
+            "8fb05",
+            "d86M9V4J9ISLpYebGRBpW7",
+            "e2338",
+            "dbWhDcgxFA4qRXk0MQpdpm",
+            "cf9c2",
+            "deFUmWuCdJtJuIZ5VL3y+1",
+            "bb79e"
+        ]
+    }
+}
