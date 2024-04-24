@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": " 'og' family words",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/OGFAMILY.mp4",
+      "TitleImageName": "ogfamilywords.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "supercub",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "whatsthis.png",
+        "QuestionAudioName": "whatisthis.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "log",
+          "fog",
+          "jog",
+          "dog"
+        ],
+        "ReiterationAudioName": "Dog.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "log",
+        "QuestionImageName": "",
+        "QuestionAudioName": "selectcorrectpictureword.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "250x250_0004_tree.png",
+          "250x250_0002_plants.png",
+          "log.png",
+          "250x250_0003_dog.png"
+        ],
+        "ReiterationAudioName": "Log.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "dogcanjog.png",
+        "QuestionAudioName": "thedogcan.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "log",
+          "fog",
+          "jog",
+          "pog"
+        ],
+        "ReiterationAudioName": "Jog.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "joginthefog.png",
+        "QuestionAudioName": "theyjoginthe.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "sog",
+          "fog",
+          "nog",
+          "dog"
+        ],
+        "ReiterationAudioName": "Fog.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

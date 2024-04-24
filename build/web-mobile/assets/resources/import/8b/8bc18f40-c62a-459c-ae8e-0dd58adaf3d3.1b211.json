@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "05WcmtHGpGtrTFeMCr7z26"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "dogcanjog",
+      "rect": [
+        54,
+        8,
+        390,
+        476
+      ],
+      "offset": [
+        -1,
+        4
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

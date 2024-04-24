@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "9dPjeeAB1MAKpkoSJ9QOmS"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "joginthefog",
+      "rect": [
+        10,
+        8,
+        479,
+        477
+      ],
+      "offset": [
+        -0.5,
+        3.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
