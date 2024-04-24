@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brick",
+    "texture": "1be9fbdd-abe5-419a-8c29-81ad80a70252",
+    "atlas": "",
+    "rect": [
+      30,
+      29,
+      440,
+      456
+    ],
+    "offset": [
+      0,
+      -7
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
