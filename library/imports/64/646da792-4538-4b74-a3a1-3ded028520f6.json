@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Assets(1)_Ship",
+    "texture": "e88e0782-404a-40a4-9870-6a9da195f756",
+    "atlas": "",
+    "rect": [
+      24,
+      91,
+      465,
+      326
+    ],
+    "offset": [
+      6.5,
+      -4
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
