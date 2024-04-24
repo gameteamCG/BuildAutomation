@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "39lJNQkdFLua96L5MsNGv3"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Q02",
+      "rect": [
+        119,
+        203,
+        258,
+        89
+      ],
+      "offset": [
+        -2,
+        2.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
