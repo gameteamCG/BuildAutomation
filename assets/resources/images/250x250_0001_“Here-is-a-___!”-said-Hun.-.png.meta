@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "49ccfa7e-a305-4852-ae09-0d3dba83079b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0001_“Here-is-a-___!”-said-Hun.-": {
+      "ver": "1.0.6",
+      "uuid": "b2b1f8c5-e1a0-415d-95c4-44f310d693e4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "49ccfa7e-a305-4852-ae09-0d3dba83079b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -7,
+      "trimX": 7,
+      "trimY": 48,
+      "width": 486,
+      "height": 418,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
