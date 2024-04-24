@@ -1,7 +1,7 @@
 {
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1713942689495,
-    "meta": 1713942745131,
+    "asset": 1713945035227,
+    "meta": 1713945035620,
     "relativePath": "resources"
   },
   "48531029-3cfd-4d23-abb9-057b4b7762b9": {
@@ -4328,5 +4328,135 @@
     "asset": 1713940000585,
     "meta": 1713942746196,
     "relativePath": "Framework/Prefabs/Progressbar/ProgressBar"
+  },
+  "71006c4c-5869-4a7e-b963-833de1bdf312": {
+    "asset": 1713945035277,
+    "meta": 1713945035620,
+    "relativePath": "resources/audios"
+  },
+  "22e3a9a0-0289-4242-9035-d26d929708d0": {
+    "asset": 1713945035277,
+    "meta": 1713945035621,
+    "relativePath": "resources/images"
+  },
+  "f14c4407-aa81-4b35-949a-11b304fc1f7d": {
+    "asset": 1713945030113,
+    "meta": 1713945035727,
+    "relativePath": "resources/game_data.json"
+  },
+  "c0b49c07-2a3b-4949-80a4-286c198438de": {
+    "asset": 1713945030112,
+    "meta": 1713945036108,
+    "relativePath": "resources/audios/Hun.mp3"
+  },
+  "3748c96a-f463-489c-be94-2659f17c25a1": {
+    "asset": 1713945030112,
+    "meta": 1713945036109,
+    "relativePath": "resources/audios/inthesunwithhun.mp3"
+  },
+  "ced804ee-3f0d-4771-aedf-047ad1c81bb8": {
+    "asset": 1713945030112,
+    "meta": 1713945036109,
+    "relativePath": "resources/audios/GOODJOB.mp3"
+  },
+  "d8ca4584-3077-4b5f-96c1-95f62a4a9578": {
+    "asset": 1713944811799,
+    "meta": 1713945036110,
+    "relativePath": "resources/audios/BRILLIANT.mp3"
+  },
+  "5a97ec57-91e8-49b0-afb0-8b61ae0c38cc": {
+    "asset": 1713945030106,
+    "meta": 1713945036110,
+    "relativePath": "resources/audios/Bun.mp3"
+  },
+  "53c6e9a8-0f4d-48bc-a6d8-c3a80476cc26": {
+    "asset": 1713945030106,
+    "meta": 1713945036110,
+    "relativePath": "resources/audios/Fun.mp3"
+  },
+  "3481b8f6-803d-48a9-bf27-3ce92363cb81": {
+    "asset": 1713943049320,
+    "meta": 1713945036111,
+    "relativePath": "resources/audios/EXCELLENTJOB.mp3"
+  },
+  "bae29e11-cc67-4ec8-bc79-6858a241bac0": {
+    "asset": 1713943049328,
+    "meta": 1713945036112,
+    "relativePath": "resources/audios/Oopsietryoncemore.mp3"
+  },
+  "c97649e9-240f-4092-a71d-eb8ecdd593e4": {
+    "asset": 1713943049329,
+    "meta": 1713945036123,
+    "relativePath": "resources/audios/ohoh.mp3"
+  },
+  "bd4ee006-4206-4cf2-a7ca-afe7ee28ba42": {
+    "asset": 1713943049329,
+    "meta": 1713945036124,
+    "relativePath": "resources/audios/nevermindtryagain.mp3"
+  },
+  "9da633e2-03aa-4a5d-acf7-70eaeef48905": {
+    "asset": 1713945030113,
+    "meta": 1713945036124,
+    "relativePath": "resources/audios/sun.mp3"
+  },
+  "16e1e22d-b029-42d6-8c59-b421e03595f5": {
+    "asset": 1713945030113,
+    "meta": 1713945036125,
+    "relativePath": "resources/audios/whatisthis.mp3"
+  },
+  "58cbaf86-ccdf-4466-adaa-37192151990f": {
+    "asset": 1713944811802,
+    "meta": 1713945036125,
+    "relativePath": "resources/audios/selectcorrectpictureforword.mp3"
+  },
+  "9cdbb700-4629-4ee0-a15d-7cb62b46b388": {
+    "asset": 1713945030113,
+    "meta": 1713945036126,
+    "relativePath": "resources/audios/whoisthis.mp3"
+  },
+  "d9cea2d5-5d3d-4b7c-8c68-95976fa9914c": {
+    "asset": 1713943049332,
+    "meta": 1713945036134,
+    "relativePath": "resources/images/undefined"
+  },
+  "d9aad7ab-661e-4dc7-9bcd-d330d562d62a": {
+    "asset": 1713945030114,
+    "meta": 1713945036144,
+    "relativePath": "resources/images/250x250_0001_moon.png"
+  },
+  "0faf907f-349c-45e6-9dbd-f8759638ff8a": {
+    "asset": 1713945030113,
+    "meta": 1713945036152,
+    "relativePath": "resources/images/250x250_0000_cloud.png"
+  },
+  "e1446a13-f4fb-403d-9192-52fbdb94f5bc": {
+    "asset": 1713945030114,
+    "meta": 1713945036157,
+    "relativePath": "resources/images/250x250_0002_earth.png"
+  },
+  "b1024644-92d8-4104-b3ae-a47799d5354a": {
+    "asset": 1713945030114,
+    "meta": 1713945036158,
+    "relativePath": "resources/images/250x250_0004_sun.png"
+  },
+  "1f9e42c0-fe08-4bad-bd27-3d04e3762a3a": {
+    "asset": 1713945030114,
+    "meta": 1713945036158,
+    "relativePath": "resources/images/250x250_0005_hun.png"
+  },
+  "f400560d-e0d3-4e93-927f-a4f29994d40b": {
+    "asset": 1713945030115,
+    "meta": 1713945036159,
+    "relativePath": "resources/images/unfamilywords.png"
+  },
+  "3a5c800e-794a-48f9-8c6b-8795a400f4d6": {
+    "asset": 1713945030115,
+    "meta": 1713945036165,
+    "relativePath": "resources/images/250x250_0006_fun-in-the-sun-with-hun.png"
+  },
+  "b0805976-43dc-44e0-a64d-8ef80d14fd59": {
+    "asset": 1713945030115,
+    "meta": 1713945036166,
+    "relativePath": "resources/images/whatisthis.png"
   }
 }
