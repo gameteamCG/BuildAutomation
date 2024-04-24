@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "7aXbdWqH9CmpbiW45oxy8d"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "track",
+      "rect": [
+        20,
+        67,
+        459,
+        335
+      ],
+      "offset": [
+        -0.5,
+        15.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
