@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "c2dRidkdZFjZK9UVZMohg1"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "tag t",
+      "rect": [
+        113,
+        182,
+        181,
+        113
+      ],
+      "offset": [
+        -46.5,
+        11.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

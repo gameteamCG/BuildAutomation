@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "4axgDTDqFIpbifAGu+AATK"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "bag t",
+      "rect": [
+        120,
+        182,
+        220,
+        113
+      ],
+      "offset": [
+        -20,
+        11.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

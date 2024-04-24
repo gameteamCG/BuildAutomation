@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "2363jJ8F9HWJl4VdYzka9s"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "ag family words",
+      "rect": [
+        26,
+        26,
+        549,
+        221
+      ],
+      "offset": [
+        5.5,
+        2.5
+      ],
+      "originalSize": [
+        590,
+        278
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
