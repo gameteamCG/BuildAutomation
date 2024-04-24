@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "67jymfMnZO86Ts1v5PBuA0"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "whatisthisplan",
+      "rect": [
+        56,
+        26,
+        394,
+        446
+      ],
+      "offset": [
+        3,
+        1
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
