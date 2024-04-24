@@ -1,7 +1,7 @@
 {
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1713942689495,
-    "meta": 1713942745131,
+    "asset": 1713943054775,
+    "meta": 1713943055150,
     "relativePath": "resources"
   },
   "48531029-3cfd-4d23-abb9-057b4b7762b9": {
@@ -4328,5 +4328,160 @@
     "asset": 1713940000585,
     "meta": 1713942746196,
     "relativePath": "Framework/Prefabs/Progressbar/ProgressBar"
+  },
+  "3513988b-df34-4c81-b4cd-c4ead6b3f1ba": {
+    "asset": 1713943054824,
+    "meta": 1713943055151,
+    "relativePath": "resources/audios"
+  },
+  "5c1e583a-2201-44ab-9686-323b67a68492": {
+    "asset": 1713943054825,
+    "meta": 1713943055151,
+    "relativePath": "resources/images"
+  },
+  "fb6005d1-b6cf-4899-8b99-cb5f2c606a7a": {
+    "asset": 1713943049329,
+    "meta": 1713943055229,
+    "relativePath": "resources/game_data.json"
+  },
+  "f861ace9-5019-4c04-8d31-9e91f3a645c5": {
+    "asset": 1713943049318,
+    "meta": 1713943055578,
+    "relativePath": "resources/audios/Bad.mp3"
+  },
+  "e833214c-0315-46e4-b9f8-921642c5a711": {
+    "asset": 1713943049319,
+    "meta": 1713943055579,
+    "relativePath": "resources/audios/Dad.mp3"
+  },
+  "934c9728-19ef-40a1-95de-e71689e33dec": {
+    "asset": 1713943049319,
+    "meta": 1713943055580,
+    "relativePath": "resources/audios/Dad was.mp3"
+  },
+  "f887681d-a517-4e48-a809-d272dc4ca77c": {
+    "asset": 1713943049327,
+    "meta": 1713943055580,
+    "relativePath": "resources/audios/GOODJOB.mp3"
+  },
+  "0b8b294a-d78a-4ab1-aabb-dbbb077b1c5d": {
+    "asset": 1713943049327,
+    "meta": 1713943055581,
+    "relativePath": "resources/audios/Mad.mp3"
+  },
+  "724717d1-b846-4dde-b1f8-add38f85f7bf": {
+    "asset": 1713943049320,
+    "meta": 1713943055582,
+    "relativePath": "resources/audios/EXCELLENTJOB.mp3"
+  },
+  "15602099-700b-4854-a8bb-b882ac1b6bc5": {
+    "asset": 1713943049327,
+    "meta": 1713943055582,
+    "relativePath": "resources/audios/GREATWORK.mp3"
+  },
+  "cdcc624b-6406-4edc-b887-07e698d708ab": {
+    "asset": 1713943049321,
+    "meta": 1713943055583,
+    "relativePath": "resources/audios/FANTASTIC.mp3"
+  },
+  "8cd5c664-39b3-42ec-aaef-eef577122644": {
+    "asset": 1713943049328,
+    "meta": 1713943055586,
+    "relativePath": "resources/audios/Oopsietryoncemore.mp3"
+  },
+  "adbeb451-f312-47bd-aa4a-63be089704ae": {
+    "asset": 1713943049328,
+    "meta": 1713943055588,
+    "relativePath": "resources/audios/Pam is.mp3"
+  },
+  "da41dfe6-61ed-47df-851b-7690d1d1b6d4": {
+    "asset": 1713943049329,
+    "meta": 1713943055589,
+    "relativePath": "resources/audios/nevermindtryagain.mp3"
+  },
+  "2a805eea-db30-495a-98e2-98d0c37c78a0": {
+    "asset": 1713943049328,
+    "meta": 1713943055589,
+    "relativePath": "resources/audios/Tap on the correct picture for the word.mp3"
+  },
+  "0cd9810b-ac46-42d4-9e98-ce85ecbd3d00": {
+    "asset": 1713943049329,
+    "meta": 1713943055589,
+    "relativePath": "resources/audios/sad.mp3"
+  },
+  "8e22189f-c815-4399-a6d1-97571b4059c5": {
+    "asset": 1713943049329,
+    "meta": 1713943055590,
+    "relativePath": "resources/audios/ohoh.mp3"
+  },
+  "a0af8729-3ece-4610-93b6-a780a3bebb10": {
+    "asset": 1713943049329,
+    "meta": 1713943055592,
+    "relativePath": "resources/images/Boy.png"
+  },
+  "73f7a803-1ab9-429e-af13-9c2f2f4d6e21": {
+    "asset": 1713943049330,
+    "meta": 1713943055599,
+    "relativePath": "resources/images/Q01.png"
+  },
+  "3e0d37e3-121b-4cf6-8d3a-4b29acbdeca6": {
+    "asset": 1713943049330,
+    "meta": 1713943055605,
+    "relativePath": "resources/images/Q02.png"
+  },
+  "fb72df35-ade0-4c94-9b40-c71b3e538fc1": {
+    "asset": 1713943049331,
+    "meta": 1713943055613,
+    "relativePath": "resources/images/angry emoji.png"
+  },
+  "7d3199d2-a8c0-47db-803e-ebc24465f4e5": {
+    "asset": 1713943049330,
+    "meta": 1713943055614,
+    "relativePath": "resources/images/ad family words.png"
+  },
+  "d863c244-5967-4557-aa63-ddf23be35c70": {
+    "asset": 1713943049330,
+    "meta": 1713943055615,
+    "relativePath": "resources/images/Q03.png"
+  },
+  "341e0a7a-f0de-456b-89ae-ed7509578408": {
+    "asset": 1713943049330,
+    "meta": 1713943055616,
+    "relativePath": "resources/images/Q04.png"
+  },
+  "b1e82ffb-2dbf-4f8f-9e81-fbf4959386aa": {
+    "asset": 1713943049331,
+    "meta": 1713943055619,
+    "relativePath": "resources/images/dad.png"
+  },
+  "83084234-528d-44b8-b04c-a892483a8ce8": {
+    "asset": 1713943049332,
+    "meta": 1713943055623,
+    "relativePath": "resources/images/undefined"
+  },
+  "418a1893-a6ab-415c-91cb-eaaa471e0026": {
+    "asset": 1713943049331,
+    "meta": 1713943055621,
+    "relativePath": "resources/images/girl.png"
+  },
+  "56f3d626-192a-4630-9c1a-fdbacd17ec51": {
+    "asset": 1713943049331,
+    "meta": 1713943055621,
+    "relativePath": "resources/images/happy.png"
+  },
+  "7f89968e-d07c-4cd2-b5d1-2a1d9e1f29db": {
+    "asset": 1713943049331,
+    "meta": 1713943055622,
+    "relativePath": "resources/images/mom.png"
+  },
+  "8f5110dd-12d4-4048-ad67-843dbc45daca": {
+    "asset": 1713943049332,
+    "meta": 1713943055624,
+    "relativePath": "resources/images/scared emoji.png"
+  },
+  "cd30b086-c11e-46e2-afce-f07992376312": {
+    "asset": 1713943049332,
+    "meta": 1713943055624,
+    "relativePath": "resources/images/sad.png"
   }
 }

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "cdMLCGwR5G4q/O8HmSN2MS"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "sad",
+      "rect": [
+        5,
+        4,
+        243,
+        243
+      ],
+      "offset": [
+        1.5,
+        -0.5
+      ],
+      "originalSize": [
+        250,
+        250
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
