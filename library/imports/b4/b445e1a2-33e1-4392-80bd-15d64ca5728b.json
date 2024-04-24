@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0007_printer",
+    "texture": "5b697fa5-3afc-4831-b6fd-976d562f68f2",
+    "atlas": "",
+    "rect": [
+      0,
+      11,
+      250,
+      228
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

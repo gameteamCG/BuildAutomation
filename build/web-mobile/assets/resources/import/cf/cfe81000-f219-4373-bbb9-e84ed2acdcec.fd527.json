@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "4bkRJa2ClCzZlexPP7XoEQ"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "prize",
+      "rect": [
+        19,
+        26,
+        459,
+        460
+      ],
+      "offset": [
+        -1.5,
+        -6
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
