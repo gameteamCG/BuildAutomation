@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hat2",
+    "texture": "2f1f97e6-c973-4edd-9b0b-a314dadff0f5",
+    "atlas": "",
+    "rect": [
+      176,
+      77,
+      183,
+      341
+    ],
+    "offset": [
+      17.5,
+      2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
