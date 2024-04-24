@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "baCRQl57VH66g/Y4cIsc6M"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "fl family words",
+      "rect": [
+        27,
+        26,
+        465,
+        221
+      ],
+      "offset": [
+        6,
+        2.5
+      ],
+      "originalSize": [
+        507,
+        278
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "324ZtZYoRNcIY3QcfrL6kH"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "__ower",
+      "rect": [
+        31,
+        51,
+        437,
+        445
+      ],
+      "offset": [
+        -0.5,
+        -23.5
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

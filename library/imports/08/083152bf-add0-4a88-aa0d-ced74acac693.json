@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fl family words",
+    "texture": "ba091425-e7b5-47eb-a83f-638708b1ce8c",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      465,
+      221
+    ],
+    "offset": [
+      6,
+      2.5
+    ],
+    "originalSize": [
+      507,
+      278
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
