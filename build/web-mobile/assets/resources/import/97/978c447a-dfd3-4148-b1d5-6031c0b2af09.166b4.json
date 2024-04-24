@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "de0PtfQelH54NHS3r+oTnR"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "250x250_0001_“Here-is-a-___!”-said-Hun",
+      "rect": [
+        7,
+        48,
+        486,
+        418
+      ],
+      "offset": [
+        0,
+        -7
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

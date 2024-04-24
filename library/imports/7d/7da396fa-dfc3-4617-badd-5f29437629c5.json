@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0003_bench",
+    "texture": "95031f0c-5c89-4d19-bf4c-9de16500afcc",
+    "atlas": "",
+    "rect": [
+      3,
+      62,
+      244,
+      133
+    ],
+    "offset": [
+      0,
+      -3.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
