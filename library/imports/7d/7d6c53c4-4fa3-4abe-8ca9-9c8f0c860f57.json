@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fries",
+    "texture": "c97f6279-1d19-4d66-91a8-5ec06103df6d",
+    "atlas": "",
+    "rect": [
+      17,
+      19,
+      461,
+      478
+    ],
+    "offset": [
+      -2.5,
+      -8
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

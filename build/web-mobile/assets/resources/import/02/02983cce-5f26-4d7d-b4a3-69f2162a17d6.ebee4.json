@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "aajEiNiPBO5LsMPRgCAXu7"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "fruitsareinthefridge",
+      "rect": [
+        36,
+        8,
+        429,
+        490
+      ],
+      "offset": [
+        0.5,
+        -3
+      ],
+      "originalSize": [
+        500,
+        500
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
