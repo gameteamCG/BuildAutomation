@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "qwerte",
+    "texture": "f5750d9f-9899-48d2-be66-58878a2dbb90",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1039,
+      440
+    ],
+    "offset": [
+      -8.5,
+      5
+    ],
+    "originalSize": [
+      1056,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

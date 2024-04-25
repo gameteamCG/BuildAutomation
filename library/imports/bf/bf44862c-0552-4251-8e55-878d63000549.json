@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "screwcf",
+    "texture": "ef1d1024-375b-44e1-a8fa-9c4f6c7a43de",
+    "atlas": "",
+    "rect": [
+      36,
+      102,
+      177,
+      45
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
