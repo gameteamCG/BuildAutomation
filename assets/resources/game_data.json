@@ -1,0 +1,103 @@
+{
+  "AdditionalData": {
+    "GameID": "Recap of 3 R’s",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/09674579_I_Choose_to_Reduce_Reuse_1714031889996.mp4",
+    "TitleImageName": "title.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "reduce",
+      "QuestionImageName": "",
+      "QuestionAudioName": "how_can_we_reduce_the_use_of_plastic.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "a.png",
+        "b.png"
+      ],
+      "ReiterationAudioName": "take_your_own_cloth_bag_to_shop.mp3",
+      "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "reuse",
+      "QuestionImageName": "",
+      "QuestionAudioName": "how_can_we_reuse_plastic_items.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "c.png",
+        "d.png"
+      ],
+      "ReiterationAudioName": "reuse_plastic_containers_for_planting.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "reduce",
+      "QuestionImageName": "",
+      "QuestionAudioName": "how_to_reduce_the_use_of_water.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "e.png",
+        "f.png"
+      ],
+      "ReiterationAudioName": "close_tap_while_brushing.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "reduce",
+      "QuestionImageName": "",
+      "QuestionAudioName": "how_to_reduce_use_of_paper.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "g.png",
+        "h.png"
+      ],
+      "ReiterationAudioName": "use_both_sides_of_paper_to_draw_and_write.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "reuse",
+      "QuestionImageName": "",
+      "QuestionAudioName": "How_can_we_reuse_the_toys.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "i.png",
+        "j.png"
+      ],
+      "ReiterationAudioName": "donate_to_another_kid.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
