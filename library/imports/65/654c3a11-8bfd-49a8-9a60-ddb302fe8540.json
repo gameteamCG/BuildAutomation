@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Blend Sound ‘sm’ :UKG CB1",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/SM528714741_1714046442833.mp4",
+      "TitleImageName": "hgftyj.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "smoke.png",
+        "QuestionAudioName": "whatsthis.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "smokef.png",
+          "small.png",
+          "smart.png",
+          "smiled.png"
+        ],
+        "ReiterationAudioName": "smoke.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "bigandsmall.png",
+        "QuestionAudioName": "whatstheoppositeofbig.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "smokef.png",
+          "small.png",
+          "smart.png",
+          "smiled.png"
+        ],
+        "ReiterationAudioName": "smoke.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "smile.png",
+        "QuestionAudioName": "choosthemissingblend.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "sl.png",
+          "sp.png",
+          "sm.png",
+          "st.png"
+        ],
+        "ReiterationAudioName": "SMILERTE.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "smell.png",
+        "QuestionAudioName": "thecookiesdashgood.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "smokef.png",
+          "smart.png",
+          "small.png",
+          "smel.png"
+        ],
+        "ReiterationAudioName": "Smell.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}
