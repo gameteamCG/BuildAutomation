@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0014_Zant",
+    "texture": "6b769410-be5b-40d0-8589-a59fb89e33b0",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      250,
+      224
+    ],
+    "offset": [
+      0,
+      9
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
