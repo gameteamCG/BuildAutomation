@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "okmhgfd",
+    "texture": "8e58aca4-241b-4321-8ec3-065f90df0da2",
+    "atlas": "",
+    "rect": [
+      39,
+      148,
+      382,
+      164
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

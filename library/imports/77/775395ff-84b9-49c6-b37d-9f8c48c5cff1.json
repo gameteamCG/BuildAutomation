@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ccpin",
+    "texture": "b6c4cc0a-712c-446d-9fbb-3f361118b589",
+    "atlas": "",
+    "rect": [
+      11,
+      10,
+      228,
+      230
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
