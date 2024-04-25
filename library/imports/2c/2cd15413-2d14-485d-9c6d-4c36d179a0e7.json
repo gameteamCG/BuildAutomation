@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slit",
+    "texture": "10ec5d9b-c030-4627-93ca-a0965a8fb748",
+    "atlas": "",
+    "rect": [
+      84,
+      92,
+      82,
+      49
+    ],
+    "offset": [
+      0,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
