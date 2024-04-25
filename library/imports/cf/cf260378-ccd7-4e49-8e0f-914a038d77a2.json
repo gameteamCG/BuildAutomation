@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bloom",
+    "texture": "2fe4e7a3-f745-4483-b9fb-1d3166cf518a",
+    "atlas": "",
+    "rect": [
+      52,
+      92,
+      147,
+      49
+    ],
+    "offset": [
+      0.5,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
