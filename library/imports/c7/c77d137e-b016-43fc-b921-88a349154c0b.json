@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spiderzfg",
+    "texture": "ca21bcc9-7bf2-4168-ab7e-41201d4367f2",
+    "atlas": "",
+    "rect": [
+      8,
+      13,
+      234,
+      224
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
