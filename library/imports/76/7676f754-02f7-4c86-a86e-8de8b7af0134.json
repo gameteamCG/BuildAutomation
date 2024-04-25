@@ -1,0 +1,110 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number magic 5 to 10",
+      "totalLevel": "5",
+      "TitleImageName": "numbermagic6to10.png",
+      "introBgName": "jrkg.png",
+      "bgmMusicName": "hksmi.mp3",
+      "mainBgName": "factoryindustrybg.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "8",
+        "questionAudioName": "identifyandtaponthenumber8patterntile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "6.png",
+          "8.png",
+          "10.png"
+        ],
+        "correctAudios": [
+          "8.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "9",
+        "questionAudioName": "identifyandtaponthenumber9patterntile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "9.png",
+          "7.png",
+          "10.png"
+        ],
+        "correctAudios": [
+          "9.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "6",
+        "questionAudioName": "identifyandtaponthenumber6patterntile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "7.png",
+          "10.png",
+          "6.png"
+        ],
+        "correctAudios": [
+          "6.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "7",
+        "questionAudioName": "identifyandtaponthenumber7patterntile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "7.png",
+          "8.png",
+          "9.png"
+        ],
+        "correctAudios": [
+          "7.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "10",
+        "questionAudioName": "identifyandtaponthenumber10patterntile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "7.png",
+          "8.png",
+          "10.png"
+        ],
+        "correctAudios": [
+          "10.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}

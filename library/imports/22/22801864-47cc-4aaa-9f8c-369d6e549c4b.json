@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "factoryindustrybg",
+    "texture": "c55d4dac-67f0-4a4b-b5b1-b7113cce0169",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1921,
+      1081
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1921,
+      1081
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
