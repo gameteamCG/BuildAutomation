@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slush_",
+    "texture": "16037f75-d6a6-4ba6-b3eb-497d341d35da",
+    "atlas": "",
+    "rect": [
+      10,
+      77,
+      229,
+      96
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
