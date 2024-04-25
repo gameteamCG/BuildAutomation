@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "matchitup",
+    "texture": "b835bad5-caa0-4bcb-89f3-e897d3303751",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      501,
+      350
+    ],
+    "offset": [
+      8,
+      -7.5
+    ],
+    "originalSize": [
+      539,
+      387
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
