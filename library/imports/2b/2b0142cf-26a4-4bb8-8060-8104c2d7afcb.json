@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gsesde",
+    "texture": "d945c248-f4dc-419c-985b-bfc342565d4c",
+    "atlas": "",
+    "rect": [
+      25,
+      93,
+      200,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
