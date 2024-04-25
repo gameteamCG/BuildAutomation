@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Ibee_4",
+    "texture": "eb8995a8-326c-490d-bb2a-ceba3c26af64",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      243,
+      245
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      243,
+      245
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
