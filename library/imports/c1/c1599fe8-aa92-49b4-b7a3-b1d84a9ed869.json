@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stovasw",
+    "texture": "9d667112-3a66-43af-b5b8-8adca081f55f",
+    "atlas": "",
+    "rect": [
+      74,
+      182,
+      312,
+      96
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

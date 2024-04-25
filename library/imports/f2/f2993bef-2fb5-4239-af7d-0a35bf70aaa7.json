@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Blend Sound ‘st’ :UKG CB1",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/st476980258_1714050067885.mp4",
+      "TitleImageName": "tuygrr.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "stovasw.png",
+        "QuestionAudioName": "q1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Assetm.png",
+          "washing.png",
+          "refrigerator.png",
+          "oven.png"
+        ],
+        "ReiterationAudioName": "Stove.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "star.png",
+        "QuestionAudioName": "q2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "circle.png",
+          "starsqw.png",
+          "Rectangleawed.png",
+          "redsdfr.png"
+        ],
+        "ReiterationAudioName": "Star.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "starfish.png",
+        "QuestionAudioName": "q4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "sl.png",
+          "sn.png",
+          "st.png",
+          "sp.png"
+        ],
+        "ReiterationAudioName": "swerre.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "yuy.png",
+        "QuestionAudioName": "q4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "sl.png",
+          "sn.png",
+          "sp.png",
+          "st.png"
+        ],
+        "ReiterationAudioName": "gfdddd.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}
