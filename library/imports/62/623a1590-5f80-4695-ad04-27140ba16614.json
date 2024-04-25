@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "glove2",
+    "texture": "62d0847b-6432-40d4-add3-c73627dfffe4",
+    "atlas": "",
+    "rect": [
+      58,
+      92,
+      127,
+      72
+    ],
+    "offset": [
+      -3.5,
+      -3
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
