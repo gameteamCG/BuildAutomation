@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "skies(1)",
+    "texture": "fc2b4204-2b0e-4846-bf85-85e0e320d358",
+    "atlas": "",
+    "rect": [
+      0,
+      47,
+      250,
+      156
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

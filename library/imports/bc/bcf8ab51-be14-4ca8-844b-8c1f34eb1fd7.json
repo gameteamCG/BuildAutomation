@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Blend Sound ‘sk’ : :UKG CB1",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/SK13139_1714042356469.mp4",
+      "TitleImageName": "BlendSound‘sk’.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "skirt.png",
+        "QuestionAudioName": "Identifythecorrectpicturefortheword(2).mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "skirt(1).png",
+          "Dress_.png",
+          "pant.png",
+          "shirt.png"
+        ],
+        "ReiterationAudioName": "Skirt.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "skater.png",
+        "QuestionAudioName": "Whoisshe.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "skier_.png",
+          "skater_.png",
+          "skipper_.png",
+          "skunk_.png"
+        ],
+        "ReiterationAudioName": "skater.mp3",
+        "CorrectAudioName": "AWESOME YOU SAVED IT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "skies.png",
+        "QuestionAudioName": "Identifythecorrectpicturefortheword(2).mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "skates.png",
+          "skateboard.png",
+          "skies(1).png",
+          "skirt(1).png"
+        ],
+        "ReiterationAudioName": "Skies.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "skydiving.png",
+        "QuestionAudioName": "_choose-the-missing-blend.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "sk_.png",
+          "sl_.png",
+          "sp_.png",
+          "st_.png"
+        ],
+        "ReiterationAudioName": "SK.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

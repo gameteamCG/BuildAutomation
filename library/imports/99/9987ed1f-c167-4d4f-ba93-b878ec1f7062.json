@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "skydiving",
+    "texture": "0b8c66ba-920c-43ee-a421-cb1afffd8306",
+    "atlas": "",
+    "rect": [
+      37,
+      25,
+      385,
+      410
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
