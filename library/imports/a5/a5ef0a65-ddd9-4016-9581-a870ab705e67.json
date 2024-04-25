@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tuygrr",
+    "texture": "df420743-2af9-41cc-bd9f-5d593168af9c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      955,
+      442
+    ],
+    "offset": [
+      0,
+      5
+    ],
+    "originalSize": [
+      955,
+      452
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
