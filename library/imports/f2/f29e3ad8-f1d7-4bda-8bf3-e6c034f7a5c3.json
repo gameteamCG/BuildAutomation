@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Gro",
+    "texture": "a76b127a-538c-4333-8ad9-b9da45048ff8",
+    "atlas": "",
+    "rect": [
+      62,
+      4,
+      336,
+      451
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
