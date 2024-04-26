@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mar",
+    "texture": "13cde00d-eea7-40d2-9ad5-ceaf90af6dfd",
+    "atlas": "",
+    "rect": [
+      56,
+      100,
+      142,
+      37
+    ],
+    "offset": [
+      2,
+      6.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

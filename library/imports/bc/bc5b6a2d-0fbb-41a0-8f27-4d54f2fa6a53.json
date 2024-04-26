@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sep",
+    "texture": "9fc97cb6-7d2d-4eb4-afb9-7b50548c76f8",
+    "atlas": "",
+    "rect": [
+      6,
+      99,
+      239,
+      52
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

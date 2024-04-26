@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "apr",
+    "texture": "adbdc1b3-2f58-4afc-afe3-9770cfcfac0c",
+    "atlas": "",
+    "rect": [
+      68,
+      100,
+      115,
+      51
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

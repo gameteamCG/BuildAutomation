@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "monthsinayear",
+    "texture": "0c5cc392-b16e-45de-b7e1-3bcb6787832d",
+    "atlas": "",
+    "rect": [
+      27,
+      59,
+      887,
+      392
+    ],
+    "offset": [
+      0,
+      -29.5
+    ],
+    "originalSize": [
+      941,
+      451
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

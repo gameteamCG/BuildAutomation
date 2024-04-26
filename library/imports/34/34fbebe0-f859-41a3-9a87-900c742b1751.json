@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Months in a year UKG CB1",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/54898754_Months_of_The_Year_on_Spinwheel_1714132856248.mp4",
+      "TitleImageName": "monthsinayear.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "2nd month",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Which_is_the_2nd_month_of_the_year.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Jan.png",
+          "feb.png",
+          "mar.png",
+          "apr.png"
+        ],
+        "ReiterationAudioName": "february.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "7th month",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Which_is_the_7th_month_of_the_year.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "may.png",
+          "june.png",
+          "july.png",
+          "aug.png"
+        ],
+        "ReiterationAudioName": "july.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "12th month",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Which_is_the_12th_month_of_the_year.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "sep.png",
+          "oct.png",
+          "nov.png",
+          "dec.png"
+        ],
+        "ReiterationAudioName": "december.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "que4.png",
+        "QuestionAudioName": "How_many_months_are_there_in_a_year.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "5.png",
+          "10.png",
+          "12.png",
+          "20.png"
+        ],
+        "ReiterationAudioName": "12_months.mp3",
+        "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}
