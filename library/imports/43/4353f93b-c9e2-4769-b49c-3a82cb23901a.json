@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "skater",
+    "texture": "11f17516-c7f4-46f7-b33a-9b3b54d22331",
+    "atlas": "",
+    "rect": [
+      46,
+      92,
+      158,
+      49
+    ],
+    "offset": [
+      0,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
