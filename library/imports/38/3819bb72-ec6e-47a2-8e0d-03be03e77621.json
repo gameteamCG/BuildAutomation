@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "moon3",
+    "texture": "ffd206e3-1640-44ed-8686-65263ad042e8",
+    "atlas": "",
+    "rect": [
+      7,
+      7,
+      286,
+      286
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
