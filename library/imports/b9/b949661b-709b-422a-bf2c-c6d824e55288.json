@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0008_minty",
+    "texture": "99bd7291-e1c3-4623-ad04-31fbbf03740d",
+    "atlas": "",
+    "rect": [
+      1,
+      175,
+      499,
+      150
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

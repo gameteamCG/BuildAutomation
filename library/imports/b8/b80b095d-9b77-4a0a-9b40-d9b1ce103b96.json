@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0011_earthy",
+    "texture": "75aae2d7-36fc-497e-a271-865610764ec9",
+    "atlas": "",
+    "rect": [
+      38,
+      34,
+      441,
+      449
+    ],
+    "offset": [
+      8.5,
+      -8.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
