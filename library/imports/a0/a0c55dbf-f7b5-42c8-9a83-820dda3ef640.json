@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "priya",
+    "texture": "0b041c6b-3a93-47c2-805d-0d7ec1ae33b7",
+    "atlas": "",
+    "rect": [
+      14,
+      77,
+      225,
+      97
+    ],
+    "offset": [
+      1.5,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

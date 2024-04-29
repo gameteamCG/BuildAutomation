@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "helmet",
+    "texture": "323761b9-fb68-4bcc-a2ec-c0a507b2ba6f",
+    "atlas": "",
+    "rect": [
+      6,
+      51,
+      240,
+      146
+    ],
+    "offset": [
+      1,
+      1
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

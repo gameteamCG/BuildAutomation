@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Rollingpin",
+    "texture": "870caf87-e361-4c0c-8ddf-972311d0005d",
+    "atlas": "",
+    "rect": [
+      5,
+      45,
+      241,
+      157
+    ],
+    "offset": [
+      0.5,
+      1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
