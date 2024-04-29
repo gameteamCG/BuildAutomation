@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "seniorkg",
+    "texture": "333ca409-b044-4151-8c57-05eab8c8076d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1920,
+      1080
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

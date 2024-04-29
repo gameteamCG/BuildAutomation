@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Lifecycleofafrog",
+    "texture": "d111e88c-6bd6-4571-a270-83d2105bb082",
+    "atlas": "",
+    "rect": [
+      19,
+      20,
+      820,
+      422
+    ],
+    "offset": [
+      9.5,
+      -10
+    ],
+    "originalSize": [
+      839,
+      442
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

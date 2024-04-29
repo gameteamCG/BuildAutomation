@@ -1,0 +1,39 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Life cycle of a frog",
+      "totalLevel": "1",
+      "TitleImageName": "Lifecycleofafrog.png",
+      "introBgName": "seniorkg.png",
+      "bgmMusicName": "bgmss.mp3",
+      "mainBgName": "Asset6.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "life cycle of a frog",
+        "questionImageName": "",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset11.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "optionOffset": 0,
+        "options": [
+          "Asset15.png",
+          "Asset16.png",
+          "Asset17.png",
+          "Asset13.png"
+        ],
+        "correctAnswer": "2413",
+        "correctAudioName": "L2Correct.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      }
+    ]
+  }
+}
