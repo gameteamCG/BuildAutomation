@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Question",
+    "texture": "feb35385-d920-4b00-aba4-bea66579fe5a",
+    "atlas": "",
+    "rect": [
+      17,
+      157,
+      468,
+      161
+    ],
+    "offset": [
+      1,
+      12.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
