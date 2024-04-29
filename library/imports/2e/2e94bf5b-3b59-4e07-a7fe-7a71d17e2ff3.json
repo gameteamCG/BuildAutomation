@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Uppercase_letterV",
+    "texture": "5fef1474-646f-491d-9a73-7cfae1353b9a",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      714,
+      244
+    ],
+    "offset": [
+      0,
+      24.5
+    ],
+    "originalSize": [
+      714,
+      313
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
