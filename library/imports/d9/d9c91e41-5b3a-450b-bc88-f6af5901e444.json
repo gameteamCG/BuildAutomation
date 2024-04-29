@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nest_0004_parrot",
+    "texture": "500ea683-d61b-4e6a-ad90-e58108b56fa0",
+    "atlas": "",
+    "rect": [
+      14,
+      12,
+      277,
+      276
+    ],
+    "offset": [
+      2.5,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
