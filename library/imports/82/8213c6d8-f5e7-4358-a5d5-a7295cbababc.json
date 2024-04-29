@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mouthwash",
+    "texture": "e4c56db1-4a9e-4c1c-832e-9e4c5537fd98",
+    "atlas": "",
+    "rect": [
+      148,
+      13,
+      205,
+      475
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
