@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "identify_planet",
+    "texture": "3b819032-9691-47e7-8a03-cb02ca46fdb4",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      495,
+      273
+    ],
+    "offset": [
+      0,
+      12.5
+    ],
+    "originalSize": [
+      495,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
