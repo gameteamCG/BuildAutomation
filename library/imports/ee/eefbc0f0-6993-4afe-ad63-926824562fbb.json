@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "skipper",
+    "texture": "2b196ecf-26ca-4d21-b561-1d3217bb264a",
+    "atlas": "",
+    "rect": [
+      39,
+      92,
+      173,
+      72
+    ],
+    "offset": [
+      0.5,
+      -3
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
