@@ -1,0 +1,111 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Identify planets",
+      "totalLevel": "3",
+      "TitleImageName": "Asset 29-8.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset 30-8.png",
+        "questionAudioName": "BGM.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "Asset 10-8.png",
+          "Asset 9-8.png",
+          "Asset 8-8.png",
+          "Asset 6-8.png",
+          "Asset 7-8.png"
+        ],
+        "optionsBg": [
+          "Asset 5-8.png",
+          "Asset 4-8.png",
+          "Asset 3-8.png",
+          "Asset 1-8.png",
+          "Asset 2-8.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "mercury.mp3",
+          "venus.mp3",
+          "earth.mp3",
+          "comet.mp3",
+          "asteroid.mp3"
+        ],
+        "correctAnswerNum": "12345"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset 30-8.png",
+        "questionAudioName": "BGM.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "Asset 13-8.png",
+          "Asset 14-8.png",
+          "Asset 15-8.png",
+          "Asset 11-8.png",
+          "Asset 12-8.png"
+        ],
+        "optionsBg": [
+          "Asset 18-8.png",
+          "Asset 19-8.png",
+          "Asset 20-8.png",
+          "Asset 16-8.png",
+          "Asset 17-8.png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "mars.mp3",
+          "Jupiter.mp3",
+          "saturn.mp3",
+          "rocket(2).mp3",
+          "astronaut.mp3"
+        ],
+        "correctAnswerNum": "12345"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset 30-8.png",
+        "questionAudioName": "BGM.mp3",
+        "shouldPlayQuestionAudio": false,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 27-8.png",
+          "Asset 28-8.png",
+          "Asset 25-8.png",
+          "Asset 26-8.png"
+        ],
+        "optionsBg": [
+          "Asset 23-8.png",
+          "Asset 24-8.png",
+          "Asset 21-8.png",
+          "Asset 22-8.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "uranus.mp3",
+          "Neptune.mp3",
+          "sun.mp3",
+          "Moon.mp3"
+        ],
+        "correctAnswerNum": "1234"
+      }
+    ]
+  }
+}
