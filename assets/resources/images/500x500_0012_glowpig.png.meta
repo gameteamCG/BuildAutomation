@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a9b3bc13-57a0-4485-9eb6-cfacb9a19d08",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0012_glowpig": {
+      "ver": "1.0.6",
+      "uuid": "d1973eb3-eea5-4664-8435-9b13ca09ac02",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a9b3bc13-57a0-4485-9eb6-cfacb9a19d08",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": 2.5,
+      "trimX": 8,
+      "trimY": 60,
+      "width": 488,
+      "height": 375,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

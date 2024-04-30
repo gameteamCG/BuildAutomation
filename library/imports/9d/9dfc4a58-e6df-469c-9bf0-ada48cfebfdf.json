@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0010_glowparrot",
+    "texture": "bb3b8c5e-200a-40e2-82ce-fd7b8b40fe68",
+    "atlas": "",
+    "rect": [
+      113,
+      4,
+      278,
+      488
+    ],
+    "offset": [
+      2,
+      2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

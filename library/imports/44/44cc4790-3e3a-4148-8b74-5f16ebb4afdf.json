@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0013_parrot",
+    "texture": "cf7ac83c-c4cc-4441-bd37-7aadf168ca09",
+    "atlas": "",
+    "rect": [
+      121,
+      12,
+      262,
+      472
+    ],
+    "offset": [
+      2,
+      2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
