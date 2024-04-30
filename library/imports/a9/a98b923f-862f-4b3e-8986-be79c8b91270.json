@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stove",
+    "texture": "14fa7cdb-b173-49bf-bb11-7a0a2ee19933",
+    "atlas": "",
+    "rect": [
+      0,
+      12,
+      197,
+      70
+    ],
+    "offset": [
+      0,
+      -6
+    ],
+    "originalSize": [
+      197,
+      82
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

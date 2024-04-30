@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Kitchen_LKGCB1",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Kitchen_1712397729137.mp4",
+      "TitleImageName": "kitchen.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "Singham",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999999",
+        "IsQuestionText": true,
+        "QuestionText": "Tap on the kitchen",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Taponthekitchen.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "bedroom.png",
+          "kitchen.png"
+        ],
+        "ReiterationAudioName": "Kitchen.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999999",
+        "IsQuestionText": true,
+        "QuestionText": "Which of these is not found in the kitchen?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whichoftheseisnotfoundinthekithekitchen.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "pot.png",
+          "bath tub.png"
+        ],
+        "ReiterationAudioName": "EXCELLENTJOB.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999999",
+        "IsQuestionText": true,
+        "QuestionText": "Where do we keep fruits and vegetables",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Wheredoyoukeepfruits.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "refrigerator.png",
+          "sink.png"
+        ],
+        "ReiterationAudioName": "Refrigerator.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the oven",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identifytheoven.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "oven.png",
+          "table.png"
+        ],
+        "ReiterationAudioName": "Oven.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999999",
+        "IsQuestionText": true,
+        "QuestionText": "sink",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Taponthesink.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "sink.png",
+          "stove.png"
+        ],
+        "ReiterationAudioName": "Sink.mp3",
+        "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
