@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "berries",
+    "texture": "111d05f6-84c2-40fc-a188-e1217976c928",
+    "atlas": "",
+    "rect": [
+      80,
+      125,
+      326,
+      207
+    ],
+    "offset": [
+      -7.5,
+      22
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

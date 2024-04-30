@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "foodforbirds",
+    "texture": "075b4524-9b03-41f6-8e12-e54229149c56",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      547,
+      236
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      547,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

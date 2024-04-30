@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "newspaper",
+    "texture": "25d2e12c-6d92-4c4d-8678-d2c55c768480",
+    "atlas": "",
+    "rect": [
+      82,
+      119,
+      324,
+      221
+    ],
+    "offset": [
+      -6.5,
+      21
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
