@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mylegs",
+    "texture": "5c86ac6b-fdd7-473b-8ab0-cd160b466da8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      528,
+      227
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      528,
+      227
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
