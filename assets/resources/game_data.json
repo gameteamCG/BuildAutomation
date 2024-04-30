@@ -1,0 +1,76 @@
+{
+  "additionalData": {
+    "GameID": "Gender_LKGCB1",
+    "totalLevel": "3",
+    "TitleImageName": "Asset 15-8.png",
+    "introBgName": "bg12.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Singham"
+  },
+  "questionData": [
+    {
+      "questionText": "Match the correct gender.",
+      "questionAudioName": "Match the correct gender.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset 1-8.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "Asset 6-8.png"
+      ],
+      "reiterations": [
+        "Father.mp3"
+      ],
+      "commonRightOptionImageName": "Asset 1-8.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset 5-8.png",
+        "plant.png"
+      ]
+    },
+    {
+      "questionText": "Match the correct gender.",
+      "questionAudioName": "Match the correct gender.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset 1-8.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "Asset 8-8.png"
+      ],
+      "reiterations": [
+        "grandfather.mp3"
+      ],
+      "commonRightOptionImageName": "Asset 1-8.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset 7-8.png",
+        "Asset 11-8.png"
+      ]
+    },
+    {
+      "questionText": "Match the correct gender.",
+      "questionAudioName": "Match the correct gender.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset 1-8.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "Asset 10-8.png"
+      ],
+      "reiterations": [
+        "Waitress.mp3"
+      ],
+      "commonRightOptionImageName": "Asset 1-8.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset 9-8.png",
+        "toy.png"
+      ]
+    }
+  ]
+}
