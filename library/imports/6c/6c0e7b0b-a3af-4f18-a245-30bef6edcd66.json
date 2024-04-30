@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lemon1",
+    "texture": "4a1301c0-cb85-4972-93c0-df7633e1a798",
+    "atlas": "",
+    "rect": [
+      122,
+      71,
+      259,
+      361
+    ],
+    "offset": [
+      1.5,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
