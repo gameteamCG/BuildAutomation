@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Rainy season food items week 7 jkg",
+      "totalLevel": "7",
+      "TitleImageName": "rainyseason.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "Francesco_Biondi_ Kids_Games_bgm.mp3",
+      "mainBgName": "bg_7.png",
+      "JockeyName": "tlc",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "monsoon food",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "corn.png",
+          "chair.png"
+        ],
+        "correctAudios": [
+          "corn.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "monsoon food",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "fan (1).png",
+          "soup.png"
+        ],
+        "correctAudios": [
+          "SOUP.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "monsoon food",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "fritters.png",
+          "bucket.png"
+        ],
+        "correctAudios": [
+          "Fritters.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "monsoon food",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Ball (2).png",
+          "grilled-sandwich.png"
+        ],
+        "correctAudios": [
+          "Grilled_sandwich.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "monsoon food",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "noodles.png",
+          "Kite 1.png"
+        ],
+        "correctAudios": [
+          "Noodles .mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "monsoon food",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Vase.png",
+          "fruit_smoothie.png"
+        ],
+        "correctAudios": [
+          "Fruit_smoothie.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "monsoon food",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "potato_wedges.png",
+          "boat1.png"
+        ],
+        "correctAudios": [
+          "Potato_wedges.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

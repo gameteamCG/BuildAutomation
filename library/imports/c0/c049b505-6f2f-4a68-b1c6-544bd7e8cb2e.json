@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "potato_wedges",
+    "texture": "2f23bf5c-2e55-4b1f-89e6-16fb9150da55",
+    "atlas": "",
+    "rect": [
+      21,
+      92,
+      442,
+      347
+    ],
+    "offset": [
+      -8,
+      -15.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

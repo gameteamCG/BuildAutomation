@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fritters",
+    "texture": "cbca5eb2-e96b-4646-8992-f1c38e504930",
+    "atlas": "",
+    "rect": [
+      18,
+      152,
+      463,
+      196
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

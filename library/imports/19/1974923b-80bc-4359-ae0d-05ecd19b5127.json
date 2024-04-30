@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grilled-sandwich",
+    "texture": "4fa73072-8663-4e38-be54-9755753166fc",
+    "atlas": "",
+    "rect": [
+      22,
+      104,
+      456,
+      291
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fruit_smoothie",
+    "texture": "7c953007-2777-4c93-bd9c-158943b730a6",
+    "atlas": "",
+    "rect": [
+      140,
+      27,
+      219,
+      446
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

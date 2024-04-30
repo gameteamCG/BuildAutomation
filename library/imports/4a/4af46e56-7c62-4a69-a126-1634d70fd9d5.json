@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "noodles",
+    "texture": "93702893-7019-4e69-890a-090c4c3ace9a",
+    "atlas": "",
+    "rect": [
+      26,
+      117,
+      448,
+      266
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
