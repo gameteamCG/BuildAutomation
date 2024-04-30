@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slim",
+    "texture": "22f14f7e-a1d7-4f7f-ba1a-bce9f7a3d707",
+    "atlas": "",
+    "rect": [
+      180,
+      15,
+      140,
+      472
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

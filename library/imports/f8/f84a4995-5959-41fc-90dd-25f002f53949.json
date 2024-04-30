@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sled",
+    "texture": "2b2de9bd-176f-4a4b-a9a1-b734b4d402d5",
+    "atlas": "",
+    "rect": [
+      8,
+      131,
+      484,
+      238
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

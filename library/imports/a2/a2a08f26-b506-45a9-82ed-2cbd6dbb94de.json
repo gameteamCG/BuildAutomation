@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slam",
+    "texture": "246a1936-edd7-46d4-8594-c7a399c23e84",
+    "atlas": "",
+    "rect": [
+      48,
+      6,
+      406,
+      488
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
