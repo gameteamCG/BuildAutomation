@@ -1,0 +1,150 @@
+{
+  "additionalData": {
+    "GameID": "Uppercase letter X",
+    "totalLevel": "5",
+    "TitleImageName": "Uppercase_letterX.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "bgmpattern.mp3",
+    "JockeyName": "tlc"
+  },
+  "questionData": [
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "bg.png",
+      "questionAudioName": "taponthekitewithlettersoundxxx.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "",
+        "",
+        ""
+      ],
+      "optionsBg": [
+        "800.png",
+        "500.png",
+        "200.png"
+      ],
+      "correctAudioName": "GOODJOB.mp3",
+      "wrongAudioName": "ohoh.mp3",
+      "reiterationAudioName": [
+        "SoundofX.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "bg10.png",
+      "questionAudioName": "tap_to_colour_the_animal_which_has_the_letter_sound_xxx.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "lion.png",
+        "fox.png",
+        "tiger.png",
+        "ox.png"
+      ],
+      "optionsBg": [
+        "fox1.png",
+        "fox1.png",
+        "tiger1.png",
+        "ox1.png"
+      ],
+      "correctAudioName": "GREATWORK.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "fox.mp3",
+        "ox.mp3"
+      ],
+      "correctAnswerNum": "24"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "BGbg.png",
+      "questionAudioName": "taptocolourtehballswithlettersoundxx.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 5,
+      "options": [
+        "8.png",
+        "3.png",
+        "5.png",
+        "11.png",
+        "5.png"
+      ],
+      "optionsBg": [
+        "14.png",
+        "13.png",
+        "15.png",
+        "16.png",
+        "15.png"
+      ],
+      "correctAudioName": "INCREDIBLE.mp3",
+      "wrongAudioName": "nevermindtryagain.mp3",
+      "reiterationAudioName": [
+        "SoundofX.mp3",
+        "SoundofX.mp3"
+      ],
+      "correctAnswerNum": "35"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "bg2.png",
+      "questionAudioName": "tapontheobjectswithlettersoundxxx.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 5,
+      "options": [
+        "six.png",
+        "mug.png",
+        "lemon.png",
+        "box.png",
+        "jar.png"
+      ],
+      "optionsBg": [
+        "six1.png",
+        "mug1.png",
+        "lemon1.png",
+        "box1.png",
+        "jar1.png"
+      ],
+      "correctAudioName": "MAGNIFICENT.mp3",
+      "wrongAudioName": "ohoh.mp3",
+      "reiterationAudioName": [
+        "6.mp3",
+        "box.mp3"
+      ],
+      "correctAnswerNum": "14"
+    },
+    {
+      "questionLayout": "layout2",
+      "questionBgName": "BG1.png",
+      "questionAudioName": "taponallthesockswithlettersoundxx.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 5,
+      "options": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "optionsBg": [
+        "110.png",
+        "60.png",
+        "30.png",
+        "20.png",
+        "120.png"
+      ],
+      "correctAudioName": "BRILLIANT.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "SoundofX.mp3",
+        "SoundofX.mp3"
+      ],
+      "correctAnswerNum": "25"
+    }
+  ]
+}
