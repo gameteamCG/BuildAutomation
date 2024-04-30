@@ -1,0 +1,96 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Study room",
+      "totalLevel": "4",
+      "TitleImageName": "titel.png",
+      "introBgName": "bg (2).png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Mighty_Raju",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "Study room items",
+        "questionImageName": "ca.png",
+        "questionAudioName": "Canyoufind thingsyouseeina StudyRoom.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "fr.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "b.png",
+          "j.png",
+          "wheel.png"
+        ],
+        "correctAudios": [
+          "books.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Study room items",
+        "questionImageName": "ca.png",
+        "questionAudioName": "Canyoufind thingsyouseeina StudyRoom.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "fr.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "sc.png",
+          "thread.png",
+          "wheat.png"
+        ],
+        "correctAudios": [
+          "Chair.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Study room items",
+        "questionImageName": "ca.png",
+        "questionAudioName": "Canyoufind thingsyouseeina StudyRoom.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "fr.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "s.png",
+          "ti.png",
+          "co.png"
+        ],
+        "correctAudios": [
+          "computer.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Study room items",
+        "questionImageName": "ca.png",
+        "questionAudioName": "Canyoufind thingsyouseeina StudyRoom.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "fr.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "wheel.png",
+          "cr.png",
+          "umbrella_C.png"
+        ],
+        "correctAudios": [
+          "crayons.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
