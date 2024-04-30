@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "durbin",
+    "texture": "21879743-32f9-4d25-82c3-08fe3b782a40",
+    "atlas": "",
+    "rect": [
+      15,
+      38,
+      220,
+      173
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
