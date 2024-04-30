@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cupwin",
+    "texture": "fd296f01-d473-454f-862a-33479a949f0e",
+    "atlas": "",
+    "rect": [
+      112,
+      54,
+      332,
+      394
+    ],
+    "offset": [
+      28,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

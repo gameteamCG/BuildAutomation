@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hug",
+    "texture": "dd7ee81c-202f-4cf6-96b7-bd80465ce1e7",
+    "atlas": "",
+    "rect": [
+      115,
+      80,
+      334,
+      342
+    ],
+    "offset": [
+      32,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
