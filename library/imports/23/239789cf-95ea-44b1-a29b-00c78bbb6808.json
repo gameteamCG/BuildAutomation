@@ -1,0 +1,140 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Vowel - Ii",
+      "totalLevel": "6",
+      "TitleImageName": "vowelIi.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "tlc",
+      "templateType": "TapToCollect"
+    },
+    "questionData": [
+      {
+        "questionText": "vowel",
+        "questionImageName": "basketL4.png",
+        "questionAudioName": "SELECT_THE_OBJECTS_THAT_START_WITH_THE_VOWEL_I.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "insect.png",
+          "octopus.png",
+          "ant.png",
+          "fish.png"
+        ],
+        "correctAudios": [
+          "insect.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "vowel",
+        "questionImageName": "basketL4.png",
+        "questionAudioName": "SELECT_THE_OBJECTS_THAT_START_WITH_THE_VOWEL_I.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "ambulance.png",
+          "fox.png",
+          "kite.png",
+          "igloo.png"
+        ],
+        "correctAudios": [
+          "igloo.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "vowel",
+        "questionImageName": "basketL4.png",
+        "questionAudioName": "SELECT_THE_OBJECTS_THAT_START_WITH_THE_VOWEL_I.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "apple.png",
+          "ice cream.png",
+          "orange.png",
+          "onoon.png"
+        ],
+        "correctAudios": [
+          "ice_cream.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "vowel",
+        "questionImageName": "basketL4.png",
+        "questionAudioName": "SELECT_THE_OBJECTS_THAT_START_WITH_THE_VOWEL_I.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "cat.png",
+          "duck.png",
+          "iguana.png",
+          "crocodile.png"
+        ],
+        "correctAudios": [
+          "igwana.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "vowel",
+        "questionImageName": "basketL4.png",
+        "questionAudioName": "SELECT_THE_OBJECTS_THAT_START_WITH_THE_VOWEL_I.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "ink.png",
+          "lamp.png",
+          "car.png",
+          "plane.png"
+        ],
+        "correctAudios": [
+          "INK.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "vowel",
+        "questionImageName": "basketL4.png",
+        "questionAudioName": "SELECT_THE_OBJECTS_THAT_START_WITH_THE_VOWEL_I.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "turtle.png",
+          "iron.png",
+          "axe.png",
+          "ox.png"
+        ],
+        "correctAudios": [
+          "Iron.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
