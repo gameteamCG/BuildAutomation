@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "milk",
+    "texture": "816a822d-b61a-43a2-898f-a3aa7ddb8676",
+    "atlas": "",
+    "rect": [
+      207,
+      79,
+      132,
+      368
+    ],
+    "offset": [
+      22.5,
+      -12.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
