@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hotairbalon",
+    "texture": "4d30fea2-c74f-48e9-8d44-c2878ff1ca08",
+    "atlas": "",
+    "rect": [
+      117,
+      11,
+      268,
+      473
+    ],
+    "offset": [
+      0.5,
+      3
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

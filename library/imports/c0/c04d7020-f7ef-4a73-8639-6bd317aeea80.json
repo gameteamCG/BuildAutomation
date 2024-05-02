@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Bike",
+    "texture": "8e19a8e5-07e3-4454-8d49-8ba8d2cab359",
+    "atlas": "",
+    "rect": [
+      3,
+      90,
+      493,
+      320
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

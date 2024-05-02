@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vehicleinair",
+    "texture": "f3c5463b-6c3b-4a36-8cbe-3b6962a2d42a",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      395,
+      207
+    ],
+    "offset": [
+      6,
+      2.5
+    ],
+    "originalSize": [
+      437,
+      264
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
