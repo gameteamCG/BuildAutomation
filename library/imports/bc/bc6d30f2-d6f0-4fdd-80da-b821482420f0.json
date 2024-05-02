@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guitar",
+    "texture": "abe0def4-bdcf-42b2-a3f8-1d457ece9fcb",
+    "atlas": "",
+    "rect": [
+      109,
+      62,
+      362,
+      386
+    ],
+    "offset": [
+      40,
+      -5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

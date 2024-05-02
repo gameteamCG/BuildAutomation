@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ostrich",
+    "texture": "40806cca-a158-45d7-aa31-fc80b2259f35",
+    "atlas": "",
+    "rect": [
+      132,
+      30,
+      340,
+      445
+    ],
+    "offset": [
+      52,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
