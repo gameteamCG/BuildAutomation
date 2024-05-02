@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Baby shark song (nursary)",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/PTR_E69_BabySharkSong.mp4",
+      "TitleImageName": "Asset 26.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "tlc",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "baby shark",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identifythebabyshark.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "babyshark.png",
+          "grandmashark.png"
+        ],
+        "ReiterationAudioName": "GOODJOB.mp3",
+        "CorrectAudioName": "babyshark.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "daddy shark",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Choosetheimageofdaddyshark.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "grandpaashark.png",
+          "papashark.png"
+        ],
+        "ReiterationAudioName": "GREATWORK.mp3",
+        "CorrectAudioName": "daddyshark.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "Where do sharks live?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Wheredosharkslive.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "underwater.png",
+          "jungle.png"
+        ],
+        "ReiterationAudioName": "EXCELLENTJOB.mp3",
+        "CorrectAudioName": "underwater.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
