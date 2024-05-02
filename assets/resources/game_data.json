@@ -1,0 +1,103 @@
+{
+  "AdditionalData": {
+    "GameID": "days in a month",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/9928990176_Days_in_Month_1714633549562.mp4",
+    "TitleImageName": "Days_in_a_month.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "may",
+      "QuestionImageName": "",
+      "QuestionAudioName": "1_How_many_days_are_there_in_the_month_of_May.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "31.png",
+        "28.png"
+      ],
+      "ReiterationAudioName": "31.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "November",
+      "QuestionImageName": "",
+      "QuestionAudioName": "2_How_many_days_are_there_in_the_month_of_November.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "30.png",
+        "31.png"
+      ],
+      "ReiterationAudioName": "30.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "February",
+      "QuestionImageName": "",
+      "QuestionAudioName": "3_How_many_days_are_there_in_the_month_of_February_in_the_leap_year.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "31.png",
+        "29.png"
+      ],
+      "ReiterationAudioName": "29.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "January",
+      "QuestionImageName": "",
+      "QuestionAudioName": "4_How_many_days_are_there_in_the_month_of_January.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "31.png",
+        "28.png"
+      ],
+      "ReiterationAudioName": "31.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "September",
+      "QuestionImageName": "",
+      "QuestionAudioName": "5_How_many_days_are_there_in_the_month_of_September.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "31.png",
+        "30.png"
+      ],
+      "ReiterationAudioName": "30.mp3",
+      "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
