@@ -1,0 +1,109 @@
+{
+  "additionalData": {
+    "GameID": "Capacity",
+    "totalLevel": "5",
+    "TitleImageName": "Asset.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "BGM_1.mp3",
+    "mainBgName": "BG.png",
+    "JockeyName": "tlc",
+    "templateType": "ObjectsTweenIn"
+  },
+  "questionData": [
+    {
+      "questionText": "less capacity",
+      "questionImageName": "2d_bx.png",
+      "questionAudioName": "tap_on_the_object_with_less_capacity.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "box.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "dustbin.png",
+        "bathtub.png",
+        "bowl.png"
+      ],
+      "correctAudios": [
+        "bowl.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "more capacity",
+      "questionImageName": "2d_bx.png",
+      "questionAudioName": "tap_on_the_object_with_more_capacity.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "box.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "oil tank.png",
+        "barrel.png",
+        "vase.png"
+      ],
+      "correctAudios": [
+        "barrel.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "less capacity",
+      "questionImageName": "2d_bx.png",
+      "questionAudioName": "tap_on_the_object_with_less_capacity.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "box.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "cup.png",
+        "milk.png",
+        "fishbowl.png"
+      ],
+      "correctAudios": [
+        "cup.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "more capacity",
+      "questionImageName": "2d_bx.png",
+      "questionAudioName": "tap_on_the_object_with_more_capacity.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "box.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "dustbin.png",
+        "bathtub.png",
+        "barrel.png"
+      ],
+      "correctAudios": [
+        "baathtub.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "less capacity",
+      "questionImageName": "2d_bx.png",
+      "questionAudioName": "tap_on_the_object_with_less_capacity.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "box.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "bathtub.png",
+        "barrel.png",
+        "vase.png"
+      ],
+      "correctAudios": [
+        "vase.mp3"
+      ],
+      "correctAnswerNum": "3"
+    }
+  ]
+}
