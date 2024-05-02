@@ -1,0 +1,74 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "letter i",
+      "totalLevel": "3",
+      "TitleImageName": "title.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGMBackward.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tlc",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "sound i",
+        "questionImageName": "crate.png",
+        "questionAudioName": "collect_all_objects_that_begin_with_the_letter_sound_iii.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "com_box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ice.png",
+          "test_tube.png"
+        ],
+        "correctAudios": [
+          "ice.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "sound i",
+        "questionImageName": "crate.png",
+        "questionAudioName": "collect_all_objects_that_begin_with_the_letter_sound_iii.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "com_box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "d.png",
+          "igloo.png"
+        ],
+        "correctAudios": [
+          "igloo.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "sound i",
+        "questionImageName": "crate.png",
+        "questionAudioName": "collect_all_objects_that_begin_with_the_letter_sound_iii.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "com_box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "injection.png",
+          "sand.png"
+        ],
+        "correctAudios": [
+          "injection.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
