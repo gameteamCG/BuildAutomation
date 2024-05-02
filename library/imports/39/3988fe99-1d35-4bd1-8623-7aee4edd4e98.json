@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "好工作",
+    "texture": "69fd35bb-4083-4bcb-8497-f1303eecebf3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      400,
+      143
+    ],
+    "offset": [
+      0,
+      6.5
+    ],
+    "originalSize": [
+      400,
+      156
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
