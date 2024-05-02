@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "NumberNames71-75",
+    "texture": "06b1e2e5-0a02-4dde-ae6c-2d16c767fe5d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1177,
+      427
+    ],
+    "offset": [
+      0,
+      4.5
+    ],
+    "originalSize": [
+      1177,
+      436
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
