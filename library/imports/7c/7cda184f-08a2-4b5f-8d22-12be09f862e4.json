@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tanktopL2",
+    "texture": "36d9ab79-167f-459a-a5b2-16acf71ba16d",
+    "atlas": "",
+    "rect": [
+      29,
+      1,
+      136,
+      198
+    ],
+    "offset": [
+      -3,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
