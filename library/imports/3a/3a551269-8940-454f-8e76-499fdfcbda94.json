@@ -1,0 +1,160 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Short and Long 'o' Sound : UKG CB1",
+      "totalLevel": "7",
+      "TitleImageName": "title.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM_BW_game.mp3",
+      "mainBgName": "bg_8.png",
+      "JockeyName": "Singham",
+      "templateType": "TapToCollect"
+    },
+    "questionData": [
+      {
+        "questionText": "Long o sound",
+        "questionImageName": "2d_bx.png",
+        "questionAudioName": "Collect_the_pictures_with_long_o_sound.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "250x250_0002_mat.png",
+          "250x250_0003_rat.png",
+          "250x250_0017_coat.png",
+          "250x250_0023_Bat.png"
+        ],
+        "correctAudios": [
+          "Coat.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Long o sound",
+        "questionImageName": "2d_bx.png",
+        "questionAudioName": "Collect_the_pictures_with_long_o_sound.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "250x250_0007_mug.png",
+          "250x250_0019_bug.png",
+          "250x250_0024_tortoise.png",
+          "250x250_0025_tag.png"
+        ],
+        "correctAudios": [
+          "TORTOISSE.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Long o sound",
+        "questionImageName": "2d_bx.png",
+        "questionAudioName": "collectpicturewithlongo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "250x250_0026_stove.png",
+          "250x250_0006_pan.png",
+          "250x250_0008_man.png",
+          "250x250_0014_fan.png"
+        ],
+        "correctAudios": [
+          "Stove.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Long o sound",
+        "questionImageName": "2d_bx.png",
+        "questionAudioName": "collectpicturewithlongo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "250x250_0010_jet.png",
+          "250x250_0009_Joe.png",
+          "250x250_0011_jar.png",
+          "250x250_0018_Car.png"
+        ],
+        "correctAudios": [
+          "joe.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Long o sound",
+        "questionImageName": "2d_bx.png",
+        "questionAudioName": "collectpicturewithlongo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "250x250_0004_pot.png",
+          "250x250_0015_dot.png",
+          "250x250_0016_crow.png",
+          "250x250_0027_stop.png"
+        ],
+        "correctAudios": [
+          "crow.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Long o sound",
+        "questionImageName": "2d_bx.png",
+        "questionAudioName": "collectpicturewithlongo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "250x250_0001_rose.png",
+          "250x250_0012_home.png",
+          "250x250_0013_fox.png",
+          "250x250_0020_box.png"
+        ],
+        "correctAudios": [
+          "Home.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Long o sound",
+        "questionImageName": "2d_bx.png",
+        "questionAudioName": "collectpicturewithlongo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "250x250_0000_six.png",
+          "250x250_0005_pig.png",
+          "250x250_0021_boat.png",
+          "250x250_0022_bin.png"
+        ],
+        "correctAudios": [
+          "boat.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
