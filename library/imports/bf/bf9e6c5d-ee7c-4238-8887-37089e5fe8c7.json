@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cabbage",
+    "texture": "dbe18bc4-750f-4079-9fd3-80cb95e025be",
+    "atlas": "",
+    "rect": [
+      1,
+      38,
+      499,
+      424
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
