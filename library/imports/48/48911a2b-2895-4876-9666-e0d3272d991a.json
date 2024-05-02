@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wrongcastle",
+    "texture": "69624ada-eadb-4bb8-862c-604c610c7a94",
+    "atlas": "",
+    "rect": [
+      26,
+      108,
+      448,
+      284
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

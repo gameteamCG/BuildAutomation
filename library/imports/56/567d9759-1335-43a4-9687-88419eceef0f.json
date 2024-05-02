@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "washingplate",
+    "texture": "e2ece2b8-d7e3-4bcb-8200-5fa2fd60fb07",
+    "atlas": "",
+    "rect": [
+      31,
+      102,
+      439,
+      296
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
