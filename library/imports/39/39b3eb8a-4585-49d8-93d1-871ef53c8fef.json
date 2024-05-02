@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zipper",
+    "texture": "b379e57d-88c7-4ebb-bf01-97c2fc5cd9f6",
+    "atlas": "",
+    "rect": [
+      163,
+      143,
+      175,
+      294
+    ],
+    "offset": [
+      0,
+      -39.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

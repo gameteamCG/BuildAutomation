@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zooshadow",
+    "texture": "93736428-5c06-4068-9abb-a1b2f80baa8e",
+    "atlas": "",
+    "rect": [
+      41,
+      37,
+      389,
+      391
+    ],
+    "offset": [
+      -15,
+      18
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
