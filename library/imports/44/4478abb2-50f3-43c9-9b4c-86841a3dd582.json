@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "salty",
+    "texture": "6b65aa9e-d78b-486a-94fc-5cd563554f19",
+    "atlas": "",
+    "rect": [
+      43,
+      95,
+      162,
+      75
+    ],
+    "offset": [
+      -1,
+      -7.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

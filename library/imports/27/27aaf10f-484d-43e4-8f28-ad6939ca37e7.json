@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tastebuds",
+    "texture": "e63801d5-acda-4698-8c86-e88eb56357a3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1024,
+      243
+    ],
+    "offset": [
+      0,
+      5
+    ],
+    "originalSize": [
+      1024,
+      253
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
