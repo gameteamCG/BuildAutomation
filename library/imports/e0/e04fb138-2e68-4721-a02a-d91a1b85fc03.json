@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "beg",
+    "texture": "526acc81-ae6c-484a-b2cd-0d195709f1e3",
+    "atlas": "",
+    "rect": [
+      86,
+      92,
+      78,
+      72
+    ],
+    "offset": [
+      0,
+      -3
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

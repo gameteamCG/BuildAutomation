@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "baker",
+    "texture": "bc90fe6b-80ef-40e3-b84b-8781bac1fe97",
+    "atlas": "",
+    "rect": [
+      67,
+      8,
+      116,
+      233
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

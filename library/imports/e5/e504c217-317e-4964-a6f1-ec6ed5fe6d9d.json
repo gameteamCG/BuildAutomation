@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "peg2",
+    "texture": "e29c24f8-e5c9-4eaf-9079-06efb1861fac",
+    "atlas": "",
+    "rect": [
+      78,
+      116,
+      86,
+      48
+    ],
+    "offset": [
+      -4,
+      -15
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
