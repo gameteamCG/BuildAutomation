@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rain_deer2",
+    "texture": "3dfe0e8e-c9af-475b-9425-0866fc0c1591",
+    "atlas": "",
+    "rect": [
+      153,
+      66,
+      244,
+      367
+    ],
+    "offset": [
+      25,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
