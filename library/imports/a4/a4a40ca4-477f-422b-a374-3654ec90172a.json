@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Heavy and light",
+      "totalLevel": "6",
+      "TitleImageName": "Asset 96.png",
+      "introBgName": "Bg8.png",
+      "bgmMusicName": "BGMmp3cut.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Singham",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Which object is heavy?",
+        "questionAudioName": "heavy.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "tomato.png",
+          "pumpkin.png"
+        ],
+        "correctAudios": [
+          "Pumpkin.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which object is light?",
+        "questionAudioName": "light.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "pin.png",
+          "nail.png"
+        ],
+        "correctAudios": [
+          "Pin.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which object is light?",
+        "questionAudioName": "light.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "tree.png",
+          "feather.png"
+        ],
+        "correctAudios": [
+          "Feather.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which object is heavy?",
+        "questionAudioName": "heavy.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "football.png",
+          "paper.png"
+        ],
+        "correctAudios": [
+          "football.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which object is light?",
+        "questionAudioName": "light.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "car.png",
+          "cycle.png"
+        ],
+        "correctAudios": [
+          "cycle.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which object is heavy?",
+        "questionAudioName": "heavy.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "balloon.png",
+          "rock.png"
+        ],
+        "correctAudios": [
+          "Stone.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

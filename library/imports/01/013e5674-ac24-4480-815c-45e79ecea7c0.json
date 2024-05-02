@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "feather",
+    "texture": "b5d1e173-ef87-495d-93b8-e90b2ce495ee",
+    "atlas": "",
+    "rect": [
+      204,
+      69,
+      94,
+      362
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
