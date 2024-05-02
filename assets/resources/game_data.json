@@ -1,0 +1,109 @@
+{
+  "additionalData": {
+    "GameID": "Number Names 71-75 :UKG CB1 : Page Number 101",
+    "totalLevel": "5",
+    "TitleImageName": "NumberNames71-75.png",
+    "introBgName": "introbg.png",
+    "bgmMusicName": "BBGGMM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Singham",
+    "templateType": "TapToCollect"
+  },
+  "questionData": [
+    {
+      "questionText": "74",
+      "questionImageName": "74.png",
+      "questionAudioName": "Choosethecorrectnumbernameforthegivennumber.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "tshirtL1.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Seventy four",
+        "Seventy one",
+        "Seventy two"
+      ],
+      "correctAudios": [
+        "74.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "72",
+      "questionImageName": "72.png",
+      "questionAudioName": "Choosethecorrectnumbernameforthegivennumber.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Untitled-1.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Seventy five",
+        "Seventy two",
+        "Seventy three"
+      ],
+      "correctAudios": [
+        "72.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "73",
+      "questionImageName": "73.png",
+      "questionAudioName": "Choosethecorrectnumbernameforthegivennumber.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "tanktopL2.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Seventy three",
+        "Seventy four",
+        "Seventy one"
+      ],
+      "correctAudios": [
+        "73.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "71",
+      "questionImageName": "71.png",
+      "questionAudioName": "Choosethecorrectnumbernameforthegivennumber.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "tshirtL.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Seventy five",
+        "Seventy two",
+        "Seventy one"
+      ],
+      "correctAudios": [
+        "71.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "75",
+      "questionImageName": "75.png",
+      "questionAudioName": "Choosethecorrectnumbernameforthegivennumber.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "hoodie.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Seventy five",
+        "Seventy three",
+        "Seventy one"
+      ],
+      "correctAudios": [
+        "75.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
