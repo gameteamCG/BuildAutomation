@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7dfee9c7-96dd-46e2-8f76-7fae0b57759d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0002_dinosaur": {
+      "ver": "1.0.6",
+      "uuid": "cdb30b7a-faf1-4e89-85ef-630eabbff7c8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7dfee9c7-96dd-46e2-8f76-7fae0b57759d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 12,
+      "offsetY": 0,
+      "trimX": 40,
+      "trimY": 36,
+      "width": 194,
+      "height": 178,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
