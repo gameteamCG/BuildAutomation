@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grapeL4",
+    "texture": "97314c08-d3f6-40f6-b23a-99064616c02c",
+    "atlas": "",
+    "rect": [
+      1,
+      72,
+      499,
+      358
+    ],
+    "offset": [
+      0.5,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
