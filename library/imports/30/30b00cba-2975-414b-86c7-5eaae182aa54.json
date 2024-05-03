@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hand-click-007",
+    "texture": "55f4b332-beeb-4f2a-818a-2afac82a7116",
+    "atlas": "",
+    "rect": [
+      58,
+      81,
+      260,
+      303
+    ],
+    "offset": [
+      -12,
+      -32.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

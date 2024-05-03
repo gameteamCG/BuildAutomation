@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pot (1)",
+    "texture": "4a0e48bb-4605-4444-bf56-74901d897b80",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      167,
+      166
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      167,
+      167
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

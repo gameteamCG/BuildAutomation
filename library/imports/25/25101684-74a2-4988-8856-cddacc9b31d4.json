@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "06_Click_V10013-min",
+    "texture": "236aecbd-e9ba-4bf6-b981-ebd8c9a0b155",
+    "atlas": "",
+    "rect": [
+      58,
+      39,
+      258,
+      341
+    ],
+    "offset": [
+      -13,
+      -9.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

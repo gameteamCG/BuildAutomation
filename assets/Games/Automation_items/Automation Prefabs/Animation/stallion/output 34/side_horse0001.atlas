@@ -1,0 +1,433 @@
+
+side_horse0001.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_3_4_0001
+  rotate: true
+  xy: 879, 127
+  size: 155, 112
+  orig: 155, 112
+  offset: 0, 0
+  index: -1
+1_3_4_0002
+  rotate: false
+  xy: 1083, 18
+  size: 62, 130
+  orig: 62, 130
+  offset: 0, 0
+  index: -1
+1_3_4_0004
+  rotate: true
+  xy: 638, 99
+  size: 182, 149
+  orig: 182, 149
+  offset: 0, 0
+  index: -1
+1_3_4_0005
+  rotate: false
+  xy: 681, 797
+  size: 194, 225
+  orig: 194, 225
+  offset: 0, 0
+  index: -1
+1_3_4_0006
+  rotate: false
+  xy: 899, 514
+  size: 59, 84
+  orig: 59, 84
+  offset: 0, 0
+  index: -1
+1_3_4_0007
+  rotate: false
+  xy: 973, 369
+  size: 126, 145
+  orig: 126, 145
+  offset: 0, 0
+  index: -1
+1_3_4_0010
+  rotate: false
+  xy: 962, 607
+  size: 67, 71
+  orig: 67, 71
+  offset: 0, 0
+  index: -1
+1_3_4_0011
+  rotate: false
+  xy: 736, 3
+  size: 79, 94
+  orig: 79, 94
+  offset: 0, 0
+  index: -1
+1_3_4_0012
+  rotate: false
+  xy: 1124, 158
+  size: 50, 127
+  orig: 50, 127
+  offset: 0, 0
+  index: -1
+1_3_4_0013
+  rotate: true
+  xy: 853, 284
+  size: 53, 93
+  orig: 53, 93
+  offset: 0, 0
+  index: -1
+1_3_4_0014
+  rotate: false
+  xy: 1004, 703
+  size: 42, 57
+  orig: 42, 57
+  offset: 0, 0
+  index: -1
+1_3_4_0015
+  rotate: false
+  xy: 153, 2
+  size: 67, 58
+  orig: 67, 58
+  offset: 0, 0
+  index: -1
+1_3_4_0017
+  rotate: false
+  xy: 858, 355
+  size: 62, 150
+  orig: 62, 150
+  offset: 0, 0
+  index: -1
+1_3_4_0018
+  rotate: true
+  xy: 688, 595
+  size: 163, 141
+  orig: 163, 141
+  offset: 0, 0
+  index: -1
+1_3_4_0019
+  rotate: true
+  xy: 2, 2
+  size: 58, 149
+  orig: 58, 149
+  offset: 0, 0
+  index: -1
+1_3_4_0020
+  rotate: true
+  xy: 681, 760
+  size: 35, 90
+  orig: 35, 90
+  offset: 0, 0
+  index: -1
+Horse F 3_40001
+  rotate: true
+  xy: 706, 339
+  size: 162, 150
+  orig: 162, 150
+  offset: 0, 0
+  index: -1
+Horse F 3_40002
+  rotate: true
+  xy: 924, 3
+  size: 122, 85
+  orig: 122, 85
+  offset: 0, 0
+  index: -1
+Horse F 3_40003
+  rotate: false
+  xy: 544, 760
+  size: 135, 262
+  orig: 135, 262
+  offset: 0, 0
+  index: -1
+Horse F 3_40005
+  rotate: true
+  xy: 948, 286
+  size: 75, 57
+  orig: 75, 57
+  offset: 0, 0
+  index: -1
+Horse F 3_40006
+  rotate: false
+  xy: 948, 860
+  size: 48, 80
+  orig: 48, 80
+  offset: 0, 0
+  index: -1
+Horse F 3_40007
+  rotate: false
+  xy: 688, 503
+  size: 55, 90
+  orig: 55, 90
+  offset: 0, 0
+  index: -1
+Horse F 3_40008
+  rotate: false
+  xy: 877, 925
+  size: 55, 97
+  orig: 55, 97
+  offset: 0, 0
+  index: -1
+Horse F 3_40009
+  rotate: false
+  xy: 1147, 38
+  size: 59, 118
+  orig: 59, 118
+  offset: 0, 0
+  index: -1
+Horse F 3_40010
+  rotate: true
+  xy: 773, 761
+  size: 34, 72
+  orig: 34, 72
+  offset: 0, 0
+  index: -1
+Horse F 3_40011
+  rotate: false
+  xy: 962, 680
+  size: 40, 79
+  orig: 40, 79
+  offset: 0, 0
+  index: -1
+Horse F 3_40012
+  rotate: false
+  xy: 831, 600
+  size: 129, 159
+  orig: 129, 159
+  offset: 0, 0
+  index: -1
+Horse F 3_40013
+  rotate: false
+  xy: 922, 363
+  size: 49, 149
+  orig: 49, 149
+  offset: 0, 0
+  index: -1
+Horse F 3_40014
+  rotate: false
+  xy: 797, 507
+  size: 100, 86
+  orig: 100, 86
+  offset: 0, 0
+  index: -1
+Horse F 3_40015
+  rotate: false
+  xy: 1007, 286
+  size: 51, 81
+  orig: 51, 81
+  offset: 0, 0
+  index: -1
+Horse F 3_40016
+  rotate: false
+  xy: 1011, 17
+  size: 70, 131
+  orig: 70, 131
+  offset: 0, 0
+  index: -1
+Horse F 3_40017
+  rotate: true
+  xy: 706, 283
+  size: 54, 145
+  orig: 54, 145
+  offset: 0, 0
+  index: -1
+Horse F 3_40018
+  rotate: false
+  xy: 989, 540
+  size: 45, 65
+  orig: 45, 65
+  offset: 0, 0
+  index: -1
+Horse F 3_40019
+  rotate: true
+  xy: 1147, 5
+  size: 31, 60
+  orig: 31, 60
+  offset: 0, 0
+  index: -1
+Untitled-4
+  rotate: true
+  xy: 2, 62
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+bord
+  rotate: false
+  xy: 544, 503
+  size: 142, 255
+  orig: 142, 255
+  offset: 0, 0
+  index: -1
+frunt_lips0001
+  rotate: false
+  xy: 877, 843
+  size: 69, 80
+  orig: 69, 80
+  offset: 0, 0
+  index: -1
+frunt_lips0002
+  rotate: false
+  xy: 926, 761
+  size: 69, 80
+  orig: 69, 80
+  offset: 0, 0
+  index: -1
+frunt_lips0003
+  rotate: false
+  xy: 934, 942
+  size: 69, 80
+  orig: 69, 80
+  offset: 0, 0
+  index: -1
+frunt_lips0004
+  rotate: false
+  xy: 1060, 287
+  size: 69, 80
+  orig: 69, 80
+  offset: 0, 0
+  index: -1
+newlip0001
+  rotate: false
+  xy: 280, 2
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+newlip0002
+  rotate: false
+  xy: 336, 2
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+newlip0003
+  rotate: false
+  xy: 392, 2
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+newlip0004
+  rotate: false
+  xy: 448, 2
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+newlip0005
+  rotate: false
+  xy: 504, 2
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+side_horse0001
+  rotate: false
+  xy: 544, 82
+  size: 92, 199
+  orig: 92, 199
+  offset: 0, 0
+  index: -1
+side_horse0002
+  rotate: false
+  xy: 997, 762
+  size: 28, 31
+  orig: 28, 31
+  offset: 0, 0
+  index: -1
+side_horse0003
+  rotate: false
+  xy: 789, 125
+  size: 43, 156
+  orig: 43, 156
+  offset: 0, 0
+  index: -1
+side_horse0004
+  rotate: true
+  xy: 877, 810
+  size: 31, 45
+  orig: 31, 45
+  offset: 0, 0
+  index: -1
+side_horse0005
+  rotate: true
+  xy: 870, 762
+  size: 33, 54
+  orig: 33, 54
+  offset: 0, 0
+  index: -1
+side_horse0006
+  rotate: false
+  xy: 745, 503
+  size: 50, 90
+  orig: 50, 90
+  offset: 0, 0
+  index: -1
+side_horse0007
+  rotate: false
+  xy: 960, 516
+  size: 27, 82
+  orig: 27, 82
+  offset: 0, 0
+  index: -1
+side_horse0008
+  rotate: false
+  xy: 222, 2
+  size: 56, 58
+  orig: 56, 58
+  offset: 0, 0
+  index: -1
+side_horse0009
+  rotate: true
+  xy: 544, 78
+  size: 2, 5
+  orig: 2, 5
+  offset: 0, 0
+  index: -1
+side_horse0010
+  rotate: true
+  xy: 997, 795
+  size: 63, 45
+  orig: 63, 45
+  offset: 0, 0
+  index: -1
+side_horse0011
+  rotate: true
+  xy: 817, 4
+  size: 119, 105
+  orig: 119, 105
+  offset: 0, 0
+  index: -1
+side_horse0012
+  rotate: false
+  xy: 847, 761
+  size: 21, 34
+  orig: 21, 34
+  offset: 0, 0
+  index: -1
+side_horse0013
+  rotate: true
+  xy: 544, 283
+  size: 218, 160
+  orig: 218, 160
+  offset: 0, 0
+  index: -1
+side_horse0014
+  rotate: true
+  xy: 560, 4
+  size: 76, 174
+  orig: 76, 174
+  offset: 0, 0
+  index: -1
+side_horse0015
+  rotate: false
+  xy: 834, 125
+  size: 43, 156
+  orig: 43, 156
+  offset: 0, 0
+  index: -1
+side_horse0016
+  rotate: false
+  xy: 993, 150
+  size: 129, 134
+  orig: 129, 134
+  offset: 0, 0
+  index: -1
