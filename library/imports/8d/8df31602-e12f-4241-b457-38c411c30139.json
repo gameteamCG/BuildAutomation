@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hoodie",
+    "texture": "590adcad-b702-460e-b4af-c2b7462cd0d8",
+    "atlas": "",
+    "rect": [
+      22,
+      6,
+      157,
+      191
+    ],
+    "offset": [
+      0.5,
+      -1.5
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

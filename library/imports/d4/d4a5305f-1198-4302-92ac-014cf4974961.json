@@ -1,0 +1,110 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number Names 76-80 :UKG CB1 : Page Number 102",
+      "totalLevel": "5",
+      "TitleImageName": "NumberNames76-80.png",
+      "introBgName": "introbg.png",
+      "bgmMusicName": "BBGGMM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Mighty_Raju",
+      "templateType": "TapToCollect"
+    },
+    "questionData": [
+      {
+        "questionText": "Number Name.",
+        "questionImageName": "76.png",
+        "questionAudioName": "Choosethecorrectnumbernameforthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "tanktopL2.png",
+        "isOptionText": true,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Seventy six",
+          "Seventy eight"
+        ],
+        "correctAudios": [
+          "76.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Number Name.",
+        "questionImageName": "79.png",
+        "questionAudioName": "Choosethecorrectnumbernameforthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "tshirt.png",
+        "isOptionText": true,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Seventy nine",
+          "Seventy six"
+        ],
+        "correctAudios": [
+          "79.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Number Name.",
+        "questionImageName": "80.png",
+        "questionAudioName": "Choosethecorrectnumbernameforthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "tshirtL.png",
+        "isOptionText": true,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Seventy five",
+          "Eighty"
+        ],
+        "correctAudios": [
+          "80.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Number Name.",
+        "questionImageName": "77.png",
+        "questionAudioName": "Choosethecorrectnumbernameforthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "tshirtL1.png",
+        "isOptionText": true,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Seventy seven",
+          "Seventy nine"
+        ],
+        "correctAudios": [
+          "77.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Number Name.",
+        "questionImageName": "78.png",
+        "questionAudioName": "Choosethecorrectnumbernameforthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "hoodie.png",
+        "isOptionText": true,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Seventy seven",
+          "Seventy eight"
+        ],
+        "correctAudios": [
+          "78.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
