@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number '7'",
+      "totalLevel": "6",
+      "TitleImageName": "Number 7.png",
+      "introBgName": "Juniorskg.png",
+      "bgmMusicName": "bgmss.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "7",
+        "questionAudioName": "tapontheframewith7rabbits.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset1.png",
+          "Asset3.png"
+        ],
+        "correctAudios": [
+          "L3correct.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "7",
+        "questionAudioName": "selecttheframewith7frogs.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset4.png",
+          "Asset5.png"
+        ],
+        "correctAudios": [
+          "l4correct.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "7",
+        "questionAudioName": "Choosethenumberpatterntileforthegivennumber..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset9.png",
+          "Asset7.png"
+        ],
+        "correctAudios": [
+          "L8Correct.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "7",
+        "questionAudioName": "selectthframewit7tigers.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset14.png",
+          "Asset13.png"
+        ],
+        "correctAudios": [
+          "L2Correct.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "7",
+        "questionAudioName": "whichframehas7giraffes.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset16.png",
+          "Asset17.png"
+        ],
+        "correctAudios": [
+          "L9Correct.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "7",
+        "questionAudioName": "whichframhas7monkeys.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset11.png",
+          "Asset12.png"
+        ],
+        "correctAudios": [
+          "l4correct.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
