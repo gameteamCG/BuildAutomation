@@ -1,0 +1,110 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "number 8",
+      "totalLevel": "6",
+      "TitleImageName": "number 8.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "BGMLetterT.mp3",
+      "mainBgName": "Asset 2.png",
+      "JockeyName": "supercub",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Eight",
+        "questionAudioName": "quest.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 1.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "fr_0000_Layer-7.png",
+          "fr_0001_Layer-6.png"
+        ],
+        "correctAudioName": "empty (2).mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Eight",
+        "questionAudioName": "quest.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 1.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "fr_0002_Layer-8.png",
+          "fr_0003_Layer-2.png"
+        ],
+        "correctAudioName": "empty (2).mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Eight",
+        "questionAudioName": "quest.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 1.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "fr_0005_Layer-5.png",
+          "fr_0004_Layer-9.png"
+        ],
+        "correctAudioName": "empty (2).mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Eight",
+        "questionAudioName": "quest.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 1.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "fr_0007_Layer-4.png",
+          "fr_0006_Layer-10.png"
+        ],
+        "correctAudioName": "empty (2).mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Eight",
+        "questionAudioName": "quest.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 1.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "fr_0009_Layer-3.png",
+          "fr_0008_Layer-11.png"
+        ],
+        "correctAudioName": "empty (2).mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Eight",
+        "questionAudioName": "quest.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 1.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "fr_0010_Layer-12.png",
+          "fr_0011_Layer-1.png"
+        ],
+        "correctAudioName": "empty (2).mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
