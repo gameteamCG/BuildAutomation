@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Number 1 ",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/01.mp4",
+      "TitleImageName": "Asset2.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "10000",
+        "IsQuestionText": true,
+        "QuestionText": " Identify the number",
+        "QuestionImageName": "",
+        "QuestionAudioName": "first_no.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "8",
+          "1"
+        ],
+        "ReiterationAudioName": "ONE.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nah_nah.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "10000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "1_1.png",
+        "QuestionAudioName": "Star_q.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Untitled_10001.png",
+          "Untitled_10002.png"
+        ],
+        "ReiterationAudioName": "wao.mp3",
+        "CorrectAudioName": "YOU_DID_IT.mp3",
+        "WrongAudioName": "no_no.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "10000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "1_1.png",
+        "QuestionAudioName": "Carrot_q.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "carrot1.png",
+          "carrot2.png"
+        ],
+        "ReiterationAudioName": "wao.mp3",
+        "CorrectAudioName": "DAZZLING.mp3",
+        "WrongAudioName": "oh_oh.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
