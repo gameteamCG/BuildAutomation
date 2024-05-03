@@ -1,0 +1,38 @@
+{
+  "additionalData": {
+    "GameID": "Testing of Picture Quiz Post Link version",
+    "totalLevel": "1",
+    "TitleImageName": "plblendwords.png",
+    "introBgName": "titlebg.png",
+    "bgmMusicName": "",
+    "mainBgName": "titlebg.png",
+    "JockeyName": "Mighty_Raju"
+  },
+  "questionData": [
+    {
+      "questionText": "1",
+      "questionAudioName": "19586128_6_play.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Artboard3.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "plane1.png",
+        "plane2.png",
+        "plane3.png",
+        "plane4.png"
+      ],
+      "correctAudioName": "19586128_6_play.mp3",
+      "needReiteration": false,
+      "interactionType": "",
+      "questionText2": "",
+      "questionAudioName2": "",
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": null,
+      "options": [],
+      "correctAnswer": "",
+      "reiterationAudioName": ""
+    }
+  ]
+}
