@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0001_computer",
+    "texture": "eb6fdf25-732b-452a-b3e1-ebce336cfdc9",
+    "atlas": "",
+    "rect": [
+      30,
+      25,
+      191,
+      197
+    ],
+    "offset": [
+      0.5,
+      1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
