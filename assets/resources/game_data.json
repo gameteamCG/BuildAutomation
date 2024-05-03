@@ -1,0 +1,118 @@
+{
+  "additionalData": {
+    "GameID": "number names 66-70",
+    "totalLevel": "5",
+    "TitleImageName": "title.png",
+    "introBgName": "Bg.png",
+    "bgmMusicName": "BGM_BW_game.mp3",
+    "mainBgName": "BG_8.png",
+    "JockeyName": "Mighty_Raju"
+  },
+  "questionData": [
+    {
+      "questionText": "match number names",
+      "questionAudioName": "Choose_the_correct_number_name_for_the_given_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "puz1_1.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "66"
+      ],
+      "reiterations": [
+        "66.mp3"
+      ],
+      "commonRightOptionImageName": "puz2_2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "66.png",
+        "67.png"
+      ]
+    },
+    {
+      "questionText": "match number names",
+      "questionAudioName": "Choose_the_correct_number_name_for_the_given_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "puz1_1.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "67"
+      ],
+      "reiterations": [
+        "67.mp3"
+      ],
+      "commonRightOptionImageName": "puz2_2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "67.png",
+        "68.png"
+      ]
+    },
+    {
+      "questionText": "match number names",
+      "questionAudioName": "Choose_the_correct_number_name_for_the_given_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "puz1_1.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "68"
+      ],
+      "reiterations": [
+        "68.mp3"
+      ],
+      "commonRightOptionImageName": "puz2_2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "68.png",
+        "69.png"
+      ]
+    },
+    {
+      "questionText": "match number names",
+      "questionAudioName": "Choose_the_correct_number_name_for_the_given_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "puz1_1.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "69"
+      ],
+      "reiterations": [
+        "69.mp3"
+      ],
+      "commonRightOptionImageName": "puz2_2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "69.png",
+        "70.png"
+      ]
+    },
+    {
+      "questionText": "match number names",
+      "questionAudioName": "Choose_the_correct_number_name_for_the_given_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "puz1_1.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "70"
+      ],
+      "reiterations": [
+        "70.mp3"
+      ],
+      "commonRightOptionImageName": "puz2_2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "70.png",
+        "60.png"
+      ]
+    }
+  ]
+}
