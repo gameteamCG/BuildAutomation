@@ -1,0 +1,58 @@
+{
+  "additionalData": {
+    "GameID": "Colour the pet animals",
+    "totalLevel": "2",
+    "TitleImageName": "title.png",
+    "introBgName": "Bg.png",
+    "bgmMusicName": "BGMBackward.mp3",
+    "JockeyName": "tlc"
+  },
+  "questionData": [
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "bgL2_2.png",
+      "questionAudioName": "TAP_ON_THE_PET_ANIMAL_TO_COLOUR_IT.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "tiger.png",
+        "lion.png"
+      ],
+      "optionsBg": [
+        "color_tiger.png",
+        "color_lion.png"
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "TIGER.mp3",
+        "LION.mp3"
+      ],
+      "correctAnswerNum": "12"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "count_bg.png",
+      "questionAudioName": "TAP_ON_THE_PET_ANIMAL_TO_COLOUR_IT.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "cat.png",
+        "dog.png"
+      ],
+      "optionsBg": [
+        "color_cat.png",
+        "color_dog.png"
+      ],
+      "correctAudioName": "GOODEFFORT.mp3",
+      "wrongAudioName": "nevermindtryagain.mp3",
+      "reiterationAudioName": [
+        "cat.mp3",
+        "dog.mp3"
+      ],
+      "correctAnswerNum": "12"
+    }
+  ]
+}
