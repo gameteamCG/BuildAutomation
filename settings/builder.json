@@ -1,10 +1,21 @@
 {
   "title": "CocosGamesCG",
   "packageName": "org.cocos2d.demo",
-  "startScene": "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a",
+  "startScene": "68bfb103-2902-430d-8402-5df6b963f7b7",
   "excludeScenes": [
+    "ad0c8321-8aca-489f-8799-3a914615d4de",
     "7cd7cb8d-bf09-4440-8ed4-8c45bdf9377d",
-    "ad0c8321-8aca-489f-8799-3a914615d4de"
+    "af4d0f61-6b7f-42a9-bb21-33520e041508",
+    "4538c76f-9939-4722-b5ee-de4bda997de0",
+    "e8ba6de5-9e95-4b1d-90b6-5470337506eb",
+    "08a9b568-574e-4614-82ab-420110702913",
+    "827d6fec-1c3a-4149-81dc-73a8fa547d8a",
+    "5f88f33d-620f-4d0e-812f-2ad90b11e2c5",
+    "8ea9fe09-b84f-4788-bb47-fd68cbd3bbe8",
+    "fa2a28d8-32e6-464f-b512-3b27feaabb3c",
+    "050bbc64-a4e8-4199-b9e2-b6767989334e",
+    "b5964982-dce5-4d73-9f7d-6444ff1449a9",
+    "1a752303-3420-46ab-9264-8fc53930db15"
   ],
   "orientation": {
     "landscapeRight": true,
