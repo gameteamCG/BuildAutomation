@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0008_outsidetent",
+    "texture": "8aa898ec-3461-4ce8-b8e1-49148281ad6a",
+    "atlas": "",
+    "rect": [
+      31,
+      42,
+      453,
+      437
+    ],
+    "offset": [
+      7.5,
+      -10.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

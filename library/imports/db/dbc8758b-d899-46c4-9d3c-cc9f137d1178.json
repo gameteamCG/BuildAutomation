@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Opposite - in and out",
+      "totalLevel": "5",
+      "TitleImageName": "opposite.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "bg_3.png",
+      "JockeyName": "tlc",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "out",
+        "questionAudioName": "Q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui box_2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0005_insidehouse.png",
+          "500x500_0004_outsidehouse.png"
+        ],
+        "correctAudios": [
+          "blank_audio.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "in",
+        "questionAudioName": "Q2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui box_2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0001_inside-car.png",
+          "500x500_0001_outside-car.png"
+        ],
+        "correctAudios": [
+          "blank_audio.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "out",
+        "questionAudioName": "Q3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui box_2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0008_outsidetent.png",
+          "500x500_0009_insidetent.png"
+        ],
+        "correctAudios": [
+          "blank_audio.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "in",
+        "questionAudioName": "Q4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui box_2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0002_outsidelift.png",
+          "500x500_0003_insidelift.png"
+        ],
+        "correctAudios": [
+          "blank_audio.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "out",
+        "questionAudioName": "Q5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui box_2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0007_outsidecave.png",
+          "500x500_0006_insidecave.png"
+        ],
+        "correctAudios": [
+          "blank_audio.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

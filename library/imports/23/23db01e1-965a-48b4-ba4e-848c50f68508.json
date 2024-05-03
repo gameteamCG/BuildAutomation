@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0005_insidehouse",
+    "texture": "212123b9-2d86-43ea-b92d-7c7f31c0bd7a",
+    "atlas": "",
+    "rect": [
+      15,
+      21,
+      476,
+      453
+    ],
+    "offset": [
+      3,
+      2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
