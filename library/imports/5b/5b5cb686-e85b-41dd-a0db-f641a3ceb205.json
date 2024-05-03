@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "smallpear",
+    "texture": "43c6954d-c313-4fec-b294-55cb8cd9e33c",
+    "atlas": "",
+    "rect": [
+      150,
+      155,
+      162,
+      189
+    ],
+    "offset": [
+      -19,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

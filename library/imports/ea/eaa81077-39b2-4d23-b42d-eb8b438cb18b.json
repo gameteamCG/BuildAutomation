@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "smallmango",
+    "texture": "1a5c3a0b-344b-4df9-9b02-cc163f22efa8",
+    "atlas": "",
+    "rect": [
+      150,
+      154,
+      175,
+      194
+    ],
+    "offset": [
+      -12.5,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

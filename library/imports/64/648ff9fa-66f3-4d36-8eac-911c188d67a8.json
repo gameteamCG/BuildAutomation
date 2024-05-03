@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "papaya",
+    "texture": "de2a911f-c34c-47ac-b2cb-351791487eda",
+    "atlas": "",
+    "rect": [
+      0,
+      43,
+      487,
+      414
+    ],
+    "offset": [
+      -6.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
