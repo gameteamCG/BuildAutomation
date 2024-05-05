@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "screenshotBtn",
+    "texture": "52611162-e355-415b-9108-f5c3ad65ecf9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      99,
+      99
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      99,
+      99
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e70cb060-1c75-44a6-b264-1905bf0e7326",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1755,
+  "height": 1242,
+  "platformSettings": {},
+  "subMetas": {
+    "prince drawing-04": {
+      "ver": "1.0.6",
+      "uuid": "c8e2cd8b-cd7e-45ff-8a66-860043cbf079",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e70cb060-1c75-44a6-b264-1905bf0e7326",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -47.5,
+      "offsetY": 295.5,
+      "trimX": 738,
+      "trimY": 279,
+      "width": 184,
+      "height": 93,
+      "rawWidth": 1755,
+      "rawHeight": 1242,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

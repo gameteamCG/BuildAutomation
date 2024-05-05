@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "levelselectionBg",
+    "texture": "bac18430-b3c8-4dd6-827c-80ee08a56cf3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1900,
+      1108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1900,
+      1108
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

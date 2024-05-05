@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "prince drawing-02",
+    "texture": "3c4370fd-116f-47d2-a097-21fd8cb7850a",
+    "atlas": "",
+    "rect": [
+      770,
+      132,
+      508,
+      375
+    ],
+    "offset": [
+      146.5,
+      301
+    ],
+    "originalSize": [
+      1755,
+      1241
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

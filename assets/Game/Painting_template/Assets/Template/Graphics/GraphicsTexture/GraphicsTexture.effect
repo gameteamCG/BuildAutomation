@@ -1,0 +1,94 @@
+// Copyright 2021 Cao Gaoting<caogtaa@gmail.com>
+// https://caogtaa.github.io
+// This file is licensed under the MIT License.
+// License text available at https://opensource.org/licenses/MIT
+
+/*
+ * Date: 2021-08-12 22:25:02
+ * LastEditors: GT<caogtaa@gmail.com>
+ * LastEditTime: 2021-08-12 22:39:23
+*/ 
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: one
+          blendDst: one_minus_src_alpha
+          blendSrcAlpha: one
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: { value: white }
+        alphaThreshold: { value: 0.5 }
+}%
+
+
+CCProgram vs %{
+  precision highp float;
+
+  #include <cc-global>
+  #include <cc-local>
+
+  in vec3 a_position;
+  
+  in vec4 a_color;
+  out vec4 v_color;
+
+  in float a_dist;
+  out float v_dist;
+
+  void main () {
+    vec4 pos = vec4(a_position, 1);
+    pos = cc_matViewProj * cc_matWorld * pos;
+
+    v_color = a_color;
+    v_dist = a_dist;
+
+    gl_Position = pos;
+  }
+}%
+
+CCProgram fs %{
+  #if CC_SUPPORT_standard_derivatives
+    #extension GL_OES_standard_derivatives : enable
+  #endif
+
+  precision highp float;
+  
+  #include <cc-global>
+  #include <alpha-test>
+
+  in vec4 v_color;
+  in float v_dist;
+
+  uniform sampler2D texture;
+
+  void main () {
+    vec4 o = v_color;
+
+    ALPHA_TEST(o);
+
+    #if CC_SUPPORT_standard_derivatives
+      float aa = fwidth(v_dist);
+    #else
+      float aa = 0.05;
+    #endif
+
+    float alpha = smoothstep(aa, -aa, abs(v_dist) - 1.0);
+
+    // 将v_dist值从[-1, 1]区间映射到[0, 1]
+    float D = v_dist * 0.5 + 0.5;    
+
+    // 采样纹理
+    o = texture2D(texture, vec2(D, 0.5));
+
+    o.rgb *= alpha;
+    gl_FragColor = o;
+  }
+}%

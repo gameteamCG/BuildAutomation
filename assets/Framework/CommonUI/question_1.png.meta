@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "7ef32d71-ade2-4ed9-a669-052be9e9ba58",
+  "uuid": "16678314-f570-4f1b-91b3-0b3fdb23a2bc",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "question_1": {
       "ver": "1.0.6",
-      "uuid": "6eecd0eb-4062-4659-a5af-498464bbe849",
+      "uuid": "dc0f9465-5495-4c07-bb58-388281d5dbe4",
       "importer": "sprite-frame",
-      "rawTextureUuid": "7ef32d71-ade2-4ed9-a669-052be9e9ba58",
+      "rawTextureUuid": "16678314-f570-4f1b-91b3-0b3fdb23a2bc",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

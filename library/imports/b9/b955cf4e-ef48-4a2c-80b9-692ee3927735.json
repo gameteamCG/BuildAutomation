@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.Material",
+  "_name": "wave",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "4a345f5f-b95d-43c4-996a-b905ab01a88a"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      },
+      "props": {
+        "map": {
+          "__uuid__": "7758e733-90f1-43fc-b7ee-d433057fa0e7"
+        }
+      }
+    }
+  }
+}

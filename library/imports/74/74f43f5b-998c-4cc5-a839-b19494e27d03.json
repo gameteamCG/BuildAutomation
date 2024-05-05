@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Thumbnail",
+    "texture": "62be65bd-d11b-41c9-9a00-c5e3eba9dd2f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      251,
+      151
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      151
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

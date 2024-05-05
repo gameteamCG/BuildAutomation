@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Tap to hold0001",
+    "texture": "5889dec1-c441-4c51-91c3-7b9f2fdbffb0",
+    "atlas": "",
+    "rect": [
+      63,
+      46,
+      251,
+      353
+    ],
+    "offset": [
+      -11.5,
+      -22.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

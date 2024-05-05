@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Po3",
+    "texture": "7823b382-05b8-4807-87e3-90442eb5759b",
+    "atlas": "",
+    "rect": [
+      38,
+      19,
+      394,
+      482
+    ],
+    "offset": [
+      -15.5,
+      -9.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
