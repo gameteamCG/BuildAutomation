@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0004_2gift_boxes",
+    "texture": "246f5845-1ce5-47e1-a900-7858578dbe88",
+    "atlas": "",
+    "rect": [
+      14,
+      107,
+      473,
+      286
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
