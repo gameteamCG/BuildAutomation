@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sneeze",
+    "texture": "7b1cd9ef-a319-4838-b3aa-903fb6e2d95b",
+    "atlas": "",
+    "rect": [
+      47,
+      106,
+      155,
+      37
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

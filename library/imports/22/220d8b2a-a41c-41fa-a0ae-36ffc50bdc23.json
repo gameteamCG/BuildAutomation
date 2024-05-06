@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "snob(1)",
+    "texture": "4371eca2-9b1a-46ac-938d-94b707e9599c",
+    "atlas": "",
+    "rect": [
+      69,
+      97,
+      111,
+      56
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
