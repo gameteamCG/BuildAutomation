@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blon",
+    "texture": "5c21e6a2-0168-4d16-a610-050013ec4013",
+    "atlas": "",
+    "rect": [
+      28,
+      0,
+      144,
+      200
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

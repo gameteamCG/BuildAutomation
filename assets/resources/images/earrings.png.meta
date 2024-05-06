@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "72ff8d65-0ee8-460b-a426-c549e4e1cf9c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "earrings": {
+      "ver": "1.0.6",
+      "uuid": "15bafa3b-013f-4c11-97d7-2a5ccd36660c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "72ff8d65-0ee8-460b-a426-c549e4e1cf9c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": -2,
+      "trimX": 7,
+      "trimY": 45,
+      "width": 488,
+      "height": 414,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
