@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c4bf0a56-3f2a-4f0c-8a74-cccdb5520717",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "Teddy Bear": {
+      "ver": "1.0.6",
+      "uuid": "66c1f03f-cb5b-441b-98d1-0d1741eb1dc4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c4bf0a56-3f2a-4f0c-8a74-cccdb5520717",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 40,
+      "trimY": 33,
+      "width": 170,
+      "height": 183,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
