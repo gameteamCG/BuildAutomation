@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Shape star",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/start2%281%29.mp4",
+      "TitleImageName": "starshape.png",
+      "IntroAudio1Name": "hellolovelypeople.mp3",
+      "IntroAudio2Name": "star.mp3",
+      "JockeyName": "tlc",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
