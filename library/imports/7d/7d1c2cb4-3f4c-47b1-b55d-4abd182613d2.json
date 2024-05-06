@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "_ballisred",
+    "texture": "1045baa5-3930-468a-9ddd-dd86b1857420",
+    "atlas": "",
+    "rect": [
+      98,
+      149,
+      250,
+      250
+    ],
+    "offset": [
+      -27,
+      -24
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
