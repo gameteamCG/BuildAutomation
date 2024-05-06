@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Spatulas",
+    "texture": "148e5c1d-fd07-432b-a064-146282ed2d4f",
+    "atlas": "",
+    "rect": [
+      11,
+      67,
+      228,
+      116
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
