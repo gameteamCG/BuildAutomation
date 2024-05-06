@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "visittothefirm",
+    "texture": "21773e13-0cbe-474b-8f78-302cd089fbae",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      569,
+      245
+    ],
+    "offset": [
+      0,
+      28.5
+    ],
+    "originalSize": [
+      569,
+      306
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

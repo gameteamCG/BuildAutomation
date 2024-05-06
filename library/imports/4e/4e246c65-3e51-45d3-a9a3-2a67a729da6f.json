@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "babygoat2",
+    "texture": "ece65637-c692-4dd3-811c-f2859e5e0c04",
+    "atlas": "",
+    "rect": [
+      108,
+      216,
+      318,
+      61
+    ],
+    "offset": [
+      1.5,
+      4
+    ],
+    "originalSize": [
+      531,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
