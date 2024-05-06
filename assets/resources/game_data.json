@@ -1,0 +1,103 @@
+{
+  "additionalData": {
+    "GameID": "Oval shape",
+    "totalLevel": "6",
+    "TitleImageName": "ovalshape.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "Kids_Game_1.mp3",
+    "mainBgName": "BG_8.png",
+    "JockeyName": "tlc"
+  },
+  "questionData": [
+    {
+      "questionText": "oval shape",
+      "questionImageName": "identifyovalshape.png",
+      "questionAudioName": "identify_the_oval_shape.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankbox.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "oval1.png",
+        "4.png"
+      ],
+      "correctAudioName": "oval.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "oval shape",
+      "questionImageName": "oval2.png",
+      "questionAudioName": "HOW_MANY_SIDES_AND_CORNERS_DOES_AN_OVAl_SHAPE_HAVE.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankbox.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "4_1.png",
+        "0.png"
+      ],
+      "correctAudioName": "AN_OVAL_HAS_0_SIDES_AND_CORNERS.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "oval shape",
+      "questionImageName": "oval1.png",
+      "questionAudioName": "Identify_the_oval_shaped_object.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankbox.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Artboard 1 copy 184.png",
+        "thick_eraser.png"
+      ],
+      "correctAudioName": "the_mirror_is_oval_in_shape.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "oval shape",
+      "questionImageName": "rugby.png",
+      "questionAudioName": "what_is_the_shape_of_the_rugby_ball.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankbox.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "12.png",
+        "oval2.png"
+      ],
+      "correctAudioName": "rugby_ball_is_oval_in_shape.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "oval shape",
+      "questionImageName": "watermelon.png",
+      "questionAudioName": "what_is_the_shape_of_a_watermelon.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankbox.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "oval1.png",
+        "9.png"
+      ],
+      "correctAudioName": "watermelon_is_oval_in_shape.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "oval shape",
+      "questionImageName": "egg.png",
+      "questionAudioName": "what_is_the_shape_of_an_egg.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankbox.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "8.png",
+        "oval2.png"
+      ],
+      "correctAudioName": "egg_is_oval_in_shape.mp3",
+      "correctAnswerNum": "2"
+    }
+  ]
+}
