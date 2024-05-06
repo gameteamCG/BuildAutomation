@@ -1,0 +1,113 @@
+{
+  "AdditionalData": {
+    "GameID": "kitchen LKG CB 1",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/87932567_Kitchen_1714995871641.mp4",
+    "TitleImageName": "kitchen .png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "kitchen.png",
+      "QuestionAudioName": "identify_the_picture_of_the_kitchen.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Bathroom.png",
+        "bedroom.png",
+        "kitchen.png",
+        "study_room.png"
+      ],
+      "ReiterationAudioName": "kitchen.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "store food",
+      "QuestionImageName": "",
+      "QuestionAudioName": "where_do_we_store_food.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "fridge.png",
+        "oven.png",
+        "pan.png",
+        "Stove.png"
+      ],
+      "ReiterationAudioName": "fridge.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "wash dishes",
+      "QuestionImageName": "",
+      "QuestionAudioName": "where_do_we_wash_dishes.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Clay_pot.png",
+        "fridge.png",
+        "sink.png",
+        "Stove.png"
+      ],
+      "ReiterationAudioName": "sink.mp3",
+      "CorrectAudioName": "GORGEOUSWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "oven",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identify_the_image_of_the_oven.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Spatulas.png",
+        "rolling_pin.png",
+        "pan.png",
+        "oven.png"
+      ],
+      "ReiterationAudioName": "sink.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "cook food",
+      "QuestionImageName": "",
+      "QuestionAudioName": "what_do_we_use_to_cook.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Stove.png",
+        "Clock.png",
+        "table.png",
+        "washing_machine.png"
+      ],
+      "ReiterationAudioName": "Stove.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
