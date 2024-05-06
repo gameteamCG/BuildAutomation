@@ -1,0 +1,97 @@
+{
+  "additionalData": {
+    "GameID": "Use of 'the' UKG practice book",
+    "totalLevel": "4",
+    "TitleImageName": "useofthetitle.png",
+    "introBgName": "titlebg.png",
+    "bgmMusicName": "BBgmwhatsnext.mp3",
+    "mainBgName": "outdoorbg.png",
+    "JockeyName": "Singham"
+  },
+  "questionData": [
+    {
+      "questionText": "___ball is red",
+      "questionAudioName": "dash-ball-is-red.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "QuestionPanel.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "_ballisred.png"
+      ],
+      "reiterations": [
+        "the-ball-is-red.mp3"
+      ],
+      "commonRightOptionImageName": "option-panel.png",
+      "isRightOptionText": true,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "The",
+        "It"
+      ]
+    },
+    {
+      "questionText": "___boy is tall",
+      "questionAudioName": "dash-boy-is-tall.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "QuestionPanel.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "boyistall.png"
+      ],
+      "reiterations": [
+        "the-boy-is-tall.mp3"
+      ],
+      "commonRightOptionImageName": "option-panel.png",
+      "isRightOptionText": true,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "The",
+        "They"
+      ]
+    },
+    {
+      "questionText": "___lion is in the den",
+      "questionAudioName": "dash-lion-is-in-the-d.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "QuestionPanel.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "_lionisinden.png"
+      ],
+      "reiterations": [
+        "the-lion-is-in-the-den.mp3"
+      ],
+      "commonRightOptionImageName": "option-panel.png",
+      "isRightOptionText": true,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "The",
+        "It"
+      ]
+    },
+    {
+      "questionText": "___tree is big",
+      "questionAudioName": "dash-tree-is-big.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "QuestionPanel.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "_treeisbig.png"
+      ],
+      "reiterations": [
+        "the-tree-is-big.mp3"
+      ],
+      "commonRightOptionImageName": "option-panel.png",
+      "isRightOptionText": true,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "The",
+        "He"
+      ]
+    }
+  ]
+}
