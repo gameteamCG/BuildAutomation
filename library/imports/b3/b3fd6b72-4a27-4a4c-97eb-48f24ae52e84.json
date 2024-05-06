@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter o",
+      "totalLevel": "7",
+      "TitleImageName": "lettero.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_2.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tlc",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "letter o",
+        "questionAudioName": "tap_on_the_picture_that_begins_with_letter_o.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "hut.png",
+          "octopus.png"
+        ],
+        "correctAudios": [
+          "octopus.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter o",
+        "questionAudioName": "tap_on_the_picture_that_begins_with_letter_o.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "olives.png",
+          "umbrella.png"
+        ],
+        "correctAudios": [
+          "olives.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter o",
+        "questionAudioName": "tap_on_the_picture_that_begins_with_letter_o.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "lamp.png",
+          "onion.png"
+        ],
+        "correctAudios": [
+          "onion.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter o",
+        "questionAudioName": "tap_on_the_picture_that_begins_with_letter_o.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "orange.png",
+          "banana.png"
+        ],
+        "correctAudios": [
+          "orange.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter o",
+        "questionAudioName": "tap_on_the_picture_that_begins_with_letter_o.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "fox.png",
+          "ostrish.png"
+        ],
+        "correctAudios": [
+          "ostrich.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter o",
+        "questionAudioName": "tap_on_the_picture_that_begins_with_letter_o.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "owl.png",
+          "Deer.png"
+        ],
+        "correctAudios": [
+          "owl.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter o",
+        "questionAudioName": "tap_on_the_picture_that_begins_with_letter_o.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Drum.png",
+          "ox.png"
+        ],
+        "correctAudios": [
+          "ox.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
