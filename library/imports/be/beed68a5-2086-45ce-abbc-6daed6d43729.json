@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greencrayonbox",
+    "texture": "1446976e-7c3a-4c64-ab45-e3cc2b84beb4",
+    "atlas": "",
+    "rect": [
+      87,
+      32,
+      326,
+      437
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

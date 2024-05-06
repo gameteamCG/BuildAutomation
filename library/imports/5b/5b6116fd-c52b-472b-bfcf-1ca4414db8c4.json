@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yellowcrayonbox",
+    "texture": "eca258c4-bdea-485f-8e19-685de7f59ae5",
+    "atlas": "",
+    "rect": [
+      88,
+      32,
+      325,
+      437
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "orangecrayonbox",
+    "texture": "8869314b-c291-4378-88d8-e7fbb6f9d459",
+    "atlas": "",
+    "rect": [
+      88,
+      32,
+      325,
+      437
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
