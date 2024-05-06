@@ -1,0 +1,99 @@
+{
+  "additionalData": {
+    "GameID": "Identify toys",
+    "totalLevel": "5",
+    "TitleImageName": "identifytoys.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "BGM_2.mp3",
+    "mainBgName": "bg_2.png",
+    "JockeyName": "tlc",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "toys",
+      "questionAudioName": "tapandidentify_the_image_of_the_toy.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "ui_box_3.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "doll.png",
+        "crayon.png"
+      ],
+      "correctAudios": [
+        "doll.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "toys",
+      "questionAudioName": "tapandidentify_the_image_of_the_toy.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "ui_box_3.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "hammer.png",
+        "block.png"
+      ],
+      "correctAudios": [
+        "building_blocks.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "toys",
+      "questionAudioName": "tapandidentify_the_image_of_the_toy.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "ui_box_3.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "puzzle2.png",
+        "strawberry.png"
+      ],
+      "correctAudios": [
+        "jigsaw_puzzle.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "toys",
+      "questionAudioName": "tapandidentify_the_image_of_the_toy.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "ui_box_3.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "skateboard.png",
+        "teddy1.png"
+      ],
+      "correctAudios": [
+        "teddy_bear.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "toys",
+      "questionAudioName": "tapandidentify_the_image_of_the_toy.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "ui_box_3.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "toy.png",
+        "shoe.png"
+      ],
+      "correctAudios": [
+        "toy_soldiers.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
