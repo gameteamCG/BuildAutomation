@@ -1,0 +1,181 @@
+{
+  "additionalData": {
+    "GameID": "D:\\Game\\TLC\\Game\\TERM 2\\Nursery\\Farm animals",
+    "totalLevel": "8",
+    "TitleImageName": "farmanimal.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "BGM_1.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "tlc"
+  },
+  "questionData": [
+    {
+      "questionText": "farm animals",
+      "questionAudioName": "Match_the_other_half_of_the_cow.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "cow1.png"
+      ],
+      "reiterations": [
+        "cow.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "cow2.png",
+        "hen2.png"
+      ]
+    },
+    {
+      "questionText": "farm animals",
+      "questionAudioName": "Match_the_other_half_of_the_donkey.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "donkey1.png"
+      ],
+      "reiterations": [
+        "donkey.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "donkey2.png",
+        "sheep2.png"
+      ]
+    },
+    {
+      "questionText": "farm animals",
+      "questionAudioName": "Match_the_other_half_of_the_duck.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "duck1.png"
+      ],
+      "reiterations": [
+        "duck.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "duck2.png",
+        "horse2.png"
+      ]
+    },
+    {
+      "questionText": "farm animals",
+      "questionAudioName": "Match_the_othe_half_of_the_goat.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "goat1.png"
+      ],
+      "reiterations": [
+        "goat.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "goat2.png",
+        "donkey3.png"
+      ]
+    },
+    {
+      "questionText": "farm animals",
+      "questionAudioName": "Match_the_other_half-of_the_hen.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "hen1.png"
+      ],
+      "reiterations": [
+        "hen.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "hen2.png",
+        "duck2.png"
+      ]
+    },
+    {
+      "questionText": "farm animals",
+      "questionAudioName": "Match_the_other_half-of_the_horse.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "horse1.png"
+      ],
+      "reiterations": [
+        "horse.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "horse2.png",
+        "donkey2.png"
+      ]
+    },
+    {
+      "questionText": "farm animals",
+      "questionAudioName": "Match_the_other-half_o_the_sheep.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "sheep1.png"
+      ],
+      "reiterations": [
+        "sheep.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "sheep2.png",
+        "hen2.png"
+      ]
+    },
+    {
+      "questionText": "farm animals",
+      "questionAudioName": "Match_the-other_half_of_the_pig.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "pig1.png"
+      ],
+      "reiterations": [
+        "pig.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "pig2.png",
+        "cow2.png"
+      ]
+    }
+  ]
+}
