@@ -1,0 +1,93 @@
+{
+  "AdditionalData": {
+    "GameID": "Video quiz - bedroom LKG CB 1",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/83468964_Bedrom_1714994479580.mp4",
+    "TitleImageName": "title.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "bedroom",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Identify_the_picture_of_bedroom.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Bathroom.png",
+        "bedroom.png",
+        "garden.png",
+        "kitchen.png"
+      ],
+      "ReiterationAudioName": "bedroom.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "sleep",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Where_do_you_sleep.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "bed.png",
+        "chair2.png",
+        "sofa.png",
+        "table.png"
+      ],
+      "ReiterationAudioName": "on_the_bed.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "pillow",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Tap_on_the_image_of_pillow.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "curtains.png",
+        "doll.png",
+        "pillow.png",
+        "Teddy Bear.png"
+      ],
+      "ReiterationAudioName": "pillow.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "blanket",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Tap_on_the_image_of_blanket.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Door.png",
+        "curtains1.png",
+        "carpet.png",
+        "Blanket_1.png"
+      ],
+      "ReiterationAudioName": "blanket.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "4"
+    }
+  ]
+}
