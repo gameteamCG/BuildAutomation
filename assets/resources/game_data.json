@@ -1,0 +1,209 @@
+{
+  "additionalData": {
+    "GameID": "Blend Sound ‘pl’- UKG Practice Book 1",
+    "totalLevel": "7",
+    "TitleImageName": "Blend_Sound_pl.png",
+    "introBgName": "Bg.png",
+    "bgmMusicName": "BGM_ROTE_count.mp3",
+    "mainBgName": "BG_6.png",
+    "JockeyName": "Singham"
+  },
+  "questionData": [
+    {
+      "questionText": "solve puzzle",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel_1.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png"
+      ],
+      "correctAudioName": "FANTASTIC.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Identify the pl words",
+      "questionAudioName2": "mix_03s.mp3",
+      "commonOptionImageName": "panel_1.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "plane",
+        "clown"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "plane_2.mp3"
+    },
+    {
+      "questionText": "solve puzzle",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel_1.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png"
+      ],
+      "correctAudioName": "INCREDIBLE.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Identify the pl words",
+      "questionAudioName2": "mix_03s.mp3",
+      "commonOptionImageName": "panel_1.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "plug",
+        "blocks"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "plug.mp3"
+    },
+    {
+      "questionText": "solve quiz",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel_1.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "9.png",
+        "10.png",
+        "11.png",
+        "12.png"
+      ],
+      "correctAudioName": "GREATWORK.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Identify the pl words",
+      "questionAudioName2": "mix_03s.mp3",
+      "commonOptionImageName": "panel_1.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "plum",
+        "slice"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "plum_2.mp3"
+    },
+    {
+      "questionText": "solve quiz",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel_1.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "13.png",
+        "14.png",
+        "15.png",
+        "16.png"
+      ],
+      "correctAudioName": "IMPRESSIVEWORK.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Identify the pl words",
+      "questionAudioName2": "mix_03s.mp3",
+      "commonOptionImageName": "panel_1.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "plant",
+        "gloves"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "plant_2.mp3"
+    },
+    {
+      "questionText": "solve quiz",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel_1.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "17.png",
+        "18.png",
+        "19.png",
+        "20.png"
+      ],
+      "correctAudioName": "INCREDIBLE.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Identify the pl words",
+      "questionAudioName2": "mix_03s.mp3",
+      "commonOptionImageName": "panel_1.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "planet",
+        "slide"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "planet.mp3"
+    },
+    {
+      "questionText": "solve quiz",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel_1.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "21.png",
+        "22.png",
+        "23.png",
+        "24.png"
+      ],
+      "correctAudioName": "MAGNIFICENT.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Identify the pl words",
+      "questionAudioName2": "mix_03s.mp3",
+      "commonOptionImageName": "panel_1.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "plate",
+        "flag"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "plate.mp3"
+    },
+    {
+      "questionText": "solve quiz",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel_1.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "25.png",
+        "26.png",
+        "27.png",
+        "28.png"
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Identify the pl words",
+      "questionAudioName2": "mix_03s.mp3",
+      "commonOptionImageName": "panel_1.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "plus",
+        "clothes"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "plus.mp3"
+    }
+  ]
+}
