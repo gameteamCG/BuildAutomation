@@ -1,0 +1,99 @@
+{
+  "additionalData": {
+    "GameID": "counting number 2",
+    "totalLevel": "5",
+    "TitleImageName": "counting_number_2.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "Kids_Game_1.mp3",
+    "mainBgName": "bg3.png",
+    "JockeyName": "tlc",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "number 2",
+      "questionAudioName": "Tap_on_the_image_with_2_party_caps.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option_box.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0010_2party_hat.png",
+        "500x500_0009_1party_hat.png"
+      ],
+      "correctAudios": [
+        "2_PARTY_CAPS.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "number 2",
+      "questionAudioName": "Select_the_image_with_2_gift_boxes.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option_box.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0003_1gift_box.png",
+        "500x500_0004_2gift_boxes.png"
+      ],
+      "correctAudios": [
+        "2_GIFT_BOXES.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "number 2",
+      "questionAudioName": "Select_the_correct_number_pattern_tile.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option_box.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0001_2.png",
+        "500x500_0000_3.png"
+      ],
+      "correctAudios": [
+        "2.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "number 2",
+      "questionAudioName": "Select_the_image_with_2_balloons.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option_box.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0007_1-balloon.png",
+        "500x500_0008_2-balloons.png"
+      ],
+      "correctAudios": [
+        "2_BALLOONS.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "number 2",
+      "questionAudioName": "Select_the_image_with_2_candles.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option_box.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0006_2-candles.png",
+        "500x500_0005_1-candle.png"
+      ],
+      "correctAudios": [
+        "2_CANDLES.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
