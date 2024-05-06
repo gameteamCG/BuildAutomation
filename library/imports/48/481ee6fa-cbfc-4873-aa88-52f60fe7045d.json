@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jointhedots",
+    "texture": "443b5b2e-6970-4584-b620-224f774c8f46",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      667,
+      221
+    ],
+    "offset": [
+      6,
+      2.5
+    ],
+    "originalSize": [
+      709,
+      278
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

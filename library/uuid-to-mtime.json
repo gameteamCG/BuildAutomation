@@ -1,7 +1,7 @@
 {
   "c2cac686-1a89-42df-9170-104410a0df7a": {
-    "asset": 1714927472471,
-    "meta": 1714928678203,
+    "asset": 1714972365924,
+    "meta": 1714972366234,
     "relativePath": "resources"
   },
   "be45ee94-a6b0-4b7c-8fa6-8f17c5e5cdb0": {
@@ -900,8 +900,8 @@
     "relativePath": "Game/Painting_template/CCW Precursive 1 (1).ttf"
   },
   "8dd1f762-a2ef-44a0-9642-c79fa8846a2a": {
-    "asset": 1714928651064,
-    "meta": 1714928678203,
+    "asset": 1714972359048,
+    "meta": 1714972366235,
     "relativePath": "Game/Painting_template/Scene"
   },
   "85fca791-dd14-4f1d-82d4-a1cb86347d40": {
@@ -1170,8 +1170,8 @@
     "relativePath": "Game/Painting_template/Audios/incorrectAnswer.mp3"
   },
   "8f491b88-8714-4309-8941-9a7f14c25a57": {
-    "asset": 1714928728705,
-    "meta": 1714928728711,
+    "asset": 1714972359048,
+    "meta": 1714972366757,
     "relativePath": "Game/Painting_template/Scene/GamePlay.fire"
   },
   "0212e4bc-992e-422e-8092-508bec43d179": {
@@ -1185,8 +1185,8 @@
     "relativePath": "Game/Painting_template/Scene/MainMenu.fire"
   },
   "423ad13b-f436-4a08-a3bc-baa23f33d9f2": {
-    "asset": 1714928751125,
-    "meta": 1714928751128,
+    "asset": 1714972359049,
+    "meta": 1714972366762,
     "relativePath": "Game/Painting_template/Scene/gameEnded.fire"
   },
   "d69f5bd4-e539-45cc-a9d8-86833cbb0de6": {
@@ -4053,5 +4053,140 @@
     "asset": 1641824999000,
     "meta": 1714927516480,
     "relativePath": "model/primitives.fbx"
+  },
+  "1fabe9c2-b4ee-4818-ac80-3c4af3f4bf6f": {
+    "asset": 1714972365944,
+    "meta": 1714972366234,
+    "relativePath": "resources/audios"
+  },
+  "aaac6cc5-c5e4-45b9-aaa8-6b18179ca766": {
+    "asset": 1714972365945,
+    "meta": 1714972366235,
+    "relativePath": "resources/images"
+  },
+  "3eba2f51-9763-42f9-a937-7584d5be28d6": {
+    "asset": 1714972359061,
+    "meta": 1714972366329,
+    "relativePath": "resources/game_data.json"
+  },
+  "e37d5b11-76c1-4725-b8c3-c595f46020a5": {
+    "asset": 1714972359060,
+    "meta": 1714972366707,
+    "relativePath": "resources/audios/join_the_dots_crab.mp3"
+  },
+  "4bf92be1-ad53-41b9-b5e5-aa48ff7b249d": {
+    "asset": 1714972359052,
+    "meta": 1714972366708,
+    "relativePath": "resources/audios/BRILLIANT.mp3"
+  },
+  "070c3d86-9bd3-4596-a254-4c7a03d8fbf1": {
+    "asset": 1714972359058,
+    "meta": 1714972366709,
+    "relativePath": "resources/audios/GOODJOB.mp3"
+  },
+  "1c426b6a-cd59-4c4b-91c9-95d1e2c993a1": {
+    "asset": 1714972359061,
+    "meta": 1714972366710,
+    "relativePath": "resources/audios/join_the_dots_dolphin.mp3"
+  },
+  "5ee0f9e1-837e-48fc-9060-5e422c9f4165": {
+    "asset": 1714972359060,
+    "meta": 1714972366711,
+    "relativePath": "resources/audios/MAGNIFICENT.mp3"
+  },
+  "b344eee6-0c45-4b59-b949-944fb8ee06e2": {
+    "asset": 1714972359053,
+    "meta": 1714972366711,
+    "relativePath": "resources/audios/FANTASTIC.mp3"
+  },
+  "3a2e9de0-5f97-4196-972d-cd6acf335044": {
+    "asset": 1714972359050,
+    "meta": 1714972366712,
+    "relativePath": "resources/audios/BGM.mp3"
+  },
+  "a29609fd-b4ee-4db1-b6e8-acf97cde2f74": {
+    "asset": 1714972359060,
+    "meta": 1714972366712,
+    "relativePath": "resources/audios/INCREDIBLE.mp3"
+  },
+  "8b246642-1b89-4347-99c3-82ef1d9ba05d": {
+    "asset": 1714972359061,
+    "meta": 1714972366715,
+    "relativePath": "resources/audios/join_the_dots_in_fish.mp3"
+  },
+  "f645b9f7-e13b-4799-b7e2-b7cd6c1975ca": {
+    "asset": 1714972359061,
+    "meta": 1714972366716,
+    "relativePath": "resources/audios/join_the_dots_shark.mp3"
+  },
+  "86be7ecd-5aba-47d1-99c1-dbd8e50cd9c0": {
+    "asset": 1714972359062,
+    "meta": 1714972366724,
+    "relativePath": "resources/images/crab.png"
+  },
+  "2e8f0a35-71ae-472a-a788-25976c37e2cd": {
+    "asset": 1714972359061,
+    "meta": 1714972366737,
+    "relativePath": "resources/audios/join_the_dots_whale.mp3"
+  },
+  "7ea4bded-7658-471e-9e56-3306bdca7078": {
+    "asset": 1714972359062,
+    "meta": 1714972366729,
+    "relativePath": "resources/images/crab2.png"
+  },
+  "cce4d165-6c2e-4ef7-8b38-f4197aab55a4": {
+    "asset": 1714972359062,
+    "meta": 1714972366735,
+    "relativePath": "resources/images/dolphin.png"
+  },
+  "1d899e22-fc06-4148-8197-a881d9ba783d": {
+    "asset": 1714972359062,
+    "meta": 1714972366736,
+    "relativePath": "resources/images/dolphin2.png"
+  },
+  "73de22b8-ac19-46bb-aa6e-8621de9e0d29": {
+    "asset": 1714972359062,
+    "meta": 1714972366743,
+    "relativePath": "resources/images/artbackground4.png"
+  },
+  "5d67c334-19e1-4078-8719-bdfab248f435": {
+    "asset": 1714972359063,
+    "meta": 1714972366745,
+    "relativePath": "resources/images/fish2.png"
+  },
+  "51118197-d1ab-40c7-b2f6-297225e911e3": {
+    "asset": 1714972359063,
+    "meta": 1714972366748,
+    "relativePath": "resources/images/fish.png"
+  },
+  "443b5b2e-6970-4584-b620-224f774c8f46": {
+    "asset": 1714972359063,
+    "meta": 1714972366749,
+    "relativePath": "resources/images/jointhedots.png"
+  },
+  "930f8f09-4e23-497f-a832-dbac180c3bd3": {
+    "asset": 1714972359063,
+    "meta": 1714972366750,
+    "relativePath": "resources/images/shark2.png"
+  },
+  "07afd98b-19a0-4a9b-b10c-d12636c65c3a": {
+    "asset": 1714972359063,
+    "meta": 1714972366765,
+    "relativePath": "resources/images/shark.png"
+  },
+  "06436ac1-df40-43ea-973c-a86d60e49344": {
+    "asset": 1714972359064,
+    "meta": 1714972366765,
+    "relativePath": "resources/images/whale.png"
+  },
+  "263fe820-117c-4cfd-b89c-3339ef864d41": {
+    "asset": 1714972359063,
+    "meta": 1714972366766,
+    "relativePath": "resources/images/titlebg.png"
+  },
+  "9d551e73-6e40-4e7d-a4c2-02413c745707": {
+    "asset": 1714972359064,
+    "meta": 1714972366771,
+    "relativePath": "resources/images/whale2.png"
   }
 }
