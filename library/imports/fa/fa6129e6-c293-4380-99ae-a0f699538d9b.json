@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "roti8",
+    "texture": "1389b187-d042-4699-b014-64cccac53154",
+    "atlas": "",
+    "rect": [
+      67,
+      58,
+      366,
+      385
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

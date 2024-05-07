@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "peanuts8",
+    "texture": "a5e6bdf3-2b0c-403a-976a-2c9d8e1f9dac",
+    "atlas": "",
+    "rect": [
+      57,
+      129,
+      388,
+      242
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

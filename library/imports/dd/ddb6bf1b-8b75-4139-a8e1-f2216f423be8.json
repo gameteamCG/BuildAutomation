@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nuts8",
+    "texture": "0c557a31-86d1-4297-8a7f-1abc2b8abded",
+    "atlas": "",
+    "rect": [
+      35,
+      117,
+      432,
+      267
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

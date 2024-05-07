@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pasta",
+    "texture": "ee1fe24f-6668-487c-9ed9-0cedad32d4db",
+    "atlas": "",
+    "rect": [
+      16,
+      57,
+      455,
+      371
+    ],
+    "offset": [
+      -6.5,
+      7.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
