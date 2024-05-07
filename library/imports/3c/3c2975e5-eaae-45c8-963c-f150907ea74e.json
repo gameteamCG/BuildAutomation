@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spa",
+    "texture": "c388f55b-c5dc-4b4f-8432-35fa0b3b4668",
+    "atlas": "",
+    "rect": [
+      6,
+      3,
+      487,
+      495
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
