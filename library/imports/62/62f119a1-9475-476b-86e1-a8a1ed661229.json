@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Big and Small: PreNursery Numeracy Book",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/65382592345_Bigger_and_Smaller_Mathematics_Book_B_Periwinkle_1715088431999.mp4",
+      "TitleImageName": "Big_and_Small.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "small",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Tap_on_the_small_animal.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "elephant2.png",
+          "fox2.png"
+        ],
+        "ReiterationAudioName": "Fox.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "big",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Choose_the_big_fruit.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "apple2.png",
+          "Watermelon2.png"
+        ],
+        "ReiterationAudioName": "watermelon.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "big",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Tap_on_the_big_vehicle.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "car2.png",
+          "bus2.png"
+        ],
+        "ReiterationAudioName": "Bus.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "small",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Choose_the_small_ball.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "tennis_ball2.png",
+          "basketball2.png"
+        ],
+        "ReiterationAudioName": "tennis_ball.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "big",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Tap_on_big_toy.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Teddy_Bear2.png",
+          "toy_car2.png"
+        ],
+        "ReiterationAudioName": "Teddy_Bear.mp3",
+        "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
