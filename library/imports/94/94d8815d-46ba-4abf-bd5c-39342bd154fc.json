@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Cube",
+    "texture": "66ffbb59-913d-49a0-867e-c25378a27370",
+    "atlas": "",
+    "rect": [
+      26,
+      29,
+      448,
+      442
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
