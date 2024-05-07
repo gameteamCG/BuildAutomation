@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sna",
+    "texture": "c0af2d45-9bdd-4db3-a33d-567f8c09d225",
+    "atlas": "",
+    "rect": [
+      71,
+      152,
+      357,
+      206
+    ],
+    "offset": [
+      -0.5,
+      -5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Vowel Teams",
+      "totalLevel": "4",
+      "TitleImageName": "t.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "outdoorBG.png",
+      "JockeyName": "Singham",
+      "templateType": "TapToCollect"
+    },
+    "questionData": [
+      {
+        "questionText": "-ai-",
+        "questionImageName": "basket.png",
+        "questionAudioName": "TaoallthepicturesthathasthelongsoundA.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ac.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "train.png",
+          "sna.png",
+          "dune.png",
+          "cote.png"
+        ],
+        "correctAudios": [
+          "Train.mp3",
+          "Snail.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionText": "ee",
+        "questionImageName": "basket.png",
+        "questionAudioName": "TaponallthpicturesthathasthelongsoundE.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ac.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "f.png",
+          "bee.png",
+          "tree.png",
+          "snake.png"
+        ],
+        "correctAudios": [
+          "Bee.mp3",
+          "Tree.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionText": "ay",
+        "questionImageName": "basket.png",
+        "questionAudioName": "TaoallthepicturesthathasthelongsoundA.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ac.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "s.png",
+          "b.png",
+          "cl.png",
+          "t.png"
+        ],
+        "correctAudios": [
+          "Clay.mp3",
+          "Tray.mp3"
+        ],
+        "correctAnswerNum": "34"
+      },
+      {
+        "questionText": "ee",
+        "questionImageName": "basket.png",
+        "questionAudioName": "TaponallthpicturesthathasthelongsoundE.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ac.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "gre.png",
+          "d.png",
+          "going.png",
+          "qee.png"
+        ],
+        "correctAudios": [
+          "Green(2).mp3",
+          "Queen.mp3"
+        ],
+        "correctAnswerNum": "14"
+      }
+    ]
+  }
+}
