@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Orangejuice",
+    "texture": "0843e316-a068-49ed-9d6c-ca6462ef7654",
+    "atlas": "",
+    "rect": [
+      37,
+      20,
+      437,
+      446
+    ],
+    "offset": [
+      5.5,
+      7
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brinjal8",
+    "texture": "14d794ca-ebd1-4497-979a-90eb94b363d4",
+    "atlas": "",
+    "rect": [
+      90,
+      36,
+      322,
+      429
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

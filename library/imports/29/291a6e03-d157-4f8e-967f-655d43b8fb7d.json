@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "piza",
+    "texture": "885f08cc-ae16-4e27-b6b4-1743c27d6102",
+    "atlas": "",
+    "rect": [
+      32,
+      48,
+      383,
+      412
+    ],
+    "offset": [
+      -26.5,
+      -4
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

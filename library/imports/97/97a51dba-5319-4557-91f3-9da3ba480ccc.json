@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "oil8",
+    "texture": "0d23592c-5890-4575-b819-1bcca654f4fc",
+    "atlas": "",
+    "rect": [
+      168,
+      52,
+      165,
+      397
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
