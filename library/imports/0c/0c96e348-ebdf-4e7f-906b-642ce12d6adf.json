@@ -1,0 +1,173 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter sound a to i",
+      "totalLevel": "9",
+      "TitleImageName": "atoi.png",
+      "introBgName": "tlcBg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Assets04.png",
+      "JockeyName": "tlc",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Aa.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "applw4.png",
+          "applw3.png"
+        ],
+        "correctAudios": [
+          "Sound_of_a.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Bb.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "basket2.png",
+          "basket1.png"
+        ],
+        "correctAudios": [
+          "Sound_of_b.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Cc.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "cap1.png",
+          "cap2.png"
+        ],
+        "correctAudios": [
+          "Sound_of_c.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Dd.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "duck2.png",
+          "duck1.png"
+        ],
+        "correctAudios": [
+          "Sound_of_d.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Ee.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "egg1.png",
+          "egg2.png"
+        ],
+        "correctAudios": [
+          "Sound_of_e.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Ff.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "frog2.png",
+          "frog1.png"
+        ],
+        "correctAudios": [
+          "Sound_of_f.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Gg.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "girl1.png",
+          "girl2.png"
+        ],
+        "correctAudios": [
+          "Sound_of_g.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "Hh.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "hat2.png",
+          "hat1.png"
+        ],
+        "correctAudios": [
+          "Sound_of_h.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter sound",
+        "questionAudioName": "I.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ig3.png",
+          "ig4.png"
+        ],
+        "correctAudios": [
+          "Sound_of_i.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

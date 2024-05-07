@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "atoi",
+    "texture": "7ee319ce-3124-4604-98e1-e936f4d6ac68",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      800,
+      236
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      800,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

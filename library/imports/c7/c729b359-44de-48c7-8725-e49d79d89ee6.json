@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "applw4",
+    "texture": "103c8ae5-8b71-46c1-8bc6-c1a64268880d",
+    "atlas": "",
+    "rect": [
+      77,
+      49,
+      545,
+      608
+    ],
+    "offset": [
+      -0.5,
+      -3
+    ],
+    "originalSize": [
+      700,
+      700
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
