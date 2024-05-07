@@ -1,0 +1,75 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Long Sound 'o'",
+      "totalLevel": "2",
+      "TitleImageName": "title.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "bgm_2.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "instruction1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "panel.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "icecream1.png",
+          "icecream2.png",
+          "icecream3.png",
+          "icecream4.png"
+        ],
+        "correctAudioName": "cone.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Choose the correct word for the picture",
+        "questionAudioName2": "instruction2.mp3",
+        "commonOptionImageName": "panel.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "cone",
+          "top"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "cone.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "instruction1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "panel.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "road1.png",
+          "road2.png",
+          "road3.png",
+          "road4.png"
+        ],
+        "correctAudioName": "road.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Choose the correct word for the picture",
+        "questionAudioName2": "instruction2.mp3",
+        "commonOptionImageName": "panel.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "mom",
+          "road"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "road.mp3"
+      }
+    ]
+  }
+}
