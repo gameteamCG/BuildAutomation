@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Eggs8",
+    "texture": "eb95be06-9efa-4968-80ab-3e2370d7839f",
+    "atlas": "",
+    "rect": [
+      82,
+      169,
+      337,
+      164
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
