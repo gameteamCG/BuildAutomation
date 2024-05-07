@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ed010def-a409-4ce9-ac69-5450a3081a88",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 801,
+  "height": 563,
+  "platformSettings": {},
+  "subMetas": {
+    "Vegetableandfruitpuzzletitle": {
+      "ver": "1.0.6",
+      "uuid": "79e906d0-0caa-4ce6-9b8a-20f6f5dbc15c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ed010def-a409-4ce9-ac69-5450a3081a88",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 7.5,
+      "offsetY": -8,
+      "trimX": 26,
+      "trimY": 26,
+      "width": 764,
+      "height": 527,
+      "rawWidth": 801,
+      "rawHeight": 563,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

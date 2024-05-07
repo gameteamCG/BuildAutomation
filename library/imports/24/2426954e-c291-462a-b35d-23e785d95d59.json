@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cornshadow",
+    "texture": "336c4feb-524e-420c-ac17-70cf554da643",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      379,
+      608
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      379,
+      608
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

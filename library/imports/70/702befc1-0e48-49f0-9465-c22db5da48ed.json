@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "strawberryshadow",
+    "texture": "89ebe008-65f4-417d-ae02-6ef89da8e8d0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      333,
+      359
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      333,
+      359
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
