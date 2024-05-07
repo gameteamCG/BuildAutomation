@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wag",
+    "texture": "1b5648aa-05eb-42d0-bc17-ceed407dbbf3",
+    "atlas": "",
+    "rect": [
+      19,
+      5,
+      210,
+      240
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

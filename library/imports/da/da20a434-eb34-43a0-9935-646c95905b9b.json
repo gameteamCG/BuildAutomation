@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lag",
+    "texture": "24c242c1-812f-4646-89d6-e0202ae24884",
+    "atlas": "",
+    "rect": [
+      0,
+      13,
+      250,
+      223
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

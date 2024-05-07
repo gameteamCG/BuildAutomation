@@ -1,0 +1,133 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "ag family words",
+      "totalLevel": "6",
+      "TitleImageName": "agfamilywords.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "bg13.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionImageName": "Bag.png",
+        "questionAudioName": "swipe_the_letters_to_form_the_word_bag.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "GreenButton2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": 60,
+        "options": [
+          "b",
+          "g",
+          "a"
+        ],
+        "correctAnswer": "bag",
+        "correctAudioName": "Bag.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "wag.png",
+        "questionAudioName": "swipe_the_letters_to_form_the_word_wag.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "GreenButton2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": 60,
+        "options": [
+          "a",
+          "g",
+          "w"
+        ],
+        "correctAnswer": "wag",
+        "correctAudioName": "Wag.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "nag.png",
+        "questionAudioName": "swipe_the_letters_to_form_the_word_nag.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "GreenButton2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": 60,
+        "options": [
+          "n",
+          "g",
+          "a"
+        ],
+        "correctAnswer": "nag",
+        "correctAudioName": "20713300_3_nag.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "sag.png",
+        "questionAudioName": "swipe_the_letters_to_form_the_word_sag.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "GreenButton2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": 60,
+        "options": [
+          "g",
+          "a",
+          "s"
+        ],
+        "correctAnswer": "sag",
+        "correctAudioName": "20713300_1_sag.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "tag.png",
+        "questionAudioName": "swipe_the_letters_to_form_the_word_tag.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "GreenButton2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": 60,
+        "options": [
+          "g",
+          "a",
+          "t"
+        ],
+        "correctAnswer": "tag",
+        "correctAudioName": "Tag.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "lag.png",
+        "questionAudioName": "swipe_the_letters_to_form_the_word_lag.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "GreenButton2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": 60,
+        "options": [
+          "g",
+          "a",
+          "l"
+        ],
+        "correctAnswer": "lag",
+        "correctAudioName": "20713300_2_lag.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      }
+    ]
+  }
+}
