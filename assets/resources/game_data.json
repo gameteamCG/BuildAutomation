@@ -1,0 +1,23 @@
+{
+  "additionalData": {
+    "GameID": "Design your t-shirt",
+    "totalLevel": "1",
+    "TitleImageName": "Designyourtshirt1.png",
+    "introBgName": "PLAYGROUP.png",
+    "bgmMusicName": "hksmi.mp3",
+    "initialVOName": "",
+    "mainBgName": "bg.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "design your t-shirt",
+      "questionImageName": "",
+      "questionAudioName": "question.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "tshirt.png",
+      "needMoreTools": false,
+      "correctAudioName": "L1correct.mp3"
+    }
+  ]
+}
