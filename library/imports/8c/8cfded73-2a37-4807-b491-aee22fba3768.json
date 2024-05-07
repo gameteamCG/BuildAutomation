@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bath",
+    "texture": "3667990e-015f-4740-9bd4-7ef4398bd4a7",
+    "atlas": "",
+    "rect": [
+      30,
+      16,
+      140,
+      168
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
