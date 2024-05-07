@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "construction_worker_suit",
+    "texture": "67942ec2-48ce-4b3d-bc17-9e7da64d1225",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      425,
+      429
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      429,
+      433
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

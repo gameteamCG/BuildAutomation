@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "buzz_aldrin",
+    "texture": "bddd048e-5564-4240-b79a-66330492e736",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      426,
+      429
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      430,
+      433
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
