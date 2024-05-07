@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1numberpatterntile",
+    "texture": "912a8329-a48e-4e34-a91d-440e3a9bdfb5",
+    "atlas": "",
+    "rect": [
+      206,
+      154,
+      160,
+      160
+    ],
+    "offset": [
+      36,
+      16
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
