@@ -1,0 +1,64 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Between 1-10",
+      "totalLevel": "3",
+      "TitleImageName": "title.png",
+      "introBgName": "Bg1.png",
+      "bgmMusicName": "BGM2.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "In between numbers.",
+        "questionImageName": "Asset30.png",
+        "questionAudioName": "Identify the number that comes in between.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "pumpkin.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "asset1.png",
+          "Asset37.png"
+        ],
+        "correctAudioName": "Two.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "In between numbers.",
+        "questionImageName": "Asset39.png",
+        "questionAudioName": "Identify the number that comes in between.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "pumpkin.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "asset5.png",
+          "Asset6png.png"
+        ],
+        "correctAudioName": "Five.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "In between numbers.",
+        "questionImageName": "Asset33.png",
+        "questionAudioName": "Identify the number that comes in between.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "pumpkin.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset8.png",
+          "Asset7.png"
+        ],
+        "correctAudioName": "eight.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
