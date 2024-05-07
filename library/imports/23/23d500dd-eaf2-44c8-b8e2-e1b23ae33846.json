@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chew",
+    "texture": "ce869db1-2a90-4da6-b452-57843b9341e3",
+    "atlas": "",
+    "rect": [
+      114,
+      15,
+      272,
+      469
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

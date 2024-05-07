@@ -1,0 +1,159 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Long sound 'u'",
+      "totalLevel": "7",
+      "TitleImageName": "Asset.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionImageName": "tube.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "tile.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "u",
+          "t",
+          "b",
+          "e"
+        ],
+        "correctAnswer": "tube",
+        "correctAudioName": "Tube.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "glue.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "tile.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "l",
+          "e",
+          "u",
+          "g"
+        ],
+        "correctAnswer": "glue",
+        "correctAudioName": "glue.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "suit.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "tile.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "s",
+          "t",
+          "u",
+          "i"
+        ],
+        "correctAnswer": "suit",
+        "correctAudioName": "Suit.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "blue.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "tile.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "e",
+          "b",
+          "u",
+          "l"
+        ],
+        "correctAnswer": "blue",
+        "correctAudioName": "Blue.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "Cube.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "tile.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "e",
+          "b",
+          "u",
+          "c"
+        ],
+        "correctAnswer": "cube",
+        "correctAudioName": "Cube.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "chew.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "tile.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "e",
+          "w",
+          "h",
+          "c"
+        ],
+        "correctAnswer": "chew",
+        "correctAudioName": "Chew.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "mule.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "tile.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "u",
+          "l",
+          "e",
+          "m"
+        ],
+        "correctAnswer": "mule",
+        "correctAudioName": "Mule.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      }
+    ]
+  }
+}
