@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sister",
+    "texture": "b0bb359c-c754-4b9c-a92c-9c6419a645eb",
+    "atlas": "",
+    "rect": [
+      0,
+      26,
+      250,
+      198
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
