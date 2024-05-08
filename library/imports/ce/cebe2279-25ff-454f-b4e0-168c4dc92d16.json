@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ait",
+    "texture": "4ebb70d5-d93d-4872-840a-c92768a02a83",
+    "atlas": "",
+    "rect": [
+      98,
+      116,
+      104,
+      58
+    ],
+    "offset": [
+      -0.5,
+      5.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
