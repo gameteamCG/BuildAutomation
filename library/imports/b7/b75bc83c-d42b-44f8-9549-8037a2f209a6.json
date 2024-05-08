@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Teddy_Bear2",
+    "texture": "ff4890be-48fb-4378-ae5d-426b55cb2d35",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      230,
+      249
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      230,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
