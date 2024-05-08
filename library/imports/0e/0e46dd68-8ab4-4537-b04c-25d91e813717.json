@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bingosong",
+    "texture": "e15f7c3f-8e48-4515-8670-3340df57f1eb",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      377,
+      288
+    ],
+    "offset": [
+      0,
+      11.5
+    ],
+    "originalSize": [
+      377,
+      315
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

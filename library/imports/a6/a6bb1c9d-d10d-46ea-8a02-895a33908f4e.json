@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3whichletteraftero",
+    "texture": "6289f108-f5e1-4082-8f20-82b638e062bb",
+    "atlas": "",
+    "rect": [
+      2,
+      112,
+      514,
+      253
+    ],
+    "offset": [
+      1,
+      11.5
+    ],
+    "originalSize": [
+      516,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
