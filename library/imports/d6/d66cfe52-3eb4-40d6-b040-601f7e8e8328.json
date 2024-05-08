@@ -1,0 +1,171 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": " 'i' family words",
+      "totalLevel": "8",
+      "TitleImageName": "i_family_words.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "L_BG-2.mp3",
+      "mainBgName": "BG_19.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionImageName": "pig.png",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "pumpkin2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": -50,
+        "options": [
+          "i",
+          "g",
+          "p"
+        ],
+        "correctAnswer": "pig",
+        "correctAudioName": "pig.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "dig.png",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "pumpkin2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": -50,
+        "options": [
+          "d",
+          "g",
+          "i"
+        ],
+        "correctAnswer": "dig",
+        "correctAudioName": "dig.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "fig.png",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "pumpkin2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": -50,
+        "options": [
+          "g",
+          "f",
+          "i"
+        ],
+        "correctAnswer": "fig",
+        "correctAudioName": "fig.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "wig.png",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "pumpkin2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": -50,
+        "options": [
+          "i",
+          "w",
+          "g"
+        ],
+        "correctAnswer": "wig",
+        "correctAudioName": "wig.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "big.png",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "pumpkin2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": -50,
+        "options": [
+          "b",
+          "g",
+          "i"
+        ],
+        "correctAnswer": "big",
+        "correctAudioName": "big.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "hid.png",
+        "questionAudioName": "L5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "pumpkin2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": -50,
+        "options": [
+          "i",
+          "d",
+          "h"
+        ],
+        "correctAnswer": "hid",
+        "correctAudioName": "hid.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "kid.png",
+        "questionAudioName": "L5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "pumpkin2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": -50,
+        "options": [
+          "k",
+          "d",
+          "i"
+        ],
+        "correctAnswer": "kid",
+        "correctAudioName": "kid.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "lid.png",
+        "questionAudioName": "L5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "pumpkin2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": -50,
+        "options": [
+          "d",
+          "l",
+          "i"
+        ],
+        "correctAnswer": "lid",
+        "correctAudioName": "lid.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      }
+    ]
+  }
+}

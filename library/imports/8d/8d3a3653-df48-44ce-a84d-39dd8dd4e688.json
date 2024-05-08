@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wig",
+    "texture": "c14c4aeb-1686-44d6-b333-4042c14215ff",
+    "atlas": "",
+    "rect": [
+      46,
+      8,
+      158,
+      234
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
