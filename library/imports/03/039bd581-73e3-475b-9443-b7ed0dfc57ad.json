@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thin_eraser",
+    "texture": "c00e531f-e2f0-4a8b-b052-fc98caf859ce",
+    "atlas": "",
+    "rect": [
+      165,
+      50,
+      171,
+      398
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

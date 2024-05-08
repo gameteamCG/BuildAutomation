@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tall_scachpen",
+    "texture": "41d334d7-fb68-4318-a942-0a3d9d99ba6f",
+    "atlas": "",
+    "rect": [
+      193,
+      23,
+      114,
+      454
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "short_scachpen",
+    "texture": "efcb93ad-a4d3-4643-8141-15ba14db72b9",
+    "atlas": "",
+    "rect": [
+      193,
+      261,
+      114,
+      216
+    ],
+    "offset": [
+      0,
+      -119
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

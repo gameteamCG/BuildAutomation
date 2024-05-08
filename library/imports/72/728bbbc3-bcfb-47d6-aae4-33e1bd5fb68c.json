@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thin_brush",
+    "texture": "f7a48007-52ea-418b-8d26-aecb78f68979",
+    "atlas": "",
+    "rect": [
+      230,
+      11,
+      41,
+      476
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

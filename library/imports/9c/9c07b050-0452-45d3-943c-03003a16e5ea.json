@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tall_pen",
+    "texture": "d10c2295-1ff4-4b1e-9d15-7476e38e05a0",
+    "atlas": "",
+    "rect": [
+      213,
+      23,
+      74,
+      455
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

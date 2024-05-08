@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tall_bottle",
+    "texture": "660b2301-75e6-4e52-bf0b-8ccb0b221b98",
+    "atlas": "",
+    "rect": [
+      198,
+      30,
+      105,
+      440
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
