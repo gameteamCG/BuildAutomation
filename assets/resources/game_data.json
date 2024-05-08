@@ -1,0 +1,163 @@
+{
+  "additionalData": {
+    "GameID": "Opposite",
+    "totalLevel": "10",
+    "TitleImageName": "opposites.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "comp_bgm.mp3",
+    "mainBgName": "bg (9).png",
+    "JockeyName": "tlc"
+  },
+  "questionData": [
+    {
+      "questionText": "opposite - tall and short",
+      "questionImageName": "tall_pencil.png",
+      "questionAudioName": "identify_the_opposite_of_tall.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "short_pencil.png",
+        "Flower_Lady_Bug0010.png"
+      ],
+      "correctAudioName": "short.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "opposite - tall and short",
+      "questionImageName": "short_bottle.png",
+      "questionAudioName": "identify_the_opposite_of_short.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "bat.png",
+        "tall_bottle.png"
+      ],
+      "correctAudioName": "tall.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "opposite - tall and short",
+      "questionImageName": "tall_scachpen.png",
+      "questionAudioName": "identify_the_opposite_of_tall.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "short_scachpen.png",
+        "bee.png"
+      ],
+      "correctAudioName": "short.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "opposite - tall and short",
+      "questionImageName": "short_pen.png",
+      "questionAudioName": "identify_the_opposite_of_short.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "21.png",
+        "tall_pen.png"
+      ],
+      "correctAudioName": "tall.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "opposite - tall and short",
+      "questionImageName": "tall_scale.png",
+      "questionAudioName": "identify_the_opposite_of_tall.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "short_scale.png",
+        "Vase.png"
+      ],
+      "correctAudioName": "short.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "opposite - thick and thin",
+      "questionImageName": "thick_color.png",
+      "questionAudioName": "identify_the_opposite_of_thick.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "_0003_frog.png",
+        "thin_color.png"
+      ],
+      "correctAudioName": "Thin.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "opposite - thick and thin",
+      "questionImageName": "thin_brush.png",
+      "questionAudioName": "identify_the_opposite_of_thin.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "thick_brush.png",
+        "elephant.png"
+      ],
+      "correctAudioName": "Thick.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "opposite - thick and thin",
+      "questionImageName": "thick_bottle.png",
+      "questionAudioName": "identify_the_opposite_of_thick.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "jelly.png",
+        "thick_thin.png"
+      ],
+      "correctAudioName": "Thin.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "opposite - thick and thin",
+      "questionImageName": "thin_sharpner.png",
+      "questionAudioName": "identify_the_opposite_of_thin.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "thick_sharpner.png",
+        "sandwitch.png"
+      ],
+      "correctAudioName": "Thick.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "opposite - thick and thin",
+      "questionImageName": "thick_eraser.png",
+      "questionAudioName": "identify_the_opposite_of_thick.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "juice.png",
+        "thin_eraser.png"
+      ],
+      "correctAudioName": "Thin.mp3",
+      "correctAnswerNum": "2"
+    }
+  ]
+}
