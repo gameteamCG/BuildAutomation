@@ -1,0 +1,200 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "LONG ‘u’ SOUND",
+      "totalLevel": "7",
+      "TitleImageName": "titel.png",
+      "introBgName": "Bg_3.png",
+      "bgmMusicName": "BGM_BW_game.mp3",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "BG1.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "cup.png",
+          "Mute.png",
+          "nun.png",
+          "rug.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "AWESOMEYOUSAVEDIT.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "634673_1_mute.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "bg_1(1).png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "bud.png",
+          "maid.png",
+          "pug.png",
+          "sew.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "AWESOMEYOUSAVEDIT.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "20728153_2_sew.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "Bag.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "glue.png",
+          "pin.png",
+          "pulp.png",
+          "Tape.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "20728153_3_glue.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "Bg1_8.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "jack.png",
+          "mug.png",
+          "tube.png",
+          "wed.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "20728153_4_tube.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "Bg51.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "crab.png",
+          "rule.png",
+          "tug.png",
+          "yup.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "20728153_5_rule.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "BG_2.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "blew.png",
+          "hate.png",
+          "lips.png",
+          "spun.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "GORGEOUSWORK.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "20728153_6_blew.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "BgsNew06.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "bun.png",
+          "Clue.png",
+          "drop.png",
+          "mud.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "IMPRESSIVEWORK.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "20728153_7_clue.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

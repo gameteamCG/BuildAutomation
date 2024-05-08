@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jack",
+    "texture": "af90c4d1-ec6c-4721-9ad1-2f90fabb799a",
+    "atlas": "",
+    "rect": [
+      31,
+      7,
+      188,
+      236
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
