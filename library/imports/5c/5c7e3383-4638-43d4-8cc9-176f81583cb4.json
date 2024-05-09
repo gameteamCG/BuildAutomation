@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "quailBW",
+    "texture": "c1134e18-a282-4b41-a489-b72d4ed1c0bf",
+    "atlas": "",
+    "rect": [
+      62,
+      0,
+      375,
+      500
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
