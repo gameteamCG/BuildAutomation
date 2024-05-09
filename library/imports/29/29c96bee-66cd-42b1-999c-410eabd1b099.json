@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0008_outside-tent",
+    "texture": "8b8c7ee3-01d0-4ff5-9c9f-da491e398773",
+    "atlas": "",
+    "rect": [
+      32,
+      42,
+      452,
+      437
+    ],
+    "offset": [
+      8,
+      -10.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

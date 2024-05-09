@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0007_outside-cave",
+    "texture": "00b8fe89-572e-4c3b-97b6-59160b46df8a",
+    "atlas": "",
+    "rect": [
+      2,
+      72,
+      494,
+      352
+    ],
+    "offset": [
+      -1,
+      2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

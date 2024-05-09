@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_inside-car",
+    "texture": "c9e8b27f-f99f-4485-a235-37ab704d3b62",
+    "atlas": "",
+    "rect": [
+      20,
+      77,
+      456,
+      385
+    ],
+    "offset": [
+      -2,
+      -19.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
