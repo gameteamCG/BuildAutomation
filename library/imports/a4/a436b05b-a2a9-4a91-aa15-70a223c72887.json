@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vegatablesong",
+    "texture": "af96fc1a-bc24-4334-9655-db5f93d36456",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      686,
+      270
+    ],
+    "offset": [
+      0,
+      10
+    ],
+    "originalSize": [
+      686,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
