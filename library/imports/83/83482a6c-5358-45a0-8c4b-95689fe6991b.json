@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "seal_outline",
+    "texture": "61d6a920-0d7c-4ca7-a3ab-1c9fe15026e9",
+    "atlas": "",
+    "rect": [
+      3,
+      46,
+      595,
+      512
+    ],
+    "offset": [
+      0.5,
+      -2
+    ],
+    "originalSize": [
+      600,
+      600
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

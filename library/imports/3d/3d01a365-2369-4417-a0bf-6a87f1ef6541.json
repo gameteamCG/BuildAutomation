@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "penguin_outline",
+    "texture": "7709b493-8572-49ae-bc53-a71bd3ddac29",
+    "atlas": "",
+    "rect": [
+      99,
+      16,
+      402,
+      569
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      600,
+      600
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

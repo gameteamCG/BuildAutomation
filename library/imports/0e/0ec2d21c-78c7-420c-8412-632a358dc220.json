@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "colourthearcticanimal",
+    "texture": "bc953fb0-d5bf-4850-8390-a2430d3c3741",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      939,
+      236
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      939,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

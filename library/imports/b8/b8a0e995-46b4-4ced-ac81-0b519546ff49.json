@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": " Colour the arctic animal",
+      "totalLevel": "5",
+      "TitleImageName": "colourthearcticanimal.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_2.mp3",
+      "initialVOName": "19645310_1_colour_the_artic_animal.mp3",
+      "mainBgName": "artbackground2.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "arctic animal",
+        "questionImageName": "penguin.png",
+        "questionAudioName": "19645310_2_colour_the_penguin.mp3",
+        "shouldPlayQuestionAudio": false,
+        "pictureImageName": "penguin_outline.png",
+        "needMoreTools": true,
+        "correctAudioName": "19645310_10_penguin.mp3"
+      },
+      {
+        "questionText": "arctic animal",
+        "questionImageName": "polar_bear.png",
+        "questionAudioName": "19645310_3_colour_the_polar_bare.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "polar_bear_outline.png",
+        "needMoreTools": true,
+        "correctAudioName": "19645310_8_polar_bare.mp3"
+      },
+      {
+        "questionText": "arctic animal",
+        "questionImageName": "reindear.png",
+        "questionAudioName": "19645310_5_colour_the_reindeer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "reindear_outline.png",
+        "needMoreTools": true,
+        "correctAudioName": "19645310_11_reindeer.mp3"
+      },
+      {
+        "questionText": "arctic animal",
+        "questionImageName": "seal.png",
+        "questionAudioName": "19645310_6_colour_the_seal.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "seal_outline.png",
+        "needMoreTools": true,
+        "correctAudioName": "19645310_7_seal.mp3"
+      },
+      {
+        "questionText": "arctic animal",
+        "questionImageName": "walrus.png",
+        "questionAudioName": "19645310_4_colour_the_walrus.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "walrus_outline.png",
+        "needMoreTools": true,
+        "correctAudioName": "19645310_9_walrus.mp3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "reindear_outline",
+    "texture": "72d0033f-ee05-4657-bf85-fcdc47d87dde",
+    "atlas": "",
+    "rect": [
+      5,
+      74,
+      591,
+      452
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      600,
+      600
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
