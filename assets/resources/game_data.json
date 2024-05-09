@@ -1,0 +1,73 @@
+{
+  "AdditionalData": {
+    "GameID": "Rainforest tour",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/84081772_Rainforest_Introduction_1715256840419.mp4",
+    "TitleImageName": "logo.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "tlc",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q11.png",
+      "QuestionAudioName": "Where_does_the_story_take_place.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "house.png",
+        "cafe.png",
+        "amazonforest.png",
+        "adventure_park.png"
+      ],
+      "ReiterationAudioName": "amazon_rainforest.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q22.png",
+      "QuestionAudioName": "Which_is_the_worlds_largest_snake.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "bear.png",
+        "gorilla.png",
+        "seal.png",
+        "anaconda.png"
+      ],
+      "ReiterationAudioName": "anaconda.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q33.png",
+      "QuestionAudioName": "who_can_run, swim_and_has_spots.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "sloth.png",
+        "jaguar.png",
+        "tarantula.png",
+        "butterfly.png"
+      ],
+      "ReiterationAudioName": "jaguar.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
