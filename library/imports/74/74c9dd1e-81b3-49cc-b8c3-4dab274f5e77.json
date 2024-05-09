@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cvcwords",
+    "texture": "1942034c-0545-4045-ab31-991c8148a9e8",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      723,
+      120
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      723,
+      184
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

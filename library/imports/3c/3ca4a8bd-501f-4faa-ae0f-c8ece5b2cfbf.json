@@ -1,0 +1,209 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "CVC WORDS",
+      "totalLevel": "10",
+      "TitleImageName": "cvcwords.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "comp_bgm.mp3",
+      "mainBgName": "bg22.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionImageName": "Bed.png",
+        "questionAudioName": "Swipe_the_letters_and_make_the_correct_word..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Button7.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "b",
+          "d",
+          "e"
+        ],
+        "correctAnswer": "bed",
+        "correctAudioName": "bed.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "Pen.png",
+        "questionAudioName": "Swipe_the_letters_and_make_the_correct_word..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Button7.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "e",
+          "p",
+          "n"
+        ],
+        "correctAnswer": "pen",
+        "correctAudioName": "PEN.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "Nib.png",
+        "questionAudioName": "Swipe_the_letters_and_make_the_correct_word..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Button7.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "n",
+          "b",
+          "i"
+        ],
+        "correctAnswer": "nib",
+        "correctAudioName": "Nib.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "Web.png",
+        "questionAudioName": "Swipe_the_letters_and_make_the_correct_word..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Button7.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "w",
+          "b",
+          "e"
+        ],
+        "correctAnswer": "web",
+        "correctAudioName": "web.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "Lip.png",
+        "questionAudioName": "Swipe_the_letters_and_make_the_correct_word..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Button7.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "i",
+          "l",
+          "p"
+        ],
+        "correctAnswer": "lip",
+        "correctAudioName": "lip.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "leg.png",
+        "questionAudioName": "Swipe_the_letters_and_make_the_correct_word..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Button7.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "e",
+          "l",
+          "g"
+        ],
+        "correctAnswer": "leg",
+        "correctAudioName": "leg.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "Pig.png",
+        "questionAudioName": "Swipe_the_letters_and_make_the_correct_word..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Button7.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "i",
+          "n",
+          "p"
+        ],
+        "correctAnswer": "pin",
+        "correctAudioName": "Pin.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "Pig_1.png",
+        "questionAudioName": "Swipe_the_letters_and_make_the_correct_word..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Button7.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "g",
+          "p",
+          "i"
+        ],
+        "correctAnswer": "pig",
+        "correctAudioName": "pig.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "Zip.png",
+        "questionAudioName": "Swipe_the_letters_and_make_the_correct_word..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Button7.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "p",
+          "z",
+          "i"
+        ],
+        "correctAnswer": "zip",
+        "correctAudioName": "zip.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "",
+        "questionImageName": "Hen.png",
+        "questionAudioName": "Swipe_the_letters_and_make_the_correct_word..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Button7.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "n",
+          "h",
+          "e"
+        ],
+        "correctAnswer": "hen",
+        "correctAudioName": "hen.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      }
+    ]
+  }
+}
