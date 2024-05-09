@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bear",
+    "texture": "d911bc7c-9abc-42cd-b657-948c281f7d3d",
+    "atlas": "",
+    "rect": [
+      14,
+      36,
+      222,
+      179
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
