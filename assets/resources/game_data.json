@@ -1,0 +1,23 @@
+{
+  "additionalData": {
+    "GameID": "Draw your favourtite toy",
+    "totalLevel": "1",
+    "TitleImageName": "title.png",
+    "introBgName": "PLAYGROUP.png",
+    "bgmMusicName": "bgmss.mp3",
+    "initialVOName": "evo.mp3",
+    "mainBgName": "BG.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "draw your favourite toy",
+      "questionImageName": "",
+      "questionAudioName": "drawandcolouryourfavouritetoy.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "",
+      "needMoreTools": false,
+      "correctAudioName": "L3correct.mp3"
+    }
+  ]
+}
