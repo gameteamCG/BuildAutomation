@@ -1,0 +1,239 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter t",
+      "totalLevel": "10",
+      "TitleImageName": "title.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "letter t",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "t.png"
+        ],
+        "reiterations": [
+          "table.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 3,
+        "rightoptions": [
+          "table.png",
+          "apple.png",
+          "basket.png"
+        ]
+      },
+      {
+        "questionText": "letter t",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "t.png"
+        ],
+        "reiterations": [
+          "tambourine.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 3,
+        "rightoptions": [
+          "tamborine.png",
+          "book.png",
+          "bat.png"
+        ]
+      },
+      {
+        "questionText": "letter t",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "t.png"
+        ],
+        "reiterations": [
+          "tap.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 3,
+        "rightoptions": [
+          "tap.png",
+          "call.png",
+          "card.png"
+        ]
+      },
+      {
+        "questionText": "letter t",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "t.png"
+        ],
+        "reiterations": [
+          "teddybear.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 3,
+        "rightoptions": [
+          "teddy.png",
+          "clock.png",
+          "cat.png"
+        ]
+      },
+      {
+        "questionText": "letter t",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "t.png"
+        ],
+        "reiterations": [
+          "tent.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 3,
+        "rightoptions": [
+          "tent.png",
+          "hat.png",
+          "lock.png"
+        ]
+      },
+      {
+        "questionText": "letter t",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "t.png"
+        ],
+        "reiterations": [
+          "tiger.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 3,
+        "rightoptions": [
+          "tiger.png",
+          "rag.png",
+          "rugby.png"
+        ]
+      },
+      {
+        "questionText": "letter t",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "t.png"
+        ],
+        "reiterations": [
+          "tomato.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 3,
+        "rightoptions": [
+          "tomato.png",
+          "apple.png",
+          "shoes.png"
+        ]
+      },
+      {
+        "questionText": "letter t",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "t.png"
+        ],
+        "reiterations": [
+          "Toy.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 3,
+        "rightoptions": [
+          "toy.png",
+          "basket.png",
+          "tap.png"
+        ]
+      },
+      {
+        "questionText": "letter t",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "t.png"
+        ],
+        "reiterations": [
+          "tree.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 3,
+        "rightoptions": [
+          "tree.png",
+          "lock.png",
+          "bat.png"
+        ]
+      },
+      {
+        "questionText": "letter t",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "t.png"
+        ],
+        "reiterations": [
+          "turtle.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 3,
+        "rightoptions": [
+          "turtle.png",
+          "book.png",
+          "rag.png"
+        ]
+      }
+    ]
+  }
+}

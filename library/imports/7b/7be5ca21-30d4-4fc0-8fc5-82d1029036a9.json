@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bat",
+    "texture": "01a56dd7-7b82-4c05-9238-eb316df6b5b0",
+    "atlas": "",
+    "rect": [
+      119,
+      75,
+      353,
+      350
+    ],
+    "offset": [
+      45.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

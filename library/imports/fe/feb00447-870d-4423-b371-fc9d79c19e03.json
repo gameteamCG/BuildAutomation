@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "teddy",
+    "texture": "71dc6cac-3973-4227-b9d7-23234e45218a",
+    "atlas": "",
+    "rect": [
+      137,
+      85,
+      294,
+      330
+    ],
+    "offset": [
+      34,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

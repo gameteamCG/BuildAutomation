@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tamborine",
+    "texture": "967c8ff2-43bb-4f19-b7a1-206eb064dd39",
+    "atlas": "",
+    "rect": [
+      117,
+      106,
+      333,
+      285
+    ],
+    "offset": [
+      33.5,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

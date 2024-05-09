@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rag",
+    "texture": "a868203f-f2f1-4107-850c-f7c24ef72443",
+    "atlas": "",
+    "rect": [
+      98,
+      118,
+      384,
+      301
+    ],
+    "offset": [
+      40,
+      -18.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
