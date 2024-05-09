@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "frozen_yogurt",
+    "texture": "ad49093d-b948-471b-97bb-dac6d3a8fc08",
+    "atlas": "",
+    "rect": [
+      30,
+      21,
+      439,
+      458
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "unhealthy_0004_Hue_Saturation",
+    "texture": "98371ba6-1656-4be5-9954-21e3e169f358",
+    "atlas": "",
+    "rect": [
+      145,
+      9,
+      210,
+      479
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

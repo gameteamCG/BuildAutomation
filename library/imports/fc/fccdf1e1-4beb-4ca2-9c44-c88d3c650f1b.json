@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rice",
+    "texture": "69aa8b69-ea41-4a60-b7f2-eb7fa34f2c72",
+    "atlas": "",
+    "rect": [
+      1,
+      67,
+      496,
+      376
+    ],
+    "offset": [
+      -1,
+      -5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
