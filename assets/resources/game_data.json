@@ -1,0 +1,67 @@
+{
+  "AdditionalData": {
+    "GameID": "Baby shark song",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/41703972_PTR_E69_BabySharkSong_1715258311437.mp4",
+    "TitleImageName": "babysharksong.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "tlc",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "babyshark2.png",
+      "QuestionAudioName": "Identifythebabyshark.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "babyshark3.png",
+        "grandmashark.png"
+      ],
+      "ReiterationAudioName": "babyshark.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "daddyshark2.png",
+      "QuestionAudioName": "Choosetheimageofdaddyshark.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "grandpaashark.png",
+        "papashark3.png"
+      ],
+      "ReiterationAudioName": "daddyshark.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Wheredosharklive.png",
+      "QuestionAudioName": "Wheredosharkslive.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "underwater.png",
+        "jungle.png"
+      ],
+      "ReiterationAudioName": "underwater.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
