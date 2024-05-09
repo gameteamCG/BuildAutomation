@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Draw your favourite toy",
+      "totalLevel": "1",
+      "TitleImageName": "draw_your_favourite_toy.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "initialVOName": "",
+      "mainBgName": "colourbg3.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "draw toys",
+        "questionImageName": "favourite toy.png",
+        "questionAudioName": "draw_your_favourite_toy.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "blankframe.png",
+        "needMoreTools": false,
+        "correctAudioName": "BRILLIANT.mp3"
+      }
+    ]
+  }
+}
