@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "scott_kelly",
+    "texture": "65283c3b-544a-4c3a-a7e9-02ab865bba43",
+    "atlas": "",
+    "rect": [
+      4,
+      4,
+      421,
+      424
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      429,
+      432
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

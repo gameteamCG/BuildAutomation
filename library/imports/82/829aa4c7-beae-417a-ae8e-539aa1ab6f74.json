@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sally_ ride",
+    "texture": "2364b5af-2d5a-4706-8e72-adbc3ebd4c0c",
+    "atlas": "",
+    "rect": [
+      4,
+      4,
+      422,
+      425
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      430,
+      433
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

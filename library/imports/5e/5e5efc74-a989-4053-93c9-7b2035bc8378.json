@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "neil_arm_strong",
+    "texture": "8aa8c822-a031-4cdf-b0d4-328916e2155b",
+    "atlas": "",
+    "rect": [
+      4,
+      4,
+      421,
+      425
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      429,
+      433
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
