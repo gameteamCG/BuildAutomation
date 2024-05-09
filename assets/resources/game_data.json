@@ -1,0 +1,73 @@
+{
+  "AdditionalData": {
+    "GameID": "Ten in the bed",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/83090679_PTR_E33_TenInTheBed_1715258592977.mp4",
+    "TitleImageName": "teninbed.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "tlc",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q1.png",
+      "QuestionAudioName": "Count_how_many.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "9.png",
+        "7.png",
+        "5.png",
+        "4.png"
+      ],
+      "ReiterationAudioName": "5.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q2.png",
+      "QuestionAudioName": "Count_how_many.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "6.png",
+        "7.png",
+        "8.png",
+        "9.png"
+      ],
+      "ReiterationAudioName": "7.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q3.png",
+      "QuestionAudioName": "Choose_the_number_that_comes_before_4.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "2.png",
+        "1.png",
+        "3.png",
+        "5.png"
+      ],
+      "ReiterationAudioName": "3.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    }
+  ]
+}
