@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q7_whichanimalmakesoundbaabaa",
+    "texture": "6d3dcb45-39cc-4be1-af71-ad4d01922167",
+    "atlas": "",
+    "rect": [
+      1,
+      133,
+      521,
+      211
+    ],
+    "offset": [
+      0,
+      11.5
+    ],
+    "originalSize": [
+      523,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

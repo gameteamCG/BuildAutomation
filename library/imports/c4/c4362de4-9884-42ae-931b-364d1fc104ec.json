@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q6_wheredowefindsheep",
+    "texture": "2bda5b53-d0ce-4b67-a3e4-f8fc9cf38aba",
+    "atlas": "",
+    "rect": [
+      55,
+      174,
+      431,
+      144
+    ],
+    "offset": [
+      0,
+      4
+    ],
+    "originalSize": [
+      541,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
