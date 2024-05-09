@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7210eb83-7c7d-4942-99c9-ad3f69bf91c3",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 251,
+  "platformSettings": {},
+  "subMetas": {
+    "Bottle_gourd_part_002": {
+      "ver": "1.0.6",
+      "uuid": "efcf16ce-6b82-4f60-8db9-c6d0130f57e4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7210eb83-7c7d-4942-99c9-ad3f69bf91c3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 250,
+      "height": 251,
+      "rawWidth": 250,
+      "rawHeight": 251,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
