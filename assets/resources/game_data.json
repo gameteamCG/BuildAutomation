@@ -1,0 +1,116 @@
+{
+  "additionalData": {
+    "GameID": "All about astronout",
+    "totalLevel": "6",
+    "TitleImageName": "allabout.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "B2.mp3",
+    "mainBgName": "BG.png",
+    "JockeyName": "tlc",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "space suit",
+      "questionAudioName": "Q1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankframe.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "astronaut_suit.png",
+        "construction_worker_suit.png"
+      ],
+      "correctAudios": [
+        "Space_suit.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "space helmet",
+      "questionAudioName": "Q2.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankframe.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "bike_helmet.png",
+        "astronaut_helmet.png"
+      ],
+      "correctAudios": [
+        "space_Helmet.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Who is trained to travel into outer space?",
+      "questionAudioName": "Q3.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankframe.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "astronaut_1.png",
+        "cobbler.png"
+      ],
+      "correctAudios": [
+        "Astronaut.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "who is the first person to walk on the moon",
+      "questionAudioName": "Q4.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankframe.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "kalpana_chawla.png",
+        "neil_arm_strong.png"
+      ],
+      "correctAudios": [
+        "Neil_Armstrong.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "who was the first women of indian origin to fly to space?",
+      "questionAudioName": "Q5.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankframe.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "kalpana_chawla.png",
+        "scott_kelly.png"
+      ],
+      "correctAudios": [
+        "Kalpana_Chawla.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "who was the second person to walk on the moon?",
+      "questionAudioName": "Q6.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blankframe.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "sally_ ride.png",
+        "buzz_aldrin.png"
+      ],
+      "correctAudios": [
+        "buzz_aldrin.mp3"
+      ],
+      "correctAnswerNum": "2"
+    }
+  ]
+}
