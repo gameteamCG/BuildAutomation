@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rainyseason",
+    "texture": "612ec088-d197-4f31-862d-7741ffdd7589",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      860,
+      239
+    ],
+    "offset": [
+      0,
+      28.5
+    ],
+    "originalSize": [
+      860,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

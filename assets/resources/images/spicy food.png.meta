@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1d265bed-3a90-4ebe-ad2e-7529b0f0118e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "spicy food": {
+      "ver": "1.0.6",
+      "uuid": "3673ca49-de46-463a-84ee-9f3456909f06",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1d265bed-3a90-4ebe-ad2e-7529b0f0118e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -0.5,
+      "trimX": 15,
+      "trimY": 65,
+      "width": 472,
+      "height": 372,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

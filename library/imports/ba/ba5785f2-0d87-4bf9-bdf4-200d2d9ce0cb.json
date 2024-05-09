@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_spinach",
+    "texture": "5d1ff713-0d73-4fdd-b710-d40eb0315c33",
+    "atlas": "",
+    "rect": [
+      29,
+      0,
+      442,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

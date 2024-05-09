@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "samosa",
+    "texture": "fcb365c4-8402-479a-ba71-e935a46eb9ed",
+    "atlas": "",
+    "rect": [
+      103,
+      109,
+      294,
+      282
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

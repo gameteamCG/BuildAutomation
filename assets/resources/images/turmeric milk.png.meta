@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "cf9646f2-69aa-4e14-89ea-027985773771",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "turmeric milk": {
+      "ver": "1.0.6",
+      "uuid": "345bed1d-10de-43db-a38d-4c20159631c1",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "cf9646f2-69aa-4e14-89ea-027985773771",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 6,
+      "offsetY": -9.5,
+      "trimX": 98,
+      "trimY": 91,
+      "width": 316,
+      "height": 337,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

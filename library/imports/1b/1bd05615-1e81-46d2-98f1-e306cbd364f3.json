@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "corn",
+    "texture": "6db4f4b6-3540-4b85-ab9f-5976d36ce612",
+    "atlas": "",
+    "rect": [
+      170,
+      28,
+      160,
+      444
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

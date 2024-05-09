@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "turmeric milk",
+    "texture": "cf9646f2-69aa-4e14-89ea-027985773771",
+    "atlas": "",
+    "rect": [
+      98,
+      91,
+      316,
+      337
+    ],
+    "offset": [
+      6,
+      -9.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "frizzy_food",
+    "texture": "0f0642b7-2b44-4c4b-ae1c-b424d593b3d9",
+    "atlas": "",
+    "rect": [
+      130,
+      38,
+      242,
+      426
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
