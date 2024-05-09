@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0013_glass",
+    "texture": "a7a357bc-022e-4091-adb6-33493c1d7db5",
+    "atlas": "",
+    "rect": [
+      56,
+      24,
+      138,
+      215
+    ],
+    "offset": [
+      0,
+      -6.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

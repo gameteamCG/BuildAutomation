@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0009_gloves",
+    "texture": "2e4b229c-b2a8-40e9-aed1-764612a5baa5",
+    "atlas": "",
+    "rect": [
+      12,
+      32,
+      227,
+      200
+    ],
+    "offset": [
+      0.5,
+      -7
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
