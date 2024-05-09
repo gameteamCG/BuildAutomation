@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thirt",
+    "texture": "7c5ef1cc-502a-4cab-b2f4-e022fa5cebb3",
+    "atlas": "",
+    "rect": [
+      25,
+      23,
+      200,
+      204
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

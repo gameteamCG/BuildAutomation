@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Revision - rough and smooth",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/63983SongsonLearningScience_1715253174429.mp4",
+      "TitleImageName": "Revisionroughansmooth.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "BGMLetterT.mp3",
+      "JockeyName": "Podar",
+      "TotalLevel": "7"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": true,
+        "QuestionText": "hard",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identifyandtaponthehardobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "glass.png",
+          "icecream.png"
+        ],
+        "ReiterationAudioName": "glass.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": true,
+        "QuestionText": "soft ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Selectthesoftobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "rock.png",
+          "socks.png"
+        ],
+        "ReiterationAudioName": "SOCKS.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": true,
+        "QuestionText": "hard",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identifyandtaponthehardobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "lolipop.png",
+          "pillow.png"
+        ],
+        "ReiterationAudioName": "lollipop.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "soft",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Selectthesoftobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "icecream.png",
+          "lolipop.png"
+        ],
+        "ReiterationAudioName": "ice-cream.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "soft",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Selectthesoftobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "glass.png",
+          "thirt.png"
+        ],
+        "ReiterationAudioName": "tshirt.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "hard ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identifyandtaponthehardobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "thirt.png",
+          "rock.png"
+        ],
+        "ReiterationAudioName": "rock.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "soft",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Selectthesoftobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "pillow.png",
+          "glass.png"
+        ],
+        "ReiterationAudioName": "PILLOW .mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
