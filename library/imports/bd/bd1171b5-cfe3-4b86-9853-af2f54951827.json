@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "colouring_toys",
+    "texture": "c16d56a2-cb8a-49ea-ad95-d391cec59451",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      640,
+      274
+    ],
+    "offset": [
+      0,
+      12.5
+    ],
+    "originalSize": [
+      640,
+      303
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
