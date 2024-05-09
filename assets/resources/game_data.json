@@ -1,0 +1,165 @@
+{
+  "additionalData": {
+    "GameID": "Letter q TLC feedback",
+    "totalLevel": "6",
+    "TitleImageName": "letterq.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "bgm_1.mp3",
+    "JockeyName": "tlc"
+  },
+  "questionData": [
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "BGL1.png",
+      "questionAudioName": "Identify_the_letter_Q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "",
+        "",
+        ""
+      ],
+      "optionsBg": [
+        "K1.png",
+        "K2.png",
+        "K3.png"
+      ],
+      "correctAudioName": "GOODJOB.mp3",
+      "wrongAudioName": "nevermindtryagain.mp3",
+      "reiterationAudioName": [
+        "EXCELLENTJOB.mp3",
+        "BRILLIANT.mp3",
+        "FANTASTIC.mp3"
+      ],
+      "correctAnswerNum": "123"
+    },
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "BGL1.png",
+      "questionAudioName": "Identify_the_letter_Q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "",
+        "",
+        ""
+      ],
+      "optionsBg": [
+        "K7.png",
+        "K8.png",
+        "K6.png"
+      ],
+      "correctAudioName": "MAGNIFICENT.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "EXCEPTIONAL.mp3",
+        "INCREDIBLE.mp3"
+      ],
+      "correctAnswerNum": "13"
+    },
+    {
+      "questionLayout": "layout2",
+      "questionBgName": "BGL2.png",
+      "questionAudioName": "Identify_the_letter_Q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "",
+        "",
+        ""
+      ],
+      "optionsBg": [
+        "Q1.png",
+        "Q2.png",
+        "Q3.png"
+      ],
+      "correctAudioName": "BRILLIANT.mp3",
+      "wrongAudioName": "ohoh.mp3",
+      "reiterationAudioName": [
+        "GOODJOB.mp3",
+        "EXCELLENTJOB.mp3",
+        "BRILLIANT.mp3"
+      ],
+      "correctAnswerNum": "123"
+    },
+    {
+      "questionLayout": "layout2",
+      "questionBgName": "BGL2.png",
+      "questionAudioName": "Identify_the_letter_Q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "",
+        "",
+        ""
+      ],
+      "optionsBg": [
+        "Q4.png",
+        "Q5.png",
+        "Q6.png"
+      ],
+      "correctAudioName": "FANTASTIC.mp3",
+      "wrongAudioName": "nevermindtryagain.mp3",
+      "reiterationAudioName": [
+        "GOODJOB.mp3",
+        "EXCEPTIONAL.mp3"
+      ],
+      "correctAnswerNum": "12"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "BGL4.png",
+      "questionAudioName": "Identify_the_objects_that_start_with_the_letter_Q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "quill.png",
+        "queen.png",
+        "question.png"
+      ],
+      "optionsBg": [
+        "quillBW.png",
+        "queenBW.png",
+        "question2.png"
+      ],
+      "correctAudioName": "INCREDIBLE.mp3",
+      "wrongAudioName": "ohoh.mp3",
+      "reiterationAudioName": [
+        "quill.mp3",
+        "queen.mp3",
+        "question_mark.mp3"
+      ],
+      "correctAnswerNum": "123"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "BGL4.png",
+      "questionAudioName": "Identify_the_objects_that_start_with_the_letter_Q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "magnet.png",
+        "quail.png",
+        "quilt.png"
+      ],
+      "optionsBg": [
+        "magnetBW.png",
+        "quailBW.png",
+        "quilt2.png"
+      ],
+      "correctAudioName": "MAGNIFICENT.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "quail.mp3",
+        "quilt.mp3"
+      ],
+      "correctAnswerNum": "23"
+    }
+  ]
+}
