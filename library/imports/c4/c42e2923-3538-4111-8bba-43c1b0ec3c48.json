@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dal_bawl",
+    "texture": "b7d4a672-360c-4c93-ac82-c9fecdebe575",
+    "atlas": "",
+    "rect": [
+      4,
+      92,
+      492,
+      347
+    ],
+    "offset": [
+      0,
+      -15.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

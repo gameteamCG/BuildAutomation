@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "peas",
+    "texture": "9eb6fae0-21fc-43d2-8616-d17748a6202b",
+    "atlas": "",
+    "rect": [
+      26,
+      85,
+      448,
+      330
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
