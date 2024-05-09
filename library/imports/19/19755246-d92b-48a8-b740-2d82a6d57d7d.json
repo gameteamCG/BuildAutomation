@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "teninbed",
+    "texture": "394bd19a-5066-45ed-ae69-f292a1ca6778",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      513,
+      239
+    ],
+    "offset": [
+      0,
+      28.5
+    ],
+    "originalSize": [
+      513,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
