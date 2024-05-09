@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter F",
+      "totalLevel": "5",
+      "TitleImageName": "Asset 22-8.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Asset 48-8.png",
+      "JockeyName": "Singham",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Letter F",
+        "questionAudioName": "20861595_1_identify-the-objects-t.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cb.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 49-8.png",
+          "Asset 56-8.png"
+        ],
+        "correctAudios": [
+          "20861595_4_frog.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Letter F",
+        "questionAudioName": "20861595_1_identify-the-objects-t.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cb.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 58-8.png",
+          "Asset 51-8.png"
+        ],
+        "correctAudios": [
+          "20861595_2_fish.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Letter F",
+        "questionAudioName": "20861595_1_identify-the-objects-t.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cb.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 50-8.png",
+          "Asset 59-8.png"
+        ],
+        "correctAudios": [
+          "flag.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Letter F",
+        "questionAudioName": "20861595_1_identify-the-objects-t.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cb.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 57-8.png",
+          "Asset 54-8.png"
+        ],
+        "correctAudios": [
+          "20861595_3_fan.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Letter F",
+        "questionAudioName": "20861595_1_identify-the-objects-t.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cb.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 92-8.png",
+          "Asset 55-8.png"
+        ],
+        "correctAudios": [
+          "20861595_5_fox.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
