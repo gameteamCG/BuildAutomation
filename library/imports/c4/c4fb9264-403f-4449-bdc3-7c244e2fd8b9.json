@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hletter",
+    "texture": "5dbab861-c62d-4eeb-a66f-ff109c6913fd",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      552,
+      126
+    ],
+    "offset": [
+      -17.5,
+      24.5
+    ],
+    "originalSize": [
+      587,
+      195
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
