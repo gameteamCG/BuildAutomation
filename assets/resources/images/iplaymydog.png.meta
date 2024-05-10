@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "dc3ba643-b790-4203-938b-de29e74912da",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 590,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "iplaymydog": {
+      "ver": "1.0.6",
+      "uuid": "8d14061a-375f-418b-b686-279181afc356",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "dc3ba643-b790-4203-938b-de29e74912da",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 6,
+      "offsetY": 5.5,
+      "trimX": 90,
+      "trimY": 24,
+      "width": 422,
+      "height": 441,
+      "rawWidth": 590,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
