@@ -1,0 +1,106 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Recap of pet animals",
+      "totalLevel": "4",
+      "TitleImageName": "titel.png",
+      "introBgName": "title_bg.png",
+      "bgmMusicName": "ColourBGM1.mp3",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "identify_and_tap_on_the_pet_animal_to_colour_it.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "cat_c.png",
+          "lion1.png"
+        ],
+        "optionsBg": [
+          "cat.png",
+          "lion1.png"
+        ],
+        "correctAudioName": "AWESOMEYOUSAVEDIT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "cat.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "identify_and_tap_on_the_pet_animal_to_colour_it.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "chiken_c.png",
+          "s.png"
+        ],
+        "optionsBg": [
+          "hen.png",
+          "s.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "hen.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "identify_and_tap_on_the_pet_animal_to_colour_it.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "g.png",
+          "dog_c.png"
+        ],
+        "optionsBg": [
+          "g.png",
+          "dog.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "dog.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "identify_and_tap_on_the_pet_animal_to_colour_it.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "parrot_c.png",
+          "o.png"
+        ],
+        "optionsBg": [
+          "parrot.png",
+          "o.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "parrot.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
