@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icecream",
+    "texture": "d12e9bf3-3ac5-4eee-ab00-4d395ab2d679",
+    "atlas": "",
+    "rect": [
+      125,
+      19,
+      286,
+      468
+    ],
+    "offset": [
+      17.5,
+      -2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
