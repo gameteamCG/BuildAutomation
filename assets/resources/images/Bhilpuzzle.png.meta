@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7821b168-2fdd-4f0e-bc43-7dd983e9e941",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 696,
+  "height": 513,
+  "platformSettings": {},
+  "subMetas": {
+    "Bhilpuzzle": {
+      "ver": "1.0.6",
+      "uuid": "18bffb2d-27cc-4504-a782-e07c0dba2153",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7821b168-2fdd-4f0e-bc43-7dd983e9e941",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 10,
+      "offsetY": -11,
+      "trimX": 22,
+      "trimY": 23,
+      "width": 672,
+      "height": 489,
+      "rawWidth": 696,
+      "rawHeight": 513,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
