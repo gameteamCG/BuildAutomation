@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "okjnbvc",
+    "texture": "2ecaff00-88b7-4dba-939c-f1578cca448e",
+    "atlas": "",
+    "rect": [
+      58,
+      64,
+      132,
+      121
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
