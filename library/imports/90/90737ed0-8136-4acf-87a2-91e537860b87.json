@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cab2",
+    "texture": "ec0e3a0d-fcbd-4d25-aff6-edaa308939a4",
+    "atlas": "",
+    "rect": [
+      5,
+      83,
+      240,
+      84
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

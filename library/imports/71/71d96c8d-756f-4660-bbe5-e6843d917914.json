@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jab",
+    "texture": "0d974361-72cf-42ed-b4de-f80d1636c890",
+    "atlas": "",
+    "rect": [
+      70,
+      92,
+      90,
+      72
+    ],
+    "offset": [
+      -10,
+      -3
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
