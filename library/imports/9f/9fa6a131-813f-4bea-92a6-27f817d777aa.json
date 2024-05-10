@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lad",
+    "texture": "d18ecf31-61c8-447f-9316-b8df6023ed1f",
+    "atlas": "",
+    "rect": [
+      135,
+      37,
+      232,
+      428
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
