@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yellowfish_500x500",
+    "texture": "564b44f7-cf4a-423c-8962-f498ff2f9895",
+    "atlas": "",
+    "rect": [
+      90,
+      110,
+      322,
+      280
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

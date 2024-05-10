@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "redfish_500x500",
+    "texture": "aa17e902-9099-4538-8e99-71e6a6c38493",
+    "atlas": "",
+    "rect": [
+      129,
+      127,
+      246,
+      242
+    ],
+    "offset": [
+      2,
+      2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
