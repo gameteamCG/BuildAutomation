@@ -1,0 +1,194 @@
+{
+  "additionalData": {
+    "GameID": "Biggest number",
+    "totalLevel": "7",
+    "TitleImageName": "titel.png",
+    "introBgName": "Bg_3.png",
+    "bgmMusicName": "HappyKidsSnappyMusicalInterlude.mp3",
+    "JockeyName": "Mighty_Raju"
+  },
+  "questionData": [
+    {
+      "questionLayout": "layout2",
+      "questionBgName": "main_bg.png",
+      "questionAudioName": "Identify_the_biggest_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "57",
+        "50",
+        "55",
+        "56"
+      ],
+      "optionsBg": [
+        "Asset_3.png",
+        "Asset_3.png",
+        "Asset_3.png",
+        "Asset_3.png"
+      ],
+      "correctAudioName": "AWESOMEYOUSAVEDIT.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "57.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionLayout": "layout2",
+      "questionBgName": "main_bg.png",
+      "questionAudioName": "Identify_the_biggest_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "45",
+        "49",
+        "40",
+        "39"
+      ],
+      "optionsBg": [
+        "Asset_3.png",
+        "Asset_3.png",
+        "Asset_3.png",
+        "Asset_3.png"
+      ],
+      "correctAudioName": "BRILLIANT.mp3",
+      "wrongAudioName": "nevermindtryagain.mp3",
+      "reiterationAudioName": [
+        "49.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionLayout": "layout2",
+      "questionBgName": "main_bg.png",
+      "questionAudioName": "Identify_the_biggest_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "25",
+        "20",
+        "31",
+        "29"
+      ],
+      "optionsBg": [
+        "Asset_3.png",
+        "Asset_3.png",
+        "Asset_3.png",
+        "Asset_3.png"
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "wrongAudioName": "ohoh.mp3",
+      "reiterationAudioName": [
+        "31.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionLayout": "layout2",
+      "questionBgName": "main_bg.png",
+      "questionAudioName": "Identify_the_biggest_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "55",
+        "70",
+        "89",
+        "98"
+      ],
+      "optionsBg": [
+        "Asset_3.png",
+        "Asset_3.png",
+        "Asset_3.png",
+        "Asset_3.png"
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "98.mp3"
+      ],
+      "correctAnswerNum": "4"
+    },
+    {
+      "questionLayout": "layout2",
+      "questionBgName": "main_bg.png",
+      "questionAudioName": "Identify_the_biggest_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "59",
+        "66",
+        "63",
+        "60"
+      ],
+      "optionsBg": [
+        "Asset_3.png",
+        "Asset_3.png",
+        "Asset_3.png",
+        "Asset_3.png"
+      ],
+      "correctAudioName": "FANTASTIC.mp3",
+      "wrongAudioName": "nevermindtryagain.mp3",
+      "reiterationAudioName": [
+        "66.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionLayout": "layout2",
+      "questionBgName": "main_bg.png",
+      "questionAudioName": "Identify_the_biggest_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "50",
+        "60",
+        "70",
+        "72"
+      ],
+      "optionsBg": [
+        "Asset_3.png",
+        "Asset_3.png",
+        "Asset_3.png",
+        "Asset_3.png"
+      ],
+      "correctAudioName": "GOODEFFORT.mp3",
+      "wrongAudioName": "ohoh.mp3",
+      "reiterationAudioName": [
+        "72.mp3"
+      ],
+      "correctAnswerNum": "4"
+    },
+    {
+      "questionLayout": "layout2",
+      "questionBgName": "main_bg.png",
+      "questionAudioName": "Identify_the_biggest_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "83",
+        "80",
+        "75",
+        "69"
+      ],
+      "optionsBg": [
+        "Asset_3.png",
+        "Asset_3.png",
+        "Asset_3.png",
+        "Asset_3.png"
+      ],
+      "correctAudioName": "GOODJOB.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "83.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
