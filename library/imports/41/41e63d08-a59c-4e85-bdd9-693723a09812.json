@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "'ig' family words super cub Jr kg",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/74656006_omkar_id_family_1715344485147.mp4",
+      "TitleImageName": "id_family_words.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "supercub",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q01_2.png",
+        "QuestionAudioName": "Identify_the_word_for_the_image.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "bid.png",
+          "lid.png",
+          "did.png",
+          "hid.png"
+        ],
+        "ReiterationAudioName": "lid.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "kid",
+        "QuestionImageName": "",
+        "QuestionAudioName": "select_the_picture_for_the_word.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "kid.png",
+          "hen.png",
+          "man.png",
+          "pot.png"
+        ],
+        "ReiterationAudioName": "kid.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q03.png",
+        "QuestionAudioName": "who_is_this.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "kid2.png",
+          "sid.png",
+          "pip.png",
+          "pot2.png"
+        ],
+        "ReiterationAudioName": "sid.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q04_2.png",
+        "QuestionAudioName": "the_kid____in_a_pot.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "hid.png",
+          "bid.png",
+          "kid2.png",
+          "lid.png"
+        ],
+        "ReiterationAudioName": "hid.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
