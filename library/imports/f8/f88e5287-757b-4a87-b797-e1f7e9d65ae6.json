@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Emotionmask",
+    "texture": "5a4d006c-4db3-48db-a18d-6f3b9a1bb26f",
+    "atlas": "",
+    "rect": [
+      16,
+      16,
+      791,
+      413
+    ],
+    "offset": [
+      8,
+      -8
+    ],
+    "originalSize": [
+      807,
+      429
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
