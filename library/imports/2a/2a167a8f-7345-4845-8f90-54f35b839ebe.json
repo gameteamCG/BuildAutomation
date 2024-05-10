@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "short_shrub",
+    "texture": "3e815411-c414-4502-a114-f7399410ba43",
+    "atlas": "",
+    "rect": [
+      83,
+      252,
+      316,
+      224
+    ],
+    "offset": [
+      -9,
+      -114
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

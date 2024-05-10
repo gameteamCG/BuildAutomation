@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "short_house",
+    "texture": "d081a1e4-9b17-44a3-b67f-8b7332513dd2",
+    "atlas": "",
+    "rect": [
+      69,
+      268,
+      345,
+      194
+    ],
+    "offset": [
+      -8.5,
+      -115
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tall_giraffe",
+    "texture": "73a2e096-e564-4b59-af56-c27de74d42c7",
+    "atlas": "",
+    "rect": [
+      132,
+      42,
+      265,
+      432
+    ],
+    "offset": [
+      14.5,
+      -8
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

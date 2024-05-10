@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shorter_man",
+    "texture": "0786d59a-8334-4682-b43f-57c7226fc3a0",
+    "atlas": "",
+    "rect": [
+      160,
+      187,
+      170,
+      280
+    ],
+    "offset": [
+      -5,
+      -77
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

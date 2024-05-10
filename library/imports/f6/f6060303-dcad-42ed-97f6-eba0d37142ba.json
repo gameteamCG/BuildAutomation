@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "short_cangle",
+    "texture": "997360e5-b9ec-48b7-a161-d62d4ee98fdd",
+    "atlas": "",
+    "rect": [
+      123,
+      257,
+      237,
+      185
+    ],
+    "offset": [
+      -8.5,
+      -99.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

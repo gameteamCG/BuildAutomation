@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "taller_man",
+    "texture": "3b421711-272c-47b8-8756-d49e2670b618",
+    "atlas": "",
+    "rect": [
+      140,
+      42,
+      220,
+      416
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

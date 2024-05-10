@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tall_flag",
+    "texture": "465023b2-8cfa-4ccd-aea3-3ea3e6f6eefa",
+    "atlas": "",
+    "rect": [
+      98,
+      43,
+      327,
+      414
+    ],
+    "offset": [
+      11.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
