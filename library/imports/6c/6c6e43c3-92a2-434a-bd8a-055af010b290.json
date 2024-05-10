@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pig2",
+    "texture": "3eebad11-1631-4801-934b-ce21f6a1ed82",
+    "atlas": "",
+    "rect": [
+      81,
+      102,
+      80,
+      62
+    ],
+    "offset": [
+      -4,
+      -8
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

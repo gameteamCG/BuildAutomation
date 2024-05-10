@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jig",
+    "texture": "d893e40b-f270-4ac2-a228-3a52bf9a7c83",
+    "atlas": "",
+    "rect": [
+      76,
+      102,
+      78,
+      62
+    ],
+    "offset": [
+      -10,
+      -8
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
