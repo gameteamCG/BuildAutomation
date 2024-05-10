@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "far1",
+    "texture": "7b267db2-2176-41c1-88c8-254517923c7a",
+    "atlas": "",
+    "rect": [
+      27,
+      138,
+      447,
+      225
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
