@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jhony",
+    "texture": "77aa3e88-74ab-40c5-94aa-0d402cfef82c",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      794,
+      283
+    ],
+    "offset": [
+      0,
+      12
+    ],
+    "originalSize": [
+      794,
+      311
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
