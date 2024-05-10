@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Colour_garden_objects",
+    "texture": "f9c805f2-8caa-42f7-9913-d576837313c1",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      944,
+      269
+    ],
+    "offset": [
+      -12.5,
+      10.5
+    ],
+    "originalSize": [
+      969,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
