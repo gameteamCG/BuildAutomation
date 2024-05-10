@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "feet",
+    "texture": "1dccb8dd-73ab-446e-a1ac-18582598925b",
+    "atlas": "",
+    "rect": [
+      0,
+      13,
+      247,
+      210
+    ],
+    "offset": [
+      -1.5,
+      7
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
