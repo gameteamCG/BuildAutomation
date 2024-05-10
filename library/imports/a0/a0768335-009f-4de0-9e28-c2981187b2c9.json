@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "emrald1",
+    "texture": "3623fd99-fd04-491f-8e66-fb9e0145ce2d",
+    "atlas": "",
+    "rect": [
+      140,
+      145,
+      269,
+      261
+    ],
+    "offset": [
+      24.5,
+      -25.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
