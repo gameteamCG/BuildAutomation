@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gift6",
+    "texture": "3586b868-92d5-4342-80d0-eeec74c30377",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      221,
+      251
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      221,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

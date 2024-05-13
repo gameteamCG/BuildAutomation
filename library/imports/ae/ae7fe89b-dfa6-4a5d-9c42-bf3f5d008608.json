@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "letterGgHh",
+    "texture": "1831b7be-3989-4591-9366-67dc83e1e1f6",
+    "atlas": "",
+    "rect": [
+      25,
+      24,
+      966,
+      317
+    ],
+    "offset": [
+      11.5,
+      -1.5
+    ],
+    "originalSize": [
+      993,
+      362
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
