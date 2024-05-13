@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q4whofishing",
+    "texture": "b1b39e86-d2d2-427b-999e-2448a892c16d",
+    "atlas": "",
+    "rect": [
+      12,
+      171,
+      495,
+      147
+    ],
+    "offset": [
+      0.5,
+      5.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
