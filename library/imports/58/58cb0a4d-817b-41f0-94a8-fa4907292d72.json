@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "letterCcDd",
+    "texture": "9a429ca3-b109-40b0-aa18-8f92860b5802",
+    "atlas": "",
+    "rect": [
+      25,
+      25,
+      932,
+      319
+    ],
+    "offset": [
+      11.5,
+      -3.5
+    ],
+    "originalSize": [
+      959,
+      362
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
