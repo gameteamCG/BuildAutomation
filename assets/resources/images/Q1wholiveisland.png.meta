@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e5c64d76-65b4-4742-9983-40b56eb71121",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 590,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Q1wholiveisland": {
+      "ver": "1.0.6",
+      "uuid": "bf28925b-c4a6-4a27-ba8f-d9cfef8f07ae",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e5c64d76-65b4-4742-9983-40b56eb71121",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 589,
+      "height": 500,
+      "rawWidth": 590,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
