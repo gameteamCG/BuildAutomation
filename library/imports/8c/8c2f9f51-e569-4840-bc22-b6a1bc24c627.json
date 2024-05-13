@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toycar",
+    "texture": "25c6a66e-38f9-491d-b0f8-2d31d57c301e",
+    "atlas": "",
+    "rect": [
+      20,
+      53,
+      210,
+      144
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
