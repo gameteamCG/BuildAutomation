@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0019_bandaid",
+    "texture": "4869865f-27f5-4e7a-a100-6d31ce1ea97e",
+    "atlas": "",
+    "rect": [
+      0,
+      95,
+      500,
+      312
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

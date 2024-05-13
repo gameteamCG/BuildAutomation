@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0006_nsock",
+    "texture": "fcba0b50-2a5b-439f-87e7-9f40df0a4ebc",
+    "atlas": "",
+    "rect": [
+      66,
+      1,
+      116,
+      247
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

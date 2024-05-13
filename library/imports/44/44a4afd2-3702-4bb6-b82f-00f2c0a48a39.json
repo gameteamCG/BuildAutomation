@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0011_urngrey",
+    "texture": "1b879757-5ade-4715-8219-b49475e197d5",
+    "atlas": "",
+    "rect": [
+      1,
+      81,
+      497,
+      339
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

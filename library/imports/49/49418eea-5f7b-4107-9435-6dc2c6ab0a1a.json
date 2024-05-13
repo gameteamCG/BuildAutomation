@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0013_bandaidgrey",
+    "texture": "a0d5043c-b760-421e-a880-149ea58ace00",
+    "atlas": "",
+    "rect": [
+      0,
+      95,
+      500,
+      312
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
