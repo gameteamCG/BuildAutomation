@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q4whatfrogeat",
+    "texture": "81e401d2-711a-4e7b-8157-6bc7f0a92d79",
+    "atlas": "",
+    "rect": [
+      17,
+      171,
+      483,
+      135
+    ],
+    "offset": [
+      -0.5,
+      11.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

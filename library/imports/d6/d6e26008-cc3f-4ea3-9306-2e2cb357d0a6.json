@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2whocame",
+    "texture": "a791dd7b-ecc1-4587-824e-5a33d6e8d65b",
+    "atlas": "",
+    "rect": [
+      15,
+      173,
+      489,
+      145
+    ],
+    "offset": [
+      0.5,
+      4.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
