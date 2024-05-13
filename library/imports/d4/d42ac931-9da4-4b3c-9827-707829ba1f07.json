@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lettersMmNn",
+    "texture": "c19bf236-d6b4-4a0a-bdd9-293c43e4717f",
+    "atlas": "",
+    "rect": [
+      25,
+      24,
+      1022,
+      318
+    ],
+    "offset": [
+      11.5,
+      -2
+    ],
+    "originalSize": [
+      1049,
+      362
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

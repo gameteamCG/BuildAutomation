@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hoair2",
+    "texture": "911474d0-0fd4-4c0d-8c3b-319dd1392de4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      230,
+      297
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      230,
+      297
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
