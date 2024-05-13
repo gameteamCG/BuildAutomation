@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ratgoatstory",
+    "texture": "30f862c0-5da6-4c7e-b42b-d310accc73ca",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      689,
+      256
+    ],
+    "offset": [
+      0,
+      11
+    ],
+    "originalSize": [
+      689,
+      288
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

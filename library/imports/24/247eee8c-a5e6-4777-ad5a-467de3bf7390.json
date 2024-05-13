@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2Whowassleeping",
+    "texture": "c91b002f-6b27-43da-9db2-96f066d3da0e",
+    "atlas": "",
+    "rect": [
+      145,
+      173,
+      302,
+      145
+    ],
+    "offset": [
+      0.5,
+      4.5
+    ],
+    "originalSize": [
+      591,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
