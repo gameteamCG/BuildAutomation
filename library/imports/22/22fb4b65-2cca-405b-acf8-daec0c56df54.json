@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mobile",
+    "texture": "7dc7fd79-67b1-4f32-b9b0-47954d5d9cc9",
+    "atlas": "",
+    "rect": [
+      111,
+      15,
+      278,
+      470
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
