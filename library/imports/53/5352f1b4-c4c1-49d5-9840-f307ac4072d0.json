@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_greyscale-flower",
+    "texture": "e769cd64-dd9d-44cc-ba47-bfce8e76db96",
+    "atlas": "",
+    "rect": [
+      7,
+      7,
+      490,
+      488
+    ],
+    "offset": [
+      2,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
