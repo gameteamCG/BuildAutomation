@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Up and down",
+      "totalLevel": "7",
+      "TitleImageName": "updown.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_Backward.mp3",
+      "mainBgName": "Bg2_01.jpg",
+      "JockeyName": "tlc",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "up",
+        "questionAudioName": "boy_climbing_up_the_stairs.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "8.png",
+          "1.png"
+        ],
+        "correctAudios": [
+          "GREATWORK.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "down",
+        "questionAudioName": "boy_sitting_down_on_the_see_saw.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "9.png",
+          "2.png"
+        ],
+        "correctAudios": [
+          "GOODJOB.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "up",
+        "questionAudioName": "kite_that_is_up_on_the_table.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "10.png",
+          "3.png"
+        ],
+        "correctAudios": [
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "down",
+        "questionAudioName": "girl_that_is_down_the_slide.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "11.png",
+          "4.png"
+        ],
+        "correctAudios": [
+          "EXCELLENTJOB.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "up",
+        "questionAudioName": "monkey_that_is_up_on_the_tree.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "12.png",
+          "5.png"
+        ],
+        "correctAudios": [
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "down",
+        "questionAudioName": "girl_coming_down_the_escalator.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "13.png",
+          "6.png"
+        ],
+        "correctAudios": [
+          "EXCELLENTJOB.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "up",
+        "questionAudioName": "girl_that_has_jumped_up_high.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "14.png",
+          "7.png"
+        ],
+        "correctAudios": [
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
