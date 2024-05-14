@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dogcanjog",
+    "texture": "db5d649d-5f55-45e8-bdb6-aab5b159babf",
+    "atlas": "",
+    "rect": [
+      57,
+      18,
+      378,
+      466
+    ],
+    "offset": [
+      -4,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
