@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dram",
+    "texture": "2da5fdf5-0635-4db6-8305-5aed93c3b368",
+    "atlas": "",
+    "rect": [
+      8,
+      47,
+      234,
+      156
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

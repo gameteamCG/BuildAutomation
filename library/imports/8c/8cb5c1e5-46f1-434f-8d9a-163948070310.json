@@ -1,0 +1,171 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter 'd'",
+      "totalLevel": "6",
+      "TitleImageName": "letterd.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "B2.mp3",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "layout1bg.png",
+        "questionAudioName": "tap_on_the _duck_iwth_letter_sound_d.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "duck5.png",
+          "duck5.png",
+          "duck5.png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "GREATWORK.mp3",
+          "",
+          "EXCELLENTJOB.mp3"
+        ],
+        "correctAnswerNum": "123"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "layout1bg.png",
+        "questionAudioName": "tap_on_the _duck_iwth_letter_sound_d.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "duck5.png",
+          "duck_6.png",
+          "duck5.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "FANTASTIC.mp3",
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "tap_on_teh_dresses_with_letter_sound_duh.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "dress1.png",
+          "dress5.png",
+          "dress6.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "GREATWORK.mp3",
+          "FANTASTIC.mp3",
+          "GOODJOB.mp3"
+        ],
+        "correctAnswerNum": "123"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "tap_on_teh_dresses_with_letter_sound_duh.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "dress4.png",
+          "dress2.png",
+          "dress3.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "BRILLIANT.mp3",
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bgL5.png",
+        "questionAudioName": "Identify_the_objects_letter_sound_d.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "duck.png",
+          "door.png",
+          "dram.png"
+        ],
+        "optionsBg": [
+          "duck2.png",
+          "door2.png",
+          "dram2.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "duck.mp3",
+          "door.mp3",
+          "drum.mp3"
+        ],
+        "correctAnswerNum": "123"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bgL5.png",
+        "questionAudioName": "Identify_the_objects_letter_sound_d.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "house.png",
+          "dolphin.png",
+          "dog.png"
+        ],
+        "optionsBg": [
+          "house2.png",
+          "dolphin2.png",
+          "dog2.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "dolphin.mp3",
+          "Dog.mp3"
+        ],
+        "correctAnswerNum": "23"
+      }
+    ]
+  }
+}
