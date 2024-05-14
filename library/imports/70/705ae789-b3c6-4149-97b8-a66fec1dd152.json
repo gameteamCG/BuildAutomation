@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0019_gatch",
+    "texture": "d692fb51-34ff-4187-ba3e-48636601fb78",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      250,
+      243
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
