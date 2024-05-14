@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rub_hand",
+    "texture": "bfffa9b7-761c-4a26-b165-71bde5446790",
+    "atlas": "",
+    "rect": [
+      44,
+      52,
+      214,
+      197
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
