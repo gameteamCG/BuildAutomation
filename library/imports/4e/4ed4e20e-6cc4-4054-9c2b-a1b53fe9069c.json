@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "moreorless",
+    "texture": "817b1e84-7cf5-48d9-8260-411615c31297",
+    "atlas": "",
+    "rect": [
+      0,
+      11,
+      501,
+      230
+    ],
+    "offset": [
+      0,
+      24
+    ],
+    "originalSize": [
+      501,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
