@@ -1,0 +1,190 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "More and less",
+      "totalLevel": "10",
+      "TitleImageName": "moreorless.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "RagtimeforKids.mp3",
+      "mainBgName": "Backdrop.png",
+      "JockeyName": "tlc",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "more",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "L10Fox2.png",
+          "L10fox1.png"
+        ],
+        "correctAudios": [
+          "GREATWORK.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "more",
+        "questionAudioName": "q2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "L1Frog2.png",
+          "L1Frog1.png"
+        ],
+        "correctAudios": [
+          "GOODJOB.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "less",
+        "questionAudioName": "q3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "L2cat2.png",
+          "L2cat1.png"
+        ],
+        "correctAudios": [
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "less",
+        "questionAudioName": "q4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "L3owl1.png",
+          "L3owl2.png"
+        ],
+        "correctAudios": [
+          "EXCELLENTJOB.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "more",
+        "questionAudioName": "q5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "L4tiger2.png",
+          "L4tiger1.png"
+        ],
+        "correctAudios": [
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "less",
+        "questionAudioName": "q6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "L5monkey2.png",
+          "L5monkey1.png"
+        ],
+        "correctAudios": [
+          "GOODJOB.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "less",
+        "questionAudioName": "q7.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "L6pig1.png",
+          "L6pig2.png"
+        ],
+        "correctAudios": [
+          "GREATWORK.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "more",
+        "questionAudioName": "q8.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "L7lion2.png",
+          "L7lion1.png"
+        ],
+        "correctAudios": [
+          "EXCELLENTJOB.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "more",
+        "questionAudioName": "q9.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "L8giraffe1.png",
+          "L8giraffe2.png"
+        ],
+        "correctAudios": [
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "less",
+        "questionAudioName": "q10.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "L9cow1.png",
+          "L9cow2.png"
+        ],
+        "correctAudios": [
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

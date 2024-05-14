@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "L4tiger2",
+    "texture": "d12be112-b3d2-4ee3-b919-5fcdcd7288aa",
+    "atlas": "",
+    "rect": [
+      52,
+      43,
+      402,
+      419
+    ],
+    "offset": [
+      2.5,
+      -2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
