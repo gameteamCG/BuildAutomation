@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Drawing activity - at the supermarket",
+      "totalLevel": "1",
+      "TitleImageName": "Asset260.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "BBgmwhatsnext.mp3",
+      "initialVOName": "",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "Draw something you would like to buy at the supermarket.",
+        "questionImageName": "",
+        "questionAudioName": "drawandcoloursomethingyouwouldliketobuyatthesupermarket.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "INCREDIBLE.mp3"
+      }
+    ]
+  }
+}
