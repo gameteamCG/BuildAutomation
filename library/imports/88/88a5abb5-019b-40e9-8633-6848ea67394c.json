@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lattar",
+    "texture": "304749fa-f2f3-4bbc-a6a4-a313161ad30e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1066,
+      542
+    ],
+    "offset": [
+      0,
+      11.5
+    ],
+    "originalSize": [
+      1066,
+      565
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

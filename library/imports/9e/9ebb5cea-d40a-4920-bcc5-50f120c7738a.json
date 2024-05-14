@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Short sound 'a' and word family UKG",
+      "totalLevel": "4",
+      "TitleImageName": "lattar.png",
+      "introBgName": "bg2.png",
+      "bgmMusicName": "BGMBackward.mp3",
+      "mainBgName": "bag.png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "Aa",
+        "questionImageName": "tvan.png",
+        "questionAudioName": "Taponheafamilywords.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "c_a.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "van.png",
+          "bun.png"
+        ],
+        "correctAudioName": "Van.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Aa",
+        "questionImageName": "tcap.png",
+        "questionAudioName": "Taponheafamilywords.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "c_a.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "sun.png",
+          "cap.png"
+        ],
+        "correctAudioName": "Cab.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Aa",
+        "questionImageName": "tmap.png",
+        "questionAudioName": "Taponheafamilywords.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "c_a.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "map.png",
+          "bin.png"
+        ],
+        "correctAudioName": "Map.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Aa",
+        "questionImageName": "tjam.png",
+        "questionAudioName": "Taponheafamilywords.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "c_a.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "gem.png",
+          "jam.png"
+        ],
+        "correctAudioName": "Jam.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

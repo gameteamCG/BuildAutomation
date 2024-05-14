@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tjam",
+    "texture": "4853d005-2a8a-44bd-945d-e2a0a88549ef",
+    "atlas": "",
+    "rect": [
+      33,
+      104,
+      191,
+      70
+    ],
+    "offset": [
+      3,
+      -13.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

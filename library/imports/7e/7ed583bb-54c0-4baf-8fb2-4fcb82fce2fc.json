@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tvan",
+    "texture": "58201d5d-774b-43b7-ad4a-b98ab29a7ac5",
+    "atlas": "",
+    "rect": [
+      34,
+      104,
+      179,
+      70
+    ],
+    "offset": [
+      -2,
+      -13.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
