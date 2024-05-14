@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_Pencil-box-w-8",
+    "texture": "285c0bdf-138b-4a6a-89c3-4d23777113f1",
+    "atlas": "",
+    "rect": [
+      89,
+      4,
+      319,
+      496
+    ],
+    "offset": [
+      -1.5,
+      -2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

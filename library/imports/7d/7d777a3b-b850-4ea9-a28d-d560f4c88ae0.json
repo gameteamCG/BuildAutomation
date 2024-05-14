@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_spill2",
+    "texture": "99299a0d-0a04-4f01-b73c-b6b08e1143fd",
+    "atlas": "",
+    "rect": [
+      28,
+      70,
+      458,
+      347
+    ],
+    "offset": [
+      7,
+      6.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
