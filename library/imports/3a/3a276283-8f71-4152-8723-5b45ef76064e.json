@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Revisionroughandsmooth",
+    "texture": "97bfeb3a-1478-4cc2-bc3d-855f0d6f2528",
+    "atlas": "",
+    "rect": [
+      31,
+      31,
+      739,
+      202
+    ],
+    "offset": [
+      5,
+      -5
+    ],
+    "originalSize": [
+      791,
+      254
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

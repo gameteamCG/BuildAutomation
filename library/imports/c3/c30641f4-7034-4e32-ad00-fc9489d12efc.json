@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ribbons",
+    "texture": "a6122bd6-d224-4fb8-98e2-6bc2d4ba081f",
+    "atlas": "",
+    "rect": [
+      12,
+      81,
+      226,
+      87
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

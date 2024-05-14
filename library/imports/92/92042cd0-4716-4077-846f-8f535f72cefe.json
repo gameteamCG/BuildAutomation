@@ -1,0 +1,127 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Revision - rough and smooth",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/TexturesSongsonLearningScience_1715664889995.mp4",
+      "TitleImageName": "Revisionroughandsmooth.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "Podar",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "rough",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifytheroughobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "hair.png",
+          "bark.png"
+        ],
+        "ReiterationAudioName": "thebarkofatreeisrough.mp3",
+        "CorrectAudioName": "L9Correct.mp3",
+        "WrongAudioName": "ns.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "soft ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifythesoftobje.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "ribbons.png",
+          "sand.png"
+        ],
+        "ReiterationAudioName": "ribbonsaresoft.mp3",
+        "CorrectAudioName": "L8Correct.mp3",
+        "WrongAudioName": "nu.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": " fuzzy",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifythefuzzyobj.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "teddy.png",
+          "jeans.png"
+        ],
+        "ReiterationAudioName": "theteddybearisfuzz.mp3",
+        "CorrectAudioName": "L5Correct.mp3",
+        "WrongAudioName": "ns.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "grainy",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifytheobjecthatisgrainy.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "bark.png",
+          "sand.png"
+        ],
+        "ReiterationAudioName": "sandisgrainy.mp3",
+        "CorrectAudioName": "l4correct.mp3",
+        "WrongAudioName": "nu.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "soft",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifythesoftobje2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "hair.png",
+          "jeans.png"
+        ],
+        "ReiterationAudioName": "HAIRISSOFT.mp3",
+        "CorrectAudioName": "L2Correct.mp3",
+        "WrongAudioName": "ns.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "rough",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifytheroughobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "ribbons.png",
+          "jeans.png"
+        ],
+        "ReiterationAudioName": "jeansarerough.mp3",
+        "CorrectAudioName": "L1correct.mp3",
+        "WrongAudioName": "no.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
