@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3whatseeing the lamb",
+    "texture": "801ab0cc-1966-4aa0-a1cf-a75a97bd58dc",
+    "atlas": "",
+    "rect": [
+      32,
+      132,
+      525,
+      222
+    ],
+    "offset": [
+      3,
+      7
+    ],
+    "originalSize": [
+      583,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

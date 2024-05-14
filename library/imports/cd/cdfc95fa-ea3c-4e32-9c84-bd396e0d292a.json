@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Mary_hadalamb",
+    "texture": "2aa14bb2-2bb8-477a-98ce-4c2d4f2522d8",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      778,
+      236
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      778,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q1whatdidmaryhave",
+    "texture": "ae7042e6-67bb-4a16-afcf-35f9994a1d1b",
+    "atlas": "",
+    "rect": [
+      15,
+      171,
+      489,
+      135
+    ],
+    "offset": [
+      0.5,
+      11.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
