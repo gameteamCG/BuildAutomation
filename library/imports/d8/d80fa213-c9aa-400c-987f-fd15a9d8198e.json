@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Count_and_match_125_NCB1",
+      "totalLevel": "4",
+      "TitleImageName": "countandmatch15.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "bgm_2.mp3",
+      "mainBgName": "flowersBG.png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "Count the flowers",
+        "questionImageName": "500x500_0002_2.png",
+        "questionAudioName": "countandtap.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "2 sunflower.png",
+          "3sunflower.png"
+        ],
+        "correctAudioName": "2sunflowers.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Count the flowers",
+        "questionImageName": "500x500_0001_4.png",
+        "questionAudioName": "countandtap.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "2lotus.png",
+          "4lotus.png"
+        ],
+        "correctAudioName": "4lotus.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Count the flowers",
+        "questionImageName": "500x500_0003_3.png",
+        "questionAudioName": "countandtap.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "1dandelion.png",
+          "3dandelion.png"
+        ],
+        "correctAudioName": "3dandelion.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Count the flowers",
+        "questionImageName": "500x500_0000_1.png",
+        "questionAudioName": "countandtap.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "1rose.png",
+          "2rose.png"
+        ],
+        "correctAudioName": "1rose.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
