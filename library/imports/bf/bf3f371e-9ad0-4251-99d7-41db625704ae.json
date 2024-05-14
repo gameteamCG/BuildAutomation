@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Different textures",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/KGNumeracyConceptsHardandSoft_1715668291498.mp4",
+      "TitleImageName": "Asset255.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "Podar",
+      "TotalLevel": "7"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "hard",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identifyandtaponthehardobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "pillow.png",
+          "glass1.png"
+        ],
+        "ReiterationAudioName": "glass.mp3",
+        "CorrectAudioName": "L5Correct.mp3",
+        "WrongAudioName": "ns.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "soft",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Selectthesoftobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "glass1.png",
+          "socks.png"
+        ],
+        "ReiterationAudioName": "SOCKS.mp3",
+        "CorrectAudioName": "L9Correct.mp3",
+        "WrongAudioName": "no.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "hard ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identifyandtaponthehardobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "pillow.png",
+          "lolipop.png"
+        ],
+        "ReiterationAudioName": "lollipop.mp3",
+        "CorrectAudioName": "L7Correct.mp3",
+        "WrongAudioName": "nu.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "soft",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Selectthesoftobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "icecream.png",
+          "rock.png"
+        ],
+        "ReiterationAudioName": "icecream.mp3",
+        "CorrectAudioName": "l6correct.mp3",
+        "WrongAudioName": "no.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "soft",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Selectthesoftobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "thirt.png",
+          "lolipop.png"
+        ],
+        "ReiterationAudioName": "tshirt.mp3",
+        "CorrectAudioName": "l4correct.mp3",
+        "WrongAudioName": "ns.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "hard",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identifyandtaponthehardobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "rock.png",
+          "socks.png"
+        ],
+        "ReiterationAudioName": "rock.mp3",
+        "CorrectAudioName": "L2Correct.mp3",
+        "WrongAudioName": "nu.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "soft",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Selectthesoftobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "glass1.png",
+          "pillow.png"
+        ],
+        "ReiterationAudioName": "PILLOW .mp3",
+        "CorrectAudioName": "L1correct.mp3",
+        "WrongAudioName": "no.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
