@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wet_h",
+    "texture": "12f2d7f4-d544-4df1-81fd-14c2d0a6c762",
+    "atlas": "",
+    "rect": [
+      52,
+      21,
+      397,
+      459
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
