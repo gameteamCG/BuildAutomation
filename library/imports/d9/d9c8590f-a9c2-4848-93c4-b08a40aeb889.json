@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0006_book",
+    "texture": "be647832-6a8e-46f2-b618-db8ea25d156c",
+    "atlas": "",
+    "rect": [
+      16,
+      84,
+      469,
+      327
+    ],
+    "offset": [
+      0.5,
+      2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
