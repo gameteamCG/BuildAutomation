@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "revision_lettera_d",
+    "texture": "8fd6363a-3211-406a-90c3-b14196ba9c4e",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      752,
+      226
+    ],
+    "offset": [
+      0,
+      29
+    ],
+    "originalSize": [
+      752,
+      286
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

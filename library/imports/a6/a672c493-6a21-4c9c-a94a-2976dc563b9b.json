@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Revision of letters a - d",
+      "totalLevel": "8",
+      "TitleImageName": "revision_lettera_d.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "L_BG-2.mp3",
+      "mainBgName": "forestBG.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "revision of letters",
+        "questionImageName": "A.png",
+        "questionAudioName": "tap_on_the_correct_objects_that_starts_with_letter_a.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "apple.png",
+          "fish.png"
+        ],
+        "correctAudioName": "A_for_Apple.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "revision of letters",
+        "questionImageName": "D.png",
+        "questionAudioName": "tap_on_the_correct_objects_that_starts_with_letter_d.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "kite.png",
+          "dolphin.png"
+        ],
+        "correctAudioName": "d_for_dolphin.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "revision of letters",
+        "questionImageName": "B.png",
+        "questionAudioName": "tap_on_the_correct_objects_that_starts_with_letter_b.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "bat.png",
+          "jug.png"
+        ],
+        "correctAudioName": "b_for_bat.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "revision of letters",
+        "questionImageName": "C.png",
+        "questionAudioName": "tap_on_the_correct_objects_that_starts_with_letter_c.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "igloo.png",
+          "carrot.png"
+        ],
+        "correctAudioName": "c_for_carrot.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "revision of letters",
+        "questionImageName": "D.png",
+        "questionAudioName": "tap_on_the_correct_objects_that_starts_with_letter_d.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "dog.png",
+          "rat.png"
+        ],
+        "correctAudioName": "DforDog.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "revision of letters",
+        "questionImageName": "B.png",
+        "questionAudioName": "tap_on_the_correct_objects_that_starts_with_letter_b.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "lemon.png",
+          "ball.png"
+        ],
+        "correctAudioName": "Bforball.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "revision of letters",
+        "questionImageName": "C.png",
+        "questionAudioName": "tap_on_the_correct_objects_that_starts_with_letter_c.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "cat.png",
+          "parrot.png"
+        ],
+        "correctAudioName": "Cforcat.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "revision of letters",
+        "questionImageName": "A.png",
+        "questionAudioName": "tap_on_the_correct_objects_that_starts_with_letter_a.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "3c.png",
+          "re_0001_Astronaut.png"
+        ],
+        "correctAudioName": "A_for_astronaut.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
