@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "5robot",
+    "texture": "fe9b3643-522d-40a0-8ff4-b3c07e6c44bf",
+    "atlas": "",
+    "rect": [
+      99,
+      56,
+      354,
+      388
+    ],
+    "offset": [
+      26,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

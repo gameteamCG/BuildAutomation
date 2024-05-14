@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3robot",
+    "texture": "bc3af0f5-670e-4fab-bb74-9423d40f0043",
+    "atlas": "",
+    "rect": [
+      99,
+      86,
+      354,
+      328
+    ],
+    "offset": [
+      26,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
