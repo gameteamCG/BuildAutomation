@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "elk",
+    "texture": "8a9d3fa9-6bfc-43c3-946f-c1472e6c668e",
+    "atlas": "",
+    "rect": [
+      23,
+      0,
+      204,
+      250
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
