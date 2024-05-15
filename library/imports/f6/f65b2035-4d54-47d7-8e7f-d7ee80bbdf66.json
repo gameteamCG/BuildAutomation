@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250_0002_500x500_0016_jeep",
+    "texture": "bb93b745-83e6-4dae-b2e4-44be3ee3cfa3",
+    "atlas": "",
+    "rect": [
+      0,
+      55,
+      250,
+      141
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

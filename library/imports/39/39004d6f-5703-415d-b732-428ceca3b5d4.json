@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "LetterJ",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/letterJ.mp4",
+      "TitleImageName": "letterJtitle.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the letter ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyletterJ.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Cc",
+          "Jj"
+        ],
+        "ReiterationAudioName": "Sound_of_j.mp3",
+        "CorrectAudioName": "",
+        "WrongAudioName": "",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘Jj'",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbegindJ.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250_0000_500x500_0018_jet.png",
+          "250x250_0001_fan.png"
+        ],
+        "ReiterationAudioName": "Jet.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘Jj'",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbegindJ.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0001_egg.png",
+          "250_0003_500x500_0015_jellyfish.png"
+        ],
+        "ReiterationAudioName": "jellyfish.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘Jj'",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbegindJ.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250_0002_500x500_0016_jeep.png",
+          "250x250_0001_goat.png"
+        ],
+        "ReiterationAudioName": "jeep.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘Jj'",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbegindJ.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "elk.png",
+          "250_0001_500x500_0017_jam.png"
+        ],
+        "ReiterationAudioName": "Jam.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
