@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0018_hhbee",
+    "texture": "31ac3264-20eb-4081-ab9d-44c61c184a9e",
+    "atlas": "",
+    "rect": [
+      0,
+      20,
+      250,
+      199
+    ],
+    "offset": [
+      0,
+      5.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
