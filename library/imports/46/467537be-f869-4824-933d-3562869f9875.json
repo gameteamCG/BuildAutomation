@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Plural_UKGCB1",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Bedrom_1712137560442.mp4",
+      "TitleImageName": "Asset19-8.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": true,
+        "QuestionText": "Select the correct plural for the word",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Select the correct plural for the word.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "balloons.png",
+          "balloon.png"
+        ],
+        "ReiterationAudioName": "Balloons.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": true,
+        "QuestionText": "Select the correct plural for the word",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Select the correct plural for the word.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "boy.png",
+          "boys.png"
+        ],
+        "ReiterationAudioName": "Boys.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": true,
+        "QuestionText": "Select the correct plural for the word",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Select the correct plural for the word.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "dog.png",
+          "dogs.png"
+        ],
+        "ReiterationAudioName": "Dogs.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": true,
+        "QuestionText": "Select the correct plural for the word",
+        "QuestionImageName": "",
+        "QuestionAudioName": "",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "ducks.png",
+          "duck.png"
+        ],
+        "ReiterationAudioName": "ducks.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": true,
+        "QuestionText": "Select the correct plural for the word",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Select the correct plural for the word.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "pens.png",
+          "pen.png"
+        ],
+        "ReiterationAudioName": "Pens.mp3",
+        "CorrectAudioName": "AWESOME YOU SAVED IT.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
