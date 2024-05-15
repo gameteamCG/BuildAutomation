@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0000_donkey",
+    "texture": "4a9c0886-562b-45f2-88d2-b5d1e82b69e7",
+    "atlas": "",
+    "rect": [
+      22,
+      21,
+      207,
+      207
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
