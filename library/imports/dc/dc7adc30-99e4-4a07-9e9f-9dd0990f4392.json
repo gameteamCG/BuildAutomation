@@ -1,0 +1,143 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Revision of numbers  1 to 5",
+      "totalLevel": "5",
+      "TitleImageName": "revisionofnumber1to5.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "bgm_1.mp3",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "BG71.png",
+        "questionAudioName": "identify_number_1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "number1.png",
+          "number2.png",
+          "number1_2.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "FANTASTIC.mp3",
+          "MAGNIFICENT.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "BG71.png",
+        "questionAudioName": "Identify_number_2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "number2.png",
+          "number2_2.png",
+          "number4_3.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "IMPRESSIVEWORK.mp3",
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "BG_1.png",
+        "questionAudioName": "identify_number_3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "ballon3.png",
+          "ballon3_2.png",
+          "ballon5.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "MAGNIFICENT.mp3",
+          "GOODJOB.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "BG_1.png",
+        "questionAudioName": "identify_number_4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "ballon3.png",
+          "ballon4.png",
+          "ballon4_2.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "GOODEFFORT.mp3",
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "BG_1.png",
+        "questionAudioName": "identify_number_5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "ballon5.png",
+          "ballon3_2.png",
+          "ballon5_2.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "IMPRESSIVEWORK.mp3",
+          "MAGNIFICENT.mp3"
+        ],
+        "correctAnswerNum": "13"
+      }
+    ]
+  }
+}
