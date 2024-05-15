@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "First Letters : UKG CB1",
+      "totalLevel": "6",
+      "TitleImageName": "Asset113.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "BBgmwhatsnext.mp3",
+      "mainBgName": "BG(1).png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "Solve the picture puzzle.",
+        "questionAudioName": "Solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard18.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_001.png",
+          "image_part_002.png",
+          "image_part_003.png",
+          "image_part_004.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "_lephant",
+        "questionAudioName2": "identifythemissingletter.mp3",
+        "commonOptionImageName": "panelpng.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "E",
+          "A"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "19011378_5_e.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle.",
+        "questionAudioName": "Solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard18.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_001.png",
+          "image_part_002.png",
+          "image_part_003.png",
+          "image_part_004.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "_ion",
+        "questionAudioName2": "identifythemissingletter.mp3",
+        "commonOptionImageName": "panelpng.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "M",
+          "L"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "19011378_12_l.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle.",
+        "questionAudioName": "Solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard18.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_001.png",
+          "image_part_002.png",
+          "image_part_003.png",
+          "image_part_004.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "_onkey",
+        "questionAudioName2": "identifythemissingletter.mp3",
+        "commonOptionImageName": "panelpng.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "M",
+          "C"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "19011378_13_m.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle.",
+        "questionAudioName": "Solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard18.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_001.png",
+          "image_part_002.png",
+          "image_part_003.png",
+          "image_part_004.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "_abbit",
+        "questionAudioName2": "identifythemissingletter.mp3",
+        "commonOptionImageName": "panelpng.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Z",
+          "R"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "19011378_18_r.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle.",
+        "questionAudioName": "Solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard18.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_001.png",
+          "image_part_002.png",
+          "image_part_003.png",
+          "image_part_004.png"
+        ],
+        "correctAudioName": "IMPRESSIVEWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "_rocodile",
+        "questionAudioName2": "identifythemissingletter.mp3",
+        "commonOptionImageName": "panelpng.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "C",
+          "Q"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "19011378_3_c.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle.",
+        "questionAudioName": "Solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard18.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_001.png",
+          "image_part_002.png",
+          "image_part_003.png",
+          "image_part_004.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "_enguin",
+        "questionAudioName2": "identifythemissingletter.mp3",
+        "commonOptionImageName": "panelpng.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "P",
+          "Y"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "AWESOME YOU SAVED IT.mp3"
+      }
+    ]
+  }
+}
