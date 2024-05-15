@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "L1Frog2",
+    "texture": "2ca88905-7434-4729-bc7d-19530280e9c4",
+    "atlas": "",
+    "rect": [
+      45,
+      50,
+      406,
+      402
+    ],
+    "offset": [
+      -2.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
