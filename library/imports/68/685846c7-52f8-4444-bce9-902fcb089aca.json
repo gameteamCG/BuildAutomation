@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eggbucket",
+    "texture": "f36e9618-f96f-4293-8cc9-4571bb7df2bf",
+    "atlas": "",
+    "rect": [
+      6,
+      51,
+      238,
+      162
+    ],
+    "offset": [
+      0,
+      -7
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
