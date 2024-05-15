@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0007_Gumbrella",
+    "texture": "6b795771-efb1-4f87-a8bb-5a45ac9d2a44",
+    "atlas": "",
+    "rect": [
+      1,
+      24,
+      248,
+      203
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
