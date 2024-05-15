@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3whatdoessheepgiveus",
+    "texture": "9cfbce05-cb63-4b19-a2a9-81be130f185d",
+    "atlas": "",
+    "rect": [
+      17,
+      173,
+      481,
+      145
+    ],
+    "offset": [
+      -1,
+      4.5
+    ],
+    "originalSize": [
+      517,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

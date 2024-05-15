@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q4_2howmanybagsofwool",
+    "texture": "1fd546df-9441-48ff-87c9-8d82e61a3a02",
+    "atlas": "",
+    "rect": [
+      4,
+      137,
+      534,
+      224
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      541,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

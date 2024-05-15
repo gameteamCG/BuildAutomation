@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q6_wheredoessheeplive",
+    "texture": "21fb51f5-ab8a-426e-bfa1-2fc4fc85493c",
+    "atlas": "",
+    "rect": [
+      5,
+      173,
+      504,
+      145
+    ],
+    "offset": [
+      -1.5,
+      4.5
+    ],
+    "originalSize": [
+      517,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

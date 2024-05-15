@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ea0aaf0c-ab4c-408a-8693-7cf72f8e1f1d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 523,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Q7_whichanimalmakesoundbaabaa": {
+      "ver": "1.0.6",
+      "uuid": "a773b511-ace9-4a26-9351-f1a871ca1122",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ea0aaf0c-ab4c-408a-8693-7cf72f8e1f1d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 11.5,
+      "trimX": 1,
+      "trimY": 133,
+      "width": 521,
+      "height": 211,
+      "rawWidth": 523,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

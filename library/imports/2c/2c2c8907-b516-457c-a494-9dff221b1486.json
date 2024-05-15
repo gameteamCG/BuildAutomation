@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q5_wheredoesboylive",
+    "texture": "1341a541-ee15-4473-882d-4eba72c39a5a",
+    "atlas": "",
+    "rect": [
+      1,
+      173,
+      513,
+      145
+    ],
+    "offset": [
+      -1,
+      4.5
+    ],
+    "originalSize": [
+      517,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

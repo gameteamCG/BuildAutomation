@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "21fb51f5-ab8a-426e-bfa1-2fc4fc85493c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 517,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Q6_wheredoessheeplive": {
+      "ver": "1.0.6",
+      "uuid": "a1824aed-71a6-4cd2-813c-d7dc53589d4e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "21fb51f5-ab8a-426e-bfa1-2fc4fc85493c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1.5,
+      "offsetY": 4.5,
+      "trimX": 5,
+      "trimY": 173,
+      "width": 504,
+      "height": 145,
+      "rawWidth": 517,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

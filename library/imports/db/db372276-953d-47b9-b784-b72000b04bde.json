@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Baa_baa_black_sheep",
+    "texture": "6b91a603-6e44-417e-84a7-1e885c3ef810",
+    "atlas": "",
+    "rect": [
+      1,
+      5,
+      789,
+      262
+    ],
+    "offset": [
+      0.5,
+      10.5
+    ],
+    "originalSize": [
+      790,
+      293
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

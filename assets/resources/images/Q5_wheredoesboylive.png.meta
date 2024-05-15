@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1341a541-ee15-4473-882d-4eba72c39a5a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 517,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Q5_wheredoesboylive": {
+      "ver": "1.0.6",
+      "uuid": "2c2c8907-b516-457c-a494-9dff221b1486",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1341a541-ee15-4473-882d-4eba72c39a5a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 4.5,
+      "trimX": 1,
+      "trimY": 173,
+      "width": 513,
+      "height": 145,
+      "rawWidth": 517,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
