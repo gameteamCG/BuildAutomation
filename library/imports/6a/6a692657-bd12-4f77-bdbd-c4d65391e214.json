@@ -1,0 +1,171 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter f Jr KG",
+      "totalLevel": "6",
+      "TitleImageName": "letterf.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "Kids_Game_bgm.mp3",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg_1.png",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "plane4.png",
+          "plane5.png",
+          "plane2.png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "GREATWORK.mp3",
+          "FANTASTIC.mp3",
+          "EXCELLENTJOB.mp3"
+        ],
+        "correctAnswerNum": "123"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg_1.png",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "plane2.png",
+          "plane3.png",
+          "plane4.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "GREATWORK.mp3",
+          "EXCELLENTJOB.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "bg_2.png",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "fl1.png",
+          "fl2.png",
+          "fl5.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "BRILLIANT.mp3",
+          "GREATWORK.mp3",
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "123"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "bg_2.png",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "fl2.png",
+          "fl3.png",
+          "fl4.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "GOODJOB.mp3",
+          "GREATWORK.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "mainbg.png",
+        "questionAudioName": "q2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "fire.png",
+          "fish.png",
+          "frog.png"
+        ],
+        "optionsBg": [
+          "fire2.png",
+          "fish2.png",
+          "frog2.png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "fire.mp3",
+          "fish.mp3",
+          "frog.mp3"
+        ],
+        "correctAnswerNum": "123"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "mainbg.png",
+        "questionAudioName": "q2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "fan.png",
+          "fork.png",
+          "umbrella.png"
+        ],
+        "optionsBg": [
+          "fan2.png",
+          "fork2.png",
+          "umbrella2.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "fan.mp3",
+          "FORK.mp3"
+        ],
+        "correctAnswerNum": "12"
+      }
+    ]
+  }
+}
