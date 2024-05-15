@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "fdec4422-472e-4fc3-b30d-fc88efe35b9f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0006_Gplanet": {
+      "ver": "1.0.6",
+      "uuid": "38f723ed-31df-4085-9374-cf692fe6c3df",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "fdec4422-472e-4fc3-b30d-fc88efe35b9f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 14,
+      "width": 248,
+      "height": 222,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

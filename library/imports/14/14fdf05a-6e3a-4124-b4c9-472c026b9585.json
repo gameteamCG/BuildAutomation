@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0001_Sufo",
+    "texture": "555a76ba-2437-4f65-9c50-c9abda30924c",
+    "atlas": "",
+    "rect": [
+      3,
+      18,
+      246,
+      215
+    ],
+    "offset": [
+      1,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

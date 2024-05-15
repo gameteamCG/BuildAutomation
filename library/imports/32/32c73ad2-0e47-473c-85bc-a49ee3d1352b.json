@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0002_Wrocket",
+    "texture": "a4ddffa4-0c69-46a1-859b-c4662e310037",
+    "atlas": "",
+    "rect": [
+      60,
+      1,
+      129,
+      248
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

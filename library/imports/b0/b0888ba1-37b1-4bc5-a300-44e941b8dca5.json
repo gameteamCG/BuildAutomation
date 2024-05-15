@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0011_baggrey",
+    "texture": "19084042-4f55-4061-a639-784bce624e7f",
+    "atlas": "",
+    "rect": [
+      1,
+      97,
+      495,
+      307
+    ],
+    "offset": [
+      -1.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
