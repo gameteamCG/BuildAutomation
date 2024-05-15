@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "redbox",
+    "texture": "b057c6a1-c287-495d-8eb9-9d589a3ecfb9",
+    "atlas": "",
+    "rect": [
+      0,
+      22,
+      300,
+      259
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
