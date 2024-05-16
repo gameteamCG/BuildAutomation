@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Uses of water :  UKG Social Science : Page 30",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/ueseofwater80449_1715856913692.mp4",
+      "TitleImageName": "Asset48.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "BBgmwhatsnext.mp3",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "uses of water",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Tapontheactivityinwhichweusewater..mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset108.png",
+          "Asset98.png",
+          "Asset78.png",
+          "Asset18.png"
+        ],
+        "ReiterationAudioName": "washing-dishes.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "uses of water",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Tapontheactivityinwhichweusewater..mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset68.png",
+          "Asset88.png",
+          "Asset38.png",
+          "Asset138.png"
+        ],
+        "ReiterationAudioName": "Farming.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": true,
+        "QuestionText": "not a use of water",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Tapontheactivityinwhichwedon_tusewater.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset28.png",
+          "Asset118.png",
+          "Asset458.png",
+          "Asset128.png"
+        ],
+        "ReiterationAudioName": "Reading-a-book.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "grow and survive",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whoneedswatertogrowandsurvive.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset918.png",
+          "Asset908.png",
+          "Asset898.png",
+          "Asset58.png"
+        ],
+        "ReiterationAudioName": "Animals.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}
