@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greysignal",
+    "texture": "6a626c52-9953-4d34-9526-8f994480f4cb",
+    "atlas": "",
+    "rect": [
+      122,
+      9,
+      258,
+      479
+    ],
+    "offset": [
+      1,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

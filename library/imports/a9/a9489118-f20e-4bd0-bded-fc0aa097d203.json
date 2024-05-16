@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1india",
+    "texture": "6c3ff217-32a6-4a0a-86c8-86e56f595cf2",
+    "atlas": "",
+    "rect": [
+      59,
+      36,
+      381,
+      426
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

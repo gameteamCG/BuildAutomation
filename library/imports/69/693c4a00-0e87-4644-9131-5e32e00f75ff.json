@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greycorn",
+    "texture": "c1d146f5-8ede-4eae-9958-4ac1e4285065",
+    "atlas": "",
+    "rect": [
+      70,
+      15,
+      360,
+      470
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

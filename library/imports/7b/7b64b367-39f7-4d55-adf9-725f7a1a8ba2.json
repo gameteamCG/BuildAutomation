@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dogCopy",
+    "texture": "db81ad66-0252-40dc-b8bb-352eb16c2192",
+    "atlas": "",
+    "rect": [
+      0,
+      61,
+      500,
+      378
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
