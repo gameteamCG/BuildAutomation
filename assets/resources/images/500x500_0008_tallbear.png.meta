@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b536a2d0-0e8f-4ac4-a7f2-462412e016d5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0008_tallbear": {
+      "ver": "1.0.6",
+      "uuid": "8b3971ee-9768-428c-8d8c-9c0d05cf2b32",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b536a2d0-0e8f-4ac4-a7f2-462412e016d5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 140,
+      "trimY": 19,
+      "width": 221,
+      "height": 462,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

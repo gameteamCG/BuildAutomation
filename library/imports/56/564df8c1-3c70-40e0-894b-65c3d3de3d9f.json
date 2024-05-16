@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_shortgiraffe",
+    "texture": "61b1141c-2b61-486c-979e-5165a2a34d43",
+    "atlas": "",
+    "rect": [
+      155,
+      145,
+      189,
+      342
+    ],
+    "offset": [
+      -0.5,
+      -66
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

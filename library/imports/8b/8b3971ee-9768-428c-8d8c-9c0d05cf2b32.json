@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0008_tallbear",
+    "texture": "b536a2d0-0e8f-4ac4-a7f2-462412e016d5",
+    "atlas": "",
+    "rect": [
+      140,
+      19,
+      221,
+      462
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
