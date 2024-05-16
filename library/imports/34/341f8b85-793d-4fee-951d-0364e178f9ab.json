@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thinlog",
+    "texture": "c56290cd-da90-42dd-b6c3-246e19edd8e5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      191,
+      589
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      191,
+      589
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

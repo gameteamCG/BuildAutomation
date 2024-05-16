@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thinbottle",
+    "texture": "9c4b7a26-fe2b-4d2f-8dca-491062b41158",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      232,
+      796
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      232,
+      796
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

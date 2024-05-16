@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "fat and thin",
+      "totalLevel": "5",
+      "TitleImageName": "Asset271.png",
+      "introBgName": "Junior.png",
+      "bgmMusicName": "BGMuncut.mp3",
+      "mainBgName": "doodle bG.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "fat",
+        "questionAudioName": "21292911_1_tap-on-the-fat-bread.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "fatbread.png",
+          "thinbread.png"
+        ],
+        "correctAudios": [
+          "21292936_1_fat-bread.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "fat",
+        "questionAudioName": "21292911_2_tap-on-the-fat-log.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "thinlog.png",
+          "fatlog.png"
+        ],
+        "correctAudios": [
+          "21292936_2_fat-log.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "thin",
+        "questionAudioName": "21292911_3_tap-on-the-thin-candle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "thincandle.png",
+          "fatcandle.png"
+        ],
+        "correctAudios": [
+          "21292936_3_thin-candle.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "fat",
+        "questionAudioName": "21292911_5_tap-on-the-fat-pineapp.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "thinpineapple.png",
+          "fatpineapple.png"
+        ],
+        "correctAudios": [
+          "21292936_5_fat-pineapple.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "thin",
+        "questionAudioName": "21292911_4_tap-on-the-thin-bottle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "thinbottle.png",
+          "fatbottle.png"
+        ],
+        "correctAudios": [
+          "21292936_4_thin-bottle.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

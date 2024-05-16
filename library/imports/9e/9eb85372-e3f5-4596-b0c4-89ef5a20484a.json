@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fatbread",
+    "texture": "1c4706da-2fd2-4d2f-acbd-6d244c5d34e2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      663,
+      491
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      663,
+      491
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

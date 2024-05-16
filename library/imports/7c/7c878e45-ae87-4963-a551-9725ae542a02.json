@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fatbottle",
+    "texture": "47571582-1a22-4136-a928-f694bbf6b19a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      400,
+      796
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      400,
+      796
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
