@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "udfamilywords",
+    "texture": "3715e216-0940-4985-900b-496b7aa46c3d",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      518,
+      221
+    ],
+    "offset": [
+      5.5,
+      2.5
+    ],
+    "originalSize": [
+      561,
+      278
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
