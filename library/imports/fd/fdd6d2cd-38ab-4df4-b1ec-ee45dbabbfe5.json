@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "treasurestorage",
+    "texture": "8d899f8b-673b-479f-a89a-46e8498071f3",
+    "atlas": "",
+    "rect": [
+      26,
+      27,
+      685,
+      362
+    ],
+    "offset": [
+      7.5,
+      -8.5
+    ],
+    "originalSize": [
+      722,
+      399
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

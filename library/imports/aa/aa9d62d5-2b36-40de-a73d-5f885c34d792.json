@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "steelcontainer",
+    "texture": "c3cd0b29-4809-4a2e-beea-d7720e950de8",
+    "atlas": "",
+    "rect": [
+      70,
+      16,
+      362,
+      467
+    ],
+    "offset": [
+      1,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

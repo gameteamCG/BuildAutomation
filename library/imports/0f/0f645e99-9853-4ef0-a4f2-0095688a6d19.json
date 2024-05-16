@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dryfruits",
+    "texture": "d2bb968c-680e-4495-bfeb-c082b25a7388",
+    "atlas": "",
+    "rect": [
+      33,
+      89,
+      438,
+      293
+    ],
+    "offset": [
+      2,
+      14.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

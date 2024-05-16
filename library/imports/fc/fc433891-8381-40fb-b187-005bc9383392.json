@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "milkpacket",
+    "texture": "2c3c2994-8af1-4fc4-bd36-6fe45de28b2c",
+    "atlas": "",
+    "rect": [
+      28,
+      42,
+      447,
+      424
+    ],
+    "offset": [
+      1.5,
+      -4
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

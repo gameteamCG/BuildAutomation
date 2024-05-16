@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "oats",
+    "texture": "6a8740a0-c381-44a5-aa33-8606294e62d5",
+    "atlas": "",
+    "rect": [
+      23,
+      104,
+      452,
+      334
+    ],
+    "offset": [
+      -1,
+      -21
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
