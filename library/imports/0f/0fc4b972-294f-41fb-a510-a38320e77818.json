@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sack",
+    "texture": "815c00bf-f1e1-440e-bf48-fd57837f833f",
+    "atlas": "",
+    "rect": [
+      106,
+      17,
+      291,
+      466
+    ],
+    "offset": [
+      1.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

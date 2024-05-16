@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pulses",
+    "texture": "c5eac035-1c09-46a6-adec-e6f4ed4fac67",
+    "atlas": "",
+    "rect": [
+      9,
+      69,
+      480,
+      384
+    ],
+    "offset": [
+      -1,
+      -11
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
