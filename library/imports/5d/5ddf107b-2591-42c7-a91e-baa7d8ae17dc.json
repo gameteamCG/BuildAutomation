@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "fat and thin",
+      "totalLevel": "5",
+      "TitleImageName": "Asset271.png",
+      "introBgName": "Junior.png",
+      "bgmMusicName": "BGMuncut.mp3",
+      "mainBgName": "doodle bG.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "fat",
+        "questionAudioName": "taponthefatbread.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "fatbread1.png",
+          "thinbread1.png"
+        ],
+        "correctAudios": [
+          "fatbread.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "fat",
+        "questionAudioName": "taponthefatlog.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "1thinlog.png",
+          "1fatlog.png"
+        ],
+        "correctAudios": [
+          "fatlog.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "thin",
+        "questionAudioName": "taponthethincandle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "1thincandle.png",
+          "1fatcandle.png"
+        ],
+        "correctAudios": [
+          "thincandle.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "fat",
+        "questionAudioName": "taponthefatpineapp.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "1thinpineapple.png",
+          "1fatpineapple.png"
+        ],
+        "correctAudios": [
+          "fatpineapple.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "thin",
+        "questionAudioName": "taponthethinbottle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "1thinbottle.png",
+          "1fatbottle.png"
+        ],
+        "correctAudios": [
+          "thinbottle.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

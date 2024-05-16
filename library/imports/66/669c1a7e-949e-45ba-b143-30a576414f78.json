@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1fatlog",
+    "texture": "2d523be7-13ad-44c8-aa10-7ab321bf8749",
+    "atlas": "",
+    "rect": [
+      113,
+      17,
+      272,
+      471
+    ],
+    "offset": [
+      -1,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

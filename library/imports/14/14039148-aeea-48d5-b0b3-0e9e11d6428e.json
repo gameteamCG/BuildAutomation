@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1thinpineapple",
+    "texture": "56503398-742e-449d-a5a6-955260e45d7c",
+    "atlas": "",
+    "rect": [
+      168,
+      15,
+      161,
+      469
+    ],
+    "offset": [
+      -1.5,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

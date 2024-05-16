@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thinbread1",
+    "texture": "b1df59c8-1509-4abb-9b92-a23a944b79b1",
+    "atlas": "",
+    "rect": [
+      112,
+      75,
+      265,
+      362
+    ],
+    "offset": [
+      -5.5,
+      -6
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

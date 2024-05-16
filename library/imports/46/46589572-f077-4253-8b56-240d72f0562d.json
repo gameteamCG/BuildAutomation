@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1fatcandle",
+    "texture": "5d81a448-a795-40a3-980e-7cf058c79f10",
+    "atlas": "",
+    "rect": [
+      146,
+      16,
+      208,
+      470
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
