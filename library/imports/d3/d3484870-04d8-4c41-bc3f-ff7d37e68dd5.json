@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fork",
+    "texture": "7755a647-9420-4642-bd27-82c01e5aae2a",
+    "atlas": "",
+    "rect": [
+      201,
+      27,
+      101,
+      448
+    ],
+    "offset": [
+      1.5,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
