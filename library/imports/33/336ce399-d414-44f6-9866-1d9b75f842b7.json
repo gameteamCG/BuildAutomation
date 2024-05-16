@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ambulence",
+    "texture": "365f70f8-1a53-44a8-82ce-d0b042f3b499",
+    "atlas": "",
+    "rect": [
+      1,
+      69,
+      246,
+      115
+    ],
+    "offset": [
+      -1,
+      -1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
