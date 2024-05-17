@@ -1,0 +1,103 @@
+{
+  "AdditionalData": {
+    "GameID": "Uses of air :  UKG Social Science : Page 37",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/65464Usesofair_1715944618421.mp4",
+    "TitleImageName": "Asset1448.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "BBgmwhatsnext.mp3",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "uses of air",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Tapontheactivitythatneedsair.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset458.png",
+        "Asset428.png"
+      ],
+      "ReiterationAudioName": "Blowingawhistle.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "uses of air",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Tapontheactivitythatneedsair.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset408.png",
+        "Asset468.png"
+      ],
+      "ReiterationAudioName": "Blowingbubbles.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "uses of air",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Tapontheactivitythatneedsair.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset478.png",
+        "Asset418.png"
+      ],
+      "ReiterationAudioName": "Flyingaparachute.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "uses of air",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Tapontheactivitythatneedsair.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset488.png",
+        "Asset398.png"
+      ],
+      "ReiterationAudioName": "Fillinguptheball.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "uses of air",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Tapontheactivitythatneedsair.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset388.png",
+        "Asset48.png"
+      ],
+      "ReiterationAudioName": "Tomovehotairballoon.mp3",
+      "CorrectAudioName": "GOODEFFORT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
