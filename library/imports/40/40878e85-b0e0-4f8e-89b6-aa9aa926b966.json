@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "i can count to 5",
+    "texture": "6fe8f598-8ff9-4a6e-a56a-01748b43ce06",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      567,
+      117
+    ],
+    "offset": [
+      5,
+      2.5
+    ],
+    "originalSize": [
+      609,
+      174
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

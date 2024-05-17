@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Recognition",
+    "texture": "29a21181-1170-43d3-ba5b-521120f88a63",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      586,
+      161
+    ],
+    "offset": [
+      5,
+      -3.5
+    ],
+    "originalSize": [
+      628,
+      206
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
