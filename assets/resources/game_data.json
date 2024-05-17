@@ -1,0 +1,93 @@
+{
+  "AdditionalData": {
+    "GameID": "Water Pollution:  UKG Social Science: Page 34",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/78577Water+Pollution_1715941732477.mp4",
+    "TitleImageName": "Asset1438.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "BBgmwhatsnext.mp3",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "causes of water pollution",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Identifyacauseofwaterpollution2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset1178.png",
+        "Asset1128.png",
+        "Asset1168.png",
+        "Asset378.png"
+      ],
+      "ReiterationAudioName": "Wastefromfactories.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": "causes of water pollution",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Identifyacauseofwaterpollution2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset1148.png",
+        "Asset518.png",
+        "Asset1158.png",
+        "Asset181.png"
+      ],
+      "ReiterationAudioName": "Oilspillinthesea.mp3",
+      "CorrectAudioName": "GOODEFFORT.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": "effect of  water pollution",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Whathappensbecauseofwaterpollution.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset182.png",
+        "Asset18.png",
+        "Asset348.png",
+        "Asset 138.png"
+      ],
+      "ReiterationAudioName": "Deathoffishes.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "prevent water pollution",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Howcanwehelptopreventwaterpollution.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset1458.png",
+        "Asset358.png",
+        "Asset1138.png",
+        "Asset368.png"
+      ],
+      "ReiterationAudioName": "Plantingmoretrees.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "4"
+    }
+  ]
+}
