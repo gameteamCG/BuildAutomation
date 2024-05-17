@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0016_yyarn",
+    "texture": "9e5dcfa1-d0d1-4bd1-94be-eae7a453e0a7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      250,
+      175
+    ],
+    "offset": [
+      0,
+      37.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
