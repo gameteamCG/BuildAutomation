@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "swat",
+    "texture": "49073e1a-c24a-4c4c-ba3e-d5187f2ea407",
+    "atlas": "",
+    "rect": [
+      64,
+      92,
+      122,
+      49
+    ],
+    "offset": [
+      0,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

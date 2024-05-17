@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "swoop",
+    "texture": "14df9ed7-b603-48cc-8180-a2b7f473d263",
+    "atlas": "",
+    "rect": [
+      53,
+      116,
+      143,
+      48
+    ],
+    "offset": [
+      -0.5,
+      -15
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
