@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0000_Wufo",
+    "texture": "808acdec-32cd-489c-b0b7-d9a74b9e9857",
+    "atlas": "",
+    "rect": [
+      3,
+      18,
+      246,
+      214
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0016_bow",
+    "texture": "e216063f-d7c2-44b5-be93-a14d3b38f890",
+    "atlas": "",
+    "rect": [
+      30,
+      3,
+      440,
+      497
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

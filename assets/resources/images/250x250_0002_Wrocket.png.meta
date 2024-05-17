@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1fdbb31b-6c1f-4c91-baa7-3e492220c499",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0002_Wrocket": {
+      "ver": "1.0.6",
+      "uuid": "1831236b-4da6-4225-bb8b-a475c1eba295",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1fdbb31b-6c1f-4c91-baa7-3e492220c499",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 60,
+      "trimY": 1,
+      "width": 129,
+      "height": 248,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

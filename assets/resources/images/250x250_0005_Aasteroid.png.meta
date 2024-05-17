@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a6137521-8a90-41c1-9e3c-c09541b62a97",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0005_Aasteroid": {
+      "ver": "1.0.6",
+      "uuid": "d56dc309-98da-4ab5-814e-24d2e4ff14bb",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a6137521-8a90-41c1-9e3c-c09541b62a97",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 1,
+      "trimY": 34,
+      "width": 248,
+      "height": 181,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

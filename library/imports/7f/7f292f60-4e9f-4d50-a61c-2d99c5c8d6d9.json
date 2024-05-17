@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0003_Srocket",
+    "texture": "8e2527cb-8577-444c-b5c5-b856c03bcdf2",
+    "atlas": "",
+    "rect": [
+      61,
+      1,
+      128,
+      248
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
