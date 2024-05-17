@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boygaveanod",
+    "texture": "576661e3-4982-4cfb-a8ae-dedab82ed82c",
+    "atlas": "",
+    "rect": [
+      14,
+      15,
+      470,
+      460
+    ],
+    "offset": [
+      -1,
+      5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
