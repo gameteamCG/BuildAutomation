@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dorsal-fin",
+    "texture": "69fa6c3e-f6f7-46db-b0d0-1da9f811b4cf",
+    "atlas": "",
+    "rect": [
+      11,
+      82,
+      478,
+      407
+    ],
+    "offset": [
+      0,
+      -35.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
