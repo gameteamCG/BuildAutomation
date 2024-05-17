@@ -1,0 +1,85 @@
+{
+  "AdditionalData": {
+    "GameID": "Save water  UKG Social Science ",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/98774329_Save_water_for_preschoolers_Short_Story_Good_habits_1715927241366.mp4",
+    "TitleImageName": "title.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "save water",
+      "QuestionImageName": "",
+      "QuestionAudioName": "2_3_Choose_the_picture_which_shows_a_way_to_save_water.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "1.png",
+        "2.png"
+      ],
+      "ReiterationAudioName": "close_the_tap_when_not_in_use.mp3",
+      "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "save water",
+      "QuestionImageName": "",
+      "QuestionAudioName": "2_3_Choose_the_picture_which_shows_a_way_to_save_water.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "3.png",
+        "4.png"
+      ],
+      "ReiterationAudioName": "Taking_One_bucket_bath.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "save water",
+      "QuestionImageName": "",
+      "QuestionAudioName": "2_3_Choose_the_picture_which_shows_a_way_to_save_water.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "5.png",
+        "6.png"
+      ],
+      "ReiterationAudioName": "Watering_plants_with_a_water_can.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "save water",
+      "QuestionImageName": "",
+      "QuestionAudioName": "2_3_Choose_the_picture_which_shows_a_way_to_save_water.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "7.png",
+        "8_1.png"
+      ],
+      "ReiterationAudioName": "Repair_leaking_taps.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
