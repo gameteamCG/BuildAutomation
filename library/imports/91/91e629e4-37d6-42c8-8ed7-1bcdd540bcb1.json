@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sing",
+    "texture": "35ed8b40-0004-450b-861f-3eb63cba56e7",
+    "atlas": "",
+    "rect": [
+      25,
+      12,
+      200,
+      226
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
