@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0006_earringsgrey",
+    "texture": "0f8e624a-fa05-490a-8be2-877a20bbf271",
+    "atlas": "",
+    "rect": [
+      46,
+      22,
+      418,
+      467
+    ],
+    "offset": [
+      5,
+      -5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

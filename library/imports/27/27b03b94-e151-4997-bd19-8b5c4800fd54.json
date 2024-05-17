@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0015_snailgrey",
+    "texture": "7d091188-d18d-4ffc-ac22-a5e3012d0aed",
+    "atlas": "",
+    "rect": [
+      22,
+      86,
+      457,
+      328
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

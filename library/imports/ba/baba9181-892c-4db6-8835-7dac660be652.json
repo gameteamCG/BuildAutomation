@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0002_Bbat",
+    "texture": "08b57d5b-d887-4de4-a4b1-c0fe9a9221cc",
+    "atlas": "",
+    "rect": [
+      0,
+      32,
+      250,
+      183
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

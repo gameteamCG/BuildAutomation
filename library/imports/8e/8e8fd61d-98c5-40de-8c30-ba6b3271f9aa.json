@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "LetterSstitle",
+    "texture": "c5ea5005-8847-41a3-aca6-1aae8d883963",
+    "atlas": "",
+    "rect": [
+      24,
+      24,
+      1225,
+      360
+    ],
+    "offset": [
+      10.5,
+      -2.5
+    ],
+    "originalSize": [
+      1252,
+      403
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

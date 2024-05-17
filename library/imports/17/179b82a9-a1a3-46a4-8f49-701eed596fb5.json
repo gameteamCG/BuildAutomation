@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0021_shat1",
+    "texture": "0a2ab79c-dd15-47e8-ad0b-6185e7a5e80d",
+    "atlas": "",
+    "rect": [
+      0,
+      11,
+      250,
+      231
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0017_snake",
+    "texture": "3fe0032e-9584-465f-bdd2-bed3e3f1d65b",
+    "atlas": "",
+    "rect": [
+      24,
+      78,
+      453,
+      345
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

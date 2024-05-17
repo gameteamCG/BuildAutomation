@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0014_snakegrey",
+    "texture": "198d2aa9-6358-4e5a-9a73-a38b2a39126b",
+    "atlas": "",
+    "rect": [
+      24,
+      78,
+      453,
+      345
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
