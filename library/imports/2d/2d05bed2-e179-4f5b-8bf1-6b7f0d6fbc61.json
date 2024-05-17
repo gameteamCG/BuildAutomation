@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flew",
+    "texture": "c0997089-1130-4888-87cb-f00c4d7feb47",
+    "atlas": "",
+    "rect": [
+      71,
+      92,
+      110,
+      49
+    ],
+    "offset": [
+      1,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

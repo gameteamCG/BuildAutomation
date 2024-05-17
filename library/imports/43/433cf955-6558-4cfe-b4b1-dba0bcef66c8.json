@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fl_family_words",
+    "texture": "135f8854-4c50-4a0c-8bc4-637f4a5c17c9",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      465,
+      221
+    ],
+    "offset": [
+      6,
+      2.5
+    ],
+    "originalSize": [
+      507,
+      278
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

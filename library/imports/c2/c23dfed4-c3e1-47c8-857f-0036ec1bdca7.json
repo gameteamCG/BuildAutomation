@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0000_flip",
+    "texture": "78406c8d-77a3-4aeb-977d-dfba31871c9b",
+    "atlas": "",
+    "rect": [
+      35,
+      16,
+      179,
+      219
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
