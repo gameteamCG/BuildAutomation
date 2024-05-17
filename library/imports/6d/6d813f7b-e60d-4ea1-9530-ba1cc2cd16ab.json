@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Oncefishalive_title",
+    "texture": "6a2bc379-1d27-4589-bc16-8e55d76aa805",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      763,
+      205
+    ],
+    "offset": [
+      0,
+      22
+    ],
+    "originalSize": [
+      763,
+      253
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
