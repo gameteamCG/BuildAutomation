@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pliers",
+    "texture": "3ccac0b6-3d1d-4131-af55-c1c633effa4d",
+    "atlas": "",
+    "rect": [
+      50,
+      92,
+      142,
+      72
+    ],
+    "offset": [
+      -4,
+      -3
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "plug",
+    "texture": "cce27d6d-7fae-48be-9712-ba9fba834885",
+    "atlas": "",
+    "rect": [
+      65,
+      92,
+      113,
+      72
+    ],
+    "offset": [
+      -3.5,
+      -3
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
