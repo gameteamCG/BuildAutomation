@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "water_cycle1",
+    "texture": "620c07f4-f79d-4f80-a66e-014ff7fbfa57",
+    "atlas": "",
+    "rect": [
+      54,
+      77,
+      560,
+      396
+    ],
+    "offset": [
+      0,
+      -38.5
+    ],
+    "originalSize": [
+      668,
+      473
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

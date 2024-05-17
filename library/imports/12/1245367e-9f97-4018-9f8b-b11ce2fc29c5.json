@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "water_drop",
+    "texture": "8408beb8-7dc1-4abe-8670-2ccf5bbd7469",
+    "atlas": "",
+    "rect": [
+      58,
+      18,
+      135,
+      214
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

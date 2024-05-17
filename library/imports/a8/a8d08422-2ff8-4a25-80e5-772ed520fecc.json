@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "The water cycle:  UKG Social Science ",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/97852903_The_Water_Cycle_How_rain_is_formed_Lesson_for_kids_1715927626708.mp4",
+      "TitleImageName": "water_cycle1.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "clouds",
+        "QuestionImageName": "",
+        "QuestionAudioName": "1_identify_the_image_of_clouds.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "water_drop.png",
+          "ice_cube.png",
+          "cloud.png",
+          "glass.png"
+        ],
+        "ReiterationAudioName": "Clouds.mp3",
+        "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "water to vapour",
+        "QuestionImageName": "",
+        "QuestionAudioName": "2_What_is_the_process_called_when_water_turns_into_vapour.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "evaporation.png",
+          "condensation.png",
+          "cloud.png",
+          "rain.png"
+        ],
+        "ReiterationAudioName": "evaporation.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "vapour to clouds",
+        "QuestionImageName": "",
+        "QuestionAudioName": "3_What_is_the_process_called_when_vapour_turns_into_water_droplets_to_make_clouds.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "ice_cube.png",
+          "rain.png",
+          "evaporation.png",
+          "condensation.png"
+        ],
+        "ReiterationAudioName": "Condensation.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "clouds to rain",
+        "QuestionImageName": "",
+        "QuestionAudioName": "4_What_is_the_process_called_when_water_from_clouds_falls_as_rain.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "precipation.png",
+          "rain.png",
+          "evaporation.png",
+          "condensation.png"
+        ],
+        "ReiterationAudioName": "precipitation.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
