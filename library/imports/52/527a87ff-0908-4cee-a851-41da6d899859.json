@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "swap",
+    "texture": "0234e832-1245-4cbf-9e2f-7b5c8d293265",
+    "atlas": "",
+    "rect": [
+      62,
+      116,
+      125,
+      48
+    ],
+    "offset": [
+      -0.5,
+      -15
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

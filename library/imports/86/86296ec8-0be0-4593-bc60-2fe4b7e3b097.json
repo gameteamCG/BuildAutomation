@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sway",
+    "texture": "0338de4f-a46b-41f5-9a99-9816561e7e04",
+    "atlas": "",
+    "rect": [
+      62,
+      116,
+      126,
+      48
+    ],
+    "offset": [
+      0,
+      -15
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sweat",
+    "texture": "02e0be95-58cc-4271-90e4-33650e7f19e8",
+    "atlas": "",
+    "rect": [
+      53,
+      92,
+      145,
+      49
+    ],
+    "offset": [
+      0.5,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

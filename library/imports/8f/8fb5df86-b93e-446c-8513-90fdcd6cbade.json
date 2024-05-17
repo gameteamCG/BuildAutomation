@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "swan2",
+    "texture": "a68f9f39-49ba-43a1-b422-26bfff5fda5d",
+    "atlas": "",
+    "rect": [
+      59,
+      116,
+      132,
+      25
+    ],
+    "offset": [
+      0,
+      -3.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
