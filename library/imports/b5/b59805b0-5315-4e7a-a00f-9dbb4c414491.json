@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "EMB",
+    "texture": "26011a6e-6594-451c-bc57-a738f46943a3",
+    "atlas": "",
+    "rect": [
+      154,
+      43,
+      193,
+      415
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
