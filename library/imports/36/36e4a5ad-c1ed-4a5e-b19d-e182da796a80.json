@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": " 'dr' blend words",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/DR.mp4",
+      "TitleImageName": "drfamilywords.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "supercub",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "drone",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifycorrectpictureword.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "250x250_0002_aeroplane.png",
+          "250x250_0001_helicopter.png",
+          "250x250_0000_glider.png",
+          "250x250_0003_drone.png"
+        ],
+        "ReiterationAudioName": "Drone.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "drummerisplayingthedrum.png",
+        "QuestionAudioName": "drummerisplayingthe.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "drum2.png",
+          "drink.png",
+          "dress2.png",
+          "drop.png"
+        ],
+        "ReiterationAudioName": "Drum.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "driver.png",
+        "QuestionAudioName": "choosemissingblend.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "sh.png",
+          "dr.png",
+          "gl.png",
+          "gr.png"
+        ],
+        "ReiterationAudioName": "DR.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "dress.png",
+        "QuestionAudioName": "whatisthis.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "draw.png",
+          "drive.png",
+          "dream.png",
+          "dress2.png"
+        ],
+        "ReiterationAudioName": "Dress.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}

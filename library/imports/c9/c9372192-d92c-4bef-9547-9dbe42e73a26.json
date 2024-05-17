@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dream",
+    "texture": "ac2d576b-a5e5-4492-a3ea-cd03e8736bdb",
+    "atlas": "",
+    "rect": [
+      45,
+      92,
+      161,
+      49
+    ],
+    "offset": [
+      0.5,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "drive",
+    "texture": "9906fef6-52e0-4ad6-8ba2-0ac915786a81",
+    "atlas": "",
+    "rect": [
+      66,
+      92,
+      118,
+      49
+    ],
+    "offset": [
+      0,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
