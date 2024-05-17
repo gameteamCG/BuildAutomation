@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0015_umbrella",
+    "texture": "6969694f-68a7-4048-bad2-528518d646fe",
+    "atlas": "",
+    "rect": [
+      1,
+      51,
+      497,
+      399
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

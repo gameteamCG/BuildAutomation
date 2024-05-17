@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0000_Cviolin",
+    "texture": "8e32fdb6-a42d-4e08-8c0e-6bbef8bbecab",
+    "atlas": "",
+    "rect": [
+      45,
+      0,
+      163,
+      250
+    ],
+    "offset": [
+      1.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

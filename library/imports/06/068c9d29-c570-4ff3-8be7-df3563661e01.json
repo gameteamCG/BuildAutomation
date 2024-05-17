@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0002_Vraincoat",
+    "texture": "0757af73-7b16-4cf6-b77a-abae55e234eb",
+    "atlas": "",
+    "rect": [
+      28,
+      1,
+      192,
+      248
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
