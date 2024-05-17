@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "dbea51a8-cdda-4f0a-a35c-65c96d746e2d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 864,
+  "height": 472,
+  "platformSettings": {},
+  "subMetas": {
+    "land_pollution_tital": {
+      "ver": "1.0.6",
+      "uuid": "826ab45e-8554-4290-a00b-1bda3634ce52",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "dbea51a8-cdda-4f0a-a35c-65c96d746e2d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 864,
+      "height": 472,
+      "rawWidth": 864,
+      "rawHeight": 472,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
