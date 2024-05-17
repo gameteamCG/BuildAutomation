@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "red_but",
+    "texture": "bc532686-f057-4efd-a250-ec0d602b9843",
+    "atlas": "",
+    "rect": [
+      25,
+      0,
+      197,
+      247
+    ],
+    "offset": [
+      -2,
+      2
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

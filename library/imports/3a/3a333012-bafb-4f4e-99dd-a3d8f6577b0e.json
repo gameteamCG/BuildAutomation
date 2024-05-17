@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blue_kit1",
+    "texture": "39492155-c6a9-4a00-adf4-577f563cf03a",
+    "atlas": "",
+    "rect": [
+      11,
+      0,
+      229,
+      249
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
