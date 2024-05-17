@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b4134184-3d60-4858-a243-3606f260b66e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0004_Xasteroid": {
+      "ver": "1.0.6",
+      "uuid": "62043464-48e2-47ad-9e63-733427fc1eb0",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b4134184-3d60-4858-a243-3606f260b66e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 34,
+      "width": 248,
+      "height": 182,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
