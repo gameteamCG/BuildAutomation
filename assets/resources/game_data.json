@@ -1,0 +1,116 @@
+{
+  "additionalData": {
+    "GameID": "Number 8",
+    "totalLevel": "6",
+    "TitleImageName": "number_8.png",
+    "introBgName": "bgmain.png",
+    "bgmMusicName": "BGM_ROTE_count.mp3",
+    "mainBgName": "Asset_2.png",
+    "JockeyName": "tlc",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "tap on image with 8 fruits",
+      "questionAudioName": "quest.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_1.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "fr_0000_Layer_7.png",
+        "fr_0001_Layer_6.png"
+      ],
+      "correctAudios": [
+        "8_fruits.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "tap on image with 8 fruits",
+      "questionAudioName": "quest.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_1.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "fr_0002_Layer_8.png",
+        "fr_0003_Layer_2.png"
+      ],
+      "correctAudios": [
+        "8_fruits.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "tap on image with 8 fruits",
+      "questionAudioName": "quest.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_1.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "fr_0004_Layer_9.png",
+        "fr_0005_Layer_5.png"
+      ],
+      "correctAudios": [
+        "8_fruits.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "tap on image with 8 fruits",
+      "questionAudioName": "quest.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_1.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "fr_0006_LayerP_10.png",
+        "fr_0007_Layer_4.png"
+      ],
+      "correctAudios": [
+        "8_fruits.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "tap on image with 8 fruits",
+      "questionAudioName": "quest.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_1.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "fr_0009_Layer_3.png",
+        "fr_0008_Layer_11.png"
+      ],
+      "correctAudios": [
+        "8_fruits.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "tap on image with 8 fruits",
+      "questionAudioName": "quest.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_1.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "fr_0010_Layer_12.png",
+        "fr_0011_Layer_1.png"
+      ],
+      "correctAudios": [
+        "8_fruits.mp3"
+      ],
+      "correctAnswerNum": "2"
+    }
+  ]
+}
