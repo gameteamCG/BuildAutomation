@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "realh",
+    "texture": "508e7f8b-0f79-4ddf-86d9-0acf8d13431f",
+    "atlas": "",
+    "rect": [
+      27,
+      56,
+      197,
+      138
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
