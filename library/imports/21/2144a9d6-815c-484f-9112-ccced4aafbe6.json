@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "emt",
+    "texture": "1d8520f7-5160-41ce-ba69-30ace9d5ccdc",
+    "atlas": "",
+    "rect": [
+      64,
+      34,
+      426,
+      352
+    ],
+    "offset": [
+      26.5,
+      40.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

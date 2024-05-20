@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "derty",
+    "texture": "4af4ee83-cb15-4c37-97be-14a58d807389",
+    "atlas": "",
+    "rect": [
+      87,
+      22,
+      326,
+      458
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
