@@ -1,0 +1,99 @@
+{
+  "additionalData": {
+    "GameID": "inside and outside",
+    "totalLevel": "5",
+    "TitleImageName": "insideandoutside.png",
+    "introBgName": "Nursery.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "BG.png",
+    "JockeyName": "Podar",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "inside",
+      "questionAudioName": "Tapontheboywhoisinsidethecar.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0001_inside-car.png",
+        "500x500_0001_outside-car.png"
+      ],
+      "correctAudios": [
+        "inside.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "outside",
+      "questionAudioName": "Tapotheboywhoisoutsidethecave.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0006_inside-cave.png",
+        "500x500_0007_outside-cave.png"
+      ],
+      "correctAudios": [
+        "outside.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "inside",
+      "questionAudioName": "Tapontheboywhoisinsidethelift.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0003_inside-lift.png",
+        "500x500_0002_outside-lift.png"
+      ],
+      "correctAudios": [
+        "inside.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "outside",
+      "questionAudioName": "Taponthegirlwhisoutsidethetent.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "insidetent.png",
+        "outsidetent.png"
+      ],
+      "correctAudios": [
+        "outside.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "outside",
+      "questionAudioName": "Tapothboywhoisoutsidethehouse.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0005_inside-house.png",
+        "500x500_0004_outside-house.png"
+      ],
+      "correctAudios": [
+        "outside.mp3"
+      ],
+      "correctAnswerNum": "2"
+    }
+  ]
+}
