@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "washurhands",
+    "texture": "e5ee0bbd-b541-4ce3-b71c-61703288a0be",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      586,
+      178
+    ],
+    "offset": [
+      0,
+      9
+    ],
+    "originalSize": [
+      586,
+      202
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
