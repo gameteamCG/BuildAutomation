@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "iguana",
+    "texture": "cfc4f21e-0b3f-484e-a003-2676a1043bc3",
+    "atlas": "",
+    "rect": [
+      112,
+      105,
+      330,
+      354
+    ],
+    "offset": [
+      26.5,
+      -31.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
