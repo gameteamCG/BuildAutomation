@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "basketL4",
+    "texture": "821818f6-950e-4d1a-b5a1-8e50c1e44a45",
+    "atlas": "",
+    "rect": [
+      1,
+      44,
+      299,
+      193
+    ],
+    "offset": [
+      -0.5,
+      10.5
+    ],
+    "originalSize": [
+      302,
+      302
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
