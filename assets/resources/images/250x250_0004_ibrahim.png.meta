@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d777c4e9-97e7-4164-820f-7e8a06daf0cb",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0004_ibrahim": {
+      "ver": "1.0.6",
+      "uuid": "d29d152d-ea4c-4366-8b2c-4135b0c87e0a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d777c4e9-97e7-4164-820f-7e8a06daf0cb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -20.5,
+      "offsetY": 0,
+      "trimX": 30,
+      "trimY": 4,
+      "width": 149,
+      "height": 242,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

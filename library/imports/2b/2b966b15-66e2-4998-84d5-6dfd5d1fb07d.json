@@ -1,0 +1,119 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Picture talk 'i'",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Picturetalk%27i%27_1716201362831.mp4",
+      "TitleImageName": "Asset 287.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "Podar",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999999999999999999",
+        "IsQuestionText": true,
+        "QuestionText": " Who is the story about?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "who-is-the-story-about.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "250x250_0004_ibrahim.png",
+          "Asset15.png",
+          "Asset5.png",
+          "Asset8.png"
+        ],
+        "ReiterationAudioName": "ibrahim.mp3",
+        "CorrectAudioName": "AWESOME YOU SAVED IT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Where does Ibrahim live?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "WheredoesIbrahimlive.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "door.png",
+          "250x250_0000_igloo1.png",
+          "Asset4.png",
+          "Asset6.png"
+        ],
+        "ReiterationAudioName": "igloo.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Tap on the image of insects?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "tap-on-the-image-of-insects.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset12.png",
+          "250x250_0004_ibrahim.png",
+          "250x250_0003_insects.png",
+          "Asset5.png"
+        ],
+        "ReiterationAudioName": "INSECTS.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "999999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "What does Ibrahim use to write?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "what-does-ibrahim-use-.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset14.png",
+          "Asset12.png",
+          "250x250_0000_igloo.png",
+          "250x250_0001_inkpen.png"
+        ],
+        "ReiterationAudioName": "inkpen.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999999999999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the image that begins with letter sound 'i' ?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identify-the-image-that-begins-with-letter-sound_iii.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "250x250_0002_ink.png",
+          "sun.png",
+          "Asset13.png",
+          "lock.png"
+        ],
+        "ReiterationAudioName": "INK.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
