@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toddler_1",
+    "texture": "5969a9dc-0cbd-45af-893c-b8a36bd279fb",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      213,
+      248
+    ],
+    "offset": [
+      -19,
+      -1
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

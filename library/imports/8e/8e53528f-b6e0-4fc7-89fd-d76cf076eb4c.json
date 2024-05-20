@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "teen2_copy_3_1",
+    "texture": "4579935b-2f97-4b50-ad9f-d376d40ce45b",
+    "atlas": "",
+    "rect": [
+      82,
+      0,
+      87,
+      250
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
