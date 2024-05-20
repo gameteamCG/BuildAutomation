@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_outside-lift",
+    "texture": "58045eca-c9b6-4557-a289-1f793a300b22",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      498,
+      497
+    ],
+    "offset": [
+      1,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

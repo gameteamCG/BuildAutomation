@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "insideandoutside",
+    "texture": "c0134c9e-9040-4c4a-b8a1-aa6985b9cbe7",
+    "atlas": "",
+    "rect": [
+      27,
+      27,
+      969,
+      315
+    ],
+    "offset": [
+      8,
+      -8
+    ],
+    "originalSize": [
+      1007,
+      353
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
