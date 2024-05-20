@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Environment",
+    "texture": "20d40fec-896a-4f89-9f97-e416fc8439cb",
+    "atlas": "",
+    "rect": [
+      19,
+      19,
+      993,
+      176
+    ],
+    "offset": [
+      9.5,
+      -9.5
+    ],
+    "originalSize": [
+      1012,
+      195
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
