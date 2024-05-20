@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "elderly_1",
+    "texture": "508609c2-d395-4cd2-9941-4a1699345da9",
+    "atlas": "",
+    "rect": [
+      91,
+      0,
+      69,
+      250
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
