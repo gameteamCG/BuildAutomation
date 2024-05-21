@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "myfivesenses",
+    "texture": "b1e4e794-387b-4cb2-95c3-db3aaa757258",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      700,
+      161
+    ],
+    "offset": [
+      5.5,
+      -3.5
+    ],
+    "originalSize": [
+      741,
+      206
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
