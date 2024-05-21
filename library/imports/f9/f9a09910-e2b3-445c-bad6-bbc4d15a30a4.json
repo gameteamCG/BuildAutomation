@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q1whale",
+    "texture": "bf45b8ac-ed37-4e4b-9d75-187d9e7bf0d7",
+    "atlas": "",
+    "rect": [
+      158,
+      214,
+      203,
+      51
+    ],
+    "offset": [
+      0.5,
+      10.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3shark",
+    "texture": "2f5ee749-5791-46e4-98b1-b66460a080a1",
+    "atlas": "",
+    "rect": [
+      170,
+      214,
+      182,
+      51
+    ],
+    "offset": [
+      2,
+      10.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
