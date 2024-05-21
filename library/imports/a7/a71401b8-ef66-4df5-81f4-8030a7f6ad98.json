@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0004_outside-house",
+    "texture": "ef0b2752-33c6-4bc5-a02b-080e9c878a35",
+    "atlas": "",
+    "rect": [
+      15,
+      21,
+      475,
+      476
+    ],
+    "offset": [
+      2.5,
+      -9
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
