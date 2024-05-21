@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hip",
+    "texture": "984b4a88-04fa-4abc-90f2-010afa7cb075",
+    "atlas": "",
+    "rect": [
+      86,
+      92,
+      78,
+      72
+    ],
+    "offset": [
+      0,
+      -3
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rip",
+    "texture": "c62861ed-e41a-422d-acc8-f03f5accc749",
+    "atlas": "",
+    "rect": [
+      91,
+      102,
+      67,
+      62
+    ],
+    "offset": [
+      -0.5,
+      -8
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
