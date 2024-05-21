@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "girl sitting",
+    "texture": "0c320e98-54c0-4891-91c0-c7b232cd3509",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      942,
+      1545
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      942,
+      1545
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

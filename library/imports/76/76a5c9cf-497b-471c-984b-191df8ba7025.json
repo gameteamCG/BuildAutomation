@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "welldone (1)",
+    "texture": "09bbcb3a-1287-4e26-ab0e-80983b3f33f6",
+    "atlas": "",
+    "rect": [
+      26,
+      27,
+      726,
+      427
+    ],
+    "offset": [
+      9,
+      -10
+    ],
+    "originalSize": [
+      760,
+      461
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grey tick",
+    "texture": "5b8b5a2a-7072-4059-b7c6-f1ddb01b8c3b",
+    "atlas": "",
+    "rect": [
+      5,
+      12,
+      166,
+      166
+    ],
+    "offset": [
+      0.5,
+      -5.5
+    ],
+    "originalSize": [
+      175,
+      179
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

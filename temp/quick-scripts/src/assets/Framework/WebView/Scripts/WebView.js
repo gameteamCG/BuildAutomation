@@ -3,12 +3,6 @@ cc._RF.push(module, 'fd43bCWyrZH4J/MVPf8iNMA', 'WebView');
 // Framework/WebView/Scripts/WebView.ts
 
 "use strict";
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -39,10 +33,13 @@ var WebView = /** @class */ (function (_super) {
         _this.webViewContainer = null;
         _this.correctAnswer = "600";
         _this.webLink = "https://plans.littlesingham.me/";
+        _this.vo_aud = null;
         _this.currentAnswer = "";
         _this.currentMobile = "";
         _this.maxStringLength = 3;
         _this.MobileNumberNeeded = false;
+        _this.question = ["300+250", "200+250", "250+250", "500+250", "600+200",
+            "350+350", "450+50", "650+50", "750+50", "850+50", "450+100", "550+100", "100+550", "750+100"];
         return _this;
         // update (dt) {}
     }
@@ -61,7 +58,12 @@ var WebView = /** @class */ (function (_super) {
     };
     WebView.prototype.CheckForWebView = function (isMobileNumberNeeded) {
         if (isMobileNumberNeeded === void 0) { isMobileNumberNeeded = false; }
+        var parts = this.question[this.getRandomNumber(0, this.question.length - 1)].split("+");
+        this.node.getChildByName("Captcha").children[0].getChildByName("Context2").getComponent(cc.Label).string = parts[0] + " + " + parts[1];
+        this.correctAnswer = ((parseInt(parts[0])) + (parseInt(parts[1]))).toString();
         this.MobileNumberNeeded = isMobileNumberNeeded;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.vo_aud, false);
         //if player has the access captcha screen will be poped up, else game will continue
         if (!StartGame_1.default.Instance.hasAccess) {
             // console.log("InitiatePaywallCaptcha--true");
@@ -92,6 +94,12 @@ var WebView = /** @class */ (function (_super) {
             return;
         }
         // console.log("Player can play the level since he has the access");
+    };
+    WebView.prototype.getRandomNumber = function (min, max) {
+        var _number = Math.random();
+        _number = cc.misc.lerp(min, max, _number);
+        _number = Math.round(_number);
+        return _number;
     };
     WebView.prototype.PopIn = function (_node, _scale) {
         if (_scale === void 0) { _scale = 1; }
@@ -124,6 +132,7 @@ var WebView = /** @class */ (function (_super) {
     };
     WebView.prototype.OnClose = function () {
         console.log("logEvent--captcha--closed");
+        cc.audioEngine.stopAllEffects();
         // this.node.children[0].active = false;
         if (this.node.children[0].children[0].activeInHierarchy) {
             this.PopOut(this.node.children[0].children[0], 1.5);
@@ -259,6 +268,9 @@ var WebView = /** @class */ (function (_super) {
     __decorate([
         property(String)
     ], WebView.prototype, "webLink", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], WebView.prototype, "vo_aud", void 0);
     WebView = WebView_1 = __decorate([
         ccclass
     ], WebView);

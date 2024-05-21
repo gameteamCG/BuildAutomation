@@ -1,10 +1,3 @@
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -19,11 +12,16 @@ export default class WebView extends cc.Component {
     private correctAnswer: string = "600";
     @property(String)
     private webLink: string = "https://plans.littlesingham.me/";
+    @property(cc.AudioClip)
+    private vo_aud: cc.AudioClip = null;
     private currentAnswer: string = "";
     private currentMobile: string = "";
     private static instance: WebView = null;
     private maxStringLength = 3;
     private MobileNumberNeeded: boolean = false;
+
+    private question: String[] = ["300+250", "200+250", "250+250", "500+250", "600+200",
+        "350+350", "450+50", "650+50", "750+50", "850+50", "450+100", "550+100", "100+550", "750+100"];
 
     static get Instance() {
         return WebView.instance;
@@ -39,7 +37,12 @@ export default class WebView extends cc.Component {
     }
 
     CheckForWebView(isMobileNumberNeeded: boolean = false) {
+        let parts: string[] = this.question[this.getRandomNumber(0, this.question.length - 1)].split("+");
+        this.node.getChildByName("Captcha").children[0].getChildByName("Context2").getComponent(cc.Label).string = parts[0] + " + " + parts[1];
+        this.correctAnswer = ((parseInt(parts[0])) + (parseInt(parts[1]))).toString();
         this.MobileNumberNeeded = isMobileNumberNeeded;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.vo_aud, false);
         //if player has the access captcha screen will be poped up, else game will continue
         if (!startGame.Instance.hasAccess) {
             // console.log("InitiatePaywallCaptcha--true");
@@ -74,6 +77,14 @@ export default class WebView extends cc.Component {
         // console.log("Player can play the level since he has the access");
     }
 
+    private getRandomNumber(min: number, max: number): number {
+        let _number: number = Math.random();
+        _number = cc.misc.lerp(min, max, _number);
+        _number = Math.round(_number);
+        return _number;
+
+    }
+
     PopIn(_node: cc.Node, _scale: number = 1) {
         _node.scale = 0;
         _node.active = true;
@@ -105,6 +116,7 @@ export default class WebView extends cc.Component {
 
     OnClose() {
         console.log("logEvent--captcha--closed");
+        cc.audioEngine.stopAllEffects();
         // this.node.children[0].active = false;
 
         if (this.node.children[0].children[0].activeInHierarchy) {

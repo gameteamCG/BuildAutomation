@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sambhoo",
+    "texture": "ca6cc036-2abc-45f9-8452-dd49f6910395",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      1162,
+      251
+    ],
+    "offset": [
+      -440,
+      -0.5
+    ],
+    "originalSize": [
+      2048,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

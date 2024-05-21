@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Handi0005",
+    "texture": "896a9090-c093-4fbb-aee9-90b22fd2a0fa",
+    "atlas": "",
+    "rect": [
+      49,
+      34,
+      405,
+      451
+    ],
+    "offset": [
+      1.5,
+      -9.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

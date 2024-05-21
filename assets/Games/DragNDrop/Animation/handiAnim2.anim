@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "handiAnim2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.12,
+  "sample": 50,
+  "speed": 0.2,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "46b0444b-3443-4070-86c2-24ea69e8326e"
+            }
+          },
+          {
+            "frame": 0.04,
+            "value": {
+              "__uuid__": "3e851521-1c56-4c1e-8b07-a99ec578295e"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "46b0444b-3443-4070-86c2-24ea69e8326e"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

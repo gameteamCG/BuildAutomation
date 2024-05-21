@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "green tick",
+    "texture": "0319a73c-1f69-47f6-af1f-9bbb9d2ad2d8",
+    "atlas": "",
+    "rect": [
+      4,
+      13,
+      166,
+      166
+    ],
+    "offset": [
+      -0.5,
+      -6
+    ],
+    "originalSize": [
+      175,
+      180
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
