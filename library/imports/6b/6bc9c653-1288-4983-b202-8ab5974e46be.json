@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "football",
+    "texture": "0021bc5f-9898-427f-9988-188f7bfae3c1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1517,
+      1516
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      1518,
+      1516
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

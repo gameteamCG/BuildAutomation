@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "palmtree",
+    "texture": "b30fd2d8-396f-42dc-90ab-77d8ba031a39",
+    "atlas": "",
+    "rect": [
+      24,
+      29,
+      430,
+      460
+    ],
+    "offset": [
+      -11,
+      -9
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

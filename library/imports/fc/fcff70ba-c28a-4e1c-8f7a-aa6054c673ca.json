@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "alarmclock",
+    "texture": "bba73a1b-e523-4fcb-a304-180e1ab045d6",
+    "atlas": "",
+    "rect": [
+      104,
+      21,
+      299,
+      434
+    ],
+    "offset": [
+      3.5,
+      12
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
