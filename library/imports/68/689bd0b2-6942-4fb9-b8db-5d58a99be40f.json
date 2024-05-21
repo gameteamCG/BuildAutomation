@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "L7lion2",
+    "texture": "3851a178-e2f4-4a40-b589-e4de8bf12726",
+    "atlas": "",
+    "rect": [
+      29,
+      34,
+      442,
+      440
+    ],
+    "offset": [
+      -0.5,
+      -3.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "L6pig2",
+    "texture": "f4dee9df-f111-4822-b045-7853924e4514",
+    "atlas": "",
+    "rect": [
+      32,
+      59,
+      441,
+      402
+    ],
+    "offset": [
+      2,
+      -9.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "L8giraffe2",
+    "texture": "7b1ce1e0-ee62-4341-a2dc-928480dd46e2",
+    "atlas": "",
+    "rect": [
+      34,
+      50,
+      435,
+      414
+    ],
+    "offset": [
+      1,
+      -6.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
