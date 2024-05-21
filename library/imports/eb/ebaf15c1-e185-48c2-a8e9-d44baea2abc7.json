@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sequencethestorycards",
+    "texture": "a2e23135-cd16-4c1b-a12f-415201bbee50",
+    "atlas": "",
+    "rect": [
+      20,
+      19,
+      1104,
+      387
+    ],
+    "offset": [
+      10,
+      -9.5
+    ],
+    "originalSize": [
+      1124,
+      406
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Sequence the story cards",
+      "totalLevel": "10",
+      "TitleImageName": "Sequencethestorycards.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "sequence the story cards",
+        "questionImageName": "1.png",
+        "questionAudioName": "1iremember.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "2.png",
+          "Asset3.png",
+          "Asset18.png"
+        ],
+        "correctAudioName": "toturnoffthelightwhenIleavetheroom..mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "sequence the story cards",
+        "questionImageName": "Asset2.png",
+        "questionAudioName": "Itry..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset11.png",
+          "Asset10.png",
+          "Asset3.png"
+        ],
+        "correctAudioName": "toturnoffthetapwhenIbrushmyteeth..mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "sequence the story cards",
+        "questionImageName": "Asset4.png",
+        "questionAudioName": "Ialways.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset20.png",
+          "Asset5.png",
+          "Asset6.png"
+        ],
+        "correctAudioName": "Throwmytrashaway..mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "sequence the story cards",
+        "questionImageName": "Asset7.png",
+        "questionAudioName": "iwill.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset6.png",
+          "2.png",
+          "Asset3.png"
+        ],
+        "correctAudioName": "feedthebirdsinwinter.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "sequence the story cards",
+        "questionImageName": "Asset10.png",
+        "questionAudioName": "iuse.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset4.png",
+          "Asset9.png",
+          "1.png"
+        ],
+        "correctAudioName": "bothsidesofthepaper.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "sequence the story cards",
+        "questionImageName": "Asset11.png",
+        "questionAudioName": "iremindmyparents.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset14.png",
+          "Asset6.png",
+          "Asset12.png"
+        ],
+        "correctAudioName": "tounplugtheTVwhenwearenotwatching.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "sequence the story cards",
+        "questionImageName": "Asset13.png",
+        "questionAudioName": "ienjoy.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset14.png",
+          "Asset2.png",
+          "Asset7.png"
+        ],
+        "correctAudioName": "makingtoysfromthingsaroundthehouse.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "sequence the story cards",
+        "questionImageName": "Asset15.png",
+        "questionAudioName": "ilike.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset13.png",
+          "Asset19.png",
+          "Asset16.png"
+        ],
+        "correctAudioName": "towalktoschool.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "sequence the story cards",
+        "questionImageName": "Asset17.png",
+        "questionAudioName": "ican.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1.png",
+          "Asset18.png",
+          "Asset15.png"
+        ],
+        "correctAudioName": "plantseeds.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "sequence the story cards",
+        "questionImageName": "Asset19.png",
+        "questionAudioName": "ihelp.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset20.png",
+          "Asset4.png",
+          "Asset10.png"
+        ],
+        "correctAudioName": "sorttherecycling.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
