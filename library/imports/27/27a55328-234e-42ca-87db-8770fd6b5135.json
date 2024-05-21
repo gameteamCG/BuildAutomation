@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0009_inside-tent",
+    "texture": "1bcb0ffd-752a-4dcd-8ecd-980d75e65bfa",
+    "atlas": "",
+    "rect": [
+      31,
+      40,
+      449,
+      412
+    ],
+    "offset": [
+      5.5,
+      4
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
