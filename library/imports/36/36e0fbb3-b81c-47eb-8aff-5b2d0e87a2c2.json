@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2healthy",
+    "texture": "0f204ecc-3e6f-4969-8c53-d46a45dd1f01",
+    "atlas": "",
+    "rect": [
+      64,
+      214,
+      393,
+      63
+    ],
+    "offset": [
+      2,
+      4.5
+    ],
+    "originalSize": [
+      517,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
