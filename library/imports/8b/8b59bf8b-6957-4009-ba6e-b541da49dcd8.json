@@ -1,0 +1,103 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number Name 56 to 60",
+      "totalLevel": "4",
+      "TitleImageName": "Asset 2-8.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg 1 number 55.png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "Match the number to the number name",
+        "questionAudioName": "Matchthenumbertothenumbername.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "tile 1 55.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard 2 copy 3.png"
+        ],
+        "reiterations": [
+          "56.mp3"
+        ],
+        "commonRightOptionImageName": "tile 2 55.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard 2 copy 8.png",
+          "Artboard 2 copy 10.png"
+        ]
+      },
+      {
+        "questionText": "Match the number to the number name",
+        "questionAudioName": "Matchthenumbertothenumbername.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "tile 1 55.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard 2 copy 4.png"
+        ],
+        "reiterations": [
+          "57.mp3"
+        ],
+        "commonRightOptionImageName": "tile 2 55.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard 2 copy.png",
+          "Artboard 2 copy 8.png"
+        ]
+      },
+      {
+        "questionText": "Match the number to the number name",
+        "questionAudioName": "Matchthenumbertothenumbername.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "tile 1 55.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard 2 copy 5.png"
+        ],
+        "reiterations": [
+          "58.mp3"
+        ],
+        "commonRightOptionImageName": "tile 2 55.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard 2 copy 9.png",
+          "Artboard 2 copy 10.png"
+        ]
+      },
+      {
+        "questionText": "Match the number to the number name",
+        "questionAudioName": "Matchthenumbertothenumbername.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "tile 1 55.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard 2 copy 6.png"
+        ],
+        "reiterations": [
+          "59.mp3"
+        ],
+        "commonRightOptionImageName": "tile 2 55.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard 2 copy 10.png",
+          "Artboard 2 copy 11.png"
+        ]
+      }
+    ]
+  }
+}
