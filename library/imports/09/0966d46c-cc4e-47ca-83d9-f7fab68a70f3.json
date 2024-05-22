@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nap",
+    "texture": "6c1bb234-1f1a-4021-8324-cf36d2f96584",
+    "atlas": "",
+    "rect": [
+      78,
+      116,
+      93,
+      48
+    ],
+    "offset": [
+      -0.5,
+      -15
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
