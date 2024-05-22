@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3grandfather",
+    "texture": "151b2115-d87d-4807-ac45-59ab3a4856c0",
+    "atlas": "",
+    "rect": [
+      63,
+      214,
+      397,
+      64
+    ],
+    "offset": [
+      2.5,
+      4
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
