@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0003_tiger",
+    "texture": "501a56b1-59dd-41ac-a5c2-557107e8e51b",
+    "atlas": "",
+    "rect": [
+      28,
+      73,
+      417,
+      357
+    ],
+    "offset": [
+      -13.5,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
