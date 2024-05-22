@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0013_window-closed2",
+    "texture": "0074c4c2-c4d0-42c2-a521-d7b8c8076d8f",
+    "atlas": "",
+    "rect": [
+      53,
+      108,
+      393,
+      301
+    ],
+    "offset": [
+      -0.5,
+      -8.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
