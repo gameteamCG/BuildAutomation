@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2howteethclean",
+    "texture": "a1ec9fc3-1016-4629-9a50-beca23415100",
+    "atlas": "",
+    "rect": [
+      27,
+      182,
+      464,
+      145
+    ],
+    "offset": [
+      0.5,
+      -4.5
+    ],
+    "originalSize": [
+      517,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
