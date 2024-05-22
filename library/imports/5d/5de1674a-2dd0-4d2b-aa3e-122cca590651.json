@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "My house",
+      "totalLevel": "1",
+      "TitleImageName": "Asset 12-8.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "initialVOName": "empty2.mp3",
+      "mainBgName": "outdoorBG.png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "Draw your house",
+        "questionImageName": "house image.png",
+        "questionAudioName": "Drawyourhouse.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": false,
+        "correctAudioName": "empty2.mp3"
+      }
+    ]
+  }
+}
