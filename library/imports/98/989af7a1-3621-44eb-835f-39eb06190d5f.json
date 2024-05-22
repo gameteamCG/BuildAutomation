@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ibrahimasset",
+    "texture": "6bd83764-e0b7-436e-b21d-1add5c426ecd",
+    "atlas": "",
+    "rect": [
+      139,
+      14,
+      222,
+      472
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
