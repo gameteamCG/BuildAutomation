@@ -1,0 +1,39 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Null",
+      "totalLevel": "1",
+      "TitleImageName": "title.png",
+      "introBgName": "bg (2).png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg (2).png",
+      "JockeyName": "Singham",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Q1",
+        "questionAudioName": "Canyoufindthingsyouseeinadiningroom.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "fra.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 3,
+        "options": [
+          "j.png",
+          "s&P.png",
+          "thread.png"
+        ],
+        "correctAudios": [
+          "waterjug.mp3",
+          "saltpepper.mp3"
+        ],
+        "correctAnswerNum": "12"
+      }
+    ]
+  }
+}
