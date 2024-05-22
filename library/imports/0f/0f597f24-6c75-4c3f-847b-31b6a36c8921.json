@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tonge",
+    "texture": "b656a30f-6932-4be5-99d3-484c17bd8436",
+    "atlas": "",
+    "rect": [
+      7,
+      48,
+      236,
+      185
+    ],
+    "offset": [
+      0,
+      -15.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

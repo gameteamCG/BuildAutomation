@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Sense organs feedback Super cub",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Five_Senses_Song_Human_1710424531225.mp4",
+      "TitleImageName": "senseorgan.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "supercub",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "see",
+        "QuestionImageName": "",
+        "QuestionAudioName": "What_helps_you_to_see_a_pretty_garden.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "nose.png",
+          "ear.png",
+          "eyes.png",
+          "tonge.png"
+        ],
+        "ReiterationAudioName": "eyes.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "smell",
+        "QuestionImageName": "",
+        "QuestionAudioName": "What_helps_you_to_smell_the_scent_of_perfume.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "nose.png",
+          "hand.png",
+          "mouth.png",
+          "leg.png"
+        ],
+        "ReiterationAudioName": "nose.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "taste",
+        "QuestionImageName": "",
+        "QuestionAudioName": "What_helps_you_to_taste_food.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "hand.png",
+          "ear.png",
+          "nose.png",
+          "tonge.png"
+        ],
+        "ReiterationAudioName": "tongue.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}
