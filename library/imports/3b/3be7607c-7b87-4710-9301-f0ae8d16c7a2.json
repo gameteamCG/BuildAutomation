@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flyingkite",
+    "texture": "1f17f19c-0009-45b5-8bab-c099ee2972ad",
+    "atlas": "",
+    "rect": [
+      44,
+      46,
+      443,
+      391
+    ],
+    "offset": [
+      15,
+      9
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
