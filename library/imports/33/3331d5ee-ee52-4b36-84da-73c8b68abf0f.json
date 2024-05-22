@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wetcloth",
+    "texture": "bee73989-1da4-4459-8220-6f6c76c0e14f",
+    "atlas": "",
+    "rect": [
+      24,
+      0,
+      202,
+      250
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

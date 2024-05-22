@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "torncloth",
+    "texture": "71c5f2d5-f39a-409f-81e2-b75b98de5242",
+    "atlas": "",
+    "rect": [
+      61,
+      5,
+      128,
+      241
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

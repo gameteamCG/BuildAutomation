@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "healthhappyness",
+    "texture": "7bc0a701-d460-47f8-a64b-99b465b77622",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      590,
+      269
+    ],
+    "offset": [
+      5.5,
+      -3.5
+    ],
+    "originalSize": [
+      631,
+      314
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
