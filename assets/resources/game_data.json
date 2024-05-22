@@ -1,0 +1,23 @@
+{
+  "additionalData": {
+    "GameID": "Drawing forest",
+    "totalLevel": "1",
+    "TitleImageName": "drawingforest.png",
+    "introBgName": "Senior.png",
+    "bgmMusicName": "bgm3.mp3",
+    "initialVOName": "",
+    "mainBgName": "forestBG.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "draw the colour a forest scene",
+      "questionImageName": "empty.png",
+      "questionAudioName": "drawandcolouraforestscene..mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "",
+      "needMoreTools": true,
+      "correctAudioName": ""
+    }
+  ]
+}
