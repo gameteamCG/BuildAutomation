@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ebd2a131-b0af-41c0-b1b3-3d58415a5cdb",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 518,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Q2sourseofwater": {
+      "ver": "1.0.6",
+      "uuid": "c77f6707-516b-4f8f-a1ce-3f9402c3d1dd",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ebd2a131-b0af-41c0-b1b3-3d58415a5cdb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 7,
+      "trimX": 35,
+      "trimY": 215,
+      "width": 446,
+      "height": 56,
+      "rawWidth": 518,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

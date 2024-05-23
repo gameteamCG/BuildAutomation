@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Importance of water super cub feedback",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/16045738_Importance_of_Water_1710778865450.mp4",
+      "TitleImageName": "Importanceofwater.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "supercub",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q1needfoewater.png",
+        "QuestionAudioName": "Tap_on_the_activity_that_requires_water.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "cookingfood.png",
+          "writing.png"
+        ],
+        "ReiterationAudioName": "cooking_food.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q2sourseofwater.png",
+        "QuestionAudioName": "Tap_on_a_water_source.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "neem.png",
+          "rain.png"
+        ],
+        "ReiterationAudioName": "rain.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q3drinkingwater.png",
+        "QuestionAudioName": "Tap_on_water_which_we_can_drink.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "cleanwater2.png",
+          "dirtywater.png"
+        ],
+        "ReiterationAudioName": "clean_water.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q4howtoriversgetdirty.png",
+        "QuestionAudioName": "how_to_river_get_dirty.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "child_drink.png",
+          "throwgarbage.png"
+        ],
+        "ReiterationAudioName": "people_throw_garbages_in_ricers.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
