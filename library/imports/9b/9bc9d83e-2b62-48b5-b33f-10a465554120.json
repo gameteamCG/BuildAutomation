@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyinfant",
+    "texture": "19729f92-af2a-4bbd-88e1-c84904f64178",
+    "atlas": "",
+    "rect": [
+      77,
+      30,
+      347,
+      438
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

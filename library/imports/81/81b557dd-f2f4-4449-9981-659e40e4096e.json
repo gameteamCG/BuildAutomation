@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyiron",
+    "texture": "6974cc17-63d4-4d3c-bd83-191333f5b4e8",
+    "atlas": "",
+    "rect": [
+      14,
+      35,
+      472,
+      430
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

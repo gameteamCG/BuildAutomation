@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greycaterpillar",
+    "texture": "ef4a4f75-e50d-43d0-a491-3f842860ae91",
+    "atlas": "",
+    "rect": [
+      27,
+      80,
+      445,
+      343
+    ],
+    "offset": [
+      -0.5,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

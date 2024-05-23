@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greypopcorn",
+    "texture": "dede0afb-28bf-4032-972c-a3d48de943db",
+    "atlas": "",
+    "rect": [
+      33,
+      112,
+      429,
+      347
+    ],
+    "offset": [
+      -2.5,
+      -35.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

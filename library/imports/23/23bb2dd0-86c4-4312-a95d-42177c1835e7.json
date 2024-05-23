@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greylamp",
+    "texture": "13f244c8-4fa9-43bd-a5e7-ac780ca56945",
+    "atlas": "",
+    "rect": [
+      35,
+      158,
+      434,
+      247
+    ],
+    "offset": [
+      2,
+      -31.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

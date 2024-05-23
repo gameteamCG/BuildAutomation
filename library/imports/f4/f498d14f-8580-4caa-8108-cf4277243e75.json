@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyduck",
+    "texture": "325b340a-09dc-4d24-8e04-44dc466b77c7",
+    "atlas": "",
+    "rect": [
+      83,
+      33,
+      316,
+      420
+    ],
+    "offset": [
+      -9,
+      7
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

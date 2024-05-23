@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyindia",
+    "texture": "43c3bd8a-a41c-4808-937f-745f3c09bf75",
+    "atlas": "",
+    "rect": [
+      51,
+      26,
+      401,
+      444
+    ],
+    "offset": [
+      1.5,
+      2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Sound review - 'i'",
+      "totalLevel": "7",
+      "TitleImageName": "soundreview'i'.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "bgm4.mp3",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Taponthepicturethatbeginswithlettersoundi.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "grapes.png",
+          "infant.png",
+          "horse.png",
+          "caterpillar.png"
+        ],
+        "optionsBg": [
+          "greygrapes.png",
+          "greyinfant.png",
+          "greyhorse.png",
+          "greycaterpillar.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "infant.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Taponthepicturethatbeginswithlettersoundi.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "ink.png",
+          "duck.png",
+          "fan.png",
+          "popcorn.png"
+        ],
+        "optionsBg": [
+          "greyink.png",
+          "greyduck.png",
+          "greyfan.png",
+          "greypopcorn.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "INK.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Taponthepicturethatbeginswithlettersoundi.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "umbrella.png",
+          "violin.png",
+          "insect.png",
+          "caterpillar.png"
+        ],
+        "optionsBg": [
+          "greyumbrella.png",
+          "greyviolin.png",
+          "greyinsect.png",
+          "greycaterpillar.png"
+        ],
+        "correctAudioName": "GORGEOUSWORK.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "INSECTS.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Taponthepicturethatbeginswithlettersoundi.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "lamp.png",
+          "kite.png",
+          "horse.png",
+          "iron.png"
+        ],
+        "optionsBg": [
+          "greylamp.png",
+          "greykite.png",
+          "greyhorse.png",
+          "greyiron.png"
+        ],
+        "correctAudioName": "AWESOME YOU SAVED IT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "Iron.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Taponthepicturethatbeginswithlettersoundi.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "india.png",
+          "yarn.png",
+          "duck.png",
+          "grapes.png"
+        ],
+        "optionsBg": [
+          "greyindia.png",
+          "greyyarn.png",
+          "greyduck.png",
+          "greygrapes.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "india.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Taponthepicturethatbeginswithlettersoundi.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "kite.png",
+          "popcorn.png",
+          "iguana.png",
+          "violin.png"
+        ],
+        "optionsBg": [
+          "greykite.png",
+          "greypopcorn.png",
+          "greyguana.png",
+          "greyviolin.png"
+        ],
+        "correctAudioName": "IMPRESSIVEWORK.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "igwana.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Taponthepicturethatbeginswithlettersoundi.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "igloo.png",
+          "fan.png",
+          "caterpillar.png",
+          "lamp.png"
+        ],
+        "optionsBg": [
+          "greyigloo.png",
+          "greyfan.png",
+          "greycaterpillar.png",
+          "greylamp.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "igloo.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

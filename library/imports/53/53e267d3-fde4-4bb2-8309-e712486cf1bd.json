@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyink",
+    "texture": "2ee2240c-13f9-489e-bb74-91211b14c995",
+    "atlas": "",
+    "rect": [
+      41,
+      33,
+      415,
+      441
+    ],
+    "offset": [
+      -1.5,
+      -3.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

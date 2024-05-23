@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyguana",
+    "texture": "6b6f4d7b-64d6-45a4-a971-3cd2891dabd9",
+    "atlas": "",
+    "rect": [
+      27,
+      73,
+      447,
+      354
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

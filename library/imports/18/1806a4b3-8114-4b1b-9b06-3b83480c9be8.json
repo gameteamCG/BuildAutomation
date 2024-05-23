@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyyarn",
+    "texture": "24221f37-65a3-488c-96aa-8731dadc03d8",
+    "atlas": "",
+    "rect": [
+      37,
+      84,
+      406,
+      321
+    ],
+    "offset": [
+      -10,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

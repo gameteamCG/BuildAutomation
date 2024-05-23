@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyinsect",
+    "texture": "84a72016-a287-48f5-9091-ea86f445ad4e",
+    "atlas": "",
+    "rect": [
+      25,
+      58,
+      447,
+      383
+    ],
+    "offset": [
+      -1.5,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyumbrella",
+    "texture": "692bb072-e885-44f7-baa3-ab9e325d8058",
+    "atlas": "",
+    "rect": [
+      41,
+      39,
+      416,
+      425
+    ],
+    "offset": [
+      -1,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

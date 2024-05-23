@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyfan",
+    "texture": "d60c604f-bb85-4f1d-a875-ce89947dc245",
+    "atlas": "",
+    "rect": [
+      106,
+      36,
+      294,
+      421
+    ],
+    "offset": [
+      3,
+      3.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

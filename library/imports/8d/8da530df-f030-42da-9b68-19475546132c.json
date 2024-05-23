@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyigloo",
+    "texture": "9a480a77-7ca1-4ee5-8b6a-d95b445e82f7",
+    "atlas": "",
+    "rect": [
+      0,
+      92,
+      500,
+      316
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
