@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "track2",
+    "texture": "028454f8-5b69-482b-b9d8-0810e873055c",
+    "atlas": "",
+    "rect": [
+      59,
+      92,
+      134,
+      49
+    ],
+    "offset": [
+      1,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
