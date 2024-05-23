@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "healthyfood",
+    "texture": "4212008f-84ce-4361-8ba3-0967f4377259",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      652,
+      161
+    ],
+    "offset": [
+      5,
+      -3.5
+    ],
+    "originalSize": [
+      694,
+      206
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

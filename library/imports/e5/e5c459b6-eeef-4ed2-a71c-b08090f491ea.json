@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mityraju",
+    "texture": "1579ee32-69e7-4489-8f3c-f2c426009318",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      589,
+      500
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      590,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
