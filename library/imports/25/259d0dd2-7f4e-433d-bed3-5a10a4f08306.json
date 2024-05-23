@@ -1,0 +1,229 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Opposites super cub feedback",
+      "totalLevel": "14",
+      "TitleImageName": "Opposites.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "Ragtime_for_Kids.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "Opposites of Open",
+        "questionImageName": "QL1.png",
+        "questionAudioName": "Tapontheoppositeofopen.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Close box.png",
+          "Matchishot.png"
+        ],
+        "correctAudioName": "OpenandClose.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposites of Up",
+        "questionImageName": "1.png",
+        "questionAudioName": "Oppositeofup.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "2.png",
+          "3.png"
+        ],
+        "correctAudioName": "upanddown.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Opposites of Inside",
+        "questionImageName": "catinside.png",
+        "questionAudioName": "oppositewithinside.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "catoutside.png",
+          "icecubecold.png"
+        ],
+        "correctAudioName": "insideoutside.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposites of Fast",
+        "questionImageName": "dogfast.png",
+        "questionAudioName": "OppositeofFast.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "QL1.png",
+          "snailslow.png"
+        ],
+        "correctAudioName": "fastandslow.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Opposites of Hot",
+        "questionImageName": "Matchishot.png",
+        "questionAudioName": "Oppositeofhot.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "icecubecold.png",
+          "1.png"
+        ],
+        "correctAudioName": "hotandcold.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposites of Wet",
+        "questionImageName": "2.png",
+        "questionAudioName": "Oppositeofwet.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "catoutside.png",
+          "dry.png"
+        ],
+        "correctAudioName": "WETANDDRY.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Opposites of Clean",
+        "questionImageName": "4.png",
+        "questionAudioName": "Oppositeofclean.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "5.png",
+          "icecubecold.png"
+        ],
+        "correctAudioName": "Cleananddirty.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposites of Day",
+        "questionImageName": "day.png",
+        "questionAudioName": "Oppositeofday.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "sad.png",
+          "night.png"
+        ],
+        "correctAudioName": "DayandNight.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Opposites of Young",
+        "questionImageName": "young.png",
+        "questionAudioName": "OppositeofYoung.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "8.png",
+          "Matchishot.png"
+        ],
+        "correctAudioName": "",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposites of Hard",
+        "questionImageName": "hard.png",
+        "questionAudioName": "Oppositeofhard.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "day.png",
+          "soft.png"
+        ],
+        "correctAudioName": "HADANDSOFT.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Opposites of Sharp",
+        "questionImageName": "sharp.png",
+        "questionAudioName": "OppositeofSharp.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "blunt.png",
+          "icecubecold.png"
+        ],
+        "correctAudioName": "SHARPBLUNT.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposites of Quite",
+        "questionImageName": "quite.png",
+        "questionAudioName": "Oppositeofquiet.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "catoutside.png",
+          "10.png"
+        ],
+        "correctAudioName": "QANDN.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Opposites of On",
+        "questionImageName": "on.png",
+        "questionAudioName": "Oppositeofon.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "off.png",
+          "Close box.png"
+        ],
+        "correctAudioName": "ONNOFF.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposites of Happy",
+        "questionImageName": "happy.png",
+        "questionAudioName": "Oppositeofhappy.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Matchishot.png",
+          "sad.png"
+        ],
+        "correctAudioName": "HAPPYSAD.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

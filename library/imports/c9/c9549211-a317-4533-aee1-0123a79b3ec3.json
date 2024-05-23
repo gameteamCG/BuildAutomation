@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Close box",
+    "texture": "ad9e0b36-20f6-46e5-82b7-58f8a723f404",
+    "atlas": "",
+    "rect": [
+      83,
+      177,
+      284,
+      232
+    ],
+    "offset": [
+      -25,
+      -43
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
