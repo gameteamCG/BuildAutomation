@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3DGeometricalshapes",
+    "texture": "e95a7c0e-16f6-467b-8abe-bbe4998d3c63",
+    "atlas": "",
+    "rect": [
+      20,
+      19,
+      973,
+      348
+    ],
+    "offset": [
+      10,
+      -9.5
+    ],
+    "originalSize": [
+      993,
+      367
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
