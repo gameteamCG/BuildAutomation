@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "closedmouth",
+    "texture": "9f4f9e1c-f0c4-4e14-a342-0bf2b671e3a9",
+    "atlas": "",
+    "rect": [
+      70,
+      87,
+      360,
+      326
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

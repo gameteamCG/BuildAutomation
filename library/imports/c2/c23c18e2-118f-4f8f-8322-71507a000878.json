@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "moderateplate",
+    "texture": "5233cfb3-0916-49e3-986d-d4b77c988be4",
+    "atlas": "",
+    "rect": [
+      49,
+      187,
+      394,
+      201
+    ],
+    "offset": [
+      -4,
+      -37.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

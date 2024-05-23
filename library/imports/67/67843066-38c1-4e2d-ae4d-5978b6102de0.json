@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "openmouth",
+    "texture": "13c4764d-e9ca-4a6e-83ed-bef82db48671",
+    "atlas": "",
+    "rect": [
+      110,
+      31,
+      280,
+      438
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
