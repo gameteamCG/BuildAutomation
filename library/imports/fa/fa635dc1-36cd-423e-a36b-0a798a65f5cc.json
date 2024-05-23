@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Cap_250_250",
+    "texture": "b4a9d754-7b49-4e2d-8e50-d022360fbd90",
+    "atlas": "",
+    "rect": [
+      7,
+      9,
+      235,
+      236
+    ],
+    "offset": [
+      -0.5,
+      -2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
