@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "2878c99d-5e68-4811-b33f-e505138d2d1d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0003_junk-food2": {
+      "ver": "1.0.6",
+      "uuid": "c37f7407-e6ee-457f-aa92-ceb5106e7fd2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2878c99d-5e68-4811-b33f-e505138d2d1d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 0,
+      "trimY": 60,
+      "width": 500,
+      "height": 381,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
