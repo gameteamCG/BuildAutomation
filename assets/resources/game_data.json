@@ -1,0 +1,50 @@
+{
+  "additionalData": {
+    "GameID": "3D Geometrical shapes",
+    "totalLevel": "4",
+    "TitleImageName": "3DGeometricalshapes.png",
+    "introBgName": "Senior.png",
+    "bgmMusicName": "BGMSoft.mp3",
+    "initialVOName": "",
+    "mainBgName": "bg.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "draw its 2D shape",
+      "questionImageName": "Asset2.png",
+      "questionAudioName": "lookattheCubeanddrawits2Dshape.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "",
+      "needMoreTools": true,
+      "correctAudioName": "IMPRESSIVEWORK.mp3"
+    },
+    {
+      "questionText": "draw its 2D shape",
+      "questionImageName": "Asset3.png",
+      "questionAudioName": "lookattheCuboidanddrawits2dshape.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "",
+      "needMoreTools": true,
+      "correctAudioName": "BRILLIANT.mp3"
+    },
+    {
+      "questionText": "draw its 2D shape",
+      "questionImageName": "Asset1.png",
+      "questionAudioName": "lookatthesphereanddrawits2dshape.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "",
+      "needMoreTools": true,
+      "correctAudioName": "AWESOME YOU SAVED IT.mp3"
+    },
+    {
+      "questionText": "draw its 2D shape",
+      "questionImageName": "Asset4.png",
+      "questionAudioName": "lookattheConeanddrawits2dshape.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "",
+      "needMoreTools": true,
+      "correctAudioName": "GORGEOUSWORK.mp3"
+    }
+  ]
+}
