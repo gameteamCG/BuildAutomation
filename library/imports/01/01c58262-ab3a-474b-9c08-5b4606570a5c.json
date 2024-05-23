@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Importance_of_Healthy_Food",
+    "texture": "ac616310-1462-4840-9797-8c8b6077d78d",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      720,
+      269
+    ],
+    "offset": [
+      5.5,
+      -3.5
+    ],
+    "originalSize": [
+      761,
+      314
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

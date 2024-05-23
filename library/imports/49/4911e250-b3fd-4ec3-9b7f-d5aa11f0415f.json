@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "carrotplate",
+    "texture": "f6a936f6-40b5-48d9-af3b-453ad26356f1",
+    "atlas": "",
+    "rect": [
+      1,
+      96,
+      246,
+      80
+    ],
+    "offset": [
+      -1,
+      -11
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
