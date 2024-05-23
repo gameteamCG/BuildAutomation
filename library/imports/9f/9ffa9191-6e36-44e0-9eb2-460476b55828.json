@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Matchishot",
+    "texture": "f46f9261-6cfc-4ac8-bb45-e6597c1fffa2",
+    "atlas": "",
+    "rect": [
+      76,
+      125,
+      309,
+      250
+    ],
+    "offset": [
+      -19.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

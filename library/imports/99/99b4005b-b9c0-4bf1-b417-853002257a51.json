@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Opposites",
+    "texture": "184e890f-0686-47e4-ad7d-c842dd75f40c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      453,
+      161
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      453,
+      161
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

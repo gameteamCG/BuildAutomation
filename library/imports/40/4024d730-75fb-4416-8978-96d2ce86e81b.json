@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blunt",
+    "texture": "8d4544bd-cce2-49f4-bc69-d0af7174ff7e",
+    "atlas": "",
+    "rect": [
+      173,
+      103,
+      143,
+      349
+    ],
+    "offset": [
+      -5.5,
+      -27.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

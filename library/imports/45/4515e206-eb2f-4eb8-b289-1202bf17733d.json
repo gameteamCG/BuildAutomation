@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "catoutside",
+    "texture": "34f7620c-881c-4e69-8fd3-d6669e3cc6d9",
+    "atlas": "",
+    "rect": [
+      65,
+      99,
+      370,
+      302
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
