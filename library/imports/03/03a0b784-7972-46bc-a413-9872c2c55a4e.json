@@ -1,0 +1,215 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Magic 'e'",
+      "totalLevel": "7",
+      "TitleImageName": "Asset124.png",
+      "introBgName": "sfdfgh.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "jhuyjh.png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "Solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "QuestionCard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "tape_01.png",
+          "tape_02.png",
+          "tape_03.png",
+          "tape_04.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Tap on the correct word for the picture",
+        "questionAudioName2": "Taponthecorrectwordforthepicture.mp3",
+        "commonOptionImageName": "Artboard2232.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "tape",
+          "tap"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "tape.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "Solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "QuestionCard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "pipe_01.png",
+          "pipe_02.png",
+          "pipe_03.png",
+          "pipe_04.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Tap on the correct word for the picture",
+        "questionAudioName2": "Taponthecorrectwordforthepicture.mp3",
+        "commonOptionImageName": "Artboard2232.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          " pipe",
+          "pop"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Pipe.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "Solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonPuzzleImageName": "QuestionCard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "kite_01.png",
+          "kite_02.png",
+          "kite_03.png",
+          "kite_04.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Tap on the correct word for the picture",
+        "questionAudioName2": "Taponthecorrectwordforthepicture.mp3",
+        "commonOptionImageName": "Artboard2232.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "cite",
+          "kite"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "Kite.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "Solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonPuzzleImageName": "QuestionCard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "robe_01.png",
+          "robe_02.png",
+          "robe_03.png",
+          "robe_04.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Tap on the correct word for the picture",
+        "questionAudioName2": "Taponthecorrectwordforthepicture.mp3",
+        "commonOptionImageName": "Artboard2232.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "robe",
+          "ro"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Robe.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "Solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonPuzzleImageName": "QuestionCard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "tube_01.png",
+          "tube_02.png",
+          "tube_03.png",
+          "tube_04.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Tap on the correct word for the picture",
+        "questionAudioName2": "Taponthecorrectwordforthepicture.mp3",
+        "commonOptionImageName": "Artboard2232.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "tub",
+          "tube"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "Tube.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "Solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonPuzzleImageName": "QuestionCard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "cake_01.png",
+          "cake_02.png",
+          "cake_03.png",
+          "cake_04.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Tap on the correct word for the picture",
+        "questionAudioName2": "Taponthecorrectwordforthepicture.mp3",
+        "commonOptionImageName": "Artboard2232.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "cake",
+          "cook"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "cake.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "Solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonPuzzleImageName": "QuestionCard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "bone_01.png",
+          "bone_02.png",
+          "bone_03.png",
+          "bone_04.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Tap on the correct word for the picture",
+        "questionAudioName2": "Taponthecorrectwordforthepicture.mp3",
+        "commonOptionImageName": "Artboard2232.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "buy",
+          "bone"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "Bone.mp3"
+      }
+    ]
+  }
+}
