@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "esdfc",
+    "texture": "9f612b7a-8da3-4acb-9fcb-8cf22fcd8c4e",
+    "atlas": "",
+    "rect": [
+      53,
+      43,
+      144,
+      164
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

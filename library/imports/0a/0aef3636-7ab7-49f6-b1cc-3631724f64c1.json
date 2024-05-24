@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boiui",
+    "texture": "c3c99718-55b9-4bfb-87cb-4a51c68308b7",
+    "atlas": "",
+    "rect": [
+      13,
+      13,
+      474,
+      474
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ikm",
+    "texture": "78cb2b55-af3f-426a-acbd-8c5033e5f8a9",
+    "atlas": "",
+    "rect": [
+      64,
+      45,
+      121,
+      155
+    ],
+    "offset": [
+      -0.5,
+      2.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

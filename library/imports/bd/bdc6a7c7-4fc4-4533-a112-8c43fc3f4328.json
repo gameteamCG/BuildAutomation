@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rvdb",
+    "texture": "b70fef10-5a82-40ee-ac4a-78bd53430eca",
+    "atlas": "",
+    "rect": [
+      52,
+      38,
+      152,
+      174
+    ],
+    "offset": [
+      3,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
