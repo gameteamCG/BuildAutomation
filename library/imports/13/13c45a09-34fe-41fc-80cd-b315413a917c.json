@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "AssIYIMB",
+    "texture": "f12a3786-c156-4da5-b2d1-f960d5d78b55",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      506,
+      223
+    ],
+    "offset": [
+      6,
+      2.5
+    ],
+    "originalSize": [
+      548,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
