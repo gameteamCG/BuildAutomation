@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kick4",
+    "texture": "bb854244-eb72-4a2b-8250-f5cf55f56104",
+    "atlas": "",
+    "rect": [
+      133,
+      75,
+      293,
+      348
+    ],
+    "offset": [
+      29.5,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Usesofhands",
+    "texture": "9effd7f4-a5b5-43ce-a778-c508cc91c044",
+    "atlas": "",
+    "rect": [
+      26,
+      25,
+      645,
+      343
+    ],
+    "offset": [
+      9,
+      0
+    ],
+    "originalSize": [
+      679,
+      393
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
