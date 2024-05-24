@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "identifyjobs",
+    "texture": "61873aef-aa92-422d-91b1-0037379f847b",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      895,
+      228
+    ],
+    "offset": [
+      0.5,
+      11.5
+    ],
+    "originalSize": [
+      896,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

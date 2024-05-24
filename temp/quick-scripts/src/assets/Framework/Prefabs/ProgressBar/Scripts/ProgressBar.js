@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'e08b0tRP5pPcZvun88UXG3h', 'ProgressBar');
-// Framework/Prefabs/ProgressBar/Scripts/ProgressBar.ts
+// Framework/Prefabs/Progressbar/Scripts/ProgressBar.ts
 
 "use strict";
 // Learn TypeScript:
