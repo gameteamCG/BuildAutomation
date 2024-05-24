@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3826f181-80b1-430a-bd3d-188b75c248d3",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1920,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "bgoutdoor3": {
+      "ver": "1.0.6",
+      "uuid": "72d87527-8cd4-40f3-987f-f12076e25ca7",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3826f181-80b1-430a-bd3d-188b75c248d3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1920,
+      "height": 1080,
+      "rawWidth": 1920,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
