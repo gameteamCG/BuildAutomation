@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toydolphin",
+    "texture": "358faf5a-c88d-423e-9cf8-9e8e9c42770e",
+    "atlas": "",
+    "rect": [
+      3,
+      49,
+      497,
+      384
+    ],
+    "offset": [
+      1.5,
+      9
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
