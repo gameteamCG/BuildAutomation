@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "junkfood",
+    "texture": "6164efc7-62fd-45b2-ace8-81dbd4c63bda",
+    "atlas": "",
+    "rect": [
+      100,
+      215,
+      297,
+      83
+    ],
+    "offset": [
+      -10.5,
+      -6.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
