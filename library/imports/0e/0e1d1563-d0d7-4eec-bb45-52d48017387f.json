@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "meg_part_004",
+    "texture": "c4862106-bb12-4256-b835-c1577e4acbb7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      250,
+      249
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
