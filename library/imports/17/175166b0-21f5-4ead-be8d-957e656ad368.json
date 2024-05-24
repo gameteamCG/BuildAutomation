@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "teacher",
+    "texture": "9f46eb32-625e-492a-86f4-cf2a34759ee4",
+    "atlas": "",
+    "rect": [
+      94,
+      23,
+      312,
+      449
+    ],
+    "offset": [
+      0,
+      2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
