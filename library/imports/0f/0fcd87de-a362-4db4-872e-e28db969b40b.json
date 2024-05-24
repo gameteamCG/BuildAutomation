@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "batthing",
+    "texture": "c4df52b7-c946-4566-b1bf-bb0f4e1e5a2f",
+    "atlas": "",
+    "rect": [
+      11,
+      16,
+      228,
+      218
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

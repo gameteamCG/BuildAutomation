@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "titel_ig",
+    "texture": "64cd1796-2cdb-49da-936c-cca2facbfac7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      743,
+      233
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      743,
+      233
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
