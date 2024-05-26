@@ -2630,7 +2630,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Mighty_Raju",
+    "_name": "Puzzle",
     "_objFlags": 0,
     "_parent": {
       "__id__": 54
@@ -2653,8 +2653,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 179,
-      "height": 456.85
+      "width": 409.01,
+      "height": 351.22
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2672,8 +2672,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        0.7,
+        0.7,
         1
       ]
     },
@@ -2688,7 +2688,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "a3kG0D9zJI8pWVb/r0mrNh"
+    "_id": "91NUHJBX9GArTYcT/DD6sd"
   },
   {
     "__type__": "sp.Skeleton",
@@ -2722,7 +2722,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "e3fc7fe6-0b0f-4bb8-bccb-2be6b3be1989"
+      "__uuid__": "5026321f-288a-4b04-96ca-8898edd7bd8f"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
@@ -2730,7 +2730,7 @@
     "_N$debugMesh": false,
     "_N$useTint": false,
     "_N$enableBatch": false,
-    "_id": "038c38JnpGnrhuHrOuHEzh"
+    "_id": "eddPyVRZdMVp0JwRXen1f7"
   },
   {
     "__type__": "d21cdcOFCVMG565duKHxBWs",

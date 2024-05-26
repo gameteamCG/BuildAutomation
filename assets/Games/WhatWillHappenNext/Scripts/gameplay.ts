@@ -1,5 +1,5 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -809,6 +809,9 @@ export default class NewClass extends cc.Component {
         if (startGame.Instance.jockeyName == "Podar") {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
         }
+        else if (startGame.Instance.jockeyName == "Puzzle") {
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+        }
         else if (startGame.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
         }
@@ -834,7 +837,7 @@ export default class NewClass extends cc.Component {
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
         let pos: number[] = [-1200, 1200];
-        let jockeytween: number[] = [-450, 450];
+        let jockeytween: number[] = [-350, 350];
         //console.log("characterAppear--Podar_Jumbo");
         if (globalVariables.Instance.currentLevel % 2 == 0 && startGame.Instance.jockeyName == "stallion") {
             this.currentJcokey.scaleX = -0.65;
@@ -936,6 +939,9 @@ export default class NewClass extends cc.Component {
             if (startGame.Instance.jockeyName == "Podar") {
                 anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
             }
+            else if (startGame.Instance.jockeyName == "Puzzle") {
+                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+            }
             else if (startGame.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
@@ -969,7 +975,7 @@ export default class NewClass extends cc.Component {
             }
             if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
                 this.currentJcokey.setPosition(1200, -350);
-                cc.tween(this.currentJcokey).to(0.5, { x: 400 }, { easing: "quartInOut" }).start();
+                cc.tween(this.currentJcokey).to(0.5, { x: 350 }, { easing: "quartInOut" }).start();
                 this.scheduleOnce(() => {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                     cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);

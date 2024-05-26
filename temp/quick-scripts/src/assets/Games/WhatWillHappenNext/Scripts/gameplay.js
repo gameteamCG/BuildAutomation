@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -756,6 +756,9 @@ var NewClass = /** @class */ (function (_super) {
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
         }
+        else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+        }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
         }
@@ -781,7 +784,7 @@ var NewClass = /** @class */ (function (_super) {
         var currentClipNum = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
         var pos = [-1200, 1200];
-        var jockeytween = [-450, 450];
+        var jockeytween = [-350, 350];
         //console.log("characterAppear--Podar_Jumbo");
         if (globalVariables_1.default.Instance.currentLevel % 2 == 0 && StartGame_1.default.Instance.jockeyName == "stallion") {
             this.currentJcokey.scaleX = -0.65;
@@ -880,6 +883,9 @@ var NewClass = /** @class */ (function (_super) {
             if (StartGame_1.default.Instance.jockeyName == "Podar") {
                 anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
             }
+            else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
+                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+            }
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
@@ -912,7 +918,7 @@ var NewClass = /** @class */ (function (_super) {
             }
             if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
                 _this.currentJcokey.setPosition(1200, -350);
-                cc.tween(_this.currentJcokey).to(0.5, { x: 400 }, { easing: "quartInOut" }).start();
+                cc.tween(_this.currentJcokey).to(0.5, { x: 350 }, { easing: "quartInOut" }).start();
                 _this.scheduleOnce(function () {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                     cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
