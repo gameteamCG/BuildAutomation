@@ -22,6 +22,10 @@ export default class Gameplay extends cc.Component {
     private supercub_font: cc.Font = null;
     @property(cc.Font)
     private tlc_font: cc.Font = null;
+    @property(cc.AudioClip)
+    private postive_VO: cc.AudioClip[] = [];
+    @property(cc.AudioClip)
+    private negative_VO: cc.AudioClip[] = [];
 
     private options: cc.Node = null;
 
@@ -539,6 +543,9 @@ export default class Gameplay extends cc.Component {
         else if (startGame.Instance.jockeyName == "Mighty_Raju") {
             anim = ["celebration", "well_done"];
         }
+        else if (startGame.Instance.jockeyName == "Puzzle") {
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+        }
         else if (startGame.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
@@ -546,7 +553,7 @@ export default class Gameplay extends cc.Component {
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
         let pos: number[] = [-1600, 1600];
-        let jockeytween: number[] = [-450, 450];
+        let jockeytween: number[] = [-350, 350];
         if (startGame.Instance.jockeyName == "supercub") {
             pos = [1900, 1900];
             jockeytween = [870, 870];
@@ -569,7 +576,8 @@ export default class Gameplay extends cc.Component {
         cc.tween(this.currentJockey).to(0.5, { x: jockeytween[startGame.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
         this.scheduleOnce(() => {
             this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-            cc.audioEngine.playEffect(this.correctAudio, false);
+            // cc.audioEngine.playEffect(this.correctAudio, false);
+            cc.audioEngine.playEffect(this.postive_VO[currentClipNum], false);
             this.scheduleOnce(() => {
                 cc.tween(this.currentJockey).to(0.5, { x: pos[startGame.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
                 if (startGame.Instance.jockeyName != "stallion") {
@@ -582,7 +590,7 @@ export default class Gameplay extends cc.Component {
                 }
                 //console.log("characterDisappear--Podar_Jumbo");
                 this.callNextLevel();
-            }, this.correctAudio.duration);
+            }, this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration);
         }, 0.5);
     }
 
@@ -615,6 +623,9 @@ export default class Gameplay extends cc.Component {
             else if (startGame.Instance.jockeyName == "Mighty_Raju") {
                 anim = ["try_again"];
             }
+            else if (startGame.Instance.jockeyName == "Puzzle") {
+                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+            }
             else if (startGame.Instance.jockeyName == "stallion") {
                 anim = ["negative_1", "negative_2"];
             }
@@ -622,7 +633,7 @@ export default class Gameplay extends cc.Component {
             let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
             //console.log("characterAppear--Podar_Jumbo");
             this.currentJockey.setPosition(1600, this.currentJockey.y);
-            let posX: number = 400;
+            let posX: number = 350;
             let posX_init: number = 1600;
             if (startGame.Instance.jockeyName == "supercub") {
                 this.currentJockey.setPosition(1900, this.currentJockey.y);
@@ -642,7 +653,8 @@ export default class Gameplay extends cc.Component {
             cc.tween(this.currentJockey).to(0.5, { x: posX }, { easing: "quartInOut" }).start();
             this.scheduleOnce(() => {
                 this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                cc.audioEngine.playEffect(this.wrongAudio, false);
+                // cc.audioEngine.playEffect(this.wrongAudio, false);
+                cc.audioEngine.playEffect(this.negative_VO[currentClipNum], false);
                 this.scheduleOnce(() => {
                     cc.tween(this.currentJockey).to(0.5, { x: posX_init }, { easing: "quartInOut" }).start();
                     if (startGame.Instance.jockeyName != "stallion") {
@@ -658,7 +670,7 @@ export default class Gameplay extends cc.Component {
                     if (this.questionAudio) {
                         cc.audioEngine.playEffect(this.questionAudio, false);
                     }
-                }, this.wrongAudio.duration);
+                }, this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration);
             }, 0.5);
         }, 0.7)
     }

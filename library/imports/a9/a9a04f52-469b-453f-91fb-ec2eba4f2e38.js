@@ -40,6 +40,8 @@ var Gameplay = /** @class */ (function (_super) {
         _this.jaipuria_font = null;
         _this.supercub_font = null;
         _this.tlc_font = null;
+        _this.postive_VO = [];
+        _this.negative_VO = [];
         _this.options = null;
         _this.optionsLayout = "layout3";
         _this.correctAnswer = [];
@@ -554,6 +556,9 @@ var Gameplay = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "Mighty_Raju") {
             anim = ["celebration", "well_done"];
         }
+        else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+        }
         else if (StartGame_1.default.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
@@ -561,7 +566,7 @@ var Gameplay = /** @class */ (function (_super) {
         var currentClipNum = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
         var pos = [-1600, 1600];
-        var jockeytween = [-450, 450];
+        var jockeytween = [-350, 350];
         if (StartGame_1.default.Instance.jockeyName == "supercub") {
             pos = [1900, 1900];
             jockeytween = [870, 870];
@@ -584,7 +589,8 @@ var Gameplay = /** @class */ (function (_super) {
         cc.tween(this.currentJockey).to(0.5, { x: jockeytween[StartGame_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
         this.scheduleOnce(function () {
             _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-            cc.audioEngine.playEffect(_this.correctAudio, false);
+            // cc.audioEngine.playEffect(this.correctAudio, false);
+            cc.audioEngine.playEffect(_this.postive_VO[currentClipNum], false);
             _this.scheduleOnce(function () {
                 cc.tween(_this.currentJockey).to(0.5, { x: pos[StartGame_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
                 if (StartGame_1.default.Instance.jockeyName != "stallion") {
@@ -597,7 +603,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 //console.log("characterDisappear--Podar_Jumbo");
                 _this.callNextLevel();
-            }, _this.correctAudio.duration);
+            }, _this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration);
         }, 0.5);
     };
     Gameplay.prototype.callNegativeRection = function () {
@@ -629,13 +635,16 @@ var Gameplay = /** @class */ (function (_super) {
             else if (StartGame_1.default.Instance.jockeyName == "Mighty_Raju") {
                 anim = ["try_again"];
             }
+            else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
+                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+            }
             else if (StartGame_1.default.Instance.jockeyName == "stallion") {
                 anim = ["negative_1", "negative_2"];
             }
             var currentClipNum = _this.getRandomNumber(0, anim.length - 1);
             //console.log("characterAppear--Podar_Jumbo");
             _this.currentJockey.setPosition(1600, _this.currentJockey.y);
-            var posX = 400;
+            var posX = 350;
             var posX_init = 1600;
             if (StartGame_1.default.Instance.jockeyName == "supercub") {
                 _this.currentJockey.setPosition(1900, _this.currentJockey.y);
@@ -655,7 +664,8 @@ var Gameplay = /** @class */ (function (_super) {
             cc.tween(_this.currentJockey).to(0.5, { x: posX }, { easing: "quartInOut" }).start();
             _this.scheduleOnce(function () {
                 _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                cc.audioEngine.playEffect(_this.wrongAudio, false);
+                // cc.audioEngine.playEffect(this.wrongAudio, false);
+                cc.audioEngine.playEffect(_this.negative_VO[currentClipNum], false);
                 _this.scheduleOnce(function () {
                     cc.tween(_this.currentJockey).to(0.5, { x: posX_init }, { easing: "quartInOut" }).start();
                     if (StartGame_1.default.Instance.jockeyName != "stallion") {
@@ -671,7 +681,7 @@ var Gameplay = /** @class */ (function (_super) {
                     if (_this.questionAudio) {
                         cc.audioEngine.playEffect(_this.questionAudio, false);
                     }
-                }, _this.wrongAudio.duration);
+                }, _this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration);
             }, 0.5);
         }, 0.7);
     };
@@ -756,6 +766,12 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.Font)
     ], Gameplay.prototype, "tlc_font", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "postive_VO", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "negative_VO", void 0);
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "pop_audio", void 0);

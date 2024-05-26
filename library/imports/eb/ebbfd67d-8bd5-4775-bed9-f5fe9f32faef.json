@@ -2484,7 +2484,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Mighty_Raju",
+    "_name": "Puzzle",
     "_objFlags": 0,
     "_parent": {
       "__id__": 65
@@ -2509,8 +2509,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 179,
-      "height": 456.85
+      "width": 409.01,
+      "height": 351.22
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2528,8 +2528,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        0.7,
+        0.7,
         1
       ]
     },
@@ -2544,7 +2544,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "a5QpfoasFOSJNDlH+Qobi4"
+    "_id": "60P//ImM9Ie5AcYmi1sxTi"
   },
   {
     "__type__": "sp.Skeleton",
@@ -2561,7 +2561,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "idle",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -2572,13 +2572,13 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "",
+    "_animationName": "idle",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "e3fc7fe6-0b0f-4bb8-bccb-2be6b3be1989"
+      "__uuid__": "d49561a7-6980-41b0-9b05-2579edbfcfda"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
@@ -2586,7 +2586,7 @@
     "_N$debugMesh": false,
     "_N$useTint": false,
     "_N$enableBatch": false,
-    "_id": "84vT0nv6xJhan3E4+U2yoq"
+    "_id": "cbfLR3941DloSRRA7LQ6g0"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2596,7 +2596,7 @@
     "asset": {
       "__uuid__": "2317ae8e-7f14-4c8b-921e-49003e0a0440"
     },
-    "fileId": "75w4q60yFKxbhG4PKwzA+z",
+    "fileId": "7bs4xN8cxFVKKm5zpKISVv",
     "sync": false
   },
   {
