@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "burgeer",
+    "texture": "3694e0e4-d199-4d74-b211-0ad12caa6748",
+    "atlas": "",
+    "rect": [
+      10,
+      57,
+      480,
+      386
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
