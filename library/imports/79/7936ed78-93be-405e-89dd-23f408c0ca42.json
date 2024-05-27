@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Whatsnext",
+    "texture": "512d42e7-9c0f-4ebe-b63d-4b0ef1e8bb7e",
+    "atlas": "",
+    "rect": [
+      19,
+      19,
+      544,
+      341
+    ],
+    "offset": [
+      9.5,
+      -9.5
+    ],
+    "originalSize": [
+      563,
+      360
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
