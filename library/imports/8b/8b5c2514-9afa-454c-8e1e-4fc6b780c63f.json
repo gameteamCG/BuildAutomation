@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lungs",
+    "texture": "f41946cb-8dc1-447d-82b4-42a6f883ad29",
+    "atlas": "",
+    "rect": [
+      13,
+      12,
+      226,
+      226
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
