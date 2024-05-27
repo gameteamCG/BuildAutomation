@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "weak",
+    "texture": "15fa17bd-4f4e-483f-9d29-4f9fb5890a9b",
+    "atlas": "",
+    "rect": [
+      135,
+      40,
+      230,
+      422
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

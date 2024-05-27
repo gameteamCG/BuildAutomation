@@ -1,0 +1,103 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Test game for new form style",
+      "totalLevel": "4",
+      "TitleImageName": "titel.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "FruitNinja.mp3",
+      "mainBgName": "Background.png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "tap on opposite words",
+        "questionAudioName": "Matchwiththecorrectopposite.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "old.png"
+        ],
+        "reiterations": [
+          "Young.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "young.png",
+          "outside.png"
+        ]
+      },
+      {
+        "questionText": "tap on opposite words",
+        "questionAudioName": "Matchwiththecorrectopposite.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "weak.png"
+        ],
+        "reiterations": [
+          "strong.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "strong.png",
+          "hard.png"
+        ]
+      },
+      {
+        "questionText": "tap on opposite words",
+        "questionAudioName": "Matchwiththecorrectopposite.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "soft.png"
+        ],
+        "reiterations": [
+          "Hard.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "hard.png",
+          "down.png"
+        ]
+      },
+      {
+        "questionText": "tap on opposite words",
+        "questionAudioName": "Matchwiththecorrectopposite.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "up.png"
+        ],
+        "reiterations": [
+          "Down.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "down.png",
+          "outside.png"
+        ]
+      }
+    ]
+  }
+}
