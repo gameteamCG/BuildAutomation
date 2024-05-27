@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sit",
+    "texture": "a357bf56-8123-4f5b-a166-1cf6410f5614",
+    "atlas": "",
+    "rect": [
+      94,
+      92,
+      62,
+      49
+    ],
+    "offset": [
+      0,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
