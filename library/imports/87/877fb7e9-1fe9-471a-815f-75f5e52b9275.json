@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Drawing",
+      "totalLevel": "1",
+      "TitleImageName": "Drawing.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "bgm1.mp3",
+      "initialVOName": "",
+      "mainBgName": "Asset2.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "draw what you saw and liked on the jungle safari virtual field trip.",
+        "questionImageName": "empty.png",
+        "questionAudioName": "drawandcolourwhatyousawandlikedonthejunglesafarivirtualfieldtrip.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "EXCEPTIONAL.mp3"
+      }
+    ]
+  }
+}
