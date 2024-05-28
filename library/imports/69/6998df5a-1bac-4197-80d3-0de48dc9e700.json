@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250_0001_Here_is_a___said_Hun",
+    "texture": "2e7e4768-5b14-47e2-950e-c467eb6977ac",
+    "atlas": "",
+    "rect": [
+      12,
+      58,
+      477,
+      408
+    ],
+    "offset": [
+      0.5,
+      -12
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
