@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tern",
+    "texture": "48492ac3-3c09-4b9b-938e-6b24721efc4f",
+    "atlas": "",
+    "rect": [
+      41,
+      15,
+      169,
+      220
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

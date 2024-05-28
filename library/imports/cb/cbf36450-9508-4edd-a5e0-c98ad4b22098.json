@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rum",
+    "texture": "c52151b3-af8c-431c-959a-9d150834c951",
+    "atlas": "",
+    "rect": [
+      22,
+      19,
+      207,
+      218
+    ],
+    "offset": [
+      0.5,
+      -3
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

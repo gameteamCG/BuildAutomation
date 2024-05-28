@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Mouse",
+    "texture": "72ea9494-cbeb-42a1-a274-8c9843a3b21a",
+    "atlas": "",
+    "rect": [
+      0,
+      56,
+      250,
+      137
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
