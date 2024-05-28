@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dshgirg",
+    "texture": "38b3665a-9890-4278-ae1a-6947248e33da",
+    "atlas": "",
+    "rect": [
+      23,
+      24,
+      683,
+      357
+    ],
+    "offset": [
+      9.5,
+      -10
+    ],
+    "originalSize": [
+      710,
+      385
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

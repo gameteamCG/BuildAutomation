@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ssdgf",
+    "texture": "f7e6a373-d1e4-41ec-8461-32ff519a5cca",
+    "atlas": "",
+    "rect": [
+      15,
+      39,
+      571,
+      522
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      601,
+      601
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
