@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "schythe",
+    "texture": "0c52ccb0-f12b-4fed-985b-b218d61c56eb",
+    "atlas": "",
+    "rect": [
+      17,
+      16,
+      466,
+      469
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

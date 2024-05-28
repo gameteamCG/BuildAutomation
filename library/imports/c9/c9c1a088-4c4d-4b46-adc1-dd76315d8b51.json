@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "raz",
+    "texture": "20de2d29-7115-4563-ad7b-17b01110cc08",
+    "atlas": "",
+    "rect": [
+      119,
+      7,
+      262,
+      487
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

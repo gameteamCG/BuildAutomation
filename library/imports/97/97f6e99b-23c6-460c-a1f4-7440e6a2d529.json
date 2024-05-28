@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sci",
+    "texture": "8989a33c-0a03-42c2-ac3b-fe972eef4b7a",
+    "atlas": "",
+    "rect": [
+      91,
+      8,
+      339,
+      489
+    ],
+    "offset": [
+      10.5,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

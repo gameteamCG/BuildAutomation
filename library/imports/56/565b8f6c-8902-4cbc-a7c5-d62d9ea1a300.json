@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hyd",
+    "texture": "1e69a1d9-f0f4-4bc8-b797-cf6b9cc3ee02",
+    "atlas": "",
+    "rect": [
+      118,
+      11,
+      265,
+      479
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

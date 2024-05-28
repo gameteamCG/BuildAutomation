@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pallate",
+    "texture": "1388b7db-ebc0-43cc-87d4-9988c79f152f",
+    "atlas": "",
+    "rect": [
+      5,
+      111,
+      490,
+      279
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

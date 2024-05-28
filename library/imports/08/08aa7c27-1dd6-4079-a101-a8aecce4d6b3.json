@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cuff",
+    "texture": "cc43e11f-27ac-44b9-8fc3-0be3780ab2a0",
+    "atlas": "",
+    "rect": [
+      3,
+      77,
+      495,
+      347
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

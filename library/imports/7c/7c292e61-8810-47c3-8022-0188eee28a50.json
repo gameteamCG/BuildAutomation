@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toolbox",
+    "texture": "1fad229a-4da2-4121-a310-b05054353291",
+    "atlas": "",
+    "rect": [
+      0,
+      30,
+      250,
+      190
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

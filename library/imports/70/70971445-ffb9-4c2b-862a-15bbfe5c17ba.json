@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "checap",
+    "texture": "c5bda292-a928-43f9-a864-d5361fb1dfc7",
+    "atlas": "",
+    "rect": [
+      13,
+      84,
+      475,
+      333
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
