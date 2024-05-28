@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sghjj",
+    "texture": "99772d4b-d3f5-4a58-8d29-2e75d7e3f75f",
+    "atlas": "",
+    "rect": [
+      5,
+      19,
+      590,
+      562
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      601,
+      601
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
