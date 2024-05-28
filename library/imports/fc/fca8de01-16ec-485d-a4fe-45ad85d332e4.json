@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mnbvc",
+    "texture": "315e4e17-7d8b-43b4-aa78-665f86c08e46",
+    "atlas": "",
+    "rect": [
+      9,
+      18,
+      233,
+      217
+    ],
+    "offset": [
+      0.5,
+      -1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

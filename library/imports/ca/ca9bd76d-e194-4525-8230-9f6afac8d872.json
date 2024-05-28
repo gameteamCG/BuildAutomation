@@ -1,0 +1,179 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Picture talk - 'l'",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/90964534231_1716896186682.mp4",
+      "TitleImageName": "picturetalkl.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "Podar",
+      "TotalLevel": "8"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "8888",
+        "IsQuestionText": true,
+        "QuestionText": "What was the name of the girl in the story?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whatwasthenameofthegirlinthestory.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Lucy",
+          "Ron",
+          "Luna",
+          "Jane"
+        ],
+        "ReiterationAudioName": "lucy.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "8888",
+        "IsQuestionText": true,
+        "QuestionText": "What did Lucy have for a pet?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Ball.png",
+          "bug.png",
+          "p.png",
+          "mnbvc.png"
+        ],
+        "ReiterationAudioName": "ladybug.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "8888",
+        "IsQuestionText": true,
+        "QuestionText": "What was the name of Lucy’s ladybug?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Bot",
+          "Jon",
+          "Lucky",
+          "Bug"
+        ],
+        "ReiterationAudioName": "lucky.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "8888",
+        "IsQuestionText": true,
+        "QuestionText": "What did Lucy see hanging on a tree?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "rum.png",
+          "bot.png",
+          "t.png",
+          "tern.png"
+        ],
+        "ReiterationAudioName": "lantern.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "8888",
+        "IsQuestionText": true,
+        "QuestionText": "What did Lucy find under the tree?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q5.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "open.png",
+          "123213.png",
+          "asddffgr.png",
+          "snakdsf.png"
+        ],
+        "ReiterationAudioName": "lockedtreasurechest.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "8888",
+        "IsQuestionText": true,
+        "QuestionText": "What was hidden under the leaves?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q6.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "atermelon.png",
+          "amp.png",
+          "Squirrel.png",
+          "rat.png"
+        ],
+        "ReiterationAudioName": "lamp.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "8888",
+        "IsQuestionText": true,
+        "QuestionText": "What did the treasure box have on it?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q7.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Ball.png",
+          "t.png",
+          "ock.png",
+          "p.png"
+        ],
+        "ReiterationAudioName": "lock.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "8888",
+        "IsQuestionText": true,
+        "QuestionText": "What was inside the treasure box? ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q8.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "mnbvcx.png",
+          "le.png",
+          "ear.png",
+          "cky.png"
+        ],
+        "ReiterationAudioName": "luckladybird.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "snakdsf",
+    "texture": "dc820ddf-51c8-4d0f-867c-44caa63e0dc7",
+    "atlas": "",
+    "rect": [
+      36,
+      7,
+      178,
+      236
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
