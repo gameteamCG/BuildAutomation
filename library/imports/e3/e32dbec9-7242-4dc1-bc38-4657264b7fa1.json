@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "atermelon",
+    "texture": "44f206c7-3574-4552-af77-ddff9ea27e3c",
+    "atlas": "",
+    "rect": [
+      16,
+      23,
+      213,
+      212
+    ],
+    "offset": [
+      -2.5,
+      -4
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

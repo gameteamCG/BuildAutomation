@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mou",
+    "texture": "9e049d08-74a6-4d56-b15c-8384599c4a33",
+    "atlas": "",
+    "rect": [
+      129,
+      98,
+      241,
+      303
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
