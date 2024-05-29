@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Phonic Sound 'p'",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Pp.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "2"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "10000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "p.png",
+        "QuestionAudioName": "",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "parrot.png",
+          "horse.png"
+        ],
+        "ReiterationAudioName": "parrot.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oops!.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "10000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "p.png",
+        "QuestionAudioName": "Sound_p.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "elephant.png",
+          "penguin.png"
+        ],
+        "ReiterationAudioName": "penguin.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "Oopsie_Daisey.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
