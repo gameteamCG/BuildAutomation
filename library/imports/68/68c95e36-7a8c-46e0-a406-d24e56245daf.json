@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0006_beads",
+    "texture": "9ab5cc30-b10c-434e-86c4-6cf9a2904d94",
+    "atlas": "",
+    "rect": [
+      47,
+      75,
+      436,
+      336
+    ],
+    "offset": [
+      15,
+      7
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

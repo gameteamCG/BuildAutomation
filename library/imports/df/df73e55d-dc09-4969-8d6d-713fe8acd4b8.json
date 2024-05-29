@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_img__0001_maracas",
+    "texture": "5c841515-8abd-4aec-9400-86a159d1ef2b",
+    "atlas": "",
+    "rect": [
+      12,
+      7,
+      471,
+      491
+    ],
+    "offset": [
+      -2.5,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
