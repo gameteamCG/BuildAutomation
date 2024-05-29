@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Letter 'Yy'",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Yy.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "2"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "10000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "y.png",
+        "QuestionAudioName": "Sound_y.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "yarn.png",
+          "kite.png"
+        ],
+        "ReiterationAudioName": "yarn.mp3",
+        "CorrectAudioName": "BRAVO_YOU_RESCUED_IT.mp3",
+        "WrongAudioName": "Oopsie.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "10000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "y.png",
+        "QuestionAudioName": "Sound_y.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "yo_yo.png",
+          "orange.png"
+        ],
+        "ReiterationAudioName": "yoyo.mp3",
+        "CorrectAudioName": "BANG_ON.mp3",
+        "WrongAudioName": "Do_not_give_up_try_again.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

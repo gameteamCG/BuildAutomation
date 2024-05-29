@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yarn",
+    "texture": "7f03b99a-699a-41d7-b91b-e447a5a8f0ca",
+    "atlas": "",
+    "rect": [
+      0,
+      16,
+      250,
+      219
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
