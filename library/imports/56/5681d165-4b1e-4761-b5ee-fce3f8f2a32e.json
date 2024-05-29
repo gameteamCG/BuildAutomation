@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pinkprawn",
+    "texture": "f359d602-5c5f-48a4-b10b-63f746b8f364",
+    "atlas": "",
+    "rect": [
+      5,
+      106,
+      485,
+      308
+    ],
+    "offset": [
+      -2.5,
+      -10
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

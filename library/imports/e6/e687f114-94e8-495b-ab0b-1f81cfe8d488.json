@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "turtlesroke",
+    "texture": "254549f2-075b-4af6-9bbb-135ad3087354",
+    "atlas": "",
+    "rect": [
+      0,
+      127,
+      500,
+      246
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
