@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Letter 'Ww'",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Ww.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "2"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "10000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "w.png",
+        "QuestionAudioName": "Sound_w.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "walrus.png",
+          "kite.png"
+        ],
+        "ReiterationAudioName": "walrus.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "no_no.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "10000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "w.png",
+        "QuestionAudioName": "Sound_w.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "igloo.png",
+          "watch.png"
+        ],
+        "ReiterationAudioName": "watch.mp3",
+        "CorrectAudioName": "BEAUTIFUL_WORK.mp3",
+        "WrongAudioName": "uhh_uhh.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
