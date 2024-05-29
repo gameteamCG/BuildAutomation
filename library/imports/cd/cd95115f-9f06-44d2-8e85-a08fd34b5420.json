@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Phonic Sound 'Nn'",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Nn.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "2"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "10000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "n.png",
+        "QuestionAudioName": "Sound_n.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "net.png",
+          "jug.png"
+        ],
+        "ReiterationAudioName": "net.mp3",
+        "CorrectAudioName": "BANG_ON.mp3",
+        "WrongAudioName": "look_carefully.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "10000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "n.png",
+        "QuestionAudioName": "Sound_n.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "nest.png",
+          "goat.png"
+        ],
+        "ReiterationAudioName": "nest.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Give_it_another_go.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
