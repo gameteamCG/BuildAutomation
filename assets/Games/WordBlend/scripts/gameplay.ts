@@ -606,19 +606,22 @@ export default class NewClass extends cc.Component {
             cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
 
             this.scheduleOnce(() => {
-                this.options.color = cc.Color.WHITE;
-                // this.wordAppear();
                 cc.audioEngine.stopAllEffects();
+                cc.audioEngine.playEffect(this.puzzleVoIteration, false);
+                this.scheduleOnce(() => {
+                    this.options.color = cc.Color.WHITE;
+                    // this.wordAppear();
 
-                if (this.isSecondInteraction) {
-                    //check what interaction it is and call the respective function
-                    //show question panel
-                    cc.audioEngine.playEffect(this.wordVoQuestion, false);
-                    this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
-                }
-                else {
-                    this.CallJockey();
-                }
+                    if (this.isSecondInteraction) {
+                        //check what interaction it is and call the respective function
+                        //show question panel
+                        cc.audioEngine.playEffect(this.wordVoQuestion, false);
+                        this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
+                    }
+                    else {
+                        this.CallJockey();
+                    }
+                }, this.puzzleVoIteration.duration);
             }, 0.5);
         } else {
             this.interactable = true;
@@ -854,7 +857,7 @@ export default class NewClass extends cc.Component {
             }, 0.5 * index);
         })
         this.wordsNode.active = true;
-        cc.audioEngine.playEffect(this.wordVoQuestion, false);
+        // cc.audioEngine.playEffect(this.wordVoQuestion, false);
         this.scheduleOnce(() => {
             let pos: cc.Vec2 = cc.v2(this.wordsNode.children[0].getPosition().x, this.wordsNode.children[0].getPosition().y - 250);
             let pos2: cc.Vec2 = cc.v2(this.wordsNode.children[1].getPosition().x, this.wordsNode.children[1].getPosition().y - 250);
@@ -899,7 +902,11 @@ export default class NewClass extends cc.Component {
                     this.selectable = false;
                     this.scheduleOnce(() => {
                         // this.levelFinished();
-                        this.CallJockey();
+
+                        cc.audioEngine.playEffect(this.wordVoIteration, false);
+                        this.scheduleOnce(() => {
+                            this.CallJockey();
+                        }, this.wordVoIteration.duration);
                     }, this.swipeAction.duration);
                 }
             })
