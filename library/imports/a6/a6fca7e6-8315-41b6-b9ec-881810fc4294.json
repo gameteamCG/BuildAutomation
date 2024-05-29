@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brabbit",
+    "texture": "b7aa88ac-1e26-43f8-a0f5-6380ce3ebe4e",
+    "atlas": "",
+    "rect": [
+      20,
+      15,
+      460,
+      450
+    ],
+    "offset": [
+      0,
+      10
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

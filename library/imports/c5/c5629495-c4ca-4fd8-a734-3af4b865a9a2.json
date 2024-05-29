@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bsun",
+    "texture": "da41c046-865c-4296-94c8-a4c98bc17103",
+    "atlas": "",
+    "rect": [
+      50,
+      49,
+      401,
+      401
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btomato",
+    "texture": "2cf5f1aa-3a8a-4678-b7ad-211e817536aa",
+    "atlas": "",
+    "rect": [
+      58,
+      96,
+      384,
+      309
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

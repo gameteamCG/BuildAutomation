@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bsneak",
+    "texture": "d584219c-86ad-45e8-b681-a4986ad055a4",
+    "atlas": "",
+    "rect": [
+      59,
+      118,
+      381,
+      264
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
