@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "urnstroke",
+    "texture": "50187174-284e-49bd-9338-503c4d42e4ea",
+    "atlas": "",
+    "rect": [
+      61,
+      14,
+      378,
+      472
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
