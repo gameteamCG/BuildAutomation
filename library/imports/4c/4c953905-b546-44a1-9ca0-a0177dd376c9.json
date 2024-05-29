@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Beginning Sounds - E F G H",
+      "totalLevel": "8",
+      "TitleImageName": "Asset81.png",
+      "introBgName": "bg1.png",
+      "bgmMusicName": "B2.mp3",
+      "mainBgName": "bg2tomato.png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "Elephant.png",
+        "questionAudioName": "Identifyelephant.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "E",
+          "F"
+        ],
+        "correctAudioName": "Sounofe.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "Goat.png",
+        "questionAudioName": "Identifygoat.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "H",
+          "G"
+        ],
+        "correctAudioName": "Soundofg.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "horse.png",
+        "questionAudioName": "Identifyhorse.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "H",
+          "I"
+        ],
+        "correctAudioName": "Soundofh.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "Green.png",
+        "questionAudioName": "Identiffrog..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "O",
+          "F"
+        ],
+        "correctAudioName": "Soundoff.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "Hippo.png",
+        "questionAudioName": "Identifyhippo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "H",
+          "G"
+        ],
+        "correctAudioName": "Soundofh.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "Gorrilla.png",
+        "questionAudioName": "Identifygorilla.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "A",
+          "G"
+        ],
+        "correctAudioName": "Soundofg.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "Egg.png",
+        "questionAudioName": "Identifyeggs.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "E",
+          "A"
+        ],
+        "correctAudioName": "Sounofe.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "fox.png",
+        "questionAudioName": "Identifyfox.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "U",
+          "F"
+        ],
+        "correctAudioName": "Soundoff.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
