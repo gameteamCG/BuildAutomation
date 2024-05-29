@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bring",
+    "texture": "add69c97-41a1-482f-80e8-3bb0b3fc40eb",
+    "atlas": "",
+    "rect": [
+      127,
+      65,
+      246,
+      371
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

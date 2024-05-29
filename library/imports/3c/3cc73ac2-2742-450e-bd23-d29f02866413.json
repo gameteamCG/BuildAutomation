@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bturtel",
+    "texture": "c550e6f9-5940-4c75-a2a1-4d4117fe9fa8",
+    "atlas": "",
+    "rect": [
+      13,
+      52,
+      478,
+      421
+    ],
+    "offset": [
+      2,
+      -12.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
