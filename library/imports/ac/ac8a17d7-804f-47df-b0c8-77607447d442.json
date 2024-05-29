@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "parrotstroke",
+    "texture": "aac3e886-6971-48c6-a0c6-f8d3a7bf7684",
+    "atlas": "",
+    "rect": [
+      0,
+      63,
+      486,
+      376
+    ],
+    "offset": [
+      -7,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

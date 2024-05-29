@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pigstroke",
+    "texture": "38ddc285-851d-46a6-ae31-8741bd087091",
+    "atlas": "",
+    "rect": [
+      5,
+      37,
+      490,
+      426
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

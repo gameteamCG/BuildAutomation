@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yoyostroke",
+    "texture": "66108ca7-c3eb-448a-8a01-3ba6f6ed6224",
+    "atlas": "",
+    "rect": [
+      97,
+      25,
+      307,
+      452
+    ],
+    "offset": [
+      0.5,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
