@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Colours",
+      "totalLevel": "5",
+      "TitleImageName": "Asset.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "initialVOName": "",
+      "mainBgName": "bg.png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "Orange Goldfish",
+        "questionImageName": "fishd.png",
+        "questionAudioName": "colourthepicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "fishstroke.png",
+        "needMoreTools": false,
+        "correctAudioName": "OrangeGoldFish.mp3"
+      },
+      {
+        "questionText": "Green Tortoise",
+        "questionImageName": "turtled.png",
+        "questionAudioName": "colourthepicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "turtlesroke.png",
+        "needMoreTools": false,
+        "correctAudioName": "GreenTortoise.mp3"
+      },
+      {
+        "questionText": "Pink Prawn",
+        "questionImageName": "pinkprawn.png",
+        "questionAudioName": "colourthepicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "prawnstroke.png",
+        "needMoreTools": false,
+        "correctAudioName": "PinkPrawn.mp3"
+      },
+      {
+        "questionText": "Blue Owl",
+        "questionImageName": "owlg.png",
+        "questionAudioName": "colourthepicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "owlstroke.png",
+        "needMoreTools": false,
+        "correctAudioName": "BlueOwl.mp3"
+      },
+      {
+        "questionText": "Yellow Cheese",
+        "questionImageName": "cheese.png",
+        "questionAudioName": "colourthepicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "cheese .png",
+        "needMoreTools": false,
+        "correctAudioName": "YellowCheese.mp3"
+      }
+    ]
+  }
+}
