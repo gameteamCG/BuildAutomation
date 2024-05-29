@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "quillstroke",
+    "texture": "5fb9c692-1fc0-4da4-bd21-f939c415da38",
+    "atlas": "",
+    "rect": [
+      103,
+      24,
+      294,
+      452
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

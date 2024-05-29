@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yakstroke",
+    "texture": "d9be349a-e609-429e-aeb7-c1d9aa66b646",
+    "atlas": "",
+    "rect": [
+      3,
+      58,
+      494,
+      384
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
