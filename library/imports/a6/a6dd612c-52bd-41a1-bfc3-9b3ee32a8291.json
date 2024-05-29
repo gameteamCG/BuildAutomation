@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "merry_go_round",
+    "texture": "a4d15b70-4e3e-4588-b4a1-792a997c29d3",
+    "atlas": "",
+    "rect": [
+      7,
+      45,
+      236,
+      160
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

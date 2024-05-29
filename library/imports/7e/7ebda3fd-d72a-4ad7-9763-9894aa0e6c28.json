@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "roller_coaster",
+    "texture": "53b7ab52-1ab4-436d-a861-fc9a53ac67f1",
+    "atlas": "",
+    "rect": [
+      0,
+      20,
+      251,
+      210
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
