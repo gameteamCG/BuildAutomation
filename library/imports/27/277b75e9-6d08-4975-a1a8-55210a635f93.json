@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "park",
+    "texture": "2e215b57-501e-4a4d-9305-1963847bab30",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      251,
+      247
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
