@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tallorshort",
+    "texture": "d1e6e83b-056e-4c7e-9eff-aac9504cb16b",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      406,
+      236
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      406,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
