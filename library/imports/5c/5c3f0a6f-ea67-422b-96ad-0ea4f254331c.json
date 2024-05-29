@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "prawnstroke",
+    "texture": "71a2da7d-54d2-406f-a8fd-1528b948d825",
+    "atlas": "",
+    "rect": [
+      5,
+      106,
+      485,
+      308
+    ],
+    "offset": [
+      -2.5,
+      -10
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "owlg",
+    "texture": "81a55c69-54e0-4693-8ef0-a269663b2ca1",
+    "atlas": "",
+    "rect": [
+      63,
+      39,
+      374,
+      422
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
