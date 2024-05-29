@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Phonic Sound 'Rr'",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Rr.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "2"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "10000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "r.png",
+        "QuestionAudioName": "Sound_r.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "rabbit.png",
+          "fan.png"
+        ],
+        "ReiterationAudioName": "rabbit.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Have_another_try.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "10000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "r.png",
+        "QuestionAudioName": "Sound_r.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "kite.png",
+          "rainbow.png"
+        ],
+        "ReiterationAudioName": "rainbow.mp3",
+        "CorrectAudioName": "BANG_ON.mp3",
+        "WrongAudioName": "Oopsie_Daisey.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
