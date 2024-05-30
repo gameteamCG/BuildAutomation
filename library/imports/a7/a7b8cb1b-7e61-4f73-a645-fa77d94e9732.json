@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stomach",
+    "texture": "163ef589-11e4-47a1-a4ee-831af49a1c57",
+    "atlas": "",
+    "rect": [
+      19,
+      10,
+      213,
+      230
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
