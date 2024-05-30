@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "qazx",
+    "texture": "ba4fc433-bc0d-40a8-ac5f-5fc4136960e5",
+    "atlas": "",
+    "rect": [
+      35,
+      90,
+      180,
+      69
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

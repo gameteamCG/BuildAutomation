@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sprout",
+    "texture": "e9219c19-0e9d-4ec1-8f29-6b931f2afda4",
+    "atlas": "",
+    "rect": [
+      19,
+      43,
+      421,
+      374
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

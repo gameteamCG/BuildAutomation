@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spray",
+    "texture": "e68c9029-d994-4b40-8fce-cdc8f3e4de05",
+    "atlas": "",
+    "rect": [
+      61,
+      51,
+      338,
+      358
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

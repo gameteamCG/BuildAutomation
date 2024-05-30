@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sprinkles",
+    "texture": "96dfe862-c0ad-456b-baf7-88e751903e52",
+    "atlas": "",
+    "rect": [
+      0,
+      83,
+      250,
+      83
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
