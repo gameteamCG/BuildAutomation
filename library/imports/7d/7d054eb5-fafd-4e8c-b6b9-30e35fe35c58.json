@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "drawingseasonaliems",
+    "texture": "089f04ef-1b11-440d-bd37-de41a8751c68",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      692,
+      512
+    ],
+    "offset": [
+      7.5,
+      -8
+    ],
+    "originalSize": [
+      729,
+      548
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

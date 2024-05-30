@@ -1,0 +1,74 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Drawing seasonal items ",
+      "totalLevel": "6",
+      "TitleImageName": "drawingseasonaliems.png",
+      "introBgName": "Junior.png",
+      "bgmMusicName": "BGMSoft.mp3",
+      "initialVOName": "",
+      "mainBgName": "BG1.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": " summer",
+        "questionImageName": "summerBG.png",
+        "questionAudioName": "Drawandcolourclothesthatyouwareinsummer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "EXCELLENTJOB.mp3"
+      },
+      {
+        "questionText": " winter",
+        "questionImageName": "winter.png",
+        "questionAudioName": "Drawandcolourclothesthatyouwareinwinter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "FANTASTIC.mp3"
+      },
+      {
+        "questionText": " monsoon",
+        "questionImageName": "monsoon.png",
+        "questionAudioName": "Drawandcolourclothesthatyouwareinthemonsoons.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "GOODEFFORT.mp3"
+      },
+      {
+        "questionText": "summer",
+        "questionImageName": "summerBG.png",
+        "questionAudioName": "Drawandcolourfooditemsthatyoueatinsummer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "EXCEPTIONAL.mp3"
+      },
+      {
+        "questionText": "winter",
+        "questionImageName": "winter.png",
+        "questionAudioName": "Drawandcolourfooditemthatyoueatinwinter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "GREATWORK.mp3"
+      },
+      {
+        "questionText": "monsoon",
+        "questionImageName": "monsoon.png",
+        "questionAudioName": "Drawandcolourfooditems,thatyoueatinthemonsoons.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "MAGNIFICENT.mp3"
+      }
+    ]
+  }
+}
