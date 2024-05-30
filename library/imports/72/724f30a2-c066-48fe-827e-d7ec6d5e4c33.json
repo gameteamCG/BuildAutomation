@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "picture talk 'n'",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/PictureTalkNNainasdirtynails_1714385867078.mp4",
+      "TitleImageName": "Asset223.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "Podar",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "What was the girl's name in the story?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whatwasthegirlsnameinthestory.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "priya.png",
+          "aliya.png",
+          "naina.png",
+          "sarah.png"
+        ],
+        "ReiterationAudioName": "naina.mp3",
+        "CorrectAudioName": "L1correct.mp3",
+        "WrongAudioName": "no.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "Who gave Naina an injection? ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "WhogaveNainaaninjection.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "dog.png",
+          "zebra.png",
+          "ridingbicycle.png",
+          "nurse.png"
+        ],
+        "ReiterationAudioName": "nurse.mp3",
+        "CorrectAudioName": "L3correct.mp3",
+        "WrongAudioName": "nu.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "identify the letter",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifythelettern.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "r",
+          "n",
+          "a",
+          "f"
+        ],
+        "ReiterationAudioName": "N.mp3",
+        "CorrectAudioName": "L5Correct.mp3",
+        "WrongAudioName": "ns.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "20000",
+        "IsQuestionText": true,
+        "QuestionText": "tap on the picture that begins with letter sound 'n' ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "taponthepicturethatbeginswithlettersoundn.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "chilli.png",
+          "helmet.png",
+          "Asset298.png",
+          "nuts.png"
+        ],
+        "ReiterationAudioName": "nuts.mp3",
+        "CorrectAudioName": "l6correct.mp3",
+        "WrongAudioName": "no.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}

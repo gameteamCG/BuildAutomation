@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nuts",
+    "texture": "580349ea-b96b-428a-86e1-0cea63791293",
+    "atlas": "",
+    "rect": [
+      12,
+      52,
+      226,
+      143
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
