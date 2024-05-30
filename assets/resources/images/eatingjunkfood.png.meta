@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e0207853-658b-44ef-a954-bf57fc4b38e2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "eatingjunkfood": {
+      "ver": "1.0.6",
+      "uuid": "13e3b493-8caf-4b01-9c89-f2298453b55f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e0207853-658b-44ef-a954-bf57fc4b38e2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -4.5,
+      "trimX": 37,
+      "trimY": 25,
+      "width": 425,
+      "height": 459,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

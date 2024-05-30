@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "notcleaningtoys",
+    "texture": "d084a0bb-986e-4762-93e7-514bdc1c3e1d",
+    "atlas": "",
+    "rect": [
+      24,
+      54,
+      452,
+      392
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
