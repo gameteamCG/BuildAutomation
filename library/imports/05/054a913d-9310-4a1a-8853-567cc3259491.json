@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "7frisbee",
+    "texture": "f3608fc2-43a7-46e3-9caf-5a86024773b3",
+    "atlas": "",
+    "rect": [
+      15,
+      124,
+      471,
+      208
+    ],
+    "offset": [
+      0.5,
+      22
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "7balls",
+    "texture": "c63208f2-8f9a-4e6a-923e-74a3c08fcac6",
+    "atlas": "",
+    "rect": [
+      4,
+      128,
+      492,
+      244
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

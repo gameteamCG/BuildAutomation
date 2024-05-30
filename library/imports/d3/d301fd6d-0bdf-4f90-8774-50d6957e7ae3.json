@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toytrain",
+    "texture": "ae7d8d76-e88c-4773-8149-9fcd2ade4d36",
+    "atlas": "",
+    "rect": [
+      27,
+      76,
+      446,
+      348
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
