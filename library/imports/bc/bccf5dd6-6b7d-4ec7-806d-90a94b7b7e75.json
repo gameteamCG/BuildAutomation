@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Ketters_ai",
+    "texture": "4bef84bc-6de7-4f3d-92b4-6cdb608779df",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      437,
+      230
+    ],
+    "offset": [
+      0,
+      25
+    ],
+    "originalSize": [
+      437,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
