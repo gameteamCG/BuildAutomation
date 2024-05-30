@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zxcvb",
+    "texture": "b30bd2fa-3570-42a2-aa16-934c80f9e5d6",
+    "atlas": "",
+    "rect": [
+      49,
+      93,
+      151,
+      63
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
