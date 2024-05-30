@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jungle",
+    "texture": "52a6fe2f-4a5d-44ab-aa55-d8daabe0e2a2",
+    "atlas": "",
+    "rect": [
+      2,
+      50,
+      248,
+      152
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
