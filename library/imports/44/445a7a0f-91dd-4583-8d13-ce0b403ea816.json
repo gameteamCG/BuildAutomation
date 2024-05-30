@@ -1,0 +1,94 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number Names 96-100",
+      "totalLevel": "5",
+      "TitleImageName": "agdff.png",
+      "introBgName": "dfbf.png",
+      "bgmMusicName": "B2.mp3",
+      "mainBgName": "BG5.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Number names",
+        "questionImageName": "96.png",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Ninety-six",
+          "Fifty-two"
+        ],
+        "correctAudioName": "96.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Number names",
+        "questionImageName": "97.png",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "forty-seven",
+          "Ninety-seven"
+        ],
+        "correctAudioName": "97.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Number names",
+        "questionImageName": "98.png",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Five",
+          "Ninety-eight "
+        ],
+        "correctAudioName": "98.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Number names",
+        "questionImageName": "99.png",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Ninety-nine",
+          "Seventy-seven"
+        ],
+        "correctAudioName": "99.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Number names",
+        "questionImageName": "100.png",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Ninety-nine",
+          "One hundred"
+        ],
+        "correctAudioName": "100.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
