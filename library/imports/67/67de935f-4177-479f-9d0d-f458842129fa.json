@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "7Dolls",
+    "texture": "cb104f33-21ab-433f-85e6-99deabaf87af",
+    "atlas": "",
+    "rect": [
+      11,
+      67,
+      478,
+      366
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
