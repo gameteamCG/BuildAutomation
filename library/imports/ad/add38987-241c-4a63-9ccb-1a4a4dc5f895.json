@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "strum",
+    "texture": "45ea8600-f1c2-4ec2-8bc5-b8e218cd3031",
+    "atlas": "",
+    "rect": [
+      21,
+      95,
+      208,
+      59
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

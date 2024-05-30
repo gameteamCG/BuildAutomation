@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "strin",
+    "texture": "d9fc1e7e-7de8-420f-ac79-cd30c4408a04",
+    "atlas": "",
+    "rect": [
+      22,
+      75,
+      206,
+      99
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
