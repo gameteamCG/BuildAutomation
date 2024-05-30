@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "legos",
+    "texture": "d907d01b-3cbf-4c26-ad70-738515719577",
+    "atlas": "",
+    "rect": [
+      12,
+      62,
+      476,
+      312
+    ],
+    "offset": [
+      0,
+      32
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
