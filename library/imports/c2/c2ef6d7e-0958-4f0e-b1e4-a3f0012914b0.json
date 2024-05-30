@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pilot",
+    "texture": "1785d298-275f-41c8-b5d7-05d262156d69",
+    "atlas": "",
+    "rect": [
+      8,
+      18,
+      484,
+      464
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
