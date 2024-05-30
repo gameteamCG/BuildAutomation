@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "drawyourdreamhouse",
+    "texture": "80c22b5b-a6d9-44fc-acb9-7d6acb163530",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      1041,
+      337
+    ],
+    "offset": [
+      7.5,
+      -8
+    ],
+    "originalSize": [
+      1078,
+      373
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
