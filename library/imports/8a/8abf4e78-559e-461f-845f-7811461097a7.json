@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sarah",
+    "texture": "c6fef883-5a98-4bdb-bd91-4e1f755655c1",
+    "atlas": "",
+    "rect": [
+      11,
+      85,
+      230,
+      59
+    ],
+    "offset": [
+      1,
+      10.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

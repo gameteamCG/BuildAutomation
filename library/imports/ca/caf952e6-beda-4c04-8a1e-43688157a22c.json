@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "naina",
+    "texture": "e761d270-aa4e-4a1e-98f4-9f5dd7f10d43",
+    "atlas": "",
+    "rect": [
+      10,
+      85,
+      231,
+      59
+    ],
+    "offset": [
+      0.5,
+      10.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
