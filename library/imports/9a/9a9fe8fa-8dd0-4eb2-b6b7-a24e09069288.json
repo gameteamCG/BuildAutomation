@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "internal_organ",
+    "texture": "e8f514c6-16ce-47b9-94c6-4626e6a021a9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      844,
+      490
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      844,
+      490
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
