@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Matchtheseason",
+    "texture": "d98e3500-e230-4ab4-aea9-f44c32df094c",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      725,
+      236
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      725,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

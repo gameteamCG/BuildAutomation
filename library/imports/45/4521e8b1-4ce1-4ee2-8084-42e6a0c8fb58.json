@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "watering_can",
+    "texture": "4b7a5bf4-279a-4bec-9c77-7f4c9802f81a",
+    "atlas": "",
+    "rect": [
+      95,
+      86,
+      351,
+      329
+    ],
+    "offset": [
+      20.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
