@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rescueboat",
+    "texture": "17d397e2-c3d9-45a5-a0fb-b5d5f7a9b811",
+    "atlas": "",
+    "rect": [
+      35,
+      178,
+      430,
+      144
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

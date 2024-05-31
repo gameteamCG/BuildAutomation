@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "drown",
+    "texture": "3fe21cc1-e8a7-48ba-8bb2-6ad510086124",
+    "atlas": "",
+    "rect": [
+      10,
+      55,
+      480,
+      435
+    ],
+    "offset": [
+      0,
+      -22.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
