@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "54a364f7-c113-4e3e-a388-e8936d7a1345",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "broccoli": {
+      "ver": "1.0.6",
+      "uuid": "19bf8ca1-379b-4fae-bd9a-733360591f61",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "54a364f7-c113-4e3e-a388-e8936d7a1345",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -4,
+      "offsetY": 0,
+      "trimX": 12,
+      "trimY": 5,
+      "width": 218,
+      "height": 240,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

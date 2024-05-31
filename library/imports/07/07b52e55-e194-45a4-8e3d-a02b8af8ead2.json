@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Soda Can",
+    "texture": "d564e89b-9ea5-4477-baaa-f2e703c5dffe",
+    "atlas": "",
+    "rect": [
+      116,
+      11,
+      275,
+      485
+    ],
+    "offset": [
+      3.5,
+      -3.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

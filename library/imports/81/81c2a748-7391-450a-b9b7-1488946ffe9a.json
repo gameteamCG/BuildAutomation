@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chocolate",
+    "texture": "b6ffcf54-81dd-4413-a750-4846cff63967",
+    "atlas": "",
+    "rect": [
+      79,
+      18,
+      342,
+      464
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

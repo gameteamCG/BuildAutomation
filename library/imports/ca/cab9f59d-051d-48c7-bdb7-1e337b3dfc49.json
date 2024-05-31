@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lollipop",
+    "texture": "4ef98fcd-678d-43ee-ac35-b82195af9c3d",
+    "atlas": "",
+    "rect": [
+      145,
+      9,
+      210,
+      479
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
