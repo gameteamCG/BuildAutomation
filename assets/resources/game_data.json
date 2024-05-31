@@ -1,0 +1,209 @@
+{
+  "additionalData": {
+    "GameID": "first letter",
+    "totalLevel": "7",
+    "TitleImageName": "First_letters.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "Francesco_Biondi_ Kids_Games.mp3",
+    "mainBgName": "BG.png",
+    "JockeyName": "Singham"
+  },
+  "questionData": [
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel .png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "m.png",
+        "n.png",
+        "o.png",
+        "p.png"
+      ],
+      "correctAudioName": "Elephant.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "_lephant",
+      "questionAudioName2": "identify_the_missing_letter.mp3",
+      "commonOptionImageName": "panel .png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "e",
+        "f"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "1_e.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel .png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "giraffe_1.png",
+        "giraffe_2.png",
+        "giraffe_3.png",
+        "giraffe_4.png"
+      ],
+      "correctAudioName": "Giraffe.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "_iraffe",
+      "questionAudioName2": "identify_the_missing_letter.mp3",
+      "commonOptionImageName": "panel .png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "b",
+        "g"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "1_g.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel .png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "i.png",
+        "j.png",
+        "k.png",
+        "l.png"
+      ],
+      "correctAudioName": "Lion.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "_ion",
+      "questionAudioName2": "identify_the_missing_letter.mp3",
+      "commonOptionImageName": "panel .png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "l",
+        "t"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "1_l.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Solve_the_picture_puzzle.mp3",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "e.png",
+        "f.png",
+        "g.png",
+        "h.png"
+      ],
+      "correctAudioName": "Monkey.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "_onkey",
+      "questionAudioName2": "identify_the_missing_letter.mp3",
+      "commonOptionImageName": "panel .png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "d",
+        "m"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "1_m.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel .png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "a.png",
+        "b.png",
+        "c.png",
+        "d.png"
+      ],
+      "correctAudioName": "Rabbit.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "_abbit",
+      "questionAudioName2": "identify_the_missing_letter.mp3",
+      "commonOptionImageName": "panel .png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "r",
+        "j"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "1_r.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": false,
+      "commonPuzzleImageName": "panel .png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png"
+      ],
+      "correctAudioName": "Crocodile.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "_rocodile",
+      "questionAudioName2": "identify_the_missing_letter.mp3",
+      "commonOptionImageName": "panel .png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "d",
+        "c"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "1_c.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel .png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png"
+      ],
+      "correctAudioName": "Penguin.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "_enguin",
+      "questionAudioName2": "identify_the_missing_letter.mp3",
+      "commonOptionImageName": "panel .png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "g",
+        "p"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "1_p.mp3"
+    }
+  ]
+}
