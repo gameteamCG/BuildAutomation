@@ -1,0 +1,40 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Dance movement",
+      "totalLevel": "3",
+      "TitleImageName": "Dancemovement.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "bgm4.mp3",
+      "mainBgName": "bg14.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "take 2 steps forward",
+        "questionImageName": "forward.png",
+        "questionAudioName": "saystake2stepsforward.mp3",
+        "isTimerNeeded": true,
+        "timer": 15
+      },
+      {
+        "questionText": "take 1 step backward",
+        "questionImageName": "backward.png",
+        "questionAudioName": "saystake1stepbackward.mp3",
+        "isTimerNeeded": true,
+        "timer": 15
+      },
+      {
+        "questionText": "take 3 step sideways",
+        "questionImageName": "Asset26.png",
+        "questionAudioName": "jumbosaystake3stepssideways.mp3",
+        "isTimerNeeded": true,
+        "timer": 15
+      }
+    ]
+  }
+}
