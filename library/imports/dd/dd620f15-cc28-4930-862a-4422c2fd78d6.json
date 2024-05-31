@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "policejeep",
+    "texture": "198f7b6c-6efa-45b8-8807-d4397d7f8f43",
+    "atlas": "",
+    "rect": [
+      23,
+      144,
+      454,
+      212
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
