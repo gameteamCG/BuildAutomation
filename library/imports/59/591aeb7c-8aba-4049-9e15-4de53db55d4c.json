@@ -1,0 +1,119 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Healthy food choices",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/38664887_FOOD_PYRAMID_1711596853367.mp4",
+      "TitleImageName": "food_piramid.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "dairy",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identify_the_image_dairy_product.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "candy.png",
+          "yogart.png",
+          "rice.png",
+          "banana.png"
+        ],
+        "ReiterationAudioName": "yogurt.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "protein",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identify_the_food_which_gives_us_protein.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "bread.png",
+          "water.png",
+          "cupcake.png",
+          "egg.png"
+        ],
+        "ReiterationAudioName": "eggs.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "vegetable",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identify_the_image_vegetable.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "onion.png",
+          "strawberry.png",
+          "watermelon.png",
+          "peach.png"
+        ],
+        "ReiterationAudioName": "onion.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "food group",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Which_food_group_has-the_biggest_section_in_the_food_pyramid.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "cupcake.png",
+          "vegetables.png",
+          "fruits.png",
+          "grains.png"
+        ],
+        "ReiterationAudioName": "grains.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "grains",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identify_the_image_of_food_item_grains_group.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "milk.png",
+          "bread.png",
+          "lollipop.png",
+          "brinjal.png"
+        ],
+        "ReiterationAudioName": "BREAD.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

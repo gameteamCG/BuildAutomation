@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "food_piramid",
+    "texture": "576eb2ea-4a57-4b04-b602-27e8ef5a78a3",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      979,
+      338
+    ],
+    "offset": [
+      0,
+      6
+    ],
+    "originalSize": [
+      979,
+      354
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
