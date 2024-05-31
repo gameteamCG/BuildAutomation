@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9bb63ed1-0d3a-4e5c-bd96-7d6f60dea2ea",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1389,
+  "height": 508,
+  "platformSettings": {},
+  "subMetas": {
+    "Healthy_eating_habits": {
+      "ver": "1.0.6",
+      "uuid": "de1aacf2-6b1a-46ba-a9a6-736b0cdfaab5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9bb63ed1-0d3a-4e5c-bd96-7d6f60dea2ea",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1.5,
+      "trimX": 0,
+      "trimY": 3,
+      "width": 1389,
+      "height": 505,
+      "rawWidth": 1389,
+      "rawHeight": 508,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

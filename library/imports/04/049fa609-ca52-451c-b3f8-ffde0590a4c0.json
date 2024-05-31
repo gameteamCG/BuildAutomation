@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fruit_salad_bowl",
+    "texture": "baaea959-476a-4a50-8bfa-4b61db91d7aa",
+    "atlas": "",
+    "rect": [
+      13,
+      46,
+      224,
+      167
+    ],
+    "offset": [
+      0,
+      -4.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
