@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7340c6bc-ba8f-410d-8dec-7b0d025402ea",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "moon color": {
+      "ver": "1.0.6",
+      "uuid": "e3ebe3a5-aa83-4092-af07-7dbc43c88a9b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7340c6bc-ba8f-410d-8dec-7b0d025402ea",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -13,
+      "offsetY": 2.5,
+      "trimX": 32,
+      "trimY": 43,
+      "width": 411,
+      "height": 410,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

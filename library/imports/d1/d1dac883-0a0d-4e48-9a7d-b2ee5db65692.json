@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "onion",
+    "texture": "1857ca99-fe8e-4dc3-a6a2-ca4f2738ef75",
+    "atlas": "",
+    "rect": [
+      139,
+      1,
+      220,
+      493
+    ],
+    "offset": [
+      -1,
+      2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
