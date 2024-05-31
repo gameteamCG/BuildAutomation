@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "fb43bd7b-0e6f-4dbc-bfe5-896af231055c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1122,
+  "height": 452,
+  "platformSettings": {},
+  "subMetas": {
+    "Wonders_of_the_world_1": {
+      "ver": "1.0.6",
+      "uuid": "8eab56e4-d937-4c8e-ad9e-c97bd39add5b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "fb43bd7b-0e6f-4dbc-bfe5-896af231055c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 9,
+      "offsetY": -50.5,
+      "trimX": 131,
+      "trimY": 101,
+      "width": 878,
+      "height": 351,
+      "rawWidth": 1122,
+      "rawHeight": 452,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

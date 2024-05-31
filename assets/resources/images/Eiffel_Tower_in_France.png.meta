@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e9ed4245-0aeb-4612-a624-784c449e9c51",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 251,
+  "height": 251,
+  "platformSettings": {},
+  "subMetas": {
+    "Eiffel_Tower_in_France": {
+      "ver": "1.0.6",
+      "uuid": "6f3f735e-1b37-4489-aa3b-ba29a931f52e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e9ed4245-0aeb-4612-a624-784c449e9c51",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -6,
+      "offsetY": -7,
+      "trimX": 51,
+      "trimY": 26,
+      "width": 137,
+      "height": 213,
+      "rawWidth": 251,
+      "rawHeight": 251,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

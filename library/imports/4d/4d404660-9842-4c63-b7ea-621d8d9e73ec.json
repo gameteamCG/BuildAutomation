@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Wonders of the world",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/947583939_WorldLandmarks_FamousLandmarksPictures_ExploreWorldSong_KidsSong_JunyTony_1717133374754.mp4",
+      "TitleImageName": "Wonders_of_the_world_1.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "statueofliberty_1.png",
+        "QuestionAudioName": "q1_Identify_the_wonder_of_the_world_the_statue_of_liberty_in_USA.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "statueofliberty.png",
+          "statue_of_liberty.png",
+          "taj_mahal.png",
+          "great_wall_of_china.png"
+        ],
+        "ReiterationAudioName": "statue_of_liberty.mp3",
+        "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "tajmahal.png",
+        "QuestionAudioName": "q2_Tap_on_the_picture_of_taj_mahal_in_India.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "tower_of_pisa.png",
+          "6.png",
+          "taj_mahal.png",
+          "2.png"
+        ],
+        "ReiterationAudioName": "taj_mahal.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "leaningtowerofpisa.png",
+        "QuestionAudioName": "q3_Choose_the_picture_of_leaning_tower_of_Pisa_in_Italy.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "3.png",
+          "tower_of_pisa.png",
+          "4.png",
+          "1.png"
+        ],
+        "ReiterationAudioName": "tower_of_pisa.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "eiffle_tower_1.png",
+        "QuestionAudioName": "q4_Identify_the_picture_of_the_Eiffel_Tower_in_France.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "statue_of_liberty.png",
+          "great_wall_of_china.png",
+          "5.png",
+          "Eiffel_Tower_in_France.png"
+        ],
+        "ReiterationAudioName": "eiffel_tower.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eiffle_tower_1",
+    "texture": "f5912cc8-cdb6-43ba-8a7d-5ae6e430dcd3",
+    "atlas": "",
+    "rect": [
+      36,
+      215,
+      436,
+      84
+    ],
+    "offset": [
+      3.5,
+      -6.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

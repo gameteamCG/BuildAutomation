@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "12f16fb9-d5cc-4e52-991b-949f80bb2a8f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 251,
+  "height": 251,
+  "platformSettings": {},
+  "subMetas": {
+    "statue_of_liberty": {
+      "ver": "1.0.6",
+      "uuid": "2a46a3d6-d7a5-42e9-8abf-401618275a83",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "12f16fb9-d5cc-4e52-991b-949f80bb2a8f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -6,
+      "offsetY": 8,
+      "trimX": 21,
+      "trimY": 6,
+      "width": 197,
+      "height": 223,
+      "rawWidth": 251,
+      "rawHeight": 251,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tower_of_pisa",
+    "texture": "c45cdd46-e768-42ab-8425-2cf8080bc74d",
+    "atlas": "",
+    "rect": [
+      75,
+      18,
+      77,
+      183
+    ],
+    "offset": [
+      -12,
+      16
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

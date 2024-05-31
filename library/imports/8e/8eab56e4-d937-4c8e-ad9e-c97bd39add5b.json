@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Wonders_of_the_world_1",
+    "texture": "fb43bd7b-0e6f-4dbc-bfe5-896af231055c",
+    "atlas": "",
+    "rect": [
+      131,
+      101,
+      878,
+      351
+    ],
+    "offset": [
+      9,
+      -50.5
+    ],
+    "originalSize": [
+      1122,
+      452
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
