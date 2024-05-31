@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yogaboygirl",
+    "texture": "36cf4e1a-25cb-48a7-ab2f-e2b547d345ad",
+    "atlas": "",
+    "rect": [
+      8,
+      144,
+      486,
+      209
+    ],
+    "offset": [
+      1,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

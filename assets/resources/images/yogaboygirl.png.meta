@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "36cf4e1a-25cb-48a7-ab2f-e2b547d345ad",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "yogaboygirl": {
+      "ver": "1.0.6",
+      "uuid": "13b5d4ea-d92a-4ce8-af7b-8eacb1212b1b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "36cf4e1a-25cb-48a7-ab2f-e2b547d345ad",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": 1.5,
+      "trimX": 8,
+      "trimY": 144,
+      "width": 486,
+      "height": 209,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
