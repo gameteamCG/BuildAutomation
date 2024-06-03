@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0000_Which_month_comes_before_November",
+    "texture": "4bc8b50e-db87-445b-b28c-0c0e41f047e8",
+    "atlas": "",
+    "rect": [
+      27,
+      138,
+      449,
+      213
+    ],
+    "offset": [
+      1.5,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

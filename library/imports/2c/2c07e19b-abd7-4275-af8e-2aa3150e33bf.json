@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0000s_0009_March",
+    "texture": "9e820ae9-99b3-4934-aadc-5c660f230507",
+    "atlas": "",
+    "rect": [
+      56,
+      100,
+      142,
+      37
+    ],
+    "offset": [
+      2,
+      6.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

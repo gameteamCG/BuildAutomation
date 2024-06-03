@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4319357e-7d1a-4353-8012-9feb7050eb25",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0001_How_many_months_have_31days": {
+      "ver": "1.0.6",
+      "uuid": "f7524339-5848-4e94-ad5a-15ad55dad462",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4319357e-7d1a-4353-8012-9feb7050eb25",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -5,
+      "trimX": 32,
+      "trimY": 60,
+      "width": 437,
+      "height": 390,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Months and Week UKG Course book 1",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Calendar_Year_Months_Weeks_Days+_Mathematics_Grade_1717417519500.mp4",
+      "TitleImageName": "monthsandweek.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "500x500_0005_1st_day_of_the_week.png",
+        "QuestionAudioName": "Which_is_the_first_day_of_the_week.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "sunday.png",
+          "friday.png",
+          "saturday.png",
+          "wednesday.png"
+        ],
+        "ReiterationAudioName": "Sunday.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "500x500_0004_6th_month.png",
+        "QuestionAudioName": "Which_is_the_6th_month_of_the_year.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "250x250_0000s_0011_January.png",
+          "250x250_0000s_0000_December.png",
+          "250x250_0000s_0006_June.png",
+          "250x250_0000s_0002_October.png"
+        ],
+        "ReiterationAudioName": "June.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "500x500_0003_shortest_month.png",
+        "QuestionAudioName": "Which_is_the_shortes_month_of_the_year.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "250x250_0000s_0004_August.png",
+          "250x250_0000s_0010_February.png",
+          "250x250_0000s_0009_March.png",
+          "250x250_0000s_0003_September.png"
+        ],
+        "ReiterationAudioName": "february.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "500x500_0002_Which_day_comes_after_Tuesday_.png",
+        "QuestionAudioName": "Which_day_comes_after_Tuesday.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "monday.png",
+          "thursday.png",
+          "sunday.png",
+          "wednesday.png"
+        ],
+        "ReiterationAudioName": "wednesday.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "500x500_0001_How_many_months_have_31days.png",
+        "QuestionAudioName": "How_many_months_have_31_days.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "250x250_0003_7.png",
+          "250x250_0002_5.png",
+          "250x250_0001_2.png",
+          "250x250_0000_4.png"
+        ],
+        "ReiterationAudioName": "07.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "500x500_0000_Which_month_comes_before_November.png",
+        "QuestionAudioName": "Which_month_comes_before_November.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "250x250_0000s_0008_April.png",
+          "250x250_0000s_0005_July.png",
+          "250x250_0000s_0002_October.png",
+          "250x250_0000s_0007_May.png"
+        ],
+        "ReiterationAudioName": "october.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}

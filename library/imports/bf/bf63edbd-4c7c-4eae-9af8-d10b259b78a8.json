@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "saturday",
+    "texture": "ba752a82-d01f-4c80-be69-f1c7c06925b4",
+    "atlas": "",
+    "rect": [
+      31,
+      105,
+      185,
+      47
+    ],
+    "offset": [
+      -1.5,
+      -3.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

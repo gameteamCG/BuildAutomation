@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0003_shortest_month",
+    "texture": "c875f672-ff64-4593-9461-ee1ffc20e652",
+    "atlas": "",
+    "rect": [
+      70,
+      139,
+      366,
+      191
+    ],
+    "offset": [
+      3,
+      15.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

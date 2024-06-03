@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "monday",
+    "texture": "c9c8fdd5-173d-4495-9322-4ec134c02634",
+    "atlas": "",
+    "rect": [
+      42,
+      106,
+      166,
+      47
+    ],
+    "offset": [
+      0,
+      -4.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

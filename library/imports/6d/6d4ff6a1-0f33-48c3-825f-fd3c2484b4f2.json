@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0004_6th_month",
+    "texture": "aced6a19-496b-4ba8-9c5b-09e28e4ef492",
+    "atlas": "",
+    "rect": [
+      14,
+      201,
+      475,
+      71
+    ],
+    "offset": [
+      1.5,
+      13.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

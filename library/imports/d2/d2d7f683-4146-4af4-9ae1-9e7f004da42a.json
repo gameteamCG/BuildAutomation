@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_Which_day_comes_after_Tuesday_",
+    "texture": "5168e990-70e1-417f-8605-152d9995b5b3",
+    "atlas": "",
+    "rect": [
+      1,
+      58,
+      491,
+      400
+    ],
+    "offset": [
+      -3.5,
+      -8
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

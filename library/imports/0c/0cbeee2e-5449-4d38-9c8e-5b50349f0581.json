@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0005_1st_day_of_the_week",
+    "texture": "5433b21f-fd2d-48fa-8fc1-9a57f83ba36c",
+    "atlas": "",
+    "rect": [
+      29,
+      143,
+      459,
+      191
+    ],
+    "offset": [
+      8.5,
+      11.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

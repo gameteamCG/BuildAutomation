@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_How_many_months_have_31days",
+    "texture": "4319357e-7d1a-4353-8012-9feb7050eb25",
+    "atlas": "",
+    "rect": [
+      32,
+      60,
+      437,
+      390
+    ],
+    "offset": [
+      0.5,
+      -5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

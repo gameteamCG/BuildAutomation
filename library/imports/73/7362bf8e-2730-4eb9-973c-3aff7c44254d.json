@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "monthsandweek",
+    "texture": "e4cc6687-38e7-4fcc-b695-d9cd0d508d84",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      907,
+      362
+    ],
+    "offset": [
+      -0.5,
+      3
+    ],
+    "originalSize": [
+      908,
+      368
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
