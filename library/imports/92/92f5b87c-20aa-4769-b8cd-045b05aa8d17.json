@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bluecrayon",
+    "texture": "9fdadc52-2a8c-4bb2-b604-ea0611116c05",
+    "atlas": "",
+    "rect": [
+      84,
+      32,
+      340,
+      452
+    ],
+    "offset": [
+      4,
+      -8
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

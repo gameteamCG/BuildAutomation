@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sortbycolour",
+    "texture": "ef937e88-b088-41de-9cd0-5a839f7a696f",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      563,
+      316
+    ],
+    "offset": [
+      7.5,
+      -2
+    ],
+    "originalSize": [
+      600,
+      364
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

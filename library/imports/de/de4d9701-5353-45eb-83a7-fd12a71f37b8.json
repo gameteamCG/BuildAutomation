@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yellowbrick",
+    "texture": "a1c79d1a-fe41-4b4b-94ad-ac6ea9fc0f73",
+    "atlas": "",
+    "rect": [
+      0,
+      67,
+      500,
+      367
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

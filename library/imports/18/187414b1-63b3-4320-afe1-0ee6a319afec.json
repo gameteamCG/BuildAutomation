@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1yellowbasket",
+    "texture": "74d1211b-e7d9-4234-bfe1-a6d2166a2fe7",
+    "atlas": "",
+    "rect": [
+      1,
+      82,
+      299,
+      136
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
