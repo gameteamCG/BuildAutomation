@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "50_candles",
+    "texture": "c84effd5-5fa7-46fb-9b97-b0007ed6e4a1",
+    "atlas": "",
+    "rect": [
+      2,
+      45,
+      246,
+      159
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

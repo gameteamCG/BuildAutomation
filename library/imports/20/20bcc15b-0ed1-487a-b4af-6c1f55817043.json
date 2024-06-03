@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Count by 10's UKG Course book 1",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Skip_Counting_by_10s_1717417469935.mp4",
+      "TitleImageName": "Count_by_10_s.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "1.png",
+        "QuestionAudioName": "Q1Balloons.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "30.png",
+          "50.png",
+          "0.png",
+          "10.png"
+        ],
+        "ReiterationAudioName": "30.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "2.png",
+        "QuestionAudioName": "Q2fishes.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "10.png",
+          "20.png",
+          "50.png",
+          "30-1.png"
+        ],
+        "ReiterationAudioName": "50.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "40_2.png",
+        "QuestionAudioName": "Find_the_picture_with_40_apples.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "50_apples.png",
+          "40_apples.png",
+          "20_apples.png",
+          "10napples.png"
+        ],
+        "ReiterationAudioName": "40_apples.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "201.png",
+        "QuestionAudioName": "Find_the_picture_with_20_candles.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "20_candles.png",
+          "30_candles.png",
+          "50_candles.png",
+          "10Candles.png"
+        ],
+        "ReiterationAudioName": "20.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
