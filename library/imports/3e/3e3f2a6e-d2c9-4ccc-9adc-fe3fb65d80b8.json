@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Healthy_balanced_diet",
+    "texture": "7ce8f1a1-052c-42f9-910c-5d502c455824",
+    "atlas": "",
+    "rect": [
+      33,
+      2,
+      1041,
+      330
+    ],
+    "offset": [
+      16.5,
+      10
+    ],
+    "originalSize": [
+      1074,
+      354
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
