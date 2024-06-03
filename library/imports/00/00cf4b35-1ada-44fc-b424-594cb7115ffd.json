@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "two_birds",
+    "texture": "5e157d49-0f90-4a6b-943c-99c6ff82c310",
+    "atlas": "",
+    "rect": [
+      0,
+      17,
+      246,
+      205
+    ],
+    "offset": [
+      -2.5,
+      -8.5
+    ],
+    "originalSize": [
+      251,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
