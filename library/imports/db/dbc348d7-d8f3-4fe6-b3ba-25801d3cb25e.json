@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0005_cooking",
+    "texture": "e9973f11-3648-4f96-aafb-838583bbf266",
+    "atlas": "",
+    "rect": [
+      0,
+      26,
+      500,
+      448
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
