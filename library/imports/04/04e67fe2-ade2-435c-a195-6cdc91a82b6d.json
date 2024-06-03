@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Dog_Run0001",
+    "texture": "841bd079-5203-43eb-bbf6-7779803c2670",
+    "atlas": "",
+    "rect": [
+      12,
+      57,
+      226,
+      131
+    ],
+    "offset": [
+      0,
+      2.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
