@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sleep2",
+    "texture": "af3f5d8c-61da-4f8b-85fc-a54869036fba",
+    "atlas": "",
+    "rect": [
+      135,
+      155,
+      304,
+      190
+    ],
+    "offset": [
+      37,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
