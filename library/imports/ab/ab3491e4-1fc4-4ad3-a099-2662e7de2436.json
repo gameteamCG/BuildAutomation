@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sam_and_rocky",
+    "texture": "a5c74209-ca9e-49e3-887c-719dab2f06ee",
+    "atlas": "",
+    "rect": [
+      0,
+      39,
+      243,
+      165
+    ],
+    "offset": [
+      -3,
+      -10
+    ],
+    "originalSize": [
+      249,
+      223
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
