@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cousins_1",
+    "texture": "90fecbb1-27c0-4297-844d-12d9371e1948",
+    "atlas": "",
+    "rect": [
+      13,
+      0,
+      225,
+      249
+    ],
+    "offset": [
+      2,
+      0
+    ],
+    "originalSize": [
+      247,
+      249
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
