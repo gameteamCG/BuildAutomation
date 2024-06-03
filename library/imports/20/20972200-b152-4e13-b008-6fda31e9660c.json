@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Level405",
+    "texture": "c608fbed-f69a-43fc-ac91-9a439bf6d546",
+    "atlas": "",
+    "rect": [
+      13,
+      76,
+      474,
+      349
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
