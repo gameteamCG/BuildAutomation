@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grandpa",
+    "texture": "1c4efa72-d6f3-47c3-bbdf-4ffbcbe240cc",
+    "atlas": "",
+    "rect": [
+      78,
+      7,
+      89,
+      243
+    ],
+    "offset": [
+      -1,
+      -3.5
+    ],
+    "originalSize": [
+      247,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
