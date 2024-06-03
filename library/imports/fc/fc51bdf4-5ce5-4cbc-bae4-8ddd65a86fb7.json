@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bucket_with_triangle2",
+    "texture": "6abdba53-766b-4896-a7ca-11be8a7d8297",
+    "atlas": "",
+    "rect": [
+      5,
+      75,
+      291,
+      190
+    ],
+    "offset": [
+      0,
+      -19.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
