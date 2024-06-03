@@ -1,0 +1,139 @@
+{
+  "AdditionalData": {
+    "GameID": "My family : row 20",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/762346554_Families_Can_Be_Different_My_Family_EVS_Class_3_1717419780634.mp4",
+    "TitleImageName": "titel.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "7"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "nuclear family",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Identify_the_picture_of_a_nuclear_family.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "nuclear_family_1.png",
+        "joint_family_1.png"
+      ],
+      "ReiterationAudioName": "nuclear_family.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "joint family",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Identify_the_picture_of_a_joint_family.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "nuclear_family_1.png",
+        "joint_family_1.png"
+      ],
+      "ReiterationAudioName": "joint_family.mp3",
+      "CorrectAudioName": "GOODEFFORT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "grandparents_1.png",
+      "QuestionAudioName": "Identify_the_word_for_the_given_picture.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "grandparents",
+        "cousins"
+      ],
+      "ReiterationAudioName": "grandparents.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "uncle",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Tap_on_the_picture_of_uncle.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "uncle_1.png",
+        "aunt_1.png"
+      ],
+      "ReiterationAudioName": "uncle.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Mother.png",
+      "QuestionAudioName": "Identify_the_word_for_the_given_picture.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "brother",
+        "mother"
+      ],
+      "ReiterationAudioName": "mother.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "joint_family.png",
+      "QuestionAudioName": "87346532_Joint_family_is_also_known_as_dash_family.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "big.png",
+        "small.png"
+      ],
+      "ReiterationAudioName": "big.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "nuclear_family.png",
+      "QuestionAudioName": "8732532_nuclear_family_is_also_known_as_dash_family.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "big.png",
+        "small.png"
+      ],
+      "ReiterationAudioName": "small.mp3",
+      "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
