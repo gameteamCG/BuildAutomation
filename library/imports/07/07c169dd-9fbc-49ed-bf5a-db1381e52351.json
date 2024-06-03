@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "summer3",
+    "texture": "b8777a4b-1163-417c-be33-39facc3f8804",
+    "atlas": "",
+    "rect": [
+      10,
+      49,
+      407,
+      407
+    ],
+    "offset": [
+      -36.5,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
