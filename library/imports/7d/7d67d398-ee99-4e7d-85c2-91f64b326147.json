@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nuclear_family",
+    "texture": "2b095795-630c-46fa-9fa0-0887ddd33d21",
+    "atlas": "",
+    "rect": [
+      62,
+      38,
+      405,
+      424
+    ],
+    "offset": [
+      14,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
