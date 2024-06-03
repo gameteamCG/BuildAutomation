@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3familytree",
+    "texture": "74d49d02-59db-4ab7-b561-64c2aef0e897",
+    "atlas": "",
+    "rect": [
+      86,
+      212,
+      349,
+      66
+    ],
+    "offset": [
+      1.5,
+      5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
