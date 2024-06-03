@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "counting610",
+    "texture": "e1ba1615-3359-4a72-be46-3d8dde2fb7ba",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      790,
+      396
+    ],
+    "offset": [
+      0,
+      3.5
+    ],
+    "originalSize": [
+      790,
+      403
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

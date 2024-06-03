@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mushrooms5",
+    "texture": "85434cac-de3b-4b27-90d7-cc29fcc55a10",
+    "atlas": "",
+    "rect": [
+      34,
+      37,
+      434,
+      427
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
