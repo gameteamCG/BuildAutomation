@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q1grandparents",
+    "texture": "53a10f77-777b-4256-a0f3-bb23f819585c",
+    "atlas": "",
+    "rect": [
+      37,
+      214,
+      447,
+      64
+    ],
+    "offset": [
+      1.5,
+      4
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
