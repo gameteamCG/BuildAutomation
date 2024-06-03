@@ -1,0 +1,133 @@
+{
+  "AdditionalData": {
+    "GameID": "Perseverance : row 20 class 2",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/344485325_Never_Give_Up_English_Moral_Stories_1717412352427.mp4",
+    "TitleImageName": "title.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "6"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Who told the story of the bee and the earthworm?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Who_told_the_story_of_the_bee_and_the_earthworm.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "grandpa.png",
+        "grandma.png",
+        "girl_in_the_story.png",
+        "boy_in_the_story.png"
+      ],
+      "ReiterationAudioName": "grandma.mp3",
+      "CorrectAudioName": "GOODEFFORT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Sam and Rocky",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identify_the_picture_of_and_rocky.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "sam_and_rocky.png",
+        "grandpa_and_grandma.png",
+        "boy_and_girl.png",
+        "two_birds.png"
+      ],
+      "ReiterationAudioName": "sam_and_rocky.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Why did Rocky not reach the flower",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Why_did_Rocky_not_reach_the_flower.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Rocky gave up",
+        "Rocky was sick",
+        "Rocky was happy",
+        "Rocky can jump high"
+      ],
+      "ReiterationAudioName": "rocky_gave_up.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Who did not give up and kept jumping?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "who_did_not_give_up_and_reached_the_flower.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "grandma.png",
+        "boy_in_the_story.png",
+        "girl_in_the_story.png",
+        "sam.png"
+      ],
+      "ReiterationAudioName": "sam.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "What grows on Sam's back?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "What_grows_on_Sams_back.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "hands.png",
+        "flower.png",
+        "wings.png",
+        "feet.png"
+      ],
+      "ReiterationAudioName": "wing.png",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Who reached the flower",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Who_reached_the_flower.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "sam.png",
+        "girl_in_the_story.png",
+        "boy_in_the_story.png",
+        "grandma.png"
+      ],
+      "ReiterationAudioName": "sam.mp3",
+      "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
