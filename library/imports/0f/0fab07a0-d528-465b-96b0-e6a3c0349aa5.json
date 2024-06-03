@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boy_in_the_story",
+    "texture": "9b79d486-dd06-4560-b681-4a78f28b6223",
+    "atlas": "",
+    "rect": [
+      52,
+      4,
+      153,
+      246
+    ],
+    "offset": [
+      5,
+      -2
+    ],
+    "originalSize": [
+      247,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
