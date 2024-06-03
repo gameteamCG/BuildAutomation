@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4cb8d7e7-9154-42a8-a014-0f89e923628e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1074,
+  "height": 354,
+  "platformSettings": {},
+  "subMetas": {
+    "Healthy_balanced_diet": {
+      "ver": "1.0.6",
+      "uuid": "a35b86fd-934e-4283-b299-a2fd84baf2ae",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4cb8d7e7-9154-42a8-a014-0f89e923628e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 16.5,
+      "offsetY": 10,
+      "trimX": 33,
+      "trimY": 2,
+      "width": 1041,
+      "height": 330,
+      "rawWidth": 1074,
+      "rawHeight": 354,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
