@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Letteri",
+    "texture": "83fa4549-a6b5-42d6-ad3f-d6b54c7eaa23",
+    "atlas": "",
+    "rect": [
+      19,
+      20,
+      706,
+      334
+    ],
+    "offset": [
+      9.5,
+      -10
+    ],
+    "originalSize": [
+      725,
+      354
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
