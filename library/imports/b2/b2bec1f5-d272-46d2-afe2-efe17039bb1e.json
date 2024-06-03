@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spatula",
+    "texture": "105b7028-7fab-4528-a079-394dc4b5b450",
+    "atlas": "",
+    "rect": [
+      19,
+      91,
+      212,
+      67
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

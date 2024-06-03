@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Consonant Blends UKG course book 1",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Blends_In_The_End+_1_English_Gramma_Composition_Grade_Periwinkle_1717414518833.mp4",
+      "TitleImageName": "Consonant_Blends.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "screw.png",
+        "QuestionAudioName": "Tap_on_the_picture_for_the_word_screw.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "screw_1.png",
+          "nuts.png",
+          "tape.png",
+          "keys.png"
+        ],
+        "ReiterationAudioName": "Screw.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "straw.png",
+        "QuestionAudioName": "what_is_this.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "spoon.png",
+          "fork.png",
+          "straw.png",
+          "spatula.png"
+        ],
+        "ReiterationAudioName": "Straw.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "springG.png",
+        "QuestionAudioName": "Identify_the_image_of_the_season_spring.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "winter.png",
+          "spring.png",
+          "monsoon.png",
+          "autumn.png"
+        ],
+        "ReiterationAudioName": "Spring.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "screen.png",
+        "QuestionAudioName": "Tap_on_the_correct_missing_blend.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "scr.png",
+          "spr.png",
+          "spl.png",
+          "thr.png"
+        ],
+        "ReiterationAudioName": "screen.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "street.png",
+        "QuestionAudioName": "Tap_on_the_correct_missing_blend.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "scr.png",
+          "str.png",
+          "spl.png",
+          "thr.png"
+        ],
+        "ReiterationAudioName": "Street.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "spray.png",
+        "QuestionAudioName": "Tap_on_the_correct_missing_blend.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "thr.png",
+          "scr.png",
+          "spr.png",
+          "spl.png"
+        ],
+        "ReiterationAudioName": "Spray.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}
