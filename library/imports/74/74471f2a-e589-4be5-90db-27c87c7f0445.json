@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2cousins",
+    "texture": "bf6a046a-b6c5-4966-8ede-b901dace925a",
+    "atlas": "",
+    "rect": [
+      138,
+      221,
+      242,
+      50
+    ],
+    "offset": [
+      0,
+      4
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
