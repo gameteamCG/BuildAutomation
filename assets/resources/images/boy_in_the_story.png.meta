@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6beb948f-390d-40ab-b7c9-791521696376",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 247,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "boy_in_the_story": {
+      "ver": "1.0.6",
+      "uuid": "02c4e314-2d65-451e-8e6d-30a65dcf150a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6beb948f-390d-40ab-b7c9-791521696376",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 5,
+      "offsetY": -2,
+      "trimX": 52,
+      "trimY": 4,
+      "width": 153,
+      "height": 246,
+      "rawWidth": 247,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
