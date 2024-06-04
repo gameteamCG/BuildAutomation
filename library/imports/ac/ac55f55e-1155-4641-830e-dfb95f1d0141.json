@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "neck",
+    "texture": "0bb3993a-fb70-4e69-adde-374a230dd81b",
+    "atlas": "",
+    "rect": [
+      13,
+      1,
+      270,
+      281
+    ],
+    "offset": [
+      -2,
+      8.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
