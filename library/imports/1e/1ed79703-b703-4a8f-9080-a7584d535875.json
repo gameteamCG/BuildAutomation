@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "arfamilywords",
+    "texture": "245d18f7-7fea-4eab-bfac-2e698b4fe00d",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      504,
+      221
+    ],
+    "offset": [
+      5.5,
+      2.5
+    ],
+    "originalSize": [
+      545,
+      278
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
