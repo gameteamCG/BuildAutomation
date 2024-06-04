@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bananashadow",
+    "texture": "5444edcc-affe-4de1-8e65-f905431b050f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      610,
+      427
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      610,
+      427
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

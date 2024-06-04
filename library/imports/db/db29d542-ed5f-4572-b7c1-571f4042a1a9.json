@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chillishadow",
+    "texture": "2614f284-de6c-470e-b980-b7f9315a3ba9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      725,
+      514
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      725,
+      514
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

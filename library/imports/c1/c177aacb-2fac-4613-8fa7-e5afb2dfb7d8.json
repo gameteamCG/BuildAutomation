@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Vegetableandfruitpuzzletitle",
+    "texture": "1b64637b-9c6d-43f6-8ee2-895ccf1235a4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1056,
+      486
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1056,
+      486
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tomatoshadow",
+    "texture": "ddc4797a-7cf0-49ff-8669-233a25de72d0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      357,
+      370
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      357,
+      370
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
