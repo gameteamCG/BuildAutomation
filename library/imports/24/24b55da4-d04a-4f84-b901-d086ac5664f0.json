@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "arms11",
+    "texture": "832a87ec-cd7d-4aa3-ba69-1d0c168441fb",
+    "atlas": "",
+    "rect": [
+      89,
+      86,
+      318,
+      333
+    ],
+    "offset": [
+      -2,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

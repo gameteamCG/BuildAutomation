@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lift3",
+    "texture": "6d7fb233-9ecc-4c33-bf6c-7847b499a14f",
+    "atlas": "",
+    "rect": [
+      176,
+      63,
+      245,
+      372
+    ],
+    "offset": [
+      48.5,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "2c19c30b-cb2c-45d2-89e7-e2e5cb18cf47",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "watchingtv6": {
+      "ver": "1.0.6",
+      "uuid": "6295e3d6-5f84-4334-9ad0-e6cc8a2741c5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2c19c30b-cb2c-45d2-89e7-e2e5cb18cf47",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1.5,
+      "offsetY": 1.5,
+      "trimX": 55,
+      "trimY": 143,
+      "width": 387,
+      "height": 211,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
