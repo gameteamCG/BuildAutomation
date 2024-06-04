@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "postermakingmyclub",
+    "texture": "e52be6d5-a383-43d6-94eb-c53907fb1a7e",
+    "atlas": "",
+    "rect": [
+      19,
+      19,
+      1268,
+      387
+    ],
+    "offset": [
+      9.5,
+      -9.5
+    ],
+    "originalSize": [
+      1287,
+      406
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
