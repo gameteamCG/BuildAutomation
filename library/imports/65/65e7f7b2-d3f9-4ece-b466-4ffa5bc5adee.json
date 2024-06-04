@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Magicwords",
+    "texture": "05361137-b618-4cf6-b22c-2ca8c0b6a174",
+    "atlas": "",
+    "rect": [
+      22,
+      22,
+      677,
+      460
+    ],
+    "offset": [
+      11,
+      -11
+    ],
+    "originalSize": [
+      699,
+      482
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
