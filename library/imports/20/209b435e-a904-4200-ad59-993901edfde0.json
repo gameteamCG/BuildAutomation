@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "card magic",
+      "totalLevel": "5",
+      "TitleImageName": "Cardmagic.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "bgm3.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "card magic",
+        "questionAudioName": "matchthe2samenumbermagiccards.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset13.png",
+        "frontCardImageName": "250.png",
+        "isOptionText": false,
+        "options": [
+          "Asset12.png",
+          "Asset11.png"
+        ],
+        "reiterationAudios": [
+          "1.mp3",
+          "2.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset12.png",
+          "Asset11.png"
+        ]
+      },
+      {
+        "questionText": "card magic",
+        "questionAudioName": "matchthe2samenumbermagiccards.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset13.png",
+        "frontCardImageName": "250.png",
+        "isOptionText": false,
+        "options": [
+          "Asset11.png",
+          "Asset9.png"
+        ],
+        "reiterationAudios": [
+          "2.mp3",
+          "4.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset11.png",
+          "Asset9.png"
+        ]
+      },
+      {
+        "questionText": "card magic",
+        "questionAudioName": "matchthe2samenumbermagiccards.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset13.png",
+        "frontCardImageName": "250.png",
+        "isOptionText": false,
+        "options": [
+          "Asset12.png",
+          "Asset10.png"
+        ],
+        "reiterationAudios": [
+          "1.mp3",
+          "3.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset12.png",
+          "Asset10.png"
+        ]
+      },
+      {
+        "questionText": "card magic",
+        "questionAudioName": "matchthe2samenumbermagiccards.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset13.png",
+        "frontCardImageName": "250.png",
+        "isOptionText": false,
+        "options": [
+          "Asset9.png",
+          "Asset8.png"
+        ],
+        "reiterationAudios": [
+          "4.mp3",
+          "5.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset9.png",
+          "Asset8.png"
+        ]
+      },
+      {
+        "questionText": "card magic",
+        "questionAudioName": "matchthe2samenumbermagiccards.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "350.png",
+        "frontCardImageName": "250.png",
+        "isOptionText": false,
+        "options": [
+          "Asset10.png",
+          "Asset8.png"
+        ],
+        "reiterationAudios": [
+          "3.mp3",
+          "5.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset10.png",
+          "Asset8.png"
+        ]
+      }
+    ]
+  }
+}

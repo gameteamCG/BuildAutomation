@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Cardmagic",
+    "texture": "116b72be-27b9-4418-a478-842cdb6227d2",
+    "atlas": "",
+    "rect": [
+      24,
+      24,
+      585,
+      437
+    ],
+    "offset": [
+      9,
+      -9.5
+    ],
+    "originalSize": [
+      615,
+      466
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
