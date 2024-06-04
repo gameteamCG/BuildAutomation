@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Matchthefooditemstoitsshape",
+    "texture": "82923d0c-42cd-4f9f-9c3c-e8ea177c8f71",
+    "atlas": "",
+    "rect": [
+      28,
+      28,
+      1160,
+      291
+    ],
+    "offset": [
+      6.5,
+      -6
+    ],
+    "originalSize": [
+      1203,
+      335
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Matching the food items to its shape ",
+      "totalLevel": "6",
+      "TitleImageName": "Matchthefooditemstoitsshape.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "bgm2.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "match the shape",
+        "questionAudioName": "matchtheshapetothesimilarshapedfooditem.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "empty.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset1.png"
+        ],
+        "reiterations": [
+          "triangleshapedwatermelonslice.mp3"
+        ],
+        "commonRightOptionImageName": "empty.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset7.png",
+          "Asset10.png"
+        ]
+      },
+      {
+        "questionText": "match the shape",
+        "questionAudioName": "matchtheshapetothesimilarshapedfooditem.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "empty.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset5.png"
+        ],
+        "reiterations": [
+          "heartshapedcake.mp3"
+        ],
+        "commonRightOptionImageName": "empty.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset11.png",
+          "Asset12.png"
+        ]
+      },
+      {
+        "questionText": "match the shape",
+        "questionAudioName": "matchtheshapetothesimilarshapedfooditem.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "empty.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset2.png"
+        ],
+        "reiterations": [
+          "rectangleshapedwaferbiscuit.mp3"
+        ],
+        "commonRightOptionImageName": "empty.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset8.png",
+          "Asset11.png"
+        ]
+      },
+      {
+        "questionText": "match the shape",
+        "questionAudioName": "matchtheshapetothesimilarshapedfooditem.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "empty.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset4.png"
+        ],
+        "reiterations": [
+          "circleshapedpizza.mp3"
+        ],
+        "commonRightOptionImageName": "empty.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset10.png",
+          "Asset12.png"
+        ]
+      },
+      {
+        "questionText": "match the shape",
+        "questionAudioName": "matchtheshapetothesimilarshapedfooditem.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "empty.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset3.png"
+        ],
+        "reiterations": [
+          "starshapedcookie.mp3"
+        ],
+        "commonRightOptionImageName": "empty.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset9.png",
+          "Asset7.png"
+        ]
+      },
+      {
+        "questionText": "match the shape",
+        "questionAudioName": "matchtheshapetothesimilarshapedfooditem.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "empty.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset6.png"
+        ],
+        "reiterations": [
+          "squareshapedbread.mp3"
+        ],
+        "commonRightOptionImageName": "empty.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset12.png",
+          "Asset9.png"
+        ]
+      }
+    ]
+  }
+}
