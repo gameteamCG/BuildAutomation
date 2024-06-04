@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bathtoboutline",
+    "texture": "49533cf5-c8af-449c-91da-9960bda7c034",
+    "atlas": "",
+    "rect": [
+      3,
+      20,
+      494,
+      460
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

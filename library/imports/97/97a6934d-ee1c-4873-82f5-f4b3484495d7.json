@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "handwash",
+    "texture": "2f4e3ad6-77b0-40a2-91f6-d40f55211e69",
+    "atlas": "",
+    "rect": [
+      130,
+      17,
+      240,
+      466
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
