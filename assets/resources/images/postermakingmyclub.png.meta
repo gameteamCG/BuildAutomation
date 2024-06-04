@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f2093e06-f06f-4841-8ed3-58229da014b8",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1287,
+  "height": 406,
+  "platformSettings": {},
+  "subMetas": {
+    "postermakingmyclub": {
+      "ver": "1.0.6",
+      "uuid": "c66e9197-ff8a-4cb5-b49b-61a7b2cc5c3f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f2093e06-f06f-4841-8ed3-58229da014b8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 9.5,
+      "offsetY": -9.5,
+      "trimX": 19,
+      "trimY": 19,
+      "width": 1268,
+      "height": 387,
+      "rawWidth": 1287,
+      "rawHeight": 406,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
