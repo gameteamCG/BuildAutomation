@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hair",
+    "texture": "c68e0a93-8fa5-4b2f-baec-5c8b82349099",
+    "atlas": "",
+    "rect": [
+      39,
+      102,
+      422,
+      296
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
