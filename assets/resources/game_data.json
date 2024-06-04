@@ -1,0 +1,77 @@
+{
+  "additionalData": {
+    "GameID": "Colour the bathroom articles",
+    "totalLevel": "7",
+    "TitleImageName": "A.png",
+    "introBgName": "titlebg.png",
+    "bgmMusicName": "BGM.mp3",
+    "initialVOName": "",
+    "mainBgName": "bg3.png",
+    "JockeyName": "supercub"
+  },
+  "questionData": [
+    {
+      "questionText": "Colour the basin",
+      "questionImageName": "basin.png",
+      "questionAudioName": "colourthebasin.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "basinoutline.png",
+      "needMoreTools": true,
+      "correctAudioName": "AWESOMEYOUSAVEDIT.mp3"
+    },
+    {
+      "questionText": "Colour the bathtob",
+      "questionImageName": "bathtob.png",
+      "questionAudioName": "colourthebathtub.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "bathtoboutline.png",
+      "needMoreTools": true,
+      "correctAudioName": "BRILLIANT.mp3"
+    },
+    {
+      "questionText": "Colour the hand wash",
+      "questionImageName": "handwashoutline.png",
+      "questionAudioName": "colourthehandwash.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "handwash.png",
+      "needMoreTools": true,
+      "correctAudioName": "EXCEPTIONAL.mp3"
+    },
+    {
+      "questionText": "Colour the mirror",
+      "questionImageName": "morror.png",
+      "questionAudioName": "colourthemirror.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "morroroutline.png",
+      "needMoreTools": true,
+      "correctAudioName": "GOODJOB.mp3"
+    },
+    {
+      "questionText": "Colour the tiolet",
+      "questionImageName": "panoutline.png",
+      "questionAudioName": "colourthetoilet.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "pan.png",
+      "needMoreTools": true,
+      "correctAudioName": "IMPRESSIVEWORK.mp3"
+    },
+    {
+      "questionText": "Colour the soap",
+      "questionImageName": "soap.png",
+      "questionAudioName": "colourthesoap.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "soap_outline.png",
+      "needMoreTools": true,
+      "correctAudioName": "INCREDIBLE.mp3"
+    },
+    {
+      "questionText": "Colour the toothpaste",
+      "questionImageName": "toothpaste.png",
+      "questionAudioName": "colourthetoothpaste.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "toothpaste outline.png",
+      "needMoreTools": true,
+      "correctAudioName": "MAGNIFICENT.mp3"
+    }
+  ]
+}
