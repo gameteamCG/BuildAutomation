@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bringal",
+    "texture": "80030329-1ab7-4a1c-a97e-de643ef5282d",
+    "atlas": "",
+    "rect": [
+      88,
+      23,
+      265,
+      425
+    ],
+    "offset": [
+      -30,
+      15
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

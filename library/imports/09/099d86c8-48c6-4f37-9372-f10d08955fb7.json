@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "poteto",
+    "texture": "80208109-ecc0-4d2e-a459-eafc50df6db2",
+    "atlas": "",
+    "rect": [
+      73,
+      128,
+      355,
+      290
+    ],
+    "offset": [
+      0,
+      -22.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

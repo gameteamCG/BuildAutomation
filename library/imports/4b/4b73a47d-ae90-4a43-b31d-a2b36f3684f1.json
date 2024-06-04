@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Vegetables",
+      "totalLevel": "7",
+      "TitleImageName": "matchthe.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "BGMcooking.mp3",
+      "mainBgName": "bg3.png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "vegetables with colour",
+        "questionAudioName": "identify_the_colour_of_the_brinjal.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle3.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "bringal.png"
+        ],
+        "reiterations": [
+          "purple.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle3_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "purple2.png",
+          "black.png"
+        ]
+      },
+      {
+        "questionText": "vegetables with colour",
+        "questionAudioName": "identify_the_colour_of_the_Broccoli.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle3.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "broccoli.png"
+        ],
+        "reiterations": [
+          "GREEN.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle3_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "green.png",
+          "yellow.png"
+        ]
+      },
+      {
+        "questionText": "vegetables with colour",
+        "questionAudioName": "identify_the_colour_of_the_carrot.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle3.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "carrot.png"
+        ],
+        "reiterations": [
+          "orange.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle3_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "orange.png",
+          "blue.png"
+        ]
+      },
+      {
+        "questionText": "vegetables with colour",
+        "questionAudioName": "identify_the_colour_of_the_Lady_finger.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle3.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "ladyfinger.png"
+        ],
+        "reiterations": [
+          "GREEN.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle3_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "green.png",
+          "red.png"
+        ]
+      },
+      {
+        "questionText": "vegetables with colour",
+        "questionAudioName": "identify_the_colour_of _the_potato.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle3.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "poteto.png"
+        ],
+        "reiterations": [
+          "BROWN.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle3_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "brown.png",
+          "black.png"
+        ]
+      },
+      {
+        "questionText": "vegetables with colour",
+        "questionAudioName": "identify_the_colour-of_the_corn.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle3.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "corn2.png"
+        ],
+        "reiterations": [
+          "YELLOW.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle3_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "yellow.png",
+          "pink.png"
+        ]
+      },
+      {
+        "questionText": "vegetables with colour",
+        "questionAudioName": "identify_the_colour_of_the_tmayto.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle3.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "tometo.png"
+        ],
+        "reiterations": [
+          "red.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle3_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "red.png",
+          "purple2.png"
+        ]
+      }
+    ]
+  }
+}

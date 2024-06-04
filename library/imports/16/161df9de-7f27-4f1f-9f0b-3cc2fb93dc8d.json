@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ladyfinger",
+    "texture": "13b88e75-a749-402c-bc16-82a6419c263a",
+    "atlas": "",
+    "rect": [
+      51,
+      11,
+      360,
+      467
+    ],
+    "offset": [
+      -19.5,
+      6
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

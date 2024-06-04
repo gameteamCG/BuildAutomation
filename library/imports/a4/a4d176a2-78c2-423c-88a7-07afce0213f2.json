@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "purple2",
+    "texture": "76f175b3-2ca7-477e-8828-c524364c5035",
+    "atlas": "",
+    "rect": [
+      50,
+      49,
+      402,
+      402
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
