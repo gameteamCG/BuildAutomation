@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "constructionhat",
+    "texture": "dddf6869-75a8-472b-9efe-69df281d51a6",
+    "atlas": "",
+    "rect": [
+      31,
+      120,
+      374,
+      262
+    ],
+    "offset": [
+      -32,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

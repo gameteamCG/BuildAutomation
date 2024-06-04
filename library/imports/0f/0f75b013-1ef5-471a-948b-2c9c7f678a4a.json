@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gardener",
+    "texture": "0bb91e68-a42c-434b-b766-5eadc68fbbb7",
+    "atlas": "",
+    "rect": [
+      121,
+      93,
+      317,
+      317
+    ],
+    "offset": [
+      29.5,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

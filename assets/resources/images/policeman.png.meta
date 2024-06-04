@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e8f67c86-bb0b-49e6-a97e-2cf7574346ef",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "policeman": {
+      "ver": "1.0.6",
+      "uuid": "24ad9d54-9c18-4075-889d-c41d1a7401f0",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e8f67c86-bb0b-49e6-a97e-2cf7574346ef",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 29.5,
+      "offsetY": -1.5,
+      "trimX": 121,
+      "trimY": 93,
+      "width": 317,
+      "height": 317,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
