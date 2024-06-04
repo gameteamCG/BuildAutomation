@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "almond",
+    "texture": "01033804-10a5-4aad-84a0-b457104ab818",
+    "atlas": "",
+    "rect": [
+      11,
+      59,
+      229,
+      132
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

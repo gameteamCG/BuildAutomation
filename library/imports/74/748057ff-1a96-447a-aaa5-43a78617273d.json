@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chocolate_milk",
+    "texture": "1af3cf44-4ed4-41b0-a095-b2b38e3a299e",
+    "atlas": "",
+    "rect": [
+      80,
+      14,
+      92,
+      223
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

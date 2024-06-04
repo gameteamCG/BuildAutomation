@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sense_of_taste",
+    "texture": "6563de13-dd35-4544-8ccf-7cacfc8f57cc",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      849,
+      441
+    ],
+    "offset": [
+      -11,
+      5
+    ],
+    "originalSize": [
+      871,
+      451
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
