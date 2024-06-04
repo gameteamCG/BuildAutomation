@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "snackbox",
+    "texture": "2b232c78-2d30-49be-8420-5049c7a873ca",
+    "atlas": "",
+    "rect": [
+      61,
+      22,
+      378,
+      457
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

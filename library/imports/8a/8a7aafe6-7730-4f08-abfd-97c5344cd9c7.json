@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cupboard",
+    "texture": "34882e47-e7eb-4e32-ac32-ae2999a23893",
+    "atlas": "",
+    "rect": [
+      25,
+      42,
+      451,
+      418
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
