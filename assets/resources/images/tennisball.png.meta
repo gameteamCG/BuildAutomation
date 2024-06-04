@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c83904d0-1647-4cf9-b507-5a3ad8178136",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "tennisball": {
+      "ver": "1.0.6",
+      "uuid": "745bc801-d42c-49d0-b72b-98ac2a3e1142",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c83904d0-1647-4cf9-b507-5a3ad8178136",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 53,
+      "trimY": 54,
+      "width": 395,
+      "height": 393,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
