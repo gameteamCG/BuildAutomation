@@ -1,0 +1,159 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "A Walk in the Arctic",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/23459876534_1717592823115.mp4",
+      "TitleImageName": "titl.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "Podar",
+      "TotalLevel": "7"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": " What kind of weather is there in the Arctic?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "snowy.png",
+          "summer.png",
+          "autumn.png",
+          "rainy.png"
+        ],
+        "ReiterationAudioName": "snowy.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the picture of the iceberg.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "waterfall.png",
+          "iceberg.png",
+          "rocks.png",
+          "tree.png"
+        ],
+        "ReiterationAudioName": "iceberg.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "Select the beluga whale",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "fish.png",
+          "crab.png",
+          "belugawhale.png",
+          "turtle.png"
+        ],
+        "ReiterationAudioName": "belugawhale.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "Choose the picture of the seal",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "parrot.png",
+          "giraffe.png",
+          "elephant.png",
+          "seal.png"
+        ],
+        "ReiterationAudioName": "seal.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "Tap on the Arctic fox",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q5.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "arcticfox.png",
+          "butterfly.png",
+          "cow.png",
+          "deer.png"
+        ],
+        "ReiterationAudioName": "arcticfox.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "Click on the snowy owl ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q6.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "bird1.png",
+          "snowowl.png",
+          "bird2.png",
+          "bird3.png"
+        ],
+        "ReiterationAudioName": "snowyowl.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "Find the largest kind of bear that is seen in the Arctic.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q7.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "ferret.png",
+          "koala.png",
+          "polarbear.png",
+          "monkey.png"
+        ],
+        "ReiterationAudioName": "polarbear.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}

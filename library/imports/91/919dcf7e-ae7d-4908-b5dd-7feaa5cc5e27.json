@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "belugawhale",
+    "texture": "8467292b-dc75-4f2c-80d5-82042d1a7ec8",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      250,
+      250
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
