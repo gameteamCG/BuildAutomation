@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kitchen-illustration-sm",
+    "texture": "8a6e3469-0b76-4537-846b-bf9437817712",
+    "atlas": "",
+    "rect": [
+      1,
+      32,
+      248,
+      186
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
