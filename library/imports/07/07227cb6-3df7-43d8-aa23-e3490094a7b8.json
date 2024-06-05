@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ferret",
+    "texture": "d4f895c4-8180-4091-aa93-2c3c9ea015bd",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      250,
+      250
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
