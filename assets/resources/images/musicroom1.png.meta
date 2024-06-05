@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "03e836ea-d5fb-4698-8eaa-cd56354c2e70",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 460,
+  "height": 460,
+  "platformSettings": {},
+  "subMetas": {
+    "musicroom1": {
+      "ver": "1.0.6",
+      "uuid": "9edb0ec0-6ba5-4cc8-bb13-44990a9b07a3",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "03e836ea-d5fb-4698-8eaa-cd56354c2e70",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 48,
+      "trimY": 109,
+      "width": 364,
+      "height": 241,
+      "rawWidth": 460,
+      "rawHeight": 460,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
