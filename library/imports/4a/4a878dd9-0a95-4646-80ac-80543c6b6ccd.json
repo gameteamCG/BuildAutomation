@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "backpack1",
+    "texture": "dc433632-0409-452c-a9b3-77fc11b89469",
+    "atlas": "",
+    "rect": [
+      18,
+      172,
+      423,
+      116
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
