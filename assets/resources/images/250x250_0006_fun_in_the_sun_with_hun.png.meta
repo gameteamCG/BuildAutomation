@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "506f5c65-181b-4edf-bfb6-2bf4c4a6734c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0006_fun_in_the_sun_with_hun": {
+      "ver": "1.0.6",
+      "uuid": "c36116ec-f343-4946-9c53-b89dd3af203d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "506f5c65-181b-4edf-bfb6-2bf4c4a6734c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -5,
+      "offsetY": -11,
+      "trimX": 26,
+      "trimY": 42,
+      "width": 438,
+      "height": 438,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
