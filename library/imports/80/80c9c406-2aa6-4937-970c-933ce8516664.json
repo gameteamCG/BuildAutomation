@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "identify_gender",
+    "texture": "a07d93b4-c3b7-4bee-b342-7891de218222",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      767,
+      161
+    ],
+    "offset": [
+      5,
+      -3.5
+    ],
+    "originalSize": [
+      809,
+      206
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

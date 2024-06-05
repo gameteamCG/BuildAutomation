@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "identify genders",
+      "totalLevel": "6",
+      "TitleImageName": "identify_gender.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "bgm_sc.mp3",
+      "mainBgName": "BG_1.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Puzzle_panel_5.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Girl1_part_001.png",
+          "Girl1_part_002.png",
+          "Girl1_part_003.png",
+          "Girl1_part_004.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "tap_on_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_4.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "boy.png",
+          "girl.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "girl.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Puzzle_panel_5.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "boy1_part_001.png",
+          "boy1_part_002.png",
+          "boy1_part_003.png",
+          "boy1_part_004.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "tap_on_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_4.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "boy.png",
+          "girl.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "boy.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Puzzle_panel_5.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "girl2_part_001.png",
+          "girl2_part_002.png",
+          "girl2_part_003.png",
+          "girl2_part_004.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "tap_on_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_4.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "boy.png",
+          "girl.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "girl.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Puzzle_panel_5.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "girl3_part_001.png",
+          "girl3_part_002.png",
+          "girl3_part_003.png",
+          "girl3_part_004.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "tap_on_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_4.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "girl.png",
+          "boy.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "girl.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Puzzle_panel_5.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "boy2_part_001.png",
+          "boy2_part_002.png",
+          "boy2_part_003.png",
+          "boy2_part_004.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "tap_on_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_4.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "boy.png",
+          "girl.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "boy.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Puzzle_panel_5.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "boy3_part_001.png",
+          "boy3_part_002.png",
+          "boy3_part_003.png",
+          "boy3_part_004.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "tap_on_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_4.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "girl.png",
+          "boy.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "boy.mp3"
+      }
+    ]
+  }
+}
