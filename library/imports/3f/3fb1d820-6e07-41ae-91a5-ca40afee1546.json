@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rainy",
+    "texture": "526bbb18-dd84-40a5-a7ff-11cf27d9dcf7",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      250,
+      250
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
