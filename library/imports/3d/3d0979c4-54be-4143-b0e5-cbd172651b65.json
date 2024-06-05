@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grab",
+    "texture": "9fe6d9fb-6805-47cf-978d-c46fd53c68ea",
+    "atlas": "",
+    "rect": [
+      20,
+      74,
+      266,
+      193
+    ],
+    "offset": [
+      2.5,
+      -20
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
