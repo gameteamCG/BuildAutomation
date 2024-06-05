@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "basinoutline",
+    "texture": "2c1b205b-baad-4d36-b29f-215b923a4225",
+    "atlas": "",
+    "rect": [
+      14,
+      93,
+      472,
+      314
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

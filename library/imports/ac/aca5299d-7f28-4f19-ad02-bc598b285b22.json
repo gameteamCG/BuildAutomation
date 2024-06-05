@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toothpaste outline",
+    "texture": "053e3462-6e68-49c9-8b60-0c7e46f423eb",
+    "atlas": "",
+    "rect": [
+      157,
+      11,
+      186,
+      478
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
