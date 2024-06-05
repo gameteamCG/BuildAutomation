@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "leafL4",
+    "texture": "95f54fed-58b7-4e07-8784-b2a184294685",
+    "atlas": "",
+    "rect": [
+      32,
+      0,
+      438,
+      500
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
