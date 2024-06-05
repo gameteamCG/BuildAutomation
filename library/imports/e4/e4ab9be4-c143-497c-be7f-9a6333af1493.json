@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "crib_i",
+    "texture": "436911ca-2bed-4cb1-ac1c-c6affe47e31c",
+    "atlas": "",
+    "rect": [
+      113,
+      0,
+      1048,
+      1073
+    ],
+    "offset": [
+      -13.5,
+      114
+    ],
+    "originalSize": [
+      1301,
+      1301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

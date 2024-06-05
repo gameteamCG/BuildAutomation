@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "trap_a",
+    "texture": "bfb902d4-2727-4c4a-b256-ac51713af096",
+    "atlas": "",
+    "rect": [
+      113,
+      0,
+      1048,
+      1073
+    ],
+    "offset": [
+      -13.5,
+      114
+    ],
+    "originalSize": [
+      1301,
+      1301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
