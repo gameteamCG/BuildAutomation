@@ -1,0 +1,299 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "singular and plural noun feedback super cub final",
+      "totalLevel": "10",
+      "TitleImageName": "sungularplural.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "Bgm2.mp3",
+      "mainBgName": "mainbg.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "lion",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "lion_part_001.png",
+          "lion_part_002.png",
+          "lion_part_003.png",
+          "image_part_004.png"
+        ],
+        "correctAudioName": "lion.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_noun_for_the_picture.mp3",
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "lion.png",
+          "bear.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "lion.mp3"
+      },
+      {
+        "questionText": "foxes",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "fox_part_001.png",
+          "fox_part_002.png",
+          "fox_part_003.png",
+          "fox_part_004.png"
+        ],
+        "correctAudioName": "foxes.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "foxes",
+        "questionAudioName2": "identify_the_correct_noun_for_the_picture.mp3",
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "panda.png",
+          "foxes.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "foxes.mp3"
+      },
+      {
+        "questionText": "tiger",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "tiger_part_001.png",
+          "tiger_part_002.png",
+          "tiger_part_003.png",
+          "tiger_part_004.png"
+        ],
+        "correctAudioName": "tiger.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "tiger",
+        "questionAudioName2": "identify_the_correct_noun_for_the_picture.mp3",
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "tiger.png",
+          "elephant.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "tiger.mp3"
+      },
+      {
+        "questionText": "wolves",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "wolf_part_001.png",
+          "wolf_part_002.png",
+          "wolf_part_003.png",
+          "wolf_part_004.png"
+        ],
+        "correctAudioName": "wolves.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_noun_for_the_picture.mp3",
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "bunnies.png",
+          "wolves.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "wolves.mp3"
+      },
+      {
+        "questionText": "giraffe",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "giraffe_part_001.png",
+          "giraffe_part_002.png",
+          "giraffe_part_003.png",
+          "giraffe_part_004.png"
+        ],
+        "correctAudioName": "giraffe.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_noun_for_the_picture.mp3",
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "giraffe.png",
+          "lion.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "giraffe.mp3"
+      },
+      {
+        "questionText": "bunnies",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "bunny_part_001.png",
+          "bunny_part_002.png",
+          "bunny_part_003.png",
+          "bunny_part_004.png"
+        ],
+        "correctAudioName": "bunnies.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "identify_the_correct_noun_for_the_picture.mp3",
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "wolves.png",
+          "bunnies.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "bunnies.mp3"
+      },
+      {
+        "questionText": "panda",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "panda_part_001.png",
+          "panda_part_002.png",
+          "panda_part_003.png",
+          "panda_part_004.png"
+        ],
+        "correctAudioName": "panda.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_noun_for_the_picture.mp3",
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "panda.png",
+          "bear.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "panda.mp3"
+      },
+      {
+        "questionText": "monkeys",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "monkey_part_001.png",
+          "monkey_part_002.png",
+          "monkey_part_003.png",
+          "monkey_part_004.png"
+        ],
+        "correctAudioName": "monkeys.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_noun_for_the_picture.mp3",
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "giraffe.png",
+          "monkeys.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "monkeys.mp3"
+      },
+      {
+        "questionText": "elephant",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "elephant_part_001.png",
+          "elephant_part_002.png",
+          "elephant_part_003.png",
+          "elephant_part_004.png"
+        ],
+        "correctAudioName": "elephant .mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_noun_for_the_picture.mp3",
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "elephant.png",
+          "tiger.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "elephant.mp3"
+      },
+      {
+        "questionText": "bears",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "bear_part_001.png",
+          "bear_part_002.png",
+          "bear_part_003.png",
+          "bear_part_004.png"
+        ],
+        "correctAudioName": "bears.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_noun_for_the_picture.mp3",
+        "commonOptionImageName": "Box1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "wolves.png",
+          "bears.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "bears.mp3"
+      }
+    ]
+  }
+}
