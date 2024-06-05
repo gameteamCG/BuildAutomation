@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "broccoli",
+    "texture": "9b5e758e-a4db-4086-bd07-e7b9e130f385",
+    "atlas": "",
+    "rect": [
+      4,
+      27,
+      445,
+      416
+    ],
+    "offset": [
+      -24,
+      15.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

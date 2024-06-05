@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "carrot",
+    "texture": "f293408a-018d-492c-bb0c-f5eb48561287",
+    "atlas": "",
+    "rect": [
+      99,
+      48,
+      291,
+      420
+    ],
+    "offset": [
+      -6,
+      -7.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
