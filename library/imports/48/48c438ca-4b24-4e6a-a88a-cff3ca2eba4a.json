@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Fun3",
+    "texture": "dd70ab01-cdd8-4ec0-b44c-e145aab52c96",
+    "atlas": "",
+    "rect": [
+      74,
+      92,
+      102,
+      49
+    ],
+    "offset": [
+      0,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sun",
+    "texture": "3a958193-d6be-4d33-881e-b9f4d2d6397f",
+    "atlas": "",
+    "rect": [
+      212,
+      199,
+      173,
+      82
+    ],
+    "offset": [
+      3.5,
+      10
+    ],
+    "originalSize": [
+      590,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
