@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pun",
+    "texture": "6c4b6cfc-0e35-4141-af9b-ff8831401f14",
+    "atlas": "",
+    "rect": [
+      71,
+      116,
+      99,
+      48
+    ],
+    "offset": [
+      -4.5,
+      -15
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
