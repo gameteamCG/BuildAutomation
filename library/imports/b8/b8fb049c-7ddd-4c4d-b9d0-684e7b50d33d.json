@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sharpner_n-8",
+    "texture": "f2591a7d-cb14-461f-a940-f963825d5a47",
+    "atlas": "",
+    "rect": [
+      164,
+      78,
+      172,
+      345
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
