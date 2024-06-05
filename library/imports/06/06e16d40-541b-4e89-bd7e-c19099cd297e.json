@@ -1,0 +1,38 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Good choice/ bad choice",
+      "totalLevel": "2",
+      "TitleImageName": "titl.png",
+      "introBgName": "SDDF.png",
+      "bgmMusicName": "B2.mp3",
+      "initialVOName": "",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "good choice",
+        "questionImageName": "",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "FANTASTIC.mp3"
+      },
+      {
+        "questionText": "bad choice",
+        "questionImageName": "",
+        "questionAudioName": "q2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "EXCEPTIONAL.mp3"
+      }
+    ]
+  }
+}
