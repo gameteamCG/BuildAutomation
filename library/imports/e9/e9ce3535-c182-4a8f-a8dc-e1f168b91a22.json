@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sequencingroutine",
+    "texture": "1232cbdf-2b9c-43af-890e-42af232c5504",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      784,
+      288
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      784,
+      288
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

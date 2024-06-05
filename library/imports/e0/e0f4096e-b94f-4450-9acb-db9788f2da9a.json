@@ -1,0 +1,76 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Daily day to day activities final ",
+      "totalLevel": "3",
+      "TitleImageName": "sequencingroutine.png",
+      "introBgName": "jrkg.png",
+      "bgmMusicName": "bgmpattern.mp3",
+      "mainBgName": "Asset69.png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "sequencing routine ",
+        "questionImageName": "",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": 0,
+        "options": [
+          "3.png",
+          "1.png",
+          "2.png"
+        ],
+        "correctAnswer": "312",
+        "correctAudioName": "l6correct.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "sequencing routine ",
+        "questionImageName": "",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": 0,
+        "options": [
+          "5.png",
+          "6.png",
+          "4.png"
+        ],
+        "correctAnswer": "312",
+        "correctAudioName": "l4correct.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "sequencing routine ",
+        "questionImageName": "",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": 0,
+        "options": [
+          "1.png",
+          "3.png",
+          "2.png"
+        ],
+        "correctAnswer": "231",
+        "correctAudioName": "L2Correct.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      }
+    ]
+  }
+}
