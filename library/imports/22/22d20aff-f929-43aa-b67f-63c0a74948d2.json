@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sungularplural",
+    "texture": "85ee5ead-75db-4910-bfcf-c41690cd7722",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      680,
+      269
+    ],
+    "offset": [
+      5,
+      -3.5
+    ],
+    "originalSize": [
+      722,
+      314
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
