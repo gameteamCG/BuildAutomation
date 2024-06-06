@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "trui",
+    "texture": "22e23c4c-60c0-4d58-b1f3-f79f1b66747f",
+    "atlas": "",
+    "rect": [
+      11,
+      26,
+      228,
+      198
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

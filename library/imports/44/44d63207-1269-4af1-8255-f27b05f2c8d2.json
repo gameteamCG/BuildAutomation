@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cir",
+    "texture": "e6d16e5a-17a0-497c-a447-b0604208a2e1",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      182,
+      182
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      184,
+      184
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

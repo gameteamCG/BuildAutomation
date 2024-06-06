@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blo",
+    "texture": "e8bfcdf9-a00d-4e04-9452-d08f540575a9",
+    "atlas": "",
+    "rect": [
+      32,
+      3,
+      121,
+      179
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      184,
+      184
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

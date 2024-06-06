@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "choo",
+    "texture": "13fd1250-e761-4de9-aa19-9e18b28e120d",
+    "atlas": "",
+    "rect": [
+      46,
+      10,
+      92,
+      165
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      184,
+      184
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
