@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ruller_w_8",
+    "texture": "e4a275bc-a372-478a-828b-e13f89c5d3ca",
+    "atlas": "",
+    "rect": [
+      179,
+      50,
+      142,
+      401
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
