@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ip",
+    "texture": "d5c483a7-61d0-453b-abee-159cb8160815",
+    "atlas": "",
+    "rect": [
+      202,
+      179,
+      104,
+      152
+    ],
+    "offset": [
+      3.5,
+      -4.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
