@@ -1,0 +1,103 @@
+{
+  "AdditionalData": {
+    "GameID": "Rectangle : page 94 Toddlers",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/97642764986_rectangle_song_1717649796394.mp4",
+    "TitleImageName": "title.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "rectangle",
+      "QuestionImageName": "",
+      "QuestionAudioName": "1_Identify and tap on the rectangle shape.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "a1.png",
+        "a2.png"
+      ],
+      "ReiterationAudioName": "rectangle.mp3",
+      "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "rectangle",
+      "QuestionImageName": "",
+      "QuestionAudioName": "2_How many sides does a rectangle have.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "a3.png",
+        "a4.png"
+      ],
+      "ReiterationAudioName": "sides.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "rectangle",
+      "QuestionImageName": "",
+      "QuestionAudioName": "3_Identify and tap on the rectangle-shaped object.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "cone.png",
+        "a5.png"
+      ],
+      "ReiterationAudioName": "the_chocolate_bar_is_r.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "rectangle",
+      "QuestionImageName": "",
+      "QuestionAudioName": "3_Identify and tap on the rectangle-shaped object.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "a7.png",
+        "a8.png"
+      ],
+      "ReiterationAudioName": "the_camera_is_rectangl.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": true,
+      "QuestionText": "rectangle",
+      "QuestionImageName": "",
+      "QuestionAudioName": "3_Identify and tap on the rectangle-shaped object.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "a10.png",
+        "a9.png"
+      ],
+      "ReiterationAudioName": "rupee_note_is_recta.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
