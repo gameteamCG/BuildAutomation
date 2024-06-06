@@ -1,0 +1,147 @@
+{
+  "additionalData": {
+    "GameID": "Letter 'Ll'",
+    "totalLevel": "5",
+    "TitleImageName": "LetterLl.png",
+    "introBgName": "Nursery.png",
+    "bgmMusicName": "bgm1.mp3",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "background1.png",
+      "questionAudioName": "TaponallthejellyfishwiththeletterL.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "Asset1.png",
+        "Asset3.png",
+        "Asset3.png",
+        "Asset2.png"
+      ],
+      "optionsBg": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "L.mp3",
+        "L.mp3"
+      ],
+      "correctAnswerNum": "23"
+    },
+    {
+      "questionLayout": "layout2",
+      "questionBgName": "background2.png",
+      "questionAudioName": "TaponthehatwiththeletterL.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "150x1502.png",
+        "150x1501.png",
+        "150x1502.png",
+        "150x150.png"
+      ],
+      "optionsBg": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAudioName": "BRILLIANT.mp3",
+      "wrongAudioName": "nevermind,tryagain.mp3",
+      "reiterationAudioName": [
+        "L.mp3",
+        "L.mp3"
+      ],
+      "correctAnswerNum": "13"
+    },
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "background3.png",
+      "questionAudioName": "TapontheladybugwiththeletterL.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "Asset10.png",
+        "Asset9.png",
+        "Asset11.png",
+        "Asset11.png"
+      ],
+      "optionsBg": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAudioName": "IMPRESSIVEWORK.mp3",
+      "wrongAudioName": "ohoh.mp3",
+      "reiterationAudioName": [
+        "L.mp3",
+        "L.mp3"
+      ],
+      "correctAnswerNum": "34"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "background4.png",
+      "questionAudioName": "TaponalltheobjectsthatbeginwiththeletterL.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "grape4.png",
+        "lamp4.png",
+        "ladybugL5.png",
+        "houseL5.png"
+      ],
+      "optionsBg": [
+        "grape4BW.png",
+        "lamp4BW.png",
+        "ladybugL5BW.png",
+        "houseL5BW.png"
+      ],
+      "correctAudioName": "INCREDIBLE.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "lamp.mp3",
+        "ladybug.mp3"
+      ],
+      "correctAnswerNum": "23"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "background5.png",
+      "questionAudioName": "TaponalltheobjectsthatbeginwiththeletterL.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "lotusL5.png",
+        "orangeL5.png",
+        "axeL5.png",
+        "lockL4.png"
+      ],
+      "optionsBg": [
+        "lotusL5BW.png",
+        "orangeL5BW.png",
+        "axeL5BW.png",
+        "leafL4.png"
+      ],
+      "correctAudioName": "GORGEOUSWORK.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "Lotus.mp3",
+        "leaf.mp3"
+      ],
+      "correctAnswerNum": "14"
+    }
+  ]
+}
