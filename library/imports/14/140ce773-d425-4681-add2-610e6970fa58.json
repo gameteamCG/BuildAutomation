@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "volleyball",
+    "texture": "a95831c7-2b7c-4d43-9c76-32a0e80390c9",
+    "atlas": "",
+    "rect": [
+      17,
+      17,
+      467,
+      468
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
