@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "When_your_friend_hugs_you_even_if_you_don_wan_to",
+    "texture": "225af9b8-edc3-4e68-b436-f4059cae58b0",
+    "atlas": "",
+    "rect": [
+      27,
+      27,
+      196,
+      196
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

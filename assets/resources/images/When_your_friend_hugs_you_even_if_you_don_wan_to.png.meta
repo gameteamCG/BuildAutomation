@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "225af9b8-edc3-4e68-b436-f4059cae58b0",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "When_your_friend_hugs_you_even_if_you_don_wan_to": {
+      "ver": "1.0.6",
+      "uuid": "da6d1c9c-c087-4777-980d-ef296ffc1b61",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "225af9b8-edc3-4e68-b436-f4059cae58b0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 27,
+      "trimY": 27,
+      "width": 196,
+      "height": 196,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

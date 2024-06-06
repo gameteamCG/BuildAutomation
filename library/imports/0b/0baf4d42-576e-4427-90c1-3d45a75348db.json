@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "When_a_Friend_pushes_you_on_the_slide",
+    "texture": "e1a48d5d-5cc1-4c95-bd89-0c63c704fea1",
+    "atlas": "",
+    "rect": [
+      15,
+      17,
+      235,
+      219
+    ],
+    "offset": [
+      7.5,
+      -1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
