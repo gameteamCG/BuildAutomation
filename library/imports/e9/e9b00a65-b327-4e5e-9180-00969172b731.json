@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "LetterLl",
+    "texture": "141ec805-3bd1-4e14-b602-6a34f298f11c",
+    "atlas": "",
+    "rect": [
+      26,
+      27,
+      769,
+      151
+    ],
+    "offset": [
+      7.5,
+      -8
+    ],
+    "originalSize": [
+      806,
+      189
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
