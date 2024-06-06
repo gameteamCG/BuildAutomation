@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "match_diffent_ball",
+    "texture": "c63355c5-4dae-42ae-b329-a6c3e94c86d0",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      710,
+      226
+    ],
+    "offset": [
+      5.5,
+      2.5
+    ],
+    "originalSize": [
+      751,
+      283
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
