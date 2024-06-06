@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "laugh",
+    "texture": "b1654e6d-cacf-46be-88d2-af76f11ff1aa",
+    "atlas": "",
+    "rect": [
+      72,
+      27,
+      105,
+      196
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

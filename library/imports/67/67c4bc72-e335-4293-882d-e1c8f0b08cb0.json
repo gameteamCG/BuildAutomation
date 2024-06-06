@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kid_fell_in_the_park",
+    "texture": "3b42d112-4b5d-49af-aeb7-7fd0010bd208",
+    "atlas": "",
+    "rect": [
+      0,
+      79,
+      460,
+      302
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

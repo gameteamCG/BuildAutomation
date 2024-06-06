@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "empathy",
+    "texture": "e6acd5fe-ee0d-40b1-bb7f-ab2d5e2d0b6e",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      540,
+      145
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      540,
+      147
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

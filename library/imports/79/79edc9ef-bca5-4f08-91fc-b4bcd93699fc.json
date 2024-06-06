@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dog_who_is_hurt",
+    "texture": "3938bd50-58f6-4c60-b9d8-f978d1b4ce75",
+    "atlas": "",
+    "rect": [
+      46,
+      71,
+      367,
+      317
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

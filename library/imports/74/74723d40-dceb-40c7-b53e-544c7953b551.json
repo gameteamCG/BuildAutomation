@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Poke_them_with_a_stick_tease_it",
+    "texture": "2f62cf5a-bdc1-4916-93de-d580a244ebb9",
+    "atlas": "",
+    "rect": [
+      0,
+      30,
+      248,
+      190
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

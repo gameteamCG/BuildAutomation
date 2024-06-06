@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Push_them",
+    "texture": "27a5599b-e2aa-4d14-b954-8ba4467eef92",
+    "atlas": "",
+    "rect": [
+      27,
+      52,
+      196,
+      147
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

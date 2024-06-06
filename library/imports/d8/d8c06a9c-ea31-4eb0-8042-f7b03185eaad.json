@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "test_paper_showing_less_marks",
+    "texture": "325fd0f0-2fd8-40f9-b6e5-11ae0e6b4763",
+    "atlas": "",
+    "rect": [
+      115,
+      48,
+      230,
+      364
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
