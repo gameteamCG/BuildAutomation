@@ -1,0 +1,159 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Revision number - 1 ",
+      "totalLevel": "5",
+      "TitleImageName": "Titlenumber1.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "bgm81.mp3",
+      "mainBgName": "bg82.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "number 1",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard5.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "earthpart001.png",
+          "earthpart002.png",
+          "earthpart003.png",
+          "earthpart004.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "COUNTANDSELECTTHECORRECTNUMBERPATTERNTILE.mp3",
+        "commonOptionImageName": "optionspanel2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "3",
+          "1"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "oneearth.mp3"
+      },
+      {
+        "questionText": "number 1",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard5.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "moonpart001.png",
+          "moonpart002.png",
+          "moonpart003.png",
+          "moonpart004.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "COUNTANDSELECTTHECORRECTNUMBERPATTERNTILE.mp3",
+        "commonOptionImageName": "optionspanel2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "1",
+          "4"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "OneMoon.mp3"
+      },
+      {
+        "questionText": "number 1",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard5.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "nosepart001.png",
+          "nosepart002.png",
+          "nosepart003.png",
+          "nosepart004.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "COUNTANDSELECTTHECORRECTNUMBERPATTERNTILE.mp3",
+        "commonOptionImageName": "optionspanel2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "3",
+          "1"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "Onenose.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard5.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "sunpart001.png",
+          "sunpart002.png",
+          "sunpart003.png",
+          "sunpart004.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "COUNTANDSELECTTHECORRECTNUMBERPATTERNTILE.mp3",
+        "commonOptionImageName": "optionspanel2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "1",
+          "4"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Onesun.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard5.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "tonguepart001.png",
+          "tonguepart002.png",
+          "tonguepart003.png",
+          "tonguepart004.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "COUNTANDSELECTTHECORRECTNUMBERPATTERNTILE.mp3",
+        "commonOptionImageName": "optionspanel2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "3",
+          "1"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "Onetongue.mp3"
+      }
+    ]
+  }
+}
