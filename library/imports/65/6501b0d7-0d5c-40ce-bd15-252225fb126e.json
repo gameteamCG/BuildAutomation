@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Square : page 93 Toddlers",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/927625767_Square_1717649395315.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "square",
+        "QuestionImageName": "",
+        "QuestionAudioName": "1_Identify_and_tap_on_the_square_shape.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "a1.png",
+          "a2.png"
+        ],
+        "ReiterationAudioName": "square.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "square",
+        "QuestionImageName": "",
+        "QuestionAudioName": "2_How_many_sides_does_a_square_have.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "a4.png",
+          "a3.png"
+        ],
+        "ReiterationAudioName": "4_sides.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "square",
+        "QuestionImageName": "",
+        "QuestionAudioName": "3_Identify_and_tap_on_thesquare_shaped_object.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "a5.png",
+          "a6.png"
+        ],
+        "ReiterationAudioName": "Chessboard_is_square_in_shape.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "square",
+        "QuestionImageName": "",
+        "QuestionAudioName": "3_Identify_and_tap_on_thesquare_shaped_object.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "a8.png",
+          "a7.png"
+        ],
+        "ReiterationAudioName": "Window_is_square_in_shape.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "square",
+        "QuestionImageName": "",
+        "QuestionAudioName": "3_Identify_and_tap_on_thesquare_shaped_object.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "a9_1.png",
+          "a10.png"
+        ],
+        "ReiterationAudioName": "Photo_frame_is_square_in_shape.mp3",
+        "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
