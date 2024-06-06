@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ertre",
+    "texture": "327dc7be-fd34-49db-82d9-8d98d4b9fc0a",
+    "atlas": "",
+    "rect": [
+      19,
+      20,
+      760,
+      339
+    ],
+    "offset": [
+      9.5,
+      -10
+    ],
+    "originalSize": [
+      779,
+      359
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
