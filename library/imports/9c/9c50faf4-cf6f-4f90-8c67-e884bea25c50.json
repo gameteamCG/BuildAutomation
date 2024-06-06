@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bunnies",
+    "texture": "ae2ac5cc-21d7-4ca3-b730-f3b322b5fd23",
+    "atlas": "",
+    "rect": [
+      62,
+      182,
+      379,
+      92
+    ],
+    "offset": [
+      1.5,
+      22
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
