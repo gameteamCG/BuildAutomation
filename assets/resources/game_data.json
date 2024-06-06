@@ -1,0 +1,85 @@
+{
+  "AdditionalData": {
+    "GameID": "Circle",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/98796311475_1717664172918.mp4",
+    "TitleImageName": "jhgfd.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": true,
+      "QuestionText": "circle",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q1.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "fd.png",
+        "seer.png"
+      ],
+      "ReiterationAudioName": "circle.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": true,
+      "QuestionText": "circle",
+      "QuestionImageName": "",
+      "QuestionAudioName": "qq.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "clock.png",
+        "dice.png"
+      ],
+      "ReiterationAudioName": "Clock.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "nevermind.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": true,
+      "QuestionText": "circle",
+      "QuestionImageName": "",
+      "QuestionAudioName": "qq.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "coin.png",
+        "piii.png"
+      ],
+      "ReiterationAudioName": "Coin.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": true,
+      "QuestionText": "circle",
+      "QuestionImageName": "",
+      "QuestionAudioName": "qq.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "star.png",
+        "pizz.png"
+      ],
+      "ReiterationAudioName": "Pizza.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
