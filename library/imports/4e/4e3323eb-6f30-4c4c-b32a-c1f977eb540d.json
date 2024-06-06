@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0007_dustpan",
+    "texture": "3d168f02-aa6e-43ff-b904-e49c2b9458cf",
+    "atlas": "",
+    "rect": [
+      9,
+      54,
+      237,
+      142
+    ],
+    "offset": [
+      2.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0005_groom",
+    "texture": "0fb1b347-50c1-4e71-8860-5685860b3cb0",
+    "atlas": "",
+    "rect": [
+      81,
+      29,
+      84,
+      202
+    ],
+    "offset": [
+      -2,
+      -5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
