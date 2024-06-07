@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "red_monster",
+    "texture": "012e6609-55b5-48d2-966c-03381a211828",
+    "atlas": "",
+    "rect": [
+      22,
+      24,
+      205,
+      205
+    ],
+    "offset": [
+      -0.5,
+      -1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
