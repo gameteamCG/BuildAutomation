@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Matchthenumbertile",
+    "texture": "8c7d482b-a131-455a-9208-3989bbf912ee",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      926,
+      318
+    ],
+    "offset": [
+      7.5,
+      -7.5
+    ],
+    "originalSize": [
+      963,
+      355
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
