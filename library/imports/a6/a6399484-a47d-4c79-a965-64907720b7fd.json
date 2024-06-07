@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "crockroch",
+    "texture": "70558489-b4ee-4018-9ef6-8792a31cde98",
+    "atlas": "",
+    "rect": [
+      27,
+      36,
+      430,
+      429
+    ],
+    "offset": [
+      -8,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
