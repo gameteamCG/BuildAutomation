@@ -1,0 +1,118 @@
+{
+  "additionalData": {
+    "GameID": "counting insects - LKG Course Book 1 Page No:- 42",
+    "totalLevel": "5",
+    "TitleImageName": "counting_insects.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "FruitNinja.mp3",
+    "mainBgName": "BG_3.png",
+    "JockeyName": "Singham"
+  },
+  "questionData": [
+    {
+      "questionText": "Count and match",
+      "questionAudioName": "Count_and_match_insects.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back.png",
+      "frontCardImageName": "front.png",
+      "isOptionText": false,
+      "options": [
+        "1_grasshopper.png",
+        "6_bees.png"
+      ],
+      "reiterationAudios": [
+        "1_grasshopper.mp3",
+        "6_bees.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "1",
+        "6"
+      ]
+    },
+    {
+      "questionText": "Count and match",
+      "questionAudioName": "Count_and_match_insects.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back.png",
+      "frontCardImageName": "front.png",
+      "isOptionText": false,
+      "options": [
+        "2_butterflies.png",
+        "7_flies.png"
+      ],
+      "reiterationAudios": [
+        "2_butterflies.mp3",
+        "7_flies.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "2",
+        "7"
+      ]
+    },
+    {
+      "questionText": "Count and match",
+      "questionAudioName": "Count_and_match_insects.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back.png",
+      "frontCardImageName": "front.png",
+      "isOptionText": false,
+      "options": [
+        "3_ladybirds.png",
+        "8_dragonflies.png"
+      ],
+      "reiterationAudios": [
+        "3_ladybugs.mp3",
+        "8_dragonflies.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "3",
+        "8"
+      ]
+    },
+    {
+      "questionText": "Count and match",
+      "questionAudioName": "Count_and_match_insects.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back.png",
+      "frontCardImageName": "front.png",
+      "isOptionText": false,
+      "options": [
+        "4_spiders.png",
+        "9_ants.png"
+      ],
+      "reiterationAudios": [
+        "4_spiders.mp3",
+        "9_ants.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "4",
+        "9"
+      ]
+    },
+    {
+      "questionText": "Count and match",
+      "questionAudioName": "Count_and_match_insects.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back.png",
+      "frontCardImageName": "front.png",
+      "isOptionText": false,
+      "options": [
+        "5_snails.png",
+        "10_fireflies.png"
+      ],
+      "reiterationAudios": [
+        "5_snails.mp3",
+        "10-fireflies.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "5",
+        "10"
+      ]
+    }
+  ]
+}
