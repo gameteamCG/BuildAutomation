@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Please_stop_I_dont_like_that",
+    "texture": "f91cbe92-6178-4d7b-bcd9-c04f4ec8efbb",
+    "atlas": "",
+    "rect": [
+      13,
+      163,
+      433,
+      133
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
