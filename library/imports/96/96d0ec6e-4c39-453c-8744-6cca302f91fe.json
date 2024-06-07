@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "daffodils_are_yellow",
+    "texture": "b61981a0-7de4-490e-ba39-45e965ac05ac",
+    "atlas": "",
+    "rect": [
+      35,
+      34,
+      180,
+      181
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

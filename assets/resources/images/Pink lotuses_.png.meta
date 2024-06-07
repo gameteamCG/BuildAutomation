@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "8e94e693-687f-40a7-a16c-0076194b65c1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "Pink lotuses_": {
+      "ver": "1.0.6",
+      "uuid": "fb7abb51-072e-4202-869b-e75269d4a46c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "8e94e693-687f-40a7-a16c-0076194b65c1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 14,
+      "trimY": 73,
+      "width": 221,
+      "height": 103,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
