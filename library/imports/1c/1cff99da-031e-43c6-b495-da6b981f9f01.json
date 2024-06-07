@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "traingle",
+    "texture": "84691957-8859-4d3c-8abf-a5676a4d7831",
+    "atlas": "",
+    "rect": [
+      74,
+      95,
+      311,
+      269
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

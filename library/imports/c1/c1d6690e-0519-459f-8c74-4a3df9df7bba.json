@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Samedifferent",
+    "texture": "74012de4-4bb7-40af-8986-d73f911af99a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      808,
+      427
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      808,
+      427
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

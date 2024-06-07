@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bigyello",
+    "texture": "85ec7671-82b0-44f7-9a7d-10efaba70017",
+    "atlas": "",
+    "rect": [
+      68,
+      57,
+      324,
+      346
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
