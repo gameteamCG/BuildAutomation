@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "7_flies",
+    "texture": "df8c47ae-4bf8-4281-a1e8-47d4495ad0a1",
+    "atlas": "",
+    "rect": [
+      59,
+      50,
+      232,
+      350
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      350,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

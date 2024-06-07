@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_ladybirds",
+    "texture": "a9f6834f-d825-47dc-9acf-50dcd0277df2",
+    "atlas": "",
+    "rect": [
+      50,
+      84,
+      249,
+      282
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      350,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

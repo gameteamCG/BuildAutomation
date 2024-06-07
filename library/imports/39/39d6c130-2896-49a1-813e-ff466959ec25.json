@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "10_fireflies",
+    "texture": "7e8244aa-1d91-4626-a5ab-c79661bc3e77",
+    "atlas": "",
+    "rect": [
+      71,
+      51,
+      208,
+      348
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      350,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

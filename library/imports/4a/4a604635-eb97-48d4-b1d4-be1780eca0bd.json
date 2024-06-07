@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "counting_insects",
+    "texture": "ac1a72ff-462f-4e56-bc0f-b3c01565f958",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      891,
+      440
+    ],
+    "offset": [
+      -13,
+      5
+    ],
+    "originalSize": [
+      917,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

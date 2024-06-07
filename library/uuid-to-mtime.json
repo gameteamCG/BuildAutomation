@@ -500,8 +500,8 @@
     "relativePath": "model/primitives.fbx"
   },
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1717737870981,
-    "meta": 1717738477518,
+    "asset": 1717739605010,
+    "meta": 1717739605260,
     "relativePath": "resources"
   },
   "48531029-3cfd-4d23-abb9-057b4b7762b9": {
@@ -3128,5 +3128,155 @@
     "asset": 1717154254416,
     "meta": 1717738478517,
     "relativePath": "Games/DragNDrop/Buillds_SuperCub/TracingLetterAtoZ(JrKg)/web-mobile/assets"
+  },
+  "0d2417e8-f75b-4cc0-a46e-322a2651e314": {
+    "asset": 1717739605026,
+    "meta": 1717739605260,
+    "relativePath": "resources/audios"
+  },
+  "2f07e8d1-22e9-4ac3-a00c-cb04a958ea44": {
+    "asset": 1717739605028,
+    "meta": 1717739605261,
+    "relativePath": "resources/images"
+  },
+  "f31895fb-2799-4e21-836d-1af0e79f4f63": {
+    "asset": 1717739598866,
+    "meta": 1717739605332,
+    "relativePath": "resources/game_data.json"
+  },
+  "d90e0aa4-7d3b-4372-8413-8225056a4710": {
+    "asset": 1717739598865,
+    "meta": 1717739605677,
+    "relativePath": "resources/audios/6_bees.mp3"
+  },
+  "f3049f5d-1316-4d89-99bd-7a6f84cdf457": {
+    "asset": 1717739598865,
+    "meta": 1717739605678,
+    "relativePath": "resources/audios/2_butterflies.mp3"
+  },
+  "043e4975-1eba-441d-b5da-c2220b3a8e2f": {
+    "asset": 1717739598864,
+    "meta": 1717739605679,
+    "relativePath": "resources/audios/10-fireflies.mp3"
+  },
+  "73a91e16-6e52-4733-9e39-0e3dab47badc": {
+    "asset": 1717739598865,
+    "meta": 1717739605679,
+    "relativePath": "resources/audios/3_ladybugs.mp3"
+  },
+  "9f33450f-e807-4773-8132-6e1ba40f1888": {
+    "asset": 1717739598865,
+    "meta": 1717739605679,
+    "relativePath": "resources/audios/4_spiders.mp3"
+  },
+  "32c4ea09-045e-4cea-93a2-defb4c930772": {
+    "asset": 1717739598865,
+    "meta": 1717739605680,
+    "relativePath": "resources/audios/5_snails.mp3"
+  },
+  "6fec5216-8487-43c7-a191-d21d2d34cb4a": {
+    "asset": 1717739598865,
+    "meta": 1717739605680,
+    "relativePath": "resources/audios/1_grasshopper.mp3"
+  },
+  "510da88a-a5ca-46d7-bf2b-0db33591c24b": {
+    "asset": 1717739598865,
+    "meta": 1717739605681,
+    "relativePath": "resources/audios/7_flies.mp3"
+  },
+  "bd154ce8-8c2d-440c-9877-84156f6636e8": {
+    "asset": 1717739598867,
+    "meta": 1717739605725,
+    "relativePath": "resources/images/1_grasshopper.png"
+  },
+  "932db886-4002-4091-abac-edbd48378c58": {
+    "asset": 1717739598866,
+    "meta": 1717739605740,
+    "relativePath": "resources/audios/8_dragonflies.mp3"
+  },
+  "c6721b42-b15f-418b-9c9e-3249bac6d425": {
+    "asset": 1717739598866,
+    "meta": 1717739605740,
+    "relativePath": "resources/audios/9_ants.mp3"
+  },
+  "7e8244aa-1d91-4626-a5ab-c79661bc3e77": {
+    "asset": 1717739598867,
+    "meta": 1717739605730,
+    "relativePath": "resources/images/10_fireflies.png"
+  },
+  "86c33800-7e19-420c-9977-302d95d2599b": {
+    "asset": 1717739598866,
+    "meta": 1717739605741,
+    "relativePath": "resources/audios/FruitNinja.mp3"
+  },
+  "95ca50e6-cdf6-4de7-b767-6188000cf263": {
+    "asset": 1717739598866,
+    "meta": 1717739605742,
+    "relativePath": "resources/audios/Count_and_match_insects.mp3"
+  },
+  "e087425d-32f0-4b6b-9465-857dddb9cd12": {
+    "asset": 1717739598867,
+    "meta": 1717739605738,
+    "relativePath": "resources/images/2_butterflies.png"
+  },
+  "a9f6834f-d825-47dc-9acf-50dcd0277df2": {
+    "asset": 1717739598868,
+    "meta": 1717739605739,
+    "relativePath": "resources/images/3_ladybirds.png"
+  },
+  "eed1577d-269b-4c80-8679-0f8b0407ad6b": {
+    "asset": 1717739598869,
+    "meta": 1717739605757,
+    "relativePath": "resources/images/6_bees.png"
+  },
+  "7da81047-c002-4d77-be3a-6529e83c171a": {
+    "asset": 1717739598868,
+    "meta": 1717739605759,
+    "relativePath": "resources/images/4_spiders.png"
+  },
+  "d9f15aee-25e7-4190-ab72-42166e2a1603": {
+    "asset": 1717739598869,
+    "meta": 1717739605759,
+    "relativePath": "resources/images/5_snails.png"
+  },
+  "df8c47ae-4bf8-4281-a1e8-47d4495ad0a1": {
+    "asset": 1717739598870,
+    "meta": 1717739605760,
+    "relativePath": "resources/images/7_flies.png"
+  },
+  "849f6261-d90f-46c5-a64f-4b2bd7acfd86": {
+    "asset": 1717739598874,
+    "meta": 1717739605761,
+    "relativePath": "resources/images/back.png"
+  },
+  "42ba908f-d27d-4a80-a289-ed533696c268": {
+    "asset": 1717739598871,
+    "meta": 1717739605770,
+    "relativePath": "resources/images/8_dragonflies.png"
+  },
+  "537b77f8-7b19-4204-b5bf-e1f6f60a1788": {
+    "asset": 1717739598871,
+    "meta": 1717739605782,
+    "relativePath": "resources/images/9_ants.png"
+  },
+  "3bf6d104-97ea-47cf-b16f-0291221c7989": {
+    "asset": 1717739598880,
+    "meta": 1717739605788,
+    "relativePath": "resources/images/tlc_bg.png"
+  },
+  "2cdac53b-a533-45b7-90f0-5e78826c7a3f": {
+    "asset": 1717739598879,
+    "meta": 1717739605789,
+    "relativePath": "resources/images/front.png"
+  },
+  "ac1a72ff-462f-4e56-bc0f-b3c01565f958": {
+    "asset": 1717739598878,
+    "meta": 1717739605790,
+    "relativePath": "resources/images/counting_insects.png"
+  },
+  "8b7b8e47-81ce-43f1-a544-dc6b139f8a5f": {
+    "asset": 1717739598873,
+    "meta": 1717739605802,
+    "relativePath": "resources/images/BG_3.png"
   }
 }
