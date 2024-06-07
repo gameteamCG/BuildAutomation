@@ -1,0 +1,179 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Word Formation UKG practice book 1",
+      "totalLevel": "8",
+      "TitleImageName": "Word_Formation.png",
+      "introBgName": "bgtitlemain.png",
+      "bgmMusicName": "PID_10_BGM_1.mp3",
+      "mainBgName": "bg3.png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionImageName": "spin.png",
+        "questionAudioName": "20476843_1_swipe_the_letters_to_f.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "purple.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "s.png",
+          "i.png",
+          "n.png",
+          "p.png"
+        ],
+        "correctAnswer": "1423",
+        "correctAudioName": "20476843_2_spin.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "spin.png"
+      },
+      {
+        "questionText": "",
+        "questionImageName": "CLAY.png",
+        "questionAudioName": "20476843_3_swipe_the_letters_to_f.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "purple.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "a.png",
+          "c.png",
+          "l.png",
+          "y.png"
+        ],
+        "correctAnswer": "2314",
+        "correctAudioName": "20476843_4_clay.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "CLAY.png"
+      },
+      {
+        "questionText": "",
+        "questionImageName": "flag.png",
+        "questionAudioName": "20476843_5_swipe_the_letters_to_f.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "purple.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "a.png",
+          "f.png",
+          "g.png",
+          "l.png"
+        ],
+        "correctAnswer": "2413",
+        "correctAudioName": "20476843_6_flag.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "flag.png"
+      },
+      {
+        "questionText": "",
+        "questionImageName": "crib.png",
+        "questionAudioName": "20476843_7_swipe_the_letters_to_f.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "purple.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "r.png",
+          "b.png",
+          "i.png",
+          "c.png"
+        ],
+        "correctAnswer": "4132",
+        "correctAudioName": "20476843_8_crib.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "crib.png"
+      },
+      {
+        "questionText": "",
+        "questionImageName": "stop.png",
+        "questionAudioName": "20476843_9_swipe_the_letters_to_f.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "purple.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "s.png",
+          "t.png",
+          "p.png",
+          "o.png"
+        ],
+        "correctAnswer": "1243",
+        "correctAudioName": "20476843_10_stop.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "stop.png"
+      },
+      {
+        "questionText": "",
+        "questionImageName": "glue.png",
+        "questionAudioName": "20476843_11_swipe_the_letters_to_f.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "purple.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "u.png",
+          "g.png",
+          "e.png",
+          "l.png"
+        ],
+        "correctAnswer": "2413",
+        "correctAudioName": "20476843_12_glue.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "glue.png"
+      },
+      {
+        "questionText": "",
+        "questionImageName": "grab.png",
+        "questionAudioName": "20476843_15_swipe_the_letters_to_f.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "purple.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "g.png",
+          "a.png",
+          "r.png",
+          "b.png"
+        ],
+        "correctAnswer": "1324",
+        "correctAudioName": "20476843_16_grab.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "grab.png"
+      },
+      {
+        "questionText": "",
+        "questionImageName": "trap.png",
+        "questionAudioName": "20476843_13_swipe_the_letters_to_f.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "purple.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "optionOffset": null,
+        "options": [
+          "r.png",
+          "t.png",
+          "p.png",
+          "a.png"
+        ],
+        "correctAnswer": "2143",
+        "correctAudioName": "20476843_14_trap.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "trap.png"
+      }
+    ]
+  }
+}

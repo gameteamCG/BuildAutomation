@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Word_Formation",
+    "texture": "9b5e0754-3f54-4416-99d4-30013078518d",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      929,
+      361
+    ],
+    "offset": [
+      0,
+      11.5
+    ],
+    "originalSize": [
+      929,
+      386
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
