@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "0_0000_500x500_0005_red-truck",
+    "texture": "0a281cbf-22b5-4c22-a8a4-a4d961266833",
+    "atlas": "",
+    "rect": [
+      46,
+      135,
+      400,
+      228
+    ],
+    "offset": [
+      -4,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

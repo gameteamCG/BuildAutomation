@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "0_0014_-_0009_500x500_0003_hut",
+    "texture": "07080ebe-a3fd-4620-8cdf-b5f228e96bdd",
+    "atlas": "",
+    "rect": [
+      24,
+      87,
+      453,
+      339
+    ],
+    "offset": [
+      0.5,
+      -6.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

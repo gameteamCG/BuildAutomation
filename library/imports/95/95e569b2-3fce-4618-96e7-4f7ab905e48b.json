@@ -1,0 +1,131 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "br blend words feedback super cub what next",
+      "totalLevel": "7",
+      "TitleImageName": "brblendwords.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "'br' blends words",
+        "questionImageName": "br.png",
+        "questionAudioName": "tap_the_correct_picture_for_the_given_blend.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0000_brain.png",
+          "0_0004_500x500_0012_cake.png",
+          "0_0005_500x500_0013_cup.png"
+        ],
+        "correctAudioName": "brain.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "'br' blends words",
+        "questionImageName": "br.png",
+        "questionAudioName": "tap_the_correct_picture_for_the_given_blend.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "0_0002_500x500_0003_kite.png",
+          "0_0014_-_0009_500x500_0003_hut.png",
+          "500x500_0001_brush.png"
+        ],
+        "correctAudioName": "brush.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "'br' blends words",
+        "questionImageName": "br.png",
+        "questionAudioName": "tap_the_correct_picture_for_the_given_blend.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "0_0015_500x500_0003_Tent.png",
+          "500x500_0002_brown.png",
+          "0_0012_500x500_0007_can.png"
+        ],
+        "correctAudioName": "BROWN.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "'br' blends words",
+        "questionImageName": "br.png",
+        "questionAudioName": "tap_the_correct_picture_for_the_given_blend.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0003_broom.png",
+          "0_0007_500x500_0000_crab.png",
+          "0_0009_500x500_0003_cat.png"
+        ],
+        "correctAudioName": "broom.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "'br' blends words",
+        "questionImageName": "br.png",
+        "questionAudioName": "tap_the_correct_picture_for_the_given_blend.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "0_0001_500x500_0001_king.png",
+          "0_0010_500x500_0005_cap.png",
+          "500x500_0004_bride.png"
+        ],
+        "correctAudioName": "bride.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "'br' blends words",
+        "questionImageName": "br.png",
+        "questionAudioName": "tap_the_correct_picture_for_the_given_blend.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0005_brick.png",
+          "0_0007_500x500_0000_crab.png",
+          "0_0006_500x500_0009_egg.png"
+        ],
+        "correctAudioName": "brick.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "'br' blends words",
+        "questionImageName": "br.png",
+        "questionAudioName": "tap_the_correct_picture_for_the_given_blend.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "0_0000_500x500_0005_red-truck.png",
+          "500x500_0006_bread.png",
+          "0_0004_500x500_0012_cake.png"
+        ],
+        "correctAudioName": "BREAD.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
