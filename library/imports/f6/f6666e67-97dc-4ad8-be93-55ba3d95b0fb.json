@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Match the number tile ",
+      "totalLevel": "5",
+      "TitleImageName": "Matchthenumbertile.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "numbertilebg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "same number tile",
+        "questionAudioName": "matchthesamenumberpatterntile .mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset31.png",
+        "frontCardImageName": "350x3501.png",
+        "isOptionText": false,
+        "options": [
+          "Asset47.png",
+          "Asset39.png"
+        ],
+        "reiterationAudios": [
+          "4.mp3",
+          "3.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset47.png",
+          "Asset39.png"
+        ]
+      },
+      {
+        "questionText": "same number tile",
+        "questionAudioName": "matchthesamenumberpatterntile .mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset31.png",
+        "frontCardImageName": "350x3501.png",
+        "isOptionText": false,
+        "options": [
+          "Asset54.png",
+          "Asset37.png"
+        ],
+        "reiterationAudios": [
+          "6.mp3",
+          "5.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset54.png",
+          "Asset37.png"
+        ]
+      },
+      {
+        "questionText": "same number tile",
+        "questionAudioName": "matchthesamenumberpatterntile .mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset31.png",
+        "frontCardImageName": "350x3501.png",
+        "isOptionText": false,
+        "options": [
+          "Asset43.png",
+          "Asset53.png"
+        ],
+        "reiterationAudios": [
+          "8.mp3",
+          "7.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset43.png",
+          "Asset53.png"
+        ]
+      },
+      {
+        "questionText": "same number tile",
+        "questionAudioName": "matchthesamenumberpatterntile .mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset31.png",
+        "frontCardImageName": "350x3501.png",
+        "isOptionText": false,
+        "options": [
+          "Asset41.png",
+          "Asset49.png"
+        ],
+        "reiterationAudios": [
+          "1.mp3",
+          "2.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset41.png",
+          "Asset49.png"
+        ]
+      },
+      {
+        "questionText": "same number tile",
+        "questionAudioName": "matchthesamenumberpatterntile .mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset31.png",
+        "frontCardImageName": "350x3501.png",
+        "isOptionText": false,
+        "options": [
+          "Asset51.png",
+          "Asset34.png"
+        ],
+        "reiterationAudios": [
+          "9.mp3",
+          "8.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset51.png",
+          "Asset34.png"
+        ]
+      }
+    ]
+  }
+}
