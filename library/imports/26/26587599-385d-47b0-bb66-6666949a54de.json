@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fire fighter",
+    "texture": "8a93238f-2bb9-4a4c-99c7-70fa02f2378a",
+    "atlas": "",
+    "rect": [
+      0,
+      37,
+      500,
+      426
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

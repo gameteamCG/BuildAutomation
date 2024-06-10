@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Community helpers ",
+      "totalLevel": "5",
+      "TitleImageName": "com.png",
+      "introBgName": "sfdfgh.png",
+      "bgmMusicName": "BGM.mp3",
+      "initialVOName": "",
+      "mainBgName": "mnbvc.png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "Connect the dots",
+        "questionImageName": "",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "chef.png",
+        "needMoreTools": true,
+        "correctAudioName": "chef.mp3"
+      },
+      {
+        "questionText": "Connect the dots",
+        "questionImageName": "",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "doctor.png",
+        "needMoreTools": true,
+        "correctAudioName": "doctor.mp3"
+      },
+      {
+        "questionText": "Connect the dots",
+        "questionImageName": "",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "farmer.png",
+        "needMoreTools": true,
+        "correctAudioName": "farmer.mp3"
+      },
+      {
+        "questionText": "Connect the dots",
+        "questionImageName": "",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "fire fighter.png",
+        "needMoreTools": true,
+        "correctAudioName": "firefighter.mp3"
+      },
+      {
+        "questionText": "Connect the dots",
+        "questionImageName": "",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "post man.png",
+        "needMoreTools": true,
+        "correctAudioName": "postman.mp3"
+      }
+    ]
+  }
+}
