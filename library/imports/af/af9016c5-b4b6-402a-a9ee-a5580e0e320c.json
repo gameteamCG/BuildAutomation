@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Types of House",
+      "totalLevel": "7",
+      "TitleImageName": "typeofhouses.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "bgm_1.mp3",
+      "mainBgName": "citybg2.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "hut",
+        "questionAudioName": "identify_the_hut.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "hut3.png",
+          "tent1.png"
+        ],
+        "correctAudios": [
+          "A_hut_is_a_small_house_made_of_many.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "apartment",
+        "questionAudioName": "identify_the_apartment.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "hut4.png",
+          "building1.png"
+        ],
+        "correctAudios": [
+          "An_apartment_is_a_space_in_a_multistoried_building.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "bungalow",
+        "questionAudioName": "identify_the_bunglow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "bunglow1.png",
+          "igloo.png"
+        ],
+        "correctAudios": [
+          "A_bungalow_is_a_single_storey_or_a_2_storey_house.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "houseboat",
+        "questionAudioName": "identify_the_houseboat.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "building2.png",
+          "houseboat.png"
+        ],
+        "correctAudios": [
+          "Houseboats_are_called_floating_houses_as_they_float_on_water_bodies.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "igloo",
+        "questionAudioName": "identify_the_igloo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "igloo.png",
+          "hut3.png"
+        ],
+        "correctAudios": [
+          "Igloos_are_also_known_as_snow_house_or_snow_hut_which_are_made_of_snow_and_ice_blocks.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "tent",
+        "questionAudioName": "identify_the_tent.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "building2.png",
+          "tent2.png"
+        ],
+        "correctAudios": [
+          "Tents_are_movable_shelters_made_with_thin_and_light_fabric.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "tree house",
+        "questionAudioName": "identify_the_treehouse.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "treehouse.png",
+          "apartment1.png"
+        ],
+        "correctAudios": [
+          "Tree_House_is_a_wooden_house_built_on_large_trees_that_have_strong_branches.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

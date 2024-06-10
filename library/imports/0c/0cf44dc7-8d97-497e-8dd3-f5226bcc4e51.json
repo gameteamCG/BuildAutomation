@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "treehouse",
+    "texture": "f0d0e9a8-d952-4b53-8d45-8b67522b7db3",
+    "atlas": "",
+    "rect": [
+      51,
+      18,
+      398,
+      464
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

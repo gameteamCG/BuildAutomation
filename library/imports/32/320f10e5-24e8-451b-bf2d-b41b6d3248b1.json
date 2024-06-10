@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "houseboat",
+    "texture": "6be993d6-14ae-41a3-9c44-b9df8088f3c9",
+    "atlas": "",
+    "rect": [
+      17,
+      25,
+      466,
+      450
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
