@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ifyouarehappyandyouknowit",
+    "texture": "4aeaaa81-fdfb-46b9-a0b7-8ce2679300c0",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      614,
+      413
+    ],
+    "offset": [
+      5.5,
+      -3.5
+    ],
+    "originalSize": [
+      655,
+      458
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
