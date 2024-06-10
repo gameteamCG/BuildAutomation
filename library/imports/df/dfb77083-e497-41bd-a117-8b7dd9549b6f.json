@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "gond art",
+      "totalLevel": "5",
+      "TitleImageName": "Gondart.png",
+      "introBgName": "Junior.png",
+      "bgmMusicName": "bgm3.mp3",
+      "mainBgName": "bgondart.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "match the gond art",
+        "questionAudioName": "Matchthesamegondartpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset7.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset1.png"
+        ],
+        "reiterations": [
+          "BRILLIANT.mp3"
+        ],
+        "commonRightOptionImageName": "Asset7.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset1.png",
+          "Asset2.png"
+        ]
+      },
+      {
+        "questionText": "match the gond art",
+        "questionAudioName": "Matchthesamegondartpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset7.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset3.png"
+        ],
+        "reiterations": [
+          "EXCELLENTJOB.mp3"
+        ],
+        "commonRightOptionImageName": "Asset7.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset3.png",
+          "Asset4.png"
+        ]
+      },
+      {
+        "questionText": "match the gond art",
+        "questionAudioName": "Matchthesamegondartpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset7.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset2.png"
+        ],
+        "reiterations": [
+          "GORGEOUSWORK.mp3"
+        ],
+        "commonRightOptionImageName": "Asset7.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset2.png",
+          "Asset5.png"
+        ]
+      },
+      {
+        "questionText": "match the gond art",
+        "questionAudioName": "Matchthesamegondartpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset7.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset4.png"
+        ],
+        "reiterations": [
+          "FANTASTIC.mp3"
+        ],
+        "commonRightOptionImageName": "Asset7.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset4.png",
+          "Asset1.png"
+        ]
+      },
+      {
+        "questionText": "match the gond art",
+        "questionAudioName": "Matchthesamegondartpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset7.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset5.png"
+        ],
+        "reiterations": [
+          "GOODEFFORT.mp3"
+        ],
+        "commonRightOptionImageName": "Asset7.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset5.png",
+          "Asset3.png"
+        ]
+      }
+    ]
+  }
+}
