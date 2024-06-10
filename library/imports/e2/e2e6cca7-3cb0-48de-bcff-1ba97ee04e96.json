@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pegi",
+    "texture": "50ae2142-439b-469c-9c51-6aa2bc6b0233",
+    "atlas": "",
+    "rect": [
+      62,
+      10,
+      126,
+      230
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

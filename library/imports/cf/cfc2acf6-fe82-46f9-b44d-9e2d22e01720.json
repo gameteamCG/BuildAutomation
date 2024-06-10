@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vet",
+    "texture": "2a584d78-2006-410a-8b8a-7ee6ada64a1a",
+    "atlas": "",
+    "rect": [
+      27,
+      34,
+      195,
+      182
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

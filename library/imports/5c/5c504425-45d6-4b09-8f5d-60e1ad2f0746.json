@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "coti",
+    "texture": "163e1310-4b1b-4e35-84c0-bfc976071e35",
+    "atlas": "",
+    "rect": [
+      37,
+      13,
+      175,
+      223
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
