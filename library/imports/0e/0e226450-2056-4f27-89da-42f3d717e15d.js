@@ -101,7 +101,9 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         this.videoPlayerNode.getComponent(cc.VideoPlayer).remoteURL = StartGame_1.default.Instance.videoLink;
         this.jockeyName = StartGame_1.default.Instance.jockeyName;
-        this.node.getChildByName("tlc").active = false;
+        if (StartGame_1.default.Instance.jockeyName == "tlc") {
+            this.node.getChildByName("tlc").active = false;
+        }
         cc.audioEngine.playEffect(this.btnClick, false);
         this.node.getChildByName("play").getComponent(cc.Button).interactable = false;
         cc.tween(this.node.getChildByName("title")).to(1, { y: 800 }, { easing: "backInOut" }).start();
