@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "deni",
+    "texture": "e032967f-48c1-4cb4-94da-55410dd028a2",
+    "atlas": "",
+    "rect": [
+      4,
+      54,
+      242,
+      141
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

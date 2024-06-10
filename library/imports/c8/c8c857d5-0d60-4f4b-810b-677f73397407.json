@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bib",
+    "texture": "5e7a0a88-1d61-438f-b28f-4c0cdb502d2c",
+    "atlas": "",
+    "rect": [
+      31,
+      5,
+      188,
+      240
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

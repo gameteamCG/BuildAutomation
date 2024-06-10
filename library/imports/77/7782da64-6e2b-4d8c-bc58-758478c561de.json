@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "veti",
+    "texture": "9d959613-e17e-4813-b295-fca9fc2c03b5",
+    "atlas": "",
+    "rect": [
+      29,
+      36,
+      191,
+      178
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "foxi",
+    "texture": "33116e3f-80fb-4264-8314-67a6ddb05859",
+    "atlas": "",
+    "rect": [
+      12,
+      51,
+      226,
+      147
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

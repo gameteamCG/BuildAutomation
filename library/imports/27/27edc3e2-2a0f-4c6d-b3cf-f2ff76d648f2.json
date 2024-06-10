@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "redi",
+    "texture": "e821193a-66a2-44e2-a992-e7741e542ed1",
+    "atlas": "",
+    "rect": [
+      6,
+      12,
+      237,
+      225
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

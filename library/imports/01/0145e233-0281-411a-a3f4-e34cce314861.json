@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kidi",
+    "texture": "8996ad05-8a16-46fe-ac54-311863926d49",
+    "atlas": "",
+    "rect": [
+      69,
+      16,
+      111,
+      218
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bini",
+    "texture": "d81905bd-6e09-4a79-9ae9-f107e3d85ca6",
+    "atlas": "",
+    "rect": [
+      20,
+      31,
+      210,
+      187
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
