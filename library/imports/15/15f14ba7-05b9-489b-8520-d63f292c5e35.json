@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "button_25",
+    "texture": "77acf5c8-4846-45e7-b297-f69eb7baef08",
+    "atlas": "",
+    "rect": [
+      0,
+      286,
+      1307,
+      568
+    ],
+    "offset": [
+      0,
+      -70
+    ],
+    "originalSize": [
+      1307,
+      1000
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
