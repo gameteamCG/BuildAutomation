@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "efamilywords",
+    "texture": "e6d75c52-d5e5-496e-8844-6c791f43da80",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      574,
+      255
+    ],
+    "offset": [
+      0,
+      29.5
+    ],
+    "originalSize": [
+      574,
+      314
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
