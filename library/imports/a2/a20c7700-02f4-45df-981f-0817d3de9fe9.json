@@ -1,0 +1,299 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter x TLC",
+      "totalLevel": "10",
+      "TitleImageName": "letterx.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "bgm_sc.mp3",
+      "mainBgName": "bg_doodle.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "letter x",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "fox_part_001.jpg",
+          "fox_part_002.jpg",
+          "fox_part_003.jpg",
+          "fox_part_004.jpg"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_24.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "fox",
+          "dog"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Fox.mp3"
+      },
+      {
+        "questionText": "letter x",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "mixer_part_001.jpg",
+          "mixer_part_002.jpg",
+          "mixer_part_003.jpg",
+          "mixer_part_004.jpg"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture..mp3",
+        "commonOptionImageName": "button_24.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "stove",
+          "mixer"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "mixer.mp3"
+      },
+      {
+        "questionText": "letter x",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "six_part_001.jpg",
+          "six_part_002.jpg",
+          "six_part_003.jpg",
+          "six_part_004.jpg"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_24.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "six",
+          "nine"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Six.mp3"
+      },
+      {
+        "questionText": "letter x",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "taxi_part_001.jpg",
+          "taxi_part_002.jpg",
+          "taxi_part_003.jpg",
+          "taxi_part_004.jpg"
+        ],
+        "correctAudioName": "IMPRESSIVEWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_24.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "bus",
+          "taxi"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "taxi.mp3"
+      },
+      {
+        "questionText": "letter x",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "ox_part_001.jpg",
+          "ox_part_002.jpg",
+          "ox_part_003.jpg",
+          "ox_part_004.jpg"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_24.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ox",
+          "crow"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Ox.mp3"
+      },
+      {
+        "questionText": "letter x",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "axe_part_001.jpg",
+          "axe_part_002.jpg",
+          "axe_part_003.jpg",
+          "axe_part_004.jpg"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_24",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "nail",
+          "axe"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "Axe.mp3"
+      },
+      {
+        "questionText": "letter x",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "box_part_001.jpg",
+          "box_part_002.jpg",
+          "box_part_003.jpg",
+          "box_part_004.jpg"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_24",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "box",
+          "can"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "box.mp3"
+      },
+      {
+        "questionText": "letter x",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "xray_part_001.jpg",
+          "xray_part_002.jpg",
+          "xray_part_003.jpg",
+          "xray_part_004.jpg"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_24.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "sun",
+          "x-ray"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "XRay.mp3"
+      },
+      {
+        "questionText": "letter x",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "boxer_part_001.jpg",
+          "boxer_part_002.jpg",
+          "boxer_part_003.jpg",
+          "boxer_part_004.jpg"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_24.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "boxer",
+          "farmer"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "boxer.mp3"
+      },
+      {
+        "questionText": "letter x",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "fax_part_001.jpg",
+          "fax_part_002.jpg",
+          "fax_part_003.jpg",
+          "fax_part_004.jpg"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "button_24.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "chair",
+          "fax"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "fax.mp3"
+      }
+    ]
+  }
+}
