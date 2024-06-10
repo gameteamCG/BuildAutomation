@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cardback",
+    "texture": "0b8ff62c-44dc-49a5-91d5-ea5984cb05fd",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      348,
+      349
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      350,
+      350
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

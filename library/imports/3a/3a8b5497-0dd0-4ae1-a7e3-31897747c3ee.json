@@ -1,0 +1,82 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "feeling chart",
+      "totalLevel": "3",
+      "TitleImageName": "feelingchart.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "doodlBG.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionAudioName": "matchthepicturetotheemotion.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "cardback.png",
+        "frontCardImageName": "cardfront.png",
+        "isOptionText": false,
+        "options": [
+          "bullying.png",
+          "sharing.png"
+        ],
+        "reiterationAudios": [
+          "youfeelsadwhenyouarebullied.mp3",
+          "youfeelhappywhenyoushare.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Sad.png",
+          "Happy.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "matchthepicturetotheemotion.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "cardback.png",
+        "frontCardImageName": "cardfront.png",
+        "isOptionText": false,
+        "options": [
+          "shakinghands.png",
+          "fighting.png"
+        ],
+        "reiterationAudios": [
+          "youfeelhappywhenyoushakehandsandgreet .mp3",
+          "youfeelsadwhenyoufight.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Happy.png",
+          "Sad.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "matchthepicturetotheemotion.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "cardback.png",
+        "frontCardImageName": "cardfront.png",
+        "isOptionText": false,
+        "options": [
+          "helping.png",
+          "teasing.png"
+        ],
+        "reiterationAudios": [
+          "youfeelhappywhenyouhelp.mp3",
+          "youfeelsadwhenyouareteased.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Happy.png",
+          "Sad.png"
+        ]
+      }
+    ]
+  }
+}
