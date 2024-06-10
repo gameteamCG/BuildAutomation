@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fardeen",
+    "texture": "a506516e-4152-48c9-b8a2-4a00b9516d9b",
+    "atlas": "",
+    "rect": [
+      30,
+      21,
+      196,
+      210
+    ],
+    "offset": [
+      3,
+      -1
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

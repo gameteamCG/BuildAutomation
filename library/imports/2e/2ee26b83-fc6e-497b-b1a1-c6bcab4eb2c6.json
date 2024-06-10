@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ferry",
+    "texture": "9a3cc1bc-2821-49dd-8a7d-5ae8ec3d88fc",
+    "atlas": "",
+    "rect": [
+      8,
+      88,
+      235,
+      99
+    ],
+    "offset": [
+      0.5,
+      -12.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
