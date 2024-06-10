@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sixi",
+    "texture": "84872d0d-a872-45a2-8227-c08be5e42faf",
+    "atlas": "",
+    "rect": [
+      40,
+      9,
+      170,
+      232
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
