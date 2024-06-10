@@ -1,0 +1,173 @@
+{
+  "AdditionalData": {
+    "GameID": "picture talk 'f'",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/16999FStory_1718023493619.mp4",
+    "TitleImageName": "titlepicturetalkF.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "bgm4.mp3",
+    "JockeyName": "Podar",
+    "TotalLevel": "8"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "fardeen.png",
+      "QuestionAudioName": "Whatwasthenameofthefisherman.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Fardeen",
+        "Imran",
+        "Sahil",
+        "Zen"
+      ],
+      "ReiterationAudioName": "fardeen.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": "What did Fardeen go fishing in?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "WhatdidFardeengofishingin.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "24.png",
+        "ferry.png",
+        "22.png",
+        "17.png"
+      ],
+      "ReiterationAudioName": "ferry.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": "What jumped into the fishing boat?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Whatjumpedintothefishingboat.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "19.png",
+        "23.png",
+        "15.png",
+        "frog.png"
+      ],
+      "ReiterationAudioName": "frog.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "What was turned off when Fardeen and the frog came home?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "WhatwasturnedoffwhenFardeenandthefrogcamehome .mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "16.png",
+        "11.png",
+        "fan.png",
+        "13.png"
+      ],
+      "ReiterationAudioName": "fan.mp3",
+      "CorrectAudioName": "GORGEOUSWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": "What was lying everywhere on the floor?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Whatwaslyingeverywhereonthefloor.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "feathers.png",
+        "26.png",
+        "25.png",
+        "12.png"
+      ],
+      "ReiterationAudioName": "feathers.mp3",
+      "CorrectAudioName": "GOODEFFORT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "What did he open when he was hungry?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Whatdidheopenwhenhewashungry.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "i14r.png",
+        "18.png",
+        "fridge.png",
+        "11.png"
+      ],
+      "ReiterationAudioName": "fridge.mp3",
+      "CorrectAudioName": "GORGEOUSWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "What did he eat?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Whatdidheeat .mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "fruits.png",
+        "22.png",
+        "28.png",
+        "18.png"
+      ],
+      "ReiterationAudioName": "fruits.mp3",
+      "CorrectAudioName": "GORGEOUSWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": "What happened when the fan was turned on?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Whathappenedwhenthefanwasturnedon .mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "20.png",
+        "feathers.png",
+        "12.png",
+        "25.png"
+      ],
+      "ReiterationAudioName": "feathersflew.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
