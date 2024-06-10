@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Puzzlefun",
+    "texture": "f1f417e2-d796-4011-9d57-9be8846feeb0",
+    "atlas": "",
+    "rect": [
+      23,
+      24,
+      485,
+      416
+    ],
+    "offset": [
+      9.5,
+      -10
+    ],
+    "originalSize": [
+      512,
+      444
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
