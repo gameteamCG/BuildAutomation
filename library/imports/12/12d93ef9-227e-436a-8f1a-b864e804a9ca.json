@@ -1,0 +1,147 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "The four seasons",
+      "totalLevel": "4",
+      "TitleImageName": "fourseason.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "summer_part_001.png",
+          "summer_part_002.png",
+          "summer_part_003.png",
+          "summer_part_004.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "SWIPE_AND_SPELL_THE_word_for_the_picture.mp3",
+        "commonOptionImageName": "box2.png",
+        "isOptionText": true,
+        "numberOfOptions": 6,
+        "options": [
+          "u",
+          "s",
+          "m",
+          "e",
+          "m",
+          "r"
+        ],
+        "correctAnswer": "215346",
+        "reiterationAudioName": "summer.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "autumn_part_001.png",
+          "autumn_part_002.png",
+          "autumn_part_003.png",
+          "autumn_part_004.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "SWIPE_AND_SPELL_THE_word_for_the_picture.mp3",
+        "commonOptionImageName": "box2.png",
+        "isOptionText": true,
+        "numberOfOptions": 6,
+        "options": [
+          "u",
+          "t",
+          "a",
+          "u",
+          "m",
+          "n"
+        ],
+        "correctAnswer": "312456",
+        "reiterationAudioName": "autumn.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "winter_part_001.png",
+          "winter_part_002.png",
+          "winter_part_003.png",
+          "winter_part_004.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "SWIPE_AND_SPELL_THE_word_for_the_picture.mp3",
+        "commonOptionImageName": "box2.png",
+        "isOptionText": true,
+        "numberOfOptions": 6,
+        "options": [
+          "i",
+          "t",
+          "w",
+          "n",
+          "r",
+          "e"
+        ],
+        "correctAnswer": "314265",
+        "reiterationAudioName": "winter.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "spring_part_001.png",
+          "spring_part_002.png",
+          "spring_part_003.png",
+          "spring_part_004.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "SWIPE_AND_SPELL_THE_word_for_the_picture.mp3",
+        "commonOptionImageName": "box2.png",
+        "isOptionText": true,
+        "numberOfOptions": 6,
+        "options": [
+          "p",
+          "s",
+          "i",
+          "r",
+          "g",
+          "n"
+        ],
+        "correctAnswer": "214365",
+        "reiterationAudioName": "Spring.mp3"
+      }
+    ]
+  }
+}
