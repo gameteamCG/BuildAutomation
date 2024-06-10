@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fourseason",
+    "texture": "90428328-8620-4611-95d7-50b72494203b",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      549,
+      214
+    ],
+    "offset": [
+      0,
+      29
+    ],
+    "originalSize": [
+      549,
+      274
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
