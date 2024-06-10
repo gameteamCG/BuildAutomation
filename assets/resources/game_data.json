@@ -1,0 +1,59 @@
+{
+  "additionalData": {
+    "GameID": "\"Read and Colour",
+    "totalLevel": "5",
+    "TitleImageName": "readwrite.png",
+    "introBgName": "sfdfgh.png",
+    "bgmMusicName": "BGM.mp3",
+    "initialVOName": "",
+    "mainBgName": "mnbvc.png",
+    "JockeyName": "Singham"
+  },
+  "questionData": [
+    {
+      "questionText": "The roof is red.\nThe door is green.\nThe walls are pink.",
+      "questionImageName": "",
+      "questionAudioName": "ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "house.png",
+      "needMoreTools": true,
+      "correctAudioName": "EXCELLENTJOB.mp3"
+    },
+    {
+      "questionText": "It is a big red ship.\nThe sun is yellow.\nWater is blue.\n",
+      "questionImageName": "",
+      "questionAudioName": "ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "ship.png",
+      "needMoreTools": true,
+      "correctAudioName": "EXCEPTIONAL.mp3"
+    },
+    {
+      "questionText": "Jan has a blue dress.\nHer shoes are red.\nHer hair is black.\n",
+      "questionImageName": "",
+      "questionAudioName": "ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "girl.png",
+      "needMoreTools": true,
+      "correctAudioName": "FANTASTIC.mp3"
+    },
+    {
+      "questionText": "The cat is pink.\nThe mat is blue.\nThe ball is yellow.\n",
+      "questionImageName": "",
+      "questionAudioName": "ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "ballll.png",
+      "needMoreTools": true,
+      "correctAudioName": "GORGEOUSWORK.mp3"
+    },
+    {
+      "questionText": "The bird is blue.\nThe tree is green.\nThe trunk is brown.\n",
+      "questionImageName": "",
+      "questionAudioName": "ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "tree.png",
+      "needMoreTools": true,
+      "correctAudioName": "IMPRESSIVEWORK.mp3"
+    }
+  ]
+}
