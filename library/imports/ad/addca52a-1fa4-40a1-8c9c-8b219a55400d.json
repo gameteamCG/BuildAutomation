@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "asailor",
+    "texture": "87ea8909-3412-466a-9e18-d64b01ab9986",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      608,
+      194
+    ],
+    "offset": [
+      0,
+      22
+    ],
+    "originalSize": [
+      608,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
