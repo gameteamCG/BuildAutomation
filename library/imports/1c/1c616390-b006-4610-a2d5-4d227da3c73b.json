@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "unicorn2",
+    "texture": "05db06f9-049e-440d-9bc4-b479fe693a67",
+    "atlas": "",
+    "rect": [
+      4,
+      12,
+      243,
+      228
+    ],
+    "offset": [
+      0.5,
+      -1
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
