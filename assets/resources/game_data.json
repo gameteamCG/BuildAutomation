@@ -1,0 +1,121 @@
+{
+  "additionalData": {
+    "GameID": "memory game",
+    "totalLevel": "5",
+    "TitleImageName": "memorygametitle.png",
+    "introBgName": "Junior.png",
+    "bgmMusicName": "bgm2.mp3",
+    "mainBgName": "deserBG.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "memory game",
+      "questionAudioName": "tapandfindthetwoidenticalpicturecards.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "cardback.png",
+      "frontCardImageName": "cardfront.png",
+      "isOptionText": false,
+      "options": [
+        "Asset1.png",
+        "Asset2.png"
+      ],
+      "reiterationAudios": [
+        "lightening.mp3",
+        "tornado.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "Asset1.png",
+        "Asset2.png"
+      ]
+    },
+    {
+      "questionText": "memory game",
+      "questionAudioName": "tapandfindthetwoidenticalpicturecards.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "cardback.png",
+      "frontCardImageName": "cardfront.png",
+      "isOptionText": false,
+      "options": [
+        "Asset3.png",
+        "Asset4.png"
+      ],
+      "reiterationAudios": [
+        "rainy.mp3",
+        "snowy.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "Asset3.png",
+        "Asset4.png"
+      ]
+    },
+    {
+      "questionText": "memory game",
+      "questionAudioName": "tapandfindthetwoidenticalpicturecards.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "cardback.png",
+      "frontCardImageName": "cardfront.png",
+      "isOptionText": false,
+      "options": [
+        "Asset5.png",
+        "Asset6.png"
+      ],
+      "reiterationAudios": [
+        "Fog.mp3",
+        "cyclone.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "Asset5.png",
+        "Asset6.png"
+      ]
+    },
+    {
+      "questionText": "memory game",
+      "questionAudioName": "tapandfindthetwoidenticalpicturecards.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "cardback.png",
+      "frontCardImageName": "cardfront.png",
+      "isOptionText": false,
+      "options": [
+        "Asset7.png",
+        "Asset8.png"
+      ],
+      "reiterationAudios": [
+        "stormy.mp3",
+        "windy.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "Asset7.png",
+        "Asset8.png"
+      ]
+    },
+    {
+      "questionText": "memory game",
+      "questionAudioName": "tapandfindthetwoidenticalpicturecards.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "cardback.png",
+      "frontCardImageName": "cardfront.png",
+      "isOptionText": false,
+      "options": [
+        "Asset9.png",
+        "Asset10.png",
+        "Asset11.png"
+      ],
+      "reiterationAudios": [
+        "hail.mp3",
+        "cloudy.mp3",
+        "sunny.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "Asset9.png",
+        "Asset10.png",
+        "Asset11.png"
+      ]
+    }
+  ]
+}
