@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "listeningtoyourteacher",
+    "texture": "34861cd9-1c6f-466f-942b-9ee07988bbef",
+    "atlas": "",
+    "rect": [
+      74,
+      106,
+      340,
+      341
+    ],
+    "offset": [
+      -6,
+      -26.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

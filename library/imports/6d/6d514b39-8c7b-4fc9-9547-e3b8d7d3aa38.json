@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cleaningtheclassroom",
+    "texture": "a0b392a5-5905-406f-8098-f497fe13ef64",
+    "atlas": "",
+    "rect": [
+      65,
+      110,
+      356,
+      327
+    ],
+    "offset": [
+      -7,
+      -23.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

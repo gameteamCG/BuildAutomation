@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hittingothers",
+    "texture": "0e7dd2d1-87bf-4d4f-8acb-6ac3747ac94c",
+    "atlas": "",
+    "rect": [
+      85,
+      100,
+      314,
+      347
+    ],
+    "offset": [
+      -8,
+      -23.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

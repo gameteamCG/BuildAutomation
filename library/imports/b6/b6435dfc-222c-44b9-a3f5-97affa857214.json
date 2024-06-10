@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "throwingtoys",
+    "texture": "0d816da7-bdea-4374-ad16-317aed91b368",
+    "atlas": "",
+    "rect": [
+      84,
+      122,
+      318,
+      308
+    ],
+    "offset": [
+      -7,
+      -26
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

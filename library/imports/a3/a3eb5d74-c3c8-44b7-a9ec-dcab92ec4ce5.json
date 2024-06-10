@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greetingyourfriend",
+    "texture": "842d1abd-8a7e-4552-8b10-d3e01ab0128c",
+    "atlas": "",
+    "rect": [
+      73,
+      103,
+      340,
+      338
+    ],
+    "offset": [
+      -7,
+      -22
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
