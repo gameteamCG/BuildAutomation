@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bullying",
+    "texture": "1dd390b5-745b-4d7a-9064-19b5c139f0b9",
+    "atlas": "",
+    "rect": [
+      57,
+      41,
+      363,
+      413
+    ],
+    "offset": [
+      -11.5,
+      2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

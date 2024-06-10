@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "teasing",
+    "texture": "256c58a2-685f-44fb-89c4-3662c1081bd0",
+    "atlas": "",
+    "rect": [
+      22,
+      48,
+      432,
+      400
+    ],
+    "offset": [
+      -12,
+      2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
