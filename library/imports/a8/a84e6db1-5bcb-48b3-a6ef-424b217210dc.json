@@ -1,0 +1,74 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Ordinal numbers UKG Practice Book 1 Page 103",
+      "totalLevel": "6",
+      "TitleImageName": "ordinal_numbers.png",
+      "introBgName": "bgtitlemain.png",
+      "bgmMusicName": "BGM_ROTE_count.mp3",
+      "initialVOName": "",
+      "mainBgName": "artbackground3.png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "1st",
+        "questionImageName": "blankframe.png",
+        "questionAudioName": "colour_the_1st_apple.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "3apple2.png",
+        "needMoreTools": true,
+        "correctAudioName": "first.mp3"
+      },
+      {
+        "questionText": "2nd",
+        "questionImageName": "blankframe.png",
+        "questionAudioName": "colour_the_2nd_watermelon.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "3watermelon2.png",
+        "needMoreTools": true,
+        "correctAudioName": "second.mp3"
+      },
+      {
+        "questionText": "3rd",
+        "questionImageName": "blankframe.png",
+        "questionAudioName": "Color_the_third_orange.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "3orange2.png",
+        "needMoreTools": true,
+        "correctAudioName": "third.mp3"
+      },
+      {
+        "questionText": "1st",
+        "questionImageName": "blankframe.png",
+        "questionAudioName": "colour_the_1st_bear.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "3bear.png",
+        "needMoreTools": true,
+        "correctAudioName": "first.mp3"
+      },
+      {
+        "questionText": "3rd",
+        "questionImageName": "blankframe.png",
+        "questionAudioName": "colour_the_3rd_bunny.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "3bunny.png",
+        "needMoreTools": true,
+        "correctAudioName": "third.mp3"
+      },
+      {
+        "questionText": "2nd",
+        "questionImageName": "blankframe.png",
+        "questionAudioName": "colour_the_second_cat.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "3cat.png",
+        "needMoreTools": true,
+        "correctAudioName": "second.mp3"
+      }
+    ]
+  }
+}

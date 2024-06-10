@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ordinal_numbers",
+    "texture": "5de8ffee-c1b2-4b59-a836-5e8ee59b0955",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      546,
+      236
+    ],
+    "offset": [
+      0,
+      6.5
+    ],
+    "originalSize": [
+      546,
+      253
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

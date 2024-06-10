@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3bunny",
+    "texture": "484cb81b-075b-4d1c-8e99-1f0f493a6915",
+    "atlas": "",
+    "rect": [
+      22,
+      177,
+      656,
+      346
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      700,
+      700
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
