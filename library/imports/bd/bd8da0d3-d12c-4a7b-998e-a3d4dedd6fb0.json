@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tlc_bg",
+    "texture": "f8b93401-a4fb-4e5c-9d30-79f9f827b8da",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1920,
+      1080
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
