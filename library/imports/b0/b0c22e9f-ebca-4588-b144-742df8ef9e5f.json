@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Gondart",
+    "texture": "501fc31e-37ce-4383-9ee5-2fdb65411b91",
+    "atlas": "",
+    "rect": [
+      19,
+      18,
+      610,
+      448
+    ],
+    "offset": [
+      9.5,
+      -9
+    ],
+    "originalSize": [
+      629,
+      466
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
