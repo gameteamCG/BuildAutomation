@@ -1,0 +1,93 @@
+{
+  "additionalData": {
+    "GameID": "Word family coloring",
+    "totalLevel": "3",
+    "TitleImageName": "titlt.png",
+    "introBgName": "sfdfgh.png",
+    "bgmMusicName": "BGM.mp3",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "titlese.png",
+      "questionAudioName": "edd.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "bed.png",
+        "red.png",
+        "six.png",
+        "fox.png"
+      ],
+      "optionsBg": [
+        "bedi.png",
+        "redi.png",
+        "sixi.png",
+        "foxi.png"
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "Bed.mp3",
+        "Red.mp3"
+      ],
+      "correctAnswerNum": "12"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "titlese.png",
+      "questionAudioName": "enn.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "hen.png",
+        "top.png",
+        "den.png",
+        "bib.png"
+      ],
+      "optionsBg": [
+        "heni.png",
+        "topi.png",
+        "deni.png",
+        "bibi.png"
+      ],
+      "correctAudioName": "IMPRESSIVEWORK.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "Hen.mp3",
+        "Den.mp3"
+      ],
+      "correctAnswerNum": "13"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "titlese.png",
+      "questionAudioName": "ett.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "coti.png",
+        "kid.png",
+        "vet.png",
+        "net.png"
+      ],
+      "optionsBg": [
+        "cot.png",
+        "kidi.png",
+        "veti.png",
+        "neti.png"
+      ],
+      "correctAudioName": "FANTASTIC.mp3",
+      "wrongAudioName": "ohoh.mp3",
+      "reiterationAudioName": [
+        "Vet.mp3",
+        "Net.mp3"
+      ],
+      "correctAnswerNum": "34"
+    }
+  ]
+}
