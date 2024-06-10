@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "memorygametitle",
+    "texture": "0e520a54-e389-4050-a672-5fd21c6ee99d",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      1098,
+      200
+    ],
+    "offset": [
+      7.5,
+      -8
+    ],
+    "originalSize": [
+      1135,
+      236
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
