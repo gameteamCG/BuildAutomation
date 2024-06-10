@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "post man",
+    "texture": "07985e54-6f07-4a91-96e3-4badd78e1c6f",
+    "atlas": "",
+    "rect": [
+      64,
+      0,
+      371,
+      500
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

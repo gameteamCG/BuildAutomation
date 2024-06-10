@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "farmer",
+    "texture": "8b5766c0-517e-41c3-a1ce-858a961520b4",
+    "atlas": "",
+    "rect": [
+      2,
+      43,
+      496,
+      414
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
