@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "braces",
+    "texture": "470cef20-3664-40fd-ac74-b4afe52b0297",
+    "atlas": "",
+    "rect": [
+      122,
+      182,
+      310,
+      136
+    ],
+    "offset": [
+      27,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
