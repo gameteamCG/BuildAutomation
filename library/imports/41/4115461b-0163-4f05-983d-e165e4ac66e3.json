@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "revisionoflettersound",
+    "texture": "c5f603f6-fdeb-4f9c-8549-aed198c36cb4",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      1132,
+      258
+    ],
+    "offset": [
+      0,
+      20
+    ],
+    "originalSize": [
+      1132,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
