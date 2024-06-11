@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "matching hats",
+      "totalLevel": "6",
+      "TitleImageName": "matchinghats.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "matching hats",
+        "questionAudioName": "matchthehatwiththecorrectcommunity helper.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "astronauthelmet.png"
+        ],
+        "reiterations": [
+          "astronaut.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "astronaut.png",
+          "teacher.png"
+        ]
+      },
+      {
+        "questionText": "matching hats",
+        "questionAudioName": "matchthehatwiththecorrectcommunity helper.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "chefhat.png"
+        ],
+        "reiterations": [
+          "CHEF.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "chef.png",
+          "plumber.png"
+        ]
+      },
+      {
+        "questionText": "matching hats",
+        "questionAudioName": "matchthehatwiththecorrectcommunity helper.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "constructionhat.png"
+        ],
+        "reiterations": [
+          "constructionworker.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "constructionworker.png",
+          "Artist.png"
+        ]
+      },
+      {
+        "questionText": "matching hats",
+        "questionAudioName": "matchthehatwiththecorrectcommunity helper.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "firefighterhat.png"
+        ],
+        "reiterations": [
+          "firefighter.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "fireman.png",
+          "gardener.png"
+        ]
+      },
+      {
+        "questionText": "matching hats",
+        "questionAudioName": "matchthehatwiththecorrectcommunity helper.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "hatnurse.png"
+        ],
+        "reiterations": [
+          "nurse.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "nurse.png",
+          "gardener.png"
+        ]
+      },
+      {
+        "questionText": "matching hats",
+        "questionAudioName": "matchthehatwiththecorrectcommunity helper.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "policehat.png"
+        ],
+        "reiterations": [
+          "POLICEMAN.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "policeman.png",
+          "farmer.png"
+        ]
+      }
+    ]
+  }
+}

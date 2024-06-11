@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "firefighterhat",
+    "texture": "6038c22d-111e-420e-a05c-94e317922274",
+    "atlas": "",
+    "rect": [
+      30,
+      135,
+      376,
+      232
+    ],
+    "offset": [
+      -32,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

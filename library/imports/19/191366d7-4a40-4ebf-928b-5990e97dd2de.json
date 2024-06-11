@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "policehat",
+    "texture": "dc486048-1370-44dc-9abd-e5fc1b6e6f8b",
+    "atlas": "",
+    "rect": [
+      35,
+      147,
+      368,
+      219
+    ],
+    "offset": [
+      -31,
+      -6.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
