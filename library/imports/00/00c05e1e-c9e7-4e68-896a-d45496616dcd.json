@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ehbg",
+    "texture": "f97044b8-ea12-4692-b653-d57ae4014f1f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1921,
+      1077
+    ],
+    "offset": [
+      0,
+      2
+    ],
+    "originalSize": [
+      1921,
+      1081
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

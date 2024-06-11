@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Electricalhazards",
+    "texture": "50e0bd93-4257-4504-aa79-7fa43f4cb810",
+    "atlas": "",
+    "rect": [
+      19,
+      20,
+      773,
+      339
+    ],
+    "offset": [
+      9.5,
+      -10
+    ],
+    "originalSize": [
+      792,
+      359
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
