@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "constractionworwker",
+    "texture": "e181310a-27a9-464f-8cc6-b93b50c78a78",
+    "atlas": "",
+    "rect": [
+      124,
+      25,
+      252,
+      452
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

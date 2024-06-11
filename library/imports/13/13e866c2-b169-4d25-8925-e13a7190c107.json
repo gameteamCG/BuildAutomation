@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "matchingtools",
+    "texture": "820de454-c808-42ff-8ef7-a70602d9979f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      990,
+      393
+    ],
+    "offset": [
+      -9,
+      0
+    ],
+    "originalSize": [
+      1008,
+      393
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

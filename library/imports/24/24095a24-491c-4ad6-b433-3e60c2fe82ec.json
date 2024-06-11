@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "handcuff",
+    "texture": "eb4d8039-32bd-4474-b906-c6e84f23ec88",
+    "atlas": "",
+    "rect": [
+      123,
+      133,
+      324,
+      232
+    ],
+    "offset": [
+      35,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
