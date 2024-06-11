@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "plant",
+    "texture": "493ba152-89e4-45a4-a3aa-bc7e28f3ec82",
+    "atlas": "",
+    "rect": [
+      0,
+      37,
+      428,
+      391
+    ],
+    "offset": [
+      -36,
+      17.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

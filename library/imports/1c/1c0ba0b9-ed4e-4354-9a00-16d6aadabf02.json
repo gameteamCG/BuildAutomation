@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "purse",
+    "texture": "c3c14ccd-760f-4fd3-bdf1-c46d742c2a06",
+    "atlas": "",
+    "rect": [
+      74,
+      22,
+      367,
+      461
+    ],
+    "offset": [
+      7.5,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

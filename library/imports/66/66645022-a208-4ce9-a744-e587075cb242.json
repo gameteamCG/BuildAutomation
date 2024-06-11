@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "napkin",
+    "texture": "e8726318-c8b7-402b-8fd5-a24535b9b932",
+    "atlas": "",
+    "rect": [
+      40,
+      42,
+      420,
+      416
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

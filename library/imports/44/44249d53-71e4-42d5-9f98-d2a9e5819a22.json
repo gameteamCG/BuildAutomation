@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "revisionovalshapes",
+    "texture": "fd97c6c6-3df2-499c-9a3c-ce14783718bb",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      862,
+      363
+    ],
+    "offset": [
+      7.5,
+      -8
+    ],
+    "originalSize": [
+      899,
+      399
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
