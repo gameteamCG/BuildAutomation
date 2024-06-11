@@ -1,0 +1,55 @@
+{
+  "additionalData": {
+    "GameID": "body part ",
+    "totalLevel": "6",
+    "TitleImageName": "Asset364.png",
+    "introBgName": "Senior.png",
+    "bgmMusicName": "bgm2.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "tongue",
+      "questionImageName": "touchtongue.png",
+      "questionAudioName": "touchyourtongue.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "ears",
+      "questionImageName": "touchears.png",
+      "questionAudioName": "touchyourears.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "head",
+      "questionImageName": "touchhead.png",
+      "questionAudioName": "touchyourhead.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "knees",
+      "questionImageName": "touchknee.png",
+      "questionAudioName": "touchyourknees.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "neck",
+      "questionImageName": "touchneck.png",
+      "questionAudioName": "touchyourneck.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "toes",
+      "questionImageName": "touchtoes.png",
+      "questionAudioName": "touchyourtoes.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    }
+  ]
+}
