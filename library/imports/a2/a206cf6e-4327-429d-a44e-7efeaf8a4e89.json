@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "touchtongue",
+    "texture": "4e300659-9024-4be3-9238-86a4b361ebd8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      489,
+      413
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      489,
+      413
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

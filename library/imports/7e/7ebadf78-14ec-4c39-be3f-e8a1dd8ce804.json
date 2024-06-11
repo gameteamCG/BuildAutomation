@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "touchneck",
+    "texture": "f49ad6f7-0cd1-4629-ab08-b42f35a4e05c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      490,
+      413
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      490,
+      413
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

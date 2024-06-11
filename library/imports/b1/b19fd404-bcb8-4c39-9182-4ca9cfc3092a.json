@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "touchknee",
+    "texture": "7ecd8495-7ed8-4e63-944c-93b9cd08a719",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      490,
+      414
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      490,
+      414
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

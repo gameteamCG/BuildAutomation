@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "body part ",
+      "totalLevel": "6",
+      "TitleImageName": "Asset364.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "bgm2.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "know your body",
+        "questionImageName": "touchtongue.png",
+        "questionAudioName": "touchyourtongue.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "know your body",
+        "questionImageName": "touchears.png",
+        "questionAudioName": "touchyourears.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "know your body",
+        "questionImageName": "touchhead.png",
+        "questionAudioName": "touchyourhead.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "know your body",
+        "questionImageName": "touchknee.png",
+        "questionAudioName": "touchyourknees.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "know your body",
+        "questionImageName": "touchneck.png",
+        "questionAudioName": "touchyourneck.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "know your body",
+        "questionImageName": "touchtoes.png",
+        "questionAudioName": "touchyourtoes.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      }
+    ]
+  }
+}

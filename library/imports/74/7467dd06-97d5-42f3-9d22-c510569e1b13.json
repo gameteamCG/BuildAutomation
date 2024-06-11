@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "touchtoes",
+    "texture": "ab11899a-0900-4e77-a205-97a109ee09ff",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      489,
+      413
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      489,
+      413
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

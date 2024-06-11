@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "touchears",
+    "texture": "b2bf7bae-f348-4340-8c2b-93c3252aad12",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      489,
+      413
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      489,
+      413
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

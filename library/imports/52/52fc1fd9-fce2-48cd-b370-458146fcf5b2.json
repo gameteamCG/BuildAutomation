@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "touchhead",
+    "texture": "8fd42d30-ba2c-4047-8b67-e3b7de64546c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      490,
+      413
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      490,
+      413
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
