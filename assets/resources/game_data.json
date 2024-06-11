@@ -1,0 +1,88 @@
+{
+  "additionalData": {
+    "GameID": "electrical hazards",
+    "totalLevel": "5",
+    "TitleImageName": "Electricalhazards.png",
+    "introBgName": "Senior.png",
+    "bgmMusicName": "bgm1.mp3",
+    "mainBgName": "ehbg.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "electrical hazard",
+      "questionImageName": "Asset6.png",
+      "questionAudioName": "Identifyifthegivenscenecausesanelectricalhazardornot.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset11.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset14.png",
+        "Asset13.png"
+      ],
+      "correctAudioName": "Turningoffthelampswitchwhennotinuseisnotanelectricalhazard..mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "electrical hazard",
+      "questionImageName": "Asset8.png",
+      "questionAudioName": "Identifyifthegivenscenecausesanelectricalhazardornot.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset11.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset14.png",
+        "Asset13.png"
+      ],
+      "correctAudioName": "Touchingtheironwhileitishotandpluggedisanelectricalhazard.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "electrical hazard",
+      "questionImageName": "Asset9.png",
+      "questionAudioName": "Identifyifthegivenscenecausesanelectricalhazardornot.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset11.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset14.png",
+        "Asset13.png"
+      ],
+      "correctAudioName": "Workingontheelectricalboardwithrubberglovesisnotanelectricalhazard.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "electrical hazard",
+      "questionImageName": "Asset7.png",
+      "questionAudioName": "Identifyifthegivenscenecausesanelectricalhazardornot.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset11.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset14.png",
+        "Asset13.png"
+      ],
+      "correctAudioName": "Touchingtheelectricalsocketwithwethandsisanelectricalhazard.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "electrical hazard",
+      "questionImageName": "Asset10.png",
+      "questionAudioName": "Identifyifthegivenscenecausesanelectricalhazardornot.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset11.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset14.png",
+        "Asset13.png"
+      ],
+      "correctAudioName": "Cleaningthetelevisionwhenitisswitchedonwithawetclothisanelectricalhazard.mp3",
+      "correctAnswerNum": "1"
+    }
+  ]
+}
