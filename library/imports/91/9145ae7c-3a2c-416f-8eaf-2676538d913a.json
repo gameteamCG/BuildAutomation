@@ -1,0 +1,119 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Picture talk 'D'",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/85161DStory_1718087315259.mp4",
+      "TitleImageName": "picturetalkd.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "bgm1.mp3",
+      "JockeyName": "Podar",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "danny.png",
+        "QuestionAudioName": "WhatdidDannyplay.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "drum.png",
+          "Asset6.png",
+          "Asset13.png",
+          "Asset9.png"
+        ],
+        "ReiterationAudioName": "drums.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "What pet did Danny have?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "WhatpetdidDannyhave.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset14.png",
+          "Asset7.png",
+          "dog.png",
+          "Asset11.png"
+        ],
+        "ReiterationAudioName": "dog.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "dog.png",
+        "QuestionAudioName": "Whatwasthenameofthedog.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Zoey",
+          "Shiro",
+          "Petty",
+          "Dino"
+        ],
+        "ReiterationAudioName": "dino.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Pond.png",
+        "QuestionAudioName": "Whatwasthereinthepond.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset2.png",
+          "ducks.png",
+          "Asset9.png",
+          "Asset10.png"
+        ],
+        "ReiterationAudioName": "ducks.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Pond.png",
+        "QuestionAudioName": "Whatsprangoutoftheduckpond.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "dolphin.png",
+          "Asset10.png",
+          "Asset12.png",
+          "Asset5.png"
+        ],
+        "ReiterationAudioName": "dolphin.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

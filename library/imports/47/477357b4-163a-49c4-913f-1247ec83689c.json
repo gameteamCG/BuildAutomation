@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "picturetalkd",
+    "texture": "a56055ee-62e0-422e-986a-93a8f54eb7c9",
+    "atlas": "",
+    "rect": [
+      26,
+      27,
+      582,
+      314
+    ],
+    "offset": [
+      8,
+      -8
+    ],
+    "originalSize": [
+      618,
+      352
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
