@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "number fun 1 to 5",
+      "totalLevel": "5",
+      "TitleImageName": "numberfun15.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "bgm1.mp3",
+      "initialVOName": "",
+      "mainBgName": "doodleBG.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "1",
+        "questionImageName": "red1.png",
+        "questionAudioName": "colourthenumber1patterntile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "1.png",
+        "needMoreTools": true,
+        "correctAudioName": "BRILLIANT.mp3"
+      },
+      {
+        "questionText": "2",
+        "questionImageName": "red2.png",
+        "questionAudioName": "colourthenumber2patterntile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "2.png",
+        "needMoreTools": true,
+        "correctAudioName": "EXCELLENTJOB.mp3"
+      },
+      {
+        "questionText": "3",
+        "questionImageName": "red3.png",
+        "questionAudioName": "colourthenumber3patterntile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "3.png",
+        "needMoreTools": true,
+        "correctAudioName": "FANTASTIC.mp3"
+      },
+      {
+        "questionText": "4",
+        "questionImageName": "red4.png",
+        "questionAudioName": "colourthenumber4patterntile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "4.png",
+        "needMoreTools": true,
+        "correctAudioName": "GOODJOB.mp3"
+      },
+      {
+        "questionText": "5",
+        "questionImageName": "red5.png",
+        "questionAudioName": "colourthenumber5patterntile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "5.png",
+        "needMoreTools": true,
+        "correctAudioName": "GREATWORK.mp3"
+      }
+    ]
+  }
+}
