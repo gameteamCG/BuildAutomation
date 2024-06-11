@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blackboard",
+    "texture": "2208fc76-d335-4316-a4e8-c3b8541d7a2b",
+    "atlas": "",
+    "rect": [
+      12,
+      181,
+      426,
+      87
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      450,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

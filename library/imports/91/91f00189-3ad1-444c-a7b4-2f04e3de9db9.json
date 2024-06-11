@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Where_do_you _sit_in_your _classroom",
+    "texture": "41027570-80ab-4dd6-9e79-759f1ebd2037",
+    "atlas": "",
+    "rect": [
+      10,
+      103,
+      429,
+      244
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      450,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

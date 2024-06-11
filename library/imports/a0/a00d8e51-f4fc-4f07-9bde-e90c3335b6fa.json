@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stack_of_books",
+    "texture": "6056a18a-eb03-4e46-a83b-37d3cae99e24",
+    "atlas": "",
+    "rect": [
+      20,
+      30,
+      209,
+      189
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

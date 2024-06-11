@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "classmate",
+    "texture": "9621e185-a649-4f72-85ec-3c4aed5a189f",
+    "atlas": "",
+    "rect": [
+      16,
+      176,
+      417,
+      97
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      450,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
