@@ -1,0 +1,94 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Addition",
+      "totalLevel": "5",
+      "TitleImageName": "addition.png",
+      "introBgName": "sfdfgh.png",
+      "bgmMusicName": "B2.mp3",
+      "mainBgName": "bg4.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "addition",
+        "questionImageName": "dolphin.png",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "9",
+          "2"
+        ],
+        "correctAudioName": "09.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "addition",
+        "questionImageName": "jelly.png",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "4",
+          "3"
+        ],
+        "correctAudioName": "03.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "addition",
+        "questionImageName": "octopus.png",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "4",
+          "8"
+        ],
+        "correctAudioName": "4.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "addition",
+        "questionImageName": "squid.png",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "6",
+          "7"
+        ],
+        "correctAudioName": "06.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "addition",
+        "questionImageName": "whale.png",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "4",
+          "5"
+        ],
+        "correctAudioName": "05.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
