@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Rainy creature ",
+      "totalLevel": "1",
+      "TitleImageName": "Rainycreature .png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "bgm3.mp3",
+      "initialVOName": "",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "draw and colour a rainy creature you see around the class.  ",
+        "questionImageName": "250x250empty.png",
+        "questionAudioName": "drawandcolourarainycreatureyouseearoundintheclass .mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "GOODJOB.mp3"
+      }
+    ]
+  }
+}

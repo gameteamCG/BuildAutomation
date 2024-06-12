@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Rainycreature ",
+    "texture": "9ffbe980-d8d3-49eb-b096-ac3b8e4823b4",
+    "atlas": "",
+    "rect": [
+      25,
+      25,
+      721,
+      340
+    ],
+    "offset": [
+      -24,
+      -0.5
+    ],
+    "originalSize": [
+      819,
+      389
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
