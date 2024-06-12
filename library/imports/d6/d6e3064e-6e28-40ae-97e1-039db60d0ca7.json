@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Imaginative drawing ",
+      "totalLevel": "1",
+      "TitleImageName": "Imaginativedrawing .png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "bgm1.mp3",
+      "initialVOName": "",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "draw and colour the things you use in the rainy season.",
+        "questionImageName": "250x250empty.png",
+        "questionAudioName": "drawandcolourthethingsyouuseduringtherainyseason.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "EXCELLENTJOB.mp3"
+      }
+    ]
+  }
+}
