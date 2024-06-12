@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dune_4",
+    "texture": "874b418d-a3d0-4348-ab3f-9304798217db",
+    "atlas": "",
+    "rect": [
+      2,
+      31,
+      496,
+      438
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

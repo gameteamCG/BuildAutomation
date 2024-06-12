@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sound_of_long_u",
+    "texture": "4645a5cb-751f-43f4-962a-606b23954967",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      899,
+      486
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      899,
+      486
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
