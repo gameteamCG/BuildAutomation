@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chillies",
+    "texture": "5bbba5b8-4f34-4e1f-8840-69fa9ed2314f",
+    "atlas": "",
+    "rect": [
+      29,
+      27,
+      186,
+      195
+    ],
+    "offset": [
+      -3,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Weighing_scale",
+    "texture": "bad98262-7e59-498e-bfd4-08c756aa2f34",
+    "atlas": "",
+    "rect": [
+      3,
+      74,
+      244,
+      103
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
