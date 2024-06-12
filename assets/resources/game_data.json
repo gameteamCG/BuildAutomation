@@ -1,0 +1,158 @@
+{
+  "additionalData": {
+    "GameID": "Tens and ones UKG COURSE BOOK 1",
+    "totalLevel": "5",
+    "TitleImageName": "Tens_and_Ones.png",
+    "introBgName": "titlebg.png",
+    "bgmMusicName": "tens_ones_BGM.mp3",
+    "mainBgName": "BG_13.png",
+    "JockeyName": "Singham"
+  },
+  "questionData": [
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "board2.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_part_001.png",
+        "1_part_002.png",
+        "1_part_003.png",
+        "1_part_004.png"
+      ],
+      "correctAudioName": "FANTASTIC.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "choose_the_correct_number_for_the_given_image.mp3",
+      "commonOptionImageName": "button_3.png",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "54.png",
+        "57.png",
+        "59.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "54.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "board2.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "2_part_001.png",
+        "2_part_002.png",
+        "2_part_003.png",
+        "2_part_004.png"
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "choose_the_correct_number_for_the_given_image.mp3",
+      "commonOptionImageName": "button_3.png",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "63.png",
+        "68.png",
+        "65.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "68.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "board2.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "3_part_001.png",
+        "3_part_002.png",
+        "3_part_003.png",
+        "3_part_004.png"
+      ],
+      "correctAudioName": "INCREDIBLE.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "choose_the_correct_number_for_the_given_image.mp3",
+      "commonOptionImageName": "button_3.png",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "54.png",
+        "51.png",
+        "57.png"
+      ],
+      "correctAnswer": "3",
+      "reiterationAudioName": "57.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "board2.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "4_part_001.png",
+        "4_part_002.png",
+        "4_part_003.png",
+        "4_part_004.png"
+      ],
+      "correctAudioName": "MAGNIFICENT.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "choose_the_correct_number_for_the_given_image.mp3",
+      "commonOptionImageName": "button_3.png",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "70.png",
+        "72.png",
+        "75.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "70.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "board2.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "5_part_001.png",
+        "5_part_002.png",
+        "5_part_003.png",
+        "5_part_004.png"
+      ],
+      "correctAudioName": "BRILLIANT.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "choose_the_correct_number_for_the_given_image.mp3",
+      "commonOptionImageName": "button_3.png",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "68.png",
+        "65.png",
+        "61.png"
+      ],
+      "correctAnswer": "3",
+      "reiterationAudioName": "61.mp3"
+    }
+  ]
+}
