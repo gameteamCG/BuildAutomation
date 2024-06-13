@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "writing readiness",
+      "totalLevel": "1",
+      "TitleImageName": "Writingreadiness.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "bgm2.mp3",
+      "initialVOName": "",
+      "mainBgName": "bg17.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "draw your favourite pattern",
+        "questionImageName": "empty.png",
+        "questionAudioName": "drawandcolourdesignsonthewingsofthebutterfly.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "butterfly.png",
+        "needMoreTools": true,
+        "correctAudioName": "EXCELLENTJOB.mp3"
+      }
+    ]
+  }
+}
