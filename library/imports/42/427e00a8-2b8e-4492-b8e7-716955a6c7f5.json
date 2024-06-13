@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "astronauthelmet",
+    "texture": "09a56fe6-8f79-4f5e-89d2-0c3e9929b100",
+    "atlas": "",
+    "rect": [
+      52,
+      83,
+      339,
+      339
+    ],
+    "offset": [
+      -28.5,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

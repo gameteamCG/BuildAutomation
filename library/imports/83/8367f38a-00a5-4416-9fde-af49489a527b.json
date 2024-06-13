@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "plumber",
+    "texture": "735837db-f4af-41a7-ad82-bb3d96a348c8",
+    "atlas": "",
+    "rect": [
+      116,
+      85,
+      321,
+      321
+    ],
+    "offset": [
+      29.5,
+      1.5
+    ],
+    "originalSize": [
+      494,
+      494
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

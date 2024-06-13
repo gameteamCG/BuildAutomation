@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hatnurse",
+    "texture": "71583def-7b30-4970-b0a3-bd9965e74303",
+    "atlas": "",
+    "rect": [
+      33,
+      145,
+      373,
+      217
+    ],
+    "offset": [
+      -30.5,
+      -3.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

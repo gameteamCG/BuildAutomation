@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "matchinghats",
+    "texture": "855548b5-05c0-4ddc-875c-651896a83517",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      739,
+      317
+    ],
+    "offset": [
+      8,
+      -8
+    ],
+    "originalSize": [
+      777,
+      353
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
