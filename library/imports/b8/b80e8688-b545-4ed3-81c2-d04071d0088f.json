@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "trew",
+    "texture": "6959ac18-897c-4420-accb-aec366caacd4",
+    "atlas": "",
+    "rect": [
+      0,
+      54,
+      251,
+      142
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
