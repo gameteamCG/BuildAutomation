@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dragonfruit",
+    "texture": "52dee8ef-31a5-4f7d-874e-5a7c954a969d",
+    "atlas": "",
+    "rect": [
+      70,
+      28,
+      110,
+      195
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
