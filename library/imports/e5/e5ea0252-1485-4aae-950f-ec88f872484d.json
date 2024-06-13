@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Playground objects: LKG PB1: 99",
+      "totalLevel": "5",
+      "TitleImageName": "title.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "KidsGame.mp3",
+      "initialVOName": "",
+      "mainBgName": "BG_3.png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "colour the objects seen at the park",
+        "questionImageName": "",
+        "questionAudioName": "colour_the_objects_seen_at_the_park.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "l1.png",
+        "needMoreTools": true,
+        "correctAudioName": "football.mp3"
+      },
+      {
+        "questionText": "colour the objects seen at the park",
+        "questionImageName": "",
+        "questionAudioName": "colour_the_objects_seen_at_the_park.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "l2.png",
+        "needMoreTools": true,
+        "correctAudioName": "kite.mp3"
+      },
+      {
+        "questionText": "colour the objects seen at the park",
+        "questionImageName": "",
+        "questionAudioName": "colour_the_objects_seen_at_the_park.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "l3.png",
+        "needMoreTools": true,
+        "correctAudioName": "sandpit.mp3"
+      },
+      {
+        "questionText": "colour the objects seen at the park",
+        "questionImageName": "",
+        "questionAudioName": "colour_the_objects_seen_at_the_park.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "l4.png",
+        "needMoreTools": true,
+        "correctAudioName": "slide.mp3"
+      },
+      {
+        "questionText": "colour the objects seen at the park",
+        "questionImageName": "",
+        "questionAudioName": "colour_the_objects_seen_at_the_park.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "l5.png",
+        "needMoreTools": true,
+        "correctAudioName": "swing.mp3"
+      }
+    ]
+  }
+}
