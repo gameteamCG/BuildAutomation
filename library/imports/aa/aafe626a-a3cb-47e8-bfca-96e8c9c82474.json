@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mop",
+    "texture": "6f5aab00-0871-4e77-8739-b798af336cc3",
+    "atlas": "",
+    "rect": [
+      210,
+      74,
+      193,
+      343
+    ],
+    "offset": [
+      56.5,
+      4.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
