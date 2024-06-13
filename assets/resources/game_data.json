@@ -1,0 +1,76 @@
+{
+  "additionalData": {
+    "GameID": "'ap' word family : Page 24",
+    "totalLevel": "3",
+    "TitleImageName": " _ap_ word family.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "BGM3.mp3",
+    "mainBgName": "BG_15.png",
+    "JockeyName": "Mighty_Raju"
+  },
+  "questionData": [
+    {
+      "questionText": "Match the word to the correct picture",
+      "questionAudioName": "ap_family_words.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "2_11.png",
+      "frontCardImageName": "1_9.png",
+      "isOptionText": false,
+      "options": [
+        "cap.png",
+        "map.png"
+      ],
+      "reiterationAudios": [
+        "cap.mp3",
+        "map.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "cap",
+        "map"
+      ]
+    },
+    {
+      "questionText": "Match the word to the correct picture",
+      "questionAudioName": "ap_family_words.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "2_11.png",
+      "frontCardImageName": "1_9.png",
+      "isOptionText": false,
+      "options": [
+        "nap.png",
+        "lap.png"
+      ],
+      "reiterationAudios": [
+        "nap.mp3",
+        "lap.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "nap",
+        "lap"
+      ]
+    },
+    {
+      "questionText": "Match the word to the correct picture",
+      "questionAudioName": "ap_family_words.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "2_11.png",
+      "frontCardImageName": "1_9.png",
+      "isOptionText": false,
+      "options": [
+        "sap.png",
+        "tap.png"
+      ],
+      "reiterationAudios": [
+        "sap.mp3",
+        "tap.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "sap",
+        "tap"
+      ]
+    }
+  ]
+}
