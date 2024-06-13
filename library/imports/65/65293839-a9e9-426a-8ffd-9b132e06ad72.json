@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lizard",
+    "texture": "cf537baa-196c-47fb-993d-9abc7dbda0c3",
+    "atlas": "",
+    "rect": [
+      9,
+      69,
+      233,
+      112
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

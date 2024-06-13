@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mosquito",
+    "texture": "d9ac08fb-e8fb-4d2f-9b06-a49f0deaf1b2",
+    "atlas": "",
+    "rect": [
+      13,
+      59,
+      224,
+      132
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

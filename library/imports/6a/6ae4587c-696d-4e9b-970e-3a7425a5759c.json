@@ -1,0 +1,119 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Phonic sound 'a'",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/AntsOnAndyAndAnny_1711525659463.mp4",
+      "TitleImageName": "lettersounda.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "letter sound 'a'",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identifythetoybeginningwithlettersounda.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "block.png",
+          "alligator.png",
+          "ball.png",
+          "toycar.png"
+        ],
+        "ReiterationAudioName": "alligator.mp3",
+        "CorrectAudioName": "L1correct.mp3",
+        "WrongAudioName": "no.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "antelope",
+        "QuestionImageName": "",
+        "QuestionAudioName": "choosetheantelope.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "monkey.png",
+          "koala.png",
+          "banana.png",
+          "antelope.png"
+        ],
+        "ReiterationAudioName": "antelope.mp3",
+        "CorrectAudioName": "L5Correct.mp3",
+        "WrongAudioName": "ns.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "letter sound 'a'",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Clickontheimagebeginningwithlettersounda.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "astronaut.png",
+          "ink.png",
+          "net.png",
+          "hat.png"
+        ],
+        "ReiterationAudioName": "astronaut.mp3",
+        "CorrectAudioName": "l6correct.mp3",
+        "WrongAudioName": "nu.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "fruit to eat",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whichfruitdidmummygetforthemtoeat.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "fig.png",
+          "dragonfruit.png",
+          "apples.png",
+          "kiwi.png"
+        ],
+        "ReiterationAudioName": "apples.mp3",
+        "CorrectAudioName": "L3correct.mp3",
+        "WrongAudioName": "no.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "insect came crawling",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q5.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "mosquito.png",
+          "lizard.png",
+          "ladybug.png",
+          "ants.png"
+        ],
+        "ReiterationAudioName": "ants.mp3",
+        "CorrectAudioName": "L8Correct.mp3",
+        "WrongAudioName": "nu.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}
