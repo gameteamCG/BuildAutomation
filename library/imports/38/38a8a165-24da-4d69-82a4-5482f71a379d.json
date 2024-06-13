@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nailpolish",
+    "texture": "93e779d4-565e-4d13-81b5-2f3115aa3709",
+    "atlas": "",
+    "rect": [
+      88,
+      76,
+      326,
+      345
+    ],
+    "offset": [
+      1,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

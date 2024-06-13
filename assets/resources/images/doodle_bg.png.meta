@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "baa0fdbb-f9b3-4f9e-b030-13fb55de41ed",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1922,
+  "height": 1082,
+  "platformSettings": {},
+  "subMetas": {
+    "doodle_bg": {
+      "ver": "1.0.6",
+      "uuid": "71396eea-8ac3-4fa0-aaf7-a6a103a016cb",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "baa0fdbb-f9b3-4f9e-b030-13fb55de41ed",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1922,
+      "height": 1082,
+      "rawWidth": 1922,
+      "rawHeight": 1082,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
