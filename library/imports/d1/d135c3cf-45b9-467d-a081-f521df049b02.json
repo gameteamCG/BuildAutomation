@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "muli",
+    "texture": "501f7dc6-cab7-4caf-ad8c-ff123a9c3eed",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      1427,
+      263
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      1427,
+      266
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
