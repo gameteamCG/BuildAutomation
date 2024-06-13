@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greylaptop",
+    "texture": "a0f93215-6417-4b18-98a8-06583b4a422c",
+    "atlas": "",
+    "rect": [
+      12,
+      74,
+      471,
+      302
+    ],
+    "offset": [
+      -2.5,
+      25
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

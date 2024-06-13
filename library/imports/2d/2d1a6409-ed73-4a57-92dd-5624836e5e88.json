@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyglass",
+    "texture": "08eb1d23-fbb0-458a-98fd-507a763d8cd0",
+    "atlas": "",
+    "rect": [
+      112,
+      48,
+      276,
+      429
+    ],
+    "offset": [
+      0,
+      -12.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyskirt",
+    "texture": "94c28cee-4221-4e61-95cb-02d0e47f9a85",
+    "atlas": "",
+    "rect": [
+      25,
+      46,
+      450,
+      408
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
