@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "apple",
+    "texture": "0e428481-d65f-46d6-98b0-31c4162a4d15",
+    "atlas": "",
+    "rect": [
+      161,
+      105,
+      293,
+      295
+    ],
+    "offset": [
+      57.5,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
