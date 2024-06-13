@@ -1,0 +1,59 @@
+{
+  "additionalData": {
+    "GameID": "Playground objects: LKG PB1: 99",
+    "totalLevel": "5",
+    "TitleImageName": "title.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "BGM_BW_game.mp3",
+    "initialVOName": "",
+    "mainBgName": "BG_3.png",
+    "JockeyName": "Mighty_Raju"
+  },
+  "questionData": [
+    {
+      "questionText": "football",
+      "questionImageName": "",
+      "questionAudioName": "colour_the_objects_seen_at_the_park.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "l1.png",
+      "needMoreTools": true,
+      "correctAudioName": "football.mp3"
+    },
+    {
+      "questionText": "kite",
+      "questionImageName": "",
+      "questionAudioName": "colour_the_objects_seen_at_the_park.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "l2.png",
+      "needMoreTools": true,
+      "correctAudioName": "kite.mp3"
+    },
+    {
+      "questionText": "sand pit",
+      "questionImageName": "",
+      "questionAudioName": "colour_the_objects_seen_at_the_park.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "l3.png",
+      "needMoreTools": true,
+      "correctAudioName": "sandpit.mp3"
+    },
+    {
+      "questionText": "slide",
+      "questionImageName": "",
+      "questionAudioName": "colour_the_objects_seen_at_the_park.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "l4.png",
+      "needMoreTools": true,
+      "correctAudioName": "slide.mp3"
+    },
+    {
+      "questionText": "swing",
+      "questionImageName": "",
+      "questionAudioName": "colour_the_objects_seen_at_the_park.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "l5.png",
+      "needMoreTools": true,
+      "correctAudioName": "swing.mp3"
+    }
+  ]
+}
