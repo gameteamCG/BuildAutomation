@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tent2",
+    "texture": "53131a84-eff6-40c9-b487-249a1545163e",
+    "atlas": "",
+    "rect": [
+      86,
+      129,
+      374,
+      240
+    ],
+    "offset": [
+      23,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
