@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "buk",
+    "texture": "422ccb56-19c1-4d6d-b904-367b85c97522",
+    "atlas": "",
+    "rect": [
+      23,
+      27,
+      206,
+      188
+    ],
+    "offset": [
+      0.5,
+      4.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

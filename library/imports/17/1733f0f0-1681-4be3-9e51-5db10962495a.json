@@ -1,0 +1,159 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Importance of water",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/1230987890_1718257685950.mp4",
+      "TitleImageName": "rereddf.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "7"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "tr.png",
+        "QuestionAudioName": "q1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "7-8 glasses",
+          "1-2 glasses",
+          "2-3 glasses",
+          "0 glasses"
+        ],
+        "ReiterationAudioName": "a1.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "thing that doesn't need water to survive",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "11.png",
+          "44.png",
+          "22.png",
+          "33.png"
+        ],
+        "ReiterationAudioName": "a2.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "We get rain from    ___",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "buk.png",
+          "clo.png",
+          "jug.png",
+          "tap.png"
+        ],
+        "ReiterationAudioName": "a3.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "well.png",
+        "QuestionAudioName": "q34.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "ocean",
+          "pond",
+          "well",
+          "river"
+        ],
+        "ReiterationAudioName": "a4.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "What should we do if the water is not clean?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q5.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "t.png",
+          "gf.png",
+          "tr.png",
+          "water.png"
+        ],
+        "ReiterationAudioName": "a5.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "How does water get dirty?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q6.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "hgf.png",
+          "bvc.png",
+          "ytr.png",
+          "trew.png"
+        ],
+        "ReiterationAudioName": "a6.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "save water",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q7.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "hgfd.png",
+          "bvc.png",
+          "yt.png",
+          "lkj.png"
+        ],
+        "ReiterationAudioName": "a7.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

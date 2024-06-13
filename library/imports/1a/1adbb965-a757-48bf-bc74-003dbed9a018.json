@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bvc",
+    "texture": "208e7e39-c881-42a1-b76b-51843b18b480",
+    "atlas": "",
+    "rect": [
+      20,
+      66,
+      210,
+      120
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

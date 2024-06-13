@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rereddf",
+    "texture": "fe78417a-ebe0-4878-9986-26c157d7e01d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      755,
+      315
+    ],
+    "offset": [
+      -7,
+      1.5
+    ],
+    "originalSize": [
+      769,
+      318
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
