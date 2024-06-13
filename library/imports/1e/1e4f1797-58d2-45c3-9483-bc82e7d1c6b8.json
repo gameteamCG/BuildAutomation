@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "AnsCard",
+    "texture": "e4a62a9c-6d42-444e-8dcf-4efe1daa798f",
+    "atlas": "",
+    "rect": [
+      13,
+      13,
+      474,
+      476
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

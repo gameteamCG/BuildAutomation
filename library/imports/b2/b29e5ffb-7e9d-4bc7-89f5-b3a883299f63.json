@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "caudal_fin",
+    "texture": "cafcfbc4-c6e8-4b79-8709-ec2fa4d88718",
+    "atlas": "",
+    "rect": [
+      154,
+      21,
+      335,
+      468
+    ],
+    "offset": [
+      71.5,
+      -5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

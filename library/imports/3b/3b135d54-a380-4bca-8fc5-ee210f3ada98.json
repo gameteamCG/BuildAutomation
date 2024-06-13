@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pectoral_fin",
+    "texture": "ab024201-4732-48cb-8142-28c71aed3932",
+    "atlas": "",
+    "rect": [
+      30,
+      11,
+      384,
+      367
+    ],
+    "offset": [
+      -28,
+      55.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
