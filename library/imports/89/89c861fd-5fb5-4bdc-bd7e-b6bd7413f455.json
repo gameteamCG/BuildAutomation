@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "asdes",
+    "texture": "8b4c8549-a7bd-4e3f-b7e3-0e67ebdc2063",
+    "atlas": "",
+    "rect": [
+      19,
+      19,
+      768,
+      339
+    ],
+    "offset": [
+      9.5,
+      -9.5
+    ],
+    "originalSize": [
+      787,
+      358
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

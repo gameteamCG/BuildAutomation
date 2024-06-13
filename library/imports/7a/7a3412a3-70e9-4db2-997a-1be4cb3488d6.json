@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chair",
+    "texture": "a5c744ad-a389-4f6b-9fc7-3a2ba5dfebb7",
+    "atlas": "",
+    "rect": [
+      62,
+      46,
+      375,
+      408
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
