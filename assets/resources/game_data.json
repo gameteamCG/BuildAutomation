@@ -1,0 +1,116 @@
+{
+  "additionalData": {
+    "GameID": "fat and thin",
+    "totalLevel": "6",
+    "TitleImageName": "Asset370.png",
+    "introBgName": "Junior.png",
+    "bgmMusicName": "bgm1.mp3",
+    "mainBgName": "doodlebG.png",
+    "JockeyName": "Podar",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "thin book",
+      "questionAudioName": "taponthethinbook.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset1.png",
+        "Asset7.png"
+      ],
+      "correctAudios": [
+        "thinbook.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "fat mouse",
+      "questionAudioName": "taponthefatmouse.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset4.png",
+        "Asset10.png"
+      ],
+      "correctAudios": [
+        "fatmouse.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "thin eraser",
+      "questionAudioName": "taponthethineraser.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset9.png",
+        "Asset3.png"
+      ],
+      "correctAudios": [
+        "thineraser.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "fat pencil",
+      "questionAudioName": "taponthefatpencil.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset8.png",
+        "Asset2.png"
+      ],
+      "correctAudios": [
+        "fatpencil.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "fat dog",
+      "questionAudioName": "taponthefatdog.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset12.png",
+        "Asset6.png"
+      ],
+      "correctAudios": [
+        "fatdog.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "thin cat",
+      "questionAudioName": "taponthethincat.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset11.png",
+        "Asset5.png"
+      ],
+      "correctAudios": [
+        "thincat.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
