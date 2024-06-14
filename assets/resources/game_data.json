@@ -1,0 +1,67 @@
+{
+  "AdditionalData": {
+    "GameID": "Sharing is caring",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/942764635_Sharing_is_caring_1718359866737.mp4",
+    "TitleImageName": "Sharing_is_caring.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "q1.png",
+      "QuestionAudioName": "1_which_toy_did_arjun_get.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "robot.png",
+        "remote_car.png"
+      ],
+      "ReiterationAudioName": "1_a_remote_controlled_car.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Who_was_sad.png",
+      "QuestionAudioName": "2_who_was_sad.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "girl.png",
+        "sad.png"
+      ],
+      "ReiterationAudioName": "2_manny_was_sad.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "What_did_Arjun_do.png",
+      "QuestionAudioName": "p_p.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "sharing_toys.png",
+        "dog_running.png"
+      ],
+      "ReiterationAudioName": "3_arjun_shared_his_toy_w.mp3",
+      "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
