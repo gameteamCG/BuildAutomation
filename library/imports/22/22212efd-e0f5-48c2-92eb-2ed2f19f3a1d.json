@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sharing_is_caring",
+    "texture": "ee3cc852-b063-4925-bedb-e685a1876447",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      630,
+      362
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      630,
+      362
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

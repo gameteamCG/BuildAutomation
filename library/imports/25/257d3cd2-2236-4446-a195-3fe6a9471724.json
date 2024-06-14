@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "What_did_Arjun_do",
+    "texture": "985439ee-aeec-48ab-a9c8-d1f68832980a",
+    "atlas": "",
+    "rect": [
+      60,
+      134,
+      339,
+      191
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
