@@ -1,0 +1,209 @@
+{
+  "additionalData": {
+    "GameID": "fruits",
+    "totalLevel": "7",
+    "TitleImageName": "Fruits.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "BGMBackward.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Singham"
+  },
+  "questionData": [
+    {
+      "questionText": "apple",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "frame.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "a1.png",
+        "a2.png",
+        "a3.png",
+        "a4.png"
+      ],
+      "correctAudioName": "apple_1.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "choose the correct fruit name",
+      "questionAudioName2": "choose_the_correct_fruit_name.mp3",
+      "commonOptionImageName": "panel_3.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "apple",
+        "mango"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "apple_1.mp3"
+    },
+    {
+      "questionText": "banana",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "frame.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "b1.png",
+        "b2.png",
+        "b3.png",
+        "b4.png"
+      ],
+      "correctAudioName": "banana_1.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "choose the correct fruit name",
+      "questionAudioName2": "choose_the_correct_fruit_name.mp3",
+      "commonOptionImageName": "panel_3.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "strawberry",
+        "banana"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "banana_1.mp3"
+    },
+    {
+      "questionText": "grapes",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "frame.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "g1.png",
+        "g2.png",
+        "g3.png",
+        "g4.png"
+      ],
+      "correctAudioName": "grapes_1.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "choose the correct fruit name",
+      "questionAudioName2": "choose_the_correct_fruit_name.mp3",
+      "commonOptionImageName": "panel_3.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "grapes",
+        "orange"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "grapes_1.mp3"
+    },
+    {
+      "questionText": "mango",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "frame.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "m1.png",
+        "m2.png",
+        "m3.png",
+        "m4.png"
+      ],
+      "correctAudioName": "Mango_1.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "choose the correct fruit name",
+      "questionAudioName2": "choose_the_correct_fruit_name.mp3",
+      "commonOptionImageName": "panel_3.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "pineapple",
+        "mango"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "Mango_1.mp3"
+    },
+    {
+      "questionText": "orange",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "frame.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "o1.png",
+        "o2.png",
+        "o3.png",
+        "o4.png"
+      ],
+      "correctAudioName": "orange_1.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "choose the correct fruit name",
+      "questionAudioName2": "choose_the_correct_fruit_name.mp3",
+      "commonOptionImageName": "panel_3.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "orange",
+        "apple"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "orange_1.mp3"
+    },
+    {
+      "questionText": "pineapple",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "frame.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "p1.png",
+        "p2.png",
+        "p3.png",
+        "p4.png"
+      ],
+      "correctAudioName": "pineapple_1.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "choose the correct fruit name",
+      "questionAudioName2": "choose_the_correct_fruit_name.mp3",
+      "commonOptionImageName": "panel_3.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "grapes",
+        "pineapple"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "pineapple_1.mp3"
+    },
+    {
+      "questionText": "strawberry",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "frame.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "s1.png",
+        "s2.png",
+        "s3.png",
+        "s4.png"
+      ],
+      "correctAudioName": "strawberry_1.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "choose the correct fruit name",
+      "questionAudioName2": "choose_the_correct_fruit_name.mp3",
+      "commonOptionImageName": "panel_3.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "strawberry",
+        "mango"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "strawberry_1.mp3"
+    }
+  ]
+}
