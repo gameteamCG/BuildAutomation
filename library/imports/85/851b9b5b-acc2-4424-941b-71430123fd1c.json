@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "robtext",
+    "texture": "c2674ee8-fa53-405a-a0aa-18684ed3acfa",
+    "atlas": "",
+    "rect": [
+      127,
+      157,
+      206,
+      122
+    ],
+    "offset": [
+      0,
+      12
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
