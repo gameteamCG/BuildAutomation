@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "joginthefog",
+    "texture": "ea8d85dd-cb3e-4e4d-9046-69d78822d160",
+    "atlas": "",
+    "rect": [
+      53,
+      12,
+      396,
+      473
+    ],
+    "offset": [
+      1,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

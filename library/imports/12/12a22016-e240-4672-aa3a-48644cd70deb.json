@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fogtext",
+    "texture": "f565a5d2-3016-4757-814d-a6bdccfdb356",
+    "atlas": "",
+    "rect": [
+      106,
+      158,
+      222,
+      170
+    ],
+    "offset": [
+      -13,
+      -13
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
