@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Who_was_sad",
+    "texture": "8aec0cb5-f5e4-4f87-9e9b-7f72f9323b46",
+    "atlas": "",
+    "rect": [
+      68,
+      147,
+      323,
+      166
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
