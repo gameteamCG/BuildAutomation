@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "165cf71e-67e6-44d7-83d0-a783c87efb81",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1003,
+  "height": 493,
+  "platformSettings": {},
+  "subMetas": {
+    "I_love_you_rhyme": {
+      "ver": "1.0.6",
+      "uuid": "059a0e76-ba36-48fc-940e-0ba0f694baa5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "165cf71e-67e6-44d7-83d0-a783c87efb81",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -12.5,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 978,
+      "height": 493,
+      "rawWidth": 1003,
+      "rawHeight": 493,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
