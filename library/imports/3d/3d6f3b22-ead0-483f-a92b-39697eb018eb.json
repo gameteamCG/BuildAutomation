@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ig_family_words",
+    "texture": "f28185a3-2e03-48a5-8ec2-4e54f67b8110",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1171,
+      239
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1171,
+      239
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
