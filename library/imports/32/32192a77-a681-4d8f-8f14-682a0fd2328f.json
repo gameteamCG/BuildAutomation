@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cobtext",
+    "texture": "51b61ba4-cb73-43af-871d-8421ad53cb56",
+    "atlas": "",
+    "rect": [
+      120,
+      157,
+      220,
+      122
+    ],
+    "offset": [
+      0,
+      12
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
