@@ -1,0 +1,112 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "odd one out feedback TLC",
+      "totalLevel": "5",
+      "TitleImageName": "title.png",
+      "introBgName": "Bg(8).png",
+      "bgmMusicName": "BGM(mp3cut.net).mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tlc",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "odd one out",
+        "questionAudioName": "Selecttheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 3,
+        "options": [
+          "h2.png",
+          "h1.png",
+          "h12.png"
+        ],
+        "correctAudios": [
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "odd one out",
+        "questionAudioName": "Selecttheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 3,
+        "options": [
+          "b1.png",
+          "b2.png",
+          "b12.png"
+        ],
+        "correctAudios": [
+          "EXCELLENTJOB.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "odd one out",
+        "questionAudioName": "Selecttheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 3,
+        "options": [
+          "bo12.png",
+          "bo1.png",
+          "bo2.png"
+        ],
+        "correctAudios": [
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "odd one out",
+        "questionAudioName": "Selecttheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 4,
+        "options": [
+          "ba2.png",
+          "ba12.png",
+          "ba13.png",
+          "ba1.png"
+        ],
+        "correctAudios": [
+          "GOODJOB.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "odd one out",
+        "questionAudioName": "Selecttheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 4,
+        "options": [
+          "f13.png",
+          "f12.png",
+          "f1.png",
+          "f2.png"
+        ],
+        "correctAudios": [
+          "GREATWORK.mp3"
+        ],
+        "correctAnswerNum": "4"
+      }
+    ]
+  }
+}
