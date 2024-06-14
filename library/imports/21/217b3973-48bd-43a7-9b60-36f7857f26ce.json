@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "I_love_you_rhyme_1",
+    "texture": "e7cf6ba0-79d9-4db6-b2f9-0dfbcedb864c",
+    "atlas": "",
+    "rect": [
+      97,
+      77,
+      809,
+      408
+    ],
+    "offset": [
+      0,
+      -34.5
+    ],
+    "originalSize": [
+      1003,
+      493
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
