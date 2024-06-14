@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "od family words Sr KG Book",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/ODFAMILY.mp4",
+      "TitleImageName": "odfamilywords.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "whatisthis.png",
+        "QuestionAudioName": "whatisthis.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "cod",
+          "pod",
+          "nod",
+          "rod"
+        ],
+        "ReiterationAudioName": "Cod.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "pod",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifycorrectpictureforword.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "250x250_0004_pod.png",
+          "250x250_0000_rod.png",
+          "250x250_0003_cod.png",
+          "250x250_0002_corn.png"
+        ],
+        "ReiterationAudioName": "Pod.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "500x500_0000_rod.png",
+        "QuestionAudioName": "whatisthis.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "cod",
+          "pod",
+          "god",
+          "rod"
+        ],
+        "ReiterationAudioName": "Rod.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "boygaveanod.png",
+        "QuestionAudioName": "The_boy_gave_a_DASH.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "nod",
+          "god",
+          "pod",
+          "cod"
+        ],
+        "ReiterationAudioName": "nod.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
