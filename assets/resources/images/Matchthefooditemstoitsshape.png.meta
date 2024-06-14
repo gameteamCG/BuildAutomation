@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9014b2f0-52ab-4292-ab08-9c6de260065b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1203,
+  "height": 335,
+  "platformSettings": {},
+  "subMetas": {
+    "Matchthefooditemstoitsshape": {
+      "ver": "1.0.6",
+      "uuid": "3cd7b3bf-dbda-41e9-8871-9734f7c70b3f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9014b2f0-52ab-4292-ab08-9c6de260065b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 6.5,
+      "offsetY": -6,
+      "trimX": 28,
+      "trimY": 28,
+      "width": 1160,
+      "height": 291,
+      "rawWidth": 1203,
+      "rawHeight": 335,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
