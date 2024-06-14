@@ -1,0 +1,116 @@
+{
+  "additionalData": {
+    "GameID": "Identify red objects feedback TLC",
+    "totalLevel": "5",
+    "TitleImageName": "title.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "bgm2.mp3",
+    "mainBgName": "doodle_bg.png",
+    "JockeyName": "tlc",
+    "templateType": "TapToCollect"
+  },
+  "questionData": [
+    {
+      "questionText": "identify red objects",
+      "questionImageName": "bucket_2.png",
+      "questionAudioName": "Tap_on_the_objects_that_are_red_in_colour_1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "apple.png",
+        "banana.png",
+        "book.png",
+        "brick.png"
+      ],
+      "correctAudios": [
+        "apple.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "identify red objects",
+      "questionImageName": "bucket_2.png",
+      "questionAudioName": "Tap_on_the_objects_that_are_red_in_colour_1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "crayon.png",
+        "duck.png",
+        "car.png",
+        "pram.png"
+      ],
+      "correctAudios": [
+        "redcar.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "identify red objects",
+      "questionImageName": "bucket_2.png",
+      "questionAudioName": "Tap_on_the_objects_that_are_red_in_colour_1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "book.png",
+        "hat.png",
+        "cabbage.png",
+        "suitcase.png"
+      ],
+      "correctAudios": [
+        "Hat.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "identify red objects",
+      "questionImageName": "bucket_2.png",
+      "questionAudioName": "Tap_on_the_objects_that_are_red_in_colour.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "shoes.png",
+        "banana.png",
+        "socks.png",
+        "flower.png"
+      ],
+      "correctAudios": [
+        "shoe.mp3",
+        "flower.mp3"
+      ],
+      "correctAnswerNum": "14"
+    },
+    {
+      "questionText": "identify red objects",
+      "questionImageName": "bucket_2.png",
+      "questionAudioName": "Tap_on_the_objects_that_are_red_in_colour.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "dress.png",
+        "tomato.png",
+        "strawberry.png",
+        "bucket.png"
+      ],
+      "correctAudios": [
+        "Tomato.mp3",
+        "strawberry.mp3"
+      ],
+      "correctAnswerNum": "23"
+    }
+  ]
+}
