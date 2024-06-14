@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "revision number 1",
+      "totalLevel": "5",
+      "TitleImageName": "revisionnumber1.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "bgm4.mp3",
+      "mainBgName": "grassbg.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "identify number 1",
+        "questionAudioName": "identifythenumber1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": true,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "3",
+          "1"
+        ],
+        "correctAudios": [
+          "1.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "identify the number pattern tile for 1",
+        "questionAudioName": "Identifythenumberpatterntilefornumber1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "1.png",
+          "2.png"
+        ],
+        "correctAudios": [
+          "1.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "identify 1 watermelon",
+        "questionAudioName": "countandtapon1obj.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "watermelon4.png",
+          "watermelon1.png"
+        ],
+        "correctAudios": [
+          "1watermelon.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "identify 1 banana",
+        "questionAudioName": "countandtapon1obj.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "banana3.png",
+          "banana1.png"
+        ],
+        "correctAudios": [
+          "1banana.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "identify 1 apple",
+        "questionAudioName": "countandtapon1obj.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "apple1.png",
+          "apple2.png"
+        ],
+        "correctAudios": [
+          "1apple.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
