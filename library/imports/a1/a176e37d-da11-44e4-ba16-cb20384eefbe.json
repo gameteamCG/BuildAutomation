@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tiltht",
+    "texture": "b24e0b68-9a1a-4684-ab14-f7cab7fc1d27",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      776,
+      362
+    ],
+    "offset": [
+      -8.5,
+      0
+    ],
+    "originalSize": [
+      793,
+      362
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

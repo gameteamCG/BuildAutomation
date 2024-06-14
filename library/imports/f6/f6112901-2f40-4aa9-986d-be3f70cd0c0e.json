@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Health and hygiene",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/8989090989_1718359607515.mp4",
+      "TitleImageName": "tiltht.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "q11.png",
+        "QuestionAudioName": "q1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "rob.png",
+          "grandma.png"
+        ],
+        "ReiterationAudioName": "robbie.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "q222.png",
+        "QuestionAudioName": "q2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "zoo.png",
+          "hospital.png"
+        ],
+        "ReiterationAudioName": "zoo.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "q33.png",
+        "QuestionAudioName": "q3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "d.png",
+          "robbie.png"
+        ],
+        "ReiterationAudioName": "a3.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "dirtyhands.png",
+        "QuestionAudioName": "q4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "eating.png",
+          "washinghands.png"
+        ],
+        "ReiterationAudioName": "a4.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
