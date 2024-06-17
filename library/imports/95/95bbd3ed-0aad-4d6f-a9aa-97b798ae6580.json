@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_By_taking_care_of_the_community",
+    "texture": "45c2a244-426b-43ed-8a88-5899f94eabaa",
+    "atlas": "",
+    "rect": [
+      22,
+      20,
+      205,
+      209
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

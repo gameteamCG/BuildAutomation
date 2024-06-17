@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Kindness1",
+    "texture": "5359c13e-5c79-43a1-9ee0-d5d4605258ca",
+    "atlas": "",
+    "rect": [
+      32,
+      188,
+      396,
+      83
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

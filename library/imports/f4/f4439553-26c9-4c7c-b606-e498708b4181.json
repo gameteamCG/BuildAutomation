@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Throwing_garbage_on_road",
+    "texture": "4b658a09-64da-4659-ada9-92335ccfe8ec",
+    "atlas": "",
+    "rect": [
+      20,
+      30,
+      209,
+      189
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

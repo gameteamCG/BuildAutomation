@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "4_By_helping_things_grow",
+    "texture": "909c27a6-317a-47c6-b7df-6cb072d212bf",
+    "atlas": "",
+    "rect": [
+      22,
+      22,
+      206,
+      206
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
