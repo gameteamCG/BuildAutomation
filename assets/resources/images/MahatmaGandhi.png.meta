@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ff77d97e-2875-4d2b-921e-2f64a57b572c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 460,
+  "height": 460,
+  "platformSettings": {},
+  "subMetas": {
+    "MahatmaGandhi": {
+      "ver": "1.0.6",
+      "uuid": "f3cf6484-a7b5-4bcb-b2a2-31a65e77d170",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ff77d97e-2875-4d2b-921e-2f64a57b572c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 44,
+      "trimY": 148,
+      "width": 372,
+      "height": 164,
+      "rawWidth": 460,
+      "rawHeight": 460,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

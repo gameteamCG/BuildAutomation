@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Freedomfighter_1",
+    "texture": "a64709db-0144-4ae9-8c80-23f805101b02",
+    "atlas": "",
+    "rect": [
+      86,
+      91,
+      745,
+      395
+    ],
+    "offset": [
+      0,
+      -45.5
+    ],
+    "originalSize": [
+      917,
+      486
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

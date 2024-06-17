@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a64709db-0144-4ae9-8c80-23f805101b02",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 917,
+  "height": 486,
+  "platformSettings": {},
+  "subMetas": {
+    "Freedomfighter_1": {
+      "ver": "1.0.6",
+      "uuid": "4bd5135e-c710-4a1e-a0af-b69e911cb3a2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a64709db-0144-4ae9-8c80-23f805101b02",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -45.5,
+      "trimX": 86,
+      "trimY": 91,
+      "width": 745,
+      "height": 395,
+      "rawWidth": 917,
+      "rawHeight": 486,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

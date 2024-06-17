@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "DrAmbedkar",
+    "texture": "b1fbcfeb-e55a-4676-8b0d-dae87a7adbd8",
+    "atlas": "",
+    "rect": [
+      19,
+      204,
+      421,
+      52
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

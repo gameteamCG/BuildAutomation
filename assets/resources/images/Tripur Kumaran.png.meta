@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "38f8f0ac-9ad9-4064-96d7-0bcc80079e95",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "Tripur Kumaran": {
+      "ver": "1.0.6",
+      "uuid": "70696af3-066c-4b25-8c01-f539d2f3d6fc",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "38f8f0ac-9ad9-4064-96d7-0bcc80079e95",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 4,
+      "trimY": 20,
+      "width": 241,
+      "height": 209,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

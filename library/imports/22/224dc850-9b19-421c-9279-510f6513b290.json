@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Rani_Laxmi_Bai",
+    "texture": "b3b56f9a-81a3-401d-99fa-68e678a808fe",
+    "atlas": "",
+    "rect": [
+      29,
+      148,
+      402,
+      163
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

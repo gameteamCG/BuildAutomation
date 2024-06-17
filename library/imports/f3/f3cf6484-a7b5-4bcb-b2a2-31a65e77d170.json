@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "MahatmaGandhi",
+    "texture": "ff77d97e-2875-4d2b-921e-2f64a57b572c",
+    "atlas": "",
+    "rect": [
+      44,
+      148,
+      372,
+      164
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

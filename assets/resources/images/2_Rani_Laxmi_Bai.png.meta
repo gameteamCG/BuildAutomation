@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "dc258d13-7337-401e-b5c4-c291b065bbc8",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "2_Rani_Laxmi_Bai": {
+      "ver": "1.0.6",
+      "uuid": "d99411f2-d238-4135-9866-d3d72c691470",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "dc258d13-7337-401e-b5c4-c291b065bbc8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 4,
+      "trimY": 20,
+      "width": 241,
+      "height": 209,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
