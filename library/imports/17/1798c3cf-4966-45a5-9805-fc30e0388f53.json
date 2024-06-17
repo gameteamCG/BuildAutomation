@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Baby shark",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/GNUR_WP11_4B.mp4",
+      "TitleImageName": "babyshark.png",
+      "IntroAudio1Name": "hellodearfriends.mp3",
+      "IntroAudio2Name": "Are you ready to go deep underwater and move with the sharks Lets dance to the Baby shark song.mp3",
+      "JockeyName": "puzzle",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
