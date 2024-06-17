@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "unsafetotouch",
+    "texture": "0efd396f-ecc4-4f9a-a4e2-27f6e619b625",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      674,
+      310
+    ],
+    "offset": [
+      -8,
+      0
+    ],
+    "originalSize": [
+      690,
+      310
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
