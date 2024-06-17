@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "CLAY",
+    "texture": "1325baa0-88bd-43d2-bfb9-ecc65a494e97",
+    "atlas": "",
+    "rect": [
+      16,
+      65,
+      267,
+      170
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

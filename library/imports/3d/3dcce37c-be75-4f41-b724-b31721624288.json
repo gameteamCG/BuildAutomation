@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stop",
+    "texture": "d55a1fbd-ba5a-4ff8-a06c-ea60d448dccd",
+    "atlas": "",
+    "rect": [
+      19,
+      19,
+      263,
+      263
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
