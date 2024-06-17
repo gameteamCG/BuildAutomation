@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "8c557cad-54d9-475e-9deb-a0a8f61ba478",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Postoffice2": {
+      "ver": "1.0.6",
+      "uuid": "5fe4e884-56f4-4676-89d8-58c52edf8af5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "8c557cad-54d9-475e-9deb-a0a8f61ba478",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 15.5,
+      "offsetY": -16,
+      "trimX": 31,
+      "trimY": 51,
+      "width": 470,
+      "height": 431,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

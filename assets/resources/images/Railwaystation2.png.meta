@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "89bef42b-1b3c-429d-be4e-6a02945bc48a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Railwaystation2": {
+      "ver": "1.0.6",
+      "uuid": "427c301c-be73-4d50-90c6-67989b87df2a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "89bef42b-1b3c-429d-be4e-6a02945bc48a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 6,
+      "offsetY": -13.5,
+      "trimX": 12,
+      "trimY": 27,
+      "width": 489,
+      "height": 474,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
