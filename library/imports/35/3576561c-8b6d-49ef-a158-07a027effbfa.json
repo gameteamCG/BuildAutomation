@@ -1,0 +1,110 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "number value",
+      "totalLevel": "10",
+      "TitleImageName": "numbervalue.png",
+      "introBgName": "skg.png",
+      "bgmMusicName": "bgmpattern.mp3",
+      "initialVOName": "evo.mp3",
+      "mainBgName": "Artboard22copy8.png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "3",
+        "questionImageName": "",
+        "questionAudioName": "drawtheobjectsasperthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "empty.png",
+        "needMoreTools": false,
+        "correctAudioName": "L3correct.mp3"
+      },
+      {
+        "questionText": "1",
+        "questionImageName": "",
+        "questionAudioName": "drawtheobjectsasperthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "empty.png",
+        "needMoreTools": false,
+        "correctAudioName": "L2Correct.mp3"
+      },
+      {
+        "questionText": "6",
+        "questionImageName": "",
+        "questionAudioName": "drawtheobjectsasperthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "empty.png",
+        "needMoreTools": false,
+        "correctAudioName": "l6correct.mp3"
+      },
+      {
+        "questionText": "8",
+        "questionImageName": "",
+        "questionAudioName": "drawtheobjectsasperthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "empty.png",
+        "needMoreTools": false,
+        "correctAudioName": "L8Correct.mp3"
+      },
+      {
+        "questionText": "2",
+        "questionImageName": "",
+        "questionAudioName": "drawtheobjectsasperthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "empty.png",
+        "needMoreTools": false,
+        "correctAudioName": "L7Correct.mp3"
+      },
+      {
+        "questionText": "9",
+        "questionImageName": "",
+        "questionAudioName": "drawtheobjectsasperthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "empty.png",
+        "needMoreTools": false,
+        "correctAudioName": "L3correct.mp3"
+      },
+      {
+        "questionText": "4",
+        "questionImageName": "",
+        "questionAudioName": "drawtheobjectsasperthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "empty.png",
+        "needMoreTools": false,
+        "correctAudioName": "L5Correct.mp3"
+      },
+      {
+        "questionText": "5",
+        "questionImageName": "",
+        "questionAudioName": "drawtheobjectsasperthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "empty.png",
+        "needMoreTools": false,
+        "correctAudioName": "L9Correct.mp3"
+      },
+      {
+        "questionText": "10",
+        "questionImageName": "",
+        "questionAudioName": "drawtheobjectsasperthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "empty.png",
+        "needMoreTools": false,
+        "correctAudioName": "L2Correct.mp3"
+      },
+      {
+        "questionText": "7",
+        "questionImageName": "",
+        "questionAudioName": "drawtheobjectsasperthegivennumber.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "empty.png",
+        "needMoreTools": false,
+        "correctAudioName": "L1correct.mp3"
+      }
+    ]
+  }
+}
