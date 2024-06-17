@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0003_Seventh",
+    "texture": "8477b836-f76f-49ca-9b0b-d63a2d592d19",
+    "atlas": "",
+    "rect": [
+      19,
+      93,
+      215,
+      44
+    ],
+    "offset": [
+      1.5,
+      10
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

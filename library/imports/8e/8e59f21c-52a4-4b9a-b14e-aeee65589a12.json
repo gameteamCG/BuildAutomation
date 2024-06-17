@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0001_Ninth",
+    "texture": "dba95fb4-568c-47c9-afd9-b6d61a78a449",
+    "atlas": "",
+    "rect": [
+      52,
+      94,
+      154,
+      43
+    ],
+    "offset": [
+      4,
+      9.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

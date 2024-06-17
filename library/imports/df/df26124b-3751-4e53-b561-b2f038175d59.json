@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0000_Tenth",
+    "texture": "aef4f187-e88c-42d5-900f-4dc0c5ec58a3",
+    "atlas": "",
+    "rect": [
+      49,
+      94,
+      155,
+      43
+    ],
+    "offset": [
+      1.5,
+      9.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
