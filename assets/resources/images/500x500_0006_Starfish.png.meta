@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "57481770-f3e4-4107-b120-de6ad506dcb0",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0006_Starfish": {
+      "ver": "1.0.6",
+      "uuid": "74ac2fc1-efcc-421d-87e3-c8b362bbcc0f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "57481770-f3e4-4107-b120-de6ad506dcb0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": 0,
+      "trimX": 15,
+      "trimY": 28,
+      "width": 474,
+      "height": 444,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

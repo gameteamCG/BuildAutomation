@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0006_Starfish",
+    "texture": "57481770-f3e4-4107-b120-de6ad506dcb0",
+    "atlas": "",
+    "rect": [
+      15,
+      28,
+      474,
+      444
+    ],
+    "offset": [
+      2,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
