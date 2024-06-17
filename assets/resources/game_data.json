@@ -1,0 +1,85 @@
+{
+  "AdditionalData": {
+    "GameID": "Kindness : page 185 Lower Nr",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/766130_Kindness_1718611651950.mp4",
+    "TitleImageName": "kindness.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Kindness1.png",
+      "QuestionAudioName": "1_How_will_you_show_kindness.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "1_By_taking_care_of_the_community.png",
+        "When_a_friend_is_teasing_you.png"
+      ],
+      "ReiterationAudioName": "1_By_taking_care_of_the_community.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Kindness1.png",
+      "QuestionAudioName": "1_How_will_you_show_kindness.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Push_them.png",
+        "2_By_keeping_others_safe.png"
+      ],
+      "ReiterationAudioName": "2_By_keeping_others_safe.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Kindness1.png",
+      "QuestionAudioName": "1_How_will_you_show_kindness.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "3_By_being_nice_to_animals.png",
+        "DOG.png"
+      ],
+      "ReiterationAudioName": "3_By_being_nice_to_animals.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Kindness1.png",
+      "QuestionAudioName": "1_How_will_you_show_kindness.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Throwing_garbage_on_road.png",
+        "4_By_helping_things_grow.png"
+      ],
+      "ReiterationAudioName": "4_By_helping_things_grow.mp3",
+      "CorrectAudioName": "AWESOMEYOUSAVEDIT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
