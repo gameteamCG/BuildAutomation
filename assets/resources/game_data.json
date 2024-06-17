@@ -1,0 +1,93 @@
+{
+  "AdditionalData": {
+    "GameID": "Wonders of the world_UKG Social Science_53",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/91290705_World_Landmarks3_1718623129600.mp4",
+    "TitleImageName": "wondersoftheworld.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q1text.png",
+      "QuestionAudioName": "Identify_the_wonder_of_the_world_the_statue_of_liberty_in_the_USA.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "statue_of_liberty.png",
+        "machu_pichu.png",
+        "pyramid .png",
+        "wall_of_china2.png"
+      ],
+      "ReiterationAudioName": "the_statue_of_liberty_in_the_USA.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q2text.png",
+      "QuestionAudioName": "Tap_on_the_picture_of_taj_mahal-in_India.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "acropolois.png",
+        "st_basil_catedral.png",
+        "taj_mahal.png",
+        "sagrada_familia.png"
+      ],
+      "ReiterationAudioName": "Taj_Mahal_in_India.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q3text.png",
+      "QuestionAudioName": "Choose_the_picture_of_leaning_tower_of_Pisa_in_Italy.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "big_ben.png",
+        "leaning_tower_of_pisa.png",
+        "Cristo_Redentor_Brazil.png",
+        "Angkor_Wat.png"
+      ],
+      "ReiterationAudioName": "The_leaning_tower_of_Pisa_in_Italy.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q4text.png",
+      "QuestionAudioName": "Identify_the_picture_of_the_Eiffel_Tower_in_France.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "wall_of_china2.png",
+        "Blue_Mosque.png",
+        "Eiffel_Tower2.png",
+        "Moai_on_Easter_Island_in_Chile.png"
+      ],
+      "ReiterationAudioName": "Eiffel_Tower_in_France.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "3"
+    }
+  ]
+}
