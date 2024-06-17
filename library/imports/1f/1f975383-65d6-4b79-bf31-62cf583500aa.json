@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dislike",
+    "texture": "8bfccf2b-52ab-4177-bc67-0b487146e2a7",
+    "atlas": "",
+    "rect": [
+      2,
+      20,
+      189,
+      169
+    ],
+    "offset": [
+      -3.5,
+      -4.5
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
