@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "taj_mahal",
+    "texture": "a36edafa-1446-4f2e-a499-aa81eac97ac0",
+    "atlas": "",
+    "rect": [
+      8,
+      43,
+      238,
+      168
+    ],
+    "offset": [
+      2,
+      -2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

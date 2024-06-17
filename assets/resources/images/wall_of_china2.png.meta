@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a85f18cb-40fe-432d-9f05-ad5eb5b98960",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "wall_of_china2": {
+      "ver": "1.0.6",
+      "uuid": "2bd72c5e-3179-40b7-9607-0829718cbc9c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a85f18cb-40fe-432d-9f05-ad5eb5b98960",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -2,
+      "trimX": 10,
+      "trimY": 14,
+      "width": 231,
+      "height": 226,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

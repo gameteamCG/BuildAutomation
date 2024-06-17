@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wondersoftheworld",
+    "texture": "00943dd2-944b-4cbf-b6fa-7975907c80e4",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      715,
+      235
+    ],
+    "offset": [
+      0,
+      4
+    ],
+    "originalSize": [
+      715,
+      247
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

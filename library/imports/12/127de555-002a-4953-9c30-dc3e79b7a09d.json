@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sagrada_familia",
+    "texture": "4099e468-30d1-41c3-8983-85646adf30c2",
+    "atlas": "",
+    "rect": [
+      9,
+      27,
+      232,
+      213
+    ],
+    "offset": [
+      0,
+      -8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

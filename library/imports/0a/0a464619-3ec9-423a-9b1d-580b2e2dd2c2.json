@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Cristo_Redentor_Brazil",
+    "texture": "b59b0010-a649-4d84-8e66-440a0dad5119",
+    "atlas": "",
+    "rect": [
+      32,
+      21,
+      169,
+      216
+    ],
+    "offset": [
+      -8.5,
+      -4
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

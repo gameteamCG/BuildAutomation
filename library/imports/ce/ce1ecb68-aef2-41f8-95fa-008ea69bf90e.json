@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "big_ben",
+    "texture": "4b6e8a22-586f-4a36-82df-f1d1b02b0eae",
+    "atlas": "",
+    "rect": [
+      108,
+      10,
+      40,
+      238
+    ],
+    "offset": [
+      3,
+      -4
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

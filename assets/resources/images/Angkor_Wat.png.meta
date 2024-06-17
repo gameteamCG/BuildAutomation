@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "065bb42c-b8b3-450f-a0f5-62c10e98ba07",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "Angkor_Wat": {
+      "ver": "1.0.6",
+      "uuid": "e517b4fe-c457-4834-9c59-6ed327bfe03f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "065bb42c-b8b3-450f-a0f5-62c10e98ba07",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": 6.5,
+      "trimX": 15,
+      "trimY": 54,
+      "width": 223,
+      "height": 129,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

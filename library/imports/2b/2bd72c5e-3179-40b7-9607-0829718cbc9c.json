@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wall_of_china2",
+    "texture": "a85f18cb-40fe-432d-9f05-ad5eb5b98960",
+    "atlas": "",
+    "rect": [
+      10,
+      14,
+      231,
+      226
+    ],
+    "offset": [
+      0.5,
+      -2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

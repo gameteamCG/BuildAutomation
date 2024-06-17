@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "st_basil_catedral",
+    "texture": "4c6fbd08-c8a6-4a97-9d2f-e5c216374ed3",
+    "atlas": "",
+    "rect": [
+      22,
+      13,
+      206,
+      220
+    ],
+    "offset": [
+      0,
+      2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "leaning_tower_of_pisa",
+    "texture": "01f7457a-8272-43b7-8d01-5942f091e8a6",
+    "atlas": "",
+    "rect": [
+      73,
+      10,
+      98,
+      227
+    ],
+    "offset": [
+      -3,
+      1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
