@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "24fee6a8-fa35-4a2a-8798-b02d4e0be62b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Q1whogrowscrops": {
+      "ver": "1.0.6",
+      "uuid": "66ac2805-dc2e-44d4-be9e-907a34ee5345",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "24fee6a8-fa35-4a2a-8798-b02d4e0be62b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2.5,
+      "offsetY": 0,
+      "trimX": 31,
+      "trimY": 165,
+      "width": 443,
+      "height": 170,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

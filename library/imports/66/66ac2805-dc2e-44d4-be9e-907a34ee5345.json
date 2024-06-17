@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q1whogrowscrops",
+    "texture": "24fee6a8-fa35-4a2a-8798-b02d4e0be62b",
+    "atlas": "",
+    "rect": [
+      31,
+      165,
+      443,
+      170
+    ],
+    "offset": [
+      2.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

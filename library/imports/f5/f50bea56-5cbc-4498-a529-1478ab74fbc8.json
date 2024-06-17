@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0002_pos_man",
+    "texture": "137f1920-994a-4e70-9131-6adcb93d4d1b",
+    "atlas": "",
+    "rect": [
+      69,
+      5,
+      103,
+      232
+    ],
+    "offset": [
+      -4.5,
+      4
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

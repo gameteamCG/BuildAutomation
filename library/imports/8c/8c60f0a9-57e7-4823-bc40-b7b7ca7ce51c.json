@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0020_architect",
+    "texture": "df4c7354-be76-45d4-adf8-6e048a83c432",
+    "atlas": "",
+    "rect": [
+      64,
+      18,
+      120,
+      210
+    ],
+    "offset": [
+      -1,
+      2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

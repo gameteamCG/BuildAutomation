@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2whobuild",
+    "texture": "5708d3d0-d772-4165-bed7-d471e909050b",
+    "atlas": "",
+    "rect": [
+      44,
+      165,
+      410,
+      148
+    ],
+    "offset": [
+      -1,
+      11
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
