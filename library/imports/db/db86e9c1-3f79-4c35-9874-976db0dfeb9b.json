@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "meerkat",
+    "texture": "01d07ca8-00d8-45b2-89a0-5d01565c719d",
+    "atlas": "",
+    "rect": [
+      93,
+      7,
+      94,
+      242
+    ],
+    "offset": [
+      14.5,
+      -2.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
