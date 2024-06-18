@@ -1,0 +1,165 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Phonic sound 'c'",
+      "totalLevel": "6",
+      "TitleImageName": "tital.png",
+      "introBgName": "Bg.png",
+      "bgmMusicName": "B2.mp3",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bgl1.png",
+        "questionAudioName": "butterfly_sound_c.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "b1.png",
+          "b2.png",
+          "b3.png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "Sound_of_c.mp3"
+        ],
+        "correctAnswerNum": "123"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bgl2.png",
+        "questionAudioName": "butterfly_sound_c.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "b1.png",
+          "b4.png",
+          "b2.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "Sound_of_c.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "gamebgL4.png",
+        "questionAudioName": "ballown_soun_c.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "ballon4.png",
+          "ballon2.png",
+          "ballon1.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "Sound_of_c.mp3"
+        ],
+        "correctAnswerNum": "123"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "gamebgL4.png",
+        "questionAudioName": "ballown_soun_c.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "ballon1.png",
+          "ballon2.png",
+          "ballon3.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "Sound_of_c.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bgl1.png",
+        "questionAudioName": "all_object_c.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "camelcolor1.png",
+          "carrot.png",
+          "cat.png"
+        ],
+        "optionsBg": [
+          "camel.png",
+          "carrotbw.png",
+          "catbw.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "CAMEL.mp3",
+          "carrot.mp3",
+          "cat.mp3"
+        ],
+        "correctAnswerNum": "123"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "gamebgL4.png",
+        "questionAudioName": "all_object_c.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "cat.png",
+          "fish.png",
+          "carrot.png"
+        ],
+        "optionsBg": [
+          "catbw.png",
+          "fishbw.png",
+          "carrotbw.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "cat.mp3",
+          "carrot.mp3"
+        ],
+        "correctAnswerNum": "13"
+      }
+    ]
+  }
+}
