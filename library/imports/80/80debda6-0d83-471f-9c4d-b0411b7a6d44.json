@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "usesofanimals",
+    "texture": "a4df54df-f403-487c-9828-9c196a35b8c5",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      483,
+      221
+    ],
+    "offset": [
+      0,
+      6.5
+    ],
+    "originalSize": [
+      483,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

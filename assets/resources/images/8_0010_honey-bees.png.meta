@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "984d0c49-2110-4e18-aa25-6352113d6f69",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "8_0010_honey-bees": {
+      "ver": "1.0.6",
+      "uuid": "73c632a9-5eed-40d7-86e0-9fa1ded91223",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "984d0c49-2110-4e18-aa25-6352113d6f69",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 5,
+      "trimX": 9,
+      "trimY": 48,
+      "width": 230,
+      "height": 144,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

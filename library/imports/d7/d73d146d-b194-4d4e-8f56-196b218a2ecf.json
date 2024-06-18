@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2eggs",
+    "texture": "f87fcfc4-29f4-4c4f-8a5b-bba6ee4ce6a7",
+    "atlas": "",
+    "rect": [
+      107,
+      107,
+      287,
+      303
+    ],
+    "offset": [
+      0.5,
+      -8.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

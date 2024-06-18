@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q5carry_load",
+    "texture": "696a9591-495c-403e-9730-0723f62e6eef",
+    "atlas": "",
+    "rect": [
+      30,
+      119,
+      440,
+      267
+    ],
+    "offset": [
+      0,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q4honey",
+    "texture": "13078c77-f399-4474-9454-735bd9f63e57",
+    "atlas": "",
+    "rect": [
+      148,
+      99,
+      204,
+      311
+    ],
+    "offset": [
+      0,
+      -4.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
