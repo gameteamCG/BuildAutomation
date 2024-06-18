@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Letter s",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/letterS.mp4",
+      "TitleImageName": "letterStitle.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the letter",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyletterS.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Mm",
+          "Ss"
+        ],
+        "ReiterationAudioName": "Sound_of_S.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘Ss’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbeginsletterS.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0014_Sea-bg.png",
+          "250x250_0007_ostrich.png"
+        ],
+        "ReiterationAudioName": "sea.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘Ss’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbeginsletterS.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0012_sun.png",
+          "250x250_0008_500x500_0009_ladder.png"
+        ],
+        "ReiterationAudioName": "sun.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘Ss’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbeginsletterS.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0019_rat.png",
+          "250x250_0015_sandwich.png"
+        ],
+        "ReiterationAudioName": "sandwich.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘Ss’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbeginsletterS.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0018_Red-Blob.png",
+          "250x250_0013_socks.png"
+        ],
+        "ReiterationAudioName": "Sock.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

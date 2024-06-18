@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "letter S",
+    "texture": "1f9900ee-b44f-4bf5-b071-b06f72d669f5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      719,
+      195
+    ],
+    "offset": [
+      0,
+      2
+    ],
+    "originalSize": [
+      719,
+      199
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
