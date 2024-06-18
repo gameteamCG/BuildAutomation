@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_0007_Sheep",
+    "texture": "eb10fe43-5f51-42b7-8389-0b8cad2836bb",
+    "atlas": "",
+    "rect": [
+      24,
+      49,
+      190,
+      136
+    ],
+    "offset": [
+      -6,
+      8
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

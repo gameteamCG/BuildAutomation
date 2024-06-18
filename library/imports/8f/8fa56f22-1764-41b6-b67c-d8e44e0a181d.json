@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q6insect",
+    "texture": "9a0430a2-531f-4302-bd0e-bacb1d85067a",
+    "atlas": "",
+    "rect": [
+      152,
+      220,
+      201,
+      52
+    ],
+    "offset": [
+      2.5,
+      4
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

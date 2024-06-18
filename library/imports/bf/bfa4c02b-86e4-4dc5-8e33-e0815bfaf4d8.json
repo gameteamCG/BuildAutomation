@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Animals_UKG Social Science_62",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/87339434_the_animal_world_educational_videos3_1718689327782.mp4",
+      "TitleImageName": "animals.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q1mammal.png",
+        "QuestionAudioName": "Q1mammal.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "3_0013_monkey.png",
+          "3_0020_crow.png",
+          "3_0005_sparrow.png",
+          "3_0012_parrot.png"
+        ],
+        "ReiterationAudioName": "monkey.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q2reptile.png",
+        "QuestionAudioName": "Q2reptile.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "3_0000_zebra.png",
+          "3_0015_lion.png",
+          "3_0006_snake.png",
+          "3_0003_tiger.png"
+        ],
+        "ReiterationAudioName": "snake.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q3bird.png",
+        "QuestionAudioName": "Q3bird.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "3_0002_tortoise.png",
+          "3_0014_lizard.png",
+          "3_0010_pigeon.png",
+          "3_0021_crocodile.png"
+        ],
+        "ReiterationAudioName": "pigeon.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q4seaanimal.png",
+        "QuestionAudioName": "Q4sea_animal.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "3_0004_swan.png",
+          "3_0009_python.png",
+          "3_0023_cow.png",
+          "3_0008_seahorse.png"
+        ],
+        "ReiterationAudioName": "seahorse.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q5land_and_water_animal.png",
+        "QuestionAudioName": "Q5land_water_animal.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "3_0018_frog.png",
+          "3_0019_eagle.png",
+          "3_0001_vulture.png",
+          "3_0012_parrot.png"
+        ],
+        "ReiterationAudioName": "frog.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q6insect.png",
+        "QuestionAudioName": "Q6insect.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "3_0016_horse.png",
+          "3_0017_grasshopper.png",
+          "3_0007_Sheep.png",
+          "3_0011_pig.png"
+        ],
+        "ReiterationAudioName": "grasshopper.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

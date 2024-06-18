@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q4seaanimal",
+    "texture": "736daa91-37fb-4f1c-8e74-18ead0782e97",
+    "atlas": "",
+    "rect": [
+      58,
+      217,
+      388,
+      55
+    ],
+    "offset": [
+      2,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

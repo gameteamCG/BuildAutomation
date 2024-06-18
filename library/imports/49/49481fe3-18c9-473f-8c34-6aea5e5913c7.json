@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_0010_pigeon",
+    "texture": "b154f5bf-1171-4084-9f3c-bd0a2c419e73",
+    "atlas": "",
+    "rect": [
+      21,
+      31,
+      192,
+      213
+    ],
+    "offset": [
+      -8,
+      -12.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

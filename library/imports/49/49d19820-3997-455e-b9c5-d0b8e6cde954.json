@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_0005_sparrow",
+    "texture": "c06265db-2f4a-4c6b-bedb-8e7bcb2e4526",
+    "atlas": "",
+    "rect": [
+      28,
+      28,
+      203,
+      205
+    ],
+    "offset": [
+      4.5,
+      -5.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

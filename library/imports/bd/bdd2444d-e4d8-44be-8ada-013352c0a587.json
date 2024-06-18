@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_0017_grasshopper",
+    "texture": "409fa306-02ee-4f4b-a22b-3b328c8e86f0",
+    "atlas": "",
+    "rect": [
+      51,
+      38,
+      161,
+      170
+    ],
+    "offset": [
+      6.5,
+      2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

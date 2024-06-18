@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2reptile",
+    "texture": "6ba45be9-9d5a-4dc2-b02f-a0adf6aa9123",
+    "atlas": "",
+    "rect": [
+      140,
+      217,
+      221,
+      77
+    ],
+    "offset": [
+      0.5,
+      -5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

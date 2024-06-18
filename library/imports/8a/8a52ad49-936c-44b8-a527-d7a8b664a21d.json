@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q5land_and_water_animal",
+    "texture": "570e490c-3cbf-4848-a2fb-8f7daa56f449",
+    "atlas": "",
+    "rect": [
+      13,
+      171,
+      477,
+      148
+    ],
+    "offset": [
+      1.5,
+      5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

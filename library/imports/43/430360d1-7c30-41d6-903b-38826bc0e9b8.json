@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q1mammal",
+    "texture": "13e352d3-5a24-4ee2-868c-f94ad82d1683",
+    "atlas": "",
+    "rect": [
+      97,
+      217,
+      311,
+      55
+    ],
+    "offset": [
+      2.5,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_0000_zebra",
+    "texture": "bfceb895-2ad8-480d-b828-a7e0cf561a7a",
+    "atlas": "",
+    "rect": [
+      34,
+      27,
+      193,
+      214
+    ],
+    "offset": [
+      5.5,
+      -9
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
