@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "6_0007_hummingbird",
+    "texture": "e9e7c51d-fa41-417e-a101-15bace19bfd1",
+    "atlas": "",
+    "rect": [
+      33,
+      20,
+      192,
+      211
+    ],
+    "offset": [
+      4,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "animal_movement",
+    "texture": "720fff1c-5cb5-4738-8186-0062efd3ebd3",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      692,
+      220
+    ],
+    "offset": [
+      0,
+      7
+    ],
+    "originalSize": [
+      692,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
