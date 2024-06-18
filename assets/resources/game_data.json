@@ -1,0 +1,73 @@
+{
+  "AdditionalData": {
+    "GameID": "What animals give us_UKG Social Science_72",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/What_Do_Farm_Animals_1718706118798.mp4",
+    "TitleImageName": "title.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "hen.png",
+      "QuestionAudioName": "What_does_the_hen_give_us.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "egg.png",
+        "banana.png",
+        "onion.png",
+        "wheat.png"
+      ],
+      "ReiterationAudioName": "Egg.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": ""
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "cow.png",
+      "QuestionAudioName": "What_does_the_cow_give_us.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "water.png",
+        "milk.png",
+        "lemonade.png",
+        "juice.png"
+      ],
+      "ReiterationAudioName": "milk.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "bees.png",
+      "QuestionAudioName": "What_do_the_bees_give_us.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "butter.png",
+        "cheese.png",
+        "honey.png",
+        "jam.png"
+      ],
+      "ReiterationAudioName": "honey.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    }
+  ]
+}
