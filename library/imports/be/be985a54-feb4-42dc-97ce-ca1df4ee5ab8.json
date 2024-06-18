@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Letter p",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/LetterP.mp4",
+      "TitleImageName": "letterptitle.png",
+      "IntroAudio1Name": "identifyletterP.mp3",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the letter",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyletterP.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Ee",
+          "Pp"
+        ],
+        "ReiterationAudioName": "Sound_of_P.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘Pp’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbeginsP.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0000_piano.png",
+          "250x250_0010_500x500_0007_lamp.png"
+        ],
+        "ReiterationAudioName": "piano.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘Pp’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbeginsP.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0000_fish.png",
+          "250x250_0001_puppy.png"
+        ],
+        "ReiterationAudioName": "puppy.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘Pp’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbeginsP.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0013_500x500_0012_king.png",
+          "250x250_0002_pizza.png"
+        ],
+        "ReiterationAudioName": "Pizza.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘Pp’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifywordbeginsP.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0003_pig.png",
+          "250x250_0006_500x500_0003_mittens.png"
+        ],
+        "ReiterationAudioName": "Pig.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
