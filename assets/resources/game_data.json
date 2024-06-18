@@ -1,0 +1,113 @@
+{
+  "AdditionalData": {
+    "GameID": "Uses of animals_UKG Social Science_70",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/37326367_why_animals_are_importantfinal_1718687119949.mp4",
+    "TitleImageName": "usesofanimals.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q1milk.png",
+      "QuestionAudioName": "",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "8_0015_cow_1.png",
+        "8_0005_ladybug.png",
+        "8_0017_butterfly_1.png",
+        "8_0018_bettle.png"
+      ],
+      "ReiterationAudioName": "22049145_6_cow.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q2eggs.png",
+      "QuestionAudioName": "",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "sheep1.png",
+        "8_0002_pig_2.png",
+        "8_0011_hen.png",
+        "8_0008_horse_4.png"
+      ],
+      "ReiterationAudioName": "22049145_7_hen.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q3wool.png",
+      "QuestionAudioName": "",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "8_0012_goat.png",
+        "sheep1.png",
+        "duck.png",
+        "8_0000_swan_1.png"
+      ],
+      "ReiterationAudioName": "22049145_8_sheep.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q4honey.png",
+      "QuestionAudioName": "",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "housefly.png",
+        "8_0016_caterpillar.png",
+        "8_0003_moth.png",
+        "8_0010_honey-bees.png"
+      ],
+      "ReiterationAudioName": "22049145_9_honey_bees.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q5carry_load.png",
+      "QuestionAudioName": "",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "8_0008_horse_4.png",
+        "8_0004_lizard_1.png",
+        "8_0001_puppy.png",
+        "8_0006_kitten.png"
+      ],
+      "ReiterationAudioName": "22049145_10_horse.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
