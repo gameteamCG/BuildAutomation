@@ -1,0 +1,133 @@
+{
+  "AdditionalData": {
+    "GameID": "Useful tools_UKG Social Science_59",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/72045405_Different_jobs_1718689450078.mp4",
+    "TitleImageName": "usefultools.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "6"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q1Identify_tools_farmer.png",
+      "QuestionAudioName": "Identify_the_tools_of_a_farmer.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "2_0002_rake_sckle_plough.png",
+        "2_0010_hammer_saw_nails.png",
+        "2_0009_needle_scisoor_thread.png",
+        "2_0007_paint_brush_roller.png"
+      ],
+      "ReiterationAudioName": "Rake_sickle_plough.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q2Who_uses_these_tools.png",
+      "QuestionAudioName": "Who_uses_these_tools.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "2_0015_electrician.png",
+        "2_0017_carpenter_1.png",
+        "2_0020_baker.png",
+        "2_0011_gardener.png"
+      ],
+      "ReiterationAudioName": "baker.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q3doctortools.png",
+      "QuestionAudioName": "Identify_the_tools_of_a_doctor.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "2_0014_Electrician’s_tools.png",
+        "2_0001_Stethoscope_syringe_medicines.png",
+        "2_0016_Chef_tools.png",
+        "2_0000_Teacher_tools.png"
+      ],
+      "ReiterationAudioName": "Stethoscope_syringe_medicines.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q4Who_uses_these_tools.png",
+      "QuestionAudioName": "Who_uses_these_tools.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "2_0004_plumber_1.png",
+        "2_0018_barber_1.png",
+        "2_0008_nurse.png",
+        "2_0003_potter.png"
+      ],
+      "ReiterationAudioName": "potter.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q5tailors_tools.png",
+      "QuestionAudioName": "Identify_the_tools_of_a_tailor.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "2_0009_needle_scisoor_thread.png",
+        "2_0005_plumber_tools.png",
+        "2_0019_barber_tools.png",
+        "2_0013_fire_fighter_tools.png"
+      ],
+      "ReiterationAudioName": "Needle_scissors_sewing_machine.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q6Who_uses_these_tools.png",
+      "QuestionAudioName": "Who_uses_these_tools.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "2_0006_painter.png",
+        "2_0012_firefighter.png",
+        "waiter.png",
+        "2_0004_plumber_1.png"
+      ],
+      "ReiterationAudioName": "waiter.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    }
+  ]
+}
