@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a1c3acee-2891-4192-8510-53e42bbbdc02",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "stonehenge": {
+      "ver": "1.0.6",
+      "uuid": "3afc23f6-044a-49d5-a899-d97118d9c3b3",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a1c3acee-2891-4192-8510-53e42bbbdc02",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 4.5,
+      "offsetY": -17.5,
+      "trimX": 17,
+      "trimY": 190,
+      "width": 476,
+      "height": 156,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

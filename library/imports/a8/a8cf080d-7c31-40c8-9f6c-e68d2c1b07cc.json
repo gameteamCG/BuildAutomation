@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "redeemer",
+    "texture": "736c948d-792a-4b46-9a42-73e93ea0e428",
+    "atlas": "",
+    "rect": [
+      45,
+      19,
+      411,
+      463
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

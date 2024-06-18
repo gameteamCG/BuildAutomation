@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "piramid_text",
+    "texture": "2f2dc519-e1de-4eb6-b133-5853f33c7fc0",
+    "atlas": "",
+    "rect": [
+      94,
+      196,
+      294,
+      170
+    ],
+    "offset": [
+      -9.5,
+      -30.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

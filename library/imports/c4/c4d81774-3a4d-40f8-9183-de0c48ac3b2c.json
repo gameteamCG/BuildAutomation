@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "piramid",
+    "texture": "e65c59a9-52fa-40c0-b0e7-d7a03c536a31",
+    "atlas": "",
+    "rect": [
+      13,
+      112,
+      475,
+      277
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

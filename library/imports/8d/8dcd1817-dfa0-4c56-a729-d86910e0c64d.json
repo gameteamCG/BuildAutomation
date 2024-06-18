@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wallchina",
+    "texture": "c96fe954-25e7-45b3-a2c1-5a798ed1b233",
+    "atlas": "",
+    "rect": [
+      0,
+      48,
+      501,
+      453
+    ],
+    "offset": [
+      0,
+      -24
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

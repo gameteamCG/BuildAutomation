@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tajmahal_text",
+    "texture": "02935e91-1b8a-4722-8390-b2bb81c63f53",
+    "atlas": "",
+    "rect": [
+      60,
+      215,
+      381,
+      83
+    ],
+    "offset": [
+      0,
+      -6
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

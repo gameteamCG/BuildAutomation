@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chichen_text",
+    "texture": "3011306a-664c-496c-9692-63d925a7a843",
+    "atlas": "",
+    "rect": [
+      32,
+      216,
+      440,
+      56
+    ],
+    "offset": [
+      1.5,
+      6.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

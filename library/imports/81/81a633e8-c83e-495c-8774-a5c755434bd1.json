@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "statueliberty",
+    "texture": "dc2c8c67-78c5-46c2-9803-d5a53a529c26",
+    "atlas": "",
+    "rect": [
+      185,
+      15,
+      168,
+      471
+    ],
+    "offset": [
+      18.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Machu_Picchu",
+    "texture": "2b1f385d-4f93-489d-ba28-15a4b345d36a",
+    "atlas": "",
+    "rect": [
+      2,
+      173,
+      499,
+      327
+    ],
+    "offset": [
+      1,
+      -86
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

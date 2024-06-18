@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "petra_text",
+    "texture": "709cc567-0a34-4877-beb1-61172a8d60a6",
+    "atlas": "",
+    "rect": [
+      162,
+      218,
+      183,
+      55
+    ],
+    "offset": [
+      3,
+      5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

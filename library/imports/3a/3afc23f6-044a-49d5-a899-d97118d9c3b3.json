@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stonehenge",
+    "texture": "a1c3acee-2891-4192-8510-53e42bbbdc02",
+    "atlas": "",
+    "rect": [
+      17,
+      190,
+      476,
+      156
+    ],
+    "offset": [
+      4.5,
+      -17.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

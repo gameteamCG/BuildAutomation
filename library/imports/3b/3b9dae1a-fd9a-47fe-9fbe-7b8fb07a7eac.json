@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pisa",
+    "texture": "8755e62a-76c6-435f-9f26-ac10107dacde",
+    "atlas": "",
+    "rect": [
+      75,
+      18,
+      77,
+      183
+    ],
+    "offset": [
+      -12,
+      16
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

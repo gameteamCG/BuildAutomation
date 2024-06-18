@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eifeltower_text",
+    "texture": "ad4c178a-3d64-4fa7-b342-88bf3f35a9f1",
+    "atlas": "",
+    "rect": [
+      36,
+      216,
+      436,
+      83
+    ],
+    "offset": [
+      3.5,
+      -7
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
