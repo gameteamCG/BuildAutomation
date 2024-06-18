@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q4Whofixes",
+    "texture": "d48c15e5-77e0-4578-9b0d-98496f55f7dd",
+    "atlas": "",
+    "rect": [
+      73,
+      165,
+      352,
+      170
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

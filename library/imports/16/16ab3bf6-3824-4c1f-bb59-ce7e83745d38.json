@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0010_gardner",
+    "texture": "650eade5-9270-4aa3-93b7-9576ea59a93a",
+    "atlas": "",
+    "rect": [
+      62,
+      14,
+      161,
+      228
+    ],
+    "offset": [
+      17.5,
+      -3
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

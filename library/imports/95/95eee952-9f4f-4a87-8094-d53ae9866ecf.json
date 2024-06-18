@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0009_hairdresser",
+    "texture": "22d3e9c7-b7a2-4fc4-a984-9c1b423dd4b5",
+    "atlas": "",
+    "rect": [
+      64,
+      21,
+      158,
+      210
+    ],
+    "offset": [
+      18,
+      -1
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

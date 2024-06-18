@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0006_milkman",
+    "texture": "cfa09b99-ffe4-4dea-9e3e-f37ba9e58c61",
+    "atlas": "",
+    "rect": [
+      70,
+      7,
+      148,
+      224
+    ],
+    "offset": [
+      19,
+      6
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

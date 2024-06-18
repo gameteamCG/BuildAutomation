@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3Whostitches",
+    "texture": "ecd7446f-324d-417b-9b04-7c1dd758cce1",
+    "atlas": "",
+    "rect": [
+      17,
+      165,
+      464,
+      148
+    ],
+    "offset": [
+      -1,
+      11
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

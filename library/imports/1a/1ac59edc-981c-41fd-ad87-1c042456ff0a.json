@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0007_mechanic",
+    "texture": "e6861957-3798-42b0-a6e5-3a2f9a2040cc",
+    "atlas": "",
+    "rect": [
+      38,
+      19,
+      144,
+      219
+    ],
+    "offset": [
+      -15,
+      -3.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
