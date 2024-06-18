@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "letter sounds EFGH",
+      "totalLevel": "8",
+      "TitleImageName": "LettersoundsEFGH.png",
+      "introBgName": "tlcbg1.png",
+      "bgmMusicName": "bgm2.mp3",
+      "mainBgName": "BG3.png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "letter E",
+        "questionImageName": "Ee.png",
+        "questionAudioName": "taponthepicturethatbeginswithletterE.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "bubble.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "eaglel.png",
+          "duck.png"
+        ],
+        "correctAudioName": "eagle.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter F",
+        "questionImageName": "Ff.png",
+        "questionAudioName": "taponthepicturethatbeginswithletterF2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "bubble.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "avocado.png",
+          "ClownFish.png"
+        ],
+        "correctAudioName": "Fish2.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter g",
+        "questionImageName": "Gg.png",
+        "questionAudioName": "taponthepicturethatbeginswithletterG.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "bubble.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Giraffe.png",
+          "icecream.png"
+        ],
+        "correctAudioName": "giraffe2.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter h",
+        "questionImageName": "Hh.png",
+        "questionAudioName": "taponthepicturethatbeginswithletterH.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "bubble.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "donut.png",
+          "Hen.png"
+        ],
+        "correctAudioName": "hen.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter f",
+        "questionImageName": "Ff.png",
+        "questionAudioName": "taponthepicturethatbeginswithletterF2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "bubble.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "frog.png",
+          "cow.png"
+        ],
+        "correctAudioName": "frog.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter h",
+        "questionImageName": "Hh.png",
+        "questionAudioName": "taponthepicturethatbeginswithletterH.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "bubble.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Layer71.png",
+          "helicopter.png"
+        ],
+        "correctAudioName": "helicopter.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter e",
+        "questionImageName": "Ee.png",
+        "questionAudioName": "taponthepicturethatbeginswithletterE.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "bubble.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "egg.png",
+          "cake2.png"
+        ],
+        "correctAudioName": "eggs.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter g",
+        "questionImageName": "Gg.png",
+        "questionAudioName": "taponthepicturethatbeginswithletterG.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "bubble.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "boat.png",
+          "gloves.png"
+        ],
+        "correctAudioName": "Glovess.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "avocado",
+    "texture": "c26b3cb6-14cd-419c-bd87-dc68dc5c36d7",
+    "atlas": "",
+    "rect": [
+      65,
+      102,
+      370,
+      296
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
