@@ -1,0 +1,32 @@
+{
+  "additionalData": {
+    "GameID": "Airplanes_LKG Course Book 2_92",
+    "totalLevel": "2",
+    "TitleImageName": "airplane.png",
+    "introBgName": "bgtitlemain.png",
+    "bgmMusicName": "BGM_ROTE_count.mp3",
+    "initialVOName": "blank_audio.mp3",
+    "mainBgName": "artbackground2.png",
+    "JockeyName": "Singham"
+  },
+  "questionData": [
+    {
+      "questionText": "airplane",
+      "questionImageName": "blankframe.png",
+      "questionAudioName": "colour_the_airplane_that_is_taking_off.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "plane_take off.png",
+      "needMoreTools": true,
+      "correctAudioName": "MAGNIFICENT.mp3"
+    },
+    {
+      "questionText": "airplane",
+      "questionImageName": "blankframe.png",
+      "questionAudioName": "Colour_the_airplane_that_is_landing.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "plane_landing.png",
+      "needMoreTools": true,
+      "correctAudioName": "FANTASTIC.mp3"
+    }
+  ]
+}
