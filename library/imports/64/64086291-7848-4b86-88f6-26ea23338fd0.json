@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lettersoundDd",
+    "texture": "c9767f70-375d-46cf-959e-8c86b4a0d3c6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      913,
+      412
+    ],
+    "offset": [
+      0,
+      5.5
+    ],
+    "originalSize": [
+      913,
+      423
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Phonic sound 'd'",
+      "totalLevel": "6",
+      "TitleImageName": "lettersoundDd.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "galaxybg.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Dd",
+        "questionAudioName": "question1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "uibox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "donkey.png",
+          "brush.png"
+        ],
+        "correctAudioName": "donkey.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Dd",
+        "questionAudioName": "question3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "uibox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "den.png",
+          "carrot.png"
+        ],
+        "correctAudioName": "den.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Dd",
+        "questionAudioName": "question1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "uibox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "sheep.png",
+          "dino.png",
+          "gift.png"
+        ],
+        "correctAudioName": "dinosaur.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Dd",
+        "questionAudioName": "question3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "uibox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "fire.png",
+          "cap.png",
+          "donut.png"
+        ],
+        "correctAudioName": "donut.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Dd",
+        "questionAudioName": "question1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "uibox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "deer.png",
+          "frog.png",
+          "fox.png"
+        ],
+        "correctAudioName": "deer.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Dd",
+        "questionAudioName": "question3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "uibox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "turtle.png",
+          "dress.png",
+          "flower.png"
+        ],
+        "correctAudioName": "dress.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
