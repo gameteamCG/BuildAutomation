@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3doctortools",
+    "texture": "72fb912a-aeaa-4558-a44f-090afa0f74d0",
+    "atlas": "",
+    "rect": [
+      17,
+      217,
+      476,
+      55
+    ],
+    "offset": [
+      5,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

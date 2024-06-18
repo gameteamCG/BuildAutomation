@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "2_0013_fire_fighter_tools",
+    "texture": "3c870e18-d209-466f-b1bf-a5b66e45d933",
+    "atlas": "",
+    "rect": [
+      32,
+      13,
+      174,
+      214
+    ],
+    "offset": [
+      -6,
+      5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

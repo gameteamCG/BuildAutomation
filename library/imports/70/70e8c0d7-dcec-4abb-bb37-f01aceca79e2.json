@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q5tailors_tools",
+    "texture": "d462fcb3-6231-4a98-ae54-e69edd2a4744",
+    "atlas": "",
+    "rect": [
+      25,
+      217,
+      447,
+      55
+    ],
+    "offset": [
+      -1.5,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "2_0016_Chef_tools",
+    "texture": "e8519ee1-2652-4cae-b27f-87652df43863",
+    "atlas": "",
+    "rect": [
+      7,
+      20,
+      209,
+      218
+    ],
+    "offset": [
+      -13.5,
+      -4
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

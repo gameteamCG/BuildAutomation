@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "waiter",
+    "texture": "35e3f577-c25a-45fd-bdc0-9243175431ef",
+    "atlas": "",
+    "rect": [
+      34,
+      17,
+      159,
+      213
+    ],
+    "offset": [
+      -11.5,
+      1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

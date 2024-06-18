@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "2_0009_needle_scisoor_thread",
+    "texture": "11b57c6b-1b55-4419-ac0a-8e8e05a10be1",
+    "atlas": "",
+    "rect": [
+      24,
+      19,
+      222,
+      196
+    ],
+    "offset": [
+      10,
+      8
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

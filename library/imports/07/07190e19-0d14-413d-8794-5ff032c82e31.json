@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "2_0003_potter",
+    "texture": "2f324cdd-3aa1-4631-ba36-df2438d0cc64",
+    "atlas": "",
+    "rect": [
+      63,
+      19,
+      118,
+      215
+    ],
+    "offset": [
+      -3,
+      -1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

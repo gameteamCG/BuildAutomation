@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q1Identify_tools_farmer",
+    "texture": "af54325d-763c-4942-a5e2-52c67e48ff54",
+    "atlas": "",
+    "rect": [
+      2,
+      217,
+      495,
+      77
+    ],
+    "offset": [
+      -0.5,
+      -5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

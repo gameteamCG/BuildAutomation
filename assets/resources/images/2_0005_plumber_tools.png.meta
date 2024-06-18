@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "66d78fee-a093-452e-a6c0-e15640f27535",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "2_0005_plumber_tools": {
+      "ver": "1.0.6",
+      "uuid": "efc0e904-b474-4a83-b910-299466cd41c6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "66d78fee-a093-452e-a6c0-e15640f27535",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": -8,
+      "trimX": 10,
+      "trimY": 25,
+      "width": 234,
+      "height": 216,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
