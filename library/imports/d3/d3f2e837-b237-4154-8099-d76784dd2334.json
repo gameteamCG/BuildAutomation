@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "plane_take off",
+    "texture": "d7c002d2-5ae7-4613-9cca-b2fdc78fee52",
+    "atlas": "",
+    "rect": [
+      0,
+      27,
+      600,
+      563
+    ],
+    "offset": [
+      0,
+      -8.5
+    ],
+    "originalSize": [
+      600,
+      600
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

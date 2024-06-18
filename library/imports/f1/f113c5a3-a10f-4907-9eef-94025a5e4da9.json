@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "plane_landing",
+    "texture": "4e07413f-2f60-475e-b8e6-3cab0edd25a9",
+    "atlas": "",
+    "rect": [
+      0,
+      166,
+      600,
+      401
+    ],
+    "offset": [
+      0,
+      -66.5
+    ],
+    "originalSize": [
+      600,
+      600
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
