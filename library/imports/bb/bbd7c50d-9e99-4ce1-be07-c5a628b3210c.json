@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pilloe",
+    "texture": "b9e2b80b-070f-4489-b053-eec744b1c6db",
+    "atlas": "",
+    "rect": [
+      26,
+      39,
+      198,
+      173
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

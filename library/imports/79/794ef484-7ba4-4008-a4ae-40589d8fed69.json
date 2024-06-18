@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "animal_diat",
+    "texture": "f2e222f5-446d-4d19-b769-1e20e6df80e1",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      672,
+      123
+    ],
+    "offset": [
+      0,
+      7
+    ],
+    "originalSize": [
+      672,
+      141
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

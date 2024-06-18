@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "crayons",
+    "texture": "548f2515-7728-46f7-9cac-04cfb814f4c0",
+    "atlas": "",
+    "rect": [
+      49,
+      45,
+      154,
+      160
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
