@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0018_Red-Blob",
+    "texture": "00f2b2d9-3524-4d02-b910-3c9507e3d024",
+    "atlas": "",
+    "rect": [
+      18,
+      38,
+      212,
+      177
+    ],
+    "offset": [
+      -1,
+      -1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
