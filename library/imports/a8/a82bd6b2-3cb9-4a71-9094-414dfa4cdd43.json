@@ -1,0 +1,146 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Colour - Orange",
+      "totalLevel": "7",
+      "TitleImageName": "asset.png",
+      "introBgName": "NURSE.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "Puzzle",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "orange colour",
+        "questionImageName": "questionimage.png",
+        "questionAudioName": "questionaudio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "oranagebox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "b3.png",
+          "o3.png",
+          "g3.png",
+          "p3.png"
+        ],
+        "correctAudioName": "evo.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "orange colour",
+        "questionImageName": "questionimage.png",
+        "questionAudioName": "questionaudio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "oranagebox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "p1.png",
+          "g1.png",
+          "y1.png",
+          "o1.png"
+        ],
+        "correctAudioName": "evo.mp3",
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "orange colour",
+        "questionImageName": "questionimage.png",
+        "questionAudioName": "questionaudio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "oranagebox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "p3.png",
+          "r2.png",
+          "o2.png",
+          "y3.png"
+        ],
+        "correctAudioName": "evo.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "orange colour",
+        "questionImageName": "questionimage.png",
+        "questionAudioName": "questionaudio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "oranagebox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "o6.png",
+          "g1.png",
+          "b5.png",
+          "r2.png"
+        ],
+        "correctAudioName": "evo.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "orange colour",
+        "questionImageName": "questionimage.png",
+        "questionAudioName": "questionaudio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "oranagebox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "r4.png",
+          "o7.png",
+          "g3.png",
+          "y5.png"
+        ],
+        "correctAudioName": "evo.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "orange colour",
+        "questionImageName": "questionimage.png",
+        "questionAudioName": "questionaudio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "oranagebox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "o5.png",
+          "r2.png",
+          "y2.png",
+          "g5.png"
+        ],
+        "correctAudioName": "evo.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "orange colour",
+        "questionImageName": "questionimage.png",
+        "questionAudioName": "questionaudio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "oranagebox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "g2.png",
+          "o4.png",
+          "r4.png",
+          "p5.png"
+        ],
+        "correctAudioName": "evo.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
