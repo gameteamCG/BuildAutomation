@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "alphabetcapitalandsmallIJ",
+    "texture": "bb95149e-0946-4fba-9427-ecf809fad37d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1184,
+      348
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      1184,
+      350
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
