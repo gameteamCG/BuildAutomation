@@ -1,0 +1,121 @@
+{
+  "AdditionalData": {
+    "GameID": "same/different",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/1254543423_1718709187175.mp4",
+    "TitleImageName": "tgtgt.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "6"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "que.png",
+      "QuestionAudioName": "q1.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Layer.png",
+        "YELLO.png"
+      ],
+      "ReiterationAudioName": "q1a.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "pinki.png",
+      "QuestionAudioName": "q2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "green.png",
+        "rink.png"
+      ],
+      "ReiterationAudioName": "q2a.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "nevermind.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "bigyello.png",
+      "QuestionAudioName": "q3.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "YELLO.png",
+        "blu.png"
+      ],
+      "ReiterationAudioName": "q3a.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "traingle.png",
+      "QuestionAudioName": "q4.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "rink.png",
+        "traingle.png"
+      ],
+      "ReiterationAudioName": "q4a.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "nevermind.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "dino.png",
+      "QuestionAudioName": "q5.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "right.png",
+        "left.png"
+      ],
+      "ReiterationAudioName": "q5a.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "squ.png",
+      "QuestionAudioName": "q6.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "rob22.png",
+        "rob11.png"
+      ],
+      "ReiterationAudioName": "q6a.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
