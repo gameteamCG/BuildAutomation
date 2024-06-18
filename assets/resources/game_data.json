@@ -1,0 +1,113 @@
+{
+  "AdditionalData": {
+    "GameID": "Land and water animals_UKG Social Science_63",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/53130167_Animal_Kingdom_1718688373938.mp4",
+    "TitleImageName": "land_wateranimal.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q_land_and_water_animal.png",
+      "QuestionAudioName": "Tap_on_the_animal_which_is_a_land_and_water_animal.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "3_0018_frog.png",
+        "octopus.png",
+        "humpbackwhale.png",
+        "dolphin.png"
+      ],
+      "ReiterationAudioName": "frog.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q_land_and_water_animal.png",
+      "QuestionAudioName": "Tap_on_the_animal_which_is_a_land_and_water_animal.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "dog.png",
+        "cat.png",
+        "4_0002_tortoise.png",
+        "pig.png"
+      ],
+      "ReiterationAudioName": "tortoise.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q_land_and_water_animal.png",
+      "QuestionAudioName": "Tap_on_the_animal_which_is_a_land_and_water_animal.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "starfish.png",
+        "4_0016_crocodile.png",
+        "jellyfish.png",
+        "squid.png"
+      ],
+      "ReiterationAudioName": "Alligator.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q_land_and_water_animal.png",
+      "QuestionAudioName": "Tap_on_the_animal_which_is_a_land_and_water_animal.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "4_0012_monkey.png",
+        "dear.png",
+        "horse.png",
+        "penguin.png"
+      ],
+      "ReiterationAudioName": "Penguin.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q_land_and_water_animal.png",
+      "QuestionAudioName": "Tap_on_the_animal_which_is_a_land_and_water_animal.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "duck.png",
+        "humpbackwhale.png",
+        "4_0009_seahorse.png",
+        "fish.png"
+      ],
+      "ReiterationAudioName": "Duck.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
