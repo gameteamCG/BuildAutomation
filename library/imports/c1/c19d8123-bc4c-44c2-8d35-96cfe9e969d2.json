@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "herd",
+    "texture": "aa61d513-4153-48f2-89cc-e3495fab4283",
+    "atlas": "",
+    "rect": [
+      165,
+      187,
+      241,
+      99
+    ],
+    "offset": [
+      35.5,
+      13.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
