@@ -1,0 +1,160 @@
+{
+  "additionalData": {
+    "GameID": "Hot and Cold_Nursery Course Book 2_44",
+    "totalLevel": "7",
+    "TitleImageName": "Asset56.png",
+    "introBgName": "tlcbg1.png",
+    "bgmMusicName": "bgm3.mp3",
+    "mainBgName": "Artboard1copy.png",
+    "JockeyName": "Singham"
+  },
+  "questionData": [
+    {
+      "questionText": "match the picture",
+      "questionAudioName": "taponthepicturethatishot.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "flamepancopy.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "hot"
+      ],
+      "reiterations": [
+        "sun2.mp3"
+      ],
+      "commonRightOptionImageName": "flamepancopy2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "sun.png",
+        "snow.png"
+      ]
+    },
+    {
+      "questionText": "match the picture",
+      "questionAudioName": "taponthepicturethatiscold.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "flamepancopy.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "cold"
+      ],
+      "reiterations": [
+        "icecream.mp3"
+      ],
+      "commonRightOptionImageName": "flamepancopy2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "icecream.png",
+        "tea.png"
+      ]
+    },
+    {
+      "questionText": "match the picture",
+      "questionAudioName": "taponthepicturethatishot.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "flamepancopy.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "hot"
+      ],
+      "reiterations": [
+        "bonfire.mp3"
+      ],
+      "commonRightOptionImageName": "flamepancopy2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "bonfire.png",
+        "snowman.png"
+      ]
+    },
+    {
+      "questionText": "match the picture",
+      "questionAudioName": "taponthepicturethatiscold.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "flamepancopy.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "cold"
+      ],
+      "reiterations": [
+        "icecube.mp3"
+      ],
+      "commonRightOptionImageName": "flamepancopy2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "icecube.png",
+        "soup.png"
+      ]
+    },
+    {
+      "questionText": "match the picture",
+      "questionAudioName": "taponthepicturethatiscold.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "flamepancopy.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "cold"
+      ],
+      "reiterations": [
+        "juice.mp3"
+      ],
+      "commonRightOptionImageName": "flamepancopy2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "juice.png",
+        "flamepan.png"
+      ]
+    },
+    {
+      "questionText": "match the picture",
+      "questionAudioName": "taponthepicturethatishot.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "flamepancopy.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "hot"
+      ],
+      "reiterations": [
+        "candle.mp3"
+      ],
+      "commonRightOptionImageName": "flamepancopy2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "candle.png",
+        "igloo.png"
+      ]
+    },
+    {
+      "questionText": "match the picture",
+      "questionAudioName": "taponthepicturethatiscold.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "flamepancopy.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "cold"
+      ],
+      "reiterations": [
+        "iceberg.mp3"
+      ],
+      "commonRightOptionImageName": "flamepancopy2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "iceberg.png",
+        "desert.png"
+      ]
+    }
+  ]
+}
