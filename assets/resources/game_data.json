@@ -1,0 +1,118 @@
+{
+  "additionalData": {
+    "GameID": "Number names 26-30",
+    "totalLevel": "5",
+    "TitleImageName": "e.png",
+    "introBgName": "sfdfgh.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "BG_9.png",
+    "JockeyName": "Singham"
+  },
+  "questionData": [
+    {
+      "questionText": "number name ",
+      "questionAudioName": "q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left_puzzle.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "Twenty-six"
+      ],
+      "reiterations": [
+        "26.mp3"
+      ],
+      "commonRightOptionImageName": "right_puzzle.png",
+      "isRightOptionText": true,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "26",
+        "14"
+      ]
+    },
+    {
+      "questionText": "number name ",
+      "questionAudioName": "q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left_puzzle.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "Twenty-seven"
+      ],
+      "reiterations": [
+        "27.mp3"
+      ],
+      "commonRightOptionImageName": "right_puzzle.png",
+      "isRightOptionText": true,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "27",
+        "19"
+      ]
+    },
+    {
+      "questionText": "number name ",
+      "questionAudioName": "q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left_puzzle.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "Twenty-eight"
+      ],
+      "reiterations": [
+        "28.mp3"
+      ],
+      "commonRightOptionImageName": "right_puzzle.png",
+      "isRightOptionText": true,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "28",
+        "31"
+      ]
+    },
+    {
+      "questionText": "number name ",
+      "questionAudioName": "q.mp3",
+      "shouldPlayQuestionAudio": false,
+      "commonLeftOptionImageName": "left_puzzle.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "Twenty-nine"
+      ],
+      "reiterations": [
+        "29.mp3"
+      ],
+      "commonRightOptionImageName": "right_puzzle.png",
+      "isRightOptionText": true,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "29",
+        "15"
+      ]
+    },
+    {
+      "questionText": "number name ",
+      "questionAudioName": "q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left_puzzle.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "Thirty"
+      ],
+      "reiterations": [
+        "30.mp3"
+      ],
+      "commonRightOptionImageName": "right_puzzle.png",
+      "isRightOptionText": true,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "30",
+        "22"
+      ]
+    }
+  ]
+}
