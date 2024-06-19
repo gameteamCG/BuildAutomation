@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "extinctanimal",
+    "texture": "2c8b4352-e2cc-407a-a6ea-024c481d04e3",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      483,
+      230
+    ],
+    "offset": [
+      0,
+      6.5
+    ],
+    "originalSize": [
+      483,
+      247
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

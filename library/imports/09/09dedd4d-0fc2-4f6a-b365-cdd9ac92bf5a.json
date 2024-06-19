@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sabre_toothedtiger",
+    "texture": "a068aa29-8792-4b89-aeef-66a0f2b78d43",
+    "atlas": "",
+    "rect": [
+      18,
+      174,
+      464,
+      162
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

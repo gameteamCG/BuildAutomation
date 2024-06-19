@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rex_text",
+    "texture": "595f4625-2f6f-4753-8558-0c19f41accf5",
+    "atlas": "",
+    "rect": [
+      166,
+      217,
+      167,
+      55
+    ],
+    "offset": [
+      -0.5,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
