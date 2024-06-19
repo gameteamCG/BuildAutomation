@@ -1,0 +1,82 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number names 21-25",
+      "totalLevel": "3",
+      "TitleImageName": "q.png",
+      "introBgName": "sfdfgh.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Back2).png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "match",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "card.png",
+        "isOptionText": true,
+        "options": [
+          "one ",
+          "two"
+        ],
+        "reiterationAudios": [
+          "21.mp3",
+          "22.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "one",
+          "two"
+        ]
+      },
+      {
+        "questionText": "match",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "card.png",
+        "isOptionText": false,
+        "options": [
+          "22.png",
+          "23.png"
+        ],
+        "reiterationAudios": [
+          "22.mp3",
+          "23.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "22a.png",
+          "23a.png"
+        ]
+      },
+      {
+        "questionText": "match",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "card.png",
+        "isOptionText": false,
+        "options": [
+          "24.png",
+          "25.png"
+        ],
+        "reiterationAudios": [
+          "24.mp3",
+          "25.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "24a.png",
+          "25a.png"
+        ]
+      }
+    ]
+  }
+}
