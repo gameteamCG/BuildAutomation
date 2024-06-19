@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "firebrigade",
+    "texture": "6c500b99-67f3-478d-8c15-39ac1535a8a6",
+    "atlas": "",
+    "rect": [
+      0,
+      140,
+      501,
+      221
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

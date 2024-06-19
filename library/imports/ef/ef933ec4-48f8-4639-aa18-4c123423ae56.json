@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thermometer",
+    "texture": "50607ceb-82cf-414f-ad36-c9c1e5705a3a",
+    "atlas": "",
+    "rect": [
+      80,
+      60,
+      351,
+      387
+    ],
+    "offset": [
+      5.5,
+      -3.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
