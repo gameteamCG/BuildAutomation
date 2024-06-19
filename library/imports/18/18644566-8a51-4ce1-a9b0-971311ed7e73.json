@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "we_wish_you",
+    "texture": "e1ac76c6-d8d7-4a69-ad11-39819aac5304",
+    "atlas": "",
+    "rect": [
+      25,
+      0,
+      748,
+      441
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      797,
+      441
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
