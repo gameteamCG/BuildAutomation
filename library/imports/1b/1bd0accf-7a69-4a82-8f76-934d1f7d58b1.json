@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "monkey",
+    "texture": "3a6e0369-d8d4-40f6-bc5f-a9fe76ac43a4",
+    "atlas": "",
+    "rect": [
+      58,
+      120,
+      334,
+      245
+    ],
+    "offset": [
+      -25,
+      7.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
