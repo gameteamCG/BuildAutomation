@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "personalandphysicalhygeine",
+    "texture": "05bcbc92-a72e-42eb-b223-402fa0e3fc39",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      797,
+      408
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      797,
+      408
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
