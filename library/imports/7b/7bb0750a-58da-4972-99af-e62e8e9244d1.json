@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hen",
+    "texture": "dd42e791-f36c-43a8-9228-3d6785fb5b4f",
+    "atlas": "",
+    "rect": [
+      132,
+      53,
+      344,
+      395
+    ],
+    "offset": [
+      53.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

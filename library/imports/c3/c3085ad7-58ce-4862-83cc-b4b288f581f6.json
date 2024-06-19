@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "butter",
+    "texture": "e984bda9-53a3-44f9-8332-94e464c6bd5d",
+    "atlas": "",
+    "rect": [
+      5,
+      102,
+      242,
+      88
+    ],
+    "offset": [
+      1,
+      -21
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
