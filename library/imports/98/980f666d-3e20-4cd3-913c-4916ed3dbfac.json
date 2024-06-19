@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ibfamilywords",
+    "texture": "1435e1d4-2963-4cb1-98a0-beb7242ecc20",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      574,
+      236
+    ],
+    "offset": [
+      0,
+      6.5
+    ],
+    "originalSize": [
+      574,
+      253
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
