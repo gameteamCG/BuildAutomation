@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kiwi",
+    "texture": "c2fc0f57-1bcf-4f67-a6fa-ae5ccad61707",
+    "atlas": "",
+    "rect": [
+      47,
+      28,
+      155,
+      190
+    ],
+    "offset": [
+      -0.5,
+      2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
