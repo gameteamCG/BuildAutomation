@@ -1,0 +1,93 @@
+{
+  "AdditionalData": {
+    "GameID": "Opposites_LKG Course Book 2_34",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/79902950_learn_opposites_1718796822993.mp4",
+    "TitleImageName": "opposites.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "big.png",
+      "QuestionAudioName": "choose_the_auperzit_of_big.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "small.png",
+        "hot.png",
+        "cold.png",
+        "off.png"
+      ],
+      "ReiterationAudioName": "Small.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Qtall.png",
+      "QuestionAudioName": "choose_the_auperzit_of_tall.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "fast.png",
+        "slow.png",
+        "short.png",
+        "full.png"
+      ],
+      "ReiterationAudioName": "short.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Qup.png",
+      "QuestionAudioName": "choose_the_auperzit_of_up.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "day.png",
+        "down.png",
+        "night.png",
+        "empty.png"
+      ],
+      "ReiterationAudioName": "Down.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Qyoung.png",
+      "QuestionAudioName": "choose_the_auperzit_of_young.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "up.png",
+        "down.png",
+        "hot.png",
+        "old.png"
+      ],
+      "ReiterationAudioName": "Old.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "4"
+    }
+  ]
+}
