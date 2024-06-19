@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mamalth",
+    "texture": "4629154d-0097-4c4e-a27a-cb21c7b0ab39",
+    "atlas": "",
+    "rect": [
+      19,
+      50,
+      212,
+      150
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

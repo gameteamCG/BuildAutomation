@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cuttingtrees",
+    "texture": "19f97efa-564a-4c26-b192-5494df78a262",
+    "atlas": "",
+    "rect": [
+      7,
+      19,
+      243,
+      213
+    ],
+    "offset": [
+      3,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "leaperd",
+    "texture": "d60949dc-c7af-4937-bd20-0ec87b9d4df9",
+    "atlas": "",
+    "rect": [
+      37,
+      40,
+      176,
+      169
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

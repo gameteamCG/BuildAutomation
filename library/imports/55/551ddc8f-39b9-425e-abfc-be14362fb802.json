@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3endengered",
+    "texture": "6bbcae16-cf59-4289-8610-cff3d583b45c",
+    "atlas": "",
+    "rect": [
+      48,
+      172,
+      408,
+      145
+    ],
+    "offset": [
+      2,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

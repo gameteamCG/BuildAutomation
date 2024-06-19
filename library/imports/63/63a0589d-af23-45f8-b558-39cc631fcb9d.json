@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q4saveanimal",
+    "texture": "7683adf9-c8fa-411b-829c-a1935babb60c",
+    "atlas": "",
+    "rect": [
+      21,
+      217,
+      457,
+      55
+    ],
+    "offset": [
+      -0.5,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
