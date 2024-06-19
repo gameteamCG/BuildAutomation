@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brush_our_teeth",
+    "texture": "f6f99b78-941d-478b-9845-a5a95ee8b7e1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      889,
+      414
+    ],
+    "offset": [
+      0,
+      3
+    ],
+    "originalSize": [
+      889,
+      420
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
