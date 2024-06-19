@@ -1,5 +1,5 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -822,7 +822,7 @@ export default class NewClass extends cc.Component {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (startGame.Instance.jockeyName == "Singham") {
-            anim = ["dance", "thumbs_up"];
+            anim = ["dance", "thumbs_up", "dance", "thumbs_up", "dance", "thumbs_up"];
         }
         else if (startGame.Instance.jockeyName == "Mighty_Raju") {
             anim = ["celebration", "well_done"];
