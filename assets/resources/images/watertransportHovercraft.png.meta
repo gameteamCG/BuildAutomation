@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c36346f7-ed64-453e-b4c5-d28c14b08c49",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "watertransportHovercraft": {
+      "ver": "1.0.6",
+      "uuid": "20378131-95b1-4fc1-a2a1-b4f3236f7175",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c36346f7-ed64-453e-b4c5-d28c14b08c49",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2.5,
+      "offsetY": -2.5,
+      "trimX": 96,
+      "trimY": 130,
+      "width": 314,
+      "height": 246,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

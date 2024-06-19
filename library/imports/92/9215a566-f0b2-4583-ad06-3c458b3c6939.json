@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "watertransportSteamBoat",
+    "texture": "cf64184a-702b-4163-a428-0ce14668848e",
+    "atlas": "",
+    "rect": [
+      34,
+      127,
+      438,
+      252
+    ],
+    "offset": [
+      2.5,
+      -2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

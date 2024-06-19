@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "8e48b7fd-842b-4309-9ad5-73541053fc60",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "watertransportCargoShip": {
+      "ver": "1.0.6",
+      "uuid": "6ae7dfea-7abe-472e-8464-59002a8902e1",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "8e48b7fd-842b-4309-9ad5-73541053fc60",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": -10.5,
+      "trimX": 10,
+      "trimY": 215,
+      "width": 479,
+      "height": 92,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

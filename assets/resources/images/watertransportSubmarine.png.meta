@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3475fc95-0548-444f-9c76-ae52e61d590c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "watertransportSubmarine": {
+      "ver": "1.0.6",
+      "uuid": "ae951269-c068-460b-8930-82b8ad7dff4a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3475fc95-0548-444f-9c76-ae52e61d590c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": 2.5,
+      "trimX": 24,
+      "trimY": 215,
+      "width": 456,
+      "height": 66,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

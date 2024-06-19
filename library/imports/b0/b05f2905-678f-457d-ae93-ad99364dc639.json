@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "watertransportYatch",
+    "texture": "b644dd8c-b98d-4431-8cb0-6bbf9a923c64",
+    "atlas": "",
+    "rect": [
+      92,
+      201,
+      320,
+      91
+    ],
+    "offset": [
+      1.5,
+      4
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

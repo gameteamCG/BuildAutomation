@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b644dd8c-b98d-4431-8cb0-6bbf9a923c64",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "watertransportYatch": {
+      "ver": "1.0.6",
+      "uuid": "b05f2905-678f-457d-ae93-ad99364dc639",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b644dd8c-b98d-4431-8cb0-6bbf9a923c64",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": 4,
+      "trimX": 92,
+      "trimY": 201,
+      "width": 320,
+      "height": 91,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

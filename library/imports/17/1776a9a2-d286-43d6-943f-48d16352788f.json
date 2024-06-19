@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "watertransportBoat",
+    "texture": "824778d3-976b-4398-9b1e-7ecc57df43b0",
+    "atlas": "",
+    "rect": [
+      125,
+      202,
+      255,
+      89
+    ],
+    "offset": [
+      2,
+      4
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
