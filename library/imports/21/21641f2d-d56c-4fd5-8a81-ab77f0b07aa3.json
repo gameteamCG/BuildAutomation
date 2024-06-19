@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jingle_bells",
+    "texture": "342277f0-3a88-49da-976f-77886b167601",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1053,
+      292
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1053,
+      292
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
