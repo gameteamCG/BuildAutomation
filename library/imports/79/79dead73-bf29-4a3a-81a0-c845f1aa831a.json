@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wrongand3",
+    "texture": "1eb31c4c-0a21-4735-aaf8-beb5bc1a508a",
+    "atlas": "",
+    "rect": [
+      126,
+      131,
+      248,
+      237
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

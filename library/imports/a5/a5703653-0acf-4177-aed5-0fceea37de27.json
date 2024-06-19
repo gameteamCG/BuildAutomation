@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wrongans2",
+    "texture": "51a700d7-26d4-435f-b6cf-0509c06b44a0",
+    "atlas": "",
+    "rect": [
+      23,
+      28,
+      454,
+      444
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
