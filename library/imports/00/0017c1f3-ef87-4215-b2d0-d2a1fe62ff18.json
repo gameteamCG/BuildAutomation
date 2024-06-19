@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "antelope",
+    "texture": "e6dcf5cf-f392-479e-9134-df6e92c236bb",
+    "atlas": "",
+    "rect": [
+      36,
+      10,
+      179,
+      230
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
