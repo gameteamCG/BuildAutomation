@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Soundreviewf",
+    "texture": "2782f39b-e81f-4284-8ba6-7c04d71ffe42",
+    "atlas": "",
+    "rect": [
+      23,
+      24,
+      724,
+      417
+    ],
+    "offset": [
+      10,
+      -10
+    ],
+    "originalSize": [
+      750,
+      445
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
