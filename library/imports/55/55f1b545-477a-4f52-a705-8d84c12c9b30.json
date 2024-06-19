@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spaceshipg",
+    "texture": "47ce3790-8dbf-4da5-907d-686653803213",
+    "atlas": "",
+    "rect": [
+      36,
+      21,
+      427,
+      458
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

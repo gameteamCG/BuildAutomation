@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Group24",
+    "texture": "8ea76e54-652e-4bf9-ba5c-5e00ad20889d",
+    "atlas": "",
+    "rect": [
+      3,
+      47,
+      493,
+      405
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

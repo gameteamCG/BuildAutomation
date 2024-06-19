@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "saturn1",
+    "texture": "b88d6ecd-f15d-4319-afb2-9ac9b926b169",
+    "atlas": "",
+    "rect": [
+      0,
+      45,
+      500,
+      409
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

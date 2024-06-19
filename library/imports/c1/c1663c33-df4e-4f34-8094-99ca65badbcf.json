@@ -1,0 +1,118 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Alphabet capital and small (O ,P)_Nursery Course Book 2_16",
+      "totalLevel": "4",
+      "TitleImageName": "AlphabetcapitalandsmallOP.png",
+      "introBgName": "tlcbg1.png",
+      "bgmMusicName": "bgm1.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG4.png",
+        "questionAudioName": "identifythecapitalletterP.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Group24.png",
+          "Group24.png",
+          "asteroid1.png"
+        ],
+        "optionsBg": [
+          "asteroidP.png",
+          "asteroidP.png",
+          "asteroidL.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "P.mp3",
+          "P.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG4.png",
+        "questionAudioName": "identifythecapitalletterO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "planet1.png",
+          "Group20.png",
+          "Group20.png"
+        ],
+        "optionsBg": [
+          "palnetD.png",
+          "palnetO.png",
+          "palnetO.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "O.mp3",
+          "O.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG4.png",
+        "questionAudioName": "Identifythesmallletterp.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Group25.png",
+          "spaceship1.png",
+          "Group25.png"
+        ],
+        "optionsBg": [
+          "spaceshipPcopy.png",
+          "spaceshipg.png",
+          "spaceshipPcopy.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "P.mp3",
+          "P.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG4.png",
+        "questionAudioName": "Identifythesmalllettero.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "saturn1.png",
+          "Group23.png",
+          "Group23.png"
+        ],
+        "optionsBg": [
+          "saturna.png",
+          "saturno.png",
+          "saturno.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "O.mp3",
+          "O.mp3"
+        ],
+        "correctAnswerNum": "23"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "asteroidP",
+    "texture": "e88c54db-aa18-434e-b47a-02d11dc52160",
+    "atlas": "",
+    "rect": [
+      27,
+      92,
+      445,
+      316
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

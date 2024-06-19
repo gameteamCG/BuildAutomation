@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "AlphabetcapitalandsmallOP",
+    "texture": "4ddc2dc7-6b3c-4902-87e8-02ae411657fc",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      995,
+      293
+    ],
+    "offset": [
+      -8,
+      0.5
+    ],
+    "originalSize": [
+      1011,
+      294
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

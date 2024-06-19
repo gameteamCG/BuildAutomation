@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "saturna",
+    "texture": "4d8e430e-fd67-437c-8ad5-e38a99c9160d",
+    "atlas": "",
+    "rect": [
+      18,
+      96,
+      463,
+      308
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

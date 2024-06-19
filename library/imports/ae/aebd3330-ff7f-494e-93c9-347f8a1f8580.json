@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "palnetD",
+    "texture": "609d1f7d-6a58-437a-b79b-56d23d51bf3a",
+    "atlas": "",
+    "rect": [
+      45,
+      45,
+      410,
+      410
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
