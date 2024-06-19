@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Design your vehicle_LKG Course Book 2_90",
+      "totalLevel": "1",
+      "TitleImageName": "title.png",
+      "introBgName": "bgtitlemain.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "initialVOName": "blank_audio.mp3",
+      "mainBgName": "artbackground2.png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "design your vehicle",
+        "questionImageName": "blankframe.png",
+        "questionAudioName": "design_your_own_vehicle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "blankframe.png",
+        "needMoreTools": true,
+        "correctAudioName": "GREATWORK.mp3"
+      }
+    ]
+  }
+}
