@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Qtall",
+    "texture": "913a1f63-626c-42c9-b4d0-f6397ef3e4d7",
+    "atlas": "",
+    "rect": [
+      1,
+      42,
+      496,
+      358
+    ],
+    "offset": [
+      -1,
+      29
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
