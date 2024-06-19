@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thisandthat",
+    "texture": "2d77b47c-43d8-4e8b-8291-2d2668f7de85",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      765,
+      124
+    ],
+    "offset": [
+      0,
+      6.5
+    ],
+    "originalSize": [
+      765,
+      141
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
