@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4c91a0a4-7bcd-48ac-be35-e94a6b3f30a0",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "thermometer1": {
+      "ver": "1.0.6",
+      "uuid": "4e2075ed-9bd4-44cd-963e-487b4d4865ef",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4c91a0a4-7bcd-48ac-be35-e94a6b3f30a0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 45,
+      "trimY": 24,
+      "width": 409,
+      "height": 452,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

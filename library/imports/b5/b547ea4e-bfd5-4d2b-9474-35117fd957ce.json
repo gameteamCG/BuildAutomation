@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bandage",
+    "texture": "507943ed-dc90-4b0b-bb2a-66cf9273f9cb",
+    "atlas": "",
+    "rect": [
+      60,
+      0,
+      380,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

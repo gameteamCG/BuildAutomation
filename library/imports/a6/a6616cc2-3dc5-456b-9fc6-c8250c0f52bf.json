@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "firstaidbox",
+    "texture": "fd0daf44-ae57-4c09-8ea6-184db4f2f356",
+    "atlas": "",
+    "rect": [
+      16,
+      57,
+      468,
+      386
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

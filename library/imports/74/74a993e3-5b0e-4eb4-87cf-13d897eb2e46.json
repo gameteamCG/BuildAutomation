@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "policetools",
+    "texture": "8356ad42-9b93-42b2-8bf1-c4980322682d",
+    "atlas": "",
+    "rect": [
+      0,
+      43,
+      501,
+      415
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

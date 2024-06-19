@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "medicine",
+    "texture": "20e06e8e-ae11-4bfd-b8fd-83ae30c39ea3",
+    "atlas": "",
+    "rect": [
+      37,
+      76,
+      426,
+      367
+    ],
+    "offset": [
+      0,
+      -9.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
