@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tissueroll",
+    "texture": "05ac400f-2c5b-4cf2-883c-41b0183ed117",
+    "atlas": "",
+    "rect": [
+      79,
+      0,
+      342,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

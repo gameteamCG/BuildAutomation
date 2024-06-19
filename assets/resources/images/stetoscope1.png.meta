@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "77ac4e7d-a88d-4c01-9231-7f924f927709",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "stetoscope1": {
+      "ver": "1.0.6",
+      "uuid": "23b82d52-733e-4a25-a751-8b5874af5c41",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "77ac4e7d-a88d-4c01-9231-7f924f927709",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 19,
+      "trimY": 0,
+      "width": 462,
+      "height": 500,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
