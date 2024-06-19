@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lettersounda",
+    "texture": "ed52ff56-c0f7-410f-85d6-2a09b06d7d23",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      875,
+      463
+    ],
+    "offset": [
+      0,
+      5.5
+    ],
+    "originalSize": [
+      875,
+      474
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
