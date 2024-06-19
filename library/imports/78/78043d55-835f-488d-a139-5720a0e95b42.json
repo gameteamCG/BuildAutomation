@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icecube",
+    "texture": "ada30278-17f4-40fd-989a-2068e69669c0",
+    "atlas": "",
+    "rect": [
+      79,
+      122,
+      339,
+      260
+    ],
+    "offset": [
+      -2,
+      -1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

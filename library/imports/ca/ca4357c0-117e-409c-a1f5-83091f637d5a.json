@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flamepan",
+    "texture": "277bd2d5-7f87-42bd-9259-a02e2b415e74",
+    "atlas": "",
+    "rect": [
+      26,
+      117,
+      460,
+      292
+    ],
+    "offset": [
+      5.5,
+      -12.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

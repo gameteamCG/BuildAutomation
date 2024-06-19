@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "desert",
+    "texture": "7e569f80-ecfb-4092-bcea-1609a2fa804a",
+    "atlas": "",
+    "rect": [
+      5,
+      172,
+      492,
+      207
+    ],
+    "offset": [
+      0.5,
+      -25
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
