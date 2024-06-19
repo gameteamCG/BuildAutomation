@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q_hot",
+    "texture": "f06e648f-511b-4288-bf6c-120e9f5d5807",
+    "atlas": "",
+    "rect": [
+      1,
+      42,
+      496,
+      358
+    ],
+    "offset": [
+      -1,
+      29
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
