@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "commonimg",
+    "texture": "31c7f7df-2337-4ef0-a29e-0ef0a3f5c82f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      500,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
