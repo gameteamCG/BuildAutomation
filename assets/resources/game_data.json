@@ -1,0 +1,85 @@
+{
+  "AdditionalData": {
+    "GameID": "Being helpful : page 209 Lower Nr",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/564325_Being_helpful_1718901355433.mp4",
+    "TitleImageName": "Being_helpful.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "1_Who_never_helps_anybody.png",
+      "QuestionAudioName": "1_who_never_helps_anybod.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "cow.png",
+        "pig.png"
+      ],
+      "ReiterationAudioName": "1_jack_the_calf.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "2_Who_helped_Jack_when_he was_ill.png",
+      "QuestionAudioName": "2_who_helped_jack_when_h.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "grandma.png",
+        "horse.png"
+      ],
+      "ReiterationAudioName": "2_dennis_the_horse.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "3_Who_gave_the_medicines_to_Jack.png",
+      "QuestionAudioName": "3_who_gave_the_medicines.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "cat.png",
+        "hen.png"
+      ],
+      "ReiterationAudioName": "3_doctor_cat.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "4_Did_Jack_become_helpful.png",
+      "QuestionAudioName": "4_did_jack_become_helpful.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "No.png",
+        "Yes.png"
+      ],
+      "ReiterationAudioName": "4_yes.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
