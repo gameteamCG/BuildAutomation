@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Animalposes",
+    "texture": "70e0c77f-c488-45fd-9da3-f7bbe274807f",
+    "atlas": "",
+    "rect": [
+      20,
+      19,
+      785,
+      473
+    ],
+    "offset": [
+      10,
+      -9.5
+    ],
+    "originalSize": [
+      805,
+      492
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
