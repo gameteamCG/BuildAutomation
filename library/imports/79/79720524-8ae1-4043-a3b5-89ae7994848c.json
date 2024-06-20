@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "4_Did_Jack_become_helpful",
+    "texture": "f40a9973-1573-4eb9-aadb-9c5a0b9a0b53",
+    "atlas": "",
+    "rect": [
+      36,
+      162,
+      388,
+      135
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

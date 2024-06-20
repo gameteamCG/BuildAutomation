@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_Who_never_helps_anybody",
+    "texture": "2829fe93-b31e-493a-b7e5-61707779a48e",
+    "atlas": "",
+    "rect": [
+      26,
+      162,
+      408,
+      135
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

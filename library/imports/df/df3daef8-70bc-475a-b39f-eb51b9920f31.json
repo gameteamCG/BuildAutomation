@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_Who_gave_the_medicines_to_Jack",
+    "texture": "58abeecd-ca07-4eb1-a5db-355dbf9d88b3",
+    "atlas": "",
+    "rect": [
+      2,
+      171,
+      455,
+      117
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

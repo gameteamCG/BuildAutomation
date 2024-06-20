@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "18987587-41db-4810-90c9-625848c7ffc2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 460,
+  "height": 460,
+  "platformSettings": {},
+  "subMetas": {
+    "2_Who_helped_Jack_when_he was_ill": {
+      "ver": "1.0.6",
+      "uuid": "13e3738b-da35-4fe9-8542-2e3008c00e29",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "18987587-41db-4810-90c9-625848c7ffc2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 18,
+      "trimY": 171,
+      "width": 424,
+      "height": 117,
+      "rawWidth": 460,
+      "rawHeight": 460,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

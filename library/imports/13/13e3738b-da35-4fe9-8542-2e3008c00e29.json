@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "2_Who_helped_Jack_when_he was_ill",
+    "texture": "18987587-41db-4810-90c9-625848c7ffc2",
+    "atlas": "",
+    "rect": [
+      18,
+      171,
+      424,
+      117
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
