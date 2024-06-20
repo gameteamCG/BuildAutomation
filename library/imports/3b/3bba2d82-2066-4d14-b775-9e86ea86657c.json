@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "titlethingsthatgotogether",
+    "texture": "cb122acb-1307-4c81-9deb-024ac69eaea2",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      940,
+      363
+    ],
+    "offset": [
+      8.5,
+      -8
+    ],
+    "originalSize": [
+      977,
+      399
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
