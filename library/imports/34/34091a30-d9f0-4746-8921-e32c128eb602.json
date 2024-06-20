@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rob11",
+    "texture": "490c86c3-80c7-4d98-9969-8749a3b72565",
+    "atlas": "",
+    "rect": [
+      58,
+      21,
+      133,
+      208
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

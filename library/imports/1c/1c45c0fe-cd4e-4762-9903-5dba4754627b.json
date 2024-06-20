@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pinki",
+    "texture": "596cf66f-23c8-4297-8378-c00fd1ff1b42",
+    "atlas": "",
+    "rect": [
+      81,
+      80,
+      297,
+      300
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
