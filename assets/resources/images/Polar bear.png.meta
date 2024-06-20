@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d595fd63-fa37-488d-b832-beb2c24c53ca",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Polar bear": {
+      "ver": "1.0.6",
+      "uuid": "48784975-d9b8-4e66-86bc-3dd2c7be5c1a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d595fd63-fa37-488d-b832-beb2c24c53ca",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 20.5,
+      "offsetY": -15.5,
+      "trimX": 46,
+      "trimY": 69,
+      "width": 450,
+      "height": 394,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

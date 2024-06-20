@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Polar_bear",
+    "texture": "f5e5fefe-e121-4497-9982-a2e1a1d632ed",
+    "atlas": "",
+    "rect": [
+      13,
+      34,
+      225,
+      198
+    ],
+    "offset": [
+      0.5,
+      -8
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

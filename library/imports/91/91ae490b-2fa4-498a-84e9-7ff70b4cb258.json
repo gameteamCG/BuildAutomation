@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Aquatic",
+    "texture": "bb4eefd7-9cf7-4762-894f-09b839332f0c",
+    "atlas": "",
+    "rect": [
+      9,
+      75,
+      443,
+      310
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      461,
+      461
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
