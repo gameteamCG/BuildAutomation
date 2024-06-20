@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rink",
+    "texture": "babca701-5d35-40a7-9fd2-4f4ab05f7a0f",
+    "atlas": "",
+    "rect": [
+      49,
+      48,
+      151,
+      153
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
