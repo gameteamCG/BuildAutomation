@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "winteritems",
+    "texture": "0ae1fc7f-52f5-4bd2-b3ea-5e28dd1f798e",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      1114,
+      178
+    ],
+    "offset": [
+      0,
+      9
+    ],
+    "originalSize": [
+      1114,
+      202
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
