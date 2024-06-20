@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_where_was_jesus_born",
+    "texture": "d874c05f-9891-4eac-a71b-61152f5651cd",
+    "atlas": "",
+    "rect": [
+      86,
+      171,
+      287,
+      117
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

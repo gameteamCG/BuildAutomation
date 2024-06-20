@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "2c6f503e-125f-48af-a80b-e224e2727998",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 460,
+  "height": 460,
+  "platformSettings": {},
+  "subMetas": {
+    "2_who_visited_mary_one_night": {
+      "ver": "1.0.6",
+      "uuid": "012490ab-961f-4e6f-922b-a3a17148a87f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2c6f503e-125f-48af-a80b-e224e2727998",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 28,
+      "trimY": 163,
+      "width": 403,
+      "height": 134,
+      "rawWidth": 460,
+      "rawHeight": 460,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
