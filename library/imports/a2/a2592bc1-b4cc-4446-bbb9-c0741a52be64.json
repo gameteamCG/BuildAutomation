@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bonfire",
+    "texture": "ecbfb72f-d0d4-4540-9a8b-97f56e72b330",
+    "atlas": "",
+    "rect": [
+      99,
+      82,
+      345,
+      350
+    ],
+    "offset": [
+      21,
+      -6.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
