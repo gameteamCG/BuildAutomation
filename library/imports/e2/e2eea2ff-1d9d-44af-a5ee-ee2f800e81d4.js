@@ -25,7 +25,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
-var WebView_1 = require("../../../Framework/WebView/Scripts/WebView");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
@@ -46,6 +45,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.canTouch = false;
         _this.wrongAnswerCount = 1;
         _this.timerCount = 16;
+        _this.isTimerNeeded = true;
         _this.currentJockey = null;
         _this.timerSchedule = function () {
             --_this.curTimer;
@@ -91,6 +91,10 @@ var NewClass = /** @class */ (function (_super) {
         this.node.getChildByName("questionPanel").getChildByName("3").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
         this.node.getChildByName("Option").getChildByName("Button").getChildByName("Timer 1").children[0].getComponent(cc.Label).string =
             StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].timer.toString();
+        this.isTimerNeeded = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isTimerNeeded;
+        if (!this.isTimerNeeded) {
+            this.Option.getChildByName("Button").getChildByName("Timer 1").active = false;
+        }
         if (StartGame_1.default.Instance.isDemoGame) {
             cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionAudioName, function (err, audioClip) {
                 if (err) {
@@ -152,10 +156,15 @@ var NewClass = /** @class */ (function (_super) {
             }, _this.questionSound.duration + 0.01);
             _this.scheduleOnce(function () {
                 // this.node.getChildByName("questionPanel").getChildByName("2").getComponent(cc.Button).interactable = true;
-                _this.timer();
-                _this.scheduleOnce(function () {
-                    _this.OnButtonClick();
-                }, _this.timerCount);
+                if (_this.isTimerNeeded) {
+                    _this.timer();
+                    _this.scheduleOnce(function () {
+                        _this.OnButtonClick();
+                    }, _this.timerCount);
+                }
+                else {
+                    _this.Option.getChildByName("Button").getChildByName("tick").active = true;
+                }
             }, _this.questionSound.duration);
         }, 1.2);
     };
@@ -199,13 +208,6 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.OnButtonClick = function () {
         var _this = this;
-        // _event.target.getComponent(cc.Button).interactable = false;
-        if ((globalVariables_1.default.Instance.currentLevel >= StartGame_1.default.Instance.premiumLevel) && StartGame_1.default.Instance.premiumLevel && !StartGame_1.default.Instance.hasAccess) {
-            cc.audioEngine.stopAllEffects();
-            StartGame_1.default.Instance.currentLevel = globalVariables_1.default.Instance.currentLevel.toString();
-            WebView_1.default.Instance.CheckForWebView(false);
-            return;
-        }
         if (!this.isFirstClick) {
             this.isFirstClick = true;
             console.log("firstClick--" + globalVariables_1.default.Instance.currentLevel);
@@ -213,6 +215,8 @@ var NewClass = /** @class */ (function (_super) {
         if (!this.canTouch) {
             return;
         }
+        this.Option.getChildByName("Button").getChildByName("tick").getComponent(cc.Button).interactable = false;
+        this.Option.getChildByName("Button").getChildByName("tick").getComponent(cc.Animation).stop();
         this.canTouch = false;
         this.stopTimer();
         cc.audioEngine.playEffect(this.buttonPress, false);

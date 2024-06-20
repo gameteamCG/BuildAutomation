@@ -29,6 +29,8 @@ export default class NewClass extends cc.Component {
     wrongAnswerCount: number = 1;
     timerCount: number = 16;
 
+    private isTimerNeeded: boolean = true;
+
     private currentJockey: cc.Node = null;
 
 
@@ -67,6 +69,12 @@ export default class NewClass extends cc.Component {
         this.node.getChildByName("questionPanel").getChildByName("3").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
         this.node.getChildByName("Option").getChildByName("Button").getChildByName("Timer 1").children[0].getComponent(cc.Label).string =
             startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].timer.toString();
+
+        this.isTimerNeeded = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isTimerNeeded;
+
+        if (!this.isTimerNeeded) {
+            this.Option.getChildByName("Button").getChildByName("Timer 1").active = false;
+        }
 
 
         if (startGame.Instance.isDemoGame) {
@@ -136,11 +144,16 @@ export default class NewClass extends cc.Component {
             }, this.questionSound.duration + 0.01);
             this.scheduleOnce(() => {
                 // this.node.getChildByName("questionPanel").getChildByName("2").getComponent(cc.Button).interactable = true;
-                this.timer();
-                this.scheduleOnce(() => {
-                    this.OnButtonClick();
-                }, this.timerCount)
-            }, this.questionSound.duration)
+                if (this.isTimerNeeded) {
+                    this.timer();
+                    this.scheduleOnce(() => {
+                        this.OnButtonClick();
+                    }, this.timerCount)
+                }
+                else {
+                    this.Option.getChildByName("Button").getChildByName("tick").active = true;
+                }
+            }, this.questionSound.duration);
         }, 1.2);
     }
     timer() {
@@ -184,13 +197,6 @@ export default class NewClass extends cc.Component {
     }
 
     OnButtonClick() {
-        // _event.target.getComponent(cc.Button).interactable = false;
-        if ((globalVariables.Instance.currentLevel >= startGame.Instance.premiumLevel) && startGame.Instance.premiumLevel && !startGame.Instance.hasAccess) {
-            cc.audioEngine.stopAllEffects();
-            startGame.Instance.currentLevel = globalVariables.Instance.currentLevel.toString();
-            WebView.Instance.CheckForWebView(false);
-            return;
-        }
         if (!this.isFirstClick) {
             this.isFirstClick = true;
             console.log("firstClick--" + globalVariables.Instance.currentLevel);
@@ -198,6 +204,8 @@ export default class NewClass extends cc.Component {
         if (!this.canTouch) {
             return;
         }
+        this.Option.getChildByName("Button").getChildByName("tick").getComponent(cc.Button).interactable = false;
+        this.Option.getChildByName("Button").getChildByName("tick").getComponent(cc.Animation).stop();
         this.canTouch = false;
         this.stopTimer();
         cc.audioEngine.playEffect(this.buttonPress, false);
