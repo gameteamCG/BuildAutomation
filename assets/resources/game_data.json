@@ -1,0 +1,156 @@
+{
+  "additionalData": {
+    "GameID": "Alphabet Capital and Small (I,J)_Nursery Course Book 2_10",
+    "totalLevel": "6",
+    "TitleImageName": "Alphabet_Capital_and_Small_i_j.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "BGM_cooking.mp3",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "background.png",
+      "questionAudioName": "identify_the_capital_i.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "ci.png",
+        "cl.png",
+        "ci.png"
+      ],
+      "optionsBg": [
+        "Asset.png",
+        "kite.png",
+        "Asset.png"
+      ],
+      "correctAudioName": "GOODJOB.mp3",
+      "wrongAudioName": "nevermindtryagain.mp3",
+      "reiterationAudioName": [
+        "i.mp3"
+      ],
+      "correctAnswerNum": "13"
+    },
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "background.png",
+      "questionAudioName": "identify_the_capital_j.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "ct.png",
+        "cj.png",
+        "cj.png"
+      ],
+      "optionsBg": [
+        "Asset.png",
+        "kite.png",
+        "kite.png"
+      ],
+      "correctAudioName": "GOODEFFORT.mp3",
+      "wrongAudioName": "ohoh.mp3",
+      "reiterationAudioName": [
+        "j.mp3"
+      ],
+      "correctAnswerNum": "23"
+    },
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "background.png",
+      "questionAudioName": "identify_the_small_i.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "si.png",
+        "si.png",
+        "sb.png"
+      ],
+      "optionsBg": [
+        "kite.png",
+        "kite.png",
+        "Asset.png"
+      ],
+      "correctAudioName": "FANTASTIC.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "i.mp3"
+      ],
+      "correctAnswerNum": "12"
+    },
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "background.png",
+      "questionAudioName": "identify_the_small_j.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "sj.png",
+        "sr.png",
+        "sj.png"
+      ],
+      "optionsBg": [
+        "kite.png",
+        "Asset.png",
+        "kite.png"
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "wrongAudioName": "nevermindtryagain.mp3",
+      "reiterationAudioName": [
+        "j.mp3"
+      ],
+      "correctAnswerNum": "13"
+    },
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "background.png",
+      "questionAudioName": "identify_the_capital_i.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "ci.png",
+        "ci.png",
+        "ch.png"
+      ],
+      "optionsBg": [
+        "kite.png",
+        "kite.png",
+        "Asset.png"
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "wrongAudioName": "ohoh.mp3",
+      "reiterationAudioName": [
+        "i.mp3"
+      ],
+      "correctAnswerNum": "12"
+    },
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "background.png",
+      "questionAudioName": "identify_the_small_j.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "sg.png",
+        "sj.png",
+        "sj.png"
+      ],
+      "optionsBg": [
+        "Asset.png",
+        "kite.png",
+        "kite.png"
+      ],
+      "correctAudioName": "BRILLIANT.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "j.mp3"
+      ],
+      "correctAnswerNum": "23"
+    }
+  ]
+}
