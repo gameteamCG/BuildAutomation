@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cow",
+    "texture": "5701d95c-f85e-4f43-b03d-bb373b663b25",
+    "atlas": "",
+    "rect": [
+      58,
+      27,
+      438,
+      447
+    ],
+    "offset": [
+      26.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

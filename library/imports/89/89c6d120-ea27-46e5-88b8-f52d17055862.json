@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "animalshome",
+    "texture": "c6780cce-fa03-44ff-ac6e-a9c5c1dea275",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      850,
+      124
+    ],
+    "offset": [
+      0,
+      6.5
+    ],
+    "originalSize": [
+      850,
+      141
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
