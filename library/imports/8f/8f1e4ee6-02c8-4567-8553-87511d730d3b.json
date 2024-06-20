@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cream",
+    "texture": "2fbe8ed1-39b0-4841-ae6c-16b73f507355",
+    "atlas": "",
+    "rect": [
+      57,
+      89,
+      410,
+      272
+    ],
+    "offset": [
+      12,
+      25
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
