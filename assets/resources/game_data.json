@@ -1,0 +1,23 @@
+{
+  "additionalData": {
+    "GameID": " My pet_UKG Social Science_78",
+    "totalLevel": "1",
+    "TitleImageName": "mypet.png",
+    "introBgName": "bgtitlemain.png",
+    "bgmMusicName": "BGM_ROTE_count.mp3",
+    "initialVOName": "",
+    "mainBgName": "bgforcolor.png",
+    "JockeyName": "Singham"
+  },
+  "questionData": [
+    {
+      "questionText": "draw a pet you would like to have",
+      "questionImageName": "blankframe.png",
+      "questionAudioName": "draw_aa_pet_you_would_like_to_have.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "blankframe.png",
+      "needMoreTools": true,
+      "correctAudioName": "FANTASTIC.mp3"
+    }
+  ]
+}
