@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hovercraft1",
+    "texture": "7b7342ed-2125-4cb7-b289-c37442e47140",
+    "atlas": "",
+    "rect": [
+      107,
+      138,
+      280,
+      223
+    ],
+    "offset": [
+      -3,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

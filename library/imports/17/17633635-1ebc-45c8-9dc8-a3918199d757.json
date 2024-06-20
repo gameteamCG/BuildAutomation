@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1submarine",
+    "texture": "4fb5b376-405a-4939-90aa-13249130487b",
+    "atlas": "",
+    "rect": [
+      16,
+      204,
+      461,
+      68
+    ],
+    "offset": [
+      -3.5,
+      12
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

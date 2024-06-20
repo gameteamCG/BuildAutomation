@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "typesofwatettransporttitle",
+    "texture": "dd9ba8c4-ba57-4d08-9fc1-be7a770ba74e",
+    "atlas": "",
+    "rect": [
+      26,
+      27,
+      1171,
+      362
+    ],
+    "offset": [
+      8,
+      -8.5
+    ],
+    "originalSize": [
+      1207,
+      399
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

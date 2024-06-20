@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1steamboat",
+    "texture": "3a9e1e6a-f125-4bd9-aa74-340ea616944d",
+    "atlas": "",
+    "rect": [
+      89,
+      141,
+      313,
+      184
+    ],
+    "offset": [
+      -4.5,
+      17
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
