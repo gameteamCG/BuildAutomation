@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "feed",
+    "texture": "a81607d8-0c8e-4b8a-ba4f-a09068ce9b64",
+    "atlas": "",
+    "rect": [
+      23,
+      88,
+      455,
+      324
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
