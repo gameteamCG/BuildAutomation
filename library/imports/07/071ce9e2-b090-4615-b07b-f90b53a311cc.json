@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spicy food",
+    "texture": "3654acaa-6523-4054-bd68-5c412373691c",
+    "atlas": "",
+    "rect": [
+      15,
+      65,
+      472,
+      372
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cauliflower",
+    "texture": "6888754b-6ea6-47fe-a1c8-b42bec5afaab",
+    "atlas": "",
+    "rect": [
+      19,
+      61,
+      464,
+      380
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
