@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Tennis racket",
+    "texture": "60654c3a-4410-447a-b5ae-857620d5e179",
+    "atlas": "",
+    "rect": [
+      27,
+      64,
+      401,
+      373
+    ],
+    "offset": [
+      -23,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

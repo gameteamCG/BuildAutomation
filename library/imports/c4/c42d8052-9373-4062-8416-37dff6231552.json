@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Tennis ball",
+    "texture": "e8594175-4a44-4181-a403-7e1fb9bd419b",
+    "atlas": "",
+    "rect": [
+      109,
+      81,
+      342,
+      339
+    ],
+    "offset": [
+      29.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
