@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pupa",
+    "texture": "0e2189bc-a6dd-47b0-a678-4f5b8118b011",
+    "atlas": "",
+    "rect": [
+      131,
+      195,
+      203,
+      79
+    ],
+    "offset": [
+      2.5,
+      -4.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
