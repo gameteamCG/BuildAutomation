@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_who_were_the_parents_of_juses",
+    "texture": "3ef2eabe-9b6a-43d3-9ec7-968063cd4c8d",
+    "atlas": "",
+    "rect": [
+      21,
+      162,
+      418,
+      135
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b080f49f-cfbc-40e3-808b-bf411fb2fe2d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 460,
+  "height": 460,
+  "platformSettings": {},
+  "subMetas": {
+    "3_where_was_jesus_born": {
+      "ver": "1.0.6",
+      "uuid": "c2ff20d2-b953-432e-a6ef-518eb49db0ee",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b080f49f-cfbc-40e3-808b-bf411fb2fe2d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 86,
+      "trimY": 171,
+      "width": 287,
+      "height": 117,
+      "rawWidth": 460,
+      "rawHeight": 460,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

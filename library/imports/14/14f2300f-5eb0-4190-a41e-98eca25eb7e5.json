@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Mary_and_Joseph",
+    "texture": "4cbbab9a-203f-411e-8d8c-b2bcbb5361ca",
+    "atlas": "",
+    "rect": [
+      36,
+      39,
+      177,
+      172
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

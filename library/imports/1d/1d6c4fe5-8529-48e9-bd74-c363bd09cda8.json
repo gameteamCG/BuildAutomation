@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "2_who_visited_mary_one_night",
+    "texture": "fc125fb0-8ea3-4e72-99fb-1ec555a0787c",
+    "atlas": "",
+    "rect": [
+      28,
+      163,
+      403,
+      134
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

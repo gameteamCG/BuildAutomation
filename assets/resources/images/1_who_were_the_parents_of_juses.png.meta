@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3ef2eabe-9b6a-43d3-9ec7-968063cd4c8d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 460,
+  "height": 460,
+  "platformSettings": {},
+  "subMetas": {
+    "1_who_were_the_parents_of_juses": {
+      "ver": "1.0.6",
+      "uuid": "fd8ab845-6b5f-4050-a24e-15667f984655",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3ef2eabe-9b6a-43d3-9ec7-968063cd4c8d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 21,
+      "trimY": 162,
+      "width": 418,
+      "height": 135,
+      "rawWidth": 460,
+      "rawHeight": 460,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

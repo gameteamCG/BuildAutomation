@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Birth_of_Jesus_Christ",
+    "texture": "956d8741-3a30-4874-b0e3-aa86512e620c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      887,
+      343
+    ],
+    "offset": [
+      0,
+      3.5
+    ],
+    "originalSize": [
+      887,
+      350
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
