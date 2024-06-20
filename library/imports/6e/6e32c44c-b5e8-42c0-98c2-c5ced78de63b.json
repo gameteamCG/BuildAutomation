@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "maggie4",
+    "texture": "90e3af32-bbfe-4ec3-b4b1-6961d5ae7ff2",
+    "atlas": "",
+    "rect": [
+      31,
+      8,
+      441,
+      482
+    ],
+    "offset": [
+      1.5,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
