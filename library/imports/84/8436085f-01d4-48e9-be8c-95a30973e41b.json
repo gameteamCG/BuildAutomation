@@ -1,0 +1,119 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Opposites_LKG Course Book 2_35",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/96271045_Opposites_01_1718860470895.mp4",
+      "TitleImageName": "opposites.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Qtop.png",
+        "QuestionAudioName": "select_the_opposite_of_top.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "bottom.png",
+          "open.png",
+          "full.png",
+          "hot.png"
+        ],
+        "ReiterationAudioName": "23459874_2_bottom.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Qinfrontof.png",
+        "QuestionAudioName": "select_the_opposite_of_in_front_of.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "cold.png",
+          "fast.png",
+          "behind.png",
+          "slow.png"
+        ],
+        "ReiterationAudioName": "23459874_4_behind.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Qfull.png",
+        "QuestionAudioName": "select_the_opposite_of_full.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "long.png",
+          "empty.png",
+          "short.png",
+          "inside.png"
+        ],
+        "ReiterationAudioName": "23459874_5_empty.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Qheavy.png",
+        "QuestionAudioName": "select_the_opposite_of_heavy.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "outside.png",
+          "open.png",
+          "cold.png",
+          "light.png"
+        ],
+        "ReiterationAudioName": "23459874_7_light.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Qfast.png",
+        "QuestionAudioName": "select_the_opposite_of_fast.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "slow.png",
+          "old.png",
+          "young.png",
+          "full.png"
+        ],
+        "ReiterationAudioName": "23459874_9_slow.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

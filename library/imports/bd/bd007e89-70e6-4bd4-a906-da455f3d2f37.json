@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slow",
+    "texture": "ccb3ad0c-367c-4e1d-93d6-74e87154169a",
+    "atlas": "",
+    "rect": [
+      10,
+      9,
+      231,
+      231
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

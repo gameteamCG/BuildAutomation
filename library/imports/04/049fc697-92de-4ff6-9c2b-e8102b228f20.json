@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Qfast",
+    "texture": "bfa6ec58-23df-4c7b-ab92-78ff20240f29",
+    "atlas": "",
+    "rect": [
+      1,
+      42,
+      496,
+      380
+    ],
+    "offset": [
+      -1,
+      18
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

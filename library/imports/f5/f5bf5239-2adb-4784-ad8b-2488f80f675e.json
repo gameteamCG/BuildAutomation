@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Qtop",
+    "texture": "fb501b51-e9d8-46aa-a7d8-c8cb87447898",
+    "atlas": "",
+    "rect": [
+      1,
+      42,
+      496,
+      380
+    ],
+    "offset": [
+      -1,
+      18
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

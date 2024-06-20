@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Qinfrontof",
+    "texture": "e29a562c-a9dd-4989-a4a8-554e4c44e7b4",
+    "atlas": "",
+    "rect": [
+      1,
+      42,
+      496,
+      380
+    ],
+    "offset": [
+      -1,
+      18
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
