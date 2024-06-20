@@ -1,0 +1,67 @@
+{
+  "AdditionalData": {
+    "GameID": "Birth of Jesus Christ : page 228 Lower Nr",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/824632573_Birth+of+Jesus+Christ_1718880732666.mp4",
+    "TitleImageName": "Birth_of_Jesus_Christ.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "1_who_were_the_parents_of_juses.png",
+      "QuestionAudioName": "1_who_were_the_parents_o.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Mary_and_Joseph.png",
+        "horse.png"
+      ],
+      "ReiterationAudioName": "1_mary_and_joseph.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "2_who_visited_mary_one_night.png",
+      "QuestionAudioName": "2_who_visited_mary_one_n.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "grandmother.png",
+        "angel.png"
+      ],
+      "ReiterationAudioName": "2_an-angel.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "3_where_was_jesus_born.png",
+      "QuestionAudioName": "3_where_was_jesus_born.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "stable.png",
+        "Hospital.png"
+      ],
+      "ReiterationAudioName": "3_jesus-was-born-in-a-st.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
