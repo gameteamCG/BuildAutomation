@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "raincoat2",
+    "texture": "84f7a59f-6bd0-4649-bedd-e47ec6db4714",
+    "atlas": "",
+    "rect": [
+      66,
+      14,
+      368,
+      472
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
