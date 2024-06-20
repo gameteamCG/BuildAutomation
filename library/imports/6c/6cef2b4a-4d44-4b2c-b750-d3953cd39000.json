@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "2_Eat_every_bite",
+    "texture": "bc583a68-1cde-439e-95ce-9b1213abc998",
+    "atlas": "",
+    "rect": [
+      22,
+      19,
+      206,
+      211
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

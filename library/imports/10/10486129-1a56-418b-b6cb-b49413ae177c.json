@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Save_the_Earth",
+    "texture": "ac5830e5-4bfd-4e2f-b9e4-f31fc6782b24",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      689,
+      340
+    ],
+    "offset": [
+      -9,
+      4.5
+    ],
+    "originalSize": [
+      707,
+      349
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

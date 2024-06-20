@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "help_the_earth",
+    "texture": "e683a456-de09-45c4-9d35-837260ef78cc",
+    "atlas": "",
+    "rect": [
+      59,
+      199,
+      341,
+      61
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_turn_off_light",
+    "texture": "f2d1fec4-2c3b-450d-afb0-5f6b58371b0c",
+    "atlas": "",
+    "rect": [
+      22,
+      19,
+      206,
+      211
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
