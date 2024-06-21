@@ -1,0 +1,113 @@
+{
+  "AdditionalData": {
+    "GameID": "What is habitat UKG Social Science 73",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/What_is_habitat2_1718955934182.mp4",
+    "TitleImageName": "whatishabitat.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "grassland.png",
+      "QuestionAudioName": "Identify_the_animal_that_lives_in_a_forest_habitat.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "deer.png",
+        "fish.png",
+        "Polar_bear.png",
+        "1_0003_penguin_1.png"
+      ],
+      "ReiterationAudioName": "Deer.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "forest.png",
+      "QuestionAudioName": "Identify_the_animal_that_lives_in_a_grasslands_habitat.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "fish.png",
+        "crab.png",
+        "lion.png",
+        "frog.png"
+      ],
+      "ReiterationAudioName": "lion.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "polar.png",
+      "QuestionAudioName": "Identify_the_animal_that_lives_in_a_polar_habitat.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "kangaroo.png",
+        "Polar_bear.png",
+        "duck.png",
+        "zebra.png"
+      ],
+      "ReiterationAudioName": "polarbear.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "desert.png",
+      "QuestionAudioName": "Identify_the_animal_that-lives_in_a_desert_habitat.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "lion.png",
+        "zebra.png",
+        "elephant.png",
+        "kangaroo.png"
+      ],
+      "ReiterationAudioName": "Kangaroo.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Aquatic.png",
+      "QuestionAudioName": "Identify_the_animal-that-lives_in_an_aquatic_habitat.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "whale.png",
+        "Polar_bear.png",
+        "meerkat.png",
+        "1_0003_penguin_1.png"
+      ],
+      "ReiterationAudioName": "Whale.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
