@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "babyshark",
+    "texture": "dce3e45e-12de-45b3-aa14-feb35ca95687",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      812,
+      232
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      812,
+      232
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
