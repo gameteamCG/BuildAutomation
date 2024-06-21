@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Matching Letters Nursery Practice Book 2_3",
+      "totalLevel": "7",
+      "TitleImageName": "Matching_Letters.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGMBackward.mp3",
+      "mainBgName": "BG_6.png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "match letters",
+        "questionAudioName": "match_uppercase_and_lowercase_letters.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "1.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "A"
+        ],
+        "reiterations": [
+          "a.mp3"
+        ],
+        "commonRightOptionImageName": "2.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "a",
+          "b"
+        ]
+      },
+      {
+        "questionText": "match letters",
+        "questionAudioName": "match_uppercase_and_lowercase_letters.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "1.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "B"
+        ],
+        "reiterations": [
+          "b.mp3"
+        ],
+        "commonRightOptionImageName": "2.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "b",
+          "c"
+        ]
+      },
+      {
+        "questionText": "match letters",
+        "questionAudioName": "match_uppercase_and_lowercase_letters.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "1.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "C"
+        ],
+        "reiterations": [
+          "c.mp3"
+        ],
+        "commonRightOptionImageName": "2.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "c",
+          "d"
+        ]
+      },
+      {
+        "questionText": "match letters",
+        "questionAudioName": "match_uppercase_and_lowercase_letters.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "1.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "D"
+        ],
+        "reiterations": [
+          "d.mp3"
+        ],
+        "commonRightOptionImageName": "2.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "d",
+          "e"
+        ]
+      },
+      {
+        "questionText": "match letters",
+        "questionAudioName": "match_uppercase_and_lowercase_letters.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "1.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "E"
+        ],
+        "reiterations": [
+          "e.mp3"
+        ],
+        "commonRightOptionImageName": "2.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "e",
+          "f"
+        ]
+      },
+      {
+        "questionText": "match letters",
+        "questionAudioName": "match_uppercase_and_lowercase_letters.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "1.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "F"
+        ],
+        "reiterations": [
+          "f.mp3"
+        ],
+        "commonRightOptionImageName": "2.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "f",
+          "g"
+        ]
+      },
+      {
+        "questionText": "match letters",
+        "questionAudioName": "match_uppercase_and_lowercase_letters.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "1.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "G"
+        ],
+        "reiterations": [
+          "g.mp3"
+        ],
+        "commonRightOptionImageName": "2.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "g",
+          "h"
+        ]
+      }
+    ]
+  }
+}

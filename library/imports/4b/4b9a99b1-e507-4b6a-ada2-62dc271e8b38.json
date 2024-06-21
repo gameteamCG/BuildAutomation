@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Matching_Letters",
+    "texture": "6e703790-eb52-41b0-9011-b4ac6575c49a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      914,
+      445
+    ],
+    "offset": [
+      -12.5,
+      3
+    ],
+    "originalSize": [
+      939,
+      451
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
