@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "polar",
+    "texture": "ea3656c2-6e00-4490-8bdd-a44f3a5afab2",
+    "atlas": "",
+    "rect": [
+      17,
+      84,
+      427,
+      293
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      461,
+      461
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

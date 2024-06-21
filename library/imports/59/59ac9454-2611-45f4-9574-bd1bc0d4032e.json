@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grassland",
+    "texture": "b800265b-1c05-43a4-a39f-14909489b7a4",
+    "atlas": "",
+    "rect": [
+      18,
+      84,
+      426,
+      293
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      461,
+      461
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

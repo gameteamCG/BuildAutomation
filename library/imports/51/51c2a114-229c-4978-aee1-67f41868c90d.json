@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whatishabitat",
+    "texture": "bb84ca1f-b700-4631-a7da-230b6f16b49c",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      879,
+      124
+    ],
+    "offset": [
+      0,
+      6.5
+    ],
+    "originalSize": [
+      879,
+      141
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
