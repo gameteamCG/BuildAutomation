@@ -1,0 +1,103 @@
+{
+  "AdditionalData": {
+    "GameID": " Value of honesty",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/183729456_1718969642183.mp4",
+    "TitleImageName": "awdse.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": true,
+      "QuestionText": "Ricky",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q1.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "ricky.png",
+        "mother.png"
+      ],
+      "ReiterationAudioName": "ricki.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermind.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": true,
+      "QuestionText": "What was Ricky doing in the afternoon?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q2a.mp3",
+      "PlayQuestionAudio": false,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "eating.png",
+        "homework.png"
+      ],
+      "ReiterationAudioName": "a2.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": true,
+      "QuestionText": "Did Ricky lie to his mother about his homework?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q3.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Yes",
+        "No"
+      ],
+      "ReiterationAudioName": "yes.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "nevermind.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": true,
+      "QuestionText": "When did Ricky want to do his homework?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q4.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "morning.png",
+        "night.png"
+      ],
+      "ReiterationAudioName": "atnight.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": true,
+      "QuestionText": "Did Ricky feel good about lying to his mother?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q5.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Yes",
+        "No"
+      ],
+      "ReiterationAudioName": "no.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
