@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "causesofwaterpollution",
+    "texture": "b54cda5e-133e-4cc5-baa0-63aa0995c22b",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      692,
+      527
+    ],
+    "offset": [
+      7.5,
+      -8
+    ],
+    "originalSize": [
+      729,
+      563
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

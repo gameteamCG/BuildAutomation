@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b54cda5e-133e-4cc5-baa0-63aa0995c22b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 729,
+  "height": 563,
+  "platformSettings": {},
+  "subMetas": {
+    "causesofwaterpollution": {
+      "ver": "1.0.6",
+      "uuid": "710329d6-fa0c-4e20-ac65-b9cd2bf440b6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b54cda5e-133e-4cc5-baa0-63aa0995c22b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 7.5,
+      "offsetY": -8,
+      "trimX": 26,
+      "trimY": 26,
+      "width": 692,
+      "height": 527,
+      "rawWidth": 729,
+      "rawHeight": 563,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
