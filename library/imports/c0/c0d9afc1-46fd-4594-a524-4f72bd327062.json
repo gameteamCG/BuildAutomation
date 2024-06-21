@@ -1,0 +1,82 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Sound Nursery Practice Book 2_9",
+      "totalLevel": "3",
+      "TitleImageName": "Letter_Sounds.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_BW_game.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "match the card",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back_1.png",
+        "frontCardImageName": "front_1.png",
+        "isOptionText": false,
+        "options": [
+          "snake_1.png",
+          "kite_k.png"
+        ],
+        "reiterationAudios": [
+          "s_for_snake.mp3",
+          "k_for_kite.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "s.png",
+          "k.png"
+        ]
+      },
+      {
+        "questionText": "match the card",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back_1.png",
+        "frontCardImageName": "front_1.png",
+        "isOptionText": false,
+        "options": [
+          "tent_1.png",
+          "lion_1.png"
+        ],
+        "reiterationAudios": [
+          "T_for_tent.mp3",
+          "l_for_lion.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "t.png",
+          "l.png"
+        ]
+      },
+      {
+        "questionText": "match the card",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back_1.png",
+        "frontCardImageName": "front_1.png",
+        "isOptionText": false,
+        "options": [
+          "mango_1.png",
+          "nest_1.png"
+        ],
+        "reiterationAudios": [
+          "m_for_mango.mp3",
+          "n_for_nest.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "m.png",
+          "n.png"
+        ]
+      }
+    ]
+  }
+}
