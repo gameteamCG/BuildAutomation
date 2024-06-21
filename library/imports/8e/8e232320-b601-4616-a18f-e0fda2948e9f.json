@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Leave_them_dirty",
+    "texture": "8f6a1cf9-363f-41ea-aa5e-4953a423a2bd",
+    "atlas": "",
+    "rect": [
+      33,
+      30,
+      184,
+      191
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "caringanimals",
+    "texture": "a0644c4b-7b2a-4b96-a99b-a77f5f84edd5",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      688,
+      234
+    ],
+    "offset": [
+      0,
+      3.5
+    ],
+    "originalSize": [
+      688,
+      247
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
