@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ww2",
+    "texture": "306721d3-a256-4795-8ab7-bc2c1bc5991a",
+    "atlas": "",
+    "rect": [
+      18,
+      18,
+      214,
+      213
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
