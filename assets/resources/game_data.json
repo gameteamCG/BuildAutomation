@@ -1,0 +1,108 @@
+{
+  "additionalData": {
+    "GameID": "Number '18'",
+    "totalLevel": "4",
+    "TitleImageName": "Number18.png",
+    "introBgName": "Juniorskg.png",
+    "bgmMusicName": "bgm2.mp3",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "bg.png",
+      "questionAudioName": "identifythenumber18.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "15",
+        "18",
+        "20"
+      ],
+      "optionsBg": [
+        "Asset18.png",
+        "Asset17.png",
+        "Asset19.png"
+      ],
+      "correctAudioName": "L1correct.mp3",
+      "wrongAudioName": "no.mp3",
+      "reiterationAudioName": [
+        "eighteen.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionLayout": "layout2",
+      "questionBgName": "bg.png",
+      "questionAudioName": "identifythenumberpa.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "trimAsset14.png",
+        "trimAsset15.png",
+        "trimAsset16.png"
+      ],
+      "optionsBg": [
+        "",
+        "",
+        ""
+      ],
+      "correctAudioName": "L2Correct.mp3",
+      "wrongAudioName": "ns.mp3",
+      "reiterationAudioName": [
+        "eighteen.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "bg.png",
+      "questionAudioName": "whichnumbercomesbef.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "18",
+        "15",
+        "17"
+      ],
+      "optionsBg": [
+        "Asset17.png",
+        "Asset19.png",
+        "Asset18.png"
+      ],
+      "correctAudioName": "l4correct.mp3",
+      "wrongAudioName": "nu.mp3",
+      "reiterationAudioName": [
+        "seventeen.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "bg.png",
+      "questionAudioName": "after17.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "19",
+        "18",
+        "14"
+      ],
+      "optionsBg": [
+        "Asset19.png",
+        "Asset17.png",
+        "Asset18.png"
+      ],
+      "correctAudioName": "L3correct.mp3",
+      "wrongAudioName": "no.mp3",
+      "reiterationAudioName": [
+        "eighteen.mp3"
+      ],
+      "correctAnswerNum": "2"
+    }
+  ]
+}
