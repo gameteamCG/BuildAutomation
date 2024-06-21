@@ -1,0 +1,99 @@
+{
+  "additionalData": {
+    "GameID": "Causes of water pollution",
+    "totalLevel": "5",
+    "TitleImageName": "causesofwaterpollution.png",
+    "introBgName": "Juniorskg.png",
+    "bgmMusicName": "bgm4.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Podar",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "causes of water pollution",
+      "questionAudioName": "identifythepicturea.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset9.png",
+        "Asset2.png"
+      ],
+      "correctAudios": [
+        "waterpollutioniscau.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "causes of water pollution",
+      "questionAudioName": "identifythepicturea.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset8.png",
+        "Asset3.png"
+      ],
+      "correctAudios": [
+        "watepollutionicauwastewache.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "causes of water pollution",
+      "questionAudioName": "identifythepicturea.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset4.png",
+        "Asset7.png"
+      ],
+      "correctAudios": [
+        "l3.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "causes of water pollution",
+      "questionAudioName": "identifythepicturea.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset5.png",
+        "Asset10.png"
+      ],
+      "correctAudios": [
+        "l4.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "causes of water pollution",
+      "questionAudioName": "identifythepicturea.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset6.png",
+        "Asset1.png"
+      ],
+      "correctAudios": [
+        "waterpollutioniscauconst.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
