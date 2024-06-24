@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rhymingwords",
+    "texture": "0a564ecb-b383-48c8-b822-6b7f3a756179",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      531,
+      230
+    ],
+    "offset": [
+      0,
+      6.5
+    ],
+    "originalSize": [
+      531,
+      247
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
