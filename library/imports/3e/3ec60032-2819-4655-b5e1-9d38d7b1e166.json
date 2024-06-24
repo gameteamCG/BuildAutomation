@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "doll",
+    "texture": "c4e273c1-8de1-41cf-8996-ce4d18b8a551",
+    "atlas": "",
+    "rect": [
+      90,
+      11,
+      334,
+      484
+    ],
+    "offset": [
+      6.5,
+      -2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

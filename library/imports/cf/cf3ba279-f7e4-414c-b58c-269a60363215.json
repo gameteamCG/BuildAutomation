@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Revision letter ‘Dd’",
+      "totalLevel": "7",
+      "TitleImageName": "title2.png",
+      "introBgName": "NURSE.png",
+      "bgmMusicName": "bgm3.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "revision letter ‘Dd’",
+        "questionAudioName": "collecttheobjecttha.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "deer.png",
+          "carrot.png"
+        ],
+        "correctAudios": [
+          "deer.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "revision letter ‘Dd’",
+        "questionAudioName": "collecttheobjecttha.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "dog.png",
+          "log.png"
+        ],
+        "correctAudios": [
+          "dog.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "revision letter ‘Dd’",
+        "questionAudioName": "collecttheobjecttha.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "doll.png",
+          "ball.png"
+        ],
+        "correctAudios": [
+          "doll.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "revision letter ‘Dd’",
+        "questionAudioName": "collecttheobjecttha.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "lemon.png",
+          "dolphin.png"
+        ],
+        "correctAudios": [
+          "dolphin.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "revision letter ‘Dd’",
+        "questionAudioName": "collecttheobjecttha.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ball.png",
+          "donkey.png"
+        ],
+        "correctAudios": [
+          "donkey.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "revision letter ‘Dd’",
+        "questionAudioName": "collecttheobjecttha.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "door.png",
+          "tub.png"
+        ],
+        "correctAudios": [
+          "door.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "revision letter ‘Dd’",
+        "questionAudioName": "collecttheobjecttha.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "tub.png",
+          "duck.png"
+        ],
+        "correctAudios": [
+          "duck.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
