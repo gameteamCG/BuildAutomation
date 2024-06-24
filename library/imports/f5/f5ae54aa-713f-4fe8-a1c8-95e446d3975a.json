@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Fruits",
+    "texture": "37c20bff-7179-4fc1-a446-3f8ef96e2d7e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      600,
+      242
+    ],
+    "offset": [
+      0,
+      5
+    ],
+    "originalSize": [
+      600,
+      252
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
