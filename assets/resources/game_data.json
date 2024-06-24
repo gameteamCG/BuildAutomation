@@ -1,0 +1,85 @@
+{
+  "AdditionalData": {
+    "GameID": "Fathers day",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/9517536545_1719233009084.mp4",
+    "TitleImageName": "father.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": true,
+      "QuestionText": "help your dad on fathers day",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q12.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "q1.png",
+        "fight.png"
+      ],
+      "ReiterationAudioName": "1.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": true,
+      "QuestionText": "help your dad on fathers day",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q12.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "littering.png",
+        "q2.png"
+      ],
+      "ReiterationAudioName": "2.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "nevermind.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": true,
+      "QuestionText": " fun with dad",
+      "QuestionImageName": "",
+      "QuestionAudioName": "34.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "shouting.png",
+        "q3.png"
+      ],
+      "ReiterationAudioName": "3.mp3",
+      "CorrectAudioName": "GORGEOUSWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": true,
+      "QuestionText": " fun with dad on fathers day",
+      "QuestionImageName": "",
+      "QuestionAudioName": "34.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "q4.png",
+        "crying.png"
+      ],
+      "ReiterationAudioName": "4.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
