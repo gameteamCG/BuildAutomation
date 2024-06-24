@@ -2433,9 +2433,7 @@
     "NextSceneName": "1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [],
-    "playBtn_audio": {
-      "__uuid__": "1b2d7472-275a-4955-a286-f66f90599ebe"
-    },
+    "playBtn_audio": null,
     "isPremiumGame": false,
     "isMobileNumberPriority": false,
     "premiumLevel": 3,
