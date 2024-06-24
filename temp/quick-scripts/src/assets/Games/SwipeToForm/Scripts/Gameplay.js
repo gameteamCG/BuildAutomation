@@ -591,6 +591,9 @@ var Gameplay = /** @class */ (function (_super) {
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
         }
+        else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+        }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
         }
