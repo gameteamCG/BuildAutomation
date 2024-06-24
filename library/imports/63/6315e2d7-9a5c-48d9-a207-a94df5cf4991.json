@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bodylotion",
+    "texture": "e5a43d01-6457-453b-a7b3-15e858081f94",
+    "atlas": "",
+    "rect": [
+      147,
+      154,
+      176,
+      193
+    ],
+    "offset": [
+      -15,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
