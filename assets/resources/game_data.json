@@ -1,0 +1,97 @@
+{
+  "additionalData": {
+    "GameID": "fruits",
+    "totalLevel": "3",
+    "TitleImageName": "Fruits.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "BGMBackward.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "solve picture puzzle",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "frame.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "a1.png",
+        "a2.png",
+        "a3.png",
+        "a4.png"
+      ],
+      "correctAudioName": "choose_the_correct_fruit_name.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "choose correct name",
+      "questionAudioName2": "",
+      "commonOptionImageName": "panel_2.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "apple",
+        "banana"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "apple_1.mp3"
+    },
+    {
+      "questionText": "solve picture puzzle",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "frame.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "b1.png",
+        "b2.png",
+        "b3.png",
+        "b4.png"
+      ],
+      "correctAudioName": "choose_the_correct_fruit_name.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "choose correct name",
+      "questionAudioName2": "",
+      "commonOptionImageName": "panel_2.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "grapes",
+        "banana"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "banana_1.mp3"
+    },
+    {
+      "questionText": "solve picture puzzle",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "frame.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "g1.png",
+        "g2.png",
+        "g3.png",
+        "g4.png"
+      ],
+      "correctAudioName": "choose_the_correct_fruit_name.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "C",
+      "questionAudioName2": "",
+      "commonOptionImageName": "panel_2.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "grapes",
+        "mango"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "grapes_1.mp3"
+    }
+  ]
+}
