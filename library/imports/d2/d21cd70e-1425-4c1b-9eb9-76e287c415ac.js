@@ -29,7 +29,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var globalVariables_1 = require("../../Games/WhatWillHappenNext/Scripts/globalVariables");
+var globalVariables_1 = require("../../Games/DragDrop_PairCards/Scripts/globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var startGame = /** @class */ (function (_super) {
     __extends(startGame, _super);
@@ -41,6 +41,7 @@ var startGame = /** @class */ (function (_super) {
         _this.isAgeParameterNeeded = true;
         _this.LevelAgeParameters = [3, 5, 7];
         _this.isMusicOn = true;
+        _this.playBtn_audio = null;
         _this.levelType = "1";
         _this.currentLevel = "1";
         _this.hasAccess = false;
@@ -56,7 +57,6 @@ var startGame = /** @class */ (function (_super) {
         _this.firstClick = 1;
         _this.clickEvent = false;
         _this.totalLevels = 7;
-        _this.playBtn_audio = null;
         // currentHealth: number = 10;
         _this.timer = 0;
         _this.isLoaded = false;
@@ -67,9 +67,8 @@ var startGame = /** @class */ (function (_super) {
         // private totalLevels: string = "";
         _this.titleImageName = "";
         _this.jockeyName = "";
-        _this.templateType = "";
-        _this.optionLayout = "horizontal";
         _this.questions = [];
+        _this.templateType = "";
         return _this;
         // blobToDataURL(blobUrl, callback) {
         //     var xhr = new XMLHttpRequest();
@@ -113,20 +112,18 @@ var startGame = /** @class */ (function (_super) {
         // }
     };
     startGame.prototype.logData = function () {
-        console.log("Game ID:", this.gameID);
-        console.log("Total Levels:", this.totalLevels);
-        console.log("BGM audio name:", this.BGM_audio.name);
-        console.log("Title Image Name:", this.titleImageName);
-        console.log("Jockey Name:", this.jockeyName);
-        // Log question data
-        this.questions.forEach(function (question, index) {
-            console.log("Question " + (index + 1) + ":");
-            console.log("Question Image Name:", question.questionImageName);
-            console.log("Question Audio Name:", question.questionAudioName);
-            // console.log("Option 1 Image Name:", question.option1ImageName);
-            // console.log("Option 2 Image Name:", question.option2ImageName);
-            console.log("Correct Answer Number:", question.correctAnswerNum);
-        });
+        // console.log("Game ID:", this.gameID);
+        // console.log("Total Levels:", this.totalLevels);
+        // console.log("BGM audio name:", this.BGM_audio.name);
+        // console.log("Title Image Name:", this.titleImageName);
+        // console.log("Jockey Name:", this.jockeyName);
+        // // Log question data
+        // this.questions.forEach((question, index) => {
+        //     console.log(`Question ${index + 1}:`);
+        //     console.log("Question Audio Name:", question.questionAudioName);
+        //     // console.log("Option 1 Image Name:", question.option1ImageName);
+        //     // console.log("Option 2 Image Name:", question.option2ImageName);
+        // });
     };
     startGame.prototype.removeExtension = function (imageName) {
         // Remove .png extension
@@ -152,9 +149,6 @@ var startGame = /** @class */ (function (_super) {
             this.totalLevels = parseInt(levelCount);
             this.titleImageName = jsonData.additionalData.TitleImageName;
             this.jockeyName = jsonData.additionalData.JockeyName;
-            this.optionLayout = jsonData.additionalData.optionLayout;
-            this.templateType = jsonData.additionalData.templateType;
-            //console.log("optionLayout @@@@@@@@@@@@@@@@ = ", this.optionLayout);
             // Assign question data to the variable
             this.questions = jsonData.questionData;
             console.log("BGM music name = ", jsonData.additionalData.bgmMusicName);
@@ -192,13 +186,6 @@ var startGame = /** @class */ (function (_super) {
                 var spriteFrame = new cc.SpriteFrame(texture);
                 _this.mainBg = spriteFrame;
             });
-            if (this.templateType != "SimpleTap") {
-                this.questions.forEach(function (question) {
-                    question.questionImageName = question.questionImageName;
-                    // question.option1ImageName = question.option1ImageName
-                    // question.option2ImageName = question.option2ImageName
-                });
-            }
             // Now you can use these variables within this script
             this.logData();
         }
@@ -215,8 +202,6 @@ var startGame = /** @class */ (function (_super) {
                 _this.totalLevels = parseInt(levelCount);
                 _this.titleImageName = jsonData.additionalData.TitleImageName;
                 _this.jockeyName = jsonData.additionalData.JockeyName;
-                _this.optionLayout = jsonData.additionalData.optionLayout;
-                _this.templateType = jsonData.additionalData.templateType;
                 // Assign question data to the variable
                 _this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
@@ -236,11 +221,10 @@ var startGame = /** @class */ (function (_super) {
                     _this.mainBg = spriteFrame;
                 });
                 _this.questions.forEach(function (question) {
-                    if (_this.templateType != "SimpleTap") {
-                        question.questionImageName = _this.removeExtension(question.questionImageName);
-                    }
                     question.commonOptionImageName = _this.removeExtension(question.commonOptionImageName);
                     question.options = question.options.map(function (option) { return _this.removeExtension(option); });
+                    question.dropAreas = question.dropAreas.map(function (dropArea) { return _this.removeExtension(dropArea); });
+                    question.reiterationAudios = question.reiterationAudios.map(function (reiterationAudio) { return _this.removeAudioExtension(reiterationAudio); });
                     // question.option1ImageName = this.removeExtension(question.option1ImageName);
                     // question.option2ImageName = this.removeExtension(question.option2ImageName);
                 });
@@ -336,12 +320,6 @@ var startGame = /** @class */ (function (_super) {
             if (_this.jockeyName == "Podar") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
             }
-            else if (_this.jockeyName == "tlc") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("tlc").active = true;
-            }
-            else if (_this.jockeyName == "supercub") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("supercub").active = true;
-            }
             else if (_this.jockeyName == "stallion") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
             }
@@ -375,8 +353,6 @@ var startGame = /** @class */ (function (_super) {
         _event.target.getComponent(cc.Button).interactable = false;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
         cc.director.loadScene(this.NextSceneName);
-        _event.target.active = false;
-        _event.target.parent.getChildByName("loading").active = true;
     };
     startGame.prototype.OnBack = function () {
         console.log("gameExit--true");
@@ -428,6 +404,9 @@ var startGame = /** @class */ (function (_super) {
         property(Number)
     ], startGame.prototype, "LevelAgeParameters", void 0);
     __decorate([
+        property(cc.AudioClip)
+    ], startGame.prototype, "playBtn_audio", void 0);
+    __decorate([
         property(Boolean)
     ], startGame.prototype, "isPremiumGame", void 0);
     __decorate([
@@ -442,9 +421,6 @@ var startGame = /** @class */ (function (_super) {
     __decorate([
         property(Number)
     ], startGame.prototype, "totalLevels", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], startGame.prototype, "playBtn_audio", void 0);
     startGame = startGame_1 = __decorate([
         ccclass
     ], startGame);

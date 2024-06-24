@@ -21,6 +21,9 @@ require('./assets/Framework/Scripts/Utilities/Utility');
 require('./assets/Framework/Scripts/Utils');
 require('./assets/Framework/WebView/Scripts/CheckForInitWebView');
 require('./assets/Framework/WebView/Scripts/WebView');
+require('./assets/Games/DragDrop_PairCards/Scripts/endScreen');
+require('./assets/Games/DragDrop_PairCards/Scripts/gameplay');
+require('./assets/Games/DragDrop_PairCards/Scripts/globalVariables');
 require('./assets/resources/empty');
 
                     }
