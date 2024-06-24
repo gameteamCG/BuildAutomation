@@ -500,129 +500,9 @@
     "relativePath": "model/primitives.fbx"
   },
   "eb70e0d8-2c97-4c46-b40c-915fc9863ae3": {
-    "asset": 1719212358057,
-    "meta": 1719212358388,
+    "asset": 1719212730739,
+    "meta": 1719212783211,
     "relativePath": "resources"
-  },
-  "9f8a62fb-a958-40c5-a584-9531d13852b5": {
-    "asset": 1719212358068,
-    "meta": 1719212358389,
-    "relativePath": "resources/audios"
-  },
-  "04273b7d-bf70-423d-b4b3-eafa53df9f19": {
-    "asset": 1719212358071,
-    "meta": 1719212358389,
-    "relativePath": "resources/images"
-  },
-  "c3ca180d-1de6-47fb-90fc-d5d5c95bbae5": {
-    "asset": 1719212358062,
-    "meta": 1719212358408,
-    "relativePath": "resources/game_data.json"
-  },
-  "c3ea3490-3fb7-40df-af12-75180a749557": {
-    "asset": 1719212358081,
-    "meta": 1719212358722,
-    "relativePath": "resources/audios/PurpleRadish.mp3"
-  },
-  "d689a453-33af-4ebc-b88b-ec74e0b73248": {
-    "asset": 1719212358082,
-    "meta": 1719212358722,
-    "relativePath": "resources/audios/PurpleHat.mp3"
-  },
-  "90ec169d-46d3-4e0c-888c-837bdcb0a34d": {
-    "asset": 1719212358081,
-    "meta": 1719212358723,
-    "relativePath": "resources/audios/PurpleButterfly.mp3"
-  },
-  "f921dfee-ea10-41d9-ad13-be835c642e2e": {
-    "asset": 1719212358081,
-    "meta": 1719212358723,
-    "relativePath": "resources/audios/PurpleEggplant.mp3"
-  },
-  "69d840b9-4b0c-4689-94e1-9f844bef7696": {
-    "asset": 1719212358081,
-    "meta": 1719212358724,
-    "relativePath": "resources/audios/Collectthepurplecolourpicture.mp3"
-  },
-  "e1597199-6986-48ba-b8ae-9cbc3962a3d7": {
-    "asset": 1719212358081,
-    "meta": 1719212358724,
-    "relativePath": "resources/audios/Purplegloves.mp3"
-  },
-  "76107127-3cc2-43bf-af33-d05dceee224f": {
-    "asset": 1719212358081,
-    "meta": 1719212358724,
-    "relativePath": "resources/audios/PurpleUmbrella.mp3"
-  },
-  "0beaf605-bf10-4e33-95af-06d9498a233f": {
-    "asset": 1719212358107,
-    "meta": 1719212358726,
-    "relativePath": "resources/audios/BGMLetterT.mp3"
-  },
-  "f38b096a-5b79-4d3f-aa71-40389f72a189": {
-    "asset": 1719212358085,
-    "meta": 1719212358734,
-    "relativePath": "resources/images/basket500.png"
-  },
-  "0cc7eba4-4332-436f-9213-9ceb19ed161a": {
-    "asset": 1719212358085,
-    "meta": 1719212358736,
-    "relativePath": "resources/images/banana.png"
-  },
-  "f0648bc1-6d18-4534-8583-92c794f1f216": {
-    "asset": 1719212358085,
-    "meta": 1719212358738,
-    "relativePath": "resources/images/balloon.png"
-  },
-  "07e004b5-508a-4889-8f41-cc33942e9f33": {
-    "asset": 1719212358081,
-    "meta": 1719212358740,
-    "relativePath": "resources/audios/purpleballoon.mp3"
-  },
-  "0eec3bcc-5b33-41be-b78e-479c8234f546": {
-    "asset": 1719212358109,
-    "meta": 1719212358752,
-    "relativePath": "resources/images/Asset122.png"
-  },
-  "779a319b-5a22-4997-9ffa-925f20004e8e": {
-    "asset": 1719212358085,
-    "meta": 1719212358755,
-    "relativePath": "resources/images/butterfly.png"
-  },
-  "22fdfefa-3bda-4d9c-b723-e90f24ec0baf": {
-    "asset": 1719212358088,
-    "meta": 1719212358763,
-    "relativePath": "resources/images/dolphin.png"
-  },
-  "10134293-2408-4a9c-9cf2-d1d3aeb330ef": {
-    "asset": 1719212358088,
-    "meta": 1719212358766,
-    "relativePath": "resources/images/crab.png"
-  },
-  "1db0ea4b-8a53-403a-886b-f6fd4eab75c3": {
-    "asset": 1719212358089,
-    "meta": 1719212358767,
-    "relativePath": "resources/images/comoptimg.png"
-  },
-  "2228c7ed-82f9-4459-9ffb-cba8f9c5d8da": {
-    "asset": 1719212358109,
-    "meta": 1719212358767,
-    "relativePath": "resources/images/bg.png"
-  },
-  "de13a8e8-3566-4286-901b-1bdb04ff682e": {
-    "asset": 1719212358088,
-    "meta": 1719212358775,
-    "relativePath": "resources/images/hat.png"
-  },
-  "e94d7b75-8970-4740-9c16-5ee61c0b3ae3": {
-    "asset": 1719212358088,
-    "meta": 1719212358777,
-    "relativePath": "resources/images/eggplant.png"
-  },
-  "7f20a081-6863-4d82-9a63-f284388324b9": {
-    "asset": 1719212358088,
-    "meta": 1719212358777,
-    "relativePath": "resources/images/glove.png"
   },
   "2098e1fb-9d3d-4e66-89eb-b9669eca5c63": {
     "asset": 1719212358290,
@@ -678,36 +558,6 @@
     "asset": 1719212358072,
     "meta": 1719212358781,
     "relativePath": "Framework/WebView"
-  },
-  "05359534-bce3-43c1-ab22-ebe8d2a37dd9": {
-    "asset": 1719212358109,
-    "meta": 1719212358782,
-    "relativePath": "resources/images/BGl.png"
-  },
-  "5a3069a2-81be-4a80-bb09-564937ab7c11": {
-    "asset": 1719212358089,
-    "meta": 1719212358789,
-    "relativePath": "resources/images/raddish.png"
-  },
-  "6bbc8e5b-af17-48f0-914b-45e718efbb0e": {
-    "asset": 1719212358088,
-    "meta": 1719212358793,
-    "relativePath": "resources/images/owl.png"
-  },
-  "881081c1-75cc-41ef-beda-2df5bdab3dd0": {
-    "asset": 1719212358089,
-    "meta": 1719212358797,
-    "relativePath": "resources/images/skirt.png"
-  },
-  "48b0cf60-d362-41fd-aec0-f406ddd3006e": {
-    "asset": 1719212358088,
-    "meta": 1719212358799,
-    "relativePath": "resources/images/lemon.png"
-  },
-  "2b6a51ce-39a2-45c1-ac20-cf7753ece8f4": {
-    "asset": 1719212358089,
-    "meta": 1719212358801,
-    "relativePath": "resources/images/tomato.png"
   },
   "b70e7097-9d5c-4dbe-9ab5-1db455695380": {
     "asset": 1719212358091,
@@ -848,11 +698,6 @@
     "asset": 1719212358107,
     "meta": 1719212358817,
     "relativePath": "Framework/CommonAudios/correct_common.mp3"
-  },
-  "3ad90ce5-043f-4546-bce6-f211ee02dae7": {
-    "asset": 1719212358089,
-    "meta": 1719212358818,
-    "relativePath": "resources/images/umbrella.png"
   },
   "a7f2dea2-a2ec-420e-8ee4-976ea9263200": {
     "asset": 1719212358121,
@@ -1495,8 +1340,8 @@
     "relativePath": "Games/WhatWillHappenNext/Materials"
   },
   "23a65137-e041-48e7-b25e-1d6225928cf5": {
-    "asset": 1719212358115,
-    "meta": 1719212359233,
+    "asset": 1719212730732,
+    "meta": 1719212783215,
     "relativePath": "Games/WhatWillHappenNext/Scene"
   },
   "e8762127-e059-4606-b3cf-c5bb2652cf3b": {
@@ -1975,8 +1820,8 @@
     "relativePath": "Games/WhatWillHappenNext/Scripts/globalVariables.ts"
   },
   "cf4e36d8-89d2-4945-a198-67e319127411": {
-    "asset": 1719212358151,
-    "meta": 1719212359503,
+    "asset": 1719212923823,
+    "meta": 1719212923826,
     "relativePath": "Games/WhatWillHappenNext/Scene/1.fire"
   },
   "ecc793e4-0368-4d2b-844b-75e10c5c7cb4": {
@@ -2000,13 +1845,13 @@
     "relativePath": "Games/WhatWillHappenNext/Assets/horse png (1).png"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1719212358160,
-    "meta": 1719212359506,
+    "asset": 1719213119997,
+    "meta": 1719213120000,
     "relativePath": "Games/WhatWillHappenNext/Scene/Title.fire"
   },
   "92133877-574e-4eb5-9c58-79f64d3fc3ed": {
-    "asset": 1719212358161,
-    "meta": 1719212359509,
+    "asset": 1719212946311,
+    "meta": 1719212946315,
     "relativePath": "Games/WhatWillHappenNext/Scene/endScreen.fire"
   },
   "e69f6909-7104-4430-8958-26c918cbc963": {
@@ -3239,9 +3084,184 @@
     "meta": 1719212360059,
     "relativePath": "Games/WhatWillHappenNext/BackUp Prefab/supercub/Audios/Audio Dailogs/questionfox.mp3"
   },
+  "793163ed-9c79-466f-9ab5-bb8edebc5d19": {
+    "asset": 1719212830919,
+    "meta": 1719212830959,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2"
+  },
+  "80d9f830-3c22-4fdb-b6dc-4653b57edb90": {
+    "asset": 1719212830905,
+    "meta": 1719212830959,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5"
+  },
+  "a3b0792f-9c61-4c62-91aa-85614f91da1b": {
+    "asset": 1719212830902,
+    "meta": 1719212830959,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/output 40"
+  },
+  "b024bef8-99b4-4d58-8a4a-10f203bf3f4b": {
+    "asset": 1719212830910,
+    "meta": 1719212831294,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/negative_2.mp3"
+  },
+  "3d05f0b6-c650-4d20-9a7f-5748c3cf010c": {
+    "asset": 1719212830909,
+    "meta": 1719212831295,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/look carefully.mp3"
+  },
+  "d623df36-af81-43f1-b3db-cfc0ed0d6e15": {
+    "asset": 1719212830911,
+    "meta": 1719212831297,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/Fun Dance For Kids.mp3"
+  },
+  "cdaa463c-b9bb-4edd-a066-e15e2cfbdfd4": {
+    "asset": 1719212830909,
+    "meta": 1719212831298,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/carefully.mp3"
+  },
+  "e6e865ee-cbcf-49fb-aa96-43c85a2bd095": {
+    "asset": 1719212830910,
+    "meta": 1719212831298,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/negative_1.mp3"
+  },
+  "fb58a31b-2e8b-4e5a-bbb2-846776478cdc": {
+    "asset": 1719212830909,
+    "meta": 1719212831298,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/look at it once more.mp3"
+  },
+  "02dc16ad-f565-4a6a-b157-2bae9136712c": {
+    "asset": 1719212830912,
+    "meta": 1719212831298,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/Hmmm, look at it again.mp3"
+  },
+  "d00d3fe9-1ad9-4284-ac01-06958031fe2b": {
+    "asset": 1719212830909,
+    "meta": 1719212831299,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/in.mp3"
+  },
+  "32b4734f-f142-4081-b008-95698bc7c7ca": {
+    "asset": 1719212830910,
+    "meta": 1719212831307,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/negative_5.mp3"
+  },
+  "c115228e-eaa9-4f34-ac56-15f196c9353f": {
+    "asset": 1719212830911,
+    "meta": 1719212831307,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/positive_11_1.mp3"
+  },
+  "e0d9f6fb-f075-4f14-9342-effd057f68ec": {
+    "asset": 1719212830910,
+    "meta": 1719212831308,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/positive_1.mp3"
+  },
+  "caccd092-a8d6-4f28-8ee1-7e7f1507d467": {
+    "asset": 1719212830912,
+    "meta": 1719212831308,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/negative_4.mp3"
+  },
+  "dfc6c35d-f5e1-4ca9-89df-3739e1d71b67": {
+    "asset": 1719212830912,
+    "meta": 1719212831310,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/negative_3.mp3"
+  },
+  "23c6311d-448a-4a60-a912-b3188f8b503d": {
+    "asset": 1719212830910,
+    "meta": 1719212831311,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/positive_10.mp3"
+  },
+  "1f9f9bc6-6174-4231-a38a-3061d4fe0225": {
+    "asset": 1719212830910,
+    "meta": 1719212831311,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/negative_6.mp3"
+  },
+  "07d88c20-a52c-4c0b-88bc-815947ccfabb": {
+    "asset": 1719212830912,
+    "meta": 1719212831312,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/negative_7.mp3"
+  },
+  "86630a82-1993-40e7-9408-aae6dff604e6": {
+    "asset": 1719212830911,
+    "meta": 1719212831318,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/positive_12.mp3"
+  },
+  "4a39d69a-038f-4c0b-b96f-718ec3637a4a": {
+    "asset": 1719212830910,
+    "meta": 1719212831319,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/positive_13.mp3"
+  },
+  "d7f6ddc8-9dff-4cb0-9132-3886f72b5e4b": {
+    "asset": 1719212830911,
+    "meta": 1719212831320,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/positive_2.mp3"
+  },
+  "6702bcb6-1561-48b8-96bf-e3a05e722fb0": {
+    "asset": 1719212830912,
+    "meta": 1719212831322,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/positive_3.mp3"
+  },
+  "155ae6ae-4633-4fd4-a760-ad73c4d5c7fd": {
+    "asset": 1719212830911,
+    "meta": 1719212831322,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/positive_14.mp3"
+  },
+  "41e04b5f-b821-4709-b6a0-069ed45da528": {
+    "asset": 1719212830911,
+    "meta": 1719212831323,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/positive_6.mp3"
+  },
+  "da16b95f-2850-42ba-b4b3-a1c1d42340b9": {
+    "asset": 1719212830911,
+    "meta": 1719212831344,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/positive_5.mp3"
+  },
+  "f186e8c7-cbe1-4699-8da7-92a1c464d09b": {
+    "asset": 1719212830912,
+    "meta": 1719212831344,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/positive_4.mp3"
+  },
+  "43fc15fc-3fcb-446f-9ede-5cd9217b21d9": {
+    "asset": 1719212830909,
+    "meta": 1719212831346,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/output 40/toondomy0001.atlas"
+  },
+  "d4818062-c1d5-4449-875b-b22b75e46e24": {
+    "asset": 1719212830911,
+    "meta": 1719212831347,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/positive_7.mp3"
+  },
+  "5026321f-288a-4b04-96ca-8898edd7bd8f": {
+    "asset": 1719212830916,
+    "meta": 1719212831531,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/output 40/toondomy0001.json"
+  },
+  "ddff93ee-ab4d-4e5e-9515-0e68ec0a6a5f": {
+    "asset": 1719212830911,
+    "meta": 1719212831402,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/positive_9.mp3"
+  },
+  "0451fd4c-9cb5-48f6-97d3-8ef8ecb1297a": {
+    "asset": 1719212830911,
+    "meta": 1719212831403,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/positive_8.mp3"
+  },
+  "6877f5a8-441c-4712-918a-dee67d8829a5": {
+    "asset": 1719212830912,
+    "meta": 1719212831407,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/audio 5/questionfox.mp3"
+  },
+  "35bf23fb-49a4-4461-98e2-fa65203ba114": {
+    "asset": 1719212830914,
+    "meta": 1719212831450,
+    "relativePath": "Games/WhatWillHappenNext/Animation/Puzzle_Animation 2/output 40/toondomy0001.png"
+  },
   "ad4e5d42-7172-47db-8800-f7a8016b13a6": {
-    "asset": 1719212408889,
-    "meta": 1719212428492,
+    "asset": 1719213029994,
+    "meta": 1719213061799,
     "relativePath": "Games/WhatWillHappenNext/Scripts/gameplay.ts"
+  },
+  "ab6dc826-3cca-40a7-9734-23e9550e05b2": {
+    "asset": 1719213111631,
+    "meta": 1719213118084,
+    "relativePath": "resources/empty.ts"
   }
 }
