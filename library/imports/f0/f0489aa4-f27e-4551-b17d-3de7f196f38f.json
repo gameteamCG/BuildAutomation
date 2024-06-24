@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "5_rope_5",
+    "texture": "d7919c39-088c-4e08-99d7-f75d17360283",
+    "atlas": "",
+    "rect": [
+      136,
+      154,
+      205,
+      192
+    ],
+    "offset": [
+      -11.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
