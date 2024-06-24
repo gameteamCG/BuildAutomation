@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5dfbe57d-81fd-4486-8f19-4adfb4610ecc",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Tennis ball": {
+      "ver": "1.0.6",
+      "uuid": "fd511fdc-84cf-4ed9-85e4-1c501755aff4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5dfbe57d-81fd-4486-8f19-4adfb4610ecc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 29.5,
+      "offsetY": 0,
+      "trimX": 109,
+      "trimY": 81,
+      "width": 342,
+      "height": 339,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

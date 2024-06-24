@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "13b1004b-e697-41ed-b313-afa74853f47e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Tennis racket": {
+      "ver": "1.0.6",
+      "uuid": "e1ea328c-5e59-414f-acdc-87b3e31e1615",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "13b1004b-e697-41ed-b313-afa74853f47e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -23,
+      "offsetY": 0,
+      "trimX": 27,
+      "trimY": 64,
+      "width": 401,
+      "height": 373,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "golfground",
+    "texture": "c3e8b9f2-b218-4907-a398-9f68da274816",
+    "atlas": "",
+    "rect": [
+      21,
+      73,
+      379,
+      355
+    ],
+    "offset": [
+      -40,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

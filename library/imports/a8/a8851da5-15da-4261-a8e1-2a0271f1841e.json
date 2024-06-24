@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "matchwithgamesusingballs",
+    "texture": "02901ce1-9797-42bd-963a-aff33e193049",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      974,
+      211
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      974,
+      211
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
