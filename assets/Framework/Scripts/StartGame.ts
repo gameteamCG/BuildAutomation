@@ -14,8 +14,6 @@ interface AdditionalData {
     bgmMusicName: string;
     mainBgName: string;
     JockeyName: string;
-    optionLayout: string;
-    templateType: string;
 }
 
 interface QuestionData {
@@ -25,7 +23,6 @@ interface QuestionData {
     shouldPlayQuestionAudio: boolean;
     commonOptionImageName: string;
     isOptionText: boolean;
-    isOptionBG: boolean;
     numberOfOptions: number;
     options: string[]; // This will either contain text options or image names based on isOptionText flag
     correctAudios: string[];
@@ -53,6 +50,8 @@ export default class startGame extends cc.Component {
     @property(Number)
     LevelAgeParameters: number[] = [3, 5, 7];
     isMusicOn: boolean = true;
+    @property(cc.AudioClip)
+    playBtn_audio: cc.AudioClip = null;
 
     levelType: string = "1";
     currentLevel: string = "1";
@@ -80,9 +79,6 @@ export default class startGame extends cc.Component {
 
     @property(Number)
     totalLevels: number = 7;
-
-    @property(cc.AudioClip)
-    playBtn_audio: cc.AudioClip = null;
     // currentHealth: number = 10;
 
     timer: number = 0;
@@ -102,9 +98,9 @@ export default class startGame extends cc.Component {
     // private totalLevels: string = "";
     private titleImageName: string = "";
     jockeyName: string = "";
-    templateType: string = "";
-    optionLayout: string = "horizontal";
     questions: QuestionData[] = [];
+
+    templateType: string = "";
 
     static get Instance() {
         return startGame.instance
@@ -157,6 +153,16 @@ export default class startGame extends cc.Component {
     }
 
     updateJSONdata() {
+        // this.scheduleOnce(() => {
+        //     cc.loader.load("https://s3.ap-south-1.amazonaws.com/cgv2-prod-images.creativegalileo.com/HybridLZAssets/BTN-bg-orange.png", (err, texture) => {
+        //         if (err) {
+        //             console.error("Failed to load image:", err);
+        //             return;
+        //         }
+        //         const spriteFrame = new cc.SpriteFrame(texture);
+        //         cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+        //     });
+        // }, 1);
         if (this.isDemoGame) {
             const urlParams = new URLSearchParams(window.location.search);
 
@@ -174,10 +180,6 @@ export default class startGame extends cc.Component {
             this.totalLevels = parseInt(levelCount);
             this.titleImageName = jsonData.additionalData.TitleImageName;
             this.jockeyName = jsonData.additionalData.JockeyName;
-            this.optionLayout = jsonData.additionalData.optionLayout;
-            this.templateType = jsonData.additionalData.templateType;
-
-            //console.log("optionLayout @@@@@@@@@@@@@@@@ = ", this.optionLayout);
 
             // Assign question data to the variable
             this.questions = jsonData.questionData;
@@ -219,13 +221,11 @@ export default class startGame extends cc.Component {
                 this.mainBg = spriteFrame;
             });
 
-            if (this.templateType != "SimpleTap") {
-                this.questions.forEach(question => {
-                    question.questionImageName = question.questionImageName
-                    // question.option1ImageName = question.option1ImageName
-                    // question.option2ImageName = question.option2ImageName
-                });
-            }
+            this.questions.forEach(question => {
+                question.questionImageName = question.questionImageName
+                // question.option1ImageName = question.option1ImageName
+                // question.option2ImageName = question.option2ImageName
+            });
             // Now you can use these variables within this script
             this.logData();
         }
@@ -244,8 +244,6 @@ export default class startGame extends cc.Component {
                 this.totalLevels = parseInt(levelCount);
                 this.titleImageName = jsonData.additionalData.TitleImageName;
                 this.jockeyName = jsonData.additionalData.JockeyName;
-                this.optionLayout = jsonData.additionalData.optionLayout;
-                this.templateType = jsonData.additionalData.templateType;
 
                 // Assign question data to the variable
                 this.questions = jsonData.questionData;
@@ -266,9 +264,7 @@ export default class startGame extends cc.Component {
                     this.mainBg = spriteFrame;
                 });
                 this.questions.forEach(question => {
-                    if (this.templateType != "SimpleTap") {
-                        question.questionImageName = this.removeExtension(question.questionImageName);
-                    }
+                    question.questionImageName = this.removeExtension(question.questionImageName);
                     question.commonOptionImageName = this.removeExtension(question.commonOptionImageName);
                     question.options = question.options.map(option => this.removeExtension(option));
                     // question.option1ImageName = this.removeExtension(question.option1ImageName);
@@ -368,23 +364,21 @@ export default class startGame extends cc.Component {
             }
         }
 
-
         cc.director.preloadScene(this.NextSceneName);
-
         this.scheduleOnce(() => {
             console.log("jockey name = ", this.jockeyName);
 
             if (this.jockeyName == "Podar") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
             }
+            else if (this.jockeyName == "stallion") {
+                cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
+            }
             else if (this.jockeyName == "tlc") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("tlc").active = true;
             }
             else if (this.jockeyName == "supercub") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("supercub").active = true;
-            }
-            else if (this.jockeyName == "stallion") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
             }
             else if (this.jockeyName == "bag" || this.jockeyName == "cryon") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
@@ -396,6 +390,7 @@ export default class startGame extends cc.Component {
                 }, 2);
             }
         }, 1);
+
 
         // this.OnTimer();
 
@@ -421,8 +416,6 @@ export default class startGame extends cc.Component {
         _event.target.getComponent(cc.Button).interactable = false;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
         cc.director.loadScene(this.NextSceneName);
-        _event.target.active = false;
-        _event.target.parent.getChildByName("loading").active = true;
     }
 
     OnBack() {

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eggplant",
+    "texture": "e94d7b75-8970-4740-9c16-5ee61c0b3ae3",
+    "atlas": "",
+    "rect": [
+      34,
+      61,
+      429,
+      384
+    ],
+    "offset": [
+      -1.5,
+      -3
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

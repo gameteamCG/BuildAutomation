@@ -21,7 +21,9 @@ require('./assets/Framework/Scripts/Utilities/Utility');
 require('./assets/Framework/Scripts/Utils');
 require('./assets/Framework/WebView/Scripts/CheckForInitWebView');
 require('./assets/Framework/WebView/Scripts/WebView');
-require('./assets/resources/empty');
+require('./assets/Games/WhatWillHappenNext/Scripts/endScreen');
+require('./assets/Games/WhatWillHappenNext/Scripts/gameplay');
+require('./assets/Games/WhatWillHappenNext/Scripts/globalVariables');
 
                     }
                     if (nodeEnv) {
