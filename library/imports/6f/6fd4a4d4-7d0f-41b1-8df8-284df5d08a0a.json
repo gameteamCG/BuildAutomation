@@ -21,7 +21,7 @@
         "__id__": 17
       },
       {
-        "__id__": 60
+        "__id__": 59
       }
     ],
     "_active": false,
@@ -860,7 +860,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 59
+        "__id__": 58
       }
     ],
     "_prefab": null,
@@ -2642,7 +2642,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Singham",
+    "_name": "Puzzle",
     "_objFlags": 0,
     "_parent": {
       "__id__": 55
@@ -2654,9 +2654,7 @@
         "__id__": 57
       }
     ],
-    "_prefab": {
-      "__id__": 58
-    },
+    "_prefab": null,
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -2667,8 +2665,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 194.68,
-      "height": 440.94
+      "width": 409.01,
+      "height": 351.22
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2686,8 +2684,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        0.7,
+        0.7,
         1
       ]
     },
@@ -2702,7 +2700,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "08MHZZ1WlKh5ilv0F58c6R"
+    "_id": "d3AcPgVftCV667Hv53Ld/B"
   },
   {
     "__type__": "sp.Skeleton",
@@ -2719,7 +2717,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "idle",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -2730,13 +2728,13 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "",
+    "_animationName": "idle",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "74f9cc7a-8359-4431-b760-ae541fa6e5c1"
+      "__uuid__": "5026321f-288a-4b04-96ca-8898edd7bd8f"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
@@ -2744,18 +2742,7 @@
     "_N$debugMesh": false,
     "_N$useTint": false,
     "_N$enableBatch": false,
-    "_id": "3bVmVKo1lEiYlFT4upgi5d"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 56
-    },
-    "asset": {
-      "__uuid__": "6a798167-3f6b-46f8-a5d2-532770fd320e"
-    },
-    "fileId": "",
-    "sync": false
+    "_id": "edKQSzObpDtJrl7kXrS0B0"
   },
   {
     "__type__": "d21cdcOFCVMG565duKHxBWs",
@@ -2795,7 +2782,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 61
+        "__id__": 60
       }
     ],
     "_prefab": null,
@@ -2851,7 +2838,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 60
+      "__id__": 59
     },
     "_enabled": true,
     "label": null,

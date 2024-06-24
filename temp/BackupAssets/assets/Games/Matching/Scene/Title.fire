@@ -20,7 +20,7 @@
         "__id__": 17
       },
       {
-        "__id__": 60
+        "__id__": 62
       }
     ],
     "_active": false,
@@ -859,7 +859,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 59
+        "__id__": 61
       }
     ],
     "_prefab": null,
@@ -2587,6 +2587,9 @@
     "_children": [
       {
         "__id__": 56
+      },
+      {
+        "__id__": 59
       }
     ],
     "_active": true,
@@ -2647,7 +2650,7 @@
       "__id__": 55
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 57
@@ -2757,6 +2760,110 @@
     "sync": false
   },
   {
+    "__type__": "cc.Node",
+    "_name": "Puzzle",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 55
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 60
+      }
+    ],
+    "_prefab": null,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 409.01,
+      "height": 351.22
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        1500,
+        -375,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0.7,
+        0.7,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": "d3AcPgVftCV667Hv53Ld/B"
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 59
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "7afd064b-113f-480e-b793-8817d19f63c3"
+      }
+    ],
+    "paused": false,
+    "defaultSkin": "default",
+    "defaultAnimation": "idle",
+    "_preCacheMode": 0,
+    "_cacheMode": 0,
+    "loop": true,
+    "premultipliedAlpha": true,
+    "timeScale": 1,
+    "_accTime": 0,
+    "_playCount": 0,
+    "_frameCache": null,
+    "_curFrame": null,
+    "_skeletonCache": null,
+    "_animationName": "idle",
+    "_animationQueue": [],
+    "_headAniInfo": null,
+    "_playTimes": 0,
+    "_isAniComplete": true,
+    "_N$skeletonData": {
+      "__uuid__": "5026321f-288a-4b04-96ca-8898edd7bd8f"
+    },
+    "_N$_defaultCacheMode": 0,
+    "_N$debugSlots": false,
+    "_N$debugBones": false,
+    "_N$debugMesh": false,
+    "_N$useTint": false,
+    "_N$enableBatch": false,
+    "_id": "edKQSzObpDtJrl7kXrS0B0"
+  },
+  {
     "__type__": "d21cdcOFCVMG565duKHxBWs",
     "_name": "",
     "_objFlags": 0,
@@ -2794,7 +2901,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 61
+        "__id__": 63
       }
     ],
     "_prefab": null,
@@ -2850,7 +2957,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 60
+      "__id__": 62
     },
     "_enabled": true,
     "label": null,
