@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cardfront",
+    "texture": "14827166-cbe9-425f-89a0-b403c83b5c17",
+    "atlas": "",
+    "rect": [
+      13,
+      5,
+      305,
+      308
+    ],
+    "offset": [
+      6,
+      -2
+    ],
+    "originalSize": [
+      319,
+      314
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
