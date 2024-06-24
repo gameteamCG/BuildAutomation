@@ -1,0 +1,187 @@
+{
+  "additionalData": {
+    "GameID": "https://d542-223-178-80-213.ngrok-free.app",
+    "totalLevel": "6",
+    "TitleImageName": "rhymingwords.png",
+    "introBgName": "bgtitlemain.png",
+    "bgmMusicName": "bgm_sc.mp3",
+    "mainBgName": "Bg2.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Artboard4.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "pig_part_001.png",
+        "pig_part_002.png",
+        "pig_part_003.png",
+        "pig_part_004.png"
+      ],
+      "correctAudioName": "FANTASTIC.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipe_to_spell_its_rhyming_word.mp3",
+      "commonOptionImageName": "box2.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "w",
+        "g",
+        "i"
+      ],
+      "correctAnswer": "wig",
+      "reiterationAudioName": "Wig.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Artboard4.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "sun_part_001.png",
+        "sun_part_002.png",
+        "sun_part_003.png",
+        "sun_part_004.png"
+      ],
+      "correctAudioName": "IMPRESSIVEWORK.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipe_to_spell_its_rhyming_word.mp3",
+      "commonOptionImageName": "box2.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "u",
+        "b",
+        "n"
+      ],
+      "correctAnswer": "bun",
+      "reiterationAudioName": "Bun.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Artboard4.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "hen_part_001.png",
+        "hen_part_002.png",
+        "hen_part_003.png",
+        "hen_part_004.png"
+      ],
+      "correctAudioName": "INCREDIBLE.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipe_to_spell_its_rhyming_word.mp3",
+      "commonOptionImageName": "box2.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "m",
+        "n",
+        "e"
+      ],
+      "correctAnswer": "men",
+      "reiterationAudioName": "Men.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Artboard4.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "pot_part_001.png",
+        "pot_part_002.png",
+        "pot_part_003.png",
+        "pot_part_004.png"
+      ],
+      "correctAudioName": "MAGNIFICENT.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipe_to_spell_its_rhyming_word.mp3",
+      "commonOptionImageName": "box2.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "o",
+        "d",
+        "t"
+      ],
+      "correctAnswer": "dot",
+      "reiterationAudioName": "Dot.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Artboard4.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "jam_part_001.png",
+        "jam_part_002.png",
+        "jam_part_003.png",
+        "jam_part_004.png"
+      ],
+      "correctAudioName": "BRILLIANT.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipe_to_spell_its_rhyming_word.mp3",
+      "commonOptionImageName": "box2.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "d",
+        "m",
+        "a"
+      ],
+      "correctAnswer": "dam",
+      "reiterationAudioName": "Dam.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "Solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Artboard4.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "lid_part_001.png",
+        "lid_part_002.png",
+        "lid_part_003.png",
+        "lid_part_004.png"
+      ],
+      "correctAudioName": "FANTASTIC.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipe_to_spell_its_rhyming_word.mp3",
+      "commonOptionImageName": "box2.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "i",
+        "m",
+        "d"
+      ],
+      "correctAnswer": "mid",
+      "reiterationAudioName": "mid.mp3"
+    }
+  ]
+}
