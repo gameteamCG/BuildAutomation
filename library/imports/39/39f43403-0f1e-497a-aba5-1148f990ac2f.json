@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Mothers Day",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/1452554412_1719232885949.mp4",
+      "TitleImageName": "mothersday.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "mothers day",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Q1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "1.png",
+          "11.png"
+        ],
+        "ReiterationAudioName": "1.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "mothers day",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Q2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "22.png",
+          "2.png"
+        ],
+        "ReiterationAudioName": "2.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "mothers day",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Q3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "3.png",
+          "33.png"
+        ],
+        "ReiterationAudioName": "3.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mothersday",
+    "texture": "097782e9-6b3f-402d-98c2-d7459ad693ae",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      1017,
+      210
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      1017,
+      211
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
