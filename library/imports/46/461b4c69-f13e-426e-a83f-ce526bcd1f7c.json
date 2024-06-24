@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blow",
+    "texture": "ca524140-7409-4f0c-b401-64a60eab2db5",
+    "atlas": "",
+    "rect": [
+      21,
+      15,
+      463,
+      465
+    ],
+    "offset": [
+      2.5,
+      2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

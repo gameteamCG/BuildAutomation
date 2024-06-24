@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "washingclothes",
+    "texture": "74773e96-6a91-460b-85fc-7f57d7ebdfee",
+    "atlas": "",
+    "rect": [
+      0,
+      38,
+      500,
+      424
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

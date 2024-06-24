@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bob",
+    "texture": "3b592923-e7ba-4e6e-8a11-3916dc597c3d",
+    "atlas": "",
+    "rect": [
+      142,
+      0,
+      216,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

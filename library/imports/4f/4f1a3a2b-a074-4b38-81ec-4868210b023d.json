@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gvsreytb",
+    "texture": "cb153e19-3799-4b91-85d7-1cdb73135295",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      300,
+      280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

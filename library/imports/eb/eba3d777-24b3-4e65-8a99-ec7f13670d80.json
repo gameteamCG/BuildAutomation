@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "usesofwatertitle",
+    "texture": "600bbd4b-6c3c-4fb9-a2dc-4542515b1097",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      593,
+      316
+    ],
+    "offset": [
+      8,
+      -8
+    ],
+    "originalSize": [
+      629,
+      352
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
