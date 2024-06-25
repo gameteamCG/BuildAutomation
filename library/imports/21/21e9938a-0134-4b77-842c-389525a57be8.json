@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "summerseason",
+    "texture": "1ab2f174-3d59-4b83-a30d-ee363e98a5fe",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1109,
+      524
+    ],
+    "offset": [
+      -14,
+      6
+    ],
+    "originalSize": [
+      1137,
+      536
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
