@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zeb",
+    "texture": "9540b68f-60b2-4304-9372-6dd8ee6c7c2b",
+    "atlas": "",
+    "rect": [
+      31,
+      9,
+      195,
+      229
+    ],
+    "offset": [
+      3,
+      2
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

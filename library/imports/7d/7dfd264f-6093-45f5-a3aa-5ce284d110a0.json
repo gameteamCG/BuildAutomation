@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cha",
+    "texture": "1cbfb1e3-fd4e-475b-83a5-b38752829831",
+    "atlas": "",
+    "rect": [
+      56,
+      20,
+      365,
+      464
+    ],
+    "offset": [
+      -12,
+      -1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
