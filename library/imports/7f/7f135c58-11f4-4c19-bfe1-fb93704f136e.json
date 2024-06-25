@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Matching Letters",
+      "totalLevel": "6",
+      "TitleImageName": "titlee.png",
+      "introBgName": "sfdfgh.png",
+      "bgmMusicName": "bgm_1.mp3",
+      "mainBgName": "BG_7.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "match the letters",
+        "questionAudioName": "qqqqqqqqq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "1111.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "o.png"
+        ],
+        "reiterations": [
+          "O.mp3"
+        ],
+        "commonRightOptionImageName": "22222.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "oo0.png",
+          "mmm.png"
+        ]
+      },
+      {
+        "questionText": "match the letters",
+        "questionAudioName": "qqqqqqqqq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "1111.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "p.png"
+        ],
+        "reiterations": [
+          "P.mp3"
+        ],
+        "commonRightOptionImageName": "22222.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "ppp.png",
+          "jjj.png"
+        ]
+      },
+      {
+        "questionText": "match the letters",
+        "questionAudioName": "qqqqqqqqq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "1111.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "q.png"
+        ],
+        "reiterations": [
+          "Q.mp3"
+        ],
+        "commonRightOptionImageName": "22222.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "qq.png",
+          "t.png"
+        ]
+      },
+      {
+        "questionText": "match the letters",
+        "questionAudioName": "qqqqqqqqq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "1111.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "r.png"
+        ],
+        "reiterations": [
+          "R.mp3"
+        ],
+        "commonRightOptionImageName": "22222.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "rr.png",
+          "lll.png"
+        ]
+      },
+      {
+        "questionText": "match the letters",
+        "questionAudioName": "qqqqqqqqq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "1111.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "s.png"
+        ],
+        "reiterations": [
+          "S .mp3"
+        ],
+        "commonRightOptionImageName": "22222.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "ss.png",
+          "ccc.png"
+        ]
+      },
+      {
+        "questionText": "match the letters",
+        "questionAudioName": "qqqqqqqqq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "1111.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "t.png"
+        ],
+        "reiterations": [
+          "T.mp3"
+        ],
+        "commonRightOptionImageName": "22222.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "t.png",
+          "oo0.png"
+        ]
+      }
+    ]
+  }
+}
