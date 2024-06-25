@@ -1,0 +1,85 @@
+{
+  "AdditionalData": {
+    "GameID": "Children's day : page 363 KINDERGARTEN",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/3673465978_Childrens_day_1719319547308.mp4",
+    "TitleImageName": "Childrens_day.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Children's day",
+      "QuestionImageName": "",
+      "QuestionAudioName": "1_when_is_childrens_day.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "14 November",
+        "25 December"
+      ],
+      "ReiterationAudioName": "a1_14_november.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Children's day",
+      "QuestionImageName": "",
+      "QuestionAudioName": "2_what_did_the_principal.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "2_books.png",
+        "A2_rose_to_each_student.png"
+      ],
+      "ReiterationAudioName": "a2_a_rose_to_each_student.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Children's day",
+      "QuestionImageName": "",
+      "QuestionAudioName": "3_who_did_gattu_and_chin.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "a3_Shravan_Raju_and_Chotu.png",
+        "Cats.png"
+      ],
+      "ReiterationAudioName": "a3_shravan_raju_and_chot.mp3",
+      "CorrectAudioName": "GORGEOUSWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Children's day",
+      "QuestionImageName": "",
+      "QuestionAudioName": "4_who_asked_the_kids_to.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "4_Security_guard.png",
+        "a4_Principal.png"
+      ],
+      "ReiterationAudioName": "a4_principal.mp3",
+      "CorrectAudioName": "GOODEFFORT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
