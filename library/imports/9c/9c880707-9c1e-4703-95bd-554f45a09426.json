@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vrivketball",
+    "texture": "2dfe7848-8707-4935-b20f-48b836cabfd3",
+    "atlas": "",
+    "rect": [
+      65,
+      61,
+      371,
+      379
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
