@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Guru_Purnima",
+    "texture": "51efd74c-e7d8-4bdc-ad23-49aeb84f2992",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      795,
+      395
+    ],
+    "offset": [
+      0,
+      5.5
+    ],
+    "originalSize": [
+      795,
+      406
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

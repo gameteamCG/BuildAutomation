@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Guru Purnima : page 339 KINDERGARTEN",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/87426685247_Guru_Purnima_1719309841882.mp4",
+      "TitleImageName": "Guru_Purnima.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Who got roses early in the morning for guru purnima?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "1_who_got_roses_early_in.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "a1_gattu.png",
+          "1_mother.png"
+        ],
+        "ReiterationAudioName": "1_gattu.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Guru Purnima",
+        "QuestionImageName": "",
+        "QuestionAudioName": "2_whom_do_we_thank_on_gu.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "2_toys.png",
+          "a2_Our_teachers.png"
+        ],
+        "ReiterationAudioName": "2_our_teachers.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "first teachers",
+        "QuestionImageName": "",
+        "QuestionAudioName": "3_who_are_our_first_teac.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "a3_Our_parents.png",
+          "3_pets.png"
+        ],
+        "ReiterationAudioName": "3_our_parents.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "What did Chinki give her teacher on guru purnima?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "4_what_did_chinki_give_h.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "4_balloons.png",
+          "A4_sketch.png"
+        ],
+        "ReiterationAudioName": "4_a_sketch.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
