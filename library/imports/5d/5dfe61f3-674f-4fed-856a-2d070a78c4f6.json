@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dino",
+    "texture": "5452b536-068a-4c19-a45d-640aa1159fc5",
+    "atlas": "",
+    "rect": [
+      86,
+      77,
+      287,
+      305
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

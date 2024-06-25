@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "squ",
+    "texture": "3a173893-ce5e-4566-89d4-af9efb717ba6",
+    "atlas": "",
+    "rect": [
+      120,
+      58,
+      219,
+      343
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
