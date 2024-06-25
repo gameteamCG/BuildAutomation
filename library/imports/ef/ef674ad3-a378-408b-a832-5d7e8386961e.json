@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chestt",
+    "texture": "aa477cb4-ddb2-4530-aa0a-f21b3d22f9da",
+    "atlas": "",
+    "rect": [
+      0,
+      14,
+      247,
+      237
+    ],
+    "offset": [
+      -2,
+      -7
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
