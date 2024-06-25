@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e6454b12-479c-42db-a666-f2823c6f2e64",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 200,
+  "height": 200,
+  "platformSettings": {},
+  "subMetas": {
+    "Washing_clothes": {
+      "ver": "1.0.6",
+      "uuid": "0d4f0f46-546b-417a-a81d-51a33333da37",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e6454b12-479c-42db-a666-f2823c6f2e64",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 15,
+      "width": 200,
+      "height": 170,
+      "rawWidth": 200,
+      "rawHeight": 200,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
