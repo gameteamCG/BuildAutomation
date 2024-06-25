@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "triangleee",
+    "texture": "6630fef0-af19-4dbf-a184-96075725ca72",
+    "atlas": "",
+    "rect": [
+      74,
+      95,
+      311,
+      269
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
