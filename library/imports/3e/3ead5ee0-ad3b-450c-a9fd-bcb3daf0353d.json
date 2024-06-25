@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "television",
+    "texture": "f33f7897-28a6-4914-8073-474e5b89f563",
+    "atlas": "",
+    "rect": [
+      55,
+      0,
+      386,
+      500
+    ],
+    "offset": [
+      -2,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
