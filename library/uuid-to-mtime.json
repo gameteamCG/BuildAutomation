@@ -500,8 +500,8 @@
     "relativePath": "model/primitives.fbx"
   },
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1719309519492,
-    "meta": 1719309537829,
+    "asset": 1719309687960,
+    "meta": 1719309688239,
     "relativePath": "resources"
   },
   "48531029-3cfd-4d23-abb9-057b4b7762b9": {
@@ -3058,5 +3058,115 @@
     "asset": 1719309442088,
     "meta": 1719309538062,
     "relativePath": "Games/SocialQuiz/Audios"
+  },
+  "c94c9e02-1fd5-457e-ba0c-497bc1212e05": {
+    "asset": 1719309687975,
+    "meta": 1719309688240,
+    "relativePath": "resources/audios"
+  },
+  "a67e6cd8-dedb-456d-b51a-22a428734822": {
+    "asset": 1719309687977,
+    "meta": 1719309688240,
+    "relativePath": "resources/images"
+  },
+  "a5f17f18-b5ff-439c-abf6-042ce97aafe3": {
+    "asset": 1719309682474,
+    "meta": 1719309688330,
+    "relativePath": "resources/game_data.json"
+  },
+  "6c24b589-5bb5-4b6b-b6bb-32375d3a9d83": {
+    "asset": 1719309682471,
+    "meta": 1719309688703,
+    "relativePath": "resources/audios/19128524_3_basketBall.mp3"
+  },
+  "8ccefb19-4e96-41ab-a32c-3371646eac7f": {
+    "asset": 1719309682472,
+    "meta": 1719309688703,
+    "relativePath": "resources/audios/19128524_8_rugby.mp3"
+  },
+  "c62cf751-2fb5-4083-839f-96da49e77918": {
+    "asset": 1719309682471,
+    "meta": 1719309688704,
+    "relativePath": "resources/audios/19128524_4_tennisball.mp3"
+  },
+  "ddf8f142-31cf-4b3f-b7b0-00432c7a9ad7": {
+    "asset": 1719309682471,
+    "meta": 1719309688704,
+    "relativePath": "resources/audios/19128524_7_volleyball.mp3"
+  },
+  "1ac1a951-19c3-448f-9cde-abf47cdb8087": {
+    "asset": 1719309682470,
+    "meta": 1719309688704,
+    "relativePath": "resources/audios/19128524_3_baseball.mp3"
+  },
+  "a5b6a82b-fc0b-4a94-831f-c812eb9fa999": {
+    "asset": 1719309682471,
+    "meta": 1719309688705,
+    "relativePath": "resources/audios/19128524_6_cricket.mp3"
+  },
+  "644ff97e-33d6-4a87-a250-512575e17251": {
+    "asset": 1719309682473,
+    "meta": 1719309688705,
+    "relativePath": "resources/audios/match_the_same_sports_balls.mp3"
+  },
+  "da44726d-3f09-4494-8b62-854ec3e859b9": {
+    "asset": 1719309682473,
+    "meta": 1719309688706,
+    "relativePath": "resources/audios/BGM_2.mp3"
+  },
+  "e4296531-c68c-45bf-9d47-093759581172": {
+    "asset": 1719309682474,
+    "meta": 1719309688717,
+    "relativePath": "resources/images/backcard.png"
+  },
+  "ec0efc10-6b0a-403e-8cd5-147c10d78c1b": {
+    "asset": 1719309682474,
+    "meta": 1719309688729,
+    "relativePath": "resources/images/baseball.png"
+  },
+  "350d2e14-a9e3-4f71-9c3b-30fd4ca6e7e9": {
+    "asset": 1719309682478,
+    "meta": 1719309688738,
+    "relativePath": "resources/images/tennisball.png"
+  },
+  "5ddb8c9c-fda7-4626-a58a-86ea16d529a4": {
+    "asset": 1719309682474,
+    "meta": 1719309688744,
+    "relativePath": "resources/images/basketball.png"
+  },
+  "8d045be5-b3cb-44d4-b9ce-37d18dc48b6d": {
+    "asset": 1719309682474,
+    "meta": 1719309688744,
+    "relativePath": "resources/images/frontcard.png"
+  },
+  "4008ba36-bd32-4736-ae4d-f42c4f15d32a": {
+    "asset": 1719309682478,
+    "meta": 1719309688744,
+    "relativePath": "resources/images/rugbyball.png"
+  },
+  "4352bd4c-3607-4fea-8c28-6a6e7bbe92b9": {
+    "asset": 1719309682478,
+    "meta": 1719309688745,
+    "relativePath": "resources/images/match_diffent_ball.png"
+  },
+  "369bf1df-fdea-4363-a966-ab812a9eab0e": {
+    "asset": 1719309682479,
+    "meta": 1719309688753,
+    "relativePath": "resources/images/volleyball.png"
+  },
+  "300864b1-f16d-4424-96bb-e630b492a4b9": {
+    "asset": 1719309682481,
+    "meta": 1719309688755,
+    "relativePath": "resources/images/vrivketball.png"
+  },
+  "3c533ba5-84ff-46d4-b159-7e0c5da0514d": {
+    "asset": 1719309682479,
+    "meta": 1719309688759,
+    "relativePath": "resources/images/titlebg.png"
+  },
+  "cb22d6e9-41d2-4f2b-a60e-8735dfc2d6f7": {
+    "asset": 1719309682476,
+    "meta": 1719309688761,
+    "relativePath": "resources/images/mainbg2.png"
   }
 }

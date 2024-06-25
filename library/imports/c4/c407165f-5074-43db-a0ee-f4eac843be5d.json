@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "baseball",
+    "texture": "ec0efc10-6b0a-403e-8cd5-147c10d78c1b",
+    "atlas": "",
+    "rect": [
+      68,
+      63,
+      365,
+      375
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
