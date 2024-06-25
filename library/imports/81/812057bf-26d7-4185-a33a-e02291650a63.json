@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Halloween_celebration",
+    "texture": "cade723f-5685-4f3d-a855-efe61e569bd4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      999,
+      400
+    ],
+    "offset": [
+      0,
+      6
+    ],
+    "originalSize": [
+      999,
+      412
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

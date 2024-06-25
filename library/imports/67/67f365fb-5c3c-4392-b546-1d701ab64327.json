@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Halloween celebration : page 354 KINDERGARTEN",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/3428923475_Halloween_celebration_1719319375933.mp4",
+      "TitleImageName": "Halloween_celebration.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Halloween",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q1_Identify_the_picture_where_people_are_celebrating_Halloween.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "halloween.png",
+          "holi.png"
+        ],
+        "ReiterationAudioName": "a1_halloween.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Halloween",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q2_when_do_people_celebra.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "1st January",
+          "31st October"
+        ],
+        "ReiterationAudioName": "a2_31st_october.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "jack-o’-lantern",
+        "QuestionImageName": "",
+        "QuestionAudioName": "3_Identify_the_picture_of_jack_o_lantern.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "jack_o_lantern.png",
+          "pine.png"
+        ],
+        "ReiterationAudioName": "a3__jack_o_lantern.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
