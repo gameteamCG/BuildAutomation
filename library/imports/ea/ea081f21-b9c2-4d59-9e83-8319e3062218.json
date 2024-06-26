@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yell",
+    "texture": "15f70242-2aa0-4c14-a7ef-f40d44db2763",
+    "atlas": "",
+    "rect": [
+      31,
+      31,
+      213,
+      202
+    ],
+    "offset": [
+      12.5,
+      -7
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

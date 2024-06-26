@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "righty",
+    "texture": "5b2b3a04-d5ca-49ab-9090-7f982c1bb166",
+    "atlas": "",
+    "rect": [
+      44,
+      39,
+      162,
+      172
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
