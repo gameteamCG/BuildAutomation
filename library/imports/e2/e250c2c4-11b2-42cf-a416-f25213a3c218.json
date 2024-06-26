@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "capsicum_text",
+    "texture": "f8f6d202-85da-4c29-ab3d-ecdd88190090",
+    "atlas": "",
+    "rect": [
+      85,
+      212,
+      329,
+      66
+    ],
+    "offset": [
+      -1,
+      5.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

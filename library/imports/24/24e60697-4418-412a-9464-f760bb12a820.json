@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Identify_fruits_and_vegetables",
+    "texture": "8fc02ac6-40b9-44b6-921d-6dc43a70d896",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      849,
+      236
+    ],
+    "offset": [
+      0,
+      11
+    ],
+    "originalSize": [
+      849,
+      258
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
