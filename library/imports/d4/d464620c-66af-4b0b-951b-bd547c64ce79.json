@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Multiplication\t",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Concept_Of_Multiplication_1719383929228.mp4",
+      "TitleImageName": "Asset_99.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "248",
+        "IsQuestionText": true,
+        "QuestionText": "multiplication",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identify_symbol.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "x",
+          "-",
+          "+",
+          "="
+        ],
+        "ReiterationAudioName": "BRILLIANT.mp3",
+        "CorrectAudioName": "x_symbol.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "248",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "question2.png",
+        "QuestionAudioName": "How_many_birds.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "20",
+          "10",
+          "30",
+          "40"
+        ],
+        "ReiterationAudioName": "BRILLIANT.mp3",
+        "CorrectAudioName": "10.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "248",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "question3.png",
+        "QuestionAudioName": "How_many_ladybugs.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "10",
+          "5",
+          "15",
+          "20"
+        ],
+        "ReiterationAudioName": "EXCEPTIONAL.mp3",
+        "CorrectAudioName": "15.mp3",
+        "WrongAudioName": "nevermind_tryagain.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "248",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "question4.png",
+        "QuestionAudioName": "How_many_fish.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "7",
+          "4",
+          "5",
+          "6"
+        ],
+        "ReiterationAudioName": "GOODEFFORT.mp3",
+        "CorrectAudioName": "6.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "248",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "question5.png",
+        "QuestionAudioName": "How_many_birds.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "20",
+          "10",
+          "30",
+          "40"
+        ],
+        "ReiterationAudioName": "GREATWORK.mp3",
+        "CorrectAudioName": "20.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "248",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "question6.png",
+        "QuestionAudioName": "How_many_ladybugs.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "11",
+          "9",
+          "12",
+          "10"
+        ],
+        "ReiterationAudioName": "INCREDIBLE.mp3",
+        "CorrectAudioName": "12.mp3",
+        "WrongAudioName": "nevermind_tryagain.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}
