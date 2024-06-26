@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "landin2",
+    "texture": "f042d430-ee05-4bd6-8bc9-1a9f25f792e5",
+    "atlas": "",
+    "rect": [
+      56,
+      167,
+      496,
+      169
+    ],
+    "offset": [
+      4,
+      48.5
+    ],
+    "originalSize": [
+      600,
+      600
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
