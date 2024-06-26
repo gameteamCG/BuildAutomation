@@ -1,0 +1,93 @@
+{
+  "AdditionalData": {
+    "GameID": "Counting by Tens ",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/4432456654_1719406539142.mp4",
+    "TitleImageName": "tens.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "1.png",
+      "QuestionAudioName": "q.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "23.png",
+        "80.png",
+        "20.png",
+        "40.png"
+      ],
+      "ReiterationAudioName": "1.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "2.png",
+      "QuestionAudioName": "q.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "12.png",
+        "42.png",
+        "23.png",
+        "13.png"
+      ],
+      "ReiterationAudioName": "2.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "3.png",
+      "QuestionAudioName": "q.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "08.png",
+        "10.png",
+        "18.png",
+        "80.png"
+      ],
+      "ReiterationAudioName": "3.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "nevermind.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "4.png",
+      "QuestionAudioName": "q.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "18.png",
+        "30.png",
+        "23.png",
+        "50.png"
+      ],
+      "ReiterationAudioName": "4.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "4"
+    }
+  ]
+}
