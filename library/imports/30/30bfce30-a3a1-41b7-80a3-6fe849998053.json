@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Gandhi_Jayanti",
+    "texture": "85352a2e-1630-40c9-816f-094ee5a88871",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      758,
+      475
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      758,
+      475
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

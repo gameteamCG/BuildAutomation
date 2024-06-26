@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "85352a2e-1630-40c9-816f-094ee5a88871",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 758,
+  "height": 475,
+  "platformSettings": {},
+  "subMetas": {
+    "Gandhi_Jayanti": {
+      "ver": "1.0.6",
+      "uuid": "30bfce30-a3a1-41b7-80a3-6fe849998053",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "85352a2e-1630-40c9-816f-094ee5a88871",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 758,
+      "height": 475,
+      "rawWidth": 758,
+      "rawHeight": 475,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
