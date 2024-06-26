@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blimp",
+    "texture": "a77872b4-3668-4952-904c-2e386d9282b7",
+    "atlas": "",
+    "rect": [
+      34,
+      59,
+      450,
+      417
+    ],
+    "offset": [
+      8.5,
+      -17
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
