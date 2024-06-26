@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appleshadow",
+    "texture": "14dfe92a-ac85-4e26-ac3a-cad81517be96",
+    "atlas": "",
+    "rect": [
+      118,
+      77,
+      264,
+      347
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
