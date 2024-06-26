@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Sound_Nursery Practice Book 2_8",
+      "totalLevel": "6",
+      "TitleImageName": "title.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "ColourBGM1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "solve picture puzzle",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "puzzle_board.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "correctAudioName": "tap_to_identify_its_beginning_sound.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "identify beginini sound",
+        "questionAudioName2": "",
+        "commonOptionImageName": "ui_button.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "E",
+          "G"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Sound_of_e.mp3"
+      },
+      {
+        "questionText": "solve picture puzzle",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "puzzle_board.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "5.png",
+          "6.png",
+          "7.png",
+          "8.png"
+        ],
+        "correctAudioName": "tap_to_identify_its_beginning_sound.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "identify beginini sound",
+        "questionAudioName2": "",
+        "commonOptionImageName": "ui_button.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "H",
+          "F"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "Sound_of_f.mp3"
+      },
+      {
+        "questionText": "solve picture puzzle",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "puzzle_board.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "9.png",
+          "10.png",
+          "11.png",
+          "12.png"
+        ],
+        "correctAudioName": "tap_to_identify_its_beginning_sound.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "identify beginini sound",
+        "questionAudioName2": "",
+        "commonOptionImageName": "ui_button.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "G",
+          "I"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Sound_of_g.mp3"
+      },
+      {
+        "questionText": "solve picture puzzle",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "puzzle_board.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "13.png",
+          "14.png",
+          "15.png",
+          "16.png"
+        ],
+        "correctAudioName": "tap_to_identify_its_beginning_sound.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "identify beginini sound",
+        "questionAudioName2": "",
+        "commonOptionImageName": "ui_button.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "W",
+          "H"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "Sound_of_h.mp3"
+      },
+      {
+        "questionText": "solve picture puzzle",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "puzzle_board.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "17.png",
+          "18.png",
+          "19.png",
+          "20.png"
+        ],
+        "correctAudioName": "tap_to_identify_its_beginning_sound.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "identify beginini sound",
+        "questionAudioName2": "",
+        "commonOptionImageName": "ui_button.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "I",
+          "G"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Sound_of_i.mp3"
+      },
+      {
+        "questionText": "solve picture puzzle",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "puzzle_board.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "21.png",
+          "22.png",
+          "23.png",
+          "24.png"
+        ],
+        "correctAudioName": "Solve_the_picture_puzzle.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "identify beginini sound",
+        "questionAudioName2": "",
+        "commonOptionImageName": "ui_button.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "E",
+          "J"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "Sound_of_j.mp3"
+      }
+    ]
+  }
+}
