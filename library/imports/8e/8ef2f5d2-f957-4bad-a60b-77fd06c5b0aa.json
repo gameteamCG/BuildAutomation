@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Famous_sports_of_different_countries",
+    "texture": "921358ea-acd8-43f2-8b83-d0227f32af0c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1066,
+      480
+    ],
+    "offset": [
+      -8.5,
+      4
+    ],
+    "originalSize": [
+      1083,
+      488
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

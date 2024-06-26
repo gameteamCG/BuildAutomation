@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "921358ea-acd8-43f2-8b83-d0227f32af0c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1083,
+  "height": 488,
+  "platformSettings": {},
+  "subMetas": {
+    "Famous_sports_of_different_countries": {
+      "ver": "1.0.6",
+      "uuid": "8ef2f5d2-f957-4bad-a60b-77fd06c5b0aa",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "921358ea-acd8-43f2-8b83-d0227f32af0c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -8.5,
+      "offsetY": 4,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1066,
+      "height": 480,
+      "rawWidth": 1083,
+      "rawHeight": 488,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
