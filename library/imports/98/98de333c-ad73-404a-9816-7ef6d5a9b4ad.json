@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Phonic sound 'w'",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/45675863588_The_Letter_W_Song_1719388452534.mp4",
+      "TitleImageName": "Phonic_sound_w.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the letter with the letter sound",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identify_the_letter_with_the_letter_sound_W.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "W",
+          "X"
+        ],
+        "ReiterationAudioName": "W.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "W",
+        "QuestionImageName": "",
+        "QuestionAudioName": "2_tap_on_the_fruit_with_the_letter_sound_www.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "mango.png",
+          "2_watermelon.png"
+        ],
+        "ReiterationAudioName": "W_WATERMELON.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "W",
+        "QuestionImageName": "",
+        "QuestionAudioName": "345_Tap_on_the_picture_that_begins_with_letter_sound_w.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "3_window.png",
+          "door.png"
+        ],
+        "ReiterationAudioName": "W_WINDOW.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "W",
+        "QuestionImageName": "",
+        "QuestionAudioName": "345_Tap_on_the_picture_that_begins_with_letter_sound_w.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "shoes.png",
+          "1_watch.png"
+        ],
+        "ReiterationAudioName": "w_WATCH.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "W",
+        "QuestionImageName": "",
+        "QuestionAudioName": "345_Tap_on_the_picture_that_begins_with_letter_sound_w.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "whale.png",
+          "crab.png"
+        ],
+        "ReiterationAudioName": "W_WHALE.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

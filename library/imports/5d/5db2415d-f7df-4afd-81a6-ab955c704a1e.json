@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Phonic_sound_w",
+    "texture": "7d82a600-f3c0-4521-aeea-e8c8695a4af0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      891,
+      441
+    ],
+    "offset": [
+      0,
+      5
+    ],
+    "originalSize": [
+      891,
+      451
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
