@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "A_flock_of_birds",
+    "texture": "aae98109-1048-4c5e-9a5a-8f075cf1f12c",
+    "atlas": "",
+    "rect": [
+      56,
+      127,
+      340,
+      235
+    ],
+    "offset": [
+      -24,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gaggle",
+    "texture": "4cec8480-54a3-4db7-b711-91f0d6391954",
+    "atlas": "",
+    "rect": [
+      106,
+      187,
+      340,
+      147
+    ],
+    "offset": [
+      26,
+      -10.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

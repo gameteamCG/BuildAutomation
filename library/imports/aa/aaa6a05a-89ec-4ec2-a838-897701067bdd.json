@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pride",
+    "texture": "ad7359d0-8887-412e-8baa-cf377b6c88b3",
+    "atlas": "",
+    "rect": [
+      140,
+      187,
+      268,
+      147
+    ],
+    "offset": [
+      24,
+      -10.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
