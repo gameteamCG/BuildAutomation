@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "leggg",
+    "texture": "47bdcff1-f959-4bed-83bd-7b30ce209037",
+    "atlas": "",
+    "rect": [
+      38,
+      42,
+      172,
+      172
+    ],
+    "offset": [
+      -1,
+      -3
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

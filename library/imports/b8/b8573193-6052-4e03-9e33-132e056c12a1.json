@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Ending Blend -sk",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/8768904566_1719384594755.mp4",
+      "TitleImageName": "sk.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "mask.png",
+        "QuestionAudioName": "q1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "dusk",
+          "ask",
+          "risk",
+          "mask"
+        ],
+        "ReiterationAudioName": "mask.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "desk",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q23.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "chair.png",
+          "desk.png",
+          "closet.png",
+          "bed_1.png"
+        ],
+        "ReiterationAudioName": "desk.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": true,
+        "QuestionText": "tusk",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q23.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "lear.png",
+          "leggg.png",
+          "tusk.png",
+          "eyes_1.png"
+        ],
+        "ReiterationAudioName": "tusk.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "whi.png",
+        "QuestionAudioName": "Q4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "st",
+          "sk",
+          "sm",
+          "sp"
+        ],
+        "ReiterationAudioName": "whisk.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

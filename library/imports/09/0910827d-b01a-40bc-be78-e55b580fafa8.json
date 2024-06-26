@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "desk",
+    "texture": "42a90a2f-8266-4358-b8e0-a31bd9fcad52",
+    "atlas": "",
+    "rect": [
+      17,
+      59,
+      226,
+      153
+    ],
+    "offset": [
+      5,
+      -10.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
