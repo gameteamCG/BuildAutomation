@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "carrotshadow",
+    "texture": "8f720b1e-08eb-47f2-accb-c3e14c97caee",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      396,
+      506
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      396,
+      507
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
