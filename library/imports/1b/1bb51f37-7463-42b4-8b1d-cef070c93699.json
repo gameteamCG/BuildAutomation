@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "car",
+    "texture": "e00dc672-68fa-4aa1-983e-45a15822748f",
+    "atlas": "",
+    "rect": [
+      6,
+      117,
+      482,
+      271
+    ],
+    "offset": [
+      -3.5,
+      -2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
