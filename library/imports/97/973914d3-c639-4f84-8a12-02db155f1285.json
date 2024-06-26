@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0012_scarf",
+    "texture": "f3d4bbf4-4540-48c1-b316-ba6b534df6f2",
+    "atlas": "",
+    "rect": [
+      20,
+      50,
+      457,
+      398
+    ],
+    "offset": [
+      -1.5,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
