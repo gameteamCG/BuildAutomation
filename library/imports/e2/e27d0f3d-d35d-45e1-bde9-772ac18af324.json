@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Dd ",
+      "totalLevel": "3",
+      "TitleImageName": "ddd.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "B2.mp3",
+      "initialVOName": "",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "color the picture",
+        "questionImageName": "blankk.png",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "doll.png",
+        "needMoreTools": true,
+        "correctAudioName": "doll.mp3"
+      },
+      {
+        "questionText": "color the picture",
+        "questionImageName": "blankk.png",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "duck.png",
+        "needMoreTools": true,
+        "correctAudioName": "duck.mp3"
+      },
+      {
+        "questionText": "color the picture",
+        "questionImageName": "blankk.png",
+        "questionAudioName": "q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "dog.png",
+        "needMoreTools": true,
+        "correctAudioName": "doll.mp3"
+      }
+    ]
+  }
+}
