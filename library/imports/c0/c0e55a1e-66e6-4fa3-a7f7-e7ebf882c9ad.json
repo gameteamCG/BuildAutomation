@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number fun 1 to 5 ",
+      "totalLevel": "5",
+      "TitleImageName": "numberfun15.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "bgm1.mp3",
+      "initialVOName": "",
+      "mainBgName": "doodleBG.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "count and colour the hole in the number pattern tile",
+        "questionImageName": "red1.png",
+        "questionAudioName": "Nu1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "1.png",
+        "needMoreTools": true,
+        "correctAudioName": "11.mp3"
+      },
+      {
+        "questionText": "count and colour the holes in the number pattern tile",
+        "questionImageName": "red2.png",
+        "questionAudioName": "nu2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "2.png",
+        "needMoreTools": true,
+        "correctAudioName": "12.mp3"
+      },
+      {
+        "questionText": "count and colour the holes in the number pattern tile",
+        "questionImageName": "red3.png",
+        "questionAudioName": "nu2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "3.png",
+        "needMoreTools": true,
+        "correctAudioName": "13.mp3"
+      },
+      {
+        "questionText": "count and colour the holes in the number pattern tile",
+        "questionImageName": "red4.png",
+        "questionAudioName": "nu2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "4.png",
+        "needMoreTools": true,
+        "correctAudioName": "14.mp3"
+      },
+      {
+        "questionText": "count and colour the holes in the number pattern tile",
+        "questionImageName": "red5.png",
+        "questionAudioName": "nu2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "5.png",
+        "needMoreTools": true,
+        "correctAudioName": "151.mp3"
+      }
+    ]
+  }
+}
