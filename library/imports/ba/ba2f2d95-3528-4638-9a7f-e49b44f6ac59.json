@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q5_table",
+    "texture": "e3f61b83-f9a2-47dc-a20a-2407cc79741b",
+    "atlas": "",
+    "rect": [
+      18,
+      41,
+      482,
+      371
+    ],
+    "offset": [
+      9,
+      23.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
