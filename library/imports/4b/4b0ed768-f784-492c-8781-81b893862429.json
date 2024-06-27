@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Punctuation",
+    "texture": "a4e00d87-acee-4b72-8cfe-71127da4017a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1074,
+      215
+    ],
+    "offset": [
+      0,
+      5.5
+    ],
+    "originalSize": [
+      1074,
+      226
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
