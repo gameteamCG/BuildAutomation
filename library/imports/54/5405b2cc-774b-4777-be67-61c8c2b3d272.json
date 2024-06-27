@@ -1,0 +1,39 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Arrange in correct order",
+      "totalLevel": "1",
+      "TitleImageName": "Asset444.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "bgm2.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "arrange in correct sequence",
+        "questionImageName": "",
+        "questionAudioName": "Q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "optionOffset": 0,
+        "options": [
+          "3.png",
+          "4.png",
+          "1.png",
+          "2.png"
+        ],
+        "correctAnswer": "3412",
+        "correctAudioName": "GoodP.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      }
+    ]
+  }
+}
