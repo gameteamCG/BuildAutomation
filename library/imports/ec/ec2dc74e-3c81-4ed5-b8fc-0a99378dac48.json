@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_monkey-cub",
+    "texture": "c23ea472-5813-4a1e-be66-9fe0159e86f4",
+    "atlas": "",
+    "rect": [
+      103,
+      187,
+      294,
+      308
+    ],
+    "offset": [
+      0,
+      -91
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

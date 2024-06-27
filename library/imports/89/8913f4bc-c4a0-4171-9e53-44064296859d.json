@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0010_bear_cub",
+    "texture": "176bb336-ba98-42a7-b652-0532f59d98b7",
+    "atlas": "",
+    "rect": [
+      134,
+      167,
+      236,
+      327
+    ],
+    "offset": [
+      2,
+      -80.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
