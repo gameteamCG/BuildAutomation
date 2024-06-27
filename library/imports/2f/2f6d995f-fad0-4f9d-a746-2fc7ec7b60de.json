@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boyonquilt",
+    "texture": "5a3622f2-f4d5-4f4d-9462-4f6edc8c41fe",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      500,
+      501
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
