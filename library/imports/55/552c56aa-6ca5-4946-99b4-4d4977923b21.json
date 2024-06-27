@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "G-4777",
+      "totalLevel": "5",
+      "TitleImageName": "Asset 19-8.png",
+      "introBgName": "bg12.png",
+      "bgmMusicName": "BBgm.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "-i-e, -ow",
+        "questionAudioName": "Question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "finall.png",
+        "frontCardImageName": "finall2.png",
+        "isOptionText": false,
+        "options": [
+          "five.png",
+          "crow.png"
+        ],
+        "reiterationAudios": [
+          "Five.mp3",
+          "Snow.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "kite.png",
+          "snow.png"
+        ]
+      },
+      {
+        "questionText": "-oa-, -u-e",
+        "questionAudioName": "Question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "finall.png",
+        "frontCardImageName": "finall2.png",
+        "isOptionText": false,
+        "options": [
+          "coat.png",
+          "flute.png"
+        ],
+        "reiterationAudios": [
+          "Coat.mp3",
+          "p_23988070_332.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "soap.png",
+          "tube.png"
+        ]
+      },
+      {
+        "questionText": "-ue, -ie",
+        "questionAudioName": "Question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "finall.png",
+        "frontCardImageName": "finall2.png",
+        "isOptionText": false,
+        "options": [
+          "blue.png",
+          "pie.png"
+        ],
+        "reiterationAudios": [
+          "Glue.mp3",
+          "Tie.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "glue.png",
+          "tai.png"
+        ]
+      },
+      {
+        "questionText": "-oe, -ew",
+        "questionAudioName": "Question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "finall.png",
+        "frontCardImageName": "finall2.png",
+        "isOptionText": false,
+        "options": [
+          "toe.png",
+          "new.png"
+        ],
+        "reiterationAudios": [
+          "p_23988143_494.mp3",
+          "p_23988196_595.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "deer.png",
+          "dune.png"
+        ]
+      },
+      {
+        "questionText": "-o-e, i-e",
+        "questionAudioName": "Question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "finall.png",
+        "frontCardImageName": "finall2.png",
+        "isOptionText": false,
+        "options": [
+          "home.png",
+          "hide.png"
+        ],
+        "reiterationAudios": [
+          "Rope.mp3",
+          "Prize.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "rope.png",
+          "prize.png"
+        ]
+      }
+    ]
+  }
+}
