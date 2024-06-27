@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Happy",
+    "texture": "b293084a-057d-4a3b-9fcb-d5f7d31fc11b",
+    "atlas": "",
+    "rect": [
+      29,
+      44,
+      442,
+      416
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

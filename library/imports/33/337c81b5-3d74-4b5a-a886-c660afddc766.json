@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "feelingchart",
+    "texture": "fc127652-a769-4933-9c7e-dcfd836299e3",
+    "atlas": "",
+    "rect": [
+      19,
+      20,
+      587,
+      368
+    ],
+    "offset": [
+      9.5,
+      -10
+    ],
+    "originalSize": [
+      606,
+      388
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
