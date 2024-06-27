@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "numberfun15",
+    "texture": "61379d29-c204-4b5e-b9e1-b92926ca6387",
+    "atlas": "",
+    "rect": [
+      26,
+      27,
+      1096,
+      314
+    ],
+    "offset": [
+      7.5,
+      -8
+    ],
+    "originalSize": [
+      1133,
+      352
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
