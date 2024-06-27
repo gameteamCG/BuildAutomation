@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_earthworm",
+    "texture": "8d6451a2-6728-4832-9ea1-4de26f92d617",
+    "atlas": "",
+    "rect": [
+      5,
+      0,
+      490,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

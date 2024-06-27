@@ -1,0 +1,56 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "rainy creatures",
+      "totalLevel": "4",
+      "TitleImageName": "tital.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_cooking.mp3",
+      "initialVOName": "question.mp3",
+      "mainBgName": "beach.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "peacock",
+        "questionImageName": "",
+        "questionAudioName": "peacokc.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "1_peacock.png",
+        "needMoreTools": true,
+        "correctAudioName": "a_peacock.mp3"
+      },
+      {
+        "questionText": "frog",
+        "questionImageName": "",
+        "questionAudioName": "froh.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "2_frog.png",
+        "needMoreTools": true,
+        "correctAudioName": "a_frog.mp3"
+      },
+      {
+        "questionText": "earthworm",
+        "questionImageName": "",
+        "questionAudioName": "erthworm.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "3_earthworm.png",
+        "needMoreTools": true,
+        "correctAudioName": "A_earthwarm.mp3"
+      },
+      {
+        "questionText": "snail",
+        "questionImageName": "",
+        "questionAudioName": "snail.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "4_snail.png",
+        "needMoreTools": true,
+        "correctAudioName": "A_snail.mp3"
+      }
+    ]
+  }
+}

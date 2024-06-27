@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "4_snail",
+    "texture": "9943a4a8-50c1-4c5b-8594-326348db9615",
+    "atlas": "",
+    "rect": [
+      0,
+      43,
+      500,
+      414
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
