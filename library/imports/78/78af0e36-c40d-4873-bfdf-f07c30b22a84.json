@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grasp",
+    "texture": "7b17d16c-c2f6-4e7b-9e39-cd2224c6c1ec",
+    "atlas": "",
+    "rect": [
+      98,
+      22,
+      318,
+      468
+    ],
+    "offset": [
+      6.5,
+      -5.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

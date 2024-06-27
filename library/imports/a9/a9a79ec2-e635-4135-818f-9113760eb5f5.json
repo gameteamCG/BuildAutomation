@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "catterpilar",
+    "texture": "989cb414-7535-45ec-97c7-4580dcebc41a",
+    "atlas": "",
+    "rect": [
+      30,
+      92,
+      190,
+      104
+    ],
+    "offset": [
+      0,
+      -19
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

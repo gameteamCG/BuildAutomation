@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "clasp",
+    "texture": "c94f8e0f-0d5a-43bb-98f5-d029fe7d90ab",
+    "atlas": "",
+    "rect": [
+      134,
+      18,
+      264,
+      466
+    ],
+    "offset": [
+      15.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

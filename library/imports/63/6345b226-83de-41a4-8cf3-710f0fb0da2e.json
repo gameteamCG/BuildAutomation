@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fsd",
+    "texture": "4dea198e-d5fe-43de-aa62-3e8653db4ebc",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1065,
+      208
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1065,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
