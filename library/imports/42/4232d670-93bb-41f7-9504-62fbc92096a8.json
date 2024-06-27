@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2_bag",
+    "texture": "fbfc9a70-21d0-455b-b000-df46b680135e",
+    "atlas": "",
+    "rect": [
+      114,
+      19,
+      273,
+      403
+    ],
+    "offset": [
+      0.5,
+      29.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
