@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "collectivenoun",
+    "texture": "92667cf9-f8ec-4fe8-9728-39f47230b692",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      741,
+      345
+    ],
+    "offset": [
+      -9.5,
+      4.5
+    ],
+    "originalSize": [
+      760,
+      354
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shoal",
+    "texture": "a7c9fdef-0f3b-4aa4-99ce-0e8d15cbcd85",
+    "atlas": "",
+    "rect": [
+      29,
+      91,
+      195,
+      57
+    ],
+    "offset": [
+      1.5,
+      5.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

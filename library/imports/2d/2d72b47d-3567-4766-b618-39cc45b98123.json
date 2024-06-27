@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flock",
+    "texture": "23868fdd-512d-42ee-a8c8-2f9026cb95cc",
+    "atlas": "",
+    "rect": [
+      46,
+      174,
+      400,
+      170
+    ],
+    "offset": [
+      -4,
+      -9
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
