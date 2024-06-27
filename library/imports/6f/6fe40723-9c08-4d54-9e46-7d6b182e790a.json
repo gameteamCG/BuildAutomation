@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ftt",
+    "texture": "4c360e88-e5b0-47b4-a266-4f62e47d1f35",
+    "atlas": "",
+    "rect": [
+      35,
+      2,
+      752,
+      369
+    ],
+    "offset": [
+      17.5,
+      6.5
+    ],
+    "originalSize": [
+      787,
+      386
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
