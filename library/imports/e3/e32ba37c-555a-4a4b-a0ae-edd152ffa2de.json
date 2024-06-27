@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "summersongtitle",
+    "texture": "3e6adcb5-071a-46fa-a930-18748401fcf9",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      1212,
+      216
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      1212,
+      220
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
