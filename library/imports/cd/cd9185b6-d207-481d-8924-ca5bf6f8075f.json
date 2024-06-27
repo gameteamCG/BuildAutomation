@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "panttt",
+    "texture": "8fbf5324-cd64-4d27-9fd3-697e5605ec91",
+    "atlas": "",
+    "rect": [
+      154,
+      28,
+      224,
+      462
+    ],
+    "offset": [
+      15.5,
+      -8.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

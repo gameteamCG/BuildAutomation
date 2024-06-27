@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "anttt",
+    "texture": "084c1220-7117-441f-933b-944df274f994",
+    "atlas": "",
+    "rect": [
+      72,
+      105,
+      108,
+      43
+    ],
+    "offset": [
+      1,
+      -1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Ending Blend -nt",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/5432167890_1719483828763.mp4",
+      "TitleImageName": "nt.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "anttt.png",
+        "QuestionAudioName": "q111.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "ant.png",
+          "bug.png",
+          "butterfly.png",
+          "wormv.png"
+        ],
+        "ReiterationAudioName": "ant.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "q2.png",
+        "QuestionAudioName": "Q2v.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "wa3.png",
+          "anttt.png",
+          "wa2.png",
+          "plant.png"
+        ],
+        "ReiterationAudioName": "plant.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "tent.png",
+        "QuestionAudioName": "asd.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "count",
+          "want",
+          "aunt",
+          "tent"
+        ],
+        "ReiterationAudioName": "tent.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "panttt.png",
+        "QuestionAudioName": "Q4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "it",
+          "st",
+          "nt",
+          "nd"
+        ],
+        "ReiterationAudioName": "pantt.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}
