@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "talking",
+    "texture": "d3f4929a-d986-4faf-ad02-e08e9e25836a",
+    "atlas": "",
+    "rect": [
+      28,
+      46,
+      444,
+      409
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
