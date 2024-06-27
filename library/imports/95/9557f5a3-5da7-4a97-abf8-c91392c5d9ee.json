@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "where_is_my_cup",
+    "texture": "d8b8a764-4136-44d7-b52e-a2a45cac3ca2",
+    "atlas": "",
+    "rect": [
+      115,
+      20,
+      230,
+      420
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
