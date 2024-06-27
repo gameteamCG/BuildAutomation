@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pospsiclecopy",
+    "texture": "fee6117a-6f40-4520-af91-c8714395f88b",
+    "atlas": "",
+    "rect": [
+      165,
+      72,
+      154,
+      397
+    ],
+    "offset": [
+      -8.5,
+      -20
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

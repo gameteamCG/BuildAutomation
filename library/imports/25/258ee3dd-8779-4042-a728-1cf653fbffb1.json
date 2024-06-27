@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hotcold",
+    "texture": "13c99191-04d1-4ad4-af3d-78196136f355",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      588,
+      346
+    ],
+    "offset": [
+      0,
+      10
+    ],
+    "originalSize": [
+      588,
+      372
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

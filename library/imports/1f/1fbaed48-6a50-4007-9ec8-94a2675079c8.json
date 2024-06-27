@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "iglood ",
+    "texture": "f4f41525-a635-436d-99ea-93619bd9d1e5",
+    "atlas": "",
+    "rect": [
+      0,
+      97,
+      477,
+      316
+    ],
+    "offset": [
+      -12,
+      -4.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sunb",
+    "texture": "1ccc898c-7adc-45a9-9d3c-b7dcb2c3dbd0",
+    "atlas": "",
+    "rect": [
+      92,
+      111,
+      298,
+      298
+    ],
+    "offset": [
+      -9.5,
+      -9.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

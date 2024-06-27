@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "creamd",
+    "texture": "1fba22f2-327c-48a1-86ac-2be3ca933305",
+    "atlas": "",
+    "rect": [
+      137,
+      3,
+      238,
+      492
+    ],
+    "offset": [
+      5.5,
+      1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

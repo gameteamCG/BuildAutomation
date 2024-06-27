@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kettlev",
+    "texture": "33de367d-4c8f-4cdf-9718-ea33b60f62f5",
+    "atlas": "",
+    "rect": [
+      30,
+      42,
+      409,
+      376
+    ],
+    "offset": [
+      -16,
+      20.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

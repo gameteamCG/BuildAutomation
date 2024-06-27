@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bon",
+    "texture": "6a3b3cfe-bf4c-4ba6-a7c9-1d58e5a9a741",
+    "atlas": "",
+    "rect": [
+      75,
+      70,
+      381,
+      373
+    ],
+    "offset": [
+      15,
+      -6
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

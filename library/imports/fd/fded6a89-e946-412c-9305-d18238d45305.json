@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kettlevcopy",
+    "texture": "0fecf1ba-38df-4f1b-bbd2-24851b905c59",
+    "atlas": "",
+    "rect": [
+      29,
+      42,
+      410,
+      376
+    ],
+    "offset": [
+      -16.5,
+      20.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

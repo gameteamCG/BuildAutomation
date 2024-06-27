@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hotcoffeer",
+    "texture": "e4dd53b2-acf8-4385-9b00-ad12ec43285f",
+    "atlas": "",
+    "rect": [
+      96,
+      34,
+      328,
+      366
+    ],
+    "offset": [
+      9.5,
+      33.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

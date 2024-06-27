@@ -1,0 +1,126 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Hot or cold_Nursery Practice Book 2_21",
+      "totalLevel": "4",
+      "TitleImageName": "hotcold.png",
+      "introBgName": "sfdfgh.png",
+      "bgmMusicName": "BGM.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "aser.png",
+        "questionAudioName": "hotobject.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "bon.png",
+          "creamd.png",
+          "candled.png",
+          "icecubed.png"
+        ],
+        "optionsBg": [
+          "bonfire.png",
+          "icecream.png",
+          "candle.png",
+          "icecube.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermind.mp3",
+        "reiterationAudioName": [
+          "h1.mp3",
+          "can.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "aser.png",
+        "questionAudioName": "cold.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "candled.png",
+          "creamd.png",
+          "icecubed.png",
+          "sunb.png"
+        ],
+        "optionsBg": [
+          "candle.png",
+          "icecream.png",
+          "icecube.png",
+          "sun.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "icecream.mp3",
+          "icecube.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "aser.png",
+        "questionAudioName": "hotobject.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "iglood .png",
+          "kettlev.png",
+          "iron.png",
+          "juiced.png"
+        ],
+        "optionsBg": [
+          "igloo.png",
+          "kettlevcopy.png",
+          "ironcopy.png",
+          "juice .png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "ketli.mp3",
+          "iron.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "aser.png",
+        "questionAudioName": "cold.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "hotcoffeer.png",
+          "iglood .png",
+          "pospsicle.png",
+          "kettlev.png"
+        ],
+        "optionsBg": [
+          "hot.png",
+          "igloo.png",
+          "pospsiclecopy.png",
+          "kettlevcopy.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "wrongAudioName": "nevermind.mp3",
+        "reiterationAudioName": [
+          "igloo.mp3",
+          "popsicle.mp3"
+        ],
+        "correctAnswerNum": "23"
+      }
+    ]
+  }
+}
