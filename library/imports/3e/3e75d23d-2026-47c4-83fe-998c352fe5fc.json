@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "raddish",
+    "texture": "8e363ea0-d8e2-4038-98bc-cfb93246484f",
+    "atlas": "",
+    "rect": [
+      67,
+      58,
+      367,
+      385
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
