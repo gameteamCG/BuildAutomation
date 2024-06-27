@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vau__",
+    "texture": "0f590082-c4c4-44df-8d62-79c5f5e6f404",
+    "atlas": "",
+    "rect": [
+      74,
+      15,
+      327,
+      469
+    ],
+    "offset": [
+      -13,
+      1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

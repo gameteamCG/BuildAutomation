@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "belt",
+    "texture": "0d26ed51-767c-45de-ae5f-aa5b7a0224f1",
+    "atlas": "",
+    "rect": [
+      16,
+      72,
+      215,
+      130
+    ],
+    "offset": [
+      -2,
+      -12
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

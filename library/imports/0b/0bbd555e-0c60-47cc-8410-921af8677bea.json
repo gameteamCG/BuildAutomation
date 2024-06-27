@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bell",
+    "texture": "fa68f476-a02d-4c1a-9832-b200a90f633b",
+    "atlas": "",
+    "rect": [
+      18,
+      27,
+      214,
+      194
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
