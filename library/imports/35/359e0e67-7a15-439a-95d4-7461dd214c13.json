@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "period",
+    "texture": "fb3ebece-c147-4d9c-b91b-a8e76afcfd9c",
+    "atlas": "",
+    "rect": [
+      99,
+      100,
+      54,
+      54
+    ],
+    "offset": [
+      1,
+      -2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

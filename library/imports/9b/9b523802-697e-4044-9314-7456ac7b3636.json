@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "a3_exclamation_mark",
+    "texture": "52112ec1-8530-4271-9057-1e27a254426e",
+    "atlas": "",
+    "rect": [
+      112,
+      25,
+      26,
+      170
+    ],
+    "offset": [
+      0,
+      15
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
