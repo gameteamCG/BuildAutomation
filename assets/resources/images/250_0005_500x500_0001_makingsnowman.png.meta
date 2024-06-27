@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d022960d-2c1c-48b6-9f0d-f2d2b3e85cc5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250_0005_500x500_0001_makingsnowman": {
+      "ver": "1.0.6",
+      "uuid": "c2e6d3a8-aa1c-4570-b35f-f51d3a725704",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d022960d-2c1c-48b6-9f0d-f2d2b3e85cc5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 11,
+      "trimY": 19,
+      "width": 228,
+      "height": 212,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

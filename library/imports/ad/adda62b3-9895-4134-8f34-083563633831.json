@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250_0007_500x500_0007_santa",
+    "texture": "d94c084c-8934-470b-b183-276a58d3cbc6",
+    "atlas": "",
+    "rect": [
+      15,
+      15,
+      220,
+      221
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

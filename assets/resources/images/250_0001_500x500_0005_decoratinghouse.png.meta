@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f28c40fd-e26b-45e0-ade1-edeb3bbdad20",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250_0001_500x500_0005_decoratinghouse": {
+      "ver": "1.0.6",
+      "uuid": "daafdd75-baa9-4368-8517-e92c7acced33",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f28c40fd-e26b-45e0-ade1-edeb3bbdad20",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 13,
+      "trimY": 13,
+      "width": 224,
+      "height": 224,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

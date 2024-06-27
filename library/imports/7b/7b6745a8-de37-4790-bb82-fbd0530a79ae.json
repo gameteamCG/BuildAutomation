@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "janmastamititle",
+    "texture": "43373a3d-5140-45c7-9762-4ef4a4504241",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      1322,
+      194
+    ],
+    "offset": [
+      0,
+      10
+    ],
+    "originalSize": [
+      1322,
+      220
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

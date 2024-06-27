@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Janmashtami",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/video_1719479072423.mp4",
+      "TitleImageName": "janmastamititle.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Janmashtami",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whosebirthdaywecelebrate.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250_0003_500x500_0003_krishna.png",
+          "250_0007_500x500_0007_santa.png"
+        ],
+        "ReiterationAudioName": "lordkrishna.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Janmashtami",
+        "QuestionImageName": "",
+        "QuestionAudioName": "howpeoplecelebratejanmashtami.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250_0006_500x500_0000_playingdahihandi.png",
+          "250_0002_500x500_0004_flyingkite.png"
+        ],
+        "ReiterationAudioName": "playingdahihandi.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What does Lord Krishna love to eat?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whatdoeslordkrishnaeat.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250_0000_500x500_0006_chillis.png",
+          "250_0004_500x500_0002_maakhan.png"
+        ],
+        "ReiterationAudioName": "maakhan.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Janmashtami",
+        "QuestionImageName": "",
+        "QuestionAudioName": "taponcelebratingjanmashtami.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250_0005_500x500_0001_makingsnowman.png",
+          "250_0001_500x500_0005_decoratinghouse.png"
+        ],
+        "ReiterationAudioName": "bydecoratinghouse.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

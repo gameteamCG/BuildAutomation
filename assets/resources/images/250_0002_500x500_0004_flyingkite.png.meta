@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "787209c7-7ae9-4f34-99c2-7dbba8ce29ff",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250_0002_500x500_0004_flyingkite": {
+      "ver": "1.0.6",
+      "uuid": "9da7ff36-d145-456b-8b2f-a932d1fa0408",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "787209c7-7ae9-4f34-99c2-7dbba8ce29ff",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 66,
+      "trimY": 20,
+      "width": 118,
+      "height": 211,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
