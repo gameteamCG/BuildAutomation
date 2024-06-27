@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "skirt",
+    "texture": "cc20b342-009d-4b9e-b56e-f4a3e5b7be0e",
+    "atlas": "",
+    "rect": [
+      74,
+      94,
+      353,
+      313
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

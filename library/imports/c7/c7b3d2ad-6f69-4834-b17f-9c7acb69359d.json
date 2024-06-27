@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "comoptimg",
+    "texture": "39f82b7a-4d3e-4db1-8c5e-bceb142cee3f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      500,
+      499
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
