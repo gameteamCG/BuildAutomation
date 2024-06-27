@@ -580,7 +580,9 @@ export default class NewClass extends cc.Component {
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             cc.audioEngine.playEffect(this.reiterationAudios[parseInt(correctDropNode.name) - 1], false);
-            this.callPositiveRection(_node);
+            this.scheduleOnce(() => {
+                this.callPositiveRection(_node);
+            }, this.reiterationAudios[parseInt(correctDropNode.name) - 1].duration);
         }
         else {
             this.canTouch = false;
