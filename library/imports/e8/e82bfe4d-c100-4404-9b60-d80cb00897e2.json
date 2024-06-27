@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0002_stamp",
+    "texture": "cae3c9cd-5a8a-441b-ab7f-b01af87ef0a1",
+    "atlas": "",
+    "rect": [
+      97,
+      42,
+      305,
+      414
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
