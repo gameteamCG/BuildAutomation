@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Imaginativedrawing ",
+    "texture": "20ea4d38-7d2e-4ca4-95b6-15b4dc8e33b8",
+    "atlas": "",
+    "rect": [
+      26,
+      25,
+      1014,
+      389
+    ],
+    "offset": [
+      9,
+      -8
+    ],
+    "originalSize": [
+      1048,
+      423
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
