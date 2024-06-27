@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "i_love_my_shoes",
+    "texture": "82ff7695-6e4a-4ab3-84e5-6c5294be9d8e",
+    "atlas": "",
+    "rect": [
+      28,
+      24,
+      403,
+      411
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
