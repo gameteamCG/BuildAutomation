@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "swept",
+    "texture": "5019cd03-4ae3-4b22-9455-2589f77ae6e8",
+    "atlas": "",
+    "rect": [
+      36,
+      0,
+      465,
+      461
+    ],
+    "offset": [
+      18,
+      20
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
