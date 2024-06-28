@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Asset_talk",
+    "texture": "03274770-8c11-4a62-8a17-52a6385389d1",
+    "atlas": "",
+    "rect": [
+      19,
+      20,
+      660,
+      415
+    ],
+    "offset": [
+      9.5,
+      -10
+    ],
+    "originalSize": [
+      679,
+      435
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
