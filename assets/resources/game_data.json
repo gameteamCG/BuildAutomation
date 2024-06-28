@@ -1,0 +1,193 @@
+{
+  "AdditionalData": {
+    "GameID": "Picture talk - f",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/F+Story_1719571737430.mp4",
+    "TitleImageName": "Asset_talk.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "Podar",
+    "TotalLevel": "9"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "6666",
+      "IsQuestionText": true,
+      "QuestionText": "What was the name of the main person in the story?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q1.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Fardeen",
+        "Jay",
+        "Arfat",
+        "Jaya"
+      ],
+      "ReiterationAudioName": "23978624_2_fardeen.mp3",
+      "CorrectAudioName": "L3correct.mp3",
+      "WrongAudioName": "no.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "6666",
+      "IsQuestionText": true,
+      "QuestionText": "What was Fardeen?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "doctor",
+        "pilot",
+        "artist",
+        "fisherman"
+      ],
+      "ReiterationAudioName": "23978624_4_fisherman.mp3",
+      "CorrectAudioName": "L2Correct.mp3",
+      "WrongAudioName": "ns.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "6666",
+      "IsQuestionText": true,
+      "QuestionText": "What did Fardeen catch?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q3.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "cow",
+        "fish",
+        "bottle",
+        "metal"
+      ],
+      "ReiterationAudioName": "23978624_6_fish.mp3",
+      "CorrectAudioName": "L3correct.mp3",
+      "WrongAudioName": "nu.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "6666",
+      "IsQuestionText": true,
+      "QuestionText": "What did he use to go to sea and catch fish?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q4.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "ferry",
+        "cycle",
+        "plane",
+        "wood"
+      ],
+      "ReiterationAudioName": "23978624_8_ferry.mp3",
+      "CorrectAudioName": "L5Correct.mp3",
+      "WrongAudioName": "nu.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "6666",
+      "IsQuestionText": true,
+      "QuestionText": "What jumped into Fardeen’s boat one day?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q5.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "cat",
+        "frog",
+        "dog",
+        "whale"
+      ],
+      "ReiterationAudioName": "frog.mp3",
+      "CorrectAudioName": "L2Correct.mp3",
+      "WrongAudioName": "Children.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "6666",
+      "IsQuestionText": true,
+      "QuestionText": "What did Fardeen find on the floor everywhere?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q6.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "feathers",
+        "water",
+        "scrap",
+        "dirt"
+      ],
+      "ReiterationAudioName": "23978624_12_feathers.mp3",
+      "CorrectAudioName": "l4correct.mp3",
+      "WrongAudioName": "no.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "6666",
+      "IsQuestionText": true,
+      "QuestionText": "What did Fardeen open to get some food?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q7.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "jar",
+        "fridge",
+        "bottle",
+        "box"
+      ],
+      "ReiterationAudioName": "23978624_14_fridge.mp3",
+      "CorrectAudioName": "l6correct.mp3",
+      "WrongAudioName": "no.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "6666",
+      "IsQuestionText": true,
+      "QuestionText": "What did he take out of the fridge?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q8.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "ice",
+        "curry",
+        "fruits",
+        "rice"
+      ],
+      "ReiterationAudioName": "23978624_16_fruits.mp3",
+      "CorrectAudioName": "L3correct.mp3",
+      "WrongAudioName": "ns.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "6666",
+      "IsQuestionText": true,
+      "QuestionText": "What did Fardeen switch on as he was feeling hot?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q9.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "fan",
+        "light",
+        "fridge",
+        "plant"
+      ],
+      "ReiterationAudioName": "23978624_18_fan.mp3",
+      "CorrectAudioName": "L5Correct.mp3",
+      "WrongAudioName": "Children_Voices.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
