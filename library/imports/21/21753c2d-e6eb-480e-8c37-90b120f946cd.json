@@ -1,0 +1,127 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "big and small",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Big+And+Small_1_1719575424228.mp4",
+      "TitleImageName": "Asset_11.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "Podar",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "6666",
+        "IsQuestionText": true,
+        "QuestionText": "big ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset_18.png",
+          "Asset_19.png"
+        ],
+        "ReiterationAudioName": "big_ball.mp3",
+        "CorrectAudioName": "L3correct.mp3",
+        "WrongAudioName": "Children.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "6666",
+        "IsQuestionText": true,
+        "QuestionText": "small",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "big_dog.png",
+          "small_dog.png"
+        ],
+        "ReiterationAudioName": "small_dog.mp3",
+        "CorrectAudioName": "L5Correct.mp3",
+        "WrongAudioName": "nu.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "6666",
+        "IsQuestionText": true,
+        "QuestionText": "big",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset_17.png",
+          "Asset_16.png"
+        ],
+        "ReiterationAudioName": "big_pencil.mp3",
+        "CorrectAudioName": "L3correct.mp3",
+        "WrongAudioName": "Children_Voices.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "6666",
+        "IsQuestionText": true,
+        "QuestionText": "small",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset_23.png",
+          "Asset_20.png"
+        ],
+        "ReiterationAudioName": "small_chair.mp3",
+        "CorrectAudioName": "l6correct.mp3",
+        "WrongAudioName": "ns.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "6666",
+        "IsQuestionText": true,
+        "QuestionText": "small ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q5.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset_24.png",
+          "Asset_15.png"
+        ],
+        "ReiterationAudioName": "small_block.mp3",
+        "CorrectAudioName": "L3correct.mp3",
+        "WrongAudioName": "no.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "6666",
+        "IsQuestionText": true,
+        "QuestionText": "big",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q6.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset_21.png",
+          "Asset_22.png"
+        ],
+        "ReiterationAudioName": "big_toy.mp3",
+        "CorrectAudioName": "L3correct.mp3",
+        "WrongAudioName": "Children_Voices.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
