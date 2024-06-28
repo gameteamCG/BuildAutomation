@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Ending Blend -pt_UKG Course Book 2_12",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/966563_PT_Ending_Consonant_Blend_1719574141656.mp4",
+      "TitleImageName": "tital.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "kept.png",
+        "QuestionAudioName": "Q1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "kept",
+          "wept",
+          "slept",
+          "adopt"
+        ],
+        "ReiterationAudioName": "23653443_3_kept.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "slept.png",
+        "QuestionAudioName": "",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "crept",
+          "accept",
+          "slept",
+          "erupt"
+        ],
+        "ReiterationAudioName": "23653443_5_slept.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "swept.png",
+        "QuestionAudioName": "Q3 and Q4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "lp",
+          "py",
+          "pt",
+          "pl"
+        ],
+        "ReiterationAudioName": "23653443_7_swept.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "script.png",
+        "QuestionAudioName": "Q3 and Q4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "pl",
+          "pt",
+          "py",
+          "lf"
+        ],
+        "ReiterationAudioName": "scrript.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
