@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pumpkin2",
+    "texture": "019a0407-f1bb-4d3a-a7d5-100fb0888bea",
+    "atlas": "",
+    "rect": [
+      39,
+      24,
+      343,
+      390
+    ],
+    "offset": [
+      0.5,
+      -6
+    ],
+    "originalSize": [
+      420,
+      426
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
