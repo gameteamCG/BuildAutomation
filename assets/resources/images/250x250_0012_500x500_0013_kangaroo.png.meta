@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c5b973db-3674-4f7d-9409-4dd58e660bc2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0012_500x500_0013_kangaroo": {
+      "ver": "1.0.6",
+      "uuid": "8c2bc8bf-8a12-4cea-a9e9-dade73b251fd",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c5b973db-3674-4f7d-9409-4dd58e660bc2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 18,
+      "trimY": 23,
+      "width": 215,
+      "height": 204,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
