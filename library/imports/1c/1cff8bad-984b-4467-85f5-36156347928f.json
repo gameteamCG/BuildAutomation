@@ -1,0 +1,74 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Animal Colouring_Nursery Practice Book 2_67",
+      "totalLevel": "6",
+      "TitleImageName": "Animal_Colouring.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "initialVOName": "",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Elephant",
+        "questionImageName": "",
+        "questionAudioName": "1_color_the_elephant.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "l1.png",
+        "needMoreTools": false,
+        "correctAudioName": "elephant.mp3"
+      },
+      {
+        "questionText": "Tiger",
+        "questionImageName": "",
+        "questionAudioName": "2_colour_the_Tiger.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "l2.png",
+        "needMoreTools": true,
+        "correctAudioName": "tiger.mp3"
+      },
+      {
+        "questionText": "Rhino",
+        "questionImageName": "",
+        "questionAudioName": "3_colour_the_rhino.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "l3.png",
+        "needMoreTools": true,
+        "correctAudioName": "Rhino.mp3"
+      },
+      {
+        "questionText": "Giraffe",
+        "questionImageName": "",
+        "questionAudioName": "2_colour_the_Giraffe.mp3",
+        "shouldPlayQuestionAudio": false,
+        "pictureImageName": "l4.png",
+        "needMoreTools": false,
+        "correctAudioName": "Giraffe.mp3"
+      },
+      {
+        "questionText": "lion",
+        "questionImageName": "",
+        "questionAudioName": "3_color_the_lion.mp3",
+        "shouldPlayQuestionAudio": false,
+        "pictureImageName": "l5.png",
+        "needMoreTools": true,
+        "correctAudioName": "lion.mp3"
+      },
+      {
+        "questionText": "hippopotamus",
+        "questionImageName": "",
+        "questionAudioName": "6_Colour_the_hippopotamus.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "l6.png",
+        "needMoreTools": true,
+        "correctAudioName": "hippopotamus.mp3"
+      }
+    ]
+  }
+}
