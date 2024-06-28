@@ -1,0 +1,74 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Sorting seasonal items",
+      "totalLevel": "3",
+      "TitleImageName": "Sorting_seasonal_items.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "winter",
+        "questionImageName": "Asset_13.png",
+        "questionAudioName": "q4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_6.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_1.png",
+          "Asset_5.png"
+        ],
+        "correctAudios": [
+          "23855502_6_scarf.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "\nsummer",
+        "questionImageName": "Asset_12.png",
+        "questionAudioName": "q3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_6.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_3.png",
+          "Asset_2.png"
+        ],
+        "correctAudios": [
+          "23855502_7_sunglasses.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "rainy ",
+        "questionImageName": "Asset_14.png",
+        "questionAudioName": "q2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_6.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_1.png",
+          "Asset_5.png"
+        ],
+        "correctAudios": [
+          "23855502_10_umbrella.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
