@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "50ee5d35-aca2-4f06-8cf9-28ca3783fb48",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "fire-truck20": {
+      "ver": "1.0.6",
+      "uuid": "259f5342-504e-4d3f-b280-8aefbf17d68c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "50ee5d35-aca2-4f06-8cf9-28ca3783fb48",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 2,
+      "trimY": 1,
+      "width": 496,
+      "height": 499,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
