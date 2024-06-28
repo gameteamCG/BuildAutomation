@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0015_sandwich",
+    "texture": "01fb1770-1005-4fb4-b7af-19ba91f8ac5c",
+    "atlas": "",
+    "rect": [
+      18,
+      73,
+      212,
+      108
+    ],
+    "offset": [
+      -1,
+      -2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
