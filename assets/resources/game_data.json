@@ -1,0 +1,68 @@
+{
+  "additionalData": {
+    "GameID": "Letter Ee",
+    "totalLevel": "6",
+    "TitleImageName": "Letter Ee.png",
+    "introBgName": "Playgroup.png",
+    "bgmMusicName": "bgm1.mp3",
+    "initialVOName": "",
+    "mainBgName": "bg.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "elephant",
+      "questionImageName": "",
+      "questionAudioName": "23916002_1_colour-all-the-objects.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "Asset 6.png",
+      "needMoreTools": true,
+      "correctAudioName": "23916002_2_elephant.mp3"
+    },
+    {
+      "questionText": "engine",
+      "questionImageName": "",
+      "questionAudioName": "23916002_1_colour-all-the-objects.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "Asset 5.png",
+      "needMoreTools": true,
+      "correctAudioName": "23916002_3_engine.mp3"
+    },
+    {
+      "questionText": "ear",
+      "questionImageName": "",
+      "questionAudioName": "23916002_1_colour-all-the-objects.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "Asset 4.png",
+      "needMoreTools": true,
+      "correctAudioName": "23916002_4_ear.mp3"
+    },
+    {
+      "questionText": "eagle",
+      "questionImageName": "",
+      "questionAudioName": "23916002_1_colour-all-the-objects.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "Asset 3.png",
+      "needMoreTools": true,
+      "correctAudioName": "23916002_5_eagle.mp3"
+    },
+    {
+      "questionText": "eye",
+      "questionImageName": "",
+      "questionAudioName": "23916002_1_colour-all-the-objects.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "Asset 2.png",
+      "needMoreTools": true,
+      "correctAudioName": "23916002_6_eye.mp3"
+    },
+    {
+      "questionText": "eggplant",
+      "questionImageName": "",
+      "questionAudioName": "23916002_1_colour-all-the-objects.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "Asset 1.png",
+      "needMoreTools": true,
+      "correctAudioName": "23916002_7_eggplant.mp3"
+    }
+  ]
+}
