@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "introduction_to_toys",
+    "texture": "1e492ca1-b6b1-4814-9981-c16036b42c16",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      790,
+      269
+    ],
+    "offset": [
+      0,
+      12.5
+    ],
+    "originalSize": [
+      790,
+      298
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
