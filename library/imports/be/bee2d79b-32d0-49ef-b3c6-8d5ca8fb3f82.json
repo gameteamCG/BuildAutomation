@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Subtraction_Word_Problems",
+    "texture": "96bb5a99-0d10-433b-b065-a4c6f9e09d79",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1071,
+      321
+    ],
+    "offset": [
+      0,
+      3.5
+    ],
+    "originalSize": [
+      1071,
+      328
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
