@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "domii",
+    "texture": "f3c08c6e-9f49-4b24-9565-51e1bc8c0dce",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      818,
+      363
+    ],
+    "offset": [
+      -17.5,
+      9.5
+    ],
+    "originalSize": [
+      853,
+      386
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

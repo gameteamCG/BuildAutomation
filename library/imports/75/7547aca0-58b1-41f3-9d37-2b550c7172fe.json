@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rabbii",
+    "texture": "633eee82-7dd0-4c7f-b63f-195cf617acc5",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      499,
+      499
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
