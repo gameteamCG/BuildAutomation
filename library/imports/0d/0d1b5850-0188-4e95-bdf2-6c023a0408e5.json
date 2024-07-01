@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "14_barber",
+    "texture": "71e3fecd-af68-4656-af65-bdcf0d7ce054",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      249,
+      255
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      249,
+      255
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
