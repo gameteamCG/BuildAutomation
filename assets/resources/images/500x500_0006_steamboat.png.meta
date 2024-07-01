@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "98371f97-3d3a-423c-918d-cd72fede596d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0006_steamboat": {
+      "ver": "1.0.6",
+      "uuid": "d3ae1398-cb38-4ef0-abc2-e4f1a495c146",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "98371f97-3d3a-423c-918d-cd72fede596d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 500,
+      "height": 500,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
