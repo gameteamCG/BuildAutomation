@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Letter sound - h",
+    "texture": "79d4764d-261c-4eda-818d-e013731fcda1",
+    "atlas": "",
+    "rect": [
+      20,
+      19,
+      846,
+      368
+    ],
+    "offset": [
+      10,
+      -9.5
+    ],
+    "originalSize": [
+      866,
+      387
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
