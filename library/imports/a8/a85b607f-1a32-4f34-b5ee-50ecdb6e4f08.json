@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wail",
+    "texture": "9b2586e7-9f63-4195-bec5-9d7cf650757e",
+    "atlas": "",
+    "rect": [
+      37,
+      136,
+      427,
+      230
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

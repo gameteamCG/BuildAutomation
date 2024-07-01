@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gbv",
+    "texture": "c3d96a2e-e33e-419e-a672-d196e75ca5d5",
+    "atlas": "",
+    "rect": [
+      30,
+      30,
+      423,
+      322
+    ],
+    "offset": [
+      -9,
+      59.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
