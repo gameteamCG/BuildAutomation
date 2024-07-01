@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "6_jumping",
+    "texture": "24f79af4-51cd-45b8-9c30-ee02554b386b",
+    "atlas": "",
+    "rect": [
+      127,
+      20,
+      270,
+      461
+    ],
+    "offset": [
+      11.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

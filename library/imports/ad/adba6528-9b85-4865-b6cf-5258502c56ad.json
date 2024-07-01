@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_sitting",
+    "texture": "c3c4d15b-df78-4b85-8295-ec0146f6c656",
+    "atlas": "",
+    "rect": [
+      128,
+      18,
+      242,
+      458
+    ],
+    "offset": [
+      -1.5,
+      3.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
