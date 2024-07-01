@@ -1,0 +1,133 @@
+{
+  "additionalData": {
+    "GameID": "Let’s find out when?",
+    "totalLevel": "8",
+    "TitleImageName": "Asset4578.png",
+    "introBgName": "Juniorskg.png",
+    "bgmMusicName": "BGM6.mp3",
+    "mainBgName": "Asset428.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "let’s find out when?",
+      "questionImageName": "Asset538.png",
+      "questionAudioName": "Whendoyoulightdiyas.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset418.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset548.png",
+        "Asset498.png"
+      ],
+      "correctAudioName": "ondiwali.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "let’s find out when?",
+      "questionImageName": "Asset528.png",
+      "questionAudioName": "Whendoyoumakemodaks.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset418.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset568.png",
+        "Asset558.png"
+      ],
+      "correctAudioName": "ganeshchaturthi.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "let’s find out when?",
+      "questionImageName": "Asset568.png",
+      "questionAudioName": "Whendoyouflykites.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset418.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset498.png",
+        "Asset478.png"
+      ],
+      "correctAudioName": "makarsankranti.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "let’s find out when?",
+      "questionImageName": "Asset578.png",
+      "questionAudioName": "Whendoyouplaywthcolors.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset418.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset468.png",
+        "Asset548.png"
+      ],
+      "correctAudioName": "onholi.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "let’s find out when?",
+      "questionImageName": "Asset518.png",
+      "questionAudioName": "Whendoyoumakerangoli.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset418.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset4481.png",
+        "Asset548.png"
+      ],
+      "correctAudioName": "ondiwali.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "let’s find out when?",
+      "questionImageName": "Asset498.png",
+      "questionAudioName": "Whendoyoudanceandsing.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset418.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset438.png",
+        "Asset568.png"
+      ],
+      "correctAudioName": "onnavratri.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "let’s find out when?",
+      "questionImageName": "Asset488.png",
+      "questionAudioName": "Whendoyougivegiftstoyoursiblings.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset418.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset458.png",
+        "Asset468.png"
+      ],
+      "correctAudioName": "onrakshabandhan.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "let’s find out when?",
+      "questionImageName": "Asset508.png",
+      "questionAudioName": "Whendoyoueatsevaiya.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset418.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset438.png",
+        "Asset4481.png"
+      ],
+      "correctAudioName": "oneid.mp3",
+      "correctAnswerNum": "2"
+    }
+  ]
+}
