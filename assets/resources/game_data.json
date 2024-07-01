@@ -1,0 +1,68 @@
+{
+  "additionalData": {
+    "GameID": "Action words_UKG Course Book 2_72",
+    "totalLevel": "3",
+    "TitleImageName": "action_words.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Puzzle",
+    "templateType": "ObjectsTweenIn"
+  },
+  "questionData": [
+    {
+      "questionText": "Action words",
+      "questionImageName": "1.png",
+      "questionAudioName": "tap_the_correct_picture_for_the_word.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common_option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "1_reading.png",
+        "7_bathing.png"
+      ],
+      "correctAudios": [
+        "reading.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Action words",
+      "questionImageName": "2.png",
+      "questionAudioName": "tap_the_correct_picture_for_the_word.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common_option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "wa_2.png",
+        "2_crying.png"
+      ],
+      "correctAudios": [
+        "crying.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Action words",
+      "questionImageName": "3.png",
+      "questionAudioName": "tap_the_correct_picture_for_the_word.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common_option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "3_sitting.png",
+        "6_jumping.png"
+      ],
+      "correctAudios": [
+        "sitting.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
