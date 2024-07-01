@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "comparingnumbers",
+    "texture": "ccced11c-0e0f-4600-a04d-36648d52aa5d",
+    "atlas": "",
+    "rect": [
+      24,
+      24,
+      910,
+      449
+    ],
+    "offset": [
+      11,
+      -3
+    ],
+    "originalSize": [
+      936,
+      491
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
