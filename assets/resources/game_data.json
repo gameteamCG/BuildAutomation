@@ -1,0 +1,153 @@
+{
+  "AdditionalData": {
+    "GameID": "Picture talk - h",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/H+story_1719831890560.mp4",
+    "TitleImageName": "Asset 457.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "Podar",
+    "TotalLevel": "7"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What was the name of the boy in the story?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q1.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Harry",
+        "Peter",
+        "Raj",
+        "Raya"
+      ],
+      "ReiterationAudioName": "24033112_2_harry.mp3",
+      "CorrectAudioName": "L5Correct.mp3",
+      "WrongAudioName": "no.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Where did he live?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Denmark",
+        "Philippine",
+        "Holland",
+        "Iceland"
+      ],
+      "ReiterationAudioName": "24033112_4_holland.mp3",
+      "CorrectAudioName": "L1correct.mp3",
+      "WrongAudioName": "Children_Voices.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What did he often like to eat?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q3.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset10.png",
+        "Asset11.png",
+        "Asset_9.png",
+        "Asset12.png"
+      ],
+      "ReiterationAudioName": "24033112_6_hot-burgers.mp3",
+      "CorrectAudioName": "l4correct.mp3",
+      "WrongAudioName": "Children.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What did Harry’s father bring for him?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q4.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset14.png",
+        "Asset_7.png",
+        "Asset13.png",
+        "Asset_9.png"
+      ],
+      "ReiterationAudioName": "24033112_8_hazelnuts-and-honey.mp3",
+      "CorrectAudioName": "L8Correct.mp3",
+      "WrongAudioName": "Children_Voices.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Who did Harry go jogging with?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q5.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "bike",
+        "horse",
+        "cycle",
+        "father"
+      ],
+      "ReiterationAudioName": "24033112_10_horse.mp3",
+      "CorrectAudioName": "L1correct.mp3",
+      "WrongAudioName": "ns.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "On what was Harry's father relaxing?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q6.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "bed",
+        "sofa",
+        "hay",
+        "chair"
+      ],
+      "ReiterationAudioName": "24033112_12_hay.mp3",
+      "CorrectAudioName": "L5Correct.mp3",
+      "WrongAudioName": "Children.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "How did Harry’s father feel when Harry started to exercise?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "q7.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "angry",
+        "happy",
+        "tired",
+        "relaxed"
+      ],
+      "ReiterationAudioName": "24033112_14_happy.mp3",
+      "CorrectAudioName": "L3correct.mp3",
+      "WrongAudioName": "no.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
