@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cob",
+    "texture": "ad0e9dbd-aae9-483e-acbb-26da94cce231",
+    "atlas": "",
+    "rect": [
+      111,
+      24,
+      262,
+      441
+    ],
+    "offset": [
+      -8,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

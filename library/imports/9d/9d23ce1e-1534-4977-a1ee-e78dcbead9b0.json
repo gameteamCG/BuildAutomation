@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jogbusket",
+    "texture": "1d5dfec7-1230-4a19-90c2-de3d3b3deca5",
+    "atlas": "",
+    "rect": [
+      0,
+      57,
+      298,
+      185
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

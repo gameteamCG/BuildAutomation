@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "robbusket",
+    "texture": "51ddb3bb-6438-40cc-ba2a-cfcb704d6a09",
+    "atlas": "",
+    "rect": [
+      0,
+      57,
+      298,
+      185
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

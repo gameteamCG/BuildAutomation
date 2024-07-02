@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rat",
+    "texture": "7b79b360-a057-4526-975e-8acbd66b4697",
+    "atlas": "",
+    "rect": [
+      47,
+      95,
+      410,
+      360
+    ],
+    "offset": [
+      2,
+      -25
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

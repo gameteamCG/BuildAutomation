@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hopbusket",
+    "texture": "d80e64d1-c2e4-4a8d-bd8b-3f9174379792",
+    "atlas": "",
+    "rect": [
+      0,
+      57,
+      298,
+      185
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
