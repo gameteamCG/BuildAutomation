@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Eating_properly",
+    "texture": "87ce90b3-9526-4f3f-b8a2-8ab46ca48d11",
+    "atlas": "",
+    "rect": [
+      22,
+      12,
+      206,
+      227
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

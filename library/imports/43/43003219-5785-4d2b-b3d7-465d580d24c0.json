@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Leaving_toys_on_the_floor",
+    "texture": "78882b7e-6113-4002-81f7-293fd57bcd28",
+    "atlas": "",
+    "rect": [
+      16,
+      16,
+      218,
+      217
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
