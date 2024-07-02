@@ -1,0 +1,140 @@
+{
+  "additionalData": {
+    "GameID": "Action words_UKG Course Book 2_72",
+    "totalLevel": "7",
+    "TitleImageName": "action_words.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "PID_10BGM_1.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Puzzle",
+    "templateType": "ObjectsTweenIn"
+  },
+  "questionData": [
+    {
+      "questionText": "Action words",
+      "questionImageName": "1.png",
+      "questionAudioName": "tap_the_correct_picture_for_the_word.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common_option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "5_clapping.png",
+        "wa_4.png"
+      ],
+      "correctAudios": [
+        "clapping.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Action words",
+      "questionImageName": "2.png",
+      "questionAudioName": "tap_the_correct_picture_for_the_word.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common_option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "6_jumping.png",
+        "2_crying.png"
+      ],
+      "correctAudios": [
+        "crying.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Action words",
+      "questionImageName": "3.png",
+      "questionAudioName": "tap_the_correct_picture_for_the_word.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common_option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "wa_1.png",
+        "3_sitting.png"
+      ],
+      "correctAudios": [
+        "sitting.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Action words",
+      "questionImageName": "4.png",
+      "questionAudioName": "tap_the_correct_picture_for_the_word.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common_option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "4_running.png",
+        "wa_3.png"
+      ],
+      "correctAudios": [
+        "running.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Action words",
+      "questionImageName": "5.png",
+      "questionAudioName": "tap_the_correct_picture_for_the_word.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common_option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "wa_2.png",
+        "5_clapping.png"
+      ],
+      "correctAudios": [
+        "clapping.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Action words",
+      "questionImageName": "6.png",
+      "questionAudioName": "tap_the_correct_picture_for_the_word.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common_option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "6_jumping.png",
+        "3_sitting.png"
+      ],
+      "correctAudios": [
+        "jumping.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Action words",
+      "questionImageName": "7.png",
+      "questionAudioName": "tap_the_correct_picture_for_the_word.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common_option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "wa_4.png",
+        "7_bathing.png"
+      ],
+      "correctAudios": [
+        "bathing.mp3"
+      ],
+      "correctAnswerNum": "2"
+    }
+  ]
+}
