@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "winterseaason",
+    "texture": "87201df3-e034-42d2-b278-2dcadd65c04e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      588,
+      357
+    ],
+    "offset": [
+      0,
+      4
+    ],
+    "originalSize": [
+      588,
+      365
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
