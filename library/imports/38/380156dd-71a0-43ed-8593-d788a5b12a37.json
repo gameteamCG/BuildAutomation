@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "WA3",
+    "texture": "09a07c84-a6a0-49fd-ac66-5faa9814ecca",
+    "atlas": "",
+    "rect": [
+      95,
+      62,
+      320,
+      382
+    ],
+    "offset": [
+      4.5,
+      -2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
