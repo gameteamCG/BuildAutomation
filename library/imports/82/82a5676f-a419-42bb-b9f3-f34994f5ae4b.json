@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eatmouthclosed",
+    "texture": "8c059a83-af5b-487b-8bbb-b10173584556",
+    "atlas": "",
+    "rect": [
+      55,
+      25,
+      390,
+      450
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

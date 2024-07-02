@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Fighting_for_toys",
+    "texture": "7a3a41d4-432e-4ec7-a4a0-a7ade96dcff4",
+    "atlas": "",
+    "rect": [
+      25,
+      73,
+      450,
+      355
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

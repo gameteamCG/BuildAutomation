@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "habbits",
+    "texture": "d356c991-84ea-4151-8b49-82ffbaef5b09",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      925,
+      350
+    ],
+    "offset": [
+      -8,
+      0
+    ],
+    "originalSize": [
+      941,
+      350
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "climbontable",
+    "texture": "31a399c4-53e8-4069-8750-ac3bf313294e",
+    "atlas": "",
+    "rect": [
+      19,
+      110,
+      462,
+      280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
