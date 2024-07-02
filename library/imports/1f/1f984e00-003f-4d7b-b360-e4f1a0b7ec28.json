@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "2_crying",
+    "texture": "9a460a77-28a1-4797-95cd-fe421cf23ef3",
+    "atlas": "",
+    "rect": [
+      4,
+      16,
+      491,
+      455
+    ],
+    "offset": [
+      -1,
+      7
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
