@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jotbusket",
+    "texture": "ecb0f3c6-18f6-4188-bc61-0d53230da701",
+    "atlas": "",
+    "rect": [
+      0,
+      57,
+      298,
+      185
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
