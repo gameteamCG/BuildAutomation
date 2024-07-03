@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "9_the_louvre_museum",
+    "texture": "f83b6740-33cd-4730-9b56-3e13f618b235",
+    "atlas": "",
+    "rect": [
+      40,
+      140,
+      438,
+      244
+    ],
+    "offset": [
+      8.5,
+      -11.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

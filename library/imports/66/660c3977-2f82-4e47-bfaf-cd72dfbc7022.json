@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "6_pyramid_of_giza",
+    "texture": "f6dc25f4-436a-4498-a6f1-17a972d68ed8",
+    "atlas": "",
+    "rect": [
+      27,
+      118,
+      431,
+      260
+    ],
+    "offset": [
+      -8,
+      2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

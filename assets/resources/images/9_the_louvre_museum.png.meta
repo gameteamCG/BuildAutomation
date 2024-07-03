@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f83b6740-33cd-4730-9b56-3e13f618b235",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "9_the_louvre_museum": {
+      "ver": "1.0.6",
+      "uuid": "95d627d7-dffc-4705-a19c-3b3c4452fd1d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f83b6740-33cd-4730-9b56-3e13f618b235",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 8.5,
+      "offsetY": -11.5,
+      "trimX": 40,
+      "trimY": 140,
+      "width": 438,
+      "height": 244,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
