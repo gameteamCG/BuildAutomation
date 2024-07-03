@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3glassofwater",
+    "texture": "3787b198-9855-45db-93cf-e0db8dbf3279",
+    "atlas": "",
+    "rect": [
+      57,
+      16,
+      387,
+      468
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

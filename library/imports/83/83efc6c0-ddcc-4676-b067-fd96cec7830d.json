@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "4plate",
+    "texture": "f22fc75a-41d1-445d-b9fb-95eea1aa38ab",
+    "atlas": "",
+    "rect": [
+      22,
+      24,
+      459,
+      459
+    ],
+    "offset": [
+      1.5,
+      -3.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
