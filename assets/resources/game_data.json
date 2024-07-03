@@ -1,0 +1,48 @@
+{
+  "additionalData": {
+    "GameID": "Jumbo says",
+    "totalLevel": "5",
+    "TitleImageName": "",
+    "introBgName": "Nursery.png",
+    "bgmMusicName": "bgm3.mp3",
+    "mainBgName": "Asset278.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "jog on the spot",
+      "questionImageName": "Asset328.png",
+      "questionAudioName": "jumbosaysjogonthespot .mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "lift your knee",
+      "questionImageName": "Asset318.png",
+      "questionAudioName": "jumbosaysliftyourknee.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "run",
+      "questionImageName": "Asset308.png",
+      "questionAudioName": "jumbosaysrun .mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "touch your toes",
+      "questionImageName": "Asset298.png",
+      "questionAudioName": "jumbosaystouchyourtoes .mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "jump five times on the spot",
+      "questionImageName": "Asset338.png",
+      "questionAudioName": "jumbosaysJumpfivetimesonthespot.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    }
+  ]
+}
