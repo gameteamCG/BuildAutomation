@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Letter_Ee",
+    "texture": "165f7c9b-a835-4d11-8c0b-1ac878f7efa3",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      728,
+      152
+    ],
+    "offset": [
+      8,
+      -2
+    ],
+    "originalSize": [
+      764,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
