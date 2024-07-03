@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flamepancopy",
+    "texture": "6fc9690d-e56a-4fb8-8062-c767c04fa8c4",
+    "atlas": "",
+    "rect": [
+      22,
+      42,
+      476,
+      417
+    ],
+    "offset": [
+      9.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

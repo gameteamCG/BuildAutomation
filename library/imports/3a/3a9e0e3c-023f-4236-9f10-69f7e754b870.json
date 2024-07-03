@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "snowman",
+    "texture": "15954a8f-734f-4778-92a6-453d44e2eec5",
+    "atlas": "",
+    "rect": [
+      104,
+      25,
+      278,
+      436
+    ],
+    "offset": [
+      -7.5,
+      7.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

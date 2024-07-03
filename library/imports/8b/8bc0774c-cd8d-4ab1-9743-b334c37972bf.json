@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flame pan",
+    "texture": "1471e779-b40e-49cb-822c-a00b67d87a2a",
+    "atlas": "",
+    "rect": [
+      114,
+      114,
+      329,
+      208
+    ],
+    "offset": [
+      28,
+      32.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "soup",
+    "texture": "ed97dbab-8dbe-47ba-b666-442e25863e5c",
+    "atlas": "",
+    "rect": [
+      117,
+      176,
+      308,
+      205
+    ],
+    "offset": [
+      20.5,
+      -28
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
