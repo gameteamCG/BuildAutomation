@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "revisionofnumber341",
+    "texture": "b21caaaf-287a-491b-8ca2-70d0256c0545",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      783,
+      482
+    ],
+    "offset": [
+      8,
+      -8
+    ],
+    "originalSize": [
+      821,
+      518
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
