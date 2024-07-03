@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "iceberg",
+    "texture": "4076dad6-822d-4346-bdff-8ec51c8fe191",
+    "atlas": "",
+    "rect": [
+      126,
+      210,
+      327,
+      160
+    ],
+    "offset": [
+      39,
+      -39.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
