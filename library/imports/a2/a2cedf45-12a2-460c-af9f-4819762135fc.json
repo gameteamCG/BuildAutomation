@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "perfume",
+    "texture": "c3f0f85b-18d0-4be8-870e-3523ddb3f749",
+    "atlas": "",
+    "rect": [
+      70,
+      16,
+      110,
+      218
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

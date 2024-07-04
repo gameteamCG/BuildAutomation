@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "petrol",
+    "texture": "39f95306-f6ab-4d41-8b21-c15eb58d4344",
+    "atlas": "",
+    "rect": [
+      40,
+      26,
+      170,
+      198
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

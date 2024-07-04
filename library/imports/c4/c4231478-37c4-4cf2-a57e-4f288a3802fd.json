@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sugercane",
+    "texture": "8f9cd7ca-66ce-4111-878c-7f84f6c81e0d",
+    "atlas": "",
+    "rect": [
+      59,
+      18,
+      141,
+      221
+    ],
+    "offset": [
+      4.5,
+      -3.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

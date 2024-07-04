@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spices",
+    "texture": "bd4f475c-599e-46f1-b304-29ccdaa54324",
+    "atlas": "",
+    "rect": [
+      7,
+      45,
+      236,
+      160
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
