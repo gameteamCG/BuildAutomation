@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bigtree",
+    "texture": "a03f81d1-ade2-4df4-922a-d13e8f9978f5",
+    "atlas": "",
+    "rect": [
+      11,
+      27,
+      230,
+      208
+    ],
+    "offset": [
+      1,
+      -6
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
