@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tshirt",
+    "texture": "bd841bdb-4a7e-4f92-a9ad-c1a6ea064b25",
+    "atlas": "",
+    "rect": [
+      49,
+      38,
+      177,
+      200
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      275,
+      275
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

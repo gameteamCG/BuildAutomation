@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cold",
+    "texture": "aa3e5524-db76-4360-af7d-862a00fcbed1",
+    "atlas": "",
+    "rect": [
+      67,
+      94,
+      119,
+      53
+    ],
+    "offset": [
+      1.5,
+      4.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
