@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b7486a60-207a-4e82-83a7-ffc9b947361c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 566,
+  "height": 141,
+  "platformSettings": {},
+  "subMetas": {
+    "Gitti's story - Earth": {
+      "ver": "1.0.6",
+      "uuid": "4c8beabd-bf0b-4f83-a07a-ac36f78f058b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b7486a60-207a-4e82-83a7-ffc9b947361c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 7,
+      "trimX": 0,
+      "trimY": 2,
+      "width": 566,
+      "height": 123,
+      "rawWidth": 566,
+      "rawHeight": 141,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Gitti's story - Earth",
+    "texture": "b7486a60-207a-4e82-83a7-ffc9b947361c",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      566,
+      123
+    ],
+    "offset": [
+      0,
+      7
+    ],
+    "originalSize": [
+      566,
+      141
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
