@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Uses of trees_UKG Social Science_90",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/24016UseofPlants_1720096322632.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "BBgmwhatsnext.mp3",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "What do plants provide us?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whatdoplantsprovide.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "cheese.png",
+          "spices.png",
+          "eggs.png",
+          "woolbag.png"
+        ],
+        "ReiterationAudioName": "spices.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": " Stems we eat",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyandtaponth.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "sugercane.png",
+          "carrot.png",
+          "cabbage.png",
+          "onion.png"
+        ],
+        "ReiterationAudioName": "sugarcane.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": " Uses of plant.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "taponauseofplant.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "scissor.png",
+          "petrol.png",
+          "Key.png",
+          "plantgivesairtobreath.png"
+        ],
+        "ReiterationAudioName": "irto.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What can we make from tree's wood?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whatcanwemakefrom.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "perfume.png",
+          "cloth.png",
+          "furniture.png",
+          "medicine.png"
+        ],
+        "ReiterationAudioName": "furniture.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "Tap on the picture of the cotton plant.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "taponthepictureof.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "cornplant3.png",
+          "cottonplant.png",
+          "flowerplant2.png",
+          "flowewrplant1.png"
+        ],
+        "ReiterationAudioName": "cottonplant.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "Use of flowers",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whatareflowersused.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "medicine.png",
+          "gloves.png",
+          "tyre.png",
+          "perfume.png"
+        ],
+        "ReiterationAudioName": "perfumes.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}

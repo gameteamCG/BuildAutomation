@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cloth",
+    "texture": "036bb522-5c91-48cd-a19b-ca328b2a9416",
+    "atlas": "",
+    "rect": [
+      40,
+      28,
+      170,
+      195
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

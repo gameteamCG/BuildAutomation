@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "plantgivesairtobreath",
+    "texture": "385c6fcc-ea73-4496-b209-1d0dca2d6ca0",
+    "atlas": "",
+    "rect": [
+      10,
+      9,
+      231,
+      231
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

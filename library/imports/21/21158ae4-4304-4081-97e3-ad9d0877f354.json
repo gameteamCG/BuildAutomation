@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "furniture",
+    "texture": "7c33040b-871c-479d-99a3-8064cb3c77a6",
+    "atlas": "",
+    "rect": [
+      9,
+      47,
+      233,
+      156
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
