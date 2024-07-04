@@ -1,0 +1,179 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Positional Words",
+      "totalLevel": "10",
+      "TitleImageName": "Asset.png",
+      "introBgName": "bg_2.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "bg_2tomato.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Positional Words",
+        "questionImageName": "Artboard_2_copy_2.png",
+        "questionAudioName": "24315577_1_look-at-the-picture-an.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 9_8.png",
+          "Asset 5_8.png",
+          "Asset 2_8.png"
+        ],
+        "correctAudioName": "24315577_5_in-front-of.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Positional Words",
+        "questionImageName": "Artboard_2.png",
+        "questionAudioName": "24315577_1_look-at-the-picture-an.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 2_8.png",
+          "Asset 4_8.png",
+          "Asset 7_8.png"
+        ],
+        "correctAudioName": "24315577_8_next-to.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Positional Words",
+        "questionImageName": "Artboard_2_copy_4.png",
+        "questionAudioName": "24315577_1_look-at-the-picture-an.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 1_8.png",
+          "Asset 5_8.png",
+          "Asset 7_8.png"
+        ],
+        "correctAudioName": "24315577_9_through.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Positional Words",
+        "questionImageName": "Artboard 2 copy 3.png",
+        "questionAudioName": "24315577_1_look-at-the-picture-an.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 9_8.png",
+          "Asset 1_8.png",
+          "Asset 8_8.png"
+        ],
+        "correctAudioName": "24315577_4_in-between.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Positional Words",
+        "questionImageName": "in front of.png",
+        "questionAudioName": "24315577_1_look-at-the-picture-an.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 2_8.png",
+          "Asset 4_8.png",
+          "Asset 9_8.png"
+        ],
+        "correctAudioName": "24315577_5_in-front-of.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Positional Words",
+        "questionImageName": "behind.png",
+        "questionAudioName": "24315577_1_look-at-the-picture-an.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 7_8.png",
+          "Asset 10_8.png",
+          "Asset 1_8.png"
+        ],
+        "correctAudioName": "24315577_6_behind.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Positional Words",
+        "questionImageName": "around.png",
+        "questionAudioName": "24315577_1_look-at-the-picture-an.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 5_8.png",
+          "Asset 4_8.png",
+          "Asset 11-8.png"
+        ],
+        "correctAudioName": "24315577_7_around.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Positional Words",
+        "questionImageName": "behind copy.png",
+        "questionAudioName": "24315577_1_look-at-the-picture-an.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 2_8.png",
+          "Asset 3_8.png",
+          "Asset 7_8.png"
+        ],
+        "correctAudioName": "24315577_2_inside.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Positional Words",
+        "questionImageName": "Artboard 2 copy.png",
+        "questionAudioName": "24315577_1_look-at-the-picture-an.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 5_8.png",
+          "Asset 9_8.png",
+          "Asset 2_8.png"
+        ],
+        "correctAudioName": "24315577_6_behind.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Positional Words",
+        "questionImageName": "INSIDE .png",
+        "questionAudioName": "24315577_1_look-at-the-picture-an.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 3_8.png",
+          "Asset 9_8.png",
+          "Asset 7_8.png"
+        ],
+        "correctAudioName": "24315577_2_inside.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
