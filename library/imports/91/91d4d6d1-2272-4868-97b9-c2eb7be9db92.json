@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "LettersoundsEFGH",
+    "texture": "a72db24d-00ec-4376-a23a-861f728b6513",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1002,
+      392
+    ],
+    "offset": [
+      0,
+      4.5
+    ],
+    "originalSize": [
+      1002,
+      401
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
