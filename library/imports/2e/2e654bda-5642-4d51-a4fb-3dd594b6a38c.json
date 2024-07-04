@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Golden_words",
+    "texture": "af63194f-a15e-4c3d-adf2-7e37ef3a42f1",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      564,
+      315
+    ],
+    "offset": [
+      7.5,
+      -1.5
+    ],
+    "originalSize": [
+      601,
+      364
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
