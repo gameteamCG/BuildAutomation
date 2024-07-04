@@ -1,0 +1,113 @@
+{
+  "AdditionalData": {
+    "GameID": "Plant life cycle_UKG Social Science_95",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/52726TheMagicSeed_1720097843448.mp4",
+    "TitleImageName": "Asset150.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "BBgmwhatsnext.mp3",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "What was Chinu eating when he was five year old?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "whatwaschinueating.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "apple.png",
+        "mango.png",
+        "Strawberry.png",
+        "coconut.png"
+      ],
+      "ReiterationAudioName": "amango.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": "What did Chinu put in the hole?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "whatdidchinuputin.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "ball.png",
+        "teddy.png",
+        "seed.png",
+        "flower.png"
+      ],
+      "ReiterationAudioName": "amangoseed.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "Baby plant.",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Taponthepictureofababyplant.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "bigtree.png",
+        "seed.png",
+        "leaves.png",
+        "smallplant1.png"
+      ],
+      "ReiterationAudioName": "babyplant.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "What happened to the plant when Chinu was9 year old?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "WhathappenedtotheplantwhenChinuwas9yearsold.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "bigtree.png",
+        "smallplant1.png",
+        "smal3plant1.png",
+        "smallplant2.png"
+      ],
+      "ReiterationAudioName": "itbecameahugetree.mp3",
+      "CorrectAudioName": "AWESOME YOU SAVED IT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "Tap on the picture of mange tree.",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Taponthepictureofthemangotree.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "appletree.png",
+        "mangotree.png",
+        "coconuttree.png",
+        "bananatree.png"
+      ],
+      "ReiterationAudioName": "mangotree.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
