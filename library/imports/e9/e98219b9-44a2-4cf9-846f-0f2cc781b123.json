@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "scissor",
+    "texture": "710a6e3e-cbf2-4a9d-a209-76a926d912a5",
+    "atlas": "",
+    "rect": [
+      37,
+      27,
+      176,
+      176
+    ],
+    "offset": [
+      0,
+      10
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

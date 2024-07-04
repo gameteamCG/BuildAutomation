@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cottonplant",
+    "texture": "e3f38e64-fffe-472b-8d2c-b305132e3c02",
+    "atlas": "",
+    "rect": [
+      40,
+      10,
+      174,
+      232
+    ],
+    "offset": [
+      2,
+      -1
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
