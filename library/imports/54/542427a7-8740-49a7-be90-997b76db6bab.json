@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flowewrplant1",
+    "texture": "2ce0b58e-84c0-4eb2-95bd-9580178e0a2e",
+    "atlas": "",
+    "rect": [
+      66,
+      24,
+      118,
+      206
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

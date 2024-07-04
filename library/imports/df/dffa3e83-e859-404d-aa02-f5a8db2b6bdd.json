@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cornplant3",
+    "texture": "296690a8-99a1-4991-8531-2baea8d5b801",
+    "atlas": "",
+    "rect": [
+      73,
+      15,
+      104,
+      214
+    ],
+    "offset": [
+      0,
+      3
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
