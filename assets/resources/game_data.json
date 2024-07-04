@@ -1,0 +1,140 @@
+{
+  "additionalData": {
+    "GameID": "Compound words_UKG Practice Book 2_56",
+    "totalLevel": "7",
+    "TitleImageName": "Compound_word.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "BGM3.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Puzzle",
+    "templateType": "ObjectsTweenIn"
+  },
+  "questionData": [
+    {
+      "questionText": "compound words",
+      "questionImageName": "dragon_fly_1.png",
+      "questionAudioName": "Qall.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_4.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "ans_dragonfly.png",
+        "ans_hand_bag.png"
+      ],
+      "correctAudios": [
+        "1dragon_plus_fly_is_equ.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "compound words",
+      "questionImageName": "que_lady_bird.png",
+      "questionAudioName": "Qall.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_4.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "ans_dragonfly.png",
+        "ans_ladybird.png"
+      ],
+      "correctAudios": [
+        "3_lady_plus_bird_is_equa.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "compound words",
+      "questionImageName": "moonlight_1.png",
+      "questionAudioName": "Qall.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_4.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "ans_moonlight.png",
+        "ans_ladybird.png"
+      ],
+      "correctAudios": [
+        "4_moon_plus_light_is_equ.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "compound words",
+      "questionImageName": "popcorn_1.png",
+      "questionAudioName": "Qall.mp3",
+      "shouldPlayQuestionAudio": false,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 2,
+      "options": [
+        "ans_dragonfly.png",
+        "ans_popcorn.png"
+      ],
+      "correctAudios": [
+        "5_pop_plus_corn_is_equal.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "compound words",
+      "questionImageName": "rainbow_1.png",
+      "questionAudioName": "Qall.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "ans_rainbow.png",
+        "ans_popcorn.png"
+      ],
+      "correctAudios": [
+        "6_rain_plus_bow_is_equal.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "compound words",
+      "questionImageName": "see_saw_1.png",
+      "questionAudioName": "Qall.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "ans_seesaw.png",
+        "ans_ladybird.png"
+      ],
+      "correctAudios": [
+        "7_see_plus_saw_is_equal_to_seesaw.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "compound words",
+      "questionImageName": "handbag_1.png",
+      "questionAudioName": "Qall.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_4.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "ans_moonlight.png",
+        "ans_hand_bag.png"
+      ],
+      "correctAudios": [
+        "2_hand_plus_bag_is_equal.mp3"
+      ],
+      "correctAnswerNum": "2"
+    }
+  ]
+}
