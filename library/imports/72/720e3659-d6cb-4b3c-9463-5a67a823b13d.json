@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "handbag_1",
+    "texture": "15d2c961-5bb9-4491-9d68-04c0f5916abe",
+    "atlas": "",
+    "rect": [
+      0,
+      102,
+      500,
+      309
+    ],
+    "offset": [
+      -0.5,
+      -6
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ans_ladybird",
+    "texture": "3d387c11-d599-4848-98ec-34d6143ed7b5",
+    "atlas": "",
+    "rect": [
+      61,
+      35,
+      178,
+      230
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
