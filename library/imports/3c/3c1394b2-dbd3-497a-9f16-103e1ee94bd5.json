@@ -1,0 +1,309 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "positional words super cubs feedback",
+      "totalLevel": "10",
+      "TitleImageName": "positionalwords.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "Bgm2.mp3",
+      "mainBgName": "bg_3.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "inside",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "inside_part_001.jpg",
+          "inside_part_002.jpg",
+          "inside_part_003.jpg",
+          "inside_part_004.jpg"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "option_button3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "inside",
+          "above",
+          "between"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "inside.mp3"
+      },
+      {
+        "questionText": "on top",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "ontop_part_001.jpg",
+          "ontop_part_002.jpg",
+          "ontop_part_003.jpg",
+          "ontop_part_004.jpg"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "option_button3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "between",
+          "under",
+          "on top"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "on_top.mp3"
+      },
+      {
+        "questionText": "under",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "under_part_001.jpg",
+          "under_part_002.jpg",
+          "under_part_003.jpg",
+          "under_part_004.jpg"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "option_button3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "between",
+          "under",
+          "behind"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "under.mp3"
+      },
+      {
+        "questionText": "over",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "over_part_001.jpg",
+          "over_part_002.jpg",
+          "over_part_003.jpg",
+          "over_part_004.jpg"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "option_button3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "over",
+          "under",
+          "near"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "over.mp3"
+      },
+      {
+        "questionText": "behind",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "behind_part_001.jpg",
+          "behind_part_002.jpg",
+          "behind_part_003.jpg",
+          "behind_part_004.jpg"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "option_button3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "above",
+          "under",
+          "behind"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "behind.mp3"
+      },
+      {
+        "questionText": "between",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "between_part_001.jpg",
+          "between_part_002.jpg",
+          "between_part_003.jpg",
+          "between_part_004.jpg"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "option_button3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "between",
+          "over",
+          "inside"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "between.mp3"
+      },
+      {
+        "questionText": "next to",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "nextto_part_001.jpg",
+          "nextto_part_002.jpg",
+          "nextto_part_003.jpg",
+          "nextto_part_004.jpg"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "option_button3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "under",
+          "on top",
+          "next to"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "next_to.mp3"
+      },
+      {
+        "questionText": "above",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "above_part_001.jpg",
+          "above_part_002.jpg",
+          "above_part_003.jpg",
+          "above_part_004.jpg"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "option_button3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "under",
+          "above",
+          "behind"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "above.mp3"
+      },
+      {
+        "questionText": "in front",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "infront_part_001.jpg",
+          "infront_part_002.jpg",
+          "infront_part_003.jpg",
+          "infront_part_004.jpg"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "option_button3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "in front",
+          "inside",
+          "between"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "in_front.mp3"
+      },
+      {
+        "questionText": "near",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "near_part_001.jpg",
+          "near_part_002.jpg",
+          "near_part_003.jpg",
+          "near_part_004.jpg"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "identify_the_correct_word_for_the_picture.mp3",
+        "commonOptionImageName": "option_button3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "under",
+          "above",
+          "near"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "near.mp3"
+      }
+    ]
+  }
+}
