@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "see saw",
+    "texture": "5bd937e1-90f1-4a2e-80e2-80072ff5eefd",
+    "atlas": "",
+    "rect": [
+      7,
+      70,
+      285,
+      159
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
