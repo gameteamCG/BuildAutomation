@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "5_hand_glider",
+    "texture": "483125f7-8012-420d-8993-b3ba270e721f",
+    "atlas": "",
+    "rect": [
+      17,
+      93,
+      465,
+      314
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
