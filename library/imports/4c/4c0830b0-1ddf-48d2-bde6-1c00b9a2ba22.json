@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "calculator",
+    "texture": "1492fc42-7cb2-450d-8d7e-7988de4bb85e",
+    "atlas": "",
+    "rect": [
+      50,
+      50,
+      400,
+      400
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

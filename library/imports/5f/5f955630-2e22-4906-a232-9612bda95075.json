@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pizza",
+    "texture": "21aee51a-51e0-4ba7-93c3-40e6b37625ad",
+    "atlas": "",
+    "rect": [
+      46,
+      46,
+      408,
+      408
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

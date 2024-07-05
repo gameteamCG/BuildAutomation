@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "compus",
+    "texture": "b2988c5e-935f-4cca-a440-a38b06070e3d",
+    "atlas": "",
+    "rect": [
+      81,
+      32,
+      339,
+      438
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
