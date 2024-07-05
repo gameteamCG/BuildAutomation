@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "left_box",
+    "texture": "c41e028c-81b0-4d3c-bb60-944338e84654",
+    "atlas": "",
+    "rect": [
+      0,
+      36,
+      496,
+      437
+    ],
+    "offset": [
+      -2.5,
+      -4
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
