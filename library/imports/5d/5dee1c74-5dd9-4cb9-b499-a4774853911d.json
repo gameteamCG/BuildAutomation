@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "leavescopy1",
+    "texture": "2d32c5bc-de16-4e40-b4ff-5401c39e472f",
+    "atlas": "",
+    "rect": [
+      25,
+      69,
+      210,
+      151
+    ],
+    "offset": [
+      4.5,
+      -19
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

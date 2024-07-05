@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flower",
+    "texture": "f1283e12-47d1-4f15-82a2-dd766be5e8b1",
+    "atlas": "",
+    "rect": [
+      55,
+      1,
+      160,
+      245
+    ],
+    "offset": [
+      9.5,
+      2
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
