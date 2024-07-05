@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0001_pod",
+    "texture": "128cd41b-e1e6-4ead-989d-8c47bcb738fc",
+    "atlas": "",
+    "rect": [
+      8,
+      12,
+      238,
+      222
+    ],
+    "offset": [
+      2,
+      2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
