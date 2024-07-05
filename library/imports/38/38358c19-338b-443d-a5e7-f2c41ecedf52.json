@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mum",
+    "texture": "c7b941f6-ec2b-4153-9fe9-d79b3cb1c1fd",
+    "atlas": "",
+    "rect": [
+      53,
+      117,
+      150,
+      29
+    ],
+    "offset": [
+      3,
+      -6.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

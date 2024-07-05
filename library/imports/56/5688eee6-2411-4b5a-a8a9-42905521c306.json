@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gum",
+    "texture": "46473203-cb3b-45c1-8a28-a437206a4f13",
+    "atlas": "",
+    "rect": [
+      60,
+      117,
+      130,
+      56
+    ],
+    "offset": [
+      0,
+      -20
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
