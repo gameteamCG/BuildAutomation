@@ -1,0 +1,119 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Our Earth_UKG Social Science_113",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/gitti_s+story.mp4",
+      "TitleImageName": "Gitti's story - Earth.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "50000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q1.png",
+        "QuestionAudioName": "1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Boy.png",
+          "girl.png",
+          "rock.png",
+          "teddy-bear.png"
+        ],
+        "ReiterationAudioName": "rock1.mp3",
+        "CorrectAudioName": "Positive1.mp3",
+        "WrongAudioName": "Negative1.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "50000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q2.png",
+        "QuestionAudioName": "2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "bench.png",
+          "mountain.png",
+          "chair.png",
+          "table.png"
+        ],
+        "ReiterationAudioName": "mountain1.mp3",
+        "CorrectAudioName": "Positive2.mp3",
+        "WrongAudioName": "nEGATIVE2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "49997",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q3.png",
+        "QuestionAudioName": "3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "hot.png",
+          "cool.png",
+          "cold.png",
+          "windy.png"
+        ],
+        "ReiterationAudioName": "hot1.mp3",
+        "CorrectAudioName": "POSITIVE3.mp3",
+        "WrongAudioName": "Negative1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "50000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q4.png",
+        "QuestionAudioName": "4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "painting.png",
+          "bag.png",
+          "clock.png",
+          "river.png"
+        ],
+        "ReiterationAudioName": "rivers1.mp3",
+        "CorrectAudioName": "POSITIVE4.mp3",
+        "WrongAudioName": "nEGATIVE2.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "50000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q5.png",
+        "QuestionAudioName": "5.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "mountain.png",
+          "tshirt.png",
+          "glasses.png",
+          "apple.png"
+        ],
+        "ReiterationAudioName": "mountain1.mp3",
+        "CorrectAudioName": "pOSITIVE5.mp3",
+        "WrongAudioName": "Negative1.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

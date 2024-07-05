@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "windy",
+    "texture": "5c2d6645-e8b9-4465-ad03-495d10d02962",
+    "atlas": "",
+    "rect": [
+      37,
+      94,
+      173,
+      74
+    ],
+    "offset": [
+      -1.5,
+      -6
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
