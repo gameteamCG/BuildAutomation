@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Compound_word",
+    "texture": "b0ffa440-0947-4835-96a1-c30daca4cb17",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      957,
+      393
+    ],
+    "offset": [
+      -10,
+      4.5
+    ],
+    "originalSize": [
+      977,
+      402
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
