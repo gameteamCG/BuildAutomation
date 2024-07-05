@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stem1copy",
+    "texture": "e2fc5fc1-b848-4435-a6f9-ae2cc25bca49",
+    "atlas": "",
+    "rect": [
+      27,
+      2,
+      172,
+      242
+    ],
+    "offset": [
+      -12.5,
+      2.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

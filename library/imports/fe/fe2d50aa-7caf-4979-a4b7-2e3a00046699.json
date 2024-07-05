@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "branches1copy",
+    "texture": "79c36a53-49f7-4056-97bf-8085944dc539",
+    "atlas": "",
+    "rect": [
+      0,
+      53,
+      251,
+      132
+    ],
+    "offset": [
+      0,
+      6.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

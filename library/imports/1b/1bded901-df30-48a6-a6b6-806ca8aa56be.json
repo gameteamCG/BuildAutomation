@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "futis1copy",
+    "texture": "133e2138-5b49-4217-96a9-0d4f9cc5f96e",
+    "atlas": "",
+    "rect": [
+      41,
+      56,
+      174,
+      165
+    ],
+    "offset": [
+      2.5,
+      -13
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
