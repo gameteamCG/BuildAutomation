@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "frfamilywords",
+    "texture": "82a031aa-297c-423a-9f97-97dd1f69e3db",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      469,
+      221
+    ],
+    "offset": [
+      5.5,
+      2.5
+    ],
+    "originalSize": [
+      510,
+      278
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

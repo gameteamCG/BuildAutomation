@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fruitsareinthefridge",
+    "texture": "dba9647e-a4d4-4b3b-afc8-44f5d20d13a2",
+    "atlas": "",
+    "rect": [
+      36,
+      8,
+      429,
+      490
+    ],
+    "offset": [
+      0.5,
+      -3
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
