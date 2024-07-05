@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hid",
+    "texture": "56dd58cb-17db-447e-bbc9-0c5d1d71b16d",
+    "atlas": "",
+    "rect": [
+      42,
+      15,
+      166,
+      221
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
