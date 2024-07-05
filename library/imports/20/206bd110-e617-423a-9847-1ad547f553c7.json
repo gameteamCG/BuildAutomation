@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "iblend",
+    "texture": "2c98a45a-df22-43df-989e-f6588ec818b6",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      388,
+      221
+    ],
+    "offset": [
+      5.5,
+      2.5
+    ],
+    "originalSize": [
+      429,
+      278
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

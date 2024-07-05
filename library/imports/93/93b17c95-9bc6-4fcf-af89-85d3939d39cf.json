@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "main__0010_500x500_0000_blow",
+    "texture": "4032456f-a80a-4ef8-a923-b18e0d11f6c6",
+    "atlas": "",
+    "rect": [
+      8,
+      6,
+      186,
+      186
+    ],
+    "offset": [
+      1,
+      1
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
