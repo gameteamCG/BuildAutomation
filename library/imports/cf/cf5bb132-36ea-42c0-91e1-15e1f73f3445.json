@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "positionalwords",
+    "texture": "8759fe43-5e5b-4dba-8e3d-1b2bf5355bd5",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      496,
+      225
+    ],
+    "offset": [
+      5.5,
+      2.5
+    ],
+    "originalSize": [
+      537,
+      282
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
