@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "roots3",
+    "texture": "67c7b709-a59a-4a08-94cb-c99e45d2498a",
+    "atlas": "",
+    "rect": [
+      51,
+      3,
+      145,
+      233
+    ],
+    "offset": [
+      -2,
+      6
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
