@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ans_popcorn",
+    "texture": "473f3cf9-8d73-4f4c-a4d3-efd36cc44667",
+    "atlas": "",
+    "rect": [
+      81,
+      34,
+      138,
+      231
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
