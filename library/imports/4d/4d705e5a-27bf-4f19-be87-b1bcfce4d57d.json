@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lady bird",
+    "texture": "7456f5ec-2893-4702-8cfe-d69868a8f5e3",
+    "atlas": "",
+    "rect": [
+      7,
+      70,
+      285,
+      159
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
