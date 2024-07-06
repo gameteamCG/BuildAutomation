@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "trianglewithcar",
+    "texture": "ca6eb2cf-774e-438d-9311-5a6713745055",
+    "atlas": "",
+    "rect": [
+      0,
+      106,
+      400,
+      202
+    ],
+    "offset": [
+      0,
+      -7
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

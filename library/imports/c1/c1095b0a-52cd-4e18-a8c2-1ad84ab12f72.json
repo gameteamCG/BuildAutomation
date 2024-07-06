@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "semicirclewithcar",
+    "texture": "fedd6eab-2349-4539-9db5-931bff1dcaaf",
+    "atlas": "",
+    "rect": [
+      0,
+      106,
+      400,
+      202
+    ],
+    "offset": [
+      0,
+      -7
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

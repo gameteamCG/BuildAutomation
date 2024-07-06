@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "trapezoidwithtruck",
+    "texture": "0955f5ac-92b3-4fcb-bae1-4a2549f1f63a",
+    "atlas": "",
+    "rect": [
+      5,
+      89,
+      392,
+      217
+    ],
+    "offset": [
+      1,
+      2.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

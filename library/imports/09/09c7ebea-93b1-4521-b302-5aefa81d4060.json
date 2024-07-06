@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hexagonwithcaar",
+    "texture": "3c697c38-4b62-4c22-aac9-13340e317307",
+    "atlas": "",
+    "rect": [
+      0,
+      106,
+      400,
+      202
+    ],
+    "offset": [
+      0,
+      -7
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

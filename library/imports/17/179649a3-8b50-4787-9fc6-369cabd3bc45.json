@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "trapezoid",
+    "texture": "c396836b-7e86-4bfb-b13e-bd67d20d0c22",
+    "atlas": "",
+    "rect": [
+      57,
+      72,
+      386,
+      356
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

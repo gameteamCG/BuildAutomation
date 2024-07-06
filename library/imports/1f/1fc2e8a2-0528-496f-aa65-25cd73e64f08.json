@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "starcirclewithengine",
+    "texture": "89f09dc1-b4b0-4b52-84e1-1371abbfff36",
+    "atlas": "",
+    "rect": [
+      0,
+      42,
+      400,
+      266
+    ],
+    "offset": [
+      0,
+      25
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

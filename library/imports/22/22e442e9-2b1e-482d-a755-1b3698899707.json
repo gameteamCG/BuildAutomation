@@ -1,0 +1,229 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "basic shapes",
+      "totalLevel": "11",
+      "TitleImageName": "basicshapes.png",
+      "introBgName": "titlebgbg.png",
+      "bgmMusicName": "B2.mp3",
+      "mainBgName": "background.png",
+      "JockeyName": "supercub",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "basic shapes",
+        "questionImageName": "circlewithtruck.png",
+        "questionAudioName": "Identifythecorrectshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "circle.png",
+          "trapezoid.png",
+          "square.png"
+        ],
+        "correctAudios": [
+          "Circle.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "basic shapes",
+        "questionImageName": "retranglewithtruck.png",
+        "questionAudioName": "Identifythecorrectshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "oval.png",
+          "star.png",
+          "retrangle.png"
+        ],
+        "correctAudios": [
+          "Rectangle.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "basic shapes",
+        "questionImageName": "squarewithcar.png",
+        "questionAudioName": "Identifythecorrectshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Hexagon.png",
+          "square.png",
+          "Heart.png"
+        ],
+        "correctAudios": [
+          "Square.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "basic shapes",
+        "questionImageName": "semicirclewithcar.png",
+        "questionAudioName": "Identifythecorrectshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "samicircle.png",
+          "pentagon.png",
+          "star.png"
+        ],
+        "correctAudios": [
+          "SemiCircle.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "basic shapes",
+        "questionImageName": "starcirclewithengine.png",
+        "questionAudioName": "Identifythecorrectshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Hexagon.png",
+          "trangle.png",
+          "star.png"
+        ],
+        "correctAudios": [
+          "Star.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "basic shapes",
+        "questionImageName": "pentagonwithengine.png",
+        "questionAudioName": "Identifythecorrectshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "star.png",
+          "pentagon.png",
+          "samicircle.png"
+        ],
+        "correctAudios": [
+          "Pentagon.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "basic shapes",
+        "questionImageName": "trapezoidwithtruck.png",
+        "questionAudioName": "Identifythecorrectshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "trapezoid.png",
+          "Heart.png",
+          "circle.png"
+        ],
+        "correctAudios": [
+          "Trapezium.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "basic shapes",
+        "questionImageName": "ovalwithtruck.png",
+        "questionAudioName": "Identifythecorrectshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "square.png",
+          "oval.png",
+          "trangle.png"
+        ],
+        "correctAudios": [
+          "Oval.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "basic shapes",
+        "questionImageName": "hexagonwithcaar.png",
+        "questionAudioName": "Identifythecorrectshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "star.png",
+          "retrangle.png",
+          "Hexagon.png"
+        ],
+        "correctAudios": [
+          "Hexagon.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "basic shapes",
+        "questionImageName": "trianglewithcar.png",
+        "questionAudioName": "Identifythecorrectshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "star.png",
+          "trangle.png",
+          "samicircle.png"
+        ],
+        "correctAudios": [
+          "Triangle.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "basic shapes",
+        "questionImageName": "heartnwithtruck.png",
+        "questionAudioName": "Identifythecorrectshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Heart.png",
+          "star.png",
+          "pentagon.png"
+        ],
+        "correctAudios": [
+          "Heart.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

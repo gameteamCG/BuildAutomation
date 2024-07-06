@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "retranglewithtruck",
+    "texture": "e0f6db46-4d45-4e0e-b923-b93f86401b74",
+    "atlas": "",
+    "rect": [
+      5,
+      89,
+      392,
+      217
+    ],
+    "offset": [
+      1,
+      2.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

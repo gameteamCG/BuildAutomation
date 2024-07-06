@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ovalwithtruck",
+    "texture": "19a73c6d-95ad-49a7-b58b-50239017acf0",
+    "atlas": "",
+    "rect": [
+      5,
+      89,
+      392,
+      217
+    ],
+    "offset": [
+      1,
+      2.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
