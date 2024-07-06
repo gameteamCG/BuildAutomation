@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0007_outside_car",
+    "texture": "d550ca36-2efc-422a-8e84-0b8072f8603a",
+    "atlas": "",
+    "rect": [
+      2,
+      1,
+      497,
+      498
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
