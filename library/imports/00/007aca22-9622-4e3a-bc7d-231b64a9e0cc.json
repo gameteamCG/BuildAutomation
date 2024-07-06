@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "puppy",
+    "texture": "1305a7c9-ad57-4ffc-b950-6a2becdb86e1",
+    "atlas": "",
+    "rect": [
+      118,
+      104,
+      237,
+      282
+    ],
+    "offset": [
+      -13.5,
+      5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
