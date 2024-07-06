@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lattuse",
+    "texture": "ed9004b9-96e6-4876-9004-baa158665355",
+    "atlas": "",
+    "rect": [
+      26,
+      66,
+      449,
+      368
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "06448c40-bd16-4a53-b7d5-399d9ca5b53d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 872,
+  "height": 311,
+  "platformSettings": {},
+  "subMetas": {
+    "fruitandvegetablebaskets": {
+      "ver": "1.0.6",
+      "uuid": "5ec9be62-b46c-4268-bb29-11841b434371",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "06448c40-bd16-4a53-b7d5-399d9ca5b53d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 5.5,
+      "offsetY": -3.5,
+      "trimX": 26,
+      "trimY": 26,
+      "width": 831,
+      "height": 266,
+      "rawWidth": 872,
+      "rawHeight": 311,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
