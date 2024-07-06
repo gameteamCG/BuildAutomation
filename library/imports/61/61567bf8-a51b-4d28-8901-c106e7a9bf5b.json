@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "peasstroke",
+    "texture": "b001de91-ab8c-4d95-a7bb-c4f9fa83f853",
+    "atlas": "",
+    "rect": [
+      44,
+      35,
+      413,
+      431
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

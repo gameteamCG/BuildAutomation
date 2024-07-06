@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "onionstroke",
+    "texture": "fe81724b-0912-4b06-8622-d55b916fa3e3",
+    "atlas": "",
+    "rect": [
+      55,
+      13,
+      369,
+      481
+    ],
+    "offset": [
+      -11,
+      -3
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

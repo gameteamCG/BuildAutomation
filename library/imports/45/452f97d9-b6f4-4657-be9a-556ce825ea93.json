@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "LadyFingerstroke",
+    "texture": "4780c41e-3131-4d2d-a2e5-fa757ed255f7",
+    "atlas": "",
+    "rect": [
+      53,
+      19,
+      380,
+      471
+    ],
+    "offset": [
+      -7.5,
+      -4
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

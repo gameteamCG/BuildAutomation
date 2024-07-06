@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Tomatostroke",
+    "texture": "8eafb8c6-92ad-41ac-bac5-d583bf971ecf",
+    "atlas": "",
+    "rect": [
+      55,
+      58,
+      391,
+      384
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

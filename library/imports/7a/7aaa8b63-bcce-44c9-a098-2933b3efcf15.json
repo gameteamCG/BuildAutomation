@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "potatostroke",
+    "texture": "69c1056b-1966-4eb4-898e-a7889ecf8247",
+    "atlas": "",
+    "rect": [
+      28,
+      91,
+      461,
+      320
+    ],
+    "offset": [
+      8,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

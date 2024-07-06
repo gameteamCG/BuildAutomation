@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "carrotstroke",
+    "texture": "fbb797d5-8f88-4565-81f0-075e579141d6",
+    "atlas": "",
+    "rect": [
+      76,
+      13,
+      374,
+      475
+    ],
+    "offset": [
+      12.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
