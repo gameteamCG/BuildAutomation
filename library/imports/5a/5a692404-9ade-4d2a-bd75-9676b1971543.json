@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "carrom_board",
+    "texture": "c2bbc910-d89d-4837-9134-9de8a7d13500",
+    "atlas": "",
+    "rect": [
+      45,
+      45,
+      411,
+      411
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

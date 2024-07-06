@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bucket_with_retrangle2",
+    "texture": "76d7a5e6-6c0b-486f-bca1-c133f74b8dfa",
+    "atlas": "",
+    "rect": [
+      5,
+      75,
+      291,
+      190
+    ],
+    "offset": [
+      0,
+      -19.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

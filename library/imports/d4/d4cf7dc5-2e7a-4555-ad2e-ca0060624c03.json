@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "morror",
+    "texture": "a09f8fdc-567f-4518-b4f8-900c8ea0ea52",
+    "atlas": "",
+    "rect": [
+      44,
+      43,
+      414,
+      414
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
