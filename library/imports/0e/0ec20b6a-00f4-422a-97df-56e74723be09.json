@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "safety_rules",
+    "texture": "0d80bb88-b5cd-4f20-993f-4178d74ac93d",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      646,
+      161
+    ],
+    "offset": [
+      5.5,
+      -3.5
+    ],
+    "originalSize": [
+      687,
+      206
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
