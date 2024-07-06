@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0002_crane",
+    "texture": "9f8b8cd7-65a4-401a-8c33-c8686f07ba90",
+    "atlas": "",
+    "rect": [
+      53,
+      22,
+      144,
+      206
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
