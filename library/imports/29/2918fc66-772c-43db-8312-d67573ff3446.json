@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0003_cabbage",
+    "texture": "e96b744d-5493-4023-825f-f9c4ac612b83",
+    "atlas": "",
+    "rect": [
+      93,
+      80,
+      378,
+      341
+    ],
+    "offset": [
+      32,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
