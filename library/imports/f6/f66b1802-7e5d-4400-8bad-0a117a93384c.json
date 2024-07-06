@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "duckling",
+    "texture": "749bd47c-e58a-4c24-b061-fe2bc3c1a177",
+    "atlas": "",
+    "rect": [
+      63,
+      40,
+      374,
+      424
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

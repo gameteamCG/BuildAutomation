@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "options_panel3",
+    "texture": "5b55da87-30dc-4aaa-b436-ac5b8bfeca79",
+    "atlas": "",
+    "rect": [
+      0,
+      81,
+      500,
+      339
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

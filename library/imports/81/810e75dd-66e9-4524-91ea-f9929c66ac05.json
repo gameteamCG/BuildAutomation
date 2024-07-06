@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lamb",
+    "texture": "837aba0c-5010-4cea-9273-49451eac7542",
+    "atlas": "",
+    "rect": [
+      11,
+      55,
+      451,
+      413
+    ],
+    "offset": [
+      -13.5,
+      -11.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Titlepetanimal",
+    "texture": "ee904002-c56b-4a88-9507-6004b534a5e3",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      850,
+      270
+    ],
+    "offset": [
+      5.5,
+      -3.5
+    ],
+    "originalSize": [
+      891,
+      315
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
