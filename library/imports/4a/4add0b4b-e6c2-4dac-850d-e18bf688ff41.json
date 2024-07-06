@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bud",
+    "texture": "b6b6934c-8017-4188-bf74-a1050c5cc935",
+    "atlas": "",
+    "rect": [
+      128,
+      35,
+      333,
+      430
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      590,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
