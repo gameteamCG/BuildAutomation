@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tidy",
+    "texture": "82e08ded-3c73-4572-802d-36ff62f66d4a",
+    "atlas": "",
+    "rect": [
+      204,
+      215,
+      110,
+      83
+    ],
+    "offset": [
+      0,
+      -6.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

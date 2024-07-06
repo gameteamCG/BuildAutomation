@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "messy",
+    "texture": "d8c3d2ed-23dd-407a-813a-5bf1e130b165",
+    "atlas": "",
+    "rect": [
+      174,
+      242,
+      166,
+      56
+    ],
+    "offset": [
+      -2,
+      -20
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
