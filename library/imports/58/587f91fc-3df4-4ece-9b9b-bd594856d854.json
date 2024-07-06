@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Drum",
+    "texture": "bddf5779-3a4c-4661-8066-448cc80a22cb",
+    "atlas": "",
+    "rect": [
+      15,
+      16,
+      466,
+      482
+    ],
+    "offset": [
+      -2,
+      -7
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
