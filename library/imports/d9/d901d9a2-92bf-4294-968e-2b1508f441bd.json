@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q1neem",
+    "texture": "53a826af-5ac0-463a-8b98-78264ee40c53",
+    "atlas": "",
+    "rect": [
+      110,
+      215,
+      294,
+      56
+    ],
+    "offset": [
+      -2,
+      7
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

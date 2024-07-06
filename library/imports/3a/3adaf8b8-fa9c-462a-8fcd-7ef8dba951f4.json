@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3flower",
+    "texture": "ef18787b-e8db-4fa1-887f-0fcc80534657",
+    "atlas": "",
+    "rect": [
+      169,
+      215,
+      181,
+      56
+    ],
+    "offset": [
+      0.5,
+      7
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
