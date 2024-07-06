@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stinkyfeet",
+    "texture": "2ba74246-8b55-4da6-963b-72fafd6874a1",
+    "atlas": "",
+    "rect": [
+      125,
+      12,
+      251,
+      477
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

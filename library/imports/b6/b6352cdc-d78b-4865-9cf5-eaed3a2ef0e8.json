@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "potato",
+    "texture": "717cb733-2788-4ebb-a278-8b633a6b91de",
+    "atlas": "",
+    "rect": [
+      34,
+      80,
+      434,
+      340
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

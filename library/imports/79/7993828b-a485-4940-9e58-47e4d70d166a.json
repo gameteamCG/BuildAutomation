@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Playdough",
+    "texture": "ed82e423-2cd1-4618-8bab-385b9a986264",
+    "atlas": "",
+    "rect": [
+      28,
+      120,
+      445,
+      260
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

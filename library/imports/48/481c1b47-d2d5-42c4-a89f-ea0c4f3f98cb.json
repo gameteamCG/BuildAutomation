@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hearing2",
+    "texture": "1df7dd08-42c5-4fb0-b4c5-dbd924dd4fd8",
+    "atlas": "",
+    "rect": [
+      100,
+      17,
+      297,
+      450
+    ],
+    "offset": [
+      -1.5,
+      8
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
