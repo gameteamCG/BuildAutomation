@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Hours_b",
+    "texture": "a915f99d-27b0-4efb-9847-ab26c867b578",
+    "atlas": "",
+    "rect": [
+      26,
+      79,
+      450,
+      361
+    ],
+    "offset": [
+      0,
+      -8.5
+    ],
+    "originalSize": [
+      502,
+      502
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
