@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "muflar",
+    "texture": "714cf8b8-276a-4b5b-b80a-f1325ed551cf",
+    "atlas": "",
+    "rect": [
+      143,
+      83,
+      260,
+      337
+    ],
+    "offset": [
+      23,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
