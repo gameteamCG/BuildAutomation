@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fb",
+    "texture": "a68c95f5-d90a-4dae-bf78-9b2af600ab73",
+    "atlas": "",
+    "rect": [
+      195,
+      178,
+      115,
+      120
+    ],
+    "offset": [
+      2,
+      12.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

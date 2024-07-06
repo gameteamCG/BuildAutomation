@@ -1,0 +1,94 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "ab family words jr kg super cubs feedback",
+      "totalLevel": "5",
+      "TitleImageName": "abfamilywords.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "BBgmwhatsnext.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "'ab' words",
+        "questionImageName": "Asset1.png",
+        "questionAudioName": "Question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "ab.png",
+          "ac.png"
+        ],
+        "correctAudioName": "CAB.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "'ab' words",
+        "questionImageName": "Asset2.png",
+        "questionAudioName": "Question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "ck.png",
+          "ab.png"
+        ],
+        "correctAudioName": "crab.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "'ab' words",
+        "questionImageName": "Asset3.png",
+        "questionAudioName": "Question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "ab.png",
+          "fb.png"
+        ],
+        "correctAudioName": "DAB.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "'ab' words",
+        "questionImageName": "Asset5.png",
+        "questionAudioName": "Question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "ab.png",
+          "lb.png"
+        ],
+        "correctAudioName": "lab.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "'ab' words",
+        "questionImageName": "Asset6.png",
+        "questionAudioName": "Question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "ip.png",
+          "ab.png"
+        ],
+        "correctAudioName": "TAB.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
