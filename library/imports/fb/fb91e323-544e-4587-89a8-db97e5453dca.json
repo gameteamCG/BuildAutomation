@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jerry",
+    "texture": "c614886a-acdd-4602-aff9-19c9ca067b72",
+    "atlas": "",
+    "rect": [
+      85,
+      20,
+      330,
+      461
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

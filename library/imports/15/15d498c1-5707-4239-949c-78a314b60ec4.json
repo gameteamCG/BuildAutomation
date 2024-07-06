@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "peppa",
+    "texture": "0e60af1d-bc5d-4888-a34b-6bcdec1a7474",
+    "atlas": "",
+    "rect": [
+      36,
+      20,
+      429,
+      461
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

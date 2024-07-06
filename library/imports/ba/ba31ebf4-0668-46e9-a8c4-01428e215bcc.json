@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tom",
+    "texture": "5ec03785-fbc8-42cd-815d-b3caa06d715c",
+    "atlas": "",
+    "rect": [
+      138,
+      13,
+      225,
+      474
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

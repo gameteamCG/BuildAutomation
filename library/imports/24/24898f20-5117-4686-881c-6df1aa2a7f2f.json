@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "micky",
+    "texture": "8d91ab89-96a6-4e7d-b3ba-16d15ac6b471",
+    "atlas": "",
+    "rect": [
+      16,
+      39,
+      470,
+      423
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
