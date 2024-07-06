@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "swimming_pool",
+    "texture": "9115575c-5ef7-4c56-94e2-34037ce6f9b2",
+    "atlas": "",
+    "rect": [
+      56,
+      55,
+      388,
+      388
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
