@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cricket ground",
+    "texture": "7238474b-9cc0-4719-829e-ef4ce8994a83",
+    "atlas": "",
+    "rect": [
+      20,
+      140,
+      413,
+      221
+    ],
+    "offset": [
+      -24,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "211a29a9-82c9-489d-a2c5-3860f063d46d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "golfground": {
+      "ver": "1.0.6",
+      "uuid": "5f15fc45-b443-4bc8-a698-3ee630b3c7e6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "211a29a9-82c9-489d-a2c5-3860f063d46d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -40,
+      "offsetY": 0,
+      "trimX": 21,
+      "trimY": 73,
+      "width": 379,
+      "height": 355,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

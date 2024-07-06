@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c65de4bd-23f7-49f8-a77c-a25779783d6c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Baseball": {
+      "ver": "1.0.6",
+      "uuid": "cb62ffd0-852d-4add-970c-ae3c43d812b6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c65de4bd-23f7-49f8-a77c-a25779783d6c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 26,
+      "offsetY": -1,
+      "trimX": 107,
+      "trimY": 77,
+      "width": 339,
+      "height": 349,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

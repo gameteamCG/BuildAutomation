@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "golfball",
+    "texture": "1accb7d7-b6c0-4476-a1ca-414f2eb07692",
+    "atlas": "",
+    "rect": [
+      110,
+      80,
+      344,
+      341
+    ],
+    "offset": [
+      31.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

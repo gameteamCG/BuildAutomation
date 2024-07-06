@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1accb7d7-b6c0-4476-a1ca-414f2eb07692",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "golfball": {
+      "ver": "1.0.6",
+      "uuid": "58da4221-4b97-43b6-87a2-242cc868d72e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1accb7d7-b6c0-4476-a1ca-414f2eb07692",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 31.5,
+      "offsetY": 0,
+      "trimX": 110,
+      "trimY": 80,
+      "width": 344,
+      "height": 341,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

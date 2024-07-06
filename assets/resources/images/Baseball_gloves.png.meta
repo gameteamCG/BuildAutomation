@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5795997b-3e2e-412e-ad36-53d72043e2b1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Baseball_gloves": {
+      "ver": "1.0.6",
+      "uuid": "cf55df3a-49fc-46d5-929a-3eb9d377b91f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5795997b-3e2e-412e-ad36-53d72043e2b1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -37,
+      "offsetY": 0,
+      "trimX": 25,
+      "trimY": 77,
+      "width": 377,
+      "height": 347,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

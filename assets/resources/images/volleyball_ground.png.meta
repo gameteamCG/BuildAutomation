@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "13f92d7f-c27b-4e13-8871-765f826b5ec6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "volleyball_ground": {
+      "ver": "1.0.6",
+      "uuid": "3b74ef0e-6a23-44b2-a943-2fa9742c53f7",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "13f92d7f-c27b-4e13-8871-765f826b5ec6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -15.5,
+      "offsetY": 0,
+      "trimX": 10,
+      "trimY": 130,
+      "width": 450,
+      "height": 241,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

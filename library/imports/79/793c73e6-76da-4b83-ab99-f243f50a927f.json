@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rugby",
+    "texture": "a0f591a4-2306-41bb-bf46-8c51979f3f91",
+    "atlas": "",
+    "rect": [
+      101,
+      95,
+      362,
+      311
+    ],
+    "offset": [
+      31.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "volleyball_ground",
+    "texture": "13f92d7f-c27b-4e13-8871-765f826b5ec6",
+    "atlas": "",
+    "rect": [
+      10,
+      130,
+      450,
+      241
+    ],
+    "offset": [
+      -15.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
