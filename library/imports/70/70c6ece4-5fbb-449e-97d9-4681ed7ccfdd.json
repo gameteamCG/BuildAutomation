@@ -1,0 +1,114 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": " \"am\" family words jr kg super cubs feedback",
+      "totalLevel": "5",
+      "TitleImageName": "amfamilywords.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "bg1.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "am family words",
+        "questionImageName": "jam1.png",
+        "questionAudioName": "dragdrop_the_correct_word_for_the_picture..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "blankframe1.png",
+          "blankframe2.png",
+          "blankframe3.png",
+          "blankframe4.png"
+        ],
+        "correctAudios": [
+          "jam.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "am family words",
+        "questionImageName": "ram1.png",
+        "questionAudioName": "dragdrop_the_correct_word_for_the_picture..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "blankframe3.png",
+          "blankframe1.png",
+          "blankframe2.png",
+          "blankframe5.png"
+        ],
+        "correctAudios": [
+          "ram.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "am family words",
+        "questionImageName": "dam1.png",
+        "questionAudioName": "dragdrop_the_correct_word_for_the_picture..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "blankframe4.png",
+          "blankframe5.png",
+          "blankframe1.png",
+          "blankframe3.png"
+        ],
+        "correctAudios": [
+          "Dam.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "am family words",
+        "questionImageName": "ham1.png",
+        "questionAudioName": "dragdrop_the_correct_word_for_the_picture..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "blankframe5.png",
+          "blankframe4.png",
+          "blankframe2.png",
+          "blankframe1.png"
+        ],
+        "correctAudios": [
+          "ham.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "am family words",
+        "questionImageName": "yam1.png",
+        "questionAudioName": "dragdrop_the_correct_word_for_the_picture..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "blankframe5.png",
+          "blankframe3.png",
+          "blankframe4.png",
+          "blankframe1.png"
+        ],
+        "correctAudios": [
+          "yam.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
