@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_without_seatbelt",
+    "texture": "f52f9c7c-d276-4fdc-bbf4-e0fc7f95b19d",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      498,
+      498
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

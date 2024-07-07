@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "box",
+    "texture": "8e368625-8e12-4fd0-80f7-80ce1e0e195f",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      498,
+      498
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
