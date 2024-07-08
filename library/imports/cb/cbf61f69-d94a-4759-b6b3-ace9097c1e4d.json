@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lipsvv",
+    "texture": "650144f8-859b-4fd5-a773-9b180f543d12",
+    "atlas": "",
+    "rect": [
+      8,
+      56,
+      235,
+      138
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
