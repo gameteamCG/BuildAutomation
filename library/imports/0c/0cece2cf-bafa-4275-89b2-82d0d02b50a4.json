@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "soundofshorti",
+    "texture": "42f952e1-3729-4b9b-80bf-140c3b1b1e67",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      533,
+      230
+    ],
+    "offset": [
+      0,
+      6.5
+    ],
+    "originalSize": [
+      533,
+      247
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
