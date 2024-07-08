@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0003_hop",
+    "texture": "c9027303-0671-48b9-93f4-a495c48a624e",
+    "atlas": "",
+    "rect": [
+      80,
+      91,
+      97,
+      81
+    ],
+    "offset": [
+      3.5,
+      -6.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
