@@ -1,0 +1,70 @@
+{
+  "additionalData": {
+    "GameID": "Sound of short 'i'_LKG Course Book 2_2",
+    "totalLevel": "3",
+    "TitleImageName": "soundofshorti.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "HappyKidsSnappyMusicalInterlude.mp3",
+    "mainBgName": "BG_19.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "bib",
+      "questionImageName": "bib.png",
+      "questionAudioName": "swipe_to_spell_the_word_for_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "optionOffset": null,
+      "options": [
+        "b.png",
+        "b.png",
+        "i.png"
+      ],
+      "correctAnswer": "132",
+      "correctAudioName": "GREATWORK.mp3",
+      "needReiteration": false,
+      "reiterationImageName": ""
+    },
+    {
+      "questionText": "rib",
+      "questionImageName": "rib.png",
+      "questionAudioName": "swipe_to_spell_the_word_for_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "optionOffset": null,
+      "options": [
+        "b.png",
+        "i.png",
+        "r.png"
+      ],
+      "correctAnswer": "321",
+      "correctAudioName": "FANTASTIC.mp3",
+      "needReiteration": false,
+      "reiterationImageName": ""
+    },
+    {
+      "questionText": "nib",
+      "questionImageName": "nib.png",
+      "questionAudioName": "swipe_to_spell_the_word_for_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "optionOffset": null,
+      "options": [
+        "b.png",
+        "n.png",
+        "i.png"
+      ],
+      "correctAnswer": "231",
+      "correctAudioName": "BRILLIANT.mp3",
+      "needReiteration": false,
+      "reiterationImageName": ""
+    }
+  ]
+}
