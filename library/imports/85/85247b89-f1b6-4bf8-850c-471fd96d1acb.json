@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0008_policeman",
+    "texture": "95848fde-fa43-4fa4-946b-9c5d1342b1fd",
+    "atlas": "",
+    "rect": [
+      62,
+      0,
+      126,
+      250
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
