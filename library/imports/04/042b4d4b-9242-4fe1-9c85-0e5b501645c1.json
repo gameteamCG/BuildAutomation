@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Speed_limit2",
+    "texture": "6234e701-58be-4be4-a80b-d4c143cf2727",
+    "atlas": "",
+    "rect": [
+      250,
+      0,
+      211,
+      498
+    ],
+    "offset": [
+      105,
+      1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

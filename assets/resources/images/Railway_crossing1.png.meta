@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "2b45f8fa-afc2-429f-838d-4a0d995f18d9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Railway_crossing1": {
+      "ver": "1.0.6",
+      "uuid": "3ee45842-e1c0-4d8c-b119-8b6901137ea2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2b45f8fa-afc2-429f-838d-4a0d995f18d9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -96,
+      "offsetY": -1,
+      "trimX": 58,
+      "trimY": 2,
+      "width": 193,
+      "height": 499,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

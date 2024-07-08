@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "parking1",
+    "texture": "e132e1ab-3a8d-4f2c-994e-88a20a3a6a61",
+    "atlas": "",
+    "rect": [
+      38,
+      13,
+      212,
+      480
+    ],
+    "offset": [
+      -106.5,
+      -2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

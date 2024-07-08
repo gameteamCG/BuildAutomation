@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "School_ahead1",
+    "texture": "df08a8db-d7fa-431a-9f3c-c1068f7b51a4",
+    "atlas": "",
+    "rect": [
+      58,
+      2,
+      193,
+      499
+    ],
+    "offset": [
+      -96,
+      -1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

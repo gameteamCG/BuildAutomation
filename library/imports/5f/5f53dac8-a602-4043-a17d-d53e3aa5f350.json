@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Traffic signs Sr Kg",
+      "totalLevel": "6",
+      "TitleImageName": "Traffic signs.png",
+      "introBgName": "titlebg19.png",
+      "bgmMusicName": "Happy_Kids_Snappy.mp3",
+      "mainBgName": "BG3.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "traffic sign",
+        "questionAudioName": "Match_the_other_half_of_the_traffic_sign.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "card2.png",
+        "frontCardImageName": "card1.png",
+        "isOptionText": false,
+        "options": [
+          "stop1.png",
+          "Zebracrossing1.png"
+        ],
+        "reiterationAudios": [
+          "stop_sign.mp3",
+          "zeebra_crossing_sign.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "stop2.png",
+          "Zebracrossing2.png"
+        ]
+      },
+      {
+        "questionText": "traffic sign",
+        "questionAudioName": "Match_the_other_half_of_the_traffic_sign.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "card2.png",
+        "frontCardImageName": "card1.png",
+        "isOptionText": false,
+        "options": [
+          "Traffic_Signal_ahead_1.png",
+          "parking1.png"
+        ],
+        "reiterationAudios": [
+          "traffic_signal_ahead.mp3",
+          "parking_sign.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Traffic_Signal_ahead2.png",
+          "parking2.png"
+        ]
+      },
+      {
+        "questionText": "traffic sign",
+        "questionAudioName": "Match_the_other_half_of_the_traffic_sign.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "card2.png",
+        "frontCardImageName": "card1.png",
+        "isOptionText": false,
+        "options": [
+          "School_ahead1.png",
+          "Speed_limit1.png"
+        ],
+        "reiterationAudios": [
+          "school_ahead_sign.mp3",
+          "speed_limit_sign.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "School_ahead2.png",
+          "Speed_limit2.png"
+        ]
+      },
+      {
+        "questionText": "traffic sign",
+        "questionAudioName": "Match_the_other_half_of_the_traffic_sign.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "card2.png",
+        "frontCardImageName": "card1.png",
+        "isOptionText": false,
+        "options": [
+          "No_parking1.png",
+          "Turn_right1.png"
+        ],
+        "reiterationAudios": [
+          "no_parking_sign.mp3",
+          "turn_right_ahead_sign.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "No_parking2.png",
+          "Turn_right2.png"
+        ]
+      },
+      {
+        "questionText": "traffic sign",
+        "questionAudioName": "Match_the_other_half_of_the_traffic_sign.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "card2.png",
+        "frontCardImageName": "card1.png",
+        "isOptionText": false,
+        "options": [
+          "Railway_crossing1.png",
+          "Turn_left1.png"
+        ],
+        "reiterationAudios": [
+          "railway_crossing_sign.mp3",
+          "turn_left_ahead_sign.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Railway_crossing2.png",
+          "Turn_left2.png"
+        ]
+      },
+      {
+        "questionText": "traffic sign",
+        "questionAudioName": "Match_the_other_half_of_the_traffic_sign.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "card2.png",
+        "frontCardImageName": "card1.png",
+        "isOptionText": false,
+        "options": [
+          "work1.png",
+          "U_turn1.png"
+        ],
+        "reiterationAudios": [
+          "men_at_work_sign.mp3",
+          "u_turn_ahead_sign.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "work2.png",
+          "U_turn2.png"
+        ]
+      }
+    ]
+  }
+}

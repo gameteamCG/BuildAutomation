@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Railway_crossing1",
+    "texture": "2b45f8fa-afc2-429f-838d-4a0d995f18d9",
+    "atlas": "",
+    "rect": [
+      58,
+      2,
+      193,
+      499
+    ],
+    "offset": [
+      -96,
+      -1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

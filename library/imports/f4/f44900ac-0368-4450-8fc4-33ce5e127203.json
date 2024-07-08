@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Zebracrossing1",
+    "texture": "829e2e33-9ef2-4a26-82f5-e9867820473a",
+    "atlas": "",
+    "rect": [
+      60,
+      0,
+      191,
+      498
+    ],
+    "offset": [
+      -95,
+      1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

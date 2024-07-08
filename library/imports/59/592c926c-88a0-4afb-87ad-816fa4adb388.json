@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "No_parking1",
+    "texture": "e18a0afb-d0d2-4b33-85a2-c906ff55578d",
+    "atlas": "",
+    "rect": [
+      38,
+      13,
+      212,
+      480
+    ],
+    "offset": [
+      -106,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

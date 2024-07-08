@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Traffic signs",
+    "texture": "4023375b-e092-4372-a45d-6d641c78950e",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      338,
+      253
+    ],
+    "offset": [
+      6,
+      -3.5
+    ],
+    "originalSize": [
+      380,
+      298
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

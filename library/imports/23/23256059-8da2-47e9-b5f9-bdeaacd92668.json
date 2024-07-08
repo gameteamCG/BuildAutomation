@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Traffic_Signal_ahead2",
+    "texture": "daa321eb-c631-442e-8139-594ca91a09b6",
+    "atlas": "",
+    "rect": [
+      250,
+      2,
+      188,
+      499
+    ],
+    "offset": [
+      93.5,
+      -1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
