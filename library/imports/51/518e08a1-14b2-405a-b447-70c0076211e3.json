@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sip",
+    "texture": "bf341e6f-bed9-4456-aefc-dd1e03a9b194",
+    "atlas": "",
+    "rect": [
+      95,
+      52,
+      310,
+      434
+    ],
+    "offset": [
+      0,
+      -19
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
