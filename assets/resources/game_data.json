@@ -1,0 +1,121 @@
+{
+  "AdditionalData": {
+    "GameID": "Types of houses",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/86683TheThreeLittlePigsLoveTheEarth_1720521150434.mp4",
+    "TitleImageName": "Typesofhouses1.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "bgm1.mp3",
+    "JockeyName": "Podar",
+    "TotalLevel": "6"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": " Building materials for 1st pig's house",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Whichbuildingmaterialsdidthefirstpigusetobuilahouse.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset12.png",
+        "Asset10.png"
+      ],
+      "ReiterationAudioName": "hay.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": " Building materials for 2nd pig's house?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Whichbuildingmaterialsdidtheecondpigusetobuildahouse.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset10.png",
+        "Asset11.png"
+      ],
+      "ReiterationAudioName": "Wood.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": "Building materials for 3rd pig's house?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Whichbuildingmaterialsdidthethirdpigusetobuildahouse.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset14.png",
+        "Asset13.png"
+      ],
+      "ReiterationAudioName": "bricks.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": "Strongest house",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Identifythehousethatwasthestrongestamongall.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset19.png",
+        "Asset21.png"
+      ],
+      "ReiterationAudioName": "housemadeofbricks.mp3",
+      "CorrectAudioName": "AWESOME YOU SAVED IT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": "Kuchha house",
+      "QuestionImageName": "",
+      "QuestionAudioName": "IdentifythepictureofaKacchahouse.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset10.png",
+        "Asset21.png"
+      ],
+      "ReiterationAudioName": "Kacchahouseismadeoforganicandmandematerialslikemudstrawsticksicesandetc.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": "Pakka house",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Selectthepictureofapakkahouse.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset19.png",
+        "Asset21.png"
+      ],
+      "ReiterationAudioName": "Pakkahouseismadeofbricksandcementandarestronger.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
