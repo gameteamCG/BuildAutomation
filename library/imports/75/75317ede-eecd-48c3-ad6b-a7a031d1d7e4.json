@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "well",
+    "texture": "7eb93e30-2871-48f0-91ad-b569396123a0",
+    "atlas": "",
+    "rect": [
+      14,
+      74,
+      479,
+      382
+    ],
+    "offset": [
+      3,
+      -14.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
