@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sortingseasonalitems",
+    "texture": "5540df8e-2e9d-41fe-945e-9ff8821b65b9",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      692,
+      480
+    ],
+    "offset": [
+      7.5,
+      -2
+    ],
+    "originalSize": [
+      729,
+      528
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
