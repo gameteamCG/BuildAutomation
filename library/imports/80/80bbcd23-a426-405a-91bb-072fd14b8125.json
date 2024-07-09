@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tube",
+    "texture": "806dd2b4-8744-4c34-855c-e9b87a1eee7e",
+    "atlas": "",
+    "rect": [
+      6,
+      5,
+      240,
+      240
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
