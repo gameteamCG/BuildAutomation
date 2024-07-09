@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spacestation",
+    "texture": "a4178f53-96ac-4825-a7a2-88b1ba23bb66",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      214,
+      206
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      214,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
