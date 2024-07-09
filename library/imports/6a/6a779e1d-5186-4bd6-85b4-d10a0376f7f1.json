@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flwer",
+    "texture": "ea9fce3c-3671-4d69-b9a0-0539cd03d54a",
+    "atlas": "",
+    "rect": [
+      4,
+      64,
+      243,
+      122
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
