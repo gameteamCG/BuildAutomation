@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Artdoodling",
+    "texture": "b2b50852-f2db-4985-9f5f-cacf3da12f9d",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      684,
+      383
+    ],
+    "offset": [
+      7.5,
+      -8
+    ],
+    "originalSize": [
+      721,
+      419
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
