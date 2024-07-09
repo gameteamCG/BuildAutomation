@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spacetravel",
+    "texture": "c092d017-a583-424c-abcc-78a62e8fee03",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      603,
+      387
+    ],
+    "offset": [
+      0,
+      10.5
+    ],
+    "originalSize": [
+      603,
+      408
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

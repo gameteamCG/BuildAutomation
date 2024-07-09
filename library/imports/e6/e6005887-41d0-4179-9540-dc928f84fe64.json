@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "solarpanel",
+    "texture": "0e3d4092-82d1-4d3d-82a3-2c16e4613e44",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      232,
+      186
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      232,
+      186
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

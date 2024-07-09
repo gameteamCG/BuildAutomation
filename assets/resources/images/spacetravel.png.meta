@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c092d017-a583-424c-abcc-78a62e8fee03",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 603,
+  "height": 408,
+  "platformSettings": {},
+  "subMetas": {
+    "spacetravel": {
+      "ver": "1.0.6",
+      "uuid": "a959e00e-4ad6-40df-9105-6a03a1f2ed2c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c092d017-a583-424c-abcc-78a62e8fee03",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 10.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 603,
+      "height": 387,
+      "rawWidth": 603,
+      "rawHeight": 408,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
