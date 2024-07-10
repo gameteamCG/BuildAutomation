@@ -1,0 +1,114 @@
+{
+  "additionalData": {
+    "GameID": "Types of plant_UKG Social science_page 89",
+    "totalLevel": "5",
+    "TitleImageName": "title.png",
+    "introBgName": "bgtitlemain.png",
+    "bgmMusicName": "BGM_1.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Singham",
+    "templateType": "TapToCollect"
+  },
+  "questionData": [
+    {
+      "questionText": "herb",
+      "questionImageName": "bucket_6.png",
+      "questionAudioName": "24238103_1_tap_on_the_herb.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "placeholder.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "mint.png",
+        "grass.png",
+        "peas.png",
+        "tree.png"
+      ],
+      "correctAudios": [
+        "24238103_2_mint.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "climber",
+      "questionImageName": "bucket_6.png",
+      "questionAudioName": "24238103_3_identify_the_climber.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "placeholder.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "banyan tree.png",
+        "coriander.png",
+        "grapes.png",
+        "rose_plant.png"
+      ],
+      "correctAudios": [
+        "24238103_4_grapes.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "shrub",
+      "questionImageName": "bucket_6.png",
+      "questionAudioName": "24238103_5_select_the_shrub.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "placeholder.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "pumpkin.png",
+        "hibiscus.png",
+        "peas.png",
+        "basil.png"
+      ],
+      "correctAudios": [
+        "24238103_6_hibiscus.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "tree",
+      "questionImageName": "bucket_6.png",
+      "questionAudioName": "24238103_7_identify_the_tree.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "placeholder.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "rose_plant.png",
+        "jasmin.png",
+        "grass.png",
+        "coconut tree.png"
+      ],
+      "correctAudios": [
+        "24238103_8_coconuttree.mp3"
+      ],
+      "correctAnswerNum": "4"
+    },
+    {
+      "questionText": "creeper",
+      "questionImageName": "bucket_6.png",
+      "questionAudioName": "24238103_9_select_the_creeper.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "placeholder.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "watermelon.png",
+        "mint.png",
+        "neem.png",
+        "rose_plant.png"
+      ],
+      "correctAudios": [
+        "24238103_10_watermelon.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
