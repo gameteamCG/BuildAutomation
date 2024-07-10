@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "11_spinning_top",
+    "texture": "dee3f7db-237e-4615-8cd3-2c0bc4507ac0",
+    "atlas": "",
+    "rect": [
+      80,
+      94,
+      331,
+      330
+    ],
+    "offset": [
+      -5,
+      -8.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

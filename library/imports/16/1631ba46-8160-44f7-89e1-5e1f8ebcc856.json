@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "8_party_hat",
+    "texture": "86491b75-3b54-49ef-b7ca-9f97916d49c4",
+    "atlas": "",
+    "rect": [
+      113,
+      52,
+      272,
+      404
+    ],
+    "offset": [
+      -1.5,
+      -3.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

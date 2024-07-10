@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_pyramid toy",
+    "texture": "2244e067-df74-49c3-82ea-9963047958b4",
+    "atlas": "",
+    "rect": [
+      81,
+      103,
+      340,
+      298
+    ],
+    "offset": [
+      0.5,
+      -1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
