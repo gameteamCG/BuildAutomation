@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Draw your favourite winter food",
+      "totalLevel": "1",
+      "TitleImageName": "title.png",
+      "introBgName": "PLAYGROUP.png",
+      "bgmMusicName": "bgm4.mp3",
+      "initialVOName": "",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "favourite winter food",
+        "questionImageName": "",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "MAGNIFICENT"
+      }
+    ]
+  }
+}
