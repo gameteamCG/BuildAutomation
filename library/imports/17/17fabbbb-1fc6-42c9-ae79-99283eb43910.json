@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "A_hotair",
+    "texture": "e8f601d3-5a6a-4eb5-9c88-dc175f92e5f8",
+    "atlas": "",
+    "rect": [
+      114,
+      10,
+      352,
+      590
+    ],
+    "offset": [
+      -10,
+      -5
+    ],
+    "originalSize": [
+      600,
+      600
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
