@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "animalshomes",
+    "texture": "575466ff-53cc-4b5b-ae9d-764bed609530",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      563,
+      329
+    ],
+    "offset": [
+      -2,
+      4
+    ],
+    "originalSize": [
+      567,
+      337
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
