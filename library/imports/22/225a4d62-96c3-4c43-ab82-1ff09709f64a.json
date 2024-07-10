@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "band",
+    "texture": "8b9a58f7-0518-43ec-95c1-e53228bc602d",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      503,
+      501
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      503,
+      506
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
