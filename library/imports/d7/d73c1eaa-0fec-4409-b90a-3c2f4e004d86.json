@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Transportation",
+      "totalLevel": "8",
+      "TitleImageName": "transportstion.png",
+      "introBgName": "bg1.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "bg1.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "car",
+        "questionAudioName": "match_the_transportation.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_box.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "car.png"
+        ],
+        "reiterations": [
+          "a car can fit a family of four .mp3"
+        ],
+        "commonRightOptionImageName": "right_box.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "4people.png",
+          "8people.png"
+        ]
+      },
+      {
+        "questionText": "hot air balloon",
+        "questionAudioName": "match_the_transportation.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_box.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "airballoon.png"
+        ],
+        "reiterations": [
+          "a hot air balloon can be used by 6 to 10 people.mp3"
+        ],
+        "commonRightOptionImageName": "right_box.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "8people.png",
+          "1people.png"
+        ]
+      },
+      {
+        "questionText": "motorbike",
+        "questionAudioName": "match_the_transportation.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_box.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "bike.png"
+        ],
+        "reiterations": [
+          "a motorbike can be used by 2 people.mp3"
+        ],
+        "commonRightOptionImageName": "right_box.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "2people.png",
+          "4people.png"
+        ]
+      },
+      {
+        "questionText": "metro",
+        "questionAudioName": "match the crowd to the correct mode of transport .mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_box.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard_2_copy_4.png"
+        ],
+        "reiterations": [
+          "a metro can be used by a lot of people or a big crowd.mp3"
+        ],
+        "commonRightOptionImageName": "right_box.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard_2_copy_9.png",
+          "2people.png"
+        ]
+      },
+      {
+        "questionText": "bus",
+        "questionAudioName": "match the crowd to the correct mode of transport .mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_box.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "bus.png"
+        ],
+        "reiterations": [
+          "bus.mp3"
+        ],
+        "commonRightOptionImageName": "right_box.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard_2_copy_6.png",
+          "1people.png"
+        ]
+      },
+      {
+        "questionText": "jetski",
+        "questionAudioName": "match_the_transportation.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_box.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "jetski.png"
+        ],
+        "reiterations": [
+          "a jet ski can be used by 2 people.mp3"
+        ],
+        "commonRightOptionImageName": "right_box.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "2people.png",
+          "8people.png"
+        ]
+      },
+      {
+        "questionText": "cycle",
+        "questionAudioName": "match_the_transportation.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_box.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "cycle.png"
+        ],
+        "reiterations": [
+          "bicycle.mp3"
+        ],
+        "commonRightOptionImageName": "",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "1people.png",
+          "4people.png"
+        ]
+      },
+      {
+        "questionText": "ship",
+        "questionAudioName": "match the crowd to the correct mode of transport .mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_box.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "ship.png"
+        ],
+        "reiterations": [
+          "ship.mp3"
+        ],
+        "commonRightOptionImageName": "right_box.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard_2_copy_9.png",
+          "1people.png"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "right_box",
+    "texture": "d4caf312-cfc9-4fc5-90c5-d56528198331",
+    "atlas": "",
+    "rect": [
+      7,
+      36,
+      491,
+      436
+    ],
+    "offset": [
+      2,
+      -3.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "airballoon",
+    "texture": "756d4f0f-c08b-45a3-9578-e69f91756583",
+    "atlas": "",
+    "rect": [
+      34,
+      67,
+      421,
+      368
+    ],
+    "offset": [
+      -6,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

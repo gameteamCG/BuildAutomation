@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "8people",
+    "texture": "42138334-75e0-41cb-aff9-c6e8ded9cc50",
+    "atlas": "",
+    "rect": [
+      63,
+      103,
+      370,
+      256
+    ],
+    "offset": [
+      -2.5,
+      19.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

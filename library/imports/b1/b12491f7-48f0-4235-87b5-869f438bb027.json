@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "transportstion",
+    "texture": "9e04f5a9-dbe4-46fa-911d-58f65d0b5ea0",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      864,
+      143
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      864,
+      145
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
