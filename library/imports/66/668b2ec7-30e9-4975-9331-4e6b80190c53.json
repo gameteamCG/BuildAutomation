@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cylinder",
+    "texture": "31e8e6c1-c6bc-49d3-9699-d2b398d848b6",
+    "atlas": "",
+    "rect": [
+      78,
+      48,
+      324,
+      429
+    ],
+    "offset": [
+      -10.5,
+      -12
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
