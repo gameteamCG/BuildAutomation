@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wawa",
+    "texture": "10f434cf-38d0-4118-bed4-675807ac9979",
+    "atlas": "",
+    "rect": [
+      94,
+      4,
+      287,
+      480
+    ],
+    "offset": [
+      -13,
+      6.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

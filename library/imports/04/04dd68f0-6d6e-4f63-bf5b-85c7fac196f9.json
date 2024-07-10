@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Ending_Blend_nd",
+    "texture": "184328bc-a728-49eb-b620-d6aff7b03993",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      898,
+      441
+    ],
+    "offset": [
+      0,
+      5.5
+    ],
+    "originalSize": [
+      898,
+      452
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
