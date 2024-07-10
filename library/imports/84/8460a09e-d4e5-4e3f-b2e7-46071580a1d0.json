@@ -1,0 +1,229 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Subtraction",
+      "totalLevel": "10",
+      "TitleImageName": "Asset 134.png",
+      "introBgName": "bg(49).png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "bg(49).png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "subtraction",
+        "questionAudioName": "match the equation with its correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard2copy3.png"
+        ],
+        "reiterations": [
+          "24691357_2_6-minus-2-equals-to-4.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard2copy4.png",
+          "Artboard2copy7.png"
+        ]
+      },
+      {
+        "questionText": "subtraction",
+        "questionAudioName": "match the equation with its correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard2copy6.png"
+        ],
+        "reiterations": [
+          "24691357_3_8-minus-3-equals-to-5.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard2copy7.png",
+          "Artboard_2_copy_2.png"
+        ]
+      },
+      {
+        "questionText": "subtraction",
+        "questionAudioName": "match the equation with its correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard2copy9.png"
+        ],
+        "reiterations": [
+          "24691357_4_3-minus-0-equals-to-3.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard2copy10.png",
+          "Artboard2copy11.png"
+        ]
+      },
+      {
+        "questionText": "subtraction",
+        "questionAudioName": "match the equation with its correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard2copy12.png"
+        ],
+        "reiterations": [
+          "24691357_5_9-minus-1-equals-to-8.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard2copy13.png",
+          "Artboard2copy14.png"
+        ]
+      },
+      {
+        "questionText": "subtraction",
+        "questionAudioName": "match the equation with its correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard2copy15.png"
+        ],
+        "reiterations": [
+          "24691357_6_8-minus-8-equals-to-0.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard2copy16.png",
+          "Artboard2copy17.png"
+        ]
+      },
+      {
+        "questionText": "subtraction",
+        "questionAudioName": "match the equation with its correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard2copy18.png"
+        ],
+        "reiterations": [
+          "24691357_7_5-minus-3-equals-to-2.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard2copy19.png",
+          "Artboard2copy20.png"
+        ]
+      },
+      {
+        "questionText": "subtraction",
+        "questionAudioName": "match the equation with its correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard2copy21.png"
+        ],
+        "reiterations": [
+          "24691357_8_7-minus-4-equals-to-3.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard2copy22.png",
+          "Artboard2copy23.png"
+        ]
+      },
+      {
+        "questionText": "subtraction",
+        "questionAudioName": "match the equation with its correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard2copy24.png"
+        ],
+        "reiterations": [
+          "24691357_9_4-minus-2-equals-to-2.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard2copy25.png",
+          "Artboard2copy26.png"
+        ]
+      },
+      {
+        "questionText": "subtraction",
+        "questionAudioName": "match the equation with its correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard2copy27.png"
+        ],
+        "reiterations": [
+          "24691357_10_7-minus-0-equals-to-7.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard 2 copy 28.png",
+          "Artboard2copy16.png"
+        ]
+      },
+      {
+        "questionText": "subtraction",
+        "questionAudioName": "match the equation with its correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard2.png"
+        ],
+        "reiterations": [
+          "24691357_1_9-minus-4-equals-to-5.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Artboard2copy.png",
+          "Artboard2copy29.png"
+        ]
+      }
+    ]
+  }
+}
