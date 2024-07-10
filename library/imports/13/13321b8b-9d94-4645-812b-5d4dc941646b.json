@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "4people",
+    "texture": "32d05e58-d0db-4bd5-b90b-f54289eb8910",
+    "atlas": "",
+    "rect": [
+      46,
+      115,
+      412,
+      253
+    ],
+    "offset": [
+      1.5,
+      9
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

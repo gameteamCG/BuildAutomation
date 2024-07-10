@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jetski",
+    "texture": "aad5a304-79ef-4766-8a26-4e74791234fd",
+    "atlas": "",
+    "rect": [
+      44,
+      54,
+      400,
+      394
+    ],
+    "offset": [
+      -6.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
