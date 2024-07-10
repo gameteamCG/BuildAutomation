@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "banyan tree",
+    "texture": "0f85f194-8682-4701-8783-6dcbb02fe089",
+    "atlas": "",
+    "rect": [
+      79,
+      91,
+      368,
+      320
+    ],
+    "offset": [
+      12.5,
+      -1
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

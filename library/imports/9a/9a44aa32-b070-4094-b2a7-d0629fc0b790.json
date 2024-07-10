@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hibiscus",
+    "texture": "29a9fd2f-1195-4403-a355-485fff0f3ab6",
+    "atlas": "",
+    "rect": [
+      94,
+      88,
+      313,
+      305
+    ],
+    "offset": [
+      0,
+      9.5
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

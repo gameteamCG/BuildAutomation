@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "coriander",
+    "texture": "ef3a303e-e796-4d67-ac32-56a49f316296",
+    "atlas": "",
+    "rect": [
+      106,
+      105,
+      290,
+      290
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
