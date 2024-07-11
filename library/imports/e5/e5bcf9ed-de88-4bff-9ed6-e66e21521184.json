@@ -1,0 +1,159 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number 5_PreNursery Numeracy Activity Book_16",
+      "totalLevel": "5",
+      "TitleImageName": "Asset_138.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGMBackward.mp3",
+      "mainBgName": "bg_Asset_4.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "slove the picture",
+        "questionAudioName": "solve_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "m1.png",
+          "m2.png",
+          "m3.png",
+          "m4.png"
+        ],
+        "correctAudioName": "2_count_and_tap_on_the_correct_number.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "Asset_2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "5",
+          "2"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "5_fish.mp3"
+      },
+      {
+        "questionText": "slove the picture",
+        "questionAudioName": "solve_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "s1.png",
+          "s2.png",
+          "s3.png",
+          "s4.png"
+        ],
+        "correctAudioName": "2_count_and_tap_on_the_correct_number.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "Asset_2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "4",
+          "5"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "5_shrimps.mp3"
+      },
+      {
+        "questionText": "slove the picture",
+        "questionAudioName": "solve_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "t1.png",
+          "t2.png",
+          "t3.png",
+          "t4.png"
+        ],
+        "correctAudioName": "2_count_and_tap_on_the_correct_number.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "Asset_2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "6",
+          "5"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "5_turtles.mp3"
+      },
+      {
+        "questionText": "slove the picture",
+        "questionAudioName": "solve_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "h1.png",
+          "h2.png",
+          "h3.png",
+          "h4.png"
+        ],
+        "correctAudioName": "2_count_and_tap_on_the_correct_number.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "Asset_2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "5",
+          "7"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "5_seahorses.mp3"
+      },
+      {
+        "questionText": "slove the picture",
+        "questionAudioName": "solve_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "sf1.png",
+          "sf2.png",
+          "sf3.png",
+          "sf4.png"
+        ],
+        "correctAudioName": "2_count_and_tap_on_the_correct_number.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "Asset_2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "5",
+          "3"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "5_starfish.mp3"
+      }
+    ]
+  }
+}
