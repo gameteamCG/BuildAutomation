@@ -1,0 +1,133 @@
+{
+  "additionalData": {
+    "GameID": "Animal Sounds",
+    "totalLevel": "7",
+    "TitleImageName": "Asset 132.png",
+    "introBgName": "bgtitlemain.png",
+    "bgmMusicName": "BGM_1.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Puzzle",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "Animal sound",
+      "questionAudioName": "tap on the animal that growls .mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Artboard2.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 2,
+      "options": [
+        "lion.png",
+        "tiger.png"
+      ],
+      "correctAudios": [
+        "23974600_7_lion.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Animal sound",
+      "questionAudioName": "Tap on the animal that chatters .mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Artboard2.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 2,
+      "options": [
+        "hen.png",
+        "monkey.png"
+      ],
+      "correctAudios": [
+        "23974600_5_monkey.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Animal sound",
+      "questionAudioName": "choose the animal that trumpets .mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Artboard2.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 2,
+      "options": [
+        "elephant.png",
+        "giraffe.png"
+      ],
+      "correctAudios": [
+        "23974600_11_elephant.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Animal sound",
+      "questionAudioName": "identify the animal that bleats.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Artboard2.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 2,
+      "options": [
+        "pig2.png",
+        "sheep.png"
+      ],
+      "correctAudios": [
+        "23974600_13_sheep.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Animal sound",
+      "questionAudioName": "find the animal that neighs.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Artboard2.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 2,
+      "options": [
+        "giraffe.png",
+        "horse.png"
+      ],
+      "correctAudios": [
+        "23974600_9_horse.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Animal sound",
+      "questionAudioName": "find the animal that meows .mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Artboard2.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 2,
+      "options": [
+        "fox.png",
+        "cat.png"
+      ],
+      "correctAudios": [
+        "23974600_15_cat.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Animal sound",
+      "questionAudioName": "identify the animal that barks.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Artboard2.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 2,
+      "options": [
+        "dog.png",
+        "lion.png"
+      ],
+      "correctAudios": [
+        "23974600_3_dog.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
