@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "7_redant",
+    "texture": "0ffedca4-c75f-492a-ab9f-f995e1c6485c",
+    "atlas": "",
+    "rect": [
+      26,
+      67,
+      198,
+      118
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

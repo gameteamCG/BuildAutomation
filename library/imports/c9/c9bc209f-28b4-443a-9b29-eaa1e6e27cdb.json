@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "5_beetle",
+    "texture": "6c928105-2b9b-4574-8468-2cfee4baf3d1",
+    "atlas": "",
+    "rect": [
+      43,
+      32,
+      165,
+      186
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
