@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vcfd",
+    "texture": "defb6575-1c18-43d0-9036-401c2c4f6854",
+    "atlas": "",
+    "rect": [
+      4,
+      142,
+      492,
+      220
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
