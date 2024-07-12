@@ -1,0 +1,103 @@
+{
+  "AdditionalData": {
+    "GameID": "Tall and short",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/63317Tallandshort_1720767013025.mp4",
+    "TitleImageName": "Tallandshort.png",
+    "IntroAudio1Name": "bgm3.mp3",
+    "IntroAudio2Name": "",
+    "JockeyName": "Podar",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "tall girl",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifythetallgirl.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset12.png",
+        "Asset11.png"
+      ],
+      "ReiterationAudioName": "tallgirl.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "tall boy",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifythboywhoi.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset14.png",
+        "Asset13.png"
+      ],
+      "ReiterationAudioName": "tallboy.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "short ladder",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifytheshortlad.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset16.png",
+        "Asset15.png"
+      ],
+      "ReiterationAudioName": "shortladder.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": "tall man",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifythetallman.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset18.png",
+        "Asset17.png"
+      ],
+      "ReiterationAudioName": "tallman.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999",
+      "IsQuestionText": true,
+      "QuestionText": "short child",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifythechildwho.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset19.png",
+        "Asset20.png"
+      ],
+      "ReiterationAudioName": "shortchild.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
