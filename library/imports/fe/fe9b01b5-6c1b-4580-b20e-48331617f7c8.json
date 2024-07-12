@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0000_outlinepumpkins",
+    "texture": "9611828c-de02-4ba5-91b1-8e62105119ae",
+    "atlas": "",
+    "rect": [
+      3,
+      45,
+      494,
+      418
+    ],
+    "offset": [
+      0,
+      -4
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
