@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "anal-fin",
+    "texture": "dd5d2785-d152-48d3-abdc-ee0584d4957e",
+    "atlas": "",
+    "rect": [
+      11,
+      12,
+      472,
+      420
+    ],
+    "offset": [
+      -3,
+      28
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
