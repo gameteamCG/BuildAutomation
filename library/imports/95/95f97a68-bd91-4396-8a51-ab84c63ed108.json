@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "partsofafish",
+    "texture": "cfd03ee6-9acd-4e5d-bb9c-63b37e300938",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      694,
+      129
+    ],
+    "offset": [
+      0,
+      4
+    ],
+    "originalSize": [
+      694,
+      141
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
