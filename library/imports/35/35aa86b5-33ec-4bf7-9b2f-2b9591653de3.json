@@ -1,0 +1,200 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Parts of fish_LKG Course Book 2_112",
+      "totalLevel": "10",
+      "TitleImageName": "partsofafish.png",
+      "introBgName": "tlc_bg",
+      "bgmMusicName": "BBGGMM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "fish",
+        "questionAudioName": "fish.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "fish.png",
+          "snail.png",
+          "crab.png"
+        ],
+        "correctAudios": [
+          ""
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "body of fish",
+        "questionAudioName": "body.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "anal-fin.png",
+          "body.png",
+          "body-t.png"
+        ],
+        "correctAudios": [
+          ""
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "tail of the fish",
+        "questionAudioName": "tail.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "tail-t.png",
+          "caudal-fin.png",
+          "head.png"
+        ],
+        "correctAudios": [
+          ""
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "mouth of the fish",
+        "questionAudioName": "mouth.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "scales.png",
+          "mouth-t.png",
+          "mouth.png"
+        ],
+        "correctAudios": [
+          ""
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "eye of the fish",
+        "questionAudioName": "eye.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "eye.png",
+          "pectoral-fin.png",
+          "ear.png"
+        ],
+        "correctAudios": [
+          ""
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "head of the fish",
+        "questionAudioName": "head.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "head-t.png",
+          "head.png",
+          "pectoral-fin.png"
+        ],
+        "correctAudios": [
+          ""
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "scales of the fish",
+        "questionAudioName": "scales.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "caudal-fin.png",
+          "body-t.png",
+          "scales.png"
+        ],
+        "correctAudios": [
+          ""
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "gills of the fish",
+        "questionAudioName": "gills.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "eyes.png",
+          "gills.png",
+          "head.png"
+        ],
+        "correctAudios": [
+          ""
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "dorsal fin of the fish",
+        "questionAudioName": "dorsal.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "dorsal-fin.png",
+          "leg.png",
+          "scales.png"
+        ],
+        "correctAudios": [
+          ""
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "pectoral fin of the fish",
+        "questionAudioName": "pectoral.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "mouth-t.png",
+          "pectoral-fin.png",
+          "gills.png"
+        ],
+        "correctAudios": [
+          ""
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

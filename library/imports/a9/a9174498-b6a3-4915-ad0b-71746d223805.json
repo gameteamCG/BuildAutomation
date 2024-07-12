@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gills",
+    "texture": "e1ae4b29-3900-4839-94f4-19e72d2032f1",
+    "atlas": "",
+    "rect": [
+      11,
+      11,
+      478,
+      478
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
