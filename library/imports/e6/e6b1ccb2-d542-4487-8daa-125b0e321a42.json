@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kitten_shadow",
+    "texture": "f820b3b1-4b0f-4bbe-85b2-876e091413a5",
+    "atlas": "",
+    "rect": [
+      95,
+      63,
+      311,
+      367
+    ],
+    "offset": [
+      0,
+      3.5
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
