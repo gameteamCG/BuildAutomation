@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "king_shadow",
+    "texture": "f19d3aa1-10ce-457f-b732-aa3ef913108e",
+    "atlas": "",
+    "rect": [
+      108,
+      69,
+      282,
+      356
+    ],
+    "offset": [
+      -1.5,
+      3
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

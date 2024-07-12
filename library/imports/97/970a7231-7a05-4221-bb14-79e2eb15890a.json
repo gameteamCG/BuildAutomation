@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kettle_shadow",
+    "texture": "f6fac841-6a0c-4766-a028-b0d4071c5d22",
+    "atlas": "",
+    "rect": [
+      79,
+      73,
+      343,
+      344
+    ],
+    "offset": [
+      0,
+      5
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
