@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "490c8e1d-1594-4a29-9e88-ef709ba43714",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 482,
+  "height": 249,
+  "platformSettings": {},
+  "subMetas": {
+    "allaboutplants": {
+      "ver": "1.0.6",
+      "uuid": "8e8015cd-11cd-413a-8a57-a3caa42760c9",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "490c8e1d-1594-4a29-9e88-ef709ba43714",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1,
+      "trimX": 0,
+      "trimY": 2,
+      "width": 482,
+      "height": 247,
+      "rawWidth": 482,
+      "rawHeight": 249,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "climbers",
+    "texture": "0209ad63-c386-4523-a87b-6640d0976f47",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      249,
+      250
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
