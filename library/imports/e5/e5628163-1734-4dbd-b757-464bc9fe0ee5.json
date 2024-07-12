@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Solar system_UKG Social Science_100",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/98596Spacetravel_1720767234088.mp4",
+      "TitleImageName": "Asset131.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "bgm1.mp3",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": true,
+        "QuestionText": "Solar system.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifyandtapontheimageofsolarsystem.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset4.png",
+          "Asset2.png",
+          "Asset5.png",
+          "Asset3.png"
+        ],
+        "ReiterationAudioName": "solarsystem.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "9999999",
+        "IsQuestionText": true,
+        "QuestionText": "How many planets?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Howmanyplanetsarethereinthesolarsystem.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "8",
+          "10",
+          "5",
+          "20"
+        ],
+        "ReiterationAudioName": "8.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": true,
+        "QuestionText": "The planets revolve around ___ for light.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Theplanetsrevolvearoundthedashforlight.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset15.png",
+          "Asset21.png",
+          "Asset9.png",
+          "Asset11.png"
+        ],
+        "ReiterationAudioName": "thesun.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": true,
+        "QuestionText": "Smallest planet ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identifythesmallestplanetofthesolarsystem.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset9.png",
+          "Asset12.png",
+          "Asset101.png",
+          "Asset14.png"
+        ],
+        "ReiterationAudioName": "mercury.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": true,
+        "QuestionText": " Largest planet ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whichisthelargestplanetinthesolarsystem.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset7.png",
+          "Asset101.png",
+          "Asset8.png",
+          "Asset13.png"
+        ],
+        "ReiterationAudioName": "jupiter.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999999",
+        "IsQuestionText": true,
+        "QuestionText": " Farthest plant",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whichisthefarthestplanetfromthesun.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset11.png",
+          "Asset14.png",
+          "Asset7.png",
+          "Asset13.png"
+        ],
+        "ReiterationAudioName": "neptune.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}
