@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "oval shape",
+      "totalLevel": "6",
+      "TitleImageName": "Asset482.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "Asset56.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "oval shape",
+        "questionImageName": "Asset75.png",
+        "questionAudioName": "identifyandtaponth.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset69.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset77.png",
+          "Asset83.png"
+        ],
+        "correctAudioName": "ovalshapedframe.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "oval shape",
+        "questionImageName": "Asset75.png",
+        "questionAudioName": "identifyandtaponth.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset69.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset72.png",
+          "Asset82.png"
+        ],
+        "correctAudioName": "ovalshapedmirror.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "oval shape",
+        "questionImageName": "Asset75.png",
+        "questionAudioName": "identifyandtaponth.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset69.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset80.png",
+          "Asset74.png"
+        ],
+        "correctAudioName": "ovalshapednestande.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "oval shape",
+        "questionImageName": "Asset75.png",
+        "questionAudioName": "identifyandtaponth.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset69.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset71.png",
+          "Asset81.png"
+        ],
+        "correctAudioName": "ovalshapedtable.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "oval shape",
+        "questionImageName": "Asset75.png",
+        "questionAudioName": "identifyandtaponth.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset69.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset76.png",
+          "Asset86.png"
+        ],
+        "correctAudioName": "ovalshapedfrizzbee.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "oval shape",
+        "questionImageName": "Asset75.png",
+        "questionAudioName": "identifyandtaponth.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset69.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset79.png",
+          "Asset73.png"
+        ],
+        "correctAudioName": "ovalshapedtray.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
