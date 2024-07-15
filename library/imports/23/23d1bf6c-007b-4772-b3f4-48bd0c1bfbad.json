@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bunglow",
+    "texture": "490571e0-2ed2-4755-918b-eb1504c7567f",
+    "atlas": "",
+    "rect": [
+      13,
+      40,
+      174,
+      120
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

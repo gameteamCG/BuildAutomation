@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "barm",
+    "texture": "a0bee73d-0163-4184-b213-bd9fa7ea8011",
+    "atlas": "",
+    "rect": [
+      16,
+      35,
+      172,
+      132
+    ],
+    "offset": [
+      1.5,
+      -0.5
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
