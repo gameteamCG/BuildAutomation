@@ -1,0 +1,153 @@
+{
+  "AdditionalData": {
+    "GameID": "Picture talk - g",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/84220GStory_1721047206004.mp4",
+    "TitleImageName": "Picturetalkg.png",
+    "IntroAudio1Name": "bgm1.mp3",
+    "IntroAudio2Name": "",
+    "JockeyName": "Podar",
+    "TotalLevel": "7"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "666666",
+      "IsQuestionText": true,
+      "QuestionText": "Identify the picture of giant Gulliver?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "IdentifythepictureofgiantGullliver.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "a.png",
+        "gulliver.png",
+        "b.png",
+        "c.png"
+      ],
+      "ReiterationAudioName": "gullliver.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "66666",
+      "IsQuestionText": true,
+      "QuestionText": "What was made of gold?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Whatwasmadeofgold.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "f.png",
+        "e.png",
+        "d.png",
+        "gate.png"
+      ],
+      "ReiterationAudioName": "gate.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "66666",
+      "IsQuestionText": true,
+      "QuestionText": "Whom did Gulliver take to the garden?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "WhomdidGulllivertaketothegarden.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "h.png",
+        "g.png",
+        "goat.png",
+        "i.png"
+      ],
+      "ReiterationAudioName": "goat.mp3",
+      "CorrectAudioName": "GOODEFFORT.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "66666",
+      "IsQuestionText": true,
+      "QuestionText": "What did goat like to eat?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Whatdidthegoatliketoeat.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "greengrass.png",
+        "j.png",
+        "k.png",
+        "l.png"
+      ],
+      "ReiterationAudioName": "greengrass.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "666666",
+      "IsQuestionText": true,
+      "QuestionText": "What grew in Gulliver's garden?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "WhatgrewinGullliversgarden.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "m.png",
+        "grapes.png",
+        "n.png",
+        "o.png"
+      ],
+      "ReiterationAudioName": "guavasgrapesandgooseberries.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "66666",
+      "IsQuestionText": true,
+      "QuestionText": "What did Gulliver pluck to eat?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "WhatdidGullliverplucktoeat.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "grapes2.png",
+        "p.png",
+        "q.png",
+        "r.png"
+      ],
+      "ReiterationAudioName": "grapes.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "666666",
+      "IsQuestionText": true,
+      "QuestionText": "tap on the picture that begins with letter sound g.",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Taponthepicturethatbeginswithlettersoundg.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "s.png",
+        "t.png",
+        "gloves.png",
+        "u.png"
+      ],
+      "ReiterationAudioName": "gloves.mp3",
+      "CorrectAudioName": "GORGEOUSWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    }
+  ]
+}
