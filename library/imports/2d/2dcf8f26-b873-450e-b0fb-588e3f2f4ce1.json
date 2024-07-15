@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fan",
+    "texture": "23f8aeb3-9c44-4b2d-bd2b-69be7a0b932b",
+    "atlas": "",
+    "rect": [
+      46,
+      14,
+      159,
+      226
+    ],
+    "offset": [
+      0.5,
+      -2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
