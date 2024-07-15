@@ -1,7 +1,7 @@
 {
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1721023195348,
-    "meta": 1721023228660,
+    "asset": 1721026293238,
+    "meta": 1721026293819,
     "relativePath": "resources"
   },
   "48531029-3cfd-4d23-abb9-057b4b7762b9": {
@@ -4693,5 +4693,140 @@
     "asset": 1721025269157,
     "meta": 1721025274051,
     "relativePath": "Games/Scripts/video.ts"
+  },
+  "44991c91-8088-4164-baaf-2eba9de30801": {
+    "asset": 1721026293305,
+    "meta": 1721026293820,
+    "relativePath": "resources/audios"
+  },
+  "1d0fb4ba-6328-424d-90b9-05693a5dfc69": {
+    "asset": 1721026293308,
+    "meta": 1721026293820,
+    "relativePath": "resources/images"
+  },
+  "25c0ddbf-84e1-4f28-97ab-4ff5fa41e822": {
+    "asset": 1721026283281,
+    "meta": 1721026293940,
+    "relativePath": "resources/game_data.json"
+  },
+  "7e2cb617-4f76-48db-926b-297a9d7e62ec": {
+    "asset": 1721026283279,
+    "meta": 1721026294502,
+    "relativePath": "resources/audios/a3.mp3"
+  },
+  "bf50423b-a626-4f1c-bd1b-d7a5081543fb": {
+    "asset": 1721026283279,
+    "meta": 1721026294503,
+    "relativePath": "resources/audios/a1.mp3"
+  },
+  "c571c1b1-91f5-4478-aaaa-5077bfa95830": {
+    "asset": 1721026283279,
+    "meta": 1721026294504,
+    "relativePath": "resources/audios/a2.mp3"
+  },
+  "28eea34f-c54f-487f-a047-0cbccc5489a7": {
+    "asset": 1721026283273,
+    "meta": 1721026294505,
+    "relativePath": "resources/audios/BRILLIANT.mp3"
+  },
+  "0dbe4d60-8d10-469d-a09d-323ea9583d0b": {
+    "asset": 1721026283278,
+    "meta": 1721026294506,
+    "relativePath": "resources/audios/Oopsietryoncemore.mp3"
+  },
+  "2dba7f7c-0095-4f02-b631-82900960be34": {
+    "asset": 1721026283275,
+    "meta": 1721026294507,
+    "relativePath": "resources/audios/EXCELLENTJOB.mp3"
+  },
+  "640b37f2-8fdc-48b8-bcd7-a4d8fcf9fea4": {
+    "asset": 1721026283277,
+    "meta": 1721026294508,
+    "relativePath": "resources/audios/FANTASTIC.mp3"
+  },
+  "d2c6df7c-9c05-4c9d-afbe-d2c55a2c2c28": {
+    "asset": 1721026283276,
+    "meta": 1721026294509,
+    "relativePath": "resources/audios/EXCEPTIONAL.mp3"
+  },
+  "76779d28-4c2a-4fd4-bd36-3c5b1c8d837c": {
+    "asset": 1721026283279,
+    "meta": 1721026294513,
+    "relativePath": "resources/audios/a4.mp3"
+  },
+  "ba16a940-6254-4ddd-9e72-6e6821420a2e": {
+    "asset": 1721026283280,
+    "meta": 1721026294514,
+    "relativePath": "resources/audios/l1.mp3"
+  },
+  "5191a31b-7fbc-421e-89c3-268e919ec2cf": {
+    "asset": 1721026283280,
+    "meta": 1721026294516,
+    "relativePath": "resources/audios/l2.mp3"
+  },
+  "fde344e7-7728-4803-a122-2aefc3034724": {
+    "asset": 1721026283280,
+    "meta": 1721026294518,
+    "relativePath": "resources/audios/l3.mp3"
+  },
+  "cce3069a-ff2c-40e6-ae9b-3c8f57b25366": {
+    "asset": 1721026283280,
+    "meta": 1721026294522,
+    "relativePath": "resources/audios/l4.mp3"
+  },
+  "6585333f-21b0-487d-8359-6d25caf884fd": {
+    "asset": 1721026283281,
+    "meta": 1721026294523,
+    "relativePath": "resources/audios/ohoh.mp3"
+  },
+  "8b23ccc3-9298-4e03-b9fb-9934dd7f4642": {
+    "asset": 1721026283281,
+    "meta": 1721026294524,
+    "relativePath": "resources/audios/nevermindtryagain.mp3"
+  },
+  "3ebf296c-9277-49f2-9e9a-91e96da9d695": {
+    "asset": 1721026283282,
+    "meta": 1721026294531,
+    "relativePath": "resources/images/Peas.png"
+  },
+  "1bf98e98-3b2c-44b0-9dc0-2f61a6e4debb": {
+    "asset": 1721026283283,
+    "meta": 1721026294538,
+    "relativePath": "resources/images/bluecolour.png"
+  },
+  "32ace9b6-7465-4ac4-90e9-5cc836085237": {
+    "asset": 1721026283283,
+    "meta": 1721026294540,
+    "relativePath": "resources/images/carrot.png"
+  },
+  "07dd1863-dede-4ca4-8ded-a600786a8007": {
+    "asset": 1721026283282,
+    "meta": 1721026294544,
+    "relativePath": "resources/images/bluecap.png"
+  },
+  "e886fdff-a023-4d91-a7fa-9c14de07cd2c": {
+    "asset": 1721026283285,
+    "meta": 1721026294555,
+    "relativePath": "resources/images/ladyfinger.png"
+  },
+  "ba471a9a-e2e5-4c66-b806-df86b88fb01d": {
+    "asset": 1721026283284,
+    "meta": 1721026294556,
+    "relativePath": "resources/images/colourorange.png"
+  },
+  "0043ef55-1d21-40ae-8ecc-f60f380102b4": {
+    "asset": 1721026283285,
+    "meta": 1721026294561,
+    "relativePath": "resources/images/orangecolour.png"
+  },
+  "10d060e5-05f2-4afe-8d1a-3ec6c03ec4c9": {
+    "asset": 1721026283285,
+    "meta": 1721026294573,
+    "relativePath": "resources/images/orangecap.png"
+  },
+  "d7c0ebf6-ce0f-4de0-9634-39f00b75cdcb": {
+    "asset": 1721026283285,
+    "meta": 1721026294574,
+    "relativePath": "resources/images/pumpkin.png"
   }
 }

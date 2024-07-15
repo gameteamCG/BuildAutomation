@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bluecap",
+    "texture": "07dd1863-dede-4ca4-8ded-a600786a8007",
+    "atlas": "",
+    "rect": [
+      25,
+      64,
+      200,
+      122
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
