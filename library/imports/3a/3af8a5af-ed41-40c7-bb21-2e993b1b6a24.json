@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Squareshape",
+    "texture": "bf3188c4-3e44-4a2e-82ee-571294edffc5",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      634,
+      394
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      634,
+      398
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

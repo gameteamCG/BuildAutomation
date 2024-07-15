@@ -1,0 +1,34 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Square_PreNursery Numeracy Activity Book_32",
+      "totalLevel": "1",
+      "TitleImageName": "Squareshape.png",
+      "introBgName": "bgtitle.png",
+      "bgmMusicName": "Ragtime_for_Kids_bgm.mp3",
+      "mainBgName": "bg1.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "square shape",
+        "questionImageName": "blue.png",
+        "questionAudioName": "choose_the_square_object.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard2.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "biscuit1.png",
+          "glasses.png"
+        ],
+        "correctAudioName": "square_biscuit.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
