@@ -278,6 +278,7 @@ export default class video extends cc.Component {
 
     start() {
         this.playVideo1();
+        console.log("starsEarned--1");
         for (let i = 2; i <= startGame.Instance.questions.length; i++) {
             let star = cc.instantiate(this.starsPanel.children[0]);
             star.parent = this.starsPanel;
@@ -544,6 +545,7 @@ export default class video extends cc.Component {
             this.node.getParent().getChildByName("curtain").getComponent(cc.Animation).play().wrapMode = cc.WrapMode.Reverse;
             this.scheduleOnce(() => {
                 this.node.getParent().getChildByName("gameEnd").active = true;
+                console.log("starsEarned--3");
                 console.log("showedScreen--Excellent");
                 console.log("gameEnded--true");
                 if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "crayon") {

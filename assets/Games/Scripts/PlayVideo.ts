@@ -34,8 +34,8 @@ export default class NewClass extends cc.Component {
 
 
     onLoad() {
-        console.log("loading--100");
-        console.log("loaderComplete--true");
+        // console.log("loading--100");
+        // console.log("loaderComplete--true");
         // this.playAnimation();
         this.scheduleOnce(() => {
             if (startGame.Instance.jockeyName == "tlc") {

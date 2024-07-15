@@ -281,6 +281,7 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.start = function () {
         this.playVideo1();
+        console.log("starsEarned--1");
         for (var i = 2; i <= StartGame_1.default.Instance.questions.length; i++) {
             var star = cc.instantiate(this.starsPanel.children[0]);
             star.parent = this.starsPanel;
@@ -538,6 +539,7 @@ var video = /** @class */ (function (_super) {
             this.node.getParent().getChildByName("curtain").getComponent(cc.Animation).play().wrapMode = cc.WrapMode.Reverse;
             this.scheduleOnce(function () {
                 _this.node.getParent().getChildByName("gameEnd").active = true;
+                console.log("starsEarned--3");
                 console.log("showedScreen--Excellent");
                 console.log("gameEnded--true");
                 if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "crayon") {
