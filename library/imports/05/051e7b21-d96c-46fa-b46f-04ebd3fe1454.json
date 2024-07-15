@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "6_salt",
+    "texture": "b90f4256-7806-495a-91d3-89cc2824d06d",
+    "atlas": "",
+    "rect": [
+      59,
+      12,
+      138,
+      230
+    ],
+    "offset": [
+      2.5,
+      -1.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

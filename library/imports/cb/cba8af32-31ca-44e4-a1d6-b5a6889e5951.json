@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "9_chalk",
+    "texture": "7780f15e-419a-48a8-8feb-493dd6078d15",
+    "atlas": "",
+    "rect": [
+      13,
+      12,
+      224,
+      215
+    ],
+    "offset": [
+      -0.5,
+      6
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

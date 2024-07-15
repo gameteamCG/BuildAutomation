@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "5_raft",
+    "texture": "6cf15c5a-a0b3-47cf-9df9-f5cd1f0be78b",
+    "atlas": "",
+    "rect": [
+      28,
+      110,
+      200,
+      68
+    ],
+    "offset": [
+      2.5,
+      -18.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
