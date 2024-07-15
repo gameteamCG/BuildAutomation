@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "muffler",
+    "texture": "41ef860d-546f-4b67-996b-9004de6376d7",
+    "atlas": "",
+    "rect": [
+      106,
+      24,
+      256,
+      429
+    ],
+    "offset": [
+      -16,
+      11.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

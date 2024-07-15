@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sunscreen",
+    "texture": "c41dfaa6-8e1b-49a3-93e1-5bad21bc9f3d",
+    "atlas": "",
+    "rect": [
+      171,
+      99,
+      154,
+      314
+    ],
+    "offset": [
+      -2,
+      -6
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

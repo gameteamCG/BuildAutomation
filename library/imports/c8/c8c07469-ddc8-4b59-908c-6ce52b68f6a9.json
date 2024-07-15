@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "woolensocks",
+    "texture": "d942fe3f-e59b-4862-8a0f-20d547c6d694",
+    "atlas": "",
+    "rect": [
+      92,
+      111,
+      286,
+      303
+    ],
+    "offset": [
+      -15,
+      -12.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
