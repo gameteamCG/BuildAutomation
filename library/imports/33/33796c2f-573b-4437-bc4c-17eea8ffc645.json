@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bluecolour",
+    "texture": "465b2f73-d5de-42c8-af47-c5fdd152b69e",
+    "atlas": "",
+    "rect": [
+      18,
+      31,
+      218,
+      191
+    ],
+    "offset": [
+      2.5,
+      -0.5
+    ],
+    "originalSize": [
+      249,
+      252
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
