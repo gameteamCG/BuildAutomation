@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Qtext_green",
+    "texture": "218989f5-10ba-437f-be8a-a1ea18a7c88c",
+    "atlas": "",
+    "rect": [
+      145,
+      226,
+      195,
+      60
+    ],
+    "offset": [
+      2.5,
+      -16
+    ],
+    "originalSize": [
+      480,
+      480
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
