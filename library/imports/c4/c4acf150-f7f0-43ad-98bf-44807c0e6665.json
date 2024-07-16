@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg1earth",
+    "texture": "8c1adb79-9681-45b2-a4a3-298de12a1733",
+    "atlas": "",
+    "rect": [
+      80,
+      91,
+      339,
+      340
+    ],
+    "offset": [
+      -0.5,
+      -10.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
