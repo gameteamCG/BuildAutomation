@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "0_0009_500X500_0001_hog",
+    "texture": "1b77e67c-1979-45cc-86ca-7ec931617ef6",
+    "atlas": "",
+    "rect": [
+      34,
+      125,
+      432,
+      258
+    ],
+    "offset": [
+      0,
+      -4
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
