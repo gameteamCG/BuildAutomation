@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "beginning sound a to z",
+    "texture": "6533bdc8-cd56-47e3-966c-5d441f9155ed",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      821,
+      355
+    ],
+    "offset": [
+      -17.5,
+      9.5
+    ],
+    "originalSize": [
+      856,
+      378
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
