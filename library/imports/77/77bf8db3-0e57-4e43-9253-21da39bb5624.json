@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Letter_sounds_UVWX",
+    "texture": "d264d28b-29c2-4366-98f3-de969206326b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1191,
+      413
+    ],
+    "offset": [
+      -10.5,
+      2
+    ],
+    "originalSize": [
+      1212,
+      417
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "5_unicycle",
+    "texture": "108d43ea-7565-4293-98c5-336bb7852707",
+    "atlas": "",
+    "rect": [
+      115,
+      33,
+      270,
+      433
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
