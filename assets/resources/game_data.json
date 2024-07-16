@@ -1,0 +1,138 @@
+{
+  "additionalData": {
+    "GameID": "Parts of the house ",
+    "totalLevel": "5",
+    "TitleImageName": "Parts of the house.png",
+    "introBgName": "bg12 (1).png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "BG_2.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "Solve the picture puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "image_part_001.png",
+        "image_part_002.png",
+        "image_part_003.png",
+        "image_part_004.png"
+      ],
+      "correctAudioName": "Garden.mp3",
+      "needReiteration": false,
+      "interactionType": "",
+      "questionText2": "",
+      "questionAudioName2": "",
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": null,
+      "options": [],
+      "correctAnswer": "",
+      "reiterationAudioName": ""
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "Solve the picture puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "image_part_001.png",
+        "image_part_002.png",
+        "image_part_003.png",
+        "image_part_004.png"
+      ],
+      "correctAudioName": "Stairs.mp3",
+      "needReiteration": false,
+      "interactionType": "",
+      "questionText2": "",
+      "questionAudioName2": "",
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": null,
+      "options": [],
+      "correctAnswer": "",
+      "reiterationAudioName": ""
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "Solve the picture puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "image_part_001.png",
+        "image_part_002.png",
+        "image_part_003.png",
+        "image_part_004.png"
+      ],
+      "correctAudioName": "Balcony.mp3",
+      "needReiteration": false,
+      "interactionType": "",
+      "questionText2": "",
+      "questionAudioName2": "",
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": null,
+      "options": [],
+      "correctAnswer": "",
+      "reiterationAudioName": ""
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "Solve the picture puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "image_part_001.png",
+        "image_part_002.png",
+        "image_part_003.png",
+        "image_part_004.png"
+      ],
+      "correctAudioName": "House Roof.mp3",
+      "needReiteration": false,
+      "interactionType": "",
+      "questionText2": "",
+      "questionAudioName2": "",
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": null,
+      "options": [],
+      "correctAnswer": "",
+      "reiterationAudioName": ""
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "Solve the picture puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "panel.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "image_part_001.png",
+        "image_part_002.png",
+        "image_part_003.png",
+        "image_part_004.png"
+      ],
+      "correctAudioName": "Door.mp3",
+      "needReiteration": false,
+      "interactionType": "",
+      "questionText2": "",
+      "questionAudioName2": "",
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": null,
+      "options": [],
+      "correctAnswer": "",
+      "reiterationAudioName": ""
+    }
+  ]
+}
