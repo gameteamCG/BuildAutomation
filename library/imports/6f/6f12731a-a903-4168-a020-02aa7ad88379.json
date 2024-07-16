@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rabbit",
+    "texture": "92c4d151-eea1-4ba7-8c81-7046a643845a",
+    "atlas": "",
+    "rect": [
+      32,
+      8,
+      286,
+      310
+    ],
+    "offset": [
+      0.5,
+      2
+    ],
+    "originalSize": [
+      349,
+      330
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
