@@ -1,0 +1,208 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Double Consonants_UKG Practice Book 2_22",
+      "totalLevel": "9",
+      "TitleImageName": "Asset_247.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "ColourBGM1.mp3",
+      "mainBgName": "Asset_22.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "swipe and spell the word for the picture",
+        "questionImageName": "",
+        "questionAudioName": "swipe_and_spell_the_word_for_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": null,
+        "options": [
+          "e.png",
+          "d.png",
+          "s.png",
+          "r.png",
+          "s.png"
+        ],
+        "correctAnswer": "24135",
+        "correctAudioName": "1_dress.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe and spell the word for the picture",
+        "questionImageName": "",
+        "questionAudioName": "swipe_and_spell_the_word_for_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": null,
+        "options": [
+          "l.png",
+          "e.png",
+          "s.png",
+          "m.png",
+          "l.png"
+        ],
+        "correctAnswer": "34215",
+        "correctAudioName": "2_smell.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe and spell the word for the picture",
+        "questionImageName": "",
+        "questionAudioName": "swipe_and_spell_the_word_for_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": null,
+        "options": [
+          "c.png",
+          "f.png",
+          "i.png",
+          "l.png",
+          "f.png"
+        ],
+        "correctAnswer": "14325",
+        "correctAudioName": "3_cliff.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe and spell the word for the picture",
+        "questionImageName": "",
+        "questionAudioName": "swipe_and_spell_the_word_for_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": null,
+        "options": [
+          "l.png",
+          "a.png",
+          "s.png",
+          "g.png",
+          "s.png"
+        ],
+        "correctAnswer": "41235",
+        "correctAudioName": "4_Glass.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe and spell the word for the picture",
+        "questionImageName": "",
+        "questionAudioName": "swipe_and_spell_the_word_for_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": null,
+        "options": [
+          "g.png",
+          "l.png",
+          "i.png",
+          "r.png",
+          "l.png"
+        ],
+        "correctAnswer": "14325",
+        "correctAudioName": "5_grill.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe and spell the word for the picture",
+        "questionImageName": "",
+        "questionAudioName": "swipe_and_spell_the_word_for_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": null,
+        "options": [
+          "e.png",
+          "p.png",
+          "r.png",
+          "s.png",
+          "s.png"
+        ],
+        "correctAnswer": "23145",
+        "correctAudioName": "6_Press.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe and spell the word for the picture",
+        "questionImageName": "",
+        "questionAudioName": "swipe_and_spell_the_word_for_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": null,
+        "options": [
+          "l.png",
+          "s.png",
+          "e.png",
+          "h.png",
+          "l.png"
+        ],
+        "correctAnswer": "24315",
+        "correctAudioName": "7_Shell.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe and spell the word for the picture",
+        "questionImageName": "",
+        "questionAudioName": "swipe_and_spell_the_word_for_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": null,
+        "options": [
+          "s.png",
+          "i.png",
+          "f.png",
+          "n.png",
+          "f.png"
+        ],
+        "correctAnswer": "14235",
+        "correctAudioName": "8_sniff.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe and spell the word for the picture+",
+        "questionImageName": "",
+        "questionAudioName": "swipe_and_spell_the_word_for_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": null,
+        "options": [
+          "t.png",
+          "f.png",
+          "s.png",
+          "a.png",
+          "f.png"
+        ],
+        "correctAnswer": "31425",
+        "correctAudioName": "9_Staff.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      }
+    ]
+  }
+}
