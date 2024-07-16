@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "summer_dress2",
+    "texture": "12870ba8-e00b-4f9e-a5ba-5b6ad511b7af",
+    "atlas": "",
+    "rect": [
+      145,
+      95,
+      255,
+      310
+    ],
+    "offset": [
+      22.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

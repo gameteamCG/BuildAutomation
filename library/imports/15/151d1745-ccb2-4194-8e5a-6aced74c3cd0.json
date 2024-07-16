@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Qscene2",
+    "texture": "2c137b05-53c0-4850-a3e8-dc09e0c6c2c0",
+    "atlas": "",
+    "rect": [
+      38,
+      63,
+      371,
+      371
+    ],
+    "offset": [
+      -26.5,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
