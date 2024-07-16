@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0018_glide",
+    "texture": "148acb82-d5d3-4949-9e2e-84961dcf4cd8",
+    "atlas": "",
+    "rect": [
+      29,
+      159,
+      442,
+      182
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

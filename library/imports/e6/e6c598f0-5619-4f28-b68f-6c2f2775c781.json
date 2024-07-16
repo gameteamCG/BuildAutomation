@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0017_globe",
+    "texture": "8dd4f89b-d521-4936-8843-652c5875676e",
+    "atlas": "",
+    "rect": [
+      80,
+      30,
+      340,
+      441
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

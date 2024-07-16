@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "0_0001_500x500_0001_tongue",
+    "texture": "b5049e22-4de9-4be9-a31a-14f7396bdf4c",
+    "atlas": "",
+    "rect": [
+      92,
+      23,
+      315,
+      454
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
