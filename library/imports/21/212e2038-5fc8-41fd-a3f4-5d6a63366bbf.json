@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "uipuzxle",
+    "texture": "892d9b8a-2d65-4d9b-9734-2cf0d6c80d8f",
+    "atlas": "",
+    "rect": [
+      6,
+      6,
+      488,
+      488
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

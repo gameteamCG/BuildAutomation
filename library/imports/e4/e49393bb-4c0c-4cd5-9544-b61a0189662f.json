@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Protection from weather",
+    "texture": "50b6da4f-9a2f-4b31-abbf-3bc298a1d242",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      500,
+      496
+    ],
+    "offset": [
+      0,
+      2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
