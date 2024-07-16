@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number 9_PreNursery Numeracy Activity Book_24",
+      "totalLevel": "3",
+      "TitleImageName": "Asset_147.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "initialVOName": "",
+      "mainBgName": "artbackground2.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "colour",
+        "questionImageName": "",
+        "questionAudioName": "colour_9_objects.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "9_balls.png",
+        "needMoreTools": true,
+        "correctAudioName": "1_colour_9_balls.mp3"
+      },
+      {
+        "questionText": "colour",
+        "questionImageName": "",
+        "questionAudioName": "colour_9_objects.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "9_hats.png",
+        "needMoreTools": true,
+        "correctAudioName": "3_colour_9_hats.mp3"
+      },
+      {
+        "questionText": "colour",
+        "questionImageName": "",
+        "questionAudioName": "colour_9_objects.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "9_kites.png",
+        "needMoreTools": true,
+        "correctAudioName": "2_colour_9_kites.mp3"
+      }
+    ]
+  }
+}
