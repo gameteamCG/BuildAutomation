@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greenvideo",
+    "texture": "b5663ee8-f9df-493f-b253-0d9f0f96a165",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      831,
+      122
+    ],
+    "offset": [
+      0,
+      6.5
+    ],
+    "originalSize": [
+      831,
+      141
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
