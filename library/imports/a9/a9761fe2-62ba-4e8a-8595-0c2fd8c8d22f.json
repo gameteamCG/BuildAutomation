@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "9_hats",
+    "texture": "026a6bf9-5c2c-43af-8d51-636391764d64",
+    "atlas": "",
+    "rect": [
+      4,
+      40,
+      493,
+      391
+    ],
+    "offset": [
+      0.5,
+      14.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
