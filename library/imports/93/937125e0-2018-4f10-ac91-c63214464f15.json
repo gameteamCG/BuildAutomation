@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pie",
+    "texture": "28a401e7-cd56-4272-ad40-821b9fbe3cd6",
+    "atlas": "",
+    "rect": [
+      26,
+      27,
+      348,
+      346
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

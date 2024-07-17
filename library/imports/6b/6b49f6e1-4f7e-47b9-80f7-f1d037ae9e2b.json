@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tai",
+    "texture": "484bb19e-a3f8-469e-bed1-996da2acf4fc",
+    "atlas": "",
+    "rect": [
+      120,
+      18,
+      255,
+      464
+    ],
+    "offset": [
+      -2.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

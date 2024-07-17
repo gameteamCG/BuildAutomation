@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rope",
+    "texture": "03d43ad1-4db2-465e-ad40-62b35fd7faa8",
+    "atlas": "",
+    "rect": [
+      5,
+      21,
+      488,
+      458
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

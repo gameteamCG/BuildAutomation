@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flute",
+    "texture": "1b5cc2e4-8985-4cef-9662-1f7dd03038ba",
+    "atlas": "",
+    "rect": [
+      63,
+      72,
+      374,
+      356
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
