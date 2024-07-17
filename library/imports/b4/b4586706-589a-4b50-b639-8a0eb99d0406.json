@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0001_jeans",
+    "texture": "af3ff175-f33b-4202-8f42-ec96fed44454",
+    "atlas": "",
+    "rect": [
+      54,
+      24,
+      124,
+      201
+    ],
+    "offset": [
+      -9,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
