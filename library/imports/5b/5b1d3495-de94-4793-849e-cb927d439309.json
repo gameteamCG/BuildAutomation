@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toe",
+    "texture": "c9907ab6-9835-42ed-8d6e-2ce4261f7f79",
+    "atlas": "",
+    "rect": [
+      106,
+      0,
+      212,
+      385
+    ],
+    "offset": [
+      -38.5,
+      58
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
