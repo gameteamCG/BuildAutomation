@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0000_peacock",
+    "texture": "6b8a138c-c679-4328-938f-aee070c417d2",
+    "atlas": "",
+    "rect": [
+      9,
+      50,
+      223,
+      176
+    ],
+    "offset": [
+      -5,
+      -13
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
