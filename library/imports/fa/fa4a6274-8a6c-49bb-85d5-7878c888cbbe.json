@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "450x450_0001_autumn-leaves",
+    "texture": "82824690-60dc-4edd-b6b1-8e68992b2ae1",
+    "atlas": "",
+    "rect": [
+      12,
+      2,
+      425,
+      447
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      450,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

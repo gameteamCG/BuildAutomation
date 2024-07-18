@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "orangevideotitle",
+    "texture": "f5e92284-c7eb-405c-9fa9-d52f469418e7",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      1243,
+      224
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      1243,
+      227
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

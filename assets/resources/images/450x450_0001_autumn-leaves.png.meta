@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "82824690-60dc-4edd-b6b1-8e68992b2ae1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 450,
+  "height": 450,
+  "platformSettings": {},
+  "subMetas": {
+    "450x450_0001_autumn-leaves": {
+      "ver": "1.0.6",
+      "uuid": "fa4a6274-8a6c-49bb-85d5-7878c888cbbe",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "82824690-60dc-4edd-b6b1-8e68992b2ae1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -0.5,
+      "trimX": 12,
+      "trimY": 2,
+      "width": 425,
+      "height": 447,
+      "rawWidth": 450,
+      "rawHeight": 450,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
