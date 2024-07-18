@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "2319d18f-74e2-4fad-892c-3e0db8b2147c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1921,
+  "height": 1081,
+  "platformSettings": {},
+  "subMetas": {
+    "beachBG": {
+      "ver": "1.0.6",
+      "uuid": "d9672f4b-eb4c-4e62-86c7-b248bf719f04",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2319d18f-74e2-4fad-892c-3e0db8b2147c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1921,
+      "height": 1081,
+      "rawWidth": 1921,
+      "rawHeight": 1081,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
