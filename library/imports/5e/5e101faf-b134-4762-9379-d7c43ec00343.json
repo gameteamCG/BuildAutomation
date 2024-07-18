@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "G-6753",
+      "totalLevel": "6",
+      "TitleImageName": "Asset 250.png",
+      "introBgName": "bg12 (1).png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "It is a pan.",
+        "questionAudioName": "25085725_1_read-the-sentence-and-.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 24.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 19.png",
+          "Asset 18.png"
+        ],
+        "correctAudios": [
+          "25085725_2_it-is-a-pan.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "It is a cap.",
+        "questionAudioName": "25085725_1_read-the-sentence-and-.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 24.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 17.png",
+          "Asset 21.png"
+        ],
+        "correctAudios": [
+          "25085725_3_it-is-a-cap.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "It is a bag.",
+        "questionAudioName": "25085725_1_read-the-sentence-and-.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 24.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 22.png",
+          "Asset 20.png"
+        ],
+        "correctAudios": [
+          "25085725_4_it-is-a-bag.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "It is my book.",
+        "questionAudioName": "25085725_1_read-the-sentence-and-.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 24.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Artboard 3 copy 8.png",
+          "Asset 19.png"
+        ],
+        "correctAudios": [
+          "p_25142569_222.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "It is a kite.",
+        "questionAudioName": "",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "Asset 24.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 20.png",
+          "Artboard 3 copy 3.png"
+        ],
+        "correctAudios": [
+          "25085725_6_it-is-a-kite.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "It is her car.",
+        "questionAudioName": "",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "Asset 24.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 21.png",
+          "Artboard 3 copy 6.png"
+        ],
+        "correctAudios": [
+          "p_25142535_174.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
