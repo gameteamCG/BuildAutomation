@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "merrygoround",
+    "texture": "bba5edf2-ce6f-49b8-843a-1bf8c04aea67",
+    "atlas": "",
+    "rect": [
+      5,
+      74,
+      242,
+      103
+    ],
+    "offset": [
+      1,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

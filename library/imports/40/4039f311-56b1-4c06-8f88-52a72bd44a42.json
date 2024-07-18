@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Assetjol",
+    "texture": "87db9304-414c-4d29-b0b5-696c50def5df",
+    "atlas": "",
+    "rect": [
+      10,
+      10,
+      618,
+      307
+    ],
+    "offset": [
+      4,
+      -1
+    ],
+    "originalSize": [
+      630,
+      325
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
