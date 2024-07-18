@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "unlock",
+    "texture": "4bbdbcfb-c311-4f56-aace-b374f998abdc",
+    "atlas": "",
+    "rect": [
+      90,
+      24,
+      289,
+      419
+    ],
+    "offset": [
+      -16,
+      16.5
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
