@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ans2_bungalow",
+    "texture": "f58566a6-ae6f-497c-b505-85cb6be2acd7",
+    "atlas": "",
+    "rect": [
+      0,
+      46,
+      251,
+      158
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
