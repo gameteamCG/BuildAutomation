@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Alphabet Capital and Small_Nursery Course Book 2_30",
+      "totalLevel": "6",
+      "TitleImageName": "Asset_244.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGMBackward.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "match letter",
+        "questionImageName": "CG.png",
+        "questionAudioName": "match_the_uppercase_letter_to_its_lowercase_letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "g.png",
+          "e.png"
+        ],
+        "correctAudioName": "G.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "match letter",
+        "questionImageName": "CO.png",
+        "questionAudioName": "match_the_uppercase_letter_to_its_lowercase_letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "y.png",
+          "0.png"
+        ],
+        "correctAudioName": "O.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "match letter",
+        "questionImageName": "CE.png",
+        "questionAudioName": "match_the_uppercase_letter_to_its_lowercase_letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "e.png",
+          "0.png"
+        ],
+        "correctAudioName": "E.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "match letter",
+        "questionImageName": "CR.png",
+        "questionAudioName": "match_the_uppercase_letter_to_its_lowercase_letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "g.png",
+          "r.png"
+        ],
+        "correctAudioName": "R.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "match letter",
+        "questionImageName": "CV.png",
+        "questionAudioName": "match_the_uppercase_letter_to_its_lowercase_letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "v.png",
+          "e.png"
+        ],
+        "correctAudioName": "V.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "match letter",
+        "questionImageName": "CY.png",
+        "questionAudioName": "match_the_uppercase_letter_to_its_lowercase_letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "r.png",
+          "y.png"
+        ],
+        "correctAudioName": "Y.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
