@@ -1,0 +1,85 @@
+{
+  "AdditionalData": {
+    "GameID": "Save water:  UKG Social Science: Page 35",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/83248632476_Save_Water_1721287711512.mp4",
+    "TitleImageName": "Asset_248.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Save water",
+      "QuestionImageName": "",
+      "QuestionAudioName": "question_all.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "1.png",
+        "2.png"
+      ],
+      "ReiterationAudioName": "1_Taking_One_bucket_bath.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Save water",
+      "QuestionImageName": "",
+      "QuestionAudioName": "question_all.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "3.png",
+        "4.png"
+      ],
+      "ReiterationAudioName": "2_Repair_leaking_taps.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Save water",
+      "QuestionImageName": "",
+      "QuestionAudioName": "question_all.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "5.png",
+        "6.png"
+      ],
+      "ReiterationAudioName": "3_Close_the_tap_when_not_in_use_while_brushing_your_teeth.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999999",
+      "IsQuestionText": true,
+      "QuestionText": "Save water",
+      "QuestionImageName": "",
+      "QuestionAudioName": "question_all.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "8.png",
+        "7.png"
+      ],
+      "ReiterationAudioName": "4_Watering_plants_with_a_water_can.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
