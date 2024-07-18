@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rgg",
+    "texture": "77aead34-c407-4fae-a82d-45bbf50e28f0",
+    "atlas": "",
+    "rect": [
+      111,
+      28,
+      228,
+      394
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      450,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

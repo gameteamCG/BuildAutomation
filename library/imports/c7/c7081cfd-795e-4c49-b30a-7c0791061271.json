@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ererr",
+    "texture": "b8f80082-77f8-4c5e-ba54-c923212ea98c",
+    "atlas": "",
+    "rect": [
+      14,
+      134,
+      422,
+      182
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      450,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
