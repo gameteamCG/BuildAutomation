@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sat",
+    "texture": "bdfe1ca7-8645-4888-b738-94435eca1bb5",
+    "atlas": "",
+    "rect": [
+      37,
+      82,
+      176,
+      85
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
