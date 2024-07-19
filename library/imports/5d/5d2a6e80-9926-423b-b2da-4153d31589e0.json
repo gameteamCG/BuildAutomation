@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "photograph-displaying-house_931878-193060",
+    "texture": "75ec696a-b086-4525-881e-29e182014ef3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      626,
+      343
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      626,
+      343
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
