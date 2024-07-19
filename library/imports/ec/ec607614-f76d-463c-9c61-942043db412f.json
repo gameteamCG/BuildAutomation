@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "throwinriver",
+    "texture": "c26a8dc3-8e3b-4ff3-a4b3-24bb474aed82",
+    "atlas": "",
+    "rect": [
+      28,
+      31,
+      223,
+      210
+    ],
+    "offset": [
+      14,
+      -10.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

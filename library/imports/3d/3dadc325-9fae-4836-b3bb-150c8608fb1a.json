@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "recyclingbins",
+    "texture": "7703d9c5-4a24-4d4b-add1-480b92066853",
+    "atlas": "",
+    "rect": [
+      39,
+      16,
+      174,
+      219
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

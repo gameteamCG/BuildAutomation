@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "waste electricty",
+    "texture": "314cb61d-0f6a-4f34-82bc-d4f1eeb8cfb3",
+    "atlas": "",
+    "rect": [
+      6,
+      65,
+      240,
+      121
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

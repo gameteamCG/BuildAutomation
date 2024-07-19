@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "paperbag",
+    "texture": "8090442d-3768-42b4-8bda-879aebb351cc",
+    "atlas": "",
+    "rect": [
+      34,
+      20,
+      182,
+      212
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

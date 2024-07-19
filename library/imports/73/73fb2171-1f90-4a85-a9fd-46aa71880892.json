@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "planticbag",
+    "texture": "8d14cf68-b83d-4b0a-b42a-b80c72c88b44",
+    "atlas": "",
+    "rect": [
+      41,
+      21,
+      169,
+      210
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
