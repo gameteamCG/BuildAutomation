@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "air",
+    "texture": "f57f1b3b-5426-45d8-be75-6eb3382dd73b",
+    "atlas": "",
+    "rect": [
+      11,
+      31,
+      275,
+      242
+    ],
+    "offset": [
+      -2,
+      -1.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
