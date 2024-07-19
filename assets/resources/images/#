@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jszip/dist/jszip.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>What's Next Variant</h1>
+      <div class="game-form-heading">Game Form</div>
+      <div class="form-row">
+        <label>Your Name:</label>
+        <select id="name" onchange="toggleCustomNameField()">
+          <option value>Select your name</option>
+          <option value="Munira">Munira</option>
+          <option value="Vishal">Vishal</option>
+          <option value="Mohit">Mohit</option>
+          <option value="Sohom">Sohom</option>
+          <option value="Abhimanyu">Abhimanyu</option>
+          <option value="Prathamesh">Prathamesh</option>
+          <option value="Abhay">Abhay</option>
+          <option value="Shreya">Shreya</option>
+          <option value="Darshan">Darshan</option>
+          <option value="Deepika">Deepika</option>
+          <option value="Omkar">Omkar</option>
+          <option value="Sandeep">Sandeep</option>
+          <option value="Sourabh">Sourabh</option>
+          <option value="Deepashree">Deepashree</option>
+          <option value="Amit">Amit</option>
+          <option value="Prerna">Prerna</option>
+          <option value="Shweta">Shweta</option>
+          <option value="Makrand">Makrand</option>
+          <option value="Nithin">Nithin</option>
+          <option value="Aakanksha">Aakanksha</option>
+          <option value="Nishad">Nishad</option>
+          <option value="Anuj">Anuj</option>
+          <option value="Shravani">Shravani</option>
+          <option value="Nikhil">Nikhil</option>
+          <option value="Pranjal">Pranjal</option>
+          <option value="Dhanashree">Dhanashree</option>
+          <option value="Ritheesh">Ritheesh</option>
+          <!-- Add more name options here -->
+          <option value="other">Other</option>
+        </select>
+        <input
+          type="text"
+          id="customName"
+          style="display: none"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="form-row">
+        <label for="postLink">Post Link:</label>
+        <input type="text" id="postLink" required />
+      </div>
+      <div class="form-row">
+        <label for="gameId">Game Name <span style="color: red">*</span></label>
+        <input type="text" id="gameId" required />
+      </div>
+      <div class="form-row">
+        <label for="numLevels"
+          >Number of Levels <span style="color: red">*</span></label
+        >
+        <input type="number" id="numLevels" required />
+      </div>
+
+      <div class="form-row">
+        <label>Title Image (Image Size 1920x1730):</label>
+        <div class="upload-container">
+          <div class="upload-button">
+            <label for="titleImage"
+              ><i class="fas fa-upload"></i> Upload Image</label
+            >
+            <input
+              type="file"
+              id="titleImage"
+              accept="image/*"
+              onchange="validateTitleimage(event)"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row" style="display: flex; justify-content: flex-end">
+        <div class="image-preview-box">
+          <div id="error-message-1" class="error-message"></div>
+          <div id="file-name-1" class="file-name"></div>
+          <img
+            id="titleImagePreview"
+            class="image-preview"
+            src="#"
+            alt="Image Preview"
+            style="display: none"
+          />
+        </div>
+
+        <div class="fixed-size-box">
+          <div class="box-header">Prompt</div>
+          <div class="box-content">
+            <div class="input-wrapper">
+              <textarea id="prompt1" name="prompt1" rows="1"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row" style="justify-content: center">
+        <div class="image-controls">
+          <button
+            class="arrow-button"
+            onclick="loadPreviousImage('prompt1', 'titleImagePreview')"
+          >
+            ←
+          </button>
+          <button
+            class="regenerate-button"
+            onclick="regenerateImage('prompt1', 'titleImagePreview')"
+          >
+            Regenerate
+          </button>
+          <button
+            class="arrow-button"
+            onclick="loadNextImage('prompt1', 'titleImagePreview')"
+          >
+            →
+          </button>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label>Intro BG Image (1920x1080):</label>
+        <div class="upload-container">
+          <div class="upload-button">
+            <label for="introBg"
+              ><i class="fas fa-upload"></i> Upload Image</label
+            >
+            <input
+              type="file"
+              id="introBg"
+              accept="image/*"
+              onchange="validateIntroBgImage(event)"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row" style="display: flex; justify-content: flex-end">
+        <div class="image-preview-box">
+          <div id="error-message-2" class="error-message"></div>
+          <div id="file-name-2" class="file-name"></div>
+          <img
+            id="introBgPreview"
+            class="image-preview"
+            src="#"
+            alt="Image Preview"
+            style="display: none"
+          />
+        </div>
+        <div class="fixed-size-box">
+          <div class="box-header">Prompt</div>
+          <div class="box-content">
+            <div class="input-wrapper">
+              <textarea id="prompt2" name="prompt2" rows="1"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row" style="justify-content: center">
+        <div class="image-controls">
+          <button
+            class="arrow-button"
+            onclick="loadPreviousImage('prompt2', 'introBgPreview')"
+          >
+            ←
+          </button>
+          <button
+            class="regenerate-button"
+            onclick="regenerateImage('prompt2', 'introBgPreview')"
+          >
+            Regenerate
+          </button>
+          <button
+            class="arrow-button"
+            onclick="loadNextImage('prompt2', 'introBgPreview')"
+          >
+            →
+          </button>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label>Background Music (should be less than 100kb):</label>
+        <div class="upload-container">
+          <div class="upload-button">
+            <label for="bgmMusic" class="custom-file-upload"
+              ><i class="fas fa-upload"></i> Upload MP3</label
+            >
+            <input
+              type="file"
+              id="bgmMusic"
+              accept="audio/mp3"
+              onchange="playAudio(event)"
+            />
+          </div>
+          <div class="audio-preview-box">
+            <p id="file-name-3" class="file-name"></p>
+            <p id="error-message-3" class="error-message"></p>
+            <audio
+              id="audio-player"
+              class="audio-player"
+              controls
+              style="display: none"
+            ></audio>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label>Main BG Image (1920x1080):</label>
+        <div class="upload-container">
+          <div class="upload-button">
+            <label for="mainBg"
+              ><i class="fas fa-upload"></i> Upload Image</label
+            >
+            <input
+              type="file"
+              id="mainBg"
+              accept="image/*"
+              onchange="validateMainBgImage(event)"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row" style="display: flex; justify-content: flex-end">
+        <div class="image-preview-box">
+          <div id="error-message-4" class="error-message"></div>
+          <div id="file-name-4" class="file-name"></div>
+          <img
+            id="mainBgPreview"
+            class="image-preview"
+            src="#"
+            alt="Image Preview"
+            style="display: none"
+          />
+        </div>
+        <div class="fixed-size-box">
+          <div class="box-header">Prompt</div>
+          <div class="box-content">
+            <div class="input-wrapper">
+              <textarea id="prompt3" name="prompt3" rows="1"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row" style="justify-content: center">
+        <div class="image-controls">
+          <button
+            class="arrow-button"
+            onclick="loadPreviousImage('prompt3', 'mainBgPreview')"
+          >
+            ←
+          </button>
+          <button
+            class="regenerate-button"
+            onclick="regenerateImage('prompt3', 'mainBgPreview')"
+          >
+            Regenerate
+          </button>
+          <button
+            class="arrow-button"
+            onclick="loadNextImage('prompt3', 'mainBgPreview')"
+          >
+            →
+          </button>
+        </div>
+      </div>
+
+      <div class="jockey-container">
+        <label>Choose Jockey <span style="color: red">*</span></label>
+        <div class="radio-group">
+          <label
+            for="singham"
+            class="multi-select-option"
+            id="multi-select-option-1"
+            onclick="checkRadio(document.getElementById('singham'), 1)"
+            >Singham
+            <input type="radio" name="jockey" id="singham" value="Singham"
+          /></label>
+
+          <label
+            for="mightyRaju"
+            class="multi-select-option"
+            id="multi-select-option-2"
+            onclick="checkRadio(document.getElementById('mightyRaju'), 2)"
+            >Mighty Raju
+            <input
+              type="radio"
+              name="jockey"
+              id="mightyRaju"
+              value="Mighty_Raju"
+          /></label>
+
+          <label
+            for="jumbo"
+            class="multi-select-option"
+            id="multi-select-option-3"
+            onclick="checkRadio(document.getElementById('jumbo'), 3)"
+            >Podar <input type="radio" name="jockey" id="jumbo" value="Podar"
+          /></label>
+
+          <label
+            for="stallion"
+            class="multi-select-option"
+            id="multi-select-option-4"
+            onclick="checkRadio(document.getElementById('stallion'), 4)"
+            >Stallion(Dubai School)
+            <input type="radio" name="jockey" id="stallion" value="stallion"
+          /></label>
+
+          <label
+            for="supercub"
+            class="multi-select-option"
+            id="multi-select-option-5"
+            onclick="checkRadio(document.getElementById('supercub'), 5)"
+            >SuperCub
+            <input type="radio" name="jockey" id="supercub" value="supercub"
+          /></label>
+
+          <label
+            for="tlc"
+            class="multi-select-option"
+            id="multi-select-option-6"
+            onclick="checkRadio(document.getElementById('tlc'), 6)"
+            >TLC <input type="radio" name="jockey" id="tlc" value="tlc"
+          /></label>
+
+          <label
+            for="bag"
+            class="multi-select-option"
+            id="multi-select-option-7"
+            onclick="checkRadio(document.getElementById('bag'), 7)"
+            >Bag(Jaipuria)
+            <input type="radio" name="jockey" id="bag" value="bag"
+          /></label>
+
+          <label
+            for="cryon"
+            class="multi-select-option"
+            id="multi-select-option-8"
+            onclick="checkRadio(document.getElementById('cryon'), 8)"
+            >Crayon(Jaipuria)
+            <input type="radio" name="jockey" id="cryon" value="cryon"
+          /></label>
+        </div>
+      </div>
+      <button class="generate-button" onclick="generateForm()">
+        Generate Form
+      </button>
+      <div id="formContainer"></div>
+      <div class="buttons-bottom-container">
+        <button id="demoButton" onclick="runDemo()" class="demo-button">
+          Demo
+        </button>
+        <button id="saveDataButton" onclick="saveData()" class="save-button">
+          Save Data
+        </button>
+      </div>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <p id="modal-message"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
