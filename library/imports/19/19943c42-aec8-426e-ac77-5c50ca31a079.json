@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ans4_tent",
+    "texture": "6880a5e7-4875-4681-89ec-db010c2d143b",
+    "atlas": "",
+    "rect": [
+      24,
+      71,
+      202,
+      107
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

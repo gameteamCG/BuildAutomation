@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ans5_apaetment",
+    "texture": "b82de7bf-75c7-4ea4-9b9f-d174ed3737ee",
+    "atlas": "",
+    "rect": [
+      13,
+      38,
+      225,
+      190
+    ],
+    "offset": [
+      0.5,
+      -8
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

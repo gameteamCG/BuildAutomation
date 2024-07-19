@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Types of Houses: UKG Social Science: Page 42",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/98732487_Types_of_Houses_1721368858216.mp4",
+      "TitleImageName": "Asset_243.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": true,
+        "QuestionText": "House",
+        "QuestionImageName": "",
+        "QuestionAudioName": "que1_Tap_on_the_moving_house_made_of_metal.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "ans1_caravan.png",
+          "ans5_apaetment.png"
+        ],
+        "ReiterationAudioName": "ans1_caravan.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": true,
+        "QuestionText": "House",
+        "QuestionImageName": "",
+        "QuestionAudioName": "que2_Tap_on_the_house_which_is_made_of_bricks_iron_and_cement.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "w1.png",
+          "ans2_bungalow.png"
+        ],
+        "ReiterationAudioName": "ans2_bungalow.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Artboard_3.png",
+        "QuestionAudioName": "que3_What_is_hut_made_of.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "ans_3.png",
+          "w2.png"
+        ],
+        "ReiterationAudioName": "ans3_mud_hay_and_grass.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": true,
+        "QuestionText": "House",
+        "QuestionImageName": "",
+        "QuestionAudioName": "que4_Which_house_is_made_of_canvas_cloth.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "w5.png",
+          "ans4_tent.png"
+        ],
+        "ReiterationAudioName": "4_tent.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": true,
+        "QuestionText": "House",
+        "QuestionImageName": "",
+        "QuestionAudioName": "que5_Identify_the_image_of_the_apartment_a_small_in_a_tall_building.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "ans5_apaetment.png",
+          "ans2_bungalow.png"
+        ],
+        "ReiterationAudioName": "apartment.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
