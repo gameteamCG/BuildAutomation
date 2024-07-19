@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "switchoff",
+    "texture": "9ba8423d-ffbb-47c3-99e2-19ac7016db56",
+    "atlas": "",
+    "rect": [
+      42,
+      36,
+      167,
+      197
+    ],
+    "offset": [
+      0,
+      -9
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
