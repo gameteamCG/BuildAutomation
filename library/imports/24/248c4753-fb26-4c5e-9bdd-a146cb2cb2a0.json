@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "jumbo says",
+      "totalLevel": "6",
+      "TitleImageName": "Ass503.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "Asset 1.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "Asset13.png",
+        "questionAudioName": "jumbosaysflylikea.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "Asset14.png",
+        "questionAudioName": "jumbosayswagtaill.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "Asset11.png",
+        "questionAudioName": "jumbosayshoplikea.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "Asset12.png",
+        "questionAudioName": "jumbosaysswimlike.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "Asset10.png",
+        "questionAudioName": "JumbosaysPurrlikeacat.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "Asset9.png",
+        "questionAudioName": "jumbosaysnibblelik.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      }
+    ]
+  }
+}
