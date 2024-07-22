@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "in_between",
+    "texture": "226fd852-e748-40ed-aa5f-5d6d737f2905",
+    "atlas": "",
+    "rect": [
+      16,
+      44,
+      229,
+      151
+    ],
+    "offset": [
+      5,
+      6
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
