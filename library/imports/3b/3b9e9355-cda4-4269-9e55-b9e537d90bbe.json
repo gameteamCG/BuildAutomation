@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "purstar9",
+    "texture": "5f545feb-4830-49f9-99c8-78d780fa3735",
+    "atlas": "",
+    "rect": [
+      94,
+      45,
+      393,
+      416
+    ],
+    "offset": [
+      40.5,
+      -3
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
