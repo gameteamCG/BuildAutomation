@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "LayDownLikeDog",
+    "texture": "a09a0698-c9c4-44de-9646-e34ce420fdf3",
+    "atlas": "",
+    "rect": [
+      61,
+      156,
+      379,
+      189
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

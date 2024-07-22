@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ScratchEarLikeDog",
+    "texture": "bc4ccdf4-5279-430d-b1f2-4b45373f3ec5",
+    "atlas": "",
+    "rect": [
+      169,
+      59,
+      164,
+      383
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "RollOverLikeDog",
+    "texture": "a1a18562-43e1-4c0c-be2b-71672a99625a",
+    "atlas": "",
+    "rect": [
+      45,
+      153,
+      411,
+      195
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

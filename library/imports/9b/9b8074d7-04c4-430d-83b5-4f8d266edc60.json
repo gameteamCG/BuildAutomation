@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "SitLikeDog",
+    "texture": "eeee1b6f-4a60-4798-8e39-5adb1a1fc450",
+    "atlas": "",
+    "rect": [
+      163,
+      63,
+      175,
+      374
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

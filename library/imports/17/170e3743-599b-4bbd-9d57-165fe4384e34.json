@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pantLikeDog",
+    "texture": "9a0879ce-cfa7-456b-8680-42cc978734e6",
+    "atlas": "",
+    "rect": [
+      81,
+      110,
+      340,
+      280
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

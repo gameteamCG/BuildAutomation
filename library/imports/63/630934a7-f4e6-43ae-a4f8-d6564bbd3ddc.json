@@ -1,0 +1,89 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Jumbo says...",
+      "totalLevel": "10",
+      "TitleImageName": "Asset 503.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "Asset 16.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "BarkLikeDog.png",
+        "questionAudioName": "bark.mp3",
+        "isTimerNeeded": true,
+        "timer": 15
+      },
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "DigLike.png",
+        "questionAudioName": "Jumbosaysdiglikeadog.mp3",
+        "isTimerNeeded": true,
+        "timer": 15
+      },
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "SitLikeDog.png",
+        "questionAudioName": "Jumbosayssitlikeadog.mp3",
+        "isTimerNeeded": true,
+        "timer": 15
+      },
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "LayDownLikeDog.png",
+        "questionAudioName": "Jumbosayslaydownlikeadog.mp3",
+        "isTimerNeeded": true,
+        "timer": 15
+      },
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "ShowTongueLikeDog.png",
+        "questionAudioName": "Jumbosaysshowyourtonguelikeadog.mp3",
+        "isTimerNeeded": true,
+        "timer": 15
+      },
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "RollOverLikeDog.png",
+        "questionAudioName": "Jumbosaysrolloverlikeadog.mp3",
+        "isTimerNeeded": true,
+        "timer": 15
+      },
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "wagTailLikeDog.png",
+        "questionAudioName": "Jumbosayswagyourtaillikeadog.mp3",
+        "isTimerNeeded": true,
+        "timer": 15
+      },
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "pantLikeDog.png",
+        "questionAudioName": "Jumbosayspantlikeadog.mp3",
+        "isTimerNeeded": true,
+        "timer": 15
+      },
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "Asset2.png",
+        "questionAudioName": "Jumbosaysjumplikadog.mp3",
+        "isTimerNeeded": true,
+        "timer": 15
+      },
+      {
+        "questionText": "jumbo says",
+        "questionImageName": "ScratchEarLikeDog.png",
+        "questionAudioName": "PickuptheBone.mp3",
+        "isTimerNeeded": true,
+        "timer": 15
+      }
+    ]
+  }
+}
