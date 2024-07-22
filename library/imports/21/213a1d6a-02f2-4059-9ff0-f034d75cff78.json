@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sweeper",
+    "texture": "d14d4b04-68f3-4893-a1de-c5c11686ded0",
+    "atlas": "",
+    "rect": [
+      105,
+      22,
+      290,
+      455
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
