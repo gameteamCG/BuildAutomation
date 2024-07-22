@@ -1,0 +1,116 @@
+{
+  "additionalData": {
+    "GameID": "Healthy and unhealthy food",
+    "totalLevel": "6",
+    "TitleImageName": "Asset500.png",
+    "introBgName": "Playgroup.png",
+    "bgmMusicName": "bgm3.mp3",
+    "mainBgName": "Asset17.png",
+    "JockeyName": "Podar",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "healthy and unhealthy food",
+      "questionAudioName": "1identifyandtaponthehealthyfooditem.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset34.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset31.png",
+        "Asset21.png"
+      ],
+      "correctAudios": [
+        "mangoisahealthyfoo.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "healthy and unhealthy food",
+      "questionAudioName": "2identifyandtapontheunhealthyfooditem.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset34.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset33.png",
+        "Asset20.png"
+      ],
+      "correctAudios": [
+        "wafersareanunhealth.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "healthy and unhealthy food",
+      "questionAudioName": "2identifyandtapontheunhealthyfooditem.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset34.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset32.png",
+        "Asset26.png"
+      ],
+      "correctAudios": [
+        "chocolateisanunheal.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "healthy and unhealthy food",
+      "questionAudioName": "1identifyandtaponthehealthyfooditem.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset34.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset22.png",
+        "Asset25.png"
+      ],
+      "correctAudios": [
+        "spinachisahealthyf.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "healthy and unhealthy food",
+      "questionAudioName": "2identifyandtapontheunhealthyfooditem.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset34.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset23.png",
+        "Asset30.png"
+      ],
+      "correctAudios": [
+        "samosaisanunhealthy.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "healthy and unhealthy food",
+      "questionAudioName": "1identifyandtaponthehealthyfooditem.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset34.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset19.png",
+        "Asset31.png"
+      ],
+      "correctAudios": [
+        "grapesisahealthyfo.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
