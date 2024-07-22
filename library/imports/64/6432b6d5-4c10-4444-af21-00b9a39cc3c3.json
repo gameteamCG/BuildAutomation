@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sandwitch",
+    "texture": "2e1e9a96-8b3b-426e-8b78-f4b586df3895",
+    "atlas": "",
+    "rect": [
+      62,
+      151,
+      377,
+      200
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
