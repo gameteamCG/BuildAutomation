@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "13_ramp",
+    "texture": "90e6e837-9327-41d7-b8ab-21739ec32197",
+    "atlas": "",
+    "rect": [
+      45,
+      60,
+      159,
+      131
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
