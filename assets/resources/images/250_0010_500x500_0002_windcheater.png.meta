@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e1596783-1572-4b88-8bdf-67f96b26eeac",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "250_0010_500x500_0002_windcheater": {
+      "ver": "1.0.6",
+      "uuid": "9c91d958-e9e2-4e35-a38c-11cfdd6289ed",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e1596783-1572-4b88-8bdf-67f96b26eeac",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 104.5,
+      "offsetY": 0,
+      "trimX": 251,
+      "trimY": 145,
+      "width": 208,
+      "height": 211,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

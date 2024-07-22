@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250_0007_500x500_0005_cherryblossom",
+    "texture": "131a509d-cc60-4c44-9c15-ba2b21f8cc04",
+    "atlas": "",
+    "rect": [
+      237,
+      132,
+      237,
+      238
+    ],
+    "offset": [
+      105,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

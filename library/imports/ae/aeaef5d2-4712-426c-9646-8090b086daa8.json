@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250_0000_pig",
+    "texture": "b585cb15-5e78-4897-a8f6-7bc3979a1246",
+    "atlas": "",
+    "rect": [
+      243,
+      135,
+      221,
+      234
+    ],
+    "offset": [
+      103,
+      -1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

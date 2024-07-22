@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250_0006_pit",
+    "texture": "1181221f-0d6b-4960-9cea-74a1cde34e0b",
+    "atlas": "",
+    "rect": [
+      243,
+      208,
+      235,
+      109
+    ],
+    "offset": [
+      110,
+      -12
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

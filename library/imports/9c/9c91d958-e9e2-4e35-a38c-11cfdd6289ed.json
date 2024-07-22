@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250_0010_500x500_0002_windcheater",
+    "texture": "e1596783-1572-4b88-8bdf-67f96b26eeac",
+    "atlas": "",
+    "rect": [
+      251,
+      145,
+      208,
+      211
+    ],
+    "offset": [
+      104.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9c9b9a2c-1f42-44db-946c-557599fdc4a6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "250_0012_500x500_0000_tulip": {
+      "ver": "1.0.6",
+      "uuid": "b769efc3-d976-42b3-89cb-b884d2abaa1d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9c9b9a2c-1f42-44db-946c-557599fdc4a6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 110,
+      "offsetY": 0,
+      "trimX": 248,
+      "trimY": 115,
+      "width": 225,
+      "height": 271,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

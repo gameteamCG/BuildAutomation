@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250_0012_500x500_0000_tulip",
+    "texture": "9c9b9a2c-1f42-44db-946c-557599fdc4a6",
+    "atlas": "",
+    "rect": [
+      248,
+      115,
+      225,
+      271
+    ],
+    "offset": [
+      110,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "springseason",
+    "texture": "3bd77f9a-b7ca-47ad-9b68-08c04ab23c8b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      655,
+      389
+    ],
+    "offset": [
+      -1,
+      9.5
+    ],
+    "originalSize": [
+      657,
+      408
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
