@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sniff",
+    "texture": "f0f05902-1bc3-44fd-9d0c-4b0bcd02bb37",
+    "atlas": "",
+    "rect": [
+      14,
+      36,
+      172,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

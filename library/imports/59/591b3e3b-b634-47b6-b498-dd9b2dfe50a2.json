@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "staff",
+    "texture": "99c0c5c2-9d22-49e7-b06c-da727b01c74b",
+    "atlas": "",
+    "rect": [
+      57,
+      47,
+      86,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

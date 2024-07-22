@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cliff",
+    "texture": "63063ad7-c989-4f39-8044-865165a802a0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      323,
+      439
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      323,
+      439
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
