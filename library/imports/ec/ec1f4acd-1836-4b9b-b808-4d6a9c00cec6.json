@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "5_20_snell",
+    "texture": "70599786-a6d0-46c4-8b5d-0468e3d800fd",
+    "atlas": "",
+    "rect": [
+      68,
+      100,
+      364,
+      317
+    ],
+    "offset": [
+      0,
+      -8.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
