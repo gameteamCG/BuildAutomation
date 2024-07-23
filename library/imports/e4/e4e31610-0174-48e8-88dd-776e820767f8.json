@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "asocket",
+    "texture": "46a266e0-7a2e-449d-a687-4fef7413912c",
+    "atlas": "",
+    "rect": [
+      100,
+      96,
+      313,
+      311
+    ],
+    "offset": [
+      6.5,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
