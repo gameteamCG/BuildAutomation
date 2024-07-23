@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "5chinu",
+    "texture": "161d62ca-90c5-4901-bec6-7529abef6314",
+    "atlas": "",
+    "rect": [
+      20,
+      11,
+      459,
+      472
+    ],
+    "offset": [
+      2,
+      0.5
+    ],
+    "originalSize": [
+      495,
+      495
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

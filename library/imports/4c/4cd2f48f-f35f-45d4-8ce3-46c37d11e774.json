@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mangotree",
+    "texture": "78208f7e-f5e5-4730-a59b-6ccee4c7847c",
+    "atlas": "",
+    "rect": [
+      25,
+      22,
+      200,
+      205
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
