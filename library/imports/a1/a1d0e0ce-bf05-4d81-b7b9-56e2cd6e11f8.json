@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "child-makes-choice-children-study-achievements-science-vector-illustration-isolated-white_414360-772",
+    "texture": "af67de73-1005-4e8a-bba5-cbddb246f970",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      626,
+      548
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      626,
+      548
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

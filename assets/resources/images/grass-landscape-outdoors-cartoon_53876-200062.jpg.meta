@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ed9db44e-a330-4f87-aa75-b57a0c3b1a97",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 626,
+  "height": 417,
+  "platformSettings": {},
+  "subMetas": {
+    "grass-landscape-outdoors-cartoon_53876-200062": {
+      "ver": "1.0.6",
+      "uuid": "5ae8a75b-790f-47f7-ad4d-08669c43d78b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ed9db44e-a330-4f87-aa75-b57a0c3b1a97",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 626,
+      "height": 417,
+      "rawWidth": 626,
+      "rawHeight": 417,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

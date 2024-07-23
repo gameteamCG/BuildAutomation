@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grass-landscape-outdoors-cartoon_53876-200062",
+    "texture": "ed9db44e-a330-4f87-aa75-b57a0c3b1a97",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      626,
+      417
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      626,
+      417
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

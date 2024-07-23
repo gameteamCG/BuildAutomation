@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4766ea9f-6342-4616-9839-f45ba578fe40",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 626,
+  "height": 626,
+  "platformSettings": {},
+  "subMetas": {
+    "number-seven-kawaii-comic-character_24911-18462": {
+      "ver": "1.0.6",
+      "uuid": "03fc298d-400e-41cd-a3fd-60ee3f57d575",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4766ea9f-6342-4616-9839-f45ba578fe40",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 626,
+      "height": 626,
+      "rawWidth": 626,
+      "rawHeight": 626,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

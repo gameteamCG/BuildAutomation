@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "forest-river-landscape-cartoon-style-neural-network-ai-generated_76080-35466",
+    "texture": "8e0147f4-b173-4da1-ac54-35b83fa7ccf2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      626,
+      417
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      626,
+      417
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

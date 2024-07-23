@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "af67de73-1005-4e8a-bba5-cbddb246f970",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 626,
+  "height": 548,
+  "platformSettings": {},
+  "subMetas": {
+    "child-makes-choice-children-study-achievements-science-vector-illustration-isolated-white_414360-772": {
+      "ver": "1.0.6",
+      "uuid": "a1d0e0ce-bf05-4d81-b7b9-56e2cd6e11f8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "af67de73-1005-4e8a-bba5-cbddb246f970",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 626,
+      "height": 548,
+      "rawWidth": 626,
+      "rawHeight": 548,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
