@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Earth factsUKG Social Science_114",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/4563753835_Our_Earth_1720175927754.mp4",
+      "TitleImageName": "Asset_246.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "l1.png",
+        "QuestionAudioName": "q1_the_earth_is_the_dash.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "3rd",
+          "7th",
+          "1st",
+          "5th"
+        ],
+        "ReiterationAudioName": "a1_third.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "l2.png",
+        "QuestionAudioName": "q2_what_part_of_the_earth.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "2_4.png",
+          "4_3.png",
+          "3_4.png",
+          "1_10.png"
+        ],
+        "ReiterationAudioName": "a2_3_fourth.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Mountain",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q3_Choose_the_picture_of_mountens..mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "mointains.png",
+          "plains.png",
+          "river.png",
+          "pond.png"
+        ],
+        "ReiterationAudioName": "24193982_6_mountains.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Pond",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q4_select_the_picture_of.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "plains.png",
+          "wf.png",
+          "river.png",
+          "pond.png"
+        ],
+        "ReiterationAudioName": "24193982_8_pond.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}
