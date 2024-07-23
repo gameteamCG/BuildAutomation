@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500_0005_scribbly",
+    "texture": "38e71228-f007-469b-88bf-a9e55f874164",
+    "atlas": "",
+    "rect": [
+      33,
+      203,
+      321,
+      99
+    ],
+    "offset": [
+      -56.5,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

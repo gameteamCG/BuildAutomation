@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shrpnpener_positive_4_04",
+    "texture": "96b6b73b-ec61-4741-bb6d-a5c811cc0670",
+    "atlas": "",
+    "rect": [
+      240,
+      139,
+      236,
+      222
+    ],
+    "offset": [
+      108,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

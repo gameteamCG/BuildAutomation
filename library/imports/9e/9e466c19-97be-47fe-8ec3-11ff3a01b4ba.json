@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Identify the characters_UKG (5-6 years)_32",
+      "totalLevel": "6",
+      "TitleImageName": "identifycharacter.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "ColourBGM1.mp3",
+      "mainBgName": "classroom bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Identify",
+        "questionAudioName": "Que_identify_and_match_the.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "q1questionpanel.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500_0005_scribbly.png"
+        ],
+        "reiterations": [
+          "1_Scribbly_Crayon_1.mp3"
+        ],
+        "commonRightOptionImageName": "opoptions_panel.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Crayon_positive_1_14.png",
+          "wa5.png"
+        ]
+      },
+      {
+        "questionText": "Identify",
+        "questionAudioName": "Que_identify_and_match_the.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "q1questionpanel.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500_0004_penny.png"
+        ],
+        "reiterations": [
+          "2_penny_pencil_1.mp3"
+        ],
+        "commonRightOptionImageName": "opoptions_panel.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Pencil_negative_2_47.png",
+          "marker_positive_1_17.png"
+        ]
+      },
+      {
+        "questionText": "Identify",
+        "questionAudioName": "Que_identify_and_match_the.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "q1questionpanel.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500_0003_gadbad.png"
+        ],
+        "reiterations": [
+          "3_gadbad_1.mp3"
+        ],
+        "commonRightOptionImageName": "opoptions_panel.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Eraser_positive_1_25.png",
+          "0003_01_52.png"
+        ]
+      },
+      {
+        "questionText": "Identify",
+        "questionAudioName": "Que_identify_and_match_the.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "q1questionpanel.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500_0002_chap_chap.png"
+        ],
+        "reiterations": [
+          "4_chap_chap.mp3"
+        ],
+        "commonRightOptionImageName": "opoptions_panel.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Brush_positive_4_23.png",
+          "compass_positive_5_29.png"
+        ]
+      },
+      {
+        "questionText": "Identify",
+        "questionAudioName": "Que_identify_and_match_the.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "q1questionpanel.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500_0001_sharpy.png"
+        ],
+        "reiterations": [
+          "4_sharpy_1.mp3"
+        ],
+        "commonRightOptionImageName": "opoptions_panel.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "shrpnpener_positive_4_04.png",
+          "500_0011_500x500_0004_01_41.png"
+        ]
+      },
+      {
+        "questionText": "Identify",
+        "questionAudioName": "Que_identify_and_match_the.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "q1questionpanel.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500_0000_seedha.png"
+        ],
+        "reiterations": [
+          "6_seedha_1.mp3"
+        ],
+        "commonRightOptionImageName": "opoptions_panel.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Ruler_positive_2_38.png",
+          "Pencil_negative_2_47.png"
+        ]
+      }
+    ]
+  }
+}
