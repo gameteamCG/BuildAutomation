@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Living_and_non_living",
+    "texture": "43620357-4929-4050-a1b2-905eeac5de8c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      883,
+      423
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      883,
+      423
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
