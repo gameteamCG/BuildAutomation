@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "9chinu",
+    "texture": "d31ab89c-3ba5-4a92-a8bc-1f01e15b756c",
+    "atlas": "",
+    "rect": [
+      20,
+      11,
+      459,
+      472
+    ],
+    "offset": [
+      2,
+      0.5
+    ],
+    "originalSize": [
+      495,
+      495
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

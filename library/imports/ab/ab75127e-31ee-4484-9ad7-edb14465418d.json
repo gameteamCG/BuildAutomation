@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appletree",
+    "texture": "011472cd-d686-4015-80fe-05f5103b490c",
+    "atlas": "",
+    "rect": [
+      36,
+      17,
+      178,
+      216
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
