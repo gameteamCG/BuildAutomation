@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Pencil_negative_2_47",
+    "texture": "41122e40-9751-46be-8cc6-c35c317d4be8",
+    "atlas": "",
+    "rect": [
+      266,
+      131,
+      184,
+      237
+    ],
+    "offset": [
+      108,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

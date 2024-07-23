@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Brush_positive_4_23",
+    "texture": "12c4ba2f-f4da-4a2d-921a-6e57d1834133",
+    "atlas": "",
+    "rect": [
+      285,
+      101,
+      184,
+      298
+    ],
+    "offset": [
+      127,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

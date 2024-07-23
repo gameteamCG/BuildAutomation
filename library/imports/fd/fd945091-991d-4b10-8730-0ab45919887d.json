@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Ruler_positive_2_38",
+    "texture": "43525e73-1aa1-459c-a62d-0b5eb2aa6f1a",
+    "atlas": "",
+    "rect": [
+      244,
+      98,
+      221,
+      304
+    ],
+    "offset": [
+      104.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

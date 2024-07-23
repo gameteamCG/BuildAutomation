@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Crayon_positive_1_14",
+    "texture": "395ce3e1-128c-4a7f-882f-9c90a7272311",
+    "atlas": "",
+    "rect": [
+      237,
+      118,
+      232,
+      265
+    ],
+    "offset": [
+      103,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

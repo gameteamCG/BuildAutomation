@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "compass_positive_5_29",
+    "texture": "5a1a2c6a-d5e5-436e-8168-bdcc41e5f632",
+    "atlas": "",
+    "rect": [
+      244,
+      141,
+      217,
+      219
+    ],
+    "offset": [
+      102.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
