@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mointains",
+    "texture": "ce86b890-110a-4a44-903c-9e17281736f2",
+    "atlas": "",
+    "rect": [
+      4,
+      4,
+      243,
+      243
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
