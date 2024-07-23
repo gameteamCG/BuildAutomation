@@ -1,0 +1,82 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Yoga poses",
+      "totalLevel": "9",
+      "TitleImageName": "Asset 514.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "Asset1.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "pretzel pose",
+        "questionImageName": "Asset10.png",
+        "questionAudioName": "pretzelpose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "easy pose",
+        "questionImageName": "Asset2.png",
+        "questionAudioName": "easypose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "airplane pose",
+        "questionImageName": "Asset7.png",
+        "questionAudioName": "jumbosaysdotheaeroplanepose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "cobra pose",
+        "questionImageName": "Asset3.png",
+        "questionAudioName": "cobrapose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "elephant pose",
+        "questionImageName": "Asset4.png",
+        "questionAudioName": "elephantpose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "jack in the box pose",
+        "questionImageName": "Asset8.png",
+        "questionAudioName": "jackintheboxpose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "otter pose",
+        "questionImageName": "Asset5.png",
+        "questionAudioName": "otterpose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "lion",
+        "questionImageName": "Asset6.png",
+        "questionAudioName": "lionpose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "yoga pose",
+        "questionImageName": "Asset9.png",
+        "questionAudioName": "yogapose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      }
+    ]
+  }
+}
