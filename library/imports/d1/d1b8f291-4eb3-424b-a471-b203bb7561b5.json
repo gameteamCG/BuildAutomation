@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500_0003_gadbad",
+    "texture": "07af36d5-57af-4291-84ae-5a7f52de60b1",
+    "atlas": "",
+    "rect": [
+      39,
+      203,
+      317,
+      99
+    ],
+    "offset": [
+      -52.5,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

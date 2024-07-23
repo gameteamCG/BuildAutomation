@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Eraser_positive_1_25",
+    "texture": "66ce9b8e-39d5-4455-9dda-f1431a9b26f0",
+    "atlas": "",
+    "rect": [
+      277,
+      110,
+      163,
+      281
+    ],
+    "offset": [
+      108.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
