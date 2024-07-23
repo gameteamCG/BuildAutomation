@@ -1,0 +1,54 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "yoga time",
+      "totalLevel": "5",
+      "TitleImageName": "Asset511.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "bgm3.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "monkey pose",
+        "questionImageName": "monkey.png",
+        "questionAudioName": "monkeypose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "snake pose",
+        "questionImageName": "snake.png",
+        "questionAudioName": "snakepose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "dog pose",
+        "questionImageName": "dog.png",
+        "questionAudioName": "dogpose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "cat pose ",
+        "questionImageName": "ct.png",
+        "questionAudioName": "catpose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "cow pose",
+        "questionImageName": "cow.png",
+        "questionAudioName": "cowpose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      }
+    ]
+  }
+}
