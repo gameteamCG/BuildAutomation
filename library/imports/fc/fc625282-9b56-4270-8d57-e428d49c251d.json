@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Number 7_PreNursery Numeracy Book_10",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/07_1721724337983.mp4",
+      "TitleImageName": "title_5.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify number",
+        "QuestionImageName": "",
+        "QuestionAudioName": "L1_identify_number_7.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "ans_1.png",
+          "wa2.png"
+        ],
+        "ReiterationAudioName": "ans_seven.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "7 books",
+        "QuestionImageName": "",
+        "QuestionAudioName": "L2_tap_on_the_image_with_7_books.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "wa4.png",
+          "Asset_34.png"
+        ],
+        "ReiterationAudioName": "25337701_2_7_books.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "7 horses",
+        "QuestionImageName": "",
+        "QuestionAudioName": "L3_tap_on_the_image_with_7_horses.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset_63.png",
+          "Asset_62.png"
+        ],
+        "ReiterationAudioName": "25337701_4_7_horses.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "7 mangoes",
+        "QuestionImageName": "",
+        "QuestionAudioName": "L4_tap_on_the_image_with_7_mangoes.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset_66.png",
+          "Asset_65.png"
+        ],
+        "ReiterationAudioName": "25337701_6_7_mangoes.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
