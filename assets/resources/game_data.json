@@ -1,0 +1,43 @@
+{
+  "additionalData": {
+    "GameID": "What's Next ?",
+    "totalLevel": "2",
+    "TitleImageName": "child-makes-choice-children-study-achievements-science-vector-illustration-isolated-white_414360-772.jpg",
+    "introBgName": "grass-landscape-outdoors-cartoon_53876-200062.jpg",
+    "bgmMusicName": "BGM_1.mp3",
+    "mainBgName": "forest-river-landscape-cartoon-style-neural-network-ai-generated_76080-35466.jpg",
+    "JockeyName": "Mighty_Raju"
+  },
+  "questionData": [
+    {
+      "questionText": "What's the next number? ",
+      "questionImageName": "number-9-children-s-style-vector-illustration-flat-style_362838-398.jpg",
+      "questionAudioName": "questionAudio1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "abstract-white-background-vector-illustration_723055-1055.jpg",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "10-months-baby-milestones-card-with-cute-snail-vector-illustration_444196-1874.jpg",
+        "number-seven-kawaii-comic-character_24911-18462.jpg"
+      ],
+      "correctAudioName": "correctAudio1.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "What's the next number? ",
+      "questionImageName": "number-humanized-character-vector-illustration_230554-382.jpg",
+      "questionAudioName": "questionAudio2.mp3",
+      "shouldPlayQuestionAudio": false,
+      "commonOptionImageName": "abstract-white-background-vector-illustration_723055-1055.jpg",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "10-months-baby-milestones-card-with-cute-snail-vector-illustration_444196-1874.jpg",
+        "number-seven-kawaii-comic-character_24911-18462.jpg"
+      ],
+      "correctAudioName": "correctAudio2.mp3",
+      "correctAnswerNum": "2"
+    }
+  ]
+}
