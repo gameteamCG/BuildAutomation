@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tyu",
+    "texture": "cd10caf1-c613-4317-bf5b-7c0eeba76dfa",
+    "atlas": "",
+    "rect": [
+      48,
+      82,
+      404,
+      355
+    ],
+    "offset": [
+      0,
+      -9.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

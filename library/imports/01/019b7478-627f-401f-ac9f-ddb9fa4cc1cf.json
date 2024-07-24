@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vcbm",
+    "texture": "370c4a54-7763-416d-ad85-375f580256b2",
+    "atlas": "",
+    "rect": [
+      16,
+      101,
+      465,
+      350
+    ],
+    "offset": [
+      -1.5,
+      -26
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
