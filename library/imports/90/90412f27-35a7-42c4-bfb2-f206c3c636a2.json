@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kettle2",
+    "texture": "e358f669-3244-41aa-926f-cc556004327d",
+    "atlas": "",
+    "rect": [
+      47,
+      87,
+      190,
+      147
+    ],
+    "offset": [
+      -8,
+      -10.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
