@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e526f7b0-9814-42a5-a793-1eae95ab3168",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 214,
+  "height": 207,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0014_spacestation": {
+      "ver": "1.0.6",
+      "uuid": "b0294cb6-2c6f-4250-a585-e4e5a7798cbf",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e526f7b0-9814-42a5-a793-1eae95ab3168",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 0,
+      "trimY": 1,
+      "width": 214,
+      "height": 206,
+      "rawWidth": 214,
+      "rawHeight": 207,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

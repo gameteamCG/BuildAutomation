@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "56422d58-c6d5-4c57-820c-6498ecc27ffc",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 232,
+  "height": 186,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0015_solarpanel": {
+      "ver": "1.0.6",
+      "uuid": "bc914b11-2fcd-4b2e-bb9f-d04f2f5a0563",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "56422d58-c6d5-4c57-820c-6498ecc27ffc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 232,
+      "height": 186,
+      "rawWidth": 232,
+      "rawHeight": 186,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

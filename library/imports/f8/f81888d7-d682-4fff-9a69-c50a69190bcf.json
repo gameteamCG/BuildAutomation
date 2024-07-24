@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0007_dishantenna",
+    "texture": "c563c1ee-99a9-45d3-ac42-672d65e3ef62",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      164,
+      232
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      164,
+      232
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
