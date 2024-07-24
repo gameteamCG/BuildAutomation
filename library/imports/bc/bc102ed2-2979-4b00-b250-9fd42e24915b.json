@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyonion",
+    "texture": "0da1813d-4d4a-4160-994b-77ea8e03bafe",
+    "atlas": "",
+    "rect": [
+      29,
+      13,
+      442,
+      474
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

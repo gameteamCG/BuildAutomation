@@ -1,0 +1,148 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Odd one out_Nursery Course Book 2_112",
+      "totalLevel": "5",
+      "TitleImageName": "Asset 13.png",
+      "introBgName": "tlcbg1.png",
+      "bgmMusicName": "BBgmwhatsnext.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Selecttheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "pineapple.png",
+          "mango.png",
+          "capsicum.png",
+          "banana.png"
+        ],
+        "optionsBg": [
+          "greypineapple.png",
+          "greymango.png",
+          "greycapsicum.png",
+          "greybanana.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "capsicumisavegetable.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Selecttheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "grapes.png",
+          "potato.png",
+          "brinjal.png",
+          "carrot.png"
+        ],
+        "optionsBg": [
+          "greygrapes.png",
+          "greypotato.png",
+          "greybrinjal.png",
+          "greycarrot.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "grapesareafruit.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Selecttheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "orange.png",
+          "pear.png",
+          "potato.png",
+          "apple.png"
+        ],
+        "optionsBg": [
+          "greyorange.png",
+          "greypear.png",
+          "greypotato.png",
+          "greyapple.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "potatoisavegetable.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Selecttheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "grapes.png",
+          "carrot.png",
+          "pineapple.png",
+          "banana.png"
+        ],
+        "optionsBg": [
+          "greygrapes.png",
+          "greycarrot.png",
+          "greypineapple.png",
+          "greybanana.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "carrotisvegetable.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Selecttheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "brinjal.png",
+          "potato.png",
+          "onion.png",
+          "apple.png"
+        ],
+        "optionsBg": [
+          "greybrinjal.png",
+          "greypotato.png",
+          "greyonion.png",
+          "greyapple.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "appleisafruit.mp3"
+        ],
+        "correctAnswerNum": "4"
+      }
+    ]
+  }
+}
