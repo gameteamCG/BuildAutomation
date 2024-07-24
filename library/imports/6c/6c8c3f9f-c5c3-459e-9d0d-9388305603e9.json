@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0019_xmas",
+    "texture": "e5e6bf76-a82b-4a3e-ac82-114a37c0c3b2",
+    "atlas": "",
+    "rect": [
+      93,
+      2,
+      314,
+      497
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
