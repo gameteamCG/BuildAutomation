@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ELE",
+    "texture": "287f304c-f13e-451c-ac4a-6ad253da175e",
+    "atlas": "",
+    "rect": [
+      26,
+      32,
+      448,
+      436
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
