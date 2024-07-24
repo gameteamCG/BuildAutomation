@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greycarrot",
+    "texture": "a3e1a0a2-8476-4df0-b54a-a0f414805747",
+    "atlas": "",
+    "rect": [
+      31,
+      14,
+      398,
+      478
+    ],
+    "offset": [
+      -20,
+      -3
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greypotato",
+    "texture": "140559e8-41b6-44cc-8687-7d1d9596373d",
+    "atlas": "",
+    "rect": [
+      47,
+      17,
+      404,
+      466
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
