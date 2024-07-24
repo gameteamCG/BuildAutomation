@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slantrectangle",
+    "texture": "1e404318-ea90-401d-8b57-0bd862350148",
+    "atlas": "",
+    "rect": [
+      25,
+      100,
+      450,
+      300
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
