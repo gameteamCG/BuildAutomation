@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Spring season_Nursery Course Book 2_116",
+      "totalLevel": "5",
+      "TitleImageName": "Asset 243.png",
+      "introBgName": "tlcbg1.png",
+      "bgmMusicName": "BBgmwhatsnext.mp3",
+      "initialVOName": "",
+      "mainBgName": "SpringGameBg .png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "butterfly art",
+        "questionImageName": "250x250empty.png",
+        "questionAudioName": "colourthespringseasonpictureandbrightenit.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "butterflyart.png",
+        "needMoreTools": true,
+        "correctAudioName": "EXCEPTIONAL.mp3"
+      },
+      {
+        "questionText": "flower art",
+        "questionImageName": "250x250empty.png",
+        "questionAudioName": "colourthespringseasonpictureandbrightenit.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "Flowerlineart.png",
+        "needMoreTools": true,
+        "correctAudioName": "EXCELLENTJOB.mp3"
+      },
+      {
+        "questionText": "ice cream art",
+        "questionImageName": "250x250empty.png",
+        "questionAudioName": "colourthespringseasonpictureandbrightenit.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "Icereamart.png",
+        "needMoreTools": true,
+        "correctAudioName": "IMPRESSIVEWORK.mp3"
+      },
+      {
+        "questionText": "sun art",
+        "questionImageName": "250x250empty.png",
+        "questionAudioName": "colourthespringseasonpictureandbrightenit.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "Sunart.png",
+        "needMoreTools": true,
+        "correctAudioName": "GOODEFFORT.mp3"
+      },
+      {
+        "questionText": "umbrella art",
+        "questionImageName": "250x250empty.png",
+        "questionAudioName": "colourthespringseasonpictureandbrightenit.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "umbrelalineart.png",
+        "needMoreTools": true,
+        "correctAudioName": "BRILLIANT.mp3"
+      }
+    ]
+  }
+}

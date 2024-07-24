@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Flowerlineart",
+    "texture": "88c58f6c-0c23-443e-857f-77bd323f6236",
+    "atlas": "",
+    "rect": [
+      149,
+      9,
+      249,
+      492
+    ],
+    "offset": [
+      23,
+      -4.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

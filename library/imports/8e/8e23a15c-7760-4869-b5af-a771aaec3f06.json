@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sunart",
+    "texture": "3296c8d2-6507-441b-b391-49e5d87aa42e",
+    "atlas": "",
+    "rect": [
+      7,
+      24,
+      487,
+      467
+    ],
+    "offset": [
+      0,
+      -7
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

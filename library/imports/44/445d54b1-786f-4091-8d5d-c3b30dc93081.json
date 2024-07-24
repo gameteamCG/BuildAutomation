@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Icereamart",
+    "texture": "81e43d95-6698-4d72-abc0-654683ec7095",
+    "atlas": "",
+    "rect": [
+      138,
+      8,
+      225,
+      487
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
