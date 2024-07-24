@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "5_vread",
+    "texture": "2fcb8e44-ebff-4f9f-9b96-d693d0056c08",
+    "atlas": "",
+    "rect": [
+      50,
+      142,
+      366,
+      218
+    ],
+    "offset": [
+      -17.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

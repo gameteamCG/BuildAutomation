@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "5_coffe_bean",
+    "texture": "8c6e55bf-3e71-4f7f-8776-346cef0fa09d",
+    "atlas": "",
+    "rect": [
+      128,
+      83,
+      278,
+      384
+    ],
+    "offset": [
+      16.5,
+      -24.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

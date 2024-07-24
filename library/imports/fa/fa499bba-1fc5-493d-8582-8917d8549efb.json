@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_swimming_polv",
+    "texture": "03c256d8-9280-440a-b072-64e8316ca310",
+    "atlas": "",
+    "rect": [
+      71,
+      20,
+      348,
+      458
+    ],
+    "offset": [
+      -5.5,
+      1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

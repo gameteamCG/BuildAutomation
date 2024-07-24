@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "2_oval_rug",
+    "texture": "4193d2bf-8d4d-4859-904c-bada7ef7eb57",
+    "atlas": "",
+    "rect": [
+      8,
+      249,
+      441,
+      110
+    ],
+    "offset": [
+      -22,
+      -53.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
