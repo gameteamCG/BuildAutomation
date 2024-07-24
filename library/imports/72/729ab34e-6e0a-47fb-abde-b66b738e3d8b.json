@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "star shape sunglass",
+    "texture": "801b5b6b-22a8-43a5-a961-a4690bcc4de1",
+    "atlas": "",
+    "rect": [
+      8,
+      68,
+      234,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

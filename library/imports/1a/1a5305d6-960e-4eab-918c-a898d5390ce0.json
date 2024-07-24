@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Shape - heart_Nursery Course Book 2_81",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/63902heart_1721821444088.mp4",
+      "TitleImageName": "Asset167.png",
+      "IntroAudio1Name": "BBgmwhatsnext.mp3",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "55555",
+        "IsQuestionText": true,
+        "QuestionText": "heart",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identifyandtapontheheartshape.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "heart.png",
+          "square.png"
+        ],
+        "ReiterationAudioName": "heart.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "55555",
+        "IsQuestionText": true,
+        "QuestionText": "heart",
+        "QuestionImageName": "",
+        "QuestionAudioName": "selecttheheartshapedobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "kite.png",
+          "heartshapeballon.png"
+        ],
+        "ReiterationAudioName": "heartshapedballoon.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "55555",
+        "IsQuestionText": true,
+        "QuestionText": "heart",
+        "QuestionImageName": "",
+        "QuestionAudioName": "choosethepictureofaheartshapedgiftbox.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "heartshapegiftbox.png",
+          "circleshapegiftbox.png"
+        ],
+        "ReiterationAudioName": "heartshapedgiftbox.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "555555",
+        "IsQuestionText": true,
+        "QuestionText": "heart",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identifytheheartshapedobject.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "star shape sunglass.png",
+          "heartshapesunglass.png"
+        ],
+        "ReiterationAudioName": "heartshapedsunglasse.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

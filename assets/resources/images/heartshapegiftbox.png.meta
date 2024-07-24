@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "21d4d4fe-c841-419a-8dc8-0bbb67ac2085",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "heartshapegiftbox": {
+      "ver": "1.0.6",
+      "uuid": "74c51cb4-ff3c-47b2-8c8d-8b0576103b56",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "21d4d4fe-c841-419a-8dc8-0bbb67ac2085",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 18,
+      "trimY": 24,
+      "width": 214,
+      "height": 202,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
