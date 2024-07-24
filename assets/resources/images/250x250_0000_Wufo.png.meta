@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "87f63af2-a357-465d-a577-c31b75a31782",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0000_Wufo": {
+      "ver": "1.0.6",
+      "uuid": "8dacf113-fb86-4f22-89e3-30952c810e8f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "87f63af2-a357-465d-a577-c31b75a31782",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": 0,
+      "trimX": 3,
+      "trimY": 18,
+      "width": 246,
+      "height": 214,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

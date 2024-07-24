@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0007_Xplanet",
+    "texture": "658a7727-70b3-485e-9732-a2dde83de857",
+    "atlas": "",
+    "rect": [
+      2,
+      14,
+      248,
+      222
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
