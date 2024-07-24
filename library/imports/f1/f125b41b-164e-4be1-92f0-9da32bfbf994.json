@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0005_Aasteroid",
+    "texture": "ec7d268f-a693-489b-973b-ec16ccbc323b",
+    "atlas": "",
+    "rect": [
+      1,
+      34,
+      248,
+      181
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

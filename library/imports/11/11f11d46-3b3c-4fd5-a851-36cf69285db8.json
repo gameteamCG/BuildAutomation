@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "LetterWwtitle",
+    "texture": "7cc60b7e-d792-4645-93c2-51ba63b92872",
+    "atlas": "",
+    "rect": [
+      23,
+      24,
+      1260,
+      360
+    ],
+    "offset": [
+      10,
+      -2.5
+    ],
+    "originalSize": [
+      1286,
+      403
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
