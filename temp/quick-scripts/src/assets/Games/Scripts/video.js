@@ -499,7 +499,7 @@ var video = /** @class */ (function (_super) {
         }
         else {
             console.log("wrongAnswer--" + this.currentQuestion);
-            console.log("levelComplete--" + this.currentQuestion);
+            // console.log("levelComplete--" + this.currentQuestion);
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].wrongAudio, false);
             // this.character.getComponent(cc.Animation).play("wrong");
