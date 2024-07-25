@@ -1,0 +1,118 @@
+{
+  "additionalData": {
+    "GameID": "Let’s find out when?",
+    "totalLevel": "5",
+    "TitleImageName": "Asset4578.png",
+    "introBgName": "Junior.png",
+    "bgmMusicName": "bgm1.mp3",
+    "mainBgName": "Asset5.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "umbrella",
+      "questionAudioName": "Whendoyouuseanumbrella .mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset4.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "Asset18.png"
+      ],
+      "reiterations": [
+        "Whenitisveryhotorraining.mp3"
+      ],
+      "commonRightOptionImageName": "Asset3.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset12.png",
+        "Asset9.png"
+      ]
+    },
+    {
+      "questionText": "medicines",
+      "questionAudioName": "Whendoyoutakemedicines.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset4.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "Asset16.png"
+      ],
+      "reiterations": [
+        "whenyouaresick.mp3"
+      ],
+      "commonRightOptionImageName": "Asset3.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset13.png",
+        "Asset2.png"
+      ]
+    },
+    {
+      "questionText": "wake up",
+      "questionAudioName": "Whendoyouwakeup.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset4.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "Asset11.png"
+      ],
+      "reiterations": [
+        "earlyinthemorning.mp3"
+      ],
+      "commonRightOptionImageName": "Asset3.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset14.png",
+        "Asset7.png"
+      ]
+    },
+    {
+      "questionText": "mow the grass",
+      "questionAudioName": "Whendoyoumowthegrass.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset4.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "Asset9.png"
+      ],
+      "reiterations": [
+        "whenithasgrowntall.mp3"
+      ],
+      "commonRightOptionImageName": "Asset3.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset 17.png",
+        "Asset1.png"
+      ]
+    },
+    {
+      "questionText": "crayons",
+      "questionAudioName": "whendoyouusecrayons.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset4.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "Asset15.png"
+      ],
+      "reiterations": [
+        "Whenyoucolourapicture.mp3"
+      ],
+      "commonRightOptionImageName": "Asset3.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset8.png",
+        "Asset 10.png"
+      ]
+    }
+  ]
+}
