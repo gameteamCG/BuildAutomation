@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "river",
+    "texture": "2e6c47ab-d438-4ff9-818c-34600972dce0",
+    "atlas": "",
+    "rect": [
+      152,
+      212,
+      203,
+      64
+    ],
+    "offset": [
+      3,
+      6
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
