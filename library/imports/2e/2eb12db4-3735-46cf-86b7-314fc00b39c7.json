@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "panbw",
+    "texture": "3abe4c09-5440-4d05-a2d2-ceb9d58be9f0",
+    "atlas": "",
+    "rect": [
+      24,
+      106,
+      452,
+      288
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
