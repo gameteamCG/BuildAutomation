@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jugbw",
+    "texture": "820003f6-4d1b-4657-9a55-1ee58e3e2d9d",
+    "atlas": "",
+    "rect": [
+      39,
+      28,
+      422,
+      444
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

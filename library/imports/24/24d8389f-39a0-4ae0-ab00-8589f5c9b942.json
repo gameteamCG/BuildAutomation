@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mangobw",
+    "texture": "30911f84-1dc8-45a6-8b31-660c39e5396d",
+    "atlas": "",
+    "rect": [
+      44,
+      64,
+      412,
+      372
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "letter 'Mm'",
+      "totalLevel": "4",
+      "TitleImageName": "title.png",
+      "introBgName": "Bg(8).png",
+      "bgmMusicName": "bgmm.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Ml1(5).png",
+        "questionAudioName": "identify all the hot air balloons with the letter M.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Ml1(1).png",
+          "Ml1(2).png",
+          "Ml1(3).png",
+          "Ml1(4).png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "M.mp3",
+          "M.mp3",
+          "M.mp3",
+          "M.mp3"
+        ],
+        "correctAnswerNum": "1234"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Ml2(6).png",
+        "questionAudioName": "identify all the kites with the letter M.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Ml2(1).png",
+          "Ml2(2).png",
+          "Ml2(3).png",
+          "Ml2(4).png",
+          "Ml2(5).png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "M.mp3",
+          "M.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Ml3(6).png",
+        "questionAudioName": "identify all the balloons with the letter M.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Ml3(1).png",
+          "Ml3(2).png",
+          "Ml3(3).png",
+          "Ml3(4).png",
+          "Ml3(5).png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "M.mp3",
+          "M.mp3",
+          "M.mp3"
+        ],
+        "correctAnswerNum": "245"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg6.png",
+        "questionAudioName": "Tap on the images that begin with the letter M.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "hen.png",
+          "mag.png",
+          "mango.png",
+          "monk1.png",
+          "jug.png"
+        ],
+        "optionsBg": [
+          "henbw.png",
+          "magbw.png",
+          "mangobw.png",
+          "monk.png",
+          "jugbw.png"
+        ],
+        "correctAudioName": "magmanmon.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "GOODJOB.mp3",
+          "GREATWORK.mp3",
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "234"
+      }
+    ]
+  }
+}
