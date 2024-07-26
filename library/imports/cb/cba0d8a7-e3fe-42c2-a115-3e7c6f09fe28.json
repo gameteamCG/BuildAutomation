@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nestbw",
+    "texture": "0e1a6135-90fa-44de-affa-4643ecf23afa",
+    "atlas": "",
+    "rect": [
+      40,
+      94,
+      420,
+      312
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

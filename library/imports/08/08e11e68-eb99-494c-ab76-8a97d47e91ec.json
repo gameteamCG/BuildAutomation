@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jellybw",
+    "texture": "f4c2fe7b-709e-4143-9fc2-da9fe0d16f5e",
+    "atlas": "",
+    "rect": [
+      20,
+      78,
+      460,
+      344
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

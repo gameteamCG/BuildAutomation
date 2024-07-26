@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "netbw",
+    "texture": "44bf3044-bc1d-425c-ad0c-17159b7002b2",
+    "atlas": "",
+    "rect": [
+      17,
+      65,
+      466,
+      370
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

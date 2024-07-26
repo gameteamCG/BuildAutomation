@@ -1,0 +1,137 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "letter 'Nn'",
+      "totalLevel": "4",
+      "TitleImageName": "title.png",
+      "introBgName": "Bg(8).png",
+      "bgmMusicName": "BGMLetterT.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "L1(5).png",
+        "questionAudioName": "identify all the boomerangs with the letter N.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "L1(1).png",
+          "L1(2).png",
+          "L1(3).png",
+          "L1(4).png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "N.mp3",
+          "N.mp3",
+          "N.mp3",
+          "N.mp3"
+        ],
+        "correctAnswerNum": "1234"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "L2(6).png",
+        "questionAudioName": "identify all the frizbees with the letter N.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "L2(1).png",
+          "L2(2).png",
+          "L2(3).png",
+          "L2(4).png",
+          "L2(5).png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "N.mp3",
+          "N.mp3",
+          "N.mp3"
+        ],
+        "correctAnswerNum": "135"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "L3(6).png",
+        "questionAudioName": "identify all the paperplanes with the letter N.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "L3(1).png",
+          "L3(2).png",
+          "L3(3).png",
+          "L3(4).png",
+          "L3(5).png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "N.mp3",
+          "N.mp3",
+          "N.mp3"
+        ],
+        "correctAnswerNum": "345"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Tap on the images that begin with the letter N.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "nest.png",
+          "net.png",
+          "jelly.png",
+          "nurse.png",
+          "grape.png"
+        ],
+        "optionsBg": [
+          "nestbw.png",
+          "netbw.png",
+          "jellybw.png",
+          "nursebw.png",
+          "grapebw.png"
+        ],
+        "correctAudioName": "netnusrsenest.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "GOODJOB.mp3",
+          "GREATWORK.mp3",
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "124"
+      }
+    ]
+  }
+}
