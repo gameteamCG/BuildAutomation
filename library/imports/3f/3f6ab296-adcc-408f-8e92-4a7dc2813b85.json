@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "carrotbw",
+    "texture": "f3997eed-b194-4985-8b9b-21be5833bc6f",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      166,
+      250
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      167,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

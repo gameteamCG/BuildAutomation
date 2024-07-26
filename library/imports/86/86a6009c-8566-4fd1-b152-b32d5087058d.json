@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "camelcolor",
+    "texture": "b2d1e0f2-0e40-4d9d-9214-5810b695810b",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      258,
+      250
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      258,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
