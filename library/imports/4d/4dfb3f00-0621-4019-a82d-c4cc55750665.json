@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "baloon5",
+    "texture": "e527c8b7-b525-4fa2-8c21-cf50d765b726",
+    "atlas": "",
+    "rect": [
+      130,
+      0,
+      241,
+      500
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
