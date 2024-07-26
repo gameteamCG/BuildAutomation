@@ -1,0 +1,137 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Ff",
+      "totalLevel": "4",
+      "TitleImageName": "Asset 40.png",
+      "introBgName": "Bg(8).png",
+      "bgmMusicName": "bgm_1.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "l1bg.png",
+        "questionAudioName": "Tap on the Cupids with the letter F.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "l11.png",
+          "l12.png",
+          "l13.png",
+          "l14.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "F.mp3",
+          "F.mp3",
+          "F.mp3",
+          "F.mp3"
+        ],
+        "correctAnswerNum": "1234"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "Asset 6.png",
+        "questionAudioName": "Tap on the gift boxes with the letter F.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset 1.png",
+          "Asset 2.png",
+          "Asset 3.png",
+          "Asset 4.png",
+          "Asset 5.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "F.mp3",
+          "F.mp3",
+          "F.mp3"
+        ],
+        "correctAnswerNum": "135"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "l3bg.png",
+        "questionAudioName": "Tap on the hearts with the letter F.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "l32.png",
+          "l31.png",
+          "l33.png",
+          "l35.png",
+          "l34.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "F.mp3",
+          "F.mp3",
+          "F.mp3"
+        ],
+        "correctAnswerNum": "234"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "l4bg.png",
+        "questionAudioName": "Tap on the images that begin with the letter F.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "h1.png",
+          "f1.png",
+          "f3.png",
+          "f6.png",
+          "b1.png"
+        ],
+        "optionsBg": [
+          "h2.png",
+          "f2.png",
+          "f4.png",
+          "f5.png",
+          "b2.png"
+        ],
+        "correctAudioName": "fan, frog, fish.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "FANTASTIC.mp3",
+          "GOODJOB.mp3",
+          "GREATWORK.mp3"
+        ],
+        "correctAnswerNum": "234"
+      }
+    ]
+  }
+}
