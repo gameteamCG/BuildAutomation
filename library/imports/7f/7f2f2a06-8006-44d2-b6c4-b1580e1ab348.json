@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sthethoscope",
+    "texture": "958d471c-297e-4a5a-8a47-50d5d186a7ad",
+    "atlas": "",
+    "rect": [
+      55,
+      25,
+      138,
+      205
+    ],
+    "offset": [
+      -1,
+      -2.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
