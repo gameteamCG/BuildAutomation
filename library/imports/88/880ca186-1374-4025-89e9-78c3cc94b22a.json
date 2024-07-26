@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "applebw",
+    "texture": "b2706d2c-45e8-4328-82c7-b8920fa13603",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      242,
+      250
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      243,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

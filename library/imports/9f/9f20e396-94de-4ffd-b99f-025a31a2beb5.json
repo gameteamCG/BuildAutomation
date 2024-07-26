@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "magbw",
+    "texture": "b1988e63-067f-4287-a6e3-83136753269c",
+    "atlas": "",
+    "rect": [
+      1,
+      29,
+      250,
+      193
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
