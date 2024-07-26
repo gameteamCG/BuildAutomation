@@ -1,0 +1,137 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Ee",
+      "totalLevel": "4",
+      "TitleImageName": "Asset 39.png",
+      "introBgName": "Bg(8).png",
+      "bgmMusicName": "bgmm.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset 5.png",
+        "questionAudioName": "Tap on the canonballs with the letter e.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset 1.png",
+          "Asset 2.png",
+          "Asset 3.png",
+          "Asset 4.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "E.mp3",
+          "E.mp3",
+          "E.mp3",
+          "E.mp3"
+        ],
+        "correctAnswerNum": "1234"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "l11.png",
+        "questionAudioName": "Tap on the pirate hats with the letter E.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "l12.png",
+          "l13.png",
+          "l14.png",
+          "l15.png",
+          "l16.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "E.mp3",
+          "E.mp3",
+          "E.mp3"
+        ],
+        "correctAnswerNum": "134"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "l3bg.png",
+        "questionAudioName": "Tap on the parrots with the letter E.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "l31.png",
+          "l32.png",
+          "l33.png",
+          "l34.png",
+          "l35.png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "E.mp3",
+          "E.mp3",
+          "E.mp3"
+        ],
+        "correctAnswerNum": "124"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset 11.png",
+        "questionAudioName": "Tap on the images that begin with the letter E.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "j2.png",
+          "Asset 10.png",
+          "z1.png",
+          "en2.png",
+          "eg2.png"
+        ],
+        "optionsBg": [
+          "j1.png",
+          "Asset 9.png",
+          "z2.png",
+          "en1.png",
+          "eg1.png"
+        ],
+        "correctAudioName": "engine, eggplant, elephant.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "EXCELLENTJOB.mp3",
+          "FANTASTIC.mp3",
+          "GREATWORK.mp3"
+        ],
+        "correctAnswerNum": "245"
+      }
+    ]
+  }
+}

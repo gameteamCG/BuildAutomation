@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "en1",
+    "texture": "090bf5dd-ed85-4436-95dd-1ac8892b53c4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      272,
+      250
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      272,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
