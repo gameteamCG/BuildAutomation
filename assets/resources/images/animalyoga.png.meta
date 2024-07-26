@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e148df0e-e5d8-4733-8bad-88e839ec8888",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1055,
+  "height": 234,
+  "platformSettings": {},
+  "subMetas": {
+    "animalyoga": {
+      "ver": "1.0.6",
+      "uuid": "52ffba8a-bcdf-462f-9e65-1be90bf532b8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e148df0e-e5d8-4733-8bad-88e839ec8888",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 8,
+      "offsetY": -8,
+      "trimX": 26,
+      "trimY": 26,
+      "width": 1019,
+      "height": 198,
+      "rawWidth": 1055,
+      "rawHeight": 234,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

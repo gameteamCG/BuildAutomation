@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rcp",
+    "texture": "fde565b7-7110-4ba7-bf65-23d2447560cf",
+    "atlas": "",
+    "rect": [
+      0,
+      71,
+      500,
+      365
+    ],
+    "offset": [
+      0,
+      -3.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

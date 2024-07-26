@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "animalyoga",
+    "texture": "e148df0e-e5d8-4733-8bad-88e839ec8888",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      1019,
+      198
+    ],
+    "offset": [
+      8,
+      -8
+    ],
+    "originalSize": [
+      1055,
+      234
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
