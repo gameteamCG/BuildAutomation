@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "coconut_water1",
+    "texture": "135c10f9-ddff-4113-88cf-bc15c4fa86b9",
+    "atlas": "",
+    "rect": [
+      126,
+      91,
+      298,
+      301
+    ],
+    "offset": [
+      25,
+      8.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
