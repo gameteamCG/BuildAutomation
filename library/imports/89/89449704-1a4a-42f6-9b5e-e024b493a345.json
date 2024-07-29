@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ringbw",
+    "texture": "2ecc4373-9005-490e-bd66-92585645e883",
+    "atlas": "",
+    "rect": [
+      51,
+      24,
+      398,
+      452
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
