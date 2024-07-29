@@ -1,0 +1,146 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "National Symbol",
+      "totalLevel": "7",
+      "TitleImageName": "Asset 457.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "bgm3.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "National flag of India",
+        "questionAudioName": "identifythenationalFLAGofINDIA.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ca.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 41.png",
+          "flag.png",
+          "Asset 42.png"
+        ],
+        "correctAudios": [
+          "tiranga.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "National emblem of India",
+        "questionAudioName": "identifytheNationalEmblemofIndia.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ca.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "synbol.png",
+          "elephant.png",
+          "song.png"
+        ],
+        "correctAudios": [
+          "nationalemblem.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Nation tree of India",
+        "questionAudioName": "treeqvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ca.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "tree.png",
+          "Asset 39.png",
+          "Asset 40.png"
+        ],
+        "correctAudios": [
+          "banyentree.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "National heritage animal of India",
+        "questionAudioName": "IdentifythenationalheritageofIndia1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ca.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "tiger.png",
+          "hockey.png",
+          "elephant.png"
+        ],
+        "correctAudios": [
+          "elephant.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "National snake of India",
+        "questionAudioName": "snakeqvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ca.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 44.png",
+          "anke.png",
+          "Asset 43.png"
+        ],
+        "correctAudios": [
+          "cobra.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "National sport of India",
+        "questionAudioName": "sportqvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ca.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "hockey.png",
+          "Asset 38.png",
+          "Asset 37.png"
+        ],
+        "correctAudios": [
+          "hockey.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "National aquatic animal of India",
+        "questionAudioName": "aquaticqvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ca.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 35.png",
+          "Asset 36.png",
+          "dolphin.png"
+        ],
+        "correctAudios": [
+          "dolphin.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
