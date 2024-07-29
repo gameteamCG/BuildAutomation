@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "quillbw",
+    "texture": "7eccb32b-a6a5-47ec-9a5a-2f8c49b8daad",
+    "atlas": "",
+    "rect": [
+      168,
+      15,
+      164,
+      470
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
