@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cloud_0004_triangle",
+    "texture": "be1a538a-8cf3-43a1-957e-4caea6a56fa3",
+    "atlas": "",
+    "rect": [
+      0,
+      20,
+      500,
+      460
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
