@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "f3_laptop",
+    "texture": "62c910e0-10d7-450a-b945-baf9d7eb1eff",
+    "atlas": "",
+    "rect": [
+      167,
+      134,
+      167,
+      305
+    ],
+    "offset": [
+      0,
+      -36
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

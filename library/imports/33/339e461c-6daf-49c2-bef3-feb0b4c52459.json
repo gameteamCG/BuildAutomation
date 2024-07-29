@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "f1_telescope",
+    "texture": "a22fc624-861d-4061-9441-493bbe367933",
+    "atlas": "",
+    "rect": [
+      139,
+      52,
+      318,
+      364
+    ],
+    "offset": [
+      47.5,
+      16.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

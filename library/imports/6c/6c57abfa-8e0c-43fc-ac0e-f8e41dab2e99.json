@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "a1_bright_sun",
+    "texture": "7e0494f8-7522-4e49-8154-bcb1a82d6dd8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      501,
+      499
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

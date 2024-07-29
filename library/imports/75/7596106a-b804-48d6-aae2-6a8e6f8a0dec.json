@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "f2_sethescope",
+    "texture": "a2d1a0aa-9e76-4d4e-b65e-582368a21eff",
+    "atlas": "",
+    "rect": [
+      51,
+      22,
+      383,
+      430
+    ],
+    "offset": [
+      -8,
+      13.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

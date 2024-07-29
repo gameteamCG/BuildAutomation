@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "c4_flkower",
+    "texture": "468ea40b-d08a-4b9b-aa6a-e2a784412dbc",
+    "atlas": "",
+    "rect": [
+      61,
+      90,
+      367,
+      290
+    ],
+    "offset": [
+      -6,
+      15.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

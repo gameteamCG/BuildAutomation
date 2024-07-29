@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "c2_paper_boat",
+    "texture": "5e2d696b-ee1f-472c-8bd9-d4de0e942e6d",
+    "atlas": "",
+    "rect": [
+      48,
+      112,
+      357,
+      187
+    ],
+    "offset": [
+      -24,
+      45
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

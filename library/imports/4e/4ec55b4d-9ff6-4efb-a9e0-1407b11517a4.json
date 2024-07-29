@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "f4_phone",
+    "texture": "29cd646c-f0a0-412f-b5b9-240dc4d6f9fe",
+    "atlas": "",
+    "rect": [
+      37,
+      151,
+      415,
+      282
+    ],
+    "offset": [
+      -6,
+      -41.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
