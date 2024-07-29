@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "alligator",
+    "texture": "1d1fe009-0ff0-4d94-894e-269af655239f",
+    "atlas": "",
+    "rect": [
+      21,
+      303,
+      475,
+      184
+    ],
+    "offset": [
+      8,
+      -144.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

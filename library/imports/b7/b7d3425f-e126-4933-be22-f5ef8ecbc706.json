@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "quil",
+    "texture": "e25314a8-62d4-49bb-b494-98e8afab7e89",
+    "atlas": "",
+    "rect": [
+      135,
+      222,
+      266,
+      272
+    ],
+    "offset": [
+      17.5,
+      -107.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
