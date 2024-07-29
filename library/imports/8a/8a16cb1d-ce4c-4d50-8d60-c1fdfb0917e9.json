@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Ways to save water",
+      "totalLevel": "5",
+      "TitleImageName": "title2.png",
+      "introBgName": "introbg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "bag",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "water conservation",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "11.png",
+          "12.png"
+        ],
+        "correctAudios": [
+          "Drinkwaterfromtheglass..mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "water conservation",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "15.png",
+          "9.png"
+        ],
+        "correctAudios": [
+          "Alwayswatertheplantsusingawateringcan.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "water conservation",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "6.png",
+          "35.png"
+        ],
+        "correctAudios": [
+          "Useabucketofwaterforbathing.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "water conservation",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "16.png",
+          "1.png"
+        ],
+        "correctAudios": [
+          "Turnoffthetapwhilewashingyourhandsandface.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "water conservation",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "4.png",
+          "14.png"
+        ],
+        "correctAudios": [
+          "turnoffthetapwhennotinuse.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
