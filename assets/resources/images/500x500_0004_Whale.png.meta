@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9cfb0f73-3cfd-41bd-b866-3e7b53d6c372",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0004_Whale": {
+      "ver": "1.0.6",
+      "uuid": "75714e1c-b19b-4c6f-b4a5-e87ad200522e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9cfb0f73-3cfd-41bd-b866-3e7b53d6c372",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 4,
+      "offsetY": -5.5,
+      "trimX": 13,
+      "trimY": 147,
+      "width": 482,
+      "height": 217,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
