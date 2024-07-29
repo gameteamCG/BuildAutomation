@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Group review - o, c, k, ck",
+      "totalLevel": "8",
+      "TitleImageName": "Asset 520.png",
+      "introBgName": "Junior.png",
+      "bgmMusicName": "bgm3.mp3",
+      "mainBgName": "Asset 44.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "group review",
+        "questionAudioName": "matchwithlettersoundo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset41.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Oo"
+        ],
+        "reiterations": [
+          "octopus.mp3"
+        ],
+        "commonRightOptionImageName": "Asset42.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Oo1.png",
+          "Cc1.png"
+        ]
+      },
+      {
+        "questionText": "group review",
+        "questionAudioName": "matchwithlettersoundck.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset41.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Cc"
+        ],
+        "reiterations": [
+          "caterpillar.mp3"
+        ],
+        "commonRightOptionImageName": "Asset42.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Cc3.png",
+          "ostrich.png"
+        ]
+      },
+      {
+        "questionText": "group review",
+        "questionAudioName": "matchwithck.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset41.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "ck"
+        ],
+        "reiterations": [
+          "duck.mp3"
+        ],
+        "commonRightOptionImageName": "Asset42.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "duck.png",
+          "Asset33.png"
+        ]
+      },
+      {
+        "questionText": "group review",
+        "questionAudioName": "matchwithlettersoundck.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset41.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Kk"
+        ],
+        "reiterations": [
+          "key.mp3"
+        ],
+        "commonRightOptionImageName": "Asset42.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset35.png",
+          "Asset27.png"
+        ]
+      },
+      {
+        "questionText": "group review",
+        "questionAudioName": "matchwithck.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset41.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "ck"
+        ],
+        "reiterations": [
+          "clock.mp3"
+        ],
+        "commonRightOptionImageName": "Asset42.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "ck1.png",
+          "teapot.png"
+        ]
+      },
+      {
+        "questionText": "group review",
+        "questionAudioName": "matchwithlettersoundo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset41.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Oo"
+        ],
+        "reiterations": [
+          "olives.mp3"
+        ],
+        "commonRightOptionImageName": "Asset42.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "olives.png",
+          "wa.png"
+        ]
+      },
+      {
+        "questionText": "group review",
+        "questionAudioName": "matchwithlettersoundck.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset41.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Cc"
+        ],
+        "reiterations": [
+          "camera.mp3"
+        ],
+        "commonRightOptionImageName": "Asset42.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Cc1.png",
+          "kite.png"
+        ]
+      },
+      {
+        "questionText": "group review",
+        "questionAudioName": "matchwithlettersoundck.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset41.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Kk"
+        ],
+        "reiterations": [
+          "king.mp3"
+        ],
+        "commonRightOptionImageName": "Asset42.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 38.png",
+          "ostrich.png"
+        ]
+      }
+    ]
+  }
+}
