@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Egg",
+    "texture": "466a0a67-0de7-4b57-9aff-7d404e70e1eb",
+    "atlas": "",
+    "rect": [
+      70,
+      11,
+      360,
+      478
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

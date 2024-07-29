@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yak",
+    "texture": "42588ed3-6f38-47f6-b43a-6dd3b0a626e0",
+    "atlas": "",
+    "rect": [
+      37,
+      82,
+      399,
+      332
+    ],
+    "offset": [
+      -14,
+      2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
