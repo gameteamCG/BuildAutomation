@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0017_crocodile",
+    "texture": "fb69ffce-77d1-4fa4-ba29-e2e4ad808b43",
+    "atlas": "",
+    "rect": [
+      41,
+      73,
+      419,
+      355
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
