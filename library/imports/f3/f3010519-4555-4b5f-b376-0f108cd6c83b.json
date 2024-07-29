@@ -1,0 +1,138 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number 19",
+      "totalLevel": "5",
+      "TitleImageName": "Asset4598.png",
+      "introBgName": "Junior.png",
+      "bgmMusicName": "bgm1.mp3",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset18.png",
+        "questionAudioName": "Identifyandtaponthenumber19.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset428.png",
+          "Asset418.png",
+          "Asset408.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "19.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset18.png",
+        "questionAudioName": "identifyandtaponthenumberatterntileof19.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset388.png",
+          "Asset378.png",
+          "Asset398.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "19.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset18.png",
+        "questionAudioName": "countandselect19crayons.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset38.png",
+          "Asset318.png",
+          "Asset328.png"
+        ],
+        "optionsBg": [
+          "Asset268.png",
+          "Asset258.png",
+          "Asset278.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "19crayons.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset18.png",
+        "questionAudioName": "Whichnumbercomesbefore19 .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset298.png",
+          "Asset308.png",
+          "Asset288.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "18.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset18.png",
+        "questionAudioName": "Whichnumbercomesafter18 .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset348.png",
+          "Asset358.png",
+          "Asset368.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "19.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
