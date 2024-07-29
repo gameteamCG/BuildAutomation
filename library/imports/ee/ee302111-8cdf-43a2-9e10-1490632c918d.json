@@ -1,0 +1,180 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "First Letter_Nursery Practice Book 2_19",
+      "totalLevel": "7",
+      "TitleImageName": "Asset245.png",
+      "introBgName": "Bg.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "correct picture",
+        "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset23.png",
+        "commonDropNodeImageName": "Asset22.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "Artboard33copy.png",
+          "Artboard37copy.png"
+        ],
+        "reiterationAudios": [
+          "tturtle.mp3",
+          "wwalrus.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "turtle.png",
+          "walrus.png",
+          "yak.png"
+        ]
+      },
+      {
+        "questionText": "correct picture",
+        "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset23.png",
+        "commonDropNodeImageName": "Asset22.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "Artboard37copy6.png",
+          "Artboard37copy3.png"
+        ],
+        "reiterationAudios": [
+          "eegg.mp3",
+          "b_bee.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "Egg.png",
+          "bee.png",
+          "waterbottle.png"
+        ]
+      },
+      {
+        "questionText": "correct picture",
+        "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset23.png",
+        "commonDropNodeImageName": "Asset22.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "Artboard37copy4.png",
+          "Artboard37copy5.png"
+        ],
+        "reiterationAudios": [
+          "sstarwberry.mp3",
+          "qquill.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "strawbeery.png",
+          "quil.png",
+          "vulture.png"
+        ]
+      },
+      {
+        "questionText": "correct picture",
+        "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset23.png",
+        "commonDropNodeImageName": "Asset22.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "Artboard37copy10.png",
+          "Artboard37copy11.png"
+        ],
+        "reiterationAudios": [
+          "yyoyo.mp3",
+          "vvulture.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "yoyo.png",
+          "vulture.png",
+          "duck.png"
+        ]
+      },
+      {
+        "questionText": "correct picture",
+        "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset23.png",
+        "commonDropNodeImageName": "Asset22.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "Artboard37copy9.png",
+          "Artboard37copy8.png"
+        ],
+        "reiterationAudios": [
+          "iigloo.mp3",
+          "d_duck.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "igloo.png",
+          "duck.png",
+          "quil.png"
+        ]
+      },
+      {
+        "questionText": "correct picture",
+        "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset23.png",
+        "commonDropNodeImageName": "Asset22.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "Artboard 37copy7.png",
+          "Artboard37copy2.png"
+        ],
+        "reiterationAudios": [
+          "hhouse.mp3",
+          "kkettle.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "house.png",
+          "kettle .png",
+          "Egg.png"
+        ]
+      },
+      {
+        "questionText": "correct picture",
+        "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset23.png",
+        "commonDropNodeImageName": "Asset22.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "Artboard33copy2.png",
+          "Artboard33.png"
+        ],
+        "reiterationAudios": [
+          "zzoo.mp3",
+          "aalligator.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "zoo copy.png",
+          "Artboard 58.png",
+          "walrus.png"
+        ]
+      }
+    ]
+  }
+}
