@@ -1,0 +1,103 @@
+{
+  "AdditionalData": {
+    "GameID": "Grandparents story",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/97292Grandmaseyes_1722344122009.mp4",
+    "TitleImageName": "Asset 515.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "Podar",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "66666",
+      "IsQuestionText": true,
+      "QuestionText": "Who is the story about?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "whoisthestoryabout.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset 23.png",
+        "Asset 16.png"
+      ],
+      "ReiterationAudioName": "grandma.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "66666",
+      "IsQuestionText": true,
+      "QuestionText": "Identify the picture of grandma's eyes",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifythepictureo.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset 17.png",
+        "Asset 28.png"
+      ],
+      "ReiterationAudioName": "grandmaseyes.mp3",
+      "CorrectAudioName": "GOODEFFORT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "66666",
+      "IsQuestionText": true,
+      "QuestionText": "What does grandma use to hold me tight?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "whatdoesgrandmause.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset 16.png",
+        "Asset 15.png"
+      ],
+      "ReiterationAudioName": "arms.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "66666",
+      "IsQuestionText": true,
+      "QuestionText": "Select the picture where grandma is laughing",
+      "QuestionImageName": "",
+      "QuestionAudioName": "selectthepicturewhe.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset 19.png",
+        "Asset 22.png"
+      ],
+      "ReiterationAudioName": "evo.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "66666",
+      "IsQuestionText": true,
+      "QuestionText": "Do you enjoy playing with your grandparents",
+      "QuestionImageName": "",
+      "QuestionAudioName": "doyouenjoyplayingw.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset 1.png",
+        "Asset 2.png"
+      ],
+      "ReiterationAudioName": "yes.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
