@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Healthyeatinghabits1",
+    "texture": "76aedb2c-1aac-41b1-9fd0-f77dbd08f7cc",
+    "atlas": "",
+    "rect": [
+      23,
+      24,
+      1076,
+      394
+    ],
+    "offset": [
+      9.5,
+      -10
+    ],
+    "originalSize": [
+      1103,
+      422
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
