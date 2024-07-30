@@ -1,0 +1,62 @@
+{
+  "additionalData": {
+    "GameID": "Yoga poses",
+    "totalLevel": "7",
+    "TitleImageName": "Yoga poses.png",
+    "introBgName": "Playgroup.png",
+    "bgmMusicName": "bgm3.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "butterfly pose",
+      "questionImageName": "1.png",
+      "questionAudioName": "butterflypose.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "snake pose",
+      "questionImageName": "2.png",
+      "questionAudioName": "snakepose.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "lion pose",
+      "questionImageName": "4.png",
+      "questionAudioName": "lionpose.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "cow pose",
+      "questionImageName": "Asset 14.png",
+      "questionAudioName": "cowpose.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "monkey pose",
+      "questionImageName": "Asset 15.png",
+      "questionAudioName": "monkeypose.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "cat pose",
+      "questionImageName": "Asset 16.png",
+      "questionAudioName": "catpose.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "giraffe pose",
+      "questionImageName": "Asset 20.png",
+      "questionAudioName": "girrafepose.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    }
+  ]
+}
