@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Find shapes__Nursery Practice Book 2_53",
+      "totalLevel": "4",
+      "TitleImageName": "Asset_197.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bgforcolour.png",
+        "questionAudioName": "que1_Identify_and_tap_on_the_circle_shape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "1_c2.png",
+          "2_s2.png",
+          "3_t2.png",
+          "4_r2.png"
+        ],
+        "optionsBg": [
+          "1_c1.png",
+          "2_s1.png",
+          "3_t1.png",
+          "4_r1.png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "1_circle.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bgforcolour.png",
+        "questionAudioName": "que2_Identify_and_tap_on_the_square_shape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "4_r2.png",
+          "1_c2.png",
+          "2_s2.png",
+          "3_t2.png"
+        ],
+        "optionsBg": [
+          "4_r1.png",
+          "1_c1.png",
+          "2_s1.png",
+          "3_t1.png"
+        ],
+        "correctAudioName": "IMPRESSIVEWORK.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "2_square.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bgforcolour.png",
+        "questionAudioName": "que3_Identify_and_tap_on_the_triangle_shape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "1_c2.png",
+          "3_t2.png",
+          "4_r2.png",
+          "2_s2.png"
+        ],
+        "optionsBg": [
+          "1_c1.png",
+          "3_t1.png",
+          "4_r1.png",
+          "2_s1.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "3_triangle.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bgforcolour.png",
+        "questionAudioName": "que4_Identify_and_tap_on_the_rectangle_shape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "1_c2.png",
+          "2_s2.png",
+          "3_t2.png",
+          "4_r2.png"
+        ],
+        "optionsBg": [
+          "1_c1.png",
+          "2_s1.png",
+          "3_t1.png",
+          "4_r1.png"
+        ],
+        "correctAudioName": "GORGEOUSWORK.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "4_rectangle.mp3"
+        ],
+        "correctAnswerNum": "4"
+      }
+    ]
+  }
+}
