@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Van",
+    "texture": "e989f6f3-4fe6-4a71-afc2-03702e6bbd83",
+    "atlas": "",
+    "rect": [
+      23,
+      86,
+      454,
+      327
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

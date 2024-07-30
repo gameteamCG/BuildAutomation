@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zuchinni",
+    "texture": "ef684eb2-da7f-4cfc-b9f1-12e64f515e9c",
+    "atlas": "",
+    "rect": [
+      156,
+      78,
+      188,
+      344
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
