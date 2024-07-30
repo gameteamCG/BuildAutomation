@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "15_strawberries",
+    "texture": "9b41dcc7-ff8c-4a5a-a574-c4fc2d30cc8f",
+    "atlas": "",
+    "rect": [
+      42,
+      93,
+      417,
+      314
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

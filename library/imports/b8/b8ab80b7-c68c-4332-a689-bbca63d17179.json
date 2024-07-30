@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "10_peaches",
+    "texture": "f9b51e22-1a89-4c42-8404-b4ce9ddf18bc",
+    "atlas": "",
+    "rect": [
+      42,
+      158,
+      417,
+      182
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
