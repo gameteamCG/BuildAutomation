@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Layout3_apple",
+    "texture": "51f426c6-39dd-4624-8780-63f5888b2d49",
+    "atlas": "",
+    "rect": [
+      42,
+      2,
+      417,
+      498
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
