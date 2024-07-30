@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "herb",
+    "texture": "42c66b29-9c14-42ab-826c-4cc7f503536f",
+    "atlas": "",
+    "rect": [
+      135,
+      186,
+      212,
+      85
+    ],
+    "offset": [
+      -9,
+      22
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
