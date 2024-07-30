@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mint",
+    "texture": "4a43a94f-28e3-414f-90b4-b5b873672f28",
+    "atlas": "",
+    "rect": [
+      73,
+      111,
+      354,
+      279
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

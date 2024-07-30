@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jasmin",
+    "texture": "c3655d6c-7e8b-4e18-aea6-2f6a2a9f9208",
+    "atlas": "",
+    "rect": [
+      81,
+      79,
+      338,
+      343
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

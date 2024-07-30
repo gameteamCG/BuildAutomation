@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "creeper",
+    "texture": "94b94ec6-d413-4891-a113-009d44900960",
+    "atlas": "",
+    "rect": [
+      54,
+      216,
+      356,
+      89
+    ],
+    "offset": [
+      -18,
+      -10
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

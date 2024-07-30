@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Types of plants_UKG Social Science_88",
+      "totalLevel": "5",
+      "TitleImageName": "Asset_198.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGMBackward.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "tree",
+        "questionAudioName": "q2_identify_the_tree.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle3.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "tree.png"
+        ],
+        "reiterations": [
+          "tree.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle3_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "tree.png",
+          "coriender.png"
+        ]
+      },
+      {
+        "questionText": "shrub",
+        "questionAudioName": "q4_select_the_sh_rub.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle3.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "shrub.png"
+        ],
+        "reiterations": [
+          "3_heebiscus.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle3_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "hibiscus.png",
+          "mint.png"
+        ]
+      },
+      {
+        "questionText": "herb",
+        "questionAudioName": "q5_select_the_herb.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle3.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "herb.png"
+        ],
+        "reiterations": [
+          "2_mint_is_a_herb.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle3_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "mint.png",
+          "peas.png"
+        ]
+      },
+      {
+        "questionText": "grass",
+        "questionAudioName": "q1_identify_the_grass.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle3.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "grass.png"
+        ],
+        "reiterations": [
+          "1_grass.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle3_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "grass.png",
+          "coconut_tree.png"
+        ]
+      },
+      {
+        "questionText": "creeper",
+        "questionAudioName": "q3_select_the_cbreeper.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle3.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "creeper.png"
+        ],
+        "reiterations": [
+          "a3_watermelon_is_a_creeper.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle3_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "watermelon.png",
+          "jasmin.png"
+        ]
+      }
+    ]
+  }
+}
