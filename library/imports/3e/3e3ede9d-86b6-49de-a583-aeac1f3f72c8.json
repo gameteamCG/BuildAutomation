@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1hill",
+    "texture": "c9ab56ce-ceda-44f9-bc1b-99b5a1b29993",
+    "atlas": "",
+    "rect": [
+      181,
+      212,
+      147,
+      64
+    ],
+    "offset": [
+      4,
+      6
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

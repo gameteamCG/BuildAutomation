@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "valley",
+    "texture": "6dd72476-cb4f-4565-94ea-1aacabcfc30f",
+    "atlas": "",
+    "rect": [
+      120,
+      212,
+      255,
+      90
+    ],
+    "offset": [
+      -3,
+      -7
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
