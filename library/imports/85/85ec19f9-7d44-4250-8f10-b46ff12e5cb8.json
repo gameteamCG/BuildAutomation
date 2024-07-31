@@ -1,0 +1,268 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Recap on shapes_Nursery (3-4 years)_28",
+      "totalLevel": "10",
+      "TitleImageName": "titles.png",
+      "introBgName": "jr_kg.png",
+      "bgmMusicName": "bgm2.mp3",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "PlainskyBG.png",
+        "questionAudioName": "Selectthesquareshapedcloud.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "cloud_0002_oval.png",
+          "cloud_0001_square.png",
+          "cloud_0003_circle.png"
+        ],
+        "correctAudioName": "L5Correct.mp3",
+        "wrongAudioName": "nu.mp3",
+        "reiterationAudioName": [
+          "evo.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "PlainskyBG.png",
+        "questionAudioName": "Selectthecircleshapedcloud.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "cloud_0003_circle.png",
+          "cloud_0004_triangle.png",
+          "cloud_0000_star.png"
+        ],
+        "correctAudioName": "L8Correct.mp3",
+        "wrongAudioName": "ns.mp3",
+        "reiterationAudioName": [
+          "evo.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "PlainskyBG.png",
+        "questionAudioName": "Selectthesquareshapedcloud.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "cloud_0002_oval.png",
+          "cloud_0001_square.png",
+          "cloud_0004_triangle.png"
+        ],
+        "correctAudioName": "L3correct.mp3",
+        "wrongAudioName": "nu.mp3",
+        "reiterationAudioName": [
+          "evo.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "PlainskyBG.png",
+        "questionAudioName": "Selectthetriangleshapedcloud.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "cloud_0004_triangle.png",
+          "cloud_0000_star.png",
+          "cloud_0001_square.png"
+        ],
+        "correctAudioName": "L1correct.mp3",
+        "wrongAudioName": "ns.mp3",
+        "reiterationAudioName": [
+          "evo.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "PlainskyBG.png",
+        "questionAudioName": "SelecttheOvalshapedcloud.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "cloud_0003_circle.png",
+          "cloud_0001_square.png",
+          "cloud_0002_oval.png"
+        ],
+        "correctAudioName": "L8Correct.mp3",
+        "wrongAudioName": "no.mp3",
+        "reiterationAudioName": [
+          "evo.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "outdoor_BG.png",
+        "questionAudioName": "Identifythecircleshapedobject.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "500x500_0003_Square.png",
+          "500x500_0000_Circle.png",
+          "500x500_0004_Triangle.png",
+          "500x500_0002_star.png"
+        ],
+        "optionsBg": [
+          "greyscale_0003_Square.png",
+          "greyscale_0000_Circle.png",
+          "greyscale_0004_Triangle.png",
+          "greyscale_0002_star.png"
+        ],
+        "correctAudioName": "l4correct.mp3",
+        "wrongAudioName": "nu.mp3",
+        "reiterationAudioName": [
+          "Ballooniscircleshaped.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "outdoor_BG.png",
+        "questionAudioName": "Identifytheovalshapedobject.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "500x500_0004_Triangle.png",
+          "500x500_0003_Square.png",
+          "500x500_0002_star.png",
+          "500x500_0001_Oval.png"
+        ],
+        "optionsBg": [
+          "greyscale_0004_Triangle.png",
+          "greyscale_0003_Square.png",
+          "greyscale_0002_star.png",
+          "greyscale_0001_Oval.png"
+        ],
+        "correctAudioName": "L8Correct.mp3",
+        "wrongAudioName": "no.mp3",
+        "reiterationAudioName": [
+          "Rugbyballisovalshaped.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "outdoor_BG.png",
+        "questionAudioName": "Identifythestarshapedobject.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "500x500_0003_Square.png",
+          "500x500_0004_Triangle.png",
+          "500x500_0002_star.png",
+          "500x500_0000_Circle.png"
+        ],
+        "optionsBg": [
+          "greyscale_0003_Square.png",
+          "greyscale_0004_Triangle.png",
+          "greyscale_0002_star.png",
+          "greyscale_0000_Circle.png"
+        ],
+        "correctAudioName": "l4correct.mp3",
+        "wrongAudioName": "nu.mp3",
+        "reiterationAudioName": [
+          "wandisstarshaped.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "outdoor_BG.png",
+        "questionAudioName": "Identifythetriangleshapedobject.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "500x500_0004_Triangle.png",
+          "500x500_0000_Circle.png",
+          "500x500_0002_star.png",
+          "500x500_0001_Oval.png"
+        ],
+        "optionsBg": [
+          "greyscale_0004_Triangle.png",
+          "greyscale_0000_Circle.png",
+          "greyscale_0002_star.png",
+          "greyscale_0001_Oval.png"
+        ],
+        "correctAudioName": "L7Correct.mp3",
+        "wrongAudioName": "ns.mp3",
+        "reiterationAudioName": [
+          "Watermelonsliceistriangleshaped.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "outdoor_BG.png",
+        "questionAudioName": "Identifythesquareshapedobject.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "500x500_0004_Triangle.png",
+          "500x500_0003_Square.png",
+          "500x500_0002_star.png",
+          "500x500_0001_Oval.png"
+        ],
+        "optionsBg": [
+          "greyscale_0004_Triangle.png",
+          "greyscale_0003_Square.png",
+          "greyscale_0002_star.png",
+          "greyscale_0001_Oval.png"
+        ],
+        "correctAudioName": "L3correct.mp3",
+        "wrongAudioName": "no.mp3",
+        "reiterationAudioName": [
+          "Clockissquareshaped.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

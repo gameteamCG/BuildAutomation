@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_Oval",
+    "texture": "21a49e16-90b9-46d0-b50f-1e20c11398f6",
+    "atlas": "",
+    "rect": [
+      93,
+      0,
+      317,
+      500
+    ],
+    "offset": [
+      1.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
