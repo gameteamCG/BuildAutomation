@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "797aa904-c890-4bd5-af72-9671feeb8751",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 300,
+  "height": 300,
+  "platformSettings": {},
+  "subMetas": {
+    "300x300_0006_woodpecker": {
+      "ver": "1.0.6",
+      "uuid": "a4ef2f60-b35e-4649-b978-bbda0c6df105",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "797aa904-c890-4bd5-af72-9671feeb8751",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 52,
+      "width": 300,
+      "height": 196,
+      "rawWidth": 300,
+      "rawHeight": 300,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
