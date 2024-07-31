@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "koala",
+    "texture": "e78a06f9-b5f3-4df8-a43e-7df90d76665c",
+    "atlas": "",
+    "rect": [
+      71,
+      41,
+      358,
+      419
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
