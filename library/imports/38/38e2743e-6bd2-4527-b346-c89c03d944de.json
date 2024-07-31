@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Tenlittlefingers",
+    "texture": "108676ec-98f8-4aa3-abd1-ce0a81a9b931",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      552,
+      273
+    ],
+    "offset": [
+      0,
+      11.5
+    ],
+    "originalSize": [
+      552,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
