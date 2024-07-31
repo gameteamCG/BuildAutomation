@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "coral_grey",
+    "texture": "9cc32a8e-1ee5-4bd9-a4d6-31226bd02108",
+    "atlas": "",
+    "rect": [
+      21,
+      19,
+      466,
+      472
+    ],
+    "offset": [
+      4,
+      -5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
