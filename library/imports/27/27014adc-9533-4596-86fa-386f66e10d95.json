@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "twinkletwinkle2",
+    "texture": "75449b2c-062b-47c2-8c20-73c07aa84082",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      811,
+      201
+    ],
+    "offset": [
+      0,
+      25
+    ],
+    "originalSize": [
+      811,
+      253
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

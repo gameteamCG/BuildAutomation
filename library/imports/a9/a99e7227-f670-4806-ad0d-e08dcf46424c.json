@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3wheresleeping",
+    "texture": "0de1f9e1-d335-47c1-a7e8-b36b82aa3513",
+    "atlas": "",
+    "rect": [
+      4,
+      171,
+      509,
+      147
+    ],
+    "offset": [
+      -0.5,
+      5.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

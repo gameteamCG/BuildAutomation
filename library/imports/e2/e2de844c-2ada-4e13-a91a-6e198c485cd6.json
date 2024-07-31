@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q1whoissinging",
+    "texture": "20841bff-c7ad-4847-83d4-aede850d07b6",
+    "atlas": "",
+    "rect": [
+      23,
+      171,
+      468,
+      147
+    ],
+    "offset": [
+      -2,
+      5.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

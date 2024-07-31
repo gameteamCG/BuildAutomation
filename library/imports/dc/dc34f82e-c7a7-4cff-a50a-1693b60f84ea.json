@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2whatistwinkling",
+    "texture": "d05cefcc-2197-422e-b477-78436dc63147",
+    "atlas": "",
+    "rect": [
+      21,
+      174,
+      541,
+      143
+    ],
+    "offset": [
+      0,
+      4.5
+    ],
+    "originalSize": [
+      583,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
