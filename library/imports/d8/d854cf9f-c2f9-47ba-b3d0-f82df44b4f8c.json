@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_gardenerstools",
+    "texture": "544959c3-7315-48fe-a71f-2affdad2aa29",
+    "atlas": "",
+    "rect": [
+      32,
+      123,
+      436,
+      252
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "4_postman_tools",
+    "texture": "284d9b2f-87d4-4dfc-b171-673dd6fafb8a",
+    "atlas": "",
+    "rect": [
+      0,
+      69,
+      500,
+      362
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

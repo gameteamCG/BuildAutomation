@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "17cc7145-dc26-483b-9f98-5c5e4f68a63a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0010_cobbler-tools": {
+      "ver": "1.0.6",
+      "uuid": "f8e267cc-456c-4e6b-aea5-50f8b9adff42",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "17cc7145-dc26-483b-9f98-5c5e4f68a63a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 8,
+      "trimY": 0,
+      "width": 484,
+      "height": 500,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

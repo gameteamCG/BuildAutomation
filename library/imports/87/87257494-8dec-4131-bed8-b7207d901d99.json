@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Typo",
+    "texture": "14df5081-dfba-48b5-a051-dd341f666ed0",
+    "atlas": "",
+    "rect": [
+      24,
+      25,
+      744,
+      293
+    ],
+    "offset": [
+      10.5,
+      -12
+    ],
+    "originalSize": [
+      771,
+      319
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

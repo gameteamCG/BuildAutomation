@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "5_carpenterstools",
+    "texture": "d8879a0c-6666-4840-9ec1-dc5017391f0b",
+    "atlas": "",
+    "rect": [
+      50,
+      34,
+      388,
+      436
+    ],
+    "offset": [
+      -6,
+      -2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

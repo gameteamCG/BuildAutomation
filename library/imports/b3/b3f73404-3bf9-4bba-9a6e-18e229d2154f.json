@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_plumberstools",
+    "texture": "f206be4b-9e99-45d4-af69-a1fa96588f48",
+    "atlas": "",
+    "rect": [
+      181,
+      21,
+      138,
+      457
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

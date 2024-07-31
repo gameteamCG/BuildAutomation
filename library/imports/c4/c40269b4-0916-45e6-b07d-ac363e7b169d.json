@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "6_fireman_tools",
+    "texture": "d62a6a04-7075-41b3-a8de-4d557daa7fd7",
+    "atlas": "",
+    "rect": [
+      0,
+      76,
+      500,
+      347
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
