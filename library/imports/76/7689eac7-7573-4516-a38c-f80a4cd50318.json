@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q1whatisrhyme",
+    "texture": "a35e9868-477c-490a-b1f3-adf84f5d7466",
+    "atlas": "",
+    "rect": [
+      38,
+      171,
+      446,
+      147
+    ],
+    "offset": [
+      2,
+      5.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
