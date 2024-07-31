@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0010_jackal",
+    "texture": "fb299d3b-dc7d-4b3e-894c-ae4ebb641150",
+    "atlas": "",
+    "rect": [
+      34,
+      77,
+      433,
+      351
+    ],
+    "offset": [
+      0.5,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

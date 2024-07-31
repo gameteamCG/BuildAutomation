@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0009_kangaroo",
+    "texture": "cefe097d-0685-4a0d-851a-41d31b988fa4",
+    "atlas": "",
+    "rect": [
+      113,
+      27,
+      275,
+      449
+    ],
+    "offset": [
+      0.5,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
