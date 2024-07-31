@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Letter Kk",
+    "texture": "ed58dd16-ffea-459f-9997-d6581d42ed66",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      732,
+      152
+    ],
+    "offset": [
+      8,
+      -8
+    ],
+    "originalSize": [
+      768,
+      188
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
