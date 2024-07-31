@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2pig2",
+    "texture": "a7fb32dc-e67d-4075-b7df-19e9b70c1ffa",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      249,
+      250
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
