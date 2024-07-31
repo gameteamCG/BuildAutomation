@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "counting",
+      "totalLevel": "6",
+      "TitleImageName": "Asset 12.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "Asset 11.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "counting",
+        "questionImageName": "Asset 3.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "250x250empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 6.png",
+          "Asset 8.png"
+        ],
+        "correctAudioName": "3fish.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "counting",
+        "questionImageName": "Asset 5.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "250x250empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 9.png",
+          "Asset 7.png"
+        ],
+        "correctAudioName": "1fish.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "counting",
+        "questionImageName": "Asset 1.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "250x250empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 10.png",
+          "Asset 6.png"
+        ],
+        "correctAudioName": "5fish.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "counting",
+        "questionImageName": "Asset 4.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "250x250empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 8.png",
+          "Asset 10.png"
+        ],
+        "correctAudioName": "2fish.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "counting",
+        "questionImageName": "Asset 2.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "250x250empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 7.png",
+          "Asset 9.png"
+        ],
+        "correctAudioName": "4fish.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "counting",
+        "questionImageName": "Asset 4.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "250x250empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 8.png",
+          "Asset 10.png"
+        ],
+        "correctAudioName": "2fish.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
