@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Colour - White_PreNursery Numeracy Book_24",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/8793469596_White_1722410288289.mp4",
+      "TitleImageName": "Asset_179.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "whit_ colour.png",
+        "QuestionAudioName": "1_Identify_the_white_color.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "white.png",
+          "blue.png"
+        ],
+        "ReiterationAudioName": "white.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "snow.png",
+        "QuestionAudioName": "2_What_is_the_color_of_the_snow.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "green.png",
+          "white.png"
+        ],
+        "ReiterationAudioName": "white.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "sheep.png",
+        "QuestionAudioName": "3_What_is_the_color_of_the_sheep.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "white.png",
+          "red.png"
+        ],
+        "ReiterationAudioName": "white.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "white colour animal.png",
+        "QuestionAudioName": "4_Tap_on_the_white_colored_animal.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "lion.png",
+          "polar_bear.png"
+        ],
+        "ReiterationAudioName": "polar_bear.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
