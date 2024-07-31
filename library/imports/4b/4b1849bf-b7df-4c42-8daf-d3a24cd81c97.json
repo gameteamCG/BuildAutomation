@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Xrayfish",
+    "texture": "ccfdb5ad-5e30-4a6b-a775-83118cae646a",
+    "atlas": "",
+    "rect": [
+      70,
+      170,
+      302,
+      178
+    ],
+    "offset": [
+      -29,
+      -9
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
