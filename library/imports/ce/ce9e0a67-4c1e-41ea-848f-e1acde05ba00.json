@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "five_little_duck",
+    "texture": "674423fb-1d7a-45e6-828b-d7fb91ab8624",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      564,
+      251
+    ],
+    "offset": [
+      0,
+      28.5
+    ],
+    "originalSize": [
+      564,
+      312
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

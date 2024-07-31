@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "motherduck1",
+    "texture": "8295d4b9-b70f-4c6e-acd4-660050fe56d8",
+    "atlas": "",
+    "rect": [
+      60,
+      214,
+      427,
+      51
+    ],
+    "offset": [
+      3,
+      10.5
+    ],
+    "originalSize": [
+      541,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
