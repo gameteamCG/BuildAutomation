@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shower",
+    "texture": "fbc1c384-b4d0-4201-8be4-aabe6b535d58",
+    "atlas": "",
+    "rect": [
+      24,
+      15,
+      202,
+      224
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
