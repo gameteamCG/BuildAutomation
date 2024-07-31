@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yeti",
+    "texture": "93f3c99e-6b4a-43d4-9f69-1d7410df42a8",
+    "atlas": "",
+    "rect": [
+      49,
+      15,
+      143,
+      220
+    ],
+    "offset": [
+      -4.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
