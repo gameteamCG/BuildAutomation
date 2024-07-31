@@ -1,0 +1,92 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Need for air and water_LKG (4-5 years)_28",
+      "totalLevel": "4",
+      "TitleImageName": "Need_for_air_and_water.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "HappyKidsSnappyMusicalInterlude.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "cryon",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "what is air used for",
+        "questionAudioName": "que_what_is_air_used_for.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_1.png",
+          "Artboard_3_1.png",
+          "Artboard_2.png"
+        ],
+        "correctAudios": [
+          "fly_kites.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "what is air used for",
+        "questionAudioName": "que_what_is_air_used_for.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Artboard_3.png",
+          "Artboard_5.png",
+          "Asset_2.png"
+        ],
+        "correctAudios": [
+          "25768661_2_drying-clothes.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "what is air used for",
+        "questionAudioName": "que_what_is_air_used_for.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Artboard_3_1.png",
+          "Asset_3.png",
+          "cooking.png"
+        ],
+        "correctAudios": [
+          "25768661_3_breathing-air.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "what is air used for",
+        "questionAudioName": "que_what_is_air_used_for.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_4.png",
+          "cooking.png",
+          "Artboard_2.png"
+        ],
+        "correctAudios": [
+          "25768661_1_windmill.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

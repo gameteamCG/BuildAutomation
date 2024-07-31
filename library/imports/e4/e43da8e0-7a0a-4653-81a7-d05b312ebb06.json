@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Need_for_air_and_water",
+    "texture": "37b66d6f-2110-4435-9286-a613ca0c25a7",
+    "atlas": "",
+    "rect": [
+      25,
+      24,
+      1171,
+      291
+    ],
+    "offset": [
+      11.5,
+      -3.5
+    ],
+    "originalSize": [
+      1198,
+      332
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
