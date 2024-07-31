@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2whatisthecolor",
+    "texture": "8f413c42-6a49-416a-96e0-64ba20f4350e",
+    "atlas": "",
+    "rect": [
+      54,
+      130,
+      409,
+      229
+    ],
+    "offset": [
+      0,
+      5.5
+    ],
+    "originalSize": [
+      517,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
