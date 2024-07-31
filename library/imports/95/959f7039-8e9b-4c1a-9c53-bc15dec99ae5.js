@@ -281,6 +281,7 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.start = function () {
         this.playVideo1();
+        console.log("starsEarned--1");
         for (var i = 2; i <= StartGame_1.default.Instance.questions.length; i++) {
             var star = cc.instantiate(this.starsPanel.children[0]);
             star.parent = this.starsPanel;
@@ -306,6 +307,7 @@ var video = /** @class */ (function (_super) {
         this.node.on('completed', function () {
             if (this.gameStarted) {
                 this.checkOnMissingQuestions();
+                console.log("starsEarned--2");
                 console.log("video completed");
                 this.tools.active = false;
                 this.videoCompleted = true;
@@ -442,6 +444,8 @@ var video = /** @class */ (function (_super) {
         this.attemps++;
         if (parseInt(input) == this.questions[this.currentQuestion - 1].correctAnswer) {
             // this.character.getComponent(cc.Animation).play("correct");
+            console.log("correctAnswer--" + this.currentQuestion);
+            console.log("levelComplete--" + this.currentQuestion);
             _event.target.getChildByName("green").active = true;
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.correctSound, false);
@@ -494,6 +498,8 @@ var video = /** @class */ (function (_super) {
             }, this.questions[this.currentQuestion - 1].reiterationAudio.duration + 0.5);
         }
         else {
+            console.log("wrongAnswer--" + this.currentQuestion);
+            // console.log("levelComplete--" + this.currentQuestion);
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].wrongAudio, false);
             // this.character.getComponent(cc.Animation).play("wrong");
@@ -529,6 +535,7 @@ var video = /** @class */ (function (_super) {
                 this.PauseButton();
                 this.questionSetup();
                 this.currentQuestion++;
+                console.log("levelStarted--" + this.currentQuestion);
                 this.questionNode.active = true;
                 break;
             }
@@ -538,6 +545,7 @@ var video = /** @class */ (function (_super) {
             this.node.getParent().getChildByName("curtain").getComponent(cc.Animation).play().wrapMode = cc.WrapMode.Reverse;
             this.scheduleOnce(function () {
                 _this.node.getParent().getChildByName("gameEnd").active = true;
+                console.log("starsEarned--3");
                 console.log("showedScreen--Excellent");
                 console.log("gameEnded--true");
                 if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "crayon") {
