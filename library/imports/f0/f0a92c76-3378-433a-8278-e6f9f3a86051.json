@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyscale_0004_Triangle",
+    "texture": "7b1cafa5-26cb-446a-a59a-ae97e003148a",
+    "atlas": "",
+    "rect": [
+      8,
+      5,
+      483,
+      490
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

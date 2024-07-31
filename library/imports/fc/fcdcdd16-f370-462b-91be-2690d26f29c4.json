@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyscale_0002_star",
+    "texture": "98bb6afe-7324-4efa-84d8-af0cd91a5985",
+    "atlas": "",
+    "rect": [
+      88,
+      18,
+      336,
+      466
+    ],
+    "offset": [
+      6,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
