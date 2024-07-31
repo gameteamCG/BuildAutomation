@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2whogauri",
+    "texture": "5ad6501a-d218-48cb-befd-dab48dfe94ee",
+    "atlas": "",
+    "rect": [
+      39,
+      212,
+      442,
+      54
+    ],
+    "offset": [
+      1,
+      11
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q4whochinu",
+    "texture": "e117583c-689e-4ec2-b963-d3014b4b048b",
+    "atlas": "",
+    "rect": [
+      31,
+      212,
+      456,
+      54
+    ],
+    "offset": [
+      0,
+      11
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
