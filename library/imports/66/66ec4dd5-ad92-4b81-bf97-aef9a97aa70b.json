@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Humptydumpty",
+    "texture": "97f4fd7b-c62c-49c9-adbb-a285ec7a9be9",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      530,
+      264
+    ],
+    "offset": [
+      0,
+      8
+    ],
+    "originalSize": [
+      530,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
