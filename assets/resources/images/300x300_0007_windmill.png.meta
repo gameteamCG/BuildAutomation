@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b68e8c06-d580-443e-9e5c-b6a3e46d1cce",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 300,
+  "height": 300,
+  "platformSettings": {},
+  "subMetas": {
+    "300x300_0007_windmill": {
+      "ver": "1.0.6",
+      "uuid": "a4d8d9f7-1f67-4de6-8fc6-bc1e2430f457",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b68e8c06-d580-443e-9e5c-b6a3e46d1cce",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 40,
+      "trimY": 0,
+      "width": 220,
+      "height": 300,
+      "rawWidth": 300,
+      "rawHeight": 300,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
