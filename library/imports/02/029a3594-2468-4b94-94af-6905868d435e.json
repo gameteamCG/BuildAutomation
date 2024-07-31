@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "beehive",
+    "texture": "d7aea07f-96fe-4c46-8454-23ce328264ed",
+    "atlas": "",
+    "rect": [
+      2,
+      19,
+      245,
+      202
+    ],
+    "offset": [
+      -0.5,
+      5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
