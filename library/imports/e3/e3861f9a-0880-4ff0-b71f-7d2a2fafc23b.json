@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nose",
+    "texture": "1dbb2b5c-4160-4fee-8dd4-66ecdd67e2f7",
+    "atlas": "",
+    "rect": [
+      7,
+      5,
+      236,
+      239
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
