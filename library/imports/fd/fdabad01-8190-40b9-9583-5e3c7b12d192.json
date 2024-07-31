@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "6aqua",
+    "texture": "d139d964-bcbc-4313-967c-cf25f97198c0",
+    "atlas": "",
+    "rect": [
+      167,
+      98,
+      194,
+      288
+    ],
+    "offset": [
+      14,
+      8
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

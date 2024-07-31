@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greengem1",
+    "texture": "7703cecd-d2df-47a6-ba68-a96ceae30ec0",
+    "atlas": "",
+    "rect": [
+      195,
+      117,
+      162,
+      264
+    ],
+    "offset": [
+      26,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

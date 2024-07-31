@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pink6",
+    "texture": "d0f4aaa2-3b61-4008-bf4a-ba39516b4deb",
+    "atlas": "",
+    "rect": [
+      110,
+      31,
+      325,
+      450
+    ],
+    "offset": [
+      22.5,
+      -6
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

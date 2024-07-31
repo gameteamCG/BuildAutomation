@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "redgem4",
+    "texture": "0e62b97d-4a76-4cb4-99d4-7475d6d625be",
+    "atlas": "",
+    "rect": [
+      103,
+      75,
+      362,
+      356
+    ],
+    "offset": [
+      34,
+      -3
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

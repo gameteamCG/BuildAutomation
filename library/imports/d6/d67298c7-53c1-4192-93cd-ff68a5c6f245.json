@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bluegem3",
+    "texture": "949ba1de-b314-4d60-9a04-5ea7d0357061",
+    "atlas": "",
+    "rect": [
+      195,
+      29,
+      146,
+      443
+    ],
+    "offset": [
+      18,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
