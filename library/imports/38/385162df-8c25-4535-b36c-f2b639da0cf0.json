@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wiggle your finger",
+    "texture": "84f6072f-bae7-4133-ac1f-7ffc8add5fbc",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      802,
+      552
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      803,
+      553
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

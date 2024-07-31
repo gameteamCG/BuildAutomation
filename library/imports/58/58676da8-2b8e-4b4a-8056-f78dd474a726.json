@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wiggle your toes",
+    "texture": "1427bad2-ffb8-4c23-88aa-4926ab1047be",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      802,
+      552
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      802,
+      552
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "touch your knees",
+    "texture": "5f3077ad-ea36-4fda-a831-df04e6f7f39b",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      802,
+      552
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      803,
+      553
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

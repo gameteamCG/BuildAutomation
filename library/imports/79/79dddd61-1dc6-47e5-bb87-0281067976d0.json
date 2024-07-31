@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shrig your shoulder",
+    "texture": "31032e6a-f0a9-46df-b512-14376c6422ec",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      802,
+      552
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      803,
+      553
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
