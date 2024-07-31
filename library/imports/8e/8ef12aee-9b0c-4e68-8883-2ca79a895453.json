@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Once i caught a fish alive (TLC )SR KG Feedback",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/71038549_CaughtAFishAlive_1715918381184.mp4",
+      "TitleImageName": "Oncefishalive_title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "tlc",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q1whatisrhyme.png",
+        "QuestionAudioName": "what_is_the_rhyme_about.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "12345.png",
+          "abcd.png",
+          "giraffe.png",
+          "monkey.png"
+        ],
+        "ReiterationAudioName": "12345.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q2_8fish.png",
+        "QuestionAudioName": "count_the_number_of_fish_and_choose_the_correct_option.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "9.png",
+          "5.png",
+          "8.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "8.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q3identifynumber2.png",
+        "QuestionAudioName": "Identify_the_number_5.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "1.png",
+          "3.png",
+          "6.png",
+          "5.png"
+        ],
+        "ReiterationAudioName": "5.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}
