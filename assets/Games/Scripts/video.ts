@@ -278,6 +278,7 @@ export default class video extends cc.Component {
 
     start() {
         this.playVideo1();
+        console.log("starsEarned--1");
         for (let i = 2; i <= startGame.Instance.questions.length; i++) {
             let star = cc.instantiate(this.starsPanel.children[0]);
             star.parent = this.starsPanel;
@@ -303,6 +304,7 @@ export default class video extends cc.Component {
         this.node.on('completed', function () {
             if (this.gameStarted) {
                 this.checkOnMissingQuestions();
+                console.log("starsEarned--2");
                 console.log("video completed");
                 this.tools.active = false;
                 this.videoCompleted = true;
@@ -444,6 +446,8 @@ export default class video extends cc.Component {
         this.attemps++;
         if (parseInt(input) == this.questions[this.currentQuestion - 1].correctAnswer) {
             // this.character.getComponent(cc.Animation).play("correct");
+            console.log("correctAnswer--" + this.currentQuestion);
+            console.log("levelComplete--" + this.currentQuestion);
             _event.target.getChildByName("green").active = true;
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.correctSound, false);
@@ -497,6 +501,8 @@ export default class video extends cc.Component {
             }, this.questions[this.currentQuestion - 1].reiterationAudio.duration + 0.5);
         }
         else {
+            console.log("wrongAnswer--" + this.currentQuestion);
+            // console.log("levelComplete--" + this.currentQuestion);
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].wrongAudio, false);
             // this.character.getComponent(cc.Animation).play("wrong");
@@ -535,6 +541,7 @@ export default class video extends cc.Component {
                 this.PauseButton();
                 this.questionSetup();
                 this.currentQuestion++;
+                console.log("levelStarted--" + this.currentQuestion);
                 this.questionNode.active = true;
                 break;
             }
@@ -544,6 +551,7 @@ export default class video extends cc.Component {
             this.node.getParent().getChildByName("curtain").getComponent(cc.Animation).play().wrapMode = cc.WrapMode.Reverse;
             this.scheduleOnce(() => {
                 this.node.getParent().getChildByName("gameEnd").active = true;
+                console.log("starsEarned--3");
                 console.log("showedScreen--Excellent");
                 console.log("gameEnded--true");
                 if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "crayon") {
