@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2wherelambfollow",
+    "texture": "c8ec35c9-d41d-48a1-84ab-5b4d5c69d56e",
+    "atlas": "",
+    "rect": [
+      20,
+      130,
+      461,
+      229
+    ],
+    "offset": [
+      -8.5,
+      5.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
