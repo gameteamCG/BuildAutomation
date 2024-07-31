@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eyeds2",
+    "texture": "adda5bfd-7e6e-469a-b866-deb82ae658da",
+    "atlas": "",
+    "rect": [
+      192,
+      228,
+      137,
+      50
+    ],
+    "offset": [
+      1.5,
+      -3
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
