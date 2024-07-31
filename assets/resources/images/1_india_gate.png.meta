@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4b00c561-b83d-4670-9036-aceffad1fccc",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "1_india_gate": {
+      "ver": "1.0.6",
+      "uuid": "a641eb63-0d00-4f94-b85a-ed84c8efbff6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4b00c561-b83d-4670-9036-aceffad1fccc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 501,
+      "height": 501,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Famous_places_in_India",
+    "texture": "a96a9d25-a23f-4692-85dd-90f29f8cdb01",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      1026,
+      255
+    ],
+    "offset": [
+      -4.5,
+      -4
+    ],
+    "originalSize": [
+      1087,
+      299
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

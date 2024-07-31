@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Famous places in India_LKG (4-5 years)_31",
+      "totalLevel": "6",
+      "TitleImageName": "Famous_places_in_India.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "ColourBGM1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "bag",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Famous place in India",
+        "questionAudioName": "que_1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_12.png",
+          "1_india_gate.png"
+        ],
+        "correctAudios": [
+          "1_india-gate.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Famous place in India",
+        "questionAudioName": "que_2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "2_Taj.png",
+          "Asset_10.png"
+        ],
+        "correctAudios": [
+          "2_taj-mahal.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Famous place in India",
+        "questionAudioName": "que_3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_8.png",
+          "3_sundarban.png"
+        ],
+        "correctAudios": [
+          "3_the-sunderbans-nationa.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Famous place in India",
+        "questionAudioName": "que_4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "4_gateway_of_india.png",
+          "2_Taj.png"
+        ],
+        "correctAudios": [
+          "4_gateway-of-india.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Famous place in India",
+        "questionAudioName": "que_5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_8.png",
+          "5_charminar.png"
+        ],
+        "correctAudios": [
+          "5_charminar.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Famous place in India",
+        "questionAudioName": "que_6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "6_minakshi_temple.png",
+          "Asset_12.png"
+        ],
+        "correctAudios": [
+          "6_meenakshi-temple.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a96a9d25-a23f-4692-85dd-90f29f8cdb01",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1087,
+  "height": 299,
+  "platformSettings": {},
+  "subMetas": {
+    "Famous_places_in_India": {
+      "ver": "1.0.6",
+      "uuid": "4f8fd84d-6c85-4d6c-8db7-e8d9816eb546",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a96a9d25-a23f-4692-85dd-90f29f8cdb01",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -4.5,
+      "offsetY": -4,
+      "trimX": 26,
+      "trimY": 26,
+      "width": 1026,
+      "height": 255,
+      "rawWidth": 1087,
+      "rawHeight": 299,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
