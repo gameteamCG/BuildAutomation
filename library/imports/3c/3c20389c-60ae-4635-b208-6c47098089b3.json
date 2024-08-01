@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "2_tailor_tools",
+    "texture": "325237d0-0afd-4669-8b90-08f4abc24f6c",
+    "atlas": "",
+    "rect": [
+      0,
+      83,
+      500,
+      334
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

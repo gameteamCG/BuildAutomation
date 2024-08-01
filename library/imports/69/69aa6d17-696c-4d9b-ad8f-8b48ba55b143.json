@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "10_barber_tools",
+    "texture": "3747b8f8-9b1e-4529-b3c2-3148a8652fdd",
+    "atlas": "",
+    "rect": [
+      0,
+      59,
+      500,
+      383
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

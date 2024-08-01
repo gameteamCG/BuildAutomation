@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "8_doctor_tools",
+    "texture": "02ee1c81-06af-4226-8a7a-cc4890800140",
+    "atlas": "",
+    "rect": [
+      0,
+      20,
+      500,
+      460
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

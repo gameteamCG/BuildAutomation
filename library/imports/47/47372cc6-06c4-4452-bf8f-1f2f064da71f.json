@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_teachers_tools",
+    "texture": "c8cd18ca-df8a-4acb-906b-91226a181c1f",
+    "atlas": "",
+    "rect": [
+      21,
+      124,
+      457,
+      280
+    ],
+    "offset": [
+      -0.5,
+      -14
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

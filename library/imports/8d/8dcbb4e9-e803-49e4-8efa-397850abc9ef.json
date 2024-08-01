@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0010_cobbler-tools",
+    "texture": "b5505416-09d4-4c7f-898c-7a01e0d07236",
+    "atlas": "",
+    "rect": [
+      8,
+      0,
+      484,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
