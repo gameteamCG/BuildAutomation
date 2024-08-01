@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q1horse2",
+    "texture": "01454a7d-595f-48f0-9318-cfff6cf4bc87",
+    "atlas": "",
+    "rect": [
+      9,
+      4,
+      231,
+      242
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
