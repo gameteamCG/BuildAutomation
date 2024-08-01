@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "utfamilywords",
+    "texture": "cdf61ab7-f23f-4081-baf4-f10640f6742b",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      978,
+      145
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      978,
+      147
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
