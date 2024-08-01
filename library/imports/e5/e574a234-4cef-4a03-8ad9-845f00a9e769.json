@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "learncolorswithroutine",
+    "texture": "2a017c59-43ae-4124-b03c-a6232c543d6f",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      790,
+      239
+    ],
+    "offset": [
+      0,
+      28.5
+    ],
+    "originalSize": [
+      790,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
