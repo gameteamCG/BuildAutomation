@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Heavyandlight",
+    "texture": "a654d6e1-ab36-45d2-9ade-19948ab6902e",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      1011,
+      284
+    ],
+    "offset": [
+      0,
+      11.5
+    ],
+    "originalSize": [
+      1011,
+      311
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
