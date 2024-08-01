@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3woolbags",
+    "texture": "9adb5017-b614-4675-877e-34967a67bb08",
+    "atlas": "",
+    "rect": [
+      7,
+      49,
+      237,
+      152
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
