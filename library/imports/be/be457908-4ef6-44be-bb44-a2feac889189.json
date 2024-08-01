@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Letter sound - c, k, ck",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/69434CkStory_1721043843145.mp4",
+      "TitleImageName": "Asset482.png",
+      "IntroAudio1Name": "bgm3.mp3",
+      "IntroAudio2Name": "",
+      "JockeyName": "Podar",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "888888",
+        "IsQuestionText": true,
+        "QuestionText": "Cathy and Kim",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifythepictureo.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset66.png",
+          "Asset62.png",
+          "a.png",
+          "b.png"
+        ],
+        "ReiterationAudioName": "cathyandkim.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "88888",
+        "IsQuestionText": true,
+        "QuestionText": "What did Cathy use to click pictures?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whatdidcathyuseto.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "camera.png",
+          "h.png",
+          "c.png",
+          "l.png"
+        ],
+        "ReiterationAudioName": "camera.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "888888",
+        "IsQuestionText": true,
+        "QuestionText": "Whose picture did Cathy clicks?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whosepicturesdidcat.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "s.png",
+          "k.png",
+          "Asset64.png",
+          "snail.png"
+        ],
+        "ReiterationAudioName": "cocoonsandcaterpilla.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "888888",
+        "IsQuestionText": true,
+        "QuestionText": "What did Kim fly?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whatdidkimfly.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "r.png",
+          "c.png",
+          "w.png",
+          "Asset61.png"
+        ],
+        "ReiterationAudioName": "kites.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "888888",
+        "IsQuestionText": true,
+        "QuestionText": "Whom did Kim play with?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whomdidkimplaywith.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "kitten.png",
+          "snail.png",
+          "r.png",
+          "q.png"
+        ],
+        "ReiterationAudioName": "kitten.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "88888",
+        "IsQuestionText": true,
+        "QuestionText": "Whom did Cathy and Kim feed?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "whomdidcathyandkim.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "k.png",
+          "food.png",
+          "ducks.png",
+          "school.png"
+        ],
+        "ReiterationAudioName": "ducks.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}
