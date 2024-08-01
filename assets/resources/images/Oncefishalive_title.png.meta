@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9bf250fe-63ae-4414-8900-38e1414123b7",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 763,
+  "height": 253,
+  "platformSettings": {},
+  "subMetas": {
+    "Oncefishalive_title": {
+      "ver": "1.0.6",
+      "uuid": "0a9d36f4-3c47-4a2b-8202-cc1a45253650",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9bf250fe-63ae-4414-8900-38e1414123b7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 22,
+      "trimX": 0,
+      "trimY": 2,
+      "width": 763,
+      "height": 205,
+      "rawWidth": 763,
+      "rawHeight": 253,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
