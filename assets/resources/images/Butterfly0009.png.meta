@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "20dd1c40-56e2-43bf-a12e-ec841b3db7d9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Butterfly0009": {
+      "ver": "1.0.6",
+      "uuid": "ac9f0b16-597a-456b-916d-6f6705261b53",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "20dd1c40-56e2-43bf-a12e-ec841b3db7d9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 28,
+      "offsetY": -4,
+      "trimX": 73,
+      "trimY": 30,
+      "width": 410,
+      "height": 448,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
