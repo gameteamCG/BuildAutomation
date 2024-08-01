@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Describing words_LKG (4-5 years)_31",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/9872437623_Describing_Words+_Adjectives_1722505935584.mp4",
+      "TitleImageName": "Describing_words.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "crayon",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": true,
+        "QuestionText": "big house",
+        "QuestionImageName": "",
+        "QuestionAudioName": "1_tap-on-the_picture-of-big_house.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "250x250_0013_bighouse.png",
+          "250x250_0015_smallhouse.png",
+          "250x250_0014_bigbird.png",
+          "250x250_0016_smallbird.png"
+        ],
+        "ReiterationAudioName": "1_big-house.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": true,
+        "QuestionText": "red shirt",
+        "QuestionImageName": "",
+        "QuestionAudioName": "2_identify-the-picture-of_red_shirt.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "250x250_0005_whitetshirt.png",
+          "250x250_0018_greentshirt.png",
+          "250x250_0019_bluetshirt.png",
+          "250x250_0017_redtshirt.png"
+        ],
+        "ReiterationAudioName": "2_red-shirt.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": true,
+        "QuestionText": "happy girl",
+        "QuestionImageName": "",
+        "QuestionAudioName": "3_choose-the-picture-of-happy_girl.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "250x250_0006_cryinggirl.png",
+          "250x250_0007_happygirl.png",
+          "250x250_0008_angrygirl.png",
+          "250x250_0009_sadgirl.png"
+        ],
+        "ReiterationAudioName": "3_happy-girl.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

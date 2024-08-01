@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0017_redtshirt",
+    "texture": "aa87d26a-61b9-476f-8b4a-38709f3a8023",
+    "atlas": "",
+    "rect": [
+      20,
+      14,
+      210,
+      222
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

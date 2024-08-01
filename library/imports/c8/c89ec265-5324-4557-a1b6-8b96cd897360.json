@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0009_sadgirl",
+    "texture": "6b2b29f9-0835-441d-83f5-936e0596e7d8",
+    "atlas": "",
+    "rect": [
+      72,
+      17,
+      107,
+      216
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

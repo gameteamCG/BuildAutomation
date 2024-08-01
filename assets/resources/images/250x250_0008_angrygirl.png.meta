@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d1a8c4a2-d9ae-41e3-beed-38776a8c3a18",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0008_angrygirl": {
+      "ver": "1.0.6",
+      "uuid": "5ea30ef2-1e09-4c87-91c8-5b2860e29aa2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d1a8c4a2-d9ae-41e3-beed-38776a8c3a18",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 58,
+      "trimY": 6,
+      "width": 135,
+      "height": 238,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
