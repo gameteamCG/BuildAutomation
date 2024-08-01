@@ -1,0 +1,180 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Ending Blends_UKG Practice Book 2_15",
+      "totalLevel": "7",
+      "TitleImageName": "Asset_249.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "ColourBGM1.mp3",
+      "mainBgName": "Asset_7.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Ending blend",
+        "questionAudioName": "Match_the_ending_blend_with_the_correct_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "commonDropNodeImageName": "Asset_4.png",
+        "isDropAreaText": true,
+        "dropAreas": [
+          "nd",
+          "ld"
+        ],
+        "reiterationAudios": [
+          "1_pond.mp3",
+          "2_gold.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "1_pond.png",
+          "2_gold.png",
+          "9_chalk.png"
+        ]
+      },
+      {
+        "questionText": "Ending blend",
+        "questionAudioName": "Match_the_ending_blend_with_the_correct_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "commonDropNodeImageName": "Asset_4.png",
+        "isDropAreaText": true,
+        "dropAreas": [
+          "nt",
+          "st"
+        ],
+        "reiterationAudios": [
+          "3_tent.mp3",
+          "4_nest.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "3_tent.png",
+          "4_nest.png",
+          "7_inject.png"
+        ]
+      },
+      {
+        "questionText": "Ending blend",
+        "questionAudioName": "Match_the_ending_blend_with_the_correct_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "commonDropNodeImageName": "Asset_4.png",
+        "isDropAreaText": true,
+        "dropAreas": [
+          "ft",
+          "lt"
+        ],
+        "reiterationAudios": [
+          "5_raft.png",
+          "6_salt.png"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "5_raft.png",
+          "6_salt.png",
+          "3_tent.png"
+        ]
+      },
+      {
+        "questionText": "Ending blend",
+        "questionAudioName": "Match_the_ending_blend_with_the_correct_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "commonDropNodeImageName": "Asset_4.png",
+        "isDropAreaText": true,
+        "dropAreas": [
+          "ct",
+          "pt"
+        ],
+        "reiterationAudios": [
+          "7_inject.mp3",
+          "8_script.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "7_inject.png",
+          "8_script.png",
+          "2_gold.png"
+        ]
+      },
+      {
+        "questionText": "Ending blend",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "commonDropNodeImageName": "Asset_4.png",
+        "isDropAreaText": true,
+        "dropAreas": [
+          "lk",
+          "nk"
+        ],
+        "reiterationAudios": [
+          "9_chalk.mp3",
+          "10_bank.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "9_chalk.png",
+          "10_bank.png",
+          "3_tent.png"
+        ]
+      },
+      {
+        "questionText": "Ending blend",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "commonDropNodeImageName": "Asset_4.png",
+        "isDropAreaText": true,
+        "dropAreas": [
+          "sk",
+          "lk"
+        ],
+        "reiterationAudios": [
+          "11_mask.mp3",
+          "12_walk.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "11_mask.png",
+          "12_walk.png",
+          "2_gold.png"
+        ]
+      },
+      {
+        "questionText": "Ending blend",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "commonDropNodeImageName": "Asset_4.png",
+        "isDropAreaText": true,
+        "dropAreas": [
+          "mp",
+          "sp"
+        ],
+        "reiterationAudios": [
+          "13_ramp.mp3",
+          "14_wasp.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "13_ramp.png",
+          "14_wasp.png",
+          "1_pond.png"
+        ]
+      }
+    ]
+  }
+}
