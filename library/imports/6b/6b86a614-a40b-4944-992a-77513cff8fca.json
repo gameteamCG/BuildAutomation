@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Wheredosharklive",
+    "texture": "3c361aad-32c5-4224-af0e-67e2b1a613a6",
+    "atlas": "",
+    "rect": [
+      83,
+      173,
+      377,
+      133
+    ],
+    "offset": [
+      1,
+      10.5
+    ],
+    "originalSize": [
+      541,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

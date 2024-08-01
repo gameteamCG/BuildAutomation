@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "daddyshark2",
+    "texture": "36bdfcbf-abad-47b6-b156-8c22cf700d8f",
+    "atlas": "",
+    "rect": [
+      62,
+      214,
+      420,
+      64
+    ],
+    "offset": [
+      1.5,
+      4
+    ],
+    "originalSize": [
+      541,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

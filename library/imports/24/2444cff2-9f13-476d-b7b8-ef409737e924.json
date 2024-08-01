@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "babysharksong",
+    "texture": "eb004f8c-f945-4ce9-a6f8-247c23ccf44a",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      580,
+      219
+    ],
+    "offset": [
+      0,
+      7.5
+    ],
+    "originalSize": [
+      580,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
