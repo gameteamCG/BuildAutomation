@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0001_Here-is-a-said-Hun",
+    "texture": "1049f77e-7f86-46b9-b0b1-3b93072d0826",
+    "atlas": "",
+    "rect": [
+      7,
+      48,
+      486,
+      418
+    ],
+    "offset": [
+      0,
+      -7
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

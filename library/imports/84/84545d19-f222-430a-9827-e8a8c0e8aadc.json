@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0000_Ted-has-a-_____",
+    "texture": "90c87e98-97d8-4ae6-80f7-b4e99f7dbeb9",
+    "atlas": "",
+    "rect": [
+      131,
+      54,
+      257,
+      429
+    ],
+    "offset": [
+      -4,
+      -18.5
+    ],
+    "originalSize": [
+      527,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
