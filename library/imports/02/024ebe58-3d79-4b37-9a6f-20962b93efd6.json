@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Hickorydickorydock",
+    "texture": "1f4be9e6-eda1-4fd5-a560-631797ce66d3",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      980,
+      231
+    ],
+    "offset": [
+      0,
+      28.5
+    ],
+    "originalSize": [
+      980,
+      292
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
