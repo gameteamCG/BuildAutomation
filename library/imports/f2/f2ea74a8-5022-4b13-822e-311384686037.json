@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tape",
+    "texture": "97d4c797-4a3f-44dd-92ae-085b70cd6c1d",
+    "atlas": "",
+    "rect": [
+      103,
+      118,
+      322,
+      269
+    ],
+    "offset": [
+      14,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

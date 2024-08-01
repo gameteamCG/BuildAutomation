@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "girl",
+    "texture": "da09224a-5ed5-4836-b845-fde4ddf369e8",
+    "atlas": "",
+    "rect": [
+      187,
+      62,
+      194,
+      366
+    ],
+    "offset": [
+      34,
+      5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

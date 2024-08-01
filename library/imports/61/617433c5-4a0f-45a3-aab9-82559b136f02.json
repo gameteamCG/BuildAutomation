@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "xmastree",
+    "texture": "fd4510b9-cb3d-43b6-a454-d8306c77fdfc",
+    "atlas": "",
+    "rect": [
+      81,
+      67,
+      284,
+      357
+    ],
+    "offset": [
+      -27,
+      4.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
