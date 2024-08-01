@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q5_bluewhale",
+    "texture": "1ed06e08-bb41-4a01-a967-c8af30f0875c",
+    "atlas": "",
+    "rect": [
+      64,
+      214,
+      376,
+      51
+    ],
+    "offset": [
+      2,
+      10.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
