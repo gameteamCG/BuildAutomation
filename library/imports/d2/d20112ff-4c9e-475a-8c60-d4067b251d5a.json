@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "asset_pet",
+    "texture": "c32e80d1-8661-4165-bdd3-ef16e97f6a80",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      327,
+      510
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      327,
+      510
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
