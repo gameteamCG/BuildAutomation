@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "goat_kid",
+    "texture": "37a047bd-b630-4dab-b99a-c93f3d2d8d68",
+    "atlas": "",
+    "rect": [
+      37,
+      14,
+      176,
+      222
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

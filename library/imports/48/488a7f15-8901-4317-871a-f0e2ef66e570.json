@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "babyhen",
+    "texture": "7a398203-54b3-4d7c-b47e-213b881be00d",
+    "atlas": "",
+    "rect": [
+      95,
+      215,
+      313,
+      64
+    ],
+    "offset": [
+      1,
+      3.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

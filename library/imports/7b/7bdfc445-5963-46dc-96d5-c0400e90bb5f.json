@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lambisa",
+    "texture": "fb2e9bdd-5bf8-4233-96cb-e2e27592bbd2",
+    "atlas": "",
+    "rect": [
+      0,
+      172,
+      501,
+      148
+    ],
+    "offset": [
+      0,
+      4.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
