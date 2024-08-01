@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mouth",
+    "texture": "d935fd33-4895-40e0-931c-39b142982701",
+    "atlas": "",
+    "rect": [
+      7,
+      43,
+      243,
+      155
+    ],
+    "offset": [
+      3.5,
+      4.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
