@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whatistherhymeabout",
+    "texture": "e0987915-fb4a-41c9-918e-87e7db4ad905",
+    "atlas": "",
+    "rect": [
+      29,
+      169,
+      451,
+      148
+    ],
+    "offset": [
+      4,
+      7
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

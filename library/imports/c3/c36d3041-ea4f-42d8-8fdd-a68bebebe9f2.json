@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "seeonthwshore",
+    "texture": "68861dbd-f1ad-4b4c-8910-dfa5e30da314",
+    "atlas": "",
+    "rect": [
+      2,
+      171,
+      548,
+      131
+    ],
+    "offset": [
+      0.5,
+      13.5
+    ],
+    "originalSize": [
+      551,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
