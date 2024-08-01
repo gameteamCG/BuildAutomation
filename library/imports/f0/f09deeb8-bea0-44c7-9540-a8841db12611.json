@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sunglases",
+    "texture": "01382d8a-c5fe-4971-9202-c605f0403859",
+    "atlas": "",
+    "rect": [
+      28,
+      87,
+      194,
+      68
+    ],
+    "offset": [
+      0,
+      4
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

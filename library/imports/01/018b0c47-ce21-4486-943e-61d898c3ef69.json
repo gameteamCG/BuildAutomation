@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lioncub",
+    "texture": "b1672c9a-77c6-47aa-9533-c9816c3c9786",
+    "atlas": "",
+    "rect": [
+      32,
+      12,
+      186,
+      227
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
