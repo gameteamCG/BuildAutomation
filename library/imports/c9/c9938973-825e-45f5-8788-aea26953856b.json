@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pram_text",
+    "texture": "80dcec23-b12c-4462-ab9a-4286fe3dca22",
+    "atlas": "",
+    "rect": [
+      36,
+      103,
+      181,
+      50
+    ],
+    "offset": [
+      1,
+      -2.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

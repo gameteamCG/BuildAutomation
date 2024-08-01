@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "trip",
+    "texture": "5d6f6e35-0acd-4fe5-bed0-b0b90d77a645",
+    "atlas": "",
+    "rect": [
+      66,
+      87,
+      119,
+      66
+    ],
+    "offset": [
+      0,
+      5.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

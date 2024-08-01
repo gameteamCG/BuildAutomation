@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pl copy",
+    "texture": "16412b81-d5bf-49dd-8d60-0e14f6c018a7",
+    "atlas": "",
+    "rect": [
+      36,
+      89,
+      176,
+      51
+    ],
+    "offset": [
+      -1.5,
+      11
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
