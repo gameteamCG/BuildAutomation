@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "land_pollution_tital",
+    "texture": "e5f79430-cf6a-4c60-b3c4-a20d304b602a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      864,
+      472
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      864,
+      472
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
