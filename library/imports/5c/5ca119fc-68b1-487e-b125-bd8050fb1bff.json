@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q_odd",
+    "texture": "403e5104-8c3a-43d1-bfb6-7885ee37f9ac",
+    "atlas": "",
+    "rect": [
+      182,
+      206,
+      134,
+      60
+    ],
+    "offset": [
+      1.5,
+      11.5
+    ],
+    "originalSize": [
+      495,
+      495
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
