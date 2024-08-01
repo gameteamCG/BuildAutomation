@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tadpole",
+    "texture": "5f2b5b34-377a-4e04-a4b1-0756fb308738",
+    "atlas": "",
+    "rect": [
+      11,
+      93,
+      231,
+      57
+    ],
+    "offset": [
+      1.5,
+      3.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

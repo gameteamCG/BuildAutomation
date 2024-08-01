@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greenplants",
+    "texture": "0c146a3c-36ae-4f95-8ad4-184bd711d8f6",
+    "atlas": "",
+    "rect": [
+      23,
+      17,
+      204,
+      216
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
