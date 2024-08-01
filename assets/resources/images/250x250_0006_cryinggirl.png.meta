@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3417f8f7-c20c-4b69-b65a-4cc31f041b69",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0006_cryinggirl": {
+      "ver": "1.0.6",
+      "uuid": "88938795-cd27-451e-a1c0-02f1afeda9e8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3417f8f7-c20c-4b69-b65a-4cc31f041b69",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 78,
+      "trimY": 17,
+      "width": 95,
+      "height": 216,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

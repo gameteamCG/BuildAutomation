@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0015_smallhouse",
+    "texture": "2dbe66fb-c2a1-46d7-9503-e79385005232",
+    "atlas": "",
+    "rect": [
+      63,
+      64,
+      124,
+      123
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

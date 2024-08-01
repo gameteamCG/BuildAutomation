@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0013_bighouse",
+    "texture": "81fd67a1-d653-43d2-ad7d-f61cd4e113a2",
+    "atlas": "",
+    "rect": [
+      15,
+      13,
+      221,
+      225
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

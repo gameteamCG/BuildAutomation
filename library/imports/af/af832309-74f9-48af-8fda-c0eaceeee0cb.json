@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0004_pinkcat",
+    "texture": "b22b9ea8-c9c0-4899-8ccb-966fc1e3aa68",
+    "atlas": "",
+    "rect": [
+      6,
+      8,
+      240,
+      236
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

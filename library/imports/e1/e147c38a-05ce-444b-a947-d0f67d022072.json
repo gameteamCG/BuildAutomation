@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0016_smallbird",
+    "texture": "d9a3807f-0e0a-4500-9833-be96c99dc2fc",
+    "atlas": "",
+    "rect": [
+      64,
+      80,
+      123,
+      90
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

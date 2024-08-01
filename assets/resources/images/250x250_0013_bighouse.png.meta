@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "81fd67a1-d653-43d2-ad7d-f61cd4e113a2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0013_bighouse": {
+      "ver": "1.0.6",
+      "uuid": "9a445472-3e00-4aad-88a4-2cfa4c6d91d0",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "81fd67a1-d653-43d2-ad7d-f61cd4e113a2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -0.5,
+      "trimX": 15,
+      "trimY": 13,
+      "width": 221,
+      "height": 225,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
