@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "number_seven",
+    "texture": "ce059951-c87d-4afd-912c-9a1891204bf5",
+    "atlas": "",
+    "rect": [
+      95,
+      82,
+      61,
+      87
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

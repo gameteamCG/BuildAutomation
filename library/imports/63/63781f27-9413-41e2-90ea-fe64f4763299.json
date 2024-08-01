@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "null",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/39688782_PTR_E64_OneTwoThreeLittleDinosaurs.mp4",
+      "TitleImageName": "littledinosour.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "tlc",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "how_many_babies_are_there.png",
+        "QuestionAudioName": "How_many_dinosaur_babies_are_there.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "number_five.png",
+          "number_six.png",
+          "number_seven.png",
+          "number_eight.png"
+        ],
+        "ReiterationAudioName": "GOODJOB.mp3",
+        "CorrectAudioName": "8.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "whichnumbercomesafter5.png",
+        "QuestionAudioName": "Which_number_comes_after_5.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "number_four.png",
+          "number_six.png",
+          "number_three.png",
+          "number_ten.png"
+        ],
+        "ReiterationAudioName": "MAGNIFICENT.mp3",
+        "CorrectAudioName": "6.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Count_how_many_babies.png",
+        "QuestionAudioName": "Count_how_many_dinosaur_babies.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "number_ten.png",
+          "number_nine.png",
+          "number_eight.png",
+          "number_seven.png"
+        ],
+        "ReiterationAudioName": "INCREDIBLE.mp3",
+        "CorrectAudioName": "10.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

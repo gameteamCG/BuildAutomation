@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whichnumbercomesafter5",
+    "texture": "a2f2501a-caf3-4677-99e8-58e63a4acc13",
+    "atlas": "",
+    "rect": [
+      22,
+      169,
+      514,
+      136
+    ],
+    "offset": [
+      -1.5,
+      13
+    ],
+    "originalSize": [
+      561,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
