@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bluest",
+    "texture": "39faf845-892f-490e-8726-83bb571a30b0",
+    "atlas": "",
+    "rect": [
+      13,
+      125,
+      434,
+      209
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

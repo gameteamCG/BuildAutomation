@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bidduck",
+    "texture": "f944278a-7fa9-46c5-8ead-c09bde0aa8a0",
+    "atlas": "",
+    "rect": [
+      106,
+      97,
+      247,
+      266
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

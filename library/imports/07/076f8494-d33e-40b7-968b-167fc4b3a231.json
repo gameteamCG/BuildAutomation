@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pinkstar",
+    "texture": "f789f692-b79b-492c-9087-c3fd18afcaa4",
+    "atlas": "",
+    "rect": [
+      80,
+      84,
+      299,
+      291
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
