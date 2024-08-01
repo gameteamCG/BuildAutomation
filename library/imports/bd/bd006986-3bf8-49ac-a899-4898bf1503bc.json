@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thumbs down",
+    "texture": "e2a0acf9-94d9-497a-ae97-0cd7c50e8536",
+    "atlas": "",
+    "rect": [
+      29,
+      30,
+      442,
+      442
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

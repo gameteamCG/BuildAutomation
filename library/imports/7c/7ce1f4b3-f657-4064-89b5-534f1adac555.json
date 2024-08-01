@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Things we get from trees",
+      "totalLevel": "6",
+      "TitleImageName": "Things we get from trees.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "things we get from trees",
+        "questionAudioName": "solvethepicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 37.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Asset 11.png",
+          "Asset 9.png",
+          "Asset 10.png",
+          "Asset 8.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "dotreesiveuscleanair.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "thumbs down.png",
+          "thumbs up.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "yes.mp3"
+      },
+      {
+        "questionText": "things we get from trees",
+        "questionAudioName": "solvethepicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 37.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Asset 15.png",
+          "Asset 13.png",
+          "Asset 14.png",
+          "Asset 12.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "dowegetpaperfromtrees.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "thumbs up.png",
+          "thumbs down.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "yes.mp3"
+      },
+      {
+        "questionText": "things we get from trees",
+        "questionAudioName": "solvethepicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 37.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Asset 20.png",
+          "Asset 18.png",
+          "Asset 19.png",
+          "Asset 17.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "Dowegetshadefromtrees.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "thumbs up.png",
+          "thumbs down.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "yes.mp3"
+      },
+      {
+        "questionText": "things we get from trees",
+        "questionAudioName": "solvethepicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 37.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Asset 23.png",
+          "Asset 25.png",
+          "Asset 24.png",
+          "Asset 22.png"
+        ],
+        "correctAudioName": "GORGEOUSWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "Dowegetfurniturefromtrees.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "thumbs down.png",
+          "thumbs up.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "yes.mp3"
+      },
+      {
+        "questionText": "things we get from trees",
+        "questionAudioName": "solvethepicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 37.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Asset 30.png",
+          "Asset 28.png",
+          "Asset 29.png",
+          "Asset 31.png"
+        ],
+        "correctAudioName": "IMPRESSIVEWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "aretreeshomeforbirds.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "thumbs down.png",
+          "thumbs up.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "yes.mp3"
+      },
+      {
+        "questionText": "things we get from trees",
+        "questionAudioName": "solvethepicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 37.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Asset 35.png",
+          "Asset 33.png",
+          "Asset 34.png",
+          "Asset 32.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "Shouldwelantmoretrees.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "thumbs up.png",
+          "thumbs down.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "yes.mp3"
+      }
+    ]
+  }
+}
