@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Pepper learns good manners_LKG Course Book 2_46",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/4397621538_1718969446117.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "gm.png",
+        "QuestionAudioName": "qqq.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "q11.png",
+          "w1.png"
+        ],
+        "ReiterationAudioName": "1.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "gm.png",
+        "QuestionAudioName": "qqq.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "w2.png",
+          "q22.png"
+        ],
+        "ReiterationAudioName": "2.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "gm.png",
+        "QuestionAudioName": "qqq.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "q33.png",
+          "w3.png"
+        ],
+        "ReiterationAudioName": "3.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "nevermind.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "gm.png",
+        "QuestionAudioName": "qqq.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "w4.png",
+          "q44.png"
+        ],
+        "ReiterationAudioName": "4.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
