@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "giftbaox",
+    "texture": "20915779-342f-4cfb-878a-3c149657a621",
+    "atlas": "",
+    "rect": [
+      41,
+      42,
+      171,
+      166
+    ],
+    "offset": [
+      1.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

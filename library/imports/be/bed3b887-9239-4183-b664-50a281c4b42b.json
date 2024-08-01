@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "title_seaturtle",
+    "texture": "d327897c-12cd-4f05-bd0d-48ed1757149e",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      693,
+      124
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      693,
+      188
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "easter eggs",
+    "texture": "f6ba559a-b1ae-4726-a82a-af8a7cefd225",
+    "atlas": "",
+    "rect": [
+      54,
+      28,
+      145,
+      204
+    ],
+    "offset": [
+      1.5,
+      -5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
