@@ -1,0 +1,85 @@
+{
+  "AdditionalData": {
+    "GameID": "Odd Numbers_LKG Course Book 2_78",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/7623453_Even_and_Odd_1722514806193.mp4",
+    "TitleImageName": "Asset_215.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "5bananas_1.png",
+      "QuestionAudioName": "que1_Is_this_an_even_number_or_an_odd_number.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "odd.png",
+        "even.png"
+      ],
+      "ReiterationAudioName": "5_is_an_odd_number.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q_odd.png",
+      "QuestionAudioName": "que2_Tap_on_the_group_of_odd_numbers.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "6apples.png",
+        "7apples.png"
+      ],
+      "ReiterationAudioName": "7_apples_7_is_an_odd_number.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q_odd.png",
+      "QuestionAudioName": "que3_Choose_the_group_with_an_odd_number_of_aurenjes.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "5orange.png",
+        "8orange.png"
+      ],
+      "ReiterationAudioName": "5_aurenjes_5_is_an_odd_number.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q_odd.png",
+      "QuestionAudioName": "que4_Click_on_the_odd_number.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "6",
+        "3"
+      ],
+      "ReiterationAudioName": "3_is_an_odd_number.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
