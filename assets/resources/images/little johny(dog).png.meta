@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "71e6f683-3348-49b2-aafd-c95b1f897628",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "little johny(dog)": {
+      "ver": "1.0.6",
+      "uuid": "ced5fbb0-e6a6-40c4-9a36-ba43c71aa39d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "71e6f683-3348-49b2-aafd-c95b1f897628",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 249,
+      "height": 250,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
