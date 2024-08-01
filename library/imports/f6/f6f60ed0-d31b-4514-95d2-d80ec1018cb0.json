@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "arethecloset",
+    "texture": "f74891df-9c70-4bea-9beb-a0025588470e",
+    "atlas": "",
+    "rect": [
+      1,
+      172,
+      497,
+      135
+    ],
+    "offset": [
+      -1,
+      11
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
