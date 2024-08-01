@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cobblercobbler",
+    "texture": "925a6ba8-401a-475d-9a66-8bde465ca28c",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      535,
+      236
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      535,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

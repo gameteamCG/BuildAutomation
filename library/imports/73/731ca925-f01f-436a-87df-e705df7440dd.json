@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "needle_and_thread",
+    "texture": "751a975f-3c7c-4955-a715-2b49fcb6c46e",
+    "atlas": "",
+    "rect": [
+      31,
+      33,
+      203,
+      190
+    ],
+    "offset": [
+      7.5,
+      -3
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
