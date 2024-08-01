@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shapessong",
+    "texture": "14f4fafe-5f26-43ce-9137-094243e23799",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      491,
+      262
+    ],
+    "offset": [
+      0,
+      10
+    ],
+    "originalSize": [
+      491,
+      292
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
