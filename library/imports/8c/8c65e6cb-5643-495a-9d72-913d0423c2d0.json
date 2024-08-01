@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Goosey_goosey_gander",
+    "texture": "4a9e3f06-8df8-4eef-9c80-b3d839b6efd9",
+    "atlas": "",
+    "rect": [
+      0,
+      9,
+      1006,
+      281
+    ],
+    "offset": [
+      0,
+      8
+    ],
+    "originalSize": [
+      1006,
+      315
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
