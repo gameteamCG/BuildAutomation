@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boogiewoogie",
+    "texture": "f862e215-f80e-4f37-ab6f-755b684465f3",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      491,
+      273
+    ],
+    "offset": [
+      0,
+      11.5
+    ],
+    "originalSize": [
+      491,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
