@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Yoga poses2",
+    "texture": "741ad6b8-26f0-44e4-bc15-cde879d746f3",
+    "atlas": "",
+    "rect": [
+      20,
+      19,
+      437,
+      406
+    ],
+    "offset": [
+      10,
+      -9.5
+    ],
+    "originalSize": [
+      457,
+      425
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
