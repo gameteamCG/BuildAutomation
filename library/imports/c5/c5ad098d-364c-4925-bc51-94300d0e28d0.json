@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "underthesea",
+    "texture": "4fcf019d-952f-448f-a433-e912d315b45a",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      900,
+      120
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      900,
+      184
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
