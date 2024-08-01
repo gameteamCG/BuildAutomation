@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "correctspallingbingo2",
+    "texture": "0e747cc6-3c26-4eef-bd76-094981d4c996",
+    "atlas": "",
+    "rect": [
+      35,
+      139,
+      427,
+      184
+    ],
+    "offset": [
+      -2,
+      19
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

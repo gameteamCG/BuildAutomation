@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q1bingo",
+    "texture": "a150d4a2-8e75-48b1-9e15-2c36c3edbb69",
+    "atlas": "",
+    "rect": [
+      16,
+      115,
+      486,
+      253
+    ],
+    "offset": [
+      0.5,
+      8.5
+    ],
+    "originalSize": [
+      517,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
