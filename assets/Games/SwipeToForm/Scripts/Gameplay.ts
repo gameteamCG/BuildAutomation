@@ -1,5 +1,5 @@
 
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -168,7 +168,7 @@ export default class Gameplay extends cc.Component {
     }
 
     start() {
-        ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
+        ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1, false);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
         this.UpdateQuestionData();
         this.scheduleOnce(() => {
@@ -532,17 +532,20 @@ export default class Gameplay extends cc.Component {
 
     LoadNextQuestion() {
 
+        ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
         console.log("levelComplete--" + startGame.Instance.currentLevel);
         //playjockey
         // after jockey call below animation
-        if (parseInt(startGame.Instance.currentLevel) >= startGame.Instance.TotalLevels) {
-            cc.director.loadScene("gameEnd");
-        }
-        else {
-            globalVariables.Instance.currentLevel += 1;
-            startGame.Instance.currentLevel = (parseInt(startGame.Instance.currentLevel) + 1).toString();
-            cc.director.loadScene("1");
-        }
+        this.scheduleOnce(() => {
+            if (parseInt(startGame.Instance.currentLevel) >= startGame.Instance.TotalLevels) {
+                cc.director.loadScene("gameEnd");
+            }
+            else {
+                globalVariables.Instance.currentLevel += 1;
+                startGame.Instance.currentLevel = (parseInt(startGame.Instance.currentLevel) + 1).toString();
+                cc.director.loadScene("1");
+            }
+        }, 1);
 
     }
 
