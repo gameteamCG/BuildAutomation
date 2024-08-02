@@ -1,0 +1,76 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Sequencing daily routine_Nursery Course Book 2_36",
+      "totalLevel": "3",
+      "TitleImageName": "Asset_160.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGMBackward.mp3",
+      "mainBgName": "L3_BG.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Sequencing daily routine",
+        "questionImageName": "",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "3.png",
+          "2.png",
+          "1.png"
+        ],
+        "correctAnswer": "321",
+        "correctAudioName": "answer_1.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "Sequencing daily routine",
+        "questionImageName": "",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "4.png",
+          "5.png",
+          "3.png"
+        ],
+        "correctAnswer": "312",
+        "correctAudioName": "answer_2.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "Sequencing daily routine",
+        "questionImageName": "",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "7.png",
+          "8.png",
+          "6.png"
+        ],
+        "correctAnswer": "312",
+        "correctAudioName": "answer_3.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      }
+    ]
+  }
+}
