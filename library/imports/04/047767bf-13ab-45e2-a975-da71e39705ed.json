@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "4_x_mas_tree",
+    "texture": "692e9dfb-1618-45fb-bd11-cfb8958d7685",
+    "atlas": "",
+    "rect": [
+      117,
+      32,
+      266,
+      435
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

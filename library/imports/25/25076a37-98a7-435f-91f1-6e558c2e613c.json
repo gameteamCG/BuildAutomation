@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "5_unhappy",
+    "texture": "2a91fcbe-e3c6-4da2-b699-b166b9c030b2",
+    "atlas": "",
+    "rect": [
+      98,
+      52,
+      336,
+      395
+    ],
+    "offset": [
+      15.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

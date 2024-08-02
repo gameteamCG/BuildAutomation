@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "6_vaccum_cleaner",
+    "texture": "e9ecec1e-0790-4d93-9f45-678daacfff2f",
+    "atlas": "",
+    "rect": [
+      50,
+      35,
+      400,
+      429
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

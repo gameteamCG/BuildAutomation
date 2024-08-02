@@ -1,0 +1,159 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter sounds U,V,W,X_Nursery Course Book 2_23",
+      "totalLevel": "7",
+      "TitleImageName": "Letter_sounds_UVWX.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "ColourBGM1.mp3",
+      "mainBgName": "Screen_copy_2.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Uu",
+        "questionImageName": "Asset_73.png",
+        "questionAudioName": "letter_sound_U_instruction_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "1_umbrella.png",
+          "3_watch.png",
+          "1_urn.png",
+          "4_x_mas_tree.png"
+        ],
+        "correctAudios": [
+          "1_umbrella.mp3",
+          "1_urn.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionText": "Vv",
+        "questionImageName": "Asset_73.png",
+        "questionAudioName": "letter_sound_V_instruction_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "3_whale.png",
+          "2_van.png",
+          "1_umbrella.png",
+          "2_vulture.png"
+        ],
+        "correctAudios": [
+          "2_van.mp3",
+          "2_vulture.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionText": "Ww",
+        "questionImageName": "Asset_73.png",
+        "questionAudioName": "letter_sound_W_instruction_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "3_watch.png",
+          "5_under.png",
+          "6_violin.png",
+          "3_whale.png"
+        ],
+        "correctAudios": [
+          "3_watch.mp3",
+          "3_whale.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionText": "Xx",
+        "questionImageName": "Asset_73.png",
+        "questionAudioName": "letter_sound_X_instruction_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "2_vulture.png",
+          "4_x_mas_tree.png",
+          "4_x_ray.png",
+          "3_watch.png"
+        ],
+        "correctAudios": [
+          "4_xmastree.mp3",
+          "4_x_ray.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionText": "Uu",
+        "questionImageName": "Asset_73.png",
+        "questionAudioName": "letter_sound_U_instruction_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "7_woodpecker.png",
+          "4_x_mas_tree.png",
+          "5_under.png",
+          "5_unhappy.png"
+        ],
+        "correctAudios": [
+          "5_under.mp3",
+          "5_unhappy.mp3"
+        ],
+        "correctAnswerNum": "34"
+      },
+      {
+        "questionText": "Vv",
+        "questionImageName": "Asset_73.png",
+        "questionAudioName": "letter_sound_V_instruction_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "6_vaccum_cleaner.png",
+          "6_violin.png",
+          "bag.png",
+          "7_woodpecker.png"
+        ],
+        "correctAudios": [
+          "6_vacuum_cleaner.mp3",
+          "6_violin.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionText": "Ww",
+        "questionImageName": "Asset_73.png",
+        "questionAudioName": "letter_sound_W_instruction_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "7_windmill.png",
+          "bag.png",
+          "7_woodpecker.png",
+          "ball.png"
+        ],
+        "correctAudios": [
+          "7_windmill.mp3",
+          "7_woodpecker.mp3"
+        ],
+        "correctAnswerNum": "13"
+      }
+    ]
+  }
+}
