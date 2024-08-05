@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brain",
+    "texture": "14324985-1670-4898-8514-10403720293a",
+    "atlas": "",
+    "rect": [
+      137,
+      204,
+      235,
+      78
+    ],
+    "offset": [
+      4,
+      7.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

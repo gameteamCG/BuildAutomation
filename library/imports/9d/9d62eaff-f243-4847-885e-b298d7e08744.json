@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bite",
+    "texture": "dfb9f061-56c5-4bf0-becd-012299e6aa6e",
+    "atlas": "",
+    "rect": [
+      170,
+      204,
+      165,
+      78
+    ],
+    "offset": [
+      2,
+      7.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
