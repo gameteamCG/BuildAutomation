@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Making a card",
+    "texture": "d66cd2d2-ce8f-411a-94d9-73743d44e748",
+    "atlas": "",
+    "rect": [
+      24,
+      24,
+      579,
+      363
+    ],
+    "offset": [
+      10,
+      -10
+    ],
+    "originalSize": [
+      607,
+      391
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
