@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "march",
+    "texture": "9fe322f7-9fd1-4d80-a1e5-638d088e27c1",
+    "atlas": "",
+    "rect": [
+      50,
+      98,
+      154,
+      46
+    ],
+    "offset": [
+      2,
+      4
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "june",
+    "texture": "a8404ba9-6af1-4aa0-bd3f-051dc6867acf",
+    "atlas": "",
+    "rect": [
+      67,
+      98,
+      114,
+      46
+    ],
+    "offset": [
+      -1,
+      4
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

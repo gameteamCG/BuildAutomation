@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "august",
+    "texture": "ba8056b3-405b-4c3d-bf4d-13881437efa8",
+    "atlas": "",
+    "rect": [
+      37,
+      98,
+      174,
+      63
+    ],
+    "offset": [
+      -1,
+      -4.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

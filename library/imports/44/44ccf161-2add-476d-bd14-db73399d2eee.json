@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "october",
+    "texture": "9fe3228c-838c-4deb-83d8-fd9663a702e2",
+    "atlas": "",
+    "rect": [
+      29,
+      97,
+      195,
+      47
+    ],
+    "offset": [
+      1.5,
+      4.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

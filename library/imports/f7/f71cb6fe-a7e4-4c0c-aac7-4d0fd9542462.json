@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "january",
+    "texture": "2fe6d210-f80f-4c6c-b951-ee01239811e6",
+    "atlas": "",
+    "rect": [
+      23,
+      98,
+      199,
+      63
+    ],
+    "offset": [
+      -2.5,
+      -4.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

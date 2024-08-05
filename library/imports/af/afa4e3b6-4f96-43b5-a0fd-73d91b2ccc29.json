@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "may",
+    "texture": "c95022db-e8e5-4551-9544-b58f2b9e2f31",
+    "atlas": "",
+    "rect": [
+      73,
+      98,
+      104,
+      63
+    ],
+    "offset": [
+      0,
+      -4.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
