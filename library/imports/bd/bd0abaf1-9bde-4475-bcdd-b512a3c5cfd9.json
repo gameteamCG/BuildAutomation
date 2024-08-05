@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cottage",
+    "texture": "2c14f39e-5452-4fc5-8427-976db11960b2",
+    "atlas": "",
+    "rect": [
+      9,
+      47,
+      182,
+      108
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
