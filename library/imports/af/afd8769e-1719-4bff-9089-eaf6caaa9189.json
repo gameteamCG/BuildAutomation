@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "emptyglass",
+    "texture": "646d7fa3-1c2e-4bfe-a3a3-f08e229d5e44",
+    "atlas": "",
+    "rect": [
+      163,
+      79,
+      176,
+      342
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

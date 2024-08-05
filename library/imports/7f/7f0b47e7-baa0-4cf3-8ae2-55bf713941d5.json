@@ -1,0 +1,114 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Sound of short 'u'_LKG Course Book 2_20",
+      "totalLevel": "5",
+      "TitleImageName": "ufamilywords.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "Kids_Game_1.mp3",
+      "mainBgName": "Bgnew2.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "u family words",
+        "questionImageName": "Basket_4.png",
+        "questionAudioName": "drag_and_collect_the_U_family_words.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "cub.png",
+          "Ant.png",
+          "Astronaut.png",
+          "egg_0008_250x250_0001_egg.png"
+        ],
+        "correctAudios": [
+          "cub.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "u family words",
+        "questionImageName": "Basket_4.png",
+        "questionAudioName": "drag_and_collect_the_U_family_words.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "fan.png",
+          "Kite 1.png",
+          "25.png",
+          "moon.png"
+        ],
+        "correctAudios": [
+          "sun.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "u family words",
+        "questionImageName": "Basket_4.png",
+        "questionAudioName": "drag_and_collect_the_U_family_words.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Jacket.png",
+          "19.png",
+          "emptyglass.png",
+          "monkey.png"
+        ],
+        "correctAudios": [
+          "hut.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "u family words",
+        "questionImageName": "Basket_4.png",
+        "questionAudioName": "drag_and_collect_the_U_family_words.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "9.png",
+          "monkey.png",
+          "moon.png",
+          "magnet.png"
+        ],
+        "correctAudios": [
+          "hug.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "u family words",
+        "questionImageName": "Basket_4.png",
+        "questionAudioName": "drag_and_collect_the_U_family_words.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "moon.png",
+          "fox_0003_250x250_0003_fox.png",
+          "14.png",
+          "monkey.png"
+        ],
+        "correctAudios": [
+          "mum.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
