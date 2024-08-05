@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "smallchairQuestion",
+    "texture": "3a7181a3-87b7-4894-bd20-5a32c84f68df",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      500,
+      500
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

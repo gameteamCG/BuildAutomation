@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Asse121",
+    "texture": "f2dc47b2-0c90-440b-a8a7-f87a65b5f768",
+    "atlas": "",
+    "rect": [
+      12,
+      17,
+      228,
+      215
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

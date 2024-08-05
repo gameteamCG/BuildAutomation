@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Goldilocksandthethreemagicwords",
+    "texture": "26b9f463-e96b-4096-871d-40b1d503d60d",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      815,
+      129
+    ],
+    "offset": [
+      0,
+      4
+    ],
+    "originalSize": [
+      815,
+      141
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
