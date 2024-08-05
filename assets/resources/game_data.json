@@ -1,0 +1,23 @@
+{
+  "additionalData": {
+    "GameID": "Healthy habits",
+    "totalLevel": "1",
+    "TitleImageName": "Asset 15.png",
+    "introBgName": "Junior.png",
+    "bgmMusicName": "bgm2.mp3",
+    "initialVOName": "",
+    "mainBgName": "Asset 16.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "healthy habits",
+      "questionImageName": "250x250empty.png",
+      "questionAudioName": "Drawandcolouryourselfpracticingsomehealthyhabits.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "",
+      "needMoreTools": true,
+      "correctAudioName": "GOODJOB.mp3"
+    }
+  ]
+}
