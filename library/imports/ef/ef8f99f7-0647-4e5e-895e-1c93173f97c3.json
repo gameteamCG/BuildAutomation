@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Self portrait",
+    "texture": "41d2cc4d-c168-4c07-837f-fae7df1b912d",
+    "atlas": "",
+    "rect": [
+      24,
+      24,
+      594,
+      395
+    ],
+    "offset": [
+      10.5,
+      -10.5
+    ],
+    "originalSize": [
+      621,
+      422
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
