@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "astronout",
+    "texture": "2143b64f-e9bd-41fe-8b49-e04f79e75a50",
+    "atlas": "",
+    "rect": [
+      78,
+      64,
+      349,
+      353
+    ],
+    "offset": [
+      2,
+      9.5
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
