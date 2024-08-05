@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Fruits have seed_LKG Course Book 2_122",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/FRUIT_FOR_THOUGHT_LINEUP_7872908360_1722862800955.mp4",
+      "TitleImageName": "Asset_224.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "fruit with many seeds",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Select the fruit with many seeds inside it. .mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard_2_copy.png",
+          "Q2mango.png",
+          "Artboard_2_copy_16.png",
+          "Artboard_2.png"
+        ],
+        "ReiterationAudioName": "25780516_2_papaya.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Artboard_2_copy_4.png",
+        "QuestionAudioName": "How many seeds does a mango have.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "10",
+          "5",
+          "1",
+          "0"
+        ],
+        "ReiterationAudioName": "25780516_4_1.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "pulpy fruit with a few seeds",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identify the pulpy fruit with a few seeds..mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard_2_copy_6.png",
+          "Artboard_2_copy_5.png",
+          "Artboard_2_copy_7.png",
+          "Artboard_2_copy_8.png"
+        ],
+        "ReiterationAudioName": "25780516_6_orange.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "juicy fruit full of seeds",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identify the juicy fruit full of seeds..mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard_2_copy_9.png",
+          "Artboard_2_copy_10.png",
+          "Artboard_2_copy_11.png",
+          "Artboard_2_copy_12.png"
+        ],
+        "ReiterationAudioName": "25780516_8_watermelon.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "fruit with many seeds",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Tap on the fruit with many seeds. .mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard_2_copy_14.png",
+          "Artboard_2_copy_16.png",
+          "Artboard_2_copy_13.png",
+          "Artboard_2_copy_8.png"
+        ],
+        "ReiterationAudioName": "25780516_10_guava.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "pomegranate",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identify and tap on the pomegranate..mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard_2_copy_18.png",
+          "Artboard_2_copy_17.png",
+          "Artboard_2_copy_19.png",
+          "Artboard_2_copy_20.png"
+        ],
+        "ReiterationAudioName": "A pomegranate has red and juicy seeds inside.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
