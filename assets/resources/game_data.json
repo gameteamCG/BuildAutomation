@@ -1,0 +1,23 @@
+{
+  "additionalData": {
+    "GameID": "Self portrait",
+    "totalLevel": "1",
+    "TitleImageName": "Self portrait.png",
+    "introBgName": "Junior.png",
+    "bgmMusicName": "bgm2.mp3",
+    "initialVOName": "",
+    "mainBgName": "bg.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "self portrait",
+      "questionImageName": "250x250empty.png",
+      "questionAudioName": "drawandmakeaselfportrait.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "",
+      "needMoreTools": true,
+      "correctAudioName": "IMPRESSIVEWORK.mp3"
+    }
+  ]
+}
