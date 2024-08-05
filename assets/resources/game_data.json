@@ -1,0 +1,23 @@
+{
+  "additionalData": {
+    "GameID": "Making a card",
+    "totalLevel": "1",
+    "TitleImageName": "Making a card.png",
+    "introBgName": "Junior.png",
+    "bgmMusicName": "bgm2.mp3",
+    "initialVOName": "",
+    "mainBgName": "bg_1.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "card making",
+      "questionImageName": "250x250empty.png",
+      "questionAudioName": "drawandcolourandmakeathankyoucardfortheoneswhotakecareofyou .mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "",
+      "needMoreTools": true,
+      "correctAudioName": "EXCELLENTJOB.mp3"
+    }
+  ]
+}
