@@ -1,0 +1,131 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Seasons_LKG Course Book 2_128",
+      "totalLevel": "4",
+      "TitleImageName": "Asset_222.png",
+      "introBgName": "bg_2.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Solve the Picture Puzzle",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "summer_part_001.png",
+          "summer_part_002.png",
+          "summer_part_003.png",
+          "summer_part_004.png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify and choose the correct season",
+        "questionAudioName2": "identify and choose the correct season.mp3",
+        "commonOptionImageName": "pannel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 2.png",
+          "Asset 3.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "summer.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "autumn_part_001.png",
+          "autumn_part_002.png",
+          "autumn_part_003.png",
+          "autumn_part_004.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify and choose the correct season",
+        "questionAudioName2": "identify and choose the correct season.mp3",
+        "commonOptionImageName": "pannel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 4.png",
+          "Asset 3.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "autumn.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "winter_part_001.png",
+          "winter_part_002.png",
+          "winter_part_003.png",
+          "winter_part_004.png"
+        ],
+        "correctAudioName": "winter.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify and choose the correct season",
+        "questionAudioName2": "identify and choose the correct season.mp3",
+        "commonOptionImageName": "pannel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 4.png",
+          "Asset 5.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "winter.mp3"
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "spring_part_001.png",
+          "spring_part_002.png",
+          "spring_part_003.png",
+          "spring_part_004.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify and choose the correct season",
+        "questionAudioName2": "identify and choose the correct season.mp3",
+        "commonOptionImageName": "pannel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 6.png",
+          "Asset 5.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "spring.mp3"
+      }
+    ]
+  }
+}
