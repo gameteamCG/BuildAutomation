@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rake",
+    "texture": "637e35e5-5c76-42c4-8c8f-aae9146c1d5d",
+    "atlas": "",
+    "rect": [
+      159,
+      211,
+      185,
+      71
+    ],
+    "offset": [
+      1,
+      4
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
