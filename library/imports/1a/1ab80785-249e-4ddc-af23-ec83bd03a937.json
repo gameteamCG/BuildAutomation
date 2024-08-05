@@ -1,0 +1,94 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Super Automation generated demo game (Just a POC)",
+      "totalLevel": "5",
+      "TitleImageName": "titleImage.png",
+      "introBgName": "",
+      "bgmMusicName": "bgmMusic.mp3",
+      "mainBgName": "mainBg.png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "Where does a lion live?",
+        "questionImageName": "qImg1.png",
+        "questionAudioName": "questionAudio1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "optionImage11.png",
+          "optionImage21.png"
+        ],
+        "correctAudioName": "correctAudio1.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "What is the home of a fish?",
+        "questionImageName": "qImg2.png",
+        "questionAudioName": "questionAudio2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage2.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "optionImage12.png",
+          "optionImage22.png"
+        ],
+        "correctAudioName": "correctAudio2.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Where does a bear live?",
+        "questionImageName": "qImg3.png",
+        "questionAudioName": "questionAudio3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage3.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "optionImage13.png",
+          "optionImage23.png"
+        ],
+        "correctAudioName": "correctAudio3.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which is the home of a bird?",
+        "questionImageName": "qImg4.png",
+        "questionAudioName": "questionAudio4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage4.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "optionImage14.png",
+          "optionImage24.png"
+        ],
+        "correctAudioName": "correctAudio4.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Where does a rabbit live?",
+        "questionImageName": "qImg5.png",
+        "questionAudioName": "questionAudio5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage5.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "optionImage15.png",
+          "optionImage25.png"
+        ],
+        "correctAudioName": "correctAudio5.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
