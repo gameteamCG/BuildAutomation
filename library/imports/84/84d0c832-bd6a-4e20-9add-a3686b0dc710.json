@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "favourite fruit",
+    "texture": "e360391e-9574-402a-8803-85667e53b619",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      250,
+      247
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

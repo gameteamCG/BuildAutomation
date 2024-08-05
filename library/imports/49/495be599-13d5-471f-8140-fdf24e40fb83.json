@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "favourite vegetable",
+    "texture": "9c40d7ab-b8b1-46e8-ac6e-c4c1c9ebf7a8",
+    "atlas": "",
+    "rect": [
+      0,
+      21,
+      250,
+      229
+    ],
+    "offset": [
+      0,
+      -10.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
