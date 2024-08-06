@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "How We Measure_UKG Course Book 2_108",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/978439743087_Length+_Uniform_NonStandard_1722927130377.mp4",
+      "TitleImageName": "Asset_217.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "living_room.png",
+        "QuestionAudioName": "L1_How_will_you_measure_the_length_of_your_living_room.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "a1_by_feet_length.png",
+          "a1_a2_paper_clip.png"
+        ],
+        "ReiterationAudioName": "a1_by_feet_length.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q2_desk.png",
+        "QuestionAudioName": "L2_How_will_you_measure_the_length_of_a_desk.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "a2_hairclip.png",
+          "handspan.png"
+        ],
+        "ReiterationAudioName": "a2_by_handspan.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q3.png",
+        "QuestionAudioName": "L3_Is_your_and_your_mom_andspan_the_same.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "tick.png",
+          "cross.png"
+        ],
+        "ReiterationAudioName": "a3_NO.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
