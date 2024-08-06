@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toamto",
+    "texture": "5285e463-8a56-4ea9-8fbe-74916b9533fc",
+    "atlas": "",
+    "rect": [
+      11,
+      25,
+      218,
+      198
+    ],
+    "offset": [
+      -5,
+      1
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

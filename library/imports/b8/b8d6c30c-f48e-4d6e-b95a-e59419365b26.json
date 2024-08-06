@@ -1,0 +1,153 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "How We Measure_UKG Course Book 2_109",
+      "totalLevel": "7",
+      "TitleImageName": "title.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "HappyKidsSnappyMusicalInterlude.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "how we measure",
+        "questionImageName": "1_dozen.png",
+        "questionAudioName": "question1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard_4_copy.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "a1.png",
+          "water_bottle.png",
+          "wheat.png"
+        ],
+        "correctAudios": [
+          "a1_apples.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "how we measure",
+        "questionImageName": "2_slice.png",
+        "questionAudioName": "q2_a_slice_of_dash.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard_4_copy.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset3.png",
+          "a2.png",
+          "vegetables.png"
+        ],
+        "correctAudios": [
+          "a2_cake.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "how we measure",
+        "questionImageName": "3_glass.png",
+        "questionAudioName": "q3_a_glass_of_dash.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard_4_copy.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "toamto.png",
+          "mango.png",
+          "a3.png"
+        ],
+        "correctAudios": [
+          "a3_milk.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "how we measure",
+        "questionImageName": "4_bowl.png",
+        "questionAudioName": "q4_a_bol_of_dash.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard_4_copy.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "a4.png",
+          "butter_cube.png",
+          "Asset_7.png"
+        ],
+        "correctAudios": [
+          "a4_rice.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "how we measure",
+        "questionImageName": "5_loaf.png",
+        "questionAudioName": "q5_a_loaf_of_dash.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard_4_copy.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "vegetables.png",
+          "Asset_5.png",
+          "a5.png"
+        ],
+        "correctAudios": [
+          "a5_bread.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "how we measure",
+        "questionImageName": "6_cube.png",
+        "questionAudioName": "q6_a_cube_of_dash.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard_4_copy.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset3.png",
+          "a6.png",
+          "Asset_6.png"
+        ],
+        "correctAudios": [
+          "a6_butter.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "how we measure",
+        "questionImageName": "7_scoop.png",
+        "questionAudioName": "q7_a_scoop_of_dash.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Artboard_4_copy.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_8.png",
+          "Asset_10.png",
+          "a7.png"
+        ],
+        "correctAudios": [
+          "a7_ice_cream.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
