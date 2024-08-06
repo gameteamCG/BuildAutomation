@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sortingandseriation",
+    "texture": "e5fa4bc8-2fff-4a6a-ae25-2877800789ef",
+    "atlas": "",
+    "rect": [
+      20,
+      19,
+      976,
+      390
+    ],
+    "offset": [
+      10,
+      -9.5
+    ],
+    "originalSize": [
+      996,
+      409
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
