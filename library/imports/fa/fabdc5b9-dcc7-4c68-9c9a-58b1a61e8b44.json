@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ram",
+    "texture": "ae90c0bc-b99c-4c0d-9a21-bcb03294d802",
+    "atlas": "",
+    "rect": [
+      117,
+      39,
+      237,
+      420
+    ],
+    "offset": [
+      -15,
+      1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
