@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "living_room",
+    "texture": "4413fd35-aced-4ab0-9164-a7f2efe56909",
+    "atlas": "",
+    "rect": [
+      3,
+      85,
+      487,
+      309
+    ],
+    "offset": [
+      -1,
+      10.5
+    ],
+    "originalSize": [
+      495,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
