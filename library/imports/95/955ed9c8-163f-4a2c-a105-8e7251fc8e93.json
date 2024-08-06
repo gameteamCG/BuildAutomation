@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_rib",
+    "texture": "bc3e2f93-4191-45b9-ad9e-a28b7bc7c768",
+    "atlas": "",
+    "rect": [
+      13,
+      22,
+      474,
+      456
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

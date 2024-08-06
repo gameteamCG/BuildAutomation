@@ -1,0 +1,110 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Word families_LKG Practice Book 2_23",
+      "totalLevel": "5",
+      "TitleImageName": "Asset_244.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "ColourBGM1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "am word family",
+        "questionAudioName": "question_all.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "1_bag.png",
+          "1_fan.png",
+          "1_jam.png"
+        ],
+        "correctAudios": [
+          "25938589_1_jam.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "eg word family",
+        "questionAudioName": "question_all.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "2_leg.png",
+          "2_men.png",
+          "2_net.png"
+        ],
+        "correctAudios": [
+          "25938589_2_leg.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "ib word family",
+        "questionAudioName": "question_all.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "3_pin.png",
+          "3_rib.png",
+          "3_wig.png"
+        ],
+        "correctAudios": [
+          "25938589_3_rib.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "op word family",
+        "questionAudioName": "question_all.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "4_Cot.png",
+          "4_log.png",
+          "4_pop.png"
+        ],
+        "correctAudios": [
+          "25938589_4_pop.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "un word family",
+        "questionAudioName": "question_all.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_3.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "5_bug.png",
+          "5_sun.png",
+          "5_Hug.png"
+        ],
+        "correctAudios": [
+          "25938589_5_sun.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

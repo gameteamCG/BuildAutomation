@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_wig",
+    "texture": "ce8b4661-8de3-4d39-bfc5-512ddc797117",
+    "atlas": "",
+    "rect": [
+      59,
+      0,
+      394,
+      512
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
