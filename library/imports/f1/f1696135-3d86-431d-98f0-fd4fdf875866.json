@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gulliver",
+    "texture": "0b3e9495-7857-4deb-8d2d-0067f1244b0a",
+    "atlas": "",
+    "rect": [
+      9,
+      8,
+      223,
+      240
+    ],
+    "offset": [
+      -5,
+      -2.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
