@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "volcano",
+    "texture": "358bc091-1999-402a-a223-810a98d0c2a4",
+    "atlas": "",
+    "rect": [
+      45,
+      27,
+      411,
+      448
+    ],
+    "offset": [
+      0.5,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
