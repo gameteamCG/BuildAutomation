@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "4_bowl",
+    "texture": "9e382c0b-c3bd-45be-b13c-9a69a8218f26",
+    "atlas": "",
+    "rect": [
+      3,
+      82,
+      295,
+      137
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
