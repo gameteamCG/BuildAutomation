@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "backyard",
+    "texture": "2ce11d45-5653-44da-bb4e-6aaf6068f56d",
+    "atlas": "",
+    "rect": [
+      11,
+      45,
+      228,
+      162
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
