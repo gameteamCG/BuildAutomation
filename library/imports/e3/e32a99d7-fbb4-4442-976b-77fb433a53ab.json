@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "camera",
+    "texture": "a8ca9005-00ca-4f99-a334-4838d4343b04",
+    "atlas": "",
+    "rect": [
+      30,
+      34,
+      193,
+      187
+    ],
+    "offset": [
+      1,
+      -2
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
