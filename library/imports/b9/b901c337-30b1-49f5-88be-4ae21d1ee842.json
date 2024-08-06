@@ -1,0 +1,114 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "sorting and seriation",
+      "totalLevel": "5",
+      "TitleImageName": "Sortingandseriation.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "seriation",
+        "questionImageName": "",
+        "questionAudioName": "swipeandARRANGEtherocketsaccordingttheirsizefrombigtosmall.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": 0,
+        "options": [
+          "Asset19.png",
+          "Asset18.png",
+          "Asset17.png"
+        ],
+        "correctAnswer": "321",
+        "correctAudioName": "",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "seriation",
+        "questionImageName": "",
+        "questionAudioName": "swipeandARRANGEtheUFOSaccordingtotheirsizefrombigtosmall.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": 0,
+        "options": [
+          "Asset21.png",
+          "Asset20.png",
+          "Asset22.png"
+        ],
+        "correctAnswer": "213",
+        "correctAudioName": "",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "seriation",
+        "questionImageName": "",
+        "questionAudioName": "swipeandARRANGEtheasteroidsaccordingtotheirsizefrombigtosmall.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": 0,
+        "options": [
+          "Asset25.png",
+          "Asset23.png",
+          "Asset24.png"
+        ],
+        "correctAnswer": "213",
+        "correctAudioName": "",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "seriation",
+        "questionImageName": "",
+        "questionAudioName": "swipeandARRANGEthestarsaccordingtotheirsizefrombigtosmall.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": 0,
+        "options": [
+          "Asset26.png",
+          "Asset28.png",
+          "Asset27.png"
+        ],
+        "correctAnswer": "132",
+        "correctAudioName": "",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "seriation",
+        "questionImageName": "",
+        "questionAudioName": "swipeandARRANGEthesatellitesaccordingtotheirsizefrombigtosmall.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": 0,
+        "options": [
+          "Asset30.png",
+          "Asset31.png",
+          "Asset29.png"
+        ],
+        "correctAnswer": "312",
+        "correctAudioName": "",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      }
+    ]
+  }
+}
