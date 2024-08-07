@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greengrass",
+    "texture": "df934c66-93a3-4861-9eaa-9628967454be",
+    "atlas": "",
+    "rect": [
+      4,
+      101,
+      247,
+      107
+    ],
+    "offset": [
+      2,
+      -29
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
