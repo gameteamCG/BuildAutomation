@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "who_says",
+    "texture": "1bc0884f-584d-4d82-8b54-d8bc4eadcce8",
+    "atlas": "",
+    "rect": [
+      28,
+      179,
+      425,
+      115
+    ],
+    "offset": [
+      0.5,
+      3.5
+    ],
+    "originalSize": [
+      480,
+      480
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
