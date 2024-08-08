@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "a2_friday",
+    "texture": "e4fef0a0-6ab0-4fb4-85d5-0d4fa4d1b019",
+    "atlas": "",
+    "rect": [
+      63,
+      106,
+      125,
+      47
+    ],
+    "offset": [
+      0.5,
+      -4.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
