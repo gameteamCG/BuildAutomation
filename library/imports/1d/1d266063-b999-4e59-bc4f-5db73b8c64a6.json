@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hair brush",
+    "texture": "eeb008a6-8c6a-4c88-a73b-e84bac284dba",
+    "atlas": "",
+    "rect": [
+      58,
+      46,
+      383,
+      408
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
