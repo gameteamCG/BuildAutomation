@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "forest",
+    "texture": "ade314d9-4533-4d96-9f8c-a1af8741ec44",
+    "atlas": "",
+    "rect": [
+      62,
+      106,
+      122,
+      47
+    ],
+    "offset": [
+      -2,
+      -4.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

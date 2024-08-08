@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "city",
+    "texture": "0b0e31c7-3d8b-4e1d-9cac-441feb18ca16",
+    "atlas": "",
+    "rect": [
+      88,
+      109,
+      73,
+      44
+    ],
+    "offset": [
+      -0.5,
+      -6
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
