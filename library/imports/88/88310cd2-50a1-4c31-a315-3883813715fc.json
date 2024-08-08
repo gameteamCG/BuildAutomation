@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "leoj",
+    "texture": "77cfe9d7-5c99-4dfa-a8f5-89585875d1de",
+    "atlas": "",
+    "rect": [
+      9,
+      52,
+      432,
+      345
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      450,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

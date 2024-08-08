@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fat",
+    "texture": "b58d1ca3-8afe-4866-ab01-0522a8b0fbc9",
+    "atlas": "",
+    "rect": [
+      49,
+      16,
+      152,
+      217
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
