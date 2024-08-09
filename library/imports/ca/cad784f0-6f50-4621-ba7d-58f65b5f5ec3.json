@@ -1,0 +1,306 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Diagraph_UKG Practice Book 2_25",
+      "totalLevel": "12",
+      "TitleImageName": "Diagraph.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "Francesco_Biondi_ Kids_Games.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_1.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_36.png",
+          "Asset_7.png",
+          "Asset_38.png"
+        ],
+        "optionsBg": [
+          "Asset_27.png",
+          "Asset_1.png",
+          "Asset_29.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "26259647_4_witch.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_2.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_20.png",
+          "Asset_10.png",
+          "Asset_12.png"
+        ],
+        "optionsBg": [
+          "Asset_13.png",
+          "Asset_4.png",
+          "Asset_6.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "26259647_9_bush.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_1.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_26.png",
+          "Asset_23.png",
+          "Asset_8.png"
+        ],
+        "optionsBg": [
+          "Asset_19.png",
+          "Asset_16.png",
+          "Asset_2.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "26259647_5_branch.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_2.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_21.png",
+          "Asset_38.png",
+          "Asset_43.png"
+        ],
+        "optionsBg": [
+          "Asset_14.png",
+          "Asset_29.png",
+          "Asset_34.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "26259647_8_fish.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_1.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_42.png",
+          "Asset_9.png",
+          "Asset_40.png"
+        ],
+        "optionsBg": [
+          "Asset_33.png",
+          "Asset_3.png",
+          "Asset_31.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "26259647_3_peach.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_2.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_36.png",
+          "Asset_11.png",
+          "Asset_22.png"
+        ],
+        "optionsBg": [
+          "Asset_27.png",
+          "Asset_5.png",
+          "Asset_15.png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "26259647_12_crash.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_1.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_10.png",
+          "Asset_20.png",
+          "Asset_24.png"
+        ],
+        "optionsBg": [
+          "Asset_4.png",
+          "Asset_13.png",
+          "Asset_17.png"
+        ],
+        "correctAudioName": "GORGEOUSWORK.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "26259647_2_torch.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_2.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_38.png",
+          "Asset_23.png",
+          "Asset_42.png"
+        ],
+        "optionsBg": [
+          "Asset_29.png",
+          "Asset_16.png",
+          "Asset_33.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "26259647_10_dish.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_1.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_20.png",
+          "Asset_21.png",
+          "Asset_11.png"
+        ],
+        "optionsBg": [
+          "Asset_13.png",
+          "Asset_14.png",
+          "Asset_5.png"
+        ],
+        "correctAudioName": "IMPRESSIVEWORK.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "banch.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_2.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_24.png",
+          "Asset_7.png",
+          "Asset_8.png"
+        ],
+        "optionsBg": [
+          "Asset_17.png",
+          "Asset_1.png",
+          "Asset_2.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "26259647_13_brush.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_1.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_39.png",
+          "Asset_12.png",
+          "Asset_40.png"
+        ],
+        "optionsBg": [
+          "Asset_30.png",
+          "Asset_6.png",
+          "Asset_31.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "26259647_7_beach.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_2.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_38.png",
+          "Asset_41.png",
+          "Asset_25.png"
+        ],
+        "optionsBg": [
+          "Asset_29.png",
+          "Asset_32.png",
+          "Asset_18.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "26259647_11_wash.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
