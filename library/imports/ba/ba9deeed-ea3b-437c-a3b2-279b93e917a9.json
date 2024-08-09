@@ -1,0 +1,64 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Yes or No?_UKG Practice Book 2_41",
+      "totalLevel": "3",
+      "TitleImageName": "Asset_10.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Asset_12.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "yes or no",
+        "questionImageName": "L1.png",
+        "questionAudioName": "26309422_1_is-this-a-shoe.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_22.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_14.png",
+          "Asset_13.png"
+        ],
+        "correctAudioName": "26309451_1_yes.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "yes or no",
+        "questionImageName": "L2.png",
+        "questionAudioName": "26309422_2_is-this-a-big-tree.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_22.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_14.png",
+          "Asset_13.png"
+        ],
+        "correctAudioName": "26309451_2_no.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "yes or no",
+        "questionImageName": "L3.png",
+        "questionAudioName": "26309422_3_is-this-a-dog.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_22.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_14.png",
+          "Asset_13.png"
+        ],
+        "correctAudioName": "26309451_1_yes.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
