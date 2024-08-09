@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Things we get from trees",
+    "texture": "e7df2ae9-3e48-4d86-b6c9-badedc2afa5c",
+    "atlas": "",
+    "rect": [
+      19,
+      19,
+      1146,
+      406
+    ],
+    "offset": [
+      9.5,
+      -9.5
+    ],
+    "originalSize": [
+      1165,
+      425
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
