@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Look and Match_UKG Practice Book 2_36",
+      "totalLevel": "7",
+      "TitleImageName": "Asset_17.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Asset_18.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Look and match",
+        "questionAudioName": "26260341_1_read_the_sentence.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset_15.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_8.png"
+        ],
+        "reiterations": [
+          "26260341_2_the-tree-frogs-has-spo.mp3"
+        ],
+        "commonRightOptionImageName": "Asset_16.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_3.png",
+          "Asset_7.png"
+        ]
+      },
+      {
+        "questionText": "Look and match",
+        "questionAudioName": "26260341_1_read_the_sentence.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset_15.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_9.png"
+        ],
+        "reiterations": [
+          "26260341_3_the-man-has-a-map-and-.mp3"
+        ],
+        "commonRightOptionImageName": "Asset_16.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_5.png",
+          "Asset_1.png"
+        ]
+      },
+      {
+        "questionText": "Look and match",
+        "questionAudioName": "26260341_1_read_the_sentence.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset_15.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_11.png"
+        ],
+        "reiterations": [
+          "26260341_4_a-bat-fell-in-the-mud.mp3"
+        ],
+        "commonRightOptionImageName": "Asset_16.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_1.png",
+          "Asset_2.png"
+        ]
+      },
+      {
+        "questionText": "Look and match",
+        "questionAudioName": "26260341_1_read_the_sentence.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset_15.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_13.png"
+        ],
+        "reiterations": [
+          "26260341_5_the-cheetah-has-long-l.mp3"
+        ],
+        "commonRightOptionImageName": "Asset_16.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_6.png",
+          "Asset_4.png"
+        ]
+      },
+      {
+        "questionText": "Look and match",
+        "questionAudioName": "26260341_1_read_the_sentence.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset_15.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_10.png"
+        ],
+        "reiterations": [
+          "26260341_6_the-parrot-sits-in-the.mp3"
+        ],
+        "commonRightOptionImageName": "Asset_16.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_2.png",
+          "Asset_3.png"
+        ]
+      },
+      {
+        "questionText": "Look and match",
+        "questionAudioName": "26260341_1_read_the_sentence.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset_15.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_12.png"
+        ],
+        "reiterations": [
+          "26260341_7_a-chimp-was-in-the-gre.mp3"
+        ],
+        "commonRightOptionImageName": "Asset_16.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_7.png",
+          "Asset_5.png"
+        ]
+      },
+      {
+        "questionText": "Look and match",
+        "questionAudioName": "26260341_1_read_the_sentence.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset_15.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_14.png"
+        ],
+        "reiterations": [
+          "26260341_8_a-sloth-crept-in-the-n.mp3"
+        ],
+        "commonRightOptionImageName": "Asset_16.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_4.png",
+          "Asset_6.png"
+        ]
+      }
+    ]
+  }
+}
