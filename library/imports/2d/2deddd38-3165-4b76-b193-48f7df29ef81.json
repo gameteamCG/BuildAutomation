@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "unsafe",
+    "texture": "71f882a1-f306-4713-a73f-70c918667adb",
+    "atlas": "",
+    "rect": [
+      101,
+      41,
+      298,
+      418
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
