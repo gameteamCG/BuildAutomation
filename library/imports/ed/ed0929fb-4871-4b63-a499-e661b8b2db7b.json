@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Time_UKG Course Book 2_126",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/74586436953_Tic_Toc_Trouble_1723457222302.mp4",
+      "TitleImageName": "Asset_240.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "7"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q1.png",
+        "QuestionAudioName": "que_1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "12_00.png",
+          "chair.png"
+        ],
+        "ReiterationAudioName": "ans_1.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q2.png",
+        "QuestionAudioName": "que_2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "ring.png",
+          "5_30.png"
+        ],
+        "ReiterationAudioName": "ans_2.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": true,
+        "QuestionText": "11 o'clock",
+        "QuestionImageName": "",
+        "QuestionAudioName": "que_3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "11_00.png",
+          "11_30.png"
+        ],
+        "ReiterationAudioName": "ans_3.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": true,
+        "QuestionText": "11:30 o'clock",
+        "QuestionImageName": "",
+        "QuestionAudioName": "que_4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "7_00.png",
+          "11_30.png"
+        ],
+        "ReiterationAudioName": "ans_4.mp3",
+        "CorrectAudioName": "",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": true,
+        "QuestionText": "9:00am",
+        "QuestionImageName": "",
+        "QuestionAudioName": "click_the_picture_that_shows_9_a_clock.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "9_00.png",
+          "6_00.png"
+        ],
+        "ReiterationAudioName": "9_a_clock.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q6.png",
+        "QuestionAudioName": "que_6.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "charecter_1.png",
+          "4character.png"
+        ],
+        "ReiterationAudioName": "ans_6.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q7.png",
+        "QuestionAudioName": "que_7.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "12.png",
+          "6.png"
+        ],
+        "ReiterationAudioName": "ans_7.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
