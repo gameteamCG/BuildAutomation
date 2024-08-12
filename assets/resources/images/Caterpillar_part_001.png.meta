@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1409c8cd-60eb-426a-93ec-19729e7db73c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "Caterpillar_part_001": {
+      "ver": "1.0.6",
+      "uuid": "08c0106e-9447-4472-af45-e1f9199fa0a3",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1409c8cd-60eb-426a-93ec-19729e7db73c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 250,
+      "height": 250,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

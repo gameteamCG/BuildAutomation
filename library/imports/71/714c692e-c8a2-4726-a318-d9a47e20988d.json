@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Insects_with_legs",
+    "texture": "d9850156-3c23-4d15-890e-6fafc73162ce",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      762,
+      273
+    ],
+    "offset": [
+      -12.5,
+      11.5
+    ],
+    "originalSize": [
+      787,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
