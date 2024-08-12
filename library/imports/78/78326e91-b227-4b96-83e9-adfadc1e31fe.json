@@ -1,0 +1,199 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Match it up!",
+      "totalLevel": "12",
+      "TitleImageName": "matchitup.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_cooking.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "match it up",
+        "questionImageName": "hands.png",
+        "questionAudioName": "identifyandmatchthebodyparttoitscorrecthygieneclothingitem.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "gloves.png",
+          "frock.png"
+        ],
+        "correctAudioName": "wewearglovesonourhandstoprotectthem.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "match it up",
+        "questionImageName": "nails.png",
+        "questionAudioName": "identifyandmatchthebodyparttoitscorrecthygieneproduct.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "mouthwash.png",
+          "nailcutter.png"
+        ],
+        "correctAudioName": "WEUSEaNAILCUTTERTOCUTANDTRIMOURNAILS.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "match it up",
+        "questionImageName": "teeth.png",
+        "questionAudioName": "identifyandmatchthebodyparttoitscorrecthygieneproduct.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "toothbrush.png",
+          "jeansandshirt.png"
+        ],
+        "correctAudioName": "WEUSEaTOOTHBRUSHANDTOOTHPASTETOCLEANOURTEETH.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "match it up",
+        "questionImageName": "face.png",
+        "questionAudioName": "identifyandmatchthebodyparttoitscorrecthygieneproduct.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "facewash.png",
+          "socks.png"
+        ],
+        "correctAudioName": "WEUSEafacewashTOCLEANOURFACE.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "match it up",
+        "questionImageName": "leg.png",
+        "questionAudioName": "identifyandmatchthebodyparttoitscorrecthygieneclothingitem.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "jeans.png",
+          "shampoo.png"
+        ],
+        "correctAudioName": "WEWAREJEANSONOURLEGSTOCOVERTHEMup.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "match it up",
+        "questionImageName": "neck.png",
+        "questionAudioName": "identifyandmatchthebodyparttoitscorrecthygieneclothingitem.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "mufler.png",
+          "nailcutter.png"
+        ],
+        "correctAudioName": "WEWAREaMUFFLERAROUNDOURNECKTOPROTECTITFROMTHECOLD.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "match it up",
+        "questionImageName": "feet.png",
+        "questionAudioName": "",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "facewash.png",
+          "socks.png"
+        ],
+        "correctAudioName": "WEWARESOCKSONOURFEETTOKEEPTHEMCLEAN.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "match it up",
+        "questionImageName": "hair.png",
+        "questionAudioName": "identifyandmatchthebodyparttoitscorrecthygieneproduct.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "shampoo.png",
+          "mouthwash.png"
+        ],
+        "correctAudioName": "WEUSESHAMPOOTOWASHANDCLEANOURHAIR.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "match it up",
+        "questionImageName": "hands.png",
+        "questionAudioName": "identifyandmatchthebodyparttoitscorrecthygieneproduct.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "jeans.png",
+          "soap.png"
+        ],
+        "correctAudioName": "WEUSESOAPTOWASHANDCLEANOURHANDS.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "match it up",
+        "questionImageName": "face.png",
+        "questionAudioName": "identifyandmatchthebodyparttoitscorrecthygieneproduct.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "water.png",
+          "gloves.png"
+        ],
+        "correctAudioName": "weusewatertohydrateourbody.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "match it up",
+        "questionImageName": "mouth.png",
+        "questionAudioName": "identifyandmatchthebodyparttoitscorrecthygieneproduct.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "mouthwash.png",
+          "nailcutter.png"
+        ],
+        "correctAudioName": "WEUSEaMOUTHWASHTORINSEOURMOUTH.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "match it up",
+        "questionImageName": "body.png",
+        "questionAudioName": "identifyandmatchthebodyparttoitscorrecthygieneclothingitem.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "frock.png",
+          "mouthwash.png"
+        ],
+        "correctAudioName": "WEWEARaFROCKTOCOVEROURSELVES.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

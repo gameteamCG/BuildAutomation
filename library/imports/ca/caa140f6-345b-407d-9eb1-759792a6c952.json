@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jeansandshirt",
+    "texture": "1dc8fc07-6100-4071-83d8-3f1a70056031",
+    "atlas": "",
+    "rect": [
+      32,
+      124,
+      437,
+      253
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

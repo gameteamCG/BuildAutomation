@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mufler",
+    "texture": "f965a1a2-66cf-45c7-b47f-62deb10b8d77",
+    "atlas": "",
+    "rect": [
+      156,
+      109,
+      198,
+      283
+    ],
+    "offset": [
+      5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

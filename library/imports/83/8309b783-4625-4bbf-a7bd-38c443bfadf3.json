@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nailcutter",
+    "texture": "5eb372b7-d652-48f8-a834-59665540c222",
+    "atlas": "",
+    "rect": [
+      112,
+      117,
+      275,
+      266
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
