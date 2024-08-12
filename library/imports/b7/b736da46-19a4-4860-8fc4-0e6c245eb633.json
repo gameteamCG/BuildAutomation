@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Months_in_a_year",
+    "texture": "a6ff17de-71be-46fe-805e-4034a6ce1dfc",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1148,
+      565
+    ],
+    "offset": [
+      -20,
+      0
+    ],
+    "originalSize": [
+      1188,
+      565
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

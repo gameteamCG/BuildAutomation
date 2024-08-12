@@ -1,0 +1,95 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Months in a year_LKG Practice Book 2_70",
+      "totalLevel": "4",
+      "TitleImageName": "Months_in_a_year.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGMBackward.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "arrange the month",
+        "questionImageName": "",
+        "questionAudioName": "Arrange_the_months_of_the_year_in_the_correct_order.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "asset_box11.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "jA.png",
+          "ma.png",
+          "fe.png"
+        ],
+        "correctAnswer": "132",
+        "correctAudioName": "1ans.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "arrange the month",
+        "questionImageName": "",
+        "questionAudioName": "Arrange_the_months_of_the_year_in_the_correct_order.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "asset_box11.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "j.png",
+          "ap.png",
+          "m.png"
+        ],
+        "correctAnswer": "231",
+        "correctAudioName": "2ans.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "arrange the month",
+        "questionImageName": "",
+        "questionAudioName": "Arrange_the_months_of_the_year_in_the_correct_order.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "asset_box11.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "au.png",
+          "se.png",
+          "ju.png"
+        ],
+        "correctAnswer": "312",
+        "correctAudioName": "3ans.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "arrange the month",
+        "questionImageName": "",
+        "questionAudioName": "Arrange_the_months_of_the_year_in_the_correct_order.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "asset_box11.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionOffset": null,
+        "options": [
+          "de.png",
+          "no.png",
+          "oc.png"
+        ],
+        "correctAnswer": "321",
+        "correctAudioName": "4ans.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      }
+    ]
+  }
+}
