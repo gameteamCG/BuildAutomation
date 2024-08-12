@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "clownfish",
+    "texture": "95854db6-7d05-4666-9949-e90ce805d022",
+    "atlas": "",
+    "rect": [
+      130,
+      189,
+      240,
+      122
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

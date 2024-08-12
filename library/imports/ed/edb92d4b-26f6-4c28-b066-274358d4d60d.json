@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pin",
+    "texture": "eee0491b-613b-42ea-8a8b-5a0d64f3abd7",
+    "atlas": "",
+    "rect": [
+      182,
+      140,
+      137,
+      274
+    ],
+    "offset": [
+      0.5,
+      -27
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
