@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mug1",
+    "texture": "619fe1fc-ccec-42b5-8257-09903f27cca7",
+    "atlas": "",
+    "rect": [
+      58,
+      15,
+      385,
+      471
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

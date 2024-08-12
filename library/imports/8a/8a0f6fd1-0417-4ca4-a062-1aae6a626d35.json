@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Uppercase_letterX",
+    "texture": "ec903981-c125-49e3-9567-e706cfea8d69",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      714,
+      244
+    ],
+    "offset": [
+      0,
+      24.5
+    ],
+    "originalSize": [
+      714,
+      313
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
