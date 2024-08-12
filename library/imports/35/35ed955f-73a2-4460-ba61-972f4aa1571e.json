@@ -1,0 +1,146 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Use of 'ing'_UKG Practice Book 2_59",
+      "totalLevel": "7",
+      "TitleImageName": "Asset_491.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Asset_8.png",
+      "JockeyName": "Puzzle",
+      "templateType": "TapToCollect"
+    },
+    "questionData": [
+      {
+        "questionText": "'ing' word",
+        "questionImageName": "Asset_7.png",
+        "questionAudioName": "choose_the_correct_picture_for_the_given_word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_22.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_16.png",
+          "Asset_10.png"
+        ],
+        "correctAudios": [
+          "26316683_1_sleeping.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "'ing' word",
+        "questionImageName": "Asset_5.png",
+        "questionAudioName": "choose_the_correct_picture_for_the_given_word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_22.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_17.png",
+          "Asset_9.png"
+        ],
+        "correctAudios": [
+          "26316683_2_jumping.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "'ing' word",
+        "questionImageName": "Asset_6.png",
+        "questionAudioName": "choose_the_correct_picture_for_the_given_word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_22.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_14.png",
+          "Asset_15.png"
+        ],
+        "correctAudios": [
+          "26316683_3_running.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "'ing' word",
+        "questionImageName": "Asset_4.png",
+        "questionAudioName": "choose_the_correct_picture_for_the_given_word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_22.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_19.png",
+          "Asset_11.png"
+        ],
+        "correctAudios": [
+          "26316683_4_crying.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "'ing' word",
+        "questionImageName": "Asset_3.png",
+        "questionAudioName": "choose_the_correct_picture_for_the_given_word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_22.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_13.png",
+          "Asset_21.png"
+        ],
+        "correctAudios": [
+          "26316683_5_hugging.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "'ing' word",
+        "questionImageName": "Asset_2.png",
+        "questionAudioName": "choose_the_correct_picture_for_the_given_word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_22.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_18.png",
+          "Asset_12.png"
+        ],
+        "correctAudios": [
+          "26316683_6_surfing.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "'ing' word",
+        "questionImageName": "Asset_1.png",
+        "questionAudioName": "choose_the_correct_picture_for_the_given_word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_22.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_15.png",
+          "Asset_20.png"
+        ],
+        "correctAudios": [
+          "26316683_7_baking.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
