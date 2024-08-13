@@ -1,0 +1,134 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Odd one out ",
+      "totalLevel": "6",
+      "TitleImageName": "Oddoneout.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "bgm3.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "odd one out",
+        "questionAudioName": "identifyandtapontheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 1.png",
+          "Asset 2.png",
+          "Asset 1.png",
+          "Asset 1.png"
+        ],
+        "correctAudios": [
+          "eggplantistheoddon.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "odd one out",
+        "questionAudioName": "identifyandtapontheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 4.png",
+          "Asset 5.png",
+          "Asset 5.png",
+          "Asset 5.png"
+        ],
+        "correctAudios": [
+          "mangoistheoddoneo.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "odd one out",
+        "questionAudioName": "identifyandtapontheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 4.png",
+          "Asset 4.png",
+          "Asset 4.png",
+          "Asset 3.png"
+        ],
+        "correctAudios": [
+          "carrotistheoddone.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "odd one out",
+        "questionAudioName": "identifyandtapontheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 2.png",
+          "Asset 2.png",
+          "Asset 6.png",
+          "Asset 2.png"
+        ],
+        "correctAudios": [
+          "appleistheoddoneo.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "odd one out",
+        "questionAudioName": "identifyandtapontheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 1.png",
+          "Asset 3.png",
+          "Asset 3.png",
+          "Asset 3.png"
+        ],
+        "correctAudios": [
+          "cabbagistheoddone.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "odd one out",
+        "questionAudioName": "identifyandtapontheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 6.png",
+          "Asset 5.png",
+          "Asset 6.png",
+          "Asset 6.png"
+        ],
+        "correctAudios": [
+          "orangeistheoddoneout.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

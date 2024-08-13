@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Oddoneout",
+    "texture": "bbb83e5e-4456-4724-8501-c540eac0a3d6",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      598,
+      284
+    ],
+    "offset": [
+      8,
+      -8
+    ],
+    "originalSize": [
+      636,
+      320
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
