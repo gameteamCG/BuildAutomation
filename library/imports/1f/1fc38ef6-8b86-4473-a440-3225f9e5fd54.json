@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "clue",
+    "texture": "a367b4d4-cdb1-444f-95ee-c18911c62612",
+    "atlas": "",
+    "rect": [
+      2,
+      0,
+      490,
+      503
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      495,
+      505
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

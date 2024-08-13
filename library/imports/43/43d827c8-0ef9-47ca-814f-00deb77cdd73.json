@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "seal",
+    "texture": "df2f8165-cba7-4f0c-87a5-7ad82d8badf2",
+    "atlas": "",
+    "rect": [
+      2,
+      0,
+      490,
+      503
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      495,
+      505
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
