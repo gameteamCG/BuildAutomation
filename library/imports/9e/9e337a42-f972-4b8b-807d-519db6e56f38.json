@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whathappensnext",
+    "texture": "b2dc92b5-1897-416f-9b84-1b070d2a0463",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      988,
+      366
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      988,
+      366
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
