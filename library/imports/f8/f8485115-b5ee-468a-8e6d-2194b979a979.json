@@ -1,0 +1,243 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Use of 'ed'_UKG Practice Book 2_60",
+      "totalLevel": "7",
+      "TitleImageName": "Asset_1.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Asset_10.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "'ed' words",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_11.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_001.png",
+          "image_part_002.png",
+          "image_part_003.png",
+          "image_part_004.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe to spell",
+        "questionAudioName2": "swipe_to_spell_the_word.mp3",
+        "commonOptionImageName": "Asset_3.png",
+        "isOptionText": true,
+        "numberOfOptions": 7,
+        "options": [
+          "L",
+          "P",
+          "A",
+          "N",
+          "D",
+          "T",
+          "E"
+        ],
+        "correctAnswer": "PLANTED",
+        "reiterationAudioName": "26457583_1_planted.mp3"
+      },
+      {
+        "questionText": "'ed' words",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_11.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_001.png",
+          "image_part_002.png",
+          "image_part_003.png",
+          "image_part_004.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe to spell",
+        "questionAudioName2": "swipe_to_spell_the_word.mp3",
+        "commonOptionImageName": "Asset_3.png",
+        "isOptionText": true,
+        "numberOfOptions": 6,
+        "options": [
+          "J",
+          "M",
+          "U",
+          "P",
+          "D",
+          "E"
+        ],
+        "correctAnswer": "JUMPED",
+        "reiterationAudioName": "26457583_2_jumped.mp3"
+      },
+      {
+        "questionText": "'ed' words",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_11.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_001.png",
+          "image_part_002.png",
+          "image_part_003.png",
+          "image_part_004.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe to spell",
+        "questionAudioName2": "swipe_to_spell_the_word.mp3",
+        "commonOptionImageName": "Asset_3.png",
+        "isOptionText": true,
+        "numberOfOptions": 6,
+        "options": [
+          "A",
+          "T",
+          "K",
+          "L",
+          "E",
+          "D"
+        ],
+        "correctAnswer": "TALKED",
+        "reiterationAudioName": "26457583_3_talked.mp3"
+      },
+      {
+        "questionText": "'ed' words",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_11.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_001.png",
+          "image_part_002.png",
+          "image_part_003.png",
+          "image_part_004.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe to spell",
+        "questionAudioName2": "swipe_to_spell_the_word.mp3",
+        "commonOptionImageName": "Asset_3.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "options": [
+          "M",
+          "I",
+          "D",
+          "X",
+          "E"
+        ],
+        "correctAnswer": "MIXED",
+        "reiterationAudioName": "26457583_4_mixed.mp3"
+      },
+      {
+        "questionText": "'ed' words",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_11.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "lift_part_001.png",
+          "lift_part_002.png",
+          "lift_part_003.png",
+          "lift_part_004.png"
+        ],
+        "correctAudioName": "GORGEOUSWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe to spell",
+        "questionAudioName2": "swipe_to_spell_the_word.mp3",
+        "commonOptionImageName": "Asset_3.png",
+        "isOptionText": true,
+        "numberOfOptions": 6,
+        "options": [
+          "F",
+          "L",
+          "I",
+          "T",
+          "D",
+          "E"
+        ],
+        "correctAnswer": "LIFTED",
+        "reiterationAudioName": "26457583_5_lifted.mp3"
+      },
+      {
+        "questionText": "'ed' words",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonPuzzleImageName": "Asset_11.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_001.png",
+          "image_part_002.png",
+          "image_part_003.png",
+          "image_part_004.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe to spell",
+        "questionAudioName2": "swipe_to_spell_the_word.mp3",
+        "commonOptionImageName": "Asset_3.png",
+        "isOptionText": true,
+        "numberOfOptions": 6,
+        "options": [
+          "H",
+          "L",
+          "E",
+          "E",
+          "P",
+          "D"
+        ],
+        "correctAnswer": "HELPED",
+        "reiterationAudioName": "26457583_6_helped.mp3"
+      },
+      {
+        "questionText": "'ed' words",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_11.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_001.png",
+          "image_part_002.png",
+          "image_part_003.png",
+          "image_part_004.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe to spell",
+        "questionAudioName2": "swipe_to_spell_the_word.mp3",
+        "commonOptionImageName": "Asset_3.png",
+        "isOptionText": true,
+        "numberOfOptions": 6,
+        "options": [
+          "K",
+          "I",
+          "E",
+          "C",
+          "K",
+          "D"
+        ],
+        "correctAnswer": "KICKED",
+        "reiterationAudioName": "26457583_7_kicked.mp3"
+      }
+    ]
+  }
+}
