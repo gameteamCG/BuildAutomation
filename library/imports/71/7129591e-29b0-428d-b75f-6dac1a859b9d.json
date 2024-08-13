@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "onoon",
+    "texture": "96cf6506-1f62-483b-9f35-2fb1e44d8e83",
+    "atlas": "",
+    "rect": [
+      97,
+      48,
+      263,
+      423
+    ],
+    "offset": [
+      -22,
+      -9.5
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
