@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "outdoorBG",
+    "texture": "e8a0f40a-09e4-4b44-a95f-34fe1ccb4e74",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1920,
+      1082
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      1922,
+      1082
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

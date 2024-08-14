@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyscale_0004_dress",
+    "texture": "7fa22995-8649-462e-abdc-1854c1b0e874",
+    "atlas": "",
+    "rect": [
+      43,
+      2,
+      416,
+      496
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
