@@ -1,0 +1,147 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Vowel teams_UKG Practice Book 2_29",
+      "totalLevel": "8",
+      "TitleImageName": "Asset_498.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Vowel teams",
+        "questionImageName": "seal.png",
+        "questionAudioName": "26461681_1_fill_in_the_correct_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui box.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ea",
+          "ai",
+          "ue"
+        ],
+        "correctAudioName": "e_seal.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Vowel teams",
+        "questionImageName": "goat.png",
+        "questionAudioName": "26461681_1_fill_in_the_correct_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui box.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ue",
+          "ai",
+          "oa"
+        ],
+        "correctAudioName": "o_goat.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Vowel teams",
+        "questionImageName": "rain.png",
+        "questionAudioName": "26461681_1_fill_in_the_correct_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui box.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "oa",
+          "ai",
+          "ea"
+        ],
+        "correctAudioName": "a_rain.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Vowel teams",
+        "questionImageName": "blue.png",
+        "questionAudioName": "26461681_1_fill_in_the_correct_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui box.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ea",
+          "oi",
+          "ue"
+        ],
+        "correctAudioName": "u_blue.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Vowel teams",
+        "questionImageName": "paint.png",
+        "questionAudioName": "26461681_1_fill_in_the_correct_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui box.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ai",
+          "ue",
+          "ea"
+        ],
+        "correctAudioName": "a_paint.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Vowel teams",
+        "questionImageName": "coat.png",
+        "questionAudioName": "26461681_1_fill_in_the_correct_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui box.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ea",
+          "oa",
+          "ee"
+        ],
+        "correctAudioName": "o_coat.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Vowel teams",
+        "questionImageName": "beach.png",
+        "questionAudioName": "26461681_1_fill_in_the_correct_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui box.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ue",
+          "aa",
+          "ea"
+        ],
+        "correctAudioName": "e_beach.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Vowel teams",
+        "questionImageName": "clue.png",
+        "questionAudioName": "26461681_1_fill_in_the_correct_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui box.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ue",
+          "oa",
+          "ie"
+        ],
+        "correctAudioName": "u_clue.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

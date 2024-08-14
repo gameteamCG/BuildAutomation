@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "beach",
+    "texture": "652e1e00-dad4-44e8-b7d5-f3fa3f67b637",
+    "atlas": "",
+    "rect": [
+      77,
+      8,
+      385,
+      450
+    ],
+    "offset": [
+      19,
+      17.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
