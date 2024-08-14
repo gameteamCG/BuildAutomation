@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dandelionK",
+    "texture": "26b8e33c-8a78-4a7a-b811-2cd5a0b7f3df",
+    "atlas": "",
+    "rect": [
+      25,
+      0,
+      301,
+      350
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      350,
+      350
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

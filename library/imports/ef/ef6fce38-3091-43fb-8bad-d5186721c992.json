@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_purple-dress",
+    "texture": "ac32c456-8bc0-473d-8a4b-f50a99642219",
+    "atlas": "",
+    "rect": [
+      43,
+      2,
+      416,
+      496
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
