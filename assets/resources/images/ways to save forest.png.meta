@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "38588c9a-a1fc-4d93-9c29-f5a0ab2cd153",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 910,
+  "height": 423,
+  "platformSettings": {},
+  "subMetas": {
+    "ways to save forest": {
+      "ver": "1.0.6",
+      "uuid": "74393ea8-9a09-4f0f-8b98-88bf9adf36c5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "38588c9a-a1fc-4d93-9c29-f5a0ab2cd153",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 9.5,
+      "offsetY": -9.5,
+      "trimX": 19,
+      "trimY": 19,
+      "width": 891,
+      "height": 404,
+      "rawWidth": 910,
+      "rawHeight": 423,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
