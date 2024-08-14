@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -159,7 +159,7 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.start = function () {
         var _this = this;
-        ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1);
+        ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1, false);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
         this.UpdateQuestionData();
         this.scheduleOnce(function () {
@@ -514,17 +514,20 @@ var Gameplay = /** @class */ (function (_super) {
         return word;
     };
     Gameplay.prototype.LoadNextQuestion = function () {
+        ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
         console.log("levelComplete--" + StartGame_1.default.Instance.currentLevel);
         //playjockey
         // after jockey call below animation
-        if (parseInt(StartGame_1.default.Instance.currentLevel) >= StartGame_1.default.Instance.TotalLevels) {
-            cc.director.loadScene("gameEnd");
-        }
-        else {
-            globalVariables_1.default.Instance.currentLevel += 1;
-            StartGame_1.default.Instance.currentLevel = (parseInt(StartGame_1.default.Instance.currentLevel) + 1).toString();
-            cc.director.loadScene("1");
-        }
+        this.scheduleOnce(function () {
+            if (parseInt(StartGame_1.default.Instance.currentLevel) >= StartGame_1.default.Instance.TotalLevels) {
+                cc.director.loadScene("gameEnd");
+            }
+            else {
+                globalVariables_1.default.Instance.currentLevel += 1;
+                StartGame_1.default.Instance.currentLevel = (parseInt(StartGame_1.default.Instance.currentLevel) + 1).toString();
+                cc.director.loadScene("1");
+            }
+        }, 1);
     };
     Gameplay.prototype.OptionsLayout = function () {
         var optionsLayout = this.optionsNode;
