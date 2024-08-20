@@ -1,0 +1,103 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Community helpers",
+      "totalLevel": "3",
+      "TitleImageName": "Asset_644.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "Community helpers",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "empty.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Asset 4.png",
+          "Asset 2.png",
+          "Asset 3.png",
+          "Asset 1.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "name the community helper",
+        "questionAudioName2": "identify_the_community_helper.mp3",
+        "commonOptionImageName": "common_option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "sweeper",
+          "bus driver"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "bus_driver.mp3"
+      },
+      {
+        "questionText": "Community helpers",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "empty.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Asset 9.png",
+          "Asset 7.png",
+          "Asset 8.png",
+          "Asset 6.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "name the community helper",
+        "questionAudioName2": "identify_the_community_helper.mp3",
+        "commonOptionImageName": "common_option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "sweeper",
+          "house helper"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Sweeper .mp3"
+      },
+      {
+        "questionText": "Community helpers",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "empty.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Asset 14.png",
+          "Asset 12.png",
+          "Asset 13.png",
+          "Asset 11.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "name the community helper",
+        "questionAudioName2": "identify_the_community_helper.mp3",
+        "commonOptionImageName": "common_option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "house helper",
+          "driver"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "house_helper.mp3"
+      }
+    ]
+  }
+}
