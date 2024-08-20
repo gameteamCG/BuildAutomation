@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kid",
+    "texture": "f471ee61-4f0c-4109-8496-f86d3fa5dacc",
+    "atlas": "",
+    "rect": [
+      108,
+      24,
+      301,
+      447
+    ],
+    "offset": [
+      8,
+      3
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
