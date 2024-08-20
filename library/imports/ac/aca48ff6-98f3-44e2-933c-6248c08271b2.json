@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Time_UKG Course Book 2_93",
+      "totalLevel": "8",
+      "TitleImageName": "Asset_240.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Time",
+        "questionAudioName": "see_the_clock.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonbg_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Q1.png"
+        ],
+        "reiterations": [
+          "26568816_1_half-past-4.mp3"
+        ],
+        "commonRightOptionImageName": "commonbg_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_1.png",
+          "Asset_2.png"
+        ]
+      },
+      {
+        "questionText": "Time",
+        "questionAudioName": "see_the_clock.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonbg_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Q2.png"
+        ],
+        "reiterations": [
+          "26568816_2_9-o-clock.mp3"
+        ],
+        "commonRightOptionImageName": "commonbg_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_2.png",
+          "Asset_3.png"
+        ]
+      },
+      {
+        "questionText": "Time",
+        "questionAudioName": "see_the_clock.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonbg_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Q3.png"
+        ],
+        "reiterations": [
+          "26568816_3_quarter-past-10.mp3"
+        ],
+        "commonRightOptionImageName": "commonbg_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_3.png",
+          "Asset_4.png"
+        ]
+      },
+      {
+        "questionText": "Time",
+        "questionAudioName": "see_the_clock.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonbg_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Q4.png"
+        ],
+        "reiterations": [
+          "26568816_4_half-past-7.mp3"
+        ],
+        "commonRightOptionImageName": "commonbg_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_4.png",
+          "Asset_5.png"
+        ]
+      },
+      {
+        "questionText": "Time",
+        "questionAudioName": "see_the_clock.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonbg_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Q5.png"
+        ],
+        "reiterations": [
+          "26568816_5_quarter-to-6.mp3"
+        ],
+        "commonRightOptionImageName": "commonbg_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_5.png",
+          "Asset_6.png"
+        ]
+      },
+      {
+        "questionText": "Time",
+        "questionAudioName": "see_the_clock.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonbg_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Q6.png"
+        ],
+        "reiterations": [
+          "26568816_6_12-o-clock.mp3"
+        ],
+        "commonRightOptionImageName": "commonbg_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_6.png",
+          "Asset_7.png"
+        ]
+      },
+      {
+        "questionText": "Time",
+        "questionAudioName": "see_the_clock.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonbg_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Q7.png"
+        ],
+        "reiterations": [
+          "26568816_7_quarter-past-8.mp3"
+        ],
+        "commonRightOptionImageName": "commonbg_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_7.png",
+          "Asset_8.png"
+        ]
+      },
+      {
+        "questionText": "Time",
+        "questionAudioName": "see_the_clock.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonbg_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Q8.png"
+        ],
+        "reiterations": [
+          "26568816_8_quarter-to-2.mp3"
+        ],
+        "commonRightOptionImageName": "commonbg_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_8.png",
+          "Asset_1.png"
+        ]
+      }
+    ]
+  }
+}
