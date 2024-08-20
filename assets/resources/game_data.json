@@ -1,0 +1,85 @@
+{
+  "AdditionalData": {
+    "GameID": "Importance of washing hands",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/IDONTWANTTOWASHMYHANDS_1724150688096.mp4",
+    "TitleImageName": "Asset5181.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "Podar",
+    "TotalLevel": "4"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "1000",
+      "IsQuestionText": true,
+      "QuestionText": "identify",
+      "QuestionImageName": "",
+      "QuestionAudioName": "question.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset13.png",
+        "Asset3.png"
+      ],
+      "ReiterationAudioName": "Weshouldwashourhandsafterpainting.mp3",
+      "CorrectAudioName": "L5Correct.mp3",
+      "WrongAudioName": "nu.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "1000",
+      "IsQuestionText": true,
+      "QuestionText": "identify",
+      "QuestionImageName": "",
+      "QuestionAudioName": "question.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset4.png",
+        "Asset6.png"
+      ],
+      "ReiterationAudioName": "Weshouldwashourhandsaftereatingfood.mp3",
+      "CorrectAudioName": "L1correct.mp3",
+      "WrongAudioName": "ns.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "1000",
+      "IsQuestionText": true,
+      "QuestionText": "identify",
+      "QuestionImageName": "",
+      "QuestionAudioName": "question.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset14.png",
+        "Asset1.png"
+      ],
+      "ReiterationAudioName": "Weshouldwashourhandsafterusingthetoilet.mp3",
+      "CorrectAudioName": "l4correct.mp3",
+      "WrongAudioName": "no.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "1000",
+      "IsQuestionText": true,
+      "QuestionText": "identify",
+      "QuestionImageName": "",
+      "QuestionAudioName": "question.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "Asset5.png",
+        "Asset2.png"
+      ],
+      "ReiterationAudioName": "Weshouldwashourhandsafterplaying.mp3",
+      "CorrectAudioName": "L7Correct.mp3",
+      "WrongAudioName": "ns.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
