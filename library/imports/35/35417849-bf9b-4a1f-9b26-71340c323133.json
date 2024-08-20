@@ -1,0 +1,68 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Jumbo says ",
+      "totalLevel": "7",
+      "TitleImageName": "Jumbosays2.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "clap your hands",
+        "questionImageName": "Asset1.png",
+        "questionAudioName": "Jumbosaysclapyourhands.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "touch your toes",
+        "questionImageName": "Asset 2.png",
+        "questionAudioName": "Jumbosaystouchyourtoes.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "tap your head",
+        "questionImageName": "Asset3.png",
+        "questionAudioName": "Jumbosaystapyourhead.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "jump in your place",
+        "questionImageName": "Asset5.png",
+        "questionAudioName": "Jumbosaysjumpinyourplace.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "hop like a frog",
+        "questionImageName": "Asset6.png",
+        "questionAudioName": "Jumbosayshoplikeafrog.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "do yoga exercise",
+        "questionImageName": "Asset8.png",
+        "questionAudioName": "Jumbosaysdothevrikshasanaortreepose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "roll your shoulders",
+        "questionImageName": "Asset7.png",
+        "questionAudioName": "Jumbosaysrollyourshoulders.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      }
+    ]
+  }
+}

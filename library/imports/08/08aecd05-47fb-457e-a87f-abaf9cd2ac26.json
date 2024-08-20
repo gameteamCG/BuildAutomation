@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Jumbosays2",
+    "texture": "91fbd5b1-04f6-4568-9224-1b4fa9696d93",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      917,
+      197
+    ],
+    "offset": [
+      8,
+      -7.5
+    ],
+    "originalSize": [
+      953,
+      234
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
