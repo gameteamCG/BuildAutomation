@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "family_story",
+    "texture": "c3256093-17ab-4bd2-aaad-0d2db9451ba4",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      540,
+      382
+    ],
+    "offset": [
+      7.5,
+      -7.5
+    ],
+    "originalSize": [
+      577,
+      419
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
