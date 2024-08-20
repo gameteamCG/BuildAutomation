@@ -1,0 +1,88 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Importance of cleanliness",
+      "totalLevel": "4",
+      "TitleImageName": "Asset522.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "bgm4.mp3",
+      "mainBgName": "Asset6.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "healthy and unhealthy habit",
+        "questionAudioName": "Identifyandtaponwhichoneisthehealthyandrightchoice.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 12.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 8.png",
+          "Asset2.png"
+        ],
+        "correctAudios": [
+          "ansvo.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "healthy and unhealthy habit",
+        "questionAudioName": "identifyandtaponwhichoneistheunhealthyandwrongchoice.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 12.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset7.png",
+          "Asset 1.png"
+        ],
+        "correctAudios": [
+          "dirtyutensilsattractgermsandcockroacheswhichmakeusfallsick.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy and unhealthy habit",
+        "questionAudioName": "Identifyandtaponwhichoneisthehealthyandrightchoice.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 12.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 11.png",
+          "Asset 5.png"
+        ],
+        "correctAudios": [
+          "washinghandspreventsusfromgettingsick.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "healthy and unhealthy habit",
+        "questionAudioName": "identifyandtaponwhichoneistheunhealthyandwrongchoice.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 12.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 9.png",
+          "Asset 4.png"
+        ],
+        "correctAudios": [
+          "Anuntidyroomcollectsdustwhichisharmfultoourbodies.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
