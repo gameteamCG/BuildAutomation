@@ -1,0 +1,113 @@
+{
+  "AdditionalData": {
+    "GameID": "Healthy food habits",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/redridinghood1234_1724243928570.mp4",
+    "TitleImageName": "Asset495.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "Podar",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "20000",
+      "IsQuestionText": true,
+      "QuestionText": "healthy food",
+      "QuestionImageName": "",
+      "QuestionAudioName": "healthyVo.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset51.png",
+        "Asset40.png",
+        "Asset47.png",
+        "Asset48.png"
+      ],
+      "ReiterationAudioName": "tomato.mp3",
+      "CorrectAudioName": "GoodP.mp3",
+      "WrongAudioName": "negative1.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "20000",
+      "IsQuestionText": true,
+      "QuestionText": "unhealthy food",
+      "QuestionImageName": "",
+      "QuestionAudioName": "unhealthyVo.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset36.png",
+        "Asset39.png",
+        "Asset52.png",
+        "Asset37.png"
+      ],
+      "ReiterationAudioName": "donut.mp3",
+      "CorrectAudioName": "FantasticP.mp3",
+      "WrongAudioName": "negative2.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "20000",
+      "IsQuestionText": true,
+      "QuestionText": "healthy food",
+      "QuestionImageName": "",
+      "QuestionAudioName": "healthyVo.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset38.png",
+        "Asset49.png",
+        "Asset46.png",
+        "Asset51.png"
+      ],
+      "ReiterationAudioName": "grapes.mp3",
+      "CorrectAudioName": "EXCELLENTP.mp3",
+      "WrongAudioName": "negative2.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "20000",
+      "IsQuestionText": true,
+      "QuestionText": "healthy food",
+      "QuestionImageName": "",
+      "QuestionAudioName": "healthyVo.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset47.png",
+        "Asset55.png",
+        "Asset48.png",
+        "Asset52.png"
+      ],
+      "ReiterationAudioName": "dal.mp3",
+      "CorrectAudioName": "GoodP.mp3",
+      "WrongAudioName": "negative1.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "20000",
+      "IsQuestionText": true,
+      "QuestionText": "unhealthy food",
+      "QuestionImageName": "",
+      "QuestionAudioName": "unhealthyVo.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset41.png",
+        "Asset37.png",
+        "Asset40.png",
+        "Asset49.png"
+      ],
+      "ReiterationAudioName": "chips.mp3",
+      "CorrectAudioName": "FantasticP.mp3",
+      "WrongAudioName": "negative2.mp3",
+      "CorrectAnswer": "4"
+    }
+  ]
+}
