@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ocean",
+    "texture": "d747e949-67cb-4c40-9a40-1d58cb519b6c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      505,
+      505
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      505,
+      505
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
