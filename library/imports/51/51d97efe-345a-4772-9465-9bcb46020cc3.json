@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "letter Kk",
+      "totalLevel": "5",
+      "TitleImageName": "Letter_Kk.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "bgm4.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "letter Kk",
+        "questionAudioName": "identifythepicturethatbeginswiththeletterK.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_15.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "koala.png",
+          "Asset_39.png"
+        ],
+        "correctAudios": [
+          "kforkoala.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter Kk",
+        "questionAudioName": "identifythepicturethatbeginswiththeletterK.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_15.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_42.png",
+          "key.png"
+        ],
+        "correctAudios": [
+          "kforkey.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter Kk",
+        "questionAudioName": "identifythepicturethatbeginswiththeletterK.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_15.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_40.png",
+          "kite.png"
+        ],
+        "correctAudios": [
+          "kforkite.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter Kk",
+        "questionAudioName": "identifythepicturethatbeginswiththeletterK.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_15.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "kitten.png",
+          "Asset_38.png"
+        ],
+        "correctAudios": [
+          "kforkitten.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter Kk",
+        "questionAudioName": "identifythepicturethatbeginswiththeletterK.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_15.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "kangaroo.png",
+          "Asset_41.png"
+        ],
+        "correctAudios": [
+          "kforkangaroo.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
