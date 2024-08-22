@@ -614,11 +614,15 @@ export default class gameplay extends cc.Component {
             audioNum -= 1;
             console.log("audio Number = ", audioNum);
             cc.audioEngine.playEffect(this.correctAudio[audioNum], false);
+            let duration = 0.7;
+            if (this.correctAudio[audioNum] != null) {
+                duration = this.correctAudio[audioNum].duration;
+            }
             this.node.getChildByName("confetti").setPosition(0, 0);
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             this.scheduleOnce(() => {
                 this.callJockey();
-            }, 0.7);
+            }, duration);
         }, 0.5);
     }
 
