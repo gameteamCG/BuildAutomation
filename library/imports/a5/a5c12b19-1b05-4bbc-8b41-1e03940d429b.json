@@ -1,0 +1,202 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "memory game",
+      "totalLevel": "7",
+      "TitleImageName": "memory_game.png",
+      "introBgName": "Junior.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "memory game",
+        "questionAudioName": "match_the_picture_to_its_correct_object.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 28.png",
+        "frontCardImageName": "Asset 30.png",
+        "isOptionText": false,
+        "options": [
+          "a.png",
+          "b.png",
+          "c.png",
+          "d.png"
+        ],
+        "reiterationAudios": [
+          "aa_apple.mp3",
+          "b_ball.mp3",
+          "c_camera.mp3",
+          "d_dog.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      {
+        "questionText": "memory game",
+        "questionAudioName": "match_the_picture_to_its_correct_object.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 29.png",
+        "frontCardImageName": "Asset 31.png",
+        "isOptionText": false,
+        "options": [
+          "e.png",
+          "f.png",
+          "g.png",
+          "h.png"
+        ],
+        "reiterationAudios": [
+          "e_elephant.mp3",
+          "f_frog.mp3",
+          "g_goat.mp3",
+          "h_hat.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "e",
+          "f",
+          "g",
+          "h"
+        ]
+      },
+      {
+        "questionText": "memory game",
+        "questionAudioName": "match_the_picture_to_its_correct_object.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 30.png",
+        "frontCardImageName": "Asset 28.png",
+        "isOptionText": false,
+        "options": [
+          "i.png",
+          "j.png",
+          "k.png",
+          "l.png"
+        ],
+        "reiterationAudios": [
+          "i_igloo.mp3",
+          "j_jelly.mp3",
+          "k_kitten.mp3",
+          "l_lock.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "i",
+          "j",
+          "k",
+          "l"
+        ]
+      },
+      {
+        "questionText": "memory game",
+        "questionAudioName": "match_the_picture_to_its_correct_object.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 31.png",
+        "frontCardImageName": "Asset 29.png",
+        "isOptionText": false,
+        "options": [
+          "m.png",
+          "n.png",
+          "o.png",
+          "p.png"
+        ],
+        "reiterationAudios": [
+          "m_mat.mp3",
+          "n_nuts.mp3",
+          "oo_orange.mp3",
+          "p_pyjamas.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "m",
+          "n",
+          "o",
+          "p"
+        ]
+      },
+      {
+        "questionText": "memory game",
+        "questionAudioName": "match_the_picture_to_its_correct_object.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 29.png",
+        "frontCardImageName": "Asset 30.png",
+        "isOptionText": false,
+        "options": [
+          "q.png",
+          "r.png",
+          "s.png",
+          "t.png"
+        ],
+        "reiterationAudios": [
+          "q_queen.mp3",
+          "r_rabbit.mp3",
+          "s_sun.mp3",
+          "t_torch.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "q",
+          "r",
+          "s",
+          "t"
+        ]
+      },
+      {
+        "questionText": "memory game",
+        "questionAudioName": "match_the_picture_to_its_correct_object.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 28.png",
+        "frontCardImageName": "Asset 31.png",
+        "isOptionText": false,
+        "options": [
+          "u.png",
+          "v.png",
+          "w.png",
+          "x.png"
+        ],
+        "reiterationAudios": [
+          "u_up.mp3",
+          "v_van.mp3",
+          "w_well.mp3",
+          "x_xray.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "u",
+          "v",
+          "w",
+          "x"
+        ]
+      },
+      {
+        "questionText": "memory game",
+        "questionAudioName": "match_the_picture_to_its_correct_object.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 31.png",
+        "frontCardImageName": "Asset 28.png",
+        "isOptionText": false,
+        "options": [
+          "y .png",
+          "z.png"
+        ],
+        "reiterationAudios": [
+          "y_yoga.mp3",
+          "z_zip.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "y",
+          "z"
+        ]
+      }
+    ]
+  }
+}
