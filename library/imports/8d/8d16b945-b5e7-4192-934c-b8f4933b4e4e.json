@@ -1,0 +1,164 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Concept of Time_UKG Practice Book 2_92",
+      "totalLevel": "8",
+      "TitleImageName": "Asset_223.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "morning",
+        "questionAudioName": "26512344_9_identify_the_morning.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_op_bg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "brush_teeth.png",
+          "sleep.png",
+          "come_home.png"
+        ],
+        "correctAudios": [
+          "26512344_13_you_brush_teeth.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "afternoon",
+        "questionAudioName": "26512344_10_identify_the_afternoon.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_op_bg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "read_bedtime_story.png",
+          "brush_teeth.png",
+          "study.png"
+        ],
+        "correctAudios": [
+          "26512344_3_you_study.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "evening",
+        "questionAudioName": "26512344_11_identify_the_evening.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_op_bg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "make_the_bed.png",
+          "play_outside.png",
+          "brush_teeth.png"
+        ],
+        "correctAudios": [
+          "26512344_5_you_play_outside.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "night",
+        "questionAudioName": "26512344_12_identify_the_night.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_op_bg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "play_outside.png",
+          "leave_for_school.png",
+          "eat_dinner.png"
+        ],
+        "correctAudios": [
+          "26512344_6_you_eat_dinner.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "morning",
+        "questionAudioName": "26512344_9_identify_the_morning.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_op_bg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "eat_breakfast.png",
+          "read_bedtime_story.png",
+          "play_in_park.png"
+        ],
+        "correctAudios": [
+          "26512344_2_you_eat_breakfast.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "afternoon",
+        "questionAudioName": "26512344_10_identify_the_afternoon.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_op_bg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "make_the_bed.png",
+          "come_home.png",
+          "get_up.png"
+        ],
+        "correctAudios": [
+          "26512344_4_you_come_home.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "evening",
+        "questionAudioName": "26512344_11_identify_the_evening.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_op_bg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "brush_teeth.png",
+          "leave_for_school.png",
+          "play_indoor.png"
+        ],
+        "correctAudios": [
+          "26512344_7_you_play_indoors.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "night",
+        "questionAudioName": "26512344_12_identify_the_night.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_op_bg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "go_to_bed.png",
+          "play_in_park.png",
+          "do_shopping.png"
+        ],
+        "correctAudios": [
+          "26512344_8_you_go_to_bed.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

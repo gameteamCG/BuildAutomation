@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "play_indoor",
+    "texture": "e09c1cef-6183-4567-b8c5-5479fb364699",
+    "atlas": "",
+    "rect": [
+      39,
+      36,
+      427,
+      427
+    ],
+    "offset": [
+      2.5,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

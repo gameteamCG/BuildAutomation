@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "make_the_bed",
+    "texture": "91bb13d1-2904-4656-8128-46d29abcd7aa",
+    "atlas": "",
+    "rect": [
+      89,
+      86,
+      273,
+      317
+    ],
+    "offset": [
+      -24.5,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

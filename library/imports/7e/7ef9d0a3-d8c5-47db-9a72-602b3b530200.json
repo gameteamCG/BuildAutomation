@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "leave_for_school",
+    "texture": "c8ecf2bc-7624-484a-894d-53634a9221f8",
+    "atlas": "",
+    "rect": [
+      77,
+      90,
+      339,
+      299
+    ],
+    "offset": [
+      -3.5,
+      10.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
