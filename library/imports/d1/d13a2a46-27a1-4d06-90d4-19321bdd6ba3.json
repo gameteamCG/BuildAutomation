@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "animal patterns ( Day 84 )",
+      "totalLevel": "6",
+      "TitleImageName": "animal_patterns_1.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "tiger",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "empty_500_500.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_37.png"
+        ],
+        "reiterations": [
+          "23978068_5_tiger.mp3"
+        ],
+        "commonRightOptionImageName": "empty_500_500.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_30.png",
+          "Asset_28.png"
+        ]
+      },
+      {
+        "questionText": "zebra",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "empty_500_500.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_32.png"
+        ],
+        "reiterations": [
+          "zebra.mp3"
+        ],
+        "commonRightOptionImageName": "empty_500_500.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_33.png",
+          "Asset_31.png"
+        ]
+      },
+      {
+        "questionText": "snake",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "empty_500_500.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_35.png"
+        ],
+        "reiterations": [
+          "24184863_6_snake.mp3"
+        ],
+        "commonRightOptionImageName": "empty_500_500.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_28.png",
+          "Asset_29.png"
+        ]
+      },
+      {
+        "questionText": "leopard",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "empty_500_500.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_34.png"
+        ],
+        "reiterations": [
+          "23979058_9_leopard.mp3"
+        ],
+        "commonRightOptionImageName": "empty_500_500.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_27.png",
+          "Asset_33.png"
+        ]
+      },
+      {
+        "questionText": "elephant",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "empty_500_500.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_36.png"
+        ],
+        "reiterations": [
+          "24033009_9_elephant.mp3"
+        ],
+        "commonRightOptionImageName": "empty_500_500.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_29.png",
+          "Asset_30.png"
+        ]
+      },
+      {
+        "questionText": "giraffe",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "empty_500_500.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_38.png"
+        ],
+        "reiterations": [
+          "24806359_2_giraffe.mp3"
+        ],
+        "commonRightOptionImageName": "empty_500_500.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_31.png",
+          "Asset_27.png"
+        ]
+      }
+    ]
+  }
+}
