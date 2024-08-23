@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0006_fun-in-the-sun-with-hun",
+    "texture": "5233e03c-8af3-4df6-80a1-aa0096ee862b",
+    "atlas": "",
+    "rect": [
+      82,
+      81,
+      426,
+      399
+    ],
+    "offset": [
+      0,
+      -30.5
+    ],
+    "originalSize": [
+      590,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0002_earth",
+    "texture": "3223ec46-ae9b-4319-8a60-9e8bcf087b09",
+    "atlas": "",
+    "rect": [
+      60,
+      67,
+      130,
+      130
+    ],
+    "offset": [
+      0,
+      -7
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
