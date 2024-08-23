@@ -1,0 +1,160 @@
+{
+  "additionalData": {
+    "GameID": "revision of o, c, k, ck, g, r, b",
+    "totalLevel": "7",
+    "TitleImageName": "Asset_2.png",
+    "introBgName": "Junior.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "Asset_17.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "revision",
+      "questionAudioName": "question_vo_ooo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset_19.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "o"
+      ],
+      "reiterations": [
+        "24892111_3_ostrich.mp3"
+      ],
+      "commonRightOptionImageName": "Asset_18.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset_15.png",
+        "Asset_13.png"
+      ]
+    },
+    {
+      "questionText": "revision",
+      "questionAudioName": "question_vo_cc.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset_19.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "c"
+      ],
+      "reiterations": [
+        "cup.mp3"
+      ],
+      "commonRightOptionImageName": "Asset_18.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset_9.png",
+        "Asset_11.png"
+      ]
+    },
+    {
+      "questionText": "revision",
+      "questionAudioName": "question_vo_kk.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset_19.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "k"
+      ],
+      "reiterations": [
+        "24820139_7_kite.mp3"
+      ],
+      "commonRightOptionImageName": "Asset_18.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset_5.png",
+        "Asset_16.png"
+      ]
+    },
+    {
+      "questionText": "revision",
+      "questionAudioName": "question_vo_ckk.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset_19.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "ck"
+      ],
+      "reiterations": [
+        "25564657_19_lock.mp3"
+      ],
+      "commonRightOptionImageName": "Asset_18.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset_14.png",
+        "Asset_6.png"
+      ]
+    },
+    {
+      "questionText": "revision",
+      "questionAudioName": "question_vo_gg.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset_19.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "g"
+      ],
+      "reiterations": [
+        "grass.mp3"
+      ],
+      "commonRightOptionImageName": "Asset_18.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset_12.png",
+        "Asset_8.png"
+      ]
+    },
+    {
+      "questionText": "revision",
+      "questionAudioName": "question_vo_rrr.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset_19.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "r"
+      ],
+      "reiterations": [
+        "26508417_7_rat.mp3"
+      ],
+      "commonRightOptionImageName": "Asset_18.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset_10.png",
+        "Asset_4.png"
+      ]
+    },
+    {
+      "questionText": "revision",
+      "questionAudioName": "question_vo_bb.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset_19.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "b"
+      ],
+      "reiterations": [
+        "Basket.mp3"
+      ],
+      "commonRightOptionImageName": "Asset_18.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset_7.png",
+        "Asset_3.png"
+      ]
+    }
+  ]
+}
