@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tug",
+    "texture": "ad955749-342c-4239-8d2b-0a735a43f742",
+    "atlas": "",
+    "rect": [
+      75,
+      104,
+      97,
+      66
+    ],
+    "offset": [
+      -1.5,
+      -12
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
