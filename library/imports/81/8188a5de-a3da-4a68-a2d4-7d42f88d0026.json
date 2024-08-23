@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pumkin",
+    "texture": "d7cfd154-4574-4149-8200-94c998d53e04",
+    "atlas": "",
+    "rect": [
+      25,
+      6,
+      301,
+      339
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
