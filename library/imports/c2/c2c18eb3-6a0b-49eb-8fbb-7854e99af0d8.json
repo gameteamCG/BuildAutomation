@@ -1,0 +1,172 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Diagraph_UKG Practice Book 2_25",
+      "totalLevel": "8",
+      "TitleImageName": "Diagraph.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "diagraph",
+        "questionImageName": "Asset_27.png",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_3.png",
+          "Asset_2.png",
+          "Asset_4.png"
+        ],
+        "correctAudios": [
+          "26259807_1_thumb.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "diagraph",
+        "questionImageName": "Asset_26.png",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_5.png",
+          "Asset_14.png",
+          "Asset_7.png"
+        ],
+        "correctAudios": [
+          "26259807_2_wheel.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "diagraph",
+        "questionImageName": "Asset_27.png",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_10.png",
+          "Asset_9.png",
+          "Asset_28.png"
+        ],
+        "correctAudios": [
+          "26259807_3_throw.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "diagraph",
+        "questionImageName": "Asset_26.png",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_11.png",
+          "Asset_12.png",
+          "Asset_13.png"
+        ],
+        "correctAudios": [
+          "26259807_4_whistle.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "diagraph",
+        "questionImageName": "Asset_27.png",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_22.png",
+          "Asset_15.png",
+          "Asset_16.png"
+        ],
+        "correctAudios": [
+          "26259807_5_bath.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "diagraph",
+        "questionImageName": "Asset_26.png",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_18.png",
+          "Asset_19.png",
+          "Asset_17.png"
+        ],
+        "correctAudios": [
+          "26259807_6_whisk.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "diagraph",
+        "questionImageName": "Asset_27.png",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_9.png",
+          "Asset_21.png",
+          "Asset_22.png"
+        ],
+        "correctAudios": [
+          "26259807_7_mother.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "diagraph",
+        "questionImageName": "Asset_26.png",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_23.png",
+          "Asset_24.png",
+          "Asset_25.png"
+        ],
+        "correctAudios": [
+          "26259807_8_whale.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
