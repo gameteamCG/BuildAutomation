@@ -1,0 +1,130 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "animal patterns ( Day 85 )",
+      "totalLevel": "5",
+      "TitleImageName": "animal_patterns.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "animal patterns",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "common-asset.png",
+        "frontCardImageName": "Asset_1.png",
+        "isOptionText": false,
+        "options": [
+          "Asset_3.png",
+          "Asset_5.png"
+        ],
+        "reiterationAudios": [
+          "18453776_1_fish.mp3",
+          "18453776_2_beettle.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset_4.png",
+          "Asset_6.png"
+        ]
+      },
+      {
+        "questionText": "animal patterns",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "common-asset.png",
+        "frontCardImageName": "Asset_1.png",
+        "isOptionText": false,
+        "options": [
+          "Asset_7.png",
+          "Asset_9.png"
+        ],
+        "reiterationAudios": [
+          "18453776_4_crocodile.mp3",
+          "18453776_3_bee.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset_8.png",
+          "Asset_10.png"
+        ]
+      },
+      {
+        "questionText": "animal patterns",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "common-asset.png",
+        "frontCardImageName": "Asset_1.png",
+        "isOptionText": false,
+        "options": [
+          "Asset_11.png",
+          "Asset_13.png"
+        ],
+        "reiterationAudios": [
+          "18453776_6_peacock.mp3",
+          "24184863_6_snake.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset_12.png",
+          "Asset_14.png"
+        ]
+      },
+      {
+        "questionText": "animal patterns",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "common-asset.png",
+        "frontCardImageName": "Asset_1.png",
+        "isOptionText": false,
+        "options": [
+          "Asset_15.png",
+          "Asset_17.png",
+          "Asset_19.png"
+        ],
+        "reiterationAudios": [
+          "23979058_9_leopard.mp3",
+          "24370845_12_elephant.mp3",
+          "24806359_7_zebra.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset_16.png",
+          "Asset_18.png",
+          "Asset_20.png"
+        ]
+      },
+      {
+        "questionText": "animal patterns",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "common-asset.png",
+        "frontCardImageName": "Asset_1.png",
+        "isOptionText": false,
+        "options": [
+          "Asset_21.png",
+          "Asset_23.png",
+          "Asset_25.png"
+        ],
+        "reiterationAudios": [
+          "23978068_5_tiger.mp3",
+          "18453776_5_cow.mp3",
+          "23805664_5_giraffe.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset_22.png",
+          "Asset_24.png",
+          "Asset_26.png"
+        ]
+      }
+    ]
+  }
+}
