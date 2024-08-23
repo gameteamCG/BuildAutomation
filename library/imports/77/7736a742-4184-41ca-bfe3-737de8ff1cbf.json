@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bun",
+    "texture": "7ff730ed-d854-4a7e-979a-22a6d41b87e6",
+    "atlas": "",
+    "rect": [
+      12,
+      61,
+      229,
+      129
+    ],
+    "offset": [
+      1.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

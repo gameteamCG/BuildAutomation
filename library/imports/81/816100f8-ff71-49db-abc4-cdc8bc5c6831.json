@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bun1",
+    "texture": "05b7bcf0-7fd8-4ac8-ae84-de301651a6f6",
+    "atlas": "",
+    "rect": [
+      10,
+      59,
+      233,
+      133
+    ],
+    "offset": [
+      1.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
