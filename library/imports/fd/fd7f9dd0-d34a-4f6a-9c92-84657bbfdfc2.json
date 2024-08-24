@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "snowy",
+    "texture": "03e043d6-b850-4a9b-bcf6-48a439a1d98c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      258,
+      258
+    ],
+    "offset": [
+      -1.5,
+      1.5
+    ],
+    "originalSize": [
+      261,
+      261
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

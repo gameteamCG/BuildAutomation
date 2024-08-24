@@ -1,0 +1,82 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "memory game on seasons",
+      "totalLevel": "3",
+      "TitleImageName": "tittle.png",
+      "introBgName": "Junior.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "seasons",
+        "questionAudioName": "Question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset_7.png",
+        "frontCardImageName": "Asset_7.png",
+        "isOptionText": false,
+        "options": [
+          "atumn.png",
+          "rainy.png"
+        ],
+        "reiterationAudios": [
+          "autumn.mp3",
+          "22990752_15_rainy.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "atumn.png",
+          "rainy.png"
+        ]
+      },
+      {
+        "questionText": "seasons",
+        "questionAudioName": "Question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset_7.png",
+        "frontCardImageName": "Asset_7.png",
+        "isOptionText": false,
+        "options": [
+          "snowy.png",
+          "spring.png"
+        ],
+        "reiterationAudios": [
+          "snowy.mp3",
+          "spring.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "snowy.png",
+          "spring.png"
+        ]
+      },
+      {
+        "questionText": "seasons",
+        "questionAudioName": "Question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset_7.png",
+        "frontCardImageName": "Asset_7.png",
+        "isOptionText": false,
+        "options": [
+          "summer.png",
+          "winter.png"
+        ],
+        "reiterationAudios": [
+          "summer.mp3",
+          "winter.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "summer.png",
+          "winter.png"
+        ]
+      }
+    ]
+  }
+}
