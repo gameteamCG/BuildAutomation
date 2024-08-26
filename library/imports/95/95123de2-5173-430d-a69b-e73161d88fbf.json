@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0006_hexagon-outline",
+    "texture": "2466fda0-003f-42c3-8916-d5032f4e6a56",
+    "atlas": "",
+    "rect": [
+      12,
+      44,
+      476,
+      413
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

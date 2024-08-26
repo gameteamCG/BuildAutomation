@@ -1,0 +1,216 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Recap of shapes",
+      "totalLevel": "9",
+      "TitleImageName": "identify_shapes.png",
+      "introBgName": "sr_kg_bg.png",
+      "bgmMusicName": "bgm2.mp3",
+      "JockeyName": "cryon"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG.png",
+        "questionAudioName": "Tap_on_the_triangle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0011_triangle.png",
+          "500x500_0012_square.png",
+          "hexagon.png"
+        ],
+        "optionsBg": [
+          "500x500_0011_triangle-outline.png",
+          "500x500_0013_square-outline.png",
+          "hexagon_outline.png"
+        ],
+        "correctAudioName": "L1_Correct.mp3",
+        "wrongAudioName": "Children_Voice_Sadness.mp3",
+        "reiterationAudioName": "triangle.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG.png",
+        "questionAudioName": "identufy_the_pentagon.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0007_heptagon.png",
+          "pentagon.png",
+          "500x500_0003_nonagon.png"
+        ],
+        "optionsBg": [
+          "500x500_0008_heptagon-outline.png",
+          "pentagon_outline.png",
+          "500x500_0004_nonagon-outline.png"
+        ],
+        "correctAudioName": "L2_Correct.mp3",
+        "wrongAudioName": "Children_Voice_Ugh2.mp3",
+        "reiterationAudioName": "pentagon.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG.png",
+        "questionAudioName": "identufy_the_octagon.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0012_square.png",
+          "500x500_0001_octagon.png",
+          "500x500_0009_decagon.png"
+        ],
+        "optionsBg": [
+          "500x500_0013_square-outline.png",
+          "500x500_0002_octagon-outline.png",
+          "500x500_0010_decagon-outline.png"
+        ],
+        "correctAudioName": "L8_Correct.mp3",
+        "wrongAudioName": "Children_Voice_Sadness.mp3",
+        "reiterationAudioName": "octagon.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG.png",
+        "questionAudioName": "tap_on_the_hexagon.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0001_octagon.png",
+          "500x500_0014_pentagon.png",
+          "500x500_0005_hexagon.png"
+        ],
+        "optionsBg": [
+          "500x500_0002_octagon-outline.png",
+          "500x500_0000_pentagon-outline.png",
+          "500x500_0006_hexagon-outline.png"
+        ],
+        "correctAudioName": "L5_Correct.mp3",
+        "wrongAudioName": "Children_Voice_Ouch.mp3",
+        "reiterationAudioName": "hexagon.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG.png",
+        "questionAudioName": "select_the_square.mp3",
+        "shouldPlayQuestionAudio": false,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0012_square.png",
+          "500x500_0009_decagon.png",
+          "500x500_0001_octagon.png"
+        ],
+        "optionsBg": [
+          "500x500_0013_square-outline.png",
+          "500x500_0010_decagon-outline.png",
+          "500x500_0002_octagon-outline.png"
+        ],
+        "correctAudioName": "L9_Correct.mp3",
+        "wrongAudioName": "Children_Voice_Ugh2.mp3",
+        "reiterationAudioName": "square.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG.png",
+        "questionAudioName": "select_the_decagon.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0003_nonagon.png",
+          "500x500_0009_decagon.png",
+          "500x500_0011_triangle.png"
+        ],
+        "optionsBg": [
+          "500x500_0004_nonagon-outline.png",
+          "500x500_0010_decagon-outline.png",
+          "500x500_0011_triangle-outline.png"
+        ],
+        "correctAudioName": "L3_Correct.mp3",
+        "wrongAudioName": "Children_Voice_Ugh2.mp3",
+        "reiterationAudioName": "decagon.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG.png",
+        "questionAudioName": "select_the_heptagon.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0007_heptagon.png",
+          "500x500_0012_square.png",
+          "500x500_0014_pentagon.png"
+        ],
+        "optionsBg": [
+          "500x500_0008_heptagon-outline.png",
+          "500x500_0013_square-outline.png",
+          "500x500_0000_pentagon-outline.png"
+        ],
+        "correctAudioName": "L1_Correct.mp3",
+        "wrongAudioName": "Children_Voice_Ouch.mp3",
+        "reiterationAudioName": "heptagon.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG.png",
+        "questionAudioName": "tap_on_the_nonagon.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0005_hexagon.png",
+          "500x500_0011_triangle.png",
+          "500x500_0003_nonagon.png"
+        ],
+        "optionsBg": [
+          "500x500_0006_hexagon-outline.png",
+          "500x500_0011_triangle-outline.png",
+          "500x500_0004_nonagon-outline.png"
+        ],
+        "correctAudioName": "L9_Correct.mp3",
+        "wrongAudioName": "Children_Voice_Sadness.mp3",
+        "reiterationAudioName": "nonagon.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG.png",
+        "questionAudioName": "tap_on_the_decagon_shape_objects.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0000_circle-tire.png",
+          "decagon_coin.png",
+          "500x500_0001_square-bag.png"
+        ],
+        "optionsBg": [
+          "500x500_0000_circle-tire_greyscale.png",
+          "coin_greyscale.png",
+          "500x500_0001_square-bag_greyscale.png"
+        ],
+        "correctAudioName": "L8_Correct.mp3",
+        "wrongAudioName": "Children_Voice_Ugh2.mp3",
+        "reiterationAudioName": "decagon.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

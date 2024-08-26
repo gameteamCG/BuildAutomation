@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0003_nonagon",
+    "texture": "2726a380-cf4c-4b97-ba15-051cb5301a61",
+    "atlas": "",
+    "rect": [
+      18,
+      21,
+      465,
+      458
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

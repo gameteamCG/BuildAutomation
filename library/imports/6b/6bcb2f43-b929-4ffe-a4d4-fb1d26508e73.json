@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0000_pentagon-outline",
+    "texture": "a5e1ac81-cb2f-4d97-a8a9-c133becbd8b3",
+    "atlas": "",
+    "rect": [
+      11,
+      22,
+      479,
+      457
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
