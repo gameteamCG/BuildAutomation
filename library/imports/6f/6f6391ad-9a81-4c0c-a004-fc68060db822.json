@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "honey",
+    "texture": "7686cf6d-e4cf-4007-8900-1567043f3ba1",
+    "atlas": "",
+    "rect": [
+      25,
+      54,
+      374,
+      387
+    ],
+    "offset": [
+      -38.5,
+      3
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

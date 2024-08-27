@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Silkworm",
+    "texture": "3efe195f-9a6a-42f8-8c4a-5bf591be7fe2",
+    "atlas": "",
+    "rect": [
+      65,
+      127,
+      408,
+      247
+    ],
+    "offset": [
+      18.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
