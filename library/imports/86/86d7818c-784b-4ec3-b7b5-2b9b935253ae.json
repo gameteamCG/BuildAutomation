@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "HoneyBee",
+    "texture": "4750b3c3-f281-475f-8d7d-d071ca672670",
+    "atlas": "",
+    "rect": [
+      93,
+      42,
+      393,
+      416
+    ],
+    "offset": [
+      39,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
