@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "magnifyglass1",
+    "texture": "f62f4851-708f-41ab-b9e1-d2319d52b37a",
+    "atlas": "",
+    "rect": [
+      35,
+      108,
+      431,
+      224
+    ],
+    "offset": [
+      0.5,
+      30
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
