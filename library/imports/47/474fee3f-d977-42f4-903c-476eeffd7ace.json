@@ -1,0 +1,140 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "colour white",
+      "totalLevel": "6",
+      "TitleImageName": "Asset.png",
+      "introBgName": "introbg.png",
+      "bgmMusicName": "KidsGame.mp3",
+      "mainBgName": "BackBG21.png",
+      "JockeyName": "tlc",
+      "templateType": "TapToCollect"
+    },
+    "questionData": [
+      {
+        "questionText": "color white",
+        "questionImageName": "treasure.png",
+        "questionAudioName": "Selecttheobjectthatiswhiteincolour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "car.png",
+          "car_2.png",
+          "medal.png",
+          "pram.png"
+        ],
+        "correctAudios": [
+          "white_car.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "color white",
+        "questionImageName": "treasure.png",
+        "questionAudioName": "Selecttheobjectthatiswhiteincolour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "cabbage.png",
+          "bulb.png",
+          "bucket.png",
+          "tomato.png"
+        ],
+        "correctAudios": [
+          "white_bulb.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "color white",
+        "questionImageName": "treasure.png",
+        "questionAudioName": "Selecttheobjectthatiswhiteincolour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "car_2.png",
+          "book.png",
+          "duck.png",
+          "dove.png"
+        ],
+        "correctAudios": [
+          "white_dove.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "color white",
+        "questionImageName": "treasure.png",
+        "questionAudioName": "Selecttheobjectthatiswhiteincolour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "cabbage.png",
+          "flower.png",
+          "milk.png",
+          "banana.png"
+        ],
+        "correctAudios": [
+          "white_milk.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "color white",
+        "questionImageName": "treasure.png",
+        "questionAudioName": "Selecttheobjectthatiswhiteincolour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "medal.png",
+          "snowman.png",
+          "pram.png",
+          "tomato.png"
+        ],
+        "correctAudios": [
+          "white_snowman.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "color white",
+        "questionImageName": "treasure.png",
+        "questionAudioName": "Selecttheobjectthatiswhiteincolour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blank_box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "teeth.png",
+          "car_2.png",
+          "tomato.png",
+          "cabbage.png"
+        ],
+        "correctAudios": [
+          "white_tooth.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
