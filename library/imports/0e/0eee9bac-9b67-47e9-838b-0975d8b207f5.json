@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "king",
+    "texture": "b635c489-eb19-48d6-881c-34f5ebe08706",
+    "atlas": "",
+    "rect": [
+      95,
+      47,
+      260,
+      356
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      450,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
