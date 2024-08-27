@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "drinh",
+    "texture": "82fb0391-9d15-4680-ae49-85c1239402b1",
+    "atlas": "",
+    "rect": [
+      78,
+      36,
+      344,
+      427
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
