@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "seahorseisavery",
+    "texture": "9ba625a9-01d1-4a06-88bf-e368a4e38253",
+    "atlas": "",
+    "rect": [
+      12,
+      135,
+      445,
+      217
+    ],
+    "offset": [
+      -15.5,
+      6.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

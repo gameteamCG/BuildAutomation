@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "question_seahorse",
+    "texture": "416f1340-6cd8-4703-b98f-568fa958b226",
+    "atlas": "",
+    "rect": [
+      89,
+      214,
+      314,
+      52
+    ],
+    "offset": [
+      -4,
+      10
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
