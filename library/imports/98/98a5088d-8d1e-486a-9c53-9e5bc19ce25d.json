@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3Basket01",
+    "texture": "34ce9006-9321-4189-9745-0bad3d3f3494",
+    "atlas": "",
+    "rect": [
+      4,
+      86,
+      241,
+      102
+    ],
+    "offset": [
+      -0.5,
+      -12
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
