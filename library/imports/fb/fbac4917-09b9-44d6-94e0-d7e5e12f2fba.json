@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mulberrybush",
+    "texture": "fb5b5ade-e447-4eca-b2bf-8f2d1b1074ca",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      869,
+      236
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      869,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

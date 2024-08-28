@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "fb5b5ade-e447-4eca-b2bf-8f2d1b1074ca",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 869,
+  "height": 300,
+  "platformSettings": {},
+  "subMetas": {
+    "mulberrybush": {
+      "ver": "1.0.6",
+      "uuid": "fbac4917-09b9-44d6-94e0-d7e5e12f2fba",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "fb5b5ade-e447-4eca-b2bf-8f2d1b1074ca",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 27,
+      "trimX": 0,
+      "trimY": 5,
+      "width": 869,
+      "height": 236,
+      "rawWidth": 869,
+      "rawHeight": 300,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

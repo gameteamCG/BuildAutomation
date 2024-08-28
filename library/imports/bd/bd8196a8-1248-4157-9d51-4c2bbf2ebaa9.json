@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hanger",
+    "texture": "56c9f693-0701-4b8a-a648-2797c9e682f0",
+    "atlas": "",
+    "rect": [
+      26,
+      36,
+      198,
+      147
+    ],
+    "offset": [
+      0,
+      15.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
