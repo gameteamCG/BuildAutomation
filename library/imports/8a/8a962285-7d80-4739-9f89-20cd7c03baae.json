@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q_plum",
+    "texture": "3be95d3e-722c-48a5-90a3-90b856c6db98",
+    "atlas": "",
+    "rect": [
+      78,
+      95,
+      340,
+      377
+    ],
+    "offset": [
+      -2,
+      -33.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

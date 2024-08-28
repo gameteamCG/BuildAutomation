@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "496415b6-2ce4-4df1-beec-d2e2c7d7ff9f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0005_hot-air-balloon": {
+      "ver": "1.0.6",
+      "uuid": "189893ec-d70c-4f59-9b70-c019eb92c106",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "496415b6-2ce4-4df1-beec-d2e2c7d7ff9f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 57,
+      "trimY": 14,
+      "width": 136,
+      "height": 222,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
