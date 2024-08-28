@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fishjar",
+    "texture": "d1cad461-a763-42a5-bad8-95ee1b882cf7",
+    "atlas": "",
+    "rect": [
+      84,
+      133,
+      294,
+      268
+    ],
+    "offset": [
+      -19.5,
+      -16.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
