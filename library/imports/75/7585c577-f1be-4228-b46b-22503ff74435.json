@@ -1,0 +1,128 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter 'n'",
+      "totalLevel": "6",
+      "TitleImageName": "lettern.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "BG2.png",
+      "JockeyName": "tlc",
+      "templateType": "TapToCollect"
+    },
+    "questionData": [
+      {
+        "questionText": "letter n",
+        "questionImageName": "bucket_5.png",
+        "questionAudioName": "tap_on_the_picture_that_begins_with_letter_sound_n.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "crow.png",
+          "nest.png"
+        ],
+        "correctAudios": [
+          "N_N_NEST.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter n",
+        "questionImageName": "bucket_5.png",
+        "questionAudioName": "tap_on_the_picture_that_begins_with_letter_sound_n.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "net.png",
+          "fishjar.png"
+        ],
+        "correctAudios": [
+          "N_for_net.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter n",
+        "questionImageName": "bucket_5.png",
+        "questionAudioName": "tap_on_the_picture_that_begins_with_letter_sound_n.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "boy.png",
+          "nurse.png"
+        ],
+        "correctAudios": [
+          "N_FOR_NURSE.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter n",
+        "questionImageName": "bucket_5.png",
+        "questionAudioName": "tap_on_the_picture_that_begins_with_letter_sound_n.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "nails.png",
+          "hammer.png"
+        ],
+        "correctAudios": [
+          "N_FOR_NAILS.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter n",
+        "questionImageName": "bucket_5.png",
+        "questionAudioName": "tap_on_the_picture_that_begins_with_letter_sound_n.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "nut.png",
+          "jar.png"
+        ],
+        "correctAudios": [
+          "N_for_nuts.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter n",
+        "questionImageName": "bucket_5.png",
+        "questionAudioName": "tap_on_the_picture_that_begins_with_letter_sound_n.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "1.png",
+          "needle.png"
+        ],
+        "correctAudios": [
+          "N_for_needle.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
