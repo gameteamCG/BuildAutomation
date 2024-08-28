@@ -49,8 +49,8 @@ var NewClass = /** @class */ (function (_super) {
     }
     NewClass.prototype.onLoad = function () {
         var _this = this;
-        console.log("loading--100");
-        console.log("loaderComplete--true");
+        // console.log("loading--100");
+        // console.log("loaderComplete--true");
         // this.playAnimation();
         this.scheduleOnce(function () {
             if (StartGame_1.default.Instance.jockeyName == "tlc") {
