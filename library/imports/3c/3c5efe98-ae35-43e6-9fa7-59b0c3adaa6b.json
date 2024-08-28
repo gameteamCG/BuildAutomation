@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3shed",
+    "texture": "024a6e38-abff-4141-a564-bc40390e5266",
+    "atlas": "",
+    "rect": [
+      2,
+      39,
+      246,
+      170
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

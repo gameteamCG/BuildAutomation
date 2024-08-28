@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "G-5347_Bingo_song",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/PTR_E31_+BingoSong.mp4",
+      "TitleImageName": "Asset62.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "tlc",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q1rhyme.png",
+        "QuestionAudioName": "Q1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Q1cow1.png",
+          "Q1cat3.png",
+          "Q1pig2.png",
+          "Q1dog4.png"
+        ],
+        "ReiterationAudioName": "dog.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "",
+        "QuestionImageName": "dogsname.png",
+        "QuestionAudioName": "Q2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "sam.png",
+          "bingo.png",
+          "jack.png",
+          "lio.png"
+        ],
+        "ReiterationAudioName": "bingo.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "bingolive.png",
+        "QuestionAudioName": "Q3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Q3Basket01.png",
+          "Q3kunnel.png",
+          "Q3shed.png",
+          "Q3stable.png"
+        ],
+        "ReiterationAudioName": "kennel.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bingolive",
+    "texture": "be1d8657-5281-4f0c-a7d2-a4e9f629e00d",
+    "atlas": "",
+    "rect": [
+      80,
+      171,
+      344,
+      147
+    ],
+    "offset": [
+      1.5,
+      5.5
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

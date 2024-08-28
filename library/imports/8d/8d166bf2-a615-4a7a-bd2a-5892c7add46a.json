@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lio",
+    "texture": "06379af0-1f84-4fc5-b5ed-695ab734a2b3",
+    "atlas": "",
+    "rect": [
+      68,
+      80,
+      118,
+      67
+    ],
+    "offset": [
+      2,
+      11.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

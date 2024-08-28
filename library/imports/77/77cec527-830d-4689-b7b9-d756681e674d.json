@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sam",
+    "texture": "d169fd2f-a656-4798-91f4-b35193701066",
+    "atlas": "",
+    "rect": [
+      25,
+      85,
+      196,
+      63
+    ],
+    "offset": [
+      -2,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
