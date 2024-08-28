@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3whomoti",
+    "texture": "9b683e25-8817-4e13-9919-13543fca2d53",
+    "atlas": "",
+    "rect": [
+      55,
+      212,
+      410,
+      54
+    ],
+    "offset": [
+      1,
+      11
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
