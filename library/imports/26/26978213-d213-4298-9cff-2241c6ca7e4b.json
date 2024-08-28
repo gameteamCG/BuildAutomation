@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "It_s_raining_its_pouring",
+    "texture": "b1b8db17-6492-47ab-9721-f0933ab73c6f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      688,
+      270
+    ],
+    "offset": [
+      0,
+      12.5
+    ],
+    "originalSize": [
+      688,
+      295
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
