@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whocooksfood",
+    "texture": "8d89020b-1eb7-400a-a0ef-30d6bf40b959",
+    "atlas": "",
+    "rect": [
+      6,
+      171,
+      541,
+      134
+    ],
+    "offset": [
+      0,
+      12
+    ],
+    "originalSize": [
+      553,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

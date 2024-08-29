@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whobakesbread",
+    "texture": "82735de6-c360-4cc2-b9fc-b130a1f59943",
+    "atlas": "",
+    "rect": [
+      2,
+      171,
+      549,
+      134
+    ],
+    "offset": [
+      1,
+      12
+    ],
+    "originalSize": [
+      551,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whogrowsfood",
+    "texture": "296a0fa6-b348-4402-99cc-1845e11e06c6",
+    "atlas": "",
+    "rect": [
+      6,
+      171,
+      516,
+      134
+    ],
+    "offset": [
+      0.5,
+      12
+    ],
+    "originalSize": [
+      527,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
