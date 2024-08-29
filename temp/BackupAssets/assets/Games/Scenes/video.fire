@@ -475,18 +475,12 @@
         "__uuid__": "fa0df1a1-201d-4ca5-bfb0-ad27ac997d0b"
       }
     ],
-    "jaipuria_font": {
-      "__uuid__": "91288d5e-fe60-4495-8686-44915bfd05b8"
-    },
+    "jaipuria_font": null,
     "podar_font": {
       "__uuid__": "1b12501a-5127-457a-8e06-0ecd6c509621"
     },
-    "tlc_font": {
-      "__uuid__": "9bd6c337-4f3c-42b2-9ac2-effc833609a2"
-    },
-    "supercub_font": {
-      "__uuid__": "a3ed727b-d7e5-49a6-89de-84365f6e7b27"
-    },
+    "tlc_font": null,
+    "supercub_font": null,
     "positiveVO": [],
     "slider": {
       "__id__": 13
@@ -2301,8 +2295,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 400,
-      "height": 130
+      "width": 550,
+      "height": 81.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2320,8 +2314,8 @@
         0,
         0,
         1,
-        1.42857,
-        1.42857,
+        1,
+        1,
         1.42857
       ]
     },
@@ -2359,7 +2353,7 @@
     "_lineHeight": 65,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "3973d65f-94f6-47bd-adab-8f9135d35f89"
+      "__uuid__": "1b12501a-5127-457a-8e06-0ecd6c509621"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -2369,7 +2363,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 3,
     "_N$cacheMode": 0,
     "_id": "4dJuO4IsxGWKyLqgNAA5I0"
   },
