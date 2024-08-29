@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q4_seahorse",
+    "texture": "4f7298e1-78cf-4998-958c-de551a8cded3",
+    "atlas": "",
+    "rect": [
+      97,
+      214,
+      306,
+      51
+    ],
+    "offset": [
+      0,
+      10.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

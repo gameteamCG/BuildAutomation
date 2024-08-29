@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "oceanfish",
+    "texture": "fc9acdb8-e765-4aae-93f1-fa7fef82cd8d",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      697,
+      124
+    ],
+    "offset": [
+      0,
+      29
+    ],
+    "originalSize": [
+      697,
+      184
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

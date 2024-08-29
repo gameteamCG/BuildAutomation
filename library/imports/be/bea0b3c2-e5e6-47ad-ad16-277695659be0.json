@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q7_catfish",
+    "texture": "bb900158-2314-4c66-9eb8-3ceb0f10bc17",
+    "atlas": "",
+    "rect": [
+      135,
+      212,
+      228,
+      53
+    ],
+    "offset": [
+      -1,
+      11.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

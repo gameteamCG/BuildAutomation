@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q6_pufferfish",
+    "texture": "ffad1122-cfac-4a06-9afd-7cc4c1284ba9",
+    "atlas": "",
+    "rect": [
+      81,
+      212,
+      339,
+      66
+    ],
+    "offset": [
+      0.5,
+      5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

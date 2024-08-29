@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3_starfish",
+    "texture": "333e1ea6-adba-4664-af1c-071a13f3f080",
+    "atlas": "",
+    "rect": [
+      122,
+      212,
+      253,
+      53
+    ],
+    "offset": [
+      -1.5,
+      11.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
