@@ -1,0 +1,88 @@
+{
+  "additionalData": {
+    "GameID": "community helpers",
+    "totalLevel": "3",
+    "TitleImageName": "Asset_531.png",
+    "introBgName": "Nursery.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "community helpers",
+      "questionAudioName": "solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "common_option_bg.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "Asset_4.png",
+        "Asset_2.png",
+        "Asset_3.png",
+        "Asset_1.png"
+      ],
+      "correctAudioName": "driver.mp3",
+      "needReiteration": false,
+      "interactionType": "",
+      "questionText2": "",
+      "questionAudioName2": "",
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": null,
+      "options": [],
+      "correctAnswer": "",
+      "reiterationAudioName": ""
+    },
+    {
+      "questionText": "community helpers",
+      "questionAudioName": "solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "common_option_bg.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "Asset_9.png",
+        "Asset_7.png",
+        "Asset_8.png",
+        "Asset_6.png"
+      ],
+      "correctAudioName": "sweeper.mp3",
+      "needReiteration": false,
+      "interactionType": "",
+      "questionText2": "",
+      "questionAudioName2": "",
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": null,
+      "options": [],
+      "correctAnswer": "",
+      "reiterationAudioName": ""
+    },
+    {
+      "questionText": "community helpers",
+      "questionAudioName": "solve_the_picture_puzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "common_option_bg.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "Asset_14.png",
+        "Asset_12.png",
+        "Asset_13.png",
+        "Asset_11.png"
+      ],
+      "correctAudioName": "house_helper.mp3",
+      "needReiteration": false,
+      "interactionType": "",
+      "questionText2": "",
+      "questionAudioName2": "",
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": null,
+      "options": [],
+      "correctAnswer": "",
+      "reiterationAudioName": ""
+    }
+  ]
+}
