@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bitsofpaper",
+    "texture": "88b65471-e47d-4df3-b240-1a34ba274320",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      402,
+      265
+    ],
+    "offset": [
+      0,
+      12.5
+    ],
+    "originalSize": [
+      402,
+      292
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
