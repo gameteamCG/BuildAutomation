@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "papers",
+    "texture": "dafd1858-26db-4320-8719-63cde0c3c6cf",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      590,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      590,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
