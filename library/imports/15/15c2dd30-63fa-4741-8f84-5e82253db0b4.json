@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2combhair",
+    "texture": "0f94e52f-d967-4898-b696-0538d1bb297b",
+    "atlas": "",
+    "rect": [
+      95,
+      212,
+      332,
+      53
+    ],
+    "offset": [
+      2,
+      11.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

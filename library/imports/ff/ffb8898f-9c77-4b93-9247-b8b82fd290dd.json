@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sink",
+    "texture": "53d146e2-3ecb-4461-8e0f-c8a33c787308",
+    "atlas": "",
+    "rect": [
+      9,
+      38,
+      234,
+      182
+    ],
+    "offset": [
+      1,
+      -4
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

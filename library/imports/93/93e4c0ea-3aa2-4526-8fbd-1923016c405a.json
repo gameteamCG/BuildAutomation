@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wearingcloth",
+    "texture": "edc214b4-4699-4883-a388-9ebc8e65ef59",
+    "atlas": "",
+    "rect": [
+      60,
+      15,
+      130,
+      224
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

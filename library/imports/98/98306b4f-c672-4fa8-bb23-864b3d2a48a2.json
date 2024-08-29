@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "schoolbag",
+    "texture": "ac21d891-dfcf-40c9-a4bc-5a01f4dbec90",
+    "atlas": "",
+    "rect": [
+      28,
+      16,
+      201,
+      230
+    ],
+    "offset": [
+      3.5,
+      -6
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
