@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "National symbols",
+      "totalLevel": "7",
+      "TitleImageName": "title.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "national flag",
+        "questionAudioName": "Que1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_34.png",
+          "Asset_41.png"
+        ],
+        "correctAudios": [
+          "27054835_2_indias_national_flag.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "national bird",
+        "questionAudioName": "Que2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_29.png",
+          "Asset_36.png"
+        ],
+        "correctAudios": [
+          "27054835_4_peacock.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "national tree",
+        "questionAudioName": "Que3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_37.png",
+          "Asset_30.png"
+        ],
+        "correctAudios": [
+          "banyan_tree.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "national fruit",
+        "questionAudioName": "Que4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_32.png",
+          "Asset_39.png"
+        ],
+        "correctAudios": [
+          "27054835_8_mango.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "national flower",
+        "questionAudioName": "Que5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_38.png",
+          "Asset_31.png"
+        ],
+        "correctAudios": [
+          "27054835_10_lotus.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "national animal",
+        "questionAudioName": "Que6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_35.png",
+          "Asset_28.png"
+        ],
+        "correctAudios": [
+          "27054835_12_tiger.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "national emblem",
+        "questionAudioName": "Que7.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_33.png",
+          "Asset_40.png"
+        ],
+        "correctAudios": [
+          "National_emblem_of_India.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
