@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TheGrandOldDuke",
+    "texture": "891774b0-2cf0-406e-8491-42985d797564",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      681,
+      228
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      681,
+      292
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
