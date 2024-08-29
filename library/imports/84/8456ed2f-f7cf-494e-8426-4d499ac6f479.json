@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ifyousee",
+    "texture": "d7182346-58be-4093-9f9b-b8246d13b205",
+    "atlas": "",
+    "rect": [
+      3,
+      133,
+      547,
+      221
+    ],
+    "offset": [
+      1,
+      6.5
+    ],
+    "originalSize": [
+      551,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
