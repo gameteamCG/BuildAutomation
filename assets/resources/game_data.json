@@ -1,0 +1,193 @@
+{
+  "AdditionalData": {
+    "GameID": "picture talk g",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/G_Story_1724919673226.mp4",
+    "TitleImageName": "picture_talk_g.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "Podar",
+    "TotalLevel": "9"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What was the name of the giant in the story?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "1Whatwasthenameofthegiantinthestory.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset_34.png",
+        "Asset_35.png",
+        "Asset_36.png",
+        "Asset_37.png"
+      ],
+      "ReiterationAudioName": "gullliver.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What was in front of the house?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "2Whatwasinfrontofthehouse.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset_39.png",
+        "Asset_38.png",
+        "Asset_40.png",
+        "Asset_41.png"
+      ],
+      "ReiterationAudioName": "gate.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Which animal did gulliver have as a pet?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "3WhichanimaldidGullliverhaveasapet.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset_43.png",
+        "Asset_42.png",
+        "Asset_44.png",
+        "Asset_45.png"
+      ],
+      "ReiterationAudioName": "goat.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What did the goat like to eat?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "4Whatdidthegoatliketoeat.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset_47.png",
+        "Asset_48.png",
+        "Asset_49.png",
+        "Asset_46.png"
+      ],
+      "ReiterationAudioName": "greengrass.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What did the gulliver gobbled down?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "5WhatdidGulllivergobbledown.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset_55.png",
+        "Asset_56.png",
+        "Asset_54.png",
+        "Asset_57.png"
+      ],
+      "ReiterationAudioName": "grapes.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What did gulliver wear on his feet?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "6WhatdidGullliverwearonhisfeet.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset_58.png",
+        "Asset_59.png",
+        "Asset_65.png",
+        "Asset_60.png"
+      ],
+      "ReiterationAudioName": "gumboots.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What did gulliver wear on his hands?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "7WhatdidGullliverwearonhishands.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset_58.png",
+        "Asset_59.png",
+        "Asset_60.png",
+        "Asset_61.png"
+      ],
+      "ReiterationAudioName": "gloves.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What was the gate made out of?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "8Whatwasthegatemadeoutof.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset_62.png",
+        "Asset_56.png",
+        "Asset_63.png",
+        "Asset_64.png"
+      ],
+      "ReiterationAudioName": "gold.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What grew in gulliver's garden?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "9WhatgrewinGullliversgarden.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset_52.png",
+        "Asset_51.png",
+        "Asset_54.png",
+        "Asset_53.png"
+      ],
+      "ReiterationAudioName": "grapes.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    }
+  ]
+}
