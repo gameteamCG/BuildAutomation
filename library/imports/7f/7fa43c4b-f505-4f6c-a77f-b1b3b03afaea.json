@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ears2",
+    "texture": "f4c76713-6739-4ee0-9635-d542c87aa730",
+    "atlas": "",
+    "rect": [
+      193,
+      228,
+      136,
+      37
+    ],
+    "offset": [
+      2,
+      3.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
