@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ed442ced-9472-4b10-becb-f4106c8bc78c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "whocooksfood": {
+      "ver": "1.0.6",
+      "uuid": "8c5db393-8a59-4bca-9ea0-dc3bbbd1d660",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ed442ced-9472-4b10-becb-f4106c8bc78c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -2.5,
+      "offsetY": 37.5,
+      "trimX": 20,
+      "trimY": 158,
+      "width": 455,
+      "height": 109,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
