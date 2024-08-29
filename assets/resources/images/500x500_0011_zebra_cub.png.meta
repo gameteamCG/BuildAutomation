@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5f5ae2a9-fe2f-4f72-aef6-443b4add32dd",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0011_zebra_cub": {
+      "ver": "1.0.6",
+      "uuid": "5518af31-333d-4f5c-8a45-46c2bfd1b16a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5f5ae2a9-fe2f-4f72-aef6-443b4add32dd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -83,
+      "trimX": 145,
+      "trimY": 172,
+      "width": 210,
+      "height": 322,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "foxkid",
+    "texture": "1c53a15a-52d5-4f44-9447-d1535aa87b64",
+    "atlas": "",
+    "rect": [
+      153,
+      163,
+      196,
+      313
+    ],
+    "offset": [
+      0.5,
+      -69
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
