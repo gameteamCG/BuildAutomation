@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fivelittlefrog",
+    "texture": "89a2f0e7-32bb-4409-b065-c37bd6baae2d",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      952,
+      273
+    ],
+    "offset": [
+      0,
+      11.5
+    ],
+    "originalSize": [
+      952,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
