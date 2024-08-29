@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "knees2",
+    "texture": "6b5835c5-e666-4c4c-acd8-b3237a308283",
+    "atlas": "",
+    "rect": [
+      171,
+      214,
+      183,
+      51
+    ],
+    "offset": [
+      3.5,
+      10.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
