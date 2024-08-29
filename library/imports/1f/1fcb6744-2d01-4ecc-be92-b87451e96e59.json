@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Xraypose",
+    "texture": "7e7eab06-5335-41a4-a50c-c35b10ef10a5",
+    "atlas": "",
+    "rect": [
+      7,
+      7,
+      487,
+      487
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

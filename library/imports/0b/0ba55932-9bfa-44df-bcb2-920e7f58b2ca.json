@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mountainpose",
+    "texture": "35c3e077-7148-4f19-b606-9f6e193e443e",
+    "atlas": "",
+    "rect": [
+      7,
+      7,
+      487,
+      487
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "725e4b82-ec92-4a9c-b4b0-6fe6aceb0f2a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 468,
+  "height": 426,
+  "platformSettings": {},
+  "subMetas": {
+    "yoga poses": {
+      "ver": "1.0.6",
+      "uuid": "342607de-f05f-4933-a065-065a4acb17d3",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "725e4b82-ec92-4a9c-b4b0-6fe6aceb0f2a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -9.5,
+      "offsetY": -29,
+      "trimX": 0,
+      "trimY": 60,
+      "width": 449,
+      "height": 364,
+      "rawWidth": 468,
+      "rawHeight": 426,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

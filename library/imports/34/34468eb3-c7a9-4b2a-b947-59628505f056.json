@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "yoga poses",
+      "totalLevel": "4",
+      "TitleImageName": "yoga poses.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "owl pose",
+        "questionImageName": "owlpose.png",
+        "questionAudioName": "jumbo_says_do_the_owl_pose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "volcano pose",
+        "questionImageName": "volcanopose.png",
+        "questionAudioName": "jumbo_says_do_the_volcano_pose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "mountain pose",
+        "questionImageName": "mountainpose.png",
+        "questionAudioName": "jumbo_says_do_the_mountain_pose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "x-ray pose",
+        "questionImageName": "Xraypose.png",
+        "questionAudioName": "jumbo_says_do_the_xray_pose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "volcanopose",
+    "texture": "caaba66b-bd34-4b7b-b3ca-fa4c6a7f0a4e",
+    "atlas": "",
+    "rect": [
+      6,
+      7,
+      488,
+      487
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
