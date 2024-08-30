@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyscale_0001_Oval",
+    "texture": "383d8988-27a5-4fde-8d16-15f49bbc0f5f",
+    "atlas": "",
+    "rect": [
+      93,
+      0,
+      317,
+      500
+    ],
+    "offset": [
+      1.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyscale_0000_Circle",
+    "texture": "b59b06c6-b5b0-4cf8-8cfd-5a7fd646bcca",
+    "atlas": "",
+    "rect": [
+      72,
+      1,
+      358,
+      489
+    ],
+    "offset": [
+      1,
+      4.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

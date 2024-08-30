@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "capital_letter_D",
+    "texture": "9788141a-99b3-467c-aef4-7be86b17006c",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      714,
+      245
+    ],
+    "offset": [
+      0,
+      24.5
+    ],
+    "originalSize": [
+      714,
+      314
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

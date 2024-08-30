@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0002_duck-D",
+    "texture": "6b22f6df-4566-4a1b-863c-89798634b5e3",
+    "atlas": "",
+    "rect": [
+      0,
+      12,
+      250,
+      225
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyscale_0001_dog",
+    "texture": "37510db3-3a04-4a93-aa0e-0687223a68aa",
+    "atlas": "",
+    "rect": [
+      44,
+      11,
+      421,
+      486
+    ],
+    "offset": [
+      4.5,
+      -4
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
