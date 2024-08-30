@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Seabg",
+    "texture": "c7abdaac-bf71-4b9e-909d-fa32c9d8fd92",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      3126,
+      2084
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      3126,
+      2084
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
