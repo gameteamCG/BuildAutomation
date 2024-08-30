@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "farmanimal",
+    "texture": "d98eb23f-a511-44c4-9b8b-8ce2cf33c5a1",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      536,
+      237
+    ],
+    "offset": [
+      0,
+      24.5
+    ],
+    "originalSize": [
+      536,
+      306
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

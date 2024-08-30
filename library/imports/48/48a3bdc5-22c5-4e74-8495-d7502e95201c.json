@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "goat2",
+    "texture": "37713f28-82be-4479-9f76-747453134099",
+    "atlas": "",
+    "rect": [
+      157,
+      121,
+      187,
+      258
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

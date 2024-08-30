@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "horse",
+    "texture": "8299e07e-8473-4c9f-b58b-bc2484480b14",
+    "atlas": "",
+    "rect": [
+      165,
+      27,
+      364,
+      382
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      694,
+      437
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
