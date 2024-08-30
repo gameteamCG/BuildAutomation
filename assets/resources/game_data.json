@@ -1,0 +1,160 @@
+{
+  "additionalData": {
+    "GameID": "Number 5 TLC",
+    "totalLevel": "7",
+    "TitleImageName": "title.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "BGM_1.mp3",
+    "mainBgName": "Seabg.png",
+    "JockeyName": "tlc"
+  },
+  "questionData": [
+    {
+      "questionText": "number 5",
+      "questionAudioName": "identify_and_match_the_correct_picture_with_the_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "q.png"
+      ],
+      "reiterations": [
+        "5.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "1.png",
+        "1_2.png"
+      ]
+    },
+    {
+      "questionText": "number 5",
+      "questionAudioName": "identify_and_match_the_correct_picture_with_the_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "q.png"
+      ],
+      "reiterations": [
+        "5.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "2.png",
+        "2_2.png"
+      ]
+    },
+    {
+      "questionText": "number 5",
+      "questionAudioName": "identify_and_match_the_correct_picture_with_the_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "q.png"
+      ],
+      "reiterations": [
+        "5.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "3.png",
+        "3_2.png"
+      ]
+    },
+    {
+      "questionText": "number 5",
+      "questionAudioName": "identify_and_match_the_correct_picture_with_the_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "q.png"
+      ],
+      "reiterations": [
+        "5.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "4.png",
+        "4_2.png"
+      ]
+    },
+    {
+      "questionText": "number 5",
+      "questionAudioName": "identify_and_match_the_correct_picture_with_the_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "q.png"
+      ],
+      "reiterations": [
+        "5.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "5.png",
+        "5_2.png"
+      ]
+    },
+    {
+      "questionText": "number 5",
+      "questionAudioName": "identify_and_match_the_correct_picture_with_the_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "q.png"
+      ],
+      "reiterations": [
+        "5.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "6.png",
+        "6_2.png"
+      ]
+    },
+    {
+      "questionText": "number 5",
+      "questionAudioName": "identify_and_match_the_correct_picture_with_the_number.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "right_puzzle2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "q.png"
+      ],
+      "reiterations": [
+        "5.mp3"
+      ],
+      "commonRightOptionImageName": "left_puzzle2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "7.png",
+        "7_2.png"
+      ]
+    }
+  ]
+}
