@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toothbrush",
+    "texture": "0d918d5f-2ab5-420f-b39a-4e934024b116",
+    "atlas": "",
+    "rect": [
+      54,
+      98,
+      386,
+      305
+    ],
+    "offset": [
+      -3,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

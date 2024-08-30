@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "facewash",
+    "texture": "3112f8d1-44c5-4c85-a329-74174048a0bf",
+    "atlas": "",
+    "rect": [
+      163,
+      38,
+      174,
+      424
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
