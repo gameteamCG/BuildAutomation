@@ -1,0 +1,146 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Uppercase Letter D",
+      "totalLevel": "5",
+      "TitleImageName": "capital_letter_D.png",
+      "introBgName": "jr_kg.png",
+      "bgmMusicName": "bgmss.mp3",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "outdoorBG.png",
+        "questionAudioName": "TaponDandelionwithCapitalD.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "dandelionD.png",
+          "dandelionK.png",
+          "dandelionA.png"
+        ],
+        "correctAudioName": "L5Correct.mp3",
+        "wrongAudioName": "no.mp3",
+        "reiterationAudioName": [
+          "D.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "underwaterBG.png",
+        "questionAudioName": "TaponalltheDolphinwithCapitalD.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "DolphinD.png",
+          "DolphinL.png",
+          "DolphinD.png",
+          "DolphinO.png"
+        ],
+        "correctAudioName": "L2Correct.mp3",
+        "wrongAudioName": "nu.mp3",
+        "reiterationAudioName": [
+          "D.mp3",
+          "D.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "lakeBG.png",
+        "questionAudioName": "duckaudio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "250x250_0001_duck-q.png",
+          "250x250_0000_duck-r.png",
+          "250x250_0002_duck-D.png",
+          "250x250_0002_duck-D.png"
+        ],
+        "correctAudioName": "L9Correct.mp3",
+        "wrongAudioName": "ns.mp3",
+        "reiterationAudioName": [
+          "D.mp3",
+          "D.mp3"
+        ],
+        "correctAnswerNum": "34"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "doodleBG.png",
+        "questionAudioName": "TaponalltheobjectsstartingwithLetterD.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0003_drum.png",
+          "500x500_0000_Circle.png",
+          "500x500_0001_purple-dress.png"
+        ],
+        "optionsBg": [
+          "greyscale_0003_drum.png",
+          "greyscale_0000_Circle.png",
+          "greyscale_0004_dress.png"
+        ],
+        "correctAudioName": "L8Correct.mp3",
+        "wrongAudioName": "nu.mp3",
+        "reiterationAudioName": [
+          "drum.mp3",
+          "dress.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "doodleBG.png",
+        "questionAudioName": "TaponalltheobjectsstartingwithLetterD.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0002_deer.png",
+          "500x500_0001_dog.png",
+          "500x500_0001_Oval.png"
+        ],
+        "optionsBg": [
+          "greyscale_0002_deer.png",
+          "greyscale_0001_dog.png",
+          "greyscale_0001_Oval.png"
+        ],
+        "correctAudioName": "l6correct.mp3",
+        "wrongAudioName": "nu.mp3",
+        "reiterationAudioName": [
+          "deer.mp3",
+          "dog.mp3"
+        ],
+        "correctAnswerNum": "12"
+      }
+    ]
+  }
+}
