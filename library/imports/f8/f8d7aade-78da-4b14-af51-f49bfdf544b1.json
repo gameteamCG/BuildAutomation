@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0012_fox",
+    "texture": "d26915d4-97fd-4efe-a52f-a641eaa5da36",
+    "atlas": "",
+    "rect": [
+      102,
+      0,
+      296,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
