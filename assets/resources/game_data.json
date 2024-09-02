@@ -1,0 +1,118 @@
+{
+  "additionalData": {
+    "GameID": "care for others",
+    "totalLevel": "7",
+    "TitleImageName": "Asset_1.png",
+    "introBgName": "Junior.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "Asset_3.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "when someone is sick",
+      "questionImageName": "Asset_18.png",
+      "questionAudioName": "Que1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset_25.png",
+        "Asset_19.png"
+      ],
+      "correctAudioName": "by_giving_medicine.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "when someone gets hurt",
+      "questionImageName": "Asset_15.png",
+      "questionAudioName": "Que2.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset_20.png",
+        "Asset_24.png"
+      ],
+      "correctAudioName": "by_cleaning_the_wound.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "when someone falls down",
+      "questionImageName": "Asset_17.png",
+      "questionAudioName": "Que3.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset_21.png",
+        "Asset_8.png"
+      ],
+      "correctAudioName": "by_helping_them_to_get_up.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "when someone gets a fracture",
+      "questionImageName": "Asset_14.png",
+      "questionAudioName": "Que4.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset_10.png",
+        "Asset_11.png"
+      ],
+      "correctAudioName": "by_Taking_them_to_a_doctor.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "when someone is on a wheelchair",
+      "questionImageName": "Asset_16.png",
+      "questionAudioName": "Que5.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset_22.png",
+        "Asset_5.png"
+      ],
+      "correctAudioName": "by_Being_a_good_friend.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "when someone is in the hospital",
+      "questionImageName": "Asset_13.png",
+      "questionAudioName": "Que6.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset_4.png",
+        "Asset_20.png"
+      ],
+      "correctAudioName": "by_Visiting_them_with_flowers.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "when someone has a cold",
+      "questionImageName": "Asset_12.png",
+      "questionAudioName": "Que7.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset_19.png",
+        "Asset_9.png"
+      ],
+      "correctAudioName": "by_handing_them_napkin.mp3",
+      "correctAnswerNum": "1"
+    }
+  ]
+}
