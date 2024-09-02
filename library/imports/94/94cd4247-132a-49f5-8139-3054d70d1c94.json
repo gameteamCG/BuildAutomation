@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "yoga",
+      "totalLevel": "6",
+      "TitleImageName": "yoga.png",
+      "introBgName": "Junior.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Asset_23.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "frog pose",
+        "questionImageName": "frogpose.png",
+        "questionAudioName": "frog.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "gate pose",
+        "questionImageName": "gatepose.png",
+        "questionAudioName": "gate.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "horse pose",
+        "questionImageName": "horsepose.png",
+        "questionAudioName": "horse.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "jack rabbit pose",
+        "questionImageName": "jackrabbitpose.png",
+        "questionAudioName": "jackrabbit.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "kite pose",
+        "questionImageName": "kitepose.png",
+        "questionAudioName": "kite.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "lion pose",
+        "questionImageName": "lionpose.png",
+        "questionAudioName": "lion.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      }
+    ]
+  }
+}

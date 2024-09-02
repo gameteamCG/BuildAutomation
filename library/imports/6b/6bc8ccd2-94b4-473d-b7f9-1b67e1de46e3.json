@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "horsepose",
+    "texture": "8607a824-5f5f-4bc3-97db-90671afeea81",
+    "atlas": "",
+    "rect": [
+      7,
+      7,
+      487,
+      487
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

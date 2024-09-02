@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "frogpose",
+    "texture": "e7a05374-c5d0-4cb3-8521-35d836b8cee7",
+    "atlas": "",
+    "rect": [
+      7,
+      7,
+      487,
+      487
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

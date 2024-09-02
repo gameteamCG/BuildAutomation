@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jackrabbitpose",
+    "texture": "0e2ea22c-853b-4c3f-a1e0-1578b472920a",
+    "atlas": "",
+    "rect": [
+      7,
+      7,
+      487,
+      487
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
