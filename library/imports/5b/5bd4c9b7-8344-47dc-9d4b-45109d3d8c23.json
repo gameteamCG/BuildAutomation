@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jkg",
+    "texture": "2188241e-a36d-4369-b2d7-2ca5b0c5525c",
+    "atlas": "",
+    "rect": [
+      0,
+      9,
+      569,
+      339
+    ],
+    "offset": [
+      -7.5,
+      23.5
+    ],
+    "originalSize": [
+      584,
+      404
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
