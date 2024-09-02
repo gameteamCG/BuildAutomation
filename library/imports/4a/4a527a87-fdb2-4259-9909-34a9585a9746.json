@@ -1,0 +1,172 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Let’s find out who?",
+      "totalLevel": "8",
+      "TitleImageName": "Asset_2.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Asset_3.png",
+      "JockeyName": "Podar",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "let's find out who?",
+        "questionImageName": "Asset_19.png",
+        "questionAudioName": "Que1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_7.png",
+          "Asset_12.png",
+          "Asset_10.png"
+        ],
+        "correctAudios": [
+          "26988296_2_gardener.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "let's find out who?",
+        "questionImageName": "Asset_14.png",
+        "questionAudioName": "Que2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_8.png",
+          "Asset_5.png",
+          "Asset_6.png"
+        ],
+        "correctAudios": [
+          "26988296_4_cobbler.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "let's find out who?",
+        "questionImageName": "Asset_16.png",
+        "questionAudioName": "Que3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_5.png",
+          "Asset_9.png",
+          "Asset_11.png"
+        ],
+        "correctAudios": [
+          "26988296_6_pilot.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "let's find out who?",
+        "questionImageName": "Asset_17.png",
+        "questionAudioName": "Que4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_10.png",
+          "Asset_12.png",
+          "Asset_11.png"
+        ],
+        "correctAudios": [
+          "26988296_8_nurse.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "let's find out who?",
+        "questionImageName": "Asset_4.png",
+        "questionAudioName": "Que5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_8.png",
+          "Asset_9.png",
+          "Asset_6.png"
+        ],
+        "correctAudios": [
+          "26988296_10_tailor.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "let's find out who?",
+        "questionImageName": "Asset_13.png",
+        "questionAudioName": "Que6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_11.png",
+          "Asset_7.png",
+          "Asset_12.png"
+        ],
+        "correctAudios": [
+          "26988296_12_sweeper.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "let's find out who?",
+        "questionImageName": "Asset_15.png",
+        "questionAudioName": "Que7.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_9.png",
+          "Asset_6.png",
+          "Asset_8.png"
+        ],
+        "correctAudios": [
+          "26988296_14_mail_carrier.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "let's find out who?",
+        "questionImageName": "Asset_18.png",
+        "questionAudioName": "Que8.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset_9.png",
+          "Asset_6.png",
+          "Asset_5.png"
+        ],
+        "correctAudios": [
+          "26988296_16_dentist.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
