@@ -1,0 +1,40 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "number magic card fun",
+      "totalLevel": "1",
+      "TitleImageName": "Asset_629.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "number magic card",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 21.png",
+        "frontCardImageName": "Asset_3.png",
+        "isOptionText": false,
+        "options": [
+          "Asset_1.png",
+          "Asset_2.png"
+        ],
+        "reiterationAudios": [
+          "1.mp3",
+          "2.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset_1.png",
+          "Asset_2.png"
+        ]
+      }
+    ]
+  }
+}
