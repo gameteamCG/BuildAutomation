@@ -1,0 +1,94 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "ways to save forest",
+      "totalLevel": "5",
+      "TitleImageName": "ways_to_save_forest.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "ways to save the environment",
+        "questionImageName": "Asset_3.png",
+        "questionAudioName": "Question_audio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_1.png",
+          "Asset_2.png"
+        ],
+        "correctAudioName": "planting_trees.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "ways to save the environment",
+        "questionImageName": "Asset_14.png",
+        "questionAudioName": "Question_audio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_1.png",
+          "Asset_2.png"
+        ],
+        "correctAudioName": "cutting_down_trees.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "ways to save the environment",
+        "questionImageName": "Asset_9.png",
+        "questionAudioName": "Question_audio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_1.png",
+          "Asset_2.png"
+        ],
+        "correctAudioName": "Cleaning_the_beach.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "ways to save the environment",
+        "questionImageName": "Asset_8.png",
+        "questionAudioName": "Question_audio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_1.png",
+          "Asset_2.png"
+        ],
+        "correctAudioName": "Throwing_waste_in.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "ways to save the environment",
+        "questionImageName": "Asset_5.png",
+        "questionAudioName": "Question_audio.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_1.png",
+          "Asset_2.png"
+        ],
+        "correctAudioName": "Brushing_teeth.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

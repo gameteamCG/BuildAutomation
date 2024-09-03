@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ways_to_save_forest",
+    "texture": "ea22c1a2-7eb4-40b3-bda7-f7da4ef275cc",
+    "atlas": "",
+    "rect": [
+      0,
+      18,
+      983,
+      359
+    ],
+    "offset": [
+      -7.5,
+      -9
+    ],
+    "originalSize": [
+      998,
+      377
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
