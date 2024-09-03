@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "duck4",
+    "texture": "afc822d0-2433-44eb-89da-0c68b859da39",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      248,
+      192
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      249,
+      193
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
