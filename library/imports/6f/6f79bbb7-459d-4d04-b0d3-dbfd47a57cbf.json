@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "monkey_shadow",
+    "texture": "ecb73b3e-925e-47ce-9032-0a5a34eacaee",
+    "atlas": "",
+    "rect": [
+      83,
+      85,
+      336,
+      362
+    ],
+    "offset": [
+      0.5,
+      -15.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

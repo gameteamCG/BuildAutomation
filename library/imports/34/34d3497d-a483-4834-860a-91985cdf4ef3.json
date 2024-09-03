@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "frog_shadow",
+    "texture": "0238f544-d01d-44fe-9cde-b1173b361aef",
+    "atlas": "",
+    "rect": [
+      45,
+      113,
+      412,
+      258
+    ],
+    "offset": [
+      0.5,
+      8.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

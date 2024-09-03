@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "snake_shadow",
+    "texture": "9e349270-2526-45cf-ae4f-048b7fee8c59",
+    "atlas": "",
+    "rect": [
+      41,
+      176,
+      413,
+      181
+    ],
+    "offset": [
+      -3,
+      -16
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
