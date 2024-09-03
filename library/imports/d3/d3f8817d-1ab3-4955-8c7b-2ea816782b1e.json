@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "drawing_board",
+    "texture": "a8fe4bdf-4cdf-4e16-bd90-569997523259",
+    "atlas": "",
+    "rect": [
+      0,
+      24,
+      500,
+      452
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

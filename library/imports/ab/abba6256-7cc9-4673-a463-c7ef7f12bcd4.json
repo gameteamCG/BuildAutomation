@@ -1,0 +1,64 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "shape square",
+      "totalLevel": "3",
+      "TitleImageName": "Asset_628.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "square",
+        "questionImageName": "square.png",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty_500_500.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "clock.png",
+          "roundclock.png"
+        ],
+        "correctAudioName": "clock.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "square",
+        "questionImageName": "square.png",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty_500_500.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "party_hat.png",
+          "drawing_board.png"
+        ],
+        "correctAudioName": "drawing_board.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "square",
+        "questionImageName": "square.png",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty_500_500.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "mirror.png",
+          "door.png"
+        ],
+        "correctAudioName": "mirror.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

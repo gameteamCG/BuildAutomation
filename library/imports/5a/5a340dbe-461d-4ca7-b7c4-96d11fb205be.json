@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "roundclock",
+    "texture": "70822b47-419c-4f6d-bd0e-8838ee0c210b",
+    "atlas": "",
+    "rect": [
+      46,
+      8,
+      408,
+      485
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
