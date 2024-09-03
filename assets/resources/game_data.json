@@ -1,0 +1,181 @@
+{
+  "additionalData": {
+    "GameID": "animal shadow game",
+    "totalLevel": "8",
+    "TitleImageName": "Asset_627.png",
+    "introBgName": "Playgroup.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "camel",
+      "questionAudioName": "Que_vo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Artboard_2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "camel.png"
+      ],
+      "reiterations": [
+        "24370845_8_camel.mp3"
+      ],
+      "commonRightOptionImageName": "Artboard_2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "camel_shadow.png",
+        "giraffe_shadow.png"
+      ]
+    },
+    {
+      "questionText": "dog",
+      "questionAudioName": "Que_vo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Artboard_2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "dog.png"
+      ],
+      "reiterations": [
+        "27053661_4_dog.mp3"
+      ],
+      "commonRightOptionImageName": "Artboard_2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "dog_shadow.png",
+        "lion_shadow.png"
+      ]
+    },
+    {
+      "questionText": "elephant",
+      "questionAudioName": "Que_vo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Artboard_2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "elephant.png"
+      ],
+      "reiterations": [
+        "27053661_12_elephant.mp3"
+      ],
+      "commonRightOptionImageName": "Artboard_2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "elephant_shadow.png",
+        "monkey_shadow.png"
+      ]
+    },
+    {
+      "questionText": "frog",
+      "questionAudioName": "Que_vo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Artboard_2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "frog.png"
+      ],
+      "reiterations": [
+        "20001128_6_frog.mp3"
+      ],
+      "commonRightOptionImageName": "Artboard_2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "frog_shadow.png",
+        "snake_shadow.png"
+      ]
+    },
+    {
+      "questionText": "giraffe",
+      "questionAudioName": "Que_vo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Artboard_2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "giraffe.png"
+      ],
+      "reiterations": [
+        "24806359_2_giraffe.mp3"
+      ],
+      "commonRightOptionImageName": "Artboard_2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "giraffe_shadow.png",
+        "frog_shadow.png"
+      ]
+    },
+    {
+      "questionText": "lion",
+      "questionAudioName": "Que_vo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Artboard_2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "lion.png"
+      ],
+      "reiterations": [
+        "27053661_11_lion.mp3"
+      ],
+      "commonRightOptionImageName": "Artboard_2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "lion_shadow.png",
+        "elephant_shadow.png"
+      ]
+    },
+    {
+      "questionText": "monkey",
+      "questionAudioName": "Que_vo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Artboard_2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "monkey.png"
+      ],
+      "reiterations": [
+        "27515775_13_monkey.mp3"
+      ],
+      "commonRightOptionImageName": "Artboard_2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "monkey_shadow.png",
+        "dog_shadow.png"
+      ]
+    },
+    {
+      "questionText": "snake",
+      "questionAudioName": "Que_vo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Artboard_2.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "snake.png"
+      ],
+      "reiterations": [
+        "24184863_6_snake.mp3"
+      ],
+      "commonRightOptionImageName": "Artboard_2.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "snake_shadow.png",
+        "camel_shadow.png"
+      ]
+    }
+  ]
+}
