@@ -1,0 +1,176 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "\"Letter Bb Letters and sounds\" Nursery language",
+      "totalLevel": "6",
+      "TitleImageName": "letterb.png",
+      "introBgName": "bgtitlemain.png",
+      "bgmMusicName": "BGM_2.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "BGL1.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "kite2.png",
+          "kite3.png",
+          "kite1.png",
+          "kite4.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "B.mp3",
+          "B.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "BGL2.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "b14.png",
+          "b15.png",
+          "b13.png",
+          "b16.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "B.mp3",
+          "B.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg3.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "baloon7.png",
+          "baloon8.png",
+          "baloon9.png",
+          "baloon10.png"
+        ],
+        "correctAudioName": "IMPRESSIVEWORK.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "B.mp3",
+          "B.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "BG.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "b16.png",
+          "b11.png",
+          "b15.png",
+          "b14.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "B.mp3",
+          "B.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "book.png",
+          "ball.png",
+          "penguin.png"
+        ],
+        "optionsBg": [
+          "book2.png",
+          "ball2.png",
+          "penguin2.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "book.mp3",
+          "ball.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "helicopter1.png",
+          "broom.png",
+          "butterfly.png"
+        ],
+        "optionsBg": [
+          "helicopter2.png",
+          "broom2.png",
+          "butterfly2.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "broom.mp3",
+          "Butterfly.mp3"
+        ],
+        "correctAnswerNum": "23"
+      }
+    ]
+  }
+}
