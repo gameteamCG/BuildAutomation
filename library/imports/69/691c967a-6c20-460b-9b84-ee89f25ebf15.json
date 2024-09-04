@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Number names 1 to 10",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Learn_Number_Names_1725435725273.mp4",
+      "TitleImageName": "Asset.png",
+      "IntroAudio1Name": "hello_everybody.mp3",
+      "IntroAudio2Name": "NumberNames.mp3",
+      "JockeyName": "crayon",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
