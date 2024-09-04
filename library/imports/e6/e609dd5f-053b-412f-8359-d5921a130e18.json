@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Bhil_puzzle",
+    "texture": "ca5080ce-928b-445d-a2a5-dba3728a4b56",
+    "atlas": "",
+    "rect": [
+      0,
+      7,
+      466,
+      327
+    ],
+    "offset": [
+      -6.5,
+      -2.5
+    ],
+    "originalSize": [
+      479,
+      336
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
