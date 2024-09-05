@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Jumbo_says",
+    "texture": "30515200-46c5-44d6-9f02-42250fb85880",
+    "atlas": "",
+    "rect": [
+      16,
+      8,
+      470,
+      326
+    ],
+    "offset": [
+      -1,
+      -3
+    ],
+    "originalSize": [
+      504,
+      336
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
