@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ball",
+    "texture": "4db9bcb4-49b1-46e1-9224-272452ff19e0",
+    "atlas": "",
+    "rect": [
+      161,
+      202,
+      172,
+      72
+    ],
+    "offset": [
+      -3.5,
+      12
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
