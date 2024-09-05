@@ -1,0 +1,82 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Jumbo says",
+      "totalLevel": "9",
+      "TitleImageName": "Jumbo_says.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "jump up high",
+        "questionImageName": "jump_high.png",
+        "questionAudioName": "Jump_up_high.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "touch the ground",
+        "questionImageName": "touch_ground.png",
+        "questionAudioName": "Touch_the_ground.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "shake hands with parents",
+        "questionImageName": "shake_hand.png",
+        "questionAudioName": "Shake_hands.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "give high five to parents",
+        "questionImageName": "high_five.png",
+        "questionAudioName": "high_five.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "turn around",
+        "questionImageName": "turn_round.png",
+        "questionAudioName": "Turn_around.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "clap your hands",
+        "questionImageName": "clap.png",
+        "questionAudioName": "Clap_your_hands.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "close your eyes",
+        "questionImageName": "close_eyes.png",
+        "questionAudioName": "Close_your_eyes.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "touch your hair",
+        "questionImageName": "touch_hairs.png",
+        "questionAudioName": "Touch_your_hair.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "say hello",
+        "questionImageName": "hello.png",
+        "questionAudioName": "Say_hello.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      }
+    ]
+  }
+}
