@@ -1,0 +1,170 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Dd Letters and sounds",
+      "totalLevel": "6",
+      "TitleImageName": "Asset_173.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg3.png",
+        "questionAudioName": "identify_the_letter_d.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset_214.png",
+          "Asset_213.png",
+          "Asset_215.png",
+          "Asset_216.png"
+        ],
+        "optionsBg": [
+          "empty_250_250.png",
+          "empty_250_250.png",
+          "empty_250_250.png",
+          "empty_250_250.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "D_SAYS_DDD.mp3",
+          "D_SAYS_DDD.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "bg1.png",
+        "questionAudioName": "Choose_the_uppercase_letter_D.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset_214.png",
+          "Asset_215.png",
+          "Asset_216.png",
+          "Asset_213.png"
+        ],
+        "optionsBg": [
+          "empty_250_250.png",
+          "empty_250_250.png",
+          "empty_250_250.png",
+          "empty_250_250.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "D_SAYS_DDD.mp3",
+          "D_SAYS_DDD.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "layout1bg.png",
+        "questionAudioName": "Tap_on_the_lowercase_letter_D.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset_217.png",
+          "Asset_220.png",
+          "Asset_218.png",
+          "Asset_219.png"
+        ],
+        "optionsBg": [
+          "empty_250_250.png",
+          "empty_250_250.png",
+          "empty_250_250.png",
+          "empty_250_250.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "D_SAYS_DDD.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG5.png",
+        "questionAudioName": "Tap_on_the_picture_that_begins_with_letter_sound_d.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "alligator.png",
+          "dog.png",
+          "pig.png"
+        ],
+        "optionsBg": [
+          "alligator_2.png",
+          "Asset_221.png",
+          "pig2.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "27767026_4_dog.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG5.png",
+        "questionAudioName": "Tap_on_the_picture_that_begins_with_letter_sound_d.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "giraffe.png",
+          "mag_glass.png",
+          "donut.png"
+        ],
+        "optionsBg": [
+          "giraffe2.png",
+          "mag_glass2.png",
+          "Asset_223.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "donut.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG5.png",
+        "questionAudioName": "Tap_on_the_picture_that_begins_with_letter_sound_d.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "dragonfly.png",
+          "strawberry.png",
+          "grapes.png"
+        ],
+        "optionsBg": [
+          "Asset_225.png",
+          "starwberry.png",
+          "grapes2.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "dragonfly.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
