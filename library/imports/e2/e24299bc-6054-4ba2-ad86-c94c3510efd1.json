@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "A sailor went to sea",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/A_silor_went_to_sea_1725605528354.mp4",
+      "TitleImageName": "Asset_623.png",
+      "IntroAudio1Name": "hello_dear_Friends.mp3",
+      "IntroAudio2Name": "sea.mp3",
+      "JockeyName": "bag",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
