@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "8apples",
+    "texture": "5849dedd-ddcf-4219-b7d5-55b652f33e04",
+    "atlas": "",
+    "rect": [
+      108,
+      215,
+      282,
+      80
+    ],
+    "offset": [
+      -1,
+      -4.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

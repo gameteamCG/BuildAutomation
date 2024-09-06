@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "9mangoes",
+    "texture": "bdc02cad-72d9-44f5-a6d8-0bebe98cda45",
+    "atlas": "",
+    "rect": [
+      66,
+      215,
+      367,
+      80
+    ],
+    "offset": [
+      -0.5,
+      -4.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
