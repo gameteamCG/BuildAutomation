@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "9melons",
+    "texture": "f321c8f4-0a22-404c-a88f-89be4b9b2183",
+    "atlas": "",
+    "rect": [
+      8,
+      215,
+      483,
+      58
+    ],
+    "offset": [
+      -0.5,
+      6.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
