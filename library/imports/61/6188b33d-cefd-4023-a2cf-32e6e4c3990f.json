@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mag_glass_2",
+    "texture": "47baf8aa-1ef5-499f-8429-238a3be7dc0e",
+    "atlas": "",
+    "rect": [
+      21,
+      59,
+      209,
+      134
+    ],
+    "offset": [
+      0.5,
+      -1
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
