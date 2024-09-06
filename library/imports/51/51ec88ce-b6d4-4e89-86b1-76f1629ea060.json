@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Around home and school",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Around_home_and_school_1725616594665.mp4",
+      "TitleImageName": "Asset625.png",
+      "IntroAudio1Name": "hi_friends.mp3",
+      "IntroAudio2Name": "rooms.mp3",
+      "JockeyName": "crayon",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
