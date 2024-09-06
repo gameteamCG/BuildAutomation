@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "The ants go marching",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/The_ants_go_marching_1725605463592.mp4",
+      "TitleImageName": "Asset_621.png",
+      "IntroAudio1Name": "hello_dear_Friends.mp3",
+      "IntroAudio2Name": "ants.mp3",
+      "JockeyName": "bag",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
