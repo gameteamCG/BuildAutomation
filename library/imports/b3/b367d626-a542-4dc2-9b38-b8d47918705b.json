@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "9berries",
+    "texture": "dcbecec6-110b-4a30-a636-2d173ce77272",
+    "atlas": "",
+    "rect": [
+      24,
+      218,
+      451,
+      55
+    ],
+    "offset": [
+      -0.5,
+      5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
