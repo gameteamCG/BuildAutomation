@@ -1,0 +1,171 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Ee Letters and sounds",
+      "totalLevel": "6",
+      "TitleImageName": "Asset_175.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "L1_bg.png",
+        "questionAudioName": "identify_the_letter_e.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "L1_1.png",
+          "L1_2.png",
+          "L1_3.png",
+          "L1_4.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "E_SAYS_EE.mp3",
+          "E_SAYS_EE.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "L2_bg.png",
+        "questionAudioName": "Choose_the_uppercase_letter_e.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "L2_1.png",
+          "L2_2.png",
+          "L2_3.png",
+          "L2_4.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "E_SAYS_EE.mp3",
+          "E_SAYS_EE.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "L3_bg.png",
+        "questionAudioName": "Tap_on_the_lowercase_letter_e.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "L3_1.png",
+          "L3_2.png",
+          "L3_3.png",
+          "L3_4.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "E_SAYS_EE.mp3",
+          "E_SAYS_EE.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "layout3_bg.png",
+        "questionAudioName": "Tap_on_the_picture_that_begins.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "elephant.png",
+          "zebra.png",
+          "brinjal.png"
+        ],
+        "optionsBg": [
+          "elephant2.png",
+          "zebra2.png",
+          "brinjal2.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "27053661_12_elephant.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "layout3_bg.png",
+        "questionAudioName": "Tap_on_the_picture_that_begins.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "jelly.png",
+          "emu.png",
+          "hen.png"
+        ],
+        "optionsBg": [
+          "jelly2.png",
+          "emu2.png",
+          "hen2.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "emu.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "layout3_bg.png",
+        "questionAudioName": "Tap_on_the_picture_that_begins.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "hat.png",
+          "igloo.png",
+          "engine.png"
+        ],
+        "optionsBg": [
+          "hat2.png",
+          "igloo2.png",
+          "engine2.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "26571398_8_engine.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
