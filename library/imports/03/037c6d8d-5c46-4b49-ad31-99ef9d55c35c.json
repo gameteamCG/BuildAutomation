@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "emu",
+    "texture": "1a1730f4-78de-44ce-903a-b482de40795a",
+    "atlas": "",
+    "rect": [
+      13,
+      3,
+      225,
+      244
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
