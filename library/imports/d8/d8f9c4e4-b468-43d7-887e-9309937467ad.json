@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bug2",
+    "texture": "4fc912ea-70e1-4262-ad96-5f307afb90f1",
+    "atlas": "",
+    "rect": [
+      110,
+      139,
+      204,
+      146
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      424,
+      424
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
