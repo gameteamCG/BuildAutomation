@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eating_food_with_family",
+    "texture": "372a45ec-dd7a-4440-a842-98baf50abcec",
+    "atlas": "",
+    "rect": [
+      12,
+      1,
+      486,
+      500
+    ],
+    "offset": [
+      4.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

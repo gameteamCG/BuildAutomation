@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "372a45ec-dd7a-4440-a842-98baf50abcec",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "eating_food_with_family": {
+      "ver": "1.0.6",
+      "uuid": "b7c29b1a-1b56-4f53-a886-ae2d1f2bfd12",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "372a45ec-dd7a-4440-a842-98baf50abcec",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 4.5,
+      "offsetY": -0.5,
+      "trimX": 12,
+      "trimY": 1,
+      "width": 486,
+      "height": 500,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
