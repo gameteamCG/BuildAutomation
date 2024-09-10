@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dog_shadow",
+    "texture": "edf212f5-6c08-496b-8682-e88aae481910",
+    "atlas": "",
+    "rect": [
+      47,
+      79,
+      407,
+      326
+    ],
+    "offset": [
+      0,
+      8.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

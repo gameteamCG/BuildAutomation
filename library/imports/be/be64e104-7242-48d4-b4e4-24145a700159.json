@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "elephant_shadow",
+    "texture": "f164c6e2-5ac6-4856-9343-13905ad9c1a2",
+    "atlas": "",
+    "rect": [
+      50,
+      105,
+      402,
+      314
+    ],
+    "offset": [
+      0.5,
+      -11.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
