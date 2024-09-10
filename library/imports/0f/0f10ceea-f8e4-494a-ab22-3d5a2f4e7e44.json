@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "raspberry",
+    "texture": "048bb234-46c1-46d7-bbd0-61477c093ca7",
+    "atlas": "",
+    "rect": [
+      147,
+      132,
+      174,
+      211
+    ],
+    "offset": [
+      -16,
+      12.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "keg",
+    "texture": "d26f8428-0762-4351-8b13-0c875aa9e863",
+    "atlas": "",
+    "rect": [
+      96,
+      79,
+      307,
+      342
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
