@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hugging_mummy",
+    "texture": "0c7fc301-3b3a-4e34-85e5-dfdbb1f08058",
+    "atlas": "",
+    "rect": [
+      13,
+      1,
+      485,
+      500
+    ],
+    "offset": [
+      5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

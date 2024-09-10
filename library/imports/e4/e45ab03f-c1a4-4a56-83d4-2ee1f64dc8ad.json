@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "activities inside the home",
+      "totalLevel": "5",
+      "TitleImageName": "Asset_635.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "activities inside the home",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "driving_toy_car.png",
+          "hugging_mummy.png"
+        ],
+        "correctAudios": [
+          "28257280_2_hugging_mom.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "activities inside the home",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "painting.png",
+          "playing.png"
+        ],
+        "correctAudios": [
+          "28257280_3_painting.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "activities inside the home",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "playing_football.png",
+          "sleeping.png"
+        ],
+        "correctAudios": [
+          "28257280_4_sleeping.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "activities inside the home",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "playing_in_the_garden.png",
+          "eating_food_with_family.png"
+        ],
+        "correctAudios": [
+          "28257280_5_eating_food_with_famil.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "activities inside the home",
+        "questionAudioName": "Que_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "reading.png",
+          "riding_a_bicycle.png"
+        ],
+        "correctAudios": [
+          "28257280_6_reading_book.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

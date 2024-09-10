@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "playing_in_the_garden",
+    "texture": "33bff0f6-6901-49d0-87a2-1b78d7974ea5",
+    "atlas": "",
+    "rect": [
+      12,
+      1,
+      486,
+      500
+    ],
+    "offset": [
+      4.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
