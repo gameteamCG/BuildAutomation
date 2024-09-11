@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hand_0000_500x500_0008_elbow",
+    "texture": "8533676e-4c1d-4cfe-9c34-8a1ae3b70dd3",
+    "atlas": "",
+    "rect": [
+      25,
+      19,
+      429,
+      461
+    ],
+    "offset": [
+      -10.5,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
