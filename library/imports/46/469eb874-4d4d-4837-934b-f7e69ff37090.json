@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0006_emerald",
+    "texture": "1a72793b-3097-402b-8014-6ad9d220b1fb",
+    "atlas": "",
+    "rect": [
+      104,
+      108,
+      291,
+      284
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

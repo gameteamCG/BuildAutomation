@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bus_0006_250x250_0003_bus",
+    "texture": "24faf7e3-1aa7-4d44-aa28-c01e9edd70d5",
+    "atlas": "",
+    "rect": [
+      50,
+      179,
+      399,
+      192
+    ],
+    "offset": [
+      -0.5,
+      -25
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
