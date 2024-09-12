@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ovest",
+    "texture": "921b62f7-a095-4964-a36a-f32665e7bfe0",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      157,
+      248
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      157,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

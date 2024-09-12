@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ojacket",
+    "texture": "46467740-589d-4d47-b71a-f0c9bb13edf4",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      221,
+      249
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      223,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
