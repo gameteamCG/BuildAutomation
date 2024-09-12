@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ran",
+    "texture": "6e98579c-1a0f-4610-a01a-064a6c6631eb",
+    "atlas": "",
+    "rect": [
+      29,
+      11,
+      191,
+      227
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
