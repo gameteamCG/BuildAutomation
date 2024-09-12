@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0001_htowel",
+    "texture": "02604542-b163-4dcf-9bd6-ddb93bd265c8",
+    "atlas": "",
+    "rect": [
+      1,
+      5,
+      177,
+      242
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      179,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
