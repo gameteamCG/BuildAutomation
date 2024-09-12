@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "glowpig",
+    "texture": "e0adfdf4-2514-4ce2-97c6-813e657f7423",
+    "atlas": "",
+    "rect": [
+      8,
+      60,
+      488,
+      375
+    ],
+    "offset": [
+      2,
+      2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

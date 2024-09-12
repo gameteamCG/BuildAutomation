@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyorange",
+    "texture": "76fc0354-4301-4964-ad11-2901647bd19a",
+    "atlas": "",
+    "rect": [
+      8,
+      49,
+      482,
+      406
+    ],
+    "offset": [
+      -1,
+      -2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

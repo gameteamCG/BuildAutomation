@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chilli",
+    "texture": "a11aeeab-08ff-4f88-904d-5cc38d9d82a9",
+    "atlas": "",
+    "rect": [
+      8,
+      142,
+      488,
+      212
+    ],
+    "offset": [
+      2,
+      2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
