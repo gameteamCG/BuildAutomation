@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ptowel",
+    "texture": "872dc079-264a-43b8-ad68-a78b29c953b6",
+    "atlas": "",
+    "rect": [
+      1,
+      5,
+      178,
+      242
+    ],
+    "offset": [
+      0.5,
+      -1
+    ],
+    "originalSize": [
+      179,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
