@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "otter",
+    "texture": "50903e68-361b-43ea-a7ce-6e07954a8e05",
+    "atlas": "",
+    "rect": [
+      35,
+      3,
+      428,
+      496
+    ],
+    "offset": [
+      -1,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
