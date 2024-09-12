@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ottergrey",
+    "texture": "6a6034dd-76d8-440c-8db5-853fdb2f4d32",
+    "atlas": "",
+    "rect": [
+      35,
+      3,
+      428,
+      496
+    ],
+    "offset": [
+      -1,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

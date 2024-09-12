@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "glowchilli",
+    "texture": "6ba20ba0-0d3c-4c52-9d28-62819134c824",
+    "atlas": "",
+    "rect": [
+      8,
+      142,
+      488,
+      212
+    ],
+    "offset": [
+      2,
+      2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

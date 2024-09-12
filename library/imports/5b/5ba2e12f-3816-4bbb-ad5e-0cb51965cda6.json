@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Fkite",
+    "texture": "b5b3aa6b-48a1-45a4-81b8-58969866f360",
+    "atlas": "",
+    "rect": [
+      42,
+      14,
+      164,
+      222
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

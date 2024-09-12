@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyballoon",
+    "texture": "66b5f38e-b1f8-413b-bbd1-2ef75d9afe99",
+    "atlas": "",
+    "rect": [
+      82,
+      2,
+      336,
+      498
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

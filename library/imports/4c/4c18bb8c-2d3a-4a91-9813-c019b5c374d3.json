@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Okite1",
+    "texture": "d0ca470d-8165-42c0-9378-5e50ce0e7729",
+    "atlas": "",
+    "rect": [
+      50,
+      1,
+      147,
+      247
+    ],
+    "offset": [
+      -1.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
