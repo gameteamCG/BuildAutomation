@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Capital_B",
+    "texture": "b2eb91c1-5a68-4f56-ae32-a597b8900d98",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      300,
+      290
+    ],
+    "offset": [
+      0,
+      3
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
