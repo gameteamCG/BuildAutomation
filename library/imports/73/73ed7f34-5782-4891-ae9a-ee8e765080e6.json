@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Cc Letters and sounds_122",
+      "totalLevel": "6",
+      "TitleImageName": "letterc.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Match uppercase and lowercase letters",
+        "questionImageName": "capital_C.png",
+        "questionAudioName": "lowercase.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "placeholder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Small_c.png",
+          "d.png"
+        ],
+        "correctAudioName": "sound of c.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Match uppercase and lowercase letters",
+        "questionImageName": "capital_C.png",
+        "questionAudioName": "lowercase.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "placeholder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "f.png",
+          "Small_c.png"
+        ],
+        "correctAudioName": "sound of c.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Match uppercase and lowercase letters",
+        "questionImageName": "capital_C.png",
+        "questionAudioName": "lowercase.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "placeholder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Small_c.png",
+          "h.png"
+        ],
+        "correctAudioName": "sound of c.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Match uppercase and lowercase letters",
+        "questionImageName": "Small_c.png",
+        "questionAudioName": "uppercase.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "placeholder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "cap_D.png",
+          "capital_C.png"
+        ],
+        "correctAudioName": "sound of c.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Match uppercase and lowercase letters",
+        "questionImageName": "capital_C.png",
+        "questionAudioName": "lowercase.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "placeholder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "r.png",
+          "Small_c.png"
+        ],
+        "correctAudioName": "sound of c.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Match uppercase and lowercase letters",
+        "questionImageName": "capital_C.png",
+        "questionAudioName": "lowercase.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "placeholder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Small_c.png",
+          "t.png"
+        ],
+        "correctAudioName": "sound of c.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
