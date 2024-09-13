@@ -1,0 +1,86 @@
+{
+  "additionalData": {
+    "GameID": "Letter Bb_118 Letters and sounds",
+    "totalLevel": "4",
+    "TitleImageName": "letterb.png",
+    "introBgName": "books_Bg.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Puzzle",
+    "templateType": "ObjectsTweenIn"
+  },
+  "questionData": [
+    {
+      "questionText": "Identify letter",
+      "questionImageName": "Capital_B.png",
+      "questionAudioName": "lowercase.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "placeholder4.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "b",
+        "k"
+      ],
+      "correctAudios": [
+        "sound_of_b.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Identify letter",
+      "questionImageName": "Small_b.png",
+      "questionAudioName": "uppercase.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "placeholder1.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "W",
+        "B"
+      ],
+      "correctAudios": [
+        "sound_of_b.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Identify letter",
+      "questionImageName": "Capital_B.png",
+      "questionAudioName": "lowercase.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "placeholder2.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "h",
+        "b"
+      ],
+      "correctAudios": [
+        "sound_of_b.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Identify letter",
+      "questionImageName": "Small_b.png",
+      "questionAudioName": "uppercase.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "placeholder3.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "B",
+        "D"
+      ],
+      "correctAudios": [
+        "sound_of_b.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
