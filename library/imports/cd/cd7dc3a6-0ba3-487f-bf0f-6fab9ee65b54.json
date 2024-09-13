@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "anchor",
+    "texture": "33f95f56-f4b6-4b75-ab1b-5d1938ebf28f",
+    "atlas": "",
+    "rect": [
+      55,
+      9,
+      390,
+      481
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
