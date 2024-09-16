@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Hh Letters and sounds_149",
+      "totalLevel": "3",
+      "TitleImageName": "Asset_179.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg5.png",
+        "questionAudioName": "Tap.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "tree.png",
+          "mag.png",
+          "horse_1.png"
+        ],
+        "optionsBg": [
+          "tree2.png",
+          "magbw.png",
+          "horse_2.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "25248872_4_horse.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg5.png",
+        "questionAudioName": "Tap.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "house.png",
+          "ball.png",
+          "egg.png"
+        ],
+        "optionsBg": [
+          "house2.png",
+          "bll2.png",
+          "egg2.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "25248872_2_house.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg5.png",
+        "questionAudioName": "Tap.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "fish.png",
+          "hat.png",
+          "flower.png"
+        ],
+        "optionsBg": [
+          "fish2.png",
+          "hat2.png",
+          "flower2.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "25558829_8_hat.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
