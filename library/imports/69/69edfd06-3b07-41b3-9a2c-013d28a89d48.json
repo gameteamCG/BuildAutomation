@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "yoga",
+      "totalLevel": "4",
+      "TitleImageName": "yoga_2.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "dog pose",
+        "questionImageName": "dog.png",
+        "questionAudioName": "dog.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "lion pose",
+        "questionImageName": "lion.png",
+        "questionAudioName": "lion.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "mountain pose",
+        "questionImageName": "mountain.png",
+        "questionAudioName": "mountain.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "volcano pose",
+        "questionImageName": "volcano.png",
+        "questionAudioName": "volcano.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      }
+    ]
+  }
+}
