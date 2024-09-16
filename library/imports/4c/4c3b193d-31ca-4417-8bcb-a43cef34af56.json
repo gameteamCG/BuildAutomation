@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chimp2",
+    "texture": "d4145b47-4af8-4800-bc65-633477ea4f0d",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      250,
+      315
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      315
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
