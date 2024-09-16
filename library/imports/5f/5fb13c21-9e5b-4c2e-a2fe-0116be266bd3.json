@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "QGg",
+    "texture": "593683d5-61b8-4a35-8e7b-40a682c7bd84",
+    "atlas": "",
+    "rect": [
+      196,
+      200,
+      101,
+      92
+    ],
+    "offset": [
+      -1,
+      -6
+    ],
+    "originalSize": [
+      495,
+      480
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
