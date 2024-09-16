@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "igloo2 copy 25",
+    "texture": "8e3ec514-32ea-4367-8c6b-685695cbf801",
+    "atlas": "",
+    "rect": [
+      66,
+      50,
+      118,
+      150
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
