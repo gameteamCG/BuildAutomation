@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mag",
+    "texture": "ac354e69-f33e-4ac5-bdb5-e1a5fe19eda0",
+    "atlas": "",
+    "rect": [
+      3,
+      31,
+      247,
+      189
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
