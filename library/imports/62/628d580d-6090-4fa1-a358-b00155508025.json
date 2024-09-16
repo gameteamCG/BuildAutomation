@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "letter_Rr",
+    "texture": "6cb51ec4-7ba7-4b3a-abaf-b4c6a99d5d46",
+    "atlas": "",
+    "rect": [
+      0,
+      8,
+      653,
+      121
+    ],
+    "offset": [
+      -4.5,
+      20
+    ],
+    "originalSize": [
+      662,
+      177
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

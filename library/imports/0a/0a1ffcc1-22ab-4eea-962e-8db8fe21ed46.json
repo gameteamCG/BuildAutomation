@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "raindeer",
+    "texture": "1fa73bbe-b2da-4ad8-8801-4dfe815750ca",
+    "atlas": "",
+    "rect": [
+      124,
+      59,
+      252,
+      382
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
