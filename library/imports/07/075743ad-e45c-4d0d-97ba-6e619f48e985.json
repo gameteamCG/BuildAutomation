@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0006_jenga",
+    "texture": "eca7dfd5-dd5a-479b-959e-8e8507ec4588",
+    "atlas": "",
+    "rect": [
+      14,
+      8,
+      223,
+      236
+    ],
+    "offset": [
+      0.5,
+      -1
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
