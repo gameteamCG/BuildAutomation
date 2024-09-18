@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Playinpark",
+    "texture": "8b1bf15e-08d6-40a5-8b9e-a3a168cf5cff",
+    "atlas": "",
+    "rect": [
+      20,
+      20,
+      460,
+      459
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
