@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "colourwheel",
+    "texture": "5c33fbdb-7051-4392-a5a1-1f6c28a8dc9d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      668,
+      444
+    ],
+    "offset": [
+      -11.5,
+      3
+    ],
+    "originalSize": [
+      691,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
