@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "scrabble",
+    "texture": "f4d5a211-7a35-44be-8149-5af9f7e3b4da",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      241,
+      241
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      241,
+      241
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
