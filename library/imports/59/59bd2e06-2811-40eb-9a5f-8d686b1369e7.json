@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Animals and their homes",
+      "totalLevel": "8",
+      "TitleImageName": "animal.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_2.mp3",
+      "mainBgName": "outdoor_BG.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "animal homes",
+        "questionAudioName": "Match_the_animal_to_its_home.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "right_puzzle2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "cowshed.png"
+        ],
+        "reiterations": [
+          "cow_lives_in_a_cowshed.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500_0011_cow.png",
+          "pig2.png"
+        ]
+      },
+      {
+        "questionText": "animal homes",
+        "questionAudioName": "Match_the_animal_to_its_home.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "right_puzzle2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "basket.png"
+        ],
+        "reiterations": [
+          "cat_lives_in_a_basket.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500_0015_cat.png",
+          "500x500_0008_sheep.png"
+        ]
+      },
+      {
+        "questionText": "animal homes",
+        "questionAudioName": "Match_the_animal_to_its_home.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "right_puzzle2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500x500_0005_stable.png"
+        ],
+        "reiterations": [
+          "horse_lives_in_a_stable.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500_0014_horse.png",
+          "500x500_0000_giraffe.png"
+        ]
+      },
+      {
+        "questionText": "animal homes",
+        "questionAudioName": "Match_the_animal_to_its_home.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "right_puzzle2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500x500_0010_sty.png"
+        ],
+        "reiterations": [
+          "pig_lives_in_a_sty.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500_0009_duck.png",
+          "500x500_0004_monkey.png"
+        ]
+      },
+      {
+        "questionText": "animal homes",
+        "questionAudioName": "Match_the_animal_to_its_home.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "right_puzzle2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500x500_0006_pond.png"
+        ],
+        "reiterations": [
+          "duck_lives_in_a_pond.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500_0009_duck.png",
+          "500x500_0015_cat.png"
+        ]
+      },
+      {
+        "questionText": "animal homes",
+        "questionAudioName": "Match_the_animal_to_its_home.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "right_puzzle2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "kennel.png"
+        ],
+        "reiterations": [
+          "dog_lives_in_a_kennel.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500_0016_dog.png",
+          "500x500_0011_cow.png"
+        ]
+      },
+      {
+        "questionText": "animal homes",
+        "questionAudioName": "Match_the_animal_to_its_home.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "right_puzzle2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500x500_0002_grassland.png"
+        ],
+        "reiterations": [
+          "elephant_stays_in_the_grasslands.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500_0003_elephant.png",
+          "500x500_0008_sheep.png"
+        ]
+      },
+      {
+        "questionText": "animal homes",
+        "questionAudioName": "Match_the_animal_to_its_home.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "right_puzzle2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "tree.png"
+        ],
+        "reiterations": [
+          "monkey_livs_on_a_tree.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500_0004_monkey.png",
+          "500x500_0013_hen.png"
+        ]
+      }
+    ]
+  }
+}
