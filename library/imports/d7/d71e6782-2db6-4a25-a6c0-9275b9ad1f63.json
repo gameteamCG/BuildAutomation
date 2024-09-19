@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cousins_text",
+    "texture": "0d82ed87-1a1a-4192-b16b-5c8234eae06e",
+    "atlas": "",
+    "rect": [
+      9,
+      3,
+      233,
+      218
+    ],
+    "offset": [
+      0,
+      13.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
