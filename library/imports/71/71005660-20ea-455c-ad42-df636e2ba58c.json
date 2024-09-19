@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "introductiontoindoorgames",
+    "texture": "9af91e0c-a0a5-4940-b29c-d46167e2667a",
+    "atlas": "",
+    "rect": [
+      152,
+      81,
+      1071,
+      272
+    ],
+    "offset": [
+      0,
+      -33
+    ],
+    "originalSize": [
+      1375,
+      368
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

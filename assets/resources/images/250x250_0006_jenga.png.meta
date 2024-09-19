@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e5cd8333-9cb9-46f7-8a33-e2ce45ff5055",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0006_jenga": {
+      "ver": "1.0.6",
+      "uuid": "19df2fa0-ad6f-4c9f-a7f2-2a757f916b39",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e5cd8333-9cb9-46f7-8a33-e2ce45ff5055",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -1,
+      "trimX": 14,
+      "trimY": 8,
+      "width": 223,
+      "height": 236,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
