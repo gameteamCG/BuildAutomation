@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Counting",
+    "texture": "de1e7a47-d60f-4e9c-8602-205c7732a605",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      753,
+      375
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      753,
+      375
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
