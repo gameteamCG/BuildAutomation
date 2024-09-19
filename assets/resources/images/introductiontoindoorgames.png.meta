@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1231bd23-25c4-4113-b2b9-edb0c68621a2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1006,
+  "height": 299,
+  "platformSettings": {},
+  "subMetas": {
+    "introductiontoindoorgames": {
+      "ver": "1.0.6",
+      "uuid": "bb35218f-4e9c-49ab-994f-9223a3435e28",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1231bd23-25c4-4113-b2b9-edb0c68621a2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1006,
+      "height": 299,
+      "rawWidth": 1006,
+      "rawHeight": 299,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

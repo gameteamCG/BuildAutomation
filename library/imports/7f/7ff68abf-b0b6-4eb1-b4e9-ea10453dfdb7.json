@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "snakesandladders",
+    "texture": "1b83d672-e845-46a7-81d1-990fcbd6df87",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      241,
+      240
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      241,
+      240
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
