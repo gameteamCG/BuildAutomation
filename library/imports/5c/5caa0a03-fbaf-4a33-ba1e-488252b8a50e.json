@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "places in my neighbourhoodcommunity helpers",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/972836535_I_Want_To_Be_A_Doctor_1713864202787.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "doctor",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identify_the_image_of_a_doctor.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "5.png",
+          "6.png",
+          "9.png",
+          "8.png"
+        ],
+        "ReiterationAudioName": "doctor.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "x-ray",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identify_the_image_of_an_x_ray.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "6.png",
+          "7.png",
+          "9.png",
+          "8.png"
+        ],
+        "ReiterationAudioName": "x-ray.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "teeth",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Who_checks_our_teeth.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "5.png",
+          "8.png",
+          "7.png",
+          "9.png"
+        ],
+        "ReiterationAudioName": "dentist.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "eyes",
+        "QuestionImageName": "",
+        "QuestionAudioName": "who_checks_our_eyes.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "9.png",
+          "8.png",
+          "7.png",
+          "6.png"
+        ],
+        "ReiterationAudioName": "eye doctor.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "wheelchair",
+        "QuestionImageName": "",
+        "QuestionAudioName": "tap_on_the_image_of_wheelchair.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "9.png",
+          "8.png",
+          "7.png",
+          "5.png"
+        ],
+        "ReiterationAudioName": "wheelchair.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "doctors",
+        "QuestionImageName": "",
+        "QuestionAudioName": "where_does_all_the_doctors_work.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "hospital.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}
