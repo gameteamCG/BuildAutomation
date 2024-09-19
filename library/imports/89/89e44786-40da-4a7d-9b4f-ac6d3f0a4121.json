@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "IMADTCR",
+    "texture": "a14118cc-804b-4f8d-9faf-b9651453de0e",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      887,
+      434
+    ],
+    "offset": [
+      0,
+      13
+    ],
+    "originalSize": [
+      887,
+      464
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
