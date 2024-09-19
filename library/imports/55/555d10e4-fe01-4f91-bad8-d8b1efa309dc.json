@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "uncle_text",
+    "texture": "8734335a-4028-4bac-8657-fa6ade590e93",
+    "atlas": "",
+    "rect": [
+      80,
+      6,
+      93,
+      227
+    ],
+    "offset": [
+      1.5,
+      5.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

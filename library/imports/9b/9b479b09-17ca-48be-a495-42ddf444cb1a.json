@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "my family tree",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Familytree_1712406698363.mp4",
+      "TitleImageName": "0.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": true,
+        "QuestionText": "Your mom and dad are called your_____.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "l1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "parents_text.png",
+          "aunt_text.png"
+        ],
+        "ReiterationAudioName": "Parents.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "text_3.png",
+        "QuestionAudioName": "l2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "No",
+          "Yes"
+        ],
+        "ReiterationAudioName": "yes.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": true,
+        "QuestionText": "Your aunt's and uncle's children are your_____.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "l3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "father_text.png",
+          "cousins_text.png"
+        ],
+        "ReiterationAudioName": "Cousins.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": true,
+        "QuestionText": "You are your grandparents children.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "l4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "No",
+          "Yes"
+        ],
+        "ReiterationAudioName": "No.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": true,
+        "QuestionText": "Your dad’s brother is your_____.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "l5.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "uncle_text.png",
+          "Grandfather_t.png"
+        ],
+        "ReiterationAudioName": "Uncle.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
