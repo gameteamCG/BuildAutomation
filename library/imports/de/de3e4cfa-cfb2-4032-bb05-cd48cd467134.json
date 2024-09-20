@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guiter",
+    "texture": "b8498b0b-7fe3-42af-8760-3d6ebf611a8a",
+    "atlas": "",
+    "rect": [
+      57,
+      37,
+      387,
+      428
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
