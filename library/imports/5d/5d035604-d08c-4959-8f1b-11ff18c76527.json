@@ -1,0 +1,87 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Numbers 31-40",
+      "totalLevel": "3",
+      "TitleImageName": "3140.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "B2.mp3",
+      "mainBgName": "BG_1.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "31-39",
+        "questionImageName": "",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset4-8.png",
+        "isOptionText": true,
+        "numberOfOptions": 10,
+        "optionOffset": -40,
+        "options": [
+          "31",
+          "33",
+          "37",
+          "32",
+          "40",
+          "38",
+          "34",
+          "39",
+          "35",
+          "36"
+        ],
+        "correctAnswer": "31323334353637383940",
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "31-35",
+        "questionImageName": "",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": -40,
+        "options": [
+          "32",
+          "34",
+          "35",
+          "31",
+          "33"
+        ],
+        "correctAnswer": "3132333435",
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "36-40",
+        "questionImageName": "",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset3-8.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": -40,
+        "options": [
+          "37",
+          "39",
+          "36",
+          "40",
+          "38"
+        ],
+        "correctAnswer": "3637383940",
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      }
+    ]
+  }
+}
