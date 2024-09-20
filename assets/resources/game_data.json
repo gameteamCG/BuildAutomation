@@ -1,0 +1,122 @@
+{
+  "additionalData": {
+    "GameID": "Opposites - Up and Down_W8_D4",
+    "totalLevel": "6",
+    "TitleImageName": "title.png",
+    "introBgName": "tlc_bg.png",
+    "bgmMusicName": "BGM2.mp3",
+    "mainBgName": "Asset_18.png",
+    "JockeyName": "tlc",
+    "templateType": "ObjectsTweenIn"
+  },
+  "questionData": [
+    {
+      "questionText": "letter Ii",
+      "questionImageName": "Asset_9.png",
+      "questionAudioName": "Qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_25.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset_12.png",
+        "Asset_10.png"
+      ],
+      "correctAudios": [
+        "ice.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "letter Ii",
+      "questionImageName": "Asset_9.png",
+      "questionAudioName": "Qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_25.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset_23.png",
+        "Asset_15.png"
+      ],
+      "correctAudios": [
+        "ice-cream.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "letter Ii",
+      "questionImageName": "Asset_9.png",
+      "questionAudioName": "Qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_25.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset_19.png",
+        "Asset_13.png"
+      ],
+      "correctAudios": [
+        "igloo.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "letter Ii",
+      "questionImageName": "Asset_9.png",
+      "questionAudioName": "Qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_25.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset_14.png",
+        "Asset_21.png"
+      ],
+      "correctAudios": [
+        "igwana.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "letter Ii",
+      "questionImageName": "Asset_9.png",
+      "questionAudioName": "Qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_25.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset_20.png",
+        "Asset_17.png"
+      ],
+      "correctAudios": [
+        "injection.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "letter Ii",
+      "questionImageName": "Asset_9.png",
+      "questionAudioName": "Qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset_25.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset_16.png",
+        "Asset_22.png"
+      ],
+      "correctAudios": [
+        "INSECTS.mp3"
+      ],
+      "correctAnswerNum": "2"
+    }
+  ]
+}
