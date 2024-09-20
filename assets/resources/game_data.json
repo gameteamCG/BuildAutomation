@@ -1,0 +1,113 @@
+{
+  "AdditionalData": {
+    "GameID": "introduction to letter sound Jj",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Letter_J_1726832479504.mp4",
+    "TitleImageName": "title.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "Podar",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Who is this story about?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Who_is_this_story_about.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "1.png",
+        "Asset_12.png",
+        "Asset_14.png",
+        "Asset_19.png"
+      ],
+      "ReiterationAudioName": "Jumbo_the_elephant.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Choose the image of Jack the Jackal.",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Choose_image_Jack_Jackal.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset_20.png",
+        "Asset_24.png",
+        "2.png",
+        "Asset_13.png"
+      ],
+      "ReiterationAudioName": "Jack_the_Jackal.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Who was Jay?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Who_was_J.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset_12.png",
+        "Asset_30.png",
+        "Asset_14.png",
+        "3.png"
+      ],
+      "ReiterationAudioName": "J_was_a_jaguar.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What did Jumbo serve to his friends?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "What_did_Jumbo_serve_to_his_friends.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset_25.png",
+        "4.png",
+        "Asset_23.png",
+        "Asset_31.png"
+      ],
+      "ReiterationAudioName": "jam_toast_and_juice.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Who did jumbo call to his birthday party?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Who_did_Jumbo_call.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "5.png",
+        "Asset_20.png",
+        "Asset_19.png",
+        "Asset_30.png"
+      ],
+      "ReiterationAudioName": "28241609_12_joker.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
