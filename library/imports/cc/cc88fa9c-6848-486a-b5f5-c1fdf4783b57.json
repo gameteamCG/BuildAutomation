@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter 'g'_NUR_W2_D2",
+      "totalLevel": "7",
+      "TitleImageName": "letterg.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "comp_bgm.mp3",
+      "mainBgName": "Garden.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "Identify the letter",
+        "questionImageName": "identify_the_sound_g.png",
+        "questionAudioName": "Identify_the_letter_sound_gg.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox3.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "g.png",
+          "a.png"
+        ],
+        "correctAudioName": "sound_of_g.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter g",
+        "questionImageName": "g.png",
+        "questionAudioName": "Tap_on_the_picture_that_begins_with_letter_sound_g.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox3.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0003_fire.png",
+          "gloves.png"
+        ],
+        "correctAudioName": "G_G_Gloves.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter g",
+        "questionImageName": "g.png",
+        "questionAudioName": "Tap_on_the_picture_that_begins_with_letter_sound_g.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox3.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "guiter.png",
+          "500x500_0006_feet.png"
+        ],
+        "correctAudioName": "G_G_GUITAR.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter g",
+        "questionImageName": "g.png",
+        "questionAudioName": "Tap_on_the_picture_that_begins_with_letter_sound_g.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox3.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0002_flower.png",
+          "gift_box.png"
+        ],
+        "correctAudioName": "G_G_GIFT.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter g",
+        "questionImageName": "grapes.png",
+        "questionAudioName": "Select_the_beginning_letter_sound_of_grapes.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox3.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "g.png",
+          "i.png"
+        ],
+        "correctAudioName": "sound_of_g.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter g",
+        "questionImageName": "goat.png",
+        "questionAudioName": "Identify_the_beginning_letter_sound_of_goat.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox3.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "b.png",
+          "g.png"
+        ],
+        "correctAudioName": "G_G_GOAT.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter g",
+        "questionImageName": "g.png",
+        "questionAudioName": "Tap_on_the_picture_that_begins_with_letter_sound_g.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox3.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "gorilla.png",
+          "500x500_0002_flower.png"
+        ],
+        "correctAudioName": "G_G_GORILLA.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

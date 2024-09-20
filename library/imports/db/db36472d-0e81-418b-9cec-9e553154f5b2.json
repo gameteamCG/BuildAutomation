@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Garden",
+    "texture": "4342b351-0948-4677-969b-b79d5f2fde49",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      2000,
+      1600
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2000,
+      1600
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
