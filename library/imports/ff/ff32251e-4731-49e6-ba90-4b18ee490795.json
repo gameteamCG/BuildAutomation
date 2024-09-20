@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "letter sound Mm",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/M_Story_1726821391922.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "Podar",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q1.png",
+        "QuestionAudioName": "What_is_the_name_of_the_boy_in_the_story.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Joy",
+          "Tim",
+          "Monu",
+          "Jonny"
+        ],
+        "ReiterationAudioName": "28044154_2_monu.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What was Monu sitting on?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "What_was_Monu_sitting_on.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 23.png",
+          "Asset 14.png",
+          "Asset 16.png",
+          "2.png"
+        ],
+        "ReiterationAudioName": "28044154_4_mat.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What toy did Monu have?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "What_toy_did_Monu_have.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "3.png",
+          "Asset 21.png",
+          "Asset 32.png",
+          "Asset 28.png"
+        ],
+        "ReiterationAudioName": "28044154_6_monkey.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What does Monu like to listen to?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "What_does_Monu_like_to_listen.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 21.png",
+          "4.png",
+          "Asset 13.png",
+          "Asset 24.png"
+        ],
+        "ReiterationAudioName": "28044154_8_music.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Who was Monu waiting for?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Who_was_Monu_waiting_for.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 15.png",
+          "Asset 22.png",
+          "Asset 16.png",
+          "5.png"
+        ],
+        "ReiterationAudioName": "28044154_10_mother.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What did Monu play while waiting?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "What_did_Monu_play_while_waiting.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 13.png",
+          "6.png",
+          "Asset 16.png",
+          "Asset 23.png"
+        ],
+        "ReiterationAudioName": "28044154_12_mandolin.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
