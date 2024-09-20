@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Animal_matching_products",
+    "texture": "264abf25-03be-4694-88c7-c0f7936427d1",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      615,
+      161
+    ],
+    "offset": [
+      0,
+      11.5
+    ],
+    "originalSize": [
+      615,
+      188
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cockroach",
+    "texture": "2a658481-3679-43f9-a6f1-295fde8ac16d",
+    "atlas": "",
+    "rect": [
+      86,
+      60,
+      392,
+      380
+    ],
+    "offset": [
+      31.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
