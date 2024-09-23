@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Uppercase letter 'C' JrKg._W1_D4",
+      "totalLevel": "6",
+      "TitleImageName": "Uppercase letter _C_.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "BG26.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "uppercase letter C",
+        "questionAudioName": "Match_the_objects_that_begins_with_the_uppercase_letter_C.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Vector_Smart Object_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "C.png"
+        ],
+        "reiterations": [
+          "car.mp3"
+        ],
+        "commonRightOptionImageName": "Vector_Smart_Object.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Layer2.png",
+          "apple.png"
+        ]
+      },
+      {
+        "questionText": "uppercase letter C",
+        "questionAudioName": "Match_the_objects_that_begins_with_the_uppercase_letter_C.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Vector_Smart Object_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "C.png"
+        ],
+        "reiterations": [
+          "cake.mp3"
+        ],
+        "commonRightOptionImageName": "Vector_Smart_Object.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "cake.png",
+          "gift_box.png"
+        ]
+      },
+      {
+        "questionText": "uppercase letter C",
+        "questionAudioName": "Match_the_objects_that_begins_with_the_uppercase_letter_C.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Vector_Smart Object_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "C.png"
+        ],
+        "reiterations": [
+          "cow.mp3"
+        ],
+        "commonRightOptionImageName": "Vector_Smart_Object.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Layer3.png",
+          "Fish.png"
+        ]
+      },
+      {
+        "questionText": "uppercase letter C",
+        "questionAudioName": "Match_the_objects_that_begins_with_the_uppercase_letter_C.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Vector_Smart Object_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "C.png"
+        ],
+        "reiterations": [
+          "candle.mp3"
+        ],
+        "commonRightOptionImageName": "Vector_Smart_Object.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "candle.png",
+          "Layer5.png"
+        ]
+      },
+      {
+        "questionText": "uppercase letter C",
+        "questionAudioName": "Match_the_objects_that_begins_with_the_uppercase_letter_C.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Vector_Smart Object_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "C.png"
+        ],
+        "reiterations": [
+          "cat.mp3"
+        ],
+        "commonRightOptionImageName": "Vector_Smart_Object.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "cat.png",
+          "nest.png"
+        ]
+      },
+      {
+        "questionText": "uppercase letter C",
+        "questionAudioName": "Match_the_objects_that_begins_with_the_uppercase_letter_C.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Vector_Smart Object_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "C.png"
+        ],
+        "reiterations": [
+          "CAMERA.mp3"
+        ],
+        "commonRightOptionImageName": "Vector_Smart_Object.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Layer4.png",
+          "Ship.png"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Uppercase letter _C_",
+    "texture": "145b7dc2-3ad3-4d9c-8b35-87d578d7be9b",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      714,
+      231
+    ],
+    "offset": [
+      0,
+      24.5
+    ],
+    "originalSize": [
+      714,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
