@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sunflower",
+    "texture": "c1e35473-7a2d-4c38-85fa-67edecf7459a",
+    "atlas": "",
+    "rect": [
+      158,
+      21,
+      206,
+      435
+    ],
+    "offset": [
+      10.5,
+      12
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

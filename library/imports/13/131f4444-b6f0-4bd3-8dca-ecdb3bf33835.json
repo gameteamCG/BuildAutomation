@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chese",
+    "texture": "797d6afe-beef-4b8b-8969-bd6dc14e1ab3",
+    "atlas": "",
+    "rect": [
+      63,
+      74,
+      374,
+      352
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

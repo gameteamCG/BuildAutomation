@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Shades_of_yellow",
+    "texture": "381333a8-232d-479a-a5ef-4a2e642989cf",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      655,
+      272
+    ],
+    "offset": [
+      -10,
+      13
+    ],
+    "originalSize": [
+      675,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

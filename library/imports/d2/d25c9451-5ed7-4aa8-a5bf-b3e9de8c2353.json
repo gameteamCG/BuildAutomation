@@ -1,0 +1,128 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Shades of yellow JrKg._W2_D3",
+      "totalLevel": "6",
+      "TitleImageName": "Shades_of_yellow.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "BVG.png",
+      "JockeyName": "tlc",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "shades of yellow",
+        "questionAudioName": "Tap_on_the_objects_that_are_yellow_in_colour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Layer15.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "chese.png",
+          "tomato.png",
+          "Kite.png"
+        ],
+        "correctAudios": [
+          "Cheese.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "shades of yellow",
+        "questionAudioName": "Tap_on_the_objects_that_are_yellow_in_colour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Layer15.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Marble6.png",
+          "owl.png",
+          "banana.png"
+        ],
+        "correctAudios": [
+          "Banana.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "shades of yellow",
+        "questionAudioName": "Tap_on_the_objects_that_are_yellow_in_colour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Layer15.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "sunflower.png",
+          "Marble1.png",
+          "slam_truck.png"
+        ],
+        "correctAudios": [
+          "sunflower.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "shades of yellow",
+        "questionAudioName": "Tap_on_the_objects_that_are_yellow_in_colour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Layer15.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "car2.png",
+          "shoe.png",
+          "sun.png"
+        ],
+        "correctAudios": [
+          "sun.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "shades of yellow",
+        "questionAudioName": "Tap_on_the_objects_that_are_yellow_in_colour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Layer15.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "slam_truck.png",
+          "toy-duck.png",
+          "Hard.png"
+        ],
+        "correctAudios": [
+          "Toy_duck.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "shades of yellow",
+        "questionAudioName": "Tap_on_the_objects_that_are_yellow_in_colour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Layer15.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "bringel.png",
+          "watermelon.png",
+          "corn.png"
+        ],
+        "correctAudios": [
+          "corn.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}

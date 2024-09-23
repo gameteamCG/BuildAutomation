@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slam copy 18",
+    "texture": "906955b1-2827-4d8d-9caa-1fcb38db7d40",
+    "atlas": "",
+    "rect": [
+      30,
+      117,
+      442,
+      284
+    ],
+    "offset": [
+      0.5,
+      -8.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

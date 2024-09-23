@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slam_truck",
+    "texture": "8df11901-f224-4840-9bdd-49f14f2e58f8",
+    "atlas": "",
+    "rect": [
+      20,
+      141,
+      460,
+      219
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
