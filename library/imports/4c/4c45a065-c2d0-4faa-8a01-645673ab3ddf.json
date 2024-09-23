@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0001_500x500_0003_bluefish_O",
+    "texture": "7e07b135-6087-400f-b0c9-9ab7de757cee",
+    "atlas": "",
+    "rect": [
+      0,
+      46,
+      250,
+      154
+    ],
+    "offset": [
+      0,
+      2
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
