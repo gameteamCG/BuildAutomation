@@ -1,0 +1,150 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "\"Uppercase letter 'F' JrKg._W2_D2\"",
+      "totalLevel": "5",
+      "TitleImageName": "Asset_41.png",
+      "introBgName": "jr_kg_bg.png",
+      "bgmMusicName": "bgm_2.mp3",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "underwater_bg1.png",
+        "questionAudioName": "tap_on_the_fish_with_capital_F.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset157.png",
+          "Asset158.png",
+          "Asset163.png"
+        ],
+        "correctAudioName": "L1.mp3",
+        "wrongAudioName": "ouch.mp3",
+        "reiterationAudioName": [
+          "fsaysFf.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "garden_BG.png",
+        "questionAudioName": "Tap_on_all_the_Figs_with_capital_F.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset153.png",
+          "Asset151.png",
+          "Asset152.png",
+          "Asset153.png",
+          "Asset155.png"
+        ],
+        "correctAudioName": "L2.mp3",
+        "wrongAudioName": "ugh.mp3",
+        "reiterationAudioName": [
+          "",
+          "fsaysFf.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "underwater_bg2.png",
+        "questionAudioName": "tap_on_all_the_fish_with_capital_F.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset159.png",
+          "Asset161.png",
+          "Asset160.png",
+          "Asset159.png",
+          "Asset161.png"
+        ],
+        "correctAudioName": "L3.mp3",
+        "wrongAudioName": "sadness.mp3",
+        "reiterationAudioName": [
+          "",
+          "fsaysFf.mp3"
+        ],
+        "correctAnswerNum": "25"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "doodle_BG.png",
+        "questionAudioName": "tap on object.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0009_fork.png",
+          "500x500_0010_grass.png",
+          "500x500_0011_frog.png"
+        ],
+        "optionsBg": [
+          "500x500_0003_greyscale-fork.png",
+          "500x500_0004_greyscale-grass.png",
+          "500x500_0005_greyscale-frog.png"
+        ],
+        "correctAudioName": "L5.mp3",
+        "wrongAudioName": "ugh.mp3",
+        "reiterationAudioName": [
+          "fork.mp3",
+          "frog.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "doodle_BG.png",
+        "questionAudioName": "tap on object.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0006_table.png",
+          "500x500_0007_fan.png",
+          "500x500_0008_flower.png"
+        ],
+        "optionsBg": [
+          "500x500_0000_greyscale-table.png",
+          "500x500_0001_greyscale-fan.png",
+          "500x500_0002_greyscale-flower.png"
+        ],
+        "correctAudioName": "L5.mp3",
+        "wrongAudioName": "ouch.mp3",
+        "reiterationAudioName": [
+          "fan.mp3",
+          "flower.mp3"
+        ],
+        "correctAnswerNum": "23"
+      }
+    ]
+  }
+}
