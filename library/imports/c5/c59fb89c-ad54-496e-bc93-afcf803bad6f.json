@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mooncolor",
+    "texture": "a5d978ba-0016-43bd-913f-cddf88587a98",
+    "atlas": "",
+    "rect": [
+      32,
+      43,
+      411,
+      410
+    ],
+    "offset": [
+      -13,
+      2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "igloo color",
+    "texture": "acdd9ff2-ea1a-4c60-8ca4-ad3c72045e28",
+    "atlas": "",
+    "rect": [
+      41,
+      50,
+      428,
+      341
+    ],
+    "offset": [
+      4.5,
+      30
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

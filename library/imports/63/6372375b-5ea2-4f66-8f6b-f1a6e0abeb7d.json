@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boot",
+    "texture": "fcb4787a-30ec-465a-93c5-7bbdd95e57cb",
+    "atlas": "",
+    "rect": [
+      65,
+      26,
+      345,
+      440
+    ],
+    "offset": [
+      -13,
+      4.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
