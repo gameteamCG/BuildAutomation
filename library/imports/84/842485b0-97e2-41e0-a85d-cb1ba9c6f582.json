@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vowelIi",
+    "texture": "1f42eba7-9ab6-4c65-98f9-1ce01be30514",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      650,
+      132
+    ],
+    "offset": [
+      0,
+      29.5
+    ],
+    "originalSize": [
+      650,
+      191
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

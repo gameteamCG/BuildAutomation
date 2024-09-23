@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "plane",
+    "texture": "b8d7113d-1455-4fb2-bf25-e6f16d2ade48",
+    "atlas": "",
+    "rect": [
+      2,
+      51,
+      249,
+      111
+    ],
+    "offset": [
+      1,
+      18.5
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
