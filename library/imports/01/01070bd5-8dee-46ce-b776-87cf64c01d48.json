@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "frock",
+    "texture": "797e9cb4-473c-4260-91c1-d32329d8e9e2",
+    "atlas": "",
+    "rect": [
+      24,
+      37,
+      453,
+      426
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
