@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Uppercase letter 'I' JrKg._W3_D1",
+      "totalLevel": "5",
+      "TitleImageName": "Uppercase_letterI.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "bg_2.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "identify the letter",
+        "questionImageName": "Question.png",
+        "questionAudioName": "Identify_the_capital_letter_I.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1.png",
+          "2.png",
+          "3.png"
+        ],
+        "correctAudioName": "I.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "identify the letter",
+        "questionImageName": "ink.png",
+        "questionAudioName": "Identify_the_beginning_letter_of_Ink.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "4.png",
+          "5.png",
+          "6.png"
+        ],
+        "correctAudioName": "I.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "identify the letter",
+        "questionImageName": "igloo.png",
+        "questionAudioName": "Identify_the_beginning_letter_of_Igloo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "7.png",
+          "8.png",
+          "9.png"
+        ],
+        "correctAudioName": "I.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "identify",
+        "questionImageName": "3.png",
+        "questionAudioName": "identify_the_object_that_begins_with-Capital_letter_I.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "iguana.png",
+          "lion.png",
+          "rat.png"
+        ],
+        "correctAudioName": "igwana.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "identify",
+        "questionImageName": "3.png",
+        "questionAudioName": "identify_the_object_that_begins_with-Capital_letter_I.mp3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "book.png",
+          "iron.png",
+          "mat.png"
+        ],
+        "correctAudioName": "Iron2.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
