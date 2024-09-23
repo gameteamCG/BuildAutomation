@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "voweldrawing",
+    "texture": "99d39ab2-c58d-40be-8bb1-31b47bbaebc3",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      543,
+      270
+    ],
+    "offset": [
+      0,
+      10
+    ],
+    "originalSize": [
+      543,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
