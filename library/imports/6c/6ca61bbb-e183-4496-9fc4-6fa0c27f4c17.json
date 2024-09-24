@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "missing numbers",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/GUKG_WP27_2A_1727193134415.mp4",
+      "TitleImageName": "mnn.png",
+      "IntroAudio1Name": "29279041_4_hello-friends.mp3",
+      "IntroAudio2Name": "p_29291983_115.mp3",
+      "JockeyName": "bag",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
