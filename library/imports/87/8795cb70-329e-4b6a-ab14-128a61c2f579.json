@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Colour garden objects pg._W9_D2",
+      "totalLevel": "3",
+      "TitleImageName": "Colour_garden_objects.png",
+      "introBgName": "Bg_3.png",
+      "bgmMusicName": "KidsGame.mp3",
+      "initialVOName": "",
+      "mainBgName": "bg.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "seeds",
+        "questionImageName": "asset3.png",
+        "questionAudioName": "COLOUR_THE_SEEDS.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "a1.png",
+        "needMoreTools": true,
+        "correctAudioName": "FANTASTIC.mp3"
+      },
+      {
+        "questionText": "gardening gloves",
+        "questionImageName": "asset1.png",
+        "questionAudioName": "COLOUR_THE_GARDENING_GLOVES.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "a2.png",
+        "needMoreTools": true,
+        "correctAudioName": "GORGEOUSWORK.mp3"
+      },
+      {
+        "questionText": "watering can",
+        "questionImageName": "asset.png",
+        "questionAudioName": "COLOUR_THE_WATERING_CAN.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "a4.png",
+        "needMoreTools": true,
+        "correctAudioName": "MAGNIFICENT.mp3"
+      }
+    ]
+  }
+}
