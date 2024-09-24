@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brontosaurus",
+    "texture": "a0e55ff8-e39c-408b-9030-c3ec3dddc3e5",
+    "atlas": "",
+    "rect": [
+      16,
+      95,
+      387,
+      310
+    ],
+    "offset": [
+      -41,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

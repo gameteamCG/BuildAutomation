@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Dinosaur shadow matching_SR_W2_D2",
+      "totalLevel": "7",
+      "TitleImageName": "Dinosaur_shadow_matching.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Artboard1.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "shadow matching",
+        "questionAudioName": "Match_the_dinosaur_to_its_shadow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "ticeratop.png"
+        ],
+        "reiterations": [
+          "18723720_1_triceratops.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "ticeratop_shadow.png",
+          "shadow4.png"
+        ]
+      },
+      {
+        "questionText": "shadow matching",
+        "questionAudioName": "Match_the_dinosaur_to_its_shadow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "pterodactyl.png"
+        ],
+        "reiterations": [
+          "18723720_5_pterodactyl.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "shadow3.png",
+          "stegosaurus_shadow.png"
+        ]
+      },
+      {
+        "questionText": "shadow matching",
+        "questionAudioName": "Match_the_dinosaur_to_its_shadow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "brontosaurus.png"
+        ],
+        "reiterations": [
+          "18723720_7_brontosaurus.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "shadow5.png",
+          "ticeratop_shadow.png"
+        ]
+      },
+      {
+        "questionText": "shadow matching",
+        "questionAudioName": "Match_the_dinosaur_to_its_shadow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "parasaurolophus.png"
+        ],
+        "reiterations": [
+          "18723720_6_parasaurolophus.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "shadow6.png",
+          "stegosaurus_shadow.png"
+        ]
+      },
+      {
+        "questionText": "shadow matching",
+        "questionAudioName": "Match_the_dinosaur_to_its_shadow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "spinosaurus.png"
+        ],
+        "reiterations": [
+          "18723720_4_spinosaurus.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "shadow4.png",
+          "shadow5.png"
+        ]
+      },
+      {
+        "questionText": "shadow matching",
+        "questionAudioName": "Match_the_dinosaur_to_its_shadow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Tyrannosaurus.png"
+        ],
+        "reiterations": [
+          "18723720_2_tyrannosaurus.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "shadow7.png",
+          "shadow4.png"
+        ]
+      },
+      {
+        "questionText": "shadow matching",
+        "questionAudioName": "Match_the_dinosaur_to_its_shadow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "stegosaurus.png"
+        ],
+        "reiterations": [
+          "18723720_3_stegosaurus.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "stegosaurus_shadow.png",
+          "shadow5.png"
+        ]
+      }
+    ]
+  }
+}

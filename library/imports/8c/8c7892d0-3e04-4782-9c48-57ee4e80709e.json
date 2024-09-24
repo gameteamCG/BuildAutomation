@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spinosaurus",
+    "texture": "55a4113f-c98f-4a50-8d82-8e96cffbf9e4",
+    "atlas": "",
+    "rect": [
+      17,
+      113,
+      390,
+      275
+    ],
+    "offset": [
+      -38.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

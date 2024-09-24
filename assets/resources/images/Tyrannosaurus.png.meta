@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "fe4442a3-0863-4d61-8ef5-6df4f49f0bdf",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Tyrannosaurus": {
+      "ver": "1.0.6",
+      "uuid": "7efaedda-b6a2-45d0-8ecf-03268cb3e3e0",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "fe4442a3-0863-4d61-8ef5-6df4f49f0bdf",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -36,
+      "offsetY": -0.5,
+      "trimX": 18,
+      "trimY": 78,
+      "width": 393,
+      "height": 346,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ticeratop",
+    "texture": "664fc15f-e041-4831-832b-1df32ad7e6de",
+    "atlas": "",
+    "rect": [
+      7,
+      111,
+      405,
+      278
+    ],
+    "offset": [
+      -41,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
