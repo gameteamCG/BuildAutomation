@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0006_drops",
+    "texture": "6c542533-c9fd-42ec-8c13-a1272276aad6",
+    "atlas": "",
+    "rect": [
+      22,
+      0,
+      456,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

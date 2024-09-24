@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "01108d3d-6b5f-4984-844d-ebb3d905cd8d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0003_medicines": {
+      "ver": "1.0.6",
+      "uuid": "e0dafc2a-d0eb-4ccf-8619-3505b29b8ecd",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "01108d3d-6b5f-4984-844d-ebb3d905cd8d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 30,
+      "width": 500,
+      "height": 440,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
