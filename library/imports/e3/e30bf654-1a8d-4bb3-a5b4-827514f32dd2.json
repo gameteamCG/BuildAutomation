@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "comhei",
+    "texture": "03ebdbe2-fb93-4e1a-91cd-60a538b6a855",
+    "atlas": "",
+    "rect": [
+      17,
+      16,
+      482,
+      184
+    ],
+    "offset": [
+      8,
+      -7.5
+    ],
+    "originalSize": [
+      500,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
