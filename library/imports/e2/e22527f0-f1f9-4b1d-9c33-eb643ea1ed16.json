@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "arwh",
+    "texture": "8d0b32e7-0dfe-4fa9-8a54-88782858fc00",
+    "atlas": "",
+    "rect": [
+      11,
+      11,
+      488,
+      112
+    ],
+    "offset": [
+      5,
+      -3.5
+    ],
+    "originalSize": [
+      500,
+      127
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
