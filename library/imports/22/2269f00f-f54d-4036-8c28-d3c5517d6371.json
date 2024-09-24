@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zucinishadow",
+    "texture": "37b0fdac-3e80-4ae3-a158-2dc610393442",
+    "atlas": "",
+    "rect": [
+      56,
+      86,
+      390,
+      324
+    ],
+    "offset": [
+      0.5,
+      2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
