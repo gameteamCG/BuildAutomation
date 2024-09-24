@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blendwordssl",
+    "texture": "e3eff3bc-a5e2-4574-95b4-8c7fcc771fac",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      690,
+      236
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      690,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
