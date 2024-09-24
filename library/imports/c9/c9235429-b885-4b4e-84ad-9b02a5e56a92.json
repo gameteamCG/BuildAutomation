@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zebrashadow",
+    "texture": "77c26e53-5106-49cd-a65d-3079cac035de",
+    "atlas": "",
+    "rect": [
+      127,
+      57,
+      292,
+      420
+    ],
+    "offset": [
+      22.5,
+      -16.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

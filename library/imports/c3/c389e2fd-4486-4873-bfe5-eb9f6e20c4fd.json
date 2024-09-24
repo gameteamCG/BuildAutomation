@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zippershadow",
+    "texture": "f17ba05c-81a5-4a65-8031-64f081db82b0",
+    "atlas": "",
+    "rect": [
+      163,
+      143,
+      174,
+      294
+    ],
+    "offset": [
+      -0.5,
+      -39.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
