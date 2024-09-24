@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ae4cc2c5-11d0-4f4e-b8df-bc550206d4d6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 251,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "chimpangi_part_003": {
+      "ver": "1.0.6",
+      "uuid": "87a2c8f4-fca0-4170-b0e4-007e616ca330",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ae4cc2c5-11d0-4f4e-b8df-bc550206d4d6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 251,
+      "height": 250,
+      "rawWidth": 251,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

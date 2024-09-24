@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "endengeredanimal",
+    "texture": "1049baa9-0446-4408-bc24-716f00d04873",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      795,
+      236
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      795,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

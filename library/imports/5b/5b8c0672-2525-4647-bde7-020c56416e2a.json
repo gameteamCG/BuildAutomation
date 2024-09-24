@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gorilla",
+    "texture": "965f924a-a2f6-42e6-afcf-aec950cb7c3f",
+    "atlas": "",
+    "rect": [
+      0,
+      81,
+      500,
+      340
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

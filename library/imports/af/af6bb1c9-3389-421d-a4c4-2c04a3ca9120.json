@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "leopard",
+    "texture": "fcf21f20-4263-44ef-907f-43f4d67d141f",
+    "atlas": "",
+    "rect": [
+      0,
+      81,
+      500,
+      340
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
