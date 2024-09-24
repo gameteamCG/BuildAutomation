@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zucini",
+    "texture": "ea2eb808-32e7-41d5-ab8c-bfcdf1e92680",
+    "atlas": "",
+    "rect": [
+      55,
+      86,
+      391,
+      325
+    ],
+    "offset": [
+      0,
+      2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
