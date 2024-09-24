@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wai",
+    "texture": "f0e9541d-c3a1-4e24-9231-99d3cb44b647",
+    "atlas": "",
+    "rect": [
+      17,
+      16,
+      481,
+      93
+    ],
+    "offset": [
+      7.5,
+      -5.5
+    ],
+    "originalSize": [
+      500,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
