@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0006_farmer-tools",
+    "texture": "41774b67-0ab1-472d-962e-05ef8e5f2012",
+    "atlas": "",
+    "rect": [
+      98,
+      0,
+      304,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
