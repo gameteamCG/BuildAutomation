@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cowshed",
+    "texture": "a51d529d-08cc-40a3-9942-f6f80dc3c53d",
+    "atlas": "",
+    "rect": [
+      8,
+      56,
+      420,
+      372
+    ],
+    "offset": [
+      -32,
+      8
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
