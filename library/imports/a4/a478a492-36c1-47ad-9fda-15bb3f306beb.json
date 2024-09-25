@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "earrings",
+    "texture": "f9423364-c213-4fab-b266-856d873b95ed",
+    "atlas": "",
+    "rect": [
+      7,
+      45,
+      488,
+      414
+    ],
+    "offset": [
+      1,
+      -2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
