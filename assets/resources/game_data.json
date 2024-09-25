@@ -1,0 +1,82 @@
+{
+  "additionalData": {
+    "GameID": "Animal Homes Fun Adventure",
+    "totalLevel": "4",
+    "TitleImageName": "titleImage.png",
+    "introBgName": "introBg.png",
+    "bgmMusicName": "bgmMusic.mp3",
+    "mainBgName": "mainBg.png",
+    "JockeyName": "Podar",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "Which animal lives in a den?",
+      "questionAudioName": "questionAudio1.mp3",
+      "shouldPlayQuestionAudio": false,
+      "commonOptionImageName": "commonOptionImage.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 2,
+      "options": [
+        "optionimage11.png",
+        "AnswerImage1.png"
+      ],
+      "correctAudios": [
+        "correctAudio1.mp3"
+      ],
+      "correctAnswerNum": 2
+    },
+    {
+      "questionText": "What is the home of a bird called?",
+      "questionAudioName": "questionAudio2.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "commonOptionImage.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Nest",
+        "Stable"
+      ],
+      "correctAudios": [
+        "correctAudio2.mp3"
+      ],
+      "correctAnswerNum": 1
+    },
+    {
+      "questionText": "Where do fish usually live?",
+      "questionAudioName": "questionAudio3.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "commonOptionImage.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 2,
+      "options": [
+        "optionimage13.png",
+        "AnswerImage3.png"
+      ],
+      "correctAudios": [
+        "correctAudio3.mp3"
+      ],
+      "correctAnswerNum": 2
+    },
+    {
+      "questionText": "Which animal makes a burrow as its home?",
+      "questionAudioName": "questionAudio4.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "commonOptionImage.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Squirrel",
+        "Rabbit"
+      ],
+      "correctAudios": [
+        "correctAudio4.mp3"
+      ],
+      "correctAnswerNum": 2
+    }
+  ]
+}
