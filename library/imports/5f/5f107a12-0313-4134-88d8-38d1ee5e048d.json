@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "giraffecub",
+    "texture": "2cfd02c4-3fd4-478a-9454-fd1270924bc9",
+    "atlas": "",
+    "rect": [
+      176,
+      170,
+      148,
+      323
+    ],
+    "offset": [
+      0,
+      -81.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

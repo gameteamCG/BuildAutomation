@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "foxcub",
+    "texture": "57dbaeb9-47e3-4f58-b1f4-bb30b9eaa701",
+    "atlas": "",
+    "rect": [
+      77,
+      183,
+      346,
+      300
+    ],
+    "offset": [
+      0,
+      -83
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

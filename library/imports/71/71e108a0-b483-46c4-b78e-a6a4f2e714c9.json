@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bearcub",
+    "texture": "7f4231a5-2af7-426e-842b-ac4b1a52afbc",
+    "atlas": "",
+    "rect": [
+      134,
+      167,
+      236,
+      327
+    ],
+    "offset": [
+      2,
+      -80.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
