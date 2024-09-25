@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fawn",
+    "texture": "d1e62727-f947-48cf-94e7-c40992ef8700",
+    "atlas": "",
+    "rect": [
+      121,
+      147,
+      258,
+      345
+    ],
+    "offset": [
+      0,
+      -69.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wolf",
+    "texture": "efeaaf15-fb19-4f59-9969-e5691d9a945d",
+    "atlas": "",
+    "rect": [
+      99,
+      16,
+      303,
+      469
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

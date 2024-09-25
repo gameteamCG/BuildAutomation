@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "koalacub",
+    "texture": "ee38002f-3cab-47e8-90ca-8b43ee0747e4",
+    "atlas": "",
+    "rect": [
+      134,
+      184,
+      218,
+      309
+    ],
+    "offset": [
+      -7,
+      -88.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

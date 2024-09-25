@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tigercub",
+    "texture": "a32a137c-8ef5-4eee-b648-ac9d883f8831",
+    "atlas": "",
+    "rect": [
+      97,
+      236,
+      304,
+      255
+    ],
+    "offset": [
+      -1,
+      -113.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
