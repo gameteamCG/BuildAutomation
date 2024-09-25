@@ -1,0 +1,92 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Discover Animal Homes Adventure",
+      "totalLevel": "4",
+      "TitleImageName": "titleImage.png",
+      "introBgName": "introBg.png",
+      "bgmMusicName": "bgmMusic.mp3",
+      "mainBgName": "mainBg.png",
+      "JockeyName": "Mighty_Raju",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Where does a bear live?",
+        "questionAudioName": "questionAudio1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "AnswerImage1.png",
+          "optionimage11.png",
+          "optionimage21.png"
+        ],
+        "correctAudios": [
+          "correctAudio1.mp3"
+        ],
+        "correctAnswerNum": 3
+      },
+      {
+        "questionText": "What is a home for fish called?",
+        "questionAudioName": "questionAudio2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "AnswerImage2.png",
+          "optionimage12.png",
+          "optionimage22.png"
+        ],
+        "correctAudios": [
+          "correctAudio2.mp3"
+        ],
+        "correctAnswerNum": 2
+      },
+      {
+        "questionText": "Where do elephants live?",
+        "questionAudioName": "questionAudio3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "AnswerImage3.png",
+          "optionimage13.png",
+          "optionimage23.png"
+        ],
+        "correctAudios": [
+          "correctAudio3.mp3"
+        ],
+        "correctAnswerNum": 2
+      },
+      {
+        "questionText": "What is the home of a spider called?",
+        "questionAudioName": "questionAudio4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "AnswerImage4.png",
+          "optionimage14.png",
+          "optionimage24.png"
+        ],
+        "correctAudios": [
+          "correctAudio4.mp3"
+        ],
+        "correctAnswerNum": 1
+      }
+    ]
+  }
+}
