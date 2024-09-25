@@ -1,0 +1,219 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Picture talk sound Ee and green words",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/e_story_1727241528139.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "Podar",
+      "TotalLevel": "10"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Who is this story about?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whoisthisstoryabout.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset_14.png",
+          "Asset_10.png",
+          "Asset_16.png",
+          "Asset_17.png"
+        ],
+        "ReiterationAudioName": "28046724_2_an_elf.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Who did the elf live with?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whodidtheelflivewith.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset_11.png",
+          "Asset_13.png",
+          "Asset_17.png",
+          "Asset_20.png"
+        ],
+        "ReiterationAudioName": "28046724_4_an_elephant.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Where did the elf and the elephant go one day?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Wheredidtheelfandtheelephantgooneday.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset2.png",
+          "Asset3.png",
+          "Asset4.png",
+          "Asset1.png"
+        ],
+        "ReiterationAudioName": "28046724_6_on_an_engine_ride.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Who ran behind the engine?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whoranbehindtheengine.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset_14.png",
+          "Asset_16.png",
+          "Asset_11.png",
+          "Asset_13.png"
+        ],
+        "ReiterationAudioName": "28046724_8_elephant.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What went off the track?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whatwentoffthetrack.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset_9.png",
+          "Asset_12.png",
+          "Asset_21.png",
+          "Asset_23.png"
+        ],
+        "ReiterationAudioName": "28046724_10_engine.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Which body part did the elf hurt?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whichbodypartdidtheelfhurt.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset_19.png",
+          "Asset_25.png",
+          "Asset8.png",
+          "Asset_26.png"
+        ],
+        "ReiterationAudioName": "28046724_12_elbow.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "elf",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identifythepictureforthegivenword.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset_34.png",
+          "Asset_37.png",
+          "Asset_35.png",
+          "Asset_31.png"
+        ],
+        "ReiterationAudioName": "28046724_14_elf.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q8.png",
+        "QuestionAudioName": "Whatisthis.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "pot",
+          "mug",
+          "glass",
+          "bed"
+        ],
+        "ReiterationAudioName": "28046724_16_bed.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "hen",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Choosethecorrectpictureforthegivenword.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset_36.png",
+          "Asset_31.png",
+          "Asset_32.png",
+          "Asset_33.png"
+        ],
+        "ReiterationAudioName": "hen.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "listen and choose",
+        "QuestionImageName": "",
+        "QuestionAudioName": "p_29205356_49.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "mouse",
+          "peck",
+          "snake",
+          "bottle"
+        ],
+        "ReiterationAudioName": "peck.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
