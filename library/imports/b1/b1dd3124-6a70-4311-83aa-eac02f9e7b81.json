@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rog",
+    "texture": "65cc1058-fd48-4e53-b8fa-94765088e0a8",
+    "atlas": "",
+    "rect": [
+      95,
+      35,
+      303,
+      438
+    ],
+    "offset": [
+      -4,
+      -3.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blendword_drfr",
+    "texture": "7862d23b-8ac1-4144-8ec1-ef2ee436c50f",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      795,
+      239
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      795,
+      303
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
