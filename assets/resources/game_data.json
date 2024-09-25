@@ -1,0 +1,86 @@
+{
+  "additionalData": {
+    "GameID": "Animal Homes Adventure Quest",
+    "totalLevel": "4",
+    "TitleImageName": "titleImage.png",
+    "introBgName": "introBg.png",
+    "bgmMusicName": "bgmMusic.mp3",
+    "mainBgName": "mainBg.png",
+    "JockeyName": "Mighty_Raju",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "Where does a rabbit live?",
+      "commonOptionImageName": "commonOptionImage.png",
+      "questionAudioName": "questionAudio1.mp3",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "optionimage31.png",
+        "optionimage21.png",
+        "AnswerImage1.png",
+        "optionimage11.png"
+      ],
+      "correctAudios": [
+        "correctAudio1.mp3"
+      ],
+      "correctAnswerNum": 3
+    },
+    {
+      "questionText": "What is the home of a bee called?",
+      "commonOptionImageName": "commonOptionImage.png",
+      "questionAudioName": "questionAudio2.mp3",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "optionimage12.png",
+        "optionimage22.png",
+        "optionimage32.png",
+        "AnswerImage2.png"
+      ],
+      "correctAudios": [
+        "correctAudio2.mp3"
+      ],
+      "correctAnswerNum": 4
+    },
+    {
+      "questionText": "Where can you find a lion's home?",
+      "commonOptionImageName": "commonOptionImage.png",
+      "questionAudioName": "questionAudio3.mp3",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "optionimage13.png",
+        "optionimage33.png",
+        "AnswerImage3.png",
+        "optionimage23.png"
+      ],
+      "correctAudios": [
+        "correctAudio3.mp3"
+      ],
+      "correctAnswerNum": 3
+    },
+    {
+      "questionText": "Which of the following is the home of a fish?",
+      "commonOptionImageName": "commonOptionImage.png",
+      "questionAudioName": "questionAudio4.mp3",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "optionimage34.png",
+        "optionimage24.png",
+        "AnswerImage4.png",
+        "optionimage14.png"
+      ],
+      "correctAudios": [
+        "correctAudio4.mp3"
+      ],
+      "correctAnswerNum": 3
+    }
+  ]
+}
