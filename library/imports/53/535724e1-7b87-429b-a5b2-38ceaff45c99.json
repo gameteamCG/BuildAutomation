@@ -1,0 +1,144 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Star shape_PG_W2_D3",
+      "totalLevel": "5",
+      "TitleImageName": "Asset_63.png",
+      "introBgName": "Bg8.png",
+      "bgmMusicName": "bgm_1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "solve the puzzle",
+        "questionAudioName": "Qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_1.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "badge1.png",
+          "badge2.png",
+          "badge3.png",
+          "badge4.png"
+        ],
+        "correctAudioName": "badge.mp3",
+        "needReiteration": false,
+        "interactionType": "",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": true,
+        "numberOfOptions": 0,
+        "options": [],
+        "correctAnswer": "one",
+        "reiterationAudioName": ""
+      },
+      {
+        "questionText": "solve the puzzle",
+        "questionAudioName": "Qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_1.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "earring1.png",
+          "earring2.png",
+          "earring3.png",
+          "earring4.png"
+        ],
+        "correctAudioName": "earrings.mp3",
+        "needReiteration": false,
+        "interactionType": "",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": true,
+        "numberOfOptions": 0,
+        "options": [],
+        "correctAnswer": "one",
+        "reiterationAudioName": ""
+      },
+      {
+        "questionText": "solve the puzzle",
+        "questionAudioName": "Qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_1.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "flower1.png",
+          "flower2.png",
+          "flower3.png",
+          "flower4.png"
+        ],
+        "correctAudioName": "flower.mp3",
+        "needReiteration": false,
+        "interactionType": "",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": true,
+        "numberOfOptions": 0,
+        "options": [],
+        "correctAnswer": "one",
+        "reiterationAudioName": ""
+      },
+      {
+        "questionText": "solve the puzzle",
+        "questionAudioName": "Qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_1.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "star1.png",
+          "star2.png",
+          "star3.png",
+          "star4.png"
+        ],
+        "correctAudioName": "Star.mp3",
+        "needReiteration": false,
+        "interactionType": "",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": true,
+        "numberOfOptions": 0,
+        "options": [],
+        "correctAnswer": "one",
+        "reiterationAudioName": ""
+      },
+      {
+        "questionText": "solve the puzzle",
+        "questionAudioName": "Qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset_1.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "starfish1.png",
+          "starfish2.png",
+          "starfish3.png",
+          "starfish4.png"
+        ],
+        "correctAudioName": "starfish.mp3",
+        "needReiteration": false,
+        "interactionType": "",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": true,
+        "numberOfOptions": 0,
+        "options": [],
+        "correctAnswer": "one",
+        "reiterationAudioName": ""
+      }
+    ]
+  }
+}
