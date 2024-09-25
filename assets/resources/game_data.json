@@ -1,0 +1,107 @@
+{
+  "additionalData": {
+    "GameID": "Fun Playground Adventure",
+    "totalLevel": "5",
+    "TitleImageName": "titleImage.png",
+    "introBgName": "introBg.png",
+    "bgmMusicName": "bgmMusic.mp3",
+    "mainBgName": "mainBg.png",
+    "JockeyName": "Podar",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "What can you find in a playground that you can swing on?",
+      "questionAudioName": "questionAudio1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "commonOptionImage.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "optionimage11.png",
+        "optionimage21.png",
+        "optionimage31.png",
+        "AnswerImage1.png"
+      ],
+      "correctAudios": [
+        "correctAudio1.mp3"
+      ],
+      "correctAnswerNum": "4"
+    },
+    {
+      "questionText": "Which equipment in a playground can you climb?",
+      "questionAudioName": "questionAudio2.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "commonOptionImage.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "optionimage12.png",
+        "optionimage22.png",
+        "AnswerImage2.png"
+      ],
+      "correctAudios": [
+        "correctAudio2.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "What do you ride on at a playground?",
+      "questionAudioName": "questionAudio3.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "commonOptionImage.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "optionimage13.png",
+        "AnswerImage3.png",
+        "optionimage23.png",
+        "optionimage33.png"
+      ],
+      "correctAudios": [
+        "correctAudio3.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Which equipment can you slide down in a playground?",
+      "questionAudioName": "questionAudio4.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "commonOptionImage.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Swing",
+        "Slide",
+        "Table"
+      ],
+      "correctAudios": [
+        "correctAudio4.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "What do kids often play with in a playground?",
+      "questionAudioName": "questionAudio5.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "commonOptionImage.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 4,
+      "options": [
+        "Chair",
+        "Book",
+        "Swing",
+        "Ball"
+      ],
+      "correctAudios": [
+        "correctAudio5.mp3"
+      ],
+      "correctAnswerNum": "4"
+    }
+  ]
+}
