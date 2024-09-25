@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Heavy and Light",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Measure_Weight.mp4",
+      "TitleImageName": "Heavyandlight.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "weighing scale",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Weighing_scale.png",
+          "vending_machine.png"
+        ],
+        "ReiterationAudioName": "GREATWORK.mp3",
+        "CorrectAudioName": "weighing_scale.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "heavy",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "chillies.png",
+          "pumpkin.png"
+        ],
+        "ReiterationAudioName": "GOODJOB.mp3",
+        "CorrectAudioName": "PUMPKIN_IS_HEAVY_IN_WEIGHT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "light",
+        "QuestionImageName": "",
+        "QuestionAudioName": "q3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "chillies.png",
+          "watermelon.png"
+        ],
+        "ReiterationAudioName": "FANTASTIC.mp3",
+        "CorrectAudioName": "CHILLIES_ARE_LIGHT_IN_WEIGHT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q4.png",
+        "QuestionAudioName": "q4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "no",
+          "yes"
+        ],
+        "ReiterationAudioName": "BRILLIANT.mp3",
+        "CorrectAudioName": "yes.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

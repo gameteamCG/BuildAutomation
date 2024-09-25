@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "watermelon",
+    "texture": "f63485e5-3188-4ecd-8b71-68dbbce2d36b",
+    "atlas": "",
+    "rect": [
+      22,
+      19,
+      204,
+      213
+    ],
+    "offset": [
+      -1,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
