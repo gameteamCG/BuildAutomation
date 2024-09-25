@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Subtraction",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/DifferentWaysToSubtract_1720780703304.mp4",
+      "TitleImageName": "subtraction.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "q1.png",
+        "QuestionAudioName": "subtractandfindthecorrectanswerfortheequation.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "4.png",
+          "9.png",
+          "7.png",
+          "1.png"
+        ],
+        "ReiterationAudioName": "4.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "q2.png",
+        "QuestionAudioName": "subtractandfindthecorrectanswerfortheequation.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "4.png",
+          "9.png",
+          "6.png",
+          "8.png"
+        ],
+        "ReiterationAudioName": "6.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "q3.png",
+        "QuestionAudioName": "subtractandfindthecorrectanswerfortheequation.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "3.png",
+          "7.png",
+          "6.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "4.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}
