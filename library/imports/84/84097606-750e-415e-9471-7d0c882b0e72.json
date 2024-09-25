@@ -1,0 +1,134 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter 'e_NUR_W5_D3",
+      "totalLevel": "6",
+      "TitleImageName": "Lettere.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "bgm_sc.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tlc",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "letter e",
+        "questionImageName": "bucket.png",
+        "questionAudioName": "Identify_and_tap_the_object_that_begins_with_the_letter_ee.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "envelope.png",
+          "jacket.png",
+          "turtle.png"
+        ],
+        "correctAudios": [
+          "ENVELOPE.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter e",
+        "questionImageName": "bucket.png",
+        "questionAudioName": "Identify_and_tap_the_object_that_begins_with_the_letter_ee.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "jug.png",
+          "engine.png",
+          "truck.png"
+        ],
+        "correctAudios": [
+          "engine.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter e",
+        "questionImageName": "bucket.png",
+        "questionAudioName": "Identify_and_tap_the_object_that_begins_with_the_letter_ee.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "umbrella.png",
+          "ant.png",
+          "egg.png"
+        ],
+        "correctAudios": [
+          "egg.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "letter e",
+        "questionImageName": "bucket.png",
+        "questionAudioName": "Identify_and_tap_the_object_that_begins_with_the_letter_ee.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "fox.png",
+          "elephant.png",
+          "ladybug.png"
+        ],
+        "correctAudios": [
+          "elephant.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter e",
+        "questionImageName": "bucket.png",
+        "questionAudioName": "Identify_and_tap_the_object_that_begins_with_the_letter_ee.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "elbow.png",
+          "fan.png",
+          "glass.png"
+        ],
+        "correctAudios": [
+          "elbow.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter e",
+        "questionImageName": "bucket.png",
+        "questionAudioName": "Identify_and_tap_the_object_that_begins_with_the_letter_ee.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "kite.png",
+          "elf.png",
+          "teddy.png"
+        ],
+        "correctAudios": [
+          "elf.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
