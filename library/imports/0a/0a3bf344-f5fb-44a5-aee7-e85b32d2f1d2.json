@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Subtraction using number line",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/GUKG_WP28_5B_1727247664435.mp4",
+      "TitleImageName": "Asset 632.png",
+      "IntroAudio1Name": "mp3-output-ttsfree(dot)com (6).mp3",
+      "IntroAudio2Name": "29279041_1_hello-lovely-people.mp3",
+      "JockeyName": "bag",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
