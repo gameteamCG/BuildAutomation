@@ -1,0 +1,96 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Fun Learning Animal Habitats",
+      "totalLevel": "4",
+      "TitleImageName": "titleImage.png",
+      "introBgName": "introBg.png",
+      "bgmMusicName": "bgmMusic.mp3",
+      "mainBgName": "mainBg.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Where does a lion live?",
+        "questionAudioName": "questionAudio1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage.png",
+        "isOptionText": true,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "Desert",
+          "Ocean",
+          "Jungle",
+          "Forest"
+        ],
+        "correctAudios": [
+          "correctAudio1.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Where does a polar bear live?",
+        "questionAudioName": "questionAudio2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage.png",
+        "isOptionText": true,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "Forest",
+          "Desert",
+          "Mountains",
+          "Arctic"
+        ],
+        "correctAudios": [
+          "correctAudio2.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Where does a kangaroo live?",
+        "questionAudioName": "questionAudio3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage.png",
+        "isOptionText": true,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "Savannah",
+          "Forest",
+          "Desert",
+          "Polar"
+        ],
+        "correctAudios": [
+          "correctAudio3.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Where does a penguin live?",
+        "questionAudioName": "questionAudio4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage.png",
+        "isOptionText": true,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "Ocean",
+          "Jungle",
+          "Arctic",
+          "Desert"
+        ],
+        "correctAudios": [
+          "correctAudio4.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
