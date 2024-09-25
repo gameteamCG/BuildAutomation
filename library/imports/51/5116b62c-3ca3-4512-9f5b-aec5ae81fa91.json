@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0005_joey",
+    "texture": "c0ba6415-1344-4ec5-9a13-e261f0ff46a0",
+    "atlas": "",
+    "rect": [
+      109,
+      159,
+      205,
+      332
+    ],
+    "offset": [
+      -38.5,
+      -75
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

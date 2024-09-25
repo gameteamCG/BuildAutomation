@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Animal_and_their_young_ones",
+    "texture": "f384272c-ff26-4e3a-a954-5a12715ea436",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      1084,
+      251
+    ],
+    "offset": [
+      0,
+      11.5
+    ],
+    "originalSize": [
+      1084,
+      278
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
