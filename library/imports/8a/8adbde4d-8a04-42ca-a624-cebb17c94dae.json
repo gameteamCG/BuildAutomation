@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pigbw",
+    "texture": "30609a55-a31d-474b-9b3e-56f472f1b2b8",
+    "atlas": "",
+    "rect": [
+      15,
+      90,
+      470,
+      320
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
