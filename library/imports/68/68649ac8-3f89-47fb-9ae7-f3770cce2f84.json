@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chimneysmoke",
+    "texture": "f2deeb4c-be5a-4014-befe-1c3fcba0dc54",
+    "atlas": "",
+    "rect": [
+      117,
+      34,
+      304,
+      466
+    ],
+    "offset": [
+      18.5,
+      -16.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

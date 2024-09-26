@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blowingbubbles",
+    "texture": "26759b4b-f4f5-431f-a5e4-a2e88a33c4ff",
+    "atlas": "",
+    "rect": [
+      44,
+      16,
+      421,
+      456
+    ],
+    "offset": [
+      4,
+      6.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
