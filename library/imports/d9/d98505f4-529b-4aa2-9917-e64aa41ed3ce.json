@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kite (2)",
+    "texture": "4c53a595-e9c8-4713-9784-a338a9871f06",
+    "atlas": "",
+    "rect": [
+      109,
+      68,
+      232,
+      306
+    ],
+    "offset": [
+      0,
+      4
+    ],
+    "originalSize": [
+      450,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
