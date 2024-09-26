@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "skip",
+    "texture": "2cc61678-c884-4616-8bcf-8336101cb501",
+    "atlas": "",
+    "rect": [
+      105,
+      34,
+      287,
+      433
+    ],
+    "offset": [
+      -1.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
