@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "parachute",
+    "texture": "171bc76d-07d2-4c79-9765-0922d60b07f6",
+    "atlas": "",
+    "rect": [
+      80,
+      11,
+      340,
+      479
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "drone2",
+    "texture": "4036b396-4cd8-4726-81d6-2db3f2c00291",
+    "atlas": "",
+    "rect": [
+      97,
+      242,
+      480,
+      190
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      674,
+      674
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

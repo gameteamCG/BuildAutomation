@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "housefly2",
+    "texture": "043e3352-ab19-463c-84e2-7f20ebbe96d9",
+    "atlas": "",
+    "rect": [
+      58,
+      69,
+      384,
+      362
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
