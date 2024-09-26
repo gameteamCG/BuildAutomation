@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Letter 'Qq'",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/CINUR_Letter_Q_Video2_CO_1727265038114.mp4",
+      "TitleImageName": "Asset 25.png",
+      "IntroAudio1Name": "29279041_3_hello.mp3",
+      "IntroAudio2Name": "mp3-output-ttsfree(dot)com (14).mp3",
+      "JockeyName": "bag",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
