@@ -1,0 +1,186 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Insect homes JrKg._W1_D5",
+      "totalLevel": "7",
+      "TitleImageName": "air.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "PID_10_BGM_1.mp3",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "SkyBG.png",
+        "questionAudioName": "tap_on_the_living_things_that_need_air.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "parrot.png",
+          "kiteL5.png",
+          "aeroplane.png"
+        ],
+        "optionsBg": [
+          "parrot2.png",
+          "kiteL5_BW.png",
+          "aeroplane2.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "Parrot.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "SkyBG.png",
+        "questionAudioName": "tap_on_the_living_things_that_need_air.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "hotairballoon.png",
+          "helicopter1.png",
+          "butterfly.png"
+        ],
+        "optionsBg": [
+          "hotairballoon2.png",
+          "helicopter2.png",
+          "butterfly2.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "Butterfly.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "ng37.png",
+        "questionAudioName": "tap_on_the_living_things_that_need_air.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "paperplane.png",
+          "crow.png",
+          "jet.png"
+        ],
+        "optionsBg": [
+          "paperplane2.png",
+          "crow2.png",
+          "jet2.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "Crow.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "ng37.png",
+        "questionAudioName": "tap_on_the_living_things_that_need_air.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "bee.png",
+          "rocket.png",
+          "balloon.png"
+        ],
+        "optionsBg": [
+          "bee2.png",
+          "rocket2.png",
+          "balloon2.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "Honey_bee.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg38.png",
+        "questionAudioName": "tap_on_the_living_things_that_need_air.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "drone.png",
+          "glider.png",
+          "pigeon.png"
+        ],
+        "optionsBg": [
+          "drone2.png",
+          "glider2.png",
+          "pigeon2.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "Pigeon.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg38.png",
+        "questionAudioName": "tap_on_the_living_things_that_need_air.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "parachute.png",
+          "flamingo.png",
+          "broom.png"
+        ],
+        "optionsBg": [
+          "parachute2.png",
+          "flamingo2.png",
+          "broom2.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "Flamingo.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "SkyBG.png",
+        "questionAudioName": "tap_on_the_living_things_that_need_air.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "housefly.png",
+          "blimps.png",
+          "satelite.png"
+        ],
+        "optionsBg": [
+          "housefly2.png",
+          "blimps2.png",
+          "satelite2.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "Housefly.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

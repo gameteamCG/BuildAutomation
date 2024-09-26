@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "satelite2",
+    "texture": "1a3e0101-e426-44e4-bd58-ab504c5c8b62",
+    "atlas": "",
+    "rect": [
+      11,
+      160,
+      478,
+      180
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

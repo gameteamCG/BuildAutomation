@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flamingo2",
+    "texture": "9f58bce5-1c94-4114-b8a2-e4c2fef9e2bd",
+    "atlas": "",
+    "rect": [
+      122,
+      61,
+      256,
+      379
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

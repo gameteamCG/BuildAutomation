@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "paperplane2",
+    "texture": "16d3113f-f2e5-4ab9-9325-c04b1a0c38e0",
+    "atlas": "",
+    "rect": [
+      169,
+      149,
+      162,
+      199
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
