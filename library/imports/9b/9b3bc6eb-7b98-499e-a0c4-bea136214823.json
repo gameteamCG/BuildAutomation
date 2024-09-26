@@ -1,0 +1,325 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Blend words - 'fl' and 'gl' SR_W3_D1",
+      "totalLevel": "10",
+      "TitleImageName": "ti.png",
+      "introBgName": "int.png",
+      "bgmMusicName": "B2.mp3",
+      "mainBgName": "bhhh.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "Solve the Picture Puzzle",
+        "questionAudioName": "solve.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "fly1.png",
+          "fly2.png",
+          "fly3.png",
+          "fly4.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe and make correct word for the picture",
+        "questionAudioName2": "swip.mp3",
+        "commonOptionImageName": "ew.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "f",
+          "y",
+          "l"
+        ],
+        "correctAnswer": "fly",
+        "reiterationAudioName": "FLY.mp3"
+      },
+      {
+        "questionText": "Solve the Picture Puzzle",
+        "questionAudioName": "solve.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "flag_part_001.png",
+          "flag_part_002.png",
+          "flag_part_003.png",
+          "flag_part_004.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe and make correct word for the picture",
+        "questionAudioName2": "swip.mp3",
+        "commonOptionImageName": "ew.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "l",
+          "f",
+          "g",
+          "a"
+        ],
+        "correctAnswer": "flag",
+        "reiterationAudioName": "flag.mp3"
+      },
+      {
+        "questionText": "Solve the Picture Puzzle",
+        "questionAudioName": "solve.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "flute_part_001.png",
+          "flute_part_002.png",
+          "flute_part_003.png",
+          "flute_part_004.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe and make correct word for the picture",
+        "questionAudioName2": "swip.mp3",
+        "commonOptionImageName": "ew.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "options": [
+          "l",
+          "t",
+          "f",
+          "e",
+          "u"
+        ],
+        "correctAnswer": "flute",
+        "reiterationAudioName": "flute.mp3"
+      },
+      {
+        "questionText": "Solve the Picture Puzzle",
+        "questionAudioName": "solve.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "float_part_001.png",
+          "float_part_002.png",
+          "float_part_003.png",
+          "float_part_004.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe and make correct word for the picture",
+        "questionAudioName2": "swip.mp3",
+        "commonOptionImageName": "ew.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "options": [
+          "o",
+          "f",
+          "l",
+          "t",
+          "a"
+        ],
+        "correctAnswer": "float",
+        "reiterationAudioName": "float.mp3"
+      },
+      {
+        "questionText": "Solve the Picture Puzzle",
+        "questionAudioName": "solve.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "flame_part_001.png",
+          "flame_part_002.png",
+          "flame_part_003.png",
+          "flame_part_004.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe and make correct word for the picture",
+        "questionAudioName2": "swip.mp3",
+        "commonOptionImageName": "ew.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "options": [
+          "l",
+          "f",
+          "e",
+          "m",
+          "a"
+        ],
+        "correctAnswer": "flame",
+        "reiterationAudioName": "flame.mp3"
+      },
+      {
+        "questionText": "Solve the Picture Puzzle",
+        "questionAudioName": "solve.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "glue_part_001.png",
+          "glue_part_002.png",
+          "glue_part_003.png",
+          "glue_part_004.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe and make correct word for the picture",
+        "questionAudioName2": "swip.mp3",
+        "commonOptionImageName": "ew.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "u",
+          "e",
+          "g",
+          "l"
+        ],
+        "correctAnswer": "glue",
+        "reiterationAudioName": "glue.mp3"
+      },
+      {
+        "questionText": "Solve the Picture Puzzle",
+        "questionAudioName": "solve.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "glad_part_001.png",
+          "glad_part_002.png",
+          "glad_part_003.png",
+          "glad_part_004.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe and make correct word for the picture",
+        "questionAudioName2": "swip.mp3",
+        "commonOptionImageName": "ew.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "l",
+          "a",
+          "g",
+          "d"
+        ],
+        "correctAnswer": "glad",
+        "reiterationAudioName": "glad.mp3"
+      },
+      {
+        "questionText": "Solve the Picture Puzzle",
+        "questionAudioName": "solve.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "glass_part_001.png",
+          "glass_part_002.png",
+          "glass_part_003.png",
+          "glass_part_004.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe and make correct word for the picture",
+        "questionAudioName2": "swip.mp3",
+        "commonOptionImageName": "ew.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "options": [
+          "l",
+          "s",
+          "s",
+          "g",
+          "a"
+        ],
+        "correctAnswer": "glass",
+        "reiterationAudioName": "glass.mp3"
+      },
+      {
+        "questionText": "Solve the Picture Puzzle",
+        "questionAudioName": "solve.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "globe_part_001.png",
+          "globe_part_002.png",
+          "globe_part_003.png",
+          "globe_part_004.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe and make correct word for the picture",
+        "questionAudioName2": "swip.mp3",
+        "commonOptionImageName": "ew.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "options": [
+          "l",
+          "e",
+          "b",
+          "g",
+          "o"
+        ],
+        "correctAnswer": "globe",
+        "reiterationAudioName": "globe.mp3"
+      },
+      {
+        "questionText": "Solve the Picture Puzzle",
+        "questionAudioName": "solve.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "gloves_part_001.png",
+          "gloves_part_002.png",
+          "gloves_part_003.png",
+          "gloves_part_004.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "swipe and make correct word for the picture",
+        "questionAudioName2": "swip.mp3",
+        "commonOptionImageName": "ew.png",
+        "isOptionText": true,
+        "numberOfOptions": 6,
+        "options": [
+          "o",
+          "s",
+          "l",
+          "e",
+          "g",
+          "v"
+        ],
+        "correctAnswer": "gloves",
+        "reiterationAudioName": "gloves.mp3"
+      }
+    ]
+  }
+}
