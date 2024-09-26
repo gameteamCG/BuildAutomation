@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rocket",
+    "texture": "c14736ff-0e3c-4cbc-bcd9-f2ee363eb5f8",
+    "atlas": "",
+    "rect": [
+      61,
+      24,
+      378,
+      452
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nib",
+    "texture": "b844a7c1-daec-486b-8609-874347a75d55",
+    "atlas": "",
+    "rect": [
+      15,
+      74,
+      470,
+      352
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
