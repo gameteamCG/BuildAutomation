@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyscale_0000_rat",
+    "texture": "e2c8fedd-3491-43cc-a0d9-a14691178b66",
+    "atlas": "",
+    "rect": [
+      3,
+      144,
+      491,
+      214
+    ],
+    "offset": [
+      -1.5,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

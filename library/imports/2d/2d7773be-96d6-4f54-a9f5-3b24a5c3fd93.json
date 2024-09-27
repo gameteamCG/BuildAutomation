@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "300x300_0003_Rainbow-Ll",
+    "texture": "926dc55d-daa0-4a89-b24c-736922bf07e0",
+    "atlas": "",
+    "rect": [
+      0,
+      69,
+      300,
+      162
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

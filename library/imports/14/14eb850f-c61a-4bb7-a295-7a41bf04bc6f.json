@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyscale_0001_paintbrush",
+    "texture": "1788cff0-5eef-46b6-944c-862b50982e55",
+    "atlas": "",
+    "rect": [
+      17,
+      18,
+      465,
+      465
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

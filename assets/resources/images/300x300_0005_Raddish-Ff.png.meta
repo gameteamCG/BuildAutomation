@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "857eec31-5a21-429e-bd9d-39c8c60eee27",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 300,
+  "height": 300,
+  "platformSettings": {},
+  "subMetas": {
+    "300x300_0005_Raddish-Ff": {
+      "ver": "1.0.6",
+      "uuid": "5b3343bb-7920-43e0-8364-5305222c0cc5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "857eec31-5a21-429e-bd9d-39c8c60eee27",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": -0.5,
+      "trimX": 101,
+      "trimY": 1,
+      "width": 101,
+      "height": 299,
+      "rawWidth": 300,
+      "rawHeight": 300,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

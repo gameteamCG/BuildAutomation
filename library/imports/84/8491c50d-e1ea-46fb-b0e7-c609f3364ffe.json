@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyscale_0005_sandwich",
+    "texture": "8855f4ae-81c9-4d98-9130-bf9f4fefd458",
+    "atlas": "",
+    "rect": [
+      46,
+      1,
+      408,
+      497
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
