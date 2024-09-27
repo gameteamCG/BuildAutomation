@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guess",
+    "texture": "8ebfc138-1ceb-4a8c-ae75-321c86e1850e",
+    "atlas": "",
+    "rect": [
+      129,
+      12,
+      243,
+      478
+    ],
+    "offset": [
+      0.5,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

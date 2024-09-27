@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "playingwithsand",
+    "texture": "2685bd62-de56-4cce-9bf0-23952b6955e8",
+    "atlas": "",
+    "rect": [
+      27,
+      119,
+      447,
+      285
+    ],
+    "offset": [
+      0.5,
+      -11.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

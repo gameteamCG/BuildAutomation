@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "overflowfood",
+    "texture": "2be07727-e279-4982-88de-15d44d020a26",
+    "atlas": "",
+    "rect": [
+      20,
+      113,
+      448,
+      336
+    ],
+    "offset": [
+      -6,
+      -31
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
