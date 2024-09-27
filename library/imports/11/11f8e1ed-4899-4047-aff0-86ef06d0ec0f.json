@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spider",
+    "texture": "ee657a28-d8fe-43de-924d-e56e2d70b293",
+    "atlas": "",
+    "rect": [
+      58,
+      97,
+      384,
+      306
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

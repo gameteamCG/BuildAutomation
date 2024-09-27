@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dragongly",
+    "texture": "371fea7d-ccd6-4b60-a895-88f569133a59",
+    "atlas": "",
+    "rect": [
+      29,
+      104,
+      442,
+      291
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

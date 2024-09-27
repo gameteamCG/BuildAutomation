@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "anthil",
+    "texture": "36478cbe-8ca3-413a-b19c-b3ea5c05c898",
+    "atlas": "",
+    "rect": [
+      63,
+      107,
+      374,
+      286
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

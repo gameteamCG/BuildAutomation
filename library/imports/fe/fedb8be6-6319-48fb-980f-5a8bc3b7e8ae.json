@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Insect_homes",
+    "texture": "452ab67c-e286-4d0a-a640-61f93245c553",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      875,
+      124
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      875,
+      188
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

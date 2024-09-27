@@ -1,0 +1,82 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Insect food JrKg._W4_D2",
+      "totalLevel": "3",
+      "TitleImageName": "Insect_homes.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "Kids_Game_1.mp3",
+      "mainBgName": "Bg32.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionAudioName": "match_the_insect_to_its_home.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "card1.png",
+        "frontCardImageName": "card_1.png",
+        "isOptionText": false,
+        "options": [
+          "ant.png",
+          "bee.png"
+        ],
+        "reiterationAudios": [
+          "antlivesinananthil.mp3",
+          "beelivesinabeehive.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "anthil.png",
+          "beehive.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "match_the_insect_to_its_home.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "card2.png",
+        "frontCardImageName": "card_2.png",
+        "isOptionText": false,
+        "options": [
+          "spider.png",
+          "Grasshopper.png"
+        ],
+        "reiterationAudios": [
+          "spiderlivesinaweb.mp3",
+          "grasshopperlivesingrass.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "web.png",
+          "grass.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "match_the_insect_to_its_home.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "card3.png",
+        "frontCardImageName": "card_3.png",
+        "isOptionText": false,
+        "options": [
+          "ladybug.png",
+          "dragongly.png"
+        ],
+        "reiterationAudios": [
+          "ladybuglivesonaleaf.mp3",
+          "dragonflylivesinapond.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "leaf.png",
+          "pond.png"
+        ]
+      }
+    ]
+  }
+}
