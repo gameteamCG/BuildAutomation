@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Recap of letter 'Qq'",
+      "totalLevel": "6",
+      "TitleImageName": "Revisionofletter'Qq'.png",
+      "introBgName": "bgpodar.png",
+      "bgmMusicName": "BBGGMM.mp3",
+      "mainBgName": "bgL2.png",
+      "JockeyName": "bag",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "letter Qq",
+        "questionAudioName": "mp3-output-ttsfree(dot)com (7).mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "quail.png",
+          "apple.png"
+        ],
+        "correctAudios": [
+          "quail.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter Qq",
+        "questionAudioName": "mp3-output-ttsfree(dot)com (7).mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "book.png",
+          "queen.png"
+        ],
+        "correctAudios": [
+          "queen.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter Qq",
+        "questionAudioName": "mp3-output-ttsfree(dot)com (7).mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "quiet.png",
+          "hat.png"
+        ],
+        "correctAudios": [
+          "quiet.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "letter Qq",
+        "questionAudioName": "mp3-output-ttsfree(dot)com (7).mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "key.png",
+          "quill.png"
+        ],
+        "correctAudios": [
+          "quill.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter Qq",
+        "questionAudioName": "mp3-output-ttsfree(dot)com (7).mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "magnet.png",
+          "quilt.png"
+        ],
+        "correctAudios": [
+          "quilt.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "letter Qq",
+        "questionAudioName": "mp3-output-ttsfree(dot)com (7).mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "AnsCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "quiz.png",
+          "orangeL5.png"
+        ],
+        "correctAudios": [
+          "quiz.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

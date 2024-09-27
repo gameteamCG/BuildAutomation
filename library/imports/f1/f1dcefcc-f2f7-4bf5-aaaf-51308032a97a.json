@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "quilt",
+    "texture": "19027908-da0e-479b-b12a-ee8f2ee8ae31",
+    "atlas": "",
+    "rect": [
+      1,
+      52,
+      499,
+      394
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
