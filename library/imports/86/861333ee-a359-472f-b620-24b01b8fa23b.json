@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lotusL5",
+    "texture": "287b90f7-c0e2-4d3e-b8df-3c5088374389",
+    "atlas": "",
+    "rect": [
+      2,
+      0,
+      496,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

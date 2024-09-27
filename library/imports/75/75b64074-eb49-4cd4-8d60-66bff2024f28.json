@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lockL4_BW",
+    "texture": "f66864de-6b10-4006-95cc-82b6f4c43adb",
+    "atlas": "",
+    "rect": [
+      44,
+      0,
+      413,
+      500
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

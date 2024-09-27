@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "orangeL5_BW",
+    "texture": "2c0afbe9-9208-4766-8b88-8b65525e6a18",
+    "atlas": "",
+    "rect": [
+      11,
+      5,
+      477,
+      491
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
