@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "113c17c0-bb9a-4f48-b0d4-d7c735f81861",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 251,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "gloves_part_003": {
+      "ver": "1.0.6",
+      "uuid": "d7a65674-8451-4c20-a8af-397a113c7279",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "113c17c0-bb9a-4f48-b0d4-d7c735f81861",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 251,
+      "height": 250,
+      "rawWidth": 251,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
