@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mitten2",
+    "texture": "6142e64c-0149-4283-a07b-92ed234faabe",
+    "atlas": "",
+    "rect": [
+      80,
+      15,
+      340,
+      470
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

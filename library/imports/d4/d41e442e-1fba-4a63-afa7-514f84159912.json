@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mirror",
+    "texture": "d30c6e56-f1a6-4fb9-9ee1-bbbcb8105cd4",
+    "atlas": "",
+    "rect": [
+      129,
+      22,
+      244,
+      456
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

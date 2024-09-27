@@ -1,0 +1,158 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "\"Uppercase letter 'M' JrKg._W4_D1\"",
+      "totalLevel": "5",
+      "TitleImageName": "Uppercase_letterM.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "bgmpattern.mp3",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "L1BG.png",
+        "questionAudioName": "TapontheMoonwithlettersoundmmm.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "moon1.png",
+          "moon2.png",
+          "moon3.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "mmm.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "L2BG.png",
+        "questionAudioName": "TaponallthematwithletterM.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "mat1.png",
+          "mat2.png",
+          "mat3.png",
+          "mat4.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "M.mp3",
+          "M.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "l3bg.png",
+        "questionAudioName": "TaponallthemushroomswithletterM.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "mushroomB.png",
+          "mushroomJ.png",
+          "mushroomM.png",
+          "mushroomU.png",
+          "mushroomM2.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "M.mp3",
+          "M.mp3"
+        ],
+        "correctAnswerNum": "35"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "l4bg.png",
+        "questionAudioName": "TaponalltheobjectsstartingwithLettersoundmmm.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "mango.png",
+          "octopus.png",
+          "milk.png",
+          "monkey.png",
+          "koala.png"
+        ],
+        "optionsBg": [
+          "mango2.png",
+          "octopus2.png",
+          "milk2.png",
+          "monkey2.png",
+          "koala2.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "Mango.mp3",
+          "milk.mp3",
+          "monkey.mp3"
+        ],
+        "correctAnswerNum": "134"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "l5bg.png",
+        "questionAudioName": "TaponalltheobjectsstartingwithLettersoundmmm.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "mirror.png",
+          "mountain.png",
+          "frog.png",
+          "fish.png",
+          "mitten.png"
+        ],
+        "optionsBg": [
+          "mirror2.png",
+          "mountain2.png",
+          "frog2.png",
+          "fish2.png",
+          "mitten2.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "MIRROR.mp3",
+          "mountain.mp3",
+          "mittens.mp3"
+        ],
+        "correctAnswerNum": "125"
+      }
+    ]
+  }
+}

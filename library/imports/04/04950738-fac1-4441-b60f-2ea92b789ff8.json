@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Uppercase_letterM",
+    "texture": "32aa4ec5-880b-418a-ad56-335be4bd0df1",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      714,
+      244
+    ],
+    "offset": [
+      0,
+      24.5
+    ],
+    "originalSize": [
+      714,
+      313
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
