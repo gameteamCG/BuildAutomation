@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toy3",
+    "texture": "44d497bd-ab1b-4732-87b9-d747d929fb5e",
+    "atlas": "",
+    "rect": [
+      94,
+      26,
+      301,
+      453
+    ],
+    "offset": [
+      -6,
+      -2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
