@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "skateboard",
+    "texture": "f099e4a0-42dd-4239-95f5-7a6bb29d604e",
+    "atlas": "",
+    "rect": [
+      30,
+      125,
+      446,
+      275
+    ],
+    "offset": [
+      2.5,
+      -12
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
