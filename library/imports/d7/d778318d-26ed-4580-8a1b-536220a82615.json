@@ -1,0 +1,94 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Uppercase letter 'K' JrKg._W3_D4",
+      "totalLevel": "5",
+      "TitleImageName": "Asset.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM3.mp3",
+      "mainBgName": "background.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "identify letter",
+        "questionImageName": "identify.png",
+        "questionAudioName": "output.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionui.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "letterk.png",
+          "lettera.png"
+        ],
+        "correctAudioName": "k.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "beginning letter",
+        "questionImageName": "king.png",
+        "questionAudioName": "IDENTIFYTHEBEGINNINGLETTEROFKING.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionui.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "lettera.png",
+          "letterk.png"
+        ],
+        "correctAudioName": "King.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "beginning letter",
+        "questionImageName": "kitten.png",
+        "questionAudioName": "IDENTIFYTHEBEGINNINGLETTEROFKITTEN.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionui.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "letterk.png",
+          "lettera.png"
+        ],
+        "correctAudioName": "kitten.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "beginning letter",
+        "questionImageName": "kangaroo.png",
+        "questionAudioName": "IDENTIFYTHEUPPERCASELETTERWITHLETTERSOUNDKKK.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionui.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "letterk.png",
+          "lettera.png"
+        ],
+        "correctAudioName": "kangaroo.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "beginning letter",
+        "questionImageName": "key.png",
+        "questionAudioName": "IDENTIFYTHEBEGINNINGLETTEROFKEY.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionui.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "letterk.png",
+          "lettera.png"
+        ],
+        "correctAudioName": "kiwi.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

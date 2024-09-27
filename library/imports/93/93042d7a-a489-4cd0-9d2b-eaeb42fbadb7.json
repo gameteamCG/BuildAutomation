@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "letterk",
+    "texture": "b50fee5c-b846-44ea-8420-68d95adea53d",
+    "atlas": "",
+    "rect": [
+      119,
+      84,
+      278,
+      317
+    ],
+    "offset": [
+      7.5,
+      8
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
