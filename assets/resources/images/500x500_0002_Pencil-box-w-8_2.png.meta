@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "08fe7535-10de-455d-a7f6-5c7eddc44491",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0002_Pencil-box-w-8_2": {
+      "ver": "1.0.6",
+      "uuid": "c87a4058-d67a-439c-aaee-88490fd390a7",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "08fe7535-10de-455d-a7f6-5c7eddc44491",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1.5,
+      "offsetY": -2,
+      "trimX": 89,
+      "trimY": 4,
+      "width": 319,
+      "height": 496,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
