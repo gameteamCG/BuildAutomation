@@ -1,0 +1,83 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter 'u'_NUR_W6_D2",
+      "totalLevel": "7",
+      "TitleImageName": "BGl.png",
+      "introBgName": "Asset17.png",
+      "bgmMusicName": "Tens&onesBGM.mp3",
+      "initialVOName": "emptyVO.mp3",
+      "mainBgName": "BG8.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "umbrella ",
+        "questionImageName": "empty.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "2.png",
+        "needMoreTools": true,
+        "correctAudioName": "umbrella.mp3"
+      },
+      {
+        "questionText": "Ukulele",
+        "questionImageName": "empty.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "7.png",
+        "needMoreTools": true,
+        "correctAudioName": "ukelele.mp3"
+      },
+      {
+        "questionText": "uniform",
+        "questionImageName": "empty.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "6.png",
+        "needMoreTools": true,
+        "correctAudioName": "UNIFORM.mp3"
+      },
+      {
+        "questionText": "uncle",
+        "questionImageName": "empty.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "4.png",
+        "needMoreTools": true,
+        "correctAudioName": "uncle.mp3"
+      },
+      {
+        "questionText": "under",
+        "questionImageName": "empty.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "5.png",
+        "needMoreTools": true,
+        "correctAudioName": "under.mp3"
+      },
+      {
+        "questionText": "unicorn",
+        "questionImageName": "empty.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "1.png",
+        "needMoreTools": true,
+        "correctAudioName": "Unicorn.mp3"
+      },
+      {
+        "questionText": "utensils",
+        "questionImageName": "empty.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "3.png",
+        "needMoreTools": true,
+        "correctAudioName": "utensils.mp3"
+      }
+    ]
+  }
+}
