@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "AI Super Automation Demo Game (Animals and their habitat)",
+      "totalLevel": "5",
+      "TitleImageName": "titleImage.png",
+      "introBgName": "introBg.png",
+      "bgmMusicName": "bgmMusic.mp3",
+      "mainBgName": "mainBg.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Which animal lives in the jungle and has black and orange stripes?",
+        "questionAudioName": "questionAudio1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "optionimage11.png",
+          "AnswerImage1.png"
+        ],
+        "correctAudios": [
+          "correctAudio1.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which animal lives in the ocean and is known for its playful behavior?",
+        "questionAudioName": "questionAudio2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "optionimage12.png",
+          "AnswerImage2.png"
+        ],
+        "correctAudios": [
+          "correctAudio2.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which animal lives in the savannah and is known for its long neck?",
+        "questionAudioName": "questionAudio3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "optionimage13.png",
+          "AnswerImage3.png"
+        ],
+        "correctAudios": [
+          "correctAudio3.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which animal lives in the Arctic and has a thick fur coat for insulation?",
+        "questionAudioName": "questionAudio4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "AnswerImage4.png",
+          "optionimage14.png"
+        ],
+        "correctAudios": [
+          "correctAudio4.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which animal lives in the rainforest and has vibrant feathers?",
+        "questionAudioName": "questionAudio5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonOptionImage.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "AnswerImage5.png",
+          "optionimage15.png"
+        ],
+        "correctAudios": [
+          "correctAudio5.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
