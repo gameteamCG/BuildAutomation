@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hammer2",
+    "texture": "ea0867be-f54c-4779-9936-c782da967790",
+    "atlas": "",
+    "rect": [
+      148,
+      47,
+      204,
+      408
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

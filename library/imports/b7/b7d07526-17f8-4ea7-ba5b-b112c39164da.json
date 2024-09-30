@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pen2",
+    "texture": "7066520d-80e5-454f-91e1-e652cb9eaa8c",
+    "atlas": "",
+    "rect": [
+      208,
+      7,
+      89,
+      494
+    ],
+    "offset": [
+      2,
+      -3.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
