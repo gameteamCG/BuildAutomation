@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Identify planets_SR_W7_D5",
+      "totalLevel": "3",
+      "TitleImageName": "identify_planet.png",
+      "introBgName": "title_bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "tap_to_identify_planet.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "b1.png",
+          "b2.png",
+          "b3.png",
+          "b4.png",
+          "b5.png"
+        ],
+        "optionsBg": [
+          "a1.png",
+          "a2.png",
+          "a3.png",
+          "a4.png",
+          "a5.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "mercury.mp3",
+          "VENUS.mp3",
+          "earth.mp3"
+        ],
+        "correctAnswerNum": "345"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "tap_to_identify_planet.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "d1.png",
+          "b7.png",
+          "d2.png",
+          "b9.png"
+        ],
+        "optionsBg": [
+          "c1.png",
+          "a7.png",
+          "c2.png",
+          "a9.png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "Jupiter.mp3",
+          "uranus.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "tap_to_identify_planet.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "b12.png",
+          "c1.png",
+          "c2.png"
+        ],
+        "optionsBg": [
+          "a12.png",
+          "d1.png",
+          "d2.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "Neptune.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
