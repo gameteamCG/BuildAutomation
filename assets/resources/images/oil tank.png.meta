@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c97b3ddf-2e48-4ee8-b5f3-9e54b5e7b12a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "oil tank": {
+      "ver": "1.0.6",
+      "uuid": "147ebd7b-b8bf-4ee9-a7e9-0491e3d253e6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c97b3ddf-2e48-4ee8-b5f3-9e54b5e7b12a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 27,
+      "offsetY": -1.5,
+      "trimX": 159,
+      "trimY": 90,
+      "width": 237,
+      "height": 324,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

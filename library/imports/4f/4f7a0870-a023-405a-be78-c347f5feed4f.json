@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fishbowl",
+    "texture": "2bb89fd7-f149-47de-858a-16675e12087b",
+    "atlas": "",
+    "rect": [
+      91,
+      125,
+      294,
+      268
+    ],
+    "offset": [
+      -12.5,
+      -8.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dustbin",
+    "texture": "d89100ac-806b-46f7-bc6c-cda5f502b7c4",
+    "atlas": "",
+    "rect": [
+      69,
+      32,
+      361,
+      451
+    ],
+    "offset": [
+      -1,
+      -7
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
