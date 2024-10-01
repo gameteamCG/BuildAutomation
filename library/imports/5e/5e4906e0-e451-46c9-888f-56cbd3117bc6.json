@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "quill1",
+    "texture": "e7b1c8fc-a0ba-4f8d-80ff-27be6b368b63",
+    "atlas": "",
+    "rect": [
+      60,
+      50,
+      130,
+      150
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
