@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "frontb",
+    "texture": "969cc9ce-bb5d-4220-b28f-ad907e6ff414",
+    "atlas": "",
+    "rect": [
+      60,
+      13,
+      131,
+      223
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
