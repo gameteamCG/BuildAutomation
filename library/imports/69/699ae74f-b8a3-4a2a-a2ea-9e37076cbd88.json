@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vowelsconsonent",
+    "texture": "0fb68766-6a7d-4436-8607-1bf13c630cec",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      774,
+      219
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      774,
+      283
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

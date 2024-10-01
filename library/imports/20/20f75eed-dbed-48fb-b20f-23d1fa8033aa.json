@@ -1,0 +1,258 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "\"Vowels and consonants JrKg._W8_D5\"",
+      "totalLevel": "14",
+      "TitleImageName": "vowelsconsonent.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_2.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tlc",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "vowel",
+        "questionAudioName": "QUESTION1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui_tile2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "zebra.png",
+          "ant.png"
+        ],
+        "correctAudios": [
+          "L1_reiteration.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "consonant",
+        "questionAudioName": "QUESTION2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui_tile2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "parrot.png",
+          "elephant.png"
+        ],
+        "correctAudios": [
+          "L2_reiteration.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "consonant",
+        "questionAudioName": "QUESTION2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui_tile2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ostrich.png",
+          "wolf.png"
+        ],
+        "correctAudios": [
+          "L3_reiteration.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "vowel",
+        "questionAudioName": "QUESTION1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui_tile2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "iguana.png",
+          "rat.png"
+        ],
+        "correctAudios": [
+          "L4_reiteration.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "consonant",
+        "questionAudioName": "QUESTION2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui_tile2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "umbrella.png",
+          "snake.png"
+        ],
+        "correctAudios": [
+          "L5_reiteration.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "consonant",
+        "questionAudioName": "QUESTION2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui_tile2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "fox.png",
+          "ant.png"
+        ],
+        "correctAudios": [
+          "L6_reiteration.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "vowel",
+        "questionAudioName": "QUESTION1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui_tile2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ostrich.png",
+          "Artboard 4 copy 13.png"
+        ],
+        "correctAudios": [
+          "L7_reiteration.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "vowel",
+        "questionAudioName": "QUESTION1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui_tile2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "rat.png",
+          "umbrella.png"
+        ],
+        "correctAudios": [
+          "L8_reiteration.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "consonant",
+        "questionAudioName": "QUESTION2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui_tile2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "elephant.png",
+          "jellyfish.png"
+        ],
+        "correctAudios": [
+          "L9_reiteration.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "vowel",
+        "questionAudioName": "QUESTION1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui_tile2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "fox.png",
+          "umbrella.png"
+        ],
+        "correctAudios": [
+          "L10_reiteration.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "consonant",
+        "questionAudioName": "QUESTION2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui_tile2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "zebra.png",
+          "ostrich.png"
+        ],
+        "correctAudios": [
+          "L11_reiteration.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "vowel",
+        "questionAudioName": "QUESTION1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui_tile2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "snake.png",
+          "ant.png"
+        ],
+        "correctAudios": [
+          "L12_reiteration.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "vowel",
+        "questionAudioName": "QUESTION1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui_tile2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "elephant.png",
+          "parrot.png"
+        ],
+        "correctAudios": [
+          "L13_reiteration.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "consonant",
+        "questionAudioName": "QUESTION2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui_tile2.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "iguana.png",
+          "Artboard 4 copy 13.png"
+        ],
+        "correctAudios": [
+          "L14_reiteration.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
