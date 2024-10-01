@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pronouns",
+    "texture": "e3a1257f-dee4-4aff-b3dc-8a2727c7ecd0",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      466,
+      117
+    ],
+    "offset": [
+      5.5,
+      2.5
+    ],
+    "originalSize": [
+      507,
+      174
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
