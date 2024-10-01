@@ -1,0 +1,193 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Pronouns",
+      "totalLevel": "6",
+      "TitleImageName": "pronouns.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "bgm_1.mp3",
+      "mainBgName": "bgmain.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "he",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "he_part_001.png",
+          "he_part_002.png",
+          "he_part_003.png",
+          "he_part_004.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "choose_the_correct_pronoun.mp3",
+        "commonOptionImageName": "option_button2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "he",
+          "she",
+          "it"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "HE.mp3"
+      },
+      {
+        "questionText": "she",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "she_part_001.png",
+          "she_part_002.png",
+          "she_part_003.png",
+          "she_part_004.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "choose_the_correct_pronoun.mp3",
+        "commonOptionImageName": "option_button2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "it",
+          "he",
+          "she"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "she.mp3"
+      },
+      {
+        "questionText": "it",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "it_part_001.png",
+          "it_part_002.png",
+          "it_part_003.png",
+          "it_part_004.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "choose_the_correct_pronoun.mp3",
+        "commonOptionImageName": "option_button2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "she",
+          "it",
+          "he"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "it.mp3"
+      },
+      {
+        "questionText": "he",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "i_part_001.png",
+          "i_part_002.png",
+          "i_part_003.png",
+          "i_part_004.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "choose_the_correct_pronoun.mp3",
+        "commonOptionImageName": "option_button2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "he",
+          "it",
+          "she"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "HE.mp3"
+      },
+      {
+        "questionText": "she",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "she2_part_001.png",
+          "she2_part_002.png",
+          "she2_part_003.png",
+          "she2_part_004.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "choose_the_correct_pronoun.mp3",
+        "commonOptionImageName": "option_button2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "it",
+          "he",
+          "she"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "she.mp3"
+      },
+      {
+        "questionText": "it",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "it2_part_001.png",
+          "it2_part_002.png",
+          "it2_part_003.png",
+          "it2_part_004.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "2",
+        "questionAudioName2": "choose_the_correct_pronoun.mp3",
+        "commonOptionImageName": "option_button2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "it",
+          "he",
+          "she"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "it.mp3"
+      }
+    ]
+  }
+}
