@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "revisionvowel",
+    "texture": "d23e8420-b00f-4eed-9276-ad7b854c0889",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      558,
+      239
+    ],
+    "offset": [
+      0,
+      28.5
+    ],
+    "originalSize": [
+      558,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
