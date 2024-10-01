@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "108b1244-4345-427c-b2b0-7b5ec4a316ea",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 204,
+  "height": 234,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0013_jackfruitJ": {
+      "ver": "1.0.6",
+      "uuid": "be76f51b-3f17-470a-9a46-c889cd3f53ee",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "108b1244-4345-427c-b2b0-7b5ec4a316ea",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -2,
+      "offsetY": 7,
+      "trimX": 13,
+      "trimY": 8,
+      "width": 174,
+      "height": 204,
+      "rawWidth": 204,
+      "rawHeight": 234,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

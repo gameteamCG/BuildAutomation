@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0012_jackfruitK",
+    "texture": "94a21df3-d806-48e7-b7c8-c3aac829834d",
+    "atlas": "",
+    "rect": [
+      13,
+      8,
+      174,
+      204
+    ],
+    "offset": [
+      -2,
+      7
+    ],
+    "originalSize": [
+      204,
+      234
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

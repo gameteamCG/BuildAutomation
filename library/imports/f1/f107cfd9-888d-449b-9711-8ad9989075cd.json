@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Uppercase_letterJ",
+    "texture": "79e64bdc-7ce6-4872-ba82-2565fd80edef",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      714,
+      244
+    ],
+    "offset": [
+      0,
+      24.5
+    ],
+    "originalSize": [
+      714,
+      313
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
