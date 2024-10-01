@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0005_jellyR",
+    "texture": "10ebca15-1824-46c3-bf35-f9108d7921ad",
+    "atlas": "",
+    "rect": [
+      4,
+      43,
+      291,
+      213
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
