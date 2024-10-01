@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "\"Colour the pet animals pg._W6_D1\"",
+      "totalLevel": "5",
+      "TitleImageName": "Asset39.png",
+      "introBgName": "Bg1.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "initialVOName": "",
+      "mainBgName": "artbackground2.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "dog",
+        "questionImageName": "Artboard2copy.png",
+        "questionAudioName": "27591494_5_colour-the-dog.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "Artboard2.png",
+        "needMoreTools": true,
+        "correctAudioName": "dog.mp3"
+      },
+      {
+        "questionText": "cow",
+        "questionImageName": "Artboard2copy5.png",
+        "questionAudioName": "27591494_2_colour-the-cow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "Artboard2copy4.png",
+        "needMoreTools": true,
+        "correctAudioName": "cow.mp3"
+      },
+      {
+        "questionText": "cat",
+        "questionImageName": "Artboard2copy3.png",
+        "questionAudioName": "27591494_1_colour-the-cat.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "Artboard2copy2.png",
+        "needMoreTools": true,
+        "correctAudioName": "cat.mp3"
+      },
+      {
+        "questionText": "hen",
+        "questionImageName": "Artboard2copy10.png",
+        "questionAudioName": "27591494_3_colour-the-hen.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "Artboard2copy6.png",
+        "needMoreTools": true,
+        "correctAudioName": "hen.mp3"
+      },
+      {
+        "questionText": "sheep",
+        "questionImageName": "Artboard2copy11.png",
+        "questionAudioName": "27591494_4_colour-the-sheep.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "Artboard2copy12.png",
+        "needMoreTools": true,
+        "correctAudioName": "sheep.mp3"
+      }
+    ]
+  }
+}
