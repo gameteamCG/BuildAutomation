@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nest_0002_sparrow",
+    "texture": "3663019b-0bce-4c38-ac4f-b13165ff180c",
+    "atlas": "",
+    "rect": [
+      14,
+      12,
+      277,
+      276
+    ],
+    "offset": [
+      2.5,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
