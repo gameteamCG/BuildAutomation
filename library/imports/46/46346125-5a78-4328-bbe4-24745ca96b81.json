@@ -1,0 +1,88 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "types of houses",
+      "totalLevel": "4",
+      "TitleImageName": "title.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Apartment",
+        "questionAudioName": "Identify_Apartment.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "apartment.png",
+          "Asset 3-8.png"
+        ],
+        "correctAudios": [
+          "Apartments.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Bungalow",
+        "questionAudioName": "Identify_Bungalow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "igloo.png",
+          "bunglow.png"
+        ],
+        "correctAudios": [
+          "bunglow.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Hut",
+        "questionAudioName": "Identify_Hut.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "hut.png",
+          "Asset 6-8.png"
+        ],
+        "correctAudios": [
+          "hut.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Igloo",
+        "questionAudioName": "Identify_Igloo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "apartment.png",
+          "igloo.png"
+        ],
+        "correctAudios": [
+          "Igloos.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
