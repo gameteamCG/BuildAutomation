@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Days_in_a_month",
+    "texture": "feadd600-81de-4ea9-a3e4-70036155d59b",
+    "atlas": "",
+    "rect": [
+      49,
+      83,
+      794,
+      369
+    ],
+    "offset": [
+      0,
+      -41.5
+    ],
+    "originalSize": [
+      892,
+      452
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
