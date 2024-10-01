@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "\"Rectangle shape pg._W1_D3\"",
+      "totalLevel": "6",
+      "TitleImageName": "retrangleshape.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGMLetterT.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "rectangle",
+        "questionImageName": "rectangle4.png",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0000_photo-frame.png",
+          "watermelon.png"
+        ],
+        "correctAudioName": "rectanglephotoframe.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "rectangle",
+        "questionImageName": "rectangle2.png",
+        "questionAudioName": "q2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "wand.png",
+          "500x500_0006_cupboard.png"
+        ],
+        "correctAudioName": "rectanglecuboard.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "rectangle",
+        "questionImageName": "rectangle3.png",
+        "questionAudioName": "q3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0002_door.png",
+          "star.png"
+        ],
+        "correctAudioName": "rectangledoor.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "rectangle",
+        "questionImageName": "slantrectangle.png",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "hanger.png",
+          "500x500_0005_suitcase.png"
+        ],
+        "correctAudioName": "rectanglesuitecase.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "rectangle",
+        "questionImageName": "slantrectangle.png",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0003_blackboard.png",
+          "partyhat.png"
+        ],
+        "correctAudioName": "rectangleblackboard.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "rectangle",
+        "questionImageName": "slantrectangle.png",
+        "questionAudioName": "q2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "glasses.png",
+          "500x500_0001_tv.png"
+        ],
+        "correctAudioName": "rectangletv.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
