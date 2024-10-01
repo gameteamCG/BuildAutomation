@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Blend words - 'br' and 'cr'",
+      "totalLevel": "6",
+      "TitleImageName": "Asset.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "PID_10 BGM_1.mp3",
+      "mainBgName": "bg2.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "beginning blend sound",
+        "questionImageName": "ry.png",
+        "questionAudioName": "Qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "ct.png",
+          "pr.png"
+        ],
+        "correctAudioName": "cry.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "beginning blend sound",
+        "questionImageName": "crown.png",
+        "questionAudioName": "Qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "dr.png",
+          "ct.png"
+        ],
+        "correctAudioName": "crown.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "beginning blend sound",
+        "questionImageName": "bridge.png",
+        "questionAudioName": "Qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "br.png",
+          "dr.png"
+        ],
+        "correctAudioName": "bridge.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "beginning blend sound",
+        "questionImageName": "crib.png",
+        "questionAudioName": "Qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "br.png",
+          "ct.png"
+        ],
+        "correctAudioName": "crib.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "beginning blend sound",
+        "questionImageName": "crane.png",
+        "questionAudioName": "Qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "ct.png",
+          "dr.png"
+        ],
+        "correctAudioName": "Crane.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "beginning blend sound",
+        "questionImageName": "crayons.png",
+        "questionAudioName": "Qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankbox.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "dr.png",
+          "ct.png"
+        ],
+        "correctAudioName": "crayon.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
