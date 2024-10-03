@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0007_smile",
+    "texture": "cad9a308-327a-4732-9f23-839477a7a0a5",
+    "atlas": "",
+    "rect": [
+      27,
+      45,
+      445,
+      408
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
