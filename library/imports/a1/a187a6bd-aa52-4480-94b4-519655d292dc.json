@@ -1,0 +1,103 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Recap of letters - 'e' 'u' 'k' 'l' 'f'_NR_W10_D3",
+      "totalLevel": "4",
+      "TitleImageName": "recap.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "Kids_Game_1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "recap of letters",
+        "questionAudioName": "MATCH_THE_CORRECT_PICTURE_TO_THE_LETTER.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "front_card.png",
+        "frontCardImageName": "back_card.png",
+        "isOptionText": false,
+        "options": [
+          "Eagle.png",
+          "correct_under.png"
+        ],
+        "reiterationAudios": [
+          "20369838_1_e_for_eagle.mp3",
+          "20369838_4_u_for_under.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "e.png",
+          "u.png"
+        ]
+      },
+      {
+        "questionText": "recap of letters",
+        "questionAudioName": "MATCH_THE_CORRECT_PICTURE_TO_THE_LETTER.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "front_card.png",
+        "frontCardImageName": "back_card.png",
+        "isOptionText": false,
+        "options": [
+          "king.png",
+          "lotus.png"
+        ],
+        "reiterationAudios": [
+          "20369838_5_k_for_king.mp3",
+          "20369838_7_l_for_lotus.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "k.png",
+          "i.png"
+        ]
+      },
+      {
+        "questionText": "recap of letters",
+        "questionAudioName": "MATCH_THE_CORRECT_PICTURE_TO_THE_LETTER.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "front_card.png",
+        "frontCardImageName": "back_card.png",
+        "isOptionText": false,
+        "options": [
+          "frog.png",
+          "8.png"
+        ],
+        "reiterationAudios": [
+          "F_FOR_FROG.mp3",
+          "20369838_3_e_for_eight.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "f.png",
+          "e.png"
+        ]
+      },
+      {
+        "questionText": "recap of letters",
+        "questionAudioName": "MATCH_THE_CORRECT_PICTURE_TO_THE_LETTER.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "front_card.png",
+        "frontCardImageName": "back_card.png",
+        "isOptionText": false,
+        "options": [
+          "kettle.png",
+          "1_0004_Flag.png"
+        ],
+        "reiterationAudios": [
+          "20369838_6_k_for_kettle.mp3",
+          "20369838_2_f_for_flag.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "k.png",
+          "f.png"
+        ]
+      }
+    ]
+  }
+}
