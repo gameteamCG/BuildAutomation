@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bunny_up_part_003",
+    "texture": "d16514b0-a1c2-4133-add0-7211026b2d5a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      250,
+      249
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

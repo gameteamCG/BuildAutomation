@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bunny_down_part_003",
+    "texture": "c634b87d-d678-4a0c-b6a3-bdc7d4770b60",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      250,
+      249
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
