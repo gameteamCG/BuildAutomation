@@ -1,0 +1,103 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Recap of letters - 'e' 'u' 'k' 'l' 'f'_NR_W10_D3",
+      "totalLevel": "4",
+      "TitleImageName": "recap.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "Kids_Game_1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "recap of letters",
+        "questionAudioName": "match.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "front_card.png",
+        "frontCardImageName": "back_card.png",
+        "isOptionText": false,
+        "options": [
+          "Eagle.png",
+          "correct_under.png"
+        ],
+        "reiterationAudios": [
+          "eagle.mp3",
+          "under.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "e.png",
+          "u.png"
+        ]
+      },
+      {
+        "questionText": "recap of letters",
+        "questionAudioName": "match.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "front_card.png",
+        "frontCardImageName": "back_card.png",
+        "isOptionText": false,
+        "options": [
+          "king.png",
+          "lotus.png"
+        ],
+        "reiterationAudios": [
+          "king.mp3",
+          "lotus.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "k.png",
+          "i.png"
+        ]
+      },
+      {
+        "questionText": "recap of letters",
+        "questionAudioName": "match.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "front_card.png",
+        "frontCardImageName": "back_card.png",
+        "isOptionText": false,
+        "options": [
+          "frog.png",
+          "8.png"
+        ],
+        "reiterationAudios": [
+          "frog.mp3",
+          "eight.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "f.png",
+          "e.png"
+        ]
+      },
+      {
+        "questionText": "recap of letters",
+        "questionAudioName": "match.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "front_card.png",
+        "frontCardImageName": "back_card.png",
+        "isOptionText": false,
+        "options": [
+          "kettle.png",
+          "1_0004_Flag.png"
+        ],
+        "reiterationAudios": [
+          "kettle.mp3",
+          "flag.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "k.png",
+          "f.png"
+        ]
+      }
+    ]
+  }
+}
