@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chiken_c",
+    "texture": "b4e38e95-3d7e-4830-8b19-1588fae27d5b",
+    "atlas": "",
+    "rect": [
+      72,
+      192,
+      334,
+      282
+    ],
+    "offset": [
+      -11.5,
+      -82.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
