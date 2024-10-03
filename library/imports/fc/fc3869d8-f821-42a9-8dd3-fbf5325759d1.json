@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Warliart",
+    "texture": "30f1e3f9-cebf-41eb-a621-c8f7429b4661",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      562,
+      127
+    ],
+    "offset": [
+      0,
+      28.5
+    ],
+    "originalSize": [
+      562,
+      188
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

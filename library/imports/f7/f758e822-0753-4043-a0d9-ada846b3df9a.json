@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Warli art_NR_W9_D5",
+      "totalLevel": "1",
+      "TitleImageName": "Warliart.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_ROTE_count.mp3",
+      "initialVOName": "",
+      "mainBgName": "artbackground3.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "warli art",
+        "questionImageName": "blankframe.png",
+        "questionAudioName": "QUESTION.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "1.png",
+        "needMoreTools": true,
+        "correctAudioName": "EXCELLENTJOB.mp3"
+      }
+    ]
+  }
+}
