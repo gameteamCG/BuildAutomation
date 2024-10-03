@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "2d_bx",
+    "texture": "fd28d621-48f3-4a5e-8e81-290383948b54",
+    "atlas": "",
+    "rect": [
+      30,
+      40,
+      247,
+      229
+    ],
+    "offset": [
+      3,
+      -4
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
