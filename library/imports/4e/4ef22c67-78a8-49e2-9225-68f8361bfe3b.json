@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "different parts of the house",
+      "totalLevel": "8",
+      "TitleImageName": "title.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Asset10.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "bathroom",
+        "questionImageName": "Asset2.png",
+        "questionAudioName": "bathroom.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset9.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset3.png",
+          "Asset7.png"
+        ],
+        "correctAudioName": "brush_teeth.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "bathroom",
+        "questionImageName": "Asset2.png",
+        "questionAudioName": "bathroom.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset9.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset13.png",
+          "Asset5.png"
+        ],
+        "correctAudioName": "bath.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "bathroom",
+        "questionImageName": "Asset2.png",
+        "questionAudioName": "bathroom.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset9.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset11.png",
+          "Asset14.png"
+        ],
+        "correctAudioName": "wash_hands.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "kitchen",
+        "questionImageName": "Asset6.png",
+        "questionAudioName": "kitchen.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset9.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset5.png",
+          "Asset1.png"
+        ],
+        "correctAudioName": "cook_food.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "kitchen",
+        "questionImageName": "Asset6.png",
+        "questionAudioName": "kitchen.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset9.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset15.png",
+          "Asset12.png"
+        ],
+        "correctAudioName": "wash_utensils.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "bedroom",
+        "questionImageName": "Asset4.png",
+        "questionAudioName": "bedroom.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset9.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset13.png",
+          "Asset3.png"
+        ],
+        "correctAudioName": "sleep.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "living room",
+        "questionImageName": "Asset8.png",
+        "questionAudioName": "living_room.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset9.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset1.png",
+          "Asset14.png"
+        ],
+        "correctAudioName": "watch_television.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "living room",
+        "questionImageName": "Asset8.png",
+        "questionAudioName": "living_room.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset9.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset12.png",
+          "Asset11.png"
+        ],
+        "correctAudioName": "read_book.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
