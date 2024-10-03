@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0000_swim",
+    "texture": "915f9b79-94ea-40c1-aa8e-8b15d947b76b",
+    "atlas": "",
+    "rect": [
+      22,
+      90,
+      453,
+      318
+    ],
+    "offset": [
+      -1.5,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
