@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cone",
+    "texture": "e4216a9c-14bb-483f-8130-b19b89e3ba59",
+    "atlas": "",
+    "rect": [
+      155,
+      116,
+      171,
+      257
+    ],
+    "offset": [
+      -10,
+      6
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

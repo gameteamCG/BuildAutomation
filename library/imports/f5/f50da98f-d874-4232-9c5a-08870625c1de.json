@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yoyo",
+    "texture": "0b486dd6-3d35-45ec-a9b5-1424a95cd908",
+    "atlas": "",
+    "rect": [
+      116,
+      92,
+      247,
+      274
+    ],
+    "offset": [
+      -11,
+      21.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
