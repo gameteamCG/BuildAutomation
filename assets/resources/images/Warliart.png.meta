@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "30f1e3f9-cebf-41eb-a621-c8f7429b4661",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 562,
+  "height": 188,
+  "platformSettings": {},
+  "subMetas": {
+    "Warliart": {
+      "ver": "1.0.6",
+      "uuid": "fc3869d8-f821-42a9-8dd3-fbf5325759d1",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "30f1e3f9-cebf-41eb-a621-c8f7429b4661",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 28.5,
+      "trimX": 0,
+      "trimY": 2,
+      "width": 562,
+      "height": 127,
+      "rawWidth": 562,
+      "rawHeight": 188,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
