@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hardandsoft",
+    "texture": "efd9aadb-31a2-413b-96be-af374f5b5eb8",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      549,
+      236
+    ],
+    "offset": [
+      0,
+      27
+    ],
+    "originalSize": [
+      549,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
