@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "letter sound Vv",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/V_Story_1726728916187_1727241080435.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "Podar",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What is the name of the man in the story?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whatisthenameofthemaninthestory.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Sam",
+          "Joy",
+          "Veer",
+          "Harry"
+        ],
+        "ReiterationAudioName": "28379806_2_veer.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What did Veer drive?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "WhatdidVeerdrive.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "2.png",
+          "Asset_17.png",
+          "Asset_24.png",
+          "Asset_39.png"
+        ],
+        "ReiterationAudioName": "28379806_4_wan.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What did Veer and his wife sell?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "WhatdidVeerandhiswifesell.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset_19.png",
+          "Asset_22.png",
+          "Asset_27.png",
+          "3.png"
+        ],
+        "ReiterationAudioName": "28379806_6_vegetables.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What was the colour of Veer's vest?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "WhatwasthecolourofVeersvest.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset_48.png",
+          "5.png",
+          "Asset_49.png",
+          "Asset_50.png"
+        ],
+        "ReiterationAudioName": "28379806_8_violet.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Which instrument did Veer play?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "WhichinstrumentdidVeerplay.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "6.png",
+          "Asset_14.png",
+          "Asset_26.png",
+          "Asset_37.png"
+        ],
+        "ReiterationAudioName": "28379806_10_violin.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Select the word that begins with the letter sound Vv.",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Select.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset_22.png",
+          "Asset_14.png",
+          "Asset_26.png",
+          "vase.png"
+        ],
+        "ReiterationAudioName": "VASE.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}
