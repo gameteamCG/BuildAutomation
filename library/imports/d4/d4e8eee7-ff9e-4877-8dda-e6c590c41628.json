@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ambulance",
+    "texture": "9bb88ea9-aa53-4781-8d11-f6b58e3870f3",
+    "atlas": "",
+    "rect": [
+      9,
+      144,
+      482,
+      212
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
