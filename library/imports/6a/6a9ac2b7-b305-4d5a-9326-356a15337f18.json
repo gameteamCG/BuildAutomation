@@ -1,0 +1,488 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Beginning sounds",
+      "totalLevel": "26",
+      "TitleImageName": "beginning sound a to z.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "bgm_1.mp3",
+      "mainBgName": "groundbg.png",
+      "JockeyName": "Puzzle",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "a",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_a.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "1a.png",
+          "20t.png"
+        ],
+        "correctAudios": [
+          "Ant.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "b",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_b.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "15o.png",
+          "2b.png"
+        ],
+        "correctAudios": [
+          "Bucket.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "c",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_c.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "3c.png",
+          "20t.png"
+        ],
+        "correctAudios": [
+          "Crab.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "d",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_d.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "13m.png",
+          "4d.png"
+        ],
+        "correctAudios": [
+          "Duck.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "e",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_e.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "5e.png",
+          "8h.png"
+        ],
+        "correctAudios": [
+          "Elephant.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "f",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_f.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "1a.png",
+          "6f.png"
+        ],
+        "correctAudios": [
+          "Frog.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "g",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_g.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "7g.png",
+          "21u.png"
+        ],
+        "correctAudios": [
+          "Gift.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "h",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_h.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "3c.png",
+          "8h.png"
+        ],
+        "correctAudios": [
+          "Hat.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "i",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_i.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "9i.png",
+          "4d.png"
+        ],
+        "correctAudios": [
+          "Igloo.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "j",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_j.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "23w.png",
+          "10j.png"
+        ],
+        "correctAudios": [
+          "Jelly.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "k",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_k.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "11k.png",
+          "16p.png"
+        ],
+        "correctAudios": [
+          "Kite.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "l",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_l.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "26z.png",
+          "12l.png"
+        ],
+        "correctAudios": [
+          "Lamp.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "m",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_m.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "13m.png",
+          "1a.png"
+        ],
+        "correctAudios": [
+          "Mouse.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "n",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_n.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "11k.png",
+          "14n.png"
+        ],
+        "correctAudios": [
+          "lettersound_n.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "o",
+        "questionImageName": "basket.png",
+        "questionAudioName": "letter sound_o.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "12l.png",
+          "15o.png"
+        ],
+        "correctAudios": [
+          "Orange.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "p",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_p.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "16p.png",
+          "3c.png"
+        ],
+        "correctAudios": [
+          "Parrot.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "q",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "25y.png",
+          "17q.png"
+        ],
+        "correctAudios": [
+          "Queen.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "r",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_r.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "18r.png",
+          "4d.png"
+        ],
+        "correctAudios": [
+          "Rabbit.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "s",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_s.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "16p.png",
+          "19s.png"
+        ],
+        "correctAudios": [
+          "Snail.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "t",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_t.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "20t.png",
+          "5e.png"
+        ],
+        "correctAudios": [
+          "Turtle.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "u",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_u.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "11k.png",
+          "21u.png"
+        ],
+        "correctAudios": [
+          "Umbrella.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "v",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_v.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "22v.png",
+          "12l.png"
+        ],
+        "correctAudios": [
+          "van.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "w",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_w.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "19s.png",
+          "0021_wolf.png"
+        ],
+        "correctAudios": [
+          "Wolf.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "x",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_x.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "24x.png",
+          "10j.png"
+        ],
+        "correctAudios": [
+          "XRay.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "y",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_y.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "5e.png",
+          "25y.png"
+        ],
+        "correctAudios": [
+          "Yak.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "z",
+        "questionImageName": "basket.png",
+        "questionAudioName": "lettersound_z.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionbox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "26z.png",
+          "14n.png"
+        ],
+        "correctAudios": [
+          "Zebra.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
