@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pillow",
+    "texture": "c27c2cb6-528b-4763-b81f-8a306b47b350",
+    "atlas": "",
+    "rect": [
+      33,
+      55,
+      434,
+      391
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Blanket",
+    "texture": "b20a5089-4511-44d6-86d8-e099c7b85504",
+    "atlas": "",
+    "rect": [
+      34,
+      81,
+      432,
+      339
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
