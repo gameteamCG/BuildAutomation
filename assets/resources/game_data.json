@@ -1,0 +1,108 @@
+{
+  "additionalData": {
+    "GameID": "Spell The Word Challenge",
+    "totalLevel": "5",
+    "TitleImageName": "titleImage.png",
+    "introBgName": "introBg.png",
+    "bgmMusicName": "bgmMusic.mp3",
+    "mainBgName": "mainBg.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "Spell the word: CAT",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "optionOffset": null,
+      "options": [
+        "T",
+        "A",
+        "C"
+      ],
+      "correctAnswer": "CAT",
+      "correctAudioName": "correctAudio1.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "ReiterationImage1.png"
+    },
+    {
+      "questionText": "Spell the word: DOG",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio2.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "optionOffset": null,
+      "options": [
+        "G",
+        "O",
+        "D"
+      ],
+      "correctAnswer": "DOG",
+      "correctAudioName": "correctAudio2.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "ReiterationImage2.png"
+    },
+    {
+      "questionText": "Spell the word: SUN",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio3.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "optionOffset": null,
+      "options": [
+        "N",
+        "S",
+        "U"
+      ],
+      "correctAnswer": "SUN",
+      "correctAudioName": "correctAudio3.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "ReiterationImage3.png"
+    },
+    {
+      "questionText": "Spell the word: BED",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio4.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "optionOffset": null,
+      "options": [
+        "D",
+        "E",
+        "B"
+      ],
+      "correctAnswer": "BED",
+      "correctAudioName": "correctAudio4.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "ReiterationImage4.png"
+    },
+    {
+      "questionText": "Spell the word: FUN",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio5.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "optionOffset": null,
+      "options": [
+        "F",
+        "U",
+        "N"
+      ],
+      "correctAnswer": "FUN",
+      "correctAudioName": "correctAudio5.mp3",
+      "needReiteration": false,
+      "reiterationImageName": ""
+    }
+  ]
+}
