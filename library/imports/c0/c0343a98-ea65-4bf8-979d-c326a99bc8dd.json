@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Animal Matching Challenge",
+      "totalLevel": "5",
+      "TitleImageName": "titleImage.png",
+      "introBgName": "introBg.png",
+      "bgmMusicName": "bgmMusic.mp3",
+      "mainBgName": "mainBg.png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "Match the animal name 'Elephant' with its image.",
+        "questionAudioName": "questionAudio1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonOptionImage.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Elephant"
+        ],
+        "reiterations": [
+          "correctAnswerAudio1_1.mp3"
+        ],
+        "commonRightOptionImageName": "commonOptionImage.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "RightOption1level1.png",
+          "RightOption2level1.png"
+        ]
+      },
+      {
+        "questionText": "Connect 'Lion' with its corresponding picture.",
+        "questionAudioName": "questionAudio2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonOptionImage.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Lion"
+        ],
+        "reiterations": [
+          "correctAnswerAudio2_1.mp3"
+        ],
+        "commonRightOptionImageName": "commonOptionImage.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "RightOption1level2.png",
+          "RightOption2level2.png"
+        ]
+      },
+      {
+        "questionText": "Match 'Monkey' with the correct visual representation.",
+        "questionAudioName": "questionAudio3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonOptionImage.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Monkey"
+        ],
+        "reiterations": [
+          "correctAnswerAudio3_1.mp3"
+        ],
+        "commonRightOptionImageName": "commonOptionImage.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "RightOption1level3.png",
+          "RightOption2level3.png"
+        ]
+      },
+      {
+        "questionText": "Pair 'Tiger' with its visual counterpart.",
+        "questionAudioName": "questionAudio4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonOptionImage.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Tiger"
+        ],
+        "reiterations": [
+          "correctAnswerAudio4_1.mp3"
+        ],
+        "commonRightOptionImageName": "commonOptionImage.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "RightOption1level4.png",
+          "RightOption2level4.png"
+        ]
+      },
+      {
+        "questionText": "Match 'Giraffe' with its corresponding image.",
+        "questionAudioName": "questionAudio5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "commonOptionImage.png",
+        "isLeftOptionText": true,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Giraffe"
+        ],
+        "reiterations": [
+          "correctAnswerAudio5_1.mp3"
+        ],
+        "commonRightOptionImageName": "commonOptionImage.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "RightOption1level5.png",
+          "RightOption2level5.png"
+        ]
+      }
+    ]
+  }
+}
