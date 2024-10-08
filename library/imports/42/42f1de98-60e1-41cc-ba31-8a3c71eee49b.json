@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ReiterationImage3",
+    "texture": "42c13dc3-813c-4c54-9045-28a0556a3ab0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1024,
+      1024
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
