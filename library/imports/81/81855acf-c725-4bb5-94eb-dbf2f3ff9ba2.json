@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bluePatch",
+    "texture": "89c0f9aa-59b2-4c9b-add7-41617fafa49b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      270,
+      243
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      270,
+      243
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
