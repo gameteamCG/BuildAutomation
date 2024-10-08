@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Front and back",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/CINUR_Front_and_Back__Video1_CO_1728379071584.mp4",
+      "TitleImageName": "Asset 667-8.png",
+      "IntroAudio1Name": "Hi_friends.mp3",
+      "IntroAudio2Name": "front_back.mp3",
+      "JockeyName": "bag",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
