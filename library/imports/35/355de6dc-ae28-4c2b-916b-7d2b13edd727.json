@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "tall and short",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/CINUR_Tall_and_Short_Video1_CO_1728371341562.mp4",
+      "TitleImageName": "Asset 662-8.png",
+      "IntroAudio1Name": "hello_everyone.mp3",
+      "IntroAudio2Name": "tall_short.mp3",
+      "JockeyName": "bag",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
