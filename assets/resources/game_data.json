@@ -1,0 +1,153 @@
+{
+  "AdditionalData": {
+    "GameID": "sound Uu",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/U_Story_1728365775268.mp4",
+    "TitleImageName": "title.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "Podar",
+    "TotalLevel": "7"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Who is the story about?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Whoisthestoryabout.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "1_1.png",
+        "Asset21.png",
+        "Asset14.png",
+        "Asset15.png"
+      ],
+      "ReiterationAudioName": "29882781_2_uncle_hub.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Where did he swim to get the pot?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Wheredidheswimtogetthepot.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset23.png",
+        "Asset17.png",
+        "Asset30.png",
+        "2_1.png"
+      ],
+      "ReiterationAudioName": "29882781_4_underwater.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What did Uncle Hub see sitting on the pot?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "WhatdidUncleHubseesittingonthepot.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset32.png",
+        "Asset16.png",
+        "3_1.png",
+        "Asset26.png"
+      ],
+      "ReiterationAudioName": "29882781_6_ugly_creature.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What did he use to push the ugly creature away?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Whatdidheusetopushtheuglycreatureaway.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset13.png",
+        "4_1.png",
+        "Asset20.png",
+        "Asset24.png"
+      ],
+      "ReiterationAudioName": "29882781_8_umbrella.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Where does the umbrella help Uncle Hub to go?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "WheredoestheumbrellahelpUncleHubtogo.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset23.png",
+        "Asset24.png",
+        "Asset19.png",
+        "5_1.png"
+      ],
+      "ReiterationAudioName": "29882781_10_up.mp3",
+      "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Identify the letter",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identify.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Uu",
+        "Ii",
+        "Ee",
+        "Kk"
+      ],
+      "ReiterationAudioName": "soundofu.mp3",
+      "CorrectAudioName": "INCREDIBLE.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Tap on picture that begins with the letter sound Uu.",
+      "QuestionImageName": "",
+      "QuestionAudioName": "tap_on.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset14.png",
+        "7.png",
+        "Asset16.png",
+        "Asset25.png"
+      ],
+      "ReiterationAudioName": "29882781_11_unhappy.mp3",
+      "CorrectAudioName": "MAGNIFICENT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
