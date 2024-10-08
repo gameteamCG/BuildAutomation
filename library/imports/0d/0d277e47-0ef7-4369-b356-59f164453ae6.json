@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kmnb",
+    "texture": "301caf56-4c40-4fb7-a488-a37d01df364a",
+    "atlas": "",
+    "rect": [
+      31,
+      127,
+      439,
+      326
+    ],
+    "offset": [
+      0,
+      -39.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
