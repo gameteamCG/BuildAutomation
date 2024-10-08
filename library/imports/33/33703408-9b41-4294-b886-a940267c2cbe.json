@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Gandhiji",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/234913785_Gandhi_Jayanti_1719391482999.mp4",
+      "TitleImageName": "Gandhi_Jayanti_t.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "bag",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Father of the nation",
+        "QuestionImageName": "",
+        "QuestionAudioName": "1_who_is_known_as_the_f.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Mahatma_Gandhi.png",
+          "A_britisher_soldier.png"
+        ],
+        "ReiterationAudioName": "1_mahatma-gandhi.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Gandhi Jayanti",
+        "QuestionImageName": "",
+        "QuestionAudioName": "2_when_do_we_celebrate.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "31st December",
+          "2nd October"
+        ],
+        "ReiterationAudioName": "2_2nd-october.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "How did Gandhiji fight against the britishers?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "3_how_did_gandhiji_fight.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "By doing satyagraha",
+          "Using weapons"
+        ],
+        "ReiterationAudioName": "3_by-doing-satyagraha.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999",
+        "IsQuestionText": true,
+        "QuestionText": "What was Mahatma Gandhi also known as, in India?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "4_What_was_Mahatma_Gandhi_also_known_as_in_India.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "sir",
+          "Bapu"
+        ],
+        "ReiterationAudioName": "4_bapu.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
