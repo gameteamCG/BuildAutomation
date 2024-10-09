@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "celery1",
+    "texture": "0b77893e-4e0a-41ba-b50c-fe95f0590eb5",
+    "atlas": "",
+    "rect": [
+      192,
+      15,
+      116,
+      470
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

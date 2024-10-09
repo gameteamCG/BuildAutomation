@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "leek3",
+    "texture": "97d87130-57aa-4ce1-9763-b231dc0eb979",
+    "atlas": "",
+    "rect": [
+      187,
+      104,
+      126,
+      292
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
