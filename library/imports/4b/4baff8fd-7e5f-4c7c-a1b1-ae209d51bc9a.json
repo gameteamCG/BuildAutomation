@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fishstroke",
+    "texture": "6afd3a19-eab4-4508-b2aa-97e5e7ba5c50",
+    "atlas": "",
+    "rect": [
+      17,
+      56,
+      466,
+      388
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

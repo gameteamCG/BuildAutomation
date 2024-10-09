@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "turtled",
+    "texture": "3764100c-f370-4287-b705-57f907cdf13c",
+    "atlas": "",
+    "rect": [
+      10,
+      140,
+      480,
+      284
+    ],
+    "offset": [
+      0,
+      -32
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

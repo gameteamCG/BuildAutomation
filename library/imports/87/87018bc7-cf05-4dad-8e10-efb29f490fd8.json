@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "owlstroke",
+    "texture": "fffd81e2-240b-47c6-a06f-a25d4b3a73dd",
+    "atlas": "",
+    "rect": [
+      62,
+      39,
+      376,
+      422
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
