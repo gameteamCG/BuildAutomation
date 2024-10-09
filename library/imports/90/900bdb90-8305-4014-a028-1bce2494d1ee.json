@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "outlineonions",
+    "texture": "47fb6cd3-75bd-49ca-9d9e-24517ce02f72",
+    "atlas": "",
+    "rect": [
+      20,
+      7,
+      460,
+      489
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

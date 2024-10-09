@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brinjals",
+    "texture": "b3760a62-7ef2-476f-b8fe-39ecb1cc48f0",
+    "atlas": "",
+    "rect": [
+      5,
+      3,
+      489,
+      495
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
