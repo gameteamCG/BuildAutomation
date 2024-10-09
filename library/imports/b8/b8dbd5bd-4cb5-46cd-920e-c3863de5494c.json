@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Jellyfish",
+    "texture": "9c0087e2-44a0-46a3-aa4f-12f1e49a13eb",
+    "atlas": "",
+    "rect": [
+      5,
+      59,
+      492,
+      394
+    ],
+    "offset": [
+      1,
+      -6
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
