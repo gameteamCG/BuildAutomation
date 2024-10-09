@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "outlinetomatoes",
+    "texture": "e0ab93bd-cfa8-4983-a688-c6befba56310",
+    "atlas": "",
+    "rect": [
+      7,
+      11,
+      486,
+      482
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

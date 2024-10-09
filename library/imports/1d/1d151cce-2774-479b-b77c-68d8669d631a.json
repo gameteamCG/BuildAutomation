@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "outlinecarrots",
+    "texture": "1e01a7ba-3c80-44dd-a37c-6c01e7cd8f76",
+    "atlas": "",
+    "rect": [
+      13,
+      5,
+      474,
+      490
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
