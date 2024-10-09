@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Bluedress",
+    "texture": "920c8ee3-51b7-4128-afe5-f1583f3bdc39",
+    "atlas": "",
+    "rect": [
+      128,
+      14,
+      244,
+      472
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

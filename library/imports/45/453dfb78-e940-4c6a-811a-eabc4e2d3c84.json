@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "YellowCorn",
+    "texture": "f1dd3299-a036-4c0a-ae92-d79af28f97f9",
+    "atlas": "",
+    "rect": [
+      61,
+      5,
+      378,
+      490
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
