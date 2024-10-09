@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Redstrawberrey",
+    "texture": "795fb55a-0222-4912-8814-4ad094e47cef",
+    "atlas": "",
+    "rect": [
+      66,
+      7,
+      368,
+      486
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

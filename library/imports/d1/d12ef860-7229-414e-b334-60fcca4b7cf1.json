@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "redbasket",
+    "texture": "17dd7685-6f95-43a4-bfe3-ce9acda75fbb",
+    "atlas": "",
+    "rect": [
+      8,
+      104,
+      484,
+      292
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

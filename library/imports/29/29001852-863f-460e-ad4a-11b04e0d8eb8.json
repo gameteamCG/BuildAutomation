@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Blueberry",
+    "texture": "ce4566d9-2998-462d-9266-bda648e4f5ca",
+    "atlas": "",
+    "rect": [
+      45,
+      61,
+      410,
+      378
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

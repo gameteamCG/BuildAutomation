@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "redcrab",
+    "texture": "a39650b1-5665-49bc-abf2-b3d665245a46",
+    "atlas": "",
+    "rect": [
+      7,
+      94,
+      486,
+      312
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
