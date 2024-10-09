@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "palm",
+    "texture": "0ccb28ee-c443-4de7-95f9-f6d4f91fff0b",
+    "atlas": "",
+    "rect": [
+      20,
+      24,
+      259,
+      251
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "QuestionCard5",
+    "texture": "433b9960-f441-4405-916c-01196ac14fa6",
+    "atlas": "",
+    "rect": [
+      5,
+      4,
+      496,
+      497
+    ],
+    "offset": [
+      2.5,
+      -2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
