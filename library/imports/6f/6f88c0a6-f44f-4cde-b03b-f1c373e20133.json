@@ -1,0 +1,132 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Aa",
+      "totalLevel": "6",
+      "TitleImageName": "title.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bgL1.png",
+      "JockeyName": "Puzzle",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "Letter A",
+        "questionImageName": "hat.png",
+        "questionAudioName": "L4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "uibox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "anchor.png",
+          "lollipop.png"
+        ],
+        "correctAudios": [
+          "anchor.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Letter A",
+        "questionImageName": "hat.png",
+        "questionAudioName": "L4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "uibox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "lemon.png",
+          "ant.png"
+        ],
+        "correctAudios": [
+          "ant.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Letter A",
+        "questionImageName": "hat.png",
+        "questionAudioName": "L4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "uibox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "carrot.png",
+          "lock.png",
+          "apple.png"
+        ],
+        "correctAudios": [
+          "apple.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Letter A",
+        "questionImageName": "hat.png",
+        "questionAudioName": "L4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "uibox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "sheep.png",
+          "axe.png",
+          "dino.png"
+        ],
+        "correctAudios": [
+          "axe.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Letter A",
+        "questionImageName": "hat.png",
+        "questionAudioName": "L4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "uibox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ladybug.png",
+          "astronaut.png",
+          "cap.png"
+        ],
+        "correctAudios": [
+          "astronaut.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Letter A",
+        "questionImageName": "hat.png",
+        "questionAudioName": "L4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "uibox.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "dress.png",
+          "lemon.png",
+          "airplane.png"
+        ],
+        "correctAudios": [
+          "airplane.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
