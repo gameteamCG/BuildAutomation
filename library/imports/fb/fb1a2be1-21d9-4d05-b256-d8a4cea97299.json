@@ -1,0 +1,119 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": " Shape- oval",
+      "totalLevel": "5",
+      "TitleImageName": "Asset_246.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "FruitNinja.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "oval",
+        "questionImageName": "Artboard_15.png",
+        "questionAudioName": "que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_7.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "1_oval_leaf.png",
+          "1_oval_mirror.png",
+          "hat.png",
+          "wrongoption2.png"
+        ],
+        "correctAudios": [
+          "1_leaf.mp3",
+          "1_mirror.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionText": "oval",
+        "questionImageName": "Artboard_15.png",
+        "questionAudioName": "que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_7.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "2_oval_rug.png",
+          "watermelon.png",
+          "2_oval_tag.png",
+          "wrongoption4.png"
+        ],
+        "correctAudios": [
+          "2_rug.mp3",
+          "2_tag.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionText": "oval",
+        "questionImageName": "Artboard_15.png",
+        "questionAudioName": "que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_7.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "pyramid.png",
+          "wrongoption1.png",
+          "3_racetrack.png",
+          "3_swimming_polv.png"
+        ],
+        "correctAudios": [
+          "3_racetrack.mp3",
+          "3_swimming_p.mp3"
+        ],
+        "correctAnswerNum": "34"
+      },
+      {
+        "questionText": "oval",
+        "questionImageName": "Artboard_15.png",
+        "questionAudioName": "que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_7.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "wrongoption2.png",
+          "4_plate.png",
+          "4_tub.png",
+          "wrongoption3.png"
+        ],
+        "correctAudios": [
+          "4_plate.mp3",
+          "4_tub.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionText": "oval",
+        "questionImageName": "Artboard_15.png",
+        "questionAudioName": "que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_7.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "5_coffe_bean.png",
+          "pyramid.png",
+          "wrongoption3.png",
+          "5_vread.png"
+        ],
+        "correctAudios": [
+          "5_coffee_bea.mp3",
+          "5_bread.mp3"
+        ],
+        "correctAnswerNum": "14"
+      }
+    ]
+  }
+}

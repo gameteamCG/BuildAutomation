@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3_racetrack",
+    "texture": "8ba4b5c5-8adc-4069-b41c-f474ba357348",
+    "atlas": "",
+    "rect": [
+      50,
+      16,
+      157,
+      225
+    ],
+    "offset": [
+      3.5,
+      -3.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
