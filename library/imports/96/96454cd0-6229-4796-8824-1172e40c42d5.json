@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greymango",
+    "texture": "65c63d3b-dd42-4f85-b3be-822c5ca62f3f",
+    "atlas": "",
+    "rect": [
+      27,
+      0,
+      446,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

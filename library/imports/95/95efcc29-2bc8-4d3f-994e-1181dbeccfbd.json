@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyapple",
+    "texture": "bef7effd-0287-4f95-b0b1-82ced2fc4e15",
+    "atlas": "",
+    "rect": [
+      63,
+      0,
+      374,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

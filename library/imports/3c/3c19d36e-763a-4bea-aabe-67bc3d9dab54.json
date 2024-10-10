@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greybrinjal",
+    "texture": "b81ad6c1-b7f2-41b3-97b0-612932485075",
+    "atlas": "",
+    "rect": [
+      45,
+      3,
+      410,
+      494
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
