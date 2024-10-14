@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "apartment",
+    "texture": "44c81b79-fa53-4fe1-b359-8d042be22e0b",
+    "atlas": "",
+    "rect": [
+      43,
+      92,
+      414,
+      317
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
