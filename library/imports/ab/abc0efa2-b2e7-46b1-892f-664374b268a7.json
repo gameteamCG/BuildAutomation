@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Healthy habits_Grade 1 (EVS)_COURSE BOOK 1",
+      "totalLevel": "7",
+      "TitleImageName": "title.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM2.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "7.png",
+        "questionAudioName": "Identifyifthepicturedisplayedisahea.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAudioName": "Eatinghealthyfoodhealthyhabit.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "1.png",
+        "questionAudioName": "Identifyifthepicturedisplayedisahea.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "down.png",
+          "up.png"
+        ],
+        "correctAudioName": "Doingyogandhealthy.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "2.png",
+        "questionAudioName": "Identifyifthepicturedisplayedisahea.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAudioName": "ToCoveryourmouthwhilesneezinghealthy.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "3.png",
+        "questionAudioName": "Identifyifthepicturedisplayedisahea.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "down.png",
+          "up.png"
+        ],
+        "correctAudioName": "Coveringyournoseandmouthwithmaskhealthy.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "4.png",
+        "questionAudioName": "Identifyifthepicturedisplayedisahea.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAudioName": "ToWeamaskhealthy.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "5.png",
+        "questionAudioName": "Identifyifthepicturedisplayedisahea.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "down.png",
+          "up.png"
+        ],
+        "correctAudioName": "Avoidingeatinguncoveredfoodisahealthy.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "6.png",
+        "questionAudioName": "Identifyifthepicturedisplayedisahea.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAudioName": "Stayinghappyandwearinghealthyhabit.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
