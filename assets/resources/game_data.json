@@ -1,0 +1,216 @@
+{
+  "additionalData": {
+    "GameID": "My family_Grade 1 (EVS)_COURSE BOOK 1",
+    "totalLevel": "6",
+    "TitleImageName": "title.png",
+    "introBgName": "bg.png",
+    "bgmMusicName": "BGM2.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "bag"
+  },
+  "questionData": [
+    {
+      "questionText": "",
+      "questionAudioName": "solvethepicturepuzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "placeholder.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "grandfather_part_001.png",
+        "grandfather_part_002.png",
+        "grandfather_part_003.png",
+        "grandfather_part_004.png"
+      ],
+      "correctAudioName": "BRILLIANT.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "19601268_1_swipeandspellthewo.mp3",
+      "commonOptionImageName": "text_panel.png",
+      "isOptionText": true,
+      "numberOfOptions": 11,
+      "options": [
+        "a",
+        "n",
+        "g",
+        "r",
+        "t",
+        "h",
+        "d",
+        "f",
+        "a",
+        "r",
+        "e"
+      ],
+      "correctAnswer": "grandfather",
+      "reiterationAudioName": "grandfather.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethepicturepuzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "placeholder.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "grandmother_part_001.png",
+        "grandmother_part_002.png",
+        "grandmother_part_003.png",
+        "grandmother_part_004.png"
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "19601268_1_swipeandspellthewo.mp3",
+      "commonOptionImageName": "text_panel.png",
+      "isOptionText": true,
+      "numberOfOptions": 11,
+      "options": [
+        "a",
+        "g",
+        "n",
+        "r",
+        "t",
+        "d",
+        "o",
+        "e",
+        "m",
+        "r",
+        "h"
+      ],
+      "correctAnswer": "grandmother",
+      "reiterationAudioName": "grandmother.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethepicturepuzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "placeholder.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "father_part_001.png",
+        "father_part_002.png",
+        "father_part_003.png",
+        "father_part_004.png"
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "19601268_1_swipeandspellthewo.mp3",
+      "commonOptionImageName": "text_panel.png",
+      "isOptionText": true,
+      "numberOfOptions": 6,
+      "options": [
+        "a",
+        "h",
+        "f",
+        "r",
+        "t",
+        "e"
+      ],
+      "correctAnswer": "father",
+      "reiterationAudioName": "father.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethepicturepuzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "placeholder.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "mother_part_001.png",
+        "mother_part_002.png",
+        "mother_part_003.png",
+        "mother_part_004.png"
+      ],
+      "correctAudioName": "FANTASTIC.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "19601268_1_swipeandspellthewo.mp3",
+      "commonOptionImageName": "text_panel.png",
+      "isOptionText": true,
+      "numberOfOptions": 6,
+      "options": [
+        "m",
+        "h",
+        "r",
+        "o",
+        "t",
+        "e"
+      ],
+      "correctAnswer": "mother",
+      "reiterationAudioName": "mother.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethepicturepuzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "placeholder.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "brother_part_001.png",
+        "brother_part_002.png",
+        "brother_part_003.png",
+        "brother_part_004.png"
+      ],
+      "correctAudioName": "INCREDIBLE.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "19601268_1_swipeandspellthewo.mp3",
+      "commonOptionImageName": "text_panel.png",
+      "isOptionText": true,
+      "numberOfOptions": 7,
+      "options": [
+        "r",
+        "t",
+        "b",
+        "o",
+        "e",
+        "r",
+        "h"
+      ],
+      "correctAnswer": "brother",
+      "reiterationAudioName": "brother.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethepicturepuzzle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "placeholder.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "sister_part_001.png",
+        "sister_part_002.png",
+        "sister_part_003.png",
+        "sister_part_004.png"
+      ],
+      "correctAudioName": "MAGNIFICENT.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "19601268_1_swipeandspellthewo.mp3",
+      "commonOptionImageName": "text_panel.png",
+      "isOptionText": true,
+      "numberOfOptions": 6,
+      "options": [
+        "i",
+        "s",
+        "t",
+        "r",
+        "s",
+        "e"
+      ],
+      "correctAnswer": "sister",
+      "reiterationAudioName": "sister.mp3"
+    }
+  ]
+}
