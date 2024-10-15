@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4f006a0f-e620-44f4-a818-9bb3cd0d21d9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Jarwithalmond": {
+      "ver": "1.0.6",
+      "uuid": "387409d9-ce7e-44e5-81ae-15372ece3661",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4f006a0f-e620-44f4-a818-9bb3cd0d21d9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -5.5,
+      "trimX": 16,
+      "trimY": 27,
+      "width": 468,
+      "height": 457,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

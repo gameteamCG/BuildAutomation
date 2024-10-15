@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "PLATE2",
+    "texture": "7d8315c8-5a78-4b8c-9b5a-dff589bf0c22",
+    "atlas": "",
+    "rect": [
+      17,
+      221,
+      461,
+      160
+    ],
+    "offset": [
+      -2.5,
+      -51
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
