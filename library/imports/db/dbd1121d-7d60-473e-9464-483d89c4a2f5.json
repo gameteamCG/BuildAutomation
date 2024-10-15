@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "straw_3",
+    "texture": "4db17293-51f8-4a7a-9458-66b5d31ca63e",
+    "atlas": "",
+    "rect": [
+      89,
+      209,
+      322,
+      82
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
