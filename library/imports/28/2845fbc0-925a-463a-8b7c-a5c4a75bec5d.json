@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "drag_8",
+    "texture": "b47a6337-58ff-4f06-8553-795610e5cbaa",
+    "atlas": "",
+    "rect": [
+      28,
+      112,
+      444,
+      276
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

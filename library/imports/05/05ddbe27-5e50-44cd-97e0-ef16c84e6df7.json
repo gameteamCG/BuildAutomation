@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pome_2",
+    "texture": "10632f2c-4c97-48d5-aa9e-73f9c182df80",
+    "atlas": "",
+    "rect": [
+      147,
+      213,
+      206,
+      74
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

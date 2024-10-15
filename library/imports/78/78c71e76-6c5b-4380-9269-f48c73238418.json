@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mango_8",
+    "texture": "f819df01-81dc-4ceb-89f7-108641986737",
+    "atlas": "",
+    "rect": [
+      28,
+      143,
+      444,
+      213
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
