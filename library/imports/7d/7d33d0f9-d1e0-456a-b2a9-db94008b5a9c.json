@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "strawbeery",
+    "texture": "3e61db8c-394a-4e02-b388-4555c8ced3ff",
+    "atlas": "",
+    "rect": [
+      152,
+      181,
+      218,
+      287
+    ],
+    "offset": [
+      10.5,
+      -74
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
