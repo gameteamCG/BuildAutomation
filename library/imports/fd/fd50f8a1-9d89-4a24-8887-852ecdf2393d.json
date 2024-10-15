@@ -1,0 +1,82 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number Names 61-65",
+      "totalLevel": "3",
+      "TitleImageName": "title.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM_BW_game.mp3",
+      "mainBgName": "BG_7.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "match number names",
+        "questionAudioName": "Choose_the_correct_number_name_for_the_given_number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "frontb.png",
+        "frontCardImageName": "backf.png",
+        "isOptionText": true,
+        "options": [
+          "61",
+          "62"
+        ],
+        "reiterationAudios": [
+          "61.mp3",
+          "62.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          " sixty     one",
+          " sixty      two"
+        ]
+      },
+      {
+        "questionText": "match number names",
+        "questionAudioName": "Choose_the_correct_number_name_for_the_given_number.mp3",
+        "shouldPlayQuestionAudio": false,
+        "backCardImageName": "frontb.png",
+        "frontCardImageName": "backf.png",
+        "isOptionText": true,
+        "options": [
+          "63",
+          "64"
+        ],
+        "reiterationAudios": [
+          "63.mp3",
+          "64.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          " sixty      three",
+          " sixty       four"
+        ]
+      },
+      {
+        "questionText": "match number names",
+        "questionAudioName": "Choose_the_correct_number_name_for_the_given_number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "frontb.png",
+        "frontCardImageName": "backf.png",
+        "isOptionText": true,
+        "options": [
+          "65",
+          "62"
+        ],
+        "reiterationAudios": [
+          "65.mp3",
+          "62.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          " sixty       five",
+          " sixty        two"
+        ]
+      }
+    ]
+  }
+}
