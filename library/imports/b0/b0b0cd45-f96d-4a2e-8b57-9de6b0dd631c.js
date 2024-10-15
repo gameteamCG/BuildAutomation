@@ -538,18 +538,21 @@ var NewClass = /** @class */ (function (_super) {
             console.log("correctAnswer--" + this.currScene);
             cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
             this.scheduleOnce(function () {
-                _this.options.color = cc.Color.WHITE;
-                // this.wordAppear();
                 cc.audioEngine.stopAllEffects();
-                if (_this.isSecondInteraction) {
-                    //check what interaction it is and call the respective function
-                    //show question panel
-                    cc.audioEngine.playEffect(_this.wordVoQuestion, false);
-                    _this.interactionType == "1" ? _this.OptionsAppear() : _this.wordAppear();
-                }
-                else {
-                    _this.CallJockey();
-                }
+                cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
+                _this.scheduleOnce(function () {
+                    _this.options.color = cc.Color.WHITE;
+                    // this.wordAppear();
+                    if (_this.isSecondInteraction) {
+                        //check what interaction it is and call the respective function
+                        //show question panel
+                        cc.audioEngine.playEffect(_this.wordVoQuestion, false);
+                        _this.interactionType == "1" ? _this.OptionsAppear() : _this.wordAppear();
+                    }
+                    else {
+                        _this.CallJockey();
+                    }
+                }, _this.puzzleVoIteration.duration);
             }, 0.5);
         }
         else {
@@ -762,7 +765,7 @@ var NewClass = /** @class */ (function (_super) {
             }, 0.5 * index);
         });
         this.wordsNode.active = true;
-        cc.audioEngine.playEffect(this.wordVoQuestion, false);
+        // cc.audioEngine.playEffect(this.wordVoQuestion, false);
         this.scheduleOnce(function () {
             var pos = cc.v2(_this.wordsNode.children[0].getPosition().x, _this.wordsNode.children[0].getPosition().y - 250);
             var pos2 = cc.v2(_this.wordsNode.children[1].getPosition().x, _this.wordsNode.children[1].getPosition().y - 250);
@@ -805,7 +808,10 @@ var NewClass = /** @class */ (function (_super) {
                 _this.selectable = false;
                 _this.scheduleOnce(function () {
                     // this.levelFinished();
-                    _this.CallJockey();
+                    cc.audioEngine.playEffect(_this.wordVoIteration, false);
+                    _this.scheduleOnce(function () {
+                        _this.CallJockey();
+                    }, _this.wordVoIteration.duration);
                 }, _this.swipeAction.duration);
             }
         })
