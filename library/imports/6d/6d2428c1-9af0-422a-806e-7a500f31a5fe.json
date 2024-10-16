@@ -1,0 +1,154 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Hospital Stuff Game",
+      "totalLevel": "6",
+      "TitleImageName": "titleImage.png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "What is this medical equipment used for?",
+        "questionImageName": "Questionimage1.png",
+        "questionAudioName": "questionAudio1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "isOptionImage": true,
+        "numberOfOptions": 4,
+        "optionTexts": [],
+        "optionImages": [
+          "answerImageLevel1.png",
+          "optionimage1.png",
+          "optionimage1.png",
+          "optionimage1.png"
+        ],
+        "correctAudios": [
+          "correctAudiolevel1Number1.mp3",
+          "correctAudiolevel1Number2.mp3",
+          "correctAudiolevel1Number3.mp3",
+          "correctAudiolevel1Number4.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Who wears this in the hospital?",
+        "questionImageName": "Questionimage2.png",
+        "questionAudioName": "questionAudio2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "isOptionImage": false,
+        "numberOfOptions": 4,
+        "optionTexts": [
+          "Doctor",
+          "Nurse",
+          "Patient",
+          "Security Guard"
+        ],
+        "optionImages": [],
+        "correctAudios": [
+          "correctAudiolevel2Number1.mp3",
+          "correctAudiolevel2Number2.mp3",
+          "correctAudiolevel2Number3.mp3",
+          "correctAudiolevel2Number4.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "What is this used for in hospitals?",
+        "questionImageName": "Questionimage3.png",
+        "questionAudioName": "questionAudio3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "isOptionImage": true,
+        "numberOfOptions": 4,
+        "optionTexts": [],
+        "optionImages": [
+          "answerImageLevel3.png",
+          "optionimage3.png",
+          "optionimage3.png",
+          "optionimage3.png"
+        ],
+        "correctAudios": [
+          "correctAudiolevel3Number1.mp3",
+          "correctAudiolevel3Number2.mp3",
+          "correctAudiolevel3Number3.mp3",
+          "correctAudiolevel3Number4.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which of these is a common feature in hospitals?",
+        "questionImageName": "Questionimage4.png",
+        "questionAudioName": "questionAudio4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "isOptionImage": false,
+        "numberOfOptions": 4,
+        "optionTexts": [
+          "Emergency Room",
+          "Swimming Pool",
+          "Library",
+          "Shopping Mall"
+        ],
+        "optionImages": [],
+        "correctAudios": [
+          "correctAudiolevel4Number1.mp3",
+          "correctAudiolevel4Number2.mp3",
+          "correctAudiolevel4Number3.mp3",
+          "correctAudiolevel4Number4.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "What is this medical device used for?",
+        "questionImageName": "Questionimage5.png",
+        "questionAudioName": "questionAudio5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "isOptionImage": false,
+        "numberOfOptions": 4,
+        "optionTexts": [
+          "Injection",
+          "Listening to Heartbeat",
+          "Measuring Temperature",
+          "Drawing Blood"
+        ],
+        "optionImages": [],
+        "correctAudios": [
+          "correctAudiolevel5Number1.mp3",
+          "correctAudiolevel5Number2.mp3",
+          "correctAudiolevel5Number3.mp3",
+          "correctAudiolevel5Number4.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which of these tools is used in hospitals?",
+        "questionImageName": "Questionimage6.png",
+        "questionAudioName": "questionAudio6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "isOptionImage": true,
+        "numberOfOptions": 4,
+        "optionTexts": [],
+        "optionImages": [
+          "optionimage6.png",
+          "answerImageLevel6.png",
+          "optionimage6.png",
+          "optionimage6.png"
+        ],
+        "correctAudios": [
+          "correctAudiolevel6Number1.mp3",
+          "correctAudiolevel6Number2.mp3",
+          "correctAudiolevel6Number3.mp3",
+          "correctAudiolevel6Number4.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

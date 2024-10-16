@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '86ce8/R5uZKp6N43HE2XR9U', 'StartGame');
-// TapToFind/Scripts/StartGame.ts
+// Games/TapToFind/Scripts/StartGame.ts
 
 "use strict";
 // Learn TypeScript:

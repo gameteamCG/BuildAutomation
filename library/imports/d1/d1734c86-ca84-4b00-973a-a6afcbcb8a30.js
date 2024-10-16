@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'd1734yGyoRLAJc6pq/Ly4ow', 'endScreen');
-// TapToFind/Scripts/endScreen.ts
+// Games/TapToFind/Scripts/endScreen.ts
 
 "use strict";
 // Learn TypeScript:

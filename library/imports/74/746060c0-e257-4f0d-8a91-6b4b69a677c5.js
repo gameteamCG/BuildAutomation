@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '74606DA4ldPDYqRa0tppnfF', 'IData');
-// TapToFind/Scripts/IData.ts
+// Games/TapToFind/Scripts/IData.ts
 
 "use strict";
 // Learn TypeScript:
