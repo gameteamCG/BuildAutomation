@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "8faf76da-09ac-43ac-9c34-b89e230ee54e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 128,
+  "platformSettings": {},
+  "subMetas": {
+    "little_singham_full_charachter": {
+      "ver": "1.0.6",
+      "uuid": "08eaeeb8-e569-45b3-8e10-8231b76008d8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "8faf76da-09ac-43ac-9c34-b89e230ee54e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -2,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1016,
+      "height": 124,
+      "rawWidth": 1024,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

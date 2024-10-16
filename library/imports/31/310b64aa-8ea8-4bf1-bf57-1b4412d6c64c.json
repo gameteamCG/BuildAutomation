@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "IndiaFlag",
+    "texture": "5520d707-5251-473c-bd61-1e36b45cc087",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      20,
+      13
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      20,
+      13
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boy unlock mobile_Happy_010001",
+    "texture": "f1f576a4-4a1f-447e-acd7-53acc0c8e4db",
+    "atlas": "",
+    "rect": [
+      91,
+      4,
+      324,
+      390
+    ],
+    "offset": [
+      3,
+      1
+    ],
+    "originalSize": [
+      500,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

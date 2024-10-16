@@ -1,0 +1,279 @@
+
+little_singham_full_charachter.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eyelid
+  rotate: false
+  xy: 72, 5
+  size: 31, 18
+  orig: 31, 18
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 718, 5
+  size: 105, 121
+  orig: 105, 121
+  offset: 0, 0
+  index: -1
+finger_up
+  rotate: true
+  xy: 534, 44
+  size: 38, 57
+  orig: 38, 57
+  offset: 0, 0
+  index: -1
+glasses
+  rotate: false
+  xy: 310, 4
+  size: 110, 32
+  orig: 110, 32
+  offset: 0, 0
+  index: -1
+gun
+  rotate: true
+  xy: 486, 2
+  size: 39, 67
+  orig: 39, 67
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 927, 15
+  size: 111, 92
+  orig: 111, 92
+  offset: 0, 0
+  index: -1
+half_close
+  rotate: false
+  xy: 218, 12
+  size: 34, 12
+  orig: 34, 12
+  offset: 0, 0
+  index: -1
+half_open
+  rotate: false
+  xy: 105, 9
+  size: 35, 14
+  orig: 35, 14
+  offset: 0, 0
+  index: -1
+hat
+  rotate: false
+  xy: 2, 25
+  size: 152, 101
+  orig: 152, 101
+  offset: 0, 0
+  index: -1
+hip_hand
+  rotate: false
+  xy: 684, 88
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+l_ear
+  rotate: true
+  xy: 156, 25
+  size: 25, 36
+  orig: 25, 36
+  offset: 0, 0
+  index: -1
+l_leg
+  rotate: true
+  xy: 156, 52
+  size: 74, 151
+  orig: 74, 151
+  offset: 0, 0
+  index: -1
+l_lower_arm
+  rotate: true
+  xy: 422, 2
+  size: 38, 62
+  orig: 38, 62
+  offset: 0, 0
+  index: -1
+l_palm
+  rotate: true
+  xy: 656, 48
+  size: 37, 35
+  orig: 37, 35
+  offset: 0, 0
+  index: -1
+l_upper_arm
+  rotate: true
+  xy: 593, 48
+  size: 34, 61
+  orig: 34, 61
+  offset: 0, 0
+  index: -1
+left_eye
+  rotate: false
+  xy: 39, 3
+  size: 31, 20
+  orig: 31, 20
+  offset: 0, 0
+  index: -1
+left_eyebrow
+  rotate: false
+  xy: 142, 11
+  size: 38, 12
+  orig: 38, 12
+  offset: 0, 0
+  index: -1
+left_pupil
+  rotate: true
+  xy: 292, 19
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+left_shoe
+  rotate: false
+  xy: 390, 42
+  size: 70, 30
+  orig: 70, 30
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 254, 15
+  size: 36, 10
+  orig: 36, 10
+  offset: 0, 0
+  index: -1
+mouth_wide happy
+  rotate: false
+  xy: 2, 2
+  size: 35, 21
+  orig: 35, 21
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 232, 27
+  size: 34, 23
+  orig: 34, 23
+  offset: 0, 0
+  index: -1
+nose
+  rotate: true
+  xy: 280, 2
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+o_mouth
+  rotate: true
+  xy: 299, 38
+  size: 12, 18
+  orig: 12, 18
+  offset: 0, 0
+  index: -1
+open_palm
+  rotate: false
+  xy: 531, 84
+  size: 66, 42
+  orig: 66, 42
+  offset: 0, 0
+  index: -1
+pelvis
+  rotate: false
+  xy: 319, 39
+  size: 69, 33
+  orig: 69, 33
+  offset: 0, 0
+  index: -1
+r_ear
+  rotate: true
+  xy: 194, 26
+  size: 24, 36
+  orig: 24, 36
+  offset: 0, 0
+  index: -1
+r_leg
+  rotate: true
+  xy: 309, 74
+  size: 52, 150
+  orig: 52, 150
+  offset: 0, 0
+  index: -1
+r_lower_arm
+  rotate: true
+  xy: 618, 8
+  size: 38, 54
+  orig: 38, 54
+  offset: 0, 0
+  index: -1
+r_palm
+  rotate: true
+  xy: 647, 87
+  size: 39, 35
+  orig: 39, 35
+  offset: 0, 0
+  index: -1
+r_upper_arm
+  rotate: true
+  xy: 555, 7
+  size: 35, 61
+  orig: 35, 61
+  offset: 0, 0
+  index: -1
+right_eyebrow
+  rotate: false
+  xy: 268, 38
+  size: 29, 12
+  orig: 29, 12
+  offset: 0, 0
+  index: -1
+right_shoe
+  rotate: false
+  xy: 462, 43
+  size: 70, 29
+  orig: 70, 29
+  offset: 0, 0
+  index: -1
+sad_mouth
+  rotate: false
+  xy: 105, 2
+  size: 33, 5
+  orig: 33, 5
+  offset: 0, 0
+  index: -1
+smile_mouth
+  rotate: false
+  xy: 182, 10
+  size: 34, 13
+  orig: 34, 13
+  offset: 0, 0
+  index: -1
+stop
+  rotate: true
+  xy: 461, 74
+  size: 52, 68
+  orig: 52, 68
+  offset: 0, 0
+  index: -1
+thumbs_up
+  rotate: true
+  xy: 599, 86
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 825, 16
+  size: 100, 110
+  orig: 100, 110
+  offset: 0, 0
+  index: -1
+wink_eye
+  rotate: false
+  xy: 254, 3
+  size: 24, 10
+  orig: 24, 10
+  offset: 0, 0
+  index: -1

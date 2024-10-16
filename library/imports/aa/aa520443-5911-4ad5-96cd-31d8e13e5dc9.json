@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Rectangle 2972",
+    "texture": "8fdf0b47-fb81-4d30-890c-1e19d79687e8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      84,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      84,
+      52
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
