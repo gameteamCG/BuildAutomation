@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Resul Pookutty",
+    "texture": "c04a50d2-02e4-431f-9ae4-b82a97272ecb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      240,
+      170
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      240,
+      170
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

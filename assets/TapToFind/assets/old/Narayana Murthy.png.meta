@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "dad7cafa-2709-48dd-bfc8-dc8f3be5b2cb",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 240,
+  "height": 170,
+  "platformSettings": {},
+  "subMetas": {
+    "Narayana Murthy": {
+      "ver": "1.0.6",
+      "uuid": "e0e68081-b29c-4584-b34a-7413fd46fc10",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "dad7cafa-2709-48dd-bfc8-dc8f3be5b2cb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 240,
+      "height": 170,
+      "rawWidth": 240,
+      "rawHeight": 170,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

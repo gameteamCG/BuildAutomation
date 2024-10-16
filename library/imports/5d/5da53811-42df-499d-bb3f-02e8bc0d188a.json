@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sir M Visvesvaraya",
+    "texture": "8c92007e-e28c-4f76-9259-1b1d39f060a6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      240,
+      170
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      240,
+      170
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

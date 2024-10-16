@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "infosys",
+    "texture": "025b3066-32a4-430c-b7d7-1dab55693945",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      240,
+      170
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      240,
+      170
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

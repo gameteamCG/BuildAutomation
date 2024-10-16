@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sabbir Khan",
+    "texture": "360ce147-e8ba-407b-bb1f-96f687b87ed8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      240,
+      170
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      240,
+      170
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

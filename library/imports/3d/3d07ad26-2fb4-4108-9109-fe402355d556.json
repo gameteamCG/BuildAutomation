@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greenclipse",
+    "texture": "53ebbd52-ea5f-4068-9db4-e924970bde85",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      276,
+      292
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      276,
+      292
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

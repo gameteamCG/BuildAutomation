@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yelloweclipse",
+    "texture": "fbf7e674-a544-4b70-a71a-cd4e59f687d9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      359,
+      376
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      359,
+      376
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

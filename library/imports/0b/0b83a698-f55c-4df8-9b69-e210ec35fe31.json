@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Verghese Kurien",
+    "texture": "632d76d4-45df-4617-a738-a6dadd5f9084",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      512,
+      324
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      512,
+      324
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

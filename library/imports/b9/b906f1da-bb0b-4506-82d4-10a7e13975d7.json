@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Tanzania",
+    "texture": "9f64df22-7e7b-4b99-af6d-cd4beae99b3c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      240,
+      170
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      240,
+      170
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

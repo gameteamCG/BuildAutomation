@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blueeclipse",
+    "texture": "2a2da6e1-2dcf-4a71-bbb1-77dd82305bbb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      276,
+      292
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      276,
+      292
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

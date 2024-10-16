@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yellowLine",
+    "texture": "6d74f8cf-9e88-4fe0-91be-97f3f6209feb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      226,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      226,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

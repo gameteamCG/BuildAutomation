@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whitebar",
+    "texture": "abb89cf6-1147-42dd-919a-26627d79613d",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      356,
+      99
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      358,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

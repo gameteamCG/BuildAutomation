@@ -1,0 +1,340 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "storyBoard",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "data": [
+      {
+        "SubImage": 1,
+        "totalOptions": 4,
+        "wrongAnswersLimit": 2,
+        "question": "Which Indian Engineer’s birthday\nis celebrated as\nNational Engineer’s Day?",
+        "questionSound": "question2",
+        "answerObject": [],
+        "answerpositions": [],
+        "feedbacktype": [
+          "confetti"
+        ],
+        "scaleArray": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "positionType": "custom",
+        "answers": [
+          1
+        ],
+        "optionAnimationImages": [
+          "/Sundar Pichai",
+          "/Sir M Visvesvaraya",
+          "/Satish Dhawan",
+          "/Narayana Murthy"
+        ],
+        "textArray": [
+          "Sundar\nPichai",
+          "Sir M.\nVisvesvaraya ",
+          "Satish\nDhawan",
+          "Narayana\nMurthy "
+        ],
+        "positions": [
+          {
+            "x": 215,
+            "y": 750
+          },
+          {
+            "x": 495,
+            "y": 750
+          },
+          {
+            "x": 215,
+            "y": 470
+          },
+          {
+            "x": 495,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "SubImage": 1,
+        "totalOptions": 4,
+        "wrongAnswersLimit": 1,
+        "question": "Which of these\ncountries celebrate\nNational Engineer’s Day? ",
+        "questionSound": "question1",
+        "answerObject": [],
+        "answerpositions": [],
+        "feedbacktype": [
+          "confetti"
+        ],
+        "scaleArray": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "positionType": "custom",
+        "answers": [
+          0,
+          1,
+          3
+        ],
+        "optionAnimationImages": [
+          "/India",
+          "/SriLanka",
+          "/China",
+          "/Tanzania"
+        ],
+        "textArray": [
+          "India",
+          "Sri Lanka",
+          "China",
+          "Tanzania"
+        ],
+        "positions": [
+          {
+            "x": 215,
+            "y": 750
+          },
+          {
+            "x": 495,
+            "y": 750
+          },
+          {
+            "x": 215,
+            "y": 470
+          },
+          {
+            "x": 495,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "SubImage": 0,
+        "totalOptions": 4,
+        "wrongAnswersLimit": 2,
+        "question": "Which Engineer is famously\nknown as the Metro Man?",
+        "questionSound": "question2",
+        "answerObject": [
+          "/E_Sreedharan"
+        ],
+        "answerpositions": [
+          {
+            "x": 0,
+            "y": 150
+          }
+        ],
+        "feedbacktype": [
+          "confetti"
+        ],
+        "scaleArray": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "positionType": "custom",
+        "answers": [
+          2
+        ],
+        "optionAnimationImages": [
+          "/rectangle",
+          "/rectangle",
+          "/rectangle",
+          "/rectangle"
+        ],
+        "textArray": [
+          "Sudha\nMurthy ",
+          "JRD Tata ",
+          "E.\nSreedharan ",
+          "Mukesh\nAmbani"
+        ],
+        "positions": [
+          {
+            "x": 215,
+            "y": 470
+          },
+          {
+            "x": 495,
+            "y": 470
+          },
+          {
+            "x": 215,
+            "y": 190
+          },
+          {
+            "x": 495,
+            "y": 190
+          }
+        ]
+      },
+      {
+        "SubImage": 1,
+        "totalOptions": 4,
+        "wrongAnswersLimit": 2,
+        "question": "Which Indian Engineer also served\nas the 19th Diwan of Mysore?",
+        "questionSound": "question3",
+        "answerObject": [],
+        "answerpositions": [],
+        "feedbacktype": [
+          "confetti"
+        ],
+        "scaleArray": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "positionType": "custom",
+        "answers": [
+          3
+        ],
+        "optionAnimationImages": [
+          "/Resul Pookutty",
+          "/Sabbir Khan",
+          "/Satya Nadela",
+          "/Sir M Visvesvaraya"
+        ],
+        "textArray": [
+          "Resul\nPookutty",
+          "Sabbir\nKhan",
+          "Satya\nNadela",
+          "M.\nVisvesvaraya"
+        ],
+        "positions": [
+          {
+            "x": 215,
+            "y": 750
+          },
+          {
+            "x": 495,
+            "y": 750
+          },
+          {
+            "x": 215,
+            "y": 470
+          },
+          {
+            "x": 495,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "SubImage": 0,
+        "totalOptions": 4,
+        "wrongAnswersLimit": 2,
+        "question": "Which Mechanical Engineer is known\nas the Father of the\nWhite Revolution in India?",
+        "questionSound": "question1",
+        "answerObject": [
+          "/Verghese Kurien"
+        ],
+        "answerpositions": [
+          {
+            "x": 0,
+            "y": 150
+          }
+        ],
+        "feedbacktype": [
+          "confetti"
+        ],
+        "scaleArray": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "positionType": "custom",
+        "answers": [
+          1
+        ],
+        "optionAnimationImages": [
+          "/rectangle",
+          "/rectangle",
+          "/rectangle",
+          "/rectangle"
+        ],
+        "textArray": [
+          "Satya\nNadella",
+          "Verghese\nKurien",
+          "Atul\nGupta",
+          "Cyrus\nMistry"
+        ],
+        "positions": [
+          {
+            "x": 215,
+            "y": 470
+          },
+          {
+            "x": 495,
+            "y": 470
+          },
+          {
+            "x": 215,
+            "y": 190
+          },
+          {
+            "x": 495,
+            "y": 190
+          }
+        ]
+      },
+      {
+        "SubImage": 1,
+        "totalOptions": 4,
+        "wrongAnswersLimit": 2,
+        "question": "Which Indian Software company\nwas the first to be listed on\nAmerican Stock Exchange?",
+        "questionSound": "question2",
+        "answerObject": [],
+        "answerpositions": [],
+        "feedbacktype": [
+          "confetti"
+        ],
+        "scaleArray": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "positionType": "custom",
+        "answers": [
+          2
+        ],
+        "optionAnimationImages": [
+          "/Tech Mahindra",
+          "/oracle",
+          "/infosys",
+          "/hcl"
+        ],
+        "textArray": [
+          "Tech\nMahindra",
+          "Oracle",
+          "Infosys",
+          "HCL\nTechnologies"
+        ],
+        "positions": [
+          {
+            "x": 215,
+            "y": 750
+          },
+          {
+            "x": 495,
+            "y": 750
+          },
+          {
+            "x": 215,
+            "y": 470
+          },
+          {
+            "x": 495,
+            "y": 470
+          }
+        ]
+      }
+    ]
+  }
+}

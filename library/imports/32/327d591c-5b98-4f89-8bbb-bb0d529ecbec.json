@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eclipseyellow",
+    "texture": "31c5c63d-cb17-4dac-9365-138693e315b9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      358,
+      188
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      358,
+      188
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

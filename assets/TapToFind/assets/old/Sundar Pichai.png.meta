@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "282c3b98-595f-4fad-9fac-ef55fd35278d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 240,
+  "height": 170,
+  "platformSettings": {},
+  "subMetas": {
+    "Sundar Pichai": {
+      "ver": "1.0.6",
+      "uuid": "6770de57-fbed-42dd-a2b5-fa408c8ebbe8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "282c3b98-595f-4fad-9fac-ef55fd35278d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 240,
+      "height": 170,
+      "rawWidth": 240,
+      "rawHeight": 170,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

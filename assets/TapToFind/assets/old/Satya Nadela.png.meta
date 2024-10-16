@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b777526f-e8d9-42b0-bf72-58aa76f1e532",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 240,
+  "height": 170,
+  "platformSettings": {},
+  "subMetas": {
+    "Satya Nadela": {
+      "ver": "1.0.6",
+      "uuid": "0ccb34b1-db3f-4c88-8cbf-c7105f4f755d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b777526f-e8d9-42b0-bf72-58aa76f1e532",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 240,
+      "height": 170,
+      "rawWidth": 240,
+      "rawHeight": 170,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

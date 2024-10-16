@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "E_Sreedharan",
+    "texture": "79e8aae6-e203-468b-9655-67027e5a0fd1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      512,
+      324
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      512,
+      324
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

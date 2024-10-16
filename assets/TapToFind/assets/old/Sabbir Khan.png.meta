@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "360ce147-e8ba-407b-bb1f-96f687b87ed8",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 240,
+  "height": 170,
+  "platformSettings": {},
+  "subMetas": {
+    "Sabbir Khan": {
+      "ver": "1.0.6",
+      "uuid": "179bb4ae-5eec-4a47-a354-cbfffbf71721",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "360ce147-e8ba-407b-bb1f-96f687b87ed8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 240,
+      "height": 170,
+      "rawWidth": 240,
+      "rawHeight": 170,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
