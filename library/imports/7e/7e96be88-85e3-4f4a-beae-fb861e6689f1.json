@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "watchtv",
+    "texture": "a90c0ca3-b058-42bf-a5fe-d1670b98f6c9",
+    "atlas": "",
+    "rect": [
+      27,
+      28,
+      196,
+      169
+    ],
+    "offset": [
+      -0.5,
+      13
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

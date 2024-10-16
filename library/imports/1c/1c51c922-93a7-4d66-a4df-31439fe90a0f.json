@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "userestroom",
+    "texture": "616e798b-3648-4c49-b1f2-afe187de00e7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      250,
+      247
+    ],
+    "offset": [
+      -0.5,
+      2
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
