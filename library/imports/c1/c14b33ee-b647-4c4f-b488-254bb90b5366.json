@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Color_Fill_953",
+    "texture": "90c22f94-7e0d-473f-aa45-d4914efef42b",
+    "atlas": "",
+    "rect": [
+      73,
+      156,
+      354,
+      188
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
