@@ -1,0 +1,135 @@
+{
+  "additionalData": {
+    "GameID": "Animals And Their Food",
+    "totalLevel": "6",
+    "TitleImageName": "titleImage.png",
+    "JockeyName": "Singham"
+  },
+  "questionData": [
+    {
+      "questionText": "What do lions eat?",
+      "questionImageName": "Questionimage1.png",
+      "questionAudioName": "questionAudio1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": true,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Meat",
+        "Grass",
+        "Fish",
+        "Berries"
+      ],
+      "optionImages": [
+        "answerImageLevel1.png",
+        "optionimage1.png",
+        "optionimage1.png",
+        "optionimage1.png"
+      ],
+      "correctAudios": [
+        "correctAudiolevel1Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "What do cows eat?",
+      "questionImageName": "Questionimage2.png",
+      "questionAudioName": "questionAudio2.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": false,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Grass",
+        "Meat",
+        "Fish",
+        "Berries"
+      ],
+      "optionImages": [],
+      "correctAudios": [
+        "correctAudiolevel2Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "What do bears eat?",
+      "questionImageName": "Questionimage3.png",
+      "questionAudioName": "questionAudio3.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": false,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Fish",
+        "Grass",
+        "Meat",
+        "Berries"
+      ],
+      "optionImages": [],
+      "correctAudios": [
+        "correctAudiolevel3Number1.mp3"
+      ],
+      "correctAnswerNum": "13"
+    },
+    {
+      "questionText": "What do birds eat?",
+      "questionImageName": "Questionimage4.png",
+      "questionAudioName": "questionAudio4.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": false,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Seeds",
+        "Meat",
+        "Fish",
+        "Berries"
+      ],
+      "optionImages": [],
+      "correctAudios": [
+        "correctAudiolevel4Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "What do elephants eat?",
+      "questionImageName": "Questionimage5.png",
+      "questionAudioName": "questionAudio5.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": false,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Grass",
+        "Meat",
+        "Fish",
+        "Berries"
+      ],
+      "optionImages": [],
+      "correctAudios": [
+        "correctAudiolevel5Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "What do monkeys eat?",
+      "questionImageName": "Questionimage6.png",
+      "questionAudioName": "questionAudio6.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": false,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Bananas",
+        "Meat",
+        "Fish",
+        "Berries"
+      ],
+      "optionImages": [],
+      "correctAudios": [
+        "correctAudiolevel6Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
