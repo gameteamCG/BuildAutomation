@@ -1,0 +1,130 @@
+{
+  "additionalData": {
+    "GameID": "History of Marathi Language",
+    "totalLevel": "6",
+    "TitleImageName": "titleImage.png",
+    "JockeyName": "Singham"
+  },
+  "questionData": [
+    {
+      "questionText": "What is the official language of the Indian state of Maharashtra?",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": false,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Marathi",
+        "Hindi",
+        "English",
+        "Telugu"
+      ],
+      "optionImages": [],
+      "correctAudios": [
+        "correctAudiolevel1Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Who is known as the father of Marathi literature?",
+      "questionImageName": "Questionimage2.png",
+      "questionAudioName": "questionAudio2.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": false,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Vishnu Vaman Shirwadkar",
+        "Saint Tukaram",
+        "P.L. Deshpande",
+        "Nana Patekar"
+      ],
+      "optionImages": [],
+      "correctAudios": [
+        "correctAudiolevel2Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Which script is used to write the Marathi language?",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio3.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": false,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Devanagari",
+        "Roman",
+        "Telugu",
+        "Kannada"
+      ],
+      "optionImages": [],
+      "correctAudios": [
+        "correctAudiolevel3Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Which famous Marathi poet and saint is known for his devotional poems?",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio4.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": false,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Sant Dnyaneshwar",
+        "Vishnu Vaman Shirwadkar",
+        "P.L. Deshpande",
+        "Nana Patekar"
+      ],
+      "optionImages": [],
+      "correctAudios": [
+        "correctAudiolevel4Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Which festival is widely celebrated in Maharashtra and marks the Marathi New Year?",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio5.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": false,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Gudi Padwa",
+        "Diwali",
+        "Holi",
+        "Eid"
+      ],
+      "optionImages": [],
+      "correctAudios": [
+        "correctAudiolevel5Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "What is the traditional attire worn by Maharashtrian women during festivals?",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio6.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "isOptionImage": true,
+      "numberOfOptions": 4,
+      "optionTexts": [],
+      "optionImages": [
+        "answerImageLevel6Image1.png",
+        "optionimagelevel6Image1.png",
+        "optionimagelevel6Image2.png",
+        "optionimagelevel6Image3.png"
+      ],
+      "correctAudios": [
+        "correctAudiolevel6Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
