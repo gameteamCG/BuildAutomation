@@ -1,0 +1,145 @@
+{
+  "additionalData": {
+    "GameID": "Construction Vehicle Challenge",
+    "totalLevel": "6",
+    "TitleImageName": "titleImage.png",
+    "JockeyName": "Mighty_Raju"
+  },
+  "questionData": [
+    {
+      "questionText": "What vehicle is used to lift and move heavy materials on construction sites?",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": true,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Crane",
+        "Bulldozer",
+        "Excavator",
+        "Dump Truck"
+      ],
+      "optionImages": [
+        "answerImageLevel1Image1.png",
+        "optionimagelevel1Image1.png",
+        "optionimagelevel1Image2.png",
+        "optionimagelevel1Image3.png"
+      ],
+      "correctAudios": [
+        "correctAudiolevel1Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Which vehicle is used to level the ground or remove debris at a construction site?",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio2.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": true,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Bulldozer",
+        "Dump Truck",
+        "Crane",
+        "Excavator"
+      ],
+      "optionImages": [
+        "answerImageLevel2Image1.png",
+        "optionimagelevel2Image1.png",
+        "optionimagelevel2Image2.png",
+        "optionimagelevel2Image3.png"
+      ],
+      "correctAudios": [
+        "correctAudiolevel2Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "What vehicle is used to dig trenches or foundations at a construction site?",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio3.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": true,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Excavator",
+        "Dump Truck",
+        "Crane",
+        "Bulldozer"
+      ],
+      "optionImages": [
+        "answerImageLevel3Image1.png",
+        "optionimagelevel3Image1.png",
+        "optionimagelevel3Image2.png",
+        "optionimagelevel3Image3.png"
+      ],
+      "correctAudios": [
+        "correctAudiolevel3Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Which vehicle is used to transport loose materials such as sand, gravel, or dirt?",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio4.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": false,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Dump Truck",
+        "Crane",
+        "Bulldozer",
+        "Excavator"
+      ],
+      "optionImages": [],
+      "correctAudios": [
+        "correctAudiolevel4Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "What vehicle is used to move heavy materials by sliding them off the rear end of the bed?",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio5.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": false,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Dump Truck",
+        "Crane",
+        "Bulldozer",
+        "Excavator"
+      ],
+      "optionImages": [],
+      "correctAudios": [
+        "correctAudiolevel5Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Which vehicle is used to lift and lower materials using a cable and pulley system?",
+      "questionImageName": "",
+      "questionAudioName": "questionAudio6.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "isOptionImage": false,
+      "numberOfOptions": 4,
+      "optionTexts": [
+        "Crane",
+        "Bulldozer",
+        "Dump Truck",
+        "Excavator"
+      ],
+      "optionImages": [],
+      "correctAudios": [
+        "correctAudiolevel6Number1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
