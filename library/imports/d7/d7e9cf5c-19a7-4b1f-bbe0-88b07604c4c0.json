@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "9tadpole",
+    "texture": "ab16dc6d-91e7-4185-a780-3665c43a4cb1",
+    "atlas": "",
+    "rect": [
+      16,
+      77,
+      464,
+      306
+    ],
+    "offset": [
+      0.5,
+      10
+    ],
+    "originalSize": [
+      495,
+      480
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "odd",
+    "texture": "c84059fa-ca91-4cdb-96ed-838fc430f111",
+    "atlas": "",
+    "rect": [
+      73,
+      88,
+      106,
+      56
+    ],
+    "offset": [
+      1,
+      9
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

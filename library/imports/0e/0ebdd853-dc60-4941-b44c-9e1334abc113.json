@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "even",
+    "texture": "c7fd77b1-ed26-486e-9fa2-786bfa891804",
+    "atlas": "",
+    "rect": [
+      63,
+      107,
+      127,
+      37
+    ],
+    "offset": [
+      1.5,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
