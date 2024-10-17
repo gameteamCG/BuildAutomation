@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "study_room",
+    "texture": "50393b4e-06d9-4918-b0f9-1c94f57e781c",
+    "atlas": "",
+    "rect": [
+      8,
+      36,
+      234,
+      177
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "washing_machine",
+    "texture": "c6b585bb-529f-4347-8964-133450932567",
+    "atlas": "",
+    "rect": [
+      57,
+      17,
+      136,
+      215
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
