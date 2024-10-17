@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0005_mixer",
+    "texture": "9ea70108-5ddb-4a41-ba36-a91cc5d67cf9",
+    "atlas": "",
+    "rect": [
+      149,
+      30,
+      236,
+      443
+    ],
+    "offset": [
+      17,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

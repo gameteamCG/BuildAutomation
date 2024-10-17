@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0011_bathtub",
+    "texture": "d82fca94-4798-4c9e-a2a7-4611cb32533e",
+    "atlas": "",
+    "rect": [
+      109,
+      26,
+      374,
+      451
+    ],
+    "offset": [
+      46,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

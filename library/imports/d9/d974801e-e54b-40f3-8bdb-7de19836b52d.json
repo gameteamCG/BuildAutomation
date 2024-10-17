@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nighttable",
+    "texture": "5a075f55-6ed0-4437-8659-136fac311427",
+    "atlas": "",
+    "rect": [
+      105,
+      29,
+      381,
+      444
+    ],
+    "offset": [
+      45.5,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
