@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "oven",
+    "texture": "72ec3c5b-14f7-49d4-8751-a802bcab1d37",
+    "atlas": "",
+    "rect": [
+      5,
+      21,
+      239,
+      208
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

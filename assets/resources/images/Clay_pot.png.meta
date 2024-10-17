@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "da7fd890-0c60-4cce-b9f3-119c0ae34a7c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "Clay_pot": {
+      "ver": "1.0.6",
+      "uuid": "05500ffa-a99a-4519-9af8-76f5168a940c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "da7fd890-0c60-4cce-b9f3-119c0ae34a7c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 23,
+      "trimY": 24,
+      "width": 204,
+      "height": 202,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Clay_pot",
+    "texture": "da7fd890-0c60-4cce-b9f3-119c0ae34a7c",
+    "atlas": "",
+    "rect": [
+      23,
+      24,
+      204,
+      202
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
