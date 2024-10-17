@@ -1,0 +1,1 @@
+window._CCSettings={platform:"web-mobile",groupList:["default"],collisionMatrix:[[true]],hasResourcesBundle:true,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/Games/TapToFind/Scenes/Title.fire",orientation:"portrait",jsList:["assets/Games/TapToFind/Scripts/ga.823bf.js"],bundleVers:{internal:"d17e2",resources:"6b719",main:"7e719"}};

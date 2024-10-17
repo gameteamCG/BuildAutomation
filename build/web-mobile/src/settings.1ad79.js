@@ -1,1 +1,0 @@
-window._CCSettings={platform:"web-mobile",groupList:["default"],collisionMatrix:[[true]],hasResourcesBundle:true,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/TapToFind/Scenes/Title.fire",orientation:"landscape",jsList:["assets/TapToFind/Scripts/ga.823bf.js"],bundleVers:{internal:"d17e2",resources:"f0861",main:"fcdf4"}};
