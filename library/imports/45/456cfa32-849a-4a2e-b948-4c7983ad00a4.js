@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '456cfoyhJpKLrlITHmDrQCk', 'CustomWidget');
-// Games/TapToFind/Scripts/CustomWidget.ts
+// TapToFind/Scripts/CustomWidget.ts
 
 "use strict";
 var __extends = (this && this.__extends) || (function () {

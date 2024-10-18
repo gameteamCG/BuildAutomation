@@ -1,0 +1,147 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "NULL",
+      "totalLevel": "6",
+      "TitleImageName": "title.png",
+      "JockeyName": "Singham"
+    },
+    "questionData": [
+      {
+        "questionText": "Can you find things you see in a dining room?",
+        "questionImageName": "bg (2).png",
+        "questionAudioName": "Canyoufindthingsyouseeinadiningroom.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "isOptionImage": true,
+        "numberOfOptions": 4,
+        "optionTexts": [
+          "Box",
+          "grass",
+          "spoon",
+          "BOX"
+        ],
+        "optionImages": [
+          "Box.png",
+          "grass.png",
+          "f.png",
+          "Box.png"
+        ],
+        "correctAudios": [
+          "spoons.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionText": "Can you find things you see in a dining room?",
+        "questionImageName": "grass.png",
+        "questionAudioName": "Canyoufindthingsyouseeinadiningroom.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "isOptionImage": false,
+        "numberOfOptions": 4,
+        "optionTexts": [
+          "BOX",
+          "grass",
+          "sword",
+          "grass"
+        ],
+        "optionImages": [],
+        "correctAudios": [
+          "spoons.mp3",
+          "fruitbowl.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Can you find things you see in a dining room?",
+        "questionImageName": "",
+        "questionAudioName": "Canyoufindthingsyouseeinadiningroom.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "isOptionImage": true,
+        "numberOfOptions": 4,
+        "optionTexts": [
+          "BOX",
+          "grass",
+          "sword",
+          "grass"
+        ],
+        "optionImages": [
+          "Box.png",
+          "grass.png",
+          "f.png",
+          "grass.png"
+        ],
+        "correctAudios": [
+          "spoons.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Can you find things you see in a dining room?",
+        "questionImageName": "grass.png",
+        "questionAudioName": "Canyoufindthingsyouseeinadiningroom.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "isOptionImage": true,
+        "numberOfOptions": 4,
+        "optionTexts": [],
+        "optionImages": [
+          "Box.png",
+          "grass.png",
+          "f.png",
+          "grass.png"
+        ],
+        "correctAudios": [
+          "spoons.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Can you find things you see in a dining room?",
+        "questionImageName": "",
+        "questionAudioName": "Canyoufindthingsyouseeinadiningroom.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "isOptionImage": true,
+        "numberOfOptions": 4,
+        "optionTexts": [],
+        "optionImages": [
+          "Box.png",
+          "grass.png",
+          "f.png",
+          "grass.png"
+        ],
+        "correctAudios": [
+          "spoons.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Can you find things you see in a dining room?",
+        "questionImageName": "",
+        "questionAudioName": "Canyoufindthingsyouseeinadiningroom.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "isOptionImage": false,
+        "numberOfOptions": 4,
+        "optionTexts": [
+          "BOX",
+          "grass",
+          "sword",
+          "grass"
+        ],
+        "optionImages": [],
+        "correctAudios": [
+          "spoons.mp3"
+        ],
+        "correctAnswerNum": "4"
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'fa156p3gAtEIKy7RL2BRjec', 'gameplay');
-// Games/TapToFind/Scripts/gameplay.ts
+// TapToFind/Scripts/gameplay.ts
 
 "use strict";
 // Learn TypeScript:
@@ -65,7 +65,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.isChar1 = true;
         _this.isFirstClick = false;
         _this.isWrong = false;
-        _this.defaultTime = 15;
+        _this.defaultTime = 30;
         _this.questionAudioFile = null;
         _this.correctAudiosFile = [];
         _this.answerObjectFile = null;
@@ -141,7 +141,8 @@ var NewClass = /** @class */ (function (_super) {
                 _this.createAnswerObject();
             }
             _this.node.getChildByName("Question").x = _this.viewPortWidth * 2;
-            _this.node.getChildByName("Question").getComponent(cc.Label).string = _this.question;
+            _this.node.getChildByName("Question").getComponent(cc.RichText).string = _this.question;
+            _this.setMultipleAnswerEnvironment();
             cc.tween(_this.node.getChildByName("Question"))
                 .to(0.5, { x: 0 }, { easing: 'sineInOut' }).start();
             _this.createOptionObject(_this.maxOptions);
@@ -377,43 +378,46 @@ var NewClass = /** @class */ (function (_super) {
                 levelend = true;
                 this.canTouch = false;
                 //console.log("Level Completed...!!!!!!!!!");
+                var delay = 0;
+                if (this.correctAudiosFile[audioIDNum] != null) {
+                    delay = this.correctAudiosFile[audioIDNum].duration - 0.5;
+                }
                 if (globalVariables_1.default.Instance.currentLevel == this.totalLevels) {
-                    this.setProgressBar();
-                    // gtag('event', "LevelCompleted_" + globalVariables.Instance.currentLevel, {
-                    //     'event_category': "Image",
-                    //     'event_label': "Level Completed",
-                    //     'value': 1
-                    // });
                     console.log("levelComplete--" + globalVariables_1.default.Instance.currentLevel);
-                    globalVariables_1.default.Instance.totalTimer += this.timer;
-                    this.timer = 0;
                     this.isClicked = false;
-                    //console.log("Congratulations.........!!!!!!!!!!!!!!!! game finished");
-                    // this.scheduleOnce(() => {
-                    //     this.node.getComponent(cc.AudioSource).clip = this.positiveAudios[0];
-                    //     this.node.getComponent(cc.AudioSource).play();
-                    // }, 3);
                     this.scheduleOnce(function () {
-                        _this.destroyAnswers();
-                        _this.destroyOptions();
-                        cc.director.loadScene("endScreen");
-                    }, 1);
+                        _this.setProgressBar();
+                        globalVariables_1.default.Instance.totalTimer += _this.timer;
+                        _this.timer = 0;
+                        //console.log("Congratulations.........!!!!!!!!!!!!!!!! game finished");
+                        // this.scheduleOnce(() => {
+                        //     this.node.getComponent(cc.AudioSource).clip = this.positiveAudios[0];
+                        //     this.node.getComponent(cc.AudioSource).play();
+                        // }, 3);
+                        _this.scheduleOnce(function () {
+                            _this.destroyAnswers();
+                            _this.destroyOptions();
+                            cc.director.loadScene("endScreen");
+                        }, 0.5);
+                    }, delay);
                     //this.callPositiveReaction();
                 }
                 else {
                     console.log("levelComplete--" + globalVariables_1.default.Instance.currentLevel);
-                    // gtag('event', "LevelCompleted_" + globalVariables.Instance.currentLevel, {
-                    //     'event_category': "Image",
-                    //     'event_label': "Level Completed",
-                    //     'value': 1
-                    // });
-                    this.setProgressBar();
-                    globalVariables_1.default.Instance.totalTimer += this.timer;
-                    this.timer = 0;
                     this.isClicked = false;
-                    globalVariables_1.default.Instance.currentLevel += 1;
-                    this.canTouch = false;
-                    this.setScreen();
+                    this.scheduleOnce(function () {
+                        // gtag('event', "LevelCompleted_" + globalVariables.Instance.currentLevel, {
+                        //     'event_category': "Image",
+                        //     'event_label': "Level Completed",
+                        //     'value': 1
+                        // });
+                        _this.setProgressBar();
+                        globalVariables_1.default.Instance.totalTimer += _this.timer;
+                        _this.timer = 0;
+                        globalVariables_1.default.Instance.currentLevel += 1;
+                        _this.canTouch = false;
+                        _this.setScreen();
+                    }, delay);
                     //console.log("currentLevel : ",globalVariables.Instance.currentLevel);
                     // this.scheduleOnce(()=>{
                     //     this.callPositiveReaction();
@@ -447,7 +451,7 @@ var NewClass = /** @class */ (function (_super) {
                         _this.createAnswerObject();
                     }
                     _this.node.getChildByName("Question").x = _this.viewPortWidth * 2;
-                    _this.node.getChildByName("Question").getComponent(cc.Label).string = _this.question;
+                    _this.node.getChildByName("Question").getComponent(cc.RichText).string = _this.question;
                     _this.setMultipleAnswerEnvironment();
                     cc.tween(_this.node.getChildByName("Question"))
                         .to(0.5, { x: 0 }, { easing: 'sineInOut' }).start();
@@ -511,7 +515,7 @@ var NewClass = /** @class */ (function (_super) {
                     this.createdOptions[i].opacity = 0;
                     //(i+1).toString();
                     if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionText) {
-                        this.createdOptions[i].children[0].getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].optionTexts[i];
+                        this.createdOptions[i].children[0].getComponent(cc.RichText).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].optionTexts[i];
                     }
                     this.node.getChildByName("Options").insertChild(this.createdOptions[i], i);
                     // this.createdOptions[i].x = 0;
@@ -527,8 +531,8 @@ var NewClass = /** @class */ (function (_super) {
                         // this.updateSprites(this.optionImages[i], this.createdOptions[i]);
                         this.createdOptions[i].getComponent(cc.Sprite).spriteFrame = this.commonOptionImg;
                         this.optionImages[i], this.createdOptions[i].getChildByName("1").y = 0;
-                        this.optionImages[i], this.createdOptions[i].getChildByName("1").getComponent(cc.Label).fontSize = 90;
-                        this.optionImages[i], this.createdOptions[i].getChildByName("1").getComponent(cc.Label).lineHeight = 95;
+                        this.optionImages[i], this.createdOptions[i].getChildByName("1").getComponent(cc.RichText).fontSize = 80;
+                        this.optionImages[i], this.createdOptions[i].getChildByName("1").getComponent(cc.RichText).lineHeight = 85;
                     }
                     else if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionImage && StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionText) {
                         // this.updateSprites(this.optionImages[i], this.createdOptions[i].getChildByName("subSprite"));
@@ -537,8 +541,8 @@ var NewClass = /** @class */ (function (_super) {
                         // this.createdOptions[i].getChildByName("subSprite").width = 350;
                         // this.createdOptions[i].getChildByName("subSprite").height = 350;
                         this.optionImages[i], this.createdOptions[i].getChildByName("1").y = -170;
-                        this.optionImages[i], this.createdOptions[i].getChildByName("1").getComponent(cc.Label).fontSize = 70;
-                        this.optionImages[i], this.createdOptions[i].getChildByName("1").getComponent(cc.Label).lineHeight = 75;
+                        this.optionImages[i], this.createdOptions[i].getChildByName("1").getComponent(cc.RichText).fontSize = 70;
+                        this.optionImages[i], this.createdOptions[i].getChildByName("1").getComponent(cc.RichText).lineHeight = 75;
                     }
                     else if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionImage && !StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionText) {
                         // this.updateSprites(this.optionImages[i], this.createdOptions[i].getChildByName("subSprite"));
@@ -548,8 +552,8 @@ var NewClass = /** @class */ (function (_super) {
                         // this.createdOptions[i].getChildByName("subSprite").height = 500;
                         // this.createdOptions[i].getChildByName("subSprite").getComponent(cc.Sprite).spriteFrame = null;
                         this.optionImages[i], this.createdOptions[i].getChildByName("1").y = -170;
-                        this.optionImages[i], this.createdOptions[i].getChildByName("1").getComponent(cc.Label).fontSize = 70;
-                        this.optionImages[i], this.createdOptions[i].getChildByName("1").getComponent(cc.Label).lineHeight = 75;
+                        this.optionImages[i], this.createdOptions[i].getChildByName("1").getComponent(cc.RichText).fontSize = 70;
+                        this.optionImages[i], this.createdOptions[i].getChildByName("1").getComponent(cc.RichText).lineHeight = 75;
                     }
                     cc.tween(this.createdOptions[i])
                         .to(0.5, { x: posX[i] }, { easing: 'sineInOut' }).start();
@@ -610,9 +614,11 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.setMultipleAnswerEnvironment = function () {
         this.node.getChildByName("Question").getChildByName("subQuestion").getComponent(cc.Label).string = "";
         if (this.answers.length <= 1) {
+            this.node.getChildByName("Question").setPosition(0, 330);
             return;
         }
         else {
+            this.node.getChildByName("Question").setPosition(0, 350);
             var subquestionString = "Select upto " + this.answers.length + " Options";
             this.node.getChildByName("Question").getChildByName("subQuestion").getComponent(cc.Label).string = subquestionString;
         }

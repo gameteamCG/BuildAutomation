@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '92529e0bmlFg4etSHkGHN2l', 'globalVariables');
-// Games/TapToFind/Scripts/globalVariables.ts
+// TapToFind/Scripts/globalVariables.ts
 
 "use strict";
 // Learn TypeScript:
