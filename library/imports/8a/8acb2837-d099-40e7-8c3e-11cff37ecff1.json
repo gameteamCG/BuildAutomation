@@ -1,0 +1,118 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Hospital Things Game",
+      "totalLevel": "6",
+      "TitleImageName": "titleImage.png",
+      "JockeyName": "Mighty_Raju"
+    },
+    "questionData": [
+      {
+        "questionText": "What do we use to check temperature in the hospital?",
+        "questionImageName": "",
+        "questionAudioName": "questionAudio1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "isOptionImage": true,
+        "numberOfOptions": 3,
+        "optionTexts": [],
+        "optionImages": [
+          "optionimagelevel1Image1.png",
+          "optionimagelevel1Image2.png",
+          "optionimagelevel1Image3.png"
+        ],
+        "correctAudios": [],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which tool do doctors use to listen to your heartbeat in the hospital?",
+        "questionImageName": "",
+        "questionAudioName": "questionAudio2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "isOptionImage": true,
+        "numberOfOptions": 3,
+        "optionTexts": [],
+        "optionImages": [
+          "optionimagelevel2Image1.png",
+          "optionimagelevel2Image2.png",
+          "optionimagelevel2Image3.png"
+        ],
+        "correctAudios": [],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which item is used to give injections in the hospital?",
+        "questionImageName": "",
+        "questionAudioName": "questionAudio3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "isOptionImage": true,
+        "numberOfOptions": 3,
+        "optionTexts": [],
+        "optionImages": [
+          "optionimagelevel3Image1.png",
+          "optionimagelevel3Image2.png",
+          "optionimagelevel3Image3.png"
+        ],
+        "correctAudios": [],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Which item is used for dressing wounds in the hospital?",
+        "questionImageName": "",
+        "questionAudioName": "questionAudio4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "isOptionImage": true,
+        "numberOfOptions": 3,
+        "optionTexts": [],
+        "optionImages": [
+          "optionimagelevel4Image1.png",
+          "optionimagelevel4Image2.png",
+          "optionimagelevel4Image3.png"
+        ],
+        "correctAudios": [],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Which item do doctors use to check your temperature in the hospital?",
+        "questionImageName": "",
+        "questionAudioName": "questionAudio5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "isOptionImage": true,
+        "numberOfOptions": 3,
+        "optionTexts": [],
+        "optionImages": [
+          "optionimagelevel5Image1.png",
+          "optionimagelevel5Image2.png",
+          "optionimagelevel5Image3.png"
+        ],
+        "correctAudios": [],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which item do nurses use to listen to your heartbeat in the hospital?",
+        "questionImageName": "",
+        "questionAudioName": "questionAudio6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "isOptionImage": true,
+        "numberOfOptions": 3,
+        "optionTexts": [],
+        "optionImages": [
+          "optionimagelevel6Image1.png",
+          "optionimagelevel6Image2.png",
+          "optionimagelevel6Image3.png"
+        ],
+        "correctAudios": [],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
