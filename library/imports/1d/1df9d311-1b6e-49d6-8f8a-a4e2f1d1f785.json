@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "doctor",
+    "texture": "50cd7435-28c7-49c3-a2da-758bf8af9ed3",
+    "atlas": "",
+    "rect": [
+      118,
+      18,
+      264,
+      464
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

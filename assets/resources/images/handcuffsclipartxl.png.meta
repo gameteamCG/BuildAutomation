@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3a0b0d3d-c6d4-4e5c-8a5a-f1fd7ea7d72b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "handcuffsclipartxl": {
+      "ver": "1.0.6",
+      "uuid": "6ae01b5c-a97f-41e9-9859-5a5847ec3c51",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3a0b0d3d-c6d4-4e5c-8a5a-f1fd7ea7d72b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 115,
+      "trimY": 160,
+      "width": 269,
+      "height": 179,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

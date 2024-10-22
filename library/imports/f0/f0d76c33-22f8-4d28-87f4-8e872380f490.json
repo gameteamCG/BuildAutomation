@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hosepipe",
+    "texture": "9e5f9fff-4502-4058-9f95-540191717a32",
+    "atlas": "",
+    "rect": [
+      123,
+      125,
+      253,
+      250
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

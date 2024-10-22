@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "oil_can",
+    "texture": "59c50910-16e6-4d48-a85c-165ed6e5ed38",
+    "atlas": "",
+    "rect": [
+      119,
+      125,
+      262,
+      249
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

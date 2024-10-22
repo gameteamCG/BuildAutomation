@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dentist",
+    "texture": "bebf48cf-873e-49ac-bfe2-c1c6bf325074",
+    "atlas": "",
+    "rect": [
+      125,
+      19,
+      249,
+      462
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

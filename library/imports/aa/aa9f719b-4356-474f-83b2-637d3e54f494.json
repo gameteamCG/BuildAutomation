@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fireman",
+    "texture": "629d45b1-157a-4f31-849b-d8d91759323d",
+    "atlas": "",
+    "rect": [
+      112,
+      19,
+      276,
+      462
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

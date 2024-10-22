@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "saw",
+    "texture": "38335bc6-eb0c-4da0-b3f7-1948d0e3ee9d",
+    "atlas": "",
+    "rect": [
+      102,
+      113,
+      296,
+      273
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

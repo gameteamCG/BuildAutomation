@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "postbox",
+    "texture": "c7ca58cd-0acf-4d83-b805-09c01c6cf681",
+    "atlas": "",
+    "rect": [
+      187,
+      119,
+      125,
+      262
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

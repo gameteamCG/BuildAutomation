@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Community helpers_NRCB1_116",
+      "totalLevel": "8",
+      "TitleImageName": "title.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "construction worker",
+        "questionAudioName": "cunstruction_worker.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "constractionworwker.png"
+        ],
+        "reiterations": [
+          "hammer.mp3"
+        ],
+        "commonRightOptionImageName": "Asset1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "hammer.png",
+          "mop.png"
+        ]
+      },
+      {
+        "questionText": "dentist",
+        "questionAudioName": "dentist.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "dentist.png"
+        ],
+        "reiterations": [
+          "braces.mp3"
+        ],
+        "commonRightOptionImageName": "Asset1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "braces.png",
+          "handcuffsclipartxl.png"
+        ]
+      },
+      {
+        "questionText": "doctor",
+        "questionAudioName": "doctor.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "doctor.png"
+        ],
+        "reiterations": [
+          "stethoscope.mp3"
+        ],
+        "commonRightOptionImageName": "Asset1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "stethoscope.png",
+          "saw.png"
+        ]
+      },
+      {
+        "questionText": "fireman",
+        "questionAudioName": "fireman.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "fireman.png"
+        ],
+        "reiterations": [
+          "hosepipe.mp3"
+        ],
+        "commonRightOptionImageName": "Asset1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "hosepipe.png",
+          "postbox.png"
+        ]
+      },
+      {
+        "questionText": "mechanic",
+        "questionAudioName": "mechanic.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "mechanic.png"
+        ],
+        "reiterations": [
+          "OILCAN.mp3"
+        ],
+        "commonRightOptionImageName": "Asset1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "oil_can.png",
+          "braces.png"
+        ]
+      },
+      {
+        "questionText": "police",
+        "questionAudioName": "police.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "police.png"
+        ],
+        "reiterations": [
+          "HANDCUFF.mp3"
+        ],
+        "commonRightOptionImageName": "Asset1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "handcuffsclipartxl.png",
+          "hammer.png"
+        ]
+      },
+      {
+        "questionText": "postman",
+        "questionAudioName": "postman.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "postman.png"
+        ],
+        "reiterations": [
+          "postbox.mp3"
+        ],
+        "commonRightOptionImageName": "Asset1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "postbox.png",
+          "hosepipe.png"
+        ]
+      },
+      {
+        "questionText": "sweeper",
+        "questionAudioName": "sweeper.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "sweeper.png"
+        ],
+        "reiterations": [
+          "mop.mp3"
+        ],
+        "commonRightOptionImageName": "Asset1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "mop.png",
+          "saw.png"
+        ]
+      }
+    ]
+  }
+}
