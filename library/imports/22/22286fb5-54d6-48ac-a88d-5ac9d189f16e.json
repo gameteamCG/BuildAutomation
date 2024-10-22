@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_giraffe",
+    "texture": "a4531adc-42ce-42dc-91eb-9d5078032b6d",
+    "atlas": "",
+    "rect": [
+      96,
+      7,
+      303,
+      493
+    ],
+    "offset": [
+      -2.5,
+      -3.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
