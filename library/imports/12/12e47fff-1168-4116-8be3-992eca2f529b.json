@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Rose",
+    "texture": "0133645b-bf67-41b8-86f3-1c6ad4f01b77",
+    "atlas": "",
+    "rect": [
+      41,
+      32,
+      373,
+      460
+    ],
+    "offset": [
+      -22.5,
+      -12
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
