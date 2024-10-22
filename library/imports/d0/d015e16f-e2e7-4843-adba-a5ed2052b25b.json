@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Redchillie",
+    "texture": "729379e1-5e76-419e-81c9-3e74e6f3fd99",
+    "atlas": "",
+    "rect": [
+      60,
+      12,
+      343,
+      455
+    ],
+    "offset": [
+      -18.5,
+      10.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
