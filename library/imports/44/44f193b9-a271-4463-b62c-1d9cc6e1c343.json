@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Goose",
+    "texture": "55a89914-332b-461d-9b49-535ddc0beefe",
+    "atlas": "",
+    "rect": [
+      57,
+      17,
+      386,
+      466
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

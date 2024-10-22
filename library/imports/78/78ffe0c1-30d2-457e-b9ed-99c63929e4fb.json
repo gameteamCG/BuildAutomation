@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eagle1",
+    "texture": "351d4d2d-e03c-4663-9bec-6bc8c03f25cf",
+    "atlas": "",
+    "rect": [
+      32,
+      8,
+      187,
+      234
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
