@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "elephant",
+    "texture": "cd7dcd4e-0162-4d09-947a-87153e4ac3be",
+    "atlas": "",
+    "rect": [
+      0,
+      70,
+      250,
+      164
+    ],
+    "offset": [
+      0,
+      -27
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
