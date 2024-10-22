@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bluebasket",
+    "texture": "6709a753-015e-4590-bbef-a59cda1e1bae",
+    "atlas": "",
+    "rect": [
+      4,
+      62,
+      292,
+      176
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

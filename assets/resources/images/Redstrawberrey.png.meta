@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a5feebe1-8872-415e-b6fd-b0b91fd96cb9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Redstrawberrey": {
+      "ver": "1.0.6",
+      "uuid": "951c823d-28bd-4385-bf94-d4f4aa9a4c2b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a5feebe1-8872-415e-b6fd-b0b91fd96cb9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 66,
+      "trimY": 7,
+      "width": 368,
+      "height": 486,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
