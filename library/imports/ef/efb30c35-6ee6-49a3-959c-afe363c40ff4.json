@@ -1,0 +1,118 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Beginning Sounds (B,E,A,G)_NRCB1_60",
+      "totalLevel": "4",
+      "TitleImageName": "BeginningSounds.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM3.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg1.png",
+        "questionAudioName": "identify_Bb.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "ball.png",
+          "Eagle.png",
+          "Banana.png"
+        ],
+        "optionsBg": [
+          "ball1.png",
+          "eagle1.png",
+          "banana1.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "Ball.mp3",
+          "Banana.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg1.png",
+        "questionAudioName": "identify_Ee.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Goose.png",
+          "elephant.png",
+          "Egg.png"
+        ],
+        "optionsBg": [
+          "goose1.png",
+          "elephnt1.png",
+          "egg1.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "Elephant.mp3",
+          "Egg.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg1.png",
+        "questionAudioName": "identify_Aa.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "apple.png",
+          "anchor.png",
+          "Egg.png"
+        ],
+        "optionsBg": [
+          "apple1.png",
+          "Anchor1.png",
+          "egg1.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "apple.mp3",
+          "anchor.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg1.png",
+        "questionAudioName": "identify_Gg.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "grapes.png",
+          "Eagle.png",
+          "goat.png"
+        ],
+        "optionsBg": [
+          "grapes2.png",
+          "eagle1.png",
+          "goat1.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "grapes.mp3",
+          "goat.mp3"
+        ],
+        "correctAnswerNum": "13"
+      }
+    ]
+  }
+}
