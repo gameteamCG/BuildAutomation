@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Ink",
+    "texture": "7f4e4ca9-63e7-43aa-a6aa-570d0e26779e",
+    "atlas": "",
+    "rect": [
+      39,
+      13,
+      422,
+      474
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

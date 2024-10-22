@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "owl",
+    "texture": "79cd9dad-5da0-4906-9111-4a69049b3bb4",
+    "atlas": "",
+    "rect": [
+      41,
+      7,
+      418,
+      486
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
