@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "numbernecklace",
+    "texture": "9bb08091-251d-4888-841a-3a608bac24ec",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      775,
+      253
+    ],
+    "offset": [
+      0,
+      8
+    ],
+    "originalSize": [
+      775,
+      271
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
