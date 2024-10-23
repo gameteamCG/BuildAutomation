@@ -1,0 +1,103 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Beginning Sounds (I,M,O,R)_NRCB_61",
+      "totalLevel": "4",
+      "TitleImageName": "title.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM3.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Beginning Sounds",
+        "questionAudioName": "identify_Ii.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "I.png"
+        ],
+        "reiterations": [
+          "Igloo.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Igloo.png",
+          "Mouse.png"
+        ]
+      },
+      {
+        "questionText": "Beginning Sounds",
+        "questionAudioName": "identify_Mm.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "M.png"
+        ],
+        "reiterations": [
+          "Moon.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Moon.png",
+          "icecream.png"
+        ]
+      },
+      {
+        "questionText": "Beginning Sounds",
+        "questionAudioName": "identify_Oo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "O.png"
+        ],
+        "reiterations": [
+          "octopus.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "octopus.png",
+          "Ring.png"
+        ]
+      },
+      {
+        "questionText": "Beginning Sounds",
+        "questionAudioName": "identify_Rr.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "R.png"
+        ],
+        "reiterations": [
+          "rabbit.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Rabbit.png",
+          "orange.png"
+        ]
+      }
+    ]
+  }
+}
