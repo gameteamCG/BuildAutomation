@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d48d9796-6ca1-4e1b-8cf2-d7bf39bffe2c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "policejeep": {
+      "ver": "1.0.6",
+      "uuid": "fe563716-98c7-4e00-a160-407669206313",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d48d9796-6ca1-4e1b-8cf2-d7bf39bffe2c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 23,
+      "trimY": 144,
+      "width": 454,
+      "height": 212,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
