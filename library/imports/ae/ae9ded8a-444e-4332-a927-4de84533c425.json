@@ -1,0 +1,104 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Sourabh",
+      "totalLevel": "4",
+      "TitleImageName": "t.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "Puzzle",
+      "templateType": "TapToCollect"
+    },
+    "questionData": [
+      {
+        "questionText": "-ai-",
+        "questionImageName": "Asset 1-8.png",
+        "questionAudioName": "Tap to collect the words in the vowel team long a.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "C_a.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 10-8.png",
+          "Asset 11-8.png",
+          "Asset 15-8.png",
+          "Asset 14-8.png"
+        ],
+        "correctAudios": [
+          "Train.mp3",
+          "Snail.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionText": "-ay",
+        "questionImageName": "Asset 1-8.png",
+        "questionAudioName": "Tap to collect the words in the vowel team long a.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "C_a.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "tube.png",
+          "Asset 13-8.png",
+          "Asset 14-8.png",
+          "Asset 18-8.png"
+        ],
+        "correctAudios": [
+          "Clay.mp3",
+          "Tray.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionText": "a_e",
+        "questionImageName": "Asset 1-8.png",
+        "questionAudioName": "Tap to collect the words in the vowel team long e.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "C_a.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 13-8.png",
+          "Asset 8-8.png",
+          "Asset 3-8.png",
+          "Asset 15-8.png"
+        ],
+        "correctAudios": [
+          "Bee.mp3",
+          "Tree.mp3"
+        ],
+        "correctAnswerNum": "34"
+      },
+      {
+        "questionText": "-ee",
+        "questionImageName": "Asset 1-8.png",
+        "questionAudioName": "Tap to collect the words in the vowel team long e.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "C_a.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 6-8.png",
+          "tai.png",
+          "Asset 20-8.png",
+          "Asset 7-8.png"
+        ],
+        "correctAudios": [
+          "Green(2).mp3",
+          "Queen.mp3"
+        ],
+        "correctAnswerNum": "14"
+      }
+    ]
+  }
+}
