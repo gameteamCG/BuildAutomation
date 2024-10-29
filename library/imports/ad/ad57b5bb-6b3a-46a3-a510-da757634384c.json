@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "15th",
+    "texture": "230268cf-1f7e-4809-bd11-2759cb4ba9c5",
+    "atlas": "",
+    "rect": [
+      23,
+      83,
+      153,
+      40
+    ],
+    "offset": [
+      -0.5,
+      -3
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

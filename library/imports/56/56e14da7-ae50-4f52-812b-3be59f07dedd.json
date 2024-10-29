@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "19th",
+    "texture": "bb60aad5-c7a1-409e-a763-bea8cc35dc45",
+    "atlas": "",
+    "rect": [
+      8,
+      83,
+      186,
+      28
+    ],
+    "offset": [
+      1,
+      3
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
