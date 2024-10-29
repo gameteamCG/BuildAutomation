@@ -480,9 +480,9 @@ export default class NewClass extends cc.Component {
         for (let i = 1; i <= this.node.getChildByName("Option").children.length; i++) {
             this.node.getChildByName("Option").children[i - 1].opacity = 255;
         }
-        this.moveCards();
+        // this.moveCards();
         this.scheduleOnce(() => {
-            // this.moveCards();
+            this.moveCards();
             this.PlayQuestionAudio();
         }, 0.5);
     }
