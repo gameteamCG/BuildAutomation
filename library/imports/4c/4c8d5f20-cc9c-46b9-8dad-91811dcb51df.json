@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "drill",
+    "texture": "d59cb63e-19cf-4bf8-b647-4925d9cee95e",
+    "atlas": "",
+    "rect": [
+      138,
+      101,
+      224,
+      297
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
