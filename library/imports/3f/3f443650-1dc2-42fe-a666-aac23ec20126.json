@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "restroom",
+    "texture": "803122fb-a2c0-4459-85e0-65c09a1e912a",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      312,
+      312
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      312,
+      313
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

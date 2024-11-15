@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "canteen",
+    "texture": "24e31aa0-90a4-4cca-bea3-a3e291fcb27c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      313,
+      313
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      313,
+      313
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

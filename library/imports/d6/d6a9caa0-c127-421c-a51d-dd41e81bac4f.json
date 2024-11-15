@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "computerroom",
+    "texture": "7d395621-22b0-4d34-8dea-abb5750ae7ac",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      313,
+      312
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      313,
+      313
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
