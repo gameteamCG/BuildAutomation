@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Healthy habits",
+      "totalLevel": "8",
+      "TitleImageName": "Title.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BG.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "Identify if the picture displayed is a healthy habit or not",
+        "questionImageName": "Q1.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Yes.png",
+          "No.png"
+        ],
+        "correctAudioName": "R1.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Identify if the picture displayed is a healthy habit or not",
+        "questionImageName": "Q2.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "No.png",
+          "Yes.png"
+        ],
+        "correctAudioName": "R2.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Identify if the picture displayed is a healthy habit or not",
+        "questionImageName": "Q3.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "No.png",
+          "Yes.png"
+        ],
+        "correctAudioName": "R3.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Identify if the picture displayed is a healthy habit or not",
+        "questionImageName": "Q4.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Yes.png",
+          "No.png"
+        ],
+        "correctAudioName": "R4.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Identify if the picture displayed is a healthy habit or not",
+        "questionImageName": "Q5.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Yes.png",
+          "No.png"
+        ],
+        "correctAudioName": "R5.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Identify if the picture displayed is a healthy habit or not",
+        "questionImageName": "Q6.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Yes.png",
+          "No.png"
+        ],
+        "correctAudioName": "R6.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Identify if the picture displayed is a healthy habit or not",
+        "questionImageName": "Q7.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "No.png",
+          "Yes.png"
+        ],
+        "correctAudioName": "R7.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Identify if the picture displayed is a healthy habit or not",
+        "questionImageName": "Q8.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Yes.png",
+          "No.png"
+        ],
+        "correctAudioName": "R8.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
