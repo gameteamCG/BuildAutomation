@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Numbe3",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/sdfghjklsdfghjkl_1731902542103.mp4",
+      "TitleImageName": "number 3.png",
+      "IntroAudio1Name": "p_33127689_430.mp3",
+      "IntroAudio2Name": "p_33127476_147.mp3",
+      "JockeyName": "bag",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
