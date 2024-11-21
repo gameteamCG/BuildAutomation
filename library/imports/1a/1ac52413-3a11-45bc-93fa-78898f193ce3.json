@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "inventionTitle",
+    "texture": "ff226b48-4403-4300-a773-3ebb95c1586d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      710,
+      332
+    ],
+    "offset": [
+      0,
+      3
+    ],
+    "originalSize": [
+      710,
+      338
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
