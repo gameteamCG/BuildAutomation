@@ -432,9 +432,9 @@ var NewClass = /** @class */ (function (_super) {
         for (var i = 1; i <= this.node.getChildByName("Option").children.length; i++) {
             this.node.getChildByName("Option").children[i - 1].opacity = 255;
         }
-        this.moveCards();
+        // this.moveCards();
         this.scheduleOnce(function () {
-            // this.moveCards();
+            _this.moveCards();
             _this.PlayQuestionAudio();
         }, 0.5);
     };
