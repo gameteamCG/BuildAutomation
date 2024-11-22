@@ -53,9 +53,9 @@
               },
               {
                 "width": 816,
-                "height": 359,
+                "height": 358.984375,
                 "type": "panel",
-                "active": 0,
+                "active": 1,
                 "children": [
                   "console",
                   "timeline",
