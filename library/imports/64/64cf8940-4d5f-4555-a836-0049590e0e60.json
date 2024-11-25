@@ -1,0 +1,153 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Light and shadow",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/480_LightAndShadow_1732523537077.mp4",
+      "TitleImageName": "Lightandshadow.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "bag",
+      "TotalLevel": "7"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "1.png",
+        "QuestionAudioName": "Whatdidburpeewanttoeat.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "bugs",
+          "cake",
+          "apple",
+          "leaves"
+        ],
+        "ReiterationAudioName": "33382736_2_bugs.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "2.png",
+        "QuestionAudioName": "Whatisformedwhenanobstuhklcomesinthewayoflight.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "light",
+          "shadow"
+        ],
+        "ReiterationAudioName": "33382736_4_shadow.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "3.png",
+        "QuestionAudioName": "Whatcausesshadowsontheground.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Mars",
+          "Sun",
+          "Jupiter",
+          "Venus"
+        ],
+        "ReiterationAudioName": "33382736_6_sun.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_3.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "4.png",
+        "QuestionAudioName": "Doesthesizeoftheshadowremainsameduringdifferenttimesoftheday.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "yes",
+          "no"
+        ],
+        "ReiterationAudioName": "33382736_8_no.mp3",
+        "CorrectAudioName": "positive_4.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "5.png",
+        "QuestionAudioName": "WhatdoesDarwinusetomeasuretheshadow.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "sharpener",
+          "pencil",
+          "measuring tape",
+          "eraser"
+        ],
+        "ReiterationAudioName": "33382736_10_measuring-tape.mp3",
+        "CorrectAudioName": "positive_5.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "6.png",
+        "QuestionAudioName": "Howmanyshadowsareformedwhenthesunisaboveus.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "3",
+          "2",
+          "1",
+          "0"
+        ],
+        "ReiterationAudioName": "0.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_3.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "7.png",
+        "QuestionAudioName": "Doesthesizeoftheshadowremainsameduringdifferenttimesoftheday.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "no",
+          "yes"
+        ],
+        "ReiterationAudioName": "33382736_8_no.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
