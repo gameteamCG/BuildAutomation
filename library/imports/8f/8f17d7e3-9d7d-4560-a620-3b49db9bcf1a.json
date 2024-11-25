@@ -1,0 +1,157 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Phases of the moon_Grade 3 (Science)_COURSE BOOK 1_R6",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/666_PhasesOfTheMoon_1732524472790.mp4",
+      "TitleImageName": "phases.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "bag",
+      "TotalLevel": "7"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "1.png",
+        "QuestionAudioName": "Whatisusedtocloselyseethemoon.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "1_1(1).png",
+          "Asset 28.png",
+          "Asset 24.png",
+          "Asset 25.png"
+        ],
+        "ReiterationAudioName": "33374052_2_telescope.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "2.png",
+        "QuestionAudioName": "Whataretheholesonthemooncalled.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 23.png",
+          "Asset 31.png",
+          "Asset 34.png",
+          "2_1.png"
+        ],
+        "ReiterationAudioName": "33374052_4_craters.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "3.png",
+        "QuestionAudioName": "Whatcausesthecratersonthemoon.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 26.png",
+          "3_1(1).png",
+          "Asset 33.png",
+          "Asset 35.png"
+        ],
+        "ReiterationAudioName": "33374052_6_rocks.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_3.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "4.png",
+        "QuestionAudioName": "Doesthemoon_sshapestaythesame.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 36.png",
+          "4_1(1).png"
+        ],
+        "ReiterationAudioName": "33374052_8_no.mp3",
+        "CorrectAudioName": "positive_4.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "5(1).png",
+        "QuestionAudioName": "Aroundwhatdoesthemoonrevolvearound.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 30.png",
+          "5_1(1).png",
+          "Asset 30.png",
+          "Asset 32.png"
+        ],
+        "ReiterationAudioName": "33374052_10_earth.mp3",
+        "CorrectAudioName": "positive_5.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "6(1).png",
+        "QuestionAudioName": "Wheredoesthemoongetitslightfrom.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "6_1(1).png",
+          "Asset 24.png",
+          "Asset 27.png",
+          "Asset 32.png"
+        ],
+        "ReiterationAudioName": "33374052_12_sun.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_3.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "7.png",
+        "QuestionAudioName": "HowmanymoonsdoesplanetEarthhave.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 20.png",
+          "Asset 18.png",
+          "Asset 19.png",
+          "7_1(1).png"
+        ],
+        "ReiterationAudioName": "33374052_14_1.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}
