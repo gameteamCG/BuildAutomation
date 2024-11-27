@@ -500,8 +500,8 @@
     "relativePath": "model/primitives.fbx"
   },
   "fd03d4cb-bbfd-4469-892c-24e3afbfef74": {
-    "asset": 1732685882066,
-    "meta": 1732685882456,
+    "asset": 1732686384929,
+    "meta": 1732687424677,
     "relativePath": "resources"
   },
   "5193b853-4896-4705-8269-612a8f40aefa": {
@@ -1445,8 +1445,8 @@
     "relativePath": "Framework/WebView/WebviewAssets/new/Rectangle 3064.png"
   },
   "12bb2ca9-a3a0-40fc-852b-94c0bbefeee6": {
-    "asset": 1732685882346,
-    "meta": 1732685883342,
+    "asset": 1732686384929,
+    "meta": 1732687424677,
     "relativePath": "Games"
   },
   "fe7f2710-bc78-445e-965a-8ebdb050ff78": {
@@ -1770,8 +1770,8 @@
     "relativePath": "Games/Shooter/Assets/Star.png"
   },
   "df604a74-4b7e-4582-ac4a-2001714e19c1": {
-    "asset": 1732685882191,
-    "meta": 1732685883425,
+    "asset": 1732686336285,
+    "meta": 1732687424677,
     "relativePath": "Games/Shooter/Assets/jaipuria_UI"
   },
   "5f30099b-1c68-46c2-b33b-e265f6f3ef17": {
@@ -1935,8 +1935,8 @@
     "relativePath": "Games/Shooter/Assets/whats next.png"
   },
   "cf4e36d8-89d2-4945-a198-67e319127411": {
-    "asset": 1732685882157,
-    "meta": 1732685883569,
+    "asset": 1732687527332,
+    "meta": 1732687527336,
     "relativePath": "Games/Shooter/Scene/1.fire"
   },
   "630ebb90-a4ca-4099-9329-a971f489ccec": {
@@ -1945,13 +1945,13 @@
     "relativePath": "Games/Shooter/Sound/JockeyVO"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1732686386940,
-    "meta": 1732686386945,
+    "asset": 1732687474002,
+    "meta": 1732687474007,
     "relativePath": "Games/Shooter/Scene/Title.fire"
   },
   "92133877-574e-4eb5-9c58-79f64d3fc3ed": {
-    "asset": 1732685882157,
-    "meta": 1732685883572,
+    "asset": 1732687552807,
+    "meta": 1732687552811,
     "relativePath": "Games/Shooter/Scene/endScreen.fire"
   },
   "d9246b4b-e901-4723-b667-3327477b74eb": {
@@ -2458,11 +2458,6 @@
     "asset": 1732685882229,
     "meta": 1732685883976,
     "relativePath": "Games/Shooter/Assets/jaipuria_UI/jaipuria.prefab"
-  },
-  "43d0b521-fd86-4a61-aba1-798692e9ae0c": {
-    "asset": 1732685882228,
-    "meta": 1732685883977,
-    "relativePath": "Games/Shooter/Assets/jaipuria_UI/Play.png"
   },
   "6aa4c499-c53b-414f-b199-3f5dc98fa3fa": {
     "asset": 1732685882229,
