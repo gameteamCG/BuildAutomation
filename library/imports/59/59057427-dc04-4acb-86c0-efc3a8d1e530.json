@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Red Flower2",
+    "texture": "cb24dd46-9a3c-4ce2-ba1e-e0679f4f504a",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      1909,
+      1080
+    ],
+    "offset": [
+      -66.5,
+      481
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

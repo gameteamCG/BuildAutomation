@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f21f281c-fe2a-421b-b8f9-1a548d837c64",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2048,
+  "height": 2048,
+  "platformSettings": {},
+  "subMetas": {
+    "Yellowe Flower2": {
+      "ver": "1.0.6",
+      "uuid": "1c3e0743-c5a1-43b3-963a-f15301c70d9e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f21f281c-fe2a-421b-b8f9-1a548d837c64",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -66.5,
+      "offsetY": 481,
+      "trimX": 3,
+      "trimY": 3,
+      "width": 1909,
+      "height": 1080,
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

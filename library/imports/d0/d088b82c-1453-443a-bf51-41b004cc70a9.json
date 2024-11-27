@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tlc_bird0001",
+    "texture": "2e8361f5-2927-4dea-bf48-61fc64b9b428",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      1962,
+      983
+    ],
+    "offset": [
+      -41,
+      18.5
+    ],
+    "originalSize": [
+      2048,
+      1024
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
