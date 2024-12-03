@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Indhan",
+    "texture": "c8874871-8607-4d6c-b0d8-b61298745563",
+    "atlas": "",
+    "rect": [
+      178,
+      151,
+      145,
+      198
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

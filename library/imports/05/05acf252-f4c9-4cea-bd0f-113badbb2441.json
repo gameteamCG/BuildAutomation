@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "swar - ई",
+      "totalLevel": "6",
+      "TitleImageName": "TitleNew.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM3.mp3",
+      "mainBgName": "BG_2.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "ई",
+        "questionAudioName": "उस वस्तु की पहचान करें जो स्वर, ई, से शुरू होती है.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Eeekh.png",
+          "Fire.png"
+        ],
+        "correctAudios": [
+          "ईख.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "ई",
+        "questionAudioName": "उस वस्तु की पहचान करें जो स्वर, ई, से शुरू होती है.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "eid.png",
+          "mirror.png"
+        ],
+        "correctAudios": [
+          "ईद, .mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "ई",
+        "questionAudioName": "उस वस्तु की पहचान करें जो स्वर, ई, से शुरू होती है.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Gift.png",
+          "Innth.png"
+        ],
+        "correctAudios": [
+          "ईथ,.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "ई",
+        "questionAudioName": "उस वस्तु की पहचान करें जो स्वर, ई, से शुरू होती है.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "lemon.png",
+          "Ishwar.png"
+        ],
+        "correctAudios": [
+          "ईश्वर.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "ई",
+        "questionAudioName": "उस वस्तु की पहचान करें जो स्वर, ई, से शुरू होती है.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Email.png",
+          "pumpkin.png"
+        ],
+        "correctAudios": [
+          "ईमेल,.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "ई",
+        "questionAudioName": "उस वस्तु की पहचान करें जो स्वर, ई, से शुरू होती है.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Indhan.png",
+          "orange.png"
+        ],
+        "correctAudios": [
+          "ईनधन, .mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

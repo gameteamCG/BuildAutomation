@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Eeekh",
+    "texture": "ea9a4325-96c9-49b2-b10d-838cc7d525b3",
+    "atlas": "",
+    "rect": [
+      168,
+      122,
+      164,
+      257
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
