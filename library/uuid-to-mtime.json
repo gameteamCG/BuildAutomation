@@ -1,7 +1,7 @@
 {
   "119f7f24-727f-43c7-8c8c-ff04216b88bb": {
-    "asset": 1733137260218,
-    "meta": 1733137293825,
+    "asset": 1733208552038,
+    "meta": 1733208552265,
     "relativePath": "resources"
   },
   "0d2e55d5-0eb2-4514-9a7a-dedb539de00f": {
@@ -1060,8 +1060,8 @@
     "relativePath": "Games/WhatWillHappenNext/Assets/badge.png"
   },
   "5cb788e7-3dd0-42df-8a1f-454e1deebd40": {
-    "asset": 1732709183436,
-    "meta": 1733137294307,
+    "asset": 1733137327391,
+    "meta": 1733208552489,
     "relativePath": "Games/WhatWillHappenNext/Assets/prefab"
   },
   "18fc3154-3571-41db-a617-705046516bb1": {
@@ -3033,5 +3033,110 @@
     "asset": 1733137327390,
     "meta": 1733137327402,
     "relativePath": "Games/WhatWillHappenNext/Assets/prefab/possibility logo.png"
+  },
+  "3f442640-8c47-41f4-b67d-d094a98451d3": {
+    "asset": 1733208552048,
+    "meta": 1733208552266,
+    "relativePath": "resources/audios"
+  },
+  "bfadd5f1-b0ff-45e6-97c6-1e2da152a47e": {
+    "asset": 1733208552050,
+    "meta": 1733208552266,
+    "relativePath": "resources/images"
+  },
+  "4b1026a7-f2a0-4e01-88f6-689ab923783c": {
+    "asset": 1733208543906,
+    "meta": 1733208552349,
+    "relativePath": "resources/game_data.json"
+  },
+  "16f1fd78-0ea5-4dd9-88e8-10dd285db091": {
+    "asset": 1733208543906,
+    "meta": 1733208552371,
+    "relativePath": "resources/images/1.png"
+  },
+  "fe704f40-294c-46bd-bf4e-b4780b456e50": {
+    "asset": 1733208543907,
+    "meta": 1733208552380,
+    "relativePath": "resources/images/2.png"
+  },
+  "c0511ca4-3c69-4357-bf50-e257d3599462": {
+    "asset": 1733208543907,
+    "meta": 1733208552386,
+    "relativePath": "resources/images/3.png"
+  },
+  "246b320e-7f45-46ed-9ae6-ba32b3783a0f": {
+    "asset": 1733208543907,
+    "meta": 1733208552392,
+    "relativePath": "resources/images/4.png"
+  },
+  "88c3104a-8e9f-431b-8682-8d2c978e14e0": {
+    "asset": 1733208543907,
+    "meta": 1733208552398,
+    "relativePath": "resources/images/5.png"
+  },
+  "1214e82e-b78c-4333-938d-e4e1c09964e9": {
+    "asset": 1733208543908,
+    "meta": 1733208552404,
+    "relativePath": "resources/images/6.png"
+  },
+  "838505bb-4f18-4500-ae9e-e69b3c4051ba": {
+    "asset": 1733208543908,
+    "meta": 1733208552409,
+    "relativePath": "resources/images/7.png"
+  },
+  "802121d3-5dc8-4555-a17c-3d950e732be6": {
+    "asset": 1733208543909,
+    "meta": 1733208552439,
+    "relativePath": "resources/images/bg.png"
+  },
+  "a8ed440c-ee02-493c-a34a-bc10c55df9af": {
+    "asset": 1733208543906,
+    "meta": 1733208552720,
+    "relativePath": "resources/audios/melts.mp3"
+  },
+  "2f0f1163-f73c-41df-af40-392b2b9c2a20": {
+    "asset": 1733208543912,
+    "meta": 1733208552473,
+    "relativePath": "resources/images/bg1.png"
+  },
+  "9d01321c-333b-41b9-ab3b-fca979c34917": {
+    "asset": 1733208543906,
+    "meta": 1733208552720,
+    "relativePath": "resources/audios/freezes.mp3"
+  },
+  "a7b35aea-5d73-4f0d-8460-eec5bf729715": {
+    "asset": 1733208543906,
+    "meta": 1733208552721,
+    "relativePath": "resources/audios/turnsice.mp3"
+  },
+  "3af50c58-89ac-4291-959e-64d80f10f2cd": {
+    "asset": 1733208543913,
+    "meta": 1733208552479,
+    "relativePath": "resources/images/option.png"
+  },
+  "a3e1386b-5868-40cd-ac16-c634005fc99a": {
+    "asset": 1733208543906,
+    "meta": 1733208552721,
+    "relativePath": "resources/audios/turnsintowater.mp3"
+  },
+  "ef7d15f5-0c55-4982-881b-17c4b035b16e": {
+    "asset": 1733208543906,
+    "meta": 1733208552722,
+    "relativePath": "resources/audios/turnsintosteam.mp3"
+  },
+  "f9ce0e15-0135-49e0-b036-9e09609e6ce5": {
+    "asset": 1733208543914,
+    "meta": 1733208552488,
+    "relativePath": "resources/images/title.png"
+  },
+  "e83484b8-2e16-4cd5-8a93-871724483246": {
+    "asset": 1733208543906,
+    "meta": 1733208552722,
+    "relativePath": "resources/audios/qvo.mp3"
+  },
+  "cef7c7c6-48f0-455e-8197-4586932850cf": {
+    "asset": 1733208543905,
+    "meta": 1733208552723,
+    "relativePath": "resources/audios/bgm2.mp3"
   }
 }
