@@ -500,8 +500,8 @@
     "relativePath": "model/primitives.fbx"
   },
   "8c918e37-259f-4550-836f-95071737cfc9": {
-    "asset": 1734324789494,
-    "meta": 1734324813141,
+    "asset": 1734327097988,
+    "meta": 1734327098254,
     "relativePath": "resources"
   },
   "b2403447-330c-4b15-ac32-1744aea87b70": {
@@ -3258,5 +3258,255 @@
     "asset": 1734084984586,
     "meta": 1734324813559,
     "relativePath": "Games/Book_Prefab/titleAssets/BG.png"
+  },
+  "6045c580-253d-4089-9c78-06794cea7b8c": {
+    "asset": 1734327098000,
+    "meta": 1734327098254,
+    "relativePath": "resources/audios"
+  },
+  "9b52a510-dd20-4bcb-ba0d-19ea6ed74e0b": {
+    "asset": 1734327098003,
+    "meta": 1734327098255,
+    "relativePath": "resources/images"
+  },
+  "e4f811f4-b226-430f-b772-1a58cf3ae4d8": {
+    "asset": 1734327092131,
+    "meta": 1734327098381,
+    "relativePath": "resources/game_data.json"
+  },
+  "f50b767e-e6c2-434a-8038-b2ae2825174e": {
+    "asset": 1734326356282,
+    "meta": 1734327098707,
+    "relativePath": "resources/audios/B.mp3"
+  },
+  "52385961-c341-4ee6-bd24-264f18f24b4b": {
+    "asset": 1734326356283,
+    "meta": 1734327098708,
+    "relativePath": "resources/audios/BL3question.mp3"
+  },
+  "96b20473-8e87-4921-b5af-d34436c8019a": {
+    "asset": 1734326356283,
+    "meta": 1734327098709,
+    "relativePath": "resources/audios/BL2question.mp3"
+  },
+  "d77a641b-7414-44dd-b94b-39d7de08fcb8": {
+    "asset": 1734326356283,
+    "meta": 1734327098709,
+    "relativePath": "resources/audios/BL1question.mp3"
+  },
+  "00632719-63ed-4e5f-9c31-03dfca920b43": {
+    "asset": 1734326356284,
+    "meta": 1734327098709,
+    "relativePath": "resources/audios/BRILLIANT.mp3"
+  },
+  "ca9eb069-94ac-41bb-9f1c-dbb16246cdc1": {
+    "asset": 1734326356286,
+    "meta": 1734327098710,
+    "relativePath": "resources/audios/FANTASTIC.mp3"
+  },
+  "ef1687fe-fd64-43ff-8e56-88102b15c469": {
+    "asset": 1734326356285,
+    "meta": 1734327098710,
+    "relativePath": "resources/audios/EXCELLENTJOB.mp3"
+  },
+  "620b1ab2-a0e6-434d-815c-d87149fea11f": {
+    "asset": 1734327092130,
+    "meta": 1734327098712,
+    "relativePath": "resources/audios/BL4question.mp3"
+  },
+  "e2f3f940-9257-4904-a936-cf8d2c3e78a3": {
+    "asset": 1734327092130,
+    "meta": 1734327098715,
+    "relativePath": "resources/audios/ball1.mp3"
+  },
+  "8675b55b-9679-43b0-836e-a305e9489efc": {
+    "asset": 1734327092130,
+    "meta": 1734327098716,
+    "relativePath": "resources/audios/banana1.mp3"
+  },
+  "5bcf72a0-e7fa-4b74-bc8a-d4442f1470f1": {
+    "asset": 1734327092130,
+    "meta": 1734327098717,
+    "relativePath": "resources/audios/book1.mp3"
+  },
+  "7593d113-da0e-4dce-ae58-0dfe49c0f35f": {
+    "asset": 1734326356292,
+    "meta": 1734327098717,
+    "relativePath": "resources/audios/nevermind,tryagain.mp3"
+  },
+  "39445bb8-2ae4-4a59-a1b7-159e2e5a9c56": {
+    "asset": 1734326356288,
+    "meta": 1734327098718,
+    "relativePath": "resources/audios/GOODJOB.mp3"
+  },
+  "36854812-b284-4ecc-8897-e220ed8e94be": {
+    "asset": 1734326356289,
+    "meta": 1734327098718,
+    "relativePath": "resources/audios/Oopsietryoncemore.mp3"
+  },
+  "3974c8f9-0e67-4274-8f7e-b25fff4e01e9": {
+    "asset": 1734326356294,
+    "meta": 1734327098719,
+    "relativePath": "resources/audios/ohoh.mp3"
+  },
+  "84dad514-335f-46d2-9264-d774f3d5f85f": {
+    "asset": 1734326356292,
+    "meta": 1734327098722,
+    "relativePath": "resources/audios/bgm_1.mp3"
+  },
+  "118673bf-c295-4a6d-a18a-09ecd093384f": {
+    "asset": 1734327092131,
+    "meta": 1734327098763,
+    "relativePath": "resources/images/BGL1.png"
+  },
+  "58d5503b-b476-4fe7-b501-e9a46b2438a9": {
+    "asset": 1734326356295,
+    "meta": 1734327098768,
+    "relativePath": "resources/images/BGL2.png"
+  },
+  "7a8e05cf-5ad6-489c-86c5-27e7dbf84be8": {
+    "asset": 1734326356300,
+    "meta": 1734327098770,
+    "relativePath": "resources/images/Image 03.png"
+  },
+  "c1cc41ec-0295-4154-85ee-5be15f906608": {
+    "asset": 1734327092132,
+    "meta": 1734327098773,
+    "relativePath": "resources/images/BGL3.png"
+  },
+  "474f130d-77b8-4d12-9c2a-25d4f7491679": {
+    "asset": 1734326356297,
+    "meta": 1734327098774,
+    "relativePath": "resources/images/BGL4.png"
+  },
+  "4b238b7b-a236-4026-ada3-83d9db5cac2e": {
+    "asset": 1734326356300,
+    "meta": 1734327098785,
+    "relativePath": "resources/images/Image 03_01.png"
+  },
+  "ed0d3ef9-c1ae-4757-973e-404f8d4f7d9b": {
+    "asset": 1734326356301,
+    "meta": 1734327098786,
+    "relativePath": "resources/images/Image 04.png"
+  },
+  "1c0bbb09-b5cc-43f6-90ab-d25cce87122d": {
+    "asset": 1734326356301,
+    "meta": 1734327098789,
+    "relativePath": "resources/images/Image 04_01.png"
+  },
+  "fab0b65a-ae1d-4ec4-b81c-cc9f45fdd3fd": {
+    "asset": 1734326356301,
+    "meta": 1734327098794,
+    "relativePath": "resources/images/Image 05.png"
+  },
+  "e0b31ae7-545e-4ff6-91de-1e7727e484c0": {
+    "asset": 1734326356301,
+    "meta": 1734327098795,
+    "relativePath": "resources/images/Image 05_01.png"
+  },
+  "9ced2c6f-4025-411a-be5d-b4719f0840b0": {
+    "asset": 1734326356302,
+    "meta": 1734327098796,
+    "relativePath": "resources/images/Image 11_01.png"
+  },
+  "ef582c57-a946-41d6-8ab4-2f64e3f05bb7": {
+    "asset": 1734326356302,
+    "meta": 1734327098798,
+    "relativePath": "resources/images/Image 11.png"
+  },
+  "a05e5b4e-bdb3-45d0-8d0d-b1fc3bca2342": {
+    "asset": 1734326356303,
+    "meta": 1734327098802,
+    "relativePath": "resources/images/b1.png"
+  },
+  "1a74e7e8-4609-4b3f-9e23-2bbd20c7dc5f": {
+    "asset": 1734327092132,
+    "meta": 1734327098803,
+    "relativePath": "resources/images/Image_06.png"
+  },
+  "c57ccef5-8219-43b9-9545-3a846dc0c797": {
+    "asset": 1734327092132,
+    "meta": 1734327098804,
+    "relativePath": "resources/images/Image_06_01.png"
+  },
+  "b3b2c4a2-1d55-4eed-b5b4-452d1f523c2f": {
+    "asset": 1734326356300,
+    "meta": 1734327098806,
+    "relativePath": "resources/images/Bg(8).png"
+  },
+  "ca3dc259-0a22-4d72-a9b4-299f1d1f1bba": {
+    "asset": 1734326356303,
+    "meta": 1734327098807,
+    "relativePath": "resources/images/b3.png"
+  },
+  "5364a39b-2889-4c3c-9379-2903f2cf2147": {
+    "asset": 1734326356303,
+    "meta": 1734327098808,
+    "relativePath": "resources/images/b2.png"
+  },
+  "29c25608-697d-4403-a78a-99903a1eed3e": {
+    "asset": 1734326356303,
+    "meta": 1734327098808,
+    "relativePath": "resources/images/b4.png"
+  },
+  "c64c86b6-23a7-4e11-a141-455b744d3154": {
+    "asset": 1734326356303,
+    "meta": 1734327098812,
+    "relativePath": "resources/images/b5.png"
+  },
+  "c938867a-53cd-4e7a-b6b6-507409d9531c": {
+    "asset": 1734326356304,
+    "meta": 1734327098815,
+    "relativePath": "resources/images/baloon2.png"
+  },
+  "c5285673-4288-4d86-906a-c40afef654fe": {
+    "asset": 1734326356304,
+    "meta": 1734327098817,
+    "relativePath": "resources/images/baloon3.png"
+  },
+  "23ed07df-7c69-4403-95c2-2d96570d5b7c": {
+    "asset": 1734326356303,
+    "meta": 1734327098822,
+    "relativePath": "resources/images/baloon1.png"
+  },
+  "c8ff7a15-47d6-40ad-a55f-12db3301d8d9": {
+    "asset": 1734326356304,
+    "meta": 1734327098850,
+    "relativePath": "resources/images/baloon4.png"
+  },
+  "413ed717-ea0a-472c-b0d7-5c8c89dcd738": {
+    "asset": 1734326356304,
+    "meta": 1734327098855,
+    "relativePath": "resources/images/baloon5-01.png"
+  },
+  "b111c865-06d0-4a69-963f-98b1cc3482eb": {
+    "asset": 1734326356304,
+    "meta": 1734327098866,
+    "relativePath": "resources/images/baloon5.png"
+  },
+  "df2fa7ac-efd2-4e52-8a3b-63a6c6408fe4": {
+    "asset": 1734326356305,
+    "meta": 1734327098869,
+    "relativePath": "resources/images/k1.png"
+  },
+  "20c872cf-3371-41de-a90b-eb07b7ba4b7a": {
+    "asset": 1734326356306,
+    "meta": 1734327098873,
+    "relativePath": "resources/images/title.png"
+  },
+  "81301e38-9329-465f-a97f-711c88a3e449": {
+    "asset": 1734326356305,
+    "meta": 1734327098873,
+    "relativePath": "resources/images/k2.png"
+  },
+  "e839aa62-08bd-43e9-95c2-8916b631249c": {
+    "asset": 1734326356305,
+    "meta": 1734327098874,
+    "relativePath": "resources/images/k3.png"
+  },
+  "e11e2b8c-9214-408b-9536-099bf34af8af": {
+    "asset": 1734326356305,
+    "meta": 1734327098874,
+    "relativePath": "resources/images/k4.png"
   }
 }
