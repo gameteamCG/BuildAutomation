@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "FLT",
+    "texture": "35526c2c-d547-402b-b542-965bedc11415",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      386,
+      191
+    ],
+    "offset": [
+      -5,
+      1
+    ],
+    "originalSize": [
+      404,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
