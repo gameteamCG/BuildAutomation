@@ -500,8 +500,8 @@
     "relativePath": "model/primitives.fbx"
   },
   "8c918e37-259f-4550-836f-95071737cfc9": {
-    "asset": 1734324789494,
-    "meta": 1734324813141,
+    "asset": 1734326362145,
+    "meta": 1734326362411,
     "relativePath": "resources"
   },
   "b2403447-330c-4b15-ac32-1744aea87b70": {
@@ -3258,5 +3258,240 @@
     "asset": 1734084984586,
     "meta": 1734324813559,
     "relativePath": "Games/Book_Prefab/titleAssets/BG.png"
+  },
+  "0bdfefb3-6c36-4392-af11-f1df4c2d5d26": {
+    "asset": 1734326362156,
+    "meta": 1734326362411,
+    "relativePath": "resources/audios"
+  },
+  "3d95df84-6f1c-411b-9ed0-ad39bd5bf985": {
+    "asset": 1734326362159,
+    "meta": 1734326362412,
+    "relativePath": "resources/images"
+  },
+  "0830934a-5dd7-41ee-9f45-ac404959a2a3": {
+    "asset": 1734326356294,
+    "meta": 1734326362538,
+    "relativePath": "resources/game_data.json"
+  },
+  "b77f16d4-3793-4492-8754-da1a5a6b9a97": {
+    "asset": 1734326356283,
+    "meta": 1734326363465,
+    "relativePath": "resources/audios/BL2question.mp3"
+  },
+  "db27d8bf-98fb-4f06-a66f-13ccc905a60f": {
+    "asset": 1734326356284,
+    "meta": 1734326363467,
+    "relativePath": "resources/audios/BRILLIANT.mp3"
+  },
+  "e4258cc7-4347-4664-9c66-999bdef31f37": {
+    "asset": 1734326356283,
+    "meta": 1734326363467,
+    "relativePath": "resources/audios/BL1question.mp3"
+  },
+  "48121cef-462e-461a-8786-e0f0561087fe": {
+    "asset": 1734326356283,
+    "meta": 1734326363468,
+    "relativePath": "resources/audios/BL3question.mp3"
+  },
+  "4b73813b-79d9-4bfe-bea0-996e3f1c011a": {
+    "asset": 1734326356282,
+    "meta": 1734326363468,
+    "relativePath": "resources/audios/B.mp3"
+  },
+  "541bcc44-e2b2-4b24-a735-aedddc1d86b1": {
+    "asset": 1734326356284,
+    "meta": 1734326363469,
+    "relativePath": "resources/audios/BL4question.mp3"
+  },
+  "a1a234e9-a506-4782-b484-9cb7b178006e": {
+    "asset": 1734326356286,
+    "meta": 1734326363469,
+    "relativePath": "resources/audios/FANTASTIC.mp3"
+  },
+  "ce19e0f7-b224-4bdf-8d3c-db8bb46cb678": {
+    "asset": 1734326356285,
+    "meta": 1734326363470,
+    "relativePath": "resources/audios/EXCELLENTJOB.mp3"
+  },
+  "43b80a60-391a-40fe-be9d-5597ce2290bc": {
+    "asset": 1734326356294,
+    "meta": 1734326363478,
+    "relativePath": "resources/audios/ohoh.mp3"
+  },
+  "c6692f52-2939-4cce-a0cc-fa1208ee2d27": {
+    "asset": 1734326356292,
+    "meta": 1734326363478,
+    "relativePath": "resources/audios/nevermind,tryagain.mp3"
+  },
+  "58601461-6af7-415b-bbc4-d891ff250d2c": {
+    "asset": 1734326356288,
+    "meta": 1734326363479,
+    "relativePath": "resources/audios/GOODJOB.mp3"
+  },
+  "43f545bd-6090-4271-a6eb-45f228be6358": {
+    "asset": 1734326356289,
+    "meta": 1734326363480,
+    "relativePath": "resources/audios/Oopsietryoncemore.mp3"
+  },
+  "7d5dce78-d51d-4f62-ae02-f481ab918d1f": {
+    "asset": 1734326356292,
+    "meta": 1734326363538,
+    "relativePath": "resources/audios/bgm_1.mp3"
+  },
+  "d29ad22d-1f86-4114-9330-bba6c33e8442": {
+    "asset": 1734326356300,
+    "meta": 1734326363510,
+    "relativePath": "resources/images/Image 03.png"
+  },
+  "718ad962-fb42-4cf9-8210-e5413c1c1e18": {
+    "asset": 1734326356300,
+    "meta": 1734326363531,
+    "relativePath": "resources/images/Image 03_01.png"
+  },
+  "e715d730-cb93-4201-ad96-5934bbf5648b": {
+    "asset": 1734326356296,
+    "meta": 1734326363536,
+    "relativePath": "resources/images/BGL3.png"
+  },
+  "bd16f2a9-0711-4f50-b273-e2ce99107229": {
+    "asset": 1734326356295,
+    "meta": 1734326363539,
+    "relativePath": "resources/images/BGL1.png"
+  },
+  "8e0ffe7b-aa53-428e-8da5-8e33d2c787cb": {
+    "asset": 1734326356295,
+    "meta": 1734326363554,
+    "relativePath": "resources/images/BGL2.png"
+  },
+  "41d3c945-6c45-4b91-93b9-1256d64369a5": {
+    "asset": 1734326356301,
+    "meta": 1734326363569,
+    "relativePath": "resources/images/Image 04.png"
+  },
+  "d525265d-68d2-4467-a1bc-1d480ac5cfed": {
+    "asset": 1734326356301,
+    "meta": 1734326363571,
+    "relativePath": "resources/images/Image 05.png"
+  },
+  "022f32c5-5857-4bb3-95cb-cea0a63d66cb": {
+    "asset": 1734326356301,
+    "meta": 1734326363573,
+    "relativePath": "resources/images/Image 06.png"
+  },
+  "2c52763f-de0d-4aaa-9647-524a1418cbc0": {
+    "asset": 1734326356301,
+    "meta": 1734326363576,
+    "relativePath": "resources/images/Image 04_01.png"
+  },
+  "8116dedd-21b5-4fff-9969-1457679ecbf6": {
+    "asset": 1734326356301,
+    "meta": 1734326363580,
+    "relativePath": "resources/images/Image 05_01.png"
+  },
+  "162e760f-a94e-4dc8-b399-00f8d561144d": {
+    "asset": 1734326356302,
+    "meta": 1734326363582,
+    "relativePath": "resources/images/Image 06_01.png"
+  },
+  "0fdd2f5c-2242-41fe-b008-66fa9cb5e31a": {
+    "asset": 1734326356303,
+    "meta": 1734326363588,
+    "relativePath": "resources/images/b2.png"
+  },
+  "b33d848f-afae-41c1-891a-90a69dfcb2b5": {
+    "asset": 1734326356303,
+    "meta": 1734326363589,
+    "relativePath": "resources/images/b1.png"
+  },
+  "d63127d4-7bd8-4945-bba7-ccd623818543": {
+    "asset": 1734326356297,
+    "meta": 1734326363599,
+    "relativePath": "resources/images/BGL4.png"
+  },
+  "dbb47519-70a6-4705-9797-07c2e6cc48cc": {
+    "asset": 1734326356302,
+    "meta": 1734326363600,
+    "relativePath": "resources/images/Image 11.png"
+  },
+  "bdd934a9-864e-47e8-b818-6a389e3fd5ba": {
+    "asset": 1734326356302,
+    "meta": 1734326363601,
+    "relativePath": "resources/images/Image 11_01.png"
+  },
+  "666ff997-6905-4184-969c-1dbfba3dab69": {
+    "asset": 1734326356300,
+    "meta": 1734326363602,
+    "relativePath": "resources/images/Bg(8).png"
+  },
+  "f7bb622c-71a9-46f4-8e03-4d1f1e656f47": {
+    "asset": 1734326356303,
+    "meta": 1734326363610,
+    "relativePath": "resources/images/b3.png"
+  },
+  "eb15a6cf-44d3-4d9b-952e-94cd29603500": {
+    "asset": 1734326356303,
+    "meta": 1734326363613,
+    "relativePath": "resources/images/b4.png"
+  },
+  "c72d5c3f-61a5-4346-b903-e9ff54d38cdb": {
+    "asset": 1734326356303,
+    "meta": 1734326363614,
+    "relativePath": "resources/images/b5.png"
+  },
+  "ac153a18-c709-49a5-a77d-e5843ceb95b5": {
+    "asset": 1734326356304,
+    "meta": 1734326363618,
+    "relativePath": "resources/images/baloon2.png"
+  },
+  "b1d38a7a-bd0f-4441-9836-91782dd979d3": {
+    "asset": 1734326356304,
+    "meta": 1734326363619,
+    "relativePath": "resources/images/baloon3.png"
+  },
+  "42b15eb6-562a-4bfe-a453-fa8ecb88bf3e": {
+    "asset": 1734326356304,
+    "meta": 1734326363620,
+    "relativePath": "resources/images/baloon4.png"
+  },
+  "b272cae3-731b-4038-b5d5-86b3773ce387": {
+    "asset": 1734326356303,
+    "meta": 1734326363621,
+    "relativePath": "resources/images/baloon1.png"
+  },
+  "819b2a55-d4cd-45cf-8948-f3d563b91920": {
+    "asset": 1734326356304,
+    "meta": 1734326363622,
+    "relativePath": "resources/images/baloon5-01.png"
+  },
+  "6245ff0d-798a-48fe-a9f8-df8e3e94aed7": {
+    "asset": 1734326356305,
+    "meta": 1734326363634,
+    "relativePath": "resources/images/k1.png"
+  },
+  "1dd3a030-5418-45eb-9e23-7146b0dbab52": {
+    "asset": 1734326356304,
+    "meta": 1734326363648,
+    "relativePath": "resources/images/baloon5.png"
+  },
+  "be0d8ada-1958-470d-a395-1e686f5fd990": {
+    "asset": 1734326356305,
+    "meta": 1734326363653,
+    "relativePath": "resources/images/k2.png"
+  },
+  "f8c8d0a1-d881-4a67-a29e-4000ca880113": {
+    "asset": 1734326356305,
+    "meta": 1734326363655,
+    "relativePath": "resources/images/k3.png"
+  },
+  "21e99b34-89ae-49f4-995a-99a05cf407fe": {
+    "asset": 1734326356305,
+    "meta": 1734326363674,
+    "relativePath": "resources/images/k4.png"
+  },
+  "7b2614c1-9152-41ea-aa91-90dcf1962f8d": {
+    "asset": 1734326356306,
+    "meta": 1734326363678,
+    "relativePath": "resources/images/title.png"
   }
 }
