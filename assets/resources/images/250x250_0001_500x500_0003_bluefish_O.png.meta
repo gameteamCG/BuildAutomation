@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6d78e2d9-c487-4330-af0d-128379ce28a9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0001_500x500_0003_bluefish_O": {
+      "ver": "1.0.6",
+      "uuid": "2c3e03eb-d072-4d27-adf7-8e427eb2bbaa",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6d78e2d9-c487-4330-af0d-128379ce28a9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 2,
+      "trimX": 0,
+      "trimY": 46,
+      "width": 250,
+      "height": 154,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
