@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ARROW",
+    "texture": "19b91e54-6317-4139-9373-3a37fba6b439",
+    "atlas": "",
+    "rect": [
+      34,
+      6,
+      432,
+      488
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
