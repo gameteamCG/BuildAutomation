@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "doodle_BG",
+    "texture": "76c1e96b-235d-4c7e-92eb-bcf9c0ded5fe",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1922,
+      1082
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1922,
+      1082
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
