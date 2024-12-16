@@ -500,8 +500,8 @@
     "relativePath": "model/primitives.fbx"
   },
   "8c918e37-259f-4550-836f-95071737cfc9": {
-    "asset": 1734324789494,
-    "meta": 1734324813141,
+    "asset": 1734328066874,
+    "meta": 1734328067149,
     "relativePath": "resources"
   },
   "b2403447-330c-4b15-ac32-1744aea87b70": {
@@ -3258,5 +3258,250 @@
     "asset": 1734084984586,
     "meta": 1734324813559,
     "relativePath": "Games/Book_Prefab/titleAssets/BG.png"
+  },
+  "d5d8371e-ac1d-462d-9a73-b47ff66d87ba": {
+    "asset": 1734328066886,
+    "meta": 1734328067149,
+    "relativePath": "resources/audios"
+  },
+  "14814ab1-fa1b-4fa6-98f6-ec1664681ef3": {
+    "asset": 1734328066890,
+    "meta": 1734328067150,
+    "relativePath": "resources/images"
+  },
+  "fb610af7-2812-42b7-b6ef-4eb02b230647": {
+    "asset": 1734328060388,
+    "meta": 1734328067243,
+    "relativePath": "resources/game_data.json"
+  },
+  "bc96eed6-2740-4ef7-a9a2-47f509611f5a": {
+    "asset": 1734328060375,
+    "meta": 1734328067586,
+    "relativePath": "resources/audios/Axe1.mp3"
+  },
+  "1d6ae513-699f-44cd-abfa-df64db2585ab": {
+    "asset": 1734328060374,
+    "meta": 1734328067587,
+    "relativePath": "resources/audios/A.mp3"
+  },
+  "377e2236-7538-4383-8175-779c79e9e41a": {
+    "asset": 1734326356284,
+    "meta": 1734328067587,
+    "relativePath": "resources/audios/BRILLIANT.mp3"
+  },
+  "57c68311-f81a-40d8-9f78-3340b96a79f7": {
+    "asset": 1734328060375,
+    "meta": 1734328067587,
+    "relativePath": "resources/audios/Apple1.mp3"
+  },
+  "795abb80-9423-4bd1-a0b0-68773cf213c7": {
+    "asset": 1734328060374,
+    "meta": 1734328067588,
+    "relativePath": "resources/audios/Ant1.mp3"
+  },
+  "b762e744-16c7-48b4-9368-5fb71ac03d59": {
+    "asset": 1734326356285,
+    "meta": 1734328067588,
+    "relativePath": "resources/audios/EXCELLENTJOB.mp3"
+  },
+  "35470a5b-4277-4d49-a308-6139f69af4f2": {
+    "asset": 1734326356286,
+    "meta": 1734328067589,
+    "relativePath": "resources/audios/FANTASTIC.mp3"
+  },
+  "fad6584f-36cd-4385-8013-ffda174b9b2d": {
+    "asset": 1734328060378,
+    "meta": 1734328067589,
+    "relativePath": "resources/audios/GREATWORK.mp3"
+  },
+  "12ce9375-0836-43fc-90da-7af20c0bd628": {
+    "asset": 1734328060379,
+    "meta": 1734328067592,
+    "relativePath": "resources/audios/L2question.mp3"
+  },
+  "761a1311-0e36-48d3-8500-0997d969db93": {
+    "asset": 1734326356292,
+    "meta": 1734328067594,
+    "relativePath": "resources/audios/nevermind,tryagain.mp3"
+  },
+  "29823b27-9dec-4216-b6f1-6e8eeacf6722": {
+    "asset": 1734326356294,
+    "meta": 1734328067594,
+    "relativePath": "resources/audios/ohoh.mp3"
+  },
+  "03319915-a3a9-43be-8a03-f2890b2b4a22": {
+    "asset": 1734328060382,
+    "meta": 1734328067595,
+    "relativePath": "resources/audios/LAQ1.mp3"
+  },
+  "35ca172b-1082-429c-82ef-56da4d07535d": {
+    "asset": 1734328060380,
+    "meta": 1734328067595,
+    "relativePath": "resources/audios/L3question.mp3"
+  },
+  "7eace722-938e-4a04-bb45-75d15202b883": {
+    "asset": 1734326356289,
+    "meta": 1734328067596,
+    "relativePath": "resources/audios/Oopsietryoncemore.mp3"
+  },
+  "fdc54de4-be52-43fe-b3bc-f5e51d23723b": {
+    "asset": 1734328060386,
+    "meta": 1734328067598,
+    "relativePath": "resources/audios/bgmm.mp3"
+  },
+  "beb2e85b-b6d3-4e3d-973b-e2ee0ccb6b18": {
+    "asset": 1734328060382,
+    "meta": 1734328067603,
+    "relativePath": "resources/audios/L4question.mp3"
+  },
+  "432e4869-4320-418c-acf5-fded84ac19ec": {
+    "asset": 1734328060390,
+    "meta": 1734328067612,
+    "relativePath": "resources/images/axe.png"
+  },
+  "bd50544e-d6ef-4d87-a110-b3d16acbdac6": {
+    "asset": 1734328060389,
+    "meta": 1734328067612,
+    "relativePath": "resources/images/applebw.png"
+  },
+  "445b376e-b0f2-482b-a252-f5a907e2b338": {
+    "asset": 1734328060389,
+    "meta": 1734328067614,
+    "relativePath": "resources/images/ant.png"
+  },
+  "3d59644b-e56d-4825-b074-db5df5ad40be": {
+    "asset": 1734328060389,
+    "meta": 1734328067615,
+    "relativePath": "resources/images/apple.png"
+  },
+  "94d0be3a-c3be-48da-b958-853bc8253db0": {
+    "asset": 1734328060389,
+    "meta": 1734328067615,
+    "relativePath": "resources/images/antbw.png"
+  },
+  "19d354bb-2a47-4954-aece-11c1351ad7b2": {
+    "asset": 1734328060390,
+    "meta": 1734328067621,
+    "relativePath": "resources/images/axebw.png"
+  },
+  "3343edbb-c308-4f44-bab8-4d4fe94f91f4": {
+    "asset": 1734328060400,
+    "meta": 1734328067635,
+    "relativePath": "resources/images/bird.png"
+  },
+  "45182a48-d160-4c12-bfc1-d70a5356cd6e": {
+    "asset": 1734328060400,
+    "meta": 1734328067642,
+    "relativePath": "resources/images/birdbw.png"
+  },
+  "f8525f12-5a52-4f87-9142-80bda15246f0": {
+    "asset": 1734326356300,
+    "meta": 1734328067643,
+    "relativePath": "resources/images/Bg(8).png"
+  },
+  "1b5425db-93cb-40ac-8b3c-3b218fbbf76b": {
+    "asset": 1734328060395,
+    "meta": 1734328067653,
+    "relativePath": "resources/images/bg1.png"
+  },
+  "55ff2a78-cf58-4cf2-9d6a-eb9c10adbf49": {
+    "asset": 1734328060397,
+    "meta": 1734328067668,
+    "relativePath": "resources/images/bg2.png"
+  },
+  "e5f579cc-bdad-42d9-b2b1-f30ea270ea86": {
+    "asset": 1734328060393,
+    "meta": 1734328067674,
+    "relativePath": "resources/images/bg.png"
+  },
+  "edf5bf2f-4389-4bcb-b14f-fcc7c0bcb373": {
+    "asset": 1734328060401,
+    "meta": 1734328067676,
+    "relativePath": "resources/images/c1.png"
+  },
+  "be215786-594c-4bc8-a5ee-8b43143f98ca": {
+    "asset": 1734328060401,
+    "meta": 1734328067678,
+    "relativePath": "resources/images/c3.png"
+  },
+  "1e8021ea-3e60-43f6-b8ec-629eefa88263": {
+    "asset": 1734328060399,
+    "meta": 1734328067678,
+    "relativePath": "resources/images/bg3.png"
+  },
+  "3c33c49c-6d6b-4307-93ec-52612caeb45d": {
+    "asset": 1734328060401,
+    "meta": 1734328067679,
+    "relativePath": "resources/images/c2.png"
+  },
+  "79769478-9e8e-4292-b0aa-58c81c2e54a3": {
+    "asset": 1734328060401,
+    "meta": 1734328067679,
+    "relativePath": "resources/images/c4.png"
+  },
+  "0c82d777-8f9f-4f10-8808-191852a7d670": {
+    "asset": 1734328060401,
+    "meta": 1734328067684,
+    "relativePath": "resources/images/c5.png"
+  },
+  "11febb95-41b9-4c47-88aa-b7286f94e10b": {
+    "asset": 1734328060402,
+    "meta": 1734328067685,
+    "relativePath": "resources/images/mag.png"
+  },
+  "9f5f4e5a-fb22-4e86-bb0d-c888bb18d0e1": {
+    "asset": 1734328060402,
+    "meta": 1734328067686,
+    "relativePath": "resources/images/r1_1.png"
+  },
+  "ec6d7381-5b09-4b4f-bec3-d68a1dc9d3af": {
+    "asset": 1734328060402,
+    "meta": 1734328067687,
+    "relativePath": "resources/images/magbw.png"
+  },
+  "c70440ba-6b26-4300-afc7-d3db8b2e6e58": {
+    "asset": 1734328060402,
+    "meta": 1734328067687,
+    "relativePath": "resources/images/r2_1.png"
+  },
+  "ce0c0a3a-ce5d-4cb2-a82f-c854d64401cb": {
+    "asset": 1734328060403,
+    "meta": 1734328067688,
+    "relativePath": "resources/images/r3_1.png"
+  },
+  "c01ab9f5-d9a8-4cc5-b0f3-0b9515c83913": {
+    "asset": 1734328060403,
+    "meta": 1734328067688,
+    "relativePath": "resources/images/r5_1.png"
+  },
+  "8c104013-d6f0-4fd7-a25d-3502ed7e6dc5": {
+    "asset": 1734328060403,
+    "meta": 1734328067689,
+    "relativePath": "resources/images/r4_1.png"
+  },
+  "d574b9a1-a09f-4c8c-b97f-e99e0ac95700": {
+    "asset": 1734328060403,
+    "meta": 1734328067694,
+    "relativePath": "resources/images/u2.png"
+  },
+  "01441b2b-8951-4d75-9caa-67b0c1f505fa": {
+    "asset": 1734328060403,
+    "meta": 1734328067694,
+    "relativePath": "resources/images/u1.png"
+  },
+  "289cd95d-1351-4c39-89f2-cab5ef5a6151": {
+    "asset": 1734328060404,
+    "meta": 1734328067695,
+    "relativePath": "resources/images/u3.png"
+  },
+  "f4e6a334-ff82-4c7d-b155-b4c500ad102c": {
+    "asset": 1734328060403,
+    "meta": 1734328067695,
+    "relativePath": "resources/images/titlea.png"
+  },
+  "e3dc8d65-f62d-43a2-82ac-404d13dc9bf2": {
+    "asset": 1734328060404,
+    "meta": 1734328067696,
+    "relativePath": "resources/images/u4.png"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "antbw",
+    "texture": "94d0be3a-c3be-48da-b958-853bc8253db0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      318,
+      250
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      318,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
