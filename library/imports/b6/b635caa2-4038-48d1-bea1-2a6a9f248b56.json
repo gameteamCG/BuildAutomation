@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_greyscale-fan",
+    "texture": "9a3e3059-c003-4497-bbb0-3fc6c635a22a",
+    "atlas": "",
+    "rect": [
+      97,
+      6,
+      309,
+      484
+    ],
+    "offset": [
+      1.5,
+      2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

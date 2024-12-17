@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0003_greyscale-fork",
+    "texture": "dbb5479b-309a-4262-a209-82614f35461f",
+    "atlas": "",
+    "rect": [
+      56,
+      20,
+      373,
+      470
+    ],
+    "offset": [
+      -7.5,
+      -5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
