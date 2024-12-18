@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Letter P",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/CINUR_Letter_P_Video1_CO_1734521220995.mp4",
+      "TitleImageName": "Asset 23.png",
+      "IntroAudio1Name": "35529603_1_hello-lovely-people.mp3",
+      "IntroAudio2Name": "35529603_2_today-we-will-learn-ab.mp3",
+      "JockeyName": "crayon",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
