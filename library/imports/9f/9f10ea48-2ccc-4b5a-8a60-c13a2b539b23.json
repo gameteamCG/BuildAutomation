@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "4gems",
+    "texture": "32c13d56-428c-4008-af43-1626f1247410",
+    "atlas": "",
+    "rect": [
+      67,
+      92,
+      304,
+      331
+    ],
+    "offset": [
+      -31,
+      -7.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
