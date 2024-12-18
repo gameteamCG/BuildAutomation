@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Recap 1 - 5_NUR_SB1_64",
+      "totalLevel": "5",
+      "TitleImageName": "Asset 123.png",
+      "introBgName": "Bg(8)-min.png",
+      "bgmMusicName": "B2.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "counting",
+        "questionAudioName": "match the number of objects to the correct number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "5-gem.png"
+        ],
+        "reiterations": [
+          "05.mp3"
+        ],
+        "commonRightOptionImageName": "puz.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "r5.png",
+          "r20.png"
+        ]
+      },
+      {
+        "questionText": "counting",
+        "questionAudioName": "match the number of objects to the correct number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "3gem.png"
+        ],
+        "reiterations": [
+          "03.mp3"
+        ],
+        "commonRightOptionImageName": "puz.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "g3.png",
+          "g21.png"
+        ]
+      },
+      {
+        "questionText": "counting",
+        "questionAudioName": "match the number of objects to the correct number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "1gem.png"
+        ],
+        "reiterations": [
+          "01.mp3"
+        ],
+        "commonRightOptionImageName": "puz.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "gr1.png",
+          "gr5.png"
+        ]
+      },
+      {
+        "questionText": "counting",
+        "questionAudioName": "match the number of objects to the correct number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "2gem.png"
+        ],
+        "reiterations": [
+          "02.mp3"
+        ],
+        "commonRightOptionImageName": "puz.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "p2.png",
+          "p6.png"
+        ]
+      },
+      {
+        "questionText": "counting",
+        "questionAudioName": "match the number of objects to the correct number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "4gems.png"
+        ],
+        "reiterations": [
+          "04.mp3"
+        ],
+        "commonRightOptionImageName": "puz.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "b4.png",
+          "b1.png"
+        ]
+      }
+    ]
+  }
+}
