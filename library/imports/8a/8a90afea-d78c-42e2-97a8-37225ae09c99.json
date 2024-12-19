@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "trafficcone",
+    "texture": "d478ef5d-fc0e-4840-9c62-e011e8856b89",
+    "atlas": "",
+    "rect": [
+      136,
+      81,
+      280,
+      359
+    ],
+    "offset": [
+      25.5,
+      -10
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
