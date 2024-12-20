@@ -3240,12 +3240,12 @@
     "_lineHeight": 60,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "755fbf85-3ec4-42a0-a730-ea432935f228"
+      "__uuid__": "76a75812-cc05-483f-a8f7-4ccf842f4aa4"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
-    "_styleFlags": 1,
+    "_styleFlags": 0,
     "_underlineHeight": 0,
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
@@ -3612,7 +3612,7 @@
     "_lineHeight": 100,
     "_enableWrapText": false,
     "_N$file": {
-      "__uuid__": "9e48cf96-557c-4032-bbbc-dac83dddce47"
+      "__uuid__": "76a75812-cc05-483f-a8f7-4ccf842f4aa4"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
