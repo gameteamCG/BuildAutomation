@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_envelope",
+    "texture": "067c9160-08d3-40eb-9b01-9cb3316cc312",
+    "atlas": "",
+    "rect": [
+      60,
+      114,
+      379,
+      273
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
