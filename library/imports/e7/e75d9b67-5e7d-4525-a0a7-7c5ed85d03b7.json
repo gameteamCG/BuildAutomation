@@ -1,0 +1,171 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "\"Letter Cc_119 Letters and sounds\"",
+      "totalLevel": "6",
+      "TitleImageName": "letterc.png",
+      "introBgName": "bgtitlemain.png",
+      "bgmMusicName": "BGM1.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bgl1.png",
+        "questionAudioName": "identifytheletterC.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset197.png",
+          "Asset198.png",
+          "Asset199.png",
+          "Asset200.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "CSAYSCCC.mp3",
+          "CSAYSCCC.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "bgl2.png",
+        "questionAudioName": "ChoosetheuppercaseletterC.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset201.png",
+          "Asset203.png",
+          "Asset202.png",
+          "Asset204.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "CSAYSCCC.mp3",
+          "CSAYSCCC.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "BG42.png",
+        "questionAudioName": "TaponthelowercasletterC.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset211.png",
+          "Asset210.png",
+          "Asset212.png",
+          "Asset209.png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "nevermindryagain.mp3",
+        "reiterationAudioName": [
+          "CSAYSCCC.mp3",
+          "CSAYSCCC.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BGL5.png",
+        "questionAudioName": "taponthepicturethatbeginswithlettersoundc.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "anchor.png",
+          "cat.png",
+          "fish1.png"
+        ],
+        "optionsBg": [
+          "anchor2.png",
+          "catbw.png",
+          "fishbw.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "cat.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BGL5.png",
+        "questionAudioName": "taponthepicturethatbeginswithlettersoundc.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "camel.png",
+          "jacket.png",
+          "lockL4.png"
+        ],
+        "optionsBg": [
+          "camel2.png",
+          "jacket2.png",
+          "lockL4BW.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "wrongAudioName": "nevermindryagain.mp3",
+        "reiterationAudioName": [
+          "camel.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BGL5.png",
+        "questionAudioName": "taponthepicturethatbeginswithlettersoundc.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "jet.png",
+          "lotusL5.png",
+          "carrot.png"
+        ],
+        "optionsBg": [
+          "jet2.png",
+          "lotusL5BW.png",
+          "carrotbw.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "carrot.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
