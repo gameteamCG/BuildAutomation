@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "elbow",
+    "texture": "6973feda-3687-4afb-8c9b-280abf36cad5",
+    "atlas": "",
+    "rect": [
+      10,
+      13,
+      281,
+      281
+    ],
+    "offset": [
+      0,
+      -3
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Anagrams_Grade1_Grammar_R11",
+      "totalLevel": "10",
+      "TitleImageName": "Anagrams.png",
+      "introBgName": "jaipuria_introBG.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "asdfghjk.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "swipe to spell the word for the picture",
+        "questionImageName": "post.png",
+        "questionAudioName": "Swipe to spell the word for the picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset2.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": 0,
+        "options": [
+          "s",
+          "t",
+          "o",
+          "p"
+        ],
+        "correctAnswer": "post",
+        "correctAudioName": "35590677_2_post.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe to spell the word for the picture",
+        "questionImageName": "trap.png",
+        "questionAudioName": "Swipe to spell the word for the picture.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "Asset2.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": 0,
+        "options": [
+          "p",
+          "a",
+          "r",
+          "t"
+        ],
+        "correctAnswer": "trap",
+        "correctAudioName": "35590677_3_trap.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe to spell the word for the picture",
+        "questionImageName": "stone.png",
+        "questionAudioName": "Swipe to spell the word for the picture.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "Asset2.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "n",
+          "o",
+          "t",
+          "e",
+          "s"
+        ],
+        "correctAnswer": "stone",
+        "correctAudioName": "35590677_4_stone.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe to spell the word for the picture",
+        "questionImageName": "vase.png",
+        "questionAudioName": "Swipe to spell the word for the picture.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "Asset2.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": 0,
+        "options": [
+          "s",
+          "a",
+          "v",
+          "e"
+        ],
+        "correctAnswer": "vase",
+        "correctAudioName": "35590677_5_vase.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe to spell the word for the picture",
+        "questionImageName": "heart.png",
+        "questionAudioName": "Swipe to spell the word for the picture.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "Asset2.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "e",
+          "a",
+          "r",
+          "t",
+          "h"
+        ],
+        "correctAnswer": "heart",
+        "correctAudioName": "35590677_6_heart.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe to spell the word for the picture",
+        "questionImageName": "star.png",
+        "questionAudioName": "Swipe to spell the word for the picture.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "Asset2.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": 0,
+        "options": [
+          "a",
+          "r",
+          "t",
+          "s"
+        ],
+        "correctAnswer": "star",
+        "correctAudioName": "35590677_7_star.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe to spell the word for the picture",
+        "questionImageName": "seal.png",
+        "questionAudioName": "Swipe to spell the word for the picture.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "Asset2.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": 0,
+        "options": [
+          "s",
+          "a",
+          "l",
+          "e"
+        ],
+        "correctAnswer": "seal",
+        "correctAudioName": "35590677_8_seal.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe to spell the word for the picture",
+        "questionImageName": "fox.png",
+        "questionAudioName": "Swipe to spell the word for the picture.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "Asset2.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "optionOffset": 0,
+        "options": [
+          "f",
+          "l",
+          "o",
+          "w"
+        ],
+        "correctAnswer": "wolf",
+        "correctAudioName": "35590677_9_wolf.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe to spell the word for the picture",
+        "questionImageName": "night.png",
+        "questionAudioName": "Swipe to spell the word for the picture.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "Asset2.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "t",
+          "h",
+          "i",
+          "n",
+          "g"
+        ],
+        "correctAnswer": "night",
+        "correctAudioName": "35590677_10_night.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      },
+      {
+        "questionText": "swipe to spell the word for the picture",
+        "questionImageName": "elbow.png",
+        "questionAudioName": "Swipe to spell the word for the picture.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "Asset2.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "b",
+          "e",
+          "l",
+          "o",
+          "w"
+        ],
+        "correctAnswer": "below",
+        "correctAudioName": "35590677_11_elbow.mp3",
+        "needReiteration": false,
+        "reiterationImageName": ""
+      }
+    ]
+  }
+}

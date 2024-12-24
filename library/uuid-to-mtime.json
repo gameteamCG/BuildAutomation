@@ -500,8 +500,8 @@
     "relativePath": "model/primitives.fbx"
   },
   "40a993b1-3447-4e2b-900f-fd7cb4194588": {
-    "asset": 1735030101368,
-    "meta": 1735030136133,
+    "asset": 1735032473285,
+    "meta": 1735032473511,
     "relativePath": "resources"
   },
   "e4935a66-3da6-4866-b748-ecb7fdf110de": {
@@ -1245,8 +1245,8 @@
     "relativePath": "Framework/WebView/WebviewAssets/new/Union.png"
   },
   "28e455cb-839d-4546-9b3d-9653d8d88f92": {
-    "asset": 1735030135849,
-    "meta": 1735030136133,
+    "asset": 1735030309765,
+    "meta": 1735032473511,
     "relativePath": "Games"
   },
   "e1521522-5541-43b2-b8d5-7c12eeaf9316": {
@@ -3113,5 +3113,150 @@
     "asset": 1735030309762,
     "meta": 1735030309766,
     "relativePath": "Games/jaipuria4 (1).ttf"
+  },
+  "96874115-93ba-4395-b51a-e5c4a0aa2807": {
+    "asset": 1735032473300,
+    "meta": 1735032473512,
+    "relativePath": "resources/audios"
+  },
+  "63dd482d-abcf-4123-9748-21f07a44770d": {
+    "asset": 1735032473301,
+    "meta": 1735032473512,
+    "relativePath": "resources/images"
+  },
+  "446751e8-e696-418a-aa90-76367f8d3423": {
+    "asset": 1735032466736,
+    "meta": 1735032473587,
+    "relativePath": "resources/game_data.json"
+  },
+  "7478dac3-7d31-43f5-8103-8854a24b634f": {
+    "asset": 1735032466734,
+    "meta": 1735032473952,
+    "relativePath": "resources/audios/35590677_3_trap.mp3"
+  },
+  "0a595394-8092-45b6-b032-56e659fe94f9": {
+    "asset": 1735032466735,
+    "meta": 1735032473952,
+    "relativePath": "resources/audios/35590677_7_star.mp3"
+  },
+  "ac7baace-97e4-496f-b550-9bfa4f7f516e": {
+    "asset": 1735032466735,
+    "meta": 1735032473953,
+    "relativePath": "resources/audios/35590677_4_stone.mp3"
+  },
+  "734e1321-f121-460c-ba82-8b3aa61b97fd": {
+    "asset": 1735032466734,
+    "meta": 1735032473953,
+    "relativePath": "resources/audios/35590677_2_post.mp3"
+  },
+  "8fb531ab-2d8a-4292-bf51-d647a5efdc4d": {
+    "asset": 1735032466734,
+    "meta": 1735032473954,
+    "relativePath": "resources/audios/35590677_11_elbow.mp3"
+  },
+  "4c3d1a1f-e84a-48c2-b651-10e7f60185cd": {
+    "asset": 1735032466735,
+    "meta": 1735032473954,
+    "relativePath": "resources/audios/35590677_5_vase.mp3"
+  },
+  "5e501e80-f12e-4673-9187-2db6ee28b169": {
+    "asset": 1735032466734,
+    "meta": 1735032473955,
+    "relativePath": "resources/audios/35590677_10_night.mp3"
+  },
+  "916e63a7-04a9-415c-a61c-9d01e439f445": {
+    "asset": 1735032466735,
+    "meta": 1735032473955,
+    "relativePath": "resources/audios/35590677_6_heart.mp3"
+  },
+  "ef3736d2-8a0a-4fa2-a280-9743d2af5038": {
+    "asset": 1735032466735,
+    "meta": 1735032473957,
+    "relativePath": "resources/audios/35590677_8_seal.mp3"
+  },
+  "2fc9b21a-3388-4b5b-97ae-dbab134b546a": {
+    "asset": 1735032466735,
+    "meta": 1735032473959,
+    "relativePath": "resources/audios/35590677_9_wolf.mp3"
+  },
+  "0ff16980-ab61-4fd0-bd32-f7e86c923d10": {
+    "asset": 1735032466736,
+    "meta": 1735032473961,
+    "relativePath": "resources/audios/Swipe to spell the word for the picture.mp3"
+  },
+  "9c6c783f-1343-40e0-9e60-35983e7379e3": {
+    "asset": 1735032466736,
+    "meta": 1735032473963,
+    "relativePath": "resources/audios/BGM.mp3"
+  },
+  "a970374c-34ce-4cb3-aa8a-8610087042da": {
+    "asset": 1735032466736,
+    "meta": 1735032473968,
+    "relativePath": "resources/images/Asset2.png"
+  },
+  "6973feda-3687-4afb-8c9b-280abf36cad5": {
+    "asset": 1735032466739,
+    "meta": 1735032473971,
+    "relativePath": "resources/images/elbow.png"
+  },
+  "9449bda8-1f00-448d-9792-94c7a4d40950": {
+    "asset": 1735032466739,
+    "meta": 1735032473978,
+    "relativePath": "resources/images/fox.png"
+  },
+  "16403e27-65f0-48e3-8cef-6803376a1b30": {
+    "asset": 1735032466736,
+    "meta": 1735032473983,
+    "relativePath": "resources/images/Anagrams.png"
+  },
+  "0532c2bd-05b8-4c13-bf61-945686901a53": {
+    "asset": 1735032466739,
+    "meta": 1735032473984,
+    "relativePath": "resources/images/heart.png"
+  },
+  "527d9495-dd96-459f-ae73-f9f502c18844": {
+    "asset": 1735032466739,
+    "meta": 1735032473985,
+    "relativePath": "resources/images/asdfghjk.png"
+  },
+  "e40cbe75-e93e-4fad-84bb-fe42282794f2": {
+    "asset": 1735032466741,
+    "meta": 1735032473990,
+    "relativePath": "resources/images/post.png"
+  },
+  "942b360a-3180-4c2c-a214-cfcc8eae4e94": {
+    "asset": 1735032466741,
+    "meta": 1735032473992,
+    "relativePath": "resources/images/seal.png"
+  },
+  "d9a3b4c6-ce14-47c1-8027-0f8b78c0a8c3": {
+    "asset": 1735032466741,
+    "meta": 1735032473993,
+    "relativePath": "resources/images/night.png"
+  },
+  "805650e8-6c44-47d3-8b43-fadc3d92a25e": {
+    "asset": 1735032466741,
+    "meta": 1735032473998,
+    "relativePath": "resources/images/star.png"
+  },
+  "3aece4b0-2df9-424d-9279-a878f835fc27": {
+    "asset": 1735032466742,
+    "meta": 1735032473999,
+    "relativePath": "resources/images/stone.png"
+  },
+  "2fb75e62-0acc-4c58-9cab-5b6cef0d896e": {
+    "asset": 1735032466742,
+    "meta": 1735032473999,
+    "relativePath": "resources/images/trap.png"
+  },
+  "44ebc417-2312-47dc-b6a3-3780b0253506": {
+    "asset": 1735032466742,
+    "meta": 1735032474000,
+    "relativePath": "resources/images/vase.png"
+  },
+  "f623d3ef-6b88-44d3-a9a5-d1beafb24eaf": {
+    "asset": 1735032466741,
+    "meta": 1735032474030,
+    "relativePath": "resources/images/jaipuria_introBG.png"
   }
 }

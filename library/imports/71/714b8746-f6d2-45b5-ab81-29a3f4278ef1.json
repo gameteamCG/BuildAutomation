@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "post",
+    "texture": "e40cbe75-e93e-4fad-84bb-fe42282794f2",
+    "atlas": "",
+    "rect": [
+      41,
+      41,
+      221,
+      260
+    ],
+    "offset": [
+      1,
+      -20.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
