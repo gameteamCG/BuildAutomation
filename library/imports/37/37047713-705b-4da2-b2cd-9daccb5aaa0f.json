@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3gem",
+    "texture": "462d4ab7-b44f-4e8d-a466-41ce60658c01",
+    "atlas": "",
+    "rect": [
+      62,
+      69,
+      338,
+      392
+    ],
+    "offset": [
+      -19,
+      -15
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
