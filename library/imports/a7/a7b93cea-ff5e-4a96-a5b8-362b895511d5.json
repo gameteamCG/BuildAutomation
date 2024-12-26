@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "orderingOfDecimalsTitle",
+    "texture": "abb9ddb0-cd32-43cc-9d28-de4d27131104",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1013,
+      442
+    ],
+    "offset": [
+      -2,
+      6.5
+    ],
+    "originalSize": [
+      1017,
+      455
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
