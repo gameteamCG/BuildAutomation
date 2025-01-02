@@ -1,7 +1,7 @@
 {
   "41cb720b-016b-4a00-8d41-5678b3576640": {
-    "asset": 1735814384837,
-    "meta": 1735814400848,
+    "asset": 1735814520802,
+    "meta": 1735814521047,
     "relativePath": "resources"
   },
   "b8a4e049-7fa7-4d01-b7c8-eb785f2427a6": {
@@ -3158,5 +3158,125 @@
     "asset": 1735813980399,
     "meta": 1735813998192,
     "relativePath": "Games/Matching/Assets/BG.png"
+  },
+  "81d2fa10-05a1-4cc0-961b-89e19e0d511b": {
+    "asset": 1735814520818,
+    "meta": 1735814521048,
+    "relativePath": "resources/audios"
+  },
+  "1c8103c1-ed43-478e-bda9-375db22802a4": {
+    "asset": 1735814520819,
+    "meta": 1735814521048,
+    "relativePath": "resources/images"
+  },
+  "1ede3564-6fe3-4361-afa6-255ba8dad418": {
+    "asset": 1735814515021,
+    "meta": 1735814521116,
+    "relativePath": "resources/game_data.json"
+  },
+  "988ffe72-e2fa-4f1c-b2d9-508d01170a6d": {
+    "asset": 1735814515018,
+    "meta": 1735814521428,
+    "relativePath": "resources/audios/36328230_13_sheep--sheep.mp3"
+  },
+  "7fa177d7-80d9-458d-8035-334b07c675aa": {
+    "asset": 1735814515017,
+    "meta": 1735814521435,
+    "relativePath": "resources/audios/36328230_10_leaf--leaves.mp3"
+  },
+  "9814858e-96a1-4eba-a239-7e45710ca066": {
+    "asset": 1735814515017,
+    "meta": 1735814521435,
+    "relativePath": "resources/audios/36328230_12_calf--calves.mp3"
+  },
+  "31dcd25b-a885-4676-acf5-a224d8206e8d": {
+    "asset": 1735814515018,
+    "meta": 1735814521436,
+    "relativePath": "resources/audios/36328230_3_box--boxes.mp3"
+  },
+  "a328997d-e525-4a73-b488-7c19e0c39c19": {
+    "asset": 1735814515018,
+    "meta": 1735814521436,
+    "relativePath": "resources/audios/36328230_4_baby--babies.mp3"
+  },
+  "04ba9d1f-e322-4e62-8e14-b904349871cb": {
+    "asset": 1735814515018,
+    "meta": 1735814521436,
+    "relativePath": "resources/audios/36328230_2_book--books.mp3"
+  },
+  "4c418f19-c439-4b15-b111-c38569b5947e": {
+    "asset": 1735814515018,
+    "meta": 1735814521437,
+    "relativePath": "resources/audios/36328230_14_cactus--cacti.mp3"
+  },
+  "405048d9-cf44-470e-ac86-44fe9337da26": {
+    "asset": 1735814515018,
+    "meta": 1735814521437,
+    "relativePath": "resources/audios/36328230_15_moose--moose.mp3"
+  },
+  "e1e644a7-ef4c-43ee-8027-c2a3986534f2": {
+    "asset": 1735814515019,
+    "meta": 1735814521443,
+    "relativePath": "resources/audios/36328230_7_door--doors.mp3"
+  },
+  "fd1cd1e0-31da-43e2-823f-29851434f57a": {
+    "asset": 1735814515018,
+    "meta": 1735814521443,
+    "relativePath": "resources/audios/36328230_5_chair--chairs.mp3"
+  },
+  "848a8585-5776-4e75-b1ae-a9fca0457f03": {
+    "asset": 1735814515021,
+    "meta": 1735814521445,
+    "relativePath": "resources/audios/Fungus_fungi.mp3"
+  },
+  "b7c70411-7de1-4ea7-bec3-90327f920cb4": {
+    "asset": 1735814515019,
+    "meta": 1735814521446,
+    "relativePath": "resources/audios/36328230_8_deer--deer.mp3"
+  },
+  "a9044533-7724-4bf8-98fa-4ecc3a3b4236": {
+    "asset": 1735814515019,
+    "meta": 1735814521446,
+    "relativePath": "resources/audios/36328230_9_class--classes.mp3"
+  },
+  "ebd2d483-a03e-4591-8e2d-da09587dd806": {
+    "asset": 1735814515018,
+    "meta": 1735814521446,
+    "relativePath": "resources/audios/36328230_6_city--cities.mp3"
+  },
+  "8d718033-b954-43ea-9321-67678f0d6471": {
+    "asset": 1735814515021,
+    "meta": 1735814521448,
+    "relativePath": "resources/audios/QAud.mp3"
+  },
+  "08357851-7edc-4e96-9598-8954e766fb0d": {
+    "asset": 1735814515021,
+    "meta": 1735814521449,
+    "relativePath": "resources/audios/Francesco_Biondi_ Kids_Games.mp3"
+  },
+  "f35d3f7a-50c3-4095-9380-c5791598952b": {
+    "asset": 1735814515027,
+    "meta": 1735814521470,
+    "relativePath": "resources/images/left.png"
+  },
+  "e0edb756-a301-4311-8674-18e4c1806f00": {
+    "asset": 1735814515036,
+    "meta": 1735814521478,
+    "relativePath": "resources/images/right.png"
+  },
+  "5de77825-d3a7-4d3a-b8a8-ed9a6aa6e0c4": {
+    "asset": 1735814515037,
+    "meta": 1735814521490,
+    "relativePath": "resources/images/title.png"
+  },
+  "8244864c-a7ce-4bfd-acb2-65ed33862e6f": {
+    "asset": 1735814515036,
+    "meta": 1735814521500,
+    "relativePath": "resources/images/mainBg.png"
+  },
+  "4d092273-c8f9-4008-bd65-49933c92f071": {
+    "asset": 1735814515026,
+    "meta": 1735814521513,
+    "relativePath": "resources/images/Bg.png"
   }
 }
