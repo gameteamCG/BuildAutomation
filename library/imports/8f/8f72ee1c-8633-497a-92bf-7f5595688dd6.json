@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "joy",
+    "texture": "9249f1c9-e496-48bc-afb1-7b7204c1ba9a",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      63,
+      44
+    ],
+    "offset": [
+      -2,
+      -4.5
+    ],
+    "originalSize": [
+      67,
+      55
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

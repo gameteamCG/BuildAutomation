@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "honesty",
+    "texture": "4ada89f7-9ad3-4e92-891f-40c8d9cfb6b3",
+    "atlas": "",
+    "rect": [
+      3,
+      8,
+      152,
+      47
+    ],
+    "offset": [
+      -1,
+      -4
+    ],
+    "originalSize": [
+      160,
+      55
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

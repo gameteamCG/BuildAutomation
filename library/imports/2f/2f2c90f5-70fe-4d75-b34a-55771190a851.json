@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "peace",
+    "texture": "2c5b6eb8-473d-49d1-9698-1959b2ae5252",
+    "atlas": "",
+    "rect": [
+      2,
+      20,
+      111,
+      35
+    ],
+    "offset": [
+      -0.5,
+      -10
+    ],
+    "originalSize": [
+      116,
+      55
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

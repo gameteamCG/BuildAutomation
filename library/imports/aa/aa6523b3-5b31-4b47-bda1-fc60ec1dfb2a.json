@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shame",
+    "texture": "cf4346d7-f580-404c-89d4-52e0bb686540",
+    "atlas": "",
+    "rect": [
+      2,
+      8,
+      127,
+      34
+    ],
+    "offset": [
+      0,
+      2.5
+    ],
+    "originalSize": [
+      131,
+      55
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

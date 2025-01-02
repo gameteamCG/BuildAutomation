@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fear",
+    "texture": "794a9f77-3aa0-4548-a2cb-506397f8b681",
+    "atlas": "",
+    "rect": [
+      1,
+      8,
+      81,
+      47
+    ],
+    "offset": [
+      -0.5,
+      -4
+    ],
+    "originalSize": [
+      84,
+      55
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Concrete and abstract nouns_Grade 4 (Grammar)_R4",
+      "totalLevel": "8",
+      "TitleImageName": "titleImage.png",
+      "introBgName": "bg1.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "concrete noun",
+        "questionImageName": "basket.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "1.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "apple.png",
+          "dog.png",
+          "anger.png",
+          "love.png"
+        ],
+        "correctAudios": [
+          "appleConcrete.mp3",
+          "dogConcrete.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionText": "abstract noun",
+        "questionImageName": "basket.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "2.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "anger.png",
+          "chair.png",
+          "love.png",
+          "table.png"
+        ],
+        "correctAudios": [
+          "angerAbstract.mp3",
+          "loveAbstract.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionText": "concrete noun",
+        "questionImageName": "basket.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "4.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "chair.png",
+          "peace.png",
+          "pride.png",
+          "pencil.png"
+        ],
+        "correctAudios": [
+          "chairConcrete.mp3",
+          "pencilCOncrete.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionText": "abstract noun",
+        "questionImageName": "basket.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "3.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "table.png",
+          "peace.png",
+          "apple.png",
+          "fear.png"
+        ],
+        "correctAudios": [
+          "peaceAbstract.mp3",
+          "fearAbstract.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionText": "concrete noun",
+        "questionImageName": "basket.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "1.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "joy.png",
+          "table.png",
+          "book.png",
+          "honesty.png"
+        ],
+        "correctAudios": [
+          "tableConcrete.mp3",
+          "bookConcrete.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionText": "abstract noun",
+        "questionImageName": "basket.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "2.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "apple.png",
+          "honesty.png",
+          "joy.png",
+          "pencil.png"
+        ],
+        "correctAudios": [
+          "honestyAbstract.mp3",
+          "joyAbstract.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionText": "concrete noun",
+        "questionImageName": "basket.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "4.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "home.png",
+          "anger.png",
+          "car.png",
+          "shame.png"
+        ],
+        "correctAudios": [
+          "houseConcrete.mp3",
+          "carConcrete.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionText": "abstract noun",
+        "questionImageName": "basket.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "3.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "chair.png",
+          "shame.png",
+          "dog.png",
+          "pride.png"
+        ],
+        "correctAudios": [
+          "shameAbstract.mp3",
+          "prideAbstract.mp3"
+        ],
+        "correctAnswerNum": "24"
+      }
+    ]
+  }
+}
