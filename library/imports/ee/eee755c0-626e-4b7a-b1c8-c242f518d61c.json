@@ -1606,7 +1606,7 @@
     "_N$string": "",
     "_fontSize": 80,
     "_lineHeight": 100,
-    "_enableWrapText": true,
+    "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "b3221d21-fb24-4e55-9e9b-6a32c040cfe0"
     },
