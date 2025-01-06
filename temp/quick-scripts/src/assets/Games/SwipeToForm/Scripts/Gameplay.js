@@ -263,7 +263,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
             }
         }
-        var optionTextFontSize = 200;
+        var optionTextFontSize = 100;
         var _loop_2 = function (i) {
             // let optionNode = this.optionsNode.children[i];
             //create options

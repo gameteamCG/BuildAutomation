@@ -500,8 +500,8 @@
     "relativePath": "model/primitives.fbx"
   },
   "40a993b1-3447-4e2b-900f-fd7cb4194588": {
-    "asset": 1736165211428,
-    "meta": 1736165227958,
+    "asset": 1736166000215,
+    "meta": 1736166000473,
     "relativePath": "resources"
   },
   "e4935a66-3da6-4866-b748-ecb7fdf110de": {
@@ -3110,8 +3110,98 @@
     "relativePath": "Games/jaipuria4 (1).ttf"
   },
   "57a4fc52-33e4-4f83-ab92-c4a52b03c214": {
-    "asset": 1736165833825,
-    "meta": 1736165837268,
+    "asset": 1736165908718,
+    "meta": 1736166001093,
     "relativePath": "Games/SwipeToForm/Scripts/Gameplay.ts"
+  },
+  "3db12d96-08c8-4224-bff9-8a5873c64b27": {
+    "asset": 1736166000232,
+    "meta": 1736166000473,
+    "relativePath": "resources/audios"
+  },
+  "890d1b4e-4804-4cee-8994-8468af3aa597": {
+    "asset": 1736166000232,
+    "meta": 1736166000473,
+    "relativePath": "resources/images"
+  },
+  "719fc329-41ec-4ed1-b6fa-31404cba85ba": {
+    "asset": 1736165994349,
+    "meta": 1736166000563,
+    "relativePath": "resources/game_data.json"
+  },
+  "9b823b26-62c7-42cb-a512-a259b1a594bf": {
+    "asset": 1736165994338,
+    "meta": 1736166000908,
+    "relativePath": "resources/audios/A young aspiring talented artist.mp3"
+  },
+  "7ba29276-c5f6-477c-be9c-b1d3fb91bfc9": {
+    "asset": 1736165994337,
+    "meta": 1736166000910,
+    "relativePath": "resources/audios/A small brown wooden table.mp3"
+  },
+  "18285b6e-837f-44e2-9335-aaed13a5b9c4": {
+    "asset": 1736165994338,
+    "meta": 1736166000910,
+    "relativePath": "resources/audios/An expensive new black car.mp3"
+  },
+  "b4e466c7-6e94-4380-b68d-290ded0f26af": {
+    "asset": 1736165994337,
+    "meta": 1736166000911,
+    "relativePath": "resources/audios/A brave loyal golden dog.mp3"
+  },
+  "95bb3717-a73c-4217-85fb-137c58222b50": {
+    "asset": 1736165994337,
+    "meta": 1736166000911,
+    "relativePath": "resources/audios/A beautiful red silk dress.mp3"
+  },
+  "7dfe948d-4061-4252-882c-8b4f095fae6b": {
+    "asset": 1736165994339,
+    "meta": 1736166000912,
+    "relativePath": "resources/audios/An old square blue box.mp3"
+  },
+  "6f37533c-2cca-4925-b45f-349ecdbc5e8f": {
+    "asset": 1736165994337,
+    "meta": 1736166000912,
+    "relativePath": "resources/audios/A shiny new silver bracelet.mp3"
+  },
+  "80e2ec09-4bf1-4a41-bfcf-e31b77b26869": {
+    "asset": 1736165994337,
+    "meta": 1736166000913,
+    "relativePath": "resources/audios/A small round green hat.mp3"
+  },
+  "33cc9543-a9ee-4488-8f15-f0c354cb4686": {
+    "asset": 1736165994349,
+    "meta": 1736166001100,
+    "relativePath": "resources/audios/qVo.mp3"
+  },
+  "288f6901-afba-4f63-ac79-dbe4164ec975": {
+    "asset": 1736165994357,
+    "meta": 1736166001101,
+    "relativePath": "resources/images/qVo.mp3"
+  },
+  "3f2c76c9-bdb4-48af-b26d-0f3f136d229a": {
+    "asset": 1736165994348,
+    "meta": 1736166001107,
+    "relativePath": "resources/audios/bgm_sc.mp3"
+  },
+  "46941587-6196-4aee-a6d4-a63f7d0784e7": {
+    "asset": 1736165994354,
+    "meta": 1736166001122,
+    "relativePath": "resources/images/common.png"
+  },
+  "085a2527-9bdc-44e6-bdb5-2e082c079c03": {
+    "asset": 1736165994357,
+    "meta": 1736166001124,
+    "relativePath": "resources/images/title.png"
+  },
+  "e48ca964-f5e3-4291-a2b1-1f7141a420f5": {
+    "asset": 1736165994356,
+    "meta": 1736166001145,
+    "relativePath": "resources/images/mainBg.png"
+  },
+  "2076b8d1-dd83-4ecb-a9cb-2c2361ec77a8": {
+    "asset": 1736165994354,
+    "meta": 1736166001158,
+    "relativePath": "resources/images/Bg.png"
   }
 }
