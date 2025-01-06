@@ -272,9 +272,12 @@ export default class Gameplay extends cc.Component {
             }
         }
 
+        let optionTextFontSize = 100;
+
         for (let i = 0; i < numberOfOptions; i++) {
             // let optionNode = this.optionsNode.children[i];
             //create options
+
             let optionNode: cc.Node = cc.instantiate(this.node.getChildByName("template"));
             optionNode.name = (i + 1).toString();
             optionNode.setParent(this.optionsNode);
@@ -304,6 +307,10 @@ export default class Gameplay extends cc.Component {
                 optionNode.getChildByName("img").active = false;
                 optionNode.getChildByName("text").active = true;
                 optionNode.getChildByName("text").getComponent(cc.Label).string = options[i];
+                if (optionNode.getChildByName("text").getComponent(cc.Label).fontSize < optionTextFontSize) {
+                    optionTextFontSize = optionNode.getChildByName("text").getComponent(cc.Label).fontSize;
+                }
+                optionNode.getChildByName("text").getComponent(cc.Label).fontSize = optionTextFontSize;
             }
             else {
                 optionNode.getChildByName("img").active = true;
@@ -331,6 +338,9 @@ export default class Gameplay extends cc.Component {
                 }
             }
             this.optionsNode.children[i].opacity = 0;
+        }
+        for (let i = 0; i < numberOfOptions; i++) {
+
         }
         this.node.getChildByName("template").destroy();
         this.currentJockey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
