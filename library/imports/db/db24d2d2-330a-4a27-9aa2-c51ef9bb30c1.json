@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tensandones",
+    "texture": "cb19b1cc-860c-4132-94bf-be235df69a5b",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      671,
+      192
+    ],
+    "offset": [
+      -5,
+      1.5
+    ],
+    "originalSize": [
+      689,
+      209
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
