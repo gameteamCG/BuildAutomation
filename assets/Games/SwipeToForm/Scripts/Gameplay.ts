@@ -311,6 +311,7 @@ export default class Gameplay extends cc.Component {
                     optionTextFontSize = optionNode.getChildByName("text").getComponent(cc.Label).fontSize;
                 }
                 optionNode.getChildByName("text").getComponent(cc.Label).fontSize = optionTextFontSize;
+                console.log("Latest size = ", optionTextFontSize);
             }
             else {
                 optionNode.getChildByName("img").active = true;
@@ -338,9 +339,6 @@ export default class Gameplay extends cc.Component {
                 }
             }
             this.optionsNode.children[i].opacity = 0;
-        }
-        for (let i = 0; i < numberOfOptions; i++) {
-
         }
         this.node.getChildByName("template").destroy();
         this.currentJockey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
@@ -607,6 +605,14 @@ export default class Gameplay extends cc.Component {
         }
 
         optionsLayout.height = maxHeight * scaleFactor;
+
+        // this.optionsNode.children.forEach(element => {
+        //     console.log("actual text ", element.getChildByName("text").getComponent(cc.Label).string);
+        //     console.log("actual scale ", element.getChildByName("text").scale);
+        //     console.log("actual width ", element.getChildByName("text").width);
+        //     console.log("actual font size ", element.getChildByName("text").getComponent(cc.Label).fontSize);
+        //     // element.getChildByName("text").getComponent(cc.Label).height = optionTextFontSize;
+        // });
     }
 
     arrangeChildren(centerNode: cc.Node, spacing: number) {

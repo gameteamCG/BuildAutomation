@@ -263,7 +263,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
             }
         }
-        var optionTextFontSize = 200;
+        var optionTextFontSize = 100;
         var _loop_2 = function (i) {
             // let optionNode = this.optionsNode.children[i];
             //create options
@@ -298,6 +298,7 @@ var Gameplay = /** @class */ (function (_super) {
                     optionTextFontSize = optionNode.getChildByName("text").getComponent(cc.Label).fontSize;
                 }
                 optionNode.getChildByName("text").getComponent(cc.Label).fontSize = optionTextFontSize;
+                console.log("Latest size = ", optionTextFontSize);
             }
             else {
                 optionNode.getChildByName("img").active = true;
@@ -328,8 +329,6 @@ var Gameplay = /** @class */ (function (_super) {
         var this_1 = this;
         for (var i = 0; i < numberOfOptions; i++) {
             _loop_2(i);
-        }
-        for (var i = 0; i < numberOfOptions; i++) {
         }
         this.node.getChildByName("template").destroy();
         this.currentJockey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
@@ -573,6 +572,13 @@ var Gameplay = /** @class */ (function (_super) {
             }
         }
         optionsLayout.height = maxHeight * scaleFactor;
+        // this.optionsNode.children.forEach(element => {
+        //     console.log("actual text ", element.getChildByName("text").getComponent(cc.Label).string);
+        //     console.log("actual scale ", element.getChildByName("text").scale);
+        //     console.log("actual width ", element.getChildByName("text").width);
+        //     console.log("actual font size ", element.getChildByName("text").getComponent(cc.Label).fontSize);
+        //     // element.getChildByName("text").getComponent(cc.Label).height = optionTextFontSize;
+        // });
     };
     Gameplay.prototype.arrangeChildren = function (centerNode, spacing) {
         var children = centerNode.children;
