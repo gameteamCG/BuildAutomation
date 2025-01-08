@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pine1",
+    "texture": "24a8fdd9-15f2-4614-b761-4d2b4ed7b5c4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      185,
+      473
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      185,
+      473
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
