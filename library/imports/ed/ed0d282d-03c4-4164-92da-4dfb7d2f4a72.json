@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Changing sentences",
+    "texture": "9f98a294-ecb7-4bfc-bc4a-fc84bc0c39a2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      821,
+      447
+    ],
+    "offset": [
+      0,
+      2.5
+    ],
+    "originalSize": [
+      821,
+      452
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
