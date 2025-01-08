@@ -252,7 +252,9 @@ export default class Gameplay extends cc.Component {
         this.needReiteration = questionData.needReiteration;
         this.LoadAssetsAudios(questionData);
         if (this.needReiteration) {
-            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = questionData.correctAnswer;
+            // this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = questionData.correctAnswer;
+            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = "";
+            this.node.getChildByName("reiteration").getChildByName("text").active = false;
             if (questionData.reiterationImageName != null && questionData.reiterationImageName != "") {
                 if (startGame.Instance.isDemoGame) {
                     cc.loader.load(questionData.reiterationImageName, (err, texture) => {
