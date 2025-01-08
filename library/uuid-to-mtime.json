@@ -500,8 +500,8 @@
     "relativePath": "model/primitives.fbx"
   },
   "40a993b1-3447-4e2b-900f-fd7cb4194588": {
-    "asset": 1736325309844,
-    "meta": 1736325328782,
+    "asset": 1736325636335,
+    "meta": 1736325636618,
     "relativePath": "resources"
   },
   "e4935a66-3da6-4866-b748-ecb7fdf110de": {
@@ -3110,8 +3110,138 @@
     "relativePath": "Games/jaipuria4 (1).ttf"
   },
   "57a4fc52-33e4-4f83-ab92-c4a52b03c214": {
-    "asset": 1736325309907,
-    "meta": 1736325329771,
+    "asset": 1736325481142,
+    "meta": 1736325637441,
     "relativePath": "Games/SwipeToForm/Scripts/Gameplay.ts"
+  },
+  "6c06b5b9-21a7-4c05-a326-bb948bd243c7": {
+    "asset": 1736325636352,
+    "meta": 1736325636618,
+    "relativePath": "resources/audios"
+  },
+  "81744bde-d7bf-459b-9680-1ce739113723": {
+    "asset": 1736325636354,
+    "meta": 1736325636619,
+    "relativePath": "resources/images"
+  },
+  "b288511e-d2a4-4eb5-b956-3a5ce0b0e578": {
+    "asset": 1736325628878,
+    "meta": 1736325636710,
+    "relativePath": "resources/game_data.json"
+  },
+  "56141eaa-0265-4118-9d67-adf577668c08": {
+    "asset": 1736325628868,
+    "meta": 1736325637193,
+    "relativePath": "resources/audios/A brave loyal golden dog.mp3"
+  },
+  "f48ed157-9a60-4aa2-9591-33e029e39ad5": {
+    "asset": 1736325628870,
+    "meta": 1736325637194,
+    "relativePath": "resources/audios/A young aspiring talented artist.mp3"
+  },
+  "44c5ecde-a7d7-40e9-a379-015660fd2243": {
+    "asset": 1736325628868,
+    "meta": 1736325637194,
+    "relativePath": "resources/audios/A beautiful red silk dress.mp3"
+  },
+  "32084797-b671-4ea6-b429-8fc7a0ed7748": {
+    "asset": 1736325628871,
+    "meta": 1736325637195,
+    "relativePath": "resources/audios/An old square blue box.mp3"
+  },
+  "9782194b-285b-4eb3-88fc-d3883b674184": {
+    "asset": 1736325628870,
+    "meta": 1736325637195,
+    "relativePath": "resources/audios/An expensive new black car.mp3"
+  },
+  "eeecf7f9-bf2b-43a4-b07a-105251176a99": {
+    "asset": 1736325628869,
+    "meta": 1736325637196,
+    "relativePath": "resources/audios/A shiny new silver bracelet.mp3"
+  },
+  "828a9f41-b660-4a1d-82d1-21ee316d9b2b": {
+    "asset": 1736325628869,
+    "meta": 1736325637196,
+    "relativePath": "resources/audios/A small round green hat.mp3"
+  },
+  "040b1a7e-3e22-4e46-98cc-5fb873ad3f66": {
+    "asset": 1736325628869,
+    "meta": 1736325637196,
+    "relativePath": "resources/audios/A small brown wooden table.mp3"
+  },
+  "ba6f79b1-ff00-4618-8f21-515c25ebfc72": {
+    "asset": 1736325628880,
+    "meta": 1736325637209,
+    "relativePath": "resources/images/Asset 7.png"
+  },
+  "f4cccb82-3f16-466b-ab7a-c285f703961c": {
+    "asset": 1736325628878,
+    "meta": 1736325637213,
+    "relativePath": "resources/audios/qVo.mp3"
+  },
+  "2d9db0db-73c3-46e9-a451-42b1061320f7": {
+    "asset": 1736325628879,
+    "meta": 1736325637210,
+    "relativePath": "resources/images/Asset 11.png"
+  },
+  "f0150961-3292-4ee9-9639-2ffa02001e40": {
+    "asset": 1736325628879,
+    "meta": 1736325637210,
+    "relativePath": "resources/images/Asset 6.png"
+  },
+  "fce81057-4d19-4ba0-9b87-64aad08a9b59": {
+    "asset": 1736325628879,
+    "meta": 1736325637211,
+    "relativePath": "resources/images/Asset 4.png"
+  },
+  "a009a868-78d7-476f-99c3-f590724d134b": {
+    "asset": 1736325628878,
+    "meta": 1736325637216,
+    "relativePath": "resources/images/Asset 10.png"
+  },
+  "3f300005-fc09-4b96-a4da-398c0b4ccd92": {
+    "asset": 1736325628879,
+    "meta": 1736325637219,
+    "relativePath": "resources/images/Asset 5.png"
+  },
+  "4f788358-5a9e-40b8-add3-7cecc1eced52": {
+    "asset": 1736325628878,
+    "meta": 1736325637447,
+    "relativePath": "resources/audios/bgm_sc.mp3"
+  },
+  "e23d169b-3f0a-4ab0-ab25-eb56f7394ad5": {
+    "asset": 1736325628880,
+    "meta": 1736325637229,
+    "relativePath": "resources/images/Asset 8.png"
+  },
+  "7ae28c79-12c3-4fd6-879b-b8e46b612078": {
+    "asset": 1736325628896,
+    "meta": 1736325637450,
+    "relativePath": "resources/images/qVo.mp3"
+  },
+  "db6b553b-26e0-4f3d-be21-007a9f005a20": {
+    "asset": 1736325628880,
+    "meta": 1736325637443,
+    "relativePath": "resources/images/Asset 9.png"
+  },
+  "f06c49df-096a-44cd-95b8-d8d371d1e588": {
+    "asset": 1736325628887,
+    "meta": 1736325637444,
+    "relativePath": "resources/images/common.png"
+  },
+  "8de3a4df-8ac3-4d70-b1c1-6fe4d37ddb7b": {
+    "asset": 1736325628899,
+    "meta": 1736325637457,
+    "relativePath": "resources/images/title.png"
+  },
+  "bc8ccbff-3df2-456c-b165-87dbce2e5a16": {
+    "asset": 1736325628883,
+    "meta": 1736325637480,
+    "relativePath": "resources/images/IntroBg.png"
+  },
+  "dbc1a730-e0b3-4a7a-ac74-3bc9721a0aee": {
+    "asset": 1736325628896,
+    "meta": 1736325637483,
+    "relativePath": "resources/images/mainBg.png"
   }
 }
