@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Position of adjectives_Grade 5 (Grammar)_R25",
+      "totalLevel": "8",
+      "TitleImageName": "title.png",
+      "introBgName": "IntroBg.png",
+      "bgmMusicName": "bgm_sc.mp3",
+      "mainBgName": "mainBg.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "Position of adjectives",
+        "questionImageName": "",
+        "questionAudioName": "qVo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "box",
+          "square",
+          "an",
+          "old",
+          "blue"
+        ],
+        "correctAnswer": "anoldsquarebluebox",
+        "correctAudioName": "An old square blue box.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 11.png"
+      },
+      {
+        "questionText": "Position of adjectives",
+        "questionImageName": "",
+        "questionAudioName": "qVo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "shiny",
+          "bracelet",
+          "silver",
+          "a",
+          "new"
+        ],
+        "correctAnswer": "ashinynewsilverbracelet",
+        "correctAudioName": "A shiny new silver bracelet.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 10.png"
+      },
+      {
+        "questionText": "Position of adjectives",
+        "questionImageName": "",
+        "questionAudioName": "qVo.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "common.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "small",
+          "wooden",
+          "a",
+          "brown",
+          "table"
+        ],
+        "correctAnswer": "asmallbrownwoodentable",
+        "correctAudioName": "A small brown wooden table.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 9.png"
+      },
+      {
+        "questionText": "Position of adjectives",
+        "questionImageName": "",
+        "questionAudioName": "qVo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "a",
+          "talented",
+          "artist",
+          "young",
+          "aspiring"
+        ],
+        "correctAnswer": "ayoungaspiringtalentedartist",
+        "correctAudioName": "A young aspiring talented artist.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 8.png"
+      },
+      {
+        "questionText": "Position of adjectives",
+        "questionImageName": "qVo.mp3",
+        "questionAudioName": "",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "golden",
+          "loyal",
+          "a",
+          "dog",
+          "brave"
+        ],
+        "correctAnswer": "abraveloyalgoldendog",
+        "correctAudioName": "A brave loyal golden dog.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 7.png"
+      },
+      {
+        "questionText": "Position of adjectives",
+        "questionImageName": "",
+        "questionAudioName": "qVo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "dress",
+          "silk",
+          "red",
+          "beautiful",
+          "a"
+        ],
+        "correctAnswer": "abeautifulredsilkdress",
+        "correctAudioName": "A beautiful red silk dress.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 6.png"
+      },
+      {
+        "questionText": "Position of adjectives",
+        "questionImageName": "",
+        "questionAudioName": "qVo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "car",
+          "expensive",
+          "black",
+          "an",
+          "new"
+        ],
+        "correctAnswer": "anexpensivenewblackcar",
+        "correctAudioName": "An expensive new black car.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 5.png"
+      },
+      {
+        "questionText": "Position of adjectives",
+        "questionImageName": "",
+        "questionAudioName": "qVo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "hat",
+          "small",
+          "round",
+          "a",
+          "green"
+        ],
+        "correctAnswer": "asmallroundgreenhat",
+        "correctAudioName": "A small round green hat.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 4.png"
+      }
+    ]
+  }
+}
