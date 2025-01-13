@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Match the gender ",
+      "totalLevel": "7",
+      "TitleImageName": "Asset 125.png",
+      "introBgName": "Bg(8).png",
+      "bgmMusicName": "bgm_1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "match the opposite gender",
+        "questionAudioName": "Match the correct opposite gender.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle(1).png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "cock.png"
+        ],
+        "reiterations": [
+          "rooster-hen.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle(2).png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "hen.png",
+          "boy.png"
+        ]
+      },
+      {
+        "questionText": "match the opposite gender",
+        "questionAudioName": "Match the correct opposite gender.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle(1).png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "cow.png"
+        ],
+        "reiterations": [
+          "bull-cow.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle(2).png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "bull.png",
+          "king.png"
+        ]
+      },
+      {
+        "questionText": "match the opposite gender",
+        "questionAudioName": "Match the correct opposite gender.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle(1).png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "girl.png"
+        ],
+        "reiterations": [
+          "boy-girl.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle(2).png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "boy.png",
+          "hen.png"
+        ]
+      },
+      {
+        "questionText": "match the opposite gender",
+        "questionAudioName": "Match the correct opposite gender.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle(1).png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "grandfather.png"
+        ],
+        "reiterations": [
+          "grandfather-grandmoth.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle(2).png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "grandma.png",
+          "bull.png"
+        ]
+      },
+      {
+        "questionText": "match the opposite gender",
+        "questionAudioName": "Match the correct opposite gender.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle(1).png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "mom.png"
+        ],
+        "reiterations": [
+          "Mother-father.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle(2).png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "dad.png",
+          "boy.png"
+        ]
+      },
+      {
+        "questionText": "match the opposite gender",
+        "questionAudioName": "Match the correct opposite gender.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle(1).png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "peacock.png"
+        ],
+        "reiterations": [
+          "peacock-peahen.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle(2).png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "peahen.png",
+          "dad.png"
+        ]
+      },
+      {
+        "questionText": "match the opposite gender",
+        "questionAudioName": "Match the correct opposite gender.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle(1).png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "queen.png"
+        ],
+        "reiterations": [
+          "king-queen.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle(2).png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "king.png",
+          "peahen.png"
+        ]
+      }
+    ]
+  }
+}

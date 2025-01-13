@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cock",
+    "texture": "01c99064-00d3-450f-bf57-1d042b11a3a2",
+    "atlas": "",
+    "rect": [
+      84,
+      71,
+      295,
+      359
+    ],
+    "offset": [
+      -18.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

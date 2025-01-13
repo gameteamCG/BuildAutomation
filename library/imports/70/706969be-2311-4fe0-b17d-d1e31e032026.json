@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mom",
+    "texture": "7cd710f3-d7d2-42a7-90d4-ae1538268c1a",
+    "atlas": "",
+    "rect": [
+      101,
+      54,
+      337,
+      369
+    ],
+    "offset": [
+      19.5,
+      11.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

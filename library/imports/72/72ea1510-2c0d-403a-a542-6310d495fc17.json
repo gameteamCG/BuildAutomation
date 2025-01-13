@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "peahen",
+    "texture": "6190dbd8-69b0-429b-8c2e-0b96fe491c4c",
+    "atlas": "",
+    "rect": [
+      104,
+      149,
+      355,
+      227
+    ],
+    "offset": [
+      31.5,
+      -12.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
