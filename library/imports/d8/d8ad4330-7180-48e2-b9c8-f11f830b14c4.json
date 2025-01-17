@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jacket",
+    "texture": "794eea6d-4923-4fb4-9eaa-eb9d881eda63",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      589,
+      463
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      589,
+      463
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
