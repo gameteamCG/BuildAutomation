@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "owlbw",
+    "texture": "aea3cbc4-8364-42ab-804a-d8956a94817e",
+    "atlas": "",
+    "rect": [
+      60,
+      22,
+      380,
+      456
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
