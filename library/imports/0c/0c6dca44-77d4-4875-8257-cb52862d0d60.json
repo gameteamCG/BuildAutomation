@@ -1,0 +1,137 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letters and sounds Ii_lkg_SB2_3",
+      "totalLevel": "4",
+      "TitleImageName": "title (2).png",
+      "introBgName": "Bg(8).png",
+      "bgmMusicName": "bgmm.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "L1.png",
+        "questionAudioName": "Tap on the butterflies with the letter I.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "L1 (1).png",
+          "L1 (2).png",
+          "L1 (3).png",
+          "L1 (4).png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "I.mp3",
+          "I.mp3",
+          "I.mp3",
+          "I.mp3"
+        ],
+        "correctAnswerNum": "1234"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "L2.png",
+        "questionAudioName": "Tap on the honeycombs with the letter I..mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "L2 (1).png",
+          "L2 (2).png",
+          "L2 (3).png",
+          "L2 (4).png",
+          "L2 (5).png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "I.mp3",
+          "I.mp3",
+          "I.mp3"
+        ],
+        "correctAnswerNum": "124"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "L3.png",
+        "questionAudioName": "Tap on the honeybees with the letter I.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "L3 (1).png",
+          "L3 (2).png",
+          "L3 (3).png",
+          "L3 (4).png",
+          "L3 (5).png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "I.mp3",
+          "I.mp3",
+          "I.mp3"
+        ],
+        "correctAnswerNum": "134"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg6.png",
+        "questionAudioName": "Identify all the objects that begin with the letter i.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "L4 (8).png",
+          "L4 (6).png",
+          "L4 (4).png",
+          "L4 (2).png",
+          "L4 (10).png"
+        ],
+        "optionsBg": [
+          "L4 (9).png",
+          "L4 (7).png",
+          "L4 (5).png",
+          "L4 (3).png",
+          "L4 (1).png"
+        ],
+        "correctAudioName": "igloo, iguana, ice-cream.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "BRILLIANT.mp3",
+          "EXCELLENTJOB.mp3",
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "245"
+      }
+    ]
+  }
+}
