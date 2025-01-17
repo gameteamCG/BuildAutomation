@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "walnut",
+    "texture": "d184591a-12e9-46a3-8c91-cfb08ca44ee0",
+    "atlas": "",
+    "rect": [
+      45,
+      82,
+      410,
+      337
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
