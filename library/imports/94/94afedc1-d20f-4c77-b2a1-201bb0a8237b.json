@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bag2",
+    "texture": "ea20d221-4430-4fe8-8805-04b7a3111c40",
+    "atlas": "",
+    "rect": [
+      41,
+      1,
+      140,
+      220
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      222,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
