@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "letter K_PNUR_LANG_22",
+      "totalLevel": "5",
+      "TitleImageName": "Asset 142.png",
+      "introBgName": "bgtitlemain.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "bg1.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Letter Kk",
+        "questionAudioName": "match the shadow to its picture that begins with the letter K .mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "king.png"
+        ],
+        "reiterations": [
+          "24632839_2_k-for-king.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "king_shadow.png",
+          "kettle_shadow.png"
+        ]
+      },
+      {
+        "questionText": "Letter Kk",
+        "questionAudioName": "match the shadow to its picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "kangaroo.png"
+        ],
+        "reiterations": [
+          "k for kangaroo.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "kangaroo_shadow.png",
+          "kite_shadow.png"
+        ]
+      },
+      {
+        "questionText": "Letter Kk",
+        "questionAudioName": "match the shadow to its picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "kettle.png"
+        ],
+        "reiterations": [
+          "24632839_3_k-for-kettle.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "kettle_shadow.png",
+          "king_shadow.png"
+        ]
+      },
+      {
+        "questionText": "Letter Kk",
+        "questionAudioName": "match the shadow to its picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "kite.png"
+        ],
+        "reiterations": [
+          "24632839_4_k-for-kite.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "kite_shadow.png",
+          "kettle_shadow.png"
+        ]
+      },
+      {
+        "questionText": "Letter Kk",
+        "questionAudioName": "match the shadow to its picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "kitten.png"
+        ],
+        "reiterations": [
+          "24632839_5_k-for-kitten.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "kitten_shadow.png",
+          "kite_shadow.png"
+        ]
+      }
+    ]
+  }
+}
