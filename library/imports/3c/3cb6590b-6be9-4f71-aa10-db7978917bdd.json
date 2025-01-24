@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "She enjoys reading books.",
+        "questionText": "Negative sentence",
         "questionImageName": "",
         "questionAudioName": "ques1_negative.mp3",
         "shouldPlayQuestionAudio": true,
@@ -37,7 +37,7 @@
         "reiterationImageName": "1png.png"
       },
       {
-        "questionText": "The sun is shining brightly.",
+        "questionText": "Interrogative sentence",
         "questionImageName": "",
         "questionAudioName": "Ques2.mp3",
         "shouldPlayQuestionAudio": true,
@@ -58,7 +58,7 @@
         "reiterationImageName": "2png.png"
       },
       {
-        "questionText": "They have completed the project.",
+        "questionText": "Interrogative sentence",
         "questionImageName": "",
         "questionAudioName": "Ques2.mp3",
         "shouldPlayQuestionAudio": true,
@@ -79,7 +79,7 @@
         "reiterationImageName": "3png.png"
       },
       {
-        "questionText": "He likes playing soccer.",
+        "questionText": "Negative sentence",
         "questionImageName": "",
         "questionAudioName": "ques1_negative.mp3",
         "shouldPlayQuestionAudio": true,
@@ -101,7 +101,7 @@
         "reiterationImageName": "4png.png"
       },
       {
-        "questionText": "The weather is beautiful today.",
+        "questionText": "Interrogative sentence",
         "questionImageName": "",
         "questionAudioName": "Ques2.mp3",
         "shouldPlayQuestionAudio": true,
@@ -122,9 +122,9 @@
         "reiterationImageName": "5png.png"
       },
       {
-        "questionText": "Sarah has traveled to Europe.",
+        "questionText": "Negative sentence",
         "questionImageName": "",
-        "questionAudioName": "Ques2.mp3",
+        "questionAudioName": "ques1_negative.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset 86.png",
         "isOptionText": true,
@@ -144,7 +144,7 @@
         "reiterationImageName": "6png.png"
       },
       {
-        "questionText": "They are going to the park.",
+        "questionText": "Negative sentence",
         "questionImageName": "",
         "questionAudioName": "ques1_negative.mp3",
         "shouldPlayQuestionAudio": true,
@@ -167,7 +167,7 @@
         "reiterationImageName": "7png.png"
       },
       {
-        "questionText": "My sister enjoys painting.",
+        "questionText": "Interrogative sentence",
         "questionImageName": "",
         "questionAudioName": "Ques2.mp3",
         "shouldPlayQuestionAudio": true,
@@ -188,7 +188,7 @@
         "reiterationImageName": "8png.png"
       },
       {
-        "questionText": "The movie was entertaining.",
+        "questionText": "Negative sentence",
         "questionImageName": "",
         "questionAudioName": "ques1_negative.mp3",
         "shouldPlayQuestionAudio": true,
@@ -209,7 +209,7 @@
         "reiterationImageName": "9png.png"
       },
       {
-        "questionText": "The food tastes delicious.",
+        "questionText": "Interrogative sentence",
         "questionImageName": "",
         "questionAudioName": "Ques2.mp3",
         "shouldPlayQuestionAudio": true,

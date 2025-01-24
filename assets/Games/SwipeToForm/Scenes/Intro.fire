@@ -3345,7 +3345,9 @@
     "BGM_audio": null,
     "volume": 0.1,
     "NextSceneName": "1",
-    "playBtn_audio": null,
+    "playBtn_audio": {
+      "__uuid__": "4a52a7ef-c6bc-4cef-b695-3d9c194af21e"
+    },
     "TotalLevels": 7,
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [],

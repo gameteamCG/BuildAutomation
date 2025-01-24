@@ -1,5 +1,6 @@
 
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -67,9 +68,21 @@ export default class Gameplay extends cc.Component {
 
     currentJockey: cc.Node = null;
 
+    questionextraText: string[] = [];
+
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
+        this.questionextraText = ["She enjoys reading books.",
+            "The sun is shining brightly.",
+            "They have completed the project.",
+            "He likes playing soccer.",
+            "The weather is beautiful today.",
+            "Sarah has traveled to Europe.",
+            "They are going to the park.",
+            "My sister enjoys painting.",
+            "The movie was entertaining.",
+            "The food tastes delicious."];
         this.maxLevel = startGame.Instance.TotalLevels;
         if (globalVariables.Instance.currentLevel == this.maxLevel) {
             cc.director.preloadScene("gameEnd");
@@ -176,6 +189,7 @@ export default class Gameplay extends cc.Component {
             if (this.optionsNode.children.length <= 2) {
                 this.arrangeChildren(this.optionsNode, 80);
             }
+            this.node.getChildByName("extraText").active = true;
             let delay = 0.2;
             for (let i = 0; i < this.optionsNode.children.length; i++) {
                 this.optionsNode.children[i].scale = 0;
@@ -216,6 +230,8 @@ export default class Gameplay extends cc.Component {
         this.correctAnswer = questionData.correctAnswer;
         let numberOfOptions = options.length;
         this.questionText = questionData.questionText;
+        this.node.getChildByName("extraText").getComponent(cc.Label).string = this.questionextraText[parseInt(startGame.Instance.currentLevel) - 1];
+
         if (questionData.questionImageName != null && questionData.questionImageName != "") {
             if (questionData.questionText == "") {
                 this.node.getChildByName("questionPanel").getChildByName("img").setPosition(0, this.node.getChildByName("questionPanel").getChildByName("img").getPosition().y);
@@ -241,6 +257,7 @@ export default class Gameplay extends cc.Component {
             this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
             this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
+
         }
         else if (this.questionText != "") {
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.questionText;

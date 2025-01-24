@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -61,11 +61,22 @@ var Gameplay = /** @class */ (function (_super) {
         _this.maxLevel = 7;
         _this.questionBoxPosY = 0;
         _this.currentJockey = null;
+        _this.questionextraText = [];
         return _this;
         // update (dt) {}
     }
     // LIFE-CYCLE CALLBACKS:
     Gameplay.prototype.onLoad = function () {
+        this.questionextraText = ["She enjoys reading books.",
+            "The sun is shining brightly.",
+            "They have completed the project.",
+            "He likes playing soccer.",
+            "The weather is beautiful today.",
+            "Sarah has traveled to Europe.",
+            "They are going to the park.",
+            "My sister enjoys painting.",
+            "The movie was entertaining.",
+            "The food tastes delicious."];
         this.maxLevel = StartGame_1.default.Instance.TotalLevels;
         if (globalVariables_1.default.Instance.currentLevel == this.maxLevel) {
             cc.director.preloadScene("gameEnd");
@@ -167,6 +178,7 @@ var Gameplay = /** @class */ (function (_super) {
             if (_this.optionsNode.children.length <= 2) {
                 _this.arrangeChildren(_this.optionsNode, 80);
             }
+            _this.node.getChildByName("extraText").active = true;
             var delay = 0.2;
             var _loop_1 = function (i) {
                 _this.optionsNode.children[i].scale = 0;
@@ -209,6 +221,7 @@ var Gameplay = /** @class */ (function (_super) {
         this.correctAnswer = questionData.correctAnswer;
         var numberOfOptions = options.length;
         this.questionText = questionData.questionText;
+        this.node.getChildByName("extraText").getComponent(cc.Label).string = this.questionextraText[parseInt(StartGame_1.default.Instance.currentLevel) - 1];
         if (questionData.questionImageName != null && questionData.questionImageName != "") {
             if (questionData.questionText == "") {
                 this.node.getChildByName("questionPanel").getChildByName("img").setPosition(0, this.node.getChildByName("questionPanel").getChildByName("img").getPosition().y);
