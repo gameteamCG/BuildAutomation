@@ -5677,8 +5677,8 @@
         0,
         0,
         1,
-        0.3,
-        0.3,
+        0.5,
+        0.5,
         1
       ]
     },
@@ -5697,13 +5697,13 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bag",
+    "_name": "penguin",
     "_objFlags": 0,
     "_parent": {
       "__id__": 117
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 119
@@ -5720,8 +5720,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 848.12,
-      "height": 947.04
+      "width": 310.25,
+      "height": 571.66
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5772,7 +5772,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "idle",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -5789,7 +5789,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "e1b35266-5111-4a84-86b1-6e1bdd0175e2"
+      "__uuid__": "c91001ec-680d-43d7-a77d-357062a7ae6d"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
