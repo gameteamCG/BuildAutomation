@@ -876,13 +876,13 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bag",
+    "_name": "tortoise",
     "_objFlags": 0,
     "_parent": {
       "__id__": 17
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 19
@@ -901,8 +901,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 848.12,
-      "height": 947.04
+      "width": 415.17,
+      "height": 649.53
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -920,8 +920,8 @@
         0,
         0,
         1,
-        0.35,
-        0.35,
+        0.5,
+        0.5,
         0.35
       ]
     },
@@ -953,7 +953,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "positive_6",
+    "defaultAnimation": "positive_5",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -964,13 +964,13 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "positive_6",
+    "_animationName": "positive_5",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "10baffd4-b062-4408-9849-73372199766b"
+      "__uuid__": "690df629-2525-47f0-83c8-81e47ac5f397"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
