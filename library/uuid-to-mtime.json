@@ -1120,8 +1120,8 @@
     "relativePath": "Games/WhatWillHappenNext/Materials/grey.mtl"
   },
   "cf4e36d8-89d2-4945-a198-67e319127411": {
-    "asset": 1737956412974,
-    "meta": 1737956431603,
+    "asset": 1737956923298,
+    "meta": 1737956923302,
     "relativePath": "Games/WhatWillHappenNext/Scene/1.fire"
   },
   "064fa1cd-c092-45a6-8a88-4c65b8b70e53": {
@@ -1170,8 +1170,8 @@
     "relativePath": "Games/WhatWillHappenNext/Assets/whats next.png"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1737956481189,
-    "meta": 1737956481195,
+    "asset": 1737956874309,
+    "meta": 1737956874313,
     "relativePath": "Games/WhatWillHappenNext/Scene/Title.fire"
   },
   "92133877-574e-4eb5-9c58-79f64d3fc3ed": {
@@ -2695,8 +2695,8 @@
     "relativePath": "Games/WhatWillHappenNext/Sound/emptyAud.mp3"
   },
   "ad4e5d42-7172-47db-8800-f7a8016b13a6": {
-    "asset": 1737955832293,
-    "meta": 1737956431594,
+    "asset": 1737956721512,
+    "meta": 1737956732403,
     "relativePath": "Games/WhatWillHappenNext/Scripts/gameplay.ts"
   },
   "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
@@ -3203,5 +3203,80 @@
     "asset": 1737956412972,
     "meta": 1737956432263,
     "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/output/output/Muskaan.png"
+  },
+  "cc3322fd-20f6-4b3b-abdc-2cb84269addc": {
+    "asset": 1737956812620,
+    "meta": 1737956812629,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/audio"
+  },
+  "38b934fc-f406-468b-a6d1-b267b04687b2": {
+    "asset": 1737956812614,
+    "meta": 1737956812995,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/audio/positive_3.mp3"
+  },
+  "48aecdc5-ab74-4e1f-be95-2df1e2b193ee": {
+    "asset": 1737956812613,
+    "meta": 1737956812995,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/audio/positive_2.mp3"
+  },
+  "bc52631b-8830-4319-aae8-8dcd4ea2ab07": {
+    "asset": 1737956812613,
+    "meta": 1737956812996,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/audio/negative_2.mp3"
+  },
+  "07afd37b-a688-4037-bbc9-b9b113193756": {
+    "asset": 1737956812628,
+    "meta": 1737956812996,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/output"
+  },
+  "503e6ee5-c7bd-4691-b44c-aca69c9eddeb": {
+    "asset": 1737956812613,
+    "meta": 1737956812996,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/audio/positive_1.mp3"
+  },
+  "d74925d4-812d-4956-92b8-11ec9f9cab39": {
+    "asset": 1737956812614,
+    "meta": 1737956813000,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/audio/negative_1.mp3"
+  },
+  "bb3bb041-8a97-46b4-9116-fe0af7e38f51": {
+    "asset": 1737956812615,
+    "meta": 1737956813000,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/audio/negative_5.mp3"
+  },
+  "5c46e996-04f1-4088-95cd-6176722f36da": {
+    "asset": 1737956812615,
+    "meta": 1737956813000,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/audio/negative_4.mp3"
+  },
+  "9240b14a-896a-4c52-ada2-70812f88b99b": {
+    "asset": 1737956812616,
+    "meta": 1737956813057,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/output/Corny.json"
+  },
+  "aef78cc1-4701-41c1-be54-546c5aeef1ec": {
+    "asset": 1737956812615,
+    "meta": 1737956813008,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/audio/negative_3.mp3"
+  },
+  "0cd166d9-f555-4c43-904b-a3f918301203": {
+    "asset": 1737956812614,
+    "meta": 1737956813012,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/output/Corny.atlas"
+  },
+  "b97e2e1f-ee15-4dba-89e5-ee1d1a9febfa": {
+    "asset": 1737956812614,
+    "meta": 1737956813013,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/audio/positive_5.mp3"
+  },
+  "f3b077b8-e6fb-4a58-a84a-53abf666631a": {
+    "asset": 1737956812614,
+    "meta": 1737956813013,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/audio/positive_4.mp3"
+  },
+  "0c51b10e-f48b-486e-b6d9-a289d53c1f1d": {
+    "asset": 1737956812617,
+    "meta": 1737956813043,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio/output/Corny.png"
   }
 }

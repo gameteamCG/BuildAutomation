@@ -2956,7 +2956,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "penguin",
+    "_name": "corny",
     "_objFlags": 0,
     "_parent": {
       "__id__": 61
@@ -2981,8 +2981,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 310.25,
-      "height": 571.66
+      "width": 553.35,
+      "height": 965.59
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3000,8 +3000,8 @@
         0,
         0,
         1,
-        0.55,
-        0.55,
+        0.3,
+        0.3,
         1
       ]
     },
@@ -3050,7 +3050,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "8b1035af-f2f7-4262-8ee6-a887156fbe40"
+      "__uuid__": "9240b14a-896a-4c52-ada2-70812f88b99b"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
