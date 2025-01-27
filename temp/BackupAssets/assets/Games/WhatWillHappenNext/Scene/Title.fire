@@ -388,9 +388,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": {
-      "__uuid__": "85294770-66b7-4776-8159-d442a3067bef"
-    },
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -2725,7 +2723,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Puzzle",
+    "_name": "hindi",
     "_objFlags": 0,
     "_parent": {
       "__id__": 56
