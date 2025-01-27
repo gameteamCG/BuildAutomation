@@ -1,6 +1,6 @@
 
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -122,7 +122,9 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
         }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
+        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon" || startGame.Instance.jockeyName == "penguin"
+            || startGame.Instance.jockeyName == "tortoise" || startGame.Instance.jockeyName == "muskaan"
+        ) {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         }
@@ -253,7 +255,7 @@ export default class NewClass extends cc.Component {
         // this.OptionsLayout();
         this.callThirdObjectIn();
 
-        if (startGame.Instance.jockeyName == "bag") {
+        if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "penguin" || startGame.Instance.jockeyName == "tortoise" || startGame.Instance.jockeyName == "muskaan") {
             this.positiveAudio = this.bagPositive;
             this.negativeAudio = this.bagNegative;
         }
@@ -551,7 +553,7 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "supercub") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
-        else if (startGame.Instance.jockeyName == "bag") {
+        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "penguin" || startGame.Instance.jockeyName == "tortoise" || startGame.Instance.jockeyName == "muskaan") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (startGame.Instance.jockeyName == "cryon") {
@@ -679,7 +681,7 @@ export default class NewClass extends cc.Component {
             else if (startGame.Instance.jockeyName == "supercub") {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
             }
-            else if (startGame.Instance.jockeyName == "bag") {
+            else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "penguin" || startGame.Instance.jockeyName == "tortoise" || startGame.Instance.jockeyName == "muskaan") {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
             else if (startGame.Instance.jockeyName == "cryon") {

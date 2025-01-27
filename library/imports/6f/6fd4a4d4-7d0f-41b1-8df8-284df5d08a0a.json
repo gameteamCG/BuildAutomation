@@ -2957,7 +2957,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bag",
+    "_name": "muskaan",
     "_objFlags": 0,
     "_parent": {
       "__id__": 61
@@ -2982,8 +2982,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 848.12,
-      "height": 947.04
+      "width": 431,
+      "height": 557.68
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3001,8 +3001,8 @@
         0,
         0,
         1,
-        0.35,
-        0.35,
+        0.55,
+        0.55,
         1
       ]
     },
@@ -3051,7 +3051,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "10baffd4-b062-4408-9849-73372199766b"
+      "__uuid__": "9ca780b8-5764-427d-8014-62ece10d4fa0"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
