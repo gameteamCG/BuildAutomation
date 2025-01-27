@@ -6,7 +6,7 @@
       "url": "app://editor/index.html",
       "windowType": "dockable",
       "x": 0,
-      "y": 26,
+      "y": 25,
       "width": 1440,
       "height": 813,
       "layout": {
@@ -44,7 +44,7 @@
             "children": [
               {
                 "width": 816,
-                "height": 364.984375,
+                "height": 365,
                 "type": "panel",
                 "active": 0,
                 "children": [
