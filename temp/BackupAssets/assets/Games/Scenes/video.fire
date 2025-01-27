@@ -5676,8 +5676,8 @@
         0,
         0,
         1,
-        0.3,
-        0.3,
+        0.5,
+        0.5,
         1
       ]
     },
@@ -5696,7 +5696,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bag",
+    "_name": "tortoise",
     "_objFlags": 0,
     "_parent": {
       "__id__": 117
@@ -5719,8 +5719,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 848.12,
-      "height": 947.04
+      "width": 415.17,
+      "height": 649.53
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5788,7 +5788,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "e1b35266-5111-4a84-86b1-6e1bdd0175e2"
+      "__uuid__": "a0b80d41-89ea-48ea-a0ec-0e9466e66286"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
