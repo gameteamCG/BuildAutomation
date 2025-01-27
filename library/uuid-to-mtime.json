@@ -1400,8 +1400,8 @@
     "relativePath": "Games/WhatWillHappenNext/Scene/1.fire"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1737961109335,
-    "meta": 1737961109350,
+    "asset": 1737961313669,
+    "meta": 1737961313676,
     "relativePath": "Games/WhatWillHappenNext/Scene/Title.fire"
   },
   "51f71569-6b9e-43a6-9703-1106a9f3d9d1": {
@@ -2420,8 +2420,8 @@
     "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/audio"
   },
   "cadda1b7-6d4c-4cba-90fd-548943f162d8": {
-    "asset": 1737960914809,
-    "meta": 1737960926779,
+    "asset": 1737960962573,
+    "meta": 1737961157636,
     "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/output"
   },
   "ccb0b9a5-9e03-4ef9-b85e-27a3f654e513": {
@@ -3198,5 +3198,25 @@
     "asset": 1737960962572,
     "meta": 1737960962608,
     "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/output/output/Muskaan.png"
+  },
+  "375bee3d-1779-40ad-9589-026fe1c6f070": {
+    "asset": 1737961210184,
+    "meta": 1737961210185,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/output/output/output"
+  },
+  "4710ae3f-028a-40c2-b817-5bae3edb1d72": {
+    "asset": 1737961210175,
+    "meta": 1737961210241,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/output/output/output/Corny.json"
+  },
+  "89e6ccf9-abe3-4ebe-aa42-a844ed905d2f": {
+    "asset": 1737961210174,
+    "meta": 1737961210196,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/output/output/output/Corny.atlas"
+  },
+  "c9a6afa4-d612-4fc1-99bb-4a58af8779ce": {
+    "asset": 1737961210177,
+    "meta": 1737961210224,
+    "relativePath": "Games/WhatWillHappenNext/Animation/jaipuria/bag/output/output/output/Corny.png"
   }
 }
