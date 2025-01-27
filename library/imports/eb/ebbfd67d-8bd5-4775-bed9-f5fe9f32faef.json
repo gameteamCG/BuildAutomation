@@ -410,7 +410,7 @@
         "__id__": 12
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [],
     "_prefab": null,
     "_opacity": 255,
@@ -488,8 +488,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 396,
-      "height": 83
+      "width": 430,
+      "height": 101
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -541,7 +541,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "0de89601-e037-4ed0-bbda-6f8f3e18b03c"
+      "__uuid__": "6fd553e9-884c-4a80-9ad5-929add4bc2d6"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -605,8 +605,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 200
+      "width": 150,
+      "height": 150
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -658,7 +658,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "830be3f1-8bb1-4ed5-98f5-c2f7d9f755db"
+      "__uuid__": "ff7b5815-c695-4b95-bd78-02d21a70caa1"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -2809,13 +2809,13 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bag",
+    "_name": "penguin",
     "_objFlags": 0,
     "_parent": {
       "__id__": 72
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 74
@@ -2834,8 +2834,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 848.12,
-      "height": 947.04
+      "width": 310.25,
+      "height": 571.66
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2853,8 +2853,8 @@
         0,
         0,
         1,
-        0.35,
-        0.35,
+        0.55,
+        0.55,
         1
       ]
     },
@@ -2903,7 +2903,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "10baffd4-b062-4408-9849-73372199766b"
+      "__uuid__": "061e67f8-d668-4d5f-9a8c-c9ee9791e62e"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
