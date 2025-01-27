@@ -1295,8 +1295,8 @@
     "relativePath": "Games/TapToFind/BackUp Prefab"
   },
   "de3fc111-ae78-4a25-8e08-41d2613145c1": {
-    "asset": 1737959564333,
-    "meta": 1737959574947,
+    "asset": 1737959613066,
+    "meta": 1737959866354,
     "relativePath": "Games/TapToFind/End"
   },
   "43170059-058b-4e6c-95b9-84d765df59f2": {
@@ -1550,8 +1550,8 @@
     "relativePath": "Games/TapToFind/End/a1.png"
   },
   "ebbfd67d-8bd5-4775-bed9-f5fe9f32faef": {
-    "asset": 1737959762464,
-    "meta": 1737959762467,
+    "asset": 1737959926686,
+    "meta": 1737959926705,
     "relativePath": "Games/TapToFind/Scenes/title.fire"
   },
   "7deb062c-5ea8-424a-8c67-d1023dc84cb3": {
@@ -2325,8 +2325,8 @@
     "relativePath": "Games/TapToFind/Animations/Animation/jaipuria/bag/audio"
   },
   "cadda1b7-6d4c-4cba-90fd-548943f162d8": {
-    "asset": 1737959564206,
-    "meta": 1737959575865,
+    "asset": 1737959659281,
+    "meta": 1737959866355,
     "relativePath": "Games/TapToFind/Animations/Animation/jaipuria/bag/output"
   },
   "635e51aa-b1fa-4696-b3a5-e11d152e1040": {
@@ -3078,5 +3078,25 @@
     "asset": 1737959735849,
     "meta": 1737959743920,
     "relativePath": "Games/TapToFind/Scripts/Gameplay.ts"
+  },
+  "70311654-27db-4f6f-be4d-8adba2c2c569": {
+    "asset": 1737959897267,
+    "meta": 1737959897268,
+    "relativePath": "Games/TapToFind/Animations/Animation/jaipuria/bag/output/output/output"
+  },
+  "d7eeda04-e0e3-4f34-adc8-5bd3a1d37ed7": {
+    "asset": 1737959897258,
+    "meta": 1737959897319,
+    "relativePath": "Games/TapToFind/Animations/Animation/jaipuria/bag/output/output/output/Corny.json"
+  },
+  "4c7b1160-9b9c-4814-ade0-b66739ab77bb": {
+    "asset": 1737959897257,
+    "meta": 1737959897282,
+    "relativePath": "Games/TapToFind/Animations/Animation/jaipuria/bag/output/output/output/Corny.atlas"
+  },
+  "447a577f-1f42-4412-b8d9-edc69e33690b": {
+    "asset": 1737959897259,
+    "meta": 1737959897306,
+    "relativePath": "Games/TapToFind/Animations/Animation/jaipuria/bag/output/output/output/Corny.png"
   }
 }
