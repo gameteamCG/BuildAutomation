@@ -2956,7 +2956,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bag",
+    "_name": "penguin",
     "_objFlags": 0,
     "_parent": {
       "__id__": 61
