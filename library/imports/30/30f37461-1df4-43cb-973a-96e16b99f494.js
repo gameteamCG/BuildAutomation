@@ -156,8 +156,8 @@ var PersistentScroll = /** @class */ (function (_super) {
         _this.touchTilePos = new cc.Vec2(0, 0);
         _this.currentTileIndex = -1;
         _this.prevPensilSelection = 0;
-        _this.currentPensilSelection = 0;
-        _this.currentToolIndex = 0;
+        _this.currentPensilSelection = 1;
+        _this.currentToolIndex = 1;
         _this.currentPatternFrame = null;
         _this.currentPatternFrameIndex = 0;
         _this.currentDrawingScript = null;
@@ -189,7 +189,7 @@ var PersistentScroll = /** @class */ (function (_super) {
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_MOVE, this._onTouchMoved, this);
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_CANCEL, this._onTouchEnd, this);
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_END, this._onTouchEnd, this);
-        this.currentPensilSelection = Constant_1.Constant.ToolsTag.BRUSH;
+        this.currentPensilSelection = Constant_1.Constant.ToolsTag.PENCIL;
         // this._instance = this;
         console.log("count = ", this.count);
         this.count++;
