@@ -44,7 +44,7 @@ var NewClass = /** @class */ (function (_super) {
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
         }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
+        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon" || StartGame_1.default.Instance.jockeyName == "penguin" || StartGame_1.default.Instance.jockeyName == "tortoise" || StartGame_1.default.Instance.jockeyName == "muskaan" || StartGame_1.default.Instance.jockeyName == "corny") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
             this.scheduleOnce(function () {
                 _this.node.getChildByName("end").active = true;
