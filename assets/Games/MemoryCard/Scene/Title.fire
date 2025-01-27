@@ -2956,7 +2956,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "muskaan",
+    "_name": "corny",
     "_objFlags": 0,
     "_parent": {
       "__id__": 61
@@ -2981,8 +2981,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 431,
-      "height": 557.68
+      "width": 553.35,
+      "height": 965.59
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3000,8 +3000,8 @@
         0,
         0,
         1,
-        0.55,
-        0.55,
+        0.3,
+        0.3,
         1
       ]
     },
@@ -3050,7 +3050,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "1a3ba7cb-f78a-4201-aa4d-5723278c3733"
+      "__uuid__": "646220cc-3131-411d-8c33-ec463d2f51dc"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
