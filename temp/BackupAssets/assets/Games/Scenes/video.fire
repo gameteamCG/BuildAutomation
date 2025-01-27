@@ -5696,7 +5696,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bag",
+    "_name": "corny",
     "_objFlags": 0,
     "_parent": {
       "__id__": 117
@@ -5719,8 +5719,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 848.12,
-      "height": 947.04
+      "width": 553.35,
+      "height": 965.59
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5771,7 +5771,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "idle",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -5788,7 +5788,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "e1b35266-5111-4a84-86b1-6e1bdd0175e2"
+      "__uuid__": "3043123f-027d-4b61-a37b-8f23ff93dd22"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
