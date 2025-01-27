@@ -1170,8 +1170,8 @@
     "relativePath": "Game/Painting_template/Scene/MainMenu.fire"
   },
   "423ad13b-f436-4a08-a3bc-baa23f33d9f2": {
-    "asset": 1737976124013,
-    "meta": 1737976124016,
+    "asset": 1737976206205,
+    "meta": 1737976206209,
     "relativePath": "Game/Painting_template/Scene/gameEnded.fire"
   },
   "d69f5bd4-e539-45cc-a9d8-86833cbb0de6": {
@@ -3085,8 +3085,8 @@
     "relativePath": "Games/Automation Prefabs/Animation/jaipuria/bag/audio"
   },
   "cadda1b7-6d4c-4cba-90fd-548943f162d8": {
-    "asset": 1737976066741,
-    "meta": 1737976078740,
+    "asset": 1737976091440,
+    "meta": 1737976164952,
     "relativePath": "Games/Automation Prefabs/Animation/jaipuria/bag/output"
   },
   "3efecaaf-6ea8-4546-ad76-ca72c90616cd": {
@@ -4438,5 +4438,25 @@
     "asset": 1737976091439,
     "meta": 1737976091475,
     "relativePath": "Games/Automation Prefabs/Animation/jaipuria/bag/output/output/Muskaan.png"
+  },
+  "0c1b628a-00da-4a02-a8c7-57da5f88fba4": {
+    "asset": 1737976176917,
+    "meta": 1737976176918,
+    "relativePath": "Games/Automation Prefabs/Animation/jaipuria/bag/output/output/output"
+  },
+  "491de896-5b50-42b2-8034-aaabff376626": {
+    "asset": 1737976176909,
+    "meta": 1737976176963,
+    "relativePath": "Games/Automation Prefabs/Animation/jaipuria/bag/output/output/output/Corny.json"
+  },
+  "a8f12f31-222f-411f-83e7-dd6856f832fd": {
+    "asset": 1737976176908,
+    "meta": 1737976176929,
+    "relativePath": "Games/Automation Prefabs/Animation/jaipuria/bag/output/output/output/Corny.atlas"
+  },
+  "15c8c71a-2a55-4d71-ae87-566f5b1b7cc8": {
+    "asset": 1737976176910,
+    "meta": 1737976176951,
+    "relativePath": "Games/Automation Prefabs/Animation/jaipuria/bag/output/output/output/Corny.png"
   }
 }
