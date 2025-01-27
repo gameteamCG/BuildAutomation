@@ -770,7 +770,7 @@
         "__id__": 17
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [],
     "_prefab": null,
     "_opacity": 255,
@@ -965,8 +965,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 200
+      "width": 150,
+      "height": 150
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2957,13 +2957,13 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bag",
+    "_name": "tortoise",
     "_objFlags": 0,
     "_parent": {
       "__id__": 61
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 63
@@ -2982,8 +2982,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 848.12,
-      "height": 947.04
+      "width": 415.17,
+      "height": 649.53
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3001,8 +3001,8 @@
         0,
         0,
         1,
-        0.35,
-        0.35,
+        0.5,
+        0.5,
         1
       ]
     },
@@ -3051,7 +3051,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "10baffd4-b062-4408-9849-73372199766b"
+      "__uuid__": "ba071bc8-9291-4913-b2f3-9ef1909e369d"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
