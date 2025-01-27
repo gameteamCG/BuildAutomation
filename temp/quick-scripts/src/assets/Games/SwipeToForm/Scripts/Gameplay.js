@@ -93,7 +93,7 @@ var Gameplay = /** @class */ (function (_super) {
             this.node.getChildByName("questionPanel").getChildByName("text2").getComponent(cc.Label).font = this.supercub_font;
             this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
         }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
+        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon" || StartGame_1.default.Instance.jockeyName == "penguin" || StartGame_1.default.Instance.jockeyName == "tortoise" || StartGame_1.default.Instance.jockeyName == "muskaan" || StartGame_1.default.Instance.jockeyName == "corny") {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
             this.node.getChildByName("questionPanel").getChildByName("text2").getComponent(cc.Label).font = this.jaipuria_font;
@@ -186,7 +186,7 @@ var Gameplay = /** @class */ (function (_super) {
                 _loop_1(i);
             }
         }, 1);
-        if (StartGame_1.default.Instance.jockeyName == "bag") {
+        if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "penguin" || StartGame_1.default.Instance.jockeyName == "tortoise" || StartGame_1.default.Instance.jockeyName == "muskaan" || StartGame_1.default.Instance.jockeyName == "corny") {
             this.positiveAudio = this.bagPositive;
         }
         else if (StartGame_1.default.Instance.jockeyName == "cryon") {
@@ -244,7 +244,9 @@ var Gameplay = /** @class */ (function (_super) {
         this.needReiteration = questionData.needReiteration;
         this.LoadAssetsAudios(questionData);
         if (this.needReiteration) {
-            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = questionData.correctAnswer;
+            // this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = questionData.correctAnswer;
+            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = "";
+            this.node.getChildByName("reiteration").getChildByName("text").active = false;
             if (questionData.reiterationImageName != null && questionData.reiterationImageName != "") {
                 if (StartGame_1.default.Instance.isDemoGame) {
                     cc.loader.load(questionData.reiterationImageName, function (err, texture) {
@@ -610,7 +612,7 @@ var Gameplay = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "supercub") {
             anim = ["positive_3", "positive_4", "positive_5"];
         }
-        else if (StartGame_1.default.Instance.jockeyName == "bag") {
+        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "penguin" || StartGame_1.default.Instance.jockeyName == "tortoise" || StartGame_1.default.Instance.jockeyName == "muskaan" || StartGame_1.default.Instance.jockeyName == "corny") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "cryon") {
