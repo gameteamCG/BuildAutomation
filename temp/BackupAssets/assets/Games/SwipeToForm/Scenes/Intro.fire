@@ -1868,13 +1868,13 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bag",
+    "_name": "penguin",
     "_objFlags": 0,
     "_parent": {
       "__id__": 42
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 44
@@ -1893,8 +1893,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 848.12,
-      "height": 947.04
+      "width": 310.25,
+      "height": 571.66
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1912,8 +1912,8 @@
         0,
         0,
         1,
-        0.35,
-        0.35,
+        0.55,
+        0.55,
         1
       ]
     },
@@ -1962,7 +1962,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "10baffd4-b062-4408-9849-73372199766b"
+      "__uuid__": "ae84c225-b75b-4f87-9c25-e7e3042caf11"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
