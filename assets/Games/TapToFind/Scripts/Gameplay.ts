@@ -70,7 +70,7 @@ export default class Gameplay extends cc.Component {
             this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
             this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
         }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
+        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon" || startGame.Instance.jockeyName == "penguin" || startGame.Instance.jockeyName == "tortoise" || startGame.Instance.jockeyName == "muskaan" || startGame.Instance.jockeyName == "corny") {
             this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
             this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
             this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
@@ -527,7 +527,7 @@ export default class Gameplay extends cc.Component {
         else if (startGame.Instance.jockeyName == "supercub") {
             anim = ["positive_3", "positive_4", "positive_3", "positive_4", "positive_5"];
         }
-        else if (startGame.Instance.jockeyName == "bag") {
+        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "penguin" || startGame.Instance.jockeyName == "tortoise" || startGame.Instance.jockeyName == "muskaan" || startGame.Instance.jockeyName == "corny") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (startGame.Instance.jockeyName == "cryon") {
@@ -603,7 +603,7 @@ export default class Gameplay extends cc.Component {
             else if (startGame.Instance.jockeyName == "supercub") {
                 anim = ["negative_3", "negative_4", "negative_3", "negative_4"];
             }
-            else if (startGame.Instance.jockeyName == "bag") {
+            else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "penguin" || startGame.Instance.jockeyName == "tortoise" || startGame.Instance.jockeyName == "muskaan" || startGame.Instance.jockeyName == "corny") {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
             else if (startGame.Instance.jockeyName == "cryon") {
