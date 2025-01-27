@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -94,7 +94,7 @@ var gameplay = /** @class */ (function (_super) {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
         }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
+        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon" || StartGame_1.default.Instance.jockeyName == "penguin" || StartGame_1.default.Instance.jockeyName == "tortoise" || StartGame_1.default.Instance.jockeyName == "muskaan" || StartGame_1.default.Instance.jockeyName == "corny") {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         }
@@ -266,7 +266,7 @@ var gameplay = /** @class */ (function (_super) {
         // this.answerArray = [startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum];
         this.answerArray[0] = "1";
         // this.OptionsLayout();
-        if (StartGame_1.default.Instance.jockeyName == "bag") {
+        if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "penguin" || StartGame_1.default.Instance.jockeyName == "tortoise" || StartGame_1.default.Instance.jockeyName == "muskaan" || StartGame_1.default.Instance.jockeyName == "corny") {
             this.positiveAudio = this.bagPositive;
             this.negativeAudio = this.bagNegative;
         }
@@ -592,7 +592,7 @@ var gameplay = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "supercub") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
-        else if (StartGame_1.default.Instance.jockeyName == "bag") {
+        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "penguin" || StartGame_1.default.Instance.jockeyName == "tortoise" || StartGame_1.default.Instance.jockeyName == "muskaan" || StartGame_1.default.Instance.jockeyName == "corny") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "cryon") {
@@ -723,7 +723,7 @@ var gameplay = /** @class */ (function (_super) {
             else if (StartGame_1.default.Instance.jockeyName == "supercub") {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
             }
-            else if (StartGame_1.default.Instance.jockeyName == "bag") {
+            else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "penguin" || StartGame_1.default.Instance.jockeyName == "tortoise" || StartGame_1.default.Instance.jockeyName == "muskaan" || StartGame_1.default.Instance.jockeyName == "corny") {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "cryon") {
