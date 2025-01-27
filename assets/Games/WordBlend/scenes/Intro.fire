@@ -1124,13 +1124,13 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Puzzle",
+    "_name": "hindi",
     "_objFlags": 0,
     "_parent": {
       "__id__": 25
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 27
