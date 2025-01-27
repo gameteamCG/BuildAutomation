@@ -1,5 +1,5 @@
 
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -629,7 +629,7 @@ export default class Gameplay extends cc.Component {
         if (startGame.Instance.jockeyName == "Podar") {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
         }
-        else if (startGame.Instance.jockeyName == "Puzzle") {
+        else if (startGame.Instance.jockeyName == "Puzzle" || startGame.Instance.jockeyName == "hindi") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
         }
         else if (startGame.Instance.jockeyName == "tlc") {
