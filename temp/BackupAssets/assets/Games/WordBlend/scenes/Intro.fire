@@ -404,7 +404,7 @@
     "node": {
       "__id__": 6
     },
-    "_enabled": true,
+    "_enabled": false,
     "_defaultClip": {
       "__uuid__": "94e3fab5-6987-4121-a9a3-49dc95e12e50"
     },
@@ -643,8 +643,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 200
+      "width": 150,
+      "height": 150
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -734,9 +734,13 @@
       "__id__": 14
     },
     "_enabled": true,
-    "_defaultClip": null,
+    "_defaultClip": {
+      "__uuid__": "94e3fab5-6987-4121-a9a3-49dc95e12e50"
+    },
     "_clips": [
-      null
+      {
+        "__uuid__": "94e3fab5-6987-4121-a9a3-49dc95e12e50"
+      }
     ],
     "playOnLoad": true,
     "_id": "3dkSx5p+NB6rVVcnUSL/Ix"
@@ -1462,13 +1466,13 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bag",
+    "_name": "tortoise",
     "_objFlags": 0,
     "_parent": {
       "__id__": 33
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 35
@@ -1487,8 +1491,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 848.12,
-      "height": 947.04
+      "width": 415.17,
+      "height": 649.53
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1506,8 +1510,8 @@
         0,
         0,
         1,
-        0.35,
-        0.35,
+        0.5,
+        0.5,
         1
       ]
     },
@@ -1539,7 +1543,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "idle",
+    "defaultAnimation": "",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -1556,7 +1560,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "10baffd4-b062-4408-9849-73372199766b"
+      "__uuid__": "d13785a0-d6e9-4123-b6bd-8bbc6a2cc920"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
