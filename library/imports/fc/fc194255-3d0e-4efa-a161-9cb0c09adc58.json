@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Keeping safe_UKG_GA_20",
+      "totalLevel": "7",
+      "TitleImageName": "KeepingSafe.png",
+      "introBgName": "Bg.png",
+      "bgmMusicName": "bgm_1.mp3",
+      "mainBgName": "Background.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Select the right choice to be safe",
+        "questionAudioName": "Selecttherightchoicetobesafe.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "A1.png",
+          "A2.png"
+        ],
+        "correctAudios": [
+          "Donotplaywithsharpobjects.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Select the right choice to be safe",
+        "questionAudioName": "Selecttherightchoicetobesafe.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "b2.png",
+          "B1.png"
+        ],
+        "correctAudios": [
+          "Becarefulwithelectricalobjects.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Select the right choice to be safe",
+        "questionAudioName": "Selecttherightchoicetobesafe.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "c2.png",
+          "c1.png"
+        ],
+        "correctAudios": [
+          "Neverleavethingsonthefloor.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Select the right choice to be safe",
+        "questionAudioName": "Selecttherightchoicetobesafe.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "D1.png",
+          "D2.png"
+        ],
+        "correctAudios": [
+          "Playsafeandkeepawayfromunsafeareas.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Select the right choice to be safe",
+        "questionAudioName": "Selecttherightchoicetobesafe.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "E1.png",
+          "E2.png"
+        ],
+        "correctAudios": [
+          "Donotfight.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Select the right choice to be safe",
+        "questionAudioName": "Selecttherightchoicetobesafe.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "F1.png",
+          "F2.png"
+        ],
+        "correctAudios": [
+          "Strangersarepeoplwedonotknow.Wemustnottalktothem.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Select the right choice to be safe",
+        "questionAudioName": "Selecttherightchoicetobesafe.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "G1.png",
+          "G2.png"
+        ],
+        "correctAudios": [
+          "Wemustnotacceptfoodordrinkfromastranger.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

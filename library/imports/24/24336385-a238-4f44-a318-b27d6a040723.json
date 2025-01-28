@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "KeepingSafe",
+    "texture": "94847144-585b-4cfb-acd3-f9dad5775210",
+    "atlas": "",
+    "rect": [
+      2,
+      7,
+      370,
+      192
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      375,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
