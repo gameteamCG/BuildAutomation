@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slouch",
+    "texture": "3029c00d-5738-475a-babc-8576cf82e675",
+    "atlas": "",
+    "rect": [
+      78,
+      52,
+      344,
+      396
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

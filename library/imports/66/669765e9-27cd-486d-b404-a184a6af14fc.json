@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dining",
+    "texture": "d5f1bbbe-d999-4a93-9bc2-a9efad8dd41f",
+    "atlas": "",
+    "rect": [
+      23,
+      23,
+      454,
+      454
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
