@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Roman23",
+    "texture": "07ed4a74-d397-4c4e-9ae8-8272c94aca5e",
+    "atlas": "",
+    "rect": [
+      21,
+      114,
+      273,
+      76
+    ],
+    "offset": [
+      -2.5,
+      8
+    ],
+    "originalSize": [
+      320,
+      320
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
