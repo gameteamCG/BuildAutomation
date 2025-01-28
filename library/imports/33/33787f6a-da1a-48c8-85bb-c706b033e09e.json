@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slip",
+    "texture": "bbc6aa38-c620-4efc-b063-73c869edbce3",
+    "atlas": "",
+    "rect": [
+      0,
+      42,
+      500,
+      416
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

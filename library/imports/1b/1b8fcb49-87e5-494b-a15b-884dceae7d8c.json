@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0005_sloth",
+    "texture": "5df1a6fd-01f7-4d3d-bf9f-c0f857362ef1",
+    "atlas": "",
+    "rect": [
+      29,
+      87,
+      468,
+      336
+    ],
+    "offset": [
+      13,
+      -5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
