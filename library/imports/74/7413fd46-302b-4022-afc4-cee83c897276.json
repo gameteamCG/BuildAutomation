@@ -1,0 +1,120 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "letter Qq_Podar_day_136",
+      "totalLevel": "4",
+      "TitleImageName": "letterQq.png",
+      "introBgName": "bgpodar.png",
+      "bgmMusicName": "BBGGMM.mp3",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "BGL1.png",
+        "questionAudioName": "IdentifyallthekiteswithletterQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "K1.png",
+          "K2.png",
+          "K3.png",
+          "K4.png"
+        ],
+        "correctAudioName": "L1Correct.mp3",
+        "wrongAudioName": "ChildrenVoice-Ouch.mp3",
+        "reiterationAudioName": "mp3-output-ttsfree(dot)com (8).mp3",
+        "correctAnswerNum": "1234"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "BGL2.png",
+        "questionAudioName": "IdentifyallthequiltswithletterQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Q1.png",
+          "Q4.png",
+          "Q2.png",
+          "Q5.png",
+          "Q3.png"
+        ],
+        "correctAudioName": "L2Correct.mp3",
+        "wrongAudioName": "ChildrenVoice-Sadness1.mp3",
+        "reiterationAudioName": "mp3-output-ttsfree(dot)com (8).mp3",
+        "correctAnswerNum": "135"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "BGL3.png",
+        "questionAudioName": "IdentifyalltheballoonswithletterQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "B1.png",
+          "B2.png",
+          "B3.png",
+          "B4.png",
+          "B5.png"
+        ],
+        "correctAudioName": "L3Correct.mp3",
+        "wrongAudioName": "ChildrenVoice-Ugh1.mp3",
+        "reiterationAudioName": "mp3-output-ttsfree(dot)com (8).mp3",
+        "correctAnswerNum": "135"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BGL4.png",
+        "questionAudioName": "IdentifyalltheobjectsthatstartwithletterQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "key.png",
+          "quail.png",
+          "magnet.png",
+          "queen.png",
+          "quill.png"
+        ],
+        "optionsBg": [
+          "keyBW.png",
+          "quailBW.png",
+          "magnetBW.png",
+          "queenBW.png",
+          "quillBW.png"
+        ],
+        "correctAudioName": "L4Correct.mp3",
+        "wrongAudioName": "ChildrenVoice-Ouch.mp3",
+        "reiterationAudioName": "mp3-output-ttsfree(dot)com (9).mp3",
+        "correctAnswerNum": "245"
+      }
+    ]
+  }
+}

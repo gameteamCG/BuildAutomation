@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "keyBW",
+    "texture": "8142b492-4b56-4c93-81bb-bf8fe57f6d4d",
+    "atlas": "",
+    "rect": [
+      3,
+      127,
+      495,
+      246
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
