@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "i3",
+    "texture": "31147d67-2ce8-4c8c-9778-07b97662ed87",
+    "atlas": "",
+    "rect": [
+      231,
+      87,
+      41,
+      303
+    ],
+    "offset": [
+      1,
+      12
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
