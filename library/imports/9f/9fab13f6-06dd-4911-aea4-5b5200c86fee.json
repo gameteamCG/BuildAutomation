@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spaceinmyroom",
+    "texture": "97827cc7-1178-4027-b260-ca69d05343a8",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      409,
+      97
+    ],
+    "offset": [
+      -5.5,
+      0.5
+    ],
+    "originalSize": [
+      426,
+      112
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

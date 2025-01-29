@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "afa52943-eb21-4f06-b122-9c860d20aca8",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0017_snake": {
+      "ver": "1.0.6",
+      "uuid": "782bf7d0-d591-4c50-bc56-a75199f5425c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "afa52943-eb21-4f06-b122-9c860d20aca8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -0.5,
+      "trimX": 24,
+      "trimY": 78,
+      "width": 453,
+      "height": 345,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

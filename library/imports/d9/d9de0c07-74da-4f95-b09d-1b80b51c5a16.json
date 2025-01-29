@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0000_wardrobe",
+    "texture": "8f9449fe-d2c9-4a34-b123-930e59c2def0",
+    "atlas": "",
+    "rect": [
+      63,
+      32,
+      369,
+      453
+    ],
+    "offset": [
+      -2.5,
+      -8.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
