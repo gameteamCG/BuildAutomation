@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "My kitchen_NUR_GA_23",
+      "totalLevel": "7",
+      "TitleImageName": "kitchen.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "bgm_2.mp3",
+      "mainBgName": "BGKitchen.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Identify the things you see in a kitchen",
+        "questionAudioName": "identifythingsyouseekitchen.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "250x250_0004_Rolling-pin.png",
+          "250x250_0010_cow.png"
+        ],
+        "correctAudios": [
+          "rolling-pin.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Identify the things you see in a kitchen",
+        "questionAudioName": "identifythingsyouseekitchen.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "250x250_0003_sheep.png",
+          "250x250_0000_cuttingboard.png"
+        ],
+        "correctAudios": [
+          "cutting-board.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Identify the things you see in a kitchen",
+        "questionAudioName": "identifythingsyouseekitchen.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "250x250_0005_pig.png",
+          "250x250_0012_bowl.png"
+        ],
+        "correctAudios": [
+          "Bowl.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Identify the things you see in a kitchen",
+        "questionAudioName": "identifythingsyouseekitchen.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "250x250_0002_teapot.png",
+          "250x250_0007_horse.png"
+        ],
+        "correctAudios": [
+          "Teapot.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Identify the things you see in a kitchen",
+        "questionAudioName": "identifythingsyouseekitchen.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "250x250_0013_apron.png",
+          "250x250_0008_goat.png"
+        ],
+        "correctAudios": [
+          "Apron.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Identify the things you see in a kitchen",
+        "questionAudioName": "identifythingsyouseekitchen.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "250x250_0009_duck.png",
+          "250x250_0006_jar.png"
+        ],
+        "correctAudios": [
+          "Jars.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Identify the things you see in a kitchen",
+        "questionAudioName": "identifythingsyouseekitchen.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "250x250_0011_camel.png",
+          "250x250_0001_tongs.png"
+        ],
+        "correctAudios": [
+          "Tongs.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
