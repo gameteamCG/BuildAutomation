@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "winterhat",
+    "texture": "87986e1f-2e61-4f5d-ad29-1492c854e8cc",
+    "atlas": "",
+    "rect": [
+      219,
+      53,
+      205,
+      391
+    ],
+    "offset": [
+      71.5,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
