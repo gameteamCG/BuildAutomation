@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "glaves",
+    "texture": "7ad99ad8-a625-41e1-9c42-03f60f07675e",
+    "atlas": "",
+    "rect": [
+      119,
+      139,
+      313,
+      222
+    ],
+    "offset": [
+      25.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "0010_spring_cloth4",
+    "texture": "552a1180-8deb-4200-97cd-65b84911115d",
+    "atlas": "",
+    "rect": [
+      169,
+      74,
+      241,
+      372
+    ],
+    "offset": [
+      39.5,
+      -10
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
