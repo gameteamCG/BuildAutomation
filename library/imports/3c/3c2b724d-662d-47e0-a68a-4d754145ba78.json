@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sight2",
+    "texture": "a8cd146f-844c-406b-81b4-8106d7dce45b",
+    "atlas": "",
+    "rect": [
+      22,
+      110,
+      430,
+      257
+    ],
+    "offset": [
+      -13,
+      11.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

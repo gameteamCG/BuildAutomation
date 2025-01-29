@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sense_0004_1_0006_9",
+    "texture": "00b46de5-aae0-4e16-92c1-0b08f70af023",
+    "atlas": "",
+    "rect": [
+      68,
+      130,
+      422,
+      241
+    ],
+    "offset": [
+      29,
+      0
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

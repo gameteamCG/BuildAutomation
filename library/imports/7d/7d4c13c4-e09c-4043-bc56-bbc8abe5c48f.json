@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "senseorganstitle",
+    "texture": "d98fd063-48fc-4fb1-8609-589a628e6baf",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      478,
+      216
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      484,
+      232
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

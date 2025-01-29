@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "taste2",
+    "texture": "4c0969f7-9b1c-429d-a234-795789050e4b",
+    "atlas": "",
+    "rect": [
+      20,
+      57,
+      396,
+      386
+    ],
+    "offset": [
+      -32,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

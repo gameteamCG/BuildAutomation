@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "My sense organs _NUR_GA_12",
+      "totalLevel": "5",
+      "TitleImageName": "senseorganstitle.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "bgm2.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "hearing",
+        "questionAudioName": "matchobjecthear.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "500x500_0001_left-puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "hearing2.png"
+        ],
+        "reiterations": [
+          "alarmclock.mp3"
+        ],
+        "commonRightOptionImageName": "500x500_0000_right-puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "final_0010_1_0000_3.png",
+          "final_0006_1_0004_11.png"
+        ]
+      },
+      {
+        "questionText": "sight",
+        "questionAudioName": "matchobjectsee.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "500x500_0001_left-puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "sight2.png"
+        ],
+        "reiterations": [
+          "lights.mp3"
+        ],
+        "commonRightOptionImageName": "500x500_0000_right-puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "lights.png",
+          "sense_0001_1_0009_6.png"
+        ]
+      },
+      {
+        "questionText": "smell",
+        "questionAudioName": "matchobjectsmell.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "500x500_0001_left-puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "smell2.png"
+        ],
+        "reiterations": [
+          "Flowers.mp3"
+        ],
+        "commonRightOptionImageName": "500x500_0000_right-puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "flower.png",
+          "final_0003_1_0007_8.png"
+        ]
+      },
+      {
+        "questionText": "taste",
+        "questionAudioName": "matchobjecttaste.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "500x500_0001_left-puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "taste2.png"
+        ],
+        "reiterations": [
+          "watermelon.mp3"
+        ],
+        "commonRightOptionImageName": "500x500_0000_right-puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "watermelon.png",
+          "sense_0011_1_0011_4.png"
+        ]
+      },
+      {
+        "questionText": "feel",
+        "questionAudioName": "matchobjectfeel.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "500x500_0001_left-puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "touch.png"
+        ],
+        "reiterations": [
+          "buildingblocks.mp3"
+        ],
+        "commonRightOptionImageName": "500x500_0000_right-puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "blocks.png",
+          "sense_0004_1_0006_9.png"
+        ]
+      }
+    ]
+  }
+}
