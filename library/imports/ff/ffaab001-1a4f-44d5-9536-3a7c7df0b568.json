@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sleepinglate",
+    "texture": "2a008bcd-7b01-47e7-af33-9d5059be1c02",
+    "atlas": "",
+    "rect": [
+      130,
+      21,
+      240,
+      458
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
