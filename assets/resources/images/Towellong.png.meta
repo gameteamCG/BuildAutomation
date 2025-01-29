@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "112a52c9-6eb6-45a4-9b8b-5c326ef71d6c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Towellong": {
+      "ver": "1.0.6",
+      "uuid": "3ef80724-56d1-4be6-bb21-495bf2bd233b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "112a52c9-6eb6-45a4-9b8b-5c326ef71d6c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 73,
+      "trimY": 26,
+      "width": 354,
+      "height": 448,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

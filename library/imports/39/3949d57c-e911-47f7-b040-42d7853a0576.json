@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sweaterbake",
+    "texture": "8fc6aaba-22f1-444c-8cbf-e8112564d90c",
+    "atlas": "",
+    "rect": [
+      43,
+      24,
+      418,
+      452
+    ],
+    "offset": [
+      2,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

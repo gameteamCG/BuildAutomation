@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sweaterclue",
+    "texture": "96766c74-0fe0-42de-bc7a-c7e5180c2ecc",
+    "atlas": "",
+    "rect": [
+      41,
+      24,
+      418,
+      452
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

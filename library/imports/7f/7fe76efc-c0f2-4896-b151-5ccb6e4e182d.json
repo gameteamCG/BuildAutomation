@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Bluetshirt",
+    "texture": "b11a9025-28f6-4572-81ca-ca3c44c09721",
+    "atlas": "",
+    "rect": [
+      20,
+      13,
+      469,
+      473
+    ],
+    "offset": [
+      4.5,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Towelmute",
+    "texture": "f1364fd4-e902-42e4-ac0e-25703626b714",
+    "atlas": "",
+    "rect": [
+      74,
+      19,
+      354,
+      447
+    ],
+    "offset": [
+      1,
+      7.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

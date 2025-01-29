@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Doorshirt",
+    "texture": "970edac0-1e49-482e-98c5-ddaf2ac74081",
+    "atlas": "",
+    "rect": [
+      16,
+      13,
+      468,
+      474
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appleshirt",
+    "texture": "91843cdc-6407-4e33-863e-2b63aeee0a64",
+    "atlas": "",
+    "rect": [
+      16,
+      13,
+      468,
+      474
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

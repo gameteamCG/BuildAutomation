@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Towelcake",
+    "texture": "a66372f4-c586-4e5a-a0ba-9868ba9c5dfd",
+    "atlas": "",
+    "rect": [
+      73,
+      26,
+      354,
+      448
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

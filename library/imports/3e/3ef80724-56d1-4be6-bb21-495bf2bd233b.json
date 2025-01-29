@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Towellong",
+    "texture": "112a52c9-6eb6-45a4-9b8b-5c326ef71d6c",
+    "atlas": "",
+    "rect": [
+      73,
+      26,
+      354,
+      448
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

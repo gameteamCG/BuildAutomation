@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sweaterlittle",
+    "texture": "ab5c9fdb-1c61-410e-9657-a27da90f561c",
+    "atlas": "",
+    "rect": [
+      41,
+      24,
+      418,
+      452
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
