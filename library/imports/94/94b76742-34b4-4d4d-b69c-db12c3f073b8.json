@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hold",
+    "texture": "594d58b1-a518-423c-b1c4-0a14009fc7f4",
+    "atlas": "",
+    "rect": [
+      24,
+      24,
+      452,
+      452
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
