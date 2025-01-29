@@ -1,0 +1,159 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "My sense organs_NUR_GA_9",
+      "totalLevel": "5",
+      "TitleImageName": "bodypartsandsenses.png",
+      "introBgName": "NURSE.png",
+      "bgmMusicName": "hksmi.mp3",
+      "mainBgName": "indoor BG.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "body parts and senses",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "frame.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "t1.png",
+          "t2.png",
+          "t3.png",
+          "t4.png"
+        ],
+        "correctAudioName": "L1correct.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Which body part helps you taste?",
+        "questionAudioName2": "Whichbodyparthelpsyoutaste.mp3",
+        "commonOptionImageName": "frame.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ear",
+          "tongue"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "tongue.mp3"
+      },
+      {
+        "questionText": "body parts and senses",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "frame.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "n1.png",
+          "n2.png",
+          "n3.png",
+          "n4.png"
+        ],
+        "correctAudioName": "L2Correct.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify the body part helps you to smell.",
+        "questionAudioName2": "Identifythebodypartthathelpsyousmell.mp3",
+        "commonOptionImageName": "frame.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "nose",
+          "eyes"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "nose.mp3"
+      },
+      {
+        "questionText": "body parts and senses",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "frame.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "e1.png",
+          "e2.png",
+          "e3.png",
+          "e4.png"
+        ],
+        "correctAudioName": "L3correct.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Select the body part that helps you see.",
+        "questionAudioName2": "Selectthebodypartthathelpsyousee.mp3",
+        "commonOptionImageName": "frame.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "skin ",
+          "eyes"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "eyes.mp3"
+      },
+      {
+        "questionText": "body parts and senses",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "frame.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "e1.png",
+          "e2.png",
+          "e3.png",
+          "e4.png"
+        ],
+        "correctAudioName": "l4correct.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "choose the body part that helps you hear.eyes",
+        "questionAudioName2": "choosethebodypartthathelpsyouhear.mp3",
+        "commonOptionImageName": "frame.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "eyes",
+          "ears"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "ears.mp3"
+      },
+      {
+        "questionText": "body parts and senses",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "frame.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "h1.png",
+          "h2.png",
+          "h3.png",
+          "h4.png"
+        ],
+        "correctAudioName": "L5Correct.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Which body part helps you fell?",
+        "questionAudioName2": "whichbodyparthelpsyoufeel.mp3",
+        "commonOptionImageName": "frame.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "skin",
+          "nose"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "skin.mp3"
+      }
+    ]
+  }
+}
