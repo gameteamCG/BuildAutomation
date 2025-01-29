@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Basket_4_sweet",
+    "texture": "e83184d7-8f56-400c-9659-5fbd1beaa101",
+    "atlas": "",
+    "rect": [
+      7,
+      40,
+      203,
+      137
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      216,
+      216
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

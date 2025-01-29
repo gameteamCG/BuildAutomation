@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Basket_4_sour",
+    "texture": "74e64a1e-4419-47a0-b469-a3f6bb72ee1e",
+    "atlas": "",
+    "rect": [
+      7,
+      40,
+      202,
+      137
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      216,
+      216
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

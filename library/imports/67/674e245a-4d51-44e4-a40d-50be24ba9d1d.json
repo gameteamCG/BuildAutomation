@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0003_tamarind",
+    "texture": "8a1dc175-97e4-4ffb-a7a9-fa8683205f44",
+    "atlas": "",
+    "rect": [
+      26,
+      29,
+      448,
+      442
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

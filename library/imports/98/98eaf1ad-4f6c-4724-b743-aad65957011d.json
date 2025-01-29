@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_pickle",
+    "texture": "72cef1b0-283a-403e-8355-c65c92643388",
+    "atlas": "",
+    "rect": [
+      121,
+      35,
+      258,
+      429
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
