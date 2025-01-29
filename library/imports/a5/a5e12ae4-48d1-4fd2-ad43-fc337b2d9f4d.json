@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_sofa",
+    "texture": "f1b2b6a3-8f2e-4c84-b468-ad3236dee36c",
+    "atlas": "",
+    "rect": [
+      40,
+      144,
+      439,
+      235
+    ],
+    "offset": [
+      9.5,
+      -11.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

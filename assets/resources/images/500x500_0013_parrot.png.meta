@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "57d041d6-2bb8-48c7-bc99-bcc6ed395204",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0013_parrot": {
+      "ver": "1.0.6",
+      "uuid": "bde79134-aa99-41c0-bdd5-dd1b84644946",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "57d041d6-2bb8-48c7-bc99-bcc6ed395204",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": 2,
+      "trimX": 121,
+      "trimY": 12,
+      "width": 262,
+      "height": 472,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

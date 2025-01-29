@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0008_bookcase",
+    "texture": "316f9cc3-f12c-4c55-ae06-4960c81bb288",
+    "atlas": "",
+    "rect": [
+      21,
+      172,
+      461,
+      157
+    ],
+    "offset": [
+      1.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
