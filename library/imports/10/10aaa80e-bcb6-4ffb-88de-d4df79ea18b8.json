@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "usesofarms",
+    "texture": "eaf9836a-87a0-49bb-bcfa-e025240d139c",
+    "atlas": "",
+    "rect": [
+      2,
+      8,
+      398,
+      286
+    ],
+    "offset": [
+      -5.5,
+      0.5
+    ],
+    "originalSize": [
+      413,
+      303
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
