@@ -1,0 +1,156 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Personal hygiene_LKG_GA_10",
+      "totalLevel": "8",
+      "TitleImageName": "personalandphysicalhygeine.png",
+      "introBgName": "NURSE.png",
+      "bgmMusicName": "hksmi.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "personal and physical hygiene",
+        "questionAudioName": "identifytheimagethatdisplayspersonalandphysicalhygiene.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "bus.png",
+          "bus1.png"
+        ],
+        "correctAudios": [
+          "answer1.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "personal and physical hygiene",
+        "questionAudioName": "identifytheimagethatdisplayspersonalandphysicalhygiene.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "cleanclothes.png",
+          "dirtyclothes.png"
+        ],
+        "correctAudios": [
+          "wearingcleanclothes.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "personal and physical hygiene",
+        "questionAudioName": "identifytheimagethatdisplayspersonalandphysicalhygiene.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "cleanhand.png",
+          "dirtyhand.png"
+        ],
+        "correctAudios": [
+          "answer3.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "personal and physical hygiene",
+        "questionAudioName": "identifytheimagethatdisplayspersonalandphysicalhygiene.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "haircomb.png",
+          "haorcomb1.png"
+        ],
+        "correctAudios": [
+          "hairneatlycombedandtied.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "personal and physical hygiene",
+        "questionAudioName": "identifytheimagethatdisplayspersonalandphysicalhygiene.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "notwashandeat.png",
+          "washandeat.png"
+        ],
+        "correctAudios": [
+          "washingthefruitbeforeeating.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "personal and physical hygiene",
+        "questionAudioName": "identifytheimagethatdisplayspersonalandphysicalhygiene.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "roadcrossing.png",
+          "roadcrossing1.png"
+        ],
+        "correctAudios": [
+          "answer6.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "personal and physical hygiene",
+        "questionAudioName": "identifytheimagethatdisplayspersonalandphysicalhygiene.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "sleeping1.png",
+          "sleeing.png"
+        ],
+        "correctAudios": [
+          "answer7.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "personal and physical hygiene",
+        "questionAudioName": "identifytheimagethatdisplayspersonalandphysicalhygiene.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "washinghand1.png",
+          "washinghand.png"
+        ],
+        "correctAudios": [
+          "answer8.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
