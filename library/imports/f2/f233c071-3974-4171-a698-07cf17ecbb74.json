@@ -1,0 +1,169 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "My family _NUR_GA_19",
+      "totalLevel": "6",
+      "TitleImageName": "my_family.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "bgm2.mp3",
+      "mainBgName": "indoor BG.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "brother1.png",
+          "brother2.png",
+          "brother3.png",
+          "brother4.png"
+        ],
+        "correctAudioName": "brother.mp3",
+        "needReiteration": true,
+        "interactionType": "",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": true,
+        "numberOfOptions": null,
+        "options": [],
+        "correctAnswer": "",
+        "reiterationAudioName": ""
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "father1.png",
+          "father2.png",
+          "father3.png",
+          "father4.png"
+        ],
+        "correctAudioName": "Father.mp3",
+        "needReiteration": true,
+        "interactionType": "",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": true,
+        "numberOfOptions": null,
+        "options": [],
+        "correctAnswer": "",
+        "reiterationAudioName": ""
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "grandma1.png",
+          "grandma2.png",
+          "grandma3.png",
+          "grandma4.png"
+        ],
+        "correctAudioName": "grandmother.mp3",
+        "needReiteration": true,
+        "interactionType": "",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": true,
+        "numberOfOptions": null,
+        "options": [],
+        "correctAnswer": "",
+        "reiterationAudioName": ""
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "grandpa1.png",
+          "grandpa2.png",
+          "grandpa3.png",
+          "grandpa4.png"
+        ],
+        "correctAudioName": "grandfather.mp3",
+        "needReiteration": true,
+        "interactionType": "",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": true,
+        "numberOfOptions": null,
+        "options": [],
+        "correctAnswer": "",
+        "reiterationAudioName": ""
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "mother1.png",
+          "mother2.png",
+          "mother3.png",
+          "mother4.png"
+        ],
+        "correctAudioName": "mother.mp3",
+        "needReiteration": true,
+        "interactionType": "",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": true,
+        "numberOfOptions": null,
+        "options": [],
+        "correctAnswer": "",
+        "reiterationAudioName": ""
+      },
+      {
+        "questionText": "Solve the picture puzzle",
+        "questionAudioName": "solvethepicturepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "sister1.png",
+          "sister2.png",
+          "sister3.png",
+          "sister4.png"
+        ],
+        "correctAudioName": "sister.mp3",
+        "needReiteration": true,
+        "interactionType": "",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": true,
+        "numberOfOptions": null,
+        "options": [],
+        "correctAnswer": "",
+        "reiterationAudioName": ""
+      }
+    ]
+  }
+}
