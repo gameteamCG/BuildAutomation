@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Healthy habits_LKG_GA_20",
+      "totalLevel": "5",
+      "TitleImageName": "Asset_1.png",
+      "introBgName": "Junior.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Asset_2.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "healthy habits",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset_13.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_8.png"
+        ],
+        "reiterations": [
+          "Toothbrush_and_toothpaste.mp3"
+        ],
+        "commonRightOptionImageName": "Asset_14.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_6.png",
+          "Asset_4.png"
+        ]
+      },
+      {
+        "questionText": "healthy habits",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset_13.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_9.png"
+        ],
+        "reiterations": [
+          "Nail_cutter.mp3"
+        ],
+        "commonRightOptionImageName": "Asset_14.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_5.png",
+          "Asset_3.png"
+        ]
+      },
+      {
+        "questionText": "healthy habits",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset_13.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_10.png"
+        ],
+        "reiterations": [
+          "Tissue.mp3"
+        ],
+        "commonRightOptionImageName": "Asset_14.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_7.png",
+          "Asset_6.png"
+        ]
+      },
+      {
+        "questionText": "healthy habits",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset_13.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_11.png"
+        ],
+        "reiterations": [
+          "Soap_is_used.mp3"
+        ],
+        "commonRightOptionImageName": "Asset_14.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_3.png",
+          "Asset_5.png"
+        ]
+      },
+      {
+        "questionText": "healthy habits",
+        "questionAudioName": "question_vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset_13.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset_12.png"
+        ],
+        "reiterations": [
+          "eating_healthy_food.mp3"
+        ],
+        "commonRightOptionImageName": "Asset_14.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset_4.png",
+          "Asset_7.png"
+        ]
+      }
+    ]
+  }
+}
