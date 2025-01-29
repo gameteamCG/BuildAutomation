@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toes",
+    "texture": "4055befe-59a8-4ae7-8402-a8cc2c43998b",
+    "atlas": "",
+    "rect": [
+      17,
+      50,
+      265,
+      200
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "My body parts _NUR_GA_5",
+      "totalLevel": "12",
+      "TitleImageName": "bodypartstitle.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "bgm2.mp3",
+      "mainBgName": "bg46.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "chest",
+        "questionAudioName": "identify_the_body_parts1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "1_0004_Vector-Smart-Object.png",
+          "chest.png"
+        ],
+        "correctAudios": [
+          "CHEST.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "ear",
+        "questionAudioName": "identify_the_body_parts2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ear.png",
+          "teeth.png"
+        ],
+        "correctAudios": [
+          "ear.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "eyes",
+        "questionAudioName": "identify_the_body_parts3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "nose.png",
+          "eyes.png"
+        ],
+        "correctAudios": [
+          "eyes.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "hair",
+        "questionAudioName": "identify_the_body_parts4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "hair.png",
+          "teeth.png"
+        ],
+        "correctAudios": [
+          "HAIR.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "hand",
+        "questionAudioName": "identify_the_body_parts5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "hand.png",
+          "chest.png"
+        ],
+        "correctAudios": [
+          "hand.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "knee",
+        "questionAudioName": "identify_the_body_parts6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "knee.png",
+          "ear.png"
+        ],
+        "correctAudios": [
+          "knee.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "leg",
+        "questionAudioName": "identify_the_body_parts7.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "hand.png",
+          "leg.png"
+        ],
+        "correctAudios": [
+          "leg.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "mouth",
+        "questionAudioName": "identify_the_body_parts8.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "mouth.png",
+          "toes.png"
+        ],
+        "correctAudios": [
+          "mouth.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "nose",
+        "questionAudioName": "identify_the_body_parts9.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "eyes.png",
+          "nose.png"
+        ],
+        "correctAudios": [
+          "nose.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "teeth",
+        "questionAudioName": "identify_the_body_parts10.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "teeth.png",
+          "neck.png"
+        ],
+        "correctAudios": [
+          "teeth.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "toes",
+        "questionAudioName": "identify_the_body_parts11.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "chest.png",
+          "toes.png"
+        ],
+        "correctAudios": [
+          "toes.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "fingers",
+        "questionAudioName": "identify_the_body_parts12.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "palm.png",
+          "knee.png"
+        ],
+        "correctAudios": [
+          "fingers.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
