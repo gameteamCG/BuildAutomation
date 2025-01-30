@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "aa91df2c-0d89-435b-8fe1-8248795b0047",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 616,
+  "height": 310,
+  "platformSettings": {},
+  "subMetas": {
+    "how plants grow": {
+      "ver": "1.0.6",
+      "uuid": "665ee632-4f6f-403b-851d-b5c57a6176cf",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "aa91df2c-0d89-435b-8fe1-8248795b0047",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 6,
+      "offsetY": -3.5,
+      "trimX": 27,
+      "trimY": 26,
+      "width": 574,
+      "height": 265,
+      "rawWidth": 616,
+      "rawHeight": 310,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
