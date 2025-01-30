@@ -1,0 +1,215 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Non living things_ukg_GA_32",
+      "totalLevel": "7",
+      "TitleImageName": "Living_and_non_living.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGMBackward.mp3",
+      "mainBgName": "BG_4.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "solve the picture puzzle",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "c_o1.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_001.png",
+          "image_part_002.png",
+          "image_part_003.png",
+          "image_part_004.png"
+        ],
+        "correctAudioName": "sunflower_living.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "yes.png",
+          "no.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "yes.mp3"
+      },
+      {
+        "questionText": "solve the picture puzzle",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "c_o1.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_005.png",
+          "image_part_006.png",
+          "image_part_007.png",
+          "image_part_008.png"
+        ],
+        "correctAudioName": "bicycle_living.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "yes.png",
+          "no.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "No.mp3"
+      },
+      {
+        "questionText": "solve the picture puzzle",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "c_o1.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_009.png",
+          "image_part_0010.png",
+          "image_part_0011.png",
+          "image_part_0012.png"
+        ],
+        "correctAudioName": "giraffe_living.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "yes.png",
+          "no.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "yes.mp3"
+      },
+      {
+        "questionText": "solve the picture puzzle",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "c_o1.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_0013.png",
+          "image_part_0014.png",
+          "image_part_0015.png",
+          "image_part_0016.png"
+        ],
+        "correctAudioName": "clothes_living.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "yes.png",
+          "no.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "No.mp3"
+      },
+      {
+        "questionText": "solve the picture puzzle",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "c_o1.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_0017.png",
+          "image_part_0018.png",
+          "image_part_0019.png",
+          "image_part_0020.png"
+        ],
+        "correctAudioName": "ship_living.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "yes.png",
+          "no.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "No.mp3"
+      },
+      {
+        "questionText": "solve the picture puzzle",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "c_o1.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_0021.png",
+          "image_part_0022.png",
+          "image_part_0023.png",
+          "image_part_0024.png"
+        ],
+        "correctAudioName": "cactus_living.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "yes.png",
+          "no.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "yes.mp3"
+      },
+      {
+        "questionText": "solve the picture puzzle",
+        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "c_o1.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "image_part_0025.png",
+          "image_part_0026.png",
+          "image_part_0027.png",
+          "image_part_0028.png"
+        ],
+        "correctAudioName": "home_living.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "yes.png",
+          "no.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "No.mp3"
+      }
+    ]
+  }
+}
