@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "My Neighbourhood_UKG_GA_23",
+      "totalLevel": "7",
+      "TitleImageName": "place_we_visit.png",
+      "introBgName": "bgtitlemain.png",
+      "bgmMusicName": "BGM_2.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "places we visit",
+        "questionAudioName": "match_the_things_that_we_find_in_a_hospital.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Hospital_3.png"
+        ],
+        "reiterations": [
+          "Ambulance_first_aid_doctor.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "hospital2.png",
+          "Library2.png"
+        ]
+      },
+      {
+        "questionText": "places we visit",
+        "questionAudioName": "match_the_things_that_we_find_in_a_library.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "library.png"
+        ],
+        "reiterations": [
+          "Book_computers_table_and_chair.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Library2.png",
+          "bakery2.png"
+        ]
+      },
+      {
+        "questionText": "places we visit",
+        "questionAudioName": "match_the_things_that_we_find_in_a_bank.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Bank3.png"
+        ],
+        "reiterations": [
+          "ATM_machine_money_cashier_cheques.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Bank2.png",
+          "Railwaystation2.png"
+        ]
+      },
+      {
+        "questionText": "places we visit",
+        "questionAudioName": "match_the_things_that_we-find_in_a_police_station.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Policestation.png"
+        ],
+        "reiterations": [
+          "Police_car_prison_policeman.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Policestation2.png",
+          "Bank2.png"
+        ]
+      },
+      {
+        "questionText": "places we visit",
+        "questionAudioName": "match_the_things_that_we_find_in_a_post_office.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Postoffice.png"
+        ],
+        "reiterations": [
+          "mail_courier_boxes_postman_stamps.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Postoffice2.png",
+          "hospital2.png"
+        ]
+      },
+      {
+        "questionText": "places we visit",
+        "questionAudioName": "match_the_things_that_we_find_in_a_railway_station.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Railway_station.png"
+        ],
+        "reiterations": [
+          "Train_porter_Ticket_collector_food_stalls.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Railwaystation2.png",
+          "bakery2.png"
+        ]
+      },
+      {
+        "questionText": "places we visit",
+        "questionAudioName": "match_the_things_that_we_find_in_a_bakery.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "bakery.png"
+        ],
+        "reiterations": [
+          "Cakes_baker_bread_cookies.mp3"
+        ],
+        "commonRightOptionImageName": "left_puzzle4_1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "bakery2.png",
+          "Library2.png"
+        ]
+      }
+    ]
+  }
+}
