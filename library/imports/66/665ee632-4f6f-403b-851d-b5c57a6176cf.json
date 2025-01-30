@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "how plants grow",
+    "texture": "aa91df2c-0d89-435b-8fe1-8248795b0047",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      755,
+      97
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      762,
+      113
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
