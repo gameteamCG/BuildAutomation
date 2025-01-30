@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Helping my famil",
+    "texture": "ea68f734-c6d6-4643-8099-30cd87240545",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1099,
+      474
+    ],
+    "offset": [
+      -11,
+      0
+    ],
+    "originalSize": [
+      1121,
+      474
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
