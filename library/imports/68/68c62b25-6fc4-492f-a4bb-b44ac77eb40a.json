@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mangiio",
+    "texture": "11b74c1d-a247-42d7-8403-8884f16372be",
+    "atlas": "",
+    "rect": [
+      64,
+      11,
+      372,
+      478
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
