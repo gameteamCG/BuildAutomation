@@ -1,0 +1,88 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Respecting differences _lkg_ga_43",
+      "totalLevel": "4",
+      "TitleImageName": "Asset479.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "Asset68.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Helping people at home ",
+        "questionAudioName": "Selectthepicturethatshowssensitivitytowardothersbyhelpingthem.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset63.png",
+          "Asset59.png"
+        ],
+        "correctAudios": [
+          "helpingparentsathomeshowssensitivity.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Helping people at home ",
+        "questionAudioName": "Selectthepicturethatshowssensitivitytowardothersbyhelpingthem.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset60.png",
+          "Asset64.png"
+        ],
+        "correctAudios": [
+          "puttingthetoysbackintheirplaceafteruseshowssensitivity.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Helping people at home ",
+        "questionAudioName": "Selectthepicturethatshowssensitivitytowardothersbyhelpingthem.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset61.png",
+          "Asset65.png"
+        ],
+        "correctAudios": [
+          "feedingstrayanimalsshowssensitivity.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Helping people at home ",
+        "questionAudioName": "Selectthepicturethatshowssensitivitytowardothersbyhelpingthem.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset66.png",
+          "Asset62.png"
+        ],
+        "correctAudios": [
+          "Sharingtoysshowssensitivity.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
