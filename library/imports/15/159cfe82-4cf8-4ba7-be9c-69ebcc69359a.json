@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Ben's magic word_lkg_ga_43",
+      "totalLevel": "6",
+      "TitleImageName": "Magicwords.png",
+      "introBgName": "NURSE.png",
+      "bgmMusicName": "bgmss.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "magic words",
+        "questionImageName": "Asset1.png",
+        "questionAudioName": "selecttheimagewhenyouwouldsaysorry..mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset54.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "8.png",
+          "1.png"
+        ],
+        "correctAudioName": "Ifyouknowinglyorunknowinglyhurtsomeonesaysorry.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "magic words",
+        "questionImageName": "Asset2.png",
+        "questionAudioName": "selecttheimagewhenyouwouldsayplease.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset54.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "2.png",
+          "6.png"
+        ],
+        "correctAudioName": "IfyouwantsomeonetosharesomethingwithyousayPlease.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "magic words",
+        "questionImageName": "Asset3.png",
+        "questionAudioName": "selecttheimagewhenyouwouldsaythankyou.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset54.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "3.png",
+          "1.png"
+        ],
+        "correctAudioName": "IfsomeoneshareswithyousayThankyou.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "magic words",
+        "questionImageName": "Asset2.png",
+        "questionAudioName": "selecttheimagewhenyouwouldsayplease.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset54.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "1.png",
+          "7.png"
+        ],
+        "correctAudioName": "IfyouwanthelpfrommummyordaddytopackyourschoolbagsayPlease.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "magic words",
+        "questionImageName": "Asset3.png",
+        "questionAudioName": "selecttheimagewhenyouwouldsaythankyou.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset54.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "8.png",
+          "1.png"
+        ],
+        "correctAudioName": "IfyougethelpfrommummyanddaddysayThankyou.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "magic words",
+        "questionImageName": "Asset3.png",
+        "questionAudioName": "selecttheimagewhenyouwouldsaythankyou.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset54.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "6.png",
+          "9.png"
+        ],
+        "correctAudioName": "IfsomeonepicksupfallenthingsforyousayThankyou.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
