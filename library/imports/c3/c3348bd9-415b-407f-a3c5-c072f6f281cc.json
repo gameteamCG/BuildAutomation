@@ -1,0 +1,56 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Helping at home_UKG_GA_30",
+      "totalLevel": "4",
+      "TitleImageName": "Helpingmyfamil.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "BGM3.mp3",
+      "initialVOName": "",
+      "mainBgName": "BG_1.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Draw a picture of you helping your father",
+        "questionImageName": "father.png",
+        "questionAudioName": "helpingfather.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "BRILLIANT.mp3"
+      },
+      {
+        "questionText": "Draw a picture of you helping your sister",
+        "questionImageName": "sister.png",
+        "questionAudioName": "helpingsister.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "EXCEPTIONAL.mp3"
+      },
+      {
+        "questionText": "Draw a picture of you helping your mother",
+        "questionImageName": "mother.png",
+        "questionAudioName": "helpingmother.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "FANTASTIC.mp3"
+      },
+      {
+        "questionText": "Draw a picture of you helping your brother",
+        "questionImageName": "brother.png",
+        "questionAudioName": "helpingbrother.mp3",
+        "shouldPlayQuestionAudio": false,
+        "pictureImageName": "",
+        "needMoreTools": true,
+        "correctAudioName": "IMPRESSIVEWORK.mp3"
+      }
+    ]
+  }
+}
