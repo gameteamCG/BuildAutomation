@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "place_we_visit",
+    "texture": "13f578b9-4233-4b81-bcff-feeb3d4270fd",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      729,
+      192
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      735,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

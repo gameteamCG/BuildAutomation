@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Postoffice",
+    "texture": "aa51a76b-9977-4d5f-a792-21a543bcb74b",
+    "atlas": "",
+    "rect": [
+      1,
+      32,
+      435,
+      435
+    ],
+    "offset": [
+      -32,
+      1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

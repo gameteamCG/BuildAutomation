@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Railway_station",
+    "texture": "b3a54a38-9145-49bb-a88a-168c13b89cd7",
+    "atlas": "",
+    "rect": [
+      0,
+      32,
+      435,
+      435
+    ],
+    "offset": [
+      -33,
+      1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
