@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number 2_PNUR_NUMERACY_10",
+      "totalLevel": "5",
+      "TitleImageName": "number2.png",
+      "introBgName": "NURSE.png",
+      "bgmMusicName": "hksmi.mp3",
+      "mainBgName": "Abgsset7.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Number",
+        "questionAudioName": "IDENTIFY2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset5.png",
+        "isOptionText": true,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "2.png",
+          "1.png"
+        ],
+        "correctAudios": [
+          "2number.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "2",
+        "questionAudioName": "tapontheimagewith2oranges.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "2orange.png",
+          "Asset1.png"
+        ],
+        "correctAudios": [
+          "2oranges.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "2",
+        "questionAudioName": "selecttheimagewith2pineapples.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "2pineapple.png",
+          "Asset2.png"
+        ],
+        "correctAudios": [
+          "2pineapples.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Number",
+        "questionAudioName": "IDENTIFY2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset5.png",
+        "isOptionText": true,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "2.png",
+          "1.png"
+        ],
+        "correctAudios": [
+          "2number.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "2",
+        "questionAudioName": "selecttheimagewith2mangoes.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset5.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset4.png",
+          "2mango.png"
+        ],
+        "correctAudios": [
+          "2mangoes.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
