@@ -1,0 +1,171 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letters and sounds Gg_NUR_SB2_2",
+      "totalLevel": "6",
+      "TitleImageName": "Asset178.png",
+      "introBgName": "books_Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg1.png",
+        "questionAudioName": "identify.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset_36.png",
+          "Asset_34.png",
+          "Asset_37.png",
+          "Asset_35.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "",
+          "gsaysGg.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "uppercase.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset_120.png",
+          "Asset_122.png",
+          "Asset_121.png",
+          "Asset_123.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "",
+          "gsaysGg.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg3.png",
+        "questionAudioName": "lowercase.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Asset_50.png",
+          "Asset_48.png",
+          "Asset_49.png",
+          "Asset_51.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "",
+          "gsaysGg.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg5.png",
+        "questionAudioName": "tap.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "bag.png",
+          "cat1.png",
+          "gate.png"
+        ],
+        "optionsBg": [
+          "bag2.png",
+          "catr.png",
+          "gate2.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "24807904_3_gate.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg5.png",
+        "questionAudioName": "tap.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "goat.png",
+          "hat.png",
+          "igloo2 copy 9.png"
+        ],
+        "optionsBg": [
+          "goat2.png",
+          "hat2.png",
+          "igloo2 copy 10.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "27053661_8_goat.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg5.png",
+        "questionAudioName": "tap.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "igloo2 copy 25.png",
+          "grapes.png",
+          "net.png"
+        ],
+        "optionsBg": [
+          "igloo2 copy 26.png",
+          "grapes2.png",
+          "net2.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "25822382_9_grapes.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
