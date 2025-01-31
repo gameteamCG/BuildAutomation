@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "2pear",
+    "texture": "3913b93b-3f3e-4cf1-b3c7-f074e0520d03",
+    "atlas": "",
+    "rect": [
+      65,
+      110,
+      370,
+      281
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
