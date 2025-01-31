@@ -1,0 +1,101 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letters and sounds Ii",
+      "totalLevel": "3",
+      "TitleImageName": "title.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "bgm.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg.png",
+        "questionAudioName": "IdentifyTheLetterI.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "b.png",
+          "i.png",
+          "m.png",
+          "s.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "wrongAudioName": "negative_1.mp3",
+        "reiterationAudioName": [
+          "ISAYSIII.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "ChooseTheUppercaseLetterI.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 108.png",
+          "e.png",
+          "ii(2).png",
+          "h.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "wrongAudioName": "negative_2.mp3",
+        "reiterationAudioName": [
+          "ISAYSIII.mp3",
+          "ISAYSIII.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bgL1.png",
+        "questionAudioName": "Taponthepicturethatbeginswithlettersoundi.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "bag2.png",
+          "igloo2.png",
+          "insect2.png",
+          "inkpot2.png",
+          "jelly2.png"
+        ],
+        "optionsBg": [
+          "bag.png",
+          "igloo.png",
+          "insect.png",
+          "inkpot.png",
+          "jelly.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "wrongAudioName": "negative_3.mp3",
+        "reiterationAudioName": [
+          "igloo.mp3",
+          "INSECTS.mp3",
+          "inkpot.mp3"
+        ],
+        "correctAnswerNum": "234"
+      }
+    ]
+  }
+}
