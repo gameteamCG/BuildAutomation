@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pinwheel",
+    "texture": "36f02d37-7c4d-470a-8b8c-76b49954c607",
+    "atlas": "",
+    "rect": [
+      68,
+      22,
+      364,
+      457
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
