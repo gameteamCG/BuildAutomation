@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ae705be5-3b04-409e-8017-a76ccb837697",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Chichen_Itza": {
+      "ver": "1.0.6",
+      "uuid": "13fdd932-8890-40da-8104-dd93976fc94d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ae705be5-3b04-409e-8017-a76ccb837697",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 500,
+      "height": 500,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
