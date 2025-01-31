@@ -1,0 +1,169 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Healthy habits_NUR_GA_ACTIVITY_8",
+      "totalLevel": "10",
+      "TitleImageName": "title.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "2.png",
+        "questionAudioName": "Q2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAudioName": "A2.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "3.png",
+        "questionAudioName": "Q3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAudioName": "A3.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "4.png",
+        "questionAudioName": "Q4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAudioName": "A4.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "5.png",
+        "questionAudioName": "Q5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAudioName": "A5.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "6.png",
+        "questionAudioName": "Q6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAudioName": "A6.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "7.png",
+        "questionAudioName": "Q7.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAudioName": "A7.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "8.png",
+        "questionAudioName": "Q8.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAudioName": "A8.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "9.png",
+        "questionAudioName": "Q9.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAudioName": "A9.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "10.png",
+        "questionAudioName": "Q10.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAudioName": "A10.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy habits",
+        "questionImageName": "11.png",
+        "questionAudioName": "Q11.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "place_holder.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAudioName": "A11.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
