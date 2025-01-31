@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d7e0c2bc-ff7e-47e2-9137-131d9875c687",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Statue_of_Liberty2": {
+      "ver": "1.0.6",
+      "uuid": "df757d8d-159b-429a-9bac-e00599449360",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d7e0c2bc-ff7e-47e2-9137-131d9875c687",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 172,
+      "trimY": 14,
+      "width": 156,
+      "height": 472,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
