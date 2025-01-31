@@ -1,0 +1,128 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Poeple and their roles _nur_ga_40",
+      "totalLevel": "6",
+      "TitleImageName": "community_helpers.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "fire fighter",
+        "questionAudioName": "28244690_1_identify_the_firefight.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_9.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "delivery.png",
+          "firefighter.png",
+          "nurse.png"
+        ],
+        "correctAudios": [
+          "28244690_8_firefighter.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "doctor",
+        "questionAudioName": "28244690_2_identify_the_doctor.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_9.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "doctor.png",
+          "police.png",
+          "mail.png"
+        ],
+        "correctAudios": [
+          "28244690_9_doctor.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "nurse",
+        "questionAudioName": "28244690_3_identify_the_nurse.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_9.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "delivery.png",
+          "firefighter.png",
+          "nurse.png"
+        ],
+        "correctAudios": [
+          "28244690_10_nurse.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "police officer",
+        "questionAudioName": "28244690_4_identify_the_police.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_9.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "mail.png",
+          "police.png",
+          "nurse.png"
+        ],
+        "correctAudios": [
+          "28244690_11_policeofficer.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "food delivery person",
+        "questionAudioName": "28244690_5_identify_the_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_9.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "doctor.png",
+          "firefighter.png",
+          "delivery.png"
+        ],
+        "correctAudios": [
+          "28244690_12_fooddeliveryperson.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "mail carrier",
+        "questionAudioName": "28244690_6_identify_the_mail.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_9.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "mail.png",
+          "nurse.png",
+          "police.png"
+        ],
+        "correctAudios": [
+          "28244690_13_mailcarrier.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nurse",
+    "texture": "8a75421f-502e-46f6-a29f-9899c62b16d4",
+    "atlas": "",
+    "rect": [
+      111,
+      39,
+      280,
+      423
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
