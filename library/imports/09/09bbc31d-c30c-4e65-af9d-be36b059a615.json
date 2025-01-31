@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Healthy Habits_PNUR_GA_7",
+      "totalLevel": "8",
+      "TitleImageName": "Healthyandunhealthyhabitstitle.png",
+      "introBgName": "Juniorskg.png",
+      "bgmMusicName": "bgmss.mp3",
+      "mainBgName": "indoorbg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "healthy and unhealthy habits",
+        "questionImageName": "exercising.png",
+        "questionAudioName": "identifyifthepictur.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "thumbsup.png",
+          "thumbsdown.png"
+        ],
+        "correctAudioName": "exercisingisahealth.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy and unhealthy habits",
+        "questionImageName": "notcleaningtoys.png",
+        "questionAudioName": "identifyifthepictur.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "thumbsup.png",
+          "thumbsdown.png"
+        ],
+        "correctAudioName": "notcleaninguptoysi.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "healthy and unhealthy habits",
+        "questionImageName": "eatingjunkfood.png",
+        "questionAudioName": "identifyifthepictur.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "thumbsdown.png",
+          "thumbsup.png"
+        ],
+        "correctAudioName": "eatingjunkfoodisan.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy and unhealthy habits",
+        "questionImageName": "bathing.png",
+        "questionAudioName": "identifyifthepictur.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "thumbsup.png",
+          "thumbsdown.png"
+        ],
+        "correctAudioName": "takingabathisahea.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy and unhealthy habits",
+        "questionImageName": "brushingtwice.png",
+        "questionAudioName": "identifyifthepictur.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "thumbsup.png",
+          "thumbsdown.png"
+        ],
+        "correctAudioName": "brushingtwicedaiyi.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy and unhealthy habits",
+        "questionImageName": "watchingtv.png",
+        "questionAudioName": "identifyifthepictur.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "thumbsup.png",
+          "thumbsdown.png"
+        ],
+        "correctAudioName": "watchingtoomuchtvi.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "healthy and unhealthy habits",
+        "questionImageName": "sleepinglate.png",
+        "questionAudioName": "identifyifthepictur.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "thumbsdown.png",
+          "thumbsup.png"
+        ],
+        "correctAudioName": "sleepinglateisanun.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "healthy and unhealthy habits",
+        "questionImageName": "washinghands.png",
+        "questionAudioName": "identifyifthepictur.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "thumbsdown.png",
+          "thumbsup.png"
+        ],
+        "correctAudioName": "washinghandsisahea.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
