@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Magic words _NUR_GA_39",
+      "totalLevel": "6",
+      "TitleImageName": "Golden_words.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "thank you",
+        "questionAudioName": "Thankyou.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "1.png",
+          "2.png"
+        ],
+        "correctAudios": [
+          "thankyouanswer.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "please",
+        "questionAudioName": "please.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "4.png",
+          "3.png"
+        ],
+        "correctAudios": [
+          "pleaseanswer.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "sorry",
+        "questionAudioName": "Sorry.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "6.png",
+          "5.png"
+        ],
+        "correctAudios": [
+          "sorryanswer.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "thank you",
+        "questionAudioName": "Thankyou.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "4.png",
+          "5.png"
+        ],
+        "correctAudios": [
+          "thankyouanswer.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "sorry",
+        "questionAudioName": "Sorry.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "1.png",
+          "2.png"
+        ],
+        "correctAudios": [
+          "sorryanswer.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "please",
+        "questionAudioName": "please.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_8.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "5.png",
+          "6.png"
+        ],
+        "correctAudios": [
+          "pleaseanswer.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
