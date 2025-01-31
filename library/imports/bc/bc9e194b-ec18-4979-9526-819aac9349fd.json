@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Eiffel_Tower2",
+    "texture": "03603f5c-f765-4e57-9fb2-a187a5a5a2a8",
+    "atlas": "",
+    "rect": [
+      108,
+      17,
+      284,
+      466
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Chichen_Itza2",
+    "texture": "4de25030-6592-49bf-95cd-d903bc465f70",
+    "atlas": "",
+    "rect": [
+      13,
+      127,
+      474,
+      246
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
