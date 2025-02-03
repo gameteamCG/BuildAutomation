@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "009be50a-58b8-49e0-aeda-13f681134dbf",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "ludo": {
+      "ver": "1.0.6",
+      "uuid": "db5b2500-4efd-42f8-bb7b-53585253746d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "009be50a-58b8-49e0-aeda-13f681134dbf",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 21,
+      "trimY": 110,
+      "width": 458,
+      "height": 280,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
