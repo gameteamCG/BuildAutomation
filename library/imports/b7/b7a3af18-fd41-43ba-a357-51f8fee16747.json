@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_shortpanda",
+    "texture": "0480d587-3192-4e01-9d64-12bb27406d34",
+    "atlas": "",
+    "rect": [
+      115,
+      84,
+      296,
+      399
+    ],
+    "offset": [
+      13,
+      -33.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

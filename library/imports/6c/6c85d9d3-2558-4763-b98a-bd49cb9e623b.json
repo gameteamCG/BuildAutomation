@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0003_shortbear",
+    "texture": "1665db4e-c050-4a72-9922-e607997f2011",
+    "atlas": "",
+    "rect": [
+      165,
+      158,
+      176,
+      323
+    ],
+    "offset": [
+      3,
+      -69.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
