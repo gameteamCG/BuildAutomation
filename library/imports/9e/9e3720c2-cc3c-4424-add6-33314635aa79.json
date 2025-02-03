@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Big and small_PNUR_Activity language and Numeracy book_pg27",
+      "totalLevel": "7",
+      "TitleImageName": "Asset.png",
+      "introBgName": "Bg.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "mainBG.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "big",
+        "questionAudioName": "Taponthebigapple.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "apple.png",
+          "smallapple.png"
+        ],
+        "correctAudios": [
+          "Yesthatisthebigapple.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "small",
+        "questionAudioName": "Taponthemallstraw.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "smallstrawberry.png",
+          "strawberry.png"
+        ],
+        "correctAudios": [
+          "Correctthatisthesmallstrawberry.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "big",
+        "questionAudioName": "Taponthebigwatermelon.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "watermelon.png",
+          "smallwatermelon.png"
+        ],
+        "correctAudios": [
+          "Yesthatisthebigwatermelon.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "small",
+        "questionAudioName": "Taponthesmallmango.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "smallmango.png",
+          "MANGO.png"
+        ],
+        "correctAudios": [
+          "Bravothatisthesmallmango.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "small",
+        "questionAudioName": "Taponthesmallpear.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "pear.png",
+          "smallpear.png"
+        ],
+        "correctAudios": [
+          "Correctthatisthesmallpear.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "big",
+        "questionAudioName": "SelectthebigPapaya.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "smallpapaya.png",
+          "papaya.png"
+        ],
+        "correctAudios": [
+          "Yesthatisthebigpapaya.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "big",
+        "questionAudioName": "SelectthebigJackfruit.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "jackfruit.png",
+          "smalljackfruit.png"
+        ],
+        "correctAudios": [
+          "Bravothatisthebigjackfruit.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
