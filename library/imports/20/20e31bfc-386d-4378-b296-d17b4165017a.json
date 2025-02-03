@@ -1,0 +1,56 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number 3_PNUR_Activity language and Numeracy book_pg32",
+      "totalLevel": "4",
+      "TitleImageName": "number3.png",
+      "introBgName": "jrkg.png",
+      "bgmMusicName": "bgmss.mp3",
+      "initialVOName": "evo.mp3",
+      "mainBgName": "bg12.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "3",
+        "questionImageName": "empty.png",
+        "questionAudioName": "traceonthedottednumber3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "dotted-3.png",
+        "needMoreTools": false,
+        "correctAudioName": "L1correct.mp3"
+      },
+      {
+        "questionText": "3",
+        "questionImageName": "empty.png",
+        "questionAudioName": "color3objects.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "3objects.png",
+        "needMoreTools": false,
+        "correctAudioName": "L2Correct.mp3"
+      },
+      {
+        "questionText": "3",
+        "questionImageName": "empty.png",
+        "questionAudioName": "colourthenumberpatterntilefor3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "patterntile.png",
+        "needMoreTools": false,
+        "correctAudioName": "L3correct.mp3"
+      },
+      {
+        "questionText": "draw 3 objects",
+        "questionImageName": "empty.png",
+        "questionAudioName": "draw3objects.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "empty.png",
+        "needMoreTools": false,
+        "correctAudioName": "l4correct.mp3"
+      }
+    ]
+  }
+}
