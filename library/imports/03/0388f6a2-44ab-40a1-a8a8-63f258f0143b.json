@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "QKk",
+    "texture": "7b815366-d9f7-4e32-9538-99614ba276b3",
+    "atlas": "",
+    "rect": [
+      205,
+      201,
+      91,
+      64
+    ],
+    "offset": [
+      3,
+      7
+    ],
+    "originalSize": [
+      495,
+      480
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pegion",
+    "texture": "fdfb0495-bd1f-46e8-8d49-975b5c595a9d",
+    "atlas": "",
+    "rect": [
+      10,
+      9,
+      230,
+      232
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
