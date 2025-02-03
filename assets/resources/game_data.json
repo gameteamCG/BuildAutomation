@@ -1,0 +1,99 @@
+{
+  "additionalData": {
+    "GameID": "Family Time",
+    "totalLevel": "5",
+    "TitleImageName": "titlee.png",
+    "introBgName": "d.png",
+    "bgmMusicName": "bgm.mp3",
+    "mainBgName": "bg1.png",
+    "JockeyName": "Puzzle",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "family time",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "movie.png",
+        "play.png"
+      ],
+      "correctAudios": [
+        "moviee.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "family time",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "walk.png",
+        "tv.png"
+      ],
+      "correctAudios": [
+        "watchingtv.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "family time",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "picnic.png",
+        "kite.png"
+      ],
+      "correctAudios": [
+        "picnic.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "family time",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "ludo.png",
+        "watering.png"
+      ],
+      "correctAudios": [
+        "games.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "family time",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "dance.png",
+        "bd.png"
+      ],
+      "correctAudios": [
+        "birthday.mp3"
+      ],
+      "correctAnswerNum": "2"
+    }
+  ]
+}
