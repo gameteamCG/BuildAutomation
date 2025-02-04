@@ -1,0 +1,131 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Dhanashree_9709524812_WN_bag",
+      "totalLevel": "7",
+      "TitleImageName": "title.png",
+      "introBgName": "bg1.png",
+      "bgmMusicName": "bgm2.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "muskaan"
+    },
+    "questionData": [
+      {
+        "questionText": "When water is cooled?",
+        "questionImageName": "1.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "it turns into ice",
+          "it turns into steam",
+          "it turns into milk"
+        ],
+        "correctAudioName": "turnsice.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "When chocolate is heated?",
+        "questionImageName": "2.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "it freezes",
+          "it melts",
+          "it turns into steam"
+        ],
+        "correctAudioName": "melts.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "When water is heated?",
+        "questionImageName": "3.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "it turns into juice",
+          "it turns into ice",
+          "it turns into steam"
+        ],
+        "correctAudioName": "turnsintosteam.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "When steam cools down?",
+        "questionImageName": "4.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "it turns into water droplets",
+          "it turns into milk",
+          "it turns into cheese"
+        ],
+        "correctAudioName": "turnsintowater.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "When butter is heated?",
+        "questionImageName": "5.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "it melts",
+          "it freezes",
+          "it turns into curd"
+        ],
+        "correctAudioName": "melts.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "When sugar is heated?",
+        "questionImageName": "6.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "it freezes",
+          "it melts",
+          "it turns into candy"
+        ],
+        "correctAudioName": "melts.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "When milk is left in the freezer?",
+        "questionImageName": "7.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "it melts",
+          "it turns into steam",
+          "it freezes"
+        ],
+        "correctAudioName": "freezes.mp3",
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
