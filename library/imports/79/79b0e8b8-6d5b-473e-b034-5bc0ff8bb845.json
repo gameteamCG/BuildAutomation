@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letters and Sounds Jj",
+      "totalLevel": "3",
+      "TitleImageName": "jj.png",
+      "introBgName": "dd.png",
+      "bgmMusicName": "bgm.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg1.png",
+        "questionAudioName": "identifyletterj.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "1.png",
+          "4.png",
+          "2.png",
+          "3.png",
+          "5.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "wrongAudioName": "negative_1.mp3",
+        "reiterationAudioName": [
+          "jjjjjj.mp3",
+          "jjjjjj.mp3",
+          "jjjjjj.mp3"
+        ],
+        "correctAnswerNum": "135"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "222.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "33.png",
+          "11.png",
+          "44.png",
+          "22.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "wrongAudioName": "negative_2.mp3",
+        "reiterationAudioName": [
+          "jjjjjj.mp3",
+          "jjjjjj.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset1(5).png",
+        "questionAudioName": "333.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "jelly2.png",
+          "jug2.png",
+          "queenBW.png",
+          "jam2.png",
+          "lamp2.png"
+        ],
+        "optionsBg": [
+          "jelly.png",
+          "jug.png",
+          "queen.png",
+          "jam.png",
+          "lamp.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "wrongAudioName": "negative_3.mp3",
+        "reiterationAudioName": [
+          "27767551_2_jelly.mp3",
+          "24630521_2_jug.mp3",
+          "24630521_4_jam.mp3"
+        ],
+        "correctAnswerNum": "124"
+      }
+    ]
+  }
+}
