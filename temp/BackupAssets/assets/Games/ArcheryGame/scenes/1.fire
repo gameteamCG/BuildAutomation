@@ -6247,46 +6247,8 @@
         "__id__": 45
       }
     ],
-    "positiveAudio": [
-      {
-        "__uuid__": "e0d9f6fb-f075-4f14-9342-effd057f68ec"
-      },
-      {
-        "__uuid__": "d7f6ddc8-9dff-4cb0-9132-3886f72b5e4b"
-      },
-      {
-        "__uuid__": "6702bcb6-1561-48b8-96bf-e3a05e722fb0"
-      },
-      {
-        "__uuid__": "f186e8c7-cbe1-4699-8da7-92a1c464d09b"
-      },
-      {
-        "__uuid__": "da16b95f-2850-42ba-b4b3-a1c1d42340b9"
-      },
-      {
-        "__uuid__": "41e04b5f-b821-4709-b6a0-069ed45da528"
-      }
-    ],
-    "negativeAudio": [
-      {
-        "__uuid__": "e6e865ee-cbcf-49fb-aa96-43c85a2bd095"
-      },
-      {
-        "__uuid__": "b024bef8-99b4-4d58-8a4a-10f203bf3f4b"
-      },
-      {
-        "__uuid__": "dfc6c35d-f5e1-4ca9-89df-3739e1d71b67"
-      },
-      {
-        "__uuid__": "caccd092-a8d6-4f28-8ee1-7e7f1507d467"
-      },
-      {
-        "__uuid__": "32b4734f-f142-4081-b008-95698bc7c7ca"
-      },
-      {
-        "__uuid__": "1f9f9bc6-6174-4231-a38a-3061d4fe0225"
-      }
-    ],
+    "positiveAudio": [],
+    "negativeAudio": [],
     "audioSrc": {
       "__id__": 77
     },
@@ -6390,80 +6352,10 @@
         "__uuid__": "544c2b26-04f8-4d16-a559-77071745db69"
       }
     ],
-    "cryonPositive": [
-      {
-        "__uuid__": "2bb05060-e7e1-4815-acea-6572bb054981"
-      },
-      {
-        "__uuid__": "d2594717-e134-499b-861f-388cb63a944c"
-      },
-      {
-        "__uuid__": "9c1926a3-5e77-43a0-8ae0-dd2304df69b7"
-      },
-      {
-        "__uuid__": "e912b85b-8ae1-45bc-ad64-016a0524ff59"
-      },
-      {
-        "__uuid__": "7376cf07-b07a-4ac0-92a1-31c867a51f38"
-      }
-    ],
-    "cryonNegative": [
-      {
-        "__uuid__": "239c7145-5d03-49ee-999c-3df242a7dea4"
-      },
-      {
-        "__uuid__": "ff8a0381-cc68-4a68-9d06-00abb0a1bca9"
-      },
-      {
-        "__uuid__": "63e31d78-3aa7-4e82-8600-1a18f07b9825"
-      },
-      {
-        "__uuid__": "1ccea691-9ab2-4b12-ad8f-7d59c9af6a97"
-      },
-      {
-        "__uuid__": "544c2b26-04f8-4d16-a559-77071745db69"
-      }
-    ],
-    "podarPositive": [
-      {
-        "__uuid__": "3a4af1d1-0153-4c4d-9e49-6ae185fe8794"
-      },
-      {
-        "__uuid__": "d6ac0dec-9f2b-403a-a92d-a205910a7ed3"
-      },
-      {
-        "__uuid__": "37728732-ee41-4ce1-a24c-cb61ef77d58d"
-      },
-      {
-        "__uuid__": "f7c76b8d-2912-4ad9-959d-050578dfdd93"
-      },
-      {
-        "__uuid__": "5a31c1e1-eb63-4192-8184-78aeea64429e"
-      },
-      {
-        "__uuid__": "763b089f-6759-4544-8038-78ac0659d936"
-      }
-    ],
-    "podarNegative": [
-      {
-        "__uuid__": "53b8a8a0-56cb-44e2-8d39-3820309b4005"
-      },
-      {
-        "__uuid__": "5dd9d181-f7a4-4b5e-9887-4dc0f1db6a60"
-      },
-      {
-        "__uuid__": "2d58466e-8b0b-4697-b337-3723ebc3fc2b"
-      },
-      {
-        "__uuid__": "53b8a8a0-56cb-44e2-8d39-3820309b4005"
-      },
-      {
-        "__uuid__": "5dd9d181-f7a4-4b5e-9887-4dc0f1db6a60"
-      },
-      {
-        "__uuid__": "2d58466e-8b0b-4697-b337-3723ebc3fc2b"
-      }
-    ],
+    "cryonPositive": [],
+    "cryonNegative": [],
+    "podarPositive": [],
+    "podarNegative": [],
     "podar_font": null,
     "jaipuria_font": null,
     "clockTick": {

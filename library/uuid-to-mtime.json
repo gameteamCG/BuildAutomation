@@ -1,68 +1,8 @@
 {
   "6e813079-49d6-4e8b-a52f-8950eb075cba": {
-    "asset": 1738656245512,
-    "meta": 1738656245898,
+    "asset": 1738656422126,
+    "meta": 1738656542091,
     "relativePath": "resources"
-  },
-  "57976760-03af-4599-b8de-5b3e7a25e4a8": {
-    "asset": 1738656245520,
-    "meta": 1738656245899,
-    "relativePath": "resources/Png"
-  },
-  "d32ce6b5-8251-444a-8462-ad41c7805f00": {
-    "asset": 1738656245521,
-    "meta": 1738656245899,
-    "relativePath": "resources/Trace the pattern"
-  },
-  "11b16e7f-29da-416e-90d4-97be6c91ae6e": {
-    "asset": 1738656245520,
-    "meta": 1738656245899,
-    "relativePath": "resources/audios"
-  },
-  "fa3021b3-7de7-4628-b015-9791f16d11bf": {
-    "asset": 1738656245521,
-    "meta": 1738656245899,
-    "relativePath": "resources/domestic animals and their homes-20240904T084439Z-001"
-  },
-  "afc600d2-ab4e-49cf-b8a7-d8d93992fb4d": {
-    "asset": 1738656245521,
-    "meta": 1738656245900,
-    "relativePath": "resources/images"
-  },
-  "25581e0f-c74f-43f2-a230-26571f0ed27a": {
-    "asset": 1738656245520,
-    "meta": 1738656245900,
-    "relativePath": "resources/Png/Number 1 to 5"
-  },
-  "9585cfd2-de45-480d-be8f-6afd0b29576e": {
-    "asset": 1738656245521,
-    "meta": 1738656245900,
-    "relativePath": "resources/Trace the pattern/Trace the pattern assets"
-  },
-  "4776b6e1-381c-4ec4-bff4-3c26d87be9e4": {
-    "asset": 1738656245567,
-    "meta": 1738656245931,
-    "relativePath": "resources/domestic animals and their homes-20240904T084439Z-001/domestic animals and their homes"
-  },
-  "65511ad8-af3a-478f-bda9-d15bd4df5f14": {
-    "asset": 1738656245515,
-    "meta": 1738656245939,
-    "relativePath": "resources/game_data.json"
-  },
-  "6c92ad8d-73f9-4d74-b0f0-bcb3ae4dbbef": {
-    "asset": 1738656245533,
-    "meta": 1738656245951,
-    "relativePath": "resources/images/3.png"
-  },
-  "6aaadb04-7b6a-41ac-a31b-841d49b6d23f": {
-    "asset": 1738656245534,
-    "meta": 1738656245951,
-    "relativePath": "resources/images/1.png"
-  },
-  "ef76f2a0-7092-47e6-89c6-7b573a4de312": {
-    "asset": 1738656245567,
-    "meta": 1738656245952,
-    "relativePath": "resources/domestic animals and their homes-20240904T084439Z-001/domestic animals and their homes/Animals"
   },
   "1036b892-0dca-4423-8023-d883be401552": {
     "asset": 1738656245513,
@@ -138,21 +78,6 @@
     "asset": 1738656245512,
     "meta": 1738656245954,
     "relativePath": "Framework/newPrefabs"
-  },
-  "fe1ede5d-abbf-4870-a364-b1650215c45a": {
-    "asset": 1738656245533,
-    "meta": 1738656245955,
-    "relativePath": "resources/images/2.png"
-  },
-  "78099d5a-e440-4c38-b103-7180468f572e": {
-    "asset": 1738656245540,
-    "meta": 1738656245961,
-    "relativePath": "resources/images/PLAYGROUP.png"
-  },
-  "39e61362-b91e-4981-b320-ae06a52d8ff4": {
-    "asset": 1738656245540,
-    "meta": 1738656245963,
-    "relativePath": "resources/images/title.png"
   },
   "c14d1ad3-99da-42e5-8349-914e43c2c9d8": {
     "asset": 1738656245534,
@@ -594,11 +519,6 @@
     "meta": 1738656246239,
     "relativePath": "Framework/WebView/Animations/momChild.anim"
   },
-  "2b8dd96f-1889-413c-821a-867fce454841": {
-    "asset": 1738656245533,
-    "meta": 1738656246449,
-    "relativePath": "resources/audios/question.mp3"
-  },
   "a8ce201f-b446-4dc5-ae3b-cb9f6bdff560": {
     "asset": 1738656245598,
     "meta": 1738656246453,
@@ -613,16 +533,6 @@
     "asset": 1738656245619,
     "meta": 1738656246494,
     "relativePath": "Framework/WebView/WebviewAssets/Boy unlock mobile_Happy_01"
-  },
-  "754cbf1a-06e2-4ed3-9ec8-77e705b1c438": {
-    "asset": 1738656245533,
-    "meta": 1738656246495,
-    "relativePath": "resources/audios/2.mp3"
-  },
-  "3b7d9855-9817-4140-8913-4d8c236252e9": {
-    "asset": 1738656245533,
-    "meta": 1738656246498,
-    "relativePath": "resources/audios/3.mp3"
   },
   "b156c390-9361-4626-840e-cb584e82e140": {
     "asset": 1738656245540,
@@ -643,11 +553,6 @@
     "asset": 1738656245614,
     "meta": 1738656246500,
     "relativePath": "Framework/WebView/Audios/paywall.mp3"
-  },
-  "bd381885-b793-48fb-b543-dd1a392803a8": {
-    "asset": 1738656245596,
-    "meta": 1738656246501,
-    "relativePath": "resources/audios/bgm1.mp3"
   },
   "9798d42e-1656-4f1a-ad76-fe3cfe37b130": {
     "asset": 1738656245598,
@@ -1425,13 +1330,13 @@
     "relativePath": "Games/ArcheryGame/commonJaipuriaAssets/look and feel.png"
   },
   "a22c3582-d9b5-465c-811b-13307e2d9121": {
-    "asset": 1738656305822,
-    "meta": 1738656305827,
+    "asset": 1738656527155,
+    "meta": 1738656527163,
     "relativePath": "Games/ArcheryGame/scenes/1.fire"
   },
   "b1d0de1a-e7c7-4ebe-bae0-90ca298aa6e2": {
-    "asset": 1738656245600,
-    "meta": 1738656246945,
+    "asset": 1738656453963,
+    "meta": 1738656453966,
     "relativePath": "Games/ArcheryGame/scenes/Intro.fire"
   },
   "8c78140e-ad0f-4250-a4e6-b7813c9a5b7c": {
@@ -3518,5 +3423,10 @@
     "asset": 1641824999000,
     "meta": 1738656248978,
     "relativePath": "model/primitives.fbx"
+  },
+  "08d6972f-980b-47e9-a9a9-e4d5cc85d24d": {
+    "asset": 1738656420884,
+    "meta": 1738656422135,
+    "relativePath": "resources/empty.ts"
   }
 }

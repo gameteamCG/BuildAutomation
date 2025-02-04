@@ -32,6 +32,7 @@ require('./assets/Games/ArcheryGame/scripts/roughArea');
 require('./assets/Games/ArcheryGame/utils/Constants');
 require('./assets/Games/ArcheryGame/utils/EventSystem');
 require('./assets/Games/ArcheryGame/utils/Helpers');
+require('./assets/resources/empty');
 
                     }
                     if (nodeEnv) {
