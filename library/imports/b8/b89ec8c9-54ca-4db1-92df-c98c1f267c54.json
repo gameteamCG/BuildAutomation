@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "item_pencil",
+    "texture": "06c0dddd-21fd-4e2a-956d-1b02c788fa53",
+    "atlas": "",
+    "rect": [
+      44,
+      59,
+      40,
+      139
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      128,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

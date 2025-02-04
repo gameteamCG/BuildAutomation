@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_bushHalf",
+    "texture": "f8682bc0-9f64-426a-b9b8-942891c916ca",
+    "atlas": "",
+    "rect": [
+      2,
+      63,
+      124,
+      65
+    ],
+    "offset": [
+      0,
+      -31
+    ],
+    "originalSize": [
+      128,
+      129
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

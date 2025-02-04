@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_gem",
+    "texture": "b1401fe2-1293-4dee-b475-3dd91f5e75a3",
+    "atlas": "",
+    "rect": [
+      33,
+      38,
+      62,
+      50
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      128,
+      129
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

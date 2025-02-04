@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_sand",
+    "texture": "f3510078-8285-4cc6-8bcf-33df66a0d3fd",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      128,
+      126
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

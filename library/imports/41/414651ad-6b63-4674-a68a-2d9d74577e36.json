@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_water",
+    "texture": "8c3e88cb-ab7d-4881-8230-6946b6707441",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      128,
+      126
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

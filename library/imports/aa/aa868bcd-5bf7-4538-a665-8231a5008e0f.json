@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_roof",
+    "texture": "d5180d6c-d9de-4381-a6f4-853d7ff492c4",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      125,
+      126
+    ],
+    "offset": [
+      -0.5,
+      -1
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

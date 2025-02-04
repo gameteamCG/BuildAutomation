@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_cog",
+    "texture": "da84a7df-a401-481f-9d05-9dd6e9a3420e",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      64,
+      63
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_arrowUp",
+    "texture": "e8cd6814-4b53-4009-8310-4173cdf7b216",
+    "atlas": "",
+    "rect": [
+      17,
+      1,
+      94,
+      125
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

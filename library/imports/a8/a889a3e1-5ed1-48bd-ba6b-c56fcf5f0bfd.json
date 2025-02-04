@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_slope",
+    "texture": "c2a58800-19a1-4355-875f-6afbc5ed2cb5",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      126,
+      125
+    ],
+    "offset": [
+      -1,
+      -0.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

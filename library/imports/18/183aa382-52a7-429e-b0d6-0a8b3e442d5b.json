@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_grab",
+    "texture": "81466350-a373-4587-87e1-c16891597afd",
+    "atlas": "",
+    "rect": [
+      22,
+      0,
+      83,
+      68
+    ],
+    "offset": [
+      -0.5,
+      30
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

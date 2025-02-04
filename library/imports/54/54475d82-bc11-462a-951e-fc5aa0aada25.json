@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "character_handPurple",
+    "texture": "57043d16-fb2d-4afd-a79d-06b5be78835b",
+    "atlas": "",
+    "rect": [
+      49,
+      50,
+      31,
+      30
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      128,
+      129
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

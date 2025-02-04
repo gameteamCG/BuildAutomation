@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_archHalf",
+    "texture": "b74ec5dc-9d20-47ab-9e02-8149e21a5813",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      128,
+      126
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ui_numPercent",
+    "texture": "afab5bdf-5a33-4785-9b32-009946f5b7af",
+    "atlas": "",
+    "rect": [
+      17,
+      15,
+      30,
+      35
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

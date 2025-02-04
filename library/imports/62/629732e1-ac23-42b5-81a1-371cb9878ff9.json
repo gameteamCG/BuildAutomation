@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_spikes",
+    "texture": "0d3df4aa-122e-4b57-a17b-2dd60acff645",
+    "atlas": "",
+    "rect": [
+      2,
+      62,
+      125,
+      65
+    ],
+    "offset": [
+      0.5,
+      -30
+    ],
+    "originalSize": [
+      128,
+      129
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

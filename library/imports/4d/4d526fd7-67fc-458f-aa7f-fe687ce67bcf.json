@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_heart",
+    "texture": "ec7516b3-76e2-4b88-a1f8-e8fc40234e39",
+    "atlas": "",
+    "rect": [
+      14,
+      16,
+      36,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

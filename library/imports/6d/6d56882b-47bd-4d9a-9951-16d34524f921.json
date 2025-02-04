@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "HandHold",
+    "texture": "dc87b2d5-78ed-4895-af6e-b984de9fbc40",
+    "atlas": "",
+    "rect": [
+      58,
+      104,
+      258,
+      276
+    ],
+    "offset": [
+      -13,
+      -42
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

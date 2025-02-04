@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jokey",
+    "texture": "fe6598a2-6bbf-47cd-bdde-70c69d7cdd5d",
+    "atlas": "",
+    "rect": [
+      38,
+      34,
+      324,
+      330
+    ],
+    "offset": [
+      9.5,
+      -13
+    ],
+    "originalSize": [
+      381,
+      372
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

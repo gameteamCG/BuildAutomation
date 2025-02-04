@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ui_numPeriod",
+    "texture": "654287a9-daa6-4a5e-9d03-93a96440596d",
+    "atlas": "",
+    "rect": [
+      25,
+      37,
+      14,
+      14
+    ],
+    "offset": [
+      0,
+      -12
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

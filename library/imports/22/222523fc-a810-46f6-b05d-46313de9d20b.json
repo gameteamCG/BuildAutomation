@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "item_blaster",
+    "texture": "cf7bde4a-48ba-4919-9626-ad46cc703d3f",
+    "atlas": "",
+    "rect": [
+      10,
+      16,
+      44,
+      33
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

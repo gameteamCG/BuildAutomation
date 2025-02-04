@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_ladder",
+    "texture": "98fd494a-c3a3-46e6-b325-602f9141dbf6",
+    "atlas": "",
+    "rect": [
+      15,
+      1,
+      98,
+      126
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

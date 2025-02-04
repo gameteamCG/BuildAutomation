@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_coin",
+    "texture": "d7f8013d-c42c-4acc-b6ed-d33e4aafcf12",
+    "atlas": "",
+    "rect": [
+      33,
+      34,
+      61,
+      61
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      128,
+      129
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

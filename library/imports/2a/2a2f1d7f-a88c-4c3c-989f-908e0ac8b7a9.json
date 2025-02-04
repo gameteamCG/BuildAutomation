@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "character_roundRed",
+    "texture": "f5080ca7-ad35-4368-b1f7-5a00ffc1c082",
+    "atlas": "",
+    "rect": [
+      22,
+      1,
+      83,
+      123
+    ],
+    "offset": [
+      -0.5,
+      1.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_grass",
+    "texture": "40b46292-21af-4fcb-8d63-dc6409091fd8",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      127,
+      127
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

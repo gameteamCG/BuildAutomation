@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "character_handGreen",
+    "texture": "79240aa0-b053-43d2-8231-f0d1a4211509",
+    "atlas": "",
+    "rect": [
+      48,
+      50,
+      32,
+      30
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      128,
+      129
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

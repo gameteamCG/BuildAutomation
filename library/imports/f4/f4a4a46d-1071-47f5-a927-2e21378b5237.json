@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "character_squareRed",
+    "texture": "0d88eba7-d48c-40bd-a1c1-4e26d27f17d8",
+    "atlas": "",
+    "rect": [
+      22,
+      0,
+      84,
+      127
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

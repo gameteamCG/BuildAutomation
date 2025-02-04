@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_fenceHigh",
+    "texture": "f2a52c42-43b4-45c5-972a-9c3697b7db80",
+    "atlas": "",
+    "rect": [
+      0,
+      11,
+      64,
+      53
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      64,
+      65
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

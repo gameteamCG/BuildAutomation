@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_stone",
+    "texture": "ffb5c2d0-c99d-4f98-b1f2-e00ba7fb3e4a",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      127,
+      126
+    ],
+    "offset": [
+      0.5,
+      -1
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'e08b0tRP5pPcZvun88UXG3h', 'ProgressBar');
-// Framework/Prefabs/ProgressBar/Scripts/ProgressBar.ts
+// Framework/Prefabs/Progressbar/Scripts/ProgressBar.ts
 
 "use strict";
 // Learn TypeScript:
@@ -36,6 +36,7 @@ var ProgressBar = /** @class */ (function (_super) {
     function ProgressBar() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.isVertical = false;
+        _this.starsEarned = [false, false, false];
         return _this;
         // update (dt) {}
     }
@@ -54,21 +55,38 @@ var ProgressBar = /** @class */ (function (_super) {
     };
     ProgressBar.prototype.start = function () {
     };
-    ProgressBar.prototype.ProgressFill = function (_currentQues) {
+    ProgressBar.prototype.ProgressFill = function (_currentQues, starLog) {
+        if (starLog === void 0) { starLog = true; }
         // this.createStarTrails(10, this.node);
         var particles = this.node.getChildByName("particles" + 1);
-        var maxLevels = StartGame_1.default.Instance.totalLevels; //
+        var maxLevels = StartGame_1.default.Instance.totalLevels; //totalLevels
+        console.log("maxLevel : ", maxLevels);
         var value = _currentQues / maxLevels;
         cc.tween(this.node.getComponent(cc.ProgressBar)).to(0.5, { progress: value }, { easing: "sineInOut" }).start();
         this.node.addComponent(cc.AudioSource).clip = this.starPopSound;
         this.node.addComponent(cc.AudioSource).play();
-        if (_currentQues < maxLevels && _currentQues < maxLevels / 2 && _currentQues != 0) {
+        if (_currentQues != 0 && _currentQues < maxLevels && _currentQues < maxLevels / 2) {
+            if (!this.starsEarned[0] && starLog) {
+                this.starsEarned[0] = true;
+                console.log("starsEarned--1");
+            }
             cc.tween(this.node.getChildByName("stars").children[0]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
         }
-        else if (_currentQues >= maxLevels / 2 && _currentQues < maxLevels) {
+        else if (_currentQues >= maxLevels / 2 && _currentQues < maxLevels && this.node.getChildByName("stars").children[1].opacity == 0) {
+            if (!this.starsEarned[1] && starLog) {
+                this.starsEarned[1] = true;
+                console.log("starsEarned--2");
+            }
+            cc.tween(this.node.getChildByName("stars").children[0]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
             cc.tween(this.node.getChildByName("stars").children[1]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
         }
-        else if (_currentQues >= maxLevels) {
+        else if (_currentQues >= maxLevels && this.node.getChildByName("stars").children[2].opacity == 0) {
+            if (!this.starsEarned[2] && starLog) {
+                this.starsEarned[2] = true;
+                console.log("starsEarned--3");
+            }
+            cc.tween(this.node.getChildByName("stars").children[0]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
+            cc.tween(this.node.getChildByName("stars").children[1]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
             cc.tween(this.node.getChildByName("stars").children[2]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
         }
     };
@@ -125,13 +143,13 @@ var ProgressBar = /** @class */ (function (_super) {
                         if (_this.isVertical) {
                             cc.tween(particles).bezierTo(0.75, new cc.Vec2(particles.x, particles.y), //start
                             new cc.Vec2(_this.getRandomNumber(particles.x - 100, particles.x + 100), _this.getRandomNumber(particles.y - 500, particles.y + 200)), //curve range
-                            new cc.Vec2(_this.node.x, _this.node.y - (_offset * 2) - _this.node.getComponent(cc.ProgressBar).totalLength / 2 + (_this.node.getComponent(cc.ProgressBar).totalLength * _this.node.getComponent(cc.ProgressBar).progress))) //endpoint
+                            new cc.Vec2(_this.node.x, _this.node.y - _this.node.getComponent(cc.ProgressBar).totalLength / 2 + (_this.node.getComponent(cc.ProgressBar).totalLength * _this.node.getComponent(cc.ProgressBar).progress))) //endpoint
                                 .start();
                         }
                         else {
                             cc.tween(particles).bezierTo(0.75, new cc.Vec2(particles.x, particles.y), //start
                             new cc.Vec2(_this.getRandomNumber(particles.x - 100, particles.x + 100), _this.getRandomNumber(particles.y - 500, particles.y + 200)), //curve range
-                            new cc.Vec2(_this.node.x - (_offset * 2) - _this.node.getComponent(cc.ProgressBar).totalLength / 2 + (_this.node.getComponent(cc.ProgressBar).totalLength * _this.node.getComponent(cc.ProgressBar).progress), _this.node.y)) //endpoint
+                            new cc.Vec2(_this.node.x - _this.node.getComponent(cc.ProgressBar).totalLength / 2 + (_this.node.getComponent(cc.ProgressBar).totalLength * _this.node.getComponent(cc.ProgressBar).progress), _this.node.y)) //endpoint
                                 .start();
                         }
                         cc.tween(particles).to(0.75, { angle: -particles.angle / 2 }, { easing: "cubicInOut" }).start();

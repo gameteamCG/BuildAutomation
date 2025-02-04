@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_arrowDown",
+    "texture": "6a312ed3-a225-40c0-8a36-855c00a7e515",
+    "atlas": "",
+    "rect": [
+      17,
+      1,
+      94,
+      127
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

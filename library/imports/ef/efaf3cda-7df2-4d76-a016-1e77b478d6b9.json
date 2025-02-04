@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_treeTop",
+    "texture": "89812151-4082-4fd1-afe2-cbce7f99b73b",
+    "atlas": "",
+    "rect": [
+      35,
+      1,
+      59,
+      125
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      128,
+      129
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ui_numX",
+    "texture": "638050e6-edaa-456d-af40-18ed98671c37",
+    "atlas": "",
+    "rect": [
+      20,
+      21,
+      24,
+      23
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

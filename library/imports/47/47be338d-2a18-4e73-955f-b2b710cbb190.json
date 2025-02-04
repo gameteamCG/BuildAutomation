@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "background_cloudB",
+    "texture": "ee38a3ee-72eb-46e7-b9cb-7fd8413dff85",
+    "atlas": "",
+    "rect": [
+      3,
+      2,
+      251,
+      125
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      256,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

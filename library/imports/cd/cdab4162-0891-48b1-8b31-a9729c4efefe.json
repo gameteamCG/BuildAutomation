@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_crateDiagonal",
+    "texture": "ba302acf-dc03-4765-9bf5-d89cac64431d",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      128,
+      127
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

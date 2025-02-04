@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_door",
+    "texture": "4cc7962f-8029-49f7-a684-cadcf9be2af2",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      127,
+      125
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

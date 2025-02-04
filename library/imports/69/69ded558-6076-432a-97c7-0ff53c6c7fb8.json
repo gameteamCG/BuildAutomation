@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_arrowLeft",
+    "texture": "255643d2-dfdb-48df-bef2-2220d5dfea91",
+    "atlas": "",
+    "rect": [
+      8,
+      0,
+      112,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

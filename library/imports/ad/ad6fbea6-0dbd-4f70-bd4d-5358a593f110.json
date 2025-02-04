@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_belt",
+    "texture": "02a645a3-22d9-4196-9440-47c73303408a",
+    "atlas": "",
+    "rect": [
+      1,
+      39,
+      63,
+      25
+    ],
+    "offset": [
+      0.5,
+      -19.5
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

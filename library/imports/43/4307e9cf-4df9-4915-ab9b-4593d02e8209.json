@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "effect_blastLarge",
+    "texture": "8902ea63-1885-4986-a1e7-97f174d1d412",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      63,
+      63
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

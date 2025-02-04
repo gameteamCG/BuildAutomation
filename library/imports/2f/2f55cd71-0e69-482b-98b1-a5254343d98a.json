@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ArrowHead",
+    "texture": "6f94e777-c9b0-47d8-9e5e-c104a81f5ef4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      88,
+      75
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      88,
+      75
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

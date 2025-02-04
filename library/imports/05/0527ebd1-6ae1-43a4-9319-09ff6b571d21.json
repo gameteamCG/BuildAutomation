@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_archColumn",
+    "texture": "75f62202-39d9-4090-9087-1f6e4750e064",
+    "atlas": "",
+    "rect": [
+      41,
+      0,
+      47,
+      126
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

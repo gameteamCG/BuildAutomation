@@ -1,0 +1,244 @@
+
+Small Archer0001.png
+size: 1654,206
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Archer_10001
+  rotate: true
+  xy: 532, 54
+  size: 150, 305
+  orig: 150, 305
+  offset: 0, 0
+  index: -1
+Archer_10002
+  rotate: false
+  xy: 1120, 3
+  size: 265, 24
+  orig: 1446, 2481
+  offset: 730, 1929
+  index: -1
+Archer_2
+  rotate: true
+  xy: 218, 53
+  size: 151, 312
+  orig: 219, 406
+  offset: 68, 33
+  index: -1
+Archer_3
+  rotate: false
+  xy: 518, 7
+  size: 289, 44
+  orig: 411, 144
+  offset: 59, 48
+  index: -1
+Small Archer0001
+  rotate: false
+  xy: 809, 9
+  size: 41, 43
+  orig: 41, 43
+  offset: 0, 0
+  index: -1
+Small Archer0002
+  rotate: true
+  xy: 1387, 2
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+Small Archer0003
+  rotate: false
+  xy: 1130, 31
+  size: 39, 40
+  orig: 39, 40
+  offset: 0, 0
+  index: -1
+Small Archer0004
+  rotate: true
+  xy: 1536, 16
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+Small Archer0005
+  rotate: true
+  xy: 1557, 16
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+Small Archer0006
+  rotate: true
+  xy: 1517, 8
+  size: 31, 17
+  orig: 31, 17
+  offset: 0, 0
+  index: -1
+Small Archer0007
+  rotate: true
+  xy: 1065, 18
+  size: 53, 33
+  orig: 53, 34
+  offset: 0, 0
+  index: -1
+Small Archer0008
+  rotate: false
+  xy: 303, 3
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1
+Small Archer0009
+  rotate: true
+  xy: 1171, 31
+  size: 40, 33
+  orig: 40, 34
+  offset: 0, 0
+  index: -1
+Small Archer0010
+  rotate: false
+  xy: 1421, 6
+  size: 94, 26
+  orig: 94, 26
+  offset: 0, 0
+  index: -1
+Small Archer0011
+  rotate: false
+  xy: 1575, 92
+  size: 72, 22
+  orig: 72, 22
+  offset: 0, 0
+  index: -1
+Small Archer0012
+  rotate: true
+  xy: 1065, 3
+  size: 13, 27
+  orig: 13, 27
+  offset: 0, 0
+  index: -1
+Small Archer0013
+  rotate: false
+  xy: 1094, 4
+  size: 24, 12
+  orig: 24, 12
+  offset: 0, 0
+  index: -1
+Small Archer0014
+  rotate: false
+  xy: 1536, 2
+  size: 23, 12
+  orig: 23, 12
+  offset: 0, 0
+  index: -1
+Small Archer0015
+  rotate: true
+  xy: 1497, 100
+  size: 104, 76
+  orig: 104, 76
+  offset: 0, 0
+  index: -1
+Small Archer0016
+  rotate: false
+  xy: 1100, 29
+  size: 28, 42
+  orig: 28, 42
+  offset: 0, 0
+  index: -1
+Small Archer0017
+  rotate: false
+  xy: 1389, 80
+  size: 106, 124
+  orig: 106, 124
+  offset: 0, 0
+  index: -1
+Small Archer0018
+  rotate: false
+  xy: 1028, 12
+  size: 35, 59
+  orig: 35, 59
+  offset: 0, 0
+  index: -1
+Small Archer0019
+  rotate: false
+  xy: 1575, 116
+  size: 77, 88
+  orig: 77, 88
+  offset: 0, 0
+  index: -1
+Small Archer0020
+  rotate: false
+  xy: 839, 62
+  size: 127, 142
+  orig: 127, 142
+  offset: 0, 0
+  index: -1
+Small Archer0021
+  rotate: true
+  xy: 1286, 77
+  size: 127, 101
+  orig: 127, 101
+  offset: 0, 0
+  index: -1
+Small Archer0022
+  rotate: true
+  xy: 352, 6
+  size: 45, 81
+  orig: 46, 81
+  offset: 0, 0
+  index: -1
+Small Archer0023
+  rotate: true
+  xy: 954, 4
+  size: 56, 72
+  orig: 56, 72
+  offset: 0, 0
+  index: -1
+Small Archer0024
+  rotate: true
+  xy: 435, 6
+  size: 45, 81
+  orig: 46, 82
+  offset: 0, 0
+  index: -1
+Small Archer0025
+  rotate: true
+  xy: 1490, 41
+  size: 37, 86
+  orig: 37, 86
+  offset: 0, 0
+  index: -1
+Small Archer0026
+  rotate: false
+  xy: 218, 2
+  size: 83, 49
+  orig: 86, 50
+  offset: 0, 0
+  index: -1
+Small Archer0027
+  rotate: true
+  xy: 2, 6
+  size: 198, 214
+  orig: 198, 214
+  offset: 0, 0
+  index: -1
+Small Archer0028
+  rotate: false
+  xy: 852, 4
+  size: 100, 56
+  orig: 100, 56
+  offset: 0, 0
+  index: -1
+Small Archer00290001
+  rotate: true
+  xy: 968, 73
+  size: 131, 316
+  orig: 131, 316
+  offset: 0, 0
+  index: -1
+Small Archer00290002
+  rotate: false
+  xy: 1206, 34
+  size: 282, 37
+  orig: 282, 37
+  offset: 0, 0
+  index: -1

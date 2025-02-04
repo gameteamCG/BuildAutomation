@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile_bridge",
+    "texture": "de0772fa-5327-4f7e-83d2-98bd85ce36b0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      63,
+      65
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      64,
+      65
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

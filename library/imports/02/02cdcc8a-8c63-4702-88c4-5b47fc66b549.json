@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Small Archer0001",
+    "texture": "c4b58961-6de9-4615-89a4-0e6783d75aea",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      1650,
+      202
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1654,
+      206
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
