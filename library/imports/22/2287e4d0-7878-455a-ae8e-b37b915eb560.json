@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "My_body_parts_PNUR_GA_activity_3",
+      "totalLevel": "6",
+      "TitleImageName": "title.png",
+      "introBgName": "Asset 11.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "match the body parts",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "1.png"
+        ],
+        "reiterations": [
+          "Leg.mp3"
+        ],
+        "commonRightOptionImageName": "match.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "1.png",
+          "2.png"
+        ]
+      },
+      {
+        "questionText": "match the body parts",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "2.png"
+        ],
+        "reiterations": [
+          "neck.mp3"
+        ],
+        "commonRightOptionImageName": "match.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "2.png",
+          "3.png"
+        ]
+      },
+      {
+        "questionText": "match the body parts",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "3.png"
+        ],
+        "reiterations": [
+          "Feet.mp3"
+        ],
+        "commonRightOptionImageName": "match.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "3.png",
+          "4.png"
+        ]
+      },
+      {
+        "questionText": "match the body parts",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "4.png"
+        ],
+        "reiterations": [
+          "FACE .mp3"
+        ],
+        "commonRightOptionImageName": "match.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "4.png",
+          "6.png"
+        ]
+      },
+      {
+        "questionText": "match the body parts",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "5.png"
+        ],
+        "reiterations": [
+          "fingers.mp3"
+        ],
+        "commonRightOptionImageName": "match.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "5.png",
+          "1.png"
+        ]
+      },
+      {
+        "questionText": "match the body parts",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "6.png"
+        ],
+        "reiterations": [
+          "hand.mp3"
+        ],
+        "commonRightOptionImageName": "match.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "6.png",
+          "2.png"
+        ]
+      }
+    ]
+  }
+}
