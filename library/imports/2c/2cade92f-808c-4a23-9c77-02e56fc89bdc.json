@@ -1,0 +1,38 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Airplanes_SCIS_FEBRUARY ",
+      "totalLevel": "2",
+      "TitleImageName": "airplane.png",
+      "introBgName": "sfdfgh.png",
+      "bgmMusicName": "B2.mp3",
+      "initialVOName": "",
+      "mainBgName": "back.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "airplane taking off",
+        "questionImageName": "blankk.png",
+        "questionAudioName": "takingoff.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "off.png",
+        "needMoreTools": true,
+        "correctAudioName": "EXCELLENTJOB.mp3"
+      },
+      {
+        "questionText": "airplane landing",
+        "questionImageName": "blankk.png",
+        "questionAudioName": "landing.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "assets32.png",
+        "needMoreTools": true,
+        "correctAudioName": "GOODJOB.mp3"
+      }
+    ]
+  }
+}
