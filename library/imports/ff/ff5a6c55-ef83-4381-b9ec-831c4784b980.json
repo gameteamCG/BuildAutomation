@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "geese",
+    "texture": "ac07b2d4-49ef-4eca-9a00-4b68d8ae16a4",
+    "atlas": "",
+    "rect": [
+      60,
+      84,
+      344,
+      284
+    ],
+    "offset": [
+      -18,
+      24
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "troop",
+    "texture": "fcbec864-cf4d-43f4-a992-62323b28c64c",
+    "atlas": "",
+    "rect": [
+      161,
+      187,
+      248,
+      147
+    ],
+    "offset": [
+      35,
+      -10.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

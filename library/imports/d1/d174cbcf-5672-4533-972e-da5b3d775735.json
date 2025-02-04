@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "A_litter_of_puppies",
+    "texture": "a04778b3-ff0a-432d-b961-d84bc33013b0",
+    "atlas": "",
+    "rect": [
+      29,
+      87,
+      394,
+      379
+    ],
+    "offset": [
+      -24,
+      -26.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
