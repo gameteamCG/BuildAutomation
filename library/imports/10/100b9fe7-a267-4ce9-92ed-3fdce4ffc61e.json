@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "robber",
+    "texture": "a7311188-a381-4931-bf3a-c6e75d1e6930",
+    "atlas": "",
+    "rect": [
+      49,
+      33,
+      402,
+      434
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "trracktor",
+    "texture": "86f48ee9-e23b-493a-b95d-0b73e0db1126",
+    "atlas": "",
+    "rect": [
+      14,
+      137,
+      472,
+      283
+    ],
+    "offset": [
+      0,
+      -28.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
