@@ -2480,7 +2480,7 @@
       "__id__": 52
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 54
@@ -2516,8 +2516,8 @@
         0,
         0,
         1,
-        0.22,
-        0.22,
+        0.25,
+        0.25,
         0.35
       ]
     },
@@ -2565,7 +2565,9 @@
     "_headAniInfo": null,
     "_playTimes": 0,
     "_isAniComplete": true,
-    "_N$skeletonData": null,
+    "_N$skeletonData": {
+      "__uuid__": "10baffd4-b062-4408-9849-73372199766b"
+    },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
     "_N$debugBones": false,
