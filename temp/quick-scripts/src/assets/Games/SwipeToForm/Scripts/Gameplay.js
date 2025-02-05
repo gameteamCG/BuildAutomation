@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -594,7 +594,7 @@ var Gameplay = /** @class */ (function (_super) {
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
         }
-        else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
+        else if (StartGame_1.default.Instance.jockeyName == "Puzzle" || StartGame_1.default.Instance.jockeyName == "hindi") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
