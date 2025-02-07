@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "915e0503-4478-4a74-8b5a-0178b40605f7",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2048,
+  "height": 1024,
+  "platformSettings": {},
+  "subMetas": {
+    "Red Flower": {
+      "ver": "1.0.6",
+      "uuid": "a868a606-f3b1-450b-b9ec-80bdabc70373",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "915e0503-4478-4a74-8b5a-0178b40605f7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 168,
+      "trimX": 1,
+      "trimY": 3,
+      "width": 2044,
+      "height": 682,
+      "rawWidth": 2048,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

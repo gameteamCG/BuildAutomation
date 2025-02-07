@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "left hand",
+    "texture": "16de64be-c852-4233-8df6-631e904a42b9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      80,
+      146
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      80,
+      146
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

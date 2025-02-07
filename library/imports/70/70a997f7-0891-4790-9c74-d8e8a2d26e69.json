@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "freezing cube",
+    "texture": "3a3121f2-f7c3-4d8c-9d65-3e33b8df7c8a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      147,
+      219
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      147,
+      219
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

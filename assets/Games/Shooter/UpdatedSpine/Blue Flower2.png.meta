@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "08374081-0c76-4c0f-9aa6-a844a3f7ec0a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2048,
+  "height": 2048,
+  "platformSettings": {},
+  "subMetas": {
+    "Blue Flower2": {
+      "ver": "1.0.6",
+      "uuid": "af2a04db-3efa-4f96-b3e6-92fe469941c7",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "08374081-0c76-4c0f-9aa6-a844a3f7ec0a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -66.5,
+      "offsetY": 481,
+      "trimX": 3,
+      "trimY": 3,
+      "width": 1909,
+      "height": 1080,
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

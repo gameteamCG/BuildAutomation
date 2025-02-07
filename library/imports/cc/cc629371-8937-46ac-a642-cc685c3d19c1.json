@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "holding left hand_1",
+    "texture": "60588981-1147-4859-9bc5-73a94f884bf4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      101,
+      95
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      101,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

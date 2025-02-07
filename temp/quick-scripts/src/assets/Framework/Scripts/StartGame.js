@@ -29,7 +29,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var globalVariables_1 = require("../../Games/WhatWillHappenNext/Scripts/globalVariables");
+var globalVariables_1 = require("../../Games/Shooter/Scripts/globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var startGame = /** @class */ (function (_super) {
     __extends(startGame, _super);
@@ -67,8 +67,6 @@ var startGame = /** @class */ (function (_super) {
         // private totalLevels: string = "";
         _this.titleImageName = "";
         _this.jockeyName = "";
-        _this.templateType = "";
-        _this.optionLayout = "horizontal";
         _this.questions = [];
         return _this;
         // blobToDataURL(blobUrl, callback) {
@@ -121,7 +119,6 @@ var startGame = /** @class */ (function (_super) {
         // Log question data
         this.questions.forEach(function (question, index) {
             console.log("Question " + (index + 1) + ":");
-            console.log("Question Image Name:", question.questionImageName);
             console.log("Question Audio Name:", question.questionAudioName);
             // console.log("Option 1 Image Name:", question.option1ImageName);
             // console.log("Option 2 Image Name:", question.option2ImageName);
@@ -152,8 +149,6 @@ var startGame = /** @class */ (function (_super) {
             this.totalLevels = parseInt(levelCount);
             this.titleImageName = jsonData.additionalData.TitleImageName;
             this.jockeyName = jsonData.additionalData.JockeyName;
-            this.optionLayout = jsonData.additionalData.optionLayout;
-            this.templateType = jsonData.additionalData.templateType;
             //console.log("optionLayout @@@@@@@@@@@@@@@@ = ", this.optionLayout);
             // Assign question data to the variable
             this.questions = jsonData.questionData;
@@ -192,13 +187,6 @@ var startGame = /** @class */ (function (_super) {
                 var spriteFrame = new cc.SpriteFrame(texture);
                 _this.mainBg = spriteFrame;
             });
-            if (this.templateType != "SimpleTap") {
-                this.questions.forEach(function (question) {
-                    question.questionImageName = question.questionImageName;
-                    // question.option1ImageName = question.option1ImageName
-                    // question.option2ImageName = question.option2ImageName
-                });
-            }
             // Now you can use these variables within this script
             this.logData();
         }
@@ -215,8 +203,6 @@ var startGame = /** @class */ (function (_super) {
                 _this.totalLevels = parseInt(levelCount);
                 _this.titleImageName = jsonData.additionalData.TitleImageName;
                 _this.jockeyName = jsonData.additionalData.JockeyName;
-                _this.optionLayout = jsonData.additionalData.optionLayout;
-                _this.templateType = jsonData.additionalData.templateType;
                 // Assign question data to the variable
                 _this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
@@ -236,13 +222,7 @@ var startGame = /** @class */ (function (_super) {
                     _this.mainBg = spriteFrame;
                 });
                 _this.questions.forEach(function (question) {
-                    if (_this.templateType != "SimpleTap") {
-                        question.questionImageName = _this.removeExtension(question.questionImageName);
-                    }
-                    question.commonOptionImageName = _this.removeExtension(question.commonOptionImageName);
                     question.options = question.options.map(function (option) { return _this.removeExtension(option); });
-                    // question.option1ImageName = this.removeExtension(question.option1ImageName);
-                    // question.option2ImageName = this.removeExtension(question.option2ImageName);
                 });
                 // Now you can use these variables within this script
                 _this.logData(); // You can call a function to log the data or use it in other functions

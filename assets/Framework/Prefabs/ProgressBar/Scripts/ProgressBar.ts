@@ -48,6 +48,7 @@ export default class ProgressBar extends cc.Component {
         let particles = this.node.getChildByName("particles" + 1);
         let maxLevels = startGame.Instance.totalLevels;//
         let value = _currentQues / maxLevels;
+        console.log("Progress value : ", value, this.node.scale, this.node.opacity);
         cc.tween(this.node.getComponent(cc.ProgressBar)).to(0.5, { progress: value }, { easing: "sineInOut" }).start();
         this.node.addComponent(cc.AudioSource).clip = this.starPopSound;
         this.node.addComponent(cc.AudioSource).play();

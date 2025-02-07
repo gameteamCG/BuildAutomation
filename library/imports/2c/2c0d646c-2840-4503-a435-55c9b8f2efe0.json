@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pothole 3",
+    "texture": "12202211-8c2c-450e-9fdf-335f7d3d5b66",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      157,
+      103
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      157,
+      103
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

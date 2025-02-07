@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "12202211-8c2c-450e-9fdf-335f7d3d5b66",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 157,
+  "height": 103,
+  "platformSettings": {},
+  "subMetas": {
+    "pothole 3": {
+      "ver": "1.0.6",
+      "uuid": "2c0d646c-2840-4503-a435-55c9b8f2efe0",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "12202211-8c2c-450e-9fdf-335f7d3d5b66",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 157,
+      "height": 103,
+      "rawWidth": 157,
+      "rawHeight": 103,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

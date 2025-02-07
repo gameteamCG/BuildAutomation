@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "holding fish",
+    "texture": "c7aaee30-a26d-4fd1-8dcd-863f4b76f15a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      95,
+      148
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      95,
+      148
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

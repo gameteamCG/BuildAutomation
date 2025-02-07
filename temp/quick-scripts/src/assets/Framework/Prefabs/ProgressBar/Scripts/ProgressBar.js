@@ -59,6 +59,7 @@ var ProgressBar = /** @class */ (function (_super) {
         var particles = this.node.getChildByName("particles" + 1);
         var maxLevels = StartGame_1.default.Instance.totalLevels; //
         var value = _currentQues / maxLevels;
+        console.log("Progress value : ", value, this.node.scale, this.node.opacity);
         cc.tween(this.node.getComponent(cc.ProgressBar)).to(0.5, { progress: value }, { easing: "sineInOut" }).start();
         this.node.addComponent(cc.AudioSource).clip = this.starPopSound;
         this.node.addComponent(cc.AudioSource).play();

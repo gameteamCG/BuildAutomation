@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "penguin freez",
+    "texture": "ce11f92d-08c8-4810-b69f-dfab8ac3241d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      147,
+      220
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      147,
+      220
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

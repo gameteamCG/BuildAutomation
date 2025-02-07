@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "speech bubble",
+    "texture": "df92a00d-0bf5-4659-92da-4f700b5d2be4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      116,
+      102
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      116,
+      102
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

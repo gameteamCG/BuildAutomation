@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Blue Flower2",
+    "texture": "08374081-0c76-4c0f-9aa6-a844a3f7ec0a",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      1909,
+      1080
+    ],
+    "offset": [
+      -66.5,
+      481
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -5,7 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import globalVariables from "../../Games/WhatWillHappenNext/Scripts/globalVariables";
+import globalVariables from "../../Games/Shooter/Scripts/globalVariables";
+
 interface AdditionalData {
     GameID: string;
     totalLevel: string;
@@ -14,19 +15,14 @@ interface AdditionalData {
     bgmMusicName: string;
     mainBgName: string;
     JockeyName: string;
-    optionLayout: string;
-    templateType: string;
+    // optionLayout: string;
 }
 
 interface QuestionData {
     questionText: string;
-    questionImageName: string;
     questionAudioName: string;
     shouldPlayQuestionAudio: boolean;
-    commonOptionImageName: string;
     isOptionText: boolean;
-    isOptionBG: boolean;
-    numberOfOptions: number;
     options: string[]; // This will either contain text options or image names based on isOptionText flag
     correctAudios: string[];
     correctAnswerNum: string;
@@ -102,8 +98,6 @@ export default class startGame extends cc.Component {
     // private totalLevels: string = "";
     private titleImageName: string = "";
     jockeyName: string = "";
-    templateType: string = "";
-    optionLayout: string = "horizontal";
     questions: QuestionData[] = [];
 
     static get Instance() {
@@ -140,7 +134,6 @@ export default class startGame extends cc.Component {
         // Log question data
         this.questions.forEach((question, index) => {
             console.log(`Question ${index + 1}:`);
-            console.log("Question Image Name:", question.questionImageName);
             console.log("Question Audio Name:", question.questionAudioName);
             // console.log("Option 1 Image Name:", question.option1ImageName);
             // console.log("Option 2 Image Name:", question.option2ImageName);
@@ -174,8 +167,6 @@ export default class startGame extends cc.Component {
             this.totalLevels = parseInt(levelCount);
             this.titleImageName = jsonData.additionalData.TitleImageName;
             this.jockeyName = jsonData.additionalData.JockeyName;
-            this.optionLayout = jsonData.additionalData.optionLayout;
-            this.templateType = jsonData.additionalData.templateType;
 
             //console.log("optionLayout @@@@@@@@@@@@@@@@ = ", this.optionLayout);
 
@@ -219,13 +210,6 @@ export default class startGame extends cc.Component {
                 this.mainBg = spriteFrame;
             });
 
-            if (this.templateType != "SimpleTap") {
-                this.questions.forEach(question => {
-                    question.questionImageName = question.questionImageName
-                    // question.option1ImageName = question.option1ImageName
-                    // question.option2ImageName = question.option2ImageName
-                });
-            }
             // Now you can use these variables within this script
             this.logData();
         }
@@ -244,9 +228,6 @@ export default class startGame extends cc.Component {
                 this.totalLevels = parseInt(levelCount);
                 this.titleImageName = jsonData.additionalData.TitleImageName;
                 this.jockeyName = jsonData.additionalData.JockeyName;
-                this.optionLayout = jsonData.additionalData.optionLayout;
-                this.templateType = jsonData.additionalData.templateType;
-
                 // Assign question data to the variable
                 this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
@@ -266,18 +247,11 @@ export default class startGame extends cc.Component {
                     this.mainBg = spriteFrame;
                 });
                 this.questions.forEach(question => {
-                    if (this.templateType != "SimpleTap") {
-                        question.questionImageName = this.removeExtension(question.questionImageName);
-                    }
-                    question.commonOptionImageName = this.removeExtension(question.commonOptionImageName);
                     question.options = question.options.map(option => this.removeExtension(option));
-                    // question.option1ImageName = this.removeExtension(question.option1ImageName);
-                    // question.option2ImageName = this.removeExtension(question.option2ImageName);
                 });
                 // Now you can use these variables within this script
                 this.logData(); // You can call a function to log the data or use it in other functions
             });
-
         }
     }
 

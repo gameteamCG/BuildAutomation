@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vartical shooter2",
+    "texture": "5ce3b921-9b69-4a5e-9cf9-8bfa6cd9ca4d",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      1909,
+      1080
+    ],
+    "offset": [
+      -66.5,
+      481
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

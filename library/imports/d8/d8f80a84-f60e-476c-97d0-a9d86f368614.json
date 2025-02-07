@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "snow patch ",
+    "texture": "fd7d97fe-d5e0-47ca-ab8a-ed235ac703b4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      817,
+      286
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      817,
+      286
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
