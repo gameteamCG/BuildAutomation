@@ -15,3 +15,4 @@ require('./assets/Games/Shooter/Scripts/endScreen');
 require('./assets/Games/Shooter/Scripts/gameplay');
 require('./assets/Games/Shooter/Scripts/globalVariables');
 require('./assets/Games/Shooter/Scripts/optionscript');
+require('./assets/resources/empty');

@@ -504,106 +504,6 @@
     "meta": 1738928194804,
     "relativePath": "resources"
   },
-  "90f0537a-fa62-47ae-beff-6ee9a304532a": {
-    "asset": 1738928194368,
-    "meta": 1738928194804,
-    "relativePath": "resources/Png"
-  },
-  "5193b853-4896-4705-8269-612a8f40aefa": {
-    "asset": 1738928194368,
-    "meta": 1738928194804,
-    "relativePath": "resources/audios"
-  },
-  "23c49ada-2e34-4525-9846-0d1964ef191b": {
-    "asset": 1738928194370,
-    "meta": 1738928194805,
-    "relativePath": "resources/images"
-  },
-  "c5cc835f-824f-47c1-b5c6-099bfe359d80": {
-    "asset": 1738928194368,
-    "meta": 1738928194805,
-    "relativePath": "resources/Png/Number 1 to 5"
-  },
-  "884641d3-dd15-4b1e-ac20-e14f259f5fd4": {
-    "asset": 1738928194365,
-    "meta": 1738928194820,
-    "relativePath": "resources/game_data.json"
-  },
-  "9b5f01ba-802b-43ff-a58f-5f3be90e29cd": {
-    "asset": 1738928194377,
-    "meta": 1738928194830,
-    "relativePath": "resources/images/BOX3.png"
-  },
-  "ffac21f2-0724-4661-856e-7d02ed784b06": {
-    "asset": 1738928194377,
-    "meta": 1738928194830,
-    "relativePath": "resources/images/Box.png"
-  },
-  "62074f8c-2d72-4d85-93f8-e6b719db0594": {
-    "asset": 1738928194377,
-    "meta": 1738928194836,
-    "relativePath": "resources/images/f.png"
-  },
-  "54ac28af-63cc-4365-8fbe-168ccc5535bb": {
-    "asset": 1738928194377,
-    "meta": 1738928194841,
-    "relativePath": "resources/images/fra.png"
-  },
-  "dadb6a93-0b5a-401c-9b5b-bb139cfe2ff9": {
-    "asset": 1738928194392,
-    "meta": 1738928194859,
-    "relativePath": "resources/images/bg (2).png"
-  },
-  "e296b6e5-1cbc-4c12-8a16-a1f9fe3f50c4": {
-    "asset": 1738928194377,
-    "meta": 1738928194864,
-    "relativePath": "resources/images/grass.png"
-  },
-  "d2416959-f29b-4c02-8deb-a6197088d720": {
-    "asset": 1738928194378,
-    "meta": 1738928194870,
-    "relativePath": "resources/images/hat.png"
-  },
-  "ba43a7be-862b-435f-933a-13ba87eec8e3": {
-    "asset": 1738928194377,
-    "meta": 1738928194875,
-    "relativePath": "resources/images/j.png"
-  },
-  "61388beb-e3a8-4cbb-9b78-d7ebeb409f06": {
-    "asset": 1738928194377,
-    "meta": 1738928194883,
-    "relativePath": "resources/images/s&P.png"
-  },
-  "b3addf3b-4f59-4b7b-8845-75af72e21235": {
-    "asset": 1738928194492,
-    "meta": 1738928194885,
-    "relativePath": "resources/images/gb2.png"
-  },
-  "c13f01dc-e24a-425c-8bf1-66252b06c6a1": {
-    "asset": 1738928194378,
-    "meta": 1738928194891,
-    "relativePath": "resources/images/s.png"
-  },
-  "4a47e9aa-d3d3-4873-973e-ffacc5de7d23": {
-    "asset": 1738928194386,
-    "meta": 1738928194900,
-    "relativePath": "resources/images/thread.png"
-  },
-  "709e30fb-178a-451d-8208-d0be494cc730": {
-    "asset": 1738928194378,
-    "meta": 1738928194900,
-    "relativePath": "resources/images/title.png"
-  },
-  "ac6dd9dd-89c6-465f-87e3-0037514988fc": {
-    "asset": 1738928194378,
-    "meta": 1738928194905,
-    "relativePath": "resources/images/umbrella_C.png"
-  },
-  "47fd88f0-955d-4999-8db0-79b9d321fc4a": {
-    "asset": 1738928194387,
-    "meta": 1738928194909,
-    "relativePath": "resources/images/whale.png"
-  },
   "406974db-6a94-49fd-a03d-366405ccf4b0": {
     "asset": 1738928194366,
     "meta": 1738928194909,
@@ -679,40 +579,10 @@
     "meta": 1738928194912,
     "relativePath": "Framework/newPrefabs"
   },
-  "d856f0be-3c90-4d68-afba-c1a7ffcd0059": {
-    "asset": 1738928194393,
-    "meta": 1738928194914,
-    "relativePath": "resources/images/wheel.png"
-  },
-  "3af68cca-269c-4218-8f95-be34a64ef800": {
-    "asset": 1738928194374,
-    "meta": 1738928195168,
-    "relativePath": "resources/audios/saltpepper.mp3"
-  },
-  "5c69e80c-a5eb-4927-b540-e856ebab896e": {
-    "asset": 1738928194374,
-    "meta": 1738928195169,
-    "relativePath": "resources/audios/waterjug.mp3"
-  },
-  "9c993da1-78ea-454d-9c93-952c039b7d5e": {
-    "asset": 1738928194374,
-    "meta": 1738928195169,
-    "relativePath": "resources/audios/spoons.mp3"
-  },
-  "13f1d198-6376-44fd-b30c-1f65f8f7f7bb": {
-    "asset": 1738928194374,
-    "meta": 1738928195170,
-    "relativePath": "resources/audios/fruitbowl.mp3"
-  },
   "b70e7097-9d5c-4dbe-9ab5-1db455695380": {
     "asset": 1738928194394,
     "meta": 1738928195170,
     "relativePath": "Framework/CommonAudios/children.mp3"
-  },
-  "2f5c6795-d5b5-4be7-a2d1-79a62c690a2c": {
-    "asset": 1738928194374,
-    "meta": 1738928195170,
-    "relativePath": "resources/audios/Canyoufindthingsyouseeinadiningroom.mp3"
   },
   "e956d2a1-01f9-4647-bb8d-3b039eefcf01": {
     "asset": 1738928194390,
@@ -1113,11 +983,6 @@
     "asset": 1738928194482,
     "meta": 1738928195394,
     "relativePath": "Framework/Scripts/Utilities/Utility.ts"
-  },
-  "a3f36af9-4757-4bbb-8bbe-d1f4e16bedd1": {
-    "asset": 1738928194599,
-    "meta": 1738928195395,
-    "relativePath": "resources/audios/BGM.mp3"
   },
   "a8ce201f-b446-4dc5-ae3b-cb9f6bdff560": {
     "asset": 1738928194482,
@@ -1965,8 +1830,8 @@
     "relativePath": "Games/Shooter/Prefabs/OptionVertical.prefab"
   },
   "021125bd-f4aa-4209-bbbc-6e681ce25e68": {
-    "asset": 1738928194484,
-    "meta": 1738928195666,
+    "asset": 1738928459421,
+    "meta": 1738928459425,
     "relativePath": "Games/Shooter/Scene/1.fire"
   },
   "0033e903-c7b7-4731-aac6-f5852a050ba9": {
@@ -2020,13 +1885,13 @@
     "relativePath": "Games/Shooter/Sound/JockeyVO"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1738928239886,
-    "meta": 1738928239889,
+    "asset": 1738928498480,
+    "meta": 1738928498485,
     "relativePath": "Games/Shooter/Scene/Title.fire"
   },
   "92133877-574e-4eb5-9c58-79f64d3fc3ed": {
-    "asset": 1738928194453,
-    "meta": 1738928195797,
+    "asset": 1738928476260,
+    "meta": 1738928476264,
     "relativePath": "Games/Shooter/Scene/endScreen.fire"
   },
   "d9246b4b-e901-4723-b667-3327477b74eb": {
@@ -3678,5 +3543,10 @@
     "asset": 1738928194654,
     "meta": 1738928197040,
     "relativePath": "Games/Shooter/Assets/jaipuria_UI/stallion/output 34/side_horse0001.png"
+  },
+  "45e22457-efbc-45cb-b2e9-4fd32e9fec11": {
+    "asset": 1738928493684,
+    "meta": 1738928496846,
+    "relativePath": "resources/empty.ts"
   }
 }
