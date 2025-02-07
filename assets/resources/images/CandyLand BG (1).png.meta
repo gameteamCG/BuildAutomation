@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "93262f47-a3ec-4970-8ecc-899dd7272861",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1940,
+  "height": 1293,
+  "platformSettings": {},
+  "subMetas": {
+    "CandyLand BG (1)": {
+      "ver": "1.0.6",
+      "uuid": "f7165af9-663a-450a-a7c8-a170621ecf4a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "93262f47-a3ec-4970-8ecc-899dd7272861",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1940,
+      "height": 1293,
+      "rawWidth": 1940,
+      "rawHeight": 1293,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

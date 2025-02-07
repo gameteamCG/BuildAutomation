@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "CandyLand BG (1)",
+    "texture": "93262f47-a3ec-4970-8ecc-899dd7272861",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1940,
+      1293
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1940,
+      1293
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
