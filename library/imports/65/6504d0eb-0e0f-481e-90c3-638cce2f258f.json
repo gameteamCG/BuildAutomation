@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_tire",
+    "texture": "9c12cf9e-f2c3-4b9d-ad50-4df65fc1721d",
+    "atlas": "",
+    "rect": [
+      34,
+      8,
+      432,
+      484
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
