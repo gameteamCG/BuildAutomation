@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Full and empty",
+      "totalLevel": "6",
+      "TitleImageName": "text.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "B2.mp3",
+      "mainBgName": "Backdrop.png",
+      "JockeyName": "Podar",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "empty",
+        "questionAudioName": "emptyplate.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "PLATE2.png",
+          "Plate1.png"
+        ],
+        "correctAudios": [
+          "emptyplate.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "full",
+        "questionAudioName": "fulljar.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Jar2_1.png",
+          "Jar2.png"
+        ],
+        "correctAudios": [
+          "fulljar.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "empty",
+        "questionAudioName": "emptybox.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "box.png",
+          "box2.png"
+        ],
+        "correctAudios": [
+          "emptybox.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "full",
+        "questionAudioName": "fullbasket.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Basket2.png",
+          "Basket_1_1.png"
+        ],
+        "correctAudios": [
+          "fullbasket.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "empty",
+        "questionAudioName": "emptyjar.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Jar.png",
+          "Jarwithalmond.png"
+        ],
+        "correctAudios": [
+          "emptyjar.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "full",
+        "questionAudioName": "fullplate.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "PLATE2.png",
+          "Fruit_Plate.png"
+        ],
+        "correctAudios": [
+          "fullplate.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

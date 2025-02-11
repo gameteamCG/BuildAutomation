@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Jar",
+    "texture": "8a22bff0-faf5-4959-9f80-9bee81f7f358",
+    "atlas": "",
+    "rect": [
+      17,
+      32,
+      468,
+      457
+    ],
+    "offset": [
+      1,
+      -10.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
