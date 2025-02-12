@@ -1,0 +1,76 @@
+{
+  "additionalData": {
+    "GameID": "स्वर",
+    "totalLevel": "3",
+    "TitleImageName": "NewTitle (1).png",
+    "introBgName": "Intro.png",
+    "bgmMusicName": "BG_BB.mp3",
+    "mainBgName": "look and feel copy.png",
+    "JockeyName": "hindi"
+  },
+  "questionData": [
+    {
+      "questionText": "",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back_card.png",
+      "frontCardImageName": "front_card.png",
+      "isOptionText": true,
+      "options": [
+        "ए",
+        "औ"
+      ],
+      "reiterationAudios": [
+        "heel.mp3",
+        "tools.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "heel.png",
+        "tools.png"
+      ]
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back_card.png",
+      "frontCardImageName": "front_card.png",
+      "isOptionText": true,
+      "options": [
+        "अः",
+        "ऐ"
+      ],
+      "reiterationAudios": [
+        "morning.mp3",
+        "glasses.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "morning.png",
+        "glasses.png"
+      ]
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back_card.png",
+      "frontCardImageName": "front_card.png",
+      "isOptionText": true,
+      "options": [
+        "अं",
+        "ओ"
+      ],
+      "reiterationAudios": [
+        "grapes.mp3",
+        "hail.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "grapes.png",
+        "hail.png"
+      ]
+    }
+  ]
+}
