@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "front_card",
+    "texture": "209278f8-2028-47fa-a850-de0a43cba370",
+    "atlas": "",
+    "rect": [
+      33,
+      3,
+      185,
+      246
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
