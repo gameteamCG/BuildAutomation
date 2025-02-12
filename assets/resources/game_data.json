@@ -1,0 +1,122 @@
+{
+  "additionalData": {
+    "GameID": "swar - अः",
+    "totalLevel": "6",
+    "TitleImageName": "titleupdated.png",
+    "introBgName": "Intro.png",
+    "bgmMusicName": "BG_BB.mp3",
+    "mainBgName": "look and feel copy.png",
+    "JockeyName": "hindi",
+    "templateType": "ObjectsTweenIn"
+  },
+  "questionData": [
+    {
+      "questionText": "अः",
+      "questionImageName": "Artboard 6 copy 9.png",
+      "questionAudioName": "QVO (2).mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Snowball.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "प्रातः",
+        "पहाड़"
+      ],
+      "correctAudios": [
+        "प्रतेह.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "अः",
+      "questionImageName": "Artboard 6 copy 9.png",
+      "questionAudioName": "QVO (2).mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Snowball.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "तितली",
+        "नमः"
+      ],
+      "correctAudios": [
+        "नमेह, .mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "अः",
+      "questionImageName": "Artboard 6 copy 9.png",
+      "questionAudioName": "QVO (2).mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Snowball.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "स्वतः",
+        "आकाश"
+      ],
+      "correctAudios": [
+        "स्वतेह, .mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "अः",
+      "questionImageName": "Artboard 6 copy 9.png",
+      "questionAudioName": "QVO (2).mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Snowball.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "मिठास",
+        "क्रमशः"
+      ],
+      "correctAudios": [
+        "क्रमेहशे.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "अः",
+      "questionImageName": "Artboard 6 copy 9.png",
+      "questionAudioName": "QVO (2).mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Snowball.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "दीपक",
+        "अतः"
+      ],
+      "correctAudios": [
+        "अतेह, .mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "अः",
+      "questionImageName": "Artboard 6 copy 9.png",
+      "questionAudioName": "QVO (2).mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Snowball.png",
+      "isOptionText": true,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "पुनः",
+        "गीत"
+      ],
+      "correctAudios": [
+        "पुनेह.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
