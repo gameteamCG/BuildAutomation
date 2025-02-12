@@ -23,7 +23,7 @@ export default class endScreen extends cc.Component {
     private supercubEnd: cc.SpriteFrame = null;
 
     onLoad() {
-        this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables.Instance.mainBg;
+        this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables.Instance.introBG;
         console.log("showedScreen--wellDone");
         this.scheduleOnce(() => {
             console.log("gameEnded--true");
