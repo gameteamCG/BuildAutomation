@@ -1,0 +1,215 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "स्वर",
+      "totalLevel": "7",
+      "TitleImageName": "NewTitle (1).png",
+      "introBgName": "Intro.png",
+      "bgmMusicName": "BG_BB.mp3",
+      "mainBgName": "look and feel copy.png",
+      "JockeyName": "hindi"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionAudioName": "चित्र को हल करें .mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common.png.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1-1.png",
+          "1-2.png",
+          "1-3.png",
+          "1-4.png"
+        ],
+        "correctAudioName": "अ se अखरोट.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "चित्र के लिए सही पहला अक्षर पहचानें.mp3",
+        "commonOptionImageName": "Asset 115.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "अ",
+          "ज"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "अ se अखरोट.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "चित्र को हल करें .mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common.png.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "2-1.png",
+          "2-2.png",
+          "2-3.png",
+          "2-4.png"
+        ],
+        "correctAudioName": "उ se उपहार .mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "चित्र के लिए सही पहला अक्षर पहचानें.mp3",
+        "commonOptionImageName": "Asset 115.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ज्ञ",
+          "उ"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "उ se उपहार .mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "चित्र को हल करें .mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common.png.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "3-1.png",
+          "3-2.png",
+          "3-3.png",
+          "3-4.png"
+        ],
+        "correctAudioName": "इ se इस्त्री .mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "चित्र के लिए सही पहला अक्षर पहचानें.mp3",
+        "commonOptionImageName": "Asset 115.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ध",
+          "इ"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "इ se इस्त्री .mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "चित्र को हल करें .mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common.png.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "4-1.png",
+          "4-2.png",
+          "4-3.png",
+          "4-4.png"
+        ],
+        "correctAudioName": "ऊँ se ऊँट .mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "चित्र के लिए सही पहला अक्षर पहचानें.mp3",
+        "commonOptionImageName": "Asset 115.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ऊ",
+          "ऋ"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "ऊँ se ऊँट .mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "चित्र को हल करें .mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common.png.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "5-1.png",
+          "5-2.png",
+          "5-3.png",
+          "5-4.png"
+        ],
+        "correctAudioName": "आ se आलू .mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "चित्र के लिए सही पहला अक्षर पहचानें.mp3",
+        "commonOptionImageName": "Asset 115.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ई",
+          "आ"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "आ se आलू .mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "चित्र को हल करें .mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common.png.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "6-1.png",
+          "6-2.png",
+          "6-3.png",
+          "6-4.png"
+        ],
+        "correctAudioName": "ऋ se ऋतु .mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "चित्र के लिए सही पहला अक्षर पहचानें.mp3",
+        "commonOptionImageName": "Asset 115.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ऋ",
+          "छ"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "ऋ se ऋतु .mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "चित्र को हल करें .mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common.png.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "7-1.png",
+          "7-2.png",
+          "7-3.png",
+          "7-4.png"
+        ],
+        "correctAudioName": "ई se ईद .mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "चित्र के लिए सही पहला अक्षर पहचानें.mp3",
+        "commonOptionImageName": "Asset 115.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ई",
+          "क्ष"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "ई se ईद .mp3"
+      }
+    ]
+  }
+}
