@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Anguthi",
+    "texture": "c223d43e-f206-4cdb-ae46-3754d9873fce",
+    "atlas": "",
+    "rect": [
+      138,
+      79,
+      226,
+      342
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

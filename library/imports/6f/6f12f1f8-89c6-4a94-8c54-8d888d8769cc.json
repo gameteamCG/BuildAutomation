@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "anguthi_txt",
+    "texture": "a083ded0-7fc4-4c07-a4b6-072e5aad6acd",
+    "atlas": "",
+    "rect": [
+      79,
+      160,
+      349,
+      188
+    ],
+    "offset": [
+      3,
+      -3.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ustra_txt",
+    "texture": "a87ee41a-44ca-435e-bfae-dc1cc395b721",
+    "atlas": "",
+    "rect": [
+      95,
+      208,
+      311,
+      116
+    ],
+    "offset": [
+      0,
+      -15.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

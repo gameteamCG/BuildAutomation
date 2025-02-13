@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ustra",
+    "texture": "3a3640a3-5e5f-4045-9bab-87d90fc67e23",
+    "atlas": "",
+    "rect": [
+      89,
+      115,
+      323,
+      270
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

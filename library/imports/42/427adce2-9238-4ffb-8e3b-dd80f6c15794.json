@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ektara",
+    "texture": "14d4c34d-8a5f-4a7a-9984-82247c5074bd",
+    "atlas": "",
+    "rect": [
+      66,
+      170,
+      369,
+      160
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

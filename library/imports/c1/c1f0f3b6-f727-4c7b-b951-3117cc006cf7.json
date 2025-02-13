@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "aurat",
+    "texture": "d72260c6-f6f2-4edd-855f-fe41427ced70",
+    "atlas": "",
+    "rect": [
+      136,
+      68,
+      244,
+      335
+    ],
+    "offset": [
+      7.5,
+      15
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "छः ",
+    "texture": "bce65c4c-25df-44cc-a459-adec978fced4",
+    "atlas": "",
+    "rect": [
+      148,
+      73,
+      205,
+      355
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
