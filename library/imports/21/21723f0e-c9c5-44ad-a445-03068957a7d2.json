@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rishabh_txt",
+    "texture": "52ae27f7-83bb-49ed-8fb6-f73275f897fd",
+    "atlas": "",
+    "rect": [
+      87,
+      205,
+      328,
+      107
+    ],
+    "offset": [
+      0.5,
+      -8
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

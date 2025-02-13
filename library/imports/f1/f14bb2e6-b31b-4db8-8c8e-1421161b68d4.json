@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "aam_txt",
+    "texture": "9e12e3d4-67af-4210-8a23-f9a1e314ecfc",
+    "atlas": "",
+    "rect": [
+      112,
+      178,
+      284,
+      113
+    ],
+    "offset": [
+      3.5,
+      16
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

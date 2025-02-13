@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "anda",
+    "texture": "718e66b2-d6b0-4b37-a934-16b4501e1d4c",
+    "atlas": "",
+    "rect": [
+      130,
+      80,
+      242,
+      341
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
