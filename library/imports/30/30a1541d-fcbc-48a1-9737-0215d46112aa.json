@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stmmetry",
+    "texture": "75fa8290-8258-4d49-8296-2df0a553348c",
+    "atlas": "",
+    "rect": [
+      20,
+      0,
+      651,
+      370
+    ],
+    "offset": [
+      10,
+      0
+    ],
+    "originalSize": [
+      671,
+      370
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
