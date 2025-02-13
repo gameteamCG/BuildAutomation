@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eid",
+    "texture": "46beb67f-dfc0-4ab4-bf10-c131e4cc0ff5",
+    "atlas": "",
+    "rect": [
+      0,
+      17,
+      500,
+      457
+    ],
+    "offset": [
+      0,
+      5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
