@@ -1,0 +1,50 @@
+{
+  "additionalData": {
+    "GameID": "रंग दें",
+    "totalLevel": "4",
+    "TitleImageName": "title.png",
+    "introBgName": "title-nur.png",
+    "bgmMusicName": "ColourBGM.mp3",
+    "initialVOName": "",
+    "mainBgName": "bg_1.png.png",
+    "JockeyName": "hindi"
+  },
+  "questionData": [
+    {
+      "questionText": "रंग दें",
+      "questionImageName": "1.1.png",
+      "questionAudioName": "Q-vo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "1.png",
+      "needMoreTools": false,
+      "correctAudioName": ""
+    },
+    {
+      "questionText": "रंग दें",
+      "questionImageName": "2.1.png",
+      "questionAudioName": "Q-vo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "2.png",
+      "needMoreTools": false,
+      "correctAudioName": ""
+    },
+    {
+      "questionText": "रंग दें",
+      "questionImageName": "3.1.png",
+      "questionAudioName": "Q-vo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "3.png",
+      "needMoreTools": false,
+      "correctAudioName": ""
+    },
+    {
+      "questionText": "रंग दें",
+      "questionImageName": "4.1.png",
+      "questionAudioName": "Q-vo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "4.png",
+      "needMoreTools": false,
+      "correctAudioName": ""
+    }
+  ]
+}
