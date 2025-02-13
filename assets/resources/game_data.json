@@ -1,0 +1,209 @@
+{
+  "additionalData": {
+    "GameID": "स्वर",
+    "totalLevel": "7",
+    "TitleImageName": "NewTitle (1).png",
+    "introBgName": "Intro.png",
+    "bgmMusicName": "BG_BB.mp3",
+    "mainBgName": "look and feel copy.png",
+    "JockeyName": "hindi"
+  },
+  "questionData": [
+    {
+      "questionText": "",
+      "questionAudioName": "QVO1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "common.png.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1-1.png",
+        "1-2.png",
+        "1-3.png",
+        "1-4.png"
+      ],
+      "correctAudioName": "akhrot.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "QVO2.mp3",
+      "commonOptionImageName": "Asset 115.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "अ",
+        "ए"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "akhrot.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "QVO1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "common.png.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "2-1.png",
+        "2-2.png",
+        "2-3.png",
+        "2-4.png"
+      ],
+      "correctAudioName": "uphar.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "QVO2.mp3",
+      "commonOptionImageName": "Asset 115.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "ऋ",
+        "उ"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "uphar.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "QVO1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "common.png.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "3-1.png",
+        "3-2.png",
+        "3-3.png",
+        "3-4.png"
+      ],
+      "correctAudioName": "istri.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "QVO2.mp3",
+      "commonOptionImageName": "Asset 115.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "इ",
+        "च"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "istri.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "QVO1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "common.png.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "4-1.png",
+        "4-2.png",
+        "4-3.png",
+        "4-4.png"
+      ],
+      "correctAudioName": "uunth.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "QVO2.mp3",
+      "commonOptionImageName": "Asset 115.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "थ",
+        "ऊ"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "uunth.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "QVO1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "common.png.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "5-1.png",
+        "5-2.png",
+        "5-3.png",
+        "5-4.png"
+      ],
+      "correctAudioName": "aloo.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "QVO2.mp3",
+      "commonOptionImageName": "Asset 115.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "आ",
+        "र"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "aloo.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "QVO1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "common.png.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "6-1.png",
+        "6-2.png",
+        "6-3.png",
+        "6-4.png"
+      ],
+      "correctAudioName": "ritu.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "QVO2.mp3",
+      "commonOptionImageName": "Asset 115.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "ध",
+        "ऋ"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "ritu.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "QVO1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "common.png.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "7-1.png",
+        "7-2.png",
+        "7-3.png",
+        "7-4.png"
+      ],
+      "correctAudioName": "eid.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "QVO2.mp3",
+      "commonOptionImageName": "Asset 115.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "ई",
+        "औ"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "eid.mp3"
+    }
+  ]
+}
