@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "300x300_0005_Ww-Bottle",
+    "texture": "a4d92b5f-764f-4cd9-a0a8-7795d87ce919",
+    "atlas": "",
+    "rect": [
+      92,
+      0,
+      116,
+      300
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

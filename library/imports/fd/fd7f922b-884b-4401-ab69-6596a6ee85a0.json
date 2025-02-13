@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "300x300_0003_Mm-bottle - Copy",
+    "texture": "32e908ea-737b-40b9-87a7-f639d595b1c1",
+    "atlas": "",
+    "rect": [
+      92,
+      0,
+      116,
+      300
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
