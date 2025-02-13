@@ -1,0 +1,163 @@
+{
+  "additionalData": {
+    "GameID": "चित्र की पहचान",
+    "totalLevel": "10",
+    "TitleImageName": "NewGameTitle.png",
+    "introBgName": "Intro.png",
+    "bgmMusicName": "BG_BB.mp3",
+    "mainBgName": "BG.png",
+    "JockeyName": "hindi"
+  },
+  "questionData": [
+    {
+      "questionText": "चित्र की पहचान",
+      "questionImageName": "aam_txt.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "OptionBG.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "aam.png",
+        "20.png"
+      ],
+      "correctAudioName": "aam.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "चित्र की पहचान",
+      "questionImageName": "oas_txt.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "OptionBG.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "27.png",
+        "oas.png"
+      ],
+      "correctAudioName": "oas.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "चित्र की पहचान",
+      "questionImageName": "aurat_txt.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "OptionBG.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "15.png",
+        "aurat.png"
+      ],
+      "correctAudioName": "aurat.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "चित्र की पहचान",
+      "questionImageName": "anda_txt.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "OptionBG.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "anda.png",
+        "19.png"
+      ],
+      "correctAudioName": "anda.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "चित्र की पहचान",
+      "questionImageName": "ch_txt.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "OptionBG.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "छः .png.png",
+        "25.png"
+      ],
+      "correctAudioName": "ch.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "चित्र की पहचान",
+      "questionImageName": "ustra_txt.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "OptionBG.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "10.png",
+        "ustra.png"
+      ],
+      "correctAudioName": "ustra.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "चित्र की पहचान",
+      "questionImageName": "rishabh_txt.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "OptionBG.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "rishabh.png",
+        "17.png"
+      ],
+      "correctAudioName": "rishabh.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "चित्र की पहचान",
+      "questionImageName": "ektara_txt.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "OptionBG.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "ektara.png",
+        "11.png"
+      ],
+      "correctAudioName": "ektara.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "चित्र की पहचान",
+      "questionImageName": "anguthi_txt.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "OptionBG.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "14.png",
+        "Anguthi.png"
+      ],
+      "correctAudioName": "anguthi.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "चित्र की पहचान",
+      "questionImageName": "ailan_txt.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "OptionBG.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "27.png",
+        "ailan.png"
+      ],
+      "correctAudioName": "ailan.mp3",
+      "correctAnswerNum": "2"
+    }
+  ]
+}
