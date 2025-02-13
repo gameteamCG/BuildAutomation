@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "रंग दें",
+      "totalLevel": "3",
+      "TitleImageName": "title.png",
+      "introBgName": "title-nur.png",
+      "bgmMusicName": "BGM.mp3",
+      "initialVOName": "",
+      "mainBgName": "bgpng.png",
+      "JockeyName": "hindi"
+    },
+    "questionData": [
+      {
+        "questionText": "बाघ",
+        "questionImageName": "a.png",
+        "questionAudioName": "जंगलीजानवर.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "1.png",
+        "needMoreTools": false,
+        "correctAudioName": "बाघ.mp3"
+      },
+      {
+        "questionText": "बंदर",
+        "questionImageName": "b.png",
+        "questionAudioName": "जंगलीजानवर.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "2.png",
+        "needMoreTools": false,
+        "correctAudioName": "बंदर.mp3"
+      },
+      {
+        "questionText": "हाथी",
+        "questionImageName": "c.png",
+        "questionAudioName": "जंगलीजानवर.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "3.png",
+        "needMoreTools": false,
+        "correctAudioName": "हाथी.mp3"
+      }
+    ]
+  }
+}
