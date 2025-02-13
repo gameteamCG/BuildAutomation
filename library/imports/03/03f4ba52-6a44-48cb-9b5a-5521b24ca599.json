@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GmTitle",
+    "texture": "47832388-8d7a-4989-8b35-4ebc7e1c6c42",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      454,
+      121
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      454,
+      121
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
