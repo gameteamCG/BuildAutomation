@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "स्वर मिलान",
+      "totalLevel": "6",
+      "TitleImageName": "GmTitle.png",
+      "introBgName": "Intro.png",
+      "bgmMusicName": "BG_BB.mp3",
+      "mainBgName": "main_bg.png",
+      "JockeyName": "hindi"
+    },
+    "questionData": [
+      {
+        "questionText": "स्वर मिलान",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "q_bg.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "q_1.png"
+        ],
+        "reiterations": [
+          "Amrud.mp3"
+        ],
+        "commonRightOptionImageName": "o_bg.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "1.png",
+          "1.png"
+        ]
+      },
+      {
+        "questionText": "स्वर मिलान",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "q_bg.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "q_2.png"
+        ],
+        "reiterations": [
+          "Aina.mp3"
+        ],
+        "commonRightOptionImageName": "o_bg.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "2.png",
+          "5.png"
+        ]
+      },
+      {
+        "questionText": "स्वर मिलान",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "q_bg.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "q_3_alt.png"
+        ],
+        "reiterations": [
+          "Elaichi.mp3"
+        ],
+        "commonRightOptionImageName": "o_bg.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "3.png",
+          "6.png"
+        ]
+      },
+      {
+        "questionText": "स्वर मिलान",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "q_bg.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "q_4.png"
+        ],
+        "reiterations": [
+          "Ulta.mp3"
+        ],
+        "commonRightOptionImageName": "o_bg.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "4.png",
+          "1.png"
+        ]
+      },
+      {
+        "questionText": "स्वर मिलान",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "q_bg.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "q_5.png"
+        ],
+        "reiterations": [
+          "Indhan.mp3"
+        ],
+        "commonRightOptionImageName": "o_bg.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "5.png",
+          "2.png"
+        ]
+      },
+      {
+        "questionText": "स्वर मिलान",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "q_bg.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "q_6.png"
+        ],
+        "reiterations": [
+          "Urja.mp3"
+        ],
+        "commonRightOptionImageName": "o_bg.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "6.png",
+          "3.png"
+        ]
+      }
+    ]
+  }
+}
