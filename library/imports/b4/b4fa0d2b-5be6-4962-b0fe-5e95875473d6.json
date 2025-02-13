@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "swar - ई",
+      "totalLevel": "6",
+      "TitleImageName": "game_title.png",
+      "introBgName": "Intro.png",
+      "bgmMusicName": "BG_BB.mp3",
+      "mainBgName": "main_bg.png",
+      "JockeyName": "hindi",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "ई",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "eekh.png",
+          "lemon.png"
+        ],
+        "correctAudios": [
+          "Eekh.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "ई",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "mirror.png",
+          "eid.png"
+        ],
+        "correctAudios": [
+          "eid.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "ई",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "eent.png",
+          "aag.png"
+        ],
+        "correctAudios": [
+          "brick.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "ई",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "email.png",
+          "pumpkin.png"
+        ],
+        "correctAudios": [
+          "email.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "ई",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "lemon.png",
+          "indhan.png"
+        ],
+        "correctAudios": [
+          "fuel.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "ई",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "gift.png",
+          "ishwar.png"
+        ],
+        "correctAudios": [
+          "lord.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

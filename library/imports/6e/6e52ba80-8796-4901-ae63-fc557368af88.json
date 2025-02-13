@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ishwar",
+    "texture": "5c5e1752-db8d-4f50-9bfe-ce4acb54f97a",
+    "atlas": "",
+    "rect": [
+      20,
+      10,
+      460,
+      480
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

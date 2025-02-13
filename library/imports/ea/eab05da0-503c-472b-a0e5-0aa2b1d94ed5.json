@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "email",
+    "texture": "9b015fb2-92c8-4175-ade3-1ccad8f1ce3d",
+    "atlas": "",
+    "rect": [
+      28,
+      44,
+      446,
+      412
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
