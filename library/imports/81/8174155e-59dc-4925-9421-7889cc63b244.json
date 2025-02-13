@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Layout3_zebra_grey",
+    "texture": "6218b93a-0c70-486a-8bf7-9655236a18eb",
+    "atlas": "",
+    "rect": [
+      3,
+      50,
+      496,
+      387
+    ],
+    "offset": [
+      0.5,
+      7
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
