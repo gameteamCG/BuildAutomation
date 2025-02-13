@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "emai",
+    "texture": "8a436003-c7a1-46b0-bdf2-7a9a5237119c",
+    "atlas": "",
+    "rect": [
+      22,
+      38,
+      458,
+      424
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
