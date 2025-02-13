@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "93ed288f-e625-4920-a8a4-2944a300d94f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 300,
+  "height": 300,
+  "platformSettings": {},
+  "subMetas": {
+    "300x300_0003_Mm-bottle - Copy": {
+      "ver": "1.0.6",
+      "uuid": "80f1d33a-5ccf-49a6-b9d0-447fbd1b015c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "93ed288f-e625-4920-a8a4-2944a300d94f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 92,
+      "trimY": 0,
+      "width": 116,
+      "height": 300,
+      "rawWidth": 300,
+      "rawHeight": 300,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

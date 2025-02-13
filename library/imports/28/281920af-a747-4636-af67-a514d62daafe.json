@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_coral",
+    "texture": "4dac0191-1544-4101-a801-2b9483315c93",
+    "atlas": "",
+    "rect": [
+      21,
+      19,
+      466,
+      472
+    ],
+    "offset": [
+      4,
+      -5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
