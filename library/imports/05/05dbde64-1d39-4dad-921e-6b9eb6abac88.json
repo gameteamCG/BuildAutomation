@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tometo1",
+    "texture": "b9ebef4f-7aee-4804-8135-64ffb994aece",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      181,
+      188
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      181,
+      188
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

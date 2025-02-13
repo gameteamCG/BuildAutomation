@@ -1,0 +1,93 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letters and sounds Tt_LKG_SB3_6",
+      "totalLevel": "3",
+      "TitleImageName": "Tt.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg1.png",
+        "questionAudioName": "identify_the_letter_t.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "T2.png",
+          "T4.png",
+          "T1.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "T.mp3",
+          "T.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "identify_the_letter_t.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "tometo1.png",
+          "tometo1.png",
+          "tometo12.png"
+        ],
+        "correctAudioName": "IMPRESSIVEWORK.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "T.mp3",
+          "T.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg3.png",
+        "questionAudioName": "tap_on_the_picture_with_letter_sound_ttt.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "ant.png",
+          "turtle.png",
+          "tree.png"
+        ],
+        "optionsBg": [
+          "ant_greyscale.png",
+          "turtle_greyscale.png",
+          "tree_greyscale.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "turtle.mp3",
+          "tree.mp3"
+        ],
+        "correctAnswerNum": "23"
+      }
+    ]
+  }
+}

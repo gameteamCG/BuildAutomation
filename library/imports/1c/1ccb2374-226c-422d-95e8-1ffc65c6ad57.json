@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ant_greyscale",
+    "texture": "a45032d6-45ea-4ed2-b093-7a056539feb8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      238,
+      322
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      238,
+      322
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
