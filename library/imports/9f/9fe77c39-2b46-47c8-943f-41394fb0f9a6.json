@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "calf",
+    "texture": "c00cd8d1-47c1-4fe6-961c-25aa5ef875ed",
+    "atlas": "",
+    "rect": [
+      6,
+      35,
+      239,
+      180
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

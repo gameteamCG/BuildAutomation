@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "048c9c38-05bc-44e5-85ee-8e3e07c6fb1c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 736,
+  "height": 126,
+  "platformSettings": {},
+  "subMetas": {
+    "Domestic_animals_and_their_young_ones": {
+      "ver": "1.0.6",
+      "uuid": "53e5f05e-cacd-4a90-a915-788c2b1d761a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "048c9c38-05bc-44e5-85ee-8e3e07c6fb1c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -6,
+      "offsetY": 1.5,
+      "trimX": 3,
+      "trimY": 7,
+      "width": 718,
+      "height": 109,
+      "rawWidth": 736,
+      "rawHeight": 126,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

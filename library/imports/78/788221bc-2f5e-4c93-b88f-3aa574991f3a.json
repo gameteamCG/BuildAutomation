@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "foal",
+    "texture": "eac546cd-addc-4b3c-80e5-66aa322404a4",
+    "atlas": "",
+    "rect": [
+      31,
+      10,
+      190,
+      230
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
