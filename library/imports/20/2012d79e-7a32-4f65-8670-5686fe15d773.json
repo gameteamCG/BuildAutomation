@@ -1,0 +1,198 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Community helpers and their tools _LKG_GA_54",
+      "totalLevel": "6",
+      "TitleImageName": "communityhelpers.png",
+      "introBgName": "skg.png",
+      "bgmMusicName": "bgm.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_6.png",
+        "questionAudioName": "Tapontheobjectsthatareusedbyaconstructionworker.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "hammer.png",
+          "nail.png",
+          "police-jeep.png",
+          "postbox.png",
+          "saw.png"
+        ],
+        "optionsBg": [
+          "hammer19.png",
+          "nail15.png",
+          "police-jeep13.png",
+          "postbox2.png",
+          "saw1.png"
+        ],
+        "correctAudioName": "L1correct.mp3",
+        "wrongAudioName": "no.mp3",
+        "reiterationAudioName": [
+          "hammer.mp3",
+          "nail.mp3",
+          "saw.mp3"
+        ],
+        "correctAnswerNum": "125"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Bg_2.png",
+        "questionAudioName": "Tapontheobjectsthatareusedbyadentist.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "mirror.png",
+          "braces.png",
+          "mop.png",
+          "brush.png",
+          "handcuff.png"
+        ],
+        "optionsBg": [
+          "mirror4.png",
+          "braces6.png",
+          "mop16.png",
+          "brush21.png",
+          "handcuffs18.png"
+        ],
+        "correctAudioName": "L2Correct.mp3",
+        "wrongAudioName": "ns.mp3",
+        "reiterationAudioName": [
+          "MIRROR.mp3",
+          "braces.mp3",
+          "brush.mp3"
+        ],
+        "correctAnswerNum": "124"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Bg_2.png",
+        "questionAudioName": "tapontheobjectsthatareusedbyadoctor.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "tire.png",
+          "thermometer.png",
+          "stetoscope.png",
+          "syringe.png",
+          "roll.png"
+        ],
+        "optionsBg": [
+          "tire12.png",
+          "thermometer22.png",
+          "stetoscope23.png",
+          "syringe7.png",
+          "tissueroll12.png"
+        ],
+        "correctAudioName": "L3correct.mp3",
+        "wrongAudioName": "nu.mp3",
+        "reiterationAudioName": [
+          "thermometer.mp3",
+          "stethoscope.mp3",
+          "syringe.mp3"
+        ],
+        "correctAnswerNum": "234"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "Tapontheobjectsthatareusedbyafireman.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "fire-truck.png",
+          "letters.png",
+          "pipe.png",
+          "braces.png",
+          "helmet.png"
+        ],
+        "optionsBg": [
+          "fire-truck20.png",
+          "letter5.png",
+          "pipe14.png",
+          "braces6.png",
+          "helmet17.png"
+        ],
+        "correctAudioName": "l4correct.mp3",
+        "wrongAudioName": "no.mp3",
+        "reiterationAudioName": [
+          "fire engiene.mp3",
+          "hose pipe.mp3",
+          "helmet.mp3"
+        ],
+        "correctAnswerNum": "135"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_1.png",
+        "questionAudioName": "Tapontheobjectthatareusedbythe police.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "postbox.png",
+          "walkietalkie.png",
+          "brush.png",
+          "handcuff.png",
+          "police-jeep.png"
+        ],
+        "optionsBg": [
+          "postbox2.png",
+          "walkietalkie8.png",
+          "brush21.png",
+          "handcuffs18.png",
+          "police-jeep13.png"
+        ],
+        "correctAudioName": "L9Correct.mp3",
+        "wrongAudioName": "no.mp3",
+        "reiterationAudioName": [
+          "walkietalkie.mp3",
+          "HANDCUFF.mp3",
+          "POLICECAR.mp3"
+        ],
+        "correctAnswerNum": "245"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg_5.png",
+        "questionAudioName": "Tapontheobjectsthatareusedbyapostman.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "postbox.png",
+          "letters.png",
+          "stamp.png",
+          "soap.png",
+          "tire.png"
+        ],
+        "optionsBg": [
+          "postbox2.png",
+          "letter5.png",
+          "stamp10.png",
+          "soap11.png",
+          "tire12.png"
+        ],
+        "correctAudioName": "L8Correct.mp3",
+        "wrongAudioName": "ns.mp3",
+        "reiterationAudioName": [
+          "postbox.mp3",
+          "LETTERS.mp3",
+          "STAMPS.mp3"
+        ],
+        "correctAnswerNum": "123"
+      }
+    ]
+  }
+}
