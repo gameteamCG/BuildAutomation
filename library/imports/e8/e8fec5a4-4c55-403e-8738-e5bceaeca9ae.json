@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rishabh",
+    "texture": "a53afb50-6796-45b6-a979-bcd70887a9a1",
+    "atlas": "",
+    "rect": [
+      36,
+      43,
+      428,
+      415
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

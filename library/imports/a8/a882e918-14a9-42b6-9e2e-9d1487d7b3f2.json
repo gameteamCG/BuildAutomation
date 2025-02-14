@@ -1,0 +1,120 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "स्वर - ऋ",
+      "totalLevel": "5",
+      "TitleImageName": "Asset 148.png",
+      "introBgName": "LkgIntro.png",
+      "bgmMusicName": "BG_BB.mp3",
+      "mainBgName": "mainBg.png",
+      "JockeyName": "hindi",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "ऋ",
+        "questionImageName": "Hat.png",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionBG.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "rishi.png",
+          "8.png",
+          "5.png",
+          "7.png"
+        ],
+        "correctAudios": [
+          "rishi_vo.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "ऋ",
+        "questionImageName": "Hat.png",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionBG.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "1.png",
+          "ritu.png",
+          "11.png",
+          "6.png"
+        ],
+        "correctAudios": [
+          "ritu_vo.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "ऋ",
+        "questionImageName": "Hat.png",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionBG.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "8.png",
+          "5.png",
+          "2.png",
+          "riksh.png"
+        ],
+        "correctAudios": [
+          "riksh_vo.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "ऋ",
+        "questionImageName": "Hat.png",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionBG.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "rishabh.png",
+          "9.png",
+          "11.png",
+          "6.png"
+        ],
+        "correctAudios": [
+          "rishabh_vo.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "ऋ",
+        "questionImageName": "Hat.png",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionBG.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "9.png",
+          "11.png",
+          "rin.png",
+          "6.png"
+        ],
+        "correctAudios": [
+          "rin_vo.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}

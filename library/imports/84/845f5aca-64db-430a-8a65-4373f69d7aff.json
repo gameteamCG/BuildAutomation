@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rishi",
+    "texture": "2c941f37-1a03-4834-8355-96dc2c080df6",
+    "atlas": "",
+    "rect": [
+      93,
+      28,
+      314,
+      445
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

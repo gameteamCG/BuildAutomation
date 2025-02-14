@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rin",
+    "texture": "8d334f5e-b139-434d-a04b-dbaf3f427f21",
+    "atlas": "",
+    "rect": [
+      33,
+      66,
+      434,
+      369
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
