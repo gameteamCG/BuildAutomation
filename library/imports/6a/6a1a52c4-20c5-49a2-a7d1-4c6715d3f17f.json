@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "everest",
+    "texture": "d6743b62-f115-4317-85a6-726e2aa52fc0",
+    "atlas": "",
+    "rect": [
+      59,
+      58,
+      384,
+      384
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

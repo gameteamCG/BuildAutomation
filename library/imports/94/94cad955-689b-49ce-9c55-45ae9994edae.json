@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "airavat",
+    "texture": "f9c9676f-cf84-431b-90aa-7db104d8198e",
+    "atlas": "",
+    "rect": [
+      39,
+      118,
+      424,
+      265
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
