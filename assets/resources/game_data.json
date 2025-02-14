@@ -1,0 +1,160 @@
+{
+  "additionalData": {
+    "GameID": "स्वर - आ",
+    "totalLevel": "7",
+    "TitleImageName": "GameTitle.png",
+    "introBgName": "LkgIntro.png",
+    "bgmMusicName": "BG_BB.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "hindi"
+  },
+  "questionData": [
+    {
+      "questionText": "आ",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "leftOptionBg.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "आ"
+      ],
+      "reiterations": [
+        "aam_vo.mp3"
+      ],
+      "commonRightOptionImageName": "rightOptionBg.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "aam.png",
+        "8_w.png"
+      ]
+    },
+    {
+      "questionText": "आ",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "leftOptionBg.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "आ"
+      ],
+      "reiterations": [
+        "aag_vo.mp3"
+      ],
+      "commonRightOptionImageName": "rightOptionBg.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "aag.png",
+        "1_w.png"
+      ]
+    },
+    {
+      "questionText": "आ",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "leftOptionBg.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "आ"
+      ],
+      "reiterations": [
+        "aina_vo.mp3"
+      ],
+      "commonRightOptionImageName": "rightOptionBg.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "aina.png",
+        "3_w.png"
+      ]
+    },
+    {
+      "questionText": "आ",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "leftOptionBg.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "आ"
+      ],
+      "reiterations": [
+        "aloo_vo.mp3"
+      ],
+      "commonRightOptionImageName": "rightOptionBg.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "aloo.png",
+        "7_w.png"
+      ]
+    },
+    {
+      "questionText": "आ",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "leftOptionBg.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "आ"
+      ],
+      "reiterations": [
+        "aakash_vo.mp3"
+      ],
+      "commonRightOptionImageName": "rightOptionBg.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "aakash.png",
+        "6_w.png"
+      ]
+    },
+    {
+      "questionText": "आ",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "leftOptionBg.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "आ"
+      ],
+      "reiterations": [
+        "aata_vo.mp3"
+      ],
+      "commonRightOptionImageName": "rightOptionBg.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "aata.png",
+        "4_w.png"
+      ]
+    },
+    {
+      "questionText": "आ",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "leftOptionBg.png",
+      "isLeftOptionText": true,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "आ"
+      ],
+      "reiterations": [
+        "aath_vo.mp3"
+      ],
+      "commonRightOptionImageName": "rightOptionBg.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "aath.png",
+        "9_w.png"
+      ]
+    }
+  ]
+}
