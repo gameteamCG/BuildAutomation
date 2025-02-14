@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slimboy",
+    "texture": "bc24bb95-8fe4-4422-a62a-7e8d8c380497",
+    "atlas": "",
+    "rect": [
+      63,
+      13,
+      374,
+      433
+    ],
+    "offset": [
+      19.5,
+      0.5
+    ],
+    "originalSize": [
+      461,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

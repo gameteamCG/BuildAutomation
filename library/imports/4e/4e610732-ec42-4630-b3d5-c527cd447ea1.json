@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sleigh",
+    "texture": "4ba9cc8a-c630-4e1a-91ff-054e9d4ecf8d",
+    "atlas": "",
+    "rect": [
+      45,
+      47,
+      370,
+      365
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

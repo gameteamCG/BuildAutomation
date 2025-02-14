@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slope_",
+    "texture": "aecbe9fb-3f27-450f-96a4-58b806fa9e0e",
+    "atlas": "",
+    "rect": [
+      8,
+      58,
+      233,
+      133
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
