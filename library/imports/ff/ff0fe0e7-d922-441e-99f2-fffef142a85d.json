@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "300x300_0006_woodpecker",
+    "texture": "3b0ff400-14f8-4592-abbf-093c7ab25988",
+    "atlas": "",
+    "rect": [
+      0,
+      52,
+      300,
+      196
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
