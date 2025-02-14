@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ainak",
+    "texture": "38935434-60f2-440a-9f47-3db19dd782dd",
+    "atlas": "",
+    "rect": [
+      41,
+      175,
+      420,
+      152
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
