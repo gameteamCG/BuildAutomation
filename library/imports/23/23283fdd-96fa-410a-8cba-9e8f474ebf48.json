@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ailan",
+    "texture": "1dac6f95-772b-48e2-8671-3ae495cf4cec",
+    "atlas": "",
+    "rect": [
+      113,
+      52,
+      274,
+      397
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
