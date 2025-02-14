@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "aakash",
+    "texture": "52e20402-88f8-4117-b770-ea27e5aef627",
+    "atlas": "",
+    "rect": [
+      81,
+      87,
+      307,
+      315
+    ],
+    "offset": [
+      -16,
+      6
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

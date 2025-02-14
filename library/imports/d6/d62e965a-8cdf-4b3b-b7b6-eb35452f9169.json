@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "aloo",
+    "texture": "f85ad6b3-7026-4e7e-a3ce-7825d8a62e9a",
+    "atlas": "",
+    "rect": [
+      103,
+      102,
+      296,
+      297
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

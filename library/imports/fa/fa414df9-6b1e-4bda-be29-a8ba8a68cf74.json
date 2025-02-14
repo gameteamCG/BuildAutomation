@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "aina",
+    "texture": "8bb7040a-5e91-45db-b6d8-55576dc460ef",
+    "atlas": "",
+    "rect": [
+      134,
+      92,
+      208,
+      331
+    ],
+    "offset": [
+      -12.5,
+      -7
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
