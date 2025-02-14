@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "socks",
+    "texture": "92acb94e-1de9-468b-8763-102d7a3c1218",
+    "atlas": "",
+    "rect": [
+      46,
+      0,
+      407,
+      500
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

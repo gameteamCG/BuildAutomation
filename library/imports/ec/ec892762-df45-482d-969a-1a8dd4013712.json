@@ -1,0 +1,164 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Recap: Colour_NUR_SB3_36",
+      "totalLevel": "7",
+      "TitleImageName": "title.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "bgm2.mp3",
+      "mainBgName": "doodle_bg.png",
+      "JockeyName": "Puzzle",
+      "templateType": "TapToCollect"
+    },
+    "questionData": [
+      {
+        "questionText": "color - red",
+        "questionImageName": "bucket_2.png",
+        "questionAudioName": "Tap_on_the_objects_that_are_red_in_colour_1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "apple.png",
+          "banana.png",
+          "book.png",
+          "brick.png"
+        ],
+        "correctAudios": [
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "color - red",
+        "questionImageName": "bucket_2.png",
+        "questionAudioName": "Tap_on_the_objects_that_are_red_in_colour_1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "crayon.png",
+          "duck.png",
+          "car.png",
+          "pram.png"
+        ],
+        "correctAudios": [
+          "EXCELLENTJOB.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "color - red",
+        "questionImageName": "bucket_2.png",
+        "questionAudioName": "Tap_on_the_objects_that_are_red_in_colour_1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "book.png",
+          "hat.png",
+          "cabbage.png",
+          "suitcase.png"
+        ],
+        "correctAudios": [
+          "GREATWORK.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "color - red",
+        "questionImageName": "bucket_2.png",
+        "questionAudioName": "Tap_on_the_objects_that_are_red_in_colour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "heart.png",
+          "socks.png",
+          "banana.png",
+          "flower.png"
+        ],
+        "correctAudios": [
+          "GOODJOB.mp3",
+          "GREATWORK.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionText": "color - red",
+        "questionImageName": "bucket_2.png",
+        "questionAudioName": "Tap_on_the_objects_that_are_red_in_colour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "tomato.png",
+          "dress.png",
+          "nailpolish.png",
+          "book.png"
+        ],
+        "correctAudios": [
+          "FANTASTIC.mp3",
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionText": "color - red",
+        "questionImageName": "bucket_2.png",
+        "questionAudioName": "Tap_on_the_objects_that_are_red_in_colour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "banana.png",
+          "car.png",
+          "cup.png",
+          "pram.png"
+        ],
+        "correctAudios": [
+          "GREATWORK.mp3",
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionText": "color - red",
+        "questionImageName": "bucket_2.png",
+        "questionAudioName": "Tap_on_the_objects_that_are_red_in_colour.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "medal.png",
+          "shoes.png",
+          "bucket.png",
+          "apple.png"
+        ],
+        "correctAudios": [
+          "EXCELLENTJOB.mp3",
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "24"
+      }
+    ]
+  }
+}

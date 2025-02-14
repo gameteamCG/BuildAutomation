@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "panel",
+    "texture": "9c2b72b7-49fe-4dd5-bbde-9069ff9266a9",
+    "atlas": "",
+    "rect": [
+      4,
+      3,
+      494,
+      493
+    ],
+    "offset": [
+      1,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
