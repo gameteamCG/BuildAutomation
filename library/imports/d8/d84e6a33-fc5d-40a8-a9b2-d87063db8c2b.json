@@ -1,0 +1,164 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Nursery_SB3_Language_2: Letters and sounds Mm",
+      "totalLevel": "6",
+      "TitleImageName": "Asset47.png",
+      "introBgName": "NUR.png",
+      "bgmMusicName": "BGM.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset23.png",
+        "questionAudioName": "Choosetheuppercaseletterm.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "M",
+          "L",
+          "M"
+        ],
+        "optionsBg": [
+          "Asset44.png",
+          "Asset44.png",
+          "Asset44.png"
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "wrongAudioName": "negative_1.mp3",
+        "reiterationAudioName": [
+          "MSAYSMM.mp3",
+          "MSAYSMM.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset23.png",
+        "questionAudioName": "Taponthelowercaseletterm.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "k",
+          "m",
+          "e"
+        ],
+        "optionsBg": [
+          "Asset25.png",
+          "Asset25.png",
+          "Asset25.png"
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "wrongAudioName": "negative_2.mp3",
+        "reiterationAudioName": [
+          "MSAYSMM.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset23.png",
+        "questionAudioName": "27917862_1_identify-the-letter-m.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Mm",
+          "Dd",
+          "Mm"
+        ],
+        "optionsBg": [
+          "Asset45.png",
+          "Asset45.png",
+          "Asset45.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "wrongAudioName": "negative_1.mp3",
+        "reiterationAudioName": [
+          "MSAYSMM.mp3",
+          "MSAYSMM.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset46.png",
+        "questionAudioName": "taponthepicturethatbeginswithlettersoundm.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset40.png",
+          "Asset41.png",
+          "Asset42.png"
+        ],
+        "optionsBg": [
+          "Asset40.png",
+          "Asset41.png",
+          "Asset39.png"
+        ],
+        "correctAudioName": "positive_4.mp3",
+        "wrongAudioName": "negative_2.mp3",
+        "reiterationAudioName": [
+          "28044154_6_monkey.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset46.png",
+        "questionAudioName": "taponthepicturethatbeginswithlettersoundm.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset34.png",
+          "Asset33.png",
+          "Asset32.png"
+        ],
+        "optionsBg": [
+          "Asset34.png",
+          "Asset33.png",
+          "Asset35.png"
+        ],
+        "correctAudioName": "positive_5.mp3",
+        "wrongAudioName": "negative_1.mp3",
+        "reiterationAudioName": [
+          "27054835_8_mango.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset46.png",
+        "questionAudioName": "taponthepicturethatbeginswithlettersoundm.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset28.png",
+          "Asset27.png",
+          "Asset26.png"
+        ],
+        "optionsBg": [
+          "Asset31.png",
+          "Asset27.png",
+          "Asset26.png"
+        ],
+        "correctAudioName": "positive_6.mp3",
+        "wrongAudioName": "negative_2.mp3",
+        "reiterationAudioName": [
+          "28044154_4_mat.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
