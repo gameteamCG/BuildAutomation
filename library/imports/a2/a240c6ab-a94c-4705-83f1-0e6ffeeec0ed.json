@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "puz3_1",
+    "texture": "9a053ff8-10e5-4c86-a9a0-f9d90cc6aec4",
+    "atlas": "",
+    "rect": [
+      0,
+      33,
+      500,
+      449
+    ],
+    "offset": [
+      0,
+      -7.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
