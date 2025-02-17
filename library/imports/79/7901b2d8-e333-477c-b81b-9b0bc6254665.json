@@ -1,0 +1,159 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Question words_Grade 3 (Grammar)_R22_T2",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/4563753687_Little_Singham_what_when_why_Low_1719918865649.mp4",
+      "TitleImageName": "tital.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "corny",
+      "TotalLevel": "7"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Who is the story about?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "que_1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "SINGHAM.png",
+          "WA.png",
+          "WA2.png",
+          "WA3.png"
+        ],
+        "ReiterationAudioName": "a1_singham-karate.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Where did they get stuck?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "que_2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "clothv.png",
+          "ball .png",
+          "brickss.png",
+          "flwer.png"
+        ],
+        "ReiterationAudioName": "a2_bricks.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "What is the emergency number?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "que_3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "123",
+          "911",
+          "401",
+          "210"
+        ],
+        "ReiterationAudioName": "a3_911.mp3",
+        "CorrectAudioName": "GORGEOUSWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Fill in the blank with the correct word. _____ ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "que_4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "To",
+          "Cat",
+          "Hut",
+          "Who"
+        ],
+        "ReiterationAudioName": "a4_who.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Fill in the blank with the correct word. _____ ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "que_5.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "When",
+          "Why",
+          "Big",
+          "Fin"
+        ],
+        "ReiterationAudioName": "a5_why.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Fill in the blank with the correct word. _____ ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "que_6.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "when",
+          "Net",
+          "Gap",
+          "Jug"
+        ],
+        "ReiterationAudioName": "a6_when.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999999999",
+        "IsQuestionText": true,
+        "QuestionText": "What did Singham throw to catch the criminal?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "que_7.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "battery.png",
+          "toy.png",
+          "bookv.png",
+          "brick.png"
+        ],
+        "ReiterationAudioName": "a7_brick.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}
