@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0000_prince",
+    "texture": "811a508f-98e7-4b54-9650-8028addd74f5",
+    "atlas": "",
+    "rect": [
+      45,
+      11,
+      151,
+      223
+    ],
+    "offset": [
+      -4.5,
+      2.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
