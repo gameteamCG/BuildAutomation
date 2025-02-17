@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grfamilywords",
+    "texture": "bd7e7224-9abb-4812-9726-a6908343c902",
+    "atlas": "",
+    "rect": [
+      4,
+      8,
+      531,
+      96
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      538,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
