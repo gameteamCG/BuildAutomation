@@ -1,0 +1,163 @@
+{
+  "additionalData": {
+    "GameID": "Nursery_SB3_Language_6: Letters and sounds Nn",
+    "totalLevel": "6",
+    "TitleImageName": "Asset25.png",
+    "introBgName": "NUR.png",
+    "bgmMusicName": "BGM.mp3",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "Asset3.png",
+      "questionAudioName": "Choosetheuppercaselettern.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "N",
+        "F",
+        "N",
+        "A"
+      ],
+      "optionsBg": [
+        "Asset2.png",
+        "Asset2.png",
+        "Asset2.png",
+        "Asset2.png"
+      ],
+      "correctAudioName": "positive_1.mp3",
+      "wrongAudioName": "negative_1.mp3",
+      "reiterationAudioName": [
+        "NSAYSNN.mp3",
+        "NSAYSNN.mp3"
+      ],
+      "correctAnswerNum": "13"
+    },
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "Asset26.png",
+      "questionAudioName": "Taponthelowercaselettern.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "N",
+        "K",
+        "B",
+        "N"
+      ],
+      "optionsBg": [
+        "Asset4.png",
+        "Asset4.png",
+        "Asset4.png",
+        "Asset4.png"
+      ],
+      "correctAudioName": "positive_2.mp3",
+      "wrongAudioName": "negative_2.mp3",
+      "reiterationAudioName": [
+        "NSAYSNN.mp3",
+        "NSAYSNN.mp3"
+      ],
+      "correctAnswerNum": "14"
+    },
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "Asset24.png",
+      "questionAudioName": "27917862_4_identify-the-letter-n.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "Kcandy.png",
+        "Kcandy.png",
+        "Ncandy.png"
+      ],
+      "optionsBg": [
+        "",
+        "",
+        ""
+      ],
+      "correctAudioName": "positive_3.mp3",
+      "wrongAudioName": "negative_1.mp3",
+      "reiterationAudioName": [
+        "MSAYSMM.mp3",
+        "MSAYSMM.mp3"
+      ],
+      "correctAnswerNum": "13"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "Asset23.png",
+      "questionAudioName": "taponthepicturethatbeginswithlettersoundn.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "Asset19.png",
+        "Asset19.png",
+        "Asset18.png"
+      ],
+      "optionsBg": [
+        "Asset19.png",
+        "Asset19.png",
+        "Asset21.png"
+      ],
+      "correctAudioName": "positive_4.mp3",
+      "wrongAudioName": "negative_2.mp3",
+      "reiterationAudioName": [
+        "nest.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "Asset23.png",
+      "questionAudioName": "taponthepicturethatbeginswithlettersoundn.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "Asset11.png",
+        "Asset9.png",
+        "Asset12.png"
+      ],
+      "optionsBg": [
+        "Asset11.png",
+        "Asset10.png",
+        "Asset12.png"
+      ],
+      "correctAudioName": "positive_5.mp3",
+      "wrongAudioName": "negative_1.mp3",
+      "reiterationAudioName": [
+        "nest.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "Asset23.png",
+      "questionAudioName": "taponthepicturethatbeginswithlettersoundn.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "Asset13.png",
+        "Asset6.png",
+        "Asset5.png"
+      ],
+      "optionsBg": [
+        "Asset16.png",
+        "Asset6.png",
+        "Asset5.png"
+      ],
+      "correctAudioName": "positive_6.mp3",
+      "wrongAudioName": "negative_2.mp3",
+      "reiterationAudioName": [
+        "net.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
