@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Qoranges",
+    "texture": "803e0c57-f9be-453d-bbb3-c267b9e98cb6",
+    "atlas": "",
+    "rect": [
+      41,
+      149,
+      413,
+      168
+    ],
+    "offset": [
+      0,
+      7
+    ],
+    "originalSize": [
+      495,
+      480
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

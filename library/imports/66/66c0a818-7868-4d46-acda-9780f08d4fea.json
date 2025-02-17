@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Letters and sounds Oo",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/O_song_1739790551503.mp4",
+      "TitleImageName": "Asset 29.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "Identify",
+        "QuestionImageName": "",
+        "QuestionAudioName": "L1.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 35.png",
+          "Asset 36.png"
+        ],
+        "ReiterationAudioName": "R1.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Asset 34.png",
+        "QuestionAudioName": "L2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "crow.png",
+          "owl.png"
+        ],
+        "ReiterationAudioName": "R2.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Qoranges.png",
+        "QuestionAudioName": "L3.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 37 (1).png",
+          "Asset 35.png"
+        ],
+        "ReiterationAudioName": "R3.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
