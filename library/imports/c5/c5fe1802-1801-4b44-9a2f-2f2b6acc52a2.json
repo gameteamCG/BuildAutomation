@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "clblendswords",
+    "texture": "b5cdb1fe-93a6-45e7-847a-738e67d7d566",
+    "atlas": "",
+    "rect": [
+      2,
+      6,
+      430,
+      90
+    ],
+    "offset": [
+      -3.5,
+      4
+    ],
+    "originalSize": [
+      441,
+      110
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

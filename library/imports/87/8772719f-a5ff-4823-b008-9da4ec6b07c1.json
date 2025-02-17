@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Blends - cl_UKG_SB3_4",
+      "totalLevel": "7",
+      "TitleImageName": "clblendswords.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "BGM_2.mp3",
+      "mainBgName": "island outdoor bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "'cl' blend words",
+        "questionAudioName": "match_the_blend_to_the_correct_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz3_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "cl2.png"
+        ],
+        "reiterations": [
+          "17166325_9_clap.mp3"
+        ],
+        "commonRightOptionImageName": "puz3_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500_0012_clap.png",
+          "500x500__0011_Layer-1.png"
+        ]
+      },
+      {
+        "questionText": "'cl' blend words",
+        "questionAudioName": "match_the_blend_to_the_correct_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz3_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "cl2.png"
+        ],
+        "reiterations": [
+          "cloud.mp3"
+        ],
+        "commonRightOptionImageName": "puz3_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500__0003_500x500_0008_cloud.png",
+          "500x500__0008_500x500_0003_wrongoption4.png"
+        ]
+      },
+      {
+        "questionText": "'cl' blend words",
+        "questionAudioName": "match_the_blend_to_the_correct_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz3_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "cl2.png"
+        ],
+        "reiterations": [
+          "18663400_5_clock.mp3"
+        ],
+        "commonRightOptionImageName": "puz3_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500__0002_500x500_0009_clock.png",
+          "500x500__0009_500x500_0002_wrongoption3.png"
+        ]
+      },
+      {
+        "questionText": "'cl' blend words",
+        "questionAudioName": "match_the_blend_to_the_correct_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz3_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "cl2.png"
+        ],
+        "reiterations": [
+          "claw.mp3"
+        ],
+        "commonRightOptionImageName": "puz3_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500__0000_500x500_0011_claw.png",
+          "500x500__0007_500x500_0004_wrongoption5.png"
+        ]
+      },
+      {
+        "questionText": "'cl' blend words",
+        "questionAudioName": "match_the_blend_to_the_correct_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz3_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "cl2.png"
+        ],
+        "reiterations": [
+          "clown.mp3"
+        ],
+        "commonRightOptionImageName": "puz3_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500__0004_500x500_0007_clown.png",
+          "500x500__0006_500x500_0005_wrongoption6.png"
+        ]
+      },
+      {
+        "questionText": "'cl' blend words",
+        "questionAudioName": "match_the_blend_to_the_correct_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz3_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "cl2.png"
+        ],
+        "reiterations": [
+          "clip.mp3"
+        ],
+        "commonRightOptionImageName": "puz3_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500__0001_500x500_0010_clip.png",
+          "500x500__0010_500x500_0001_wrongoption2.png"
+        ]
+      },
+      {
+        "questionText": "'cl' blend words",
+        "questionAudioName": "match_the_blend_to_the_correct_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz3_1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "cl2.png"
+        ],
+        "reiterations": [
+          "CLUE.mp3"
+        ],
+        "commonRightOptionImageName": "puz3_2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "500x500__0005_500x500_0006_clue.png",
+          "500x500__0006_500x500_0005_wrongoption7.png"
+        ]
+      }
+    ]
+  }
+}

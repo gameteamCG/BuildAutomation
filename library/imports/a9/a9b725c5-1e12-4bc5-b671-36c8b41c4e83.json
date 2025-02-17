@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500__0000_500x500_0011_claw",
+    "texture": "5a1d2c7c-eded-4bbb-ab0d-191717c885ae",
+    "atlas": "",
+    "rect": [
+      164,
+      79,
+      274,
+      381
+    ],
+    "offset": [
+      51,
+      -19.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
