@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "drfamilywords",
+    "texture": "0e2b6b5c-8e0e-4424-9dbc-f2e714554e9f",
+    "atlas": "",
+    "rect": [
+      4,
+      8,
+      527,
+      96
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      534,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
