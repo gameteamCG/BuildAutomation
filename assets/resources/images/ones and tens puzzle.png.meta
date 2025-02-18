@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "61795c06-3548-43d7-a9db-453eda72a2f2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 879,
+  "height": 358,
+  "platformSettings": {},
+  "subMetas": {
+    "ones and tens puzzle": {
+      "ver": "1.0.6",
+      "uuid": "b0d083a8-f329-4272-9a5d-7999640a7192",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "61795c06-3548-43d7-a9db-453eda72a2f2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -6.5,
+      "offsetY": -2.5,
+      "trimX": 0,
+      "trimY": 7,
+      "width": 866,
+      "height": 349,
+      "rawWidth": 879,
+      "rawHeight": 358,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
