@@ -1,0 +1,219 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Sound sh",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/SH_Latter_1739876969481.mp4",
+      "TitleImageName": "sound sh.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "Podar",
+      "TotalLevel": "10"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What was the girl's name in the story? ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "39565579_1_what-was-the-girls-na.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 61.png",
+          "Asset 58.png",
+          "Asset 60.png",
+          "Asset 59.png"
+        ],
+        "ReiterationAudioName": "39565579_2_sheila.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Where did she go with her mother?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "39565579_3_where-did-she-go-with-.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "shopping.png",
+          "Asset 43.png",
+          "Asset 52.png",
+          "Asset 54.png"
+        ],
+        "ReiterationAudioName": "39565579_4_shopping.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What did Sheila buy for her father?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "39565579_5_what-did-sheila-buy-fo.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 57.png",
+          "Asset 56.png",
+          "Asset 55.png",
+          "shirt.png"
+        ],
+        "ReiterationAudioName": "39565579_6_shirt.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_3.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": " What did she buy for her older brother?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "39565579_7_what-did-she-buy-for-h.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 45.png",
+          "shoes.png",
+          "Asset 47.png",
+          "Asset 51.png"
+        ],
+        "ReiterationAudioName": "39565579_8_shoes.mp3",
+        "CorrectAudioName": "positive_4.mp3",
+        "WrongAudioName": "negative_4.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What did she buy for her younger brother?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "39565579_9_what-did-she-buy-for-h.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 48.png",
+          "Asset 50.png",
+          "Asset 44.png",
+          "ship.png"
+        ],
+        "ReiterationAudioName": "39565579_10_ship.mp3",
+        "CorrectAudioName": "positive_5.mp3",
+        "WrongAudioName": "negative_5.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": " What did Sheila buy for herself?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "39565579_11_what-did-sheila-buy-fo.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 50.png",
+          "Asset 55.png",
+          "brush.png",
+          "Asset 49.png"
+        ],
+        "ReiterationAudioName": "39565579_12_brush.mp3",
+        "CorrectAudioName": "positive_5.mp3",
+        "WrongAudioName": "negative_5.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "What was the last thing they needed to buy?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "39565579_13_what-was-the-last-thin.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "shampoo.png",
+          "Asset 46.png",
+          "Asset 47.png",
+          "Asset 43.png"
+        ],
+        "ReiterationAudioName": "39565579_14_shampoo.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Where did Sheila look for the shampoo? ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "39565579_15_where-did-sheila-look-.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 54.png",
+          "shelves.png",
+          "Asset 53.png",
+          "Asset 52.png"
+        ],
+        "ReiterationAudioName": "39565579_16_shelves.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": " Identify a word that begins with the sound 'sh' ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identify a word that begins with the sound sh.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 40.png",
+          "Asset 41.png",
+          "Asset 42.png",
+          "shop.png"
+        ],
+        "ReiterationAudioName": "39565579_18_shop.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_3.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Select the word that ends with the sound 'sh'",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Select the word that ends with the sound sh.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "fish.png",
+          "Asset 38.png",
+          "Asset 39.png",
+          "shop.png"
+        ],
+        "ReiterationAudioName": "39565579_20_fish.mp3",
+        "CorrectAudioName": "positive_5.mp3",
+        "WrongAudioName": "negative_5.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

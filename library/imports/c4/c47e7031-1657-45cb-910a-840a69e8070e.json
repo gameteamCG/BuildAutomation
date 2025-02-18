@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shelves",
+    "texture": "053e53bd-feec-4d39-a06d-6d2ae0a6b969",
+    "atlas": "",
+    "rect": [
+      59,
+      14,
+      132,
+      216
+    ],
+    "offset": [
+      -0.5,
+      3.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
