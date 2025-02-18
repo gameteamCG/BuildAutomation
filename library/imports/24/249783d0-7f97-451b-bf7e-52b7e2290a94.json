@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ones and tens puzzle",
+    "texture": "c70e2518-cc30-41fb-be6b-4c22a2597423",
+    "atlas": "",
+    "rect": [
+      0,
+      7,
+      866,
+      349
+    ],
+    "offset": [
+      -6.5,
+      -2.5
+    ],
+    "originalSize": [
+      879,
+      358
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
