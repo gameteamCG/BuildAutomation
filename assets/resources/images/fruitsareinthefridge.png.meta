@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "62010365-3b1c-4ce0-9593-4247f27a2aa6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "fruitsareinthefridge": {
+      "ver": "1.0.6",
+      "uuid": "7eaf7257-35a3-4fea-8c53-14d513b82353",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "62010365-3b1c-4ce0-9593-4247f27a2aa6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -3,
+      "trimX": 36,
+      "trimY": 8,
+      "width": 429,
+      "height": 490,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
