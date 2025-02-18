@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0009_bride",
+    "texture": "2bd32f19-c528-4a1d-bd45-0fe5d55000bb",
+    "atlas": "",
+    "rect": [
+      81,
+      42,
+      88,
+      190
+    ],
+    "offset": [
+      0,
+      -12
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

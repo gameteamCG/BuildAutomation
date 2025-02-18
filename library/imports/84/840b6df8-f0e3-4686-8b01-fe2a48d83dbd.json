@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0004_hose",
+    "texture": "1a4ade12-4b90-4acc-acca-79fa9bda6ad4",
+    "atlas": "",
+    "rect": [
+      11,
+      38,
+      229,
+      174
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
