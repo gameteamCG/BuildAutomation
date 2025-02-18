@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "29c862b1-0c33-49bc-a336-1901418bf605",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 879,
+  "height": 358,
+  "platformSettings": {},
+  "subMetas": {
+    "ones and tens puzzle.png": {
+      "ver": "1.0.6",
+      "uuid": "adcb3163-e384-4fc0-8ed4-e283f9fa13ba",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "29c862b1-0c33-49bc-a336-1901418bf605",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -6.5,
+      "offsetY": -2.5,
+      "trimX": 0,
+      "trimY": 7,
+      "width": 866,
+      "height": 349,
+      "rawWidth": 879,
+      "rawHeight": 358,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
