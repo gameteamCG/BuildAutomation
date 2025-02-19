@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "20_wheelchair",
+    "texture": "1debd3f2-e32f-44f0-a30b-9bf13d6c764d",
+    "atlas": "",
+    "rect": [
+      54,
+      43,
+      191,
+      213
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dryer",
+    "texture": "02d89159-8127-4bee-a1bb-7e6bc0d2af52",
+    "atlas": "",
+    "rect": [
+      50,
+      47,
+      200,
+      205
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

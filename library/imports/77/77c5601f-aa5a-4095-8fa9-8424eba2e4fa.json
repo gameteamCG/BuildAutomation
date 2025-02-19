@@ -1,0 +1,176 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "My Neighbourhood _LKG_GA_50",
+      "totalLevel": "7",
+      "TitleImageName": "title.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM_cooking.mp3",
+      "mainBgName": "Bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "places in my neighborhood",
+        "questionAudioName": "Q_Places_in_my_neighbourhood.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option_panel.png",
+        "commonDropNodeImageName": "commonimg.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "1_police_station.png",
+          "2_hospital.png"
+        ],
+        "reiterationAudios": [
+          "police_car_is_found_at_police_station.mp3",
+          "wheelchair_is_found_at_the_hospital.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "policecar.png",
+          "20_wheelchair.png",
+          "cakes.png"
+        ]
+      },
+      {
+        "questionText": "places in my neighborhood",
+        "questionAudioName": "Q_Places_in_my_neighbourhood.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option_panel.png",
+        "commonDropNodeImageName": "commonimg.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "3_railway_station.png",
+          "4_park.png"
+        ],
+        "reiterationAudios": [
+          "train_is_found_at_railway_station.mp3",
+          "slide_is_found_in_the_park.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "train.png",
+          "slide.png",
+          "handcuffs.png"
+        ]
+      },
+      {
+        "questionText": "places in my neighborhood",
+        "questionAudioName": "Q_Places_in_my_neighbourhood.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option_panel.png",
+        "commonDropNodeImageName": "commonimg.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "5_firestation.png",
+          "6_supermarket.png"
+        ],
+        "reiterationAudios": [
+          "Fire_extinguisher_is_found_at_fire_station.mp3",
+          "Shopping_cart_is_found_at_market.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "fire_extinguisher.png",
+          "shopping_cart.png",
+          "rollercoaster.png"
+        ]
+      },
+      {
+        "questionText": "places in my neighborhood",
+        "questionAudioName": "Q_Places_in_my_neighbourhood.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option_panel.png",
+        "commonDropNodeImageName": "commonimg.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "7_library.png",
+          "8_bakery.png"
+        ],
+        "reiterationAudios": [
+          "books_are_found_at_library.mp3",
+          "cakes_are_found_at_bakery.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "Books.png",
+          "cakes.png",
+          "dryer.png"
+        ]
+      },
+      {
+        "questionText": "places in my neighborhood",
+        "questionAudioName": "Q_Places_in_my_neighbourhood.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option_panel.png",
+        "commonDropNodeImageName": "commonimg.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "",
+          ""
+        ],
+        "reiterationAudios": [
+          "",
+          ""
+        ],
+        "numberOfOptions": null,
+        "isOptionText": false,
+        "options": []
+      },
+      {
+        "questionText": "places in my neighborhood",
+        "questionAudioName": "Q_Places_in_my_neighbourhood.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option_panel.png",
+        "commonDropNodeImageName": "commonimg.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "11_amusement_park.png",
+          "12_airport.png"
+        ],
+        "reiterationAudios": [
+          "rides_are_found_at_amusement_park.mp3",
+          "aeroplane_is_found_at_airport.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "rollercoaster.png",
+          "aeroplane.png",
+          "policecar.png"
+        ]
+      },
+      {
+        "questionText": "places in my neighborhood",
+        "questionAudioName": "Q_Places_in_my_neighbourhood.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option_panel.png",
+        "commonDropNodeImageName": "commonimg.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "13_resturant.png",
+          "14_barber.png"
+        ],
+        "reiterationAudios": [
+          "Plates_and_bowls_are_found_at_restaurant.mp3",
+          "Hair_dryer_is_found_at_barber_shop.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "Plates_and_bowls.png",
+          "dryer.png",
+          "policecar.png"
+        ]
+      }
+    ]
+  }
+}
