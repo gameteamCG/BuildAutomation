@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "data handling pictograph",
+    "texture": "8db077d1-57e0-477f-81f4-494692c27e0a",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      666,
+      97
+    ],
+    "offset": [
+      -5.5,
+      1
+    ],
+    "originalSize": [
+      685,
+      113
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
