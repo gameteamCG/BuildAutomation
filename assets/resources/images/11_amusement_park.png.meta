@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4d518eed-20ad-4be2-a757-da0675236849",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 249,
+  "height": 255,
+  "platformSettings": {},
+  "subMetas": {
+    "11_amusement_park": {
+      "ver": "1.0.6",
+      "uuid": "28b62e72-6847-4bd5-99fe-9fae422787a8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4d518eed-20ad-4be2-a757-da0675236849",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 249,
+      "height": 255,
+      "rawWidth": 249,
+      "rawHeight": 255,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
