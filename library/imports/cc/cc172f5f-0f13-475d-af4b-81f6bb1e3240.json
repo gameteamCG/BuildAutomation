@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grepes",
+    "texture": "c24bbc44-0897-4ec8-ba97-b71a5624bd78",
+    "atlas": "",
+    "rect": [
+      34,
+      30,
+      430,
+      417
+    ],
+    "offset": [
+      -1.5,
+      12
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

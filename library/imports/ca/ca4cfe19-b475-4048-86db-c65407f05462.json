@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grill2",
+    "texture": "63e0d6fa-39a0-4cc9-92c1-f0380d72ed4a",
+    "atlas": "",
+    "rect": [
+      62,
+      87,
+      124,
+      66
+    ],
+    "offset": [
+      -1.5,
+      5.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
