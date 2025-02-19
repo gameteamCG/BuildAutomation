@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6cfda9de-e45a-4321-9e6e-63d7bbc2a062",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 506,
+  "height": 358,
+  "platformSettings": {},
+  "subMetas": {
+    "Jumbo says_2": {
+      "ver": "1.0.6",
+      "uuid": "bacafe55-a3ac-4de9-a505-1a63d0fed2ff",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6cfda9de-e45a-4321-9e6e-63d7bbc2a062",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -2.5,
+      "trimX": 17,
+      "trimY": 7,
+      "width": 471,
+      "height": 349,
+      "rawWidth": 506,
+      "rawHeight": 358,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

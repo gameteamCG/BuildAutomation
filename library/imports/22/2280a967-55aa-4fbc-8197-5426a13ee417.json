@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Run like a fox",
+    "texture": "0c749e66-b3b7-4a94-aa35-8a1a31be2a25",
+    "atlas": "",
+    "rect": [
+      141,
+      10,
+      220,
+      481
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

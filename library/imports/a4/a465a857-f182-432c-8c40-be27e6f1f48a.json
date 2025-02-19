@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Fly like an owl",
+    "texture": "b3f4952f-418a-43e5-85ae-70171bd9e90c",
+    "atlas": "",
+    "rect": [
+      68,
+      10,
+      365,
+      481
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

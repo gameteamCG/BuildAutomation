@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sit down",
+    "texture": "348833d8-c991-434d-a6cf-e00213502dcb",
+    "atlas": "",
+    "rect": [
+      125,
+      27,
+      250,
+      446
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

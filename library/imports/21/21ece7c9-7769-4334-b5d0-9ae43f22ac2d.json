@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Climb like a racoon",
+    "texture": "00382dc0-72f4-49c1-8324-1791ef955c32",
+    "atlas": "",
+    "rect": [
+      163,
+      29,
+      131,
+      443
+    ],
+    "offset": [
+      -21.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

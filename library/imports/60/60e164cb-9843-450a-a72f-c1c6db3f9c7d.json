@@ -1,0 +1,89 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Jumbo says",
+      "totalLevel": "10",
+      "TitleImageName": "Jumbo says_2.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "o Jumbo says – Stand up",
+        "questionImageName": "Stand up.png",
+        "questionAudioName": "jumbo says stand up.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "o Jumbo says – clap your hands",
+        "questionImageName": "clap your hands.png",
+        "questionAudioName": "Jumbo says clap your hands.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "o Jumbo says – walk like a crab",
+        "questionImageName": "walk like a crab.png",
+        "questionAudioName": "Jumbo says walk like a crab.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "o Jumbo says – Run like a fox",
+        "questionImageName": "Run like a fox.png",
+        "questionAudioName": "Jumbo says Run like a fox.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "o Jumbo says – Fly like an owl",
+        "questionImageName": "Fly like an owl.png",
+        "questionAudioName": "Jumbo says Fly like an owl.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "o Jumbo says – Spin like a spider",
+        "questionImageName": "Spin like a spider.png",
+        "questionAudioName": "Jumbo says Spin like a spider.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "o Jumbo says – Climb like a racoon",
+        "questionImageName": "Climb like a racoon.png",
+        "questionAudioName": "Jumbo says Climb like a racoon.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "o Jumbo says – waddle like a penguin",
+        "questionImageName": "waddle like a penguin.png",
+        "questionAudioName": "Jumbo says waddle like a penguin.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "o Jumbo says – Stop",
+        "questionImageName": "Stop.png",
+        "questionAudioName": "Jumbo says Stop.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "o Jumbo says – Sit down",
+        "questionImageName": "Sit down.png",
+        "questionAudioName": "Jumbo says Sit down.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      }
+    ]
+  }
+}

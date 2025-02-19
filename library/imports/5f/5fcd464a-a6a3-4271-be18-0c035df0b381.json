@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "clap your hands",
+    "texture": "28397f05-a517-497c-b832-8388c86c9fde",
+    "atlas": "",
+    "rect": [
+      117,
+      16,
+      266,
+      470
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
