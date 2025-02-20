@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "AaQue",
+    "texture": "b729103a-a288-4233-8bac-72f207c1bbbb",
+    "atlas": "",
+    "rect": [
+      92,
+      131,
+      321,
+      225
+    ],
+    "offset": [
+      2,
+      7
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
