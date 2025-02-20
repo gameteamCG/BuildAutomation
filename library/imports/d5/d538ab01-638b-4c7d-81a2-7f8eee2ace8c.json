@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lettersandsoundsIi",
+    "texture": "f8650208-12fb-4d24-a343-c7a53a026ea8",
+    "atlas": "",
+    "rect": [
+      21,
+      7,
+      580,
+      191
+    ],
+    "offset": [
+      9,
+      1.5
+    ],
+    "originalSize": [
+      604,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
