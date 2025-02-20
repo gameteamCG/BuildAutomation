@@ -1,0 +1,171 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Nursery_SB3_Language_10: Letters and sounds Oo",
+      "totalLevel": "6",
+      "TitleImageName": "title.png",
+      "introBgName": "NUR.png",
+      "bgmMusicName": "BGM.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Bg1.png",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "B",
+          "O",
+          "O",
+          "C"
+        ],
+        "optionsBg": [
+          "L1-1.png",
+          "L1-2.png",
+          "L1-3.png",
+          "L1-4.png"
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "wrongAudioName": "negative_1.mp3",
+        "reiterationAudioName": [
+          "R1-R3-R5.mp3",
+          "R1-R3-R5.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Bg1.png",
+        "questionAudioName": "L2-L4-L6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "L2-1.png",
+          "L2-3.png",
+          "L2-5.png"
+        ],
+        "optionsBg": [
+          "optionpanel.png",
+          "optionpanel.png",
+          "optionpanel.png"
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "wrongAudioName": "negative_1.mp3",
+        "reiterationAudioName": [
+          "R2.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Bg1.png",
+        "questionAudioName": "L3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "O",
+          "B",
+          "M",
+          "O"
+        ],
+        "optionsBg": [
+          "L3-1.png",
+          "L3-1.png",
+          "L3-1.png",
+          "L3-1.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "wrongAudioName": "negative_1.mp3",
+        "reiterationAudioName": [
+          "R1-R3-R5.mp3",
+          "R1-R3-R5.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Bg1.png",
+        "questionAudioName": "L2-L4-L6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "L4-1.png",
+          "L4-3.png",
+          "L4-5.png"
+        ],
+        "optionsBg": [
+          "optionpanel.png",
+          "optionpanel.png",
+          "optionpanel.png"
+        ],
+        "correctAudioName": "positive_4.mp3",
+        "wrongAudioName": "negative_2.mp3",
+        "reiterationAudioName": [
+          "R4.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "L5-Bg2.png",
+        "questionAudioName": "L5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "Oo",
+          "Cc",
+          "Oo",
+          "Zz"
+        ],
+        "optionsBg": [
+          "L5-1.png",
+          "L5-1.png",
+          "L5-1.png",
+          "L5-1.png"
+        ],
+        "correctAudioName": "positive_5.mp3",
+        "wrongAudioName": "negative_1.mp3",
+        "reiterationAudioName": [
+          "R1-R3-R5.mp3",
+          "R1-R3-R5.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Bg1.png",
+        "questionAudioName": "L2-L4-L6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "L6-1.png",
+          "L6-3.png",
+          "L6-5.png"
+        ],
+        "optionsBg": [
+          "optionpanel.png",
+          "optionpanel.png",
+          "optionpanel.png"
+        ],
+        "correctAudioName": "positive_6.mp3",
+        "wrongAudioName": "negative_2.mp3",
+        "reiterationAudioName": [
+          "R6.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
