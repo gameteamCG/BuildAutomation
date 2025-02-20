@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "insect2",
+    "texture": "2492376d-805f-4d2b-9176-7b2a2cbb6d6d",
+    "atlas": "",
+    "rect": [
+      41,
+      49,
+      168,
+      152
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
