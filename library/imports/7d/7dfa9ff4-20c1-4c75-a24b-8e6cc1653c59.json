@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Before, after, and in between_Grade 2 (Math)",
+      "totalLevel": "8",
+      "TitleImageName": "Asset 26.png",
+      "introBgName": "Bg (1).png",
+      "bgmMusicName": "BGM1302225.mp3",
+      "mainBgName": "bg (2).png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "(543, ___, 545)",
+        "questionAudioName": "p_39708946_146.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "543",
+          "544",
+          "546"
+        ],
+        "correctAudios": [
+          "544.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "(___, 127, 128)",
+        "questionAudioName": "p_39708946_146.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "126",
+          "125",
+          "129"
+        ],
+        "correctAudios": [
+          "126.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "(344, ___, 346)",
+        "questionAudioName": "p_39708946_146.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "344",
+          "347",
+          "345"
+        ],
+        "correctAudios": [
+          "345.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "(___, 262, 263)",
+        "questionAudioName": "p_39708946_146.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "266",
+          "260",
+          "261"
+        ],
+        "correctAudios": [
+          "261.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "(421, 422, ___)",
+        "questionAudioName": "p_39708946_146.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "421",
+          "423",
+          "466"
+        ],
+        "correctAudios": [
+          "423.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "(648, ___, 650) ",
+        "questionAudioName": "p_39708946_146.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "650",
+          "649",
+          "659"
+        ],
+        "correctAudios": [
+          "649.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "(___, 198, 199)",
+        "questionAudioName": "p_39708946_146.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "197",
+          "152",
+          "132"
+        ],
+        "correctAudios": [
+          "197.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "(783, 784, ___) ",
+        "questionAudioName": "p_39708946_146.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "720",
+          "766",
+          "785"
+        ],
+        "correctAudios": [
+          "785.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
