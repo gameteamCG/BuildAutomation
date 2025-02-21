@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "identify nocturnal animals",
+    "texture": "80bb8b92-a2c9-4f64-a111-e1e3cae521ec",
+    "atlas": "",
+    "rect": [
+      1,
+      5,
+      1113,
+      261
+    ],
+    "offset": [
+      -4.5,
+      16
+    ],
+    "originalSize": [
+      1124,
+      303
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

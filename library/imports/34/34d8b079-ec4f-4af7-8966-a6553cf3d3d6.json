@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "raccon",
+    "texture": "f79ce202-45cd-4c96-b49b-d3bbf2ab9bee",
+    "atlas": "",
+    "rect": [
+      71,
+      70,
+      360,
+      360
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

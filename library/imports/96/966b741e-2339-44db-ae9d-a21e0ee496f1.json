@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "moth",
+    "texture": "2f394c66-3397-4f5a-b209-e16e6f0e84db",
+    "atlas": "",
+    "rect": [
+      71,
+      70,
+      359,
+      360
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

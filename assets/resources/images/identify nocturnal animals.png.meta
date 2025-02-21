@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "80bb8b92-a2c9-4f64-a111-e1e3cae521ec",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1124,
+  "height": 303,
+  "platformSettings": {},
+  "subMetas": {
+    "identify nocturnal animals": {
+      "ver": "1.0.6",
+      "uuid": "40edd8f2-337a-4396-a60a-ead8897a5418",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "80bb8b92-a2c9-4f64-a111-e1e3cae521ec",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -4.5,
+      "offsetY": 16,
+      "trimX": 1,
+      "trimY": 5,
+      "width": 1113,
+      "height": 261,
+      "rawWidth": 1124,
+      "rawHeight": 303,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
