@@ -1,0 +1,133 @@
+{
+  "additionalData": {
+    "GameID": "identify nocturnal animals",
+    "totalLevel": "7",
+    "TitleImageName": "identify nocturnal animals.png",
+    "introBgName": "BG (1) (1).png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Podar",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "identify nocturnal animals",
+      "questionAudioName": "identify the nocturnal animal.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 15.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "bat.png",
+        "Asset 8.png"
+      ],
+      "correctAudios": [
+        "28244811_7_bat.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "identify nocturnal animals",
+      "questionAudioName": "identify the nocturnal animal.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 15.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "cockroach.png",
+        "Asset 9.png"
+      ],
+      "correctAudios": [
+        "cockroach.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "identify nocturnal animals",
+      "questionAudioName": "identify the nocturnal animal.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 15.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "firefly.png",
+        "Asset 10.png"
+      ],
+      "correctAudios": [
+        "39632102_15_firefly.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "identify nocturnal animals",
+      "questionAudioName": "identify the nocturnal animal.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 15.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "moth.png",
+        "Asset 11.png"
+      ],
+      "correctAudios": [
+        "moth.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "identify nocturnal animals",
+      "questionAudioName": "identify the nocturnal animal.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 15.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 12.png",
+        "mouse.png"
+      ],
+      "correctAudios": [
+        "mouse.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "identify nocturnal animals",
+      "questionAudioName": "identify the nocturnal animal.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 15.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 13.png",
+        "owl.png"
+      ],
+      "correctAudios": [
+        "27767026_3_owl.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "identify nocturnal animals",
+      "questionAudioName": "identify the nocturnal animal.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 15.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "raccon.png",
+        "Asset 14.png"
+      ],
+      "correctAudios": [
+        "raccoon.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
