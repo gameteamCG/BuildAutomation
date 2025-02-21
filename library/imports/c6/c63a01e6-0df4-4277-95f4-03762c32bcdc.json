@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pouch_s",
+    "texture": "2ea1dc22-3804-4c5f-816d-7e6bffe37413",
+    "atlas": "",
+    "rect": [
+      117,
+      178,
+      266,
+      144
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
