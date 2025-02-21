@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "14ca3b4f-171c-4ac7-9586-c2deceb4f158",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 472,
+  "height": 357,
+  "platformSettings": {},
+  "subMetas": {
+    "Bhil puzzle_2": {
+      "ver": "1.0.6",
+      "uuid": "6c55e6a6-a8f1-4935-b4b1-d199e8fbf128",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "14ca3b4f-171c-4ac7-9586-c2deceb4f158",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -5.5,
+      "offsetY": -3,
+      "trimX": 1,
+      "trimY": 7,
+      "width": 459,
+      "height": 349,
+      "rawWidth": 472,
+      "rawHeight": 357,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
