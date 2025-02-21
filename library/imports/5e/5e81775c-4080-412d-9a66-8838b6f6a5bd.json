@@ -1,0 +1,169 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "memory game",
+      "totalLevel": "7",
+      "TitleImageName": "memory game_2.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionAudioName": "39777935_1_match-the-pictures-wit.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 8.png",
+        "frontCardImageName": "Asset 9.png",
+        "isOptionText": false,
+        "options": [
+          "Asset 1.png",
+          "Asset 2.png"
+        ],
+        "reiterationAudios": [
+          "39777935_4_mona-lisa-by-leonardo-.mp3",
+          "39777935_2_starry-night-by-van-go.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset 1.png",
+          "Asset 2.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "39777935_1_match-the-pictures-wit.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 8.png",
+        "frontCardImageName": "Asset 9.png",
+        "isOptionText": false,
+        "options": [
+          "Asset 3.png",
+          "Asset 4.png"
+        ],
+        "reiterationAudios": [
+          "39777935_3_sunflowers-by-van-gogh.mp3",
+          "39777935_5_water-lilies-by-claude.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset 3.png",
+          "Asset 4.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "39777935_1_match-the-pictures-wit.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 8.png",
+        "frontCardImageName": "Asset 9.png",
+        "isOptionText": false,
+        "options": [
+          "Asset 5.png",
+          "Asset 6.png"
+        ],
+        "reiterationAudios": [
+          "39777935_6_bani-thani-painting.mp3",
+          "39777935_7_tiger-in-a-tropical-st.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset 5.png",
+          "Asset 6.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "39777935_1_match-the-pictures-wit.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 8.png",
+        "frontCardImageName": "Asset 9.png",
+        "isOptionText": false,
+        "options": [
+          "Asset 1.png",
+          "Asset 7.png"
+        ],
+        "reiterationAudios": [
+          "39777935_4_mona-lisa-by-leonardo-.mp3",
+          "39777935_8_peit-mondrain-gond-art.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset 1.png",
+          "Asset 7.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "39777935_1_match-the-pictures-wit.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 8.png",
+        "frontCardImageName": "Asset 9.png",
+        "isOptionText": false,
+        "options": [
+          "Asset 4.png",
+          "Asset 2.png"
+        ],
+        "reiterationAudios": [
+          "39777935_5_water-lilies-by-claude.mp3",
+          "39777935_2_starry-night-by-van-go.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset 4.png",
+          "Asset 2.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "39777935_1_match-the-pictures-wit.mp3",
+        "shouldPlayQuestionAudio": false,
+        "backCardImageName": "Asset 8.png",
+        "frontCardImageName": "Asset 9.png",
+        "isOptionText": false,
+        "options": [
+          "Asset 3.png",
+          "Asset 6.png"
+        ],
+        "reiterationAudios": [
+          "39777935_3_sunflowers-by-van-gogh.mp3",
+          "39777935_7_tiger-in-a-tropical-st.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset 3.png",
+          "Asset 6.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "39777935_1_match-the-pictures-wit.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 8.png",
+        "frontCardImageName": "Asset 9.png",
+        "isOptionText": false,
+        "options": [
+          "Asset 7.png",
+          "Asset 1.png",
+          "Asset 2.png"
+        ],
+        "reiterationAudios": [
+          "39777935_8_peit-mondrain-gond-art.mp3",
+          "39777935_4_mona-lisa-by-leonardo-.mp3",
+          "39777935_2_starry-night-by-van-go.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset 7.png",
+          "Asset 1.png",
+          "Asset 2.png"
+        ]
+      }
+    ]
+  }
+}
