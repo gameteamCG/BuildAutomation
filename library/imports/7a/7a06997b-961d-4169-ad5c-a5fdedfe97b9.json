@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "smart2",
+    "texture": "b9d99f7f-f250-460a-8a78-91a219d341de",
+    "atlas": "",
+    "rect": [
+      49,
+      92,
+      152,
+      49
+    ],
+    "offset": [
+      0,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
