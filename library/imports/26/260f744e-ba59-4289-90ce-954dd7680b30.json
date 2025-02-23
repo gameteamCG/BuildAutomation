@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flok",
+    "texture": "b7d96002-ff8a-40c6-baa9-87200fedba5f",
+    "atlas": "",
+    "rect": [
+      28,
+      3,
+      194,
+      243
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
