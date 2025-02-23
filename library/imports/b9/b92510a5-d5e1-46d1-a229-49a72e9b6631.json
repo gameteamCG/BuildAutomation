@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "skier",
+    "texture": "e2af6148-c3bb-4335-91e4-3c8422375de4",
+    "atlas": "",
+    "rect": [
+      65,
+      92,
+      120,
+      49
+    ],
+    "offset": [
+      0,
+      8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
