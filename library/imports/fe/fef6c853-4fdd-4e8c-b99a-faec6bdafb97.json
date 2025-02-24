@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "heart",
+    "texture": "3e6d37c5-5557-42f5-995a-b2b94981f19a",
+    "atlas": "",
+    "rect": [
+      10,
+      25,
+      227,
+      199
+    ],
+    "offset": [
+      -1.5,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
