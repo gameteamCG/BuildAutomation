@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "91a91d47-a489-4c36-8f58-1d16ec387d2a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0001_500x500_0000_violin": {
+      "ver": "1.0.6",
+      "uuid": "3f7faff5-0395-4bca-a6f7-b520c8a51f4c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "91a91d47-a489-4c36-8f58-1d16ec387d2a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -0.5,
+      "trimX": 31,
+      "trimY": 54,
+      "width": 437,
+      "height": 393,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
