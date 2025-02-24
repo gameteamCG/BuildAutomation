@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_500x500_0000_violins",
+    "texture": "ccd59762-c725-47ed-bac8-0f6e0b891f63",
+    "atlas": "",
+    "rect": [
+      31,
+      54,
+      437,
+      393
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

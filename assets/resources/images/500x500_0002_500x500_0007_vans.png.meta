@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6e9fda80-14d2-4735-b21f-a710153d28c3",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0002_500x500_0007_vans": {
+      "ver": "1.0.6",
+      "uuid": "bd7cd5de-d7e8-4d9d-97fc-a0a59d57d718",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6e9fda80-14d2-4735-b21f-a710153d28c3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 17,
+      "trimY": 151,
+      "width": 466,
+      "height": 199,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
