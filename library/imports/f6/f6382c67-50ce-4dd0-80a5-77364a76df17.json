@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Recap: Numbers 1-5_NUR_SB3_38",
+      "totalLevel": "5",
+      "TitleImageName": "Asset 88.png",
+      "introBgName": "NUR_BG.png",
+      "bgmMusicName": "BGM 3-.mp3",
+      "mainBgName": "Asset 7 (2).png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Count the set of object as per the given number",
+        "questionAudioName": "Count the set of object as per the given number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 6 (1).png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "wand 3.png",
+          "Asset 11.png"
+        ],
+        "correctAudios": [
+          "1-magic-vond.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Count the set of object as per the given number",
+        "questionAudioName": "Count the set of object as per the given number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 6 (1).png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 13.png",
+          "Asset 14.png"
+        ],
+        "correctAudios": [
+          "3-crystal-balls.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Count the set of object as per the given number",
+        "questionAudioName": "Count the set of object as per the given number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 6 (1).png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 17.png",
+          "Asset 18.png"
+        ],
+        "correctAudios": [
+          "2-magic-books.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Count the set of object as per the given number",
+        "questionAudioName": "Count the set of object as per the given number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 6 (1).png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 10.png",
+          "Asset 9.png"
+        ],
+        "correctAudios": [
+          "4-magic-hats.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Count the set of object as per the given number",
+        "questionAudioName": "Count the set of object as per the given number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 6 (1).png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 15.png",
+          "Asset 16.png"
+        ],
+        "correctAudios": [
+          "5-flasks.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
