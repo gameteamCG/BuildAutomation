@@ -1,0 +1,150 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letters and sounds Vv_LKG_SB3_12",
+      "totalLevel": "5",
+      "TitleImageName": "Asset101.png",
+      "introBgName": "jrkg.png",
+      "bgmMusicName": "bgmpattern.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "BG1.png",
+        "questionAudioName": "v.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "250x250_0009_500x500_0011_pumpkin.png",
+          "250x250_0007_500x500_0008_top.png",
+          "250x250_0010_500x500_0013_lime.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "L3correct.mp3",
+        "wrongAudioName": "no.mp3",
+        "reiterationAudioName": [
+          "soundofv.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "BG2.png",
+        "questionAudioName": "Taponthebirdbeginningwithlettersoundvvv.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "250x250_0002_500x500_0018_bluejay.png",
+          "250x250_0005_500x500_0015_crow.png",
+          "250x250_0000_500x500_0020_vulture.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "L1correct.mp3",
+        "wrongAudioName": "ns.mp3",
+        "reiterationAudioName": [
+          "VVULTURE.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "BG3.png",
+        "questionAudioName": "Taponallthevestwithlettersoundvvv.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "250x250_0012_500x500_0004_vest-D.png",
+          "250x250_0013_500x500_0003_vest-G.png",
+          "250x250_0014_500x500_0002_vest-V.png",
+          "250x250_0011_500x500_0005_vestA.png",
+          "250x250_0015_500x500_0001_vest-V2.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "l6correct.mp3",
+        "wrongAudioName": "nu.mp3",
+        "reiterationAudioName": [
+          "soundofv.mp3"
+        ],
+        "correctAnswerNum": "35"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG4.png",
+        "questionAudioName": "TaponalltheobjectsstartingwithLettersoundvvv.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "500x500_0002_500x500_0007_van.png.png",
+          "500x500_0004_500x500_0014_hut.png",
+          "500x500_0006_500x500_0010_strawberry.png",
+          "500x500_0001_500x500_0000_violin.png",
+          "500x500_0008_500x500_0006_vase.png"
+        ],
+        "optionsBg": [
+          "500x500_0002_500x500_0007_vans.png.png",
+          "500x500_0004_500x500_0014_huts.png",
+          "500x500_0006_500x500_0010_strawberrys.png",
+          "500x500_0001_500x500_0000_violins.png",
+          "500x500_0008_500x500_0006_vases.png"
+        ],
+        "correctAudioName": "l4correct.mp3",
+        "wrongAudioName": "ns.mp3",
+        "reiterationAudioName": [
+          "van.mp3",
+          "Violin.mp3",
+          "VASE.mp3"
+        ],
+        "correctAnswerNum": "145"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "BG5.png",
+        "questionAudioName": "TaponallthevegetableswithletterV.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "250x250_0008_500x500_0012_orange.png",
+          "250x250_0001_500x500_0019_banana.png",
+          "250x250_0004_500x500_0016_carrot.png",
+          "250x250_0010_500x500_0013_lime2.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "L2Correct.mp3",
+        "wrongAudioName": "no.mp3",
+        "reiterationAudioName": [
+          "soundofv.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}

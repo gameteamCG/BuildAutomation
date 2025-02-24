@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0000_500x500_0020_vulture",
+    "texture": "e847833b-3c4d-4948-bf21-c0e2b8405cef",
+    "atlas": "",
+    "rect": [
+      73,
+      17,
+      156,
+      271
+    ],
+    "offset": [
+      1,
+      -2.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

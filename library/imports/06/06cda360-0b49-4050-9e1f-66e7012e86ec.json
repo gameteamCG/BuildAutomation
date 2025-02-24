@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0002_500x500_0018_bluejay",
+    "texture": "8d21689d-8c98-4205-a39e-16106580e71d",
+    "atlas": "",
+    "rect": [
+      25,
+      11,
+      237,
+      276
+    ],
+    "offset": [
+      -6.5,
+      1
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
