@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "smblend",
+    "texture": "a8399049-c1fd-476d-b74c-1af4a2cca9f5",
+    "atlas": "",
+    "rect": [
+      2,
+      7,
+      533,
+      97
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      539,
+      112
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
