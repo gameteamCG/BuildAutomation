@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "policecar",
+    "texture": "3ed7a943-45b0-4fda-a132-395bd4c41aea",
+    "atlas": "",
+    "rect": [
+      12,
+      45,
+      226,
+      105
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      195
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
