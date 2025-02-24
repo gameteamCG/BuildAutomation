@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "fd455e5e-9b67-45cb-ad85-3c2e8780ffc3",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 300,
+  "height": 300,
+  "platformSettings": {},
+  "subMetas": {
+    "rollercoaster": {
+      "ver": "1.0.6",
+      "uuid": "915de466-6773-4afc-8944-1aa347dacc6f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "fd455e5e-9b67-45cb-ad85-3c2e8780ffc3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 28,
+      "trimY": 63,
+      "width": 244,
+      "height": 173,
+      "rawWidth": 300,
+      "rawHeight": 300,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
