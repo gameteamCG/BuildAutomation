@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Plates_and_bowls",
+    "texture": "85653951-4fb1-457b-a323-fc23b5ad14e1",
+    "atlas": "",
+    "rect": [
+      30,
+      79,
+      240,
+      142
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
