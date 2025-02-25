@@ -1,0 +1,113 @@
+{
+  "AdditionalData": {
+    "GameID": "letter Qq",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Q_Story_1740481496866.mp4",
+    "TitleImageName": "letter Qq.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "BG (1) (1).png",
+    "JockeyName": "Podar",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Who was Queenie?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "39701164_15_who-was-queenie.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "1_1.png",
+        "Asset 13.png",
+        "Asset 14.png",
+        "Asset 15.png"
+      ],
+      "ReiterationAudioName": "39701164_16_girl.mp3",
+      "CorrectAudioName": "positive_1.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Where did the girl live?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "39701164_17_where-did-the-girl-liv.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset 16.png",
+        "2_1.png",
+        "Asset 17.png",
+        "Asset 18.png"
+      ],
+      "ReiterationAudioName": "39701164_18_queensland.mp3",
+      "CorrectAudioName": "positive_2.mp3",
+      "WrongAudioName": "negative_2.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "After wearing the dress and crown whom did Queenie look like?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "39701164_19_after-wearing-the-dres.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset 19.png",
+        "Asset 20.png",
+        "3_1.png",
+        "Asset 21.png"
+      ],
+      "ReiterationAudioName": "39701164_20_queen.mp3",
+      "CorrectAudioName": "positive_3.mp3",
+      "WrongAudioName": "negative_3.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "What did mummy buy from the market?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "39701164_21_what-did-mummy-buy-fro.mp3",
+      "PlayQuestionAudio": false,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset 22.png",
+        "Asset 23.png",
+        "Asset 24.png",
+        "4_1.png"
+      ],
+      "ReiterationAudioName": "39701164_22_quilt.mp3",
+      "CorrectAudioName": "positive_4.mp3",
+      "WrongAudioName": "negative_4.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Which bird did Queenie see?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "39701164_23_which-bird-did-queenie.mp3",
+      "PlayQuestionAudio": false,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "5_1.png",
+        "Asset 25.png",
+        "Asset 26.png",
+        "Asset 27.png"
+      ],
+      "ReiterationAudioName": "39701164_24_quail.mp3",
+      "CorrectAudioName": "positive_5.mp3",
+      "WrongAudioName": "negative_5.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
