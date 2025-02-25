@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "letter Qq",
+    "texture": "9ce3cd3a-7635-40b8-8782-88bbb9564146",
+    "atlas": "",
+    "rect": [
+      1,
+      8,
+      684,
+      168
+    ],
+    "offset": [
+      -8,
+      -3.5
+    ],
+    "originalSize": [
+      702,
+      177
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
