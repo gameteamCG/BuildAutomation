@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jharnabw",
+    "texture": "821dc85e-2d6e-49ff-80ad-d484d9f66802",
+    "atlas": "",
+    "rect": [
+      27,
+      14,
+      196,
+      223
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

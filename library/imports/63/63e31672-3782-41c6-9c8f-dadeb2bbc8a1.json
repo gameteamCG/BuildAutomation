@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chatta",
+    "texture": "97a37a33-53e6-4705-a6dc-faae9e485a44",
+    "atlas": "",
+    "rect": [
+      35,
+      4,
+      180,
+      243
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

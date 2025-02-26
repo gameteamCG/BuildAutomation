@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jharna",
+    "texture": "d62414d8-3f6a-4ae9-b4c8-51d81f1316a8",
+    "atlas": "",
+    "rect": [
+      27,
+      14,
+      196,
+      223
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

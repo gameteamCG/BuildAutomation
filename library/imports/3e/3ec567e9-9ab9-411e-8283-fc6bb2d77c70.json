@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gharbw",
+    "texture": "37fa85bb-b8ef-46a9-8c75-d89743be3ad1",
+    "atlas": "",
+    "rect": [
+      19,
+      39,
+      214,
+      173
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

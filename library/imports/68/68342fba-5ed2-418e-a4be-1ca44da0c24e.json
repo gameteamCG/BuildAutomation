@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fishbw",
+    "texture": "9b87e2c4-8c90-4376-bd5a-c4444d80b9fe",
+    "atlas": "",
+    "rect": [
+      12,
+      26,
+      226,
+      199
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

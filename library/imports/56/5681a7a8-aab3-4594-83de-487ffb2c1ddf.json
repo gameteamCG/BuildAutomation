@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chattabw",
+    "texture": "0f3391fd-fabe-42f7-8e43-6de904437a1e",
+    "atlas": "",
+    "rect": [
+      35,
+      4,
+      180,
+      243
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

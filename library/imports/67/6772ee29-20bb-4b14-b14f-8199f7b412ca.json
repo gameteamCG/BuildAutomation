@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rathbw",
+    "texture": "da849c74-a4bf-4a35-9276-edebb0d074b4",
+    "atlas": "",
+    "rect": [
+      13,
+      53,
+      225,
+      145
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
