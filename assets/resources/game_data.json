@@ -1,0 +1,180 @@
+{
+  "additionalData": {
+    "GameID": "पहला अक्षर_LKG_14",
+    "totalLevel": "7",
+    "TitleImageName": "title.png",
+    "introBgName": "d.png",
+    "bgmMusicName": "bgm.mp3",
+    "JockeyName": "hindi"
+  },
+  "questionData": [
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "bg.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "rabbit.png",
+        "jharna.png",
+        "apple.png"
+      ],
+      "optionsBg": [
+        "rabbitbw.png",
+        "jharnabw.png",
+        "applebw.png"
+      ],
+      "correctAudioName": "1.mp3",
+      "wrongAudioName": "11.mp3",
+      "reiterationAudioName": [
+        "kharghosh.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "bg.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "fish.png",
+        "something.png",
+        "dog.png"
+      ],
+      "optionsBg": [
+        "fishbw.png",
+        "somethingbw.png",
+        "dogbw.png"
+      ],
+      "correctAudioName": "2.mp3",
+      "wrongAudioName": "22.mp3",
+      "reiterationAudioName": [
+        "charkha.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "bg.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "elephant.png",
+        "ghar.png",
+        "rath.png"
+      ],
+      "optionsBg": [
+        "elephantbw.png",
+        "gharbw.png",
+        "rathbw.png"
+      ],
+      "correctAudioName": "3.mp3",
+      "wrongAudioName": "33.mp3",
+      "reiterationAudioName": [
+        "chariot.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "bg.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "lantern.png",
+        "sun.png",
+        "tomato.png"
+      ],
+      "optionsBg": [
+        "lanternbw.png",
+        "sunbw.png",
+        "tomatobw.png"
+      ],
+      "correctAudioName": "4.mp3",
+      "wrongAudioName": "44.mp3",
+      "reiterationAudioName": [
+        "laalten.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "bg.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "chatta.png",
+        "jharna.png",
+        "ball.png"
+      ],
+      "optionsBg": [
+        "chattabw.png",
+        "jharnabw.png",
+        "ballbw.png"
+      ],
+      "correctAudioName": "5.mp3",
+      "wrongAudioName": "55.mp3",
+      "reiterationAudioName": [
+        "hive.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "bg.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "cat.png",
+        "jharna.png",
+        "apple.png"
+      ],
+      "optionsBg": [
+        "catbw.png",
+        "jharnabw.png",
+        "applebw.png"
+      ],
+      "correctAudioName": "6.mp3",
+      "wrongAudioName": "66.mp3",
+      "reiterationAudioName": [
+        "water.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "bg.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "dog.png",
+        "rabbit.png",
+        "tomato.png"
+      ],
+      "optionsBg": [
+        "dogbw.png",
+        "rabbitbw.png",
+        "tomatobw.png"
+      ],
+      "correctAudioName": "7.mp3",
+      "wrongAudioName": "77.mp3",
+      "reiterationAudioName": [
+        "tomatoo.mp3"
+      ],
+      "correctAnswerNum": "2"
+    }
+  ]
+}
