@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "s3",
+    "texture": "c0395a41-c029-4564-a457-e7963c745204",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      151,
+      156
+    ],
+    "offset": [
+      -8,
+      0
+    ],
+    "originalSize": [
+      167,
+      156
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
