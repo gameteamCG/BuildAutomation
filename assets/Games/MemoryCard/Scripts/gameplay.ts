@@ -506,6 +506,8 @@ export default class NewClass extends cc.Component {
             //     hand.getComponent(cc.Animation).play();
             // }
         }, 1.5);
+
+
     }
 
     PlayQuestionAudio() {
@@ -521,14 +523,18 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("Option").children.forEach(element => {
                 element.getComponent(cc.Button).interactable = true;
             });
-            if (globalVariables.Instance.currentLevel == 1) {
-                let hand = this.node.getChildByName("hand");
-                console.log("answer array num = ", this.answerArray[0]);
-                hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                hand.setPosition(0, -30);
-                hand.setParentWithSamePos(this.node);
-                hand.getComponent(cc.Animation).play();
-            }
+
+
+            this.scheduleOnce(() => {
+                if (globalVariables.Instance.currentLevel == 1) {
+                    let hand = this.node.getChildByName("hand");
+                    console.log("answer array num = ", this.answerArray[0]);
+                    hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
+                    hand.setPosition(0, -30);
+                    hand.setParentWithSamePos(this.node);
+                    hand.getComponent(cc.Animation).play();
+                }
+            }, 1.5);
         }
         else if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
             let intoAnim = "intro";
@@ -546,14 +552,16 @@ export default class NewClass extends cc.Component {
                     this.node.getChildByName("Option").children.forEach(element => {
                         element.getComponent(cc.Button).interactable = true;
                     });
-                    if (globalVariables.Instance.currentLevel == 1) {
-                        let hand = this.node.getChildByName("hand");
-                        console.log("answer array num = ", this.answerArray[0]);
-                        hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                        hand.setPosition(0, -30);
-                        hand.setParentWithSamePos(this.node);
-                        hand.getComponent(cc.Animation).play();
-                    }
+                    this.scheduleOnce(() => {
+                        if (globalVariables.Instance.currentLevel == 1) {
+                            let hand = this.node.getChildByName("hand");
+                            console.log("answer array num = ", this.answerArray[0]);
+                            hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
+                            hand.setPosition(0, -30);
+                            hand.setParentWithSamePos(this.node);
+                            hand.getComponent(cc.Animation).play();
+                        }
+                    }, 1.5);
                 }
                 else {
                     cc.audioEngine.playEffect(this.questionSound[0], false);
@@ -565,14 +573,16 @@ export default class NewClass extends cc.Component {
                             this.node.getChildByName("Option").children.forEach(element => {
                                 element.getComponent(cc.Button).interactable = true;
                             });
-                            if (globalVariables.Instance.currentLevel == 1) {
-                                let hand = this.node.getChildByName("hand");
-                                console.log("answer array num = ", this.answerArray[0]);
-                                hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                                hand.setPosition(0, -30);
-                                hand.setParentWithSamePos(this.node);
-                                hand.getComponent(cc.Animation).play();
-                            }
+                            this.scheduleOnce(() => {
+                                if (globalVariables.Instance.currentLevel == 1) {
+                                    let hand = this.node.getChildByName("hand");
+                                    console.log("answer array num = ", this.answerArray[0]);
+                                    hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
+                                    hand.setPosition(0, -30);
+                                    hand.setParentWithSamePos(this.node);
+                                    hand.getComponent(cc.Animation).play();
+                                }
+                            }, 1.5);
                         }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
                     }, this.questionSound[0].duration);
                 }

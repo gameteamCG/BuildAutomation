@@ -1,0 +1,153 @@
+
+des.png
+size: 2536,533
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: true
+  xy: 1068, 128
+  size: 403, 44
+  orig: 405, 46
+  offset: 1, 1
+  index: -1
+Layer 10
+  rotate: false
+  xy: 2008, 2
+  size: 174, 231
+  orig: 176, 233
+  offset: 1, 1
+  index: -1
+Layer 11
+  rotate: false
+  xy: 2184, 2
+  size: 174, 231
+  orig: 176, 233
+  offset: 1, 1
+  index: -1
+Layer 12
+  rotate: false
+  xy: 2360, 48
+  size: 174, 231
+  orig: 176, 233
+  offset: 1, 1
+  index: -1
+Layer 13
+  rotate: true
+  xy: 1206, 196
+  size: 335, 44
+  orig: 337, 46
+  offset: 1, 1
+  index: -1
+Layer 14
+  rotate: false
+  xy: 1894, 281
+  size: 188, 250
+  orig: 190, 252
+  offset: 1, 1
+  index: -1
+Layer 15
+  rotate: false
+  xy: 2084, 281
+  size: 188, 250
+  orig: 190, 252
+  offset: 1, 1
+  index: -1
+Layer 16
+  rotate: false
+  xy: 2274, 281
+  size: 188, 250
+  orig: 190, 252
+  offset: 1, 1
+  index: -1
+Layer 17
+  rotate: false
+  xy: 1704, 235
+  size: 635, 44
+  orig: 637, 46
+  offset: 1, 1
+  index: -1
+Layer 18
+  rotate: false
+  xy: 995, 26
+  size: 786, 71
+  orig: 788, 73
+  offset: 1, 1
+  index: -1
+Layer 19
+  rotate: false
+  xy: 1114, 127
+  size: 716, 66
+  orig: 718, 68
+  offset: 1, 1
+  index: -1
+Layer 2
+  rotate: false
+  xy: 108, 17
+  size: 275, 80
+  orig: 277, 82
+  offset: 1, 1
+  index: -1
+Layer 20
+  rotate: false
+  xy: 385, 25
+  size: 608, 72
+  orig: 610, 74
+  offset: 1, 1
+  index: -1
+Layer 3
+  rotate: true
+  xy: 2, 2
+  size: 529, 104
+  orig: 531, 106
+  offset: 1, 1
+  index: -1
+Layer 4
+  rotate: false
+  xy: 1704, 281
+  size: 188, 250
+  orig: 190, 252
+  offset: 1, 1
+  index: -1
+Layer 5
+  rotate: false
+  xy: 1252, 233
+  size: 224, 298
+  orig: 226, 300
+  offset: 1, 1
+  index: -1
+Layer 6
+  rotate: false
+  xy: 1832, 2
+  size: 174, 231
+  orig: 176, 233
+  offset: 1, 1
+  index: -1
+Layer 7
+  rotate: true
+  xy: 1114, 195
+  size: 336, 44
+  orig: 338, 46
+  offset: 1, 1
+  index: -1
+Layer 8
+  rotate: false
+  xy: 1478, 233
+  size: 224, 298
+  orig: 226, 300
+  offset: 1, 1
+  index: -1
+Layer 9
+  rotate: true
+  xy: 1160, 195
+  size: 336, 44
+  orig: 338, 46
+  offset: 1, 1
+  index: -1
+ele00010001
+  rotate: false
+  xy: 108, 99
+  size: 958, 432
+  orig: 960, 434
+  offset: 1, 1
+  index: -1
