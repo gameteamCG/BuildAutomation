@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rath",
+    "texture": "29c8447f-7a85-42b6-8597-34789e60e716",
+    "atlas": "",
+    "rect": [
+      13,
+      53,
+      225,
+      145
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

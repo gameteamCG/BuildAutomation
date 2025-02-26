@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dogbw",
+    "texture": "9a9b4fc7-1dc0-4384-9171-7f0910ad6e0c",
+    "atlas": "",
+    "rect": [
+      4,
+      18,
+      244,
+      215
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
