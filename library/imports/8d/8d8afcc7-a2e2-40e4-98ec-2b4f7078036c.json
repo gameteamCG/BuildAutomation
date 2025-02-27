@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tabla",
+    "texture": "05fe56f3-ecaf-4624-8682-a11d3128de28",
+    "atlas": "",
+    "rect": [
+      22,
+      128,
+      462,
+      302
+    ],
+    "offset": [
+      2.5,
+      -28.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

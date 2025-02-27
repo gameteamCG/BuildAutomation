@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tasveer",
+    "texture": "a43f9153-7ac9-4a70-9075-e59ec3b74642",
+    "atlas": "",
+    "rect": [
+      29,
+      83,
+      442,
+      328
+    ],
+    "offset": [
+      -0.5,
+      3.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
