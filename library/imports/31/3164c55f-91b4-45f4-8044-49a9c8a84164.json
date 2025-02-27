@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "taraju",
+    "texture": "7adf3cef-199c-4a1d-b21e-daaf277425fc",
+    "atlas": "",
+    "rect": [
+      29,
+      73,
+      443,
+      401
+    ],
+    "offset": [
+      0,
+      -23
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tara",
+    "texture": "5c10c6e8-642d-43f7-baca-13aa95f16e3a",
+    "atlas": "",
+    "rect": [
+      17,
+      29,
+      467,
+      444
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

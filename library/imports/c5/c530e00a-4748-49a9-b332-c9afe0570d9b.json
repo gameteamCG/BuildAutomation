@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tarbooz",
+    "texture": "3db97dbc-f2bc-48fc-b2fb-e1bd027352b6",
+    "atlas": "",
+    "rect": [
+      64,
+      41,
+      369,
+      419
+    ],
+    "offset": [
+      -2,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
