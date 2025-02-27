@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "br family words",
+    "texture": "2ed36d2f-74a4-4175-9ee3-3635fe07be8b",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      523,
+      97
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      530,
+      113
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
