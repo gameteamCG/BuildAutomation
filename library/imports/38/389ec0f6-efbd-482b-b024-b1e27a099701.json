@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Kcandy",
+    "texture": "1c548232-19f7-4e16-9131-c8f127aeac63",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      184,
+      272
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      184,
+      272
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
