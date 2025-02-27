@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500__0004_500x500_0007_clown",
+    "texture": "c683186a-76a7-42ca-a276-10069b0a93f7",
+    "atlas": "",
+    "rect": [
+      172,
+      33,
+      275,
+      430
+    ],
+    "offset": [
+      59.5,
+      2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
