@@ -1,0 +1,150 @@
+{
+  "additionalData": {
+    "GameID": "vyanjan - त",
+    "totalLevel": "8",
+    "TitleImageName": "vyanjanT.png",
+    "introBgName": "d.png",
+    "bgmMusicName": "bgm.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "hindi",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "त",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "truck.png",
+        "tabla.png"
+      ],
+      "correctAudios": [
+        "तबला.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "त",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "tairna.png",
+        "sing.png"
+      ],
+      "correctAudios": [
+        "टेरना.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "त",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "coconut.png",
+        "tala.png"
+      ],
+      "correctAudios": [
+        "ताला.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "त",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "talwar.png",
+        "kite.png"
+      ],
+      "correctAudios": [
+        "तलवार.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "त",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "corn.png",
+        "tara.png"
+      ],
+      "correctAudios": [
+        "तारा.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "त",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "egg.png",
+        "taraju.png"
+      ],
+      "correctAudios": [
+        "तराजू,.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "त",
+      "questionAudioName": "",
+      "shouldPlayQuestionAudio": false,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "tarbooz.png",
+        "slipper.png"
+      ],
+      "correctAudios": [
+        "तरबुज.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "त",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "vase.png",
+        "tasveer.png"
+      ],
+      "correctAudios": [
+        "तसवीर.mp3"
+      ],
+      "correctAnswerNum": "2"
+    }
+  ]
+}
