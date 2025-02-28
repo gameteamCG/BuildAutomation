@@ -1,5 +1,6 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -298,6 +299,7 @@ export default class NewClass extends cc.Component {
         }
         this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
         // this.currentJcokey.active = true;
+        startGame.Instance.templateType = "TapToCollect"
     }
 
     start() {
@@ -722,6 +724,7 @@ export default class NewClass extends cc.Component {
                     this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                     cc.audioEngine.playEffect(this.positiveSound[0], false);
                     this.scheduleOnce(() => {
+                        _node.getChildByName("text").setParentWithSamePos(_node.getChildByName("img"));
                         let imgScale: number = _node.getChildByName("img").scale / 2;
                         //console.log("Scale : ", imgScale);
                         let imgName: string = _node.getChildByName("img").name + this.correctAnswerCount + 1;

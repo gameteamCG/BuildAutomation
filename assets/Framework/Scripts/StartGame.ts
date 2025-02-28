@@ -374,29 +374,29 @@ export default class startGame extends cc.Component {
         cc.director.preloadScene("1");
 
         this.scheduleOnce(() => {
-            console.log("jockey name = ", this.jockeyName);
+            // console.log("jockey name = ", this.jockeyName);
 
-            if (this.jockeyName == "Podar") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
-            }
-            else if (this.jockeyName == "tlc") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("tlc").active = true;
-            }
-            else if (this.jockeyName == "supercub") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("supercub").active = true;
-            }
-            else if (this.jockeyName == "stallion") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
-            }
-            else if (this.jockeyName == "bag" || this.jockeyName == "cryon") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
-            }
+            // if (this.jockeyName == "Podar") {
+            //     cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
+            // }
+            // else if (this.jockeyName == "tlc") {
+            //     cc.find("Canvas").getChildByName("bg").getChildByName("tlc").active = true;
+            // }
+            // else if (this.jockeyName == "supercub") {
+            //     cc.find("Canvas").getChildByName("bg").getChildByName("supercub").active = true;
+            // }
+            // else if (this.jockeyName == "stallion") {
+            //     cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
+            // }
+            // else if (this.jockeyName == "bag" || this.jockeyName == "cryon") {
+            //     cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
+            // }
 
-            if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
-                this.scheduleOnce(() => {
-                    cc.director.loadScene("1");
-                }, 2);
-            }
+            // if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
+            //     this.scheduleOnce(() => {
+            //         cc.director.loadScene("1");
+            //     }, 2);
+            // }
         }, 1);
 
         // this.OnTimer();
@@ -422,7 +422,7 @@ export default class startGame extends cc.Component {
     OnPlayBtn(_event: cc.Event) {
         _event.target.getComponent(cc.Button).interactable = false;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
-        cc.director.loadScene("1");
+        cc.director.loadScene("Intro");
         _event.target.active = false;
         _event.target.parent.getChildByName("loading").active = true;
     }

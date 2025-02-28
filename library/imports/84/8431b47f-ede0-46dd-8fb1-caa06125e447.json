@@ -1,0 +1,159 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Naming words_Grade 1 (Grammar)_R2",
+      "totalLevel": "7",
+      "TitleImageName": "namingWords.png",
+      "introBgName": "Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bgpng.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "Naming words",
+        "questionImageName": "basket.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionImage.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "dog",
+          "cat",
+          "fast",
+          "happy"
+        ],
+        "correctAudios": [
+          "36617140_1_dog.mp3",
+          "36617140_2_cat.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionText": "Naming words",
+        "questionImageName": "basket.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionImage.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "pilot",
+          "loud",
+          "beautiful",
+          "car"
+        ],
+        "correctAudios": [
+          "36617140_3_car.mp3",
+          "36617140_4_pilot.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionText": "Naming words",
+        "questionImageName": "basket.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionImage.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "tidy",
+          "quick",
+          "chef",
+          "lion"
+        ],
+        "correctAudios": [
+          "36617140_5_chef.mp3",
+          "36617140_6_lion.mp3"
+        ],
+        "correctAnswerNum": "34"
+      },
+      {
+        "questionText": "Naming words",
+        "questionImageName": "basket.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionImage.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "bright",
+          "soap",
+          "smooth",
+          "star"
+        ],
+        "correctAudios": [
+          "36617140_7_soap.mp3",
+          "36617140_8_star.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionText": "Naming words",
+        "questionImageName": "basket.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionImage.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "class",
+          "big",
+          "child",
+          "round"
+        ],
+        "correctAudios": [
+          "36617140_9_class.mp3",
+          "36617140_10_child.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionText": "Naming words",
+        "questionImageName": "basket.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionImage.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "swim",
+          "shark",
+          "pen",
+          "write"
+        ],
+        "correctAudios": [
+          "36617140_11_shark.mp3",
+          "36617140_12_pen.mp3"
+        ],
+        "correctAnswerNum": "23"
+      },
+      {
+        "questionText": "Naming words",
+        "questionImageName": "basket.png",
+        "questionAudioName": "Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "optionImage.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "city",
+          "juicy",
+          "urban",
+          "apple"
+        ],
+        "correctAudios": [
+          "36617140_13_city.mp3",
+          "36617140_14_apple.mp3"
+        ],
+        "correctAnswerNum": "14"
+      }
+    ]
+  }
+}

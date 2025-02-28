@@ -1,0 +1,3571 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Untitled-2",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "YKLlr0+kiommXC6c5B7hml5eK5Y",
+      "spine": "3.8.99",
+      "x": -931.19,
+      "y": 147.06,
+      "width": 1894.5,
+      "height": 1016,
+      "images": "../image/",
+      "audio": "C:/creativegalileo_office work/jaipuria_intro/new intro/naming word/audio"
+    },
+    "bones": [
+      {
+        "name": "root",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Layer 2",
+        "parent": "root",
+        "x": -1334.37,
+        "y": 2166.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 15",
+        "parent": "root",
+        "x": -1700.37,
+        "y": 2163.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 3",
+        "parent": "root",
+        "x": -679.87,
+        "y": 2115.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 4",
+        "parent": "root",
+        "x": 275.13,
+        "y": 2145.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 5",
+        "parent": "root",
+        "x": 928.13,
+        "y": 2098.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 18",
+        "parent": "root",
+        "x": 930.13,
+        "y": 2290.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 6",
+        "parent": "root",
+        "x": 1564.13,
+        "y": 2096.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 19",
+        "parent": "root",
+        "x": 1592.63,
+        "y": 2273.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 7",
+        "parent": "root",
+        "x": -1169.37,
+        "y": 1625.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 23",
+        "parent": "root",
+        "x": -1437.87,
+        "y": 1625.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 22",
+        "parent": "root",
+        "x": -1706.87,
+        "y": 1621.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 21",
+        "parent": "root",
+        "x": -1719.37,
+        "y": 1790.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 20",
+        "parent": "root",
+        "x": -1416.37,
+        "y": 1827.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 8",
+        "parent": "root",
+        "x": -550.87,
+        "y": 1666.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 31",
+        "parent": "root",
+        "x": -555.87,
+        "y": 1799.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 30",
+        "parent": "root",
+        "x": -403.37,
+        "y": 1544.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 29",
+        "parent": "root",
+        "x": -547.87,
+        "y": 1544.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 28",
+        "parent": "root",
+        "x": -692.87,
+        "y": 1544.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 27",
+        "parent": "root",
+        "x": -331.37,
+        "y": 1659.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 26",
+        "parent": "root",
+        "x": -475.87,
+        "y": 1659.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 25",
+        "parent": "root",
+        "x": -619.87,
+        "y": 1659.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 24",
+        "parent": "root",
+        "x": -764.37,
+        "y": 1660.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 9",
+        "parent": "root",
+        "x": 255.13,
+        "y": 1764.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 35",
+        "parent": "root",
+        "x": 459.63,
+        "y": 1638.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 34",
+        "parent": "root",
+        "x": 254.13,
+        "y": 1638.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 33",
+        "parent": "root",
+        "x": 50.63,
+        "y": 1638.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 32",
+        "parent": "root",
+        "x": 267.63,
+        "y": 1836.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 10",
+        "parent": "root",
+        "x": 1155.13,
+        "y": 1689.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 39",
+        "parent": "root",
+        "x": 1369.63,
+        "y": 1593.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 38",
+        "parent": "root",
+        "x": 1164.13,
+        "y": 1593.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 37",
+        "parent": "root",
+        "x": 960.63,
+        "y": 1593.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 36",
+        "parent": "root",
+        "x": 1165.13,
+        "y": 1801.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 11",
+        "parent": "root",
+        "x": -1517.37,
+        "y": 1121.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 43",
+        "parent": "root",
+        "x": -1311.37,
+        "y": 999.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 42",
+        "parent": "root",
+        "x": -1519.37,
+        "y": 999.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 41",
+        "parent": "root",
+        "x": -1723.37,
+        "y": 999.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 40",
+        "parent": "root",
+        "x": -1517.37,
+        "y": 1197.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 12",
+        "parent": "root",
+        "x": -564.87,
+        "y": 1095.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 47",
+        "parent": "root",
+        "x": -564.87,
+        "y": 1170.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 46",
+        "parent": "root",
+        "x": -359.37,
+        "y": 973.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 45",
+        "parent": "root",
+        "x": -566.37,
+        "y": 973.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 44",
+        "parent": "root",
+        "x": -770.37,
+        "y": 973.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 13",
+        "parent": "root",
+        "x": 255.13,
+        "y": 1130.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 52",
+        "parent": "root",
+        "x": 549.63,
+        "y": 1017.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 51",
+        "parent": "root",
+        "x": 353.63,
+        "y": 1017.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 50",
+        "parent": "root",
+        "x": 156.63,
+        "y": 1019.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 49",
+        "parent": "root",
+        "x": -39.37,
+        "y": 1017.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 48",
+        "parent": "root",
+        "x": 255.13,
+        "y": 1197.62,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 17",
+        "parent": "root",
+        "x": -655.87,
+        "y": 2297.12,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "Layer 16",
+        "parent": "root",
+        "x": 275.13,
+        "y": 2145.62,
+        "color": "ff0000ff"
+      }
+    ],
+    "slots": [
+      {
+        "name": "Untitled-10005",
+        "bone": "root",
+        "attachment": "Untitled-10005"
+      },
+      {
+        "name": "Layer 2",
+        "bone": "Layer 2",
+        "attachment": "Layer 2"
+      },
+      {
+        "name": "Layer 15",
+        "bone": "Layer 15",
+        "attachment": "Layer 15"
+      },
+      {
+        "name": "Layer 3",
+        "bone": "Layer 3",
+        "attachment": "Layer 3"
+      },
+      {
+        "name": "Layer 5",
+        "bone": "Layer 5",
+        "attachment": "Layer 5"
+      },
+      {
+        "name": "Layer 18",
+        "bone": "Layer 18",
+        "attachment": "Layer 18"
+      },
+      {
+        "name": "Layer 6",
+        "bone": "Layer 6",
+        "attachment": "Layer 6"
+      },
+      {
+        "name": "Layer 7",
+        "bone": "Layer 7",
+        "attachment": "Layer 7"
+      },
+      {
+        "name": "Layer 23",
+        "bone": "Layer 23",
+        "attachment": "Layer 23"
+      },
+      {
+        "name": "Layer 22",
+        "bone": "Layer 22",
+        "attachment": "Layer 22"
+      },
+      {
+        "name": "Layer 8",
+        "bone": "Layer 8",
+        "attachment": "Layer 8"
+      },
+      {
+        "name": "Layer 31",
+        "bone": "Layer 31",
+        "attachment": "Layer 31"
+      },
+      {
+        "name": "Layer 30",
+        "bone": "Layer 30",
+        "attachment": "Layer 30"
+      },
+      {
+        "name": "Layer 29",
+        "bone": "Layer 29",
+        "attachment": "Layer 29"
+      },
+      {
+        "name": "Layer 28",
+        "bone": "Layer 28",
+        "attachment": "Layer 28"
+      },
+      {
+        "name": "Layer 27",
+        "bone": "Layer 27",
+        "attachment": "Layer 27"
+      },
+      {
+        "name": "Layer 26",
+        "bone": "Layer 26",
+        "attachment": "Layer 26"
+      },
+      {
+        "name": "Layer 25",
+        "bone": "Layer 25",
+        "attachment": "Layer 25"
+      },
+      {
+        "name": "Layer 24",
+        "bone": "Layer 24",
+        "attachment": "Layer 24"
+      },
+      {
+        "name": "Layer 9",
+        "bone": "Layer 9",
+        "attachment": "Layer 9"
+      },
+      {
+        "name": "Layer 35",
+        "bone": "Layer 35",
+        "attachment": "Layer 35"
+      },
+      {
+        "name": "Layer 34",
+        "bone": "Layer 34",
+        "attachment": "Layer 34"
+      },
+      {
+        "name": "Layer 33",
+        "bone": "Layer 33",
+        "attachment": "Layer 33"
+      },
+      {
+        "name": "Layer 32",
+        "bone": "Layer 32",
+        "attachment": "Layer 32"
+      },
+      {
+        "name": "Layer 10",
+        "bone": "Layer 10",
+        "attachment": "Layer 10"
+      },
+      {
+        "name": "Layer 39",
+        "bone": "Layer 39",
+        "attachment": "Layer 39"
+      },
+      {
+        "name": "Layer 38",
+        "bone": "Layer 38",
+        "attachment": "Layer 38"
+      },
+      {
+        "name": "Layer 37",
+        "bone": "Layer 37",
+        "attachment": "Layer 37"
+      },
+      {
+        "name": "Layer 36",
+        "bone": "Layer 36",
+        "attachment": "Layer 36"
+      },
+      {
+        "name": "Layer 11",
+        "bone": "Layer 11",
+        "attachment": "Layer 11"
+      },
+      {
+        "name": "Layer 43",
+        "bone": "Layer 43",
+        "attachment": "Layer 43"
+      },
+      {
+        "name": "Layer 42",
+        "bone": "Layer 42",
+        "attachment": "Layer 42"
+      },
+      {
+        "name": "Layer 41",
+        "bone": "Layer 41",
+        "attachment": "Layer 41"
+      },
+      {
+        "name": "Layer 40",
+        "bone": "Layer 40",
+        "attachment": "Layer 40"
+      },
+      {
+        "name": "Layer 12",
+        "bone": "Layer 12",
+        "attachment": "Layer 12"
+      },
+      {
+        "name": "Layer 47",
+        "bone": "Layer 47",
+        "attachment": "Layer 47"
+      },
+      {
+        "name": "Layer 46",
+        "bone": "Layer 46",
+        "attachment": "Layer 46"
+      },
+      {
+        "name": "Layer 45",
+        "bone": "Layer 45",
+        "attachment": "Layer 45"
+      },
+      {
+        "name": "Layer 44",
+        "bone": "Layer 44",
+        "attachment": "Layer 44"
+      },
+      {
+        "name": "Layer 13",
+        "bone": "Layer 13",
+        "attachment": "Layer 13"
+      },
+      {
+        "name": "Layer 52",
+        "bone": "Layer 52",
+        "attachment": "Layer 52"
+      },
+      {
+        "name": "Layer 51",
+        "bone": "Layer 51",
+        "attachment": "Layer 51"
+      },
+      {
+        "name": "Layer 50",
+        "bone": "Layer 50",
+        "attachment": "Layer 50"
+      },
+      {
+        "name": "Layer 49",
+        "bone": "Layer 49",
+        "attachment": "Layer 49"
+      },
+      {
+        "name": "Layer 48",
+        "bone": "Layer 48",
+        "attachment": "Layer 48"
+      },
+      {
+        "name": "Layer 3_new",
+        "bone": "Layer 16",
+        "attachment": "Layer 3_new"
+      },
+      {
+        "name": "Layer 17_mask",
+        "bone": "Layer 17",
+        "attachment": "Layer 17_mask"
+      },
+      {
+        "name": "Layer 17",
+        "bone": "Layer 17",
+        "attachment": "Layer 17"
+      },
+      {
+        "name": "Layer 4_mask",
+        "bone": "Layer 4",
+        "attachment": "Layer 4_mask"
+      },
+      {
+        "name": "Layer 4",
+        "bone": "Layer 4",
+        "attachment": "Layer 4"
+      },
+      {
+        "name": "Layer 19_mask",
+        "bone": "Layer 19",
+        "attachment": "Layer 19_mask"
+      },
+      {
+        "name": "Layer 19",
+        "bone": "Layer 19",
+        "attachment": "Layer 19"
+      },
+      {
+        "name": "Layer 20_mask",
+        "bone": "Layer 20",
+        "attachment": "Layer 20_mask"
+      },
+      {
+        "name": "Layer 20",
+        "bone": "Layer 20",
+        "attachment": "Layer 20"
+      },
+      {
+        "name": "Layer 21_mask",
+        "bone": "Layer 21",
+        "attachment": "Layer 21_mask"
+      },
+      {
+        "name": "Layer 21",
+        "bone": "Layer 21",
+        "attachment": "Layer 21"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "Layer 2": {
+            "Layer 2": {
+              "width": 324,
+              "height": 320
+            }
+          },
+          "Layer 3": {
+            "Layer 3": {
+              "width": 307,
+              "height": 292
+            }
+          },
+          "Layer 3_new": {
+            "Layer 3_new": {
+              "x": 39.96,
+              "y": -10.07,
+              "width": 271,
+              "height": 294
+            }
+          },
+          "Layer 4": {
+            "Layer 4": {
+              "y": 171.96,
+              "width": 680,
+              "height": 44
+            }
+          },
+          "Layer 4_mask": {
+            "Layer 4_mask": {
+              "type": "clipping",
+              "end": "Layer 4_mask",
+              "vertexCount": 4,
+              "vertices": [
+                -359.48,
+                206.09,
+                378.4,
+                197.92,
+                382.63,
+                124.47,
+                -368.07,
+                131.01
+              ],
+              "color": "ce3a3aff"
+            }
+          },
+          "Layer 5": {
+            "Layer 5": {
+              "width": 265,
+              "height": 259
+            }
+          },
+          "Layer 6": {
+            "Layer 6": {
+              "width": 725,
+              "height": 219
+            }
+          },
+          "Layer 7": {
+            "Layer 7": {
+              "width": 240,
+              "height": 239
+            }
+          },
+          "Layer 8": {
+            "Layer 8": {
+              "width": 441,
+              "height": 176
+            }
+          },
+          "Layer 9": {
+            "Layer 9": {
+              "width": 415,
+              "height": 56
+            }
+          },
+          "Layer 10": {
+            "Layer 10": {
+              "width": 435,
+              "height": 133
+            }
+          },
+          "Layer 11": {
+            "Layer 11": {
+              "width": 416,
+              "height": 63
+            }
+          },
+          "Layer 12": {
+            "Layer 12": {
+              "width": 417,
+              "height": 62
+            }
+          },
+          "Layer 13": {
+            "Layer 13": {
+              "width": 593,
+              "height": 45
+            }
+          },
+          "Layer 15": {
+            "Layer 15": {
+              "width": 324,
+              "height": 320
+            }
+          },
+          "Layer 17": {
+            "Layer 17": {
+              "width": 846,
+              "height": 44
+            }
+          },
+          "Layer 17_mask": {
+            "Layer 17_mask": {
+              "type": "clipping",
+              "end": "Layer 17_mask",
+              "vertexCount": 4,
+              "vertices": [
+                -461.52,
+                55.56,
+                468.67,
+                65.04,
+                470.03,
+                -67.65,
+                -458.82,
+                -70.36
+              ],
+              "color": "ce3a3aff"
+            }
+          },
+          "Layer 18": {
+            "Layer 18": {
+              "width": 241,
+              "height": 41
+            }
+          },
+          "Layer 19": {
+            "Layer 19": {
+              "width": 742,
+              "height": 46
+            }
+          },
+          "Layer 19_mask": {
+            "Layer 19_mask": {
+              "type": "clipping",
+              "end": "Layer 19_mask",
+              "vertexCount": 4,
+              "vertices": [
+                -390.61,
+                49.54,
+                403.79,
+                43.55,
+                405.79,
+                -46.26,
+                -390.61,
+                -50.26
+              ],
+              "color": "ce3a3aff"
+            }
+          },
+          "Layer 20": {
+            "Layer 20": {
+              "width": 790,
+              "height": 37
+            }
+          },
+          "Layer 20_mask": {
+            "Layer 20_mask": {
+              "type": "clipping",
+              "end": "Layer 20_mask",
+              "vertexCount": 4,
+              "vertices": [
+                -412,
+                34.6,
+                414.36,
+                32.68,
+                414.36,
+                -22.15,
+                -413.92,
+                -18.31
+              ],
+              "color": "ce3a3aff"
+            }
+          },
+          "Layer 21": {
+            "Layer 21": {
+              "width": 191,
+              "height": 25
+            }
+          },
+          "Layer 21_mask": {
+            "Layer 21_mask": {
+              "type": "clipping",
+              "end": "Layer 21_mask",
+              "vertexCount": 4,
+              "vertices": [
+                -104.98,
+                19.12,
+                93.96,
+                21.08,
+                96.41,
+                -24.49,
+                -103.51,
+                -25.47
+              ],
+              "color": "ce3a3aff"
+            }
+          },
+          "Layer 22": {
+            "Layer 22": {
+              "width": 239,
+              "height": 239
+            }
+          },
+          "Layer 23": {
+            "Layer 23": {
+              "width": 239,
+              "height": 239
+            }
+          },
+          "Layer 24": {
+            "Layer 24": {
+              "width": 124,
+              "height": 126
+            }
+          },
+          "Layer 25": {
+            "Layer 25": {
+              "width": 124,
+              "height": 126
+            }
+          },
+          "Layer 26": {
+            "Layer 26": {
+              "width": 124,
+              "height": 126
+            }
+          },
+          "Layer 27": {
+            "Layer 27": {
+              "width": 124,
+              "height": 126
+            }
+          },
+          "Layer 28": {
+            "Layer 28": {
+              "width": 124,
+              "height": 126
+            }
+          },
+          "Layer 29": {
+            "Layer 29": {
+              "width": 124,
+              "height": 126
+            }
+          },
+          "Layer 30": {
+            "Layer 30": {
+              "width": 124,
+              "height": 126
+            }
+          },
+          "Layer 31": {
+            "Layer 31": {
+              "width": 535,
+              "height": 94
+            }
+          },
+          "Layer 32": {
+            "Layer 32": {
+              "width": 536,
+              "height": 93
+            }
+          },
+          "Layer 33": {
+            "Layer 33": {
+              "width": 182,
+              "height": 201
+            }
+          },
+          "Layer 34": {
+            "Layer 34": {
+              "width": 183,
+              "height": 201
+            }
+          },
+          "Layer 35": {
+            "Layer 35": {
+              "width": 182,
+              "height": 201
+            }
+          },
+          "Layer 36": {
+            "Layer 36": {
+              "width": 535,
+              "height": 94
+            }
+          },
+          "Layer 37": {
+            "Layer 37": {
+              "width": 182,
+              "height": 183
+            }
+          },
+          "Layer 38": {
+            "Layer 38": {
+              "width": 183,
+              "height": 182
+            }
+          },
+          "Layer 39": {
+            "Layer 39": {
+              "width": 182,
+              "height": 182
+            }
+          },
+          "Layer 40": {
+            "Layer 40": {
+              "width": 536,
+              "height": 93
+            }
+          },
+          "Layer 41": {
+            "Layer 41": {
+              "width": 182,
+              "height": 186
+            }
+          },
+          "Layer 42": {
+            "Layer 42": {
+              "width": 182,
+              "height": 186
+            }
+          },
+          "Layer 43": {
+            "Layer 43": {
+              "width": 182,
+              "height": 187
+            }
+          },
+          "Layer 44": {
+            "Layer 44": {
+              "width": 180,
+              "height": 184
+            }
+          },
+          "Layer 45": {
+            "Layer 45": {
+              "width": 182,
+              "height": 186
+            }
+          },
+          "Layer 46": {
+            "Layer 46": {
+              "width": 182,
+              "height": 187
+            }
+          },
+          "Layer 47": {
+            "Layer 47": {
+              "width": 535,
+              "height": 93
+            }
+          },
+          "Layer 48": {
+            "Layer 48": {
+              "width": 665,
+              "height": 93
+            }
+          },
+          "Layer 49": {
+            "Layer 49": {
+              "width": 182,
+              "height": 187
+            }
+          },
+          "Layer 50": {
+            "Layer 50": {
+              "width": 182,
+              "height": 188
+            }
+          },
+          "Layer 51": {
+            "Layer 51": {
+              "width": 182,
+              "height": 186
+            }
+          },
+          "Layer 52": {
+            "Layer 52": {
+              "width": 182,
+              "height": 186
+            }
+          },
+          "Untitled-10005": {
+            "Untitled-10005": {
+              "x": 21.63,
+              "y": 511.12,
+              "width": 960,
+              "height": 434
+            }
+          }
+        }
+      }
+    ],
+    "events": {
+      "final_sound": {
+        "audio": "final_sound.mp3"
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "Layer 4_mask": {
+            "attachment": [
+              {
+                "time": 18.4667,
+                "name": null
+              }
+            ]
+          },
+          "Layer 8": {
+            "color": [
+              {
+                "time": 34.1333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 34.4667,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 34.1333,
+                "name": "Layer 8"
+              }
+            ]
+          },
+          "Layer 9": {
+            "color": [
+              {
+                "time": 46.2333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 48.3667,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "Layer 11": {
+            "color": [
+              {
+                "time": 53.7667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 53.9667,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 53.5667,
+                "name": null
+              },
+              {
+                "time": 53.7667,
+                "name": "Layer 11"
+              }
+            ]
+          },
+          "Layer 17_mask": {
+            "attachment": [
+              {
+                "time": 12.3333,
+                "name": null
+              }
+            ]
+          },
+          "Layer 18": {
+            "attachment": [
+              {
+                "time": 7.9667,
+                "name": null
+              },
+              {
+                "time": 15.9667,
+                "name": "Layer 18"
+              }
+            ]
+          },
+          "Layer 19": {
+            "attachment": [
+              {
+                "time": 7.9667,
+                "name": null
+              },
+              {
+                "time": 18.4667,
+                "name": "Layer 19"
+              },
+              {
+                "time": 22.3667,
+                "name": null
+              }
+            ]
+          },
+          "Layer 19_mask": {
+            "attachment": [
+              {
+                "time": 7.9667,
+                "name": null
+              },
+              {
+                "time": 18.4667,
+                "name": "Layer 19_mask"
+              },
+              {
+                "time": 21,
+                "name": null
+              }
+            ]
+          },
+          "Layer 20": {
+            "attachment": [
+              {
+                "time": 7.9667,
+                "name": null
+              },
+              {
+                "time": 21.5667,
+                "name": "Layer 20"
+              },
+              {
+                "time": 28.0333,
+                "name": null
+              }
+            ]
+          },
+          "Layer 20_mask": {
+            "attachment": [
+              {
+                "time": 25.9333,
+                "name": null
+              }
+            ]
+          },
+          "Layer 21": {
+            "attachment": [
+              {
+                "time": 7.9667,
+                "name": null
+              },
+              {
+                "time": 25.9333,
+                "name": "Layer 21"
+              },
+              {
+                "time": 28.0333,
+                "name": null
+              }
+            ]
+          },
+          "Layer 21_mask": {
+            "attachment": [
+              {
+                "time": 18.4667,
+                "name": null
+              },
+              {
+                "time": 25.9333,
+                "name": "Layer 21_mask"
+              },
+              {
+                "time": 28.0333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Layer 2": {
+            "translate": [
+              {
+                "x": 1526.12,
+                "y": -1655.17,
+                "curve": "stepped"
+              },
+              {
+                "time": 3.5333,
+                "x": 1526.12,
+                "y": -1655.17,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.8,
+                "x": 2109.28,
+                "y": -1655.17
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.4,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.7333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.0667,
+                "curve": "stepped"
+              },
+              {
+                "time": 3.5333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.6,
+                "x": 1.478,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.8,
+                "x": 0
+              }
+            ]
+          },
+          "Layer 15": {
+            "translate": [
+              {
+                "x": 1526.12,
+                "y": -1655.17,
+                "curve": "stepped"
+              },
+              {
+                "time": 3.5333,
+                "x": 1526.12,
+                "y": -1655.17,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.8,
+                "x": 966.86,
+                "y": -1655.17
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "curve": "stepped"
+              },
+              {
+                "time": 3.5333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.6,
+                "x": 1.574,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.8,
+                "x": 0
+              }
+            ]
+          },
+          "Layer 3": {
+            "translate": [
+              {
+                "x": 691.22,
+                "y": -1637.1
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 10,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 10.2667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 10.5333,
+                "curve": "stepped"
+              },
+              {
+                "time": 11.7333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 12.2,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 17": {
+            "translate": [
+              {
+                "x": 691.22,
+                "y": -1637.1
+              }
+            ],
+            "scale": [
+              {
+                "time": 11.7333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 12.2,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 4": {
+            "translate": [
+              {
+                "time": 12.3333,
+                "x": -277.15,
+                "y": -1639.82
+              }
+            ],
+            "scale": [
+              {
+                "time": 15.5333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 15.9333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 16": {
+            "translate": [
+              {
+                "x": -277.15,
+                "y": -1639.82
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 14.2,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 14.5,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 14.8667,
+                "curve": "stepped"
+              },
+              {
+                "time": 15.5333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 15.9333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 5": {
+            "translate": [
+              {
+                "time": 16.2667,
+                "x": -912.67,
+                "y": -1631
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 16.2667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 16.5333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 16.8333,
+                "curve": "stepped"
+              },
+              {
+                "time": 18.1333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 18.4,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 18": {
+            "translate": [
+              {
+                "time": 15.9667,
+                "x": -912.67,
+                "y": -1631
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 15.9667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 16.2333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 16.5333,
+                "curve": "stepped"
+              },
+              {
+                "time": 18.1333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 18.4,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 6": {
+            "translate": [
+              {
+                "x": -1579.14,
+                "y": -1632.65
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 19,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 19.4333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 19.9,
+                "curve": "stepped"
+              },
+              {
+                "time": 22.1
+              },
+              {
+                "time": 22.3333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 19": {
+            "translate": [
+              {
+                "x": -1579.14,
+                "y": -1632.65
+              }
+            ],
+            "scale": [
+              {
+                "time": 22.1
+              },
+              {
+                "time": 22.3333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 20": {
+            "translate": [
+              {
+                "x": 1448.3,
+                "y": -1171.05
+              }
+            ],
+            "scale": [
+              {
+                "time": 27.5,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 27.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 7": {
+            "translate": [
+              {
+                "x": 1448.3,
+                "y": -1171.05
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 26.3,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 26.6667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 27,
+                "curve": "stepped"
+              },
+              {
+                "time": 27.5,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 27.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 23": {
+            "translate": [
+              {
+                "x": 1448.3,
+                "y": -1171.05
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 25.4,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 25.7667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 26.1,
+                "curve": "stepped"
+              },
+              {
+                "time": 27.5,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 27.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 22": {
+            "translate": [
+              {
+                "x": 1448.3,
+                "y": -1171.05
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 23.5667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 23.9333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 24.2667,
+                "curve": "stepped"
+              },
+              {
+                "time": 27.5,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 27.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 21": {
+            "translate": [
+              {
+                "x": 1448.3,
+                "y": -1171.05
+              }
+            ],
+            "scale": [
+              {
+                "time": 27.5,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 27.7667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 8": {
+            "translate": [
+              {
+                "x": 576.82,
+                "y": -1150.26
+              }
+            ],
+            "scale": [
+              {
+                "time": 41.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 41.4333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 31": {
+            "translate": [
+              {
+                "x": 576.82,
+                "y": -1150.26
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 27.7,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 28.0667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 28.4,
+                "curve": "stepped"
+              },
+              {
+                "time": 40.3667
+              },
+              {
+                "time": 40.6,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": "stepped"
+              },
+              {
+                "time": 41.1667,
+                "x": 1.1,
+                "y": 1.1
+              },
+              {
+                "time": 41.4333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 30": {
+            "translate": [
+              {
+                "x": 576.82,
+                "y": -1150.26
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 34.1,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 34.4667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 34.8,
+                "curve": "stepped"
+              },
+              {
+                "time": 41.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 41.4333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 29": {
+            "translate": [
+              {
+                "x": 576.82,
+                "y": -1150.26
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 32.8667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 33.2333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 33.5667,
+                "curve": "stepped"
+              },
+              {
+                "time": 41.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 41.4333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 28": {
+            "translate": [
+              {
+                "x": 576.82,
+                "y": -1150.26
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 32.0667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 32.4333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 32.7667,
+                "curve": "stepped"
+              },
+              {
+                "time": 41.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 41.4333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 27": {
+            "translate": [
+              {
+                "x": 576.82,
+                "y": -1150.26
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 31.1,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 31.4667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 31.8,
+                "curve": "stepped"
+              },
+              {
+                "time": 41.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 41.4333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 26": {
+            "translate": [
+              {
+                "x": 576.82,
+                "y": -1150.26
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 30.4667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 30.8333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 31.1667,
+                "curve": "stepped"
+              },
+              {
+                "time": 41.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 41.4333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 25": {
+            "translate": [
+              {
+                "x": 576.82,
+                "y": -1150.26
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 29.2,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 29.5667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 29.9,
+                "curve": "stepped"
+              },
+              {
+                "time": 41.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 41.4333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 24": {
+            "translate": [
+              {
+                "x": 576.82,
+                "y": -1150.26
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 28.0667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 28.4333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 28.7667,
+                "curve": "stepped"
+              },
+              {
+                "time": 41.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 41.4333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 32": {
+            "translate": [
+              {
+                "x": -254.2,
+                "y": -1198.62
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 42.8333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 43.2,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 43.6,
+                "curve": "stepped"
+              },
+              {
+                "time": 49.6,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 49.9667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 9": {
+            "translate": [
+              {
+                "x": -254.2,
+                "y": -1198.62
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 46.2333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 47.2,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 48.3,
+                "curve": "stepped"
+              },
+              {
+                "time": 49.6,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 49.9667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 35": {
+            "translate": [
+              {
+                "x": -254.2,
+                "y": -1198.62
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 47.9,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 48.2667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 48.6667,
+                "curve": "stepped"
+              },
+              {
+                "time": 49.6,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 49.9667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 34": {
+            "translate": [
+              {
+                "x": -254.2,
+                "y": -1198.62
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 47,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 47.3667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 47.7667,
+                "curve": "stepped"
+              },
+              {
+                "time": 49.6,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 49.9667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 33": {
+            "translate": [
+              {
+                "x": -254.2,
+                "y": -1198.62
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 46.2333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 46.6,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 47,
+                "curve": "stepped"
+              },
+              {
+                "time": 49.6,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 49.9667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 36": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 49.7333,
+                "x": -1160,
+                "y": -1167.58
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 49.7333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 49.9333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 50.1333,
+                "curve": "stepped"
+              },
+              {
+                "time": 52.3667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 52.5333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": "stepped"
+              },
+              {
+                "time": 53.1,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 53.2667,
+                "curve": "stepped"
+              },
+              {
+                "time": 53.3667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 53.5333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 10": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 49.8667,
+                "x": -1160,
+                "y": -1167.58
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 49.8667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 50.0667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 50.2667,
+                "curve": "stepped"
+              },
+              {
+                "time": 53.4667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 53.6333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 39": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 51.5,
+                "x": -1160,
+                "y": -1167.58
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 51.5,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 51.7,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 51.9,
+                "curve": "stepped"
+              },
+              {
+                "time": 53.4667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 53.6333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 38": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 50.7667,
+                "x": -1160,
+                "y": -1167.58
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 50.7667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 50.9667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 51.1667,
+                "curve": "stepped"
+              },
+              {
+                "time": 53.4667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 53.6333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 37": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 50.1333,
+                "x": -1160,
+                "y": -1167.58
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 50.1333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 50.3333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 50.5333,
+                "curve": "stepped"
+              },
+              {
+                "time": 53.4667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 53.6333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 11": {
+            "translate": [
+              {
+                "x": 1547.62,
+                "y": -564.56
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 53.5667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 53.7667,
+                "x": 1.1,
+                "y": 1.1
+              },
+              {
+                "time": 53.9667,
+                "curve": "stepped"
+              },
+              {
+                "time": 56.6,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 56.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 43": {
+            "translate": [
+              {
+                "x": 1547.62,
+                "y": -564.56
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 55.2,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 55.4,
+                "x": 1.1,
+                "y": 1.1
+              },
+              {
+                "time": 55.6,
+                "curve": "stepped"
+              },
+              {
+                "time": 56.6,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 56.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 42": {
+            "translate": [
+              {
+                "x": 1547.62,
+                "y": -564.56
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 54.2333,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 54.4333,
+                "x": 1.1,
+                "y": 1.1
+              },
+              {
+                "time": 54.6333,
+                "curve": "stepped"
+              },
+              {
+                "time": 56.6,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 56.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 41": {
+            "translate": [
+              {
+                "x": 1547.62,
+                "y": -564.56
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 53.5667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 53.7667,
+                "x": 1.1,
+                "y": 1.1
+              },
+              {
+                "time": 53.9667,
+                "curve": "stepped"
+              },
+              {
+                "time": 56.6,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 56.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 40": {
+            "translate": [
+              {
+                "x": 1547.62,
+                "y": -564.56
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 53.5,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 53.7,
+                "x": 1.1,
+                "y": 1.1
+              },
+              {
+                "time": 53.9,
+                "curve": "stepped"
+              },
+              {
+                "time": 56,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 56.1667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": "stepped"
+              },
+              {
+                "time": 56.3667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 56.5667,
+                "curve": "stepped"
+              },
+              {
+                "time": 56.6,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 56.7,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 12": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 56.7333,
+                "x": 585.69,
+                "y": -536.61
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 56.7333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 56.9,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 57.1,
+                "curve": "stepped"
+              },
+              {
+                "time": 61.9333
+              },
+              {
+                "time": 62.1333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 47": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 56.7333,
+                "x": 585.69,
+                "y": -536.61
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 56.7333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 56.9,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 57.1,
+                "curve": "stepped"
+              },
+              {
+                "time": 59.8667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 60.0667,
+                "x": 1.067,
+                "y": 1.1,
+                "curve": "stepped"
+              },
+              {
+                "time": 60.9,
+                "x": 1.067,
+                "y": 1.1
+              },
+              {
+                "time": 61.1,
+                "curve": "stepped"
+              },
+              {
+                "time": 61.9333,
+                "curve": 0.374,
+                "c2": 0.62,
+                "c3": 0.715
+              },
+              {
+                "time": 62.1333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 46": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 59.5333,
+                "x": 585.69,
+                "y": -536.61
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 59.5333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 59.7,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 59.9,
+                "curve": "stepped"
+              },
+              {
+                "time": 61.9333
+              },
+              {
+                "time": 62.1333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 45": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 58.1667,
+                "x": 585.69,
+                "y": -536.61
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 58.1667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 58.3333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 58.5333,
+                "curve": "stepped"
+              },
+              {
+                "time": 61.9333
+              },
+              {
+                "time": 62.1333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 44": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 56.8333,
+                "x": 585.69,
+                "y": -536.61
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 56.8333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 57,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 57.2,
+                "curve": "stepped"
+              },
+              {
+                "time": 61.9333
+              },
+              {
+                "time": 62.1333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Layer 13": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 62.6,
+                "x": -245.38,
+                "y": -565.28
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 62.6,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 63.1,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 63.6
+              }
+            ]
+          },
+          "Layer 52": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 66.1,
+                "x": -245.38,
+                "y": -565.28
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 66.1,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 66.6,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 67.1,
+                "curve": "stepped"
+              },
+              {
+                "time": 73.9,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 74.4667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 75.0333
+              }
+            ]
+          },
+          "Layer 51": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 64.9333,
+                "x": -245.38,
+                "y": -565.28
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 64.9333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 65.4333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 65.9333,
+                "curve": "stepped"
+              },
+              {
+                "time": 73.8333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 74.4,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 74.9667
+              }
+            ]
+          },
+          "Layer 50": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 63.7333,
+                "x": -245.38,
+                "y": -565.28
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 63.7333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 64.2333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 64.7333,
+                "curve": "stepped"
+              },
+              {
+                "time": 73.5333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 74.1,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 74.6667
+              }
+            ]
+          },
+          "Layer 49": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 62.6,
+                "x": -245.38,
+                "y": -565.28
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 62.6,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 63.1,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 63.6,
+                "curve": "stepped"
+              },
+              {
+                "time": 73.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 73.7333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 74.3
+              }
+            ]
+          },
+          "Layer 48": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 62.6,
+                "x": -245.38,
+                "y": -565.28
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 62.6,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 63.1,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 63.6,
+                "curve": "stepped"
+              },
+              {
+                "time": 67.3333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 67.6667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": "stepped"
+              },
+              {
+                "time": 71.1333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 71.5333
+              }
+            ]
+          },
+          "root": {
+            "translate": [
+              {
+                "time": 80
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "Layer 4_mask": {
+              "Layer 4_mask": [
+                {
+                  "time": 12.3333,
+                  "offset": 2,
+                  "vertices": [
+                    -725.99994,
+                    0,
+                    -725.99994
+                  ]
+                },
+                {
+                  "time": 13.4,
+                  "offset": 2,
+                  "vertices": [
+                    -394.11435,
+                    0,
+                    -390.78238,
+                    20.03961,
+                    1.52316,
+                    5.33119
+                  ]
+                },
+                {
+                  "time": 14.4,
+                  "offset": 5,
+                  "vertices": [
+                    18.32605,
+                    3.33191,
+                    11.66199
+                  ]
+                }
+              ]
+            },
+            "Layer 17_mask": {
+              "Layer 17_mask": [
+                {
+                  "offset": 2,
+                  "vertices": [
+                    -901.44403,
+                    0,
+                    -901.44403
+                  ],
+                  "curve": "stepped"
+                },
+                {
+                  "time": 7.9667,
+                  "offset": 2,
+                  "vertices": [
+                    -901.44403,
+                    0,
+                    -901.44403
+                  ]
+                },
+                {
+                  "time": 10.9333
+                }
+              ]
+            },
+            "Layer 19_mask": {
+              "Layer 19_mask": [
+                {
+                  "offset": 2,
+                  "vertices": [
+                    -783.6501,
+                    0,
+                    -783.6501
+                  ],
+                  "curve": "stepped"
+                },
+                {
+                  "time": 18.4333,
+                  "offset": 2,
+                  "vertices": [
+                    -783.6501,
+                    0,
+                    -783.6501
+                  ]
+                },
+                {
+                  "time": 21
+                }
+              ]
+            },
+            "Layer 20_mask": {
+              "Layer 20_mask": [
+                {
+                  "offset": 2,
+                  "vertices": [
+                    -815.6518,
+                    0,
+                    -815.6518
+                  ],
+                  "curve": "stepped"
+                },
+                {
+                  "time": 22.3,
+                  "offset": 2,
+                  "vertices": [
+                    -815.6518,
+                    0,
+                    -815.6518
+                  ]
+                },
+                {
+                  "time": 25.7333
+                }
+              ]
+            },
+            "Layer 21_mask": {
+              "Layer 21_mask": [
+                {
+                  "time": 25.9333,
+                  "offset": 2,
+                  "vertices": [
+                    -187.37598,
+                    0,
+                    -187.37598
+                  ]
+                },
+                {
+                  "time": 26.6667
+                }
+              ]
+            }
+          }
+        },
+        "events": [
+          {
+            "name": "final_sound"
+          }
+        ]
+      }
+    }
+  },
+  "_atlasText": "\nUntitled-2.png\nsize: 3974,689\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nLayer 10\n  rotate: true\n  xy: 1681, 255\n  size: 432, 131\n  orig: 435, 133\n  offset: 2, 1\n  index: -1\nLayer 11\n  rotate: true\n  xy: 1876, 273\n  size: 414, 61\n  orig: 416, 63\n  offset: 1, 1\n  index: -1\nLayer 12\n  rotate: true\n  xy: 1814, 272\n  size: 415, 60\n  orig: 417, 62\n  offset: 1, 1\n  index: -1\nLayer 13\n  rotate: true\n  xy: 141, 96\n  size: 591, 43\n  orig: 593, 45\n  offset: 1, 1\n  index: -1\nLayer 15\n  rotate: true\n  xy: 2161, 41\n  size: 322, 318\n  orig: 324, 320\n  offset: 1, 1\n  index: -1\nLayer 17\n  rotate: false\n  xy: 2809, 442\n  size: 846, 44\n  orig: 846, 44\n  offset: 0, 0\n  index: -1\nLayer 18\n  rotate: true\n  xy: 676, 5\n  size: 241, 41\n  orig: 241, 41\n  offset: 0, 0\n  index: -1\nLayer 19\n  rotate: false\n  xy: 2955, 24\n  size: 740, 44\n  orig: 742, 46\n  offset: 1, 1\n  index: -1\nLayer 2\n  rotate: true\n  xy: 1939, 365\n  size: 322, 318\n  orig: 324, 320\n  offset: 1, 1\n  index: -1\nLayer 20\n  rotate: false\n  xy: 2161, 4\n  size: 788, 35\n  orig: 790, 37\n  offset: 1, 1\n  index: -1\nLayer 21\n  rotate: false\n  xy: 1436, 9\n  size: 191, 25\n  orig: 191, 25\n  offset: 0, 0\n  index: -1\nLayer 22\n  rotate: false\n  xy: 958, 16\n  size: 237, 237\n  orig: 239, 239\n  offset: 1, 1\n  index: -1\nLayer 23\n  rotate: false\n  xy: 1197, 16\n  size: 237, 237\n  orig: 239, 239\n  offset: 1, 1\n  index: -1\nLayer 24\n  rotate: true\n  xy: 3847, 563\n  size: 124, 125\n  orig: 124, 126\n  offset: 0, 0\n  index: -1\nLayer 25\n  rotate: true\n  xy: 3719, 563\n  size: 124, 125\n  orig: 124, 126\n  offset: 0, 0\n  index: -1\nLayer 26\n  rotate: true\n  xy: 3847, 437\n  size: 124, 125\n  orig: 124, 126\n  offset: 0, 0\n  index: -1\nLayer 27\n  rotate: true\n  xy: 3847, 311\n  size: 124, 125\n  orig: 124, 126\n  offset: 0, 0\n  index: -1\nLayer 28\n  rotate: true\n  xy: 3697, 194\n  size: 124, 125\n  orig: 124, 126\n  offset: 0, 0\n  index: -1\nLayer 29\n  rotate: true\n  xy: 3824, 185\n  size: 124, 125\n  orig: 124, 126\n  offset: 0, 0\n  index: -1\nLayer 3\n  rotate: true\n  xy: 2259, 382\n  size: 305, 290\n  orig: 307, 292\n  offset: 1, 1\n  index: -1\nLayer 30\n  rotate: true\n  xy: 3697, 68\n  size: 124, 125\n  orig: 124, 126\n  offset: 0, 0\n  index: -1\nLayer 31\n  rotate: false\n  xy: 141, 2\n  size: 533, 92\n  orig: 535, 94\n  offset: 1, 1\n  index: -1\nLayer 32\n  rotate: true\n  xy: 186, 153\n  size: 534, 91\n  orig: 536, 93\n  offset: 1, 1\n  index: -1\nLayer 33\n  rotate: true\n  xy: 2754, 41\n  size: 180, 199\n  orig: 182, 201\n  offset: 1, 1\n  index: -1\nLayer 34\n  rotate: false\n  xy: 2754, 223\n  size: 181, 199\n  orig: 183, 201\n  offset: 1, 1\n  index: -1\nLayer 35\n  rotate: false\n  xy: 2809, 488\n  size: 180, 199\n  orig: 182, 201\n  offset: 1, 1\n  index: -1\nLayer 36\n  rotate: true\n  xy: 372, 154\n  size: 533, 92\n  orig: 535, 94\n  offset: 1, 1\n  index: -1\nLayer 37\n  rotate: false\n  xy: 3483, 259\n  size: 180, 181\n  orig: 182, 183\n  offset: 1, 1\n  index: -1\nLayer 38\n  rotate: true\n  xy: 3501, 76\n  size: 181, 180\n  orig: 183, 182\n  offset: 1, 1\n  index: -1\nLayer 39\n  rotate: false\n  xy: 3665, 320\n  size: 180, 180\n  orig: 182, 182\n  offset: 1, 1\n  index: -1\nLayer 3_new\n  rotate: false\n  xy: 2481, 86\n  size: 271, 294\n  orig: 271, 294\n  offset: 0, 0\n  index: -1\nLayer 4\n  rotate: true\n  xy: 2, 7\n  size: 680, 44\n  orig: 680, 44\n  offset: 0, 0\n  index: -1\nLayer 40\n  rotate: true\n  xy: 279, 153\n  size: 534, 91\n  orig: 536, 93\n  offset: 1, 1\n  index: -1\nLayer 41\n  rotate: false\n  xy: 2937, 256\n  size: 180, 184\n  orig: 182, 186\n  offset: 1, 1\n  index: -1\nLayer 42\n  rotate: false\n  xy: 2955, 70\n  size: 180, 184\n  orig: 182, 186\n  offset: 1, 1\n  index: -1\nLayer 43\n  rotate: false\n  xy: 3173, 502\n  size: 180, 185\n  orig: 182, 187\n  offset: 1, 1\n  index: -1\nLayer 44\n  rotate: false\n  xy: 3119, 256\n  size: 180, 184\n  orig: 180, 184\n  offset: 0, 0\n  index: -1\nLayer 45\n  rotate: false\n  xy: 3137, 70\n  size: 180, 184\n  orig: 182, 186\n  offset: 1, 1\n  index: -1\nLayer 46\n  rotate: false\n  xy: 3355, 502\n  size: 180, 185\n  orig: 182, 187\n  offset: 1, 1\n  index: -1\nLayer 47\n  rotate: true\n  xy: 466, 154\n  size: 533, 91\n  orig: 535, 93\n  offset: 1, 1\n  index: -1\nLayer 48\n  rotate: true\n  xy: 48, 24\n  size: 663, 91\n  orig: 665, 93\n  offset: 1, 1\n  index: -1\nLayer 49\n  rotate: false\n  xy: 3537, 502\n  size: 180, 185\n  orig: 182, 187\n  offset: 1, 1\n  index: -1\nLayer 5\n  rotate: true\n  xy: 2551, 424\n  size: 263, 256\n  orig: 265, 259\n  offset: 1, 1\n  index: -1\nLayer 50\n  rotate: false\n  xy: 2991, 501\n  size: 180, 186\n  orig: 182, 188\n  offset: 1, 1\n  index: -1\nLayer 51\n  rotate: false\n  xy: 3301, 256\n  size: 180, 184\n  orig: 182, 186\n  offset: 1, 1\n  index: -1\nLayer 52\n  rotate: false\n  xy: 3319, 70\n  size: 180, 184\n  orig: 182, 186\n  offset: 1, 1\n  index: -1\nLayer 6\n  rotate: false\n  xy: 1436, 36\n  size: 723, 217\n  orig: 725, 219\n  offset: 1, 1\n  index: -1\nLayer 7\n  rotate: true\n  xy: 719, 8\n  size: 238, 237\n  orig: 240, 239\n  offset: 1, 1\n  index: -1\nLayer 8\n  rotate: true\n  xy: 559, 248\n  size: 439, 160\n  orig: 441, 176\n  offset: 1, 15\n  index: -1\nLayer 9\n  rotate: false\n  xy: 186, 97\n  size: 413, 54\n  orig: 415, 56\n  offset: 1, 1\n  index: -1\nUntitled-10005\n  rotate: false\n  xy: 721, 255\n  size: 958, 432\n  orig: 960, 434\n  offset: 1, 1\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "02547549-fb56-4b40-a235-e859c5843d1d"
+    }
+  ],
+  "textureNames": [
+    "Untitled-2.png"
+  ],
+  "scale": 1
+}
