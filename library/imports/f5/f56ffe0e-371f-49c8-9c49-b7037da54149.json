@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_greyzebra",
+    "texture": "0c901505-ccc4-4459-9f50-822a7a313beb",
+    "atlas": "",
+    "rect": [
+      44,
+      0,
+      412,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

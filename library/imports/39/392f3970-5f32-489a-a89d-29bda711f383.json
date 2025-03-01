@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0011_bread",
+    "texture": "69a72226-6c67-455b-95b1-654f320ffe73",
+    "atlas": "",
+    "rect": [
+      28,
+      86,
+      444,
+      324
+    ],
+    "offset": [
+      0,
+      2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
