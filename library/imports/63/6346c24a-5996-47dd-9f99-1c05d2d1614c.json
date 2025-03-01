@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vdff",
+    "texture": "fd19a53f-e360-46ce-815e-9c25a5cd7393",
+    "atlas": "",
+    "rect": [
+      93,
+      50,
+      315,
+      437
+    ],
+    "offset": [
+      0,
+      -18
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

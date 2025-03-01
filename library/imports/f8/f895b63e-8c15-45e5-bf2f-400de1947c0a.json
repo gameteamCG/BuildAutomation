@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slipper",
+    "texture": "e378c9c2-4159-428e-94a6-3384d7eedd0c",
+    "atlas": "",
+    "rect": [
+      41,
+      51,
+      419,
+      398
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

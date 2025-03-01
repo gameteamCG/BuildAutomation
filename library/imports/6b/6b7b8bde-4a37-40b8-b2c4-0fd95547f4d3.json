@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bulb",
+    "texture": "dfa5f406-9a14-4bb2-aa82-56448510f4ef",
+    "atlas": "",
+    "rect": [
+      6,
+      11,
+      227,
+      210
+    ],
+    "offset": [
+      -6,
+      9
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
