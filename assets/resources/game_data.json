@@ -1,0 +1,147 @@
+{
+  "additionalData": {
+    "GameID": "दो अक्षर के शब्द_UKG_17",
+    "totalLevel": "7",
+    "TitleImageName": "title.png",
+    "introBgName": "ukg.png",
+    "bgmMusicName": "bgm.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "hindi",
+    "templateType": "ObjectsTweenIn"
+  },
+  "questionData": [
+    {
+      "questionText": "ग + म",
+      "questionImageName": "question.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "3.png",
+        "1.png",
+        "2.png"
+      ],
+      "correctAudios": [
+        "gam.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "र + थ",
+      "questionImageName": "question.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "5.png",
+        "6.png",
+        "4.png"
+      ],
+      "correctAudios": [
+        "rath.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "ब + ल",
+      "questionImageName": "question.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "8.png",
+        "7.png",
+        "9.png"
+      ],
+      "correctAudios": [
+        "bal.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "र + स",
+      "questionImageName": "question.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "ans.png",
+        "jalebi.png",
+        "chai.png"
+      ],
+      "correctAudios": [
+        "ras.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "न + ल",
+      "questionImageName": "question.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "jhadu.png",
+        "nall.png",
+        "spoon.png"
+      ],
+      "correctAudios": [
+        "nal.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "ह + म",
+      "questionImageName": "question.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "fmily.png",
+        "dog.png",
+        "kid.png"
+      ],
+      "correctAudios": [
+        "hum.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "घ + र",
+      "questionImageName": "question.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "sd.png",
+        "ad.png",
+        "sj.png"
+      ],
+      "correctAudios": [
+        "ghar.mp3"
+      ],
+      "correctAnswerNum": "3"
+    }
+  ]
+}
