@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0003_greyyak",
+    "texture": "d6ed5690-5a3f-403b-9fab-389734b92240",
+    "atlas": "",
+    "rect": [
+      13,
+      21,
+      474,
+      458
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

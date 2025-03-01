@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0015_yyatch",
+    "texture": "0586b4c8-70dd-45fc-b08a-b9fe8e1690cc",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      250,
+      244
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

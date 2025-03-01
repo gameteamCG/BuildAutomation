@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0004_greyoil",
+    "texture": "4dbd518c-fa22-482c-a378-f079c1820251",
+    "atlas": "",
+    "rect": [
+      127,
+      15,
+      246,
+      471
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
