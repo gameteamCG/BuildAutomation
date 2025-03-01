@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eraser_s",
+    "texture": "a0b0fd95-b635-4e24-abb1-8dee1765c210",
+    "atlas": "",
+    "rect": [
+      123,
+      172,
+      240,
+      145
+    ],
+    "offset": [
+      -7,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "marker_b",
+    "texture": "35ae6eb7-8490-4604-9170-fa9734f6ef50",
+    "atlas": "",
+    "rect": [
+      29,
+      218,
+      451,
+      64
+    ],
+    "offset": [
+      4.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
