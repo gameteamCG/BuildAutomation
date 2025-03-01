@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chai",
+    "texture": "d0828f5b-8667-4b63-b5e2-2ac9f903baed",
+    "atlas": "",
+    "rect": [
+      120,
+      44,
+      292,
+      407
+    ],
+    "offset": [
+      15.5,
+      3
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

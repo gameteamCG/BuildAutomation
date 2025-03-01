@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ucha",
+    "texture": "85c91b0d-26af-434f-94bc-acbc8e9f919b",
+    "atlas": "",
+    "rect": [
+      13,
+      11,
+      231,
+      236
+    ],
+    "offset": [
+      3,
+      -4
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
