@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "IMG_69",
+    "texture": "c4904eb1-e13d-41f4-9a27-3bb5ecbdacaa",
+    "atlas": "",
+    "rect": [
+      35,
+      14,
+      130,
+      172
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
