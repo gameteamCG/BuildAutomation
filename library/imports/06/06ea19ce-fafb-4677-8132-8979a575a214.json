@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jhadu",
+    "texture": "f6288e50-217b-412c-bf7c-f0a189dc0f92",
+    "atlas": "",
+    "rect": [
+      31,
+      9,
+      138,
+      187
+    ],
+    "offset": [
+      -0.5,
+      -2
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

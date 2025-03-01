@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fmily",
+    "texture": "4733bde6-4333-4f3a-b0d1-fd53700a87bc",
+    "atlas": "",
+    "rect": [
+      11,
+      12,
+      179,
+      176
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
