@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "iron",
+    "texture": "5aa82c18-4ea6-4ae1-8a35-0028246d4be8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      178,
+      175
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      178,
+      175
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jhumka",
+    "texture": "68f4d94f-49a3-4759-adeb-aad3a000d93e",
+    "atlas": "",
+    "rect": [
+      15,
+      82,
+      464,
+      326
+    ],
+    "offset": [
+      -3.5,
+      5.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

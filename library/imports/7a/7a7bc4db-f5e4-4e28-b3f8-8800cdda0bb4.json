@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thread",
+    "texture": "f1c8c847-c409-496e-9450-482754db6f42",
+    "atlas": "",
+    "rect": [
+      90,
+      75,
+      356,
+      381
+    ],
+    "offset": [
+      17.5,
+      -15
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
