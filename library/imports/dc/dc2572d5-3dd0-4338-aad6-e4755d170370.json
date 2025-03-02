@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "starwberry",
+    "texture": "8f9ed788-528b-4ff4-a3bd-622db40c3b93",
+    "atlas": "",
+    "rect": [
+      73,
+      41,
+      354,
+      418
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
