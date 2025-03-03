@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Phonic reader - long vowel 'i'_UKG_SB2_16",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Phonic_Reader_Long_i_1741019620571.mp4",
+      "TitleImageName": "Asset 38.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "Where did mike go?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "where did mike go.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 3 (2).png",
+          "Asset 15.png",
+          "Asset 13.png",
+          "Asset 14.png"
+        ],
+        "ReiterationAudioName": "park.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "What did mike flew?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "what did mike flew.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 12.png",
+          "Asset 2 (2).png",
+          "Asset 11.png",
+          "Asset 10 (2).png"
+        ],
+        "ReiterationAudioName": "kite.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "What did mike eat?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "What did mike eat.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset 9 (2).png",
+          "Asset 7 (2).png",
+          "Asset 8 (1).png",
+          "Asset 1 (1).png"
+        ],
+        "ReiterationAudioName": "pie.mp3",
+        "CorrectAudioName": "",
+        "WrongAudioName": "",
+        "CorrectAnswer": "4"
+      }
+    ]
+  }
+}
