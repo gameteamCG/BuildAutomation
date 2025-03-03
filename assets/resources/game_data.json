@@ -1,0 +1,73 @@
+{
+  "AdditionalData": {
+    "GameID": "Phonic reader - long vowel_e_UKG_SB2_11",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/long_vowel_e_1741015462079.mp4",
+    "TitleImageName": "Asset 33.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "0",
+      "IsQuestionText": true,
+      "QuestionText": "what was the bird name?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "what was the bird name2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Pete",
+        "Peter",
+        "Polly",
+        "Pal"
+      ],
+      "ReiterationAudioName": "pete.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "0",
+      "IsQuestionText": true,
+      "QuestionText": "where was the bee stuck?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "where was the bee stuck.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset 7 (1).png",
+        "Asset 2 (1).png",
+        "Asset 10 (1).png",
+        "Asset 9 (1).png"
+      ],
+      "ReiterationAudioName": "web.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "0",
+      "IsQuestionText": true,
+      "QuestionText": "what did the bee got for Pete?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "what did the bee got for Pete2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Apples",
+        "Water",
+        "Juice",
+        "Seeds"
+      ],
+      "ReiterationAudioName": "seeds.mp3",
+      "CorrectAudioName": "",
+      "WrongAudioName": "",
+      "CorrectAnswer": "4"
+    }
+  ]
+}
