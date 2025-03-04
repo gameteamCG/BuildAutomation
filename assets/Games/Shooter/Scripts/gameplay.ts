@@ -156,7 +156,7 @@ export default class NewClass extends cc.Component {
             });
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
         }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
+        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon" || startGame.Instance.jockeyName == "tortoise") {
             this.optionsNode.children.forEach((element) => {
                 element.getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
             });
@@ -252,7 +252,7 @@ export default class NewClass extends cc.Component {
 
         this.callQuestionBar();
 
-        if (startGame.Instance.jockeyName == "bag") {
+        if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "tortoise") {
             this.positiveAudio = this.bagPositive;
             this.negativeAudio = this.bagNegative;
         }
@@ -542,7 +542,7 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "supercub") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
-        else if (startGame.Instance.jockeyName == "bag") {
+        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "tortoise") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (startGame.Instance.jockeyName == "cryon") {
@@ -671,7 +671,7 @@ export default class NewClass extends cc.Component {
             else if (startGame.Instance.jockeyName == "supercub") {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
             }
-            else if (startGame.Instance.jockeyName == "bag") {
+            else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "tortoise") {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
             else if (startGame.Instance.jockeyName == "cryon") {
