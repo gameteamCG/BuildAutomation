@@ -325,10 +325,10 @@ var startGame = /** @class */ (function (_super) {
             else if (_this.jockeyName == "stallion") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
             }
-            else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon") {
+            else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon" || _this.jockeyName == "penguin") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
-            if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
+            if (_this.jockeyName != "bag" && _this.jockeyName != "cryon" && _this.jockeyName != "penguin") {
                 _this.scheduleOnce(function () {
                     cc.director.loadScene(_this.NextSceneName);
                 }, 2);
