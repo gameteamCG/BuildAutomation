@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shampoo",
+    "texture": "ac295f98-9c14-4d43-a348-064c0a053725",
+    "atlas": "",
+    "rect": [
+      61,
+      22,
+      126,
+      216
+    ],
+    "offset": [
+      -1.5,
+      -4.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

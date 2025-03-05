@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Shiela",
+    "texture": "410c0738-4ebf-4162-aed6-16fa52f38c52",
+    "atlas": "",
+    "rect": [
+      43,
+      97,
+      161,
+      41
+    ],
+    "offset": [
+      -2,
+      7.5
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
