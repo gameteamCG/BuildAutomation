@@ -1,0 +1,115 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "sound th",
+      "totalLevel": "5",
+      "TitleImageName": "sound th.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "identify the picture which begins with sound th",
+        "questionImageName": "Asset 19.png",
+        "questionAudioName": "identify-the-picture-which-begins-with-the-sound_th.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 18.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Thief.png",
+          "Asset 16.png",
+          "Asset 17.png"
+        ],
+        "correctAudios": [
+          "40464140_1_thief.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "identify the picture which begins with sound th",
+        "questionImageName": "Asset 19.png",
+        "questionAudioName": "identify-the-picture-which-begins-with-the-sound_th.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 18.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 6.png",
+          "thermos.png",
+          "Asset 7.png"
+        ],
+        "correctAudios": [
+          "40464140_3_thermus.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "identify the picture which begins with sound th",
+        "questionImageName": "Asset 19.png",
+        "questionAudioName": "identify-the-picture-which-begins-with-the-sound_th.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 18.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 8.png",
+          "Asset 9.png",
+          "three.png"
+        ],
+        "correctAudios": [
+          "3.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "identify the picture which begins with sound th",
+        "questionImageName": "Asset 19.png",
+        "questionAudioName": "identify-the-picture-which-begins-with-the-sound_th.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 18.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 10.png",
+          "thumb.png",
+          "Asset 11.png"
+        ],
+        "correctAudios": [
+          "thumb.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "identify the picture which begins with sound th",
+        "questionImageName": "Asset 19.png",
+        "questionAudioName": "identify-the-picture-which-begins-with-the-sound_th.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 18.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "thunder.png",
+          "Asset 12.png",
+          "Asset 13.png"
+        ],
+        "correctAudios": [
+          "thunder.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

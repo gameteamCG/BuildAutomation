@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thermos",
+    "texture": "a87bf333-e11a-4fc1-bdcb-84f717d6e2ab",
+    "atlas": "",
+    "rect": [
+      127,
+      57,
+      57,
+      192
+    ],
+    "offset": [
+      5,
+      -2.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
