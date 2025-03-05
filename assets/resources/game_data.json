@@ -1,0 +1,133 @@
+{
+  "additionalData": {
+    "GameID": "Multiplication of a 2-digit number with a 1 digit number",
+    "totalLevel": "8",
+    "TitleImageName": "Asset 72.png",
+    "introBgName": "Bg (1).png",
+    "bgmMusicName": "BGM1302225.mp3",
+    "mainBgName": "Bg (1).png",
+    "JockeyName": "bag"
+  },
+  "questionData": [
+    {
+      "questionText": "11 × 2 = ?",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "22",
+        "11",
+        "232"
+      ],
+      "correctAudios": [
+        "11 multiplied by  2 equals to 22.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "12 × 3 = ?",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "35",
+        "36",
+        "24"
+      ],
+      "correctAudios": [
+        "12 multiplied by 3 equals to 36.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "14 × 1 = ?",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "14",
+        "140",
+        "1"
+      ],
+      "correctAudios": [
+        "14 multiplied by 1 equals to 14.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "22 × 4 = ?",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "44",
+        "888",
+        "88"
+      ],
+      "correctAudios": [
+        "22 multiplied by 4 equals to 88.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "23 × 2 = ?",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "24",
+        "46",
+        "48"
+      ],
+      "correctAudios": [
+        "23 multiplied by 2 equals to 46.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "31 × 2 = ?",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "62",
+        "32",
+        "92"
+      ],
+      "correctAudios": [
+        ""
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "32 × 3 = ?",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "69",
+        "94",
+        "96"
+      ],
+      "correctAudios": [
+        ""
+      ],
+      "correctAnswerNum": "4"
+    },
+    {
+      "questionText": "33 × 1 = ?",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "33",
+        "34",
+        "11"
+      ],
+      "correctAudios": [
+        ""
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
