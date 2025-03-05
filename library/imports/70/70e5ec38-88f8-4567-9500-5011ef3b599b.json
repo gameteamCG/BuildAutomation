@@ -1,0 +1,75 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Jumbo says",
+      "totalLevel": "8",
+      "TitleImageName": "Jumbo says_2.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "Jumbo says – Stand up",
+        "questionImageName": "Stand up.png",
+        "questionAudioName": "jumbo says stand up.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "Jumbo says – clap your hands",
+        "questionImageName": "clap your hands.png",
+        "questionAudioName": "Jumbo says clap your hands.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "Jumbo says – walk like a crab",
+        "questionImageName": "walk like a crab.png",
+        "questionAudioName": "Jumbo says walk like a crab.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "Jumbo says – walk like a fox",
+        "questionImageName": "Run like a fox.png",
+        "questionAudioName": "Jumbo says Run like a fox.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "Jumbo says – Fly like an owl",
+        "questionImageName": "Fly like an owl.png",
+        "questionAudioName": "Jumbo says Fly like an owl.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "Jumbo says – waddle like a penguin",
+        "questionImageName": "waddle like a penguin.png",
+        "questionAudioName": "Jumbo says waddle like a penguin.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "Jumbo says – Stop",
+        "questionImageName": "Stop.png",
+        "questionAudioName": "Jumbo says Stop.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "Jumbo says – Sit down",
+        "questionImageName": "Sit down.png",
+        "questionAudioName": "Jumbo says Sit down.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      }
+    ]
+  }
+}

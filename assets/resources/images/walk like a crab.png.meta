@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9793ab0f-e6c9-4891-aa65-7bd1a9d6ae5f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "walk like a crab": {
+      "ver": "1.0.6",
+      "uuid": "c674543b-f0b7-4968-a731-cd18c6087726",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9793ab0f-e6c9-4891-aa65-7bd1a9d6ae5f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 62,
+      "trimY": 107,
+      "width": 376,
+      "height": 287,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

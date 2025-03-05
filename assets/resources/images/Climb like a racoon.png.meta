@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a5cbcbac-f5ac-4ac1-9f85-26740f1590b4",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Climb like a racoon": {
+      "ver": "1.0.6",
+      "uuid": "c4c20d2b-257b-4ca9-bac9-c0c9fee12040",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a5cbcbac-f5ac-4ac1-9f85-26740f1590b4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -21.5,
+      "offsetY": 0,
+      "trimX": 163,
+      "trimY": 29,
+      "width": 131,
+      "height": 443,
+      "rawWidth": 500,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

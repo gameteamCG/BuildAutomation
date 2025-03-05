@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "walk like a crab",
+    "texture": "9793ab0f-e6c9-4891-aa65-7bd1a9d6ae5f",
+    "atlas": "",
+    "rect": [
+      62,
+      107,
+      376,
+      287
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

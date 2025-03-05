@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "waddle like a penguin",
+    "texture": "ac1f1af9-1331-4f9f-8347-abf2ec3bb844",
+    "atlas": "",
+    "rect": [
+      92,
+      14,
+      317,
+      473
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

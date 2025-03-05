@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d31e71ae-9138-4d57-8d93-25c2f0bb51da",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Spin like a spider": {
+      "ver": "1.0.6",
+      "uuid": "f69d964c-bf43-499a-9493-d0b0ebf65549",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d31e71ae-9138-4d57-8d93-25c2f0bb51da",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -0.5,
+      "trimX": 65,
+      "trimY": 29,
+      "width": 370,
+      "height": 444,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
