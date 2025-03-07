@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Letters and Sounds Ww",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Main_Video_9508360741_1741342989466.mp4",
+      "TitleImageName": "Main_Title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q_L1.png",
+        "QuestionAudioName": "QVO_L1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "OPT1_L1.png",
+          "OPT2_L1.png"
+        ],
+        "ReiterationAudioName": "ANS_L1.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q_L2.png",
+        "QuestionAudioName": "QVO_L2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "OPT2_L2.png",
+          "OPT1_L2.png"
+        ],
+        "ReiterationAudioName": "ANS_L2_Watch.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q_L3.png",
+        "QuestionAudioName": "QVO_L3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "OPT1_L1.png",
+          "OPT2_L3.png"
+        ],
+        "ReiterationAudioName": "ANS_L3.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_3.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
