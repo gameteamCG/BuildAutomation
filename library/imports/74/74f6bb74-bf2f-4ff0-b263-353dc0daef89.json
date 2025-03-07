@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "indoor_bg2",
+    "texture": "29337d5d-c568-4273-a76d-b0700355db12",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1921,
+      1031
+    ],
+    "offset": [
+      0,
+      25
+    ],
+    "originalSize": [
+      1921,
+      1081
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

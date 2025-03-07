@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "SUPERLETTERKK",
+      "totalLevel": "3",
+      "TitleImageName": "Kk.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "B2.mp3",
+      "mainBgName": "indoor_bg2.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "letter sound",
+        "questionImageName": "Basket_4.png",
+        "questionAudioName": "draganddroptheobjectbeginwithfff.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "kettle.png",
+          "Envelope.png",
+          "kite (2).png",
+          "elephant.png"
+        ],
+        "correctAudios": [
+          "kettle.mp3",
+          "kite.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionText": "letter sound",
+        "questionImageName": "Basket_4.png",
+        "questionAudioName": "Drag_and_drop_the_objects_that_begin_with_letters_ound_k.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Ant.png",
+          "key.png",
+          "Astronaut.png",
+          "kangaroo.png"
+        ],
+        "correctAudios": [
+          "key.mp3",
+          "kangaroo.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionText": "letter sound",
+        "questionImageName": "Basket_4.png",
+        "questionAudioName": "Drag_and_drop_the_objects_that_begin_with_letters_ound_k.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "king.png",
+          "jug.png",
+          "Jacket.png",
+          "kiwi.png"
+        ],
+        "correctAudios": [
+          "king.mp3",
+          "kiwi.mp3"
+        ],
+        "correctAnswerNum": "14"
+      }
+    ]
+  }
+}
