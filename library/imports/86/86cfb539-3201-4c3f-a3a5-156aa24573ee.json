@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Class2_Language_46: Comprehension",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/ComprehensionPatty_1741602642144.mp4",
+      "TitleImageName": "Asset 40 (3).png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "7"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "Who is the story about?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40905129_1_who-is-the-story-about.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Patty the milkmaid",
+          "Chickens"
+        ],
+        "ReiterationAudioName": "40905129_2_patty-the-milkmaid.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "What was she going to the market to sell?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40905129_3_what-was-she-going-to-.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "pail of milk",
+          "eggs"
+        ],
+        "ReiterationAudioName": "40905129_4_pail-of-milk.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": " What was she going to buy with the milk money?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40905129_5_what-was-she-going-to-.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "milk",
+          "eggs"
+        ],
+        "ReiterationAudioName": "40905129_6_eggs.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "What did Patty want to buy after selling the chickens?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40905129_7_what-did-patty-want-to.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "milk",
+          "dress"
+        ],
+        "ReiterationAudioName": "40905129_8_dress.mp3",
+        "CorrectAudioName": "positive_4.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "What happened while Patty was dreaming?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40905129_9_what-happened-while-pa.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "she tripped over a stone",
+          "she fell asleep"
+        ],
+        "ReiterationAudioName": "40905129_10_she-tripped-over-a-sto.mp3",
+        "CorrectAudioName": "positive_5.mp3",
+        "WrongAudioName": "positive_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "Why was Patty sad?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40905129_11_why-was-patty-sad.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "she had dropped the eggs",
+          "she had spilled the milk"
+        ],
+        "ReiterationAudioName": "40905129_12_she-had-spilled-the-mi.mp3",
+        "CorrectAudioName": "positive_6.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "What had Patty's mother told her?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40905129_13_what-had-pattys-mothe.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Don't put all your eggs in one basket",
+          "Don't count your chickens before they are hatched"
+        ],
+        "ReiterationAudioName": "40905129_14_dont-count-your-chick.mp3",
+        "CorrectAudioName": "positive_7.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
