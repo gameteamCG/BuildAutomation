@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Dori_L4_1",
+    "texture": "239f7547-beb3-44f0-95a0-8ae998f9911e",
+    "atlas": "",
+    "rect": [
+      13,
+      58,
+      174,
+      84
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

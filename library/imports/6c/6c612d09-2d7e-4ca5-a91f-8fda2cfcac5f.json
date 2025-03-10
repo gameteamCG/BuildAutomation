@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "पहला अक्षर",
+      "totalLevel": "6",
+      "TitleImageName": "GameTitle.png",
+      "introBgName": "LkgIntro.png",
+      "bgmMusicName": "BG_BB.mp3",
+      "mainBgName": "Main_BG.png",
+      "JockeyName": "hindi"
+    },
+    "questionData": [
+      {
+        "questionText": "पहला अक्षर",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back_card_new.png",
+        "frontCardImageName": "front_card.png",
+        "isOptionText": false,
+        "options": [
+          "tomato_L1_1.png",
+          "Thug_L1_2.png"
+        ],
+        "reiterationAudios": [
+          "tamatar.mp3",
+          "thug.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "ट",
+          "ठ"
+        ]
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back_card_new.png",
+        "frontCardImageName": "front_card.png",
+        "isOptionText": false,
+        "options": [
+          "Damru_L2_1.png",
+          "Dhokla_L2_2.png"
+        ],
+        "reiterationAudios": [
+          "damru.mp3",
+          "dhokla.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "ड",
+          "ढ"
+        ]
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back_card_new.png",
+        "frontCardImageName": "front_card.png",
+        "isOptionText": false,
+        "options": [
+          "Tokri_L3_1.png",
+          "Thero_L3_2.png"
+        ],
+        "reiterationAudios": [
+          "tokri.mp3",
+          "tehro.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "ट",
+          "ठ"
+        ]
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back_card_new.png",
+        "frontCardImageName": "front_card.png",
+        "isOptionText": false,
+        "options": [
+          "Dori_L4_1.png",
+          "Dhakkan_L4_2.png"
+        ],
+        "reiterationAudios": [
+          "dori.mp3",
+          "dhakkan.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "ड",
+          "ढ"
+        ]
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back_card_new.png",
+        "frontCardImageName": "front_card.png",
+        "isOptionText": false,
+        "options": [
+          "Tanki_L5_1.png",
+          "Thandi_L5_2.png"
+        ],
+        "reiterationAudios": [
+          "tanki.mp3",
+          "thandi.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "ट",
+          "ठ"
+        ]
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back_card_new.png",
+        "frontCardImageName": "front_card.png",
+        "isOptionText": false,
+        "options": [
+          "Dafli_L6_1.png",
+          "Dhalaan_L6_2.png"
+        ],
+        "reiterationAudios": [
+          "dafli.mp3",
+          "dhalaan.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "ड",
+          "ढ"
+        ]
+      }
+    ]
+  }
+}

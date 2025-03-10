@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "efe58ab7-1585-4be2-857a-5d04498ea856",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 201,
+  "height": 201,
+  "platformSettings": {},
+  "subMetas": {
+    "Dhokla_L2_2": {
+      "ver": "1.0.6",
+      "uuid": "177f7db8-a569-4643-9656-1cdf51428384",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "efe58ab7-1585-4be2-857a-5d04498ea856",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 20,
+      "trimY": 37,
+      "width": 161,
+      "height": 127,
+      "rawWidth": 201,
+      "rawHeight": 201,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

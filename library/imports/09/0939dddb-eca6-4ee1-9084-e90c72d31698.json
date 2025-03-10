@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Dhalaan_L6_2",
+    "texture": "f10dd6a7-4c77-42c4-b885-09d33b30f554",
+    "atlas": "",
+    "rect": [
+      14,
+      42,
+      174,
+      129
+    ],
+    "offset": [
+      0.5,
+      -6
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
