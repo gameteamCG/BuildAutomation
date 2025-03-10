@@ -1,0 +1,127 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Class1_Language_42: Comprehension",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/The_Lion_and_the_Mouse_1741604956549.mp4",
+      "TitleImageName": "Asset 40 (3).png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "Who was resting peacefully in the forest?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40904980_1_who-was-resting-peacef.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "lion",
+          "elephant"
+        ],
+        "ReiterationAudioName": "40904980_2_lion.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "Who awoke the lion from his sleep?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40904980_3_who-awoke-the-lion-fro.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "tiny ant",
+          "tiny mouse"
+        ],
+        "ReiterationAudioName": "40904980_4_tiny-mouse.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "While walking in the forest, what did the lion get caught in?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40904980_5_while-walking-in-the-f.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "hunter's net",
+          "spider's web"
+        ],
+        "ReiterationAudioName": "40904980_6_hunters-net.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "Who came to help the lion?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40904705_7_what-did-the-brown-goa.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "brown goat",
+          "tiny mouse"
+        ],
+        "ReiterationAudioName": "40904980_8_tiny-mouse.mp3",
+        "CorrectAudioName": "positive_4.mp3",
+        "WrongAudioName": "positive_2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "What did the mouse do to help the lion?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40904980_9_what-did-the-mouse-do-.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "gnawed the net",
+          "ran away"
+        ],
+        "ReiterationAudioName": "40904980_10_gnawed-the-net.mp3",
+        "CorrectAudioName": "positive_5.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "What did the lion say to the mouse when he got free?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40904980_11_what-did-the-lion-say-.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "I'm sorry",
+          "thank you"
+        ],
+        "ReiterationAudioName": "40904980_12_thank-you.mp3",
+        "CorrectAudioName": "positive_6.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
