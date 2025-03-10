@@ -1,0 +1,82 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Class2_Language_45: Short Forms",
+      "totalLevel": "3",
+      "TitleImageName": "Asset41.png",
+      "introBgName": "UBG.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "Asset5.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "short forms",
+        "questionAudioName": "matchthewordswiththeirshortforms.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset4.png",
+        "frontCardImageName": "Asset6.png",
+        "isOptionText": true,
+        "options": [
+          "we will",
+          "I have"
+        ],
+        "reiterationAudios": [
+          "40905092_2_we-will-well.mp3",
+          "40905092_3_i-have-ive.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "we'll",
+          "I've"
+        ]
+      },
+      {
+        "questionText": "short forms",
+        "questionAudioName": "matchthewordswiththeirshortforms.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset4.png",
+        "frontCardImageName": "Asset6.png",
+        "isOptionText": true,
+        "options": [
+          "you are",
+          "it has"
+        ],
+        "reiterationAudios": [
+          "40905092_4_you-are-youre.mp3",
+          "40905092_5_it-has-its.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "you're",
+          "it's"
+        ]
+      },
+      {
+        "questionText": "short forms",
+        "questionAudioName": "matchthewordswiththeirshortforms.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset4.png",
+        "frontCardImageName": "Asset6.png",
+        "isOptionText": true,
+        "options": [
+          "is not",
+          "when is"
+        ],
+        "reiterationAudios": [
+          "40905092_6_is-not-isnt.mp3",
+          "40905092_7_when-is-whens.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "isn't",
+          "when's"
+        ]
+      }
+    ]
+  }
+}
