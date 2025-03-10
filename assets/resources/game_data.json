@@ -1,0 +1,121 @@
+{
+  "AdditionalData": {
+    "GameID": "Class1_Language_42: Comprehension",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/The_Dog_and_his_Reflection_1741605721865.mp4",
+    "TitleImageName": "Asset 40 (3).png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "6"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "Who is the story about?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "40905025_1_who-is-the-story-about.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "dog",
+        "cat"
+      ],
+      "ReiterationAudioName": "40905025_2_dog.mp3",
+      "CorrectAudioName": "positive_1.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "What did the dog find in the forest?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "40905025_3_what-did-the-dog-find-.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "lion",
+        "bone"
+      ],
+      "ReiterationAudioName": "40905025_4_bone.mp3",
+      "CorrectAudioName": "positive_2.mp3",
+      "WrongAudioName": "negative_2.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "While crossing the bridge, what did the dog see in the stream?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Whilecrosssingthebridge,whatdidthedogseeinthestream.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "his own reflection",
+        "nothing"
+      ],
+      "ReiterationAudioName": "40905025_6_his-own-reflection.mp3",
+      "CorrectAudioName": "positive_3.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "What did the dog think when looking at his reflection?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "40905025_7_what-did-the-dog-think.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "it's a mouse",
+        "it's another dog"
+      ],
+      "ReiterationAudioName": "40905025_8_its-another-dog.mp3",
+      "CorrectAudioName": "positive_4.mp3",
+      "WrongAudioName": "positive_2.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "Which trait do we see in the dog while he was barking at his own reflection?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "40905025_9_which-trait-do-we-see-.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "greed",
+        "anger"
+      ],
+      "ReiterationAudioName": "40905025_10_greed.mp3",
+      "CorrectAudioName": "positive_5.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "What happened due to the dog's greed?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "40905025_11_what-happened-due-to-t.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "he found a new bone",
+        "he lost his bone"
+      ],
+      "ReiterationAudioName": "40905025_12_he-lost-his-bone.mp3",
+      "CorrectAudioName": "positive_6.mp3",
+      "WrongAudioName": "negative_2.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
