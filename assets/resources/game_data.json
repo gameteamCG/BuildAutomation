@@ -1,0 +1,180 @@
+{
+  "additionalData": {
+    "GameID": "पहला अक्षर",
+    "totalLevel": "7",
+    "TitleImageName": "GameTitle.png",
+    "introBgName": "LkgIntro.png",
+    "bgmMusicName": "BG_BB.mp3",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "BG1.png",
+      "questionAudioName": "QVO1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "a_1.png",
+        "a_4.png",
+        "a_5.png"
+      ],
+      "optionsBg": [
+        "q_1.png",
+        "q_4.png",
+        "q_5.png"
+      ],
+      "correctAudioName": "positive_1.mp3",
+      "wrongAudioName": "negative_1.mp3",
+      "reiterationAudioName": [
+        "Kachua.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "BG2.png",
+      "questionAudioName": "QVO1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "a_9.png",
+        "a_4.png",
+        "a_6.png"
+      ],
+      "optionsBg": [
+        "q_9.png",
+        "q_4.png",
+        "q_6.png"
+      ],
+      "correctAudioName": "positive_3.mp3",
+      "wrongAudioName": "negative_3.mp3",
+      "reiterationAudioName": [
+        "Khargosh.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "BG3.png",
+      "questionAudioName": "QVO1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "a_1.png",
+        "a_7.png",
+        "a_8.png"
+      ],
+      "optionsBg": [
+        "q_1.png",
+        "q_7.png",
+        "q_8.png"
+      ],
+      "correctAudioName": "positive_4.mp3",
+      "wrongAudioName": "negative_4.mp3",
+      "reiterationAudioName": [
+        "Ghoda.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "BG4.png",
+      "questionAudioName": "QVO1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "a_15.png",
+        "a_16.png",
+        "a_10.png"
+      ],
+      "optionsBg": [
+        "q_15.png",
+        "q_16.png",
+        "q_10.png"
+      ],
+      "correctAudioName": "positive_6.mp3",
+      "wrongAudioName": "negative_3.mp3",
+      "reiterationAudioName": [
+        "Gadha.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "BG5.png",
+      "questionAudioName": "QVO1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "a_14.png",
+        "a_9.png",
+        "a_12.png"
+      ],
+      "optionsBg": [
+        "q_14.png",
+        "q_9.png",
+        "q_12.png"
+      ],
+      "correctAudioName": "positive_4.mp3",
+      "wrongAudioName": "negative_2.mp3",
+      "reiterationAudioName": [
+        "Kabutar.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "BG6.png",
+      "questionAudioName": "QVO1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "a_3.png",
+        "a_10.png",
+        "a_16.png"
+      ],
+      "optionsBg": [
+        "q_3.png",
+        "q_10.png",
+        "q_16.png"
+      ],
+      "correctAudioName": "positive_5.mp3",
+      "wrongAudioName": "negative_5.mp3",
+      "reiterationAudioName": [
+        "Ghosla.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "BG7.png",
+      "questionAudioName": "QVO2.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "a_20.png",
+        "a_21.png",
+        "a_22.png"
+      ],
+      "optionsBg": [
+        "q_20.png",
+        "q_21.png",
+        "q_22.png"
+      ],
+      "correctAudioName": "positive_5.mp3",
+      "wrongAudioName": "negative_2.mp3",
+      "reiterationAudioName": [
+        "Last_Level.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
