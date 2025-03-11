@@ -1,0 +1,193 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "पहला अक्षर",
+      "totalLevel": "6",
+      "TitleImageName": "GameTitle.png",
+      "introBgName": "LkgIntro.png",
+      "bgmMusicName": "BG_BB.mp3",
+      "mainBgName": "Main_BG.png",
+      "JockeyName": "hindi"
+    },
+    "questionData": [
+      {
+        "questionText": "पहला अक्षर",
+        "questionAudioName": "QVO1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "CommonPuzzleBG.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L1_1.png",
+          "L1_2.png",
+          "L1_3.png",
+          "L1_4.png"
+        ],
+        "correctAudioName": "Airavat.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO2.mp3",
+        "commonOptionImageName": "OPT_BG_2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ऐ",
+          "ई",
+          "ऋ"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Airavat.mp3"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionAudioName": "QVO1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "CommonPuzzleBG.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L2_1.png",
+          "L2_2.png",
+          "L2_3.png",
+          "L2_4.png"
+        ],
+        "correctAudioName": "Oakhli.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO2.mp3",
+        "commonOptionImageName": "OPT_BG_2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "अं",
+          "ओ",
+          "उ"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "Oakhli.mp3"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionAudioName": "QVO1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "CommonPuzzleBG.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L3_1.png",
+          "L3_2.png",
+          "L3_3.png",
+          "L3_4.png"
+        ],
+        "correctAudioName": "Anguthi.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO2.mp3",
+        "commonOptionImageName": "OPT_BG_2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ऋ",
+          "इ",
+          "अं"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "Anguthi.mp3"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionAudioName": "QVO1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "CommonPuzzleBG.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L4_1.png",
+          "L4_2.png",
+          "L4_3.png",
+          "L4_4.png"
+        ],
+        "correctAudioName": "Adrak.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO2.mp3",
+        "commonOptionImageName": "OPT_BG_2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ए",
+          "अ",
+          "उ"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "Adrak.mp3"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionAudioName": "QVO1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "CommonPuzzleBG.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L5_1.png",
+          "L5_2.png",
+          "L5_3.png",
+          "L5_4.png"
+        ],
+        "correctAudioName": "Eid.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO2.mp3",
+        "commonOptionImageName": "OPT_BG_2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ई",
+          "ऊ",
+          "अः"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Eid.mp3"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionAudioName": "QVO1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "CommonPuzzleBG.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L5_1.png",
+          "L5_2.png",
+          "L5_3.png",
+          "L5_4.png"
+        ],
+        "correctAudioName": "Ullu.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO2.mp3",
+        "commonOptionImageName": "OPT_BG_2.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ओ",
+          "ए",
+          "उ"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "Ullu.mp3"
+      }
+    ]
+  }
+}
