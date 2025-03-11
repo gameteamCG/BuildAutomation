@@ -1,0 +1,127 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Comprehension_Class1_Language_40",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/The_two_goats_1741671823778.mp4",
+      "TitleImageName": "Asset 40.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "Who is the story about?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40904705_1_who-is-the-story-about.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 25.png",
+          "Asset 26 (1).png"
+        ],
+        "ReiterationAudioName": "40904705_2_2-goats.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "What did the brown goat want to eat? ",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40904705_3_what-did-the-brown-goa.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 24.png",
+          "Asset 23.png"
+        ],
+        "ReiterationAudioName": "40904705_4_green-grass.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "What did the brown goat need to cross to reach the grass patch?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40904705_5_what-did-the-brown-goa.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 19.png",
+          "Asset 20.png"
+        ],
+        "ReiterationAudioName": "40904705_6_bridge.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "What did the brown goat see when he walked to cross the bridge?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40904705_7_what-did-the-brown-goa.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 22.png",
+          "Asset 21.png"
+        ],
+        "ReiterationAudioName": "40904705_8_white-goat.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "Whose idea was it to take turns to cross the bridge?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40904705_9_whose-idea-was-it-to-t.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 17.png",
+          "Asset 18.png"
+        ],
+        "ReiterationAudioName": "40904705_10_brown.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "Did they successfully manage to cross the bridge?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40904705_11_did-they-successfully-.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 16.png",
+          "Asset 15.png"
+        ],
+        "ReiterationAudioName": "40904705_12_yes.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
