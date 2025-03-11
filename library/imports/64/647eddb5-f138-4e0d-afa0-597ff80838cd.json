@@ -1,0 +1,127 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Comprehension_Class1_Language_42",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/The_Dog_and_his_Reflection_1741672014587.mp4",
+      "TitleImageName": "Asset 40.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "Who is the story about?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40905025_1_who-is-the-story-about.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 38.png",
+          "Asset 37 (1).png"
+        ],
+        "ReiterationAudioName": "40905025_2_dog.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "What did the dog find in the forest?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40905025_3_what-did-the-dog-find-.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 35.png",
+          "Asset 36 (1).png"
+        ],
+        "ReiterationAudioName": "40905025_4_bone.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "While crossing the bridge, what did the dog see in the stream?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "While cross sing the bridge, what did the dog see in the stream.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 34.png",
+          "Asset 33.png"
+        ],
+        "ReiterationAudioName": "40905025_6_his-own-reflection.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "What did the dog think when looking at his reflection?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40905025_7_what-did-the-dog-think.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 34.png",
+          "Asset 32.png"
+        ],
+        "ReiterationAudioName": "40905025_8_its-another-dog.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "Which trait do we see in the dog while he was barking at his own reflection?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40905025_9_which-trait-do-we-see-.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 28.png",
+          "Asset 27.png"
+        ],
+        "ReiterationAudioName": "40905025_10_greed.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": true,
+        "QuestionText": "What happened due to the dog's greed?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "40905025_11_what-happened-due-to-t.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 30.png",
+          "Asset 31.png"
+        ],
+        "ReiterationAudioName": "40905025_12_he-lost-his-bone.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
