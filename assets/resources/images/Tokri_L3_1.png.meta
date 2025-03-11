@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c388aa81-ce54-42a6-995e-9f8d373a8bad",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 201,
+  "height": 201,
+  "platformSettings": {},
+  "subMetas": {
+    "Tokri_L3_1": {
+      "ver": "1.0.6",
+      "uuid": "73a0a5c0-7ce7-4fea-928e-da1a3104e47b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c388aa81-ce54-42a6-995e-9f8d373a8bad",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 10,
+      "trimY": 49,
+      "width": 182,
+      "height": 103,
+      "rawWidth": 201,
+      "rawHeight": 201,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

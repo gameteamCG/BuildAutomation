@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Tokri_L3_1",
+    "texture": "c388aa81-ce54-42a6-995e-9f8d373a8bad",
+    "atlas": "",
+    "rect": [
+      10,
+      49,
+      182,
+      103
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

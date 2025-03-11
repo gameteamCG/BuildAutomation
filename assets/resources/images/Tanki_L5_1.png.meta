@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "083f6a98-a334-4074-9bd8-b1f62be87593",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 201,
+  "height": 201,
+  "platformSettings": {},
+  "subMetas": {
+    "Tanki_L5_1": {
+      "ver": "1.0.6",
+      "uuid": "511c2866-ec85-40c4-b311-53113d896a14",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "083f6a98-a334-4074-9bd8-b1f62be87593",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -0.5,
+      "trimX": 37,
+      "trimY": 13,
+      "width": 126,
+      "height": 176,
+      "rawWidth": 201,
+      "rawHeight": 201,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

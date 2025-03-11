@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Dhokla_L2_2",
+    "texture": "70bd9bc7-2283-4bc3-b822-57ee1a8b5cc6",
+    "atlas": "",
+    "rect": [
+      20,
+      37,
+      161,
+      127
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

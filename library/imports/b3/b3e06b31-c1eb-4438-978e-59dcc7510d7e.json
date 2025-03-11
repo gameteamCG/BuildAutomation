@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Thug_L1_2",
+    "texture": "04a500cd-bc07-4c56-a315-94189a85361a",
+    "atlas": "",
+    "rect": [
+      40,
+      14,
+      121,
+      173
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

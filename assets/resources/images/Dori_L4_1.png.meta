@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a43fc09d-8c02-49ee-bc47-bfd1dac2c276",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 201,
+  "height": 201,
+  "platformSettings": {},
+  "subMetas": {
+    "Dori_L4_1": {
+      "ver": "1.0.6",
+      "uuid": "f5917358-5e16-4de6-a14d-9319de2bfe9e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a43fc09d-8c02-49ee-bc47-bfd1dac2c276",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 13,
+      "trimY": 58,
+      "width": 174,
+      "height": 84,
+      "rawWidth": 201,
+      "rawHeight": 201,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

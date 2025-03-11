@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "2dc18ce3-0c96-4bc3-a451-4f8b58e5cfb8",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 201,
+  "height": 201,
+  "platformSettings": {},
+  "subMetas": {
+    "Thandi_L5_2": {
+      "ver": "1.0.6",
+      "uuid": "200cb534-6eda-44c9-ac16-827afc600182",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2dc18ce3-0c96-4bc3-a451-4f8b58e5cfb8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -4.5,
+      "offsetY": 1,
+      "trimX": 63,
+      "trimY": 15,
+      "width": 66,
+      "height": 169,
+      "rawWidth": 201,
+      "rawHeight": 201,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

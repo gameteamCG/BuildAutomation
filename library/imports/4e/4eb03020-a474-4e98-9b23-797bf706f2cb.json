@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Dhakkan_L4_2",
+    "texture": "7072b9ce-3b2f-40aa-b896-3489e257793f",
+    "atlas": "",
+    "rect": [
+      8,
+      61,
+      185,
+      78
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
