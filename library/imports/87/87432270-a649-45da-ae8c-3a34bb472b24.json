@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vhj",
+    "texture": "0eb7ffdd-dbfc-4cce-8eb2-7f9d2a212edd",
+    "atlas": "",
+    "rect": [
+      122,
+      103,
+      258,
+      294
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ihiy",
+    "texture": "4b6516f7-fa62-4dae-9000-1110bf750d70",
+    "atlas": "",
+    "rect": [
+      118,
+      116,
+      285,
+      284
+    ],
+    "offset": [
+      10.5,
+      -8
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
