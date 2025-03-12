@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Jhopdi",
+    "texture": "12fadf4e-35d7-4765-bb6d-41d45922181e",
+    "atlas": "",
+    "rect": [
+      54,
+      54,
+      395,
+      395
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

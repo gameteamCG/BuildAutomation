@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Jalebi",
+    "texture": "709fa1ea-a859-4fdc-9785-aa55124dc3d7",
+    "atlas": "",
+    "rect": [
+      50,
+      145,
+      394,
+      268
+    ],
+    "offset": [
+      -3.5,
+      -28.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

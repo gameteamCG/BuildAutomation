@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Chakla",
+    "texture": "14b8c5e5-dbe9-4286-8189-92125d0f82de",
+    "atlas": "",
+    "rect": [
+      22,
+      152,
+      457,
+      196
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

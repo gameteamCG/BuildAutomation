@@ -1,0 +1,152 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "पहला अक्षर",
+      "totalLevel": "7",
+      "TitleImageName": "GameTitle.png",
+      "introBgName": "LkgIntro.png",
+      "bgmMusicName": "BG_BB.mp3",
+      "mainBgName": "Main_BG.png",
+      "JockeyName": "hindi"
+    },
+    "questionData": [
+      {
+        "questionText": "पहला अक्षर",
+        "questionImageName": "Q4.png",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Opt_BG.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Charkha.png",
+          "w_1.png",
+          "w_3.png",
+          "w_11.png"
+        ],
+        "correctAudios": [
+          "charkha.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionImageName": "Q3.png",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Opt_BG.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "w_10.png",
+          "Jalebi.png",
+          "w_13.png",
+          "w_2.png"
+        ],
+        "correctAudios": [
+          "jalebi.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionImageName": "Q2.png",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Opt_BG.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "w_11.png",
+          "w_7.png",
+          "w_10.png",
+          "Jhaadu.png"
+        ],
+        "correctAudios": [
+          "jhaadu.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionImageName": "QL4.png",
+        "questionAudioName": "QVO2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Opt_BG.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "ञ",
+          "ब",
+          "थ",
+          "श"
+        ],
+        "correctAudios": [
+          "LastVO.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionImageName": "Q1.png",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Opt_BG.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Chatta.png",
+          "w_1.png",
+          "w_9.png",
+          "w_14.png"
+        ],
+        "correctAudios": [
+          "chatta.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionImageName": "Q2.png",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "Opt_BG.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "w_5.png",
+          "w_8.png",
+          "Jhopdi.png",
+          "w_12.png"
+        ],
+        "correctAudios": [
+          "jhopdi.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionImageName": "Q4.png",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Opt_BG.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Chakla.png",
+          "w_8.png",
+          "w_10.png",
+          "w_13.png"
+        ],
+        "correctAudios": [
+          "chakla.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
