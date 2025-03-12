@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "google",
+    "texture": "6989945e-3f67-44f9-ae1f-e840c1c7013e",
+    "atlas": "",
+    "rect": [
+      123,
+      118,
+      327,
+      250
+    ],
+    "offset": [
+      36.5,
+      7
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

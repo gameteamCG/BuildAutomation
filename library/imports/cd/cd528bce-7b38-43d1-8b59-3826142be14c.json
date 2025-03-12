@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Rectangle_NUR_SB4_55",
+      "totalLevel": "7",
+      "TitleImageName": "Asset 53.png",
+      "introBgName": "Bg(8).png",
+      "bgmMusicName": "bgmm.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "match to rectangular object",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "rectangle.png"
+        ],
+        "reiterations": [
+          "Rectangleclipboard.mp3"
+        ],
+        "commonRightOptionImageName": "puzz1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "clipboard.png",
+          "google.png"
+        ]
+      },
+      {
+        "questionText": "match to rectangular object",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "rectangle.png"
+        ],
+        "reiterations": [
+          "Rectangleframe.mp3"
+        ],
+        "commonRightOptionImageName": "puzz1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "frame.png",
+          "hat.png"
+        ]
+      },
+      {
+        "questionText": "match to rectangular object",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "rectangle.png"
+        ],
+        "reiterations": [
+          "Rectangledoor.mp3"
+        ],
+        "commonRightOptionImageName": "puzz1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "door.png",
+          "pyramid.png"
+        ]
+      },
+      {
+        "questionText": "match to rectangular object",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "rectangle.png"
+        ],
+        "reiterations": [
+          "Rectanglesmartphone.mp3"
+        ],
+        "commonRightOptionImageName": "puzz1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "smartphone.png",
+          "sqclock.png"
+        ]
+      },
+      {
+        "questionText": "match to rectangular object",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "rectangle.png"
+        ],
+        "reiterations": [
+          "Rectangleplayingcard.mp3"
+        ],
+        "commonRightOptionImageName": "puzz1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "card.png",
+          "star.png"
+        ]
+      },
+      {
+        "questionText": "match to rectangular object",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "rectangle.png"
+        ],
+        "reiterations": [
+          "Rectanglecarpet.mp3"
+        ],
+        "commonRightOptionImageName": "puzz1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "towel.png",
+          "stars.png"
+        ]
+      },
+      {
+        "questionText": "match to rectangular object",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "rectangle.png"
+        ],
+        "reiterations": [
+          "Rectangletowel.mp3"
+        ],
+        "commonRightOptionImageName": "puzz1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "carpet.png",
+          "watermelon.png"
+        ]
+      }
+    ]
+  }
+}

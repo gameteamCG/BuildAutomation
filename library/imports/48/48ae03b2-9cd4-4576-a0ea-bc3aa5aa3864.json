@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "clipboard",
+    "texture": "168a1d32-e45a-48dc-b667-35a2673945d8",
+    "atlas": "",
+    "rect": [
+      164,
+      59,
+      237,
+      382
+    ],
+    "offset": [
+      32.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
