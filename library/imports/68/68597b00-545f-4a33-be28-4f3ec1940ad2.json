@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ewrtyui",
+    "texture": "8e500caa-338f-4f66-88e5-c424fae3e664",
+    "atlas": "",
+    "rect": [
+      0,
+      6,
+      1930,
+      1045
+    ],
+    "offset": [
+      0,
+      -3
+    ],
+    "originalSize": [
+      1930,
+      1051
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

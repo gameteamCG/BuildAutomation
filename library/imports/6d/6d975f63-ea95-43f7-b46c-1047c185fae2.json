@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fghnjk",
+    "texture": "6cdc2a48-d176-4e1a-be81-f7885448534e",
+    "atlas": "",
+    "rect": [
+      79,
+      94,
+      342,
+      309
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

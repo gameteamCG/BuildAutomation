@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wefgh",
+    "texture": "b10eff87-1de1-4f5c-8d7e-40913d04d121",
+    "atlas": "",
+    "rect": [
+      0,
+      37,
+      1922,
+      1095
+    ],
+    "offset": [
+      -2.5,
+      -18.5
+    ],
+    "originalSize": [
+      1927,
+      1132
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
