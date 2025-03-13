@@ -1,0 +1,171 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Ss Letters and sounds_NUR_sb4_2",
+      "totalLevel": "6",
+      "TitleImageName": "Asset 86 (1).png",
+      "introBgName": "NUR.png",
+      "bgmMusicName": "Kids Game_1.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset 109.png",
+        "questionAudioName": "identify-the-letter-s.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 46.png",
+          "Asset 45.png",
+          "waga.png",
+          "Asset 46.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "S SAYS SS.mp3",
+          "S SAYS SS.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset 103.png",
+        "questionAudioName": "Tap on the picture that begins with letter sound s.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 175.png",
+          "Asset 188.png",
+          "Asset 185.png"
+        ],
+        "optionsBg": [
+          "Asset 189.png",
+          "Asset 187.png",
+          "Asset 186.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "40533369_5_snake.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset 108.png",
+        "questionAudioName": "choose the uppercase letter s.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 43.png",
+          "Asset 44.png",
+          "Asset 43.png",
+          "Asset 50.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "S SAYS SS.mp3",
+          "S SAYS SS.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset 103.png",
+        "questionAudioName": "Tap on the picture that begins with letter sound s.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 174.png",
+          "Asset 172.png",
+          "Asset 171.png"
+        ],
+        "optionsBg": [
+          "Asset 173.png",
+          "Asset 170.png",
+          "Asset 169.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "39632102_11_spider.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset 110.png",
+        "questionAudioName": "tap on the lowercase letter s.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 48.png",
+          "Asset 49.png",
+          "Asset 47.png",
+          "Asset 48.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "S SAYS SS.mp3",
+          "S SAYS SS.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "31633.jpg",
+        "questionAudioName": "Tap on the picture that begins with letter sound s.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 181.png",
+          "Asset 180.png",
+          "Asset 179.png"
+        ],
+        "optionsBg": [
+          "Asset 178.png",
+          "Asset 177.png",
+          "Asset 176.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "40533369_3_star.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
