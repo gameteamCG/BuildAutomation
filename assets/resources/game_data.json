@@ -1,0 +1,159 @@
+{
+  "additionalData": {
+    "GameID": "Letter Xx Letters and sounds_NUR_sb4_22",
+    "totalLevel": "6",
+    "TitleImageName": "Asset 77 (1).png",
+    "introBgName": "NUR.png",
+    "bgmMusicName": "Kids Game_1.mp3",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "oihg.png",
+      "questionAudioName": "IDENTIFY AND TAP THE LETTER X.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "xx.png",
+        "aa.png",
+        "xx.png",
+        "refdxc.png"
+      ],
+      "optionsBg": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "wrongAudioName": "nevermind,tryagain.mp3",
+      "reiterationAudioName": [
+        "X SAYS XX.mp3",
+        "X SAYS XX.mp3"
+      ],
+      "correctAnswerNum": "13"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "ewrtyui.png",
+      "questionAudioName": "Tap on the picture that begins with letter sound x.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "hjn.png",
+        "wsaxz.png",
+        "iuj.png"
+      ],
+      "optionsBg": [
+        "oikjm.png",
+        "dgfthj.png",
+        "dsd.png"
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "wrongAudioName": "ohoh.mp3",
+      "reiterationAudioName": [
+        "x-mas-tree.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "dcvg.png",
+      "questionAudioName": "tap on the uppercase letter X.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "fdghj.png",
+        "tyg.png",
+        "jhgf.png"
+      ],
+      "optionsBg": [
+        "",
+        "",
+        ""
+      ],
+      "correctAudioName": "GOODEFFORT.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "X SAYS XX.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "hgvb.png",
+      "questionAudioName": "Tap on the picture that begins with letter sound x.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "gf.png",
+        "fds.png",
+        "fff.png"
+      ],
+      "optionsBg": [
+        "ffff.png",
+        "dfff.png",
+        "yvghjkj.png"
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "wrongAudioName": "nevermind,tryagain.mp3",
+      "reiterationAudioName": [
+        "x-ray.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "d3fe.png",
+      "questionAudioName": "tap on the lowercase letter X.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "ss.png",
+        "cc.png",
+        "xx.png"
+      ],
+      "optionsBg": [
+        "",
+        "",
+        ""
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "wrongAudioName": "ohoh.mp3",
+      "reiterationAudioName": [
+        "X SAYS XX.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "dfgyu.png",
+      "questionAudioName": "Tap on the picture that begins with letter sound x.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "fghnjk.png",
+        "fcvghbjnk.png",
+        "hgfx.png"
+      ],
+      "optionsBg": [
+        "ddsdxdd.png",
+        "dfcdd.png",
+        "dfgh.png"
+      ],
+      "correctAudioName": "GOODEFFORT.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "x-ray-fish.mp3"
+      ],
+      "correctAnswerNum": "3"
+    }
+  ]
+}
