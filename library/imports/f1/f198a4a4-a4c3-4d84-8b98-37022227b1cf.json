@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "squarebiscuit",
+    "texture": "fd583432-480a-4293-8c2b-3042c063b602",
+    "atlas": "",
+    "rect": [
+      39,
+      45,
+      420,
+      418
+    ],
+    "offset": [
+      -1,
+      -4
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
