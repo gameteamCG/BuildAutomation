@@ -1,0 +1,171 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Uu Letters and sounds_NUR_sb4_10",
+      "totalLevel": "6",
+      "TitleImageName": "Asset 84.png",
+      "introBgName": "NUR.png",
+      "bgmMusicName": "Kids Game_1.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset 31.png",
+        "questionAudioName": "IdentifY the letter u .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "ughuf.png",
+          "fvyhu.png",
+          "gctc.png",
+          "ughuf.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "U SAYS UU.mp3",
+          "U SAYS UU.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset 27.png",
+        "questionAudioName": "Tap on the picture that begins with letter sound u.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 14.png",
+          "Asset 12.png",
+          "Asset 13.png"
+        ],
+        "optionsBg": [
+          "Asset 11.png",
+          "Asset 9.png",
+          "Asset 10.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "39994940_6_up.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "31633.jpg",
+        "questionAudioName": "tap on the uppercase letter u.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 11 (1).png",
+          "Asset 10 (2).png",
+          "Asset 9 (2).png",
+          "Asset 11 (1).png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "U SAYS UU.mp3",
+          "U SAYS UU.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset 29.png",
+        "questionAudioName": "Tap on the picture that begins with letter sound u.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 19.png",
+          "Asset 18.png",
+          "Asset 20.png"
+        ],
+        "optionsBg": [
+          "Asset 16.png",
+          "Asset 15.png",
+          "Asset 17.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "32846825_10_umbrella.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset 32.png",
+        "questionAudioName": "tap on the lowercase letter u.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "huyfctd.png",
+          "fh.png",
+          "gfctfch.png",
+          "huyfctd.png"
+        ],
+        "optionsBg": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "U SAYS UU.mp3",
+          "U SAYS UU.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset 28.png",
+        "questionAudioName": "Tap on the picture that begins with letter sound u.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 24.png",
+          "Asset 25.png",
+          "Asset 26.png"
+        ],
+        "optionsBg": [
+          "Asset 21.png",
+          "Asset 22.png",
+          "Asset 23.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "umpire.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
