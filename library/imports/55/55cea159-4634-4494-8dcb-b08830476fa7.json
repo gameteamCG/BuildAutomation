@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tyg",
+    "texture": "b37f9c1f-82f8-4ff0-90be-cc0670a4d66b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      301,
+      312
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      301,
+      312
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

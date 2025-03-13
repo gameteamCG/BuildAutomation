@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wsaxz",
+    "texture": "675d4cf5-78aa-4041-9451-20c5f17a4cba",
+    "atlas": "",
+    "rect": [
+      96,
+      106,
+      309,
+      288
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
