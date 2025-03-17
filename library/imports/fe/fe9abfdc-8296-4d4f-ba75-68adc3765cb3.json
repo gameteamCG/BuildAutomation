@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "theatre",
+    "texture": "ca92307f-dbea-4dcc-aca1-e1882ebad13e",
+    "atlas": "",
+    "rect": [
+      29,
+      99,
+      190,
+      40
+    ],
+    "offset": [
+      -1.5,
+      6.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
