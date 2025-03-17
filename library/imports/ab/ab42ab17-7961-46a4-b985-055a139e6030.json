@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": " Thumbelina",
+    "texture": "0af04c47-b545-4be4-8823-69e698c3eada",
+    "atlas": "",
+    "rect": [
+      14,
+      106,
+      223,
+      30
+    ],
+    "offset": [
+      0,
+      4.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

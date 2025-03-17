@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thief",
+    "texture": "6d31f31a-ff88-42fd-8839-19dc39ddb7d7",
+    "atlas": "",
+    "rect": [
+      62,
+      99,
+      127,
+      56
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
