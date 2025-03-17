@@ -1,0 +1,75 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "sound th - picture talk",
+      "totalLevel": "8",
+      "TitleImageName": "title.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "BGM2.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "dog pose",
+        "questionImageName": "dog.png",
+        "questionAudioName": "dog_pose.mp3",
+        "isTimerNeeded": false,
+        "timer": 10
+      },
+      {
+        "questionText": "frog pose",
+        "questionImageName": "frog.png",
+        "questionAudioName": "frog_pose.mp3",
+        "isTimerNeeded": false,
+        "timer": 10
+      },
+      {
+        "questionText": "jack rabbit pose",
+        "questionImageName": "jack_rabbit.png",
+        "questionAudioName": "jack_rabbit_pose.mp3",
+        "isTimerNeeded": false,
+        "timer": 10
+      },
+      {
+        "questionText": "resting crocodile pose",
+        "questionImageName": "crocodile.png",
+        "questionAudioName": "resting_crocodile_pose.mp3",
+        "isTimerNeeded": false,
+        "timer": 10
+      },
+      {
+        "questionText": "eagle pose",
+        "questionImageName": "eagle.png",
+        "questionAudioName": "eagle_pose.mp3",
+        "isTimerNeeded": false,
+        "timer": 10
+      },
+      {
+        "questionText": "horse pose",
+        "questionImageName": "horse.png",
+        "questionAudioName": "horse_pose.mp3",
+        "isTimerNeeded": false,
+        "timer": 10
+      },
+      {
+        "questionText": "lion pose",
+        "questionImageName": "lion.png",
+        "questionAudioName": "lion_pose.mp3",
+        "isTimerNeeded": false,
+        "timer": 10
+      },
+      {
+        "questionText": "owl pose",
+        "questionImageName": "owl.png",
+        "questionAudioName": "owl_pose.mp3",
+        "isTimerNeeded": false,
+        "timer": 10
+      }
+    ]
+  }
+}
