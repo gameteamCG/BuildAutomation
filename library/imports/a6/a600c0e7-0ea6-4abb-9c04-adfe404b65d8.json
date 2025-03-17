@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mother and fathert",
+    "texture": "c966a2cf-25b4-40d8-9b81-e8878d3143fe",
+    "atlas": "",
+    "rect": [
+      17,
+      109,
+      216,
+      79
+    ],
+    "offset": [
+      -0.5,
+      -23
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
