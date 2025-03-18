@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3D shape pyramid_1",
+    "texture": "1aa50abf-ac02-43af-a4aa-0172a367982b",
+    "atlas": "",
+    "rect": [
+      16,
+      7,
+      723,
+      349
+    ],
+    "offset": [
+      1.5,
+      -2.5
+    ],
+    "originalSize": [
+      752,
+      358
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
