@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Junior",
+    "texture": "a3f0ef8f-3833-4889-8933-913a51862984",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1920,
+      1080
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

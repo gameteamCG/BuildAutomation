@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "twin it up!",
+    "texture": "8ce19261-a0e9-4b62-ba46-69e43afc81fe",
+    "atlas": "",
+    "rect": [
+      0,
+      15,
+      414,
+      341
+    ],
+    "offset": [
+      -6.5,
+      -6.5
+    ],
+    "originalSize": [
+      427,
+      358
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
