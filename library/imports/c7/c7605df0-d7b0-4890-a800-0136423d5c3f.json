@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "carrat1",
+    "texture": "e3b7c075-d300-4030-8bad-35cb1b29f0ed",
+    "atlas": "",
+    "rect": [
+      31,
+      14,
+      398,
+      478
+    ],
+    "offset": [
+      -20,
+      -3
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

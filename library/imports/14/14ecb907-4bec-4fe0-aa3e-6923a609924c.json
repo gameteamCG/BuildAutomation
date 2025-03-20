@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "patato1",
+    "texture": "c6d65178-d917-44de-9eaf-4842c9e376ab",
+    "atlas": "",
+    "rect": [
+      47,
+      17,
+      404,
+      466
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

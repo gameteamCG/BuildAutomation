@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pukin1",
+    "texture": "111ac8fe-e8de-4834-bba9-79c6d2dc1727",
+    "atlas": "",
+    "rect": [
+      14,
+      52,
+      472,
+      396
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

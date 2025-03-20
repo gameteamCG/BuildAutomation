@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "capsicum",
+    "texture": "b092171f-b1b1-4732-81d9-408fa048c368",
+    "atlas": "",
+    "rect": [
+      57,
+      9,
+      386,
+      482
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
