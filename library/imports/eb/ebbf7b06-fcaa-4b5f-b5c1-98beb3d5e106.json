@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "debuggingwithfruitsandvegetable",
+    "texture": "b1c5f835-24d4-4f3b-9bea-d3a23c330b66",
+    "atlas": "",
+    "rect": [
+      4,
+      8,
+      633,
+      215
+    ],
+    "offset": [
+      -6,
+      0.5
+    ],
+    "originalSize": [
+      653,
+      232
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
