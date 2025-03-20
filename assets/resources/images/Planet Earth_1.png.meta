@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "63b66c55-6fd8-4567-98c4-4c72c292bcce",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 506,
+  "height": 358,
+  "platformSettings": {},
+  "subMetas": {
+    "Planet Earth_1": {
+      "ver": "1.0.6",
+      "uuid": "06bfa180-5cf0-4f42-a34a-b19beadc100b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "63b66c55-6fd8-4567-98c4-4c72c292bcce",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": 21,
+      "trimX": 16,
+      "trimY": 7,
+      "width": 478,
+      "height": 302,
+      "rawWidth": 506,
+      "rawHeight": 358,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Planet Earth_1",
+    "texture": "63b66c55-6fd8-4567-98c4-4c72c292bcce",
+    "atlas": "",
+    "rect": [
+      16,
+      7,
+      478,
+      302
+    ],
+    "offset": [
+      2,
+      21
+    ],
+    "originalSize": [
+      506,
+      358
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
