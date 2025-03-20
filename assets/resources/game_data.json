@@ -1,0 +1,213 @@
+{
+  "AdditionalData": {
+    "GameID": "Planet Earth",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Planet_Earth_1742464323403.mp4",
+    "TitleImageName": "Planet Earth_1.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "Podar",
+    "TotalLevel": "10"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "1_1.png",
+      "QuestionAudioName": "40985662_1_identify-the-planet-we.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "1.png",
+        "Asset 25.png",
+        "Asset 30.png",
+        "Asset 37.png"
+      ],
+      "ReiterationAudioName": "40985662_2_earth.mp3",
+      "CorrectAudioName": "positive_1.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "2_1.png",
+      "QuestionAudioName": "40985662_3_which-colour-do-we-see.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset 35.png",
+        "2.png",
+        "Asset 36.png",
+        "Asset 24.png"
+      ],
+      "ReiterationAudioName": "40985662_4_blue.mp3",
+      "CorrectAudioName": "positive_2.mp3",
+      "WrongAudioName": "negative_2.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "3_1.png",
+      "QuestionAudioName": "40985662_5_what-does-the-blue-col.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset 21.png",
+        "Asset 32.png",
+        "3.png",
+        "Asset 40.png"
+      ],
+      "ReiterationAudioName": "40985662_6_sea-and-ocean.mp3",
+      "CorrectAudioName": "positive_3.mp3",
+      "WrongAudioName": "negative_3.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "4_1.png",
+      "QuestionAudioName": "40985662_7_what-is-the-brown-gree.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset 31.png",
+        "Asset 32.png",
+        "Asset 33.png",
+        "4.png"
+      ],
+      "ReiterationAudioName": "40985662_8_land.mp3",
+      "CorrectAudioName": "positive_4.mp3",
+      "WrongAudioName": "negative_4.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "5_1.png",
+      "QuestionAudioName": "40985662_9_why-is-the-land-import.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset 35.png",
+        "Asset 36.png",
+        "Asset 34.png",
+        "5.png"
+      ],
+      "ReiterationAudioName": "40985662_10_to-live.mp3",
+      "CorrectAudioName": "positive_5.mp3",
+      "WrongAudioName": "negative_5.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "6_1.png",
+      "QuestionAudioName": "40985662_11_why-is-water-important.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset 32.png",
+        "Asset 33.png",
+        "6.png",
+        "Asset 26.png"
+      ],
+      "ReiterationAudioName": "40985662_12_to-survive.mp3",
+      "CorrectAudioName": "positive_1.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "7_1.png",
+      "QuestionAudioName": "40985662_13_what-is-white-and-floa.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset 29.png",
+        "7.png",
+        "Asset 27.png",
+        "Asset 24.png"
+      ],
+      "ReiterationAudioName": "40985662_14_clouds.mp3",
+      "CorrectAudioName": "positive_2.mp3",
+      "WrongAudioName": "negative_2.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "8_1.png",
+      "QuestionAudioName": "40985662_15_what-spins-around-the-.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "8.png",
+        "Asset 21.png",
+        "Asset 22.png",
+        "Asset 23.png"
+      ],
+      "ReiterationAudioName": "40985662_16_moon.mp3",
+      "CorrectAudioName": "positive_3.mp3",
+      "WrongAudioName": "negative_3.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "9_1.png",
+      "QuestionAudioName": "40985662_17_what-do-you-see-in-the.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset 42.png",
+        "Asset 41.png",
+        "9.png",
+        "Asset 39.png"
+      ],
+      "ReiterationAudioName": "40985662_18_stars.mp3",
+      "CorrectAudioName": "positive_4.mp3",
+      "WrongAudioName": "negative_4.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "10_1.png",
+      "QuestionAudioName": "40985662_19_how-can-we-protect-our.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "Asset 42.png",
+        "10.png",
+        "Asset 34.png",
+        "Asset 35.png"
+      ],
+      "ReiterationAudioName": "40985662_20_reduce-reuse-recycle.mp3",
+      "CorrectAudioName": "positive_5.mp3",
+      "WrongAudioName": "negative_5.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
