@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "memory game",
+      "totalLevel": "5",
+      "TitleImageName": "memory game_3.png",
+      "introBgName": "Junior.png",
+      "bgmMusicName": "BGM 2 (mp3cut.net) (1).mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "Match the same number magic card.",
+        "questionAudioName": "match the same number magic ca.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "31.png",
+          "32.png"
+        ],
+        "reiterationAudios": [
+          "31.mp3",
+          "32.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "31.png",
+          "32.png"
+        ]
+      },
+      {
+        "questionText": "Match the same number magic card.",
+        "questionAudioName": "match the same number magic ca.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "33.png",
+          "34.png"
+        ],
+        "reiterationAudios": [
+          "33.mp3",
+          "34.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "33.png",
+          "34.png"
+        ]
+      },
+      {
+        "questionText": "Match the same number magic card.",
+        "questionAudioName": "match the same number magic ca.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "35.png",
+          "36.png"
+        ],
+        "reiterationAudios": [
+          "35.mp3",
+          "36.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "35.png",
+          "36.png"
+        ]
+      },
+      {
+        "questionText": "Match the same number magic card.",
+        "questionAudioName": "match the same number magic ca.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "37.png",
+          "38.png"
+        ],
+        "reiterationAudios": [
+          "37.mp3",
+          "38.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "37.png",
+          "38.png"
+        ]
+      },
+      {
+        "questionText": "Match the same number magic card.",
+        "questionAudioName": "match the same number magic ca.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "39.png",
+          "40.png"
+        ],
+        "reiterationAudios": [
+          "39.mp3",
+          "40.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "39.png",
+          "40.png"
+        ]
+      }
+    ]
+  }
+}
