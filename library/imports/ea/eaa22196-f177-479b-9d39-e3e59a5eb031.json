@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "letter Uu, Xx, Yy, Zz, Qq",
+    "texture": "91ae7e57-faad-4478-b1bf-274b68c37aae",
+    "atlas": "",
+    "rect": [
+      1,
+      7,
+      1060,
+      353
+    ],
+    "offset": [
+      -11,
+      -3
+    ],
+    "originalSize": [
+      1084,
+      361
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
