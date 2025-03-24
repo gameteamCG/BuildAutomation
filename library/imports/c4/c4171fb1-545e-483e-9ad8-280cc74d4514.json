@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sort tiles 6 to 10",
+    "texture": "7bad71d1-584e-4570-916e-00018d6a196e",
+    "atlas": "",
+    "rect": [
+      0,
+      9,
+      672,
+      304
+    ],
+    "offset": [
+      -8,
+      19.5
+    ],
+    "originalSize": [
+      688,
+      361
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
