@@ -1,0 +1,82 @@
+{
+  "additionalData": {
+    "GameID": " ap_word_family_LKG_SB4_20",
+    "totalLevel": "3",
+    "TitleImageName": "Asset 33.png",
+    "introBgName": "LKG.png",
+    "bgmMusicName": "Kids Game_1.mp3",
+    "mainBgName": "Asset 30.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "ap word family",
+      "questionAudioName": "match the word to the picture for the given word family.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset 29.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 2,
+      "leftoptions": [
+        "Asset 27.png",
+        "Asset 15.png"
+      ],
+      "reiterations": [
+        "41693485_2_cap.mp3",
+        "41693485_3_map.mp3"
+      ],
+      "commonRightOptionImageName": "Asset 28.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset 19.png",
+        "Asset 18.png"
+      ]
+    },
+    {
+      "questionText": "ap word family",
+      "questionAudioName": "match the word to the picture for the given word family.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset 29.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 2,
+      "leftoptions": [
+        "Asset 16.png",
+        "Asset 26.png"
+      ],
+      "reiterations": [
+        "41693485_4_tap.mp3",
+        "41693485_6_sap.mp3"
+      ],
+      "commonRightOptionImageName": "Asset 28.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset 22.png",
+        "Asset 21.png"
+      ]
+    },
+    {
+      "questionText": "ap word family",
+      "questionAudioName": "match the word to the picture for the given word family.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "Asset 29.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 2,
+      "leftoptions": [
+        "Asset 25.png",
+        "Asset 17.png"
+      ],
+      "reiterations": [
+        "41693485_8_lap.mp3",
+        "41693485_7_nap.mp3"
+      ],
+      "commonRightOptionImageName": "Asset 28.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "Asset 20.png",
+        "Asset 23.png"
+      ]
+    }
+  ]
+}
