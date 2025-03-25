@@ -100,12 +100,18 @@ export default class NewClass extends cc.Component {
         // this.callCurrentText();
         this.scheduleOnce(() => {
             cc.audioEngine.playEffect(this.ExplanationVos[1], false);
-            this.richText.string = "ચાલો, /b/ ધ્વનિ સાથે મળીને વધુ શબ્દો શોધીએ!";
-            // this.node.getChildByName("1").active = false;
-            // this.node.getChildByName("2").active = true;
+            this.richText.string = "જેમ કે bat, ball, bus";
+            this.node.getChildByName("1").active = false;
+            this.node.getChildByName("2").active = true;
             this.scheduleOnce(() => {
-                this.callEnd();
-            }, this.ExplanationVos[1].duration);
+                cc.audioEngine.playEffect(this.ExplanationVos[2], false);
+                this.richText.string = "ચાલો, /b/ ધ્વનિ સાથે મળીને વધુ શબ્દો શોધીએ!";
+                // this.node.getChildByName("1").active = false;
+                // this.node.getChildByName("2").active = true;
+                this.scheduleOnce(() => {
+                    this.callEnd();
+                }, this.ExplanationVos[2].duration);
+            }, this.ExplanationVos[1].duration)
         }, this.ExplanationVos[0].duration);
 
         // this.scheduleOnce(() => {
