@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "awd",
+    "texture": "debf8f19-b12c-4b41-863e-1d80d270eda5",
+    "atlas": "",
+    "rect": [
+      66,
+      90,
+      135,
+      80
+    ],
+    "offset": [
+      5,
+      -1.5
+    ],
+    "originalSize": [
+      257,
+      257
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

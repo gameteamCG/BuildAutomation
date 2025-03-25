@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "afah",
+    "texture": "73b101ee-5a2a-4d93-8e06-446b34552ecd",
+    "atlas": "",
+    "rect": [
+      66,
+      90,
+      119,
+      80
+    ],
+    "offset": [
+      -3,
+      -1.5
+    ],
+    "originalSize": [
+      257,
+      257
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "erth",
+    "texture": "c9759eec-23eb-407a-a017-dbb4e9e8b62c",
+    "atlas": "",
+    "rect": [
+      66,
+      89,
+      118,
+      81
+    ],
+    "offset": [
+      -3.5,
+      -1
+    ],
+    "originalSize": [
+      257,
+      257
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

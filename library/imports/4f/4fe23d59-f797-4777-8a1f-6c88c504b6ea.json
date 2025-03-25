@@ -1,0 +1,88 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": " ap_word_family_LKG_SB4_20",
+      "totalLevel": "3",
+      "TitleImageName": "33.png",
+      "introBgName": "LKG.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "assdftr.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "ap word family",
+        "questionAudioName": "QA.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "wde.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 2,
+        "leftoptions": [
+          "wsdrf.png",
+          "map.png"
+        ],
+        "reiterations": [
+          "41693485_2_cap.mp3",
+          "41693485_3_map.mp3"
+        ],
+        "commonRightOptionImageName": "ewd.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "awf.png",
+          "awd.png"
+        ]
+      },
+      {
+        "questionText": "ap word family",
+        "questionAudioName": "QA.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "wde.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 2,
+        "leftoptions": [
+          "ta.png",
+          "uiujhg.png"
+        ],
+        "reiterations": [
+          "41693485_4_tap.mp3",
+          "41693485_6_sap.mp3"
+        ],
+        "commonRightOptionImageName": "ewd.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "sx.png",
+          "erth.png"
+        ]
+      },
+      {
+        "questionText": "ap word family",
+        "questionAudioName": "QA.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "wde.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 2,
+        "leftoptions": [
+          "sxc.png",
+          "ff.png"
+        ],
+        "reiterations": [
+          "41693485_8_lap.mp3",
+          "41693485_7_nap.mp3"
+        ],
+        "commonRightOptionImageName": "ewd.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "afah.png",
+          "sxz.png"
+        ]
+      }
+    ]
+  }
+}
