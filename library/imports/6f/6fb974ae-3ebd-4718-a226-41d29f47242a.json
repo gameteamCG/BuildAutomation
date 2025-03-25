@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Shrpnpener",
+    "texture": "b8b2ea98-2e9f-4c9e-b919-3cfbd1258114",
+    "atlas": "",
+    "rect": [
+      2,
+      477,
+      1942,
+      1552
+    ],
+    "offset": [
+      -51,
+      -229
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
