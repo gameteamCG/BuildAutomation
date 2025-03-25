@@ -465,7 +465,7 @@
     "_enabled": true,
     "_fontFamily": "Arial",
     "_isSystemFontUsed": false,
-    "_N$string": "આ અક્ષર 'A' છે. તે /ă/ ધ્વનિ બનાવે છે.",
+    "_N$string": "આ અક્ષર A છે. તે /ă/ ધ્વનિ બનાવે છે.",
     "_N$horizontalAlign": 1,
     "_N$fontSize": 35,
     "_N$font": {
@@ -1203,7 +1203,7 @@
     "_enabled": true,
     "_fontFamily": "Arial",
     "_isSystemFontUsed": false,
-    "_N$string": "'Aa'",
+    "_N$string": "Aa",
     "_N$horizontalAlign": 1,
     "_N$fontSize": 250,
     "_N$font": {
