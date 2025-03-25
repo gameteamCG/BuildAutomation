@@ -388,9 +388,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": {
-      "__uuid__": "85294770-66b7-4776-8159-d442a3067bef"
-    },
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -2838,7 +2836,7 @@
     "BGM_audio": {
       "__uuid__": "0de1ef27-6197-41a4-8ab5-319bb65fecab"
     },
-    "volume": 0.3,
+    "volume": 0.05,
     "NextSceneName": "1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [

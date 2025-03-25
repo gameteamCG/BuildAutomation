@@ -1,1 +1,0 @@
-window._CCSettings={platform:"web-mobile",groupList:["default"],collisionMatrix:[[true]],hasResourcesBundle:true,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/Games/WhatWillHappenNext/Scene/Title.fire",orientation:"landscape",jsList:[],bundleVers:{resources:"4bfa8",internal:"d17e2",main:"26cbd"}};

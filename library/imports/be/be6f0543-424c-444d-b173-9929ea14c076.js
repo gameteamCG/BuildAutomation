@@ -114,11 +114,15 @@ var NewClass = /** @class */ (function (_super) {
         // this.callCurrentText();
         this.scheduleOnce(function () {
             cc.audioEngine.playEffect(_this.ExplanationVos[1], false);
-            _this.richText.string = "ચાલો /ă/ ધ્વનિ સાથે મળીને વધુ શબ્દો શોધીએ!";
-            // this.node.getChildByName("1").active = false;
-            // this.node.getChildByName("2").active = true;
+            _this.richText.string = "જેમ કે apple, ant, alligator";
+            _this.node.getChildByName("1").active = false;
+            _this.node.getChildByName("2").active = true;
             _this.scheduleOnce(function () {
-                _this.callEnd();
+                cc.audioEngine.playEffect(_this.ExplanationVos[2], false);
+                _this.richText.string = "ચાલો /ă/ ધ્વનિ સાથે મળીને વધુ શબ્દો શોધીએ!";
+                _this.scheduleOnce(function () {
+                    _this.callEnd();
+                }, _this.ExplanationVos[2].duration);
             }, _this.ExplanationVos[1].duration);
         }, this.ExplanationVos[0].duration);
         // this.scheduleOnce(() => {
