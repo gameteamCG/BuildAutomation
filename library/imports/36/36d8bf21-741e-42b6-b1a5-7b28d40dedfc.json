@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Thick and thin_LKG_SB4_38",
+      "totalLevel": "7",
+      "TitleImageName": "text.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM2.mp3",
+      "mainBgName": "bg2.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "thick",
+        "questionAudioName": "Q1thick_pencil.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "pencil_w_8.png",
+          "pencil_n_8.png"
+        ],
+        "correctAudios": [
+          "1thickpencil.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "thick",
+        "questionAudioName": "Q2tap_on_the_thick_pencil_box.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "pencil_box_n-8.png",
+          "pencil_box_w-8.png"
+        ],
+        "correctAudios": [
+          "2thickpencilbox.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "thin",
+        "questionAudioName": "Q3thinpaintbrush.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "paint_brush_n_8.png",
+          "paint_brush_w_8.png"
+        ],
+        "correctAudios": [
+          "3thinpaintbrush.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "thin",
+        "questionAudioName": "Q4_tap_on_the_thin_waterbottle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "bottle_w_8.png",
+          "bottle_n_8.png"
+        ],
+        "correctAudios": [
+          "4thinwaterbottle.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "thick",
+        "questionAudioName": "Q5_tap_on_the_thick_scale.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ruller_w_8.png",
+          "ruller_n_8.png"
+        ],
+        "correctAudios": [
+          "5thick_scale.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "thin",
+        "questionAudioName": "Q6_tap_on_the_thin_eraser.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "eraser_n_8.png",
+          "eraser_w_8.png"
+        ],
+        "correctAudios": [
+          "6thin_eraser.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "thick",
+        "questionAudioName": "Q7_tap_on_the_thick_sharp.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "sharpner_n-8.png",
+          "sharpner_w-8.png"
+        ],
+        "correctAudios": [
+          "7thick_sharp.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
