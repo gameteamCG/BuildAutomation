@@ -247,7 +247,7 @@ var startGame = /** @class */ (function (_super) {
         if (premium != null) {
             this.premiumLevel = parseInt(premium);
         }
-        this.NextSceneName = "1";
+        this.NextSceneName = "IntroVid";
         // if (level != null) {
         //     this.NextSceneName = level;
         //     if (parseInt(this.NextSceneName) >= this.TotalLevels) {

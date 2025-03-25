@@ -287,7 +287,7 @@ export default class startGame extends cc.Component {
         if (premium != null) {
             this.premiumLevel = parseInt(premium);
         }
-        this.NextSceneName = "1";
+        this.NextSceneName = "IntroVid";
 
         // if (level != null) {
         //     this.NextSceneName = level;

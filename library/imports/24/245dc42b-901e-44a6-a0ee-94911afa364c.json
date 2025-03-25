@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "timer",
+    "texture": "9e82bf17-0e6b-4776-9fd9-38aa2a9cc62d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      148,
+      148
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      148,
+      148
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

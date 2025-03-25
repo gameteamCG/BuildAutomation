@@ -1,6 +1,6 @@
 
 require('./assets/Framework/Jockeys/Scripts/Jockey');
-require('./assets/Framework/Prefabs/Progressbar/Scripts/ProgressBar');
+require('./assets/Framework/Prefabs/ProgressBar/Scripts/ProgressBar');
 require('./assets/Framework/Scripts/CustomWidget');
 require('./assets/Framework/Scripts/CustomWidget2');
 require('./assets/Framework/Scripts/Functionalities');
@@ -11,6 +11,10 @@ require('./assets/Framework/Scripts/Utilities/Utility');
 require('./assets/Framework/Scripts/Utils');
 require('./assets/Framework/WebView/Scripts/CheckForInitWebView');
 require('./assets/Framework/WebView/Scripts/WebView');
+require('./assets/Games/TapToFind/1_Jaipuria/scripts/gameplay');
+require('./assets/Games/TapToFind/1_Jaipuria/scripts/graphics');
+require('./assets/Games/TapToFind/1_Jaipuria/scripts/introduction');
+require('./assets/Games/TapToFind/1_Jaipuria/scripts/roughArea');
 require('./assets/Games/TapToFind/Scripts/EndScreen');
 require('./assets/Games/TapToFind/Scripts/Gameplay');
 require('./assets/resources/empty');
