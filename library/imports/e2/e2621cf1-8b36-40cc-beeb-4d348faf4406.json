@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "coop",
+    "texture": "b7f2855f-8fbe-40b5-94ab-1ba269ccfdf6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      301,
+      282
+    ],
+    "offset": [
+      0,
+      9.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "woodpecker",
+    "texture": "29e924ca-8cc3-46dd-8a37-d4f5e0c4ab57",
+    "atlas": "",
+    "rect": [
+      80,
+      8,
+      141,
+      285
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
