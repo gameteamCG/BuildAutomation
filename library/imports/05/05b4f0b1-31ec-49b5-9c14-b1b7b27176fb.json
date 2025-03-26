@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "L3bb",
+    "texture": "bf4d9dba-9988-451e-95c8-824830800a23",
+    "atlas": "",
+    "rect": [
+      96,
+      0,
+      154,
+      219
+    ],
+    "offset": [
+      48,
+      15.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
