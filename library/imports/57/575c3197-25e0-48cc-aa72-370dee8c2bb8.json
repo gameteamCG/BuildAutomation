@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kennel",
+    "texture": "d838f6bb-2ee1-450f-8616-7edc20b4db6b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      301,
+      297
+    ],
+    "offset": [
+      0,
+      2
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
