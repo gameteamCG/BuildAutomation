@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "afafada",
+    "texture": "e827e29d-1181-4332-9efb-c31b4288f9e8",
+    "atlas": "",
+    "rect": [
+      34,
+      45,
+      216,
+      205
+    ],
+    "offset": [
+      17,
+      -22.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
