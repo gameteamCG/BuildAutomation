@@ -1,0 +1,158 @@
+{
+  "additionalData": {
+    "GameID": "Vowels in the middle_LKG_SB4_11",
+    "totalLevel": "5",
+    "TitleImageName": "vm.png",
+    "introBgName": "LKG.png",
+    "bgmMusicName": "bgm3.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "",
+      "questionAudioName": "solveQ.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "cm.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "WRWR.png",
+        "FC.png",
+        "2WERTY.png",
+        "WSXCVB.png"
+      ],
+      "correctAudioName": "40987412_17_bat.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipe_to_spell.mp3",
+      "commonOptionImageName": "cm.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "t",
+        "b",
+        "a"
+      ],
+      "correctAnswer": "bat",
+      "reiterationAudioName": "40987412_17_bat.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solveQ.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "cm.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "REDF.png",
+        "WSDEFG.png",
+        "YUJK.png",
+        "QASWSDR.png"
+      ],
+      "correctAudioName": "29883748_8_bed.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipe_to_spell.mp3",
+      "commonOptionImageName": "cm.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "b",
+        "d",
+        "e"
+      ],
+      "correctAnswer": "bed",
+      "reiterationAudioName": "29883748_8_bed.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solveQ.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "cm.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "s.png",
+        "afgaagaga.png",
+        "u.png",
+        "v.png"
+      ],
+      "correctAudioName": "bin.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipe_to_spell.mp3",
+      "commonOptionImageName": "cm.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "b",
+        "n",
+        "i"
+      ],
+      "correctAnswer": "bin",
+      "reiterationAudioName": "bin.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solveQ.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "cm.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "aa.png",
+        "CCXC.png",
+        "L3bb.png",
+        "dd.png"
+      ],
+      "correctAudioName": "40905025_2_dog.mp3",
+      "needReiteration": true,
+      "interactionType": "",
+      "questionText2": "2",
+      "questionAudioName2": "swipe_to_spell.mp3",
+      "commonOptionImageName": "cm.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "o",
+        "g",
+        "d"
+      ],
+      "correctAnswer": "dog",
+      "reiterationAudioName": "40905025_2_dog.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solveQ.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "cm.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "afafada.png",
+        "OL.png",
+        "c.png",
+        "d.png"
+      ],
+      "correctAudioName": "39566242_2_sun.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipe_to_spell.mp3",
+      "commonOptionImageName": "cm.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "n",
+        "u",
+        "s"
+      ],
+      "correctAnswer": "sun",
+      "reiterationAudioName": "39566242_2_sun.mp3"
+    }
+  ]
+}
