@@ -25,6 +25,7 @@ require('./assets/Games/1_Jaipuria/Script');
 require('./assets/Games/1_Jaipuria/scripts/graphics');
 require('./assets/Games/1_Jaipuria/scripts/introduction');
 require('./assets/Games/1_Jaipuria/scripts/roughArea');
+require('./assets/Games/WhatWillHappenNext/1_Jaipuria/Scriptnew');
 require('./assets/Games/WhatWillHappenNext/Scripts/Title');
 require('./assets/Games/WhatWillHappenNext/Scripts/endScreen');
 require('./assets/Games/WhatWillHappenNext/Scripts/gameplay');

@@ -42,6 +42,9 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class startGame extends cc.Component {
+
+    @property(cc.ProgressBar)
+    loadingBar: cc.ProgressBar = null;
     @property(cc.AudioClip)
     BGM_audio: cc.AudioClip = null;
     @property(Number)
@@ -424,7 +427,21 @@ export default class startGame extends cc.Component {
         cc.audioEngine.playEffect(this.playBtn_audio, false);
         cc.director.loadScene("Intro");
         _event.target.active = false;
-        _event.target.parent.getChildByName("loading").active = true;
+        this.loadSceneWithProgress();
+    }
+
+
+
+    loadSceneWithProgress() {
+        if (this.loadingBar) {
+            this.loadingBar.node.active = true;
+        }
+        cc.director.preloadScene(this.NextSceneName, (completedCount: number, totalCount: number) => {
+            let progress = completedCount / totalCount;
+            this.loadingBar.progress = progress;
+        }, () => {
+            cc.director.loadScene(this.NextSceneName);
+        })
     }
 
     OnBack() {

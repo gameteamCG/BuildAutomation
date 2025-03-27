@@ -35,6 +35,7 @@ var startGame = /** @class */ (function (_super) {
     __extends(startGame, _super);
     function startGame() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.loadingBar = null;
         _this.BGM_audio = null;
         _this.volume = 0.1;
         _this.NextSceneName = "1";
@@ -377,7 +378,19 @@ var startGame = /** @class */ (function (_super) {
         cc.audioEngine.playEffect(this.playBtn_audio, false);
         cc.director.loadScene("Intro");
         _event.target.active = false;
-        _event.target.parent.getChildByName("loading").active = true;
+        this.loadSceneWithProgress();
+    };
+    startGame.prototype.loadSceneWithProgress = function () {
+        var _this = this;
+        if (this.loadingBar) {
+            this.loadingBar.node.active = true;
+        }
+        cc.director.preloadScene(this.NextSceneName, function (completedCount, totalCount) {
+            var progress = completedCount / totalCount;
+            _this.loadingBar.progress = progress;
+        }, function () {
+            cc.director.loadScene(_this.NextSceneName);
+        });
     };
     startGame.prototype.OnBack = function () {
         console.log("gameExit--true");
@@ -413,6 +426,9 @@ var startGame = /** @class */ (function (_super) {
     };
     var startGame_1;
     startGame.instance = null;
+    __decorate([
+        property(cc.ProgressBar)
+    ], startGame.prototype, "loadingBar", void 0);
     __decorate([
         property(cc.AudioClip)
     ], startGame.prototype, "BGM_audio", void 0);

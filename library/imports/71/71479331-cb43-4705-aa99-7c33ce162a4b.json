@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Transition0006",
+    "texture": "bc099efd-349a-462b-b766-c57a52a45658",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      960,
+      540
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      960,
+      540
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

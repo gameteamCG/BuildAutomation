@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Muskaan",
+    "texture": "54f8b682-344b-43c1-9468-c558a160e4f5",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      1224,
+      250
+    ],
+    "offset": [
+      -409,
+      0
+    ],
+    "originalSize": [
+      2048,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

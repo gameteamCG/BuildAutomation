@@ -890,8 +890,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\1.fire"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1740720551602,
-    "meta": 1740720551616,
+    "asset": 1740723357818,
+    "meta": 1740723357839,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\Title.fire"
   },
   "51f71569-6b9e-43a6-9703-1106a9f3d9d1": {
@@ -2525,8 +2525,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Animation\\jaipuria\\bag\\output\\output\\Muskaan.png"
   },
   "bee2bc41-d6ba-4281-92e8-3750b2071bbf": {
-    "asset": 1740645939237,
-    "meta": 1740648673650,
+    "asset": 1740719036750,
+    "meta": 1740722851195,
     "relativePath": "resources\\audios"
   },
   "8431b47f-ede0-46dd-8fb1-caa06125e447": {
@@ -2633,506 +2633,6 @@
     "asset": 1740642761856,
     "meta": 1740642762465,
     "relativePath": "resources\\images\\Bg.png"
-  },
-  "9836134e-b892-4283-b6b2-78b5acf3ed45": {
-    "asset": 1709141182822,
-    "meta": 1740718858280,
-    "relativePath": "effects"
-  },
-  "abc2cb62-7852-4525-a90d-d474487b88f2": {
-    "asset": 1709141182807,
-    "meta": 1740718858524,
-    "relativePath": "effects\\builtin-phong.effect"
-  },
-  "e2f00085-c597-422d-9759-52c360279106": {
-    "asset": 1709141182822,
-    "meta": 1740718858584,
-    "relativePath": "effects\\builtin-toon.effect"
-  },
-  "430eccbf-bf2c-4e6e-8c0c-884bbb487f32": {
-    "asset": 1709141182822,
-    "meta": 1740718858600,
-    "relativePath": "effects\\__builtin-editor-gizmo-line.effect"
-  },
-  "6c5cf6e1-b044-4eac-9431-835644d57381": {
-    "asset": 1709141182822,
-    "meta": 1740718858616,
-    "relativePath": "effects\\__builtin-editor-gizmo-unlit.effect"
-  },
-  "115286d1-2e10-49ee-aab4-341583f607e8": {
-    "asset": 1709141182822,
-    "meta": 1740718858655,
-    "relativePath": "effects\\__builtin-editor-gizmo.effect"
-  },
-  "f8e6b000-5643-4b86-9080-aa680ce1f599": {
-    "asset": 1709141182924,
-    "meta": 1740718858280,
-    "relativePath": "image"
-  },
-  "5c3eedba-6c41-4c0c-9ba7-d91f813cbd1c": {
-    "asset": 1709141182933,
-    "meta": 1740718858280,
-    "relativePath": "materials"
-  },
-  "fc09f9bd-2cce-4605-b630-8145ef809ed6": {
-    "asset": 1709141182947,
-    "meta": 1740718858282,
-    "relativePath": "misc"
-  },
-  "0291c134-b3da-4098-b7b5-e397edbe947f": {
-    "asset": 1709141182885,
-    "meta": 1740718858761,
-    "relativePath": "image\\default_scrollbar.png"
-  },
-  "e851e89b-faa2-4484-bea6-5c01dd9f06e2": {
-    "asset": 1709141182838,
-    "meta": 1740718858741,
-    "relativePath": "image\\default_btn_normal.png"
-  },
-  "db019bf7-f71c-4111-98cf-918ea180cb48": {
-    "asset": 1709141182995,
-    "meta": 1740718858282,
-    "relativePath": "model"
-  },
-  "e39e96e6-6f6e-413f-bcf1-ac7679bb648a": {
-    "asset": 1709141182995,
-    "meta": 1740718858739,
-    "relativePath": "model\\prefab"
-  },
-  "edd215b9-2796-4a05-aaf5-81f96c9281ce": {
-    "asset": 1709141182838,
-    "meta": 1740718858717,
-    "relativePath": "image\\default_editbox_bg.png"
-  },
-  "d81ec8ad-247c-4e62-aa3c-d35c4193c7af": {
-    "asset": 1709141182854,
-    "meta": 1740718858725,
-    "relativePath": "image\\default_panel.png"
-  },
-  "b43ff3c2-02bb-4874-81f7-f2dea6970f18": {
-    "asset": 1709141182838,
-    "meta": 1740718858739,
-    "relativePath": "image\\default_btn_pressed.png"
-  },
-  "0275e94c-56a7-410f-bd1a-fc7483f7d14a": {
-    "asset": 1709141182901,
-    "meta": 1740718858773,
-    "relativePath": "image\\default_sprite_splash.png"
-  },
-  "cfef78f1-c8df-49b7-8ed0-4c953ace2621": {
-    "asset": 1709141182854,
-    "meta": 1740718858726,
-    "relativePath": "image\\default_progressbar.png"
-  },
-  "9d60001f-b5f4-4726-a629-2659e3ded0b8": {
-    "asset": 1709141182885,
-    "meta": 1740718858761,
-    "relativePath": "image\\default_radio_button_on.png"
-  },
-  "567dcd80-8bf4-4535-8a5a-313f1caf078a": {
-    "asset": 1709141182854,
-    "meta": 1740718858717,
-    "relativePath": "image\\default_radio_button_off.png"
-  },
-  "f6e6dd15-71d1-4ffe-ace7-24fd39942c05": {
-    "asset": 1709141183011,
-    "meta": 1740718858284,
-    "relativePath": "obsolete"
-  },
-  "99170b0b-d210-46f1-b213-7d9e3f23098a": {
-    "asset": 1709141182854,
-    "meta": 1740718858761,
-    "relativePath": "image\\default_progressbar_bg.png"
-  },
-  "c4480a0a-6ac5-443f-8b40-361a14257fc8": {
-    "asset": 1709141182931,
-    "meta": 1740718859213,
-    "relativePath": "materials\\builtin-phong.mtl"
-  },
-  "f743d2b6-b7ea-4c14-a55b-547ed4d0a045": {
-    "asset": 1709141183027,
-    "meta": 1740718858286,
-    "relativePath": "particle"
-  },
-  "71561142-4c83-4933-afca-cb7a17f67053": {
-    "asset": 1709141182838,
-    "meta": 1740718858706,
-    "relativePath": "image\\default_btn_disabled.png"
-  },
-  "fe1417b6-fe6b-46a4-ae7c-9fd331f33a2a": {
-    "asset": 1709141182963,
-    "meta": 1740718858962,
-    "relativePath": "model\\prefab\\capsule.prefab"
-  },
-  "4bab67cb-18e6-4099-b840-355f0473f890": {
-    "asset": 1709141182885,
-    "meta": 1740718858767,
-    "relativePath": "image\\default_scrollbar_bg.png"
-  },
-  "1c5e4038-953a-44c2-b620-0bbfc6170477": {
-    "asset": 1709141182974,
-    "meta": 1740718859103,
-    "relativePath": "model\\prefab\\cylinder.prefab"
-  },
-  "a87cc147-01b2-43f8-8e42-a7ca90b0c757": {
-    "asset": 1709141182963,
-    "meta": 1740718858946,
-    "relativePath": "model\\prefab\\box.prefab"
-  },
-  "6e056173-d285-473c-b206-40a7fff5386e": {
-    "asset": 1709141182901,
-    "meta": 1740718858775,
-    "relativePath": "image\\default_sprite.png"
-  },
-  "ae6c6c98-11e4-452f-8758-75f5c6a56e83": {
-    "asset": 1709141183128,
-    "meta": 1740718858288,
-    "relativePath": "prefab"
-  },
-  "3f376125-a699-40ca-ad05-04d662eaa1f2": {
-    "asset": 1709141182980,
-    "meta": 1740718859103,
-    "relativePath": "model\\prefab\\plane.prefab"
-  },
-  "d6d3ca85-4681-47c1-b5dd-d036a9d39ea2": {
-    "asset": 1709141182885,
-    "meta": 1740718858777,
-    "relativePath": "image\\default_scrollbar_vertical.png"
-  },
-  "b5fc2cf2-7942-483d-be1f-bbeadc4714ad": {
-    "asset": 1709141182963,
-    "meta": 1740718858989,
-    "relativePath": "model\\prefab\\cone.prefab"
-  },
-  "6c9ef10d-b479-420b-bfe6-39cdda6a8ae0": {
-    "asset": 1709141182980,
-    "meta": 1740718859117,
-    "relativePath": "model\\prefab\\quad.prefab"
-  },
-  "617323dd-11f4-4dd3-8eec-0caf6b3b45b9": {
-    "asset": 1709141182885,
-    "meta": 1740718858771,
-    "relativePath": "image\\default_scrollbar_vertical_bg.png"
-  },
-  "2d9a4b85-b0ab-4c46-84c5-18f393ab2058": {
-    "asset": 1709141182987,
-    "meta": 1740718859125,
-    "relativePath": "model\\prefab\\sphere.prefab"
-  },
-  "de510076-056b-484f-b94c-83bef217d0e1": {
-    "asset": 1709141182987,
-    "meta": 1740718859131,
-    "relativePath": "model\\prefab\\torus.prefab"
-  },
-  "600301aa-3357-4a10-b086-84f011fa32ba": {
-    "asset": 1709141182838,
-    "meta": 1740718858717,
-    "relativePath": "image\\default-particle.png"
-  },
-  "897ef7a1-4860-4f64-968d-f5924b18668a": {
-    "asset": 1709141183029,
-    "meta": 1740718858788,
-    "relativePath": "prefab\\2d-camera.prefab"
-  },
-  "70d7cdb0-04cd-41bb-9480-c06a4785f386": {
-    "asset": 1709141183034,
-    "meta": 1740718858790,
-    "relativePath": "prefab\\3d-camera.prefab"
-  },
-  "a3ee0214-b432-4865-9666-4a3211814282": {
-    "asset": 1709141183076,
-    "meta": 1740718858792,
-    "relativePath": "prefab\\light"
-  },
-  "ed88f13d-fcad-4848-aa35-65a2cb973584": {
-    "asset": 1709141183042,
-    "meta": 1740718858800,
-    "relativePath": "prefab\\3d-stage.prefab"
-  },
-  "972b9a4d-47ee-4c74-b5c3-61d8a69bc29f": {
-    "asset": 1709141183048,
-    "meta": 1740718858807,
-    "relativePath": "prefab\\button.prefab"
-  },
-  "70bbeb73-6dc2-4ee4-8faf-76b3a0e34ec4": {
-    "asset": 1709141183039,
-    "meta": 1740718858796,
-    "relativePath": "prefab\\3d-particle.prefab"
-  },
-  "2c937608-2562-40ea-b264-7395df6f0cea": {
-    "asset": 1709141183048,
-    "meta": 1740718858807,
-    "relativePath": "prefab\\canvas.prefab"
-  },
-  "61aeb05b-3b32-452b-8eed-2b76deeed554": {
-    "asset": 1709141183048,
-    "meta": 1740718858815,
-    "relativePath": "prefab\\editbox.prefab"
-  },
-  "27756ebb-3d33-44b0-9b96-e858fadd4dd4": {
-    "asset": 1709141183055,
-    "meta": 1740718858817,
-    "relativePath": "prefab\\label.prefab"
-  },
-  "2be36297-9abb-4fee-8049-9ed5e271da8a": {
-    "asset": 1709141182947,
-    "meta": 1740718858865,
-    "relativePath": "misc\\default_video.mp4"
-  },
-  "785a442c-3ceb-45be-a46e-7317f625f3b9": {
-    "asset": 1709141183060,
-    "meta": 1740718858821,
-    "relativePath": "prefab\\layout.prefab"
-  },
-  "ca8401fe-ad6e-41a8-bd46-8e3e4e9945be": {
-    "asset": 1709141183076,
-    "meta": 1740718858825,
-    "relativePath": "prefab\\pageview.prefab"
-  },
-  "5965ffac-69da-4b55-bcde-9225d0613c28": {
-    "asset": 1709141183083,
-    "meta": 1740718858860,
-    "relativePath": "prefab\\progressBar.prefab"
-  },
-  "cd33edea-55f5-46c2-958d-357a01384a36": {
-    "asset": 1709141183083,
-    "meta": 1740718858862,
-    "relativePath": "prefab\\particlesystem.prefab"
-  },
-  "32044bd2-481f-4cf1-a656-e2b2fb1594eb": {
-    "asset": 1709141183090,
-    "meta": 1740718858875,
-    "relativePath": "prefab\\scrollview.prefab"
-  },
-  "0004d1cf-a0ad-47d8-ab17-34d3db9d35a3": {
-    "asset": 1709141183097,
-    "meta": 1740718858879,
-    "relativePath": "prefab\\slider.prefab"
-  },
-  "d29077ba-1627-4a72-9579-7b56a235340c": {
-    "asset": 1709141182920,
-    "meta": 1740718858852,
-    "relativePath": "image\\default_toggle_normal.png"
-  },
-  "4a37dd57-78cd-4cec-aad4-f11a73d12b63": {
-    "asset": 1709141183090,
-    "meta": 1740718858868,
-    "relativePath": "prefab\\richtext.prefab"
-  },
-  "96083d03-c332-4a3f-9386-d03e2d19e8ee": {
-    "asset": 1709141183097,
-    "meta": 1740718858872,
-    "relativePath": "prefab\\sprite.prefab"
-  },
-  "73a0903d-d80e-4e3c-aa67-f999543c08f5": {
-    "asset": 1709141182901,
-    "meta": 1740718858839,
-    "relativePath": "image\\default_toggle_checkmark.png"
-  },
-  "d8afc78c-4eac-4a9f-83dd-67bc70344d33": {
-    "asset": 1709141183170,
-    "meta": 1740718858289,
-    "relativePath": "resources"
-  },
-  "294c1663-4adf-4a1e-a795-53808011a38a": {
-    "asset": 1709141183167,
-    "meta": 1740718858860,
-    "relativePath": "resources\\effects"
-  },
-  "b181c1e4-0a72-4a91-bfb0-ae6f36ca60bd": {
-    "asset": 1709141182924,
-    "meta": 1740718858839,
-    "relativePath": "image\\default_toggle_pressed.png"
-  },
-  "1f55e3be-b89b-4b79-88de-47fd31018044": {
-    "asset": 1709141183097,
-    "meta": 1740718858882,
-    "relativePath": "prefab\\sprite_splash.prefab"
-  },
-  "bbee2217-c261-49bd-a8ce-708d6bcc3500": {
-    "asset": 1709141183209,
-    "meta": 1740718858862,
-    "relativePath": "resources\\materials"
-  },
-  "c25b9d50-c8fc-4d27-beeb-6e7c1f2e5c0f": {
-    "asset": 1709141182916,
-    "meta": 1740718858839,
-    "relativePath": "image\\default_toggle_disabled.png"
-  },
-  "30682f87-9f0d-4f17-8a44-72863791461b": {
-    "asset": 1709141183137,
-    "meta": 1740718858917,
-    "relativePath": "resources\\effects\\builtin-2d-graphics.effect"
-  },
-  "144c3297-af63-49e8-b8ef-1cfa29b3be28": {
-    "asset": 1709141183137,
-    "meta": 1740718858930,
-    "relativePath": "resources\\effects\\builtin-2d-gray-sprite.effect"
-  },
-  "7de03a80-4457-438d-95a7-3e7cdffd6086": {
-    "asset": 1709141183105,
-    "meta": 1740718858886,
-    "relativePath": "prefab\\tiledmap.prefab"
-  },
-  "f18742d7-56d2-4eb5-ae49-2d9d710b37c8": {
-    "asset": 1709141183137,
-    "meta": 1740718858946,
-    "relativePath": "resources\\effects\\builtin-2d-label.effect"
-  },
-  "0e42ba95-1fa1-46aa-b2cf-143cd1bcee2c": {
-    "asset": 1709141183105,
-    "meta": 1740718858895,
-    "relativePath": "prefab\\tiledtile.prefab"
-  },
-  "0e93aeaa-0b53-4e40-b8e0-6268b4e07bd7": {
-    "asset": 1709141183147,
-    "meta": 1740718858962,
-    "relativePath": "resources\\effects\\builtin-2d-spine.effect"
-  },
-  "0d784963-d024-4ea6-a7db-03be0ad63010": {
-    "asset": 1709141183105,
-    "meta": 1740718858893,
-    "relativePath": "prefab\\toggle.prefab"
-  },
-  "2874f8dd-416c-4440-81b7-555975426e93": {
-    "asset": 1709141183147,
-    "meta": 1740718858987,
-    "relativePath": "resources\\effects\\builtin-2d-sprite.effect"
-  },
-  "829a282c-b049-4019-bd38-5ace8d8a6417": {
-    "asset": 1709141183155,
-    "meta": 1740718859048,
-    "relativePath": "resources\\effects\\builtin-3d-particle.effect"
-  },
-  "2a7c0036-e0b3-4fe1-8998-89a54b8a2bec": {
-    "asset": 1709141183160,
-    "meta": 1740718859071,
-    "relativePath": "resources\\effects\\builtin-3d-trail.effect"
-  },
-  "bf0a434c-84dd-4a8e-a08a-7a36f180cc75": {
-    "asset": 1709141183105,
-    "meta": 1740718858895,
-    "relativePath": "prefab\\toggleContainer.prefab"
-  },
-  "c0040c95-c57f-49cd-9cbc-12316b73d0d4": {
-    "asset": 1709141183160,
-    "meta": 1740718859087,
-    "relativePath": "resources\\effects\\builtin-clear-stencil.effect"
-  },
-  "6d91e591-4ce0-465c-809f-610ec95019c6": {
-    "asset": 1709141183166,
-    "meta": 1740718859103,
-    "relativePath": "resources\\effects\\builtin-unlit.effect"
-  },
-  "8c5001fd-07ee-4a4b-a8a0-63e15195e94d": {
-    "asset": 1709141183128,
-    "meta": 1740718858932,
-    "relativePath": "prefab\\webview.prefab"
-  },
-  "61906da3-7003-4bda-9abc-5769c76faee4": {
-    "asset": 1709141183065,
-    "meta": 1740718859134,
-    "relativePath": "prefab\\light\\ambient.prefab"
-  },
-  "d1b8be49-b0a0-435c-83b7-552bed4bbe35": {
-    "asset": 1709141183121,
-    "meta": 1740718858902,
-    "relativePath": "prefab\\toggleGroup.prefab"
-  },
-  "0cf30284-9073-46bc-9eba-e62b69dbbff3": {
-    "asset": 1709141183065,
-    "meta": 1740718859138,
-    "relativePath": "prefab\\light\\point.prefab"
-  },
-  "ddb99b39-7004-47cd-9705-751905c43c46": {
-    "asset": 1709141183065,
-    "meta": 1740718859138,
-    "relativePath": "prefab\\light\\directional.prefab"
-  },
-  "8a96b965-2dc0-4e03-aa90-3b79cb93b5b4": {
-    "asset": 1709141183011,
-    "meta": 1740718858847,
-    "relativePath": "obsolete\\atom.png"
-  },
-  "232d2782-c4bd-4bb4-9e01-909f03d6d3b9": {
-    "asset": 1709141183121,
-    "meta": 1740718858917,
-    "relativePath": "prefab\\videoplayer.prefab"
-  },
-  "f5331fd2-bf42-4ee3-a3fd-3e1657600eff": {
-    "asset": 1709141183076,
-    "meta": 1740718859144,
-    "relativePath": "prefab\\light\\spot.prefab"
-  },
-  "6f801092-0c37-4f30-89ef-c8d960825b36": {
-    "asset": 1709141183174,
-    "meta": 1740718859232,
-    "relativePath": "resources\\materials\\builtin-2d-base.mtl"
-  },
-  "d0a82d39-bede-46c4-b698-c81ff0dedfff": {
-    "asset": 1709141183011,
-    "meta": 1740718858856,
-    "relativePath": "particle\\atom.png"
-  },
-  "e02d87d4-e599-4d16-8001-e14891ac6506": {
-    "asset": 1709141183189,
-    "meta": 1740718859234,
-    "relativePath": "resources\\materials\\builtin-2d-label.mtl"
-  },
-  "7afd064b-113f-480e-b793-8817d19f63c3": {
-    "asset": 1709141183191,
-    "meta": 1740718859234,
-    "relativePath": "resources\\materials\\builtin-2d-spine.mtl"
-  },
-  "3a7bb79f-32fd-422e-ada2-96f518fed422": {
-    "asset": 1709141183175,
-    "meta": 1740718859234,
-    "relativePath": "resources\\materials\\builtin-2d-gray-sprite.mtl"
-  },
-  "a153945d-2511-4c14-be7b-05d242f47d57": {
-    "asset": 1709141183175,
-    "meta": 1740718859232,
-    "relativePath": "resources\\materials\\builtin-2d-graphics.mtl"
-  },
-  "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432": {
-    "asset": 1709141183196,
-    "meta": 1740718859234,
-    "relativePath": "resources\\materials\\builtin-2d-sprite.mtl"
-  },
-  "432fa09c-cf03-4cff-a186-982604408a07": {
-    "asset": 1709141183196,
-    "meta": 1740718859234,
-    "relativePath": "resources\\materials\\builtin-3d-particle.mtl"
-  },
-  "cf7e0bb8-a81c-44a9-ad79-d28d43991032": {
-    "asset": 1709141183201,
-    "meta": 1740718859239,
-    "relativePath": "resources\\materials\\builtin-clear-stencil.mtl"
-  },
-  "466d4f9b-e5f4-4ea8-85d5-3c6e9a65658a": {
-    "asset": 1709141183201,
-    "meta": 1740718859234,
-    "relativePath": "resources\\materials\\builtin-3d-trail.mtl"
-  },
-  "2a296057-247c-4a1c-bbeb-0548b6c98650": {
-    "asset": 1709141183201,
-    "meta": 1740718859239,
-    "relativePath": "resources\\materials\\builtin-unlit.mtl"
-  },
-  "b8223619-7e38-47c4-841f-9160c232495a": {
-    "asset": 1709141183011,
-    "meta": 1740718859273,
-    "relativePath": "obsolete\\atom.plist"
-  },
-  "b2687ac4-099e-403c-a192-ff477686f4f5": {
-    "asset": 1709141183011,
-    "meta": 1740718859273,
-    "relativePath": "particle\\atom.plist"
-  },
-  "954fec8b-cd16-4bb9-a3b7-7719660e7558": {
-    "asset": 1709141182995,
-    "meta": 1740718872966,
-    "relativePath": "model\\primitives.fbx"
   },
   "db57c73a-9205-48ea-971f-8a07d02b0cf4": {
     "asset": 1740643700483,
@@ -4404,14 +3904,1719 @@
     "meta": 1740647814028,
     "relativePath": "Games\\1_Jaipuria\\scripts\\introduction.ts"
   },
-  "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
-    "asset": 1740648335927,
-    "meta": 1740648339315,
-    "relativePath": "Framework\\Scripts\\StartGame.ts"
-  },
   "454742d6-68f1-4548-93ed-75c2ac92849f": {
     "asset": 1740719036752,
     "meta": 1740719037261,
     "relativePath": "resources\\audios\\Q.mp3"
+  },
+  "0fd51c65-fe8f-406e-9e36-7080b5441403": {
+    "asset": 1740722951147,
+    "meta": 1740722952354,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria"
+  },
+  "c50a0b45-0eff-470c-af91-a53b94a00e09": {
+    "asset": 1740722951161,
+    "meta": 1740722952356,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation"
+  },
+  "bf7f7987-693c-4e92-b7c0-a125e7800d78": {
+    "asset": 1740722951183,
+    "meta": 1740722952356,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\End Words"
+  },
+  "b6c5af8e-31a2-4f76-a07c-17723d3a2e0f": {
+    "asset": 1740722951920,
+    "meta": 1740722952356,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey"
+  },
+  "ab57d2e9-ae37-421a-879e-1710a3d9d9cd": {
+    "asset": 1740722951183,
+    "meta": 1740722952358,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\jaipuria4.ttf"
+  },
+  "377e4c04-d440-4362-8e81-d602a6db90f7": {
+    "asset": 1740722951200,
+    "meta": 1740722952358,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Prefab"
+  },
+  "0ece7fd1-a0db-4f23-bfd8-7155ced39e54": {
+    "asset": 1740722951167,
+    "meta": 1740723153046,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Scriptnew.ts"
+  },
+  "6b63daa7-64f8-47b8-934a-9f8095895f56": {
+    "asset": 1740722951245,
+    "meta": 1740722952368,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\scripts"
+  },
+  "c2000aeb-e3eb-4986-8ffe-f22f83983ae0": {
+    "asset": 1740722951229,
+    "meta": 1740722952368,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets"
+  },
+  "3a02d8e8-8037-4013-9551-66676a162c80": {
+    "asset": 1740722951237,
+    "meta": 1740722952368,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO"
+  },
+  "9bf1f51d-72d7-43a1-ad27-1d50351a8f0c": {
+    "asset": 1740722951381,
+    "meta": 1740722952368,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03"
+  },
+  "9341c7ef-da9c-4381-943e-d8649b279ddd": {
+    "asset": 1740722951327,
+    "meta": 1740722952376,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey"
+  },
+  "e08b7de8-7b4e-4beb-a209-b8002de936ab": {
+    "asset": 1740722951341,
+    "meta": 1740722952377,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Bag"
+  },
+  "75fcdfd0-59f5-4370-86e3-8be67bac9d7e": {
+    "asset": 1740722951357,
+    "meta": 1740722952377,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Compass"
+  },
+  "4b82d4ef-7abd-4511-81cb-ec7945581f19": {
+    "asset": 1740722951349,
+    "meta": 1740722952377,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Crayon"
+  },
+  "4b2fe116-8036-4963-8b62-2e77c2b9a62b": {
+    "asset": 1740722952078,
+    "meta": 1740722952377,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan"
+  },
+  "082c424b-76af-4601-93ec-1ab4210caf4f": {
+    "asset": 1740722951364,
+    "meta": 1740722952377,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Pencil"
+  },
+  "7a93127f-f5b8-43d6-884b-ecb57f757083": {
+    "asset": 1740722952098,
+    "meta": 1740722952377,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin"
+  },
+  "ab9b7dc4-f5a6-44cf-b334-b792a7910677": {
+    "asset": 1740722951381,
+    "meta": 1740722952377,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Sharpner"
+  },
+  "b1162fb2-652b-42bb-8ce2-ca307626d0df": {
+    "asset": 1740722952116,
+    "meta": 1740722952377,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise"
+  },
+  "612b2061-e6a8-4b3f-acb1-b1fcbdd1949a": {
+    "asset": 1740722951247,
+    "meta": 1740722952493,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\PlayBtnAnim.anim"
+  },
+  "74d59e0b-f10f-462b-b4e3-2203e5e35bab": {
+    "asset": 1740722951251,
+    "meta": 1740722952495,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Prefab\\BG.prefab"
+  },
+  "9962f950-8877-483a-88ad-277276233e5c": {
+    "asset": 1740722951251,
+    "meta": 1740722952499,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Prefab\\end.prefab"
+  },
+  "c68dfca1-acbd-45ef-876a-e752c5ec66dc": {
+    "asset": 1740722951251,
+    "meta": 1740722952501,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Prefab\\Graphics.prefab"
+  },
+  "8c73243d-5903-438b-86ac-d1adeb18152d": {
+    "asset": 1740722951251,
+    "meta": 1740722952503,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Prefab\\Intro.prefab"
+  },
+  "2f22d0ab-e951-4ef8-8a4a-75f978e46f92": {
+    "asset": 1740722951439,
+    "meta": 1740722952510,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\roughArea_assets"
+  },
+  "511d1e69-4d93-4450-b12f-3ec62fba49be": {
+    "asset": 1740722951251,
+    "meta": 1740722952513,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Prefab\\timer.prefab"
+  },
+  "a257f171-5f9e-44ba-9e01-941a892ba3d3": {
+    "asset": 1740722951254,
+    "meta": 1740722952549,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\bar.png"
+  },
+  "5c21c83b-f324-473e-bfc4-1f523594f466": {
+    "asset": 1740722951465,
+    "meta": 1740722952549,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\CorrectVO"
+  },
+  "82247b1e-6d54-40d1-a03b-c544609d3914": {
+    "asset": 1740722951437,
+    "meta": 1740722952549,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\Incorrect VO"
+  },
+  "f995f2d3-ca4b-4af6-9d7a-4e9c79d72e5b": {
+    "asset": 1740722951254,
+    "meta": 1740722952584,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\End.png"
+  },
+  "068c3987-af7c-4f40-a5c5-e9d71bac876d": {
+    "asset": 1740722951254,
+    "meta": 1740722952590,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\dialogue box.png"
+  },
+  "dc3648b6-595c-4f1b-ac51-dfca1ffa9f18": {
+    "asset": 1740722951251,
+    "meta": 1740722952601,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\End Words\\yay.png"
+  },
+  "7fe130b5-0d23-4552-8874-eeffa8791b2b": {
+    "asset": 1740722951254,
+    "meta": 1740722952623,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\Play.png"
+  },
+  "e6e61255-8f5f-42cd-8688-22cacc017cb3": {
+    "asset": 1740722951254,
+    "meta": 1740722952623,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\loading bar_1.png"
+  },
+  "f563d33d-fe89-40a9-af3d-02214ddc474c": {
+    "asset": 1740722951254,
+    "meta": 1740722952627,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\p2 (1).png"
+  },
+  "f36c4c60-38a8-4692-9cae-98b1f4a90ee1": {
+    "asset": 1740722951254,
+    "meta": 1740722952639,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\image box.png"
+  },
+  "8587e48d-eee9-4b7e-88e7-7261fc3970c2": {
+    "asset": 1740722951256,
+    "meta": 1740722952639,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\skip button_1.png"
+  },
+  "b9844f05-a4b2-43a2-8968-389cd4553acb": {
+    "asset": 1740722951256,
+    "meta": 1740722952639,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\timer.png"
+  },
+  "3d2f3b51-f232-409d-8e09-233060ead933": {
+    "asset": 1740722951254,
+    "meta": 1740722952644,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\p2.png"
+  },
+  "396815b9-a6f4-4f59-a4f7-f132026275a4": {
+    "asset": 1740722951264,
+    "meta": 1740722952655,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\End Words\\good job.png"
+  },
+  "fe471747-217a-4da8-988e-c175e33a349a": {
+    "asset": 1740722951254,
+    "meta": 1740722952658,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\logo.png"
+  },
+  "8c066f24-990f-41dd-a9e6-9ba82a80fa3f": {
+    "asset": 1740722951264,
+    "meta": 1740722952658,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\End Words\\fantastic.png"
+  },
+  "8caf69d7-abb8-474d-8b7f-3cdaf2cbbec3": {
+    "asset": 1740722951264,
+    "meta": 1740722952668,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\End Words\\well done.png"
+  },
+  "f3f72756-979e-413e-a8ac-787a6a81915d": {
+    "asset": 1740722951469,
+    "meta": 1740722952668,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\anim.anim"
+  },
+  "f4526fd2-ebf7-42ef-b50d-1e53d1c08cac": {
+    "asset": 1740722951469,
+    "meta": 1740722952674,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\anim2.anim"
+  },
+  "ecabad90-00c0-493b-8f9c-13fa6eee3c92": {
+    "asset": 1740722951469,
+    "meta": 1740722952713,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0001.png"
+  },
+  "71ab8c7f-4ad8-4a76-8866-f44accec89d6": {
+    "asset": 1740722951469,
+    "meta": 1740722952720,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0002.png"
+  },
+  "9867d18e-e02d-4836-8a36-b19b42730b0f": {
+    "asset": 1740722951469,
+    "meta": 1740722952723,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0003.png"
+  },
+  "34063d1b-4505-4c9a-9a7c-21b5cacdbb0b": {
+    "asset": 1740722951472,
+    "meta": 1740722952730,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\Bg.png"
+  },
+  "6db89aac-cb69-438d-afc1-b79ac120de85": {
+    "asset": 1740722951532,
+    "meta": 1740722952738,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Crayon"
+  },
+  "05cebe32-65fa-4485-a741-818aa117ad87": {
+    "asset": 1740722951513,
+    "meta": 1740722952738,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Pencil"
+  },
+  "f5d05977-0052-4d83-99ce-9f61685e78f9": {
+    "asset": 1740722951527,
+    "meta": 1740722952740,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Sharpner"
+  },
+  "1b21e557-20e2-42dd-90ea-1a3462394fb1": {
+    "asset": 1740722951469,
+    "meta": 1740722952746,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0004.png"
+  },
+  "e4da941f-da85-47db-b9f4-c64ad2ad53a6": {
+    "asset": 1740722951469,
+    "meta": 1740722952762,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0010.png"
+  },
+  "f08599b9-1ad8-491a-98d1-61b09f97abda": {
+    "asset": 1740722951469,
+    "meta": 1740722952764,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0008.png"
+  },
+  "bc099efd-349a-462b-b766-c57a52a45658": {
+    "asset": 1740722951469,
+    "meta": 1740722952767,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0006.png"
+  },
+  "03a58f32-eca8-426f-8193-d6c098f931ed": {
+    "asset": 1740722951472,
+    "meta": 1740722952778,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0007.png"
+  },
+  "007583f6-e21f-40f0-8946-70a13e54b3fd": {
+    "asset": 1740722951469,
+    "meta": 1740722952794,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0005.png"
+  },
+  "16ba09c2-7fd9-4a2f-814c-3beac52ae72c": {
+    "asset": 1740722951469,
+    "meta": 1740722952798,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0012.png"
+  },
+  "1a515786-d1f1-4ce2-9437-7d044fef4cc3": {
+    "asset": 1740722951469,
+    "meta": 1740722952807,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0009.png"
+  },
+  "ca680a99-38f1-4a61-ba6e-b5e54c349bad": {
+    "asset": 1740722951469,
+    "meta": 1740722952810,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0011.png"
+  },
+  "8b0b33e8-c18c-4ad9-aa36-99a3f0da97c8": {
+    "asset": 1740722952205,
+    "meta": 1740722952810,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio"
+  },
+  "6b3fd26b-80d9-403d-91f5-5acbe53d5d56": {
+    "asset": 1740722951500,
+    "meta": 1740722954191,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Bag\\Bag.json"
+  },
+  "04fac3e2-a9bb-4f06-af28-7f799ac04667": {
+    "asset": 1740722952217,
+    "meta": 1740722952827,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\output"
+  },
+  "d3c5e222-13e0-41cf-be6a-456542a2da41": {
+    "asset": 1740722951646,
+    "meta": 1740722954217,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Compass\\compass.json"
+  },
+  "52ce29d8-777a-4f02-b577-80987d402855": {
+    "asset": 1740722951647,
+    "meta": 1740722954240,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Crayon\\Crayon.json"
+  },
+  "a01f7ca4-8b53-4628-8b63-f077ded4489e": {
+    "asset": 1740722951469,
+    "meta": 1740722952864,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Bag\\Bag.atlas"
+  },
+  "abdec6e7-f969-45cd-b98a-1cb858179919": {
+    "asset": 1740722951469,
+    "meta": 1740722952872,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Compass\\compass.atlas"
+  },
+  "6ba63e27-105c-4f8d-ad82-4e0f68b6a41e": {
+    "asset": 1740722951469,
+    "meta": 1740722952880,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Crayon\\Crayon.atlas"
+  },
+  "d3e590d5-2486-47e5-9999-76d6ed78d097": {
+    "asset": 1740722952228,
+    "meta": 1740722952882,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio"
+  },
+  "1003e943-0cc6-42e5-ab0e-4ff5340c88c6": {
+    "asset": 1740722952240,
+    "meta": 1740722952882,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\output"
+  },
+  "0a9d5951-6ae7-446d-b66b-432e7d40bea0": {
+    "asset": 1740722951469,
+    "meta": 1740722952889,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0013.png"
+  },
+  "a72519e8-3afe-4040-9302-88a6376ee784": {
+    "asset": 1740722951644,
+    "meta": 1740722954236,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Pencil\\Pencil.json"
+  },
+  "11290e66-b971-4a24-9aea-d59291c59a37": {
+    "asset": 1740722951469,
+    "meta": 1740722952912,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0014.png"
+  },
+  "d762c499-62b7-44ad-8d6e-fd22763532bd": {
+    "asset": 1740722951469,
+    "meta": 1740722952913,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Animation\\Transition03\\Transition0015.png"
+  },
+  "2713354c-ca2a-43cc-93b2-5eee7cbfd595": {
+    "asset": 1740722951472,
+    "meta": 1740722952921,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Pencil\\Pencil.atlas"
+  },
+  "80e8f78b-fb1e-4fc2-9213-c39089432172": {
+    "asset": 1740722951641,
+    "meta": 1740722954204,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Sharpner\\Shrpnpener.json"
+  },
+  "6b2793c6-d60c-4a7d-8061-c95df8d9b7eb": {
+    "asset": 1740722951484,
+    "meta": 1740722952967,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Compass\\compass.png"
+  },
+  "cb5627c5-46fb-416e-80bb-9ef85edee4a1": {
+    "asset": 1740722952250,
+    "meta": 1740722952971,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio"
+  },
+  "c1443b5d-d1ab-484f-a6e8-ee14615456fd": {
+    "asset": 1740722952261,
+    "meta": 1740722952977,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\output"
+  },
+  "277c866a-ac51-402e-92a9-dfdcaa99360b": {
+    "asset": 1740722951500,
+    "meta": 1740722952979,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\mainbg.png"
+  },
+  "cc7197b3-7d40-4a25-b8d8-24985facb8e3": {
+    "asset": 1740722951472,
+    "meta": 1740722952996,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Sharpner\\Shrpnpener.atlas"
+  },
+  "a7b4c49a-e4ed-4ac5-bcd1-87c37748b879": {
+    "asset": 1740722951500,
+    "meta": 1740722952998,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Crayon\\Crayon.png"
+  },
+  "68ea42f6-3955-4a82-af1e-f9e337014ee3": {
+    "asset": 1740722951517,
+    "meta": 1740722953017,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Bag\\Bag.png"
+  },
+  "d0c12638-0375-45ab-b7f0-5d7cccdee595": {
+    "asset": 1740722951472,
+    "meta": 1740722953123,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Sharpner\\Shrpnpener2.png"
+  },
+  "9633524b-4af4-47ce-921f-b27e9272d724": {
+    "asset": 1740722951472,
+    "meta": 1740722953137,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Sharpner\\Shrpnpener3.png"
+  },
+  "8fdfa483-6ed0-42db-bf5d-f3d207d77d21": {
+    "asset": 1740722951611,
+    "meta": 1740722953155,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Pencil\\Pencil.png"
+  },
+  "099506f2-6cfc-4f53-bb57-05513792d217": {
+    "asset": 1740722951472,
+    "meta": 1740722953168,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Sharpner\\Shrpnpener4.png"
+  },
+  "4c1ea862-26e5-4b6f-a8aa-6bde54577c9e": {
+    "asset": 1740722951472,
+    "meta": 1740722953180,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Sharpner\\Shrpnpener5.png"
+  },
+  "4e679fbf-086e-4b2e-82ec-f8cc1d73bdf1": {
+    "asset": 1740722951487,
+    "meta": 1740722953193,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Sharpner\\Shrpnpener.png"
+  },
+  "24be256f-c211-41e0-88c9-ac5781ee7719": {
+    "asset": 1740722951472,
+    "meta": 1740722953204,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\roughArea_assets\\Asset 10-8.png"
+  },
+  "363c46f1-7717-4533-8327-03a2e6da7b34": {
+    "asset": 1740722951472,
+    "meta": 1740722953212,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\roughArea_assets\\Asset 11-8.png"
+  },
+  "28ac4944-cf4d-448d-bdde-de894753d4fe": {
+    "asset": 1740722951472,
+    "meta": 1740722953223,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\roughArea_assets\\Asset 12-8.png"
+  },
+  "03eb8955-3856-4820-99f9-21e2973ebc4f": {
+    "asset": 1740722951472,
+    "meta": 1740722953229,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\roughArea_assets\\Asset 13-8.png"
+  },
+  "346ac4f9-d101-4572-be11-26b18d05fdfe": {
+    "asset": 1740722951472,
+    "meta": 1740722953231,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\roughArea_assets\\Asset 16-8.png"
+  },
+  "62f3a26e-02a3-46f6-9638-486ba150a600": {
+    "asset": 1740722951472,
+    "meta": 1740722953247,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\roughArea_assets\\blankSc.png"
+  },
+  "eef71cec-3861-4254-bd15-69ecf65722fc": {
+    "asset": 1740722951472,
+    "meta": 1740722953247,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\roughArea_assets\\bgRough.png"
+  },
+  "80e2fc6a-6f7e-4f2a-bc27-0f29dc1f8d6c": {
+    "asset": 1740722951472,
+    "meta": 1740722953540,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\Q.mp3"
+  },
+  "e69b866b-a314-487b-a504-d69b13b85876": {
+    "asset": 1740722951472,
+    "meta": 1740722953542,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\CorrectVO\\P6.mp3"
+  },
+  "2efeb8a6-9ece-41ef-9c54-d29a6d953ceb": {
+    "asset": 1740722951472,
+    "meta": 1740722953546,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\Q1.mp3"
+  },
+  "7be3f74d-632e-444a-87e0-7557e2585f7d": {
+    "asset": 1740722951500,
+    "meta": 1740722953547,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\CorrectVO\\P8.mp3"
+  },
+  "d163e065-6818-47c6-830d-6d510316ff8d": {
+    "asset": 1740722951472,
+    "meta": 1740722953550,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\CorrectVO\\P3.mp3"
+  },
+  "4b060ea0-246e-41dc-b96f-5bef8ba6eddb": {
+    "asset": 1740722951613,
+    "meta": 1740722953554,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\CorrectVO\\P9.mp3"
+  },
+  "31c2b3a5-f452-45d9-b050-ec8414add62b": {
+    "asset": 1740722951276,
+    "meta": 1740722953556,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\play (1).mp3"
+  },
+  "bc7bad8e-ad2f-4d90-b855-1a47af255bf5": {
+    "asset": 1740722951256,
+    "meta": 1740722953558,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\introVO.mp3"
+  },
+  "36017a70-a8f1-447a-a8a8-f2b3403500bf": {
+    "asset": 1740722951497,
+    "meta": 1740722953562,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\CorrectVO\\P7.mp3"
+  },
+  "fbabf66f-c035-4af8-937f-ca681ef6e9e5": {
+    "asset": 1740722951472,
+    "meta": 1740722953564,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\CorrectVO\\P4.mp3"
+  },
+  "4933c44b-3456-474b-a401-ce71305af5b7": {
+    "asset": 1740722951472,
+    "meta": 1740722953566,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\CorrectVO\\P5.mp3"
+  },
+  "cdc954fe-7481-4570-b07a-d64118efa561": {
+    "asset": 1740722951472,
+    "meta": 1740722953567,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\CorrectVO\\P2.mp3"
+  },
+  "d9c1bc75-b594-4990-b62c-0a6a1d288525": {
+    "asset": 1740722951497,
+    "meta": 1740722953574,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\CorrectVO\\P1.mp3"
+  },
+  "72abc30f-2324-47e1-af51-2c6f25d803b9": {
+    "asset": 1740722951497,
+    "meta": 1740722953576,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\CorrectVO\\P10.mp3"
+  },
+  "d7276fda-1993-4ae1-a5df-a92770cb5b73": {
+    "asset": 1740722951662,
+    "meta": 1740722954224,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Crayon\\Crayon intro.json"
+  },
+  "f929fa31-85ab-4ce9-9566-376ea96be8be": {
+    "asset": 1740722951469,
+    "meta": 1740722953592,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\Timer (1).mp3"
+  },
+  "6318287e-6a49-42af-9ee6-3e00c4011595": {
+    "asset": 1740722951662,
+    "meta": 1740722954247,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Pencil\\Pencil.json"
+  },
+  "d22158fb-aa5e-42d1-aedf-15903c2f7474": {
+    "asset": 1740722951641,
+    "meta": 1740722953601,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Crayon\\Crayon intro.atlas"
+  },
+  "9c58ab9e-4567-4da5-b3c7-9bb3f6d19f73": {
+    "asset": 1740722951646,
+    "meta": 1740722953608,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Pencil\\Pencil.atlas"
+  },
+  "a1b42fd3-ae9d-41a8-8f90-b6b01d6aa6a3": {
+    "asset": 1740722951641,
+    "meta": 1740722953612,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\TitleAssets\\roughArea_assets\\pop-up.wav"
+  },
+  "aaaadc22-9c26-4eeb-8268-3fec63f99319": {
+    "asset": 1740722951665,
+    "meta": 1740722954258,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Sharpner\\Compass.json"
+  },
+  "aadcc84f-b813-47ac-92e3-684c36a99fe0": {
+    "asset": 1740722951472,
+    "meta": 1740722953627,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\Incorrect VO\\N6.mp3"
+  },
+  "29d09f96-8458-438c-87b5-3209c3b8dfc1": {
+    "asset": 1740722951472,
+    "meta": 1740722953627,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\Incorrect VO\\N8.mp3"
+  },
+  "0ef2d62e-6469-4b19-88c5-76ab86f73a3b": {
+    "asset": 1740722951472,
+    "meta": 1740722953631,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\Incorrect VO\\N4.mp3"
+  },
+  "1b33667d-a7c0-45c3-9464-4cbfbe776505": {
+    "asset": 1740722951472,
+    "meta": 1740722953634,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\Incorrect VO\\N2.mp3"
+  },
+  "b2f94f05-2827-4d9f-8da6-406229ddfd42": {
+    "asset": 1740722952278,
+    "meta": 1740722953636,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder"
+  },
+  "d31ada5c-5793-4ef4-b2ec-29990d1baab1": {
+    "asset": 1740722951472,
+    "meta": 1740722953640,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\Incorrect VO\\N9.mp3"
+  },
+  "8add64f3-7924-4df6-8543-56e3aca06227": {
+    "asset": 1740722951472,
+    "meta": 1740722953642,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\Incorrect VO\\N3.mp3"
+  },
+  "eff0f937-72e3-45f5-a23d-cc53408b3d0a": {
+    "asset": 1740722951472,
+    "meta": 1740722953642,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\Incorrect VO\\N7.mp3"
+  },
+  "1722380c-18a2-40fd-977b-2d514a4ea4d0": {
+    "asset": 1740722951472,
+    "meta": 1740722953642,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\Incorrect VO\\N1.mp3"
+  },
+  "cffc2a8e-7494-4304-84c0-1f48a886201c": {
+    "asset": 1740722951472,
+    "meta": 1740722953647,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\Incorrect VO\\N10.mp3"
+  },
+  "11d31f12-137f-4840-a65d-4709e513c26d": {
+    "asset": 1740722951495,
+    "meta": 1740722953651,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\VO\\Incorrect VO\\N5.mp3"
+  },
+  "50df624e-5e27-49c0-aab8-3e10af24af58": {
+    "asset": 1740722951641,
+    "meta": 1740722953658,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Sharpner\\Compass.atlas"
+  },
+  "5fbf3b6e-1aa3-4d67-8762-f766ec4e4854": {
+    "asset": 1740722951833,
+    "meta": 1740722954267,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\output\\Muskaan.json"
+  },
+  "7b0ce40b-0c30-451c-b8df-59720fae2951": {
+    "asset": 1740722951644,
+    "meta": 1740722953672,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\output\\Muskaan.atlas"
+  },
+  "bff13ac8-8e03-4eaf-9ad4-2427b4151776": {
+    "asset": 1740722951646,
+    "meta": 1740722953680,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\negative_1.mp3"
+  },
+  "27ae278b-1e46-4ec4-bfc4-3effd8267cf1": {
+    "asset": 1740722951660,
+    "meta": 1740722953684,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\negative_2.mp3"
+  },
+  "bbab0bae-2555-4b0b-85a5-0a59b1055ea1": {
+    "asset": 1740722951646,
+    "meta": 1740722953691,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\negative_3.mp3"
+  },
+  "1a207626-f9c5-438d-8c0e-03618160734e": {
+    "asset": 1740722951662,
+    "meta": 1740722953696,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\negative_5.mp3"
+  },
+  "150d3b6d-d0dd-4eeb-89c9-413d097ba743": {
+    "asset": 1740722952301,
+    "meta": 1740722953697,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder"
+  },
+  "70f71d82-330a-46ae-b8c9-33217eeb776a": {
+    "asset": 1740722951665,
+    "meta": 1740722953701,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\positive_5.mp3"
+  },
+  "134a4951-ccd8-4a3d-ad65-48f06880dd41": {
+    "asset": 1740722951646,
+    "meta": 1740722953704,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\positive_2.mp3"
+  },
+  "baa66353-9648-49c8-94fc-efdeb596f115": {
+    "asset": 1740722951646,
+    "meta": 1740722953705,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\positive_1.mp3"
+  },
+  "359782c5-7e00-4ed8-9ec7-9a3046400518": {
+    "asset": 1740722951722,
+    "meta": 1740722953708,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\positive_3.mp3"
+  },
+  "03d4850b-81ad-4ab1-aae5-100a430d9a74": {
+    "asset": 1740722951662,
+    "meta": 1740722953712,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\negative_4.mp3"
+  },
+  "644aab53-c8d8-47ba-bd58-fc9848e9d83e": {
+    "asset": 1740722951646,
+    "meta": 1740722953717,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\positive_4.mp3"
+  },
+  "b6b2ea9c-d39f-458f-bf4c-1886080f6423": {
+    "asset": 1740722951662,
+    "meta": 1740722953731,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\negative_1.mp3"
+  },
+  "e025c38f-5ed4-495a-9cb1-3910cdef5a03": {
+    "asset": 1740722951833,
+    "meta": 1740722954276,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\output\\Muskaan.json"
+  },
+  "efd001e4-f742-4799-8c8b-06fad66bd0bb": {
+    "asset": 1740722951849,
+    "meta": 1740722953754,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Pencil\\Pencil.png"
+  },
+  "3c7cb5ec-01cc-499a-8a19-3a1f2b7094ab": {
+    "asset": 1740722951849,
+    "meta": 1740722953754,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Crayon\\Crayon intro.png"
+  },
+  "d0d0b50b-2f4c-4989-aaff-5aa6ad4ed8b2": {
+    "asset": 1740722951849,
+    "meta": 1740722953762,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\output\\Muskaan.png"
+  },
+  "3515dac0-88c4-436a-8972-cb696d525c17": {
+    "asset": 1740722951644,
+    "meta": 1740722953767,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\output\\Muskaan.atlas"
+  },
+  "40cf4482-6585-40d7-964f-1c37e26fced9": {
+    "asset": 1740722951644,
+    "meta": 1740722953770,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\negative_3.mp3"
+  },
+  "b2a16834-4c28-489f-b0d4-2c4bafff710d": {
+    "asset": 1740722952339,
+    "meta": 1740722953779,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder"
+  },
+  "a6d83310-3718-4313-9cf9-a7e42bef40ae": {
+    "asset": 1740722951644,
+    "meta": 1740722953779,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\negative_2.mp3"
+  },
+  "bc982d2d-2f02-4f19-bad1-ddff73c3b71b": {
+    "asset": 1740722951647,
+    "meta": 1740722953787,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\positive_3.mp3"
+  },
+  "9858f387-bad6-4ddc-ba9b-9c884a080b7a": {
+    "asset": 1740722951644,
+    "meta": 1740722953790,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\positive_4.mp3"
+  },
+  "f52bda20-5fc7-47cf-b224-8f1877983692": {
+    "asset": 1740722951662,
+    "meta": 1740722953794,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\positive_1.mp3"
+  },
+  "68241227-1afc-4b9e-99ca-cae42f279901": {
+    "asset": 1740722951644,
+    "meta": 1740722953795,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\positive_2.mp3"
+  },
+  "d5a5fabb-31c5-444d-8775-ba391f52fff3": {
+    "asset": 1740722951647,
+    "meta": 1740722953801,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\negative_4.mp3"
+  },
+  "88bc27b9-7fb9-4e34-bac3-87d336102857": {
+    "asset": 1740722951655,
+    "meta": 1740722953812,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\negative_5.mp3"
+  },
+  "191f8ead-3106-4ac8-99dd-4980dfde61e0": {
+    "asset": 1740722951644,
+    "meta": 1740722953812,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\positive_5.mp3"
+  },
+  "c017fe58-5e91-4b77-902d-abefafea1d56": {
+    "asset": 1740722951825,
+    "meta": 1740722954285,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\output\\Muskaan.json"
+  },
+  "8eea02e4-3146-4ee2-859d-2a0d2742185e": {
+    "asset": 1740722951655,
+    "meta": 1740722953844,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\negative_2.mp3"
+  },
+  "54f8b682-344b-43c1-9468-c558a160e4f5": {
+    "asset": 1740722951840,
+    "meta": 1740722953853,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\output\\Muskaan.png"
+  },
+  "12a9a019-da2e-4d86-8881-006d6f8f9079": {
+    "asset": 1740722951662,
+    "meta": 1740722953855,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\negative_3.mp3"
+  },
+  "3c37694d-340d-4db3-9bd7-882fa81fbb0a": {
+    "asset": 1740722951644,
+    "meta": 1740722953857,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\negative_1.mp3"
+  },
+  "e8af116e-8d6c-4e1d-82c8-688573bc6629": {
+    "asset": 1740722951644,
+    "meta": 1740722953860,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\output\\Muskaan.atlas"
+  },
+  "5ba36587-3200-441b-af0c-29ab1c6b7fd9": {
+    "asset": 1740722951854,
+    "meta": 1740722953868,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Sharpner\\Compass.png"
+  },
+  "d1c622fa-398a-41b0-9d00-058a59693766": {
+    "asset": 1740722951825,
+    "meta": 1740722953877,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\negative_4.mp3"
+  },
+  "8cccb2d9-2e44-4a18-958c-c981d20d663e": {
+    "asset": 1740722951655,
+    "meta": 1740722953879,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\negative_5.mp3"
+  },
+  "6238f1e1-cf8b-416e-a59e-2d1cc72574d7": {
+    "asset": 1740722951644,
+    "meta": 1740722953887,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\positive_1.mp3"
+  },
+  "73dfe8d0-39f9-4016-836a-1210332c5d80": {
+    "asset": 1740722951644,
+    "meta": 1740722953889,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\positive_2.mp3"
+  },
+  "e9a7c91a-8876-4970-93cf-14585441b237": {
+    "asset": 1740722951644,
+    "meta": 1740722953895,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\positive_3.mp3"
+  },
+  "e6890ff0-b4a2-452b-b7c7-c8359e2a2022": {
+    "asset": 1740722951644,
+    "meta": 1740722953897,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\positive_4.mp3"
+  },
+  "99c3fe6f-ed46-4133-aeef-0059c2e5a5ae": {
+    "asset": 1740722951644,
+    "meta": 1740722953899,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\positive_5.mp3"
+  },
+  "d61fbd5a-44b0-45bf-86e4-7dc18a8f77d0": {
+    "asset": 1740722951833,
+    "meta": 1740722953903,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\N1.mp3"
+  },
+  "b0427e1f-2f3b-4283-b802-aa442d3e83a0": {
+    "asset": 1740722951840,
+    "meta": 1740722953910,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\N10.mp3"
+  },
+  "91b6a10f-121f-4ce3-9e44-33cf11d7844f": {
+    "asset": 1740722951833,
+    "meta": 1740722953910,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\N2.mp3"
+  },
+  "a863b015-c099-4cd2-a807-0ed6577be61e": {
+    "asset": 1740722951833,
+    "meta": 1740722953920,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\N3.mp3"
+  },
+  "c48fd1ff-611d-46ff-a490-0a6ba5e63bad": {
+    "asset": 1740722951840,
+    "meta": 1740722953926,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\N4.mp3"
+  },
+  "55d193ad-4ca0-426e-bae8-f7674feef1c7": {
+    "asset": 1740722951833,
+    "meta": 1740722953928,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\N6.mp3"
+  },
+  "47a88bb5-2468-44dc-9819-43447415618e": {
+    "asset": 1740722951833,
+    "meta": 1740722953930,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\N7.mp3"
+  },
+  "24188a03-fb80-4ef5-86b1-c0d0b6be0fd7": {
+    "asset": 1740722951833,
+    "meta": 1740722953932,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\positive_1.mp3"
+  },
+  "bc5d25cf-bb79-4f2a-96c7-9af0bb9d03d4": {
+    "asset": 1740722951833,
+    "meta": 1740722953934,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\N8.mp3"
+  },
+  "fb172183-26db-4998-b97d-0d7815ebe570": {
+    "asset": 1740722951840,
+    "meta": 1740722953938,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\N5.mp3"
+  },
+  "a4478450-aede-4f1c-96b6-4a24b47b77a1": {
+    "asset": 1740722951840,
+    "meta": 1740722953944,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\N9.mp3"
+  },
+  "fb7fd096-300b-419e-9666-d9764fde5eee": {
+    "asset": 1740722951833,
+    "meta": 1740722953944,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\positive_2.mp3"
+  },
+  "5e5f509b-6874-4a03-bcd9-026d492a4e66": {
+    "asset": 1740722951848,
+    "meta": 1740722953952,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\positive_3.mp3"
+  },
+  "20dd8a08-c766-4468-a9b0-3c510fdcfc28": {
+    "asset": 1740722951848,
+    "meta": 1740722953955,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\positive_4.mp3"
+  },
+  "3c5cdbbc-eacd-4521-aaee-f2335bfae385": {
+    "asset": 1740722951849,
+    "meta": 1740722953959,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\output\\Muskaan.png"
+  },
+  "b296df5f-2e16-4ef1-9f47-a883ad819e92": {
+    "asset": 1740722951848,
+    "meta": 1740722953963,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\muskan\\audio\\New folder\\positive_5.mp3"
+  },
+  "e0d67d62-6f95-4266-9477-76046fcd8ffe": {
+    "asset": 1740722951833,
+    "meta": 1740722953967,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\N10.mp3"
+  },
+  "f5d96855-0a03-45dc-9ee1-bc9aa5068a66": {
+    "asset": 1740722951827,
+    "meta": 1740722953972,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\N2.mp3"
+  },
+  "5335fd4e-a6f7-4384-9fb3-79d63c9e9789": {
+    "asset": 1740722951833,
+    "meta": 1740722953975,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\N3.mp3"
+  },
+  "62f57a51-2b16-4087-a28f-5535708ec37d": {
+    "asset": 1740722951833,
+    "meta": 1740722953978,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\N1.mp3"
+  },
+  "6c5cb20e-bc4b-4d32-a36a-bb5864b1da7b": {
+    "asset": 1740722951833,
+    "meta": 1740722953987,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\N6.mp3"
+  },
+  "02141d75-e840-4b00-b8af-2fb0416e46ce": {
+    "asset": 1740722951833,
+    "meta": 1740722953987,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\N5.mp3"
+  },
+  "d03cabe3-1cfa-4f06-b894-addac4e1e904": {
+    "asset": 1740722951829,
+    "meta": 1740722953990,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\N7.mp3"
+  },
+  "333c65e0-a895-4ff6-a648-d982cf2eb9f6": {
+    "asset": 1740722951829,
+    "meta": 1740722953992,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\N8.mp3"
+  },
+  "bd699872-3441-4f10-8978-8a2c1e4343fc": {
+    "asset": 1740722951833,
+    "meta": 1740722953994,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\N4.mp3"
+  },
+  "783161a8-f72b-4bc3-90a9-8cdb7b4790b6": {
+    "asset": 1740722951829,
+    "meta": 1740722953999,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\P1.mp3"
+  },
+  "cd1805ab-933c-46bf-a829-76d7b87eb33b": {
+    "asset": 1740722951829,
+    "meta": 1740722954001,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\P10.mp3"
+  },
+  "b8737de2-03b6-432f-aa3e-c0854a0c476d": {
+    "asset": 1740722951833,
+    "meta": 1740722954005,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\N9.mp3"
+  },
+  "bc72aae4-4c9b-4f71-a0f8-471a90817c5c": {
+    "asset": 1740722951829,
+    "meta": 1740722954007,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\P2.mp3"
+  },
+  "99b897c1-87e3-49eb-91f4-425338b13bd6": {
+    "asset": 1740722951835,
+    "meta": 1740722954016,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\P3.mp3"
+  },
+  "5e12ebd6-0a08-4d9f-9794-a811fa3cde7c": {
+    "asset": 1740722951835,
+    "meta": 1740722954020,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\P5.mp3"
+  },
+  "795d799e-5b8e-4a35-b16a-1382ac4717e1": {
+    "asset": 1740722951835,
+    "meta": 1740722954020,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\P4.mp3"
+  },
+  "62bb0720-3033-4c70-a821-068edb9cfb9c": {
+    "asset": 1740722951829,
+    "meta": 1740722954027,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\P6.mp3"
+  },
+  "b51ed1a7-3a3b-49c8-8dfb-2168b8a4c7f2": {
+    "asset": 1740722951829,
+    "meta": 1740722954031,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\P8.mp3"
+  },
+  "8aa34307-5aca-4630-b87e-01a27dddd06f": {
+    "asset": 1740722951829,
+    "meta": 1740722954033,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\P9.mp3"
+  },
+  "ef8fc389-fbf1-4c86-81fd-0c9c5c1e2448": {
+    "asset": 1740722951835,
+    "meta": 1740722954037,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\N1.mp3"
+  },
+  "81a8898c-49d7-4d5d-aea5-bff01cbeff0a": {
+    "asset": 1740722951835,
+    "meta": 1740722954040,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Penguin\\audio\\New folder\\P7.mp3"
+  },
+  "8eaa647f-c904-42fd-ad2f-f7cb67862198": {
+    "asset": 1740722951835,
+    "meta": 1740722954048,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\N10.mp3"
+  },
+  "0b6664a6-f914-4392-a89f-978e154dcfb6": {
+    "asset": 1740722951835,
+    "meta": 1740722954052,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\N11.mp3"
+  },
+  "b3d68197-aee1-463a-a128-6bbdabf32f72": {
+    "asset": 1740722951835,
+    "meta": 1740722954052,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\N3.mp3"
+  },
+  "a26fafef-ae80-44ba-befa-a4e0902503ad": {
+    "asset": 1740722951831,
+    "meta": 1740722954057,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\N7.mp3"
+  },
+  "4ac5a34d-6639-4a57-98ec-2e811b05d484": {
+    "asset": 1740722951835,
+    "meta": 1740722954062,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\N2.mp3"
+  },
+  "093b1ea9-01e1-494d-92e6-57074d90264a": {
+    "asset": 1740722951835,
+    "meta": 1740722954064,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\N6.mp3"
+  },
+  "218f17ef-9e61-4ac3-9261-7df434df768d": {
+    "asset": 1740722951835,
+    "meta": 1740722954068,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\N5.mp3"
+  },
+  "3caef56c-cf39-4e20-bf5e-e970b5055abb": {
+    "asset": 1740722951835,
+    "meta": 1740722954072,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\N4.mp3"
+  },
+  "ccf3914d-e62b-4969-ad40-5797d2c9d9c8": {
+    "asset": 1740722951831,
+    "meta": 1740722954076,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\N8.mp3"
+  },
+  "ff0786d4-0d62-4958-83ee-a8d5eb0477b7": {
+    "asset": 1740722951831,
+    "meta": 1740722954080,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P1.mp3"
+  },
+  "d2ae267c-faf1-4e61-a667-8d1e0aacc6f1": {
+    "asset": 1740722951835,
+    "meta": 1740722954084,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\N9.mp3"
+  },
+  "a2327a48-f737-4838-a600-d49a90e9ccb6": {
+    "asset": 1740722951831,
+    "meta": 1740722954090,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P10.mp3"
+  },
+  "7c6c6dfe-e49b-4f1b-9e77-6789a64c4b66": {
+    "asset": 1740722951831,
+    "meta": 1740722954092,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P13.mp3"
+  },
+  "8dfa12dc-3e84-423b-b2f1-0c3baeec06c9": {
+    "asset": 1740722951831,
+    "meta": 1740722954096,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P12.mp3"
+  },
+  "a707b6c3-2b3f-44f2-83d7-85f618ab7ae1": {
+    "asset": 1740722951831,
+    "meta": 1740722954097,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P11.mp3"
+  },
+  "c3edc5f0-964c-467b-b09d-938b25746815": {
+    "asset": 1740722951835,
+    "meta": 1740722954099,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P14.mp3"
+  },
+  "b0a31770-e5ed-42ec-b850-34dd13bf6d4d": {
+    "asset": 1740722951831,
+    "meta": 1740722954108,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P15.mp3"
+  },
+  "d079f995-71c9-42d1-81fb-fdca6b797508": {
+    "asset": 1740722951831,
+    "meta": 1740722954110,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P16.mp3"
+  },
+  "bdffced8-fffc-4f2a-a2f9-ddde6d7e7b92": {
+    "asset": 1740722951831,
+    "meta": 1740722954110,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P19.mp3"
+  },
+  "80fb93d9-4d45-4868-8213-af9b68da4181": {
+    "asset": 1740722951831,
+    "meta": 1740722954113,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P17.mp3"
+  },
+  "ee8fae2f-6651-4956-9cb1-c47a62def956": {
+    "asset": 1740722951831,
+    "meta": 1740722954117,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P18.mp3"
+  },
+  "3ce849f1-aaa1-423d-a6e2-12bbba87d990": {
+    "asset": 1740722951831,
+    "meta": 1740722954123,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P20.mp3"
+  },
+  "c8f4b035-74ec-4733-ac21-71d6423556ad": {
+    "asset": 1740722951831,
+    "meta": 1740722954128,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P3.mp3"
+  },
+  "624a892b-908e-4fc3-94d5-1a1d940efc47": {
+    "asset": 1740722951831,
+    "meta": 1740722954132,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P2.mp3"
+  },
+  "a04f3036-604e-4fed-8d4d-2aacff420570": {
+    "asset": 1740722951831,
+    "meta": 1740722954134,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P4.mp3"
+  },
+  "b022d847-e376-41ad-8d67-f4dcff048310": {
+    "asset": 1740722951833,
+    "meta": 1740722954134,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P5.mp3"
+  },
+  "010e5351-3bfe-4023-bbd7-6bc2253a8a94": {
+    "asset": 1740722951831,
+    "meta": 1740722954140,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P6.mp3"
+  },
+  "4257f641-8e66-476d-9de6-9a847a07dd1e": {
+    "asset": 1740722951833,
+    "meta": 1740722954141,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P8.mp3"
+  },
+  "08263f96-ab3b-43b9-b7b5-21a89cbd8198": {
+    "asset": 1740722951833,
+    "meta": 1740722954141,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P9.mp3"
+  },
+  "978ae154-9d60-476d-badb-97469bc99de0": {
+    "asset": 1740722951831,
+    "meta": 1740722954143,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria\\Jaipuria Jockey\\Tortoise\\audio\\New folder\\P7.mp3"
+  },
+  "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
+    "asset": 1740723062739,
+    "meta": 1740723065731,
+    "relativePath": "Framework\\Scripts\\StartGame.ts"
+  },
+  "9836134e-b892-4283-b6b2-78b5acf3ed45": {
+    "asset": 1709141182822,
+    "meta": 1740723365689,
+    "relativePath": "effects"
+  },
+  "abc2cb62-7852-4525-a90d-d474487b88f2": {
+    "asset": 1709141182807,
+    "meta": 1740723365822,
+    "relativePath": "effects\\builtin-phong.effect"
+  },
+  "e2f00085-c597-422d-9759-52c360279106": {
+    "asset": 1709141182822,
+    "meta": 1740723365888,
+    "relativePath": "effects\\builtin-toon.effect"
+  },
+  "430eccbf-bf2c-4e6e-8c0c-884bbb487f32": {
+    "asset": 1709141182822,
+    "meta": 1740723365904,
+    "relativePath": "effects\\__builtin-editor-gizmo-line.effect"
+  },
+  "6c5cf6e1-b044-4eac-9431-835644d57381": {
+    "asset": 1709141182822,
+    "meta": 1740723365915,
+    "relativePath": "effects\\__builtin-editor-gizmo-unlit.effect"
+  },
+  "115286d1-2e10-49ee-aab4-341583f607e8": {
+    "asset": 1709141182822,
+    "meta": 1740723365945,
+    "relativePath": "effects\\__builtin-editor-gizmo.effect"
+  },
+  "f8e6b000-5643-4b86-9080-aa680ce1f599": {
+    "asset": 1709141182924,
+    "meta": 1740723365953,
+    "relativePath": "image"
+  },
+  "5c3eedba-6c41-4c0c-9ba7-d91f813cbd1c": {
+    "asset": 1709141182933,
+    "meta": 1740723366066,
+    "relativePath": "materials"
+  },
+  "fc09f9bd-2cce-4605-b630-8145ef809ed6": {
+    "asset": 1709141182947,
+    "meta": 1740723366066,
+    "relativePath": "misc"
+  },
+  "b43ff3c2-02bb-4874-81f7-f2dea6970f18": {
+    "asset": 1709141182838,
+    "meta": 1740723366034,
+    "relativePath": "image\\default_btn_pressed.png"
+  },
+  "db019bf7-f71c-4111-98cf-918ea180cb48": {
+    "asset": 1709141182995,
+    "meta": 1740723366087,
+    "relativePath": "model"
+  },
+  "e39e96e6-6f6e-413f-bcf1-ac7679bb648a": {
+    "asset": 1709141182995,
+    "meta": 1740723366089,
+    "relativePath": "model\\prefab"
+  },
+  "d81ec8ad-247c-4e62-aa3c-d35c4193c7af": {
+    "asset": 1709141182854,
+    "meta": 1740723366041,
+    "relativePath": "image\\default_panel.png"
+  },
+  "cfef78f1-c8df-49b7-8ed0-4c953ace2621": {
+    "asset": 1709141182854,
+    "meta": 1740723366041,
+    "relativePath": "image\\default_progressbar.png"
+  },
+  "99170b0b-d210-46f1-b213-7d9e3f23098a": {
+    "asset": 1709141182854,
+    "meta": 1740723366044,
+    "relativePath": "image\\default_progressbar_bg.png"
+  },
+  "9d60001f-b5f4-4726-a629-2659e3ded0b8": {
+    "asset": 1709141182885,
+    "meta": 1740723366057,
+    "relativePath": "image\\default_radio_button_on.png"
+  },
+  "e851e89b-faa2-4484-bea6-5c01dd9f06e2": {
+    "asset": 1709141182838,
+    "meta": 1740723366066,
+    "relativePath": "image\\default_btn_normal.png"
+  },
+  "71561142-4c83-4933-afca-cb7a17f67053": {
+    "asset": 1709141182838,
+    "meta": 1740723366084,
+    "relativePath": "image\\default_btn_disabled.png"
+  },
+  "4bab67cb-18e6-4099-b840-355f0473f890": {
+    "asset": 1709141182885,
+    "meta": 1740723366092,
+    "relativePath": "image\\default_scrollbar_bg.png"
+  },
+  "600301aa-3357-4a10-b086-84f011fa32ba": {
+    "asset": 1709141182838,
+    "meta": 1740723366106,
+    "relativePath": "image\\default-particle.png"
+  },
+  "f6e6dd15-71d1-4ffe-ace7-24fd39942c05": {
+    "asset": 1709141183011,
+    "meta": 1740723366130,
+    "relativePath": "obsolete"
+  },
+  "edd215b9-2796-4a05-aaf5-81f96c9281ce": {
+    "asset": 1709141182838,
+    "meta": 1740723366110,
+    "relativePath": "image\\default_editbox_bg.png"
+  },
+  "a87cc147-01b2-43f8-8e42-a7ca90b0c757": {
+    "asset": 1709141182963,
+    "meta": 1740723366135,
+    "relativePath": "model\\prefab\\box.prefab"
+  },
+  "f743d2b6-b7ea-4c14-a55b-547ed4d0a045": {
+    "asset": 1709141183027,
+    "meta": 1740723366135,
+    "relativePath": "particle"
+  },
+  "567dcd80-8bf4-4535-8a5a-313f1caf078a": {
+    "asset": 1709141182854,
+    "meta": 1740723366116,
+    "relativePath": "image\\default_radio_button_off.png"
+  },
+  "c4480a0a-6ac5-443f-8b40-361a14257fc8": {
+    "asset": 1709141182931,
+    "meta": 1740723366708,
+    "relativePath": "materials\\builtin-phong.mtl"
+  },
+  "617323dd-11f4-4dd3-8eec-0caf6b3b45b9": {
+    "asset": 1709141182885,
+    "meta": 1740723366118,
+    "relativePath": "image\\default_scrollbar_vertical_bg.png"
+  },
+  "b5fc2cf2-7942-483d-be1f-bbeadc4714ad": {
+    "asset": 1709141182963,
+    "meta": 1740723366138,
+    "relativePath": "model\\prefab\\cone.prefab"
+  },
+  "fe1417b6-fe6b-46a4-ae7c-9fd331f33a2a": {
+    "asset": 1709141182963,
+    "meta": 1740723366138,
+    "relativePath": "model\\prefab\\capsule.prefab"
+  },
+  "0291c134-b3da-4098-b7b5-e397edbe947f": {
+    "asset": 1709141182885,
+    "meta": 1740723366122,
+    "relativePath": "image\\default_scrollbar.png"
+  },
+  "ae6c6c98-11e4-452f-8758-75f5c6a56e83": {
+    "asset": 1709141183128,
+    "meta": 1740723366138,
+    "relativePath": "prefab"
+  },
+  "1c5e4038-953a-44c2-b620-0bbfc6170477": {
+    "asset": 1709141182974,
+    "meta": 1740723366147,
+    "relativePath": "model\\prefab\\cylinder.prefab"
+  },
+  "0275e94c-56a7-410f-bd1a-fc7483f7d14a": {
+    "asset": 1709141182901,
+    "meta": 1740723366125,
+    "relativePath": "image\\default_sprite_splash.png"
+  },
+  "3f376125-a699-40ca-ad05-04d662eaa1f2": {
+    "asset": 1709141182980,
+    "meta": 1740723366147,
+    "relativePath": "model\\prefab\\plane.prefab"
+  },
+  "de510076-056b-484f-b94c-83bef217d0e1": {
+    "asset": 1709141182987,
+    "meta": 1740723366147,
+    "relativePath": "model\\prefab\\torus.prefab"
+  },
+  "6e056173-d285-473c-b206-40a7fff5386e": {
+    "asset": 1709141182901,
+    "meta": 1740723366125,
+    "relativePath": "image\\default_sprite.png"
+  },
+  "6c9ef10d-b479-420b-bfe6-39cdda6a8ae0": {
+    "asset": 1709141182980,
+    "meta": 1740723366155,
+    "relativePath": "model\\prefab\\quad.prefab"
+  },
+  "2d9a4b85-b0ab-4c46-84c5-18f393ab2058": {
+    "asset": 1709141182987,
+    "meta": 1740723366155,
+    "relativePath": "model\\prefab\\sphere.prefab"
+  },
+  "d6d3ca85-4681-47c1-b5dd-d036a9d39ea2": {
+    "asset": 1709141182885,
+    "meta": 1740723366130,
+    "relativePath": "image\\default_scrollbar_vertical.png"
+  },
+  "70d7cdb0-04cd-41bb-9480-c06a4785f386": {
+    "asset": 1709141183034,
+    "meta": 1740723366165,
+    "relativePath": "prefab\\3d-camera.prefab"
+  },
+  "897ef7a1-4860-4f64-968d-f5924b18668a": {
+    "asset": 1709141183029,
+    "meta": 1740723366167,
+    "relativePath": "prefab\\2d-camera.prefab"
+  },
+  "a3ee0214-b432-4865-9666-4a3211814282": {
+    "asset": 1709141183076,
+    "meta": 1740723366167,
+    "relativePath": "prefab\\light"
+  },
+  "70bbeb73-6dc2-4ee4-8faf-76b3a0e34ec4": {
+    "asset": 1709141183039,
+    "meta": 1740723366171,
+    "relativePath": "prefab\\3d-particle.prefab"
+  },
+  "ed88f13d-fcad-4848-aa35-65a2cb973584": {
+    "asset": 1709141183042,
+    "meta": 1740723366174,
+    "relativePath": "prefab\\3d-stage.prefab"
+  },
+  "972b9a4d-47ee-4c74-b5c3-61d8a69bc29f": {
+    "asset": 1709141183048,
+    "meta": 1740723366181,
+    "relativePath": "prefab\\button.prefab"
+  },
+  "61aeb05b-3b32-452b-8eed-2b76deeed554": {
+    "asset": 1709141183048,
+    "meta": 1740723366184,
+    "relativePath": "prefab\\editbox.prefab"
+  },
+  "2c937608-2562-40ea-b264-7395df6f0cea": {
+    "asset": 1709141183048,
+    "meta": 1740723366188,
+    "relativePath": "prefab\\canvas.prefab"
+  },
+  "27756ebb-3d33-44b0-9b96-e858fadd4dd4": {
+    "asset": 1709141183055,
+    "meta": 1740723366191,
+    "relativePath": "prefab\\label.prefab"
+  },
+  "2be36297-9abb-4fee-8049-9ed5e271da8a": {
+    "asset": 1709141182947,
+    "meta": 1740723366197,
+    "relativePath": "misc\\default_video.mp4"
+  },
+  "785a442c-3ceb-45be-a46e-7317f625f3b9": {
+    "asset": 1709141183060,
+    "meta": 1740723366203,
+    "relativePath": "prefab\\layout.prefab"
+  },
+  "ca8401fe-ad6e-41a8-bd46-8e3e4e9945be": {
+    "asset": 1709141183076,
+    "meta": 1740723366207,
+    "relativePath": "prefab\\pageview.prefab"
+  },
+  "cd33edea-55f5-46c2-958d-357a01384a36": {
+    "asset": 1709141183083,
+    "meta": 1740723366211,
+    "relativePath": "prefab\\particlesystem.prefab"
+  },
+  "5965ffac-69da-4b55-bcde-9225d0613c28": {
+    "asset": 1709141183083,
+    "meta": 1740723366213,
+    "relativePath": "prefab\\progressBar.prefab"
+  },
+  "4a37dd57-78cd-4cec-aad4-f11a73d12b63": {
+    "asset": 1709141183090,
+    "meta": 1740723366216,
+    "relativePath": "prefab\\richtext.prefab"
+  },
+  "32044bd2-481f-4cf1-a656-e2b2fb1594eb": {
+    "asset": 1709141183090,
+    "meta": 1740723366218,
+    "relativePath": "prefab\\scrollview.prefab"
+  },
+  "0004d1cf-a0ad-47d8-ab17-34d3db9d35a3": {
+    "asset": 1709141183097,
+    "meta": 1740723366221,
+    "relativePath": "prefab\\slider.prefab"
+  },
+  "96083d03-c332-4a3f-9386-d03e2d19e8ee": {
+    "asset": 1709141183097,
+    "meta": 1740723366224,
+    "relativePath": "prefab\\sprite.prefab"
+  },
+  "73a0903d-d80e-4e3c-aa67-f999543c08f5": {
+    "asset": 1709141182901,
+    "meta": 1740723366195,
+    "relativePath": "image\\default_toggle_checkmark.png"
+  },
+  "d8afc78c-4eac-4a9f-83dd-67bc70344d33": {
+    "asset": 1709141183170,
+    "meta": 1740723366229,
+    "relativePath": "resources"
+  },
+  "1f55e3be-b89b-4b79-88de-47fd31018044": {
+    "asset": 1709141183097,
+    "meta": 1740723366237,
+    "relativePath": "prefab\\sprite_splash.prefab"
+  },
+  "294c1663-4adf-4a1e-a795-53808011a38a": {
+    "asset": 1709141183167,
+    "meta": 1740723366237,
+    "relativePath": "resources\\effects"
+  },
+  "bbee2217-c261-49bd-a8ce-708d6bcc3500": {
+    "asset": 1709141183209,
+    "meta": 1740723366241,
+    "relativePath": "resources\\materials"
+  },
+  "30682f87-9f0d-4f17-8a44-72863791461b": {
+    "asset": 1709141183137,
+    "meta": 1740723366258,
+    "relativePath": "resources\\effects\\builtin-2d-graphics.effect"
+  },
+  "144c3297-af63-49e8-b8ef-1cfa29b3be28": {
+    "asset": 1709141183137,
+    "meta": 1740723366278,
+    "relativePath": "resources\\effects\\builtin-2d-gray-sprite.effect"
+  },
+  "d29077ba-1627-4a72-9579-7b56a235340c": {
+    "asset": 1709141182920,
+    "meta": 1740723366224,
+    "relativePath": "image\\default_toggle_normal.png"
+  },
+  "f18742d7-56d2-4eb5-ae49-2d9d710b37c8": {
+    "asset": 1709141183137,
+    "meta": 1740723366294,
+    "relativePath": "resources\\effects\\builtin-2d-label.effect"
+  },
+  "7de03a80-4457-438d-95a7-3e7cdffd6086": {
+    "asset": 1709141183105,
+    "meta": 1740723366303,
+    "relativePath": "prefab\\tiledmap.prefab"
+  },
+  "b181c1e4-0a72-4a91-bfb0-ae6f36ca60bd": {
+    "asset": 1709141182924,
+    "meta": 1740723366229,
+    "relativePath": "image\\default_toggle_pressed.png"
+  },
+  "0e93aeaa-0b53-4e40-b8e0-6268b4e07bd7": {
+    "asset": 1709141183147,
+    "meta": 1740723366319,
+    "relativePath": "resources\\effects\\builtin-2d-spine.effect"
+  },
+  "c25b9d50-c8fc-4d27-beeb-6e7c1f2e5c0f": {
+    "asset": 1709141182916,
+    "meta": 1740723366229,
+    "relativePath": "image\\default_toggle_disabled.png"
+  },
+  "2874f8dd-416c-4440-81b7-555975426e93": {
+    "asset": 1709141183147,
+    "meta": 1740723366353,
+    "relativePath": "resources\\effects\\builtin-2d-sprite.effect"
+  },
+  "829a282c-b049-4019-bd38-5ace8d8a6417": {
+    "asset": 1709141183155,
+    "meta": 1740723366485,
+    "relativePath": "resources\\effects\\builtin-3d-particle.effect"
+  },
+  "2a7c0036-e0b3-4fe1-8998-89a54b8a2bec": {
+    "asset": 1709141183160,
+    "meta": 1740723366524,
+    "relativePath": "resources\\effects\\builtin-3d-trail.effect"
+  },
+  "c0040c95-c57f-49cd-9cbc-12316b73d0d4": {
+    "asset": 1709141183160,
+    "meta": 1740723366535,
+    "relativePath": "resources\\effects\\builtin-clear-stencil.effect"
+  },
+  "8a96b965-2dc0-4e03-aa90-3b79cb93b5b4": {
+    "asset": 1709141183011,
+    "meta": 1740723366239,
+    "relativePath": "obsolete\\atom.png"
+  },
+  "6d91e591-4ce0-465c-809f-610ec95019c6": {
+    "asset": 1709141183166,
+    "meta": 1740723366560,
+    "relativePath": "resources\\effects\\builtin-unlit.effect"
+  },
+  "0e42ba95-1fa1-46aa-b2cf-143cd1bcee2c": {
+    "asset": 1709141183105,
+    "meta": 1740723366570,
+    "relativePath": "prefab\\tiledtile.prefab"
+  },
+  "0d784963-d024-4ea6-a7db-03be0ad63010": {
+    "asset": 1709141183105,
+    "meta": 1740723366574,
+    "relativePath": "prefab\\toggle.prefab"
+  },
+  "232d2782-c4bd-4bb4-9e01-909f03d6d3b9": {
+    "asset": 1709141183121,
+    "meta": 1740723366585,
+    "relativePath": "prefab\\videoplayer.prefab"
+  },
+  "bf0a434c-84dd-4a8e-a08a-7a36f180cc75": {
+    "asset": 1709141183105,
+    "meta": 1740723366588,
+    "relativePath": "prefab\\toggleContainer.prefab"
+  },
+  "d1b8be49-b0a0-435c-83b7-552bed4bbe35": {
+    "asset": 1709141183121,
+    "meta": 1740723366593,
+    "relativePath": "prefab\\toggleGroup.prefab"
+  },
+  "0cf30284-9073-46bc-9eba-e62b69dbbff3": {
+    "asset": 1709141183065,
+    "meta": 1740723366595,
+    "relativePath": "prefab\\light\\point.prefab"
+  },
+  "ddb99b39-7004-47cd-9705-751905c43c46": {
+    "asset": 1709141183065,
+    "meta": 1740723366597,
+    "relativePath": "prefab\\light\\directional.prefab"
+  },
+  "d0a82d39-bede-46c4-b698-c81ff0dedfff": {
+    "asset": 1709141183011,
+    "meta": 1740723366324,
+    "relativePath": "particle\\atom.png"
+  },
+  "61906da3-7003-4bda-9abc-5769c76faee4": {
+    "asset": 1709141183065,
+    "meta": 1740723366601,
+    "relativePath": "prefab\\light\\ambient.prefab"
+  },
+  "8c5001fd-07ee-4a4b-a8a0-63e15195e94d": {
+    "asset": 1709141183128,
+    "meta": 1740723366601,
+    "relativePath": "prefab\\webview.prefab"
+  },
+  "f5331fd2-bf42-4ee3-a3fd-3e1657600eff": {
+    "asset": 1709141183076,
+    "meta": 1740723366605,
+    "relativePath": "prefab\\light\\spot.prefab"
+  },
+  "6f801092-0c37-4f30-89ef-c8d960825b36": {
+    "asset": 1709141183174,
+    "meta": 1740723366757,
+    "relativePath": "resources\\materials\\builtin-2d-base.mtl"
+  },
+  "a153945d-2511-4c14-be7b-05d242f47d57": {
+    "asset": 1709141183175,
+    "meta": 1740723366759,
+    "relativePath": "resources\\materials\\builtin-2d-graphics.mtl"
+  },
+  "3a7bb79f-32fd-422e-ada2-96f518fed422": {
+    "asset": 1709141183175,
+    "meta": 1740723366761,
+    "relativePath": "resources\\materials\\builtin-2d-gray-sprite.mtl"
+  },
+  "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432": {
+    "asset": 1709141183196,
+    "meta": 1740723366763,
+    "relativePath": "resources\\materials\\builtin-2d-sprite.mtl"
+  },
+  "e02d87d4-e599-4d16-8001-e14891ac6506": {
+    "asset": 1709141183189,
+    "meta": 1740723366766,
+    "relativePath": "resources\\materials\\builtin-2d-label.mtl"
+  },
+  "432fa09c-cf03-4cff-a186-982604408a07": {
+    "asset": 1709141183196,
+    "meta": 1740723366766,
+    "relativePath": "resources\\materials\\builtin-3d-particle.mtl"
+  },
+  "7afd064b-113f-480e-b793-8817d19f63c3": {
+    "asset": 1709141183191,
+    "meta": 1740723366766,
+    "relativePath": "resources\\materials\\builtin-2d-spine.mtl"
+  },
+  "466d4f9b-e5f4-4ea8-85d5-3c6e9a65658a": {
+    "asset": 1709141183201,
+    "meta": 1740723366774,
+    "relativePath": "resources\\materials\\builtin-3d-trail.mtl"
+  },
+  "cf7e0bb8-a81c-44a9-ad79-d28d43991032": {
+    "asset": 1709141183201,
+    "meta": 1740723366775,
+    "relativePath": "resources\\materials\\builtin-clear-stencil.mtl"
+  },
+  "2a296057-247c-4a1c-bbeb-0548b6c98650": {
+    "asset": 1709141183201,
+    "meta": 1740723366775,
+    "relativePath": "resources\\materials\\builtin-unlit.mtl"
+  },
+  "b2687ac4-099e-403c-a192-ff477686f4f5": {
+    "asset": 1709141183011,
+    "meta": 1740723366794,
+    "relativePath": "particle\\atom.plist"
+  },
+  "b8223619-7e38-47c4-841f-9160c232495a": {
+    "asset": 1709141183011,
+    "meta": 1740723366798,
+    "relativePath": "obsolete\\atom.plist"
+  },
+  "954fec8b-cd16-4bb9-a3b7-7719660e7558": {
+    "asset": 1709141182995,
+    "meta": 1740723366831,
+    "relativePath": "model\\primitives.fbx"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Crayon intro",
+    "texture": "3c7cb5ec-01cc-499a-8a19-3a1f2b7094ab",
+    "atlas": "",
+    "rect": [
+      3,
+      2,
+      2014,
+      1020
+    ],
+    "offset": [
+      -14,
+      0
+    ],
+    "originalSize": [
+      2048,
+      1024
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

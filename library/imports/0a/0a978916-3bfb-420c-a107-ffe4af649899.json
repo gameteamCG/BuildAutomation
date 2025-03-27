@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "skip button_1",
+    "texture": "8587e48d-eee9-4b7e-88e7-7261fc3970c2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      209,
+      102
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      209,
+      102
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
