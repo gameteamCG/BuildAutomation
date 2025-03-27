@@ -76,7 +76,7 @@ export default class Gameplay extends cc.Component {
         this.questionextraText = ["She enjoys reading books.",
             "The sun is shining brightly.",
             "They have completed the project.",
-            "He likes playing soccer.",
+            "He likes playing football.",
             "The weather is beautiful today.",
             "Sarah has traveled to Europe.",
             "They are going to the park.",
@@ -124,7 +124,6 @@ export default class Gameplay extends cc.Component {
             cc.audioEngine.playEffect(this.questionVO, false);
         }
         if (globalVariables.Instance.currentLevel == 1) {
-            //PLAY HAND ANIMATION
             let hand = this.node.getChildByName("hand");
             hand.active = true;
             let x1: number = this.optionsNode.children[0].x;

@@ -70,7 +70,7 @@ var Gameplay = /** @class */ (function (_super) {
         this.questionextraText = ["She enjoys reading books.",
             "The sun is shining brightly.",
             "They have completed the project.",
-            "He likes playing soccer.",
+            "He likes playing football.",
             "The weather is beautiful today.",
             "Sarah has traveled to Europe.",
             "They are going to the park.",
@@ -117,7 +117,6 @@ var Gameplay = /** @class */ (function (_super) {
             cc.audioEngine.playEffect(this.questionVO, false);
         }
         if (globalVariables_1.default.Instance.currentLevel == 1) {
-            //PLAY HAND ANIMATION
             var hand = this.node.getChildByName("hand");
             hand.active = true;
             var x1 = this.optionsNode.children[0].x;

@@ -84,13 +84,13 @@
       "optionOffset": 0,
       "options": [
         "playing",
-        "soccer",
+        "football",
         "not",
         "he",
         "like",
         "does"
       ],
-      "correctAnswer": "hedoesnotlikeplayingsoccer",
+      "correctAnswer": "hedoesnotlikeplayingfootball",
       "correctAudioName": "r4.mp3",
       "needReiteration": true,
       "reiterationImageName": "4png.png"
@@ -126,14 +126,14 @@
       "numberOfOptions": 6,
       "optionOffset": 0,
       "options": [
-        "sarah",
-        "europe",
+        "Sarah",
+        "Europe",
         "has",
         "travelled",
         "not",
         "to"
       ],
-      "correctAnswer": "sarahhasnottravelledtoeurope",
+      "correctAnswer": "SarahhasnottravelledtoEurope",
       "correctAudioName": "r6.mp3",
       "needReiteration": true,
       "reiterationImageName": "6png.png"
