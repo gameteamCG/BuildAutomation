@@ -44,7 +44,7 @@
             "children": [
               {
                 "width": 816,
-                "height": 364.984375,
+                "height": 365,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -108,7 +108,7 @@
       "x": 0,
       "y": 25,
       "width": 1440,
-      "height": 814
+      "height": 813
     }
   },
   "panelLabelWidth": {}
