@@ -1,0 +1,38 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "LKG_SB4_GA_81: Healthy Food",
+      "totalLevel": "2",
+      "TitleImageName": "title.png",
+      "introBgName": "LKG.png",
+      "bgmMusicName": "bgm.mp3",
+      "initialVOName": "",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "healthy food",
+        "questionImageName": "apple.png",
+        "questionAudioName": "healthyQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "blank.png",
+        "needMoreTools": false,
+        "correctAudioName": "positive_4.mp3"
+      },
+      {
+        "questionText": "unhealthy food",
+        "questionImageName": "donut.png",
+        "questionAudioName": "unhealthyQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "blank.png",
+        "needMoreTools": false,
+        "correctAudioName": "positive_1.mp3"
+      }
+    ]
+  }
+}
