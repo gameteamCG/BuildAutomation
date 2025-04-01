@@ -1,0 +1,211 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Life of early humans_Grade 3 (Social Science)_R8",
+      "totalLevel": "12",
+      "TitleImageName": "Asset 73.png",
+      "introBgName": "Bg (1).png",
+      "bgmMusicName": "BGM1302225.mp3",
+      "mainBgName": "Bg (1).png",
+      "JockeyName": "tortoise"
+    },
+    "questionData": [
+      {
+        "questionText": "What kind of clothing did early humans use to cover themselves?",
+        "questionAudioName": "What kind of clothing did early humans use to cover themselves .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Animal skin",
+          "Cotton clothes",
+          "Silk robes",
+          "Woolen sweaters"
+        ],
+        "correctAudios": [
+          "33823440_2_animal-skin.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Where did early humans live to protect themselves from wild animals?",
+        "questionAudioName": "Where did early humans live to protect themselves from wild animals .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Huts",
+          "Caves",
+          "Palaces",
+          "Tents"
+        ],
+        "correctAudios": [
+          "33823440_4_caves.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "What did early humans use for hunting?",
+        "questionAudioName": "What did early humans use for hunting .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Gun",
+          "Bow and arrow",
+          "Net",
+          "Spear"
+        ],
+        "correctAudios": [
+          "33823440_6_spear.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "What was discovered by rubbing two stones together?",
+        "questionAudioName": "What was discovered by rubbing two stones together .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Fire",
+          "Water",
+          "Ice",
+          "Metal"
+        ],
+        "correctAudios": [
+          "33823440_8_fire.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Identify one of the uses of fire.",
+        "questionAudioName": "Identify one of the uses of fire.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Cooling",
+          "Building houses",
+          "Light",
+          "Storing food"
+        ],
+        "correctAudios": [
+          "33823440_10_light.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Fire helped them to _____ their food",
+        "questionAudioName": "Fire helped them to dash their food. .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Freeze",
+          "Dry",
+          "Melt",
+          "Roast"
+        ],
+        "correctAudios": [
+          "33823440_12_roast.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Where did early humans settle to get easy access to food and water?",
+        "questionAudioName": "Where did early humans settle to get easy access to food and water .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Mountains",
+          "Deserts",
+          "Riverbanks",
+          "Forests"
+        ],
+        "correctAudios": [
+          "33823440_14_riverbanks.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Early humans made the discovery of ____ by sowing seeds and growing their own food.",
+        "questionAudioName": "Early humans made the discovery of dash by sowing seeds and growing their own food. .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Weaving",
+          "Farming",
+          "Cooking",
+          "Fishing"
+        ],
+        "correctAudios": [
+          "33823440_16_farming.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which animal was tamed to help them in hunting?",
+        "questionAudioName": "Which animal was tamed to help them in hunting .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Elephant",
+          "Snake",
+          "Dog",
+          "Cow"
+        ],
+        "correctAudios": [
+          "27767026_4_dog.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "How did early humans travel long distances initially?",
+        "questionAudioName": "How did early humans travel long distences initially.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Riding bicycles",
+          "Driving cars",
+          "Flying on birds",
+          "Walking"
+        ],
+        "correctAudios": [
+          "walking.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "The very first wheel was made out of _____.",
+        "questionAudioName": "The very first wheel was made out of dash. .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Metal",
+          "Stone",
+          "Wood",
+          "Plastic"
+        ],
+        "correctAudios": [
+          "stone.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "What was made easy with the discovery of the wheel?",
+        "questionAudioName": "What was made easy with the discovery of the wheel .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Cooking",
+          "Farming",
+          "Hunting",
+          "Travel and transport"
+        ],
+        "correctAudios": [
+          "33823440_16_farming.mp3"
+        ],
+        "correctAnswerNum": "4"
+      }
+    ]
+  }
+}
