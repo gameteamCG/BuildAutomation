@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lev1",
+    "texture": "5e6f6b82-fdbf-4882-a653-0b49cfb92262",
+    "atlas": "",
+    "rect": [
+      52,
+      79,
+      198,
+      171
+    ],
+    "offset": [
+      26,
+      -39.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

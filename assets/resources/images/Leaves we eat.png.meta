@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "45fcb0f6-277e-4323-b9b2-0ab45d2fea64",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 583,
+  "height": 208,
+  "platformSettings": {},
+  "subMetas": {
+    "Leaves we eat": {
+      "ver": "1.0.6",
+      "uuid": "f35ca9a6-5efc-4ba6-82f7-0ebe9959b5b6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "45fcb0f6-277e-4323-b9b2-0ab45d2fea64",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -6,
+      "offsetY": 1,
+      "trimX": 3,
+      "trimY": 7,
+      "width": 565,
+      "height": 192,
+      "rawWidth": 583,
+      "rawHeight": 208,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
