@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Leaves we eat",
+    "texture": "efb1af84-3d36-4cb2-80b3-859c3a0139fb",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      565,
+      192
+    ],
+    "offset": [
+      -6,
+      1
+    ],
+    "originalSize": [
+      583,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

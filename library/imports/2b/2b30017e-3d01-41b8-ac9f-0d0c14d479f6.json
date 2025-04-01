@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "methi4",
+    "texture": "081aa2b0-1701-41bc-a79e-e4e2ed706910",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      155,
+      212
+    ],
+    "offset": [
+      -47.5,
+      19
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
