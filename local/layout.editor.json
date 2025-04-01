@@ -44,7 +44,7 @@
             "children": [
               {
                 "width": 816,
-                "height": 364.984375,
+                "height": 365,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -88,8 +88,7 @@
         "cocos-services",
         "node-library"
       ]
-    },
-    " common-asset-worker-worker": {}
+    }
   },
   "panels": {
     "project-settings": {

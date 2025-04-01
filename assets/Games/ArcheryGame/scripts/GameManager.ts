@@ -1,4 +1,4 @@
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import { GAME_EVENTS, LogTypes } from "../utils/Constants";
 import EVENTS from "../utils/EventSystem";

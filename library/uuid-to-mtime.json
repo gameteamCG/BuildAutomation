@@ -1179,11 +1179,6 @@
     "meta": 1743495345782,
     "relativePath": "Games/ArcheryGame/scripts/ArrowScript.ts"
   },
-  "f2e3b5bc-23a8-4490-833b-1c0f6153eaaf": {
-    "asset": 1743495335035,
-    "meta": 1743495345905,
-    "relativePath": "Games/ArcheryGame/scripts/GameManager.ts"
-  },
   "4d3d7675-1a2a-4b49-8d85-9827a9c741e5": {
     "asset": 1743495335035,
     "meta": 1743495345910,
@@ -1320,8 +1315,8 @@
     "relativePath": "Games/ArcheryGame/scenes/1.fire"
   },
   "b1d0de1a-e7c7-4ebe-bae0-90ca298aa6e2": {
-    "asset": 1743495335034,
-    "meta": 1743495345939,
+    "asset": 1743495835755,
+    "meta": 1743495835759,
     "relativePath": "Games/ArcheryGame/scenes/Intro.fire"
   },
   "8c78140e-ad0f-4250-a4e6-b7813c9a5b7c": {
@@ -3758,5 +3753,10 @@
     "asset": 1743495179226,
     "meta": 1743495346353,
     "relativePath": "Games/DragNDrop/Buillds_SuperCub/TracingLetterAtoZ(JrKg)/web-mobile"
+  },
+  "f2e3b5bc-23a8-4490-833b-1c0f6153eaaf": {
+    "asset": 1743495804803,
+    "meta": 1743495805932,
+    "relativePath": "Games/ArcheryGame/scripts/GameManager.ts"
   }
 }
