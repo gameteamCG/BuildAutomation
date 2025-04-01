@@ -1,0 +1,133 @@
+{
+  "additionalData": {
+    "GameID": "Multiplication of a 2-digit number with a 1 digit number (without carry over)_Grade 2 (Math)_R23",
+    "totalLevel": "8",
+    "TitleImageName": "Asset 70.png",
+    "introBgName": "Bg (1).png",
+    "bgmMusicName": "BGM1302225.mp3",
+    "mainBgName": "bg1.png",
+    "JockeyName": "bag"
+  },
+  "questionData": [
+    {
+      "questionText": "11 × 2 = ?",
+      "questionAudioName": "p_42542350_844.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "23",
+        "22",
+        "34"
+      ],
+      "correctAudios": [
+        "11 multiplied by  2 equals to 22.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "12 × 3 = ?",
+      "questionAudioName": "p_42542350_844.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "36",
+        "37",
+        "38"
+      ],
+      "correctAudios": [
+        "12 multiplied by 3 equals to 36.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "14 × 1 = ?",
+      "questionAudioName": "p_42542350_844.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "14",
+        "1",
+        "15"
+      ],
+      "correctAudios": [
+        "14 multiplied by 1 equals to 14.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "22 × 4 = ?",
+      "questionAudioName": "p_42542350_844.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "99",
+        "44",
+        "88"
+      ],
+      "correctAudios": [
+        "44 multiplied by 2 equals to 88.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "23 × 2 = ?",
+      "questionAudioName": "p_42542350_844.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "45",
+        "46",
+        "44"
+      ],
+      "correctAudios": [
+        "23 multiplied by 2 equals to 46.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "50 × 1 = ?",
+      "questionAudioName": "p_42542350_844.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "5",
+        "1",
+        "50"
+      ],
+      "correctAudios": [
+        "50 multiplied by 1 equals to 50.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "32 × 3 = ?",
+      "questionAudioName": "p_42542350_844.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "96",
+        "69",
+        "99"
+      ],
+      "correctAudios": [
+        "32 multiplied by 3 equals to 96.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "33 × 1 = ?",
+      "questionAudioName": "p_42542350_844.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "11",
+        "33",
+        "30"
+      ],
+      "correctAudios": [
+        "33 multiplied by 1 equals to 33.mp3"
+      ],
+      "correctAnswerNum": "2"
+    }
+  ]
+}
