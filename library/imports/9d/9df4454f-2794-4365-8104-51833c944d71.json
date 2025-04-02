@@ -1,0 +1,330 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Weather chart_Grade 3 (Science)_R3",
+      "totalLevel": "10",
+      "TitleImageName": "Weather chart.png",
+      "introBgName": "jaipuria.png",
+      "bgmMusicName": "Colour BGM.mp3",
+      "mainBgName": " bg.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve the picture and swipe to spell the name of the weather symbol.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 51.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1.png",
+          " 2.png",
+          "3.png",
+          "4.png"
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "Swipe to spell the weather",
+        "questionAudioName2": "swipe.mp3",
+        "commonOptionImageName": "Asset 51.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "options": [
+          "A",
+          "R",
+          "Y",
+          "N",
+          "I"
+        ],
+        "correctAnswer": "RAINY",
+        "reiterationAudioName": "33375636_2_rainy.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve the picture and swipe to spell the name of the weather symbol.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 51.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "Swipe to spell the weather",
+        "questionAudioName2": "swipe.mp3",
+        "commonOptionImageName": "Asset 51.png",
+        "isOptionText": true,
+        "numberOfOptions": 6,
+        "options": [
+          "O",
+          "U",
+          "Y",
+          "C",
+          "D",
+          "L"
+        ],
+        "correctAnswer": "CLOUDY",
+        "reiterationAudioName": "33375636_3_cloudy.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve the picture and swipe to spell the name of the weather symbol.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 51.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "correctAudioName": "positive_4.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "Swipe to spell the weather",
+        "questionAudioName2": "swipe.mp3",
+        "commonOptionImageName": "Asset 51.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "options": [
+          "I",
+          "Y",
+          "N",
+          "D",
+          "W"
+        ],
+        "correctAnswer": "WINDY",
+        "reiterationAudioName": "33375636_4_windy.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve the picture and swipe to spell the name of the weather symbol.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 51.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "correctAudioName": "positive_5.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "Swipe to spell the weather",
+        "questionAudioName2": "swipe.mp3",
+        "commonOptionImageName": "Asset 51.png",
+        "isOptionText": true,
+        "numberOfOptions": 6,
+        "options": [
+          "S",
+          "O",
+          "M",
+          "T",
+          "Y",
+          "R"
+        ],
+        "correctAnswer": "STORMY",
+        "reiterationAudioName": "stormy.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve the picture and swipe to spell the name of the weather symbol.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 51.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "Swipe to spell the weather",
+        "questionAudioName2": "swipe.mp3",
+        "commonOptionImageName": "Asset 51.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "options": [
+          "N",
+          "N",
+          "Y",
+          "U",
+          "S"
+        ],
+        "correctAnswer": "SUNNY",
+        "reiterationAudioName": "33375636_6_sunny.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve the picture and swipe to spell the name of the weather symbol.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 51.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "Swipe to spell the weather",
+        "questionAudioName2": "swipe.mp3",
+        "commonOptionImageName": "Asset 51.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "options": [
+          "S",
+          "O",
+          "W",
+          "N",
+          "Y"
+        ],
+        "correctAnswer": "SNOWY",
+        "reiterationAudioName": "33375636_7_snowy.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve the picture and swipe to spell the name of the weather symbol.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 51.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "correctAudioName": "positive_4.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "Swipe to spell the weather",
+        "questionAudioName2": "swipe.mp3",
+        "commonOptionImageName": "Asset 51.png",
+        "isOptionText": true,
+        "numberOfOptions": 5,
+        "options": [
+          "G",
+          "O",
+          "F",
+          "G",
+          "Y"
+        ],
+        "correctAnswer": "FOGGY",
+        "reiterationAudioName": "33375636_8_foggy.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve the picture and swipe to spell the name of the weather symbol.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 51.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "correctAudioName": "positive_5.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "Swipe to spell the weather",
+        "questionAudioName2": "swipe.mp3",
+        "commonOptionImageName": "Asset 51.png",
+        "isOptionText": true,
+        "numberOfOptions": 7,
+        "options": [
+          "I",
+          "A",
+          "L",
+          "N",
+          "H",
+          "G",
+          "I"
+        ],
+        "correctAnswer": "HAILING",
+        "reiterationAudioName": "33375636_9_hailing.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve the picture and swipe to spell the name of the weather symbol.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 51.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "Swipe to spell the weather",
+        "questionAudioName2": "swipe.mp3",
+        "commonOptionImageName": "Asset 51.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "O",
+          "T",
+          "H"
+        ],
+        "correctAnswer": "HOT",
+        "reiterationAudioName": "33375636_10_hot.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve the picture and swipe to spell the name of the weather symbol.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 51.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "correctAudioName": "positive_4.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "Swipe to spell the weather",
+        "questionAudioName2": "swipe.mp3",
+        "commonOptionImageName": "Asset 51.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "L",
+          "O",
+          "C",
+          "D"
+        ],
+        "correctAnswer": "COLD",
+        "reiterationAudioName": "33375636_11_cold.mp3"
+      }
+    ]
+  }
+}
