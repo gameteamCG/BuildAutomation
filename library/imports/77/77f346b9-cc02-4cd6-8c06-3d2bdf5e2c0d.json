@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bark",
+    "texture": "d890c5ff-f643-4a23-b21a-4d5bb13fe33e",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      194,
+      181
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      198,
+      183
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "watching",
+    "texture": "66f00a4f-e9ff-40ff-b6ca-c5a41968c449",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      194,
+      181
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      198,
+      183
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

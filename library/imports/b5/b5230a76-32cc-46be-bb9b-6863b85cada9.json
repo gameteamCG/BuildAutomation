@@ -1,0 +1,188 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Changing statements to questions_Grade 4 (Grammar)_R8",
+      "totalLevel": "8",
+      "TitleImageName": "Asset 71.png",
+      "introBgName": "Bg (1).png",
+      "bgmMusicName": "BGM1302225.mp3",
+      "mainBgName": "bgpng.png",
+      "JockeyName": "tortoise"
+    },
+    "questionData": [
+      {
+        "questionText": "She is reading a book.",
+        "questionImageName": "",
+        "questionAudioName": "swipe and change the given statement into a question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "book.png",
+          "she.png",
+          "reading.png",
+          "a.png",
+          "is.png"
+        ],
+        "correctAnswer": "52341",
+        "correctAudioName": "Is she reading a book.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 6.png"
+      },
+      {
+        "questionText": "They are playing in the park.",
+        "questionImageName": "",
+        "questionAudioName": "swipe and change the given statement into a question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 6,
+        "optionOffset": 0,
+        "options": [
+          "they.png",
+          "are.png",
+          "playing.png",
+          "the.png",
+          "park.png",
+          "in.png"
+        ],
+        "correctAnswer": "213645",
+        "correctAudioName": "Are they playing in the park.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 13.png"
+      },
+      {
+        "questionText": "He has completed his homework.",
+        "questionImageName": "",
+        "questionAudioName": "swipe and change the given statement into a question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "completed.png",
+          "his.png",
+          "has.png",
+          "he.png",
+          "homework.png"
+        ],
+        "correctAnswer": "34125",
+        "correctAudioName": "Has he completed his homework.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 19.png"
+      },
+      {
+        "questionText": "We were watching a movie.",
+        "questionImageName": "",
+        "questionAudioName": "swipe and change the given statement into a question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "a.png",
+          "watching.png",
+          "we.png",
+          "were.png",
+          "moie.png"
+        ],
+        "correctAnswer": "43215",
+        "correctAudioName": "Were we watching a movie.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 25.png"
+      },
+      {
+        "questionText": "You have made a mistake.",
+        "questionImageName": "",
+        "questionAudioName": "swipe and change the given statement into a question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "you.png",
+          "made.png",
+          "mistake.png",
+          "have.png",
+          "a.png"
+        ],
+        "correctAnswer": "41253",
+        "correctAudioName": "Have you made a mistake.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 31.png"
+      },
+      {
+        "questionText": "The dog is barking loudly.",
+        "questionImageName": "",
+        "questionAudioName": "swipe and change the given statement into a question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "dog.png",
+          "bark.png",
+          "the.png",
+          "loudly.png",
+          "is.png"
+        ],
+        "correctAnswer": "53124",
+        "correctAudioName": "Is the dog barking loudly.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 32.png"
+      },
+      {
+        "questionText": "I was listening to music.",
+        "questionImageName": "",
+        "questionAudioName": "swipe and change the given statement into a question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "i.png",
+          "listening.png",
+          "music.png",
+          "to.png",
+          "was.png"
+        ],
+        "correctAnswer": "51243",
+        "correctAudioName": "Was I listening to music.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 39.png"
+      },
+      {
+        "questionText": "They had finished their dinner.",
+        "questionImageName": "",
+        "questionAudioName": "swipe and change the given statement into a question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "optionOffset": 0,
+        "options": [
+          "they.png",
+          "had.png",
+          "dinner.png",
+          "their.png",
+          "finished.png"
+        ],
+        "correctAnswer": "21543",
+        "correctAudioName": "Had they finished their dinner.mp3",
+        "needReiteration": true,
+        "reiterationImageName": "Asset 45.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "moie",
+    "texture": "15c90ab7-3a3f-49e3-b027-0aac7b1ae092",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      194,
+      181
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      197,
+      184
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
