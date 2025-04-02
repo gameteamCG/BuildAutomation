@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BLANK PNG",
+    "texture": "db50e751-cb4b-4aa8-8480-047c680f3da8",
+    "atlas": "",
+    "rect": [
+      1920,
+      1080,
+      1,
+      1
+    ],
+    "offset": [
+      960,
+      -540
+    ],
+    "originalSize": [
+      1921,
+      1081
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
