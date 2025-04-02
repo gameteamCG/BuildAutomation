@@ -1,0 +1,169 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Properties of multiplication_Grade 2 (Math)_R23",
+      "totalLevel": "10",
+      "TitleImageName": "Asset 27 (1).png",
+      "introBgName": "jaipuria.png",
+      "bgmMusicName": "BGM1302225.mp3",
+      "mainBgName": "BLANK.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "3 x 1",
+        "questionAudioName": "Multiply and choose the correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "6",
+          "3",
+          "9"
+        ],
+        "correctAudios": [
+          "3 multiplied by 1 equals to 3.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "5 x 0",
+        "questionAudioName": "",
+        "shouldPlayQuestionAudio": false,
+        "isOptionText": true,
+        "options": [
+          "0",
+          "5",
+          "10"
+        ],
+        "correctAudios": [
+          "5 multiplied by 0 equals to 0.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "5 x 2",
+        "questionAudioName": "Multiply and choose the correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "1",
+          "5",
+          "10"
+        ],
+        "correctAudios": [
+          "5 multiplied by 2 equals to 10.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "2 x 5",
+        "questionAudioName": "Multiply and choose the correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "2",
+          "10",
+          "5"
+        ],
+        "correctAudios": [
+          "2 multiplied by 5 equals to 10.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "6 x 10",
+        "questionAudioName": "Multiply and choose the correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "60",
+          "70",
+          "60"
+        ],
+        "correctAudios": [
+          "6 multiplied by 10 equals to 60.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "4 x 3",
+        "questionAudioName": "Multiply and choose the correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "20",
+          "16",
+          "12"
+        ],
+        "correctAudios": [
+          "4 multiplied by 3 equals to 12.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "3 x 4",
+        "questionAudioName": "Multiply and choose the correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "8",
+          "12",
+          "4"
+        ],
+        "correctAudios": [
+          "3 multiplied by 4 equals to 12.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "8 x 100",
+        "questionAudioName": "Multiply and choose the correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "500",
+          "900",
+          "800"
+        ],
+        "correctAudios": [
+          "8 multiplied by 100 equals to 800.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "7 x 1 ",
+        "questionAudioName": "Multiply and choose the correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "14",
+          "7",
+          "10"
+        ],
+        "correctAudios": [
+          "7 multiplied by 1 equals to 7.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "9 x 0",
+        "questionAudioName": "Multiply and choose the correct answer.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "0",
+          "9",
+          "1"
+        ],
+        "correctAudios": [
+          "9 multiplied by 0 equals to 0.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
