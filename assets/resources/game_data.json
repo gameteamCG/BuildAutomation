@@ -1,0 +1,163 @@
+{
+  "additionalData": {
+    "GameID": "Properties of multiplication_Grade 2 (Math)_R23",
+    "totalLevel": "10",
+    "TitleImageName": "Asset 37.png",
+    "introBgName": "jaipuria.png",
+    "bgmMusicName": "BGM 2 (mp3cut.net) (1).mp3",
+    "mainBgName": "BLANK PNG.png",
+    "JockeyName": "bag"
+  },
+  "questionData": [
+    {
+      "questionText": "3 x 1",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "3",
+        "6",
+        "9"
+      ],
+      "correctAudios": [
+        "3 multiplied by 1 equals to 3.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "5 x 0",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "5",
+        "0",
+        "10"
+      ],
+      "correctAudios": [
+        "5 multiplied by 0 equals to 0.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "5 x 2",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "15",
+        "5",
+        "10"
+      ],
+      "correctAudios": [
+        "5 multiplied by 2 equals to 10.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "2 x 5",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "2",
+        "10",
+        "8"
+      ],
+      "correctAudios": [
+        "2 multiplied by 5 equals to 10.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "6 x 10 ",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "60",
+        "50",
+        "40"
+      ],
+      "correctAudios": [
+        "6 multiplied by 10 equals to 60.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "4 x 3",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "20",
+        "16",
+        "12"
+      ],
+      "correctAudios": [
+        "4 multiplied by 3 equals to 12.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "3 x 4 ",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "12",
+        "20",
+        "24"
+      ],
+      "correctAudios": [
+        "3 multiplied by 4 equals to 12.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "8 x 100",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "900",
+        "800",
+        "700"
+      ],
+      "correctAudios": [
+        "8 multiplied by 100 equals to 800.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "7 x 1 ",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "7",
+        "14",
+        "10"
+      ],
+      "correctAudios": [
+        "7 multiplied by 1 equals to 7.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "9 x 0",
+      "questionAudioName": "Multiply and choose the correct answer.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "9",
+        "6",
+        "0"
+      ],
+      "correctAudios": [
+        "9 multiplied by 0 equals to 0.mp3"
+      ],
+      "correctAnswerNum": "3"
+    }
+  ]
+}
