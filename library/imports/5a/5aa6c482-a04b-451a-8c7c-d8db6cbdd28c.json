@@ -1,0 +1,184 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Exploring climate and other features of Brazil_Grade 5 (Social Science)_R13",
+      "totalLevel": "11",
+      "TitleImageName": "Asset 28.png",
+      "introBgName": "jaipuria.png",
+      "bgmMusicName": "Colour BGM.mp3",
+      "mainBgName": "BLANK PNG.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "What type of climate does most of Brazil experience?",
+        "questionAudioName": "What type of climate does most of Brazil experience.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Sub- tropical",
+          "Tropical",
+          "Temperate"
+        ],
+        "correctAudios": [
+          "tropical.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which region of Brazil has a sub-tropical climate?",
+        "questionAudioName": "Which region of Brazil has a sub-tropical climate.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "South",
+          "North",
+          "East"
+        ],
+        "correctAudios": [
+          "south.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "What is the name of the world’s largest rainforest located in Brazil?",
+        "questionAudioName": "What is the name of the world’s largest rain forest located in Brazil.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Congo",
+          "Taiga",
+          "Amazon"
+        ],
+        "correctAudios": [
+          "amazon.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Which unique plant is found in the Amazon Rainforest?",
+        "questionAudioName": "Which unique plant is found in the Amazon Rain forest.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Bamboo",
+          "Victoria Amazonica",
+          "Mangroves"
+        ],
+        "correctAudios": [
+          "victoria-amazonica.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which large cat species is commonly found in Brazil?",
+        "questionAudioName": "Which large cat species is commonly found in Brazil.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Jaguar",
+          "Cheetah",
+          "Bengal Tiger"
+        ],
+        "correctAudios": [
+          "jaguar.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "What is Brazil's famous cultural festival?",
+        "questionAudioName": "What is Brazil_s famous cultural festival.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Diwali",
+          "Eid",
+          "Carnival"
+        ],
+        "correctAudios": [
+          "34907926_12_carnival.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "What traditional Brazilian dance is associated with its festivals?",
+        "questionAudioName": "What traditional Brazilian dance is associated with its festivals.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Tango",
+          "Samba",
+          "Waltz"
+        ],
+        "correctAudios": [
+          "34907926_14_samba.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which major city in Brazil is known for the Christ the Redeemer statue?",
+        "questionAudioName": "Which major city in Brazil is known for the Christ the Redeemer statue.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "São Paulo",
+          "Rio de Janeiro",
+          "Salvador"
+        ],
+        "correctAudios": [
+          "34907926_16_rio-de-janeiro.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "What is one of the main wildlife attractions in Brazil’s rainforest?\n",
+        "questionAudioName": "What is one of the main wildlife attractions in Brazil’s rain forest.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Toucans",
+          "Pandas",
+          "Kangaroos"
+        ],
+        "correctAudios": [
+          "34907926_20_toucans.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which region of Brazil is known for having cool winters?",
+        "questionAudioName": "Which region of Brazil is known for having cool winters.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "North",
+          "West",
+          "South"
+        ],
+        "correctAudios": [
+          "south.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "What is a popular tourist city in Brazil besides Rio de Janeiro?",
+        "questionAudioName": "What is a popular tourist city in Brazil besides Rio duh Janeiro.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Mumbai",
+          "São Paulo",
+          "Lima"
+        ],
+        "correctAudios": [
+          "São Paulo.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
