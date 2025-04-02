@@ -1,0 +1,223 @@
+{
+  "additionalData": {
+    "GameID": "Types of fractions_Grade_4_(Math)_R29",
+    "totalLevel": "10",
+    "TitleImageName": "Types of fractions.png",
+    "introBgName": "jaipuria.png",
+    "bgmMusicName": "BGM1302225.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "bag"
+  },
+  "questionData": [
+    {
+      "questionText": "Identify and math the fraction with its name type",
+      "questionAudioName": "Identify and math the fraction with its name type.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "Asset 73.png",
+      "frontCardImageName": "Asset 72.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 62.png",
+        "Asset 47.png"
+      ],
+      "reiterationAudios": [
+        "42626640_2_1-thirds-and-2-thirds.mp3",
+        "Twelve-sevenths is an improper fraction.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "Like fraction",
+        "Improper fraction"
+      ]
+    },
+    {
+      "questionText": "Identify and math the fraction with its name type",
+      "questionAudioName": "Identify and math the fraction with its name type.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "Asset 73.png",
+      "frontCardImageName": "Asset 72.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 63.png",
+        "Asset 52.png"
+      ],
+      "reiterationAudios": [
+        "42626640_3_3-sixths-and-5-sixths.mp3",
+        "One and two-thirds is a mixed fraction.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "Like fractions",
+        "Mixed fraction"
+      ]
+    },
+    {
+      "questionText": "Identify and math the fraction with its name type",
+      "questionAudioName": "Identify and math the fraction with its name type.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "Asset 73.png",
+      "frontCardImageName": "Asset 72.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 53.png",
+        "Asset 42.png"
+      ],
+      "reiterationAudios": [
+        "Two and one-fourth is a mixed fraction.mp3",
+        "Three-sevenths is a proper fraction.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "Mixed fraction",
+        "Proper fraction"
+      ]
+    },
+    {
+      "questionText": "Identify and math the fraction with its name type",
+      "questionAudioName": "Identify and math the fraction with its name type.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "Asset 73.png",
+      "frontCardImageName": "Asset 72.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 43.png",
+        "Asset 57.png"
+      ],
+      "reiterationAudios": [
+        "Four-ninths is a proper fraction.mp3",
+        "One-twelfth is a unit fraction.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "Proper fraction",
+        "Unit fraction"
+      ]
+    },
+    {
+      "questionText": "Identify and math the fraction with its name type",
+      "questionAudioName": "Identify and math the fraction with its name type.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "Asset 73.png",
+      "frontCardImageName": "Asset 72.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 58.png",
+        "Asset 67.png"
+      ],
+      "reiterationAudios": [
+        "One-third is a unit fraction.mp3",
+        "1 fourth and 3 sixths are unlike fractions.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "Unit fraction",
+        "Unlike fraction"
+      ]
+    },
+    {
+      "questionText": "Identify and math the fraction with its name type",
+      "questionAudioName": "Identify and math the fraction with its name type.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "Asset 73.png",
+      "frontCardImageName": "Asset 72.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 68.png",
+        "Asset 48.png"
+      ],
+      "reiterationAudios": [
+        "2 fourths and 5 ninths are unlike fractions.mp3",
+        "Seven-fourths is an improper fraction.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "Unlike fraction",
+        "Improper fraction"
+      ]
+    },
+    {
+      "questionText": "Identify and math the fraction with its name type",
+      "questionAudioName": "Identify and math the fraction with its name type.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "Asset 73.png",
+      "frontCardImageName": "Asset 72.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 49.png",
+        "Asset 63.png"
+      ],
+      "reiterationAudios": [
+        "Nine-fifths is an improper fraction.mp3",
+        "42626640_3_3-sixths-and-5-sixths.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "Improper fraction",
+        "Like fraction"
+      ]
+    },
+    {
+      "questionText": "Identify and math the fraction with its name type",
+      "questionAudioName": "Identify and math the fraction with its name type.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "Asset 73.png",
+      "frontCardImageName": "Asset 72.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 64.png",
+        "Asset 54.png"
+      ],
+      "reiterationAudios": [
+        "42626640_4_5-ninths-and-8-ninths.mp3",
+        "Three and five-sixths is a mixed fraction.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "Like fraction",
+        "Mixed fraction"
+      ]
+    },
+    {
+      "questionText": "Identify and math the fraction with its name type",
+      "questionAudioName": "Identify and math the fraction with its name type.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "Asset 73.png",
+      "frontCardImageName": "Asset 72.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 55.png",
+        "Asset 45.png"
+      ],
+      "reiterationAudios": [
+        "Four and two-sevenths is a mixed fraction.mp3",
+        "Five-sixths is a proper fraction.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "Mixed fraction",
+        "Proper fraction"
+      ]
+    },
+    {
+      "questionText": "Identify and math the fraction with its name type",
+      "questionAudioName": "Identify and math the fraction with its name type.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "Asset 73.png",
+      "frontCardImageName": "Asset 72.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 59.png",
+        "Asset 71.png"
+      ],
+      "reiterationAudios": [
+        "One-fifth is a unit fraction.mp3",
+        "4 eights and 8 ninths are unlike fractions.mp3"
+      ],
+      "isAnswerText": true,
+      "answers": [
+        "Unit fraction",
+        "Unike fraction"
+      ]
+    }
+  ]
+}
