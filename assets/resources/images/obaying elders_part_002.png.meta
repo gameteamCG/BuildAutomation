@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d4af34ca-8ac6-4747-a9f2-8652a48c11b6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "obaying elders_part_002": {
+      "ver": "1.0.6",
+      "uuid": "f038ea27-0040-4f5d-a6f4-82d8f1f3b14e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d4af34ca-8ac6-4747-a9f2-8652a48c11b6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 250,
+      "height": 250,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

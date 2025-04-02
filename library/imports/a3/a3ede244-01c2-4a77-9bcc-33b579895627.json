@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "image holder",
+    "texture": "87a149a9-24b3-49ce-8ad8-033ccdda670b",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      499,
+      499
+    ],
+    "offset": [
+      -0.5,
+      -1
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Helping family members_Grade 2 (EVS)_R11",
+      "totalLevel": "7",
+      "TitleImageName": "Asset 27 (2).png",
+      "introBgName": "jaipuria.png",
+      "bgmMusicName": "BGM 2 (mp3cut.net) (1).mp3",
+      "mainBgName": "BG2.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "31422314_1_solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "image holder.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "caring for them_part_001.png",
+          "caring for them_part_002.png",
+          "caring for them_part_003.png",
+          "caring for them_part_004.png"
+        ],
+        "correctAudioName": "fill in the blank with the correct word for the given picture..mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "I can show love to my family by ____",
+        "questionAudioName2": "I can show love to my family by dash..mp3",
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Caring for them",
+          "Not caring for them"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "31422314_5_caring-for-them.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "31422314_1_solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "image holder.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "greeting them_part_001.png",
+          "greeting them_part_002.png",
+          "greeting them_part_003.png",
+          "greeting them_part_004.png"
+        ],
+        "correctAudioName": "fill in the blank with the correct word for the given picture..mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "I can show love to my family by ____",
+        "questionAudioName2": "I can show love to my family by dash..mp3",
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Greeting them",
+          "Not greeting them"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "31422314_10_greeting-them.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "31422314_1_solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "image holder.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "helping them_part_001.png",
+          "helping them_part_002.png",
+          "helping them_part_003.png",
+          "helping them_part_004.png"
+        ],
+        "correctAudioName": "fill in the blank with the correct word for the given picture..mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "I can show love to my family by ____",
+        "questionAudioName2": "I can show love to my family by dash..mp3",
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Not helping them",
+          "helping them"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "31422314_8_helping-them.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "31422314_1_solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "image holder.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "meeting relatives_part_001.png",
+          "meeting relatives_part_002.png",
+          "meeting relatives_part_003.png",
+          "meeting relatives_part_004.png"
+        ],
+        "correctAudioName": "fill in the blank with the correct word for the given picture..mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "I can show love to my family by ____",
+        "questionAudioName2": "I can show love to my family by dash..mp3",
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Not meeting relatives",
+          "Meeting relatives"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "31422314_6_meeting-relatives.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "31422314_1_solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "image holder.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "obaying elders_part_001.png",
+          "obaying elders_part_002.png",
+          "obaying elders_part_003.png",
+          "obaying elders_part_004.png"
+        ],
+        "correctAudioName": "fill in the blank with the correct word for the given picture..mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "I can show love to my family by ____",
+        "questionAudioName2": "I can show love to my family by dash..mp3",
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Obeying elders",
+          "Not obeying elders"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "31422314_9_obeying-elders.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "31422314_1_solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "image holder.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "respecting them_part_001.png",
+          "respecting them_part_002.png",
+          "respecting them_part_003.png",
+          "respecting them_part_004.png"
+        ],
+        "correctAudioName": "fill in the blank with the correct word for the given picture..mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "I can show love to my family by ____",
+        "questionAudioName2": "I can show love to my family by dash..mp3",
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Not respecting them",
+          "Respecting them"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "31422314_7_respecting-them.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "31422314_1_solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "image holder.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "sharing work_part_001.png",
+          "sharing work_part_002.png",
+          "sharing work_part_003.png",
+          "sharing work_part_004.png"
+        ],
+        "correctAudioName": "fill in the blank with the correct word for the given picture..mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "I can show love to my family by ____",
+        "questionAudioName2": "I can show love to my family by dash..mp3",
+        "commonOptionImageName": "Artboard4.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Sharing work",
+          "Not sharing work"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "31422314_4_sharing-work.mp3"
+      }
+    ]
+  }
+}
