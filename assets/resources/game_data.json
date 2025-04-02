@@ -1,0 +1,237 @@
+{
+  "additionalData": {
+    "GameID": "SDGs for environmental enhancement",
+    "totalLevel": "8",
+    "TitleImageName": "",
+    "introBgName": "Bg (1).png",
+    "bgmMusicName": "Colour BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "tortoise"
+  },
+  "questionData": [
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "solve the picture and choose the correct SDG for the given image.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset 51.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1.png",
+        "2.png",
+        "3.png",
+        "Asset 4.png"
+      ],
+      "correctAudioName": "",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Solar panels installed on the rooftops of urban buildings.",
+      "questionAudioName2": "Solar panels installed on the roof tops of urban buildings..mp3",
+      "commonOptionImageName": "Asset 53.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "SDG 11",
+        "SDG 13"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "S D G 11, Sustainable Cities and Communities (2).mp3"
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "solve the picture and choose the correct SDG for the given image.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset 51.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_1.png",
+        "2_1.png",
+        "3_1.png",
+        "4.png"
+      ],
+      "correctAudioName": "",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "A farmer practicing sustainable agriculture in a lush green field.",
+      "questionAudioName2": "A farmer practicing sustainable agriculture in a lush green field..mp3",
+      "commonOptionImageName": "Asset 53.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "SDG 12",
+        "SDG 15"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "S D G 15, Life on Land.mp3"
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "solve the picture and choose the correct SDG for the given image.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset 51.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_2.png",
+        "2_2.png",
+        "3_2.png",
+        "4_1.png"
+      ],
+      "correctAudioName": "",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Volunteers cleaning up a beach or coastline.",
+      "questionAudioName2": "Volunteers cleaning up a beach or coast line..mp3",
+      "commonOptionImageName": "Asset 53.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "SDG 14",
+        "SDG 15"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "S D G 14, Life Below Water.mp3"
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "solve the picture and choose the correct SDG for the given image.mp3",
+      "shouldPlayQuestionAudio": false,
+      "commonPuzzleImageName": "Asset 51.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_3.png",
+        "2_3.png",
+        "3_3.png",
+        "4_2.png"
+      ],
+      "correctAudioName": "",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "A yoga or exercise class in a community park.",
+      "questionAudioName2": "A yoga or exercise class in a community park..mp3",
+      "commonOptionImageName": "Asset 53.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "SDG 2",
+        "SDG 3"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "S D G 3, Good Health and Well-being.mp3"
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "solve the picture and choose the correct SDG for the given image.mp3",
+      "shouldPlayQuestionAudio": false,
+      "commonPuzzleImageName": "Asset 51.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_4.png",
+        "2_4.png",
+        "3_4.png",
+        "4_3.png"
+      ],
+      "correctAudioName": "",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Melting glaciers or an iceberg collapsing into the sea.",
+      "questionAudioName2": "Melting glaciers or an iceberg collapsing into the sea..mp3",
+      "commonOptionImageName": "Asset 53.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "SDG 15",
+        "SDG 13"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "S D G 13, Climate Action.mp3"
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "solve the picture and choose the correct SDG for the given image.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset 51.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_5.png",
+        "2_5.png",
+        "3_5.png",
+        "4_4.png"
+      ],
+      "correctAudioName": "",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Women leaders in a business meeting or classroom setting.",
+      "questionAudioName2": "Women leaders in a business meeting or classroom setting..mp3",
+      "commonOptionImageName": "Asset 53.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "SDG 4",
+        "SDG 5"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "S D G 5, Gender Equality.mp3"
+    },
+    {
+      "questionText": "A rural classroom with children and a teacher using digital tools.",
+      "questionAudioName": "solve the picture and choose the correct SDG for the given image.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset 51.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_6.png",
+        "2_6.png",
+        "3_6.png",
+        "4_5.png"
+      ],
+      "correctAudioName": "",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "A rural classroom with children and a teacher using digital tools.",
+      "questionAudioName2": "A rural classroom with children and a teacher using digital tools..mp3",
+      "commonOptionImageName": "Asset 53.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "SDG 5",
+        "SDG 4"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "S D G 5, Gender Equality.mp3"
+    },
+    {
+      "questionText": "A person charging an electric car at a charging station.",
+      "questionAudioName": "solve the picture and choose the correct SDG for the given image.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset 51.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_7.png",
+        "2_7.png",
+        "3_7.png",
+        "4_6.png"
+      ],
+      "correctAudioName": "",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "A person charging an electric car at a charging station.",
+      "questionAudioName2": "A person charging an electric car at a charging station..mp3",
+      "commonOptionImageName": "Asset 53.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "SDG 7",
+        "SDG 8"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "S D G 7, Affordable and Clean Energy.mp3"
+    }
+  ]
+}
