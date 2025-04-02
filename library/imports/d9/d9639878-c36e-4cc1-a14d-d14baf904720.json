@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Inventions discoveries",
+    "texture": "a46d0792-17c3-4c81-9a06-32acb741f6c9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      946,
+      442
+    ],
+    "offset": [
+      0,
+      4
+    ],
+    "originalSize": [
+      946,
+      450
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

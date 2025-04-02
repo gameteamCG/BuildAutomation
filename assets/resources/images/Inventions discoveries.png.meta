@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a46d0792-17c3-4c81-9a06-32acb741f6c9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 946,
+  "height": 450,
+  "platformSettings": {},
+  "subMetas": {
+    "Inventions discoveries": {
+      "ver": "1.0.6",
+      "uuid": "d9639878-c36e-4cc1-a14d-d14baf904720",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a46d0792-17c3-4c81-9a06-32acb741f6c9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 4,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 946,
+      "height": 442,
+      "rawWidth": 946,
+      "rawHeight": 450,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

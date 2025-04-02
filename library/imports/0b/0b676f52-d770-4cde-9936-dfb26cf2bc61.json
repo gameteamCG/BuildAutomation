@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Inventions/discoveries_Grade 3 (Science)_R3",
+      "totalLevel": "6",
+      "TitleImageName": "Inventions discoveries.png",
+      "introBgName": "jaipuria.png",
+      "bgmMusicName": "",
+      "mainBgName": "BGM1302225.mp3",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "match the invention with the scientist who invented it",
+        "questionAudioName": "match the invention with the scientist who invented it.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 73.png",
+        "frontCardImageName": "Asset 72.png",
+        "isOptionText": false,
+        "options": [
+          "Asset 17.png",
+          "Asset 18.png"
+        ],
+        "reiterationAudios": [
+          "Orville and Wilbur Wright invented the Airplane.mp3",
+          "Isaac Newton discovered Gravity.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "Airplane",
+          "Gravity"
+        ]
+      },
+      {
+        "questionText": "match the invention with the scientist who invented it",
+        "questionAudioName": "match the invention with the scientist who invented it.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 73.png",
+        "frontCardImageName": "Asset 72.png",
+        "isOptionText": false,
+        "options": [
+          "Asset 19.png",
+          "Asset 20.png"
+        ],
+        "reiterationAudios": [
+          "Galileo Galilei discovered the thermoscope.mp3",
+          "Kamakshi Siva Ramakrishnan discovered the chip responsible for bringing information from dwarf planet Pluto.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "Radio",
+          " chip responsible for bringing information from dwarf planet Pluto"
+        ]
+      },
+      {
+        "questionText": "match the invention with the scientist who invented it",
+        "questionAudioName": "match the invention with the scientist who invented it.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 73.png",
+        "frontCardImageName": "Asset 72.png",
+        "isOptionText": false,
+        "options": [
+          "Asset 15.png",
+          "Asset 16.png"
+        ],
+        "reiterationAudios": [
+          "Homi Bhabha discovered Nuclear Energy.mp3",
+          "Albert Einstein discovered the Theory of Relativity.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "Nuclear Energy",
+          "Theory of Relativity"
+        ]
+      },
+      {
+        "questionText": "match the invention with the scientist who invented it",
+        "questionAudioName": "match the invention with the scientist who invented it.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 73.png",
+        "frontCardImageName": "Asset 72.png",
+        "isOptionText": false,
+        "options": [
+          "Asset 21.png",
+          "Asset 22.png"
+        ],
+        "reiterationAudios": [
+          "CV Raman made an invention in the field of light.mp3",
+          "APJ Abdul Kalam invented the Agni and Prithvi missile.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "field of light",
+          "Agni and Prithvi missile"
+        ]
+      },
+      {
+        "questionText": "match the invention with the scientist who invented it",
+        "questionAudioName": "match the invention with the scientist who invented it.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 73.png",
+        "frontCardImageName": "Asset 72.png",
+        "isOptionText": false,
+        "options": [
+          "Asset 23.png",
+          "Asset 24.png"
+        ],
+        "reiterationAudios": [
+          "Alexander Graham Bell invented the telephone.mp3",
+          "Galileo Galilei discovered the thermoscope.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "telephone",
+          "thermoscope"
+        ]
+      },
+      {
+        "questionText": "match the invention with the scientist who invented it",
+        "questionAudioName": "match the invention with the scientist who invented it.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 73.png",
+        "frontCardImageName": "Asset 72.png",
+        "isOptionText": false,
+        "options": [
+          "Asset 25.png",
+          "Asset 26.png"
+        ],
+        "reiterationAudios": [
+          "Maria Merian discovered the concept of life cycle of a butterfly.mp3",
+          "Thomas Edison invented the Light Bulb.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "concept of life cycle of a butterfly",
+          "Light Bulb"
+        ]
+      }
+    ]
+  }
+}
