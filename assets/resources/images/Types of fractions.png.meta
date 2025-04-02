@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "cf5e0dab-26e5-4cff-98de-a45b3f70b82a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 782,
+  "height": 492,
+  "platformSettings": {},
+  "subMetas": {
+    "Types of fractions": {
+      "ver": "1.0.6",
+      "uuid": "35848100-96b8-4400-8104-bfe6d131816c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "cf5e0dab-26e5-4cff-98de-a45b3f70b82a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 782,
+      "height": 492,
+      "rawWidth": 782,
+      "rawHeight": 492,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
