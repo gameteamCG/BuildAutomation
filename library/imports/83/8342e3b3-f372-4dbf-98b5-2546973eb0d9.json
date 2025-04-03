@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "poto",
+    "texture": "ba791de2-1d9c-44e5-ad90-9d2a0d1f1cad",
+    "atlas": "",
+    "rect": [
+      23,
+      8,
+      203,
+      235
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

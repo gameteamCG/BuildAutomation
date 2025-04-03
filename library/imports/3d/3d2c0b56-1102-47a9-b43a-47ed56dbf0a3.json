@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "oru",
+    "texture": "d9367b02-bae3-43fd-bf93-f6079a361d2e",
+    "atlas": "",
+    "rect": [
+      1,
+      9,
+      250,
+      232
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
