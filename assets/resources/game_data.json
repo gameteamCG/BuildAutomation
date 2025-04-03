@@ -1,0 +1,139 @@
+{
+  "additionalData": {
+    "GameID": "Inventions/discoveries_Grade 3 (Science)_R3",
+    "totalLevel": "6",
+    "TitleImageName": "title.png",
+    "introBgName": "Bg (1).png",
+    "bgmMusicName": "Colour BGM.mp3",
+    "mainBgName": "bg_4.png",
+    "JockeyName": "tortoise"
+  },
+  "questionData": [
+    {
+      "questionText": "Inventions and Discoveries",
+      "questionAudioName": "p_42689407_331.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "m2.png",
+      "frontCardImageName": "m1.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 15.png",
+        "Asset 16.png"
+      ],
+      "reiterationAudios": [
+        "Homi Bhabha discovered Nuclear Energy.mp3",
+        "Albert Einstein discovered the Theory of Relativity.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "Nuclear  Energy.png",
+        "Theory  of Relativity.png"
+      ]
+    },
+    {
+      "questionText": "Inventions and Discoveries",
+      "questionAudioName": "p_42689407_331.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "m2.png",
+      "frontCardImageName": "m1.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 17.png",
+        "Asset 18.png"
+      ],
+      "reiterationAudios": [
+        "Orville and Wilbur Wright invented the Airplane.mp3",
+        "Isaac Newton discovered Gravity.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "Airplane.png",
+        "Gravity.png"
+      ]
+    },
+    {
+      "questionText": "Inventions and Discoveries",
+      "questionAudioName": "p_42689407_331.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "m2.png",
+      "frontCardImageName": "m1.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 19.png",
+        "Asset 20.png"
+      ],
+      "reiterationAudios": [
+        "Guglielmo Marconi invented the Radio.mp3",
+        "Kamakshi Siva Ramakrishnan discovered the chip responsible for bringing information from dwarf planet Pluto.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "Radio.png",
+        "chip  responsible  for bringing  information  from  dwarf plane.png"
+      ]
+    },
+    {
+      "questionText": "Inventions and Discoveries",
+      "questionAudioName": "p_42689407_331.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "m2.png",
+      "frontCardImageName": "m1.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 21.png",
+        "Asset 22.png"
+      ],
+      "reiterationAudios": [
+        "CV Raman made an invention in the field of light.mp3",
+        "APJ Abdul Kalam invented the Agni and Prithvi missile.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "field of light.png",
+        " Agni and  Prithvi missile.png"
+      ]
+    },
+    {
+      "questionText": "Inventions and Discoveries",
+      "questionAudioName": "p_42689407_331.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "m2.png",
+      "frontCardImageName": "m1.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 23.png",
+        "Asset 24.png"
+      ],
+      "reiterationAudios": [
+        "Alexander Graham Bell invented the telephone.mp3",
+        "Galileo Galilei discovered the thermoscope.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        " telephone.png",
+        "thermoscope.png"
+      ]
+    },
+    {
+      "questionText": "Inventions and Discoveries",
+      "questionAudioName": "p_42689407_331.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "m2.png",
+      "frontCardImageName": "m1.png",
+      "isOptionText": false,
+      "options": [
+        "Asset 25.png",
+        "Asset 26.png"
+      ],
+      "reiterationAudios": [
+        "Maria Merian discovered the concept of life cycle of a butterfly.mp3",
+        "Thomas Edison invented the Light Bulb.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "concept of  life cycle  of a butterfly.png",
+        "Light Bulb.png"
+      ]
+    }
+  ]
+}
