@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "caru",
+    "texture": "96f93171-a1f0-48eb-850a-86d869888e6e",
+    "atlas": "",
+    "rect": [
+      16,
+      7,
+      199,
+      239
+    ],
+    "offset": [
+      -10,
+      -1
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
