@@ -1,0 +1,222 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Helping family members_Grade 2 (EVS)_R11",
+      "totalLevel": "7",
+      "TitleImageName": "Asset 27 (2).png",
+      "introBgName": "jaipuria.png",
+      "bgmMusicName": "BGM1302225.mp3",
+      "mainBgName": "BG2.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "solve the picture",
+        "questionAudioName": "31422314_1_solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "caring for them_part_001.png",
+          "caring for them_part_002.png",
+          "caring for them_part_003.png",
+          "caring for them_part_004.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "select the correct way to help family members",
+        "questionAudioName2": "select the correct way to help family members.mp3",
+        "commonOptionImageName": "Artboard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 4.png",
+          "Asset 5.png",
+          "Asset 6.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "31422314_5_caring-for-them.mp3"
+      },
+      {
+        "questionText": "solve the picture",
+        "questionAudioName": "31422314_1_solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "greeting them_part_001.png",
+          "greeting them_part_002.png",
+          "greeting them_part_003.png",
+          "greeting them_part_004.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "select the correct way to help family members",
+        "questionAudioName2": "select the correct way to help family members.mp3",
+        "commonOptionImageName": "Artboard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 20.png",
+          "Asset 22.png",
+          "Asset 21.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "31422314_10_greeting-them.mp3"
+      },
+      {
+        "questionText": "solve the picture",
+        "questionAudioName": "31422314_1_solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "helping them_part_001.png",
+          "helping them_part_002.png",
+          "helping them_part_003.png",
+          "helping them_part_004.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "select the correct way to help family members",
+        "questionAudioName2": "select the correct way to help family members.mp3",
+        "commonOptionImageName": "Artboard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 15.png",
+          "Asset 14.png",
+          "Asset 13.png"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "31422314_8_helping-them.mp3"
+      },
+      {
+        "questionText": "solve the picture",
+        "questionAudioName": "31422314_1_solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "meeting relatives_part_001.png",
+          "meeting relatives_part_002.png",
+          "meeting relatives_part_003.png",
+          "meeting relatives_part_004.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "select the correct way to help family members",
+        "questionAudioName2": "select the correct way to help family members.mp3",
+        "commonOptionImageName": "Artboard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 7.png",
+          "Asset 8.png",
+          "Asset 9.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "31422314_6_meeting-relatives.mp3"
+      },
+      {
+        "questionText": "solve the picture",
+        "questionAudioName": "31422314_1_solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "obaying elders_part_001.png",
+          "obaying elders_part_002.png",
+          "obaying elders_part_003.png",
+          "obaying elders_part_004.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "select the correct way to help family members",
+        "questionAudioName2": "select the correct way to help family members.mp3",
+        "commonOptionImageName": "Artboard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 17.png",
+          "Asset 16.png",
+          "Asset 18.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "31422314_9_obeying-elders.mp3"
+      },
+      {
+        "questionText": "solve the picture",
+        "questionAudioName": "31422314_1_solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "respecting them_part_001.png",
+          "respecting them_part_002.png",
+          "respecting them_part_003.png",
+          "respecting them_part_004.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "select the correct way to help family members",
+        "questionAudioName2": "select the correct way to help family members.mp3",
+        "commonOptionImageName": "Artboard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 9.png",
+          "Asset 11.png",
+          "Asset 10.png"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "31422314_7_respecting-them.mp3"
+      },
+      {
+        "questionText": "solve the picture",
+        "questionAudioName": "31422314_1_solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "sharing work_part_001.png",
+          "sharing work_part_002.png",
+          "sharing work_part_003.png",
+          "sharing work_part_004.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "select the correct way to help family members",
+        "questionAudioName2": "select the correct way to help family members.mp3",
+        "commonOptionImageName": "Artboard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 1.png",
+          "Asset 2.png",
+          "Asset 3.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "31422314_4_sharing-work.mp3"
+      }
+    ]
+  }
+}
