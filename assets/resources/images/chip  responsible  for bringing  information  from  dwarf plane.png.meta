@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6fadc545-c33b-4f8e-8a19-f0cbb4149225",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 352,
+  "height": 352,
+  "platformSettings": {},
+  "subMetas": {
+    "chip  responsible  for bringing  information  from  dwarf plane": {
+      "ver": "1.0.6",
+      "uuid": "f188f92a-5f5b-4064-b2fe-3100158dcd18",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6fadc545-c33b-4f8e-8a19-f0cbb4149225",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 88,
+      "trimY": 57,
+      "width": 175,
+      "height": 238,
+      "rawWidth": 352,
+      "rawHeight": 352,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

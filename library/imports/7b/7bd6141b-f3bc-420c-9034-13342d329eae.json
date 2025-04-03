@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Nuclear  Energy",
+    "texture": "f554935e-6cdc-4875-81cf-b652f1bf8d8d",
+    "atlas": "",
+    "rect": [
+      123,
+      142,
+      105,
+      67
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      352,
+      352
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

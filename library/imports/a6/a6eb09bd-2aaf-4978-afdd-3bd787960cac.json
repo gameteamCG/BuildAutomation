@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": " Agni and  Prithvi missile",
+    "texture": "56225a71-11db-44ca-a046-9d762ffc8fe2",
+    "atlas": "",
+    "rect": [
+      79,
+      147,
+      194,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      352,
+      352
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

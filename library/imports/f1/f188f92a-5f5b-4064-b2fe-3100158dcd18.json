@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chip  responsible  for bringing  information  from  dwarf plane",
+    "texture": "6fadc545-c33b-4f8e-8a19-f0cbb4149225",
+    "atlas": "",
+    "rect": [
+      88,
+      57,
+      175,
+      238
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      352,
+      352
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

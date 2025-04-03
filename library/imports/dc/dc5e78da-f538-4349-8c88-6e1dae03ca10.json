@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "concept of  life cycle  of a butterfly",
+    "texture": "e380927f-4f81-4cab-ab4f-867eb388fe04",
+    "atlas": "",
+    "rect": [
+      87,
+      125,
+      178,
+      102
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      352,
+      352
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
