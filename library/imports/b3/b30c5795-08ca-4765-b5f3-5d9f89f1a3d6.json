@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Gravity",
+    "texture": "579e1c6d-e3d9-4481-bcae-337af151333f",
+    "atlas": "",
+    "rect": [
+      126,
+      160,
+      99,
+      32
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      352,
+      352
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

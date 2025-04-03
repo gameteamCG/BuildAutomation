@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "91547f4f-a6aa-47ae-88d2-a78ef1cbad5f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 352,
+  "height": 352,
+  "platformSettings": {},
+  "subMetas": {
+    "concept of  life cycle  of a butterfly": {
+      "ver": "1.0.6",
+      "uuid": "9fbcd59d-3953-4ff5-ab4d-86c1dacf5993",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "91547f4f-a6aa-47ae-88d2-a78ef1cbad5f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 87,
+      "trimY": 125,
+      "width": 178,
+      "height": 102,
+      "rawWidth": 352,
+      "rawHeight": 352,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

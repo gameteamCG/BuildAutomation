@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "89dacaab-d377-4e36-9aee-c9f908125375",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 352,
+  "height": 352,
+  "platformSettings": {},
+  "subMetas": {
+    " Agni and  Prithvi missile": {
+      "ver": "1.0.6",
+      "uuid": "a5312b39-d1aa-4fcd-84fa-9f8d9b273ad8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "89dacaab-d377-4e36-9aee-c9f908125375",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 79,
+      "trimY": 147,
+      "width": 194,
+      "height": 58,
+      "rawWidth": 352,
+      "rawHeight": 352,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

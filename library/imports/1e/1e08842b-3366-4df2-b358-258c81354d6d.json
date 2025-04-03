@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thermoscope",
+    "texture": "3a9a4774-e192-4d5c-bf13-783d678b0491",
+    "atlas": "",
+    "rect": [
+      90,
+      160,
+      172,
+      31
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      352,
+      352
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

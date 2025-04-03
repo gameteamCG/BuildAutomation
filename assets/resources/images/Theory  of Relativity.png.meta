@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "72e37fd8-b0bc-427e-95bc-5004cd709089",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 352,
+  "height": 352,
+  "platformSettings": {},
+  "subMetas": {
+    "Theory  of Relativity": {
+      "ver": "1.0.6",
+      "uuid": "a8ae15aa-b255-492e-90a7-9c039b2ec0dc",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "72e37fd8-b0bc-427e-95bc-5004cd709089",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 92,
+      "trimY": 142,
+      "width": 167,
+      "height": 67,
+      "rawWidth": 352,
+      "rawHeight": 352,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

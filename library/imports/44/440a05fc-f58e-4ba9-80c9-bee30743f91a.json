@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "field of light",
+    "texture": "ef72d32d-3f8c-4243-afbf-9992c3a69123",
+    "atlas": "",
+    "rect": [
+      90,
+      161,
+      172,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      352,
+      352
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

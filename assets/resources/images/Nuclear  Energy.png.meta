@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a82bd496-7259-44f0-8f8d-4e73fc7d2f7d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 352,
+  "height": 352,
+  "platformSettings": {},
+  "subMetas": {
+    "Nuclear  Energy": {
+      "ver": "1.0.6",
+      "uuid": "9d74a41b-b442-4069-b7e4-ce2acbd23af6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a82bd496-7259-44f0-8f8d-4e73fc7d2f7d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 123,
+      "trimY": 142,
+      "width": 105,
+      "height": 67,
+      "rawWidth": 352,
+      "rawHeight": 352,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
