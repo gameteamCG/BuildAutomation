@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pendant",
+    "texture": "9e159c5c-9f18-4ad4-aff6-583055d573cf",
+    "atlas": "",
+    "rect": [
+      107,
+      46,
+      285,
+      397
+    ],
+    "offset": [
+      -0.5,
+      5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
