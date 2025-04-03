@@ -5,9 +5,6 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import globalVariables from "../../Games/MemoryCard/Scripts/globalVariables";
-
-
 interface AdditionalData {
     GameID: string;
     totalLevel: string;
@@ -20,16 +17,23 @@ interface AdditionalData {
 
 interface QuestionData {
     questionText: string;
-    questionImageName: string;
     questionAudioName: string;
     shouldPlayQuestionAudio: boolean;
-    backCardImageName: string;
-    frontCardImageName: string;
+    commonPuzzleImageName: string;
+    isHintRequired: boolean;
+    numberOfPuzzles: number;
+    puzzles: string[];
+    correctAudioName: string;
+    needReiteration: boolean;
+    interactionType: string;
+    questionText2: string;
+    questionAudioName2: string;
+    commonOptionImageName: string;
     isOptionText: boolean;
-    options: string[];
-    isAnswerText: boolean;
-    answers: string[];
-    reiterationAudios: string[];
+    numberOfOptions: number;
+    options: string[]; // This will either contain text options or image names based on isOptionText flag
+    correctAnswer: string;
+    reiterationAudioName: string;
 }
 
 interface MyJSONData {
@@ -57,7 +61,7 @@ export default class startGame extends cc.Component {
     playBtn_audio: cc.AudioClip = null;
 
     levelType: string = "1";
-    currentLevel: string = "1";
+    currentLevel: number = 1;
     hasAccess: boolean = false;
     hasMobile: boolean = false;
     mobileNumber: string = null;
@@ -135,14 +139,14 @@ export default class startGame extends cc.Component {
         console.log("Jockey Name:", this.jockeyName);
 
         // Log question data
-        this.questions.forEach((question, index) => {
-            console.log(`Question ${index + 1}:`);
-            console.log("Question Image Name:", question.questionImageName);
-            console.log("Question Audio Name:", question.questionAudioName);
-            // console.log("Option 1 Image Name:", question.option1ImageName);
-            // console.log("Option 2 Image Name:", question.option2ImageName);
-            //console.log("Correct Answer Number:", question.correctAnswerNum);
-        });
+        // this.questions.forEach((question, index) => {
+        //     console.log(`Question ${index + 1}:`);
+        //     console.log("Question Image Name:", question.questionImageName);
+        //     console.log("Question Audio Name:", question.questionAudioName);
+        //     // console.log("Option 1 Image Name:", question.option1ImageName);
+        //     // console.log("Option 2 Image Name:", question.option2ImageName);
+        //     console.log("Correct Answer Number:", question.correctAnswerNum);
+        // });
     }
     removeExtension(imageName: string): string {
         // Remove .png extension
@@ -223,12 +227,12 @@ export default class startGame extends cc.Component {
             });
 
             this.questions.forEach(question => {
-                question.questionImageName = question.questionImageName
+                // question.questionImageName = question.questionImageName
                 // question.option1ImageName = question.option1ImageName
                 // question.option2ImageName = question.option2ImageName
             });
             // Now you can use these variables within this script
-            this.logData();
+            // this.logData();
         }
         else {
             cc.loader.loadRes('game_data', cc.JsonAsset, (err, jsonAsset) => {
@@ -265,15 +269,19 @@ export default class startGame extends cc.Component {
                     this.mainBg = spriteFrame;
                 });
                 this.questions.forEach(question => {
-                    //question.questionImageName = this.removeExtension(question.questionImageName);
-                    question.backCardImageName = this.removeExtension(question.backCardImageName);
-                    question.frontCardImageName = this.removeExtension(question.frontCardImageName);
+                    question.commonPuzzleImageName = this.removeExtension(question.commonPuzzleImageName);
+                    question.commonOptionImageName = this.removeExtension(question.commonOptionImageName);
+                    question.puzzles = question.puzzles.map(puzzle => this.removeExtension(puzzle));
                     question.options = question.options.map(option => this.removeExtension(option));
+                    question.correctAudioName = this.removeAudioExtension(question.correctAudioName);
+                    question.questionAudioName = this.removeAudioExtension(question.questionAudioName);
+                    question.reiterationAudioName = this.removeAudioExtension(question.reiterationAudioName);
+                    question.questionAudioName2 = this.removeAudioExtension(question.questionAudioName2);
                     // question.option1ImageName = this.removeExtension(question.option1ImageName);
                     // question.option2ImageName = this.removeExtension(question.option2ImageName);
                 });
                 // Now you can use these variables within this script
-                this.logData(); // You can call a function to log the data or use it in other functions
+                // this.logData(); // You can call a function to log the data or use it in other functions
             });
 
         }
@@ -298,7 +306,7 @@ export default class startGame extends cc.Component {
         if (premium != null) {
             this.premiumLevel = parseInt(premium);
         }
-        globalVariables.Instance.currentLevel = 1;
+        this.currentLevel = 1;
         // if (level != null) {
         //     this.NextSceneName = level;
         //     globalVariables.Instance.currentLevel = parseInt(this.NextSceneName);
@@ -325,18 +333,12 @@ export default class startGame extends cc.Component {
             this.hasAccess = true;
         }
 
-        let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-        cc.audioEngine.setVolume(id, this.volume);
+        // let id = cc.audioEngine.playMusic(this.BGM_audio, true);
+        // cc.audioEngine.setVolume(id, this.volume);
         if (isAudio == "false") {
             this.node.getChildByName("music").children[0].active = true;
             this.isMusicOn = false;
             cc.audioEngine.stopMusic();
-        }
-        else {
-            this.node.getChildByName("music").children[0].active = false;
-            this.isMusicOn = true;
-            let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-            cc.audioEngine.setVolume(id, this.volume);
         }
 
         let ageValue: number = parseInt(age);
@@ -387,11 +389,11 @@ export default class startGame extends cc.Component {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
 
-            if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
-                this.scheduleOnce(() => {
-                    cc.director.loadScene(this.NextSceneName);
-                }, 2);
-            }
+            // if (this.jockeyName != "bag" && this.jockeyName != "cryon"&& this.jockeyName != "cryon") {
+            //     this.scheduleOnce(() => {
+            //         cc.director.loadScene(this.NextSceneName);
+            //     }, 2);
+            // }
         }, 1);
 
 

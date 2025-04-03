@@ -29,7 +29,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var globalVariables_1 = require("../../Games/MemoryCard/Scripts/globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var startGame = /** @class */ (function (_super) {
     __extends(startGame, _super);
@@ -43,7 +42,7 @@ var startGame = /** @class */ (function (_super) {
         _this.isMusicOn = true;
         _this.playBtn_audio = null;
         _this.levelType = "1";
-        _this.currentLevel = "1";
+        _this.currentLevel = 1;
         _this.hasAccess = false;
         _this.hasMobile = false;
         _this.mobileNumber = null;
@@ -117,14 +116,14 @@ var startGame = /** @class */ (function (_super) {
         console.log("Title Image Name:", this.titleImageName);
         console.log("Jockey Name:", this.jockeyName);
         // Log question data
-        this.questions.forEach(function (question, index) {
-            console.log("Question " + (index + 1) + ":");
-            console.log("Question Image Name:", question.questionImageName);
-            console.log("Question Audio Name:", question.questionAudioName);
-            // console.log("Option 1 Image Name:", question.option1ImageName);
-            // console.log("Option 2 Image Name:", question.option2ImageName);
-            //console.log("Correct Answer Number:", question.correctAnswerNum);
-        });
+        // this.questions.forEach((question, index) => {
+        //     console.log(`Question ${index + 1}:`);
+        //     console.log("Question Image Name:", question.questionImageName);
+        //     console.log("Question Audio Name:", question.questionAudioName);
+        //     // console.log("Option 1 Image Name:", question.option1ImageName);
+        //     // console.log("Option 2 Image Name:", question.option2ImageName);
+        //     console.log("Correct Answer Number:", question.correctAnswerNum);
+        // });
     };
     startGame.prototype.removeExtension = function (imageName) {
         // Remove .png extension
@@ -198,12 +197,12 @@ var startGame = /** @class */ (function (_super) {
                 _this.mainBg = spriteFrame;
             });
             this.questions.forEach(function (question) {
-                question.questionImageName = question.questionImageName;
+                // question.questionImageName = question.questionImageName
                 // question.option1ImageName = question.option1ImageName
                 // question.option2ImageName = question.option2ImageName
             });
             // Now you can use these variables within this script
-            this.logData();
+            // this.logData();
         }
         else {
             cc.loader.loadRes('game_data', cc.JsonAsset, function (err, jsonAsset) {
@@ -237,15 +236,19 @@ var startGame = /** @class */ (function (_super) {
                     _this.mainBg = spriteFrame;
                 });
                 _this.questions.forEach(function (question) {
-                    //question.questionImageName = this.removeExtension(question.questionImageName);
-                    question.backCardImageName = _this.removeExtension(question.backCardImageName);
-                    question.frontCardImageName = _this.removeExtension(question.frontCardImageName);
+                    question.commonPuzzleImageName = _this.removeExtension(question.commonPuzzleImageName);
+                    question.commonOptionImageName = _this.removeExtension(question.commonOptionImageName);
+                    question.puzzles = question.puzzles.map(function (puzzle) { return _this.removeExtension(puzzle); });
                     question.options = question.options.map(function (option) { return _this.removeExtension(option); });
+                    question.correctAudioName = _this.removeAudioExtension(question.correctAudioName);
+                    question.questionAudioName = _this.removeAudioExtension(question.questionAudioName);
+                    question.reiterationAudioName = _this.removeAudioExtension(question.reiterationAudioName);
+                    question.questionAudioName2 = _this.removeAudioExtension(question.questionAudioName2);
                     // question.option1ImageName = this.removeExtension(question.option1ImageName);
                     // question.option2ImageName = this.removeExtension(question.option2ImageName);
                 });
                 // Now you can use these variables within this script
-                _this.logData(); // You can call a function to log the data or use it in other functions
+                // this.logData(); // You can call a function to log the data or use it in other functions
             });
         }
     };
@@ -268,7 +271,7 @@ var startGame = /** @class */ (function (_super) {
         if (premium != null) {
             this.premiumLevel = parseInt(premium);
         }
-        globalVariables_1.default.Instance.currentLevel = 1;
+        this.currentLevel = 1;
         // if (level != null) {
         //     this.NextSceneName = level;
         //     globalVariables.Instance.currentLevel = parseInt(this.NextSceneName);
@@ -292,18 +295,12 @@ var startGame = /** @class */ (function (_super) {
         if (!this.isPremiumGame) {
             this.hasAccess = true;
         }
-        var id = cc.audioEngine.playMusic(this.BGM_audio, true);
-        cc.audioEngine.setVolume(id, this.volume);
+        // let id = cc.audioEngine.playMusic(this.BGM_audio, true);
+        // cc.audioEngine.setVolume(id, this.volume);
         if (isAudio == "false") {
             this.node.getChildByName("music").children[0].active = true;
             this.isMusicOn = false;
             cc.audioEngine.stopMusic();
-        }
-        else {
-            this.node.getChildByName("music").children[0].active = false;
-            this.isMusicOn = true;
-            var id_1 = cc.audioEngine.playMusic(this.BGM_audio, true);
-            cc.audioEngine.setVolume(id_1, this.volume);
         }
         var ageValue = parseInt(age);
         if (this.isAgeParameterNeeded) {
@@ -349,11 +346,11 @@ var startGame = /** @class */ (function (_super) {
             else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
-            if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
-                _this.scheduleOnce(function () {
-                    cc.director.loadScene(_this.NextSceneName);
-                }, 2);
-            }
+            // if (this.jockeyName != "bag" && this.jockeyName != "cryon"&& this.jockeyName != "cryon") {
+            //     this.scheduleOnce(() => {
+            //         cc.director.loadScene(this.NextSceneName);
+            //     }, 2);
+            // }
         }, 1);
         // this.OnTimer();
     };
