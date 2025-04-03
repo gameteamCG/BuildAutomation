@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "APJ",
+    "texture": "22ce22bc-637c-4418-9be1-0a959b3b1ce5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      295,
+      457
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      295,
+      457
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

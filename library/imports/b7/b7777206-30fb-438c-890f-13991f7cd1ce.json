@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "AGB",
+    "texture": "5eab6a19-3e5f-4619-8605-920f453feb33",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      295,
+      452
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      295,
+      452
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
