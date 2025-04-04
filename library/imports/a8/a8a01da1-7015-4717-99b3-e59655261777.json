@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "seasonal river",
+    "texture": "a8658965-6318-4cab-986f-788470c19760",
+    "atlas": "",
+    "rect": [
+      0,
+      78,
+      300,
+      143
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
