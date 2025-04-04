@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Perennial River",
+    "texture": "7c12a07a-f09b-447d-bb23-bdc86f38ff20",
+    "atlas": "",
+    "rect": [
+      4,
+      138,
+      491,
+      224
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

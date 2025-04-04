@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "72da7554-d8d5-4908-a8ad-21938e11be93",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Groundwater": {
+      "ver": "1.0.6",
+      "uuid": "32491e0d-ae7f-4879-b2e7-189f9400c2c5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "72da7554-d8d5-4908-a8ad-21938e11be93",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 2,
+      "trimY": 219,
+      "width": 496,
+      "height": 61,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
