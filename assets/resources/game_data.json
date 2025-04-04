@@ -1,0 +1,253 @@
+{
+  "additionalData": {
+    "GameID": "Water and its sources",
+    "totalLevel": "8",
+    "TitleImageName": "Asset 70.png",
+    "introBgName": "Bg (1).png",
+    "bgmMusicName": "BGM1302225.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "tortoise"
+  },
+  "questionData": [
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "solve the picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset 42.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png"
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": " I am a huge, salty water body that covers most of the Earth.",
+      "questionAudioName2": "iamahuge.mp3",
+      "commonOptionImageName": "Empty@72x-8.png",
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "ocean.png",
+        "sea.png",
+        "grndwater.png",
+        "pond.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "ocean.mp3"
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "solve the picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset 42.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_1.png",
+        "2_1.png",
+        "3_1.png",
+        "4_1.png"
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "I seep into the ground and get stored in the spaces between rocks and soil. What am I?",
+      "questionAudioName2": "issepinto.mp3",
+      "commonOptionImageName": "Empty@72x-8.png",
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "rain.png",
+        "grndwater.png",
+        "sea.png",
+        "seasonal river.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "groundwater.mp3"
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "solve the picture.mp3",
+      "shouldPlayQuestionAudio": false,
+      "commonPuzzleImageName": "Asset 42.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_8.png",
+        "2_8.png",
+        "3_8.png",
+        "4_8.png"
+      ],
+      "correctAudioName": "GOODEFFORT.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "I am the primary source of freshwater on the Earth. What am I?",
+      "questionAudioName2": "iamthepri.mp3",
+      "commonOptionImageName": "Empty@72x-8.png",
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "lake.png",
+        "grndwater.png",
+        "pond.png",
+        "rain.png"
+      ],
+      "correctAnswer": "4",
+      "reiterationAudioName": "lake.mp3"
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "solve the picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset 42.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_3.png",
+        "2_3.png",
+        "3_3.png",
+        "4_3.png"
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": " I flow during the rainy season but dry up when the weather is hot and dry. What am I?",
+      "questionAudioName2": "iflowduring.mp3",
+      "commonOptionImageName": "Empty@72x-8.png",
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "perinriver.png",
+        "ocean.png",
+        "seasonal river.png",
+        "pond.png"
+      ],
+      "correctAnswer": "3",
+      "reiterationAudioName": "seasonal-river.mp3"
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "solve the picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_4.png",
+        "2_4.png",
+        "3_4.png",
+        "4_4.png"
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": " I am a small water body surrounded by land on all sides. What am I?",
+      "questionAudioName2": "iamasmall.mp3",
+      "commonOptionImageName": "Empty@72x-8.png",
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "ocean.png",
+        "lake.png",
+        "grndwater.png",
+        "pond.png"
+      ],
+      "correctAnswer": "4",
+      "reiterationAudioName": "pond.mp3"
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "solve the picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset 42.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_5.png",
+        "2_5.png",
+        "3_5.png",
+        "4_5.png"
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": " I get water from glaciers and rain; I never run dry. What am I?",
+      "questionAudioName2": "igetwat.mp3",
+      "commonOptionImageName": "Empty@72x-8.png",
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "sea.png",
+        "rain.png",
+        "perinriver.png",
+        "seasonal river.png"
+      ],
+      "correctAnswer": "3",
+      "reiterationAudioName": "perennial-river.mp3"
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "solve the picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset 42.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_6.png",
+        "2_6.png",
+        "3_6.png",
+        "4_6.png"
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "I am similar to the ocean but found closer to the land. What am I?",
+      "questionAudioName2": "iamsim.mp3",
+      "commonOptionImageName": "Empty@72x-8.png",
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "pond.png",
+        "sea.png",
+        "seasonal river.png",
+        "grndwater.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "sea.mp3"
+    },
+    {
+      "questionText": "Solve the picture puzzle.",
+      "questionAudioName": "solve the picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset 42.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_7.png",
+        "2_7.png",
+        "3_7.png",
+        "4_7.png"
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "I am larger than a pond, often used for fishing and boating. What am I?",
+      "questionAudioName2": "iamlarger.mp3",
+      "commonOptionImageName": "Empty@72x-8.png",
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "rain.png",
+        "pond.png",
+        "grndwater.png",
+        "lake.png"
+      ],
+      "correctAnswer": "4",
+      "reiterationAudioName": "lake.mp3"
+    }
+  ]
+}
