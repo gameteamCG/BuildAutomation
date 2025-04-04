@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7acf0f18-5771-48e1-97c9-029a9c2650f9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 300,
+  "height": 300,
+  "platformSettings": {},
+  "subMetas": {
+    "seasonal river": {
+      "ver": "1.0.6",
+      "uuid": "0d7270b8-3084-4e9d-8ac5-0187063e4fd4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7acf0f18-5771-48e1-97c9-029a9c2650f9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 0,
+      "trimY": 78,
+      "width": 300,
+      "height": 143,
+      "rawWidth": 300,
+      "rawHeight": 300,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
