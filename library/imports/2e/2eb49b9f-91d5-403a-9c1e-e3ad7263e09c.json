@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Lightandshadow",
+    "texture": "7bef6201-3442-4697-a129-1428fe5261af",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      499,
+      266
+    ],
+    "offset": [
+      0,
+      2
+    ],
+    "originalSize": [
+      499,
+      270
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
