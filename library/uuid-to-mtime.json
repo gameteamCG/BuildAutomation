@@ -1,7 +1,7 @@
 {
   "119f7f24-727f-43c7-8c8c-ff04216b88bb": {
-    "asset": 1744113760103,
-    "meta": 1744113830234,
+    "asset": 1744113870207,
+    "meta": 1744113870422,
     "relativePath": "resources"
   },
   "0d2e55d5-0eb2-4514-9a7a-dedb539de00f": {
@@ -3178,5 +3178,10 @@
     "asset": 1744113671414,
     "meta": 1744113830533,
     "relativePath": "Games/WhatWillHappenNext/titleBG.png"
+  },
+  "3740d82d-8688-4848-8ab2-fc5ea69ba315": {
+    "asset": 1744113865036,
+    "meta": 1744113870423,
+    "relativePath": "resources/game_data.json"
   }
 }

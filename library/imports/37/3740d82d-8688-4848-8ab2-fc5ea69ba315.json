@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "New server",
+      "totalLevel": "1",
+      "TitleImageName": "",
+      "introBgName": "",
+      "bgmMusicName": "",
+      "mainBgName": "",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "1",
+        "questionImageName": "",
+        "questionAudioName": "",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 0,
+        "options": [],
+        "correctAudioName": "",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
