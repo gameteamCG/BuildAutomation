@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "beanstalk",
+    "texture": "a9bd5472-2a6f-4883-9a0b-2b48f06ece91",
+    "atlas": "",
+    "rect": [
+      69,
+      13,
+      114,
+      225
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
