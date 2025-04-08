@@ -3044,13 +3044,13 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bag",
+    "_name": "tortoise",
     "_objFlags": 0,
     "_parent": {
       "__id__": 62
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 64
@@ -3067,8 +3067,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 848.12,
-      "height": 947.04
+      "width": 415.17,
+      "height": 649.53
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3086,8 +3086,8 @@
         0,
         0,
         1,
-        0.35,
-        0.35,
+        0.5,
+        0.5,
         1
       ]
     },
@@ -3136,7 +3136,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "10baffd4-b062-4408-9849-73372199766b"
+      "__uuid__": "47ae6eb7-9d86-4f05-8d02-bacdd8589037"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
