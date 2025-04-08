@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5a206f80-2b43-45aa-9457-5194fc35c49c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "statue of liberty": {
+      "ver": "1.0.6",
+      "uuid": "27d268b4-da4a-48ca-8df1-6ce20f8f280f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5a206f80-2b43-45aa-9457-5194fc35c49c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 135,
+      "trimY": 32,
+      "width": 231,
+      "height": 437,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
