@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pole lamp",
+    "texture": "60b64436-8fcf-4531-ae31-299c04961449",
+    "atlas": "",
+    "rect": [
+      99,
+      15,
+      110,
+      319
+    ],
+    "offset": [
+      -21.5,
+      0.5
+    ],
+    "originalSize": [
+      351,
+      350
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

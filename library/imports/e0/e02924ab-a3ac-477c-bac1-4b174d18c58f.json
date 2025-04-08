@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "parashoot",
+    "texture": "25ae00dc-e634-40d4-a8e6-e767bf14cec2",
+    "atlas": "",
+    "rect": [
+      50,
+      32,
+      250,
+      281
+    ],
+    "offset": [
+      -0.5,
+      2.5
+    ],
+    "originalSize": [
+      351,
+      350
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

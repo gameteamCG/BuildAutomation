@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0018_snail",
+    "texture": "fb82740d-82f9-478b-95d6-9aecdd91827f",
+    "atlas": "",
+    "rect": [
+      22,
+      86,
+      457,
+      328
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

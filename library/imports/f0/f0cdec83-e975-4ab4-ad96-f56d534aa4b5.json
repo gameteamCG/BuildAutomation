@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0006_curtain",
+    "texture": "60fb7025-b145-4ea2-a6ea-b60b526c4982",
+    "atlas": "",
+    "rect": [
+      36,
+      31,
+      428,
+      446
+    ],
+    "offset": [
+      0,
+      -4
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
