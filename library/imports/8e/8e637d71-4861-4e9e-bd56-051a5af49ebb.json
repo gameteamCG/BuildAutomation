@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "box_0000_cardboard",
+    "texture": "ec82f958-d46e-4ee2-910f-28f1b471a5e7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      647,
+      382
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      647,
+      382
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "coconut tree",
+    "texture": "0beb4c52-e1da-4fa9-9f67-2665c989cf01",
+    "atlas": "",
+    "rect": [
+      94,
+      22,
+      177,
+      317
+    ],
+    "offset": [
+      7,
+      -5.5
+    ],
+    "originalSize": [
+      351,
+      350
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
