@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "LOL",
+    "texture": "258f0c0a-8d57-430c-b810-1ca3f2b979ce",
+    "atlas": "",
+    "rect": [
+      31,
+      0,
+      295,
+      351
+    ],
+    "offset": [
+      3,
+      0
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

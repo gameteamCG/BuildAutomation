@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "QUAEDU",
+    "texture": "014fc0e6-115d-412d-b21a-f9146e6405c1",
+    "atlas": "",
+    "rect": [
+      31,
+      0,
+      295,
+      351
+    ],
+    "offset": [
+      3,
+      0
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

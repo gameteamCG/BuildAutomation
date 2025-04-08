@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "NOPOVERTY",
+    "texture": "cd57ce0e-63cf-4758-ac88-fffdc8dada4a",
+    "atlas": "",
+    "rect": [
+      31,
+      0,
+      295,
+      351
+    ],
+    "offset": [
+      3,
+      0
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

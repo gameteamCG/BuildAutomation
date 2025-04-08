@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GENDEQUA",
+    "texture": "4539e5d6-6309-4f05-86da-50f2da4dff6b",
+    "atlas": "",
+    "rect": [
+      31,
+      0,
+      295,
+      351
+    ],
+    "offset": [
+      3,
+      0
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

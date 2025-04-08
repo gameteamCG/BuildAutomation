@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Match SDG icons with names",
+      "totalLevel": "8",
+      "TitleImageName": "Asset 70.png",
+      "introBgName": "Bg (1).png",
+      "bgmMusicName": "BGM1302225.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tortoise"
+    },
+    "questionData": [
+      {
+        "questionText": "Match SDG icons with names.",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 21.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "1.png",
+          "2.png"
+        ],
+        "reiterationAudios": [
+          "no poverty.mp3",
+          "zero hunger.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "NOPOVERTY.png",
+          "zeroh.png"
+        ]
+      },
+      {
+        "questionText": "Match SDG icons with names.",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 21.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "3.png",
+          "4.png"
+        ],
+        "reiterationAudios": [
+          "Good health and well-being.mp3",
+          "34302237_5_quality-education.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "GHAWB.png",
+          "QUAEDU.png"
+        ]
+      },
+      {
+        "questionText": "Match SDG icons with names.",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 21.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "5.png",
+          "6.png"
+        ],
+        "reiterationAudios": [
+          "34302237_6_gender-equality.mp3",
+          "Clean water and sanitation.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "GENDEQUA.png",
+          "CWASAN.png"
+        ]
+      },
+      {
+        "questionText": "Match SDG icons with names.",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 21.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "7.png",
+          "8.png"
+        ],
+        "reiterationAudios": [
+          "Affordable and clean energy.mp3",
+          "Decent work and economic growth.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "AFACE.png",
+          "DGAEG.png"
+        ]
+      },
+      {
+        "questionText": "Match SDG icons with names.",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 21.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "9.png",
+          "10.png"
+        ],
+        "reiterationAudios": [
+          "industry innovations and infrastructures.mp3",
+          "34302237_8_reduced-inequalities.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "IIAI.png",
+          "REDINEQUA.png"
+        ]
+      },
+      {
+        "questionText": "Match SDG icons with names.",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 21.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "11.png",
+          "12.png"
+        ],
+        "reiterationAudios": [
+          "Sustainable cities and communities.mp3",
+          "responsible consumption and production.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "SCAC.png",
+          "RCAP.png"
+        ]
+      },
+      {
+        "questionText": "Match SDG icons with names.",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 21.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "13.png",
+          "14.png"
+        ],
+        "reiterationAudios": [
+          "34302237_10_climate-action.mp3",
+          "34302237_11_life-below-water.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "CA.png",
+          "LBW.png"
+        ]
+      },
+      {
+        "questionText": "Match SDG icons with names.",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset 21.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "15.png",
+          "16.png"
+        ],
+        "reiterationAudios": [
+          "34302237_12_life-on-land.mp3",
+          "peace and justice strong institutions.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "LOL.png",
+          "PAJSI.png"
+        ]
+      }
+    ]
+  }
+}
