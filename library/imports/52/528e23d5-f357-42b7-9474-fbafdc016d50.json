@@ -1,0 +1,169 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Purvanchal ranges",
+      "totalLevel": "10",
+      "TitleImageName": "PR.png",
+      "introBgName": "Bg (1).png",
+      "bgmMusicName": "BGM1302225.mp3",
+      "mainBgName": "Bg (1).png",
+      "JockeyName": "tortoise"
+    },
+    "questionData": [
+      {
+        "questionText": "What is the capital of Assam?",
+        "questionAudioName": "What is the capital of Assam .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "Asset 36.png",
+          "Asset 35.png",
+          "Asset 34.png"
+        ],
+        "correctAudios": [
+          "34021663_2_dispur.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Which river enters India through Arunachal Pradesh?",
+        "questionAudioName": "Which river enters India through Arunachal Pradesh -.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "Asset 41.png",
+          "Asset 37.png",
+          "Asset 38.png"
+        ],
+        "correctAudios": [
+          "Bruhm-ma-putra.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which is the classical dance form of Manipur?",
+        "questionAudioName": "Which is the classical dance form of Manipur.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "Asset 46.png",
+          "Asset 44.png",
+          "Asset 42.png"
+        ],
+        "correctAudios": [
+          "34021663_6_manipuri-dance.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which festival is celebrated in Mizoram in the month of March?",
+        "questionAudioName": "Which festival is celebrated in Mizoram in the month of March -.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "Asset 45.png",
+          "Asset 49.png",
+          "Asset 48.png"
+        ],
+        "correctAudios": [
+          "chapchar-kut-festival.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Which language is spoken in Meghalaya?",
+        "questionAudioName": "Which language is spoken in Meghalaya - .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "Asset 50.png",
+          "Asset 52.png",
+          "Asset 51.png"
+        ],
+        "correctAudios": [
+          "34021663_11_garo.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which shawls do people of the Naga tribe wear?",
+        "questionAudioName": "Which shawls do people of the Naga tribe wear.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "Asset 62.png",
+          "Asset 63.png",
+          "Asset 61.png"
+        ],
+        "correctAudios": [
+          "34021663_13_naga-shawls.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Which is the capital of Tripura?",
+        "questionAudioName": "What is the capital of Tripura .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "Asset 35.png",
+          "Asset 59.png",
+          "Asset 60.png"
+        ],
+        "correctAudios": [
+          "Agartala.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Which animal is conserved at the Kaziranga National Park in Assam",
+        "questionAudioName": "Which animal is conserved at the Kaziranga National Park in Assam .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "Lion.png",
+          "Asset 56.png",
+          "elephant.png"
+        ],
+        "correctAudios": [
+          "one-horned Indian rhinoceros.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which dance is well known from Assam?",
+        "questionAudioName": "Which dance is well known from Assam.mp3",
+        "shouldPlayQuestionAudio": false,
+        "isOptionText": false,
+        "options": [
+          "Asset 46.png",
+          "Asset 43.png",
+          "Asset 42.png"
+        ],
+        "correctAudios": [
+          "34021663_19_bihu-dance.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which shawl do the women of manipur wrap around their upper body?",
+        "questionAudioName": "Which shawl do the women of Manipur wrap around their upper body - .mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "Asset 61.png",
+          "Asset 40.png",
+          "Asset 63.png"
+        ],
+        "correctAudios": [
+          "34021663_21_inna-phi.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
