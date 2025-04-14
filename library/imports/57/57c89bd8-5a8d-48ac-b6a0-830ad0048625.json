@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stretchB",
+    "texture": "4d614f72-af99-48f6-8225-2fb68958230d",
+    "atlas": "",
+    "rect": [
+      92,
+      101,
+      318,
+      297
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

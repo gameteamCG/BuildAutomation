@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "screenB",
+    "texture": "57adc413-9f7f-4ece-9eee-cf9b1046c7ce",
+    "atlas": "",
+    "rect": [
+      55,
+      131,
+      390,
+      238
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

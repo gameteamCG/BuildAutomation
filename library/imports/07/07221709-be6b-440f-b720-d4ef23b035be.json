@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "strongB",
+    "texture": "30620201-c92d-40bf-b284-d5c7b1f4ac35",
+    "atlas": "",
+    "rect": [
+      102,
+      89,
+      295,
+      342
+    ],
+    "offset": [
+      -0.5,
+      -10
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

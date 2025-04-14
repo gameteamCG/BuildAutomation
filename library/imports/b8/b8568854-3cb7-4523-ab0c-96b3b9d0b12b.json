@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "strap",
+    "texture": "829500ef-0990-4b25-a296-69810ecab489",
+    "atlas": "",
+    "rect": [
+      136,
+      0,
+      221,
+      500
+    ],
+    "offset": [
+      -3.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

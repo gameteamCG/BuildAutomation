@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "screwB",
+    "texture": "57eb7f2a-d8dd-4b8d-8774-2717ee92f62c",
+    "atlas": "",
+    "rect": [
+      179,
+      142,
+      142,
+      216
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
