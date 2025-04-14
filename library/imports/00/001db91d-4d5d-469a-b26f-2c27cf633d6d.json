@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spreadB",
+    "texture": "52bf1d21-9750-4cfa-83a2-5259da07e5a2",
+    "atlas": "",
+    "rect": [
+      101,
+      86,
+      298,
+      327
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
