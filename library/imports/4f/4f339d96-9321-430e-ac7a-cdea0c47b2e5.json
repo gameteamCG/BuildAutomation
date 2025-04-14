@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chin",
+    "texture": "f50eb8e8-a592-42db-a701-d7663ee3d728",
+    "atlas": "",
+    "rect": [
+      66,
+      3,
+      369,
+      494
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
