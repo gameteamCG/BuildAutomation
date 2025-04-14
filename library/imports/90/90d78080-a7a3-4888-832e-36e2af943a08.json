@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whirl",
+    "texture": "1fb3eae3-e094-4868-aa38-e3af6e0f886c",
+    "atlas": "",
+    "rect": [
+      95,
+      107,
+      161,
+      137
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

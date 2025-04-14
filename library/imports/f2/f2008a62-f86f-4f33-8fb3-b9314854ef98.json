@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whip",
+    "texture": "1dc674c6-d584-4521-a655-9c3e4219021b",
+    "atlas": "",
+    "rect": [
+      114,
+      98,
+      124,
+      155
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
