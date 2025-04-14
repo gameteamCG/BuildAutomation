@@ -1,0 +1,159 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Light and shadow",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/480_LightAndShadow_1732523537077.mp4",
+      "TitleImageName": "Lightandshadow.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "tortoise",
+      "TotalLevel": "7"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "1.png",
+        "QuestionAudioName": "Whatdidburpeewanttoeat.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard 2.png",
+          "Artboard 2 copy.png",
+          "Artboard 2 copy 2.png",
+          "Artboard 2 copy 3.png"
+        ],
+        "ReiterationAudioName": "33382736_2_bugs.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "2.png",
+        "QuestionAudioName": "Whatisformedwhenanobstuhklcomesinthewayoflight.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard 2 copy 5.png",
+          "Artboard 2 copy 4.png",
+          "Artboard 2 copy 7.png",
+          "Artboard 2 copy 8.png"
+        ],
+        "ReiterationAudioName": "33382736_4_shadow.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "3.png",
+        "QuestionAudioName": "Whatcausesshadowsontheground.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard 2 copy 11.png",
+          "Artboard 2 copy 10.png",
+          "Artboard 2 copy 9.png",
+          "Artboard 2 copy 12.png"
+        ],
+        "ReiterationAudioName": "33382736_6_sun.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_3.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "4.png",
+        "QuestionAudioName": "Doesthesizeoftheshadowremainsameduringdifferenttimesoftheday.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard 2 copy 14.png",
+          "Artboard 2 copy 15.png",
+          "Artboard 2 copy 16.png",
+          "Artboard 2 copy 13.png"
+        ],
+        "ReiterationAudioName": "33382736_8_no.mp3",
+        "CorrectAudioName": "positive_4.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "5.png",
+        "QuestionAudioName": "WhatdoesDarwinusetomeasuretheshadow.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard 2 copy 17.png",
+          "Artboard 2 copy 18.png",
+          "Artboard 2 copy 19.png",
+          "Artboard 2 copy 20.png"
+        ],
+        "ReiterationAudioName": "33382736_10_measuring-tape.mp3",
+        "CorrectAudioName": "positive_5.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "6.png",
+        "QuestionAudioName": "Howmanyshadowsareformedwhenthesunisaboveus.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard 2 copy 22.png",
+          "Artboard 2 copy 21.png",
+          "Artboard 2 copy 23.png",
+          "Artboard 2 copy 24.png"
+        ],
+        "ReiterationAudioName": "0.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_3.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "7.png",
+        "QuestionAudioName": "Can you see shadows in the dark.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard 2 copy 28.png",
+          "Artboard 2 copy 27.png",
+          "Artboard 2 copy 25.png",
+          "Artboard 2 copy 26.png"
+        ],
+        "ReiterationAudioName": "33382736_8_no.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}
