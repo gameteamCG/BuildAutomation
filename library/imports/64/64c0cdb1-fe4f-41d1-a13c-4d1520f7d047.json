@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wheat",
+    "texture": "c6894755-d38c-4d63-b53b-7a559870dc86",
+    "atlas": "",
+    "rect": [
+      112,
+      74,
+      127,
+      203
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

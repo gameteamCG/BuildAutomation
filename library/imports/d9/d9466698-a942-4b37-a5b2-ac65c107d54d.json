@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Digraph -",
+    "texture": "ec18fcac-5f44-402d-acc5-b66a82d9e9e1",
+    "atlas": "",
+    "rect": [
+      2,
+      7,
+      441,
+      191
+    ],
+    "offset": [
+      -1,
+      1.5
+    ],
+    "originalSize": [
+      447,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
