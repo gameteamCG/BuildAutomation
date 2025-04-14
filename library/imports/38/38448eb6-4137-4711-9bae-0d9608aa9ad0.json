@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stapB",
+    "texture": "88bb4fae-a540-48a7-859c-8d08eca25c1d",
+    "atlas": "",
+    "rect": [
+      140,
+      0,
+      220,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
