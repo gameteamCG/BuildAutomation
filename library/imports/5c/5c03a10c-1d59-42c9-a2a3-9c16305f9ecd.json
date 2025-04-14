@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whisk",
+    "texture": "9f8764f5-dd6b-41ac-89fb-ed2c103ca956",
+    "atlas": "",
+    "rect": [
+      96,
+      74,
+      160,
+      202
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
