@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "screa",
+    "texture": "36c9658d-bb23-4c02-b02a-496cd4cdc186",
+    "atlas": "",
+    "rect": [
+      101,
+      18,
+      298,
+      464
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
