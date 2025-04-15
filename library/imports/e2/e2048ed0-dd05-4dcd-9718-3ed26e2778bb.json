@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Weather",
+    "texture": "81dbaf27-bac9-4955-9b8b-c376403b8a55",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      751,
+      236
+    ],
+    "offset": [
+      0,
+      4.5
+    ],
+    "originalSize": [
+      751,
+      245
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
