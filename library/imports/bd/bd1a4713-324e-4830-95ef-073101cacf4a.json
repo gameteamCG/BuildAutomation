@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0002_brother-finger",
+    "texture": "5c3c5227-b6da-4338-b835-62710f1c053d",
+    "atlas": "",
+    "rect": [
+      81,
+      19,
+      99,
+      217
+    ],
+    "offset": [
+      5.5,
+      -2.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
