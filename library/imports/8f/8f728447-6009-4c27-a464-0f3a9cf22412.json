@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "threeB",
+    "texture": "1a87b958-8109-47bf-b4ad-db8e1ff4f89f",
+    "atlas": "",
+    "rect": [
+      141,
+      88,
+      198,
+      339
+    ],
+    "offset": [
+      -10,
+      -7.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
