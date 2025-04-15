@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0001_sister-finger",
+    "texture": "4a17bc7f-66b9-4498-96ff-2739bc9f1ed4",
+    "atlas": "",
+    "rect": [
+      48,
+      30,
+      146,
+      196
+    ],
+    "offset": [
+      -4,
+      -3
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

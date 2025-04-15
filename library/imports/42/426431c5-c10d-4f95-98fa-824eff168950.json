@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0000_baby-finger",
+    "texture": "8167bd02-4d3d-41f4-b789-942f35017df0",
+    "atlas": "",
+    "rect": [
+      22,
+      37,
+      199,
+      193
+    ],
+    "offset": [
+      -3.5,
+      -8.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
