@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Types of fractions",
+    "texture": "6ed36c75-221e-4b6b-b559-f561d8237d78",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      782,
+      492
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      782,
+      492
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
