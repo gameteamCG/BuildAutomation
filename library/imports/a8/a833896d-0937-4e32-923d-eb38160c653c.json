@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thumbB",
+    "texture": "d6d8189d-6fd8-406d-a79b-b5887cb887a3",
+    "atlas": "",
+    "rect": [
+      132,
+      101,
+      236,
+      298
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
