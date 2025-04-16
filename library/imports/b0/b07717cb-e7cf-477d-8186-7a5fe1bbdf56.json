@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "number 5_PD_PG_Day183",
+      "totalLevel": "7",
+      "TitleImageName": "number 5.png",
+      "introBgName": "pg.png",
+      "bgmMusicName": "BGM1302225.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "match the correct number pattern tile with the correct number of fingers",
+        "questionAudioName": "",
+        "shouldPlayQuestionAudio": false,
+        "commonLeftOptionImageName": "Asset 28.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset 2.png"
+        ],
+        "reiterations": [
+          "match the correct number pattern tile with the correct number of fingers.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 27.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 1.png",
+          "Asset 8.png"
+        ]
+      },
+      {
+        "questionText": "match the correct number pattern tile with the correct number of fingers",
+        "questionAudioName": "",
+        "shouldPlayQuestionAudio": false,
+        "commonLeftOptionImageName": "Asset 28.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset 16.png"
+        ],
+        "reiterations": [
+          "match the correct number pattern tile with the correct number of insects.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 27.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 12.png",
+          "Asset 24.png"
+        ]
+      },
+      {
+        "questionText": "match the correct number pattern tile with the correct number of fingers",
+        "questionAudioName": "",
+        "shouldPlayQuestionAudio": false,
+        "commonLeftOptionImageName": "Asset 28.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset 3.png"
+        ],
+        "reiterations": [
+          "match the correct number pattern tile with the correct number of insects.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 27.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 12.png",
+          "Asset 9.png"
+        ]
+      },
+      {
+        "questionText": "match the correct number pattern tile with the correct number of fingers",
+        "questionAudioName": "",
+        "shouldPlayQuestionAudio": false,
+        "commonLeftOptionImageName": "Asset 28.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset 5.png"
+        ],
+        "reiterations": [
+          "match the correct number pattern tile with the correct number of insects.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 27.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 1.png",
+          "Asset 25.png"
+        ]
+      },
+      {
+        "questionText": "match the correct number pattern tile with the correct number of fingers",
+        "questionAudioName": "",
+        "shouldPlayQuestionAudio": false,
+        "commonLeftOptionImageName": "Asset 28.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset 6.png"
+        ],
+        "reiterations": [
+          "match the correct number pattern tile with the correct number of insects.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 27.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 1.png",
+          "Asset 8.png"
+        ]
+      },
+      {
+        "questionText": "match the correct number pattern tile with the correct number of fingers",
+        "questionAudioName": "",
+        "shouldPlayQuestionAudio": false,
+        "commonLeftOptionImageName": "Asset 28.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset 7.png"
+        ],
+        "reiterations": [
+          "match the correct number pattern tile with the correct number of insects.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 27.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 12.png",
+          "Asset 9.png"
+        ]
+      },
+      {
+        "questionText": "match the correct number pattern tile with the correct number of fingers",
+        "questionAudioName": "",
+        "shouldPlayQuestionAudio": false,
+        "commonLeftOptionImageName": "Asset 28.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset 13.png"
+        ],
+        "reiterations": [
+          "match the correct number pattern tile with the correct number of fingers.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 27.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 12.png",
+          "Asset 25.png"
+        ]
+      }
+    ]
+  }
+}

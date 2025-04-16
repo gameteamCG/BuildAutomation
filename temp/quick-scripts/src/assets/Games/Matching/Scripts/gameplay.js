@@ -573,11 +573,15 @@ var gameplay = /** @class */ (function (_super) {
             audioNum -= 1;
             console.log("audio Number = ", audioNum);
             cc.audioEngine.playEffect(_this.correctAudio[audioNum], false);
+            var duration = 0.7;
+            if (_this.correctAudio[audioNum] != null) {
+                duration = _this.correctAudio[audioNum].duration;
+            }
             _this.node.getChildByName("confetti").setPosition(0, 0);
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             _this.scheduleOnce(function () {
                 _this.callJockey();
-            }, 0.7);
+            }, duration);
         }, 0.5);
     };
     gameplay.prototype.callJockey = function () {
