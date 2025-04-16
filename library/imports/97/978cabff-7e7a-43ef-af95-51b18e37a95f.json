@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "trophyB",
+    "texture": "c5c63074-9983-4b60-bece-9bcc90d2c694",
+    "atlas": "",
+    "rect": [
+      70,
+      51,
+      360,
+      399
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
