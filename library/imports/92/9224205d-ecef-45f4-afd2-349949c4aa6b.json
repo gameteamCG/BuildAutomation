@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "virtual field trip - garden",
+    "texture": "d1f94b44-ad88-423d-99c2-a12c22a10d80",
+    "atlas": "",
+    "rect": [
+      1,
+      8,
+      1032,
+      352
+    ],
+    "offset": [
+      -6,
+      -3.5
+    ],
+    "originalSize": [
+      1046,
+      361
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
