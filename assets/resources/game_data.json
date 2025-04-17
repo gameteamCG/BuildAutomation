@@ -1,0 +1,153 @@
+{
+  "additionalData": {
+    "GameID": "Seasons_PD_PG_day177",
+    "totalLevel": "5",
+    "TitleImageName": "seasons.png",
+    "introBgName": "pg.png",
+    "bgmMusicName": "Colour BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "solve the picture",
+      "questionAudioName": "42196806_1_solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "puzzle back.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_1.png",
+        "2_1.png",
+        "3_1.png",
+        "4_1.png"
+      ],
+      "correctAudioName": "What is the colour of the cloud when it rains heavily.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "What is the colour of cloud when it rains heavily?",
+      "questionAudioName2": "empty.mp3",
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "cloud.png",
+        "sweater.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "42196806_3_grey-clouds.mp3"
+    },
+    {
+      "questionText": "solve the picture",
+      "questionAudioName": "42196806_1_solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "puzzle back.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_2.png",
+        "2_2.png",
+        "3_2.png",
+        "4_2.png"
+      ],
+      "correctAudioName": "What do we drink in the summer season to get energy.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "What do we drink in summer season to get energy?",
+      "questionAudioName2": "empty.mp3",
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 25.png",
+        "juice.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "42196806_5_fruit-juice.mp3"
+    },
+    {
+      "questionText": "solve the picture",
+      "questionAudioName": "42196806_1_solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "puzzle back.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png"
+      ],
+      "correctAudioName": "What do we ware to keep ourselves warm in winter.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "What do we wear to keep ourselves warm in winder?",
+      "questionAudioName2": "empty.mp3",
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "sweater.png",
+        "cloud.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "42196806_7_sweater.mp3"
+    },
+    {
+      "questionText": "solve the picture",
+      "questionAudioName": "42196806_1_solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "puzzle back.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_3.png",
+        "2_3.png",
+        "3_3.png",
+        "4_3.png"
+      ],
+      "correctAudioName": "During which season do we use this.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "During which season do we use this?",
+      "questionAudioName2": "empty.mp3",
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "rainy.png",
+        "summer.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "42196806_9_rainy-season.mp3"
+    },
+    {
+      "questionText": "solve the picture",
+      "questionAudioName": "42196806_1_solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "puzzle back.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "1_4.png",
+        "2_4.png",
+        "3_4.png",
+        "4_4.png"
+      ],
+      "correctAudioName": "During which season do we use this.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "During which season do we use this?",
+      "questionAudioName2": "empty.mp3",
+      "commonOptionImageName": "common.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "summer.png",
+        "winter.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "42196806_11_winter-season.mp3"
+    }
+  ]
+}
