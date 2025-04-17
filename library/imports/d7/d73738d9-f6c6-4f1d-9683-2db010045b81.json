@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "seasons",
+    "texture": "33ba2f50-1e44-4259-898a-8187507c4ab0",
+    "atlas": "",
+    "rect": [
+      0,
+      50,
+      577,
+      79
+    ],
+    "offset": [
+      -7.5,
+      -1
+    ],
+    "originalSize": [
+      592,
+      177
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
