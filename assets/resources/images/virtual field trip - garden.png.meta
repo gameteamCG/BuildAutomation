@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "0aeed926-c877-456b-b32a-1ca065cc4312",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1046,
+  "height": 361,
+  "platformSettings": {},
+  "subMetas": {
+    "virtual field trip - garden": {
+      "ver": "1.0.6",
+      "uuid": "e198f453-4f1d-40ee-ac59-7b42478b8f25",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0aeed926-c877-456b-b32a-1ca065cc4312",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -6,
+      "offsetY": -3.5,
+      "trimX": 1,
+      "trimY": 8,
+      "width": 1032,
+      "height": 352,
+      "rawWidth": 1046,
+      "rawHeight": 361,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
