@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "puzzle back",
+    "texture": "36a2e187-6fcc-48ad-aa1b-6f9224ee237f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      517,
+      517
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      517,
+      517
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
