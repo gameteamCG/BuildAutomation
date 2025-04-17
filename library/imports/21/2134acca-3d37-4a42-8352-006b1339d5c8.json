@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "road transport",
+    "texture": "c6e72fe0-7acf-4540-92e1-7b0a3dc2d227",
+    "atlas": "",
+    "rect": [
+      1,
+      8,
+      674,
+      347
+    ],
+    "offset": [
+      -6,
+      -3
+    ],
+    "originalSize": [
+      688,
+      357
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

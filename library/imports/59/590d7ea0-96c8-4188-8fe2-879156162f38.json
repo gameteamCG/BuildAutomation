@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grandmas house",
+    "texture": "c4d3aad2-d55f-4733-a384-43cb5996a0b3",
+    "atlas": "",
+    "rect": [
+      18,
+      26,
+      464,
+      449
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

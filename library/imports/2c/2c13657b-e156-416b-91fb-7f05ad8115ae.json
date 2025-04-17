@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "london",
+    "texture": "32a6743a-7aba-46f2-b62f-2c935026f880",
+    "atlas": "",
+    "rect": [
+      30,
+      84,
+      441,
+      332
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

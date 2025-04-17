@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "birthday party",
+    "texture": "531291e9-1315-41fa-b870-294c971c7374",
+    "atlas": "",
+    "rect": [
+      21,
+      21,
+      458,
+      459
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
