@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Yarn",
+    "texture": "15934f50-333c-43a5-b9c1-7687cbcca332",
+    "atlas": "",
+    "rect": [
+      54,
+      139,
+      393,
+      223
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
