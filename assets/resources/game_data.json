@@ -1,0 +1,41 @@
+{
+  "additionalData": {
+    "GameID": "Land transport_LKG_GA_100",
+    "totalLevel": "3",
+    "TitleImageName": "land transport_1.png",
+    "introBgName": "LKG.png",
+    "bgmMusicName": "bgm.mp3",
+    "initialVOName": "",
+    "mainBgName": "bg.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "Car",
+      "questionImageName": "",
+      "questionAudioName": "car.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "1_0008_Layer-1.png",
+      "needMoreTools": false,
+      "correctAudioName": "EXCELLENTJOB.mp3"
+    },
+    {
+      "questionText": "Bus",
+      "questionImageName": "",
+      "questionAudioName": "bus.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "1_0011_Layer-1.png",
+      "needMoreTools": false,
+      "correctAudioName": "EXCEPTIONAL.mp3"
+    },
+    {
+      "questionText": "Truck",
+      "questionImageName": "",
+      "questionAudioName": "trk.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "1_0010_Layer-1.png",
+      "needMoreTools": false,
+      "correctAudioName": "GOODEFFORT.mp3"
+    }
+  ]
+}
