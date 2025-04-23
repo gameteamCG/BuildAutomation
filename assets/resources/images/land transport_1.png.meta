@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "fc65967b-7271-40d4-9846-95efb5c02c16",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 524,
+  "height": 208,
+  "platformSettings": {},
+  "subMetas": {
+    "land transport_1": {
+      "ver": "1.0.6",
+      "uuid": "1acbb397-cacc-4e6b-853e-74418ce9400f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "fc65967b-7271-40d4-9846-95efb5c02c16",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 1.5,
+      "trimX": 3,
+      "trimY": 7,
+      "width": 517,
+      "height": 191,
+      "rawWidth": 524,
+      "rawHeight": 208,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
