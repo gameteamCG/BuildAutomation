@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "land transport_1",
+    "texture": "0722b97c-91fa-48a3-afcc-b1d14fb2ebbc",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      517,
+      191
+    ],
+    "offset": [
+      -0.5,
+      1.5
+    ],
+    "originalSize": [
+      524,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
