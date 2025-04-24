@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Good-luck",
+    "texture": "1aa2460b-71b7-4c0e-b0c6-e79b2052c033",
+    "atlas": "",
+    "rect": [
+      48,
+      28,
+      174,
+      183
+    ],
+    "offset": [
+      1,
+      4.5
+    ],
+    "originalSize": [
+      268,
+      248
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
