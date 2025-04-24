@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "You are special_Class2_SCIS",
+      "totalLevel": "1",
+      "TitleImageName": "drawpicture.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "initialVOName": "",
+      "mainBgName": "artbackground3.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "picture of yourself",
+        "questionImageName": "blankframe.png",
+        "questionAudioName": "Draw_parts_of_your_face_to_complete_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "outline.png",
+        "needMoreTools": true,
+        "correctAudioName": "FANTASTIC.mp3"
+      }
+    ]
+  }
+}
