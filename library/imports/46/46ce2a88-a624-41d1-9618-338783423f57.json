@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "principalsoffice",
+    "texture": "eadc79b0-6dcc-4400-9654-ae04ebe0a885",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      312,
+      312
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      312,
+      312
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
