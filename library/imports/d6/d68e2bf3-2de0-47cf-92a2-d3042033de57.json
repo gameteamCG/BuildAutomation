@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "try-his-best",
+    "texture": "21912a3d-8189-454d-9901-4f9303a871e3",
+    "atlas": "",
+    "rect": [
+      16,
+      54,
+      229,
+      122
+    ],
+    "offset": [
+      -3.5,
+      9
+    ],
+    "originalSize": [
+      268,
+      248
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
