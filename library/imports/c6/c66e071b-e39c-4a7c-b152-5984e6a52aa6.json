@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "0001_summer_cloth7",
+    "texture": "a2dc807a-9ca8-47ea-b453-ca5e1a2ab29c",
+    "atlas": "",
+    "rect": [
+      131,
+      74,
+      324,
+      348
+    ],
+    "offset": [
+      43,
+      2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

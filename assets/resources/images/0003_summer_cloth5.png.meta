@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "35da135b-c730-46f5-89e5-a89c72848be4",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "0003_summer_cloth5": {
+      "ver": "1.0.6",
+      "uuid": "02bb79ed-7cff-487d-b4d9-f108f2cb7189",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "35da135b-c730-46f5-89e5-a89c72848be4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 43,
+      "offsetY": 2,
+      "trimX": 127,
+      "trimY": 113,
+      "width": 332,
+      "height": 270,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

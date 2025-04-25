@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "winterjacket",
+    "texture": "b35f03b9-9458-41a8-8f6e-825a323e8cd2",
+    "atlas": "",
+    "rect": [
+      130,
+      84,
+      350,
+      312
+    ],
+    "offset": [
+      55,
+      10
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

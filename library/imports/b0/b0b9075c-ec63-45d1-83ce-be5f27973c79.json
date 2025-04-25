@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spring1",
+    "texture": "4513cbe1-4237-4c31-abca-f0fb9bb7ab36",
+    "atlas": "",
+    "rect": [
+      10,
+      49,
+      407,
+      407
+    ],
+    "offset": [
+      -36.5,
+      -2.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
