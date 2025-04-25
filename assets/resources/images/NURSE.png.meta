@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "14f1b59f-4967-40cb-9d6b-1acf0ef2bfbe",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1921,
+  "height": 1081,
+  "platformSettings": {},
+  "subMetas": {
+    "NURSE": {
+      "ver": "1.0.6",
+      "uuid": "19febffd-8abd-43fe-9f2c-ec66852169bd",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "14f1b59f-4967-40cb-9d6b-1acf0ef2bfbe",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1921,
+      "height": 1081,
+      "rawWidth": 1921,
+      "rawHeight": 1081,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
