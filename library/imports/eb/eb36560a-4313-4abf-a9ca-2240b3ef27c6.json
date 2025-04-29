@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "phases",
+    "texture": "dce5e28a-193f-4271-83d2-a9a8d94eea62",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      501,
+      266
+    ],
+    "offset": [
+      0,
+      2
+    ],
+    "originalSize": [
+      501,
+      270
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
