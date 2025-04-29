@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blankbox350",
+    "texture": "7299352f-ea55-412a-a70c-c0af269b9b10",
+    "atlas": "",
+    "rect": [
+      7,
+      11,
+      342,
+      335
+    ],
+    "offset": [
+      3,
+      -3.5
+    ],
+    "originalSize": [
+      350,
+      350
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
