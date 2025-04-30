@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0004_bittergourd",
+    "texture": "86566d9e-1959-48fd-b4af-45963fb015da",
+    "atlas": "",
+    "rect": [
+      0,
+      124,
+      500,
+      252
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

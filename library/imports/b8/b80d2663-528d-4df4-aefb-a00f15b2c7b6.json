@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0000_kale",
+    "texture": "eef4dbef-10a4-4875-b7da-c851617bc0e4",
+    "atlas": "",
+    "rect": [
+      0,
+      71,
+      500,
+      380
+    ],
+    "offset": [
+      0,
+      -11
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
