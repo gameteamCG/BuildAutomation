@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Glasses",
+    "texture": "089559ce-67d0-4c64-8298-0d17c8a33e96",
+    "atlas": "",
+    "rect": [
+      52,
+      155,
+      395,
+      190
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
