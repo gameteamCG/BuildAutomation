@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "broccoli-clipart",
+    "texture": "d5014248-c95a-4e45-b679-3b4271eb0d86",
+    "atlas": "",
+    "rect": [
+      94,
+      91,
+      311,
+      319
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

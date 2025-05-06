@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Consonant_Blends",
+    "texture": "bff40c46-5b30-4d55-866f-d0ddacdce0bc",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      538,
+      192
+    ],
+    "offset": [
+      -5.5,
+      1.5
+    ],
+    "originalSize": [
+      555,
+      209
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

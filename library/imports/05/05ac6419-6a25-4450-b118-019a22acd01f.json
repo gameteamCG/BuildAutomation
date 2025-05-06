@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "crab",
+    "texture": "423d3bf3-c968-4c00-91b4-81ce073ad39f",
+    "atlas": "",
+    "rect": [
+      66,
+      96,
+      367,
+      308
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
