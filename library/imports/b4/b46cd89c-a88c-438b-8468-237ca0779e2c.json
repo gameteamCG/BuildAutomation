@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "14_wasp",
+    "texture": "b00541f9-cca4-4069-9a27-b498fafd185d",
+    "atlas": "",
+    "rect": [
+      34,
+      69,
+      152,
+      127
+    ],
+    "offset": [
+      -15.5,
+      -7
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
