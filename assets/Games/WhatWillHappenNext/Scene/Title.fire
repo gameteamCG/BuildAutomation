@@ -847,8 +847,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 430,
-      "height": 101
+      "width": 97,
+      "height": 126
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -900,7 +900,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "2748fa32-ea46-49d4-9063-89706b1a67b6"
+      "__uuid__": "90bffc5c-0200-4b55-a406-d55fa39c0848"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -1068,8 +1068,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 150,
-      "height": 150
+      "width": 172,
+      "height": 64
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1121,10 +1121,10 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "bd3978e1-28b6-4d66-b481-e0898658bc8e"
+      "__uuid__": "ce91aba4-9241-472e-ae1e-1c2624801c3f"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -3083,8 +3083,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 553.35,
-      "height": 965.59
+      "width": 191.5,
+      "height": 380.87
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3102,8 +3102,8 @@
         0,
         0,
         1,
-        0.3,
-        0.3,
+        1,
+        1,
         1
       ]
     },
@@ -3135,7 +3135,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "idle",
+    "defaultAnimation": "",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -3152,7 +3152,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "4710ae3f-028a-40c2-b817-5bae3edb1d72"
+      "__uuid__": "f7abf195-97ce-4e6c-a384-acf172ea3897"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
@@ -3209,7 +3209,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "fbb9ca0b-3278-42cc-8a1c-a7174f17a495"
+      "__uuid__": "32025f80-3bcd-43e3-8270-d57d3861bc7e"
     },
     "_type": 0,
     "_sizeMode": 1,

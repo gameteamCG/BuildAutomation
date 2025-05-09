@@ -351,9 +351,9 @@ var startGame = /** @class */ (function (_super) {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
-                _this.scheduleOnce(function () {
-                    cc.director.loadScene("1");
-                }, 2);
+                // this.scheduleOnce(() => {
+                //     cc.director.loadScene("1");
+                // }, 2);
             }
         }, 1);
         // this.OnTimer();

@@ -1,5 +1,5 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -830,6 +830,9 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
+        else if (startGame.Instance.jockeyName == "boy") {
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+        }
         // console.log("anim length = ", anim.length);
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
@@ -956,6 +959,9 @@ export default class NewClass extends cc.Component {
             }
             else if (startGame.Instance.jockeyName == "stallion") {
                 anim = ["negative_1", "negative_2"];
+            }
+            else if (startGame.Instance.jockeyName == "boy") {
+                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5"];
             }
 
             let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
