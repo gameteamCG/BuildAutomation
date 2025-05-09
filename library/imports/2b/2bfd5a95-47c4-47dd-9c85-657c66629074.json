@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Civilian awards_Grade 3 (Social Science)_R31_T2",
+      "totalLevel": "6",
+      "TitleImageName": "Asset 34.png",
+      "introBgName": "Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "",
+      "JockeyName": "tortoise"
+    },
+    "questionData": [
+      {
+        "questionText": "Civilian awards",
+        "questionAudioName": "Que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "1.png",
+          "2.png"
+        ],
+        "reiterationAudios": [
+          "1.mp3",
+          "2.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "Bharat Ratna ",
+          "Padma Bhushan"
+        ]
+      },
+      {
+        "questionText": "Civilian awards",
+        "questionAudioName": "Que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "3.png",
+          "4.png"
+        ],
+        "reiterationAudios": [
+          "3.mp3",
+          "4.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "Padma Shri",
+          "Padma Vibhushan"
+        ]
+      },
+      {
+        "questionText": "Civilian awards",
+        "questionAudioName": "Que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "5.png",
+          "6.png"
+        ],
+        "reiterationAudios": [
+          "5.mp3",
+          "6.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "Bharat Ratna",
+          "Padma Bhushan"
+        ]
+      },
+      {
+        "questionText": "Civilian awards",
+        "questionAudioName": "Que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "7.png",
+          "8.png"
+        ],
+        "reiterationAudios": [
+          "7.mp3",
+          "8.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "Padma Shri",
+          "Padma Vibhushan"
+        ]
+      },
+      {
+        "questionText": "Civilian awards",
+        "questionAudioName": "Que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "9.png",
+          "10.png"
+        ],
+        "reiterationAudios": [
+          "9.mp3",
+          "10.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "Bharat Ratna",
+          "Padma Shri"
+        ]
+      },
+      {
+        "questionText": "Civilian awards",
+        "questionAudioName": "Que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "11.png",
+          "12.png"
+        ],
+        "reiterationAudios": [
+          "11.mp3",
+          "12.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "Padma Vibhushan",
+          "Padma Bhushan"
+        ]
+      }
+    ]
+  }
+}
