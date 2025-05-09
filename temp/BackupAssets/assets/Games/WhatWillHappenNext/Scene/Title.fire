@@ -3060,7 +3060,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "corny",
+    "_name": "girl",
     "_objFlags": 0,
     "_parent": {
       "__id__": 63
@@ -3083,8 +3083,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 191.5,
-      "height": 380.87
+      "width": 314.79,
+      "height": 385.98
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3152,7 +3152,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "f7abf195-97ce-4e6c-a384-acf172ea3897"
+      "__uuid__": "2636aed5-a272-46ab-a3d2-d28f1f1534c7"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,

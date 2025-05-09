@@ -786,7 +786,7 @@
     "_lineHeight": 80,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "cff63584-90db-4244-9aa3-ba7bb8db0a73"
+      "__uuid__": "a31b2512-6199-4320-8754-190a4d38e0ee"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -1511,7 +1511,7 @@
     "_lineHeight": 110,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "d9348f57-e185-484c-b22d-019c41022ac4"
+      "__uuid__": "a31b2512-6199-4320-8754-190a4d38e0ee"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -2116,8 +2116,40 @@
         "__uuid__": "d29dd2e9-c05e-4373-9073-832a638090ff"
       }
     ],
-    "positiveAudio": [],
-    "negativeAudio": [],
+    "positiveAudio": [
+      {
+        "__uuid__": "9903282d-98a7-457b-95a4-358ab64b97d3"
+      },
+      {
+        "__uuid__": "5942b33e-b6d7-4519-a6ae-51cf9519b87b"
+      },
+      {
+        "__uuid__": "944f4bf0-57bb-42b7-9830-e02e9a9faf0f"
+      },
+      {
+        "__uuid__": "92635a2b-a2db-41e8-8ce7-678dc848b1a3"
+      },
+      {
+        "__uuid__": "02ab6b88-945b-4287-b0cb-0e1619a84ed6"
+      }
+    ],
+    "negativeAudio": [
+      {
+        "__uuid__": "a59cd3f7-2354-4aea-8617-1c5b88473103"
+      },
+      {
+        "__uuid__": "37990697-b9b7-47ae-a368-d22e24a423ba"
+      },
+      {
+        "__uuid__": "e7b845fa-928a-4303-bcd7-f7bdb24019ab"
+      },
+      {
+        "__uuid__": "fd3a8761-4c01-4e6d-bbcd-adf4354018c1"
+      },
+      {
+        "__uuid__": "d7849d21-bb23-4bec-8b9a-38902dd9a8dc"
+      }
+    ],
     "stallionPositive": [],
     "stallionNegative": [],
     "bagPositive": [

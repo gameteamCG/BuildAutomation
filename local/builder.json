@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "D:\\devTesting\\AutomationTemplate\\SimpleTap_boy",
+  "buildPath": "C:\\Users\\Dell\\Documents\\cocos_builds\\SimpleTapAutomation_PIETgirl",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
