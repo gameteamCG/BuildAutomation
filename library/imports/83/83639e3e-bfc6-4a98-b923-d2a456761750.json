@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "loading bar_2",
+    "texture": "6e5577eb-30bb-4d94-a4ee-e3dc4636256a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      130,
+      27
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      130,
+      27
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

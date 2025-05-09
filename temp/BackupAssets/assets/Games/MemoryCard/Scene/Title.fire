@@ -508,7 +508,7 @@
     "_custom": true,
     "_file": null,
     "_spriteFrame": {
-      "__uuid__": "13b5d392-e897-4f00-ab60-e1b11723a6e7"
+      "__uuid__": "83736d02-ed3c-4914-8bd0-12c378d6b7d9"
     },
     "_texture": null,
     "_stopped": true,
@@ -671,7 +671,7 @@
     "_custom": true,
     "_file": null,
     "_spriteFrame": {
-      "__uuid__": "3c25c41b-ed29-4f3c-945d-1d1ffbd41197"
+      "__uuid__": "069d32cf-bd60-4867-88a7-d13f9e74581d"
     },
     "_texture": null,
     "_stopped": true,
@@ -847,8 +847,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 430,
-      "height": 101
+      "width": 97,
+      "height": 126
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -900,7 +900,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "46030553-b1e4-4c38-9b58-926b6962c105"
+      "__uuid__": "4555118a-b80c-4e6e-9a96-a6349d48ef50"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -964,8 +964,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 150,
-      "height": 150
+      "width": 172,
+      "height": 64
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1017,10 +1017,10 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "1247900b-99cf-4cfd-87b8-b9f32323b127"
+      "__uuid__": "1d75a0a5-e288-4582-b6ea-4073f2a09988"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -2956,7 +2956,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "corny",
+    "_name": "boy",
     "_objFlags": 0,
     "_parent": {
       "__id__": 61
@@ -2981,8 +2981,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 553.35,
-      "height": 965.59
+      "width": 913.96,
+      "height": 881.38
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3000,8 +3000,8 @@
         0,
         0,
         1,
-        0.3,
-        0.3,
+        0.75,
+        0.75,
         1
       ]
     },
@@ -3033,7 +3033,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "idle",
+    "defaultAnimation": "",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -3050,7 +3050,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "646220cc-3131-411d-8c33-ec463d2f51dc"
+      "__uuid__": "29e3fd3e-bf74-4d4c-b10c-9086ee9a4ea7"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
@@ -3114,7 +3114,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "fbb9ca0b-3278-42cc-8a1c-a7174f17a495"
+      "__uuid__": "7f7d2f52-e195-4eb5-8af6-6b927a304095"
     },
     "_type": 0,
     "_sizeMode": 1,

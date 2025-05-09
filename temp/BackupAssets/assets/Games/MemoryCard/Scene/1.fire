@@ -2014,8 +2014,40 @@
         "__uuid__": "d29dd2e9-c05e-4373-9073-832a638090ff"
       }
     ],
-    "positiveAudio": [],
-    "negativeAudio": [],
+    "positiveAudio": [
+      {
+        "__uuid__": "2468a042-875c-433e-be7c-19f52f110515"
+      },
+      {
+        "__uuid__": "345e7349-34f0-4cb4-b698-8d7706340bcf"
+      },
+      {
+        "__uuid__": "71919d59-f97b-4189-8b34-41a404f4b290"
+      },
+      {
+        "__uuid__": "a06cb284-952c-4eaf-aef3-9b65a5084cd3"
+      },
+      {
+        "__uuid__": "7962c350-88ce-43b6-80ca-e602df71523a"
+      }
+    ],
+    "negativeAudio": [
+      {
+        "__uuid__": "2b0072f6-1dc8-44e2-bcd3-8863e4a97d2a"
+      },
+      {
+        "__uuid__": "ccc3612a-d785-4aac-959b-69764062f62d"
+      },
+      {
+        "__uuid__": "2d04b78f-e6b8-46a8-88cf-159602f7d58f"
+      },
+      {
+        "__uuid__": "24af48c7-4ca2-4a3b-b968-e135ac90db7d"
+      },
+      {
+        "__uuid__": "3a4277c3-e1c2-4e03-9a8d-0daf5466a68a"
+      }
+    ],
     "stallionPositive": [],
     "stallionNegative": [],
     "bagPositive": [

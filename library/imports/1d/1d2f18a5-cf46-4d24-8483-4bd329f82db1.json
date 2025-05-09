@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "end button",
+    "texture": "c7428ada-63d4-4342-bbad-3adbdef7926a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      351,
+      156
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      351,
+      156
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
