@@ -6,9 +6,9 @@
       "url": "app://editor/index.html",
       "windowType": "dockable",
       "x": 0,
-      "y": 26,
-      "width": 1440,
-      "height": 807,
+      "y": 110,
+      "width": 1139,
+      "height": 723,
       "layout": {
         "type": "dock-h",
         "children": [
@@ -107,7 +107,7 @@
       "x": 0,
       "y": 25,
       "width": 1440,
-      "height": 814
+      "height": 809
     }
   },
   "panelLabelWidth": {}

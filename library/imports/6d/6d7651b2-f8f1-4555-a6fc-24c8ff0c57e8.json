@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "winter",
+    "texture": "d2a5dc9e-2b74-42c0-a328-2b211f5dd713",
+    "atlas": "",
+    "rect": [
+      50,
+      67,
+      366,
+      366
+    ],
+    "offset": [
+      -17.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

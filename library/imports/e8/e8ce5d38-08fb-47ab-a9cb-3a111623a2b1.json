@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "woolencap",
+    "texture": "0d28b6b9-ac89-4833-9453-06e3351653b8",
+    "atlas": "",
+    "rect": [
+      110,
+      125,
+      270,
+      253
+    ],
+    "offset": [
+      -5.5,
+      -1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

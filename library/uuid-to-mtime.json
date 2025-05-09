@@ -2973,5 +2973,160 @@
     "asset": 1746513009852,
     "meta": 1746527844663,
     "relativePath": "Framework/Prefabs/ProgressBar/ProgressBar/ProgressBar"
+  },
+  "ef03234e-9036-488e-bedb-a6b164ecad3c": {
+    "asset": 1746530797028,
+    "meta": 1746530797030,
+    "relativePath": "resources/images"
+  },
+  "31289768-7a9b-4d9c-bebe-bb9fb5b23672": {
+    "asset": 1746530797016,
+    "meta": 1746530797033,
+    "relativePath": "resources/game_data.json"
+  },
+  "ecbf7708-8df6-4d83-9581-a1d692f7ab83": {
+    "asset": 1746530797020,
+    "meta": 1746530797051,
+    "relativePath": "resources/images/puzzle2.png"
+  },
+  "df97c649-ca70-4b34-a69a-f6a86696898e": {
+    "asset": 1746530797019,
+    "meta": 1746530797058,
+    "relativePath": "resources/images/puzzle1.png"
+  },
+  "63b161d3-5042-4add-87a0-d05ac7e4c820": {
+    "asset": 1746530797021,
+    "meta": 1746530797064,
+    "relativePath": "resources/images/slippers.png"
+  },
+  "0936c1a1-92bc-4594-a6f3-8aeb52b46be3": {
+    "asset": 1746530797019,
+    "meta": 1746530797065,
+    "relativePath": "resources/images/bodylotion.png"
+  },
+  "2388d827-3608-4ac7-9510-dfde15cbeacc": {
+    "asset": 1746530797019,
+    "meta": 1746530797066,
+    "relativePath": "resources/images/cottonclothes.png"
+  },
+  "5578027c-1d42-423c-8b41-e10217507332": {
+    "asset": 1746530797022,
+    "meta": 1746530797074,
+    "relativePath": "resources/images/sun.png"
+  },
+  "8f75ac5c-8556-4fed-ab97-94dc7efcde8a": {
+    "asset": 1746530797020,
+    "meta": 1746530797079,
+    "relativePath": "resources/images/title3.png"
+  },
+  "69c855cd-c5f9-408e-b8e4-1db74cc87019": {
+    "asset": 1746530797019,
+    "meta": 1746530797081,
+    "relativePath": "resources/images/sunglasses.png"
+  },
+  "0f114f20-a38f-4af5-b1ef-5cf1e62bcd7d": {
+    "asset": 1746530797019,
+    "meta": 1746530797081,
+    "relativePath": "resources/audios"
+  },
+  "74ab876d-48f1-41ee-b2bb-bdd002c42d26": {
+    "asset": 1746530797024,
+    "meta": 1746530797095,
+    "relativePath": "resources/images/outdoorBG.png"
+  },
+  "7dae6910-6317-4f25-b073-e06485e88d14": {
+    "asset": 1746530797021,
+    "meta": 1746530797097,
+    "relativePath": "resources/images/sweaters.png"
+  },
+  "6ce69f70-a12b-4a42-9082-ba567be86058": {
+    "asset": 1746530797020,
+    "meta": 1746530797098,
+    "relativePath": "resources/images/sunscreen.png"
+  },
+  "d2a5dc9e-2b74-42c0-a328-2b211f5dd713": {
+    "asset": 1746530797022,
+    "meta": 1746530797099,
+    "relativePath": "resources/images/winter.png"
+  },
+  "b9983f5f-1bd9-4583-a4be-9ef82856cdef": {
+    "asset": 1746530797023,
+    "meta": 1746530797100,
+    "relativePath": "resources/images/NURSE.png"
+  },
+  "0d28b6b9-ac89-4833-9453-06e3351653b8": {
+    "asset": 1746530797022,
+    "meta": 1746530797112,
+    "relativePath": "resources/images/woolencap.png"
+  },
+  "35fe5343-e2cf-481c-931d-3b01fdf27e0e": {
+    "asset": 1746530797022,
+    "meta": 1746530797113,
+    "relativePath": "resources/images/woolensocks.png"
+  },
+  "d947bcb6-c370-41f1-b62d-ec74278d6d70": {
+    "asset": 1746530797022,
+    "meta": 1746530797399,
+    "relativePath": "resources/audios/matchtheobjecteus.mp3"
+  },
+  "dab64503-d074-4ac4-9de6-5b8d72856595": {
+    "asset": 1746530797022,
+    "meta": 1746530797399,
+    "relativePath": "resources/audios/matchtheitemyouwea.mp3"
+  },
+  "600c2157-a742-47a8-b7cf-40cc43c64066": {
+    "asset": 1746530797022,
+    "meta": 1746530797400,
+    "relativePath": "resources/audios/slipperskeepourfeet.mp3"
+  },
+  "6baa6db1-617c-42d2-88fb-3946d3788412": {
+    "asset": 1746530797022,
+    "meta": 1746530797400,
+    "relativePath": "resources/audios/matchtheobjectweus.mp3"
+  },
+  "3ace2255-084f-4f0c-afb5-84a3727adf7f": {
+    "asset": 1746530797022,
+    "meta": 1746530797401,
+    "relativePath": "resources/audios/matchtheclothesyou.mp3"
+  },
+  "c3a5dbfd-9c79-42f9-a4d5-16571ff6c4b5": {
+    "asset": 1746530797023,
+    "meta": 1746530797401,
+    "relativePath": "resources/audios/lightcottonclothesi.mp3"
+  },
+  "6ad3e865-f718-456a-9ef6-b8c995b2b6ab": {
+    "asset": 1746530797022,
+    "meta": 1746530797402,
+    "relativePath": "resources/audios/bodylotionhelpsok.mp3"
+  },
+  "b611c11d-37d3-49f3-9749-3df14cf90088": {
+    "asset": 1746530797024,
+    "meta": 1746530797402,
+    "relativePath": "resources/audios/bgm2.mp3"
+  },
+  "e2fcc6cb-4b45-4a4f-a7cb-6f4abc182061": {
+    "asset": 1746530797023,
+    "meta": 1746530797406,
+    "relativePath": "resources/audios/sunscreenhelpstopro.mp3"
+  },
+  "c1c11186-009f-444b-9202-13554422901d": {
+    "asset": 1746530797023,
+    "meta": 1746530797407,
+    "relativePath": "resources/audios/sunglasseshelpstopr.mp3"
+  },
+  "1048c706-8ec2-4b5c-80a9-5326ff03f06c": {
+    "asset": 1746530797023,
+    "meta": 1746530797407,
+    "relativePath": "resources/audios/woolensockshelpsto.mp3"
+  },
+  "41d75afd-cb38-40c0-b541-95e35dfac096": {
+    "asset": 1746530797022,
+    "meta": 1746530797408,
+    "relativePath": "resources/audios/woolencapkeepsourh.mp3"
+  },
+  "d0cc6c3e-d22c-45d8-85c3-6397d1f41335": {
+    "asset": 1746530797022,
+    "meta": 1746530797408,
+    "relativePath": "resources/audios/sweatershelpsustos.mp3"
   }
 }

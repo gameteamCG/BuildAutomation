@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Seasonal wear",
+      "totalLevel": "8",
+      "TitleImageName": "title3.png",
+      "introBgName": "NURSE.png",
+      "bgmMusicName": "bgm2.mp3",
+      "mainBgName": "outdoorBG.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "seasonal wear",
+        "questionAudioName": "matchtheclothesyou.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "winter.png"
+        ],
+        "reiterations": [
+          "lightcottonclothesi.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "cottonclothes.png",
+          "sweaters.png"
+        ]
+      },
+      {
+        "questionText": "seasonal wear",
+        "questionAudioName": "matchtheobjecteus.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "sun.png"
+        ],
+        "reiterations": [
+          "sunscreenhelpstopro.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "sunscreen.png",
+          "woolensocks.png"
+        ]
+      },
+      {
+        "questionText": "seasonal wear",
+        "questionAudioName": "matchtheclothesyou.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "winter.png"
+        ],
+        "reiterations": [
+          "sweatershelpsustos.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "sweaters.png",
+          "sunglasses.png"
+        ]
+      },
+      {
+        "questionText": "seasonal wear",
+        "questionAudioName": "matchtheclothesyou.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "winter.png"
+        ],
+        "reiterations": [
+          "woolencapkeepsourh.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "woolencap.png",
+          "sunglasses.png"
+        ]
+      },
+      {
+        "questionText": "seasonal wear",
+        "questionAudioName": "matchtheitemyouwea.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "sun.png"
+        ],
+        "reiterations": [
+          "slipperskeepourfeet.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "slippers.png",
+          "woolencap.png"
+        ]
+      },
+      {
+        "questionText": "seasonal wear",
+        "questionAudioName": "matchtheobjectweus.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "winter.png"
+        ],
+        "reiterations": [
+          "bodylotionhelpsok.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "bodylotion.png",
+          "slippers.png"
+        ]
+      },
+      {
+        "questionText": "seasonal wear",
+        "questionAudioName": "matchtheclothesyou.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "winter.png"
+        ],
+        "reiterations": [
+          "woolensockshelpsto.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "woolensocks.png",
+          "cottonclothes.png"
+        ]
+      },
+      {
+        "questionText": "seasonal wear",
+        "questionAudioName": "matchtheitemyouwea.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "sun.png"
+        ],
+        "reiterations": [
+          "sunglasseshelpstopr.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "sunglasses.png",
+          "woolensocks.png"
+        ]
+      }
+    ]
+  }
+}
