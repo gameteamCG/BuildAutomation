@@ -1,0 +1,193 @@
+{
+  "additionalData": {
+    "GameID": "Life in villages_Grade 3 (Social Science)_R27_T2",
+    "totalLevel": "12",
+    "TitleImageName": "Asset 33.png",
+    "introBgName": "Bg.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "mainBG.png",
+    "JockeyName": "bag"
+  },
+  "questionData": [
+    {
+      "questionText": "Life in villages",
+      "questionAudioName": "Ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "skyscraper",
+        "agriculture",
+        "elevator"
+      ],
+      "correctAudios": [
+        "1.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Life in villages",
+      "questionAudioName": "Ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "airport",
+        "Gymnasium",
+        "Life in villages"
+      ],
+      "correctAudios": [
+        "2.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "Life in villages",
+      "questionAudioName": "Ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "hut",
+        "Luxury hotel",
+        "Helipad"
+      ],
+      "correctAudios": [
+        "3.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Life in villages",
+      "questionAudioName": "Ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "corporate office",
+        "Laser tag arena",
+        "panchayat"
+      ],
+      "correctAudios": [
+        "4.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "Life in villages",
+      "questionAudioName": "Ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "railway station",
+        "Luxury hotel",
+        "shopping center"
+      ],
+      "correctAudios": [
+        "5.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Life in villages",
+      "questionAudioName": "Ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "theme park",
+        "solar panel",
+        "amusement park"
+      ],
+      "correctAudios": [
+        "6.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Life in villages",
+      "questionAudioName": "Ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "Laser tag arena",
+        "well",
+        "Helipad"
+      ],
+      "correctAudios": [
+        "7.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Life in villages",
+      "questionAudioName": "Ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "5-star restaurant",
+        "Gymnasium",
+        "hospital"
+      ],
+      "correctAudios": [
+        "8.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "Life in villages",
+      "questionAudioName": "Ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "fishing",
+        "Luxury hotel",
+        "theme park"
+      ],
+      "correctAudios": [
+        "9.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Life in villages",
+      "questionAudioName": "Ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "subway",
+        "leatherwork",
+        "airport"
+      ],
+      "correctAudios": [
+        "10.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Life in villages",
+      "questionAudioName": "Ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "corporate office",
+        "amusement park",
+        "sarpanch"
+      ],
+      "correctAudios": [
+        "11.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "Life in villages",
+      "questionAudioName": "Ques.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "pottery",
+        "elevator",
+        "shopping center"
+      ],
+      "correctAudios": [
+        "12.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
