@@ -2922,7 +2922,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "boy",
+    "_name": "girl",
     "_objFlags": 0,
     "_parent": {
       "__id__": 59
@@ -2947,8 +2947,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 913.96,
-      "height": 881.38
+      "width": 314.79,
+      "height": 385.98
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3016,7 +3016,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "e193eebb-0c31-4bf1-b5f0-d05a59199129"
+      "__uuid__": "2636aed5-a272-46ab-a3d2-d28f1f1534c7"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
