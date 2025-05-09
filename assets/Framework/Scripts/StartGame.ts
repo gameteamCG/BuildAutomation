@@ -393,9 +393,14 @@ export default class startGame extends cc.Component {
             }
 
             if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
-                // this.scheduleOnce(() => {
-                //     cc.director.loadScene("1");
-                // }, 2);
+                this.scheduleOnce(() => {
+                    cc.director.loadScene("1");
+                }, 2);
+            }
+            if (this.jockeyName != "girl" && this.jockeyName != "boy") {
+                this.scheduleOnce(() => {
+                    cc.director.loadScene("1");
+                }, 2);
             }
         }, 1);
 

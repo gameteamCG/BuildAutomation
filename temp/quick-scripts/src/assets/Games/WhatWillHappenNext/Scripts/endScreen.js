@@ -50,7 +50,7 @@ var NewClass = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "supercub") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
         }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon" || StartGame_1.default.Instance.jockeyName == "penguin" || StartGame_1.default.Instance.jockeyName == "tortoise" || StartGame_1.default.Instance.jockeyName == "muskaan" || StartGame_1.default.Instance.jockeyName == "corny") {
+        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon" || StartGame_1.default.Instance.jockeyName == "penguin" || StartGame_1.default.Instance.jockeyName == "tortoise" || StartGame_1.default.Instance.jockeyName == "muskaan" || StartGame_1.default.Instance.jockeyName == "corny" || StartGame_1.default.Instance.jockeyName == "boy" || StartGame_1.default.Instance.jockeyName == "girl") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
             this.scheduleOnce(function () {
                 _this.node.getChildByName("end").active = true;

@@ -351,9 +351,14 @@ var startGame = /** @class */ (function (_super) {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
-                // this.scheduleOnce(() => {
-                //     cc.director.loadScene("1");
-                // }, 2);
+                _this.scheduleOnce(function () {
+                    cc.director.loadScene("1");
+                }, 2);
+            }
+            if (_this.jockeyName != "girl" && _this.jockeyName != "boy") {
+                _this.scheduleOnce(function () {
+                    cc.director.loadScene("1");
+                }, 2);
             }
         }, 1);
         // this.OnTimer();

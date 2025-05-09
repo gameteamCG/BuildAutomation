@@ -790,8 +790,8 @@
     "relativePath": "Framework\\Prefabs\\StartGame.prefab"
   },
   "09d2c056-078f-4cdd-9ffc-75bc852d559d": {
-    "asset": 1746174859287,
-    "meta": 1746174943790,
+    "asset": 1746776590810,
+    "meta": 1746779377523,
     "relativePath": "Games\\WhatWillHappenNext\\Animation"
   },
   "ad0c8321-8aca-489f-8799-3a914615d4de": {
@@ -800,8 +800,8 @@
     "relativePath": "Framework\\Scenes (Demo)\\IntroSceneSetupDemo.fire"
   },
   "30c8df17-42b2-48e1-99dd-2d8313458aa2": {
-    "asset": 1746174859357,
-    "meta": 1746174943790,
+    "asset": 1746775257791,
+    "meta": 1746779377523,
     "relativePath": "Games\\WhatWillHappenNext\\Assets"
   },
   "ea123c69-8f87-4134-839a-35ec3ae4ccc2": {
@@ -1354,11 +1354,6 @@
     "meta": 1746174944511,
     "relativePath": "Games\\WhatWillHappenNext\\Scripts\\Title.ts"
   },
-  "12188c2b-0d4b-464f-af83-522906b417c5": {
-    "asset": 1746174859377,
-    "meta": 1746174944269,
-    "relativePath": "Games\\WhatWillHappenNext\\Scripts\\endScreen.ts"
-  },
   "ecc793e4-0368-4d2b-844b-75e10c5c7cb4": {
     "asset": 1746174859357,
     "meta": 1746174944498,
@@ -1385,13 +1380,13 @@
     "relativePath": "Games\\WhatWillHappenNext\\Sound\\JockeyVO"
   },
   "cf4e36d8-89d2-4945-a198-67e319127411": {
-    "asset": 1746776906768,
-    "meta": 1746776906794,
+    "asset": 1746780334429,
+    "meta": 1746780334440,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\1.fire"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1746776920137,
-    "meta": 1746776920170,
+    "asset": 1746790967507,
+    "meta": 1746790967519,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\Title.fire"
   },
   "51f71569-6b9e-43a6-9703-1106a9f3d9d1": {
@@ -1400,8 +1395,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\whats next.png"
   },
   "92133877-574e-4eb5-9c58-79f64d3fc3ed": {
-    "asset": 1746775332131,
-    "meta": 1746775332141,
+    "asset": 1746780377425,
+    "meta": 1746780377435,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\endScreen.fire"
   },
   "0de1ef27-6197-41a4-8ab5-319bb65fecab": {
@@ -3459,11 +3454,6 @@
     "meta": 1746775258713,
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\1_PIET\\Jockey\\Girl\\output\\boy0001.png"
   },
-  "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
-    "asset": 1746775437702,
-    "meta": 1746775439489,
-    "relativePath": "Framework\\Scripts\\StartGame.ts"
-  },
   "13b90edb-5106-418a-9093-3f483ddc6130": {
     "asset": 1746776590782,
     "meta": 1746776590877,
@@ -3548,5 +3538,15 @@
     "asset": 1746776823284,
     "meta": 1746776825901,
     "relativePath": "Games\\WhatWillHappenNext\\Scripts\\gameplay.ts"
+  },
+  "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
+    "asset": 1746780281139,
+    "meta": 1746780289442,
+    "relativePath": "Framework\\Scripts\\StartGame.ts"
+  },
+  "12188c2b-0d4b-464f-af83-522906b417c5": {
+    "asset": 1746780330671,
+    "meta": 1746780334194,
+    "relativePath": "Games\\WhatWillHappenNext\\Scripts\\endScreen.ts"
   }
 }
