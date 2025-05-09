@@ -1,0 +1,205 @@
+{
+  "additionalData": {
+    "GameID": "Gallantry awards_Grade 3 (Social Science)_R32_T2",
+    "totalLevel": "12",
+    "TitleImageName": "titl3.png",
+    "introBgName": "Bg.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "tortoise"
+  },
+  "questionData": [
+    {
+      "questionText": "Gallantry awards",
+      "questionImageName": "1.png",
+      "questionAudioName": "Que.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 20.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Kirti Chakra",
+        "Param Vir Chakra",
+        "Sena Medal"
+      ],
+      "correctAudioName": "1.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Gallantry awards",
+      "questionImageName": "2.png",
+      "questionAudioName": "Que.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 20.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Maha Vir Chakra",
+        "Vir Chakra",
+        "Ashoka Chakra"
+      ],
+      "correctAudioName": "2.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Gallantry awards",
+      "questionImageName": "3.png",
+      "questionAudioName": "Que.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 20.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Shaurya Chakra",
+        "Vir Chakra",
+        "Param Vir Chakra"
+      ],
+      "correctAudioName": "3.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Gallantry awards",
+      "questionImageName": "4.png",
+      "questionAudioName": "Que.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 20.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Maha Vir Chakra",
+        "Param Vir Chakra",
+        "Ashoka Chakra"
+      ],
+      "correctAudioName": "4.mp3",
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "Gallantry awards",
+      "questionImageName": "5.png",
+      "questionAudioName": "Que.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 20.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Sena Medal",
+        "Vir Chakra",
+        "Kirti Chakra"
+      ],
+      "correctAudioName": "5.mp3",
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "Gallantry awards",
+      "questionImageName": "6.png",
+      "questionAudioName": "Que.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 20.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Ashoka Chakra",
+        "Shaurya Chakra",
+        "Sena Medal"
+      ],
+      "correctAudioName": "6.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Gallantry awards",
+      "questionImageName": "7.png",
+      "questionAudioName": "Que.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 20.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Param Vir Chakra",
+        "Maha Vir Chakra",
+        "Ashoka Chakra"
+      ],
+      "correctAudioName": "7.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Gallantry awards",
+      "questionImageName": "8.png",
+      "questionAudioName": "Que.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 20.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Maha Vir Chakra",
+        "Param Vir Chakra",
+        "Sena Medal"
+      ],
+      "correctAudioName": "8.mp3",
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "Gallantry awards",
+      "questionImageName": "9.png",
+      "questionAudioName": "Que.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 20.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Vir Chakra",
+        "Ashoka Chakra",
+        "Maha Vir Chakra"
+      ],
+      "correctAudioName": "9.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Gallantry awards",
+      "questionImageName": "10.png",
+      "questionAudioName": "Que.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 20.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Kirti Chakra",
+        "Maha Vir Chakra",
+        "Ashoka Chakra"
+      ],
+      "correctAudioName": "10.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Gallantry awards",
+      "questionImageName": "11.png",
+      "questionAudioName": "Que.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 20.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Kirti Chakra",
+        "Param Vir Chakra",
+        "Sena Medal"
+      ],
+      "correctAudioName": "11.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Gallantry awards",
+      "questionImageName": "12.png",
+      "questionAudioName": "Que.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 20.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "Ashoka Chakra",
+        "Shaurya Chakra",
+        "Vir Chakra"
+      ],
+      "correctAudioName": "12.mp3",
+      "correctAnswerNum": "3"
+    }
+  ]
+}
