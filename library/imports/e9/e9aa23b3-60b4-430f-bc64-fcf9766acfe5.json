@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Electrician",
+    "texture": "14ae381c-50a0-408f-bba6-0e31decc7459",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      957,
+      204
+    ],
+    "offset": [
+      0,
+      10
+    ],
+    "originalSize": [
+      957,
+      224
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
