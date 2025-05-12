@@ -797,7 +797,9 @@ export default class video extends cc.Component {
 				console.log("gameEnded--true");
 				if (
 					startGame.Instance.jockeyName == "bag" ||
-					startGame.Instance.jockeyName == "crayon"
+					startGame.Instance.jockeyName == "crayon" ||
+					startGame.Instance.jockeyName == "boy" ||
+					startGame.Instance.jockeyName == "girl"
 				) {
 					this.node
 						.getParent()
@@ -814,7 +816,9 @@ export default class video extends cc.Component {
 					this.node.active = false;
 					if (
 						startGame.Instance.jockeyName == "bag" ||
-						startGame.Instance.jockeyName == "crayon"
+						startGame.Instance.jockeyName == "crayon" ||
+						startGame.Instance.jockeyName == "boy" ||
+						startGame.Instance.jockeyName == "girl"
 					) {
 						this.node
 							.getParent()
@@ -878,7 +882,7 @@ export default class video extends cc.Component {
 						i <=
 						this.questions[this.currentQuestion].optionTexts
 							.length -
-							1
+						1
 					) {
 						element.active = true;
 						element
@@ -899,7 +903,7 @@ export default class video extends cc.Component {
 					if (
 						i <=
 						this.questions[this.currentQuestion].optionImgs.length -
-							1
+						1
 					) {
 						element.active = true;
 						element

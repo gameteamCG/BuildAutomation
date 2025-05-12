@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dirtyhands",
+    "texture": "f6f255d6-720c-4cfa-a2fe-b682b2b7cfc4",
+    "atlas": "",
+    "rect": [
+      13,
+      34,
+      434,
+      391
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      460,
+      460
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

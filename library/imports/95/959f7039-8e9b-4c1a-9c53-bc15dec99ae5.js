@@ -697,7 +697,9 @@ var video = /** @class */ (function (_super) {
                 console.log("showedScreen--Excellent");
                 console.log("gameEnded--true");
                 if (StartGame_1.default.Instance.jockeyName == "bag" ||
-                    StartGame_1.default.Instance.jockeyName == "crayon") {
+                    StartGame_1.default.Instance.jockeyName == "crayon" ||
+                    StartGame_1.default.Instance.jockeyName == "boy" ||
+                    StartGame_1.default.Instance.jockeyName == "girl") {
                     _this.node
                         .getParent()
                         .getChildByName("gameEnd")
@@ -713,7 +715,9 @@ var video = /** @class */ (function (_super) {
                 _this.scheduleOnce(function () {
                     _this.node.active = false;
                     if (StartGame_1.default.Instance.jockeyName == "bag" ||
-                        StartGame_1.default.Instance.jockeyName == "crayon") {
+                        StartGame_1.default.Instance.jockeyName == "crayon" ||
+                        StartGame_1.default.Instance.jockeyName == "boy" ||
+                        StartGame_1.default.Instance.jockeyName == "girl") {
                         _this.node
                             .getParent()
                             .getChildByName("gameEnd")
