@@ -2116,8 +2116,40 @@
         "__uuid__": "d29dd2e9-c05e-4373-9073-832a638090ff"
       }
     ],
-    "positiveAudio": [],
-    "negativeAudio": [],
+    "positiveAudio": [
+      {
+        "__uuid__": "c5f29e49-0d67-4075-a715-ba0e1caf2b23"
+      },
+      {
+        "__uuid__": "6c0da317-08d0-4c2a-89af-9226861d9778"
+      },
+      {
+        "__uuid__": "f8d2cb16-80bb-40bf-ac37-dd20481262d3"
+      },
+      {
+        "__uuid__": "13f08bc5-14bc-4189-8eb1-d4cfaecd0450"
+      },
+      {
+        "__uuid__": "6b460bbe-fd0f-4ea2-8941-728fa4d6abae"
+      }
+    ],
+    "negativeAudio": [
+      {
+        "__uuid__": "923c675c-ffc1-49de-bd6a-4bec9d079023"
+      },
+      {
+        "__uuid__": "d8c85c1d-74af-40e4-8acb-1e054066fc39"
+      },
+      {
+        "__uuid__": "812414ea-755f-4ee9-8125-608dcc86b8e7"
+      },
+      {
+        "__uuid__": "025e2df9-8c92-4095-bdd7-116356da3b41"
+      },
+      {
+        "__uuid__": "7fb809db-7d2c-4c78-b122-a3b800e5cbd1"
+      }
+    ],
     "stallionPositive": [],
     "stallionNegative": [],
     "bagPositive": [

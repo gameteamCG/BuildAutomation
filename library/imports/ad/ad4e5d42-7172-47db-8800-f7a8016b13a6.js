@@ -782,6 +782,7 @@ var NewClass = /** @class */ (function (_super) {
         }
         // console.log("anim length = ", anim.length);
         var currentClipNum = this.getRandomNumber(0, anim.length - 1);
+        console.log("current Jockey : ", StartGame_1.default.Instance.jockeyName, currentClipNum);
         // console.log("currentClipNum = ", currentClipNum);
         var pos = [-1200, 1200];
         var jockeytween = [-450, 450];

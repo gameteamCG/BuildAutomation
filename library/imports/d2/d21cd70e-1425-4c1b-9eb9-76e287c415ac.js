@@ -350,12 +350,7 @@ var startGame = /** @class */ (function (_super) {
             else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
-            if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
-                _this.scheduleOnce(function () {
-                    cc.director.loadScene("1");
-                }, 2);
-            }
-            if (_this.jockeyName != "girl" && _this.jockeyName != "boy") {
+            if (_this.jockeyName != "bag" && _this.jockeyName != "cryon" && _this.jockeyName != "girl" && _this.jockeyName != "boy") {
                 _this.scheduleOnce(function () {
                     cc.director.loadScene("1");
                 }, 2);

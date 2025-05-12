@@ -25,23 +25,25 @@ export default class NewClass extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon" || startGame.Instance.jockeyName == "penguin" || startGame.Instance.jockeyName == "tortoise" || startGame.Instance.jockeyName == "muskaan" || startGame.Instance.jockeyName == "corny" || startGame.Instance.jockeyName == "boy" || startGame.Instance.jockeyName == "girl") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
-            this.scheduleOnce(() => {
-                this.node.getChildByName("end").active = true;
-            }, 2);
-        }
-
-        this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
+        // if (startGame.Instance.jockeyName == "Podar") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
+        // }
+        // else if (startGame.Instance.jockeyName == "tlc") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
+        // }
+        // else if (startGame.Instance.jockeyName == "supercub") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
+        // }
+        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon" || startGame.Instance.jockeyName == "penguin" || startGame.Instance.jockeyName == "tortoise" || startGame.Instance.jockeyName == "muskaan" || startGame.Instance.jockeyName == "corny" || startGame.Instance.jockeyName == "boy" || startGame.Instance.jockeyName == "girl") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
+        //     this.scheduleOnce(() => {
+        //         this.node.getChildByName("end").active = true;
+        //     }, 2);
+        // }
+        this.scheduleOnce(() => {
+            this.node.getChildByName("end").active = true;
+        }, 2);
+        //this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
     }
 
     start() {
