@@ -1,0 +1,67 @@
+{
+  "AdditionalData": {
+    "GameID": "Myfamily_UN_SCIS",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/MyFamilyNursery_1747213270077.mp4",
+    "TitleImageName": "fm.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "99999999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "motherQ.png",
+      "QuestionAudioName": "idmom.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "motherA.png",
+        "sisA.png"
+      ],
+      "ReiterationAudioName": "mum.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999999999999999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "fatherQ.png",
+      "QuestionAudioName": "idfat.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "motherA.png",
+        "fatherA.png"
+      ],
+      "ReiterationAudioName": "feth.mp3",
+      "CorrectAudioName": "EXCEPTIONAL.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "999999999999999999999999999",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "sisQ.png",
+      "QuestionAudioName": "idsis.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "motherA.png",
+        "sisA.png"
+      ],
+      "ReiterationAudioName": "sisu.mp3",
+      "CorrectAudioName": "GOODEFFORT.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
