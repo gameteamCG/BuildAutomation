@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0017_pyarn",
+    "texture": "843f7e9d-0f14-41e4-8223-edebd4b7c988",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      250,
+      175
+    ],
+    "offset": [
+      0,
+      37.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
