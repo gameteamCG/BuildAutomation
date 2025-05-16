@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "My_family_SCIS",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/fam_1747395789852.mp4",
+      "TitleImageName": "Asset 41.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999999999999999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "momQ.png",
+        "QuestionAudioName": "idmom.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "mom.png",
+          "father.png"
+        ],
+        "ReiterationAudioName": "mum.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999999999999999999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "fatherQ.png",
+        "QuestionAudioName": "idfather.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "mom.png",
+          "father.png"
+        ],
+        "ReiterationAudioName": "futh.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999999999999999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "sisQ.png",
+        "QuestionAudioName": "idsis.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "sis.png",
+          "mom.png"
+        ],
+        "ReiterationAudioName": "INCREDIBLE.mp3",
+        "CorrectAudioName": "",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

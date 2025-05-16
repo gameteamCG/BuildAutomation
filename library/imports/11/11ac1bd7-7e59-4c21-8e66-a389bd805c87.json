@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sisQ",
+    "texture": "e1515402-d2bd-49c7-9242-21b8000fac19",
+    "atlas": "",
+    "rect": [
+      145,
+      217,
+      211,
+      64
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

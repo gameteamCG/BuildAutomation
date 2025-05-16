@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fatherQ",
+    "texture": "d8f1bafe-053b-40f1-a6d3-72ab67a4bd2e",
+    "atlas": "",
+    "rect": [
+      135,
+      217,
+      232,
+      63
+    ],
+    "offset": [
+      0.5,
+      2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
