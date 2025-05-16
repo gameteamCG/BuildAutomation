@@ -1,0 +1,159 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Parts of the body_SCIS",
+      "totalLevel": "5",
+      "TitleImageName": "pb.png",
+      "introBgName": "UKG.png",
+      "bgmMusicName": "bgm3.mp3",
+      "mainBgName": "BGM.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionAudioName": "solvePP.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "coosewordQ.mp3",
+        "commonOptionImageName": "cm.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ear",
+          "eye"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "eye.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvePP.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "ha1.png",
+          "ha2.png",
+          "h3.png",
+          "h4.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "coosewordQ.mp3",
+        "commonOptionImageName": "cm.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "leg",
+          "hand"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "hand.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvePP.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "l1.png",
+          "l2.png",
+          "leg3.png",
+          "leg4.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "coosewordQ.mp3",
+        "commonOptionImageName": "cm.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "legs",
+          "hands"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "legs.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvePP.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "M1.png",
+          "M2.png",
+          "M3.png",
+          "M4.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "coosewordQ.mp3",
+        "commonOptionImageName": "cm.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "mouth",
+          "eye"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "mouth.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvePP.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "n1.png",
+          "n2.png",
+          "n3.png",
+          "n4.png"
+        ],
+        "correctAudioName": "IMPRESSIVEWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "",
+        "commonOptionImageName": "cm.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "ear",
+          "nose"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "nose.mp3"
+      }
+    ]
+  }
+}
