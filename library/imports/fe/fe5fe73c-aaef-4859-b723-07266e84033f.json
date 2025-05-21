@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Healthy and unhealthy habits_SCIS_C2",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/62586908_RAT+ATTACK_LINEUP_1710435389892.mp4",
+      "TitleImageName": "healthyhabits.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q1garbage.png",
+        "QuestionAudioName": "Where_should_we_throw_garbage.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "dustbin.png",
+          "park.png",
+          "road.png",
+          "chair.png"
+        ],
+        "ReiterationAudioName": "BRILLIANT.mp3",
+        "CorrectAudioName": "dustbin.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q2healthy.png",
+        "QuestionAudioName": "Tap_on_the_healthy_habit.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "dirtyclassroom.png",
+          "dirtycloth.png",
+          "nails.png",
+          "cover_mouth.png"
+        ],
+        "ReiterationAudioName": "INCREDIBLE.mp3",
+        "CorrectAudioName": "cover_your_mouth_to_cough.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q2healthy.png",
+        "QuestionAudioName": "Tap_on_the_healthy_habit.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "uncovered_food.png",
+          "nails.png",
+          "wash_your_hands.png",
+          "dirtyclassroom.png"
+        ],
+        "ReiterationAudioName": "MAGNIFICENT.mp3",
+        "CorrectAudioName": "wash_your_hands.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}
