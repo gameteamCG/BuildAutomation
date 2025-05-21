@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "soap",
+    "texture": "7189dffe-e135-4343-b761-91fafbf5a049",
+    "atlas": "",
+    "rect": [
+      92,
+      221,
+      321,
+      122
+    ],
+    "offset": [
+      2,
+      -31.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

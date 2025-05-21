@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "loud",
+    "texture": "27cd1554-0f52-4ef2-a705-8cc2b854bb1c",
+    "atlas": "",
+    "rect": [
+      104,
+      175,
+      274,
+      126
+    ],
+    "offset": [
+      -9.5,
+      12.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chef",
+    "texture": "8f19b611-42bf-4b07-b4cf-8cd5556300d1",
+    "atlas": "",
+    "rect": [
+      91,
+      170,
+      322,
+      125
+    ],
+    "offset": [
+      1.5,
+      18
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
