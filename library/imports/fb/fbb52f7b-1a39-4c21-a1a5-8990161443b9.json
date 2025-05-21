@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Naming words_scis",
+      "totalLevel": "6",
+      "TitleImageName": "nw.png",
+      "introBgName": "UKG.png",
+      "bgmMusicName": "bgm3.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Naming words",
+        "questionImageName": "BASKET.png",
+        "questionAudioName": "idnmQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "PANEL.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "dog",
+          "cat",
+          "fast",
+          "happy"
+        ],
+        "correctAudios": [
+          "dog.mp3",
+          "cat.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionText": "Naming words",
+        "questionImageName": "BASKET.png",
+        "questionAudioName": "idnmQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "PANEL.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "pilot",
+          "loud",
+          "beautiful",
+          "car"
+        ],
+        "correctAudios": [
+          "pilot.mp3",
+          "car.mp3"
+        ],
+        "correctAnswerNum": "14"
+      },
+      {
+        "questionText": "Naming words",
+        "questionImageName": "BASKET.png",
+        "questionAudioName": "idnmQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "PANEL.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "tidy",
+          "quick",
+          "chef",
+          "lion"
+        ],
+        "correctAudios": [
+          "chef.mp3",
+          "lion.mp3"
+        ],
+        "correctAnswerNum": "34"
+      },
+      {
+        "questionText": "Naming words",
+        "questionImageName": "BASKET.png",
+        "questionAudioName": "idnmQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "PANEL.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "bright",
+          "soap",
+          "smooth",
+          "star"
+        ],
+        "correctAudios": [
+          "soap.mp3",
+          "star.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionText": "Naming words",
+        "questionImageName": "BASKET.png",
+        "questionAudioName": "idnmQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "PANEL.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "class",
+          "big",
+          "child",
+          "round"
+        ],
+        "correctAudios": [
+          "class.mp3",
+          "child.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionText": "Naming words",
+        "questionImageName": "BASKET.png",
+        "questionAudioName": "idnmQ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "PANEL.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "swim",
+          "shark",
+          "pen",
+          "write"
+        ],
+        "correctAudios": [
+          "shark.mp3",
+          "pen.mp3"
+        ],
+        "correctAnswerNum": "23"
+      }
+    ]
+  }
+}
