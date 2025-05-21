@@ -1,0 +1,133 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Summer_season_SCIS_options",
+      "totalLevel": "6",
+      "TitleImageName": "summerseason.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Bg2(1).png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "summer season",
+        "questionImageName": "bucket_4.png",
+        "questionAudioName": "what_do_you_wear_to_protect_your_eyes_during_summer_season.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "sunglass.png",
+          "2.png",
+          "4.png",
+          "7.png"
+        ],
+        "correctAudios": [
+          "SUNGLASSES.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "summer season",
+        "questionImageName": "bucket_4.png",
+        "questionAudioName": "q2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "desert.png",
+          "swimming_pool.png",
+          "climb.png",
+          "tent.png"
+        ],
+        "correctAudios": [
+          "SWIMMING_POOL.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "summer season",
+        "questionImageName": "bucket_4.png",
+        "questionAudioName": "q3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "5.png",
+          "cap.png",
+          "6.png",
+          "7.png"
+        ],
+        "correctAudios": [
+          "CAP.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "summer season",
+        "questionImageName": "bucket_4.png",
+        "questionAudioName": "q4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "soup.png",
+          "chicken.png",
+          "icecream.png",
+          "rice.png"
+        ],
+        "correctAudios": [
+          "FRUITS.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "summer season",
+        "questionImageName": "bucket_4.png",
+        "questionAudioName": "q3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "6.png",
+          "summerdress.png",
+          "2.png",
+          "5.png"
+        ],
+        "correctAudios": [
+          "SUMMER_DRESS.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "summer season",
+        "questionImageName": "bucket_4.png",
+        "questionAudioName": "q6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "coffee.png",
+          "tea.png",
+          "soup.png",
+          "coconut_water.png"
+        ],
+        "correctAudios": [
+          "COCONUT_WATER.mp3"
+        ],
+        "correctAnswerNum": "4"
+      }
+    ]
+  }
+}
