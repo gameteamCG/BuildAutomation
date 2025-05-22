@@ -86,7 +86,14 @@ export default class startGame extends cc.Component {
 	timer: number = 0;
 
 	private static instance: startGame = null;
+	@property(cc.Node)
+	playButton: cc.Node = null;
 
+	@property(cc.ProgressBar)
+	loadingBar: cc.ProgressBar = null;
+
+	// @property(cc.AudioClip)
+	// playSound: cc.AudioClip = null;
 	private isLoaded: boolean = false;
 
 	activateHint: boolean = false;
@@ -485,9 +492,21 @@ export default class startGame extends cc.Component {
 	}
 
 	OnPlayBtn(_event: cc.Event) {
-		_event.target.getComponent(cc.Button).interactable = false;
 		cc.audioEngine.playEffect(this.playBtn_audio, false);
-		cc.director.loadScene(this.NextSceneName);
+		this.playButton.active = false;
+		this.loadingBar.node.active = true;
+		cc.director.preloadScene(
+			this.NextSceneName,
+			(current, total) => {
+				this.loadingBar.progress = current / total;
+			},
+			() => {
+				// this.exitTransition.play();
+				// this.scheduleOnce(() => {
+				cc.director.loadScene(this.NextSceneName);
+				// }, this.exitTransition.defaultClip.duration / this.exitTransition.defaultClip.speed);
+			}
+		);
 	}
 
 	OnBack() {
