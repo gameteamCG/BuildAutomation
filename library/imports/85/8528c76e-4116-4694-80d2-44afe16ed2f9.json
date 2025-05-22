@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hospital",
+    "texture": "51c8234a-f5bb-420e-a04e-e7f2c0e5bbbd",
+    "atlas": "",
+    "rect": [
+      8,
+      8,
+      234,
+      233
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

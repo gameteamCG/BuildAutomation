@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "88c7a163-083c-434a-a6c1-92792e55ad98",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1920,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "new loading screen for peet": {
+      "ver": "1.0.6",
+      "uuid": "126706a2-8eeb-4a03-b555-413430f1c361",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "88c7a163-083c-434a-a6c1-92792e55ad98",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1920,
+      "height": 1080,
+      "rawWidth": 1920,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

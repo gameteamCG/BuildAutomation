@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "robbie",
+    "texture": "84e67809-1695-49e0-9847-eaf8ae1e8e57",
+    "atlas": "",
+    "rect": [
+      8,
+      8,
+      234,
+      234
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
