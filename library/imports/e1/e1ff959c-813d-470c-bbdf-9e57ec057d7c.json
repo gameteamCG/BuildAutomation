@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "smokevechiles",
+    "texture": "7e77fef3-f9a4-4207-9346-04dd81146158",
+    "atlas": "",
+    "rect": [
+      20,
+      152,
+      453,
+      206
+    ],
+    "offset": [
+      -4,
+      -4.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

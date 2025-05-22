@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Air pollution : Page 40",
+      "totalLevel": "5",
+      "TitleImageName": "Asset136.png",
+      "introBgName": "bg3.png",
+      "bgmMusicName": "BBgmwhatsnext.mp3",
+      "mainBgName": "mainbg.png",
+      "JockeyName": "girl",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "causes of air pollution",
+        "questionAudioName": "Tapandidentifytheactivitywhichcausesairpollution.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "burninggarbage.png",
+          "platingtrees.png"
+        ],
+        "correctAudios": [
+          "burninggarbage2.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "causes of air pollution",
+        "questionAudioName": "Tapandidentifytheactivitywhichcausesairpollution.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "flyingkite.png",
+          "wildfires.png"
+        ],
+        "correctAudios": [
+          "wildfires.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "causes of air pollution",
+        "questionAudioName": "Tapandidentifytheactivitywhichcausesairpollution.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "industrailsmoke.png",
+          "flyingparachute.png"
+        ],
+        "correctAudios": [
+          "industrialsmoke.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "causes of air pollution",
+        "questionAudioName": "Tapandidentifytheactivitywhichcausesairpollution.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "cycling.png",
+          "smokevechiles.png"
+        ],
+        "correctAudios": [
+          "smokefromvehicles.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "causes of air pollution",
+        "questionAudioName": "Tapandidentifytheactivitywhichcausesairpollution.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "ui.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "chimneysmoke.png",
+          "blowingbubbles.png"
+        ],
+        "correctAudios": [
+          "chimneysmoke.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

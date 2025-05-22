@@ -510,8 +510,8 @@
     "relativePath": "Games"
   },
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1747910406111,
-    "meta": 1747910444199,
+    "asset": 1747910810146,
+    "meta": 1747910890237,
     "relativePath": "resources"
   },
   "47c7a0d5-0378-4e24-a68a-552946845f14": {
@@ -825,8 +825,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Prefabs"
   },
   "23a65137-e041-48e7-b25e-1d6225928cf5": {
-    "asset": 1747910405917,
-    "meta": 1747910445073,
+    "asset": 1747910810621,
+    "meta": 1747910890238,
     "relativePath": "Games\\WhatWillHappenNext\\Scene"
   },
   "e8762127-e059-4606-b3cf-c5bb2652cf3b": {
@@ -1385,8 +1385,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\1.fire"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1747910639702,
-    "meta": 1747910639739,
+    "asset": 1747911368343,
+    "meta": 1747911368362,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\Title.fire"
   },
   "51f71569-6b9e-43a6-9703-1106a9f3d9d1": {
@@ -1395,8 +1395,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\whats next.png"
   },
   "92133877-574e-4eb5-9c58-79f64d3fc3ed": {
-    "asset": 1747910405917,
-    "meta": 1747910447487,
+    "asset": 1747910810622,
+    "meta": 1747910890255,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\endScreen.fire"
   },
   "0de1ef27-6197-41a4-8ab5-319bb65fecab": {
@@ -3080,8 +3080,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\1_PIET\\Script.ts"
   },
   "ad10d428-bbe1-4eb8-a2a0-49f8fbcab60a": {
-    "asset": 1747910405520,
-    "meta": 1747910448644,
+    "asset": 1747910617491,
+    "meta": 1747910890241,
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\1_PIET\\TitleAssets"
   },
   "7df10ff2-a946-45c2-8fa1-93a8a955d9e4": {
@@ -3638,5 +3638,125 @@
     "asset": 1747910617489,
     "meta": 1747910617520,
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\1_PIET\\TitleAssets\\loadingBar.prefab"
+  },
+  "7bab2516-d435-41ec-a9f0-73fc8e2f1842": {
+    "asset": 1747911001075,
+    "meta": 1747911001142,
+    "relativePath": "resources\\images"
+  },
+  "95d78ee8-fa16-42c3-860f-f7291c4d7d3d": {
+    "asset": 1747911001009,
+    "meta": 1747911001249,
+    "relativePath": "resources\\images\\chimneysmoke.png"
+  },
+  "1c27bfc4-65a1-41c4-bd25-ea5f7447e7a3": {
+    "asset": 1747911001008,
+    "meta": 1747911001278,
+    "relativePath": "resources\\images\\blowingbubbles.png"
+  },
+  "b4d23458-838c-44d9-b82c-c422b3cd1785": {
+    "asset": 1747911001009,
+    "meta": 1747911001301,
+    "relativePath": "resources\\images\\flyingkite.png"
+  },
+  "bfc81369-045e-4bbd-9163-d35e68b532cb": {
+    "asset": 1747911001008,
+    "meta": 1747911001304,
+    "relativePath": "resources\\images\\Asset136.png"
+  },
+  "9c43777d-8d4d-48ae-92d9-340528f0dabb": {
+    "asset": 1747911001011,
+    "meta": 1747911001308,
+    "relativePath": "resources\\images\\burninggarbage.png"
+  },
+  "cff796b7-2ec1-4ea2-8add-a1c18c47304e": {
+    "asset": 1747911001011,
+    "meta": 1747911001352,
+    "relativePath": "resources\\images\\cycling.png"
+  },
+  "7e77fef3-f9a4-4207-9346-04dd81146158": {
+    "asset": 1747911001009,
+    "meta": 1747911001371,
+    "relativePath": "resources\\images\\smokevechiles.png"
+  },
+  "6030c03f-25d4-47eb-9256-bc649484fd36": {
+    "asset": 1747911001004,
+    "meta": 1747911001373,
+    "relativePath": "resources\\audios"
+  },
+  "a5b28bb0-ce3e-4f3b-8fff-9c3d9e1cc99f": {
+    "asset": 1747911001009,
+    "meta": 1747911001415,
+    "relativePath": "resources\\images\\ui.png"
+  },
+  "13a0865b-2e17-406e-bfda-1dd3e7b6b94f": {
+    "asset": 1747911001022,
+    "meta": 1747911001422,
+    "relativePath": "resources\\images\\bg3.png"
+  },
+  "e0580162-984a-40c5-8d29-ab4d3ccef359": {
+    "asset": 1747911001009,
+    "meta": 1747911001431,
+    "relativePath": "resources\\images\\industrailsmoke.png"
+  },
+  "df84a8f2-5bf4-49b1-8d03-8ef4b1d814c2": {
+    "asset": 1747911001009,
+    "meta": 1747911001437,
+    "relativePath": "resources\\images\\flyingparachute.png"
+  },
+  "31f74ad5-a2e5-41b3-8fe4-19ec95965003": {
+    "asset": 1747911001013,
+    "meta": 1747911001442,
+    "relativePath": "resources\\images\\platingtrees.png"
+  },
+  "4f2ade7f-787b-4774-8111-82571f7b2f56": {
+    "asset": 1747911001022,
+    "meta": 1747911001511,
+    "relativePath": "resources\\images\\wildfires.png"
+  },
+  "2bcad32d-6f7a-4fd3-a21f-0f8eacdd09cf": {
+    "asset": 1747911001026,
+    "meta": 1747911001519,
+    "relativePath": "resources\\images\\mainbg.png"
+  },
+  "31c57c1f-8a18-4b77-a6bc-6bb72e37a0e6": {
+    "asset": 1747911001011,
+    "meta": 1747911002420,
+    "relativePath": "resources\\audios\\industrialsmoke.mp3"
+  },
+  "9d7436d4-b3d5-454b-9ed6-f6cf46fdb8db": {
+    "asset": 1747911001022,
+    "meta": 1747911002421,
+    "relativePath": "resources\\audios\\smokefromvehicles.mp3"
+  },
+  "c2ad11c9-13b0-4744-8ec0-57d7f0b7a2af": {
+    "asset": 1747911001009,
+    "meta": 1747911002423,
+    "relativePath": "resources\\audios\\burninggarbage2.mp3"
+  },
+  "67e4a226-816d-449d-be4e-da6bdc5e8ea8": {
+    "asset": 1747911001011,
+    "meta": 1747911002424,
+    "relativePath": "resources\\audios\\wildfires.mp3"
+  },
+  "10d939ae-e08e-4dc3-84b7-bb83bac76639": {
+    "asset": 1747911001009,
+    "meta": 1747911002425,
+    "relativePath": "resources\\audios\\chimneysmoke.mp3"
+  },
+  "b36b7bed-cd88-4f80-b2b0-e48df57e8729": {
+    "asset": 1747911001009,
+    "meta": 1747911002434,
+    "relativePath": "resources\\audios\\Tapandidentifytheactivitywhichcausesairpollution.mp3"
+  },
+  "9e50a533-ab3a-48b2-b87f-2a071dc44bfa": {
+    "asset": 1747911001036,
+    "meta": 1747911002440,
+    "relativePath": "resources\\audios\\BBgmwhatsnext.mp3"
+  },
+  "62ba00fb-a13e-47bb-a387-851b1fbe7568": {
+    "asset": 1747911358804,
+    "meta": 1747911359300,
+    "relativePath": "resources\\game_data.json"
   }
 }

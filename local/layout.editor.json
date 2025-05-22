@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 236.8625030517578,
+            "width": 237,
             "height": 762.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 236.8625030517578,
-                "height": 381.38751220703125,
+                "width": 237,
+                "height": 381.8000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 236.8625030517578,
-                "height": 378.2124938964844,
+                "width": 237,
+                "height": 377.8000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 851.4249877929688,
+            "width": 851,
             "height": 762.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 851.4249877929688,
-                "height": 381.38751220703125,
+                "width": 851,
+                "height": 381.8000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 851.4249877929688,
-                "height": 378.2124938964844,
+                "width": 851,
+                "height": 377.8000183105469,
                 "type": "panel",
                 "active": 2,
                 "children": [
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 441.7124938964844,
+            "width": 442,
             "height": 762.6000366210938,
             "type": "panel",
             "active": 0,
@@ -89,7 +89,7 @@
         "node-library"
       ]
     },
-    " common-asset-worker-worker": {}
+    "window-1747911055732": {}
   },
   "panels": {
     "project-settings": {
