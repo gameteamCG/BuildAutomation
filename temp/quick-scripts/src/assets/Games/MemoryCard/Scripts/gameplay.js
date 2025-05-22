@@ -462,6 +462,10 @@ var NewClass = /** @class */ (function (_super) {
             this.positiveAudio = this.supercubPositive;
             this.negativeAudio = this.supercubNegative;
         }
+        else if (StartGame_1.default.Instance.jockeyName == "boy" || StartGame_1.default.Instance.jockeyName == "girl") {
+            this.positiveAudio = this.positiveAudio;
+            this.negativeAudio = this.negativeAudio;
+        }
     };
     NewClass.prototype.shufflePositions = function () {
         for (var i = 0; i < this.node.getChildByName("Option").children.length; i++) {
@@ -615,12 +619,14 @@ var NewClass = /** @class */ (function (_super) {
                 element.getComponent(cc.Button).interactable = true;
             });
             if (globalVariables_1.default.Instance.currentLevel == 1) {
-                var hand = this.node.getChildByName("hand");
-                console.log("answer array num = ", this.answerArray[0]);
-                hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                hand.setPosition(0, -30);
-                hand.setParentWithSamePos(this.node);
-                hand.getComponent(cc.Animation).play();
+                this.scheduleOnce(function () {
+                    var hand = _this.node.getChildByName("hand");
+                    console.log("answer array num = ", _this.answerArray[0]);
+                    hand.setParent(_this.node.getChildByName("Option").getChildByName("1"));
+                    hand.setPosition(0, -30);
+                    hand.setParentWithSamePos(_this.node);
+                    hand.getComponent(cc.Animation).play();
+                }, 1.5);
             }
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc" ||
@@ -645,14 +651,16 @@ var NewClass = /** @class */ (function (_super) {
                         element.getComponent(cc.Button).interactable = true;
                     });
                     if (globalVariables_1.default.Instance.currentLevel == 1) {
-                        var hand = _this.node.getChildByName("hand");
-                        console.log("answer array num = ", _this.answerArray[0]);
-                        hand.setParent(_this.node
-                            .getChildByName("Option")
-                            .getChildByName("1"));
-                        hand.setPosition(0, -30);
-                        hand.setParentWithSamePos(_this.node);
-                        hand.getComponent(cc.Animation).play();
+                        _this.scheduleOnce(function () {
+                            var hand = _this.node.getChildByName("hand");
+                            console.log("answer array num = ", _this.answerArray[0]);
+                            hand.setParent(_this.node
+                                .getChildByName("Option")
+                                .getChildByName("1"));
+                            hand.setPosition(0, -30);
+                            hand.setParentWithSamePos(_this.node);
+                            hand.getComponent(cc.Animation).play();
+                        }, 1.5);
                     }
                 }
                 else {
@@ -674,14 +682,16 @@ var NewClass = /** @class */ (function (_super) {
                                 element.getComponent(cc.Button).interactable = true;
                             });
                             if (globalVariables_1.default.Instance.currentLevel == 1) {
-                                var hand = _this.node.getChildByName("hand");
-                                console.log("answer array num = ", _this.answerArray[0]);
-                                hand.setParent(_this.node
-                                    .getChildByName("Option")
-                                    .getChildByName("1"));
-                                hand.setPosition(0, -30);
-                                hand.setParentWithSamePos(_this.node);
-                                hand.getComponent(cc.Animation).play();
+                                _this.scheduleOnce(function () {
+                                    var hand = _this.node.getChildByName("hand");
+                                    console.log("answer array num = ", _this.answerArray[0]);
+                                    hand.setParent(_this.node
+                                        .getChildByName("Option")
+                                        .getChildByName("1"));
+                                    hand.setPosition(0, -30);
+                                    hand.setParentWithSamePos(_this.node);
+                                    hand.getComponent(cc.Animation).play();
+                                }, 1.5);
                             }
                         }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
                     }, _this.questionSound[0].duration);

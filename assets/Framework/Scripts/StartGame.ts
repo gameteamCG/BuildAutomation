@@ -451,7 +451,7 @@ export default class startGame extends cc.Component {
 					.getChildByName("jaipuria").active = true;
 			}
 
-			if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
+			if (this.jockeyName != "bag" && this.jockeyName != "cryon" && this.jockeyName != "girl" && this.jockeyName != "boy") {
 				this.scheduleOnce(() => {
 					cc.director.loadScene(this.NextSceneName);
 				}, 2);
