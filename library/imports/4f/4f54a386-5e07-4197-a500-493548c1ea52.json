@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rhinoceros",
+    "texture": "275966ce-f276-4673-b087-631ee27910b0",
+    "atlas": "",
+    "rect": [
+      21,
+      224,
+      460,
+      75
+    ],
+    "offset": [
+      0.5,
+      -11
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

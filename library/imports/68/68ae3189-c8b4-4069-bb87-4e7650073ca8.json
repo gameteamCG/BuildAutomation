@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lion",
+    "texture": "f6676068-6e81-47e0-8016-d68e01b28abf",
+    "atlas": "",
+    "rect": [
+      86,
+      190,
+      331,
+      144
+    ],
+    "offset": [
+      1,
+      -11.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+	"AdditionalData": {
+		"GameID": "Nursery_GeneralAwareness_58 : Wild Animals",
+		"VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/1_1739794642598.mp4",
+		"TitleImageName": "Asset 31.png",
+		"IntroAudio1Name": "",
+		"IntroAudio2Name": "",
+		"JockeyName": "boy",
+		"TotalLevel": "6"
+	},
+	"QuestionData": [
+		{
+			"QuestionAppearTime": "",
+			"IsQuestionText": false,
+			"QuestionText": "",
+			"QuestionImageName": "rhinoceros.png",
+			"QuestionAudioName": "1L.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": false,
+			"NumberOfOptions": 2,
+			"Options": ["L1.png", "L8.png"],
+			"ReiterationAudioName": "1R.mp3",
+			"CorrectAudioName": "positive_1.mp3",
+			"WrongAudioName": "negative_1.mp3",
+			"CorrectAnswer": "1"
+		},
+		{
+			"QuestionAppearTime": "",
+			"IsQuestionText": false,
+			"QuestionText": "",
+			"QuestionImageName": "crocodile.png",
+			"QuestionAudioName": "2L.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": false,
+			"NumberOfOptions": 2,
+			"Options": ["L9.png", "L2.png"],
+			"ReiterationAudioName": "2R.mp3",
+			"CorrectAudioName": "positive_2.mp3",
+			"WrongAudioName": "negative_2.mp3",
+			"CorrectAnswer": "2"
+		},
+		{
+			"QuestionAppearTime": "",
+			"IsQuestionText": false,
+			"QuestionText": "",
+			"QuestionImageName": "lion.png",
+			"QuestionAudioName": "3L.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": false,
+			"NumberOfOptions": 2,
+			"Options": ["L6.png", "L3.png"],
+			"ReiterationAudioName": "3R.mp3",
+			"CorrectAudioName": "positive_3.mp3",
+			"WrongAudioName": "negative_1.mp3",
+			"CorrectAnswer": "2"
+		},
+		{
+			"QuestionAppearTime": "",
+			"IsQuestionText": false,
+			"QuestionText": "",
+			"QuestionImageName": "giraffe.png",
+			"QuestionAudioName": "4L.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": false,
+			"NumberOfOptions": 2,
+			"Options": ["L4.png", "L1.png"],
+			"ReiterationAudioName": "4R.mp3",
+			"CorrectAudioName": "positive_4.mp3",
+			"WrongAudioName": "negative_2.mp3",
+			"CorrectAnswer": "1"
+		},
+		{
+			"QuestionAppearTime": "",
+			"IsQuestionText": false,
+			"QuestionText": "",
+			"QuestionImageName": "elephant.png",
+			"QuestionAudioName": "5L.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": false,
+			"NumberOfOptions": 2,
+			"Options": ["L5.png", "L7.png"],
+			"ReiterationAudioName": "5R.mp3",
+			"CorrectAudioName": "positive_5.mp3",
+			"WrongAudioName": "negative_1.mp3",
+			"CorrectAnswer": "1"
+		},
+		{
+			"QuestionAppearTime": "",
+			"IsQuestionText": false,
+			"QuestionText": "",
+			"QuestionImageName": "deer.png",
+			"QuestionAudioName": "6L.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": false,
+			"NumberOfOptions": 2,
+			"Options": ["L7.png", "L6.png"],
+			"ReiterationAudioName": "6R.mp3",
+			"CorrectAudioName": "positive_6.mp3",
+			"WrongAudioName": "negative_2.mp3",
+			"CorrectAnswer": "2"
+		}
+	]
+}
