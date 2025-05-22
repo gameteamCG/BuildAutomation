@@ -2313,7 +2313,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 400,
-      "height": 130
+      "height": 400
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2368,7 +2368,7 @@
     "_N$string": "",
     "_fontSize": 50,
     "_lineHeight": 65,
-    "_enableWrapText": false,
+    "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "b970957a-8551-4be1-a1e0-0c0ef9ee6903"
     },
@@ -5713,7 +5713,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "boy",
+    "_name": "girl",
     "_objFlags": 0,
     "_parent": {
       "__id__": 117
@@ -7862,7 +7862,7 @@
         "__id__": 173
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 181
@@ -7924,7 +7924,7 @@
       "__id__": 166
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 168

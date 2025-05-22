@@ -1,0 +1,88 @@
+{
+	"AdditionalData": {
+		"GameID": "null",
+		"VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/bodyparts.mp4",
+		"TitleImageName": "body-parts.png",
+		"IntroAudio1Name": "",
+		"IntroAudio2Name": "",
+		"JockeyName": "girl",
+		"TotalLevel": "5"
+	},
+	"QuestionData": [
+		{
+			"QuestionAppearTime": "9999",
+			"IsQuestionText": true,
+			"QuestionText": "Which body part helps you to crush food?",
+			"QuestionImageName": "",
+			"QuestionAudioName": "whichbodyhelpscrushfood.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": false,
+			"NumberOfOptions": 2,
+			"Options": ["250x250_0007_teeth.png", "250x250_0002_eyes.png"],
+			"ReiterationAudioName": "teeth.mp3",
+			"CorrectAudioName": "EXCELLENTJOB.mp3",
+			"WrongAudioName": "Oopsietryoncemore.mp3",
+			"CorrectAnswer": "1"
+		},
+		{
+			"QuestionAppearTime": "9999",
+			"IsQuestionText": true,
+			"QuestionText": "How many fingers do we have?",
+			"QuestionImageName": "",
+			"QuestionAudioName": "howmanyfingers.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": true,
+			"NumberOfOptions": 2,
+			"Options": ["2", "10"],
+			"ReiterationAudioName": "10.mp3",
+			"CorrectAudioName": "BRILLIANT.mp3",
+			"WrongAudioName": "ohoh.mp3",
+			"CorrectAnswer": "2"
+		},
+		{
+			"QuestionAppearTime": "9999",
+			"IsQuestionText": true,
+			"QuestionText": "Which body part helps us to walk?",
+			"QuestionImageName": "",
+			"QuestionAudioName": "whichbodypartshelpswalk.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": false,
+			"NumberOfOptions": 2,
+			"Options": ["250x250_0001_neck.png", "250x250_0000_leg.png"],
+			"ReiterationAudioName": "legs.mp3",
+			"CorrectAudioName": "GOODJOB.mp3",
+			"WrongAudioName": "nevermindtryagain.mp3",
+			"CorrectAnswer": "2"
+		},
+		{
+			"QuestionAppearTime": "9999",
+			"IsQuestionText": true,
+			"QuestionText": "What covers our head to protect it from cold?",
+			"QuestionImageName": "",
+			"QuestionAudioName": "whatcoversourhead.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": false,
+			"NumberOfOptions": 2,
+			"Options": ["250x250_0004_elbow.png", "250x250_0006_hair.png"],
+			"ReiterationAudioName": "hair.mp3",
+			"CorrectAudioName": "GREATWORK.mp3",
+			"WrongAudioName": "ohoh.mp3",
+			"CorrectAnswer": "2"
+		},
+		{
+			"QuestionAppearTime": "9999",
+			"IsQuestionText": true,
+			"QuestionText": "Which joint helps us to bend our legs?",
+			"QuestionImageName": "",
+			"QuestionAudioName": "whichjointhelpsbendlegs.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": false,
+			"NumberOfOptions": 2,
+			"Options": ["knee.png", "250x250_0003_ears.png"],
+			"ReiterationAudioName": "knee.mp3",
+			"CorrectAudioName": "FANTASTIC.mp3",
+			"WrongAudioName": "Oopsietryoncemore.mp3",
+			"CorrectAnswer": "1"
+		}
+	]
+}

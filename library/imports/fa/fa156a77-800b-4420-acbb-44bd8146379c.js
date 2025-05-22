@@ -44,7 +44,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.dustImg = null;
         _this.dustTrailImg = null;
         _this.particlesSound = null;
-        _this.data = [new IData_1.IData];
+        _this.data = [new IData_1.IData()];
         _this.question = "";
         _this.textArray = [];
         _this.maxOptions = 7;
@@ -118,18 +118,23 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         // this.fetchData();
         this.scheduleOnce(function () {
-            _this.node.getChildByName("curtain").getComponent(cc.Animation).play();
+            _this.node
+                .getChildByName("curtain")
+                .getComponent(cc.Animation)
+                .play();
         }, 0.5);
         this.node.getChildByName("ThirdNode").active = true;
         //this.answerValues = globalVariables.Instance.answerValues;
         this.Updatedata();
-        var jockeyNode = this.node.getChildByName("podium").getChildByName("Puzzle");
+        var jockeyNode = this.node
+            .getChildByName("podium")
+            .getChildByName("Puzzle");
         jockeyNode.getComponent(cc.Animation).play("titleAnim");
-        jockeyNode.getComponent(cc.Animation).on("finished", (function () {
+        jockeyNode.getComponent(cc.Animation).on("finished", function () {
             // jockeyNode.width = 250;
             // jockeyNode.height = 250;
             _this.jockeyReposition(_this.node.getChildByName("podium"));
-        }), this);
+        }, this);
         cc.director.preloadScene("endScreen");
     };
     NewClass.prototype.start = function () {
@@ -189,8 +194,10 @@ var NewClass = /** @class */ (function (_super) {
                     for (var i = 0; i < _this.node.getChildByName("Options").children.length; i++) {
                         _this.isDone[i] = false;
                     }
-                    _this.node.getChildByName("Options").children.forEach(function (element) {
-                        element.on('touchstart', function (event) {
+                    _this.node
+                        .getChildByName("Options")
+                        .children.forEach(function (element) {
+                        element.on("touchstart", function (event) {
                             if (this.canTouch) {
                                 this.TouchStart(element, event);
                             }
@@ -208,41 +215,66 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.callJockey = function () {
         var _this = this;
         cc.tween(this.node.getChildByName("Jockey"))
-            .to(0.5, { x: 475 }, { easing: 'sineInOut' }).start();
+            .to(0.5, { x: 475 }, { easing: "sineInOut" })
+            .start();
         this.scheduleOnce(function () {
             if (globalVariables_1.default.Instance.currentLevel % 2 == 0) {
-                _this.node.getChildByName("Jockey").getComponent(sp.Skeleton).paused = false;
-                _this.node.getChildByName("Jockey").getComponent(sp.Skeleton).setAnimation(0, "dance", false);
+                _this.node
+                    .getChildByName("Jockey")
+                    .getComponent(sp.Skeleton).paused = false;
+                _this.node
+                    .getChildByName("Jockey")
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, "dance", false);
             }
             else {
-                _this.node.getChildByName("Jockey").getComponent(sp.Skeleton).paused = false;
-                _this.node.getChildByName("Jockey").getComponent(sp.Skeleton).setAnimation(0, "thumbs_up", false);
+                _this.node
+                    .getChildByName("Jockey")
+                    .getComponent(sp.Skeleton).paused = false;
+                _this.node
+                    .getChildByName("Jockey")
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, "thumbs_up", false);
             }
             _this.scheduleOnce(function () {
                 cc.tween(_this.node.getChildByName("Jockey"))
-                    .to(0.5, { x: 1600 }, { easing: 'sineInOut' }).start();
+                    .to(0.5, { x: 1600 }, { easing: "sineInOut" })
+                    .start();
             }, _this.positiveFeedbackSound[globalVariables_1.default.Instance.currentLevel - 2].duration);
         }, 0.5);
     };
     NewClass.prototype.fetchData = function () {
         this.correctAnswerCount = 0;
-        this.maxOptions = this.data[globalVariables_1.default.Instance.currentLevel - 1].totalOptions;
-        this.SubImage = this.data[globalVariables_1.default.Instance.currentLevel - 1].SubImage;
-        this.wrongAnswerLimit = this.data[globalVariables_1.default.Instance.currentLevel - 1].wrongAnswersLimit;
-        this.answers = this.data[globalVariables_1.default.Instance.currentLevel - 1].answers;
-        this.scaleArray = this.data[globalVariables_1.default.Instance.currentLevel - 1].scaleArray;
-        this.positionType = this.data[globalVariables_1.default.Instance.currentLevel - 1].positionType;
-        this.feedbacktype = this.data[globalVariables_1.default.Instance.currentLevel - 1].feedbacktype;
+        this.maxOptions =
+            this.data[globalVariables_1.default.Instance.currentLevel - 1].totalOptions;
+        this.SubImage =
+            this.data[globalVariables_1.default.Instance.currentLevel - 1].SubImage;
+        this.wrongAnswerLimit =
+            this.data[globalVariables_1.default.Instance.currentLevel - 1].wrongAnswersLimit;
+        this.answers =
+            this.data[globalVariables_1.default.Instance.currentLevel - 1].answers;
+        this.scaleArray =
+            this.data[globalVariables_1.default.Instance.currentLevel - 1].scaleArray;
+        this.positionType =
+            this.data[globalVariables_1.default.Instance.currentLevel - 1].positionType;
+        this.feedbacktype =
+            this.data[globalVariables_1.default.Instance.currentLevel - 1].feedbacktype;
         this.totalAnswers = this.answers.length;
-        this.question = this.data[globalVariables_1.default.Instance.currentLevel - 1].question;
-        this.questionSound = this.data[globalVariables_1.default.Instance.currentLevel - 1].questionSound;
-        this.textArray = this.data[globalVariables_1.default.Instance.currentLevel - 1].textArray;
-        this.answerObject = this.data[globalVariables_1.default.Instance.currentLevel - 1].answerObject;
-        this.optionImages = this.data[globalVariables_1.default.Instance.currentLevel - 1].optionAnimationImages;
+        this.question =
+            this.data[globalVariables_1.default.Instance.currentLevel - 1].question;
+        this.questionSound =
+            this.data[globalVariables_1.default.Instance.currentLevel - 1].questionSound;
+        this.textArray =
+            this.data[globalVariables_1.default.Instance.currentLevel - 1].textArray;
+        this.answerObject =
+            this.data[globalVariables_1.default.Instance.currentLevel - 1].answerObject;
+        this.optionImages =
+            this.data[globalVariables_1.default.Instance.currentLevel - 1].optionAnimationImages;
     };
     NewClass.prototype.CheckForIsDone = function (_node) {
         for (var i = 0; i < this.node.getChildByName("Options").children.length; i++) {
-            if (this.node.getChildByName("Options").children[i].name == _node.name) {
+            if (this.node.getChildByName("Options").children[i].name ==
+                _node.name) {
                 this.isDone[i] = true;
             }
         }
@@ -257,7 +289,9 @@ var NewClass = /** @class */ (function (_super) {
         //console.log("touch start : ");
         var isStop = false;
         for (var i = 0; i < this.node.getChildByName("Options").children.length; i++) {
-            if (_node.name == this.node.getChildByName("Options").children[i].name && this.isDone[i]) {
+            if (_node.name ==
+                this.node.getChildByName("Options").children[i].name &&
+                this.isDone[i]) {
                 isStop = true;
                 break;
             }
@@ -271,7 +305,7 @@ var NewClass = /** @class */ (function (_super) {
         if (!isStop) {
             var isCorrect = false;
             for (var i = 0; i < this.answers.length; i++) {
-                if ((parseInt(_node.name) - 1) == this.answers[i]) {
+                if (parseInt(_node.name) - 1 == this.answers[i]) {
                     isCorrect = true;
                     break;
                 }
@@ -286,8 +320,11 @@ var NewClass = /** @class */ (function (_super) {
                 //         this.scaleTween1.stop();
                 //     }
                 // }
-                var audioSource = this.node.getChildByName("audioNode").getComponent(cc.AudioSource);
-                audioSource.clip = this.positiveFeedbackSound[globalVariables_1.default.Instance.currentLevel - 1];
+                var audioSource = this.node
+                    .getChildByName("audioNode")
+                    .getComponent(cc.AudioSource);
+                audioSource.clip =
+                    this.positiveFeedbackSound[globalVariables_1.default.Instance.currentLevel - 1];
                 audioSource.play();
                 // this.scheduleOnce(()=>{
                 //     audioSource.clip = this.ReinforementSound[globalVariables.Instance.currentLevel-2];
@@ -313,7 +350,8 @@ var NewClass = /** @class */ (function (_super) {
                     //}, 0.5);
                 }
                 else if (this.feedbacktype.length == 2) {
-                    this.node.getComponent(cc.AudioSource).clip = this.positiveSound;
+                    this.node.getComponent(cc.AudioSource).clip =
+                        this.positiveSound;
                     this.node.getComponent(cc.AudioSource).play();
                     this.callPositiveFeedback(_node, this.feedbacktype[0]);
                     this.scheduleOnce(function () {
@@ -321,7 +359,8 @@ var NewClass = /** @class */ (function (_super) {
                     }, 0.8);
                 }
                 else if (this.feedbacktype.length == 3) {
-                    this.node.getComponent(cc.AudioSource).clip = this.positiveSound;
+                    this.node.getComponent(cc.AudioSource).clip =
+                        this.positiveSound;
                     this.node.getComponent(cc.AudioSource).play();
                     this.callPositiveFeedback(_node, this.feedbacktype[0]);
                     this.scheduleOnce(function () {
@@ -335,8 +374,11 @@ var NewClass = /** @class */ (function (_super) {
                 this.correctAnswerCount += 1;
             }
             else {
-                var audioSource = this.node.getChildByName("audioNode").getComponent(cc.AudioSource);
-                audioSource.clip = this.negativeFeedbackSound[globalVariables_1.default.Instance.currentLevel - 1];
+                var audioSource = this.node
+                    .getChildByName("audioNode")
+                    .getComponent(cc.AudioSource);
+                audioSource.clip =
+                    this.negativeFeedbackSound[globalVariables_1.default.Instance.currentLevel - 1];
                 audioSource.play();
                 //console.log("wrong is clicked = ",this.isDone);
                 console.log("wrongAnswer--" + globalVariables_1.default.Instance.currentLevel);
@@ -357,7 +399,8 @@ var NewClass = /** @class */ (function (_super) {
             //for level one specific case
             if (this.correctAnswerCount == this.totalAnswers) {
                 globalVariables_1.default.Instance.rightAnswerCount += 1;
-                this.answerValues[globalVariables_1.default.Instance.currentLevel - 1] = true;
+                this.answerValues[globalVariables_1.default.Instance.currentLevel - 1] =
+                    true;
                 levelend = true;
                 this.canTouch = false;
                 //console.log("Level Completed...!!!!!!!!!");
@@ -385,14 +428,23 @@ var NewClass = /** @class */ (function (_super) {
                                 //     .to(0.5, { x: -1200 }, { easing: 'sineInOut' }).start();
                                 _this.destroyRightOptions();
                                 _this.destroyAnswers();
-                                _this.node.getChildByName("bg").getChildByName("glow").getComponent(cc.Animation).stop();
-                                _this.node.getChildByName("bg").getChildByName("glow").active = false;
+                                _this.node
+                                    .getChildByName("bg")
+                                    .getChildByName("glow")
+                                    .getComponent(cc.Animation)
+                                    .stop();
+                                _this.node
+                                    .getChildByName("bg")
+                                    .getChildByName("glow").active = false;
                                 _this.scheduleOnce(function () {
                                     // this.canTouch = true;
                                     _this.isWrong = false;
-                                    globalVariables_1.default.Instance.answerArray = _this.answerValues;
+                                    globalVariables_1.default.Instance.answerArray =
+                                        _this.answerValues;
                                     _this.scheduleOnce(function () {
-                                        console.log("levelComplete--" + (globalVariables_1.default.Instance.currentLevel));
+                                        console.log("levelComplete--" +
+                                            globalVariables_1.default.Instance
+                                                .currentLevel);
                                         cc.director.loadScene("endScreen");
                                     }, 2);
                                 }, 0.5);
@@ -428,7 +480,8 @@ var NewClass = /** @class */ (function (_super) {
         this.node.getComponent(cc.AudioSource).play();
     };
     NewClass.prototype.playQuestionSound = function (name) {
-        this.node.getComponent(cc.AudioSource).clip = this.questionAudio[globalVariables_1.default.Instance.currentLevel - 1];
+        this.node.getComponent(cc.AudioSource).clip =
+            this.questionAudio[globalVariables_1.default.Instance.currentLevel - 1];
         this.node.getComponent(cc.AudioSource).play();
     };
     NewClass.prototype.setScreen = function (type1) {
@@ -451,8 +504,13 @@ var NewClass = /** @class */ (function (_super) {
                 //     .to(0.5, { x: -1200 }, { easing: 'sineInOut' }).start();
                 _this.destroyRightOptions();
                 _this.destroyAnswers();
-                _this.node.getChildByName("bg").getChildByName("glow").getComponent(cc.Animation).stop();
-                _this.node.getChildByName("bg").getChildByName("glow").active = false;
+                _this.node
+                    .getChildByName("bg")
+                    .getChildByName("glow")
+                    .getComponent(cc.Animation)
+                    .stop();
+                _this.node.getChildByName("bg").getChildByName("glow").active =
+                    false;
                 _this.scheduleOnce(function () {
                     // this.canTouch = true;
                     _this.isFirstClick = false;
@@ -468,11 +526,15 @@ var NewClass = /** @class */ (function (_super) {
                         // cc.tween(this.AnswerNode)
                         //     .to(0.5, { y: this.data[globalVariables.Instance.currentLevel-1].answerpositions[0].y }, { easing: 'sineInOut' }).start();
                         _this.scheduleOnce(function () {
-                            for (var i = 0; i < _this.node.getChildByName("Options").children.length; i++) {
+                            for (var i = 0; i <
+                                _this.node.getChildByName("Options").children
+                                    .length; i++) {
                                 _this.isDone[i] = false;
                             }
-                            _this.node.getChildByName("Options").children.forEach(function (element) {
-                                element.on('touchstart', function (event) {
+                            _this.node
+                                .getChildByName("Options")
+                                .children.forEach(function (element) {
+                                element.on("touchstart", function (event) {
                                     if (this.canTouch) {
                                         this.TouchStart(element, event);
                                     }
@@ -483,7 +545,8 @@ var NewClass = /** @class */ (function (_super) {
                                 this.isClicked = true;
                             }, 1);
                             _this.scheduleOnce(function () {
-                                this.playSound(this.questionAudio[globalVariables_1.default.Instance.currentLevel - 1]);
+                                this.playSound(this.questionAudio[globalVariables_1.default.Instance.currentLevel -
+                                    1]);
                             }, _this.popSound.duration);
                         }, 0.1);
                     }, 0.4);
@@ -494,26 +557,44 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.setReinforsementScreen = function (type) {
         var _this = this;
         if (type == "positive") {
-            this.popupTime = this.positiveFeedbackSound[globalVariables_1.default.Instance.currentLevel - 2].duration + this.magicalSound.duration;
+            this.popupTime =
+                this.positiveFeedbackSound[globalVariables_1.default.Instance.currentLevel - 2].duration + this.magicalSound.duration;
             cc.tween(this.node.getChildByName("podium"))
-                .to(0.5, { x: -400 }, { easing: 'sineInOut' }).start();
-            this.node.getChildByName("podium").getChildByName("Puzzle").getComponent(cc.Animation).play("puzzlePositive");
+                .to(0.5, { x: -400 }, { easing: "sineInOut" })
+                .start();
+            this.node
+                .getChildByName("podium")
+                .getChildByName("Puzzle")
+                .getComponent(cc.Animation)
+                .play("puzzlePositive");
             this.node.getChildByName("bg").getChildByName("glow").active = true;
-            this.node.getChildByName("bg").getChildByName("glow").getComponent(cc.Animation).play();
+            this.node
+                .getChildByName("bg")
+                .getChildByName("glow")
+                .getComponent(cc.Animation)
+                .play();
             this.playSound(this.magicalSound);
             cc.tween(this.node.getChildByName("ThirdNode"))
-                .to(0.5, { x: 0 }, { easing: 'sineInOut' }).start();
+                .to(0.5, { x: 0 }, { easing: "sineInOut" })
+                .start();
             cc.tween(this.node.getChildByName("ThirdNode"))
-                .to(0.5, { y: 0 }, { easing: 'sineInOut' }).start();
+                .to(0.5, { y: 0 }, { easing: "sineInOut" })
+                .start();
             for (var i = 0; i < this.maxOptions; i++) {
-                if (this.node.getChildByName("Options").children[i].name && (this.isDone[i])) {
-                    this.node.getChildByName("Options").children[i].getChildByName("right").active = false;
+                if (this.node.getChildByName("Options").children[i].name &&
+                    this.isDone[i]) {
+                    this.node
+                        .getChildByName("Options")
+                        .children[i].getChildByName("right").active = false;
                     cc.tween(this.node.getChildByName("Options").children[i])
-                        .to(0.5, { x: 250 }, { easing: 'sineInOut' }).start();
+                        .to(0.5, { x: 250 }, { easing: "sineInOut" })
+                        .start();
                     cc.tween(this.node.getChildByName("Options").children[i])
-                        .to(0.5, { y: -200 }, { easing: 'sineInOut' }).start();
+                        .to(0.5, { y: -200 }, { easing: "sineInOut" })
+                        .start();
                     cc.tween(this.node.getChildByName("Options").children[i])
-                        .to(0.5, { scale: 1.2 }, { easing: 'sineInOut' }).start();
+                        .to(0.5, { scale: 1.2 }, { easing: "sineInOut" })
+                        .start();
                 }
             }
             this.scheduleOnce(function () {
@@ -521,31 +602,45 @@ var NewClass = /** @class */ (function (_super) {
                 _this.callJockey();
             }, this.magicalSound.duration);
         }
-        else if ("negative") {
+        else if (type == "negative") {
             cc.tween(this.node.getChildByName("podium"))
-                .to(0.5, { x: -400 }, { easing: 'sineInOut' }).start();
-            this.node.getChildByName("podium").getChildByName("Puzzle").getComponent(cc.Animation).play("puzzleNegative");
-            this.popupTime = this.ReinforementSound[globalVariables_1.default.Instance.currentLevel - 1].duration;
+                .to(0.5, { x: -400 }, { easing: "sineInOut" })
+                .start();
+            this.node
+                .getChildByName("podium")
+                .getChildByName("Puzzle")
+                .getComponent(cc.Animation)
+                .play("puzzleNegative");
+            this.popupTime =
+                this.ReinforementSound[globalVariables_1.default.Instance.currentLevel - 1].duration;
             cc.tween(this.node.getChildByName("ThirdNode"))
-                .to(0.5, { x: 0 }, { easing: 'sineInOut' }).start();
+                .to(0.5, { x: 0 }, { easing: "sineInOut" })
+                .start();
             cc.tween(this.node.getChildByName("ThirdNode"))
-                .to(0.5, { y: 0 }, { easing: 'sineInOut' }).start();
+                .to(0.5, { y: 0 }, { easing: "sineInOut" })
+                .start();
             for (var i = 0; i < this.maxOptions; i++) {
-                if (this.node.getChildByName("Options").children[i].name && (this.isDone[i])) {
-                    this.node.getChildByName("Options").children[i].getChildByName("right").active = false;
+                if (this.node.getChildByName("Options").children[i].name &&
+                    this.isDone[i]) {
+                    this.node
+                        .getChildByName("Options")
+                        .children[i].getChildByName("right").active = false;
                     cc.tween(this.node.getChildByName("Options").children[i])
-                        .to(0.5, { x: 250 }, { easing: 'sineInOut' }).start();
+                        .to(0.5, { x: 250 }, { easing: "sineInOut" })
+                        .start();
                     cc.tween(this.node.getChildByName("Options").children[i])
-                        .to(0.5, { y: -200 }, { easing: 'sineInOut' }).start();
+                        .to(0.5, { y: -200 }, { easing: "sineInOut" })
+                        .start();
                     cc.tween(this.node.getChildByName("Options").children[i])
-                        .to(0.5, { scale: 1.2 }, { easing: 'sineInOut' }).start();
+                        .to(0.5, { scale: 1.2 }, { easing: "sineInOut" })
+                        .start();
                 }
             }
             this.scheduleOnce(function () {
                 _this.playSound(_this.ReinforementSound[globalVariables_1.default.Instance.currentLevel - 2]);
             }, 0.5);
         }
-        else if ("none") {
+        else if (type == "none") {
             this.popupTime = 0;
         }
     };
@@ -556,10 +651,16 @@ var NewClass = /** @class */ (function (_super) {
         this.AnswerNode = this.node.getChildByName("ThirdNode");
         this.AnswerNode.opacity = 255;
         this.AnswerNode.scale = 0;
-        this.AnswerNode.x = this.convertXPos(cc.winSize.width * this.data[globalVariables_1.default.Instance.currentLevel - 1].answerpositions[0].x);
-        this.AnswerNode.y = this.convertYPos(cc.winSize.height * this.data[globalVariables_1.default.Instance.currentLevel - 1].answerpositions[0].y);
+        this.AnswerNode.x = this.convertXPos(cc.winSize.width *
+            this.data[globalVariables_1.default.Instance.currentLevel - 1]
+                .answerpositions[0].x);
+        this.AnswerNode.y = this.convertYPos(cc.winSize.height *
+            this.data[globalVariables_1.default.Instance.currentLevel - 1]
+                .answerpositions[0].y);
         // this.updateSprites(this.answerObject,this.node.getChildByName("ThirdNode").getChildByName("AnswerNode"));
-        this.AnswerNode.getChildByName("AnswerNode").getChildByName("Question").getComponent(cc.Label).string = this.question;
+        this.AnswerNode.getChildByName("AnswerNode")
+            .getChildByName("Question")
+            .getComponent(cc.Label).string = this.question;
         // console.log(`QUESTION: `+this.question+`  `+this.AnswerNode.getChildByName(`AnswerNode`).getChildByName(`Question`));
         //this.playSound(this.popSound);
         var _scale = 0.8;
@@ -567,9 +668,11 @@ var NewClass = /** @class */ (function (_super) {
             _scale = 0.8;
         }
         cc.tween(this.AnswerNode)
-            .to(1, { scale: _scale }, { easing: 'sineInOut' }).call(function () {
+            .to(1, { scale: _scale }, { easing: "sineInOut" })
+            .call(function () {
             _this.canTouch = true;
-        }).start();
+        })
+            .start();
     };
     NewClass.prototype.createOptionObject = function (numOfOptions) {
         // console.log("optionOBJECT ::",numOfOptions);
@@ -580,14 +683,21 @@ var NewClass = /** @class */ (function (_super) {
                     this.createdOptions[i].name = (i + 1).toString();
                     // console.log("created options :::::", this.createdOptions[i].name);
                     this.createdOptions[i].opacity = 0;
-                    this.createdOptions[i].children[0].getComponent(cc.Label).string = this.data[globalVariables_1.default.Instance.currentLevel - 1].textArray[i]; //(i+1).toString();
-                    this.node.getChildByName("Options").insertChild(this.createdOptions[i], i);
+                    this.createdOptions[i].children[0].getComponent(cc.Label).string =
+                        this.data[globalVariables_1.default.Instance.currentLevel - 1].textArray[i]; //(i+1).toString();
+                    this.node
+                        .getChildByName("Options")
+                        .insertChild(this.createdOptions[i], i);
                     // this.createdOptions[i].x = 0;
                     this.offsetX = 30;
                     this.createdOptions[i].scale = 0;
                     this.createdOptions[i].opacity = 255;
-                    this.createdOptions[i].x = this.convertXPos(cc.winSize.width * this.data[globalVariables_1.default.Instance.currentLevel - 1].positions[i].x);
-                    this.createdOptions[i].y = this.convertXPos(cc.winSize.width * this.data[globalVariables_1.default.Instance.currentLevel - 1].positions[i].y);
+                    this.createdOptions[i].x = this.convertXPos(cc.winSize.width *
+                        this.data[globalVariables_1.default.Instance.currentLevel - 1]
+                            .positions[i].x);
+                    this.createdOptions[i].y = this.convertXPos(cc.winSize.width *
+                        this.data[globalVariables_1.default.Instance.currentLevel - 1]
+                            .positions[i].y);
                     this.createdOptions[i].active = true;
                     if (this.SubImage == 0) {
                         this.updateSprites(this.optionImages[i], this.createdOptions[i]);
@@ -595,14 +705,25 @@ var NewClass = /** @class */ (function (_super) {
                         //this.optionImages[i],this.createdOptions[i].getChildByName("1").getComponent(cc.Label).fontSize = 90;
                     }
                     else if (this.SubImage == 1) {
-                        this.updateSprites(this.optionImages[i], this.createdOptions[i].getChildByName("image").getChildByName("subSprite"));
+                        this.updateSprites(this.optionImages[i], this.createdOptions[i]
+                            .getChildByName("image")
+                            .getChildByName("subSprite"));
                         //this.optionImages[i],this.createdOptions[i].getChildByName("1").y = -170;
                         //this.optionImages[i],this.createdOptions[i].getChildByName("1").getComponent(cc.Label).fontSize = 70;
                     }
-                    this.optionImages[i], this.createdOptions[i].getChildByName("image").getChildByName("subSprite").width = 550;
-                    this.optionImages[i], this.createdOptions[i].getChildByName("image").getChildByName("subSprite").height = 550;
+                    this.optionImages[i],
+                        (this.createdOptions[i]
+                            .getChildByName("image")
+                            .getChildByName("subSprite").width = 550);
+                    this.optionImages[i],
+                        (this.createdOptions[i]
+                            .getChildByName("image")
+                            .getChildByName("subSprite").height = 550);
                     cc.tween(this.createdOptions[i])
-                        .to(1, { scale: this.data[globalVariables_1.default.Instance.currentLevel - 1].scaleArray[i] }, { easing: 'sineInOut' }).start();
+                        .to(1, {
+                        scale: this.data[globalVariables_1.default.Instance.currentLevel - 1].scaleArray[i],
+                    }, { easing: "sineInOut" })
+                        .start();
                     // if(this.answers.length<=1){
                     //     this.createdOptions[i].getChildByName("tick").active = false;
                     // }
@@ -617,7 +738,7 @@ var NewClass = /** @class */ (function (_super) {
                 break;
             }
             default: {
-                //statements; 
+                //statements;
                 break;
             }
         }
@@ -625,11 +746,14 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.destroyOptions = function () {
         var _this = this;
         var _loop_1 = function (i) {
-            if (this_1.node.getChildByName("Options").children[i].name && (!this_1.isDone[i])) {
+            if (this_1.node.getChildByName("Options").children[i].name &&
+                !this_1.isDone[i]) {
                 cc.tween(this_1.createdOptions[i])
-                    .to(0.5, { scale: 0 }, { easing: 'sineInOut' }).call(function () {
+                    .to(0.5, { scale: 0 }, { easing: "sineInOut" })
+                    .call(function () {
                     _this.createdOptions[i].destroy();
-                }).start();
+                })
+                    .start();
             }
         };
         var this_1 = this;
@@ -641,17 +765,20 @@ var NewClass = /** @class */ (function (_super) {
         //         if(this.node.getChildByName("Options").children[i].name&&(!this.isDone[i])){
         //             this.createdOptions[i].destroy();
         //         }
-        //     } 
+        //     }
         // }, 0.5);
     };
     NewClass.prototype.destroyRightOptions = function () {
         var _this = this;
         var _loop_2 = function (i) {
-            if (this_2.node.getChildByName("Options").children[i].name && (this_2.isDone[i])) {
+            if (this_2.node.getChildByName("Options").children[i].name &&
+                this_2.isDone[i]) {
                 cc.tween(this_2.createdOptions[i])
-                    .to(0.5, { scale: 0 }, { easing: 'sineInOut' }).call(function () {
+                    .to(0.5, { scale: 0 }, { easing: "sineInOut" })
+                    .call(function () {
                     _this.createdOptions[i].destroy();
-                }).start();
+                })
+                    .start();
             }
         };
         var this_2 = this;
@@ -663,21 +790,30 @@ var NewClass = /** @class */ (function (_super) {
         //         if(this.node.getChildByName("Options").children[i].name&&(this.isDone[i])){
         //             this.createdOptions[i].destroy();
         //         }
-        //     } 
+        //     }
         // }, 0.5);
     };
     NewClass.prototype.destroyAnswers = function () {
         if (this.AnswerNode) {
             cc.tween(this.AnswerNode)
-                .to(0.5, { scale: 0 }, { easing: 'sineInOut' }).start();
+                .to(0.5, { scale: 0 }, { easing: "sineInOut" })
+                .start();
             this.scheduleOnce(function () {
                 // this.AnswerNode.destroy();
             }, 0.5);
         }
     };
     NewClass.prototype.setMultipleAnswerEnvironment = function () {
-        this.node.getChildByName("ThirdNode").getChildByName("AnswerNode").getChildByName("Question").getComponent(cc.Label).string = "";
-        this.node.getChildByName("ThirdNode").getChildByName("AnswerNode").getChildByName("Question").getComponent(cc.Label).string = this.question;
+        this.node
+            .getChildByName("ThirdNode")
+            .getChildByName("AnswerNode")
+            .getChildByName("Question")
+            .getComponent(cc.Label).string = "";
+        this.node
+            .getChildByName("ThirdNode")
+            .getChildByName("AnswerNode")
+            .getChildByName("Question")
+            .getComponent(cc.Label).string = this.question;
         // if(this.SubImage==1){
         //     return;
         // }
@@ -702,9 +838,17 @@ var NewClass = /** @class */ (function (_super) {
         //     }
         // });
         // console.log(`njnnnn `+(this.answers[0]+1);
-        optionsNode.getChildByName((this.answers[0] + 1).toString()).getChildByName("right").active = true;
-        cc.tween(optionsNode.getChildByName((this.answers[0] + 1).toString()).getChildByName("right")).to(0.15, { opacity: 0 })
-            .to(0.15, { opacity: 255 }).to(0.15, { opacity: 0 }).to(0.15, { opacity: 255 }).start();
+        optionsNode
+            .getChildByName((this.answers[0] + 1).toString())
+            .getChildByName("right").active = true;
+        cc.tween(optionsNode
+            .getChildByName((this.answers[0] + 1).toString())
+            .getChildByName("right"))
+            .to(0.15, { opacity: 0 })
+            .to(0.15, { opacity: 255 })
+            .to(0.15, { opacity: 0 })
+            .to(0.15, { opacity: 255 })
+            .start();
         // if(node1.name == `1`){
         //     optionsNode.getChildByName(`2`).getChildByName("right").active = true;
         //     cc.tween(optionsNode.getChildByName(`2`).getChildByName("right")).to(0.15,{opacity:0})
@@ -717,16 +861,21 @@ var NewClass = /** @class */ (function (_super) {
         // }
         node1.getChildByName("right").active = false;
         node1.getChildByName("wrong").active = true;
-        node1.getChildByName("image").getChildByName("subSprite").getComponent(cc.Sprite).setMaterial(0, this.greyMat);
+        node1
+            .getChildByName("image")
+            .getChildByName("subSprite")
+            .getComponent(cc.Sprite)
+            .setMaterial(0, this.greyMat);
         node1.getComponent(cc.Sprite).setMaterial(0, this.greyMat);
         cc.tween(node1)
-            .to(0.1, { x: node1.x + 10 }, { easing: 'sineInOut' })
-            .to(0.1, { x: node1.x - 10 }, { easing: 'sineInOut' })
-            .to(0.1, { x: node1.x }, { easing: 'sineInOut' })
-            .to(0.1, { x: node1.x + 10 }, { easing: 'sineInOut' })
-            .to(0.1, { x: node1.x - 10 }, { easing: 'sineInOut' })
-            .to(0.1, { x: node1.x }, { easing: 'sineInOut' }).start();
-        //call negative audio 
+            .to(0.1, { x: node1.x + 10 }, { easing: "sineInOut" })
+            .to(0.1, { x: node1.x - 10 }, { easing: "sineInOut" })
+            .to(0.1, { x: node1.x }, { easing: "sineInOut" })
+            .to(0.1, { x: node1.x + 10 }, { easing: "sineInOut" })
+            .to(0.1, { x: node1.x - 10 }, { easing: "sineInOut" })
+            .to(0.1, { x: node1.x }, { easing: "sineInOut" })
+            .start();
+        //call negative audio
         // this.node.getComponent(cc.AudioSource).clip = this.negativeSound;
         // this.node.getComponent(cc.AudioSource).play();
         //this.playAudio("/sounds/incorrectAnswer");
@@ -758,13 +907,21 @@ var NewClass = /** @class */ (function (_super) {
                             //     .to(0.5, { x: -1200 }, { easing: 'sineInOut' }).start();
                             _this.destroyRightOptions();
                             _this.destroyAnswers();
-                            _this.node.getChildByName("bg").getChildByName("glow").getComponent(cc.Animation).stop();
-                            _this.node.getChildByName("bg").getChildByName("glow").active = false;
+                            _this.node
+                                .getChildByName("bg")
+                                .getChildByName("glow")
+                                .getComponent(cc.Animation)
+                                .stop();
+                            _this.node
+                                .getChildByName("bg")
+                                .getChildByName("glow").active = false;
                             _this.scheduleOnce(function () {
                                 // this.canTouch = true;
                                 _this.isWrong = false;
-                                globalVariables_1.default.Instance.answerArray = _this.answerValues;
-                                console.log("levelComplete--" + (globalVariables_1.default.Instance.currentLevel));
+                                globalVariables_1.default.Instance.answerArray =
+                                    _this.answerValues;
+                                console.log("levelComplete--" +
+                                    globalVariables_1.default.Instance.currentLevel);
                                 cc.director.loadScene("endScreen");
                             }, 0.5);
                         }, _this.popupTime + 0.5);
@@ -776,7 +933,7 @@ var NewClass = /** @class */ (function (_super) {
                     globalVariables_1.default.Instance.currentLevel += 1;
                     _this.setProgressBar();
                     _this.isDone[_this.answers[0]] = true;
-                    // this.setScreen("negative"); 
+                    // this.setScreen("negative");
                     _this.scheduleOnce(function () {
                         _this.setScreen("negative");
                     }, 3);
@@ -792,60 +949,83 @@ var NewClass = /** @class */ (function (_super) {
                 //node1.color = new cc.Color(71, 255, 0);
                 node1.getChildByName("wrong").active = false;
                 node1.getChildByName("right").active = true;
-                this.node.getChildByName("Options").getChildByName("Animal").scale = 1;
-                this.node.getChildByName("Options").getChildByName("Animal").setPosition(node1.x, node1.y);
-                this.node.getChildByName("Options").getChildByName("Animal").getComponent(cc.Animation).play();
+                this.node
+                    .getChildByName("Options")
+                    .getChildByName("Animal").scale = 1;
+                this.node
+                    .getChildByName("Options")
+                    .getChildByName("Animal")
+                    .setPosition(node1.x, node1.y);
+                this.node
+                    .getChildByName("Options")
+                    .getChildByName("Animal")
+                    .getComponent(cc.Animation)
+                    .play();
                 this.scheduleOnce(function () {
                     //this.node.getChildByName("Options").getChildByName("particle").destroy;
                     //this.node.getChildByName("Options").getChildByName("particle").setPosition(-500,-500);
-                    _this.node.getChildByName("Options").getChildByName("Animal").setPosition(-500, -500);
+                    _this.node
+                        .getChildByName("Options")
+                        .getChildByName("Animal")
+                        .setPosition(-500, -500);
                 }, 1);
-                //extra code 
+                //extra code
                 // if(node1.getChildByName("tick").active){
                 //     this.updateSprites("/whiteTick",node1.getChildByName("tick"));
                 // }
                 cc.tween(this.node.getChildByName("Options").getChildByName("Animal"))
-                    .to(0.5, { opacity: 255 }, { easing: 'sineInOut' })
-                    .to(0.5, { opacity: 0 }, { easing: 'sineInOut' }).start();
+                    .to(0.5, { opacity: 255 }, { easing: "sineInOut" })
+                    .to(0.5, { opacity: 0 }, { easing: "sineInOut" })
+                    .start();
                 break;
             }
             case "destroy": {
                 cc.tween(node1)
-                    .to(0.9, { opacity: 1 }, { easing: 'sineInOut' })
-                    .to(0.9, { opacity: 0 }, { easing: 'sineInOut' }).start();
+                    .to(0.9, { opacity: 1 }, { easing: "sineInOut" })
+                    .to(0.9, { opacity: 0 }, { easing: "sineInOut" })
+                    .start();
                 break;
             }
             case "movement_right": {
                 cc.tween(node1)
-                    .to(0.9, { x: node1.x }, { easing: 'sineInOut' })
-                    .to(0.9, { x: this.viewPortWidth + 100 }, { easing: 'sineInOut' }).start();
+                    .to(0.9, { x: node1.x }, { easing: "sineInOut" })
+                    .to(0.9, { x: this.viewPortWidth + 100 }, { easing: "sineInOut" })
+                    .start();
                 break;
             }
             case "movement_left": {
                 cc.tween(node1)
-                    .to(0.2, { x: node1.x }, { easing: 'sineInOut' })
-                    .to(0.2, { x: -100 }, { easing: 'sineInOut' }).start();
+                    .to(0.2, { x: node1.x }, { easing: "sineInOut" })
+                    .to(0.2, { x: -100 }, { easing: "sineInOut" })
+                    .start();
                 break;
             }
             case "movement_top": {
                 cc.tween(node1)
-                    .to(2, { y: this.viewPortHeight + 100 }, { easing: 'sineInOut' }).start();
+                    .to(2, { y: this.viewPortHeight + 100 }, { easing: "sineInOut" })
+                    .start();
                 cc.tween(node1)
-                    .repeatForever(cc.tween().to(0.2, { x: node1.x + 30 }, { easing: 'sineInOut' })
-                    .to(0.2, { x: node1.x }, { easing: 'sineInOut' })).start();
+                    .repeatForever(cc
+                    .tween()
+                    .to(0.2, { x: node1.x + 30 }, { easing: "sineInOut" })
+                    .to(0.2, { x: node1.x }, { easing: "sineInOut" }))
+                    .start();
                 break;
             }
             case "movement_bottom": {
                 //game specific code
                 if (globalVariables_1.default.Instance.currentLevel == 4) {
                     cc.tween(this.node.getChildByName("bg").getChildByName("plate"))
-                        .to(0.5, { x: -280 }, { easing: 'sineInOut' }).start();
+                        .to(0.5, { x: -280 }, { easing: "sineInOut" })
+                        .start();
                 }
                 cc.tween(node1)
-                    .to(0.5, { y: node1.y + 100 }, { easing: 'sineInOut' })
-                    .to(0.5, { y: node1.y - 50 }, { easing: 'sineInOut' }).start();
+                    .to(0.5, { y: node1.y + 100 }, { easing: "sineInOut" })
+                    .to(0.5, { y: node1.y - 50 }, { easing: "sineInOut" })
+                    .start();
                 cc.tween(node1)
-                    .to(0.5, { angle: 360 }, { easing: 'sineInOut' }).start(); //bounceIn
+                    .to(0.5, { angle: 360 }, { easing: "sineInOut" })
+                    .start(); //bounceIn
                 break;
             }
             case "movement_Animation": {
@@ -872,34 +1052,39 @@ var NewClass = /** @class */ (function (_super) {
                 break;
             }
             case "movement_Scale": {
-                var outlineScale = node1.scale + (node1.scale * 30 / 100);
+                var outlineScale = node1.scale + (node1.scale * 30) / 100;
                 // if(node1.scale<=0.7){
                 //     outlineScale = node1.scale+(node1.scale/2);
-                // } 
+                // }
                 // else if(node1.scale>=0.7&&node1.scale<=0.9){
                 //     outlineScale = node1.scale;
-                // } 
+                // }
                 // else{
                 //     outlineScale = node1.scale-0.4;
                 // }
                 //node1.getChildByName("outline").getComponent(cc.Sprite).spriteFrame = this.optionImagesFrame2[parseInt(node1.name)-1];
                 node1.getChildByName("outline").scale = outlineScale;
                 cc.tween(node1.getChildByName("outline"))
-                    .to(0.3, { scale: outlineScale + 0.1 }, { easing: 'sineInOut' })
-                    .to(0.3, { scale: outlineScale }, { easing: 'sineInOut' }).start();
+                    .to(0.3, { scale: outlineScale + 0.1 }, { easing: "sineInOut" })
+                    .to(0.3, { scale: outlineScale }, { easing: "sineInOut" })
+                    .start();
                 break;
             }
             case "frameChange": {
                 //node1.getComponent(cc.Sprite).spriteFrame = this.optionImagesFrame2[parseInt(node1.name)-1];
                 cc.tween(node1)
-                    .to(0.3, { scale: node1.scale + 0.1 }, { easing: 'sineInOut' })
-                    .to(0.3, { scale: node1.scale }, { easing: 'sineInOut' }).start();
+                    .to(0.3, { scale: node1.scale + 0.1 }, { easing: "sineInOut" })
+                    .to(0.3, { scale: node1.scale }, { easing: "sineInOut" })
+                    .start();
                 break;
             }
             case "shake": {
-                var tween1_1 = cc.tween(node1)
-                    .repeatForever(cc.tween().to(0.1, { x: node1.x }, { easing: 'sineInOut' })
-                    .to(0.1, { x: node1.x + 10 }, { easing: 'sineInOut' }))
+                var tween1_1 = cc
+                    .tween(node1)
+                    .repeatForever(cc
+                    .tween()
+                    .to(0.1, { x: node1.x }, { easing: "sineInOut" })
+                    .to(0.1, { x: node1.x + 10 }, { easing: "sineInOut" }))
                     .start();
                 this.scheduleOnce(function () {
                     tween1_1.stop();
@@ -912,34 +1097,38 @@ var NewClass = /** @class */ (function (_super) {
                 }, 0);
                 if (node1.name == "2") {
                     cc.tween(node1)
-                        .to(1, { x: node1.x - 325 }, { easing: 'sineInOut' }).start();
+                        .to(1, { x: node1.x - 325 }, { easing: "sineInOut" })
+                        .start();
                 }
                 else if (node1.name == "1") {
                     cc.tween(node1)
-                        .to(1, { x: node1.x + 325 }, { easing: 'sineInOut' }).start();
+                        .to(1, { x: node1.x + 325 }, { easing: "sineInOut" })
+                        .start();
                 }
                 break;
             }
             default: {
-                //statements; 
+                //statements;
                 cc.tween(node1)
-                    .to(0.9, { opacity: 1 }, { easing: 'sineInOut' })
-                    .to(0.9, { opacity: 0 }, { easing: 'sineInOut' }).start();
+                    .to(0.9, { opacity: 1 }, { easing: "sineInOut" })
+                    .to(0.9, { opacity: 0 }, { easing: "sineInOut" })
+                    .start();
                 break;
             }
         }
     };
     NewClass.prototype.destroyOtherOptions = function () {
         for (var i = 0; i < this.node.getChildByName("Options").children.length; i++) {
-            if (this.node.getChildByName("Options").children[i].name && (!this.isDone[i])) {
+            if (this.node.getChildByName("Options").children[i].name &&
+                !this.isDone[i]) {
                 //this.node.getChildByName("Options").children[i].destroy();
                 cc.tween(this.node.getChildByName("Options").children[i])
-                    .to(0.4, { opacity: 0 }, { easing: 'sineInOut' }).start();
+                    .to(0.4, { opacity: 0 }, { easing: "sineInOut" })
+                    .start();
             }
         }
     };
-    NewClass.prototype.update = function (dt) {
-    };
+    NewClass.prototype.update = function (dt) { };
     NewClass.prototype.finishedAnim = function (event) {
         //this.node.getChildByName("Options").getChildByName("particle").setPosition(this.node.getChildByName("bg").getChildByName("oneMany").x,this.node.getChildByName("bg").getChildByName("oneMany").y);
     };
@@ -956,21 +1145,35 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("Jockey").y = -101;
             this.node.getChildByName("Jockey").scaleX = -1.5;
             this.node.getChildByName("Jockey").scaleY = 1.5;
-            this.node.getChildByName("Jockey").getComponent(cc.Animation).play("negativeReaction1");
+            this.node
+                .getChildByName("Jockey")
+                .getComponent(cc.Animation)
+                .play("negativeReaction1");
         }
         else {
             console.log("characterAppear--Mili");
             this.isChar1 = false;
             this.node.getChildByName("Jockey").active = true;
-            this.node.getChildByName("Jockey").getComponent(cc.Animation).play("negativeReaction2");
-            this.node.getChildByName("Jockey").getComponent(cc.Animation).pause("negativeReaction2");
+            this.node
+                .getChildByName("Jockey")
+                .getComponent(cc.Animation)
+                .play("negativeReaction2");
+            this.node
+                .getChildByName("Jockey")
+                .getComponent(cc.Animation)
+                .pause("negativeReaction2");
             this.node.getChildByName("Jockey").x = 939;
             this.node.getChildByName("Jockey").y = -141;
             this.node.getChildByName("Jockey").scaleX = 1.5;
             this.node.getChildByName("Jockey").scaleY = 1.5;
-            cc.tween(this.node.getChildByName("Jockey")).to(0.3, { x: 475 }).start();
+            cc.tween(this.node.getChildByName("Jockey"))
+                .to(0.3, { x: 475 })
+                .start();
             this.scheduleOnce(function () {
-                _this.node.getChildByName("Jockey").getComponent(cc.Animation).play("negativeReaction2");
+                _this.node
+                    .getChildByName("Jockey")
+                    .getComponent(cc.Animation)
+                    .play("negativeReaction2");
             }, 0.4);
         }
         this.scheduleOnce(function () {
@@ -980,68 +1183,124 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.increaseprogress = function () {
         var _this = this;
-        globalVariables_1.default.Instance.fillRange = globalVariables_1.default.Instance.currentLevel * (394 / this.totalLevels);
-        cc.tween(this.node.getChildByName("progressBar").getChildByName("fill")).to(0.5, { width: globalVariables_1.default.Instance.fillRange }).start();
+        globalVariables_1.default.Instance.fillRange =
+            globalVariables_1.default.Instance.currentLevel * (394 / this.totalLevels);
+        cc.tween(this.node.getChildByName("progressBar").getChildByName("fill"))
+            .to(0.5, { width: globalVariables_1.default.Instance.fillRange })
+            .start();
         this.scheduleOnce(function () {
             _this.ShowStar();
         }, 0.5);
     };
     NewClass.prototype.ShowStar = function () {
-        if (this.node.getChildByName("progressBar").getChildByName("fill").width == (394 * 1 / this.totalLevels)) {
+        if (this.node.getChildByName("progressBar").getChildByName("fill")
+            .width ==
+            (394 * 1) / this.totalLevels) {
             console.log("starsEarned--1");
-            this.node.getChildByName("progressBar").getChildByName("star").scale = 0;
-            this.node.getChildByName("progressBar").getChildByName("star").active = true;
-            cc.tween(this.node.getChildByName("progressBar").getChildByName("star")).to(0.5, { scale: 0.3 }).start();
+            this.node
+                .getChildByName("progressBar")
+                .getChildByName("star").scale = 0;
+            this.node
+                .getChildByName("progressBar")
+                .getChildByName("star").active = true;
+            cc.tween(this.node.getChildByName("progressBar").getChildByName("star"))
+                .to(0.5, { scale: 0.3 })
+                .start();
         }
-        else if (this.node.getChildByName("progressBar").getChildByName("fill").width == (394 * Math.ceil(this.totalLevels / 2) / this.totalLevels)) {
+        else if (this.node.getChildByName("progressBar").getChildByName("fill")
+            .width ==
+            (394 * Math.ceil(this.totalLevels / 2)) / this.totalLevels) {
             console.log("starsEarned--2");
-            this.node.getChildByName("progressBar").getChildByName("star2").scale = 0;
-            this.node.getChildByName("progressBar").getChildByName("star2").active = true;
-            this.node.getChildByName("progressBar").getChildByName("star3").scale = 0;
-            this.node.getChildByName("progressBar").getChildByName("star3").active = true;
-            cc.tween(this.node.getChildByName("progressBar").getChildByName("star2")).to(0.5, { scale: 0.3 }).start();
-            cc.tween(this.node.getChildByName("progressBar").getChildByName("star3")).to(0.5, { scale: 0.3 }).start();
+            this.node
+                .getChildByName("progressBar")
+                .getChildByName("star2").scale = 0;
+            this.node
+                .getChildByName("progressBar")
+                .getChildByName("star2").active = true;
+            this.node
+                .getChildByName("progressBar")
+                .getChildByName("star3").scale = 0;
+            this.node
+                .getChildByName("progressBar")
+                .getChildByName("star3").active = true;
+            cc.tween(this.node.getChildByName("progressBar").getChildByName("star2"))
+                .to(0.5, { scale: 0.3 })
+                .start();
+            cc.tween(this.node.getChildByName("progressBar").getChildByName("star3"))
+                .to(0.5, { scale: 0.3 })
+                .start();
         }
-        else if (this.node.getChildByName("progressBar").getChildByName("fill").width == 394) {
+        else if (this.node.getChildByName("progressBar").getChildByName("fill")
+            .width == 394) {
             console.log("starsEarned--3");
-            this.node.getChildByName("progressBar").getChildByName("star4").scale = 0;
-            this.node.getChildByName("progressBar").getChildByName("star5").scale = 0;
-            this.node.getChildByName("progressBar").getChildByName("star6").scale = 0;
-            this.node.getChildByName("progressBar").getChildByName("star4").active = true;
-            this.node.getChildByName("progressBar").getChildByName("star5").active = true;
-            this.node.getChildByName("progressBar").getChildByName("star6").active = true;
-            cc.tween(this.node.getChildByName("progressBar").getChildByName("star4")).to(0.5, { scale: 0.3 }).start();
-            cc.tween(this.node.getChildByName("progressBar").getChildByName("star5")).to(0.5, { scale: 0.3 }).start();
-            cc.tween(this.node.getChildByName("progressBar").getChildByName("star6")).to(0.5, { scale: 0.3 }).start();
+            this.node
+                .getChildByName("progressBar")
+                .getChildByName("star4").scale = 0;
+            this.node
+                .getChildByName("progressBar")
+                .getChildByName("star5").scale = 0;
+            this.node
+                .getChildByName("progressBar")
+                .getChildByName("star6").scale = 0;
+            this.node
+                .getChildByName("progressBar")
+                .getChildByName("star4").active = true;
+            this.node
+                .getChildByName("progressBar")
+                .getChildByName("star5").active = true;
+            this.node
+                .getChildByName("progressBar")
+                .getChildByName("star6").active = true;
+            cc.tween(this.node.getChildByName("progressBar").getChildByName("star4"))
+                .to(0.5, { scale: 0.3 })
+                .start();
+            cc.tween(this.node.getChildByName("progressBar").getChildByName("star5"))
+                .to(0.5, { scale: 0.3 })
+                .start();
+            cc.tween(this.node.getChildByName("progressBar").getChildByName("star6"))
+                .to(0.5, { scale: 0.3 })
+                .start();
         }
     };
     NewClass.prototype.setProgressBar = function () {
-        var progressBar = this.node.getChildByName("ThirdNode").getChildByName("progressBar");
+        var progressBar = this.node
+            .getChildByName("ThirdNode")
+            .getChildByName("progressBar");
         // console.log("answerValues : ", this.answerValues)
         for (var i = 0; i < this.totalLevels; i++) {
             if (this.answerValues[i] == true) {
-                progressBar.children[i].getChildByName("unattemptedQ").active = false;
+                progressBar.children[i].getChildByName("unattemptedQ").active =
+                    false;
                 progressBar.children[i].getChildByName("wrongQ").active = false;
                 progressBar.children[i].getChildByName("nextQ").active = false;
                 progressBar.children[i].getChildByName("rightQ").active = true;
             }
             else {
                 if (globalVariables_1.default.Instance.currentLevel == i + 1) {
-                    progressBar.children[i].getChildByName("rightQ").active = false;
+                    progressBar.children[i].getChildByName("rightQ").active =
+                        false;
                     progressBar.children[i].getChildByName("unattemptedQ").active = false;
-                    progressBar.children[i].getChildByName("wrongQ").active = false;
-                    progressBar.children[i].getChildByName("nextQ").active = true;
+                    progressBar.children[i].getChildByName("wrongQ").active =
+                        false;
+                    progressBar.children[i].getChildByName("nextQ").active =
+                        true;
                 }
                 else if (globalVariables_1.default.Instance.currentLevel > i + 1) {
-                    progressBar.children[i].getChildByName("rightQ").active = false;
+                    progressBar.children[i].getChildByName("rightQ").active =
+                        false;
                     progressBar.children[i].getChildByName("unattemptedQ").active = false;
-                    progressBar.children[i].getChildByName("nextQ").active = false;
-                    progressBar.children[i].getChildByName("wrongQ").active = true;
+                    progressBar.children[i].getChildByName("nextQ").active =
+                        false;
+                    progressBar.children[i].getChildByName("wrongQ").active =
+                        true;
                 }
                 else if (globalVariables_1.default.Instance.currentLevel < i + 1) {
-                    progressBar.children[i].getChildByName("rightQ").active = false;
-                    progressBar.children[i].getChildByName("wrongQ").active = false;
-                    progressBar.children[i].getChildByName("nextQ").active = false;
+                    progressBar.children[i].getChildByName("rightQ").active =
+                        false;
+                    progressBar.children[i].getChildByName("wrongQ").active =
+                        false;
+                    progressBar.children[i].getChildByName("nextQ").active =
+                        false;
                     progressBar.children[i].getChildByName("unattemptedQ").active = true;
                 }
             }
@@ -1086,7 +1345,9 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.hilightLeftAnswers = function () {
         for (var i = 0; i < this.node.getChildByName("Options").children.length; i++) {
             for (var j = 0; j < this.answers.length; j++) {
-                if ((parseInt(this.node.getChildByName("Options").children[i].name) - 1) == this.answers[j]) {
+                if (parseInt(this.node.getChildByName("Options").children[i].name) -
+                    1 ==
+                    this.answers[j]) {
                     //this.node.getChildByName("Options").children[i].color = new cc.Color(71, 255, 0);
                     //console.log("Inside hilightLeftAnswers : "+this.node.getChildByName("Options").children[i].name);
                     // if(this.node.getChildByName("Options").children[i].getChildByName("tick").active){
@@ -1117,33 +1378,39 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callJockeyAnim = function (num) {
         var _this = this;
-        var jockeyNode = this.node.getChildByName("podium").getChildByName("Puzzle");
+        var jockeyNode = this.node
+            .getChildByName("podium")
+            .getChildByName("Puzzle");
         var options2 = this.node.getChildByName("Options2");
         if (num == 0) {
             // console.log(`GOOD`);
             jockeyNode.getComponent(cc.Animation).play("puzzleCorrect");
-            jockeyNode.getComponent(cc.Animation).on("finished", (function () {
+            jockeyNode.getComponent(cc.Animation).on("finished", function () {
                 jockeyNode.getComponent(cc.Animation).play("puzzleCorrect");
-            }), this);
+            }, this);
             this.scheduleOnce(function () {
                 jockeyNode.getComponent(cc.Animation).play("puzzleStars");
-                jockeyNode.getComponent(cc.Animation).on("finished", (function () {
-                    jockeyNode.getComponent(cc.Animation).play("puzzleIdle");
-                }), _this);
+                jockeyNode.getComponent(cc.Animation).on("finished", function () {
+                    jockeyNode
+                        .getComponent(cc.Animation)
+                        .play("puzzleIdle");
+                }, _this);
                 _this.playDustAnim2(Math.round(_this.getRandomInt(5, 8)), _this.getRandomInt(15, 20), options2);
             }, jockeyNode.getComponent(cc.Animation).getClips()[1].duration + this.positiveFeedbackSound[globalVariables_1.default.Instance.currentLevel - 1].duration);
         }
         else {
             // console.log(`BAD`);
             jockeyNode.getComponent(cc.Animation).play("puzzleWrong");
-            jockeyNode.getComponent(cc.Animation).on("finished", (function () {
+            jockeyNode.getComponent(cc.Animation).on("finished", function () {
                 jockeyNode.getComponent(cc.Animation).play("puzzleWrong");
-            }), this);
+            }, this);
             this.scheduleOnce(function () {
                 jockeyNode.getComponent(cc.Animation).play("puzzleStars");
-                jockeyNode.getComponent(cc.Animation).on("finished", (function () {
-                    jockeyNode.getComponent(cc.Animation).play("puzzleIdle");
-                }), _this);
+                jockeyNode.getComponent(cc.Animation).on("finished", function () {
+                    jockeyNode
+                        .getComponent(cc.Animation)
+                        .play("puzzleIdle");
+                }, _this);
                 _this.playDustAnim2(Math.round(_this.getRandomInt(5, 8)), _this.getRandomInt(15, 20), options2);
             }, jockeyNode.getComponent(cc.Animation).getClips()[3].duration + this.negativeFeedbackSound[globalVariables_1.default.Instance.currentLevel - 1].duration);
         }
@@ -1166,7 +1433,9 @@ var NewClass = /** @class */ (function (_super) {
         // declare a cc.Texture2D above for trail img
         // declare any cc.AudioClip above for particles soundFx
         // declare any cc.AudioClip above for trail soundFx
-        var jockey = this.node.getChildByName("podium").getChildByName("Puzzle");
+        var jockey = this.node
+            .getChildByName("podium")
+            .getChildByName("Puzzle");
         jockey.getComponent(cc.AudioSource).clip = this.particlesSound;
         this.scheduleOnce(function () {
             jockey.getComponent(cc.AudioSource).play();
@@ -1179,12 +1448,12 @@ var NewClass = /** @class */ (function (_super) {
         var _loop_3 = function (i) {
             // let rngX = this.getRandomNumber(0, cc.winSize.width);
             // let rngY = this.getRandomNumber(0, cc.winSize.width);
-            var particles = cc.instantiate(new cc.Node);
-            var trail = cc.instantiate(new cc.Node);
+            var particles = cc.instantiate(new cc.Node());
+            var trail = cc.instantiate(new cc.Node());
             particles.parent = _node;
             trail.parent = particles;
-            particles.x = (-450 + 640) + 20;
-            particles.y = (-280 + 360) + 70;
+            particles.x = -450 + 640 + 20;
+            particles.y = -280 + 360 + 70;
             // particles.position = jockey.getParent().convertToWorldSpaceAR(jockey.getParent().position);
             // particles.x += 420;
             // particles.y += 220;
@@ -1210,23 +1479,38 @@ var NewClass = /** @class */ (function (_super) {
             this_3.scheduleOnce(function () {
                 var rngParticlesSize = _this.getRandomInt(75, 125);
                 _this.scheduleOnce(function () {
-                    cc.tween(particles).to(0.5, { width: rngParticlesSize, height: rngParticlesSize }, { easing: "backOut" }).start();
+                    cc.tween(particles)
+                        .to(0.5, {
+                        width: rngParticlesSize,
+                        height: rngParticlesSize,
+                    }, { easing: "backOut" })
+                        .start();
                 }, 0.5);
-                cc.tween(particles).bezierTo(1, new cc.Vec2(particles.x, particles.y), new cc.Vec2(_this.getRandomNumber(particles.x, cc.winSize.width), _this.getRandomNumber(particles.y, cc.winSize.height)), new cc.Vec2(_this.getRandomNumber(cc.winSize.width / 4, 3 * cc.winSize.width / 4), _this.getRandomNumber(cc.winSize.height / 4, 3 * cc.winSize.height / 4))).call(function () {
+                cc.tween(particles)
+                    .bezierTo(1, new cc.Vec2(particles.x, particles.y), new cc.Vec2(_this.getRandomNumber(particles.x, cc.winSize.width), _this.getRandomNumber(particles.y, cc.winSize.height)), new cc.Vec2(_this.getRandomNumber(cc.winSize.width / 4, (3 * cc.winSize.width) / 4), _this.getRandomNumber(cc.winSize.height / 4, (3 * cc.winSize.height) / 4)))
+                    .call(function () {
                     var _loop_4 = function (j) {
-                        var bullets = cc.instantiate(new cc.Node);
-                        var bTrails = cc.instantiate(new cc.Node);
-                        bullets.addComponent(cc.Sprite).spriteFrame = _this.dustImg;
+                        var bullets = cc.instantiate(new cc.Node());
+                        var bTrails = cc.instantiate(new cc.Node());
+                        bullets.addComponent(cc.Sprite).spriteFrame =
+                            _this.dustImg;
                         bTrails.parent = bullets;
                         bTrails.addComponent(cc.MotionStreak).preview;
-                        bTrails.getComponent(cc.MotionStreak).texture = _this.dustTrailImg;
-                        bTrails.getComponent(cc.MotionStreak).enabled = true;
-                        bTrails.getComponent(cc.MotionStreak).minSeg = _this.getRandomFloat(0.1, 0.5);
-                        bTrails.getComponent(cc.MotionStreak).stroke = _this.getRandomNumber(10, 25);
+                        bTrails.getComponent(cc.MotionStreak).texture =
+                            _this.dustTrailImg;
+                        bTrails.getComponent(cc.MotionStreak).enabled =
+                            true;
+                        bTrails.getComponent(cc.MotionStreak).minSeg =
+                            _this.getRandomFloat(0.1, 0.5);
+                        bTrails.getComponent(cc.MotionStreak).stroke =
+                            _this.getRandomNumber(10, 25);
                         bTrails.getComponent(cc.MotionStreak).fadeTime = 0.2;
-                        bTrails.getComponent(cc.MotionStreak).color = new cc.Color(255, 255, 255);
-                        bTrails.getComponent(cc.MotionStreak).enabled = true;
-                        bTrails.getComponent(cc.MotionStreak).fastMode = true;
+                        bTrails.getComponent(cc.MotionStreak).color =
+                            new cc.Color(255, 255, 255);
+                        bTrails.getComponent(cc.MotionStreak).enabled =
+                            true;
+                        bTrails.getComponent(cc.MotionStreak).fastMode =
+                            true;
                         bullets.width = 0;
                         bullets.height = 0;
                         // bullets.angle = this.getRandomNumber(0, 359);
@@ -1237,17 +1521,36 @@ var NewClass = /** @class */ (function (_super) {
                         bullets.color = cc.Color.fromHEX(particles.color, colorsArray[_this.getRandomInt(0, colorsArray.length)]);
                         // bullets.color = particles.color;
                         var rngSize = _this.getRandomNumber(100, 200);
-                        cc.tween(bullets).to(0.25, { width: rngSize, height: rngSize }, { easing: "backOut" }).start();
-                        cc.tween(bullets).to(0.5, { x: _this.getRandomNumber(bullets.x - _this.getRandomNumber(100, 500), bullets.x + _this.getRandomNumber(100, 500)), y: _this.getRandomNumber(bullets.y - _this.getRandomNumber(100, 500), bullets.y + _this.getRandomNumber(100, 500)) }).start();
-                        cc.tween(bullets).to(0.1, { opacity: 200 }).to(0.1, { opacity: 255 }).to(0.1, { opacity: 200 }).to(0.1, { opacity: 255 }).to(0.1, { opacity: 200, scale: 0 }).call(function () {
+                        cc.tween(bullets)
+                            .to(0.25, { width: rngSize, height: rngSize }, { easing: "backOut" })
+                            .start();
+                        cc.tween(bullets)
+                            .to(0.5, {
+                            x: _this.getRandomNumber(bullets.x -
+                                _this.getRandomNumber(100, 500), bullets.x +
+                                _this.getRandomNumber(100, 500)),
+                            y: _this.getRandomNumber(bullets.y -
+                                _this.getRandomNumber(100, 500), bullets.y +
+                                _this.getRandomNumber(100, 500)),
+                        })
+                            .start();
+                        cc.tween(bullets)
+                            .to(0.1, { opacity: 200 })
+                            .to(0.1, { opacity: 255 })
+                            .to(0.1, { opacity: 200 })
+                            .to(0.1, { opacity: 255 })
+                            .to(0.1, { opacity: 200, scale: 0 })
+                            .call(function () {
                             bullets.destroy();
                             particles.destroy();
-                        }).start();
+                        })
+                            .start();
                     };
                     for (var j = 0; j < num2; j++) {
                         _loop_4(j);
                     }
-                }).start();
+                })
+                    .start();
             }, 0.1 * (i + 1));
         };
         var this_3 = this;
