@@ -1246,6 +1246,17 @@ export default class NewClass extends cc.Component {
 				"positive_5",
 				"positive_6",
 			];
+		} else if (
+			startGame.Instance.jockeyName == "boy" ||
+			startGame.Instance.jockeyName == "girl"
+		) {
+			anim = [
+				"positive_1",
+				"positive_2",
+				"positive_3",
+				"positive_4",
+				"positive_5",
+			];
 		}
 
 		// console.log("anim length = ", anim.length);

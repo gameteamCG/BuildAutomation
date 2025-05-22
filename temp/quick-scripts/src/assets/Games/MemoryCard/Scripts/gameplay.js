@@ -997,6 +997,16 @@ var NewClass = /** @class */ (function (_super) {
                 "positive_6",
             ];
         }
+        else if (StartGame_1.default.Instance.jockeyName == "boy" ||
+            StartGame_1.default.Instance.jockeyName == "girl") {
+            anim = [
+                "positive_1",
+                "positive_2",
+                "positive_3",
+                "positive_4",
+                "positive_5",
+            ];
+        }
         // console.log("anim length = ", anim.length);
         var currentClipNum = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
