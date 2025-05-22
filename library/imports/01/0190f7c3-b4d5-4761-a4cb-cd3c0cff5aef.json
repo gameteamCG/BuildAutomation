@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_yoga",
+    "texture": "9465af91-2fa9-46ee-a1a3-489e2aca769d",
+    "atlas": "",
+    "rect": [
+      66,
+      0,
+      368,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

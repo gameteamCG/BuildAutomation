@@ -510,8 +510,8 @@
     "relativePath": "Games"
   },
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1747908274880,
-    "meta": 1747908431293,
+    "asset": 1747909141042,
+    "meta": 1747909189163,
     "relativePath": "resources"
   },
   "47c7a0d5-0378-4e24-a68a-552946845f14": {
@@ -1385,8 +1385,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\1.fire"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1747908865891,
-    "meta": 1747908865935,
+    "asset": 1747909448208,
+    "meta": 1747909448238,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\Title.fire"
   },
   "51f71569-6b9e-43a6-9703-1106a9f3d9d1": {
@@ -3045,8 +3045,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria"
   },
   "db159480-4287-4a8b-8111-c1ec3fc31a18": {
-    "asset": 1747908274409,
-    "meta": 1747908433446,
+    "asset": 1747908637544,
+    "meta": 1747909189165,
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\1_PIET"
   },
   "00721a18-187c-41ef-8c3f-eaecc5b2a20c": {
@@ -3080,8 +3080,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\1_PIET\\Script.ts"
   },
   "ad10d428-bbe1-4eb8-a2a0-49f8fbcab60a": {
-    "asset": 1747908274391,
-    "meta": 1747908437449,
+    "asset": 1747908756317,
+    "meta": 1747909189171,
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\1_PIET\\TitleAssets"
   },
   "7df10ff2-a946-45c2-8fa1-93a8a955d9e4": {
@@ -3544,11 +3544,6 @@
     "meta": 1747908637560,
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\1_PIET\\KGPenmanship2.ttf"
   },
-  "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
-    "asset": 1747908730069,
-    "meta": 1747908731304,
-    "relativePath": "Framework\\Scripts\\StartGame.ts"
-  },
   "47e44288-ae00-43b2-bff5-aeafcf426a12": {
     "asset": 1747908756314,
     "meta": 1747908756338,
@@ -3558,5 +3553,175 @@
     "asset": 1747908862020,
     "meta": 1747908865562,
     "relativePath": "Games\\WhatWillHappenNext\\Scripts\\gameplay.ts"
+  },
+  "c83eb0d4-f090-493f-91f0-4fd1184d0ecb": {
+    "asset": 1747909284968,
+    "meta": 1747909285024,
+    "relativePath": "resources\\images"
+  },
+  "7c9424ef-f20a-4641-9723-00078fb747ff": {
+    "asset": 1747909284887,
+    "meta": 1747909285157,
+    "relativePath": "resources\\images\\500x500_0002_dance.png"
+  },
+  "6f0b1a5e-b62b-4f8e-ad32-6a7933102fcb": {
+    "asset": 1747909284887,
+    "meta": 1747909285184,
+    "relativePath": "resources\\images\\500x500_0000_smile.png"
+  },
+  "d244c275-7983-418a-9610-f47763918499": {
+    "asset": 1747909284887,
+    "meta": 1747909285205,
+    "relativePath": "resources\\images\\500x500_0000_washingutensils.png"
+  },
+  "5cbc926e-e9d6-4c14-8762-96085d3e04b3": {
+    "asset": 1747909284887,
+    "meta": 1747909285209,
+    "relativePath": "resources\\images\\500x500_0001_washinghands.png"
+  },
+  "28e281d5-9712-4d91-a0ce-c2f0eb1a07f5": {
+    "asset": 1747909284897,
+    "meta": 1747909285219,
+    "relativePath": "resources\\images\\500x500_0002_washingclothes.png"
+  },
+  "9465af91-2fa9-46ee-a1a3-489e2aca769d": {
+    "asset": 1747909284887,
+    "meta": 1747909285223,
+    "relativePath": "resources\\images\\500x500_0002_yoga.png"
+  },
+  "13e5a35c-8e42-4d25-9694-dcf87efa7b5d": {
+    "asset": 1747909284889,
+    "meta": 1747909285239,
+    "relativePath": "resources\\images\\500x500_0003_play.png"
+  },
+  "283b657c-8d80-4386-89a9-805c457886f1": {
+    "asset": 1747909284887,
+    "meta": 1747909285256,
+    "relativePath": "resources\\images\\500x500_0001_clap.png"
+  },
+  "2156de78-f6fc-447b-a321-7d5bfc401299": {
+    "asset": 1747909284889,
+    "meta": 1747909285267,
+    "relativePath": "resources\\images\\Asset99.png"
+  },
+  "7c470664-8617-416c-a9b2-b2a813c6a9ce": {
+    "asset": 1747909284897,
+    "meta": 1747909285275,
+    "relativePath": "resources\\images\\500x500_0003_takingbath.png"
+  },
+  "bab14f32-5f87-4966-bc5c-e8da1c0120f3": {
+    "asset": 1747909284898,
+    "meta": 1747909285279,
+    "relativePath": "resources\\images\\500x500_0006_brushing.png"
+  },
+  "d479fc7d-a7da-436a-af25-a6030c0ac90a": {
+    "asset": 1747909284916,
+    "meta": 1747909285289,
+    "relativePath": "resources\\images\\500x500_0007_wateringplants.png"
+  },
+  "c018a578-2c4a-498f-841c-72863268a106": {
+    "asset": 1747909284889,
+    "meta": 1747909285297,
+    "relativePath": "resources\\images\\500x500_0004_drinking.png"
+  },
+  "3b070438-807d-44cb-bd76-f263a47746fd": {
+    "asset": 1747909284829,
+    "meta": 1747909285299,
+    "relativePath": "resources\\audios"
+  },
+  "c8a0158f-dc23-415b-96aa-05397338314b": {
+    "asset": 1747909284898,
+    "meta": 1747909285340,
+    "relativePath": "resources\\images\\500x500_0005_cooking.png"
+  },
+  "f3905e5c-d4f9-4fb5-b530-c4ab41be3018": {
+    "asset": 1747909284889,
+    "meta": 1747909285374,
+    "relativePath": "resources\\images\\panel(1).png"
+  },
+  "1e1f64b5-317c-4e49-95d9-eccbbcb19920": {
+    "asset": 1747909284889,
+    "meta": 1747909285380,
+    "relativePath": "resources\\images\\happy.png"
+  },
+  "319fb293-a987-48ee-952d-5c69ebf49f91": {
+    "asset": 1747909284918,
+    "meta": 1747909285383,
+    "relativePath": "resources\\images\\bikeride.png"
+  },
+  "c0841ab4-ff72-419e-ae35-a460cccc3ebd": {
+    "asset": 1747909284898,
+    "meta": 1747909285407,
+    "relativePath": "resources\\images\\bathroombg.png"
+  },
+  "f06590ab-4cbc-4df4-94b1-102c4d1aed38": {
+    "asset": 1747909284915,
+    "meta": 1747909285420,
+    "relativePath": "resources\\images\\playpiano.png"
+  },
+  "ae73b6ce-aa49-4424-820b-852af81c23b8": {
+    "asset": 1747909284918,
+    "meta": 1747909285431,
+    "relativePath": "resources\\images\\jrkg.png"
+  },
+  "84579f6e-a046-442f-b50d-168d6a5000c1": {
+    "asset": 1747909284887,
+    "meta": 1747909286127,
+    "relativePath": "resources\\audios\\waterisusedforwateringplants.mp3"
+  },
+  "eea93da4-8caf-4898-af3e-04789015f03c": {
+    "asset": 1747909284886,
+    "meta": 1747909286128,
+    "relativePath": "resources\\audios\\Identifyandtaponwhatiswaterusedfor.mp3"
+  },
+  "7fc330bd-86c4-4111-a7d8-80ff508ca494": {
+    "asset": 1747909284887,
+    "meta": 1747909286131,
+    "relativePath": "resources\\audios\\waterisusedforwashingclothes.mp3"
+  },
+  "e9cabf54-e075-4189-9639-ab7cbbd59c57": {
+    "asset": 1747909284887,
+    "meta": 1747909286132,
+    "relativePath": "resources\\audios\\waterisusedfordrinking.mp3"
+  },
+  "187d1baa-6436-473b-b319-12c24328e9dc": {
+    "asset": 1747909284887,
+    "meta": 1747909286134,
+    "relativePath": "resources\\audios\\waterisusedincooking.mp3"
+  },
+  "7fa453df-c491-4943-a0af-51db1ad77e82": {
+    "asset": 1747909284886,
+    "meta": 1747909286135,
+    "relativePath": "resources\\audios\\waterisusedforbathing.mp3"
+  },
+  "3cc82595-648e-4379-b905-a72074ebb655": {
+    "asset": 1747909284887,
+    "meta": 1747909286136,
+    "relativePath": "resources\\audios\\waterisusedforwashinghands.mp3"
+  },
+  "b536f92d-6f26-4b69-bf3e-9c440e057d99": {
+    "asset": 1747909284930,
+    "meta": 1747909286146,
+    "relativePath": "resources\\audios\\bgmpattern.mp3"
+  },
+  "7af000ef-0689-4d15-9540-b433053434a0": {
+    "asset": 1747909284887,
+    "meta": 1747909286154,
+    "relativePath": "resources\\audios\\watersusedforbrushingteeth.mp3"
+  },
+  "f50a3b4b-1428-4735-bb99-7983971ec496": {
+    "asset": 1747909284887,
+    "meta": 1747909286156,
+    "relativePath": "resources\\audios\\waterisusedtowashandcleanutensils.mp3"
+  },
+  "285d5900-8519-4ec6-90be-f5e66c771f11": {
+    "asset": 1747909308211,
+    "meta": 1747909308839,
+    "relativePath": "resources\\game_data.json"
+  },
+  "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
+    "asset": 1747909446836,
+    "meta": 1747909448001,
+    "relativePath": "Framework\\Scripts\\StartGame.ts"
   }
 }

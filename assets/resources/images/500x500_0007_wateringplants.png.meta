@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d479fc7d-a7da-436a-af25-a6030c0ac90a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0007_wateringplants": {
+      "ver": "1.0.6",
+      "uuid": "d08b6ce7-2e17-4a1c-a56a-4a1be5c5fb3d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d479fc7d-a7da-436a-af25-a6030c0ac90a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 10,
+      "width": 500,
+      "height": 480,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

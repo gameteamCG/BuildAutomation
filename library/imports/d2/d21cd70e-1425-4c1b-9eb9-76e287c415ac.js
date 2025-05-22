@@ -389,12 +389,12 @@ var startGame = /** @class */ (function (_super) {
             }
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
                 _this.scheduleOnce(function () {
-                    cc.director.loadScene("1");
+                    // cc.director.loadScene("1");
                 }, 2);
             }
             if (_this.jockeyName != "girl" && _this.jockeyName != "boy") {
                 _this.scheduleOnce(function () {
-                    cc.director.loadScene("1");
+                    // cc.director.loadScene("1");
                 }, 2);
             }
         }, 1);
