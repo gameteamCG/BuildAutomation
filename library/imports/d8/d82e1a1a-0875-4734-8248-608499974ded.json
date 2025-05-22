@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "playroom",
+    "texture": "4b60a8ae-d316-43ab-9690-941ec60a8258",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1418,
+      1418
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1418,
+      1418
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
