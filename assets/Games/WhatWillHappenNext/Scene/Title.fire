@@ -3435,7 +3435,9 @@
     "playButton": {
       "__id__": 26
     },
-    "loadingBar": null,
+    "loadingBar": {
+      "__id__": 18
+    },
     "_id": "084Fq54/FDVaDDj+BDSytU"
   },
   {
