@@ -961,7 +961,7 @@ export default class gameplay extends cc.Component {
 			.to(0.5, { scale: 1 }, { easing: "sineInOut" })
 			.start();
 		cc.tween(_clone1)
-			.to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" })
+			.to(0.5, { x: -220, y: 0 }, { easing: "sineInOut" })
 			.start();
 
 		cc.tween(_clone2)
@@ -980,7 +980,7 @@ export default class gameplay extends cc.Component {
 			.to(0.5, { scale: 1 }, { easing: "sineInOut" })
 			.start();
 		cc.tween(_clone2)
-			.to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" })
+			.to(0.5, { x: 220, y: 0 }, { easing: "sineInOut" })
 			.start();
 
 		this.scheduleOnce(() => {
@@ -995,7 +995,7 @@ export default class gameplay extends cc.Component {
 				.play();
 			this.scheduleOnce(() => {
 				this.callJockey();
-			}, 0.7);
+			}, this.correctAudio[audioNum].duration - 0.5);
 		}, 0.5);
 	}
 

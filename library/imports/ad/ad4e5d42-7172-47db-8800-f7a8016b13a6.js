@@ -718,7 +718,7 @@ var gameplay = /** @class */ (function (_super) {
             .to(0.5, { scale: 1 }, { easing: "sineInOut" })
             .start();
         cc.tween(_clone1)
-            .to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" })
+            .to(0.5, { x: -220, y: 0 }, { easing: "sineInOut" })
             .start();
         cc.tween(_clone2)
             .to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" })
@@ -736,7 +736,7 @@ var gameplay = /** @class */ (function (_super) {
             .to(0.5, { scale: 1 }, { easing: "sineInOut" })
             .start();
         cc.tween(_clone2)
-            .to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" })
+            .to(0.5, { x: 220, y: 0 }, { easing: "sineInOut" })
             .start();
         this.scheduleOnce(function () {
             var audioNum = parseInt(_clone1.name);
@@ -750,7 +750,7 @@ var gameplay = /** @class */ (function (_super) {
                 .play();
             _this.scheduleOnce(function () {
                 _this.callJockey();
-            }, 0.7);
+            }, _this.correctAudio[audioNum].duration - 0.5);
         }, 0.5);
     };
     gameplay.prototype.callJockey = function () {

@@ -3306,8 +3306,9 @@
     "playButton": {
       "__id__": 23
     },
-    "loadingBar": null,
-    "playSound": null,
+    "loadingBar": {
+      "__id__": 18
+    },
     "_id": "084Fq54/FDVaDDj+BDSytU"
   },
   {
