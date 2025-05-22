@@ -1369,8 +1369,8 @@
         0,
         0,
         1,
-        0.55,
-        0.55,
+        0.7,
+        0.7,
         1
       ]
     },
@@ -1496,7 +1496,7 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 60,
+    "_fontSize": 80,
     "_lineHeight": 80,
     "_enableWrapText": true,
     "_N$file": {

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1lake",
+    "texture": "10a8f4fd-474d-4148-be04-cfd652e0ce0c",
+    "atlas": "",
+    "rect": [
+      242,
+      281,
+      192,
+      73
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      676,
+      638
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

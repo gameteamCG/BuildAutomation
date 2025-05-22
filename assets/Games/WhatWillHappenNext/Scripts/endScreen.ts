@@ -63,7 +63,7 @@ export default class NewClass extends cc.Component {
 
 	start() {
 		console.log("showedScreen--Congratulations");
-		startGame.Instance.node.getChildByName("progress").opacity = 0;
+		// startGame.Instance.node.getChildByName("progress").opacity = 0;
 		this.scheduleOnce(() => {
 			this.node
 				.getChildByName("awesome")
@@ -99,6 +99,7 @@ export default class NewClass extends cc.Component {
 			this.node.getComponent(cc.AudioSource).clip = this.yeah[0];
 			this.node.getComponent(cc.AudioSource).play();
 			console.log("gameEnded--true");
+			this.node.getChildByName("end").active = true;
 		}, 2.3);
 	}
 

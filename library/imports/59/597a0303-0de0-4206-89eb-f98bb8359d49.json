@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1pond",
+    "texture": "dc5a1908-5b0e-4920-b988-980665047320",
+    "atlas": "",
+    "rect": [
+      246,
+      277,
+      184,
+      77
+    ],
+    "offset": [
+      -0.5,
+      3.5
+    ],
+    "originalSize": [
+      677,
+      638
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

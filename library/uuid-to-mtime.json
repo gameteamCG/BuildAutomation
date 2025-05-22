@@ -1,7 +1,7 @@
 {
   "119f7f24-727f-43c7-8c8c-ff04216b88bb": {
-    "asset": 1747903964784,
-    "meta": 1747904019815,
+    "asset": 1747905800863,
+    "meta": 1747905956678,
     "relativePath": "resources"
   },
   "0d2e55d5-0eb2-4514-9a7a-dedb539de00f": {
@@ -1120,8 +1120,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Materials\\grey.mtl"
   },
   "cf4e36d8-89d2-4945-a198-67e319127411": {
-    "asset": 1747905799872,
-    "meta": 1747905799907,
+    "asset": 1747906311511,
+    "meta": 1747906311530,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\1.fire"
   },
   "064fa1cd-c092-45a6-8a88-4c65b8b70e53": {
@@ -1170,8 +1170,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\Title.fire"
   },
   "92133877-574e-4eb5-9c58-79f64d3fc3ed": {
-    "asset": 1747904296682,
-    "meta": 1747904296701,
+    "asset": 1747906272422,
+    "meta": 1747906272443,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\endScreen.fire"
   },
   "e69f6909-7104-4430-8958-26c918cbc963": {
@@ -3439,19 +3439,214 @@
     "meta": 1747904021010,
     "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria"
   },
-  "12188c2b-0d4b-464f-af83-522906b417c5": {
-    "asset": 1747904193415,
-    "meta": 1747904206988,
-    "relativePath": "Games\\WhatWillHappenNext\\Scripts\\endScreen.ts"
-  },
-  "ad4e5d42-7172-47db-8800-f7a8016b13a6": {
-    "asset": 1747904385502,
-    "meta": 1747904387716,
-    "relativePath": "Games\\WhatWillHappenNext\\Scripts\\gameplay.ts"
-  },
   "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
     "asset": 1747905558163,
     "meta": 1747905559619,
     "relativePath": "Framework\\Scripts\\StartGame.ts"
+  },
+  "3cfd0c3b-90f1-4d3b-924e-2fbab7b67b95": {
+    "asset": 1747906119288,
+    "meta": 1747906119474,
+    "relativePath": "resources\\audios"
+  },
+  "1eaf94c0-b9c6-44c5-9efa-4cdcc0f9f522": {
+    "asset": 1747906119300,
+    "meta": 1747906120370,
+    "relativePath": "resources\\audios\\plain.mp3"
+  },
+  "912c1806-e2d8-463b-8e0a-66599640291e": {
+    "asset": 1747906119307,
+    "meta": 1747906120372,
+    "relativePath": "resources\\audios\\ocean.mp3"
+  },
+  "3dbc240c-4096-4234-9627-f0865e6f527a": {
+    "asset": 1747906119306,
+    "meta": 1747906120374,
+    "relativePath": "resources\\audios\\hills.mp3"
+  },
+  "95676a43-1f13-4ed5-9523-c9af57b02bb3": {
+    "asset": 1747906119298,
+    "meta": 1747906120376,
+    "relativePath": "resources\\audios\\identifylandform.mp3"
+  },
+  "17dd98b7-8fd5-4068-9f2a-b2a347313094": {
+    "asset": 1747906119307,
+    "meta": 1747906120385,
+    "relativePath": "resources\\audios\\lake.mp3"
+  },
+  "795569e3-7eef-4cab-924b-65e0fa4bca32": {
+    "asset": 1747906119431,
+    "meta": 1747906120387,
+    "relativePath": "resources\\images"
+  },
+  "6c983311-c7bf-497a-b914-9eeddd746cdc": {
+    "asset": 1747906119305,
+    "meta": 1747906120390,
+    "relativePath": "resources\\audios\\dessert.mp3"
+  },
+  "6442819c-fa85-48b1-9496-36fd6c5fc479": {
+    "asset": 1747906119307,
+    "meta": 1747906120397,
+    "relativePath": "resources\\audios\\mountain.mp3"
+  },
+  "d61b7962-6032-468f-94ef-8c89fa077af4": {
+    "asset": 1747906119335,
+    "meta": 1747906120412,
+    "relativePath": "resources\\audios\\ColourBGM.mp3"
+  },
+  "39b402ee-6d2a-45fb-bc7e-ce43393fbb4e": {
+    "asset": 1747906119308,
+    "meta": 1747906120425,
+    "relativePath": "resources\\audios\\pond.mp3"
+  },
+  "06bef75c-044c-4a60-b3a3-6e16d24c3048": {
+    "asset": 1747906119309,
+    "meta": 1747906120430,
+    "relativePath": "resources\\audios\\river.mp3"
+  },
+  "66127339-5b3a-4a99-9688-9462c16287ce": {
+    "asset": 1747906119309,
+    "meta": 1747906120434,
+    "relativePath": "resources\\audios\\valley.mp3"
+  },
+  "ed01e03a-dd4a-4227-a509-de9adeb29c1b": {
+    "asset": 1747906119311,
+    "meta": 1747906120445,
+    "relativePath": "resources\\audios\\waterbody.mp3"
+  },
+  "79d0cab9-909b-4eb9-b2b5-1b2ec08486d9": {
+    "asset": 1747906119292,
+    "meta": 1747906120513,
+    "relativePath": "resources\\images\\1hill.png"
+  },
+  "10a8f4fd-474d-4148-be04-cfd652e0ce0c": {
+    "asset": 1747906119293,
+    "meta": 1747906120537,
+    "relativePath": "resources\\images\\1lake.png"
+  },
+  "dc5a1908-5b0e-4920-b988-980665047320": {
+    "asset": 1747906119293,
+    "meta": 1747906120562,
+    "relativePath": "resources\\images\\1pond.png"
+  },
+  "6795c596-d336-44d3-a6be-d48e7f82fbcb": {
+    "asset": 1747906119333,
+    "meta": 1747906120565,
+    "relativePath": "resources\\images\\1.png"
+  },
+  "2c7e76eb-5c34-4e13-b6e1-b0e3fa9bb221": {
+    "asset": 1747906119325,
+    "meta": 1747906120619,
+    "relativePath": "resources\\images\\6.png"
+  },
+  "2a677c6d-5548-47ef-8702-1eb273c5dcee": {
+    "asset": 1747906119328,
+    "meta": 1747906120633,
+    "relativePath": "resources\\images\\7.png"
+  },
+  "b09406a1-e9ad-400b-805f-15068a264f7b": {
+    "asset": 1747906119295,
+    "meta": 1747906120653,
+    "relativePath": "resources\\images\\common-asset2.png"
+  },
+  "970ee6ff-70a6-4d4e-ac73-9e875bfacfab": {
+    "asset": 1747906119294,
+    "meta": 1747906120657,
+    "relativePath": "resources\\images\\Asset1(10).png"
+  },
+  "7ba975a5-3bae-463f-8376-d5ecd760f265": {
+    "asset": 1747906119303,
+    "meta": 1747906120665,
+    "relativePath": "resources\\images\\Asset28.png"
+  },
+  "55f2f900-c697-4fc5-a9b4-007a21e8cb0d": {
+    "asset": 1747906119332,
+    "meta": 1747906120681,
+    "relativePath": "resources\\images\\5.png"
+  },
+  "1b61f8e6-a4ec-4a66-93dc-b52482ada4a1": {
+    "asset": 1747906119331,
+    "meta": 1747906120692,
+    "relativePath": "resources\\images\\8.png"
+  },
+  "d31b46b1-4bcd-4cb5-bbed-c9d966a81025": {
+    "asset": 1747906119296,
+    "meta": 1747906120738,
+    "relativePath": "resources\\images\\dessert.png"
+  },
+  "dd17030a-c025-4888-b2c8-5697655b4b04": {
+    "asset": 1747906119332,
+    "meta": 1747906120742,
+    "relativePath": "resources\\images\\9.png"
+  },
+  "905ca451-c17c-4c7e-9c72-fa6cca8add9a": {
+    "asset": 1747906119325,
+    "meta": 1747906120760,
+    "relativePath": "resources\\images\\hill.png"
+  },
+  "99135ef6-ce78-4b49-9053-cee98a73a38f": {
+    "asset": 1747906119322,
+    "meta": 1747906120796,
+    "relativePath": "resources\\images\\jrkg.png"
+  },
+  "a6b9eb70-ce73-4ea0-b74f-b22c0cde2fdb": {
+    "asset": 1747906119296,
+    "meta": 1747906120806,
+    "relativePath": "resources\\images\\mountain.png"
+  },
+  "ba7bb8bb-14eb-4b91-a9cd-5c6b5baac8dc": {
+    "asset": 1747906119331,
+    "meta": 1747906120825,
+    "relativePath": "resources\\images\\lake.png"
+  },
+  "15ae0c2d-5e15-408c-82d2-d1da37affcd9": {
+    "asset": 1747906119296,
+    "meta": 1747906120865,
+    "relativePath": "resources\\images\\ocean.png"
+  },
+  "fc1dac0a-ef88-4135-97b6-43f8a9e98031": {
+    "asset": 1747906119296,
+    "meta": 1747906120871,
+    "relativePath": "resources\\images\\plain.png"
+  },
+  "164055aa-f536-4bbf-9267-d58eb3ac7796": {
+    "asset": 1747906119336,
+    "meta": 1747906120874,
+    "relativePath": "resources\\images\\look and feel.png"
+  },
+  "2729ce56-5f97-436d-8705-7e4f94a635c7": {
+    "asset": 1747906119318,
+    "meta": 1747906120908,
+    "relativePath": "resources\\images\\new loading screen for peet.png"
+  },
+  "cf948c05-43c7-4b9f-a7b4-586f509f29d5": {
+    "asset": 1747906119297,
+    "meta": 1747906120928,
+    "relativePath": "resources\\images\\river.png"
+  },
+  "ca79374e-6dae-43ec-9750-ffd57497ba57": {
+    "asset": 1747906119297,
+    "meta": 1747906120934,
+    "relativePath": "resources\\images\\valley.png"
+  },
+  "245710f8-5f86-4579-abcc-6d2d097582a3": {
+    "asset": 1747906119336,
+    "meta": 1747906120945,
+    "relativePath": "resources\\images\\pond.png"
+  },
+  "1cb72151-51e5-449f-b8ad-077ca34963cc": {
+    "asset": 1747906156182,
+    "meta": 1747906160729,
+    "relativePath": "resources\\game_data.json"
+  },
+  "ad4e5d42-7172-47db-8800-f7a8016b13a6": {
+    "asset": 1747906208364,
+    "meta": 1747906220184,
+    "relativePath": "Games\\WhatWillHappenNext\\Scripts\\gameplay.ts"
+  },
+  "12188c2b-0d4b-464f-af83-522906b417c5": {
+    "asset": 1747906260381,
+    "meta": 1747906261552,
+    "relativePath": "Games\\WhatWillHappenNext\\Scripts\\endScreen.ts"
   }
 }
