@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Personal Hygiene_LKG - Sunny_P10",
+      "totalLevel": "7",
+      "TitleImageName": "Healthyandunhealthyhygienehabits.png",
+      "introBgName": "Nursery.png",
+      "bgmMusicName": "",
+      "mainBgName": "bg.png",
+      "JockeyName": "girl",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "personal hygiene",
+        "questionAudioName": "identifythehealthyh.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset14.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset6.png",
+          "Asset13.png"
+        ],
+        "correctAudios": [
+          "41607162_2_wearing-clean-clothes.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "personal hygiene",
+        "questionAudioName": "identifythehealthyh.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset14.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset8.png",
+          "level2.png"
+        ],
+        "correctAudios": [
+          "41607162_3_combing-hair-neatly.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "personal hygiene",
+        "questionAudioName": "identifythehealthyh.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset14.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "level3.png",
+          "Asset12.png"
+        ],
+        "correctAudios": [
+          "p_44085442_738.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "personal hygiene",
+        "questionAudioName": "identifythehealthyh.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset14.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset7.png",
+          "Asset11.png"
+        ],
+        "correctAudios": [
+          "41607162_5_taking-a-bath.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "personal hygiene",
+        "questionAudioName": "identifythehealthyh.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset14.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "level5.png",
+          "Asset10.png"
+        ],
+        "correctAudios": [
+          "41607162_6_washing-hands-after-us.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "personal hygiene",
+        "questionAudioName": "identifythehealthyh.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset14.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset9.png",
+          "level6.png"
+        ],
+        "correctAudios": [
+          "eating food with clean hands.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "personal hygiene",
+        "questionAudioName": "identifythehealthyh.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset14.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset3.png",
+          "bath.png"
+        ],
+        "correctAudios": [
+          "41607162_8_wiping-your-body-dry-a.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
