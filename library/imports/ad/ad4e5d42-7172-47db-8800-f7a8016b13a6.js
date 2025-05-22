@@ -826,7 +826,6 @@ var gameplay = /** @class */ (function (_super) {
                 "positive_3",
                 "positive_4",
                 "positive_5",
-                "positive_6",
             ];
         }
         // console.log("anim length = ", anim.length);
