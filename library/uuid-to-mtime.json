@@ -1385,8 +1385,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\1.fire"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1747910535985,
-    "meta": 1747910536011,
+    "asset": 1747910639702,
+    "meta": 1747910639739,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\Title.fire"
   },
   "51f71569-6b9e-43a6-9703-1106a9f3d9d1": {
@@ -3161,7 +3161,7 @@
   },
   "d7929b81-7cf5-4096-ab2f-5b92467525ab": {
     "asset": 1747910405517,
-    "meta": 1747910451086,
+    "meta": 1747910630726,
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\1_PIET\\TitleAssets\\loading bar_1.png"
   },
   "a1b58f7a-e3e8-4ca6-9fc9-a504df0dd55e": {
@@ -3633,5 +3633,10 @@
     "asset": 1747910563729,
     "meta": 1747910565209,
     "relativePath": "Games\\WhatWillHappenNext\\Scripts\\gameplay.ts"
+  },
+  "9d47742b-3321-42ce-a8aa-2c4c6b7cead1": {
+    "asset": 1747910617489,
+    "meta": 1747910617520,
+    "relativePath": "Games\\WhatWillHappenNext\\Assets\\1_PIET\\TitleAssets\\loadingBar.prefab"
   }
 }
