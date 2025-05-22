@@ -878,7 +878,7 @@ var NewClass = /** @class */ (function (_super) {
             else if (StartGame_1.default.Instance.jockeyName == "boy") {
                 anim = ["negative_1", "negative_2"];
             }
-            else if (StartGame_1.default.Instance.jockeyName == "boy") {
+            else if (StartGame_1.default.Instance.jockeyName == "girl") {
                 anim = [
                     "negative_1",
                     "negative_2",

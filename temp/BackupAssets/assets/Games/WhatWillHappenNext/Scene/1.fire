@@ -843,7 +843,7 @@
     "_dstBlendFactor": 771,
     "_spriteFrame": null,
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -1122,7 +1122,7 @@
     "_dstBlendFactor": 771,
     "_spriteFrame": null,
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -2357,11 +2357,21 @@
       }
     ],
     "positiveAudio": [
-      null,
-      null,
-      null,
-      null,
-      null
+      {
+        "__uuid__": "a45d87ce-420c-42d5-8e19-14dcea1caeda"
+      },
+      {
+        "__uuid__": "c3e93765-50fd-4939-881c-7bfa2c72e295"
+      },
+      {
+        "__uuid__": "5fca5f83-56f5-4dda-8a99-bada4a7821c9"
+      },
+      {
+        "__uuid__": "a3141344-5c92-41bf-8366-59fde949a716"
+      },
+      {
+        "__uuid__": "3599665c-7374-468b-b95b-8b3bf84e50d9"
+      }
     ],
     "negativeAudio": [
       {

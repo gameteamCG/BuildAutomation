@@ -42,6 +42,8 @@ var startGame = /** @class */ (function (_super) {
         _this.LevelAgeParameters = [3, 5, 7];
         _this.isMusicOn = true;
         _this.playBtn_audio = null;
+        _this.playButton = null;
+        _this.loadingBar = null;
         _this.levelType = "1";
         _this.currentLevel = "1";
         _this.hasAccess = false;
@@ -184,18 +186,21 @@ var startGame = /** @class */ (function (_super) {
                 var id = cc.audioEngine.playMusic(_this.BGM_audio, true);
                 cc.audioEngine.setVolume(id, _this.volume);
             });
-            cc.loader.load(jsonData.additionalData.introBgName, function (err, texture) {
-                if (err) {
-                    console.error("Failed to load image:", err);
-                    return;
-                }
-                var spriteFrame = new cc.SpriteFrame(texture);
-                cc
-                    .find("Canvas")
-                    .getChildByName("bg")
-                    .getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                _this.introBG = spriteFrame;
-            });
+            // cc.loader.load(
+            // 	jsonData.additionalData.introBgName,
+            // 	(err, texture) => {
+            // 		if (err) {
+            // 			console.error("Failed to load image:", err);
+            // 			return;
+            // 		}
+            // 		const spriteFrame = new cc.SpriteFrame(texture);
+            // 		// cc
+            // 		// 	.find("Canvas")
+            // 		// 	.getChildByName("bg")
+            // 		// 	.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            // 		// this.introBG = spriteFrame;
+            // 	}
+            // );
             cc.loader.load(jsonData.additionalData.mainBgName, function (err, texture) {
                 if (err) {
                     console.error("Failed to load image:", err);
@@ -235,13 +240,16 @@ var startGame = /** @class */ (function (_super) {
                         .getChildByName("Title")
                         .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
-                _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.introBgName), function (spriteFrame) {
-                    cc
-                        .find("Canvas")
-                        .getChildByName("bg")
-                        .getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    _this.introBG = spriteFrame;
-                });
+                // this.loadSpriteFrame(
+                // 	this.removeExtension(jsonData.additionalData.introBgName),
+                // 	(spriteFrame) => {
+                // 		cc
+                // 			.find("Canvas")
+                // 			.getChildByName("bg")
+                // 			.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                // 		this.introBG = spriteFrame;
+                // 	}
+                // );
                 _this.loadAudioClip(_this.removeAudioExtension(jsonData.additionalData.bgmMusicName), function (AudioClip) {
                     _this.BGM_audio = AudioClip;
                     var id = cc.audioEngine.playMusic(_this.BGM_audio, true);
@@ -413,9 +421,18 @@ var startGame = /** @class */ (function (_super) {
         }
     };
     startGame.prototype.OnPlayBtn = function (_event) {
-        _event.target.getComponent(cc.Button).interactable = false;
+        var _this = this;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
-        cc.director.loadScene("1");
+        this.playButton.active = false;
+        this.loadingBar.node.active = true;
+        cc.director.preloadScene(this.NextSceneName, function (current, total) {
+            _this.loadingBar.progress = current / total;
+        }, function () {
+            // this.exitTransition.play();
+            // this.scheduleOnce(() => {
+            cc.director.loadScene(_this.NextSceneName);
+            // }, this.exitTransition.defaultClip.duration / this.exitTransition.defaultClip.speed);
+        });
     };
     startGame.prototype.OnBack = function () {
         console.log("gameExit--true");
@@ -469,6 +486,12 @@ var startGame = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], startGame.prototype, "playBtn_audio", void 0);
+    __decorate([
+        property(cc.Node)
+    ], startGame.prototype, "playButton", void 0);
+    __decorate([
+        property(cc.ProgressBar)
+    ], startGame.prototype, "loadingBar", void 0);
     __decorate([
         property(Boolean)
     ], startGame.prototype, "isPremiumGame", void 0);

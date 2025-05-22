@@ -75,7 +75,7 @@ export default class NewClass extends cc.Component {
 			this.node.getComponent(cc.AudioSource).clip = this.star[0];
 			this.node.getComponent(cc.AudioSource).play();
 			cc.tween(this.node.getChildByName("star1"))
-				.to(0.5, { scale: 0.9 }, { easing: "sineInOut" })
+				.to(0.5, { scale: 0.9 }, { easing: "backOut" })
 				.start();
 		}, 0.8);
 
@@ -83,7 +83,7 @@ export default class NewClass extends cc.Component {
 			this.node.getComponent(cc.AudioSource).clip = this.star[0];
 			this.node.getComponent(cc.AudioSource).play();
 			cc.tween(this.node.getChildByName("star2"))
-				.to(0.5, { scale: 0.9 }, { easing: "sineInOut" })
+				.to(0.5, { scale: 0.9 }, { easing: "backOut" })
 				.start();
 		}, 1.3);
 
@@ -91,7 +91,7 @@ export default class NewClass extends cc.Component {
 			this.node.getComponent(cc.AudioSource).clip = this.star[0];
 			this.node.getComponent(cc.AudioSource).play();
 			cc.tween(this.node.getChildByName("star3"))
-				.to(0.5, { scale: 0.9 }, { easing: "sineInOut" })
+				.to(0.5, { scale: 0.9 }, { easing: "backOut" })
 				.start();
 		}, 1.8);
 

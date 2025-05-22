@@ -51,7 +51,11 @@ export default class startGame extends cc.Component {
 	isMusicOn: boolean = true;
 	@property(cc.AudioClip)
 	playBtn_audio: cc.AudioClip = null;
+	@property(cc.Node)
+	playButton: cc.Node = null;
 
+	@property(cc.ProgressBar)
+	loadingBar: cc.ProgressBar = null;
 	levelType: string = "1";
 	currentLevel: string = "1";
 	hasAccess: boolean = false;
@@ -209,21 +213,21 @@ export default class startGame extends cc.Component {
 					cc.audioEngine.setVolume(id, this.volume);
 				}
 			);
-			cc.loader.load(
-				jsonData.additionalData.introBgName,
-				(err, texture) => {
-					if (err) {
-						console.error("Failed to load image:", err);
-						return;
-					}
-					const spriteFrame = new cc.SpriteFrame(texture);
-					cc
-						.find("Canvas")
-						.getChildByName("bg")
-						.getComponent(cc.Sprite).spriteFrame = spriteFrame;
-					this.introBG = spriteFrame;
-				}
-			);
+			// cc.loader.load(
+			// 	jsonData.additionalData.introBgName,
+			// 	(err, texture) => {
+			// 		if (err) {
+			// 			console.error("Failed to load image:", err);
+			// 			return;
+			// 		}
+			// 		const spriteFrame = new cc.SpriteFrame(texture);
+			// 		// cc
+			// 		// 	.find("Canvas")
+			// 		// 	.getChildByName("bg")
+			// 		// 	.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+			// 		// this.introBG = spriteFrame;
+			// 	}
+			// );
 			cc.loader.load(
 				jsonData.additionalData.mainBgName,
 				(err, texture) => {
@@ -274,16 +278,16 @@ export default class startGame extends cc.Component {
 							.getComponent(cc.Sprite).spriteFrame = spriteFrame;
 					}
 				);
-				this.loadSpriteFrame(
-					this.removeExtension(jsonData.additionalData.introBgName),
-					(spriteFrame) => {
-						cc
-							.find("Canvas")
-							.getChildByName("bg")
-							.getComponent(cc.Sprite).spriteFrame = spriteFrame;
-						this.introBG = spriteFrame;
-					}
-				);
+				// this.loadSpriteFrame(
+				// 	this.removeExtension(jsonData.additionalData.introBgName),
+				// 	(spriteFrame) => {
+				// 		cc
+				// 			.find("Canvas")
+				// 			.getChildByName("bg")
+				// 			.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+				// 		this.introBG = spriteFrame;
+				// 	}
+				// );
 				this.loadAudioClip(
 					this.removeAudioExtension(
 						jsonData.additionalData.bgmMusicName
@@ -479,9 +483,21 @@ export default class startGame extends cc.Component {
 	}
 
 	OnPlayBtn(_event: cc.Event) {
-		_event.target.getComponent(cc.Button).interactable = false;
 		cc.audioEngine.playEffect(this.playBtn_audio, false);
-		cc.director.loadScene("1");
+		this.playButton.active = false;
+		this.loadingBar.node.active = true;
+		cc.director.preloadScene(
+			this.NextSceneName,
+			(current, total) => {
+				this.loadingBar.progress = current / total;
+			},
+			() => {
+				// this.exitTransition.play();
+				// this.scheduleOnce(() => {
+				cc.director.loadScene(this.NextSceneName);
+				// }, this.exitTransition.defaultClip.duration / this.exitTransition.defaultClip.speed);
+			}
+		);
 	}
 
 	OnBack() {

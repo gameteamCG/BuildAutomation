@@ -1063,7 +1063,7 @@ export default class NewClass extends cc.Component {
 				anim = ["negative_1", "negative_2"];
 			} else if (startGame.Instance.jockeyName == "boy") {
 				anim = ["negative_1", "negative_2"];
-			} else if (startGame.Instance.jockeyName == "boy") {
+			} else if (startGame.Instance.jockeyName == "girl") {
 				anim = [
 					"negative_1",
 					"negative_2",
