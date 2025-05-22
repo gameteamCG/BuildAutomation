@@ -792,7 +792,7 @@ export default class video extends cc.Component {
 				.getComponent(cc.Animation)
 				.play().wrapMode = cc.WrapMode.Reverse;
 			this.scheduleOnce(() => {
-				this.node.getParent().getChildByName("gameEnd").active = true;
+				cc.find("Canvas/gameEnd").active = true;
 				console.log("showedScreen--Excellent");
 				console.log("gameEnded--true");
 				if (

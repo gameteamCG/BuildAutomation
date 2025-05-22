@@ -693,7 +693,7 @@ var video = /** @class */ (function (_super) {
                 .getComponent(cc.Animation)
                 .play().wrapMode = cc.WrapMode.Reverse;
             this.scheduleOnce(function () {
-                _this.node.getParent().getChildByName("gameEnd").active = true;
+                cc.find("Canvas/gameEnd").active = true;
                 console.log("showedScreen--Excellent");
                 console.log("gameEnded--true");
                 if (StartGame_1.default.Instance.jockeyName == "bag" ||
