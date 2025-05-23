@@ -1120,8 +1120,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Materials\\grey.mtl"
   },
   "cf4e36d8-89d2-4945-a198-67e319127411": {
-    "asset": 1748005714574,
-    "meta": 1748005776325,
+    "asset": 1748006224992,
+    "meta": 1748006225014,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\1.fire"
   },
   "064fa1cd-c092-45a6-8a88-4c65b8b70e53": {
@@ -1165,8 +1165,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\whats next.png"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1748006066037,
-    "meta": 1748006066055,
+    "asset": 1748006327210,
+    "meta": 1748006327235,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\Title.fire"
   },
   "92133877-574e-4eb5-9c58-79f64d3fc3ed": {
@@ -3483,5 +3483,155 @@
     "asset": 1748005875125,
     "meta": 1748005937647,
     "relativePath": "Framework\\Scripts\\StartGame.ts"
+  },
+  "a8a6c204-217e-4e42-9c60-eb0ed0fa380c": {
+    "asset": 1748006172847,
+    "meta": 1748006173224,
+    "relativePath": "resources\\audios"
+  },
+  "5160277d-3352-4cc5-b98c-f9a84f6b342a": {
+    "asset": 1748006172849,
+    "meta": 1748006174349,
+    "relativePath": "resources\\audios\\Ifyouhappentopushanyonewhilewalkingplayingsay Sorry.mp3"
+  },
+  "0225c799-e02e-4712-8b30-c697acace1e6": {
+    "asset": 1748006172849,
+    "meta": 1748006174351,
+    "relativePath": "resources\\audios\\IfyougethelpfrommummyanddaddysayThankyou.mp3"
+  },
+  "9f5ff2dd-11b3-48e3-9e29-7134bca4ca22": {
+    "asset": 1748006172850,
+    "meta": 1748006174353,
+    "relativePath": "resources\\audios\\IfsomeonepicksupfallenthingsforyousayThankyou.mp3"
+  },
+  "e0a17a5a-1f03-4daf-ac8a-4934f975c012": {
+    "asset": 1748006172851,
+    "meta": 1748006174355,
+    "relativePath": "resources\\audios\\IfyouwanthelpfrommummyordaddytopackyourschoolbagsayPlease.mp3"
+  },
+  "c632fe0d-5f3f-4d7d-b004-0ad100673ad0": {
+    "asset": 1748006172850,
+    "meta": 1748006174357,
+    "relativePath": "resources\\audios\\IfsomeoneshareswithyousayThankyou.mp3"
+  },
+  "68043eca-473e-4a98-9ed9-f5d73ddaed8b": {
+    "asset": 1748006172850,
+    "meta": 1748006174359,
+    "relativePath": "resources\\audios\\IfyouwantsomeonetosharesomethingwithyousayPlease.mp3"
+  },
+  "bfa5b472-9a21-4323-95c1-40370315028f": {
+    "asset": 1748006172849,
+    "meta": 1748006174360,
+    "relativePath": "resources\\audios\\Ifyouknowinglyorunknowinglyhurtsomeonesaysorry.mp3"
+  },
+  "58e81aa7-1209-4cb4-848a-ffb83298162c": {
+    "asset": 1748006172873,
+    "meta": 1748006174364,
+    "relativePath": "resources\\audios\\bgmss.mp3"
+  },
+  "08542a73-2d02-476c-818e-b8c21db6608a": {
+    "asset": 1748006172851,
+    "meta": 1748006174403,
+    "relativePath": "resources\\audios\\IfyouwantyourfriendtosharehisorhertoyswithyousayPlease..mp3"
+  },
+  "5f892d9e-1d71-489d-b7a8-70aea57d156f": {
+    "asset": 1748006172851,
+    "meta": 1748006174406,
+    "relativePath": "resources\\audios\\selecttheimagewhenyouwouldsaysorry..mp3"
+  },
+  "a423004f-eced-4953-aed7-dc63d1346b89": {
+    "asset": 1748006172854,
+    "meta": 1748006174407,
+    "relativePath": "resources\\audios\\selecttheimagewhenyouwouldsaythankyou.mp3"
+  },
+  "ac15c416-470e-4475-82f3-cd1d2b38b7f0": {
+    "asset": 1748006172854,
+    "meta": 1748006174411,
+    "relativePath": "resources\\audios\\selecttheimagewhenyouwouldsayplease.mp3"
+  },
+  "28e24afa-2a78-4e9b-9bd1-d024b7b4e0bd": {
+    "asset": 1748006230682,
+    "meta": 1748006233098,
+    "relativePath": "resources\\game_data.json"
+  },
+  "13f5d301-6bbb-4960-bd72-98a45c6be782": {
+    "asset": 1748006326389,
+    "meta": 1748006326633,
+    "relativePath": "resources\\images"
+  },
+  "320ee7bd-3a5c-41cb-bb4f-0c26fc9eec64": {
+    "asset": 1748006326391,
+    "meta": 1748006326692,
+    "relativePath": "resources\\images\\3.png"
+  },
+  "b6877512-7f1b-4e1d-a781-e663a9e326ac": {
+    "asset": 1748006326393,
+    "meta": 1748006326695,
+    "relativePath": "resources\\images\\7.png"
+  },
+  "e43b325f-3fb6-48e0-aaf1-1a58b267fc45": {
+    "asset": 1748006326391,
+    "meta": 1748006326699,
+    "relativePath": "resources\\images\\2.png"
+  },
+  "90e13c89-0ecb-4cfe-aa96-bdef763ed7ef": {
+    "asset": 1748006326391,
+    "meta": 1748006326704,
+    "relativePath": "resources\\images\\8.png"
+  },
+  "b9f1978b-5a92-43b4-ab3c-d14efb9a9b79": {
+    "asset": 1748006326391,
+    "meta": 1748006326710,
+    "relativePath": "resources\\images\\6.png"
+  },
+  "68a435fa-c131-4b33-a391-9348428097c2": {
+    "asset": 1748006326392,
+    "meta": 1748006326719,
+    "relativePath": "resources\\images\\1.png"
+  },
+  "d7ef629f-8089-4090-a00a-305548acdc10": {
+    "asset": 1748006326391,
+    "meta": 1748006326734,
+    "relativePath": "resources\\images\\Asset 6.png"
+  },
+  "ba5e7434-fd78-46ad-bb41-e95a88573fd0": {
+    "asset": 1748006326393,
+    "meta": 1748006326776,
+    "relativePath": "resources\\images\\Asset3.png"
+  },
+  "ac8f3c2b-b43f-430e-8481-fb03777ed526": {
+    "asset": 1748006326393,
+    "meta": 1748006326788,
+    "relativePath": "resources\\images\\Asset54.png"
+  },
+  "39b47ca5-3668-4929-9309-77387223448b": {
+    "asset": 1748006326393,
+    "meta": 1748006326806,
+    "relativePath": "resources\\images\\9.png"
+  },
+  "fe249e95-40a4-47ff-8fcd-dc1de112d331": {
+    "asset": 1748006326393,
+    "meta": 1748006326818,
+    "relativePath": "resources\\images\\Asset1.png"
+  },
+  "cd67aa6b-0099-48f9-abf3-b4b9bd3da53a": {
+    "asset": 1748006326391,
+    "meta": 1748006326825,
+    "relativePath": "resources\\images\\Asset2.png"
+  },
+  "4408783b-e5a4-4224-8f91-c2681ed7e74e": {
+    "asset": 1748006326395,
+    "meta": 1748006326849,
+    "relativePath": "resources\\images\\Magicwords.png"
+  },
+  "5ca0b88b-4463-4d66-a376-58ca39a5c454": {
+    "asset": 1748006326399,
+    "meta": 1748006326923,
+    "relativePath": "resources\\images\\bg.png"
+  },
+  "4eb7c429-6c1f-4ad8-ba0f-545443c2fbb4": {
+    "asset": 1748006326401,
+    "meta": 1748006326946,
+    "relativePath": "resources\\images\\NURSE.png"
   }
 }

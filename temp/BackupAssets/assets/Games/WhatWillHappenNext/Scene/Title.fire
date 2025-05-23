@@ -3305,7 +3305,9 @@
     "playButton": {
       "__id__": 23
     },
-    "loadingBar": null,
+    "loadingBar": {
+      "__id__": 18
+    },
     "totalLevels": 7,
     "_id": "084Fq54/FDVaDDj+BDSytU"
   },
