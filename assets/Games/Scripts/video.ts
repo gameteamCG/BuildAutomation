@@ -792,7 +792,8 @@ export default class video extends cc.Component {
 				.getComponent(cc.Animation)
 				.play().wrapMode = cc.WrapMode.Reverse;
 			this.scheduleOnce(() => {
-				this.node.getParent().getChildByName("gameEnd").active = true;
+				cc.find("Canvas/gameEnd").active = true;
+				// this.node.getParent().getChildByName("gameEnd").active = true;
 				console.log("showedScreen--Excellent");
 				console.log("gameEnded--true");
 				if (
@@ -804,17 +805,17 @@ export default class video extends cc.Component {
 						.getChildByName("gameEnd")
 						.getChildByName("jaipuria").active = true;
 				} else {
-					this.node
-						.getParent()
-						.getChildByName("gameEnd")
-						.getChildByName(startGame.Instance.jockeyName).active =
-						true;
+					// this.node
+					// 	.getParent()
+					// 	.getChildByName("gameEnd")
+					// 	.getChildByName(startGame.Instance.jockeyName).active =
+					// 	true;
 				}
 				this.scheduleOnce(() => {
 					this.node.active = false;
 					if (
-						startGame.Instance.jockeyName == "bag" ||
-						startGame.Instance.jockeyName == "crayon"
+						startGame.Instance.jockeyName == "boy" ||
+						startGame.Instance.jockeyName == "girl"
 					) {
 						this.node
 							.getParent()

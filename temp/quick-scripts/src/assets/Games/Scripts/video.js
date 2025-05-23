@@ -693,7 +693,8 @@ var video = /** @class */ (function (_super) {
                 .getComponent(cc.Animation)
                 .play().wrapMode = cc.WrapMode.Reverse;
             this.scheduleOnce(function () {
-                _this.node.getParent().getChildByName("gameEnd").active = true;
+                cc.find("Canvas/gameEnd").active = true;
+                // this.node.getParent().getChildByName("gameEnd").active = true;
                 console.log("showedScreen--Excellent");
                 console.log("gameEnded--true");
                 if (StartGame_1.default.Instance.jockeyName == "bag" ||
@@ -704,16 +705,16 @@ var video = /** @class */ (function (_super) {
                         .getChildByName("jaipuria").active = true;
                 }
                 else {
-                    _this.node
-                        .getParent()
-                        .getChildByName("gameEnd")
-                        .getChildByName(StartGame_1.default.Instance.jockeyName).active =
-                        true;
+                    // this.node
+                    // 	.getParent()
+                    // 	.getChildByName("gameEnd")
+                    // 	.getChildByName(startGame.Instance.jockeyName).active =
+                    // 	true;
                 }
                 _this.scheduleOnce(function () {
                     _this.node.active = false;
-                    if (StartGame_1.default.Instance.jockeyName == "bag" ||
-                        StartGame_1.default.Instance.jockeyName == "crayon") {
+                    if (StartGame_1.default.Instance.jockeyName == "boy" ||
+                        StartGame_1.default.Instance.jockeyName == "girl") {
                         _this.node
                             .getParent()
                             .getChildByName("gameEnd")
