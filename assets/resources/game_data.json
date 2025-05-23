@@ -68,7 +68,7 @@
 			"numberOfOptions": 2,
 			"options": ["car.png", "motorbike.png"],
 			"correctAudios": ["45355069_5_motorbike-.mp3"],
-			"correctAnswerNum": "1"
+			"correctAnswerNum": "2"
 		},
 		{
 			"questionText": "heavy",
