@@ -378,6 +378,10 @@ var NewClass = /** @class */ (function (_super) {
             this.positiveAudio = this.stallionPositive;
             this.negativeAudio = this.stallionNegative;
         }
+        else if (StartGame_1.default.Instance.jockeyName == "girl") {
+            this.positiveAudio = this.positiveAudio;
+            this.negativeAudio = this.negativeAudio;
+        }
     };
     NewClass.prototype.getRandomNumber = function (min, max) {
         var _number = Math.random();

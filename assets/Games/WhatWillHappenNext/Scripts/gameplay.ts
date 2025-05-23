@@ -529,6 +529,9 @@ export default class NewClass extends cc.Component {
 		} else if (startGame.Instance.jockeyName == "stallion") {
 			this.positiveAudio = this.stallionPositive;
 			this.negativeAudio = this.stallionNegative;
+		} else if (startGame.Instance.jockeyName == "girl") {
+			this.positiveAudio = this.positiveAudio;
+			this.negativeAudio = this.negativeAudio;
 		}
 	}
 
@@ -703,7 +706,7 @@ export default class NewClass extends cc.Component {
 				.children[i - 1].setPosition(
 					0 - 100,
 					this.node.getChildByName("QuestionBox").getPosition().y -
-						100
+					100
 				);
 			this.scheduleOnce(() => {
 				let objScale: number = 0;
@@ -2024,5 +2027,5 @@ export default class NewClass extends cc.Component {
 		}
 	}
 
-	update() {}
+	update() { }
 }
