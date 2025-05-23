@@ -244,7 +244,9 @@ var Gameplay = /** @class */ (function (_super) {
         this.needReiteration = questionData.needReiteration;
         this.LoadAssetsAudios(questionData);
         if (this.needReiteration) {
-            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = questionData.correctAnswer;
+            // this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = questionData.correctAnswer;
+            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = "";
+            this.node.getChildByName("reiteration").getChildByName("text").active = false;
             if (questionData.reiterationImageName != null && questionData.reiterationImageName != "") {
                 if (StartGame_1.default.Instance.isDemoGame) {
                     cc.loader.load(questionData.reiterationImageName, function (err, texture) {
