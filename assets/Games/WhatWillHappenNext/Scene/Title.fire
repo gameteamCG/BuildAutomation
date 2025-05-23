@@ -3414,7 +3414,7 @@
     "BGM_audio": {
       "__uuid__": "0de1ef27-6197-41a4-8ab5-319bb65fecab"
     },
-    "volume": 0.3,
+    "volume": 0.08,
     "NextSceneName": "1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [
