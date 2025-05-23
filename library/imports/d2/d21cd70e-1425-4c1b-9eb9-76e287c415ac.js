@@ -53,6 +53,8 @@ var startGame = /** @class */ (function (_super) {
         // mobNumAvailable: boolean = false;
         _this.mainBg = null;
         _this.jockey = null;
+        _this.playButton = null;
+        _this.loadingBar = null;
         _this.JockeyNode = null;
         _this.firstClick = 1;
         _this.clickEvent = false;
@@ -413,9 +415,18 @@ var startGame = /** @class */ (function (_super) {
         }
     };
     startGame.prototype.OnPlayBtn = function (_event) {
-        _event.target.getComponent(cc.Button).interactable = false;
+        var _this = this;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
-        cc.director.loadScene("1");
+        this.playButton.active = false;
+        this.loadingBar.node.active = true;
+        cc.director.preloadScene(this.NextSceneName, function (current, total) {
+            _this.loadingBar.progress = current / total;
+        }, function () {
+            // this.exitTransition.play();
+            // this.scheduleOnce(() => {
+            cc.director.loadScene(_this.NextSceneName);
+            // }, this.exitTransition.defaultClip.duration / this.exitTransition.defaultClip.speed);
+        });
     };
     startGame.prototype.OnBack = function () {
         console.log("gameExit--true");
@@ -481,6 +492,12 @@ var startGame = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], startGame.prototype, "jockey", void 0);
+    __decorate([
+        property(cc.Node)
+    ], startGame.prototype, "playButton", void 0);
+    __decorate([
+        property(cc.ProgressBar)
+    ], startGame.prototype, "loadingBar", void 0);
     __decorate([
         property(Number)
     ], startGame.prototype, "totalLevels", void 0);
