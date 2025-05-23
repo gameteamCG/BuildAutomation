@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brushingtwice",
+    "texture": "6795ba05-7f47-4cde-877d-27d927d10f7f",
+    "atlas": "",
+    "rect": [
+      82,
+      25,
+      334,
+      451
+    ],
+    "offset": [
+      -1,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+	"additionalData": {
+		"GameID": "Healthy and unhealthy habits",
+		"totalLevel": "8",
+		"TitleImageName": "Healthyandunhealthyhabitstitle.png",
+		"introBgName": "Juniorskg.png",
+		"bgmMusicName": "bgmss.mp3",
+		"mainBgName": "indoorbg.png",
+		"JockeyName": "girl"
+	},
+	"questionData": [
+		{
+			"questionText": "healthy and unhealthy habits",
+			"questionImageName": "exercising.png",
+			"questionAudioName": "Is exercising daily a healthy habit or not.mp3",
+			"shouldPlayQuestionAudio": true,
+			"commonOptionImageName": "panel.png",
+			"isOptionText": false,
+			"numberOfOptions": 2,
+			"options": ["thumbsup.png", "thumbsdown.png"],
+			"correctAudioName": "yes, it is a healthy habit.mp3",
+			"correctAnswerNum": "1"
+		},
+		{
+			"questionText": "healthy and unhealthy habits",
+			"questionImageName": "notcleaningtoys.png",
+			"questionAudioName": "Is keeping the room messy with toys all around a healthy habit or not.mp3",
+			"shouldPlayQuestionAudio": true,
+			"commonOptionImageName": "panel.png",
+			"isOptionText": false,
+			"numberOfOptions": 2,
+			"options": ["thumbsup.png", "thumbsdown.png"],
+			"correctAudioName": "no, its an unhealthy habit.mp3",
+			"correctAnswerNum": "2"
+		},
+		{
+			"questionText": "healthy and unhealthy habits",
+			"questionImageName": "eatingjunkfood.png",
+			"questionAudioName": "is eating junk food a healthy habit or not.mp3",
+			"shouldPlayQuestionAudio": true,
+			"commonOptionImageName": "panel.png",
+			"isOptionText": false,
+			"numberOfOptions": 2,
+			"options": ["thumbsdown.png", "thumbsup.png"],
+			"correctAudioName": "no, its an unhealthy habit.mp3",
+			"correctAnswerNum": "1"
+		},
+		{
+			"questionText": "healthy and unhealthy habits",
+			"questionImageName": "bathing.png",
+			"questionAudioName": "is taking a bath a healthy habit or not.mp3",
+			"shouldPlayQuestionAudio": true,
+			"commonOptionImageName": "panel.png",
+			"isOptionText": false,
+			"numberOfOptions": 2,
+			"options": ["thumbsup.png", "thumbsdown.png"],
+			"correctAudioName": "yes, it is a healthy habit.mp3",
+			"correctAnswerNum": "1"
+		},
+		{
+			"questionText": "healthy and unhealthy habits",
+			"questionImageName": "brushingtwice.png",
+			"questionAudioName": "is brushing your teeth a healthy habit or not.mp3",
+			"shouldPlayQuestionAudio": true,
+			"commonOptionImageName": "panel.png",
+			"isOptionText": false,
+			"numberOfOptions": 2,
+			"options": ["thumbsup.png", "thumbsdown.png"],
+			"correctAudioName": "yes, it is a healthy habit.mp3",
+			"correctAnswerNum": "1"
+		},
+		{
+			"questionText": "healthy and unhealthy habits",
+			"questionImageName": "watchingtv.png",
+			"questionAudioName": "is watching too much television a healthy habit or not.mp3",
+			"shouldPlayQuestionAudio": true,
+			"commonOptionImageName": "panel.png",
+			"isOptionText": false,
+			"numberOfOptions": 2,
+			"options": ["thumbsup.png", "thumbsdown.png"],
+			"correctAudioName": "no, its an unhealthy habit.mp3",
+			"correctAnswerNum": "2"
+		},
+		{
+			"questionText": "healthy and unhealthy habits",
+			"questionImageName": "sleepinglate.png",
+			"questionAudioName": "is sleeping late at night a healthy habit or not.mp3",
+			"shouldPlayQuestionAudio": true,
+			"commonOptionImageName": "panel.png",
+			"isOptionText": false,
+			"numberOfOptions": 2,
+			"options": ["thumbsdown.png", "thumbsup.png"],
+			"correctAudioName": "no, its an unhealthy habit.mp3",
+			"correctAnswerNum": "1"
+		},
+		{
+			"questionText": "healthy and unhealthy habits",
+			"questionImageName": "washinghands.png",
+			"questionAudioName": "is washing hands a healthy habit or not.mp3",
+			"shouldPlayQuestionAudio": true,
+			"commonOptionImageName": "panel.png",
+			"isOptionText": false,
+			"numberOfOptions": 2,
+			"options": ["thumbsdown.png", "thumbsup.png"],
+			"correctAudioName": "yes, it is a healthy habit.mp3",
+			"correctAnswerNum": "2"
+		}
+	]
+}
