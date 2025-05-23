@@ -54,7 +54,7 @@
 			"isOptionText": false,
 			"isOptionBG": true,
 			"numberOfOptions": 2,
-			"options": ["football.png", "tennis ball.png"],
+			"options": ["football.png", "feather.png"],
 			"correctAudios": ["45355069_3_football-.mp3"],
 			"correctAnswerNum": "1"
 		},
@@ -78,7 +78,7 @@
 			"isOptionText": false,
 			"isOptionBG": true,
 			"numberOfOptions": 2,
-			"options": ["pebble.png", "rock.png"],
+			"options": ["leaf.png", "rock.png"],
 			"correctAudios": ["45355069_7_rock- (1).mp3"],
 			"correctAnswerNum": "2"
 		}
