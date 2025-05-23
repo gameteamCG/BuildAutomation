@@ -4,11 +4,6 @@
     "meta": 1747978229394,
     "relativePath": "resources"
   },
-  "48531029-3cfd-4d23-abb9-057b4b7762b9": {
-    "asset": 1747927151929,
-    "meta": 1747978229762,
-    "relativePath": "resources\\empty.ts"
-  },
   "9836134e-b892-4283-b6b2-78b5acf3ed45": {
     "asset": 1725456417976,
     "meta": 1747978208652,
@@ -1615,8 +1610,8 @@
     "relativePath": "Games\\Podar_ Day 111 - Video Quiz (solar system)\\L5 (2).mp3"
   },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1747978422583,
-    "meta": 1747978422612,
+    "asset": 1747979481753,
+    "meta": 1747979481795,
     "relativePath": "Games\\Scenes\\video.fire"
   },
   "456cfa32-849a-4a2e-b948-4c7983ad00a4": {
@@ -4963,5 +4958,205 @@
     "asset": 1747978405278,
     "meta": 1747978410134,
     "relativePath": "Games\\Scripts\\video.ts"
+  },
+  "48531029-3cfd-4d23-abb9-057b4b7762b9": {
+    "asset": 1747979229904,
+    "meta": 1747979230246,
+    "relativePath": "resources\\empty.ts"
+  },
+  "76c9d927-2979-4793-bdfa-6342bcbcc489": {
+    "asset": 1747979230287,
+    "meta": 1747979230346,
+    "relativePath": "resources\\images"
+  },
+  "60c5a4f7-3a4c-4771-ac78-0d0e1c9d127d": {
+    "asset": 1747979229904,
+    "meta": 1747979230400,
+    "relativePath": "resources\\game_data.json"
+  },
+  "f2573dde-d060-47c6-a196-14887dc57c0c": {
+    "asset": 1747979230137,
+    "meta": 1747979230501,
+    "relativePath": "resources\\images\\1.png"
+  },
+  "1feddf22-e952-4aba-b0d7-5214319317c3": {
+    "asset": 1747979230137,
+    "meta": 1747979230505,
+    "relativePath": "resources\\images\\aeroplane.png"
+  },
+  "eb265bba-ad2d-4406-a03c-597927fd1266": {
+    "asset": 1747979230137,
+    "meta": 1747979230536,
+    "relativePath": "resources\\images\\4.png"
+  },
+  "5b3c8281-12ac-49c4-b818-19e6f54f754c": {
+    "asset": 1747979230137,
+    "meta": 1747979230561,
+    "relativePath": "resources\\images\\astronaut.png"
+  },
+  "ecf86920-1d15-4d74-aed8-fbf6ceac6ad2": {
+    "asset": 1747979230137,
+    "meta": 1747979230566,
+    "relativePath": "resources\\images\\3.png"
+  },
+  "881d903e-0687-404a-b163-e2fc0269e318": {
+    "asset": 1747979230137,
+    "meta": 1747979230576,
+    "relativePath": "resources\\images\\battery.png"
+  },
+  "f14c2c52-af74-4ac5-bed0-0d9c46aa71a1": {
+    "asset": 1747979230137,
+    "meta": 1747979230620,
+    "relativePath": "resources\\images\\bed.png"
+  },
+  "f0bd661a-3f86-4b1f-91b3-ca1c7ff68ce1": {
+    "asset": 1747979230137,
+    "meta": 1747979230643,
+    "relativePath": "resources\\images\\dishantenna.png"
+  },
+  "1ef04efa-900d-4a21-930b-18668e330ec4": {
+    "asset": 1747979230137,
+    "meta": 1747979230651,
+    "relativePath": "resources\\images\\chair.png"
+  },
+  "f56760fb-0650-49ec-b492-64418d9d21f2": {
+    "asset": 1747979230137,
+    "meta": 1747979230656,
+    "relativePath": "resources\\images\\farmer.png"
+  },
+  "01b10a5e-8c3a-4dfd-861e-b95d9b54264d": {
+    "asset": 1747979230137,
+    "meta": 1747979230661,
+    "relativePath": "resources\\images\\helicopter.png"
+  },
+  "c32f0672-2981-43fd-bd0a-5b0307ce8cab": {
+    "asset": 1747979230137,
+    "meta": 1747979230665,
+    "relativePath": "resources\\images\\rocket.png"
+  },
+  "8441da64-055d-49f8-8381-542af05a8c5d": {
+    "asset": 1747979230137,
+    "meta": 1747979230674,
+    "relativePath": "resources\\images\\painter.png"
+  },
+  "86e3d49c-6d85-4624-92e2-89ce66b9ae87": {
+    "asset": 1747979230135,
+    "meta": 1747979230677,
+    "relativePath": "resources\\audios"
+  },
+  "a97058c9-4995-418a-817b-5cf2086f2986": {
+    "asset": 1747979230137,
+    "meta": 1747979230745,
+    "relativePath": "resources\\images\\constructionworker.png"
+  },
+  "24811453-dc28-4c83-9896-7c8665a3b33b": {
+    "asset": 1747979230138,
+    "meta": 1747979230770,
+    "relativePath": "resources\\images\\rocks.png"
+  },
+  "ff1a960f-f277-419e-8cb3-cd1d0ba30ae1": {
+    "asset": 1747979230137,
+    "meta": 1747979230802,
+    "relativePath": "resources\\images\\sofa.png"
+  },
+  "0aa43e0a-02a3-4d6b-b378-904947533491": {
+    "asset": 1747979230137,
+    "meta": 1747979230808,
+    "relativePath": "resources\\images\\sleepingpod.png"
+  },
+  "f302d585-865b-48cc-81a1-367629a87d71": {
+    "asset": 1747979230137,
+    "meta": 1747979230812,
+    "relativePath": "resources\\images\\spacestation.png"
+  },
+  "3dd4beb5-b959-4cd9-9c53-74139267b391": {
+    "asset": 1747979230137,
+    "meta": 1747979230820,
+    "relativePath": "resources\\images\\solarpanel.png"
+  },
+  "c08f4c1d-ab87-48ab-befa-8d31b1ce8046": {
+    "asset": 1747979230137,
+    "meta": 1747979230848,
+    "relativePath": "resources\\images\\spacetravel.png"
+  },
+  "61dff825-4603-4fda-ba35-ad32d27b0ced": {
+    "asset": 1747979230138,
+    "meta": 1747979231962,
+    "relativePath": "resources\\audios\\astronauts.mp3"
+  },
+  "db9dc280-c8bb-4e95-a7f1-5c76817e9dad": {
+    "asset": 1747979230140,
+    "meta": 1747979231966,
+    "relativePath": "resources\\audios\\inthesleepingpod.mp3"
+  },
+  "74fed4b7-d0fe-470e-bb23-33101ab8d4b1": {
+    "asset": 1747979230138,
+    "meta": 1747979231970,
+    "relativePath": "resources\\audios\\Identifyandtaponthepictureofsolarpanels.mp3"
+  },
+  "d7d740f1-29cd-4831-92b7-063204d1c8fe": {
+    "asset": 1747979230138,
+    "meta": 1747979231972,
+    "relativePath": "resources\\audios\\IdentifytheictureoftheSpacestation.mp3"
+  },
+  "130b119c-1196-4844-bad7-32d8ef8c0463": {
+    "asset": 1747979230147,
+    "meta": 1747979231981,
+    "relativePath": "resources\\audios\\EXCELLENTJOB.mp3"
+  },
+  "f3b0a738-84e9-4eb8-a0a9-7c6941bdea74": {
+    "asset": 1747979230138,
+    "meta": 1747979231984,
+    "relativePath": "resources\\audios\\BRILLIANT.mp3"
+  },
+  "1e954262-af21-4e96-968e-904890a1392e": {
+    "asset": 1747979230147,
+    "meta": 1747979231988,
+    "relativePath": "resources\\audios\\GREATWORK.mp3"
+  },
+  "452312ae-9768-4338-a099-21ca24e9eb24": {
+    "asset": 1747979230161,
+    "meta": 1747979231993,
+    "relativePath": "resources\\audios\\bgm1.mp3"
+  },
+  "dd5da854-4d39-490b-921b-470104b8af1b": {
+    "asset": 1747979230140,
+    "meta": 1747979232029,
+    "relativePath": "resources\\audios\\spacestation.mp3"
+  },
+  "d817932a-5156-4928-8300-2c8afe0c35dc": {
+    "asset": 1747979230138,
+    "meta": 1747979232033,
+    "relativePath": "resources\\audios\\Wheredoastronautssleep.mp3"
+  },
+  "9003330f-b205-460d-92ad-5d11ac988b58": {
+    "asset": 1747979230140,
+    "meta": 1747979232036,
+    "relativePath": "resources\\audios\\solarpanelsconverttheenergyoftheSunintoelectricityforthespacestation.mp3"
+  },
+  "855d81e2-5ff0-482c-a281-a95b0515398f": {
+    "asset": 1747979230140,
+    "meta": 1747979232038,
+    "relativePath": "resources\\audios\\nevermind,tryagain.mp3"
+  },
+  "1d104f73-943e-460f-adcd-2867bd38e4a0": {
+    "asset": 1747979230138,
+    "meta": 1747979232045,
+    "relativePath": "resources\\audios\\Oopsietryoncemore.mp3"
+  },
+  "f1c1265d-a189-48da-ae6c-b95c44de30af": {
+    "asset": 1747979230138,
+    "meta": 1747979232047,
+    "relativePath": "resources\\audios\\Wholivsinthespacestation.mp3"
+  },
+  "bc709d31-5ba7-41ea-8c37-2866c5fbcd05": {
+    "asset": 1747979230140,
+    "meta": 1747979232051,
+    "relativePath": "resources\\audios\\ohoh.mp3"
+  },
+  "920227cd-09ef-4cbb-a534-ba9758762cbc": {
+    "asset": 1747979479918,
+    "meta": 1747979479996,
+    "relativePath": "resources\\images\\2.png"
   }
 }
