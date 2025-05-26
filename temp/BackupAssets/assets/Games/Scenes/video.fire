@@ -2312,7 +2312,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 400,
-      "height": 130
+      "height": 400
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5712,7 +5712,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "boy",
+    "_name": "girl",
     "_objFlags": 0,
     "_parent": {
       "__id__": 117

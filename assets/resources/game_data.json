@@ -1,0 +1,78 @@
+{
+	"AdditionalData": {
+		"GameID": "Solar system_UKG Social Science_101",
+		"VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Factsaboutsolarsystem.mp4",
+		"TitleImageName": "Asset131.png",
+		"IntroAudio1Name": "",
+		"IntroAudio2Name": "bgm1.mp3",
+		"JockeyName": "girl",
+		"TotalLevel": "4"
+	},
+	"QuestionData": [
+		{
+			"QuestionAppearTime": "999999",
+			"IsQuestionText": true,
+			"QuestionText": "Which is our home planet?",
+			"QuestionImageName": "",
+			"QuestionAudioName": "Whichisourhomeplanet.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": false,
+			"NumberOfOptions": 4,
+			"Options": ["sun.png", "venus.png", "pluto.png", "earth.png"],
+			"ReiterationAudioName": "earth.mp3",
+			"CorrectAudioName": "EXCELLENTJOB.mp3",
+			"WrongAudioName": "Oopsietryoncemore.mp3",
+			"CorrectAnswer": "4"
+		},
+		{
+			"QuestionAppearTime": "999999",
+			"IsQuestionText": true,
+			"QuestionText": "Which is the second planet in the solar system?",
+			"QuestionImageName": "",
+			"QuestionAudioName": "Whichisthesecondplanetinthesolarsystem.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": false,
+			"NumberOfOptions": 4,
+			"Options": ["uranus.png", "venus.png", "jupiter.png", "mars.png"],
+			"ReiterationAudioName": "venus.mp3",
+			"CorrectAudioName": "IMPRESSIVEWORK.mp3",
+			"WrongAudioName": "ohoh.mp3",
+			"CorrectAnswer": "2"
+		},
+		{
+			"QuestionAppearTime": "99999",
+			"IsQuestionText": true,
+			"QuestionText": "Which is the sixth planet of the solar system?",
+			"QuestionImageName": "",
+			"QuestionAudioName": "Whichisthe6thplanetofthesolarsystem.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": false,
+			"NumberOfOptions": 4,
+			"Options": [
+				"neptune.png",
+				"earth.png",
+				"saturn.png",
+				"mercury.png"
+			],
+			"ReiterationAudioName": "saturn.mp3",
+			"CorrectAudioName": "BRILLIANT.mp3",
+			"WrongAudioName": "Oopsietryoncemore.mp3",
+			"CorrectAnswer": "3"
+		},
+		{
+			"QuestionAppearTime": "999999",
+			"IsQuestionText": true,
+			"QuestionText": "which is the seventh planet of the solar system?",
+			"QuestionImageName": "",
+			"QuestionAudioName": "Whichisthe7thanetofthesolarsystem.mp3",
+			"PlayQuestionAudio": true,
+			"IsOptionText": false,
+			"NumberOfOptions": 4,
+			"Options": ["uranus.png", "sun.png", "milkyway.png", "mars.png"],
+			"ReiterationAudioName": "uranus.mp3",
+			"CorrectAudioName": "MAGNIFICENT.mp3",
+			"WrongAudioName": "ohoh.mp3",
+			"CorrectAnswer": "1"
+		}
+	]
+}
