@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Level2C",
+    "texture": "aee566f9-8358-4619-83bf-4e376dd3ff2e",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      508,
+      508
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      508,
+      509
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
