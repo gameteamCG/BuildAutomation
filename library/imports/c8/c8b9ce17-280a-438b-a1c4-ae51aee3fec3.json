@@ -1,0 +1,180 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "First letter_SCIS",
+      "totalLevel": "7",
+      "TitleImageName": "Asset245.png",
+      "introBgName": "introbg.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "First letter",
+        "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset23.png",
+        "commonDropNodeImageName": "Asset22.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "Artboard33copy.png",
+          "Artboard37copy.png"
+        ],
+        "reiterationAudios": [
+          "tturtle.mp3",
+          "wwalrus.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "turtle.png",
+          "walrus.png",
+          "yak.png"
+        ]
+      },
+      {
+        "questionText": "First letter",
+        "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset23.png",
+        "commonDropNodeImageName": "Asset22.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "Artboard23.png",
+          "Artboard37copy3.png"
+        ],
+        "reiterationAudios": [
+          "eegg.mp3",
+          "b_bee.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "egg.png",
+          "bee.png",
+          "kettle1.png"
+        ]
+      },
+      {
+        "questionText": "First letter",
+        "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset23.png",
+        "commonDropNodeImageName": "Asset22.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "Artboard37copy4.png",
+          "Artboard37copy5.png"
+        ],
+        "reiterationAudios": [
+          "s_starwberry.mp3",
+          "q_quill.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "strawbeery.png",
+          "quil.png",
+          "vulture.png"
+        ]
+      },
+      {
+        "questionText": "First letter",
+        "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset23.png",
+        "commonDropNodeImageName": "Asset22.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "Artboard37opy10.png",
+          "Artboard37copy11.png"
+        ],
+        "reiterationAudios": [
+          "yyoyo.mp3",
+          "vvulture.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "yoyo.png",
+          "vulture.png",
+          "duck.png"
+        ]
+      },
+      {
+        "questionText": "First letter",
+        "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset23.png",
+        "commonDropNodeImageName": "Asset22.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "Artboard37copy9.png",
+          "Artboard37copy8.png"
+        ],
+        "reiterationAudios": [
+          "iigloo.mp3",
+          "d_duck.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "igloo.png",
+          "duck.png",
+          "quil.png"
+        ]
+      },
+      {
+        "questionText": "First letter",
+        "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset23.png",
+        "commonDropNodeImageName": "Asset22.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "Artboardcopy7.png",
+          "Artboard37copy2.png"
+        ],
+        "reiterationAudios": [
+          "hhouse.mp3",
+          "kkettle.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "house.png",
+          "kettle1.png",
+          "egg.png"
+        ]
+      },
+      {
+        "questionText": "First letter",
+        "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset23.png",
+        "commonDropNodeImageName": "Asset22.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "Artboard33copy2.png",
+          "Artboard_3.png"
+        ],
+        "reiterationAudios": [
+          "zzoo.mp3",
+          "a_alligator.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "zoo.png",
+          "alligator.png",
+          "walrus.png"
+        ]
+      }
+    ]
+  }
+}

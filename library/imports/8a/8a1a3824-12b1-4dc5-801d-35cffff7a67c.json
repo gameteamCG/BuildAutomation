@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "walrus",
+    "texture": "acce3d66-92b6-4d1f-8f31-37536148ed44",
+    "atlas": "",
+    "rect": [
+      7,
+      217,
+      492,
+      271
+    ],
+    "offset": [
+      2.5,
+      -102
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
