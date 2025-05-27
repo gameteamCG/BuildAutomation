@@ -1,0 +1,222 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Decimal numbers_Grade 4 (Maths)__R34_T2",
+      "totalLevel": "7",
+      "TitleImageName": "title.png",
+      "introBgName": "jBG.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "BG@72x-8.png",
+      "JockeyName": "tortoise"
+    },
+    "questionData": [
+      {
+        "questionText": "Decimal Numbers",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Board@72x-8.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Level1A@72x-8.png",
+          "Level1B@72x-8.png",
+          "Level1C@72x-8.png",
+          "Level1D@72x-8.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Decimal Numbers",
+        "questionAudioName2": "positive_1.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "0.7@72x-8.png",
+          "0.3@72x-8.png",
+          "0.4@72x-8.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "0.3.mp3"
+      },
+      {
+        "questionText": "Decimal Numbers",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Board@72x-8.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Level2A@72x-8.png",
+          "Level2B@72x-8.png",
+          "Level2C@72x-8.png",
+          "Level2D@72x-8.png"
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Decimal Numbers",
+        "questionAudioName2": "choose.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "0.7@72x-8.png",
+          "0.25@72x-8.png",
+          "0.4@72x-8.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "0.7.mp3"
+      },
+      {
+        "questionText": "Decimal Numbers",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Board@72x-8.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Level3A@72x-8.png",
+          "Level3B@72x-8.png",
+          "Level3C@72x-8.png",
+          "Level3D@72x-8.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Decimal Numbers",
+        "questionAudioName2": "choose.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "0.3@72x-8.png",
+          "0.25@72x-8.png",
+          "0.4@72x-8.png"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "0.4.mp3"
+      },
+      {
+        "questionText": "Decimal Numbers",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Board@72x-8.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Level4A@72x-8.png",
+          "Level4B@72x-8.png",
+          "Level4C@72x-8.png",
+          "Level4D@72x-8.png"
+        ],
+        "correctAudioName": "positive_4.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Decimal Numbers",
+        "questionAudioName2": "choose.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "0.75@72x-8.png",
+          "0.95@72x-8.png",
+          "0.25@72x-8.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "0.75.mp3"
+      },
+      {
+        "questionText": "Decimal Numbers",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Board@72x-8.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Level5A@72x-8.png",
+          "Level5B@72x-8.png",
+          "Level5C@72x-8.png",
+          "Level5D@72x-8.png"
+        ],
+        "correctAudioName": "positive_5.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Decimal Numbers",
+        "questionAudioName2": "choose.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "0.75@72x-8.png",
+          "0.60@72x-8.png",
+          "0.25@72x-8.png"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "0.25.mp3"
+      },
+      {
+        "questionText": "Decimal Numbers",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Board@72x-8.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Level6A@72x-8.png",
+          "Level6B@72x-8.png",
+          "Level6c@72x-8.png",
+          "Level6D@72x-8.png"
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Decimal Numbers",
+        "questionAudioName2": "choose.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "0.3@72x-8.png",
+          "0.60@72x-8.png",
+          "0.95@72x-8.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "0.60.mp3"
+      },
+      {
+        "questionText": "Decimal Numbers",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Board@72x-8.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Level7A@72x-8.png",
+          "Level7B@72x-8.png",
+          "Level7C@72x-8.png",
+          "Level7D@72x-8.png"
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Decimal Numbers",
+        "questionAudioName2": "choose.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "0.60@72x-8.png",
+          "0.3@72x-8.png",
+          "0.95@72x-8.png"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "0.95.mp3"
+      }
+    ]
+  }
+}
