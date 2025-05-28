@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "yoga",
+      "totalLevel": "6",
+      "TitleImageName": "Asset 512.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "Asset1.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "seed pose",
+        "questionImageName": "Asset9.png",
+        "questionAudioName": "seedpose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "horse pose",
+        "questionImageName": "Asset10.png",
+        "questionAudioName": "horsepose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "dog pose",
+        "questionImageName": "Asset11.png",
+        "questionAudioName": "dogpose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "frog pose",
+        "questionImageName": "Asset12.png",
+        "questionAudioName": "frogpose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "jack rabbit pose",
+        "questionImageName": "Asset13.png",
+        "questionAudioName": "jackrabbitpose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      },
+      {
+        "questionText": "owl pose",
+        "questionImageName": "Asset14.png",
+        "questionAudioName": "owlpose.mp3",
+        "isTimerNeeded": true,
+        "timer": 10
+      }
+    ]
+  }
+}

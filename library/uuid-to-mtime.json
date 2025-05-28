@@ -500,8 +500,8 @@
     "relativePath": "model/primitives.fbx"
   },
   "fb703a02-1d00-4da4-8c60-11f5f5a87c05": {
-    "asset": 1748418825241,
-    "meta": 1748418858597,
+    "asset": 1748418999747,
+    "meta": 1748418999847,
     "relativePath": "resources"
   },
   "dcc4b4bb-dc50-4f72-a1c8-20b9fbd80535": {
@@ -2713,5 +2713,100 @@
     "asset": 1747997785633,
     "meta": 1748418859380,
     "relativePath": "Games/DragNDrop/Buillds_SuperCub/4.Letter_atoj(small)/web-mobile"
+  },
+  "6d70ef02-8007-4a0a-9bef-ffcda7707677": {
+    "asset": 1748418995165,
+    "meta": 1748418999848,
+    "relativePath": "resources/audios"
+  },
+  "9313c879-7f73-40c7-b061-5230f726b97d": {
+    "asset": 1748418999752,
+    "meta": 1748418999848,
+    "relativePath": "resources/images"
+  },
+  "a4e97185-0add-49a7-a50b-5c78f7290279": {
+    "asset": 1748418995166,
+    "meta": 1748418999871,
+    "relativePath": "resources/game_data.json"
+  },
+  "5572a20b-a4c3-4b52-8fc0-5f0e7769fb5a": {
+    "asset": 1748418995166,
+    "meta": 1748418999880,
+    "relativePath": "resources/images/Asset 512.png"
+  },
+  "0475839d-adf6-4814-9666-6b7707363a21": {
+    "asset": 1748418995167,
+    "meta": 1748418999911,
+    "relativePath": "resources/images/Asset1.png"
+  },
+  "3d766e69-3d76-48b1-9ef4-ea7531d315ff": {
+    "asset": 1748418995168,
+    "meta": 1748418999920,
+    "relativePath": "resources/images/Asset10.png"
+  },
+  "c67283be-f6da-4aaf-acf8-fdceb772638c": {
+    "asset": 1748418995168,
+    "meta": 1748418999930,
+    "relativePath": "resources/images/Asset11.png"
+  },
+  "677c9f73-e8cd-4901-b964-fb5e32fefa65": {
+    "asset": 1748418995169,
+    "meta": 1748418999939,
+    "relativePath": "resources/images/Asset12.png"
+  },
+  "a9788626-d4b2-47ea-a3b9-0798108dedcd": {
+    "asset": 1748418995169,
+    "meta": 1748418999949,
+    "relativePath": "resources/images/Asset13.png"
+  },
+  "c6b7af0f-47c6-4ab4-b107-adb37500e307": {
+    "asset": 1748418995163,
+    "meta": 1748419000115,
+    "relativePath": "resources/audios/dogpose.mp3"
+  },
+  "3b4021dd-efb4-489f-bb6e-feadb581ad87": {
+    "asset": 1748418995165,
+    "meta": 1748419000116,
+    "relativePath": "resources/audios/jackrabbitpose.mp3"
+  },
+  "7df8c3e5-2a3e-4382-b10d-c366540f1f96": {
+    "asset": 1748418995170,
+    "meta": 1748418999958,
+    "relativePath": "resources/images/Asset14.png"
+  },
+  "9bfbada9-272a-4282-965e-6581e6620108": {
+    "asset": 1748418995165,
+    "meta": 1748419000116,
+    "relativePath": "resources/audios/owlpose.mp3"
+  },
+  "3041d2ee-ee20-4874-8347-1d408b9db7e9": {
+    "asset": 1748418995165,
+    "meta": 1748419000116,
+    "relativePath": "resources/audios/seedpose.mp3"
+  },
+  "8c2eccbf-eec3-4116-a7af-6c6d295851e6": {
+    "asset": 1748418995170,
+    "meta": 1748418999966,
+    "relativePath": "resources/images/Asset9.png"
+  },
+  "81ac92d9-b00c-4936-b906-ee08b19ee52e": {
+    "asset": 1748418995164,
+    "meta": 1748419000116,
+    "relativePath": "resources/audios/horsepose.mp3"
+  },
+  "66eac5fe-4530-44da-ac38-b4d7cca5d88b": {
+    "asset": 1748418995164,
+    "meta": 1748419000117,
+    "relativePath": "resources/audios/frogpose.mp3"
+  },
+  "f8b631a9-9c84-4b83-8549-22326330d7a6": {
+    "asset": 1748418995171,
+    "meta": 1748418999990,
+    "relativePath": "resources/images/Playgroup.png"
+  },
+  "8f0c3f5c-8df9-4784-a399-9ae38b5e3f1f": {
+    "asset": 1748418995162,
+    "meta": 1748419000117,
+    "relativePath": "resources/audios/bgm1.mp3"
   }
 }
