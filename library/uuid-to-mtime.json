@@ -500,8 +500,8 @@
     "relativePath": "model/primitives.fbx"
   },
   "fb703a02-1d00-4da4-8c60-11f5f5a87c05": {
-    "asset": 1748418825241,
-    "meta": 1748418858597,
+    "asset": 1748424967032,
+    "meta": 1748424967131,
     "relativePath": "resources"
   },
   "dcc4b4bb-dc50-4f72-a1c8-20b9fbd80535": {
@@ -2713,5 +2713,85 @@
     "asset": 1747997785633,
     "meta": 1748418859380,
     "relativePath": "Games/DragNDrop/Buillds_SuperCub/4.Letter_atoj(small)/web-mobile"
+  },
+  "fc58846f-4b3f-43f2-943a-aa374395b844": {
+    "asset": 1748424967037,
+    "meta": 1748424967131,
+    "relativePath": "resources/audios"
+  },
+  "f90e984f-d0a4-427f-b571-38bcd2415231": {
+    "asset": 1748424967038,
+    "meta": 1748424967132,
+    "relativePath": "resources/images"
+  },
+  "9f204b35-695f-4b0f-b355-d862e5cc9930": {
+    "asset": 1748424962498,
+    "meta": 1748424967155,
+    "relativePath": "resources/game_data.json"
+  },
+  "f6e871a5-58d9-4878-804a-248f85e81ac1": {
+    "asset": 1748424962498,
+    "meta": 1748424967392,
+    "relativePath": "resources/audios/Jumbo says move 2 steps forward.mp3"
+  },
+  "96948103-d729-4834-b470-2f2b599abbc0": {
+    "asset": 1748424962497,
+    "meta": 1748424967393,
+    "relativePath": "resources/audios/Jumbo says move 2 steps forward (2).mp3"
+  },
+  "4344b0ec-ded8-449e-8962-e448c381d67e": {
+    "asset": 1748424962498,
+    "meta": 1748424967394,
+    "relativePath": "resources/audios/Jumbo says move 5 steps backward.mp3"
+  },
+  "75327ea4-0341-4c85-9be3-4047ae9c879e": {
+    "asset": 1748424962497,
+    "meta": 1748424967394,
+    "relativePath": "resources/audios/Jumbo says move 1 step forward.mp3"
+  },
+  "e90755ae-d3be-4fbb-b6e1-fff1030e2a97": {
+    "asset": 1748424962498,
+    "meta": 1748424967395,
+    "relativePath": "resources/audios/Jumbo says move 3 steps backward.mp3"
+  },
+  "4f427f5e-cf58-4321-8bb0-f7dd38c21c49": {
+    "asset": 1748424962497,
+    "meta": 1748424967396,
+    "relativePath": "resources/audios/Jumbo says move 1 step backward.mp3"
+  },
+  "0f6e7ef1-2f33-4421-9095-90e87386c16f": {
+    "asset": 1748424962498,
+    "meta": 1748424967396,
+    "relativePath": "resources/audios/Jumbo says move 4 steps forward.mp3"
+  },
+  "c21ca43a-9a16-4641-8e97-99d243b3065c": {
+    "asset": 1748424962497,
+    "meta": 1748424967398,
+    "relativePath": "resources/audios/BGM1302225.mp3"
+  },
+  "debafbd8-9a82-4e1a-9490-668faa3acf94": {
+    "asset": 1748424962499,
+    "meta": 1748424967408,
+    "relativePath": "resources/images/Jumbo says_8.png"
+  },
+  "017297c1-57c8-4e16-b696-52efa29cb66c": {
+    "asset": 1748424962499,
+    "meta": 1748424967412,
+    "relativePath": "resources/images/forward.png"
+  },
+  "fe166535-fa17-4058-b902-1613c23df526": {
+    "asset": 1748424962499,
+    "meta": 1748424967414,
+    "relativePath": "resources/images/backward.png"
+  },
+  "b324b997-1711-4096-85ae-9a2a40b67216": {
+    "asset": 1748424962500,
+    "meta": 1748424967416,
+    "relativePath": "resources/images/pg.png"
+  },
+  "15800634-3a1c-43c8-8c31-0526d4eebb21": {
+    "asset": 1748424962499,
+    "meta": 1748424967426,
+    "relativePath": "resources/images/bg.png"
   }
 }
