@@ -1,0 +1,62 @@
+{
+  "additionalData": {
+    "GameID": "Jumbo says",
+    "totalLevel": "7",
+    "TitleImageName": "Jumbo says_8.png",
+    "introBgName": "pg.png",
+    "bgmMusicName": "BGM1302225.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "move forward 2 steps",
+      "questionImageName": "forward.png",
+      "questionAudioName": "Jumbo says move 2 steps forward.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "move backward 3 steps",
+      "questionImageName": "backward.png",
+      "questionAudioName": "Jumbo says move 3 steps backward.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "move forward 1 steps",
+      "questionImageName": "forward.png",
+      "questionAudioName": "Jumbo says move 1 step forward.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "move backward 5 steps",
+      "questionImageName": "backward.png",
+      "questionAudioName": "Jumbo says move 5 steps backward.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "move forward 2 steps",
+      "questionImageName": "forward.png",
+      "questionAudioName": "Jumbo says move 2 steps forward (2).mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "move backward 1 steps",
+      "questionImageName": "backward.png",
+      "questionAudioName": "Jumbo says move 1 step backward.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    },
+    {
+      "questionText": "move forward 4 steps",
+      "questionImageName": "forward.png",
+      "questionAudioName": "Jumbo says move 4 steps forward.mp3",
+      "isTimerNeeded": true,
+      "timer": 10
+    }
+  ]
+}
