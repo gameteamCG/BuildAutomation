@@ -1,0 +1,373 @@
+{
+  "additionalData": {
+    "GameID": "Angles_Grade 4 (Math)__R40_T2",
+    "totalLevel": "12",
+    "TitleImageName": "title.png",
+    "introBgName": "jBG.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "BG.png",
+    "JockeyName": "tortoise"
+  },
+  "questionData": [
+    {
+      "questionText": "Angles",
+      "questionAudioName": "solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "AcuteAngle1A.png",
+        "AcuteAngle1C.png",
+        "AcuteAngle1B.png",
+        "AcuteAngle1D.png"
+      ],
+      "correctAudioName": "positive_1.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Angles",
+      "questionAudioName2": "lookAndIdentify.mp3",
+      "commonOptionImageName": "card.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "Obtuse Angle",
+        "Right Angle",
+        "Acute Angle",
+        "Straight Angle"
+      ],
+      "correctAnswer": "3",
+      "reiterationAudioName": "38472672_2_acute-angle.mp3"
+    },
+    {
+      "questionText": "Angles",
+      "questionAudioName": "solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "ObtuseAngle1A.png",
+        "ObtuseAngle1C.png",
+        "ObtuseAngle1D.png",
+        "ObtuseAngle1B.png"
+      ],
+      "correctAudioName": "positive_2.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Angles",
+      "questionAudioName2": "lookAndIdentify.mp3",
+      "commonOptionImageName": "card.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "Acute Angle",
+        "Obtuse Angle",
+        "Straight Angle",
+        "Right Angle"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "38472672_4_obtuse-angle.mp3"
+    },
+    {
+      "questionText": "Angles",
+      "questionAudioName": "solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "RightAngle1A.png",
+        "RightAngle1C.png",
+        "RightAngle1D.png",
+        "RightAngle1B.png"
+      ],
+      "correctAudioName": "positive_3.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Angles",
+      "questionAudioName2": "lookAndIdentify.mp3",
+      "commonOptionImageName": "card.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "Acute Angle",
+        "Straight Angle",
+        "Obtuse Angle",
+        "Right Angle"
+      ],
+      "correctAnswer": "4",
+      "reiterationAudioName": "38472672_3_right-angle.mp3"
+    },
+    {
+      "questionText": "Angles",
+      "questionAudioName": "solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "StraightAngle1A.png",
+        "StraightAngle1C.png",
+        "StraightAngle1D.png",
+        "StraightAngle1B.png"
+      ],
+      "correctAudioName": "positive_4.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Angles",
+      "questionAudioName2": "lookAndIdentify.mp3",
+      "commonOptionImageName": "card.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "Obtuse Angle",
+        "Straight Angle",
+        "Acute Angle",
+        "Right Angle"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "38472672_3_right-angle.mp3"
+    },
+    {
+      "questionText": "Angles",
+      "questionAudioName": "solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "ObtuseAngle2A.png",
+        "ObtuseAngle2C.png",
+        "ObtuseAngle2D.png",
+        "ObtuseAngle2B.png"
+      ],
+      "correctAudioName": "positive_5.mp3",
+      "needReiteration": true,
+      "interactionType": "1s",
+      "questionText2": "Angles",
+      "questionAudioName2": "lookAndIdentify.mp3",
+      "commonOptionImageName": "card.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "Obtuse Angle",
+        "Right Angle",
+        "Acute Angle",
+        "Straight Angle"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "38472672_4_obtuse-angle.mp3"
+    },
+    {
+      "questionText": "Angles",
+      "questionAudioName": "solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "RightAngle2A.png",
+        "RightAngle2D.png",
+        "RightAngle2B.png",
+        "RightAngle2C.png"
+      ],
+      "correctAudioName": "positive_1.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Angles",
+      "questionAudioName2": "lookAndIdentify.mp3",
+      "commonOptionImageName": "card.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "Right Angle",
+        "Obtuse Angle",
+        "Straight Angle",
+        "Acute Angle"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "38472672_3_right-angle.mp3"
+    },
+    {
+      "questionText": "Angles",
+      "questionAudioName": "solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "AcuteAngle2A.png",
+        "AcuteAngle2C.png",
+        "AcuteAngle2B.png",
+        "AcuteAngle2D.png"
+      ],
+      "correctAudioName": "positive_2.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Angles",
+      "questionAudioName2": "lookAndIdentify.mp3",
+      "commonOptionImageName": "card.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "Right Angle",
+        "Acute Angle",
+        "Obtuse Angle",
+        "Straight Angle"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "38472672_2_acute-angle.mp3"
+    },
+    {
+      "questionText": "Angles",
+      "questionAudioName": "solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "StraightAngle2A.png",
+        "StraightAngle2C.png",
+        "StraightAngle2D.png",
+        "StraightAngle2B.png"
+      ],
+      "correctAudioName": "positive_3.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Angles",
+      "questionAudioName2": "lookAndIdentify.mp3",
+      "commonOptionImageName": "card.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "Straight Angle",
+        "Right Angle",
+        "Obtuse Angle",
+        "Acute Angle"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "38472672_5_straight-angle.mp3"
+    },
+    {
+      "questionText": "Angles",
+      "questionAudioName": "solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "RightAngle3A.png",
+        "RightAngle3B.png",
+        "RightAngle3D.png",
+        "RightAngle3C.png"
+      ],
+      "correctAudioName": "positive_4.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Angles",
+      "questionAudioName2": "lookAndIdentify.mp3",
+      "commonOptionImageName": "card.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "Acute Angle",
+        "Obtuse Angle",
+        "Straight Angle",
+        "Right Angle"
+      ],
+      "correctAnswer": "4",
+      "reiterationAudioName": "38472672_3_right-angle.mp3"
+    },
+    {
+      "questionText": "Angles",
+      "questionAudioName": "solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "AcuteAngle2A.png",
+        "AcuteAngle2C.png",
+        "AcuteAngle2B.png",
+        "AcuteAngle2D.png"
+      ],
+      "correctAudioName": "positive_5.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Angles",
+      "questionAudioName2": "lookAndIdentify.mp3",
+      "commonOptionImageName": "card.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "Right Angle",
+        "Acute Angle",
+        "Obtuse Angle",
+        "Straight Angle"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "38472672_2_acute-angle.mp3"
+    },
+    {
+      "questionText": "Angles",
+      "questionAudioName": "solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "StraightAngle3A.png",
+        "StraightAngle3C.png",
+        "StraightAngle3D.png",
+        "StraightAngle3B.png"
+      ],
+      "correctAudioName": "positive_1.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Angles",
+      "questionAudioName2": "lookAndIdentify.mp3",
+      "commonOptionImageName": "card.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "Straight Angle",
+        "Right Angle",
+        "Obtuse Angle",
+        "Acute Angle"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "38472672_5_straight-angle.mp3"
+    },
+    {
+      "questionText": "Angles",
+      "questionAudioName": "solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "ObtuseAngle3A.png",
+        "ObtuseAngle3C.png",
+        "ObtuseAngle3D.png",
+        "ObtuseAngle3B.png"
+      ],
+      "correctAudioName": "positive_2.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "Angles",
+      "questionAudioName2": "lookAndIdentify.mp3",
+      "commonOptionImageName": "card.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "Acute Angle",
+        "Obtuse Angle",
+        "Right Angle",
+        "Straight Angle"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "38472672_4_obtuse-angle.mp3"
+    }
+  ]
+}
