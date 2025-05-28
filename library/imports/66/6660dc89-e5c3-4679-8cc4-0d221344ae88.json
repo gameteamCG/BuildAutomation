@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Addition and subtractions of lengths",
+    "texture": "baabb80b-0354-45b1-a769-ec064762f7d9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      954,
+      532
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      954,
+      532
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

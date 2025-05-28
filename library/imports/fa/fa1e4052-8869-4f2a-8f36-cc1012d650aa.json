@@ -1,0 +1,211 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Addition and subtractions of lengths_Grade 4 (Math)__R47_T2",
+      "totalLevel": "12",
+      "TitleImageName": "Addition and subtractions of lengths.png",
+      "introBgName": "Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bgNew.png",
+      "JockeyName": "tortoise"
+    },
+    "questionData": [
+      {
+        "questionText": "Add 325 m 48 cm and 198 m 75 cm",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "5.png",
+          "1.png",
+          "12.png",
+          "11.png"
+        ],
+        "correctAudios": [
+          "R1.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Add 5 km 630 m and 2 km 475 m",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "2.png",
+          "6.png",
+          "10.png",
+          "4.png"
+        ],
+        "correctAudios": [
+          "R2.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Add 417 hm 295 dm and 532 hm 482 dm",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "8.png",
+          "9.png",
+          "7.png",
+          "3.png"
+        ],
+        "correctAudios": [
+          "R3.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Add 27 m 58 cm and 15 m 97 cm",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "1.png",
+          "11.png",
+          "4.png",
+          "8.png"
+        ],
+        "correctAudios": [
+          "R4.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Add 92 km 380 m and 48 km 275 m",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "5.png",
+          "9.png",
+          "11.png",
+          "3.png"
+        ],
+        "correctAudios": [
+          "R5.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Add 27 hm 58 dm and 15 hm 97 dm",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "5.png",
+          "6.png",
+          "10.png",
+          "12.png"
+        ],
+        "correctAudios": [
+          "R6.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Subtract 184 km 540 m from 350 km 900 m",
+        "questionAudioName": "L2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "7.png",
+          "5.png",
+          "3.png",
+          "1.png"
+        ],
+        "correctAudios": [
+          "R7.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Subtract 72 m 85 cm from 150 m 95 cm",
+        "questionAudioName": "L2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "11.png",
+          "3.png",
+          "7.png",
+          "8.png"
+        ],
+        "correctAudios": [
+          "R8.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Subtract 72 hm 85 dm from 150 hm 95 dm",
+        "questionAudioName": "L2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "1.png",
+          "2.png",
+          "9.png",
+          "3.png"
+        ],
+        "correctAudios": [
+          "R9.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Subtract 3 km 490 m from 9 km 720 m",
+        "questionAudioName": "L2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "5.png",
+          "10.png",
+          "12.png",
+          "6.png"
+        ],
+        "correctAudios": [
+          "R10.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Subtract 55 m 68 cm from 90 m 14 cm",
+        "questionAudioName": "L2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "11.png",
+          "2.png",
+          "3.png",
+          "6.png"
+        ],
+        "correctAudios": [
+          "R11.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Subtract 55 hm 68 dm from 90 hm 14 dm",
+        "questionAudioName": "L2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "3.png",
+          "7.png",
+          "10.png",
+          "12.png"
+        ],
+        "correctAudios": [
+          "R12.mp3"
+        ],
+        "correctAnswerNum": "4"
+      }
+    ]
+  }
+}
