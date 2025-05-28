@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ovalR",
+    "texture": "35281621-0316-4bf5-9441-0b570262c494",
+    "atlas": "",
+    "rect": [
+      250,
+      122,
+      202,
+      257
+    ],
+    "offset": [
+      100.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

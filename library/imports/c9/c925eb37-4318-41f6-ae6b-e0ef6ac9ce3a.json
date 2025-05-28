@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hexagonR",
+    "texture": "b04bcac6-5b0d-47d1-bea2-9086f69c7ca5",
+    "atlas": "",
+    "rect": [
+      250,
+      85,
+      191,
+      330
+    ],
+    "offset": [
+      95,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

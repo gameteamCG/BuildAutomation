@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hexagramL",
+    "texture": "e0ab5646-fe5c-47ef-8eac-6277e94bd54e",
+    "atlas": "",
+    "rect": [
+      78,
+      51,
+      173,
+      399
+    ],
+    "offset": [
+      -86,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

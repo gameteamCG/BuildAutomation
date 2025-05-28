@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ovalL",
+    "texture": "f43dc760-0c72-44b4-9ce5-41bdfcee3b13",
+    "atlas": "",
+    "rect": [
+      49,
+      122,
+      202,
+      257
+    ],
+    "offset": [
+      -100.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
