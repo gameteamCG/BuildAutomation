@@ -1,0 +1,223 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Symmetry_Grade 4 (Math)__R44_T2",
+      "totalLevel": "12",
+      "TitleImageName": "title.png",
+      "introBgName": "jBG.png",
+      "bgmMusicName": "bgm1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tortoise"
+    },
+    "questionData": [
+      {
+        "questionText": "Symmetry",
+        "questionImageName": "cloudL.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "card.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "cloudR.png",
+          "diamondR.png",
+          "heartR.png",
+          "hexagonR.png"
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Symmetry",
+        "questionImageName": "heartL.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "card.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "ovalL.png",
+          "pentagramL.png",
+          "hexagramL.png",
+          "heartL.png"
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Symmetry",
+        "questionImageName": "diamondL.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "card.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "pentagramR.png",
+          "diamondR.png",
+          "plusR.png",
+          "hexagonR.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Symmetry",
+        "questionImageName": "triangleL.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "card.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "squareR.png",
+          "rectR.png",
+          "triangleR.png",
+          "pentagramR.png"
+        ],
+        "correctAudioName": "positive_4.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Symmetry",
+        "questionImageName": "squareL.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "card.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "squareR.png",
+          "rectR.png",
+          "pentagonR.png",
+          "hexagramR.png"
+        ],
+        "correctAudioName": "positive_5.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Symmetry",
+        "questionImageName": "ovalL.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "card.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "pentagramR.png",
+          "rectR.png",
+          "hexagramR.png",
+          "ovalR.png"
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Symmetry",
+        "questionImageName": "rectL.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "card.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "plusR.png",
+          "rectR.png",
+          "pentagramR.png",
+          "ovalR.png"
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Symmetry",
+        "questionImageName": "pentagonL.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "card.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "heartR.png",
+          "hexagramR.png",
+          "ovalR.png",
+          "pentagonR.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Symmetry",
+        "questionImageName": "hexagonL.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "card.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "ovalR.png",
+          "pentagonR.png",
+          "hexagonR.png",
+          "rectR.png"
+        ],
+        "correctAudioName": "positive_4.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Symmetry",
+        "questionImageName": "hexagramL.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "card.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "pentagramR.png",
+          "hexagramR.png",
+          "triangleR.png",
+          "squareR.png"
+        ],
+        "correctAudioName": "positive_5.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Symmetry",
+        "questionImageName": "pentagramL.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "card.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "hexagonR.png",
+          "squareR.png",
+          "rectR.png",
+          "pentagramR.png"
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Symmetry",
+        "questionImageName": "plusL.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "card.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "pentagramR.png",
+          "ovalR.png",
+          "plusR.png",
+          "heartR.png"
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}

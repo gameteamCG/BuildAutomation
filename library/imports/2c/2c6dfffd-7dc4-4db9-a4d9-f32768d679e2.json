@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cloudL",
+    "texture": "5cedcaa9-74db-44f9-be61-e3f9d7341da3",
+    "atlas": "",
+    "rect": [
+      62,
+      62,
+      189,
+      376
+    ],
+    "offset": [
+      -94,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

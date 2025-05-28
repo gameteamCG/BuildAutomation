@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "diamondL",
+    "texture": "ea98a54f-fb8b-41c4-8980-36c122114ace",
+    "atlas": "",
+    "rect": [
+      102,
+      49,
+      149,
+      403
+    ],
+    "offset": [
+      -74,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

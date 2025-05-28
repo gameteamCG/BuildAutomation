@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "triangleR",
+    "texture": "610b4f62-1ef9-4698-a710-bb97f624bad0",
+    "atlas": "",
+    "rect": [
+      250,
+      76,
+      204,
+      354
+    ],
+    "offset": [
+      101.5,
+      -2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

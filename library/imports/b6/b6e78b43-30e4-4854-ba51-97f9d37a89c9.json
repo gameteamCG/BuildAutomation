@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cloudR",
+    "texture": "f336e877-379e-41a9-8914-3c7bb39a9b24",
+    "atlas": "",
+    "rect": [
+      250,
+      62,
+      189,
+      376
+    ],
+    "offset": [
+      94,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

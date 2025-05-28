@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pentagonR",
+    "texture": "59872d7d-6566-418f-a251-8d9c8e59795d",
+    "atlas": "",
+    "rect": [
+      250,
+      69,
+      183,
+      347
+    ],
+    "offset": [
+      91,
+      8
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

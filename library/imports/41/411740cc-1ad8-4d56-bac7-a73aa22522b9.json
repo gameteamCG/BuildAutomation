@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pentagonL",
+    "texture": "c59b5547-b2db-47c9-94ed-22e9ddd5f0c1",
+    "atlas": "",
+    "rect": [
+      68,
+      69,
+      183,
+      347
+    ],
+    "offset": [
+      -91,
+      8
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
