@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ladder",
+    "texture": "85114daf-abd0-4cdf-b650-b4c0420d059d",
+    "atlas": "",
+    "rect": [
+      83,
+      17,
+      86,
+      234
+    ],
+    "offset": [
+      0.5,
+      -8.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

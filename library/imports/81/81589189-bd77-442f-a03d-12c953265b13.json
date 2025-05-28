@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "double decker bus",
+    "texture": "c558baba-036f-428b-aa09-c02fffdb3444",
+    "atlas": "",
+    "rect": [
+      6,
+      107,
+      239,
+      144
+    ],
+    "offset": [
+      0,
+      -53.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
