@@ -6,7 +6,7 @@
       "url": "app://editor/index.html",
       "windowType": "dockable",
       "x": 0,
-      "y": 25,
+      "y": 26,
       "width": 1440,
       "height": 805,
       "layout": {
@@ -19,7 +19,7 @@
             "children": [
               {
                 "width": 204,
-                "height": 360.96875,
+                "height": 361,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -28,7 +28,7 @@
               },
               {
                 "width": 204,
-                "height": 354.03125,
+                "height": 354,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -44,7 +44,7 @@
             "children": [
               {
                 "width": 816,
-                "height": 360.96875,
+                "height": 361,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -53,7 +53,7 @@
               },
               {
                 "width": 816,
-                "height": 354.03125,
+                "height": 354,
                 "type": "panel",
                 "active": 0,
                 "children": [
