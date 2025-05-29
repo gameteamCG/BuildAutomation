@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "what should you do",
+    "texture": "488c1d2a-e185-4d20-bfae-f48a7b51c501",
+    "atlas": "",
+    "rect": [
+      0,
+      5,
+      717,
+      283
+    ],
+    "offset": [
+      -4.5,
+      -1.5
+    ],
+    "originalSize": [
+      726,
+      290
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
