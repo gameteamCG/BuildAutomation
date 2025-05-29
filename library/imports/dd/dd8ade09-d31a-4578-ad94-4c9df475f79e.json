@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "xerus_1",
+    "texture": "b566c114-0855-4ade-ace0-0cb9dafbf1dd",
+    "atlas": "",
+    "rect": [
+      8,
+      126,
+      484,
+      249
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

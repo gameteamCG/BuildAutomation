@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "utdcjgv",
+    "texture": "fb5d27d0-ca8b-4ff3-b8fb-e0e151b84de1",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      250,
+      250
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hgvb",
+    "texture": "f839bd6f-ff93-4b61-8e03-c79662b9fb6b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1921,
+      1082
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1921,
+      1082
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

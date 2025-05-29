@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "xylophone_1",
+    "texture": "606da3a1-a271-4232-af52-43e92b008f43",
+    "atlas": "",
+    "rect": [
+      82,
+      44,
+      336,
+      414
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
