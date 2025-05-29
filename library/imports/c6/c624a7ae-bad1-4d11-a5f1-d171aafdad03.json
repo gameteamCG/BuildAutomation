@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "puzzle1a",
+    "texture": "6bb254dd-7371-453c-b9c7-2d1a5e16171c",
+    "atlas": "",
+    "rect": [
+      0,
+      29,
+      499,
+      454
+    ],
+    "offset": [
+      -0.5,
+      -6
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

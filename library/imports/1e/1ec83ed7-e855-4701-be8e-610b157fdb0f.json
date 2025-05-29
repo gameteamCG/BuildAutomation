@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "watchingtv6",
+    "texture": "5783a94d-ebca-4d9c-a640-8311c9aa6d24",
+    "atlas": "",
+    "rect": [
+      55,
+      143,
+      387,
+      211
+    ],
+    "offset": [
+      -1.5,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
