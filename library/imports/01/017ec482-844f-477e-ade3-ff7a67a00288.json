@@ -1,0 +1,169 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "numbers 1 to 20",
+      "totalLevel": "10",
+      "TitleImageName": "Asset_166.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "ColourBGM1.mp3",
+      "mainBgName": "Artboard_1.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "count",
+        "questionImageName": "1_8_bees.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_box_img.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "1_8.png",
+          "4_3.png"
+        ],
+        "correctAudioName": "1_8_bees.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "count",
+        "questionImageName": "2_15_worms.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_box_img.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "5_20.png",
+          "2_15.png"
+        ],
+        "correctAudioName": "2_15_worms.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "count",
+        "questionImageName": "3_12_butterfly.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_box_img.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "3_9_12.png",
+          "10_10.png"
+        ],
+        "correctAudioName": "3_12_butterflies.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "count",
+        "questionImageName": "4_3_ladybug.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_box_img.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "8_5.png",
+          "4_3.png"
+        ],
+        "correctAudioName": "4_3_ladybirds.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "count",
+        "questionImageName": "5_20_snell.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_box_img.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "5_20.png",
+          "10_10.png"
+        ],
+        "correctAudioName": "5_20_snails.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "count",
+        "questionImageName": "6_9_spider.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_box_img.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "6_9.png",
+          "1_8.png"
+        ],
+        "correctAudioName": "6_9_spiders.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "count",
+        "questionImageName": "7_17_ants.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_box_img.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "2_15.png",
+          "7_17.png"
+        ],
+        "correctAudioName": "7_17_ants.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "count",
+        "questionImageName": "8_5_beetles.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_box_img.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "8_5.png",
+          "1_8.png"
+        ],
+        "correctAudioName": "8_5_beetles.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "count",
+        "questionImageName": "9_12_caterpiller.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_box_img.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "3_9_12.png",
+          "10_10.png"
+        ],
+        "correctAudioName": "9_12_caterpillars.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "count",
+        "questionImageName": "10_10_dragonflies.png",
+        "questionAudioName": "question.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common_box_img.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "5_20.png",
+          "10_10.png"
+        ],
+        "correctAudioName": "10_10_dragonflies.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

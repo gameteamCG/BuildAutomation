@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "4_3_ladybug",
+    "texture": "3af65a3b-ef98-4267-ba4b-ad118b7821ce",
+    "atlas": "",
+    "rect": [
+      9,
+      205,
+      473,
+      109
+    ],
+    "offset": [
+      -4.5,
+      -9.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

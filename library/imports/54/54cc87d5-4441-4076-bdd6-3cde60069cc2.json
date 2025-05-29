@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "8_5_beetles",
+    "texture": "30f4f70a-4a4e-420d-8750-b79383e086d4",
+    "atlas": "",
+    "rect": [
+      60,
+      65,
+      380,
+      393
+    ],
+    "offset": [
+      0,
+      -11.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
