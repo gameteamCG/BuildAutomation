@@ -132,7 +132,7 @@
           "Right Angle"
         ],
         "correctAnswer": "2",
-        "reiterationAudioName": "38472672_3_right-angle.mp3"
+        "reiterationAudioName": "38472672_5_straight-angle.mp3"
       },
       {
         "questionText": "Angles",
@@ -149,7 +149,7 @@
         ],
         "correctAudioName": "positive_5.mp3",
         "needReiteration": true,
-        "interactionType": "1s",
+        "interactionType": "1",
         "questionText2": "Angles",
         "questionAudioName2": "lookAndIdentify.mp3",
         "commonOptionImageName": "card.png",
@@ -292,10 +292,10 @@
         "isHintRequired": false,
         "numberOfPuzzles": 4,
         "puzzles": [
-          "AcuteAngle2A.png",
-          "AcuteAngle2C.png",
-          "AcuteAngle2B.png",
-          "AcuteAngle2D.png"
+          "AcuteAngle3A.png",
+          "AcuteAngle3C.png",
+          "AcuteAngle3B.png",
+          "AcuteAngle3D.png"
         ],
         "correctAudioName": "positive_5.mp3",
         "needReiteration": true,

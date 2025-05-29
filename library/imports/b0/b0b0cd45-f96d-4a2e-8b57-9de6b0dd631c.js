@@ -90,19 +90,23 @@ var NewClass = /** @class */ (function (_super) {
         //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         // }
-        this.isSecondInteraction = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].needReiteration;
-        this.interactionType = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].interactionType;
+        this.isSecondInteraction =
+            StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].needReiteration;
+        this.interactionType =
+            StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].interactionType;
         if (this.isSecondInteraction) {
             // for (let i = 0; startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions; i++) {
             //     this.currWordSeq += (i + 1).toString();
             // }
             if (this.interactionType == "1") {
                 this.GenerateOptions(this.myOptions, "template1");
-                this.correctAnswer = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].correctAnswer;
+                this.correctAnswer =
+                    StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].correctAnswer;
             }
             else {
                 this.GenerateOptions(this.wordsNode, "template2");
-                this.correctWordSeq[0] = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].correctAnswer;
+                this.correctWordSeq[0] =
+                    StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].correctAnswer;
             }
         }
     };
@@ -112,7 +116,11 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.start = function () {
         var _this = this;
-        if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "penguin" || StartGame_1.default.Instance.jockeyName == "tortoise" || StartGame_1.default.Instance.jockeyName == "muskaan" || StartGame_1.default.Instance.jockeyName == "corny") {
+        if (StartGame_1.default.Instance.jockeyName == "bag" ||
+            StartGame_1.default.Instance.jockeyName == "penguin" ||
+            StartGame_1.default.Instance.jockeyName == "tortoise" ||
+            StartGame_1.default.Instance.jockeyName == "muskaan" ||
+            StartGame_1.default.Instance.jockeyName == "corny") {
             this.positiveAudio = this.bagPositive;
             this.negativeAudio = this.bagNegative;
         }
@@ -146,7 +154,7 @@ var NewClass = /** @class */ (function (_super) {
         }
         StartGame_1.default.Instance.clickEvent = false;
         var canvas = cc.find("Canvas");
-        canvas.on('touchstart', function (event) {
+        canvas.on("touchstart", function (event) {
             if (!StartGame_1.default.Instance.clickEvent) {
                 {
                     StartGame_1.default.Instance.clickEvent = true;
@@ -160,7 +168,8 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.UpdateJsonData = function () {
         var _this = this;
-        this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = StartGame_1.default.Instance.mainBg;
+        this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame =
+            StartGame_1.default.Instance.mainBg;
         if (StartGame_1.default.Instance.isDemoGame) {
             cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionAudioName, function (err, audioClip) {
                 if (err) {
@@ -176,7 +185,9 @@ var NewClass = /** @class */ (function (_super) {
                         return;
                     }
                     var spriteFrame = new cc.SpriteFrame(texture);
-                    _this.node.getChildByName("frame").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    _this.node
+                        .getChildByName("frame")
+                        .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
             var _loop_1 = function (i) {
@@ -186,10 +197,14 @@ var NewClass = /** @class */ (function (_super) {
                         return;
                     }
                     var spriteFrame = new cc.SpriteFrame(texture);
-                    _this.node.getChildByName("frame").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    _this.node
+                        .getChildByName("frame")
+                        .getChildByName((i + 1).toString())
+                        .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             };
-            for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfPuzzles; i++) {
+            for (var i = 0; i <
+                StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfPuzzles; i++) {
                 _loop_1(i);
             }
             cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].correctAudioName, function (err, audioClip) {
@@ -213,13 +228,20 @@ var NewClass = /** @class */ (function (_super) {
                         return;
                     }
                     var spriteFrame = new cc.SpriteFrame(texture);
-                    for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
+                    for (var i = 0; i <
+                        StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
                         if (_this.interactionType == "1") {
-                            _this.myOptions.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                            _this.myOptions
+                                .getChildByName((i + 1).toString())
+                                .getComponent(cc.Sprite).spriteFrame =
+                                spriteFrame;
                         }
                         else {
                             _this.currWordSeq += (i + 1).toString();
-                            _this.wordsNode.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                            _this.wordsNode
+                                .getChildByName((i + 1).toString())
+                                .getComponent(cc.Sprite).spriteFrame =
+                                spriteFrame;
                         }
                         // console.log("currWordSeq--" + this.currWordSeq);
                     }
@@ -234,24 +256,41 @@ var NewClass = /** @class */ (function (_super) {
                         }
                         var spriteFrame = new cc.SpriteFrame(texture);
                         if (_this.interactionType == "1") {
-                            _this.myOptions.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                            _this.myOptions
+                                .getChildByName((i + 1).toString())
+                                .getChildByName("img")
+                                .getComponent(cc.Sprite).spriteFrame =
+                                spriteFrame;
                         }
                         else {
-                            _this.wordsNode.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                            _this.wordsNode
+                                .getChildByName((i + 1).toString())
+                                .getChildByName("img")
+                                .getComponent(cc.Sprite).spriteFrame =
+                                spriteFrame;
                         }
                     });
                 }
                 else {
                     if (this_1.interactionType == "1") {
-                        this_1.myOptions.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
+                        this_1.myOptions
+                            .getChildByName((i + 1).toString())
+                            .getChildByName("text")
+                            .getComponent(cc.Label).string =
+                            StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
                     }
                     else {
-                        this_1.wordsNode.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
+                        this_1.wordsNode
+                            .getChildByName((i + 1).toString())
+                            .getChildByName("text")
+                            .getComponent(cc.Label).string =
+                            StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
                     }
                 }
             };
             var this_1 = this;
-            for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
+            for (var i = 0; i <
+                StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
                 _loop_2(i);
             }
             cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].reiterationAudioName, function (err, audioClip) {
@@ -268,16 +307,22 @@ var NewClass = /** @class */ (function (_super) {
             });
             if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].commonPuzzleImageName != "") {
                 this.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].commonPuzzleImageName, function (spriteFrame) {
-                    _this.node.getChildByName("frame").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    _this.node
+                        .getChildByName("frame")
+                        .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
             var _loop_3 = function (i) {
                 this_2.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].puzzles[i], function (spriteFrame) {
-                    _this.node.getChildByName("frame").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    _this.node
+                        .getChildByName("frame")
+                        .getChildByName((i + 1).toString())
+                        .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             };
             var this_2 = this;
-            for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfPuzzles; i++) {
+            for (var i = 0; i <
+                StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfPuzzles; i++) {
                 _loop_3(i);
             }
             this.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].correctAudioName, function (AudioClip) {
@@ -288,13 +333,20 @@ var NewClass = /** @class */ (function (_super) {
             });
             if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].commonOptionImageName != "") {
                 this.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].commonOptionImageName, function (spriteFrame) {
-                    for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
+                    for (var i = 0; i <
+                        StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
                         if (_this.interactionType == "1") {
-                            _this.myOptions.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                            _this.myOptions
+                                .getChildByName((i + 1).toString())
+                                .getComponent(cc.Sprite).spriteFrame =
+                                spriteFrame;
                         }
                         else {
                             _this.currWordSeq += (i + 1).toString();
-                            _this.wordsNode.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                            _this.wordsNode
+                                .getChildByName((i + 1).toString())
+                                .getComponent(cc.Sprite).spriteFrame =
+                                spriteFrame;
                         }
                         // console.log("currWordSeq--" + this.currWordSeq);
                     }
@@ -304,24 +356,41 @@ var NewClass = /** @class */ (function (_super) {
                 if (!StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].isOptionText) {
                     this_3.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i], function (spriteFrame) {
                         if (_this.interactionType == "1") {
-                            _this.myOptions.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                            _this.myOptions
+                                .getChildByName((i + 1).toString())
+                                .getChildByName("img")
+                                .getComponent(cc.Sprite).spriteFrame =
+                                spriteFrame;
                         }
                         else {
-                            _this.wordsNode.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                            _this.wordsNode
+                                .getChildByName((i + 1).toString())
+                                .getChildByName("img")
+                                .getComponent(cc.Sprite).spriteFrame =
+                                spriteFrame;
                         }
                     });
                 }
                 else {
                     if (this_3.interactionType == "1") {
-                        this_3.myOptions.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
+                        this_3.myOptions
+                            .getChildByName((i + 1).toString())
+                            .getChildByName("text")
+                            .getComponent(cc.Label).string =
+                            StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
                     }
                     else {
-                        this_3.wordsNode.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
+                        this_3.wordsNode
+                            .getChildByName((i + 1).toString())
+                            .getChildByName("text")
+                            .getComponent(cc.Label).string =
+                            StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
                     }
                 }
             };
             var this_3 = this;
-            for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
+            for (var i = 0; i <
+                StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
                 _loop_4(i);
             }
             this.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].reiterationAudioName, function (AudioClip) {
@@ -336,18 +405,21 @@ var NewClass = /** @class */ (function (_super) {
         this.node.getChildByName("hint").active = false;
         var _width = 250;
         var _height = 250;
-        if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfPuzzles == 4) {
+        if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+            .numberOfPuzzles == 4) {
             _width = 250;
             _height = 250;
         }
-        else if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfPuzzles == 9) {
+        else if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+            .numberOfPuzzles == 9) {
             _width = 166;
             _height = 166;
         }
         for (var i = 0; i < this.options.children.length; i++) {
             this.options.children[i].width = _width;
             this.options.children[i].height = _height;
-            if (i >= StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfPuzzles) {
+            if (i >=
+                StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfPuzzles) {
                 this.options.children[i].destroy();
             }
         }
@@ -372,21 +444,30 @@ var NewClass = /** @class */ (function (_super) {
                         .start();
                 }
             });
-            _this.scheduleOnce(function () { _this.resetInteraction(); }, 0);
+            _this.scheduleOnce(function () {
+                _this.resetInteraction();
+            }, 0);
         };
         this.scheduleOnce(function () {
             _this.SetFrameOptions();
         }, 0.1);
         this.wordsNode.children.forEach(function (element) {
-            element.on('touchstart', function (_event) { _this.wordTouchStart(_event); });
-            element.on('touchmove', function (_event) { _this.wordTouchMove(_event); });
-            element.on('touchend', function (_event) { _this.wordTouchEnd(_event); });
+            element.on("touchstart", function (_event) {
+                _this.wordTouchStart(_event);
+            });
+            element.on("touchmove", function (_event) {
+                _this.wordTouchMove(_event);
+            });
+            element.on("touchend", function (_event) {
+                _this.wordTouchEnd(_event);
+            });
         });
     };
     NewClass.prototype.SetFrameOptions = function () {
         var _this = this;
         this.options.active = true;
-        if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].isHintRequired) {
+        if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+            .isHintRequired) {
             this.node.getChildByName("hint").active = true;
         }
         if (this.options.childrenCount == 4) {
@@ -397,15 +478,15 @@ var NewClass = /** @class */ (function (_super) {
         }
         else if (this.options.childrenCount == 9) {
             var threshHold_1 = 1;
-            this.options.children[0].setPosition(-(this.options.children[0].width) + threshHold_1, this.options.children[0].height - threshHold_1);
+            this.options.children[0].setPosition(-this.options.children[0].width + threshHold_1, this.options.children[0].height - threshHold_1);
             this.options.children[1].setPosition(0, this.options.children[1].height - threshHold_1);
             this.options.children[2].setPosition(this.options.children[2].width - threshHold_1, this.options.children[2].height - threshHold_1);
-            this.options.children[3].setPosition(-(this.options.children[3].width) + threshHold_1, 0);
+            this.options.children[3].setPosition(-this.options.children[3].width + threshHold_1, 0);
             this.options.children[4].setPosition(0, 0);
             this.options.children[5].setPosition(this.options.children[5].width - threshHold_1, 0);
-            this.options.children[6].setPosition(-(this.options.children[6].width) + threshHold_1, -(this.options.children[6].height) + threshHold_1);
-            this.options.children[7].setPosition(0, -(this.options.children[7].height) + threshHold_1);
-            this.options.children[8].setPosition(this.options.children[8].width - threshHold_1, -(this.options.children[8].height) + threshHold_1);
+            this.options.children[6].setPosition(-this.options.children[6].width + threshHold_1, -this.options.children[6].height + threshHold_1);
+            this.options.children[7].setPosition(0, -this.options.children[7].height + threshHold_1);
+            this.options.children[8].setPosition(this.options.children[8].width - threshHold_1, -this.options.children[8].height + threshHold_1);
         }
         else if (this.options.childrenCount == 6) {
             this.options.children[0].setPosition(-this.options.children[0].width + 2, this.options.children[0].height / 2);
@@ -427,12 +508,12 @@ var NewClass = /** @class */ (function (_super) {
             this.options.children[7].setPosition(this.options.children[7].width + threshHold, this.options.children[7].height / 2);
             this.options.children[8].setPosition(-(this.options.children[8].width + threshHold), -this.options.children[8].height / 2);
             this.options.children[9].setPosition(-(this.options.children[9].width / 2), -this.options.children[9].height / 2);
-            this.options.children[10].setPosition((this.options.children[10].width / 2), -this.options.children[10].height / 2);
-            this.options.children[11].setPosition((this.options.children[11].width + threshHold), -this.options.children[11].height / 2);
+            this.options.children[10].setPosition(this.options.children[10].width / 2, -this.options.children[10].height / 2);
+            this.options.children[11].setPosition(this.options.children[11].width + threshHold, -this.options.children[11].height / 2);
             this.options.children[12].setPosition(-(this.options.children[12].width + threshHold), -this.options.children[12].height - threshHold);
             this.options.children[13].setPosition(-(this.options.children[13].width / 2), -this.options.children[13].height - threshHold);
-            this.options.children[14].setPosition((this.options.children[14].width / 2), -this.options.children[14].height - threshHold);
-            this.options.children[15].setPosition((this.options.children[15].width + threshHold), -this.options.children[15].height - threshHold);
+            this.options.children[14].setPosition(this.options.children[14].width / 2, -this.options.children[14].height - threshHold);
+            this.options.children[15].setPosition(this.options.children[15].width + threshHold, -this.options.children[15].height - threshHold);
         }
         for (var i = 0; i < this.options.childrenCount; i++) {
             var clone = cc.instantiate(this.options.children[i]);
@@ -464,8 +545,9 @@ var NewClass = /** @class */ (function (_super) {
                 if (_this.currScene <= 3) {
                     handNode.active = true;
                     handNode.getComponent(cc.Animation).play();
-                    handNode.getComponent(cc.Animation).on("finished", function () {
-                    });
+                    handNode
+                        .getComponent(cc.Animation)
+                        .on("finished", function () { });
                 }
                 _this.scheduleOnce(function () {
                     _this.scheduleOnce(function () {
@@ -514,8 +596,10 @@ var NewClass = /** @class */ (function (_super) {
         var angle = child.angle;
         cc.audioEngine.playEffect(this.rotateAction, false);
         cc.tween(child)
-            .to(0.2, { angle: angle - 90 })
-            .call(function () { _this.optionsAligned(); })
+            .to(0.2, { angle: angle - 90 }, { easing: "cubicInOut" })
+            .call(function () {
+            _this.optionsAligned();
+        })
             .start();
     };
     NewClass.prototype.optionsAligned = function () {
@@ -527,16 +611,21 @@ var NewClass = /** @class */ (function (_super) {
             }
         });
         if (levelPassed) {
-            //if the items have been aligned 
+            //if the items have been aligned
             this.options.color = cc.Color.GREEN;
             cc.audioEngine.playEffect(this.correctAction, false);
             this.scheduleOnce(function () {
                 // cc.audioEngine.playEffect(this.jockeyCorrect2, false);
             }, this.correctAction.duration - 1);
             this.node.getChildByName("hint").active = false;
-            this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+            this.node
+                .getChildByName("confetti")
+                .getComponent(cc.Animation)
+                .play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            cc.tween(this.options)
+                .to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 })
+                .start();
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
                 cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
@@ -547,7 +636,9 @@ var NewClass = /** @class */ (function (_super) {
                         //check what interaction it is and call the respective function
                         //show question panel
                         cc.audioEngine.playEffect(_this.wordVoQuestion, false);
-                        _this.interactionType == "1" ? _this.OptionsAppear() : _this.wordAppear();
+                        _this.interactionType == "1"
+                            ? _this.OptionsAppear()
+                            : _this.wordAppear();
                     }
                     else {
                         _this.CallJockey();
@@ -563,19 +654,49 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         var anim = [];
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
+            anim = [
+                "possitive",
+                "possitive2",
+                "possitive3",
+                "possitive4",
+                "possitive5",
+                "possitive6",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
+            anim = [
+                "positive_1",
+                "positive_2",
+                "positive_3",
+                "positive_4",
+                "positive_5",
+                "positive_6",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "supercub") {
             anim = ["positive_3", "positive_4", "positive_5"];
         }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "penguin" || StartGame_1.default.Instance.jockeyName == "tortoise" || StartGame_1.default.Instance.jockeyName == "muskaan" || StartGame_1.default.Instance.jockeyName == "corny") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+        else if (StartGame_1.default.Instance.jockeyName == "bag" ||
+            StartGame_1.default.Instance.jockeyName == "penguin" ||
+            StartGame_1.default.Instance.jockeyName == "tortoise" ||
+            StartGame_1.default.Instance.jockeyName == "muskaan" ||
+            StartGame_1.default.Instance.jockeyName == "corny") {
+            anim = [
+                "positive_1",
+                "positive_2",
+                "positive_3",
+                "positive_4",
+                "positive_5",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "cryon") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+            anim = [
+                "positive_1",
+                "positive_2",
+                "positive_3",
+                "positive_4",
+                "positive_5",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Singham") {
             anim = ["dance", "thumbs_up"];
@@ -597,31 +718,48 @@ var NewClass = /** @class */ (function (_super) {
         }
         //console.log("characterAppear--Podar_Jumbo");
         this.currentJockey.setPosition(pos[StartGame_1.default.Instance.currentLevel % 2], this.currentJockey.y);
-        if (StartGame_1.default.Instance.currentLevel % 2 == 0 && StartGame_1.default.Instance.jockeyName == "stallion") {
+        if (StartGame_1.default.Instance.currentLevel % 2 == 0 &&
+            StartGame_1.default.Instance.jockeyName == "stallion") {
             this.currentJockey.scaleX = -0.65;
         }
         else if (StartGame_1.default.Instance.jockeyName == "stallion") {
             this.currentJockey.scaleX = 0.65;
-            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+            this.currentJockey
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, anim[currentClipNum], false);
         }
         else if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+            this.currentJockey
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, "idel", true);
         }
         else {
-            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+            this.currentJockey
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, "idle", true);
         }
-        cc.tween(this.currentJockey).to(0.5, { x: jockeytween[StartGame_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
+        cc.tween(this.currentJockey)
+            .to(0.5, { x: jockeytween[StartGame_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" })
+            .start();
         this.scheduleOnce(function () {
-            _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+            _this.currentJockey
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, anim[currentClipNum], false);
             cc.audioEngine.playEffect(_this.positiveAudio[currentClipNum], false);
             _this.scheduleOnce(function () {
-                cc.tween(_this.currentJockey).to(0.5, { x: pos[StartGame_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
+                cc.tween(_this.currentJockey)
+                    .to(0.5, { x: pos[StartGame_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" })
+                    .start();
                 if (StartGame_1.default.Instance.jockeyName != "stallion") {
                     if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                        _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                        _this.currentJockey
+                            .getComponent(sp.Skeleton)
+                            .setAnimation(0, "idel", true);
                     }
                     else {
-                        _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                        _this.currentJockey
+                            .getComponent(sp.Skeleton)
+                            .setAnimation(0, "idle", true);
                     }
                 }
                 //console.log("characterDisappear--Podar_Jumbo");
@@ -634,7 +772,14 @@ var NewClass = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             var anim = [];
             if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
+                anim = [
+                    "negetive",
+                    "negetive2",
+                    "negetive3",
+                    "negetive4",
+                    "negetive5",
+                    "negetive6",
+                ];
             }
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
@@ -642,7 +787,11 @@ var NewClass = /** @class */ (function (_super) {
             else if (StartGame_1.default.Instance.jockeyName == "supercub") {
                 anim = ["negative_3", "negative_4"];
             }
-            else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "penguin" || StartGame_1.default.Instance.jockeyName == "tortoise" || StartGame_1.default.Instance.jockeyName == "muskaan" || StartGame_1.default.Instance.jockeyName == "corny") {
+            else if (StartGame_1.default.Instance.jockeyName == "bag" ||
+                StartGame_1.default.Instance.jockeyName == "penguin" ||
+                StartGame_1.default.Instance.jockeyName == "tortoise" ||
+                StartGame_1.default.Instance.jockeyName == "muskaan" ||
+                StartGame_1.default.Instance.jockeyName == "corny") {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "cryon") {
@@ -661,13 +810,19 @@ var NewClass = /** @class */ (function (_super) {
             //console.log("characterAppear--Podar_Jumbo");
             if (StartGame_1.default.Instance.jockeyName == "stallion") {
                 _this.currentJockey.scaleX = 0.65;
-                _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+                _this.currentJockey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, anim[currentClipNum], false);
             }
             else if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                _this.currentJockey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, "idel", true);
             }
             else {
-                _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                _this.currentJockey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, "idle", true);
             }
             var pos = 1600;
             var jockeytween = 450;
@@ -676,18 +831,28 @@ var NewClass = /** @class */ (function (_super) {
                 jockeytween = 870;
             }
             _this.currentJockey.setPosition(pos, -350);
-            cc.tween(_this.currentJockey).to(0.5, { x: jockeytween }, { easing: "quartInOut" }).start();
+            cc.tween(_this.currentJockey)
+                .to(0.5, { x: jockeytween }, { easing: "quartInOut" })
+                .start();
             _this.scheduleOnce(function () {
-                _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+                _this.currentJockey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
                 _this.scheduleOnce(function () {
-                    cc.tween(_this.currentJockey).to(0.5, { x: pos }, { easing: "quartInOut" }).start();
+                    cc.tween(_this.currentJockey)
+                        .to(0.5, { x: pos }, { easing: "quartInOut" })
+                        .start();
                     if (StartGame_1.default.Instance.jockeyName != "stallion") {
                         if (StartGame_1.default.Instance.jockeyName != "Podar") {
-                            _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                            _this.currentJockey
+                                .getComponent(sp.Skeleton)
+                                .setAnimation(0, "idle", true);
                         }
                         else {
-                            _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                            _this.currentJockey
+                                .getComponent(sp.Skeleton)
+                                .setAnimation(0, "idel", true);
                         }
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
@@ -700,7 +865,9 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.OptionsAppear = function () {
         var _this = this;
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
+        cc.tween(this.options)
+            .to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 })
+            .start();
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(function () {
             _this.myOptions.active = true;
@@ -727,14 +894,20 @@ var NewClass = /** @class */ (function (_super) {
             // cc.audioEngine.playEffect(this.correctButton, false);
             this.options.color = cc.Color.GREEN;
             _node.color = cc.Color.GREEN;
-            cc.tween(_node).to(0.1, { scaleX: 0.7, scaleY: 0.8, color: cc.Color.GREEN }).to(0.1, { scaleX: 1, scaleY: 1, color: this.colorValue }).start();
+            cc.tween(_node)
+                .to(0.1, { scaleX: 0.7, scaleY: 0.8, color: cc.Color.GREEN })
+                .to(0.1, { scaleX: 1, scaleY: 1, color: this.colorValue })
+                .start();
             this.myOptions.children.forEach(function (element) {
                 element.getComponent(cc.Button).interactable = false;
             });
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.wordVoIteration, false);
             this.scheduleOnce(function () {
-                _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                _this.node
+                    .getChildByName("confetti")
+                    .getComponent(cc.Animation)
+                    .play();
                 _this.CallJockey();
             }, this.wordVoIteration.duration);
         }
@@ -745,19 +918,41 @@ var NewClass = /** @class */ (function (_super) {
             this.myOptions.children.forEach(function (element) {
                 element.getComponent(cc.Button).interactable = false;
             });
-            cc.tween(_node).to(0.1, { angle: 10 }).to(0.1, { angle: 0 }).to(0.1, { angle: -10 })
-                .to(0.1, { angle: 0 }).to(0.1, { angle: 10 }).to(0.1, { angle: 0 }).start();
-            cc.tween(_node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED })
-                .to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).start();
-            cc.tween(this.options).to(0.1, { color: cc.Color.RED }).to(0.1, { color: this.colorValue }).to(0.1, { color: cc.Color.RED })
-                .to(0.1, { color: this.colorValue }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: this.colorValue }).start();
+            cc.tween(_node)
+                .to(0.1, { angle: 10 })
+                .to(0.1, { angle: 0 })
+                .to(0.1, { angle: -10 })
+                .to(0.1, { angle: 0 })
+                .to(0.1, { angle: 10 })
+                .to(0.1, { angle: 0 })
+                .start();
+            cc.tween(_node)
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: cc.Color.WHITE })
+                .start();
+            cc.tween(this.options)
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: this.colorValue })
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: this.colorValue })
+                .to(0.1, { color: cc.Color.RED })
+                .to(0.1, { color: this.colorValue })
+                .start();
         }
     };
     NewClass.prototype.wordAppear = function () {
         var _this = this;
         this.selectable = false;
-        cc.tween(this.options).to(1, { scale: this.options.scale - 0.2 }, { easing: "sineInOut" }).start();
-        cc.tween(this.options).to(1, { x: 0, y: 100 }, { easing: "sineInOut" }).start();
+        cc.tween(this.options)
+            .to(1, { scale: this.options.scale - 0.2 }, { easing: "sineInOut" })
+            .start();
+        cc.tween(this.options)
+            .to(1, { x: 0, y: 100 }, { easing: "sineInOut" })
+            .start();
         this.wordsNode.children.forEach(function (_child, index) {
             _child.scale = 0;
             _this.scheduleOnce(function () {
@@ -773,7 +968,9 @@ var NewClass = /** @class */ (function (_super) {
             handNode.setPosition(pos);
             handNode.active = true;
             handNode.getComponent(cc.Animation).play();
-            cc.tween(handNode).to(1, { x: pos2.x, y: pos2.y }, { easing: "sineInOut" }).start();
+            cc.tween(handNode)
+                .to(1, { x: pos2.x, y: pos2.y }, { easing: "sineInOut" })
+                .start();
             _this.scheduleOnce(function () {
                 handNode.active = false;
                 // this.selectable= true;
@@ -793,12 +990,12 @@ var NewClass = /** @class */ (function (_super) {
         cc.audioEngine.playEffect(this.swipeAction, false);
         var word = "";
         for (var i = 0; i < this.currWordSeq.length; i++) {
-            word += this.wordsNode.getChildByName(this.currWordSeq[i]).children[0].getComponent(cc.Label).string;
+            word += this.wordsNode
+                .getChildByName(this.currWordSeq[i])
+                .children[0].getComponent(cc.Label).string;
         }
         // console.log("word--" + word);
-        cc.tween(_node1)
-            .to(0.1, { x: x2 })
-            .start();
+        cc.tween(_node1).to(0.1, { x: x2 }).start();
         cc.tween(_node2)
             .to(0.1, { x: x1 })
             .call(function () {
@@ -834,9 +1031,11 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.wordTouchMove = function (_event) {
         var _this = this;
         //check if the same object is moving which started first
-        if (this.wordCurrentSeleced && _event.target.name == this.wordCurrentSeleced.name) {
+        if (this.wordCurrentSeleced &&
+            _event.target.name == this.wordCurrentSeleced.name) {
             this.wordCurrentSeleced.x += _event.touch.getDelta().x;
-            if (this.wordCurrentSeleced.x > 800 || this.wordCurrentSeleced.x < -800) {
+            if (this.wordCurrentSeleced.x > 800 ||
+                this.wordCurrentSeleced.x < -800) {
                 // console.log("reset position");
                 cc.tween(this.wordCurrentSeleced)
                     .to(0.1, { x: this.wordCurrentSelecedPos.x })
@@ -850,7 +1049,9 @@ var NewClass = /** @class */ (function (_super) {
                 if (_child.name == _event.target.name) {
                     return;
                 }
-                if (_child.getBoundingBox().contains(_event.target.getPosition())) {
+                if (_child
+                    .getBoundingBox()
+                    .contains(_event.target.getPosition())) {
                     collisionWith_1 = _child;
                 }
             });
@@ -875,7 +1076,7 @@ var NewClass = /** @class */ (function (_super) {
         cc.audioEngine.playEffect(this.correctAction, false);
         this.node.getChildByName("confetti").active = true;
         this.node.getChildByName("confetti").getComponent(cc.Animation).play();
-        console.log('levelComplete--' + this.currScene);
+        console.log("levelComplete--" + this.currScene);
         StartGame_1.default.Instance.currentLevel++;
         this.scheduleOnce(function () {
             ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
@@ -926,7 +1127,9 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         if (_node === void 0) { _node = this.myOptions; }
         if (_template === void 0) { _template = "template1"; }
-        for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
+        for (var i = 0; i <
+            StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1]
+                .numberOfOptions; i++) {
             var option = cc.instantiate(this.node.getChildByName(_template));
             option.name = (i + 1).toString();
             option.setParent(_node);
@@ -977,8 +1180,8 @@ var NewClass = /** @class */ (function (_super) {
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
             // Calculate position based on anchor and scaled size
-            var posX = accumulatedWidth + (option.width * option.anchorX);
-            option.x = posX - (optionsLayout.width * optionsLayout.anchorX);
+            var posX = accumulatedWidth + option.width * option.anchorX;
+            option.x = posX - optionsLayout.width * optionsLayout.anchorX;
             accumulatedWidth += option.width + paddingBetweenOptions;
             // Scale and position children nodes proportionally
             for (var _i = 0, _a = option.children; _i < _a.length; _i++) {
@@ -1038,8 +1241,8 @@ var NewClass = /** @class */ (function (_super) {
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
             // Calculate position based on anchor and scaled size
-            var posY = accumulatedHeight + (option.height * option.anchorY);
-            option.y = posY - (optionsLayout.height * optionsLayout.anchorY);
+            var posY = accumulatedHeight + option.height * option.anchorY;
+            option.y = posY - optionsLayout.height * optionsLayout.anchorY;
             accumulatedHeight += option.height + paddingBetweenOptions;
             // Scale and position children nodes proportionally
             for (var _i = 0, _a = option.children; _i < _a.length; _i++) {
