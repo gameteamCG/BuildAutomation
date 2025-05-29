@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pentagram",
+    "texture": "578eb144-d5d1-4d46-8806-ec6c333dcd2c",
+    "atlas": "",
+    "rect": [
+      54,
+      63,
+      394,
+      375
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
