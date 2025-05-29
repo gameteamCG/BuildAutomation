@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "what should you do?",
+      "totalLevel": "6",
+      "TitleImageName": "title.png",
+      "introBgName": "Senior.png",
+      "bgmMusicName": "Colour_BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "solve the picture puzzle",
+        "questionAudioName": "question1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "assetCommon.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "4.png"
+        ],
+        "correctAudioName": "evo.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify if the given picture is something you should or should nott do",
+        "questionAudioName2": "question2.mp3",
+        "commonOptionImageName": "questionCommon.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "right.png",
+          "wrong.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "bully.mp3"
+      },
+      {
+        "questionText": "solve the picture puzzle",
+        "questionAudioName": "question1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "assetCommon.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1_1.png",
+          "2_1.png",
+          "3_1.png",
+          "4_1.png"
+        ],
+        "correctAudioName": "evo.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify if the given picture is something you should or should nott do",
+        "questionAudioName2": "question2.mp3",
+        "commonOptionImageName": "questionCommon.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "right.png",
+          "wrong.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "teasse.mp3"
+      },
+      {
+        "questionText": "solve the picture puzzle",
+        "questionAudioName": "question1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "assetCommon.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1_2.png",
+          "2_2.png",
+          "3_2.png",
+          "4_2.png"
+        ],
+        "correctAudioName": "evo.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify if the given picture is something you should or should nott do",
+        "questionAudioName2": "question2.mp3",
+        "commonOptionImageName": "questionCommon.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "right.png",
+          "wrong.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "share.mp3"
+      },
+      {
+        "questionText": "solve the picture puzzle",
+        "questionAudioName": "question1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "assetCommon.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1_3.png",
+          "3_3.png",
+          "4_3.png",
+          "5.png"
+        ],
+        "correctAudioName": "evo.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify if the given picture is something you should or should nott do",
+        "questionAudioName2": "question2.mp3",
+        "commonOptionImageName": "questionCommon.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "right.png",
+          "wrong.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "fight.mp3"
+      },
+      {
+        "questionText": "solve the picture puzzle",
+        "questionAudioName": "question1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "assetCommon.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1_4.png",
+          "2_3.png",
+          "3_4.png",
+          "4_4.png"
+        ],
+        "correctAudioName": "evo.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify if the given picture is something you should or should nott do",
+        "questionAudioName2": "question2.mp3",
+        "commonOptionImageName": "questionCommon.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "right.png",
+          "wrong.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "help_other.mp3"
+      },
+      {
+        "questionText": "solve the picture puzzle",
+        "questionAudioName": "question1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "assetCommon.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1_5.png",
+          "2_4.png",
+          "3_5.png",
+          "4_5.png"
+        ],
+        "correctAudioName": "evo.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify if the given picture is something you should or should nott do",
+        "questionAudioName2": "question2.mp3",
+        "commonOptionImageName": "questionCommon.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "right.png",
+          "wrong.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "shake_hands.mp3"
+      }
+    ]
+  }
+}
