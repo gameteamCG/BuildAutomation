@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wear helmt",
+    "texture": "05c1a7df-949a-4d91-82a1-cef6251857e3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      428,
+      429
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      428,
+      429
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

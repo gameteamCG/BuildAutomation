@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wear belt",
+    "texture": "622edea4-00b4-474a-8f04-63205bdbe6dc",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      428,
+      429
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      428,
+      429
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

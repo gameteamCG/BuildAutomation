@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "not wear helmt",
+    "texture": "2bc229a7-190b-409e-826b-59910c0d8f60",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      428,
+      429
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      428,
+      429
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

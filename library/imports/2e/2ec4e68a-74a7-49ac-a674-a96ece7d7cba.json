@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "follow speed",
+    "texture": "382b98a3-6a4b-4192-83db-4e01aa9fc358",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      429,
+      429
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      429,
+      429
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
