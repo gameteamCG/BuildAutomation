@@ -1,0 +1,148 @@
+{
+  "additionalData": {
+    "GameID": "traffic rules",
+    "totalLevel": "9",
+    "TitleImageName": "traffic rules.png",
+    "introBgName": "Playgroup.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "should you wear a seat belt while travelling in a car?",
+      "questionImageName": "wear belt.png",
+      "questionAudioName": "Should you wear a seat belt while travelling in a car.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "right.png",
+        "wrong.png"
+      ],
+      "correctAudioName": "YES.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "should you not wear a seat belt while travelling in a car?",
+      "questionImageName": "not wear belt.png",
+      "questionAudioName": "Should you not wear a seat belt while travelling in a car.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "right.png",
+        "wrong.png"
+      ],
+      "correctAudioName": "NO.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "should you not wear a helmet while riding a bike or cycle",
+      "questionImageName": "not wear helmt.png",
+      "questionAudioName": "Should you not wear a helmet while riding a bike or cycle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "right.png",
+        "wrong.png"
+      ],
+      "correctAudioName": "NO.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "should you never wave or put your hand out of any moving vehicle?",
+      "questionImageName": "not put hand out.png",
+      "questionAudioName": "Should you never wave or put your hand out of any moving vehicle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "right.png",
+        "wrong.png"
+      ],
+      "correctAudioName": "YES.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "should you maintain a safe distance between other vehicles?",
+      "questionImageName": "maintain line.png",
+      "questionAudioName": "Should you maintain a safe distance between other vehicles.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "right.png",
+        "wrong.png"
+      ],
+      "correctAudioName": "YES.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "should you cross the road only when the signal is red?",
+      "questionImageName": "cross road red light.png",
+      "questionAudioName": "Should you cross the road only when the signal is red.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "right.png",
+        "wrong.png"
+      ],
+      "correctAudioName": "YES.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "should you always wear a helmet while riding a bike or cycle?",
+      "questionImageName": "wear helmt.png",
+      "questionAudioName": "Should you always wear a helmet while riding a bike or cycle.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "right.png",
+        "wrong.png"
+      ],
+      "correctAudioName": "YES.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "should you always follow speed limit suggestions and traffic rules?",
+      "questionImageName": "follow speed.png",
+      "questionAudioName": "Should you always follow speed limit suggestions and traffic rules.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "right.png",
+        "wrong.png"
+      ],
+      "correctAudioName": "YES.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "should you cross the road when the signal is green?",
+      "questionImageName": "cross road green light.png",
+      "questionAudioName": "Should you cross the road when the signal is green.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "right.png",
+        "wrong.png"
+      ],
+      "correctAudioName": "NO.mp3",
+      "correctAnswerNum": "2"
+    }
+  ]
+}
