@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "not put hand out",
+    "texture": "0f81b6f0-cd9b-46b0-a95a-8e25de7cae6d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      429,
+      429
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      429,
+      429
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

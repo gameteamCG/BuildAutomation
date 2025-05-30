@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "da999a90-7c8d-4914-9c46-c0cac15a7377",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 428,
+  "height": 428,
+  "platformSettings": {},
+  "subMetas": {
+    "cross road red light": {
+      "ver": "1.0.6",
+      "uuid": "37c4b39d-3e22-4894-afdc-fa6ce4dd0cb2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "da999a90-7c8d-4914-9c46-c0cac15a7377",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 428,
+      "height": 428,
+      "rawWidth": 428,
+      "rawHeight": 428,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

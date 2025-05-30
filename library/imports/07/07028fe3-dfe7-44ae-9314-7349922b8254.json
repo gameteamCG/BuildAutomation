@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "traffic rules",
+    "texture": "97ecb1b2-6527-4ebe-a4a9-0b4cf303b7c7",
+    "atlas": "",
+    "rect": [
+      1,
+      9,
+      490,
+      300
+    ],
+    "offset": [
+      -9,
+      19.5
+    ],
+    "originalSize": [
+      510,
+      357
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
