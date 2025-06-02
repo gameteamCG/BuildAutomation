@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Wet hands (1)",
+    "texture": "bc3204c9-b85c-43f5-a15e-e490378f7fa6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      502,
+      502
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      502,
+      502
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
