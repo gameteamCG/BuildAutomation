@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "match big and small 1-5",
+      "totalLevel": "7",
+      "TitleImageName": "match big and small 1-5.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg_1.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "match the big number pattern tile to the correct small number pattern tile",
+        "questionAudioName": "match the big number pattern tile to the correct small number pattern tile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset 26.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset 34.png"
+        ],
+        "reiterations": [
+          "1.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 27.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 29.png",
+          "Asset 33.png"
+        ]
+      },
+      {
+        "questionText": "match the big number pattern tile to the correct small number pattern tile",
+        "questionAudioName": "match the big number pattern tile to the correct small number pattern tile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset 26.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset 38.png"
+        ],
+        "reiterations": [
+          "5.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 27.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 33.png",
+          "Asset 30.png"
+        ]
+      },
+      {
+        "questionText": "match the big number pattern tile to the correct small number pattern tile",
+        "questionAudioName": "match the big number pattern tile to the correct small number pattern tile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset 26.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset 37.png"
+        ],
+        "reiterations": [
+          "4.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 27.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 32.png",
+          "Asset 29.png"
+        ]
+      },
+      {
+        "questionText": "match the big number pattern tile to the correct small number pattern tile",
+        "questionAudioName": "match the big number pattern tile to the correct small number pattern tile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset 26.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset 35.png"
+        ],
+        "reiterations": [
+          "2.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 27.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 30.png",
+          "Asset 32.png"
+        ]
+      },
+      {
+        "questionText": "match the big number pattern tile to the correct small number pattern tile",
+        "questionAudioName": "match the big number pattern tile to the correct small number pattern tile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset 26.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset 36.png"
+        ],
+        "reiterations": [
+          "3.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 27.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 31.png",
+          "Asset 33.png"
+        ]
+      },
+      {
+        "questionText": "match the big number pattern tile to the correct small number pattern tile",
+        "questionAudioName": "match the big number pattern tile to the correct small number pattern tile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset 26.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset 38.png"
+        ],
+        "reiterations": [
+          "5.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 27.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 33.png",
+          "Asset 31.png"
+        ]
+      },
+      {
+        "questionText": "match the big number pattern tile to the correct small number pattern tile",
+        "questionAudioName": "match the big number pattern tile to the correct small number pattern tile.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Asset 26.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Asset 34.png"
+        ],
+        "reiterations": [
+          "1.mp3"
+        ],
+        "commonRightOptionImageName": "Asset 27.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Asset 29.png",
+          "Asset 31.png"
+        ]
+      }
+    ]
+  }
+}
