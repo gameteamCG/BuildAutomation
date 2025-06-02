@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b6c3b95a-6f17-483d-be61-61fbd4d42eca",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 502,
+  "height": 502,
+  "platformSettings": {},
+  "subMetas": {
+    "Wet hands (1)": {
+      "ver": "1.0.6",
+      "uuid": "58fad809-a25d-4a05-b8dc-6313d4c0af66",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b6c3b95a-6f17-483d-be61-61fbd4d42eca",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 502,
+      "height": 502,
+      "rawWidth": 502,
+      "rawHeight": 502,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

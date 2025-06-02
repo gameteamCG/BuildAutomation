@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "जादुई हाथ और साबुन",
+      "totalLevel": "8",
+      "TitleImageName": "Asset 135 (1).png",
+      "introBgName": "Asset 10.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bathroom_bg.png",
+      "JockeyName": "hindi"
+    },
+    "questionData": [
+      {
+        "questionText": "जादुई हाथ और साबुन",
+        "questionImageName": "1.png",
+        "questionAudioName": "जब आपके हाथ गंदे हों तो चुनें कि आप आगे क्या करेंगे.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Wet hands (1).png",
+          "3.png"
+        ],
+        "correctAudioName": "आप बहुत अच्छा कर रहे हैं.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "जादुई हाथ और साबुन",
+        "questionImageName": "8.png",
+        "questionAudioName": "अपने हाथों को गीला करने के बाद, चुनें कि आप आगे क्या करेंगे.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "2.png",
+          "9.png"
+        ],
+        "correctAudioName": "ज़बरदस्त.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "जादुई हाथ और साबुन",
+        "questionImageName": "2.png",
+        "questionAudioName": "साबुन लगाने के बाद, चुनें कि आप आगे क्या करेंगे.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "6.png",
+          "3.png"
+        ],
+        "correctAudioName": "बहुत अच्छा.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "जादुई हाथ और साबुन",
+        "questionImageName": "3.png",
+        "questionAudioName": "अपने हाथों को अच्छी तरह से रगड़ने के बाद, चुनें कि आप आगे क्या करेंगे.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "5.png",
+          "8.png"
+        ],
+        "correctAudioName": "यह जीनियस काम है.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "जादुई हाथ और साबुन",
+        "questionImageName": "5.png",
+        "questionAudioName": "अपनी उंगलियों के बीच अच्छी तरह से साफ करने के बाद, चुनें कि आप आगे क्या करेंगे.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "2.png",
+          "6.png"
+        ],
+        "correctAudioName": "लाजवाब काम!.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "जादुई हाथ और साबुन",
+        "questionImageName": "6.png",
+        "questionAudioName": "अपना अंगूठा ठीक से साफ करने के बाद, चुनें कि आप आगे क्या करेंगे.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "8.png",
+          "9.png"
+        ],
+        "correctAudioName": "",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "जादुई हाथ और साबुन",
+        "questionImageName": "8.png",
+        "questionAudioName": "अपने हाथ पानी से धोने के बाद, चुनें कि आप आगे क्या करेंगे.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "empty.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "3.png",
+          "9.png"
+        ],
+        "correctAudioName": "शानदार (2).mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "जादुई हाथ और साबुन",
+        "questionImageName": "9.png",
+        "questionAudioName": "अपने हाथों को साफ़ तौलिये से सुखाएँ.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "10.png",
+          "6.png"
+        ],
+        "correctAudioName": "शानदार.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
