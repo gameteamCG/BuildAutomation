@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Place_value_SCIS",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/ONES_TENS_AND_HUNDREDS_1717568359269.mp4",
+      "TitleImageName": "title_ss.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "280",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q1.png",
+        "QuestionAudioName": "count_the_apple.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "54",
+          "32",
+          "144",
+          "64"
+        ],
+        "ReiterationAudioName": "BRILLIANT.mp3",
+        "CorrectAudioName": "64.mp3",
+        "WrongAudioName": "never_mind.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "280",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q2.png",
+        "QuestionAudioName": "count_aplle_10.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "20",
+          "10",
+          "50",
+          "100"
+        ],
+        "ReiterationAudioName": "FANTASTIC.mp3",
+        "CorrectAudioName": "50.mp3",
+        "WrongAudioName": "ohh.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "280",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q3.png",
+        "QuestionAudioName": "Count_the_number_of_blocks.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "152",
+          "105",
+          "125",
+          "52"
+        ],
+        "ReiterationAudioName": "GOODEFFORT.mp3",
+        "CorrectAudioName": "152.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "280",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q4.png",
+        "QuestionAudioName": "Count_the_number_of_blocks.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "400",
+          "343",
+          "34",
+          "340"
+        ],
+        "ReiterationAudioName": "BRILLIANT.mp3",
+        "CorrectAudioName": "343.mp3",
+        "WrongAudioName": "never_mind.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "280",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q5.png",
+        "QuestionAudioName": "Count_the_number_of_blocks.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "24",
+          "9",
+          "19",
+          "90"
+        ],
+        "ReiterationAudioName": "FANTASTIC.mp3",
+        "CorrectAudioName": "24.mp3",
+        "WrongAudioName": "ohh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "280",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q6.png",
+        "QuestionAudioName": "Count_the_number_of_blocks.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "400",
+          "65",
+          "465",
+          "418"
+        ],
+        "ReiterationAudioName": "GOODEFFORT.mp3",
+        "CorrectAudioName": "465.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}
