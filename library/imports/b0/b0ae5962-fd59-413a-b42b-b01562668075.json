@@ -1,0 +1,157 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "virtual field trip - garden",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Children_s_Garden_1748869140133.mp4",
+      "TitleImageName": "virtual field trip - garden.png",
+      "IntroAudio1Name": "empty.mp3",
+      "IntroAudio2Name": "empty.mp3",
+      "JockeyName": "Podar",
+      "TotalLevel": "7"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "1.png",
+        "QuestionAudioName": "41743690_1_where-are-the-children.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard 2.png",
+          "Artboard 2 copy 4.png",
+          "Artboard 2 copy 2.png",
+          "Artboard 2 copy 5.png"
+        ],
+        "ReiterationAudioName": "41743690_2_garden.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "2.png",
+        "QuestionAudioName": "41743690_3_what-does-the-garden-c.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard 2 copy 5.png",
+          "Artboard 2 copy.png",
+          "Artboard 2 copy.png",
+          "Artboard 2 copy 2.png"
+        ],
+        "ReiterationAudioName": "41743690_4_plants.mp3",
+        "CorrectAudioName": "positive_6.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "3.png",
+        "QuestionAudioName": "41743690_5_what-does-the-plant-ne.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard 2 copy 7.png",
+          "Artboard 2 copy 3.png",
+          "Artboard 2 copy 2.png",
+          "Artboard 2 copy 4.png"
+        ],
+        "ReiterationAudioName": "41743690_6_water.mp3",
+        "CorrectAudioName": "positive_5.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "4.png",
+        "QuestionAudioName": "41743690_7_what-do-the-plants-in-.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard 2 copy 10.png",
+          "Artboard 2 copy 11.png",
+          "Artboard 2 copy.png",
+          "Artboard 2 copy 3.png"
+        ],
+        "ReiterationAudioName": "41743690_8_bees.mp3",
+        "CorrectAudioName": "positive_4.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "6.png",
+        "QuestionAudioName": "41743690_11_what-are-the-children-.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard 2 copy 4.png",
+          "Artboard 2 copy 7.png",
+          "Artboard 2 copy 2.png",
+          "Artboard 2 copy 5.png"
+        ],
+        "ReiterationAudioName": "41743690_12_spade.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Select the picture of the caterpillar.png",
+        "QuestionAudioName": "Select the picture of the caterpillar.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Asset 10.png",
+          "Asset 11.png"
+        ],
+        "ReiterationAudioName": "46492105_4_caterpillar.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "5.png",
+        "QuestionAudioName": "41743690_9_what-does-the-caterpil.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Artboard 2 copy 8.png",
+          "Artboard 2 copy 9.png",
+          "Artboard 2 copy 5.png",
+          "Artboard 2 copy 10.png"
+        ],
+        "ReiterationAudioName": "46492105_6_butterfly.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}

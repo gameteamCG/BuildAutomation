@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Select the picture of the caterpillar",
+    "texture": "8fed3f5b-9c06-49d1-b5e9-231c3c818932",
+    "atlas": "",
+    "rect": [
+      23,
+      205,
+      455,
+      105
+    ],
+    "offset": [
+      0,
+      -7
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
