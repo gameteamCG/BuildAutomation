@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "4_glider",
+    "texture": "51d7e180-6dc1-4cd8-a9cb-1cb22dc72b3f",
+    "atlas": "",
+    "rect": [
+      19,
+      124,
+      462,
+      251
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
