@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "cd2fe66a-cd2f-4ab8-aebe-3f5e8852849d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Select the picture of the caterpillar": {
+      "ver": "1.0.6",
+      "uuid": "3759796f-cc40-4a24-a405-a70987355994",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "cd2fe66a-cd2f-4ab8-aebe-3f5e8852849d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -7,
+      "trimX": 23,
+      "trimY": 205,
+      "width": 455,
+      "height": 105,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
