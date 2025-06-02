@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "9_12_caterpiller",
+    "texture": "41320d23-24e4-4663-855b-3095ced4ab3b",
+    "atlas": "",
+    "rect": [
+      44,
+      138,
+      417,
+      265
+    ],
+    "offset": [
+      2.5,
+      -20.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

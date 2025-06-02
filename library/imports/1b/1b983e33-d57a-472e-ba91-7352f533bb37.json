@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "common_box_img",
+    "texture": "67821a57-b0ed-4e16-88a5-8248ba33198e",
+    "atlas": "",
+    "rect": [
+      19,
+      7,
+      464,
+      493
+    ],
+    "offset": [
+      1,
+      -3.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
