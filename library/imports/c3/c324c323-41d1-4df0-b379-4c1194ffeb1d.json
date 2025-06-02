@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "match big and small 1-5",
+    "texture": "feedf12c-b2d5-4fe4-acd6-63cee437143d",
+    "atlas": "",
+    "rect": [
+      1,
+      7,
+      1107,
+      302
+    ],
+    "offset": [
+      -7.5,
+      20.5
+    ],
+    "originalSize": [
+      1124,
+      357
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
