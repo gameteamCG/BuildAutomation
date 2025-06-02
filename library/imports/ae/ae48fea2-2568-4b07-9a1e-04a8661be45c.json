@@ -1,22 +1,22 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "Board",
-    "texture": "55b0dc2e-4cbc-4c6e-8ac3-c9815a563397",
+    "name": "Level6C",
+    "texture": "e87f5bc5-b8cf-44f5-a86d-74cea4c2d5e8",
     "atlas": "",
     "rect": [
+      5,
       0,
-      0,
-      573,
-      573
+      246,
+      245
     ],
     "offset": [
-      0,
-      0
+      2.5,
+      3
     ],
     "originalSize": [
-      573,
-      573
+      251,
+      251
     ],
     "capInsets": [
       0,
