@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Air_Transport",
+    "texture": "7facf81f-d9fd-48d1-93f1-457019709241",
+    "atlas": "",
+    "rect": [
+      1,
+      22,
+      674,
+      333
+    ],
+    "offset": [
+      -6,
+      -10
+    ],
+    "originalSize": [
+      688,
+      357
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
