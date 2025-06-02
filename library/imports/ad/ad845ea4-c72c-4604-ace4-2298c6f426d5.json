@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "moping",
+    "texture": "a17b53b4-f363-4ee6-8b67-7913806a1b02",
+    "atlas": "",
+    "rect": [
+      75,
+      26,
+      350,
+      449
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
