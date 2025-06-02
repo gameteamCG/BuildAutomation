@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Helicopter_1",
+    "texture": "8751f101-7a64-4c1d-be45-b69b6fcf6288",
+    "atlas": "",
+    "rect": [
+      86,
+      143,
+      328,
+      214
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
