@@ -1,0 +1,159 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Aeroplane",
+      "totalLevel": "5",
+      "TitleImageName": "Aeroplane.png",
+      "introBgName": "Playgroup.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "q1",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 29.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1.png",
+          "2.png",
+          "3.png",
+          "Asset 34.png"
+        ],
+        "correctAudioName": "aeroplane.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "q2",
+        "questionAudioName2": "evo.mp3",
+        "commonOptionImageName": "Asset 28.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 26.png",
+          "Asset 27.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "yes.mp3"
+      },
+      {
+        "questionText": "q1",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 29.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1_1.png",
+          "2_1.png",
+          "3_1.png",
+          "4.png"
+        ],
+        "correctAudioName": "school.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "q2",
+        "questionAudioName2": "evo.mp3",
+        "commonOptionImageName": "Asset 28.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 26.png",
+          "Asset 27.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "no.mp3"
+      },
+      {
+        "questionText": "q1",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 29.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1_2.png",
+          "2_2.png",
+          "3_2.png",
+          "4_1.png"
+        ],
+        "correctAudioName": "distance.mp3",
+        "needReiteration": true,
+        "interactionType": "",
+        "questionText2": "1",
+        "questionAudioName2": "evo.mp3",
+        "commonOptionImageName": "Asset 28.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 26.png",
+          "Asset 27.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "yes.mp3"
+      },
+      {
+        "questionText": "q1",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 29.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1_3.png",
+          "2_3.png",
+          "3_3.png",
+          "4_2.png"
+        ],
+        "correctAudioName": "fast.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "q2",
+        "questionAudioName2": "evo.mp3",
+        "commonOptionImageName": "Asset 28.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 26.png",
+          "Asset 27.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "yes.mp3"
+      },
+      {
+        "questionText": "q1",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset 29.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1_4.png",
+          "2_4.png",
+          "3_4.png",
+          "4_3.png"
+        ],
+        "correctAudioName": "air.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "q2",
+        "questionAudioName2": "evo.mp3",
+        "commonOptionImageName": "Asset 28.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset 26.png",
+          "Asset 27.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "yes.mp3"
+      }
+    ]
+  }
+}
