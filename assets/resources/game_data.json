@@ -1,0 +1,118 @@
+{
+  "additionalData": {
+    "GameID": "ऋ की मात्रा",
+    "totalLevel": "7",
+    "TitleImageName": "Asset 132.png",
+    "introBgName": "bg_2 (1).png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "hindi"
+  },
+  "questionData": [
+    {
+      "questionText": "ऋ की मात्रा",
+      "questionImageName": "Asset 17.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 15.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 24.png",
+        "Asset 23.png"
+      ],
+      "correctAudioName": "गृह .mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "ऋ की मात्रा",
+      "questionImageName": "Asset 8.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 15.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 21.png",
+        "Asset 19.png"
+      ],
+      "correctAudioName": "वृक्ष.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "ऋ की मात्रा",
+      "questionImageName": "Asset 13.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 15.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 18.png",
+        "Asset 22.png"
+      ],
+      "correctAudioName": "मृग.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "ऋ की मात्रा",
+      "questionImageName": "Asset 10.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 15.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 23.png",
+        "Asset 23.png"
+      ],
+      "correctAudioName": "वृषभ.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "ऋ की मात्रा",
+      "questionImageName": "Asset 9.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 15.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 21.png",
+        "Asset 19.png"
+      ],
+      "correctAudioName": "ऋषि .mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "ऋ की मात्रा",
+      "questionImageName": "Asset 11.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 15.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 24.png",
+        "Asset 20.png"
+      ],
+      "correctAudioName": "पृथ्वी.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "ऋ की मात्रा",
+      "questionImageName": "Asset 12.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 15.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 22.png",
+        "Asset 23.png"
+      ],
+      "correctAudioName": "कृपाण.mp3",
+      "correctAnswerNum": "1"
+    }
+  ]
+}
