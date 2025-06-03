@@ -1,0 +1,118 @@
+{
+  "additionalData": {
+    "GameID": "ए की मात्रा",
+    "totalLevel": "5",
+    "TitleImageName": "Asset 132.png",
+    "introBgName": "bg_2 (1).png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "hindi"
+  },
+  "questionData": [
+    {
+      "questionText": "चित्र का सही शब्द से मिलान करें",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back.png",
+      "frontCardImageName": "front.png",
+      "isOptionText": false,
+      "options": [
+        "Artboard 2.png",
+        "Artboard 2 copy.png"
+      ],
+      "reiterationAudios": [
+        "केला.mp3",
+        "सेब.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "Artboard 2 copy 9.png",
+        "Artboard 2 copy 10.png"
+      ]
+    },
+    {
+      "questionText": "चित्र का सही शब्द से मिलान करें",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back.png",
+      "frontCardImageName": "front.png",
+      "isOptionText": false,
+      "options": [
+        "Artboard 2 copy 2.png",
+        "Artboard 2 copy 3.png"
+      ],
+      "reiterationAudios": [
+        "पेड.mp3",
+        "शेर.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "Artboard 2 copy 11.png",
+        "Artboard 2 copy 13.png"
+      ]
+    },
+    {
+      "questionText": "चित्र का सही शब्द से मिलान करें",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back.png",
+      "frontCardImageName": "front.png",
+      "isOptionText": false,
+      "options": [
+        "Artboard 2 copy 4.png",
+        "Artboard 2 copy 7.png"
+      ],
+      "reiterationAudios": [
+        "बेर.mp3",
+        "खेत.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "Artboard 2 copy 12.png",
+        "Artboard 2 copy 14.png"
+      ]
+    },
+    {
+      "questionText": "चित्र का सही शब्द से मिलान करें",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back.png",
+      "frontCardImageName": "front.png",
+      "isOptionText": false,
+      "options": [
+        "Artboard 2 copy 6.png",
+        "Artboard 2 copy 5.png"
+      ],
+      "reiterationAudios": [
+        "रेल.mp3",
+        "जेल.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "Artboard 2 copy 15.png",
+        "Artboard 2 copy 16.png"
+      ]
+    },
+    {
+      "questionText": "चित्र का सही शब्द से मिलान करें",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back.png",
+      "frontCardImageName": "front.png",
+      "isOptionText": false,
+      "options": [
+        "Artboard 2 copy 8.png",
+        "oil.png"
+      ],
+      "reiterationAudios": [
+        "रेत.mp3",
+        "तेल.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "Artboard 2 copy 17.png",
+        "Artboard 2 copy 18.png"
+      ]
+    }
+  ]
+}
