@@ -80,7 +80,7 @@
       ],
       "correctAudioName": "evo.mp3",
       "needReiteration": true,
-      "interactionType": "",
+      "interactionType": "1",
       "questionText2": "1",
       "questionAudioName2": "distance.mp3",
       "commonOptionImageName": "Asset 28.png",
