@@ -1,0 +1,209 @@
+{
+  "additionalData": {
+    "GameID": "https://drive.google.com/drive/folders/1D8u9Lkh8Q1-XXnlHcpF08rFPbTsC2ay8?usp=drive_link",
+    "totalLevel": "7",
+    "TitleImageName": "Asset 132.png",
+    "introBgName": "bg_2 (1).png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "hindi"
+  },
+  "questionData": [
+    {
+      "questionText": "q1",
+      "questionAudioName": "qvo1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset1.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "Artboard 2.png",
+        "Artboard 2 copy.png",
+        "Artboard 2 copy 2.png",
+        "Artboard 2 copy 3.png"
+      ],
+      "correctAudioName": "qvo.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "q2",
+      "questionAudioName2": "evo.mp3",
+      "commonOptionImageName": "Asset2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 1 (1).png",
+        "Asset 3 (2).png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "नृप.mp3"
+    },
+    {
+      "questionText": "q1",
+      "questionAudioName": "qvo1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset1.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "Artboard 2.png",
+        "Artboard 2 copy.png",
+        "Artboard 2 copy 2.png",
+        "Artboard 2 copy 3.png"
+      ],
+      "correctAudioName": "qvo.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "q2",
+      "questionAudioName2": "evo.mp3",
+      "commonOptionImageName": "Asset2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 6 (3).png",
+        "Asset 2 (3).png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "कृषक.mp3"
+    },
+    {
+      "questionText": "q1",
+      "questionAudioName": "qvo1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset1.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "Artboard 2.png",
+        "Artboard 2 copy.png",
+        "Artboard 2 copy 2.png",
+        "Artboard 2 copy 3.png"
+      ],
+      "correctAudioName": "qvo.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "q2",
+      "questionAudioName2": "evo.mp3",
+      "commonOptionImageName": "Asset2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 3 (2).png",
+        "Asset 4 (2).png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "वृषभ.mp3"
+    },
+    {
+      "questionText": "q1",
+      "questionAudioName": "qvo1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset1.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "Artboard 2 copy 2.png",
+        "Artboard 2 copy 3.png",
+        "Artboard 2 copy.png",
+        "Artboard 2.png"
+      ],
+      "correctAudioName": "qvo.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "q2",
+      "questionAudioName2": "evo.mp3",
+      "commonOptionImageName": "Asset2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 3 (2).png",
+        "Asset 4 (2).png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "ऋतु.mp3"
+    },
+    {
+      "questionText": "q1",
+      "questionAudioName": "qvo1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset1.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "Artboard 2.png",
+        "Artboard 2 copy.png",
+        "Artboard 2 copy 2.png",
+        "Artboard 2 copy 3.png"
+      ],
+      "correctAudioName": "qvo.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "q2",
+      "questionAudioName2": "evo.mp3",
+      "commonOptionImageName": "Asset2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 5 (2).png",
+        "Asset 2 (3).png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "ऋषि.mp3"
+    },
+    {
+      "questionText": "q1",
+      "questionAudioName": "qvo1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset1.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "Artboard 2.png",
+        "Artboard 2 copy.png",
+        "Artboard 2 copy 2.png",
+        "Artboard 2 copy 3.png"
+      ],
+      "correctAudioName": "qvo.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "q2",
+      "questionAudioName2": "evo.mp3",
+      "commonOptionImageName": "Asset2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 1 (1).png",
+        "Asset 6 (3).png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "पृथ्वी.mp3"
+    },
+    {
+      "questionText": "q1",
+      "questionAudioName": "qvo1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "Asset1.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "Artboard 2.png",
+        "Artboard 2 copy.png",
+        "Artboard 2 copy 2.png",
+        "Artboard 2 copy 3.png"
+      ],
+      "correctAudioName": "qvo.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "a2",
+      "questionAudioName2": "evo.mp3",
+      "commonOptionImageName": "Asset2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "Asset 4 (2).png",
+        "Asset 7 (2).png"
+      ],
+      "correctAnswer": "2x`",
+      "reiterationAudioName": "मृदंग.mp3"
+    }
+  ]
+}
