@@ -3,8 +3,8 @@
     "GameID": "virtual field trip - garden",
     "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Children_s_Garden_1748869140133.mp4",
     "TitleImageName": "virtual field trip - garden.png",
-    "IntroAudio1Name": "empty.mp3",
-    "IntroAudio2Name": "empty.mp3",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
     "JockeyName": "Podar",
     "TotalLevel": "7"
   },
@@ -41,7 +41,7 @@
       "Options": [
         "Artboard 2 copy 5.png",
         "Artboard 2 copy.png",
-        "Artboard 2 copy.png",
+        "Artboard 2 copy 3.png",
         "Artboard 2 copy 2.png"
       ],
       "ReiterationAudioName": "41743690_4_plants.mp3",
