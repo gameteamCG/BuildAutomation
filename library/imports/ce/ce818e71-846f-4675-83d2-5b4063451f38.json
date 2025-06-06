@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rishab",
+    "texture": "d566e914-33ce-4680-b001-7010a4a4c65c",
+    "atlas": "",
+    "rect": [
+      71,
+      162,
+      361,
+      186
+    ],
+    "offset": [
+      1,
+      -4.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

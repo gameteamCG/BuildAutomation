@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ritu",
+    "texture": "43d649db-108a-4de3-8754-fc649342af92",
+    "atlas": "",
+    "rect": [
+      116,
+      170,
+      269,
+      183
+    ],
+    "offset": [
+      0,
+      -11
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
