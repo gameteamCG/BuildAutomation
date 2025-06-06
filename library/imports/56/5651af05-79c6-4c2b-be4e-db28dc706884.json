@@ -1,0 +1,251 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Adaptation in water plants_Grade 4 (Science)__R41_T2",
+      "totalLevel": "8",
+      "TitleImageName": "Title.png",
+      "introBgName": "jBG.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "tortoise"
+    },
+    "questionData": [
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "1a.png",
+          "1b.png",
+          "1c.png",
+          "1d.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify",
+        "questionAudioName2": "identify_the_adaptational_feature_of_the_plant_shown.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_(1).png",
+          "1_(7).png",
+          "1_(3).png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Water_Lily_Air_spaces_keep_leaves_and_stem_afloat.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "2a.png",
+          "2b.png",
+          "2c.png",
+          "2d.png"
+        ],
+        "correctAudioName": "positive_4.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify",
+        "questionAudioName2": "identify_the_adaptational_feature_of_the_plant_shown.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "L4.png",
+          "1_(7).png",
+          "1_(6).png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "Mangrove_the_Roots_absorb_air_from_the_atmosphere.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "3a.png",
+          "3b.png",
+          "3c.png",
+          "3d.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify",
+        "questionAudioName2": "identify_the_adaptational_feature_of_the_plant_shown.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "L4.png",
+          "1_(1).png",
+          "1_(6).png"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "Seagrass_the_Leaf_glands_remove_salt.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "4a.png",
+          "4b.png",
+          "4c.png",
+          "4d.png"
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify",
+        "questionAudioName2": "identify_the_adaptational_feature_of_the_plant_shown.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_(3).png",
+          "L4.png",
+          "1_(5).png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "Lotus_the_Flat_leaves_float_on_water.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "5a.png",
+          "5b.png",
+          "5c.png",
+          "5d.png"
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify",
+        "questionAudioName2": "identify_the_adaptational_feature_of_the_plant_shown.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_(4).png",
+          "1_(2).png",
+          "1_(5).png"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "Hydrilla_its_Roots_anchor_in_mud.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "6a.png",
+          "6b.png",
+          "6c.png",
+          "6d.png"
+        ],
+        "correctAudioName": "positive_5.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify",
+        "questionAudioName2": "identify_the_adaptational_feature_of_the_plant_shown.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_(4).png",
+          "1_(7).png",
+          "1_(6).png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Water_Hyacinth_the_Thick_waxy_leaves_repel_water.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "7a.png",
+          "7b.png",
+          "7c.png",
+          "7d.png"
+        ],
+        "correctAudioName": "positive_4.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify",
+        "questionAudioName2": "identify_the_adaptational_feature_of_the_plant_shown.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_(3).png",
+          "1_(2).png",
+          "1_(7).png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "Duckweed_absorbs_nutrients_from_water.mp3"
+      },
+      {
+        "questionText": "Solve the picture",
+        "questionAudioName": "solve-the-picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "8a.png",
+          "8b.png",
+          "8c.png",
+          "8d.png"
+        ],
+        "correctAudioName": "positive_3.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Identify",
+        "questionAudioName2": "identify_the_adaptational_feature_of_the_plant_shown.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1_(1).png",
+          "L4.png",
+          "1_(2).png"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "Seaweed_its_Flexible_body_withstands_tides.mp3"
+      }
+    ]
+  }
+}
