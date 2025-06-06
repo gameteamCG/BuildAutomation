@@ -27,7 +27,7 @@
           "1c.png",
           "1d.png"
         ],
-        "correctAudioName": "",
+        "correctAudioName": "positive_1.mp3",
         "needReiteration": true,
         "interactionType": "1",
         "questionText2": "Identify",
