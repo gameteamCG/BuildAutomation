@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Dragon_Lily",
+    "texture": "0a064c3d-0a4c-4308-b43a-9a70e5d511a7",
+    "atlas": "",
+    "rect": [
+      29,
+      31,
+      441,
+      443
+    ],
+    "offset": [
+      -1,
+      -2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

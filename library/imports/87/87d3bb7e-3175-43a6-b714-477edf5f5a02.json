@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sagebrush",
+    "texture": "8070fb29-7401-4840-9a5a-fedd1652fa89",
+    "atlas": "",
+    "rect": [
+      29,
+      31,
+      441,
+      443
+    ],
+    "offset": [
+      -1,
+      -2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

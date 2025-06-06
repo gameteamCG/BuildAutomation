@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Bamboo",
+    "texture": "56ead3d1-469e-455d-a3df-b43b39aab601",
+    "atlas": "",
+    "rect": [
+      30,
+      31,
+      441,
+      443
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
