@@ -14,7 +14,7 @@
 			"questionAudioName": "solve-the-picture.mp3",
 			"shouldPlayQuestionAudio": true,
 			"commonPuzzleImageName": "",
-			"isHintRequired": true,
+			"isHintRequired": false,
 			"numberOfPuzzles": 4,
 			"puzzles": ["1a.png", "1b.png", "1c.png", "1d.png"],
 			"correctAudioName": "positive_1.mp3",
