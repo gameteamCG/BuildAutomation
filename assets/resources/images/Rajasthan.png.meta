@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d95443ce-29ef-4806-a09b-24add57f5938",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 351,
+  "height": 351,
+  "platformSettings": {},
+  "subMetas": {
+    "Rajasthan": {
+      "ver": "1.0.6",
+      "uuid": "8518bbc9-17bd-4ad6-bb92-4880f35acabe",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d95443ce-29ef-4806-a09b-24add57f5938",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": -2,
+      "trimX": 113,
+      "trimY": 163,
+      "width": 128,
+      "height": 29,
+      "rawWidth": 351,
+      "rawHeight": 351,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

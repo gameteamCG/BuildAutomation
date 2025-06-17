@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Rajasthan",
+    "texture": "d95443ce-29ef-4806-a09b-24add57f5938",
+    "atlas": "",
+    "rect": [
+      113,
+      163,
+      128,
+      29
+    ],
+    "offset": [
+      1.5,
+      -2
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

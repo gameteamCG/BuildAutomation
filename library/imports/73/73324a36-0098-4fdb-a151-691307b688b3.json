@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Maharashtra",
+    "texture": "d10f38f1-cca5-4a6e-92a8-bba255514d91",
+    "atlas": "",
+    "rect": [
+      95,
+      163,
+      164,
+      20
+    ],
+    "offset": [
+      1.5,
+      2.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

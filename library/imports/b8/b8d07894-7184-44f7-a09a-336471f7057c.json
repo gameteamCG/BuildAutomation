@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Punjab",
+    "texture": "ca29c184-c99e-49fd-8ffc-01592ea5f5ef",
+    "atlas": "",
+    "rect": [
+      133,
+      163,
+      87,
+      29
+    ],
+    "offset": [
+      1,
+      -2
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

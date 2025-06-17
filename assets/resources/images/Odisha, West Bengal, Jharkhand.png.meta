@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "75e7261b-f325-417e-969f-07d9339782b1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 351,
+  "height": 351,
+  "platformSettings": {},
+  "subMetas": {
+    "Odisha, West Bengal, Jharkhand": {
+      "ver": "1.0.6",
+      "uuid": "3029708f-f1a5-4358-9e3e-e5133228c8e5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "75e7261b-f325-417e-969f-07d9339782b1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 1.5,
+      "trimX": 89,
+      "trimY": 130,
+      "width": 172,
+      "height": 88,
+      "rawWidth": 351,
+      "rawHeight": 351,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

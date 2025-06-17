@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Karnataka",
+    "texture": "0dda64d7-75d9-493d-ab5f-e31fe474c21d",
+    "atlas": "",
+    "rect": [
+      110,
+      163,
+      134,
+      20
+    ],
+    "offset": [
+      1.5,
+      2.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

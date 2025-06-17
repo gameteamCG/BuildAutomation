@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Odisha, West Bengal, Jharkhand",
+    "texture": "75e7261b-f325-417e-969f-07d9339782b1",
+    "atlas": "",
+    "rect": [
+      89,
+      130,
+      172,
+      88
+    ],
+    "offset": [
+      -0.5,
+      1.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

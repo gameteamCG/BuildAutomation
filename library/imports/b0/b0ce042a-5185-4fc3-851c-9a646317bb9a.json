@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sorting living and non-living things",
+    "texture": "c452bb20-b44a-460b-b33a-5606b9ccdf20",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1081,
+      333
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1081,
+      333
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "0dda64d7-75d9-493d-ab5f-e31fe474c21d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 351,
+  "height": 351,
+  "platformSettings": {},
+  "subMetas": {
+    "Karnataka": {
+      "ver": "1.0.6",
+      "uuid": "ce003a5e-a533-4f1b-bf9b-da50cb8cbd37",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0dda64d7-75d9-493d-ab5f-e31fe474c21d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": 2.5,
+      "trimX": 110,
+      "trimY": 163,
+      "width": 134,
+      "height": 20,
+      "rawWidth": 351,
+      "rawHeight": 351,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

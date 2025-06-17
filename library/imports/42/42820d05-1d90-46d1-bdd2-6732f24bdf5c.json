@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Assam",
+    "texture": "96ce8df9-13e7-4f38-a5e1-612e548a4c29",
+    "atlas": "",
+    "rect": [
+      133,
+      163,
+      86,
+      20
+    ],
+    "offset": [
+      0.5,
+      2.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

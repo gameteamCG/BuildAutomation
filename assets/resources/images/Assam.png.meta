@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "96ce8df9-13e7-4f38-a5e1-612e548a4c29",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 351,
+  "height": 351,
+  "platformSettings": {},
+  "subMetas": {
+    "Assam": {
+      "ver": "1.0.6",
+      "uuid": "42820d05-1d90-46d1-bdd2-6732f24bdf5c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "96ce8df9-13e7-4f38-a5e1-612e548a4c29",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 2.5,
+      "trimX": 133,
+      "trimY": 163,
+      "width": 86,
+      "height": 20,
+      "rawWidth": 351,
+      "rawHeight": 351,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
