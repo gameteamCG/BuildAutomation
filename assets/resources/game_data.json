@@ -1,0 +1,125 @@
+{
+  "additionalData": {
+    "GameID": "Our green home",
+    "totalLevel": "7",
+    "TitleImageName": "title.png",
+    "introBgName": "bg1.png",
+    "bgmMusicName": "bgm.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "tortoise"
+  },
+  "questionData": [
+    {
+      "questionText": "Dumping waste in the open",
+      "questionImageName": "1.png",
+      "questionAudioName": "dumpWaste.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "question.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "land pollution",
+        "water pollution",
+        "air pollution"
+      ],
+      "correctAudioName": "landpollution.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Too many vehicles, factories, and deforestation",
+      "questionImageName": "2.png",
+      "questionAudioName": "toomanyvehicles.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "question.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "land pollution",
+        "global warming",
+        "water pollution"
+      ],
+      "correctAudioName": "globalw.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Oil spills in oceans",
+      "questionImageName": "3.png",
+      "questionAudioName": "oilspillsocean.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "question.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "air pollution",
+        "soil pollution",
+        "water pollution"
+      ],
+      "correctAudioName": "water.mp3",
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "Throwing electronic waste improperly",
+      "questionImageName": "4.png",
+      "questionAudioName": "landwaterpoll.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "question.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "loss of habitat",
+        "land and water pollution",
+        "soil pollution"
+      ],
+      "correctAudioName": "landwaterpoll.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "vehicle smoke and burning garbage",
+      "questionImageName": "5.png",
+      "questionAudioName": "vehiclesmokeandgarbageburn.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "question.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "air pollution",
+        "soil pollution",
+        "water pollution"
+      ],
+      "correctAudioName": "air.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Cutting down trees",
+      "questionImageName": "6.png",
+      "questionAudioName": "cutTrees.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "question.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "land pollution",
+        "air pollution",
+        "loss of habitat"
+      ],
+      "correctAudioName": "lossofhabitat.mp3",
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "Throwing waste into rivers and lakes",
+      "questionImageName": "7.png",
+      "questionAudioName": "throwWasteintoriver.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "question.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "air pollution",
+        "water pollution",
+        "land pollution"
+      ],
+      "correctAudioName": "water.mp3",
+      "correctAnswerNum": "2"
+    }
+  ]
+}
