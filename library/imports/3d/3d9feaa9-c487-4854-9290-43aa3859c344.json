@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ओले",
+    "texture": "e059875a-9e82-445d-83b0-f792e4ffd3c4",
+    "atlas": "",
+    "rect": [
+      114,
+      87,
+      274,
+      328
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

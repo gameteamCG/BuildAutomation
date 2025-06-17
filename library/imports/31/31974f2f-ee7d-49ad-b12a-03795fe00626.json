@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "आलू",
+    "texture": "5e4c7e5b-9e94-487b-b38e-bcdf755ad698",
+    "atlas": "",
+    "rect": [
+      115,
+      107,
+      295,
+      296
+    ],
+    "offset": [
+      12,
+      -4.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

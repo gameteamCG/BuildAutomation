@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ऊन",
+    "texture": "7f5f867a-518c-4b2b-9646-7b42eabfdf61",
+    "atlas": "",
+    "rect": [
+      115,
+      120,
+      272,
+      262
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
