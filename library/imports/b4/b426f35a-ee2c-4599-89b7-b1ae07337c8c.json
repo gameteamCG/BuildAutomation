@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ada",
+    "texture": "617f29d7-0302-4ac5-821e-06132604ed10",
+    "atlas": "",
+    "rect": [
+      42,
+      41,
+      169,
+      170
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

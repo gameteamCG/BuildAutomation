@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thag",
+    "texture": "f9058b4a-53bf-4da9-9d35-bffc28c8e917",
+    "atlas": "",
+    "rect": [
+      115,
+      88,
+      121,
+      174
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

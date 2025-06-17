@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "damru",
+    "texture": "4bce3928-1389-4a98-974f-60ba65a12cac",
+    "atlas": "",
+    "rect": [
+      31,
+      78,
+      283,
+      250
+    ],
+    "offset": [
+      -3,
+      -27.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

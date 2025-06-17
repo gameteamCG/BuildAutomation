@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tokri",
+    "texture": "a31119b2-b49d-46b8-834e-2d21e387eca6",
+    "atlas": "",
+    "rect": [
+      84,
+      124,
+      182,
+      102
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

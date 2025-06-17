@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thandi",
+    "texture": "ae347cb9-d83d-47ea-be17-bc56cbd41286",
+    "atlas": "",
+    "rect": [
+      139,
+      90,
+      65,
+      169
+    ],
+    "offset": [
+      -4,
+      1
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

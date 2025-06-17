@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dhalaan",
+    "texture": "6777c66b-db95-4be5-a628-e2efd05efe1d",
+    "atlas": "",
+    "rect": [
+      88,
+      117,
+      175,
+      129
+    ],
+    "offset": [
+      0,
+      -6
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dafli",
+    "texture": "0e428e2c-df74-4997-a673-ad104d7120aa",
+    "atlas": "",
+    "rect": [
+      27,
+      20,
+      289,
+      316
+    ],
+    "offset": [
+      -4,
+      -2.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
