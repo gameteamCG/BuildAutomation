@@ -1,0 +1,160 @@
+{
+  "additionalData": {
+    "GameID": "पहला अक्षर_LKG_18",
+    "totalLevel": "7",
+    "TitleImageName": "title.png",
+    "introBgName": "intro.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "hindi"
+  },
+  "questionData": [
+    {
+      "questionText": "पहला अक्षर",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "अंडा.png"
+      ],
+      "reiterations": [
+        "anda.mp3"
+      ],
+      "commonRightOptionImageName": "right.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "asset2.png",
+        ""
+      ]
+    },
+    {
+      "questionText": "पहला अक्षर",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "आलू.png"
+      ],
+      "reiterations": [
+        "aloo.mp3"
+      ],
+      "commonRightOptionImageName": "right.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "asset1.png",
+        "asset7.png"
+      ]
+    },
+    {
+      "questionText": "पहला अक्षर",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "इमली.png"
+      ],
+      "reiterations": [
+        "imlu.mp3"
+      ],
+      "commonRightOptionImageName": "right.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "asset8.png",
+        "asset11.png"
+      ]
+    },
+    {
+      "questionText": "पहला अक्षर",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "ऊन.png"
+      ],
+      "reiterations": [
+        "oon.mp3"
+      ],
+      "commonRightOptionImageName": "right.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "asset9.png",
+        "asset1.png"
+      ]
+    },
+    {
+      "questionText": "पहला अक्षर",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "एकतारा.png"
+      ],
+      "reiterations": [
+        "ektara.mp3"
+      ],
+      "commonRightOptionImageName": "right.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "asset7.png",
+        "asset10.png"
+      ]
+    },
+    {
+      "questionText": "पहला अक्षर",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "ओले.png"
+      ],
+      "reiterations": [
+        "ole.mp3"
+      ],
+      "commonRightOptionImageName": "right.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "asset11.png",
+        "asset6.png"
+      ]
+    },
+    {
+      "questionText": "पहला अक्षर",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonLeftOptionImageName": "left.png",
+      "isLeftOptionText": false,
+      "numberOfLeftOptions": 1,
+      "leftoptions": [
+        "औज़ार.png"
+      ],
+      "reiterations": [
+        "auzaar.mp3"
+      ],
+      "commonRightOptionImageName": "right.png",
+      "isRightOptionText": false,
+      "numberOfRightOptions": 2,
+      "rightoptions": [
+        "asset2.png",
+        "au.png"
+      ]
+    }
+  ]
+}
