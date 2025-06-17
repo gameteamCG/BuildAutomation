@@ -1,0 +1,140 @@
+{
+  "additionalData": {
+    "GameID": "पहला अक्षर_LKG_97",
+    "totalLevel": "7",
+    "TitleImageName": "title.png",
+    "introBgName": "intro.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "look and feel copy.png",
+    "JockeyName": "hindi",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "ट",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 36.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 3,
+      "options": [
+        "Artboard 61 copy 2.png",
+        "Artboard 61 copy 6.png",
+        "Artboard 61 copy 10.png"
+      ],
+      "correctAudios": [
+        "tokri.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "ड",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 36.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 3,
+      "options": [
+        "Artboard 61 copy 18.png",
+        "Artboard 61 copy 6.png",
+        "Artboard 61 copy 22.png"
+      ],
+      "correctAudios": [
+        "anda.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "ब",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 36.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 3,
+      "options": [
+        "Artboard 61 copy 14.png",
+        "Artboard 61 copy 2.png",
+        "Artboard 61 copy 10.png"
+      ],
+      "correctAudios": [
+        "baand.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "ठ",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 36.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 3,
+      "options": [
+        "Artboard 61 copy 14.png",
+        "Artboard 61 copy 2.png",
+        "Artboard 61 copy 10.png"
+      ],
+      "correctAudios": [
+        "thappa.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "ड",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 36.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 3,
+      "options": [
+        "box.png",
+        "Artboard 61 copy 10.png",
+        "Artboard 61 copy 2.png"
+      ],
+      "correctAudios": [
+        "dabba.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "ढ",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 36.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 3,
+      "options": [
+        "Artboard 61 copy 2.png",
+        "Artboard 61 copy 22.png",
+        "Artboard 61 copy 18.png"
+      ],
+      "correctAudios": [
+        "dhaal.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "ठ",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 36.png",
+      "isOptionText": false,
+      "isOptionBG": false,
+      "numberOfOptions": 3,
+      "options": [
+        "Artboard 61 copy 22.png",
+        "box.png",
+        "Artboard 61 copy 10.png"
+      ],
+      "correctAudios": [
+        "thela.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
