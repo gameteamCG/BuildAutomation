@@ -1,0 +1,48 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "PictureQuiz",
+      "totalLevel": "1",
+      "TitleImageName": "1.png",
+      "introBgName": "introBg.png",
+      "bgmMusicName": "bgmMusic.mp3",
+      "mainBgName": "mainBg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "ABC",
+        "questionAudioName": "questionAudio1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "commonOptionImage.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "titleImage.png",
+          "titleImage.png",
+          "titleImage.png",
+          "titleImage.png"
+        ],
+        "correctAudioName": "correctAudio1.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "2nd Question",
+        "questionAudioName2": "questionAudio2.mp3",
+        "commonOptionImageName": "commonOptionImage.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "T",
+          "C",
+          "A"
+        ],
+        "correctAnswer": "CAT",
+        "reiterationAudioName": "correctAudio2.mp3"
+      }
+    ]
+  }
+}
