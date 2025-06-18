@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tnss",
+    "texture": "f16982ab-7ad1-4ea7-802d-056fa8a30feb",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      672,
+      287
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      679,
+      302
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
