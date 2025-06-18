@@ -1,0 +1,169 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number name 4_lkg_sb5_52",
+      "totalLevel": "5",
+      "TitleImageName": "number4.png",
+      "introBgName": "LKG.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionAudioName": "solvepictuepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "4.png",
+          "yuvuvuhvyt.png",
+          "gtuvgyv.png",
+          "uyi.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "swipe.mp3",
+        "commonOptionImageName": "ca.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "f",
+          "r",
+          "u",
+          "o"
+        ],
+        "correctAnswer": "four",
+        "reiterationAudioName": "four.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvepictuepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "oij.png",
+          "joj.png",
+          "pl.png",
+          "oijohj.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "swipe2.mp3",
+        "commonOptionImageName": "ca.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "r",
+          "u",
+          "o",
+          "f"
+        ],
+        "correctAnswer": "four",
+        "reiterationAudioName": "four.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvepictuepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "kgyg.png",
+          "tcyccvhgj.png",
+          "gcguvhj.png",
+          "tcytvcuj.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "swipe3.mp3",
+        "commonOptionImageName": "ca.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "r",
+          "f",
+          "o",
+          "u"
+        ],
+        "correctAnswer": "four",
+        "reiterationAudioName": "four.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvepictuepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "cytc.png",
+          "cuvj.png",
+          "vcyt.png",
+          "uv.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "swipe4.mp3",
+        "commonOptionImageName": "ca.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "f",
+          "u",
+          "o",
+          "r"
+        ],
+        "correctAnswer": "four",
+        "reiterationAudioName": "four.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvepictuepuzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "iyuf.png",
+          "nni.png",
+          "hvh.png",
+          "tct.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "swipe4.mp3",
+        "commonOptionImageName": "ca.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "r",
+          "f",
+          "o",
+          "u"
+        ],
+        "correctAnswer": "four",
+        "reiterationAudioName": "four.mp3"
+      }
+    ]
+  }
+}
