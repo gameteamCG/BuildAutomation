@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "पहला अक्षर_LKG_99",
+      "totalLevel": "7",
+      "TitleImageName": "title.png",
+      "introBgName": "intro.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "hindi"
+    },
+    "questionData": [
+      {
+        "questionText": "पहला अक्षर",
+        "questionImageName": "356.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "303.png",
+          "304.png"
+        ],
+        "correctAudioName": "thermos.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionImageName": "357.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "306.png",
+          "305.png"
+        ],
+        "correctAudioName": "नारियल.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionImageName": "358.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "307.png",
+          "306.png"
+        ],
+        "correctAudioName": "दाल.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionImageName": "359.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "307.png",
+          "303.png"
+        ],
+        "correctAudioName": "तरबूज.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionImageName": "360.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "302.png",
+          "307.png"
+        ],
+        "correctAudioName": "तारा.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionImageName": "361.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "302.png",
+          "306.png"
+        ],
+        "correctAudioName": "नमक.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "पहला अक्षर",
+        "questionImageName": "362.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "301.png",
+          "303.png"
+        ],
+        "correctAudioName": "धनिया.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
