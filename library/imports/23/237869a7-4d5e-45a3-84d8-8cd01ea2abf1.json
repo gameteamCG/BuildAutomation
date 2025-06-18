@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tea",
+    "texture": "f89a588c-9337-4459-825d-f82960c9374c",
+    "atlas": "",
+    "rect": [
+      69,
+      114,
+      362,
+      271
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
