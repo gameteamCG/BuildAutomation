@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sleepingpod",
+    "texture": "cb43d997-4d8f-4305-a139-719654e4fb2c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      231,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      231,
+      70
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
