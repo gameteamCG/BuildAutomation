@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "industrailsmoke",
+    "texture": "d3f6d9fa-1e24-43a2-b38e-23fb2a7918df",
+    "atlas": "",
+    "rect": [
+      0,
+      12,
+      466,
+      453
+    ],
+    "offset": [
+      -17.5,
+      12
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
