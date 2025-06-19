@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TVisonintheroom",
+    "texture": "52bcf93d-36c7-422c-9e26-173c6b5d3ada",
+    "atlas": "",
+    "rect": [
+      34,
+      36,
+      197,
+      183
+    ],
+    "offset": [
+      7,
+      -2
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

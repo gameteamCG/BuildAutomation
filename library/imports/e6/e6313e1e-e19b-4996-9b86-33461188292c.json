@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "throwing1inriver",
+    "texture": "dfc76bbb-0312-4d2c-8d7c-f13e61aa2792",
+    "atlas": "",
+    "rect": [
+      0,
+      19,
+      237,
+      218
+    ],
+    "offset": [
+      -7,
+      -2.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

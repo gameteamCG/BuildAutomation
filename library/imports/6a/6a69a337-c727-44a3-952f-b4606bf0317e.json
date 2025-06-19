@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Story time - The Three R's adventure (activity)_UKG_GA_99",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/43071ReduceReuseRecycle_1721387074636.mp4",
+      "TitleImageName": "Asset154.png",
+      "IntroAudio1Name": "BBgmwhatsnext.mp3",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "666666",
+        "IsQuestionText": true,
+        "QuestionText": "Reduce",
+        "QuestionImageName": "",
+        "QuestionAudioName": "l1que.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Artboard2copy.png",
+          "plantic1bag.png"
+        ],
+        "ReiterationAudioName": "l1reiteration.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "666666",
+        "IsQuestionText": true,
+        "QuestionText": "Reduce",
+        "QuestionImageName": "",
+        "QuestionAudioName": "howdowereduceuseo.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "TVisonintheroom.png",
+          "switchoff.png"
+        ],
+        "ReiterationAudioName": "switchthelightsorc.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "66666",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "q3.png",
+        "QuestionAudioName": "whereshouldweputth.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "recyclingbins.png",
+          "throwinriver.png"
+        ],
+        "ReiterationAudioName": "recyclingbins.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "666666",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "q4.png",
+        "QuestionAudioName": "howcanwereuseglass.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "throwindustbin.png",
+          "planter.png"
+        ],
+        "ReiterationAudioName": "usethemasaplanter.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "666666",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "q5.png",
+        "QuestionAudioName": "howcanwereuseoldj.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "throwing1inriver.png",
+          "carrybag.png"
+        ],
+        "ReiterationAudioName": "makeacarrybag.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
