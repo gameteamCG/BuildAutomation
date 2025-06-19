@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\devTesting\\AutomationBuilds\\Deepashree_3724161486_Doodle_Puzzle",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
