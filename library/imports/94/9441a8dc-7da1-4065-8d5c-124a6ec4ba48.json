@@ -1,0 +1,179 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Contributions towards Green Bharat_Grade 4 (Social Science)__R40_T2",
+      "totalLevel": "10",
+      "TitleImageName": "title.png",
+      "introBgName": "Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Gamebg.png",
+      "JockeyName": "tortoise"
+    },
+    "questionData": [
+      {
+        "questionText": "Contributions towards Green Bharat",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Save water",
+          "Dance shoes",
+          "Ice cream",
+          "Rocket launch"
+        ],
+        "correctAudios": [
+          "R1.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Contributions towards Green Bharat",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Jungle safari",
+          "Bubblegum",
+          "Save energy",
+          "Snowman"
+        ],
+        "correctAudios": [
+          "R2.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Contributions towards Green Bharat",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Pizza party",
+          "Plant trees",
+          "Toy robot",
+          "Sunglasses"
+        ],
+        "correctAudios": [
+          "R3.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Contributions towards Green Bharat",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Magic wand",
+          "Chocolate cake",
+          "Guitar strings",
+          "Use electric vehicles"
+        ],
+        "correctAudios": [
+          "R4.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Contributions towards Green Bharat",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Use CNG vehicles",
+          "Sandcastle",
+          "Birthday cap",
+          "Puzzle box"
+        ],
+        "correctAudios": [
+          "R5.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Contributions towards Green Bharat",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Video game",
+          "Roller skates",
+          "Kite flying",
+          "Avoid using plastic"
+        ],
+        "correctAudios": [
+          "R6.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Contributions towards Green Bharat",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Fairy tale",
+          "Use plastic waste to build roads",
+          "Cotton candy",
+          "Dragon costume"
+        ],
+        "correctAudios": [
+          "R7.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Contributions towards Green Bharat",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Pop star",
+          "Promote solar power",
+          "Ice hockey",
+          "Mermaid story"
+        ],
+        "correctAudios": [
+          "R8.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Contributions towards Green Bharat",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "Use terracotta cooling ",
+          "Toy train",
+          "Fireworks",
+          "Bubble wrap"
+        ],
+        "correctAudios": [
+          "R9.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Contributions towards Green Bharat",
+        "questionAudioName": "",
+        "shouldPlayQuestionAudio": false,
+        "isOptionText": true,
+        "options": [
+          "Treasure map",
+          "Chocolate fountain",
+          "Spread awareness",
+          "Pirate ship"
+        ],
+        "correctAudios": [
+          "R10.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
