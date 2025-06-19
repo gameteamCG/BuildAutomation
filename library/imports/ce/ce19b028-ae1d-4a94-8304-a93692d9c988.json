@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Facts about solar system_UKG_GA_106",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/98596Spacetravel_1720764372369.mp4",
+      "TitleImageName": "Asset131.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "bgm1.mp3",
+      "JockeyName": "puzzle",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": true,
+        "QuestionText": "Home planet",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whichisourhomeplanet.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset15.png",
+          "Asset13.png",
+          "Asset6.png",
+          "Asset12.png"
+        ],
+        "ReiterationAudioName": "earth.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": true,
+        "QuestionText": "2nd planet",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whichisthesecondplanetinthesolarsystem.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset8.png",
+          "Asset13.png",
+          "Asset101.png",
+          "Asset11.png"
+        ],
+        "ReiterationAudioName": "Venus.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "6th planet",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whichisthe6thplanetofthesolarsystem.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset7.png",
+          "Asset12.png",
+          "Asset9.png",
+          "Asset14.png"
+        ],
+        "ReiterationAudioName": "saturn.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "999999",
+        "IsQuestionText": true,
+        "QuestionText": "7th planet",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Whichisthe7thanetofthesolarsystem.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Asset8.png",
+          "Asset15.png",
+          "Asset1.png",
+          "Asset11.png"
+        ],
+        "ReiterationAudioName": "uranus.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
