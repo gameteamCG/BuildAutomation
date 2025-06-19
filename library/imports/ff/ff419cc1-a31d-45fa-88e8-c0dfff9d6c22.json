@@ -27,7 +27,9 @@
           "500x500_0004_with-seatbelt.png",
           "500x500_0002_without-seatbelt.png"
         ],
-        "correctAudioName": "Always wear a seatbelt while travelling in a car..mp3",
+        "correctAudios": [
+          "Always wear a seatbelt while travelling in a car..mp3"
+        ],
         "correctAnswerNum": "1"
       },
       {
@@ -42,7 +44,9 @@
           "500x500_0000_green-signal_1.png",
           "500x500_0001_red-signal_1.png"
         ],
-        "correctAudioName": "Cross the road only when the signal light turns red..mp3",
+        "correctAudios": [
+          "Cross the road only when the signal light turns red..mp3"
+        ],
         "correctAnswerNum": "2"
       },
       {
@@ -57,7 +61,9 @@
           "500x500_0003_without-helmet.png",
           "500x500_0005_with-helmet.png"
         ],
-        "correctAudioName": "always wear a helmet while riding a bicycle..mp3",
+        "correctAudios": [
+          "always wear a helmet while riding a bicycle..mp3"
+        ],
         "correctAnswerNum": "2"
       },
       {
@@ -72,7 +78,9 @@
           "500x500_0000_inside-car.png",
           "500x500_0007_outside-car.png"
         ],
-        "correctAudioName": "never wave or put your hand out of any moving vehicle.mp3",
+        "correctAudios": [
+          "never wave or put your hand out of any moving vehicle.mp3"
+        ],
         "correctAnswerNum": "1"
       }
     ]

@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\devTesting\\AutomationBuilds\\Deepashree_8810397564_UPDATE_Puzzle",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
