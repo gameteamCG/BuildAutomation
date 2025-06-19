@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "throwindustbin",
+    "texture": "53264954-b639-438a-bbf5-e1c4ea455fbd",
+    "atlas": "",
+    "rect": [
+      48,
+      16,
+      154,
+      220
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
