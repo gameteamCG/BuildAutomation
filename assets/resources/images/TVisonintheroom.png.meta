@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "52bcf93d-36c7-422c-9e26-173c6b5d3ada",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 251,
+  "height": 251,
+  "platformSettings": {},
+  "subMetas": {
+    "TVisonintheroom": {
+      "ver": "1.0.6",
+      "uuid": "50f857a8-db16-4ca6-9d02-043e14d9189e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "52bcf93d-36c7-422c-9e26-173c6b5d3ada",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 7,
+      "offsetY": -2,
+      "trimX": 34,
+      "trimY": 36,
+      "width": 197,
+      "height": 183,
+      "rawWidth": 251,
+      "rawHeight": 251,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
