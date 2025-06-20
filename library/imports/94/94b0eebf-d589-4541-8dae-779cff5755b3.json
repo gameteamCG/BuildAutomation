@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cycling",
+    "texture": "fb6b3e3f-5026-48a1-a822-7fcef14e4b90",
+    "atlas": "",
+    "rect": [
+      0,
+      28,
+      500,
+      472
+    ],
+    "offset": [
+      0,
+      -14
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "platingtrees",
+    "texture": "cc4f9b3d-fdce-419b-ad7d-6f4b39e141f8",
+    "atlas": "",
+    "rect": [
+      22,
+      54,
+      448,
+      368
+    ],
+    "offset": [
+      -4,
+      12
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
