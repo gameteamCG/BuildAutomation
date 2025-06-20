@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d36730b7-c46a-4b27-89b0-52910b70a80c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 473,
+  "height": 208,
+  "platformSettings": {},
+  "subMetas": {
+    "3ds": {
+      "ver": "1.0.6",
+      "uuid": "08d0d2ba-a235-40ce-ba74-88157a3142ef",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d36730b7-c46a-4b27-89b0-52910b70a80c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 1.5,
+      "trimX": 3,
+      "trimY": 7,
+      "width": 467,
+      "height": 191,
+      "rawWidth": 473,
+      "rawHeight": 208,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
