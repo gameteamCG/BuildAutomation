@@ -1,0 +1,107 @@
+{
+  "additionalData": {
+    "GameID": "Story time - The survival adventure ( activity)_UKG_GA_76",
+    "totalLevel": "3",
+    "TitleImageName": "tt.png",
+    "introBgName": "UKG.png",
+    "bgmMusicName": "bgm3.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "The survival adventure",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "F1.png",
+        "F3.png",
+        "F2.png",
+        "F5.png"
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "The survival adventure",
+      "questionAudioName2": "swipetospell.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "d",
+        "o",
+        "o",
+        "f"
+      ],
+      "correctAnswer": "food",
+      "reiterationAudioName": "food.mp3"
+    },
+    {
+      "questionText": "The survival adventure",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "w1.png",
+        "w2.png",
+        "w3.png",
+        "w4.png"
+      ],
+      "correctAudioName": "INCREDIBLE.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "The survival adventure",
+      "questionAudioName2": "swipetospell.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 5,
+      "options": [
+        "r",
+        "w",
+        "t",
+        "a",
+        "e"
+      ],
+      "correctAnswer": "water",
+      "reiterationAudioName": "water.mp3"
+    },
+    {
+      "questionText": "The survival adventure",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "T2.png",
+        "T3.png",
+        "T1.png",
+        "T4.png"
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "The survival adventure",
+      "questionAudioName2": "swipetospell.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 7,
+      "options": [
+        "s",
+        "e",
+        "e",
+        "h",
+        "t",
+        "l",
+        "r"
+      ],
+      "correctAnswer": "shelter",
+      "reiterationAudioName": "shelter.mp3"
+    }
+  ]
+}
