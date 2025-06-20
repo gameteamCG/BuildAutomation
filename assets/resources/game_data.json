@@ -1,0 +1,224 @@
+{
+  "additionalData": {
+    "GameID": "Double consonants ‘ll’_UKG_SB5_9",
+    "totalLevel": "7",
+    "TitleImageName": "ll.png",
+    "introBgName": "UKG.png",
+    "bgmMusicName": "bgm3.mp3",
+    "mainBgName": "BG.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "ball1.png",
+        "ball2.png",
+        "ball3.png",
+        "ball4.png"
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipetospell.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "b",
+        "l",
+        "a",
+        "l"
+      ],
+      "correctAnswer": "ball",
+      "reiterationAudioName": "ball.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "pull1.png",
+        "pull2.png",
+        "pull3.png",
+        "pull4.png"
+      ],
+      "correctAudioName": "INCREDIBLE.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipetospell.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "u",
+        "p",
+        "l",
+        "l"
+      ],
+      "correctAnswer": "pull",
+      "reiterationAudioName": "pull.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "bell1.png",
+        "bell2.png",
+        "bell3.png",
+        "bell4.png"
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipetospell.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "e",
+        "l",
+        "b",
+        "l"
+      ],
+      "correctAnswer": "bell",
+      "reiterationAudioName": "bell.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "doll1.png",
+        "doll2.png",
+        "doll3.png",
+        "doll4.png"
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipetospell.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "l",
+        "d",
+        "o",
+        "l"
+      ],
+      "correctAnswer": "doll",
+      "reiterationAudioName": "doll.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "hill1.png",
+        "hill2.png",
+        "hill3.png",
+        "hill4.png"
+      ],
+      "correctAudioName": "GOODEFFORT.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipetospell.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "i",
+        "h",
+        "l",
+        "l"
+      ],
+      "correctAnswer": "hill",
+      "reiterationAudioName": "hill.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "well1.png",
+        "well2.png",
+        "well3.png",
+        "well4.png"
+      ],
+      "correctAudioName": "GREATWORK.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipetospell.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "options": [
+        "l",
+        "e",
+        "l",
+        "w"
+      ],
+      "correctAnswer": "well",
+      "reiterationAudioName": "well.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "shell1.png",
+        "shell2.png",
+        "shell3.png",
+        "shell4.png"
+      ],
+      "correctAudioName": "IMPRESSIVEWORK.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "",
+      "questionAudioName2": "swipetospell.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 5,
+      "options": [
+        "h",
+        "l",
+        "l",
+        "s",
+        "e"
+      ],
+      "correctAnswer": "shell",
+      "reiterationAudioName": "shell.mp3"
+    }
+  ]
+}
