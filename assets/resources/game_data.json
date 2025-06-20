@@ -1,0 +1,245 @@
+{
+  "additionalData": {
+    "GameID": "Recap: 3D shapes_UKG_sb5_71",
+    "totalLevel": "8",
+    "TitleImageName": "3ds.png",
+    "introBgName": "UKG.png",
+    "bgmMusicName": "bgm3.mp3",
+    "mainBgName": "BG.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "p1.png",
+        "p2.png",
+        "p3.png",
+        "p4.png"
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "idqvo.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "pyramid",
+        "cube",
+        "sphere"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "pyramid.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "c1.png",
+        "c2.png",
+        "c3.png",
+        "c4.png"
+      ],
+      "correctAudioName": "INCREDIBLE.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "idqvo.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "pyramid",
+        "cube",
+        "cylinder"
+      ],
+      "correctAnswer": "3",
+      "reiterationAudioName": "cylinder.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "cu1.png",
+        "cu2.png",
+        "cu3.png",
+        "cu4.png"
+      ],
+      "correctAudioName": "EXCELLENTJOB.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "idqvo.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "pyramid",
+        "cube",
+        "sphere"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "cube.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "s1.png",
+        "s2.png",
+        "s3.png",
+        "s4.png"
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "idqvo.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "sphere",
+        "cube",
+        "pyramid"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "sphere.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "t1.png",
+        "t2.png",
+        "t3.png",
+        "t4.png"
+      ],
+      "correctAudioName": "GOODEFFORT.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "idqvo.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "cylinder",
+        "cube",
+        "pyramid"
+      ],
+      "correctAnswer": "3",
+      "reiterationAudioName": "pyramid.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "cc1.png",
+        "cc2.png",
+        "cc3.png",
+        "cc4.png"
+      ],
+      "correctAudioName": "GREATWORK.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "idqvo.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "cylinder",
+        "sphere",
+        "cube"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "cylinder.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "b1.png",
+        "b2.png",
+        "b3.png",
+        "b4.png"
+      ],
+      "correctAudioName": "IMPRESSIVEWORK.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "idqvo.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "cylinder",
+        "sphere",
+        "cube"
+      ],
+      "correctAnswer": "3",
+      "reiterationAudioName": "cube.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solvethePP.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "g1g.png",
+        "g2.png",
+        "g3.png",
+        "g4.png"
+      ],
+      "correctAudioName": "INCREDIBLE.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "idqvo.mp3",
+      "commonOptionImageName": "UI.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "cube",
+        "sphere",
+        "pyramid"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "sphere.mp3"
+    }
+  ]
+}
