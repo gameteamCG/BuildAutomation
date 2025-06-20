@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "burninggarbage",
+    "texture": "277928b5-15b2-4b95-9b16-162215659b88",
+    "atlas": "",
+    "rect": [
+      0,
+      28,
+      500,
+      472
+    ],
+    "offset": [
+      0,
+      -14
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
