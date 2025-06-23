@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bra2",
+    "texture": "5383e98c-3434-4731-b60c-e1d7989d6225",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      250,
+      249
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
