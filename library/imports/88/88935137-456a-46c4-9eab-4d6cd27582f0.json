@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "autumn",
+    "texture": "b4dc4b01-aee1-443c-b6a5-3de6bd36aec2",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      250,
+      251
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
