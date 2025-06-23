@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "air ship",
+    "texture": "cfbd87b0-08fa-4a10-9490-99a8f3c2d2a8",
+    "atlas": "",
+    "rect": [
+      51,
+      179,
+      429,
+      180
+    ],
+    "offset": [
+      15,
+      -18.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
