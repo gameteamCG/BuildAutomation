@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ballonyy",
+    "texture": "35bb27e2-5f6b-48ab-92dd-522d5b1474c3",
+    "atlas": "",
+    "rect": [
+      46,
+      0,
+      156,
+      249
+    ],
+    "offset": [
+      -1.5,
+      1
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

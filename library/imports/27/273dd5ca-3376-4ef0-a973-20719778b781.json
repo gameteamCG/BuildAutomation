@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ahufiuauai",
+    "texture": "40687451-13fe-4731-b0bb-9775bf7b1894",
+    "atlas": "",
+    "rect": [
+      50,
+      10,
+      150,
+      235
+    ],
+    "offset": [
+      -0.5,
+      -2
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

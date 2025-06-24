@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "okiuyb",
+    "texture": "41e82659-3428-4fe9-98b9-a2d276217fc2",
+    "atlas": "",
+    "rect": [
+      3,
+      12,
+      224,
+      232
+    ],
+    "offset": [
+      -10.5,
+      -2.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
