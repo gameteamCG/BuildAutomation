@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Water Transport_nur_ga_97",
+      "totalLevel": "6",
+      "TitleImageName": "waterT.png",
+      "introBgName": "NUR.png",
+      "bgmMusicName": "bgm3.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionAudioName": "solvethePP.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "trans.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "r1.png",
+          "r2.png",
+          "r3.png",
+          "r4.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "ornto.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "rbyes.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvethePP.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "trans.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "b1.png",
+          "b2.png",
+          "b3.png",
+          "b4.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "ornto.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "motu.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvethePP.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "trans.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "sh1.png",
+          "sh2.png",
+          "sh3.png",
+          "sh4.png"
+        ],
+        "correctAudioName": "IMPRESSIVEWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "ornto.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "hs.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvethePP.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "trans.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "tt1.png",
+          "tt2.png",
+          "tt3.png",
+          "tt4.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "ornto.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "sh.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvethePP.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "trans.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "bike3.png",
+          "bike4.png",
+          "bike1.png",
+          "bike2.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "ornto.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "bik.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solvethePP.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "trans.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "ae1.png",
+          "ae2.png",
+          "ae3.png",
+          "ae4.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "ornto.mp3",
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "up.png",
+          "down.png"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "aer.mp3"
+      }
+    ]
+  }
+}
