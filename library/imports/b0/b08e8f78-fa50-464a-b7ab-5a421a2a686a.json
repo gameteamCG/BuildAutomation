@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yop",
+    "texture": "29efb6ee-ac62-4a0f-a93a-b2c7b3ddcf6a",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      251,
+      231
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

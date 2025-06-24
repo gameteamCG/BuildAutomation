@@ -1,0 +1,143 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Letter Yy Letters and Sounds_Nur_SB5_2",
+      "totalLevel": "5",
+      "TitleImageName": "Yy.png",
+      "introBgName": "NUR.png",
+      "bgmMusicName": "bgm3.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "BG_4.png",
+        "questionAudioName": "idY.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Yy.png",
+          "Ss.png",
+          "Yy.png",
+          "Tt.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "Y.mp3",
+          "Y.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "BGafafa.png",
+        "questionAudioName": "upperY.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Yadada.png",
+          "Wafafa.png",
+          "Asset 214.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "Y.mp3",
+          "Y.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "BG_1adad.png",
+        "questionAudioName": "lowery.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "yoy.png",
+          "yop.png",
+          "yoy.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "Y.mp3",
+          "Y.mp3"
+        ],
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG_2.png",
+        "questionAudioName": "beginsY.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 225.png",
+          "Asset 223.png",
+          "Asset 222.png"
+        ],
+        "optionsBg": [
+          "Asset 224.png",
+          "",
+          ""
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "nevermindtryagain.mp3",
+        "reiterationAudioName": [
+          "yak.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG_3.png",
+        "questionAudioName": "beginsY.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Asset 228.png",
+          "Asset 230.png",
+          "Asset 227.png"
+        ],
+        "optionsBg": [
+          "",
+          "Asset 229.png",
+          ""
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "yoyo.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
