@@ -1,0 +1,82 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Polygons_Grade 5 (Math)__R46_T2Polygons_Grade 5 (Math)__R46_T2",
+      "totalLevel": "3",
+      "TitleImageName": "Nets.png",
+      "introBgName": "Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Gamebg.png",
+      "JockeyName": "muskaan"
+    },
+    "questionData": [
+      {
+        "questionText": "Nets",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "cone1_-1.png",
+          "cylinder1__2.png"
+        ],
+        "reiterationAudios": [
+          "1.mp3",
+          "2.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "cone2.png",
+          "cylinder2.png"
+        ]
+      },
+      {
+        "questionText": "Nets",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "cube1__3.png",
+          "square based pyramid1__4.png"
+        ],
+        "reiterationAudios": [
+          "3.mp3",
+          "4.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "cube2.png",
+          "square based pyramid2.png"
+        ]
+      },
+      {
+        "questionText": "Nets",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "tetrahedron1__5.png",
+          "triangular prism1__6.png"
+        ],
+        "reiterationAudios": [
+          "5.mp3",
+          "6.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "tetrahedron2.png",
+          "triangular prism2.png"
+        ]
+      }
+    ]
+  }
+}

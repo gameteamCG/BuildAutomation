@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tetrahedron1__5",
+    "texture": "9e8fbc19-7d65-44a9-991c-fdeb2b250e4c",
+    "atlas": "",
+    "rect": [
+      126,
+      120,
+      97,
+      111
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

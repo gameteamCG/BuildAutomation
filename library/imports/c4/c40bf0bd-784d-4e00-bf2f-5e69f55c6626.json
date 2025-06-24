@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "triangular prism1__6",
+    "texture": "4976b348-317b-45eb-a395-3477155750ee",
+    "atlas": "",
+    "rect": [
+      128,
+      93,
+      95,
+      165
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

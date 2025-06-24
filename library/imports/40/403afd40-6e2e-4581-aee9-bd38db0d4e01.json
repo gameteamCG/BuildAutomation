@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "square based pyramid1__4",
+    "texture": "464783dc-a519-4632-aa4d-6344824fa220",
+    "atlas": "",
+    "rect": [
+      125,
+      131,
+      101,
+      90
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
