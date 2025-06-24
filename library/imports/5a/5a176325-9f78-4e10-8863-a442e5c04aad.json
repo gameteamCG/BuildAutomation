@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zee",
+    "texture": "be3b0cfb-8f39-4856-a10a-d2e2ed0229dc",
+    "atlas": "",
+    "rect": [
+      120,
+      120,
+      288,
+      255
+    ],
+    "offset": [
+      13.5,
+      3
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ballonzz",
+    "texture": "594db899-25d2-4487-88ba-fafbc71272d1",
+    "atlas": "",
+    "rect": [
+      46,
+      0,
+      156,
+      249
+    ],
+    "offset": [
+      -1.5,
+      1
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

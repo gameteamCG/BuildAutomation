@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kitex",
+    "texture": "810b6d6d-2186-4ac7-8e07-8c0f6b836601",
+    "atlas": "",
+    "rect": [
+      11,
+      4,
+      236,
+      240
+    ],
+    "offset": [
+      3.5,
+      1.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

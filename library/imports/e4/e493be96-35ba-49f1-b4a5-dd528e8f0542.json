@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kitez",
+    "texture": "7f3ecd28-9a9e-41a0-9561-5e4da0dc7267",
+    "atlas": "",
+    "rect": [
+      11,
+      4,
+      236,
+      240
+    ],
+    "offset": [
+      3.5,
+      1.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

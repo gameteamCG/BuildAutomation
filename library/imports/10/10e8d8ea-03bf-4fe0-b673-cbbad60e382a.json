@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hir",
+    "texture": "5ddb99b6-5dcb-400f-bbed-bfa871949fb5",
+    "atlas": "",
+    "rect": [
+      145,
+      75,
+      211,
+      298
+    ],
+    "offset": [
+      0,
+      26.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
