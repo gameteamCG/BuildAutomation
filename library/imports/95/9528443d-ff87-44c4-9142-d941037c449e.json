@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Yadada",
+    "texture": "7387b41c-3348-4b8e-b7f1-7a83a3b277ea",
+    "atlas": "",
+    "rect": [
+      7,
+      0,
+      235,
+      251
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

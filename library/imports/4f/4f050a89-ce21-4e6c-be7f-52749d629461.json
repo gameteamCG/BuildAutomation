@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yoy",
+    "texture": "19494691-0a39-4a80-8326-4530c4f6a200",
+    "atlas": "",
+    "rect": [
+      0,
+      10,
+      251,
+      231
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
