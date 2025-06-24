@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Tools of measurement",
+    "texture": "f9d4ec1d-11e5-44b7-a234-20911aaaf13f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      852,
+      347
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      852,
+      348
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
