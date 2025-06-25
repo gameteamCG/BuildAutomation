@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 217.66250610351562,
+            "width": 218,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 217.66250610351562,
-                "height": 358.2749938964844,
+                "width": 218,
+                "height": 358.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 217.66250610351562,
-                "height": 353.32501220703125,
+                "width": 218,
+                "height": 353.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 870.625,
+            "width": 870,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 870.625,
-                "height": 358.2749938964844,
+                "width": 870,
+                "height": 358.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 870.625,
-                "height": 353.32501220703125,
+                "width": 870,
+                "height": 353.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 441.7124938964844,
+            "width": 442,
             "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1750828029745": {}
+    "window-1750828702487": {}
   },
   "panels": {
     "project-settings": {
@@ -106,10 +106,10 @@
       "height": 900
     },
     "builder": {
-      "x": 533,
-      "y": 46,
+      "x": 532,
+      "y": 44,
       "width": 484,
-      "height": 704
+      "height": 707
     }
   },
   "panelLabelWidth": {}
