@@ -3,12 +3,6 @@ cc._RF.push(module, 'd21cdcOFCVMG565duKHxBWs', 'StartGame');
 // Framework/Scripts/StartGame.ts
 
 "use strict";
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -346,10 +340,10 @@ var startGame = /** @class */ (function (_super) {
             else if (_this.jockeyName == "stallion") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
             }
-            else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon") {
+            else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon" || _this.jockeyName == "muskaan") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
-            if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
+            if (_this.jockeyName != "bag" && _this.jockeyName != "cryon" && _this.jockeyName != "muskaan") {
                 _this.scheduleOnce(function () {
                     cc.director.loadScene(_this.NextSceneName);
                 }, 2);
