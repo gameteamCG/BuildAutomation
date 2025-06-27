@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tanki",
+    "texture": "5a6da73e-a49d-47a8-afe2-beed15d823ac",
+    "atlas": "",
+    "rect": [
+      121,
+      69,
+      260,
+      363
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

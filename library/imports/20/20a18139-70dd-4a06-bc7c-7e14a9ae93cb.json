@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "opi",
+    "texture": "86f36798-5099-49d6-858a-e54d69de4f53",
+    "atlas": "",
+    "rect": [
+      85,
+      154,
+      331,
+      193
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

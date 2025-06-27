@@ -1,0 +1,146 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "vyanjan - ट_LKG_38",
+      "totalLevel": "7",
+      "TitleImageName": "title.png",
+      "introBgName": "intro.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "hindi",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": " ट",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "okri.png",
+          "88.png",
+          "5.png"
+        ],
+        "correctAudios": [
+          "टोकरी.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": " ट",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "4.png",
+          "opi.png",
+          "6.png"
+        ],
+        "correctAudios": [
+          "टोपी.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": " ट",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "88.png",
+          "99.png",
+          "taanf.png"
+        ],
+        "correctAudios": [
+          "टांग .mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": " ट",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "8.png",
+          "9.png",
+          "tamatar.png"
+        ],
+        "correctAudios": [
+          "टमाटर.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": " ट",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "7.png",
+          "tanki.png",
+          "6.png"
+        ],
+        "correctAudios": [
+          "टंकी.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": " ट",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "tkkr.png",
+          "4.png",
+          "5.png"
+        ],
+        "correctAudios": [
+          "टक्कर.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": " ट",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "3.png",
+          "tyre.png",
+          "2.png"
+        ],
+        "correctAudios": [
+          "टायर.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

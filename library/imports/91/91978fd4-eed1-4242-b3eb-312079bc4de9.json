@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "okri",
+    "texture": "b624770e-6e91-4e27-976b-a45b8574ddb2",
+    "atlas": "",
+    "rect": [
+      94,
+      66,
+      313,
+      350
+    ],
+    "offset": [
+      0,
+      9.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
