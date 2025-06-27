@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "comonimg",
+    "texture": "41db5e81-6841-4958-b757-dca49c99324f",
+    "atlas": "",
+    "rect": [
+      0,
+      8,
+      500,
+      492
+    ],
+    "offset": [
+      -0.5,
+      -3.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chameli",
+    "texture": "268d2538-96df-464f-810b-e128c1dfd33c",
+    "atlas": "",
+    "rect": [
+      101,
+      36,
+      298,
+      394
+    ],
+    "offset": [
+      -0.5,
+      17.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

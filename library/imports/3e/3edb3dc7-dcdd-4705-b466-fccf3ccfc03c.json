@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "harkha",
+    "texture": "d0b06884-711f-4945-a17f-9ca4688b151e",
+    "atlas": "",
+    "rect": [
+      25,
+      82,
+      448,
+      280
+    ],
+    "offset": [
+      -1.5,
+      28.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
