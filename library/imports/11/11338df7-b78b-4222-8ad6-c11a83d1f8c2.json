@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tamatar",
+    "texture": "b8dd22b8-b121-440b-a4d6-5908b5961e6c",
+    "atlas": "",
+    "rect": [
+      79,
+      91,
+      344,
+      319
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
