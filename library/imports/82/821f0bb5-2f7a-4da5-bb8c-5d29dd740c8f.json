@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "vyanjan - त_LKG_45",
+      "totalLevel": "1",
+      "TitleImageName": "title.png",
+      "introBgName": "intro.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "hindi",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "त",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "arbuz.png",
+          "10.png"
+        ],
+        "correctAudios": [
+          "तरबुज.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
