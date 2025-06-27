@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "talwar",
+    "texture": "52b5c435-2fd6-4bf0-af58-84800b343b86",
+    "atlas": "",
+    "rect": [
+      46,
+      44,
+      408,
+      413
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

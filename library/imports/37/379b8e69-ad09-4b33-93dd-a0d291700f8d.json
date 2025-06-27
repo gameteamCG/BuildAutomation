@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tolia",
+    "texture": "9985cd00-6d00-45df-b387-157ef6a17281",
+    "atlas": "",
+    "rect": [
+      116,
+      37,
+      282,
+      425
+    ],
+    "offset": [
+      6.5,
+      1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "trazu",
+    "texture": "2ef6a3c4-8ae2-4b64-bfe3-17ff5d936510",
+    "atlas": "",
+    "rect": [
+      29,
+      73,
+      443,
+      401
+    ],
+    "offset": [
+      0,
+      -23
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

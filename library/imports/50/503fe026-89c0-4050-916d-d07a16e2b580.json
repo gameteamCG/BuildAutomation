@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tawa",
+    "texture": "5baa9c39-5bfe-4cc1-8604-0740eeab39ea",
+    "atlas": "",
+    "rect": [
+      22,
+      146,
+      456,
+      209
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

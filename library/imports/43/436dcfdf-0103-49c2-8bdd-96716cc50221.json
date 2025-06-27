@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tairna",
+    "texture": "7128f798-f0f4-4443-9adb-925da19f3fc3",
+    "atlas": "",
+    "rect": [
+      38,
+      143,
+      424,
+      214
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

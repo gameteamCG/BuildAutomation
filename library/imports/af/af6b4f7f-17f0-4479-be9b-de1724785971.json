@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "arbuz",
+    "texture": "8bf35aab-3a0e-4c76-b570-ef776bd0c239",
+    "atlas": "",
+    "rect": [
+      64,
+      41,
+      369,
+      419
+    ],
+    "offset": [
+      -2,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
