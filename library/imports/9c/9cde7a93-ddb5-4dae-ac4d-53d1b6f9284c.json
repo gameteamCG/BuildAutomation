@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "taanf",
+    "texture": "85cf3cf8-46cf-4d4c-8784-94a779f67671",
+    "atlas": "",
+    "rect": [
+      192,
+      62,
+      117,
+      377
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tkkr",
+    "texture": "299a739b-a71b-42f9-87ee-de62c41d28b1",
+    "atlas": "",
+    "rect": [
+      36,
+      75,
+      430,
+      242
+    ],
+    "offset": [
+      0.5,
+      54.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
