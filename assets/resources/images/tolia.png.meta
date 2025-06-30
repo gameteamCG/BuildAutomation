@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "78b43e25-a8de-4eb1-875a-c03710a43d6c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "tolia": {
+      "ver": "1.0.6",
+      "uuid": "97517ec9-e6e1-4f50-9a1a-71eeef798ca4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "78b43e25-a8de-4eb1-875a-c03710a43d6c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 6.5,
+      "offsetY": 1,
+      "trimX": 116,
+      "trimY": 37,
+      "width": 282,
+      "height": 425,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
