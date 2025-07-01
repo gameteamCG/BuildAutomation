@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "look and feel copy",
+    "texture": "d9ee16b7-2e6d-4e04-81d7-968d78e0b587",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      1920,
+      1073
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1920,
+      1081
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
