@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chatai",
+    "texture": "634db50d-aba3-49cb-9424-f90b353ea51b",
+    "atlas": "",
+    "rect": [
+      19,
+      198,
+      464,
+      105
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

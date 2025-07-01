@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hai",
+    "texture": "91488044-f134-4098-a044-be7c4fe10018",
+    "atlas": "",
+    "rect": [
+      119,
+      48,
+      268,
+      374
+    ],
+    "offset": [
+      2.5,
+      15.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

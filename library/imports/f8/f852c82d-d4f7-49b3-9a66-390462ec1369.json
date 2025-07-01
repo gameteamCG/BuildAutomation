@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chappal",
+    "texture": "a8ea2434-c164-467b-9872-7494b60d6b32",
+    "atlas": "",
+    "rect": [
+      47,
+      32,
+      407,
+      387
+    ],
+    "offset": [
+      0,
+      25
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

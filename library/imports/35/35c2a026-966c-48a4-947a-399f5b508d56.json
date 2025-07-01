@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hakla",
+    "texture": "daf22172-f295-4deb-93b7-b9bc385e2007",
+    "atlas": "",
+    "rect": [
+      26,
+      127,
+      449,
+      263
+    ],
+    "offset": [
+      0,
+      -8
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

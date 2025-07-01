@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chammach",
+    "texture": "78078ca9-7919-499a-88cf-a0a2c2804779",
+    "atlas": "",
+    "rect": [
+      32,
+      118,
+      450,
+      241
+    ],
+    "offset": [
+      6.5,
+      12
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
