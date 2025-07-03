@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Adjectives to adverbs_Grade 5 (Grammar)__R30_T2",
+      "totalLevel": "1",
+      "TitleImageName": "title.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BG_BB.mp3",
+      "mainBgName": "game_bg.png",
+      "JockeyName": "tortoise"
+    },
+    "questionData": [
+      {
+        "questionText": "Adjectives to adverbs",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "quick.png",
+          "slow.png",
+          "loud.png"
+        ],
+        "reiterationAudios": [
+          "quick_quickly.mp3",
+          "slow_slowly.mp3",
+          "loud_loudly.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "quickly.png",
+          "slowly.png",
+          "loudly.png"
+        ]
+      }
+    ]
+  }
+}

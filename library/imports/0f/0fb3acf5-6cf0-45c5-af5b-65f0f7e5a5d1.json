@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "loudly",
+    "texture": "c0e104c8-f67a-4e0e-9289-e809150de38e",
+    "atlas": "",
+    "rect": [
+      118,
+      157,
+      116,
+      43
+    ],
+    "offset": [
+      0.5,
+      -3
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
