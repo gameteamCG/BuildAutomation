@@ -1,0 +1,118 @@
+{
+  "additionalData": {
+    "GameID": "Adjectives to adverbs_Grade 5 (Grammar)__R30_T2",
+    "totalLevel": "4",
+    "TitleImageName": "title.png",
+    "introBgName": "bg.png",
+    "bgmMusicName": "BG_BB.mp3",
+    "mainBgName": "game_bg.png",
+    "JockeyName": "tortoise"
+  },
+  "questionData": [
+    {
+      "questionText": "Adjectives to adverbs",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back.png",
+      "frontCardImageName": "front.png",
+      "isOptionText": false,
+      "options": [
+        "quick.png",
+        "slow.png",
+        "loud.png"
+      ],
+      "reiterationAudios": [
+        "quick_quickly.mp3",
+        "slow_slowly.mp3",
+        "loud_loudly.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "quickly.png",
+        "slowly.png",
+        "loudly.png"
+      ]
+    },
+    {
+      "questionText": "Adjectives to adverbs",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back.png",
+      "frontCardImageName": "front.png",
+      "isOptionText": false,
+      "options": [
+        "happy.png",
+        "angry.png",
+        "brave.png"
+      ],
+      "reiterationAudios": [
+        "happy_happily.mp3",
+        "angry_angrily.mp3",
+        "brave_bravely.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "happily.png",
+        "angrily.png",
+        "bravely.png"
+      ]
+    },
+    {
+      "questionText": "Adjectives to adverbs",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back.png",
+      "frontCardImageName": "front.png",
+      "isOptionText": false,
+      "options": [
+        "careful.png",
+        "nice.png",
+        "hungry.png",
+        "lucky.png"
+      ],
+      "reiterationAudios": [
+        "careful_carefully.mp3",
+        "nice_nicely.mp3",
+        "hungry_hungrily.mp3",
+        "lucky_luckily.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "carefully.png",
+        "nicely.png",
+        "hungrily.png",
+        "luckily.png"
+      ]
+    },
+    {
+      "questionText": "Adjectives to adverbs",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "back.png",
+      "frontCardImageName": "front.png",
+      "isOptionText": false,
+      "options": [
+        "grey.png",
+        "coy.png",
+        "bad.png",
+        "good.png",
+        "little.png"
+      ],
+      "reiterationAudios": [
+        "grey_greyly.mp3",
+        "coy_coyly.mp3",
+        "bad_badly.mp3",
+        "good_well.mp3",
+        "little_little.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "greyly.png",
+        "coyly.png",
+        "badly.png",
+        "well.png",
+        "little.png"
+      ]
+    }
+  ]
+}
