@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "angrily",
+    "texture": "c1f5ce10-3d3f-40e8-9ff6-8cbc3e9d6324",
+    "atlas": "",
+    "rect": [
+      109,
+      157,
+      133,
+      43
+    ],
+    "offset": [
+      0,
+      -3
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

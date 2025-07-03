@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "coyly",
+    "texture": "1f4527ed-f6b2-4eea-bc3f-9093cd2fe664",
+    "atlas": "",
+    "rect": [
+      126,
+      157,
+      98,
+      43
+    ],
+    "offset": [
+      -0.5,
+      -3
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brave",
+    "texture": "6f61a280-6560-4508-baf8-1c4ae1217653",
+    "atlas": "",
+    "rect": [
+      126,
+      157,
+      100,
+      31
+    ],
+    "offset": [
+      0.5,
+      3
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

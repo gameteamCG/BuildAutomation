@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bravely",
+    "texture": "95b0c269-9879-4bf5-a412-cfe2a0d2ae39",
+    "atlas": "",
+    "rect": [
+      108,
+      157,
+      135,
+      43
+    ],
+    "offset": [
+      0,
+      -3
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

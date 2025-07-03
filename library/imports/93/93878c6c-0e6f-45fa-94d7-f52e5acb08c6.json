@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "badly",
+    "texture": "779728e6-99a1-4975-a084-1686d059e165",
+    "atlas": "",
+    "rect": [
+      125,
+      157,
+      102,
+      43
+    ],
+    "offset": [
+      0.5,
+      -3
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

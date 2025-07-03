@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hungry",
+    "texture": "657981cc-d670-47f6-a5dd-f4ce9361bda0",
+    "atlas": "",
+    "rect": [
+      110,
+      157,
+      131,
+      43
+    ],
+    "offset": [
+      0,
+      -3
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

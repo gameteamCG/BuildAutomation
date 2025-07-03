@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greyly",
+    "texture": "ed625ea0-826f-4d7f-83b3-7e66ee37528c",
+    "atlas": "",
+    "rect": [
+      118,
+      157,
+      115,
+      43
+    ],
+    "offset": [
+      0,
+      -3
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

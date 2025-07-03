@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "coy",
+    "texture": "79549a22-5d99-4799-a638-154853352a3e",
+    "atlas": "",
+    "rect": [
+      145,
+      168,
+      61,
+      32
+    ],
+    "offset": [
+      0,
+      -8.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
