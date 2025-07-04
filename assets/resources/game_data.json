@@ -1,0 +1,36 @@
+{
+  "additionalData": {
+    "GameID": "vyanjan - थ_LKG_46",
+    "totalLevel": "1",
+    "TitleImageName": "title.png",
+    "introBgName": "intro.png",
+    "bgmMusicName": "BGM.mp3",
+    "JockeyName": "hindi"
+  },
+  "questionData": [
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "bg.png",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "2.png",
+        "5.png",
+        "24.png"
+      ],
+      "optionsBg": [
+        "1.png",
+        "13.png",
+        "30.png"
+      ],
+      "correctAudioName": "positive_1.mp3",
+      "wrongAudioName": "negative_1.mp3",
+      "reiterationAudioName": [
+        "शंख.mp3"
+      ],
+      "correctAnswerNum": "2"
+    }
+  ]
+}
