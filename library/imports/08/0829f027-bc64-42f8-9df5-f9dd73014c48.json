@@ -1,0 +1,138 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "vyanjan - श_LKG_63",
+      "totalLevel": "5",
+      "TitleImageName": "Asset 157 (1).png",
+      "introBgName": "intro.png",
+      "bgmMusicName": "BGM.mp3",
+      "JockeyName": "hindi"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "2.png",
+          "5.png",
+          "24.png"
+        ],
+        "optionsBg": [
+          "1.png",
+          "13.png",
+          "30.png"
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "wrongAudioName": "negative_1.mp3",
+        "reiterationAudioName": [
+          "शंख.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "8.png",
+          "23.png",
+          "19.png"
+        ],
+        "optionsBg": [
+          "16.png",
+          "29.png",
+          "25.png"
+        ],
+        "correctAudioName": "positive_1.mp3",
+        "wrongAudioName": "negative_2.mp3",
+        "reiterationAudioName": [
+          "शलगम.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "21.png",
+          "4.png",
+          "3.png"
+        ],
+        "optionsBg": [
+          "27.png",
+          "12.png",
+          "11.png"
+        ],
+        "correctAudioName": "positive_2.mp3",
+        "wrongAudioName": "negative_3.mp3",
+        "reiterationAudioName": [
+          "शेहद.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "20.png",
+          "0.png",
+          "22.png"
+        ],
+        "optionsBg": [
+          "26.png",
+          "18.png",
+          "28.png"
+        ],
+        "correctAudioName": "positive_4.mp3",
+        "wrongAudioName": "negative_4.mp3",
+        "reiterationAudioName": [
+          "शरबत.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "23.png",
+          "2.png",
+          "9.png"
+        ],
+        "optionsBg": [
+          "29.png",
+          "1.png",
+          "17.png"
+        ],
+        "correctAudioName": "positive_5.mp3",
+        "wrongAudioName": "negative_5.mp3",
+        "reiterationAudioName": [
+          "शिकारी.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
