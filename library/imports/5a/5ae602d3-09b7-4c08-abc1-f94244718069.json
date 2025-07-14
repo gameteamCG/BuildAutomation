@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "CommonPuzzleBG",
+    "texture": "6da0fec4-dd9a-4446-ba93-5928fe1f8568",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      544,
+      561
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      544,
+      562
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

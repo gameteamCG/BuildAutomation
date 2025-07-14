@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6da0fec4-dd9a-4446-ba93-5928fe1f8568",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 544,
+  "height": 562,
+  "platformSettings": {},
+  "subMetas": {
+    "CommonPuzzleBG": {
+      "ver": "1.0.6",
+      "uuid": "5ae602d3-09b7-4c08-abc1-f94244718069",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6da0fec4-dd9a-4446-ba93-5928fe1f8568",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 544,
+      "height": 561,
+      "rawWidth": 544,
+      "rawHeight": 562,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
