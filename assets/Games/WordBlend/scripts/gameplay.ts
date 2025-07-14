@@ -607,7 +607,7 @@ export default class NewClass extends cc.Component {
 
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
-                cc.audioEngine.playEffect(this.puzzleVoIteration, false);
+                // cc.audioEngine.playEffect(this.puzzleVoIteration, false);
                 this.scheduleOnce(() => {
                     this.options.color = cc.Color.WHITE;
                     // this.wordAppear();
@@ -621,7 +621,7 @@ export default class NewClass extends cc.Component {
                     else {
                         this.CallJockey();
                     }
-                }, this.puzzleVoIteration.duration);
+                }, 1);
             }, 0.5);
         } else {
             this.interactable = true;
