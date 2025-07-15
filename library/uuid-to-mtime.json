@@ -1,7 +1,7 @@
 {
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1751607252344,
-    "meta": 1752577571466,
+    "asset": 1752578037004,
+    "meta": 1752581393525,
     "relativePath": "resources"
   },
   "48531029-3cfd-4d23-abb9-057b4b7762b9": {
@@ -1500,8 +1500,8 @@
     "relativePath": "Games\\BackUp Prefab\\TLC"
   },
   "4c48d78e-3666-4c87-9214-06616ab7104a": {
-    "asset": 1752577480066,
-    "meta": 1752577573772,
+    "asset": 1752578777373,
+    "meta": 1752581393526,
     "relativePath": "Games\\BackUp Prefab\\supercub"
   },
   "876fb405-68a2-4583-9c1c-9b1356832ae8": {
@@ -4294,126 +4294,6 @@
     "meta": 1752577571476,
     "relativePath": "Framework\\Framework"
   },
-  "ed8e0a1a-5048-4f6d-9f82-0ca24815e27a": {
-    "asset": 1752578036994,
-    "meta": 1752578037056,
-    "relativePath": "resources\\images"
-  },
-  "53a56f6b-e6ab-4639-a4de-d419fbd23574": {
-    "asset": 1752578036963,
-    "meta": 1752578037208,
-    "relativePath": "resources\\images\\Q1mother.png"
-  },
-  "67ced28a-2bb2-473b-977f-312dae9fe54e": {
-    "asset": 1752578036964,
-    "meta": 1752578037219,
-    "relativePath": "resources\\images\\myfamily.png"
-  },
-  "361c41f3-6dec-4025-9657-c06e79b66469": {
-    "asset": 1752578036965,
-    "meta": 1752578037239,
-    "relativePath": "resources\\images\\brother.png"
-  },
-  "e4d9ff5c-35aa-4a64-aa1e-937abc34c188": {
-    "asset": 1752578037040,
-    "meta": 1752578037248,
-    "relativePath": "resources\\audios"
-  },
-  "c30ad6aa-ca02-4684-8ba0-8acbc8fc8b57": {
-    "asset": 1752578036965,
-    "meta": 1752578037378,
-    "relativePath": "resources\\images\\father.png"
-  },
-  "576a8114-3de2-4f89-b9f5-cac01428708d": {
-    "asset": 1752578036965,
-    "meta": 1752578037390,
-    "relativePath": "resources\\images\\grandfather.png"
-  },
-  "590900cc-aba7-4cff-b875-984cf59d4d2c": {
-    "asset": 1752578036967,
-    "meta": 1752578037398,
-    "relativePath": "resources\\images\\mother.png"
-  },
-  "a3db7126-872c-4cec-8c48-a5c74a206fea": {
-    "asset": 1752578036967,
-    "meta": 1752578037409,
-    "relativePath": "resources\\images\\grandmother.png"
-  },
-  "0fdebeb2-ba5f-4bc1-a7d3-08fe4aee2d0c": {
-    "asset": 1752578036963,
-    "meta": 1752578037446,
-    "relativePath": "resources\\images\\Q2brother.png"
-  },
-  "746373b7-3f91-4dde-93a7-e9c764efaae6": {
-    "asset": 1752578036963,
-    "meta": 1752578037587,
-    "relativePath": "resources\\images\\Q3grandfather.png"
-  },
-  "0498dd22-f80d-4316-9dfd-3bb939ffeaed": {
-    "asset": 1752578036967,
-    "meta": 1752578037598,
-    "relativePath": "resources\\images\\sister.png"
-  },
-  "94598703-51ef-4283-b04e-b9599c1bfb15": {
-    "asset": 1752578036964,
-    "meta": 1752578040675,
-    "relativePath": "resources\\audios\\Choose_the_picture_of_brother.mp3"
-  },
-  "fcbc8ea8-d9dc-4016-bf76-52e0b2dcc5d6": {
-    "asset": 1752578036965,
-    "meta": 1752578040680,
-    "relativePath": "resources\\audios\\grandfather.mp3"
-  },
-  "275defde-8b74-4bb2-b3ce-741b96cfc276": {
-    "asset": 1752578036964,
-    "meta": 1752578040688,
-    "relativePath": "resources\\audios\\Choose_the_picture_of_mother.mp3"
-  },
-  "fabf17ab-c68a-45fc-9c3a-bb5271f65a97": {
-    "asset": 1752578036965,
-    "meta": 1752578040694,
-    "relativePath": "resources\\audios\\brother.mp3"
-  },
-  "b96ea583-a535-43d4-9bb6-daa119a56fe7": {
-    "asset": 1752578036964,
-    "meta": 1752578040696,
-    "relativePath": "resources\\audios\\Choose_the_picture_of_grandfather.mp3"
-  },
-  "392e7675-7b31-4b1a-b106-a6331b6931c6": {
-    "asset": 1752578036969,
-    "meta": 1752578040700,
-    "relativePath": "resources\\audios\\IMPRESSIVEWORK.mp3"
-  },
-  "8fa9ff8f-227a-4df8-a9e2-a18d06332087": {
-    "asset": 1752578036969,
-    "meta": 1752578040705,
-    "relativePath": "resources\\audios\\EXCELLENTJOB.mp3"
-  },
-  "70980865-4f1b-403d-aec4-b93aa4409f50": {
-    "asset": 1752578036969,
-    "meta": 1752578040708,
-    "relativePath": "resources\\audios\\EXCEPTIONAL.mp3"
-  },
-  "b1ecc513-2f11-42e8-9a70-fd384c071589": {
-    "asset": 1752578036965,
-    "meta": 1752578040728,
-    "relativePath": "resources\\audios\\mother.mp3"
-  },
-  "c54f7aa6-83e5-485a-bc8c-88701981ad15": {
-    "asset": 1752578036965,
-    "meta": 1752578040746,
-    "relativePath": "resources\\audios\\ohoh.mp3"
-  },
-  "c3b1a854-11f3-4e7a-8287-de83c3905b83": {
-    "asset": 1752578036965,
-    "meta": 1752578040751,
-    "relativePath": "resources\\audios\\nevermind,tryagain.mp3"
-  },
-  "0c4031e3-9230-4aa0-84f0-14589267b7c0": {
-    "asset": 1752578036965,
-    "meta": 1752578040755,
-    "relativePath": "resources\\audios\\Oopsietryoncemore.mp3"
-  },
   "9cd143aa-e492-439b-844d-0c8f536244d1": {
     "asset": 1752578290471,
     "meta": 1752578290607,
@@ -4439,19 +4319,144 @@
     "meta": 1752578588885,
     "relativePath": "Games\\Scripts\\video.ts"
   },
-  "5b0faf11-20f7-4137-b048-e9cf3827c105": {
-    "asset": 1752578733560,
-    "meta": 1752578734861,
-    "relativePath": "resources\\game_data.json"
-  },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1752579100819,
-    "meta": 1752579100827,
+    "asset": 1752581501790,
+    "meta": 1752581501793,
     "relativePath": "Games\\Scenes\\video.fire"
   },
   "865d53bf-bc36-4970-b19c-1f9a87eb78e2": {
     "asset": 1752578777371,
     "meta": 1752578777390,
     "relativePath": "Games\\BackUp Prefab\\supercub\\logo.png"
+  },
+  "36150692-c5fc-457f-842b-1565b3ef64a5": {
+    "asset": 1752581498220,
+    "meta": 1752581498227,
+    "relativePath": "resources\\images"
+  },
+  "f3980dc9-bd2a-469a-b3ec-a6398802c4dd": {
+    "asset": 1752581498206,
+    "meta": 1752581498231,
+    "relativePath": "resources\\game_data.json"
+  },
+  "d95bbc31-e7a5-46b3-a4e5-bbfad6edd530": {
+    "asset": 1752581498211,
+    "meta": 1752581498248,
+    "relativePath": "resources\\images\\ear.png"
+  },
+  "5d905174-c04c-4dd2-ba51-363551ae2cda": {
+    "asset": 1752581498211,
+    "meta": 1752581498252,
+    "relativePath": "resources\\images\\hand.png"
+  },
+  "f0914352-e0ef-438c-93e6-17fb62d156a8": {
+    "asset": 1752581498211,
+    "meta": 1752581498254,
+    "relativePath": "resources\\images\\mouth.png"
+  },
+  "a2500c8f-8d68-4ae5-b00f-1c4de77668c1": {
+    "asset": 1752581498211,
+    "meta": 1752581498255,
+    "relativePath": "resources\\images\\leg.png"
+  },
+  "8dbaff2b-7d4a-4983-8e8c-d7503b02b3ac": {
+    "asset": 1752581498225,
+    "meta": 1752581498256,
+    "relativePath": "resources\\audios"
+  },
+  "bfd7198a-101b-4ed6-b291-3e3270798075": {
+    "asset": 1752581498211,
+    "meta": 1752581498267,
+    "relativePath": "resources\\images\\eyes.png"
+  },
+  "fe93bf38-77d1-4456-a2ac-30900339e09b": {
+    "asset": 1752581498211,
+    "meta": 1752581498268,
+    "relativePath": "resources\\images\\nose.png"
+  },
+  "30c50f4f-75c2-4284-b1f1-6e652dd7549c": {
+    "asset": 1752581498211,
+    "meta": 1752581498271,
+    "relativePath": "resources\\images\\Q1see.png"
+  },
+  "e25bb6da-667f-4f96-be5c-802386e24871": {
+    "asset": 1752581498211,
+    "meta": 1752581498286,
+    "relativePath": "resources\\images\\Q2smell.png"
+  },
+  "b842caa4-7b85-4596-b1fd-8a8b2f398211": {
+    "asset": 1752581498211,
+    "meta": 1752581498294,
+    "relativePath": "resources\\images\\Q3taste.png"
+  },
+  "063ef95c-f2fd-4041-96cd-07efca0e4fe1": {
+    "asset": 1752581498211,
+    "meta": 1752581498295,
+    "relativePath": "resources\\images\\tonge.png"
+  },
+  "432d32f0-8439-41da-90e8-566182ab653e": {
+    "asset": 1752581498211,
+    "meta": 1752581498296,
+    "relativePath": "resources\\images\\senseorgan.png"
+  },
+  "51b07d91-a94d-4ad0-90f0-9a2c397e13cb": {
+    "asset": 1752581498213,
+    "meta": 1752581498721,
+    "relativePath": "resources\\audios\\nose.mp3"
+  },
+  "d0f09f14-d357-44e4-8d69-f186ffc20687": {
+    "asset": 1752581498213,
+    "meta": 1752581498722,
+    "relativePath": "resources\\audios\\eyes.mp3"
+  },
+  "961667c5-6d9b-419d-b1be-21eb826c854a": {
+    "asset": 1752581498213,
+    "meta": 1752581498723,
+    "relativePath": "resources\\audios\\ohoh.mp3"
+  },
+  "826c4586-cd43-4462-ab2b-fe5fadde8de9": {
+    "asset": 1752581498213,
+    "meta": 1752581498725,
+    "relativePath": "resources\\audios\\Oopsietryoncemore.mp3"
+  },
+  "5015762f-ea7d-48ed-948a-2f8a066227c3": {
+    "asset": 1752581498213,
+    "meta": 1752581498726,
+    "relativePath": "resources\\audios\\nevermind,tryagain.mp3"
+  },
+  "73b7bd5c-ebca-4af7-9074-d486b9d2f4d7": {
+    "asset": 1752581498213,
+    "meta": 1752581498727,
+    "relativePath": "resources\\audios\\GOODEFFORT.mp3"
+  },
+  "2fe29818-3b12-4e92-88f0-179d3f088ad1": {
+    "asset": 1752581498213,
+    "meta": 1752581498728,
+    "relativePath": "resources\\audios\\IMPRESSIVEWORK.mp3"
+  },
+  "63eab16a-9160-434b-957f-9f6966fc75a8": {
+    "asset": 1752581498213,
+    "meta": 1752581498730,
+    "relativePath": "resources\\audios\\EXCELLENTJOB.mp3"
+  },
+  "e9e2c98f-d2d8-4d03-ad7a-e45650ce3c4c": {
+    "asset": 1752581498213,
+    "meta": 1752581498733,
+    "relativePath": "resources\\audios\\tongue.mp3"
+  },
+  "b4be8da1-7f00-4530-8de0-61073135605f": {
+    "asset": 1752581498213,
+    "meta": 1752581498734,
+    "relativePath": "resources\\audios\\What_helps_you_to_see_a_pretty_garden.mp3"
+  },
+  "da35e1ed-b646-45ed-b33e-42299570148d": {
+    "asset": 1752581498213,
+    "meta": 1752581498737,
+    "relativePath": "resources\\audios\\What_helps_you_to_taste_food.mp3"
+  },
+  "4694d10e-ad6e-47ae-b555-42e5c51f838a": {
+    "asset": 1752581498213,
+    "meta": 1752581498738,
+    "relativePath": "resources\\audios\\What_helps_you_to_smell_the_scent_of_perfume.mp3"
   }
 }
