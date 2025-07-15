@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ऐवरेस्ट",
+    "texture": "3e3bc72a-d906-43c8-b001-7fbcd7a7fe9d",
+    "atlas": "",
+    "rect": [
+      59,
+      58,
+      384,
+      384
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

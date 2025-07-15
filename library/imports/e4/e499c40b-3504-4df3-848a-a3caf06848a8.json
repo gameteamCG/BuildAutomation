@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ऐनक",
+    "texture": "8f99c97e-5776-46e4-8f25-c1076db0be30",
+    "atlas": "",
+    "rect": [
+      41,
+      175,
+      420,
+      152
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

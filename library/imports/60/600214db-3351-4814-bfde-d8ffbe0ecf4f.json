@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ऐलान",
+    "texture": "247c1f78-5380-4ab6-a113-cf647e48d82a",
+    "atlas": "",
+    "rect": [
+      113,
+      52,
+      274,
+      397
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

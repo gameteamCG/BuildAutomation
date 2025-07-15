@@ -1,0 +1,108 @@
+{
+    "additionalData": {
+        "GameID": "Swar-Ae",
+        "totalLevel": "5",
+        "TitleImageName": "title.png",
+        "introBgName": "nursery.png",
+        "bgmMusicName": "BGM.mp3",
+        "mainBgName": "BG.png",
+        "JockeyName": "hindi"
+    },
+    "questionData": [
+        {
+            "questionText": "ऐ",
+            "questionImageName": "bucket_4.png",
+            "questionAudioName": "qvo.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Box_1.png",
+            "isOptionText": false,
+            "numberOfOptions": 4,
+            "options": [
+                "ऐरावत.png",
+                "2.png",
+                "1.png",
+                "3.png"
+            ],
+            "correctAudios": [
+                "ऐरावत.mp3"
+            ],
+            "correctAnswerNum": "1"
+        },
+        {
+            "questionText": "ऐ",
+            "questionImageName": "bucket_4.png",
+            "questionAudioName": "qvo.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Box_1.png",
+            "isOptionText": false,
+            "numberOfOptions": 4,
+            "options": [
+                "4.png",
+                "ऐनक.png",
+                "5.png",
+                "6.png"
+            ],
+            "correctAudios": [
+                "ऐनक.mp3"
+            ],
+            "correctAnswerNum": "2"
+        },
+        {
+            "questionText": "ऐ",
+            "questionImageName": "bucket_4.png",
+            "questionAudioName": "qvo.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Box_1.png",
+            "isOptionText": false,
+            "numberOfOptions": 4,
+            "options": [
+                "5.png",
+                "ऐलान.png",
+                "8.png",
+                "7.png"
+            ],
+            "correctAudios": [
+                "ऐलान.mp3"
+            ],
+            "correctAnswerNum": "2"
+        },
+        {
+            "questionText": "ऐ",
+            "questionImageName": "bucket_4.png",
+            "questionAudioName": "qvo.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Box_1.png",
+            "isOptionText": false,
+            "numberOfOptions": 4,
+            "options": [
+                "1.png",
+                "4.png",
+                "9.png",
+                "ऐम्बुलेंस.png"
+            ],
+            "correctAudios": [
+                "ऐम्बुलेंस.mp3"
+            ],
+            "correctAnswerNum": "4"
+        },
+        {
+            "questionText": "ऐ",
+            "questionImageName": "bucket_4.png",
+            "questionAudioName": "qvo.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Box_1.png",
+            "isOptionText": false,
+            "numberOfOptions": 4,
+            "options": [
+                "ऐवरेस्ट.png",
+                "3.png",
+                "6.png",
+                "2.png"
+            ],
+            "correctAudios": [
+                "ऐवरेस्ट.mp3"
+            ],
+            "correctAnswerNum": "1"
+        }
+    ]
+}
