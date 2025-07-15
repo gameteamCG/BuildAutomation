@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q1mother",
+    "texture": "53a56f6b-e6ab-4639-a4de-d419fbd23574",
+    "atlas": "",
+    "rect": [
+      144,
+      214,
+      237,
+      51
+    ],
+    "offset": [
+      3.5,
+      10.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2brother",
+    "texture": "0fdebeb2-ba5f-4bc1-a7d3-08fe4aee2d0c",
+    "atlas": "",
+    "rect": [
+      143,
+      214,
+      240,
+      51
+    ],
+    "offset": [
+      4,
+      10.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
