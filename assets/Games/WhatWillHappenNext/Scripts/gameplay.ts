@@ -433,7 +433,7 @@ export default class NewClass extends cc.Component {
 
     callOptionIn() {
         let delay: number = 0.5;
-        if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "tiger") {
+        if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tlc") {
             this.node.getChildByName("Option").setPosition(this.node.getChildByName("Option").x - 80, this.node.getChildByName("Option").y);
         }
         for (let i = 1; i <= this.optionsNode.children.length; i++) {

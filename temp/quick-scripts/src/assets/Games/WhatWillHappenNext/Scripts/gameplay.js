@@ -382,7 +382,7 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.callOptionIn = function () {
         var _this = this;
         var delay = 0.5;
-        if (StartGame_1.default.Instance.jockeyName == "supercub" || StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "tiger") {
+        if (StartGame_1.default.Instance.jockeyName == "supercub" || StartGame_1.default.Instance.jockeyName == "tlc") {
             this.node.getChildByName("Option").setPosition(this.node.getChildByName("Option").x - 80, this.node.getChildByName("Option").y);
         }
         var _loop_5 = function (i) {

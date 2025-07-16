@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_prawn",
+    "texture": "87839f1a-ff8b-4cbd-9c8b-1deb54ab9263",
+    "atlas": "",
+    "rect": [
+      0,
+      100,
+      500,
+      300
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
