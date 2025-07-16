@@ -1,0 +1,169 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "10",
+      "TitleImageName": "Asset8.png",
+      "introBgName": "titlebgbg.png",
+      "bgmMusicName": "BGM3.mp3",
+      "mainBgName": "greendotsbg.png",
+      "JockeyName": "tiger"
+    },
+    "questionData": [
+      {
+        "questionText": "Opposite word",
+        "questionImageName": "q1.png",
+        "questionAudioName": "Q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Untitled_2_28.png",
+          "Untitled_2_19.png"
+        ],
+        "correctAudioName": "Low.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposite word",
+        "questionImageName": "q2.png",
+        "questionAudioName": "Q2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Untitled_2_24.png",
+          "Untitled_2_13.png"
+        ],
+        "correctAudioName": "Easy.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Opposite word",
+        "questionImageName": "q3.png",
+        "questionAudioName": "Q3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Untitled_2_23.png",
+          "Untitled_2_29.png"
+        ],
+        "correctAudioName": "Dirty.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposite word",
+        "questionImageName": "q4.png",
+        "questionAudioName": "Q4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Untitled_2_25.png",
+          "Untitled_2_16.png"
+        ],
+        "correctAudioName": "Ugly.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Opposite word",
+        "questionImageName": "q5.png",
+        "questionAudioName": "Q5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Untitled_2_10.png",
+          "Untitled_2_21.png"
+        ],
+        "correctAudioName": "Long.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposite word",
+        "questionImageName": "q6.png",
+        "questionAudioName": "Q6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Untitled_2_17.png",
+          "Untitled_2_26.png"
+        ],
+        "correctAudioName": "Slow.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Opposite word",
+        "questionImageName": "q7.png",
+        "questionAudioName": "Q7.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Untitled_2_22.png",
+          "Untitled_2_11.png"
+        ],
+        "correctAudioName": "Old.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposite word",
+        "questionImageName": "q8.png",
+        "questionAudioName": "Q8.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Untitled_2_27.png",
+          "Untitled_2_12.png"
+        ],
+        "correctAudioName": "Small.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Opposite word",
+        "questionImageName": "q9.png",
+        "questionAudioName": "Q9.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Untitled_2_14.png",
+          "Untitled_2_18.png"
+        ],
+        "correctAudioName": "Noisy.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposite word",
+        "questionImageName": "q10.png",
+        "questionAudioName": "Q10.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Untitled_2_31.png",
+          "Untitled_2_30.png"
+        ],
+        "correctAudioName": "Real.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
