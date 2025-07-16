@@ -373,7 +373,7 @@ export default class startGame extends cc.Component {
             else if (this.jockeyName == "tlc") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("tlc").active = true;
             }
-            else if (this.jockeyName == "supercub") {
+            else if (this.jockeyName == "supercub" || this.jockeyName == "tiger") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("supercub").active = true;
             }
             else if (this.jockeyName == "stallion") {

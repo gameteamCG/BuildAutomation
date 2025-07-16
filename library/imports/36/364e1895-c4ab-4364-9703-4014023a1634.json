@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zigzag",
+    "texture": "38187105-3dfa-4048-8f9b-911459a04aa1",
+    "atlas": "",
+    "rect": [
+      0,
+      213,
+      500,
+      94
+    ],
+    "offset": [
+      0,
+      -10
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

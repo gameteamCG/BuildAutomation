@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lettero",
+    "texture": "2abf7d88-325b-4056-8d93-41c595938e0c",
+    "atlas": "",
+    "rect": [
+      196,
+      191,
+      109,
+      120
+    ],
+    "offset": [
+      0.5,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

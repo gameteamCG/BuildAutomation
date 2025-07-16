@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "letterg",
+    "texture": "8911fbd1-b1ed-49e1-bc3c-59f41dc8a5d5",
+    "atlas": "",
+    "rect": [
+      166,
+      144,
+      161,
+      240
+    ],
+    "offset": [
+      -3.5,
+      -14
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

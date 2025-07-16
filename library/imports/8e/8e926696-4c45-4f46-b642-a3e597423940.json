@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "re_0001_Astronaut",
+    "texture": "bbf9afde-e6f7-4684-a241-b9433cd350cc",
+    "atlas": "",
+    "rect": [
+      118,
+      7,
+      257,
+      489
+    ],
+    "offset": [
+      -3.5,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

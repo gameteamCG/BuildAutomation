@@ -339,7 +339,7 @@ var startGame = /** @class */ (function (_super) {
             else if (_this.jockeyName == "tlc") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("tlc").active = true;
             }
-            else if (_this.jockeyName == "supercub") {
+            else if (_this.jockeyName == "supercub" || _this.jockeyName == "tiger") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("supercub").active = true;
             }
             else if (_this.jockeyName == "stallion") {

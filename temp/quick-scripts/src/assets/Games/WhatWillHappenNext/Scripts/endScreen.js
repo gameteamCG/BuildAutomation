@@ -53,7 +53,7 @@ var NewClass = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
         }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
+        else if (StartGame_1.default.Instance.jockeyName == "supercub" || StartGame_1.default.Instance.jockeyName == "tiger") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
         }
         this.node.getComponent(cc.Sprite).spriteFrame = StartGame_1.default.Instance.introBG;

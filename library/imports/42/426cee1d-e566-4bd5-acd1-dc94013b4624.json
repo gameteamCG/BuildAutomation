@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "letterw",
+    "texture": "dc2c7e26-cd9f-4629-8ae0-e481f641172a",
+    "atlas": "",
+    "rect": [
+      145,
+      187,
+      212,
+      120
+    ],
+    "offset": [
+      1,
+      3
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

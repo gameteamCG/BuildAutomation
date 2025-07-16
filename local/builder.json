@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\InnovativeKids\\9_Matching_pictures_a_to_z",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
