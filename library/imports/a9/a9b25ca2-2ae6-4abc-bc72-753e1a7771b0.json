@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Pet animals and their young ones Nursery",
+      "totalLevel": "7",
+      "TitleImageName": "Titlepetanimal.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "bgm_sc.mp3",
+      "mainBgName": "Back BG (2).png",
+      "JockeyName": "tiger"
+    },
+    "questionData": [
+      {
+        "questionText": "Pet animals and their young ones",
+        "questionAudioName": "Identify_and_match_the_young_one_of_dog.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Dog.png"
+        ],
+        "reiterations": [
+          "puppy.mp3"
+        ],
+        "commonRightOptionImageName": "right_puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "Dog_b.png",
+          "calf.png"
+        ]
+      },
+      {
+        "questionText": "Pet animals and their young ones",
+        "questionAudioName": "Identify_and_match_the_young_one_of_cat.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "cat.png"
+        ],
+        "reiterations": [
+          "kitten.mp3"
+        ],
+        "commonRightOptionImageName": "right_puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "kitten.png",
+          "chick.png"
+        ]
+      },
+      {
+        "questionText": "Pet animals and their young ones",
+        "questionAudioName": "Identify_and_match_the_young_one_of_rabbit.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "rabbit.png"
+        ],
+        "reiterations": [
+          "kit.mp3"
+        ],
+        "commonRightOptionImageName": "right_puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "koit.png",
+          "Dog_b.png"
+        ]
+      },
+      {
+        "questionText": "Pet animals and their young ones",
+        "questionAudioName": "Identify_and_match_the_young_one_of_sheep.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "sheep.png"
+        ],
+        "reiterations": [
+          "lamb.mp3"
+        ],
+        "commonRightOptionImageName": "right_puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "lamb.png",
+          "hatchling.png"
+        ]
+      },
+      {
+        "questionText": "Pet animals and their young ones",
+        "questionAudioName": "Identify_and_match_the_young_one_of_cow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "cow.png"
+        ],
+        "reiterations": [
+          "calf.mp3"
+        ],
+        "commonRightOptionImageName": "right_puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "calf.png",
+          "Dog_b.png"
+        ]
+      },
+      {
+        "questionText": "Pet animals and their young ones",
+        "questionAudioName": "Identify_and_match_the_young_one_of_turtle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "turtle.png"
+        ],
+        "reiterations": [
+          "hatchling.mp3"
+        ],
+        "commonRightOptionImageName": "right_puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "hatchling.png",
+          "koit.png"
+        ]
+      },
+      {
+        "questionText": "Pet animals and their young ones",
+        "questionAudioName": "Identify_and_match_the_young_one_of_goat.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "goat.png"
+        ],
+        "reiterations": [
+          "kid.mp3"
+        ],
+        "commonRightOptionImageName": "right_puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "kid.png",
+          "kitten.png"
+        ]
+      }
+    ]
+  }
+}

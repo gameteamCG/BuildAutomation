@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hatchling",
+    "texture": "ab4912d2-1a52-4c29-83c7-b68fd16af03a",
+    "atlas": "",
+    "rect": [
+      119,
+      194,
+      353,
+      153
+    ],
+    "offset": [
+      45.5,
+      -20.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

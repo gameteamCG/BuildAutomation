@@ -128,7 +128,7 @@ export default class gameplay extends cc.Component {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
         }
-        else if (startGame.Instance.jockeyName == "supercub") {
+        else if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tiger") {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
         }
@@ -309,7 +309,7 @@ export default class gameplay extends cc.Component {
             this.positiveAudio = this.tlcPositive;
             this.negativeAudio = this.tlcNegative;
         }
-        else if (startGame.Instance.jockeyName == "supercub") {
+        else if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tiger") {
             this.positiveAudio = this.supercubPositive;
             this.negativeAudio = this.supercubNegative;
         }
@@ -634,6 +634,9 @@ export default class gameplay extends cc.Component {
         else if (startGame.Instance.jockeyName == "supercub") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
+          else if (startGame.Instance.jockeyName == "tiger") {
+            anim = ["positive_3", "positive_4", "positive_5", "positive_6", "positive_7"];
+        }
         else if (startGame.Instance.jockeyName == "bag") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
@@ -769,6 +772,9 @@ export default class gameplay extends cc.Component {
             }
             else if (startGame.Instance.jockeyName == "supercub") {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
+            }
+            else if (startGame.Instance.jockeyName == "tiger") {
+                anim = ["negative_3", "negative_4", "negative_3", "negative_4"];
             }
             else if (startGame.Instance.jockeyName == "bag") {
                 anim = ["negative_1", "negative_2", "negative_3"];
