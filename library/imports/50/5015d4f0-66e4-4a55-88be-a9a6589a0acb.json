@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hexagonwithtruck",
+    "texture": "5c65a934-37d9-4234-a773-7a1d79e2c935",
+    "atlas": "",
+    "rect": [
+      5,
+      89,
+      392,
+      217
+    ],
+    "offset": [
+      1,
+      2.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
