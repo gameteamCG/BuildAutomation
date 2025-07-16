@@ -528,8 +528,8 @@ var NewClass = /** @class */ (function (_super) {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
         // console.log("anim length = ", anim.length);
-        var currentClipNum = this.getRandomNumber(0, anim.length - 1);
-        // console.log("currentClipNum = ", currentClipNum);
+        var currentClipNum = globalVariables_1.default.Instance.currentLevel % (anim.length);
+        console.log("currentClipNum = ", currentClipNum);
         var pos = [-1200, 1200];
         var jockeytween = [-450, 450];
         //console.log("characterAppear--Podar_Jumbo");
