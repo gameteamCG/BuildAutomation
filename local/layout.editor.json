@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 218,
-            "height": 714.6000366210938,
+            "width": 216.0625,
+            "height": 700.2000122070312,
             "type": "dock-v",
             "children": [
               {
-                "width": 218,
-                "height": 358.3500061035156,
+                "width": 216.0625,
+                "height": 351.0500183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 218,
-                "height": 353.25,
+                "width": 216.0625,
+                "height": 346.1499938964844,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 869.9625244140625,
-            "height": 714.6000366210938,
+            "width": 862.2625122070312,
+            "height": 700.2000122070312,
             "type": "dock-v",
             "children": [
               {
-                "width": 869.9625244140625,
-                "height": 358.3500061035156,
+                "width": 862.2625122070312,
+                "height": 351.0500183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 869.9625244140625,
-                "height": 353.25,
+                "width": 862.2625122070312,
+                "height": 346.1499938964844,
                 "type": "panel",
                 "active": 2,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 442.0500183105469,
-            "height": 714.6000366210938,
+            "width": 438.07501220703125,
+            "height": 700.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -89,7 +89,7 @@
         "node-library"
       ]
     },
-    "window-1752641266032": {}
+    "window-1752642032756": {}
   },
   "panels": {
     "project-settings": {

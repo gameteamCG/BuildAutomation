@@ -1,113 +1,73 @@
 {
-    "AdditionalData": {
-        "GameID": "How Plant grows Nursery super cubs feedback",
-        "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/howplantsgrow_Stallions.mp4",
-        "TitleImageName": "how plants grow.png",
-        "IntroAudio1Name": "",
-        "IntroAudio2Name": "",
-        "JockeyName": "supercub",
-        "TotalLevel": "5"
+  "AdditionalData": {
+    "GameID": "null",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Family_tree_1710424350808.mp4",
+    "TitleImageName": "Asset 26.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "supercub",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": true,
+      "QuestionText": "grandparents",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Tap_on_the_image_of_grandparents.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "parents.png",
+        "cousins.png",
+        "uncleaunt.png",
+        "grandparents.png"
+      ],
+      "ReiterationAudioName": "GREATWORK.mp3",
+      "CorrectAudioName": "grandparents.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "4"
     },
-    "QuestionData": [
-        {
-            "QuestionAppearTime": "2000",
-            "IsQuestionText": false,
-            "QuestionText": "",
-            "QuestionImageName": "Q1.png",
-            "QuestionAudioName": "Q1.mp3",
-            "PlayQuestionAudio": true,
-            "IsOptionText": false,
-            "NumberOfOptions": 4,
-            "Options": [
-                "sunglasses.png",
-                "soil.png",
-                "water.png",
-                "sun.png"
-            ],
-            "ReiterationAudioName": "Sunglasses.mp3",
-            "CorrectAudioName": "1p.mp3",
-            "WrongAudioName": "1n.mp3",
-            "CorrectAnswer": "1"
-        },
-        {
-            "QuestionAppearTime": "2000",
-            "IsQuestionText": false,
-            "QuestionText": "",
-            "QuestionImageName": "Q2.png",
-            "QuestionAudioName": "Q2.mp3",
-            "PlayQuestionAudio": true,
-            "IsOptionText": false,
-            "NumberOfOptions": 4,
-            "Options": [
-                "corn.png",
-                "bread.png",
-                "sunflowers.png",
-                "tomato.png"
-            ],
-            "ReiterationAudioName": "sunflower.mp3",
-            "CorrectAudioName": "2p.mp3",
-            "WrongAudioName": "2n.mp3",
-            "CorrectAnswer": "3"
-        },
-        {
-            "QuestionAppearTime": "2000",
-            "IsQuestionText": false,
-            "QuestionText": "",
-            "QuestionImageName": "Q3.png",
-            "QuestionAudioName": "Q3.mp3",
-            "PlayQuestionAudio": true,
-            "IsOptionText": false,
-            "NumberOfOptions": 4,
-            "Options": [
-                "butterflies.png",
-                "worms.png",
-                "ladybugs.png",
-                "bees.png"
-            ],
-            "ReiterationAudioName": "worms.mp3",
-            "CorrectAudioName": "3p.mp3",
-            "WrongAudioName": "3n.mp3",
-            "CorrectAnswer": "2"
-        },
-        {
-            "QuestionAppearTime": "2000",
-            "IsQuestionText": false,
-            "QuestionText": "",
-            "QuestionImageName": "Q4.png",
-            "QuestionAudioName": "Q4.mp3",
-            "PlayQuestionAudio": true,
-            "IsOptionText": true,
-            "NumberOfOptions": 4,
-            "Options": [
-                "5",
-                "10",
-                "8",
-                "3"
-            ],
-            "ReiterationAudioName": "3.mp3",
-            "CorrectAudioName": "4p.mp3",
-            "WrongAudioName": "4n.mp3",
-            "CorrectAnswer": "4"
-        },
-        {
-            "QuestionAppearTime": "2000",
-            "IsQuestionText": false,
-            "QuestionText": "",
-            "QuestionImageName": "Q5.png",
-            "QuestionAudioName": "Q5.mp3",
-            "PlayQuestionAudio": true,
-            "IsOptionText": false,
-            "NumberOfOptions": 4,
-            "Options": [
-                "sun2.png",
-                "watercopy.png",
-                "birds.png",
-                "apple.png"
-            ],
-            "ReiterationAudioName": "WATER.mp3",
-            "CorrectAudioName": "1p.mp3",
-            "WrongAudioName": "1n.mp3",
-            "CorrectAnswer": "2"
-        }
-    ]
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": true,
+      "QuestionText": "cousins",
+      "QuestionImageName": "Q2cousins.png",
+      "QuestionAudioName": "Tap_on_the_image_of_cousins.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "parents.png",
+        "grandparents.png",
+        "cousins.png",
+        "Dog_Run0001.png"
+      ],
+      "ReiterationAudioName": "EXCEPTIONAL.mp3",
+      "CorrectAudioName": "cousins.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": true,
+      "QuestionText": "family tree",
+      "QuestionImageName": "Q3familytree.png",
+      "QuestionAudioName": "Tap_on_the_image-of_family_tree.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "house.png",
+        "familytree.png",
+        "school.png",
+        "hospital.png"
+      ],
+      "ReiterationAudioName": "BRILLIANT.mp3",
+      "CorrectAudioName": "family_tree.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
 }
