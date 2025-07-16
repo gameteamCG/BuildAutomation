@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6f5ebf41-0d0c-4819-a1a1-1644777e0223",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "healthy_food2": {
+      "ver": "1.0.6",
+      "uuid": "48a88e8c-bc42-4a60-a35c-14229cd72bca",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6f5ebf41-0d0c-4819-a1a1-1644777e0223",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 38,
+      "trimY": 77,
+      "width": 424,
+      "height": 346,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

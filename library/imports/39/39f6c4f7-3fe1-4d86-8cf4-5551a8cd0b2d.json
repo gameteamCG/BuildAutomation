@@ -1,0 +1,88 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "4",
+      "TitleImageName": "Asset 36.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM_2.mp3",
+      "mainBgName": "Bg(1)2.png",
+      "JockeyName": "tiger",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "healthy food",
+        "questionAudioName": "Identify_the_healthy_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "healthy_food.png",
+          "junk_food.png"
+        ],
+        "correctAudios": [
+          "apple.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "unhealthy food",
+        "questionAudioName": "identify_the_unhealthy_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "healthy_food2.png",
+          "junk_food2.png"
+        ],
+        "correctAudios": [
+          "unhealthy_food.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "healthy food",
+        "questionAudioName": "What_will_happen_when_you_eat_healthy_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "healthy.png",
+          "stomach_pain.png"
+        ],
+        "correctAudios": [
+          "you_will_become_strong.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "unhealthy food",
+        "questionAudioName": "what_will_happen_if_you_eat_too_much_junk_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "active.png",
+          "sick.png"
+        ],
+        "correctAudios": [
+          "you-will_fall_sick.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
