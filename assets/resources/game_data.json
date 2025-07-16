@@ -1,163 +1,118 @@
 {
-    "additionalData": {
-        "GameID": "One more super cub feedback",
-        "totalLevel": "10",
-        "TitleImageName": "Jr_0007_Data-Set-37.png",
-        "introBgName": "bg.png",
-        "bgmMusicName": "bgm.mp3",
-        "mainBgName": "bluedotsbg.png",
-        "JockeyName": "tiger"
+  "additionalData": {
+    "GameID": "null",
+    "totalLevel": "7",
+    "TitleImageName": "landandwateranimal.png",
+    "introBgName": "bg25.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg223.png",
+    "JockeyName": "tiger"
+  },
+  "questionData": [
+    {
+      "questionText": "land animal",
+      "questionImageName": "land.png",
+      "questionAudioName": "Which_animal_lives_on_land.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "panda.png",
+        "dolphine.png"
+      ],
+      "correctAudioName": "Panda_is_a_land_animal.mp3",
+      "correctAnswerNum": "1"
     },
-    "questionData": [
-        {
-            "questionText": "One more",
-            "questionImageName": "warm.png",
-            "questionAudioName": "CountOneMoreThanAWorm.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "QuestionCard.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "2.png",
-                "5.png"
-            ],
-            "correctAudioName": "02.mp3",
-            "correctAnswerNum": "1"
-        },
-        {
-            "questionText": "One more",
-            "questionImageName": "ant.png",
-            "questionAudioName": "Countonemoreants.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "QuestionCard.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "2.png",
-                "4.png"
-            ],
-            "correctAudioName": "04.mp3",
-            "correctAnswerNum": "2"
-        },
-        {
-            "questionText": "One more",
-            "questionImageName": "bug.png",
-            "questionAudioName": "Countonemorethantheladybugs.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "QuestionCard.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "6.png",
-                "8.png"
-            ],
-            "correctAudioName": "06.mp3",
-            "correctAnswerNum": "1"
-        },
-        {
-            "questionText": "One more",
-            "questionImageName": "butterfly4.png",
-            "questionAudioName": "Countonemorebutterflies.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "QuestionCard.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "2.png",
-                "5.png"
-            ],
-            "correctAudioName": "05.mp3",
-            "correctAnswerNum": "2"
-        },
-        {
-            "questionText": "One more",
-            "questionImageName": "crockroch.png",
-            "questionAudioName": "Countonemorethancockroaches.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "QuestionCard.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "8.png",
-                "5.png"
-            ],
-            "correctAudioName": "08.mp3",
-            "correctAnswerNum": "1"
-        },
-        {
-            "questionText": "One more",
-            "questionImageName": "dragonfly.png",
-            "questionAudioName": "Countonemorethandragonflies.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "QuestionCard.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "6.png",
-                "3.png"
-            ],
-            "correctAudioName": "03.mp3",
-            "correctAnswerNum": "2"
-        },
-        {
-            "questionText": "One more",
-            "questionImageName": "bee.png",
-            "questionAudioName": "Countonemorethanhoneybees.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "QuestionCard.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "9.png",
-                "7.png"
-            ],
-            "correctAudioName": "09.mp3",
-            "correctAnswerNum": "1"
-        },
-        {
-            "questionText": "One more",
-            "questionImageName": "butterfly6.png",
-            "questionAudioName": "Countonemorebutterflies.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "QuestionCard.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "2.png",
-                "7.png"
-            ],
-            "correctAudioName": "07.mp3",
-            "correctAnswerNum": "2"
-        },
-        {
-            "questionText": "One more",
-            "questionImageName": "catterpiller.png",
-            "questionAudioName": "Countonemorethancaterpillars.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "QuestionCard.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "5.png",
-                "9.png"
-            ],
-            "correctAudioName": "05.mp3",
-            "correctAnswerNum": "1"
-        },
-        {
-            "questionText": "One more",
-            "questionImageName": "ant6.png",
-            "questionAudioName": "Countonemoreants.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "QuestionCard.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "4.png",
-                "7.png"
-            ],
-            "correctAudioName": "07.mp3",
-            "correctAnswerNum": "2"
-        }
-    ]
+    {
+      "questionText": "water animal",
+      "questionImageName": "water.png",
+      "questionAudioName": "Which_animal_lives_in_water.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "sea_horse.png",
+        "horse.png"
+      ],
+      "correctAudioName": "Seahorse_is_a_water_animal.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "land animal",
+      "questionImageName": "land.png",
+      "questionAudioName": "Which_animal_lives_on_land.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "monkey.png",
+        "seal.png"
+      ],
+      "correctAudioName": "monkey_is_a_land_animal.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "water animal",
+      "questionImageName": "water.png",
+      "questionAudioName": "Which_animal_lives_in_water.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "panda.png",
+        "starfish.png"
+      ],
+      "correctAudioName": "starfish_is_a_water_animal.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "land animal",
+      "questionImageName": "land.png",
+      "questionAudioName": "Which_animal_lives_on_land.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "octopus.png",
+        "koala.png"
+      ],
+      "correctAudioName": "koala_is_a_land_animal.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "water animal",
+      "questionImageName": "water.png",
+      "questionAudioName": "Which_animal_lives_in_water.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "jellyfish.png",
+        "chimpanzee.png"
+      ],
+      "correctAudioName": "jellyfish_is_a_water_animal.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "land animal",
+      "questionImageName": "land.png",
+      "questionAudioName": "Which_animal_lives_on_land.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "kangaroo.png",
+        "lobstar.png"
+      ],
+      "correctAudioName": "Kangaroo_is_a_land_animal.mp3",
+      "correctAnswerNum": "1"
+    }
+  ]
 }

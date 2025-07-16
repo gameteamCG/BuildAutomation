@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chimpanzee",
+    "texture": "fa7f1547-d8bd-4ff4-a6ce-9f28484432fd",
+    "atlas": "",
+    "rect": [
+      55,
+      20,
+      392,
+      462
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
