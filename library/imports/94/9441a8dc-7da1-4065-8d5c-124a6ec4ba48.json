@@ -21,9 +21,9 @@
         "isOptionText": true,
         "options": [
           "Save water",
-          "Dance shoes",
-          "Ice cream",
-          "Rocket launch"
+          "Make plastic toys",
+          "Use AC non-stop",
+          "Cut trees for paper"
         ],
         "correctAudios": [
           "R1.mp3"
@@ -36,10 +36,10 @@
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "Jungle safari",
-          "Bubblegum",
+          "Use plastic bags",
+          "Leave lights on",
           "Save energy",
-          "Snowman"
+          "Dump waste in rivers"
         ],
         "correctAudios": [
           "R2.mp3"
@@ -52,10 +52,10 @@
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "Pizza party",
+          "Use more plastic",
           "Plant trees",
-          "Toy robot",
-          "Sunglasses"
+          "Burn fossil fuels",
+          "Use more paper"
         ],
         "correctAudios": [
           "R3.mp3"
@@ -68,9 +68,9 @@
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "Magic wand",
-          "Chocolate cake",
-          "Guitar strings",
+          "Burn more coal",
+          "Dump in rivers",
+          "Use plastic bags",
           "Use electric vehicles"
         ],
         "correctAudios": [
@@ -85,9 +85,9 @@
         "isOptionText": true,
         "options": [
           "Use CNG vehicles",
-          "Sandcastle",
-          "Birthday cap",
-          "Puzzle box"
+          "More plastic use",
+          "Run AC always",
+          "Burn waste openly"
         ],
         "correctAudios": [
           "R5.mp3"
@@ -100,9 +100,9 @@
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "Video game",
-          "Roller skates",
-          "Kite flying",
+          "Burn all waste",
+          "Overuse non-renewables",
+          "Cut trees for paper",
           "Avoid using plastic"
         ],
         "correctAudios": [
@@ -116,10 +116,10 @@
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "Fairy tale",
+          "Burn plastic openly",
           "Use plastic waste to build roads",
-          "Cotton candy",
-          "Dragon costume"
+          "Use more fossil fuels",
+          "Dump waste in rivers"
         ],
         "correctAudios": [
           "R7.mp3"
@@ -132,10 +132,10 @@
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "Pop star",
+          "Cut forests for cities",
           "Promote solar power",
-          "Ice hockey",
-          "Mermaid story"
+          "Frequent plastic use",
+          "Burn leaves openly"
         ],
         "correctAudios": [
           "R8.mp3"
@@ -149,9 +149,9 @@
         "isOptionText": true,
         "options": [
           "Use terracotta cooling ",
-          "Toy train",
-          "Fireworks",
-          "Bubble wrap"
+          "Burn plastic",
+          "Use non-recyclables",
+          "More chemical use"
         ],
         "correctAudios": [
           "R9.mp3"
@@ -164,10 +164,10 @@
         "shouldPlayQuestionAudio": false,
         "isOptionText": true,
         "options": [
-          "Treasure map",
-          "Chocolate fountain",
+          "Keep engine on idle",
+          "Use cars for short trips",
           "Spread awareness",
-          "Pirate ship"
+          "Waste fuel"
         ],
         "correctAudios": [
           "R10.mp3"
