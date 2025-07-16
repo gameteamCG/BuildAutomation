@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q5climbers",
+    "texture": "69166d99-c6f3-4f48-b6d1-791877ab0297",
+    "atlas": "",
+    "rect": [
+      122,
+      212,
+      278,
+      53
+    ],
+    "offset": [
+      2,
+      11.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
