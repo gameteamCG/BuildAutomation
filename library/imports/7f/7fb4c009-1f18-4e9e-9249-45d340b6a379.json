@@ -1,0 +1,211 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Reflex actions_Term 2 - Grade 5 (Science)_R29_T2",
+      "totalLevel": "12",
+      "TitleImageName": "GameTitle.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BG_BB.mp3",
+      "mainBgName": "GameMainBG.png",
+      "JockeyName": "muskaan"
+    },
+    "questionData": [
+      {
+        "questionText": "When a mosquito bites your arm.",
+        "questionImageName": "L1.png",
+        "questionAudioName": "L1_QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "OptionBG.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "You quickly slap the spot.",
+          "You sneeze",
+          "You blink"
+        ],
+        "correctAudioName": "L1_ANS.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "When something flies close to your eye",
+        "questionImageName": "L2.png",
+        "questionAudioName": "L2_QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "OptionBG.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "You jump",
+          "You start talking",
+          "You blink instantly"
+        ],
+        "correctAudioName": "L2_ANS.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "When your hand touches a hot pan",
+        "questionImageName": "L3.png",
+        "questionAudioName": "L3_QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "OptionBG.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "You wave at it",
+          "You pull your hand back quickly",
+          "You drink water"
+        ],
+        "correctAudioName": "L3_ANS.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "When bright light hits your eyes suddenly",
+        "questionImageName": "L4.png",
+        "questionAudioName": "L4_QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "OptionBG.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Your pupils contract",
+          "Your ears close",
+          "Your mouth opens"
+        ],
+        "correctAudioName": "L4_ANS.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "When you step on a sharp object",
+        "questionImageName": "L5.png",
+        "questionAudioName": "L5_QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "OptionBG.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "You laugh",
+          "You blink rapidly",
+          "You immediately lift your foot"
+        ],
+        "correctAudioName": "L5_ANS.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "When someone tickles you",
+        "questionImageName": "L6.png",
+        "questionAudioName": "L6_QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "OptionBG.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "You start dancing",
+          "You pull away and laugh",
+          "You close your eyes"
+        ],
+        "correctAudioName": "L6_ANS.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "When a loud sound happens suddenly",
+        "questionImageName": "L7.png",
+        "questionAudioName": "L7_QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "OptionBG.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "You cover your ears",
+          "You clap",
+          "You smell the air"
+        ],
+        "correctAudioName": "L7_ANS.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "When dust enters your nose",
+        "questionImageName": "L8.png",
+        "questionAudioName": "L8_QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "OptionBG.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "You blink",
+          "You cough",
+          "You sneeze"
+        ],
+        "correctAudioName": "L8_ANS.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "When dust enters your eye",
+        "questionImageName": "L9.png",
+        "questionAudioName": "L9_QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "OptionBG.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "You rub or blink your eye",
+          "You open your mouth",
+          "You stretch your arms"
+        ],
+        "correctAudioName": "L9_ANS.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "When something brushes your ear suddenly",
+        "questionImageName": "L10.png",
+        "questionAudioName": "L10_QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "OptionBG.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "You tilt or shake your head",
+          "You stomp your foot",
+          "You sniff"
+        ],
+        "correctAudioName": "L10_ANS.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "When your knee is tapped by a doctor",
+        "questionImageName": "L11.png",
+        "questionAudioName": "L11_QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "OptionBG.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "You roll your eyes",
+          "Your leg kicks out",
+          "You move your hand"
+        ],
+        "correctAudioName": "L11_ANS.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "When you touch an icy surface",
+        "questionImageName": "L12.png",
+        "questionAudioName": "L12_QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "OptionBG.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "You speak loudly",
+          "You wave",
+          "You withdraw your hand quickly"
+        ],
+        "correctAudioName": "L12_ANS.mp3",
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
