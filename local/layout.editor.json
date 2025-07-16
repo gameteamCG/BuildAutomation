@@ -5,10 +5,10 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 0,
-      "y": 0,
-      "width": 1536,
-      "height": 816,
+      "x": -8,
+      "y": -8,
+      "width": 1552,
+      "height": 832,
       "layout": {
         "type": "dock-h",
         "children": [
@@ -89,7 +89,7 @@
         "node-library"
       ]
     },
-    "window-1752647809141": {}
+    "window-1752648315764": {}
   },
   "panels": {
     "project-settings": {

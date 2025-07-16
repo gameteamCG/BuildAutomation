@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "null",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/47787686_Test+Buds_1711109941709.mp4",
+      "TitleImageName": "Sense_of_taste.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "supercub",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "sweet",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Tap_on_the_food_that_tastes_sweet.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "orange.png",
+          "cupcake.png",
+          "almond.png",
+          "chips.png"
+        ],
+        "ReiterationAudioName": "CUPCAKE.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "sour",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Tap_on_the_food_that_tastes_sour.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "lemon.png",
+          "popcorn.png",
+          "watermelon.png",
+          "chocolate.png"
+        ],
+        "ReiterationAudioName": "lemon.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "spicy",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Tap on_the_food_that_tastes_spicy.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "fries.png",
+          "chocolate.png",
+          "chillies.png",
+          "BANANA.png"
+        ],
+        "ReiterationAudioName": "chili_peppers.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "salty",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Tap_on_the_food_that_tastes_salty.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "chips.png",
+          "strawberry.png",
+          "orange_juice.png",
+          "chocolate_milk.png"
+        ],
+        "ReiterationAudioName": "chips.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
