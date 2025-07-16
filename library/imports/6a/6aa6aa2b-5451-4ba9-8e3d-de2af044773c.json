@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "balloninc10",
+    "texture": "5977bdcd-0198-4a68-a54c-ea42130c26fc",
+    "atlas": "",
+    "rect": [
+      87,
+      37,
+      326,
+      426
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

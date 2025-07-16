@@ -128,7 +128,7 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
         }
-        else if (startGame.Instance.jockeyName == "supercub") {
+        else if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tiger") {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
         }
@@ -330,7 +330,7 @@ export default class NewClass extends cc.Component {
             this.positiveAudio = this.tlcPositive;
             this.negativeAudio = this.tlcNegative;
         }
-        else if (startGame.Instance.jockeyName == "supercub") {
+        else if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tiger") {
             this.positiveAudio = this.supercubPositive;
             this.negativeAudio = this.supercubNegative;
         }
@@ -433,7 +433,7 @@ export default class NewClass extends cc.Component {
 
     callOptionIn() {
         let delay: number = 0.5;
-        if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tlc") {
+        if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "tiger") {
             this.node.getChildByName("Option").setPosition(this.node.getChildByName("Option").x - 80, this.node.getChildByName("Option").y);
         }
         for (let i = 1; i <= this.optionsNode.children.length; i++) {
@@ -514,7 +514,7 @@ export default class NewClass extends cc.Component {
         this.canTouch = false;
         //console.log("Jockey coming");
         this.currentJcokey.active = true;
-        if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
+        if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub" ) {
             if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
             }
@@ -815,6 +815,9 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "supercub") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
+         else if (startGame.Instance.jockeyName == "tiger") {
+            anim = ["positive_3", "positive_4", "positive_5", "positive_6", "positive_7"];
+        }
         else if (startGame.Instance.jockeyName == "bag") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
@@ -843,7 +846,7 @@ export default class NewClass extends cc.Component {
             this.currentJcokey.scaleX = 0.65;
             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
         }
-        else if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
+        else if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub" ) {
             if (startGame.Instance.jockeyName == "Podar") {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
             }
@@ -851,7 +854,7 @@ export default class NewClass extends cc.Component {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             }
         }
-        if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
+        if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub" ) {
             this.currentJcokey.setPosition(pos[globalVariables.Instance.currentLevel % 2], -350);
             cc.tween(this.currentJcokey).to(0.5, { x: jockeytween[globalVariables.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
             this.scheduleOnce(() => {
@@ -942,6 +945,9 @@ export default class NewClass extends cc.Component {
             else if (startGame.Instance.jockeyName == "supercub") {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
             }
+             else if (startGame.Instance.jockeyName == "tiger") {
+                anim = ["negative_3", "negative_4", "negative_3", "negative_3"];
+            }
             else if (startGame.Instance.jockeyName == "bag") {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
@@ -991,7 +997,7 @@ export default class NewClass extends cc.Component {
                     this.canTouch = true;
                 }, this.negativeAudio[currentClipNum].duration);
             }
-            else if (startGame.Instance.jockeyName == "supercub") {
+            else if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tiger") {
                 if (anim[currentClipNum] == "negative_1" || anim[currentClipNum] == "negative_2") {
                     //play bulb break if needed
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_start", false);

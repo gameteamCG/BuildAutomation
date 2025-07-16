@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hatinc1",
+    "texture": "53dd014e-6473-4722-baa9-73dc0eb48900",
+    "atlas": "",
+    "rect": [
+      75,
+      100,
+      351,
+      354
+    ],
+    "offset": [
+      0.5,
+      -27
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
