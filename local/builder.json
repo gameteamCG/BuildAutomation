@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\InnovativeKids\\45_I_family_words",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

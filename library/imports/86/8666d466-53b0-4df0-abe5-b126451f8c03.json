@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lid",
+    "texture": "c74b42f6-46dd-405a-ad88-7d6a93967f50",
+    "atlas": "",
+    "rect": [
+      9,
+      36,
+      236,
+      177
+    ],
+    "offset": [
+      2,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -59,7 +59,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.needReiteration = false;
         _this.reiterationImage = null;
         _this.maxLevel = 7;
-        _this.questionBoxPosY = 0;
+        _this.questionBoxPosY = 350;
         _this.currentJockey = null;
         return _this;
         // update (dt) {}
@@ -126,18 +126,7 @@ var Gameplay = /** @class */ (function (_super) {
         }).start();
     };
     Gameplay.prototype.SubcribeEvents = function () {
-        // if (startGame.Instance.questions[parseInt(startGame.Instance.currentLevel) - 1].shouldPlayQuestionAudio) {
-        //     if (this.questionVO) {
-        //         this.node.getChildByName("questionPanel").getChildByName("sound").active = true;
-        //         cc.audioEngine.playEffect(this.questionVO, false);
-        //     }
-        // }
-        // else {
-        //     if (this.questionVO) {
-        //         this.node.getChildByName("questionPanel").getChildByName("sound").active = true;
-        //     }
         var _this = this;
-        // }
         this.PlayQuestionAudio();
         this.optionsNode.children.forEach(function (element) {
             element.on('touchstart', function (event) {
@@ -231,13 +220,11 @@ var Gameplay = /** @class */ (function (_super) {
                     _this.node.getChildByName("questionPanel").getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
-            this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
             this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         }
         else if (this.questionText != "") {
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.questionText;
-            this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
             this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         }
@@ -463,6 +450,7 @@ var Gameplay = /** @class */ (function (_super) {
                     _this.scheduleOnce(function () {
                         cc.audioEngine.playEffect(_this.correctVO, false);
                         _this.scheduleOnce(function () {
+                            ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
                             _this.callJockey();
                         }, VOduration);
                     }, 0.25);
@@ -477,9 +465,8 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 this.scheduleOnce(function () {
                     cc.audioEngine.playEffect(_this.correctVO, false);
-                    // this.callJockey();
                     _this.scheduleOnce(function () {
-                        // this.LoadNextQuestion();
+                        ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
                         _this.callJockey();
                     }, VOduration_1);
                 }, 0.75);
@@ -619,7 +606,7 @@ var Gameplay = /** @class */ (function (_super) {
         var jockeytween = [-450, 450];
         if (StartGame_1.default.Instance.jockeyName == "supercub") {
             pos = [1900, 1900];
-            jockeytween = [870, 870];
+            jockeytween = [400, 400];
         }
         //console.log("characterAppear--Podar_Jumbo");
         this.currentJockey.setPosition(pos[globalVariables_1.default.Instance.currentLevel % 2], this.currentJockey.y);

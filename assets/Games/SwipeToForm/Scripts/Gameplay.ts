@@ -1,5 +1,4 @@
-
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -63,7 +62,7 @@ export default class Gameplay extends cc.Component {
 
     private maxLevel: number = 7;
 
-    private questionBoxPosY: number = 0;
+    private questionBoxPosY: number = 350;
 
     currentJockey: cc.Node = null;
 
@@ -132,18 +131,6 @@ export default class Gameplay extends cc.Component {
     }
 
     SubcribeEvents() {
-        // if (startGame.Instance.questions[parseInt(startGame.Instance.currentLevel) - 1].shouldPlayQuestionAudio) {
-        //     if (this.questionVO) {
-        //         this.node.getChildByName("questionPanel").getChildByName("sound").active = true;
-        //         cc.audioEngine.playEffect(this.questionVO, false);
-        //     }
-        // }
-        // else {
-        //     if (this.questionVO) {
-        //         this.node.getChildByName("questionPanel").getChildByName("sound").active = true;
-        //     }
-
-        // }
         this.PlayQuestionAudio();
         this.optionsNode.children.forEach(element => {
             element.on('touchstart', function (event) {
@@ -159,8 +146,6 @@ export default class Gameplay extends cc.Component {
                 this.TouchEnd(element);
             }, this);
         });
-
-
     }
 
     calculateDistance(point1, point2) {
@@ -238,13 +223,11 @@ export default class Gameplay extends cc.Component {
                     this.node.getChildByName("questionPanel").getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
-            this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
             this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         }
         else if (this.questionText != "") {
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.questionText;
-            this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
             this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         }
@@ -477,6 +460,7 @@ export default class Gameplay extends cc.Component {
                     this.scheduleOnce(() => {
                         cc.audioEngine.playEffect(this.correctVO, false);
                         this.scheduleOnce(() => {
+                            ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
                             this.callJockey();
                         }, VOduration);
                     }, 0.25);
@@ -491,9 +475,8 @@ export default class Gameplay extends cc.Component {
                 }
                 this.scheduleOnce(() => {
                     cc.audioEngine.playEffect(this.correctVO, false);
-                    // this.callJockey();
                     this.scheduleOnce(() => {
-                        // this.LoadNextQuestion();
+                        ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
                         this.callJockey();
                     }, VOduration);
                 }, 0.75);
@@ -654,7 +637,7 @@ export default class Gameplay extends cc.Component {
         let jockeytween: number[] = [-450, 450];
         if (startGame.Instance.jockeyName == "supercub") {
             pos = [1900, 1900];
-            jockeytween = [870, 870];
+            jockeytween = [400, 400];
         }
         //console.log("characterAppear--Podar_Jumbo");
         this.currentJockey.setPosition(pos[globalVariables.Instance.currentLevel % 2], this.currentJockey.y);
