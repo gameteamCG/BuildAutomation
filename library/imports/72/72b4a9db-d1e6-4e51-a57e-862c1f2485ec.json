@@ -1,0 +1,251 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "e family words",
+      "totalLevel": "8",
+      "TitleImageName": "efamilywords.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "bg_1.png",
+      "JockeyName": "tiger"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "beg_part_001.png",
+          "beg_part_002.png",
+          "beg_part_003.png",
+          "beg_part_004.png"
+        ],
+        "correctAudioName": "20408627_7_beg.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "swipe_and_spell_the_Eg_word.mp3",
+        "commonOptionImageName": "box3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "b",
+          "g",
+          "e"
+        ],
+        "correctAnswer": "beg",
+        "reiterationAudioName": "20408627_7_beg.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "leg_part_001.png",
+          "leg_part_002.png",
+          "leg_part_003.png",
+          "leg_part_004.png"
+        ],
+        "correctAudioName": "leg.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "swipe_and_spell_the_Eg_word.mp3",
+        "commonOptionImageName": "box3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "l",
+          "g",
+          "e"
+        ],
+        "correctAnswer": "leg",
+        "reiterationAudioName": "leg.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "peg_part_001.jpg.png",
+          "peg_part_002.png",
+          "peg_part_003.png",
+          "peg_part_004.png"
+        ],
+        "correctAudioName": "20408627_8_peg.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "swipe_and_spell_the_Eg_word.mp3",
+        "commonOptionImageName": "box3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "e",
+          "p",
+          "g"
+        ],
+        "correctAnswer": "peg",
+        "reiterationAudioName": "20408627_8_peg.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "meg_part_001.png",
+          "meg_part_002.png",
+          "meg_part_003.png",
+          "meg_part_004.png"
+        ],
+        "correctAudioName": "20408627_6_meg.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "swipe_and_spell_the_Eg_word.mp3",
+        "commonOptionImageName": "box3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "e",
+          "m",
+          "g"
+        ],
+        "correctAnswer": "meg",
+        "reiterationAudioName": "20408627_6_meg.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "net_part_001.png",
+          "net_part_002.png",
+          "net_part_003.png",
+          "net_part_004.png"
+        ],
+        "correctAudioName": "Net.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "3",
+        "questionAudioName2": "Swipe_and_solve_the_Et_word.mp3",
+        "commonOptionImageName": "box3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "n",
+          "t",
+          "e"
+        ],
+        "correctAnswer": "net",
+        "reiterationAudioName": "Net.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "wet_part_001.png",
+          "wet_part_002.png",
+          "wet_part_003.png",
+          "wet_part_004.png"
+        ],
+        "correctAudioName": "wet.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "Swipe_and_solve_the_Et_word.mp3",
+        "commonOptionImageName": "box3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "w",
+          "t",
+          "e"
+        ],
+        "correctAnswer": "wet",
+        "reiterationAudioName": "wet.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "jet_part_001.png",
+          "jet_part_002.png",
+          "jet_part_003.png",
+          "jet_part_004.png"
+        ],
+        "correctAudioName": "jet.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "Swipe_and_solve_the_Et_word.mp3",
+        "commonOptionImageName": "box3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "e",
+          "j",
+          "t"
+        ],
+        "correctAnswer": "jet",
+        "reiterationAudioName": "jet.mp3"
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard3.png",
+        "isHintRequired": true,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "vet_part_001.png",
+          "vet_part_002.png",
+          "vet_part_003.png",
+          "vet_part_004.png"
+        ],
+        "correctAudioName": "vet.mp3",
+        "needReiteration": true,
+        "interactionType": "2",
+        "questionText2": "",
+        "questionAudioName2": "Swipe_and_solve_the_Et_word.mp3",
+        "commonOptionImageName": "box3.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "e",
+          "t",
+          "v"
+        ],
+        "correctAnswer": "vet",
+        "reiterationAudioName": "vet.mp3"
+      }
+    ]
+  }
+}

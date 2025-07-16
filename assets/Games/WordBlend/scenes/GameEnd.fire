@@ -399,7 +399,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 656,
-      "height": 471
+      "height": 250
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -451,10 +451,10 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "a780ee0f-c82d-4617-afac-4a3e98068af0"
+      "__uuid__": "ba397052-d062-403d-aa4b-4ee05cdb9edc"
     },
     "_type": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",

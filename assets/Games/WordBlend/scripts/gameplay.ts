@@ -159,7 +159,7 @@ export default class NewClass extends cc.Component {
             this.positiveAudio = this.tlcPositive;
             this.negativeAudio = this.tlcNegative;
         }
-        else if (startGame.Instance.jockeyName == "supercub") {
+        else if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tiger") {
             this.positiveAudio = this.supercubPositive;
             this.negativeAudio = this.supercubNegative;
         }
@@ -636,7 +636,7 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
         }
-        else if (startGame.Instance.jockeyName == "supercub") {
+        else if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tiger") {
             anim = ["positive_3", "positive_4", "positive_5"];
         }
         else if (startGame.Instance.jockeyName == "bag") {
@@ -659,7 +659,7 @@ export default class NewClass extends cc.Component {
         // console.log("currentClipNum = ", currentClipNum);
         let pos: number[] = [-1600, 1600];
         let jockeytween: number[] = [-450, 450];
-        if (startGame.Instance.jockeyName == "supercub") {
+        if (startGame.Instance.jockeyName == "supercub" ) {
             pos = [1900, 1900];
             jockeytween = [870, 870];
         }
@@ -707,7 +707,7 @@ export default class NewClass extends cc.Component {
             else if (startGame.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
-            else if (startGame.Instance.jockeyName == "supercub") {
+            else if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tiger")  {
                 anim = ["negative_3", "negative_4"];
             }
             else if (startGame.Instance.jockeyName == "bag") {
@@ -740,7 +740,7 @@ export default class NewClass extends cc.Component {
             }
             let pos: number = 1600;
             let jockeytween: number = 450;
-            if (startGame.Instance.jockeyName == "supercub") {
+            if (startGame.Instance.jockeyName == "supercub" ) {
                 pos = 1900;
                 jockeytween = 870;
             }
