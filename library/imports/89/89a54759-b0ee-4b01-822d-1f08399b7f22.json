@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grandma",
+    "texture": "dc1d318c-f571-4d98-8ad4-edcd5f765153",
+    "atlas": "",
+    "rect": [
+      166,
+      23,
+      152,
+      461
+    ],
+    "offset": [
+      -8,
+      -3.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brother",
+    "texture": "ccf8f21b-bfd8-4ffd-8a80-b35855eb5723",
+    "atlas": "",
+    "rect": [
+      134,
+      12,
+      270,
+      468
+    ],
+    "offset": [
+      19,
+      4
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

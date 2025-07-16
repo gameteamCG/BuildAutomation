@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Family member final super cub",
+      "totalLevel": "6",
+      "TitleImageName": "Family_members.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "bgm2.mp3",
+      "mainBgName": "BG.png",
+      "JockeyName": "tiger"
+    },
+    "questionData": [
+      {
+        "questionText": "Family members",
+        "questionAudioName": "matchmissingfamily.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500x500_0005_brotherfamily.png"
+        ],
+        "reiterations": [
+          "son.mp3"
+        ],
+        "commonRightOptionImageName": "right_puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "brother.png",
+          "sister.png"
+        ]
+      },
+      {
+        "questionText": "Family member",
+        "questionAudioName": "matchmissingfamily.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500x500_0001_momfamily.png"
+        ],
+        "reiterations": [
+          "mother.mp3"
+        ],
+        "commonRightOptionImageName": "right_puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "mom.png",
+          "grandpa.png"
+        ]
+      },
+      {
+        "questionText": "Family members",
+        "questionAudioName": "matchmissingfamily.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500x500_0004_fatherfamily.png"
+        ],
+        "reiterations": [
+          "Father.mp3"
+        ],
+        "commonRightOptionImageName": "right_puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "father.png",
+          "grandma.png"
+        ]
+      },
+      {
+        "questionText": "Family members",
+        "questionAudioName": "matchmissingfamily.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500x500_0002_grandpafamily.png"
+        ],
+        "reiterations": [
+          "grandfather.mp3"
+        ],
+        "commonRightOptionImageName": "right_puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "grandpa.png",
+          "mom.png"
+        ]
+      },
+      {
+        "questionText": "Family members",
+        "questionAudioName": "matchmissingfamily.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500x500_0000_sisterfamily.png"
+        ],
+        "reiterations": [
+          "sister.mp3"
+        ],
+        "commonRightOptionImageName": "right_puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "sister.png",
+          "brother.png"
+        ]
+      },
+      {
+        "questionText": "Family members",
+        "questionAudioName": "matchmissingfamily.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left_puzzle.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "500x500_0003_grandma_family.png"
+        ],
+        "reiterations": [
+          "grandmother.mp3"
+        ],
+        "commonRightOptionImageName": "right_puzzle.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "grandma.png",
+          "father.png"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ac906901-b057-496f-9dc8-dbd9ff3bc69f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0003_grandma_family": {
+      "ver": "1.0.6",
+      "uuid": "8cdaeb84-56f6-4eca-b744-3d98666fbb2a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ac906901-b057-496f-9dc8-dbd9ff3bc69f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -24.5,
+      "offsetY": -0.5,
+      "trimX": 0,
+      "trimY": 25,
+      "width": 451,
+      "height": 451,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

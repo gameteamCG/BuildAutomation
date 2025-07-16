@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Family_members",
+    "texture": "69bd6a7e-560c-4ced-b553-860b6b9933af",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      443,
+      226
+    ],
+    "offset": [
+      5.5,
+      2.5
+    ],
+    "originalSize": [
+      484,
+      283
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
