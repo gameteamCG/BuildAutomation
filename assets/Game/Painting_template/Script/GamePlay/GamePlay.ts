@@ -141,7 +141,7 @@ export default class GamePlay extends cc.Component {
         else if (globalVariables.Instance.jockeyName == "tlc") {
             this.questionNode.children[0].getComponent(cc.Label).font = this.tlc_font;
         }
-        else if (globalVariables.Instance.jockeyName == "supercub") {
+        else if (globalVariables.Instance.jockeyName == "supercub" || globalVariables.Instance.jockeyName == "tiger") {
             this.questionNode.children[0].getComponent(cc.Label).font = this.supercub_font;
         }
         else if (globalVariables.Instance.jockeyName == "bag" || globalVariables.Instance.jockeyName == "cryon") {

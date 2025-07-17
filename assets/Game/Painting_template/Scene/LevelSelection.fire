@@ -8553,6 +8553,8 @@
       "__id__": 27
     },
     "_enabled": true,
+    "hand": null,
+    "tickBtn": null,
     "TileSelectionListArray": [
       {
         "__id__": 183

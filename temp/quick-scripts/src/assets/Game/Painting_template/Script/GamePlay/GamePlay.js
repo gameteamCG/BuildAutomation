@@ -153,7 +153,7 @@ var GamePlay = /** @class */ (function (_super) {
         else if (globalVariables_1.default.Instance.jockeyName == "tlc") {
             this.questionNode.children[0].getComponent(cc.Label).font = this.tlc_font;
         }
-        else if (globalVariables_1.default.Instance.jockeyName == "supercub") {
+        else if (globalVariables_1.default.Instance.jockeyName == "supercub" || globalVariables_1.default.Instance.jockeyName == "tiger") {
             this.questionNode.children[0].getComponent(cc.Label).font = this.supercub_font;
         }
         else if (globalVariables_1.default.Instance.jockeyName == "bag" || globalVariables_1.default.Instance.jockeyName == "cryon") {
