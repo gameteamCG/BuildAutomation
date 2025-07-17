@@ -13,12 +13,12 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 204,
+            "width": 312,
             "height": 610,
             "type": "dock-v",
             "children": [
               {
-                "width": 204,
+                "width": 312,
                 "height": 304,
                 "type": "panel",
                 "active": 0,
@@ -27,7 +27,7 @@
                 ]
               },
               {
-                "width": 204,
+                "width": 312,
                 "height": 303,
                 "type": "panel",
                 "active": 0,
@@ -38,12 +38,12 @@
             ]
           },
           {
-            "width": 806.984375,
+            "width": 698.984375,
             "height": 610,
             "type": "dock-v",
             "children": [
               {
-                "width": 806.984375,
+                "width": 698.984375,
                 "height": 304,
                 "type": "panel",
                 "active": 0,
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 806.984375,
-                "height": 302.984375,
+                "width": 698.984375,
+                "height": 303,
                 "type": "panel",
                 "active": 1,
                 "children": [
@@ -88,7 +88,8 @@
         "cocos-services",
         "node-library"
       ]
-    }
+    },
+    " common-asset-worker-worker": {}
   },
   "panels": {
     "project-settings": {
@@ -108,6 +109,12 @@
       "y": -8,
       "width": 1382,
       "height": 744
+    },
+    "sprite-editor": {
+      "x": 425,
+      "y": 84,
+      "width": 516,
+      "height": 539
     }
   },
   "panelLabelWidth": {}

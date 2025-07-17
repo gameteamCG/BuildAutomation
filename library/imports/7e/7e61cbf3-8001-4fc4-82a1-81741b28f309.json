@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "family_puzzle_title",
+    "texture": "e9515adf-3bf2-4f2b-8eab-783fbeea5660",
+    "atlas": "",
+    "rect": [
+      18,
+      21,
+      705,
+      606
+    ],
+    "offset": [
+      9,
+      -9
+    ],
+    "originalSize": [
+      723,
+      630
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
