@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "7",
+      "TitleImageName": "Wild_animal_young_ones.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "Ragtime_for_Kids_1.mp3",
+      "mainBgName": "Forest_BG.png",
+      "JockeyName": "tiger"
+    },
+    "questionData": [
+      {
+        "questionText": "wild animals and their young ones",
+        "questionAudioName": "QMatch_the_animal_with_it_youngone.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Artboard508.png",
+        "frontCardImageName": "Artboard498.png",
+        "isOptionText": false,
+        "options": [
+          "500x500_0015_bear.png",
+          "500x500_0016_zebra.png"
+        ],
+        "reiterationAudios": [
+          "cub.mp3",
+          "foal.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "500x500_0010_bear_cub.png",
+          "500x500_0011_zebra_cub.png"
+        ]
+      },
+      {
+        "questionText": "wild animals and their young ones",
+        "questionAudioName": "QMatch_the_animal_with_it_youngone.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Artboard508.png",
+        "frontCardImageName": "Artboard498.png",
+        "isOptionText": false,
+        "options": [
+          "500x500_0014_deer.png",
+          "500x500_0023_giraffe.png"
+        ],
+        "reiterationAudios": [
+          "fawn.mp3",
+          "calf.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "500x500_0008_fawn.png",
+          "500x500_0006_giraffe-cub.png"
+        ]
+      },
+      {
+        "questionText": "wild animals and their young ones",
+        "questionAudioName": "QMatch_the_animal_with_it_youngone.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Artboard508.png",
+        "frontCardImageName": "Artboard498.png",
+        "isOptionText": false,
+        "options": [
+          "500x500_0012_fox.png",
+          "500x500_0022_kangaroo.png"
+        ],
+        "reiterationAudios": [
+          "kit.mp3",
+          "joey.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "500x500_0007_fox-cub.png",
+          "500x500_0005_joey.png"
+        ]
+      },
+      {
+        "questionText": "wild animals and their young ones",
+        "questionAudioName": "QMatch_the_animal_with_it_youngone.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Artboard508.png",
+        "frontCardImageName": "Artboard498.png",
+        "isOptionText": false,
+        "options": [
+          "500x500_0013_elephant.png",
+          "big_Panda.png"
+        ],
+        "reiterationAudios": [
+          "calf.mp3",
+          "cub.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "500x500_0009_elephant-cub.png",
+          "small_panda.png"
+        ]
+      },
+      {
+        "questionText": "wild animals and their young ones",
+        "questionAudioName": "QMatch_the_animal_with_it_youngone.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Artboard508.png",
+        "frontCardImageName": "Artboard498.png",
+        "isOptionText": false,
+        "options": [
+          "500x500_0020_lion.png",
+          "500x500_0021_koala.png"
+        ],
+        "reiterationAudios": [
+          "cub.mp3",
+          "joey.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "500x500_0003_lioncub.png",
+          "500x500_0004_koala-cub.png"
+        ]
+      },
+      {
+        "questionText": "wild animals and their young ones",
+        "questionAudioName": "QMatch_the_animal_with_it_youngone.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Artboard508.png",
+        "frontCardImageName": "Artboard498.png",
+        "isOptionText": false,
+        "options": [
+          "500x500_0017_tiger.png",
+          "fox.png"
+        ],
+        "reiterationAudios": [
+          "cub.mp3",
+          "pup.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "500x500_0000_tiger-cub.png",
+          "foxkid.png"
+        ]
+      },
+      {
+        "questionText": "wild animals and their young ones",
+        "questionAudioName": "QMatch_the_animal_with_it_youngone.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Artboard508.png",
+        "frontCardImageName": "Artboard498.png",
+        "isOptionText": false,
+        "options": [
+          "500x500_0018_raccoon.png",
+          "500x500_0019_monkey.png"
+        ],
+        "reiterationAudios": [
+          "kit.mp3",
+          "infant.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "500x500_0001_raccoon-cub.png",
+          "500x500_0002_monkey-cub.png"
+        ]
+      }
+    ]
+  }
+}

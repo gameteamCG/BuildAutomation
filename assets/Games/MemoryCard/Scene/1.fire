@@ -1744,7 +1744,7 @@
       "__id__": 5
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 38
@@ -1776,7 +1776,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        240.012,
+        174.498,
         90,
         0,
         0,
@@ -2001,7 +2001,7 @@
     ],
     "questionSound": [
       {
-        "__uuid__": "d4ddce1e-46b5-4dcc-bb72-696bd54fe15d"
+        "__uuid__": "5b413ac3-67a1-4a04-ab18-f2133c1c2c3b"
       }
     ],
     "positiveSound": [

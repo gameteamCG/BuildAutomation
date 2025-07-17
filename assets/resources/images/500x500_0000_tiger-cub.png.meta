@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "68cfe460-8df3-407b-8f0a-156a15338dc1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0000_tiger-cub": {
+      "ver": "1.0.6",
+      "uuid": "23c49e50-9b06-4718-8ace-0e869020b42a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "68cfe460-8df3-407b-8f0a-156a15338dc1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": -113.5,
+      "trimX": 97,
+      "trimY": 236,
+      "width": 304,
+      "height": 255,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
