@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kidkangaroo",
+    "texture": "08cab59d-b7c6-437d-998d-bd27d81d0112",
+    "atlas": "",
+    "rect": [
+      122,
+      68,
+      256,
+      365
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

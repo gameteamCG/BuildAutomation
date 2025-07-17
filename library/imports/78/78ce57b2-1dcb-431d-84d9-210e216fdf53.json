@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Wild_animal_young_ones",
+    "texture": "768030cf-69b8-4735-9bd4-a0d802f24af6",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      929,
+      270
+    ],
+    "offset": [
+      5,
+      -3.5
+    ],
+    "originalSize": [
+      971,
+      315
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

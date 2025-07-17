@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0006_giraffe-cub",
+    "texture": "5806ed30-4d7b-4654-80eb-00af06058020",
+    "atlas": "",
+    "rect": [
+      176,
+      170,
+      148,
+      323
+    ],
+    "offset": [
+      0,
+      -81.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

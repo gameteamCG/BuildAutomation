@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dogkid",
+    "texture": "27b1a3b7-e7dd-4ff8-84b0-0b3bb074bfc7",
+    "atlas": "",
+    "rect": [
+      95,
+      114,
+      242,
+      296
+    ],
+    "offset": [
+      -34,
+      -12
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

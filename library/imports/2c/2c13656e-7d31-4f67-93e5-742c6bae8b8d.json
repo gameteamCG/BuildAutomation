@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kidgoat",
+    "texture": "ae3e2e0f-dd47-47ec-a16d-d863ae485a3a",
+    "atlas": "",
+    "rect": [
+      49,
+      68,
+      403,
+      364
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

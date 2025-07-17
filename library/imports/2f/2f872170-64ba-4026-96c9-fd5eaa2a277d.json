@@ -1,0 +1,110 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "5",
+      "TitleImageName": "Wild_animal_young_ones.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "hksmi.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "tiger",
+      "templateType": "TapToCollect"
+    },
+    "questionData": [
+      {
+        "questionText": "sort and pair the animals with their young ones",
+        "questionImageName": "lion.png",
+        "questionAudioName": "identifytheyoungoneofalion.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "kidgoat.png",
+          "lionbaby.png"
+        ],
+        "correctAudios": [
+          "cub.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "sort and pair the animals with their young ones",
+        "questionImageName": "500x500_0015_bear.png",
+        "questionAudioName": "identify the young one of a bear.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0010_bear_cub.png",
+          "500x500_0004_koala-cub.png"
+        ],
+        "correctAudios": [
+          "cub.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "sort and pair the animals with their young ones",
+        "questionImageName": "500x500_0023_giraffe.png",
+        "questionAudioName": "IDENTIFY THE YOUNG ONE OF A GIRAFFE.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0006_giraffe-cub.png",
+          "500x500_0011_zebra_cub.png"
+        ],
+        "correctAudios": [
+          "calf.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "sort and pair the animals with their young ones",
+        "questionImageName": "500x500_0022_kangaroo11.png",
+        "questionAudioName": "identify the young one of a kangaroo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0003_lioncub.png",
+          "500x500_0005_joey.png"
+        ],
+        "correctAudios": [
+          "joey.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "sort and pair the animals with their young ones",
+        "questionImageName": "500x500_0017_tiger.png",
+        "questionAudioName": "IDENTIFY THE YOUNG ONE OF A TIGER.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0000_tiger-cub.png",
+          "500x500_0002_monkey-cub.png"
+        ],
+        "correctAudios": [
+          "cub.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

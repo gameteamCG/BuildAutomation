@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lionbaby",
+    "texture": "ecd90370-5b97-472b-aa11-8b8e1969ea0a",
+    "atlas": "",
+    "rect": [
+      160,
+      83,
+      180,
+      359
+    ],
+    "offset": [
+      0,
+      -12.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

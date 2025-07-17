@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "768030cf-69b8-4735-9bd4-a0d802f24af6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 971,
+  "height": 315,
+  "platformSettings": {},
+  "subMetas": {
+    "Wild_animal_young_ones": {
+      "ver": "1.0.6",
+      "uuid": "78ce57b2-1dcb-431d-84d9-210e216fdf53",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "768030cf-69b8-4735-9bd4-a0d802f24af6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 5,
+      "offsetY": -3.5,
+      "trimX": 26,
+      "trimY": 26,
+      "width": 929,
+      "height": 270,
+      "rawWidth": 971,
+      "rawHeight": 315,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cowkid",
+    "texture": "6419371c-e7d4-40b4-adfc-cbda75a7e297",
+    "atlas": "",
+    "rect": [
+      65,
+      107,
+      378,
+      295
+    ],
+    "offset": [
+      4,
+      -4.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

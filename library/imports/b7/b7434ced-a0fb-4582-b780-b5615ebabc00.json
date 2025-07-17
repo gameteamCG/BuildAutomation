@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "duckkid",
+    "texture": "8bf5eccb-6c39-40d8-a99e-21014f3c3602",
+    "atlas": "",
+    "rect": [
+      99,
+      84,
+      302,
+      343
+    ],
+    "offset": [
+      0,
+      -5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

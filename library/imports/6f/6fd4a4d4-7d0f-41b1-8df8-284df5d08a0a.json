@@ -352,7 +352,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -14.314,
+        -46.005,
         0,
         0,
         0,
@@ -3138,7 +3138,7 @@
     "jockey": {
       "__id__": 62
     },
-    "totalLevels": 7,
+    "totalLevels": 5,
     "playBtn_audio": {
       "__uuid__": "1b2d7472-275a-4955-a286-f66f90599ebe"
     },
