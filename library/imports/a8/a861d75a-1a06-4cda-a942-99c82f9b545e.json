@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "peppers",
+    "texture": "120771c3-cac5-43f8-ba35-b7e895c35daa",
+    "atlas": "",
+    "rect": [
+      46,
+      33,
+      408,
+      436
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

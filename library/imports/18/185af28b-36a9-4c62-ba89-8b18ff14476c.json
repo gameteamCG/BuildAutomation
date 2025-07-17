@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sweet_potato",
+    "texture": "03797092-50b1-4a93-aa0b-7429e050f0cb",
+    "atlas": "",
+    "rect": [
+      36,
+      73,
+      428,
+      355
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

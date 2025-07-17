@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "underground",
+    "texture": "e06cf0a8-2c1e-45aa-95e4-4e6a921be540",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      627,
+      302
+    ],
+    "offset": [
+      5,
+      -3.5
+    ],
+    "originalSize": [
+      669,
+      347
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

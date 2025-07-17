@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "SCLogo",
+    "texture": "815757ef-a8c7-4c6d-a9cc-3f7395a13cb9",
+    "atlas": "",
+    "rect": [
+      51,
+      48,
+      401,
+      353
+    ],
+    "offset": [
+      4,
+      3.5
+    ],
+    "originalSize": [
+      495,
+      456
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

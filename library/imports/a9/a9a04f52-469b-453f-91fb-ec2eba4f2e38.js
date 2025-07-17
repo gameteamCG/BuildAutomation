@@ -74,7 +74,7 @@ var Gameplay = /** @class */ (function (_super) {
             this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
             this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
         }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
+        else if (StartGame_1.default.Instance.jockeyName == "supercub" || StartGame_1.default.Instance.jockeyName == "tiger") {
             this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
             this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
             this.node.getChildByName("layout3_template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
@@ -539,7 +539,7 @@ var Gameplay = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
         }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
+        else if (StartGame_1.default.Instance.jockeyName == "supercub" || StartGame_1.default.Instance.jockeyName == "tiger") {
             anim = ["positive_3", "positive_4", "positive_3", "positive_4", "positive_5"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "bag") {
@@ -614,7 +614,7 @@ var Gameplay = /** @class */ (function (_super) {
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
-            else if (StartGame_1.default.Instance.jockeyName == "supercub") {
+            else if (StartGame_1.default.Instance.jockeyName == "supercub" || StartGame_1.default.Instance.jockeyName == "tiger") {
                 anim = ["negative_3", "negative_4", "negative_3", "negative_4"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "bag") {

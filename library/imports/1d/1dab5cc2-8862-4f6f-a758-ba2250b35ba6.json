@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "radish",
+    "texture": "6eab8b54-4dd8-44dd-92ad-c6b5084ecdcc",
+    "atlas": "",
+    "rect": [
+      85,
+      25,
+      331,
+      451
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
