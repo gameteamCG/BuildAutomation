@@ -349,13 +349,25 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         //console.log("thirdObjectAppear--" + startGame.Instance.thirdObjectType);
         if (StartGame_1.default.Instance.templateType == "TapToCollect") {
-            this.node.getChildByName("QuestionBox").setPosition(cc.v2(-350, -200));
-            this.node.getChildByName("QuestionBox1").setPosition(cc.v2(-350, -200));
+            if (globalVariables_1.default.Instance.currentLevel == 3) {
+                this.node.getChildByName("QuestionBox").setPosition(cc.v2(-350, -70));
+                this.node.getChildByName("QuestionBox1").setPosition(cc.v2(-350, -70));
+            }
+            else {
+                this.node.getChildByName("QuestionBox").setPosition(cc.v2(-350, -170));
+                this.node.getChildByName("QuestionBox1").setPosition(cc.v2(-350, -170));
+            }
             this.scheduleOnce(function () {
                 _this.scheduleOnce(function () {
                     cc.audioEngine.playEffect(_this.popSound[0], false);
-                    cc.tween(_this.node.getChildByName("QuestionBox"))
-                        .to(0.5, { scale: 0.7 }, { easing: "sineInOut" }).start();
+                    if (globalVariables_1.default.Instance.currentLevel == 3) {
+                        cc.tween(_this.node.getChildByName("QuestionBox"))
+                            .to(0.5, { scale: 1.1 }, { easing: "sineInOut" }).start();
+                    }
+                    else {
+                        cc.tween(_this.node.getChildByName("QuestionBox"))
+                            .to(0.5, { scale: 0.7 }, { easing: "sineInOut" }).start();
+                    }
                 }, 0.1);
                 _this.scheduleOnce(function () {
                     _this.callOptionIn();
@@ -683,8 +695,14 @@ var NewClass = /** @class */ (function (_super) {
                         _this.node.getChildByName("QuestionBox1").getChildByName(imgName).scale = imgScale;
                         //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
                         //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: 0 }, { easing: "sineInOut" }).start();
-                        cc.tween(_this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x, pos.y), cc.v2(xRandom + 400, pos.y - 300), cc.v2(xRandom + 400, thirdBox.height - 300)).start();
-                        cc.tween(_this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 1.5 }, { easing: "sineInOut" }).start();
+                        if (globalVariables_1.default.Instance.currentLevel == 3) {
+                            cc.tween(_this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x, pos.y), cc.v2(450, 500), cc.v2(450, thirdBox.height - 500)).start();
+                            cc.tween(_this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 1.7 }, { easing: "sineInOut" }).start();
+                        }
+                        else {
+                            cc.tween(_this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x, pos.y), cc.v2(450, 350), cc.v2(450, thirdBox.height - 350)).start();
+                            cc.tween(_this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 1.5 }, { easing: "sineInOut" }).start();
+                        }
                         _this.scheduleOnce(function () {
                             _node.destroy();
                             _this.canTouch = true;
@@ -1148,7 +1166,7 @@ var NewClass = /** @class */ (function (_super) {
         var children = this.optionsNode.children;
         var maxColumns = 2;
         var _optionCount = this.totalAnswers;
-        var spacing = -200;
+        var spacing = -400;
         if (_optionCount == 4) {
             maxColumns = 2;
         }
@@ -1169,7 +1187,7 @@ var NewClass = /** @class */ (function (_super) {
             totalWidth += spacing * (Math.min(children.length - row * maxColumns, maxColumns) - 1);
             var startX = -totalWidth / 2;
             var child = children[i];
-            child.x = 200 + startX + column * (child.width + spacing) + child.width / 2;
+            child.x = 200 + startX + column * (child.width + spacing + 200) + child.width / 2;
             child.y = startY - row * rowHeight;
             if (this.TotalOptions == 2) {
                 child.y = child.y - 30;

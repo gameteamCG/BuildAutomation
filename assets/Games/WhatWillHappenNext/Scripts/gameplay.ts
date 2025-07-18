@@ -399,13 +399,27 @@ export default class NewClass extends cc.Component {
     callThirdObjectIn() {
         //console.log("thirdObjectAppear--" + startGame.Instance.thirdObjectType);
         if (startGame.Instance.templateType == "TapToCollect") {
-            this.node.getChildByName("QuestionBox").setPosition(cc.v2(-350, -200));
-            this.node.getChildByName("QuestionBox1").setPosition(cc.v2(-350, -200));
+            if (globalVariables.Instance.currentLevel == 3) {
+                this.node.getChildByName("QuestionBox").setPosition(cc.v2(-350, -70));
+                this.node.getChildByName("QuestionBox1").setPosition(cc.v2(-350, -70));
+            }
+            else {
+                this.node.getChildByName("QuestionBox").setPosition(cc.v2(-350, -170));
+                this.node.getChildByName("QuestionBox1").setPosition(cc.v2(-350, -170));
+            }
+
             this.scheduleOnce(() => {
                 this.scheduleOnce(() => {
                     cc.audioEngine.playEffect(this.popSound[0], false);
-                    cc.tween(this.node.getChildByName("QuestionBox"))
-                        .to(0.5, { scale: 0.7 }, { easing: "sineInOut" }).start();
+                    if (globalVariables.Instance.currentLevel == 3) {
+                        cc.tween(this.node.getChildByName("QuestionBox"))
+                            .to(0.5, { scale: 1.1 }, { easing: "sineInOut" }).start();
+                    }
+                    else {
+                        cc.tween(this.node.getChildByName("QuestionBox"))
+                            .to(0.5, { scale: 0.7 }, { easing: "sineInOut" }).start();
+                    }
+
                 }, 0.1);
                 this.scheduleOnce(() => {
                     this.callOptionIn();
@@ -734,8 +748,16 @@ export default class NewClass extends cc.Component {
                         this.node.getChildByName("QuestionBox1").getChildByName(imgName).scale = imgScale;
                         //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
                         //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: 0 }, { easing: "sineInOut" }).start();
-                        cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x, pos.y), cc.v2(xRandom + 400, pos.y - 300), cc.v2(xRandom + 400, thirdBox.height - 300)).start();
-                        cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 1.5 }, { easing: "sineInOut" }).start();
+                        if (globalVariables.Instance.currentLevel == 3) {
+                            cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x, pos.y), cc.v2(450, 500), cc.v2(450, thirdBox.height - 500)).start();
+                            cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 1.7 }, { easing: "sineInOut" }).start();
+
+                        }
+                        else {
+                            cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x, pos.y), cc.v2(450, 350), cc.v2(450, thirdBox.height - 350)).start();
+                            cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 1.5 }, { easing: "sineInOut" }).start();
+
+                        }
 
                         this.scheduleOnce(() => {
                             _node.destroy();
@@ -1245,7 +1267,7 @@ export default class NewClass extends cc.Component {
         let children = this.optionsNode.children;
         let maxColumns = 2;
         let _optionCount: number = this.totalAnswers;
-        let spacing: number = -200;
+        let spacing: number = -400;
         if (_optionCount == 4) {
             maxColumns = 2;
         }
@@ -1272,7 +1294,7 @@ export default class NewClass extends cc.Component {
             let startX = -totalWidth / 2;
 
             let child = children[i];
-            child.x = 200 + startX + column * (child.width + spacing) + child.width / 2;
+            child.x = 200 + startX + column * (child.width + spacing + 200) + child.width / 2;
             child.y = startY - row * rowHeight;
             if (this.TotalOptions == 2) {
                 child.y = child.y - 30;
