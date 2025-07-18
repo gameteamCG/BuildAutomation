@@ -12,7 +12,7 @@
   "questionData": [
     {
       "questionText": "sort and pair the animals with their young ones",
-      "questionImageName": "lion.png",
+      "questionImageName": "500x500_0020_lion.png",
       "questionAudioName": "identifytheyoungoneofalion.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "common-asset.png",
@@ -20,8 +20,8 @@
       "isOptionBG": true,
       "numberOfOptions": 2,
       "options": [
-        "kidgoat.png",
-        "lionbaby.png"
+        "500x500_0006_giraffe-cub.png",
+        "500x500_0003_lioncub.png"
       ],
       "correctAudios": [
         "cub.mp3"

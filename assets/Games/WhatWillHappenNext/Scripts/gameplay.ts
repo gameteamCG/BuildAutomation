@@ -297,6 +297,7 @@ export default class NewClass extends cc.Component {
 
         }
         this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
+        this.currentJcokey.x = 2000;
         // this.currentJcokey.active = true;
     }
 
@@ -398,13 +399,13 @@ export default class NewClass extends cc.Component {
     callThirdObjectIn() {
         //console.log("thirdObjectAppear--" + startGame.Instance.thirdObjectType);
         if (startGame.Instance.templateType == "TapToCollect") {
-            this.node.getChildByName("QuestionBox").setPosition(cc.v2(-300, -200));
-            this.node.getChildByName("QuestionBox1").setPosition(cc.v2(-300, -200));
+            this.node.getChildByName("QuestionBox").setPosition(cc.v2(-350, -200));
+            this.node.getChildByName("QuestionBox1").setPosition(cc.v2(-350, -200));
             this.scheduleOnce(() => {
                 this.scheduleOnce(() => {
                     cc.audioEngine.playEffect(this.popSound[0], false);
                     cc.tween(this.node.getChildByName("QuestionBox"))
-                        .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                        .to(0.5, { scale: 0.7 }, { easing: "sineInOut" }).start();
                 }, 0.1);
                 this.scheduleOnce(() => {
                     this.callOptionIn();
@@ -729,12 +730,12 @@ export default class NewClass extends cc.Component {
                         _node.getChildByName(imgName).setParentWithSamePos(this.node.getChildByName("QuestionBox1"));
                         let pos: cc.Vec2 = this.node.getChildByName("QuestionBox1").getChildByName(imgName).getPosition();
                         let thirdBox: cc.Node = this.node.getChildByName("QuestionBox1").getChildByName("ThirdObject");
-                        let xRandom: number = this.getRandomNumber(-thirdBox.width / 4, thirdBox.width / 4);
+                        let xRandom: number = this.getRandomNumber(-thirdBox.width / 1, thirdBox.width / 1);
                         this.node.getChildByName("QuestionBox1").getChildByName(imgName).scale = imgScale;
                         //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
                         //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: 0 }, { easing: "sineInOut" }).start();
-                        cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
-                        cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 0.5 }, { easing: "sineInOut" }).start();
+                        cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x, pos.y), cc.v2(xRandom + 400, pos.y - 300), cc.v2(xRandom + 400, thirdBox.height - 300)).start();
+                        cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 1.5 }, { easing: "sineInOut" }).start();
 
                         this.scheduleOnce(() => {
                             _node.destroy();
@@ -836,7 +837,7 @@ export default class NewClass extends cc.Component {
         // console.log("anim length = ", anim.length);
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
-        let pos: number[] = [-1200, 1200];
+        let pos: number[] = [-2000, 2000];
         let jockeytween: number[] = [-450, 450];
         //console.log("characterAppear--Podar_Jumbo");
         if (globalVariables.Instance.currentLevel % 2 == 0 && startGame.Instance.jockeyName == "stallion") {
@@ -904,7 +905,7 @@ export default class NewClass extends cc.Component {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                         this.scheduleOnce(() => {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                            cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
+                            cc.tween(this.currentJcokey).to(2, { x: -2000 }).start();
                             //console.log("characterDisappear--Podar_Jumbo");
                             this.callNextLevel();
                         }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration)
@@ -917,7 +918,7 @@ export default class NewClass extends cc.Component {
                 cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
                 this.scheduleOnce(() => {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                    cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
+                    cc.tween(this.currentJcokey).to(2, { x: -2000 }).start();
                     //console.log("characterDisappear--Podar_Jumbo");
                     this.callNextLevel();
                 }, this.positiveAudio[currentClipNum].duration);
