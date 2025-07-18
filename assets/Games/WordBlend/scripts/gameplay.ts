@@ -520,8 +520,11 @@ export default class NewClass extends cc.Component {
                     .call(() => {
                         let duration = 0;
                         if (this.puzzleQuestionVo) {
-                            duration = this.puzzleQuestionVo.duration - 0.3;
-                            // cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+                            this.scheduleOnce(() => {
+                                duration = this.puzzleQuestionVo.duration - 0.3;
+                                cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+                            }, this.introvo.duration + 0.1);
+
                         }
                         let handNode = this.node.getChildByName("handClick");
                         if (this.currScene <= 3) {

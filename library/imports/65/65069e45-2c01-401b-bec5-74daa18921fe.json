@@ -22,10 +22,10 @@
         "isHintRequired": false,
         "numberOfPuzzles": 4,
         "puzzles": [
-          "dog_part_001.png",
-          "dog_part_002.png",
-          "dog_part_003.png",
-          "dog_part_004.png"
+          "horse_part_001.png",
+          "horse_part_002.png",
+          "horse_part_003.png",
+          "horse_part_004.png"
         ],
         "correctAudioName": "GOODJOB.mp3",
         "needReiteration": true,

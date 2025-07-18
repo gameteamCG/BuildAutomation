@@ -459,8 +459,10 @@ var NewClass = /** @class */ (function (_super) {
                 .call(function () {
                 var duration = 0;
                 if (_this.puzzleQuestionVo) {
-                    duration = _this.puzzleQuestionVo.duration - 0.3;
-                    // cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+                    _this.scheduleOnce(function () {
+                        duration = _this.puzzleQuestionVo.duration - 0.3;
+                        cc.audioEngine.playEffect(_this.puzzleQuestionVo, false);
+                    }, _this.introvo.duration + 0.1);
                 }
                 var handNode = _this.node.getChildByName("handClick");
                 if (_this.currScene <= 3) {
