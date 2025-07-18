@@ -4619,6 +4619,10 @@
       "__id__": 5
     },
     "_enabled": true,
+    "podar_font": null,
+    "jaipuria_font": null,
+    "tlc_font": null,
+    "supercub_font": null,
     "options": {
       "__id__": 13
     },
@@ -4628,11 +4632,10 @@
     "myOptions": {
       "__id__": 79
     },
-    "correctAnswer": "2",
-    "correctAction": {
-      "__uuid__": "78ea7baa-3895-4313-b442-0081329059ff"
+    "introvo": {
+      "__uuid__": "4060fa0a-c3ca-4ad7-9207-c94d0ed1f229"
     },
-    "correctButton": {
+    "correctAction": {
       "__uuid__": "78ea7baa-3895-4313-b442-0081329059ff"
     },
     "incorrectButton": [
@@ -4649,24 +4652,24 @@
     "swipeAction": {
       "__uuid__": "8653d604-3df1-497e-b9e9-da1d7381dfb0"
     },
-    "rotateQuestion": {
-      "__uuid__": "5da74dff-6e00-4d46-96c5-2e4ae6b0f877"
-    },
-    "wordVoQuestion": {
-      "__uuid__": "7691cdeb-505d-4409-a6e9-fbcf87e5391a"
-    },
-    "wordVoIteration": {
-      "__uuid__": "01443d20-24fb-4583-a80c-56b98887059c"
-    },
-    "jockeyCorrect1": {
-      "__uuid__": "7918e3f6-2f6a-48d9-a999-e733c7339508"
-    },
     "jockeyCorrect2": {
       "__uuid__": "3d44a2f1-e22f-4718-a91d-7c5ec41e44dd"
     },
     "wrongAnswer": {
       "__uuid__": "f9b0997e-affb-4360-8564-7810339ae104"
     },
+    "positiveAudio": [],
+    "negativeAudio": [],
+    "stallionPositive": [],
+    "stallionNegative": [],
+    "bagPositive": [],
+    "bagNegative": [],
+    "cryonPositive": [],
+    "cryonNegative": [],
+    "tlcPositive": [],
+    "tlcNegative": [],
+    "supercubPositive": [],
+    "supercubNegative": [],
     "_id": "90gjgtdrpOaIcwz2b2JxoD"
   },
   {

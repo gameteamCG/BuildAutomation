@@ -23,7 +23,8 @@ export default class NewClass extends cc.Component {
     myOptions: cc.Node = null;
 
     correctAnswer: string = "1";
-
+    @property(cc.AudioClip)
+    introvo: cc.AudioClip = null;
     @property(cc.AudioClip)
     correctAction: cc.AudioClip = null;
     @property(cc.AudioClip)
@@ -143,6 +144,7 @@ export default class NewClass extends cc.Component {
         this.scheduleOnce(this.sheduleQuestionClip, 10);
     }
     start() {
+        cc.audioEngine.playEffect(this.introvo, false);
         if (startGame.Instance.jockeyName == "bag") {
             this.positiveAudio = this.bagPositive;
             this.negativeAudio = this.bagNegative;
@@ -519,7 +521,7 @@ export default class NewClass extends cc.Component {
                         let duration = 0;
                         if (this.puzzleQuestionVo) {
                             duration = this.puzzleQuestionVo.duration - 0.3;
-                            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+                            // cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
                         }
                         let handNode = this.node.getChildByName("handClick");
                         if (this.currScene <= 3) {
@@ -659,7 +661,7 @@ export default class NewClass extends cc.Component {
         // console.log("currentClipNum = ", currentClipNum);
         let pos: number[] = [-1600, 1600];
         let jockeytween: number[] = [-450, 450];
-        if (startGame.Instance.jockeyName == "supercub" ) {
+        if (startGame.Instance.jockeyName == "supercub") {
             pos = [1900, 1900];
             jockeytween = [870, 870];
         }
@@ -707,7 +709,7 @@ export default class NewClass extends cc.Component {
             else if (startGame.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
-            else if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tiger")  {
+            else if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tiger") {
                 anim = ["negative_3", "negative_4"];
             }
             else if (startGame.Instance.jockeyName == "bag") {
@@ -740,7 +742,7 @@ export default class NewClass extends cc.Component {
             }
             let pos: number = 1600;
             let jockeytween: number = 450;
-            if (startGame.Instance.jockeyName == "supercub" ) {
+            if (startGame.Instance.jockeyName == "supercub") {
                 pos = 1900;
                 jockeytween = 870;
             }

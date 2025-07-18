@@ -38,6 +38,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.wordsNode = null;
         _this.myOptions = null;
         _this.correctAnswer = "1";
+        _this.introvo = null;
         _this.correctAction = null;
         _this.incorrectButton = [];
         _this.rotateAction = null;
@@ -112,6 +113,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.start = function () {
         var _this = this;
+        cc.audioEngine.playEffect(this.introvo, false);
         if (StartGame_1.default.Instance.jockeyName == "bag") {
             this.positiveAudio = this.bagPositive;
             this.negativeAudio = this.bagNegative;
@@ -458,7 +460,7 @@ var NewClass = /** @class */ (function (_super) {
                 var duration = 0;
                 if (_this.puzzleQuestionVo) {
                     duration = _this.puzzleQuestionVo.duration - 0.3;
-                    cc.audioEngine.playEffect(_this.puzzleQuestionVo, false);
+                    // cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
                 }
                 var handNode = _this.node.getChildByName("handClick");
                 if (_this.currScene <= 3) {
@@ -1087,6 +1089,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], NewClass.prototype, "myOptions", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], NewClass.prototype, "introvo", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "correctAction", void 0);
