@@ -426,10 +426,10 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("hint").active = true;
         }
         if (this.options.childrenCount == 4) {
-            this.options.children[0].setPosition(-this.options.children[0].width / 2, this.options.children[0].height / 2);
-            this.options.children[1].setPosition(this.options.children[1].width / 2, this.options.children[1].height / 2);
-            this.options.children[2].setPosition(-this.options.children[2].width / 2, -this.options.children[2].height / 2);
-            this.options.children[3].setPosition(this.options.children[3].width / 2, -this.options.children[3].height / 2);
+            this.options.children[0].setPosition(-this.options.children[0].width / 2.02, this.options.children[0].height / 2.02);
+            this.options.children[1].setPosition(this.options.children[1].width / 2.02, this.options.children[1].height / 2.02);
+            this.options.children[2].setPosition(-this.options.children[2].width / 2.02, -this.options.children[2].height / 2.02);
+            this.options.children[3].setPosition(this.options.children[3].width / 2.02, -this.options.children[3].height / 2.02);
         } else if (this.options.childrenCount == 9) {
             let threshHold: number = 1
 
@@ -522,7 +522,7 @@ export default class NewClass extends cc.Component {
                         if (this.puzzleQuestionVo) {
                             this.scheduleOnce(() => {
                                 duration = this.puzzleQuestionVo.duration - 0.3;
-                                cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+                                // cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
                             }, this.introvo.duration + 0.1);
 
                         }
@@ -620,7 +620,7 @@ export default class NewClass extends cc.Component {
                     if (this.isSecondInteraction) {
                         //check what interaction it is and call the respective function
                         //show question panel
-                        cc.audioEngine.playEffect(this.wordVoQuestion, false);
+                        // cc.audioEngine.playEffect(this.wordVoQuestion, false);
                         this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
                     }
                     else {
@@ -775,7 +775,7 @@ export default class NewClass extends cc.Component {
 
 
     OptionsAppear() {
-
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
         cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
 
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
@@ -791,6 +791,7 @@ export default class NewClass extends cc.Component {
                 cc.tween(_child).to(0.8, { scale: 1 }).start()
             }, 0.5 * index);
         });
+        // cc.audioEngine.playEffect(this.wordVoQuestion, false);
 
     }
     onButtonClick(_event: cc.Event) {

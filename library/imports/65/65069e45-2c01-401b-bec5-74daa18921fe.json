@@ -10,29 +10,29 @@
       "TitleImageName": "Titlepetanimal.png",
       "introBgName": "titlebg.png",
       "bgmMusicName": "bgm_sc.mp3",
-      "mainBgName": "BG31.png",
+      "mainBgName": "Asset 30.png",
       "JockeyName": "tiger"
     },
     "questionData": [
       {
         "questionText": "",
-        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "questionAudioName": "Identify the young one of a dog.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Artboard4.png",
         "isHintRequired": false,
         "numberOfPuzzles": 4,
         "puzzles": [
-          "horse_part_001.png",
-          "horse_part_002.png",
-          "horse_part_003.png",
-          "horse_part_004.png"
+          "dog_part_001.png",
+          "dog_part_002.png",
+          "dog_part_003.png",
+          "dog_part_004.png"
         ],
         "correctAudioName": "GOODJOB.mp3",
         "needReiteration": true,
         "interactionType": "1",
         "questionText2": "2",
         "questionAudioName2": "Tap_on_the_young_of_a_dog.mp3",
-        "commonOptionImageName": "options_panel3.png",
+        "commonOptionImageName": "Asset 31.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
@@ -44,7 +44,7 @@
       },
       {
         "questionText": "",
-        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "questionAudioName": "Identify the young one of a cat.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Artboard4.png",
         "isHintRequired": false,
@@ -60,7 +60,7 @@
         "interactionType": "1",
         "questionText2": "2",
         "questionAudioName2": "Tap_on_the_young_1_of_a_cat.mp3",
-        "commonOptionImageName": "options_panel3.png",
+        "commonOptionImageName": "Asset 31.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
@@ -72,7 +72,7 @@
       },
       {
         "questionText": "",
-        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "questionAudioName": "Identify the young one of a cow.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Artboard4.png",
         "isHintRequired": false,
@@ -88,7 +88,7 @@
         "interactionType": "1",
         "questionText2": "2",
         "questionAudioName2": "Tap_on_the_young_1_of_a_cow.mp3",
-        "commonOptionImageName": "options_panel3.png",
+        "commonOptionImageName": "Asset 31.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
@@ -100,7 +100,7 @@
       },
       {
         "questionText": "",
-        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "questionAudioName": "Identify the young one of a sheep.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Artboard4.png",
         "isHintRequired": false,
@@ -116,7 +116,7 @@
         "interactionType": "1",
         "questionText2": "2",
         "questionAudioName2": "Tap_on_the_young_1_of_a_sheep.mp3",
-        "commonOptionImageName": "options_panel3.png",
+        "commonOptionImageName": "Asset 31.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
@@ -128,7 +128,7 @@
       },
       {
         "questionText": "",
-        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "questionAudioName": "identify the young one of a goat.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Artboard4.png",
         "isHintRequired": false,
@@ -144,7 +144,7 @@
         "interactionType": "1",
         "questionText2": "2",
         "questionAudioName2": "Tap_on_the_young_of_a_goat.mp3",
-        "commonOptionImageName": "options_panel3.png",
+        "commonOptionImageName": "Asset 31.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
@@ -156,7 +156,7 @@
       },
       {
         "questionText": "",
-        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "questionAudioName": "identify the young one of a horse.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Artboard4.png",
         "isHintRequired": false,
@@ -172,7 +172,7 @@
         "interactionType": "1",
         "questionText2": "2",
         "questionAudioName2": "Tap_on_the_young_1_of_a_horse.mp3",
-        "commonOptionImageName": "options_panel3.png",
+        "commonOptionImageName": "Asset 31.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
@@ -184,7 +184,7 @@
       },
       {
         "questionText": "",
-        "questionAudioName": "solve_the_picture_puzzle.mp3",
+        "questionAudioName": "identify the young one of a hen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Artboard4.png",
         "isHintRequired": false,
@@ -200,7 +200,7 @@
         "interactionType": "1",
         "questionText2": "2",
         "questionAudioName2": "Tap_on_the_young_1_of_a_hen.mp3",
-        "commonOptionImageName": "options_panel3.png",
+        "commonOptionImageName": "Asset 31.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [

@@ -392,10 +392,10 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("hint").active = true;
         }
         if (this.options.childrenCount == 4) {
-            this.options.children[0].setPosition(-this.options.children[0].width / 2, this.options.children[0].height / 2);
-            this.options.children[1].setPosition(this.options.children[1].width / 2, this.options.children[1].height / 2);
-            this.options.children[2].setPosition(-this.options.children[2].width / 2, -this.options.children[2].height / 2);
-            this.options.children[3].setPosition(this.options.children[3].width / 2, -this.options.children[3].height / 2);
+            this.options.children[0].setPosition(-this.options.children[0].width / 2.02, this.options.children[0].height / 2.02);
+            this.options.children[1].setPosition(this.options.children[1].width / 2.02, this.options.children[1].height / 2.02);
+            this.options.children[2].setPosition(-this.options.children[2].width / 2.02, -this.options.children[2].height / 2.02);
+            this.options.children[3].setPosition(this.options.children[3].width / 2.02, -this.options.children[3].height / 2.02);
         }
         else if (this.options.childrenCount == 9) {
             var threshHold_1 = 1;
@@ -461,7 +461,7 @@ var NewClass = /** @class */ (function (_super) {
                 if (_this.puzzleQuestionVo) {
                     _this.scheduleOnce(function () {
                         duration = _this.puzzleQuestionVo.duration - 0.3;
-                        cc.audioEngine.playEffect(_this.puzzleQuestionVo, false);
+                        // cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
                     }, _this.introvo.duration + 0.1);
                 }
                 var handNode = _this.node.getChildByName("handClick");
@@ -550,7 +550,7 @@ var NewClass = /** @class */ (function (_super) {
                     if (_this.isSecondInteraction) {
                         //check what interaction it is and call the respective function
                         //show question panel
-                        cc.audioEngine.playEffect(_this.wordVoQuestion, false);
+                        // cc.audioEngine.playEffect(this.wordVoQuestion, false);
                         _this.interactionType == "1" ? _this.OptionsAppear() : _this.wordAppear();
                     }
                     else {
@@ -704,6 +704,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.OptionsAppear = function () {
         var _this = this;
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
         cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(function () {
@@ -715,6 +716,7 @@ var NewClass = /** @class */ (function (_super) {
                 cc.tween(_child).to(0.8, { scale: 1 }).start();
             }, 0.5 * index);
         });
+        // cc.audioEngine.playEffect(this.wordVoQuestion, false);
     };
     NewClass.prototype.onButtonClick = function (_event) {
         var _this = this;
