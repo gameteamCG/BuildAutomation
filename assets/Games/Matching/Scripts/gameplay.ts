@@ -443,7 +443,7 @@ export default class gameplay extends cc.Component {
 
     callOptionIn() {
         let delay: number = 0.5;
-        if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
+        if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tiger") {
             this.optionsNode.children.forEach(element => {
                 element.setPosition(190, element.getPosition().y);
             });
@@ -596,16 +596,16 @@ export default class gameplay extends cc.Component {
         this.optionsNode.active = false;
         cc.audioEngine.playEffect(this.positiveSound[0], false);
         cc.tween(_clone1).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1.children[1]).to(0.5, { width: 250, height: 250 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1.children[2]).to(0.5, { width: 250, height: 250 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).start();
 
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2.children[1]).to(0.5, { width: 250, height: 250 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2.children[2]).to(0.5, { width: 250, height: 250 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).start();
 
@@ -655,7 +655,7 @@ export default class gameplay extends cc.Component {
         // console.log("anim length = ", anim.length);
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
-        let pos: number[] = [-1200, 1200];
+        let pos: number[] = [-2000, 2000];
         let jockeytween: number[] = [-450, 450];
         //console.log("characterAppear--Podar_Jumbo");
         if (globalVariables.Instance.currentLevel % 2 == 0 && startGame.Instance.jockeyName == "stallion") {
@@ -723,7 +723,7 @@ export default class gameplay extends cc.Component {
                         this.scheduleOnce(() => {
                             if (this.answeredCount >= this.totalAnswers) {
                                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                                cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
+                                cc.tween(this.currentJcokey).to(2, { x: -2000 }).start();
                                 this.callNextLevel();
                             }
                             else {
@@ -741,7 +741,7 @@ export default class gameplay extends cc.Component {
                 this.scheduleOnce(() => {
                     if (this.answeredCount >= this.totalAnswers) {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                        cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
+                        cc.tween(this.currentJcokey).to(2, { x: -2000 }).start();
                         this.callNextLevel();
                     }
                     else {
