@@ -210,6 +210,7 @@ var Gameplay = /** @class */ (function (_super) {
         }
         this.currentJockey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
         this.currentJockey.active = true;
+        this.currentJockey.x = 2000;
     };
     Gameplay.prototype.start = function () {
         var _this = this;
@@ -560,7 +561,7 @@ var Gameplay = /** @class */ (function (_super) {
         // console.log("anim length = ", anim.length);
         var currentClipNum = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
-        var pos = [-1600, 1600];
+        var pos = [-2000, 2000];
         var jockeytween = [-450, 450];
         if (StartGame_1.default.Instance.jockeyName == "supercub") {
             pos = [1900, 1900];
@@ -634,9 +635,9 @@ var Gameplay = /** @class */ (function (_super) {
             }
             var currentClipNum = _this.getRandomNumber(0, anim.length - 1);
             //console.log("characterAppear--Podar_Jumbo");
-            _this.currentJockey.setPosition(1600, _this.currentJockey.y);
+            _this.currentJockey.setPosition(2000, _this.currentJockey.y);
             var posX = 400;
-            var posX_init = 1600;
+            var posX_init = 2000;
             if (StartGame_1.default.Instance.jockeyName == "supercub") {
                 _this.currentJockey.setPosition(1900, _this.currentJockey.y);
                 posX = 870;

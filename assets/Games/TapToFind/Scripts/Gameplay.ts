@@ -192,6 +192,7 @@ export default class Gameplay extends cc.Component {
         }
         this.currentJockey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
         this.currentJockey.active = true;
+        this.currentJockey.x = 2000;
     }
 
     start() {
@@ -545,7 +546,7 @@ export default class Gameplay extends cc.Component {
         // console.log("anim length = ", anim.length);
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
-        let pos: number[] = [-1600, 1600];
+        let pos: number[] = [-2000, 2000];
         let jockeytween: number[] = [-450, 450];
         if (startGame.Instance.jockeyName == "supercub") {
             pos = [1900, 1900];
@@ -621,9 +622,9 @@ export default class Gameplay extends cc.Component {
 
             let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
             //console.log("characterAppear--Podar_Jumbo");
-            this.currentJockey.setPosition(1600, this.currentJockey.y);
+            this.currentJockey.setPosition(2000, this.currentJockey.y);
             let posX: number = 400;
-            let posX_init: number = 1600;
+            let posX_init: number = 2000;
             if (startGame.Instance.jockeyName == "supercub") {
                 this.currentJockey.setPosition(1900, this.currentJockey.y);
                 posX = 870;
