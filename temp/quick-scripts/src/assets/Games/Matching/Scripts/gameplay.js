@@ -258,6 +258,7 @@ var gameplay = /** @class */ (function (_super) {
             }
         }
         this.currentJcokey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
+        this.currentJcokey.x = 2000;
         this.callThirdObjectIn();
     };
     gameplay.prototype.start = function () {

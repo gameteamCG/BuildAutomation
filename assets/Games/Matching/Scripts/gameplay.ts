@@ -280,7 +280,7 @@ export default class gameplay extends cc.Component {
         }
 
         this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
-
+        this.currentJcokey.x = 2000;
         this.callThirdObjectIn();
 
     }
@@ -634,7 +634,7 @@ export default class gameplay extends cc.Component {
         else if (startGame.Instance.jockeyName == "supercub") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
-          else if (startGame.Instance.jockeyName == "tiger") {
+        else if (startGame.Instance.jockeyName == "tiger") {
             anim = ["positive_3", "positive_4", "positive_5", "positive_6", "positive_7"];
         }
         else if (startGame.Instance.jockeyName == "bag") {
