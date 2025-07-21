@@ -658,7 +658,7 @@ export default class NewClass extends cc.Component {
         // console.log("anim length = ", anim.length);
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
-        let pos: number[] = [-1200, 1200];
+        let pos: number[] = [-1800, 1800];
         let jockeytween: number[] = [-450, 450];
         //console.log("characterAppear--Podar_Jumbo");
         //this.currentJcokey.setPosition(pos[globalVariables.Instance.currentLevel % 2], -350);

@@ -608,7 +608,7 @@ var NewClass = /** @class */ (function (_super) {
         // console.log("anim length = ", anim.length);
         var currentClipNum = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
-        var pos = [-1200, 1200];
+        var pos = [-1800, 1800];
         var jockeytween = [-450, 450];
         //console.log("characterAppear--Podar_Jumbo");
         //this.currentJcokey.setPosition(pos[globalVariables.Instance.currentLevel % 2], -350);
