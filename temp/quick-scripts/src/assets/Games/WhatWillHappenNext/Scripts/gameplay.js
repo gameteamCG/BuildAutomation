@@ -257,6 +257,7 @@ var NewClass = /** @class */ (function (_super) {
             }
         }
         this.currentJcokey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
+        this.currentJcokey.x = -2000;
         // this.currentJcokey.active = true;
     };
     NewClass.prototype.start = function () {
@@ -784,7 +785,7 @@ var NewClass = /** @class */ (function (_super) {
         // console.log("anim length = ", anim.length);
         var currentClipNum = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
-        var pos = [-1200, 1200];
+        var pos = [-2000, 2000];
         var jockeytween = [-450, 450];
         //console.log("characterAppear--Podar_Jumbo");
         if (globalVariables_1.default.Instance.currentLevel % 2 == 0 && StartGame_1.default.Instance.jockeyName == "stallion") {

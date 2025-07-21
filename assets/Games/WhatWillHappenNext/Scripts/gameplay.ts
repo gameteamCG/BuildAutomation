@@ -297,6 +297,7 @@ export default class NewClass extends cc.Component {
 
         }
         this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
+        this.currentJcokey.x = -2000;
         // this.currentJcokey.active = true;
     }
 
@@ -837,7 +838,7 @@ export default class NewClass extends cc.Component {
         // console.log("anim length = ", anim.length);
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
-        let pos: number[] = [-1200, 1200];
+        let pos: number[] = [-2000, 2000];
         let jockeytween: number[] = [-450, 450];
         //console.log("characterAppear--Podar_Jumbo");
         if (globalVariables.Instance.currentLevel % 2 == 0 && startGame.Instance.jockeyName == "stallion") {
