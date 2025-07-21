@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -258,6 +258,7 @@ var gameplay = /** @class */ (function (_super) {
             }
         }
         this.currentJcokey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
+        this.currentJcokey.x = 2000;
         this.callThirdObjectIn();
     };
     gameplay.prototype.start = function () {
@@ -613,7 +614,7 @@ var gameplay = /** @class */ (function (_super) {
         // console.log("anim length = ", anim.length);
         var currentClipNum = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
-        var pos = [-1200, 1200];
+        var pos = [-2000, 2000];
         var jockeytween = [-450, 450];
         //console.log("characterAppear--Podar_Jumbo");
         if (globalVariables_1.default.Instance.currentLevel % 2 == 0 && StartGame_1.default.Instance.jockeyName == "stallion") {
@@ -681,7 +682,7 @@ var gameplay = /** @class */ (function (_super) {
                         _this.scheduleOnce(function () {
                             if (_this.answeredCount >= _this.totalAnswers) {
                                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                                cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
+                                cc.tween(_this.currentJcokey).to(2, { x: -2000 }).start();
                                 _this.callNextLevel();
                             }
                             else {
@@ -698,7 +699,7 @@ var gameplay = /** @class */ (function (_super) {
                 this.scheduleOnce(function () {
                     if (_this.answeredCount >= _this.totalAnswers) {
                         _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                        cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
+                        cc.tween(_this.currentJcokey).to(2, { x: -2000 }).start();
                         _this.callNextLevel();
                     }
                     else {

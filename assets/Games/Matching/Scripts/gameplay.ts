@@ -1,6 +1,6 @@
 
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -280,7 +280,7 @@ export default class gameplay extends cc.Component {
         }
 
         this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
-
+        this.currentJcokey.x = 2000;
         this.callThirdObjectIn();
 
     }
@@ -634,7 +634,7 @@ export default class gameplay extends cc.Component {
         else if (startGame.Instance.jockeyName == "supercub") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
-          else if (startGame.Instance.jockeyName == "tiger") {
+        else if (startGame.Instance.jockeyName == "tiger") {
             anim = ["positive_3", "positive_4", "positive_5", "positive_6", "positive_7"];
         }
         else if (startGame.Instance.jockeyName == "bag") {
@@ -655,7 +655,7 @@ export default class gameplay extends cc.Component {
         // console.log("anim length = ", anim.length);
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
         // console.log("currentClipNum = ", currentClipNum);
-        let pos: number[] = [-1200, 1200];
+        let pos: number[] = [-2000, 2000];
         let jockeytween: number[] = [-450, 450];
         //console.log("characterAppear--Podar_Jumbo");
         if (globalVariables.Instance.currentLevel % 2 == 0 && startGame.Instance.jockeyName == "stallion") {
@@ -723,7 +723,7 @@ export default class gameplay extends cc.Component {
                         this.scheduleOnce(() => {
                             if (this.answeredCount >= this.totalAnswers) {
                                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                                cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
+                                cc.tween(this.currentJcokey).to(2, { x: -2000 }).start();
                                 this.callNextLevel();
                             }
                             else {
@@ -741,7 +741,7 @@ export default class gameplay extends cc.Component {
                 this.scheduleOnce(() => {
                     if (this.answeredCount >= this.totalAnswers) {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                        cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
+                        cc.tween(this.currentJcokey).to(2, { x: -2000 }).start();
                         this.callNextLevel();
                     }
                     else {
