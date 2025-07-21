@@ -217,9 +217,7 @@ var NewClass = /** @class */ (function (_super) {
                 _loop_4(i);
             }
         }
-        //startGame.Instance.jockeyName = "Podar";
         this.currentJcokey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
-        //this.currentJcokey.active = true;
     };
     NewClass.prototype.start = function () {
         ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1);
@@ -319,7 +317,6 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         this.canTouch = false;
         console.log("Jockey coming");
-        this.currentJcokey.active = true;
         if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
             if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
@@ -612,6 +609,7 @@ var NewClass = /** @class */ (function (_super) {
         var jockeytween = [-450, 450];
         //console.log("characterAppear--Podar_Jumbo");
         //this.currentJcokey.setPosition(pos[globalVariables.Instance.currentLevel % 2], -350);
+        this.currentJcokey.active = true;
         if (globalVariables_1.default.Instance.currentLevel % 2 == 0 && StartGame_1.default.Instance.jockeyName == "stallion") {
             this.currentJcokey.scaleX = -0.65;
         }

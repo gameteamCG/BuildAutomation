@@ -249,9 +249,7 @@ export default class NewClass extends cc.Component {
                 });
             }
         }
-        //startGame.Instance.jockeyName = "Podar";
         this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
-        //this.currentJcokey.active = true;
     }
 
     start() {
@@ -359,7 +357,6 @@ export default class NewClass extends cc.Component {
     PlayQuestionAudio() {
         this.canTouch = false;
         console.log("Jockey coming");
-        this.currentJcokey.active = true;
         if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
             if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
@@ -662,6 +659,7 @@ export default class NewClass extends cc.Component {
         let jockeytween: number[] = [-450, 450];
         //console.log("characterAppear--Podar_Jumbo");
         //this.currentJcokey.setPosition(pos[globalVariables.Instance.currentLevel % 2], -350);
+        this.currentJcokey.active = true;
         if (globalVariables.Instance.currentLevel % 2 == 0 && startGame.Instance.jockeyName == "stallion") {
             this.currentJcokey.scaleX = -0.65;
         }
