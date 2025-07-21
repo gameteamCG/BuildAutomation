@@ -318,7 +318,6 @@ var NewClass = /** @class */ (function (_super) {
         this.node.getChildByName("Option").children.forEach(function (element) {
             element.getComponent(cc.Button).interactable = false;
         });
-        this.currentJcokey.active = true;
         if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
             if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
@@ -530,9 +529,10 @@ var NewClass = /** @class */ (function (_super) {
         // console.log("anim length = ", anim.length);
         var currentClipNum = globalVariables_1.default.Instance.currentLevel % (anim.length);
         console.log("currentClipNum = ", currentClipNum);
-        var pos = [-1200, 1200];
+        var pos = [-2500, 2500];
         var jockeytween = [-450, 450];
         //console.log("characterAppear--Podar_Jumbo");
+        this.currentJcokey.active = true;
         if (globalVariables_1.default.Instance.currentLevel % 2 == 0 && StartGame_1.default.Instance.jockeyName == "stallion") {
             this.currentJcokey.scaleX = -0.65;
         }
@@ -668,13 +668,13 @@ var NewClass = /** @class */ (function (_super) {
                 }
             }
             if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
-                _this.currentJcokey.setPosition(1200, -350);
+                _this.currentJcokey.setPosition(2500, -350);
                 cc.tween(_this.currentJcokey).to(0.5, { x: 400 }, { easing: "quartInOut" }).start();
                 _this.scheduleOnce(function () {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                     cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
                     _this.scheduleOnce(function () {
-                        cc.tween(_this.currentJcokey).to(0.5, { x: 1200 }, { easing: "quartInOut" }).start();
+                        cc.tween(_this.currentJcokey).to(0.5, { x: 2500 }, { easing: "quartInOut" }).start();
                         if (StartGame_1.default.Instance.jockeyName != "stallion") {
                             if (StartGame_1.default.Instance.jockeyName != "Podar") {
                                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
