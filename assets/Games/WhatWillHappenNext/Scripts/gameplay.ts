@@ -297,6 +297,7 @@ export default class NewClass extends cc.Component {
 
         }
         this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
+        this.currentJcokey.x = -2000;
         // this.currentJcokey.active = true;
     }
 
