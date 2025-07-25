@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "come_home",
+    "texture": "f18c8095-2796-4cb4-b3e0-ba6671b9a83f",
+    "atlas": "",
+    "rect": [
+      73,
+      78,
+      353,
+      362
+    ],
+    "offset": [
+      -0.5,
+      -9
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

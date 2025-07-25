@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brush_teeth",
+    "texture": "54764cdf-5b9d-44e9-ac26-5ba7a1a5c91f",
+    "atlas": "",
+    "rect": [
+      156,
+      65,
+      192,
+      355
+    ],
+    "offset": [
+      2,
+      7.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eat_breakfast",
+    "texture": "86d6ba90-8350-4d10-937e-30a0c4587666",
+    "atlas": "",
+    "rect": [
+      132,
+      84,
+      236,
+      329
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

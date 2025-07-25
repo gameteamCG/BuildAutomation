@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "read_bedtime_story",
+    "texture": "8b92ba17-db15-42cc-a4c4-e0cc83402152",
+    "atlas": "",
+    "rect": [
+      103,
+      90,
+      294,
+      353
+    ],
+    "offset": [
+      0,
+      -16.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "study",
+    "texture": "f070015f-d175-448b-8a52-022ecee32036",
+    "atlas": "",
+    "rect": [
+      54,
+      62,
+      392,
+      340
+    ],
+    "offset": [
+      0,
+      18
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
