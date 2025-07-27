@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cricket",
+    "texture": "b5e41da9-faa7-4c34-a650-74b65ac42330",
+    "atlas": "",
+    "rect": [
+      18,
+      124,
+      466,
+      254
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
