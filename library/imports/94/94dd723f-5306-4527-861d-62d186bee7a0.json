@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "listen_and_tap",
+    "texture": "e47d6457-2fae-45fe-bd5a-61a7ad76c27a",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      719,
+      192
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      725,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
