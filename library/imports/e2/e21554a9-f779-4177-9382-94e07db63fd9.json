@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Identify_underground_vegetables",
+    "texture": "972809a6-bf6e-421d-ac14-2184949562fa",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      565,
+      97
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      571,
+      113
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
