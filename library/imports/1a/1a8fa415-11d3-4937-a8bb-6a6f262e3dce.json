@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_aeroplane",
+    "texture": "56e62500-cfe5-4e58-85fe-dbf4bfa8465e",
+    "atlas": "",
+    "rect": [
+      13,
+      142,
+      476,
+      216
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

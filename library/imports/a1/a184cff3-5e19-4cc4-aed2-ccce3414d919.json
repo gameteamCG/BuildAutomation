@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0005_motorbike",
+    "texture": "e331d120-7714-4737-8905-e37b7e9fe08e",
+    "atlas": "",
+    "rect": [
+      4,
+      129,
+      491,
+      267
+    ],
+    "offset": [
+      -0.5,
+      -12.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

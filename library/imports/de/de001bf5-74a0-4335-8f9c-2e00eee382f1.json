@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0000_tractor",
+    "texture": "201701ef-dbee-45de-bc18-bf0c08153a50",
+    "atlas": "",
+    "rect": [
+      0,
+      98,
+      500,
+      330
+    ],
+    "offset": [
+      0,
+      -13
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

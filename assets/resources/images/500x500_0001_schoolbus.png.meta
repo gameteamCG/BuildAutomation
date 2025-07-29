@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a62634f0-48d8-441b-ad4f-c6d694071777",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0001_schoolbus": {
+      "ver": "1.0.6",
+      "uuid": "b99acd8c-8270-4b5a-8eef-870de0a3a6df",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a62634f0-48d8-441b-ad4f-c6d694071777",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -13,
+      "trimX": 0,
+      "trimY": 124,
+      "width": 500,
+      "height": 278,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

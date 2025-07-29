@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_schoolbus",
+    "texture": "a62634f0-48d8-441b-ad4f-c6d694071777",
+    "atlas": "",
+    "rect": [
+      0,
+      124,
+      500,
+      278
+    ],
+    "offset": [
+      0,
+      -13
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

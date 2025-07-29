@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "modes of transport",
+    "texture": "209c5e6d-bdc6-4f50-93cc-c5531798efeb",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      549,
+      98
+    ],
+    "offset": [
+      -4.5,
+      1.5
+    ],
+    "originalSize": [
+      566,
+      115
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
