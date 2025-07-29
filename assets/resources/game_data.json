@@ -1,0 +1,89 @@
+{
+  "additionalData": {
+    "GameID": "Tricky words - the_216",
+    "totalLevel": "4",
+    "TitleImageName": "Tricky word the.png",
+    "introBgName": "NUR.png",
+    "bgmMusicName": "bgm3.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "the",
+      "questionImageName": "",
+      "questionAudioName": "swipeQ.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "apple.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "optionOffset": null,
+      "options": [
+        "e",
+        "t",
+        "h"
+      ],
+      "correctAnswer": "the",
+      "correctAudioName": "",
+      "needReiteration": true,
+      "reiterationImageName": "apple.png"
+    },
+    {
+      "questionText": "the",
+      "questionImageName": "",
+      "questionAudioName": "swipeQ.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "orange.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "optionOffset": null,
+      "options": [
+        "t",
+        "e",
+        "h"
+      ],
+      "correctAnswer": "the",
+      "correctAudioName": "the.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "orange.png"
+    },
+    {
+      "questionText": "the",
+      "questionImageName": "",
+      "questionAudioName": "swipeQ.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "starwa.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "optionOffset": null,
+      "options": [
+        "e",
+        "h",
+        "t"
+      ],
+      "correctAnswer": "the",
+      "correctAudioName": "the.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "starwa.png"
+    },
+    {
+      "questionText": "",
+      "questionImageName": "",
+      "questionAudioName": "swipeQ.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Asset 2.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "optionOffset": null,
+      "options": [
+        "h",
+        "t",
+        "e"
+      ],
+      "correctAnswer": "the",
+      "correctAudioName": "the.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "Asset 2.png"
+    }
+  ]
+}
