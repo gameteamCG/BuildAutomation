@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Tricky word the",
+    "texture": "6fa5064a-7aee-486e-a2b5-d109b30c78f9",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      546,
+      191
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      552,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
