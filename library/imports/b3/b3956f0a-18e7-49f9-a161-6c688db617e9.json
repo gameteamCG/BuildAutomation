@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0006_brushing",
+    "texture": "f2297510-aad0-46a6-9e77-947f17411b84",
+    "atlas": "",
+    "rect": [
+      91,
+      43,
+      358,
+      450
+    ],
+    "offset": [
+      19.5,
+      -17.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
