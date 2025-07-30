@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "MainBG",
+    "texture": "52d4e585-e37d-447a-a377-1143335b9351",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1921,
+      1085
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1921,
+      1085
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
