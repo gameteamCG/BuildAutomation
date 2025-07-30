@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0005_first-aid",
+    "texture": "fb2957c9-58a0-4435-af82-a197f32c1fed",
+    "atlas": "",
+    "rect": [
+      0,
+      30,
+      350,
+      290
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      350,
+      350
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
