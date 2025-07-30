@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c3ffd0c4-ac04-44d6-8d91-cc3e8c6d7999",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0000_washingutensils": {
+      "ver": "1.0.6",
+      "uuid": "9b1bef4e-163e-4f47-8099-f84c4f64bac0",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c3ffd0c4-ac04-44d6-8d91-cc3e8c6d7999",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -6,
+      "offsetY": -13.5,
+      "trimX": 41,
+      "trimY": 54,
+      "width": 407,
+      "height": 420,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

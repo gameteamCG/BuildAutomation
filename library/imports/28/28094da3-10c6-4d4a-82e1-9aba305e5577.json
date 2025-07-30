@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "playpiano",
+    "texture": "2f9f3974-42bf-4588-8610-07c44e6e626f",
+    "atlas": "",
+    "rect": [
+      98,
+      47,
+      340,
+      444
+    ],
+    "offset": [
+      17.5,
+      -18.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "0943ff0c-50fd-4098-aa25-4f4cb17d17fa",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0005_cooking": {
+      "ver": "1.0.6",
+      "uuid": "2559a810-9d5f-4297-a9ea-c671015fc727",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0943ff0c-50fd-4098-aa25-4f4cb17d17fa",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -6,
+      "offsetY": -9.5,
+      "trimX": 40,
+      "trimY": 30,
+      "width": 409,
+      "height": 460,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

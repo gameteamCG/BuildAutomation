@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_clap",
+    "texture": "a2784d9a-6e76-48a7-ad8e-cdc193d2c521",
+    "atlas": "",
+    "rect": [
+      137,
+      31,
+      224,
+      460
+    ],
+    "offset": [
+      -1.5,
+      -10.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

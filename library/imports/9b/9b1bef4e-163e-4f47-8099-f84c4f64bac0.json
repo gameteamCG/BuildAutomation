@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0000_washingutensils",
+    "texture": "c3ffd0c4-ac04-44d6-8d91-cc3e8c6d7999",
+    "atlas": "",
+    "rect": [
+      41,
+      54,
+      407,
+      420
+    ],
+    "offset": [
+      -6,
+      -13.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
