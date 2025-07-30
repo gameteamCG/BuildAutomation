@@ -27,7 +27,9 @@
           "500x500_0007_car.png",
           "500x500_0008_bicycle.png"
         ],
-        "correctAudioName": "bicycle.mp3",
+        "correctAudios": [
+          "bicycle.mp3"
+        ],
         "correctAnswerNum": "2"
       },
       {
@@ -42,7 +44,9 @@
           "500x500_0002_train.png",
           "500x500_0005_motorbike.png"
         ],
-        "correctAudioName": "train.mp3",
+        "correctAudios": [
+          "train.mp3"
+        ],
         "correctAnswerNum": "1"
       },
       {
@@ -57,7 +61,9 @@
           "500x500_0000_tractor.png",
           "500x500_0008_bicycle.png"
         ],
-        "correctAudioName": "tractor.mp3",
+        "correctAudios": [
+          "tractor.mp3"
+        ],
         "correctAnswerNum": "1"
       },
       {
@@ -72,7 +78,9 @@
           "500x500_0003_ship.png",
           "500x500_0006_helicopter.png"
         ],
-        "correctAudioName": "helicopter.mp3",
+        "correctAudios": [
+          "helicopter.mp3"
+        ],
         "correctAnswerNum": "2"
       },
       {
@@ -87,7 +95,9 @@
           "500x500_0005_motorbike.png",
           "500x500_0001_schoolbus.png"
         ],
-        "correctAudioName": "motorbike.mp3",
+        "correctAudios": [
+          "motorbike.mp3"
+        ],
         "correctAnswerNum": "1"
       },
       {
@@ -102,7 +112,9 @@
           "500x500_0001_schoolbus.png",
           "500x500_0001_aeroplane.png"
         ],
-        "correctAudioName": "aeroplane.mp3",
+        "correctAudios": [
+          "aeroplane.mp3"
+        ],
         "correctAnswerNum": "2"
       }
     ]
