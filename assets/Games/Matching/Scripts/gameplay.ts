@@ -1,5 +1,3 @@
-
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
 import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
@@ -17,7 +15,6 @@ export default class gameplay extends cc.Component {
     private tlc_font: cc.Font = null;
     @property(cc.Font)
     private supercub_font: cc.Font = null;
-
 
     @property(cc.AudioClip)
     private popSound: cc.AudioClip[] = [];
@@ -179,7 +176,7 @@ export default class gameplay extends cc.Component {
                     }
                     const spriteFrame = new cc.SpriteFrame(texture);
                     for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfLeftOptions; i++) {
-                        this.dropZones.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        // this.dropZones.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
                 });
             }
@@ -191,7 +188,7 @@ export default class gameplay extends cc.Component {
                     }
                     const spriteFrame = new cc.SpriteFrame(texture);
                     for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfRightOptions; i++) {
-                        this.optionsNode.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        // this.optionsNode.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
                 });
             }
@@ -243,14 +240,14 @@ export default class gameplay extends cc.Component {
             if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonLeftOptionImageName != "") {
                 this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonLeftOptionImageName, (spriteFrame) => {
                     for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfLeftOptions; i++) {
-                        this.dropZones.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        // this.dropZones.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
                 });
             }
             if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonRightOptionImageName != "") {
                 this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonRightOptionImageName, (spriteFrame) => {
                     for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfRightOptions; i++) {
-                        this.optionsNode.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        // this.optionsNode.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
                 });
 
@@ -454,7 +451,7 @@ export default class gameplay extends cc.Component {
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.optionsNode.getChildByName(i.toString()))
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(0.5, { scale: 1.2 }, { easing: "sineInOut" }).start();
                 if (i == this.optionsNode.children.length) {
                     this.scheduleOnce(() => {
                         this.PlayQuestionAudio();
@@ -588,26 +585,26 @@ export default class gameplay extends cc.Component {
         let _clone1: cc.Node = cc.instantiate(_node1);
         let _clone2: cc.Node = cc.instantiate(_node2);
         this.node.getChildByName("overlay").active = true;
-        _clone1.setParent(this.node.getChildByName("overlay"));
         _clone2.setParent(this.node.getChildByName("overlay"));
+        _clone1.setParent(this.node.getChildByName("overlay"));
         _node1.destroy();
         _node2.destroy();
         this.dropZones.active = false;
         this.optionsNode.active = false;
         cc.audioEngine.playEffect(this.positiveSound[0], false);
         cc.tween(_clone1).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1.children[1]).to(0.5, { width: 430, height: 430 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1.children[2]).to(0.5, { width: 430, height: 430 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -170, y: 0 }, { easing: "sineInOut" }).start();
 
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2.children[1]).to(0.5, { width: 430, height: 430 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2.children[2]).to(0.5, { width: 430, height: 430 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 170, y: 0, scale: 1 }, { easing: "sineInOut" }).start();
 
         this.scheduleOnce(() => {
             let audioNum: number = parseInt(_clone1.name);

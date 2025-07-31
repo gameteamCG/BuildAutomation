@@ -142,7 +142,7 @@ var gameplay = /** @class */ (function (_super) {
                     }
                     var spriteFrame = new cc.SpriteFrame(texture);
                     for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfLeftOptions; i++) {
-                        _this.dropZones.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        // this.dropZones.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
                 });
             }
@@ -154,7 +154,7 @@ var gameplay = /** @class */ (function (_super) {
                     }
                     var spriteFrame = new cc.SpriteFrame(texture);
                     for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfRightOptions; i++) {
-                        _this.optionsNode.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        // this.optionsNode.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
                 });
             }
@@ -217,14 +217,14 @@ var gameplay = /** @class */ (function (_super) {
             if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonLeftOptionImageName != "") {
                 this.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonLeftOptionImageName, function (spriteFrame) {
                     for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfLeftOptions; i++) {
-                        _this.dropZones.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        // this.dropZones.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
                 });
             }
             if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonRightOptionImageName != "") {
                 this.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonRightOptionImageName, function (spriteFrame) {
                     for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfRightOptions; i++) {
-                        _this.optionsNode.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        // this.optionsNode.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
                 });
             }
@@ -415,7 +415,7 @@ var gameplay = /** @class */ (function (_super) {
             this_6.scheduleOnce(function () {
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 cc.tween(_this.optionsNode.getChildByName(i.toString()))
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(0.5, { scale: 1.2 }, { easing: "sineInOut" }).start();
                 if (i == _this.optionsNode.children.length) {
                     _this.scheduleOnce(function () {
                         _this.PlayQuestionAudio();
@@ -549,25 +549,25 @@ var gameplay = /** @class */ (function (_super) {
         var _clone1 = cc.instantiate(_node1);
         var _clone2 = cc.instantiate(_node2);
         this.node.getChildByName("overlay").active = true;
-        _clone1.setParent(this.node.getChildByName("overlay"));
         _clone2.setParent(this.node.getChildByName("overlay"));
+        _clone1.setParent(this.node.getChildByName("overlay"));
         _node1.destroy();
         _node2.destroy();
         this.dropZones.active = false;
         this.optionsNode.active = false;
         cc.audioEngine.playEffect(this.positiveSound[0], false);
         cc.tween(_clone1).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1.children[1]).to(0.5, { width: 430, height: 430 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1.children[2]).to(0.5, { width: 430, height: 430 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -170, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2.children[1]).to(0.5, { width: 430, height: 430 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2.children[2]).to(0.5, { width: 430, height: 430 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 170, y: 0, scale: 1 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             var audioNum = parseInt(_clone1.name);
             audioNum -= 1;

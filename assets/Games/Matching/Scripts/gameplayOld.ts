@@ -1,6 +1,4 @@
-
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -228,9 +226,9 @@ export default class NewClass extends cc.Component {
                 });
 
             }
-            this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionImageName, (spriteFrame) => {
-                this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            });
+            // this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionImageName, (spriteFrame) => {
+            //     this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            // });
 
             for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfRightOptions; i++) {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isRightOptionText) {
@@ -252,7 +250,7 @@ export default class NewClass extends cc.Component {
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
         // this.setAnswerArray();
-        this.answerArray = [startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum];
+        // this.answerArray = [startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum];
         // this.OptionsLayout();
         this.callThirdObjectIn();
 
