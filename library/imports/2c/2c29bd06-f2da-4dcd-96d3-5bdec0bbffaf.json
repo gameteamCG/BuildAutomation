@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0003_takingbath",
+    "texture": "90838e47-5468-4074-b856-6d9a6d8b21e5",
+    "atlas": "",
+    "rect": [
+      50,
+      36,
+      409,
+      447
+    ],
+    "offset": [
+      4,
+      -9
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

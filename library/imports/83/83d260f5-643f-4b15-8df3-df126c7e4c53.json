@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bikeride",
+    "texture": "4f296582-bdb3-4f3f-a875-227630727b22",
+    "atlas": "",
+    "rect": [
+      64,
+      59,
+      357,
+      424
+    ],
+    "offset": [
+      -8,
+      -20.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
