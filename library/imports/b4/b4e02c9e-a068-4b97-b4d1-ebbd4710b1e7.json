@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cyc",
+    "texture": "e3652bfe-95f6-483a-bb06-40489845765a",
+    "atlas": "",
+    "rect": [
+      39,
+      118,
+      424,
+      265
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

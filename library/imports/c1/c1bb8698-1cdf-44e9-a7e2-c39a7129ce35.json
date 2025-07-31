@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wlk",
+    "texture": "84ea69c6-a84c-415f-911b-967f547dff9d",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      501,
+      499
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

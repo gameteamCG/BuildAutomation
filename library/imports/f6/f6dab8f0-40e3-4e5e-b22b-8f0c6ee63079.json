@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wind",
+    "texture": "93dc92e7-d2cb-4af3-afa7-c0272191a389",
+    "atlas": "",
+    "rect": [
+      11,
+      128,
+      479,
+      245
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rtyu",
+    "texture": "9cafbfd7-093c-47cf-ba0b-7f1ffbed35ee",
+    "atlas": "",
+    "rect": [
+      38,
+      118,
+      424,
+      265
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
