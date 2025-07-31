@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sounds at the park",
+    "texture": "bc16aec8-54dd-482c-aa15-cffcdd4c56b0",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      491,
+      191
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      498,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
