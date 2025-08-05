@@ -20,8 +20,8 @@
 			"NumberOfOptions": 2,
 			"Options": ["rob.png", "grandma.png"],
 			"ReiterationAudioName": "robbie.mp3",
-			"CorrectAudioName": "EXCEPTIONAL.mp3",
-			"WrongAudioName": "Oopsietryoncemore.mp3",
+			"CorrectAudioName": "positive_1.mp3",
+			"WrongAudioName": "negative_1.mp3",
 			"CorrectAnswer": "1"
 		},
 		{
@@ -35,8 +35,8 @@
 			"NumberOfOptions": 2,
 			"Options": ["zoo.png", "hospital.png"],
 			"ReiterationAudioName": "zoo.mp3",
-			"CorrectAudioName": "INCREDIBLE.mp3",
-			"WrongAudioName": "nevermind.mp3",
+			"CorrectAudioName": "positive_2.mp3",
+			"WrongAudioName": "negative_2.mp3",
 			"CorrectAnswer": "1"
 		},
 		{
@@ -50,8 +50,8 @@
 			"NumberOfOptions": 2,
 			"Options": ["d.png", "robbie.png"],
 			"ReiterationAudioName": "a3.mp3",
-			"CorrectAudioName": "MAGNIFICENT.mp3",
-			"WrongAudioName": "Oopsietryoncemore.mp3",
+			"CorrectAudioName": "positive_3.mp3",
+			"WrongAudioName": "negative_3.mp3",
 			"CorrectAnswer": "1"
 		},
 		{
@@ -65,8 +65,8 @@
 			"NumberOfOptions": 2,
 			"Options": ["eating.png", "washinghands.png"],
 			"ReiterationAudioName": "a4.mp3",
-			"CorrectAudioName": "GOODJOB.mp3",
-			"WrongAudioName": "ohoh.mp3",
+			"CorrectAudioName": "positive_4.mp3",
+			"WrongAudioName": "negative_4.mp3",
 			"CorrectAnswer": "2"
 		}
 	]
