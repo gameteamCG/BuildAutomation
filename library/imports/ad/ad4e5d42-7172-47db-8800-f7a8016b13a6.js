@@ -392,7 +392,7 @@ var NewClass = /** @class */ (function (_super) {
                 var objScale = 0;
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 if (StartGame_1.default.Instance.templateType == "SimpleTap") {
-                    objScale = 1;
+                    objScale = 0.6;
                 }
                 else if (StartGame_1.default.Instance.templateType == "TapToCollect") {
                     objScale = 0.5;
@@ -476,7 +476,7 @@ var NewClass = /** @class */ (function (_super) {
                 //console.log("answerArray : ", this.answerArray[0])
                 var hand = this.node.getChildByName("hand");
                 hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-                hand.setPosition(0, -70);
+                hand.setPosition(0, -250);
                 hand.setParentWithSamePos(this.node);
                 hand.getComponent(cc.Animation).play();
             }

@@ -443,7 +443,7 @@ export default class NewClass extends cc.Component {
                 let objScale: number = 0;
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 if (startGame.Instance.templateType == "SimpleTap") {
-                    objScale = 1;
+                    objScale = 0.6;
                 }
                 else if (startGame.Instance.templateType == "TapToCollect") {
                     objScale = 0.5;
@@ -523,7 +523,7 @@ export default class NewClass extends cc.Component {
                 //console.log("answerArray : ", this.answerArray[0])
                 let hand = this.node.getChildByName("hand");
                 hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-                hand.setPosition(0, -70);
+                hand.setPosition(0, -250);
                 hand.setParentWithSamePos(this.node);
                 hand.getComponent(cc.Animation).play();
             }
