@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "traffic_signal",
+    "texture": "05923e89-2192-469a-86e1-318fd210e578",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      648,
+      192
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      654,
+      209
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
