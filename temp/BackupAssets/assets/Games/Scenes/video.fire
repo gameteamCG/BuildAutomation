@@ -478,15 +478,9 @@
     "jaipuria_font": {
       "__uuid__": "91288d5e-fe60-4495-8686-44915bfd05b8"
     },
-    "podar_font": {
-      "__uuid__": "1b12501a-5127-457a-8e06-0ecd6c509621"
-    },
-    "tlc_font": {
-      "__uuid__": "9bd6c337-4f3c-42b2-9ac2-effc833609a2"
-    },
-    "supercub_font": {
-      "__uuid__": "a3ed727b-d7e5-49a6-89de-84365f6e7b27"
-    },
+    "podar_font": null,
+    "tlc_font": null,
+    "supercub_font": null,
     "positiveVO": [],
     "slider": {
       "__id__": 13
@@ -8226,8 +8220,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 676.93,
-      "height": 986.1
+      "width": 610.46,
+      "height": 988.66
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8372,7 +8366,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "positive_1",
+    "defaultAnimation": "positive_5",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -8383,13 +8377,13 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "positive_1",
+    "_animationName": "positive_5",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "886c8d86-929f-4179-8a1c-5491da1ba83d"
+      "__uuid__": "65f5d404-f306-4304-8a35-6f768798d0ad"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
