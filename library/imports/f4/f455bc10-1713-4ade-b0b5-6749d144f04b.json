@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "oil tank",
+    "texture": "96e00c4f-36bb-49a1-ba54-677a1ede98a2",
+    "atlas": "",
+    "rect": [
+      159,
+      90,
+      237,
+      324
+    ],
+    "offset": [
+      27,
+      -1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
