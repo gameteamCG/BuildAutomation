@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Tyrannosaurus",
+    "texture": "fe4442a3-0863-4d61-8ef5-6df4f49f0bdf",
+    "atlas": "",
+    "rect": [
+      18,
+      78,
+      393,
+      346
+    ],
+    "offset": [
+      -36,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

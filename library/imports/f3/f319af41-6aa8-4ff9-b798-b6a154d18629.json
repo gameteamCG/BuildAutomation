@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Dinosaur_shadow_matching",
+    "texture": "e3a0ae9d-e380-4dd1-add4-67e491130e4e",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      699,
+      191
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      705,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

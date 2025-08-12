@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stegosaurus_shadow",
+    "texture": "50ca4bc9-7b9b-4d61-921d-dfc268e6eed6",
+    "atlas": "",
+    "rect": [
+      59,
+      149,
+      421,
+      202
+    ],
+    "offset": [
+      19,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

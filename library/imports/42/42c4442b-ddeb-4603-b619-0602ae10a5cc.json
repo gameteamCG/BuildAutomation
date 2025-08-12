@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pterodactyl",
+    "texture": "2454467b-4ffa-49c8-83ab-601171883c83",
+    "atlas": "",
+    "rect": [
+      13,
+      117,
+      421,
+      266
+    ],
+    "offset": [
+      -27,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

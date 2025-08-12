@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ticeratop_shadow",
+    "texture": "9e6aaa7c-65e0-4de2-baf5-53cd5081e60c",
+    "atlas": "",
+    "rect": [
+      77,
+      111,
+      405,
+      278
+    ],
+    "offset": [
+      29,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

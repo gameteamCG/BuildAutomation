@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "parasaurolophus",
+    "texture": "0d25abec-93a5-457d-90cd-20314e5ba9d0",
+    "atlas": "",
+    "rect": [
+      16,
+      96,
+      403,
+      308
+    ],
+    "offset": [
+      -33,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
