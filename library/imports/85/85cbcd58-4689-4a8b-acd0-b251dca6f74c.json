@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Needs of Plants",
+    "texture": "711ccb8f-3659-4020-a83e-abe39d197368",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      764,
+      99
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      770,
+      116
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
