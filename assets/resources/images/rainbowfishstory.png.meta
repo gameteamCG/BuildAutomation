@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "17ac7c85-81ff-4b18-9945-9bbdcc428c73",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 595,
+  "height": 292,
+  "platformSettings": {},
+  "subMetas": {
+    "rainbowfishstory": {
+      "ver": "1.0.6",
+      "uuid": "5734e7f2-3176-4525-8730-0c7fed89af52",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "17ac7c85-81ff-4b18-9945-9bbdcc428c73",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 12.5,
+      "trimX": 0,
+      "trimY": 2,
+      "width": 595,
+      "height": 263,
+      "rawWidth": 595,
+      "rawHeight": 292,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
