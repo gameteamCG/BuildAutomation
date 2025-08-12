@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brush",
+    "texture": "ebcc40f6-30a6-499e-9d34-49b5ae34dd39",
+    "atlas": "",
+    "rect": [
+      65,
+      0,
+      370,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
