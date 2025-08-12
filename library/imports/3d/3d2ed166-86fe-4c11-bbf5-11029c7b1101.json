@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Medicalroom",
+    "texture": "9a7dc359-976c-48ca-991f-7df831d93492",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      246,
+      245
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      246,
+      245
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
