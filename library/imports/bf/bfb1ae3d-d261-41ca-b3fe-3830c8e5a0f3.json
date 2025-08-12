@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "woolC",
+    "texture": "1eb0b2fd-f2c4-48cb-b1ea-0464041d1e6e",
+    "atlas": "",
+    "rect": [
+      109,
+      81,
+      345,
+      312
+    ],
+    "offset": [
+      31,
+      13.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

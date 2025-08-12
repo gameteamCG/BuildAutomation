@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "octopus",
+    "texture": "8caf94b3-758d-4629-ac04-2060d289bf0b",
+    "atlas": "",
+    "rect": [
+      142,
+      33,
+      228,
+      357
+    ],
+    "offset": [
+      5.5,
+      39
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
