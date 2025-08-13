@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stool",
+    "texture": "1516c581-d627-4f01-8c16-fc3b5d30bd7c",
+    "atlas": "",
+    "rect": [
+      105,
+      33,
+      271,
+      427
+    ],
+    "offset": [
+      -10,
+      4
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
