@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "land_wateranimal",
+    "texture": "49d03840-1ae5-46b2-98ac-5dc41214ff4e",
+    "atlas": "",
+    "rect": [
+      3,
+      8,
+      760,
+      191
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      766,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
