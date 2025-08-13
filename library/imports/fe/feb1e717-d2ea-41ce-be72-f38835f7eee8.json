@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "soundreviewai",
+    "texture": "bf5c0d4e-45e7-4ee7-a618-6cfe53cf35c7",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      410,
+      97
+    ],
+    "offset": [
+      0.5,
+      1.5
+    ],
+    "originalSize": [
+      417,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

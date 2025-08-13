@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "bf5c0d4e-45e7-4ee7-a618-6cfe53cf35c7",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 417,
+  "height": 114,
+  "platformSettings": {},
+  "subMetas": {
+    "soundreviewai": {
+      "ver": "1.0.6",
+      "uuid": "feb1e717-d2ea-41ce-be72-f38835f7eee8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "bf5c0d4e-45e7-4ee7-a618-6cfe53cf35c7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 1.5,
+      "trimX": 4,
+      "trimY": 7,
+      "width": 410,
+      "height": 97,
+      "rawWidth": 417,
+      "rawHeight": 114,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
