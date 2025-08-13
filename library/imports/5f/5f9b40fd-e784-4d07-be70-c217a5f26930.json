@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0011_taxi",
+    "texture": "23376d08-863d-4e47-bbf9-05bfb51bc543",
+    "atlas": "",
+    "rect": [
+      11,
+      84,
+      226,
+      81
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
