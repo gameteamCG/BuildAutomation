@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Whoisthemaincharacterinthestory1",
+    "texture": "04e0a99d-aafb-4d48-84e0-d5c684c2814f",
+    "atlas": "",
+    "rect": [
+      53,
+      76,
+      386,
+      339
+    ],
+    "offset": [
+      -4,
+      4.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

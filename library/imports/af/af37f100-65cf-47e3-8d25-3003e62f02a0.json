@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "exercise",
+    "texture": "58f27ef2-501b-48c0-8d8a-033d2f3fb9ee",
+    "atlas": "",
+    "rect": [
+      9,
+      29,
+      232,
+      200
+    ],
+    "offset": [
+      0,
+      -4
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

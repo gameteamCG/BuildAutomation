@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Whatdidsheliketohavetoeat4",
+    "texture": "a6765164-941c-436e-8786-8d423e6377fb",
+    "atlas": "",
+    "rect": [
+      102,
+      76,
+      288,
+      319
+    ],
+    "offset": [
+      -4,
+      14.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

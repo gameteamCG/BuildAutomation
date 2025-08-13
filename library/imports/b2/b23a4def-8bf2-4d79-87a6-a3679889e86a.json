@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Harry",
+    "texture": "d30a6a5f-aee9-467c-bbe6-9b18bed6fbbc",
+    "atlas": "",
+    "rect": [
+      33,
+      97,
+      184,
+      75
+    ],
+    "offset": [
+      0,
+      -9.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

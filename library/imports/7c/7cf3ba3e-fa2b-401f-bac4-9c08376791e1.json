@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "WheredidEelasitwhilethesheepgrazed5",
+    "texture": "ca91c7c6-23dd-42cf-872d-9bcaf1f94484",
+    "atlas": "",
+    "rect": [
+      17,
+      76,
+      460,
+      339
+    ],
+    "offset": [
+      -3,
+      4.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

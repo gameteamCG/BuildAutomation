@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "howmanysheepdidEelahave3",
+    "texture": "004b00ef-70a1-4723-b79b-08052ecd487e",
+    "atlas": "",
+    "rect": [
+      75,
+      134,
+      333,
+      231
+    ],
+    "offset": [
+      -8.5,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
