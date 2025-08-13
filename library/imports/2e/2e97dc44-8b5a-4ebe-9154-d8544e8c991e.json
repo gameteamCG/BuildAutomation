@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "axeL5",
+    "texture": "2738867a-c220-4816-8d90-e5fd3f9dcbf4",
+    "atlas": "",
+    "rect": [
+      11,
+      33,
+      479,
+      452
+    ],
+    "offset": [
+      0.5,
+      -9
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
