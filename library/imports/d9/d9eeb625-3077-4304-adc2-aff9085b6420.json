@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Bell Pepper",
+    "texture": "796f7b8a-04e8-447d-b6d8-f3592eabe828",
+    "atlas": "",
+    "rect": [
+      103,
+      56,
+      294,
+      390
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
