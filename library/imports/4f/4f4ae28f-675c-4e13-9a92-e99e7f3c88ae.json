@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "walkie",
+    "texture": "04f14ad7-7ed0-400e-8441-86afc37f4aa7",
+    "atlas": "",
+    "rect": [
+      30,
+      19,
+      402,
+      473
+    ],
+    "offset": [
+      -19.5,
+      -5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

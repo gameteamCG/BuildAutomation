@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stethoscope",
+    "texture": "a4f14e81-3bbf-451c-85ff-bf5b335c2f30",
+    "atlas": "",
+    "rect": [
+      132,
+      85,
+      297,
+      331
+    ],
+    "offset": [
+      30.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
