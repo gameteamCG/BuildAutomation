@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "humpbackwhale",
+    "texture": "781480c0-a876-41d7-9b69-0c6720edbd24",
+    "atlas": "",
+    "rect": [
+      1,
+      65,
+      248,
+      125
+    ],
+    "offset": [
+      0,
+      -2.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
