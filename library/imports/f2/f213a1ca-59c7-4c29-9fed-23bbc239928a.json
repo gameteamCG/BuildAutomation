@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "soundie",
+    "texture": "f2427a17-23e4-42ae-a1be-467f1cc00a42",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      403,
+      97
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      410,
+      113
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
