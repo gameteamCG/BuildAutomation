@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shell",
+    "texture": "8408cffc-fb1e-4dc1-a14f-3da2727cc5e9",
+    "atlas": "",
+    "rect": [
+      75,
+      47,
+      351,
+      412
+    ],
+    "offset": [
+      0.5,
+      -3
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
