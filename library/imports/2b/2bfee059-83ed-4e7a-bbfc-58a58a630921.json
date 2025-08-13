@@ -1,0 +1,187 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "domestic animals_fs2_new_r257",
+      "totalLevel": "6",
+      "TitleImageName": "Asset134.png",
+      "introBgName": "playground.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Artboard1.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Solve the Puzzle",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "cow_part_001.png",
+          "cow_part_002.png",
+          "cow_part_003.png",
+          "cow_part_004.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "choose the correct name ",
+        "questionAudioName2": "",
+        "commonOptionImageName": "box2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "cow",
+          "lion"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "cow.mp3"
+      },
+      {
+        "questionText": "Solve the Puzzle",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "goat_part_001.png",
+          "goat_part_002.png",
+          "goat_part_003.png",
+          "goat_part_004.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "choose the correct name ",
+        "questionAudioName2": "",
+        "commonOptionImageName": "box2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "goat",
+          "hen"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "goat.mp3"
+      },
+      {
+        "questionText": "Solve the Puzzle",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "hen_part_001.png",
+          "hen_part_002.png",
+          "hen_part_003.png",
+          "hen_part_004.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "choose the correct name ",
+        "questionAudioName2": "",
+        "commonOptionImageName": "box2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "horse",
+          "hen"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "hen.mp3"
+      },
+      {
+        "questionText": "Solve the Puzzle",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "cat_part_001.png",
+          "cat_part_002.png",
+          "cat_part_003.png",
+          "cat_part_004.png"
+        ],
+        "correctAudioName": "INCREDIBLE.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "choose the correct name ",
+        "questionAudioName2": "",
+        "commonOptionImageName": "box2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "cat",
+          "fox"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "cat.mp3"
+      },
+      {
+        "questionText": "Solve the Puzzle",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "horse_part_001.png",
+          "horse_part_002.png",
+          "horse_part_003.png",
+          "horse_part_004.png"
+        ],
+        "correctAudioName": "GORGEOUSWORK.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "choose the correct name ",
+        "questionAudioName2": "",
+        "commonOptionImageName": "box2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "rabbit",
+          "horse"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "horse.mp3"
+      },
+      {
+        "questionText": "Solve the Puzzle",
+        "questionAudioName": "qq.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Artboard4.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "dog_part_001.png",
+          "dog_part_002.png",
+          "dog_part_003.png",
+          "dog_part_004.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "choose the correct name ",
+        "questionAudioName2": "",
+        "commonOptionImageName": "box2.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "dog",
+          "cat"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "dog.mp3"
+      }
+    ]
+  }
+}
