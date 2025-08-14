@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ppp",
+    "texture": "8359b0e9-4127-4c40-b4e8-4fa29416146a",
+    "atlas": "",
+    "rect": [
+      24,
+      8,
+      203,
+      233
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
