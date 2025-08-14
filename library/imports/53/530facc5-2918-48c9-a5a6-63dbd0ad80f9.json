@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "northG",
+    "texture": "f20c9ea0-a2ad-46d3-a93b-e79a6548c156",
+    "atlas": "",
+    "rect": [
+      86,
+      75,
+      330,
+      351
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
