@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rainbowfishstory",
+    "texture": "17ac7c85-81ff-4b18-9945-9bbdcc428c73",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      687,
+      192
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      693,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
