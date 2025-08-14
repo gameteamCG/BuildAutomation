@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "baingan",
+    "texture": "ad00284f-45cc-4e0d-b87c-6bad10d135c9",
+    "atlas": "",
+    "rect": [
+      52,
+      112,
+      368,
+      277
+    ],
+    "offset": [
+      -14.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
