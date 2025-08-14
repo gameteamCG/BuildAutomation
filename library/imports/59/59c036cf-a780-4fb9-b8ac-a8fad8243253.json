@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rtyui",
+    "texture": "faa74253-40d8-4bf1-b855-ea9bb56a8d67",
+    "atlas": "",
+    "rect": [
+      23,
+      118,
+      441,
+      231
+    ],
+    "offset": [
+      -7,
+      17
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

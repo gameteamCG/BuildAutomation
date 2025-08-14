@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sheila",
+    "texture": "e82df878-e2bb-476f-9afd-609cb138f4cc",
+    "atlas": "",
+    "rect": [
+      40,
+      94,
+      173,
+      55
+    ],
+    "offset": [
+      1,
+      4
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

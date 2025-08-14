@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cargo",
+    "texture": "a7b927eb-7400-409d-8428-3a689834880c",
+    "atlas": "",
+    "rect": [
+      45,
+      37,
+      161,
+      178
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

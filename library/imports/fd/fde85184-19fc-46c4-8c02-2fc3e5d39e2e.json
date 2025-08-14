@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bru",
+    "texture": "1f7fd40c-1e42-4286-a040-2d0d4fd0f67a",
+    "atlas": "",
+    "rect": [
+      94,
+      24,
+      63,
+      203
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pas",
+    "texture": "39a47a35-f25d-4a34-b29a-51404ddcd6d4",
+    "atlas": "",
+    "rect": [
+      100,
+      28,
+      52,
+      195
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

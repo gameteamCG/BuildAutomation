@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tow",
+    "texture": "9608e08c-797c-418f-93b2-a7ae0e4236f2",
+    "atlas": "",
+    "rect": [
+      35,
+      38,
+      180,
+      174
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
