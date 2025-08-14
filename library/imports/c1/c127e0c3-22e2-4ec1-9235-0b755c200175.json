@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Vegetable",
+      "totalLevel": "5",
+      "TitleImageName": "debuggingwithfruitsandvegetable.png",
+      "introBgName": "PLAYSCHOOL.png",
+      "bgmMusicName": "bgmcooking.mp3",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG.png",
+        "questionAudioName": "Selecttheodoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "a.png",
+          "grapes.png",
+          "pupkin.png"
+        ],
+        "optionsBg": [
+          "ab.png",
+          "grapes1.png",
+          "pukin1.png"
+        ],
+        "correctAudioName": "l4correct.mp3",
+        "wrongAudioName": "nu.mp3",
+        "reiterationAudioName": "pumpkin.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG.png",
+        "questionAudioName": "Selecttheodoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "b.png",
+          "o.png",
+          "onion.png"
+        ],
+        "optionsBg": [
+          "bananal.png",
+          "ob.png",
+          "onion1.png"
+        ],
+        "correctAudioName": "L5Correct.mp3",
+        "wrongAudioName": "no.mp3",
+        "reiterationAudioName": "onion.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG.png",
+        "questionAudioName": "Selecttheodoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "mango.png",
+          "capsicum.png",
+          "grapes.png"
+        ],
+        "optionsBg": [
+          "mango1.png",
+          "capsicum1.png",
+          "grapes1.png"
+        ],
+        "correctAudioName": "L8 Correct.mp3",
+        "wrongAudioName": "no.mp3",
+        "reiterationAudioName": "capsicum.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "BG.png",
+        "questionAudioName": "Selecttheodoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "pp.png",
+          "p.png",
+          "ppp.png"
+        ],
+        "optionsBg": [
+          ""
+        ],
+        "correctAudioName": "L1correct.mp3",
+        "wrongAudioName": "ns.mp3",
+        "reiterationAudioName": "potato.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "BG.png",
+        "questionAudioName": "Selecttheodoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "cc.png",
+          "b.png",
+          "g.png"
+        ],
+        "optionsBg": [
+          ""
+        ],
+        "correctAudioName": "l6correct.mp3",
+        "wrongAudioName": "ns.mp3",
+        "reiterationAudioName": "carrot.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
