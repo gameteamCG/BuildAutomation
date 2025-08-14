@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thorn",
+    "texture": "a0e6f12a-c9d3-4184-aa7c-15f1543100f7",
+    "atlas": "",
+    "rect": [
+      124,
+      0,
+      225,
+      501
+    ],
+    "offset": [
+      -14,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

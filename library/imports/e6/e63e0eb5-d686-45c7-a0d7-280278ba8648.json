@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Recap - digraph_1",
+    "texture": "d83a8885-3f74-4b47-869f-9df981fa557b",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      443,
+      97
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      449,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
