@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cry",
+    "texture": "5fe5931c-edd3-4fd2-aac5-f45e9a90e9e4",
+    "atlas": "",
+    "rect": [
+      73,
+      118,
+      105,
+      55
+    ],
+    "offset": [
+      0,
+      -20
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pant",
+    "texture": "c54f78c2-33bd-4611-baaf-93802c7ce47a",
+    "atlas": "",
+    "rect": [
+      40,
+      38,
+      171,
+      175
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
