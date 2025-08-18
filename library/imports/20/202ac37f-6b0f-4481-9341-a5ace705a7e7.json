@@ -17,21 +17,21 @@
       {
         "questionText": "breathing exercise",
         "questionImageName": "Asset1.png",
-        "questionAudioName": "jumbosaysletdosomebreathingexercisetakeadeepbreathintrytoholditinandbreatheoutnowletstrytodothis..mp3",
+        "questionAudioName": "Que.mp3",
         "isTimerNeeded": true,
         "timer": 20
       },
       {
         "questionText": "breathing exercise",
         "questionImageName": "Asset4.png",
-        "questionAudioName": "jumbosaysletdosomebreathingexercisetakeadeepbreathintrytoholditinandbreatheoutnowletstrytodothis..mp3",
+        "questionAudioName": "Que.mp3",
         "isTimerNeeded": true,
         "timer": 20
       },
       {
         "questionText": "breathing exercise",
         "questionImageName": "yogaboygirl.png",
-        "questionAudioName": "jumbosaysletdosomebreathingexercisetakeadeepbreathintrytoholditinandbreatheoutnowletstrytodothis..mp3",
+        "questionAudioName": "Que.mp3",
         "isTimerNeeded": true,
         "timer": 20
       }

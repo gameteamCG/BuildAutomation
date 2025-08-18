@@ -277,8 +277,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 2,
-      "height": 2
+      "width": 1921,
+      "height": 1081
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -339,8 +339,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1102,
-      "height": 234
+      "width": 647,
+      "height": 115
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -351,15 +351,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        180,
-        -19.863,
+        0,
+        -86.483,
         0,
         0,
         0,
         0,
         1,
-        0.6,
-        0.6,
+        1,
+        1,
         1
       ]
     },
@@ -391,7 +391,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "2efa56b5-4979-4505-8edd-e45608c27c8c"
+    },
     "_type": 0,
     "_sizeMode": 2,
     "_fillType": 0,
@@ -414,7 +416,7 @@
       "__id__": 5
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 9
@@ -868,7 +870,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "a23235d1-15db-4b95-8439-a2e005bfff91"
+      "__uuid__": "46dc2f11-1580-445f-b850-1f2feb2cc8e6"
     },
     "_type": 0,
     "_sizeMode": 2,
@@ -2711,8 +2713,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 427.07,
-      "height": 635.05
+      "width": 409.26,
+      "height": 351.22
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2723,7 +2725,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -370.424,
+        -1500,
         -371.865,
         0,
         0,
@@ -2763,7 +2765,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "idel",
+    "defaultAnimation": "idle",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -2774,13 +2776,13 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idel",
+    "_animationName": "idle",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "35a1fbba-6793-4626-8bc1-c578d901be74"
+      "__uuid__": "eb4ccf4d-b418-46ba-aed8-c52b005ae5a0"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,

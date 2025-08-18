@@ -1,16 +1,8 @@
 {
-  "title": "CocosGamesCG",
+  "title": "shruti_EYFS_Exploring_air_fs2_new_r510",
   "packageName": "org.cocos2d.demo",
   "startScene": "595fb15f-0b67-4d2d-b077-a605459a2ea5",
   "excludeScenes": [
-    "a26d19a2-fab0-493e-8e17-e9f78b7aed24",
-    "12f330c4-f7d0-4d91-802b-83041a222f72",
-    "77d4be9e-91d8-4398-b080-3490fcd7fd24",
-    "530b6563-5f15-4857-b66a-c97220d27929",
-    "12867b70-a9b5-4f04-903d-81f5f151d151",
-    "2e462422-3d0d-4d95-b221-842c74c887db",
-    "a559fd22-e32e-4cb4-9ae5-fda5e92ee355",
-    "a9a8d19e-083b-46f5-8084-2b5bbc362a4d",
     "ad0c8321-8aca-489f-8799-3a914615d4de",
     "7cd7cb8d-bf09-4440-8ed4-8c45bdf9377d"
   ],

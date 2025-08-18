@@ -29,33 +29,30 @@ var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.popSound = null;
         _this.star = null;
         _this.yeah = null;
         return _this;
     }
     NewClass.prototype.start = function () {
         var _this = this;
+        StartGame_1.default.Instance.jockey.x = -3700;
         console.log("showedScreen--Congratulations");
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 0;
         StartGame_1.default.Instance.jockey.getComponent(sp.Skeleton).setAnimation(0, "possitive6", true);
         this.scheduleOnce(function () {
-            cc.tween(_this.node.getChildByName("amazing")).to(0.5, { scale: 0.8, y: -100 }, { easing: "sineInOut" }).start();
-        }, 0.3);
-        this.scheduleOnce(function () {
             cc.audioEngine.playEffect(_this.star, false);
             cc.tween(_this.node.getChildByName("1"))
-                .to(0.5, { scale: 0.5 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.4 }, { easing: "sineInOut" }).start();
         }, 0.8);
         this.scheduleOnce(function () {
             cc.audioEngine.playEffect(_this.star, false);
             cc.tween(_this.node.getChildByName("2"))
-                .to(0.5, { scale: 0.4 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.3 }, { easing: "sineInOut" }).start();
         }, 1.3);
         this.scheduleOnce(function () {
             cc.audioEngine.playEffect(_this.star, false);
             cc.tween(_this.node.getChildByName("3"))
-                .to(0.5, { scale: 0.4 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.3 }, { easing: "sineInOut" }).start();
         }, 1.8);
         this.scheduleOnce(function () {
             cc.audioEngine.playEffect(_this.yeah, false);
@@ -66,9 +63,6 @@ var NewClass = /** @class */ (function (_super) {
             console.log("gameEnded--" + true);
         }, 2.5);
     };
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "popSound", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "star", void 0);

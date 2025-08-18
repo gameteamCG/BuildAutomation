@@ -1,5 +1,4 @@
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import WebView from "../../../Framework/WebView/Scripts/WebView";
 import globalVariables from "./globalVariables";
@@ -110,6 +109,7 @@ export default class NewClass extends cc.Component {
     }
 
     start() {
+        startGame.Instance.jockey.x = -370;
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1, false);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
         this.canTouch = true;
@@ -119,7 +119,7 @@ export default class NewClass extends cc.Component {
     }
 
     callOptionIn() {
-        startGame.Instance.jockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+        startGame.Instance.jockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         this.scheduleOnce(() => {
             cc.tween(this.node.getChildByName("questionPanel"))
                 .to(0.5, { y: 310 }, { easing: "sineInOut" }).start();
@@ -236,8 +236,7 @@ export default class NewClass extends cc.Component {
     }
 
     callJockey() {
-        let boolean: boolean[] = [false, true, false, true, true, true];
-        let anim: string[] = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
+        let anim: string[] = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
         let num = globalVariables.Instance.currentLevel % 6;
         if (num >= 6) {
             num -= 6;
@@ -245,12 +244,12 @@ export default class NewClass extends cc.Component {
                 num -= 6;
             }
         }
-
-        // startGame.Instance.jockey.setPosition[globalVariables.Instance.currentLevel % 2];
+        console.log("characterAppear--Puzzle")
         startGame.Instance.jockey.getComponent(sp.Skeleton).setAnimation(0, anim[num], false);
         cc.audioEngine.playEffect(this.positiveAudio[globalVariables.Instance.currentLevel % 6], false);
         this.scheduleOnce(() => {
-            startGame.Instance.jockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+            console.log("characterDisappear--Puzzle")
+            startGame.Instance.jockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             cc.tween(this.node.getChildByName("Option")).to(0.7, { x: 1400 }, { easing: "sineInOut" }).start();
             this.callNextLevel();
         }, startGame.Instance.jockey.getComponent(sp.Skeleton).findAnimation(anim[globalVariables.Instance.currentLevel % 6]).duration);

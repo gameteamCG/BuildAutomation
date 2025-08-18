@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var WebView_1 = require("../../../Framework/WebView/Scripts/WebView");
 var globalVariables_1 = require("./globalVariables");
@@ -127,6 +127,7 @@ var NewClass = /** @class */ (function (_super) {
         }
     };
     NewClass.prototype.start = function () {
+        StartGame_1.default.Instance.jockey.x = -370;
         ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1, false);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
         this.canTouch = true;
@@ -135,7 +136,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callOptionIn = function () {
         var _this = this;
-        StartGame_1.default.Instance.jockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+        StartGame_1.default.Instance.jockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         this.scheduleOnce(function () {
             cc.tween(_this.node.getChildByName("questionPanel"))
                 .to(0.5, { y: 310 }, { easing: "sineInOut" }).start();
@@ -250,8 +251,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callJockey = function () {
         var _this = this;
-        var boolean = [false, true, false, true, true, true];
-        var anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
+        var anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
         var num = globalVariables_1.default.Instance.currentLevel % 6;
         if (num >= 6) {
             num -= 6;
@@ -259,11 +259,12 @@ var NewClass = /** @class */ (function (_super) {
                 num -= 6;
             }
         }
-        // startGame.Instance.jockey.setPosition[globalVariables.Instance.currentLevel % 2];
+        console.log("characterAppear--Puzzle");
         StartGame_1.default.Instance.jockey.getComponent(sp.Skeleton).setAnimation(0, anim[num], false);
         cc.audioEngine.playEffect(this.positiveAudio[globalVariables_1.default.Instance.currentLevel % 6], false);
         this.scheduleOnce(function () {
-            StartGame_1.default.Instance.jockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+            console.log("characterDisappear--Puzzle");
+            StartGame_1.default.Instance.jockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             cc.tween(_this.node.getChildByName("Option")).to(0.7, { x: 1400 }, { easing: "sineInOut" }).start();
             _this.callNextLevel();
         }, StartGame_1.default.Instance.jockey.getComponent(sp.Skeleton).findAnimation(anim[globalVariables_1.default.Instance.currentLevel % 6]).duration);

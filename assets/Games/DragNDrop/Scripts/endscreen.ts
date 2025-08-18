@@ -7,38 +7,32 @@ const { ccclass, property } = cc._decorator;
 export default class NewClass extends cc.Component {
 
     @property(cc.AudioClip)
-    private popSound: cc.AudioClip = null;
-
-    @property(cc.AudioClip)
     private star: cc.AudioClip = null;
 
     @property(cc.AudioClip)
     private yeah: cc.AudioClip = null;
 
     start() {
+        startGame.Instance.jockey.x = -3700
         console.log("showedScreen--Congratulations");
         startGame.Instance.node.getChildByName("progress").opacity = 0;
         startGame.Instance.jockey.getComponent(sp.Skeleton).setAnimation(0, "possitive6", true);
         this.scheduleOnce(() => {
-            cc.tween(this.node.getChildByName("amazing")).to(0.5, { scale: 0.8, y: -100 }, { easing: "sineInOut" }).start();
-        }, 0.3);
-
-        this.scheduleOnce(() => {
             cc.audioEngine.playEffect(this.star, false)
             cc.tween(this.node.getChildByName("1"))
-                .to(0.5, { scale: 0.5 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.4 }, { easing: "sineInOut" }).start();
         }, 0.8);
 
         this.scheduleOnce(() => {
             cc.audioEngine.playEffect(this.star, false)
             cc.tween(this.node.getChildByName("2"))
-                .to(0.5, { scale: 0.4 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.3 }, { easing: "sineInOut" }).start();
         }, 1.3);
 
         this.scheduleOnce(() => {
             cc.audioEngine.playEffect(this.star, false)
             cc.tween(this.node.getChildByName("3"))
-                .to(0.5, { scale: 0.4 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.3 }, { easing: "sineInOut" }).start();
         }, 1.8);
         this.scheduleOnce(() => {
             cc.audioEngine.playEffect(this.yeah, false)

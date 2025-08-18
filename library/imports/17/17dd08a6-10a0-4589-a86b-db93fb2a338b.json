@@ -393,7 +393,7 @@
       "__uuid__": "7385fc8d-3be7-40e8-b633-97fa218c85b6"
     },
     "_type": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -916,7 +916,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 48.61,
+      "width": 24.77,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -929,7 +929,7 @@
       "ctor": "Float64Array",
       "array": [
         1.608,
-        -10.45,
+        -4.449999999999999,
         0,
         0,
         0,
@@ -974,7 +974,7 @@
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "ef36cc71-e942-4c04-a586-db66bb6c175b"
+      "__uuid__": "451829c3-0e54-4a72-a8a7-f31acd85ca12"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -1732,8 +1732,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 480,
-      "height": 100
+      "width": 341.5,
+      "height": 88.2
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1784,13 +1784,13 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "dance like peacock",
-    "_N$string": "dance like peacock",
-    "_fontSize": 40,
+    "_string": "breathing exercise",
+    "_N$string": "breathing exercise",
+    "_fontSize": 50,
     "_lineHeight": 70,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "ef36cc71-e942-4c04-a586-db66bb6c175b"
+      "__uuid__": "451829c3-0e54-4a72-a8a7-f31acd85ca12"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -1800,7 +1800,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "10dpp0/2ZK06rJ9QeZr8nQ"
   },
@@ -2054,22 +2054,22 @@
     },
     "positiveAudio": [
       {
-        "__uuid__": "bb49b2f9-640a-4585-9812-1b61fb4f0efa"
+        "__uuid__": "e1e3b71c-57dc-420e-956d-c077609f6ec4"
       },
       {
-        "__uuid__": "04f0e484-fe26-4cff-bc24-92f7a1fd7a24"
+        "__uuid__": "8c512630-e4c6-4214-aff3-4e723f136e70"
       },
       {
-        "__uuid__": "1d7fe1d9-9433-48a7-921f-7b526c14f565"
+        "__uuid__": "6ad51de2-5622-424e-acba-641e7a608128"
       },
       {
-        "__uuid__": "4272b763-8dcd-4b29-94eb-4b00a903af39"
+        "__uuid__": "8db289a8-fb35-4b98-b1c3-643d52d13f5b"
       },
       {
-        "__uuid__": "ec790066-1b6b-4d4b-b6b9-9bb433e08d37"
+        "__uuid__": "213ed287-e28a-4a38-8775-6a3ec7a0fd5c"
       },
       {
-        "__uuid__": "dbcc3f80-1abc-40c7-8f70-322cd0a75cf4"
+        "__uuid__": "918648c1-d024-464a-971e-eaad99aef827"
       }
     ],
     "_id": "097zFx8pBB1KyyGQ4SE6R2"
