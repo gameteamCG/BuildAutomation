@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "moatamoti",
+    "texture": "485e73ca-a98f-4ba1-b89a-2258ecd1f2db",
+    "atlas": "",
+    "rect": [
+      20,
+      144,
+      306,
+      55
+    ],
+    "offset": [
+      -2.5,
+      4
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

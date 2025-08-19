@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shi",
+    "texture": "f0961ae1-b2e4-4593-b012-afa49d011d81",
+    "atlas": "",
+    "rect": [
+      102,
+      139,
+      149,
+      96
+    ],
+    "offset": [
+      1,
+      -11.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

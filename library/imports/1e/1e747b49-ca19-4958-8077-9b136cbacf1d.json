@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "trainzz",
+    "texture": "05e59259-1cd1-49e2-9eec-22146bb72c73",
+    "atlas": "",
+    "rect": [
+      80,
+      139,
+      192,
+      70
+    ],
+    "offset": [
+      0.5,
+      1.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
