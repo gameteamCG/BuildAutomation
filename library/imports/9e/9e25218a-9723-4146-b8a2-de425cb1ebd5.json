@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hos",
+    "texture": "66d1bc32-14c8-4e35-b4dd-40d9956f9c8e",
+    "atlas": "",
+    "rect": [
+      32,
+      161,
+      434,
+      203
+    ],
+    "offset": [
+      -1.5,
+      -12
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

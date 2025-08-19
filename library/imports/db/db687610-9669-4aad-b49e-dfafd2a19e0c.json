@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thulla",
+    "texture": "e1882967-7ee1-49e8-8453-d5aa8f6ca24f",
+    "atlas": "",
+    "rect": [
+      173,
+      48,
+      125,
+      392
+    ],
+    "offset": [
+      -15,
+      6.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

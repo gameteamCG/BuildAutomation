@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "teac",
+    "texture": "d83a9b8d-0a29-4998-9a6b-b03b320951a2",
+    "atlas": "",
+    "rect": [
+      165,
+      63,
+      171,
+      391
+    ],
+    "offset": [
+      0,
+      -8
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
