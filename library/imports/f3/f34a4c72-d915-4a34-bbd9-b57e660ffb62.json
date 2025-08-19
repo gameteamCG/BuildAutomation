@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "starwa",
+    "texture": "58f1fb85-8a92-4cca-a68f-912c29b7be54",
+    "atlas": "",
+    "rect": [
+      92,
+      13,
+      317,
+      475
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
