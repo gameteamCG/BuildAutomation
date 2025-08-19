@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Mesuring capacity_Grade 2 (Maths)_R11_T2",
+      "totalLevel": "8",
+      "TitleImageName": "title.png",
+      "introBgName": "Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "gamebg.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "Measuring capacity",
+        "questionImageName": "L1.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset3.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "130 ml",
+          "330 ml"
+        ],
+        "correctAudioName": "1.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Measuring capacity",
+        "questionImageName": "L2.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset3.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "550 ml",
+          "350 ml"
+        ],
+        "correctAudioName": "2.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Mesuring capacity",
+        "questionImageName": "L3.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset3.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "420 ml",
+          "240 ml"
+        ],
+        "correctAudioName": "3.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Measuring capacity",
+        "questionImageName": "L4.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset3.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "150 ml",
+          "50 ml"
+        ],
+        "correctAudioName": "4.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Measuring capacity",
+        "questionImageName": "L5.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset3.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "400 ml",
+          "200 ml"
+        ],
+        "correctAudioName": "5.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Measuring capacity",
+        "questionImageName": "L6.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset3.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500 ml",
+          "200 ml"
+        ],
+        "correctAudioName": "6.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Measuring capacity",
+        "questionImageName": "L7.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset3.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "100 ml",
+          "120 ml"
+        ],
+        "correctAudioName": "7.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Measuring capacity",
+        "questionImageName": "L8.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset3.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "100 ml",
+          "300 ml"
+        ],
+        "correctAudioName": "8.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
