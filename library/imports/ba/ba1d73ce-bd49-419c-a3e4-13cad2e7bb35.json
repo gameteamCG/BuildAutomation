@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sound ch (1)",
+    "texture": "e7333543-bd60-4c3c-8be7-fc875e6d5f2b",
+    "atlas": "",
+    "rect": [
+      3,
+      5,
+      440,
+      97
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      446,
+      110
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

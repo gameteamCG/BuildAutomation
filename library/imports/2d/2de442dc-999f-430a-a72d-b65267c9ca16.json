@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "donut",
+    "texture": "97776ec6-9485-48b4-8a0e-ffe331bc9951",
+    "atlas": "",
+    "rect": [
+      46,
+      62,
+      133,
+      133
+    ],
+    "offset": [
+      -12.5,
+      -3.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

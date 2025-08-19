@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chop",
+    "texture": "bed6b3c2-63d6-45bd-aa93-71c4bc2aed0c",
+    "atlas": "",
+    "rect": [
+      9,
+      34,
+      234,
+      182
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
