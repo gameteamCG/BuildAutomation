@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ovslvsl",
+    "texture": "afb2aeb5-419f-493f-b077-f220a68d56ff",
+    "atlas": "",
+    "rect": [
+      121,
+      182,
+      203,
+      136
+    ],
+    "offset": [
+      -28,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

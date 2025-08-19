@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rtmnz",
+    "texture": "da3eb45e-179a-4dd8-b117-5dcfcf89784a",
+    "atlas": "",
+    "rect": [
+      115,
+      167,
+      229,
+      154
+    ],
+    "offset": [
+      -21,
+      6.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

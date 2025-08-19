@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wergbvccytr9",
+    "texture": "80d103bc-13de-4528-90ff-01947b8aad92",
+    "atlas": "",
+    "rect": [
+      72,
+      219,
+      248,
+      124
+    ],
+    "offset": [
+      -54.5,
+      -30.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "weor88",
+    "texture": "c9c88fc4-3413-41eb-a508-732b018d3502",
+    "atlas": "",
+    "rect": [
+      131,
+      187,
+      217,
+      131
+    ],
+    "offset": [
+      -11,
+      -2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

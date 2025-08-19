@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "edxk",
+    "texture": "70c7753e-8561-4e68-86ed-b42f911ed9be",
+    "atlas": "",
+    "rect": [
+      18,
+      237,
+      366,
+      127
+    ],
+    "offset": [
+      -49.5,
+      -50
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

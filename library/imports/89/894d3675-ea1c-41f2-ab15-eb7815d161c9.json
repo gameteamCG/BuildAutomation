@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "faefaf",
+    "texture": "defad4ac-080e-41ed-96cc-db9698060027",
+    "atlas": "",
+    "rect": [
+      123,
+      201,
+      207,
+      106
+    ],
+    "offset": [
+      -24,
+      -3.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

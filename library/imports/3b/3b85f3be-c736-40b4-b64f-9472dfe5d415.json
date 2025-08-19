@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "esio",
+    "texture": "22351a91-e1d8-48fa-922b-85b7e5569531",
+    "atlas": "",
+    "rect": [
+      143,
+      151,
+      166,
+      210
+    ],
+    "offset": [
+      -24.5,
+      -5.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

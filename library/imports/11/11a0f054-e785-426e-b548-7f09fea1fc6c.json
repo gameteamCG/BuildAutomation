@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wertbv2756",
+    "texture": "88bf5e0a-1328-474a-b986-30145f1a6172",
+    "atlas": "",
+    "rect": [
+      20,
+      208,
+      343,
+      127
+    ],
+    "offset": [
+      -59,
+      -21
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

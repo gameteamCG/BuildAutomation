@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "evs",
+    "texture": "a8a4863e-e51c-4f5c-9d9d-3c3e04080d2e",
+    "atlas": "",
+    "rect": [
+      23,
+      218,
+      327,
+      126
+    ],
+    "offset": [
+      -64,
+      -30.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
