@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lathi",
+    "texture": "4f04b351-107d-4842-b81d-ba02861c5cce",
+    "atlas": "",
+    "rect": [
+      73,
+      73,
+      327,
+      328
+    ],
+    "offset": [
+      -14,
+      13.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
