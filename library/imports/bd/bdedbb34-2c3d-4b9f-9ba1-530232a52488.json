@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lil",
+    "texture": "1f7f8de0-bf3d-4412-a53e-7e3337127a25",
+    "atlas": "",
+    "rect": [
+      71,
+      115,
+      109,
+      35
+    ],
+    "offset": [
+      0,
+      -7.5
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

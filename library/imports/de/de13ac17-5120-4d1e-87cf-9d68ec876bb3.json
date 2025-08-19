@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nandu",
+    "texture": "7b43275d-5e4f-40f9-8ca2-389a6b867ab7",
+    "atlas": "",
+    "rect": [
+      93,
+      6,
+      65,
+      239
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

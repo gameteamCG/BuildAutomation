@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "thumn",
+    "texture": "de3afbea-b472-4d8f-93d6-f2384d2c0aa5",
+    "atlas": "",
+    "rect": [
+      14,
+      106,
+      223,
+      35
+    ],
+    "offset": [
+      0,
+      2
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
