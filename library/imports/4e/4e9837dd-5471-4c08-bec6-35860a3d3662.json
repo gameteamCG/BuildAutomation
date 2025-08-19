@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kebaros",
+    "texture": "8e68e121-0002-47a1-8539-9f32470a93e9",
+    "atlas": "",
+    "rect": [
+      13,
+      2,
+      223,
+      247
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
