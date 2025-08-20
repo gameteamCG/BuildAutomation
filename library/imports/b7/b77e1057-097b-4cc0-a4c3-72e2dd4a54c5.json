@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Slanting_q_img",
+    "texture": "177f2bd5-e529-4f28-90e5-a943a0dab49f",
+    "atlas": "",
+    "rect": [
+      9,
+      75,
+      284,
+      151
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

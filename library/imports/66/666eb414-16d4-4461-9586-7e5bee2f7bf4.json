@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "curved_q_img",
+    "texture": "b7279e09-e022-4b55-9af0-d11346b54d83",
+    "atlas": "",
+    "rect": [
+      9,
+      75,
+      284,
+      151
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

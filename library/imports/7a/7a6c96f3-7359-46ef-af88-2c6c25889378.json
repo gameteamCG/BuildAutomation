@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tv_remote",
+    "texture": "f4c84a3a-a64d-4fd7-aae6-c1b4ec05b5f5",
+    "atlas": "",
+    "rect": [
+      66,
+      206,
+      369,
+      90
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

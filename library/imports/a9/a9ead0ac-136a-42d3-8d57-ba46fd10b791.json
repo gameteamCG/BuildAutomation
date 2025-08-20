@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flagpole",
+    "texture": "dc308079-6208-45f1-a629-88258cf56c92",
+    "atlas": "",
+    "rect": [
+      219,
+      69,
+      63,
+      363
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

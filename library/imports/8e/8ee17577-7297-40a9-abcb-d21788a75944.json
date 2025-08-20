@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "standing_q_img",
+    "texture": "ca9dbaf6-49b9-4815-8a2f-6b487152cc77",
+    "atlas": "",
+    "rect": [
+      9,
+      75,
+      284,
+      151
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
