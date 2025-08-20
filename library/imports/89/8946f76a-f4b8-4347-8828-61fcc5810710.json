@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kni",
+    "texture": "48bb07ae-a0b8-4c91-ac07-e857e6ba28c2",
+    "atlas": "",
+    "rect": [
+      112,
+      3,
+      28,
+      243
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

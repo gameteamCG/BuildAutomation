@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chintu",
+    "texture": "5523b486-4369-44aa-9b62-b84eff7ed69f",
+    "atlas": "",
+    "rect": [
+      17,
+      92,
+      218,
+      62
+    ],
+    "offset": [
+      0.5,
+      2
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

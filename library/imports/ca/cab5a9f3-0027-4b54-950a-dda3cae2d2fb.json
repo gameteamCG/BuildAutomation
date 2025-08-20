@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sal",
+    "texture": "3902e671-9bae-4cd2-8617-ffc9381aee14",
+    "atlas": "",
+    "rect": [
+      4,
+      48,
+      243,
+      158
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
