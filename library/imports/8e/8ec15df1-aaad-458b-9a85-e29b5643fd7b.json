@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "furfir",
+    "texture": "df490ac4-07ee-475c-bafb-1962d645dd28",
+    "atlas": "",
+    "rect": [
+      146,
+      67,
+      184,
+      381
+    ],
+    "offset": [
+      -12.5,
+      -7
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

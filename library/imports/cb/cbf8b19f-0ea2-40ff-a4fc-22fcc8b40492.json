@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "polsta",
+    "texture": "043b5142-4a7f-4e83-bfbc-81538b89f701",
+    "atlas": "",
+    "rect": [
+      53,
+      118,
+      393,
+      276
+    ],
+    "offset": [
+      -1,
+      -5.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
