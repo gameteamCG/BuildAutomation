@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "metal",
+    "texture": "f9ac234c-8e47-4929-946f-50792d439acf",
+    "atlas": "",
+    "rect": [
+      7,
+      112,
+      237,
+      126
+    ],
+    "offset": [
+      0,
+      -50
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

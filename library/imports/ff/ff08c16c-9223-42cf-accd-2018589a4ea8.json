@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tail",
+    "texture": "e11d3ab6-f03e-4823-a75e-886bbc6c7180",
+    "atlas": "",
+    "rect": [
+      22,
+      27,
+      218,
+      211
+    ],
+    "offset": [
+      6,
+      -7.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
