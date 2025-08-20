@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bur",
+    "texture": "b6de60c9-e6b2-4c49-b1ca-a3ca4798bcf1",
+    "atlas": "",
+    "rect": [
+      3,
+      33,
+      243,
+      184
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

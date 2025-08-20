@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eare",
+    "texture": "786fd1cf-f5d2-4433-bd45-f83d850ace1b",
+    "atlas": "",
+    "rect": [
+      32,
+      15,
+      183,
+      221
+    ],
+    "offset": [
+      -1.5,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

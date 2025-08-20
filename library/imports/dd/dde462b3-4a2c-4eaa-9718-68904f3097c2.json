@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "phew",
+    "texture": "d14420b8-364b-4a5c-a834-0a433ba1d41c",
+    "atlas": "",
+    "rect": [
+      9,
+      74,
+      232,
+      85
+    ],
+    "offset": [
+      0,
+      9
+    ],
+    "originalSize": [
+      250,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

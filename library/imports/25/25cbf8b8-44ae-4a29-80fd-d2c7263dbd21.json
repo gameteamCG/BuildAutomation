@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chow",
+    "texture": "a45c4a5b-de3b-475e-8e84-922a77603bde",
+    "atlas": "",
+    "rect": [
+      5,
+      48,
+      240,
+      154
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
