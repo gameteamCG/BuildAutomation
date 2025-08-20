@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "2pine",
+    "texture": "8b41fba9-e0ea-49f9-91ea-bbe343d7c68a",
+    "atlas": "",
+    "rect": [
+      22,
+      29,
+      164,
+      138
+    ],
+    "offset": [
+      3.5,
+      2.5
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

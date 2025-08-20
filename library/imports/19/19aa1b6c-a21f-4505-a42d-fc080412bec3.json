@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "berri",
+    "texture": "6769bd33-22e9-4559-85e1-8ca44b022a4d",
+    "atlas": "",
+    "rect": [
+      28,
+      8,
+      154,
+      186
+    ],
+    "offset": [
+      4.5,
+      -0.5
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

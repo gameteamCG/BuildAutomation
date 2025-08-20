@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "waterme",
+    "texture": "4ca54a50-d071-4e66-b23c-c4db2b874406",
+    "atlas": "",
+    "rect": [
+      42,
+      17,
+      109,
+      145
+    ],
+    "offset": [
+      -4,
+      11
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "newstre",
+    "texture": "007bf0b9-368d-405f-8e71-071076343de9",
+    "atlas": "",
+    "rect": [
+      1,
+      27,
+      247,
+      196
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greenapp",
+    "texture": "d93cf926-cbc2-416a-b6e0-5d10c5c2a3e0",
+    "atlas": "",
+    "rect": [
+      9,
+      38,
+      180,
+      118
+    ],
+    "offset": [
+      -1.5,
+      3.5
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

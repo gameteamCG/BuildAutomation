@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ora",
+    "texture": "9d7444ce-5006-410a-9724-6c6a017a43e4",
+    "atlas": "",
+    "rect": [
+      16,
+      5,
+      170,
+      190
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
