@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "uoat",
+    "texture": "ab235ce7-867d-4e66-93aa-4ee2fac27de5",
+    "atlas": "",
+    "rect": [
+      66,
+      104,
+      118,
+      45
+    ],
+    "offset": [
+      -0.5,
+      -1
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

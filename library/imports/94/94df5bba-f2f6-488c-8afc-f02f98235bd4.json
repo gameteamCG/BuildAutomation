@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "coal",
+    "texture": "a2146b05-2296-47ba-a02a-087d76b7fb6b",
+    "atlas": "",
+    "rect": [
+      45,
+      95,
+      151,
+      102
+    ],
+    "offset": [
+      -5,
+      -20.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

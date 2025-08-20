@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "roat",
+    "texture": "1993d8e5-4088-4dda-87c1-8959c1f21d2a",
+    "atlas": "",
+    "rect": [
+      69,
+      102,
+      116,
+      45
+    ],
+    "offset": [
+      1.5,
+      1
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

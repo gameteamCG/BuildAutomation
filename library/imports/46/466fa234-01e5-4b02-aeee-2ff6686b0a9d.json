@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "handwas",
+    "texture": "f9696465-99e7-4a0c-9982-8a8a82a36680",
+    "atlas": "",
+    "rect": [
+      96,
+      42,
+      61,
+      162
+    ],
+    "offset": [
+      1,
+      2.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

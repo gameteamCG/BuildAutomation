@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chocl",
+    "texture": "fa5aa341-ef69-4ab2-b7a8-517b7b5f2d33",
+    "atlas": "",
+    "rect": [
+      55,
+      93,
+      156,
+      94
+    ],
+    "offset": [
+      7.5,
+      -14.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

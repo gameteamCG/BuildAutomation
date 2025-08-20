@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toot",
+    "texture": "4c8bf329-7bd4-4284-b159-354bda9c494c",
+    "atlas": "",
+    "rect": [
+      71,
+      104,
+      111,
+      44
+    ],
+    "offset": [
+      1,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

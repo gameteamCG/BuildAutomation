@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "truck",
+    "texture": "28470f1f-42db-45be-baea-1ffc3688b063",
+    "atlas": "",
+    "rect": [
+      32,
+      65,
+      191,
+      113
+    ],
+    "offset": [
+      2,
+      4
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

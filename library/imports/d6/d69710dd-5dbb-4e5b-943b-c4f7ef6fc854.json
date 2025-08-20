@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "choc",
+    "texture": "d9fde152-96e7-4832-af54-61b66e142209",
+    "atlas": "",
+    "rect": [
+      31,
+      81,
+      184,
+      105
+    ],
+    "offset": [
+      -2.5,
+      -8
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
