@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "robotR",
+    "texture": "59eae41f-a8ad-479a-9ac9-0dbf43305626",
+    "atlas": "",
+    "rect": [
+      118,
+      62,
+      208,
+      360
+    ],
+    "offset": [
+      -28.5,
+      8.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
