@@ -1,0 +1,179 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "sound ai_fs2_phonics_r80",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Sailorstory.mp4",
+      "TitleImageName": "picturetalkai.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "8"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "question1.png",
+        "QuestionAudioName": "1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "chef.png",
+          "farmer.png",
+          "pilot.png",
+          "sailor.png"
+        ],
+        "ReiterationAudioName": "sailorvo.mp3",
+        "CorrectAudioName": "L2Correct.mp3",
+        "WrongAudioName": "ns.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "question2.png",
+        "QuestionAudioName": "2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "dance.png",
+          "sailed.png",
+          "play.png",
+          "sing.png"
+        ],
+        "ReiterationAudioName": "sailboat1.mp3",
+        "CorrectAudioName": "L8Correct.mp3",
+        "WrongAudioName": "no.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "question3.png",
+        "QuestionAudioName": "3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "dragon.png",
+          "fish.png",
+          "lion.png",
+          "bird.png"
+        ],
+        "ReiterationAudioName": "anislandwithadragon.mp3",
+        "CorrectAudioName": "L7Correct.mp3",
+        "WrongAudioName": "nu.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "question4.png",
+        "QuestionAudioName": "4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "car.png",
+          "lighthouse.png",
+          "plane.png",
+          "sailboat.png"
+        ],
+        "ReiterationAudioName": "sailboat1.mp3",
+        "CorrectAudioName": "L2Correct.mp3",
+        "WrongAudioName": "nu.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "question5.png",
+        "QuestionAudioName": "5.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "nest.png",
+          "rest.png",
+          "waited.png",
+          "stop.png"
+        ],
+        "ReiterationAudioName": "waited.mp3",
+        "CorrectAudioName": "l6correct.mp3",
+        "WrongAudioName": "ns.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "question6.png",
+        "QuestionAudioName": "6.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "bicycle.png",
+          "sailboat.png",
+          "car.png",
+          "ship.png"
+        ],
+        "ReiterationAudioName": "sailboat1.mp3",
+        "CorrectAudioName": "l6correct.mp3",
+        "WrongAudioName": "ns.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "question7.png",
+        "QuestionAudioName": "7.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "metal.png",
+          "pllastic.png",
+          "paint.png",
+          "wood.png"
+        ],
+        "ReiterationAudioName": "paint.mp3",
+        "CorrectAudioName": "L5Correct.mp3",
+        "WrongAudioName": "nu.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "question8.png",
+        "QuestionAudioName": "8.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "dolphin.png",
+          "tail.png",
+          "frog.png",
+          "fish.png"
+        ],
+        "ReiterationAudioName": "tail.mp3",
+        "CorrectAudioName": "L9Correct.mp3",
+        "WrongAudioName": "no.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
