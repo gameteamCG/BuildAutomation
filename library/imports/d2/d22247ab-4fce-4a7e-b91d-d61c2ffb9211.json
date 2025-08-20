@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tinu",
+    "texture": "33cb1469-0d06-443b-b787-a858017ac77b",
+    "atlas": "",
+    "rect": [
+      39,
+      92,
+      174,
+      62
+    ],
+    "offset": [
+      0.5,
+      2
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

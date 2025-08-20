@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spoo",
+    "texture": "825fa488-2702-498e-b9ed-dd46d4997bef",
+    "atlas": "",
+    "rect": [
+      98,
+      4,
+      55,
+      242
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

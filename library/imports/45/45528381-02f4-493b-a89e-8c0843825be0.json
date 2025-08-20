@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "noo",
+    "texture": "9a4198ed-389e-4660-8e50-c2392a1c38f4",
+    "atlas": "",
+    "rect": [
+      5,
+      49,
+      241,
+      153
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
