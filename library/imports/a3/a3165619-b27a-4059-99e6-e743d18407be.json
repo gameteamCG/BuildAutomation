@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "biscuk",
+    "texture": "5e8f9de1-c9cd-4cc9-b647-fd27cb2a8b12",
+    "atlas": "",
+    "rect": [
+      63,
+      82,
+      147,
+      103
+    ],
+    "offset": [
+      11,
+      -8
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

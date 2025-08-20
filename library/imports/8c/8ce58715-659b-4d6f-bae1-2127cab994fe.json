@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cans",
+    "texture": "d45b76db-4df5-4c08-9233-181a84404af4",
+    "atlas": "",
+    "rect": [
+      77,
+      71,
+      97,
+      114
+    ],
+    "offset": [
+      0,
+      -2.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

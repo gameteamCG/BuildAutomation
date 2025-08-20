@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ambu",
+    "texture": "2e4881ea-c490-4c72-8c82-d0f91fe7e05a",
+    "atlas": "",
+    "rect": [
+      21,
+      80,
+      227,
+      112
+    ],
+    "offset": [
+      9,
+      -10.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
