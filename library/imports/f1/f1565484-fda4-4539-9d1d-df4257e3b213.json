@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1wat",
+    "texture": "ba1bcb87-78e6-42fc-9477-500dcfead1fd",
+    "atlas": "",
+    "rect": [
+      58,
+      44,
+      86,
+      113
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

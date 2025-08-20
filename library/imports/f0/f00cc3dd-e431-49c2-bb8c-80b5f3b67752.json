@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "4ber",
+    "texture": "3626fd2a-d0d7-4460-a639-93c402d5e2a3",
+    "atlas": "",
+    "rect": [
+      56,
+      48,
+      88,
+      106
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

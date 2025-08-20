@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3lem",
+    "texture": "912d878c-0b2d-4314-855c-7ead8098be54",
+    "atlas": "",
+    "rect": [
+      44,
+      40,
+      114,
+      122
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

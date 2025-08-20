@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "5gren",
+    "texture": "ee257186-0e3c-456d-a164-db670c682899",
+    "atlas": "",
+    "rect": [
+      10,
+      42,
+      180,
+      117
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
