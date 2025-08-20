@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "retrangleshape",
+    "texture": "30347172-68be-408f-8282-68f4606e65a5",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      516,
+      97
+    ],
+    "offset": [
+      -5,
+      1
+    ],
+    "originalSize": [
+      534,
+      113
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
