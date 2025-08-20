@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ban",
+    "texture": "8a240b70-d7ee-409f-9bac-13f705a90052",
+    "atlas": "",
+    "rect": [
+      138,
+      127,
+      225,
+      247
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
