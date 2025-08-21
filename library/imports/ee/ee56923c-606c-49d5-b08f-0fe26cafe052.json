@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pill",
+    "texture": "05d70a53-ee86-4829-a4c4-9908a56a7e37",
+    "atlas": "",
+    "rect": [
+      44,
+      82,
+      438,
+      335
+    ],
+    "offset": [
+      12.5,
+      1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

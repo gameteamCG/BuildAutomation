@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cray",
+    "texture": "e1287f1b-ec7b-44a1-a012-2754a9a03472",
+    "atlas": "",
+    "rect": [
+      159,
+      60,
+      216,
+      394
+    ],
+    "offset": [
+      16.5,
+      -6.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

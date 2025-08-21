@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "oran",
+    "texture": "85da7e47-523d-4ce3-bc57-0c5ab146f558",
+    "atlas": "",
+    "rect": [
+      62,
+      49,
+      388,
+      405
+    ],
+    "offset": [
+      5.5,
+      -1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
