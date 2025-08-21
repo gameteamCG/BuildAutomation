@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mintu",
+    "texture": "3749d11a-7647-469f-bbd7-f33305554157",
+    "atlas": "",
+    "rect": [
+      65,
+      113,
+      122,
+      41
+    ],
+    "offset": [
+      0.5,
+      -8.5
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

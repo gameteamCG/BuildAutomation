@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chipuzzz",
+    "texture": "bfe3a86b-055f-42c3-9f02-a0b86eae5a7f",
+    "atlas": "",
+    "rect": [
+      68,
+      113,
+      114,
+      56
+    ],
+    "offset": [
+      0,
+      -16
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nachu",
+    "texture": "7888d4f7-0888-43c6-a11c-4e561166f24d",
+    "atlas": "",
+    "rect": [
+      61,
+      118,
+      114,
+      47
+    ],
+    "offset": [
+      -7,
+      -16.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
