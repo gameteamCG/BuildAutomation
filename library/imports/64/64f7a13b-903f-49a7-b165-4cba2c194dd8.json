@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "monk",
+    "texture": "d0f716e6-e160-45d6-bd7c-1900acd1dd18",
+    "atlas": "",
+    "rect": [
+      23,
+      2,
+      204,
+      246
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
