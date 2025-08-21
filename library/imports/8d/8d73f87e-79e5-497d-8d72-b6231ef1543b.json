@@ -1,0 +1,541 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Seasons_Grade 2 (Maths)_R30_T2",
+      "totalLevel": "18",
+      "TitleImageName": "Asset 78.png",
+      "introBgName": "Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "mainbg.png",
+      "JockeyName": "cryon"
+    },
+    "questionData": [
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q1_1.png",
+          "Q1_2.png",
+          "Q1_3.png",
+          "Q1_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Name this season.",
+        "questionAudioName2": "L1.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Grishma",
+          "Shishir",
+          "Varsha"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "1.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q2_1.png",
+          "Q2_2.png",
+          "Q2_3.png",
+          "Q2_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "n which months does Shishir occur?",
+        "questionAudioName2": "L2.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "January, February",
+          "May, June",
+          "September, October"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "2.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q3_1.png",
+          "Q3_2.png",
+          "Q3_3.png",
+          "Q3_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "What is the weather like in Shishir season?",
+        "questionAudioName2": "L3.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Very hot",
+          "Very cold",
+          "Rainy"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "3.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q4_1.png",
+          "Q4_2.png",
+          "Q4_3.png",
+          "Q4_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Name this season.",
+        "questionAudioName2": "L4.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Vasanta",
+          "Hemanta",
+          "Sharad"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "4.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q5_1.png",
+          "Q5_2.png",
+          "Q5_3.png",
+          "Q5_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "In which months does Vasanta occur?",
+        "questionAudioName2": "L5.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "July, August",
+          "November, December",
+          "March, April"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "5.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q6_1.png",
+          "Q6_2.png",
+          "Q6_3.png",
+          "Q6_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "What happens during Vasanta?",
+        "questionAudioName2": "L6.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Leaves fall",
+          "Flowers bloom",
+          "Very cold"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "6.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q7_1.png",
+          "Q7_2.png",
+          "Q7_3.png",
+          "Q7_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Name this season.",
+        "questionAudioName2": "L7.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Varsha",
+          "Grishma",
+          "Hemanta"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "7.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q8_1.png",
+          "Q8_2.png",
+          "Q8_3.png",
+          "Q8_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "In which months does Grishma occur?",
+        "questionAudioName2": "L8.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "May, June",
+          "January, February",
+          "July, August"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "8.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q9_1.png",
+          "Q9_2.png",
+          "Q9_3.png",
+          "Q9_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "What is the weather like in Grishma?",
+        "questionAudioName2": "L9.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Rainy",
+          "Light cold",
+          "Very hot"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "9.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q10_1.png",
+          "Q10_2.png",
+          "Q10_3.png",
+          "Q10_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Name this season.",
+        "questionAudioName2": "L10.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Varsha",
+          "Sharad",
+          "Grishma"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "10.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q11_1.png",
+          "Q11_2.png",
+          "Q11_3.png",
+          "Q11_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "In which months does Varsha occur?",
+        "questionAudioName2": "L11.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "July, August",
+          "September, October",
+          "January, February"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "11.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q12_1.png",
+          "Q12_2.png",
+          "Q12_3.png",
+          "Q12_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "What is the weather like in Varsha?",
+        "questionAudioName2": "L12.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Leaves fall",
+          "Very cold",
+          "Rainy season"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "12.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "L13.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q13_1.png",
+          "Q13_2.png",
+          "Q13_3.png",
+          "Q13_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Name this season.",
+        "questionAudioName2": "L13.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Sharad",
+          "Vasanta",
+          "Hemanta"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "13.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q14_1.png",
+          "Q14_2.png",
+          "Q14_3.png",
+          "Q14_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "In which months does Sharad occur?",
+        "questionAudioName2": "L14.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "January, February",
+          "May, June",
+          "September, October"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "L4.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q15_1.png",
+          "Q15_2.png",
+          "Q15_3.png",
+          "Q15_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "What happens during Sharad?",
+        "questionAudioName2": "L15.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Leaves fall",
+          "Very cold",
+          "Very hot"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "L5.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "L16.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q16_1.png",
+          "Q16_2.png",
+          "Q16_3.png",
+          "Q16_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "Name this season.",
+        "questionAudioName2": "L16.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Hemanta",
+          "Shishir",
+          "Vasanta"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "16.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q17_1.png",
+          "Q17_2.png",
+          "Q17_3.png",
+          "Q17_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "In which months does Hemanta occur?",
+        "questionAudioName2": "L7.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "January, February",
+          "September, October",
+          "November, December"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "17.mp3"
+      },
+      {
+        "questionText": "Season",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "Asset2.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "Q18_1.png",
+          "Q18_2.png",
+          "Q18_3.png",
+          "Q18_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "What is the weather like in Hemanta?",
+        "questionAudioName2": "L18.mp3",
+        "commonOptionImageName": "Asset1.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Very hot",
+          "Heavy rain",
+          "Light cold"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "L18.mp3"
+      }
+    ]
+  }
+}
