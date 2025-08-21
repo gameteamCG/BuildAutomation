@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "horn",
+    "texture": "b86ecc81-012a-4eb2-9a61-bce15cab8239",
+    "atlas": "",
+    "rect": [
+      53,
+      100,
+      144,
+      47
+    ],
+    "offset": [
+      -0.5,
+      2
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

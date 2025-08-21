@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sharpn",
+    "texture": "172b6a85-28c1-4f6a-b7cd-906f74d4194c",
+    "atlas": "",
+    "rect": [
+      44,
+      11,
+      164,
+      229
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fireextin",
+    "texture": "4762bf68-7284-47c2-9ac7-472bec40f21d",
+    "atlas": "",
+    "rect": [
+      82,
+      120,
+      87,
+      28
+    ],
+    "offset": [
+      0,
+      -8.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

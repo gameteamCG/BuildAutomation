@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "danc",
+    "texture": "ad78c50d-69c0-4eed-bd78-a73d59f91972",
+    "atlas": "",
+    "rect": [
+      36,
+      100,
+      155,
+      48
+    ],
+    "offset": [
+      -12,
+      1.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
