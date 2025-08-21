@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sailboat",
+    "texture": "9a219858-3bd5-4fed-8ee2-5a9b03ef27d2",
+    "atlas": "",
+    "rect": [
+      8,
+      57,
+      235,
+      182
+    ],
+    "offset": [
+      0,
+      -22.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

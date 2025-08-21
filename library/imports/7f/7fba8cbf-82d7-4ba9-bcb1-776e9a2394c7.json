@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "picturetalkai",
+    "texture": "740c54ea-ae9c-4c6c-be93-2a435323f4e1",
+    "atlas": "",
+    "rect": [
+      3,
+      5,
+      411,
+      97
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      417,
+      110
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

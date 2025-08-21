@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sailor",
+    "texture": "2ad3a32a-643d-423e-b686-ef86e0c61ed7",
+    "atlas": "",
+    "rect": [
+      87,
+      9,
+      83,
+      229
+    ],
+    "offset": [
+      3,
+      1.5
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

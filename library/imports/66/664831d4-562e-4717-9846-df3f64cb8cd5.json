@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lighthouse",
+    "texture": "4bc6b9cc-db85-4082-b030-043267041930",
+    "atlas": "",
+    "rect": [
+      37,
+      11,
+      187,
+      235
+    ],
+    "offset": [
+      5.5,
+      -3
+    ],
+    "originalSize": [
+      250,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

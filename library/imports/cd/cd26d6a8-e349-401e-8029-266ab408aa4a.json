@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dance",
+    "texture": "571e3ca7-7c7d-40d1-8e24-41dad4dea872",
+    "atlas": "",
+    "rect": [
+      56,
+      24,
+      139,
+      215
+    ],
+    "offset": [
+      0,
+      -6
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

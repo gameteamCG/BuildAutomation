@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sailed",
+    "texture": "7a505282-22dd-407e-a8fe-f9774a9fc32e",
+    "atlas": "",
+    "rect": [
+      14,
+      3,
+      222,
+      236
+    ],
+    "offset": [
+      -0.5,
+      4.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
