@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nep",
+    "texture": "ae045844-cc35-438c-8244-b90c788e16ff",
+    "atlas": "",
+    "rect": [
+      58,
+      113,
+      135,
+      56
+    ],
+    "offset": [
+      0.5,
+      -16
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "shwarma",
+    "texture": "363d3c1d-7fd0-42a4-b427-e7d751a6a702",
+    "atlas": "",
+    "rect": [
+      74,
+      114,
+      102,
+      40
+    ],
+    "offset": [
+      0,
+      -9
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

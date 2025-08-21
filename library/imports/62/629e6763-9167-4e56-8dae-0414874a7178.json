@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sap",
+    "texture": "9799dc85-b295-43bd-82d5-5b96b082b7f4",
+    "atlas": "",
+    "rect": [
+      19,
+      114,
+      213,
+      55
+    ],
+    "offset": [
+      0.5,
+      -16.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
