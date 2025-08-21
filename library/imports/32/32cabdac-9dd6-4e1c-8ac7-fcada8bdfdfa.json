@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "glueeee",
+    "texture": "ddabdf17-f536-4380-89b7-35e13cd75730",
+    "atlas": "",
+    "rect": [
+      66,
+      8,
+      119,
+      233
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

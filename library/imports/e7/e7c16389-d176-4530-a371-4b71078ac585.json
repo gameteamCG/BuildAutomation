@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "keb",
+    "texture": "da25da60-3cb3-4fcb-a673-f353790f7032",
+    "atlas": "",
+    "rect": [
+      15,
+      18,
+      221,
+      212
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

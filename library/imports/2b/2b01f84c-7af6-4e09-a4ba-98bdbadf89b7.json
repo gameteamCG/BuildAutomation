@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "penc",
+    "texture": "45b9a314-1b7b-4818-be03-1ed1de5046b0",
+    "atlas": "",
+    "rect": [
+      81,
+      9,
+      89,
+      232
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
