@@ -282,11 +282,11 @@ var startGame = /** @class */ (function (_super) {
         // this.OnTimer();
     };
     startGame.prototype.OnMusic = function (event) {
-        if (event.target.children[0].activeInHierarchy && this.BGM_audio != null) {
+        if (event.target.children[0].activeInHierarchy) {
             this.isMusicOn = true;
             event.target.children[0].active = false;
             var id = cc.audioEngine.playMusic(this.BGM_audio, true);
-            cc.audioEngine.setVolume(id, this.volume);
+            cc.audioEngine.setVolume(id, 0.1);
             console.log("soundSetting--true");
         }
         else {

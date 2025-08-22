@@ -11,6 +11,11 @@ cc.macro.ENABLE_TRANSPARENT_CANVAS = true;
 
 const { ccclass, property } = cc._decorator;
 
+const closeWindow = () => {
+  window.open(location.href, "_self", "");
+  window.close();
+};
+
 @ccclass("QuestionData")
 class QuestionData {
     // @property(Number)
@@ -150,6 +155,7 @@ export default class video extends cc.Component {
     }
 
     UpdateQuestions() {
+        console.log("jockey name = ", startGame.Instance.jockeyName);
         if (startGame.Instance.jockeyName == "Podar") {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             this.questionNode.getChildByName("options1").children.forEach(element => {
@@ -568,6 +574,7 @@ export default class video extends cc.Component {
         // this.character.getComponent(cc.Animation).play("tweenIn");
         this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         cc.tween(this.character.getChildByName("anim")).to(0.5, { x: 0 }, { easing: "backInOut" }).start();
+        startGame.Instance.BGM_audio = this.bgMusic;
         let id = cc.audioEngine.playMusic(this.bgMusic, true);
         this.questionNode.getChildByName("options1").active = false;
         this.questionNode.getChildByName("questionBox").active = false;
@@ -664,7 +671,8 @@ export default class video extends cc.Component {
     }
 
     OnEnd() {
-        window.close();
+        // window.close();
+        closeWindow();
     }
 
     OptionsLayout() {

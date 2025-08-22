@@ -32,6 +32,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var StartGame_1 = require("../../Framework/Scripts/StartGame");
 cc.macro.ENABLE_TRANSPARENT_CANVAS = true;
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+var closeWindow = function () {
+    window.open(location.href, "_self", "");
+    window.close();
+};
 var QuestionData = /** @class */ (function () {
     function QuestionData() {
         // @property(Number)
@@ -149,6 +153,7 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.UpdateQuestions = function () {
         var _this = this;
+        console.log("jockey name = ", StartGame_1.default.Instance.jockeyName);
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             this.questionNode.getChildByName("options1").children.forEach(function (element) {
@@ -562,6 +567,7 @@ var video = /** @class */ (function (_super) {
         // this.character.getComponent(cc.Animation).play("tweenIn");
         this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         cc.tween(this.character.getChildByName("anim")).to(0.5, { x: 0 }, { easing: "backInOut" }).start();
+        StartGame_1.default.Instance.BGM_audio = this.bgMusic;
         var id = cc.audioEngine.playMusic(this.bgMusic, true);
         this.questionNode.getChildByName("options1").active = false;
         this.questionNode.getChildByName("questionBox").active = false;
@@ -645,7 +651,8 @@ var video = /** @class */ (function (_super) {
         return _number;
     };
     video.prototype.OnEnd = function () {
-        window.close();
+        // window.close();
+        closeWindow();
     };
     video.prototype.OptionsLayout = function () {
         var optionsLayout = this.starsPanel;
