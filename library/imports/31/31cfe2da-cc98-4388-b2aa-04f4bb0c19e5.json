@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fghuklmg",
+    "texture": "8d4dfb35-c9bc-46aa-a95c-7faeabd5166b",
+    "atlas": "",
+    "rect": [
+      8,
+      12,
+      235,
+      226
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

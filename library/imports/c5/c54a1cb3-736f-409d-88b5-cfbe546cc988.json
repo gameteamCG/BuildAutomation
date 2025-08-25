@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rdtfg",
+    "texture": "d02b5224-aae9-4a01-b114-873b80ea8e54",
+    "atlas": "",
+    "rect": [
+      6,
+      9,
+      239,
+      232
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
