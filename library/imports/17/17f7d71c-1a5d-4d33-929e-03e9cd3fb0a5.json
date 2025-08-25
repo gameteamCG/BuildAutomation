@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Beginning sound_NUR_SB6_4",
+      "totalLevel": "8",
+      "TitleImageName": "Asset158.png",
+      "introBgName": "Bg.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "helicopter.png",
+        "questionAudioName": "choosethebeginningletterforthegivenpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "h.png",
+          "o.png"
+        ],
+        "correctAudioName": "hhelicopter.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "jacket.png",
+        "questionAudioName": "choosethebeginningletterforthegivenpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "m.png",
+          "j.png"
+        ],
+        "correctAudioName": "jjacket.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "laptop.png",
+        "questionAudioName": "choosethebeginningletterforthegivenpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "l.png",
+          "h.png"
+        ],
+        "correctAudioName": "llaptop.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "nurse.png",
+        "questionAudioName": "choosethebeginningletterforthegivenpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "k.png",
+          "n.png"
+        ],
+        "correctAudioName": "nnurse.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "panda.png",
+        "questionAudioName": "choosethebeginningletterforthegivenpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "p.png",
+          "o.png"
+        ],
+        "correctAudioName": "ppanda.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "igloo.png",
+        "questionAudioName": "choosethebeginningletterforthegivenpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "n.png",
+          "i.png"
+        ],
+        "correctAudioName": "iigloo.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "kiwi.png",
+        "questionAudioName": "choosethebeginningletterforthegivenpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "k.png",
+          "h.png"
+        ],
+        "correctAudioName": "kkiwi.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Beginning letter sound",
+        "questionImageName": "medicine.png",
+        "questionAudioName": "choosethebeginningletterforthegivenpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "box.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "m.png",
+          "p.png"
+        ],
+        "correctAudioName": "mmedicines.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
