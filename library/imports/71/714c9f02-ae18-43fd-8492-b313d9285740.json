@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bed",
+    "texture": "902ea5ea-7012-4c4b-9b79-573d79cdce24",
+    "atlas": "",
+    "rect": [
+      11,
+      74,
+      477,
+      301
+    ],
+    "offset": [
+      -1,
+      26
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
