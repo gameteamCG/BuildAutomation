@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "villagers",
+    "texture": "f64f43bf-80d7-41ba-b30c-508735ea0a3c",
+    "atlas": "",
+    "rect": [
+      56,
+      3,
+      138,
+      245
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
