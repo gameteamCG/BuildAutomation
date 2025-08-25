@@ -1,0 +1,151 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "matching letters_NUR_SB6_9",
+      "totalLevel": "6",
+      "TitleImageName": "Asset 34.png",
+      "introBgName": "NUR.png",
+      "bgmMusicName": "KidsGame.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "matching letters",
+        "questionAudioName": "match the uppercase letter with the lowercase letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cm.png",
+        "commonDropNodeImageName": "dr.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "aa.png",
+          "b.png"
+        ],
+        "reiterationAudios": [
+          "A.mp3",
+          "B.mp3"
+        ],
+        "numberOfOptions": 2,
+        "isOptionText": false,
+        "options": [
+          "aaa.png",
+          "bb.png"
+        ]
+      },
+      {
+        "questionText": "matching letters",
+        "questionAudioName": "match the uppercase letter with the lowercase letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cm.png",
+        "commonDropNodeImageName": "dr.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "e.png",
+          "h.png"
+        ],
+        "reiterationAudios": [
+          "E.mp3",
+          "H.mp3"
+        ],
+        "numberOfOptions": 2,
+        "isOptionText": false,
+        "options": [
+          "ee.png",
+          "hh.png"
+        ]
+      },
+      {
+        "questionText": "matching letters",
+        "questionAudioName": "match the uppercase letter with the lowercase letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cm.png",
+        "commonDropNodeImageName": "dr.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "n.png",
+          "z.png"
+        ],
+        "reiterationAudios": [
+          "N.mp3",
+          "Z.mp3"
+        ],
+        "numberOfOptions": 2,
+        "isOptionText": false,
+        "options": [
+          "nn.png",
+          "zz.png"
+        ]
+      },
+      {
+        "questionText": "matching letters",
+        "questionAudioName": "match the uppercase letter with the lowercase letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cm.png",
+        "commonDropNodeImageName": "dr.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "d.png",
+          "g.png"
+        ],
+        "reiterationAudios": [
+          "D.mp3",
+          "G.mp3"
+        ],
+        "numberOfOptions": 2,
+        "isOptionText": false,
+        "options": [
+          "dd.png",
+          "gg.png"
+        ]
+      },
+      {
+        "questionText": "matching letters",
+        "questionAudioName": "match the uppercase letter with the lowercase letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cm.png",
+        "commonDropNodeImageName": "dr.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "q.png",
+          "P.png"
+        ],
+        "reiterationAudios": [
+          "Q.mp3",
+          "P.mp3"
+        ],
+        "numberOfOptions": 2,
+        "isOptionText": false,
+        "options": [
+          "qq.png",
+          "pp.png"
+        ]
+      },
+      {
+        "questionText": "matching letters",
+        "questionAudioName": "match the uppercase letter with the lowercase letter.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cm.png",
+        "commonDropNodeImageName": "dr.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "T.png",
+          "I.png"
+        ],
+        "reiterationAudios": [
+          "T.mp3",
+          "I.mp3"
+        ],
+        "numberOfOptions": 2,
+        "isOptionText": false,
+        "options": [
+          "tt.png",
+          "wef.png"
+        ]
+      }
+    ]
+  }
+}
