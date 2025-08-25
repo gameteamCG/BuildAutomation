@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "EDD",
+    "texture": "05e8b092-5aff-49a8-92fa-0354d5718629",
+    "atlas": "",
+    "rect": [
+      75,
+      20,
+      350,
+      460
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
