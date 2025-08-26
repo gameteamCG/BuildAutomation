@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "SINGHAM",
+    "texture": "c9119ac7-78a9-42f0-9faa-4080e41f411d",
+    "atlas": "",
+    "rect": [
+      4,
+      26,
+      244,
+      198
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
