@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "addition_word_problems",
+    "texture": "678cbc1e-b246-426f-8849-7607fc2beaa2",
+    "atlas": "",
+    "rect": [
+      3,
+      9,
+      767,
+      199
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      774,
+      219
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
