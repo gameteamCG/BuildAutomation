@@ -104,29 +104,9 @@ export default class NewClass extends cc.Component {
 
     private sheduleQuestionClip;
     onLoad() {
-        // if (startGame.Instance.jockeyName == "Podar") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "tlc") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "supercub") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        // }
-
         this.isSecondInteraction = startGame.Instance.questions[startGame.Instance.currentLevel - 1].needReiteration;
         this.interactionType = startGame.Instance.questions[startGame.Instance.currentLevel - 1].interactionType;
         if (this.isSecondInteraction) {
-            // for (let i = 0; startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions; i++) {
-            //     this.currWordSeq += (i + 1).toString();
-            // }
             if (this.interactionType == "1") {
                 this.GenerateOptions(this.myOptions, "template1");
                 this.correctAnswer = startGame.Instance.questions[startGame.Instance.currentLevel - 1].correctAnswer;
@@ -177,7 +157,7 @@ export default class NewClass extends cc.Component {
             cc.director.preloadScene("GameEnd");
         }
         else {
-            cc.director.preloadScene((this.currScene + 1).toString());
+            cc.director.preloadScene("1");
         }
         startGame.Instance.clickEvent = false;
         let canvas = cc.find("Canvas");
@@ -220,7 +200,6 @@ export default class NewClass extends cc.Component {
                     this.node.getChildByName("frame").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
-
             for (let i = 0; i < startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfPuzzles; i++) {
                 cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].puzzles[i], (err, texture) => {
                     if (err) {
@@ -362,6 +341,7 @@ export default class NewClass extends cc.Component {
         }
         this.currentJockey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
         this.currentJockey.active = true;
+        this.node.getChildByName("Qbar").children[2].getComponent(cc.Label).string = startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionText;
     }
 
     UpdateOptions() {
@@ -567,14 +547,12 @@ export default class NewClass extends cc.Component {
         }
     }
     repeatQuestionClicked(_event: cc.Event) {
-        if (!this.questionPlaying) {
-            _event.target.getComponent(cc.Button).interactable = false;
-            this.questionPlaying = true;
-            cc.audioEngine.playEffect(this.wordVoIteration, false);
-            this.scheduleOnce(() => {
-                this.questionPlaying = false;
-                _event.target.getComponent(cc.Button).interactable = true;
-            }, this.wordVoIteration.duration);
+        cc.audioEngine.stopAllEffects();
+        if (this.myOptions.active == true) {
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
         }
     }
     rotatePuzzleImage(_node: cc.Node) {
@@ -598,13 +576,10 @@ export default class NewClass extends cc.Component {
             //if the items have been aligned 
             this.options.color = cc.Color.GREEN;
             cc.audioEngine.playEffect(this.correctAction, false);
-            this.scheduleOnce(() => {
-                // cc.audioEngine.playEffect(this.jockeyCorrect2, false);
-            }, this.correctAction.duration - 1);
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            cc.tween(this.options).to(0.3, { x: 0, scaleX: 1, scaleY: 1 }).start();
 
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
@@ -715,7 +690,7 @@ export default class NewClass extends cc.Component {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
             else if (startGame.Instance.jockeyName == "cryon") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
+                anim = ["negative_1", "negative_2", "negative_3"];
             }
             else if (startGame.Instance.jockeyName == "Singham") {
                 anim = ["no"];
@@ -772,11 +747,11 @@ export default class NewClass extends cc.Component {
 
     OptionsAppear() {
 
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
-
+        cc.tween(this.options).to(0.3, { x: this.options.x - 200, scaleX: 1, scaleY: 1 }).start();
+        console.log([startGame.Instance.currentLevel - 1], startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionText2)
+        this.node.getChildByName("Qbar").children[2].getComponent(cc.Label).string = startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionText2;
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(() => {
-
             this.myOptions.active = true;
         }, 0.5);
 
@@ -803,13 +778,11 @@ export default class NewClass extends cc.Component {
             cc.tween(_node).to(1, { y: 0 }, { easing: "sineInOut" }).start();
 
             console.log("correctAnswer--" + this.currScene);
-            // console.log("correctAnswer--" + this.currScene);
-            // cc.audioEngine.playEffect(this.correctButton, false);
             this.options.color = cc.Color.GREEN;
             _node.color = cc.Color.GREEN;
 
 
-            cc.tween(_node).to(0.1, { scaleX: 0.7, scaleY: 0.8, color: cc.Color.GREEN }).to(0.1, { scaleX: 1, scaleY: 1, color: this.colorValue }).start();
+            cc.tween(_node).to(0.1, { scaleX: 1, scaleY: 1, color: cc.Color.GREEN }).to(0.1, { scaleX: 1.4, scaleY: 1.4, color: this.colorValue }).start();
 
             this.myOptions.children.forEach(element => {
                 element.getComponent(cc.Button).interactable = false;
@@ -858,7 +831,6 @@ export default class NewClass extends cc.Component {
             }, 0.5 * index);
         })
         this.wordsNode.active = true;
-        // cc.audioEngine.playEffect(this.wordVoQuestion, false);
         this.scheduleOnce(() => {
             let pos: cc.Vec2 = cc.v2(this.wordsNode.children[0].getPosition().x, this.wordsNode.children[0].getPosition().y - 250);
             let pos2: cc.Vec2 = cc.v2(this.wordsNode.children[1].getPosition().x, this.wordsNode.children[1].getPosition().y - 250);
@@ -869,10 +841,6 @@ export default class NewClass extends cc.Component {
             cc.tween(handNode).to(1, { x: pos2.x, y: pos2.y }, { easing: "sineInOut" }).start();
             this.scheduleOnce(() => {
                 handNode.active = false;
-                // this.selectable= true;
-                // this.scheduleOnce(() => {
-                //     this.wordSwap(this.node.getChildByName("words").children[0], this.node.getChildByName("words").children[1], -250, 0);
-                // }, 0);
                 this.EndDrag();
             }, 1);
         }, this.wordVoQuestion.duration - 1);
@@ -1024,6 +992,7 @@ export default class NewClass extends cc.Component {
         for (let i = 0; i < startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions; i++) {
             let option = cc.instantiate(this.node.getChildByName(_template));
             option.name = (i + 1).toString();
+            option.scale = 1.4;
             option.setParent(_node);
             option.setPosition(cc.v2(0, 0));
             option.opacity = 255;
@@ -1033,9 +1002,10 @@ export default class NewClass extends cc.Component {
         if (_template == "template1") {
             this.OptionsLayoutVertical();
             this.reverseOptionsLayout();
-            if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions == 2) {
-                this.myOptions.children[0].setPosition(0, 120);
-                this.myOptions.children[1].setPosition(0, -120);
+            if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions == 3) {
+                this.myOptions.children[0].setPosition(0, 139);
+                this.myOptions.children[1].setPosition(0, -61);
+                this.myOptions.children[2].setPosition(0, -261);
             }
         }
         else {

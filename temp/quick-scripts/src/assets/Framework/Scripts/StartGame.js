@@ -244,6 +244,8 @@ var startGame = /** @class */ (function (_super) {
                     question.questionAudioName = _this.removeAudioExtension(question.questionAudioName);
                     question.reiterationAudioName = _this.removeAudioExtension(question.reiterationAudioName);
                     question.questionAudioName2 = _this.removeAudioExtension(question.questionAudioName2);
+                    question.questionText = question.questionText;
+                    question.questionText2 = question.questionText2;
                     // question.option1ImageName = this.removeExtension(question.option1ImageName);
                     // question.option2ImageName = this.removeExtension(question.option2ImageName);
                 });
@@ -273,12 +275,8 @@ var startGame = /** @class */ (function (_super) {
         }
         this.currentLevel = 1;
         // if (level != null) {
-        //     this.NextSceneName = level;
-        //     globalVariables.Instance.currentLevel = parseInt(this.NextSceneName);
-        //     if (parseInt(this.NextSceneName) >= 7) {
-        //         this.NextSceneName = "7";
-        //         globalVariables.Instance.currentLevel = 7;
-        //     }
+        //     this.NextSceneName = "1";
+        //     this.currentLevel = parseInt(level);
         // }
         if (mobile == "1") {
             this.hasMobile = true;

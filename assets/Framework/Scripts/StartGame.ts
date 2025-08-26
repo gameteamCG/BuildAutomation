@@ -31,7 +31,7 @@ interface QuestionData {
     commonOptionImageName: string;
     isOptionText: boolean;
     numberOfOptions: number;
-    options: string[]; // This will either contain text options or image names based on isOptionText flag
+    options: string[];
     correctAnswer: string;
     reiterationAudioName: string;
 }
@@ -277,6 +277,8 @@ export default class startGame extends cc.Component {
                     question.questionAudioName = this.removeAudioExtension(question.questionAudioName);
                     question.reiterationAudioName = this.removeAudioExtension(question.reiterationAudioName);
                     question.questionAudioName2 = this.removeAudioExtension(question.questionAudioName2);
+                    question.questionText = question.questionText;
+                    question.questionText2 = question.questionText2;
                     // question.option1ImageName = this.removeExtension(question.option1ImageName);
                     // question.option2ImageName = this.removeExtension(question.option2ImageName);
                 });
@@ -308,12 +310,8 @@ export default class startGame extends cc.Component {
         }
         this.currentLevel = 1;
         // if (level != null) {
-        //     this.NextSceneName = level;
-        //     globalVariables.Instance.currentLevel = parseInt(this.NextSceneName);
-        //     if (parseInt(this.NextSceneName) >= 7) {
-        //         this.NextSceneName = "7";
-        //         globalVariables.Instance.currentLevel = 7;
-        //     }
+        //     this.NextSceneName = "1";
+        //     this.currentLevel = parseInt(level);
         // }
 
         if (mobile == "1") {

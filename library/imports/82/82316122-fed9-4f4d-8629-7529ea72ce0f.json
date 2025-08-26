@@ -59,7 +59,7 @@
         "correctAudioName": "P2.mp3",
         "needReiteration": true,
         "interactionType": "1",
-        "questionText2": "n which months does Shishir occur?",
+        "questionText2": "In which months does Shishir occur?",
         "questionAudioName2": "L2.mp3",
         "commonOptionImageName": "Asset1.png",
         "isOptionText": true,
@@ -364,7 +364,7 @@
       },
       {
         "questionText": "Season",
-        "questionAudioName": "L13.mp3",
+        "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Asset2.png",
         "isHintRequired": false,
@@ -418,7 +418,7 @@
           "September, October"
         ],
         "correctAnswer": "3",
-        "reiterationAudioName": "L4.mp3"
+        "reiterationAudioName": "14.mp3"
       },
       {
         "questionText": "Season",
@@ -447,11 +447,11 @@
           "Very hot"
         ],
         "correctAnswer": "1",
-        "reiterationAudioName": "L5.mp3"
+        "reiterationAudioName": "15.mp3"
       },
       {
         "questionText": "Season",
-        "questionAudioName": "L16.mp3",
+        "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Asset2.png",
         "isHintRequired": false,
@@ -495,7 +495,7 @@
         "needReiteration": true,
         "interactionType": "1",
         "questionText2": "In which months does Hemanta occur?",
-        "questionAudioName2": "L7.mp3",
+        "questionAudioName2": "L17.mp3",
         "commonOptionImageName": "Asset1.png",
         "isOptionText": true,
         "numberOfOptions": 3,
@@ -534,7 +534,7 @@
           "Light cold"
         ],
         "correctAnswer": "3",
-        "reiterationAudioName": "L18.mp3"
+        "reiterationAudioName": "18.mp3"
       }
     ]
   }
