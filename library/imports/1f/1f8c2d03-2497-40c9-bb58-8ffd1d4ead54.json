@@ -1,0 +1,151 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Number Names_UKG_SB6_48",
+      "totalLevel": "6",
+      "TitleImageName": "Asset 204.png",
+      "introBgName": "UKG.png",
+      "bgmMusicName": "KidsGame.mp3",
+      "mainBgName": "bggs.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "number names",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "op.png",
+        "commonDropNodeImageName": "dr.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "11.png",
+          "41.png"
+        ],
+        "reiterationAudios": [
+          "23803380_4_e-l-e-v-e-n-11.mp3",
+          "41.mp3"
+        ],
+        "numberOfOptions": 2,
+        "isOptionText": false,
+        "options": [
+          "111.png",
+          "411.png"
+        ]
+      },
+      {
+        "questionText": "number names",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "op.png",
+        "commonDropNodeImageName": "dr.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "15.png",
+          "21.png"
+        ],
+        "reiterationAudios": [
+          "23803380_2_f-i-f-t-e-e-n-15.mp3",
+          "52312723_2_t-w-e-n-t-y-o-n-e-21.mp3"
+        ],
+        "numberOfOptions": 2,
+        "isOptionText": false,
+        "options": [
+          "155.png",
+          "211.png"
+        ]
+      },
+      {
+        "questionText": "number names",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "op.png",
+        "commonDropNodeImageName": "dr.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "36.png",
+          "4r.png"
+        ],
+        "reiterationAudios": [
+          "36.mp3",
+          "F O U R, 4.mp3"
+        ],
+        "numberOfOptions": 2,
+        "isOptionText": false,
+        "options": [
+          "366.png",
+          "44.png"
+        ]
+      },
+      {
+        "questionText": "number names",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "op.png",
+        "commonDropNodeImageName": "dr.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "1.png",
+          "22.png"
+        ],
+        "reiterationAudios": [
+          "O N E 1.mp3",
+          "52312723_4_t-w-e-n-t-y-t-w-o-22.mp3"
+        ],
+        "numberOfOptions": 2,
+        "isOptionText": false,
+        "options": [
+          "1111.png",
+          "22a.png"
+        ]
+      },
+      {
+        "questionText": "number names",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "op.png",
+        "commonDropNodeImageName": "dr.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "46.png",
+          "17.png"
+        ],
+        "reiterationAudios": [
+          "46.mp3",
+          "S E V E N T E E N, 17.mp3"
+        ],
+        "numberOfOptions": 2,
+        "isOptionText": false,
+        "options": [
+          "466.png",
+          "177.png"
+        ]
+      },
+      {
+        "questionText": "number names",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "op.png",
+        "commonDropNodeImageName": "dr.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "26.png",
+          "32.png"
+        ],
+        "reiterationAudios": [
+          "26.mp3",
+          "32.mp3"
+        ],
+        "numberOfOptions": 2,
+        "isOptionText": false,
+        "options": [
+          "266.png",
+          "322.png"
+        ]
+      }
+    ]
+  }
+}
