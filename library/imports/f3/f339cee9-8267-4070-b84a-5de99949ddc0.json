@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "townmouse",
+    "texture": "90450fcb-12db-494d-9f21-3775234e0e16",
+    "atlas": "",
+    "rect": [
+      21,
+      22,
+      209,
+      181
+    ],
+    "offset": [
+      0,
+      13
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

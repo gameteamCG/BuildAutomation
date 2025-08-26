@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chee",
+    "texture": "4e1eefc2-e7c7-461b-814f-a63e9bdcd102",
+    "atlas": "",
+    "rect": [
+      9,
+      38,
+      236,
+      191
+    ],
+    "offset": [
+      1.5,
+      -8
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
