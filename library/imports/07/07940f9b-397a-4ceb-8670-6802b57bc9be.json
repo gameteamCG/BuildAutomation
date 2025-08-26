@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ans_moonlight",
+    "texture": "de9f0516-08f5-4d4b-af4c-8b32b1030cf8",
+    "atlas": "",
+    "rect": [
+      49,
+      32,
+      198,
+      238
+    ],
+    "offset": [
+      -2,
+      -1
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
