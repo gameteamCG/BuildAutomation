@@ -1,0 +1,40 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "test",
+      "totalLevel": "1",
+      "TitleImageName": "NUR.png",
+      "introBgName": "NUR.png",
+      "bgmMusicName": "bgm3.mp3",
+      "mainBgName": "bg2.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionAudioName": "KidsGame.mp3",
+        "shouldPlayQuestionAudio": false,
+        "backCardImageName": "Asset 26.png",
+        "frontCardImageName": "Asset 27.png",
+        "isOptionText": false,
+        "options": [
+          "Asset 36.png",
+          "Asset 35.png"
+        ],
+        "reiterationAudios": [
+          "EXCELLENTJOB.mp3",
+          "GOODEFFORT.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset 28.png",
+          "Asset 29.png"
+        ]
+      }
+    ]
+  }
+}
