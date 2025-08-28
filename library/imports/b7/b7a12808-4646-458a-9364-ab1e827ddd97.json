@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sad",
+    "texture": "bfb070c5-eac0-45c7-8609-d3c230c1d6ec",
+    "atlas": "",
+    "rect": [
+      58,
+      108,
+      133,
+      68
+    ],
+    "offset": [
+      -0.5,
+      -16.5
+    ],
+    "originalSize": [
+      250,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

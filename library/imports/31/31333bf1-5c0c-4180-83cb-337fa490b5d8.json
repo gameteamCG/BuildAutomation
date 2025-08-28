@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dove",
+    "texture": "8a850ed3-febe-456b-bd7f-52c165f2b40b",
+    "atlas": "",
+    "rect": [
+      3,
+      35,
+      244,
+      181
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
