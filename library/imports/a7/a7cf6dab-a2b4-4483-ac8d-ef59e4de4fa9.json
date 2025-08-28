@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dirty",
+    "texture": "73d26bbc-5234-48d2-bd98-12a0920f7c2b",
+    "atlas": "",
+    "rect": [
+      120,
+      106,
+      271,
+      318
+    ],
+    "offset": [
+      5,
+      -14.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
