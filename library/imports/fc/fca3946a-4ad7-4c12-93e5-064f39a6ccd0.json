@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "RECAP - groups of 2_LKG_SB6_63",
+      "totalLevel": "6",
+      "TitleImageName": "a (4).png",
+      "introBgName": "LKG.png",
+      "bgmMusicName": "KidsGame.mp3",
+      "mainBgName": "bghahjad.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "groups of 2",
+        "questionAudioName": "52315415_1_identify-the-set-of-t.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cm.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "o2.png",
+          "o.png"
+        ],
+        "correctAudios": [
+          "52315415_2_2-fish.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "groups of 2",
+        "questionAudioName": "52315415_1_identify-the-set-of-t.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cm.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "c.png",
+          "c2.png"
+        ],
+        "correctAudios": [
+          "52315415_5_2-crabs.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "groups of 2",
+        "questionAudioName": "52315415_1_identify-the-set-of-t.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cm.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "op.png",
+          "op2.png"
+        ],
+        "correctAudios": [
+          "52315415_7_2-awktohpuses.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "groups of 2",
+        "questionAudioName": "52315415_1_identify-the-set-of-t.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cm.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "s2.png",
+          "s.png"
+        ],
+        "correctAudios": [
+          "52315415_3_2-star-fish.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "groups of 2",
+        "questionAudioName": "52315415_1_identify-the-set-of-t.mp3",
+        "shouldPlayQuestionAudio": false,
+        "commonOptionImageName": "cm.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "sh2.png",
+          "sh.png"
+        ],
+        "correctAudios": [
+          "52315415_6_2-sharks.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "groups of 2",
+        "questionAudioName": "52315415_1_identify-the-set-of-t.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "cm.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "t.png",
+          "t2.png"
+        ],
+        "correctAudios": [
+          "52315415_4_2-turtles.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
