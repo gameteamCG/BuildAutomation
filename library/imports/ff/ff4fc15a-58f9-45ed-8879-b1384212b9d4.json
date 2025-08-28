@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "crow",
+    "texture": "4cb37f2b-b634-4f19-80f5-f8ba899e6abe",
+    "atlas": "",
+    "rect": [
+      56,
+      22,
+      162,
+      205
+    ],
+    "offset": [
+      12,
+      1
+    ],
+    "originalSize": [
+      250,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

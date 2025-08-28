@@ -1,0 +1,137 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "story time: activity- The Pied Piper of Hamelin_LKG_SB6_71",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/The_Pied_Piper_of_Hamelin_1756381200471.mp4",
+      "TitleImageName": "Asset 33.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "1.png",
+        "QuestionAudioName": "52315510_1_what-problem-did-the-t.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "rat.png",
+          "cat.png",
+          "dove.png",
+          "crow.png"
+        ],
+        "ReiterationAudioName": "52315461_2_rats.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "2.png",
+        "QuestionAudioName": "52315461_3_who-offered-to-help-ge.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "sail.png",
+          "pip.png",
+          "pol.png",
+          "far.png"
+        ],
+        "ReiterationAudioName": "52315461_4_pied-piper.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "3.png",
+        "QuestionAudioName": "52315461_5_what-did-the-piper-use.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "saxo.png",
+          "guit.png",
+          "answer.png",
+          "papudi.png"
+        ],
+        "ReiterationAudioName": "",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "4.png",
+        "QuestionAudioName": "52315461_7_where-did-the-piper-le.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "moun.png",
+          "tabu.png",
+          "road.png",
+          "forest.png"
+        ],
+        "ReiterationAudioName": "52315461_8_forest.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "5.png",
+        "QuestionAudioName": "52315461_9_did-the-people-keep-th.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "yes.png",
+          "no.png"
+        ],
+        "ReiterationAudioName": "52315461_10_yes.mp3",
+        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "6.png",
+        "QuestionAudioName": "52315510_11_how-did-the-people-of-.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "bad.png",
+          "happy.png",
+          "huh.png",
+          "sad.png"
+        ],
+        "ReiterationAudioName": "52315461_12_happy.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "papudi",
+    "texture": "cf51beac-e47d-41b0-9e08-990f47d05f45",
+    "atlas": "",
+    "rect": [
+      63,
+      7,
+      125,
+      237
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

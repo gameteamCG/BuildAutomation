@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guit",
+    "texture": "190ba2c5-5e4e-40d9-98af-feb27bfde4e2",
+    "atlas": "",
+    "rect": [
+      78,
+      5,
+      95,
+      240
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
