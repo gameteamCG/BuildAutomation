@@ -1,0 +1,147 @@
+{
+  "additionalData": {
+    "GameID": "RECAP - opposites_LKG_SB6_51",
+    "totalLevel": "7",
+    "TitleImageName": "a (12).png",
+    "introBgName": "LKG.png",
+    "bgmMusicName": "KidsGame.mp3",
+    "mainBgName": "bgsaa.png",
+    "JockeyName": "Puzzle",
+    "templateType": "ObjectsTweenIn"
+  },
+  "questionData": [
+    {
+      "questionText": "opposites",
+      "questionImageName": "big.png",
+      "questionAudioName": "52315238_1_match-the-auperzits.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "cm.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "small.png",
+        "slow.png",
+        "sad.png"
+      ],
+      "correctAudios": [
+        "52315238_2_big-small.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "opposites",
+      "questionImageName": "day.png",
+      "questionAudioName": "52315238_1_match-the-auperzits.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "cm.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "cold.png",
+        "night.png",
+        "out.png"
+      ],
+      "correctAudios": [
+        "52315238_8_day-night.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "opposites",
+      "questionImageName": "fast.png",
+      "questionAudioName": "52315238_1_match-the-auperzits.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "cm.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "sad.png",
+        "small.png",
+        "slow.png"
+      ],
+      "correctAudios": [
+        "52315238_4_fast-slow.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "opposites",
+      "questionImageName": "happy.png",
+      "questionAudioName": "52315238_1_match-the-auperzits.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "cm.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "sad.png",
+        "out.png",
+        "night.png"
+      ],
+      "correctAudios": [
+        "52315238_5_happy-sad.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "opposites",
+      "questionImageName": "hot.png",
+      "questionAudioName": "52315238_1_match-the-auperzits.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "cm.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "cold.png",
+        "down.png",
+        "small.png"
+      ],
+      "correctAudios": [
+        "52315238_3_hot-cold.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "opposites",
+      "questionImageName": "in.png",
+      "questionAudioName": "52315238_1_match-the-auperzits.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "cm.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "night.png",
+        "sad.png",
+        "out.png"
+      ],
+      "correctAudios": [
+        "52315238_7_in-out.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "opposites",
+      "questionImageName": "up.png",
+      "questionAudioName": "52315238_1_match-the-auperzits.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "cm.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 3,
+      "options": [
+        "cold.png",
+        "down.png",
+        "out.png"
+      ],
+      "correctAudios": [
+        "52315238_6_up-down.mp3"
+      ],
+      "correctAnswerNum": "2"
+    }
+  ]
+}
