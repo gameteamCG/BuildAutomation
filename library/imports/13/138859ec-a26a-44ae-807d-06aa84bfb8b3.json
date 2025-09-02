@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Twinkle twinkle little star",
+    "texture": "a1641bf6-a240-49a6-b74a-4dbcbce00fee",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1003,
+      346
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      1003,
+      347
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
