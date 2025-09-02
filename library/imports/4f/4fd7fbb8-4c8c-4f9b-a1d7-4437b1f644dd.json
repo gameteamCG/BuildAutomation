@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Two little hands",
+    "texture": "067d2131-fb0e-4c33-93a9-a681d26fff02",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      630,
+      346
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      630,
+      347
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "067d2131-fb0e-4c33-93a9-a681d26fff02",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 630,
+  "height": 347,
+  "platformSettings": {},
+  "subMetas": {
+    "Two little hands": {
+      "ver": "1.0.6",
+      "uuid": "4fd7fbb8-4c8c-4f9b-a1d7-4437b1f644dd",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "067d2131-fb0e-4c33-93a9-a681d26fff02",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 630,
+      "height": 346,
+      "rawWidth": 630,
+      "rawHeight": 347,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
