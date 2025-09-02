@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Good morning sun",
+    "texture": "7331db70-c219-4ff2-bd67-f3de19ffa49d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      810,
+      384
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      810,
+      384
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
