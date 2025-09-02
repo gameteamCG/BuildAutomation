@@ -755,8 +755,8 @@
         0,
         0,
         1,
-        0.55,
-        0.55,
+        0.6,
+        0.6,
         1
       ]
     },
@@ -790,7 +790,7 @@
     "_dstBlendFactor": 771,
     "_spriteFrame": null,
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
