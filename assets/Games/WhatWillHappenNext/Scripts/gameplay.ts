@@ -753,7 +753,7 @@ export default class NewClass extends cc.Component {
 
 	callPositiveRection(_node: cc.Node) {
 		// _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
-		cc.audioEngine.playEffect(this.correctAudio, false);
+		// cc.audioEngine.playEffect(this.correctAudio, false);
 		// cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
 		const quesOldPos = this.node
 			.getChildByName("QuestionBox")
