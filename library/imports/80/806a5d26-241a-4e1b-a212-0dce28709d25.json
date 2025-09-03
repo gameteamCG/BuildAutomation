@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "My Red Balloon",
+    "texture": "55b59eb6-35b2-47d4-9beb-becc227a9f47",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      533,
+      346
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      533,
+      347
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

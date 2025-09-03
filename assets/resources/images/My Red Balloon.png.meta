@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "55b59eb6-35b2-47d4-9beb-becc227a9f47",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 533,
+  "height": 347,
+  "platformSettings": {},
+  "subMetas": {
+    "My Red Balloon": {
+      "ver": "1.0.6",
+      "uuid": "806a5d26-241a-4e1b-a212-0dce28709d25",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "55b59eb6-35b2-47d4-9beb-becc227a9f47",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 533,
+      "height": 346,
+      "rawWidth": 533,
+      "rawHeight": 347,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
