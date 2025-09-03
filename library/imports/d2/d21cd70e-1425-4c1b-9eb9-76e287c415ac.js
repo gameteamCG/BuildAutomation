@@ -272,14 +272,13 @@ var startGame = /** @class */ (function (_super) {
             this.premiumLevel = parseInt(premium);
         }
         this.currentLevel = 1;
-        // if (level != null) {
-        //     this.NextSceneName = level;
-        //     globalVariables.Instance.currentLevel = parseInt(this.NextSceneName);
-        //     if (parseInt(this.NextSceneName) >= 7) {
-        //         this.NextSceneName = "7";
-        //         globalVariables.Instance.currentLevel = 7;
-        //     }
-        // }
+        if (level != null) {
+            this.NextSceneName = "1";
+            this.currentLevel = parseInt(level);
+            // if (parseInt(this.NextSceneName) >= 7) {
+            //     globalVariables.Instance.currentLevel = 7;
+            // }
+        }
         if (mobile == "1") {
             this.hasMobile = true;
         }

@@ -103,29 +103,9 @@ export default class NewClass extends cc.Component {
 
     private sheduleQuestionClip;
     onLoad() {
-        // if (startGame.Instance.jockeyName == "Podar") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "tlc") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "supercub") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        // }
-
         this.isSecondInteraction = startGame.Instance.questions[startGame.Instance.currentLevel - 1].needReiteration;
         this.interactionType = startGame.Instance.questions[startGame.Instance.currentLevel - 1].interactionType;
         if (this.isSecondInteraction) {
-            // for (let i = 0; startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions; i++) {
-            //     this.currWordSeq += (i + 1).toString();
-            // }
             if (this.interactionType == "1") {
                 this.GenerateOptions(this.myOptions, "template1");
                 this.correctAnswer = startGame.Instance.questions[startGame.Instance.currentLevel - 1].correctAnswer;
@@ -176,7 +156,7 @@ export default class NewClass extends cc.Component {
             cc.director.preloadScene("GameEnd");
         }
         else {
-            cc.director.preloadScene((this.currScene + 1).toString());
+            cc.director.preloadScene("1");
         }
         startGame.Instance.clickEvent = false;
         let canvas = cc.find("Canvas");
@@ -771,11 +751,10 @@ export default class NewClass extends cc.Component {
 
     OptionsAppear() {
 
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
+        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scale: 1 }).start();
 
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(() => {
-
             this.myOptions.active = true;
         }, 0.5);
 
@@ -783,7 +762,7 @@ export default class NewClass extends cc.Component {
         this.wordsNode.children.forEach((_child, index) => {
             _child.scale = 0;
             this.scheduleOnce(() => {
-                cc.tween(_child).to(0.8, { scale: 1 }).start()
+                // cc.tween(_child).to(0.8, { scale: 0.2 }).start();
             }, 0.5 * index);
         });
 
@@ -808,7 +787,8 @@ export default class NewClass extends cc.Component {
             _node.color = cc.Color.GREEN;
 
 
-            cc.tween(_node).to(0.1, { scaleX: 0.7, scaleY: 0.8, color: cc.Color.GREEN }).to(0.1, { scaleX: 1, scaleY: 1, color: this.colorValue }).start();
+            cc.tween(_node).to(0.1, { scaleX: 0.6, scaleY: 0.6, color: cc.Color.GREEN })
+                .to(0.1, { scaleX: 0.7, scaleY: 0.7, color: this.colorValue }).start();
 
             this.myOptions.children.forEach(element => {
                 element.getComponent(cc.Button).interactable = false;
@@ -1026,15 +1006,20 @@ export default class NewClass extends cc.Component {
             option.setParent(_node);
             option.setPosition(cc.v2(0, 0));
             option.opacity = 255;
+            option.scale = 0.6;
             option.active = true;
         }
         this.node.getChildByName(_template).destroy();
         if (_template == "template1") {
-            this.OptionsLayoutVertical();
+            // this.OptionsLayoutVertical();
             this.reverseOptionsLayout();
-            if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions == 2) {
-                this.myOptions.children[0].setPosition(0, 120);
-                this.myOptions.children[1].setPosition(0, -120);
+            this.myOptions.children[0].children[0].width = 300;
+            this.myOptions.children[1].children[0].width = 300;
+            this.myOptions.children[2].children[0].width = 300;
+            if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions == 3) {
+                this.myOptions.children[0].setPosition(0, 200);
+                this.myOptions.children[1].setPosition(0, 0);
+                this.myOptions.children[1].setPosition(0, -200);
             }
         }
         else {
@@ -1127,7 +1112,6 @@ export default class NewClass extends cc.Component {
         let totalHeight = 0;
         let maxWidth = 0;
 
-        // Calculate the total height and the maximum width of the options
         for (let i = 0; i < optionNodes.length; i++) {
             let option = optionNodes[i];
             let optionWidth = option.width;

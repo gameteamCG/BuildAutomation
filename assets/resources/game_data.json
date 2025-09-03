@@ -60,7 +60,7 @@
       "isOptionText": true,
       "numberOfOptions": 3,
       "options": [
-        "Homes get damaged",
+        "Homes submerged in water",
         "Ash and lava spread",
         "Buildings can break"
       ],
@@ -91,7 +91,7 @@
       "options": [
         "Crops dry up",
         "Heavy rain or dam break",
-        " Warm ocean water"
+        "Warm ocean water"
       ],
       "correctAnswer": "2",
       "reiterationAudioName": "L3_ANS.mp3"
@@ -177,7 +177,7 @@
       "numberOfOptions": 3,
       "options": [
         "Magma pushes out",
-        " Warm ocean water",
+        "Warm ocean water",
         "Crops dry up"
       ],
       "correctAnswer": "3",
@@ -206,7 +206,7 @@
       "numberOfOptions": 3,
       "options": [
         "Magma pushes out",
-        " Warm ocean water",
+        "Warm ocean water",
         "No rain for a long time"
       ],
       "correctAnswer": "2",
@@ -234,7 +234,7 @@
       "isOptionText": true,
       "numberOfOptions": 3,
       "options": [
-        " Homes get damaged",
+        "Homes submerged in water",
         "Movement of tectonic plates",
         "No rain for a long time"
       ],
@@ -292,8 +292,8 @@
       "isOptionText": true,
       "numberOfOptions": 3,
       "options": [
-        " Ash and lava spread",
-        " Movement of tectonic plates",
+        "Ash and lava spread",
+        "Movement of tectonic plates",
         "Crops dry up"
       ],
       "correctAnswer": "1",
@@ -323,7 +323,7 @@
       "options": [
         "Warm ocean water",
         "No rain for a long time",
-        "Lightning or rain"
+        "Magma and heat"
       ],
       "correctAnswer": "3",
       "reiterationAudioName": "L11_ANS.mp3"

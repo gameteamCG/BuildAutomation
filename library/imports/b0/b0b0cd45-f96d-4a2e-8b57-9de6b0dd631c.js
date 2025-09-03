@@ -74,28 +74,9 @@ var NewClass = /** @class */ (function (_super) {
         return _this;
     }
     NewClass.prototype.onLoad = function () {
-        // if (startGame.Instance.jockeyName == "Podar") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "tlc") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "supercub") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        // }
         this.isSecondInteraction = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].needReiteration;
         this.interactionType = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].interactionType;
         if (this.isSecondInteraction) {
-            // for (let i = 0; startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions; i++) {
-            //     this.currWordSeq += (i + 1).toString();
-            // }
             if (this.interactionType == "1") {
                 this.GenerateOptions(this.myOptions, "template1");
                 this.correctAnswer = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].correctAnswer;
@@ -142,7 +123,7 @@ var NewClass = /** @class */ (function (_super) {
             cc.director.preloadScene("GameEnd");
         }
         else {
-            cc.director.preloadScene((this.currScene + 1).toString());
+            cc.director.preloadScene("1");
         }
         StartGame_1.default.Instance.clickEvent = false;
         var canvas = cc.find("Canvas");
@@ -700,7 +681,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.OptionsAppear = function () {
         var _this = this;
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
+        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scale: 1 }).start();
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(function () {
             _this.myOptions.active = true;
@@ -708,7 +689,7 @@ var NewClass = /** @class */ (function (_super) {
         this.wordsNode.children.forEach(function (_child, index) {
             _child.scale = 0;
             _this.scheduleOnce(function () {
-                cc.tween(_child).to(0.8, { scale: 1 }).start();
+                // cc.tween(_child).to(0.8, { scale: 0.2 }).start();
             }, 0.5 * index);
         });
     };
@@ -727,7 +708,8 @@ var NewClass = /** @class */ (function (_super) {
             // cc.audioEngine.playEffect(this.correctButton, false);
             this.options.color = cc.Color.GREEN;
             _node.color = cc.Color.GREEN;
-            cc.tween(_node).to(0.1, { scaleX: 0.7, scaleY: 0.8, color: cc.Color.GREEN }).to(0.1, { scaleX: 1, scaleY: 1, color: this.colorValue }).start();
+            cc.tween(_node).to(0.1, { scaleX: 0.6, scaleY: 0.6, color: cc.Color.GREEN })
+                .to(0.1, { scaleX: 0.7, scaleY: 0.7, color: this.colorValue }).start();
             this.myOptions.children.forEach(function (element) {
                 element.getComponent(cc.Button).interactable = false;
             });
@@ -932,15 +914,20 @@ var NewClass = /** @class */ (function (_super) {
             option.setParent(_node);
             option.setPosition(cc.v2(0, 0));
             option.opacity = 255;
+            option.scale = 0.6;
             option.active = true;
         }
         this.node.getChildByName(_template).destroy();
         if (_template == "template1") {
-            this.OptionsLayoutVertical();
+            // this.OptionsLayoutVertical();
             this.reverseOptionsLayout();
-            if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions == 2) {
-                this.myOptions.children[0].setPosition(0, 120);
-                this.myOptions.children[1].setPosition(0, -120);
+            this.myOptions.children[0].children[0].width = 300;
+            this.myOptions.children[1].children[0].width = 300;
+            this.myOptions.children[2].children[0].width = 300;
+            if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions == 3) {
+                this.myOptions.children[0].setPosition(0, 200);
+                this.myOptions.children[1].setPosition(0, 0);
+                this.myOptions.children[1].setPosition(0, -200);
             }
         }
         else {
@@ -1015,7 +1002,6 @@ var NewClass = /** @class */ (function (_super) {
         var paddingBetweenOptions = 10;
         var totalHeight = 0;
         var maxWidth = 0;
-        // Calculate the total height and the maximum width of the options
         for (var i = 0; i < optionNodes.length; i++) {
             var option = optionNodes[i];
             var optionWidth = option.width;

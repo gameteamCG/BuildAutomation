@@ -3121,8 +3121,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 450,
-      "height": 450
+      "width": 501,
+      "height": 501
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3140,8 +3140,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        0.6,
+        0.6,
         1
       ]
     },
@@ -3183,8 +3183,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 300,
-      "height": 200
+      "width": 420,
+      "height": 112.99999999999999
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3237,21 +3237,21 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 35,
-    "_lineHeight": 40,
+    "_fontSize": 45,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "755fbf85-3ec4-42a0-a730-ea432935f228"
+      "__uuid__": "77537a50-eb9e-4e43-b8f5-28ac98c7d9fc"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
-    "_styleFlags": 1,
+    "_styleFlags": 0,
     "_underlineHeight": 0,
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 3,
     "_N$cacheMode": 0,
     "_id": "09V6XPNGFPJZxvinyG2qKH"
   },
@@ -3324,7 +3324,7 @@
     "node": {
       "__id__": 70
     },
-    "_enabled": true,
+    "_enabled": false,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
@@ -3362,9 +3362,11 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "7cf4d7f0-1c8a-42fe-b70a-796b4baf56ab"
+    },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -3555,7 +3557,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 165,
+      "width": 300,
       "height": 165
     },
     "_anchorPoint": {
@@ -3609,8 +3611,8 @@
     "_dstBlendFactor": 771,
     "_string": "f",
     "_N$string": "f",
-    "_fontSize": 100,
-    "_lineHeight": 100,
+    "_fontSize": 35,
+    "_lineHeight": 40,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "9e48cf96-557c-4032-bbbc-dac83dddce47"
@@ -3623,7 +3625,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 3,
     "_N$cacheMode": 0,
     "_id": "2ccp5WLGFGcbrgZV9Fr+YA"
   },
