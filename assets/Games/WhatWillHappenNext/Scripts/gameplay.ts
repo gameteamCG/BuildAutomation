@@ -9,6 +9,12 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class NewClass extends cc.Component {
 
+    @property(cc.AudioClip)
+    public podarPositive: cc.AudioClip[] = [];
+
+    @property(cc.AudioClip)
+    public podarNegative: cc.AudioClip[] = [];
+
     @property(cc.SpriteFrame)
     private extraImg: cc.SpriteFrame = null;
 
@@ -286,6 +292,10 @@ export default class NewClass extends cc.Component {
             this.negativeAudio = this.stallionNegative;
         }
 
+        else if (startGame.Instance.jockeyName == "Podar") {
+            this.positiveAudio = this.podarPositive;
+            this.negativeAudio = this.podarNegative;
+        }
     }
 
     private getRandomNumber(min: number, max: number): number {

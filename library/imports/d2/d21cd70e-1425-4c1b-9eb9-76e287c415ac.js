@@ -334,7 +334,7 @@ var startGame = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             console.log("jockey name = ", _this.jockeyName);
             if (_this.jockeyName == "Podar") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
+                cc.find("Canvas").getChildByName("bg").getChildByName("Podar").active = true;
             }
             else if (_this.jockeyName == "stallion") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;

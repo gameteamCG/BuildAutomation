@@ -31,6 +31,8 @@ var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.podarPositive = [];
+        _this.podarNegative = [];
         _this.extraImg = null;
         _this.dropNode = null;
         _this.podar_font = null;
@@ -248,6 +250,10 @@ var NewClass = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "stallion") {
             this.positiveAudio = this.stallionPositive;
             this.negativeAudio = this.stallionNegative;
+        }
+        else if (StartGame_1.default.Instance.jockeyName == "Podar") {
+            this.positiveAudio = this.podarPositive;
+            this.negativeAudio = this.podarNegative;
         }
     };
     NewClass.prototype.getRandomNumber = function (min, max) {
@@ -916,6 +922,12 @@ var NewClass = /** @class */ (function (_super) {
             this.positionArray.push(cc.v2(optionNodes[i].x, optionNodes[i].y));
         }
     };
+    __decorate([
+        property(cc.AudioClip)
+    ], NewClass.prototype, "podarPositive", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], NewClass.prototype, "podarNegative", void 0);
     __decorate([
         property(cc.SpriteFrame)
     ], NewClass.prototype, "extraImg", void 0);

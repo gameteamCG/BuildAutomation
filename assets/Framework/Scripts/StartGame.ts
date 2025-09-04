@@ -369,7 +369,7 @@ export default class startGame extends cc.Component {
             console.log("jockey name = ", this.jockeyName);
 
             if (this.jockeyName == "Podar") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
+                cc.find("Canvas").getChildByName("bg").getChildByName("Podar").active = true;
             }
             else if (this.jockeyName == "stallion") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
