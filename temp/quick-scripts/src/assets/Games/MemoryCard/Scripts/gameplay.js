@@ -362,7 +362,7 @@ var NewClass = /** @class */ (function (_super) {
         var objHeight = 295;
         var totalWidth = columns * (objHeight + offsetX);
         var totalHeight = rows * (objWidth + offsetX);
-        var scaleFactor = 1;
+        var scaleFactor = 0.9;
         var spacing = 0;
         if (columns == 3) {
             spacing = 50;
@@ -472,14 +472,16 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("Option").children.forEach(function (element) {
                 element.getComponent(cc.Button).interactable = true;
             });
-            if (globalVariables_1.default.Instance.currentLevel == 1) {
-                var hand = this.node.getChildByName("hand");
-                console.log("answer array num = ", this.answerArray[0]);
-                hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                hand.setPosition(0, -30);
-                hand.setParentWithSamePos(this.node);
-                hand.getComponent(cc.Animation).play();
-            }
+            this.scheduleOnce(function () {
+                if (globalVariables_1.default.Instance.currentLevel == 1) {
+                    var hand = _this.node.getChildByName("hand");
+                    console.log("answer array num = ", _this.answerArray[0]);
+                    hand.setParent(_this.node.getChildByName("Option").getChildByName("1"));
+                    hand.setPosition(0, -30);
+                    hand.setParentWithSamePos(_this.node);
+                    hand.getComponent(cc.Animation).play();
+                }
+            }, 1.5);
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "supercub") {
             var intoAnim = "intro";
@@ -497,14 +499,16 @@ var NewClass = /** @class */ (function (_super) {
                     _this.node.getChildByName("Option").children.forEach(function (element) {
                         element.getComponent(cc.Button).interactable = true;
                     });
-                    if (globalVariables_1.default.Instance.currentLevel == 1) {
-                        var hand = _this.node.getChildByName("hand");
-                        console.log("answer array num = ", _this.answerArray[0]);
-                        hand.setParent(_this.node.getChildByName("Option").getChildByName("1"));
-                        hand.setPosition(0, -30);
-                        hand.setParentWithSamePos(_this.node);
-                        hand.getComponent(cc.Animation).play();
-                    }
+                    _this.scheduleOnce(function () {
+                        if (globalVariables_1.default.Instance.currentLevel == 1) {
+                            var hand = _this.node.getChildByName("hand");
+                            console.log("answer array num = ", _this.answerArray[0]);
+                            hand.setParent(_this.node.getChildByName("Option").getChildByName("1"));
+                            hand.setPosition(0, -30);
+                            hand.setParentWithSamePos(_this.node);
+                            hand.getComponent(cc.Animation).play();
+                        }
+                    }, 1.5);
                 }
                 else {
                     cc.audioEngine.playEffect(_this.questionSound[0], false);
@@ -516,14 +520,16 @@ var NewClass = /** @class */ (function (_super) {
                             _this.node.getChildByName("Option").children.forEach(function (element) {
                                 element.getComponent(cc.Button).interactable = true;
                             });
-                            if (globalVariables_1.default.Instance.currentLevel == 1) {
-                                var hand = _this.node.getChildByName("hand");
-                                console.log("answer array num = ", _this.answerArray[0]);
-                                hand.setParent(_this.node.getChildByName("Option").getChildByName("1"));
-                                hand.setPosition(0, -30);
-                                hand.setParentWithSamePos(_this.node);
-                                hand.getComponent(cc.Animation).play();
-                            }
+                            _this.scheduleOnce(function () {
+                                if (globalVariables_1.default.Instance.currentLevel == 1) {
+                                    var hand = _this.node.getChildByName("hand");
+                                    console.log("answer array num = ", _this.answerArray[0]);
+                                    hand.setParent(_this.node.getChildByName("Option").getChildByName("1"));
+                                    hand.setPosition(0, -30);
+                                    hand.setParentWithSamePos(_this.node);
+                                    hand.getComponent(cc.Animation).play();
+                                }
+                            }, 1.5);
                         }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
                     }, _this.questionSound[0].duration);
                 }
