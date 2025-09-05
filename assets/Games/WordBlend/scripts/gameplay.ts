@@ -79,6 +79,8 @@ export default class NewClass extends cc.Component {
     private supercubPositive: cc.AudioClip[] = [];
     @property(cc.AudioClip)
     private supercubNegative: cc.AudioClip[] = [];
+    @property(cc.SpriteFrame)
+    private hintimg: cc.SpriteFrame[] = [];
 
     private isSecondInteraction: boolean = true;
     private interactionType: string = "1";
@@ -473,12 +475,12 @@ export default class NewClass extends cc.Component {
 
         }
 
-        for (let i = 0; i < this.options.childrenCount; i++) {
-            let clone = cc.instantiate(this.options.children[i]);
-            clone.setParent(this.node.getChildByName("hint").getChildByName("hint"));
-            clone.setPosition(this.options.children[i].getPosition());
-        }
-
+        // for (let i = 0; i < this.options.childrenCount; i++) {
+        //     let clone = cc.instantiate(this.options.children[i]);
+        //     clone.setParent(this.node.getChildByName("hint").getChildByName("hint"));
+        //     clone.setPosition(this.options.children[i].getPosition());
+        // }
+        this.node.getChildByName("hint").children[1].getComponent(cc.Sprite).spriteFrame = this.hintimg[this.currScene - 1];
         let _randomNumber: number = 1;
         this.options.children.forEach(element => {
             element.active = true;
@@ -502,18 +504,14 @@ export default class NewClass extends cc.Component {
                             cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
                         }
                         let handNode = this.node.getChildByName("handClick");
+                        this.node.getChildByName("Qbar").children[1].getComponent(cc.Button).interactable = true;
                         if (this.currScene <= 3) {
                             handNode.active = true;
                             handNode.getComponent(cc.Animation).play();
                             handNode.getComponent(cc.Animation).on("finished", () => {
-
                             })
-
                         }
                         this.scheduleOnce(() => {
-
-
-
                             this.scheduleOnce(() => {
                                 this.interactable = true;
                                 this.scheduleOnce(this.sheduleQuestionClip, 10);
@@ -546,14 +544,12 @@ export default class NewClass extends cc.Component {
         }
     }
     repeatQuestionClicked(_event: cc.Event) {
-        if (!this.questionPlaying) {
-            _event.target.getComponent(cc.Button).interactable = false;
-            this.questionPlaying = true;
-            cc.audioEngine.playEffect(this.wordVoIteration, false);
-            this.scheduleOnce(() => {
-                this.questionPlaying = false;
-                _event.target.getComponent(cc.Button).interactable = true;
-            }, this.wordVoIteration.duration);
+        cc.audioEngine.stopAllEffects();
+        if (this.node.getChildByName("hint").active == true) {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
         }
     }
     rotatePuzzleImage(_node: cc.Node) {
@@ -583,7 +579,7 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            cc.tween(this.options).to(0.3, { x: 0, scaleX: 1, scaleY: 1 }).start();
 
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
@@ -751,7 +747,7 @@ export default class NewClass extends cc.Component {
 
     OptionsAppear() {
 
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scale: 1 }).start();
+        cc.tween(this.options).to(0.3, { x: this.options.x - 200, scale: 1 }).start();
 
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(() => {
@@ -778,7 +774,7 @@ export default class NewClass extends cc.Component {
                 }
             });
 
-            cc.tween(_node).to(1, { y: 0 }, { easing: "sineInOut" }).start();
+            cc.tween(_node).to(1, { y: -50 }, { easing: "sineInOut" }).start();
 
             console.log("correctAnswer--" + this.currScene);
             // console.log("correctAnswer--" + this.currScene);
@@ -1017,9 +1013,9 @@ export default class NewClass extends cc.Component {
             this.myOptions.children[1].children[0].width = 300;
             this.myOptions.children[2].children[0].width = 300;
             if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions == 3) {
-                this.myOptions.children[0].setPosition(0, 200);
-                this.myOptions.children[1].setPosition(0, 0);
-                this.myOptions.children[1].setPosition(0, -200);
+                this.myOptions.children[0].setPosition(0, 150);
+                this.myOptions.children[1].setPosition(0, -50);
+                this.myOptions.children[2].setPosition(0, -250);
             }
         }
         else {

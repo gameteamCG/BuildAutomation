@@ -62,6 +62,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.tlcNegative = [];
         _this.supercubPositive = [];
         _this.supercubNegative = [];
+        _this.hintimg = [];
         _this.isSecondInteraction = true;
         _this.interactionType = "1";
         _this.currentJockey = null;
@@ -415,11 +416,12 @@ var NewClass = /** @class */ (function (_super) {
             this.options.children[14].setPosition((this.options.children[14].width / 2), -this.options.children[14].height - threshHold);
             this.options.children[15].setPosition((this.options.children[15].width + threshHold), -this.options.children[15].height - threshHold);
         }
-        for (var i = 0; i < this.options.childrenCount; i++) {
-            var clone = cc.instantiate(this.options.children[i]);
-            clone.setParent(this.node.getChildByName("hint").getChildByName("hint"));
-            clone.setPosition(this.options.children[i].getPosition());
-        }
+        // for (let i = 0; i < this.options.childrenCount; i++) {
+        //     let clone = cc.instantiate(this.options.children[i]);
+        //     clone.setParent(this.node.getChildByName("hint").getChildByName("hint"));
+        //     clone.setPosition(this.options.children[i].getPosition());
+        // }
+        this.node.getChildByName("hint").children[1].getComponent(cc.Sprite).spriteFrame = this.hintimg[this.currScene - 1];
         var _randomNumber = 1;
         this.options.children.forEach(function (element) {
             element.active = true;
@@ -442,6 +444,7 @@ var NewClass = /** @class */ (function (_super) {
                     cc.audioEngine.playEffect(_this.puzzleQuestionVo, false);
                 }
                 var handNode = _this.node.getChildByName("handClick");
+                _this.node.getChildByName("Qbar").children[1].getComponent(cc.Button).interactable = true;
                 if (_this.currScene <= 3) {
                     handNode.active = true;
                     handNode.getComponent(cc.Animation).play();
@@ -477,15 +480,12 @@ var NewClass = /** @class */ (function (_super) {
         }
     };
     NewClass.prototype.repeatQuestionClicked = function (_event) {
-        var _this = this;
-        if (!this.questionPlaying) {
-            _event.target.getComponent(cc.Button).interactable = false;
-            this.questionPlaying = true;
-            cc.audioEngine.playEffect(this.wordVoIteration, false);
-            this.scheduleOnce(function () {
-                _this.questionPlaying = false;
-                _event.target.getComponent(cc.Button).interactable = true;
-            }, this.wordVoIteration.duration);
+        cc.audioEngine.stopAllEffects();
+        if (this.node.getChildByName("hint").active == true) {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
         }
     };
     NewClass.prototype.rotatePuzzleImage = function (_node) {
@@ -517,7 +517,7 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            cc.tween(this.options).to(0.3, { x: 0, scaleX: 1, scaleY: 1 }).start();
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
                 // cc.audioEngine.playEffect(this.puzzleVoIteration, false);
@@ -681,7 +681,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.OptionsAppear = function () {
         var _this = this;
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scale: 1 }).start();
+        cc.tween(this.options).to(0.3, { x: this.options.x - 200, scale: 1 }).start();
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(function () {
             _this.myOptions.active = true;
@@ -702,7 +702,7 @@ var NewClass = /** @class */ (function (_super) {
                     element.active = false;
                 }
             });
-            cc.tween(_node).to(1, { y: 0 }, { easing: "sineInOut" }).start();
+            cc.tween(_node).to(1, { y: -50 }, { easing: "sineInOut" }).start();
             console.log("correctAnswer--" + this.currScene);
             // console.log("correctAnswer--" + this.currScene);
             // cc.audioEngine.playEffect(this.correctButton, false);
@@ -925,9 +925,9 @@ var NewClass = /** @class */ (function (_super) {
             this.myOptions.children[1].children[0].width = 300;
             this.myOptions.children[2].children[0].width = 300;
             if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions == 3) {
-                this.myOptions.children[0].setPosition(0, 200);
-                this.myOptions.children[1].setPosition(0, 0);
-                this.myOptions.children[1].setPosition(0, -200);
+                this.myOptions.children[0].setPosition(0, 150);
+                this.myOptions.children[1].setPosition(0, -50);
+                this.myOptions.children[2].setPosition(0, -250);
             }
         }
         else {
@@ -1127,6 +1127,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "supercubNegative", void 0);
+    __decorate([
+        property(cc.SpriteFrame)
+    ], NewClass.prototype, "hintimg", void 0);
     NewClass = __decorate([
         ccclass
     ], NewClass);
