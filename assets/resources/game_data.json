@@ -10,7 +10,7 @@
     },
     "questionData": [
         {
-            "questionText": "Purple colour",
+            "questionText": "Golden colour",
             "questionImageName": "basket-500.png",
             "questionAudioName": "Collect the purple colour picture.mp3",
             "shouldPlayQuestionAudio": true,
@@ -29,7 +29,7 @@
             "correctAnswerNum": "1"
         },
         {
-            "questionText": "Purple colour",
+            "questionText": "Golden colour",
             "questionImageName": "basket-500.png",
             "questionAudioName": "Collect the purple colour picture.mp3",
             "shouldPlayQuestionAudio": true,
@@ -48,7 +48,7 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "Purple colour",
+            "questionText": "Golden colour",
             "questionImageName": "basket-500.png",
             "questionAudioName": "Collect the purple colour picture.mp3",
             "shouldPlayQuestionAudio": true,
@@ -67,7 +67,7 @@
             "correctAnswerNum": "1"
         },
         {
-            "questionText": "Purple colour",
+            "questionText": "Golden colour",
             "questionImageName": "basket-500.png",
             "questionAudioName": "Collect the purple colour picture.mp3",
             "shouldPlayQuestionAudio": true,
@@ -86,7 +86,7 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "Purple colour",
+            "questionText": "Golden colour",
             "questionImageName": "basket-500.png",
             "questionAudioName": "Collect the purple colour picture.mp3",
             "shouldPlayQuestionAudio": true,
@@ -105,7 +105,7 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "Purple colour",
+            "questionText": "Golden colour",
             "questionImageName": "basket-500.png",
             "questionAudioName": "Collect the purple colour picture.mp3",
             "shouldPlayQuestionAudio": true,
@@ -124,7 +124,7 @@
             "correctAnswerNum": "1"
         },
         {
-            "questionText": "Purple colour",
+            "questionText": "Golden colour",
             "questionImageName": "basket-500.png",
             "questionAudioName": "Collect the purple colour picture.mp3",
             "shouldPlayQuestionAudio": true,
