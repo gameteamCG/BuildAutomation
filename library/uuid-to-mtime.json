@@ -1220,8 +1220,8 @@
     "relativePath": "Games\\Podar_ Day 111 - Video Quiz (solar system)\\L5 (2).mp3"
   },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1757314182341,
-    "meta": 1757314182346,
+    "asset": 1757325989743,
+    "meta": 1757325989748,
     "relativePath": "Games\\Scenes\\video.fire"
   },
   "456cfa32-849a-4a2e-b948-4c7983ad00a4": {
@@ -4070,8 +4070,8 @@
     "relativePath": "Framework\\Framework\\Prefabs\\Progressbar"
   },
   "30480fc2-0800-4b09-b93a-60b69648b0f9": {
-    "asset": 1757313795661,
-    "meta": 1757313985008,
+    "asset": 1757314148439,
+    "meta": 1757325243693,
     "relativePath": "resources\\images"
   },
   "9836134e-b892-4283-b6b2-78b5acf3ed45": {
@@ -4464,14 +4464,34 @@
     "meta": 1757311771588,
     "relativePath": "model\\primitives.fbx"
   },
-  "07d96332-6862-40fa-89cd-0538ef018bac": {
-    "asset": 1757314141086,
-    "meta": 1757314148451,
+  "714c24bf-782f-4c7c-b78e-1c965028e201": {
+    "asset": 1757325321987,
+    "meta": 1757325323234,
+    "relativePath": "resources\\game_data.json"
+  },
+  "50092429-91dc-43d1-8cf9-3334e8d389fb": {
+    "asset": 1757325333014,
+    "meta": 1757325340122,
     "relativePath": "resources\\images\\title.png"
   },
-  "714c24bf-782f-4c7c-b78e-1c965028e201": {
-    "asset": 1757314160010,
-    "meta": 1757314162139,
-    "relativePath": "resources\\game_data.json"
+  "e7da470a-32e5-4803-9bbb-a1c41a41f254": {
+    "asset": 1757325824959,
+    "meta": 1757325824968,
+    "relativePath": "Games\\Final_animations\\Crayon"
+  },
+  "7c72c675-1a4e-4aef-8589-653d23f149a8": {
+    "asset": 1757325824961,
+    "meta": 1757325825063,
+    "relativePath": "Games\\Final_animations\\Crayon\\Crayon.json"
+  },
+  "d7fabe77-4ff1-4285-a07a-2181ed3dd06c": {
+    "asset": 1757325824959,
+    "meta": 1757325824986,
+    "relativePath": "Games\\Final_animations\\Crayon\\Crayon.atlas"
+  },
+  "e2b27112-5851-42bc-ad49-2960016f070e": {
+    "asset": 1757325824960,
+    "meta": 1757325825041,
+    "relativePath": "Games\\Final_animations\\Crayon\\Crayon.png"
   }
 }
