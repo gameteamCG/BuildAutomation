@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "18fc3154-3571-41db-a617-705046516bb1",
+  "uuid": "a70823a9-7ca1-4985-b931-fda18b821fa9",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "button icon-62": {
       "ver": "1.0.6",
-      "uuid": "50730560-5cdf-443e-a2d1-976d6dc2898e",
+      "uuid": "61baf51e-dc55-44de-a34b-eacf9bd6768d",
       "importer": "sprite-frame",
-      "rawTextureUuid": "18fc3154-3571-41db-a617-705046516bb1",
+      "rawTextureUuid": "a70823a9-7ca1-4985-b931-fda18b821fa9",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

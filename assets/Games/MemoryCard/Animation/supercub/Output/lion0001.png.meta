@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "546de91c-016c-4690-b70b-507fa94965a2",
+  "uuid": "c730873a-d113-454b-81d0-100082d48a17",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "lion0001": {
       "ver": "1.0.6",
-      "uuid": "8a140a66-b914-46d3-9bce-3dbb37608e55",
+      "uuid": "321bb7dc-cb91-4a14-9734-412d634c230b",
       "importer": "sprite-frame",
-      "rawTextureUuid": "546de91c-016c-4690-b70b-507fa94965a2",
+      "rawTextureUuid": "c730873a-d113-454b-81d0-100082d48a17",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

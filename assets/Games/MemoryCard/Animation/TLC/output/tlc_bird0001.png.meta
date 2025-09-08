@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "2e8361f5-2927-4dea-bf48-61fc64b9b428",
+  "uuid": "54812663-247e-495d-aefb-356cd6ec2a0f",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "tlc_bird0001": {
       "ver": "1.0.6",
-      "uuid": "d088b82c-1453-443a-bf51-41b004cc70a9",
+      "uuid": "f53a5c58-92f4-4ce8-acc4-4285386084ce",
       "importer": "sprite-frame",
-      "rawTextureUuid": "2e8361f5-2927-4dea-bf48-61fc64b9b428",
+      "rawTextureUuid": "54812663-247e-495d-aefb-356cd6ec2a0f",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

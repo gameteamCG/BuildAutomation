@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "72b1097b-aa09-4a66-8375-3a3a7ce3d5f5",
+  "uuid": "7ebbd74e-fc1b-46a3-b223-ea51879d7e52",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "Muskaan": {
       "ver": "1.0.6",
-      "uuid": "f501057d-41ad-4511-ad00-c4596775e235",
+      "uuid": "ea1df08d-c4c1-4ca9-b22c-275d5f1860bb",
       "importer": "sprite-frame",
-      "rawTextureUuid": "72b1097b-aa09-4a66-8375-3a3a7ce3d5f5",
+      "rawTextureUuid": "7ebbd74e-fc1b-46a3-b223-ea51879d7e52",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

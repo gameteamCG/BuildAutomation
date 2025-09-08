@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jockey",
+    "texture": "656d962c-79c9-4274-9850-0c41fbd460f4",
+    "atlas": "",
+    "rect": [
+      25,
+      22,
+      288,
+      331
+    ],
+    "offset": [
+      5.5,
+      4.5
+    ],
+    "originalSize": [
+      327,
+      384
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

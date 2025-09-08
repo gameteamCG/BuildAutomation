@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BABLI",
+    "texture": "424410dd-a307-4b62-9acb-c43618ab5914",
+    "atlas": "",
+    "rect": [
+      3,
+      2,
+      1018,
+      124
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1024,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

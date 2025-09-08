@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "6b29905f-afb4-429d-b03a-45d244b19dd3",
+  "uuid": "098c849b-55db-4b77-9c4f-c872e658d023",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "fill progress bar (1)": {
       "ver": "1.0.6",
-      "uuid": "342a6dda-f85a-4293-9e97-e1a3b16a09f0",
+      "uuid": "71b05953-86f5-4f3c-a4e3-47e6b2c28505",
       "importer": "sprite-frame",
-      "rawTextureUuid": "6b29905f-afb4-429d-b03a-45d244b19dd3",
+      "rawTextureUuid": "098c849b-55db-4b77-9c4f-c872e658d023",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

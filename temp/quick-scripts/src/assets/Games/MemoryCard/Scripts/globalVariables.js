@@ -1,5 +1,5 @@
 "use strict";
-cc._RF.push(module, 'f6f528Ta8lKfpYTwz7oqVtg', 'globalVariables');
+cc._RF.push(module, '4484dyA5/JAOrJYGnPlmzc2', 'globalVariables');
 // Games/MemoryCard/Scripts/globalVariables.ts
 
 "use strict";

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "badge",
+    "texture": "1004c7b4-e69d-415b-b02d-ad4753510be6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      250,
+      246
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      246
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 "use strict";
-cc._RF.push(module, '12188wrDUtGT6+DUikGtBfF', 'endScreen');
+cc._RF.push(module, 'e8b100H905JwIpEmIYMoMgi', 'endScreen');
 // Games/MemoryCard/Scripts/endScreen.ts
 
 "use strict";

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blanket",
+    "texture": "0d2e9d53-9689-4866-9580-607542c59135",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1600,
+      960
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1600,
+      960
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "3eb7e153-1213-4777-a23a-80fa23ead79c",
+  "uuid": "1004c7b4-e69d-415b-b02d-ad4753510be6",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "badge": {
       "ver": "1.0.6",
-      "uuid": "51fb488d-c3b5-4a46-8fa9-07dba5e7dca3",
+      "uuid": "7766684f-5683-4b74-814d-399e6df28d7c",
       "importer": "sprite-frame",
-      "rawTextureUuid": "3eb7e153-1213-4777-a23a-80fa23ead79c",
+      "rawTextureUuid": "1004c7b4-e69d-415b-b02d-ad4753510be6",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

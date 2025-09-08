@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "button icon-67",
+    "texture": "8f2dbbbf-c4d8-4a07-a7b5-419692f65036",
+    "atlas": "",
+    "rect": [
+      1,
+      4,
+      79,
+      73
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      81,
+      81
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

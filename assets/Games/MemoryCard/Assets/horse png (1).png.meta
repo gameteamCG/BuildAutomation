@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "efb660a4-f3e1-4d88-8cc2-279d1b115abf",
+  "uuid": "0aaee7c1-e582-4eaa-b844-8c4545fa876d",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "horse png (1)": {
       "ver": "1.0.6",
-      "uuid": "1d7be043-cf5c-4938-840b-cc4f93a6b541",
+      "uuid": "b8daf861-77eb-4801-9517-b213d0e42172",
       "importer": "sprite-frame",
-      "rawTextureUuid": "efb660a4-f3e1-4d88-8cc2-279d1b115abf",
+      "rawTextureUuid": "0aaee7c1-e582-4eaa-b844-8c4545fa876d",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

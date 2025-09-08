@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "1d46555e-8b29-4731-9b47-959ceaaca2b2",
+  "uuid": "77e62b0e-1af8-47bf-ad97-9f8ac0b8bc85",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "Confetti_115": {
       "ver": "1.0.6",
-      "uuid": "85e08abd-c1f3-4b69-a519-8ee1ceca279d",
+      "uuid": "4f823073-2f53-43dc-a1dc-b73c38e9a4ce",
       "importer": "sprite-frame",
-      "rawTextureUuid": "1d46555e-8b29-4731-9b47-959ceaaca2b2",
+      "rawTextureUuid": "77e62b0e-1af8-47bf-ad97-9f8ac0b8bc85",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

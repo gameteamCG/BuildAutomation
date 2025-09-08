@@ -1,5 +1,5 @@
 "use strict";
-cc._RF.push(module, 'e08b0tRP5pPcZvun88UXG3h', 'ProgressBar');
+cc._RF.push(module, 'c3f18s87U1PYps0tphh6Zqi', 'ProgressBar');
 // Framework/Prefabs/ProgressBar/Scripts/ProgressBar.ts
 
 "use strict";

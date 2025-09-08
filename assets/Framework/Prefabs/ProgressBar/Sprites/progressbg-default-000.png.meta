@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "13e98c23-97df-420a-88f2-9604bcb105cf",
+  "uuid": "b2c93dfa-0bc4-4280-b9bb-1ad337effcfa",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "progressbg-default-000": {
       "ver": "1.0.6",
-      "uuid": "7ee82bd1-5754-467b-bb6e-f50927d2a589",
+      "uuid": "9dbc00b9-b92e-47ed-8e2e-6d9af58061bc",
       "importer": "sprite-frame",
-      "rawTextureUuid": "13e98c23-97df-420a-88f2-9604bcb105cf",
+      "rawTextureUuid": "b2c93dfa-0bc4-4280-b9bb-1ad337effcfa",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

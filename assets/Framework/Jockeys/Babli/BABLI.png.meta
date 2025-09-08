@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "53b7f4ab-776f-4616-bd49-55a3fc4bd215",
+  "uuid": "424410dd-a307-4b62-9acb-c43618ab5914",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "BABLI": {
       "ver": "1.0.6",
-      "uuid": "b1edf969-c4e4-4d75-a2ad-51014c823fe7",
+      "uuid": "4ad37d42-a379-4db1-a483-6aa2f0653c3c",
       "importer": "sprite-frame",
-      "rawTextureUuid": "53b7f4ab-776f-4616-bd49-55a3fc4bd215",
+      "rawTextureUuid": "424410dd-a307-4b62-9acb-c43618ab5914",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

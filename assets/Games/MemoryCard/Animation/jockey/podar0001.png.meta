@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "63c3fed9-a590-4b94-9e00-fa513039b3af",
+  "uuid": "c7f3f0ee-1e08-4e8e-9331-1553b73f473f",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "podar0001": {
       "ver": "1.0.6",
-      "uuid": "17d27ed0-281b-4e64-9857-ddef2d4a6d79",
+      "uuid": "4b4a8ee7-2414-4252-9ad3-024e422cb99a",
       "importer": "sprite-frame",
-      "rawTextureUuid": "63c3fed9-a590-4b94-9e00-fa513039b3af",
+      "rawTextureUuid": "c7f3f0ee-1e08-4e8e-9331-1553b73f473f",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

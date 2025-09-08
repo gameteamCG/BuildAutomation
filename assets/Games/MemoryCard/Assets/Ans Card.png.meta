@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "38e73e8d-5a0d-4ac2-a9ec-d7340793aff4",
+  "uuid": "b1b9fb88-3f0f-48f3-a758-c88b1de51cf2",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "Ans Card": {
       "ver": "1.0.6",
-      "uuid": "06dd4157-4f14-44e1-8963-dfee4c243ec0",
+      "uuid": "ecb84d59-35f5-488b-9edb-6966b8dd4cfe",
       "importer": "sprite-frame",
-      "rawTextureUuid": "38e73e8d-5a0d-4ac2-a9ec-d7340793aff4",
+      "rawTextureUuid": "b1b9fb88-3f0f-48f3-a758-c88b1de51cf2",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

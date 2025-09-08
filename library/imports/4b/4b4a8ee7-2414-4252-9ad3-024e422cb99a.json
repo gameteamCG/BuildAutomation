@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "podar0001",
+    "texture": "c7f3f0ee-1e08-4e8e-9331-1553b73f473f",
+    "atlas": "",
+    "rect": [
+      2,
+      3,
+      1902,
+      1016
+    ],
+    "offset": [
+      -71,
+      1
+    ],
+    "originalSize": [
+      2048,
+      1024
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
