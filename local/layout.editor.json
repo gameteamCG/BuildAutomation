@@ -88,9 +88,7 @@
         "cocos-services",
         "node-library"
       ]
-    },
-    " common-asset-worker-worker": {},
-    "window-1757306702704": {}
+    }
   },
   "panels": {
     "project-settings": {
