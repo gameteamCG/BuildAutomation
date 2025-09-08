@@ -8168,7 +8168,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "positive_1",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
