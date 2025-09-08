@@ -77,18 +77,9 @@
           }
         ]
       },
-      "panels": [
-        "hierarchy",
-        "assets",
-        "scene",
-        "console",
-        "timeline",
-        "game-window",
-        "inspector",
-        "cocos-services",
-        "node-library"
-      ]
-    }
+      "panels": []
+    },
+    " load-media-worker": {}
   },
   "panels": {
     "project-settings": {
