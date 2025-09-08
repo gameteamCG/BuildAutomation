@@ -1220,8 +1220,8 @@
     "relativePath": "Games\\Podar_ Day 111 - Video Quiz (solar system)\\L5 (2).mp3"
   },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1757332889770,
-    "meta": 1757332889775,
+    "asset": 1757333558423,
+    "meta": 1757333558428,
     "relativePath": "Games\\Scenes\\video.fire"
   },
   "456cfa32-849a-4a2e-b948-4c7983ad00a4": {
@@ -4070,8 +4070,8 @@
     "relativePath": "Framework\\Framework\\Prefabs\\Progressbar"
   },
   "30480fc2-0800-4b09-b93a-60b69648b0f9": {
-    "asset": 1757331314482,
-    "meta": 1757332821245,
+    "asset": 1757332874360,
+    "meta": 1757333346022,
     "relativePath": "resources\\images"
   },
   "9836134e-b892-4283-b6b2-78b5acf3ed45": {
@@ -4485,13 +4485,93 @@
     "relativePath": "Games\\Final_animations\\Crayon\\Crayon.png"
   },
   "714c24bf-782f-4c7c-b78e-1c965028e201": {
-    "asset": 1757332859607,
-    "meta": 1757332861291,
+    "asset": 1757333360552,
+    "meta": 1757333361870,
     "relativePath": "resources\\game_data.json"
   },
-  "efa7148b-411b-4f05-933f-80dd468642df": {
-    "asset": 1757332868481,
-    "meta": 1757332874372,
+  "3b3ef6e2-9f6c-4275-b32f-3883c431cd30": {
+    "asset": 1757333369477,
+    "meta": 1757333378846,
     "relativePath": "resources\\images\\title.png"
+  },
+  "94411386-cc91-425e-8fc6-806f900ce1c6": {
+    "asset": 1757333444352,
+    "meta": 1757333444364,
+    "relativePath": "Games\\Final_animations\\3Penguin"
+  },
+  "a9eb564e-8c04-4baf-af77-608a21912515": {
+    "asset": 1757333444355,
+    "meta": 1757333444365,
+    "relativePath": "Games\\Final_animations\\3Penguin\\audio"
+  },
+  "4cbff2b5-4e5d-46cc-afd6-7d485b0048f8": {
+    "asset": 1757333444363,
+    "meta": 1757333444365,
+    "relativePath": "Games\\Final_animations\\3Penguin\\output"
+  },
+  "dc6382b0-d12f-4464-b39f-1822dcd129a7": {
+    "asset": 1757333444350,
+    "meta": 1757333444819,
+    "relativePath": "Games\\Final_animations\\3Penguin\\output\\Muskaan.json"
+  },
+  "dc16d172-b837-4165-87af-8824b63114c4": {
+    "asset": 1757333444346,
+    "meta": 1757333444403,
+    "relativePath": "Games\\Final_animations\\3Penguin\\output\\Muskaan.atlas"
+  },
+  "82677719-0aae-467e-8300-d089ec014f49": {
+    "asset": 1757333444349,
+    "meta": 1757333444431,
+    "relativePath": "Games\\Final_animations\\3Penguin\\output\\Muskaan.png"
+  },
+  "f5d80571-92b0-4a4d-883f-f68b8f7e1a1c": {
+    "asset": 1757333444346,
+    "meta": 1757333444792,
+    "relativePath": "Games\\Final_animations\\3Penguin\\audio\\positive_3.mp3"
+  },
+  "0ceb9ba6-45b8-46b2-ad6b-5873994ef4c2": {
+    "asset": 1757333444347,
+    "meta": 1757333444793,
+    "relativePath": "Games\\Final_animations\\3Penguin\\audio\\positive_2.mp3"
+  },
+  "aa3adae2-de4e-4252-a252-3d9dc1ed88ab": {
+    "asset": 1757333444346,
+    "meta": 1757333444793,
+    "relativePath": "Games\\Final_animations\\3Penguin\\audio\\positive_1.mp3"
+  },
+  "ceead7be-861c-4394-8623-db7e97ebf778": {
+    "asset": 1757333444346,
+    "meta": 1757333444794,
+    "relativePath": "Games\\Final_animations\\3Penguin\\audio\\negative_1.mp3"
+  },
+  "f155d715-bc4b-4b59-9365-230ca6e4eb38": {
+    "asset": 1757333444346,
+    "meta": 1757333444795,
+    "relativePath": "Games\\Final_animations\\3Penguin\\audio\\positive_4.mp3"
+  },
+  "1f738cfc-b59e-49fd-8095-32a65871534e": {
+    "asset": 1757333444347,
+    "meta": 1757333444796,
+    "relativePath": "Games\\Final_animations\\3Penguin\\audio\\positive_5.mp3"
+  },
+  "184fbc67-c511-4f0e-9830-01734e07e0e5": {
+    "asset": 1757333444346,
+    "meta": 1757333444796,
+    "relativePath": "Games\\Final_animations\\3Penguin\\audio\\negative_2.mp3"
+  },
+  "bc0afd45-a5f2-4b41-887a-50281d808a08": {
+    "asset": 1757333444347,
+    "meta": 1757333444797,
+    "relativePath": "Games\\Final_animations\\3Penguin\\audio\\negative_5.mp3"
+  },
+  "774a0728-a337-46b6-beb6-1f29fb23d8d0": {
+    "asset": 1757333444347,
+    "meta": 1757333444798,
+    "relativePath": "Games\\Final_animations\\3Penguin\\audio\\negative_4.mp3"
+  },
+  "a6a0b68e-cfa4-420d-b4de-6be3124c6bc0": {
+    "asset": 1757333444346,
+    "meta": 1757333444799,
+    "relativePath": "Games\\Final_animations\\3Penguin\\audio\\negative_3.mp3"
   }
 }
