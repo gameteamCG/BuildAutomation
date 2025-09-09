@@ -7845,7 +7845,7 @@
         "__id__": 173
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 181
@@ -8005,7 +8005,7 @@
         "__id__": 170
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 172
@@ -8022,8 +8022,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 610.46,
-      "height": 988.66
+      "width": 431,
+      "height": 557.68
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8041,8 +8041,8 @@
         0,
         0,
         1,
-        0.3,
-        0.3,
+        0.5,
+        0.5,
         1
       ]
     },
@@ -8084,8 +8084,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1172,
-      "height": 222
+      "width": 800,
+      "height": 180
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8097,14 +8097,14 @@
       "ctor": "Float64Array",
       "array": [
         37.54667,
-        1928.45333,
+        868.45333,
         0,
         0,
         0,
         0,
         1,
-        2.33333,
-        2.33333,
+        2.13333,
+        2.13333,
         2.33333
       ]
     },
@@ -8140,7 +8140,7 @@
       "__uuid__": "98d13250-d21d-430f-a10e-c42065130ab2"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -8168,7 +8168,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "positive_1",
+    "defaultAnimation": "positive_2",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -8179,13 +8179,13 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "positive_1",
+    "_animationName": "positive_2",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "7c72c675-1a4e-4aef-8589-653d23f149a8"
+      "__uuid__": "0b36f855-2923-49d0-8ece-6d705be05590"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
