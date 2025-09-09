@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "banana",
+    "texture": "8066c93b-321d-4422-bb78-6c627059869b",
+    "atlas": "",
+    "rect": [
+      14,
+      29,
+      272,
+      239
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
