@@ -7845,7 +7845,7 @@
         "__id__": 173
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 181
@@ -8005,7 +8005,7 @@
         "__id__": 170
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 172
@@ -8168,7 +8168,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "positive_5",
+    "defaultAnimation": "positive_4",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -8179,7 +8179,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "positive_5",
+    "_animationName": "positive_4",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
