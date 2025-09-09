@@ -101,6 +101,8 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         }
+        this.currentJcokey = StartGame_1.default.Instance.jockey.children[0];
+        console.log(this.currentJcokey.name);
         this.TotalOptions = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions;
         //if (startGame.Instance.optionLayout == "horizontal") {
         //let optionsLayoutNode = cc.instantiate(this.HorizntalOptionNode);
@@ -195,18 +197,15 @@ var NewClass = /** @class */ (function (_super) {
             for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
                 _loop_1(i);
             }
-            var _loop_2 = function (i) {
-                cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAudios[i], function (err, audioClip) {
-                    if (err) {
-                        console.error("Failed to load audio clip:", err);
-                        return;
-                    }
-                    _this.correctAudio[i] = audioClip;
-                });
-            };
-            for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAudios.length; i++) {
-                _loop_2(i);
-            }
+            // for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios.length; i++) {
+            //     cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios[i], (err, audioClip) => {
+            //         if (err) {
+            //             console.error("Failed to load audio clip:", err);
+            //             return;
+            //         }
+            //         this.correctAudio[i] = audioClip;
+            //     });
+            // }
         }
         else {
             this.loadAudioClip(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionAudioName, function (AudioClip) {
@@ -232,7 +231,7 @@ var NewClass = /** @class */ (function (_super) {
                     }
                 });
             }
-            var _loop_3 = function (i) {
+            var _loop_2 = function (i) {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionText) {
                     this_2.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i], function (spriteFrame) {
                         _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
@@ -244,20 +243,14 @@ var NewClass = /** @class */ (function (_super) {
             };
             var this_2 = this;
             for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
-                _loop_3(i);
+                _loop_2(i);
             }
-            var _loop_4 = function (i) {
-                this_3.loadAudioClip(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAudios[i], function (AudioClip) {
-                    _this.correctAudio[i] = AudioClip;
-                });
-            };
-            var this_3 = this;
-            for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAudios.length; i++) {
-                _loop_4(i);
-            }
+            // for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios.length; i++) {
+            //     this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios[i], (AudioClip) => {
+            //         this.correctAudio[i] = AudioClip;
+            //     });
+            // }
         }
-        this.currentJcokey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
-        // this.currentJcokey.active = true;
     };
     NewClass.prototype.start = function () {
         ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1);
@@ -385,10 +378,10 @@ var NewClass = /** @class */ (function (_super) {
         if (StartGame_1.default.Instance.jockeyName == "supercub" || StartGame_1.default.Instance.jockeyName == "tlc") {
             this.node.getChildByName("Option").setPosition(this.node.getChildByName("Option").x - 80, this.node.getChildByName("Option").y);
         }
-        var _loop_5 = function (i) {
-            this_4.node.getChildByName("Option").children[i - 1].scale = 0;
-            this_4.node.getChildByName("Option").children[i - 1].opacity = 255;
-            this_4.scheduleOnce(function () {
+        var _loop_3 = function (i) {
+            this_3.node.getChildByName("Option").children[i - 1].scale = 0;
+            this_3.node.getChildByName("Option").children[i - 1].opacity = 255;
+            this_3.scheduleOnce(function () {
                 var objScale = 0;
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 if (StartGame_1.default.Instance.templateType == "SimpleTap") {
@@ -416,9 +409,9 @@ var NewClass = /** @class */ (function (_super) {
             }, delay);
             delay += 0.5;
         };
-        var this_4 = this;
+        var this_3 = this;
         for (var i = 1; i <= this.optionsNode.children.length; i++) {
-            _loop_5(i);
+            _loop_3(i);
         }
         // this.scheduleOnce(() => {
         //     console.log("ABCD.............", this.node.getChildByName("Option").children[0].scale, this.node.getChildByName("Option").children[0].getChildByName("bg").scale, this.node.getChildByName("Option").children[0].getChildByName("img").scale)
@@ -431,12 +424,12 @@ var NewClass = /** @class */ (function (_super) {
         //     console.log("name of: " + i + " th children is: " + this.node.getChildByName("Option").children[i].name);
         // }
         var delay = 0.5;
-        var _loop_6 = function (i) {
+        var _loop_4 = function (i) {
             // console.log("New i", i, this.positionArray.length);
-            this_5.node.getChildByName("Option").children[i - 1].scale = 0;
-            this_5.node.getChildByName("Option").children[i - 1].opacity = 255;
-            this_5.node.getChildByName("Option").children[i - 1].setPosition(0 - 100, this_5.node.getChildByName("QuestionBox").getPosition().y - 100);
-            this_5.scheduleOnce(function () {
+            this_4.node.getChildByName("Option").children[i - 1].scale = 0;
+            this_4.node.getChildByName("Option").children[i - 1].opacity = 255;
+            this_4.node.getChildByName("Option").children[i - 1].setPosition(0 - 100, this_4.node.getChildByName("QuestionBox").getPosition().y - 100);
+            this_4.scheduleOnce(function () {
                 var objScale = 0;
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 objScale = 0.7;
@@ -457,9 +450,9 @@ var NewClass = /** @class */ (function (_super) {
             }, delay);
             delay += 0.5;
         };
-        var this_5 = this;
+        var this_4 = this;
         for (var i = 1; i <= this.node.getChildByName("Option").children.length; i++) {
-            _loop_6(i);
+            _loop_4(i);
         }
     };
     NewClass.prototype.PlayQuestionAudio = function () {
@@ -597,9 +590,7 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.callPositiveRection = function (_node) {
         var _this = this;
         _node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.extraImg;
-        //console.log("correctAudio--" + this.correctAudio.name);
-        cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
-        // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
+        // cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
@@ -624,7 +615,7 @@ var NewClass = /** @class */ (function (_super) {
         var voIndex = this.answerArray.indexOf(_node.name);
         switch (StartGame_1.default.Instance.templateType) {
             case "SimpleTap":
-                cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                // cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {
@@ -660,10 +651,10 @@ var NewClass = /** @class */ (function (_super) {
                             }, 1);
                         }
                     }, 0.5);
-                }, this.correctAudio[voIndex].duration);
+                }, 0.5);
                 break;
             case "TapToCollect":
-                cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                // cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 this.scheduleOnce(function () {
                     _this.node.getChildByName("QuestionBox1").zIndex = 1;
                     _this.node.getChildByName("QuestionBox").zIndex = 1;
@@ -703,11 +694,11 @@ var NewClass = /** @class */ (function (_super) {
                             }
                         }, 0.5);
                     }, 0.5);
-                }, this.correctAudio[voIndex].duration);
+                }, 0.5);
                 break;
             case "ObjectsTweenIn":
                 //console.log("answer arrray index : ", this.answerArray.indexOf(_node.name));
-                cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                // cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {
@@ -744,7 +735,7 @@ var NewClass = /** @class */ (function (_super) {
                             }, 1);
                         }
                     }, 0.5);
-                }, this.correctAudio[voIndex].duration);
+                }, 0.5);
                 break;
             default:
                 break;

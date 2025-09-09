@@ -136,7 +136,8 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         }
-
+        this.currentJcokey = startGame.Instance.jockey.children[0];
+        console.log(this.currentJcokey.name)
 
         this.TotalOptions = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions;
 
@@ -237,15 +238,15 @@ export default class NewClass extends cc.Component {
 
             }
 
-            for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios.length; i++) {
-                cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios[i], (err, audioClip) => {
-                    if (err) {
-                        console.error("Failed to load audio clip:", err);
-                        return;
-                    }
-                    this.correctAudio[i] = audioClip;
-                });
-            }
+            // for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios.length; i++) {
+            //     cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios[i], (err, audioClip) => {
+            //         if (err) {
+            //             console.error("Failed to load audio clip:", err);
+            //             return;
+            //         }
+            //         this.correctAudio[i] = audioClip;
+            //     });
+            // }
         }
         else {
             this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (AudioClip) => {
@@ -289,15 +290,13 @@ export default class NewClass extends cc.Component {
 
             }
 
-            for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios.length; i++) {
-                this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios[i], (AudioClip) => {
-                    this.correctAudio[i] = AudioClip;
-                });
-            }
+            // for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios.length; i++) {
+            //     this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios[i], (AudioClip) => {
+            //         this.correctAudio[i] = AudioClip;
+            //     });
+            // }
 
         }
-        this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
-        // this.currentJcokey.active = true;
     }
 
     start() {
@@ -648,9 +647,7 @@ export default class NewClass extends cc.Component {
 
     callPositiveRection(_node: cc.Node) {
         _node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.extraImg;
-        //console.log("correctAudio--" + this.correctAudio.name);
-        cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
-        // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
+        // cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
@@ -675,7 +672,7 @@ export default class NewClass extends cc.Component {
         let voIndex: number = this.answerArray.indexOf(_node.name);
         switch (startGame.Instance.templateType) {
             case "SimpleTap":
-                cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                // cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
@@ -711,10 +708,10 @@ export default class NewClass extends cc.Component {
                             }, 1);
                         }
                     }, 0.5);
-                }, this.correctAudio[voIndex].duration);
+                }, 0.5);
                 break;
             case "TapToCollect":
-                cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                // cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 this.scheduleOnce(() => {
                     this.node.getChildByName("QuestionBox1").zIndex = 1;
                     this.node.getChildByName("QuestionBox").zIndex = 1;
@@ -755,11 +752,11 @@ export default class NewClass extends cc.Component {
                             }
                         }, 0.5);
                     }, 0.5);
-                }, this.correctAudio[voIndex].duration);
+                }, 0.5);
                 break;
             case "ObjectsTweenIn":
                 //console.log("answer arrray index : ", this.answerArray.indexOf(_node.name));
-                cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                // cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
@@ -796,7 +793,7 @@ export default class NewClass extends cc.Component {
                             }, 1);
                         }
                     }, 0.5);
-                }, this.correctAudio[voIndex].duration);
+                }, 0.5);
                 break;
             default:
                 break;

@@ -113,20 +113,6 @@ var startGame = /** @class */ (function (_super) {
         // }
     };
     startGame.prototype.logData = function () {
-        console.log("Game ID:", this.gameID);
-        console.log("Total Levels:", this.totalLevels);
-        console.log("BGM audio name:", this.BGM_audio.name);
-        console.log("Title Image Name:", this.titleImageName);
-        console.log("Jockey Name:", this.jockeyName);
-        // Log question data
-        this.questions.forEach(function (question, index) {
-            console.log("Question " + (index + 1) + ":");
-            console.log("Question Image Name:", question.questionImageName);
-            console.log("Question Audio Name:", question.questionAudioName);
-            // console.log("Option 1 Image Name:", question.option1ImageName);
-            // console.log("Option 2 Image Name:", question.option2ImageName);
-            console.log("Correct Answer Number:", question.correctAnswerNum);
-        });
     };
     startGame.prototype.removeExtension = function (imageName) {
         // Remove .png extension
@@ -200,7 +186,7 @@ var startGame = /** @class */ (function (_super) {
                 });
             }
             // Now you can use these variables within this script
-            this.logData();
+            // this.logData();
         }
         else {
             cc.loader.loadRes('game_data', cc.JsonAsset, function (err, jsonAsset) {
@@ -245,7 +231,7 @@ var startGame = /** @class */ (function (_super) {
                     // question.option2ImageName = this.removeExtension(question.option2ImageName);
                 });
                 // Now you can use these variables within this script
-                _this.logData(); // You can call a function to log the data or use it in other functions
+                // this.logData(); // You can call a function to log the data or use it in other functions
             });
         }
     };
@@ -265,17 +251,19 @@ var startGame = /** @class */ (function (_super) {
             console.log("It is a demo game");
         }
         this.updateJSONdata();
-        if (premium != null) {
-            this.premiumLevel = parseInt(premium);
-        }
-        if (level != null) {
-            this.NextSceneName = level;
-            globalVariables_1.default.Instance.currentLevel = parseInt(this.NextSceneName);
-            if (parseInt(this.NextSceneName) >= 7) {
-                this.NextSceneName = "7";
-                globalVariables_1.default.Instance.currentLevel = 7;
-            }
-        }
+        this.NextSceneName = "1";
+        globalVariables_1.default.Instance.currentLevel = 1;
+        // if (premium != null) {
+        //     this.premiumLevel = parseInt(premium);
+        // }
+        // if (level != null) {
+        //     this.NextSceneName = level;
+        //     globalVariables.Instance.currentLevel = parseInt(this.NextSceneName);
+        //     if (parseInt(this.NextSceneName) >= 7) {
+        //         this.NextSceneName = "7";
+        //         globalVariables.Instance.currentLevel = 7;
+        //     }
+        // }
         if (mobile == "1") {
             this.hasMobile = true;
         }
@@ -330,7 +318,7 @@ var startGame = /** @class */ (function (_super) {
                 }
             }
         }
-        cc.director.preloadScene(this.NextSceneName);
+        cc.director.preloadScene("1");
         this.scheduleOnce(function () {
             console.log("jockey name = ", _this.jockeyName);
             if (_this.jockeyName == "Podar") {
@@ -350,7 +338,7 @@ var startGame = /** @class */ (function (_super) {
             }
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
                 _this.scheduleOnce(function () {
-                    cc.director.loadScene(_this.NextSceneName);
+                    cc.director.loadScene("1");
                 }, 2);
             }
         }, 1);
@@ -374,7 +362,7 @@ var startGame = /** @class */ (function (_super) {
     startGame.prototype.OnPlayBtn = function (_event) {
         _event.target.getComponent(cc.Button).interactable = false;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
-        cc.director.loadScene(this.NextSceneName);
+        cc.director.loadScene("1");
         _event.target.active = false;
         _event.target.parent.getChildByName("loading").active = true;
     };
