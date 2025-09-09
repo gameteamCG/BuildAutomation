@@ -1220,8 +1220,8 @@
     "relativePath": "Games\\Podar_ Day 111 - Video Quiz (solar system)\\L5 (2).mp3"
   },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1757408150596,
-    "meta": 1757408150596,
+    "asset": 1757408484094,
+    "meta": 1757408484100,
     "relativePath": "Games\\Scenes\\video.fire"
   },
   "456cfa32-849a-4a2e-b948-4c7983ad00a4": {
@@ -4070,8 +4070,8 @@
     "relativePath": "Framework\\Framework\\Prefabs\\Progressbar"
   },
   "30480fc2-0800-4b09-b93a-60b69648b0f9": {
-    "asset": 1757407879099,
-    "meta": 1757408095274,
+    "asset": 1757408129716,
+    "meta": 1757408348533,
     "relativePath": "resources\\images"
   },
   "9836134e-b892-4283-b6b2-78b5acf3ed45": {
@@ -4564,14 +4564,14 @@
     "meta": 1757333444799,
     "relativePath": "Games\\Final_animations\\3Penguin\\audio\\negative_3.mp3"
   },
-  "714c24bf-782f-4c7c-b78e-1c965028e201": {
-    "asset": 1757408114924,
-    "meta": 1757408116216,
-    "relativePath": "resources\\game_data.json"
-  },
-  "0c5671aa-ad34-40ba-8974-fe2a1ff7d1b1": {
-    "asset": 1757408123751,
-    "meta": 1757408129729,
+  "eb2151ee-1f88-47f0-b6af-c4acd1340340": {
+    "asset": 1757408444636,
+    "meta": 1757408456729,
     "relativePath": "resources\\images\\title.png"
+  },
+  "714c24bf-782f-4c7c-b78e-1c965028e201": {
+    "asset": 1757408468014,
+    "meta": 1757408469178,
+    "relativePath": "resources\\game_data.json"
   }
 }
