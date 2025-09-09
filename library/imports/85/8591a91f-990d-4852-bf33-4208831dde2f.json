@@ -7938,7 +7938,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        187.539,
+        141.251,
         0,
         0,
         0,
@@ -8023,8 +8023,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 676.93,
-      "height": 986.1
+      "width": 431,
+      "height": 557.68
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8042,8 +8042,8 @@
         0,
         0,
         1,
-        0.3,
-        0.3,
+        0.4,
+        0.4,
         1
       ]
     },
@@ -8172,7 +8172,7 @@
     "defaultAnimation": "positive_1",
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "loop": true,
+    "loop": false,
     "premultipliedAlpha": true,
     "timeScale": 1,
     "_accTime": 0,
@@ -8186,7 +8186,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "886c8d86-929f-4179-8a1c-5491da1ba83d"
+      "__uuid__": "a87b527c-8b2b-4f5b-bc19-349e7e07227e"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
