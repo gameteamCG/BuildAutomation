@@ -89,8 +89,8 @@
         "node-library"
       ]
     },
-    "window-1757061121738": {},
-    " build-worker-worker": {}
+    " common-asset-worker-worker": {},
+    "window-1757419309351": {}
   },
   "panels": {
     "project-settings": {
