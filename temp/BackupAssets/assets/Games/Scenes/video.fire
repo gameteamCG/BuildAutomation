@@ -7470,7 +7470,7 @@
     "node": {
       "__id__": 154
     },
-    "_enabled": false,
+    "_enabled": true,
     "_defaultClip": {
       "__uuid__": "9a62aaa1-0fb7-4383-825d-14acb77694aa"
     },
