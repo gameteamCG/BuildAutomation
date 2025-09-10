@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "D:\\Builds\\Jaipuria_Bugfix\\UKG\\BackwardCounting",
+  "buildPath": "D:\\Builds\\Jaipuria_Bugfix\\UKG\\Count1-100",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
