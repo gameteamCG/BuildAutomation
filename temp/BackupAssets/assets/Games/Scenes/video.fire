@@ -8022,8 +8022,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 676.93,
-      "height": 986.1
+      "width": 310.25,
+      "height": 571.66
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8035,14 +8035,14 @@
       "ctor": "Float64Array",
       "array": [
         -11.264,
-        -390.997,
+        -328.1,
         0,
         0,
         0,
         0,
         1,
-        0.3,
-        0.3,
+        0.5,
+        0.5,
         1
       ]
     },
@@ -8097,14 +8097,14 @@
       "ctor": "Float64Array",
       "array": [
         37.54667,
-        1928.45333,
+        1000,
         0,
         0,
         0,
         0,
         1,
-        2.33333,
-        2.33333,
+        1.5,
+        1.5,
         2.33333
       ]
     },
@@ -8171,7 +8171,7 @@
     "defaultAnimation": "positive_1",
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "loop": true,
+    "loop": false,
     "premultipliedAlpha": true,
     "timeScale": 1,
     "_accTime": 0,
@@ -8182,10 +8182,10 @@
     "_animationName": "positive_1",
     "_animationQueue": [],
     "_headAniInfo": null,
-    "_playTimes": 0,
+    "_playTimes": 1,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "886c8d86-929f-4179-8a1c-5491da1ba83d"
+      "__uuid__": "22a29539-48c2-49fa-a9c3-c81d8286fda3"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
