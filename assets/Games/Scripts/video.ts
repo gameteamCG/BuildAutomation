@@ -181,7 +181,6 @@ export default class video extends cc.Component {
             this.questions[i].isquestionText = startGame.Instance.questions[i].IsQuestionText;
             this.questions[i].correctAnswer = parseInt(startGame.Instance.questions[i].CorrectAnswer);
             if (!this.questions[i].isquestionText) {
-                //load the question image
                 if (startGame.Instance.isDemoGame) {
                     cc.loader.load(startGame.Instance.questions[i].QuestionImageName, (err, texture) => {
                         if (err) {

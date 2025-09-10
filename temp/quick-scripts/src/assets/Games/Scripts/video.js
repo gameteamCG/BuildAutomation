@@ -180,7 +180,6 @@ var video = /** @class */ (function (_super) {
             this_1.questions[i].isquestionText = StartGame_1.default.Instance.questions[i].IsQuestionText;
             this_1.questions[i].correctAnswer = parseInt(StartGame_1.default.Instance.questions[i].CorrectAnswer);
             if (!this_1.questions[i].isquestionText) {
-                //load the question image
                 if (StartGame_1.default.Instance.isDemoGame) {
                     cc.loader.load(StartGame_1.default.Instance.questions[i].QuestionImageName, function (err, texture) {
                         if (err) {

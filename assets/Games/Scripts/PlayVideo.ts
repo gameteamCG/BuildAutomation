@@ -47,25 +47,22 @@ export default class NewClass extends cc.Component {
 
     playAnimation() {
         cc.tween(this.node.children[0]).to(0.5, { x: 0 }, { easing: "backInOut" }).start();
-        let jockeyNode: cc.Node = this.node.children[0].getChildByName(this.jockeyName);
+        let jockeyNode: cc.Node = this.node.children[0];
         jockeyNode.active = true;
         this.scheduleOnce(() => {
             jockeyNode.getComponent(sp.Skeleton).setAnimation(0, this.anim1Name, false);
-            cc.audioEngine.playEffect(startGame.Instance.introAudio1, false);
+            jockeyNode.getComponent(sp.Skeleton).setAnimation(0, this.anim2Name, true);
+            cc.audioEngine.playEffect(startGame.Instance.introAudio2, false);
             this.scheduleOnce(() => {
-                jockeyNode.getComponent(sp.Skeleton).setAnimation(0, this.anim2Name, true);
-                cc.audioEngine.playEffect(startGame.Instance.introAudio2, false);
+                jockeyNode.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                cc.tween(this.node.children[0]).to(0.5, { opacity: 0 }, { easing: "sineInOut" }).start();
                 this.scheduleOnce(() => {
-                    jockeyNode.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                    cc.tween(this.node.children[0]).to(0.5, { opacity: 0 }, { easing: "sineInOut" }).start();
-                    this.scheduleOnce(() => {
-                        this.curtain.getComponent(cc.Animation).play();
-                        this.videoPlayerNode.active = true;
-                        this.videoPlayerTools.active = true;
-                        this.node.active = false;
-                    }, 0.5);
-                }, startGame.Instance.introAudio2.duration);
-            }, startGame.Instance.introAudio1.duration + 0.5);
+                    this.curtain.getComponent(cc.Animation).play();
+                    this.videoPlayerNode.active = true;
+                    this.videoPlayerTools.active = true;
+                    this.node.active = false;
+                }, 0.5);
+            }, startGame.Instance.introAudio2.duration);
             // this.scheduleOnce(() => {
             //     this.node.children[1].active = false;
             //     this.node.children[2].active = true;
@@ -93,6 +90,7 @@ export default class NewClass extends cc.Component {
         }
         cc.audioEngine.playEffect(this.btnClick, false);
         this.node.getChildByName("play").getComponent(cc.Button).interactable = false;
+        this.node.getChildByName("possibility logo").active = false;
         cc.tween(this.node.getChildByName("title")).to(1, { y: 800 }, { easing: "backInOut" }).start();
         cc.tween(this.node.getChildByName("play")).to(1, { y: -800 }, { easing: "backInOut" }).start();
 

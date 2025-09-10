@@ -8,11 +8,11 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 430,
-  "height": 101,
+  "width": 396,
+  "height": 83,
   "platformSettings": {},
   "subMetas": {
-    "possibility logo": {
+    "logo": {
       "ver": "1.0.6",
       "uuid": "8ad978f9-7062-4347-9a95-506317ca3f67",
       "importer": "sprite-frame",

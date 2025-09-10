@@ -61,25 +61,22 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.playAnimation = function () {
         var _this = this;
         cc.tween(this.node.children[0]).to(0.5, { x: 0 }, { easing: "backInOut" }).start();
-        var jockeyNode = this.node.children[0].getChildByName(this.jockeyName);
+        var jockeyNode = this.node.children[0];
         jockeyNode.active = true;
         this.scheduleOnce(function () {
             jockeyNode.getComponent(sp.Skeleton).setAnimation(0, _this.anim1Name, false);
-            cc.audioEngine.playEffect(StartGame_1.default.Instance.introAudio1, false);
+            jockeyNode.getComponent(sp.Skeleton).setAnimation(0, _this.anim2Name, true);
+            cc.audioEngine.playEffect(StartGame_1.default.Instance.introAudio2, false);
             _this.scheduleOnce(function () {
-                jockeyNode.getComponent(sp.Skeleton).setAnimation(0, _this.anim2Name, true);
-                cc.audioEngine.playEffect(StartGame_1.default.Instance.introAudio2, false);
+                jockeyNode.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                cc.tween(_this.node.children[0]).to(0.5, { opacity: 0 }, { easing: "sineInOut" }).start();
                 _this.scheduleOnce(function () {
-                    jockeyNode.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                    cc.tween(_this.node.children[0]).to(0.5, { opacity: 0 }, { easing: "sineInOut" }).start();
-                    _this.scheduleOnce(function () {
-                        _this.curtain.getComponent(cc.Animation).play();
-                        _this.videoPlayerNode.active = true;
-                        _this.videoPlayerTools.active = true;
-                        _this.node.active = false;
-                    }, 0.5);
-                }, StartGame_1.default.Instance.introAudio2.duration);
-            }, StartGame_1.default.Instance.introAudio1.duration + 0.5);
+                    _this.curtain.getComponent(cc.Animation).play();
+                    _this.videoPlayerNode.active = true;
+                    _this.videoPlayerTools.active = true;
+                    _this.node.active = false;
+                }, 0.5);
+            }, StartGame_1.default.Instance.introAudio2.duration);
             // this.scheduleOnce(() => {
             //     this.node.children[1].active = false;
             //     this.node.children[2].active = true;
@@ -106,6 +103,7 @@ var NewClass = /** @class */ (function (_super) {
         }
         cc.audioEngine.playEffect(this.btnClick, false);
         this.node.getChildByName("play").getComponent(cc.Button).interactable = false;
+        this.node.getChildByName("possibility logo").active = false;
         cc.tween(this.node.getChildByName("title")).to(1, { y: 800 }, { easing: "backInOut" }).start();
         cc.tween(this.node.getChildByName("play")).to(1, { y: -800 }, { easing: "backInOut" }).start();
         if (StartGame_1.default.Instance.introAudio1 && StartGame_1.default.Instance.introAudio2) {
