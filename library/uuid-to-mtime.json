@@ -1,7 +1,7 @@
 {
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1757487021575,
-    "meta": 1757489793541,
+    "asset": 1757495478453,
+    "meta": 1757495554247,
     "relativePath": "resources"
   },
   "48531029-3cfd-4d23-abb9-057b4b7762b9": {
@@ -930,13 +930,13 @@
     "relativePath": "Games\\Podar_ Day 111 - Video Quiz (solar system)"
   },
   "fec587f2-d551-472a-9399-cbde94f4935d": {
-    "asset": 1757486385657,
-    "meta": 1757486531794,
+    "asset": 1757495478453,
+    "meta": 1757495554254,
     "relativePath": "Games\\Scenes"
   },
   "1ff71acc-0cc0-48be-945d-a1ad7618eef6": {
-    "asset": 1757486385657,
-    "meta": 1757486531797,
+    "asset": 1757495478453,
+    "meta": 1757495554255,
     "relativePath": "Games\\Scripts"
   },
   "beb1cd71-ba43-4551-aa4c-39abbf7ba1de": {
@@ -950,8 +950,8 @@
     "relativePath": "Framework\\Prefabs\\ProgressBar\\Sprites\\Progress2\\empty progress bar (1).png"
   },
   "87b1f50b-5aed-42a0-ab1c-6f9a3f6610ed": {
-    "asset": 1757486385947,
-    "meta": 1757486531652,
+    "asset": 1757495478453,
+    "meta": 1757495554251,
     "relativePath": "Games\\jaipuria"
   },
   "b38f0f73-7fe8-4976-ad43-e18392b3a631": {
@@ -1360,8 +1360,8 @@
     "relativePath": "Games\\Scripts\\Carrot.png"
   },
   "9a62aaa1-0fb7-4383-825d-14acb77694aa": {
-    "asset": 1757486385947,
-    "meta": 1757486533622,
+    "asset": 1757495478453,
+    "meta": 1757495554605,
     "relativePath": "Games\\jaipuria\\pulsate.anim"
   },
   "b55780fa-c989-4e48-801a-9056639469fc": {
@@ -3925,8 +3925,8 @@
     "relativePath": "Framework\\Framework\\Prefabs"
   },
   "30480fc2-0800-4b09-b93a-60b69648b0f9": {
-    "asset": 1757489831484,
-    "meta": 1757490753180,
+    "asset": 1757495478453,
+    "meta": 1757495554268,
     "relativePath": "resources\\images"
   },
   "9836134e-b892-4283-b6b2-78b5acf3ed45": {
@@ -4545,8 +4545,8 @@
     "relativePath": "Games\\titleBG.png"
   },
   "d41f3701-f24c-4ab4-bc1a-09dc2c58c690": {
-    "asset": 1757489836644,
-    "meta": 1757490753178,
+    "asset": 1757495478453,
+    "meta": 1757495554261,
     "relativePath": "resources\\audios"
   },
   "959f7039-8e9b-4c1a-9c53-bc15dec99ae5": {
@@ -4565,28 +4565,28 @@
     "relativePath": "Games\\logo.png"
   },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1757491071518,
-    "meta": 1757491071525,
+    "asset": 1757495642779,
+    "meta": 1757495642784,
     "relativePath": "Games\\Scenes\\video.fire"
   },
+  "0e226450-2056-4f27-89da-42f3d717e15d": {
+    "asset": 1757495478453,
+    "meta": 1757495554513,
+    "relativePath": "Games\\Scripts\\PlayVideo.ts"
+  },
+  "714c24bf-782f-4c7c-b78e-1c965028e201": {
+    "asset": 1757495610240,
+    "meta": 1757495611324,
+    "relativePath": "resources\\game_data.json"
+  },
   "99bb874a-7015-4f6b-82e0-c74fb5c56297": {
-    "asset": 1757490802115,
-    "meta": 1757490802737,
+    "asset": 1757495626614,
+    "meta": 1757495627097,
     "relativePath": "resources\\audios\\IntroAudio.mp3"
   },
   "2899e8cb-b4ec-4d78-84cf-0b8eeb63a382": {
-    "asset": 1757490808364,
-    "meta": 1757490808410,
+    "asset": 1757495636342,
+    "meta": 1757495636389,
     "relativePath": "resources\\images\\title.png"
-  },
-  "714c24bf-782f-4c7c-b78e-1c965028e201": {
-    "asset": 1757490836711,
-    "meta": 1757490837965,
-    "relativePath": "resources\\game_data.json"
-  },
-  "0e226450-2056-4f27-89da-42f3d717e15d": {
-    "asset": 1757491069745,
-    "meta": 1757491070940,
-    "relativePath": "Games\\Scripts\\PlayVideo.ts"
   }
 }
