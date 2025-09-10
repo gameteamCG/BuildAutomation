@@ -7094,7 +7094,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bag",
+    "_name": "crayon",
     "_objFlags": 0,
     "_parent": {
       "__id__": 147
@@ -7120,8 +7120,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 848.12,
-      "height": 949.58
+      "width": 676.93,
+      "height": 916.43
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7189,7 +7189,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "a459be9f-f584-4f20-8c1c-80c8522de803"
+      "__uuid__": "8561a2c9-f787-4688-a2eb-8a8d95a58a01"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
@@ -7384,7 +7384,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "bag",
+    "_name": "crayon",
     "_objFlags": 0,
     "_parent": {
       "__id__": 154
@@ -7407,8 +7407,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 848.12,
-      "height": 949.58
+      "width": 676.93,
+      "height": 916.43
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7476,7 +7476,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "a459be9f-f584-4f20-8c1c-80c8522de803"
+      "__uuid__": "8561a2c9-f787-4688-a2eb-8a8d95a58a01"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
@@ -8056,8 +8056,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 848.12,
-      "height": 947.04
+      "width": 610.46,
+      "height": 988.66
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8202,7 +8202,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "positive_6",
+    "defaultAnimation": "positive_5",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -8213,13 +8213,13 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "positive_6",
+    "_animationName": "positive_5",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "e1b35266-5111-4a84-86b1-6e1bdd0175e2"
+      "__uuid__": "65f5d404-f306-4304-8a35-6f768798d0ad"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,

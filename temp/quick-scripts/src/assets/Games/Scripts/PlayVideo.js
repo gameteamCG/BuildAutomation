@@ -42,8 +42,8 @@ var NewClass = /** @class */ (function (_super) {
         _this.voAudio = null;
         _this.btnClick = null;
         _this.jockeyName = null;
-        _this.anim1Name = "hello Everyone";
-        _this.anim2Name = "talk action loop";
+        _this.anim1Name = "Hello Everyone";
+        _this.anim2Name = "Talk action loop";
         return _this;
         // update (dt) {}
     }

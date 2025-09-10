@@ -28,8 +28,8 @@ export default class NewClass extends cc.Component {
 
     private jockeyName: string = null;
 
-    anim1Name: string = "hello Everyone";
-    anim2Name: string = "talk action loop";
+    anim1Name: string = "Hello Everyone";
+    anim2Name: string = "Talk action loop";
 
 
 
