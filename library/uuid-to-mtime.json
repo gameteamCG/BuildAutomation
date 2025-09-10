@@ -1,7 +1,7 @@
 {
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
-    "asset": 1757481630115,
-    "meta": 1757481723007,
+    "asset": 1757482743893,
+    "meta": 1757482777779,
     "relativePath": "resources"
   },
   "48531029-3cfd-4d23-abb9-057b4b7762b9": {
@@ -1120,8 +1120,8 @@
     "relativePath": "Games\\Final_animations\\Crayon intro animation"
   },
   "d13d6ad0-a9f1-488c-a5ca-ea7c2d146bb1": {
-    "asset": 1757481630093,
-    "meta": 1757481723919,
+    "asset": 1757481846846,
+    "meta": 1757482777781,
     "relativePath": "Games\\Final_animations\\Game animations"
   },
   "4c9567fc-5d3d-404c-b9a6-f45b456c2778": {
@@ -1220,8 +1220,8 @@
     "relativePath": "Games\\Podar_ Day 111 - Video Quiz (solar system)\\L5 (2).mp3"
   },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1757481915806,
-    "meta": 1757481915819,
+    "asset": 1757482977299,
+    "meta": 1757482977309,
     "relativePath": "Games\\Scenes\\video.fire"
   },
   "456cfa32-849a-4a2e-b948-4c7983ad00a4": {
@@ -3975,8 +3975,8 @@
     "relativePath": "Framework\\Framework\\Prefabs\\Progressbar"
   },
   "30480fc2-0800-4b09-b93a-60b69648b0f9": {
-    "asset": 1757481630115,
-    "meta": 1757481723122,
+    "asset": 1757482743894,
+    "meta": 1757482777780,
     "relativePath": "resources\\images"
   },
   "9836134e-b892-4283-b6b2-78b5acf3ed45": {
@@ -4369,16 +4369,6 @@
     "meta": 1757481711010,
     "relativePath": "model\\primitives.fbx"
   },
-  "7a48c661-5e96-426f-8dc6-625999696a75": {
-    "asset": 1757481746779,
-    "meta": 1757481763376,
-    "relativePath": "resources\\images\\title.png"
-  },
-  "714c24bf-782f-4c7c-b78e-1c965028e201": {
-    "asset": 1757481817711,
-    "meta": 1757481820047,
-    "relativePath": "resources\\game_data.json"
-  },
   "5232ebe2-12e9-4943-ad7b-841be81ce303": {
     "asset": 1757481846848,
     "meta": 1757481846874,
@@ -4458,5 +4448,15 @@
     "asset": 1757481846830,
     "meta": 1757481847291,
     "relativePath": "Games\\Final_animations\\Game animations\\3Penguin\\audio\\negative_4.mp3"
+  },
+  "6d083966-2de1-4f1c-b2c0-bc815a6c39da": {
+    "asset": 1757482886914,
+    "meta": 1757482896893,
+    "relativePath": "resources\\images\\title.png"
+  },
+  "714c24bf-782f-4c7c-b78e-1c965028e201": {
+    "asset": 1757482973725,
+    "meta": 1757482976015,
+    "relativePath": "resources\\game_data.json"
   }
 }
