@@ -1,0 +1,94 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Addition and subtraction of capacity_Grade 3 (Math)_R48_T2",
+      "totalLevel": "5",
+      "TitleImageName": "title.png",
+      "introBgName": "Bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Bg.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "41 _ 43",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "42.png",
+          "46.png",
+          "49.png"
+        ],
+        "correctAudios": [
+          "42.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "_ 44 45",
+        "questionAudioName": "q2.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "40.png",
+          "43.png",
+          "50.png"
+        ],
+        "correctAudios": [
+          "43.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "44 45 _",
+        "questionAudioName": "q3.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "43.png",
+          "40.png",
+          "46.png"
+        ],
+        "correctAudios": [
+          "46.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "46 _ 48",
+        "questionAudioName": "q4.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "41.png",
+          "47.png",
+          "49.png"
+        ],
+        "correctAudios": [
+          "47.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "48 49 _",
+        "questionAudioName": "q5.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "options": [
+          "41.png",
+          "42.png",
+          "50.png"
+        ],
+        "correctAudios": [
+          "50.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
