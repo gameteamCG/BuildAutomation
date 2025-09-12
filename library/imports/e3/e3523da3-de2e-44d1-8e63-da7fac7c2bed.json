@@ -1,0 +1,147 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Spot The Letters",
+      "totalLevel": "8",
+      "TitleImageName": "Asset 70.png",
+      "introBgName": "Bg (1).png",
+      "bgmMusicName": "BGM1302225.mp3",
+      "mainBgName": "Bg (1).png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "Place value of \n7 in 578",
+        "questionAudioName": "pv.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "70",
+          "60",
+          "7",
+          "500"
+        ],
+        "correctAudios": [
+          "70.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Face value of\n3 in 934",
+        "questionAudioName": "fv.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "30",
+          "300",
+          "40",
+          "3"
+        ],
+        "correctAudios": [
+          "3.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Face value of\n6 in 861",
+        "questionAudioName": "fv.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "60",
+          "6",
+          "600",
+          "6000"
+        ],
+        "correctAudios": [
+          "6.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Place value of\n9 in 792",
+        "questionAudioName": "pv.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "9",
+          "900",
+          "700",
+          "90"
+        ],
+        "correctAudios": [
+          "p_40532016_26.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Place value of\n1 in 519",
+        "questionAudioName": "pv.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "1",
+          "10",
+          "100",
+          "1000"
+        ],
+        "correctAudios": [
+          "p_40532031_77.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Face value of\n4 in 407",
+        "questionAudioName": "fv.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "4",
+          "44",
+          "40",
+          "400"
+        ],
+        "correctAudios": [
+          "4.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Place value of\n8 in 852",
+        "questionAudioName": "pv.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "8",
+          "800",
+          "80",
+          "8000"
+        ],
+        "correctAudios": [
+          "800.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Place value of\n2 in 923",
+        "questionAudioName": "pv.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "20",
+          "2",
+          "200",
+          "30"
+        ],
+        "correctAudios": [
+          "p_39797816_728.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
