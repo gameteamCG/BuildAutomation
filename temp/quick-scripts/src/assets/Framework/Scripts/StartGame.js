@@ -326,7 +326,10 @@ var startGame = /** @class */ (function (_super) {
                 cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
             }
             else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
+                _this.scheduleOnce(function () {
+                    cc.director.loadScene(_this.NextSceneName);
+                }, 2);
+                // cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
                 _this.scheduleOnce(function () {

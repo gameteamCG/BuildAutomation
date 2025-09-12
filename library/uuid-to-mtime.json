@@ -1870,8 +1870,8 @@
     "relativePath": "Games\\Shooter\\Assets\\whats next.png"
   },
   "cf4e36d8-89d2-4945-a198-67e319127411": {
-    "asset": 1757657480418,
-    "meta": 1757657480433,
+    "asset": 1757657890777,
+    "meta": 1757657890795,
     "relativePath": "Games\\Shooter\\Scene\\1.fire"
   },
   "630ebb90-a4ca-4099-9329-a971f489ccec": {
@@ -1880,13 +1880,13 @@
     "relativePath": "Games\\Shooter\\Sound\\JockeyVO"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1757656799728,
-    "meta": 1757656799744,
+    "asset": 1757657863330,
+    "meta": 1757657863359,
     "relativePath": "Games\\Shooter\\Scene\\Title.fire"
   },
   "92133877-574e-4eb5-9c58-79f64d3fc3ed": {
-    "asset": 1757656585477,
-    "meta": 1757656585493,
+    "asset": 1757658017885,
+    "meta": 1757658017913,
     "relativePath": "Games\\Shooter\\Scene\\endScreen.fire"
   },
   "d9246b4b-e901-4723-b667-3327477b74eb": {
@@ -3214,11 +3214,6 @@
     "meta": 1757656218723,
     "relativePath": "Games\\Shooter\\Assets\\jaipuria_UI\\stallion\\output 34\\side_horse0001.png"
   },
-  "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
-    "asset": 1757654917144,
-    "meta": 1757656213763,
-    "relativePath": "Framework\\Scripts\\StartGame.ts"
-  },
   "d0f48db3-6a79-4eae-945a-21e1f480c14e": {
     "asset": 1753418868026,
     "meta": 1757656213191,
@@ -3648,5 +3643,325 @@
     "asset": 1757657458846,
     "meta": 1757657458862,
     "relativePath": "Games\\Toondemy Fonts.ttf"
+  },
+  "dcc5fd69-7a9c-453f-ba1b-6b0242def41e": {
+    "asset": 1757657613741,
+    "meta": 1757657614152,
+    "relativePath": "Games\\EnglishUKG"
+  },
+  "d811b2c3-670a-4747-a611-11af53508255": {
+    "asset": 1757657613774,
+    "meta": 1757657614152,
+    "relativePath": "Games\\EnglishUKG\\MainAssets"
+  },
+  "6fb1e559-0fc0-44a3-bd61-6cd3fbf7df22": {
+    "asset": 1757657613789,
+    "meta": 1757657614152,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Fonts"
+  },
+  "7f98f8be-672f-4584-b1fb-ed150e9381d5": {
+    "asset": 1757657613789,
+    "meta": 1757657614152,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Misc"
+  },
+  "b511df9c-57d0-4024-b34b-3779c22ff528": {
+    "asset": 1757657613796,
+    "meta": 1757657614152,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Prefabs"
+  },
+  "41776e4f-196a-4d53-8b9e-01fb65ae7dd0": {
+    "asset": 1757657614120,
+    "meta": 1757657614152,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Scripts"
+  },
+  "a46dbe8e-fe31-4328-80eb-409182f051d9": {
+    "asset": 1757657613804,
+    "meta": 1757657614152,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine"
+  },
+  "ea9e007f-e01f-4c8b-a1ec-6d9c6433b082": {
+    "asset": 1757657613820,
+    "meta": 1757657614152,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Sprites"
+  },
+  "8570a5d3-bc0c-4a2d-9dfe-b4750eb588cd": {
+    "asset": 1757657613849,
+    "meta": 1757657614168,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Fonts\\Toondemy FOnt"
+  },
+  "c684e5a4-cafd-47b1-b09b-54324585d60e": {
+    "asset": 1757657613867,
+    "meta": 1757657614168,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Misc\\CommonEndAudio"
+  },
+  "294b6f52-445e-4a62-81e9-e64c78250706": {
+    "asset": 1757657613820,
+    "meta": 1757657614206,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Scripts\\FontChanger.ts"
+  },
+  "bed1db20-5980-4859-97d6-2a01ff30ab4c": {
+    "asset": 1757657613820,
+    "meta": 1757657614258,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Scripts\\JockeyController.ts"
+  },
+  "d9d2c307-7c32-4f66-b114-bd1f7d49cbf1": {
+    "asset": 1757657613867,
+    "meta": 1757657614259,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation"
+  },
+  "26341360-629f-4e4b-be1f-f596c7efeec1": {
+    "asset": 1757657613892,
+    "meta": 1757657614265,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Fonts\\Toondemy FOnt\\Toondemy FOnt"
+  },
+  "3480266d-8d09-42c6-838c-650d3a3cf15e": {
+    "asset": 1757657613894,
+    "meta": 1757657614267,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Fonts\\Toondemy FOnt\\Toondemy Tracing Fonts"
+  },
+  "f04e022a-0d2e-4e75-b0f6-ecb5f7709f5e": {
+    "asset": 1757657614009,
+    "meta": 1757657614286,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5"
+  },
+  "b8a03396-afc0-4485-b41f-4e86dc76a44d": {
+    "asset": 1757657614025,
+    "meta": 1757657614286,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\output 40"
+  },
+  "ee7d14e0-2ecd-48c3-9e9d-6ad7987483b5": {
+    "asset": 1757657614033,
+    "meta": 1757657614290,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Fonts\\Toondemy FOnt\\Toondemy FOnt\\KGNeatlyPrinted.ttf"
+  },
+  "748b06a6-f018-4183-bfd1-4df1d55a7c7a": {
+    "asset": 1757657614025,
+    "meta": 1757657614295,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Fonts\\Toondemy FOnt\\Toondemy FOnt\\Toondemy Fonts.ttf"
+  },
+  "f729fc53-37d1-44ad-a1aa-6462525fa062": {
+    "asset": 1757657614051,
+    "meta": 1757657614296,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Fonts\\Toondemy FOnt\\Toondemy Tracing Fonts\\TOONDEMY TRACING FONTS.ttf"
+  },
+  "0d38d711-facb-491e-9196-2413c7a6978c": {
+    "asset": 1757657613820,
+    "meta": 1757657614318,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Prefabs\\EndBG.prefab"
+  },
+  "ed6fa3e3-6649-44e8-8d87-385256d3b1cb": {
+    "asset": 1757657613820,
+    "meta": 1757657614320,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Prefabs\\BG.prefab"
+  },
+  "40abeab8-bcf9-4804-b447-e7f307f7c4d7": {
+    "asset": 1757657613837,
+    "meta": 1757657614368,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Sprites\\Fantastic.png"
+  },
+  "ba4ec76a-3d0f-4403-b50d-dc820aea7a6f": {
+    "asset": 1757657613837,
+    "meta": 1757657614372,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Sprites\\Star.png"
+  },
+  "d022e104-5138-41e2-bc93-8b5fe7a90b47": {
+    "asset": 1757657613867,
+    "meta": 1757657614375,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Sprites\\GameTitle.png"
+  },
+  "1f9f9bc6-6174-4231-a38a-3061d4fe0225": {
+    "asset": 1757657614033,
+    "meta": 1757657614855,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\negative_6.mp3"
+  },
+  "b024bef8-99b4-4d58-8a4a-10f203bf3f4b": {
+    "asset": 1757657614033,
+    "meta": 1757657614864,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\negative_2.mp3"
+  },
+  "e6e865ee-cbcf-49fb-aa96-43c85a2bd095": {
+    "asset": 1757657614033,
+    "meta": 1757657614871,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\negative_1.mp3"
+  },
+  "d623df36-af81-43f1-b3db-cfc0ed0d6e15": {
+    "asset": 1757657614025,
+    "meta": 1757657614875,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\Fun Dance For Kids.mp3"
+  },
+  "3d05f0b6-c650-4d20-9a7f-5748c3cf010c": {
+    "asset": 1757657614033,
+    "meta": 1757657614881,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\look carefully.mp3"
+  },
+  "fb58a31b-2e8b-4e5a-bbb2-846776478cdc": {
+    "asset": 1757657614033,
+    "meta": 1757657614884,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\look at it once more.mp3"
+  },
+  "07d88c20-a52c-4c0b-88bc-815947ccfabb": {
+    "asset": 1757657614033,
+    "meta": 1757657614888,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\negative_7.mp3"
+  },
+  "32b4734f-f142-4081-b008-95698bc7c7ca": {
+    "asset": 1757657614033,
+    "meta": 1757657614891,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\negative_5.mp3"
+  },
+  "83e3ccf1-ab20-4124-b787-c890ac55f919": {
+    "asset": 1757657613867,
+    "meta": 1757657614894,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Misc\\CommonEndAudio\\Yeahh.mp3"
+  },
+  "d00d3fe9-1ad9-4284-ac01-06958031fe2b": {
+    "asset": 1757657614033,
+    "meta": 1757657614902,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\in.mp3"
+  },
+  "ce99fab0-2adf-4dd8-b2ad-09ebeaf97b06": {
+    "asset": 1757657613878,
+    "meta": 1757657614904,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Misc\\CommonEndAudio\\clickNew.mp3"
+  },
+  "dfc6c35d-f5e1-4ca9-89df-3739e1d71b67": {
+    "asset": 1757657614039,
+    "meta": 1757657614908,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\negative_3.mp3"
+  },
+  "b83a6bf0-8a49-4c79-9606-abf2f3a676fd": {
+    "asset": 1757657613867,
+    "meta": 1757657614908,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Misc\\CommonEndAudio\\pop-up.mp3"
+  },
+  "cdaa463c-b9bb-4edd-a066-e15e2cfbdfd4": {
+    "asset": 1757657614033,
+    "meta": 1757657614913,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\carefully.mp3"
+  },
+  "caccd092-a8d6-4f28-8ee1-7e7f1507d467": {
+    "asset": 1757657614039,
+    "meta": 1757657614915,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\negative_4.mp3"
+  },
+  "02dc16ad-f565-4a6a-b157-2bae9136712c": {
+    "asset": 1757657614037,
+    "meta": 1757657614919,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\Hmmm, look at it again.mp3"
+  },
+  "43fc15fc-3fcb-446f-9ede-5cd9217b21d9": {
+    "asset": 1757657614033,
+    "meta": 1757657614929,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\output 40\\toondomy0001.atlas"
+  },
+  "e0d9f6fb-f075-4f14-9342-effd057f68ec": {
+    "asset": 1757657614033,
+    "meta": 1757657614954,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\positive_1.mp3"
+  },
+  "5026321f-288a-4b04-96ca-8898edd7bd8f": {
+    "asset": 1757657614115,
+    "meta": 1757657615288,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\output 40\\toondomy0001.json"
+  },
+  "23c6311d-448a-4a60-a912-b3188f8b503d": {
+    "asset": 1757657614033,
+    "meta": 1757657615023,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\positive_10.mp3"
+  },
+  "f186e8c7-cbe1-4699-8da7-92a1c464d09b": {
+    "asset": 1757657614033,
+    "meta": 1757657615025,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\positive_4.mp3"
+  },
+  "c115228e-eaa9-4f34-ac56-15f196c9353f": {
+    "asset": 1757657614033,
+    "meta": 1757657615027,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\positive_11_1.mp3"
+  },
+  "da16b95f-2850-42ba-b4b3-a1c1d42340b9": {
+    "asset": 1757657614033,
+    "meta": 1757657615029,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\positive_5.mp3"
+  },
+  "86630a82-1993-40e7-9408-aae6dff604e6": {
+    "asset": 1757657614033,
+    "meta": 1757657615031,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\positive_12.mp3"
+  },
+  "6702bcb6-1561-48b8-96bf-e3a05e722fb0": {
+    "asset": 1757657614033,
+    "meta": 1757657615038,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\positive_3.mp3"
+  },
+  "6877f5a8-441c-4712-918a-dee67d8829a5": {
+    "asset": 1757657614033,
+    "meta": 1757657615040,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\questionfox.mp3"
+  },
+  "4a39d69a-038f-4c0b-b96f-718ec3637a4a": {
+    "asset": 1757657614033,
+    "meta": 1757657615043,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\positive_13.mp3"
+  },
+  "0451fd4c-9cb5-48f6-97d3-8ef8ecb1297a": {
+    "asset": 1757657614033,
+    "meta": 1757657615044,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\positive_8.mp3"
+  },
+  "d7f6ddc8-9dff-4cb0-9132-3886f72b5e4b": {
+    "asset": 1757657614033,
+    "meta": 1757657615048,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\positive_2.mp3"
+  },
+  "155ae6ae-4633-4fd4-a760-ad73c4d5c7fd": {
+    "asset": 1757657614033,
+    "meta": 1757657615052,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\positive_14.mp3"
+  },
+  "ddff93ee-ab4d-4e5e-9515-0e68ec0a6a5f": {
+    "asset": 1757657614033,
+    "meta": 1757657615052,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\positive_9.mp3"
+  },
+  "d4818062-c1d5-4449-875b-b22b75e46e24": {
+    "asset": 1757657614033,
+    "meta": 1757657615056,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\positive_7.mp3"
+  },
+  "41e04b5f-b821-4709-b6a0-069ed45da528": {
+    "asset": 1757657614033,
+    "meta": 1757657615058,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\audio 5\\positive_6.mp3"
+  },
+  "35bf23fb-49a4-4461-98e2-fa65203ba114": {
+    "asset": 1757657614108,
+    "meta": 1757657615117,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Spine\\Puzzle_Animation\\output 40\\toondomy0001.png"
+  },
+  "f7b0e379-a322-461b-8fa2-f006d79a12b2": {
+    "asset": 1757657639633,
+    "meta": 1757657639793,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Sprites\\CLOUD.png"
+  },
+  "5caf00b2-a567-4fbb-a024-cef9eba84dc9": {
+    "asset": 1757657639677,
+    "meta": 1757657639823,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Sprites\\BG.png"
+  },
+  "04497720-b30b-44a7-a57f-37c19fdf5f38": {
+    "asset": 1757657639633,
+    "meta": 1757657639846,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Sprites\\Asset 16.png"
+  },
+  "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
+    "asset": 1757657676186,
+    "meta": 1757657677044,
+    "relativePath": "Framework\\Scripts\\StartGame.ts"
+  },
+  "85e11e41-9ec7-472a-ae9d-9deae4555f8e": {
+    "asset": 1757658010309,
+    "meta": 1757658011043,
+    "relativePath": "Games\\EnglishUKG\\MainAssets\\Scripts\\GameEnd.ts"
   }
 }
