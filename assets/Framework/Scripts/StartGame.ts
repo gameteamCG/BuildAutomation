@@ -1,10 +1,3 @@
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-
 import globalVariables from "../../Games/WhatWillHappenNext/Scripts/globalVariables";
 interface AdditionalData {
     GameID: string;
@@ -71,6 +64,10 @@ export default class startGame extends cc.Component {
 
     @property(cc.Node)
     jockey: cc.Node = null;
+    @property(cc.Node)
+    old: cc.Node = null;
+    @property(cc.Node)
+    new: cc.Node = null;
 
     JockeyNode: cc.Node = null;
 
@@ -382,12 +379,6 @@ export default class startGame extends cc.Component {
             else if (this.jockeyName == "bag" || this.jockeyName == "cryon") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
-
-            if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
-                this.scheduleOnce(() => {
-                    cc.director.loadScene("1");
-                }, 2);
-            }
         }, 1);
 
 
@@ -414,7 +405,8 @@ export default class startGame extends cc.Component {
     OnPlayBtn(_event: cc.Event) {
         _event.target.getComponent(cc.Button).interactable = false;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
-        cc.director.loadScene("1");
+        this.old.active = false;
+        this.new.active = true;
     }
 
     OnBack() {

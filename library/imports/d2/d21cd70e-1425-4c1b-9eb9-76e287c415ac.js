@@ -3,12 +3,6 @@ cc._RF.push(module, 'd21cdcOFCVMG565duKHxBWs', 'StartGame');
 // Framework/Scripts/StartGame.ts
 
 "use strict";
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -53,6 +47,8 @@ var startGame = /** @class */ (function (_super) {
         // mobNumAvailable: boolean = false;
         _this.mainBg = null;
         _this.jockey = null;
+        _this.old = null;
+        _this.new = null;
         _this.JockeyNode = null;
         _this.firstClick = 1;
         _this.clickEvent = false;
@@ -348,11 +344,6 @@ var startGame = /** @class */ (function (_super) {
             else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
-            if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
-                _this.scheduleOnce(function () {
-                    cc.director.loadScene("1");
-                }, 2);
-            }
         }, 1);
         // this.OnTimer();
     };
@@ -374,7 +365,8 @@ var startGame = /** @class */ (function (_super) {
     startGame.prototype.OnPlayBtn = function (_event) {
         _event.target.getComponent(cc.Button).interactable = false;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
-        cc.director.loadScene("1");
+        this.old.active = false;
+        this.new.active = true;
     };
     startGame.prototype.OnBack = function () {
         console.log("gameExit--true");
@@ -440,6 +432,12 @@ var startGame = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], startGame.prototype, "jockey", void 0);
+    __decorate([
+        property(cc.Node)
+    ], startGame.prototype, "old", void 0);
+    __decorate([
+        property(cc.Node)
+    ], startGame.prototype, "new", void 0);
     __decorate([
         property(Number)
     ], startGame.prototype, "totalLevels", void 0);
