@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Asset 3ldpi",
+    "texture": "bb978cf5-8cb5-4a01-ac19-46a7c8791522",
+    "atlas": "",
+    "rect": [
+      62,
+      87,
+      398,
+      337
+    ],
+    "offset": [
+      10.5,
+      -5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

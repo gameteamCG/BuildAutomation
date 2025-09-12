@@ -500,8 +500,8 @@
     "relativePath": "model\\primitives.fbx"
   },
   "59cc6e50-b2df-40e5-8526-3183596823e7": {
-    "asset": 1757658266421,
-    "meta": 1757658395366,
+    "asset": 1757660217706,
+    "meta": 1757662295322,
     "relativePath": "resources"
   },
   "406974db-6a94-49fd-a03d-366405ccf4b0": {
@@ -1260,8 +1260,8 @@
     "relativePath": "Framework\\WebView\\WebviewAssets\\new\\Vector.png"
   },
   "d67d9acf-2468-496f-b8b7-426a520be88e": {
-    "asset": 1757658266421,
-    "meta": 1757658395366,
+    "asset": 1757660303556,
+    "meta": 1757662295321,
     "relativePath": "Games"
   },
   "fe7f2710-bc78-445e-965a-8ebdb050ff78": {
@@ -1730,8 +1730,8 @@
     "relativePath": "Games\\Shooter\\Prefabs\\OptionVertical.prefab"
   },
   "021125bd-f4aa-4209-bbbc-6e681ce25e68": {
-    "asset": 1757660994839,
-    "meta": 1757660994864,
+    "asset": 1757663252184,
+    "meta": 1757663252199,
     "relativePath": "Games\\Shooter\\Scene\\1.fire"
   },
   "0033e903-c7b7-4731-aac6-f5852a050ba9": {
@@ -1785,8 +1785,8 @@
     "relativePath": "Games\\Shooter\\Sound\\JockeyVO"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1757660379919,
-    "meta": 1757660379935,
+    "asset": 1757663222239,
+    "meta": 1757663222263,
     "relativePath": "Games\\Shooter\\Scene\\Title.fire"
   },
   "92133877-574e-4eb5-9c58-79f64d3fc3ed": {
@@ -3685,8 +3685,8 @@
     "relativePath": "Games\\DragNDrop\\Buillds_SuperCub\\TracingLetterAtoZ(JrKg)\\web-mobile"
   },
   "3cbd3017-775a-4e8a-9a1a-95f31e97bbe8": {
-    "asset": 1757660217612,
-    "meta": 1757660217723,
+    "asset": 1757660796321,
+    "meta": 1757662295322,
     "relativePath": "resources\\images"
   },
   "f5ab34c2-f745-4878-afc5-5a74f5d4fdfd": {
@@ -3703,56 +3703,6 @@
     "asset": 1757660217694,
     "meta": 1757660217826,
     "relativePath": "resources\\images\\Bg (1).png"
-  },
-  "88aa3126-fa6d-4fdd-82ed-3d5f7e8f10c2": {
-    "asset": 1757660217653,
-    "meta": 1757660218307,
-    "relativePath": "resources\\audios\\p_40532031_77.mp3"
-  },
-  "234e7079-fc0a-474c-8729-b511766cd28d": {
-    "asset": 1757660217651,
-    "meta": 1757660218308,
-    "relativePath": "resources\\audios\\3.mp3"
-  },
-  "abd96f2e-0ac9-404d-a89f-19f722fb3581": {
-    "asset": 1757660217652,
-    "meta": 1757660218310,
-    "relativePath": "resources\\audios\\p_39797816_728.mp3"
-  },
-  "77b6ca03-6879-4892-8452-729f75097996": {
-    "asset": 1757660217652,
-    "meta": 1757660218313,
-    "relativePath": "resources\\audios\\6.mp3"
-  },
-  "a90361ca-2aa3-4faa-be15-1a7dff583f0c": {
-    "asset": 1757660217652,
-    "meta": 1757660218315,
-    "relativePath": "resources\\audios\\70.mp3"
-  },
-  "cc7f42fb-86bf-4468-b70a-77c0057a89b2": {
-    "asset": 1757660217652,
-    "meta": 1757660218316,
-    "relativePath": "resources\\audios\\800.mp3"
-  },
-  "ce879fad-902e-4f27-92c5-bdf480a94e81": {
-    "asset": 1757660217675,
-    "meta": 1757660218318,
-    "relativePath": "resources\\audios\\pv.mp3"
-  },
-  "527045d2-0d62-4665-9185-0e7d7db9be0a": {
-    "asset": 1757660217653,
-    "meta": 1757660218321,
-    "relativePath": "resources\\audios\\p_40532016_26.mp3"
-  },
-  "beecd28a-830d-4e36-948b-9d13e42a3ac2": {
-    "asset": 1757660217652,
-    "meta": 1757660218324,
-    "relativePath": "resources\\audios\\fv.mp3"
-  },
-  "088ca223-25ca-463c-a575-359ab475042b": {
-    "asset": 1757660217652,
-    "meta": 1757660218326,
-    "relativePath": "resources\\audios\\4.mp3"
   },
   "794aecdc-59b2-47c2-a476-a1ce8c192d1f": {
     "asset": 1757660217697,
@@ -3790,8 +3740,8 @@
     "relativePath": "Games\\MainAssets\\Spine"
   },
   "ea9e007f-e01f-4c8b-a1ec-6d9c6433b082": {
-    "asset": 1757660303636,
-    "meta": 1757660303954,
+    "asset": 1757660373061,
+    "meta": 1757662295323,
     "relativePath": "Games\\MainAssets\\Sprites"
   },
   "8570a5d3-bc0c-4a2d-9dfe-b4750eb588cd": {
@@ -4079,9 +4029,284 @@
     "meta": 1757660454191,
     "relativePath": "Framework\\Scripts\\StartGame.ts"
   },
+  "bee528f7-8334-4f11-a402-9a6803d87471": {
+    "asset": 1757662702447,
+    "meta": 1757662702919,
+    "relativePath": "resources\\audios\\QVO.mp3"
+  },
+  "63c1aa11-caf6-4fda-8850-3c2a26ac23dd": {
+    "asset": 1757662792645,
+    "meta": 1757662793204,
+    "relativePath": "resources\\audios\\M.mp3"
+  },
+  "5811351b-153c-4614-84d5-868076d0d27b": {
+    "asset": 1757662792644,
+    "meta": 1757662793210,
+    "relativePath": "resources\\audios\\K.mp3"
+  },
+  "85b2cff6-fd00-462e-a387-6ec8e5476fb3": {
+    "asset": 1757662792644,
+    "meta": 1757662793217,
+    "relativePath": "resources\\audios\\L.mp3"
+  },
+  "966ee29d-afd4-4f2c-b59d-8a4635709ee5": {
+    "asset": 1757662792645,
+    "meta": 1757662793225,
+    "relativePath": "resources\\audios\\V.mp3"
+  },
+  "15f10fd4-cec8-4ec4-b992-20cd75b52964": {
+    "asset": 1757662792644,
+    "meta": 1757662793229,
+    "relativePath": "resources\\audios\\D.mp3"
+  },
+  "576c6f19-941b-4899-b14b-08edcfd99b3e": {
+    "asset": 1757662792645,
+    "meta": 1757662793232,
+    "relativePath": "resources\\audios\\T.mp3"
+  },
+  "3ac883e0-3be4-4600-93ff-6d645df35a14": {
+    "asset": 1757662792644,
+    "meta": 1757662793236,
+    "relativePath": "resources\\audios\\Q.mp3"
+  },
+  "5cff5dc6-3085-4714-8e63-6061acd61c37": {
+    "asset": 1757662792644,
+    "meta": 1757662793240,
+    "relativePath": "resources\\audios\\U.mp3"
+  },
+  "16a6a22d-eccf-488e-9a8a-efc306158e80": {
+    "asset": 1757662792644,
+    "meta": 1757662793243,
+    "relativePath": "resources\\audios\\O.mp3"
+  },
+  "ad9ad363-df6a-439f-8472-560103a5ee0f": {
+    "asset": 1757662792644,
+    "meta": 1757662793247,
+    "relativePath": "resources\\audios\\F.mp3"
+  },
+  "e7e4637c-0ada-4e56-9079-a424cc2d9205": {
+    "asset": 1757662792644,
+    "meta": 1757662793251,
+    "relativePath": "resources\\audios\\S .mp3"
+  },
+  "784da829-2b1d-4e0b-9b40-9234e2e1b9d5": {
+    "asset": 1757662792644,
+    "meta": 1757662793254,
+    "relativePath": "resources\\audios\\P.mp3"
+  },
+  "d26449c7-5d80-44e2-8c65-1e6c6b3a954a": {
+    "asset": 1757662792644,
+    "meta": 1757662793256,
+    "relativePath": "resources\\audios\\N.mp3"
+  },
+  "60441cd6-1d88-4b4d-b0cf-b7af6356e454": {
+    "asset": 1757662792645,
+    "meta": 1757662793258,
+    "relativePath": "resources\\audios\\W.mp3"
+  },
+  "c6908e4a-cf0a-4701-b3d7-07048d63fa44": {
+    "asset": 1757662792644,
+    "meta": 1757662793261,
+    "relativePath": "resources\\audios\\J.mp3"
+  },
+  "d537fd1d-c7e2-4da7-bb64-e10d979b1d03": {
+    "asset": 1757662792644,
+    "meta": 1757662793266,
+    "relativePath": "resources\\audios\\I.mp3"
+  },
+  "646c6cd8-b2d2-4f7b-922c-58d5dfca26ce": {
+    "asset": 1757662792645,
+    "meta": 1757662793286,
+    "relativePath": "resources\\audios\\Y.mp3"
+  },
+  "c13c3da7-317a-44f0-ae55-805250fe7fbf": {
+    "asset": 1757662792645,
+    "meta": 1757662793291,
+    "relativePath": "resources\\audios\\Z.mp3"
+  },
+  "2aab10a7-ff05-4fb8-8a6a-91208296805b": {
+    "asset": 1757662792645,
+    "meta": 1757662793294,
+    "relativePath": "resources\\audios\\G.mp3"
+  },
+  "52f2cffb-f93a-4376-b356-28b712b319e4": {
+    "asset": 1757662792645,
+    "meta": 1757662793296,
+    "relativePath": "resources\\audios\\B.mp3"
+  },
+  "d518b82c-98c0-4685-b811-df1d73c74c99": {
+    "asset": 1757662792669,
+    "meta": 1757662793299,
+    "relativePath": "resources\\audios\\R.mp3"
+  },
+  "31d73ce9-c214-4a38-bb24-410112c25161": {
+    "asset": 1757662792664,
+    "meta": 1757662793302,
+    "relativePath": "resources\\audios\\X.mp3"
+  },
+  "2e4d8571-25c4-4282-9c59-f4d89c98bb9e": {
+    "asset": 1757662792645,
+    "meta": 1757662793305,
+    "relativePath": "resources\\audios\\A.mp3"
+  },
+  "044adb0c-7bab-4e13-a069-bce1942e7264": {
+    "asset": 1757662792646,
+    "meta": 1757662793309,
+    "relativePath": "resources\\audios\\H.mp3"
+  },
+  "f71b8d13-d197-49f6-afac-bb81f65ae052": {
+    "asset": 1757662792646,
+    "meta": 1757662793312,
+    "relativePath": "resources\\audios\\E.mp3"
+  },
+  "474640d0-19e5-48c5-a747-9cec71491d81": {
+    "asset": 1757662792669,
+    "meta": 1757662793315,
+    "relativePath": "resources\\audios\\C.mp3"
+  },
+  "cdf9437b-c1de-4be8-8a07-9d135274897c": {
+    "asset": 1757662894975,
+    "meta": 1757662895155,
+    "relativePath": "resources\\images\\Asset 23ldpi.png"
+  },
+  "198b20e7-628e-474c-8d59-d05f90d907e7": {
+    "asset": 1757662894975,
+    "meta": 1757662895164,
+    "relativePath": "resources\\images\\Asset 29ldpi.png"
+  },
+  "e9d46df4-2fdc-481b-8e6a-fdc4e0149c64": {
+    "asset": 1757662894975,
+    "meta": 1757662895185,
+    "relativePath": "resources\\images\\Asset 16ldpi.png"
+  },
+  "cfcd23dc-42ef-4750-b5eb-c804c495644b": {
+    "asset": 1757662894975,
+    "meta": 1757662895185,
+    "relativePath": "resources\\images\\Asset 26ldpi.png"
+  },
+  "327dd79e-7b8f-44d2-b0f7-e82e0ff54fec": {
+    "asset": 1757662894975,
+    "meta": 1757662895185,
+    "relativePath": "resources\\images\\Asset 24ldpi.png"
+  },
+  "708a734e-ba91-4361-b9d0-5d985508672d": {
+    "asset": 1757662894975,
+    "meta": 1757662895204,
+    "relativePath": "resources\\images\\Asset 19ldpi.png"
+  },
+  "88a39e71-c486-4722-a296-58fcb07f1378": {
+    "asset": 1757662894975,
+    "meta": 1757662895204,
+    "relativePath": "resources\\images\\Asset 4ldpi.png"
+  },
+  "df6c7ee4-304a-4b54-8982-f9c5825f9d2a": {
+    "asset": 1757662894975,
+    "meta": 1757662895211,
+    "relativePath": "resources\\images\\Asset 25ldpi.png"
+  },
+  "bced3f08-12bd-4e79-b1b4-ac9748057a4a": {
+    "asset": 1757662894975,
+    "meta": 1757662895214,
+    "relativePath": "resources\\images\\Asset 22ldpi.png"
+  },
+  "5cc0d74a-f758-41c9-bc8b-ae805fa92a36": {
+    "asset": 1757662894975,
+    "meta": 1757662895214,
+    "relativePath": "resources\\images\\Asset 28ldpi.png"
+  },
+  "2ff980a5-a7df-4108-a4c9-1a9433bb7793": {
+    "asset": 1757662894975,
+    "meta": 1757662895225,
+    "relativePath": "resources\\images\\Asset 2ldpi.png"
+  },
+  "bb978cf5-8cb5-4a01-ac19-46a7c8791522": {
+    "asset": 1757662894975,
+    "meta": 1757662895227,
+    "relativePath": "resources\\images\\Asset 3ldpi.png"
+  },
+  "11583234-cbb0-42a5-9080-c5e2a0029b62": {
+    "asset": 1757662894975,
+    "meta": 1757662895231,
+    "relativePath": "resources\\images\\Asset 6ldpi.png"
+  },
+  "d6e6a6eb-d842-41f4-881c-24694ed3142c": {
+    "asset": 1757662894975,
+    "meta": 1757662895234,
+    "relativePath": "resources\\images\\Asset 5ldpi.png"
+  },
+  "24e5795d-4ff8-4d33-8ae2-72ea446844db": {
+    "asset": 1757662894975,
+    "meta": 1757662895234,
+    "relativePath": "resources\\images\\Asset 27ldpi.png"
+  },
+  "6fb80aee-7695-4ecb-8f5a-69ed47da9e00": {
+    "asset": 1757662894975,
+    "meta": 1757662895242,
+    "relativePath": "resources\\images\\Asset 20ldpi.png"
+  },
+  "33949017-526b-410a-8a00-4510c55081cb": {
+    "asset": 1757662894975,
+    "meta": 1757662895279,
+    "relativePath": "resources\\images\\Asset 10ldpi.png"
+  },
+  "b34c0f58-eac9-4706-94b6-3743d5201cdb": {
+    "asset": 1757662894979,
+    "meta": 1757662895285,
+    "relativePath": "resources\\images\\Asset 12ldpi.png"
+  },
+  "ef77afbe-3780-4fc6-b0e7-dac700c40aa1": {
+    "asset": 1757662894975,
+    "meta": 1757662895287,
+    "relativePath": "resources\\images\\Asset 7ldpi.png"
+  },
+  "19470ede-41db-4f26-824f-798a5e7894bf": {
+    "asset": 1757662894979,
+    "meta": 1757662895289,
+    "relativePath": "resources\\images\\Asset 11ldpi.png"
+  },
+  "a5d02b87-63db-45fe-96f5-64dcb759277f": {
+    "asset": 1757662894979,
+    "meta": 1757662895305,
+    "relativePath": "resources\\images\\Asset 13ldpi.png"
+  },
+  "8c1994c1-1e10-4a53-8325-0f4ada7fbd29": {
+    "asset": 1757662894979,
+    "meta": 1757662895305,
+    "relativePath": "resources\\images\\Asset 9ldpi.png"
+  },
+  "2a461946-6664-462f-acbc-e58a94c10442": {
+    "asset": 1757662894979,
+    "meta": 1757662895312,
+    "relativePath": "resources\\images\\Asset 18ldpi.png"
+  },
+  "39774525-34c5-4c57-8d31-392a6dbab543": {
+    "asset": 1757662894979,
+    "meta": 1757662895315,
+    "relativePath": "resources\\images\\Asset 21ldpi.png"
+  },
+  "6cfe75a0-d57a-4cfb-a9b9-fe68e31617f3": {
+    "asset": 1757662894979,
+    "meta": 1757662895325,
+    "relativePath": "resources\\images\\Asset 17ldpi.png"
+  },
+  "231744ba-55c1-475d-a91d-7dd3f72a8fda": {
+    "asset": 1757662894979,
+    "meta": 1757662895325,
+    "relativePath": "resources\\images\\Asset 15ldpi.png"
+  },
+  "988be66f-7a36-4100-ae34-2359a4e3b2d3": {
+    "asset": 1757662894979,
+    "meta": 1757662895334,
+    "relativePath": "resources\\images\\Asset 14ldpi.png"
+  },
+  "05fc5120-ac7f-4251-a22f-baab58c69a3a": {
+    "asset": 1757662894979,
+    "meta": 1757662895341,
+    "relativePath": "resources\\images\\Asset 8ldpi.png"
+  },
   "e3523da3-de2e-44d1-8e63-da7fac7c2bed": {
-    "asset": 1757660496819,
-    "meta": 1757660541264,
+    "asset": 1757663186626,
+    "meta": 1757663187130,
     "relativePath": "resources\\game_data.json"
   }
 }
