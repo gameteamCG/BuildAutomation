@@ -1,0 +1,23 @@
+{
+  "additionalData": {
+    "GameID": "Wild Animals: Snake",
+    "totalLevel": "1",
+    "TitleImageName": "tit.png",
+    "introBgName": "PNUR.png",
+    "bgmMusicName": "bgm3.mp3",
+    "initialVOName": "",
+    "mainBgName": "bgasfa.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "Snake",
+      "questionImageName": "",
+      "questionAudioName": "qvo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "ads.png",
+      "needMoreTools": false,
+      "correctAudioName": "snake.mp3"
+    }
+  ]
+}
