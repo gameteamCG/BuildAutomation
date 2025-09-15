@@ -1,0 +1,23 @@
+{
+  "additionalData": {
+    "GameID": "Wild Animals: Snake",
+    "totalLevel": "1",
+    "TitleImageName": "Asset 8.png",
+    "introBgName": "PNUR.png",
+    "bgmMusicName": "bgm3.mp3",
+    "initialVOName": "",
+    "mainBgName": "Asset 7.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "Snake",
+      "questionImageName": "",
+      "questionAudioName": "doodle and colour the snake .mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "ads.png",
+      "needMoreTools": false,
+      "correctAudioName": ""
+    }
+  ]
+}
