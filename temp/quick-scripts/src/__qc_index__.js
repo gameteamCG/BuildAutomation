@@ -10,6 +10,7 @@ require('./assets/Framework/Scripts/Utilities/Utility');
 require('./assets/Framework/Scripts/Utils');
 require('./assets/Framework/WebView/Scripts/CheckForInitWebView');
 require('./assets/Framework/WebView/Scripts/WebView');
+require('./assets/Games/Matching/Jaipuria_Intro/introductionScript');
 require('./assets/Games/Matching/Scripts/Title');
 require('./assets/Games/Matching/Scripts/endScreen');
 require('./assets/Games/Matching/Scripts/gameplay');
