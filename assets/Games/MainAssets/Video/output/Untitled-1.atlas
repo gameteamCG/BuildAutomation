@@ -1,0 +1,104 @@
+
+Untitled-1.png
+size: 1920,745
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 10
+  rotate: true
+  xy: 790, 3
+  size: 306, 357
+  orig: 308, 359
+  offset: 1, 1
+  index: -1
+Layer 11
+  rotate: true
+  xy: 432, 2
+  size: 307, 356
+  orig: 309, 358
+  offset: 1, 1
+  index: -1
+Layer 12
+  rotate: true
+  xy: 1308, 581
+  size: 162, 182
+  orig: 164, 184
+  offset: 1, 1
+  index: -1
+Layer 13
+  rotate: false
+  xy: 1755, 258
+  size: 163, 177
+  orig: 165, 179
+  offset: 1, 1
+  index: -1
+Layer 14
+  rotate: false
+  xy: 1755, 79
+  size: 162, 177
+  orig: 164, 179
+  offset: 1, 1
+  index: -1
+Layer 15
+  rotate: true
+  xy: 1308, 417
+  size: 162, 182
+  orig: 164, 184
+  offset: 1, 1
+  index: -1
+Layer 2
+  rotate: false
+  xy: 348, 311
+  size: 958, 432
+  orig: 960, 434
+  offset: 1, 1
+  index: -1
+Layer 3
+  rotate: true
+  xy: 2, 260
+  size: 483, 344
+  orig: 485, 347
+  offset: 1, 2
+  index: -1
+Layer 4
+  rotate: true
+  xy: 1499, 223
+  size: 212, 254
+  orig: 214, 256
+  offset: 1, 1
+  index: -1
+Layer 5
+  rotate: false
+  xy: 2, 4
+  size: 213, 254
+  orig: 215, 256
+  offset: 1, 1
+  index: -1
+Layer 6
+  rotate: true
+  xy: 1499, 9
+  size: 212, 245
+  orig: 214, 247
+  offset: 1, 1
+  index: -1
+Layer 7
+  rotate: false
+  xy: 217, 4
+  size: 213, 254
+  orig: 215, 256
+  offset: 1, 1
+  index: -1
+Layer 8
+  rotate: true
+  xy: 1149, 3
+  size: 306, 348
+  orig: 308, 350
+  offset: 1, 1
+  index: -1
+Layer 9
+  rotate: true
+  xy: 1499, 437
+  size: 306, 347
+  orig: 308, 349
+  offset: 1, 1
+  index: -1

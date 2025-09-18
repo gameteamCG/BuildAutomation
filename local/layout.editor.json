@@ -13,7 +13,7 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 238,
+            "width": 232.78750610351562,
             "height": 810.6000366210938,
             "type": "panel",
             "active": 0,
@@ -22,18 +22,18 @@
             ]
           },
           {
-            "width": 850,
+            "width": 972.9125366210938,
             "height": 810.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 850,
-                "height": 541.6000366210938,
+                "width": 972.9125366210938,
+                "height": 541.7374877929688,
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 647.2250366210938,
-                    "height": 541.6000366210938,
+                    "width": 736.1749877929688,
+                    "height": 541.7374877929688,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -41,8 +41,8 @@
                     ]
                   },
                   {
-                    "width": 199.7624969482422,
-                    "height": 541.6000366210938,
+                    "width": 233.7375030517578,
+                    "height": 541.7374877929688,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 850,
-                "height": 266,
+                "width": 972.9125366210938,
+                "height": 265.8625183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 442,
+            "width": 324.3000183105469,
             "height": 810.6000366210938,
             "type": "panel",
             "active": 0,
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
+        "assets",
         "console",
         "timeline",
         "game-window",

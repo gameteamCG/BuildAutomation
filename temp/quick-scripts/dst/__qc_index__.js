@@ -21,6 +21,7 @@ require('./assets/Framework/Scripts/Utilities/Utility');
 require('./assets/Framework/Scripts/Utils');
 require('./assets/Framework/WebView/Scripts/CheckForInitWebView');
 require('./assets/Framework/WebView/Scripts/WebView');
+require('./assets/Games/MainAssets/Jaipuria_Intro/introductionScript');
 require('./assets/Games/WhatWillHappenNext/Scripts/Title');
 require('./assets/Games/WhatWillHappenNext/Scripts/endScreen');
 require('./assets/Games/WhatWillHappenNext/Scripts/gameplay');
