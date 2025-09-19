@@ -352,7 +352,7 @@ var startGame = /** @class */ (function (_super) {
             }
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
                 _this.scheduleOnce(function () {
-                    cc.director.loadScene("1");
+                    cc.director.loadScene("Intro");
                 }, 2);
             }
         }, 1);
@@ -376,7 +376,7 @@ var startGame = /** @class */ (function (_super) {
     startGame.prototype.OnPlayBtn = function (_event) {
         _event.target.getComponent(cc.Button).interactable = false;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
-        cc.director.loadScene("1");
+        cc.director.loadScene("Intro");
         _event.target.active = false;
         _event.target.parent.getChildByName("loading").active = true;
     };

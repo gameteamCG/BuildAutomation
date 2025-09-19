@@ -394,7 +394,7 @@ export default class startGame extends cc.Component {
 
             if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
                 this.scheduleOnce(() => {
-                    cc.director.loadScene("1");
+                    cc.director.loadScene("Intro");
                 }, 2);
             }
         }, 1);
@@ -422,7 +422,7 @@ export default class startGame extends cc.Component {
     OnPlayBtn(_event: cc.Event) {
         _event.target.getComponent(cc.Button).interactable = false;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
-        cc.director.loadScene("1");
+        cc.director.loadScene("Intro");
         _event.target.active = false;
         _event.target.parent.getChildByName("loading").active = true;
     }

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "20f00279-e876-432f-ae84-f55425c75639",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1890,
+  "height": 915,
+  "platformSettings": {},
+  "subMetas": {
+    "Water A precious resource and its uses": {
+      "ver": "1.0.6",
+      "uuid": "12d7e0b4-4b19-4c98-b6ce-340cf6223136",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "20f00279-e876-432f-ae84-f55425c75639",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1886,
+      "height": 911,
+      "rawWidth": 1890,
+      "rawHeight": 915,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
