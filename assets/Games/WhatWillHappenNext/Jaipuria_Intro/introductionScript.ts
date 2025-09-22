@@ -24,22 +24,18 @@ export default class NewClass extends cc.Component {
 
     onLoad() {
         cc.director.preloadScene("1");
-        this.duration = [2.8, 6, 3.9, 6, 6, 4, 5, 2.8, 4.3, 4.5, 2.2, 6.2, 5, 4]
+        this.duration = [5.5, 3.3, 5.4, 5.4, 3.4, 4.5, 6.3, 3.8, 7.4, 8.2]
         this.TextArray = [
-            "Uses of air",
             "Today we will explore the many ways we use air every day.",
             "Plants need air to make their food.",
             "Air is filled into footballs, balloons, and swimming tubes.",
             "It helps us ride bicycles by filling up the tyres with air.",
             "Air dries our clothes after washing.",
             "It helps things burn — like when we cook food.",
-            "Air moves things!",
-            "It helps kites and parachutes fly.",
+            "Air moves things! It helps kites and parachutes fly.",
             "Wind pushes boats to sail on water.",
-            "Do you know?",
-            "A flute and a trumpet make music when we blow air into them!",
-            "So, air is really useful in many ways.",
-            "It helps us work, play and stay alive!"
+            "Do you know ? A flute and a trumpet make music when we blow air into them!",
+            "So, air is really useful in many ways. It helps us work, play and stay alive!"
         ]
     }
 
