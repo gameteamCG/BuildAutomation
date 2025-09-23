@@ -15,14 +15,14 @@
     },
     "questionData": [
       {
-        "questionText": "She __________ to school every day. (go)",
+        "questionText": "He __________ breakfast at 8 o'clock. (eat)",
         "questionAudioName": "L1_Q.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "go",
-          "goes",
-          "going"
+          "eat",
+          "eats",
+          "eating"
         ],
         "correctAudios": [
           "L1_ANS.mp3"
@@ -30,14 +30,14 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "My father __________ tea in the morning. (drink)",
+        "questionText": "I __________ my school bag every morning. (pack)",
         "questionAudioName": "L2_Q.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "drinks",
-          "drink",
-          "drinking"
+          "pack",
+          "packs",
+          "packing"
         ],
         "correctAudios": [
           "L2_ANS.mp3"
@@ -45,14 +45,14 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "We __________ our hands before eating. (wash)",
+        "questionText": "The cat __________ on the mat. (sit)",
         "questionAudioName": "L3_Q.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "washes",
-          "washing",
-          "wash"
+          "sitting",
+          "sit",
+          "sits"
         ],
         "correctAudios": [
           "L3_ANS.mp3"
@@ -60,14 +60,14 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "The dog __________ loudly. (bark)",
+        "questionText": "We __________ in the playground. (run)",
         "questionAudioName": "L4_Q.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "barking",
-          "barks",
-          "barked"
+          "running",
+          "run",
+          "runs"
         ],
         "correctAudios": [
           "L4_ANS.mp3"
@@ -75,14 +75,14 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "I __________ in a small house. (live)",
+        "questionText": "My mother __________ tasty food. (cook)",
         "questionAudioName": "L5_Q.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "lives",
-          "lived",
-          "live"
+          "cook",
+          "cooking",
+          "cooks"
         ],
         "correctAudios": [
           "L5_ANS.mp3"
@@ -90,14 +90,14 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "He __________ his bicycle to the park. (ride)",
+        "questionText": "Rina __________ a song every evening. (sing)",
         "questionAudioName": "L6_Q.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "rides",
-          "ride",
-          "riding"
+          "sings",
+          "sing",
+          "singing"
         ],
         "correctAudios": [
           "L6_ANS.mp3"
@@ -105,14 +105,14 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "They __________ stories at night. (read)",
+        "questionText": "They __________ to the zoo on Sundays. (go)",
         "questionAudioName": "L7_Q.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "reading",
-          "reads",
-          "read"
+          "going",
+          "goes",
+          "go"
         ],
         "correctAudios": [
           "L7_ANS.mp3"
@@ -120,14 +120,14 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "Birds __________ in the sky. (fly)",
+        "questionText": "The baby __________ when he is hungry. (cry)",
         "questionAudioName": "L8_Q.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "fly",
-          "flying",
-          "flies"
+          "cries",
+          "crying",
+          "cry"
         ],
         "correctAudios": [
           "L8_ANS.mp3"
@@ -135,14 +135,14 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "The baby __________ when she is hungry. (cry)",
+        "questionText": "Rahul __________ with his friends at recess. (play)",
         "questionAudioName": "L9_Q.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "cry",
-          "cries",
-          "crying"
+          "play",
+          "plays",
+          "playing"
         ],
         "correctAudios": [
           "L9_ANS.mp3"
@@ -150,14 +150,14 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "I __________ my teeth twice a day. (brush)",
+        "questionText": "My sister __________ a story every night. (read)",
         "questionAudioName": "L10_Q.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "options": [
-          "brushing",
-          "brushes",
-          "brush"
+          "read",
+          "reading",
+          "reads"
         ],
         "correctAudios": [
           "L10_ANS.mp3"
