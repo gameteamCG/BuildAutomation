@@ -1,6 +1,6 @@
 
 Untitled-1-Recovered-Recovered.png
-size: 2008,1540
+size: 2006,1540
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
@@ -20,14 +20,14 @@ Layer 11
   index: -1
 Layer 12
   rotate: true
-  xy: 1594, 1106
+  xy: 1592, 1106
   size: 432, 272
   orig: 434, 274
   offset: 1, 1
   index: -1
 Layer 13
   rotate: true
-  xy: 1539, 528
+  xy: 1537, 528
   size: 278, 279
   orig: 280, 281
   offset: 1, 1
@@ -41,7 +41,7 @@ Layer 14
   index: -1
 Layer 15
   rotate: false
-  xy: 1820, 500
+  xy: 1818, 500
   size: 186, 306
   orig: 188, 308
   offset: 1, 1
@@ -62,7 +62,7 @@ Layer 17
   index: -1
 Layer 18
   rotate: true
-  xy: 1868, 1169
+  xy: 1866, 1169
   size: 369, 120
   orig: 371, 122
   offset: 1, 1
@@ -83,14 +83,14 @@ Layer 2
   index: -1
 Layer 20
   rotate: false
-  xy: 979, 1056
+  xy: 977, 1056
   size: 613, 482
   orig: 613, 484
   offset: 0, 2
   index: -1
 Layer 21
   rotate: true
-  xy: 1006, 532
+  xy: 1004, 532
   size: 522, 531
   orig: 522, 548
   offset: 0, 17
@@ -98,27 +98,27 @@ Layer 21
 Layer 4
   rotate: true
   xy: 436, 965
-  size: 573, 541
+  size: 573, 539
   orig: 573, 544
-  offset: 0, 3
+  offset: 0, 5
   index: -1
 Layer 5
   rotate: true
   xy: 436, 675
-  size: 288, 568
+  size: 288, 566
   orig: 288, 583
-  offset: 0, 15
+  offset: 0, 17
   index: -1
 Layer 6
   rotate: false
-  xy: 928, 32
-  size: 540, 498
+  xy: 928, 28
+  size: 540, 502
   orig: 540, 502
-  offset: 0, 4
+  offset: 0, 0
   index: -1
 Layer 7
   rotate: false
-  xy: 1594, 808
+  xy: 1592, 808
   size: 363, 296
   orig: 365, 298
   offset: 1, 1

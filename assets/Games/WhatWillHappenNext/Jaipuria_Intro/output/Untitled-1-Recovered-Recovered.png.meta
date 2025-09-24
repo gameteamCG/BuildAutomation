@@ -8,8 +8,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 1767,
-  "height": 962,
+  "width": 2008,
+  "height": 1540,
   "platformSettings": {},
   "subMetas": {
     "Untitled-1-Recovered-Recovered": {
@@ -24,9 +24,9 @@
       "offsetY": 0,
       "trimX": 2,
       "trimY": 2,
-      "width": 2004,
+      "width": 2002,
       "height": 1536,
-      "rawWidth": 2008,
+      "rawWidth": 2006,
       "rawHeight": 1540,
       "borderTop": 0,
       "borderBottom": 0,
