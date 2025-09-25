@@ -360,15 +360,18 @@ export default class startGame extends cc.Component {
             else if (this.jockeyName == "stallion") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
             }
+            else if (this.jockeyName == "puzzle") {
+                cc.find("Canvas").getChildByName("bg").getChildByName("puzzle").active = true;
+            }
             else if (this.jockeyName == "bag" || this.jockeyName == "cryon" || this.jockeyName == "tortoise") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
 
-            // if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
-            //     this.scheduleOnce(() => {
-            //         cc.director.loadScene(this.NextSceneName);
-            //     }, 2);
-            // }
+            if (this.jockeyName != "bag" && this.jockeyName != "cryon" && this.jockeyName != "tortoise") {
+                this.scheduleOnce(() => {
+                    cc.director.loadScene(this.NextSceneName);
+                }, 2);
+            }
         }, 1);
 
         // this.OnTimer();

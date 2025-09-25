@@ -3025,11 +3025,6 @@
     "beeFlying": {
       "__uuid__": "3f95b32f-6208-4b55-bced-db2ad074d82a"
     },
-    "popSound2": [
-      {
-        "__uuid__": "e6008246-c683-4a2e-98ed-55c5032d805c"
-      }
-    ],
     "questionSound": [
       {
         "__uuid__": "d4ddce1e-46b5-4dcc-bb72-696bd54fe15d"
@@ -3049,40 +3044,39 @@
     "negativeAudio": [],
     "stallionPositive": [],
     "stallionNegative": [],
-    "bagPositive": [
-      {
-        "__uuid__": "87cf9f95-04f3-4d8f-b633-6e09a2f30c63"
-      },
-      {
-        "__uuid__": "0fc4ace4-a063-4245-9667-7b7b49abf666"
-      },
-      {
-        "__uuid__": "7914dcc8-7a42-4f45-b48c-c36f57156549"
-      },
-      {
-        "__uuid__": "2a0c44af-6921-4b04-a360-f603304932fc"
-      },
-      {
-        "__uuid__": "93e5bce9-491e-4c17-9da2-01075a41c0b3"
-      }
-    ],
-    "bagNegative": [
-      {
-        "__uuid__": "b1fa9384-70ea-4eef-bc69-738d790b79f8"
-      },
-      {
-        "__uuid__": "de2f2ba2-5814-42b0-bffe-db42bebf0a92"
-      },
-      {
-        "__uuid__": "9bf14701-26b4-41d5-ba20-3f1593c2fecd"
-      }
-    ],
+    "bagPositive": [],
+    "bagNegative": [],
     "cryonPositive": [],
     "cryonNegative": [],
     "tlcPositive": [],
     "tlcNegative": [],
     "supercubPositive": [],
     "supercubNegative": [],
+    "puzzlePositive": [
+      {
+        "__uuid__": "8473d132-0974-4b7e-96ae-9325acb3eefc"
+      },
+      {
+        "__uuid__": "b2739f34-fba4-47c8-9300-e67b6d5388f2"
+      },
+      {
+        "__uuid__": "d8e41f4b-3226-47cb-8b05-1961f76aa758"
+      },
+      {
+        "__uuid__": "d78c1dfc-1fa8-47f4-a5df-e2438e73d3cf"
+      },
+      {
+        "__uuid__": "f831892f-9c05-4418-8c8e-228d1a5a0f53"
+      }
+    ],
+    "puzzleNegative": [
+      {
+        "__uuid__": "25504cfe-56ee-4f6c-bbf9-ee857dd1bdfd"
+      },
+      {
+        "__uuid__": "05e016dc-7ab6-45d7-aa73-fcd7ad711711"
+      }
+    ],
     "tlc_birdFlying": null,
     "supercub_Pos1": null,
     "supercub_Pos2": null,
@@ -3097,6 +3091,9 @@
     "podar_font": null,
     "jaipuria_font": {
       "__uuid__": "f5b53d31-188b-45f3-b64c-aa062d1e4ddd"
+    },
+    "puzzle_font": {
+      "__uuid__": "3973d65f-94f6-47bd-adab-8f9135d35f89"
     },
     "tlc_font": null,
     "supercub_font": null,

@@ -753,7 +753,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "jaipuria",
+    "_name": "puzzle",
     "_objFlags": 0,
     "_parent": {
       "__id__": 5
@@ -772,7 +772,7 @@
     "_active": false,
     "_components": [],
     "_prefab": null,
-    "_opacity": 255,
+    "_opacity": 0,
     "_color": {
       "__type__": "cc.Color",
       "r": 255,
@@ -3043,7 +3043,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "tortoise",
+    "_name": "puzzle",
     "_objFlags": 0,
     "_parent": {
       "__id__": 62
@@ -3066,8 +3066,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 415.17,
-      "height": 649.53
+      "width": 409.26,
+      "height": 351.22
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3085,8 +3085,8 @@
         0,
         0,
         1,
-        0.5,
-        0.5,
+        0.6,
+        0.6,
         1
       ]
     },
@@ -3118,7 +3118,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "idle",
+    "defaultAnimation": "",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -3135,7 +3135,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "47ae6eb7-9d86-4f05-8d02-bacdd8589037"
+      "__uuid__": "8761079d-55fc-4b52-bcb6-5af5117f0126"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,

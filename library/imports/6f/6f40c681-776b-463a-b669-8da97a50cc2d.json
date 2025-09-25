@@ -1,0 +1,169 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Simple present tense_Term 2 - Grade 2 (Grammar)_R7_T2",
+      "totalLevel": "10",
+      "TitleImageName": "title.png",
+      "introBgName": "Main_BG.png",
+      "bgmMusicName": "BG_BB.mp3",
+      "mainBgName": "",
+      "JockeyName": "puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "She __________ to school every day. (go)",
+        "questionAudioName": "L1_Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "go",
+          "goes",
+          "going"
+        ],
+        "correctAudios": [
+          "L1_ANS.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "My father __________ tea in the morning. (drink)",
+        "questionAudioName": "L2_Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "drinks",
+          "drink",
+          "drinking"
+        ],
+        "correctAudios": [
+          "L2_ANS.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "We __________ our hands before eating. (wash)",
+        "questionAudioName": "L3_Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "washes",
+          "washing",
+          "wash"
+        ],
+        "correctAudios": [
+          "L3_ANS.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "The dog __________ loudly. (bark)",
+        "questionAudioName": "L4_Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "barking",
+          "barks",
+          "barked"
+        ],
+        "correctAudios": [
+          "L4_ANS.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "I __________ in a small house. (live)",
+        "questionAudioName": "L5_Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "lives",
+          "lived",
+          "live"
+        ],
+        "correctAudios": [
+          "L5_ANS.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "He __________ his bicycle to the park. (ride)",
+        "questionAudioName": "L6_Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "rides",
+          "ride",
+          "riding"
+        ],
+        "correctAudios": [
+          "L6_ANS.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "They __________ stories at night. (read)",
+        "questionAudioName": "L7_Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "reading",
+          "reads",
+          "read"
+        ],
+        "correctAudios": [
+          "L7_ANS.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Birds __________ in the sky. (fly)",
+        "questionAudioName": "L8_Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "fly",
+          "flying",
+          "flies"
+        ],
+        "correctAudios": [
+          "L8_ANS.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "The baby __________ when she is hungry. (cry)",
+        "questionAudioName": "L9_Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "cry",
+          "cries",
+          "crying"
+        ],
+        "correctAudios": [
+          "L9_ANS.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "I __________ my teeth twice a day. (brush)",
+        "questionAudioName": "L10_Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": true,
+        "options": [
+          "brushing",
+          "brushes",
+          "brush"
+        ],
+        "correctAudios": [
+          "L10_ANS.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}

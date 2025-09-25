@@ -38,7 +38,6 @@ var NewClass = /** @class */ (function (_super) {
         _this.honeyFilling = null;
         _this.honeyprogressFilling = null;
         _this.beeFlying = null;
-        _this.popSound2 = [];
         _this.questionSound = [];
         _this.positiveSound = [];
         _this.negativeSound = [];
@@ -54,6 +53,8 @@ var NewClass = /** @class */ (function (_super) {
         _this.tlcNegative = [];
         _this.supercubPositive = [];
         _this.supercubNegative = [];
+        _this.puzzlePositive = [];
+        _this.puzzleNegative = [];
         _this.tlc_birdFlying = null;
         _this.supercub_Pos1 = null;
         _this.supercub_Pos2 = null;
@@ -63,6 +64,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.greyMat = null;
         _this.podar_font = null;
         _this.jaipuria_font = null;
+        _this.puzzle_font = null;
         _this.tlc_font = null;
         _this.supercub_font = null;
         _this.isFirstClick = false;
@@ -108,6 +110,12 @@ var NewClass = /** @class */ (function (_super) {
             });
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         }
+        else if (StartGame_1.default.Instance.jockeyName == "puzzle") {
+            this.optionsNode.children.forEach(function (element) {
+                element.getChildByName("text").getComponent(cc.Label).font = _this.puzzle_font;
+            });
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.puzzle_font;
+        }
         this.TotalOptions = 3;
         this.optionsNode = this.node.getChildByName("Option");
         this.maxLevel = StartGame_1.default.Instance.totalLevels;
@@ -115,7 +123,6 @@ var NewClass = /** @class */ (function (_super) {
             cc.director.preloadScene("endScreen");
         }
         console.log("levelStarted--" + globalVariables_1.default.Instance.currentLevel);
-        //this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
         for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum.length; i++) {
             this.answerArray[i] = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum[i];
         }
@@ -214,6 +221,10 @@ var NewClass = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "stallion") {
             this.positiveAudio = this.stallionPositive;
             this.negativeAudio = this.stallionNegative;
+        }
+        else if (StartGame_1.default.Instance.jockeyName == "puzzle") {
+            this.positiveAudio = this.puzzlePositive;
+            this.negativeAudio = this.puzzleNegative;
         }
     };
     NewClass.prototype.getRandomNumber = function (min, max) {
@@ -467,6 +478,9 @@ var NewClass = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "cryon") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
+        else if (StartGame_1.default.Instance.jockeyName == "puzzle") {
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+        }
         else if (StartGame_1.default.Instance.jockeyName == "Singham") {
             anim = ["dance", "thumbs_up"];
         }
@@ -589,6 +603,9 @@ var NewClass = /** @class */ (function (_super) {
             }
             else if (StartGame_1.default.Instance.jockeyName == "cryon") {
                 anim = ["negative_1", "negative_2", "negative_3"];
+            }
+            else if (StartGame_1.default.Instance.jockeyName == "puzzle") {
+                anim = ["negative_1", "negative_2"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Singham") {
                 anim = ["no"];
@@ -793,9 +810,6 @@ var NewClass = /** @class */ (function (_super) {
     ], NewClass.prototype, "beeFlying", void 0);
     __decorate([
         property(cc.AudioClip)
-    ], NewClass.prototype, "popSound2", void 0);
-    __decorate([
-        property(cc.AudioClip)
     ], NewClass.prototype, "questionSound", void 0);
     __decorate([
         property(cc.AudioClip)
@@ -841,6 +855,12 @@ var NewClass = /** @class */ (function (_super) {
     ], NewClass.prototype, "supercubNegative", void 0);
     __decorate([
         property(cc.AudioClip)
+    ], NewClass.prototype, "puzzlePositive", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], NewClass.prototype, "puzzleNegative", void 0);
+    __decorate([
+        property(cc.AudioClip)
     ], NewClass.prototype, "tlc_birdFlying", void 0);
     __decorate([
         property(cc.AudioClip)
@@ -866,6 +886,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.Font)
     ], NewClass.prototype, "jaipuria_font", void 0);
+    __decorate([
+        property(cc.Font)
+    ], NewClass.prototype, "puzzle_font", void 0);
     __decorate([
         property(cc.Font)
     ], NewClass.prototype, "tlc_font", void 0);

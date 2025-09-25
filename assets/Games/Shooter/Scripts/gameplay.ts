@@ -1,8 +1,6 @@
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
 import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
-import optionscript from "./optionscript";
 
 const { ccclass, property } = cc._decorator;
 
@@ -29,9 +27,6 @@ export default class NewClass extends cc.Component {
 
     @property(cc.AudioClip)
     private beeFlying: cc.AudioClip = null;
-
-    @property(cc.AudioClip)
-    private popSound2: cc.AudioClip[] = [];
 
     @property(cc.AudioClip)
     private questionSound: cc.AudioClip[] = [];
@@ -77,6 +72,11 @@ export default class NewClass extends cc.Component {
     private supercubNegative: cc.AudioClip[] = [];
 
     @property(cc.AudioClip)
+    private puzzlePositive: cc.AudioClip[] = [];
+    @property(cc.AudioClip)
+    private puzzleNegative: cc.AudioClip[] = [];
+
+    @property(cc.AudioClip)
     private tlc_birdFlying: cc.AudioClip = null;
 
     @property(cc.AudioClip)
@@ -98,7 +98,8 @@ export default class NewClass extends cc.Component {
     private podar_font: cc.Font = null;
     @property(cc.Font)
     private jaipuria_font: cc.Font = null;
-
+    @property(cc.Font)
+    private puzzle_font: cc.Font = null;
     @property(cc.Font)
     private tlc_font: cc.Font = null;
     @property(cc.Font)
@@ -150,19 +151,20 @@ export default class NewClass extends cc.Component {
             });
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         }
+        else if (startGame.Instance.jockeyName == "puzzle") {
+            this.optionsNode.children.forEach((element) => {
+                element.getChildByName("text").getComponent(cc.Label).font = this.puzzle_font;
+            });
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.puzzle_font;
+        }
 
         this.TotalOptions = 3;
-
-
         this.optionsNode = this.node.getChildByName("Option");
         this.maxLevel = startGame.Instance.totalLevels;
         if (globalVariables.Instance.currentLevel == this.maxLevel) {
             cc.director.preloadScene("endScreen");
         }
         console.log(`levelStarted--` + globalVariables.Instance.currentLevel);
-
-        //this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
-
         for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum.length; i++) {
             this.answerArray[i] = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum[i];
         }
@@ -259,6 +261,10 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "stallion") {
             this.positiveAudio = this.stallionPositive;
             this.negativeAudio = this.stallionNegative;
+        }
+        else if (startGame.Instance.jockeyName == "puzzle") {
+            this.positiveAudio = this.puzzlePositive;
+            this.negativeAudio = this.puzzleNegative;
         }
     }
 
@@ -537,6 +543,9 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "cryon") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
+        else if (startGame.Instance.jockeyName == "puzzle") {
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+        }
         else if (startGame.Instance.jockeyName == "Singham") {
             anim = ["dance", "thumbs_up"];
         }
@@ -665,6 +674,9 @@ export default class NewClass extends cc.Component {
             }
             else if (startGame.Instance.jockeyName == "cryon") {
                 anim = ["negative_1", "negative_2", "negative_3"];
+            }
+            else if (startGame.Instance.jockeyName == "puzzle") {
+                anim = ["negative_1", "negative_2"];
             }
             else if (startGame.Instance.jockeyName == "Singham") {
                 anim = ["no"];
