@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dialogue box",
+    "texture": "65ef67c3-1016-4b30-a957-5ebcb3cee622",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      943,
+      241
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      943,
+      241
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

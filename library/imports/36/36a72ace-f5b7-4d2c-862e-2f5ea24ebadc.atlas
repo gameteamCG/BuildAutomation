@@ -1,0 +1,118 @@
+
+Monuments in Bharat.png
+size: 1968,1124
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bara imambara
+  rotate: true
+  xy: 363, 4
+  size: 338, 347
+  orig: 340, 349
+  offset: 1, 1
+  index: -1
+Brihadeeswara temple
+  rotate: false
+  xy: 962, 763
+  size: 414, 359
+  orig: 416, 361
+  offset: 1, 1
+  index: -1
+Char minar
+  rotate: false
+  xy: 712, 2
+  size: 337, 347
+  orig: 339, 349
+  offset: 1, 1
+  index: -1
+Gwaliyar fort
+  rotate: true
+  xy: 848, 351
+  size: 337, 347
+  orig: 339, 349
+  offset: 1, 1
+  index: -1
+Layer 2
+  rotate: false
+  xy: 2, 690
+  size: 958, 432
+  orig: 960, 434
+  offset: 1, 1
+  index: -1
+Qutub minar 02
+  rotate: false
+  xy: 1378, 771
+  size: 337, 351
+  orig: 339, 353
+  offset: 1, 1
+  index: -1
+Qutub minar 03
+  rotate: false
+  xy: 1437, 478
+  size: 241, 291
+  orig: 243, 293
+  offset: 1, 1
+  index: -1
+Rang ghar
+  rotate: true
+  xy: 2, 5
+  size: 337, 359
+  orig: 339, 361
+  offset: 1, 1
+  index: -1
+Red fort
+  rotate: true
+  xy: 1437, 238
+  size: 238, 288
+  orig: 240, 290
+  offset: 1, 1
+  index: -1
+Red fort 02
+  rotate: false
+  xy: 1727, 188
+  size: 239, 288
+  orig: 241, 290
+  offset: 1, 1
+  index: -1
+Sun temple
+  rotate: true
+  xy: 487, 351
+  size: 337, 359
+  orig: 339, 361
+  offset: 1, 1
+  index: -1
+Title
+  rotate: false
+  xy: 2, 344
+  size: 483, 344
+  orig: 485, 346
+  offset: 1, 1
+  index: -1
+hawa mahel
+  rotate: false
+  xy: 1051, 2
+  size: 337, 347
+  orig: 339, 349
+  offset: 1, 1
+  index: -1
+qutub minar
+  rotate: false
+  xy: 1680, 478
+  size: 240, 291
+  orig: 242, 293
+  offset: 1, 1
+  index: -1
+taj mahel
+  rotate: false
+  xy: 1717, 822
+  size: 238, 300
+  orig: 240, 302
+  offset: 1, 1
+  index: -1
+taj mahel 02
+  rotate: false
+  xy: 1197, 461
+  size: 238, 300
+  orig: 240, 302
+  offset: 1, 1
+  index: -1
