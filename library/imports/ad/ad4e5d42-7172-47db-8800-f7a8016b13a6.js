@@ -60,6 +60,8 @@ var NewClass = /** @class */ (function (_super) {
         _this.tlcNegative = [];
         _this.supercubPositive = [];
         _this.supercubNegative = [];
+        _this.puzzlePositive = [];
+        _this.puzzleNegative = [];
         _this.tlc_birdFlying = null;
         _this.supercub_Pos1 = null;
         _this.supercub_Pos2 = null;
@@ -71,6 +73,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.jaipuria_font = null;
         _this.tlc_font = null;
         _this.supercub_font = null;
+        _this.puzzle_font = null;
         _this.isFirstClick = false;
         _this.canTouch = false;
         _this.answerArray = [];
@@ -99,14 +102,17 @@ var NewClass = /** @class */ (function (_super) {
                 Elem.active = true;
             });
         });
-        // this.optionsNode.children[0].children[0].active = false;
-        // this.optionsNode.children[1].children[0].active = false;
-        // this.optionsNode.children[2].children[0].active = false;
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             this.optionsNode.children.forEach(function (element) {
                 element.getChildByName("text").getComponent(cc.Label).font = _this.podar_font;
             });
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+        }
+        else if (StartGame_1.default.Instance.jockeyName == "puzzle") {
+            this.optionsNode.children.forEach(function (element) {
+                element.getChildByName("text").getComponent(cc.Label).font = _this.puzzle_font;
+            });
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.puzzle_font;
         }
         else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
             this.optionsNode.children.forEach(function (element) {
@@ -216,6 +222,10 @@ var NewClass = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "cryon") {
             this.positiveAudio = this.cryonPositive;
             this.negativeAudio = this.cryonNegative;
+        }
+        else if (StartGame_1.default.Instance.jockeyName == "puzzle") {
+            this.positiveAudio = this.puzzlePositive;
+            this.negativeAudio = this.puzzleNegative;
         }
         else if (StartGame_1.default.Instance.jockeyName == "stallion") {
             this.positiveAudio = this.stallionPositive;
@@ -476,6 +486,9 @@ var NewClass = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "bag") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
+        else if (StartGame_1.default.Instance.jockeyName == "puzzle") {
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+        }
         else if (StartGame_1.default.Instance.jockeyName == "cryon") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
@@ -598,6 +611,9 @@ var NewClass = /** @class */ (function (_super) {
             }
             else if (StartGame_1.default.Instance.jockeyName == "bag") {
                 anim = ["negative_1", "negative_2", "negative_3"];
+            }
+            else if (StartGame_1.default.Instance.jockeyName == "puzzle") {
+                anim = ["negative_1", "negative_2"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "cryon") {
                 anim = ["negative_1", "negative_2", "negative_3"];
@@ -924,6 +940,12 @@ var NewClass = /** @class */ (function (_super) {
     ], NewClass.prototype, "supercubNegative", void 0);
     __decorate([
         property(cc.AudioClip)
+    ], NewClass.prototype, "puzzlePositive", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], NewClass.prototype, "puzzleNegative", void 0);
+    __decorate([
+        property(cc.AudioClip)
     ], NewClass.prototype, "tlc_birdFlying", void 0);
     __decorate([
         property(cc.AudioClip)
@@ -955,6 +977,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.Font)
     ], NewClass.prototype, "supercub_font", void 0);
+    __decorate([
+        property(cc.Font)
+    ], NewClass.prototype, "puzzle_font", void 0);
     __decorate([
         property(cc.Node)
     ], NewClass.prototype, "optionsNode", void 0);

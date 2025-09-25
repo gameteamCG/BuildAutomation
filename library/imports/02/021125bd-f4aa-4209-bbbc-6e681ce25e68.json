@@ -4523,6 +4523,31 @@
     "tlcNegative": [],
     "supercubPositive": [],
     "supercubNegative": [],
+    "puzzlePositive": [
+      {
+        "__uuid__": "a5bed188-1e91-47c5-9eb1-28fcfb59b642"
+      },
+      {
+        "__uuid__": "d5fee921-68ed-4173-9914-2e4aed64cf1c"
+      },
+      {
+        "__uuid__": "ce66bd8f-973c-4e96-9272-49c455f0ce27"
+      },
+      {
+        "__uuid__": "0d738fa3-e0ed-440e-8176-a8d3304a770a"
+      },
+      {
+        "__uuid__": "474f940c-5d1b-4445-9554-a7a7c2381627"
+      }
+    ],
+    "puzzleNegative": [
+      {
+        "__uuid__": "3c36b5b1-7984-4e87-b3b9-b0699324246d"
+      },
+      {
+        "__uuid__": "dfa45527-15de-4739-9438-75e72ff4ddb1"
+      }
+    ],
     "tlc_birdFlying": null,
     "supercub_Pos1": null,
     "supercub_Pos2": null,
@@ -4540,6 +4565,9 @@
     },
     "tlc_font": null,
     "supercub_font": null,
+    "puzzle_font": {
+      "__uuid__": "3973d65f-94f6-47bd-adab-8f9135d35f89"
+    },
     "optionsNode": {
       "__id__": 24
     },

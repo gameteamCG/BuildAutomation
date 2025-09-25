@@ -1,6 +1,4 @@
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
 import startGame from "../../../Framework/Scripts/StartGame";
-import globalVariables from "./globalVariables";
 
 const { ccclass, property } = cc._decorator;
 
@@ -21,6 +19,8 @@ export default class NewClass extends cc.Component {
     private tlcEnd: cc.SpriteFrame = null;
     @property(cc.SpriteFrame)
     private supercubEnd: cc.SpriteFrame = null;
+    @property(cc.SpriteFrame)
+    private puzzleEnd: cc.SpriteFrame = null;
 
     // LIFE-CYCLE CALLBACKS:
 
@@ -33,6 +33,9 @@ export default class NewClass extends cc.Component {
         }
         else if (startGame.Instance.jockeyName == "supercub") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
+        }
+        else if (startGame.Instance.jockeyName == "puzzle") {
+            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.puzzleEnd;
         }
         else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;

@@ -35,6 +35,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.jaipuriaEnd = null;
         _this.tlcEnd = null;
         _this.supercubEnd = null;
+        _this.puzzleEnd = null;
         return _this;
         // update (dt) {}
     }
@@ -49,6 +50,9 @@ var NewClass = /** @class */ (function (_super) {
         }
         else if (StartGame_1.default.Instance.jockeyName == "supercub") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
+        }
+        else if (StartGame_1.default.Instance.jockeyName == "puzzle") {
+            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.puzzleEnd;
         }
         else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
@@ -110,6 +114,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.SpriteFrame)
     ], NewClass.prototype, "supercubEnd", void 0);
+    __decorate([
+        property(cc.SpriteFrame)
+    ], NewClass.prototype, "puzzleEnd", void 0);
     NewClass = __decorate([
         ccclass
     ], NewClass);

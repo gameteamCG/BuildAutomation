@@ -87,6 +87,10 @@ export default class NewClass extends cc.Component {
     private supercubPositive: cc.AudioClip[] = [];
     @property(cc.AudioClip)
     private supercubNegative: cc.AudioClip[] = [];
+    @property(cc.AudioClip)
+    private puzzlePositive: cc.AudioClip[] = [];
+    @property(cc.AudioClip)
+    private puzzleNegative: cc.AudioClip[] = [];
 
     @property(cc.AudioClip)
     private tlc_birdFlying: cc.AudioClip = null;
@@ -115,6 +119,8 @@ export default class NewClass extends cc.Component {
     private tlc_font: cc.Font = null;
     @property(cc.Font)
     private supercub_font: cc.Font = null;
+    @property(cc.Font)
+    private puzzle_font: cc.Font = null;
 
     private isFirstClick: boolean = false;
     private canTouch: boolean = false;
@@ -147,14 +153,17 @@ export default class NewClass extends cc.Component {
                 Elem.active = true;
             })
         })
-        // this.optionsNode.children[0].children[0].active = false;
-        // this.optionsNode.children[1].children[0].active = false;
-        // this.optionsNode.children[2].children[0].active = false;
         if (startGame.Instance.jockeyName == "Podar") {
             this.optionsNode.children.forEach((element) => {
                 element.getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             });
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+        }
+        else if (startGame.Instance.jockeyName == "puzzle") {
+            this.optionsNode.children.forEach((element) => {
+                element.getChildByName("text").getComponent(cc.Label).font = this.puzzle_font;
+            });
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.puzzle_font;
         }
         else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
             this.optionsNode.children.forEach((element) => {
@@ -267,6 +276,10 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "cryon") {
             this.positiveAudio = this.cryonPositive;
             this.negativeAudio = this.cryonNegative;
+        }
+        else if (startGame.Instance.jockeyName == "puzzle") {
+            this.positiveAudio = this.puzzlePositive;
+            this.negativeAudio = this.puzzleNegative;
         }
         else if (startGame.Instance.jockeyName == "stallion") {
             this.positiveAudio = this.stallionPositive;
@@ -545,6 +558,9 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "bag") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
+        else if (startGame.Instance.jockeyName == "puzzle") {
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+        }
         else if (startGame.Instance.jockeyName == "cryon") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
@@ -673,6 +689,9 @@ export default class NewClass extends cc.Component {
             }
             else if (startGame.Instance.jockeyName == "bag") {
                 anim = ["negative_1", "negative_2", "negative_3"];
+            }
+            else if (startGame.Instance.jockeyName == "puzzle") {
+                anim = ["negative_1", "negative_2"];
             }
             else if (startGame.Instance.jockeyName == "cryon") {
                 anim = ["negative_1", "negative_2", "negative_3"];
