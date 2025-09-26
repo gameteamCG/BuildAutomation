@@ -40,6 +40,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.HorizntalOptionNode = null;
         _this.VerticalOptionNode = null;
         _this.extraImg = null;
+        _this.optionsimg = [];
         _this.popSound = [];
         _this.honeyFilling = null;
         _this.honeyprogressFilling = null;
@@ -134,19 +135,27 @@ var NewClass = /** @class */ (function (_super) {
                 _this.questionSound[0] = audioClip;
             });
             var _loop_1 = function (i) {
-                if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionText) {
-                    cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i], function (err, texture) {
-                        if (err) {
-                            console.error("Failed to load image:", err);
-                            return;
-                        }
-                        var spriteFrame = new cc.SpriteFrame(texture);
-                        _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    });
-                }
-                else {
-                    this_1.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i];
-                }
+                // if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
+                //     cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (err, texture) => {
+                //         if (err) {
+                //             console.error("Failed to load image:", err);
+                //             return;
+                //         }
+                //         const spriteFrame = new cc.SpriteFrame(texture);
+                //         this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = this.optionsimg[0];
+                //     });
+                // }
+                // else {
+                cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i], function (err, texture) {
+                    if (err) {
+                        console.error("Failed to load image:", err);
+                        return;
+                    }
+                    var spriteFrame = new cc.SpriteFrame(texture);
+                    _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = _this.optionsimg[0];
+                    ;
+                });
+                this_1.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i];
             };
             var this_1 = this;
             for (var i = 0; i < this.TotalOptions; i++) {
@@ -170,14 +179,18 @@ var NewClass = /** @class */ (function (_super) {
                 _this.questionSound[0] = AudioClip;
             });
             var _loop_3 = function (i) {
+                // if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
+                //     this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (spriteFrame) => {
+                //         this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                //     });
+                // }
+                // else {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionText) {
                     this_2.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i], function (spriteFrame) {
-                        _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = _this.optionsimg[0];
                     });
                 }
-                else {
-                    this_2.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i];
-                }
+                this_2.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i];
             };
             var this_2 = this;
             for (var i = 0; i < this.TotalOptions; i++) {
@@ -862,6 +875,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.SpriteFrame)
     ], NewClass.prototype, "extraImg", void 0);
+    __decorate([
+        property(cc.SpriteFrame)
+    ], NewClass.prototype, "optionsimg", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "popSound", void 0);
