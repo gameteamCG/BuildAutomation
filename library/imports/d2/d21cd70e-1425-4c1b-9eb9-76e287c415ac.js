@@ -330,7 +330,7 @@ var startGame = /** @class */ (function (_super) {
                 }
             }
         }
-        cc.director.preloadScene("1");
+        cc.director.preloadScene("intro");
         this.scheduleOnce(function () {
             console.log("jockey name = ", _this.jockeyName);
             if (_this.jockeyName == "Podar") {
@@ -350,7 +350,7 @@ var startGame = /** @class */ (function (_super) {
             }
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
                 _this.scheduleOnce(function () {
-                    cc.director.loadScene("1");
+                    cc.director.loadScene("intro");
                 }, 2);
             }
         }, 1);
@@ -374,7 +374,7 @@ var startGame = /** @class */ (function (_super) {
     startGame.prototype.OnPlayBtn = function (_event) {
         _event.target.getComponent(cc.Button).interactable = false;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
-        cc.director.loadScene("1");
+        cc.director.loadScene("intro");
     };
     startGame.prototype.OnBack = function () {
         console.log("gameExit--true");

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "heavy",
+    "texture": "88336953-0705-44b5-b707-207ff5ba16fd",
+    "atlas": "",
+    "rect": [
+      1,
+      5,
+      362,
+      267
+    ],
+    "offset": [
+      -6.5,
+      -1
+    ],
+    "originalSize": [
+      377,
+      275
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

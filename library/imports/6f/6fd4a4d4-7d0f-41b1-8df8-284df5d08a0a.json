@@ -3084,7 +3084,7 @@
       "__uuid__": "c5492fd5-ca57-4057-8ad3-32cbfecb06ab"
     },
     "volume": 0.2,
-    "NextSceneName": "1",
+    "NextSceneName": "intro",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [],
     "playBtn_audio": {
