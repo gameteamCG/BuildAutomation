@@ -42,7 +42,7 @@
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "The dog __________ loudly. (bark)",
+      "questionText": "The dog __________ loudly.\n(bark)",
       "questionAudioName": "L3_Q.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
@@ -58,7 +58,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "I __________ in a small house. (live)",
+      "questionText": "I _______ in a small house.\n(live)",
       "questionAudioName": "L4_Q.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
@@ -106,7 +106,7 @@
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "Birds __________ in the sky. (fly)",
+      "questionText": "Birds ________ in the sky.\n(fly)",
       "questionAudioName": "L7_Q.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
@@ -154,7 +154,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "I __________ my teeth twice a day. (brush)",
+      "questionText": "I ______ my teeth twice a day.\n(brush)",
       "questionAudioName": "L10_Q.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
