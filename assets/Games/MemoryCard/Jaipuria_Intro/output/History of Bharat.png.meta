@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b2172ebc-d8c6-426e-85c8-77932af1cae9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1937,
+  "height": 834,
+  "platformSettings": {},
+  "subMetas": {
+    "History of Bharat": {
+      "ver": "1.0.6",
+      "uuid": "de9a0106-d409-4ed7-a582-68e6e84d2e83",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b2172ebc-d8c6-426e-85c8-77932af1cae9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1933,
+      "height": 830,
+      "rawWidth": 1937,
+      "rawHeight": 834,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

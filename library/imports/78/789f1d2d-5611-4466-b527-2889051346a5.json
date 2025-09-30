@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Compass",
+    "texture": "59c1a744-97fe-47ec-a049-6f68b0db0d6d",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      2043,
+      1734
+    ],
+    "offset": [
+      -0.5,
+      155
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

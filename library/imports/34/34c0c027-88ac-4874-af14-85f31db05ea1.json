@@ -1,0 +1,1844 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "History of Bharat",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "+6Po/Cvkz4uzToSYTulSfE5cmeM",
+      "spine": "3.8.75",
+      "x": -1481,
+      "y": -384.9,
+      "width": 2748,
+      "height": 1548.9,
+      "images": "../images/",
+      "audio": "C:/Users/Victus/Desktop/Intro  Video For game/grade 02/EVS/grade 2(EVS)T2/grade 2(EVS)T2/History of Bharat/History of Bharat_intro"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "Title",
+        "parent": "root",
+        "x": -1224.17,
+        "y": 1034.94
+      },
+      {
+        "name": "gandhi img",
+        "parent": "root",
+        "x": -741.48,
+        "y": 1024.94
+      },
+      {
+        "name": "gandhi name",
+        "parent": "root",
+        "x": -741.48,
+        "y": 872.37
+      },
+      {
+        "name": "Rani lakshmi img",
+        "parent": "root",
+        "x": -461.37,
+        "y": 1034.94
+      },
+      {
+        "name": "rani lakshmi name",
+        "parent": "root",
+        "x": -451.36,
+        "y": 869.87
+      },
+      {
+        "name": "Bhagat singh img",
+        "parent": "root",
+        "x": -156.25,
+        "y": 1029.94
+      },
+      {
+        "name": "Bhagat singh  name",
+        "parent": "root",
+        "x": -163.75,
+        "y": 869.87
+      },
+      {
+        "name": "gandhi 02",
+        "parent": "root",
+        "x": 231.41,
+        "y": 997.42
+      },
+      {
+        "name": "gandhi name 02",
+        "parent": "root",
+        "x": 238.91,
+        "y": 824.28
+      },
+      {
+        "name": "Rani lakshimi 02",
+        "parent": "root",
+        "x": 589.05,
+        "y": 1019.93
+      },
+      {
+        "name": "Rani lakshimi  name 02",
+        "parent": "root",
+        "x": 584.05,
+        "y": 819.54
+      },
+      {
+        "name": "Tilak",
+        "parent": "root",
+        "x": 939.57,
+        "y": 1009.93
+      },
+      {
+        "name": "Tilak02",
+        "parent": "root",
+        "x": 934.57,
+        "y": 825.11
+      },
+      {
+        "name": "pandit",
+        "parent": "root",
+        "x": 644.45,
+        "y": 604.77
+      },
+      {
+        "name": "pandit 02",
+        "parent": "root",
+        "x": 666.96,
+        "y": 427.2
+      },
+      {
+        "name": "Azad",
+        "parent": "root",
+        "x": 1067.12,
+        "y": 602.27
+      },
+      {
+        "name": "Azad02",
+        "parent": "root",
+        "x": 1082.13,
+        "y": 427.2
+      },
+      {
+        "name": "Singh 02",
+        "parent": "root",
+        "x": 654.46,
+        "y": 212.11
+      },
+      {
+        "name": "Singh 03",
+        "parent": "root",
+        "x": 659.46,
+        "y": 32.81
+      },
+      {
+        "name": "Bose",
+        "parent": "root",
+        "x": 1082.13,
+        "y": 212.11
+      },
+      {
+        "name": "Bose02",
+        "parent": "root",
+        "x": 1112.14,
+        "y": 29.42
+      },
+      {
+        "name": "patel",
+        "parent": "root",
+        "x": 651.96,
+        "y": -183.05
+      },
+      {
+        "name": "patel02",
+        "parent": "root",
+        "x": 674.46,
+        "y": -373.02
+      }
+    ],
+    "slots": [
+      {
+        "name": "Layer 2",
+        "bone": "root",
+        "attachment": "Layer 2"
+      },
+      {
+        "name": "Title",
+        "bone": "Title",
+        "attachment": "Title"
+      },
+      {
+        "name": "gandhi img",
+        "bone": "gandhi img",
+        "attachment": "gandhi img"
+      },
+      {
+        "name": "gandhi name",
+        "bone": "gandhi name",
+        "attachment": "gandhi name"
+      },
+      {
+        "name": "Rani lakshmi img",
+        "bone": "Rani lakshmi img",
+        "attachment": "Rani lakshmi img"
+      },
+      {
+        "name": "rani lakshmi name",
+        "bone": "rani lakshmi name",
+        "attachment": "rani lakshmi name"
+      },
+      {
+        "name": "Bhagat singh img",
+        "bone": "Bhagat singh img",
+        "attachment": "Bhagat singh img"
+      },
+      {
+        "name": "Bhagat singh  name",
+        "bone": "Bhagat singh  name",
+        "attachment": "Bhagat singh  name"
+      },
+      {
+        "name": "gandhi 02",
+        "bone": "gandhi 02",
+        "attachment": "gandhi 02"
+      },
+      {
+        "name": "gandhi name 02",
+        "bone": "gandhi name 02",
+        "attachment": "gandhi name 02"
+      },
+      {
+        "name": "Rani lakshimi 02",
+        "bone": "Rani lakshimi 02",
+        "attachment": "Rani lakshimi 02"
+      },
+      {
+        "name": "Rani lakshimi  name 02",
+        "bone": "Rani lakshimi  name 02",
+        "attachment": "Rani lakshimi  name 02"
+      },
+      {
+        "name": "Tilak",
+        "bone": "Tilak",
+        "attachment": "Tilak"
+      },
+      {
+        "name": "Tilak02",
+        "bone": "Tilak02",
+        "attachment": "Tilak02"
+      },
+      {
+        "name": "pandit",
+        "bone": "pandit",
+        "attachment": "pandit"
+      },
+      {
+        "name": "pandit 02",
+        "bone": "pandit 02",
+        "attachment": "pandit 02"
+      },
+      {
+        "name": "Azad",
+        "bone": "Azad",
+        "attachment": "Azad"
+      },
+      {
+        "name": "Azad02",
+        "bone": "Azad02",
+        "attachment": "Azad02"
+      },
+      {
+        "name": "Singh 02",
+        "bone": "Singh 02",
+        "attachment": "Singh 02"
+      },
+      {
+        "name": "Singh 03",
+        "bone": "Singh 03",
+        "attachment": "Singh 03"
+      },
+      {
+        "name": "Bose",
+        "bone": "Bose",
+        "attachment": "Bose"
+      },
+      {
+        "name": "Bose02",
+        "bone": "Bose02",
+        "attachment": "Bose02"
+      },
+      {
+        "name": "patel",
+        "bone": "patel",
+        "attachment": "patel"
+      },
+      {
+        "name": "patel02",
+        "bone": "patel02",
+        "attachment": "patel02"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "Bose02": {
+            "Bose02": {
+              "x": -28.14,
+              "y": 6.46,
+              "width": 348,
+              "height": 26
+            }
+          },
+          "Layer 2": {
+            "Layer 2": {
+              "x": -36,
+              "y": 235,
+              "width": 960,
+              "height": 434
+            }
+          },
+          "patel": {
+            "patel": {
+              "x": -0.96,
+              "y": 6.05,
+              "width": 290,
+              "height": 290
+            }
+          },
+          "patel02": {
+            "patel02": {
+              "x": -22.46,
+              "y": 1.12,
+              "width": 398,
+              "height": 26
+            }
+          },
+          "pandit 02": {
+            "pandit 02": {
+              "x": -15.96,
+              "y": 2.8,
+              "width": 332,
+              "height": 36
+            }
+          },
+          "rani lakshmi name": {
+            "rani lakshmi name": {
+              "x": -0.14,
+              "y": 1.13,
+              "width": 191,
+              "height": 66
+            }
+          },
+          "Rani lakshimi 02": {
+            "Rani lakshimi 02": {
+              "x": -2.05,
+              "y": -0.93,
+              "width": 290,
+              "height": 290
+            }
+          },
+          "Bose": {
+            "Bose": {
+              "x": 1.87,
+              "y": 14.89,
+              "width": 290,
+              "height": 290
+            }
+          },
+          "Rani lakshmi img": {
+            "Rani lakshmi img": {
+              "x": 8.87,
+              "y": 4.56,
+              "width": 247,
+              "height": 247
+            }
+          },
+          "Tilak": {
+            "Tilak": {
+              "x": -0.57,
+              "y": 9.07,
+              "width": 290,
+              "height": 290
+            }
+          },
+          "Bhagat singh  name": {
+            "Bhagat singh  name": {
+              "x": 6.25,
+              "y": 3.13,
+              "width": 205,
+              "height": 36
+            }
+          },
+          "Rani lakshimi  name 02": {
+            "Rani lakshimi  name 02": {
+              "x": -3.55,
+              "y": 7.64,
+              "width": 271,
+              "height": 26
+            }
+          },
+          "gandhi name 02": {
+            "gandhi name 02": {
+              "x": -11.41,
+              "y": 4.64,
+              "width": 267,
+              "height": 26
+            }
+          },
+          "Singh 02": {
+            "Singh 02": {
+              "x": -3.46,
+              "y": 14.89,
+              "width": 290,
+              "height": 290
+            }
+          },
+          "Singh 03": {
+            "Singh 03": {
+              "x": -6.96,
+              "y": 3.96,
+              "width": 205,
+              "height": 36
+            }
+          },
+          "pandit": {
+            "pandit": {
+              "x": 6.55,
+              "y": 13.23,
+              "width": 290,
+              "height": 290
+            }
+          },
+          "gandhi 02": {
+            "gandhi 02": {
+              "x": -5.41,
+              "y": 20.58,
+              "width": 290,
+              "height": 290
+            }
+          },
+          "gandhi img": {
+            "gandhi img": {
+              "x": -4.02,
+              "y": 14.56,
+              "width": 247,
+              "height": 247
+            }
+          },
+          "Title": {
+            "Title": {
+              "x": -14.33,
+              "y": -44.94,
+              "width": 485,
+              "height": 346
+            }
+          },
+          "gandhi name": {
+            "gandhi name": {
+              "x": -0.52,
+              "y": 2.63,
+              "width": 146,
+              "height": 66
+            }
+          },
+          "Bhagat singh img": {
+            "Bhagat singh img": {
+              "x": -2.25,
+              "y": 9.56,
+              "width": 247,
+              "height": 247
+            }
+          },
+          "Azad": {
+            "Azad": {
+              "x": 3.88,
+              "y": 15.73,
+              "width": 290,
+              "height": 290
+            }
+          },
+          "Azad02": {
+            "Azad02": {
+              "x": -20.63,
+              "y": 7.8,
+              "width": 411,
+              "height": 26
+            }
+          },
+          "Tilak02": {
+            "Tilak02": {
+              "x": 5.43,
+              "y": 3.64,
+              "width": 318,
+              "height": 39
+            }
+          }
+        }
+      }
+    ],
+    "events": {
+      "Audio/Audio": {
+        "audio": "Audio/Audio.mp3"
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "pandit": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 29.6667,
+                "name": "pandit"
+              },
+              {
+                "time": 34.5667,
+                "name": null
+              }
+            ]
+          },
+          "Bhagat singh  name": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 8.1667,
+                "name": "Bhagat singh  name"
+              },
+              {
+                "time": 14.8667,
+                "name": null
+              }
+            ]
+          },
+          "Singh 03": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 41.4333,
+                "name": "Singh 03"
+              },
+              {
+                "time": 45.1667,
+                "name": null
+              }
+            ]
+          },
+          "gandhi name 02": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 15.2333,
+                "name": "gandhi name 02"
+              },
+              {
+                "time": 20.1667,
+                "name": null
+              }
+            ]
+          },
+          "Tilak": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 24.6667,
+                "name": "Tilak"
+              },
+              {
+                "time": 29.4,
+                "name": null
+              }
+            ]
+          },
+          "patel02": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 50.7667,
+                "name": "patel02"
+              },
+              {
+                "time": 60,
+                "name": null
+              }
+            ]
+          },
+          "Tilak02": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 24.9,
+                "name": "Tilak02"
+              },
+              {
+                "time": 29.5,
+                "name": null
+              }
+            ]
+          },
+          "Bose": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 45.3333,
+                "name": "Bose"
+              },
+              {
+                "time": 50.2333,
+                "name": null
+              }
+            ]
+          },
+          "Title": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": "Title"
+              },
+              {
+                "time": 6.5,
+                "name": null
+              }
+            ]
+          },
+          "pandit 02": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 29.9,
+                "name": "pandit 02"
+              },
+              {
+                "time": 34.6667,
+                "name": null
+              }
+            ]
+          },
+          "Bose02": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 45.5667,
+                "name": "Bose02"
+              },
+              {
+                "time": 50.3333,
+                "name": null
+              }
+            ]
+          },
+          "gandhi img": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 7,
+                "name": "gandhi img"
+              },
+              {
+                "time": 14.5333,
+                "name": null
+              }
+            ]
+          },
+          "Azad02": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 34.9,
+                "name": "Azad02"
+              },
+              {
+                "time": 41,
+                "name": null
+              }
+            ]
+          },
+          "gandhi 02": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 15,
+                "name": "gandhi 02"
+              },
+              {
+                "time": 20.0333,
+                "name": null
+              }
+            ]
+          },
+          "Rani lakshimi  name 02": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 20.4333,
+                "name": "Rani lakshimi  name 02"
+              },
+              {
+                "time": 24.6667,
+                "name": null
+              }
+            ]
+          },
+          "Bhagat singh img": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 7.9333,
+                "name": "Bhagat singh img"
+              },
+              {
+                "time": 14.8,
+                "name": null
+              }
+            ]
+          },
+          "Rani lakshimi 02": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 20.1667,
+                "name": "Rani lakshimi 02"
+              },
+              {
+                "time": 24.5667,
+                "name": null
+              }
+            ]
+          },
+          "Singh 02": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 41.1667,
+                "name": "Singh 02"
+              },
+              {
+                "time": 45.0667,
+                "name": null
+              }
+            ]
+          },
+          "patel": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 50.5,
+                "name": "patel"
+              },
+              {
+                "time": 59.8667,
+                "name": null
+              }
+            ]
+          },
+          "gandhi name": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 7.2333,
+                "name": "gandhi name"
+              },
+              {
+                "time": 14.6,
+                "name": null
+              }
+            ]
+          },
+          "Azad": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 34.6667,
+                "name": "Azad"
+              },
+              {
+                "time": 40.8667,
+                "name": null
+              }
+            ]
+          },
+          "rani lakshmi name": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 7.7,
+                "name": "rani lakshmi name"
+              },
+              {
+                "time": 14.7333,
+                "name": null
+              }
+            ]
+          },
+          "Rani lakshmi img": {
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 7.4667,
+                "name": "Rani lakshmi img"
+              },
+              {
+                "time": 14.6667,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Title": {
+            "translate": [
+              {
+                "x": 1192.95,
+                "y": -755.24
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.003,
+                "y": 0.003,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "x": 0.003,
+                "y": 0.003,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "x": 1.132,
+                "y": 1.132,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.1667,
+                "curve": "stepped"
+              },
+              {
+                "time": 6,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 6.5,
+                "x": 0.003,
+                "y": 0.003
+              }
+            ]
+          },
+          "gandhi img": {
+            "translate": [
+              {
+                "x": 418.07,
+                "y": -773.38
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.003,
+                "y": 0.003,
+                "curve": "stepped"
+              },
+              {
+                "time": 7,
+                "x": 0.003,
+                "y": 0.003,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 7.5,
+                "x": 1.191,
+                "y": 1.191,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 8,
+                "curve": "stepped"
+              },
+              {
+                "time": 14.2,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 14.5333,
+                "x": 0.003,
+                "y": 0.003
+              }
+            ]
+          },
+          "gandhi name": {
+            "translate": [
+              {
+                "x": 418.07,
+                "y": -773.38
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.003,
+                "y": 0.003,
+                "curve": "stepped"
+              },
+              {
+                "time": 7.2333,
+                "x": 0.003,
+                "y": 0.003,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 7.7333,
+                "x": 1.191,
+                "y": 1.191,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 8.2333,
+                "curve": "stepped"
+              },
+              {
+                "time": 14.2667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 14.6,
+                "x": 0.003,
+                "y": 0.003
+              }
+            ]
+          },
+          "Rani lakshmi img": {
+            "translate": [
+              {
+                "x": 418.07,
+                "y": -773.38
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.003,
+                "y": 0.003,
+                "curve": "stepped"
+              },
+              {
+                "time": 7.4667,
+                "x": 0.003,
+                "y": 0.003,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 7.9667,
+                "x": 1.191,
+                "y": 1.191,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 8.4667,
+                "curve": "stepped"
+              },
+              {
+                "time": 14.3333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 14.6667,
+                "x": 0.003,
+                "y": 0.003
+              }
+            ]
+          },
+          "rani lakshmi name": {
+            "translate": [
+              {
+                "x": 418.07,
+                "y": -773.38
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.003,
+                "y": 0.003,
+                "curve": "stepped"
+              },
+              {
+                "time": 7.7,
+                "x": 0.003,
+                "y": 0.003,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 8.2,
+                "x": 1.191,
+                "y": 1.191,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 8.7,
+                "curve": "stepped"
+              },
+              {
+                "time": 14.4,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 14.7333,
+                "x": 0.003,
+                "y": 0.003
+              }
+            ]
+          },
+          "Bhagat singh img": {
+            "translate": [
+              {
+                "x": 418.07,
+                "y": -773.38
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.003,
+                "y": 0.003,
+                "curve": "stepped"
+              },
+              {
+                "time": 7.9333,
+                "x": 0.003,
+                "y": 0.003,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 8.4333,
+                "x": 1.191,
+                "y": 1.191,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 8.9333,
+                "curve": "stepped"
+              },
+              {
+                "time": 14.4667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 14.8,
+                "x": 0.003,
+                "y": 0.003
+              }
+            ]
+          },
+          "Bhagat singh  name": {
+            "translate": [
+              {
+                "x": 418.07,
+                "y": -773.38
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.003,
+                "y": 0.003,
+                "curve": "stepped"
+              },
+              {
+                "time": 8.1667,
+                "x": 0.003,
+                "y": 0.003,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 8.6667,
+                "x": 1.191,
+                "y": 1.191,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 9.1667,
+                "curve": "stepped"
+              },
+              {
+                "time": 14.5333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 14.8667,
+                "x": 0.003,
+                "y": 0.003
+              }
+            ]
+          },
+          "gandhi 02": {
+            "translate": [
+              {
+                "x": -261.87,
+                "y": -750.9
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.01,
+                "y": 0.01,
+                "curve": "stepped"
+              },
+              {
+                "time": 15,
+                "x": 0.01,
+                "y": 0.01,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 15.5,
+                "x": 1.195,
+                "y": 1.195,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 16,
+                "curve": "stepped"
+              },
+              {
+                "time": 19.5333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 20.0333,
+                "x": 0.01,
+                "y": 0.01
+              }
+            ]
+          },
+          "gandhi name 02": {
+            "translate": [
+              {
+                "x": -261.87,
+                "y": -750.9
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.01,
+                "y": 0.01,
+                "curve": "stepped"
+              },
+              {
+                "time": 15.2333,
+                "x": 0.01,
+                "y": 0.01,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 15.7333,
+                "x": 1.195,
+                "y": 1.195,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 16.2333,
+                "curve": "stepped"
+              },
+              {
+                "time": 19.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 20.1667,
+                "x": 0.01,
+                "y": 0.01
+              }
+            ]
+          },
+          "Rani lakshimi 02": {
+            "translate": [
+              {
+                "x": -608.8,
+                "y": -756.31
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.001,
+                "y": 0.001,
+                "curve": "stepped"
+              },
+              {
+                "time": 20.1667,
+                "x": 0.001,
+                "y": 0.001,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 20.6667,
+                "x": 1.21,
+                "y": 1.21,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 21.1667,
+                "curve": "stepped"
+              },
+              {
+                "time": 24.0667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 24.5667,
+                "x": 0.001,
+                "y": 0.001
+              }
+            ]
+          },
+          "Rani lakshimi  name 02": {
+            "translate": [
+              {
+                "x": -608.8,
+                "y": -756.31
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.001,
+                "y": 0.001,
+                "curve": "stepped"
+              },
+              {
+                "time": 20.4333,
+                "x": 0.001,
+                "y": 0.001,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 20.9333,
+                "x": 1.277,
+                "y": 1.277,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 21.4333,
+                "curve": "stepped"
+              },
+              {
+                "time": 24.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 24.6667,
+                "x": 0.001,
+                "y": 0.001
+              }
+            ]
+          },
+          "Tilak": {
+            "translate": [
+              {
+                "x": -937.4,
+                "y": -749.75
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.026,
+                "y": 0.026,
+                "curve": "stepped"
+              },
+              {
+                "time": 24.6667,
+                "x": 0.026,
+                "y": 0.026,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 25.1667,
+                "x": 1.196,
+                "y": 1.196,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 25.6667,
+                "curve": "stepped"
+              },
+              {
+                "time": 28.9,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 29.4,
+                "x": 0.026,
+                "y": 0.026
+              }
+            ]
+          },
+          "Tilak02": {
+            "translate": [
+              {
+                "x": -937.4,
+                "y": -749.75
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.026,
+                "y": 0.026,
+                "curve": "stepped"
+              },
+              {
+                "time": 24.9,
+                "x": 0.026,
+                "y": 0.026,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 25.4,
+                "x": 1.196,
+                "y": 1.196,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 25.9,
+                "curve": "stepped"
+              },
+              {
+                "time": 29,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 29.5,
+                "x": 0.026,
+                "y": 0.026
+              }
+            ]
+          },
+          "pandit": {
+            "translate": [
+              {
+                "x": -673.1,
+                "y": -355.08
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.001,
+                "y": 0.001,
+                "curve": "stepped"
+              },
+              {
+                "time": 29.6667,
+                "x": 0.001,
+                "y": 0.001,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 30.1667,
+                "x": 1.211,
+                "y": 1.211,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 30.6667,
+                "curve": "stepped"
+              },
+              {
+                "time": 34.0667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 34.5667,
+                "x": 0.001,
+                "y": 0.001
+              }
+            ]
+          },
+          "pandit 02": {
+            "translate": [
+              {
+                "x": -673.1,
+                "y": -355.08
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.001,
+                "y": 0.001,
+                "curve": "stepped"
+              },
+              {
+                "time": 29.9,
+                "x": 0.001,
+                "y": 0.001,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 30.4,
+                "x": 1.211,
+                "y": 1.211,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 30.9,
+                "curve": "stepped"
+              },
+              {
+                "time": 34.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 34.6667,
+                "x": 0.001,
+                "y": 0.001
+              }
+            ]
+          },
+          "Azad": {
+            "translate": [
+              {
+                "x": -1092.38,
+                "y": -354.9
+              }
+            ],
+            "scale": [
+              {
+                "x": -0.001,
+                "y": -0.001,
+                "curve": "stepped"
+              },
+              {
+                "time": 34.6667,
+                "x": -0.001,
+                "y": -0.001,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 35.1667,
+                "x": 1.2,
+                "y": 1.2,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 35.6667,
+                "curve": "stepped"
+              },
+              {
+                "time": 40.3667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 40.8667,
+                "x": -0.001,
+                "y": -0.001
+              }
+            ]
+          },
+          "Azad02": {
+            "translate": [
+              {
+                "x": -1092.38,
+                "y": -354.9
+              }
+            ],
+            "scale": [
+              {
+                "x": -0.001,
+                "y": -0.001,
+                "curve": "stepped"
+              },
+              {
+                "time": 34.9,
+                "x": -0.001,
+                "y": -0.001,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 35.4,
+                "x": 1.2,
+                "y": 1.2,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 35.9,
+                "curve": "stepped"
+              },
+              {
+                "time": 40.5,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 41,
+                "x": -0.001,
+                "y": -0.001
+              }
+            ]
+          },
+          "Singh 02": {
+            "translate": [
+              {
+                "x": -651.59,
+                "y": 38.25
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.007,
+                "y": 0.007,
+                "curve": "stepped"
+              },
+              {
+                "time": 41.1667,
+                "x": 0.007,
+                "y": 0.007,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 41.6667,
+                "x": 1.278,
+                "y": 1.278,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 42.1667,
+                "curve": "stepped"
+              },
+              {
+                "time": 44.5667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 45.0667,
+                "x": 0.007,
+                "y": 0.007
+              }
+            ]
+          },
+          "Singh 03": {
+            "translate": [
+              {
+                "x": -651.59,
+                "y": 38.25
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.007,
+                "y": 0.007,
+                "curve": "stepped"
+              },
+              {
+                "time": 41.4333,
+                "x": 0.007,
+                "y": 0.007,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 41.9333,
+                "x": 1.278,
+                "y": 1.278,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 42.4333,
+                "curve": "stepped"
+              },
+              {
+                "time": 44.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 45.1667,
+                "x": 0.007,
+                "y": 0.007
+              }
+            ]
+          },
+          "Bose": {
+            "translate": [
+              {
+                "x": -1128.93,
+                "y": 37.82
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 45.3333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 45.8333,
+                "x": 1.179,
+                "y": 1.179,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 46.3333,
+                "curve": "stepped"
+              },
+              {
+                "time": 49.7333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 50.2333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "Bose02": {
+            "translate": [
+              {
+                "x": -1128.93,
+                "y": 37.82
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 45.5667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 46.0667,
+                "x": 1.179,
+                "y": 1.179,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 46.5667,
+                "curve": "stepped"
+              },
+              {
+                "time": 49.8333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 50.3333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "patel": {
+            "translate": [
+              {
+                "x": -669.78,
+                "y": 448.08
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.018,
+                "y": 0.018,
+                "curve": "stepped"
+              },
+              {
+                "time": 50.5,
+                "x": 0.018,
+                "y": 0.018,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 51,
+                "x": 1.187,
+                "y": 1.187,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 51.5,
+                "curve": "stepped"
+              },
+              {
+                "time": 59.3667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 59.8667,
+                "x": 0.018,
+                "y": 0.018
+              }
+            ]
+          },
+          "patel02": {
+            "translate": [
+              {
+                "x": -669.78,
+                "y": 448.08
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.018,
+                "y": 0.018,
+                "curve": "stepped"
+              },
+              {
+                "time": 50.7667,
+                "x": 0.018,
+                "y": 0.018,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 51.2667,
+                "x": 1.187,
+                "y": 1.187,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 51.7667,
+                "curve": "stepped"
+              },
+              {
+                "time": 59.5,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 60,
+                "x": 0.018,
+                "y": 0.018
+              }
+            ]
+          }
+        },
+        "events": [
+          {
+            "name": "Audio/Audio"
+          }
+        ]
+      }
+    }
+  },
+  "_atlasText": "\nHistory of Bharat.png\nsize: 1937,834\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nAzad\n  rotate: false\n  xy: 962, 544\n  size: 288, 288\n  orig: 290, 290\n  offset: 1, 1\n  index: -1\nAzad02\n  rotate: false\n  xy: 2, 28\n  size: 409, 24\n  orig: 411, 26\n  offset: 1, 1\n  index: -1\nBhagat singh  name\n  rotate: true\n  xy: 1884, 629\n  size: 203, 34\n  orig: 205, 36\n  offset: 1, 1\n  index: -1\nBhagat singh img\n  rotate: false\n  xy: 1067, 7\n  size: 245, 245\n  orig: 247, 247\n  offset: 1, 1\n  index: -1\nBose\n  rotate: false\n  xy: 487, 110\n  size: 288, 288\n  orig: 290, 290\n  offset: 1, 1\n  index: -1\nBose02\n  rotate: false\n  xy: 2, 2\n  size: 346, 24\n  orig: 348, 26\n  offset: 1, 1\n  index: -1\nLayer 2\n  rotate: false\n  xy: 2, 400\n  size: 958, 432\n  orig: 960, 434\n  offset: 1, 1\n  index: -1\nRani lakshimi  name 02\n  rotate: true\n  xy: 1832, 563\n  size: 269, 24\n  orig: 271, 26\n  offset: 1, 1\n  index: -1\nRani lakshimi 02\n  rotate: false\n  xy: 1252, 544\n  size: 288, 288\n  orig: 290, 290\n  offset: 1, 1\n  index: -1\nRani lakshmi img\n  rotate: false\n  xy: 1314, 7\n  size: 245, 245\n  orig: 247, 247\n  offset: 1, 1\n  index: -1\nSingh 02\n  rotate: false\n  xy: 1542, 544\n  size: 288, 288\n  orig: 290, 290\n  offset: 1, 1\n  index: -1\nSingh 03\n  rotate: true\n  xy: 1874, 49\n  size: 203, 34\n  orig: 205, 36\n  offset: 1, 1\n  index: -1\nTilak\n  rotate: false\n  xy: 777, 110\n  size: 288, 288\n  orig: 290, 290\n  offset: 1, 1\n  index: -1\nTilak02\n  rotate: false\n  xy: 413, 12\n  size: 315, 34\n  orig: 318, 39\n  offset: 3, 1\n  index: -1\nTitle\n  rotate: false\n  xy: 2, 54\n  size: 483, 344\n  orig: 485, 346\n  offset: 1, 1\n  index: -1\ngandhi 02\n  rotate: false\n  xy: 1067, 254\n  size: 288, 288\n  orig: 290, 290\n  offset: 1, 1\n  index: -1\ngandhi img\n  rotate: false\n  xy: 1561, 7\n  size: 245, 245\n  orig: 247, 247\n  offset: 1, 1\n  index: -1\ngandhi name\n  rotate: false\n  xy: 885, 44\n  size: 144, 64\n  orig: 146, 66\n  offset: 1, 1\n  index: -1\ngandhi name 02\n  rotate: true\n  xy: 1858, 567\n  size: 265, 24\n  orig: 267, 26\n  offset: 1, 1\n  index: -1\npandit\n  rotate: false\n  xy: 1357, 254\n  size: 288, 288\n  orig: 290, 290\n  offset: 1, 1\n  index: -1\npandit 02\n  rotate: false\n  xy: 487, 48\n  size: 330, 34\n  orig: 332, 36\n  offset: 1, 1\n  index: -1\npatel\n  rotate: false\n  xy: 1647, 254\n  size: 288, 288\n  orig: 290, 290\n  offset: 1, 1\n  index: -1\npatel02\n  rotate: false\n  xy: 487, 84\n  size: 396, 24\n  orig: 398, 26\n  offset: 1, 1\n  index: -1\nrani lakshmi name\n  rotate: true\n  xy: 1808, 63\n  size: 189, 64\n  orig: 191, 66\n  offset: 1, 1\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "b2172ebc-d8c6-426e-85c8-77932af1cae9"
+    }
+  ],
+  "textureNames": [
+    "History of Bharat.png"
+  ],
+  "scale": 1
+}
