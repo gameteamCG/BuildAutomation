@@ -79,10 +79,10 @@
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "options": [
-        "Asset 2ldpi.png",
-        "Asset 4ldpi.png",
-        "Asset 3ldpi.png",
-        "Asset 5ldpi.png"
+        "Asset 10ldpi.png",
+        "Asset 11ldpi.png",
+        "Asset 13ldpi.png",
+        "Asset 12ldpi.png"
       ],
       "correctAudios": [
         "M.mp3"
