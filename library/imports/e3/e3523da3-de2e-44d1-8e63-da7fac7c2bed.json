@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Spot The Letters",
-      "totalLevel": "7",
+      "totalLevel": "6",
       "TitleImageName": "Asset 70.png",
       "introBgName": "Bg (1).png",
       "bgmMusicName": "BGM1302225.mp3",
@@ -18,14 +18,8 @@
         "questionText": "A",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
-        "isOptionText": true,
+        "isOptionText": false,
         "options": [
-          "∀",
-          "A",
-          "<",
-          "Q"
-        ],
-        "optionsimg": [
           "Asset 27ldpi.png",
           "Asset 29ldpi.png",
           "Asset 28ldpi.png",
@@ -40,18 +34,12 @@
         "questionText": "F",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
-        "isOptionText": true,
+        "isOptionText": false,
         "options": [
-          "F",
-          "Ⅎ",
-          "L-",
-          "K"
-        ],
-        "optionsimg": [
-          "Asset 27ldpi.png",
-          "Asset 29ldpi.png",
-          "Asset 28ldpi.png",
-          "Asset 26ldpi.png"
+          "Asset 22ldpi.png",
+          "Asset 23ldpi.png",
+          "Asset 24ldpi.png",
+          "Asset 25ldpi.png"
         ],
         "correctAudios": [
           "F.mp3"
@@ -62,18 +50,12 @@
         "questionText": "T",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
-        "isOptionText": true,
+        "isOptionText": false,
         "options": [
-          "⊥",
-          "|-",
-          "T",
-          "G"
-        ],
-        "optionsimg": [
-          "Asset 27ldpi.png",
-          "Asset 29ldpi.png",
-          "Asset 28ldpi.png",
-          "Asset 26ldpi.png"
+          "Asset 19ldpi.png",
+          "Asset 18ldpi.png",
+          "Asset 21ldpi",
+          "Asset 20ldpi.png"
         ],
         "correctAudios": [
           "T.mp3"
@@ -84,18 +66,12 @@
         "questionText": "Y",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
-        "isOptionText": true,
+        "isOptionText": false,
         "options": [
-          "Y",
-          "⅄",
-          ">-",
-          "R"
-        ],
-        "optionsimg": [
-          "Asset 27ldpi.png",
-          "Asset 29ldpi.png",
-          "Asset 28ldpi.png",
-          "Asset 26ldpi.png"
+          "Asset 14ldpi.png",
+          "Asset 15ldpi.png",
+          "Asset 16ldpi.png",
+          "Asset 17ldpi.png"
         ],
         "correctAudios": [
           "Y.mp3"
@@ -106,18 +82,12 @@
         "questionText": "M",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
-        "isOptionText": true,
+        "isOptionText": false,
         "options": [
-          "W",
-          ">",
-          "M",
-          "D"
-        ],
-        "optionsimg": [
-          "Asset 27ldpi.png",
-          "Asset 29ldpi.png",
-          "Asset 28ldpi.png",
-          "Asset 26ldpi.png"
+          "Asset 2ldpi.png",
+          "Asset 4ldpi.png",
+          "Asset 3ldpi.png",
+          "Asset 5ldpi.png"
         ],
         "correctAudios": [
           "M.mp3"
@@ -125,43 +95,15 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "N",
-        "questionAudioName": "QVO.mp3",
-        "shouldPlayQuestionAudio": true,
-        "isOptionText": true,
-        "options": [
-          "Z",
-          "N",
-          "^V",
-          "P"
-        ],
-        "optionsimg": [
-          "Asset 27ldpi.png",
-          "Asset 29ldpi.png",
-          "Asset 28ldpi.png",
-          "Asset 26ldpi.png"
-        ],
-        "correctAudios": [
-          "N.mp3"
-        ],
-        "correctAnswerNum": "2"
-      },
-      {
         "questionText": "W",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
-        "isOptionText": true,
+        "isOptionText": false,
         "options": [
-          "W",
-          ">",
-          "M",
-          "H"
-        ],
-        "optionsimg": [
-          "Asset 27ldpi.png",
-          "Asset 29ldpi.png",
-          "Asset 28ldpi.png",
-          "Asset 26ldpi.png"
+          "Asset 5ldpi.png",
+          "Asset 4ldpi.png",
+          "Asset 3ldpi.png",
+          "Asset 2ldpi.png"
         ],
         "correctAudios": [
           "W.mp3"

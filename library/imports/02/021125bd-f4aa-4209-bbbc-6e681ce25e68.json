@@ -1394,7 +1394,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        10,
         0,
         0,
         0,
@@ -1833,7 +1833,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        10,
         0,
         0,
         0,
@@ -2272,7 +2272,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        10,
         0,
         0,
         0,
@@ -2711,7 +2711,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        10,
         0,
         0,
         0,
@@ -4434,10 +4434,10 @@
       "__uuid__": "4568c95f-0d49-40cf-909c-a0af738eb849"
     },
     "wrongSFX": {
-      "__uuid__": "a0115986-68fc-4ee4-b9c5-8497d0db7990"
+      "__uuid__": "dafa908e-23f9-4e2e-aea5-827ebbc0de45"
     },
     "blinkSFX": {
-      "__uuid__": "dafa908e-23f9-4e2e-aea5-827ebbc0de45"
+      "__uuid__": "4568c95f-0d49-40cf-909c-a0af738eb849"
     },
     "walkSFX": {
       "__uuid__": "0c6c738c-f437-4448-ba7c-5ad28f2625a8"
@@ -4451,20 +4451,7 @@
     "extraImg": {
       "__uuid__": "fe7bee84-c27e-4e2c-bfe9-4452ad2d6dae"
     },
-    "optionsimg": [
-      {
-        "__uuid__": "bd5db8d4-6682-4ae9-8ea3-a18411629168"
-      },
-      {
-        "__uuid__": "e1c2334a-5c31-4ae1-992b-f1801039e9df"
-      },
-      {
-        "__uuid__": "632191dd-f07e-4a9c-9fcd-a0c21cbf8c99"
-      },
-      {
-        "__uuid__": "c38462a8-844f-4e65-8b4b-8c5dbd8f4733"
-      }
-    ],
+    "optionsimg": [],
     "popSound": [
       {
         "__uuid__": "34f9d273-9dff-4094-bcdb-4e79ee69dcbf"

@@ -38,12 +38,12 @@
             ]
           },
           {
-            "width": 725,
+            "width": 646,
             "height": 610,
             "type": "dock-v",
             "children": [
               {
-                "width": 725,
+                "width": 646,
                 "height": 341,
                 "type": "panel",
                 "active": 0,
@@ -52,10 +52,10 @@
                 ]
               },
               {
-                "width": 725,
+                "width": 646,
                 "height": 266,
                 "type": "panel",
-                "active": 0,
+                "active": 2,
                 "children": [
                   "console",
                   "timeline",
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 304,
+            "width": 383,
             "height": 610,
             "type": "panel",
             "active": 0,
@@ -107,8 +107,8 @@
     "builder": {
       "x": -8,
       "y": -8,
-      "width": 1552,
-      "height": 832
+      "width": 1382,
+      "height": 744
     }
   },
   "panelLabelWidth": {}
