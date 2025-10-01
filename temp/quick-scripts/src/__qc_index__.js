@@ -10,6 +10,7 @@ require('./assets/Framework/Scripts/Utilities/Utility');
 require('./assets/Framework/Scripts/Utils');
 require('./assets/Framework/WebView/Scripts/CheckForInitWebView');
 require('./assets/Framework/WebView/Scripts/WebView');
+require('./assets/Games/WordBlend/Jaipuria_Intro/introductionScript');
 require('./assets/Games/WordBlend/scripts/GameEnd');
 require('./assets/Games/WordBlend/scripts/gameplay');
 require('./assets/resources/empty');

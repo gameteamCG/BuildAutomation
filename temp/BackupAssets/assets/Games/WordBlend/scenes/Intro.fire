@@ -2768,7 +2768,7 @@
     "_enabled": true,
     "BGM_audio": null,
     "volume": 0.14,
-    "NextSceneName": "1",
+    "NextSceneName": "Intro1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [],
     "playBtn_audio": {
