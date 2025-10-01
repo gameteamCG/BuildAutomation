@@ -1,8 +1,8 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "jj",
-    "texture": "7a8fdd3f-34be-4df3-87c9-f5b5b37b66e6",
+    "name": "title",
+    "texture": "54d6df9a-e787-4e5c-b9fc-e99dbe29662e",
     "atlas": "",
     "rect": [
       2,
