@@ -1,0 +1,367 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Costumes_Grade 2(EVS)_R10_T2",
+      "totalLevel": "12",
+      "TitleImageName": "game_title.png",
+      "introBgName": "Main_BG.png",
+      "bgmMusicName": "",
+      "mainBgName": "bg.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "Costumes",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common_puzzle_bg.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L1_1.png",
+          "L1_2.png",
+          "L1_3.png",
+          "L1_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO_2.mp3",
+        "commonOptionImageName": "option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "South America",
+          "Europe",
+          "Asia"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "L1_ANS.mp3"
+      },
+      {
+        "questionText": "Costumes",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common_puzzle_bg.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L2_1.png",
+          "L2_2.png",
+          "L2_3.png",
+          "L2_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO_2.mp3",
+        "commonOptionImageName": "option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "North America",
+          "Africa",
+          "Europe"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "L2_ANS.mp3"
+      },
+      {
+        "questionText": "Costumes",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common_puzzle_bg.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L3_1.png",
+          "L3_2.png",
+          "L3_3.png",
+          "L3_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO_2.mp3",
+        "commonOptionImageName": "option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asia",
+          "Europe",
+          "Greenland, North America"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "L3_ANS.mp3"
+      },
+      {
+        "questionText": "Costumes",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common_puzzle_bg.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L4_1.png",
+          "L4_2.png",
+          "L4_3.png",
+          "L4_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO_2.mp3",
+        "commonOptionImageName": "option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Thailand, Asia",
+          "Europe",
+          "North America"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "L4_ANS.mp3"
+      },
+      {
+        "questionText": "Costumes",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common_puzzle_bg.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L5_1.png",
+          "L5_2.png",
+          "L5_3.png",
+          "L5_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO_2.mp3",
+        "commonOptionImageName": "option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Bangladesh, Nepal, Sri Lanka, Bharat, Pakistan",
+          "Germany",
+          "Venezuela"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "L5_ANS.mp3"
+      },
+      {
+        "questionText": "Costumes",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common_puzzle_bg.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L6_1.png",
+          "L6_2.png",
+          "L6_3.png",
+          "L6_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO_2.mp3",
+        "commonOptionImageName": "option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Asia",
+          "Central Europe",
+          "South America"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "L6_ANS.mp3"
+      },
+      {
+        "questionText": "Costumes",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common_puzzle_bg.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L7_1.png",
+          "L7_2.png",
+          "L7_3.png",
+          "L7_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO_2.mp3",
+        "commonOptionImageName": "option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Maharashtra",
+          "Gujarat",
+          "Kashmir"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "L7_ANS.mp3"
+      },
+      {
+        "questionText": "Costumes",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common_puzzle_bg.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L8_1.png",
+          "L8_2.png",
+          "L8_3.png",
+          "L8_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO_2.mp3",
+        "commonOptionImageName": "option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Rajasthan",
+          "Kerala",
+          "Tamil Nadu"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "L8_ANS.mp3"
+      },
+      {
+        "questionText": "Costumes",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common_puzzle_bg.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L9_1.png",
+          "L9_2.png",
+          "L9_3.png",
+          "L9_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO_2.mp3",
+        "commonOptionImageName": "option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Kashmir",
+          "Uttar Pradesh",
+          "Maharashtra"
+        ],
+        "correctAnswer": "3",
+        "reiterationAudioName": "L9_ANS.mp3"
+      },
+      {
+        "questionText": "Costumes",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common_puzzle_bg.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L10_1.png",
+          "L10_2.png",
+          "L10_3.png",
+          "L10_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO_2.mp3",
+        "commonOptionImageName": "option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Rajasthan",
+          "Maharashtra",
+          "Sri Lanka"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "L10_ANS.mp3"
+      },
+      {
+        "questionText": "Costumes",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common_puzzle_bg.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L11_1.png",
+          "L11_2.png",
+          "L11_3.png",
+          "L11_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO_2.mp3",
+        "commonOptionImageName": "option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "Nepal",
+          "Gujarati",
+          "Europe"
+        ],
+        "correctAnswer": "2",
+        "reiterationAudioName": "L11_ANS.mp3"
+      },
+      {
+        "questionText": "Costumes",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common_puzzle_bg.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L12_1.png",
+          "L12_2.png",
+          "L12_3.png",
+          "L12_4.png"
+        ],
+        "correctAudioName": "",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "QVO.mp3",
+        "commonOptionImageName": "option_bg.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "South Bharat",
+          "Maharashtra",
+          "Nepal"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "L12_ANS.mp3"
+      }
+    ]
+  }
+}
