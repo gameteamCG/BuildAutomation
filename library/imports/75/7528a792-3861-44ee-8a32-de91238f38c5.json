@@ -10,7 +10,7 @@
       "TitleImageName": "rereddf.png",
       "IntroAudio1Name": "",
       "IntroAudio2Name": "",
-      "JockeyName": "puzzle",
+      "JockeyName": "crayon",
       "TotalLevel": "7"
     },
     "QuestionData": [
@@ -37,7 +37,7 @@
       {
         "QuestionAppearTime": "999",
         "IsQuestionText": true,
-        "QuestionText": "thing that doesn't need water to survive",
+        "QuestionText": "Thing that doesn't need water to survive.",
         "QuestionImageName": "",
         "QuestionAudioName": "q2.mp3",
         "PlayQuestionAudio": true,
@@ -57,7 +57,7 @@
       {
         "QuestionAppearTime": "999",
         "IsQuestionText": true,
-        "QuestionText": "We get rain from    ___",
+        "QuestionText": "We get rain from    ___.",
         "QuestionImageName": "",
         "QuestionAudioName": "q3.mp3",
         "PlayQuestionAudio": true,

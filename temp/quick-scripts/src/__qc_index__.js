@@ -1,6 +1,6 @@
 
 require('./assets/Framework/Jockeys/Scripts/Jockey');
-require('./assets/Framework/Prefabs/Progressbar/Scripts/ProgressBar');
+require('./assets/Framework/Prefabs/ProgressBar/Scripts/ProgressBar');
 require('./assets/Framework/Scripts/CustomWidget');
 require('./assets/Framework/Scripts/CustomWidget2');
 require('./assets/Framework/Scripts/Functionalities');
@@ -24,4 +24,3 @@ require('./assets/Games/Scripts/titleScript1');
 require('./assets/Games/Scripts/video');
 require('./assets/Games/Tictock/Scripts/questionData');
 require('./assets/Games/Tictock/Scripts/questionManager');
-require('./assets/resources/empty');
