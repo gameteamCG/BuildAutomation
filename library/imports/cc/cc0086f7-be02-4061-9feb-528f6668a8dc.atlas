@@ -1,0 +1,118 @@
+
+Costumes.png
+size: 1683,810
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: true
+  xy: 377, 325
+  size: 483, 344
+  orig: 485, 346
+  offset: 1, 1
+  index: -1
+02
+  rotate: true
+  xy: 2, 270
+  size: 538, 373
+  orig: 540, 375
+  offset: 1, 1
+  index: -1
+03
+  rotate: false
+  xy: 533, 168
+  size: 129, 155
+  orig: 131, 157
+  offset: 1, 1
+  index: -1
+04
+  rotate: true
+  xy: 556, 37
+  size: 129, 155
+  orig: 131, 157
+  offset: 1, 1
+  index: -1
+05
+  rotate: false
+  xy: 138, 105
+  size: 130, 163
+  orig: 132, 165
+  offset: 1, 1
+  index: -1
+06
+  rotate: false
+  xy: 401, 168
+  size: 130, 155
+  orig: 132, 157
+  offset: 1, 1
+  index: -1
+07
+  rotate: false
+  xy: 424, 11
+  size: 130, 155
+  orig: 132, 157
+  offset: 1, 1
+  index: -1
+08
+  rotate: false
+  xy: 270, 106
+  size: 129, 162
+  orig: 131, 164
+  offset: 1, 1
+  index: -1
+09
+  rotate: false
+  xy: 723, 2
+  size: 843, 372
+  orig: 845, 374
+  offset: 1, 1
+  index: -1
+10
+  rotate: false
+  xy: 2, 66
+  size: 134, 202
+  orig: 136, 204
+  offset: 1, 1
+  index: -1
+Layer 2
+  rotate: false
+  xy: 723, 376
+  size: 958, 432
+  orig: 960, 434
+  offset: 1, 1
+  index: -1
+Layer 3
+  rotate: false
+  xy: 1568, 187
+  size: 94, 92
+  orig: 96, 94
+  offset: 1, 1
+  index: -1
+Layer 4
+  rotate: true
+  xy: 234, 9
+  size: 94, 93
+  orig: 96, 95
+  offset: 1, 1
+  index: -1
+Layer 5
+  rotate: true
+  xy: 329, 10
+  size: 94, 93
+  orig: 96, 95
+  offset: 1, 1
+  index: -1
+Layer 6
+  rotate: false
+  xy: 138, 9
+  size: 94, 94
+  orig: 96, 96
+  offset: 1, 1
+  index: -1
+Layer 7
+  rotate: false
+  xy: 1568, 281
+  size: 94, 93
+  orig: 96, 96
+  offset: 1, 2
+  index: -1
