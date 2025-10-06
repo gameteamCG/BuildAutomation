@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "PHONICS sound L",
+    "texture": "f1b790fd-a640-4d0e-b2ab-52df43e1736c",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      380,
+      191
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      386,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
