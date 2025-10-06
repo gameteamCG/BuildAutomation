@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "PHONICS sound U",
+    "texture": "81da5cbb-c453-4944-9afc-1e9035d2af15",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      388,
+      191
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      394,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
