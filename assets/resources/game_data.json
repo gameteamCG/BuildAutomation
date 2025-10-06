@@ -205,8 +205,8 @@
       "isOptionText": true,
       "numberOfOptions": 3,
       "options": [
-        "Maharashtra",
-        "Gujarat",
+        "Europe",
+        "North America",
         "Kashmir"
       ],
       "correctAnswer": "3",
@@ -235,8 +235,8 @@
       "numberOfOptions": 3,
       "options": [
         "Rajasthan",
-        "Kerala",
-        "Tamil Nadu"
+        "South America",
+        "Germany"
       ],
       "correctAnswer": "1",
       "reiterationAudioName": "L8_ANS.mp3"
@@ -263,8 +263,8 @@
       "isOptionText": true,
       "numberOfOptions": 3,
       "options": [
-        "Kashmir",
-        "Uttar Pradesh",
+        "Russia",
+        "Canada",
         "Maharashtra"
       ],
       "correctAnswer": "3",
@@ -293,8 +293,8 @@
       "numberOfOptions": 3,
       "options": [
         "Rajasthan",
-        "Maharashtra",
-        "Sri Lanka"
+        "Europe",
+        "South America"
       ],
       "correctAnswer": "1",
       "reiterationAudioName": "L10_ANS.mp3"
@@ -321,9 +321,9 @@
       "isOptionText": true,
       "numberOfOptions": 3,
       "options": [
-        "Nepal",
-        "Gujarati",
-        "Europe"
+        "Central Europe",
+        "Gujarat",
+        "Australia"
       ],
       "correctAnswer": "2",
       "reiterationAudioName": "L11_ANS.mp3"
@@ -351,8 +351,8 @@
       "numberOfOptions": 3,
       "options": [
         "South Bharat",
-        "Maharashtra",
-        "Nepal"
+        "Greenland",
+        "North America"
       ],
       "correctAnswer": "1",
       "reiterationAudioName": "L12_ANS.mp3"
