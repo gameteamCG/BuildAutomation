@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "PHONICS sound D",
+    "texture": "9beda9b6-4542-49f8-a023-6db5ce4ca23d",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      387,
+      191
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      393,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
