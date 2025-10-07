@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "afgbv (2)",
+    "texture": "7685f298-d610-4cc5-af55-9c7dc6d660dc",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      250,
+      150
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      150
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
