@@ -110,7 +110,7 @@ var NewClass = /** @class */ (function (_super) {
             });
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         }
-        else if (StartGame_1.default.Instance.jockeyName == "puzzle") {
+        else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
             this.optionsNode.children.forEach(function (element) {
                 element.getChildByName("text").getComponent(cc.Label).font = _this.puzzle_font;
             });
@@ -222,7 +222,7 @@ var NewClass = /** @class */ (function (_super) {
             this.positiveAudio = this.stallionPositive;
             this.negativeAudio = this.stallionNegative;
         }
-        else if (StartGame_1.default.Instance.jockeyName == "puzzle") {
+        else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
             this.positiveAudio = this.puzzlePositive;
             this.negativeAudio = this.puzzleNegative;
         }
@@ -478,7 +478,7 @@ var NewClass = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "cryon") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
-        else if (StartGame_1.default.Instance.jockeyName == "puzzle") {
+        else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Singham") {
@@ -604,7 +604,7 @@ var NewClass = /** @class */ (function (_super) {
             else if (StartGame_1.default.Instance.jockeyName == "cryon") {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
-            else if (StartGame_1.default.Instance.jockeyName == "puzzle") {
+            else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
                 anim = ["negative_1", "negative_2"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Singham") {

@@ -151,7 +151,7 @@ export default class NewClass extends cc.Component {
             });
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         }
-        else if (startGame.Instance.jockeyName == "puzzle") {
+        else if (startGame.Instance.jockeyName == "Puzzle") {
             this.optionsNode.children.forEach((element) => {
                 element.getChildByName("text").getComponent(cc.Label).font = this.puzzle_font;
             });
@@ -262,7 +262,7 @@ export default class NewClass extends cc.Component {
             this.positiveAudio = this.stallionPositive;
             this.negativeAudio = this.stallionNegative;
         }
-        else if (startGame.Instance.jockeyName == "puzzle") {
+        else if (startGame.Instance.jockeyName == "Puzzle") {
             this.positiveAudio = this.puzzlePositive;
             this.negativeAudio = this.puzzleNegative;
         }
@@ -543,7 +543,7 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "cryon") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
-        else if (startGame.Instance.jockeyName == "puzzle") {
+        else if (startGame.Instance.jockeyName == "Puzzle") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (startGame.Instance.jockeyName == "Singham") {
@@ -675,7 +675,7 @@ export default class NewClass extends cc.Component {
             else if (startGame.Instance.jockeyName == "cryon") {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
-            else if (startGame.Instance.jockeyName == "puzzle") {
+            else if (startGame.Instance.jockeyName == "Puzzle") {
                 anim = ["negative_1", "negative_2"];
             }
             else if (startGame.Instance.jockeyName == "Singham") {

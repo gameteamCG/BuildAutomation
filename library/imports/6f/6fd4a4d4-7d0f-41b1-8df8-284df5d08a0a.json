@@ -754,7 +754,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "puzzle",
+    "_name": "Puzzle",
     "_objFlags": 0,
     "_parent": {
       "__id__": 5
@@ -3044,7 +3044,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "puzzle",
+    "_name": "Puzzle",
     "_objFlags": 0,
     "_parent": {
       "__id__": 62
