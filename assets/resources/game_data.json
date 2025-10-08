@@ -1,0 +1,28 @@
+{
+  "additionalData": {
+    "GameID": "Bee honey - Demo",
+    "totalLevel": "1",
+    "TitleImageName": "eawords.png",
+    "introBgName": "Gemini_Generated_Image_9m2ak19m2ak19m2a.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "Gemini_Generated_Image_9m2ak19m2ak19m2a.png",
+    "JockeyName": "bag"
+  },
+  "questionData": [
+    {
+      "questionText": "Q 1",
+      "questionAudioName": "A6.mp3",
+      "shouldPlayQuestionAudio": false,
+      "isOptionText": true,
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "correctAudios": [
+        "A6.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
