@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "'ea' words",
+    "texture": "739edce7-ffcd-4df4-aa74-ac6050481ef4",
+    "atlas": "",
+    "rect": [
+      17,
+      17,
+      939,
+      201
+    ],
+    "offset": [
+      8.5,
+      4
+    ],
+    "originalSize": [
+      956,
+      243
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

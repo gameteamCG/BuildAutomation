@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Video Quiz demo",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Number12_Jaipuria_1759901535215.mp4",
+      "TitleImageName": "'ea' words.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "1"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "10",
+        "IsQuestionText": true,
+        "QuestionText": "Q 1",
+        "QuestionImageName": "",
+        "QuestionAudioName": "today-we-are-going-to-learn-about-the-middle-sound_YiNIBpup.mp3",
+        "PlayQuestionAudio": false,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "1",
+          "2"
+        ],
+        "ReiterationAudioName": "A6.mp3",
+        "CorrectAudioName": "Audio.mp3",
+        "WrongAudioName": "Audio.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}
