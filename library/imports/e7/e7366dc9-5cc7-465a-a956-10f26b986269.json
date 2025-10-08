@@ -1,0 +1,72 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Musical Instruments",
+      "totalLevel": "2",
+      "TitleImageName": "Asset 19-8.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "JockeyName": "cryon"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BGp.png",
+        "questionAudioName": "Identify the musical instruments from the given images.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 2-8.png",
+          "Asset 4-8.png",
+          "Asset 16-8.png",
+          "Asset 17-8.png"
+        ],
+        "optionsBg": [
+          "Asset 1-8.png",
+          "Asset 3-8.png",
+          "Asset 16-8.png",
+          "Asset 17-8.png"
+        ],
+        "correctAudioName": "AWESOME YOU SAVED IT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "piano.mp3",
+          "Guitar.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BGp.png",
+        "questionAudioName": "Identify the musical instruments from the given images.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "Asset 12-8.png",
+          "Asset 6-8.png",
+          "Asset 14-8.png",
+          "Asset 15-8.png"
+        ],
+        "optionsBg": [
+          "Asset 11-8.png",
+          "Asset 5-8.png",
+          "Asset 14-8.png",
+          "Asset 15-8.png"
+        ],
+        "correctAudioName": "GOODEFFORT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "Drum.mp3",
+          "Violin.mp3"
+        ],
+        "correctAnswerNum": "12"
+      }
+    ]
+  }
+}
