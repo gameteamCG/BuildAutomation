@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fuse",
+    "texture": "61d71c14-398e-493d-a361-86b6abf81d55",
+    "atlas": "",
+    "rect": [
+      57,
+      106,
+      387,
+      288
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
