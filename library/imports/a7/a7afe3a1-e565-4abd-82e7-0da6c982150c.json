@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "phonics sound J",
+    "texture": "b848872a-52b7-4d64-b8a7-947bb1dc5ba3",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      377,
+      191
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      383,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
