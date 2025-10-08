@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mule",
+    "texture": "02779c83-36ec-49db-b700-6ab793034650",
+    "atlas": "",
+    "rect": [
+      72,
+      72,
+      356,
+      357
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
