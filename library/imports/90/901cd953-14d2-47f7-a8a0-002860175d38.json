@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "phonics sound AY",
+    "texture": "2954c227-8c93-4eaf-82e6-f9b7db802d34",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      445,
+      191
+    ],
+    "offset": [
+      -0.5,
+      1.5
+    ],
+    "originalSize": [
+      452,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
