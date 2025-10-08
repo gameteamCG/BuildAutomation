@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eawords",
+    "texture": "8d5e7ea5-e2e9-4175-82c1-1549f7f3323f",
+    "atlas": "",
+    "rect": [
+      17,
+      17,
+      939,
+      201
+    ],
+    "offset": [
+      8.5,
+      4
+    ],
+    "originalSize": [
+      956,
+      243
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Bee Honey Collector Demo",
+      "totalLevel": "1",
+      "TitleImageName": "eawords.png",
+      "introBgName": "Gemini_Generated_Image_9m2ak19m2ak19m2a.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "Gemini_Generated_Image_9m2ak19m2ak19m2a.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "Q 1",
+        "questionAudioName": "today-we-are-going-to-learn-about-the-middle-sound_YiNIBpup.mp3",
+        "shouldPlayQuestionAudio": false,
+        "isOptionText": true,
+        "options": [
+          "1",
+          "2",
+          "3"
+        ],
+        "correctAudios": [
+          ""
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
