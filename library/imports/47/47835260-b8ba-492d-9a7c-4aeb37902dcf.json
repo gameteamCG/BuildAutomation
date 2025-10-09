@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "AR",
+    "texture": "afe254e1-a5ce-4b69-b9a8-31148b1e6b40",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      441,
+      191
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      449,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
