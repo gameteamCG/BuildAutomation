@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "titileng",
+    "texture": "4051d840-32a2-4af8-8bcf-623da5f85c32",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      446,
+      191
+    ],
+    "offset": [
+      -0.5,
+      1.5
+    ],
+    "originalSize": [
+      453,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
