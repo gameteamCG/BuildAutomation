@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "OASONG",
+    "texture": "b57039d6-a345-40be-ae43-76519199856e",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      452,
+      191
+    ],
+    "offset": [
+      -0.5,
+      1.5
+    ],
+    "originalSize": [
+      459,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
