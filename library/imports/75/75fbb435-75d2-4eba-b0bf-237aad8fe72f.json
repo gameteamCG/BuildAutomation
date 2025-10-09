@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Phonics sound AY",
+      "TitleImageName": "phonics _sound_AY.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "0"
+    },
+    "QuestionData": []
+  }
+}
