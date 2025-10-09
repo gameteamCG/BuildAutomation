@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "SoundjJ",
+    "texture": "edae7241-9e84-491c-be31-47863a83b0d1",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      377,
+      191
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      383,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
