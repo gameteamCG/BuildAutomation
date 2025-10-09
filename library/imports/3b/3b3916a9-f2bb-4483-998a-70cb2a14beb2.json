@@ -7,7 +7,7 @@
     "AdditionalData": {
       "GameID": "First_day_of_school_class2_SCIS",
       "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/PTR_ST11_Purple%27sSchoolBlues_2.mp4",
-      "TitleImageName": "firstday.png",
+      "TitleImageName": "my school.png",
       "IntroAudio1Name": "",
       "IntroAudio2Name": "",
       "JockeyName": "puzzle",
@@ -19,7 +19,7 @@
         "IsQuestionText": true,
         "QuestionText": "breakfast",
         "QuestionImageName": "",
-        "QuestionAudioName": "What_did_Purple_eat_for_breakfast.mp3",
+        "QuestionAudioName": "1457262_1_what-did-purple-eat-fo.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -28,7 +28,7 @@
           "mango.png"
         ],
         "ReiterationAudioName": "GOODJOB.mp3",
-        "CorrectAudioName": "Carrots.mp3",
+        "CorrectAudioName": "1457262_2_carrots.mp3",
         "WrongAudioName": "Oopsietryoncemore.mp3",
         "CorrectAnswer": "1"
       },
@@ -37,7 +37,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "drums.png",
-        "QuestionAudioName": "Who_played _on_the_drums.mp3",
+        "QuestionAudioName": "1457262_3_who-played-on-the-drum.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -46,7 +46,7 @@
           "rabbit.png"
         ],
         "ReiterationAudioName": "GREATWORK.mp3",
-        "CorrectAudioName": "Rabbit.mp3",
+        "CorrectAudioName": "1457262_4_rabbit.mp3",
         "WrongAudioName": "ohoh.mp3",
         "CorrectAnswer": "2"
       },
@@ -55,7 +55,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "Pturtle.png",
-        "QuestionAudioName": "What_did_Purple _draw_during_free_time.mp3",
+        "QuestionAudioName": "1457262_5_what-did-purple-draw-d.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -64,7 +64,7 @@
           "tree.png"
         ],
         "ReiterationAudioName": "EXCELLENTJOB.mp3",
-        "CorrectAudioName": "Rainbow.mp3",
+        "CorrectAudioName": "1457262_6_rainbow.mp3",
         "WrongAudioName": "nevermind,tryagain.mp3",
         "CorrectAnswer": "1"
       }
