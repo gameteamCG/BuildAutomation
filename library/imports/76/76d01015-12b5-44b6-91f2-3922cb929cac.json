@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "all about me (2)",
+    "texture": "8418840f-a6eb-4bc3-934c-72fac51669f7",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      458,
+      191
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      464,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

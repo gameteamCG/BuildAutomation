@@ -7,7 +7,7 @@
     "additionalData": {
       "GameID": "myself_NUR_SB1_1",
       "totalLevel": "1",
-      "TitleImageName": "Asset 128.png",
+      "TitleImageName": "all about me (2).png",
       "introBgName": "Bg(8).png",
       "bgmMusicName": "bgmm.mp3",
       "initialVOName": "empty.mp3",
@@ -18,7 +18,7 @@
       {
         "questionText": "draw a self portrait showing how you look",
         "questionImageName": "empty.png",
-        "questionAudioName": "draw a self portrait showing how you look.mp3",
+        "questionAudioName": "draw a self portrait showing how you look1.mp3",
         "shouldPlayQuestionAudio": true,
         "pictureImageName": "common.png",
         "needMoreTools": true,
