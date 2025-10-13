@@ -59,7 +59,7 @@ export default class GamePlay extends cc.Component {
 
     DrawingTableClassRef = null;
     overAllData = [];
-
+    currentLevel1: number = 0;
     private currentLevel: number = 0;
     private totalLevels: number = 0;
 
@@ -253,6 +253,7 @@ export default class GamePlay extends cc.Component {
                     cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
                     this.node.getChildByName("image").getComponent(cc.Sprite).spriteFrame = this.questionImage[this.currentLevel];
                     this.currentLevel++;
+                    this.currentLevel1++;
                     this.addDrawing();
                 }, 0.5);
                 this.questionNode.children[0].getComponent(cc.Label).string = this.questions[this.currentLevel];

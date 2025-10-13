@@ -71,6 +71,7 @@ var GamePlay = /** @class */ (function (_super) {
         _this.persistentScrollScript = null;
         _this.DrawingTableClassRef = null;
         _this.overAllData = [];
+        _this.currentLevel1 = 0;
         _this.currentLevel = 0;
         _this.totalLevels = 0;
         _this.Ypos = 0;
@@ -254,6 +255,7 @@ var GamePlay = /** @class */ (function (_super) {
                     cc.audioEngine.playEffect(_this.question_audios[_this.currentLevel], false);
                     _this.node.getChildByName("image").getComponent(cc.Sprite).spriteFrame = _this.questionImage[_this.currentLevel];
                     _this.currentLevel++;
+                    _this.currentLevel1++;
                     _this.addDrawing();
                 }, 0.5);
                 _this.questionNode.children[0].getComponent(cc.Label).string = _this.questions[_this.currentLevel];

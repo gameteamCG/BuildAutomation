@@ -9,6 +9,7 @@ import CommonFun from "../../Common/CommonFun";
 import configData from "../../Common/ConfigController";
 import { Constant } from "../../Common/Constant";
 import Global from "../../Common/Global";
+import GamePlay from "../GamePlay";
 import TileSelection from "../TileSelection";
 
 const { ccclass, property } = cc._decorator;
@@ -93,7 +94,8 @@ export default class PersistentScroll extends cc.Component {
 
     // @property(cc.Color)
     // colorPicker: cc.Color[] = null;
-
+    @property(cc.AudioClip)
+    playquestionsound: cc.AudioClip[] = [];
     @property(cc.ParticleSystem)
     particleEffect: cc.ParticleSystem = null;
 
@@ -161,7 +163,7 @@ export default class PersistentScroll extends cc.Component {
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_CANCEL, this._onTouchEnd, this);
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_END, this._onTouchEnd, this);
 
-        this.currentPensilSelection = Constant.ToolsTag.BRUSH;
+        this.currentPensilSelection = Constant.ToolsTag.PENCIL;
 
         // this._instance = this;
 
@@ -577,5 +579,13 @@ export default class PersistentScroll extends cc.Component {
             data.parent.removeChild(data.child);
             this.currentDrawingScript.currentstensil.pop();
         }
+    }
+    playsoundbutton() {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.playquestionsound[GamePlay.Instance.currentLevel1], false);
+        this.node.getChildByName("panel").children[1].getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(() => {
+            this.node.getChildByName("panel").children[1].getComponent(cc.Button).interactable = true;
+        }, this.playquestionsound[GamePlay.Instance.currentLevel1].duration + 0.1);
     }
 }

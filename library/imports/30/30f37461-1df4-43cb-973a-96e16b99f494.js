@@ -32,6 +32,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var CommonFun_1 = require("../../Common/CommonFun");
 var Constant_1 = require("../../Common/Constant");
 var Global_1 = require("../../Common/Global");
+var GamePlay_1 = require("../GamePlay");
 var TileSelection_1 = require("../TileSelection");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var ColorFrameList = /** @class */ (function () {
@@ -139,6 +140,7 @@ var PersistentScroll = /** @class */ (function (_super) {
         _this.QuadSymetry = null;
         // @property(cc.Color)
         // colorPicker: cc.Color[] = null;
+        _this.playquestionsound = [];
         _this.particleEffect = null;
         _this.cameraAud = null;
         _this.toolsAud = null;
@@ -189,7 +191,7 @@ var PersistentScroll = /** @class */ (function (_super) {
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_MOVE, this._onTouchMoved, this);
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_CANCEL, this._onTouchEnd, this);
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_END, this._onTouchEnd, this);
-        this.currentPensilSelection = Constant_1.Constant.ToolsTag.BRUSH;
+        this.currentPensilSelection = Constant_1.Constant.ToolsTag.PENCIL;
         // this._instance = this;
         console.log("count = ", this.count);
         this.count++;
@@ -526,6 +528,15 @@ var PersistentScroll = /** @class */ (function (_super) {
             this.currentDrawingScript.currentstensil.pop();
         }
     };
+    PersistentScroll.prototype.playsoundbutton = function () {
+        var _this = this;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.playquestionsound[GamePlay_1.default.Instance.currentLevel1], false);
+        this.node.getChildByName("panel").children[1].getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("panel").children[1].getComponent(cc.Button).interactable = true;
+        }, this.playquestionsound[GamePlay_1.default.Instance.currentLevel1].duration + 0.1);
+    };
     var PersistentScroll_1;
     PersistentScroll.instance = null;
     __decorate([
@@ -549,6 +560,9 @@ var PersistentScroll = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], PersistentScroll.prototype, "QuadSymetry", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], PersistentScroll.prototype, "playquestionsound", void 0);
     __decorate([
         property(cc.ParticleSystem)
     ], PersistentScroll.prototype, "particleEffect", void 0);
