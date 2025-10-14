@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "draw a self portrait showing how you look",
+        "questionText": "Draw a self portrait showing how you look",
         "questionImageName": "empty.png",
         "questionAudioName": "draw a self portrait showing how you look1.mp3",
         "shouldPlayQuestionAudio": true,
