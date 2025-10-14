@@ -10388,7 +10388,7 @@
     },
     "component": "",
     "_componentId": "30f37RhHfRDy5c6luFrmfSU",
-    "handler": "",
+    "handler": "playsoundbutton",
     "customEventData": ""
   },
   {

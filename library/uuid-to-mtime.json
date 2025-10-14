@@ -770,8 +770,8 @@
     "relativePath": "Framework\\WebView\\WebviewAssets\\new\\Vector.png"
   },
   "5967bce7-c310-4ec6-87cf-143c71c2365b": {
-    "asset": 1760416645851,
-    "meta": 1760416681753,
+    "asset": 1760418370285,
+    "meta": 1760419028727,
     "relativePath": "Game"
   },
   "28afbd25-71c5-488f-9793-0de63dacff6d": {
@@ -785,8 +785,8 @@
     "relativePath": "Game\\Draw emotions"
   },
   "f4e58b73-561e-44d5-8d0f-85931c93a112": {
-    "asset": 1760416645834,
-    "meta": 1760416681776,
+    "asset": 1760418621472,
+    "meta": 1760419028727,
     "relativePath": "Game\\Painting_template"
   },
   "d683388d-09ef-42d3-8d72-1f2d5c0fa413": {
@@ -1130,8 +1130,8 @@
     "relativePath": "Game\\Painting_template\\Scene\\MainMenu.fire"
   },
   "423ad13b-f436-4a08-a3bc-baa23f33d9f2": {
-    "asset": 1760418454678,
-    "meta": 1760418454695,
+    "asset": 1760419175889,
+    "meta": 1760419175901,
     "relativePath": "Game\\Painting_template\\Scene\\gameEnded.fire"
   },
   "d69f5bd4-e539-45cc-a9d8-86833cbb0de6": {
@@ -4435,13 +4435,13 @@
     "relativePath": "Game\\Asset 15.png"
   },
   "b336b0b4-a900-403b-9d40-f8ffcf3497b9": {
-    "asset": 1760416646668,
-    "meta": 1760416681790,
+    "asset": 1760418535613,
+    "meta": 1760419028728,
     "relativePath": "resources\\audios"
   },
   "06cf1f03-682c-4281-900f-26ddf810ce80": {
-    "asset": 1760416646701,
-    "meta": 1760416681808,
+    "asset": 1760418403131,
+    "meta": 1760419028728,
     "relativePath": "resources\\images"
   },
   "e41c037e-87b6-4d19-a2ab-9b07ade27934": {
@@ -4515,8 +4515,8 @@
     "relativePath": "resources\\audios\\colour and decorate the house.mp3"
   },
   "8f491b88-8714-4309-8941-9a7f14c25a57": {
-    "asset": 1760418838522,
-    "meta": 1760418838541,
+    "asset": 1760419145323,
+    "meta": 1760419145340,
     "relativePath": "Game\\Painting_template\\Scene\\GamePlay.fire"
   },
   "26a7f1a3-6935-4bfd-913f-5fb4440f7606": {
@@ -4549,11 +4549,6 @@
     "meta": 1760418536231,
     "relativePath": "resources\\audios\\babytoddlergame_BGM (1).mp3"
   },
-  "c9338dc8-2084-4f40-b0ea-20aadcbc8e26": {
-    "asset": 1760418540185,
-    "meta": 1760418542569,
-    "relativePath": "resources\\game_data.json"
-  },
   "ab2144d6-8b29-4abc-b3b2-86827e595beb": {
     "asset": 1760418621471,
     "meta": 1760418621515,
@@ -4563,5 +4558,20 @@
     "asset": 1760418830359,
     "meta": 1760418833139,
     "relativePath": "Game\\Painting_template\\Script\\GamePlay\\Persistent\\PersistentScroll.ts"
+  },
+  "19223028-8384-40ad-bf05-c8d827b33a3e": {
+    "asset": 1760419121937,
+    "meta": 1760419121991,
+    "relativePath": "resources\\images\\bgtitlemain.png"
+  },
+  "34fc031f-e772-4763-bb95-b11e53c620aa": {
+    "asset": 1760419129205,
+    "meta": 1760419129239,
+    "relativePath": "resources\\images\\Asset 13.png"
+  },
+  "c9338dc8-2084-4f40-b0ea-20aadcbc8e26": {
+    "asset": 1760419135339,
+    "meta": 1760419136192,
+    "relativePath": "resources\\game_data.json"
   }
 }
