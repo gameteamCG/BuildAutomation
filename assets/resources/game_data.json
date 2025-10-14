@@ -1,0 +1,23 @@
+{
+  "additionalData": {
+    "GameID": "Doodle fun",
+    "totalLevel": "1",
+    "TitleImageName": "Asset216.png",
+    "introBgName": "Juniorskg.png",
+    "bgmMusicName": "hksmi.mp3",
+    "initialVOName": "evo.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Podar"
+  },
+  "questionData": [
+    {
+      "questionText": "doodle fun",
+      "questionImageName": "empty.png",
+      "questionAudioName": "drawandcolour1healthyhabit.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "empty.png",
+      "needMoreTools": false,
+      "correctAudioName": "L1correct.mp3"
+    }
+  ]
+}

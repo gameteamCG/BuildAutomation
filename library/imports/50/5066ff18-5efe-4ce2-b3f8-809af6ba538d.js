@@ -29,7 +29,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var endScreen = /** @class */ (function (_super) {
     __extends(endScreen, _super);
@@ -44,26 +43,26 @@ var endScreen = /** @class */ (function (_super) {
         // update (dt) {}
     }
     endScreen.prototype.onLoad = function () {
-        this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables_1.default.Instance.introBG;
+        // this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables.Instance.introBG;
         console.log("showedScreen--wellDone");
         this.scheduleOnce(function () {
             console.log("gameEnded--true");
         }, 2);
     };
     endScreen.prototype.start = function () {
-        if (globalVariables_1.default.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
-        }
-        else if (globalVariables_1.default.Instance.jockeyName == "bag" || globalVariables_1.default.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
-        }
-        else if (globalVariables_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
-        }
-        else if (globalVariables_1.default.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
-        }
-        this.node.getChildByName("jockey").getChildByName(globalVariables_1.default.Instance.jockeyName).active = true;
+        // if (globalVariables.Instance.jockeyName == "Podar") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
+        // }
+        // else if (globalVariables.Instance.jockeyName == "bag" || globalVariables.Instance.jockeyName == "cryon") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
+        // }
+        // else if (globalVariables.Instance.jockeyName == "tlc") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
+        // }
+        // else if (globalVariables.Instance.jockeyName == "supercub") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
+        // }
+        // this.node.getChildByName("jockey").getChildByName(globalVariables.Instance.jockeyName).active = true;
     };
     __decorate([
         property(cc.SpriteFrame)
