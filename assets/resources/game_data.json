@@ -2,9 +2,9 @@
   "additionalData": {
     "GameID": "My home design_Nursery_GA_26",
     "totalLevel": "1",
-    "TitleImageName": "Asset4.png",
+    "TitleImageName": "My house (1).png",
     "introBgName": "PNUR.png",
-    "bgmMusicName": "bgm1.mp3",
+    "bgmMusicName": "babytoddlergame_BGM (1).mp3",
     "initialVOName": "",
     "mainBgName": "Asset11162.png",
     "JockeyName": "Puzzle"
@@ -13,9 +13,9 @@
     {
       "questionText": "home design ",
       "questionImageName": "",
-      "questionAudioName": "gkdfzc.mp3",
+      "questionAudioName": "colour and decorate the house.mp3",
       "shouldPlayQuestionAudio": true,
-      "pictureImageName": "Asset23f17.png",
+      "pictureImageName": "hometry.png",
       "needMoreTools": false,
       "correctAudioName": "GoodP.mp3"
     }

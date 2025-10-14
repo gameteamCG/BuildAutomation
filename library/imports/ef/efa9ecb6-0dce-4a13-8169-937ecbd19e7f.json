@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hometry",
+    "texture": "a021cf64-3095-4673-9849-d15208b26c92",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      800,
+      500
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      800,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
