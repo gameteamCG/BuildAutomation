@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kalaesh",
+    "texture": "d03ddb95-ff29-4583-b781-d54abb884205",
+    "atlas": "",
+    "rect": [
+      47,
+      163,
+      418,
+      129
+    ],
+    "offset": [
+      5.5,
+      23
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
