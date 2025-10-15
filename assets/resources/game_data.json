@@ -1,0 +1,405 @@
+{
+  "additionalData": {
+    "GameID": "क से श्र_hindi_ukg_104",
+    "totalLevel": "14",
+    "TitleImageName": "tt.png",
+    "introBgName": "UKG.png",
+    "bgmMusicName": "BB.mp3",
+    "mainBgName": "BG.png",
+    "JockeyName": "hindi"
+  },
+  "questionData": [
+    {
+      "questionText": "",
+      "questionAudioName": "chitra_solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "pur.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l1.png",
+        "l2.png",
+        "l3.png",
+        "l4.png"
+      ],
+      "correctAudioName": "hindi_accha.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndreiteration.mp3",
+      "commonOptionImageName": "bro.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "aga.png",
+        "ag.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "kamal.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "chitra_solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "pur.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l21.png",
+        "l22.png",
+        "l23.png",
+        "l24.png"
+      ],
+      "correctAudioName": "hindi_genius.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndreiteration.mp3",
+      "commonOptionImageName": "bro.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "agea.png",
+        "agag.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "thali.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "chitra_solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "pur.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l31.png",
+        "l32.png",
+        "l33.png",
+        "l34.png"
+      ],
+      "correctAudioName": "hindi_jabardast.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndreiteration.mp3",
+      "commonOptionImageName": "bro.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "faega.png",
+        "ga.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "chatt.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "chitra_solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "pur.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l41.png",
+        "l42.png",
+        "l43.png",
+        "l44.png"
+      ],
+      "correctAudioName": "hindi_lajawab.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndreiteration.mp3",
+      "commonOptionImageName": "bro.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "ga.png",
+        "agea.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "jhadu.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "chitra_solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "pur.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l51.png",
+        "l52.png",
+        "l53.png",
+        "l54.png"
+      ],
+      "correctAudioName": "hindi_shaandar.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndreiteration.mp3",
+      "commonOptionImageName": "bro.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "agg.png",
+        "th.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "darwaza.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "chitra_solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "pur.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l61.png",
+        "l62.png",
+        "l63.png",
+        "l64.png"
+      ],
+      "correctAudioName": "hindi_accha.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndreiteration.mp3",
+      "commonOptionImageName": "bro.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "hg.png",
+        "ag.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "bhalu.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "chitra_solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "pur.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l71.png",
+        "l72.png",
+        "l73.png",
+        "l74.png"
+      ],
+      "correctAudioName": "hindi_genius.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndreiteration.mp3",
+      "commonOptionImageName": "bro.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "ga.png",
+        "gaga.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "chamach.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "chitra_solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "pur.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l81.png",
+        "l82.png",
+        "l83.png",
+        "l84.png"
+      ],
+      "correctAudioName": "hindi_jabardast.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndreiteration.mp3",
+      "commonOptionImageName": "bro.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "kag.png",
+        "agg.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "tara.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "chitra_solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "pur.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l91.png",
+        "l92.png",
+        "l93.png",
+        "l94.png"
+      ],
+      "correctAudioName": "hindi_lajawab.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndreiteration.mp3",
+      "commonOptionImageName": "bro.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "ag.png",
+        "hg.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "bandar.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "chitra_solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "pur.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l101.png",
+        "l102.png",
+        "l103.png",
+        "l104.png"
+      ],
+      "correctAudioName": "hindi_lajawab.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndreiteration.mp3",
+      "commonOptionImageName": "bro.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "ga.png",
+        "gaga.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "jalebi.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "chitra_solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "pur.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l111.png",
+        "l112.png",
+        "l113.png",
+        "l114.png"
+      ],
+      "correctAudioName": "hindi_shaandar.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndreiteration.mp3",
+      "commonOptionImageName": "bro.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "th.png",
+        "hga.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "dhaga.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "chitra_solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "pur.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l121.png",
+        "l122.png",
+        "l123.png",
+        "l124.png"
+      ],
+      "correctAudioName": "hindi_accha.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndreiteration.mp3",
+      "commonOptionImageName": "bro.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "hga.png",
+        "ha.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "heera.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "chitra_solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "pur.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l131.png",
+        "l132.png",
+        "l133.png",
+        "l134.png"
+      ],
+      "correctAudioName": "hindi_genius.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndreiteration.mp3",
+      "commonOptionImageName": "bro.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "ha.png",
+        "jeag.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "nariyal.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "chitra_solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "pur.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l141.png",
+        "l142.png",
+        "l143.png",
+        "l144.png"
+      ],
+      "correctAudioName": "hindi_jabardast.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndreiteration.mp3",
+      "commonOptionImageName": "bro.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "th.png",
+        "hga.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "dhokla.mp3"
+    }
+  ]
+}
