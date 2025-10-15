@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "matarrr",
+    "texture": "abc39dd8-a7cd-4037-bee5-134279e7ff0d",
+    "atlas": "",
+    "rect": [
+      82,
+      162,
+      314,
+      125
+    ],
+    "offset": [
+      -11.5,
+      26
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

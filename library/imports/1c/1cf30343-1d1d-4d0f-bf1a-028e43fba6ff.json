@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kalaaam",
+    "texture": "7f47ff55-91f0-474b-8387-d1d6f6714769",
+    "atlas": "",
+    "rect": [
+      47,
+      163,
+      401,
+      125
+    ],
+    "offset": [
+      -3,
+      25
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

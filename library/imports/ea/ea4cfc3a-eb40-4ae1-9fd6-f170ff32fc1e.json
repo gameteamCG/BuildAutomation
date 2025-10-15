@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "namakkk",
+    "texture": "7431d21c-65dc-41bc-979b-6bbdcda32f54",
+    "atlas": "",
+    "rect": [
+      59,
+      162,
+      376,
+      125
+    ],
+    "offset": [
+      -3.5,
+      26
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

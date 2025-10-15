@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sadakfa",
+    "texture": "a309bbef-a374-4884-bc3f-17e8f76f4853",
+    "atlas": "",
+    "rect": [
+      16,
+      73,
+      473,
+      428
+    ],
+    "offset": [
+      2,
+      -36.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

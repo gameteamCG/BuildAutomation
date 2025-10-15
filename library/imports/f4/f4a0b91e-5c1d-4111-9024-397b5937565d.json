@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sahaddd",
+    "texture": "844d7fc7-149d-43a5-8a97-5faec189dd84",
+    "atlas": "",
+    "rect": [
+      64,
+      163,
+      355,
+      158
+    ],
+    "offset": [
+      -9,
+      8.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

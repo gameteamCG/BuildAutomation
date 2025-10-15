@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mahallll",
+    "texture": "e40e4640-7778-4bcb-a78d-8568ff2807a5",
+    "atlas": "",
+    "rect": [
+      64,
+      163,
+      360,
+      158
+    ],
+    "offset": [
+      -6.5,
+      8.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
