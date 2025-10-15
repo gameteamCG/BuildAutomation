@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jeag",
+    "texture": "b9e4fde2-b329-4b2b-92b9-229645fb7951",
+    "atlas": "",
+    "rect": [
+      68,
+      75,
+      104,
+      108
+    ],
+    "offset": [
+      -5.5,
+      -3.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

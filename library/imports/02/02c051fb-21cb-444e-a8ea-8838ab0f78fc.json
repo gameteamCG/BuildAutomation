@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bro",
+    "texture": "ae0e4e0c-f893-4acb-8c23-cbeedd65797e",
+    "atlas": "",
+    "rect": [
+      13,
+      12,
+      325,
+      326
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

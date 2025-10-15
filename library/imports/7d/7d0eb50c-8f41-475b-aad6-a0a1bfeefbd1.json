@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "faega",
+    "texture": "f7eae044-c3ee-4363-a1cf-d936ffb401f6",
+    "atlas": "",
+    "rect": [
+      55,
+      76,
+      138,
+      103
+    ],
+    "offset": [
+      -1.5,
+      -2
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

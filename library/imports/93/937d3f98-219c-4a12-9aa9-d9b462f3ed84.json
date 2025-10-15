@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gaga",
+    "texture": "45d71f67-13b3-406b-9c5c-4ee033dfd60a",
+    "atlas": "",
+    "rect": [
+      60,
+      75,
+      120,
+      108
+    ],
+    "offset": [
+      -5.5,
+      -3.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

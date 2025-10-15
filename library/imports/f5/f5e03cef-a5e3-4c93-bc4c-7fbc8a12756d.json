@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "agea",
+    "texture": "6036cc4a-bc1b-4e29-ba9f-db0a6d56132b",
+    "atlas": "",
+    "rect": [
+      58,
+      76,
+      135,
+      132
+    ],
+    "offset": [
+      0,
+      -16.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

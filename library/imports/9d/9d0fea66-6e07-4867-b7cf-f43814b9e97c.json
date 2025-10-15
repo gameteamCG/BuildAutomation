@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hga",
+    "texture": "c0a88dd8-321f-417c-8079-7a742bda2383",
+    "atlas": "",
+    "rect": [
+      73,
+      79,
+      105,
+      103
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

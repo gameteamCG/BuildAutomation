@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kag",
+    "texture": "e9969757-3f8e-4c5d-855e-b960231ec1a1",
+    "atlas": "",
+    "rect": [
+      75,
+      75,
+      105,
+      108
+    ],
+    "offset": [
+      2,
+      -3.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
