@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_red-signal_1",
+    "texture": "a83466cc-1659-4e75-b9d7-7ed8c6414c42",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      498,
+      498
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
