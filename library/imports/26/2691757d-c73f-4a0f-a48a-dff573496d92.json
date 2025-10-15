@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "namakkav",
+    "texture": "549369bb-c0fe-4b92-8cc8-2ad5cb76407d",
+    "atlas": "",
+    "rect": [
+      16,
+      73,
+      473,
+      428
+    ],
+    "offset": [
+      2,
+      -36.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

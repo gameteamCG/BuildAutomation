@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mahalbb",
+    "texture": "8ea89c15-b6ed-4c77-ac43-3c06de77773f",
+    "atlas": "",
+    "rect": [
+      15,
+      73,
+      474,
+      428
+    ],
+    "offset": [
+      1.5,
+      -36.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
