@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guih",
+    "texture": "dabfd515-3c56-4066-8cba-c18b2a9eb32c",
+    "atlas": "",
+    "rect": [
+      134,
+      186,
+      182,
+      144
+    ],
+    "offset": [
+      -25.5,
+      -7.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

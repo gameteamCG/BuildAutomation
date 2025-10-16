@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hfguu",
+    "texture": "c731e57f-d21a-4065-b605-1bf09fd69227",
+    "atlas": "",
+    "rect": [
+      157,
+      178,
+      137,
+      135
+    ],
+    "offset": [
+      -25,
+      5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

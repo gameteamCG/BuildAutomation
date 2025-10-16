@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ajkfa",
+    "texture": "145f601e-f278-460c-83bf-9a4b482cd167",
+    "atlas": "",
+    "rect": [
+      92,
+      113,
+      302,
+      272
+    ],
+    "offset": [
+      -7.5,
+      1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

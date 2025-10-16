@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "agag",
+    "texture": "4ae3e677-725f-476b-b1ba-7bda63574a91",
+    "atlas": "",
+    "rect": [
+      112,
+      126,
+      232,
+      211
+    ],
+    "offset": [
+      -22.5,
+      19
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

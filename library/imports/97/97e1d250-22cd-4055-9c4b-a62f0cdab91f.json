@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dohajfk",
+    "texture": "03c21acd-d7d0-40c3-b65f-b4d499f5cc92",
+    "atlas": "",
+    "rect": [
+      87,
+      78,
+      320,
+      356
+    ],
+    "offset": [
+      -3.5,
+      -5.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

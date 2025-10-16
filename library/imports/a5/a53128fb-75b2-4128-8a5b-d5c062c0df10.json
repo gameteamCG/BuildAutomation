@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "igghu",
+    "texture": "669af2b9-f8c2-45ae-9ae6-e2e567a4d2a2",
+    "atlas": "",
+    "rect": [
+      160,
+      179,
+      129,
+      175
+    ],
+    "offset": [
+      -26,
+      -16
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

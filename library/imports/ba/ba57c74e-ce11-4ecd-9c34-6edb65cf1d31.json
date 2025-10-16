@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fauiegna",
+    "texture": "ae5dda51-01ba-44dd-b171-a001d6b8d071",
+    "atlas": "",
+    "rect": [
+      64,
+      76,
+      350,
+      349
+    ],
+    "offset": [
+      -11.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

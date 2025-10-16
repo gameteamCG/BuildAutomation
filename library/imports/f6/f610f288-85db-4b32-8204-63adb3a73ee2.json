@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eaigkml",
+    "texture": "7f9ed52c-66bd-4742-9b81-cac2926daf1c",
+    "atlas": "",
+    "rect": [
+      57,
+      109,
+      359,
+      293
+    ],
+    "offset": [
+      -14,
+      -5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "euoa",
+    "texture": "8ccfafc9-6eea-4033-9415-f41503a537aa",
+    "atlas": "",
+    "rect": [
+      136,
+      118,
+      181,
+      214
+    ],
+    "offset": [
+      -24,
+      25.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

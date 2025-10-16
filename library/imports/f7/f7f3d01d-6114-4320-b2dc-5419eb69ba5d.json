@@ -1,0 +1,271 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "अ से अः_hindi_ukg_103",
+      "totalLevel": "12",
+      "TitleImageName": "tt.png",
+      "introBgName": "UKG.png",
+      "bgmMusicName": "dicxi.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "hindi"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "gsegrh.png"
+        ],
+        "reiterations": [
+          "aadrak.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "fa.png",
+          "guih.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "afaf.png"
+        ],
+        "reiterations": [
+          "shatru.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "guih.png",
+          "fa.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "jgu.png"
+        ],
+        "reiterations": [
+          "ilaichi.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "igghu.png",
+          "hfguu.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "jg.png"
+        ],
+        "reiterations": [
+          "einak.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "g.png",
+          "jef.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "kghe.png"
+        ],
+        "reiterations": [
+          "ustara.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "hfguu.png",
+          "fa.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "fauiegna.png"
+        ],
+        "reiterations": [
+          "ooshad.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "uifw.png",
+          "g.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "gg.png"
+        ],
+        "reiterations": [
+          "aata.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "aefa.png",
+          "guih.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "dohajfk.png"
+        ],
+        "reiterations": [
+          "ikh.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "jef.png",
+          "eghs.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "kkslk.png"
+        ],
+        "reiterations": [
+          "anghuta.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "euauf.png",
+          "igghu.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "tok.png"
+        ],
+        "reiterations": [
+          "unth.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "euoa.png",
+          "euauf.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "eaigkml.png"
+        ],
+        "reiterations": [
+          "ektara.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "eghs.png",
+          "hfguu.png"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "ajkfa.png"
+        ],
+        "reiterations": [
+          "ookhali.mp3"
+        ],
+        "commonRightOptionImageName": "right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "agag.png",
+          "jef.png"
+        ]
+      }
+    ]
+  }
+}

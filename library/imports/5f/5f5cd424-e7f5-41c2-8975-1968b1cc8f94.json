@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "euauf",
+    "texture": "fe856eb5-6bf4-4f36-906b-8b03f63892b8",
+    "atlas": "",
+    "rect": [
+      141,
+      144,
+      177,
+      186
+    ],
+    "offset": [
+      -21,
+      13.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

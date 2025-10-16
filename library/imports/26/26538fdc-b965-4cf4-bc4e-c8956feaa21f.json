@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eghs",
+    "texture": "e20e258e-3df3-49ed-842d-790393ad217f",
+    "atlas": "",
+    "rect": [
+      156,
+      181,
+      136,
+      187
+    ],
+    "offset": [
+      -26.5,
+      -24
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
