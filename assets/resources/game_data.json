@@ -1,0 +1,125 @@
+{
+  "additionalData": {
+    "GameID": "अँ की मात्रा_hindi_ukg_78",
+    "totalLevel": "7",
+    "TitleImageName": "titel.png",
+    "introBgName": "UKG.png",
+    "bgmMusicName": "track.mp3",
+    "mainBgName": "bgs.png",
+    "JockeyName": "hindi"
+  },
+  "questionData": [
+    {
+      "questionText": "अँ की मात्रा",
+      "questionImageName": "nmbn.png",
+      "questionAudioName": "QVOO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "plbb.png",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "anchal.png",
+        "puch.png",
+        "jhut.png"
+      ],
+      "correctAudioName": "ऊँट.mp3",
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "अँ की मात्रा",
+      "questionImageName": "dfcv.png",
+      "questionAudioName": "QVOO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "plas.png",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "puch.png",
+        "gaav.png",
+        "jhut.png"
+      ],
+      "correctAudioName": "पूँछ.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "अँ की मात्रा",
+      "questionImageName": "jkm.png",
+      "questionAudioName": "QVOO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "pla.png",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "anchal.png",
+        "kua.png",
+        "sai.png"
+      ],
+      "correctAudioName": "कुँआ.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "अँ की मात्रा",
+      "questionImageName": "wafga.png",
+      "questionAudioName": "QVOO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "plbb.png",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "sai.png",
+        "kaap.png",
+        "kua.png"
+      ],
+      "correctAudioName": "साँझ.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "अँ की मात्रा",
+      "questionImageName": "jj.png",
+      "questionAudioName": "QVOO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "anchal.png",
+        "gaav.png",
+        "kaap.png"
+      ],
+      "correctAudioName": "काँप.mp3",
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "अँ की मात्रा",
+      "questionImageName": "wagaga.png",
+      "questionAudioName": "QVOO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "jhut.png",
+        "gaav.png",
+        "puch.png"
+      ],
+      "correctAudioName": "गाँव.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "अँ की मात्रा",
+      "questionImageName": "dfg.png",
+      "questionAudioName": "QVOO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "",
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "anchal.png",
+        "sai.png",
+        "kua.png"
+      ],
+      "correctAudioName": "आँचल.mp3",
+      "correctAnswerNum": "1"
+    }
+  ]
+}
