@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "teen",
+    "texture": "f95cfaef-5242-4983-928e-3100dd230573",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      419,
+      261
+    ],
+    "offset": [
+      -10.5,
+      13
+    ],
+    "originalSize": [
+      440,
+      293
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

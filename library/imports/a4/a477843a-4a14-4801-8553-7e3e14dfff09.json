@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kalam2",
+    "texture": "8f4eda74-828d-456c-96fd-7e0e8437140a",
+    "atlas": "",
+    "rect": [
+      9,
+      43,
+      284,
+      258
+    ],
+    "offset": [
+      0.5,
+      -21.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
