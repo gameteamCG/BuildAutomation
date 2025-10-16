@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "aefa",
+    "texture": "0e229e84-287f-4576-ade9-ade0a94d98f2",
+    "atlas": "",
+    "rect": [
+      114,
+      184,
+      232,
+      146
+    ],
+    "offset": [
+      -20.5,
+      -6.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

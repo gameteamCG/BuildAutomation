@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kghe",
+    "texture": "f87825f1-086c-4632-9960-5c6c4040adf8",
+    "atlas": "",
+    "rect": [
+      48,
+      109,
+      369,
+      310
+    ],
+    "offset": [
+      -18,
+      -13.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

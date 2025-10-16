@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tok",
+    "texture": "9ede088d-d872-410f-b000-0d1ce26f83fb",
+    "atlas": "",
+    "rect": [
+      66,
+      102,
+      324,
+      325
+    ],
+    "offset": [
+      -22.5,
+      -14
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
