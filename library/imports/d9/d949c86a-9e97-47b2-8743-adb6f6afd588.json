@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "magarr",
+    "texture": "d53d7e6d-86d8-4453-964b-14c35974ad82",
+    "atlas": "",
+    "rect": [
+      78,
+      163,
+      324,
+      125
+    ],
+    "offset": [
+      -10.5,
+      25
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

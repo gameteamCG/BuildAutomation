@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "badak1",
+    "texture": "719955d9-7a97-4489-b4e6-6a4108d4115e",
+    "atlas": "",
+    "rect": [
+      9,
+      43,
+      284,
+      258
+    ],
+    "offset": [
+      0.5,
+      -21.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
