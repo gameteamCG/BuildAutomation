@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gaav",
+    "texture": "fb52ad7c-41bf-454a-bfda-c4aed914daa1",
+    "atlas": "",
+    "rect": [
+      124,
+      140,
+      283,
+      192
+    ],
+    "offset": [
+      15,
+      14.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

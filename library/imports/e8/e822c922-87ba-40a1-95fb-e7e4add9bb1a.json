@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "puch",
+    "texture": "62bbf407-0f72-4aa9-937b-1eecfc28cf10",
+    "atlas": "",
+    "rect": [
+      141,
+      139,
+      263,
+      245
+    ],
+    "offset": [
+      22,
+      -11
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

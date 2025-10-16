@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kaap",
+    "texture": "8f6813ae-9889-42bf-b5a8-b422aaf669ed",
+    "atlas": "",
+    "rect": [
+      115,
+      139,
+      307,
+      192
+    ],
+    "offset": [
+      18,
+      15.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

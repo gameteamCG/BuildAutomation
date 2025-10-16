@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "anchal",
+    "texture": "5df25fe4-abe1-4900-b834-4177c5a9ddac",
+    "atlas": "",
+    "rect": [
+      16,
+      138,
+      455,
+      192
+    ],
+    "offset": [
+      -7,
+      16.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
