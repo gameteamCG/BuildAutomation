@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "matargg",
+    "texture": "5559a7ba-155d-4416-a169-76e24b931d2d",
+    "atlas": "",
+    "rect": [
+      9,
+      43,
+      284,
+      258
+    ],
+    "offset": [
+      0.5,
+      -21.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

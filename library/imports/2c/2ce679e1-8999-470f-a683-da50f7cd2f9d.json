@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "batajha",
+    "texture": "136dd5cc-cb1b-4e7e-8a7e-235762bcc987",
+    "atlas": "",
+    "rect": [
+      64,
+      163,
+      373,
+      125
+    ],
+    "offset": [
+      0,
+      25
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lahar44",
+    "texture": "dc4d417b-ceca-4d15-b53c-a50387b02f89",
+    "atlas": "",
+    "rect": [
+      9,
+      43,
+      284,
+      258
+    ],
+    "offset": [
+      0.5,
+      -21.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
