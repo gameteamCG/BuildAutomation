@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lkyjtyr",
+    "texture": "948be2c3-3627-42ba-bd5b-3fbdaff41223",
+    "atlas": "",
+    "rect": [
+      160,
+      210,
+      181,
+      100
+    ],
+    "offset": [
+      0,
+      -9.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
