@@ -1,0 +1,209 @@
+{
+  "additionalData": {
+    "GameID": "सब्ज़ियों के नाम_hindi_ukg_86",
+    "totalLevel": "7",
+    "TitleImageName": "Asset 150.png",
+    "introBgName": "UKG.png",
+    "bgmMusicName": "short.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "hindi"
+  },
+  "questionData": [
+    {
+      "questionText": "सब्ज़ियों के नाम",
+      "questionAudioName": "1sQVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l11.png",
+        "l12.png",
+        "l13.png",
+        "l14.png"
+      ],
+      "correctAudioName": "hindi_accha.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndQVO.mp3",
+      "commonOptionImageName": "cm.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "tygyujk.png",
+        "lkyjtyr.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "tamatar.mp3"
+    },
+    {
+      "questionText": "सब्ज़ियों के नाम",
+      "questionAudioName": "1sQVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l21.png",
+        "l22.png",
+        "l23.png",
+        "l24.png"
+      ],
+      "correctAudioName": "hindi_genius.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndQVO.mp3",
+      "commonOptionImageName": "cm.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "rtyghkj.png",
+        "gjjhujk.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "lahasun.mp3"
+    },
+    {
+      "questionText": "सब्ज़ियों के नाम",
+      "questionAudioName": "1sQVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l31.png",
+        "l32.png",
+        "l33.png",
+        "l34.png"
+      ],
+      "correctAudioName": "hindi_jabardast.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndQVO.mp3",
+      "commonOptionImageName": "cm.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "ff.png",
+        "gjjhujk.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "pyazz.mp3"
+    },
+    {
+      "questionText": "सब्ज़ियों के नाम",
+      "questionAudioName": "1sQVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l41.png",
+        "l42.png",
+        "l43.png",
+        "l44.png"
+      ],
+      "correctAudioName": "hindi_lajawab.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndQVO.mp3",
+      "commonOptionImageName": "cm.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "rtyghkj.png",
+        "agaghjbagnj.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "shalgum.mp3"
+    },
+    {
+      "questionText": "सब्ज़ियों के नाम",
+      "questionAudioName": "1sQVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l51.png",
+        "l52.png",
+        "l53.png",
+        "l54.png"
+      ],
+      "correctAudioName": "hindi_shaandar.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndQVO.mp3",
+      "commonOptionImageName": "cm.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "vghbkjlk.png",
+        "lkyjtyr.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "loki.mp3"
+    },
+    {
+      "questionText": "सब्ज़ियों के नाम",
+      "questionAudioName": "1sQVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l61.png",
+        "l62.png",
+        "l63.png",
+        "l64.png"
+      ],
+      "correctAudioName": "hindi_accha.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndQVO.mp3",
+      "commonOptionImageName": "cm.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "lkyjtyr.png",
+        "ff.png"
+      ],
+      "correctAnswer": "1",
+      "reiterationAudioName": "baigan.mp3"
+    },
+    {
+      "questionText": "सब्ज़ियों के नाम",
+      "questionAudioName": "1sQVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "trans.png",
+      "isHintRequired": true,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "l71.png",
+        "l72.png",
+        "l73.png",
+        "l74.png"
+      ],
+      "correctAudioName": "hindi_genius.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "2ndQVO.mp3",
+      "commonOptionImageName": "cm.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "tygyujk.png",
+        "ff.png"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "fulgobhi.mp3"
+    }
+  ]
+}
