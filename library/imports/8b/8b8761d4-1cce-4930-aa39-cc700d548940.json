@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kitchen",
+    "texture": "f17e03b7-6b62-4596-8b7b-7373206e6f47",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1419,
+      1417
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      1419,
+      1418
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

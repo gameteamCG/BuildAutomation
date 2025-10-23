@@ -94,7 +94,7 @@ export default class NewClass extends cc.Component {
     private tlc_font: cc.Font = null;
     @property(cc.Font)
     private supercub_font: cc.Font = null;
-
+    private optionArray: string[][] = [];
     private isFirstClick: boolean = false;
     private canTouch: boolean = false;
     private answerArray: string[] = [];
@@ -151,7 +151,7 @@ export default class NewClass extends cc.Component {
         //}
         // else if (startGame.Instance.optionLayout == "vertical") {
         //     let optionsLayoutNode = cc.instantiate(this.VerticalOptionNode);
-        //     optionsLayoutNode.setParent(this.node);
+        //     optionsLayoutNode.setParenten(this.node);
         //     optionsLayoutNode.name = "Option"
         //     optionsLayoutNode.setSiblingIndex(5);
         // }
@@ -161,6 +161,9 @@ export default class NewClass extends cc.Component {
         if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionBG) {
             this.isOptionBG = true;
         }
+        this.optionArray = [
+            ["bathroom", "playroom"], ["kitchen", "bedroom"], ["bathroom", "livingroom"], ["dining room", "playroom"], ["kitchen", "bedroom"], ["bathroom", "playroom"], ["livingroom", "kitchen"],
+        ]
         this.GenerateOptions();
         this.maxLevel = startGame.Instance.totalLevels;
         if (globalVariables.Instance.currentLevel == this.maxLevel) {
@@ -357,6 +360,7 @@ export default class NewClass extends cc.Component {
         for (let i = 0; i < this.TotalOptions; i++) {
             let option = cc.instantiate(this.node.getChildByName("template"));
             option.name = (i + 1).toString();
+            option.getChildByName("text").getComponent(cc.Label).string = this.optionArray[globalVariables.Instance.currentLevel - 1][i];
             option.setParent(this.node.getChildByName("Option"));
             option.setPosition(cc.v2(0, 0));
             option.opacity = 0;
