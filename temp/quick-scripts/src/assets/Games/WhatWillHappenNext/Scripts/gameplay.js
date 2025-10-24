@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -56,6 +56,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.supercub_Pos2 = null;
         _this.supercub_Neg1 = null;
         _this.supercub_Neg2 = null;
+        _this.optionArray = [];
         _this.defaultMat = null;
         _this.greyMat = null;
         _this.podar_font = null;
@@ -121,6 +122,9 @@ var NewClass = /** @class */ (function (_super) {
         if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionBG) {
             this.isOptionBG = true;
         }
+        this.optionArray = [
+            ["neem leaves", "lemon"], ["coffee beans", "tamarind"], ["apple", "pickle"], ["watermelon", "bittergourd"], ["lemon", "kale"], ["tamarind", "banana"], ["coffee beans", "strawberry"], ["neem leaves", "pickle"], ["strawberry", "tamarind"]
+        ];
         this.GenerateOptions();
         this.maxLevel = StartGame_1.default.Instance.totalLevels;
         if (globalVariables_1.default.Instance.currentLevel == this.maxLevel) {
@@ -310,6 +314,7 @@ var NewClass = /** @class */ (function (_super) {
         for (var i = 0; i < this.TotalOptions; i++) {
             var option = cc.instantiate(this.node.getChildByName("template"));
             option.name = (i + 1).toString();
+            option.getChildByName("text").getComponent(cc.Label).string = this.optionArray[globalVariables_1.default.Instance.currentLevel - 1][i];
             option.setParent(this.node.getChildByName("Option"));
             option.setPosition(cc.v2(0, 0));
             option.opacity = 0;

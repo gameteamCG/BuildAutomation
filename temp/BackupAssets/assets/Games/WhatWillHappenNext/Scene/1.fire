@@ -649,7 +649,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        44.623,
         0,
         0,
         0,
@@ -721,15 +721,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 31,
-      "g": 0,
-      "b": 255,
+      "r": 124,
+      "g": 60,
+      "b": 0,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 300,
-      "height": 200
+      "height": 100
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -741,7 +741,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        -142.368,
         0,
         0,
         0,
@@ -786,7 +786,7 @@
     "_lineHeight": 80,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "cff63584-90db-4244-9aa3-ba7bb8db0a73"
+      "__uuid__": "7fec252d-5b39-4af3-9ee0-ce99589aeb0f"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -1084,14 +1084,14 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        15.749,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        0.9,
+        0.9,
         1
       ]
     },
@@ -1511,7 +1511,7 @@
     "_lineHeight": 130,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "3973d65f-94f6-47bd-adab-8f9135d35f89"
+      "__uuid__": "7fec252d-5b39-4af3-9ee0-ce99589aeb0f"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,

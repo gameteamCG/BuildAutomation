@@ -1,5 +1,6 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -77,6 +78,7 @@ export default class NewClass extends cc.Component {
     private supercub_Neg1: cc.AudioClip = null;
     @property(cc.AudioClip)
     private supercub_Neg2: cc.AudioClip = null;
+    private optionArray: string[][] = [];
 
     @property(cc.Material)
     defaultMat: cc.Material = null;
@@ -160,6 +162,9 @@ export default class NewClass extends cc.Component {
         if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionBG) {
             this.isOptionBG = true;
         }
+        this.optionArray = [
+            ["neem leaves", "lemon"], ["coffee beans", "tamarind"], ["apple", "pickle"], ["watermelon", "bittergourd"], ["lemon", "kale"], ["tamarind", "banana"], ["coffee beans", "strawberry"], ["neem leaves", "pickle"], ["strawberry", "tamarind"]
+        ]
         this.GenerateOptions();
         this.maxLevel = startGame.Instance.totalLevels;
         if (globalVariables.Instance.currentLevel == this.maxLevel) {
@@ -356,6 +361,7 @@ export default class NewClass extends cc.Component {
         for (let i = 0; i < this.TotalOptions; i++) {
             let option = cc.instantiate(this.node.getChildByName("template"));
             option.name = (i + 1).toString();
+            option.getChildByName("text").getComponent(cc.Label).string = this.optionArray[globalVariables.Instance.currentLevel - 1][i];
             option.setParent(this.node.getChildByName("Option"));
             option.setPosition(cc.v2(0, 0));
             option.opacity = 0;

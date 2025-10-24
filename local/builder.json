@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\EYFS\\Can_you_taste_it_fs1_new_r40",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
