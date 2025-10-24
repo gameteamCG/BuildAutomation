@@ -1404,7 +1404,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        388.449,
+        376.56,
         0,
         0,
         0,
@@ -1465,8 +1465,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        -90,
+        -3.5180000000000007,
+        -89.741,
         0,
         0,
         0,
@@ -1507,8 +1507,8 @@
     "_dstBlendFactor": 771,
     "_string": "sf",
     "_N$string": "sf",
-    "_fontSize": 80,
-    "_lineHeight": 130,
+    "_fontSize": 90,
+    "_lineHeight": 95,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "35cf98c3-0660-46de-a841-db9e43e55884"
@@ -1565,15 +1565,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        247.76,
-        -146.64,
+        257.019,
+        -149.64,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        0.8,
+        0.8,
         0
       ]
     },
