@@ -123,7 +123,7 @@ var NewClass = /** @class */ (function (_super) {
             this.isOptionBG = true;
         }
         this.optionArray = [
-            ["bathroom", "playroom"], ["kitchen", "bedroom"], ["bathroom", "livingroom"], ["dining room", "playroom"], ["kitchen", "bedroom"], ["bathroom", "playroom"], ["livingroom", "kitchen"],
+            ["bathroom", "playroom"], ["kitchen", "bedroom"], ["bathroom", "living room"], ["dining room", "playroom"], ["kitchen", "bedroom"], ["bathroom", "playroom"], ["living room", "kitchen"],
         ];
         this.GenerateOptions();
         this.maxLevel = StartGame_1.default.Instance.totalLevels;

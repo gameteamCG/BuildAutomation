@@ -162,7 +162,7 @@ export default class NewClass extends cc.Component {
             this.isOptionBG = true;
         }
         this.optionArray = [
-            ["bathroom", "playroom"], ["kitchen", "bedroom"], ["bathroom", "livingroom"], ["dining room", "playroom"], ["kitchen", "bedroom"], ["bathroom", "playroom"], ["livingroom", "kitchen"],
+            ["bathroom", "playroom"], ["kitchen", "bedroom"], ["bathroom", "living room"], ["dining room", "playroom"], ["kitchen", "bedroom"], ["bathroom", "playroom"], ["living room", "kitchen"],
         ]
         this.GenerateOptions();
         this.maxLevel = startGame.Instance.totalLevels;
