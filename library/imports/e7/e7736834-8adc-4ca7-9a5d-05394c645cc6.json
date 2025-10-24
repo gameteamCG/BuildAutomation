@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fridgeF",
+    "texture": "e900d8d4-3d10-40de-97ca-2b36d84160ca",
+    "atlas": "",
+    "rect": [
+      126,
+      63,
+      167,
+      343
+    ],
+    "offset": [
+      -41,
+      16
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

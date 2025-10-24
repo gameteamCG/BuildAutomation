@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BatB",
+    "texture": "1153cc6c-4525-4c92-99e1-bee7586d31bb",
+    "atlas": "",
+    "rect": [
+      183,
+      81,
+      60,
+      339
+    ],
+    "offset": [
+      -37.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
