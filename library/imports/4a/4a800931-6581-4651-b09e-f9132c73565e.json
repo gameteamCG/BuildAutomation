@@ -17,6 +17,7 @@
     "questionData": [
       {
         "questionText": "I take you to school and play with you in the evening. Who am I? ",
+        "answerText": "Father",
         "questionAudioName": "IDENTIFY_THE_FATHER.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "optionbox2.png",
@@ -25,7 +26,7 @@
         "numberOfOptions": 2,
         "options": [
           "dad.png",
-          "girl.png"
+          "kid.png"
         ],
         "correctAudios": [
           "father.mp3"
@@ -34,6 +35,7 @@
       },
       {
         "questionText": "I help you get ready and cook tasty food. Who am I?",
+        "answerText": "Mother",
         "questionAudioName": "IDENTIFY_THE_MOTHER.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "optionbox2.png",
@@ -41,7 +43,7 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "boy2.png",
+          "kid.png",
           "mom.png"
         ],
         "correctAudios": [
@@ -51,6 +53,7 @@
       },
       {
         "questionText": "I play cricket and help you with homework. Who am I?",
+        "answerText": "Brother",
         "questionAudioName": "IDENTIFY_THE_BROTHER.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "optionbox2.png",
@@ -68,6 +71,7 @@
       },
       {
         "questionText": "I braid my hair and share my toys with you. Who am I?",
+        "answerText": "Sister",
         "questionAudioName": "IDENTIFY_THE_SISTER.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "optionbox2.png",
@@ -85,6 +89,7 @@
       },
       {
         "questionText": "I tell you stories and love you a lot. Who am I?",
+        "answerText": "Grandmother",
         "questionAudioName": "IDENTIFY_THE_GRANDMOTHER.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "optionbox2.png",
@@ -102,6 +107,7 @@
       },
       {
         "questionText": "I take you for walks and bring you sweets. Who am I?",
+        "answerText": "Grandfather",
         "questionAudioName": "IDENTIFY_THE_GRANDFATHER.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "optionbox2.png",
@@ -109,7 +115,7 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "dad.png",
+          "kid.png",
           "grandpa.png"
         ],
         "correctAudios": [
