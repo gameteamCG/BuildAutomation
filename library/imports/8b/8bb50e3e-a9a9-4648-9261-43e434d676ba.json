@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hor",
+    "texture": "46b6afb3-da6a-48ad-8657-e9f0642e5ea1",
+    "atlas": "",
+    "rect": [
+      6,
+      2,
+      189,
+      197
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

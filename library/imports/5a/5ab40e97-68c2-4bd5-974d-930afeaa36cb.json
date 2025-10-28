@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rabb",
+    "texture": "3591ee19-5919-47c2-8d0c-f01b35d9b80a",
+    "atlas": "",
+    "rect": [
+      37,
+      4,
+      127,
+      193
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

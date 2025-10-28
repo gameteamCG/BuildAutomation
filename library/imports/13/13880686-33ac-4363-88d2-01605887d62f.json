@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "aweg",
+    "texture": "dfa00ef8-5d4f-4e78-9619-f6574472d1f8",
+    "atlas": "",
+    "rect": [
+      22,
+      45,
+      209,
+      169
+    ],
+    "offset": [
+      1,
+      -4
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
