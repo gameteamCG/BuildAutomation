@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "birsd",
+    "texture": "1d037324-6683-40a1-b06b-eab91c0c4612",
+    "atlas": "",
+    "rect": [
+      8,
+      7,
+      186,
+      187
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      201,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
