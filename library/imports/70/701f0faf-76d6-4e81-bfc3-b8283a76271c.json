@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0009_Vector_tongueSmart_tongueObject",
+    "texture": "4389482e-2691-4660-936c-b28736587f6a",
+    "atlas": "",
+    "rect": [
+      8,
+      58,
+      284,
+      222
+    ],
+    "offset": [
+      0,
+      -19
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

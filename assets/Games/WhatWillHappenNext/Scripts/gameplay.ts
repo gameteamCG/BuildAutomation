@@ -218,7 +218,7 @@ export default class NewClass extends cc.Component {
             });
             if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName != "") {
                 this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName, (spriteFrame) => {
-                    this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    //this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
                         this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
@@ -300,9 +300,8 @@ export default class NewClass extends cc.Component {
         // this.node.getChildByName("questionPanel").opacity = 255;
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
-
         this.OptionsLayoutVertical();
-        this.reverseOptionsLayout();
+        // this.reverseOptionsLayout();
         let posX = -237;
         if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
             posX = -300;
@@ -339,7 +338,7 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(0.5, { scale: 0.8 }, { easing: "sineInOut" }).start();
                 if (i == this.node.getChildByName("Option").children.length) {
                     this.scheduleOnce(() => {
                         this.PlayQuestionAudio();
@@ -826,59 +825,9 @@ export default class NewClass extends cc.Component {
     }
 
     OptionsLayoutVertical() {
-        let optionsLayout = this.optionsNode;
-        let optionNodes = optionsLayout.children;
-
-        const paddingBetweenOptions = 10;
-
-        let totalHeight = 0;
-        let maxWidth = 0;
-
-        // Calculate the total height and the maximum width of the options
-        for (let i = 0; i < optionNodes.length; i++) {
-            let option = optionNodes[i];
-            let optionWidth = option.width;
-            let optionHeight = option.height;
-
-            totalHeight += optionHeight + paddingBetweenOptions;
-            if (optionWidth > maxWidth) {
-                maxWidth = optionWidth;
-            }
-        }
-
-        let availableHeight = optionsLayout.height;
-        let totalHeightWithPadding = totalHeight + (optionNodes.length - 1) * paddingBetweenOptions;
-        let scaleFactor = Math.min(1, availableHeight / totalHeightWithPadding);
-
-        let accumulatedHeight = 0;
-
-        // Position each option node vertically
-        for (let i = 0; i < optionNodes.length; i++) {
-            let option = optionNodes[i];
-
-            // Calculate the scale factor for the option
-            let optionScaleFactor = scaleFactor;
-
-            // Scale the option
-            option.width *= optionScaleFactor;
-            option.height *= optionScaleFactor;
-
-            // Calculate position based on anchor and scaled size
-            let posY = accumulatedHeight + (option.height * option.anchorY);
-            option.y = posY - (optionsLayout.height * optionsLayout.anchorY);
-
-            accumulatedHeight += option.height + paddingBetweenOptions;
-
-            // Scale and position children nodes proportionally
-            for (let subChild of option.children) {
-                subChild.x *= optionScaleFactor;
-                subChild.y *= optionScaleFactor;
-                subChild.width *= optionScaleFactor;
-                subChild.height *= optionScaleFactor;
-            }
-        }
-
-        optionsLayout.width = maxWidth * scaleFactor;
+        this.optionsNode.children[0].setPosition(-75, 150);
+        this.optionsNode.children[1].setPosition(210, 150);
+        this.optionsNode.children[2].setPosition(80, -110);
     }
 
     reverseOptionsLayout() {

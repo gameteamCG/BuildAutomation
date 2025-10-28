@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_0004_Vector_handSmart_Object",
+    "texture": "2858d60e-a2ce-4e9d-8e96-f7ed4552f374",
+    "atlas": "",
+    "rect": [
+      36,
+      15,
+      227,
+      270
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
