@@ -887,7 +887,13 @@ export default class NewClass extends cc.Component {
 
         let word = "";
         for (let i = 0; i < this.currWordSeq.length; i++) {
-            word += this.wordsNode.getChildByName(this.currWordSeq[i]).children[0].getComponent(cc.Label).string;
+            if (!startGame.Instance.questions[startGame.Instance.currentLevel - 1].isOptionText) {
+                word += this.wordsNode.getChildByName(this.currWordSeq[i]).name;
+            }
+            else {
+                word += this.wordsNode.getChildByName(this.currWordSeq[i]).children[0].getComponent(cc.Label).string;
+            }
+            console.log(word, "word @@@@@@@@@@");
         }
         // console.log("word--" + word);
 
