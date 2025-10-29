@@ -524,7 +524,7 @@ export default class NewClass extends cc.Component {
                 //console.log("answerArray : ", this.answerArray[0])
                 let hand = this.node.getChildByName("hand");
                 hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-                hand.setPosition(0, -70);
+                hand.setPosition(0, -200);
                 hand.setParentWithSamePos(this.node);
                 hand.getComponent(cc.Animation).play();
             }
