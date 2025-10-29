@@ -100,7 +100,7 @@
         "__id__": 26
       },
       {
-        "__id__": 254
+        "__id__": 258
       }
     ],
     "_prefab": null,
@@ -1118,15 +1118,18 @@
     "_children": [
       {
         "__id__": 250
+      },
+      {
+        "__id__": 252
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 252
+        "__id__": 256
       },
       {
-        "__id__": 253
+        "__id__": 257
       }
     ],
     "_prefab": null,
@@ -9117,7 +9120,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        -75.621,
         0,
         0,
         0,
@@ -9287,6 +9290,20 @@
     "eraserAud": {
       "__uuid__": "893604f5-7813-4f3d-9d18-d669ac825a1f"
     },
+    "SFX": [
+      {
+        "__uuid__": "8bb00d4d-1e76-4859-b4a6-77a7102dd39c"
+      },
+      {
+        "__uuid__": "7ec4b2cd-bac1-4e3e-9fd9-1b81a3368ade"
+      },
+      {
+        "__uuid__": "a42734f4-b8bf-4ade-839b-ffd1633b71e9"
+      },
+      {
+        "__uuid__": "a069a180-08ce-4637-a115-7d1eeb2da565"
+      }
+    ],
     "_id": "a9o+Q4/jlCn4q4bcVsdUJG"
   },
   {
@@ -10185,11 +10202,11 @@
     "_dstBlendFactor": 771,
     "_string": "question",
     "_N$string": "question",
-    "_fontSize": 40,
+    "_fontSize": 38,
     "_lineHeight": 60,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "02a5c907-1ef1-41d9-8f7e-3403d66bdb81"
+      "__uuid__": "892f18d8-68b6-4a03-948b-dbf755baad11"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -10202,6 +10219,187 @@
     "_N$overflow": 2,
     "_N$cacheMode": 0,
     "_id": "8avwUpNwhDdZLZ+pbj6zbX"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "SoundButton (1)",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 28
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 253
+      },
+      {
+        "__id__": 254
+      }
+    ],
+    "_prefab": null,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 134,
+      "height": 133
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        251.614,
+        -139.763,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0.4,
+        0.4,
+        0
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": "09Y9DJMm9J2asmtNyyS1vF"
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 252
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "825c369a-1910-470f-913d-845f8363f5da"
+    },
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": "4fs30zs6BClK6zv/taOska"
+  },
+  {
+    "__type__": "cc.Button",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 252
+    },
+    "_enabled": true,
+    "_normalMaterial": null,
+    "_grayMaterial": null,
+    "duration": 0.1,
+    "zoomScale": 1.2,
+    "clickEvents": [
+      {
+        "__id__": 255
+      }
+    ],
+    "_N$interactable": true,
+    "_N$enableAutoGrayEffect": false,
+    "_N$transition": 3,
+    "transition": 3,
+    "_N$normalColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "_N$hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$disabledColor": {
+      "__type__": "cc.Color",
+      "r": 124,
+      "g": 124,
+      "b": 124,
+      "a": 255
+    },
+    "_N$normalSprite": null,
+    "_N$pressedSprite": null,
+    "pressedSprite": null,
+    "_N$hoverSprite": null,
+    "hoverSprite": null,
+    "_N$disabledSprite": null,
+    "_N$target": {
+      "__id__": 252
+    },
+    "_id": "f0fADlsbRJbZYYyfCc1CUF"
+  },
+  {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 29
+    },
+    "component": "",
+    "_componentId": "30f37RhHfRDy5c6luFrmfSU",
+    "handler": "soundButton",
+    "customEventData": ""
   },
   {
     "__type__": "cc.Sprite",

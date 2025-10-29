@@ -9,14 +9,14 @@
       "totalLevel": "1",
       "TitleImageName": "mypet.png",
       "introBgName": "bgtitlemain.png",
-      "bgmMusicName": "BGM_ROTE_count.mp3",
+      "bgmMusicName": "bliss.mp3",
       "initialVOName": "",
       "mainBgName": "bgforcolor.png",
-      "JockeyName": "Singham"
+      "JockeyName": "Puzzle"
     },
     "questionData": [
       {
-        "questionText": "draw a pet you would like to have",
+        "questionText": "Draw the picture of a pet you have or would like to have",
         "questionImageName": "blankframe.png",
         "questionAudioName": "draw_aa_pet_you_would_like_to_have.mp3",
         "shouldPlayQuestionAudio": true,

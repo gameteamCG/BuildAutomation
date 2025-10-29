@@ -167,7 +167,6 @@ var GamePlay = /** @class */ (function (_super) {
         this.Ypos = this.questionNode.getPosition().y;
         this.questionNode.setPosition(-60, 1800);
         this.scheduleOnce(function () {
-            _this.initialVO = globalVariables_1.default.Instance.initialVO;
             if (_this.initialVO) {
                 cc.audioEngine.playEffect(_this.initialVO, false);
                 _this.scheduleOnce(function () {
@@ -284,15 +283,6 @@ var GamePlay = /** @class */ (function (_super) {
         });
     };
     GamePlay.prototype.onSlideDraged = function (ref) {
-        // let progress = ref.progress*10;
-        // // progress = parseInt(progress.toString());
-        // // 10% of 500 100-200 150
-        // let min = Constant.ToolsTagSize[this.currentPensilSelection].MIN;
-        // let max = Constant.ToolsTagSize[this.currentPensilSelection].MAX;
-        // let val = Constant.getCenterVal(min, max, 0, 10, progress);
-        // val = parseInt(val.toString());
-        // ref.node.getParent().getChildByName("val").getComponent(cc.Label).string = val;
-        // Constant.CurrentToolsTagSize[this.currentPensilSelection] = val;
     };
     var GamePlay_1;
     GamePlay.instance = null;

@@ -97,6 +97,7 @@ var DrawingTable = /** @class */ (function (_super) {
     DrawingTable.prototype._onTouchBegin = function (event) {
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
+        console.log("---------------------------");
         for (var i = 0; i < this.DrawingSplitDataArray.length; i++) {
             var element = this.DrawingSplitDataArray[i].DrawingSplitData;
             var collider = this.getPolygonData(element);
@@ -109,6 +110,8 @@ var DrawingTable = /** @class */ (function (_super) {
                     currentPatternFrameIndex: 0,
                     currentTileIndex: 0
                 };
+                var id = cc.audioEngine.playEffect(PersistentScroll_1.default.Instance.SFX[PersistentScroll_1.default.Instance.toolNumber], true);
+                cc.audioEngine.setVolume(id, 0.6);
                 // this.draggedstensil = [];
                 // this.pointposition = []
                 this.currentData.currentChildIndex = i;
@@ -131,6 +134,7 @@ var DrawingTable = /** @class */ (function (_super) {
         point = this.node.convertToNodeSpaceAR(point);
         PersistentScroll_1.default.Instance.hand.opacity = 255;
         PersistentScroll_1.default.Instance.tickBtn.getComponent(cc.Button).interactable = true;
+        cc.audioEngine.stopAllEffects();
         this._addCircle(point);
         if (this.persistentScrollScript.currentPensilSelection == Constant_1.Constant.ToolsTag.BRUSH ||
             this.persistentScrollScript.currentPensilSelection == Constant_1.Constant.ToolsTag.PATTERN ||

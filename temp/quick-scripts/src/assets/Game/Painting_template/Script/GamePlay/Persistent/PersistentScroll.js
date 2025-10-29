@@ -32,6 +32,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var CommonFun_1 = require("../../Common/CommonFun");
 var Constant_1 = require("../../Common/Constant");
 var Global_1 = require("../../Common/Global");
+var GamePlay_1 = require("../GamePlay");
 var TileSelection_1 = require("../TileSelection");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var ColorFrameList = /** @class */ (function () {
@@ -154,6 +155,8 @@ var PersistentScroll = /** @class */ (function (_super) {
         _this.isScrolled = false;
         _this.prevTouch = new cc.Vec2;
         _this.touchTilePos = new cc.Vec2(0, 0);
+        _this.SFX = [];
+        _this.toolNumber = 1;
         _this.currentTileIndex = -1;
         _this.prevPensilSelection = 0;
         _this.currentPensilSelection = 0;
@@ -201,6 +204,11 @@ var PersistentScroll = /** @class */ (function (_super) {
     PersistentScroll.prototype.onQuadSymetryCalled = function () {
         this.isDualSymetryClicked = false;
         this.isQuadSymetryClicked = true;
+    };
+    PersistentScroll.prototype.soundButton = function () {
+        if (GamePlay_1.default.Instance.question_audios) {
+            cc.audioEngine.playEffect(GamePlay_1.default.Instance.question_audios[0], false);
+        }
     };
     PersistentScroll.prototype._onTouchBegin = function (event) {
         var point = event.touch.getLocation();
@@ -451,6 +459,18 @@ var PersistentScroll = /** @class */ (function (_super) {
         else {
             cc.audioEngine.playEffect(this.toolsAud, false);
         }
+        if (this.currentPensilSelection == Constant_1.Constant.ToolsTag.ERASER) {
+            this.toolNumber = 3;
+        }
+        else if (this.currentPensilSelection == Constant_1.Constant.ToolsTag.PENCIL) {
+            this.toolNumber = 0;
+        }
+        else if (this.currentPensilSelection == Constant_1.Constant.ToolsTag.BRUSH) {
+            this.toolNumber = 1;
+        }
+        else if (this.currentPensilSelection == Constant_1.Constant.ToolsTag.PAINT) {
+            this.toolNumber = 2;
+        }
         if (this.currentPensilSelection == Constant_1.Constant.ToolsTag.BRUSH ||
             this.currentPensilSelection == Constant_1.Constant.ToolsTag.PENCIL ||
             this.currentPensilSelection == Constant_1.Constant.ToolsTag.BRUSH2 ||
@@ -567,6 +587,9 @@ var PersistentScroll = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], PersistentScroll.prototype, "eraserAud", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], PersistentScroll.prototype, "SFX", void 0);
     PersistentScroll = PersistentScroll_1 = __decorate([
         ccclass
     ], PersistentScroll);

@@ -7,9 +7,7 @@
 
 import CommonFun from "../Common/CommonFun";
 import { Constant } from "../Common/Constant";
-import Global from "../Common/Global";
 import globalVariables from "../globalVariables";
-import PersistentScroll from "./Persistent/PersistentScroll";
 
 const { ccclass, property } = cc._decorator;
 
@@ -62,7 +60,6 @@ export default class GamePlay extends cc.Component {
 
     private currentLevel: number = 0;
     private totalLevels: number = 0;
-
     private Ypos: number = 0;
     private static instance: GamePlay = null;
 
@@ -155,7 +152,6 @@ export default class GamePlay extends cc.Component {
         this.Ypos = this.questionNode.getPosition().y;
         this.questionNode.setPosition(-60, 1800);
         this.scheduleOnce(() => {
-            this.initialVO = globalVariables.Instance.initialVO;
             if (this.initialVO) {
                 cc.audioEngine.playEffect(this.initialVO, false);
                 this.scheduleOnce(() => {
@@ -286,17 +282,5 @@ export default class GamePlay extends cc.Component {
 
 
     onSlideDraged(ref) {
-
-        // let progress = ref.progress*10;
-        // // progress = parseInt(progress.toString());
-        // // 10% of 500 100-200 150
-        // let min = Constant.ToolsTagSize[this.currentPensilSelection].MIN;
-        // let max = Constant.ToolsTagSize[this.currentPensilSelection].MAX;
-        // let val = Constant.getCenterVal(min, max, 0, 10, progress);
-        // val = parseInt(val.toString());
-
-        // ref.node.getParent().getChildByName("val").getComponent(cc.Label).string = val;
-
-        // Constant.CurrentToolsTagSize[this.currentPensilSelection] = val;
     }
 }

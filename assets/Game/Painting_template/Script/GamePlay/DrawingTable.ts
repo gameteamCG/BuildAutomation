@@ -8,7 +8,7 @@
 import CommonFun from "../Common/CommonFun";
 import { Constant } from "../Common/Constant";
 import Global from "../Common/Global";
-import Drawingmask from "./Drawingmask";
+import GamePlay from "./GamePlay";
 import PersistentScroll from "./Persistent/PersistentScroll";
 
 const { ccclass, property } = cc._decorator;
@@ -86,7 +86,7 @@ export default class DrawingTable extends cc.Component {
     _onTouchBegin(event) {
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
-
+        console.log("---------------------------")
         for (let i = 0; i < this.DrawingSplitDataArray.length; i++) {
             const element = this.DrawingSplitDataArray[i].DrawingSplitData;
             let collider = this.getPolygonData(element);
@@ -101,7 +101,8 @@ export default class DrawingTable extends cc.Component {
                     currentPatternFrameIndex: 0,
                     currentTileIndex: 0
                 };
-
+                let id = cc.audioEngine.playEffect(PersistentScroll.Instance.SFX[PersistentScroll.Instance.toolNumber], true);
+                cc.audioEngine.setVolume(id, 0.6);
                 // this.draggedstensil = [];
                 // this.pointposition = []
 
@@ -128,7 +129,7 @@ export default class DrawingTable extends cc.Component {
         point = this.node.convertToNodeSpaceAR(point);
         PersistentScroll.Instance.hand.opacity = 255;
         PersistentScroll.Instance.tickBtn.getComponent(cc.Button).interactable = true;
-
+        cc.audioEngine.stopAllEffects();
         this._addCircle(point);
         if (this.persistentScrollScript.currentPensilSelection == Constant.ToolsTag.BRUSH ||
             this.persistentScrollScript.currentPensilSelection == Constant.ToolsTag.PATTERN ||

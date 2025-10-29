@@ -5,10 +5,13 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
+import startGame from "../../../../../Framework/Scripts/StartGame";
 import CommonFun from "../../Common/CommonFun";
 import configData from "../../Common/ConfigController";
 import { Constant } from "../../Common/Constant";
 import Global from "../../Common/Global";
+import globalVariables from "../../globalVariables";
+import GamePlay from "../GamePlay";
 import TileSelection from "../TileSelection";
 
 const { ccclass, property } = cc._decorator;
@@ -120,7 +123,9 @@ export default class PersistentScroll extends cc.Component {
     isScrolled = false;
     prevTouch = new cc.Vec2;
     touchTilePos = new cc.Vec2(0, 0);
-
+    @property(cc.AudioClip)
+    SFX: cc.AudioClip[] = [];
+    toolNumber: number = 1;
     currentTileIndex = -1;
     prevPensilSelection = 0;
     currentPensilSelection = 0;
@@ -178,7 +183,11 @@ export default class PersistentScroll extends cc.Component {
         this.isQuadSymetryClicked = true;
     }
 
-
+    soundButton() {
+        if (GamePlay.Instance.question_audios) {
+            cc.audioEngine.playEffect(GamePlay.Instance.question_audios[0], false);
+        }
+    }
     _onTouchBegin(event) {
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
@@ -484,7 +493,18 @@ export default class PersistentScroll extends cc.Component {
         else {
             cc.audioEngine.playEffect(this.toolsAud, false);
         }
-
+        if (this.currentPensilSelection == Constant.ToolsTag.ERASER) {
+            this.toolNumber = 3;
+        }
+        else if (this.currentPensilSelection == Constant.ToolsTag.PENCIL) {
+            this.toolNumber = 0;
+        }
+        else if (this.currentPensilSelection == Constant.ToolsTag.BRUSH) {
+            this.toolNumber = 1;
+        }
+        else if (this.currentPensilSelection == Constant.ToolsTag.PAINT) {
+            this.toolNumber = 2;
+        }
         if (this.currentPensilSelection == Constant.ToolsTag.BRUSH ||
             this.currentPensilSelection == Constant.ToolsTag.PENCIL ||
             this.currentPensilSelection == Constant.ToolsTag.BRUSH2 ||
