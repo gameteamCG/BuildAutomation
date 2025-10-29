@@ -797,9 +797,16 @@ var NewClass = /** @class */ (function (_super) {
         this.currWordSeq = this.currWordSeq.replace(_node2.name, _node1.name);
         this.currWordSeq = this.currWordSeq.replace("x", _node2.name);
         cc.audioEngine.playEffect(this.swipeAction, false);
+        console.log("this.currWordSeq : ", this.currWordSeq);
         var word = "";
         for (var i = 0; i < this.currWordSeq.length; i++) {
-            word += this.wordsNode.getChildByName(this.currWordSeq[i]).children[0].getComponent(cc.Label).string;
+            if (!StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].isOptionText) {
+                word += this.wordsNode.getChildByName(this.currWordSeq[i]).name;
+            }
+            else {
+                word += this.wordsNode.getChildByName(this.currWordSeq[i]).children[0].getComponent(cc.Label).string;
+            }
+            console.log(word, "word @@@@@@@@@@");
         }
         // console.log("word--" + word);
         cc.tween(_node1)

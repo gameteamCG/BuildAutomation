@@ -891,9 +891,18 @@ export default class NewClass extends cc.Component {
         this.currWordSeq = this.currWordSeq.replace("x", _node2.name);
         cc.audioEngine.playEffect(this.swipeAction, false);
 
+        console.log("this.currWordSeq : ", this.currWordSeq)
+
         let word = "";
         for (let i = 0; i < this.currWordSeq.length; i++) {
-            word += this.wordsNode.getChildByName(this.currWordSeq[i]).children[0].getComponent(cc.Label).string;
+            if (!startGame.Instance.questions[startGame.Instance.currentLevel - 1].isOptionText) {
+                word += this.wordsNode.getChildByName(this.currWordSeq[i]).name;
+            }
+            else {
+                word += this.wordsNode.getChildByName(this.currWordSeq[i]).children[0].getComponent(cc.Label).string;
+            }
+
+            console.log(word, "word @@@@@@@@@@");
         }
         // console.log("word--" + word);
 
