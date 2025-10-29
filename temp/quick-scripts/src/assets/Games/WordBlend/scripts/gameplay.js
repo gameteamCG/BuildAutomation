@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
@@ -793,7 +793,13 @@ var NewClass = /** @class */ (function (_super) {
         cc.audioEngine.playEffect(this.swipeAction, false);
         var word = "";
         for (var i = 0; i < this.currWordSeq.length; i++) {
-            word += this.wordsNode.getChildByName(this.currWordSeq[i]).children[0].getComponent(cc.Label).string;
+            if (!StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].isOptionText) {
+                word += this.wordsNode.getChildByName(this.currWordSeq[i]).name;
+            }
+            else {
+                word += this.wordsNode.getChildByName(this.currWordSeq[i]).children[0].getComponent(cc.Label).string;
+            }
+            console.log(word, "word @@@@@@@@@@");
         }
         // console.log("word--" + word);
         cc.tween(_node1)
