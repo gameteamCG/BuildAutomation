@@ -793,9 +793,14 @@ var NewClass = /** @class */ (function (_super) {
         cc.audioEngine.playEffect(this.swipeAction, false);
         var word = "";
         for (var i = 0; i < this.currWordSeq.length; i++) {
-            word += this.wordsNode.getChildByName(this.currWordSeq[i]).children[0].getComponent(cc.Label).string;
+            if (!StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].isOptionText) {
+                word += this.wordsNode.getChildByName(this.currWordSeq[i]).name;
+            }
+            else {
+                word += this.wordsNode.getChildByName(this.currWordSeq[i]).children[0].getComponent(cc.Label).string;
+            }
+            console.log(word, "word @@@@@@@@@@");
         }
-        // console.log("word--" + word);
         cc.tween(_node1)
             .to(0.1, { x: x2 })
             .start();
