@@ -1,5 +1,4 @@
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -656,8 +655,8 @@ export default class NewClass extends cc.Component {
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
-            this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-            this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+            this.node.getChildByName("confetti").setPosition(_node.x, _node.y - 650);
+            this.node.getChildByName("confetti").getComponent(sp.Skeleton).setAnimation(0, "animation", false);
             cc.audioEngine.playEffect(this.positiveSound[0], false);
             this.scheduleOnce(() => {
                 ProgressBar.Instance.createStarTrails(6, this.node);
@@ -679,8 +678,8 @@ export default class NewClass extends cc.Component {
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
-                    this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-                    this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                    this.node.getChildByName("confetti").setPosition(_node.x, _node.y - 650);
+                    this.node.getChildByName("confetti").getComponent(sp.Skeleton).setAnimation(0, "animation", false);
                     cc.audioEngine.playEffect(this.positiveSound[0], false);
                     this.scheduleOnce(() => {
                         this.canTouch = true;
@@ -718,8 +717,8 @@ export default class NewClass extends cc.Component {
                 this.scheduleOnce(() => {
                     this.node.getChildByName("QuestionBox1").zIndex = 1;
                     this.node.getChildByName("QuestionBox").zIndex = 1;
-                    this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-                    this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                    this.node.getChildByName("confetti").setPosition(_node.x, _node.y - 650);
+                    this.node.getChildByName("confetti").getComponent(sp.Skeleton).setAnimation(0, "animation", false);
                     cc.audioEngine.playEffect(this.positiveSound[0], false);
                     this.scheduleOnce(() => {
                         let imgScale: number = _node.getChildByName("img").scale / 2;
@@ -763,8 +762,8 @@ export default class NewClass extends cc.Component {
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
-                    this.node.getChildByName("confetti").setPosition(_node.x, _node.y + 100);
-                    this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                    this.node.getChildByName("confetti").setPosition(_node.x, _node.y - 650);
+                    this.node.getChildByName("confetti").getComponent(sp.Skeleton).setAnimation(0, "animation", false);
                     cc.audioEngine.playEffect(this.positiveSound[0], false);
                     this.scheduleOnce(() => {
                         //_node.destroy();

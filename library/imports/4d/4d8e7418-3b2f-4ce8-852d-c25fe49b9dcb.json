@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "confity_v10001.atlas",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "\nconfity_v10001.png\nsize: 2048,2048\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nconfity_v10001\n  rotate: true\n  xy: 609, 1093\n  size: 232, 249\n  orig: 232, 249\n  offset: 0, 0\n  index: -1\nconfity_v10002\n  rotate: true\n  xy: 401, 1133\n  size: 192, 206\n  orig: 192, 206\n  offset: 0, 0\n  index: -1\nconfity_v10003\n  rotate: true\n  xy: 222, 1159\n  size: 166, 177\n  orig: 166, 177\n  offset: 0, 0\n  index: -1\nconfity_v10004\n  rotate: true\n  xy: 82, 1196\n  size: 129, 138\n  orig: 129, 138\n  offset: 0, 0\n  index: -1\nconfity_v10005\n  rotate: true\n  xy: 2, 1252\n  size: 73, 78\n  orig: 73, 78\n  offset: 0, 0\n  index: -1\nconfity_v10006\n  rotate: true\n  xy: 860, 1085\n  size: 240, 257\n  orig: 240, 257\n  offset: 0, 0\n  index: -1\nsafearea (1)\n  rotate: false\n  xy: 2, 2\n  size: 1921, 1081\n  orig: 1921, 1081\n  offset: 0, 0\n  index: -1\n"
+}

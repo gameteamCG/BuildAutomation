@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "confity_v10001",
+    "texture": "3e039e2c-3474-4e57-9894-1a179a0ce81f",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      1921,
+      1323
+    ],
+    "offset": [
+      -61.5,
+      360.5
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

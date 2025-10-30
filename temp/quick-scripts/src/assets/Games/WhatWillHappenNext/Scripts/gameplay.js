@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -605,8 +605,8 @@ var NewClass = /** @class */ (function (_super) {
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
-            _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-            _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+            _this.node.getChildByName("confetti").setPosition(_node.x, _node.y - 650);
+            _this.node.getChildByName("confetti").getComponent(sp.Skeleton).setAnimation(0, "animation", false);
             cc.audioEngine.playEffect(_this.positiveSound[0], false);
             _this.scheduleOnce(function () {
                 ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
@@ -628,8 +628,8 @@ var NewClass = /** @class */ (function (_super) {
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {
-                    _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-                    _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                    _this.node.getChildByName("confetti").setPosition(_node.x, _node.y - 650);
+                    _this.node.getChildByName("confetti").getComponent(sp.Skeleton).setAnimation(0, "animation", false);
                     cc.audioEngine.playEffect(_this.positiveSound[0], false);
                     _this.scheduleOnce(function () {
                         _this.canTouch = true;
@@ -667,8 +667,8 @@ var NewClass = /** @class */ (function (_super) {
                 this.scheduleOnce(function () {
                     _this.node.getChildByName("QuestionBox1").zIndex = 1;
                     _this.node.getChildByName("QuestionBox").zIndex = 1;
-                    _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
-                    _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                    _this.node.getChildByName("confetti").setPosition(_node.x, _node.y - 650);
+                    _this.node.getChildByName("confetti").getComponent(sp.Skeleton).setAnimation(0, "animation", false);
                     cc.audioEngine.playEffect(_this.positiveSound[0], false);
                     _this.scheduleOnce(function () {
                         var imgScale = _node.getChildByName("img").scale / 2;
@@ -711,8 +711,8 @@ var NewClass = /** @class */ (function (_super) {
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {
-                    _this.node.getChildByName("confetti").setPosition(_node.x, _node.y + 100);
-                    _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                    _this.node.getChildByName("confetti").setPosition(_node.x, _node.y - 650);
+                    _this.node.getChildByName("confetti").getComponent(sp.Skeleton).setAnimation(0, "animation", false);
                     cc.audioEngine.playEffect(_this.positiveSound[0], false);
                     _this.scheduleOnce(function () {
                         //_node.destroy();

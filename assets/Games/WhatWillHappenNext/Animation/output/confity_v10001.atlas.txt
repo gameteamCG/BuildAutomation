@@ -1,0 +1,55 @@
+
+confity_v10001.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+confity_v10001
+  rotate: true
+  xy: 609, 1093
+  size: 232, 249
+  orig: 232, 249
+  offset: 0, 0
+  index: -1
+confity_v10002
+  rotate: true
+  xy: 401, 1133
+  size: 192, 206
+  orig: 192, 206
+  offset: 0, 0
+  index: -1
+confity_v10003
+  rotate: true
+  xy: 222, 1159
+  size: 166, 177
+  orig: 166, 177
+  offset: 0, 0
+  index: -1
+confity_v10004
+  rotate: true
+  xy: 82, 1196
+  size: 129, 138
+  orig: 129, 138
+  offset: 0, 0
+  index: -1
+confity_v10005
+  rotate: true
+  xy: 2, 1252
+  size: 73, 78
+  orig: 73, 78
+  offset: 0, 0
+  index: -1
+confity_v10006
+  rotate: true
+  xy: 860, 1085
+  size: 240, 257
+  orig: 240, 257
+  offset: 0, 0
+  index: -1
+safearea (1)
+  rotate: false
+  xy: 2, 2
+  size: 1921, 1081
+  orig: 1921, 1081
+  offset: 0, 0
+  index: -1
