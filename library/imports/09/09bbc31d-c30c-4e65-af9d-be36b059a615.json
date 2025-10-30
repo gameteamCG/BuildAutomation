@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "healthy and unhealthy habits",
+        "questionText": "Healthy and unhealthy habits.",
         "questionImageName": "exercising.png",
         "questionAudioName": "identifyifthepictur.mp3",
         "shouldPlayQuestionAudio": true,
@@ -30,7 +30,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "healthy and unhealthy habits",
+        "questionText": "Healthy and unhealthy habits.",
         "questionImageName": "notcleaningtoys.png",
         "questionAudioName": "identifyifthepictur.mp3",
         "shouldPlayQuestionAudio": true,
@@ -45,7 +45,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "healthy and unhealthy habits",
+        "questionText": "Healthy and unhealthy habits.",
         "questionImageName": "eatingjunkfood.png",
         "questionAudioName": "identifyifthepictur.mp3",
         "shouldPlayQuestionAudio": true,
@@ -60,7 +60,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "healthy and unhealthy habits",
+        "questionText": "Healthy and unhealthy habits.",
         "questionImageName": "bathing.png",
         "questionAudioName": "identifyifthepictur.mp3",
         "shouldPlayQuestionAudio": true,
@@ -75,7 +75,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "healthy and unhealthy habits",
+        "questionText": "Healthy and unhealthy habits.",
         "questionImageName": "brushingtwice.png",
         "questionAudioName": "identifyifthepictur.mp3",
         "shouldPlayQuestionAudio": true,
@@ -90,7 +90,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "healthy and unhealthy habits",
+        "questionText": "Healthy and unhealthy habits.",
         "questionImageName": "watchingtv.png",
         "questionAudioName": "identifyifthepictur.mp3",
         "shouldPlayQuestionAudio": true,
@@ -105,7 +105,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "healthy and unhealthy habits",
+        "questionText": "Healthy and unhealthy habits.",
         "questionImageName": "sleepinglate.png",
         "questionAudioName": "identifyifthepictur.mp3",
         "shouldPlayQuestionAudio": true,
@@ -120,7 +120,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "healthy and unhealthy habits",
+        "questionText": "Healthy and unhealthy habits.",
         "questionImageName": "washinghands.png",
         "questionAudioName": "identifyifthepictur.mp3",
         "shouldPlayQuestionAudio": true,

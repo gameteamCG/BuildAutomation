@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\EYFS\\Healthy_habits_fs2_new_r96",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
