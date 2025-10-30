@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "Draw the picture of a pet you have or would like to have",
+        "questionText": "Draw the picture of a pet you have or would like to have.",
         "questionImageName": "blankframe.png",
         "questionAudioName": "draw_aa_pet_you_would_like_to_have.mp3",
         "shouldPlayQuestionAudio": true,
