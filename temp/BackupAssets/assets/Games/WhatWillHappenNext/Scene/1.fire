@@ -2117,27 +2117,37 @@
       }
     ],
     "positiveAudio": [
-      null,
-      null,
-      null,
-      null,
-      null
+      {
+        "__uuid__": "e0d9f6fb-f075-4f14-9342-effd057f68ec"
+      },
+      {
+        "__uuid__": "d7f6ddc8-9dff-4cb0-9132-3886f72b5e4b"
+      },
+      {
+        "__uuid__": "6702bcb6-1561-48b8-96bf-e3a05e722fb0"
+      },
+      {
+        "__uuid__": "f186e8c7-cbe1-4699-8da7-92a1c464d09b"
+      },
+      {
+        "__uuid__": "da16b95f-2850-42ba-b4b3-a1c1d42340b9"
+      }
     ],
     "negativeAudio": [
       {
-        "__uuid__": "923c675c-ffc1-49de-bd6a-4bec9d079023"
+        "__uuid__": "e6e865ee-cbcf-49fb-aa96-43c85a2bd095"
       },
       {
-        "__uuid__": "d8c85c1d-74af-40e4-8acb-1e054066fc39"
+        "__uuid__": "b024bef8-99b4-4d58-8a4a-10f203bf3f4b"
       },
       {
-        "__uuid__": "812414ea-755f-4ee9-8125-608dcc86b8e7"
+        "__uuid__": "dfc6c35d-f5e1-4ca9-89df-3739e1d71b67"
       },
       {
-        "__uuid__": "025e2df9-8c92-4095-bdd7-116356da3b41"
+        "__uuid__": "caccd092-a8d6-4f28-8ee1-7e7f1507d467"
       },
       {
-        "__uuid__": "7fb809db-7d2c-4c78-b122-a3b800e5cbd1"
+        "__uuid__": "32b4734f-f142-4081-b008-95698bc7c7ca"
       }
     ],
     "stallionPositive": [],

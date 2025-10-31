@@ -358,16 +358,12 @@ var startGame = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             console.log("jockey name = ", _this.jockeyName);
             if (_this.jockeyName == "Podar") {
-                cc
-                    .find("Canvas")
-                    .getChildByName("bg")
-                    .getChildByName("podar").active = true;
+                cc.find("Canvas").getChildByName("bg").getChildByName("podar").active =
+                    true;
             }
             else if (_this.jockeyName == "tlc") {
-                cc
-                    .find("Canvas")
-                    .getChildByName("bg")
-                    .getChildByName("tlc").active = true;
+                cc.find("Canvas").getChildByName("bg").getChildByName("tlc").active =
+                    true;
             }
             else if (_this.jockeyName == "supercub") {
                 cc
@@ -387,6 +383,9 @@ var startGame = /** @class */ (function (_super) {
                     .getChildByName("bg")
                     .getChildByName("jaipuria").active = true;
             }
+            _this.scheduleOnce(function () {
+                cc.director.loadScene("1");
+            }, 2);
             // if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
             // 	this.scheduleOnce(() => {
             // 		cc.director.loadScene("1");
