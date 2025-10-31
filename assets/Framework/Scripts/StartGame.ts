@@ -83,11 +83,11 @@ export default class startGame extends cc.Component {
   @property(cc.AudioClip)
   playBtn_audio: cc.AudioClip = null;
   // currentHealth: number = 10;
-  @property(cc.Node)
-  playButton: cc.Node = null;
+//   @property(cc.Node)
+//   playButton: cc.Node = null;
 
-  @property(cc.ProgressBar)
-  loadingBar: cc.ProgressBar = null;
+//   @property(cc.ProgressBar)
+//   loadingBar: cc.ProgressBar = null;
   timer: number = 0;
 
   private static instance: startGame = null;
@@ -257,27 +257,27 @@ export default class startGame extends cc.Component {
 
         // Assign question data to the variable
         this.questions = jsonData.questionData;
-        // this.titleImageName = this.removeExtension(this.titleImageName);
-        this.loadSpriteFrame(
-          this.removeExtension(jsonData.additionalData.TitleImageName),
-          (spriteFrame) => {
-            cc
-              .find("Canvas")
-              .getChildByName("bg")
-              .getChildByName("Title")
-              .getComponent(cc.Sprite).spriteFrame = spriteFrame;
-          }
-        );
-        this.loadSpriteFrame(
-          this.removeExtension(jsonData.additionalData.introBgName),
-          (spriteFrame) => {
-            cc
-              .find("Canvas")
-              .getChildByName("bg")
-              .getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            this.introBG = spriteFrame;
-          }
-        );
+        // // this.titleImageName = this.removeExtension(this.titleImageName);
+        // this.loadSpriteFrame(
+        //   this.removeExtension(jsonData.additionalData.TitleImageName),
+        //   (spriteFrame) => {
+        //     cc
+        //       .find("Canvas")
+        //       .getChildByName("bg")
+        //       .getChildByName("Title")
+        //       .getComponent(cc.Sprite).spriteFrame = spriteFrame;
+        //   }
+        // );
+        // this.loadSpriteFrame(
+        //   this.removeExtension(jsonData.additionalData.introBgName),
+        //   (spriteFrame) => {
+        //     cc
+        //       .find("Canvas")
+        //       .getChildByName("bg")
+        //       .getComponent(cc.Sprite).spriteFrame = spriteFrame;
+        //     this.introBG = spriteFrame;
+        //   }
+        // );
         this.loadAudioClip(
           this.removeAudioExtension(jsonData.additionalData.bgmMusicName),
           (AudioClip) => {
@@ -469,23 +469,23 @@ export default class startGame extends cc.Component {
     }
   }
 
-  OnPlayBtn(_event: cc.Event) {
-    cc.audioEngine.playEffect(this.playBtn_audio, false);
-    this.playButton.active = false;
-    this.loadingBar.node.active = true;
-    cc.director.preloadScene(
-      this.NextSceneName,
-      (current, total) => {
-        this.loadingBar.progress = current / total;
-      },
-      () => {
-        // this.exitTransition.play();
-        // this.scheduleOnce(() => {
-        cc.director.loadScene(this.NextSceneName);
-        // }, this.exitTransition.defaultClip.duration / this.exitTransition.defaultClip.speed);
-      }
-    );
-  }
+//   OnPlayBtn(_event: cc.Event) {
+//     cc.audioEngine.playEffect(this.playBtn_audio, false);
+//     this.playButton.active = false;
+//     this.loadingBar.node.active = true;
+//     cc.director.preloadScene(
+//       this.NextSceneName,
+//       (current, total) => {
+//         this.loadingBar.progress = current / total;
+//       },
+//       () => {
+//         // this.exitTransition.play();
+//         // this.scheduleOnce(() => {
+//         cc.director.loadScene(this.NextSceneName);
+//         // }, this.exitTransition.defaultClip.duration / this.exitTransition.defaultClip.speed);
+//       }
+//     );
+//   }
 
   OnBack() {
     console.log("gameExit--true");

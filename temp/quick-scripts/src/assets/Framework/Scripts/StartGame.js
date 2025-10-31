@@ -58,8 +58,10 @@ var startGame = /** @class */ (function (_super) {
         _this.totalLevels = 7;
         _this.playBtn_audio = null;
         // currentHealth: number = 10;
-        _this.playButton = null;
-        _this.loadingBar = null;
+        //   @property(cc.Node)
+        //   playButton: cc.Node = null;
+        //   @property(cc.ProgressBar)
+        //   loadingBar: cc.ProgressBar = null;
         _this.timer = 0;
         _this.isLoaded = false;
         _this.activateHint = false;
@@ -228,21 +230,27 @@ var startGame = /** @class */ (function (_super) {
                 _this.templateType = jsonData.additionalData.templateType;
                 // Assign question data to the variable
                 _this.questions = jsonData.questionData;
-                // this.titleImageName = this.removeExtension(this.titleImageName);
-                _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.TitleImageName), function (spriteFrame) {
-                    cc
-                        .find("Canvas")
-                        .getChildByName("bg")
-                        .getChildByName("Title")
-                        .getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                });
-                _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.introBgName), function (spriteFrame) {
-                    cc
-                        .find("Canvas")
-                        .getChildByName("bg")
-                        .getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    _this.introBG = spriteFrame;
-                });
+                // // this.titleImageName = this.removeExtension(this.titleImageName);
+                // this.loadSpriteFrame(
+                //   this.removeExtension(jsonData.additionalData.TitleImageName),
+                //   (spriteFrame) => {
+                //     cc
+                //       .find("Canvas")
+                //       .getChildByName("bg")
+                //       .getChildByName("Title")
+                //       .getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                //   }
+                // );
+                // this.loadSpriteFrame(
+                //   this.removeExtension(jsonData.additionalData.introBgName),
+                //   (spriteFrame) => {
+                //     cc
+                //       .find("Canvas")
+                //       .getChildByName("bg")
+                //       .getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                //     this.introBG = spriteFrame;
+                //   }
+                // );
                 _this.loadAudioClip(_this.removeAudioExtension(jsonData.additionalData.bgmMusicName), function (AudioClip) {
                     _this.BGM_audio = AudioClip;
                     var id = cc.audioEngine.playMusic(_this.BGM_audio, true);
@@ -414,20 +422,23 @@ var startGame = /** @class */ (function (_super) {
             console.log("soundSetting--false");
         }
     };
-    startGame.prototype.OnPlayBtn = function (_event) {
-        var _this = this;
-        cc.audioEngine.playEffect(this.playBtn_audio, false);
-        this.playButton.active = false;
-        this.loadingBar.node.active = true;
-        cc.director.preloadScene(this.NextSceneName, function (current, total) {
-            _this.loadingBar.progress = current / total;
-        }, function () {
-            // this.exitTransition.play();
-            // this.scheduleOnce(() => {
-            cc.director.loadScene(_this.NextSceneName);
-            // }, this.exitTransition.defaultClip.duration / this.exitTransition.defaultClip.speed);
-        });
-    };
+    //   OnPlayBtn(_event: cc.Event) {
+    //     cc.audioEngine.playEffect(this.playBtn_audio, false);
+    //     this.playButton.active = false;
+    //     this.loadingBar.node.active = true;
+    //     cc.director.preloadScene(
+    //       this.NextSceneName,
+    //       (current, total) => {
+    //         this.loadingBar.progress = current / total;
+    //       },
+    //       () => {
+    //         // this.exitTransition.play();
+    //         // this.scheduleOnce(() => {
+    //         cc.director.loadScene(this.NextSceneName);
+    //         // }, this.exitTransition.defaultClip.duration / this.exitTransition.defaultClip.speed);
+    //       }
+    //     );
+    //   }
     startGame.prototype.OnBack = function () {
         console.log("gameExit--true");
     };
@@ -495,12 +506,6 @@ var startGame = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], startGame.prototype, "playBtn_audio", void 0);
-    __decorate([
-        property(cc.Node)
-    ], startGame.prototype, "playButton", void 0);
-    __decorate([
-        property(cc.ProgressBar)
-    ], startGame.prototype, "loadingBar", void 0);
     startGame = startGame_1 = __decorate([
         ccclass
     ], startGame);
