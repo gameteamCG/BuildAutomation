@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\EYFS\\fs2\\hand_washing_chart_fs2_r101",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

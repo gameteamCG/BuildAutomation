@@ -51,7 +51,10 @@ export default class video extends cc.Component {
     @property(cc.AudioClip)
     bgMusic: cc.AudioClip = null;
     @property(cc.AudioClip)
+    @property(cc.AudioClip)
     correctSound: cc.AudioClip = null;
+    @property(cc.AudioClip)
+    incorrectSound: cc.AudioClip = null;
     @property(cc.SpriteFrame)
     starSprites: cc.SpriteFrame[] = [];
 
@@ -498,22 +501,20 @@ export default class video extends cc.Component {
         }
         else {
             cc.audioEngine.stopAllEffects();
-            cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].wrongAudio, false);
-            // this.character.getComponent(cc.Animation).play("wrong");
-            // let num: number = this.getRandomNumber(0, this.wrongAnim.length - 1);
-            let num = this.currentQuestion - 1;
-            if (num > this.wrongAnim.length - 1) {
-                num -= (this.wrongAnim.length - 1);
-            }
-
-            this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
-            // this.character.getChildByName("anim").getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
-            this.scheduleOnce(() => {
-                // this.character.getComponent(cc.Animation).play("Idle");
-                this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-            }, this.getAnimDuration(this.wrongAnim[num]));
+            cc.audioEngine.playEffect(this.incorrectSound, false);
             _event.target.getChildByName("red").active = true;
             _event.target.getComponent(cc.Button).interactable = false;
+            this.scheduleOnce(() => {
+                cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].wrongAudio, false);
+                let num = this.currentQuestion - 1;
+                if (num > this.wrongAnim.length - 1) {
+                    num -= (this.wrongAnim.length - 1);
+                }
+                this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
+                this.scheduleOnce(() => {
+                    this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                }, this.getAnimDuration(this.wrongAnim[num]));
+            }, 0.7)
         }
 
     }
@@ -571,7 +572,7 @@ export default class video extends cc.Component {
         let id = cc.audioEngine.playMusic(this.bgMusic, true);
         this.questionNode.getChildByName("options1").active = false;
         this.questionNode.getChildByName("questionBox").active = false;
-        cc.audioEngine.setVolume(id, 0.1);
+        cc.audioEngine.setVolume(id, 0.07);
         if (this.questions[this.currentQuestion].isquestionText) {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).string = this.questions[this.currentQuestion].questionText;
             this.questionNode.getChildByName("questionBox").getChildByName("img").active = false;

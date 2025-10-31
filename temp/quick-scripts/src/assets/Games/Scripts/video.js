@@ -73,6 +73,7 @@ var video = /** @class */ (function (_super) {
         _this.starsPanel = null;
         _this.bgMusic = null;
         _this.correctSound = null;
+        _this.incorrectSound = null;
         _this.starSprites = [];
         _this.jaipuria_font = null;
         _this.podar_font = null;
@@ -495,21 +496,20 @@ var video = /** @class */ (function (_super) {
         }
         else {
             cc.audioEngine.stopAllEffects();
-            cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].wrongAudio, false);
-            // this.character.getComponent(cc.Animation).play("wrong");
-            // let num: number = this.getRandomNumber(0, this.wrongAnim.length - 1);
-            var num = this.currentQuestion - 1;
-            if (num > this.wrongAnim.length - 1) {
-                num -= (this.wrongAnim.length - 1);
-            }
-            this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
-            // this.character.getChildByName("anim").getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
-            this.scheduleOnce(function () {
-                // this.character.getComponent(cc.Animation).play("Idle");
-                _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-            }, this.getAnimDuration(this.wrongAnim[num]));
+            cc.audioEngine.playEffect(this.incorrectSound, false);
             _event.target.getChildByName("red").active = true;
             _event.target.getComponent(cc.Button).interactable = false;
+            this.scheduleOnce(function () {
+                cc.audioEngine.playEffect(_this.questions[_this.currentQuestion - 1].wrongAudio, false);
+                var num = _this.currentQuestion - 1;
+                if (num > _this.wrongAnim.length - 1) {
+                    num -= (_this.wrongAnim.length - 1);
+                }
+                _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, _this.wrongAnim[num], false);
+                _this.scheduleOnce(function () {
+                    _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                }, _this.getAnimDuration(_this.wrongAnim[num]));
+            }, 0.7);
         }
     };
     video.prototype.OnSoundButton = function () {
@@ -565,7 +565,7 @@ var video = /** @class */ (function (_super) {
         var id = cc.audioEngine.playMusic(this.bgMusic, true);
         this.questionNode.getChildByName("options1").active = false;
         this.questionNode.getChildByName("questionBox").active = false;
-        cc.audioEngine.setVolume(id, 0.1);
+        cc.audioEngine.setVolume(id, 0.07);
         if (this.questions[this.currentQuestion].isquestionText) {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).string = this.questions[this.currentQuestion].questionText;
             this.questionNode.getChildByName("questionBox").getChildByName("img").active = false;
@@ -722,8 +722,12 @@ var video = /** @class */ (function (_super) {
         property(cc.AudioClip)
     ], video.prototype, "bgMusic", void 0);
     __decorate([
+        property(cc.AudioClip),
         property(cc.AudioClip)
     ], video.prototype, "correctSound", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], video.prototype, "incorrectSound", void 0);
     __decorate([
         property(cc.SpriteFrame)
     ], video.prototype, "starSprites", void 0);
