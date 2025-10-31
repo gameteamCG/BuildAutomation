@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "Select the right choice to be safe",
+        "questionText": "Select the right choice to be safe.",
         "questionAudioName": "Selecttherightchoicetobesafe.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -33,7 +33,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Select the right choice to be safe",
+        "questionText": "Select the right choice to be safe.",
         "questionAudioName": "Selecttherightchoicetobesafe.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -50,7 +50,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Select the right choice to be safe",
+        "questionText": "Select the right choice to be safe.",
         "questionAudioName": "Selecttherightchoicetobesafe.mp3",
         "shouldPlayQuestionAudio": false,
         "commonOptionImageName": "",
@@ -67,7 +67,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Select the right choice to be safe",
+        "questionText": "Select the right choice to be safe.",
         "questionAudioName": "Selecttherightchoicetobesafe.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -84,7 +84,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Select the right choice to be safe",
+        "questionText": "Select the right choice to be safe.",
         "questionAudioName": "Selecttherightchoicetobesafe.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -101,7 +101,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Select the right choice to be safe",
+        "questionText": "Select the right choice to be safe.",
         "questionAudioName": "Selecttherightchoicetobesafe.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -118,7 +118,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Select the right choice to be safe",
+        "questionText": "Select the right choice to be safe.",
         "questionAudioName": "Selecttherightchoicetobesafe.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
