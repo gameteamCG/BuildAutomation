@@ -40,15 +40,13 @@ var Draw = /** @class */ (function (_super) {
         return _this;
     }
     Draw.prototype.start = function () {
+        console.log(this.node.name);
         var canvas = cc.find('Canvas');
         canvas.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
         canvas.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMove, this);
         canvas.on(cc.Node.EventType.TOUCH_END, this.onTouchEnd, this);
     };
     Draw.prototype.setupDrawingNode = function () {
-        // let drawingNode = cc.instantiate(this.drawingPrefab);
-        // drawingNode.setPosition(new cc.Vec2(0, 0));
-        // this.points[this.currentPos].mask.addChild(drawingNode);
         var graphicsNode = this.node.getChildByName("grap").getComponent(cc.Graphics);
         graphicsNode.moveTo(0, 0);
         graphicsNode.lineTo(0.1, 0);

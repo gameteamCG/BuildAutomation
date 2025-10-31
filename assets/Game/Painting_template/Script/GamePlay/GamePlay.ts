@@ -179,8 +179,7 @@ export default class GamePlay extends cc.Component {
     addDrawing() {
         this.currentDrawing = cc.instantiate(this.DrawingDataArray[CommonFun.instance.currentLvl].DrawingDataPrefab);
         this.node.addChild(this.currentDrawing);
-        this.currentDrawing.setPosition(new cc.Vec2(CommonFun.instance.convertXPos(cc.winSize.width * 0.45, this.node), CommonFun.instance.convertYPos(cc.winSize.height * 0.5, this.node)));
-        this.currentDrawing.setPosition(this.currentDrawing.getPosition().x + 50, this.currentDrawing.getPosition().y - 50);
+        this.currentDrawing.setPosition(-30, -52);
         // console.log("pos = ", this.currentDrawing.getPosition().x);
         this.DrawingTableClassRef = CommonFun.instance.getDrawingTableClassRef(this.currentDrawing);
         if (this.currentLevel > 0) {

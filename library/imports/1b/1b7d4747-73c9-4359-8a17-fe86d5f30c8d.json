@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Statue_of_Liberty2",
+    "texture": "b80ab8b6-4146-491a-9b8d-e8f3b58bd956",
+    "atlas": "",
+    "rect": [
+      224,
+      19,
+      203,
+      615
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      652,
+      652
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

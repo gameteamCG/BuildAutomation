@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Colosseum2",
+    "texture": "e0081981-5e50-41ed-af02-ee8eb3c7ea2c",
+    "atlas": "",
+    "rect": [
+      59,
+      46,
+      817,
+      505
+    ],
+    "offset": [
+      16.5,
+      -23
+    ],
+    "originalSize": [
+      902,
+      551
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

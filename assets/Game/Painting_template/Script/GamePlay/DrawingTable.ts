@@ -86,7 +86,6 @@ export default class DrawingTable extends cc.Component {
     _onTouchBegin(event) {
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
-        console.log("---------------------------")
         for (let i = 0; i < this.DrawingSplitDataArray.length; i++) {
             const element = this.DrawingSplitDataArray[i].DrawingSplitData;
             let collider = this.getPolygonData(element);
@@ -135,12 +134,6 @@ export default class DrawingTable extends cc.Component {
             this.persistentScrollScript.currentPensilSelection == Constant.ToolsTag.PATTERN ||
             this.persistentScrollScript.currentPensilSelection == Constant.ToolsTag.SPARKEL)
             cc.audioEngine.playEffect(PersistentScroll.Instance.glowAud, false);
-
-
-        // if(this.persistentScrollScript.currentPensilSelection == Constant.ToolsTag.PAINT)
-        //     this.draggedstensil.push(this.currentMask);
-        // this.currentstensil.push(this.draggedstensil);
-        //new
         let myData = {
             currentTool: this.currentData.currentTool,
             currentPatternFrameIndex: this.currentData.currentPatternFrameIndex,
@@ -148,16 +141,8 @@ export default class DrawingTable extends cc.Component {
             child: this.currentMask,
         };
         this.drawingDataArray[this.currentData.currentChildIndex].push(myData);
-        //new
-
-        // this.currentData.drawArray.push(this.pointposition);
-        // this.overAllData.push(this.currentData);
-
-
-
         if (this.persistentScrollScript.currentPensilSelection == Constant.ToolsTag.ERASER)
             return;
-
         var point1 = event.touch.getLocation();
         point1 = this.persistentScrollNode.convertToNodeSpaceAR(point1);
         this.persistentScrollScript.particleEffect.node.setPosition(point1);

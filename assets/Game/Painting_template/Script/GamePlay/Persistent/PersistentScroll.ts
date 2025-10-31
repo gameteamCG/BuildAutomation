@@ -545,11 +545,6 @@ export default class PersistentScroll extends cc.Component {
 
     initColorOfTool(element, value, index) {
         if (value == Constant.ToolsTag.BRUSH
-            // || 
-            // value == Constant.ToolsTag.PENCIL ||
-            //     value == Constant.ToolsTag.BRUSH2||
-            //         value == Constant.ToolsTag.SPRAY||
-            //             value == Constant.ToolsTag.PAINT
         )
             element.getChildByName("mask").getChildByName("bg").color = this.TileSelectionListArray[0].ColorFrameListArray[index].color//CommonFun.instance.hexToRgb(this.TileSelectionListArray[0].ColorFrameListArray[index].color);
 

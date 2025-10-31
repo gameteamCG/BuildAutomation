@@ -97,7 +97,6 @@ var DrawingTable = /** @class */ (function (_super) {
     DrawingTable.prototype._onTouchBegin = function (event) {
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
-        console.log("---------------------------");
         for (var i = 0; i < this.DrawingSplitDataArray.length; i++) {
             var element = this.DrawingSplitDataArray[i].DrawingSplitData;
             var collider = this.getPolygonData(element);
@@ -140,10 +139,6 @@ var DrawingTable = /** @class */ (function (_super) {
             this.persistentScrollScript.currentPensilSelection == Constant_1.Constant.ToolsTag.PATTERN ||
             this.persistentScrollScript.currentPensilSelection == Constant_1.Constant.ToolsTag.SPARKEL)
             cc.audioEngine.playEffect(PersistentScroll_1.default.Instance.glowAud, false);
-        // if(this.persistentScrollScript.currentPensilSelection == Constant.ToolsTag.PAINT)
-        //     this.draggedstensil.push(this.currentMask);
-        // this.currentstensil.push(this.draggedstensil);
-        //new
         var myData = {
             currentTool: this.currentData.currentTool,
             currentPatternFrameIndex: this.currentData.currentPatternFrameIndex,
@@ -151,9 +146,6 @@ var DrawingTable = /** @class */ (function (_super) {
             child: this.currentMask,
         };
         this.drawingDataArray[this.currentData.currentChildIndex].push(myData);
-        //new
-        // this.currentData.drawArray.push(this.pointposition);
-        // this.overAllData.push(this.currentData);
         if (this.persistentScrollScript.currentPensilSelection == Constant_1.Constant.ToolsTag.ERASER)
             return;
         var point1 = event.touch.getLocation();

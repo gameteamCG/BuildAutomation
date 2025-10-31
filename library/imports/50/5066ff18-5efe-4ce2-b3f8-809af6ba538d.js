@@ -44,7 +44,6 @@ var endScreen = /** @class */ (function (_super) {
         // update (dt) {}
     }
     endScreen.prototype.onLoad = function () {
-        this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables_1.default.Instance.mainBg;
         console.log("showedScreen--wellDone");
         this.scheduleOnce(function () {
             console.log("gameEnded--true");
@@ -63,7 +62,6 @@ var endScreen = /** @class */ (function (_super) {
         else if (globalVariables_1.default.Instance.jockeyName == "supercub") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
         }
-        this.node.getChildByName("jockey").getChildByName(globalVariables_1.default.Instance.jockeyName).active = true;
     };
     __decorate([
         property(cc.SpriteFrame)

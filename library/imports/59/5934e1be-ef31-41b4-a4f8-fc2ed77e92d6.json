@@ -1,0 +1,74 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Wonders of the world_UKG_GA_25",
+      "totalLevel": "6",
+      "TitleImageName": "wondersoftheworld.png",
+      "introBgName": "bgtitlemain.png",
+      "bgmMusicName": "BGM3.mp3",
+      "initialVOName": "",
+      "mainBgName": "artbackground3.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Pyramid of Giza",
+        "questionImageName": "Pyramid_of_Giza.png",
+        "questionAudioName": "Look_at_the_reference_image_and_colour_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "Pyramid_of_Giza2.png",
+        "needMoreTools": true,
+        "correctAudioName": "pyramid_of_giza.mp3"
+      },
+      {
+        "questionText": "Eiffel tower",
+        "questionImageName": "Eiffel_Tower.png",
+        "questionAudioName": "Look_at_the_reference_image_and_colour_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "Eiffel_Tower2.png",
+        "needMoreTools": true,
+        "correctAudioName": "eiffel_tower.mp3"
+      },
+      {
+        "questionText": "Taj mahal",
+        "questionImageName": "TajMahal.png",
+        "questionAudioName": "Look_at_the_reference_image_and_colour_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "TajMahal2.png",
+        "needMoreTools": true,
+        "correctAudioName": "taj_mahal.mp3"
+      },
+      {
+        "questionText": "Statue of liberty",
+        "questionImageName": "Statue_of_Liberty.png",
+        "questionAudioName": "Look_at_the_reference_image_and_colour_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "Statue_of_Liberty2.png",
+        "needMoreTools": true,
+        "correctAudioName": "statue_of_liberty.mp3"
+      },
+      {
+        "questionText": "Chichen itza",
+        "questionImageName": "Chichen_Itza.png",
+        "questionAudioName": "Look_at_the_reference_image_and_colour_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "Chichen_Itza2.png",
+        "needMoreTools": true,
+        "correctAudioName": "chichen_itza.mp3"
+      },
+      {
+        "questionText": "Colosseum",
+        "questionImageName": "Colosseum.png",
+        "questionAudioName": "Look_at_the_reference_image_and_colour_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "Colosseum2.png",
+        "needMoreTools": true,
+        "correctAudioName": "colosseum.mp3"
+      }
+    ]
+  }
+}

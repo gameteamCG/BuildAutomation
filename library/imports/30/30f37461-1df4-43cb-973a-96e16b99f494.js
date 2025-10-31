@@ -504,13 +504,7 @@ var PersistentScroll = /** @class */ (function (_super) {
         }
     };
     PersistentScroll.prototype.initColorOfTool = function (element, value, index) {
-        if (value == Constant_1.Constant.ToolsTag.BRUSH
-        // || 
-        // value == Constant.ToolsTag.PENCIL ||
-        //     value == Constant.ToolsTag.BRUSH2||
-        //         value == Constant.ToolsTag.SPRAY||
-        //             value == Constant.ToolsTag.PAINT
-        )
+        if (value == Constant_1.Constant.ToolsTag.BRUSH)
             element.getChildByName("mask").getChildByName("bg").color = this.TileSelectionListArray[0].ColorFrameListArray[index].color; //CommonFun.instance.hexToRgb(this.TileSelectionListArray[0].ColorFrameListArray[index].color);
         if (value == Constant_1.Constant.ToolsTag.SPARKEL)
             element.getChildByName("mask").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.TileSelectionListArray[2].SparkleFrameListArray[index].SparkleFrame;

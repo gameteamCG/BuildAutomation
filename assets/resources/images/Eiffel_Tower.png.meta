@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "896fe8fd-c4f1-4cb7-8fa9-a41a73e5157f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Eiffel_Tower": {
+      "ver": "1.0.6",
+      "uuid": "caa090e2-f1cb-4a07-a258-45548a7c8b49",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "896fe8fd-c4f1-4cb7-8fa9-a41a73e5157f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 500,
+      "height": 500,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

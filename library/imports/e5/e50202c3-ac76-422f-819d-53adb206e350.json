@@ -43,8 +43,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 800,
-      "height": 600
+      "width": 825,
+      "height": 630
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -114,8 +114,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 800,
-      "height": 600
+      "width": 840,
+      "height": 630
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -126,7 +126,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        5,
         0,
         0,
         0,
@@ -178,8 +178,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 800,
-      "height": 600
+      "width": 840,
+      "height": 630
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -231,7 +231,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "a23235d1-15db-4b95-8439-a2e005bfff91"
+      "__uuid__": "b74e0bd4-34f4-4b7d-a3a7-9efded5828bc"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -243,7 +243,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": ""
   },
@@ -271,10 +271,12 @@
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
       }
     ],
-    "_spriteFrame": null,
-    "_type": 0,
+    "_spriteFrame": {
+      "__uuid__": "b74e0bd4-34f4-4b7d-a3a7-9efded5828bc"
+    },
+    "_type": 2,
     "_segments": 64,
-    "_N$alphaThreshold": 0,
+    "_N$alphaThreshold": 0.5,
     "_N$inverted": false,
     "_id": ""
   },
@@ -295,13 +297,23 @@
     "points": [
       {
         "__type__": "cc.Vec2",
-        "x": -400,
-        "y": -300
+        "x": -410,
+        "y": -290
       },
       {
         "__type__": "cc.Vec2",
-        "x": -400,
-        "y": 300
+        "x": -412,
+        "y": 286
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -382,
+        "y": 309
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 388,
+        "y": 309
       },
       {
         "__type__": "cc.Vec2",
@@ -310,8 +322,33 @@
       },
       {
         "__type__": "cc.Vec2",
-        "x": 400,
-        "y": -300
+        "x": 413,
+        "y": 278
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 412,
+        "y": -283
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 403,
+        "y": -305
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 382,
+        "y": -307
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -370,
+        "y": -309
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -387,
+        "y": -312
       }
     ],
     "_id": ""
@@ -366,7 +403,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        -3,
         0,
         0,
         0,
@@ -408,7 +445,7 @@
     "_dstBlendFactor": 771,
     "_spriteFrame": null,
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -417,7 +454,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": ""
   },

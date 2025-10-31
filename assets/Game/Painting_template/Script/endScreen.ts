@@ -23,7 +23,6 @@ export default class endScreen extends cc.Component {
     private supercubEnd: cc.SpriteFrame = null;
 
     onLoad() {
-        this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables.Instance.mainBg;
         console.log("showedScreen--wellDone");
         this.scheduleOnce(() => {
             console.log("gameEnded--true");
@@ -43,8 +42,6 @@ export default class endScreen extends cc.Component {
         else if (globalVariables.Instance.jockeyName == "supercub") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
         }
-
-        this.node.getChildByName("jockey").getChildByName(globalVariables.Instance.jockeyName).active = true;
 
     }
 

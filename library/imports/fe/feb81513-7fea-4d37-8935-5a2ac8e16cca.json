@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TajMahal2",
+    "texture": "fd81eca3-c6ca-4b58-82fc-84057b8486a6",
+    "atlas": "",
+    "rect": [
+      40,
+      170,
+      720,
+      461
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      801,
+      801
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

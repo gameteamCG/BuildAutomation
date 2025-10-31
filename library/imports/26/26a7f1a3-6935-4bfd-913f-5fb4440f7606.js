@@ -190,8 +190,7 @@ var GamePlay = /** @class */ (function (_super) {
         var _this = this;
         this.currentDrawing = cc.instantiate(this.DrawingDataArray[CommonFun_1.default.instance.currentLvl].DrawingDataPrefab);
         this.node.addChild(this.currentDrawing);
-        this.currentDrawing.setPosition(new cc.Vec2(CommonFun_1.default.instance.convertXPos(cc.winSize.width * 0.45, this.node), CommonFun_1.default.instance.convertYPos(cc.winSize.height * 0.5, this.node)));
-        this.currentDrawing.setPosition(this.currentDrawing.getPosition().x + 50, this.currentDrawing.getPosition().y - 50);
+        this.currentDrawing.setPosition(-30, -52);
         // console.log("pos = ", this.currentDrawing.getPosition().x);
         this.DrawingTableClassRef = CommonFun_1.default.instance.getDrawingTableClassRef(this.currentDrawing);
         if (this.currentLevel > 0) {

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Pyramid_of_Giza2",
+    "texture": "7fb697b4-c651-471d-a7a3-18efecdd8c27",
+    "atlas": "",
+    "rect": [
+      0,
+      170,
+      823,
+      653
+    ],
+    "offset": [
+      0,
+      -85
+    ],
+    "originalSize": [
+      823,
+      823
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
