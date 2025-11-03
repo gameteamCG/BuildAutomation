@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cart4",
+    "texture": "087800db-0dc7-41a0-9493-ab30485d22ff",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      295,
+      240
+    ],
+    "offset": [
+      0,
+      27.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
