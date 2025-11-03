@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blblend",
+    "texture": "d1a11ebc-0f47-4153-854d-785b4bdea314",
+    "atlas": "",
+    "rect": [
+      49,
+      26,
+      747,
+      117
+    ],
+    "offset": [
+      16.5,
+      2.5
+    ],
+    "originalSize": [
+      812,
+      174
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
