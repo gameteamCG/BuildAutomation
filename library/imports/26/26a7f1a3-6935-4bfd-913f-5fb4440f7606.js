@@ -232,8 +232,10 @@ var GamePlay = /** @class */ (function (_super) {
         var _this = this;
         var duration = 0;
         if (this.currentLevel != 0) {
-            cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
-            duration = this.reiteration_Audio[this.currentLevel - 1].duration;
+            this.scheduleOnce(function () {
+                cc.audioEngine.playEffect(_this.reiteration_Audio[_this.currentLevel - 1], false);
+            }, 1);
+            duration = this.reiteration_Audio[this.currentLevel - 1].duration + 1;
             console.log("correctAnswer--" + (this.currentLevel));
             console.log("levelComplete--" + (this.currentLevel));
         }

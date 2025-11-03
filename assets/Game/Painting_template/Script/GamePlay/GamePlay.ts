@@ -226,8 +226,10 @@ export default class GamePlay extends cc.Component {
     checkNextLevel() {
         let duration: number = 0;
         if (this.currentLevel != 0) {
-            cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
-            duration = this.reiteration_Audio[this.currentLevel - 1].duration;
+            this.scheduleOnce(() => {
+                cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
+            }, 1)
+            duration = this.reiteration_Audio[this.currentLevel - 1].duration + 1;
             console.log("correctAnswer--" + (this.currentLevel))
             console.log("levelComplete--" + (this.currentLevel));
         }
