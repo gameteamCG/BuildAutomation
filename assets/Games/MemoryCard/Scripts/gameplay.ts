@@ -522,12 +522,14 @@ export default class NewClass extends cc.Component {
                 element.getComponent(cc.Button).interactable = true;
             });
             if (globalVariables.Instance.currentLevel == 1) {
-                let hand = this.node.getChildByName("hand");
+                this.scheduleOnce(() => {
+                     let hand = this.node.getChildByName("hand");
                 console.log("answer array num = ", this.answerArray[0]);
                 hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
                 hand.setPosition(0, -30);
                 hand.setParentWithSamePos(this.node);
                 hand.getComponent(cc.Animation).play();
+                },1);
             }
         }
         else if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
