@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "glblend",
+    "texture": "24237008-cd80-4a69-8aa6-a34b5085e597",
+    "atlas": "",
+    "rect": [
+      39,
+      26,
+      760,
+      161
+    ],
+    "offset": [
+      12,
+      -3.5
+    ],
+    "originalSize": [
+      814,
+      206
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
