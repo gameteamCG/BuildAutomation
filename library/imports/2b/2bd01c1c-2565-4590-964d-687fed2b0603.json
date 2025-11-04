@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Magic words_SCIS_toodler",
-      "totalLevel": "6",
+      "totalLevel": "7",
       "TitleImageName": "Magicwords.png",
       "introBgName": "NURSE.png",
       "bgmMusicName": "bgmss.mp3",
@@ -15,93 +15,108 @@
     },
     "questionData": [
       {
-        "questionText": "magic words",
-        "questionImageName": "Asset1.png",
-        "questionAudioName": "selecttheimagewhenyouwouldsaysorry..mp3",
+        "questionText": "Meeting the security guard in the morning",
+        "questionImageName": "1.png",
+        "questionAudioName": "L1.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset54.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "8.png",
-          "1.png"
+          "a7.png",
+          "a1.png"
         ],
-        "correctAudioName": "Ifyouknowinglyorunknowinglyhurtsomeonesaysorry.mp3",
+        "correctAudioName": "1.mp3",
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "magic words",
-        "questionImageName": "Asset2.png",
-        "questionAudioName": "selecttheimagewhenyouwouldsayplease.mp3",
+        "questionText": "When the peon helps carry books",
+        "questionImageName": "2.png",
+        "questionAudioName": "L2.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset54.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "2.png",
-          "6.png"
+          "a2.png",
+          "a5.png"
         ],
-        "correctAudioName": "IfyouwantsomeonetosharesomethingwithyousayPlease.mp3",
+        "correctAudioName": "2.mp3",
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "magic words",
-        "questionImageName": "Asset3.png",
-        "questionAudioName": "selecttheimagewhenyouwouldsaythankyou.mp3",
+        "questionText": "Spilling water near the staff room",
+        "questionImageName": "3.png",
+        "questionAudioName": "L3.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset54.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "3.png",
-          "1.png"
+          "a3.png",
+          "a1.png"
         ],
-        "correctAudioName": "IfsomeoneshareswithyousayThankyou.mp3",
+        "correctAudioName": "3.mp3",
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "magic words",
-        "questionImageName": "Asset2.png",
-        "questionAudioName": "selecttheimagewhenyouwouldsayplease.mp3",
+        "questionText": "Asking the librarian for a book",
+        "questionImageName": "4.png",
+        "questionAudioName": "L4.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset54.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "1.png",
-          "7.png"
+          "a2.png",
+          "a4.png"
         ],
-        "correctAudioName": "IfyouwanthelpfrommummyordaddytopackyourschoolbagsayPlease.mp3",
+        "correctAudioName": "4.mp3",
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "magic words",
-        "questionImageName": "Asset3.png",
-        "questionAudioName": "selecttheimagewhenyouwouldsaythankyou.mp3",
+        "questionText": "Leaving school",
+        "questionImageName": "5.png",
+        "questionAudioName": "L5.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset54.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "8.png",
-          "1.png"
+          "a5.png",
+          "a1.png"
         ],
-        "correctAudioName": "IfyougethelpfrommummyanddaddysayThankyou.mp3",
+        "correctAudioName": "5.mp3",
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "magic words",
-        "questionImageName": "Asset3.png",
-        "questionAudioName": "selecttheimagewhenyouwouldsaythankyou.mp3",
+        "questionText": "When the canteen staff gives snacks",
+        "questionImageName": "6.png",
+        "questionAudioName": "L6.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset54.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "6.png",
-          "9.png"
+          "a4.png",
+          "a6.png"
         ],
-        "correctAudioName": "IfsomeonepicksupfallenthingsforyousayThankyou.mp3",
+        "correctAudioName": "6.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Accidentally bumping into the janitor",
+        "questionImageName": "7.png",
+        "questionAudioName": "L7.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset54.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "a6.png",
+          "a7.png"
+        ],
+        "correctAudioName": "7.mp3",
         "correctAnswerNum": "2"
       }
     ]

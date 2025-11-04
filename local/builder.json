@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\EYFS\\fs2\\Bens_magic_words_r92_fs2",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

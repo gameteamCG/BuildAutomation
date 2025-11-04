@@ -311,7 +311,7 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.node.getChildByName("QuestionBox"))
-                    .to(1, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(1, { scale: 1.3 }, { easing: "sineInOut" }).start();
             }, 0.1);
             this.scheduleOnce(() => {
                 cc.tween(this.node.getChildByName("QuestionBox"))
@@ -339,7 +339,7 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(0.5, { scale: 1.2 }, { easing: "sineInOut" }).start();
                 if (i == this.node.getChildByName("Option").children.length) {
                     this.scheduleOnce(() => {
                         this.PlayQuestionAudio();
@@ -444,7 +444,7 @@ export default class NewClass extends cc.Component {
         if (_node.name == this.answerArray[0]) {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+            // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
@@ -521,7 +521,7 @@ export default class NewClass extends cc.Component {
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
-        cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+        cc.tween(_node.children[0]).to(0.5, { scale: 1.3 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
             this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
