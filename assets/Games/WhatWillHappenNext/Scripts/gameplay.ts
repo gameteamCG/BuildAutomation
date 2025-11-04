@@ -76,6 +76,8 @@ export default class NewClass extends cc.Component {
     private supercubPositive: cc.AudioClip[] = [];
     @property(cc.AudioClip)
     private supercubNegative: cc.AudioClip[] = [];
+    @property(cc.AudioClip)
+    private run: cc.AudioClip = null;
 
     @property(cc.AudioClip)
     private tlc_birdFlying: cc.AudioClip = null;
@@ -718,7 +720,9 @@ export default class NewClass extends cc.Component {
                             cc.audioEngine.playEffect(this.supercub_Pos2, false);
                         }
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
+
                         this.scheduleOnce(() => {
+                            cc.audioEngine.playEffect(this.run, false);
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
                             cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
                             //console.log("characterDisappear--Podar_Jumbo");
@@ -732,6 +736,7 @@ export default class NewClass extends cc.Component {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
                 this.scheduleOnce(() => {
+                    cc.audioEngine.playEffect(this.run, false);
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
                     cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
                     //console.log("characterDisappear--Podar_Jumbo");
@@ -833,6 +838,7 @@ export default class NewClass extends cc.Component {
                                 cc.audioEngine.playEffect(this.supercub_Neg2, false);
                             }
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
+                            cc.audioEngine.playEffect(this.run, false);
                             this.canTouch = true;
                             this.scheduleOnce(() => {
                                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);

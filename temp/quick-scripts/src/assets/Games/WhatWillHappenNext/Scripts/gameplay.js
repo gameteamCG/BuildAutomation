@@ -54,6 +54,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.tlcNegative = [];
         _this.supercubPositive = [];
         _this.supercubNegative = [];
+        _this.run = null;
         _this.tlc_birdFlying = null;
         _this.supercub_Pos1 = null;
         _this.supercub_Pos2 = null;
@@ -666,6 +667,7 @@ var NewClass = /** @class */ (function (_super) {
                         }
                         _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                         _this.scheduleOnce(function () {
+                            cc.audioEngine.playEffect(_this.run, false);
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
                             cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
                             //console.log("characterDisappear--Podar_Jumbo");
@@ -678,6 +680,7 @@ var NewClass = /** @class */ (function (_super) {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
                 this.scheduleOnce(function () {
+                    cc.audioEngine.playEffect(_this.run, false);
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
                     cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
                     //console.log("characterDisappear--Podar_Jumbo");
@@ -774,6 +777,7 @@ var NewClass = /** @class */ (function (_super) {
                                 cc.audioEngine.playEffect(_this.supercub_Neg2, false);
                             }
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
+                            cc.audioEngine.playEffect(_this.run, false);
                             _this.canTouch = true;
                             _this.scheduleOnce(function () {
                                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
@@ -985,6 +989,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "supercubNegative", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], NewClass.prototype, "run", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "tlc_birdFlying", void 0);
