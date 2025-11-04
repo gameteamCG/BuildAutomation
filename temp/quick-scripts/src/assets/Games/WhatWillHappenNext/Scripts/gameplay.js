@@ -76,6 +76,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.optionsNode = null;
         _this.questionBoxPosY = 0;
         _this.positionArray = [];
+        _this.answersArray = [];
         _this.correctAnswerCount = 0;
         _this.totalAnswers = 1;
         return _this;
@@ -83,6 +84,7 @@ var NewClass = /** @class */ (function (_super) {
     // LIFE-CYCLE CALLBACKS:
     NewClass.prototype.onLoad = function () {
         var _this = this;
+        this.answersArray = ["brush", "price tag", "bread", "crane", "pram", "frog", "fries"];
         for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum.length; i++) {
             this.answerArray[i] = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum[i];
             this.audioanswerArray[i] = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum[i];
@@ -289,9 +291,10 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
-        // this.node.getChildByName("questionPanel").opacity = 255;
+        this.node.getChildByName("questionPanel").opacity = 255;
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
+        // this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answersArray[this.correctAnswerCount - 1];
         this.node.getChildByName("QuestionBox").setPosition(cc.v2(-1500, -200));
         this.node.getChildByName("QuestionBox").scale = 1;
         this.scheduleOnce(function () {
@@ -473,7 +476,8 @@ var NewClass = /** @class */ (function (_super) {
             if (cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.PolygonCollider).points)) {
                 cc.audioEngine.stopAllEffects();
                 console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
-                cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                // this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answersArray[globalVariables.Instance.currentLevel - 1];
                 this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 this.callPositiveRection(_node);
@@ -551,6 +555,7 @@ var NewClass = /** @class */ (function (_super) {
         this.node.getChildByName("QuestionBox").getChildByName(imgName).scale = this.node.getChildByName("QuestionBox").getChildByName(imgName).scale - (this.node.getChildByName("QuestionBox").getChildByName(imgName).scale * 0.2);
         cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
         cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).to(0.7, { scale: 0.3 }, { easing: "sineInOut" }).start();
+        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answersArray[globalVariables_1.default.Instance.currentLevel - 1];
         this.scheduleOnce(function () {
             //console.log("correctAudio : ", this.correctAudio)
             cc.audioEngine.playEffect(_this.correctAudio[voIndex], false);
@@ -566,7 +571,7 @@ var NewClass = /** @class */ (function (_super) {
                     _this.scheduleOnce(function () {
                         ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
                         _this.scheduleOnce(function () {
-                            cc.tween(_this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                            // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
                             _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
                             console.log("correctAnswerCount--" + _this.correctAnswerCount, _this.totalAnswers);
                             _this.callJockey();

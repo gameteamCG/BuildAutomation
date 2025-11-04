@@ -115,12 +115,15 @@ export default class NewClass extends cc.Component {
     private questionBoxPosY: number = 0;
 
     positionArray: cc.Vec2[] = [];
+    private answersArray: string[] = [];
     correctAnswerCount: number = 0;
     totalAnswers: number = 1;
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
+        this.answersArray = ["brush", "price tag", "bread", "crane", "pram", "frog", "fries"]
+
         for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum.length; i++) {
             this.answerArray[i] = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum[i];
             this.audioanswerArray[i] = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum[i];
@@ -326,9 +329,10 @@ export default class NewClass extends cc.Component {
     callThirdObjectIn() {
         this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
-        // this.node.getChildByName("questionPanel").opacity = 255;
+        this.node.getChildByName("questionPanel").opacity = 255;
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
+        // this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answersArray[this.correctAnswerCount - 1];
 
         this.node.getChildByName("QuestionBox").setPosition(cc.v2(-1500, -200));
         this.node.getChildByName("QuestionBox").scale = 1;
@@ -518,7 +522,9 @@ export default class NewClass extends cc.Component {
             if (cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.PolygonCollider).points)) {
                 cc.audioEngine.stopAllEffects();
                 console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
-                cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                // this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answersArray[globalVariables.Instance.currentLevel - 1];
+
                 this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 this.callPositiveRection(_node);
@@ -601,6 +607,8 @@ export default class NewClass extends cc.Component {
         this.node.getChildByName("QuestionBox").getChildByName(imgName).scale = this.node.getChildByName("QuestionBox").getChildByName(imgName).scale - (this.node.getChildByName("QuestionBox").getChildByName(imgName).scale * 0.2);
         cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
         cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).to(0.7, { scale: 0.3 }, { easing: "sineInOut" }).start();
+        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answersArray[globalVariables.Instance.currentLevel - 1];
+
         this.scheduleOnce(() => {
             //console.log("correctAudio : ", this.correctAudio)
             cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
@@ -616,7 +624,7 @@ export default class NewClass extends cc.Component {
                     this.scheduleOnce(() => {
                         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
                         this.scheduleOnce(() => {
-                            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                            // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
                             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
                             console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
                             this.callJockey();
