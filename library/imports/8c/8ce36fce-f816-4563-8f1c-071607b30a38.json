@@ -1,8 +1,8 @@
 {
   "__type__": "cc.AudioClip",
-  "_name": "Select the right choice to be safe.",
+  "_name": "Q1",
   "_objFlags": 0,
   "_native": ".mp3",
-  "duration": 3.134694,
+  "duration": 2.232,
   "loadMode": 0
 }
