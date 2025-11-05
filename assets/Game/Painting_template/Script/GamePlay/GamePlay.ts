@@ -180,6 +180,14 @@ export default class GamePlay extends cc.Component {
         this.currentDrawing = cc.instantiate(this.DrawingDataArray[CommonFun.instance.currentLvl].DrawingDataPrefab);
         this.node.addChild(this.currentDrawing);
         this.currentDrawing.setPosition(-30, -52);
+        this.node.children.forEach(elem => {
+            if (elem.name == "0" || elem.name == "1" || elem.name == "2" || elem.name == "3" || elem.name == "4" || elem.name == "5") {
+                if (elem.name != this.currentLevel.toString()) {
+                    elem.active = false;
+                }
+            }
+        })
+        this.currentDrawing.name = this.currentLevel.toString();
         // console.log("pos = ", this.currentDrawing.getPosition().x);
         this.DrawingTableClassRef = CommonFun.instance.getDrawingTableClassRef(this.currentDrawing);
         if (this.currentLevel > 0) {

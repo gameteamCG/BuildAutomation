@@ -5,10 +5,10 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 0,
-      "y": 0,
-      "width": 1536,
-      "height": 818,
+      "x": -8,
+      "y": -8,
+      "width": 1552,
+      "height": 833,
       "layout": {
         "type": "dock-h",
         "children": [
@@ -89,7 +89,7 @@
         "node-library"
       ]
     },
-    " common-asset-worker-worker": {}
+    "window-1762337079444": {}
   },
   "panels": {
     "project-settings": {
@@ -105,10 +105,10 @@
       "height": 900
     },
     "builder": {
-      "x": 34,
+      "x": 30,
       "y": 0,
-      "width": 1448,
-      "height": 820
+      "width": 1456,
+      "height": 824
     }
   },
   "panelLabelWidth": {}
