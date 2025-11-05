@@ -32,6 +32,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var CommonFun_1 = require("../../Common/CommonFun");
 var Constant_1 = require("../../Common/Constant");
 var Global_1 = require("../../Common/Global");
+var GamePlay_1 = require("../GamePlay");
 var TileSelection_1 = require("../TileSelection");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var ColorFrameList = /** @class */ (function () {
@@ -130,6 +131,7 @@ var PersistentScroll = /** @class */ (function (_super) {
     __extends(PersistentScroll, _super);
     function PersistentScroll() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.questionsound = [];
         _this.hand = null;
         _this.tickBtn = null;
         _this.TileSelectionListArray = [];
@@ -206,6 +208,8 @@ var PersistentScroll = /** @class */ (function (_super) {
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
         this.prevTouch = point;
+        console.log("@@2");
+        // this.node.getChildByName("moveingParticle").active = true;
         this.isScrolled = false;
     };
     PersistentScroll.prototype._onTouchMoved = function (event) {
@@ -526,8 +530,20 @@ var PersistentScroll = /** @class */ (function (_super) {
             this.currentDrawingScript.currentstensil.pop();
         }
     };
+    PersistentScroll.prototype.buttonsound = function () {
+        var _this = this;
+        this.node.getChildByName("panel").children[1].getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionsound[GamePlay_1.default.Instance.currentLevel - 1], false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("panel").children[1].getComponent(cc.Button).interactable = true;
+        }, this.questionsound[GamePlay_1.default.Instance.currentLevel - 1].duration + 0.1);
+    };
     var PersistentScroll_1;
     PersistentScroll.instance = null;
+    __decorate([
+        property(cc.AudioClip)
+    ], PersistentScroll.prototype, "questionsound", void 0);
     __decorate([
         property(cc.Node)
     ], PersistentScroll.prototype, "hand", void 0);

@@ -839,6 +839,13 @@
         "__id__": 20
       }
     ],
+    "clickAud": null,
+    "questionNode": null,
+    "hand": null,
+    "podar_font": null,
+    "jaipuria_font": null,
+    "tlc_font": null,
+    "supercub_font": null,
     "_id": "901fSrrA1Em7s6YZovh7hy"
   },
   {
@@ -5938,6 +5945,7 @@
       "__id__": 129
     },
     "currentPic": null,
+    "cameraAud": null,
     "_id": "40Wayne2tH/aAojmPHWSs3"
   },
   {
@@ -6211,6 +6219,9 @@
       "__id__": 21
     },
     "_enabled": true,
+    "questionsound": [],
+    "hand": null,
+    "tickBtn": null,
     "TileSelectionListArray": [
       {
         "__id__": 134
@@ -6251,9 +6262,16 @@
         "__id__": 99
       }
     ],
+    "DualSymetry": null,
+    "QuadSymetry": null,
     "particleEffect": {
       "__id__": 132
     },
+    "cameraAud": null,
+    "toolsAud": null,
+    "glowAud": null,
+    "scrollAud": null,
+    "eraserAud": null,
     "_id": "0ewu0v4aVLpbvlELtZQjkt"
   },
   {

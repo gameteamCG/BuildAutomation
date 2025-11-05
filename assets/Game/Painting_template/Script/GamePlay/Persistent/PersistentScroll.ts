@@ -5,10 +5,12 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
+import startGame from "../../../../../Framework/Scripts/StartGame";
 import CommonFun from "../../Common/CommonFun";
 import configData from "../../Common/ConfigController";
 import { Constant } from "../../Common/Constant";
 import Global from "../../Common/Global";
+import GamePlay from "../GamePlay";
 import TileSelection from "../TileSelection";
 
 const { ccclass, property } = cc._decorator;
@@ -70,7 +72,8 @@ class TileSelectionList {
 
 @ccclass
 export default class PersistentScroll extends cc.Component {
-
+    @property(cc.AudioClip)
+    questionsound: cc.AudioClip[] = [];
     @property(cc.Node)
     hand: cc.Node = null;
     @property(cc.Node)
@@ -183,6 +186,8 @@ export default class PersistentScroll extends cc.Component {
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
         this.prevTouch = point;
+        console.log("@@2");
+        // this.node.getChildByName("moveingParticle").active = true;
 
         this.isScrolled = false;
     }
@@ -577,5 +582,13 @@ export default class PersistentScroll extends cc.Component {
             data.parent.removeChild(data.child);
             this.currentDrawingScript.currentstensil.pop();
         }
+    }
+    buttonsound() {
+        this.node.getChildByName("panel").children[1].getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionsound[GamePlay.Instance.currentLevel - 1], false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("panel").children[1].getComponent(cc.Button).interactable = true;
+        }, this.questionsound[GamePlay.Instance.currentLevel - 1].duration + 0.1);
     }
 }

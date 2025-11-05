@@ -5,25 +5,25 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-const {ccclass, property} = cc._decorator;
+const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class Draw extends cc.Component {
 
     touches: cc.Vec2[] = []
     graphics: cc.Graphics = null;
-    
+
     usedBtn = 1;
 
-    start () {
+    start() {
         var canvas = cc.find('Canvas');
         canvas.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
         canvas.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMove, this);
         canvas.on(cc.Node.EventType.TOUCH_END, this.onTouchEnd, this);
     }
-    
-    setupDrawingNode(){
-        
+
+    setupDrawingNode() {
+
         // let drawingNode = cc.instantiate(this.drawingPrefab);
         // drawingNode.setPosition(new cc.Vec2(0, 0));
         // this.points[this.currentPos].mask.addChild(drawingNode);
@@ -37,23 +37,22 @@ export default class Draw extends cc.Component {
         return graphicsNode;
     }
 
-    onTouchStart (event) {
+    onTouchStart(event) {
         this.graphics = this.setupDrawingNode();
+        console.log("@@1");
 
-        if(this.usedBtn == 1)
-        {
+        if (this.usedBtn == 1) {
             this.touches.length = 0;
             this.touches.push(event.touch.getLocation());
         }
-        else
-        {
+        else {
             this.graphics.setMaterial(0, this.graphics.getMaterial(1));
             // this.touches1.length = 0;
             // this.touches1.push(event.touch.getLocation());
         }
     }
 
-    onTouchMove (event) {
+    onTouchMove(event) {
         let touches = this.touches;
         touches.push(event.touch.getLocation());
 
@@ -73,9 +72,9 @@ export default class Draw extends cc.Component {
         this.graphics.stroke();
     }
 
-    onTouchEnd (event) {
+    onTouchEnd(event) {
     }
-    onBtnClicked(){
+    onBtnClicked() {
         this.usedBtn *= -1;
     }
 }

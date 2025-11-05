@@ -58,6 +58,7 @@ var Draw = /** @class */ (function (_super) {
     };
     Draw.prototype.onTouchStart = function (event) {
         this.graphics = this.setupDrawingNode();
+        console.log("@@1");
         if (this.usedBtn == 1) {
             this.touches.length = 0;
             this.touches.push(event.touch.getLocation());

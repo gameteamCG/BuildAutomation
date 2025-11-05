@@ -60,7 +60,7 @@ export default class GamePlay extends cc.Component {
     DrawingTableClassRef = null;
     overAllData = [];
 
-    private currentLevel: number = 0;
+    public currentLevel: number = 0;
     private totalLevels: number = 0;
 
     private Ypos: number = 0;
