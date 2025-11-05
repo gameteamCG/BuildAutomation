@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "3640e3ae-c78d-460d-b981-1fcf0e191cb9",
+  "uuid": "e5cb3f56-4e87-4e47-a5eb-92fa34870bbb",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "NURSE": {
       "ver": "1.0.6",
-      "uuid": "8f30c5ae-1909-4ecf-bc5d-757e21dd6b22",
+      "uuid": "67d04647-f7dc-4892-a443-d0fb8e187a39",
       "importer": "sprite-frame",
-      "rawTextureUuid": "3640e3ae-c78d-460d-b981-1fcf0e191cb9",
+      "rawTextureUuid": "e5cb3f56-4e87-4e47-a5eb-92fa34870bbb",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

@@ -16,8 +16,8 @@
     "questionData": [
       {
         "questionText": "magic words",
-        "questionImageName": "Asset1.png",
-        "questionAudioName": "selecttheimagewhenyouwouldsaysorry..mp3",
+        "questionImageName": "sorry",
+        "questionAudioName": "2964858_1_select-the-image-where.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset54.png",
         "isOptionText": false,
@@ -26,13 +26,13 @@
           "8.png",
           "1.png"
         ],
-        "correctAudioName": "Ifyouknowinglyorunknowinglyhurtsomeonesaysorry.mp3",
+        "correctAudioName": "2964858_2_if-you-knowingly-or-un.mp3",
         "correctAnswerNum": "2"
       },
       {
         "questionText": "magic words",
-        "questionImageName": "Asset2.png",
-        "questionAudioName": "selecttheimagewhenyouwouldsayplease.mp3",
+        "questionImageName": "please",
+        "questionAudioName": "2964858_3_select-the-image-where.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset54.png",
         "isOptionText": false,
@@ -41,13 +41,13 @@
           "2.png",
           "6.png"
         ],
-        "correctAudioName": "IfyouwantsomeonetosharesomethingwithyousayPlease.mp3",
+        "correctAudioName": "2964858_4_if-you-want-someone-to.mp3",
         "correctAnswerNum": "1"
       },
       {
         "questionText": "magic words",
-        "questionImageName": "Asset3.png",
-        "questionAudioName": "selecttheimagewhenyouwouldsaythankyou.mp3",
+        "questionImageName": "thank you",
+        "questionAudioName": "2964858_5_select-the-image-where.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset54.png",
         "isOptionText": false,
@@ -56,13 +56,13 @@
           "3.png",
           "1.png"
         ],
-        "correctAudioName": "IfsomeoneshareswithyousayThankyou.mp3",
+        "correctAudioName": "2964858_6_if-someone-shares-with.mp3",
         "correctAnswerNum": "1"
       },
       {
         "questionText": "magic words",
-        "questionImageName": "Asset2.png",
-        "questionAudioName": "selecttheimagewhenyouwouldsayplease.mp3",
+        "questionImageName": "please",
+        "questionAudioName": "2964858_3_select-the-image-where.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset54.png",
         "isOptionText": false,
@@ -71,13 +71,13 @@
           "1.png",
           "7.png"
         ],
-        "correctAudioName": "IfyouwanthelpfrommummyordaddytopackyourschoolbagsayPlease.mp3",
+        "correctAudioName": "2964858_7_if-you-want-help-from-.mp3",
         "correctAnswerNum": "2"
       },
       {
         "questionText": "magic words",
-        "questionImageName": "Asset3.png",
-        "questionAudioName": "selecttheimagewhenyouwouldsaythankyou.mp3",
+        "questionImageName": "thank you",
+        "questionAudioName": "2964858_5_select-the-image-where.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset54.png",
         "isOptionText": false,
@@ -86,13 +86,13 @@
           "8.png",
           "1.png"
         ],
-        "correctAudioName": "IfyougethelpfrommummyanddaddysayThankyou.mp3",
+        "correctAudioName": "2964858_8_if-u-get-help-from-mum.mp3",
         "correctAnswerNum": "1"
       },
       {
         "questionText": "magic words",
-        "questionImageName": "Asset3.png",
-        "questionAudioName": "selecttheimagewhenyouwouldsaythankyou.mp3",
+        "questionImageName": "thank you",
+        "questionAudioName": "2964858_5_select-the-image-where.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset54.png",
         "isOptionText": false,
@@ -101,7 +101,7 @@
           "6.png",
           "9.png"
         ],
-        "correctAudioName": "IfsomeonepicksupfallenthingsforyousayThankyou.mp3",
+        "correctAudioName": "2964858_9_if-someone-picks-up-fa.mp3",
         "correctAnswerNum": "2"
       }
     ]

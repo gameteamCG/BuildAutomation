@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "C:\\Users\\deeks\\CocosProjects\\EYFS",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
