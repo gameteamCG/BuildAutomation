@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "Meeting the security guard in the morning",
+        "questionText": "Meeting the security guard in the morning.",
         "questionImageName": "1.png",
         "questionAudioName": "L1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -30,7 +30,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "When the peon helps carry books",
+        "questionText": "When the peon helps carry books.",
         "questionImageName": "2.png",
         "questionAudioName": "L2.mp3",
         "shouldPlayQuestionAudio": true,
@@ -45,7 +45,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Spilling water near the staff room",
+        "questionText": "Spilling water near the staff room.",
         "questionImageName": "3.png",
         "questionAudioName": "L3.mp3",
         "shouldPlayQuestionAudio": true,
@@ -60,7 +60,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Asking the librarian for a book",
+        "questionText": "Asking the librarian for a book.",
         "questionImageName": "4.png",
         "questionAudioName": "L4.mp3",
         "shouldPlayQuestionAudio": true,
@@ -75,7 +75,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Leaving school",
+        "questionText": "Leaving school.",
         "questionImageName": "5.png",
         "questionAudioName": "L5.mp3",
         "shouldPlayQuestionAudio": true,
@@ -90,7 +90,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "When the canteen staff gives snacks",
+        "questionText": "When the canteen staff gives snacks.",
         "questionImageName": "6.png",
         "questionAudioName": "L6.mp3",
         "shouldPlayQuestionAudio": true,
@@ -105,7 +105,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Accidentally bumping into the janitor",
+        "questionText": "Accidentally bumping into the janitor.",
         "questionImageName": "7.png",
         "questionAudioName": "L7.mp3",
         "shouldPlayQuestionAudio": true,

@@ -1,5 +1,3 @@
-
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
 import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
@@ -11,7 +9,6 @@ export default class NewClass extends cc.Component {
 
     @property(cc.SpriteFrame)
     private extraImg: cc.SpriteFrame = null;
-
     @property(cc.Font)
     private podar_font: cc.Font = null;
     @property(cc.Font)
@@ -20,61 +17,42 @@ export default class NewClass extends cc.Component {
     private tlc_font: cc.Font = null;
     @property(cc.Font)
     private supercub_font: cc.Font = null;
-
-
     @property(cc.AudioClip)
     private popSound: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private popSound2: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private questionSound: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private positiveSound: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private negativeSound: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private positiveAudio: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private negativeAudio: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
-    private stallionPositive: cc.AudioClip[] = [];
-
+    private stallionPositive: cc.AudioClip[] = []
     @property(cc.AudioClip)
     private stallionNegative: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private bagPositive: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private bagNegative: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private cryonPositive: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private cryonNegative: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private tlcPositive: cc.AudioClip[] = [];
     @property(cc.AudioClip)
     private tlcNegative: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private supercubPositive: cc.AudioClip[] = [];
     @property(cc.AudioClip)
     private supercubNegative: cc.AudioClip[] = [];
-
-
     @property(cc.AudioClip)
     private tlc_birdFlying: cc.AudioClip = null;
-
     @property(cc.AudioClip)
     private supercub_Pos1: cc.AudioClip = null;
     @property(cc.AudioClip)
@@ -83,10 +61,8 @@ export default class NewClass extends cc.Component {
     private supercub_Neg1: cc.AudioClip = null;
     @property(cc.AudioClip)
     private supercub_Neg2: cc.AudioClip = null;
-
     @property(cc.Material)
     defaultMat: cc.Material = null;
-
     @property(cc.Material)
     greyMat: cc.Material = null;
 
@@ -106,8 +82,6 @@ export default class NewClass extends cc.Component {
 
 
     private questionBoxPosY: number = 0;
-
-    // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
         if (startGame.Instance.jockeyName == "Podar") {
@@ -133,11 +107,7 @@ export default class NewClass extends cc.Component {
             cc.director.preloadScene("endScreen");
         }
         console.log(`levelStarted--` + globalVariables.Instance.currentLevel);
-
         this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
-
-
-
         if (startGame.Instance.isDemoGame) {
             cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (err, audioClip) => {
                 if (err) {
@@ -159,11 +129,11 @@ export default class NewClass extends cc.Component {
                         console.error("Failed to load image:", err);
                         return;
                     }
-                    const spriteFrame = new cc.SpriteFrame(texture);
-                    this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
-                        this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    }
+                    // const spriteFrame = new cc.SpriteFrame(texture);
+                    // this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
+                    //     this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // }
                 });
             }
 
@@ -173,7 +143,7 @@ export default class NewClass extends cc.Component {
                     return;
                 }
                 const spriteFrame = new cc.SpriteFrame(texture);
-                this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
             });
             for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
@@ -184,30 +154,13 @@ export default class NewClass extends cc.Component {
                             return;
                         }
                         const spriteFrame = new cc.SpriteFrame(texture);
-                        this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     });
                 }
                 else {
-                    // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
                 }
             }
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option1ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("1").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option2ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("2").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
         }
         else {
             this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (AudioClip) => {
@@ -218,21 +171,21 @@ export default class NewClass extends cc.Component {
             });
             if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName != "") {
                 this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName, (spriteFrame) => {
-                    this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
-                        this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    }
+                    // this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
+                    //     this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // }
                 });
 
             }
             this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionImageName, (spriteFrame) => {
-                this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
             });
 
             for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
                     this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (spriteFrame) => {
-                        this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     });
                 }
 
@@ -311,7 +264,7 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.node.getChildByName("QuestionBox"))
-                    .to(1, { scale: 1.3 }, { easing: "sineInOut" }).start();
+                    .to(1, { scale: 1.1 }, { easing: "sineInOut" }).start();
             }, 0.1);
             this.scheduleOnce(() => {
                 cc.tween(this.node.getChildByName("QuestionBox"))
@@ -516,12 +469,10 @@ export default class NewClass extends cc.Component {
     }
 
     callPositiveRection(_node: cc.Node) {
-        // _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
         cc.audioEngine.playEffect(this.correctAudio, false);
-        // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
-        cc.tween(_node.children[0]).to(0.5, { scale: 1.3 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { scale: 1.43 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
             this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
