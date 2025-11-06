@@ -1690,8 +1690,8 @@
     "relativePath": "Games\\SwipeToForm\\Confetti 2\\Confetti_143.png"
   },
   "cbf3af2d-f1a9-4cef-b2a9-cfaa102c57c2": {
-    "asset": 1762420089513,
-    "meta": 1762420089517,
+    "asset": 1762422599895,
+    "meta": 1762422599899,
     "relativePath": "Games\\SwipeToForm\\Scenes\\1.fire"
   },
   "4954c3d6-973f-4635-a0ca-a5111c2b0a12": {
@@ -2949,55 +2949,15 @@
     "meta": 1762407538495,
     "relativePath": "resources\\images\\milk.png"
   },
-  "f0e9e02f-748e-4cff-b63b-82349b88ff5e": {
-    "asset": 1762407538449,
-    "meta": 1762407538498,
-    "relativePath": "resources\\images\\desk.png"
-  },
-  "8c4e6383-0809-477b-804b-1181d4d4ca46": {
-    "asset": 1762407538448,
-    "meta": 1762407538503,
-    "relativePath": "resources\\images\\hand.png"
-  },
-  "41a1d6f7-0880-4e93-bcd1-e162ea3fb66c": {
-    "asset": 1762407538449,
-    "meta": 1762407538507,
-    "relativePath": "resources\\images\\jump.png"
-  },
-  "9b28c0c4-86ac-49fe-8862-5e83231edc2c": {
-    "asset": 1762407538449,
-    "meta": 1762407538512,
-    "relativePath": "resources\\images\\lamp.png"
-  },
   "5a8e0938-94ab-44b7-b94f-b2e99be80afa": {
     "asset": 1762407538468,
     "meta": 1762407538514,
     "relativePath": "resources\\audios"
   },
-  "4c2b7234-18b8-4076-bb68-476fde4a44bf": {
-    "asset": 1762407538448,
-    "meta": 1762407538532,
-    "relativePath": "resources\\images\\gift.png"
-  },
-  "07f2a000-e49f-446f-b989-00dd226fcc1a": {
-    "asset": 1762407538449,
-    "meta": 1762407538537,
-    "relativePath": "resources\\images\\pond.png"
-  },
   "cd6e68b5-d035-4592-afe1-38d6646885fe": {
     "asset": 1762407538449,
     "meta": 1762407538565,
     "relativePath": "resources\\images\\title.png"
-  },
-  "0d97162f-ad74-466a-adeb-f529326b717d": {
-    "asset": 1762407538449,
-    "meta": 1762407538568,
-    "relativePath": "resources\\images\\sand.png"
-  },
-  "d4bb21cb-c90e-4d92-9709-51363b06b1d2": {
-    "asset": 1762407538449,
-    "meta": 1762407538574,
-    "relativePath": "resources\\images\\tent.png"
   },
   "fd1b500b-4ff6-418e-9dd3-a29efff227f7": {
     "asset": 1762407538449,
@@ -3233,5 +3193,45 @@
     "asset": 1762420055608,
     "meta": 1762420056857,
     "relativePath": "Games\\SwipeToForm\\Scripts\\Gameplay.ts"
+  },
+  "f0e9e02f-748e-4cff-b63b-82349b88ff5e": {
+    "asset": 1762422537800,
+    "meta": 1762422537880,
+    "relativePath": "resources\\images\\desk.png"
+  },
+  "9b28c0c4-86ac-49fe-8862-5e83231edc2c": {
+    "asset": 1762422537800,
+    "meta": 1762422537882,
+    "relativePath": "resources\\images\\lamp.png"
+  },
+  "4c2b7234-18b8-4076-bb68-476fde4a44bf": {
+    "asset": 1762422537800,
+    "meta": 1762422537884,
+    "relativePath": "resources\\images\\gift.png"
+  },
+  "8c4e6383-0809-477b-804b-1181d4d4ca46": {
+    "asset": 1762422537800,
+    "meta": 1762422537885,
+    "relativePath": "resources\\images\\hand.png"
+  },
+  "d4bb21cb-c90e-4d92-9709-51363b06b1d2": {
+    "asset": 1762422537800,
+    "meta": 1762422537889,
+    "relativePath": "resources\\images\\tent.png"
+  },
+  "41a1d6f7-0880-4e93-bcd1-e162ea3fb66c": {
+    "asset": 1762422537800,
+    "meta": 1762422537891,
+    "relativePath": "resources\\images\\jump.png"
+  },
+  "07f2a000-e49f-446f-b989-00dd226fcc1a": {
+    "asset": 1762422537800,
+    "meta": 1762422537893,
+    "relativePath": "resources\\images\\pond.png"
+  },
+  "0d97162f-ad74-466a-adeb-f529326b717d": {
+    "asset": 1762422537800,
+    "meta": 1762422537894,
+    "relativePath": "resources\\images\\sand.png"
   }
 }
