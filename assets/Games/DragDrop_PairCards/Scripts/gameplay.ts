@@ -815,7 +815,7 @@ export default class NewClass extends cc.Component {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
                 this.scheduleOnce(() => {
-                    cc.tween(this.currentJcokey).to(0.5, { x: 1200 }, { easing: "quartInOut" }).start();
+                    cc.tween(this.currentJcokey).to(0.5, { x: 1500 }, { easing: "quartInOut" }).start();
                     if (startGame.Instance.jockeyName != "stallion") {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                     }

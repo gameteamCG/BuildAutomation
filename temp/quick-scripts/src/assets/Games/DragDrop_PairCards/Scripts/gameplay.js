@@ -753,7 +753,7 @@ var NewClass = /** @class */ (function (_super) {
                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
                 _this.scheduleOnce(function () {
-                    cc.tween(_this.currentJcokey).to(0.5, { x: 1200 }, { easing: "quartInOut" }).start();
+                    cc.tween(_this.currentJcokey).to(0.5, { x: 1500 }, { easing: "quartInOut" }).start();
                     if (StartGame_1.default.Instance.jockeyName != "stallion") {
                         _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                     }
