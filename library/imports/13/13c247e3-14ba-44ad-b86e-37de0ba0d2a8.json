@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Same and Different_PNUR_Numeracy book_pg6",
-      "totalLevel": "5",
+      "totalLevel": "7",
       "TitleImageName": "Asset147.png",
       "introBgName": "PLAYGROUP.png",
       "bgmMusicName": "hksmi.mp3",
@@ -43,7 +43,7 @@
         "isOptionBG": true,
         "numberOfOptions": 4,
         "options": [
-          "4.png",
+          "3.png",
           "3.png",
           "3.png",
           "3.png"
@@ -63,7 +63,7 @@
         "numberOfOptions": 4,
         "options": [
           "5.png",
-          "6.png",
+          "5.png",
           "5.png",
           "5.png"
         ],
@@ -101,9 +101,47 @@
         "numberOfOptions": 4,
         "options": [
           "9.png",
-          "10.png",
+          "9.png",
           "9.png",
           "9.png"
+        ],
+        "correctAudios": [
+          "evo.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "odd one out",
+        "questionAudioName": "identifyandtapontheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Questioncard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "10.png",
+          "7.png",
+          "7.png",
+          "7.png"
+        ],
+        "correctAudios": [
+          "evo.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "odd one out",
+        "questionAudioName": "identifyandtapontheoddoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Questioncard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 4,
+        "options": [
+          "4.png",
+          "4.png",
+          "4.png",
+          "4.png"
         ],
         "correctAudios": [
           "evo.mp3"

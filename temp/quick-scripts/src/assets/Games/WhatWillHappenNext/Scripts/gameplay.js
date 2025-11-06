@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -79,6 +79,15 @@ var NewClass = /** @class */ (function (_super) {
         _this.isOptionBG = false;
         _this.TotalOptions = 0;
         _this.positionArray = [];
+        _this.scaleArray = [
+            [1, 1, 1, 1],
+            [0.7, 1, 1, 1],
+            [1, 0.7, 1, 1],
+            [1, 1, 1, 1],
+            [1, 1, 1, 0.7],
+            [1, 1, 1, 1],
+            [1, 0.7, 1, 1],
+        ];
         _this.isDone = [];
         _this.isLastTween = false;
         return _this;
@@ -102,19 +111,6 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         }
         this.TotalOptions = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions;
-        //if (startGame.Instance.optionLayout == "horizontal") {
-        //let optionsLayoutNode = cc.instantiate(this.HorizntalOptionNode);
-        // optionsLayoutNode.setParent(this.node);
-        // optionsLayoutNode.name = "Option"
-        // optionsLayoutNode.setSiblingIndex(5);
-        // optionsLayoutNode.setPosition(cc.v2(0, 0));
-        //}
-        // else if (startGame.Instance.optionLayout == "vertical") {
-        //     let optionsLayoutNode = cc.instantiate(this.VerticalOptionNode);
-        //     optionsLayoutNode.setParent(this.node);
-        //     optionsLayoutNode.name = "Option"
-        //     optionsLayoutNode.setSiblingIndex(5);
-        // }
         this.optionsNode = this.node.getChildByName("Option");
         //console.log("optionsNode--" + this.optionsNode);
         this.node.getChildByName("QuestionBox").zIndex = 1;
@@ -312,6 +308,7 @@ var NewClass = /** @class */ (function (_super) {
             option.name = (i + 1).toString();
             option.setParent(this.node.getChildByName("Option"));
             option.setPosition(cc.v2(0, 0));
+            this.node.getChildByName("Option").children[i].getChildByName("img").scale = this.scaleArray[globalVariables_1.default.Instance.currentLevel - 1][i];
             option.opacity = 0;
             //console.log("isOptionBG--" + this.isOptionBG);
             if (this.isOptionBG) {

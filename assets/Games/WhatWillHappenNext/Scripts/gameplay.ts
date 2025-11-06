@@ -1,5 +1,4 @@
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -115,6 +114,15 @@ export default class NewClass extends cc.Component {
     isOptionBG: boolean = false;
     TotalOptions: number = 0;
     positionArray: cc.Vec2[] = [];
+    scaleArray: number[][] = [
+        [1, 1, 1, 1],
+        [0.7, 1, 1, 1],
+        [1, 0.7, 1, 1],
+        [1, 1, 1, 1],
+        [1, 1, 1, 0.7],
+        [1, 1, 1, 1],
+        [1, 0.7, 1, 1],
+    ]
     isDone: boolean[] = [];
     isLastTween: boolean = false;
 
@@ -136,24 +144,7 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         }
-
-
         this.TotalOptions = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions;
-
-
-        //if (startGame.Instance.optionLayout == "horizontal") {
-        //let optionsLayoutNode = cc.instantiate(this.HorizntalOptionNode);
-        // optionsLayoutNode.setParent(this.node);
-        // optionsLayoutNode.name = "Option"
-        // optionsLayoutNode.setSiblingIndex(5);
-        // optionsLayoutNode.setPosition(cc.v2(0, 0));
-        //}
-        // else if (startGame.Instance.optionLayout == "vertical") {
-        //     let optionsLayoutNode = cc.instantiate(this.VerticalOptionNode);
-        //     optionsLayoutNode.setParent(this.node);
-        //     optionsLayoutNode.name = "Option"
-        //     optionsLayoutNode.setSiblingIndex(5);
-        // }
         this.optionsNode = this.node.getChildByName("Option");
         //console.log("optionsNode--" + this.optionsNode);
         this.node.getChildByName("QuestionBox").zIndex = 1;
@@ -358,6 +349,7 @@ export default class NewClass extends cc.Component {
             option.name = (i + 1).toString();
             option.setParent(this.node.getChildByName("Option"));
             option.setPosition(cc.v2(0, 0));
+            this.node.getChildByName("Option").children[i].getChildByName("img").scale = this.scaleArray[globalVariables.Instance.currentLevel - 1][i]
             option.opacity = 0;
             //console.log("isOptionBG--" + this.isOptionBG);
             if (this.isOptionBG) {
