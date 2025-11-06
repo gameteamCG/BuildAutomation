@@ -6,17 +6,17 @@
   "json": {
     "additionalData": {
       "GameID": "Costumes_Grade 2(EVS)_R10_T2",
-      "totalLevel": "12",
-      "TitleImageName": "game_title.png",
-      "introBgName": "Main_BG.png",
-      "bgmMusicName": "",
+      "totalLevel": "6",
+      "TitleImageName": "Parts of the house.png",
+      "introBgName": "bg12 (1).png",
+      "bgmMusicName": "BGM.mp3",
       "mainBgName": "bg.png",
-      "JockeyName": "bag"
+      "JockeyName": "puzzle"
     },
     "questionData": [
       {
-        "questionText": "Costumes",
-        "questionAudioName": "QVO.mp3",
+        "questionText": "Parts of the house",
+        "questionAudioName": "Solve the picture puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "common_puzzle_bg.png",
         "isHintRequired": false,
@@ -31,21 +31,21 @@
         "needReiteration": true,
         "interactionType": "1",
         "questionText2": "",
-        "questionAudioName2": "QVO_2.mp3",
-        "commonOptionImageName": "option_bg.png",
+        "questionAudioName2": "qvo2.mp3",
+        "commonOptionImageName": "option.png",
         "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "South America",
-          "Europe",
-          "Asia"
+          "C",
+          "A",
+          "H"
         ],
         "correctAnswer": "1",
-        "reiterationAudioName": "L1_ANS.mp3"
+        "reiterationAudioName": "chimney.mp3"
       },
       {
-        "questionText": "Costumes",
-        "questionAudioName": "QVO.mp3",
+        "questionText": "Parts of the house",
+        "questionAudioName": "Solve the picture puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "common_puzzle_bg.png",
         "isHintRequired": false,
@@ -60,21 +60,21 @@
         "needReiteration": true,
         "interactionType": "1",
         "questionText2": "",
-        "questionAudioName2": "QVO_2.mp3",
-        "commonOptionImageName": "option_bg.png",
+        "questionAudioName2": "qvo2.mp3",
+        "commonOptionImageName": "option.png",
         "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "North America",
-          "Africa",
-          "Europe"
+          "A",
+          "L",
+          "D"
         ],
         "correctAnswer": "2",
-        "reiterationAudioName": "L2_ANS.mp3"
+        "reiterationAudioName": "lawn.mp3"
       },
       {
-        "questionText": "Costumes",
-        "questionAudioName": "QVO.mp3",
+        "questionText": "Parts of the house",
+        "questionAudioName": "Solve the picture puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "common_puzzle_bg.png",
         "isHintRequired": false,
@@ -89,21 +89,21 @@
         "needReiteration": true,
         "interactionType": "1",
         "questionText2": "",
-        "questionAudioName2": "QVO_2.mp3",
-        "commonOptionImageName": "option_bg.png",
+        "questionAudioName2": "qvo2.mp3",
+        "commonOptionImageName": "option.png",
         "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "Asia",
-          "Europe",
-          "Greenland, North America"
+          "N",
+          "M",
+          "D"
         ],
         "correctAnswer": "3",
-        "reiterationAudioName": "L3_ANS.mp3"
+        "reiterationAudioName": "door.mp3"
       },
       {
-        "questionText": "Costumes",
-        "questionAudioName": "QVO.mp3",
+        "questionText": "Parts of the house",
+        "questionAudioName": "Solve the picture puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "common_puzzle_bg.png",
         "isHintRequired": false,
@@ -118,21 +118,21 @@
         "needReiteration": true,
         "interactionType": "1",
         "questionText2": "",
-        "questionAudioName2": "QVO_2.mp3",
-        "commonOptionImageName": "option_bg.png",
+        "questionAudioName2": "qvo2.mp3",
+        "commonOptionImageName": "option.png",
         "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "Thailand, Asia",
-          "Europe",
-          "North America"
+          "L",
+          "N",
+          "A"
         ],
         "correctAnswer": "1",
-        "reiterationAudioName": "L4_ANS.mp3"
+        "reiterationAudioName": "laundry_room.mp3"
       },
       {
-        "questionText": "Costumes",
-        "questionAudioName": "QVO.mp3",
+        "questionText": "Parts of the house",
+        "questionAudioName": "Solve the picture puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "common_puzzle_bg.png",
         "isHintRequired": false,
@@ -147,21 +147,21 @@
         "needReiteration": true,
         "interactionType": "1",
         "questionText2": "",
-        "questionAudioName2": "QVO_2.mp3",
-        "commonOptionImageName": "option_bg.png",
+        "questionAudioName2": "qvo2.mp3",
+        "commonOptionImageName": "option.png",
         "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "Bangladesh, Nepal, Sri Lanka, Bharat, Pakistan",
-          "Germany",
-          "Venezuela"
+          "W",
+          "D",
+          "C"
         ],
         "correctAnswer": "1",
-        "reiterationAudioName": "L5_ANS.mp3"
+        "reiterationAudioName": "windows.mp3"
       },
       {
-        "questionText": "Costumes",
-        "questionAudioName": "QVO.mp3",
+        "questionText": "Parts of the house",
+        "questionAudioName": "Solve the picture puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "common_puzzle_bg.png",
         "isHintRequired": false,
@@ -176,191 +176,17 @@
         "needReiteration": true,
         "interactionType": "1",
         "questionText2": "",
-        "questionAudioName2": "QVO_2.mp3",
-        "commonOptionImageName": "option_bg.png",
+        "questionAudioName2": "qvo2.mp3",
+        "commonOptionImageName": "option.png",
         "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "Asia",
-          "Central Europe",
-          "South America"
-        ],
-        "correctAnswer": "2",
-        "reiterationAudioName": "L6_ANS.mp3"
-      },
-      {
-        "questionText": "Costumes",
-        "questionAudioName": "QVO.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonPuzzleImageName": "common_puzzle_bg.png",
-        "isHintRequired": false,
-        "numberOfPuzzles": 4,
-        "puzzles": [
-          "L7_1.png",
-          "L7_2.png",
-          "L7_3.png",
-          "L7_4.png"
-        ],
-        "correctAudioName": "empty.mp3",
-        "needReiteration": true,
-        "interactionType": "1",
-        "questionText2": "",
-        "questionAudioName2": "QVO_2.mp3",
-        "commonOptionImageName": "option_bg.png",
-        "isOptionText": true,
-        "numberOfOptions": 3,
-        "options": [
-          "Europe",
-          "North America",
-          "Kashmir"
+          "W",
+          "L",
+          "R"
         ],
         "correctAnswer": "3",
-        "reiterationAudioName": "L7_ANS.mp3"
-      },
-      {
-        "questionText": "Costumes",
-        "questionAudioName": "QVO.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonPuzzleImageName": "common_puzzle_bg.png",
-        "isHintRequired": false,
-        "numberOfPuzzles": 4,
-        "puzzles": [
-          "L8_1.png",
-          "L8_2.png",
-          "L8_3.png",
-          "L8_4.png"
-        ],
-        "correctAudioName": "empty.mp3",
-        "needReiteration": true,
-        "interactionType": "1",
-        "questionText2": "",
-        "questionAudioName2": "QVO_2.mp3",
-        "commonOptionImageName": "option_bg.png",
-        "isOptionText": true,
-        "numberOfOptions": 3,
-        "options": [
-          "Rajasthan",
-          "South America",
-          "Germany"
-        ],
-        "correctAnswer": "1",
-        "reiterationAudioName": "L8_ANS.mp3"
-      },
-      {
-        "questionText": "Costumes",
-        "questionAudioName": "QVO.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonPuzzleImageName": "common_puzzle_bg.png",
-        "isHintRequired": false,
-        "numberOfPuzzles": 4,
-        "puzzles": [
-          "L9_1.png",
-          "L9_2.png",
-          "L9_3.png",
-          "L9_4.png"
-        ],
-        "correctAudioName": "empty.mp3",
-        "needReiteration": true,
-        "interactionType": "1",
-        "questionText2": "",
-        "questionAudioName2": "QVO_2.mp3",
-        "commonOptionImageName": "option_bg.png",
-        "isOptionText": true,
-        "numberOfOptions": 3,
-        "options": [
-          "Russia",
-          "Canada",
-          "Maharashtra"
-        ],
-        "correctAnswer": "3",
-        "reiterationAudioName": "L9_ANS.mp3"
-      },
-      {
-        "questionText": "Costumes",
-        "questionAudioName": "QVO.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonPuzzleImageName": "common_puzzle_bg.png",
-        "isHintRequired": false,
-        "numberOfPuzzles": 4,
-        "puzzles": [
-          "L10_1.png",
-          "L10_2.png",
-          "L10_3.png",
-          "L10_4.png"
-        ],
-        "correctAudioName": "empty.mp3",
-        "needReiteration": true,
-        "interactionType": "1",
-        "questionText2": "",
-        "questionAudioName2": "QVO_2.mp3",
-        "commonOptionImageName": "option_bg.png",
-        "isOptionText": true,
-        "numberOfOptions": 3,
-        "options": [
-          "Rajasthan",
-          "Europe",
-          "South America"
-        ],
-        "correctAnswer": "1",
-        "reiterationAudioName": "L10_ANS.mp3"
-      },
-      {
-        "questionText": "Costumes",
-        "questionAudioName": "QVO.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonPuzzleImageName": "common_puzzle_bg.png",
-        "isHintRequired": false,
-        "numberOfPuzzles": 4,
-        "puzzles": [
-          "L11_1.png",
-          "L11_2.png",
-          "L11_3.png",
-          "L11_4.png"
-        ],
-        "correctAudioName": "empty.mp3",
-        "needReiteration": true,
-        "interactionType": "1",
-        "questionText2": "",
-        "questionAudioName2": "QVO_2.mp3",
-        "commonOptionImageName": "option_bg.png",
-        "isOptionText": true,
-        "numberOfOptions": 3,
-        "options": [
-          "Central Europe",
-          "Gujarat",
-          "Australia"
-        ],
-        "correctAnswer": "2",
-        "reiterationAudioName": "L11_ANS.mp3"
-      },
-      {
-        "questionText": "Costumes",
-        "questionAudioName": "QVO.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonPuzzleImageName": "common_puzzle_bg.png",
-        "isHintRequired": false,
-        "numberOfPuzzles": 4,
-        "puzzles": [
-          "L12_1.png",
-          "L12_2.png",
-          "L12_3.png",
-          "L12_4.png"
-        ],
-        "correctAudioName": "empty.mp3",
-        "needReiteration": true,
-        "interactionType": "1",
-        "questionText2": "",
-        "questionAudioName2": "QVO.mp3",
-        "commonOptionImageName": "option_bg.png",
-        "isOptionText": true,
-        "numberOfOptions": 3,
-        "options": [
-          "South Bharat",
-          "Greenland",
-          "North America"
-        ],
-        "correctAnswer": "1",
-        "reiterationAudioName": "L12_ANS.mp3"
+        "reiterationAudioName": "roof.mp3"
       }
     ]
   }

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "0bfed800-268d-44d0-bba2-7f304640e5b7",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 432,
+  "height": 207,
+  "platformSettings": {},
+  "subMetas": {
+    "Parts of the house": {
+      "ver": "1.0.6",
+      "uuid": "5e255678-56e9-4681-8014-7e94783bc747",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0bfed800-268d-44d0-bba2-7f304640e5b7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 1,
+      "trimX": 3,
+      "trimY": 7,
+      "width": 425,
+      "height": 191,
+      "rawWidth": 432,
+      "rawHeight": 207,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

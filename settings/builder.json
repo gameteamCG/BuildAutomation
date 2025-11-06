@@ -1,5 +1,5 @@
 {
-  "title": "JaipuriaNewTerm_Costumes_Grade_2_EVS_R10_T2",
+  "title": "parts_of_the_house_fs1_r130_EYFS_FIX",
   "packageName": "org.cocos2d.demo",
   "startScene": "68bfb103-2902-430d-8402-5df6b963f7b7",
   "excludeScenes": [
@@ -15,7 +15,8 @@
     "fa2a28d8-32e6-464f-b512-3b27feaabb3c",
     "050bbc64-a4e8-4199-b9e2-b6767989334e",
     "b5964982-dce5-4d73-9f7d-6444ff1449a9",
-    "1a752303-3420-46ab-9264-8fc53930db15"
+    "1a752303-3420-46ab-9264-8fc53930db15",
+    "b4b0157d-42f1-44fb-b6a0-23a43a2f3fc3"
   ],
   "orientation": {
     "landscapeRight": true,

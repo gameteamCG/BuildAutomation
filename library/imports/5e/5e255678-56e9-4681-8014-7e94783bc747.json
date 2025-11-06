@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Parts of the house",
+    "texture": "0bfed800-268d-44d0-bba2-7f304640e5b7",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      425,
+      191
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      432,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

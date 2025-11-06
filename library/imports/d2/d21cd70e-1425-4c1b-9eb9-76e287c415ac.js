@@ -220,13 +220,13 @@ var startGame = /** @class */ (function (_super) {
                 // Assign question data to the variable
                 _this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
-                _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.TitleImageName), function (spriteFrame) {
-                    cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                });
-                _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.introBgName), function (spriteFrame) {
-                    cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    _this.introBG = spriteFrame;
-                });
+                // this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.TitleImageName), (spriteFrame) => {
+                //     cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                // });
+                // this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.introBgName), (spriteFrame) => {
+                //     cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                //     this.introBG = spriteFrame;
+                // });
                 _this.loadAudioClip(_this.removeAudioExtension(jsonData.additionalData.bgmMusicName), function (AudioClip) {
                     _this.BGM_audio = AudioClip;
                     var id = cc.audioEngine.playMusic(_this.BGM_audio, true);
@@ -343,6 +343,9 @@ var startGame = /** @class */ (function (_super) {
             else if (_this.jockeyName == "stallion") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
             }
+            // else if (this.jockeyName == "puzzle") {
+            //     cc.find("Canvas").getChildByName("bg").getChildByName("puzzle").active = true;
+            // }
             else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }

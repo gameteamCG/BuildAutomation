@@ -147,6 +147,10 @@ export default class NewClass extends cc.Component {
             this.positiveAudio = this.bagPositive;
             this.negativeAudio = this.bagNegative;
         }
+        if (startGame.Instance.jockeyName == "puzzle") {
+            this.positiveAudio = this.bagPositive;
+            this.negativeAudio = this.bagNegative;
+        }
         else if (startGame.Instance.jockeyName == "cryon") {
             this.positiveAudio = this.cryonPositive;
             this.negativeAudio = this.cryonNegative;
@@ -645,6 +649,9 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "cryon") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
+        else if (startGame.Instance.jockeyName == "puzzle") {
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+        }
         else if (startGame.Instance.jockeyName == "Singham") {
             anim = ["dance", "thumbs_up"];
         }
@@ -714,6 +721,9 @@ export default class NewClass extends cc.Component {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
             else if (startGame.Instance.jockeyName == "cryon") {
+                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
+            }
+            else if (startGame.Instance.jockeyName == "puzzle") {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
             }
             else if (startGame.Instance.jockeyName == "Singham") {
