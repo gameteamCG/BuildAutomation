@@ -23,7 +23,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scrip/ts/ProgressBar";
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -37,6 +38,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.supercub_font = null;
         _this.optionsNode = null;
         _this.pop_sound = null;
+        _this.rocket = null;
         _this.swipe_sound = null;
         _this.correctSound = null;
         _this.positiveSound = [];
@@ -169,18 +171,18 @@ var Gameplay = /** @class */ (function (_super) {
             }
             var delay = 0.2;
             var _loop_1 = function (i) {
-                _this.optionsNode.children[i].scale = 0;
+                _this.optionsNode.children[i].scale = 1;
                 _this.optionsNode.children[i].opacity = 255;
+                _this.optionsNode.children[i].y = -1500;
+                cc.tween(_this.optionsNode.children[i]).to(1, { y: -50 }).start();
                 _this.scheduleOnce(function () {
-                    cc.audioEngine.playEffect(_this.pop_sound, false);
-                    cc.tween(_this.optionsNode.children[i]).to(0.3, { scale: 1 }, { easing: 'backInOut' }).start();
+                    cc.audioEngine.playEffect(_this.rocket, false);
                     if (i == _this.optionsNode.children.length - 1) {
                         _this.scheduleOnce(function () {
                             _this.SubcribeEvents();
                         }, 0.3);
                     }
-                }, delay);
-                delay += 0.2;
+                }, 0.2);
             };
             for (var i = 0; i < _this.optionsNode.children.length; i++) {
                 _loop_1(i);
@@ -271,7 +273,7 @@ var Gameplay = /** @class */ (function (_super) {
             optionNode.setParent(this_1.optionsNode);
             optionNode.setPosition(cc.v2(0, 0));
             optionNode.getChildByName("img").setPosition(cc.v2(optionNode.getChildByName("img").getPosition().x, questionData.optionOffset));
-            optionNode.getChildByName("text").setPosition(cc.v2(optionNode.getChildByName("text").getPosition().x, questionData.optionOffset));
+            optionNode.getChildByName("text").setPosition(cc.v2(optionNode.getChildByName("text").getPosition().x, 200));
             if (questionData.commonOptionImageName != null && questionData.commonOptionImageName != "") {
                 if (StartGame_1.default.Instance.isDemoGame) {
                     cc.loader.load(questionData.commonOptionImageName, function (err, texture) {
@@ -280,17 +282,18 @@ var Gameplay = /** @class */ (function (_super) {
                             return;
                         }
                         var spriteFrame = new cc.SpriteFrame(texture);
-                        optionNode.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        optionNode.getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        console.log(optionNode.getChildByName("img").getComponent(cc.Sprite).spriteFrame.name);
                     });
                 }
                 else {
                     this_1.loadSpriteFrame(questionData.commonOptionImageName, function (spriteFrame) {
-                        optionNode.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        optionNode.getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        console.log(optionNode.getChildByName("img").getComponent(cc.Sprite).spriteFrame.name);
                     });
                 }
             }
             if (questionData.isOptionText) {
-                optionNode.getChildByName("img").active = false;
                 optionNode.getChildByName("text").active = true;
                 optionNode.getChildByName("text").getComponent(cc.Label).string = options[i];
             }
@@ -298,10 +301,9 @@ var Gameplay = /** @class */ (function (_super) {
                 optionNode.getChildByName("img").active = true;
                 optionNode.getChildByName("text").active = false;
                 this_1.node.getChildByName("reiteration").getChildByName("text").active = false;
-                if (questionData.commonOptionImageName == null || questionData.commonOptionImageName == "") {
-                    optionNode.getComponent(cc.Sprite).spriteFrame = null;
-                    optionNode.getChildByName("img").scale = 1;
-                }
+                // if (questionData.commonOptionImageName == null || questionData.commonOptionImageName == "") {
+                //     optionNode.getChildByName("img").scale = 1;
+                // }
                 if (StartGame_1.default.Instance.isDemoGame) {
                     cc.loader.load(options[i], function (err, texture) {
                         if (err) {
@@ -445,28 +447,40 @@ var Gameplay = /** @class */ (function (_super) {
             this.node.getChildByName("questionPanel").getChildByName("sound").active = false;
             // Additional logic for when the order is correct
             // console.log("need iteration--" + this.needReiteration);
-            cc.audioEngine.playEffect(this.correctSound, false);
+            // cc.audioEngine.playEffect(this.correctSound, false);
             if (this.needReiteration) {
                 // this.optionsNode.active = false;
                 this.node.getChildByName("reiteration").active = true;
                 this.node.getChildByName("reiteration").scale = 0;
-                cc.tween(this.optionsNode).to(0.25, { scaleX: 0 }, { easing: 'backInOut' }).start();
-                cc.tween(this.node.getChildByName("reiteration")).to(0.5, { scale: 1 }, { easing: 'sineInOut' }).start();
+                // cc.tween(this.optionsNode).to(0.25, { scaleX: 0 }, { easing: 'backInOut' }).start();
                 this.scheduleOnce(function () {
-                    _this.optionsNode.active = false;
-                    _this.node.getChildByName("confetti").active = true;
-                    _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
-                    var VOduration = 0;
-                    if (_this.correctVO) {
-                        VOduration = _this.correctVO.duration;
+                    for (var i = 0; i < _this.optionsNode.children.length; i++) {
+                        cc.tween(_this.optionsNode.children[i]).to(1, { y: 1550 }).start();
                     }
                     _this.scheduleOnce(function () {
-                        cc.audioEngine.playEffect(_this.correctVO, false);
+                        cc.audioEngine.playEffect(_this.rocket, false);
                         _this.scheduleOnce(function () {
-                            _this.callJockey();
-                        }, VOduration);
-                    }, 0.25);
-                }, 0.5);
+                            cc.tween(_this.node.getChildByName("reiteration")).to(0.5, { scale: 0.6 }, { easing: 'sineInOut' }).start();
+                            cc.tween(_this.node.getChildByName("questionPanel").getChildByName("panel")).to(0.5, { scale: 0.9 }, { easing: 'sineInOut' }).start();
+                            cc.audioEngine.playEffect(_this.pop_sound, false);
+                            _this.scheduleOnce(function () {
+                                _this.optionsNode.active = false;
+                                _this.node.getChildByName("confetti").active = true;
+                                _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+                                var VOduration = 0;
+                                if (_this.correctVO) {
+                                    VOduration = _this.correctVO.duration;
+                                }
+                                _this.scheduleOnce(function () {
+                                    cc.audioEngine.playEffect(_this.correctVO, false);
+                                    _this.scheduleOnce(function () {
+                                        _this.callJockey();
+                                    }, VOduration);
+                                }, 0.25);
+                            }, 0.5);
+                        }, 1);
+                    }, 0.2);
+                }, 1);
             }
             else {
                 this.node.getChildByName("confetti").active = true;
@@ -701,6 +715,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "pop_sound", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "rocket", void 0);
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "swipe_sound", void 0);

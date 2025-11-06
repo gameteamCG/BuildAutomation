@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sand",
+    "texture": "0d97162f-ad74-466a-adeb-f529326b717d",
+    "atlas": "",
+    "rect": [
+      34,
+      168,
+      432,
+      155
+    ],
+    "offset": [
+      0,
+      4.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

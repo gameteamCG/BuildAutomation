@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lamp",
+    "texture": "9b28c0c4-86ac-49fe-8862-5e83231edc2c",
+    "atlas": "",
+    "rect": [
+      95,
+      44,
+      273,
+      410
+    ],
+    "offset": [
+      -18.5,
+      1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

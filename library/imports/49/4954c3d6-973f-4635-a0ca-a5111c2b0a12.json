@@ -3314,7 +3314,7 @@
     },
     "_enabled": true,
     "BGM_audio": null,
-    "volume": 0.1,
+    "volume": 0.2,
     "NextSceneName": "1",
     "playBtn_audio": null,
     "TotalLevels": 7,

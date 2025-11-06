@@ -1,0 +1,213 @@
+{
+  "additionalData": {
+    "GameID": "null",
+    "totalLevel": "10",
+    "TitleImageName": "title.png",
+    "introBgName": "bg.png",
+    "bgmMusicName": "bgm_sc.mp3",
+    "mainBgName": "bg (6).png",
+    "JockeyName": "supercub"
+  },
+  "questionData": [
+    {
+      "questionText": "tent",
+      "questionImageName": "tent.png",
+      "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "purple.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "optionOffset": 100,
+      "options": [
+        "e",
+        "t",
+        "t",
+        "n"
+      ],
+      "correctAnswer": "tent",
+      "correctAudioName": "tent.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "tent.png"
+    },
+    {
+      "questionText": "hand",
+      "questionImageName": "hand.png",
+      "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "purple.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "optionOffset": 100,
+      "options": [
+        "a",
+        "n",
+        "h",
+        "d"
+      ],
+      "correctAnswer": "hand",
+      "correctAudioName": "hand.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "hand.png"
+    },
+    {
+      "questionText": "gift",
+      "questionImageName": "gift.png",
+      "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "pink.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "optionOffset": 100,
+      "options": [
+        "i",
+        "g",
+        "t",
+        "f"
+      ],
+      "correctAnswer": "gift",
+      "correctAudioName": "gift.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "gift.png"
+    },
+    {
+      "questionText": "pond",
+      "questionImageName": "pond.png",
+      "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "pink.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "optionOffset": 100,
+      "options": [
+        "d",
+        "o",
+        "n",
+        "p"
+      ],
+      "correctAnswer": "pond",
+      "correctAudioName": "pond.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "pond.png"
+    },
+    {
+      "questionText": "desk",
+      "questionImageName": "desk.png",
+      "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blue.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "optionOffset": 100,
+      "options": [
+        "e",
+        "d",
+        "s",
+        "k"
+      ],
+      "correctAnswer": "desk",
+      "correctAudioName": "DESK.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "desk.png"
+    },
+    {
+      "questionText": "lamp",
+      "questionImageName": "lamp.png",
+      "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "blue.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "optionOffset": 100,
+      "options": [
+        "p",
+        "l",
+        "m",
+        "a"
+      ],
+      "correctAnswer": "lamp",
+      "correctAudioName": "lamp.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "lamp.png"
+    },
+    {
+      "questionText": "jump",
+      "questionImageName": "jump.png",
+      "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "orange.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "optionOffset": 100,
+      "options": [
+        "j",
+        "p",
+        "m",
+        "u"
+      ],
+      "correctAnswer": "jump",
+      "correctAudioName": "jump.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "jump.png"
+    },
+    {
+      "questionText": "vest",
+      "questionImageName": "vest.png",
+      "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "orange.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "optionOffset": 100,
+      "options": [
+        "e",
+        "v",
+        "t",
+        "s"
+      ],
+      "correctAnswer": "vest",
+      "correctAudioName": "VEST.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "vest.png"
+    },
+    {
+      "questionText": "sand",
+      "questionImageName": "sand.png",
+      "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "purple.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "optionOffset": 100,
+      "options": [
+        "s",
+        "n",
+        "a",
+        "d"
+      ],
+      "correctAnswer": "sand",
+      "correctAudioName": "sand.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "sand.png"
+    },
+    {
+      "questionText": "milk",
+      "questionImageName": "milk.png",
+      "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "purple.png",
+      "isOptionText": true,
+      "numberOfOptions": 4,
+      "optionOffset": 100,
+      "options": [
+        "k",
+        "m",
+        "i",
+        "l"
+      ],
+      "correctAnswer": "milk",
+      "correctAudioName": "milk.mp3",
+      "needReiteration": true,
+      "reiterationImageName": "milk.png"
+    }
+  ]
+}
