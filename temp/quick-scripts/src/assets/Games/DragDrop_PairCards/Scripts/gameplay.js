@@ -528,7 +528,6 @@ var NewClass = /** @class */ (function (_super) {
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
-            cc.audioEngine.playEffect(this.reiterationAudios[parseInt(correctDropNode.name) - 1], false);
             this.callPositiveRection(_node);
         }
         else {
@@ -581,6 +580,9 @@ var NewClass = /** @class */ (function (_super) {
         this.node.getChildByName("confetti").setPosition(correctDropNode.x, correctDropNode.y + 50);
         this.node.getChildByName("confetti").getComponent(cc.Animation).play();
         cc.audioEngine.playEffect(this.positiveSound[0], false);
+        this.scheduleOnce(function () {
+            cc.audioEngine.playEffect(_this.reiterationAudios[parseInt(correctDropNode.name) - 1], false);
+        }, 0.5);
         var parentNode = _node.parent;
         //let imgName: string = _node.name + this.correctAnswerCount + 1;
         //_node.name = imgName;
