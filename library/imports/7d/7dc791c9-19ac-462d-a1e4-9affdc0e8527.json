@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "micro",
+    "texture": "b5fd4075-1e90-4186-adf3-153e5caa4663",
+    "atlas": "",
+    "rect": [
+      8,
+      50,
+      234,
+      150
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
