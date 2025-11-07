@@ -23,7 +23,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -215,7 +214,7 @@ var NewClass = /** @class */ (function (_super) {
         this.currentJcokey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
     };
     NewClass.prototype.start = function () {
-        ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1);
+        ProgressBar.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
         // this.setAnswerArray();
         this.answerArray = [StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum];
@@ -489,9 +488,9 @@ var NewClass = /** @class */ (function (_super) {
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(_this.positiveSound[0], false);
             _this.scheduleOnce(function () {
-                ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
+                ProgressBar.Instance.createStarTrails(6, _this.node);
                 _this.scheduleOnce(function () {
-                    ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
+                    ProgressBar.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
                     _this.scheduleOnce(function () {
                         _this.callJockey();
                     }, 1);

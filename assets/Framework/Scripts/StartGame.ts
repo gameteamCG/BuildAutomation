@@ -18,6 +18,7 @@ interface AdditionalData {
 }
 
 interface QuestionData {
+    correctAudioName(correctAudioName: any, arg1: (err: any, audioClip: any) => void): unknown;
     questionText: string;
     questionAudioName: string;
     shouldPlayQuestionAudio: boolean;
