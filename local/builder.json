@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\EYFS\\my_body_parts_fs1_new_17",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

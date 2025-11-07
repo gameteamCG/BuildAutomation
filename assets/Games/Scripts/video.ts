@@ -32,6 +32,7 @@ class QuestionData {
     // @property(cc.AudioClip)
     reiterationAudio: cc.AudioClip = null;
     correctAudio: cc.AudioClip = null;
+
     // @property(cc.AudioClip)
     wrongAudio: cc.AudioClip = null;
     // @property(Number)
@@ -54,7 +55,8 @@ export default class video extends cc.Component {
     correctSound: cc.AudioClip = null;
     @property(cc.SpriteFrame)
     starSprites: cc.SpriteFrame[] = [];
-
+    @property(cc.AudioClip)
+    levelComplete: cc.AudioClip = null;
     @property(cc.Font)
     jaipuria_font: cc.Font = null;
     @property(cc.Font)
@@ -114,7 +116,6 @@ export default class video extends cc.Component {
         this.scheduleOnce(() => {
             for (let i = 0; i < this.questions.length; i++) {
                 this.timers[i] = this.questions[i].questionTime;
-                console.log("question timer = ", this.timers[i]);
                 this.totalQuestions++;
                 this.questionAppeared[i] = false;
                 this.answeredQuestion[i] = false;
@@ -480,7 +481,7 @@ export default class video extends cc.Component {
                     this.questionNode.active = false;
                     _event.target.getParent().children.forEach(element => {
                         // this.character.getComponent(cc.Animation).play("tweenOut");
-                        cc.tween(this.character.getChildByName("anim")).to(0.5, { x: -600 }, { easing: "backInOut" }).start();
+                        cc.tween(this.character.getChildByName("anim")).to(0.5, { x: -20 }, { easing: "backInOut" }).start();
                         element.getChildByName("green").active = false;
                         element.getChildByName("red").active = false;
                         element.getComponent(cc.Button).interactable = true;
@@ -540,6 +541,10 @@ export default class video extends cc.Component {
             }
         }
         if (isEnd) {
+            this.scheduleOnce(() => {
+                cc.audioEngine.playEffect(this.levelComplete, false);
+            }, 0.1);
+
             this.character.active = false;
             this.node.getParent().getChildByName("curtain").getComponent(cc.Animation).play().wrapMode = cc.WrapMode.Reverse;
             this.scheduleOnce(() => {

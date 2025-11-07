@@ -459,7 +459,7 @@
       "__id__": 122
     },
     "bgMusic": {
-      "__uuid__": "2fd0d62f-307c-466d-8c74-d0415f65aae1"
+      "__uuid__": "f60e816a-487e-49dd-8d7e-aad2a1571751"
     },
     "correctSound": {
       "__uuid__": "617c9f98-08d8-49a8-874d-29e7b2166772"
@@ -475,6 +475,9 @@
         "__uuid__": "fa0df1a1-201d-4ca5-bfb0-ad27ac997d0b"
       }
     ],
+    "levelComplete": {
+      "__uuid__": "130a357c-074d-475b-85b9-f1dcff44c4b8"
+    },
     "jaipuria_font": {
       "__uuid__": "91288d5e-fe60-4495-8686-44915bfd05b8"
     },
@@ -5682,8 +5685,8 @@
         0,
         0,
         1,
-        0.3,
-        0.3,
+        0.6,
+        0.6,
         1
       ]
     },
@@ -5702,7 +5705,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "supercub",
+    "_name": "puzzle",
     "_objFlags": 0,
     "_parent": {
       "__id__": 117
@@ -5725,8 +5728,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 728.16,
-      "height": 896.05
+      "width": 409.26,
+      "height": 351.22
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5737,7 +5740,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1050,
+        0,
         0,
         0,
         0,
@@ -5777,7 +5780,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "idle",
+    "defaultAnimation": "",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -5794,7 +5797,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "02b60985-463e-42ce-b1e5-9173efd43fff"
+      "__uuid__": "d1aa12e6-df15-4a25-9234-6ac170a61687"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
@@ -7299,7 +7302,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        164.256,
+        120.333,
         0,
         0,
         0,
@@ -7811,8 +7814,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1172,
-      "height": 222
+      "width": 531,
+      "height": 96
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7864,7 +7867,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "98d13250-d21d-430f-a10e-c42065130ab2"
+      "__uuid__": "30710d3e-133d-4f2a-954d-805f8842b5be"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -7882,7 +7885,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "supercub",
+    "_name": "puzzle",
     "_objFlags": 0,
     "_parent": {
       "__id__": 163
@@ -7909,8 +7912,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 728.16,
-      "height": 896.05
+      "width": 409.26,
+      "height": 351.22
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8055,7 +8058,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "positive_5",
+    "defaultAnimation": "",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -8072,7 +8075,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "02b60985-463e-42ce-b1e5-9173efd43fff"
+      "__uuid__": "d1aa12e6-df15-4a25-9234-6ac170a61687"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
@@ -8157,21 +8160,19 @@
         "__id__": 174
       },
       {
-        "__id__": 183
+        "__id__": 181
       },
       {
-        "__id__": 189
+        "__id__": 186
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 193
+        "__id__": 189
       }
     ],
-    "_prefab": {
-      "__id__": 194
-    },
+    "_prefab": null,
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -8234,18 +8235,16 @@
     "_active": true,
     "_components": [
       {
+        "__id__": 177
+      },
+      {
         "__id__": 178
       },
       {
-        "__id__": 179
-      },
-      {
-        "__id__": 181
+        "__id__": 180
       }
     ],
-    "_prefab": {
-      "__id__": 182
-    },
+    "_prefab": null,
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -8307,9 +8306,7 @@
         "__id__": 176
       }
     ],
-    "_prefab": {
-      "__id__": 177
-    },
+    "_prefab": null,
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -8390,17 +8387,6 @@
     "_id": "a6gDEjUY9Ev69JVh1cIYNL"
   },
   {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 173
-    },
-    "asset": {
-      "__uuid__": "2f03dced-adad-44f5-92e4-33d8ad7fe090"
-    },
-    "fileId": "bb8fPZ6ypD24BWJZuK3HTd",
-    "sync": false
-  },
-  {
     "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
@@ -8446,7 +8432,7 @@
     "zoomScale": 1.2,
     "clickEvents": [
       {
-        "__id__": 180
+        "__id__": 179
       }
     ],
     "_N$interactable": true,
@@ -8532,17 +8518,6 @@
     "_id": "49c8pCA8dCH5kGPE6pzFcE"
   },
   {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 173
-    },
-    "asset": {
-      "__uuid__": "2f03dced-adad-44f5-92e4-33d8ad7fe090"
-    },
-    "fileId": "a3MLavtItLrqXsdqg0qquN",
-    "sync": false
-  },
-  {
     "__type__": "cc.Node",
     "_name": "back",
     "_objFlags": 0,
@@ -8553,18 +8528,16 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 184
+        "__id__": 182
+      },
+      {
+        "__id__": 183
       },
       {
         "__id__": 185
-      },
-      {
-        "__id__": 187
       }
     ],
-    "_prefab": {
-      "__id__": 188
-    },
+    "_prefab": null,
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -8617,7 +8590,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 183
+      "__id__": 181
     },
     "_enabled": true,
     "_materials": [
@@ -8649,7 +8622,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 183
+      "__id__": 181
     },
     "_enabled": true,
     "_normalMaterial": null,
@@ -8658,7 +8631,7 @@
     "zoomScale": 1.2,
     "clickEvents": [
       {
-        "__id__": 186
+        "__id__": 184
       }
     ],
     "_N$interactable": true,
@@ -8714,7 +8687,7 @@
     "hoverSprite": null,
     "_N$disabledSprite": null,
     "_N$target": {
-      "__id__": 183
+      "__id__": 181
     },
     "_id": "41aDo1j0RE46ogHfYhFg1n"
   },
@@ -8733,7 +8706,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 183
+      "__id__": 181
     },
     "_enabled": true,
     "canvas": {
@@ -8742,17 +8715,6 @@
     "isLeftCornered": true,
     "isRightCornered": false,
     "_id": "b9FuQG73ZLyYIugacCamip"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 173
-    },
-    "asset": {
-      "__uuid__": "2f03dced-adad-44f5-92e4-33d8ad7fe090"
-    },
-    "fileId": "4ec9BBTW1M0a7PrJwVcAlw",
-    "sync": false
   },
   {
     "__type__": "cc.Node",
@@ -8765,15 +8727,13 @@
     "_active": false,
     "_components": [
       {
-        "__id__": 190
+        "__id__": 187
       },
       {
-        "__id__": 191
+        "__id__": 188
       }
     ],
-    "_prefab": {
-      "__id__": 192
-    },
+    "_prefab": null,
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -8826,7 +8786,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 189
+      "__id__": 186
     },
     "_enabled": true,
     "_materials": [
@@ -8868,21 +8828,10 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 189
+      "__id__": 186
     },
     "_enabled": true,
     "_id": "38uPzMSkZOiLgQScR67Fen"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 173
-    },
-    "asset": {
-      "__uuid__": "2f03dced-adad-44f5-92e4-33d8ad7fe090"
-    },
-    "fileId": "aeoVATppNDeIhmL1utTkDD",
-    "sync": false
   },
   {
     "__type__": "d21cdcOFCVMG565duKHxBWs",
@@ -8892,8 +8841,10 @@
       "__id__": 173
     },
     "_enabled": true,
-    "BGM_audio": null,
-    "volume": 0,
+    "BGM_audio": {
+      "__uuid__": "f60e816a-487e-49dd-8d7e-aad2a1571751"
+    },
+    "volume": 0.08,
     "NextSceneName": "1",
     "TotalLevels": 7,
     "isAgeParameterNeeded": false,
@@ -8902,16 +8853,5 @@
     "isMobileNumberPriority": false,
     "premiumLevel": 3,
     "_id": "1aYwp04XhOFLRBEOrltAIy"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 173
-    },
-    "asset": {
-      "__uuid__": "2f03dced-adad-44f5-92e4-33d8ad7fe090"
-    },
-    "fileId": "",
-    "sync": false
   }
 ]
