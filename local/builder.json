@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "C:\\Builds\\eyfs_build\\sense_of_taste_fs1_r39-automation",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
