@@ -470,7 +470,9 @@ export default class Gameplay extends cc.Component {
         if (currentWord === targetWord) {
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
             this.isAnswered = true;
-            this.node.getChildByName("questionPanel").getChildByName("sound").active = false;
+            this.node.getChildByName("questionPanel").getChildByName("sound").active = true;
+            this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
+
             // Additional logic for when the order is correct
             // console.log("need iteration--" + this.needReiteration);
             // cc.audioEngine.playEffect(this.correctSound, false);
@@ -487,7 +489,7 @@ export default class Gameplay extends cc.Component {
                         cc.audioEngine.playEffect(this.rocket, false);
                         this.scheduleOnce(() => {
                             cc.tween(this.node.getChildByName("reiteration")).to(0.5, { scale: 0.6 }, { easing: 'sineInOut' }).start();
-                            cc.tween(this.node.getChildByName("questionPanel").getChildByName("panel")).to(0.5, { scale: 0.9 }, { easing: 'sineInOut' }).start();
+                            cc.tween(this.node.getChildByName("panel")).to(0.5, { scale: 0.9 }, { easing: 'sineInOut' }).start();
                             cc.audioEngine.playEffect(this.pop_sound, false);
                             this.scheduleOnce(() => {
                                 this.optionsNode.active = false;

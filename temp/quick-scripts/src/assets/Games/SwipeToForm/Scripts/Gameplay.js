@@ -444,7 +444,8 @@ var Gameplay = /** @class */ (function (_super) {
         if (currentWord === targetWord) {
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
             this.isAnswered = true;
-            this.node.getChildByName("questionPanel").getChildByName("sound").active = false;
+            this.node.getChildByName("questionPanel").getChildByName("sound").active = true;
+            this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
             // Additional logic for when the order is correct
             // console.log("need iteration--" + this.needReiteration);
             // cc.audioEngine.playEffect(this.correctSound, false);
@@ -461,7 +462,7 @@ var Gameplay = /** @class */ (function (_super) {
                         cc.audioEngine.playEffect(_this.rocket, false);
                         _this.scheduleOnce(function () {
                             cc.tween(_this.node.getChildByName("reiteration")).to(0.5, { scale: 0.6 }, { easing: 'sineInOut' }).start();
-                            cc.tween(_this.node.getChildByName("questionPanel").getChildByName("panel")).to(0.5, { scale: 0.9 }, { easing: 'sineInOut' }).start();
+                            cc.tween(_this.node.getChildByName("panel")).to(0.5, { scale: 0.9 }, { easing: 'sineInOut' }).start();
                             cc.audioEngine.playEffect(_this.pop_sound, false);
                             _this.scheduleOnce(function () {
                                 _this.optionsNode.active = false;

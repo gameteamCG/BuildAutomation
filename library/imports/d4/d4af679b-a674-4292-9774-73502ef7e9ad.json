@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "tent",
+        "questionText": "",
         "questionImageName": "tent.png",
         "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
@@ -35,7 +35,7 @@
         "reiterationImageName": "tent.png"
       },
       {
-        "questionText": "hand",
+        "questionText": "",
         "questionImageName": "hand.png",
         "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
@@ -55,7 +55,7 @@
         "reiterationImageName": "hand.png"
       },
       {
-        "questionText": "gift",
+        "questionText": "",
         "questionImageName": "gift.png",
         "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
@@ -75,7 +75,7 @@
         "reiterationImageName": "gift.png"
       },
       {
-        "questionText": "pond",
+        "questionText": "",
         "questionImageName": "pond.png",
         "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
@@ -95,7 +95,7 @@
         "reiterationImageName": "pond.png"
       },
       {
-        "questionText": "desk",
+        "questionText": "",
         "questionImageName": "desk.png",
         "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
@@ -115,7 +115,7 @@
         "reiterationImageName": "desk.png"
       },
       {
-        "questionText": "lamp",
+        "questionText": "",
         "questionImageName": "lamp.png",
         "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
@@ -135,7 +135,7 @@
         "reiterationImageName": "lamp.png"
       },
       {
-        "questionText": "jump",
+        "questionText": "",
         "questionImageName": "jump.png",
         "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
@@ -155,7 +155,7 @@
         "reiterationImageName": "jump.png"
       },
       {
-        "questionText": "vest",
+        "questionText": "",
         "questionImageName": "vest.png",
         "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
@@ -175,7 +175,7 @@
         "reiterationImageName": "vest.png"
       },
       {
-        "questionText": "sand",
+        "questionText": "",
         "questionImageName": "sand.png",
         "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
@@ -195,7 +195,7 @@
         "reiterationImageName": "sand.png"
       },
       {
-        "questionText": "milk",
+        "questionText": "",
         "questionImageName": "milk.png",
         "questionAudioName": "swipe_and_spell_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
