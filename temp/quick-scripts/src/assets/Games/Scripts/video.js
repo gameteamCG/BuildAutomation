@@ -74,6 +74,7 @@ var video = /** @class */ (function (_super) {
         _this.bgMusic = null;
         _this.correctSound = null;
         _this.starSprites = [];
+        _this.levelComplete = null;
         _this.jaipuria_font = null;
         _this.podar_font = null;
         _this.tlc_font = null;
@@ -534,6 +535,9 @@ var video = /** @class */ (function (_super) {
             }
         }
         if (isEnd) {
+            this.scheduleOnce(function () {
+                cc.audioEngine.playEffect(_this.levelComplete, false);
+            }, 0.1);
             this.character.active = false;
             this.node.getParent().getChildByName("curtain").getComponent(cc.Animation).play().wrapMode = cc.WrapMode.Reverse;
             this.scheduleOnce(function () {
@@ -727,6 +731,9 @@ var video = /** @class */ (function (_super) {
     __decorate([
         property(cc.SpriteFrame)
     ], video.prototype, "starSprites", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], video.prototype, "levelComplete", void 0);
     __decorate([
         property(cc.Font)
     ], video.prototype, "jaipuria_font", void 0);

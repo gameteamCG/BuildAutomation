@@ -54,7 +54,8 @@ export default class video extends cc.Component {
     correctSound: cc.AudioClip = null;
     @property(cc.SpriteFrame)
     starSprites: cc.SpriteFrame[] = [];
-
+    @property(cc.AudioClip)
+    levelComplete: cc.AudioClip = null;
     @property(cc.Font)
     jaipuria_font: cc.Font = null;
     @property(cc.Font)
@@ -540,6 +541,9 @@ export default class video extends cc.Component {
             }
         }
         if (isEnd) {
+            this.scheduleOnce(() => {
+                cc.audioEngine.playEffect(this.levelComplete, false);
+            }, 0.1);
             this.character.active = false;
             this.node.getParent().getChildByName("curtain").getComponent(cc.Animation).play().wrapMode = cc.WrapMode.Reverse;
             this.scheduleOnce(() => {
