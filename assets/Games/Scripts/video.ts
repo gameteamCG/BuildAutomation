@@ -68,6 +68,9 @@ export default class video extends cc.Component {
     @property(cc.AudioClip)
     positiveVO: cc.AudioClip[] = [];
 
+    @property(cc.AudioClip)
+    levelEndAudio: cc.AudioClip = null;
+
     duration: number = 0;
     @property(cc.Node)
     slider: cc.Node = null;
@@ -105,6 +108,7 @@ export default class video extends cc.Component {
 
     private podarCorrectAnim: string[] = ["possitive1", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6", "possitive1", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
     private podarNegativeAnim: string[] = ["negetive1", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6", "negetive1", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
+
 
     // LIFE-CYCLE CALLBACKS:
 
@@ -449,6 +453,10 @@ export default class video extends cc.Component {
             cc.audioEngine.playEffect(this.correctSound, false);
             if (this.questions[this.currentQuestion - 1].reiterationAudio != null) {
                 this.scheduleOnce(() => {
+                    this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.correctAnim[num], false);
+                    this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setCompleteListener(() => {
+                        this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", false);
+                    })
                     cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].reiterationAudio, false);
                 }, 0.5);
             }
@@ -468,7 +476,10 @@ export default class video extends cc.Component {
             }
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].correctAudio, false);
-                this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.correctAnim[num], false);
+                this.scheduleOnce(() => {
+                    cc.audioEngine.playEffect(this.levelEndAudio,false);
+                },this.questions[this.currentQuestion - 1].correctAudio.duration);
+                // this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.correctAnim[num], false);
                 if (this.attemps <= 1) {
                     this.starUpdate(this.currentQuestion - 1, true, true);
                 }

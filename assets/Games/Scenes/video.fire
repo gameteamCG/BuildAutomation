@@ -459,10 +459,10 @@
       "__id__": 122
     },
     "bgMusic": {
-      "__uuid__": "2fd0d62f-307c-466d-8c74-d0415f65aae1"
+      "__uuid__": "f2965a1f-4720-4380-89f8-a3a70dd882ee"
     },
     "correctSound": {
-      "__uuid__": "617c9f98-08d8-49a8-874d-29e7b2166772"
+      "__uuid__": "daa90a7c-0ac8-4cff-a82b-33ccba9faca9"
     },
     "starSprites": [
       {
@@ -488,6 +488,9 @@
       "__uuid__": "a3ed727b-d7e5-49a6-89de-84365f6e7b27"
     },
     "positiveVO": [],
+    "levelEndAudio": {
+      "__uuid__": "9547962c-099e-409b-b305-4d077a20a98a"
+    },
     "slider": {
       "__id__": 13
     },
@@ -5725,8 +5728,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 728.16,
-      "height": 896.05
+      "width": 409.01,
+      "height": 351.22
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5737,15 +5740,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1050,
+        -19.421,
         0,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        2,
+        2,
         1
       ]
     },
@@ -5777,7 +5780,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "idle",
+    "defaultAnimation": "",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -5794,7 +5797,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "02b60985-463e-42ce-b1e5-9173efd43fff"
+      "__uuid__": "5026321f-288a-4b04-96ca-8898edd7bd8f"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
@@ -7732,7 +7735,7 @@
         "__id__": 166
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 170
@@ -7909,8 +7912,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 728.16,
-      "height": 896.05
+      "width": 409.01,
+      "height": 351.22
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7921,15 +7924,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        498.75,
-        -371.547,
+        -14.572,
+        -327.645,
         0,
         0,
         0,
         0,
         1,
-        0.45,
-        0.45,
+        0.7,
+        0.7,
         1
       ]
     },
@@ -7971,8 +7974,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 528,
-      "height": 117
+      "width": 531,
+      "height": 96
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7983,15 +7986,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -1108.33333,
-        1311.89333,
+        13.368,
+        718.113,
         0,
         0,
         0,
         0,
         1,
-        2.66667,
-        2.66667,
+        1.5,
+        1.5,
         2.66667
       ]
     },
@@ -8024,7 +8027,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "7b20195f-9785-44a0-b4aa-74d8f58294ad"
+      "__uuid__": "90f24b03-d8eb-49a9-8d6c-e8278d3bb644"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -8055,7 +8058,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "positive_5",
+    "defaultAnimation": "positive_1",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -8066,13 +8069,13 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "positive_5",
+    "_animationName": "positive_1",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "02b60985-463e-42ce-b1e5-9173efd43fff"
+      "__uuid__": "5026321f-288a-4b04-96ca-8898edd7bd8f"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
