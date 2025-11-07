@@ -176,10 +176,10 @@
         ],
         "commonRightOptionImageName": "2.png",
         "isRightOptionText": false,
-        "numberOfRightOptions": 1,
+        "numberOfRightOptions": 2,
         "rightoptions": [
-          "gaggle.png",
-          "troop.png"
+          "troop.png",
+          "gaggle.png"
         ]
       },
       {
