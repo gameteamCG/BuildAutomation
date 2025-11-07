@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "colony",
+    "texture": "25b93ea9-7661-4f6e-b0d9-ab9f34179191",
+    "atlas": "",
+    "rect": [
+      124,
+      187,
+      319,
+      147
+    ],
+    "offset": [
+      33.5,
+      -10.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
