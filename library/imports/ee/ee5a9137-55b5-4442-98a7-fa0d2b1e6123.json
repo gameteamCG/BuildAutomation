@@ -21,6 +21,10 @@
         "commonOptionImageName": "pannel2_250.png",
         "commonDropNodeImageName": "pannel2_250.png",
         "isDropAreaText": false,
+        "correctAns": [
+          "plum",
+          "blow"
+        ],
         "dropAreas": [
           "pl.png",
           "bl.png"
@@ -44,6 +48,10 @@
         "commonOptionImageName": "pannel2_250.png",
         "commonDropNodeImageName": "pannel2_250.png",
         "isDropAreaText": false,
+        "correctAns": [
+          "clown",
+          "flag"
+        ],
         "dropAreas": [
           "cl.png",
           "fl.png"
@@ -67,6 +75,10 @@
         "commonOptionImageName": "pannel2_250.png",
         "commonDropNodeImageName": "pannel2_250.png",
         "isDropAreaText": false,
+        "correctAns": [
+          "glide",
+          "slide"
+        ],
         "dropAreas": [
           "gl.png",
           "sl.png"
@@ -90,6 +102,10 @@
         "commonOptionImageName": "pannel2_250.png",
         "commonDropNodeImageName": "pannel2_250.png",
         "isDropAreaText": false,
+        "correctAns": [
+          "plane",
+          "blue"
+        ],
         "dropAreas": [
           "pl.png",
           "bl.png"
@@ -113,6 +129,10 @@
         "commonOptionImageName": "pannel2_250.png",
         "commonDropNodeImageName": "pannel2_250.png",
         "isDropAreaText": false,
+        "correctAns": [
+          "clowd",
+          "float"
+        ],
         "dropAreas": [
           "cl.png",
           "fl.png"
@@ -136,6 +156,10 @@
         "commonOptionImageName": "pannel2_250.png",
         "commonDropNodeImageName": "pannel2_250.png",
         "isDropAreaText": false,
+        "correctAns": [
+          "glue",
+          "slippers"
+        ],
         "dropAreas": [
           "gl.png",
           "sl.png"

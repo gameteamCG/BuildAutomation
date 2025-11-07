@@ -26,6 +26,7 @@ interface QuestionData {
     commonOptionImageName: string;
     needDropAreaBG: boolean;
     isDropAreaText: boolean;
+    correctAns: string[];
     dropAreas: string[]; // This will either contain text options or image names based on isDropAreaText flag
     reiterationAudios: string[];
     isOptionText: boolean;
