@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stblend",
+    "texture": "36a7d89f-5e72-45c3-82d8-00830b99d28b",
+    "atlas": "",
+    "rect": [
+      41,
+      26,
+      745,
+      117
+    ],
+    "offset": [
+      12.5,
+      2.5
+    ],
+    "originalSize": [
+      802,
+      174
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
