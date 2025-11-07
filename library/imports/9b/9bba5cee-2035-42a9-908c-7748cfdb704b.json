@@ -1,0 +1,115 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Pronoun_Supercubs_69",
+      "totalLevel": "6",
+      "TitleImageName": "Asset_13.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "bgm_sc.mp3",
+      "mainBgName": "bg6.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "Pronoun",
+        "questionImageName": "boy.png",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "it.png",
+          "he.png",
+          "she.png"
+        ],
+        "correctAudioName": "HE.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Pronoun",
+        "questionImageName": "cat.png",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "she.png",
+          "he.png",
+          "it.png"
+        ],
+        "correctAudioName": "it.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Pronoun",
+        "questionImageName": "girl.png",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "it.png",
+          "she.png",
+          "he.png"
+        ],
+        "correctAudioName": "she.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Pronoun",
+        "questionImageName": "butterfly.png",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "he.png",
+          "it.png",
+          "she.png"
+        ],
+        "correctAudioName": "it.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Pronoun",
+        "questionImageName": "book.png",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "she.png",
+          "he.png",
+          "it.png"
+        ],
+        "correctAudioName": "it.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Pronoun",
+        "questionImageName": "Queen.png",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "he.png",
+          "it.png",
+          "she.png"
+        ],
+        "correctAudioName": "she.mp3",
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}
