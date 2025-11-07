@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "litter",
+    "texture": "1c3aa022-3d56-4dd0-9c41-7b7d3f21d364",
+    "atlas": "",
+    "rect": [
+      154,
+      187,
+      265,
+      99
+    ],
+    "offset": [
+      36.5,
+      13.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
