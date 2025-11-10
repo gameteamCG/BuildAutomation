@@ -445,6 +445,15 @@
         "__id__": 13
       }
     ],
+    "pencilvo": {
+      "__uuid__": "ca92b001-e1f3-4c4e-bf29-43f7be6601c5"
+    },
+    "brushvo": {
+      "__uuid__": "00caca57-c3e5-4b2c-831c-4e31675a7b68"
+    },
+    "eraservo": {
+      "__uuid__": "3a510b58-818b-4858-b9b6-aabacc69a3a6"
+    },
     "_id": ""
   },
   {

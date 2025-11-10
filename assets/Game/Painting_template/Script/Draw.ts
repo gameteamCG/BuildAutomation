@@ -39,7 +39,6 @@ export default class Draw extends cc.Component {
 
     onTouchStart (event) {
         this.graphics = this.setupDrawingNode();
-
         if(this.usedBtn == 1)
         {
             this.touches.length = 0;

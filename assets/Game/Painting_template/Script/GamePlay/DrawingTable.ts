@@ -34,6 +34,13 @@ export default class DrawingTable extends cc.Component {
 
     persistentScrollNode = null;
     persistentScrollScript = null;
+     @property(cc.AudioClip)
+    pencilvo: cc.AudioClip = null;
+      @property(cc.AudioClip)
+    brushvo: cc.AudioClip = null;
+    @property(cc.AudioClip)
+    eraservo: cc.AudioClip = null;
+
 
     prevTouch = new cc.Vec2;
 
@@ -107,7 +114,19 @@ export default class DrawingTable extends cc.Component {
 
                 this.currentData.currentChildIndex = i;
                 this.currentData.currentTool = this.persistentScrollScript.currentPensilSelection;
-
+        console.log(this.currentData.currentTool);
+        if(this.currentData.currentTool == 1)
+        {
+            cc.audioEngine.playEffect(this.pencilvo,true);
+        }
+        else   if(this.currentData.currentTool == 0)
+        {
+             cc.audioEngine.playEffect(this.brushvo,true);
+        }
+          else   if(this.currentData.currentTool == 7)
+        {
+             cc.audioEngine.playEffect(this.eraservo,true);
+        }
                 this.currentMask = null;
                 this.currentChild = element;
                 this.checkMasking();
@@ -124,6 +143,7 @@ export default class DrawingTable extends cc.Component {
     }
 
     _onTouchEnd(event) {
+        cc.audioEngine.stopAllEffects();
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
         PersistentScroll.Instance.hand.opacity = 255;

@@ -57,6 +57,9 @@ var DrawingTable = /** @class */ (function (_super) {
         _this.parentNode = null;
         _this.persistentScrollNode = null;
         _this.persistentScrollScript = null;
+        _this.pencilvo = null;
+        _this.brushvo = null;
+        _this.eraservo = null;
         _this.prevTouch = new cc.Vec2;
         _this.currentstensil = [];
         // draggedstensil = [];
@@ -113,6 +116,16 @@ var DrawingTable = /** @class */ (function (_super) {
                 // this.pointposition = []
                 this.currentData.currentChildIndex = i;
                 this.currentData.currentTool = this.persistentScrollScript.currentPensilSelection;
+                console.log(this.currentData.currentTool);
+                if (this.currentData.currentTool == 1) {
+                    cc.audioEngine.playEffect(this.pencilvo, true);
+                }
+                else if (this.currentData.currentTool == 0) {
+                    cc.audioEngine.playEffect(this.brushvo, true);
+                }
+                else if (this.currentData.currentTool == 7) {
+                    cc.audioEngine.playEffect(this.eraservo, true);
+                }
                 this.currentMask = null;
                 this.currentChild = element;
                 this.checkMasking();
@@ -127,6 +140,7 @@ var DrawingTable = /** @class */ (function (_super) {
         this._addCircle(point);
     };
     DrawingTable.prototype._onTouchEnd = function (event) {
+        cc.audioEngine.stopAllEffects();
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
         PersistentScroll_1.default.Instance.hand.opacity = 255;
@@ -324,6 +338,15 @@ var DrawingTable = /** @class */ (function (_super) {
     __decorate([
         property(DrawingSplitData)
     ], DrawingTable.prototype, "DrawingSplitDataArray", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], DrawingTable.prototype, "pencilvo", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], DrawingTable.prototype, "brushvo", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], DrawingTable.prototype, "eraservo", void 0);
     DrawingTable = __decorate([
         ccclass
     ], DrawingTable);

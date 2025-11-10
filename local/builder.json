@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "C:\\Builds\\eyfs_build\\pranjalEYFS_FIX_hand_painting_fs1_r134",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

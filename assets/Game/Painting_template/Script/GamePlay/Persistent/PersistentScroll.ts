@@ -85,7 +85,6 @@ export default class PersistentScroll extends cc.Component {
     @property(cc.Node)
     ToolArray = [];
 
-
     @property(cc.Node)
     DualSymetry = null;
     @property(cc.Node)
@@ -107,6 +106,8 @@ export default class PersistentScroll extends cc.Component {
     scrollAud: cc.AudioClip = null;
     @property(cc.AudioClip)
     eraserAud: cc.AudioClip = null;
+     @property(cc.AudioClip)
+    questionvo: cc.AudioClip = null;
 
     CurrentBottomIndexValue = 0;
     CurrentTopIndexValue = 0;
@@ -577,5 +578,17 @@ export default class PersistentScroll extends cc.Component {
             data.parent.removeChild(data.child);
             this.currentDrawingScript.currentstensil.pop();
         }
+    }
+    soundbutton()
+    {
+        this.node.getChildByName("panel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+       cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionvo,false);
+        this.scheduleOnce(()=>
+        {
+        this.node.getChildByName("panel").getChildByName("sound").getComponent(cc.Button).interactable = true;
+
+
+        },this.questionvo.duration+0.1);
     }
 }
