@@ -37,7 +37,7 @@
         "numberOfOptions": 2,
         "options": [
           "lion",
-          "bear"
+          "lions"
         ],
         "correctAnswer": "1",
         "reiterationAudioName": "lion.mp3"
@@ -64,7 +64,7 @@
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "panda",
+          "fox",
           "foxes"
         ],
         "correctAnswer": "2",
@@ -93,7 +93,7 @@
         "numberOfOptions": 2,
         "options": [
           "tiger",
-          "elephant"
+          "tigers"
         ],
         "correctAnswer": "1",
         "reiterationAudioName": "tiger.mp3"
@@ -111,7 +111,7 @@
           "wolf_part_003.png",
           "wolf_part_004.png"
         ],
-        "correctAudioName": "wolves.mp3",
+        "correctAudioName": "1.mp3",
         "needReiteration": true,
         "interactionType": "1",
         "questionText2": "2",
@@ -120,11 +120,11 @@
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "bunnies",
+          "wolf",
           "wolves"
         ],
         "correctAnswer": "2",
-        "reiterationAudioName": ""
+        "reiterationAudioName": "1.mp3"
       },
       {
         "questionText": "giraffe",
@@ -149,7 +149,7 @@
         "numberOfOptions": 2,
         "options": [
           "giraffe",
-          "lion"
+          "giraffes"
         ],
         "correctAnswer": "1",
         "reiterationAudioName": "giraffe.mp3"
@@ -176,7 +176,7 @@
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "wolves",
+          "bunny",
           "bunnies"
         ],
         "correctAnswer": "2",
@@ -205,7 +205,7 @@
         "numberOfOptions": 2,
         "options": [
           "panda",
-          "bears"
+          "pandas"
         ],
         "correctAnswer": "1",
         "reiterationAudioName": "panda.mp3"
@@ -232,7 +232,7 @@
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "giraffe",
+          "monkey",
           "monkeys"
         ],
         "correctAnswer": "2",
@@ -261,7 +261,7 @@
         "numberOfOptions": 2,
         "options": [
           "elephant",
-          "tiger"
+          "elephants"
         ],
         "correctAnswer": "1",
         "reiterationAudioName": "elephant .mp3"
@@ -288,7 +288,7 @@
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "wolves",
+          "bear",
           "bears"
         ],
         "correctAnswer": "2",

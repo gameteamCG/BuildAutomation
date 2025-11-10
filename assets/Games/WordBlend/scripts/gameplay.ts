@@ -176,7 +176,7 @@ export default class NewClass extends cc.Component {
             cc.director.preloadScene("GameEnd");
         }
         else {
-            cc.director.preloadScene((this.currScene + 1).toString());
+            cc.director.preloadScene("1");
         }
         startGame.Instance.clickEvent = false;
         let canvas = cc.find("Canvas");
@@ -607,7 +607,7 @@ export default class NewClass extends cc.Component {
 
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
-                cc.audioEngine.playEffect(this.puzzleVoIteration, false);
+                // cc.audioEngine.playEffect(this.puzzleVoIteration, false);
                 this.scheduleOnce(() => {
                     this.options.color = cc.Color.WHITE;
                     // this.wordAppear();
