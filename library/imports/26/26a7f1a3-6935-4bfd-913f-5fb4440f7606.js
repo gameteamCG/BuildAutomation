@@ -179,7 +179,6 @@ var GamePlay = /** @class */ (function (_super) {
                 }, 0.2);
             }
             _this.addDrawing();
-            _this.node.getChildByName("image").setPosition(_this.node.getChildByName("image").getPosition().x, 138);
             _this.hand.setPosition(_this.node.getChildByName("backButton").getPosition().x + 100, _this.node.getChildByName("backButton").getPosition().y);
             _this.hand.opacity = 0;
             _this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
@@ -190,7 +189,7 @@ var GamePlay = /** @class */ (function (_super) {
         var _this = this;
         this.currentDrawing = cc.instantiate(this.DrawingDataArray[CommonFun_1.default.instance.currentLvl].DrawingDataPrefab);
         this.node.addChild(this.currentDrawing);
-        this.currentDrawing.setPosition(-30, -52);
+        this.currentDrawing.setPosition(-32, -47);
         this.node.children.forEach(function (elem) {
             if (elem.name == "0" || elem.name == "1" || elem.name == "2" || elem.name == "3" || elem.name == "4" || elem.name == "5") {
                 if (elem.name != _this.currentLevel.toString()) {
@@ -253,7 +252,7 @@ var GamePlay = /** @class */ (function (_super) {
             cc.tween(_this.node.getChildByName("image")).to(0.5, { opacity: 0 }, { easing: "sineInOut" })
                 .to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
             cc.tween(_this.node.getChildByName("image")).to(0.5, { scale: 0 }, { easing: "sineInOut" })
-                .to(0.5, { scale: 0.75 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.6 }, { easing: "sineInOut" }).start();
             cc.tween(_this.questionNode).to(0.5, { y: _this.Ypos }, { easing: "sineInOut" }).start();
             if (_this.currentLevel < _this.totalLevels) {
                 console.log("levelStarted--" + (_this.currentLevel + 1));

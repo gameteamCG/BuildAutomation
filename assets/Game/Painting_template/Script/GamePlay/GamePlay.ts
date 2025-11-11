@@ -164,8 +164,6 @@ export default class GamePlay extends cc.Component {
                 }, 0.2);
             }
             this.addDrawing();
-            this.node.getChildByName("image").setPosition(this.node.getChildByName("image").getPosition().x, 138);
-
             this.hand.setPosition(this.node.getChildByName("backButton").getPosition().x + 100, this.node.getChildByName("backButton").getPosition().y);
             this.hand.opacity = 0;
 
@@ -179,7 +177,7 @@ export default class GamePlay extends cc.Component {
     addDrawing() {
         this.currentDrawing = cc.instantiate(this.DrawingDataArray[CommonFun.instance.currentLvl].DrawingDataPrefab);
         this.node.addChild(this.currentDrawing);
-        this.currentDrawing.setPosition(-30, -52);
+        this.currentDrawing.setPosition(-32, -47);
         this.node.children.forEach(elem => {
             if (elem.name == "0" || elem.name == "1" || elem.name == "2" || elem.name == "3" || elem.name == "4" || elem.name == "5") {
                 if (elem.name != this.currentLevel.toString()) {
@@ -248,7 +246,7 @@ export default class GamePlay extends cc.Component {
             cc.tween(this.node.getChildByName("image")).to(0.5, { opacity: 0 }, { easing: "sineInOut" })
                 .to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
             cc.tween(this.node.getChildByName("image")).to(0.5, { scale: 0 }, { easing: "sineInOut" })
-                .to(0.5, { scale: 0.75 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.6 }, { easing: "sineInOut" }).start();
             cc.tween(this.questionNode).to(0.5, { y: this.Ypos }, { easing: "sineInOut" }).start();
 
             if (this.currentLevel < this.totalLevels) {
