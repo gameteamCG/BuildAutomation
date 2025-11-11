@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Waving",
+    "texture": "e2c8da94-d9f7-498a-b0c6-7de6005555fa",
+    "atlas": "",
+    "rect": [
+      50,
+      43,
+      354,
+      440
+    ],
+    "offset": [
+      -23.5,
+      -12.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

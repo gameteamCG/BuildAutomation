@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Kicking",
+    "texture": "c9d4fedb-ce59-4718-9651-9d686ed08e23",
+    "atlas": "",
+    "rect": [
+      85,
+      71,
+      354,
+      393
+    ],
+    "offset": [
+      11.5,
+      -17
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
