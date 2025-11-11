@@ -3,12 +3,6 @@ cc._RF.push(module, 'a9a049SRptFP5H77C66Ty44', 'Gameplay');
 // Games/TapToFind/Scripts/Gameplay.ts
 
 "use strict";
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -29,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
@@ -49,6 +43,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.pop_audio = null;
         _this.positive_audio = null;
         _this.negative_audio = null;
+        _this.imgs = [];
         _this.questionAudio = null;
         _this.correctAudio = null;
         _this.wrongAudio = null;
@@ -57,10 +52,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.maxLevel = 0;
         return _this;
     }
-    // LIFE-CYCLE CALLBACKS:
     Gameplay.prototype.onLoad = function () {
-        // this.options = this.node.getChildByName(this.optionsLayout);
-        // this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
     };
     Gameplay.prototype.LoadQuestion = function () {
         var _this = this;
@@ -147,7 +139,7 @@ var Gameplay = /** @class */ (function (_super) {
                             return;
                         }
                         var spriteFrame = new cc.SpriteFrame(texture);
-                        _this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        _this.options.getChildByName((i + 1).toString()).getChildByName("img2").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     });
                 }
                 else {
@@ -160,7 +152,7 @@ var Gameplay = /** @class */ (function (_super) {
                         return;
                     }
                     var spriteFrame = new cc.SpriteFrame(texture);
-                    _this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    _this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             };
             var this_1 = this;
@@ -193,14 +185,14 @@ var Gameplay = /** @class */ (function (_super) {
             var _loop_4 = function (i) {
                 if (!StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].isOptionText) {
                     this_3.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i], function (spriteFrame) {
-                        _this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        _this.options.getChildByName((i + 1).toString()).getChildByName("img2").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     });
                 }
                 else {
                     this_3.options.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
                 }
                 this_3.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].optionsBg[i], function (spriteFrame) {
-                    _this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    _this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             };
             var this_3 = this;
@@ -301,6 +293,7 @@ var Gameplay = /** @class */ (function (_super) {
             _option.setPosition(0, 0);
             _option.active = true;
             _option.opacity = 0;
+            _option.getComponent(cc.Sprite).spriteFrame = this.imgs[StartGame_1.default.Instance.currentLevel - 1];
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
@@ -471,6 +464,7 @@ var Gameplay = /** @class */ (function (_super) {
             _clone.setPosition(0, 0);
             _clone.setParentWithSamePos(this.node);
             _clone.children[0].active = true;
+            _clone.children[1].active = false;
             _clone.children[0].opacity = 0;
             node.active = false;
             cc.tween(_clone.children[0])
@@ -765,6 +759,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_audio", void 0);
+    __decorate([
+        property(cc.SpriteFrame)
+    ], Gameplay.prototype, "imgs", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);

@@ -1,11 +1,4 @@
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -39,6 +32,8 @@ export default class Gameplay extends cc.Component {
     positive_audio: cc.AudioClip = null;
     @property(cc.AudioClip)
     negative_audio: cc.AudioClip = null;
+    @property(cc.SpriteFrame)
+    imgs: cc.SpriteFrame[] = [];
 
     private questionAudio: cc.AudioClip = null;
     private correctAudio: cc.AudioClip = null;
@@ -47,11 +42,8 @@ export default class Gameplay extends cc.Component {
 
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
-    // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
-        // this.options = this.node.getChildByName(this.optionsLayout);
-        // this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
     }
 
     LoadQuestion() {
@@ -139,7 +131,7 @@ export default class Gameplay extends cc.Component {
                             return;
                         }
                         const spriteFrame = new cc.SpriteFrame(texture);
-                        this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        this.options.getChildByName((i + 1).toString()).getChildByName("img2").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     });
                 }
                 else {
@@ -152,7 +144,7 @@ export default class Gameplay extends cc.Component {
                         return;
                     }
                     const spriteFrame = new cc.SpriteFrame(texture);
-                    this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
         }
@@ -178,7 +170,7 @@ export default class Gameplay extends cc.Component {
             for (let i = 0; i < startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions; i++) {
                 if (!startGame.Instance.questions[startGame.Instance.currentLevel - 1].isOptionText) {
                     this.loadSpriteFrame(startGame.Instance.questions[startGame.Instance.currentLevel - 1].options[i], (spriteFrame) => {
-                        this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        this.options.getChildByName((i + 1).toString()).getChildByName("img2").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     });
                 }
 
@@ -186,7 +178,7 @@ export default class Gameplay extends cc.Component {
                     this.options.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[startGame.Instance.currentLevel - 1].options[i];
                 }
                 this.loadSpriteFrame(startGame.Instance.questions[startGame.Instance.currentLevel - 1].optionsBg[i], (spriteFrame) => {
-                    this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
         }
@@ -278,6 +270,7 @@ export default class Gameplay extends cc.Component {
             _option.setPosition(0, 0);
             _option.active = true;
             _option.opacity = 0;
+            _option.getComponent(cc.Sprite).spriteFrame = this.imgs[startGame.Instance.currentLevel - 1]
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
@@ -453,6 +446,7 @@ export default class Gameplay extends cc.Component {
             _clone.setPosition(0, 0);
             _clone.setParentWithSamePos(this.node);
             _clone.children[0].active = true;
+            _clone.children[1].active = false;
             _clone.children[0].opacity = 0;
             node.active = false;
             cc.tween(_clone.children[0])
