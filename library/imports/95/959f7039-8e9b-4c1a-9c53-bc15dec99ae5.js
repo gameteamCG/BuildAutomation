@@ -76,6 +76,7 @@ var video = /** @class */ (function (_super) {
         _this.starSprites = [];
         _this.levelComplete = null;
         _this.jaipuria_font = null;
+        _this.revisedBooks_font = null;
         _this.podar_font = null;
         _this.tlc_font = null;
         _this.supercub_font = null;
@@ -150,6 +151,7 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.UpdateQuestions = function () {
         var _this = this;
+        console.log(StartGame_1.default.Instance.jockeyName);
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             this.questionNode.getChildByName("options1").children.forEach(function (element) {
@@ -172,6 +174,12 @@ var video = /** @class */ (function (_super) {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
             this.questionNode.getChildByName("options1").children.forEach(function (element) {
                 element.getChildByName("text").getComponent(cc.Label).font = _this.jaipuria_font;
+            });
+        }
+        else if (StartGame_1.default.Instance.jockeyName == "puzzle") {
+            this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.revisedBooks_font;
+            this.questionNode.getChildByName("options1").children.forEach(function (element) {
+                element.getChildByName("text").getComponent(cc.Label).font = _this.revisedBooks_font;
             });
         }
         var _loop_1 = function (i) {
@@ -737,6 +745,9 @@ var video = /** @class */ (function (_super) {
     __decorate([
         property(cc.Font)
     ], video.prototype, "jaipuria_font", void 0);
+    __decorate([
+        property(cc.Font)
+    ], video.prototype, "revisedBooks_font", void 0);
     __decorate([
         property(cc.Font)
     ], video.prototype, "podar_font", void 0);

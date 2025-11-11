@@ -16,8 +16,8 @@
     "QuestionData": [
       {
         "QuestionAppearTime": "2000",
-        "IsQuestionText": false,
-        "QuestionText": "",
+        "IsQuestionText": true,
+        "QuestionText": "grandparents",
         "QuestionImageName": "Q1grandparents.png",
         "QuestionAudioName": "Tap_on_the_image_of_grandparents.mp3",
         "PlayQuestionAudio": true,
@@ -36,8 +36,8 @@
       },
       {
         "QuestionAppearTime": "2000",
-        "IsQuestionText": false,
-        "QuestionText": "",
+        "IsQuestionText": true,
+        "QuestionText": "cousins",
         "QuestionImageName": "Q2cousins.png",
         "QuestionAudioName": "Tap_on_the_image_of_cousins.mp3",
         "PlayQuestionAudio": true,
@@ -56,8 +56,8 @@
       },
       {
         "QuestionAppearTime": "2000",
-        "IsQuestionText": false,
-        "QuestionText": "",
+        "IsQuestionText": true,
+        "QuestionText": "family tree",
         "QuestionImageName": "Q3familytree.png",
         "QuestionAudioName": "Tap_on_the_image-of_family_tree.mp3",
         "PlayQuestionAudio": true,

@@ -59,6 +59,8 @@ export default class video extends cc.Component {
     @property(cc.Font)
     jaipuria_font: cc.Font = null;
     @property(cc.Font)
+    revisedBooks_font: cc.Font = null;
+    @property(cc.Font)
     podar_font: cc.Font = null;
     @property(cc.Font)
     tlc_font: cc.Font = null;
@@ -151,6 +153,10 @@ export default class video extends cc.Component {
     }
 
     UpdateQuestions() {
+        console.log(startGame.Instance.jockeyName)
+
+
+
         if (startGame.Instance.jockeyName == "Podar") {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             this.questionNode.getChildByName("options1").children.forEach(element => {
@@ -173,6 +179,12 @@ export default class video extends cc.Component {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
             this.questionNode.getChildByName("options1").children.forEach(element => {
                 element.getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+            });
+        }
+        else if (startGame.Instance.jockeyName == "puzzle") {
+            this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.revisedBooks_font;
+            this.questionNode.getChildByName("options1").children.forEach(element => {
+                element.getChildByName("text").getComponent(cc.Label).font = this.revisedBooks_font;
             });
         }
         for (let i = 0; i < startGame.Instance.TotalLevels; i++) {
