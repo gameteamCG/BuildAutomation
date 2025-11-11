@@ -17,7 +17,7 @@
       {
         "questionText": "healthy and unhealthy habits",
         "questionImageName": "exercising.png",
-        "questionAudioName": "identifyifthepictur.mp3",
+        "questionAudioName": "3291323_1_exercising-is-a-health.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
         "isOptionText": false,
@@ -32,7 +32,7 @@
       {
         "questionText": "healthy and unhealthy habits",
         "questionImageName": "notcleaningtoys.png",
-        "questionAudioName": "identifyifthepictur.mp3",
+        "questionAudioName": "3291323_2_not-cleaning-up-toys-i.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
         "isOptionText": false,
@@ -47,7 +47,7 @@
       {
         "questionText": "healthy and unhealthy habits",
         "questionImageName": "eatingjunkfood.png",
-        "questionAudioName": "identifyifthepictur.mp3",
+        "questionAudioName": "3291323_3_eating-junk-food-is-a-.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
         "isOptionText": false,
@@ -62,7 +62,7 @@
       {
         "questionText": "healthy and unhealthy habits",
         "questionImageName": "bathing.png",
-        "questionAudioName": "identifyifthepictur.mp3",
+        "questionAudioName": "3291323_4_taking-a-bath-is-a-hea.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
         "isOptionText": false,
@@ -77,7 +77,7 @@
       {
         "questionText": "healthy and unhealthy habits",
         "questionImageName": "brushingtwice.png",
-        "questionAudioName": "identifyifthepictur.mp3",
+        "questionAudioName": "3291323_5_brushing-twice-daily-i.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
         "isOptionText": false,
@@ -92,7 +92,7 @@
       {
         "questionText": "healthy and unhealthy habits",
         "questionImageName": "watchingtv.png",
-        "questionAudioName": "identifyifthepictur.mp3",
+        "questionAudioName": "3291323_6_watching-too-much-tv-i.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
         "isOptionText": false,
@@ -107,7 +107,7 @@
       {
         "questionText": "healthy and unhealthy habits",
         "questionImageName": "sleepinglate.png",
-        "questionAudioName": "identifyifthepictur.mp3",
+        "questionAudioName": "3291323_7_sleeping-late-is-a-hea.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
         "isOptionText": false,
@@ -122,7 +122,7 @@
       {
         "questionText": "healthy and unhealthy habits",
         "questionImageName": "washinghands.png",
-        "questionAudioName": "identifyifthepictur.mp3",
+        "questionAudioName": "3291323_8_washing-hands-is-a-hea.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
         "isOptionText": false,
