@@ -93,6 +93,10 @@ export default class NewClass extends cc.Component {
     private isFirstClick: boolean = false;
     private canTouch: boolean = false;
     private answerArray: string[] = [];
+    private questiontextarray: string[] = ["Brushing twice a day", "Brushing twice a day", "Chewing food slowly", "Chewing food fast",
+        "Eating green vegetable", "Eating junk food", "Having less a water", "Having plenty of water", "Wearing clean clothes",
+        "Having a bath after \nplay time", "Washing hands after \nand before meals"
+    ];
     private maxLevel: number = 7;
     wrongAnswerCount: number = 0;
     star1Log: boolean = false;
@@ -106,6 +110,7 @@ export default class NewClass extends cc.Component {
 
 
     private questionBoxPosY: number = 0;
+
 
     // LIFE-CYCLE CALLBACKS:
 
@@ -153,19 +158,19 @@ export default class NewClass extends cc.Component {
                 }
                 this.correctAudio = audioClip;
             });
-            if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName != "") {
-                cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName, (err, texture) => {
-                    if (err) {
-                        console.error("Failed to load image:", err);
-                        return;
-                    }
-                    const spriteFrame = new cc.SpriteFrame(texture);
-                    this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
-                        this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    }
-                });
-            }
+            // if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName != "") {
+            //     cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName, (err, texture) => {
+            //         if (err) {
+            //             console.error("Failed to load image:", err);
+            //             return;
+            //         }
+            //         const spriteFrame = new cc.SpriteFrame(texture);
+            //         this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            //         for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
+            //             this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            //         }
+            //     });
+            // }
 
             cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionImageName, (err, texture) => {
                 if (err) {
@@ -216,15 +221,15 @@ export default class NewClass extends cc.Component {
             this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudioName, (AudioClip) => {
                 this.correctAudio = AudioClip;
             });
-            if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName != "") {
-                this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName, (spriteFrame) => {
-                    this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
-                        this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    }
-                });
+            // if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName != "") {
+            //     this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName, (spriteFrame) => {
+            //         this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            //         for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
+            //             this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            //         }
+            //     });
 
-            }
+            // }
             this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionImageName, (spriteFrame) => {
                 this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
             });
@@ -444,9 +449,10 @@ export default class NewClass extends cc.Component {
         if (_node.name == this.answerArray[0]) {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+            // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             this.destroyOption();
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.questiontextarray[globalVariables.Instance.currentLevel];
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.scheduleOnce(() => {
                 this.callPositiveRection(_node);
@@ -494,6 +500,7 @@ export default class NewClass extends cc.Component {
     setAnswerArray() {
         if (globalVariables.Instance.currentLevel == 1) {
             this.answerArray = ["1"];
+
         }
         else if (globalVariables.Instance.currentLevel == 2) {
             this.answerArray = ["2"];

@@ -63,6 +63,10 @@ var NewClass = /** @class */ (function (_super) {
         _this.isFirstClick = false;
         _this.canTouch = false;
         _this.answerArray = [];
+        _this.questiontextarray = ["Brushing twice a day", "Brushing twice a day", "Chewing food slowly", "Chewing food fast",
+            "Eating green vegetable", "Eating junk food", "Having less a water", "Having plenty of water", "Wearing clean clothes",
+            "Having a bath after \nplay time", "Washing hands after \nand before meals"
+        ];
         _this.maxLevel = 7;
         _this.wrongAnswerCount = 0;
         _this.star1Log = false;
@@ -116,19 +120,19 @@ var NewClass = /** @class */ (function (_super) {
                 }
                 _this.correctAudio = audioClip;
             });
-            if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonOptionImageName != "") {
-                cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonOptionImageName, function (err, texture) {
-                    if (err) {
-                        console.error("Failed to load image:", err);
-                        return;
-                    }
-                    var spriteFrame = new cc.SpriteFrame(texture);
-                    _this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
-                        _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    }
-                });
-            }
+            // if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName != "") {
+            //     cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName, (err, texture) => {
+            //         if (err) {
+            //             console.error("Failed to load image:", err);
+            //             return;
+            //         }
+            //         const spriteFrame = new cc.SpriteFrame(texture);
+            //         this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            //         for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
+            //             this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            //         }
+            //     });
+            // }
             cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionImageName, function (err, texture) {
                 if (err) {
                     console.error("Failed to load image:", err);
@@ -182,14 +186,14 @@ var NewClass = /** @class */ (function (_super) {
             this.loadAudioClip(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAudioName, function (AudioClip) {
                 _this.correctAudio = AudioClip;
             });
-            if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonOptionImageName != "") {
-                this.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonOptionImageName, function (spriteFrame) {
-                    _this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
-                        _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    }
-                });
-            }
+            // if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName != "") {
+            //     this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName, (spriteFrame) => {
+            //         this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            //         for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
+            //             this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            //         }
+            //     });
+            // }
             this.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionImageName, function (spriteFrame) {
                 _this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
             });
@@ -406,9 +410,10 @@ var NewClass = /** @class */ (function (_super) {
         if (_node.name == this.answerArray[0]) {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+            // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             this.destroyOption();
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.questiontextarray[globalVariables_1.default.Instance.currentLevel];
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.scheduleOnce(function () {
                 _this.callPositiveRection(_node);
