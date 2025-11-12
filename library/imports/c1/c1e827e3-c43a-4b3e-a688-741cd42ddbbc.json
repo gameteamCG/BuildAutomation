@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "family visit",
+    "texture": "c00070f4-7e13-4b10-b1cc-6967d4e90367",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      332,
+      191
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      339,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

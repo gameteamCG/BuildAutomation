@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c00070f4-7e13-4b10-b1cc-6967d4e90367",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 339,
+  "height": 207,
+  "platformSettings": {},
+  "subMetas": {
+    "family visit": {
+      "ver": "1.0.6",
+      "uuid": "c1e827e3-c43a-4b3e-a688-741cd42ddbbc",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c00070f4-7e13-4b10-b1cc-6967d4e90367",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 1,
+      "trimX": 3,
+      "trimY": 7,
+      "width": 332,
+      "height": 191,
+      "rawWidth": 339,
+      "rawHeight": 207,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,1 +1,85 @@
-{"AdditionalData":{"GameID":"A Family Visit_Nursery Course Book 2_39","VideoLink":"https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/71776Fingerfamily_1721647323532.mp4","TitleImageName":"Asset512.png","IntroAudio1Name":"BBgmwhatsnext.mp3","IntroAudio2Name":"","JockeyName":"puzzle","TotalLevel":"4"},"QuestionData":[{"QuestionAppearTime":"66666","IsQuestionText":true,"QuestionText":"father","QuestionImageName":"","QuestionAudioName":"identifyandtaponth.mp3","PlayQuestionAudio":true,"IsOptionText":false,"NumberOfOptions":2,"Options":["Asset8.png","Asset7.png"],"ReiterationAudioName":"father.mp3","CorrectAudioName":"EXCEPTIONAL.mp3","WrongAudioName":"Oopsietryoncemore.mp3","CorrectAnswer":"2"},{"QuestionAppearTime":"66666","IsQuestionText":true,"QuestionText":"sister","QuestionImageName":"","QuestionAudioName":"selectthepictureof.mp3","PlayQuestionAudio":true,"IsOptionText":false,"NumberOfOptions":2,"Options":["Asset3.png","Asset5.png"],"ReiterationAudioName":"sister.mp3","CorrectAudioName":"EXCELLENTJOB.mp3","WrongAudioName":"nevermind,tryagain.mp3","CorrectAnswer":"1"},{"QuestionAppearTime":"66666","IsQuestionText":true,"QuestionText":"mother","QuestionImageName":"","QuestionAudioName":"choosethepictureof.mp3","PlayQuestionAudio":true,"IsOptionText":false,"NumberOfOptions":2,"Options":["Asset6.png","Asset7.png"],"ReiterationAudioName":"mother.mp3","CorrectAudioName":"GREATWORK.mp3","WrongAudioName":"ohoh.mp3","CorrectAnswer":"1"},{"QuestionAppearTime":"66666","IsQuestionText":true,"QuestionText":"brother","QuestionImageName":"","QuestionAudioName":"identifyandtaph.mp3","PlayQuestionAudio":true,"IsOptionText":false,"NumberOfOptions":2,"Options":["Asset3.png","Asset8.png"],"ReiterationAudioName":"brother.mp3","CorrectAudioName":"GREATWORK.mp3","WrongAudioName":"Oopsietryoncemore.mp3","CorrectAnswer":"2"}]}
+{
+    "AdditionalData": {
+        "GameID": "A Family Visit_Nursery Course Book 2_39",
+        "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/71776Fingerfamily_1721647323532.mp4",
+        "TitleImageName": "family visit.png",
+        "IntroAudio1Name": "BBgmwhatsnext.mp3",
+        "IntroAudio2Name": "",
+        "JockeyName": "puzzle",
+        "TotalLevel": "4"
+    },
+    "QuestionData": [
+        {
+            "QuestionAppearTime": "66666",
+            "IsQuestionText": true,
+            "QuestionText": "father",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identifyandtaponth.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "Options": [
+                "Asset8.png",
+                "Asset7.png"
+            ],
+            "ReiterationAudioName": "father.mp3",
+            "CorrectAudioName": "EXCEPTIONAL.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "2"
+        },
+        {
+            "QuestionAppearTime": "66666",
+            "IsQuestionText": true,
+            "QuestionText": "sister",
+            "QuestionImageName": "",
+            "QuestionAudioName": "selectthepictureof.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "Options": [
+                "Asset3.png",
+                "Asset5.png"
+            ],
+            "ReiterationAudioName": "sister.mp3",
+            "CorrectAudioName": "EXCELLENTJOB.mp3",
+            "WrongAudioName": "nevermind,tryagain.mp3",
+            "CorrectAnswer": "1"
+        },
+        {
+            "QuestionAppearTime": "66666",
+            "IsQuestionText": true,
+            "QuestionText": "mother",
+            "QuestionImageName": "",
+            "QuestionAudioName": "choosethepictureof.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "Options": [
+                "Asset6.png",
+                "Asset7.png"
+            ],
+            "ReiterationAudioName": "mother.mp3",
+            "CorrectAudioName": "GREATWORK.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "1"
+        },
+        {
+            "QuestionAppearTime": "66666",
+            "IsQuestionText": true,
+            "QuestionText": "brother",
+            "QuestionImageName": "",
+            "QuestionAudioName": "identifyandtaph.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 2,
+            "Options": [
+                "Asset3.png",
+                "Asset8.png"
+            ],
+            "ReiterationAudioName": "brother.mp3",
+            "CorrectAudioName": "GREATWORK.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "2"
+        }
+    ]
+}

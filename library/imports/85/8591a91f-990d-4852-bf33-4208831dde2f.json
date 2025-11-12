@@ -460,10 +460,10 @@
       "__id__": 122
     },
     "bgMusic": {
-      "__uuid__": "2fd0d62f-307c-466d-8c74-d0415f65aae1"
+      "__uuid__": "1b8e37ae-c15b-49df-a910-fb141494b0d2"
     },
     "correctSound": {
-      "__uuid__": "617c9f98-08d8-49a8-874d-29e7b2166772"
+      "__uuid__": "76201cce-bb7d-416d-b9fa-351aa65050ff"
     },
     "starSprites": [
       {
@@ -2348,11 +2348,11 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 50,
-    "_lineHeight": 65,
+    "_fontSize": 70,
+    "_lineHeight": 100,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "3973d65f-94f6-47bd-adab-8f9135d35f89"
+      "__uuid__": "4c0782cd-dda0-476e-bf26-f74187917762"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -7860,10 +7860,10 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "98d13250-d21d-430f-a10e-c42065130ab2"
+      "__uuid__": "dfde2035-41bc-4122-ba2f-c1dacfc085ea"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -8020,10 +8020,10 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "98d13250-d21d-430f-a10e-c42065130ab2"
+      "__uuid__": "dfde2035-41bc-4122-ba2f-c1dacfc085ea"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
