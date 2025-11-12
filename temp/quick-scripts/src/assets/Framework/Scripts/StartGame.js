@@ -55,7 +55,7 @@ var startGame = /** @class */ (function (_super) {
         _this.JockeyNode = null;
         _this.firstClick = 1;
         _this.clickEvent = false;
-        _this.totalLevels = 7;
+        _this.totalLevels = 5;
         _this.playBtn_audio = null;
         // currentHealth: number = 10;
         _this.timer = 0;
@@ -345,14 +345,14 @@ var startGame = /** @class */ (function (_super) {
             else if (_this.jockeyName == "stallion") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
             }
-            else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
-            }
-            if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
-                _this.scheduleOnce(function () {
-                    cc.director.loadScene(_this.NextSceneName);
-                }, 2);
-            }
+            // else if (this.jockeyName == "bag" || this.jockeyName == "cryon") {
+            //     cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
+            // }
+            // if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
+            _this.scheduleOnce(function () {
+                cc.director.loadScene(_this.NextSceneName);
+            }, 2);
+            // }
         }, 1);
         // this.OnTimer();
     };

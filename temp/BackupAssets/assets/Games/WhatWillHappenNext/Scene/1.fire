@@ -1509,9 +1509,9 @@
     "_N$string": "",
     "_fontSize": 80,
     "_lineHeight": 110,
-    "_enableWrapText": true,
+    "_enableWrapText": false,
     "_N$file": {
-      "__uuid__": "d9348f57-e185-484c-b22d-019c41022ac4"
+      "__uuid__": "37e6aa85-90c1-4841-ac33-db654c9b6852"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -2158,8 +2158,32 @@
     ],
     "stallionPositive": [],
     "stallionNegative": [],
-    "bagPositive": [],
-    "bagNegative": [],
+    "bagPositive": [
+      {
+        "__uuid__": "f9e84d54-c588-4008-aeaa-d8d19e05272b"
+      },
+      {
+        "__uuid__": "1b1b7c92-2d2e-45f1-b45c-8d01b68ec0f7"
+      },
+      {
+        "__uuid__": "fa0b366b-6315-4ffb-8a8f-5d24b194c9ce"
+      },
+      {
+        "__uuid__": "67f7249c-e537-4af4-9b6a-70972f13049d"
+      },
+      {
+        "__uuid__": "1cb56e07-a41c-4086-b063-78d6884c4c51"
+      }
+    ],
+    "bagNegative": [
+      {
+        "__uuid__": "fc06a4d0-ba41-4ca0-8b65-450144af832c"
+      },
+      {
+        "__uuid__": "41cc22c5-9585-4bfa-8f9c-669999dfefff"
+      },
+      null
+    ],
     "cryonPositive": [],
     "cryonNegative": [],
     "tlcPositive": [],
@@ -2177,10 +2201,18 @@
     "greyMat": {
       "__uuid__": "2ce83f33-1891-40dc-83ff-6f484dd80cb3"
     },
-    "podar_font": null,
-    "jaipuria_font": null,
-    "tlc_font": null,
-    "supercub_font": null,
+    "podar_font": {
+      "__uuid__": "37e6aa85-90c1-4841-ac33-db654c9b6852"
+    },
+    "jaipuria_font": {
+      "__uuid__": "37e6aa85-90c1-4841-ac33-db654c9b6852"
+    },
+    "tlc_font": {
+      "__uuid__": "37e6aa85-90c1-4841-ac33-db654c9b6852"
+    },
+    "supercub_font": {
+      "__uuid__": "37e6aa85-90c1-4841-ac33-db654c9b6852"
+    },
     "_id": "04CCUW721K9IOPMiQOC81j"
   },
   {

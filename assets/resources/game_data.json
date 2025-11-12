@@ -1,12 +1,12 @@
 {
   "additionalData": {
     "GameID": "Big and Small: PreNursery Numeracy Activity Book",
-    "totalLevel": "8",
+    "totalLevel": "5",
     "TitleImageName": "title.png",
     "introBgName": "b.png",
     "bgmMusicName": "B2.mp3",
     "mainBgName": "Bg.png",
-    "JockeyName": "Singham",
+    "JockeyName": "bag",
     "templateType": "SimpleTap"
   },
   "questionData": [
@@ -45,7 +45,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Big\n",
+      "questionText": "Big",
       "questionAudioName": "Select-the-big-object.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "board.png",
@@ -79,8 +79,8 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Big",
-      "questionAudioName": "Select-the-big-object.mp3",
+      "questionText": "Small",
+      "questionAudioName": "Tap-on-the-small-objec.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "board.png",
       "isOptionText": false,
@@ -94,57 +94,6 @@
         "Tiger.mp3"
       ],
       "correctAnswerNum": "2"
-    },
-    {
-      "questionText": "Small",
-      "questionAudioName": "Tap-on-the-small-objec.mp3",
-      "shouldPlayQuestionAudio": true,
-      "commonOptionImageName": "board.png",
-      "isOptionText": false,
-      "isOptionBG": true,
-      "numberOfOptions": 2,
-      "options": [
-        "monster.png",
-        "Car.png"
-      ],
-      "correctAudios": [
-        "mini-car.mp3"
-      ],
-      "correctAnswerNum": "2"
-    },
-    {
-      "questionText": "Big",
-      "questionAudioName": "Select-the-big-object.mp3",
-      "shouldPlayQuestionAudio": true,
-      "commonOptionImageName": "board.png",
-      "isOptionText": false,
-      "isOptionBG": true,
-      "numberOfOptions": 2,
-      "options": [
-        "Key.png",
-        "Door.png"
-      ],
-      "correctAudios": [
-        "Door.mp3"
-      ],
-      "correctAnswerNum": "2"
-    },
-    {
-      "questionText": "Small \n",
-      "questionAudioName": "Tap-on-the-small-objec.mp3",
-      "shouldPlayQuestionAudio": true,
-      "commonOptionImageName": "board.png",
-      "isOptionText": false,
-      "isOptionBG": true,
-      "numberOfOptions": 2,
-      "options": [
-        "fish.png",
-        "Whale.png"
-      ],
-      "correctAudios": [
-        "cloon.mp3"
-      ],
-      "correctAnswerNum": "1"
     }
   ]
 }
