@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "my school_fs1_r155",
+      "totalLevel": "7",
+      "TitleImageName": "tittle.png",
+      "introBgName": "NUR.png",
+      "bgmMusicName": "BGM fun 1.mp3",
+      "mainBgName": "gameBG.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "My school",
+        "questionAudioName": "Q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "1.png"
+        ],
+        "reiterations": [
+          "L1.mp3"
+        ],
+        "commonRightOptionImageName": "Right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "2.png",
+          "w1.png"
+        ]
+      },
+      {
+        "questionText": "My school",
+        "questionAudioName": "Q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "3.png"
+        ],
+        "reiterations": [
+          "L2.mp3"
+        ],
+        "commonRightOptionImageName": "Right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "4.png",
+          "w2.png"
+        ]
+      },
+      {
+        "questionText": "My school",
+        "questionAudioName": "Q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "6.png"
+        ],
+        "reiterations": [
+          "L3.mp3"
+        ],
+        "commonRightOptionImageName": "Right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "6.png",
+          "w3.png"
+        ]
+      },
+      {
+        "questionText": "My school",
+        "questionAudioName": "Q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "7.png"
+        ],
+        "reiterations": [
+          "L4.mp3"
+        ],
+        "commonRightOptionImageName": "Right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "8.png",
+          "w4.png"
+        ]
+      },
+      {
+        "questionText": "My school",
+        "questionAudioName": "Q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "9.png"
+        ],
+        "reiterations": [
+          "L5.mp3"
+        ],
+        "commonRightOptionImageName": "Right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "10.png",
+          "w5.png"
+        ]
+      },
+      {
+        "questionText": "My school",
+        "questionAudioName": "Q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "11.png"
+        ],
+        "reiterations": [
+          "L6.mp3"
+        ],
+        "commonRightOptionImageName": "Right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "12.png",
+          "w6.png"
+        ]
+      },
+      {
+        "questionText": "My school",
+        "questionAudioName": "Q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "Left.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "13.png"
+        ],
+        "reiterations": [
+          "L7.mp3"
+        ],
+        "commonRightOptionImageName": "Right.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "14.png",
+          "w7.png"
+        ]
+      }
+    ]
+  }
+}
