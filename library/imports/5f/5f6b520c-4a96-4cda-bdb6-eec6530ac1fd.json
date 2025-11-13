@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sortingboysandgirl",
+    "texture": "900b7e55-c23e-4e18-a216-e17f5d2bd640",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      697,
+      267
+    ],
+    "offset": [
+      5,
+      -3.5
+    ],
+    "originalSize": [
+      739,
+      312
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

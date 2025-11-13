@@ -1,0 +1,79 @@
+{
+  "additionalData": {
+    "GameID": "SortingBoysAndGirls",
+    "totalLevel": "3",
+    "TitleImageName": "sortingboysandgirl.png",
+    "introBgName": "bgtitle.png",
+    "bgmMusicName": "Ragtime_for_Kids.mp3",
+    "mainBgName": "BG.png",
+    "JockeyName": "supercub"
+  },
+  "questionData": [
+    {
+      "questionText": "sorting boys and girls",
+      "questionAudioName": "drag_and_sort_the_pictures_of_boys_and_girls_into_the_correct_category.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Option1.png",
+      "commonDropNodeImageName": "Option2.png",
+      "isDropAreaText": false,
+      "dropAreas": [
+        "bpy.png",
+        "girl.png"
+      ],
+      "reiterationAudios": [
+        "boy.mp3",
+        "girl.mp3"
+      ],
+      "numberOfOptions": 2,
+      "isOptionText": false,
+      "options": [
+        "2.png",
+        "1.png"
+      ]
+    },
+    {
+      "questionText": "sorting boys and girls",
+      "questionAudioName": "drag_and_sort_the_pictures_of_boys_and_girls_into_the_correct_category.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Option1.png",
+      "commonDropNodeImageName": "Option2.png",
+      "isDropAreaText": false,
+      "dropAreas": [
+        "bpy.png",
+        "girl.png"
+      ],
+      "reiterationAudios": [
+        "boy.mp3",
+        "girl.mp3"
+      ],
+      "numberOfOptions": 2,
+      "isOptionText": false,
+      "options": [
+        "4.png",
+        "3.png"
+      ]
+    },
+    {
+      "questionText": "sorting boys and girls",
+      "questionAudioName": "drag_and_sort_the_pictures_of_boys_and_girls_into_the_correct_category.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Option1.png",
+      "commonDropNodeImageName": "Option2.png",
+      "isDropAreaText": false,
+      "dropAreas": [
+        "bpy.png",
+        "girl.png"
+      ],
+      "reiterationAudios": [
+        "boy.mp3",
+        "girl.mp3"
+      ],
+      "numberOfOptions": 2,
+      "isOptionText": false,
+      "options": [
+        "6.png",
+        "5.png"
+      ]
+    }
+  ]
+}

@@ -588,6 +588,7 @@ var NewClass = /** @class */ (function (_super) {
         // console.log("_node : ", _node.name);
         // console.log("parentNode : ", parentNode);
         _node.setParentWithSamePos(this.dropNode.getChildByName(parentNode.name).getChildByName("answer"));
+        _node.scale = 0.8;
         this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].setPosition(0, 0);
         this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].scale = this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].scale + this.dropNode.getChildByName(parentNode.name).getChildByName("answer").children[0].scale * 0.2;
         this.scheduleOnce(function () {
