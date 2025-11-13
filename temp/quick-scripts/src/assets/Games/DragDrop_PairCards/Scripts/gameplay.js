@@ -494,6 +494,7 @@ var NewClass = /** @class */ (function (_super) {
         if (globalVariables_1.default.Instance.currentLevel == 1) {
             this.node.getChildByName("hand").active = false;
         }
+        this.node.getChildByName("moveingParticle").active = true;
     };
     NewClass.prototype.TouchMove = function (_node, _event) {
         console.log("touchMove");

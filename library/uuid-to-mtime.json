@@ -500,8 +500,8 @@
     "relativePath": "model\\primitives.fbx"
   },
   "2e54313a-6066-4f4f-9579-a1902a83a5e3": {
-    "asset": 1763025643279,
-    "meta": 1763025707885,
+    "asset": 1763025742408,
+    "meta": 1763028489990,
     "relativePath": "resources"
   },
   "baaf9bff-fb51-4699-8164-455714aa4278": {
@@ -1305,8 +1305,8 @@
     "relativePath": "Games\\DragDrop_PairCards\\Materials"
   },
   "23a65137-e041-48e7-b25e-1d6225928cf5": {
-    "asset": 1763025643181,
-    "meta": 1763025708310,
+    "asset": 1763028474311,
+    "meta": 1763028489993,
     "relativePath": "Games\\DragDrop_PairCards\\Scene"
   },
   "e8762127-e059-4606-b3cf-c5bb2652cf3b": {
@@ -1660,8 +1660,8 @@
     "relativePath": "Games\\DragDrop_PairCards\\Materials\\grey.mtl"
   },
   "cf4e36d8-89d2-4945-a198-67e319127411": {
-    "asset": 1763027927077,
-    "meta": 1763027927100,
+    "asset": 1763029270245,
+    "meta": 1763029270262,
     "relativePath": "Games\\DragDrop_PairCards\\Scene\\1.fire"
   },
   "12188c2b-0d4b-464f-af83-522906b417c5": {
@@ -3000,8 +3000,8 @@
     "relativePath": "Framework\\Framework\\Prefabs\\Progressbar\\ProgressBar"
   },
   "56460068-dd3a-4ec1-aa86-bd06ff76d0e5": {
-    "asset": 1763025742404,
-    "meta": 1763025742417,
+    "asset": 1763026034444,
+    "meta": 1763028489992,
     "relativePath": "resources\\images"
   },
   "750a4919-6860-4a7b-9193-ffda6dd702a4": {
@@ -3020,8 +3020,8 @@
     "relativePath": "resources\\images\\Asset_30_250x250.png"
   },
   "679887d7-3262-48b9-aaaf-2c5eff03596f": {
-    "asset": 1763025742414,
-    "meta": 1763025742539,
+    "asset": 1763028474309,
+    "meta": 1763028489991,
     "relativePath": "resources\\audios"
   },
   "aa0c29ac-dde4-484c-9e62-03bba2bc030b": {
@@ -3038,16 +3038,6 @@
     "asset": 1763025742330,
     "meta": 1763025742583,
     "relativePath": "resources\\images\\Asset_29_350x350.png"
-  },
-  "43b090cf-3040-4571-8414-79fd676395f2": {
-    "asset": 1763025742330,
-    "meta": 1763025742646,
-    "relativePath": "resources\\images\\bpy.png"
-  },
-  "2696cb06-ec37-4c10-a951-ca7ce1b4bf35": {
-    "asset": 1763025742330,
-    "meta": 1763025742650,
-    "relativePath": "resources\\images\\girl.png"
   },
   "9b68e5a3-95bd-45c4-9e38-2c114e133e0d": {
     "asset": 1763025742331,
@@ -3149,14 +3139,49 @@
     "meta": 1763026034497,
     "relativePath": "resources\\images\\Option1.png"
   },
-  "ad4e5d42-7172-47db-8800-f7a8016b13a6": {
-    "asset": 1763026541369,
-    "meta": 1763026543198,
-    "relativePath": "Games\\DragDrop_PairCards\\Scripts\\gameplay.ts"
-  },
   "d505b512-bcce-4d29-9163-61eadc36f39c": {
     "asset": 1763026909989,
     "meta": 1763026910424,
     "relativePath": "resources\\game_data.json"
+  },
+  "708a598c-e274-4b36-a880-c1d6d58a7a75": {
+    "asset": 1763028517645,
+    "meta": 1763028518150,
+    "relativePath": "resources\\audios\\girl.mp3"
+  },
+  "2696cb06-ec37-4c10-a951-ca7ce1b4bf35": {
+    "asset": 1763028835304,
+    "meta": 1763028835385,
+    "relativePath": "resources\\images\\girl.png"
+  },
+  "43b090cf-3040-4571-8414-79fd676395f2": {
+    "asset": 1763028835304,
+    "meta": 1763028835393,
+    "relativePath": "resources\\images\\bpy.png"
+  },
+  "f60ac2f4-2f09-4f41-bb61-b499aa9c698e": {
+    "asset": 1763029158850,
+    "meta": 1763029158870,
+    "relativePath": "Games\\DragDrop_PairCards\\traileffect"
+  },
+  "7837e4e1-9cae-4795-9c8c-468ecff1e127": {
+    "asset": 1763029158857,
+    "meta": 1763029158900,
+    "relativePath": "Games\\DragDrop_PairCards\\traileffect\\FollowTouch.ts"
+  },
+  "670ba2ca-bb91-4f78-a692-1de8a40f4e92": {
+    "asset": 1763029158852,
+    "meta": 1763029158905,
+    "relativePath": "Games\\DragDrop_PairCards\\traileffect\\moveingParticle.prefab"
+  },
+  "dd08a1db-82fb-45de-8400-cc7a16555132": {
+    "asset": 1763029226988,
+    "meta": 1763029227030,
+    "relativePath": "Games\\DragDrop_PairCards\\traileffect\\starp.png"
+  },
+  "ad4e5d42-7172-47db-8800-f7a8016b13a6": {
+    "asset": 1763029265300,
+    "meta": 1763029266162,
+    "relativePath": "Games\\DragDrop_PairCards\\Scripts\\gameplay.ts"
   }
 }

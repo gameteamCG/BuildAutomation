@@ -543,6 +543,8 @@ export default class NewClass extends cc.Component {
         if (globalVariables.Instance.currentLevel == 1) {
             this.node.getChildByName("hand").active = false;
         }
+
+        this.node.getChildByName("moveingParticle").active = true;
     }
 
     TouchMove(_node: cc.Node, _event: any) {
