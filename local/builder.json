@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "C:\\Users\\tanis\\OneDrive\\Desktop\\Docs\\Builds\\Supercubs\\supercubs_srkg_111_Identify_gender",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "",
+        "questionText": "Identify gender",
         "questionAudioName": "solve_the_picture_puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Puzzle_panel_5.png",
@@ -43,7 +43,7 @@
         "reiterationAudioName": "girl.mp3"
       },
       {
-        "questionText": "",
+        "questionText": "Identify gender",
         "questionAudioName": "solve_the_picture_puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Puzzle_panel_5.png",
@@ -71,7 +71,7 @@
         "reiterationAudioName": "boy.mp3"
       },
       {
-        "questionText": "",
+        "questionText": "Identify gender",
         "questionAudioName": "solve_the_picture_puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Puzzle_panel_5.png",
@@ -99,7 +99,7 @@
         "reiterationAudioName": "girl.mp3"
       },
       {
-        "questionText": "",
+        "questionText": "Identify gender",
         "questionAudioName": "solve_the_picture_puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Puzzle_panel_5.png",
@@ -127,7 +127,7 @@
         "reiterationAudioName": "girl.mp3"
       },
       {
-        "questionText": "",
+        "questionText": "Identify gender",
         "questionAudioName": "solve_the_picture_puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Puzzle_panel_5.png",
@@ -155,7 +155,7 @@
         "reiterationAudioName": "boy.mp3"
       },
       {
-        "questionText": "",
+        "questionText": "Identify gender",
         "questionAudioName": "solve_the_picture_puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "Puzzle_panel_5.png",
