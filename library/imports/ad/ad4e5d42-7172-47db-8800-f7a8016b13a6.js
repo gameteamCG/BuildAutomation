@@ -189,6 +189,7 @@ var gameplay = /** @class */ (function (_super) {
                         }
                         var spriteFrame = new cc.SpriteFrame(texture);
                         _this.optionsNode.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        _this.optionsNode.getChildByName((i + 1).toString()).getChildByName("img").setPosition(-500, 0);
                     });
                 }
                 else {

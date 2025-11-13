@@ -15,4 +15,5 @@ require('./assets/Games/Matching/Scripts/endScreen');
 require('./assets/Games/Matching/Scripts/gameplay');
 require('./assets/Games/Matching/Scripts/gameplayOld');
 require('./assets/Games/Matching/Scripts/globalVariables');
+require('./assets/Games/Matching/traileffect/FollowTouch');
 require('./assets/resources/empty');

@@ -222,6 +222,7 @@ export default class gameplay extends cc.Component {
                         }
                         const spriteFrame = new cc.SpriteFrame(texture);
                         this.optionsNode.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        this.optionsNode.getChildByName((i + 1).toString()).getChildByName("img").setPosition(-500, 0);
                     });
                 }
                 else {
@@ -1004,12 +1005,14 @@ export default class gameplay extends cc.Component {
 
 
     TouchStart(_node: cc.Node, _event: any) {
+
         if (!this.canMove) {
             return;
         }
         if (!this.isFirstClick) {
             this.isFirstClick = true;
             console.log("firstClick--" + globalVariables.Instance.currentLevel);
+
         }
         this.node.getChildByName("hand").opacity = 0;
         //console.log("movement fix start : ",this.dropZones.getChildByName("1"));
@@ -1027,7 +1030,9 @@ export default class gameplay extends cc.Component {
         }
         else {
             this.canMove = false;
+
         }
+
     }
 
     TouchMove(_node: cc.Node, _event: any) {
