@@ -274,7 +274,10 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            // this.arrangeGridChildren(this.options, 80, _optionCount);
+            _optionParent.children[0].x = -420;
+            _optionParent.children[1].x = 0;
+            _optionParent.children[2].x = 420;
         }
         else {
             this.arrangeChildren(this.options, 80);
@@ -288,6 +291,11 @@ export default class Gameplay extends cc.Component {
         _template.destroy();
 
 
+    }
+
+    playQues(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
     }
 
     onTouchStart_layout1(event: cc.Event.EventTouch) {

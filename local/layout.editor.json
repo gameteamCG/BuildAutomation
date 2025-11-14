@@ -13,12 +13,12 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 352.2272644042969,
+            "width": 352.772705078125,
             "height": 717.5726928710938,
             "type": "dock-v",
             "children": [
               {
-                "width": 352.2272644042969,
+                "width": 352.772705078125,
                 "height": 360.2863464355469,
                 "type": "panel",
                 "active": 0,
@@ -27,7 +27,7 @@
                 ]
               },
               {
-                "width": 352.2272644042969,
+                "width": 352.772705078125,
                 "height": 354.2863464355469,
                 "type": "panel",
                 "active": 0,
@@ -38,12 +38,12 @@
             ]
           },
           {
-            "width": 735.4772338867188,
+            "width": 735.5181274414062,
             "height": 717.5726928710938,
             "type": "dock-v",
             "children": [
               {
-                "width": 735.4772338867188,
+                "width": 735.5181274414062,
                 "height": 360.2863464355469,
                 "type": "panel",
                 "active": 0,
@@ -52,7 +52,7 @@
                 ]
               },
               {
-                "width": 735.4772338867188,
+                "width": 735.5181274414062,
                 "height": 354.2863464355469,
                 "type": "panel",
                 "active": 0,
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 442.28179931640625,
+            "width": 441.7090759277344,
             "height": 717.5726928710938,
             "type": "panel",
             "active": 0,
@@ -89,8 +89,7 @@
         "node-library"
       ]
     },
-    " common-asset-worker-worker": {},
-    "window-1762855301209": {}
+    " common-asset-worker-worker": {}
   },
   "panels": {
     "project-settings": {
@@ -106,10 +105,10 @@
       "height": 900
     },
     "builder": {
-      "x": 36,
+      "x": 34,
       "y": 0,
-      "width": 1444,
-      "height": 816
+      "width": 1447,
+      "height": 817
     }
   },
   "panelLabelWidth": {}

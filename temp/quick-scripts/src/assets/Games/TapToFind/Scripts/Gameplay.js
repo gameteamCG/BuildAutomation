@@ -297,7 +297,10 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            // this.arrangeGridChildren(this.options, 80, _optionCount);
+            _optionParent.children[0].x = -420;
+            _optionParent.children[1].x = 0;
+            _optionParent.children[2].x = 420;
         }
         else {
             this.arrangeChildren(this.options, 80);
@@ -309,6 +312,10 @@ var Gameplay = /** @class */ (function (_super) {
             }
         }
         _template.destroy();
+    };
+    Gameplay.prototype.playQues = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
     };
     Gameplay.prototype.onTouchStart_layout1 = function (event) {
         var _this = this;
