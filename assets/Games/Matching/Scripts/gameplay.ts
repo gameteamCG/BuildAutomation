@@ -408,9 +408,12 @@ export default class gameplay extends cc.Component {
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
 
         this.OptionsLayoutVertical(this.optionsNode);
-        this.OptionsLayoutVertical(this.dropZones);
+        // this.OptionsLayoutVertical(this.dropZones);
         this.reverseOptionsLayout(this.optionsNode);
         this.reverseOptionsLayout(this.dropZones);
+        // this.dropZones.children[0].scale = 0.7;
+        this.dropZones.children[0].width = 400;
+        this.dropZones.children[0].height = 400;
         // let posX = -237;
         // if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
         //     posX = -300;
@@ -601,14 +604,14 @@ export default class gameplay extends cc.Component {
         cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -175, y: 0 }, { easing: "sineInOut" }).start();
 
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 175, y: 0 }, { easing: "sineInOut" }).start();
 
         this.scheduleOnce(() => {
             let audioNum: number = parseInt(_clone1.name);
