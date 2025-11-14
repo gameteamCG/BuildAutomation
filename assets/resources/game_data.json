@@ -1,0 +1,41 @@
+{
+  "additionalData": {
+    "GameID": "Helping family members",
+    "totalLevel": "3",
+    "TitleImageName": "Helping_family_members.png",
+    "introBgName": "bg.png",
+    "bgmMusicName": "bgm_1.mp3",
+    "initialVOName": "Colour_and_brighten_the_picture.mp3",
+    "mainBgName": "artbackground6.png",
+    "JockeyName": "supercub"
+  },
+  "questionData": [
+    {
+      "questionText": "Helping mother",
+      "questionImageName": "blankframe.png",
+      "questionAudioName": "draw_the_activity_you_do_at_home_to_help_your_family.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "blankframe.png",
+      "needMoreTools": true,
+      "correctAudioName": "FANTASTIC.mp3"
+    },
+    {
+      "questionText": "helping father",
+      "questionImageName": "blankframe.png",
+      "questionAudioName": "draw_the_activity_you_do_at_home_to_help_your_family.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "blankframe.png",
+      "needMoreTools": true,
+      "correctAudioName": "EXCELLENTJOB.mp3"
+    },
+    {
+      "questionText": "helping grandma",
+      "questionImageName": "blankframe.png",
+      "questionAudioName": "draw_the_activity_you_do_at_home_to_help_your_family.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "blankframe.png",
+      "needMoreTools": true,
+      "correctAudioName": "EXCEPTIONAL.mp3"
+    }
+  ]
+}

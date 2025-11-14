@@ -122,8 +122,8 @@ export default class PersistentScroll extends cc.Component {
     touchTilePos = new cc.Vec2(0, 0);
 
     currentTileIndex = -1;
-    prevPensilSelection = 0;
-    currentPensilSelection = 0;
+    prevPensilSelection = 1;
+    currentPensilSelection = 1;
     currentToolIndex = 0;
     currentPatternFrame = null;
     currentPatternFrameIndex = 0;
@@ -161,7 +161,7 @@ export default class PersistentScroll extends cc.Component {
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_CANCEL, this._onTouchEnd, this);
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_END, this._onTouchEnd, this);
 
-        this.currentPensilSelection = Constant.ToolsTag.BRUSH;
+        this.currentPensilSelection = Constant.ToolsTag.PENCIL;
 
         // this._instance = this;
 
@@ -475,7 +475,6 @@ export default class PersistentScroll extends cc.Component {
     }
 
     onToolsClicked(ref, tag) {
-
         this.prevPensilSelection = this.currentPensilSelection;
         this.currentPensilSelection = Constant.ToolsTag[tag];
         if (this.currentPensilSelection == Constant.ToolsTag.ERASER) {

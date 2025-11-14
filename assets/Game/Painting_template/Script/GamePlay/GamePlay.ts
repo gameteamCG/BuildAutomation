@@ -149,6 +149,11 @@ export default class GamePlay extends cc.Component {
         }
     }
 
+    playQues(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
+    }
+
     StartGame() {
         this.LoadJsonData();
         this.questionNode.setPosition(-60, this.questionNode.y);
@@ -157,10 +162,10 @@ export default class GamePlay extends cc.Component {
         this.scheduleOnce(() => {
             this.initialVO = globalVariables.Instance.initialVO;
             if (this.initialVO) {
-                cc.audioEngine.playEffect(this.initialVO, false);
-                this.scheduleOnce(() => {
-                    this.checkNextLevel();
-                }, this.initialVO.duration);
+                // cc.audioEngine.playEffect(this.initialVO, false);
+                // this.scheduleOnce(() => {
+                this.checkNextLevel();
+                // }, this.initialVO.duration);
             }
             else {
                 this.scheduleOnce(() => {
@@ -286,17 +291,5 @@ export default class GamePlay extends cc.Component {
 
 
     onSlideDraged(ref) {
-
-        // let progress = ref.progress*10;
-        // // progress = parseInt(progress.toString());
-        // // 10% of 500 100-200 150
-        // let min = Constant.ToolsTagSize[this.currentPensilSelection].MIN;
-        // let max = Constant.ToolsTagSize[this.currentPensilSelection].MAX;
-        // let val = Constant.getCenterVal(min, max, 0, 10, progress);
-        // val = parseInt(val.toString());
-
-        // ref.node.getParent().getChildByName("val").getComponent(cc.Label).string = val;
-
-        // Constant.CurrentToolsTagSize[this.currentPensilSelection] = val;
     }
 }

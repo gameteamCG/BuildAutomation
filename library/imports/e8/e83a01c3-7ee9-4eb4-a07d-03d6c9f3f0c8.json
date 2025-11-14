@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Helping_family_members",
+    "texture": "96ffd23e-01d3-480b-99a7-e44452ec394a",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      746,
+      223
+    ],
+    "offset": [
+      5.5,
+      2.5
+    ],
+    "originalSize": [
+      787,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
