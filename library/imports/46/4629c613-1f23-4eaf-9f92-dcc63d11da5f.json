@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "scared",
+    "texture": "61367374-c12a-480e-843a-f7daa13473fb",
+    "atlas": "",
+    "rect": [
+      35,
+      3,
+      431,
+      492
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sm2",
+    "texture": "71581e5f-52a7-4b89-845b-88c9a4721468",
+    "atlas": "",
+    "rect": [
+      4,
+      8,
+      492,
+      485
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

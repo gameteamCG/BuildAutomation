@@ -212,6 +212,30 @@ var NewClass = /** @class */ (function (_super) {
         this.currentJcokey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
     };
     NewClass.prototype.start = function () {
+        var bg = this.node.getChildByName("bg");
+        var wheels = this.node.getChildByName("bg");
+        // wheels.forEach((wheel) => {
+        //     cc.tween(wheel)
+        //         .repeatForever(
+        //             cc.tween().by(3, { angle: -360 })
+        //         )
+        //         .start();
+        // });
+        cc.tween(wheels.children[0])
+            .repeatForever(cc.tween().by(3, { angle: -360 }))
+            .start();
+        cc.tween(wheels.children[1])
+            .repeatForever(cc.tween().by(4, { angle: 360 }))
+            .start();
+        cc.tween(wheels.children[2])
+            .repeatForever(cc.tween().by(5, { angle: -360 }))
+            .start();
+        cc.tween(wheels.children[3])
+            .repeatForever(cc.tween().by(7, { angle: 360 }))
+            .start();
+        cc.tween(wheels.children[4])
+            .repeatForever(cc.tween().by(5, { angle: -360 }))
+            .start();
         ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
         // this.setAnswerArray();

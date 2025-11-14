@@ -246,6 +246,41 @@ export default class NewClass extends cc.Component {
     }
 
     start() {
+        const bg = this.node.getChildByName("bg");
+        const wheels = this.node.getChildByName("bg");
+        // wheels.forEach((wheel) => {
+        //     cc.tween(wheel)
+        //         .repeatForever(
+        //             cc.tween().by(3, { angle: -360 })
+        //         )
+        //         .start();
+        // });
+
+        cc.tween(wheels.children[0])
+            .repeatForever(
+                cc.tween().by(3, { angle: -360 })
+            )
+            .start();
+        cc.tween(wheels.children[1])
+            .repeatForever(
+                cc.tween().by(4, { angle: 360 })
+            )
+            .start();
+        cc.tween(wheels.children[2])
+            .repeatForever(
+                cc.tween().by(5, { angle: -360 })
+            )
+            .start();
+        cc.tween(wheels.children[3])
+            .repeatForever(
+                cc.tween().by(7, { angle: 360 })
+            )
+            .start();
+        cc.tween(wheels.children[4])
+            .repeatForever(
+                cc.tween().by(5, { angle: -360 })
+            )
+            .start();
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
         // this.setAnswerArray();
