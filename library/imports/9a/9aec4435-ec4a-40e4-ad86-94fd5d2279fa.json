@@ -36,12 +36,12 @@
         "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "C",
-          "A",
-          "H"
+          "w",
+          "l",
+          "r"
         ],
-        "correctAnswer": "1",
-        "reiterationAudioName": "chimney.mp3"
+        "correctAnswer": "3",
+        "reiterationAudioName": "roof.mp3"
       },
       {
         "questionText": "Parts of the house",
@@ -65,12 +65,12 @@
         "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "A",
-          "L",
-          "D"
+          "n",
+          "m",
+          "d"
         ],
-        "correctAnswer": "2",
-        "reiterationAudioName": "lawn.mp3"
+        "correctAnswer": "3",
+        "reiterationAudioName": "door.mp3"
       },
       {
         "questionText": "Parts of the house",
@@ -94,12 +94,12 @@
         "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "N",
-          "M",
-          "D"
+          "w",
+          "d",
+          "c"
         ],
-        "correctAnswer": "3",
-        "reiterationAudioName": "door.mp3"
+        "correctAnswer": "1",
+        "reiterationAudioName": "windows.mp3"
       },
       {
         "questionText": "Parts of the house",
@@ -123,12 +123,12 @@
         "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "L",
-          "N",
-          "A"
+          "a",
+          "l",
+          "d"
         ],
-        "correctAnswer": "1",
-        "reiterationAudioName": "laundry_room.mp3"
+        "correctAnswer": "2",
+        "reiterationAudioName": "lawn.mp3"
       },
       {
         "questionText": "Parts of the house",
@@ -152,12 +152,12 @@
         "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "W",
-          "D",
-          "C"
+          "l",
+          "w",
+          "n"
         ],
-        "correctAnswer": "1",
-        "reiterationAudioName": "windows.mp3"
+        "correctAnswer": "2",
+        "reiterationAudioName": "wall.mp3"
       },
       {
         "questionText": "Parts of the house",
@@ -181,12 +181,70 @@
         "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "W",
-          "L",
-          "R"
+          "b",
+          "q",
+          "t"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "balcony.mp3"
+      },
+      {
+        "questionText": "Parts of the house",
+        "questionAudioName": "Solve the picture puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common_puzzle_bg.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L7_1.png",
+          "L7_2.png",
+          "L7_3.png",
+          "L7_4.png"
+        ],
+        "correctAudioName": "empty.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "qvo2.mp3",
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "d",
+          "w",
+          "t"
         ],
         "correctAnswer": "3",
-        "reiterationAudioName": "roof.mp3"
+        "reiterationAudioName": "terrace.mp3"
+      },
+      {
+        "questionText": "Parts of the house",
+        "questionAudioName": "Solve the picture puzzle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonPuzzleImageName": "common_puzzle_bg.png",
+        "isHintRequired": false,
+        "numberOfPuzzles": 4,
+        "puzzles": [
+          "L8_1.png",
+          "L8_2.png",
+          "L8_3.png",
+          "L8_4.png"
+        ],
+        "correctAudioName": "empty.mp3",
+        "needReiteration": true,
+        "interactionType": "1",
+        "questionText2": "",
+        "questionAudioName2": "qvo2.mp3",
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 3,
+        "options": [
+          "g",
+          "b",
+          "t"
+        ],
+        "correctAnswer": "1",
+        "reiterationAudioName": "gate.mp3"
       }
     ]
   }
