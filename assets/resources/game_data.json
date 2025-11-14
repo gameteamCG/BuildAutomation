@@ -4,9 +4,9 @@
     "totalLevel": "5",
     "TitleImageName": "title.png",
     "introBgName": "bgtitlemain.png",
-    "bgmMusicName": "BGM_1.mp3",
+    "bgmMusicName": "okBG.mp3",
     "mainBgName": "bg.png",
-    "JockeyName": "Singham",
+    "JockeyName": "bag",
     "templateType": "TapToCollect"
   },
   "questionData": [

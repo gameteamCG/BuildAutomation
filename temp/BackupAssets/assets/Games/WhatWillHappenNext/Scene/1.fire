@@ -1511,7 +1511,7 @@
     "_lineHeight": 130,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "3973d65f-94f6-47bd-adab-8f9135d35f89"
+      "__uuid__": "1b00fb5b-c78a-4cf2-90cc-5f93df716692"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -2108,7 +2108,7 @@
     ],
     "positiveSound": [
       {
-        "__uuid__": "e69f6909-7104-4430-8958-26c918cbc963"
+        "__uuid__": "3c7e8d53-1277-4471-8c12-9fb02573a489"
       }
     ],
     "negativeSound": [
@@ -2121,7 +2121,7 @@
         "__uuid__": "bbe04caa-37da-4312-8235-21e6613b256c"
       },
       {
-        "__uuid__": "5c69f322-115d-42fc-b1b8-ac3518f6d6d1"
+        "__uuid__": "fea88440-f78b-4fd6-8121-f42bad368204"
       },
       {
         "__uuid__": "67cdee0a-f556-4515-bb9c-08be39a25cab"
@@ -2158,8 +2158,46 @@
     ],
     "stallionPositive": [],
     "stallionNegative": [],
-    "bagPositive": [],
-    "bagNegative": [],
+    "bagPositive": [
+      {
+        "__uuid__": "c21996a2-12df-436f-912f-944e95bc4642"
+      },
+      {
+        "__uuid__": "3eaa32f2-1c77-4597-af7c-14ef2c7fac60"
+      },
+      {
+        "__uuid__": "15ca4ea8-288e-4752-920a-6e6e429f3e2d"
+      },
+      {
+        "__uuid__": "f776c1fe-1c53-426b-999d-ab4d32b6128b"
+      },
+      {
+        "__uuid__": "c464e08d-f441-40fa-85d8-87da1e7805ab"
+      },
+      {
+        "__uuid__": "7ee287f8-1450-4fe2-ba56-c2127df121a5"
+      }
+    ],
+    "bagNegative": [
+      {
+        "__uuid__": "45f91452-68ce-4a53-98e6-7b37be175f17"
+      },
+      {
+        "__uuid__": "39757daf-7873-4bc9-ae02-897c3c791091"
+      },
+      {
+        "__uuid__": "25138b3d-f534-4392-9b8a-b579712db79d"
+      },
+      {
+        "__uuid__": "45f91452-68ce-4a53-98e6-7b37be175f17"
+      },
+      {
+        "__uuid__": "39757daf-7873-4bc9-ae02-897c3c791091"
+      },
+      {
+        "__uuid__": "25138b3d-f534-4392-9b8a-b579712db79d"
+      }
+    ],
     "cryonPositive": [],
     "cryonNegative": [],
     "tlcPositive": [],
@@ -2178,7 +2216,9 @@
       "__uuid__": "2ce83f33-1891-40dc-83ff-6f484dd80cb3"
     },
     "podar_font": null,
-    "jaipuria_font": null,
+    "jaipuria_font": {
+      "__uuid__": "1b00fb5b-c78a-4cf2-90cc-5f93df716692"
+    },
     "tlc_font": null,
     "supercub_font": null,
     "_id": "04CCUW721K9IOPMiQOC81j"

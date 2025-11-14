@@ -347,14 +347,14 @@ var startGame = /** @class */ (function (_super) {
             else if (_this.jockeyName == "stallion") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
             }
-            else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
-            }
-            if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
-                _this.scheduleOnce(function () {
-                    cc.director.loadScene("1");
-                }, 2);
-            }
+            // else if (this.jockeyName == "bag" || this.jockeyName == "cryon") {
+            //     cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
+            // }
+            // if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
+            _this.scheduleOnce(function () {
+                cc.director.loadScene("1");
+            }, 2);
+            // }
         }, 1);
         // this.OnTimer();
     };

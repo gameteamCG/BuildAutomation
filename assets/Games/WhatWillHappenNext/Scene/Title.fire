@@ -348,8 +348,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -14.314,
-        0,
+        4.562,
+        -78.199,
         0,
         0,
         0,
@@ -2630,7 +2630,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Singham",
+    "_name": "bag",
     "_objFlags": 0,
     "_parent": {
       "__id__": 54
@@ -2653,8 +2653,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 194.68,
-      "height": 440.94
+      "width": 409.26,
+      "height": 351.22
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2722,7 +2722,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "74f9cc7a-8359-4431-b760-ae541fa6e5c1"
+      "__uuid__": "d7e96e13-1506-46f3-af83-c2a68bde12ef"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
@@ -2743,7 +2743,7 @@
     "BGM_audio": {
       "__uuid__": "0de1ef27-6197-41a4-8ab5-319bb65fecab"
     },
-    "volume": 0.3,
+    "volume": 0.08,
     "NextSceneName": "1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [
