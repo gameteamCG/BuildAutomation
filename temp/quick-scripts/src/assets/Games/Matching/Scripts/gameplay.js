@@ -372,8 +372,8 @@ var gameplay = /** @class */ (function (_super) {
         this.reverseOptionsLayout(this.optionsNode);
         this.reverseOptionsLayout(this.dropZones);
         // this.dropZones.children[0].scale = 0.7;
-        this.dropZones.children[0].width = 400;
-        this.dropZones.children[0].height = 400;
+        this.dropZones.children[0].width = 500;
+        this.dropZones.children[0].height = 500;
         // let posX = -237;
         // if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
         //     posX = -300;
