@@ -83,6 +83,8 @@ export default class NewClass extends cc.Component {
     private isSecondInteraction: boolean = true;
     private interactionType: string = "1";
 
+    private levelPassed: boolean = false;
+
 
     currentJockey: cc.Node = null;
 
@@ -592,9 +594,11 @@ export default class NewClass extends cc.Component {
     }
     optionsAligned() {
         let levelPassed = true;
+        this.levelPassed = true;
         this.options.children.forEach((_child) => {
             if (_child.angle % 360 != 0) {
                 levelPassed = false;
+                this.levelPassed = false;
             }
         })
         if (levelPassed) {
@@ -703,6 +707,16 @@ export default class NewClass extends cc.Component {
                 this.levelFinished();
             }, this.positiveAudio[currentClipNum].duration);
         }, 0.5);
+    }
+
+    onSoundButtonClicked() {
+        cc.audioEngine.stopAllEffects();
+        if (this.levelPassed) {
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        }
     }
 
     callNegativeRection() {

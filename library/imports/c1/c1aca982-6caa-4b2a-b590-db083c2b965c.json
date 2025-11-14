@@ -1,8 +1,8 @@
 {
   "__type__": "cc.AudioClip",
-  "_name": "laundry_room",
+  "_name": "window",
   "_objFlags": 0,
   "_native": ".mp3",
-  "duration": 1.104,
+  "duration": 0.696,
   "loadMode": 0
 }

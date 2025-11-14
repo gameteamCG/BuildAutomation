@@ -5,8 +5,8 @@
   "_native": "",
   "json": {
     "additionalData": {
-      "GameID": "Costumes_Grade 2(EVS)_R10_T2",
-      "totalLevel": "6",
+      "GameID": "parts_of_the_house_fs1_r130_EYFS_FIX",
+      "totalLevel": "8",
       "TitleImageName": "Parts of the house.png",
       "introBgName": "bg12 (1).png",
       "bgmMusicName": "BGM.mp3",
@@ -99,7 +99,7 @@
           "c"
         ],
         "correctAnswer": "1",
-        "reiterationAudioName": "windows.mp3"
+        "reiterationAudioName": "window.mp3"
       },
       {
         "questionText": "Parts of the house",
@@ -124,11 +124,11 @@
         "numberOfOptions": 3,
         "options": [
           "a",
-          "l",
+          "g",
           "d"
         ],
         "correctAnswer": "2",
-        "reiterationAudioName": "lawn.mp3"
+        "reiterationAudioName": "garden.mp3"
       },
       {
         "questionText": "Parts of the house",

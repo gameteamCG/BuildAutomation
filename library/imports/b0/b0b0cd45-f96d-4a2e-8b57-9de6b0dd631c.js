@@ -64,6 +64,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.supercubNegative = [];
         _this.isSecondInteraction = true;
         _this.interactionType = "1";
+        _this.levelPassed = false;
         _this.currentJockey = null;
         _this.selectable = false;
         _this.questionPlaying = false;
@@ -525,9 +526,11 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.optionsAligned = function () {
         var _this = this;
         var levelPassed = true;
+        this.levelPassed = true;
         this.options.children.forEach(function (_child) {
             if (_child.angle % 360 != 0) {
                 levelPassed = false;
+                _this.levelPassed = false;
             }
         });
         if (levelPassed) {
@@ -635,6 +638,15 @@ var NewClass = /** @class */ (function (_super) {
                 _this.levelFinished();
             }, _this.positiveAudio[currentClipNum].duration);
         }, 0.5);
+    };
+    NewClass.prototype.onSoundButtonClicked = function () {
+        cc.audioEngine.stopAllEffects();
+        if (this.levelPassed) {
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        }
     };
     NewClass.prototype.callNegativeRection = function () {
         var _this = this;
