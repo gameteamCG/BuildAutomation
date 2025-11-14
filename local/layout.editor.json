@@ -32,7 +32,7 @@
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 654.6625366210938,
+                    "width": 777.7875366210938,
                     "height": 541.6000366210938,
                     "type": "panel",
                     "active": 0,
@@ -41,7 +41,7 @@
                     ]
                   },
                   {
-                    "width": 327.3374938964844,
+                    "width": 204.21250915527344,
                     "height": 541.6000366210938,
                     "type": "panel",
                     "active": 0,
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
+        "assets",
         "console",
         "timeline",
         "game-window",
@@ -105,10 +105,10 @@
       "height": 900
     },
     "builder": {
-      "x": 28,
-      "y": 0,
-      "width": 1460,
-      "height": 826
+      "x": -8,
+      "y": -8,
+      "width": 1552,
+      "height": 928
     }
   },
   "panelLabelWidth": {}
