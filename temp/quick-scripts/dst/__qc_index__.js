@@ -22,6 +22,7 @@ require('./assets/Framework/Scripts/Utilities/Utility');
 require('./assets/Framework/Scripts/Utils');
 require('./assets/Framework/WebView/Scripts/CheckForInitWebView');
 require('./assets/Framework/WebView/Scripts/WebView');
+require('./assets/Game/Painting_template/Prefab/traileffect/FollowTouch');
 require('./assets/Game/Painting_template/Script/Common/CommonFun');
 require('./assets/Game/Painting_template/Script/Common/ConfigController');
 require('./assets/Game/Painting_template/Script/Common/Constant');

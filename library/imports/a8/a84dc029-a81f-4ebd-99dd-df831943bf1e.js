@@ -95,6 +95,7 @@ var DrawingTable = /** @class */ (function (_super) {
         }
     };
     DrawingTable.prototype._onTouchBegin = function (event) {
+        this.node.getChildByName("moveingParticle").active = true;
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
         for (var i = 0; i < this.DrawingSplitDataArray.length; i++) {

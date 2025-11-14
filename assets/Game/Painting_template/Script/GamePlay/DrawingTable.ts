@@ -84,6 +84,7 @@ export default class DrawingTable extends cc.Component {
     }
 
     _onTouchBegin(event) {
+        this.node.getChildByName("moveingParticle").active = true;
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
         for (let i = 0; i < this.DrawingSplitDataArray.length; i++) {

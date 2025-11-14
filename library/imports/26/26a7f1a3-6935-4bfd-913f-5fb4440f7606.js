@@ -240,7 +240,7 @@ var GamePlay = /** @class */ (function (_super) {
         var duration = 0;
         if (this.currentLevel != 0) {
             this.scheduleOnce(function () {
-                cc.audioEngine.playEffect(_this.reiteration_Audio[_this.currentLevel - 1], false);
+                // cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
             }, 1);
             duration = this.reiteration_Audio[this.currentLevel - 1].duration + 1;
             console.log("correctAnswer--" + (this.currentLevel));

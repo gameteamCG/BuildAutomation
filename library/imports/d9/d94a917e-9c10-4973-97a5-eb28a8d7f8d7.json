@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "starp",
+    "texture": "01a07600-c8fc-45c5-a414-66982bc3a5a5",
+    "atlas": "",
+    "rect": [
+      5,
+      4,
+      67,
+      72
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      76,
+      80
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
