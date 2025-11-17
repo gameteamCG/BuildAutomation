@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\Supercub\\Listen_and_identify_SRKG_129",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

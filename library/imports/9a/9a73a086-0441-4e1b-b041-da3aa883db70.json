@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bgin",
+    "texture": "887e35d3-ebc7-4048-8424-126b535bcfeb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1919,
+      1078
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1919,
+      1078
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
