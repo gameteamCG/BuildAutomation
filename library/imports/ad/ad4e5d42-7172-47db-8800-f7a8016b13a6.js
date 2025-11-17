@@ -247,6 +247,8 @@ var gameplay = /** @class */ (function (_super) {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isLeftOptionText) {
                     this_5.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].leftoptions[i], function (spriteFrame) {
                         _this.dropZones.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        _this.dropZones.getChildByName((i + 1).toString()).getChildByName("img").scale = 1.7;
+                        _this.dropZones.getChildByName((i + 1).toString()).getChildByName("img").setPosition(50, 0);
                     });
                 }
                 else {
@@ -372,8 +374,12 @@ var gameplay = /** @class */ (function (_super) {
         this.reverseOptionsLayout(this.optionsNode);
         this.reverseOptionsLayout(this.dropZones);
         // this.dropZones.children[0].scale = 0.7;
-        this.dropZones.children[0].width = 500;
-        this.dropZones.children[0].height = 500;
+        this.dropZones.children[0].width = 600;
+        this.dropZones.children[0].height = 600;
+        this.optionsNode.children.forEach(function (element) {
+            element.width = 300;
+            element.height = 300;
+        });
         // let posX = -237;
         // if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
         //     posX = -300;
@@ -385,6 +391,9 @@ var gameplay = /** @class */ (function (_super) {
                 _this.dropZones.children[i - 1].opacity = 255;
                 _this.scheduleOnce(function () {
                     cc.audioEngine.playEffect(_this.popSound[0], false);
+                    _this.dropZones.children.forEach(function (element) {
+                        element.setPosition(-450, element.getPosition().y);
+                    });
                     cc.tween(_this.dropZones.getChildByName(i.toString()))
                         .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
                     if (i == _this.dropZones.children.length) {

@@ -272,6 +272,8 @@ export default class gameplay extends cc.Component {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isLeftOptionText) {
                     this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].leftoptions[i], (spriteFrame) => {
                         this.dropZones.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        this.dropZones.getChildByName((i + 1).toString()).getChildByName("img").scale = 1.7;
+                        this.dropZones.getChildByName((i + 1).toString()).getChildByName("img").setPosition(50, 0);
                     });
                 }
                 else {
@@ -412,8 +414,13 @@ export default class gameplay extends cc.Component {
         this.reverseOptionsLayout(this.optionsNode);
         this.reverseOptionsLayout(this.dropZones);
         // this.dropZones.children[0].scale = 0.7;
-        this.dropZones.children[0].width = 500;
-        this.dropZones.children[0].height = 500;
+        this.dropZones.children[0].width = 600;
+        this.dropZones.children[0].height = 600;
+
+        this.optionsNode.children.forEach(element => {
+            element.width = 300;
+            element.height = 300
+        })
         // let posX = -237;
         // if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
         //     posX = -300;
@@ -426,6 +433,9 @@ export default class gameplay extends cc.Component {
                 this.dropZones.children[i - 1].opacity = 255;
                 this.scheduleOnce(() => {
                     cc.audioEngine.playEffect(this.popSound[0], false);
+                    this.dropZones.children.forEach(element => {
+                        element.setPosition(-450, element.getPosition().y)
+                    })
                     cc.tween(this.dropZones.getChildByName(i.toString()))
                         .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
                     if (i == this.dropZones.children.length) {
@@ -451,6 +461,7 @@ export default class gameplay extends cc.Component {
             this.optionsNode.children.forEach(element => {
                 element.setPosition(190, element.getPosition().y);
             });
+
         }
         for (let i = 1; i <= this.optionsNode.children.length; i++) {
             this.optionsNode.children[i - 1].scale = 0;
@@ -598,6 +609,7 @@ export default class gameplay extends cc.Component {
         _node2.destroy();
         this.dropZones.active = false;
         this.optionsNode.active = false;
+
         cc.audioEngine.playEffect(this.positiveSound[0], false);
         cc.tween(_clone1).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
