@@ -151,7 +151,7 @@ export default class GamePlay extends cc.Component {
 
     playQues(_event: cc.Event) {
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel - 1], false);
     }
 
     StartGame() {

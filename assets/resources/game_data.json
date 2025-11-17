@@ -13,25 +13,25 @@
     {
       "questionText": "Helping mother",
       "questionImageName": "blankframe.png",
-      "questionAudioName": "draw_the_activity_you_do_at_home_to_help_your_family.mp3",
+      "questionAudioName": "1.mp3",
       "shouldPlayQuestionAudio": true,
       "pictureImageName": "blankframe.png",
       "needMoreTools": true,
       "correctAudioName": "FANTASTIC.mp3"
     },
     {
-      "questionText": "helping father",
+      "questionText": "Helping father",
       "questionImageName": "blankframe.png",
-      "questionAudioName": "draw_the_activity_you_do_at_home_to_help_your_family.mp3",
+      "questionAudioName": "2.mp3",
       "shouldPlayQuestionAudio": true,
       "pictureImageName": "blankframe.png",
       "needMoreTools": true,
       "correctAudioName": "EXCELLENTJOB.mp3"
     },
     {
-      "questionText": "helping grandma",
+      "questionText": "Helping grandma",
       "questionImageName": "blankframe.png",
-      "questionAudioName": "draw_the_activity_you_do_at_home_to_help_your_family.mp3",
+      "questionAudioName": "3.mp3",
       "shouldPlayQuestionAudio": true,
       "pictureImageName": "blankframe.png",
       "needMoreTools": true,

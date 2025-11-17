@@ -162,7 +162,7 @@ var GamePlay = /** @class */ (function (_super) {
     };
     GamePlay.prototype.playQues = function (_event) {
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel - 1], false);
     };
     GamePlay.prototype.StartGame = function () {
         var _this = this;
