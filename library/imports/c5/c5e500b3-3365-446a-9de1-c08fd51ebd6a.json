@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "food_groups",
+    "texture": "03908fc2-1b7e-42df-86f8-a88c53747d85",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      674,
+      222
+    ],
+    "offset": [
+      6,
+      2.5
+    ],
+    "originalSize": [
+      716,
+      279
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

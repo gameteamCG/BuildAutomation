@@ -1,0 +1,132 @@
+{
+  "additionalData": {
+    "GameID": "Food groups odd one out",
+    "totalLevel": "5",
+    "TitleImageName": "food_groups.png",
+    "introBgName": "titlebg.png",
+    "bgmMusicName": "bgm_sc.mp3",
+    "JockeyName": "supercub"
+  },
+  "questionData": [
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "kitchen_bg.png",
+      "questionAudioName": "tap_and_identify_the_odd_food_items.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "milk2.png",
+        "yogart2.png",
+        "bringel2.png"
+      ],
+      "optionsBg": [
+        "milk.png",
+        "yogart.png",
+        "bringel.png"
+      ],
+      "correctAudioName": "GOODJOB.mp3",
+      "wrongAudioName": "ohoh.mp3",
+      "reiterationAudioName": [
+        "Yogurt_milk_are_types_of_dairy_products.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "kitchen_bg.png",
+      "questionAudioName": "tap_and_identify_the_odd_food_items.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "egg2.png",
+        "grapes2.png",
+        "strawberry2.png"
+      ],
+      "optionsBg": [
+        "egg.png",
+        "grapes.png",
+        "strawberry.png"
+      ],
+      "correctAudioName": "IMPRESSIVEWORK.mp3",
+      "wrongAudioName": "nevermind,tryagain.mp3",
+      "reiterationAudioName": [
+        "Strawberry_and_Grape_are_types_of_fruit.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "BG42.png",
+      "questionAudioName": "tap_and_identify_the_odd_food_items.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "bringel2.png",
+        "fish2.png",
+        "beetroot2.png"
+      ],
+      "optionsBg": [
+        "bringel.png",
+        "fish.png",
+        "beetroot.png"
+      ],
+      "correctAudioName": "INCREDIBLE.mp3",
+      "wrongAudioName": "Oopsietryoncemore.mp3",
+      "reiterationAudioName": [
+        "Brinjal_and_Beetroot_are_types_of_vegetables.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "BG42.png",
+      "questionAudioName": "tap_and_identify_the_odd_food_items.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "meat2.png",
+        "egg2.png",
+        "coriender2.png"
+      ],
+      "optionsBg": [
+        "meat.png",
+        "egg.png",
+        "coriender.png"
+      ],
+      "correctAudioName": "EXCEPTIONAL.mp3",
+      "wrongAudioName": "ohoh.mp3",
+      "reiterationAudioName": [
+        "Meat_and_egg_give_us_protein.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "kitchen_bg.png",
+      "questionAudioName": "tap_and_identify_the_odd_food_items.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "beetroot2.png",
+        "rice2.png",
+        "oats2.png"
+      ],
+      "optionsBg": [
+        "beetroot.png",
+        "rice.png",
+        "oats.png"
+      ],
+      "correctAudioName": "BRILLIANT.mp3",
+      "wrongAudioName": "nevermind,tryagain.mp3",
+      "reiterationAudioName": [
+        "Rice_and_oats_are_made_from_grains.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}

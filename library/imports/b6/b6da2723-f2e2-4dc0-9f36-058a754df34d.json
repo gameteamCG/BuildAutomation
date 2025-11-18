@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "coriender",
+    "texture": "e576bd58-381c-40a2-843e-5c732366256f",
+    "atlas": "",
+    "rect": [
+      43,
+      14,
+      415,
+      473
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

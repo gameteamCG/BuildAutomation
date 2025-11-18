@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yogart2",
+    "texture": "0cefb890-6e52-4090-896d-cb7f95d7dc49",
+    "atlas": "",
+    "rect": [
+      73,
+      20,
+      355,
+      460
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "beetroot2",
+    "texture": "e1d90f75-91db-4774-8ae0-0a6e8f855144",
+    "atlas": "",
+    "rect": [
+      43,
+      14,
+      416,
+      473
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
