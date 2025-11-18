@@ -2706,6 +2706,11 @@
         "__uuid__": "34f9d273-9dff-4094-bcdb-4e79ee69dcbf"
       }
     ],
+    "puzzleConnect": [
+      {
+        "__uuid__": "d8420fd5-ae2b-4f20-b700-d3df3b891c91"
+      }
+    ],
     "popSound2": [
       {
         "__uuid__": "e6008246-c683-4a2e-98ed-55c5032d805c"

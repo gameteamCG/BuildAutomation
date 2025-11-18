@@ -21,6 +21,8 @@ export default class gameplay extends cc.Component {
 
     @property(cc.AudioClip)
     private popSound: cc.AudioClip[] = [];
+    @property(cc.AudioClip)
+    private puzzleConnect: cc.AudioClip[] = [];
 
     @property(cc.AudioClip)
     private popSound2: cc.AudioClip[] = [];
@@ -616,7 +618,9 @@ export default class gameplay extends cc.Component {
             cc.audioEngine.playEffect(this.correctAudio[audioNum], false);
             this.node.getChildByName("confetti").setPosition(0, 0);
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+            cc.audioEngine.playEffect(this.puzzleConnect[0], false);
             this.scheduleOnce(() => {
+
                 this.callJockey();
             }, 0.7);
         }, 0.5);
@@ -1157,6 +1161,7 @@ export default class gameplay extends cc.Component {
         if (_node.name == _dropNode.name) {
             this.answeredCount++;
             cc.audioEngine.stopAllEffects();
+
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;

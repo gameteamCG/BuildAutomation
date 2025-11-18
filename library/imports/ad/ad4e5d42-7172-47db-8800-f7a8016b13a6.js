@@ -36,6 +36,7 @@ var gameplay = /** @class */ (function (_super) {
         _this.tlc_font = null;
         _this.supercub_font = null;
         _this.popSound = [];
+        _this.puzzleConnect = [];
         _this.popSound2 = [];
         _this.questionSound = [];
         _this.positiveSound = [];
@@ -575,6 +576,7 @@ var gameplay = /** @class */ (function (_super) {
             cc.audioEngine.playEffect(_this.correctAudio[audioNum], false);
             _this.node.getChildByName("confetti").setPosition(0, 0);
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
+            cc.audioEngine.playEffect(_this.puzzleConnect[0], false);
             _this.scheduleOnce(function () {
                 _this.callJockey();
             }, 0.7);
@@ -1091,6 +1093,9 @@ var gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], gameplay.prototype, "popSound", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], gameplay.prototype, "puzzleConnect", void 0);
     __decorate([
         property(cc.AudioClip)
     ], gameplay.prototype, "popSound2", void 0);
