@@ -39,6 +39,8 @@ export default class GamePlay extends cc.Component {
     private tlc_font: cc.Font = null;
     @property(cc.Font)
     private supercub_font: cc.Font = null;
+    @property(cc.Font)
+    private books: cc.Font = null;
     // @property(String)
     questions: string[] = [''];
     // @property(cc.SpriteFrame)
@@ -144,6 +146,9 @@ export default class GamePlay extends cc.Component {
         else if (globalVariables.Instance.jockeyName == "bag" || globalVariables.Instance.jockeyName == "cryon") {
             this.questionNode.children[0].getComponent(cc.Label).font = this.jaipuria_font;
         }
+        else if (globalVariables.Instance.jockeyName == "jockey") {
+            this.questionNode.children[0].getComponent(cc.Label).font = this.books;
+        }
     }
 
     StartGame() {
@@ -221,7 +226,32 @@ export default class GamePlay extends cc.Component {
         // this.persistentScrollNode.getChildByName("base").active = false;
         // this.saveData();
         // cc.director.loadScene("LevelSelection");
+
+
+        // let pos: number[] = [-1400, 1400];
+        // let jockeytween: number[] = [-360, 360];
+
+        // let jockeyIndex: number = Math.floor(Math.random() * 2);
+        // this.node.getChildByName("jockey").setPosition(pos[jockeyIndex], -360);
+
+        // console.log("character appear -- puzzle");
+        // cc.tween(this.node.getChildByName("jockey")).to(0.5, { x: jockeytween[jockeyIndex] }, { easing: "sineInOut" }).start();
+        // let clipNames = ["positive_1", "positive_2", "positive_3", "positive_4"];
+        // let randomNum = Math.floor(Math.random() * clipNames.length);
+        // let currentClip = clipNames[randomNum];
+        // this.scheduleOnce(() => {
+        //     this.node.getChildByName("jockey").getComponent(sp.Skeleton).setAnimation(0, currentClip, false);
+        //     // cc.audioEngine.playEffect(this.reiteration_Audio[randomNum], false);
+        //     this.scheduleOnce(() => {
+        //         cc.tween(this.node.getChildByName("jockey")).to(1, { x: pos[jockeyIndex] }, { easing: "sineInOut" }).start();
+        //         console.log("character disappear -- puzzle");
+        //         this.node.getChildByName("jockey").getComponent(sp.Skeleton).setAnimation(0, "idle", false);
+        //         this.checkNextLevel();
+        //     }, this.reiteration_Audio[randomNum].duration);
+        // }, 0.5);
+
         this.checkNextLevel();
+
     }
 
     OnExitClicked() {
@@ -254,14 +284,14 @@ export default class GamePlay extends cc.Component {
                 cc.audioEngine.stopAllEffects();
                 this.scheduleOnce(() => {
                     cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
-                    this.node.getChildByName("image").getComponent(cc.Sprite).spriteFrame = this.questionImage[this.currentLevel];
+                    // this.node.getChildByName("image").getComponent(cc.Sprite).spriteFrame = this.questionImage[this.currentLevel];
                     this.currentLevel++;
                     this.addDrawing();
                 }, 0.5);
                 this.questionNode.children[0].getComponent(cc.Label).string = this.questions[this.currentLevel];
             }
             else {
-                this.node.getChildByName("image").active = false;
+                // this.node.getChildByName("image").active = false;
                 this.questionNode.getParent().active = false;
                 cc.director.loadScene("gameEnded");
             }
