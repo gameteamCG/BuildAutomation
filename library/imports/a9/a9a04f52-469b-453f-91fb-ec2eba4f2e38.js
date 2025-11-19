@@ -40,10 +40,12 @@ var Gameplay = /** @class */ (function (_super) {
         _this.canTouch = true;
         _this.correctCounter = 0;
         _this.numberofOptions = 5;
+        _this.answerText = [];
         _this.pop_audio = null;
         _this.positive_audio = null;
         _this.negative_audio = null;
         _this.imgs = [];
+        _this.imgs2 = [];
         _this.questionAudio = null;
         _this.correctAudio = null;
         _this.wrongAudio = null;
@@ -53,6 +55,7 @@ var Gameplay = /** @class */ (function (_super) {
         return _this;
     }
     Gameplay.prototype.onLoad = function () {
+        this.answerText = ["radish and carrot", "turnip and beetroot", "onion and ginger", "garlic and potato", "Sweet potato and carrot", "onion and ginger", "beetroot and potato"];
     };
     Gameplay.prototype.LoadQuestion = function () {
         var _this = this;
@@ -294,6 +297,7 @@ var Gameplay = /** @class */ (function (_super) {
             _option.active = true;
             _option.opacity = 0;
             _option.getComponent(cc.Sprite).spriteFrame = this.imgs[StartGame_1.default.Instance.currentLevel - 1];
+            _option.children[2].getComponent(cc.Sprite).spriteFrame = this.imgs2[StartGame_1.default.Instance.currentLevel - 1];
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
@@ -301,6 +305,9 @@ var Gameplay = /** @class */ (function (_super) {
             _optionParent.children[0].x = -420;
             _optionParent.children[1].x = 0;
             _optionParent.children[2].x = 420;
+            _optionParent.children[0].y = -100;
+            _optionParent.children[1].y = -100;
+            _optionParent.children[2].y = -100;
         }
         else {
             this.arrangeChildren(this.options, 80);
@@ -341,6 +348,7 @@ var Gameplay = /** @class */ (function (_super) {
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
+                _this.node.getChildByName("Qbar").getChildByName("label").getComponent(cc.Label).string = _this.answerText[StartGame_1.default.Instance.currentLevel - 1];
                 if (_this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
                 }
@@ -409,6 +417,7 @@ var Gameplay = /** @class */ (function (_super) {
             this.scheduleOnce(function () {
                 _clone_1.getComponent(cc.Animation).stop();
                 _clone_1.angle = 0;
+                _this.node.getChildByName("Qbar").getChildByName("label").getComponent(cc.Label).string = _this.answerText[StartGame_1.default.Instance.currentLevel - 1];
                 if (_this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
                 }
@@ -477,6 +486,7 @@ var Gameplay = /** @class */ (function (_super) {
             cc.tween(_clone.children[0])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
                 .call(function () {
+                _this.node.getChildByName("Qbar").getChildByName("label").getComponent(cc.Label).string = _this.answerText[StartGame_1.default.Instance.currentLevel - 1];
                 if (_this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
                 }
@@ -769,6 +779,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.SpriteFrame)
     ], Gameplay.prototype, "imgs", void 0);
+    __decorate([
+        property(cc.SpriteFrame)
+    ], Gameplay.prototype, "imgs2", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);

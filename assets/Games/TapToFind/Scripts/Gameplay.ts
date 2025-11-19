@@ -25,6 +25,7 @@ export default class Gameplay extends cc.Component {
     private canTouch: boolean = true;
     correctCounter: number = 0;
     private numberofOptions: number = 5;
+    answerText: string[] = [];
 
     @property(cc.AudioClip)
     pop_audio: cc.AudioClip = null;
@@ -34,6 +35,8 @@ export default class Gameplay extends cc.Component {
     negative_audio: cc.AudioClip = null;
     @property(cc.SpriteFrame)
     imgs: cc.SpriteFrame[] = [];
+    @property(cc.SpriteFrame)
+    imgs2: cc.SpriteFrame[] = [];
 
     private questionAudio: cc.AudioClip = null;
     private correctAudio: cc.AudioClip = null;
@@ -44,6 +47,7 @@ export default class Gameplay extends cc.Component {
     maxLevel: number = 0;
 
     onLoad() {
+        this.answerText = ["radish and carrot", "turnip and beetroot", "onion and ginger", "garlic and potato", "Sweet potato and carrot", "onion and ginger", "beetroot and potato"]
     }
 
     LoadQuestion() {
@@ -271,6 +275,7 @@ export default class Gameplay extends cc.Component {
             _option.active = true;
             _option.opacity = 0;
             _option.getComponent(cc.Sprite).spriteFrame = this.imgs[startGame.Instance.currentLevel - 1]
+            _option.children[2].getComponent(cc.Sprite).spriteFrame = this.imgs2[startGame.Instance.currentLevel - 1]
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
@@ -278,6 +283,9 @@ export default class Gameplay extends cc.Component {
             _optionParent.children[0].x = -420;
             _optionParent.children[1].x = 0;
             _optionParent.children[2].x = 420;
+            _optionParent.children[0].y = -100;
+            _optionParent.children[1].y = -100;
+            _optionParent.children[2].y = -100;
         }
         else {
             this.arrangeChildren(this.options, 80);
@@ -321,6 +329,7 @@ export default class Gameplay extends cc.Component {
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
                 .call(() => {
+                    this.node.getChildByName("Qbar").getChildByName("label").getComponent(cc.Label).string = this.answerText[startGame.Instance.currentLevel - 1]
                     if (this.reiterationAudio[audioNum]) {
                         cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
                     }
@@ -391,6 +400,7 @@ export default class Gameplay extends cc.Component {
             this.scheduleOnce(() => {
                 _clone.getComponent(cc.Animation).stop();
                 _clone.angle = 0;
+                this.node.getChildByName("Qbar").getChildByName("label").getComponent(cc.Label).string = this.answerText[startGame.Instance.currentLevel - 1]
                 if (this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
                 }
@@ -460,6 +470,7 @@ export default class Gameplay extends cc.Component {
             cc.tween(_clone.children[0])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
                 .call(() => {
+                    this.node.getChildByName("Qbar").getChildByName("label").getComponent(cc.Label).string = this.answerText[startGame.Instance.currentLevel - 1]
                     if (this.reiterationAudio[audioNum]) {
                         cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
                     }

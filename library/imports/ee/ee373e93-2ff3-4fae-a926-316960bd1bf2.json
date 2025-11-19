@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ginger",
+    "texture": "21db72cc-809c-4b5d-8d8b-6c8a2758486a",
+    "atlas": "",
+    "rect": [
+      29,
+      47,
+      437,
+      405
+    ],
+    "offset": [
+      -3,
+      1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
