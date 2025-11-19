@@ -80,6 +80,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.TotalOptions = 0;
         _this.positionArray = [];
         _this.isDone = [];
+        _this.answerText = [];
         _this.isLastTween = false;
         return _this;
     }
@@ -102,19 +103,7 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         }
         this.TotalOptions = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions;
-        //if (startGame.Instance.optionLayout == "horizontal") {
-        //let optionsLayoutNode = cc.instantiate(this.HorizntalOptionNode);
-        // optionsLayoutNode.setParent(this.node);
-        // optionsLayoutNode.name = "Option"
-        // optionsLayoutNode.setSiblingIndex(5);
-        // optionsLayoutNode.setPosition(cc.v2(0, 0));
-        //}
-        // else if (startGame.Instance.optionLayout == "vertical") {
-        //     let optionsLayoutNode = cc.instantiate(this.VerticalOptionNode);
-        //     optionsLayoutNode.setParent(this.node);
-        //     optionsLayoutNode.name = "Option"
-        //     optionsLayoutNode.setSiblingIndex(5);
-        // }
+        this.answerText = ["mosquito", "cricket", "dragonfly", "grasshopper", "housefly", "beetle", "bee"];
         this.optionsNode = this.node.getChildByName("Option");
         //console.log("optionsNode--" + this.optionsNode);
         this.node.getChildByName("QuestionBox").zIndex = 1;
@@ -624,6 +613,7 @@ var NewClass = /** @class */ (function (_super) {
         var voIndex = this.answerArray.indexOf(_node.name);
         switch (StartGame_1.default.Instance.templateType) {
             case "SimpleTap":
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerText[globalVariables_1.default.Instance.currentLevel - 1];
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
@@ -663,6 +653,7 @@ var NewClass = /** @class */ (function (_super) {
                 }, this.correctAudio[voIndex].duration);
                 break;
             case "TapToCollect":
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerText[globalVariables_1.default.Instance.currentLevel - 1];
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 this.scheduleOnce(function () {
                     _this.node.getChildByName("QuestionBox1").zIndex = 1;
@@ -707,6 +698,7 @@ var NewClass = /** @class */ (function (_super) {
                 break;
             case "ObjectsTweenIn":
                 //console.log("answer arrray index : ", this.answerArray.indexOf(_node.name));
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerText[globalVariables_1.default.Instance.currentLevel - 1];
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
