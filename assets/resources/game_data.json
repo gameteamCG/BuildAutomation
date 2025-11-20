@@ -4,7 +4,7 @@
     "totalLevel": "7",
     "TitleImageName": "tittle.png",
     "introBgName": "NUR.png",
-    "bgmMusicName": "BGM fun 1.mp3",
+    "bgmMusicName": "newbgm.mp3",
     "mainBgName": "gameBG.png",
     "JockeyName": "Puzzle"
   },
@@ -27,7 +27,7 @@
       "numberOfRightOptions": 2,
       "rightoptions": [
         "2.png",
-        "w1.png"
+        "8.png"
       ]
     },
     {
@@ -48,7 +48,7 @@
       "numberOfRightOptions": 2,
       "rightoptions": [
         "4.png",
-        "w2.png"
+        "10.png"
       ]
     },
     {
@@ -59,7 +59,7 @@
       "isLeftOptionText": false,
       "numberOfLeftOptions": 1,
       "leftoptions": [
-        "6.png"
+        "5.png"
       ],
       "reiterations": [
         "L3.mp3"
@@ -69,7 +69,7 @@
       "numberOfRightOptions": 2,
       "rightoptions": [
         "6.png",
-        "w3.png"
+        "12.png"
       ]
     },
     {
@@ -90,7 +90,7 @@
       "numberOfRightOptions": 2,
       "rightoptions": [
         "8.png",
-        "w4.png"
+        "2.png"
       ]
     },
     {
@@ -111,7 +111,7 @@
       "numberOfRightOptions": 2,
       "rightoptions": [
         "10.png",
-        "w5.png"
+        "4.png"
       ]
     },
     {
@@ -132,7 +132,7 @@
       "numberOfRightOptions": 2,
       "rightoptions": [
         "12.png",
-        "w6.png"
+        "2.png"
       ]
     },
     {
@@ -153,7 +153,7 @@
       "numberOfRightOptions": 2,
       "rightoptions": [
         "14.png",
-        "w7.png"
+        "8.png"
       ]
     }
   ]
