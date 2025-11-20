@@ -1,7 +1,7 @@
 {
   "c2cac686-1a89-42df-9170-104410a0df7a": {
-    "asset": 1763551965481,
-    "meta": 1763552201389,
+    "asset": 1763552225907,
+    "meta": 1763614271289,
     "relativePath": "resources"
   },
   "be45ee94-a6b0-4b7c-8fa6-8f17c5e5cdb0": {
@@ -755,8 +755,8 @@
     "relativePath": "Game\\Draw emotions"
   },
   "f4e58b73-561e-44d5-8d0f-85931c93a112": {
-    "asset": 1763551965242,
-    "meta": 1763552201398,
+    "asset": 1763552918462,
+    "meta": 1763614271290,
     "relativePath": "Game\\Painting_template"
   },
   "d683388d-09ef-42d3-8d72-1f2d5c0fa413": {
@@ -4105,8 +4105,8 @@
     "relativePath": "Game\\Painting_template\\Script\\GamePlay\\Persistent\\PersistentScroll.ts"
   },
   "8f491b88-8714-4309-8941-9a7f14c25a57": {
-    "asset": 1763555318930,
-    "meta": 1763555318935,
+    "asset": 1763614759355,
+    "meta": 1763614759365,
     "relativePath": "Game\\Painting_template\\Scene\\GamePlay.fire"
   },
   "a84dc029-a81f-4ebd-99dd-df831943bf1e": {
@@ -4145,8 +4145,8 @@
     "relativePath": "Games\\SocialQuiz\\Audios"
   },
   "3897e2f1-021f-4cdf-9570-5b3d9d72de77": {
-    "asset": 1763554611475,
-    "meta": 1763554611478,
+    "asset": 1763614530740,
+    "meta": 1763614530744,
     "relativePath": "Game\\Painting_template\\Assets\\Template\\prefab\\GamePlay\\NewDrawings\\test.prefab"
   },
   "ec626c5c-2781-4246-8dae-f71e13b3508c": {
@@ -4315,8 +4315,8 @@
     "relativePath": "Framework\\Jockey New 1"
   },
   "9b4bb325-76aa-4692-9244-499d2fca3435": {
-    "asset": 1763552226027,
-    "meta": 1763552226037,
+    "asset": 1763553893766,
+    "meta": 1763614271291,
     "relativePath": "resources\\images"
   },
   "eb3c2ffd-f665-4873-8625-5a5c14ecec67": {
@@ -4360,8 +4360,8 @@
     "relativePath": "resources\\images\\Chichen_Itza2.png"
   },
   "5344cd8b-b33d-4ee7-b9ee-27058141a9c2": {
-    "asset": 1763552226033,
-    "meta": 1763552226126,
+    "asset": 1763553621964,
+    "meta": 1763614271290,
     "relativePath": "resources\\audios"
   },
   "e0081981-5e50-41ed-af02-ee8eb3c7ea2c": {
@@ -4510,8 +4510,8 @@
     "relativePath": "resources\\images\\jrkg.png"
   },
   "3f86f1a6-2c16-40c7-b75f-459076cf6458": {
-    "asset": 1763552918463,
-    "meta": 1763552918497,
+    "asset": 1763554832753,
+    "meta": 1763614271291,
     "relativePath": "Game\\Painting_template\\puzzle"
   },
   "3988a4dd-ab8c-43be-8cc1-558d2229aaf1": {
@@ -4699,24 +4699,24 @@
     "meta": 1763553622376,
     "relativePath": "resources\\audios\\Q1.mp3"
   },
-  "48aa87c2-d33c-4bd7-aaa8-080dbba8d28a": {
-    "asset": 1763553893766,
-    "meta": 1763553893795,
-    "relativePath": "resources\\images\\Asset102.png"
-  },
   "3ee685ae-a799-41f8-9df5-f5d701586f50": {
     "asset": 1763554832752,
     "meta": 1763554832756,
     "relativePath": "Game\\Painting_template\\puzzle\\KGPenmanship2.ttf"
   },
-  "5934e1be-ef31-41b4-a4f8-fc2ed77e92d6": {
-    "asset": 1763555185413,
-    "meta": 1763555186853,
-    "relativePath": "resources\\game_data.json"
-  },
   "26a7f1a3-6935-4bfd-913f-5fb4440f7606": {
     "asset": 1763555287545,
     "meta": 1763555288993,
     "relativePath": "Game\\Painting_template\\Script\\GamePlay\\GamePlay.ts"
+  },
+  "5934e1be-ef31-41b4-a4f8-fc2ed77e92d6": {
+    "asset": 1763614656996,
+    "meta": 1763614658361,
+    "relativePath": "resources\\game_data.json"
+  },
+  "8b0a0e62-1f7e-46e5-9d9a-27cefa86e8c9": {
+    "asset": 1763614692268,
+    "meta": 1763614703524,
+    "relativePath": "resources\\images\\Asset102.png"
   }
 }
