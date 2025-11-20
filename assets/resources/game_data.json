@@ -1,0 +1,139 @@
+{
+  "additionalData": {
+    "GameID": "null",
+    "totalLevel": "6",
+    "TitleImageName": "memorycard.png",
+    "introBgName": "bg.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "bg18.png",
+    "JockeyName": "supercub"
+  },
+  "questionData": [
+    {
+      "questionText": "toys",
+      "questionAudioName": "Match_the_toys.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "backcard.png",
+      "frontCardImageName": "frontcard.png",
+      "isOptionText": false,
+      "options": [
+        "tedddy.png",
+        "helicopter.png"
+      ],
+      "reiterationAudios": [
+        "Teddy_bear.mp3",
+        "toy_helicopter.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "tedddy.png",
+        "helicopter.png"
+      ]
+    },
+    {
+      "questionText": "toys",
+      "questionAudioName": "Match_the_toys.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "backcard.png",
+      "frontCardImageName": "frontcard.png",
+      "isOptionText": false,
+      "options": [
+        "ball.png",
+        "duck.png"
+      ],
+      "reiterationAudios": [
+        "ball.mp3",
+        "toy_duck.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "ball.png",
+        "duck.png"
+      ]
+    },
+    {
+      "questionText": "toys",
+      "questionAudioName": "Match_the_toys.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "backcard.png",
+      "frontCardImageName": "frontcard.png",
+      "isOptionText": false,
+      "options": [
+        "toy3.png",
+        "ship2.png"
+      ],
+      "reiterationAudios": [
+        "stacking_toy.mp3",
+        "toy_ship.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "toy3.png",
+        "ship2.png"
+      ]
+    },
+    {
+      "questionText": "toys",
+      "questionAudioName": "Match_the_toys.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "backcard.png",
+      "frontCardImageName": "frontcard.png",
+      "isOptionText": false,
+      "options": [
+        "dall.png",
+        "horse.png"
+      ],
+      "reiterationAudios": [
+        "doll.mp3",
+        "toy_rocking_haws.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "dall.png",
+        "horse.png"
+      ]
+    },
+    {
+      "questionText": "toys",
+      "questionAudioName": "Match_the_toys.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "backcard.png",
+      "frontCardImageName": "frontcard.png",
+      "isOptionText": false,
+      "options": [
+        "elephant.png",
+        "rocket.png"
+      ],
+      "reiterationAudios": [
+        "toy_elephant.mp3",
+        "toy_rocket.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "elephant.png",
+        "rocket.png"
+      ]
+    },
+    {
+      "questionText": "toys",
+      "questionAudioName": "Match_the_toys.mp3",
+      "shouldPlayQuestionAudio": true,
+      "backCardImageName": "backcard.png",
+      "frontCardImageName": "frontcard.png",
+      "isOptionText": false,
+      "options": [
+        "blocks2.png",
+        "boat.png"
+      ],
+      "reiterationAudios": [
+        "blocks.mp3",
+        "toy_boat.mp3"
+      ],
+      "isAnswerText": false,
+      "answers": [
+        "blocks2.png",
+        "boat.png"
+      ]
+    }
+  ]
+}

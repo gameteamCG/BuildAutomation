@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -291,7 +291,6 @@ var NewClass = /** @class */ (function (_super) {
                     this_5.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].answers[i - AnswerStartIndex];
                     //this.textArray.push(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].answers[i]);
                 }
-                console.log("Options : ", this_5.node.getChildByName("Option"));
                 this_5.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("label").name = counter1.toString();
                 counter1++;
             };
@@ -305,7 +304,6 @@ var NewClass = /** @class */ (function (_super) {
         this.currentJcokey.active = true;
     };
     NewClass.prototype.start = function () {
-        console.log("ImageArray : ", this.spriteArray);
         ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
         this.TotalOptions = this.node.getChildByName("Option").children.length;
@@ -356,7 +354,7 @@ var NewClass = /** @class */ (function (_super) {
         var parentNode = this.node.getChildByName("Option");
         var rows = 2;
         var columns = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options.length;
-        var offsetX = 50;
+        var offsetX = 150;
         var offsetY = 50;
         var objWidth = 195;
         var objHeight = 295;
@@ -368,7 +366,7 @@ var NewClass = /** @class */ (function (_super) {
             spacing = 50;
         }
         else if (columns == 4) {
-            spacing = 150;
+            spacing = 200;
         }
         else if (columns == 5) {
             spacing = 200;
@@ -376,13 +374,10 @@ var NewClass = /** @class */ (function (_super) {
         if (totalHeight > parentNode.height || totalWidth > parentNode.width) {
             if (totalWidth > parentNode.width) {
                 scaleFactor = parentNode.width / totalWidth;
-                console.log("2 : ", totalWidth, parentNode.width, scaleFactor);
             }
             if (totalHeight > parentNode.height) {
                 scaleFactor = parentNode.height / totalHeight;
-                console.log("1 : ", totalHeight, parentNode.height, scaleFactor);
             }
-            //console.log("scaleFactor : ", scaleFactor);
             offsetX = offsetX * scaleFactor;
             offsetY = offsetY * scaleFactor;
             objWidth = objWidth * scaleFactor;
@@ -400,7 +395,6 @@ var NewClass = /** @class */ (function (_super) {
                 option.opacity = 255;
                 option.active = true;
                 counter++;
-                console.log("counter : ", counter);
                 option.name = counter.toString();
                 startX += (objWidth) + offsetX;
                 option.opacity = 0;
@@ -448,14 +442,6 @@ var NewClass = /** @class */ (function (_super) {
                 .to(0.3, { x: this.positionArray[this.arr[i]].x, y: this.positionArray[this.arr[i]].y }).start();
         }
         this.scheduleOnce(function () {
-            // if (globalVariables.Instance.currentLevel == 1) {
-            //     let hand = this.node.getChildByName("hand");
-            //     console.log("answer array num = ", this.answerArray[0]);
-            //     hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-            //     hand.setPosition(0, -30);
-            //     hand.setParentWithSamePos(this.node);
-            //     hand.getComponent(cc.Animation).play();
-            // }
         }, 1.5);
     };
     NewClass.prototype.PlayQuestionAudio = function () {
@@ -474,7 +460,6 @@ var NewClass = /** @class */ (function (_super) {
             });
             if (globalVariables_1.default.Instance.currentLevel == 1) {
                 var hand = this.node.getChildByName("hand");
-                console.log("answer array num = ", this.answerArray[0]);
                 hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
                 hand.setPosition(0, -30);
                 hand.setParentWithSamePos(this.node);
@@ -499,7 +484,6 @@ var NewClass = /** @class */ (function (_super) {
                     });
                     if (globalVariables_1.default.Instance.currentLevel == 1) {
                         var hand = _this.node.getChildByName("hand");
-                        console.log("answer array num = ", _this.answerArray[0]);
                         hand.setParent(_this.node.getChildByName("Option").getChildByName("1"));
                         hand.setPosition(0, -30);
                         hand.setParentWithSamePos(_this.node);
@@ -518,7 +502,6 @@ var NewClass = /** @class */ (function (_super) {
                             });
                             if (globalVariables_1.default.Instance.currentLevel == 1) {
                                 var hand = _this.node.getChildByName("hand");
-                                console.log("answer array num = ", _this.answerArray[0]);
                                 hand.setParent(_this.node.getChildByName("Option").getChildByName("1"));
                                 hand.setPosition(0, -30);
                                 hand.setParentWithSamePos(_this.node);
@@ -563,8 +546,8 @@ var NewClass = /** @class */ (function (_super) {
                 this.scheduleOnce(function () {
                     _this.card1.setParent(_this.node.getChildByName("Panel"));
                     _this.card2.setParent(_this.node.getChildByName("Panel"));
-                    _this.node.getChildByName("Panel").getChildByName(card1Name_1).setPosition(-150, 0);
-                    _this.node.getChildByName("Panel").getChildByName(card2Name_1).setPosition(150, 0);
+                    _this.node.getChildByName("Panel").getChildByName(card1Name_1).setPosition(-200, 0);
+                    _this.node.getChildByName("Panel").getChildByName(card2Name_1).setPosition(200, 0);
                     _this.node.getChildByName("Panel").getChildByName(card1Name_1).scale = 0;
                     _this.node.getChildByName("Panel").getChildByName(card2Name_1).scale = 0;
                     cc.tween(_this.node.getChildByName("Panel").getChildByName(card1Name_1)).to(0.5, { scale: 1.3 }).start();
@@ -577,7 +560,6 @@ var NewClass = /** @class */ (function (_super) {
                         else {
                             audioIndex = parseInt(card2Name_1) - 1;
                         }
-                        console.log("AudioIndex : ", audioIndex);
                         cc.audioEngine.playEffect(_this.correctAudio[audioIndex], false);
                         _this.scheduleOnce(function () {
                             _this.node.getChildByName("Panel").getChildByName(card1Name_1).destroy();
@@ -627,13 +609,6 @@ var NewClass = /** @class */ (function (_super) {
             this.cardTapped = true;
             this.card1 = _node;
         }
-        // if (_node.name == this.answerArray[0]) {
-        // }
-        // else {
-        //     this.wrongAnswerCount++;
-        //     console.log("wrongAnswer--" + globalVariables.Instance.currentLevel);
-        //     this.callNegativeRection(_node, _event);
-        // }
     };
     NewClass.prototype.callNextLevel = function () {
         console.log("levelComplete--" + globalVariables_1.default.Instance.currentLevel);
@@ -738,12 +713,9 @@ var NewClass = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
-        // console.log("anim length = ", anim.length);
         var currentClipNum = this.getRandomNumber(0, anim.length - 1);
-        // console.log("currentClipNum = ", currentClipNum);
         var pos = [-1200, 1200];
-        var jockeytween = [-450, 450];
-        //console.log("characterAppear--Podar_Jumbo");
+        var jockeytween = [-870, 870];
         if (globalVariables_1.default.Instance.currentLevel % 2 == 0 && StartGame_1.default.Instance.jockeyName == "stallion") {
             this.currentJcokey.scaleX = -0.65;
         }
@@ -775,7 +747,6 @@ var NewClass = /** @class */ (function (_super) {
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                         }
                     }
-                    //console.log("characterDisappear--Podar_Jumbo");
                     _this.callNextLevel();
                 }, _this.positiveAudio[currentClipNum].duration);
             }, 0.5);
@@ -809,9 +780,10 @@ var NewClass = /** @class */ (function (_super) {
                         _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                         _this.scheduleOnce(function () {
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                            cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
-                            //console.log("characterDisappear--Podar_Jumbo");
-                            _this.callNextLevel();
+                            cc.tween(_this.currentJcokey).to(1, { x: -1000 }).start();
+                            _this.scheduleOnce(function () {
+                                _this.callNextLevel();
+                            }, 1);
                         }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
                     }, _this.positiveAudio[currentClipNum].duration);
                 }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_start").duration);
@@ -821,9 +793,10 @@ var NewClass = /** @class */ (function (_super) {
                 cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
                 this.scheduleOnce(function () {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                    cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
-                    //console.log("characterDisappear--Podar_Jumbo");
-                    _this.callNextLevel();
+                    cc.tween(_this.currentJcokey).to(1, { x: -1000 }).start();
+                    _this.scheduleOnce(function () {
+                        _this.callNextLevel();
+                    }, 1);
                 }, this.positiveAudio[currentClipNum].duration);
             }
         }
@@ -862,7 +835,6 @@ var NewClass = /** @class */ (function (_super) {
                 anim = ["negative_1", "negative_2"];
             }
             var currentClipNum = _this.getRandomNumber(0, anim.length - 1);
-            //console.log("characterAppear--Podar_Jumbo");
             if (StartGame_1.default.Instance.jockeyName == "stallion") {
                 _this.currentJcokey.scaleX = 0.65;
                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
@@ -891,7 +863,6 @@ var NewClass = /** @class */ (function (_super) {
                                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                             }
                         }
-                        //console.log("characterDisappear--Podar_Jumbo");
                         _this.node.getChildByName("Option").children.forEach(function (elem) {
                             elem.getComponent(cc.Button).interactable = true;
                         });

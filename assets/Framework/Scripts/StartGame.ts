@@ -128,21 +128,21 @@ export default class startGame extends cc.Component {
     }
 
     logData() {
-        console.log("Game ID:", this.gameID);
-        console.log("Total Levels:", this.totalLevels);
-        console.log("BGM audio name:", this.BGM_audio.name);
-        console.log("Title Image Name:", this.titleImageName);
-        console.log("Jockey Name:", this.jockeyName);
+        // console.log("Game ID:", this.gameID);
+        // console.log("Total Levels:", this.totalLevels);
+        // console.log("BGM audio name:", this.BGM_audio.name);
+        // console.log("Title Image Name:", this.titleImageName);
+        // console.log("Jockey Name:", this.jockeyName);
 
-        // Log question data
-        this.questions.forEach((question, index) => {
-            console.log(`Question ${index + 1}:`);
-            console.log("Question Image Name:", question.questionImageName);
-            console.log("Question Audio Name:", question.questionAudioName);
-            // console.log("Option 1 Image Name:", question.option1ImageName);
-            // console.log("Option 2 Image Name:", question.option2ImageName);
-            //console.log("Correct Answer Number:", question.correctAnswerNum);
-        });
+        // // Log question data
+        // this.questions.forEach((question, index) => {
+        //     console.log(`Question ${index + 1}:`);
+        //     console.log("Question Image Name:", question.questionImageName);
+        //     console.log("Question Audio Name:", question.questionAudioName);
+        //     // console.log("Option 1 Image Name:", question.option1ImageName);
+        //     // console.log("Option 2 Image Name:", question.option2ImageName);
+        //     //console.log("Correct Answer Number:", question.correctAnswerNum);
+        // });
     }
     removeExtension(imageName: string): string {
         // Remove .png extension

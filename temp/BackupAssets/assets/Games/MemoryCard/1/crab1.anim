@@ -1,0 +1,75 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "crab1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 4.016666666666667,
+  "sample": 60,
+  "speed": 0.3,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -801,
+            527
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 2,
+          "value": [
+            802,
+            -560
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 4,
+          "value": [
+            -798,
+            528
+          ],
+          "motionPath": []
+        }
+      ],
+      "scale": [
+        {
+          "frame": 1.9833333333333334,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 1,
+            "y": 1
+          }
+        },
+        {
+          "frame": 2,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": -1,
+            "y": -1
+          }
+        },
+        {
+          "frame": 4,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": -1,
+            "y": -1
+          }
+        },
+        {
+          "frame": 4.016666666666667,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 1,
+            "y": 1
+          }
+        }
+      ]
+    }
+  },
+  "events": []
+}

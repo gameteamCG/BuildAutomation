@@ -1,6 +1,4 @@
-
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -313,7 +311,6 @@ export default class NewClass extends cc.Component {
                     this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].answers[i - AnswerStartIndex];
                     //this.textArray.push(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].answers[i]);
                 }
-                console.log("Options : ", this.node.getChildByName("Option"));
                 this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("label").name = counter1.toString();
                 counter1++;
             }
@@ -324,7 +321,6 @@ export default class NewClass extends cc.Component {
     }
 
     start() {
-        console.log("ImageArray : ", this.spriteArray);
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
         this.TotalOptions = this.node.getChildByName("Option").children.length;
@@ -398,7 +394,7 @@ export default class NewClass extends cc.Component {
         let parentNode: cc.Node = this.node.getChildByName("Option");
         let rows = 2;
         let columns: number = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options.length;
-        let offsetX: number = 50;
+        let offsetX: number = 150;
         let offsetY: number = 50;
         let objWidth: number = 195;
         let objHeight: number = 295;
@@ -411,7 +407,7 @@ export default class NewClass extends cc.Component {
             spacing = 50;
         }
         else if (columns == 4) {
-            spacing = 150;
+            spacing = 200;
         }
         else if (columns == 5) {
             spacing = 200;
@@ -421,13 +417,10 @@ export default class NewClass extends cc.Component {
         if (totalHeight > parentNode.height || totalWidth > parentNode.width) {
             if (totalWidth > parentNode.width) {
                 scaleFactor = parentNode.width / totalWidth;
-                console.log("2 : ", totalWidth, parentNode.width, scaleFactor);
             }
             if (totalHeight > parentNode.height) {
                 scaleFactor = parentNode.height / totalHeight;
-                console.log("1 : ", totalHeight, parentNode.height, scaleFactor);
             }
-            //console.log("scaleFactor : ", scaleFactor);
             offsetX = offsetX * scaleFactor;
             offsetY = offsetY * scaleFactor;
             objWidth = objWidth * scaleFactor;
@@ -445,7 +438,6 @@ export default class NewClass extends cc.Component {
                 option.opacity = 255;
                 option.active = true;
                 counter++;
-                console.log("counter : ", counter);
                 option.name = counter.toString();
                 startX += (objWidth) + offsetX;
                 option.opacity = 0;
@@ -497,14 +489,6 @@ export default class NewClass extends cc.Component {
                 .to(0.3, { x: this.positionArray[this.arr[i]].x, y: this.positionArray[this.arr[i]].y }).start();
         }
         this.scheduleOnce(() => {
-            // if (globalVariables.Instance.currentLevel == 1) {
-            //     let hand = this.node.getChildByName("hand");
-            //     console.log("answer array num = ", this.answerArray[0]);
-            //     hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-            //     hand.setPosition(0, -30);
-            //     hand.setParentWithSamePos(this.node);
-            //     hand.getComponent(cc.Animation).play();
-            // }
         }, 1.5);
     }
 
@@ -523,7 +507,6 @@ export default class NewClass extends cc.Component {
             });
             if (globalVariables.Instance.currentLevel == 1) {
                 let hand = this.node.getChildByName("hand");
-                console.log("answer array num = ", this.answerArray[0]);
                 hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
                 hand.setPosition(0, -30);
                 hand.setParentWithSamePos(this.node);
@@ -548,7 +531,6 @@ export default class NewClass extends cc.Component {
                     });
                     if (globalVariables.Instance.currentLevel == 1) {
                         let hand = this.node.getChildByName("hand");
-                        console.log("answer array num = ", this.answerArray[0]);
                         hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
                         hand.setPosition(0, -30);
                         hand.setParentWithSamePos(this.node);
@@ -567,7 +549,6 @@ export default class NewClass extends cc.Component {
                             });
                             if (globalVariables.Instance.currentLevel == 1) {
                                 let hand = this.node.getChildByName("hand");
-                                console.log("answer array num = ", this.answerArray[0]);
                                 hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
                                 hand.setPosition(0, -30);
                                 hand.setParentWithSamePos(this.node);
@@ -614,8 +595,8 @@ export default class NewClass extends cc.Component {
                 this.scheduleOnce(() => {
                     this.card1.setParent(this.node.getChildByName("Panel"));
                     this.card2.setParent(this.node.getChildByName("Panel"));
-                    this.node.getChildByName("Panel").getChildByName(card1Name).setPosition(-150, 0);
-                    this.node.getChildByName("Panel").getChildByName(card2Name).setPosition(150, 0);
+                    this.node.getChildByName("Panel").getChildByName(card1Name).setPosition(-200, 0);
+                    this.node.getChildByName("Panel").getChildByName(card2Name).setPosition(200, 0);
                     this.node.getChildByName("Panel").getChildByName(card1Name).scale = 0;
                     this.node.getChildByName("Panel").getChildByName(card2Name).scale = 0;
                     cc.tween(this.node.getChildByName("Panel").getChildByName(card1Name)).to(0.5, { scale: 1.3 }).start();
@@ -628,7 +609,6 @@ export default class NewClass extends cc.Component {
                         else {
                             audioIndex = parseInt(card2Name) - 1;
                         }
-                        console.log("AudioIndex : ", audioIndex);
                         cc.audioEngine.playEffect(this.correctAudio[audioIndex], false);
                         this.scheduleOnce(() => {
                             this.node.getChildByName("Panel").getChildByName(card1Name).destroy();
@@ -679,14 +659,6 @@ export default class NewClass extends cc.Component {
             this.cardTapped = true;
             this.card1 = _node;
         }
-        // if (_node.name == this.answerArray[0]) {
-
-        // }
-        // else {
-        //     this.wrongAnswerCount++;
-        //     console.log("wrongAnswer--" + globalVariables.Instance.currentLevel);
-        //     this.callNegativeRection(_node, _event);
-        // }
     }
 
     callNextLevel() {
@@ -795,12 +767,9 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
-        // console.log("anim length = ", anim.length);
         let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
-        // console.log("currentClipNum = ", currentClipNum);
         let pos: number[] = [-1200, 1200];
-        let jockeytween: number[] = [-450, 450];
-        //console.log("characterAppear--Podar_Jumbo");
+        let jockeytween: number[] = [-870, 870];
         if (globalVariables.Instance.currentLevel % 2 == 0 && startGame.Instance.jockeyName == "stallion") {
             this.currentJcokey.scaleX = -0.65;
         }
@@ -832,7 +801,6 @@ export default class NewClass extends cc.Component {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                         }
                     }
-                    //console.log("characterDisappear--Podar_Jumbo");
                     this.callNextLevel();
                 }, this.positiveAudio[currentClipNum].duration);
             }, 0.5);
@@ -866,9 +834,10 @@ export default class NewClass extends cc.Component {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                         this.scheduleOnce(() => {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                            cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
-                            //console.log("characterDisappear--Podar_Jumbo");
-                            this.callNextLevel();
+                            cc.tween(this.currentJcokey).to(1, { x: -1000 }).start();
+                            this.scheduleOnce(() => {
+                                this.callNextLevel();
+                            }, 1)
                         }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration)
                     }, this.positiveAudio[currentClipNum].duration);
 
@@ -879,9 +848,10 @@ export default class NewClass extends cc.Component {
                 cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
                 this.scheduleOnce(() => {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                    cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
-                    //console.log("characterDisappear--Podar_Jumbo");
-                    this.callNextLevel();
+                    cc.tween(this.currentJcokey).to(1, { x: -1000 }).start();
+                    this.scheduleOnce(() => {
+                        this.callNextLevel();
+                    }, 1)
                 }, this.positiveAudio[currentClipNum].duration);
             }
 
@@ -925,7 +895,6 @@ export default class NewClass extends cc.Component {
             }
 
             let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
-            //console.log("characterAppear--Podar_Jumbo");
             if (startGame.Instance.jockeyName == "stallion") {
                 this.currentJcokey.scaleX = 0.65;
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
@@ -954,7 +923,6 @@ export default class NewClass extends cc.Component {
                                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                             }
                         }
-                        //console.log("characterDisappear--Podar_Jumbo");
                         this.node.getChildByName("Option").children.forEach(elem => {
                             elem.getComponent(cc.Button).interactable = true;
                         });

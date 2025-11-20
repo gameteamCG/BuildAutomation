@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dall",
+    "texture": "4a610b9a-e29f-4f63-b57d-e151ba7078b0",
+    "atlas": "",
+    "rect": [
+      103,
+      28,
+      294,
+      444
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
