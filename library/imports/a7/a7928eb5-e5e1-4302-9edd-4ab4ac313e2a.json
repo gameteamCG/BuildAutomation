@@ -9,7 +9,7 @@
       "totalLevel": "10",
       "TitleImageName": "community-helpers.png",
       "introBgName": "Bg.png",
-      "bgmMusicName": "Funny-Song-mp3cutnet.mp3",
+      "bgmMusicName": "bm.mp3",
       "mainBgName": "bg(1).png",
       "JockeyName": "Puzzle"
     },
@@ -120,7 +120,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "farmer",
+        "questionText": "grocer",
         "questionImageName": "farmer.png",
         "questionAudioName": "farmer-Q.mp3",
         "shouldPlayQuestionAudio": true,
@@ -135,7 +135,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "pilot",
+        "questionText": "security guard",
         "questionImageName": "pilot.png",
         "questionAudioName": "pilot-Q.mp3",
         "shouldPlayQuestionAudio": true,
