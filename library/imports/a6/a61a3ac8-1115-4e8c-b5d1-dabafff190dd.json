@@ -2911,7 +2911,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 496.15,
+      "width": 254.59,
       "height": 88.2
     },
     "_anchorPoint": {
@@ -2963,8 +2963,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Food groups odd one out",
-    "_N$string": "Food groups odd one out",
+    "_string": "Odd one out",
+    "_N$string": "Odd one out",
     "_fontSize": 55,
     "_lineHeight": 70,
     "_enableWrapText": true,
