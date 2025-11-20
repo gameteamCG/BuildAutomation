@@ -195,6 +195,16 @@ export default class Gameplay extends cc.Component {
         this.currentJockey.active = true;
     }
 
+    PlayQVoButton(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false)
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration)
+        _event.target.getComponent(cc.Button).interactable = false;
+
+    }
+
     start() {
 
         this.LoadQuestion();
@@ -327,15 +337,17 @@ export default class Gameplay extends cc.Component {
                     else if (this.reiterationAudio[0]) {
                         cc.audioEngine.playEffect(this.reiterationAudio[0], false);
                     }
-                    node.active = false;
-                    if (this.correctCounter == this.correctAnswer.length) {
-                        console.log("all the options are answered correctly");
-                        cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
-                        this.LoadNextQuestion();
-                    }
-                    else {
-                        this.canTouch = true;
-                    }
+                    this.scheduleOnce(() => {
+                        node.active = false;
+                        if (this.correctCounter == this.correctAnswer.length) {
+                            console.log("all the options are answered correctly");
+                            cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
+                            this.LoadNextQuestion();
+                        }
+                        else {
+                            this.canTouch = true;
+                        }
+                    }, this.reiterationAudio[audioNum].duration)
                 }).start();
         }
         else {
@@ -397,15 +409,17 @@ export default class Gameplay extends cc.Component {
                 else if (this.reiterationAudio[0]) {
                     cc.audioEngine.playEffect(this.reiterationAudio[0], false);
                 }
-                if (this.correctCounter == this.correctAnswer.length) {
-                    console.log("all the options are answered correctly");
-                    cc.tween(this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
-                    this.LoadNextQuestion();
-                    // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
-                }
-                else {
-                    this.canTouch = true;
-                }
+                this.scheduleOnce(() => {
+                    if (this.correctCounter == this.correctAnswer.length) {
+                        console.log("all the options are answered correctly");
+                        cc.tween(this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
+                        this.LoadNextQuestion();
+                        // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
+                    }
+                    else {
+                        this.canTouch = true;
+                    }
+                }, this.reiterationAudio[audioNum].duration)
             }, 1);
             // cc.tween(_clone)
             //     .to(1, { x: 0, y: 0 }, { easing: "sineInOut" })
@@ -465,14 +479,16 @@ export default class Gameplay extends cc.Component {
                     else if (this.reiterationAudio[0]) {
                         cc.audioEngine.playEffect(this.reiterationAudio[0], false);
                     }
-                    if (this.correctCounter == this.correctAnswer.length) {
-                        console.log("all the options are answered correctly");
-                        this.LoadNextQuestion();
-                        // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
-                    }
-                    else {
-                        this.canTouch = true;
-                    }
+                    this.scheduleOnce(() => {
+                        if (this.correctCounter == this.correctAnswer.length) {
+                            console.log("all the options are answered correctly");
+                            this.LoadNextQuestion();
+                            // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
+                        }
+                        else {
+                            this.canTouch = true;
+                        }
+                    }, this.reiterationAudio[audioNum].duration)
                 }).start();
         }
         else {

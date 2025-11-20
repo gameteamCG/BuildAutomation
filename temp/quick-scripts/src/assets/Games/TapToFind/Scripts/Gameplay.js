@@ -212,6 +212,14 @@ var Gameplay = /** @class */ (function (_super) {
         this.currentJockey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
         this.currentJockey.active = true;
     };
+    Gameplay.prototype.PlayQVoButton = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
+        this.scheduleOnce(function () {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration);
+        _event.target.getComponent(cc.Button).interactable = false;
+    };
     Gameplay.prototype.start = function () {
         var _this = this;
         this.LoadQuestion();
@@ -348,15 +356,17 @@ var Gameplay = /** @class */ (function (_super) {
                 else if (_this.reiterationAudio[0]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[0], false);
                 }
-                node.active = false;
-                if (_this.correctCounter == _this.correctAnswer.length) {
-                    console.log("all the options are answered correctly");
-                    cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
-                    _this.LoadNextQuestion();
-                }
-                else {
-                    _this.canTouch = true;
-                }
+                _this.scheduleOnce(function () {
+                    node.active = false;
+                    if (_this.correctCounter == _this.correctAnswer.length) {
+                        console.log("all the options are answered correctly");
+                        cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
+                        _this.LoadNextQuestion();
+                    }
+                    else {
+                        _this.canTouch = true;
+                    }
+                }, _this.reiterationAudio[audioNum].duration);
             }).start();
         }
         else {
@@ -416,15 +426,17 @@ var Gameplay = /** @class */ (function (_super) {
                 else if (_this.reiterationAudio[0]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[0], false);
                 }
-                if (_this.correctCounter == _this.correctAnswer.length) {
-                    console.log("all the options are answered correctly");
-                    cc.tween(_this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
-                    _this.LoadNextQuestion();
-                    // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
-                }
-                else {
-                    _this.canTouch = true;
-                }
+                _this.scheduleOnce(function () {
+                    if (_this.correctCounter == _this.correctAnswer.length) {
+                        console.log("all the options are answered correctly");
+                        cc.tween(_this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
+                        _this.LoadNextQuestion();
+                        // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
+                    }
+                    else {
+                        _this.canTouch = true;
+                    }
+                }, _this.reiterationAudio[audioNum].duration);
             }, 1);
             // cc.tween(_clone)
             //     .to(1, { x: 0, y: 0 }, { easing: "sineInOut" })
@@ -483,14 +495,16 @@ var Gameplay = /** @class */ (function (_super) {
                 else if (_this.reiterationAudio[0]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[0], false);
                 }
-                if (_this.correctCounter == _this.correctAnswer.length) {
-                    console.log("all the options are answered correctly");
-                    _this.LoadNextQuestion();
-                    // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
-                }
-                else {
-                    _this.canTouch = true;
-                }
+                _this.scheduleOnce(function () {
+                    if (_this.correctCounter == _this.correctAnswer.length) {
+                        console.log("all the options are answered correctly");
+                        _this.LoadNextQuestion();
+                        // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
+                    }
+                    else {
+                        _this.canTouch = true;
+                    }
+                }, _this.reiterationAudio[audioNum].duration);
             }).start();
         }
         else {
