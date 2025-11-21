@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rose_petal",
+    "texture": "8bfabae6-4670-45e8-a1b8-5db27c8a4f4d",
+    "atlas": "",
+    "rect": [
+      86,
+      72,
+      198,
+      220
+    ],
+    "offset": [
+      9.5,
+      -6.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

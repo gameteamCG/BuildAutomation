@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "marigold_petal",
+    "texture": "286a9496-a74b-4520-a007-0b8d8055388b",
+    "atlas": "",
+    "rect": [
+      60,
+      70,
+      232,
+      222
+    ],
+    "offset": [
+      0.5,
+      -5.5
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

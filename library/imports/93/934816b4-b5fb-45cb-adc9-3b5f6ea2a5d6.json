@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "optionBox",
+    "texture": "15b67b44-49c8-4c5d-ad0e-e1902e49869a",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      351,
+      347
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

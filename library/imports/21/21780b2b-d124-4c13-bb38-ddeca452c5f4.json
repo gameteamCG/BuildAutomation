@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mustard",
+    "texture": "ad60c685-4374-4a3e-970d-d34d034df227",
+    "atlas": "",
+    "rect": [
+      68,
+      72,
+      222,
+      209
+    ],
+    "offset": [
+      3.5,
+      -1
+    ],
+    "originalSize": [
+      351,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

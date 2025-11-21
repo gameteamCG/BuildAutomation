@@ -1,0 +1,133 @@
+{
+  "additionalData": {
+    "GameID": "parts_of_plant_fs2_r136_EYFS_FIX",
+    "totalLevel": "6",
+    "TitleImageName": "title.png",
+    "introBgName": "bg_intro.png",
+    "bgmMusicName": "BGM.mp3",
+    "mainBgName": "main_bg.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "Petals",
+      "questionImageName": "basket.png",
+      "questionAudioName": "petals_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "optionBox.png",
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "rose_petal.png",
+        "marigold_petal.png",
+        "carrot.png",
+        "mustard.png"
+      ],
+      "correctAudios": [
+        "rose_petal.mp3",
+        "marigold.mp3"
+      ],
+      "correctAnswerNum": "12"
+    },
+    {
+      "questionText": "Leaves",
+      "questionImageName": "basket.png",
+      "questionAudioName": "leaves_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "optionBox.png",
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "tulsi.png",
+        "mango.png",
+        "apple.png",
+        "banana.png"
+      ],
+      "correctAudios": [
+        "tulsi.mp3",
+        "banana.mp3"
+      ],
+      "correctAnswerNum": "14"
+    },
+    {
+      "questionText": "Seeds",
+      "questionImageName": "basket.png",
+      "questionAudioName": "seeds_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "optionBox.png",
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "bamboo.png",
+        "mustard.png",
+        "corn.png",
+        "sugarcane.png"
+      ],
+      "correctAudios": [
+        "mustard.mp3",
+        "corn.mp3"
+      ],
+      "correctAnswerNum": "23"
+    },
+    {
+      "questionText": "Roots",
+      "questionImageName": "basket.png",
+      "questionAudioName": "root_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "optionBox.png",
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "carrot.png",
+        "apple.png",
+        "beetroot.png",
+        "mustard.png"
+      ],
+      "correctAudios": [
+        "carrot.mp3",
+        "beetroot.mp3"
+      ],
+      "correctAnswerNum": "13"
+    },
+    {
+      "questionText": "Stem",
+      "questionImageName": "basket.png",
+      "questionAudioName": "stem_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "optionBox.png",
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "sugarcane.png",
+        "bamboo.png",
+        "corn.png",
+        "tulsi.png"
+      ],
+      "correctAudios": [
+        "sugarcane.mp3",
+        "bamboo.mp3"
+      ],
+      "correctAnswerNum": "12"
+    },
+    {
+      "questionText": "Fruits",
+      "questionImageName": "basket.png",
+      "questionAudioName": "fruits_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "optionBox.png",
+      "isOptionText": false,
+      "numberOfOptions": 4,
+      "options": [
+        "tulsi.png",
+        "apple.png",
+        "mustard.png",
+        "mango.png"
+      ],
+      "correctAudios": [
+        "apple.mp3",
+        "mango.mp3"
+      ],
+      "correctAnswerNum": "24"
+    }
+  ]
+}
