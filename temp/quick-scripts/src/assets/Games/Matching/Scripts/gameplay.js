@@ -342,6 +342,7 @@ var gameplay = /** @class */ (function (_super) {
         return _number;
     };
     gameplay.prototype.GenerateOptions = function () {
+        var _this = this;
         for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfLeftOptions; i++) {
             var dropNode = cc.instantiate(this.node.getChildByName("template"));
             dropNode.name = (i + 1).toString();
@@ -359,6 +360,14 @@ var gameplay = /** @class */ (function (_super) {
         console.log("dropZones = ", this.dropZones.name);
         // console.log("optionsNode = ", this.optionsNode.children.length);
         this.node.getChildByName("template").destroy();
+        this.scheduleOnce(function () {
+            _this.optionsNode.children.forEach(function (opt) {
+                opt.y += 30; // 👈 move up
+            });
+            _this.dropZones.children.forEach(function (dz) {
+                dz.y += 30;
+            });
+        });
     };
     gameplay.prototype.callThirdObjectIn = function () {
         var _this = this;
@@ -844,7 +853,7 @@ var gameplay = /** @class */ (function (_super) {
     gameplay.prototype.OptionsLayoutVertical = function (_node) {
         var optionsLayout = _node;
         var optionNodes = optionsLayout.children;
-        var paddingBetweenOptions = 10;
+        var paddingBetweenOptions = 2;
         var totalHeight = 0;
         var maxWidth = 0;
         // Calculate the total height and the maximum width of the options

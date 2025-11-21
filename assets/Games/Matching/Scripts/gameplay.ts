@@ -399,6 +399,16 @@ export default class gameplay extends cc.Component {
         console.log("dropZones = ", this.dropZones.name);
         // console.log("optionsNode = ", this.optionsNode.children.length);
         this.node.getChildByName("template").destroy();
+        this.scheduleOnce(() => {
+            this.optionsNode.children.forEach(opt => {
+                opt.y += 30;   // 👈 move up
+            });
+
+            this.dropZones.children.forEach(dz => {
+                dz.y += 30;
+            });
+        });
+
     }
 
     callThirdObjectIn() {
@@ -900,7 +910,7 @@ export default class gameplay extends cc.Component {
         let optionsLayout = _node;
         let optionNodes = optionsLayout.children;
 
-        const paddingBetweenOptions = 10;
+        const paddingBetweenOptions = 2;
 
         let totalHeight = 0;
         let maxWidth = 0;
