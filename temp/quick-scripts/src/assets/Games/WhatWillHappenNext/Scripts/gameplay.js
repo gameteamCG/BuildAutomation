@@ -192,6 +192,12 @@ var NewClass = /** @class */ (function (_super) {
             }
             this.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionImageName, function (spriteFrame) {
                 _this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                var obj = _this.node
+                    .getChildByName("QuestionBox")
+                    .getChildByName("ThirdObject");
+                obj.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                // Scale here (NOT spriteFrame)
+                obj.scale = 1.4;
             });
             var _loop_2 = function (i) {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionText) {

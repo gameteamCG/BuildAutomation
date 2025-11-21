@@ -228,6 +228,14 @@ export default class NewClass extends cc.Component {
             }
             this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionImageName, (spriteFrame) => {
                 this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                const obj = this.node
+                    .getChildByName("QuestionBox")
+                    .getChildByName("ThirdObject");
+
+                obj.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+
+                // Scale here (NOT spriteFrame)
+                obj.scale = 1.4;
             });
 
             for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
