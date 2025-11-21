@@ -1,0 +1,131 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "7",
+      "TitleImageName": "Animal_and_their_food.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "Kids_Game_1.mp3",
+      "mainBgName": "BG14.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "animal and their food",
+        "questionImageName": "cat.png",
+        "questionAudioName": "Select_the_food_that_a_cat_eats.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "fish.png",
+          "Corn.png",
+          "grass.png"
+        ],
+        "correctAudioName": "cat_eats_fish.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "animal and their food",
+        "questionImageName": "500x500_0019_monkey.png",
+        "questionAudioName": "Select_the_food_that_a_monkey_eats.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "bone.png",
+          "0001_500x500_0014_honey.png",
+          "500x500_0010_Banana_1.png"
+        ],
+        "correctAudioName": "monkey_eats_bananas.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "animal and their food",
+        "questionImageName": "500x500_0023_giraffe.png",
+        "questionAudioName": "Select_the_food_that_a_giraffe_eats.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "meat.png",
+          "leaves.png",
+          "carrot.png"
+        ],
+        "correctAudioName": "giraffe_eats_treeleav.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "animal and their food",
+        "questionImageName": "Panda.png",
+        "questionAudioName": "Select_the_food_that_a_panda_eats.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "bumboo.png",
+          "apple.png",
+          "hay.png"
+        ],
+        "correctAudioName": "panda_eats_bamboo.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "animal and their food",
+        "questionImageName": "snake.png",
+        "questionAudioName": "Select_the_food_that_a_snake_eats.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "leaves.png",
+          "tomato.png",
+          "frog_still0024.png"
+        ],
+        "correctAudioName": "snake_eats_a_frog.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "animal and their food",
+        "questionImageName": "penguin.png",
+        "questionAudioName": "Select_the_food_that_a_penguin_eats.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0006_500x500_0010_strawberry.png",
+          "fish.png",
+          "onion - Copy.png"
+        ],
+        "correctAudioName": "penguin_eats_fish.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "animal and their food",
+        "questionImageName": "rabbit.png",
+        "questionAudioName": "Select_the_food_that_a_rabbit_eats.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard3.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "carrot.png",
+          "meat.png",
+          "donut.png"
+        ],
+        "correctAudioName": "rabbit_eats_carrots.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Animal_and_their_food",
+    "texture": "dabdcdc0-05c5-43ed-b7d7-e8453babe00c",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      629,
+      226
+    ],
+    "offset": [
+      5.5,
+      2.5
+    ],
+    "originalSize": [
+      672,
+      283
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

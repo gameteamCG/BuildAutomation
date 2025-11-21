@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bumboo",
+    "texture": "9771a826-e740-49a0-b42f-ea49610e640a",
+    "atlas": "",
+    "rect": [
+      111,
+      12,
+      278,
+      477
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

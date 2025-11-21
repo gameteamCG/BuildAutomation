@@ -11,6 +11,8 @@ export default class NewClass extends cc.Component {
 
     @property(cc.SpriteFrame)
     private extraImg: cc.SpriteFrame = null;
+    @property(cc.SpriteFrame)
+    private qImg: cc.SpriteFrame = null;
 
     @property(cc.Font)
     private podar_font: cc.Font = null;
@@ -160,7 +162,11 @@ export default class NewClass extends cc.Component {
                         return;
                     }
                     const spriteFrame = new cc.SpriteFrame(texture);
-                    this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    let idx = globalVariables.Instance.currentLevel - 1;
+                    this.node.getChildByName("QuestionBox")
+                        .getComponent(cc.Sprite)
+                        .spriteFrame = this.qImg;
+
                     for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
                         this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
@@ -218,7 +224,12 @@ export default class NewClass extends cc.Component {
             });
             if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName != "") {
                 this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].commonOptionImageName, (spriteFrame) => {
-                    this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    let idx = globalVariables.Instance.currentLevel - 1;
+                    this.node.getChildByName("QuestionBox")
+                        .getComponent(cc.Sprite)
+                        .spriteFrame = this.qImg;
+
+
                     for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
                         this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }

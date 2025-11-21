@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "frog_still0024",
+    "texture": "6098919c-2023-4491-a461-13a8fa37c5fe",
+    "atlas": "",
+    "rect": [
+      23,
+      82,
+      404,
+      390
+    ],
+    "offset": [
+      -25,
+      -27
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

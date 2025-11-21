@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hay",
+    "texture": "5defe117-1322-443e-bf71-1b0241af0542",
+    "atlas": "",
+    "rect": [
+      24,
+      68,
+      453,
+      411
+    ],
+    "offset": [
+      0,
+      -23
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

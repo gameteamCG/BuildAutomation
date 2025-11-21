@@ -32,6 +32,7 @@ var NewClass = /** @class */ (function (_super) {
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.extraImg = null;
+        _this.qImg = null;
         _this.podar_font = null;
         _this.jaipuria_font = null;
         _this.tlc_font = null;
@@ -123,7 +124,10 @@ var NewClass = /** @class */ (function (_super) {
                         return;
                     }
                     var spriteFrame = new cc.SpriteFrame(texture);
-                    _this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    var idx = globalVariables_1.default.Instance.currentLevel - 1;
+                    _this.node.getChildByName("QuestionBox")
+                        .getComponent(cc.Sprite)
+                        .spriteFrame = _this.qImg;
                     for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
                         _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
@@ -184,7 +188,10 @@ var NewClass = /** @class */ (function (_super) {
             });
             if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonOptionImageName != "") {
                 this.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonOptionImageName, function (spriteFrame) {
-                    _this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    var idx = globalVariables_1.default.Instance.currentLevel - 1;
+                    _this.node.getChildByName("QuestionBox")
+                        .getComponent(cc.Sprite)
+                        .spriteFrame = _this.qImg;
                     for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
                         _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
@@ -825,6 +832,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.SpriteFrame)
     ], NewClass.prototype, "extraImg", void 0);
+    __decorate([
+        property(cc.SpriteFrame)
+    ], NewClass.prototype, "qImg", void 0);
     __decorate([
         property(cc.Font)
     ], NewClass.prototype, "podar_font", void 0);
