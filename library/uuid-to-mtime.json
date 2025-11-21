@@ -1810,8 +1810,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Scripts\\globalVariables.ts"
   },
   "cf4e36d8-89d2-4945-a198-67e319127411": {
-    "asset": 1763716715404,
-    "meta": 1763716968610,
+    "asset": 1763720133731,
+    "meta": 1763720133764,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\1.fire"
   },
   "ecc793e4-0368-4d2b-844b-75e10c5c7cb4": {
@@ -3414,9 +3414,34 @@
     "meta": 1763718085684,
     "relativePath": "resources\\game_data.json"
   },
+  "7f62b0f2-3e15-45de-af38-d96a8fa56e48": {
+    "asset": 1763719903425,
+    "meta": 1763719903428,
+    "relativePath": "Games\\MainAssets"
+  },
+  "c7ebc52c-befd-4ef8-97c7-f1c487c6af85": {
+    "asset": 1763719938227,
+    "meta": 1763719938249,
+    "relativePath": "Games\\MainAssets\\traileffect"
+  },
+  "7837e4e1-9cae-4795-9c8c-468ecff1e127": {
+    "asset": 1763719938234,
+    "meta": 1763719938282,
+    "relativePath": "Games\\MainAssets\\traileffect\\FollowTouch.ts"
+  },
+  "670ba2ca-bb91-4f78-a692-1de8a40f4e92": {
+    "asset": 1763719938230,
+    "meta": 1763719938286,
+    "relativePath": "Games\\MainAssets\\traileffect\\moveingParticle.prefab"
+  },
   "ad4e5d42-7172-47db-8800-f7a8016b13a6": {
-    "asset": 1763719591300,
-    "meta": 1763719593673,
+    "asset": 1763720009024,
+    "meta": 1763720010417,
     "relativePath": "Games\\WhatWillHappenNext\\Scripts\\gameplay.ts"
+  },
+  "f221bb0b-173a-48c2-a952-f82244aec380": {
+    "asset": 1763720112664,
+    "meta": 1763720112700,
+    "relativePath": "Games\\MainAssets\\starp.png"
   }
 }
