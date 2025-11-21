@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "01b1b245-8694-4a78-99d6-5896b8f28f2c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 410,
+  "height": 207,
+  "platformSettings": {},
+  "subMetas": {
+    "helping at home (1)": {
+      "ver": "1.0.6",
+      "uuid": "c2066872-fec8-499a-b86e-a27239fb26a5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "01b1b245-8694-4a78-99d6-5896b8f28f2c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 1,
+      "trimX": 3,
+      "trimY": 7,
+      "width": 404,
+      "height": 191,
+      "rawWidth": 410,
+      "rawHeight": 207,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

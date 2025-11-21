@@ -98,7 +98,7 @@ var DrawingTable = /** @class */ (function (_super) {
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
         console.log("@@3");
-        this.persistentScrollNode.getChildByName("moveingParticle").active = true;
+        // this.persistentScrollNode.getChildByName("moveingParticle").active = true;
         for (var i = 0; i < this.DrawingSplitDataArray.length; i++) {
             var element = this.DrawingSplitDataArray[i].DrawingSplitData;
             var collider = this.getPolygonData(element);

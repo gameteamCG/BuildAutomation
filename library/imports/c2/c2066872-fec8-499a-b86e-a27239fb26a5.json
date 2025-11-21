@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "helping at home (1)",
+    "texture": "01b1b245-8694-4a78-99d6-5896b8f28f2c",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      404,
+      191
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      410,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -87,7 +87,7 @@ export default class DrawingTable extends cc.Component {
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
         console.log("@@3");
-        this.persistentScrollNode.getChildByName("moveingParticle").active = true;
+        // this.persistentScrollNode.getChildByName("moveingParticle").active = true;
         for (let i = 0; i < this.DrawingSplitDataArray.length; i++) {
             const element = this.DrawingSplitDataArray[i].DrawingSplitData;
             let collider = this.getPolygonData(element);
