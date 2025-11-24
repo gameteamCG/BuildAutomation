@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "41739e8f-d822-48b7-b174-fc85b1f3916e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 672,
+  "height": 279,
+  "platformSettings": {},
+  "subMetas": {
+    "animalandfood": {
+      "ver": "1.0.6",
+      "uuid": "3d2b108f-e19e-4107-a3b6-d8e6bcfa6ec2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "41739e8f-d822-48b7-b174-fc85b1f3916e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 5.5,
+      "offsetY": 2.5,
+      "trimX": 27,
+      "trimY": 26,
+      "width": 629,
+      "height": 222,
+      "rawWidth": 672,
+      "rawHeight": 279,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

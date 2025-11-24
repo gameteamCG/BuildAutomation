@@ -1,0 +1,271 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Animals and its food ",
+      "totalLevel": "12",
+      "TitleImageName": "animalandfood.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "bgm_1.mp3",
+      "mainBgName": "mainBG.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "Animal and its food",
+        "questionAudioName": "match_the_animal_to_its_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Vector_Smart_Object.png"
+        ],
+        "reiterations": [
+          "bee_eats_flower_nectar.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "1Vector_Smart_Object.png",
+          "8Vector_Smart_Object_07.png"
+        ]
+      },
+      {
+        "questionText": "Animal and its food",
+        "questionAudioName": "match_the_animal_to_its_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Vector_Smart_Object_01.png"
+        ],
+        "reiterations": [
+          "spider_eats_flies.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "2Vector_Smart_Object_01.png",
+          "9Vector_Smart_Object_08.png"
+        ]
+      },
+      {
+        "questionText": "Animal and its food",
+        "questionAudioName": "match_the_animal_to_its_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Vector_Smart_Object_02.png"
+        ],
+        "reiterations": [
+          "shark_eats_fish.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "3Vector_Smart_Object_02.png",
+          "7Vector_Smart_Object_06.png"
+        ]
+      },
+      {
+        "questionText": "Animal and its food",
+        "questionAudioName": "match_the_animal_to_its_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Vector_Smart_Object_03.png"
+        ],
+        "reiterations": [
+          "hen_eats_grains.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "4Vector_Smart_Object_03.png",
+          "11Vector_Smart_Object_10.png"
+        ]
+      },
+      {
+        "questionText": "Animal and its food",
+        "questionAudioName": "match_the_animal_to_its_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Vector_Smart_Object_04.png"
+        ],
+        "reiterations": [
+          "yak_eats_grass.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "5Vector_Smart_Object_04.png",
+          "2Vector_Smart_Object_01.png"
+        ]
+      },
+      {
+        "questionText": "Animal and its food",
+        "questionAudioName": "match_the_animal_to_its_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Vector_Smart_Object_05.png"
+        ],
+        "reiterations": [
+          "monkey_eats_bananas.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "6Vector_Smart_Object_05.png",
+          "3Vector_Smart_Object_02.png"
+        ]
+      },
+      {
+        "questionText": "Animal and its food",
+        "questionAudioName": "match_the_animal_to_its_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Vector_Smart_Object_06.png"
+        ],
+        "reiterations": [
+          "giraffe_eats_vegetables.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "7Vector_Smart_Object_06.png",
+          "9Vector_Smart_Object_08.png"
+        ]
+      },
+      {
+        "questionText": "Animal and its food",
+        "questionAudioName": "match_the_animal_to_its_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Vector_Smart_Object_07.png"
+        ],
+        "reiterations": [
+          "hamster_eats_leaves.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "8Vector_Smart_Object_07.png",
+          "6Vector_Smart_Object_05.png"
+        ]
+      },
+      {
+        "questionText": "Animal and its food",
+        "questionAudioName": "match_the_animal_to_its_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Vector_Smart_Object_08.png"
+        ],
+        "reiterations": [
+          "dog_eats_dog_food.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "9Vector_Smart_Object_08.png",
+          "1Vector_Smart_Object.png"
+        ]
+      },
+      {
+        "questionText": "Animal and its food",
+        "questionAudioName": "match_the_animal_to_its_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Vector_Smart_Object_09.png"
+        ],
+        "reiterations": [
+          "birds_eat_worms.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "10Vector_Smart_Object_09.png",
+          "5Vector_Smart_Object_04.png"
+        ]
+      },
+      {
+        "questionText": "Animal and its food",
+        "questionAudioName": "match_the_animal_to_its_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Vector_Smart_Object_10.png"
+        ],
+        "reiterations": [
+          "horse_eats_hay.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "11Vector_Smart_Object_10.png",
+          "3Vector_Smart_Object_02.png"
+        ]
+      },
+      {
+        "questionText": "Animal and its food",
+        "questionAudioName": "match_the_animal_to_its_food.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "que1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Vector_Smart_Object_11.png"
+        ],
+        "reiterations": [
+          "tiger_eats_meat.mp3"
+        ],
+        "commonRightOptionImageName": "opt1.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "12Vector_Smart_Object_11.png",
+          "4Vector_Smart_Object_03.png"
+        ]
+      }
+    ]
+  }
+}
