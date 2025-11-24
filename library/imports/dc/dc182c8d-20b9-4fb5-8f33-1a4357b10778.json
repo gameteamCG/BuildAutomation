@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "animal and their food",
+        "questionText": "Animal and their food",
         "questionImageName": "cat.png",
         "questionAudioName": "Select_the_food_that_a_cat_eats.mp3",
         "shouldPlayQuestionAudio": true,
@@ -31,7 +31,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "animal and their food",
+        "questionText": "Animal and their food",
         "questionImageName": "500x500_0019_monkey.png",
         "questionAudioName": "Select_the_food_that_a_monkey_eats.mp3",
         "shouldPlayQuestionAudio": true,
@@ -47,7 +47,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "animal and their food",
+        "questionText": "Animal and their food",
         "questionImageName": "500x500_0023_giraffe.png",
         "questionAudioName": "Select_the_food_that_a_giraffe_eats.mp3",
         "shouldPlayQuestionAudio": true,
@@ -63,7 +63,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "animal and their food",
+        "questionText": "Animal and their food",
         "questionImageName": "Panda.png",
         "questionAudioName": "Select_the_food_that_a_panda_eats.mp3",
         "shouldPlayQuestionAudio": true,
@@ -79,7 +79,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "animal and their food",
+        "questionText": "Animal and their food",
         "questionImageName": "snake.png",
         "questionAudioName": "Select_the_food_that_a_snake_eats.mp3",
         "shouldPlayQuestionAudio": true,
@@ -95,7 +95,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "animal and their food",
+        "questionText": "Animal and their food",
         "questionImageName": "penguin.png",
         "questionAudioName": "Select_the_food_that_a_penguin_eats.mp3",
         "shouldPlayQuestionAudio": true,
@@ -111,7 +111,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "animal and their food",
+        "questionText": "Animal and their food",
         "questionImageName": "rabbit.png",
         "questionAudioName": "Select_the_food_that_a_rabbit_eats.mp3",
         "shouldPlayQuestionAudio": true,

@@ -64,6 +64,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.isFirstClick = false;
         _this.canTouch = false;
         _this.answerArray = [];
+        _this.aArray = ["Cat eats fish.", "Monkey eats bananas.", "Giraffe eats tree leaves.", "Panda eats bamboo.", "Snake eats a frog.", "Penguin eats fish.", "Rabbit eats a carrots."];
         _this.maxLevel = 7;
         _this.wrongAnswerCount = 0;
         _this.star1Log = false;
@@ -204,6 +205,9 @@ var NewClass = /** @class */ (function (_super) {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionText) {
                     this_2.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i], function (spriteFrame) {
                         _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        var bg = _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img");
+                        bg.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        bg.scale = 0.5;
                     });
                 }
                 else {
@@ -279,7 +283,7 @@ var NewClass = /** @class */ (function (_super) {
             _this.scheduleOnce(function () {
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 cc.tween(_this.node.getChildByName("QuestionBox"))
-                    .to(1, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(1, { scale: 1.2 }, { easing: "sineInOut" }).start();
             }, 0.1);
             _this.scheduleOnce(function () {
                 cc.tween(_this.node.getChildByName("QuestionBox"))
@@ -412,9 +416,17 @@ var NewClass = /** @class */ (function (_super) {
         var _node = _event.target;
         if (_node.name == this.answerArray[0]) {
             cc.audioEngine.stopAllEffects();
+            var levelIndex = globalVariables_1.default.Instance.currentLevel - 1;
+            this.node
+                .getChildByName("questionPanel")
+                .getChildByName("text")
+                .getComponent(cc.Label).string = this.aArray[levelIndex];
+            //this.aArray = [startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum];
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-            this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+            this.scheduleOnce(function () {
+                cc.tween(_this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+            }, 3);
             this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.scheduleOnce(function () {
@@ -485,10 +497,10 @@ var NewClass = /** @class */ (function (_super) {
         // _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
         cc.audioEngine.playEffect(this.correctAudio, false);
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { width: 350, height: 350 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
-        cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_node.children[0]).to(0.5, { scale: 0.8 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { y: 90 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();

@@ -95,6 +95,7 @@ export default class NewClass extends cc.Component {
     private isFirstClick: boolean = false;
     private canTouch: boolean = false;
     private answerArray: string[] = [];
+    private aArray: string[] = ["Cat eats fish.", "Monkey eats bananas.", "Giraffe eats tree leaves.", "Panda eats bamboo.", "Snake eats a frog.", "Penguin eats fish.", "Rabbit eats a carrots."];
     private maxLevel: number = 7;
     wrongAnswerCount: number = 0;
     star1Log: boolean = false;
@@ -166,6 +167,7 @@ export default class NewClass extends cc.Component {
                     this.node.getChildByName("QuestionBox")
                         .getComponent(cc.Sprite)
                         .spriteFrame = this.qImg;
+
 
                     for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
                         this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
@@ -244,6 +246,9 @@ export default class NewClass extends cc.Component {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
                     this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (spriteFrame) => {
                         this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        let bg = this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img")
+                        bg.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        bg.scale = 0.5;
                     });
                 }
 
@@ -260,6 +265,7 @@ export default class NewClass extends cc.Component {
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
         // this.setAnswerArray();
+
         this.answerArray = [startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum];
         // this.OptionsLayout();
         this.callThirdObjectIn();
@@ -295,6 +301,7 @@ export default class NewClass extends cc.Component {
     }
 
     GenerateOptions() {
+
         for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
             let option = cc.instantiate(this.node.getChildByName("template"));
             option.name = (i + 1).toString();
@@ -322,7 +329,7 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.node.getChildByName("QuestionBox"))
-                    .to(1, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(1, { scale: 1.2 }, { easing: "sineInOut" }).start();
             }, 0.1);
             this.scheduleOnce(() => {
                 cc.tween(this.node.getChildByName("QuestionBox"))
@@ -454,9 +461,21 @@ export default class NewClass extends cc.Component {
         let _node = _event.target;
         if (_node.name == this.answerArray[0]) {
             cc.audioEngine.stopAllEffects();
+            let levelIndex = globalVariables.Instance.currentLevel - 1;
+
+            this.node
+                .getChildByName("questionPanel")
+                .getChildByName("text")
+                .getComponent(cc.Label).string = this.aArray[levelIndex];
+
+
+            //this.aArray = [startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum];
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-            this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+            this.scheduleOnce(() => {
+                cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+
+            }, 3);
             this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.scheduleOnce(() => {
@@ -530,10 +549,10 @@ export default class NewClass extends cc.Component {
         // _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
         cc.audioEngine.playEffect(this.correctAudio, false);
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { width: 350, height: 350 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
-        cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_node.children[0]).to(0.5, { scale: 0.8 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { y: 90 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
             this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
