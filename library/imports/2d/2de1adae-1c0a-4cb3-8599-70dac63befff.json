@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "animalandfood",
+    "texture": "fd3de11b-f179-4685-8bdc-feddb7d0c097",
+    "atlas": "",
+    "rect": [
+      27,
+      26,
+      629,
+      222
+    ],
+    "offset": [
+      5.5,
+      2.5
+    ],
+    "originalSize": [
+      672,
+      279
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
