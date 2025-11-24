@@ -64,7 +64,7 @@
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "bb.png"
+          "lbb.png"
         ],
         "reiterations": [
           "L3.mp3"
@@ -73,7 +73,7 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "bb.png",
+          "rbb.png",
           "w3.png"
         ]
       },
@@ -115,7 +115,7 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "10.png",
+          "rch.png",
           "w5.png"
         ]
       },
