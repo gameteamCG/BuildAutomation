@@ -47,7 +47,7 @@ export default class Gameplay extends cc.Component {
     maxLevel: number = 0;
 
     onLoad() {
-        this.answerText = ["radish and carrot", "turnip and beetroot", "onion and ginger", "garlic and potato", "Sweet potato and carrot", "onion and ginger", "beetroot and potato"]
+        this.answerText = ["carrot", "beetroot", "ginger", "onion", "potato", "sweet potato", "turnip"]
     }
 
     LoadQuestion() {
@@ -324,7 +324,7 @@ export default class Gameplay extends cc.Component {
         }
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
-            console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            console.log("correctAnswer--2" + startGame.Instance.currentLevel);
             this.correctCounter++;
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
@@ -383,7 +383,7 @@ export default class Gameplay extends cc.Component {
 
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
-            console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            console.log("correctAnswer--3" + startGame.Instance.currentLevel);
             node.getComponent(cc.Animation).stop();
             node.angle = 0;
             this.correctCounter++;
@@ -456,15 +456,22 @@ export default class Gameplay extends cc.Component {
             }
         }
         if (correct) {
+            cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.positive_audio, false);
-            console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            console.log("correctAnswer--1" + startGame.Instance.currentLevel);
             this.correctCounter++;
             let _clone: cc.Node = cc.instantiate(node);
             _clone.parent = node;
             _clone.setPosition(0, 0);
             _clone.setParentWithSamePos(this.node);
-            _clone.children[0].active = true;
-            _clone.children[1].active = false;
+            for (let i = 0; i < 3; i++) {
+                cc.tween(this.options.children[i]).to(1, { opacity: 0 }, { easing: "sineInOut" }).start();
+            }
+            _clone.active = true;
+            cc.tween(_clone).to(0.8, { x: 0 }, { easing: "sineInOut" }).start();
+
+            // _clone.children[0].active = true;
+            // _clone.children[1].active = false;
             _clone.children[0].opacity = 0;
             node.active = false;
             cc.tween(_clone.children[0])
