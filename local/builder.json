@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "C:\\Builds\\eyfs_build\\EYFS_same_and_different_fs2_new_r132",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
