@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "importance of clean water",
+        "questionText": "Importance of clean water",
         "questionAudioName": "qu.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonasset.png",
@@ -24,8 +24,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "arrangebooks.png",
-          "moping.png"
+          "1.png",
+          "2.png"
         ],
         "correctAudios": [
           "youneedcleanwatertomop.mp3"
@@ -33,7 +33,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "importance of clean water",
+        "questionText": "Importance of clean water",
         "questionAudioName": "qu.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonasset.png",
@@ -41,8 +41,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "talking.png",
-          "bathing.png"
+          "3.png",
+          "4.png"
         ],
         "correctAudios": [
           "Youneedcleanwatertobathe.mp3"
@@ -50,7 +50,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "importance of clean water",
+        "questionText": "Importance of clean water",
         "questionAudioName": "qu.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonasset.png",
@@ -58,8 +58,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "washingclothes.png",
-          "sleeping.png"
+          "5.png",
+          "6.png"
         ],
         "correctAudios": [
           "youneedcleanwatertowashclothes.mp3"
@@ -67,7 +67,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "importance of clean water",
+        "questionText": "Importance of clean water",
         "questionAudioName": "qu.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonasset.png",
@@ -75,8 +75,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "cooking.png",
-          "walking.png"
+          "7.png",
+          "8.png"
         ],
         "correctAudios": [
           "Youneedcleanwatertocook.mp3"
@@ -84,7 +84,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "importance of clean water",
+        "questionText": "Importance of clean water",
         "questionAudioName": "qu.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonasset.png",
@@ -92,8 +92,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "readingbook.png",
-          "swimming.png"
+          "9.png",
+          "10.png"
         ],
         "correctAudios": [
           "youneedcleanwatertoswim.mp3"
@@ -101,7 +101,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "importance of clean water",
+        "questionText": "Importance of clean water",
         "questionAudioName": "qu.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonasset.png",
@@ -109,8 +109,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "washingutensils.png",
-          "writing.png"
+          "7.png",
+          "9.png"
         ],
         "correctAudios": [
           "youneedcleanwatertowashutensils.mp3"
