@@ -11,7 +11,7 @@
         {
             "questionLayout": "layout1",
             "questionBgName": "toy_bg.png",
-            "questionAudioName": "tap_on_the_odd_one_out.mp3",
+            "questionAudioName": "identify the toy that is different in the group.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 5,
@@ -39,7 +39,7 @@
         {
             "questionLayout": "layout1",
             "questionBgName": "toy_bg.png",
-            "questionAudioName": "tap_on_the_odd_one_out.mp3",
+            "questionAudioName": "identify the toy that is different in the group.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 5,
@@ -67,7 +67,7 @@
         {
             "questionLayout": "layout1",
             "questionBgName": "toy_bg.png",
-            "questionAudioName": "tap_on_the_odd_one_out.mp3",
+            "questionAudioName": "identify the toy that is different in the group.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 5,
@@ -95,7 +95,7 @@
         {
             "questionLayout": "layout1",
             "questionBgName": "toy_bg.png",
-            "questionAudioName": "tap_on_the_odd_one_out.mp3",
+            "questionAudioName": "identify the toy that is different in the group.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 5,
@@ -123,7 +123,7 @@
         {
             "questionLayout": "layout1",
             "questionBgName": "toy_bg.png",
-            "questionAudioName": "tap_on_the_odd_one_out.mp3",
+            "questionAudioName": "identify the toy that is different in the group.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 5,
@@ -151,7 +151,7 @@
         {
             "questionLayout": "layout1",
             "questionBgName": "toy_bg.png",
-            "questionAudioName": "tap_on_the_odd_one_out.mp3",
+            "questionAudioName": "identify the toy that is different in the group.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 5,

@@ -215,7 +215,14 @@ export default class Gameplay extends cc.Component {
                 for (let i = 0; i < this.options.children.length; i++) {
                     this.options.children[i].active = false;
                     this.options.children[i].opacity = 255;
-                    this.options.setPosition(0, 0);
+                    if (startGame.Instance.currentLevel == 2)
+                        this.options.children[i].scale = 0.7;
+                    else if (startGame.Instance.currentLevel == 3 || startGame.Instance.currentLevel == 4)
+                        this.options.children[i].scale = 0.95;
+                    else if (startGame.Instance.currentLevel == 1 || startGame.Instance.currentLevel == 5 || startGame.Instance.currentLevel == 6)
+                        this.options.children[i].scale = 0.75;
+                    console.log("this.options.children[i]", this.options.children[i].scale);
+                    this.options.setPosition(30, 0);
                     this.scheduleOnce(() => {
                         let element = this.options.children[i];
                         let pos = element.getPosition();
@@ -285,13 +292,21 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            let _laypout1posx: number[] = [0, -200, -380, 200, 500];
+            // this.arrangeGridChildren(this.options, 80, _optionCount);
+            for (let i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(_laypout1posx[i], _optionParent.children[i].y);
+            }
         }
         else {
-            this.arrangeChildren(this.options, 80);
+            let _laypout1posx: number[] = [0, -200, -380, 200, 500];
+            // this.arrangeGridChildren(this.options, 80, _optionCount);
+            for (let i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(_laypout1posx[i], _optionParent.children[i].y);
+            }
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
+            let _laypout1posY: number[] = [50, 200, -100, 200, 50];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }

@@ -229,7 +229,14 @@ var Gameplay = /** @class */ (function (_super) {
                 var _loop_5 = function (i) {
                     _this.options.children[i].active = false;
                     _this.options.children[i].opacity = 255;
-                    _this.options.setPosition(0, 0);
+                    if (StartGame_1.default.Instance.currentLevel == 2)
+                        _this.options.children[i].scale = 0.7;
+                    else if (StartGame_1.default.Instance.currentLevel == 3 || StartGame_1.default.Instance.currentLevel == 4)
+                        _this.options.children[i].scale = 0.95;
+                    else if (StartGame_1.default.Instance.currentLevel == 1 || StartGame_1.default.Instance.currentLevel == 5 || StartGame_1.default.Instance.currentLevel == 6)
+                        _this.options.children[i].scale = 0.75;
+                    console.log("this.options.children[i]", _this.options.children[i].scale);
+                    _this.options.setPosition(30, 0);
                     _this.scheduleOnce(function () {
                         var element = _this.options.children[i];
                         var pos = element.getPosition();
@@ -306,13 +313,21 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            var _laypout1posx = [0, -200, -380, 200, 500];
+            // this.arrangeGridChildren(this.options, 80, _optionCount);
+            for (var i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(_laypout1posx[i], _optionParent.children[i].y);
+            }
         }
         else {
-            this.arrangeChildren(this.options, 80);
+            var _laypout1posx = [0, -200, -380, 200, 500];
+            // this.arrangeGridChildren(this.options, 80, _optionCount);
+            for (var i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(_laypout1posx[i], _optionParent.children[i].y);
+            }
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
+            var _laypout1posY = [50, 200, -100, 200, 50];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }
