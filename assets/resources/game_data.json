@@ -10,9 +10,9 @@
   },
   "questionData": [
     {
-      "questionText": "Identify landforms and water bodies",
+      "questionText": "Identify the water body",
       "questionImageName": "6.png",
-      "questionAudioName": "waterbody.mp3",
+      "questionAudioName": "identifylandform.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "common-asset2.png",
       "isOptionText": true,
@@ -26,7 +26,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Identify landforms and water bodies",
+      "questionText": "Identify the landform",
       "questionImageName": "1.png",
       "questionAudioName": "identifylandform.mp3",
       "shouldPlayQuestionAudio": true,
@@ -42,9 +42,9 @@
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "Identify landforms and water bodies",
+      "questionText": "Identify the water body",
       "questionImageName": "5.png",
-      "questionAudioName": "waterbody.mp3",
+      "questionAudioName": "identifylandform.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "common-asset2.png",
       "isOptionText": true,
@@ -58,7 +58,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Identify landforms and water bodies",
+      "questionText": "Identify the landform",
       "questionImageName": "7.png",
       "questionAudioName": "identifylandform.mp3",
       "shouldPlayQuestionAudio": true,
@@ -74,7 +74,7 @@
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "Identify landforms and water bodies",
+      "questionText": "Identify the landform",
       "questionImageName": "8.png",
       "questionAudioName": "identifylandform.mp3",
       "shouldPlayQuestionAudio": true,
@@ -90,7 +90,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Identify landforms and water bodies",
+      "questionText": "Identify the landform",
       "questionImageName": "9.png",
       "questionAudioName": "identifylandform.mp3",
       "shouldPlayQuestionAudio": true,
@@ -106,9 +106,9 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Identify landforms and water bodies",
+      "questionText": "Identify the water body",
       "questionImageName": "pond.png",
-      "questionAudioName": "waterbody.mp3",
+      "questionAudioName": "identifylandform.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "common-asset2.png",
       "isOptionText": true,
@@ -122,9 +122,9 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Identify landforms and water bodies",
+      "questionText": "Identify the water body",
       "questionImageName": "lake.png",
-      "questionAudioName": "waterbody.mp3",
+      "questionAudioName": "identifylandform.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "common-asset2.png",
       "isOptionText": true,
@@ -138,7 +138,7 @@
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "Identify landforms and water bodies",
+      "questionText": "Identify the landform",
       "questionImageName": "hill.png",
       "questionAudioName": "identifylandform.mp3",
       "shouldPlayQuestionAudio": true,
