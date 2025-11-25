@@ -11,7 +11,7 @@
   },
   "questionData": [
     {
-      "questionText": "Drawing plant",
+      "questionText": "Flowers",
       "questionImageName": "empty.png",
       "questionAudioName": "Q1.mp3",
       "shouldPlayQuestionAudio": true,
@@ -20,7 +20,7 @@
       "correctAudioName": "L2Correct.mp3"
     },
     {
-      "questionText": "Drawing plant",
+      "questionText": "Flowers",
       "questionImageName": "empty.png",
       "questionAudioName": "Q1.mp3",
       "shouldPlayQuestionAudio": true,
@@ -29,7 +29,7 @@
       "correctAudioName": "l4correct.mp3"
     },
     {
-      "questionText": "Drawing plant",
+      "questionText": "Flowers",
       "questionImageName": "empty.png",
       "questionAudioName": "Q1.mp3",
       "shouldPlayQuestionAudio": true,
@@ -38,7 +38,7 @@
       "correctAudioName": "l6correct.mp3"
     },
     {
-      "questionText": "Drawing plant",
+      "questionText": "Flowers",
       "questionImageName": "empty.png",
       "questionAudioName": "Q1.mp3",
       "shouldPlayQuestionAudio": true,
