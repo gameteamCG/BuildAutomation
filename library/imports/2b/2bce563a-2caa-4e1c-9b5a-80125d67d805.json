@@ -97,7 +97,7 @@
         "NumberOfOptions": 2,
         "Options": [
           "5.png",
-          "w2.png"
+          "w1.png"
         ],
         "ReiterationAudioName": "blocks.mp3",
         "CorrectAudioName": "positive_1.mp3",
@@ -114,7 +114,7 @@
         "IsOptionText": false,
         "NumberOfOptions": 2,
         "Options": [
-          "w3.png",
+          "w7.png",
           "6.png"
         ],
         "ReiterationAudioName": "stories.mp3",
@@ -132,7 +132,7 @@
         "IsOptionText": false,
         "NumberOfOptions": 2,
         "Options": [
-          "w1.png",
+          "w3.png",
           "7.png"
         ],
         "ReiterationAudioName": "sports.mp3",
