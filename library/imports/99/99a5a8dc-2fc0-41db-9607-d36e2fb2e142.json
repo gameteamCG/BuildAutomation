@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Jr_0041_Data-Set-3",
+    "texture": "269b216b-dc82-4597-8c9a-0a80c013164a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      507,
+      227
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      507,
+      227
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
