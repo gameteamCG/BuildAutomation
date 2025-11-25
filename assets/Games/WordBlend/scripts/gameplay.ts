@@ -874,7 +874,7 @@ export default class NewClass extends cc.Component {
                 // }, 0);
                 this.EndDrag();
             }, 1);
-        }, this.wordVoQuestion.duration - 1);
+        },);
     }
 
     wordSwap(_node1: cc.Node, _node2: cc.Node, x1: number, x2: number) {
@@ -934,6 +934,8 @@ export default class NewClass extends cc.Component {
     }
     wordTouchMove(_event) {
         //check if the same object is moving which started first
+
+
         if (this.wordCurrentSeleced && _event.target.name == this.wordCurrentSeleced.name) {
             this.wordCurrentSeleced.x += _event.touch.getDelta().x;
             if (this.wordCurrentSeleced.x > 800 || this.wordCurrentSeleced.x < -800) {
@@ -951,6 +953,7 @@ export default class NewClass extends cc.Component {
                 if (_child.getBoundingBox().contains(_event.target.getPosition())) { collisionWith = _child; }
             });
             if (collisionWith) {
+
                 // console.log("collision with ", collisionWith.name);
                 this.wordSwap(collisionWith, this.wordCurrentSeleced, collisionWith.x, this.wordCurrentSelecedPos.x);
             }

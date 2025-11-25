@@ -782,7 +782,7 @@ var NewClass = /** @class */ (function (_super) {
                 // }, 0);
                 _this.EndDrag();
             }, 1);
-        }, this.wordVoQuestion.duration - 1);
+        });
     };
     NewClass.prototype.wordSwap = function (_node1, _node2, x1, x2) {
         var _this = this;
@@ -837,8 +837,8 @@ var NewClass = /** @class */ (function (_super) {
         }
     };
     NewClass.prototype.wordTouchMove = function (_event) {
-        var _this = this;
         //check if the same object is moving which started first
+        var _this = this;
         if (this.wordCurrentSeleced && _event.target.name == this.wordCurrentSeleced.name) {
             this.wordCurrentSeleced.x += _event.touch.getDelta().x;
             if (this.wordCurrentSeleced.x > 800 || this.wordCurrentSeleced.x < -800) {
