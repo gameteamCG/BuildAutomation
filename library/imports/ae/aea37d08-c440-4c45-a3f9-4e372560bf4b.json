@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0009_1-party-hat_0002_Air-Ballons_03",
+    "texture": "ae708394-9456-4047-88b2-1c289942b449",
+    "atlas": "",
+    "rect": [
+      7,
+      0,
+      338,
+      463
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      352,
+      463
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1239,7 +1239,7 @@
     "_dstBlendFactor": 771,
     "_string": "a",
     "_N$string": "a",
-    "_fontSize": 100,
+    "_fontSize": 80,
     "_lineHeight": 100,
     "_enableWrapText": false,
     "_N$file": {
@@ -1495,7 +1495,7 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 100,
+    "_fontSize": 80,
     "_lineHeight": 100,
     "_enableWrapText": false,
     "_N$file": {
@@ -1875,15 +1875,9 @@
       "__id__": 5
     },
     "_enabled": true,
-    "podar_font": {
-      "__uuid__": "a426a11c-b728-4548-94db-08b918e1e775"
-    },
-    "jaipuria_font": {
-      "__uuid__": "77537a50-eb9e-4e43-b8f5-28ac98c7d9fc"
-    },
-    "tlc_font": {
-      "__uuid__": "9bd6c337-4f3c-42b2-9ac2-effc833609a2"
-    },
+    "podar_font": null,
+    "jaipuria_font": null,
+    "tlc_font": null,
     "supercub_font": {
       "__uuid__": "a3ed727b-d7e5-49a6-89de-84365f6e7b27"
     },

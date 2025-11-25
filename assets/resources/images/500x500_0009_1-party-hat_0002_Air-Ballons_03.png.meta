@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ae708394-9456-4047-88b2-1c289942b449",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 352,
+  "height": 463,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0009_1-party-hat_0002_Air-Ballons_03": {
+      "ver": "1.0.6",
+      "uuid": "aea37d08-c440-4c45-a3f9-4e372560bf4b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ae708394-9456-4047-88b2-1c289942b449",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 7,
+      "trimY": 0,
+      "width": 338,
+      "height": 463,
+      "rawWidth": 352,
+      "rawHeight": 463,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
