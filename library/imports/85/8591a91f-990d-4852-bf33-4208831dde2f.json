@@ -460,10 +460,10 @@
       "__id__": 122
     },
     "bgMusic": {
-      "__uuid__": "2fd0d62f-307c-466d-8c74-d0415f65aae1"
+      "__uuid__": "b167b1f4-fd7a-41a5-8ba7-5250c2844210"
     },
     "correctSound": {
-      "__uuid__": "617c9f98-08d8-49a8-874d-29e7b2166772"
+      "__uuid__": "a728f81f-da33-4a8b-aadc-066706a683ad"
     },
     "starSprites": [
       {
@@ -6332,8 +6332,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1921,
-      "height": 1081
+      "width": 1920,
+      "height": 1080
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -6385,7 +6385,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "c9d6291f-a0d1-4998-91ac-9b374391df88"
+      "__uuid__": "b4a73e69-8574-4099-9294-e161f97a6064"
     },
     "_type": 0,
     "_sizeMode": 1,
