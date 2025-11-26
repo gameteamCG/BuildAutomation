@@ -324,7 +324,7 @@ var NewClass = /** @class */ (function (_super) {
             if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
             }
-            this.canTouch = true;
+            // this.canTouch = true;
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "supercub") {
             var intoAnim = "intro";
@@ -339,7 +339,7 @@ var NewClass = /** @class */ (function (_super) {
             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
             this.scheduleOnce(function () {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    _this.canTouch = true;
+                    // this.canTouch = true;
                 }
                 else {
                     cc.audioEngine.playEffect(_this.questionSound[0], false);
@@ -414,7 +414,7 @@ var NewClass = /** @class */ (function (_super) {
                             }, waitTime);
                         }
                         _this.PlayQuestionAudio();
-                        _this.canTouch = true;
+                        // this.canTouch = true;
                     }, 0.5);
                 }
             }, delay);
