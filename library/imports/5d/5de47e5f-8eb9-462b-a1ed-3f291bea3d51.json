@@ -23,9 +23,9 @@
         "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "hill",
-          "ocean",
-          "mountain"
+          "Hill",
+          "Ocean",
+          "Mountain"
         ],
         "correctAudioName": "ocean.mp3",
         "correctAnswerNum": "2"
@@ -73,7 +73,7 @@
         "options": [
           "Plain",
           "Pond",
-          "Dessert"
+          "Desert"
         ],
         "correctAudioName": "dessert.mp3",
         "correctAnswerNum": "3"
@@ -89,7 +89,7 @@
         "options": [
           "Plain",
           "Mountain",
-          "hill"
+          "Hill"
         ],
         "correctAudioName": "plain.mp3",
         "correctAnswerNum": "1"

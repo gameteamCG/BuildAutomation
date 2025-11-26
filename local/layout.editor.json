@@ -19,7 +19,7 @@
             "children": [
               {
                 "width": 204.0500030517578,
-                "height": 353.6125183105469,
+                "height": 354.1000061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -28,7 +28,7 @@
               },
               {
                 "width": 204.0500030517578,
-                "height": 347.57501220703125,
+                "height": 347.0874938964844,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -44,7 +44,7 @@
             "children": [
               {
                 "width": 806.2250366210938,
-                "height": 353.6125183105469,
+                "height": 354.1000061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -53,7 +53,7 @@
               },
               {
                 "width": 806.2250366210938,
-                "height": 347.57501220703125,
+                "height": 347.0874938964844,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -90,8 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1764057588913": {},
-    " build-worker-worker": {}
+    "window-1764147161919": {}
   },
   "panels": {
     "project-settings": {
