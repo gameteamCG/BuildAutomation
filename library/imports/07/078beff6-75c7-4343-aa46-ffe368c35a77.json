@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "collect correct word",
+        "questionText": "'ar' family word",
         "questionImageName": "bar1.png",
         "questionAudioName": "collect_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
@@ -34,7 +34,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "collect correct word",
+        "questionText": "'ar' family word",
         "questionImageName": "car1.png",
         "questionAudioName": "collect_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
@@ -52,7 +52,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "collect correct word",
+        "questionText": "'ar' family word",
         "questionImageName": "far1.png",
         "questionAudioName": "collect_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
@@ -70,7 +70,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "collect correct word",
+        "questionText": "'ar' family word",
         "questionImageName": "jar1.png",
         "questionAudioName": "collect_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
@@ -88,7 +88,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "collect correct word",
+        "questionText": "'ar' family word",
         "questionImageName": "tar1.png",
         "questionAudioName": "collect_the_correct_word_for_the_picture.mp3",
         "shouldPlayQuestionAudio": true,
