@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lap_text",
+    "texture": "bc30347b-e3f9-4558-b7a2-40a3416fa38e",
+    "atlas": "",
+    "rect": [
+      118,
+      91,
+      271,
+      258
+    ],
+    "offset": [
+      3.5,
+      30
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

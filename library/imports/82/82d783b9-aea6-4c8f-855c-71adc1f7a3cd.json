@@ -1,0 +1,82 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Abhay CG129",
+      "totalLevel": "3",
+      "TitleImageName": "title.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "Funny_Game (mp3cut.net) (1).mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "match the picture\n",
+        "questionAudioName": "MATCH_THE_PICTURE_TO_THE_WORD.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "backcard3.png",
+        "frontCardImageName": "frontcard3.png",
+        "isOptionText": false,
+        "options": [
+          "cap.png",
+          "lap.png"
+        ],
+        "reiterationAudios": [
+          "52313955_2_cap.mp3",
+          "41693485_8_lap.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "cap_text.png",
+          "lap_text.png"
+        ]
+      },
+      {
+        "questionText": "match the picture",
+        "questionAudioName": "MATCH_THE_PICTURE_TO_THE_WORD.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "backcard2.png",
+        "frontCardImageName": "frontcard2.png",
+        "isOptionText": false,
+        "options": [
+          "map.png",
+          "nap.png"
+        ],
+        "reiterationAudios": [
+          "48028685_5_map.mp3",
+          "48042976_15_nap.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "map_text.png",
+          "nap_text.png"
+        ]
+      },
+      {
+        "questionText": "match the picture",
+        "questionAudioName": "MATCH_THE_PICTURE_TO_THE_WORD.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "backcard.png",
+        "frontCardImageName": "frontcard.png",
+        "isOptionText": false,
+        "options": [
+          "sap.png",
+          "tap.png"
+        ],
+        "reiterationAudios": [
+          "41693485_6_sap.mp3",
+          "41693485_4_tap.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "sap_text.png",
+          "tap_text.png"
+        ]
+      }
+    ]
+  }
+}

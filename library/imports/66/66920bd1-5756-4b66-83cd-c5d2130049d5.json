@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nap_text",
+    "texture": "74db52ad-feb0-4288-bf33-996cbfb50bad",
+    "atlas": "",
+    "rect": [
+      82,
+      177,
+      333,
+      172
+    ],
+    "offset": [
+      -1.5,
+      -13
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
