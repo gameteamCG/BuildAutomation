@@ -383,12 +383,13 @@ export default class NewClass extends cc.Component {
                 }
                 else {
                     cc.audioEngine.playEffect(this.questionSound[0], false);
+                    this.canTouch = true;
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_loop", true);
                     this.scheduleOnce(() => {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
                         this.scheduleOnce(() => {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                            this.canTouch = true;
+
                         }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
                     }, this.questionSound[0].duration);
                 }

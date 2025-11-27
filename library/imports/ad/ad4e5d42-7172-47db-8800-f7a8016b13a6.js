@@ -343,12 +343,12 @@ var NewClass = /** @class */ (function (_super) {
                 }
                 else {
                     cc.audioEngine.playEffect(_this.questionSound[0], false);
+                    _this.canTouch = true;
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_loop", true);
                     _this.scheduleOnce(function () {
                         _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
                         _this.scheduleOnce(function () {
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                            _this.canTouch = true;
                         }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
                     }, _this.questionSound[0].duration);
                 }
