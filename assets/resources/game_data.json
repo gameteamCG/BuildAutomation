@@ -1,0 +1,163 @@
+{
+  "additionalData": {
+    "GameID": "fruits_fs1_r179",
+    "totalLevel": "10",
+    "TitleImageName": "Asset 72.png",
+    "introBgName": "Bg (1).png",
+    "bgmMusicName": "bgm8.mp3",
+    "mainBgName": "main_bg.png",
+    "JockeyName": "bag"
+  },
+  "questionData": [
+    {
+      "questionText": "I am red, green, or yellow and very crunchy. Who am I?",
+      "questionAudioName": "apple_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "options": [
+        "apple.png",
+        "banana.png",
+        "cherry.png"
+      ],
+      "correctAudios": [
+        "apple.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "I am long and yellow and you have to peel me. Who am I?",
+      "questionAudioName": "banana_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "options": [
+        "lemon.png",
+        "banana.png",
+        "wmelon.png"
+      ],
+      "correctAudios": [
+        "banana.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "I grow in bunches and can be green or purple. Who am I?",
+      "questionAudioName": "grape_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "options": [
+        "mango.png",
+        "orange.png",
+        "grape.png"
+      ],
+      "correctAudios": [
+        "grape.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "I am big, green outside and red inside with many seeds. Who am I?",
+      "questionAudioName": "wmelon_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "options": [
+        "wmelon.png",
+        "mango.png",
+        "apple.png"
+      ],
+      "correctAudios": [
+        "wmelon.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "I am small, red, and have seeds on my outside. Who am I?",
+      "questionAudioName": "strawberry_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "options": [
+        "lemon.png",
+        "apple.png",
+        "strawberry.png"
+      ],
+      "correctAudios": [
+        "strawberry.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "I am brown and rough outside but sweet and yellow inside. Who am I?",
+      "questionAudioName": "pineapple_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "options": [
+        "pineapple.png",
+        "grape.png",
+        "banana.png"
+      ],
+      "correctAudios": [
+        "pineapple.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "I am small and round and often come in pairs. Who am I?",
+      "questionAudioName": "cherry_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "options": [
+        "wmelon.png",
+        "cherry.png",
+        "apple.png"
+      ],
+      "correctAudios": [
+        "cherry.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "I am soft, orange, and called the king of fruits. Who am I?",
+      "questionAudioName": "mango_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "options": [
+        "mango.png",
+        "banana.png",
+        "orange.png"
+      ],
+      "correctAudios": [
+        "mango.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "I am orange, juicy, and full of vitamin C. Who am I?",
+      "questionAudioName": "orange_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "options": [
+        "grape.png",
+        "orange.png",
+        "mango.png"
+      ],
+      "correctAudios": [
+        "orange.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "I am green on the outside and look like a big lemon. Who am I?",
+      "questionAudioName": "lime_q.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "options": [
+        "lemon.png",
+        "pineapple.png",
+        "banana.png"
+      ],
+      "correctAudios": [
+        "lime.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}

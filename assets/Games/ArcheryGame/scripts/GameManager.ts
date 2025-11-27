@@ -171,6 +171,7 @@ export default class GameManager extends cc.Component {
   }
 
   onLoad() {
+    startGame.Instance.JockeyNode.opacity = 255;
     console.log("onload@@@@@@@@@@@@@@");
     startGame.Instance.node.getChildByName("progress").opacity = 255;
     ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1, false);

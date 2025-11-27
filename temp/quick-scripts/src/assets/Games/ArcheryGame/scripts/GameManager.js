@@ -121,6 +121,7 @@ var GameManager = /** @class */ (function (_super) {
     };
     GameManager.prototype.onLoad = function () {
         var _this = this;
+        StartGame_1.default.Instance.JockeyNode.opacity = 255;
         console.log("onload@@@@@@@@@@@@@@");
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
         ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1, false);
