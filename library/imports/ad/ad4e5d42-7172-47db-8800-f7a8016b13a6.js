@@ -377,6 +377,8 @@ var NewClass = /** @class */ (function (_super) {
             StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
         this.node.getChildByName("QuestionBox").setPosition(cc.v2(-1500, -200));
         this.node.getChildByName("QuestionBox").scale = 1;
+        this.node.getChildByName("Layer2").setPosition(cc.v2(-1500, -200));
+        this.node.getChildByName("Layer2").scale = 1;
         this.scheduleOnce(function () {
             _this.scheduleOnce(function () {
                 cc.audioEngine.playEffect(_this.popSound[0], false);
@@ -695,10 +697,10 @@ var NewClass = /** @class */ (function (_super) {
                 this.node.getChildByName("QuestionBox").getChildByName(imgName).scale *
                     0.2;
         cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName))
-            .bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 50))
+            .bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 100))
             .start();
         cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName))
-            .to(0.7, { scale: 0.3 }, { easing: "sineInOut" })
+            .to(0.7, { scale: 0.5 }, { easing: "sineInOut" })
             .start();
         this.scheduleOnce(function () {
             //console.log("correctAudio : ", this.correctAudio)

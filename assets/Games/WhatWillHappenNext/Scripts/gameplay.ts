@@ -515,6 +515,8 @@ export default class NewClass extends cc.Component {
 
     this.node.getChildByName("QuestionBox").setPosition(cc.v2(-1500, -200));
     this.node.getChildByName("QuestionBox").scale = 1;
+    this.node.getChildByName("Layer2").setPosition(cc.v2(-1500,-200))
+    this.node.getChildByName("Layer2").scale = 1;
     this.scheduleOnce(() => {
       this.scheduleOnce(() => {
         cc.audioEngine.playEffect(this.popSound[0], false);
@@ -890,11 +892,11 @@ export default class NewClass extends cc.Component {
         1,
         cc.v2(pos.x / 2, pos.y + 200),
         cc.v2(xRandom / 2, pos.y + 200),
-        cc.v2(xRandom, thirdBox.height / 2 - 50)
+        cc.v2(xRandom, thirdBox.height / 2 - 100)
       )
       .start();
     cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName))
-      .to(0.7, { scale: 0.3 }, { easing: "sineInOut" })
+      .to(0.7, { scale: 0.5 }, { easing: "sineInOut" })
       .start();
     this.scheduleOnce(() => {
       //console.log("correctAudio : ", this.correctAudio)
