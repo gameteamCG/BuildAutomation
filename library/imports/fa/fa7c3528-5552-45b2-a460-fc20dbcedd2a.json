@@ -24,10 +24,10 @@
         "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "cow.png",
-          "pig.png",
-          "cat.png",
-          "hen.png"
+          "Asset 526.png",
+          "Asset 523.png",
+          "Asset 525.png",
+          "Asset 524.png"
         ],
         "ReiterationAudioName": "hen.mp3",
         "CorrectAudioName": "GREATWORK.mp3",
