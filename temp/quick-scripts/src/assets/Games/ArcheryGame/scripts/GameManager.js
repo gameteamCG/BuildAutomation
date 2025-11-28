@@ -46,6 +46,7 @@ var GameManager = /** @class */ (function (_super) {
     __extends(GameManager, _super);
     function GameManager() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.fruitNames = [];
         _this.playerNode = null;
         _this.upDownAnim = null;
         _this.realArrow = null;
@@ -118,6 +119,10 @@ var GameManager = /** @class */ (function (_super) {
         this.questionSum = num1 + num2;
         this.questionLabel.string = num1 + " + " + num2 + " = ?";
         this.createOptions();
+    };
+    GameManager.prototype.onSoundButtonClick = function () {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionSound[0], false);
     };
     GameManager.prototype.onLoad = function () {
         var _this = this;
@@ -480,6 +485,8 @@ var GameManager = /** @class */ (function (_super) {
         this.unschedule(this.changeArrowAngle);
         if (targetNode.value === this.questionSum) {
             console.log("Hooray, correct answer");
+            var questionLabel = this.node.getChildByName("QuestionLabel").getComponent(cc.Label);
+            questionLabel.string = this.fruitNames[globalVariables_1.default.Instance.currentLevel - 1];
             //this.onRightAnswer();
             // let num = this.genRandomNumber(1, 10);
             // this.playSpineAnimAndIdle("positive_", num, true);
@@ -991,6 +998,9 @@ var GameManager = /** @class */ (function (_super) {
     };
     var GameManager_1;
     GameManager.roughSheetMode = false;
+    __decorate([
+        property([cc.String])
+    ], GameManager.prototype, "fruitNames", void 0);
     __decorate([
         property(cc.Node)
     ], GameManager.prototype, "playerNode", void 0);

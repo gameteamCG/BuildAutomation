@@ -14,6 +14,11 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class GameManager extends cc.Component {
+
+
+  @property([cc.String])
+  public fruitNames: string[] = [];
+
   @property(cc.Node)
   public playerNode: cc.Node = null;
 
@@ -168,6 +173,11 @@ export default class GameManager extends cc.Component {
     this.questionSum = num1 + num2;
     this.questionLabel.string = `${num1} + ${num2} = ?`;
     this.createOptions();
+  }
+
+  onSoundButtonClick() {
+    cc.audioEngine.stopAllEffects();
+    cc.audioEngine.playEffect(this.questionSound[0], false);
   }
 
   onLoad() {
@@ -587,6 +597,9 @@ export default class GameManager extends cc.Component {
 
     if (targetNode.value === this.questionSum) {
       console.log("Hooray, correct answer");
+
+      let questionLabel = this.node.getChildByName("QuestionLabel").getComponent(cc.Label);
+      questionLabel.string = this.fruitNames[globalVariables.Instance.currentLevel - 1];
       //this.onRightAnswer();
       // let num = this.genRandomNumber(1, 10);
       // this.playSpineAnimAndIdle("positive_", num, true);
