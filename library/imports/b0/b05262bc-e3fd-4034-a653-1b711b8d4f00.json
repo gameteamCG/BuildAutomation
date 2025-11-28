@@ -17,7 +17,7 @@
     "questionData": [
       {
         "questionText": "Bed",
-        "questionAudioName": "Choosethecorrectpictureforthewordbed.mp3",
+        "questionAudioName": "choose the correct picture for the word shown.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "boiui.png",
         "isOptionText": false,
@@ -35,7 +35,7 @@
       },
       {
         "questionText": "Fed",
-        "questionAudioName": "q2.mp3",
+        "questionAudioName": "choose the correct picture for the word shown.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "boiui.png",
         "isOptionText": false,
@@ -53,7 +53,7 @@
       },
       {
         "questionText": "Led",
-        "questionAudioName": "q3.mp3",
+        "questionAudioName": "choose the correct picture for the word shown.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "boiui.png",
         "isOptionText": false,
@@ -71,7 +71,7 @@
       },
       {
         "questionText": "Red",
-        "questionAudioName": "q4.mp3",
+        "questionAudioName": "choose the correct picture for the word shown.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "boiui.png",
         "isOptionText": false,
@@ -89,7 +89,7 @@
       },
       {
         "questionText": "Wed",
-        "questionAudioName": "q5.mp3",
+        "questionAudioName": "choose the correct picture for the word shown.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "boiui.png",
         "isOptionText": false,
