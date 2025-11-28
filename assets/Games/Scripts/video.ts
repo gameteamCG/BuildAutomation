@@ -592,6 +592,7 @@ export default class video extends cc.Component {
                     element.getChildByName("text").getComponent(cc.Label).string = this.questions[this.currentQuestion].optionTexts[i];
                     element.getChildByName("img").active = false;
                     element.getChildByName("text").active = true;
+                    console.log(this.currentQuestion);
                 }
                 i++;
             });
@@ -605,6 +606,11 @@ export default class video extends cc.Component {
                     element.getChildByName("img").getComponent(cc.Sprite).spriteFrame = this.questions[this.currentQuestion].optionImgs[i];
                     element.getChildByName("text").active = false;
                     element.getChildByName("img").active = true;
+                    console.log(this.currentQuestion);
+                    if (this.currentQuestion == 1 || this.currentQuestion == 2) {
+                        element.getChildByName("img").scale = 0.5;
+                    }
+                    else { element.getChildByName("img").scale = 1; }
                 }
                 i++;
             });

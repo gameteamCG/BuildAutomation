@@ -585,6 +585,7 @@ var video = /** @class */ (function (_super) {
                     element.getChildByName("text").getComponent(cc.Label).string = _this.questions[_this.currentQuestion].optionTexts[i_1];
                     element.getChildByName("img").active = false;
                     element.getChildByName("text").active = true;
+                    console.log(_this.currentQuestion);
                 }
                 i_1++;
             });
@@ -598,6 +599,13 @@ var video = /** @class */ (function (_super) {
                     element.getChildByName("img").getComponent(cc.Sprite).spriteFrame = _this.questions[_this.currentQuestion].optionImgs[i_2];
                     element.getChildByName("text").active = false;
                     element.getChildByName("img").active = true;
+                    console.log(_this.currentQuestion);
+                    if (_this.currentQuestion == 1 || _this.currentQuestion == 2) {
+                        element.getChildByName("img").scale = 0.5;
+                    }
+                    else {
+                        element.getChildByName("img").scale = 1;
+                    }
                 }
                 i_2++;
             });

@@ -44,10 +44,10 @@
         "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "rat.png",
-          "elephant.png",
-          "cat.png",
-          "hen.png"
+          "new_Asset 530.png",
+          "new_Asset 523.png",
+          "new_Asset 531.png",
+          "new_Asset 529.png"
         ],
         "ReiterationAudioName": "Big_Elephant.mp3",
         "CorrectAudioName": "GREATWORK.mp3",
@@ -64,10 +64,10 @@
         "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "apple.png",
-          "banana.png",
-          "fig.png",
-          "orange.png"
+          "new_Asset 528.png",
+          "new_Asset 527.png",
+          "new_Asset 526.png",
+          "new_Asset 525.png"
         ],
         "ReiterationAudioName": "fig.mp3",
         "CorrectAudioName": "EXCELLENTJOB.mp3",
@@ -78,7 +78,7 @@
         "QuestionAppearTime": "2000",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "Q04_2.png",
+        "QuestionImageName": "Artboard 1.png",
         "QuestionAudioName": "Look_at_the_picture_and_complete_the_sentence.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
