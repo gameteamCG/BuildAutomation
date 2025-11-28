@@ -79,7 +79,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "250x250_0008_policeman.png",
-        "QuestionAudioName": "",
+        "QuestionAudioName": "choose the correct word for the given picture.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": true,
         "NumberOfOptions": 4,
