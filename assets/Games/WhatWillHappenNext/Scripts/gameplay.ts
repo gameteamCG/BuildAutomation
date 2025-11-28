@@ -248,7 +248,7 @@ export default class NewClass extends cc.Component {
                         this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                         let bg = this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img")
                         bg.getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                        bg.scale = 0.5;
+                        // bg.scale = 0.5;
                     });
                 }
 
@@ -329,11 +329,13 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.node.getChildByName("QuestionBox"))
-                    .to(1, { scale: 1.2 }, { easing: "sineInOut" }).start();
+                    .to(1, { scale: 1 }, { easing: "sineInOut" }).start();
+                console.log("iamhere");
+
             }, 0.1);
             this.scheduleOnce(() => {
                 cc.tween(this.node.getChildByName("QuestionBox"))
-                    .to(0.5, { x: posX }, { easing: "sineInOut" }).start();
+                    .to(0.5, { x: -300, y: 0 }, { easing: "sineInOut" }).start();
                 this.canTouch = true;
                 this.callOptionIn();
             }, 1);
@@ -354,17 +356,30 @@ export default class NewClass extends cc.Component {
         for (let i = 1; i <= this.node.getChildByName("Option").children.length; i++) {
             this.node.getChildByName("Option").children[i - 1].scale = 0;
             this.node.getChildByName("Option").children[i - 1].opacity = 255;
-            this.scheduleOnce(() => {
-                cc.audioEngine.playEffect(this.popSound[0], false);
-                cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-                if (i == this.node.getChildByName("Option").children.length) {
-                    this.scheduleOnce(() => {
-                        this.PlayQuestionAudio();
-                    }, 0.5);
-                }
-            }, delay);
-            delay += 0.5;
+            cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
+                .delay(i * delay)
+                .call(() => cc.audioEngine.playEffect(this.popSound[0], false))
+                .to(0.5, { scale: 0.5 }, { easing: "sineInOut" })
+                .call(() => {
+                    if (i == this.node.getChildByName("Option").children.length) {
+                        this.scheduleOnce(() => {
+                            this.PlayQuestionAudio();
+                        }, 0.5);
+                    }
+                })
+
+                .start();
+            // this.scheduleOnce(() => {
+            //     cc.audioEngine.playEffect(this.popSound[0], false);
+            //     cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
+            //         .to(0.5, { scale: 0.5 }, { easing: "sineInOut" }).start();
+            //     if (i == this.node.getChildByName("Option").children.length) {
+            //         this.scheduleOnce(() => {
+            //             this.PlayQuestionAudio();
+            //         }, 0.5);
+            //     }
+            // }, delay);
+            // delay += 0.5;
         }
     }
 
@@ -395,7 +410,7 @@ export default class NewClass extends cc.Component {
             this.currentJcokey.setPosition(450, -370);
             if (startGame.Instance.jockeyName == "supercub") {
                 intoAnim = "intro_1";
-                this.currentJcokey.setPosition(870, -370);
+                this.currentJcokey.setPosition(920, -370);
             }
             if (startGame.Instance.jockeyName == "tlc") {
                 cc.audioEngine.playEffect(this.tlc_birdFlying, false);
@@ -549,10 +564,10 @@ export default class NewClass extends cc.Component {
         // _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
         cc.audioEngine.playEffect(this.correctAudio, false);
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { width: 350, height: 350 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { scale: 0.95 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { scale: 0.8 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { y: 90 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { x: 50, y: 70 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
             this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();

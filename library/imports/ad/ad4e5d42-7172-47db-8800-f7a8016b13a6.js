@@ -207,7 +207,7 @@ var NewClass = /** @class */ (function (_super) {
                         _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                         var bg = _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img");
                         bg.getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                        bg.scale = 0.5;
+                        // bg.scale = 0.5;
                     });
                 }
                 else {
@@ -283,11 +283,12 @@ var NewClass = /** @class */ (function (_super) {
             _this.scheduleOnce(function () {
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 cc.tween(_this.node.getChildByName("QuestionBox"))
-                    .to(1, { scale: 1.2 }, { easing: "sineInOut" }).start();
+                    .to(1, { scale: 1 }, { easing: "sineInOut" }).start();
+                console.log("iamhere");
             }, 0.1);
             _this.scheduleOnce(function () {
                 cc.tween(_this.node.getChildByName("QuestionBox"))
-                    .to(0.5, { x: posX }, { easing: "sineInOut" }).start();
+                    .to(0.5, { x: -300, y: 0 }, { easing: "sineInOut" }).start();
                 _this.canTouch = true;
                 _this.callOptionIn();
             }, 1);
@@ -307,17 +308,18 @@ var NewClass = /** @class */ (function (_super) {
         var _loop_3 = function (i) {
             this_3.node.getChildByName("Option").children[i - 1].scale = 0;
             this_3.node.getChildByName("Option").children[i - 1].opacity = 255;
-            this_3.scheduleOnce(function () {
-                cc.audioEngine.playEffect(_this.popSound[0], false);
-                cc.tween(_this.node.getChildByName("Option").getChildByName(i.toString()))
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+            cc.tween(this_3.node.getChildByName("Option").getChildByName(i.toString()))
+                .delay(i * delay)
+                .call(function () { return cc.audioEngine.playEffect(_this.popSound[0], false); })
+                .to(0.5, { scale: 0.5 }, { easing: "sineInOut" })
+                .call(function () {
                 if (i == _this.node.getChildByName("Option").children.length) {
                     _this.scheduleOnce(function () {
                         _this.PlayQuestionAudio();
                     }, 0.5);
                 }
-            }, delay);
-            delay += 0.5;
+            })
+                .start();
         };
         var this_3 = this;
         for (var i = 1; i <= this.node.getChildByName("Option").children.length; i++) {
@@ -352,7 +354,7 @@ var NewClass = /** @class */ (function (_super) {
             this.currentJcokey.setPosition(450, -370);
             if (StartGame_1.default.Instance.jockeyName == "supercub") {
                 intoAnim = "intro_1";
-                this.currentJcokey.setPosition(870, -370);
+                this.currentJcokey.setPosition(920, -370);
             }
             if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 cc.audioEngine.playEffect(this.tlc_birdFlying, false);
@@ -497,10 +499,10 @@ var NewClass = /** @class */ (function (_super) {
         // _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
         cc.audioEngine.playEffect(this.correctAudio, false);
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { width: 350, height: 350 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { scale: 0.95 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { scale: 0.8 }, { easing: "sineInOut" }).start();
-        cc.tween(_node).to(0.5, { y: 90 }, { easing: "sineInOut" }).start();
+        cc.tween(_node).to(0.5, { x: 50, y: 70 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
