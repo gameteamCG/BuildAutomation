@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rub_new",
+    "texture": "478422a5-1275-4699-b3df-17490b9730b2",
+    "atlas": "",
+    "rect": [
+      76,
+      88,
+      98,
+      59
+    ],
+    "offset": [
+      -0.5,
+      8
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

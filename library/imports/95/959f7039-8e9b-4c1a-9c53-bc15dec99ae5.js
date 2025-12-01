@@ -582,9 +582,9 @@ var video = /** @class */ (function (_super) {
                 element.active = false;
                 if (i_1 <= (_this.questions[_this.currentQuestion].optionTexts.length - 1)) {
                     element.active = true;
-                    element.getChildByName("text").getComponent(cc.Label).string = _this.questions[_this.currentQuestion].optionTexts[i_1];
-                    element.getChildByName("img").active = false;
-                    element.getChildByName("text").active = true;
+                    element.getChildByName("img").getComponent(cc.Sprite).spriteFrame = _this.questions[_this.currentQuestion].optionImgs[i_1];
+                    element.getChildByName("img").active = true;
+                    element.getChildByName("text").active = false;
                 }
                 i_1++;
             });

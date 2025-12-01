@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whitettub",
+    "texture": "b73acae1-197f-46fc-a1dd-2de48aa5b15b",
+    "atlas": "",
+    "rect": [
+      148,
+      168,
+      209,
+      132
+    ],
+    "offset": [
+      2,
+      16.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

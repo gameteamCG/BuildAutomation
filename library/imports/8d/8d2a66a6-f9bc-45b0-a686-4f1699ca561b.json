@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "soapimg",
+    "texture": "273d9941-9e81-48a4-8bdc-f8e5b5530d60",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      235,
+      235
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      235,
+      235
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

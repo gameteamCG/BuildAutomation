@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yt_tub",
+    "texture": "7b17cde3-6475-48c4-8bac-139104987ddc",
+    "atlas": "",
+    "rect": [
+      156,
+      175,
+      187,
+      118
+    ],
+    "offset": [
+      -1,
+      16.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

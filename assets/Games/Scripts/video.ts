@@ -589,9 +589,9 @@ export default class video extends cc.Component {
                 element.active = false;
                 if (i <= (this.questions[this.currentQuestion].optionTexts.length - 1)) {
                     element.active = true;
-                    element.getChildByName("text").getComponent(cc.Label).string = this.questions[this.currentQuestion].optionTexts[i];
-                    element.getChildByName("img").active = false;
-                    element.getChildByName("text").active = true;
+                    element.getChildByName("img").getComponent(cc.Sprite).spriteFrame = this.questions[this.currentQuestion].optionImgs[i];
+                    element.getChildByName("img").active = true;
+                    element.getChildByName("text").active = false;
                 }
                 i++;
             });

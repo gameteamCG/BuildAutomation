@@ -18,14 +18,14 @@
         "QuestionAppearTime": "9999",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "Q01.png",
+        "QuestionImageName": "whitettub.png",
         "QuestionAudioName": "click_on_the_correct_picture_for_the_word.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
           "bucket.png",
-          "soap.png",
+          "soapimg.png",
           "bathtub.png",
           "tap.png"
         ],
@@ -41,13 +41,13 @@
         "QuestionImageName": "Q02.png",
         "QuestionAudioName": "what_is_this.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": true,
+        "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "cub",
-          "tub",
-          "sub",
-          "rub"
+          "cub_new.png",
+          "tub_new.png",
+          "sub_new.png",
+          "rub_new.png"
         ],
         "ReiterationAudioName": "sub.mp3",
         "CorrectAudioName": "FANTASTIC.mp3",
@@ -58,16 +58,16 @@
         "QuestionAppearTime": "9999",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "Q03.png",
+        "QuestionImageName": "teddy1.png",
         "QuestionAudioName": "what_do_we_call_a_baby_bear.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": true,
+        "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "rub",
-          "cub",
-          "tub",
-          "sub"
+          "rub_new.png",
+          "cub_new.png",
+          "tub_new.png",
+          "sub_new.png"
         ],
         "ReiterationAudioName": "cub.mp3",
         "CorrectAudioName": "GOODJOB.mp3",
@@ -81,13 +81,13 @@
         "QuestionImageName": "Q04.png",
         "QuestionAudioName": "what_is_this.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": true,
+        "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "tub",
-          "club",
-          "cub",
-          "rub"
+          "tub_new.png",
+          "club_new.png",
+          "cub_new.png",
+          "rub_new.png"
         ],
         "ReiterationAudioName": "club.mp3",
         "CorrectAudioName": "GREATWORK.mp3",
