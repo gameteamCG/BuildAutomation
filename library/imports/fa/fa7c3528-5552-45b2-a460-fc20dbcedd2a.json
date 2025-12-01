@@ -59,7 +59,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "Q03.png",
-        "QuestionAudioName": "two_dash_are_in_the_pen..mp3",
+        "QuestionAudioName": "two_dash_are_in_the_pen.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": true,
         "NumberOfOptions": 4,
