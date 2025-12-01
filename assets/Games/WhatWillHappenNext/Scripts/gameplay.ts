@@ -349,37 +349,39 @@ export default class NewClass extends cc.Component {
     }
 
     callOptionIn() {
-        let delay: number = 0.5;
+        let delay: number = 1;
         if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
             this.node.getChildByName("Option").setPosition(150, -70);
         }
         for (let i = 1; i <= this.node.getChildByName("Option").children.length; i++) {
+            cc.Tween.stopAllByTarget("Option");
             this.node.getChildByName("Option").children[i - 1].scale = 0;
             this.node.getChildByName("Option").children[i - 1].opacity = 255;
-            cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
-                .delay(i * delay)
-                .call(() => cc.audioEngine.playEffect(this.popSound[0], false))
-                .to(0.5, { scale: 0.5 }, { easing: "sineInOut" })
-                .call(() => {
-                    if (i == this.node.getChildByName("Option").children.length) {
-                        this.scheduleOnce(() => {
-                            this.PlayQuestionAudio();
-                        }, 0.5);
-                    }
-                })
 
-                .start();
-            // this.scheduleOnce(() => {
-            //     cc.audioEngine.playEffect(this.popSound[0], false);
-            //     cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
-            //         .to(0.5, { scale: 0.5 }, { easing: "sineInOut" }).start();
-            //     if (i == this.node.getChildByName("Option").children.length) {
-            //         this.scheduleOnce(() => {
-            //             this.PlayQuestionAudio();
-            //         }, 0.5);
-            //     }
-            // }, delay);
-            // delay += 0.5;
+            // cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
+            //     .delay(i * delay)
+            //     .call(() => cc.audioEngine.playEffect(this.popSound[0], false))
+            //     .to(0.5, { scale: 0.5 }, { easing: "sineInOut" })
+            //     .call(() => {
+            //         if (i == this.node.getChildByName("Option").children.length) {
+            //             this.scheduleOnce(() => {
+            //                 this.PlayQuestionAudio();
+            //             }, 0.5);
+            //         }
+            //     })
+
+            //     .start();
+            this.scheduleOnce(() => {
+                cc.audioEngine.playEffect(this.popSound[0], false);
+                cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
+                    .to(0.5, { scale: 0.5 }, { easing: "sineInOut" }).start();
+                if (i == this.node.getChildByName("Option").children.length) {
+                    this.scheduleOnce(() => {
+                        this.PlayQuestionAudio();
+                    }, 0.5);
+                }
+            }, delay);
+            delay += 0.5;
         }
     }
 
@@ -871,54 +873,32 @@ export default class NewClass extends cc.Component {
         const paddingBetweenOptions = 10;
 
         let totalHeight = 0;
-        let maxWidth = 0;
 
-        // Calculate the total height and the maximum width of the options
+        // ✅ Use ORIGINAL height (not scaled height)
         for (let i = 0; i < optionNodes.length; i++) {
-            let option = optionNodes[i];
-            let optionWidth = option.width;
-            let optionHeight = option.height;
-
-            totalHeight += optionHeight + paddingBetweenOptions;
-            if (optionWidth > maxWidth) {
-                maxWidth = optionWidth;
-            }
+            totalHeight += optionNodes[i].height + paddingBetweenOptions;
         }
 
         let availableHeight = optionsLayout.height;
-        let totalHeightWithPadding = totalHeight + (optionNodes.length - 1) * paddingBetweenOptions;
-        let scaleFactor = Math.min(1, availableHeight / totalHeightWithPadding);
+        let scaleFactor = Math.min(1, availableHeight / totalHeight);
 
         let accumulatedHeight = 0;
 
-        // Position each option node vertically
         for (let i = 0; i < optionNodes.length; i++) {
             let option = optionNodes[i];
 
-            // Calculate the scale factor for the option
-            let optionScaleFactor = scaleFactor;
+            // ✅ SAFE scaling — DOES NOT DESTROY TEMPLATE
+            option.setScale(scaleFactor);
 
-            // Scale the option
-            option.width *= optionScaleFactor;
-            option.height *= optionScaleFactor;
+            let scaledHeight = option.height * scaleFactor;
+            let posY = accumulatedHeight + (scaledHeight * option.anchorY);
 
-            // Calculate position based on anchor and scaled size
-            let posY = accumulatedHeight + (option.height * option.anchorY);
             option.y = posY - (optionsLayout.height * optionsLayout.anchorY);
 
-            accumulatedHeight += option.height + paddingBetweenOptions;
-
-            // Scale and position children nodes proportionally
-            for (let subChild of option.children) {
-                subChild.x *= optionScaleFactor;
-                subChild.y *= optionScaleFactor;
-                subChild.width *= optionScaleFactor;
-                subChild.height *= optionScaleFactor;
-            }
+            accumulatedHeight += scaledHeight + paddingBetweenOptions;
         }
-
-        optionsLayout.width = maxWidth * scaleFactor;
     }
+
 
     reverseOptionsLayout() {
         let optionsLayout = this.optionsNode;

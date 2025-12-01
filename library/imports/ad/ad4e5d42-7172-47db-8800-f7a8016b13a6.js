@@ -301,25 +301,37 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callOptionIn = function () {
         var _this = this;
-        var delay = 0.5;
+        var delay = 1;
         if (StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "supercub") {
             this.node.getChildByName("Option").setPosition(150, -70);
         }
         var _loop_3 = function (i) {
+            cc.Tween.stopAllByTarget("Option");
             this_3.node.getChildByName("Option").children[i - 1].scale = 0;
             this_3.node.getChildByName("Option").children[i - 1].opacity = 255;
-            cc.tween(this_3.node.getChildByName("Option").getChildByName(i.toString()))
-                .delay(i * delay)
-                .call(function () { return cc.audioEngine.playEffect(_this.popSound[0], false); })
-                .to(0.5, { scale: 0.5 }, { easing: "sineInOut" })
-                .call(function () {
+            // cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
+            //     .delay(i * delay)
+            //     .call(() => cc.audioEngine.playEffect(this.popSound[0], false))
+            //     .to(0.5, { scale: 0.5 }, { easing: "sineInOut" })
+            //     .call(() => {
+            //         if (i == this.node.getChildByName("Option").children.length) {
+            //             this.scheduleOnce(() => {
+            //                 this.PlayQuestionAudio();
+            //             }, 0.5);
+            //         }
+            //     })
+            //     .start();
+            this_3.scheduleOnce(function () {
+                cc.audioEngine.playEffect(_this.popSound[0], false);
+                cc.tween(_this.node.getChildByName("Option").getChildByName(i.toString()))
+                    .to(0.5, { scale: 0.5 }, { easing: "sineInOut" }).start();
                 if (i == _this.node.getChildByName("Option").children.length) {
                     _this.scheduleOnce(function () {
                         _this.PlayQuestionAudio();
                     }, 0.5);
                 }
-            })
-                .start();
+            }, delay);
+            delay += 0.5;
         };
         var this_3 = this;
         for (var i = 1; i <= this.node.getChildByName("Option").children.length; i++) {
@@ -791,43 +803,22 @@ var NewClass = /** @class */ (function (_super) {
         var optionNodes = optionsLayout.children;
         var paddingBetweenOptions = 10;
         var totalHeight = 0;
-        var maxWidth = 0;
-        // Calculate the total height and the maximum width of the options
+        // ✅ Use ORIGINAL height (not scaled height)
         for (var i = 0; i < optionNodes.length; i++) {
-            var option = optionNodes[i];
-            var optionWidth = option.width;
-            var optionHeight = option.height;
-            totalHeight += optionHeight + paddingBetweenOptions;
-            if (optionWidth > maxWidth) {
-                maxWidth = optionWidth;
-            }
+            totalHeight += optionNodes[i].height + paddingBetweenOptions;
         }
         var availableHeight = optionsLayout.height;
-        var totalHeightWithPadding = totalHeight + (optionNodes.length - 1) * paddingBetweenOptions;
-        var scaleFactor = Math.min(1, availableHeight / totalHeightWithPadding);
+        var scaleFactor = Math.min(1, availableHeight / totalHeight);
         var accumulatedHeight = 0;
-        // Position each option node vertically
         for (var i = 0; i < optionNodes.length; i++) {
             var option = optionNodes[i];
-            // Calculate the scale factor for the option
-            var optionScaleFactor = scaleFactor;
-            // Scale the option
-            option.width *= optionScaleFactor;
-            option.height *= optionScaleFactor;
-            // Calculate position based on anchor and scaled size
-            var posY = accumulatedHeight + (option.height * option.anchorY);
+            // ✅ SAFE scaling — DOES NOT DESTROY TEMPLATE
+            option.setScale(scaleFactor);
+            var scaledHeight = option.height * scaleFactor;
+            var posY = accumulatedHeight + (scaledHeight * option.anchorY);
             option.y = posY - (optionsLayout.height * optionsLayout.anchorY);
-            accumulatedHeight += option.height + paddingBetweenOptions;
-            // Scale and position children nodes proportionally
-            for (var _i = 0, _a = option.children; _i < _a.length; _i++) {
-                var subChild = _a[_i];
-                subChild.x *= optionScaleFactor;
-                subChild.y *= optionScaleFactor;
-                subChild.width *= optionScaleFactor;
-                subChild.height *= optionScaleFactor;
-            }
+            accumulatedHeight += scaledHeight + paddingBetweenOptions;
         }
-        optionsLayout.width = maxWidth * scaleFactor;
     };
     NewClass.prototype.reverseOptionsLayout = function () {
         var optionsLayout = this.optionsNode;
