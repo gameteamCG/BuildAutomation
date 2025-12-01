@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3e2b6f0a-eee8-41d9-ba4f-e61c147cedad",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 780,
+  "height": 282,
+  "platformSettings": {},
+  "subMetas": {
+    "landandwateranimal": {
+      "ver": "1.0.6",
+      "uuid": "76f41575-c64d-4bb0-b88c-58a0bd67c1bf",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3e2b6f0a-eee8-41d9-ba4f-e61c147cedad",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 5,
+      "offsetY": 2.5,
+      "trimX": 26,
+      "trimY": 26,
+      "width": 738,
+      "height": 225,
+      "rawWidth": 780,
+      "rawHeight": 282,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

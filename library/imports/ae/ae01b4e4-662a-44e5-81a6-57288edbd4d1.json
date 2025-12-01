@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sea_horse",
+    "texture": "1477a41a-05b7-4cfa-820d-f7ffecd3251e",
+    "atlas": "",
+    "rect": [
+      148,
+      27,
+      204,
+      446
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

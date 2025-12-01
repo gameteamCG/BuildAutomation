@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lobstar",
+    "texture": "85566c2e-6717-41df-aaf8-336aa6cb4d18",
+    "atlas": "",
+    "rect": [
+      37,
+      13,
+      428,
+      476
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
