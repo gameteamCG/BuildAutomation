@@ -866,7 +866,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.levelFinished = function () {
         var _this = this;
-        cc.audioEngine.playEffect(this.correctAction, false);
+        cc.audioEngine.playEffect(this.wordVoIteration, false);
         this.node.getChildByName("confetti").active = true;
         this.node.getChildByName("confetti").getComponent(cc.Animation).play();
         console.log('levelComplete--' + this.currScene);

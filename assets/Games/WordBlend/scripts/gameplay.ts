@@ -954,7 +954,7 @@ export default class NewClass extends cc.Component {
         }
     }
     private levelFinished() {
-        cc.audioEngine.playEffect(this.correctAction, false);
+        cc.audioEngine.playEffect(this.wordVoIteration, false);
         this.node.getChildByName("confetti").active = true;
         this.node.getChildByName("confetti").getComponent(cc.Animation).play();
 
