@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "2",
+      "TitleImageName": "udfamilywords.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "ud family words",
+        "questionAudioName": "match_the_word_with_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "backcard3.png",
+        "frontCardImageName": "frontcard3.png",
+        "isOptionText": false,
+        "options": [
+          "bud.png",
+          "cud.png"
+        ],
+        "reiterationAudios": [
+          "bud.mp3",
+          "cud.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "bud_text.png",
+          "cud_text.png"
+        ]
+      },
+      {
+        "questionText": "ud family words",
+        "questionAudioName": "match_the_word_with_the_picture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "backcard3.png",
+        "frontCardImageName": "frontcard3.png",
+        "isOptionText": false,
+        "options": [
+          "mud_text.png",
+          "dud_text.png"
+        ],
+        "reiterationAudios": [
+          "mud.mp3",
+          "dud.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "mud.png",
+          "dud.png"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cud",
+    "texture": "ad9e0570-1ed2-4468-8f48-a20b6422a618",
+    "atlas": "",
+    "rect": [
+      14,
+      42,
+      472,
+      416
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

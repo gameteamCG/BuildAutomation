@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dud_text",
+    "texture": "782c26b8-f6c8-4c49-90ea-1f32624d460a",
+    "atlas": "",
+    "rect": [
+      84,
+      141,
+      346,
+      173
+    ],
+    "offset": [
+      7,
+      22.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mud",
+    "texture": "b7e997d6-8b67-433c-87f6-99989b83ba18",
+    "atlas": "",
+    "rect": [
+      14,
+      184,
+      464,
+      125
+    ],
+    "offset": [
+      -4,
+      3.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

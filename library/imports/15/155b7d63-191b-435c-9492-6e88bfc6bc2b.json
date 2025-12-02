@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bud_text",
+    "texture": "aa86db35-6536-4bb7-9426-e70447fecc6c",
+    "atlas": "",
+    "rect": [
+      91,
+      141,
+      328,
+      173
+    ],
+    "offset": [
+      5,
+      22.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

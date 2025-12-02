@@ -23,7 +23,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -358,7 +359,7 @@ var NewClass = /** @class */ (function (_super) {
         var columns = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options.length;
         var offsetX = 50;
         var offsetY = 50;
-        var objWidth = 195;
+        var objWidth = 300;
         var objHeight = 295;
         var totalWidth = columns * (objHeight + offsetX);
         var totalHeight = rows * (objWidth + offsetX);
@@ -482,16 +483,16 @@ var NewClass = /** @class */ (function (_super) {
             }
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "supercub") {
-            var intoAnim = "intro";
-            this.currentJcokey.setPosition(450, -370);
-            if (StartGame_1.default.Instance.jockeyName == "supercub") {
-                intoAnim = "intro_1";
-                this.currentJcokey.setPosition(870, -370);
-            }
-            if (StartGame_1.default.Instance.jockeyName == "tlc") {
-                cc.audioEngine.playEffect(this.tlc_birdFlying, false);
-            }
-            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
+            // let intoAnim = "intro";
+            this.currentJcokey.setPosition(850, -370);
+            // if (startGame.Instance.jockeyName == "supercub") {
+            //     intoAnim = "intro_1";
+            //     this.currentJcokey.setPosition(870, -370);
+            // }
+            // if (startGame.Instance.jockeyName == "tlc") {
+            //     cc.audioEngine.playEffect(this.tlc_birdFlying, false);
+            // }
+            // this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
             this.scheduleOnce(function () {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     _this.node.getChildByName("Option").children.forEach(function (element) {
@@ -527,7 +528,8 @@ var NewClass = /** @class */ (function (_super) {
                         }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
                     }, _this.questionSound[0].duration);
                 }
-            }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(intoAnim).duration);
+            });
+            // }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(intoAnim).duration);
         }
     };
     NewClass.prototype.OnButtonClick = function (_event) {
@@ -563,8 +565,8 @@ var NewClass = /** @class */ (function (_super) {
                 this.scheduleOnce(function () {
                     _this.card1.setParent(_this.node.getChildByName("Panel"));
                     _this.card2.setParent(_this.node.getChildByName("Panel"));
-                    _this.node.getChildByName("Panel").getChildByName(card1Name_1).setPosition(-150, 0);
-                    _this.node.getChildByName("Panel").getChildByName(card2Name_1).setPosition(150, 0);
+                    _this.node.getChildByName("Panel").getChildByName(card1Name_1).setPosition(-200, 0);
+                    _this.node.getChildByName("Panel").getChildByName(card2Name_1).setPosition(200, 0);
                     _this.node.getChildByName("Panel").getChildByName(card1Name_1).scale = 0;
                     _this.node.getChildByName("Panel").getChildByName(card2Name_1).scale = 0;
                     cc.tween(_this.node.getChildByName("Panel").getChildByName(card1Name_1)).to(0.5, { scale: 1.3 }).start();
@@ -794,6 +796,7 @@ var NewClass = /** @class */ (function (_super) {
             }, this.positiveAudio[currentClipNum].duration);
         }
         else if (StartGame_1.default.Instance.jockeyName == "supercub") {
+            // console.log("iamhere");
             if (anim[currentClipNum] == "positive_1" || anim[currentClipNum] == "positive_2") {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_start", false);
                 this.scheduleOnce(function () {
@@ -808,8 +811,9 @@ var NewClass = /** @class */ (function (_super) {
                         }
                         _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                         _this.scheduleOnce(function () {
-                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                            cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
+                            _this.currentJcokey.active = false;
+                            // this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
+                            // cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
                             //console.log("characterDisappear--Podar_Jumbo");
                             _this.callNextLevel();
                         }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
@@ -820,8 +824,9 @@ var NewClass = /** @class */ (function (_super) {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
                 this.scheduleOnce(function () {
-                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                    cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
+                    _this.currentJcokey.active = false;
+                    // this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
+                    // cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
                     //console.log("characterDisappear--Podar_Jumbo");
                     _this.callNextLevel();
                 }, this.positiveAudio[currentClipNum].duration);
