@@ -18,7 +18,7 @@
         "QuestionAppearTime": "9999",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "Q01.png",
+        "QuestionImageName": "plum500.png",
         "QuestionAudioName": "identify_the_correct_picture_for_the_word.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
@@ -41,13 +41,13 @@
         "QuestionImageName": "Q02.png",
         "QuestionAudioName": "the_girl_is_eating_a.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": true,
+        "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "plum",
-          "hum",
-          "sum",
-          "gum"
+          "plum_250.png",
+          "hum.png",
+          "sum.png",
+          "gum.png"
         ],
         "ReiterationAudioName": "gum.mp3",
         "CorrectAudioName": "FANTASTIC.mp3",
@@ -61,13 +61,13 @@
         "QuestionImageName": "Q03.png",
         "QuestionAudioName": "what_is_this.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": true,
+        "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "sum",
-          "mum",
-          "yum",
-          "drum"
+          "sum.png",
+          "mum.png",
+          "yum.png",
+          "drum.png"
         ],
         "ReiterationAudioName": "drum.mp3",
         "CorrectAudioName": "EXCELLENTJOB.mp3",
@@ -81,13 +81,13 @@
         "QuestionImageName": "Q04.png",
         "QuestionAudioName": "what_is_this.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": true,
+        "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "sum",
-          "hum",
-          "gum",
-          "mum"
+          "sum.png",
+          "hum.png",
+          "gum.png",
+          "mum.png"
         ],
         "ReiterationAudioName": "sum.mp3",
         "CorrectAudioName": "BRILLIANT.mp3",

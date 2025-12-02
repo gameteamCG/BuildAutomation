@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "plum500",
+    "texture": "0ab95640-387c-479d-9c5e-4a8cddb1e8aa",
+    "atlas": "",
+    "rect": [
+      141,
+      195,
+      225,
+      118
+    ],
+    "offset": [
+      3,
+      -3.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
