@@ -1,0 +1,373 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "skeleton",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "dme2glfesv4kELOSpFS2rbh0Xhw",
+      "spine": "3.8.99",
+      "x": -119.02,
+      "y": -56.19,
+      "width": 300,
+      "height": 300,
+      "images": "../png/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone2",
+        "parent": "root",
+        "x": 30.98,
+        "y": 93.81
+      }
+    ],
+    "slots": [
+      {
+        "name": "2/200",
+        "bone": "bone2",
+        "attachment": "2/200"
+      },
+      {
+        "name": "2/201",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/202",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/203",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/204",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/205",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/206",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/207",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/208",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/209",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/210",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/211",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/212",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/213",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/214",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/215",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/216",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/217",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/218",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/219",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/220",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/221",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/222",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/223",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/224",
+        "bone": "bone2"
+      },
+      {
+        "name": "2/225",
+        "bone": "bone2"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "2/200": {
+            "2/200": {
+              "width": 300,
+              "height": 300
+            },
+            "2/201": {
+              "width": 300,
+              "height": 300
+            },
+            "2/202": {
+              "width": 300,
+              "height": 300
+            },
+            "2/203": {
+              "width": 300,
+              "height": 300
+            },
+            "2/204": {
+              "width": 300,
+              "height": 300
+            },
+            "2/205": {
+              "width": 300,
+              "height": 300
+            },
+            "2/206": {
+              "width": 300,
+              "height": 300
+            },
+            "2/207": {
+              "width": 300,
+              "height": 300
+            },
+            "2/208": {
+              "width": 300,
+              "height": 300
+            },
+            "2/209": {
+              "width": 300,
+              "height": 300
+            },
+            "2/210": {
+              "width": 300,
+              "height": 300
+            },
+            "2/211": {
+              "width": 300,
+              "height": 300
+            },
+            "2/212": {
+              "width": 300,
+              "height": 300
+            },
+            "2/213": {
+              "width": 300,
+              "height": 300
+            },
+            "2/214": {
+              "width": 300,
+              "height": 300
+            },
+            "2/215": {
+              "width": 300,
+              "height": 300
+            },
+            "2/216": {
+              "width": 300,
+              "height": 300
+            },
+            "2/217": {
+              "width": 300,
+              "height": 300
+            },
+            "2/218": {
+              "width": 300,
+              "height": 300
+            },
+            "2/219": {
+              "width": 300,
+              "height": 300
+            },
+            "2/220": {
+              "width": 300,
+              "height": 300
+            },
+            "2/221": {
+              "width": 300,
+              "height": 300
+            },
+            "2/222": {
+              "width": 300,
+              "height": 300
+            },
+            "2/223": {
+              "width": 300,
+              "height": 300
+            },
+            "2/224": {
+              "width": 300,
+              "height": 300
+            },
+            "2/225": {
+              "width": 300,
+              "height": 300
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "animation": {},
+      "animation2": {
+        "slots": {
+          "2/200": {
+            "attachment": [
+              {
+                "name": "2/200"
+              },
+              {
+                "time": 0.0333,
+                "name": "2/201"
+              },
+              {
+                "time": 0.0667,
+                "name": "2/202"
+              },
+              {
+                "time": 0.1,
+                "name": "2/203"
+              },
+              {
+                "time": 0.1333,
+                "name": "2/204"
+              },
+              {
+                "time": 0.1667,
+                "name": "2/205"
+              },
+              {
+                "time": 0.2,
+                "name": "2/206"
+              },
+              {
+                "time": 0.2333,
+                "name": "2/207"
+              },
+              {
+                "time": 0.2667,
+                "name": "2/208"
+              },
+              {
+                "time": 0.3,
+                "name": "2/209"
+              },
+              {
+                "time": 0.3333,
+                "name": "2/210"
+              },
+              {
+                "time": 0.3667,
+                "name": "2/211"
+              },
+              {
+                "time": 0.4,
+                "name": "2/212"
+              },
+              {
+                "time": 0.4333,
+                "name": "2/213"
+              },
+              {
+                "time": 0.4667,
+                "name": "2/214"
+              },
+              {
+                "time": 0.5,
+                "name": "2/215"
+              },
+              {
+                "time": 0.5333,
+                "name": "2/216"
+              },
+              {
+                "time": 0.5667,
+                "name": "2/217"
+              },
+              {
+                "time": 0.6,
+                "name": "2/218"
+              },
+              {
+                "time": 0.6333,
+                "name": "2/219"
+              },
+              {
+                "time": 0.6667,
+                "name": "2/220"
+              },
+              {
+                "time": 0.7,
+                "name": "2/221"
+              },
+              {
+                "time": 0.7333,
+                "name": "2/222"
+              },
+              {
+                "time": 0.7667,
+                "name": "2/223"
+              },
+              {
+                "time": 0.8,
+                "name": "2/224"
+              },
+              {
+                "time": 0.8333,
+                "name": "2/225"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nskeleton.png\nsize: 3251,421\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n2/200\n  rotate: false\n  xy: 741, 10\n  size: 253, 208\n  orig: 300, 300\n  offset: 40, 54\n  index: -1\n2/201\n  rotate: false\n  xy: 996, 9\n  size: 253, 208\n  orig: 300, 300\n  offset: 40, 54\n  index: -1\n2/202\n  rotate: false\n  xy: 2763, 2\n  size: 242, 210\n  orig: 300, 300\n  offset: 43, 53\n  index: -1\n2/203\n  rotate: false\n  xy: 3007, 2\n  size: 242, 210\n  orig: 300, 300\n  offset: 43, 53\n  index: -1\n2/204\n  rotate: false\n  xy: 260, 12\n  size: 240, 206\n  orig: 300, 300\n  offset: 38, 53\n  index: -1\n2/205\n  rotate: false\n  xy: 502, 12\n  size: 237, 206\n  orig: 300, 300\n  offset: 39, 53\n  index: -1\n2/206\n  rotate: false\n  xy: 1256, 218\n  size: 237, 201\n  orig: 300, 300\n  offset: 33, 53\n  index: -1\n2/207\n  rotate: false\n  xy: 1495, 218\n  size: 238, 201\n  orig: 300, 300\n  offset: 32, 53\n  index: -1\n2/208\n  rotate: false\n  xy: 1735, 218\n  size: 244, 201\n  orig: 300, 300\n  offset: 25, 53\n  index: -1\n2/209\n  rotate: false\n  xy: 1010, 219\n  size: 244, 200\n  orig: 300, 300\n  offset: 25, 53\n  index: -1\n2/210\n  rotate: false\n  xy: 2471, 214\n  size: 253, 205\n  orig: 300, 300\n  offset: 19, 53\n  index: -1\n2/211\n  rotate: false\n  xy: 2726, 214\n  size: 253, 205\n  orig: 300, 300\n  offset: 19, 53\n  index: -1\n2/212\n  rotate: false\n  xy: 1251, 8\n  size: 253, 208\n  orig: 300, 300\n  offset: 21, 53\n  index: -1\n2/213\n  rotate: false\n  xy: 1506, 8\n  size: 253, 208\n  orig: 300, 300\n  offset: 21, 53\n  index: -1\n2/214\n  rotate: false\n  xy: 1761, 5\n  size: 246, 208\n  orig: 300, 300\n  offset: 28, 53\n  index: -1\n2/215\n  rotate: false\n  xy: 2009, 5\n  size: 246, 208\n  orig: 300, 300\n  offset: 28, 53\n  index: -1\n2/216\n  rotate: false\n  xy: 1981, 215\n  size: 243, 204\n  orig: 300, 300\n  offset: 35, 53\n  index: -1\n2/217\n  rotate: false\n  xy: 2226, 215\n  size: 243, 204\n  orig: 300, 300\n  offset: 36, 53\n  index: -1\n2/218\n  rotate: false\n  xy: 2, 220\n  size: 247, 199\n  orig: 300, 300\n  offset: 40, 53\n  index: -1\n2/219\n  rotate: false\n  xy: 251, 220\n  size: 247, 199\n  orig: 300, 300\n  offset: 41, 53\n  index: -1\n2/220\n  rotate: false\n  xy: 500, 220\n  size: 253, 199\n  orig: 300, 300\n  offset: 41, 53\n  index: -1\n2/221\n  rotate: false\n  xy: 755, 220\n  size: 253, 199\n  orig: 300, 300\n  offset: 41, 53\n  index: -1\n2/222\n  rotate: false\n  xy: 2981, 214\n  size: 256, 205\n  orig: 300, 300\n  offset: 40, 53\n  index: -1\n2/223\n  rotate: false\n  xy: 2, 13\n  size: 256, 205\n  orig: 300, 300\n  offset: 40, 53\n  index: -1\n2/224\n  rotate: false\n  xy: 2257, 3\n  size: 251, 209\n  orig: 300, 300\n  offset: 42, 53\n  index: -1\n2/225\n  rotate: false\n  xy: 2510, 3\n  size: 251, 209\n  orig: 300, 300\n  offset: 42, 53\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "4f0a98a9-59b4-45d7-9cf0-f13852133311"
+    }
+  ],
+  "textureNames": [
+    "skeleton.png"
+  ],
+  "scale": 1
+}

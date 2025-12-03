@@ -5,7 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -85,6 +86,7 @@ export default class Gameplay extends cc.Component {
         this.numberofOptions = startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions;
         this.options = this.node.getChildByName(this.optionsLayout);
         this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
+        this.setIndividualY();
         this.maxLevel = startGame.Instance.TotalLevels;
         if (startGame.Instance.currentLevel == this.maxLevel) {
             cc.director.preloadScene("gameEnd");
@@ -197,7 +199,10 @@ export default class Gameplay extends cc.Component {
         this.currentJockey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
         this.currentJockey.active = true;
     }
-
+    soundButton() {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    }
     start() {
 
         this.LoadQuestion();
@@ -276,6 +281,7 @@ export default class Gameplay extends cc.Component {
     }
 
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
+
         for (let i = 0; i < _optionCount; i++) {
             let _option: cc.Node = cc.instantiate(_template);
             _option.parent = _optionParent;
@@ -283,9 +289,11 @@ export default class Gameplay extends cc.Component {
             _option.active = true;
             _option.opacity = 0;
             _option.name = (i + 1).toString();
+            _option.scaleY = 0.75;
+            _option.scaleX = 0.75;
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            this.arrangeGridChildren(this.options, 110, _optionCount);
         }
         else {
             this.arrangeChildren(this.options, 80);
@@ -695,6 +703,44 @@ export default class Gameplay extends cc.Component {
             startX += child.width + spacing;
         }
     }
+    setIndividualY() {
+        let posY: number[] = [];
+
+        switch (startGame.Instance.currentLevel) {
+
+            case 1:
+                posY = [150, 123, -160, -170];
+                break;
+
+            case 2:
+                posY = [130, 110, -160, -140];
+                break;
+
+            case 3:
+                posY = [130, 135, -180, -160];
+                break;
+
+            case 4:
+                posY = [130, 150, -140, -170];
+                break;
+
+            case 5:
+                posY = [130, 110, -160, -160];
+                break;
+
+            default:
+                posY = [130, 135, -180, -160];
+                break;
+        }
+
+        for (let i = 0; i < this.options.children.length; i++) {
+            let child = this.options.children[i];
+            if (posY[i] !== undefined) {
+                child.y = posY[i];
+            }
+        }
+    }
+
 
     arrangeGridChildren(centerNode: cc.Node, spacing: number, _optionCount: number) {
         let children = centerNode.children;
@@ -706,7 +752,7 @@ export default class Gameplay extends cc.Component {
 
         let rowHeight = 0;
         if (children.length > 0) {
-            rowHeight = children[0].height + spacing; // Assuming all children have the same height
+            rowHeight = (children[0].height * 0.6) + spacing; // Assuming all children have the same height
         }
 
         let startY = (totalRows - 1) * rowHeight / 2;

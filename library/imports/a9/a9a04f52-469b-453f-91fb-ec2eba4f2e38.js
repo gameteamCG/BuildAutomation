@@ -29,7 +29,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
@@ -92,6 +92,7 @@ var Gameplay = /** @class */ (function (_super) {
         this.numberofOptions = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions;
         this.options = this.node.getChildByName(this.optionsLayout);
         this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
+        this.setIndividualY();
         this.maxLevel = StartGame_1.default.Instance.TotalLevels;
         if (StartGame_1.default.Instance.currentLevel == this.maxLevel) {
             cc.director.preloadScene("gameEnd");
@@ -213,6 +214,10 @@ var Gameplay = /** @class */ (function (_super) {
         this.currentJockey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
         this.currentJockey.active = true;
     };
+    Gameplay.prototype.soundButton = function () {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    };
     Gameplay.prototype.start = function () {
         var _this = this;
         this.LoadQuestion();
@@ -304,9 +309,11 @@ var Gameplay = /** @class */ (function (_super) {
             _option.active = true;
             _option.opacity = 0;
             _option.name = (i + 1).toString();
+            _option.scaleY = 0.75;
+            _option.scaleX = 0.75;
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            this.arrangeGridChildren(this.options, 110, _optionCount);
         }
         else {
             this.arrangeChildren(this.options, 80);
@@ -703,6 +710,35 @@ var Gameplay = /** @class */ (function (_super) {
             startX += child.width + spacing;
         }
     };
+    Gameplay.prototype.setIndividualY = function () {
+        var posY = [];
+        switch (StartGame_1.default.Instance.currentLevel) {
+            case 1:
+                posY = [150, 123, -160, -170];
+                break;
+            case 2:
+                posY = [130, 110, -160, -140];
+                break;
+            case 3:
+                posY = [130, 135, -180, -160];
+                break;
+            case 4:
+                posY = [130, 150, -140, -170];
+                break;
+            case 5:
+                posY = [130, 110, -160, -160];
+                break;
+            default:
+                posY = [130, 135, -180, -160];
+                break;
+        }
+        for (var i = 0; i < this.options.children.length; i++) {
+            var child = this.options.children[i];
+            if (posY[i] !== undefined) {
+                child.y = posY[i];
+            }
+        }
+    };
     Gameplay.prototype.arrangeGridChildren = function (centerNode, spacing, _optionCount) {
         var children = centerNode.children;
         var maxColumns = 3;
@@ -712,7 +748,7 @@ var Gameplay = /** @class */ (function (_super) {
         var totalRows = Math.ceil(children.length / maxColumns);
         var rowHeight = 0;
         if (children.length > 0) {
-            rowHeight = children[0].height + spacing; // Assuming all children have the same height
+            rowHeight = (children[0].height * 0.6) + spacing; // Assuming all children have the same height
         }
         var startY = (totalRows - 1) * rowHeight / 2;
         for (var i = 0; i < children.length; i++) {
