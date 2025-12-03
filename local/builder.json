@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "C:\\Users\\tanis\\OneDrive\\Desktop\\Docs\\Builds\\EYFS\\Unified\\talking_fruit_fs1_r171_EYFS_FIX",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

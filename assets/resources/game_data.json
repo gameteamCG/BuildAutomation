@@ -1,0 +1,103 @@
+{
+  "AdditionalData": {
+    "GameID": "null",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cgv2-prod-videos.creativegalileo.com/Story+time+The+Talking+Fruits+_PNUR_GA_16_17/The_Talking_Fruits.mp4",
+    "TitleImageName": "title_2.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Where did Ben and Lily go?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Q1.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "police_station.png",
+        "fruit_market.png"
+      ],
+      "ReiterationAudioName": "A1.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Whom did they see there?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Q2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "fruit_seller.png",
+        "fire_man.png"
+      ],
+      "ReiterationAudioName": "A2.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Identify the fruit that has a yellow peel.",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Q3.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "apple.png",
+        "banana.png"
+      ],
+      "ReiterationAudioName": "A3.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Identify the fruit that is red and grows on trees.",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Q4.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "sunflower.png",
+        "apple.png"
+      ],
+      "ReiterationAudioName": "A4.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Which fruit is green and grows in bunches?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Q5.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "cabbage.png",
+        "grape.png"
+      ],
+      "ReiterationAudioName": "A5.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}

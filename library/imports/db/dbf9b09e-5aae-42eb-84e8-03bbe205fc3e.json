@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "flower_pot",
+    "texture": "8d7d882f-1a44-41f4-8473-09af777d38bc",
+    "atlas": "",
+    "rect": [
+      53,
+      22,
+      146,
+      224
+    ],
+    "offset": [
+      0.5,
+      -8.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fruit_market",
+    "texture": "e467db14-4889-422d-b3e3-228602da1692",
+    "atlas": "",
+    "rect": [
+      34,
+      21,
+      186,
+      216
+    ],
+    "offset": [
+      1.5,
+      -3.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
