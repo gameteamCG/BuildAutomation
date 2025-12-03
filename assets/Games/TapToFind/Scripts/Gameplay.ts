@@ -216,6 +216,7 @@ export default class Gameplay extends cc.Component {
                         let element = this.options.children[i];
                         let pos = element.getPosition();
                         element.setPosition(pos.x, pos.y - 850);
+                        // console.log("#1#");
                         element.active = true;
                         cc.audioEngine.playEffect(this.pop_audio, false);
                         cc.tween(element).to(0.65, { y: pos.y }, { easing: "sineInOut" }).start();
@@ -233,9 +234,13 @@ export default class Gameplay extends cc.Component {
                 this.node.getChildByName("rope").active = true;
                 // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
                 let delay = 0;
+                // console.log("#2#");
                 for (let i = 0; i < this.options.children.length; i++) {
                     this.scheduleOnce(() => {
                         cc.audioEngine.playEffect(this.pop_audio, false);
+                        let element = this.options.children[i];
+                        let pos = element.getPosition();
+                        element.setPosition(pos.x, pos.y - 70);
                         cc.tween(this.options.children[i]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
                     }, delay);
                     delay += 0.25;
@@ -246,9 +251,13 @@ export default class Gameplay extends cc.Component {
             }
             else if (this.optionsLayout == "layout3") {
                 let delay = 0;
+                // console.log("#3#");
                 for (let i = 0; i < this.options.children.length; i++) {
                     this.scheduleOnce(() => {
                         cc.audioEngine.playEffect(this.pop_audio, false);
+                        let element = this.options.children[i];
+                        let pos = element.getPosition();
+                        element.setPosition(pos.x, pos.y - 70);
                         cc.tween(this.options.children[i]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
                     }, delay);
                     delay += 0.25;
@@ -316,6 +325,8 @@ export default class Gameplay extends cc.Component {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+
             this.correctCounter++;
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
@@ -374,6 +385,8 @@ export default class Gameplay extends cc.Component {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+
             node.getComponent(cc.Animation).stop();
             node.angle = 0;
             this.correctCounter++;
@@ -398,6 +411,8 @@ export default class Gameplay extends cc.Component {
                 }
                 if (this.correctCounter == this.correctAnswer.length) {
                     console.log("all the options are answered correctly");
+                    this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
                     cc.tween(this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
                     this.LoadNextQuestion();
                     // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
@@ -512,6 +527,8 @@ export default class Gameplay extends cc.Component {
         }
         else {
             startGame.Instance.currentLevel++;
+            this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
             cc.director.loadScene("1");
         }
     }
@@ -655,9 +672,9 @@ export default class Gameplay extends cc.Component {
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
                     this.canTouch = true;
-                    if (this.questionAudio) {
-                        cc.audioEngine.playEffect(this.questionAudio, false);
-                    }
+                    // if (this.questionAudio) {
+                    //     cc.audioEngine.playEffect(this.questionAudio, false);
+                    // }
                 }, this.wrongAudio.duration);
             }, 0.5);
         }, 0.7)
@@ -743,5 +760,17 @@ export default class Gameplay extends cc.Component {
             }
             callback(audioClip);
         });
+    }
+
+    playbuttonvo() {
+        cc.audioEngine.stopAllEffects();
+        this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        if (this.questionAudio) {
+            cc.audioEngine.playEffect(this.questionAudio, false);
+        }
+        this.scheduleOnce(() => {
+            this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
+        }, this.questionAudio.duration + 0.1);
     }
 }

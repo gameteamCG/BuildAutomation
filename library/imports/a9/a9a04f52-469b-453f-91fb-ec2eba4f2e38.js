@@ -232,6 +232,7 @@ var Gameplay = /** @class */ (function (_super) {
                         var element = _this.options.children[i];
                         var pos = element.getPosition();
                         element.setPosition(pos.x, pos.y - 850);
+                        // console.log("#1#");
                         element.active = true;
                         cc.audioEngine.playEffect(_this.pop_audio, false);
                         cc.tween(element).to(0.65, { y: pos.y }, { easing: "sineInOut" }).start();
@@ -254,10 +255,14 @@ var Gameplay = /** @class */ (function (_super) {
                 var _loop_6 = function (i) {
                     _this.scheduleOnce(function () {
                         cc.audioEngine.playEffect(_this.pop_audio, false);
+                        var element = _this.options.children[i];
+                        var pos = element.getPosition();
+                        element.setPosition(pos.x, pos.y - 70);
                         cc.tween(_this.options.children[i]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
                     }, delay);
                     delay += 0.25;
                 };
+                // console.log("#2#");
                 for (var i = 0; i < _this.options.children.length; i++) {
                     _loop_6(i);
                 }
@@ -270,10 +275,14 @@ var Gameplay = /** @class */ (function (_super) {
                 var _loop_7 = function (i) {
                     _this.scheduleOnce(function () {
                         cc.audioEngine.playEffect(_this.pop_audio, false);
+                        var element = _this.options.children[i];
+                        var pos = element.getPosition();
+                        element.setPosition(pos.x, pos.y - 70);
                         cc.tween(_this.options.children[i]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
                     }, delay);
                     delay += 0.25;
                 };
+                // console.log("#3#");
                 for (var i = 0; i < _this.options.children.length; i++) {
                     _loop_7(i);
                 }
@@ -337,6 +346,7 @@ var Gameplay = /** @class */ (function (_super) {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
             this.correctCounter++;
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
@@ -393,6 +403,7 @@ var Gameplay = /** @class */ (function (_super) {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
             node.getComponent(cc.Animation).stop();
             node.angle = 0;
             this.correctCounter++;
@@ -417,6 +428,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 if (_this.correctCounter == _this.correctAnswer.length) {
                     console.log("all the options are answered correctly");
+                    _this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
                     cc.tween(_this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
                     _this.LoadNextQuestion();
                     // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
@@ -527,6 +539,7 @@ var Gameplay = /** @class */ (function (_super) {
         }
         else {
             StartGame_1.default.Instance.currentLevel++;
+            this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
             cc.director.loadScene("1");
         }
     };
@@ -668,9 +681,9 @@ var Gameplay = /** @class */ (function (_super) {
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
                     _this.canTouch = true;
-                    if (_this.questionAudio) {
-                        cc.audioEngine.playEffect(_this.questionAudio, false);
-                    }
+                    // if (this.questionAudio) {
+                    //     cc.audioEngine.playEffect(this.questionAudio, false);
+                    // }
                 }, _this.wrongAudio.duration);
             }, 0.5);
         }, 0.7);
@@ -743,6 +756,17 @@ var Gameplay = /** @class */ (function (_super) {
             }
             callback(audioClip);
         });
+    };
+    Gameplay.prototype.playbuttonvo = function () {
+        var _this = this;
+        cc.audioEngine.stopAllEffects();
+        this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        if (this.questionAudio) {
+            cc.audioEngine.playEffect(this.questionAudio, false);
+        }
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration + 0.1);
     };
     __decorate([
         property(cc.Font)

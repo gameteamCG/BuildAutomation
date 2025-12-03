@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "WaterBallons05",
+    "texture": "c61600e7-724b-4f91-8c99-439f3224b668",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      179,
+      232
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      179,
+      232
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
