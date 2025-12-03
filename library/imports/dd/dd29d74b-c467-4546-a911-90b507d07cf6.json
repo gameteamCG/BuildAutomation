@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0002_orange-star",
+    "texture": "59a51c65-5039-44a7-adbf-77ed3dacf3aa",
+    "atlas": "",
+    "rect": [
+      16,
+      22,
+      218,
+      206
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

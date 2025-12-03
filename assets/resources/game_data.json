@@ -1,0 +1,103 @@
+{
+  "AdditionalData": {
+    "GameID": "null",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Triangle.mp4",
+    "TitleImageName": "title_2.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Identify the triangle shape.",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifythetriangleshape.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "250x250_0002_orange-star.png",
+        "250x250_0005_triangle.png"
+      ],
+      "ReiterationAudioName": "tirangle.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "How many sides does a triangle have ?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "howmanysides.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "3",
+        "1"
+      ],
+      "ReiterationAudioName": "3.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Identify the triangle-shaped object.",
+      "QuestionImageName": "",
+      "QuestionAudioName": "ideentifytriangleobj.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "250x250_0001_Pizza.png",
+        "250x250_0003_circle-clock.png"
+      ],
+      "ReiterationAudioName": "trianglepizza.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Identify the triangle-shaped object.",
+      "QuestionImageName": "",
+      "QuestionAudioName": "ideentifytriangleobj.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "250x250_0004_square-clock.png",
+        "250x250_0006_triangle-hanger.png"
+      ],
+      "ReiterationAudioName": "trianglehanger.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Identify the triangle-shaped object.",
+      "QuestionImageName": "",
+      "QuestionAudioName": "ideentifytriangleobj.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "250x250_0000_triangle-bell.png",
+        "250x250_0003_circle-clock.png"
+      ],
+      "ReiterationAudioName": "musical_triangle.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    }
+  ]
+}
