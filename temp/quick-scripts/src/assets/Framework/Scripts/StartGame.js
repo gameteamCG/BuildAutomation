@@ -35,7 +35,7 @@ var startGame = /** @class */ (function (_super) {
     function startGame() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.BGM_audio = null;
-        _this.volume = 0.1;
+        _this.volume = 0.05;
         _this.NextSceneName = "1";
         _this.isAgeParameterNeeded = true;
         _this.LevelAgeParameters = [3, 5, 7];

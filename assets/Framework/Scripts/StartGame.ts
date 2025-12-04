@@ -49,7 +49,7 @@ export default class startGame extends cc.Component {
     @property(cc.AudioClip)
     BGM_audio: cc.AudioClip = null;
     @property(Number)
-    volume: number = 0.1;
+    volume: number = 0.05;
     @property(cc.String)
     NextSceneName: string = "1";
     @property(cc.Boolean)

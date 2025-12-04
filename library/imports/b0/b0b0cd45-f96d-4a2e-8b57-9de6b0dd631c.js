@@ -68,6 +68,16 @@ var NewClass = /** @class */ (function (_super) {
         _this.selectable = false;
         _this.questionPlaying = false;
         _this.correctWordSeq = ["132"];
+        _this.qtext = ["spinach",
+            "mint",
+            "coriander",
+            "lettuce",
+            "chives",
+            "curry leaves",
+            "fenugreek leaves",
+            "spring onion",
+            "cabbage",
+            "basil"];
         _this.currWordSeq = "";
         _this.currScene = 1;
         _this.colorValue = null;
@@ -383,6 +393,10 @@ var NewClass = /** @class */ (function (_super) {
             element.on('touchend', function (_event) { _this.wordTouchEnd(_event); });
         });
     };
+    NewClass.prototype.soundButton = function () {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+    };
     NewClass.prototype.SetFrameOptions = function () {
         var _this = this;
         this.options.active = true;
@@ -536,8 +550,9 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            //cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
             this.scheduleOnce(function () {
+                _this.node.getChildByName("qBar").getChildByName("text").getComponent(cc.Label).string = _this.qtext[_this.currScene - 1];
                 cc.audioEngine.stopAllEffects();
                 cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
                 _this.scheduleOnce(function () {

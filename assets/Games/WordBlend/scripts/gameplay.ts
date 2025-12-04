@@ -97,6 +97,16 @@ export default class NewClass extends cc.Component {
     private questionPlaying = false;
 
     private correctWordSeq: string[] = ["132"];
+    private qtext: string[] = ["spinach",
+        "mint",
+        "coriander",
+        "lettuce",
+        "chives",
+        "curry leaves",
+        "fenugreek leaves",
+        "spring onion",
+        "cabbage",
+        "basil"];
     private currWordSeq: string = "";
 
     private currScene: number = 1;
@@ -418,7 +428,10 @@ export default class NewClass extends cc.Component {
             element.on('touchend', (_event) => { this.wordTouchEnd(_event); });
         });
     }
-
+    soundButton() {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+    }
     SetFrameOptions() {
         this.options.active = true;
         if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].isHintRequired) {
@@ -604,9 +617,10 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            //cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
 
             this.scheduleOnce(() => {
+                this.node.getChildByName("qBar").getChildByName("text").getComponent(cc.Label).string = this.qtext[this.currScene - 1]
                 cc.audioEngine.stopAllEffects();
                 cc.audioEngine.playEffect(this.puzzleVoIteration, false);
                 this.scheduleOnce(() => {
