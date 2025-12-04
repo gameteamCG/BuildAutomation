@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\EYFS\\leafy_vegetable_fs1_r206_1",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
