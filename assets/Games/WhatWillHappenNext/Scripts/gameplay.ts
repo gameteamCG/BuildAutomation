@@ -379,7 +379,7 @@ export default class NewClass extends cc.Component {
             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
             this.scheduleOnce(() => {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    this.canTouch = true;
+                    this.canTouch = false;
                 }
                 else {
                     cc.audioEngine.playEffect(this.questionSound[0], false);
@@ -456,7 +456,7 @@ export default class NewClass extends cc.Component {
                             }, waitTime);
                         }
                         this.PlayQuestionAudio();
-                        this.canTouch = true;
+                        // this.canTouch = true;
                     }, 0.5);
                 }
             }, delay);
