@@ -65,6 +65,13 @@ var NewClass = /** @class */ (function (_super) {
         _this.isSecondInteraction = true;
         _this.interactionType = "1";
         _this.currentJockey = null;
+        _this.qtext = ["apple",
+            "banana",
+            "grapes",
+            "mango",
+            "orange",
+            "pear",
+            "watermelon"];
         _this.selectable = false;
         _this.questionPlaying = false;
         _this.correctWordSeq = ["132"];
@@ -352,6 +359,10 @@ var NewClass = /** @class */ (function (_super) {
             }
         }
     };
+    NewClass.prototype.soundButton = function () {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+    };
     NewClass.prototype.InitiateGame = function () {
         var _this = this;
         //repeat method
@@ -536,7 +547,7 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            //cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
                 cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
@@ -728,6 +739,7 @@ var NewClass = /** @class */ (function (_super) {
                 }
             });
             cc.tween(_node).to(1, { y: 0 }, { easing: "sineInOut" }).start();
+            this.node.getChildByName("qBar").getChildByName("text").getComponent(cc.Label).string = this.qtext[this.currScene - 1];
             console.log("correctAnswer--" + this.currScene);
             // console.log("correctAnswer--" + this.currScene);
             // cc.audioEngine.playEffect(this.correctButton, false);

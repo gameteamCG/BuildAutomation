@@ -340,7 +340,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        -40,
         0,
         0,
         0,
@@ -2416,7 +2416,7 @@
     },
     "_enabled": true,
     "BGM_audio": null,
-    "volume": 0.14,
+    "volume": 0.05,
     "NextSceneName": "1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [],

@@ -88,7 +88,13 @@ export default class NewClass extends cc.Component {
     currentJockey: cc.Node = null;
 
 
-
+    private qtext: string[] = ["apple",
+        "banana",
+        "grapes",
+        "mango",
+        "orange",
+        "pear",
+        "watermelon"];
     private interactable;
     private selectable = false;
     private wordCurrentSeleced: cc.Node;
@@ -387,7 +393,10 @@ export default class NewClass extends cc.Component {
         }
 
     }
-
+    soundButton() {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+    }
     InitiateGame() {
         //repeat method
         this.UpdateOptions();
@@ -604,11 +613,13 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            //cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
 
             this.scheduleOnce(() => {
+
                 cc.audioEngine.stopAllEffects();
                 cc.audioEngine.playEffect(this.puzzleVoIteration, false);
+
                 this.scheduleOnce(() => {
                     this.options.color = cc.Color.WHITE;
                     // this.wordAppear();
@@ -617,6 +628,7 @@ export default class NewClass extends cc.Component {
                         //check what interaction it is and call the respective function
                         //show question panel
                         cc.audioEngine.playEffect(this.wordVoQuestion, false);
+
                         this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
                     }
                     else {
@@ -807,7 +819,7 @@ export default class NewClass extends cc.Component {
             });
 
             cc.tween(_node).to(1, { y: 0 }, { easing: "sineInOut" }).start();
-
+            this.node.getChildByName("qBar").getChildByName("text").getComponent(cc.Label).string = this.qtext[this.currScene - 1]
             console.log("correctAnswer--" + this.currScene);
             // console.log("correctAnswer--" + this.currScene);
             // cc.audioEngine.playEffect(this.correctButton, false);
@@ -875,6 +887,7 @@ export default class NewClass extends cc.Component {
             cc.tween(handNode).to(1, { x: pos2.x, y: pos2.y }, { easing: "sineInOut" }).start();
             this.scheduleOnce(() => {
                 handNode.active = false;
+
                 // this.selectable= true;
                 // this.scheduleOnce(() => {
                 //     this.wordSwap(this.node.getChildByName("words").children[0], this.node.getChildByName("words").children[1], -250, 0);
@@ -968,6 +981,7 @@ export default class NewClass extends cc.Component {
         }
     }
     private levelFinished() {
+
         cc.audioEngine.playEffect(this.correctAction, false);
         this.node.getChildByName("confetti").active = true;
         this.node.getChildByName("confetti").getComponent(cc.Animation).play();
