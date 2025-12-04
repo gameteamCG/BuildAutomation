@@ -2910,8 +2910,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 462.51,
-      "height": 100.8
+      "width": 289.93,
+      "height": 180.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2923,7 +2923,7 @@
       "ctor": "Float64Array",
       "array": [
         -5.8629999999999995,
-        -95.871,
+        -135.87099999999998,
         0,
         0,
         0,
@@ -2962,8 +2962,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Identify numbers upto 100",
-    "_N$string": "Identify numbers upto 100",
+    "_string": "Identify numbers\n",
+    "_N$string": "Identify numbers\n",
     "_fontSize": 45,
     "_lineHeight": 80,
     "_enableWrapText": true,
