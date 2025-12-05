@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "butterfly4",
+    "texture": "e2f5fa36-baea-4aac-b964-ff4e6cd41676",
+    "atlas": "",
+    "rect": [
+      31,
+      119,
+      418,
+      252
+    ],
+    "offset": [
+      -10,
+      5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

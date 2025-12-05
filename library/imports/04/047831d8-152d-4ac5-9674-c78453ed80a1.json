@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "catterpiller",
+    "texture": "f567297e-6525-482d-aecb-83f638dc9dfe",
+    "atlas": "",
+    "rect": [
+      40,
+      119,
+      417,
+      266
+    ],
+    "offset": [
+      -1.5,
+      -2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
