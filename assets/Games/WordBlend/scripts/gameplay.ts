@@ -386,7 +386,10 @@ export default class NewClass extends cc.Component {
         }
 
     }
-
+    soundButton() {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+    }
     InitiateGame() {
         //repeat method
         this.UpdateOptions();
@@ -603,7 +606,7 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            //cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
 
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
@@ -640,6 +643,7 @@ export default class NewClass extends cc.Component {
             anim = ["positive_3", "positive_4", "positive_5"];
         }
         else if (startGame.Instance.jockeyName == "bag") {
+            //changes here
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (startGame.Instance.jockeyName == "cryon") {
@@ -693,6 +697,8 @@ export default class NewClass extends cc.Component {
                     }
                 }
                 //console.log("characterDisappear--Podar_Jumbo");
+                console.log(startGame.Instance.jockeyName, "*********");
+
                 this.levelFinished();
             }, this.positiveAudio[currentClipNum].duration);
         }, 0.5);

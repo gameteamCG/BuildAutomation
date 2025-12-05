@@ -346,7 +346,8 @@ var startGame = /** @class */ (function (_super) {
             else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
-            if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
+            // if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
+            if (_this.jockeyName == "bag") {
                 _this.scheduleOnce(function () {
                     cc.director.loadScene(_this.NextSceneName);
                 }, 2);

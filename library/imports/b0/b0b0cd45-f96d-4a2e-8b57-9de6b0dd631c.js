@@ -352,6 +352,10 @@ var NewClass = /** @class */ (function (_super) {
             }
         }
     };
+    NewClass.prototype.soundButton = function () {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+    };
     NewClass.prototype.InitiateGame = function () {
         var _this = this;
         //repeat method
@@ -536,7 +540,7 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            //cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
                 cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
@@ -572,6 +576,7 @@ var NewClass = /** @class */ (function (_super) {
             anim = ["positive_3", "positive_4", "positive_5"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "bag") {
+            //changes here
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "cryon") {
@@ -625,6 +630,7 @@ var NewClass = /** @class */ (function (_super) {
                     }
                 }
                 //console.log("characterDisappear--Podar_Jumbo");
+                console.log(StartGame_1.default.Instance.jockeyName, "*********");
                 _this.levelFinished();
             }, _this.positiveAudio[currentClipNum].duration);
         }, 0.5);
