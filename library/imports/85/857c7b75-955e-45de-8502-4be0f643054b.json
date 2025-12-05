@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bottlegourd1",
+    "texture": "0aa89db5-ad72-482b-9e5c-2c652d7e8247",
+    "atlas": "",
+    "rect": [
+      76,
+      41,
+      425,
+      419
+    ],
+    "offset": [
+      38,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

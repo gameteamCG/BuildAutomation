@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bellpepper2",
+    "texture": "43867f87-866d-4c43-a80f-e962dc1aa9e3",
+    "atlas": "",
+    "rect": [
+      0,
+      41,
+      482,
+      419
+    ],
+    "offset": [
+      -9.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
