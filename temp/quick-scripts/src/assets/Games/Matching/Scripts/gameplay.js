@@ -561,18 +561,18 @@ var gameplay = /** @class */ (function (_super) {
         cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -175, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 175, y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             var audioNum = parseInt(_clone1.name);
             audioNum -= 1;
             console.log("audio Number = ", audioNum);
-            cc.audioEngine.playEffect(_this.correctAudio[audioNum], false);
+            // cc.audioEngine.playEffect(this.correctAudio[audioNum], false);
             _this.node.getChildByName("confetti").setPosition(0, 0);
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             _this.scheduleOnce(function () {

@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "my_arms_EYFS",
-      "totalLevel": "5",
+      "totalLevel": "7",
       "TitleImageName": "Asset 123.png",
       "introBgName": "Bg(8).png",
       "bgmMusicName": "BGM.mp3",
@@ -15,108 +15,150 @@
     },
     "questionData": [
       {
-        "questionText": "my hands",
+        "questionText": "matching objects",
         "questionAudioName": "match the picture identifying what the hands are used for.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "handquestion.png"
+          "1.png"
         ],
         "reiterations": [
-          "we use our hands to hold.mp3"
+          "ohoh.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "book.png",
-          "w1.png"
+          "r1.png",
+          "r5.png"
         ]
       },
       {
-        "questionText": "my hands",
+        "questionText": "matching objects",
         "questionAudioName": "match the picture identifying what the hands are used for.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "handquestion.png"
+          "2.png"
         ],
         "reiterations": [
-          "we clap with our hands.mp3"
+          "ohoh.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "clap.png",
-          "w4.png"
+          "r2.png",
+          "r1.png"
         ]
       },
       {
-        "questionText": "my hands",
+        "questionText": "matching objects",
         "questionAudioName": "match the picture identifying what the hands are used for.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "handquestion.png"
+          "3.png"
         ],
         "reiterations": [
-          "we use our hands to lift.mp3"
+          "ohoh.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "cup-win.png",
-          "w3.png"
+          "r3.png",
+          "r4.png"
         ]
       },
       {
-        "questionText": "my hands",
+        "questionText": "matching objects",
         "questionAudioName": "match the picture identifying what the hands are used for.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "handquestion.png"
+          "4.png"
         ],
         "reiterations": [
-          "we stretch our hands to hug.mp3"
+          "ohoh.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "hug.png",
-          "w2.png"
+          "r4.png",
+          "r7.png"
         ]
       },
       {
-        "questionText": "my hands",
+        "questionText": "matching objects",
         "questionAudioName": "match the picture identifying what the hands are used for.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "handquestion.png"
+          "5.png"
         ],
         "reiterations": [
-          "we use our hands to catch.mp3"
+          "ohoh.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "play.png",
-          "w1.png"
+          "r5.png",
+          "r3.png"
+        ]
+      },
+      {
+        "questionText": "matching objects",
+        "questionAudioName": "match the picture identifying what the hands are used for.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "6.png"
+        ],
+        "reiterations": [
+          "ohoh.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "r6.png",
+          "r4.png"
+        ]
+      },
+      {
+        "questionText": "matching objects",
+        "questionAudioName": "match the picture identifying what the hands are used for.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "7.png"
+        ],
+        "reiterations": [
+          "ohoh.mp3"
+        ],
+        "commonRightOptionImageName": "puz2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "r7.png",
+          "r5.png"
         ]
       }
     ]
