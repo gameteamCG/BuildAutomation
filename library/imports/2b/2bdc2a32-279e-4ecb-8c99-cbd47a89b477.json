@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bottlegaurd",
+    "texture": "6adeaad2-5344-45f0-9c35-b0ca0c8b12f3",
+    "atlas": "",
+    "rect": [
+      134,
+      11,
+      233,
+      480
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

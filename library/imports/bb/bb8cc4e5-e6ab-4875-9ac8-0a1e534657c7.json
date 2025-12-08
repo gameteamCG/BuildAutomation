@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bellpaper",
+    "texture": "5bc46432-cc79-46be-b4c4-b649630cdada",
+    "atlas": "",
+    "rect": [
+      110,
+      39,
+      280,
+      422
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

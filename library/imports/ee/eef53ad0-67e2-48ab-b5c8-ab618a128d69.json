@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "garlic",
+    "texture": "c83e7917-6122-4a66-972b-52f86adb46d4",
+    "atlas": "",
+    "rect": [
+      121,
+      84,
+      251,
+      360
+    ],
+    "offset": [
+      -4,
+      -13.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

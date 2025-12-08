@@ -302,6 +302,7 @@ export default class NewClass extends cc.Component {
     }
 
     start() {
+
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
 

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chilly",
+    "texture": "004caaac-5d92-485b-8a73-2110d7ee91b2",
+    "atlas": "",
+    "rect": [
+      131,
+      28,
+      240,
+      445
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

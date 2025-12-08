@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Heavy and light",
-      "totalLevel": "7",
+      "totalLevel": "5",
       "TitleImageName": "Asset 96.png",
       "introBgName": "Bg(8).png",
       "bgmMusicName": "BGM(mp3cut.net).mp3",
@@ -16,123 +16,106 @@
     },
     "questionData": [
       {
-        "questionText": "Which object is heavy?",
-        "questionAudioName": "Which object is heavy.mp3",
+        "questionText": "Which vegetable is heavy?",
+        "questionAudioName": "heavy.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonimg.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "tomato.png",
-          "pumpkin.png"
+          "chilly.png",
+          "cabbage.png"
         ],
         "correctAudios": [
-          "Pumpkin.mp3"
+          "cabbage.mp3"
         ],
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Which object is light?",
-        "questionAudioName": "Which object is light.mp3",
+        "questionText": "Which vegetable is light?",
+        "questionAudioName": "light.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonimg.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "pin.png",
-          "nail.png"
+          "garlic.png",
+          "pumpkinn.png"
         ],
         "correctAudios": [
-          "Pin.mp3"
+          "garlic.mp3"
         ],
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Which object is heavy?",
-        "questionAudioName": "Which object is heavy.mp3",
+        "questionText": "Which vegetable is heavy?",
+        "questionAudioName": "heavy.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonimg.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "clownfish.png",
-          "whale.png"
+          "eggplant.png",
+          "bellpaper.png"
         ],
         "correctAudios": [
-          "Whale.mp3"
-        ],
-        "correctAnswerNum": "2"
-      },
-      {
-        "questionText": "Which object is light?",
-        "questionAudioName": "Which object is light.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "commonimg.png",
-        "isOptionText": false,
-        "isOptionBG": true,
-        "numberOfOptions": 2,
-        "options": [
-          "tree.png",
-          "feather.png"
-        ],
-        "correctAudios": [
-          "Feather.mp3"
-        ],
-        "correctAnswerNum": "2"
-      },
-      {
-        "questionText": "Which object is heavy?",
-        "questionAudioName": "Which object is heavy.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "commonimg.png",
-        "isOptionText": false,
-        "isOptionBG": true,
-        "numberOfOptions": 2,
-        "options": [
-          "football.png",
-          "paper.png"
-        ],
-        "correctAudios": [
-          "football.mp3"
+          "eggplant.mp3"
         ],
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Which object is light?",
-        "questionAudioName": "Which object is light.mp3",
+        "questionText": "Which vegetable is light?",
+        "questionAudioName": "light.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonimg.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "car.png",
-          "cycle.png"
+          "corn.png",
+          "onion.png"
         ],
         "correctAudios": [
-          "cycle.mp3"
+          "onion.mp3"
         ],
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Which object is heavy?",
-        "questionAudioName": "Which object is heavy.mp3",
+        "questionText": "Which vegetable is heavy?",
+        "questionAudioName": "heavy.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonimg.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "balloon.png",
-          "rock.png"
+          "carrot.png",
+          "pumpkinn.png"
         ],
         "correctAudios": [
-          "Stone.mp3"
+          "pumpkin.mp3"
         ],
         "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which vegetable is light?",
+        "questionAudioName": "light.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonimg.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "potato.png",
+          "bottlegaurd.png"
+        ],
+        "correctAudios": [
+          "potato.mp3"
+        ],
+        "correctAnswerNum": "1"
       }
     ]
   }
