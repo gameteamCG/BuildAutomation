@@ -454,7 +454,7 @@ export default class gameplay extends cc.Component {
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.optionsNode.getChildByName(i.toString()))
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(0.5, { scale: 0.5 }, { easing: "sineInOut" }).start();
                 if (i == this.optionsNode.children.length) {
                     this.scheduleOnce(() => {
                         this.PlayQuestionAudio();
