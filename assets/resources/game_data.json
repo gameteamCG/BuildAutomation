@@ -1,0 +1,67 @@
+{
+  "AdditionalData": {
+    "GameID": "null",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/My_Family_1710424262881.mp4",
+    "TitleImageName": "myfamily.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "supercub",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q1mother.png",
+      "QuestionAudioName": "Choose_the_picture_of_mother.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "father.png",
+        "mother.png"
+      ],
+      "ReiterationAudioName": "IMPRESSIVEWORK.mp3",
+      "CorrectAudioName": "mother.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q2brother.png",
+      "QuestionAudioName": "Choose_the_picture_of_brother.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "brother.png",
+        "sister.png"
+      ],
+      "ReiterationAudioName": "EXCELLENTJOB.mp3",
+      "CorrectAudioName": "brother.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q3grandfather.png",
+      "QuestionAudioName": "Choose_the_picture_of_grandfather.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "grandmother.png",
+        "grandfather.png"
+      ],
+      "ReiterationAudioName": "EXCEPTIONAL.mp3",
+      "CorrectAudioName": "grandfather.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}

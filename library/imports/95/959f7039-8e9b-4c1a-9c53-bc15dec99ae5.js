@@ -448,7 +448,8 @@ var video = /** @class */ (function (_super) {
             if (this.questions[this.currentQuestion - 1].reiterationAudio != null) {
                 this.scheduleOnce(function () {
                     cc.audioEngine.playEffect(_this.questions[_this.currentQuestion - 1].reiterationAudio, false);
-                }, 0.5);
+                    _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, _this.correctAnim[num_1], false);
+                });
             }
             _event.target.getParent().children.forEach(function (element) {
                 element.getComponent(cc.Button).interactable = false;
@@ -466,7 +467,7 @@ var video = /** @class */ (function (_super) {
             }
             this.scheduleOnce(function () {
                 cc.audioEngine.playEffect(_this.questions[_this.currentQuestion - 1].correctAudio, false);
-                _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, _this.correctAnim[num_1], false);
+                // this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.correctAnim[num], false);
                 if (_this.attemps <= 1) {
                     _this.starUpdate(_this.currentQuestion - 1, true, true);
                 }
@@ -491,7 +492,7 @@ var video = /** @class */ (function (_super) {
                         _this.ResumePlayButton();
                     }
                 }, _this.getAnimDuration(_this.correctAnim[num_1]));
-            }, this.questions[this.currentQuestion - 1].reiterationAudio.duration + 0.5);
+            }, this.questions[this.currentQuestion - 1].reiterationAudio.duration);
         }
         else {
             cc.audioEngine.stopAllEffects();

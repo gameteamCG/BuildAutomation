@@ -450,7 +450,8 @@ export default class video extends cc.Component {
             if (this.questions[this.currentQuestion - 1].reiterationAudio != null) {
                 this.scheduleOnce(() => {
                     cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].reiterationAudio, false);
-                }, 0.5);
+                    this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.correctAnim[num], false);
+                },);
             }
             _event.target.getParent().children.forEach(element => {
                 element.getComponent(cc.Button).interactable = false;
@@ -468,7 +469,7 @@ export default class video extends cc.Component {
             }
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].correctAudio, false);
-                this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.correctAnim[num], false);
+                // this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.correctAnim[num], false);
                 if (this.attemps <= 1) {
                     this.starUpdate(this.currentQuestion - 1, true, true);
                 }
@@ -494,7 +495,7 @@ export default class video extends cc.Component {
                     }
                 }, this.getAnimDuration(this.correctAnim[num]));
 
-            }, this.questions[this.currentQuestion - 1].reiterationAudio.duration + 0.5);
+            }, this.questions[this.currentQuestion - 1].reiterationAudio.duration);
         }
         else {
             cc.audioEngine.stopAllEffects();
