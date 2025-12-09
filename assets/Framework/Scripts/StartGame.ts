@@ -49,7 +49,7 @@ export default class startGame extends cc.Component {
     @property(cc.AudioClip)
     BGM_audio: cc.AudioClip = null;
     @property(Number)
-    volume: number = 0.1;
+    volume: number = 0.08;
     @property(cc.String)
     NextSceneName: string = "1";
     @property(cc.Boolean)
@@ -263,7 +263,7 @@ export default class startGame extends cc.Component {
                 this.loadAudioClip(this.removeAudioExtension(jsonData.additionalData.bgmMusicName), (AudioClip) => {
                     this.BGM_audio = AudioClip;
                     let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-                    cc.audioEngine.setVolume(id, this.volume);
+                    cc.audioEngine.setVolume(id, 0.02);
                 });
                 this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.mainBgName), (spriteFrame) => {
                     this.mainBg = spriteFrame;

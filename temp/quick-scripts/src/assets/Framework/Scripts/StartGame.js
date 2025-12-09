@@ -35,7 +35,7 @@ var startGame = /** @class */ (function (_super) {
     function startGame() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.BGM_audio = null;
-        _this.volume = 0.1;
+        _this.volume = 0.08;
         _this.NextSceneName = "1";
         _this.isAgeParameterNeeded = true;
         _this.LevelAgeParameters = [3, 5, 7];
@@ -230,7 +230,7 @@ var startGame = /** @class */ (function (_super) {
                 _this.loadAudioClip(_this.removeAudioExtension(jsonData.additionalData.bgmMusicName), function (AudioClip) {
                     _this.BGM_audio = AudioClip;
                     var id = cc.audioEngine.playMusic(_this.BGM_audio, true);
-                    cc.audioEngine.setVolume(id, _this.volume);
+                    cc.audioEngine.setVolume(id, 0.02);
                 });
                 _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.mainBgName), function (spriteFrame) {
                     _this.mainBg = spriteFrame;
