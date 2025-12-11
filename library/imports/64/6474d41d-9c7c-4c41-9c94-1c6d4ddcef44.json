@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sberry2",
+    "texture": "f861850c-5c1d-453e-9871-4209bf276828",
+    "atlas": "",
+    "rect": [
+      109,
+      169,
+      289,
+      168
+    ],
+    "offset": [
+      3,
+      -2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

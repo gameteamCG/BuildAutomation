@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "turnip3",
+    "texture": "887ac93c-8819-4c98-8fd6-08f60bf405f3",
+    "atlas": "",
+    "rect": [
+      83,
+      105,
+      341,
+      297
+    ],
+    "offset": [
+      3,
+      -3
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

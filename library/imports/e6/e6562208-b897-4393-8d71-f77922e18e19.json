@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dropnodebg",
+    "texture": "d8edc3d6-7688-4d99-a932-0cdef3b02de7",
+    "atlas": "",
+    "rect": [
+      100,
+      117,
+      300,
+      267
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
