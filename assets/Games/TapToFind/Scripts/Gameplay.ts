@@ -306,7 +306,7 @@ export default class Gameplay extends cc.Component {
             }
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [50, 200, -100, 200, 50];
+            let _laypout1posY: number[] = [50, -100, 50, -100, 50];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }
@@ -510,6 +510,15 @@ export default class Gameplay extends cc.Component {
         }
     }
 
+    PlayQVoButton(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false)
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration)
+        _event.target.getComponent(cc.Button).interactable = false;
+
+    }
 
     LoadNextQuestion() {
         this.node.getChildByName("confetti").active = true;

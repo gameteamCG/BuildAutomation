@@ -327,7 +327,7 @@ var Gameplay = /** @class */ (function (_super) {
             }
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [50, 200, -100, 200, 50];
+            var _laypout1posY = [50, -100, 50, -100, 50];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }
@@ -523,6 +523,14 @@ var Gameplay = /** @class */ (function (_super) {
                 // this.canTouch = true;
             }).start();
         }
+    };
+    Gameplay.prototype.PlayQVoButton = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
+        this.scheduleOnce(function () {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration);
+        _event.target.getComponent(cc.Button).interactable = false;
     };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
