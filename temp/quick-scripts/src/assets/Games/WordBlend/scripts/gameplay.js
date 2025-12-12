@@ -353,8 +353,15 @@ var NewClass = /** @class */ (function (_super) {
         }
     };
     NewClass.prototype.soundButton = function () {
-        cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        if (this.node.getChildByName("frame").x == 0) {
+            //check what interaction it is and call the respective function
+            //show question panel
+            cc.audioEngine.stopAllEffects();
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
+        }
     };
     NewClass.prototype.InitiateGame = function () {
         var _this = this;
