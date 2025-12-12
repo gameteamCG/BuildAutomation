@@ -31,6 +31,7 @@ var gameplay = /** @class */ (function (_super) {
     __extends(gameplay, _super);
     function gameplay() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.finalImages = [];
         _this.podar_font = null;
         _this.jaipuria_font = null;
         _this.tlc_font = null;
@@ -553,6 +554,10 @@ var gameplay = /** @class */ (function (_super) {
         _clone2.setParent(this.node.getChildByName("overlay"));
         _node1.destroy();
         _node2.destroy();
+        var final = this.node.getChildByName("Final");
+        final.active = true;
+        final.opacity = 0;
+        final.getComponent(cc.Sprite).spriteFrame = this.finalImages[globalVariables_1.default.Instance.currentLevel - 1];
         this.dropZones.active = false;
         this.optionsNode.active = false;
         cc.audioEngine.playEffect(this.positiveSound[0], false);
@@ -561,13 +566,20 @@ var gameplay = /** @class */ (function (_super) {
         cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).
+            call(function () {
+            cc.tween(_clone1).to(0.5, { opacity: 0 }, { easing: "sineInOut" }).start();
+        })
+            .start();
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).call(function () {
+            cc.tween(_clone2).to(0.5, { opacity: 0 }, { easing: "sineInOut" }).start();
+            cc.tween(final).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
+        }).start();
         this.scheduleOnce(function () {
             var audioNum = parseInt(_clone1.name);
             audioNum -= 1;
@@ -1076,6 +1088,9 @@ var gameplay = /** @class */ (function (_super) {
             this.callNegativeRection(_node);
         }
     };
+    __decorate([
+        property(cc.SpriteFrame)
+    ], gameplay.prototype, "finalImages", void 0);
     __decorate([
         property(cc.Font)
     ], gameplay.prototype, "podar_font", void 0);

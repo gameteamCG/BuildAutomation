@@ -9,6 +9,9 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class gameplay extends cc.Component {
 
+    @property(cc.SpriteFrame)
+    public finalImages: cc.SpriteFrame[] = [];
+
     @property(cc.Font)
     private podar_font: cc.Font = null;
     @property(cc.Font)
@@ -454,7 +457,7 @@ export default class gameplay extends cc.Component {
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.optionsNode.getChildByName(i.toString()))
-                    .to(0.5, { scale: 0.5 }, { easing: "sineInOut" }).start();
+                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
                 if (i == this.optionsNode.children.length) {
                     this.scheduleOnce(() => {
                         this.PlayQuestionAudio();
@@ -592,6 +595,16 @@ export default class gameplay extends cc.Component {
         _clone2.setParent(this.node.getChildByName("overlay"));
         _node1.destroy();
         _node2.destroy();
+
+        let final = this.node.getChildByName("Final");
+
+        final.active = true;
+        final.opacity = 0;
+
+
+        final.getComponent(cc.Sprite).spriteFrame = this.finalImages[globalVariables.Instance.currentLevel - 1];
+
+
         this.dropZones.active = false;
         this.optionsNode.active = false;
         cc.audioEngine.playEffect(this.positiveSound[0], false);
@@ -600,14 +613,21 @@ export default class gameplay extends cc.Component {
         cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).
+            call(() => {
+                cc.tween(_clone1).to(0.5, { opacity: 0 }, { easing: "sineInOut" }).start();
+            })
+            .start();
 
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).call(() => {
+            cc.tween(_clone2).to(0.5, { opacity: 0 }, { easing: "sineInOut" }).start();
+            cc.tween(final).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
+        }).start();
 
         this.scheduleOnce(() => {
             let audioNum: number = parseInt(_clone1.name);
