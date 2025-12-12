@@ -13,12 +13,12 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 423.272705078125,
+            "width": 422.9999694824219,
             "height": 717.5726928710938,
             "type": "dock-v",
             "children": [
               {
-                "width": 423.272705078125,
+                "width": 422.9999694824219,
                 "height": 360.7908935546875,
                 "type": "panel",
                 "active": 0,
@@ -27,7 +27,7 @@
                 ]
               },
               {
-                "width": 423.272705078125,
+                "width": 422.9999694824219,
                 "height": 353.78179931640625,
                 "type": "panel",
                 "active": 0,
@@ -38,12 +38,12 @@
             ]
           },
           {
-            "width": 664.4317626953125,
+            "width": 665.0045166015625,
             "height": 717.5726928710938,
             "type": "dock-v",
             "children": [
               {
-                "width": 664.4317626953125,
+                "width": 665.0045166015625,
                 "height": 360.7908935546875,
                 "type": "panel",
                 "active": 0,
@@ -52,10 +52,10 @@
                 ]
               },
               {
-                "width": 664.4317626953125,
-                "height": 353.78179931640625,
+                "width": 665.0045166015625,
+                "height": 353.7681579589844,
                 "type": "panel",
-                "active": 2,
+                "active": 1,
                 "children": [
                   "console",
                   "timeline",
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 442.2954406738281,
+            "width": 441.99542236328125,
             "height": 717.5726928710938,
             "type": "panel",
             "active": 0,
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1765198474423": {}
+    "window-1765534112718": {}
   },
   "panels": {
     "project-settings": {
@@ -106,10 +106,10 @@
       "height": 900
     },
     "builder": {
-      "x": 36,
+      "x": 34,
       "y": 0,
-      "width": 1444,
-      "height": 816
+      "width": 1448,
+      "height": 818
     }
   },
   "panelLabelWidth": {}
