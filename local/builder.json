@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\EYFS\\EYFS_draw_fruit_fs0_r137",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

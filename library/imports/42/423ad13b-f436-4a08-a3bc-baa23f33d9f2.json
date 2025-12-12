@@ -334,8 +334,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1929,
-      "height": 1287
+      "width": 1921,
+      "height": 1081
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -386,7 +386,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "72c9a21f-ba8f-4181-97cd-33f14acac1ee"
+    },
     "_type": 0,
     "_sizeMode": 2,
     "_fillType": 0,
@@ -439,8 +441,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 637,
-      "height": 127
+      "width": 536,
+      "height": 113
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -451,8 +453,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -180,
-        -100,
+        25.867,
+        -164.166,
         0,
         0,
         0,
@@ -514,7 +516,7 @@
       "ctor": "Float64Array",
       "array": [
         -9.772,
-        251.506,
+        173.972,
         0,
         0,
         0,
@@ -607,15 +609,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -229.772,
-        181.208,
+        -184.321,
+        151.799,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        0.8,
+        0.8,
         1
       ]
     },
@@ -701,15 +703,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        210.228,
-        181.208,
+        183.492,
+        151.799,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        0.8,
+        0.8,
         1
       ]
     },
@@ -777,7 +779,7 @@
       "__uuid__": "fc36cf80-2f5d-465a-9213-edcc5b76c0a2"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -786,7 +788,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "c4kg8BNuZLha/F3lwrQsbi"
   },
@@ -821,7 +823,7 @@
         "__id__": 18
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 22
@@ -877,7 +879,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Podar",
+    "_name": "bag",
     "_objFlags": 0,
     "_parent": {
       "__id__": 17
@@ -905,8 +907,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 427.07,
-      "height": 635.05
+      "width": 409.26,
+      "height": 351.22
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -917,8 +919,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -4.989,
+        84.815,
         0,
         0,
         0,
@@ -957,7 +959,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "possitive6",
+    "defaultAnimation": "",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -974,7 +976,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "f788f651-b97b-4159-badb-846949ebf0e3"
+      "__uuid__": "bbdcbdf3-08ed-46a6-bdf2-be1183e44b53"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
@@ -1035,7 +1037,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "a23235d1-15db-4b95-8439-a2e005bfff91"
+      "__uuid__": "72c9a21f-ba8f-4181-97cd-33f14acac1ee"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -1081,7 +1083,9 @@
     "podarEnd": {
       "__uuid__": "abfe90c6-3ff1-4149-9ca5-9560f14a2b0a"
     },
-    "jaipuriaEnd": null,
+    "jaipuriaEnd": {
+      "__uuid__": "fc36cf80-2f5d-465a-9213-edcc5b76c0a2"
+    },
     "tlcEnd": null,
     "supercubEnd": null,
     "_id": "19KOzdHylIMbCZouzCkc50"
