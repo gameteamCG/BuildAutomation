@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stretcharmstogivhug7",
+    "texture": "b9f20008-c1b9-4164-838d-558b5ba4643c",
+    "atlas": "",
+    "rect": [
+      124,
+      67,
+      297,
+      367
+    ],
+    "offset": [
+      22.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

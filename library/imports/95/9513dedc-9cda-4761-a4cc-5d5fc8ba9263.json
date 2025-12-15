@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "uses of arms",
+      "totalLevel": "5",
+      "TitleImageName": "usesofarms.png",
+      "introBgName": "titlebg19.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "Artboard 1 copy.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "my arms",
+        "questionAudioName": "match_the_picture_identifying_what_the_hands_are_used_for.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1a1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard 2 copy 2.png"
+        ],
+        "reiterations": [
+          "we_use_our_hands_to_hold.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2a2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "hold10.png",
+          "watchingtv6.png"
+        ]
+      },
+      {
+        "questionText": "my arms",
+        "questionAudioName": "match_the_picture_identifying_what_the_hands_are_used_for.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1a1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard 2 copy 2.png"
+        ],
+        "reiterations": [
+          "we_clap_with_our_hands.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2a2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "clap9.png",
+          "sleep2.png"
+        ]
+      },
+      {
+        "questionText": "my arms",
+        "questionAudioName": "match_the_picture_identifying_what_the_hands_are_used_for.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1a1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard 2 copy 2.png"
+        ],
+        "reiterations": [
+          "we_use_our_hands_to_lift.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2a2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "lift3.png",
+          "jump5.png"
+        ]
+      },
+      {
+        "questionText": "my arms",
+        "questionAudioName": "match_the_picture_identifying_what_the_hands_are_used_for.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1a1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard 2 copy 2.png"
+        ],
+        "reiterations": [
+          "we_stretch_our_hands_to_hug.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2a2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "stretcharmstogivhug7.png",
+          "jump5.png"
+        ]
+      },
+      {
+        "questionText": "my arms",
+        "questionAudioName": "match_the_picture_identifying_what_the_hands_are_used_for.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puzzle1a1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "Artboard 2 copy 2.png"
+        ],
+        "reiterations": [
+          "we_use_our_hands_to_catch.mp3"
+        ],
+        "commonRightOptionImageName": "puzzle2a2.png",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "catch8.png",
+          "kick4.png"
+        ]
+      }
+    ]
+  }
+}

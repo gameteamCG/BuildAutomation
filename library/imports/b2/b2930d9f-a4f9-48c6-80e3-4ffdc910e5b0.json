@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "catch8",
+    "texture": "94a739a4-38f4-4599-ab39-d7445e8289b0",
+    "atlas": "",
+    "rect": [
+      113,
+      135,
+      334,
+      231
+    ],
+    "offset": [
+      30,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

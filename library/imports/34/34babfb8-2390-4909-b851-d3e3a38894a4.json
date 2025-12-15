@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cup_win",
+    "texture": "fe15cefb-3417-43e6-bd6c-f926027a2abb",
+    "atlas": "",
+    "rect": [
+      112,
+      54,
+      328,
+      395
+    ],
+    "offset": [
+      26,
+      -1.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
