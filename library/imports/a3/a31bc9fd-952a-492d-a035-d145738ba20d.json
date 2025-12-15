@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "outdoor_park_BG_2",
+    "texture": "4f15ade9-1c95-4c8b-af5b-8f265a57f0b5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      2032,
+      1220
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2032,
+      1220
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "7",
+      "TitleImageName": "identify_different smell.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "BGM3.mp3",
+      "mainBgName": "outdoor_park_BG_2.png",
+      "JockeyName": "supercub",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "burnt",
+        "questionAudioName": "Tap_on_the_picture_which_has_a_burnt_smell.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0000_burnt.png",
+          "500x500_0010_floral.png",
+          "500x500_0009_fruity.png"
+        ],
+        "correctAudios": [
+          "burnt_toast.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "soapy",
+        "questionAudioName": "Choose_the_picture_that_has_a_soapy_smell.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0002_sweet.png",
+          "500x500_0003_stinky.png",
+          "soap2.png"
+        ],
+        "correctAudios": [
+          "soap.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "floral",
+        "questionAudioName": "Identify_the_picture_that_has_a_floral_smell.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "watermelon.png",
+          "500x500_0010_floral.png",
+          "500x500_0002_sweet.png"
+        ],
+        "correctAudios": [
+          "flowers.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "fruity",
+        "questionAudioName": "Tap_on_the_picture_which_has_a_fruit_smell.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "sand.png",
+          "soap2.png",
+          "500x500_0009_fruity.png"
+        ],
+        "correctAudios": [
+          "fruitysmell.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "minty",
+        "questionAudioName": "Choose_the_picture_that_has_a_minty_smell.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0008_minty.png",
+          "watermelon.png",
+          "500x500_0006_smokey.png"
+        ],
+        "correctAudios": [
+          "toothpaste.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "smoky",
+        "questionAudioName": "Identify_the_picture_that_has_a_smoky_smell.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0011_earthy.png",
+          "500x500_0006_smokey.png",
+          "500x500_0002_sweet.png"
+        ],
+        "correctAudios": [
+          "smoke.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "stinky",
+        "questionAudioName": "Tap_on_the_picture_which_has_a_stinky_smell.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "500x500_0008_minty.png",
+          "500x500_0010_floral.png",
+          "500x500_0003_stinky.png"
+        ],
+        "correctAudios": [
+          "smelly_feet.mp3"
+        ],
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}

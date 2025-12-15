@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4f15ade9-1c95-4c8b-af5b-8f265a57f0b5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1920,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "outdoor_park_BG_2": {
+      "ver": "1.0.6",
+      "uuid": "a31bc9fd-952a-492d-a035-d145738ba20d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4f15ade9-1c95-4c8b-af5b-8f265a57f0b5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2032,
+      "height": 1220,
+      "rawWidth": 2032,
+      "rawHeight": 1220,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

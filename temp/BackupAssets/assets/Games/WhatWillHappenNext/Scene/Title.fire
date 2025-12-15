@@ -339,8 +339,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 767,
-      "height": 443
+      "width": 1132,
+      "height": 501
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -358,8 +358,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        0.6,
+        0.6,
         1
       ]
     },
@@ -391,7 +391,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "178e0b6a-ed0d-461e-9628-8f9d34118235"
+    },
     "_type": 0,
     "_sizeMode": 2,
     "_fillType": 0,
@@ -3014,9 +3016,9 @@
     },
     "_enabled": true,
     "BGM_audio": {
-      "__uuid__": "0de1ef27-6197-41a4-8ab5-319bb65fecab"
+      "__uuid__": "342939bc-2315-4e61-9a72-262cc37fd669"
     },
-    "volume": 0.3,
+    "volume": 0.08,
     "NextSceneName": "1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [

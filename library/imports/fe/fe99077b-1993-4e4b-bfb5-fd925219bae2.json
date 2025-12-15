@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0003_stinky",
+    "texture": "5581fd47-001b-44dd-b3ae-2bc8b9758482",
+    "atlas": "",
+    "rect": [
+      69,
+      113,
+      330,
+      312
+    ],
+    "offset": [
+      -16.5,
+      -18.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
