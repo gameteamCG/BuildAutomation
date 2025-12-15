@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "8",
+      "TitleImageName": "Jr_0013_Data-Set-31.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "RagtimeforKids.mp3",
+      "mainBgName": "yellowdotsbg.png",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionText": "Opposite of heathy hood",
+        "questionImageName": "500x500_0004_healthy-food.png",
+        "questionAudioName": "Tapontheoppositeofhealthyfood.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0003_junk-food.png",
+          "500x500_0001_small.png"
+        ],
+        "correctAudioName": "healthyandjunkfood.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposite of inside",
+        "questionImageName": "catinside.png",
+        "questionAudioName": "L2Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0006_full.png",
+          "catoutside.png"
+        ],
+        "correctAudioName": "INSIDEOUTSIDE.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Opposite of young",
+        "questionImageName": "young.png",
+        "questionAudioName": "L3q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "8.png",
+          "catinside.png"
+        ],
+        "correctAudioName": "YOUNGANDOLD.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposite of thick",
+        "questionImageName": "bottle_w-8.png",
+        "questionAudioName": "Opposite of thick.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "catinside.png",
+          "bottle_n-8.png"
+        ],
+        "correctAudioName": "thikandthin.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Opposite of happy",
+        "questionImageName": "happy.png",
+        "questionAudioName": "L5Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "sad.png",
+          "young.png"
+        ],
+        "correctAudioName": "HAPPYANDSAD.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposite of short",
+        "questionImageName": "500x500_0002_short.png",
+        "questionAudioName": "OppositeofShort.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "happy.png",
+          "500x500_0000_tall.png"
+        ],
+        "correctAudioName": "shortandtall.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Opposite of slow",
+        "questionImageName": "snailslow.png",
+        "questionAudioName": "L7Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "dogfast.png",
+          "500x500_0006_full.png"
+        ],
+        "correctAudioName": "SLOWANDFATS.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Opposite of hot",
+        "questionImageName": "Matchishot.png",
+        "questionAudioName": "L8Q.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0003_junk-food.png",
+          "icecubecold.png"
+        ],
+        "correctAudioName": "HTOANDCOLD.mp3",
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

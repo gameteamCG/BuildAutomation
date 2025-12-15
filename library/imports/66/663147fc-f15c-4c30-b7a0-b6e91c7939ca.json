@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "junk_1",
+    "texture": "fbc3833f-be0e-4423-baca-0a89c9344890",
+    "atlas": "",
+    "rect": [
+      78,
+      80,
+      332,
+      337
+    ],
+    "offset": [
+      -6.5,
+      2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

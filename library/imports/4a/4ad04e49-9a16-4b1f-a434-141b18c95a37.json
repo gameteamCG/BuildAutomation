@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "snailslow",
+    "texture": "c12452ef-d68c-4eed-b59c-62153947c256",
+    "atlas": "",
+    "rect": [
+      174,
+      61,
+      152,
+      356
+    ],
+    "offset": [
+      -0.5,
+      11.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

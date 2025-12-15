@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "catinside",
+    "texture": "d8ec5b92-e7e8-439b-801b-c7f598ee38ed",
+    "atlas": "",
+    "rect": [
+      84,
+      65,
+      332,
+      352
+    ],
+    "offset": [
+      -0.5,
+      9.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

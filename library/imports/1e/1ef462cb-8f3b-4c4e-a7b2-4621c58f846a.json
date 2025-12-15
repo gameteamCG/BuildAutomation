@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dogfast",
+    "texture": "b5da0b9a-f3c5-4d3a-9e13-7a635e09299c",
+    "atlas": "",
+    "rect": [
+      139,
+      46,
+      223,
+      371
+    ],
+    "offset": [
+      0,
+      19
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

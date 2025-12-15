@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "outside copy 3",
+    "texture": "b96eec9c-5ef0-44c8-b258-a132c0ede2a2",
+    "atlas": "",
+    "rect": [
+      195,
+      66,
+      167,
+      368
+    ],
+    "offset": [
+      28,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
