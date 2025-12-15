@@ -1,0 +1,73 @@
+{
+  "AdditionalData": {
+    "GameID": "null",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/90927221_Health_Happiness_1710524462817.mp4",
+    "TitleImageName": "healthhappyness.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "supercub",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q1waashhair.png",
+      "QuestionAudioName": "What_do_you_use-to_wash_your_hair.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "pan.png",
+        "shampoo2.png",
+        "spoon.png",
+        "fruits.png"
+      ],
+      "ReiterationAudioName": "EXCELLENTJOB.mp3",
+      "CorrectAudioName": "shampoo.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q2howteethclean.png",
+      "QuestionAudioName": "How_do_you_keep_your_teeth_clean.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "brush_teeth.png",
+        "comb_hair.png",
+        "wash_hands2.png",
+        "wear_shoes.png"
+      ],
+      "ReiterationAudioName": "GOODEFFORT.mp3",
+      "CorrectAudioName": "we_brush_our_teeth.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q3whatclotheswear.png",
+      "QuestionAudioName": "What_kind_of_clothes_should_we_wear.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "dirtycloth.png",
+        "wetcloth.png",
+        "wear_clean_cloth.png",
+        "torncloth.png"
+      ],
+      "ReiterationAudioName": "BRILLIANT.mp3",
+      "CorrectAudioName": "clean_clothes.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "3"
+    }
+  ]
+}

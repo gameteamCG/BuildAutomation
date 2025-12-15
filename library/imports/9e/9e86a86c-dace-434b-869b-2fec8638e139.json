@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3whatclotheswear",
+    "texture": "a0d722b4-c57e-4d4c-9eeb-60084cee4afe",
+    "atlas": "",
+    "rect": [
+      43,
+      136,
+      450,
+      207
+    ],
+    "offset": [
+      -0.5,
+      10.5
+    ],
+    "originalSize": [
+      537,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
