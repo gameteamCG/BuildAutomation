@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q1garbage",
+    "texture": "543b9b2e-b848-48ab-9beb-8d04d4c3dd28",
+    "atlas": "",
+    "rect": [
+      53,
+      182,
+      421,
+      146
+    ],
+    "offset": [
+      4.5,
+      -4.5
+    ],
+    "originalSize": [
+      518,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

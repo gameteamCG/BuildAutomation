@@ -22,7 +22,7 @@ export default class CustomPositioningUI extends cc.Component {
     // isBottomCornered: boolean = false;
 
     start() {
-        
+
         if (this.isLeftCornered) {
             this.positionAtLeftCorner();
         }
@@ -32,7 +32,7 @@ export default class CustomPositioningUI extends cc.Component {
     }
 
 
-    
+
 
     positionAtLeftCorner() {
         let _position = this.node.getPosition();
@@ -45,7 +45,7 @@ export default class CustomPositioningUI extends cc.Component {
             + cc.view.getViewportRect().y * this.canvas.getContentSize().height / cc.view.getViewportRect().height - _offSet;
 
         globalVariables.Instance.canvasTopY = _position.y;
-        globalVariables.Instance.canvasLeftX =_position.x;
+        globalVariables.Instance.canvasLeftX = _position.x;
         //console.log("Position is "+_position)
         // console.log("cc.view.getViewportRect() is "+cc.view.getViewportRect())
         this.node.setPosition(_position);
@@ -76,9 +76,9 @@ export default class CustomPositioningUI extends cc.Component {
     }
 
 
-    update (dt) {
-        
-        if(cc.director.getScene().name == "Title"){
+    update(dt) {
+
+        if (cc.director.getScene().name == "Title") {
             //console.log("cc.Scene.name",)
             if (this.isLeftCornered) {
                 this.positionAtLeftCorner();
@@ -87,6 +87,6 @@ export default class CustomPositioningUI extends cc.Component {
                 this.positionAtRightCorner();
             }
         }
-        
+
     }
 }
