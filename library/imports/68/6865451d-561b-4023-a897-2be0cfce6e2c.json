@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "allaboutplants",
+    "texture": "eeb2f49b-ab14-4e8e-8ecf-56f43122c910",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      816,
+      161
+    ],
+    "offset": [
+      5.5,
+      -3.5
+    ],
+    "originalSize": [
+      857,
+      206
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

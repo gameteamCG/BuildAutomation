@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2tulsi",
+    "texture": "25c8edf1-7502-442d-a834-058564d68819",
+    "atlas": "",
+    "rect": [
+      71,
+      211,
+      372,
+      97
+    ],
+    "offset": [
+      6.5,
+      -9
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

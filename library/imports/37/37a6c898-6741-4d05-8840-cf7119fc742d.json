@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q4roots",
+    "texture": "869d5040-824d-492a-b988-ec4bca9f32f2",
+    "atlas": "",
+    "rect": [
+      169,
+      211,
+      164,
+      65
+    ],
+    "offset": [
+      0.5,
+      7
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
