@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2octopus",
+    "texture": "67d82450-fc70-4034-88d4-d3f6ebeab3cb",
+    "atlas": "",
+    "rect": [
+      132,
+      219,
+      258,
+      59
+    ],
+    "offset": [
+      2,
+      1.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

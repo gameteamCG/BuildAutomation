@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wateranimals",
+    "texture": "04ca5d6f-94d0-4518-99f0-83d119d84bf9",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      753,
+      117
+    ],
+    "offset": [
+      5.5,
+      2.5
+    ],
+    "originalSize": [
+      794,
+      174
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
