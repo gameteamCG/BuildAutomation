@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "2lotus",
+    "texture": "30321b52-f6c1-4439-948f-961d410ee678",
+    "atlas": "",
+    "rect": [
+      63,
+      73,
+      385,
+      373
+    ],
+    "offset": [
+      5,
+      -9
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "4lotus",
+    "texture": "dd30f9d7-e7ee-47d5-8160-dcb3dbb11a03",
+    "atlas": "",
+    "rect": [
+      58,
+      62,
+      392,
+      373
+    ],
+    "offset": [
+      3.5,
+      2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

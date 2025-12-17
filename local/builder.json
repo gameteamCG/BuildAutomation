@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\EYFS\\fs0\\vegetable_count_and_match_fs0_r177",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

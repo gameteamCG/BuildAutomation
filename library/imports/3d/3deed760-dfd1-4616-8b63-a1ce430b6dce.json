@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "3beetroot",
+    "texture": "aba926b8-89a9-4005-814a-2645314bd22d",
+    "atlas": "",
+    "rect": [
+      69,
+      156,
+      394,
+      214
+    ],
+    "offset": [
+      15.5,
+      -12.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

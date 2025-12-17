@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "countandmatch15",
+    "texture": "7e812bce-feca-4d21-b413-aebc2a445b68",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      881,
+      191
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      887,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
