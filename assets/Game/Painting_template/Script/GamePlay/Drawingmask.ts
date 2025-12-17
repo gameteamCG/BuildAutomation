@@ -8,47 +8,47 @@
 import CommonFun from "../Common/CommonFun";
 import { Constant } from "../Common/Constant";
 
-const {ccclass, property} = cc._decorator;
+const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class Drawingmask extends cc.Component {
-    
+
 
     parentRef = null;
     parentNode = null;
 
     patternFrame = null;
-    
+
     touches: cc.Vec2[] = []
 
-    start () {
+    start() {
 
     }
 
     // update (dt) {}
 
-    initialiseRef(ParentRef){
+    initialiseRef(ParentRef) {
         this.parentRef = ParentRef;
         this.parentNode = this.parentRef.node;
     }
-    initialisePatternData(persistentScrollScript){
+    initialisePatternData(persistentScrollScript) {
         this.patternFrame = persistentScrollScript.currentPatternFrame;
 
-        if(persistentScrollScript.currentPensilSelection == Constant.ToolsTag.ERASER)
+        if (persistentScrollScript.currentPensilSelection == Constant.ToolsTag.ERASER)
             return;
 
-        if(persistentScrollScript.currentTileIndex == Constant.COLORTAG.COLOR)
+        if (persistentScrollScript.currentTileIndex == Constant.COLORTAG.COLOR)
             this.node.getChildByName("img").color = this.patternFrame//CommonFun.instance.hexToRgb(this.patternFrame);
 
-        if(persistentScrollScript.currentTileIndex == Constant.COLORTAG.PATTERN || 
-                persistentScrollScript.currentTileIndex == Constant.COLORTAG.SPARKLE)
+        if (persistentScrollScript.currentTileIndex == Constant.COLORTAG.PATTERN ||
+            persistentScrollScript.currentTileIndex == Constant.COLORTAG.SPARKLE)
             this.node.getChildByName("img").getComponent(cc.Sprite).spriteFrame = this.patternFrame;
 
-        if(persistentScrollScript.currentPensilSelection == Constant.ToolsTag.PAINT)
+        if (persistentScrollScript.currentPensilSelection == Constant.ToolsTag.PAINT)
             this.node.getComponent(cc.Mask).inverted = true;
 
     }
-    getPatternFrame(){
+    getPatternFrame() {
         return this.patternFrame;
     }
 }
