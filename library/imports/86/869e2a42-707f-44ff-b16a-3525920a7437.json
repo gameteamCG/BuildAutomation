@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "7",
+      "TitleImageName": "preyandpredaator.png",
+      "introBgName": "titlebg19.png",
+      "bgmMusicName": "BGM_1.mp3",
+      "mainBgName": "underwaterBG.png",
+      "JockeyName": "supercub",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "prey",
+        "questionAudioName": "identify_and_tap_on_the_prey.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0000_fish2.png",
+          "500x500_0000_shark.png"
+        ],
+        "correctAudios": [
+          "fish_is _a_prey_for_the_predator_shark.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "predator",
+        "questionAudioName": "identify_and_tap_on_the_predator.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0002_octopus.png",
+          "500x500_0008_shrimp.png"
+        ],
+        "correctAudios": [
+          "shrimp_is_a_prey_for_the_predator_octopus.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "prey",
+        "questionAudioName": "identify_and_tap_on_the_prey.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0009_seagull.png",
+          "500x500_0012_crab.png"
+        ],
+        "correctAudios": [
+          "crab_is_a_prey_for_the_predator_seagull.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "predator",
+        "questionAudioName": "identify_and_tap_on_the_predator.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0001_squid.png",
+          "500x500_0004_dolphin.png"
+        ],
+        "correctAudios": [
+          "squid_is_a_prey_for_the_predator_dolphin.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "predator",
+        "questionAudioName": "identify_and_tap_on_the_prey.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0005_turtle.png",
+          "500x500_0003_jellyfish.png"
+        ],
+        "correctAudios": [
+          "jellyfish_is a_prey_for_the_predator_sea_turtle.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "predator",
+        "questionAudioName": "identify_and_tap_on_the_predator.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "sea_otter.png",
+          "500x500_0013_clam.png"
+        ],
+        "correctAudios": [
+          "clam_is_a_prey_for_the_predator_sea_otter.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "prey",
+        "questionAudioName": "identify_and_tap_on_the_prey.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0001_fish1.png",
+          "500x500_0002_seal.png"
+        ],
+        "correctAudios": [
+          "fish_is_a_prey_for_the_predator_seal.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

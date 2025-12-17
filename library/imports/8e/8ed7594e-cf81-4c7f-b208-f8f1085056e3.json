@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0001_squid",
+    "texture": "22acffd7-c25e-42e9-9a44-bcf9f5d7097b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      150,
+      142
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      150,
+      142
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

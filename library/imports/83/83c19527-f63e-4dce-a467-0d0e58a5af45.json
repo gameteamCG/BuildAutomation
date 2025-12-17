@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "preyandpredaator",
+    "texture": "3967c395-9c02-405b-beb1-376fa2d135e8",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      472,
+      225
+    ],
+    "offset": [
+      5,
+      2.5
+    ],
+    "originalSize": [
+      514,
+      282
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

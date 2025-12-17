@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0009_seagull",
+    "texture": "05b9ee0a-6a04-47b6-abbe-ad2c0cb84121",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      396,
+      285
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      396,
+      285
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

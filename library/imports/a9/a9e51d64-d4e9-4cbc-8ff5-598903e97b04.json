@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "underwaterBG",
+    "texture": "0627a1e0-79ef-489f-b299-0c4495f49e17",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1920,
+      1084
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1920,
+      1084
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0013_clam",
+    "texture": "0bc4b28d-56a0-4f90-a7f8-053f4da11471",
+    "atlas": "",
+    "rect": [
+      41,
+      61,
+      191,
+      152
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      275,
+      275
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

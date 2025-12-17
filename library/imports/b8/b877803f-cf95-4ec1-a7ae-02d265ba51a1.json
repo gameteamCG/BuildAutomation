@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sea_otter",
+    "texture": "e9b74df7-85cf-4f89-b67c-5c6b1f85de1a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      455,
+      170
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      455,
+      170
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
