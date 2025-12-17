@@ -22,7 +22,7 @@
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "hearing2.png"
+          "16new_hearing.png"
         ],
         "reiterations": [
           "ALARMCLOCK.mp3"
@@ -31,8 +31,8 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "alarmclock.png",
-          "1_0004_11.png"
+          "17new_alaramclock.png",
+          "7new_block.png"
         ]
       },
       {
@@ -43,7 +43,7 @@
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "sight2.png"
+          "15new_sight2.png"
         ],
         "reiterations": [
           "lights.mp3"
@@ -52,8 +52,8 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "lights.png",
-          "1_0009_6.png"
+          "14new_lights.png",
+          "13new.png"
         ]
       },
       {
@@ -64,7 +64,7 @@
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "smell2.png"
+          "12new_smell2.png"
         ],
         "reiterations": [
           "Flowers.mp3"
@@ -73,8 +73,8 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "flower.png",
-          "1_0007_8.png"
+          "10new_flower.png",
+          "11new_sun.png"
         ]
       },
       {
@@ -85,7 +85,7 @@
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "taste2.png"
+          "20new_taste2.png"
         ],
         "reiterations": [
           "POTATO.mp3"
@@ -94,8 +94,8 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "potato.png",
-          "1_0011_4.png"
+          "21new_potato.png",
+          "22new.png"
         ]
       },
       {
@@ -106,7 +106,7 @@
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "touch.png"
+          "8new_touch.png"
         ],
         "reiterations": [
           "buildingblocks.mp3"
@@ -115,8 +115,8 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "blocks.png",
-          "1_0008_7.png"
+          "18new_blocks.png",
+          "5new.png"
         ]
       },
       {
@@ -127,7 +127,7 @@
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "smell2.png"
+          "9new_nose.png"
         ],
         "reiterations": [
           "snikyfeet.mp3"
@@ -136,8 +136,8 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "stinkyfeet.png",
-          "1_0007_8.png"
+          "4new_stinkyfeet.png",
+          "11new_sun.png"
         ]
       },
       {
@@ -148,7 +148,7 @@
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "taste2.png"
+          "20new_taste2.png"
         ],
         "reiterations": [
           "watermelon.mp3"
@@ -157,8 +157,8 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "watermelon.png",
-          "1_0007_8.png"
+          "3new_watermelon.png",
+          "11new_sun.png"
         ]
       },
       {
@@ -169,7 +169,7 @@
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "hearing2.png"
+          "16new_hearing.png"
         ],
         "reiterations": [
           "bell.mp3"
@@ -178,8 +178,8 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "bell.png",
-          "1_0010_5.png"
+          "1new_bell.png",
+          "2new_bookread.png"
         ]
       },
       {
@@ -190,7 +190,7 @@
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "touch.png"
+          "8new_touch.png"
         ],
         "reiterations": [
           "playdough.mp3"
@@ -199,8 +199,8 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "1_0006_9.png",
-          "Playdough.png"
+          "Playdough.png",
+          "1_0006_9.png"
         ]
       },
       {
@@ -211,7 +211,7 @@
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "sight2.png"
+          "15new_sight2.png"
         ],
         "reiterations": [
           "stars.mp3"
@@ -221,7 +221,7 @@
         "numberOfRightOptions": 2,
         "rightoptions": [
           "stars.png",
-          "1_0008_7.png"
+          "5new.png"
         ]
       }
     ]

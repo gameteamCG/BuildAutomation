@@ -1,1 +1,223 @@
-{"additionalData":{"GameID":"Our five senses jr kg super cubs feedback","totalLevel":"10","TitleImageName":"Asset29.png","introBgName":"skg.png","bgmMusicName":"bgmpattern.mp3","mainBgName":"bg.png","JockeyName":"supercub"},"questionData":[{"questionText":"hearing","questionAudioName":"matchtheobjectthatyoucanhear.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Artboard1copy52.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["hearing2.png"],"reiterations":["ALARMCLOCK.mp3"],"commonRightOptionImageName":"Artboard1copy53.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["alarmclock.png","1_0004_11.png"]},{"questionText":"sight","questionAudioName":"matchtheobjectthatyoucansee.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Artboard1copy52.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["sight2.png"],"reiterations":["lights.mp3"],"commonRightOptionImageName":"Artboard1copy53.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["lights.png","1_0009_6.png"]},{"questionText":"smell","questionAudioName":"matchtheobjectthatyoucansmell.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Artboard1copy52.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["smell2.png"],"reiterations":["Flowers.mp3"],"commonRightOptionImageName":"Artboard1copy53.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["flower.png","1_0007_8.png"]},{"questionText":"taste","questionAudioName":"matchtheobjectthatyoucantaste.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Artboard1copy52.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["taste2.png"],"reiterations":["POTATO.mp3"],"commonRightOptionImageName":"Artboard1copy53.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["potato.png","1_0011_4.png"]},{"questionText":"touch","questionAudioName":"matchtheobjecthatyoucanfeel.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Artboard1copy52.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["touch.png"],"reiterations":["buildingblocks.mp3"],"commonRightOptionImageName":"Artboard1copy53.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["blocks.png","1_0008_7.png"]},{"questionText":"smell","questionAudioName":"matchtheobjectthatyoucansmell.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Artboard1copy52.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["smell2.png"],"reiterations":["snikyfeet.mp3"],"commonRightOptionImageName":"Artboard1copy53.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["stinkyfeet.png","1_0007_8.png"]},{"questionText":"taste","questionAudioName":"matchtheobjectthatyoucantaste.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Artboard1copy52.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["taste2.png"],"reiterations":["watermelon.mp3"],"commonRightOptionImageName":"Artboard1copy53.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["watermelon.png","1_0007_8.png"]},{"questionText":"hearing","questionAudioName":"matchtheobjectthatyoucanhear.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Artboard1copy52.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["hearing2.png"],"reiterations":["bell.mp3"],"commonRightOptionImageName":"Artboard1copy53.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["bell.png","1_0010_5.png"]},{"questionText":"touch","questionAudioName":"matchtheobjecthatyoucanfeel.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Artboard1copy52.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["touch.png"],"reiterations":["playdough.mp3"],"commonRightOptionImageName":"Artboard1copy53.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["1_0006_9.png","Playdough.png"]},{"questionText":"sight","questionAudioName":"matchtheobjectthatyoucansee.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Artboard1copy52.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["sight2.png"],"reiterations":["stars.mp3"],"commonRightOptionImageName":"Artboard1copy53.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["stars.png","1_0008_7.png"]}]}
+{
+    "additionalData": {
+        "GameID": "Our five senses jr kg super cubs feedback",
+        "totalLevel": "10",
+        "TitleImageName": "Asset29.png",
+        "introBgName": "skg.png",
+        "bgmMusicName": "bgmpattern.mp3",
+        "mainBgName": "bg.png",
+        "JockeyName": "supercub"
+    },
+    "questionData": [
+        {
+            "questionText": "hearing",
+            "questionAudioName": "matchtheobjectthatyoucanhear.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Artboard1copy52.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "16new_hearing.png"
+            ],
+            "reiterations": [
+                "ALARMCLOCK.mp3"
+            ],
+            "commonRightOptionImageName": "Artboard1copy53.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "17new_alaramclock.png",
+                "7new_block.png"
+            ]
+        },
+        {
+            "questionText": "sight",
+            "questionAudioName": "matchtheobjectthatyoucansee.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Artboard1copy52.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "15new_sight2.png"
+            ],
+            "reiterations": [
+                "lights.mp3"
+            ],
+            "commonRightOptionImageName": "Artboard1copy53.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "14new_lights.png",
+                "13new.png"
+            ]
+        },
+        {
+            "questionText": "smell",
+            "questionAudioName": "matchtheobjectthatyoucansmell.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Artboard1copy52.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "12new_smell2.png"
+            ],
+            "reiterations": [
+                "Flowers.mp3"
+            ],
+            "commonRightOptionImageName": "Artboard1copy53.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "10new_flower.png",
+                "11new_sun.png"
+            ]
+        },
+        {
+            "questionText": "taste",
+            "questionAudioName": "matchtheobjectthatyoucantaste.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Artboard1copy52.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "20new_taste2.png"
+            ],
+            "reiterations": [
+                "POTATO.mp3"
+            ],
+            "commonRightOptionImageName": "Artboard1copy53.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "21new_potato.png",
+                "22new.png"
+            ]
+        },
+        {
+            "questionText": "touch",
+            "questionAudioName": "matchtheobjecthatyoucanfeel.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Artboard1copy52.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "8new_touch.png"
+            ],
+            "reiterations": [
+                "buildingblocks.mp3"
+            ],
+            "commonRightOptionImageName": "Artboard1copy53.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "18new_blocks.png",
+                "5new.png"
+            ]
+        },
+        {
+            "questionText": "smell",
+            "questionAudioName": "matchtheobjectthatyoucansmell.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Artboard1copy52.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "9new_nose.png"
+            ],
+            "reiterations": [
+                "snikyfeet.mp3"
+            ],
+            "commonRightOptionImageName": "Artboard1copy53.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "4new_stinkyfeet.png",
+                "11new_sun.png"
+            ]
+        },
+        {
+            "questionText": "taste",
+            "questionAudioName": "matchtheobjectthatyoucantaste.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Artboard1copy52.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "20new_taste2.png"
+            ],
+            "reiterations": [
+                "watermelon.mp3"
+            ],
+            "commonRightOptionImageName": "Artboard1copy53.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "3new_watermelon.png",
+                "11new_sun.png"
+            ]
+        },
+        {
+            "questionText": "hearing",
+            "questionAudioName": "matchtheobjectthatyoucanhear.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Artboard1copy52.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "16new_hearing.png"
+            ],
+            "reiterations": [
+                "bell.mp3"
+            ],
+            "commonRightOptionImageName": "Artboard1copy53.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "1new_bell.png",
+                "2new_bookread.png"
+            ]
+        },
+        {
+            "questionText": "touch",
+            "questionAudioName": "matchtheobjecthatyoucanfeel.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Artboard1copy52.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "8new_touch.png"
+            ],
+            "reiterations": [
+                "playdough.mp3"
+            ],
+            "commonRightOptionImageName": "Artboard1copy53.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "Playdough.png",
+                "1_0006_9.png"
+            ]
+        },
+        {
+            "questionText": "sight",
+            "questionAudioName": "matchtheobjectthatyoucansee.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Artboard1copy52.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "15new_sight2.png"
+            ],
+            "reiterations": [
+                "stars.mp3"
+            ],
+            "commonRightOptionImageName": "Artboard1copy53.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "stars.png",
+                "5new.png"
+            ]
+        }
+    ]
+}
