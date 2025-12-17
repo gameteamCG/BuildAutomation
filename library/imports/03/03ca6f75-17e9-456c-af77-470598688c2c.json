@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hair_new",
+    "texture": "a8807cc2-8d68-4d0a-9dcb-47df7fb5bee9",
+    "atlas": "",
+    "rect": [
+      124,
+      158,
+      253,
+      185
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
