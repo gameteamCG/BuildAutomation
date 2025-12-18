@@ -265,6 +265,14 @@ var GamePlay = /** @class */ (function (_super) {
             }
         }, duration);
     };
+    GamePlay.prototype.PlayQVoButton = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel - 1], false);
+        this.scheduleOnce(function () {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.question_audios[this.currentLevel - 1].duration);
+        _event.target.getComponent(cc.Button).interactable = false;
+    };
     GamePlay.prototype.loadSpriteFrame = function (imageName, callback) {
         cc.loader.loadRes("images/" + imageName, cc.SpriteFrame, function (err, spriteFrame) {
             if (err) {

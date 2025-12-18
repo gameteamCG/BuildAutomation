@@ -265,6 +265,17 @@ export default class GamePlay extends cc.Component {
         }, duration);
     }
 
+
+    PlayQVoButton(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel - 1], false)
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.question_audios[this.currentLevel - 1].duration)
+        _event.target.getComponent(cc.Button).interactable = false;
+
+    }
+
     loadSpriteFrame(imageName: string, callback: (spriteFrame: cc.SpriteFrame) => void) {
         cc.loader.loadRes("images/" + imageName, cc.SpriteFrame, (err, spriteFrame) => {
             if (err) {

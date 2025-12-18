@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "draw_your_meal",
+    "texture": "b453eac5-4279-491f-bb8d-3ac19fbece62",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      715,
+      226
+    ],
+    "offset": [
+      5,
+      2.5
+    ],
+    "originalSize": [
+      757,
+      283
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

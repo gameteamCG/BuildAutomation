@@ -238,6 +238,8 @@ export default class PersistentScroll extends cc.Component {
         this.checkToRemoveFromTop(this.TileArray[0], currentArray);
     }
 
+
+
     addTile() {
         var posY = 0;
         this.CurrentTopIndexValue = 0;
