@@ -1,0 +1,190 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "10",
+      "TitleImageName": "text.png",
+      "introBgName": "bg3.png",
+      "bgmMusicName": "BGMcooking.mp3",
+      "mainBgName": "BG2.png",
+      "JockeyName": "supercub",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Which can happen in real life?",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "15.png",
+          "16.png"
+        ],
+        "correctAudios": [
+          "GOOD JOB.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which can happen in real life?",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "1.png",
+          "2.png"
+        ],
+        "correctAudios": [
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which can happen in real life?",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "18.png",
+          "17.png"
+        ],
+        "correctAudios": [
+          "EXCELLENT JOB.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which can happen in real life?",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "19.png",
+          "20.png"
+        ],
+        "correctAudios": [
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which can happen in real life?",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "4.png",
+          "3.png"
+        ],
+        "correctAudios": [
+          "GREAT WORK.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which can happen in real life?",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "5.png",
+          "6.png"
+        ],
+        "correctAudios": [
+          "EXCELLENT JOB.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which can happen in real life?",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "7.png",
+          "8.png"
+        ],
+        "correctAudios": [
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which can happen in real life?",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "10.png",
+          "9.png"
+        ],
+        "correctAudios": [
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Which can happen in real life?",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "12.png",
+          "11.png"
+        ],
+        "correctAudios": [
+          "GOOD JOB.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Which can happen in real life?",
+        "questionAudioName": "vo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": false,
+        "numberOfOptions": 2,
+        "options": [
+          "13.png",
+          "14.png"
+        ],
+        "correctAudios": [
+          "EXCELLENT JOB.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}
