@@ -11,7 +11,7 @@
   },
   "questionData": [
     {
-      "questionText": "thick",
+      "questionText": "Thick",
       "questionAudioName": "Q1thick_pencil.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "QuestionCard.png",
@@ -28,7 +28,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "thick",
+      "questionText": "Thick",
       "questionAudioName": "Q2tap_on_the_thick_pencil_box.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "QuestionCard.png",
@@ -45,7 +45,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "thin",
+      "questionText": "Thin",
       "questionAudioName": "Q3thinpaintbrush.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "QuestionCard.png",
@@ -62,7 +62,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "thin",
+      "questionText": "Thin",
       "questionAudioName": "Q4_tap_on_the_thin_waterbottle.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "QuestionCard.png",
@@ -79,7 +79,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "thick",
+      "questionText": "Thick",
       "questionAudioName": "Q5_tap_on_the_thick_scale.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "QuestionCard.png",
@@ -96,7 +96,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "thin",
+      "questionText": "Thin",
       "questionAudioName": "Q6_tap_on_the_thin_eraser.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "QuestionCard.png",
@@ -113,7 +113,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "thick",
+      "questionText": "Thick",
       "questionAudioName": "Q7_tap_on_the_thick_sharp.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "QuestionCard.png",
