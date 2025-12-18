@@ -1,0 +1,241 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "13",
+      "TitleImageName": "actionwords.png",
+      "introBgName": "titlebgbg.png",
+      "bgmMusicName": "B2.mp3",
+      "mainBgName": "Assetsbg15.png",
+      "JockeyName": "supercub",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "The dog is eating.",
+        "questionAudioName": "the_dog_is_eating.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Assets_01.png",
+          "Assets_06.png"
+        ],
+        "correctAudios": [
+          "EXCELLENTJOB.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "The boy is sleeping.",
+        "questionAudioName": "the_boy_is_sleeping.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Assets_05.png",
+          "Asset_2.png"
+        ],
+        "correctAudios": [
+          "GOODJOB.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "The chef is cooking.",
+        "questionAudioName": "where_the_chef_is_cooking.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Assets_03.png",
+          "Assets_06.png"
+        ],
+        "correctAudios": [
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "The girl is singing.",
+        "questionAudioName": "the_girl_is_singing.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Assets_07.png",
+          "assets_15.png"
+        ],
+        "correctAudios": [
+          "GREATWORK.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "The dog is running.",
+        "questionAudioName": "the_dog_is_running.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Asset_10.png",
+          "Assets_12.png"
+        ],
+        "correctAudios": [
+          "GOODJOB.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "The girl is kicking.",
+        "questionAudioName": "the_girl_is_kicking.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Assets_08.png",
+          "Assets_14.png"
+        ],
+        "correctAudios": [
+          "EXCELLENTJOB.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "The man is standing.",
+        "questionAudioName": "the_man_is_standing.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Assets_07.png",
+          "Assets_08.png"
+        ],
+        "correctAudios": [
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "The monkey is jumping.",
+        "questionAudioName": "the_monkey_is_jumping.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Assets_01.png",
+          "Assets_09.png"
+        ],
+        "correctAudios": [
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "The boy is sitting.",
+        "questionAudioName": "the_boy_is_sitting.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Assets_06.png",
+          "assets_15.png"
+        ],
+        "correctAudios": [
+          "GREATWORK.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "The boy is pushing.",
+        "questionAudioName": "the_boy_is_pushing.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Assets_05.png",
+          "Assets_08.png"
+        ],
+        "correctAudios": [
+          "GOODJOB.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "The ballerina is dancing.",
+        "questionAudioName": "the_ballerina_is_dancing.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Assets_11.png",
+          "Assets_14.png"
+        ],
+        "correctAudios": [
+          "FANTASTIC.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "The baby is playing.",
+        "questionAudioName": "the_baby_is_playing.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Assets_08.png",
+          "Assets_13.png"
+        ],
+        "correctAudios": [
+          "EXCELLENTJOB.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "The baby is crying.",
+        "questionAudioName": "baby_is_crying.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "Assets_05.png",
+          "Asset_2.png"
+        ],
+        "correctAudios": [
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

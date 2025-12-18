@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "actionwords",
+    "texture": "dad421f8-c04a-4579-8b12-a3e606d348c6",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      658,
+      117
+    ],
+    "offset": [
+      5.5,
+      2
+    ],
+    "originalSize": [
+      699,
+      173
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
