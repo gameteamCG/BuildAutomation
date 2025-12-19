@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "penbox",
+    "texture": "f8abd0f5-cf58-44c8-b374-bc21a2f9d7fe",
+    "atlas": "",
+    "rect": [
+      25,
+      33,
+      468,
+      455
+    ],
+    "offset": [
+      8.5,
+      -10
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

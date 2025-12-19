@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "applebox",
+    "texture": "ebbdf34b-c079-4d23-8e6d-a07cc39d6ae3",
+    "atlas": "",
+    "rect": [
+      26,
+      33,
+      468,
+      455
+    ],
+    "offset": [
+      9.5,
+      -10
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

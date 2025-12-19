@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -392,7 +392,7 @@ var NewClass = /** @class */ (function (_super) {
                 var objScale = 0;
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 if (StartGame_1.default.Instance.templateType == "SimpleTap") {
-                    objScale = 1;
+                    objScale = 1.4;
                 }
                 else if (StartGame_1.default.Instance.templateType == "TapToCollect") {
                     objScale = 0.5;

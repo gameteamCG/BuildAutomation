@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Jarwithalmond",
+    "texture": "5d8da8fc-2692-4339-b76b-d8efd7373ffd",
+    "atlas": "",
+    "rect": [
+      16,
+      27,
+      468,
+      457
+    ],
+    "offset": [
+      0,
+      -5.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

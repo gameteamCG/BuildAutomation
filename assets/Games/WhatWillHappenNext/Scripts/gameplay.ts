@@ -1,5 +1,5 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -443,7 +443,7 @@ export default class NewClass extends cc.Component {
                 let objScale: number = 0;
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 if (startGame.Instance.templateType == "SimpleTap") {
-                    objScale = 1;
+                    objScale = 1.4;
                 }
                 else if (startGame.Instance.templateType == "TapToCollect") {
                     objScale = 0.5;
