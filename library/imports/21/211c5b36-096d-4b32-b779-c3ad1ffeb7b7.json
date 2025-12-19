@@ -65,7 +65,7 @@
         "NumberOfOptions": 4,
         "Options": [
           "goat_kid.png",
-          "pig.png",
+          "lamb.png",
           "duck.png",
           "calf.png"
         ],
@@ -126,7 +126,7 @@
         "Options": [
           "horse.png",
           "hen.png",
-          "sheep.png",
+          "lamb.png",
           "rat.png"
         ],
         "ReiterationAudioName": "sheep.mp3",
@@ -145,8 +145,8 @@
         "NumberOfOptions": 4,
         "Options": [
           "chicken.png",
-          "pig.png",
-          "foal.png",
+          "lamb.png",
+          "horse.png",
           "calf.png"
         ],
         "ReiterationAudioName": "chicks.mp3",
