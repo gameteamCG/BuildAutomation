@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3480bfe7-cf8b-42c3-bb04-fc690ef40186",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0004_koala-cub": {
+      "ver": "1.0.6",
+      "uuid": "6416a4f7-bc74-4547-abe6-e076498904b4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3480bfe7-cf8b-42c3-bb04-fc690ef40186",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 5.5,
+      "offsetY": -5.5,
+      "trimX": 31,
+      "trimY": 30,
+      "width": 450,
+      "height": 452,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0009_elephant-cub",
+    "texture": "a8fc9876-19e8-4bad-99f7-0fa7dcd0c3fe",
+    "atlas": "",
+    "rect": [
+      31,
+      31,
+      451,
+      451
+    ],
+    "offset": [
+      6,
+      -6
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

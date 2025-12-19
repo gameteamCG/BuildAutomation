@@ -23,7 +23,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -356,7 +357,7 @@ var NewClass = /** @class */ (function (_super) {
         var parentNode = this.node.getChildByName("Option");
         var rows = 2;
         var columns = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options.length;
-        var offsetX = 50;
+        var offsetX = 150;
         var offsetY = 50;
         var objWidth = 195;
         var objHeight = 295;
@@ -484,10 +485,13 @@ var NewClass = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "supercub") {
             var intoAnim = "intro";
             this.currentJcokey.setPosition(450, -370);
+            this.currentJcokey.active = true;
+            this.currentJcokey.opacity = 255;
             if (StartGame_1.default.Instance.jockeyName == "supercub") {
                 intoAnim = "intro_1";
                 this.currentJcokey.setPosition(870, -370);
             }
+            console.log(this.currentJcokey.getPosition(), "************");
             if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 cc.audioEngine.playEffect(this.tlc_birdFlying, false);
             }
@@ -563,8 +567,8 @@ var NewClass = /** @class */ (function (_super) {
                 this.scheduleOnce(function () {
                     _this.card1.setParent(_this.node.getChildByName("Panel"));
                     _this.card2.setParent(_this.node.getChildByName("Panel"));
-                    _this.node.getChildByName("Panel").getChildByName(card1Name_1).setPosition(-150, 0);
-                    _this.node.getChildByName("Panel").getChildByName(card2Name_1).setPosition(150, 0);
+                    _this.node.getChildByName("Panel").getChildByName(card1Name_1).setPosition(-200, 0);
+                    _this.node.getChildByName("Panel").getChildByName(card2Name_1).setPosition(200, 0);
                     _this.node.getChildByName("Panel").getChildByName(card1Name_1).scale = 0;
                     _this.node.getChildByName("Panel").getChildByName(card2Name_1).scale = 0;
                     cc.tween(_this.node.getChildByName("Panel").getChildByName(card1Name_1)).to(0.5, { scale: 1.3 }).start();
@@ -811,7 +815,10 @@ var NewClass = /** @class */ (function (_super) {
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
                             cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
                             //console.log("characterDisappear--Podar_Jumbo");
-                            _this.callNextLevel();
+                            _this.scheduleOnce(function () {
+                                _this.currentJcokey.x = 1000;
+                                _this.callNextLevel();
+                            }, 2);
                         }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
                     }, _this.positiveAudio[currentClipNum].duration);
                 }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_start").duration);
@@ -822,8 +829,11 @@ var NewClass = /** @class */ (function (_super) {
                 this.scheduleOnce(function () {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
                     cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
+                    _this.scheduleOnce(function () {
+                        _this.currentJcokey.x = 1000;
+                        _this.callNextLevel();
+                    }, 2);
                     //console.log("characterDisappear--Podar_Jumbo");
-                    _this.callNextLevel();
                 }, this.positiveAudio[currentClipNum].duration);
             }
         }

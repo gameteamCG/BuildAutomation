@@ -1,6 +1,7 @@
 
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -398,7 +399,7 @@ export default class NewClass extends cc.Component {
         let parentNode: cc.Node = this.node.getChildByName("Option");
         let rows = 2;
         let columns: number = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options.length;
-        let offsetX: number = 50;
+        let offsetX: number = 150;
         let offsetY: number = 50;
         let objWidth: number = 195;
         let objHeight: number = 295;
@@ -533,10 +534,13 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
             let intoAnim = "intro";
             this.currentJcokey.setPosition(450, -370);
+            this.currentJcokey.active = true;
+            this.currentJcokey.opacity = 255;
             if (startGame.Instance.jockeyName == "supercub") {
                 intoAnim = "intro_1";
                 this.currentJcokey.setPosition(870, -370);
             }
+            console.log(this.currentJcokey.getPosition(), "************");
             if (startGame.Instance.jockeyName == "tlc") {
                 cc.audioEngine.playEffect(this.tlc_birdFlying, false);
             }
@@ -557,6 +561,8 @@ export default class NewClass extends cc.Component {
                 }
                 else {
                     cc.audioEngine.playEffect(this.questionSound[0], false);
+
+
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_loop", true);
                     this.scheduleOnce(() => {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
@@ -614,8 +620,8 @@ export default class NewClass extends cc.Component {
                 this.scheduleOnce(() => {
                     this.card1.setParent(this.node.getChildByName("Panel"));
                     this.card2.setParent(this.node.getChildByName("Panel"));
-                    this.node.getChildByName("Panel").getChildByName(card1Name).setPosition(-150, 0);
-                    this.node.getChildByName("Panel").getChildByName(card2Name).setPosition(150, 0);
+                    this.node.getChildByName("Panel").getChildByName(card1Name).setPosition(-200, 0);
+                    this.node.getChildByName("Panel").getChildByName(card2Name).setPosition(200, 0);
                     this.node.getChildByName("Panel").getChildByName(card1Name).scale = 0;
                     this.node.getChildByName("Panel").getChildByName(card2Name).scale = 0;
                     cc.tween(this.node.getChildByName("Panel").getChildByName(card1Name)).to(0.5, { scale: 1.3 }).start();
@@ -868,7 +874,11 @@ export default class NewClass extends cc.Component {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
                             cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
                             //console.log("characterDisappear--Podar_Jumbo");
-                            this.callNextLevel();
+
+                            this.scheduleOnce(() => {
+                                this.currentJcokey.x = 1000;
+                                this.callNextLevel();
+                            }, 2)
                         }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration)
                     }, this.positiveAudio[currentClipNum].duration);
 
@@ -880,8 +890,12 @@ export default class NewClass extends cc.Component {
                 this.scheduleOnce(() => {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
                     cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
+                    this.scheduleOnce(() => {
+                        this.currentJcokey.x = 1000;
+                        this.callNextLevel();
+                    }, 2)
                     //console.log("characterDisappear--Podar_Jumbo");
-                    this.callNextLevel();
+
                 }, this.positiveAudio[currentClipNum].duration);
             }
 

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "small_panda",
+    "texture": "ca61cefe-8322-4e38-98d2-7101e3ca1f63",
+    "atlas": "",
+    "rect": [
+      31,
+      31,
+      450,
+      451
+    ],
+    "offset": [
+      5.5,
+      -6
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
