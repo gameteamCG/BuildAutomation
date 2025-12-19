@@ -383,7 +383,9 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         var delay = 0.5;
         if (StartGame_1.default.Instance.jockeyName == "supercub" || StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("Option").setPosition(this.node.getChildByName("Option").x - 80, this.node.getChildByName("Option").y);
+            // this.node.getChildByName("Option").setPosition(this.node.getChildByName("Option").x - 10, this.node.getChildByName("Option").y);
+            this.node.getChildByName("Option").children[0].setPosition(this.node.getChildByName("Option").x - 260, this.node.getChildByName("Option").y + -20);
+            this.node.getChildByName("Option").children[1].setPosition(this.node.getChildByName("Option").x + 310, this.node.getChildByName("Option").y + -20);
         }
         var _loop_5 = function (i) {
             this_4.node.getChildByName("Option").children[i - 1].scale = 0;
@@ -392,7 +394,7 @@ var NewClass = /** @class */ (function (_super) {
                 var objScale = 0;
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 if (StartGame_1.default.Instance.templateType == "SimpleTap") {
-                    objScale = 1.4;
+                    objScale = 1.2;
                 }
                 else if (StartGame_1.default.Instance.templateType == "TapToCollect") {
                     objScale = 0.5;
@@ -403,7 +405,7 @@ var NewClass = /** @class */ (function (_super) {
                 //console.log("isOptionBg");
                 if (!_this.isOptionBG) {
                     _this.node.getChildByName("Option").children.forEach(function (element) {
-                        element.getChildByName("img").scale = 1.4;
+                        element.getChildByName("img").scale = 1.2;
                     });
                 }
                 cc.tween(_this.node.getChildByName("Option").getChildByName(i.toString()))
@@ -442,7 +444,7 @@ var NewClass = /** @class */ (function (_super) {
                 objScale = 0.7;
                 if (!_this.isOptionBG) {
                     _this.node.getChildByName("Option").children.forEach(function (element) {
-                        element.getChildByName("img").scale = 1.4;
+                        element.getChildByName("img").scale = 1.2;
                     });
                 }
                 cc.tween(_this.node.getChildByName("Option").getChildByName(i.toString()))
@@ -645,7 +647,7 @@ var NewClass = /** @class */ (function (_super) {
                                     elem.getChildByName("img").color = cc.Color.WHITE;
                                 });
                                 _this.isLastTween = true;
-                                _this.OptionsLayoutHorizontal();
+                                // this.OptionsLayoutHorizontal();
                                 _this.canTouch = false;
                                 ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
                                 _this.scheduleOnce(function () {
@@ -730,7 +732,7 @@ var NewClass = /** @class */ (function (_super) {
                                     elem.getChildByName("img").color = cc.Color.WHITE;
                                 });
                                 _this.isLastTween = true;
-                                _this.OptionsLayoutHorizontal();
+                                // this.OptionsLayoutHorizontal();
                                 ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
                                 _this.scheduleOnce(function () {
                                     ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);

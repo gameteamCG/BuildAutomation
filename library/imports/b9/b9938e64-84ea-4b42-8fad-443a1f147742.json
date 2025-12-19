@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "duster_new",
+    "texture": "abdd17ed-f56c-4399-bec5-c2cf9b6447ef",
+    "atlas": "",
+    "rect": [
+      144,
+      174,
+      239,
+      169
+    ],
+    "offset": [
+      13,
+      -8
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

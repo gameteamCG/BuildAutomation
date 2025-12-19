@@ -434,7 +434,9 @@ export default class NewClass extends cc.Component {
     callOptionIn() {
         let delay: number = 0.5;
         if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("Option").setPosition(this.node.getChildByName("Option").x - 80, this.node.getChildByName("Option").y);
+            // this.node.getChildByName("Option").setPosition(this.node.getChildByName("Option").x - 10, this.node.getChildByName("Option").y);
+            this.node.getChildByName("Option").children[0].setPosition(this.node.getChildByName("Option").x - 260, this.node.getChildByName("Option").y + -20);
+            this.node.getChildByName("Option").children[1].setPosition(this.node.getChildByName("Option").x + 310, this.node.getChildByName("Option").y + -20);
         }
         for (let i = 1; i <= this.optionsNode.children.length; i++) {
             this.node.getChildByName("Option").children[i - 1].scale = 0;
@@ -443,7 +445,7 @@ export default class NewClass extends cc.Component {
                 let objScale: number = 0;
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 if (startGame.Instance.templateType == "SimpleTap") {
-                    objScale = 1.4;
+                    objScale = 1.2;
                 }
                 else if (startGame.Instance.templateType == "TapToCollect") {
                     objScale = 0.5;
@@ -454,7 +456,7 @@ export default class NewClass extends cc.Component {
                 //console.log("isOptionBg");
                 if (!this.isOptionBG) {
                     this.node.getChildByName("Option").children.forEach((element) => {
-                        element.getChildByName("img").scale = 1.4;
+                        element.getChildByName("img").scale = 1.2;
                     })
                 }
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
@@ -491,7 +493,7 @@ export default class NewClass extends cc.Component {
                 objScale = 0.7;
                 if (!this.isOptionBG) {
                     this.node.getChildByName("Option").children.forEach((element) => {
-                        element.getChildByName("img").scale = 1.4;
+                        element.getChildByName("img").scale = 1.2;
                     })
                 }
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
@@ -696,7 +698,7 @@ export default class NewClass extends cc.Component {
                                     elem.getChildByName("img").color = cc.Color.WHITE;
                                 });
                                 this.isLastTween = true;
-                                this.OptionsLayoutHorizontal();
+                                // this.OptionsLayoutHorizontal();
                                 this.canTouch = false;
                                 ProgressBar.Instance.createStarTrails(6, this.node);
                                 this.scheduleOnce(() => {
@@ -782,7 +784,7 @@ export default class NewClass extends cc.Component {
                                     elem.getChildByName("img").color = cc.Color.WHITE;
                                 });
                                 this.isLastTween = true;
-                                this.OptionsLayoutHorizontal();
+                                // this.OptionsLayoutHorizontal();
                                 ProgressBar.Instance.createStarTrails(6, this.node);
                                 this.scheduleOnce(() => {
                                     ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);

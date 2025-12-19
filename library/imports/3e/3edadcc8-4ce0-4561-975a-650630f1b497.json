@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "r5ubber_new",
+    "texture": "a0e64863-f218-4e49-99ef-8a7fb7fd6acd",
+    "atlas": "",
+    "rect": [
+      144,
+      185,
+      153,
+      133
+    ],
+    "offset": [
+      -30,
+      -1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
