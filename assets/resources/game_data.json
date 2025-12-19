@@ -19,10 +19,10 @@
       "IsOptionText": false,
       "NumberOfOptions": 4,
       "Options": [
-        "leg.png",
-        "hand.png",
-        "eyes.png",
-        "mouth.png"
+        "leg_new.png",
+        "hand_new.png",
+        "eyes_new.png",
+        "mouth_new.png"
       ],
       "ReiterationAudioName": "20408627_5_leg.mp3",
       "CorrectAudioName": "INCREDIBLE.mp3",
@@ -62,7 +62,7 @@
         "baker.png",
         "dog.png",
         "meg2.png",
-        "dog.png"
+        "cat_new.png"
       ],
       "ReiterationAudioName": "20408627_6_meg.mp3",
       "CorrectAudioName": "FANTASTIC.mp3",
