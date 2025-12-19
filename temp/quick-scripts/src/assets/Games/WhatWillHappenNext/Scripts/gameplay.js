@@ -459,10 +459,7 @@ var NewClass = /** @class */ (function (_super) {
         for (var i = 0; i < this.node.getChildByName("Option").children.length; i++) {
             if (_node.parent.name == this.answerArray[i]) {
                 isCorrect = true;
-                console.log("before array--" + this.answerArray);
-                console.log("correctAnswer--" + this.answerArray[i]);
                 this.answerArray.splice(i, 1);
-                console.log("After array--" + this.answerArray);
                 break;
             }
         }
@@ -548,7 +545,9 @@ var NewClass = /** @class */ (function (_super) {
         var thirdBox = this.node.getChildByName("QuestionBox").getChildByName("ThirdObject");
         var xRandom = this.getRandomNumber(-thirdBox.width / 4, thirdBox.width / 4);
         this.node.getChildByName("QuestionBox").getChildByName(imgName).scale = this.node.getChildByName("QuestionBox").getChildByName(imgName).scale - (this.node.getChildByName("QuestionBox").getChildByName(imgName).scale * 0.2);
-        cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
+        cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).
+            bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 120)).
+            start();
         cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).to(0.7, { scale: 0.3 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             //console.log("correctAudio : ", this.correctAudio)
