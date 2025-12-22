@@ -4086,7 +4086,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 349.92,
+      "width": 154.26,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -4138,8 +4138,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "underground vegetables",
-    "_N$string": "underground vegetables",
+    "_string": "vegetables",
+    "_N$string": "vegetables",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,
