@@ -78,10 +78,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 25
+        "__id__": 24
       },
       {
-        "__id__": 26
+        "__id__": 25
       }
     ],
     "_prefab": null,
@@ -251,13 +251,13 @@
     "_active": true,
     "_components": [
       {
+        "__id__": 21
+      },
+      {
         "__id__": 22
       },
       {
         "__id__": 23
-      },
-      {
-        "__id__": 24
       }
     ],
     "_prefab": null,
@@ -450,7 +450,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -180,
+        -96.573,
         -100,
         0,
         0,
@@ -823,7 +823,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 21
+        "__id__": 20
       }
     ],
     "_prefab": null,
@@ -888,9 +888,7 @@
         "__id__": 19
       }
     ],
-    "_prefab": {
-      "__id__": 20
-    },
+    "_prefab": null,
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -956,7 +954,7 @@
     "defaultAnimation": "positive_5",
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "loop": false,
+    "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 1,
     "_accTime": 0,
@@ -967,7 +965,7 @@
     "_animationName": "positive_5",
     "_animationQueue": [],
     "_headAniInfo": null,
-    "_playTimes": 1,
+    "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
       "__uuid__": "02b60985-463e-42ce-b1e5-9173efd43fff"
@@ -979,17 +977,6 @@
     "_N$useTint": false,
     "_N$enableBatch": false,
     "_id": "b0UoXM9J1OT76Ju2Rc4wfk"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 18
-    },
-    "asset": {
-      "__uuid__": "2fed5f95-54fe-4773-8442-372299d48700"
-    },
-    "fileId": "",
-    "sync": false
   },
   {
     "__type__": "3909dpzo1hPDJb1f4iWWEcf",

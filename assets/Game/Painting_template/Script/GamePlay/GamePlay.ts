@@ -41,6 +41,10 @@ export default class GamePlay extends cc.Component {
     private tlc_font: cc.Font = null;
     @property(cc.Font)
     private supercub_font: cc.Font = null;
+    @property(cc.Node)
+    jockey: cc.Node = null;
+    @property(cc.AudioClip)
+    positiveAudios: cc.AudioClip[] = [];
     // @property(String)
     questions: string[] = [''];
     // @property(cc.SpriteFrame)
@@ -65,6 +69,7 @@ export default class GamePlay extends cc.Component {
 
     private Ypos: number = 0;
     private static instance: GamePlay = null;
+    jockeywait: number = 0;
 
     onLoad() {
         GamePlay.instance = this;
@@ -231,7 +236,7 @@ export default class GamePlay extends cc.Component {
     checkNextLevel() {
         let duration: number = 0;
         if (this.currentLevel != 0) {
-            cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
+            //cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
             duration = this.reiteration_Audio[this.currentLevel - 1].duration;
             console.log("correctAnswer--" + (this.currentLevel))
             console.log("levelComplete--" + (this.currentLevel));
@@ -247,15 +252,20 @@ export default class GamePlay extends cc.Component {
             cc.tween(this.questionNode).to(0.5, { y: this.Ypos }, { easing: "sineInOut" }).start();
 
             if (this.currentLevel < this.totalLevels) {
-                console.log("levelStarted--" + (this.currentLevel + 1));
-                cc.audioEngine.stopAllEffects();
+                console.log("currentLevel = ", this.currentLevel)
+                this.callJockey();
                 this.scheduleOnce(() => {
-                    cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
-                    this.node.getChildByName("image").getComponent(cc.Sprite).spriteFrame = this.questionImage[this.currentLevel];
-                    this.currentLevel++;
-                    this.addDrawing();
-                }, 0.5);
-                this.questionNode.children[0].getComponent(cc.Label).string = this.questions[this.currentLevel];
+                    console.log("levelStarted--" + (this.currentLevel + 1));
+                    cc.audioEngine.stopAllEffects();
+                    this.scheduleOnce(() => {
+                        cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
+                        this.node.getChildByName("image").getComponent(cc.Sprite).spriteFrame = this.questionImage[this.currentLevel];
+                        this.currentLevel++;
+                        this.addDrawing();
+                    }, 0.5);
+                    this.questionNode.children[0].getComponent(cc.Label).string = this.questions[this.currentLevel];
+                }, this.jockeywait + 1);
+
             }
             else {
                 this.node.getChildByName("image").active = false;
@@ -263,6 +273,38 @@ export default class GamePlay extends cc.Component {
                 cc.director.loadScene("gameEnded");
             }
         }, duration);
+    }
+
+    callJockey() {
+        if (this.currentLevel == 0) {
+            return;
+        }
+        //jockey coming and leaving 
+        let anim: string[] = ["positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5"];
+        let num = this.getRandomNumber(0, anim.length - 1);
+        this.jockeywait = this.positiveAudios[num].duration;
+        console.log("characterAppear--Lion");
+        this.jockey.setPosition(1200, -350);
+        cc.tween(this.jockey).to(0.5, { x: 500 }, { easing: "quartInOut" }).start();
+        this.scheduleOnce(() => {
+            this.jockey.getComponent(sp.Skeleton).setAnimation(0, anim[num], false);
+            cc.audioEngine.playEffect(this.positiveAudios[num], false);
+            this.scheduleOnce(() => {
+                this.jockey.getComponent(sp.Skeleton).setAnimation(0, "idle", false);
+                cc.tween(this.jockey).to(0.5, { x: 2000 }, { easing: "quartInOut" }).start();
+                console.log("characterDisappear--Lion");
+            }, this.positiveAudios[num].duration);
+        }, 0.5);
+
+
+    }
+
+    private getRandomNumber(min: number, max: number): number {
+        let _number: number = Math.random();
+        // _number = _number * this.shapes.length;
+        _number = cc.misc.lerp(min, max, _number);
+        _number = Math.round(_number);
+        return _number;
     }
 
 

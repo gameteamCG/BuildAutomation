@@ -58,6 +58,8 @@ var GamePlay = /** @class */ (function (_super) {
         _this.jaipuria_font = null;
         _this.tlc_font = null;
         _this.supercub_font = null;
+        _this.jockey = null;
+        _this.positiveAudios = [];
         // @property(String)
         _this.questions = [''];
         // @property(cc.SpriteFrame)
@@ -74,6 +76,7 @@ var GamePlay = /** @class */ (function (_super) {
         _this.currentLevel = 0;
         _this.totalLevels = 0;
         _this.Ypos = 0;
+        _this.jockeywait = 0;
         return _this;
     }
     GamePlay_1 = GamePlay;
@@ -234,7 +237,7 @@ var GamePlay = /** @class */ (function (_super) {
         var _this = this;
         var duration = 0;
         if (this.currentLevel != 0) {
-            cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
+            //cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
             duration = this.reiteration_Audio[this.currentLevel - 1].duration;
             console.log("correctAnswer--" + (this.currentLevel));
             console.log("levelComplete--" + (this.currentLevel));
@@ -248,15 +251,19 @@ var GamePlay = /** @class */ (function (_super) {
                 .to(0.5, { scale: 0.75 }, { easing: "sineInOut" }).start();
             cc.tween(_this.questionNode).to(0.5, { y: _this.Ypos }, { easing: "sineInOut" }).start();
             if (_this.currentLevel < _this.totalLevels) {
-                console.log("levelStarted--" + (_this.currentLevel + 1));
-                cc.audioEngine.stopAllEffects();
+                console.log("currentLevel = ", _this.currentLevel);
+                _this.callJockey();
                 _this.scheduleOnce(function () {
-                    cc.audioEngine.playEffect(_this.question_audios[_this.currentLevel], false);
-                    _this.node.getChildByName("image").getComponent(cc.Sprite).spriteFrame = _this.questionImage[_this.currentLevel];
-                    _this.currentLevel++;
-                    _this.addDrawing();
-                }, 0.5);
-                _this.questionNode.children[0].getComponent(cc.Label).string = _this.questions[_this.currentLevel];
+                    console.log("levelStarted--" + (_this.currentLevel + 1));
+                    cc.audioEngine.stopAllEffects();
+                    _this.scheduleOnce(function () {
+                        cc.audioEngine.playEffect(_this.question_audios[_this.currentLevel], false);
+                        _this.node.getChildByName("image").getComponent(cc.Sprite).spriteFrame = _this.questionImage[_this.currentLevel];
+                        _this.currentLevel++;
+                        _this.addDrawing();
+                    }, 0.5);
+                    _this.questionNode.children[0].getComponent(cc.Label).string = _this.questions[_this.currentLevel];
+                }, _this.jockeywait + 1);
             }
             else {
                 _this.node.getChildByName("image").active = false;
@@ -264,6 +271,35 @@ var GamePlay = /** @class */ (function (_super) {
                 cc.director.loadScene("gameEnded");
             }
         }, duration);
+    };
+    GamePlay.prototype.callJockey = function () {
+        var _this = this;
+        if (this.currentLevel == 0) {
+            return;
+        }
+        //jockey coming and leaving 
+        var anim = ["positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5"];
+        var num = this.getRandomNumber(0, anim.length - 1);
+        this.jockeywait = this.positiveAudios[num].duration;
+        console.log("characterAppear--Lion");
+        this.jockey.setPosition(1200, -350);
+        cc.tween(this.jockey).to(0.5, { x: 500 }, { easing: "quartInOut" }).start();
+        this.scheduleOnce(function () {
+            _this.jockey.getComponent(sp.Skeleton).setAnimation(0, anim[num], false);
+            cc.audioEngine.playEffect(_this.positiveAudios[num], false);
+            _this.scheduleOnce(function () {
+                _this.jockey.getComponent(sp.Skeleton).setAnimation(0, "idle", false);
+                cc.tween(_this.jockey).to(0.5, { x: 2000 }, { easing: "quartInOut" }).start();
+                console.log("characterDisappear--Lion");
+            }, _this.positiveAudios[num].duration);
+        }, 0.5);
+    };
+    GamePlay.prototype.getRandomNumber = function (min, max) {
+        var _number = Math.random();
+        // _number = _number * this.shapes.length;
+        _number = cc.misc.lerp(min, max, _number);
+        _number = Math.round(_number);
+        return _number;
     };
     GamePlay.prototype.PlayQVoButton = function (_event) {
         cc.audioEngine.stopAllEffects();
@@ -328,6 +364,12 @@ var GamePlay = /** @class */ (function (_super) {
     __decorate([
         property(cc.Font)
     ], GamePlay.prototype, "supercub_font", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamePlay.prototype, "jockey", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], GamePlay.prototype, "positiveAudios", void 0);
     GamePlay = GamePlay_1 = __decorate([
         ccclass
     ], GamePlay);
