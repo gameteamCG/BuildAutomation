@@ -68,7 +68,7 @@
       },
       {
         "questionText": "Full",
-        "questionAudioName": "fullbasket.mp3",
+        "questionAudioName": "tap_on_the_full_crate.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
         "isOptionText": false,
