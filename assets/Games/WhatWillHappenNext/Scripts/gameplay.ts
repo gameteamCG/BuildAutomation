@@ -427,8 +427,13 @@ export default class NewClass extends cc.Component {
 
     OnVOButton() {
         cc.audioEngine.stopAllEffects();
+        this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
         if (this.questionSound[0])
             cc.audioEngine.playEffect(this.questionSound[0], false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = true;
+
+        }, this.questionSound[0].duration + 0.1);
     }
 
     callOptionIn() {
@@ -1077,7 +1082,7 @@ export default class NewClass extends cc.Component {
         let optionNodes = optionsLayout.children;
         // console.log("optionNodes--" + optionNodes.length, optionsLayout.width);
 
-        const paddingBetweenOptions = 10;
+        const paddingBetweenOptions = 150;
 
         let totalWidth = 0;
         let maxHeight = 0;

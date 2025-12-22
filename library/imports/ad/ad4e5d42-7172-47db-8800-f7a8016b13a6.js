@@ -375,9 +375,14 @@ var NewClass = /** @class */ (function (_super) {
         }
     };
     NewClass.prototype.OnVOButton = function () {
+        var _this = this;
         cc.audioEngine.stopAllEffects();
+        this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
         if (this.questionSound[0])
             cc.audioEngine.playEffect(this.questionSound[0], false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = true;
+        }, this.questionSound[0].duration + 0.1);
     };
     NewClass.prototype.callOptionIn = function () {
         var _this = this;
@@ -1013,7 +1018,7 @@ var NewClass = /** @class */ (function (_super) {
         var optionsLayout = this.optionsNode;
         var optionNodes = optionsLayout.children;
         // console.log("optionNodes--" + optionNodes.length, optionsLayout.width);
-        var paddingBetweenOptions = 10;
+        var paddingBetweenOptions = 150;
         var totalWidth = 0;
         var maxHeight = 0;
         for (var i = 0; i < optionNodes.length; i++) {
