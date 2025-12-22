@@ -85,7 +85,7 @@
       },
       {
         "questionText": "predator",
-        "questionAudioName": "identify_and_tap_on_the_prey.mp3",
+        "questionAudioName": "identify_and_tap_on_the_predator.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "blankframe.png",
         "isOptionText": false,
