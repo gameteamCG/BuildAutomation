@@ -124,10 +124,10 @@
         "numberOfOptions": 3,
         "options": [
           "e",
-          "m",
+          "M",
           "g"
         ],
-        "correctAnswer": "meg",
+        "correctAnswer": "Meg",
         "reiterationAudioName": "20408627_6_meg.mp3"
       },
       {

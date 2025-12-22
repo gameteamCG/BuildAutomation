@@ -522,7 +522,7 @@ export default class NewClass extends cc.Component {
                             cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
                         }
                         let handNode = this.node.getChildByName("handClick");
-                        if (this.currScene <= 3) {
+                        if (startGame.Instance.currentLevel == 1) {
                             handNode.active = true;
                             handNode.getComponent(cc.Animation).play();
                             handNode.getComponent(cc.Animation).on("finished", () => {
@@ -858,19 +858,24 @@ export default class NewClass extends cc.Component {
         this.scheduleOnce(() => {
             let pos: cc.Vec2 = cc.v2(this.wordsNode.children[0].getPosition().x, this.wordsNode.children[0].getPosition().y - 250);
             let pos2: cc.Vec2 = cc.v2(this.wordsNode.children[1].getPosition().x, this.wordsNode.children[1].getPosition().y - 250);
-            let handNode = this.node.getChildByName("handClick1");
-            handNode.setPosition(pos);
-            handNode.active = true;
-            handNode.getComponent(cc.Animation).play();
-            cc.tween(handNode).to(1, { x: pos2.x, y: pos2.y }, { easing: "sineInOut" }).start();
-            this.scheduleOnce(() => {
-                handNode.active = false;
-                // this.selectable= true;
-                // this.scheduleOnce(() => {
-                //     this.wordSwap(this.node.getChildByName("words").children[0], this.node.getChildByName("words").children[1], -250, 0);
-                // }, 0);
+            if (startGame.Instance.currentLevel == 1) {
+                let handNode = this.node.getChildByName("handClick1");
+                handNode.setPosition(pos);
+                handNode.active = true;
+                handNode.getComponent(cc.Animation).play();
+                cc.tween(handNode).to(1, { x: pos2.x, y: pos2.y }, { easing: "sineInOut" }).start();
+                this.scheduleOnce(() => {
+                    handNode.active = false;
+                    // this.selectable= true;
+                    // this.scheduleOnce(() => {
+                    //     this.wordSwap(this.node.getChildByName("words").children[0], this.node.getChildByName("words").children[1], -250, 0);
+                    // }, 0);
+                    this.EndDrag();
+                }, 1);
+            }
+            else {
                 this.EndDrag();
-            }, 1);
+            }
         }, this.wordVoQuestion.duration - 1);
     }
 
