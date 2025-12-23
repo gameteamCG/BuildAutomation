@@ -7,7 +7,7 @@
     "additionalData": {
       "GameID": "null",
       "totalLevel": "10",
-      "TitleImageName": "text.png",
+      "TitleImageName": "what_can_happen_in_real_life.png",
       "introBgName": "bg3.png",
       "bgmMusicName": "BGMcooking.mp3",
       "mainBgName": "BG2.png",
@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "Which can happen in real life?",
+        "questionText": "What can happen in real life?",
         "questionAudioName": "vo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -33,7 +33,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Which can happen in real life?",
+        "questionText": "What can happen in real life?",
         "questionAudioName": "vo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -50,7 +50,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Which can happen in real life?",
+        "questionText": "What can happen in real life?",
         "questionAudioName": "vo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -67,7 +67,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Which can happen in real life?",
+        "questionText": "What can happen in real life?",
         "questionAudioName": "vo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -84,7 +84,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Which can happen in real life?",
+        "questionText": "What can happen in real life?",
         "questionAudioName": "vo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -101,7 +101,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Which can happen in real life?",
+        "questionText": "What can happen in real life?",
         "questionAudioName": "vo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -118,7 +118,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Which can happen in real life?",
+        "questionText": "What can happen in real life?",
         "questionAudioName": "vo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -135,7 +135,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Which can happen in real life?",
+        "questionText": "What can happen in real life?",
         "questionAudioName": "vo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -152,7 +152,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Which can happen in real life?",
+        "questionText": "What can happen in real life?",
         "questionAudioName": "vo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -169,7 +169,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Which can happen in real life?",
+        "questionText": "What can happen in real life?",
         "questionAudioName": "vo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",

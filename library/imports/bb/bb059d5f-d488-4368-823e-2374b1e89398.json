@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "what_can_happen_in_real_life",
+    "texture": "780893f0-2d4a-46f0-847d-682f5f2dc982",
+    "atlas": "",
+    "rect": [
+      18,
+      18,
+      1264,
+      428
+    ],
+    "offset": [
+      9,
+      9.5
+    ],
+    "originalSize": [
+      1282,
+      483
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
