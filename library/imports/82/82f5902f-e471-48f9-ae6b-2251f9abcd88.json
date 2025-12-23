@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "Opposite of heathy hood",
+        "questionText": "Opposites",
         "questionImageName": "500x500_0004_healthy-food.png",
         "questionAudioName": "Tapontheoppositeofhealthyfood.mp3",
         "shouldPlayQuestionAudio": true,
@@ -30,7 +30,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Opposite of inside",
+        "questionText": "Opposites",
         "questionImageName": "catinside.png",
         "questionAudioName": "L2Q.mp3",
         "shouldPlayQuestionAudio": true,
@@ -45,7 +45,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Opposite of young",
+        "questionText": "Opposites",
         "questionImageName": "young.png",
         "questionAudioName": "L3q.mp3",
         "shouldPlayQuestionAudio": true,
@@ -60,7 +60,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Opposite of thick",
+        "questionText": "Opposites",
         "questionImageName": "bottle_w-8.png",
         "questionAudioName": "Opposite of thick.mp3",
         "shouldPlayQuestionAudio": true,
@@ -75,7 +75,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Opposite of happy",
+        "questionText": "Opposites",
         "questionImageName": "happy.png",
         "questionAudioName": "L5Q.mp3",
         "shouldPlayQuestionAudio": true,
@@ -90,7 +90,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Opposite of short",
+        "questionText": "Opposites",
         "questionImageName": "500x500_0002_short.png",
         "questionAudioName": "OppositeofShort.mp3",
         "shouldPlayQuestionAudio": true,
@@ -105,7 +105,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Opposite of slow",
+        "questionText": "Opposites",
         "questionImageName": "snailslow.png",
         "questionAudioName": "L7Q.mp3",
         "shouldPlayQuestionAudio": true,
@@ -120,7 +120,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Opposite of hot",
+        "questionText": "Opposites",
         "questionImageName": "Matchishot.png",
         "questionAudioName": "L8Q.mp3",
         "shouldPlayQuestionAudio": true,
