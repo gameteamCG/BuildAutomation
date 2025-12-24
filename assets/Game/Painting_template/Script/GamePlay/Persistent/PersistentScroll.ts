@@ -161,7 +161,7 @@ export default class PersistentScroll extends cc.Component {
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_CANCEL, this._onTouchEnd, this);
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_END, this._onTouchEnd, this);
 
-        this.currentPensilSelection = Constant.ToolsTag.BRUSH;
+        this.currentPensilSelection = Constant.ToolsTag.PENCIL;
 
         // this._instance = this;
 
