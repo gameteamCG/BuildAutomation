@@ -60,6 +60,7 @@ var GamePlay = /** @class */ (function (_super) {
         _this.supercub_font = null;
         _this.jockey = null;
         _this.positiveAudios = [];
+        _this.dislike = null;
         // @property(String)
         _this.questions = [''];
         // @property(cc.SpriteFrame)
@@ -250,6 +251,7 @@ var GamePlay = /** @class */ (function (_super) {
             cc.tween(_this.node.getChildByName("image")).to(0.5, { scale: 0 }, { easing: "sineInOut" })
                 .to(0.5, { scale: 0.75 }, { easing: "sineInOut" }).start();
             cc.tween(_this.questionNode).to(0.5, { y: _this.Ypos }, { easing: "sineInOut" }).start();
+            console.log(_this.totalLevels, "****");
             if (_this.currentLevel < _this.totalLevels) {
                 console.log("currentLevel = ", _this.currentLevel);
                 _this.callJockey();
@@ -291,6 +293,7 @@ var GamePlay = /** @class */ (function (_super) {
                 _this.jockey.getComponent(sp.Skeleton).setAnimation(0, "idle", false);
                 cc.tween(_this.jockey).to(0.5, { x: 2000 }, { easing: "quartInOut" }).start();
                 console.log("characterDisappear--Lion");
+                _this.node.getChildByName("like").getComponent(cc.Sprite).spriteFrame = _this.dislike;
             }, _this.positiveAudios[num].duration);
         }, 0.5);
     };
@@ -370,6 +373,9 @@ var GamePlay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], GamePlay.prototype, "positiveAudios", void 0);
+    __decorate([
+        property(cc.SpriteFrame)
+    ], GamePlay.prototype, "dislike", void 0);
     GamePlay = GamePlay_1 = __decorate([
         ccclass
     ], GamePlay);

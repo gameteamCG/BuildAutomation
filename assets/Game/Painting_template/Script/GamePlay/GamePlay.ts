@@ -45,6 +45,9 @@ export default class GamePlay extends cc.Component {
     jockey: cc.Node = null;
     @property(cc.AudioClip)
     positiveAudios: cc.AudioClip[] = [];
+
+    @property(cc.SpriteFrame)
+    dislike: cc.SpriteFrame = null;
     // @property(String)
     questions: string[] = [''];
     // @property(cc.SpriteFrame)
@@ -250,6 +253,7 @@ export default class GamePlay extends cc.Component {
             cc.tween(this.node.getChildByName("image")).to(0.5, { scale: 0 }, { easing: "sineInOut" })
                 .to(0.5, { scale: 0.75 }, { easing: "sineInOut" }).start();
             cc.tween(this.questionNode).to(0.5, { y: this.Ypos }, { easing: "sineInOut" }).start();
+            console.log(this.totalLevels, "****");
 
             if (this.currentLevel < this.totalLevels) {
                 console.log("currentLevel = ", this.currentLevel)
@@ -257,11 +261,13 @@ export default class GamePlay extends cc.Component {
                 this.scheduleOnce(() => {
                     console.log("levelStarted--" + (this.currentLevel + 1));
                     cc.audioEngine.stopAllEffects();
+
                     this.scheduleOnce(() => {
                         cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
                         this.node.getChildByName("image").getComponent(cc.Sprite).spriteFrame = this.questionImage[this.currentLevel];
                         this.currentLevel++;
                         this.addDrawing();
+
                     }, 0.5);
                     this.questionNode.children[0].getComponent(cc.Label).string = this.questions[this.currentLevel];
                 }, this.jockeywait + 1);
@@ -293,6 +299,7 @@ export default class GamePlay extends cc.Component {
                 this.jockey.getComponent(sp.Skeleton).setAnimation(0, "idle", false);
                 cc.tween(this.jockey).to(0.5, { x: 2000 }, { easing: "quartInOut" }).start();
                 console.log("characterDisappear--Lion");
+                this.node.getChildByName("like").getComponent(cc.Sprite).spriteFrame = this.dislike;
             }, this.positiveAudios[num].duration);
         }, 0.5);
 

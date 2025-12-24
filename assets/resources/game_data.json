@@ -1,7 +1,7 @@
 {
   "additionalData": {
     "GameID": "Draw your favourite meal",
-    "totalLevel": "3",
+    "totalLevel": "2",
     "TitleImageName": "draw_your_meal.png",
     "introBgName": "titlebg.png",
     "bgmMusicName": "Kids_Game_1.mp3",
@@ -11,7 +11,7 @@
   },
   "questionData": [
     {
-      "questionText": "Favourite breakfast food item",
+      "questionText": "Draw the things that you like to do",
       "questionImageName": "blankframe.png",
       "questionAudioName": "draw_your_favourite_breakfast.mp3",
       "shouldPlayQuestionAudio": true,
@@ -20,22 +20,13 @@
       "correctAudioName": "GREATWORK.mp3"
     },
     {
-      "questionText": "Favourite lunch food item",
+      "questionText": "Draw the things that you don't like to do",
       "questionImageName": "blankframe.png",
       "questionAudioName": "draw_your_favourite_lunch.mp3",
       "shouldPlayQuestionAudio": false,
       "pictureImageName": "blankframe.png",
       "needMoreTools": true,
       "correctAudioName": "FANTASTIC.mp3"
-    },
-    {
-      "questionText": "Favourite dinner food item",
-      "questionImageName": "blankframe.png",
-      "questionAudioName": "Draw_your favourite_dinner_food_items.mp3",
-      "shouldPlayQuestionAudio": true,
-      "pictureImageName": "blankframe.png",
-      "needMoreTools": true,
-      "correctAudioName": "INCREDIBLE.mp3"
     }
   ]
 }

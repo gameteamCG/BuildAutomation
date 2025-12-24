@@ -451,7 +451,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -96.573,
+        0,
         -100,
         0,
         0,
@@ -968,9 +968,7 @@
     "_headAniInfo": null,
     "_playTimes": 0,
     "_isAniComplete": true,
-    "_N$skeletonData": {
-      "__uuid__": "02b60985-463e-42ce-b1e5-9173efd43fff"
-    },
+    "_N$skeletonData": null,
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
     "_N$debugBones": false,

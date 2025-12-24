@@ -1,22 +1,22 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "lion00012",
-    "texture": "dea0f4cd-b2ee-4d1f-8b7a-9b2ee7557058",
+    "name": "Asset 571",
+    "texture": "4d018359-eb4d-4a83-8818-434118586814",
     "atlas": "",
     "rect": [
-      2,
-      3,
-      2041,
-      1912
+      6,
+      7,
+      268,
+      1125
     ],
     "offset": [
       0,
-      -0.5
+      0
     ],
     "originalSize": [
-      2045,
-      1917
+      280,
+      1139
     ],
     "capInsets": [
       0,
