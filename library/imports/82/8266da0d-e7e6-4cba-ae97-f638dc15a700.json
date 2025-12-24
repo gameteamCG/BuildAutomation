@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "5",
+      "TitleImageName": "text.png",
+      "introBgName": "bgtitle.png",
+      "bgmMusicName": "B2.mp3",
+      "mainBgName": "BG (4).png",
+      "JockeyName": "supercub",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "out",
+        "questionAudioName": "outcave.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0007_outside-cave.png",
+          "500x500_0006_inside-cave.png"
+        ],
+        "correctAudios": [
+          "GREATWORK.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "in",
+        "questionAudioName": "incar.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0001_outside-car.png",
+          "500x500_0001_inside-car.png"
+        ],
+        "correctAudios": [
+          "EXCELLENTJOB.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "out",
+        "questionAudioName": "outhouse.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0004_outside-house.png",
+          "500x500_0005_inside-house.png"
+        ],
+        "correctAudios": [
+          "BRILLIANT.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "in",
+        "questionAudioName": "inlift.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0002_outside-lift.png",
+          "500x500_0003_inside-lift.png"
+        ],
+        "correctAudios": [
+          "GREATWORK.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "out",
+        "questionAudioName": "outtent.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "500x500_0008_outside-tent.png",
+          "500x500_0009_inside-tent.png"
+        ],
+        "correctAudios": [
+          "EXCELLENTJOB.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

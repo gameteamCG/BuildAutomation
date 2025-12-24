@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0006_inside-cave",
+    "texture": "5c1d5c9a-d8aa-4fa7-913e-1b99b8de60d3",
+    "atlas": "",
+    "rect": [
+      0,
+      74,
+      494,
+      337
+    ],
+    "offset": [
+      -3,
+      7.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

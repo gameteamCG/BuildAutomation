@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0003_inside-lift",
+    "texture": "aeb2f3ac-d359-402d-8170-fbb234e5dded",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      498,
+      497
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
