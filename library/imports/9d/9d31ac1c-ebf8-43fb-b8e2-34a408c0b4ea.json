@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "behingor",
+    "texture": "a7da3d4f-33ad-460a-baf6-f776d07d5652",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      554,
+      227
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      554,
+      227
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

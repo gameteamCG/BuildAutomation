@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "be2867f5-8927-4a71-9073-14bdd809cfe5",
+  "uuid": "35010480-ac36-49b1-adbf-a64fe5d78af1",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "QuestionCard": {
       "ver": "1.0.6",
-      "uuid": "16aa4d9c-6d61-4194-bce9-88733f0f9386",
+      "uuid": "7549d5bf-81aa-4e38-988a-60302552e6ff",
       "importer": "sprite-frame",
-      "rawTextureUuid": "be2867f5-8927-4a71-9073-14bdd809cfe5",
+      "rawTextureUuid": "35010480-ac36-49b1-adbf-a64fe5d78af1",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

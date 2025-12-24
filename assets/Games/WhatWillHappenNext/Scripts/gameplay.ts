@@ -443,7 +443,7 @@ export default class NewClass extends cc.Component {
                 let objScale: number = 0;
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 if (startGame.Instance.templateType == "SimpleTap") {
-                    objScale = 1.4;
+                    objScale = 1.1;
                 }
                 else if (startGame.Instance.templateType == "TapToCollect") {
                     objScale = 0.5;
@@ -454,7 +454,7 @@ export default class NewClass extends cc.Component {
                 //console.log("isOptionBg");
                 if (!this.isOptionBG) {
                     this.node.getChildByName("Option").children.forEach((element) => {
-                        element.getChildByName("img").scale = 1.4;
+                        element.getChildByName("img").scale = 1.1;
                     })
                 }
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))

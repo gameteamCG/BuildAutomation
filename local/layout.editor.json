@@ -5,21 +5,21 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -8,
-      "y": -8,
-      "width": 1382,
-      "height": 744,
+      "x": 0,
+      "y": 0,
+      "width": 1366,
+      "height": 728,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 446,
-            "height": 626,
+            "width": 440.75,
+            "height": 610,
             "type": "dock-v",
             "children": [
               {
-                "width": 446,
-                "height": 313.984375,
+                "width": 440.75,
+                "height": 305.921875,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 446,
-                "height": 309,
+                "width": 440.75,
+                "height": 301.0625,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 525,
-            "height": 626,
+            "width": 518.828125,
+            "height": 610,
             "type": "dock-v",
             "children": [
               {
-                "width": 525,
-                "height": 314,
+                "width": 518.828125,
+                "height": 305.921875,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 525,
-                "height": 309,
+                "width": 518.828125,
+                "height": 301.0625,
                 "type": "panel",
                 "active": 2,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 389,
-            "height": 626,
+            "width": 384.421875,
+            "height": 610,
             "type": "panel",
             "active": 0,
             "children": [

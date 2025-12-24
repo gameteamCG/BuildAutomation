@@ -837,8 +837,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -133.647,
-        -120.668,
+        -168.54,
+        -157.886,
         0,
         0,
         0,
@@ -1507,7 +1507,7 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 80,
+    "_fontSize": 75,
     "_lineHeight": 110,
     "_enableWrapText": true,
     "_N$file": {

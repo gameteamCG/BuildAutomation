@@ -392,7 +392,7 @@ var NewClass = /** @class */ (function (_super) {
                 var objScale = 0;
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 if (StartGame_1.default.Instance.templateType == "SimpleTap") {
-                    objScale = 1.4;
+                    objScale = 1.1;
                 }
                 else if (StartGame_1.default.Instance.templateType == "TapToCollect") {
                     objScale = 0.5;
@@ -403,7 +403,7 @@ var NewClass = /** @class */ (function (_super) {
                 //console.log("isOptionBg");
                 if (!_this.isOptionBG) {
                     _this.node.getChildByName("Option").children.forEach(function (element) {
-                        element.getChildByName("img").scale = 1.4;
+                        element.getChildByName("img").scale = 1.1;
                     });
                 }
                 cc.tween(_this.node.getChildByName("Option").getChildByName(i.toString()))
