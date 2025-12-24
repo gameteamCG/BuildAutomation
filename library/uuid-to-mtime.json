@@ -1145,8 +1145,8 @@
     "relativePath": "Game\\Painting_template\\Scene\\MainMenu.fire"
   },
   "423ad13b-f436-4a08-a3bc-baa23f33d9f2": {
-    "asset": 1766576577884,
-    "meta": 1766576577887,
+    "asset": 1766576793855,
+    "meta": 1766576793860,
     "relativePath": "Game\\Painting_template\\Scene\\gameEnded.fire"
   },
   "d69f5bd4-e539-45cc-a9d8-86833cbb0de6": {
@@ -4259,11 +4259,6 @@
     "meta": 1766576177708,
     "relativePath": "resources\\audios"
   },
-  "d857b74a-be0b-4421-ace5-3cae15f16a43": {
-    "asset": 1766576177691,
-    "meta": 1766576177724,
-    "relativePath": "resources\\game_data.json"
-  },
   "39565b1a-12ec-4c1d-bb43-c0ac49b19db1": {
     "asset": 1766576177695,
     "meta": 1766576177743,
@@ -4333,5 +4328,10 @@
     "asset": 1766576369962,
     "meta": 1766576371209,
     "relativePath": "Game\\Painting_template\\Script\\GamePlay\\Persistent\\PersistentScroll.ts"
+  },
+  "d857b74a-be0b-4421-ace5-3cae15f16a43": {
+    "asset": 1766576792438,
+    "meta": 1766576793598,
+    "relativePath": "resources\\game_data.json"
   }
 }
