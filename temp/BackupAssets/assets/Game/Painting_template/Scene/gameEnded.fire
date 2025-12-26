@@ -882,7 +882,7 @@
       "__id__": 17
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 19
@@ -956,7 +956,7 @@
     "defaultAnimation": "positive_5",
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "loop": false,
+    "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 1,
     "_accTime": 0,

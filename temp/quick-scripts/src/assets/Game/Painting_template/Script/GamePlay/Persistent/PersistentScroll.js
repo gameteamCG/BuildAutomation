@@ -130,6 +130,7 @@ var PersistentScroll = /** @class */ (function (_super) {
     __extends(PersistentScroll, _super);
     function PersistentScroll() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.questionAud = null;
         _this.hand = null;
         _this.tickBtn = null;
         _this.TileSelectionListArray = [];
@@ -189,7 +190,7 @@ var PersistentScroll = /** @class */ (function (_super) {
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_MOVE, this._onTouchMoved, this);
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_CANCEL, this._onTouchEnd, this);
         this.rightNode.getChildByName("scroll").on(cc.Node.EventType.TOUCH_END, this._onTouchEnd, this);
-        this.currentPensilSelection = Constant_1.Constant.ToolsTag.BRUSH;
+        this.currentPensilSelection = Constant_1.Constant.ToolsTag.PENCIL;
         // this._instance = this;
         console.log("count = ", this.count);
         this.count++;
@@ -526,8 +527,20 @@ var PersistentScroll = /** @class */ (function (_super) {
             this.currentDrawingScript.currentstensil.pop();
         }
     };
+    PersistentScroll.prototype.playquestionsound = function () {
+        var _this = this;
+        this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAud, false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.questionAud.duration + 0.1);
+    };
     var PersistentScroll_1;
     PersistentScroll.instance = null;
+    __decorate([
+        property(cc.AudioClip)
+    ], PersistentScroll.prototype, "questionAud", void 0);
     __decorate([
         property(cc.Node)
     ], PersistentScroll.prototype, "hand", void 0);

@@ -1,0 +1,23 @@
+{
+  "additionalData": {
+    "GameID": "Draw your favourite toys",
+    "totalLevel": "1",
+    "TitleImageName": "Asset 7.png",
+    "introBgName": "bg.png",
+    "bgmMusicName": "BGM Backward-.mp3",
+    "initialVOName": "",
+    "mainBgName": "colourbg3.png",
+    "JockeyName": "supercub"
+  },
+  "questionData": [
+    {
+      "questionText": "favourite toy",
+      "questionImageName": "favourite toy.png",
+      "questionAudioName": "draw your favourite toy.mp3",
+      "shouldPlayQuestionAudio": true,
+      "pictureImageName": "blankframe.png",
+      "needMoreTools": true,
+      "correctAudioName": "BRILLIANT.mp3"
+    }
+  ]
+}
