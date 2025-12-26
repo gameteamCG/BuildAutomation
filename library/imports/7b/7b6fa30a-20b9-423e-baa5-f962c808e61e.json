@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stomach_pain",
+    "texture": "bd6e7259-83a7-412e-aa59-03170ff435ff",
+    "atlas": "",
+    "rect": [
+      144,
+      12,
+      212,
+      475
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
