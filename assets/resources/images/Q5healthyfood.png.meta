@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4df6885e-b4f7-4a4c-a2c7-c55fce03355d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 518,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "Q5healthyfood": {
+      "ver": "1.0.6",
+      "uuid": "1c58fdc0-abe0-407d-aa81-792ee695d3b9",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4df6885e-b4f7-4a4c-a2c7-c55fce03355d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": 4,
+      "trimX": 59,
+      "trimY": 214,
+      "width": 402,
+      "height": 64,
+      "rawWidth": 518,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

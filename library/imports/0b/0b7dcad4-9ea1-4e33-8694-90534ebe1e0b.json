@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brocolli_new",
+    "texture": "024ecbd4-006d-49cb-80e8-da059c5de5ab",
+    "atlas": "",
+    "rect": [
+      133,
+      213,
+      233,
+      59
+    ],
+    "offset": [
+      -1,
+      8
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

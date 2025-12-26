@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3broccoli",
+    "texture": "21af1a86-c222-4412-9b2c-8414309397cb",
+    "atlas": "",
+    "rect": [
+      126,
+      212,
+      270,
+      53
+    ],
+    "offset": [
+      2,
+      11.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

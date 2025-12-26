@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q5healthyfood",
+    "texture": "4df6885e-b4f7-4a4c-a2c7-c55fce03355d",
+    "atlas": "",
+    "rect": [
+      59,
+      214,
+      402,
+      64
+    ],
+    "offset": [
+      1,
+      4
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
