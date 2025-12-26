@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pam_new",
+    "texture": "4e136fab-5538-40d8-b04f-059f69964b18",
+    "atlas": "",
+    "rect": [
+      104,
+      119,
+      293,
+      262
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

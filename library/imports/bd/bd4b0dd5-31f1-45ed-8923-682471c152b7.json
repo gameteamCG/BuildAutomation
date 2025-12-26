@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kneww_new",
+    "texture": "d38c45e2-610f-4080-a981-d96b8ae12bd9",
+    "atlas": "",
+    "rect": [
+      101,
+      138,
+      215,
+      242
+    ],
+    "offset": [
+      -42,
+      -9
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

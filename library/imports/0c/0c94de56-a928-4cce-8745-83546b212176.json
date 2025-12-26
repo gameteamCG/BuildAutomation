@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eyebrow_new",
+    "texture": "59f84be2-932a-46b0-8009-a2dbb87fb448",
+    "atlas": "",
+    "rect": [
+      127,
+      213,
+      265,
+      108
+    ],
+    "offset": [
+      9.5,
+      -16.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
