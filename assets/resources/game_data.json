@@ -1,0 +1,67 @@
+{
+  "AdditionalData": {
+    "GameID": "null",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/63130892_Healthy_habits_02_1710517889822.mp4",
+    "TitleImageName": "healthyhabbits.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "supercub",
+    "TotalLevel": "3"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "healthy_new.png",
+      "QuestionAudioName": "Choose_the healthy_kid.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "weekkids.png",
+        "healthy_and_strong_child1.png"
+      ],
+      "ReiterationAudioName": "GOODJOB.mp3",
+      "CorrectAudioName": "healthy_and_strong_child.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "healthy_child.png",
+      "QuestionAudioName": "Identify_the_picture_of_the_healthy_child.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "child_in_clean_clothes.png",
+        "dirtycloth.png"
+      ],
+      "ReiterationAudioName": "IMPRESSIVEWORK.mp3",
+      "CorrectAudioName": "child_in_clean_cloth.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "healthy_habit.png",
+      "QuestionAudioName": "Click_on_the healthy_habit.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "watching_television.png",
+        "play_and_exercise.png"
+      ],
+      "ReiterationAudioName": "INCREDIBLE.mp3",
+      "CorrectAudioName": "play_and_exercise.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}

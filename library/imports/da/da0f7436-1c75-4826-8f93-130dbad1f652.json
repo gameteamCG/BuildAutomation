@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3healthyhabit",
+    "texture": "943a81bf-0473-41bb-b41e-93652c8d5c6a",
+    "atlas": "",
+    "rect": [
+      45,
+      212,
+      435,
+      66
+    ],
+    "offset": [
+      3.5,
+      5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

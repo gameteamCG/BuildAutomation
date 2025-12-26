@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "weekkids",
+    "texture": "d22ff5af-836f-4cbc-8285-1cf48396d167",
+    "atlas": "",
+    "rect": [
+      22,
+      12,
+      200,
+      227
+    ],
+    "offset": [
+      -3.5,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

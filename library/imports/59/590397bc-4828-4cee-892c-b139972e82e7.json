@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dirtycloth",
+    "texture": "d4804f03-70e9-4819-a999-519425fe8d45",
+    "atlas": "",
+    "rect": [
+      61,
+      13,
+      129,
+      225
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

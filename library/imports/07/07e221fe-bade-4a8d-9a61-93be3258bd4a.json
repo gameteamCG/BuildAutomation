@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "healthy_child",
+    "texture": "1f92f0db-a9a1-400f-9db5-7dcd3f4254c7",
+    "atlas": "",
+    "rect": [
+      26,
+      215,
+      450,
+      91
+    ],
+    "offset": [
+      0.5,
+      -10
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
