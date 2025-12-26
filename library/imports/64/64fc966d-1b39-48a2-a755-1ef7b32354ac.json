@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "candy",
+    "texture": "2b3a1d09-11d3-47f0-9041-401d964d627c",
+    "atlas": "",
+    "rect": [
+      17,
+      17,
+      467,
+      467
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

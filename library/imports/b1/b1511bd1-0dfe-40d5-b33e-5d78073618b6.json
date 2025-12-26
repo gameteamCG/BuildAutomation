@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bread_Hue_Saturation",
+    "texture": "569f5881-6af2-4b35-9389-db386d7744b7",
+    "atlas": "",
+    "rect": [
+      7,
+      89,
+      487,
+      297
+    ],
+    "offset": [
+      0.5,
+      12.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

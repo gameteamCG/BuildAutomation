@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "porridge_Hue_Saturation",
+    "texture": "9ed4a343-dcf5-405d-a1e7-cbba511c9cd0",
+    "atlas": "",
+    "rect": [
+      7,
+      97,
+      487,
+      307
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

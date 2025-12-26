@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dal_bawl_Hue_Saturation",
+    "texture": "4edf1153-24c1-4a19-b17b-7f842b5acc2a",
+    "atlas": "",
+    "rect": [
+      5,
+      93,
+      492,
+      347
+    ],
+    "offset": [
+      0.5,
+      -16
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

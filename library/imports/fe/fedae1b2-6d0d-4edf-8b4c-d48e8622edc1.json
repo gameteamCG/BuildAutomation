@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Orange_juice_Hue_Saturation",
+    "texture": "2d9cf443-bb21-4e8f-a12c-0935069dba39",
+    "atlas": "",
+    "rect": [
+      52,
+      9,
+      396,
+      483
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

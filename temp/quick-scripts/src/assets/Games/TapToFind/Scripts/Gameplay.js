@@ -55,6 +55,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.reiterationAudio = [];
         _this.currentJockey = null;
         _this.maxLevel = 0;
+        _this.questionpanelarray = ["Healthy food", "Healthy food", "Unhealthy food", "Healthy food", "Unhealthy food", "Healthy food", "Unhealthy food", "Healthy food", "Unhealthy food"];
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
@@ -91,6 +92,7 @@ var Gameplay = /** @class */ (function (_super) {
         this.options = this.node.getChildByName(this.optionsLayout);
         this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
         this.maxLevel = StartGame_1.default.Instance.TotalLevels;
+        this.node.getChildByName("questionpanel").children[0].getComponent(cc.Label).string = this.questionpanelarray[StartGame_1.default.Instance.currentLevel];
         if (StartGame_1.default.Instance.currentLevel == this.maxLevel) {
             cc.director.preloadScene("gameEnd");
         }
@@ -304,10 +306,14 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            this.arrangeGridChildren(this.options, 180, _optionCount);
+            this.options.y = -150;
+            console.log(this.options.y);
         }
         else {
-            this.arrangeChildren(this.options, 80);
+            this.options.y = -150;
+            this.arrangeChildren(this.options, 180);
+            console.log(this.options.y);
         }
         if (this.optionsLayout == "layout1") {
             var _laypout1posY = [-150, 100, -100, 0, 50];
@@ -743,6 +749,15 @@ var Gameplay = /** @class */ (function (_super) {
             }
             callback(audioClip);
         });
+    };
+    Gameplay.prototype.playsoundbutton = function () {
+        var _this = this;
+        this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration + 0.1);
     };
     __decorate([
         property(cc.Font)

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Vegetable_salad_bowl_Hue_Saturation",
+    "texture": "c32dbda1-2907-418b-b402-62b057ef9d0e",
+    "atlas": "",
+    "rect": [
+      22,
+      89,
+      458,
+      324
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

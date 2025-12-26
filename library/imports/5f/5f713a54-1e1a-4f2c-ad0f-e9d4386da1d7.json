@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "frozen_yogurt_Hue_Saturation",
+    "texture": "888daf36-7485-43c0-a4af-5fff6575e948",
+    "atlas": "",
+    "rect": [
+      31,
+      22,
+      439,
+      458
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

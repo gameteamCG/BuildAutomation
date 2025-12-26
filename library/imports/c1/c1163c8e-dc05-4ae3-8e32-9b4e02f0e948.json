@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rice_Hue_Saturation",
+    "texture": "dffcdd1f-4f7d-4e43-9b8b-a2565d9cfff6",
+    "atlas": "",
+    "rect": [
+      2,
+      68,
+      496,
+      376
+    ],
+    "offset": [
+      -0.5,
+      -5.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

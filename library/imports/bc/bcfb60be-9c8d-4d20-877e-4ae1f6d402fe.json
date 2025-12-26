@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Soda Can_Hue_Saturation",
+    "texture": "8c671d3d-d296-4c72-9536-63507ed7aa5c",
+    "atlas": "",
+    "rect": [
+      117,
+      12,
+      275,
+      485
+    ],
+    "offset": [
+      4,
+      -4
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

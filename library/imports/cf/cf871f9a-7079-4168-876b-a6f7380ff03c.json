@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cake_Hue_Saturation",
+    "texture": "f99ac206-8896-4ef2-bde5-b8931d49fe5f",
+    "atlas": "",
+    "rect": [
+      11,
+      30,
+      474,
+      427
+    ],
+    "offset": [
+      -2.5,
+      7
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

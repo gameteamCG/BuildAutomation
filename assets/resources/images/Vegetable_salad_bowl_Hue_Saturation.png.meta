@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c32dbda1-2907-418b-b402-62b057ef9d0e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Vegetable_salad_bowl_Hue_Saturation": {
+      "ver": "1.0.6",
+      "uuid": "366092bb-06bb-4248-8a95-5ce981c081e2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c32dbda1-2907-418b-b402-62b057ef9d0e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -0.5,
+      "trimX": 22,
+      "trimY": 89,
+      "width": 458,
+      "height": 324,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

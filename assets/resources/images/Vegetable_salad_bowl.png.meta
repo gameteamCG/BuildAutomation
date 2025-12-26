@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "03e75cbc-080d-4dcb-839d-bad1c72b110c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Vegetable_salad_bowl": {
+      "ver": "1.0.6",
+      "uuid": "328874bd-7caa-4239-a517-4f54ad0066b4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "03e75cbc-080d-4dcb-839d-bad1c72b110c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -0.5,
+      "trimX": 22,
+      "trimY": 89,
+      "width": 458,
+      "height": 324,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

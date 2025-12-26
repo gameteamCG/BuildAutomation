@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sandwich_Hue_Saturation",
+    "texture": "dc573943-16dc-40bc-ba0c-13bce9af4d9e",
+    "atlas": "",
+    "rect": [
+      15,
+      104,
+      471,
+      322
+    ],
+    "offset": [
+      0,
+      -14.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

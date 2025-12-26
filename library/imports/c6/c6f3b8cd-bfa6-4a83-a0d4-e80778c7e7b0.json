@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fries_Hue_Saturation",
+    "texture": "809f3aaa-ab46-4edd-9d63-42cfa4702ada",
+    "atlas": "",
+    "rect": [
+      40,
+      12,
+      422,
+      483
+    ],
+    "offset": [
+      0.5,
+      -3
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

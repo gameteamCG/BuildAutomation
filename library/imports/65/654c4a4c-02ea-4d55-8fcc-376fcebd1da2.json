@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icecream_Hue_Saturation",
+    "texture": "5ec16c68-83e1-487e-aba2-81362b4669e8",
+    "atlas": "",
+    "rect": [
+      126,
+      19,
+      285,
+      469
+    ],
+    "offset": [
+      18,
+      -3
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

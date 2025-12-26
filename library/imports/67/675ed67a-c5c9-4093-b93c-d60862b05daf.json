@@ -1,0 +1,194 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Identify healthy and unhealthy food",
+      "totalLevel": "8",
+      "TitleImageName": "Healthy_unhealthy.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "BGM9 (1).mp3",
+      "JockeyName": "supercub"
+    },
+    "questionData": [
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg (5).png",
+        "questionAudioName": "Identify_the_healthy_food_item.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "sandwich.png",
+          "fries.png"
+        ],
+        "optionsBg": [
+          "sandwich_Hue_Saturation.png",
+          "fries_Hue_Saturation.png"
+        ],
+        "correctAudioName": "GOODJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "sandwich.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg (5).png",
+        "questionAudioName": "Identify_the_unhealthy_food_item.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Orange_juice.png",
+          "burger.png"
+        ],
+        "optionsBg": [
+          "Orange_juice_Hue_Saturation.png",
+          "burger_Hue_Saturation.png"
+        ],
+        "correctAudioName": "IMPRESSIVEWORK.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "burger.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg (5).png",
+        "questionAudioName": "Identify_the_healthy_food_item.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "Vegetable_salad_bowl.png",
+          "Soda Can.png"
+        ],
+        "optionsBg": [
+          "Vegetable_salad_bowl_Hue_Saturation.png",
+          "Soda Can_Hue_Saturation.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "vegetable_salad.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg4bg (5)6.png",
+        "questionAudioName": "Identify_the_unhealthy_food_item.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "dal_bawl.png",
+          "candy.png"
+        ],
+        "optionsBg": [
+          "dal_bawl_Hue_Saturation.png",
+          "candy_Hue_Saturation.png"
+        ],
+        "correctAudioName": "FANTASTIC.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "candies.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg (5).png",
+        "questionAudioName": "Identify_the_healthy_food_item.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "porridge.png",
+          "chips.png"
+        ],
+        "optionsBg": [
+          "porridge_Hue_Saturation.png",
+          "chips_Hue_Saturation.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "porridge.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg (5).png",
+        "questionAudioName": "Identify_the_unhealthy_food_item.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "frozen_yogurt.png",
+          "lollipop.png"
+        ],
+        "optionsBg": [
+          "frozen_yogurt_Hue_Saturation.png",
+          "lollipop_Hue_Saturation.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "lollipop.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg (5).png",
+        "questionAudioName": "Identify_the_healthy_food_item.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "icecream.png",
+          "rice.png"
+        ],
+        "optionsBg": [
+          "icecream_Hue_Saturation.png",
+          "rice_Hue_Saturation.png"
+        ],
+        "correctAudioName": "IMPRESSIVEWORK.mp3",
+        "wrongAudioName": "ohoh.mp3",
+        "reiterationAudioName": [
+          "rice_bowl.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "bg (5).png",
+        "questionAudioName": "Identify_the_unhealthy_food_item.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "cake.png",
+          "rice.png"
+        ],
+        "optionsBg": [
+          "cake_Hue_Saturation.png",
+          "rice_Hue_Saturation.png"
+        ],
+        "correctAudioName": "MAGNIFICENT.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "cake.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

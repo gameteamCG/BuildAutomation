@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "porridge",
+    "texture": "18e84973-c2cd-4b0a-a62e-5caafc5f5211",
+    "atlas": "",
+    "rect": [
+      7,
+      97,
+      487,
+      307
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

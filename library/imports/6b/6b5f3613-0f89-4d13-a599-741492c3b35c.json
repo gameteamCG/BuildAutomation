@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lollipop_Hue_Saturation",
+    "texture": "82c0b0b4-d57f-4e8e-a65a-1769a020384e",
+    "atlas": "",
+    "rect": [
+      47,
+      22,
+      407,
+      457
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -47,6 +47,7 @@ export default class Gameplay extends cc.Component {
 
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
+    questionpanelarray = ["Healthy food", "Healthy food", "Unhealthy food", "Healthy food", "Unhealthy food", "Healthy food", "Unhealthy food", "Healthy food", "Unhealthy food"]
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
@@ -82,6 +83,7 @@ export default class Gameplay extends cc.Component {
         this.options = this.node.getChildByName(this.optionsLayout);
         this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
         this.maxLevel = startGame.Instance.TotalLevels;
+        this.node.getChildByName("questionpanel").children[0].getComponent(cc.Label).string = this.questionpanelarray[startGame.Instance.currentLevel];
         if (startGame.Instance.currentLevel == this.maxLevel) {
             cc.director.preloadScene("gameEnd");
         }
@@ -281,10 +283,14 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            this.arrangeGridChildren(this.options, 180, _optionCount);
+            this.options.y = -150;
+            console.log(this.options.y);
         }
         else {
-            this.arrangeChildren(this.options, 80);
+            this.options.y = -150;
+            this.arrangeChildren(this.options, 180);
+            console.log(this.options.y);
         }
         if (this.optionsLayout == "layout1") {
             let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
@@ -743,5 +749,14 @@ export default class Gameplay extends cc.Component {
             }
             callback(audioClip);
         });
+    }
+    playsoundbutton() {
+        this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
+        }, this.questionAudio.duration + 0.1);
     }
 }
