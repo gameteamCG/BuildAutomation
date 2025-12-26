@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bangan",
+    "texture": "1fb823f5-2f52-440d-b032-9a31f295de98",
+    "atlas": "",
+    "rect": [
+      37,
+      17,
+      176,
+      222
+    ],
+    "offset": [
+      -0.5,
+      -3
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

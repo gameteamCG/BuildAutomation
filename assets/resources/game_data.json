@@ -1,0 +1,121 @@
+{
+  "AdditionalData": {
+    "GameID": "null",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Candy-d+Day_line+up_PRO_MP4_x264_1_1710518261621.mp4",
+    "TitleImageName": "healthyfood.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "supercub",
+    "TotalLevel": "6"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "junkfood.png",
+      "QuestionAudioName": "Select_the_junk_food.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "chips.png",
+        "milk.png"
+      ],
+      "ReiterationAudioName": "GOODJOB.mp3",
+      "CorrectAudioName": "chips.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "mityraju2.png",
+      "QuestionAudioName": "Which_food_gives_us_energy.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "cake.png",
+        "healthy_food2.png"
+      ],
+      "ReiterationAudioName": "GREATWORK.mp3",
+      "CorrectAudioName": "vegetables.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Q2healthyfood.png",
+      "QuestionAudioName": "Choose_the_healthy_food.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "watermelon.png",
+        "donut.png"
+      ],
+      "ReiterationAudioName": "EXCEPTIONAL.mp3",
+      "CorrectAudioName": "watermelon.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "teeth.png",
+      "QuestionAudioName": "How_to_keep_our_teeth_healthy.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "chocolate.png",
+        "brushingteeth.png"
+      ],
+      "ReiterationAudioName": "IMPRESSIVEWORK.mp3",
+      "CorrectAudioName": "brushing_teeth.mp3",
+      "WrongAudioName": "nevermind,tryagain.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "mityraju.png",
+      "QuestionAudioName": "Tap_on_what_makes_us_strong.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "cauliflower.png",
+        "softdrinks.png"
+      ],
+      "ReiterationAudioName": "INCREDIBLE.mp3",
+      "CorrectAudioName": "cauliflower.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "2000",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Tooth_decay.png",
+      "QuestionAudioName": "What_leads_to_tooth_cavities.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "bangan.png",
+        "chocolate.png"
+      ],
+      "ReiterationAudioName": "MAGNIFICENT.mp3",
+      "CorrectAudioName": "chocolate.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}

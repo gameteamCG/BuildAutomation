@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2healthyfood",
+    "texture": "86ae2fba-9d71-44c3-92c4-a2a3680d0db2",
+    "atlas": "",
+    "rect": [
+      45,
+      214,
+      412,
+      89
+    ],
+    "offset": [
+      0.5,
+      -8
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
