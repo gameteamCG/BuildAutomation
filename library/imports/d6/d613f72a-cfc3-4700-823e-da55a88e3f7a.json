@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "eyes_new",
+    "texture": "863f8f56-c4f7-4d73-8df0-71b66d8013c5",
+    "atlas": "",
+    "rect": [
+      9,
+      74,
+      234,
+      94
+    ],
+    "offset": [
+      0.5,
+      4.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
