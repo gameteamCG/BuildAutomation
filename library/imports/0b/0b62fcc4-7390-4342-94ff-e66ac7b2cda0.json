@@ -19,7 +19,7 @@
         "questionText": "chest",
         "questionAudioName": "22611191_1_identify_the_chest.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "panel_new.png",
+        "commonOptionImageName": "panel_white_new2.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
@@ -36,7 +36,7 @@
         "questionText": "ear",
         "questionAudioName": "22611191_2_identify_the_ear.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "panel_new.png",
+        "commonOptionImageName": "panel_white_new2.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
@@ -53,13 +53,13 @@
         "questionText": "eyes",
         "questionAudioName": "22611191_3_identify_the_eyes.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "panel_new.png",
+        "commonOptionImageName": "panel_white_new2.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
           "nose_new.png",
-          "eyes_new.png"
+          "correct_eyes_new.png"
         ],
         "correctAudios": [
           "eyes.mp3"
@@ -70,12 +70,12 @@
         "questionText": "hair",
         "questionAudioName": "22611191_4_identify_the_hair.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "panel_new.png",
+        "commonOptionImageName": "panel_white_new2.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "hair_new.png",
+          "correct_hairr_new.png",
           "teeth_new.png"
         ],
         "correctAudios": [
@@ -87,7 +87,7 @@
         "questionText": "hand",
         "questionAudioName": "22611191_5_identify_the_hand.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "panel_new.png",
+        "commonOptionImageName": "panel_white_new2.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
@@ -104,7 +104,7 @@
         "questionText": "knee",
         "questionAudioName": "22611191_6_identify_the_knee.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "panel_new.png",
+        "commonOptionImageName": "panel_white_new2.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
@@ -121,7 +121,7 @@
         "questionText": "leg",
         "questionAudioName": "22611191_7_identify-the_leg.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "panel_new.png",
+        "commonOptionImageName": "panel_white_new2.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
@@ -138,13 +138,13 @@
         "questionText": "mouth",
         "questionAudioName": "22611191_8_identify_the_mouth.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "panel_new.png",
+        "commonOptionImageName": "panel_white_new2.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "mouth_new.png",
-          "too_new.png"
+          "2neww.png",
+          "1neww.png"
         ],
         "correctAudios": [
           "mouth.mp3"
@@ -155,12 +155,12 @@
         "questionText": "nose",
         "questionAudioName": "22611191_9_identify_the_nose.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "panel_new.png",
+        "commonOptionImageName": "panel_white_new2.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "eyes_new.png",
+          "correct_eyes_new.png",
           "nose_new.png"
         ],
         "correctAudios": [
@@ -172,7 +172,7 @@
         "questionText": "teeth",
         "questionAudioName": "22611191_10_identify_the_teeth.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "panel_new.png",
+        "commonOptionImageName": "panel_white_new2.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
@@ -189,13 +189,13 @@
         "questionText": "toes",
         "questionAudioName": "22611191_11_identify_the_toes.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "panel_new.png",
+        "commonOptionImageName": "panel_white_new2.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
           "chest_new.png",
-          "too_new.png"
+          "1neww.png"
         ],
         "correctAudios": [
           "toes.mp3"
@@ -206,7 +206,7 @@
         "questionText": "fingers",
         "questionAudioName": "22611191_12_identify_the_fingers.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "panel_new.png",
+        "commonOptionImageName": "panel_white_new2.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,

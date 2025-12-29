@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "correct_hairr_new",
+    "texture": "e3b50690-154f-41ea-8182-19df8766e1ce",
+    "atlas": "",
+    "rect": [
+      123,
+      158,
+      254,
+      184
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
