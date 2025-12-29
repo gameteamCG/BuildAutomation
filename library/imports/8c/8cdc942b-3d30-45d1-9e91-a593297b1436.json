@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "traffic_signal_outline",
+    "texture": "51f1a694-b4c4-4c9f-b9ec-a9ae0d3178bc",
+    "atlas": "",
+    "rect": [
+      136,
+      11,
+      197,
+      480
+    ],
+    "offset": [
+      -15.5,
+      -1
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
