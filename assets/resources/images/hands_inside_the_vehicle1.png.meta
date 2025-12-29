@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "98b7d8fb-72ae-4138-8c94-959bb0c51cf1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "hands_inside_the_vehicle1": {
+      "ver": "1.0.6",
+      "uuid": "a10c62d2-9f28-4dfb-8c90-8af1b1466eda",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "98b7d8fb-72ae-4138-8c94-959bb0c51cf1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 501,
+      "height": 501,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

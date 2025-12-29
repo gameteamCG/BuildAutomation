@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "6",
+      "TitleImageName": "traffic_rules.png",
+      "introBgName": "bg.png",
+      "bgmMusicName": "bgm_sc.mp3",
+      "mainBgName": "BG (3) (1).png",
+      "JockeyName": "supercub",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "traffic rules",
+        "questionAudioName": "identify_the_safe_situation.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "hands_inside_the_vehicle1.png",
+          "hands_inside_the_vehicle2.png"
+        ],
+        "correctAudios": [
+          "always_keep_your_hands_inside_the_vehicle.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "traffic rules",
+        "questionAudioName": "identify_the_safe_situation.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "always_wear_a_seat_belt2.png",
+          "always_wear_a_seat_belt1.png"
+        ],
+        "correctAudios": [
+          "always_wear_a_seat_belt.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "traffic rules",
+        "questionAudioName": "identify_the_safe_situation.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "cross_the_road_signal_red2.png",
+          "cross_the_road_signal_red1.png"
+        ],
+        "correctAudios": [
+          "cross_the_road_only_when_the_signal_is_red.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "traffic rules",
+        "questionAudioName": "identify_the_safe_situation.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "do_not_distract-driver1.png",
+          "do_not_distract-driver2.png"
+        ],
+        "correctAudios": [
+          "do_not_distract_the-driver-while_he_drives.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "traffic rules",
+        "questionAudioName": "identify_the_safe_situation.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "use_the_zeebra_cross1.png",
+          "use_the_zeebra_cross2.png"
+        ],
+        "correctAudios": [
+          "use_the_zeebra_cross_sing_to_cross_the_road.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "traffic rules",
+        "questionAudioName": "identify_the_safe_situation.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Box_1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "catch_the_bus1.png",
+          "catch_the_bus2.png"
+        ],
+        "correctAudios": [
+          "wait_in_a_queue_to_catch_the_bus.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
