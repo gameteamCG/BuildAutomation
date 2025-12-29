@@ -57,17 +57,17 @@
       {
         "QuestionAppearTime": "2000",
         "IsQuestionText": true,
-        "QuestionText": "meg",
+        "QuestionText": "Meg",
         "QuestionImageName": "",
         "QuestionAudioName": "Tap_on_the_picture_of_Meg.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "baker.png",
-          "dog.png",
-          "meg2.png",
-          "cat_new.png"
+          "ball_new.png",
+          "spin_new.png",
+          "meg_new.png",
+          "pillow_new.png"
         ],
         "ReiterationAudioName": "20408627_6_meg.mp3",
         "CorrectAudioName": "FANTASTIC.mp3",
