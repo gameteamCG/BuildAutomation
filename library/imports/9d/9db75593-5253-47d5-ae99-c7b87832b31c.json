@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q1needfoewater",
+    "texture": "e393b926-752d-4b4f-9ff0-0bcd3679149c",
+    "atlas": "",
+    "rect": [
+      27,
+      214,
+      471,
+      51
+    ],
+    "offset": [
+      3.5,
+      10.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

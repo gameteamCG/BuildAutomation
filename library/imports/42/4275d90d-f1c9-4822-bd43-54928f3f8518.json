@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Importanceofwater",
+    "texture": "c41829f2-164d-4df2-9a0b-6df76ca774d3",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      1023,
+      161
+    ],
+    "offset": [
+      5.5,
+      -3.5
+    ],
+    "originalSize": [
+      1064,
+      206
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

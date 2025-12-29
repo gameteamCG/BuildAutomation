@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3drinkingwater",
+    "texture": "fcee2717-de0b-4848-9a94-4530902f46fe",
+    "atlas": "",
+    "rect": [
+      22,
+      212,
+      479,
+      66
+    ],
+    "offset": [
+      2.5,
+      5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

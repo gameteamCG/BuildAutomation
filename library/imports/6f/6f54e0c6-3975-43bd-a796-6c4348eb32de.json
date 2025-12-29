@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q4howtoriversgetdirty",
+    "texture": "5cef6a8f-7e64-4913-a4e8-11831e97e97c",
+    "atlas": "",
+    "rect": [
+      46,
+      171,
+      432,
+      147
+    ],
+    "offset": [
+      3,
+      5.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

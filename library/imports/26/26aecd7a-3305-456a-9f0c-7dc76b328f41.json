@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q2sourseofwater",
+    "texture": "0285a8a5-4169-4d79-a8b4-216e359ea4d9",
+    "atlas": "",
+    "rect": [
+      11,
+      214,
+      499,
+      51
+    ],
+    "offset": [
+      1.5,
+      10.5
+    ],
+    "originalSize": [
+      518,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
