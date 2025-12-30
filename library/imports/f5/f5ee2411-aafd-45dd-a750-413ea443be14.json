@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "500x500_0002_caterpillar",
+    "texture": "5e688967-fc82-4851-ad63-c2eff0322ccb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      286,
+      273
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      286,
+      273
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

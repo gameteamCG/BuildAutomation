@@ -1,0 +1,133 @@
+{
+  "additionalData": {
+    "GameID": "null",
+    "totalLevel": "7",
+    "TitleImageName": "preyandpredaator.png",
+    "introBgName": "bg.png",
+    "bgmMusicName": "BGM_2.mp3",
+    "mainBgName": "mainbg.png",
+    "JockeyName": "supercub",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "prey",
+      "questionAudioName": "identify_and_tap_on_the_prey.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0009_deer.png",
+        "500x500_0000_lion.png"
+      ],
+      "correctAudios": [
+        "deer_is_a_prey_for_the_predator_lion.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "predator",
+      "questionAudioName": "identify_and_tap_on_the_predator.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0006_frog.png",
+        "eagle.png"
+      ],
+      "correctAudios": [
+        "frog_is_prey_for_the_predator_eagle.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "prey",
+      "questionAudioName": "identify_and_tap_on_the_prey.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0004_rabbit.png",
+        "500x500_0007_tiger.png"
+      ],
+      "correctAudios": [
+        "rabbit_is_prey_for_the_predator_tiger.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "predator",
+      "questionAudioName": "identify_and_tap_on_the_predator.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0010_butterfly.png",
+        "500x500_0011_spider.png"
+      ],
+      "correctAudios": [
+        "butterfly_is_a_prey_for_the_predator_spider.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "prey",
+      "questionAudioName": "identify_and_tap_on_the_prey.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0012_rat.png",
+        "500x500_0005_snake.png"
+      ],
+      "correctAudios": [
+        "mouse_is_a_prey_for_the_predator_snake.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "predator",
+      "questionAudioName": "identify_and_tap_on_the_predator.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0003_bird.png",
+        "wolf.png"
+      ],
+      "correctAudios": [
+        "bird_is_prey_for_the_predator_wolf.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "prey",
+      "questionAudioName": "identify_and_tap_on_the_prey.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "panel.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "500x500_0002_caterpillar.png",
+        "500x500_0003_bird.png"
+      ],
+      "correctAudios": [
+        "caterpillar_is_a_prey_for_the_predator_bird.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}

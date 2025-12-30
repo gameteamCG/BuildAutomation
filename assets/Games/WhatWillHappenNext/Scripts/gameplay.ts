@@ -94,6 +94,9 @@ export default class NewClass extends cc.Component {
     @property(cc.Font)
     private supercub_font: cc.Font = null;
 
+    @property(String)
+    answerText: string[] = [];
+
     private isFirstClick: boolean = false;
     private canTouch: boolean = false;
     private answerArray: string[] = [];
@@ -604,6 +607,7 @@ export default class NewClass extends cc.Component {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             //this.destroyOption();
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerText[globalVariables.Instance.currentLevel - 1]
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveFeedback(_node);
         }
@@ -696,7 +700,7 @@ export default class NewClass extends cc.Component {
                                     elem.getChildByName("img").color = cc.Color.WHITE;
                                 });
                                 this.isLastTween = true;
-                                this.OptionsLayoutHorizontal();
+                                // this.OptionsLayoutHorizontal();
                                 this.canTouch = false;
                                 ProgressBar.Instance.createStarTrails(6, this.node);
                                 this.scheduleOnce(() => {

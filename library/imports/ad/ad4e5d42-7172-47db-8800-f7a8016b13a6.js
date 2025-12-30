@@ -62,6 +62,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.jaipuria_font = null;
         _this.tlc_font = null;
         _this.supercub_font = null;
+        _this.answerText = [];
         _this.isFirstClick = false;
         _this.canTouch = false;
         _this.answerArray = [];
@@ -555,6 +556,7 @@ var NewClass = /** @class */ (function (_super) {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
             //this.destroyOption();
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerText[globalVariables_1.default.Instance.currentLevel - 1];
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveFeedback(_node);
         }
@@ -645,7 +647,7 @@ var NewClass = /** @class */ (function (_super) {
                                     elem.getChildByName("img").color = cc.Color.WHITE;
                                 });
                                 _this.isLastTween = true;
-                                _this.OptionsLayoutHorizontal();
+                                // this.OptionsLayoutHorizontal();
                                 _this.canTouch = false;
                                 ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
                                 _this.scheduleOnce(function () {
@@ -1335,6 +1337,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.Font)
     ], NewClass.prototype, "supercub_font", void 0);
+    __decorate([
+        property(String)
+    ], NewClass.prototype, "answerText", void 0);
     NewClass = __decorate([
         ccclass
     ], NewClass);
