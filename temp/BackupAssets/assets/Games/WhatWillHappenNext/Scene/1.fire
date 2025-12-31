@@ -1511,7 +1511,7 @@
     "_lineHeight": 130,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "3973d65f-94f6-47bd-adab-8f9135d35f89"
+      "__uuid__": "2be76e67-5ec3-4f45-948c-e659d1558bac"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -2108,7 +2108,7 @@
     ],
     "positiveSound": [
       {
-        "__uuid__": "e69f6909-7104-4430-8958-26c918cbc963"
+        "__uuid__": "a95d3145-34f4-4bcf-9799-7d2ad707bf3c"
       }
     ],
     "negativeSound": [

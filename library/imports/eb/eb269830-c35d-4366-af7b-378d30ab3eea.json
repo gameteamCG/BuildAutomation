@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Number 8",
-      "totalLevel": "6",
+      "totalLevel": "4",
       "TitleImageName": "title.png",
       "introBgName": "bgmain.png",
       "bgmMusicName": "BGMLetterT.mp3",
@@ -17,103 +17,69 @@
     "questionData": [
       {
         "questionText": "Eight",
-        "questionAudioName": "quest.mp3",
+        "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_1.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "pear_7.png",
-          "pear_8.png"
+          "6_cows.png",
+          "8_cows.png"
         ],
         "correctAudios": [
-          "empty.mp3"
+          "eight_cows.mp3"
         ],
         "correctAnswerNum": "2"
       },
       {
         "questionText": "Eight",
-        "questionAudioName": "quest.mp3",
+        "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_1.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "pome_8.png",
-          "pome_2.png"
+          "8_ducks.png",
+          "4_ducks.png"
         ],
         "correctAudios": [
-          "empty.mp3"
+          "eight_ducks.mp3"
         ],
         "correctAnswerNum": "1"
       },
       {
         "questionText": "Eight",
-        "questionAudioName": "quest.mp3",
+        "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_1.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "mango_4.png",
-          "mango_8.png"
+          "6_hens.png",
+          "8_hens.png"
         ],
         "correctAudios": [
-          "empty.mp3"
+          "eight_hens.mp3"
         ],
         "correctAnswerNum": "2"
       },
       {
         "questionText": "Eight",
-        "questionAudioName": "quest.mp3",
+        "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_1.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "orange_4.png",
-          "orange_8.png"
+          "7_rabbits.png",
+          "8_rabbits.png"
         ],
         "correctAudios": [
-          "empty.mp3"
-        ],
-        "correctAnswerNum": "2"
-      },
-      {
-        "questionText": "Eight",
-        "questionAudioName": "quest.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Asset_1.png",
-        "isOptionText": false,
-        "isOptionBG": true,
-        "numberOfOptions": 2,
-        "options": [
-          "straw_8.png",
-          "straw_3.png"
-        ],
-        "correctAudios": [
-          "empty.mp3"
-        ],
-        "correctAnswerNum": "1"
-      },
-      {
-        "questionText": "Eight",
-        "questionAudioName": "quest.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Asset_1.png",
-        "isOptionText": false,
-        "isOptionBG": true,
-        "numberOfOptions": 2,
-        "options": [
-          "drag_6.png",
-          "drag_8.png"
-        ],
-        "correctAudios": [
-          "empty.mp3"
+          "eight_rabbits.mp3"
         ],
         "correctAnswerNum": "2"
       }

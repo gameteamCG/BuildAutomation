@@ -25,6 +25,9 @@ require('./assets/Games/WhatWillHappenNext/Scripts/Title');
 require('./assets/Games/WhatWillHappenNext/Scripts/endScreen');
 require('./assets/Games/WhatWillHappenNext/Scripts/gameplay');
 require('./assets/Games/WhatWillHappenNext/Scripts/globalVariables');
+require('./assets/MainAssets/Scripts/FontChanger');
+require('./assets/MainAssets/Scripts/GameEnd');
+require('./assets/MainAssets/Scripts/JockeyController');
 require('./assets/resources/empty');
 
                     }
