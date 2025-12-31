@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "knife",
+    "texture": "a38e58a6-3499-49c0-a6a3-d56e57ec24b2",
+    "atlas": "",
+    "rect": [
+      102,
+      87,
+      297,
+      299
+    ],
+    "offset": [
+      0,
+      14
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "188fbec7-210b-4bbe-a0e9-d024d46e2959",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "razer": {
+      "ver": "1.0.6",
+      "uuid": "bf1b7d8e-79f5-488b-a766-b285e835c935",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "188fbec7-210b-4bbe-a0e9-d024d46e2959",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 7.5,
+      "offsetY": 0,
+      "trimX": 104,
+      "trimY": 96,
+      "width": 308,
+      "height": 309,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

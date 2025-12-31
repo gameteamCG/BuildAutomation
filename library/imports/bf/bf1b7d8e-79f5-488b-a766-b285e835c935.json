@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "razer",
+    "texture": "188fbec7-210b-4bbe-a0e9-d024d46e2959",
+    "atlas": "",
+    "rect": [
+      104,
+      96,
+      308,
+      309
+    ],
+    "offset": [
+      7.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

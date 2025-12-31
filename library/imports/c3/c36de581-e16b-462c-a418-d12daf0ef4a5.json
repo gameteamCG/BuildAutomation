@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "swith_board",
+    "texture": "70d14798-1d04-41b1-a936-7ef46cb97c09",
+    "atlas": "",
+    "rect": [
+      6,
+      118,
+      489,
+      214
+    ],
+    "offset": [
+      0,
+      25.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

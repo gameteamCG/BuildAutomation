@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toaster",
+    "texture": "440b300c-a787-4834-85df-9ac2a918e669",
+    "atlas": "",
+    "rect": [
+      105,
+      67,
+      305,
+      343
+    ],
+    "offset": [
+      7,
+      12
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
