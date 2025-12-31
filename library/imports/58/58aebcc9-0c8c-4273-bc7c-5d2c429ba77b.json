@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "prey",
+        "questionText": "Prey",
         "questionAudioName": "identify_and_tap_on_the_prey.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
@@ -33,7 +33,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "predator",
+        "questionText": "Predator",
         "questionAudioName": "identify_and_tap_on_the_predator.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
@@ -50,7 +50,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "prey",
+        "questionText": "Prey",
         "questionAudioName": "identify_and_tap_on_the_prey.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
@@ -67,7 +67,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "predator",
+        "questionText": "Predator",
         "questionAudioName": "identify_and_tap_on_the_predator.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
@@ -84,7 +84,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "prey",
+        "questionText": "Prey",
         "questionAudioName": "identify_and_tap_on_the_prey.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
@@ -101,7 +101,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "predator",
+        "questionText": "Predator",
         "questionAudioName": "identify_and_tap_on_the_predator.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
@@ -118,7 +118,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "prey",
+        "questionText": "Prey",
         "questionAudioName": "identify_and_tap_on_the_prey.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
