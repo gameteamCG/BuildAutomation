@@ -17,7 +17,7 @@
     "questionData": [
       {
         "questionText": "out",
-        "questionAudioName": "outcave.mp3",
+        "questionAudioName": "6040944_1_tap-on-the-boy-standin.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
         "isOptionText": false,
@@ -34,7 +34,7 @@
       },
       {
         "questionText": "in",
-        "questionAudioName": "incar.mp3",
+        "questionAudioName": "6040944_2_tap-on-the-boy-sitting.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
         "isOptionText": false,
@@ -51,7 +51,7 @@
       },
       {
         "questionText": "out",
-        "questionAudioName": "outhouse.mp3",
+        "questionAudioName": "6040944_3_tap-on-the-boy-standin.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
         "isOptionText": false,
@@ -68,7 +68,7 @@
       },
       {
         "questionText": "in",
-        "questionAudioName": "inlift.mp3",
+        "questionAudioName": "6040944_4_tap-on-the-boy-standin.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
         "isOptionText": false,
@@ -85,7 +85,7 @@
       },
       {
         "questionText": "out",
-        "questionAudioName": "outtent.mp3",
+        "questionAudioName": "6040944_5_tap-on-the-boy-standin.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
         "isOptionText": false,
