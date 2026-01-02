@@ -1,6 +1,7 @@
 
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -166,6 +167,8 @@ export default class NewClass extends cc.Component {
                     this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options.length * 2; i++) {
                         this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        console.log("-------" + this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame.name)
+
                     }
                 });
             }
@@ -215,6 +218,7 @@ export default class NewClass extends cc.Component {
                         const spriteFrame = new cc.SpriteFrame(texture);
                         //this.spriteArray.push(spriteFrame);
                         this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+
                     });
                 }
                 else {
@@ -286,7 +290,14 @@ export default class NewClass extends cc.Component {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
                     this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (spriteFrame) => {
                         //this.spriteArray.push(spriteFrame);
-                        this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        const imgNode = this.node
+                            .getChildByName("Option")
+                            .getChildByName((i + 1).toString())
+                            .getChildByName("img");
+
+                        imgNode.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        imgNode.scale = 1;   // 👈 set scale here
+
                     });
                 }
 
@@ -313,7 +324,7 @@ export default class NewClass extends cc.Component {
                     this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].answers[i - AnswerStartIndex];
                     //this.textArray.push(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].answers[i]);
                 }
-                console.log("Options : ", this.node.getChildByName("Option"));
+                //console.log("Options : ", this.node.getChildByName("Option"));
                 this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("label").name = counter1.toString();
                 counter1++;
             }
@@ -479,6 +490,7 @@ export default class NewClass extends cc.Component {
         }
         for (let i = 1; i <= this.node.getChildByName("Option").children.length; i++) {
             this.node.getChildByName("Option").children[i - 1].opacity = 255;
+            //this.node.getChildByName("Option").children[i - 1].scale = 2;
         }
         this.moveCards();
         this.scheduleOnce(() => {
@@ -525,7 +537,7 @@ export default class NewClass extends cc.Component {
                 let hand = this.node.getChildByName("hand");
                 console.log("answer array num = ", this.answerArray[0]);
                 hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                hand.setPosition(0, -30);
+                //hand.setPosition(0, -30);
                 hand.setParentWithSamePos(this.node);
                 hand.getComponent(cc.Animation).play();
             }
@@ -550,7 +562,7 @@ export default class NewClass extends cc.Component {
                         let hand = this.node.getChildByName("hand");
                         console.log("answer array num = ", this.answerArray[0]);
                         hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                        hand.setPosition(0, -30);
+                        //hand.setPosition(0, -30);
                         hand.setParentWithSamePos(this.node);
                         hand.getComponent(cc.Animation).play();
                     }
@@ -569,7 +581,7 @@ export default class NewClass extends cc.Component {
                                 let hand = this.node.getChildByName("hand");
                                 console.log("answer array num = ", this.answerArray[0]);
                                 hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                                hand.setPosition(0, -30);
+                                //hand.setPosition(0, -30);
                                 hand.setParentWithSamePos(this.node);
                                 hand.getComponent(cc.Animation).play();
                             }
@@ -787,7 +799,7 @@ export default class NewClass extends cc.Component {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (startGame.Instance.jockeyName == "Singham") {
-            anim = ["dance", "thumbs_up"];
+            anim = ["positive_1", "positive_2"];
         }
         else if (startGame.Instance.jockeyName == "Mighty_Raju") {
             anim = ["celebration", "well_done"];

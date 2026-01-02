@@ -352,8 +352,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -14.314,
-        0,
+        16.892,
+        -63.273,
         0,
         0,
         0,
@@ -2669,8 +2669,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 194.68,
-      "height": 440.94
+      "width": 409.26,
+      "height": 351.22
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2738,7 +2738,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "74f9cc7a-8359-4431-b760-ae541fa6e5c1"
+      "__uuid__": "53ad1319-b29a-4482-a88b-35effdc7f005"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,

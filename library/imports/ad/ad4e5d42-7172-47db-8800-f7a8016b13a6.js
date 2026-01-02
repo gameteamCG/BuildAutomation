@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -137,6 +137,7 @@ var NewClass = /** @class */ (function (_super) {
                     _this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options.length * 2; i++) {
                         _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        console.log("-------" + _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame.name);
                     }
                 });
             }
@@ -263,7 +264,12 @@ var NewClass = /** @class */ (function (_super) {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionText) {
                     this_4.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i], function (spriteFrame) {
                         //this.spriteArray.push(spriteFrame);
-                        _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        var imgNode = _this.node
+                            .getChildByName("Option")
+                            .getChildByName((i + 1).toString())
+                            .getChildByName("img");
+                        imgNode.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        imgNode.scale = 1; // 👈 set scale here
                     });
                 }
                 else {
@@ -291,7 +297,7 @@ var NewClass = /** @class */ (function (_super) {
                     this_5.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].answers[i - AnswerStartIndex];
                     //this.textArray.push(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].answers[i]);
                 }
-                console.log("Options : ", this_5.node.getChildByName("Option"));
+                //console.log("Options : ", this.node.getChildByName("Option"));
                 this_5.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("label").name = counter1.toString();
                 counter1++;
             };
@@ -431,6 +437,7 @@ var NewClass = /** @class */ (function (_super) {
         }
         for (var i = 1; i <= this.node.getChildByName("Option").children.length; i++) {
             this.node.getChildByName("Option").children[i - 1].opacity = 255;
+            //this.node.getChildByName("Option").children[i - 1].scale = 2;
         }
         this.moveCards();
         this.scheduleOnce(function () {
@@ -476,7 +483,7 @@ var NewClass = /** @class */ (function (_super) {
                 var hand = this.node.getChildByName("hand");
                 console.log("answer array num = ", this.answerArray[0]);
                 hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                hand.setPosition(0, -30);
+                //hand.setPosition(0, -30);
                 hand.setParentWithSamePos(this.node);
                 hand.getComponent(cc.Animation).play();
             }
@@ -501,7 +508,7 @@ var NewClass = /** @class */ (function (_super) {
                         var hand = _this.node.getChildByName("hand");
                         console.log("answer array num = ", _this.answerArray[0]);
                         hand.setParent(_this.node.getChildByName("Option").getChildByName("1"));
-                        hand.setPosition(0, -30);
+                        //hand.setPosition(0, -30);
                         hand.setParentWithSamePos(_this.node);
                         hand.getComponent(cc.Animation).play();
                     }
@@ -520,7 +527,7 @@ var NewClass = /** @class */ (function (_super) {
                                 var hand = _this.node.getChildByName("hand");
                                 console.log("answer array num = ", _this.answerArray[0]);
                                 hand.setParent(_this.node.getChildByName("Option").getChildByName("1"));
-                                hand.setPosition(0, -30);
+                                //hand.setPosition(0, -30);
                                 hand.setParentWithSamePos(_this.node);
                                 hand.getComponent(cc.Animation).play();
                             }
@@ -730,7 +737,7 @@ var NewClass = /** @class */ (function (_super) {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Singham") {
-            anim = ["dance", "thumbs_up"];
+            anim = ["positive_1", "positive_2"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Mighty_Raju") {
             anim = ["celebration", "well_done"];
