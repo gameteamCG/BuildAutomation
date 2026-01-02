@@ -597,7 +597,7 @@ export default class NewClass extends cc.Component {
         cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).
             bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 120)).
             start();
-        cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).to(0.7, { scale: 0.3 }, { easing: "sineInOut" }).start();
+        cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).to(0.7, { scale: 0.5 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
             //console.log("correctAudio : ", this.correctAudio)
             cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
