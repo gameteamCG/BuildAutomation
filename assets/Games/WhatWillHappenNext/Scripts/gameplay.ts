@@ -1,5 +1,4 @@
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -19,9 +18,6 @@ export default class NewClass extends cc.Component {
 
     @property(cc.AudioClip)
     private popSound: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private popSound2: cc.AudioClip[] = [];
 
     @property(cc.AudioClip)
     private questionSound: cc.AudioClip[] = [];
@@ -696,7 +692,7 @@ export default class NewClass extends cc.Component {
                                     elem.getChildByName("img").color = cc.Color.WHITE;
                                 });
                                 this.isLastTween = true;
-                                this.OptionsLayoutHorizontal();
+                                // this.OptionsLayoutHorizontal();
                                 this.canTouch = false;
                                 ProgressBar.Instance.createStarTrails(6, this.node);
                                 this.scheduleOnce(() => {
@@ -782,7 +778,7 @@ export default class NewClass extends cc.Component {
                                     elem.getChildByName("img").color = cc.Color.WHITE;
                                 });
                                 this.isLastTween = true;
-                                this.OptionsLayoutHorizontal();
+                                // this.OptionsLayoutHorizontal();
                                 ProgressBar.Instance.createStarTrails(6, this.node);
                                 this.scheduleOnce(() => {
                                     ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
@@ -1079,106 +1075,108 @@ export default class NewClass extends cc.Component {
     }
 
     OptionsLayoutHorizontal() {
-        let optionsLayout = this.optionsNode;
-        let optionNodes = optionsLayout.children;
-        // console.log("optionNodes--" + optionNodes.length, optionsLayout.width);
+        this.node.getChildByName("Option").children[0].setPosition(-300, -260)
+        this.node.getChildByName("Option").children[1].setPosition(370, -260)
+        // let optionsLayout = this.optionsNode;
+        // let optionNodes = optionsLayout.children;
+        // // console.log("optionNodes--" + optionNodes.length, optionsLayout.width);
 
-        const paddingBetweenOptions = 10;
+        // const paddingBetweenOptions = 10;
 
-        let totalWidth = 0;
-        let maxHeight = 0;
+        // let totalWidth = 0;
+        // let maxHeight = 0;
 
-        for (let i = 0; i < optionNodes.length; i++) {
-            let option = optionNodes[i];
-            let optionWidth = option.width;
-            let optionHeight = option.height;
+        // for (let i = 0; i < optionNodes.length; i++) {
+        //     let option = optionNodes[i];
+        //     let optionWidth = option.width;
+        //     let optionHeight = option.height;
 
-            totalWidth += optionWidth + paddingBetweenOptions;
-            if (optionHeight > maxHeight) {
-                maxHeight = optionHeight;
-            }
-        }
+        //     totalWidth += optionWidth + paddingBetweenOptions;
+        //     if (optionHeight > maxHeight) {
+        //         maxHeight = optionHeight;
+        //     }
+        // }
 
-        let availableWidth = optionsLayout.width;
-        let totalWidthWithPadding = totalWidth + (optionNodes.length - 1) * paddingBetweenOptions;
-        let scaleFactor = Math.min(1, availableWidth / totalWidthWithPadding);
+        // let availableWidth = optionsLayout.width;
+        // let totalWidthWithPadding = totalWidth + (optionNodes.length - 1) * paddingBetweenOptions;
+        // let scaleFactor = Math.min(1, availableWidth / totalWidthWithPadding);
 
-        let accumulatedWidth = 0;
-        for (let i = 0; i < optionNodes.length; i++) {
-            let option = optionNodes[i];
+        // let accumulatedWidth = 0;
+        // for (let i = 0; i < optionNodes.length; i++) {
+        //     let option = optionNodes[i];
 
-            // Calculate the scale factor for the option
-            let optionScaleFactor = scaleFactor;
-            if (optionNodes.length == 2 && startGame.Instance.templateType == "ObjectsTweenIn" && !this.isLastTween) {
-                optionScaleFactor = optionScaleFactor * 0.7;
-            }
+        //     // Calculate the scale factor for the option
+        //     let optionScaleFactor = scaleFactor;
+        //     if (optionNodes.length == 2 && startGame.Instance.templateType == "ObjectsTweenIn" && !this.isLastTween) {
+        //         optionScaleFactor = optionScaleFactor * 0.7;
+        //     }
 
-            // Scale the option
-            option.width *= optionScaleFactor;
-            option.height *= optionScaleFactor;
-
-
-
-
-            // Calculate position based on anchor and scaled size
-            let posX = accumulatedWidth + (option.width * option.anchorX);
-            if (!this.isLastTween) {
-                option.x = posX - (optionsLayout.width * optionsLayout.anchorX);
-            }
-            else {
-                let optionX = posX - (optionsLayout.width * optionsLayout.anchorX);
-                cc.tween(option).to(0.5, { x: optionX }, { easing: "sineInOut" }).start();
-            }
+        //     // Scale the option
+        //     option.width *= optionScaleFactor;
+        //     option.height *= optionScaleFactor;
 
 
 
 
-            accumulatedWidth += option.width + paddingBetweenOptions;
-            this.positionArray.push(option.getPosition());
+        //     // Calculate position based on anchor and scaled size
+        //     let posX = accumulatedWidth + (option.width * option.anchorX);
+        //     if (!this.isLastTween) {
+        //         option.x = posX - (optionsLayout.width * optionsLayout.anchorX);
+        //     }
+        //     else {
+        //         let optionX = posX - (optionsLayout.width * optionsLayout.anchorX);
+        //         cc.tween(option).to(0.5, { x: optionX }, { easing: "sineInOut" }).start();
+        //     }
 
-            // Scale and position children nodes proportionally
-            for (let subChild of option.children) {
-                subChild.x *= optionScaleFactor;
-                subChild.y *= optionScaleFactor;
-                subChild.width *= optionScaleFactor;
-                subChild.height *= optionScaleFactor;
-                //console.log("subChild--", subChild.name);
-            }
-        }
 
-        optionsLayout.height = maxHeight * scaleFactor;
 
-        if (optionNodes.length == 2) {
-            if (!this.isLastTween) {
-                let distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
-                optionNodes[0].x = 0 - distanceBetweenOptions / 2;
-                optionNodes[1].x = 0 + distanceBetweenOptions / 2;
-                optionNodes[0].y = optionNodes[0].y - 50;
-                optionNodes[1].y = optionNodes[1].y - 50;
-                this.positionArray = [];
-                this.positionArray.push(optionNodes[0].getPosition());
-                this.positionArray.push(optionNodes[1].getPosition());
-            }
-            else {
-                let distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
-                let optionX0 = 0 - distanceBetweenOptions / 2;
-                let optionX1 = 0 + distanceBetweenOptions / 2;
-                cc.tween(optionNodes[0]).to(0.5, { x: optionX0 }, { easing: "sineInOut" }).start();
-                cc.tween(optionNodes[1]).to(0.5, { x: optionX1 }, { easing: "sineInOut" }).start();
-                this.positionArray = [];
-                this.positionArray.push(optionNodes[0].getPosition());
-                this.positionArray.push(optionNodes[1].getPosition());
-            }
 
-        }
-        else if (optionNodes.length == 1) {
-            if (!this.isLastTween) {
-                optionNodes[0].x = 0;
-            }
-            else {
-                cc.tween(optionNodes[0]).to(0.5, { x: 0 }, { easing: "sineInOut" }).start();
-            }
-        }
+        //     accumulatedWidth += option.width + paddingBetweenOptions;
+        //     this.positionArray.push(option.getPosition());
+
+        //     // Scale and position children nodes proportionally
+        //     for (let subChild of option.children) {
+        //         subChild.x *= optionScaleFactor;
+        //         subChild.y *= optionScaleFactor;
+        //         subChild.width *= optionScaleFactor;
+        //         subChild.height *= optionScaleFactor;
+        //         //console.log("subChild--", subChild.name);
+        //     }
+        // }
+
+        // optionsLayout.height = maxHeight * scaleFactor;
+
+        // if (optionNodes.length == 2) {
+        //     if (!this.isLastTween) {
+        //         let distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
+        //         optionNodes[0].x = 0 - distanceBetweenOptions / 2;
+        //         optionNodes[1].x = 0 + distanceBetweenOptions / 2;
+        //         optionNodes[0].y = optionNodes[0].y - 50;
+        //         optionNodes[1].y = optionNodes[1].y - 50;
+        //         this.positionArray = [];
+        //         this.positionArray.push(optionNodes[0].getPosition());
+        //         this.positionArray.push(optionNodes[1].getPosition());
+        //     }
+        //     else {
+        //         let distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
+        //         let optionX0 = 0 - distanceBetweenOptions / 2;
+        //         let optionX1 = 0 + distanceBetweenOptions / 2;
+        //         cc.tween(optionNodes[0]).to(0.5, { x: optionX0 }, { easing: "sineInOut" }).start();
+        //         cc.tween(optionNodes[1]).to(0.5, { x: optionX1 }, { easing: "sineInOut" }).start();
+        //         this.positionArray = [];
+        //         this.positionArray.push(optionNodes[0].getPosition());
+        //         this.positionArray.push(optionNodes[1].getPosition());
+        //     }
+
+        // }
+        // else if (optionNodes.length == 1) {
+        //     if (!this.isLastTween) {
+        //         optionNodes[0].x = 0;
+        //     }
+        //     else {
+        //         cc.tween(optionNodes[0]).to(0.5, { x: 0 }, { easing: "sineInOut" }).start();
+        //     }
+        // }
 
         // console.log("positionArray--", this.positionArray);
     }

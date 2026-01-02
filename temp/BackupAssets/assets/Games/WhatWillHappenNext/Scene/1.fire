@@ -348,8 +348,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1920,
-      "height": 1080
+      "width": 1921,
+      "height": 1081
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -400,7 +400,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "ea5c0c55-69d2-4a65-aece-3b82cafaf3bc"
+    },
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -426,10 +428,10 @@
     "alignMode": 1,
     "_target": null,
     "_alignFlags": 45,
-    "_left": -960,
-    "_right": -960,
-    "_top": -540,
-    "_bottom": -540,
+    "_left": -960.5,
+    "_right": -960.5,
+    "_top": -540.5,
+    "_bottom": -540.5,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
     "_isAbsLeft": true,
@@ -486,14 +488,14 @@
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 0.5,
-      "y": 0.5
+      "y": 0
     },
     "_trs": {
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
         0,
-        -100,
+        -300,
         0,
         0,
         0,
@@ -586,7 +588,7 @@
     "node": {
       "__id__": 10
     },
-    "_enabled": true,
+    "_enabled": false,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
@@ -642,7 +644,7 @@
     "_anchorPoint": {
       "__type__": "cc.Vec2",
       "x": 0.5,
-      "y": 0.5
+      "y": 0
     },
     "_trs": {
       "__type__": "TypedArray",
@@ -1790,7 +1792,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        -81.519,
         0,
         0,
         0,
@@ -2094,11 +2096,6 @@
     "popSound": [
       {
         "__uuid__": "34f9d273-9dff-4094-bcdb-4e79ee69dcbf"
-      }
-    ],
-    "popSound2": [
-      {
-        "__uuid__": "e6008246-c683-4a2e-98ed-55c5032d805c"
       }
     ],
     "questionSound": [

@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Tall and short",
-      "totalLevel": "4",
+      "totalLevel": "7",
       "TitleImageName": "title.png",
       "introBgName": "dd.png",
       "bgmMusicName": "bgm.mp3",
@@ -24,11 +24,11 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "b1.png",
-          "b2.png"
+          "t1.png",
+          "s1.png"
         ],
         "correctAudios": [
-          "b.mp3"
+          "1.mp3"
         ],
         "correctAnswerNum": "1"
       },
@@ -41,11 +41,11 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "r1.png",
-          "r2.png"
+          "t2.png",
+          "s2.png"
         ],
         "correctAudios": [
-          "r.mp3"
+          "2.mp3"
         ],
         "correctAnswerNum": "2"
       },
@@ -58,11 +58,45 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "l1.png",
-          "lamp2.png"
+          "s3.png",
+          "t3.png"
         ],
         "correctAudios": [
-          "l.mp3"
+          "3.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "short",
+        "questionAudioName": "short.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "s4.png",
+          "t4.png"
+        ],
+        "correctAudios": [
+          "4.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "tall",
+        "questionAudioName": "tall.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "t5.png",
+          "s5.png"
+        ],
+        "correctAudios": [
+          "5.mp3"
         ],
         "correctAnswerNum": "1"
       },
@@ -75,13 +109,30 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "i1.png",
-          "i2.png"
+          "t6.png",
+          "s6.png"
         ],
         "correctAudios": [
-          "short.mp3"
+          "6.mp3"
         ],
         "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "tall",
+        "questionAudioName": "tall.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "t7.png",
+          "s7.png"
+        ],
+        "correctAudios": [
+          "7.mp3"
+        ],
+        "correctAnswerNum": "1"
       }
     ]
   }

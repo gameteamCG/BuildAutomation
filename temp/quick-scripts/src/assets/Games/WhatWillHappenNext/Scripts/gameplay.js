@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -35,7 +35,6 @@ var NewClass = /** @class */ (function (_super) {
         _this.VerticalOptionNode = null;
         _this.extraImg = null;
         _this.popSound = [];
-        _this.popSound2 = [];
         _this.questionSound = [];
         _this.positiveSound = [];
         _this.negativeSound = [];
@@ -645,7 +644,7 @@ var NewClass = /** @class */ (function (_super) {
                                     elem.getChildByName("img").color = cc.Color.WHITE;
                                 });
                                 _this.isLastTween = true;
-                                _this.OptionsLayoutHorizontal();
+                                // this.OptionsLayoutHorizontal();
                                 _this.canTouch = false;
                                 ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
                                 _this.scheduleOnce(function () {
@@ -730,7 +729,7 @@ var NewClass = /** @class */ (function (_super) {
                                     elem.getChildByName("img").color = cc.Color.WHITE;
                                 });
                                 _this.isLastTween = true;
-                                _this.OptionsLayoutHorizontal();
+                                // this.OptionsLayoutHorizontal();
                                 ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
                                 _this.scheduleOnce(function () {
                                     ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
@@ -1016,87 +1015,88 @@ var NewClass = /** @class */ (function (_super) {
         });
     };
     NewClass.prototype.OptionsLayoutHorizontal = function () {
-        var optionsLayout = this.optionsNode;
-        var optionNodes = optionsLayout.children;
-        // console.log("optionNodes--" + optionNodes.length, optionsLayout.width);
-        var paddingBetweenOptions = 10;
-        var totalWidth = 0;
-        var maxHeight = 0;
-        for (var i = 0; i < optionNodes.length; i++) {
-            var option = optionNodes[i];
-            var optionWidth = option.width;
-            var optionHeight = option.height;
-            totalWidth += optionWidth + paddingBetweenOptions;
-            if (optionHeight > maxHeight) {
-                maxHeight = optionHeight;
-            }
-        }
-        var availableWidth = optionsLayout.width;
-        var totalWidthWithPadding = totalWidth + (optionNodes.length - 1) * paddingBetweenOptions;
-        var scaleFactor = Math.min(1, availableWidth / totalWidthWithPadding);
-        var accumulatedWidth = 0;
-        for (var i = 0; i < optionNodes.length; i++) {
-            var option = optionNodes[i];
-            // Calculate the scale factor for the option
-            var optionScaleFactor = scaleFactor;
-            if (optionNodes.length == 2 && StartGame_1.default.Instance.templateType == "ObjectsTweenIn" && !this.isLastTween) {
-                optionScaleFactor = optionScaleFactor * 0.7;
-            }
-            // Scale the option
-            option.width *= optionScaleFactor;
-            option.height *= optionScaleFactor;
-            // Calculate position based on anchor and scaled size
-            var posX = accumulatedWidth + (option.width * option.anchorX);
-            if (!this.isLastTween) {
-                option.x = posX - (optionsLayout.width * optionsLayout.anchorX);
-            }
-            else {
-                var optionX = posX - (optionsLayout.width * optionsLayout.anchorX);
-                cc.tween(option).to(0.5, { x: optionX }, { easing: "sineInOut" }).start();
-            }
-            accumulatedWidth += option.width + paddingBetweenOptions;
-            this.positionArray.push(option.getPosition());
-            // Scale and position children nodes proportionally
-            for (var _i = 0, _a = option.children; _i < _a.length; _i++) {
-                var subChild = _a[_i];
-                subChild.x *= optionScaleFactor;
-                subChild.y *= optionScaleFactor;
-                subChild.width *= optionScaleFactor;
-                subChild.height *= optionScaleFactor;
-                //console.log("subChild--", subChild.name);
-            }
-        }
-        optionsLayout.height = maxHeight * scaleFactor;
-        if (optionNodes.length == 2) {
-            if (!this.isLastTween) {
-                var distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
-                optionNodes[0].x = 0 - distanceBetweenOptions / 2;
-                optionNodes[1].x = 0 + distanceBetweenOptions / 2;
-                optionNodes[0].y = optionNodes[0].y - 50;
-                optionNodes[1].y = optionNodes[1].y - 50;
-                this.positionArray = [];
-                this.positionArray.push(optionNodes[0].getPosition());
-                this.positionArray.push(optionNodes[1].getPosition());
-            }
-            else {
-                var distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
-                var optionX0 = 0 - distanceBetweenOptions / 2;
-                var optionX1 = 0 + distanceBetweenOptions / 2;
-                cc.tween(optionNodes[0]).to(0.5, { x: optionX0 }, { easing: "sineInOut" }).start();
-                cc.tween(optionNodes[1]).to(0.5, { x: optionX1 }, { easing: "sineInOut" }).start();
-                this.positionArray = [];
-                this.positionArray.push(optionNodes[0].getPosition());
-                this.positionArray.push(optionNodes[1].getPosition());
-            }
-        }
-        else if (optionNodes.length == 1) {
-            if (!this.isLastTween) {
-                optionNodes[0].x = 0;
-            }
-            else {
-                cc.tween(optionNodes[0]).to(0.5, { x: 0 }, { easing: "sineInOut" }).start();
-            }
-        }
+        this.node.getChildByName("Option").children[0].setPosition(-300, -260);
+        this.node.getChildByName("Option").children[1].setPosition(370, -260);
+        // let optionsLayout = this.optionsNode;
+        // let optionNodes = optionsLayout.children;
+        // // console.log("optionNodes--" + optionNodes.length, optionsLayout.width);
+        // const paddingBetweenOptions = 10;
+        // let totalWidth = 0;
+        // let maxHeight = 0;
+        // for (let i = 0; i < optionNodes.length; i++) {
+        //     let option = optionNodes[i];
+        //     let optionWidth = option.width;
+        //     let optionHeight = option.height;
+        //     totalWidth += optionWidth + paddingBetweenOptions;
+        //     if (optionHeight > maxHeight) {
+        //         maxHeight = optionHeight;
+        //     }
+        // }
+        // let availableWidth = optionsLayout.width;
+        // let totalWidthWithPadding = totalWidth + (optionNodes.length - 1) * paddingBetweenOptions;
+        // let scaleFactor = Math.min(1, availableWidth / totalWidthWithPadding);
+        // let accumulatedWidth = 0;
+        // for (let i = 0; i < optionNodes.length; i++) {
+        //     let option = optionNodes[i];
+        //     // Calculate the scale factor for the option
+        //     let optionScaleFactor = scaleFactor;
+        //     if (optionNodes.length == 2 && startGame.Instance.templateType == "ObjectsTweenIn" && !this.isLastTween) {
+        //         optionScaleFactor = optionScaleFactor * 0.7;
+        //     }
+        //     // Scale the option
+        //     option.width *= optionScaleFactor;
+        //     option.height *= optionScaleFactor;
+        //     // Calculate position based on anchor and scaled size
+        //     let posX = accumulatedWidth + (option.width * option.anchorX);
+        //     if (!this.isLastTween) {
+        //         option.x = posX - (optionsLayout.width * optionsLayout.anchorX);
+        //     }
+        //     else {
+        //         let optionX = posX - (optionsLayout.width * optionsLayout.anchorX);
+        //         cc.tween(option).to(0.5, { x: optionX }, { easing: "sineInOut" }).start();
+        //     }
+        //     accumulatedWidth += option.width + paddingBetweenOptions;
+        //     this.positionArray.push(option.getPosition());
+        //     // Scale and position children nodes proportionally
+        //     for (let subChild of option.children) {
+        //         subChild.x *= optionScaleFactor;
+        //         subChild.y *= optionScaleFactor;
+        //         subChild.width *= optionScaleFactor;
+        //         subChild.height *= optionScaleFactor;
+        //         //console.log("subChild--", subChild.name);
+        //     }
+        // }
+        // optionsLayout.height = maxHeight * scaleFactor;
+        // if (optionNodes.length == 2) {
+        //     if (!this.isLastTween) {
+        //         let distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
+        //         optionNodes[0].x = 0 - distanceBetweenOptions / 2;
+        //         optionNodes[1].x = 0 + distanceBetweenOptions / 2;
+        //         optionNodes[0].y = optionNodes[0].y - 50;
+        //         optionNodes[1].y = optionNodes[1].y - 50;
+        //         this.positionArray = [];
+        //         this.positionArray.push(optionNodes[0].getPosition());
+        //         this.positionArray.push(optionNodes[1].getPosition());
+        //     }
+        //     else {
+        //         let distanceBetweenOptions = optionNodes[1].x - optionNodes[0].x;
+        //         let optionX0 = 0 - distanceBetweenOptions / 2;
+        //         let optionX1 = 0 + distanceBetweenOptions / 2;
+        //         cc.tween(optionNodes[0]).to(0.5, { x: optionX0 }, { easing: "sineInOut" }).start();
+        //         cc.tween(optionNodes[1]).to(0.5, { x: optionX1 }, { easing: "sineInOut" }).start();
+        //         this.positionArray = [];
+        //         this.positionArray.push(optionNodes[0].getPosition());
+        //         this.positionArray.push(optionNodes[1].getPosition());
+        //     }
+        // }
+        // else if (optionNodes.length == 1) {
+        //     if (!this.isLastTween) {
+        //         optionNodes[0].x = 0;
+        //     }
+        //     else {
+        //         cc.tween(optionNodes[0]).to(0.5, { x: 0 }, { easing: "sineInOut" }).start();
+        //     }
+        // }
         // console.log("positionArray--", this.positionArray);
     };
     NewClass.prototype.OptionsLayoutVertical = function () {
@@ -1260,9 +1260,6 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "popSound", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "popSound2", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "questionSound", void 0);
