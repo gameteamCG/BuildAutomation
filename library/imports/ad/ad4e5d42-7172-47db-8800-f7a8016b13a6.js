@@ -60,6 +60,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.supercub_Neg2 = null;
         _this.defaultMat = null;
         _this.greyMat = null;
+        _this.introVo = null;
         _this.isFirstClick = false;
         _this.canTouch = false;
         _this.answerArray = [];
@@ -363,26 +364,29 @@ var NewClass = /** @class */ (function (_super) {
                     }
                 }
                 else {
-                    cc.audioEngine.playEffect(_this.questionSound[0], false);
+                    cc.audioEngine.playEffect(_this.introVo, false);
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_loop", true);
                     _this.scheduleOnce(function () {
-                        _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
+                        cc.audioEngine.playEffect(_this.questionSound[0], false);
                         _this.scheduleOnce(function () {
-                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                            _this.node.getChildByName("Option").children.forEach(function (element) {
-                                element.getComponent(cc.Button).interactable = true;
-                            });
-                            if (globalVariables_1.default.Instance.currentLevel == 1) {
-                                var hand = _this.node.getChildByName("hand");
-                                console.log("answer array num = ", _this.answerArray[0]);
-                                hand.setParent(_this.node.getChildByName("Option").getChildByName(_this.answerArray[0]));
-                                hand.setPosition(50, -50);
-                                hand.angle = 30;
-                                hand.setParentWithSamePos(_this.node);
-                                hand.getComponent(cc.Animation).play();
-                            }
-                        }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
-                    }, _this.questionSound[0].duration);
+                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
+                            _this.scheduleOnce(function () {
+                                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                                _this.node.getChildByName("Option").children.forEach(function (element) {
+                                    element.getComponent(cc.Button).interactable = true;
+                                });
+                                if (globalVariables_1.default.Instance.currentLevel == 1) {
+                                    var hand = _this.node.getChildByName("hand");
+                                    console.log("answer array num = ", _this.answerArray[0]);
+                                    hand.setParent(_this.node.getChildByName("Option").getChildByName(_this.answerArray[0]));
+                                    hand.setPosition(50, -50);
+                                    hand.angle = 30;
+                                    hand.setParentWithSamePos(_this.node);
+                                    hand.getComponent(cc.Animation).play();
+                                }
+                            }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
+                        }, _this.questionSound[0].duration);
+                    }, _this.introVo.duration);
                 }
             }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(intoAnim).duration);
         }
@@ -909,6 +913,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.Material)
     ], NewClass.prototype, "greyMat", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], NewClass.prototype, "introVo", void 0);
     NewClass = __decorate([
         ccclass
     ], NewClass);

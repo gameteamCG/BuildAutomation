@@ -90,6 +90,9 @@ export default class NewClass extends cc.Component {
     @property(cc.Material)
     greyMat: cc.Material = null;
 
+    @property(cc.AudioClip)
+    private introVo: cc.AudioClip = null;
+
     private isFirstClick: boolean = false;
     private canTouch: boolean = false;
     private answerArray: string[] = [];
@@ -399,26 +402,30 @@ export default class NewClass extends cc.Component {
                     }
                 }
                 else {
-                    cc.audioEngine.playEffect(this.questionSound[0], false);
+                    cc.audioEngine.playEffect(this.introVo, false);
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_loop", true);
                     this.scheduleOnce(() => {
-                        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
+                        cc.audioEngine.playEffect(this.questionSound[0], false);
+
                         this.scheduleOnce(() => {
-                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                            this.node.getChildByName("Option").children.forEach(element => {
-                                element.getComponent(cc.Button).interactable = true;
-                            });
-                            if (globalVariables.Instance.currentLevel == 1) {
-                                let hand = this.node.getChildByName("hand");
-                                console.log("answer array num = ", this.answerArray[0]);
-                                hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-                                hand.setPosition(50, -50);
-                                hand.angle = 30;
-                                hand.setParentWithSamePos(this.node);
-                                hand.getComponent(cc.Animation).play();
-                            }
-                        }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
-                    }, this.questionSound[0].duration);
+                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
+                            this.scheduleOnce(() => {
+                                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                                this.node.getChildByName("Option").children.forEach(element => {
+                                    element.getComponent(cc.Button).interactable = true;
+                                });
+                                if (globalVariables.Instance.currentLevel == 1) {
+                                    let hand = this.node.getChildByName("hand");
+                                    console.log("answer array num = ", this.answerArray[0]);
+                                    hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
+                                    hand.setPosition(50, -50);
+                                    hand.angle = 30;
+                                    hand.setParentWithSamePos(this.node);
+                                    hand.getComponent(cc.Animation).play();
+                                }
+                            }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
+                        }, this.questionSound[0].duration);
+                    }, this.introVo.duration)
                 }
 
             }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(intoAnim).duration);
