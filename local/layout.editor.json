@@ -28,12 +28,12 @@
             "children": [
               {
                 "width": 974,
-                "height": 541.7374877929688,
+                "height": 541.6000366210938,
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 727.9874877929688,
-                    "height": 541.7374877929688,
+                    "width": 728.75,
+                    "height": 541.6000366210938,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -41,8 +41,8 @@
                     ]
                   },
                   {
-                    "width": 243,
-                    "height": 541.7374877929688,
+                    "width": 242.25,
+                    "height": 541.6000366210938,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -53,7 +53,7 @@
               },
               {
                 "width": 974,
-                "height": 265.8625183105469,
+                "height": 266,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
+        "assets",
         "console",
         "timeline",
         "game-window",

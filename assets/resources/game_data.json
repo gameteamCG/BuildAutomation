@@ -11,7 +11,7 @@
     },
     "questionData": [
         {
-            "questionText": "Eight",
+            "questionText": "Number 8",
             "questionAudioName": "qvo.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "Asset_1.png",
@@ -28,7 +28,7 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "Eight",
+            "questionText": "Number 8",
             "questionAudioName": "qvo.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "Asset_1.png",
@@ -45,7 +45,7 @@
             "correctAnswerNum": "1"
         },
         {
-            "questionText": "Eight",
+            "questionText": "Number 8",
             "questionAudioName": "qvo.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "Asset_1.png",
@@ -62,7 +62,7 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "Eight",
+            "questionText": "Number 8",
             "questionAudioName": "qvo.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "Asset_1.png",
