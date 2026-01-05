@@ -64,6 +64,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.isFirstClick = false;
         _this.canTouch = false;
         _this.answerArray = [];
+        _this.lastArray = [];
         _this.maxLevel = 7;
         _this.wrongAnswerCount = 0;
         _this.star1Log = false;
@@ -84,6 +85,7 @@ var NewClass = /** @class */ (function (_super) {
     }
     NewClass.prototype.onLoad = function () {
         var _this = this;
+        this.lastArray = ["tall giraffe", "tall elephant", "tall camel", "short zebra", "tall kangaroo", "short deer", "short bear"];
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
@@ -598,6 +600,7 @@ var NewClass = /** @class */ (function (_super) {
         _node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.extraImg;
         //console.log("correctAudio--" + this.correctAudio.name);
         cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
+        this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.lastArray[globalVariables_1.default.Instance.currentLevel - 1];
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
@@ -624,6 +627,7 @@ var NewClass = /** @class */ (function (_super) {
         switch (StartGame_1.default.Instance.templateType) {
             case "SimpleTap":
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.lastArray[globalVariables_1.default.Instance.currentLevel - 1];
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {
@@ -663,6 +667,7 @@ var NewClass = /** @class */ (function (_super) {
                 break;
             case "TapToCollect":
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.lastArray[globalVariables_1.default.Instance.currentLevel - 1];
                 this.scheduleOnce(function () {
                     _this.node.getChildByName("QuestionBox1").zIndex = 1;
                     _this.node.getChildByName("QuestionBox").zIndex = 1;
@@ -707,6 +712,7 @@ var NewClass = /** @class */ (function (_super) {
             case "ObjectsTweenIn":
                 //console.log("answer arrray index : ", this.answerArray.indexOf(_node.name));
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.lastArray[globalVariables_1.default.Instance.currentLevel - 1];
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {
@@ -1015,8 +1021,8 @@ var NewClass = /** @class */ (function (_super) {
         });
     };
     NewClass.prototype.OptionsLayoutHorizontal = function () {
-        this.node.getChildByName("Option").children[0].setPosition(-300, -260);
-        this.node.getChildByName("Option").children[1].setPosition(370, -260);
+        this.node.getChildByName("Option").children[0].setPosition(-300, 0);
+        this.node.getChildByName("Option").children[1].setPosition(370, 0);
         // let optionsLayout = this.optionsNode;
         // let optionNodes = optionsLayout.children;
         // // console.log("optionNodes--" + optionNodes.length, optionsLayout.width);

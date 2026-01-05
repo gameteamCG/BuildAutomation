@@ -93,6 +93,7 @@ export default class NewClass extends cc.Component {
     private isFirstClick: boolean = false;
     private canTouch: boolean = false;
     private answerArray: string[] = [];
+    private lastArray: string[] = [];
     private maxLevel: number = 7;
     wrongAnswerCount: number = 0;
     star1Log: boolean = false;
@@ -115,7 +116,7 @@ export default class NewClass extends cc.Component {
     isLastTween: boolean = false;
 
     onLoad() {
-
+        this.lastArray = ["tall giraffe", "tall elephant", "tall camel", "short zebra", "tall kangaroo", "short deer", "short bear"]
         if (startGame.Instance.jockeyName == "Podar") {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
@@ -646,6 +647,7 @@ export default class NewClass extends cc.Component {
         _node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.extraImg;
         //console.log("correctAudio--" + this.correctAudio.name);
         cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
+        this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.lastArray[globalVariables.Instance.currentLevel - 1]
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
@@ -672,6 +674,7 @@ export default class NewClass extends cc.Component {
         switch (startGame.Instance.templateType) {
             case "SimpleTap":
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.lastArray[globalVariables.Instance.currentLevel - 1]
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
@@ -711,6 +714,7 @@ export default class NewClass extends cc.Component {
                 break;
             case "TapToCollect":
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.lastArray[globalVariables.Instance.currentLevel - 1]
                 this.scheduleOnce(() => {
                     this.node.getChildByName("QuestionBox1").zIndex = 1;
                     this.node.getChildByName("QuestionBox").zIndex = 1;
@@ -756,6 +760,7 @@ export default class NewClass extends cc.Component {
             case "ObjectsTweenIn":
                 //console.log("answer arrray index : ", this.answerArray.indexOf(_node.name));
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.lastArray[globalVariables.Instance.currentLevel - 1]
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
@@ -1075,8 +1080,8 @@ export default class NewClass extends cc.Component {
     }
 
     OptionsLayoutHorizontal() {
-        this.node.getChildByName("Option").children[0].setPosition(-300, -260)
-        this.node.getChildByName("Option").children[1].setPosition(370, -260)
+        this.node.getChildByName("Option").children[0].setPosition(-300, 0)
+        this.node.getChildByName("Option").children[1].setPosition(370, 0)
         // let optionsLayout = this.optionsNode;
         // let optionNodes = optionsLayout.children;
         // // console.log("optionNodes--" + optionNodes.length, optionsLayout.width);
