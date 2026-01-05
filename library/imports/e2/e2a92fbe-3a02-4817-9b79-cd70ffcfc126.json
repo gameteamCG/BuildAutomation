@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Our five senses jr kg super cubs feedback",
-      "totalLevel": "10",
+      "totalLevel": "8",
       "TitleImageName": "Asset29.png",
       "introBgName": "skg.png",
       "bgmMusicName": "bgmpattern.mp3",
@@ -31,8 +31,8 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "17new_alaramclock.png",
-          "7new_block.png"
+          "N1_alram.png",
+          "N1_air.png"
         ]
       },
       {
@@ -46,14 +46,14 @@
           "15new_sight2.png"
         ],
         "reiterations": [
-          "lights.mp3"
+          "N1_light.mp3"
         ],
         "commonRightOptionImageName": "Artboard1copy53.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "14new_lights.png",
-          "13new.png"
+          "N1_light.png",
+          "N1_air.png"
         ]
       },
       {
@@ -67,14 +67,14 @@
           "12new_smell2.png"
         ],
         "reiterations": [
-          "Flowers.mp3"
+          "N1_flower.mp3"
         ],
         "commonRightOptionImageName": "Artboard1copy53.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "10new_flower.png",
-          "11new_sun.png"
+          "N1_rose.png",
+          "N1_sun.png"
         ]
       },
       {
@@ -88,14 +88,14 @@
           "20new_taste2.png"
         ],
         "reiterations": [
-          "POTATO.mp3"
+          "N1_potato.mp3"
         ],
         "commonRightOptionImageName": "Artboard1copy53.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "21new_potato.png",
-          "22new.png"
+          "N1_potato.png",
+          "N1_fire_truck.png"
         ]
       },
       {
@@ -115,8 +115,8 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "18new_blocks.png",
-          "5new.png"
+          "N1_blocks.png",
+          "N1_music.png"
         ]
       },
       {
@@ -136,8 +136,8 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "4new_stinkyfeet.png",
-          "11new_sun.png"
+          "N1_Stinky.png",
+          "N1_sun.png"
         ]
       },
       {
@@ -151,14 +151,14 @@
           "20new_taste2.png"
         ],
         "reiterations": [
-          "watermelon.mp3"
+          "N1_watermelon.mp3"
         ],
         "commonRightOptionImageName": "Artboard1copy53.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "3new_watermelon.png",
-          "11new_sun.png"
+          "N1_watermelon.png",
+          "N1_sun.png"
         ]
       },
       {
@@ -178,50 +178,8 @@
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "1new_bell.png",
-          "2new_bookread.png"
-        ]
-      },
-      {
-        "questionText": "touch",
-        "questionAudioName": "matchtheobjecthatyoucanfeel.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonLeftOptionImageName": "Artboard1copy52.png",
-        "isLeftOptionText": false,
-        "numberOfLeftOptions": 1,
-        "leftoptions": [
-          "8new_touch.png"
-        ],
-        "reiterations": [
-          "playdough.mp3"
-        ],
-        "commonRightOptionImageName": "Artboard1copy53.png",
-        "isRightOptionText": false,
-        "numberOfRightOptions": 2,
-        "rightoptions": [
-          "Playdough.png",
-          "1_0006_9.png"
-        ]
-      },
-      {
-        "questionText": "sight",
-        "questionAudioName": "matchtheobjectthatyoucansee.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonLeftOptionImageName": "Artboard1copy52.png",
-        "isLeftOptionText": false,
-        "numberOfLeftOptions": 1,
-        "leftoptions": [
-          "15new_sight2.png"
-        ],
-        "reiterations": [
-          "stars.mp3"
-        ],
-        "commonRightOptionImageName": "Artboard1copy53.png",
-        "isRightOptionText": false,
-        "numberOfRightOptions": 2,
-        "rightoptions": [
-          "stars.png",
-          "5new.png"
+          "N1_bell.png",
+          "N1_reading.png"
         ]
       }
     ]

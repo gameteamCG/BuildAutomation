@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "N1_alram",
+    "texture": "712e6247-cc77-4dd8-9741-e529c7535141",
+    "atlas": "",
+    "rect": [
+      113,
+      102,
+      289,
+      346
+    ],
+    "offset": [
+      7,
+      -24.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

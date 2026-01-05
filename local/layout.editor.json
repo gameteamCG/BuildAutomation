@@ -5,21 +5,21 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -8,
-      "y": -8,
-      "width": 1382,
-      "height": 744,
+      "x": 0,
+      "y": 0,
+      "width": 1366,
+      "height": 728,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 360,
-            "height": 626,
+            "width": 355.765625,
+            "height": 610,
             "type": "dock-v",
             "children": [
               {
-                "width": 360,
-                "height": 315,
+                "width": 355.765625,
+                "height": 306.90625,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 360,
-                "height": 308,
+                "width": 355.765625,
+                "height": 300.09375,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 611,
-            "height": 626,
+            "width": 603.8125,
+            "height": 610,
             "type": "dock-v",
             "children": [
               {
-                "width": 611,
-                "height": 315,
+                "width": 603.8125,
+                "height": 306.90625,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 611,
-                "height": 308,
+                "width": 603.8125,
+                "height": 300.09375,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 389,
-            "height": 626,
+            "width": 384.421875,
+            "height": 610,
             "type": "panel",
             "active": 0,
             "children": [
@@ -95,8 +95,8 @@
     "project-settings": {
       "x": 0,
       "y": 0,
-      "width": 1440,
-      "height": 900
+      "width": 1366,
+      "height": 728
     },
     "preferences": {
       "x": 0,

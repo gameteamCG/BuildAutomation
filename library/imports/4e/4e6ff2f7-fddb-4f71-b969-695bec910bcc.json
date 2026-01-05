@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "N1_tongue",
+    "texture": "304bb7e1-d965-499a-b5cd-06938fe5ed16",
+    "atlas": "",
+    "rect": [
+      101,
+      40,
+      303,
+      443
+    ],
+    "offset": [
+      2,
+      -11
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
