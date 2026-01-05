@@ -11,7 +11,7 @@
   "questionData": [
     {
       "questionText": "my arms",
-      "questionAudioName": "match_the_picture_identifying_what_the_hands_are_used_for.mp3",
+      "questionAudioName": "match the picture identifying what the arms are used for.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "puzzle1a1.png",
       "isLeftOptionText": false,
@@ -20,7 +20,7 @@
         "Artboard 2 copy 2.png"
       ],
       "reiterations": [
-        "we_use_our_hands_to_hold.mp3"
+        "we make use of our arms to hold.mp3"
       ],
       "commonRightOptionImageName": "puzzle2a2.png",
       "isRightOptionText": false,
@@ -32,7 +32,7 @@
     },
     {
       "questionText": "my arms",
-      "questionAudioName": "match_the_picture_identifying_what_the_hands_are_used_for.mp3",
+      "questionAudioName": "match the picture identifying what the arms are used for.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "puzzle1a1.png",
       "isLeftOptionText": false,
@@ -41,7 +41,7 @@
         "Artboard 2 copy 2.png"
       ],
       "reiterations": [
-        "we_clap_with_our_hands.mp3"
+        "we make use of our arms for clapping.mp3"
       ],
       "commonRightOptionImageName": "puzzle2a2.png",
       "isRightOptionText": false,
@@ -53,7 +53,7 @@
     },
     {
       "questionText": "my arms",
-      "questionAudioName": "match_the_picture_identifying_what_the_hands_are_used_for.mp3",
+      "questionAudioName": "match the picture identifying what the arms are used for.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "puzzle1a1.png",
       "isLeftOptionText": false,
@@ -62,7 +62,7 @@
         "Artboard 2 copy 2.png"
       ],
       "reiterations": [
-        "we_use_our_hands_to_lift.mp3"
+        "we make use of our arms to lift.mp3"
       ],
       "commonRightOptionImageName": "puzzle2a2.png",
       "isRightOptionText": false,
@@ -74,7 +74,7 @@
     },
     {
       "questionText": "my arms",
-      "questionAudioName": "match_the_picture_identifying_what_the_hands_are_used_for.mp3",
+      "questionAudioName": "match the picture identifying what the arms are used for.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "puzzle1a1.png",
       "isLeftOptionText": false,
@@ -83,7 +83,7 @@
         "Artboard 2 copy 2.png"
       ],
       "reiterations": [
-        "we_stretch_our_hands_to_hug.mp3"
+        "we stretch our arms to hug.mp3"
       ],
       "commonRightOptionImageName": "puzzle2a2.png",
       "isRightOptionText": false,
@@ -95,7 +95,7 @@
     },
     {
       "questionText": "my arms",
-      "questionAudioName": "match_the_picture_identifying_what_the_hands_are_used_for.mp3",
+      "questionAudioName": "match the picture identifying what the arms are used for.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "puzzle1a1.png",
       "isLeftOptionText": false,
@@ -104,7 +104,7 @@
         "Artboard 2 copy 2.png"
       ],
       "reiterations": [
-        "we_use_our_hands_to_catch.mp3"
+        "we make use of our arms to catch.mp3"
       ],
       "commonRightOptionImageName": "puzzle2a2.png",
       "isRightOptionText": false,
