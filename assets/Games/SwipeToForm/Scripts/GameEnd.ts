@@ -1,6 +1,4 @@
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
 import startGame from "../../../Framework/Scripts/StartGame";
-import globalVariables from "./globalVariables";
 
 const { ccclass, property } = cc._decorator;
 
@@ -9,10 +7,8 @@ export default class GameEnd extends cc.Component {
 
     @property(cc.AudioClip)
     private star: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private yeah: cc.AudioClip[] = [];
-
     @property(cc.SpriteFrame)
     private podarEnd: cc.SpriteFrame = null;
     @property(cc.SpriteFrame)
