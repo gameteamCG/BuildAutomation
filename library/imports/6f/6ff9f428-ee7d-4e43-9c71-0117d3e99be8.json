@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "tiger colouring",
+      "totalLevel": "1",
+      "TitleImageName": "title (1).png",
+      "introBgName": "Bg(8).png",
+      "bgmMusicName": "BGMLetterT.mp3",
+      "initialVOName": "empty.mp3",
+      "mainBgName": "BG.jpg",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "Tiger",
+        "questionImageName": "tigerwith.png",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "tigerwithout.png",
+        "needMoreTools": true,
+        "correctAudioName": "empty.mp3"
+      }
+    ]
+  }
+}

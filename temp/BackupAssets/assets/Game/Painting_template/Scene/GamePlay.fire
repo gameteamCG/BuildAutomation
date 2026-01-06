@@ -1095,10 +1095,18 @@
     "hand": {
       "__id__": 184
     },
-    "podar_font": null,
-    "jaipuria_font": null,
-    "tlc_font": null,
-    "supercub_font": null,
+    "podar_font": {
+      "__uuid__": "f525e1ef-1d42-4074-8f14-3f74b0187d92"
+    },
+    "jaipuria_font": {
+      "__uuid__": "f525e1ef-1d42-4074-8f14-3f74b0187d92"
+    },
+    "tlc_font": {
+      "__uuid__": "f525e1ef-1d42-4074-8f14-3f74b0187d92"
+    },
+    "supercub_font": {
+      "__uuid__": "f525e1ef-1d42-4074-8f14-3f74b0187d92"
+    },
     "_id": "84RAC5JBJLwJflq0p11uG2"
   },
   {
