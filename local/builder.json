@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "B:\\EYFS_build\\rectangle_fs1_r280_3",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
