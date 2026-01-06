@@ -1,0 +1,99 @@
+{
+  "additionalData": {
+    "GameID": "null",
+    "totalLevel": "5",
+    "TitleImageName": "identifymoney.png",
+    "introBgName": "titlebgbg.png",
+    "bgmMusicName": "B2.mp3",
+    "mainBgName": "yellowdotsbg.png",
+    "JockeyName": "Puzzle",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "Identify money",
+      "questionAudioName": "L1.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "5rupee.png",
+        "b.png"
+      ],
+      "correctAudios": [
+        "1.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Identify money",
+      "questionAudioName": "L2.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "j.png",
+        "10coin.png"
+      ],
+      "correctAudios": [
+        "2.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Identify money",
+      "questionAudioName": "L3.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "5coin.png",
+        "Robot.png"
+      ],
+      "correctAudios": [
+        "3.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Identify money",
+      "questionAudioName": "L4.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "12l.png",
+        "200rupee.png"
+      ],
+      "correctAudios": [
+        "4.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Identify money",
+      "questionAudioName": "L5.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "QuestionCard.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "2coin.png",
+        "7g.png"
+      ],
+      "correctAudios": [
+        "5.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}

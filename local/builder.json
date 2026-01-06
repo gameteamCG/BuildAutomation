@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\Gujarati\\Balvatika_R3_211",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
