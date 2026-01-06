@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "N1_sqclock",
+    "texture": "a38bf8d5-67dd-4cfa-a1c2-a83f1d370b89",
+    "atlas": "",
+    "rect": [
+      0,
+      17,
+      228,
+      234
+    ],
+    "offset": [
+      -11.5,
+      -8.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

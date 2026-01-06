@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "N1_towel",
+    "texture": "9d8e6087-ebdb-4154-b3d6-a5d68b7d3998",
+    "atlas": "",
+    "rect": [
+      0,
+      16,
+      228,
+      235
+    ],
+    "offset": [
+      -11.5,
+      -8
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

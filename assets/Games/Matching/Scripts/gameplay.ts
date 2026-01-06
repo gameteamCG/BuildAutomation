@@ -423,7 +423,7 @@ export default class gameplay extends cc.Component {
                 this.scheduleOnce(() => {
                     cc.audioEngine.playEffect(this.popSound[0], false);
                     cc.tween(this.dropZones.getChildByName(i.toString()))
-                        .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                        .to(0.5, { scale: 1.1 }, { easing: "sineInOut" }).start();
                     if (i == this.dropZones.children.length) {
                         this.scheduleOnce(() => {
                             this.callOptionIn();
@@ -454,7 +454,7 @@ export default class gameplay extends cc.Component {
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.optionsNode.getChildByName(i.toString()))
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(0.5, { scale: 1.2 }, { easing: "sineInOut" }).start();
                 if (i == this.optionsNode.children.length) {
                     this.scheduleOnce(() => {
                         this.PlayQuestionAudio();
@@ -597,17 +597,17 @@ export default class gameplay extends cc.Component {
         cc.audioEngine.playEffect(this.positiveSound[0], false);
         cc.tween(_clone1).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1.children[1]).to(0.5, { scale: 1.2 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1.children[2]).to(0.5, { scale: 1.2 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).start();
 
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2.children[1]).to(0.5, { scale: 1.1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2.children[2]).to(0.5, { scale: 1.1 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 195, y: 0 }, { easing: "sineInOut" }).start();
 
         this.scheduleOnce(() => {
             let audioNum: number = parseInt(_clone1.name);
