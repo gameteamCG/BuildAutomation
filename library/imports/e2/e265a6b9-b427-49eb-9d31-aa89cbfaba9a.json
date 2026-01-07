@@ -9,14 +9,14 @@
       "totalLevel": "7",
       "TitleImageName": "Asset 96.png",
       "introBgName": "Bg(8).png",
-      "bgmMusicName": "BGM(mp3cut.net).mp3",
+      "bgmMusicName": "BGM.mp3",
       "mainBgName": "bg.png",
       "JockeyName": "Puzzle",
       "templateType": "SimpleTap"
     },
     "questionData": [
       {
-        "questionText": "Which object is heavy?",
+        "questionText": "ભારે",
         "questionAudioName": "Which object is heavy.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonimg.png",
@@ -33,7 +33,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Which object is light?",
+        "questionText": "હલકું",
         "questionAudioName": "Which object is light.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonimg.png",
@@ -50,7 +50,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Which object is heavy?",
+        "questionText": "ભારે",
         "questionAudioName": "Which object is heavy.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonimg.png",
@@ -67,7 +67,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Which object is light?",
+        "questionText": "હલકું",
         "questionAudioName": "Which object is light.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonimg.png",
@@ -84,7 +84,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Which object is heavy?",
+        "questionText": "ભારે",
         "questionAudioName": "Which object is heavy.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonimg.png",
@@ -101,7 +101,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Which object is light?",
+        "questionText": "હલકું",
         "questionAudioName": "Which object is light.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonimg.png",
@@ -115,10 +115,10 @@
         "correctAudios": [
           "cycle.mp3"
         ],
-        "correctAnswerNum": "1"
+        "correctAnswerNum": "2"
       },
       {
-        "questionText": "Which object is heavy?",
+        "questionText": "ભારે",
         "questionAudioName": "Which object is heavy.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "commonimg.png",
