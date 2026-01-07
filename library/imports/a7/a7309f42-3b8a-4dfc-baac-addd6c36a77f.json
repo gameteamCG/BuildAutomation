@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "null",
-      "totalLevel": "5",
+      "totalLevel": "6",
       "TitleImageName": "identifymoney.png",
       "introBgName": "titlebgbg.png",
       "bgmMusicName": "B2.mp3",
@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "Identify money",
+        "questionText": "સિક્કા અને નોટ્સ",
         "questionAudioName": "L1.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
@@ -25,7 +25,7 @@
         "numberOfOptions": 2,
         "options": [
           "5rupee.png",
-          "b.png"
+          "w1.png"
         ],
         "correctAudios": [
           "1.mp3"
@@ -33,7 +33,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Identify money",
+        "questionText": "સિક્કા અને નોટ્સ",
         "questionAudioName": "L2.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
@@ -41,7 +41,7 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "j.png",
+          "w2.png",
           "10coin.png"
         ],
         "correctAudios": [
@@ -50,7 +50,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Identify money",
+        "questionText": "સિક્કા અને નોટ્સ",
         "questionAudioName": "L3.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
@@ -59,7 +59,7 @@
         "numberOfOptions": 2,
         "options": [
           "5coin.png",
-          "Robot.png"
+          "w3.png"
         ],
         "correctAudios": [
           "3.mp3"
@@ -67,7 +67,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Identify money",
+        "questionText": "સિક્કા અને નોટ્સ",
         "questionAudioName": "L4.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
@@ -75,7 +75,7 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "12l.png",
+          "w4.png",
           "200rupee.png"
         ],
         "correctAudios": [
@@ -84,7 +84,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Identify money",
+        "questionText": "સિક્કા અને નોટ્સ",
         "questionAudioName": "L5.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
@@ -93,12 +93,29 @@
         "numberOfOptions": 2,
         "options": [
           "2coin.png",
-          "7g.png"
+          "w1.png"
         ],
         "correctAudios": [
           "5.mp3"
         ],
         "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "સિક્કા અને નોટ્સ",
+        "questionAudioName": "L6.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "QuestionCard.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "w5.png",
+          "20note.png"
+        ],
+        "correctAudios": [
+          "6.mp3"
+        ],
+        "correctAnswerNum": "2"
       }
     ]
   }
