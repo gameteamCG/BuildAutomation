@@ -15,108 +15,118 @@
     },
     "questionData": [
       {
-        "questionText": "my hands",
-        "questionAudioName": "match the picture identifying what the hands are used for.mp3",
+        "questionText": "વાહનોને મેળવો",
+        "questionAudioName": "1.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
-        "numberOfLeftOptions": 1,
+        "numberOfLeftOptions": 2,
         "leftoptions": [
-          "handquestion.png"
+          "1_1.png",
+          "1_3.png"
         ],
         "reiterations": [
-          "we use our hands to hold.mp3"
+          "3.mp3",
+          "4.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "book.png",
-          "w1.png"
+          "1_2.png",
+          "1_4.png"
         ]
       },
       {
-        "questionText": "my hands",
-        "questionAudioName": "match the picture identifying what the hands are used for.mp3",
+        "questionText": "વાહનોને મેળવો",
+        "questionAudioName": "1.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
-        "numberOfLeftOptions": 1,
+        "numberOfLeftOptions": 2,
         "leftoptions": [
-          "handquestion.png"
+          "2_1.png",
+          "2_3.png"
         ],
         "reiterations": [
-          "we clap with our hands.mp3"
+          "5.mp3",
+          "6.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "clap.png",
-          "w4.png"
+          "2_2.png",
+          "2_4.png"
         ]
       },
       {
-        "questionText": "my hands",
-        "questionAudioName": "match the picture identifying what the hands are used for.mp3",
+        "questionText": "વાહનોને મેળવો",
+        "questionAudioName": "1.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
-        "numberOfLeftOptions": 1,
+        "numberOfLeftOptions": 2,
         "leftoptions": [
-          "handquestion.png"
+          "3_1.png",
+          "3_3.png"
         ],
         "reiterations": [
-          "we use our hands to lift.mp3"
+          "7.mp3",
+          "8.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "cup-win.png",
-          "w3.png"
+          "3_2.png",
+          "3_4.png"
         ]
       },
       {
-        "questionText": "my hands",
-        "questionAudioName": "match the picture identifying what the hands are used for.mp3",
+        "questionText": "વાહનોને મેળવો",
+        "questionAudioName": "1.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
-        "numberOfLeftOptions": 1,
+        "numberOfLeftOptions": 2,
         "leftoptions": [
-          "handquestion.png"
+          "4_1.png",
+          "4_3.png"
         ],
         "reiterations": [
-          "we stretch our hands to hug.mp3"
+          "9.mp3",
+          "10.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "hug.png",
-          "w2.png"
+          "4_2.png",
+          "4_4.png"
         ]
       },
       {
-        "questionText": "my hands",
-        "questionAudioName": "match the picture identifying what the hands are used for.mp3",
+        "questionText": "વાહનોને મેળવો",
+        "questionAudioName": "1.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz1.png",
         "isLeftOptionText": false,
-        "numberOfLeftOptions": 1,
+        "numberOfLeftOptions": 2,
         "leftoptions": [
-          "handquestion.png"
+          "5_1.png",
+          "5_3.png"
         ],
         "reiterations": [
-          "we use our hands to catch.mp3"
+          "11.mp3",
+          "12.mp3"
         ],
         "commonRightOptionImageName": "puz2.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "play.png",
-          "w1.png"
+          "5_2.png",
+          "5_4.png"
         ]
       }
     ]
