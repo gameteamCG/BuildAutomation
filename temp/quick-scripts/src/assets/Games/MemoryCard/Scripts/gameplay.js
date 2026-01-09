@@ -356,8 +356,8 @@ var NewClass = /** @class */ (function (_super) {
         var parentNode = this.node.getChildByName("Option");
         var rows = 2;
         var columns = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options.length;
-        var offsetX = 50;
-        var offsetY = 50;
+        var offsetX = 250;
+        var offsetY = 80;
         var objWidth = 195;
         var objHeight = 295;
         var totalWidth = columns * (objHeight + offsetX);
@@ -563,12 +563,12 @@ var NewClass = /** @class */ (function (_super) {
                 this.scheduleOnce(function () {
                     _this.card1.setParent(_this.node.getChildByName("Panel"));
                     _this.card2.setParent(_this.node.getChildByName("Panel"));
-                    _this.node.getChildByName("Panel").getChildByName(card1Name_1).setPosition(-150, 0);
-                    _this.node.getChildByName("Panel").getChildByName(card2Name_1).setPosition(150, 0);
+                    _this.node.getChildByName("Panel").getChildByName(card1Name_1).setPosition(-250, 0);
+                    _this.node.getChildByName("Panel").getChildByName(card2Name_1).setPosition(250, 0);
                     _this.node.getChildByName("Panel").getChildByName(card1Name_1).scale = 0;
                     _this.node.getChildByName("Panel").getChildByName(card2Name_1).scale = 0;
-                    cc.tween(_this.node.getChildByName("Panel").getChildByName(card1Name_1)).to(0.5, { scale: 1.3 }).start();
-                    cc.tween(_this.node.getChildByName("Panel").getChildByName(card2Name_1)).to(0.5, { scale: 1.3 }).start();
+                    cc.tween(_this.node.getChildByName("Panel").getChildByName(card1Name_1)).to(0.5, { scale: 1.2 }).start();
+                    cc.tween(_this.node.getChildByName("Panel").getChildByName(card2Name_1)).to(0.5, { scale: 1.2 }).start();
                     _this.scheduleOnce(function () {
                         var audioIndex = 0;
                         if (parseInt(card1Name_1) < parseInt(card2Name_1)) {

@@ -398,8 +398,8 @@ export default class NewClass extends cc.Component {
         let parentNode: cc.Node = this.node.getChildByName("Option");
         let rows = 2;
         let columns: number = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options.length;
-        let offsetX: number = 50;
-        let offsetY: number = 50;
+        let offsetX: number = 250;
+        let offsetY: number = 80;
         let objWidth: number = 195;
         let objHeight: number = 295;
         let totalWidth: number = columns * (objHeight + offsetX);
@@ -614,12 +614,12 @@ export default class NewClass extends cc.Component {
                 this.scheduleOnce(() => {
                     this.card1.setParent(this.node.getChildByName("Panel"));
                     this.card2.setParent(this.node.getChildByName("Panel"));
-                    this.node.getChildByName("Panel").getChildByName(card1Name).setPosition(-150, 0);
-                    this.node.getChildByName("Panel").getChildByName(card2Name).setPosition(150, 0);
+                    this.node.getChildByName("Panel").getChildByName(card1Name).setPosition(-250, 0);
+                    this.node.getChildByName("Panel").getChildByName(card2Name).setPosition(250, 0);
                     this.node.getChildByName("Panel").getChildByName(card1Name).scale = 0;
                     this.node.getChildByName("Panel").getChildByName(card2Name).scale = 0;
-                    cc.tween(this.node.getChildByName("Panel").getChildByName(card1Name)).to(0.5, { scale: 1.3 }).start();
-                    cc.tween(this.node.getChildByName("Panel").getChildByName(card2Name)).to(0.5, { scale: 1.3 }).start();
+                    cc.tween(this.node.getChildByName("Panel").getChildByName(card1Name)).to(0.5, { scale: 1.2 }).start();
+                    cc.tween(this.node.getChildByName("Panel").getChildByName(card2Name)).to(0.5, { scale: 1.2 }).start();
                     this.scheduleOnce(() => {
                         let audioIndex: number = 0;
                         if (parseInt(card1Name) < parseInt(card2Name)) {
