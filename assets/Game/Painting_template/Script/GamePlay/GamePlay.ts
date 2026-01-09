@@ -1,15 +1,7 @@
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
 import CommonFun from "../Common/CommonFun";
 import { Constant } from "../Common/Constant";
-import Global from "../Common/Global";
 import globalVariables from "../globalVariables";
-import PersistentScroll from "./Persistent/PersistentScroll";
 
 const { ccclass, property } = cc._decorator;
 
@@ -147,6 +139,11 @@ export default class GamePlay extends cc.Component {
         else if (globalVariables.Instance.jockeyName == "bag" || globalVariables.Instance.jockeyName == "cryon") {
             this.questionNode.children[0].getComponent(cc.Label).font = this.jaipuria_font;
         }
+    }
+
+    playQues(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[0], false);
     }
 
     StartGame() {

@@ -3,12 +3,6 @@ cc._RF.push(module, '26a7fGjaTVL/ZE/X7RED3YG', 'GamePlay');
 // Game/Painting_template/Script/GamePlay/GamePlay.ts
 
 "use strict";
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -159,6 +153,10 @@ var GamePlay = /** @class */ (function (_super) {
         else if (globalVariables_1.default.Instance.jockeyName == "bag" || globalVariables_1.default.Instance.jockeyName == "cryon") {
             this.questionNode.children[0].getComponent(cc.Label).font = this.jaipuria_font;
         }
+    };
+    GamePlay.prototype.playQues = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[0], false);
     };
     GamePlay.prototype.StartGame = function () {
         var _this = this;

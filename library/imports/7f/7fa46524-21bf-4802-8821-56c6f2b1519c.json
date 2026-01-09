@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "circular storke",
+      "totalLevel": "3",
+      "TitleImageName": "Asset 129.png",
+      "introBgName": "Bg(8).png",
+      "bgmMusicName": "bgmm.mp3",
+      "initialVOName": "empty.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "વર્તુળ બનાવવું",
+        "questionImageName": "common.png",
+        "questionAudioName": "mp3-output-ttsfree(dot)com (2).mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "1circle.png",
+        "needMoreTools": true,
+        "correctAudioName": "empty.mp3"
+      },
+      {
+        "questionText": "વર્તુળ બનાવવું",
+        "questionImageName": "common.png",
+        "questionAudioName": "mp3-output-ttsfree(dot)com (2).mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "4circle.png",
+        "needMoreTools": true,
+        "correctAudioName": "empty.mp3"
+      },
+      {
+        "questionText": "વર્તુળ બનાવવું",
+        "questionImageName": "common.png",
+        "questionAudioName": "mp3-output-ttsfree(dot)com (2).mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "6circle.png",
+        "needMoreTools": true,
+        "correctAudioName": "empty.mp3"
+      }
+    ]
+  }
+}
