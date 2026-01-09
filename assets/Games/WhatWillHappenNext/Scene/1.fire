@@ -542,8 +542,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 450,
-      "height": 450
+      "width": 459,
+      "height": 462
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -586,7 +586,7 @@
     "node": {
       "__id__": 10
     },
-    "_enabled": true,
+    "_enabled": false,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
@@ -598,7 +598,7 @@
       "__uuid__": "06dd4157-4f14-44e1-8963-dfee4c243ec0"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -690,7 +690,7 @@
     "_dstBlendFactor": 771,
     "_spriteFrame": null,
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -825,8 +825,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
-      "height": 100
+      "width": 352,
+      "height": 352
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -844,8 +844,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        0.3,
+        0.3,
         1
       ]
     },
@@ -881,7 +881,7 @@
       "__uuid__": "ba81917f-ae9a-42c1-98d9-33e847865a07"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -890,7 +890,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "acT2TPiTNKv5kBhuPrwJO+"
   },
@@ -1831,7 +1831,7 @@
     "_dstBlendFactor": 771,
     "_spriteFrame": null,
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -1840,7 +1840,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "e1wNmf8CNEcKhNWyM1lC1x"
   },
@@ -2118,57 +2118,57 @@
     ],
     "positiveAudio": [
       {
-        "__uuid__": "e0d9f6fb-f075-4f14-9342-effd057f68ec"
+        "__uuid__": "3f51b277-6f34-46bc-b748-b9a1f334c107"
       },
       {
-        "__uuid__": "d7f6ddc8-9dff-4cb0-9132-3886f72b5e4b"
+        "__uuid__": "9b04d57b-c367-467a-a7ab-da9835f360ea"
       },
       {
-        "__uuid__": "6702bcb6-1561-48b8-96bf-e3a05e722fb0"
+        "__uuid__": "9c872378-eb29-4459-aa4d-d428406937ae"
       },
       {
-        "__uuid__": "f186e8c7-cbe1-4699-8da7-92a1c464d09b"
+        "__uuid__": "6c55f004-c8c6-46f6-be8a-ec58c662f16d"
       },
       {
-        "__uuid__": "da16b95f-2850-42ba-b4b3-a1c1d42340b9"
+        "__uuid__": "62f3cbaf-7af4-4e78-a95a-52c9ce3d74f2"
       },
       {
-        "__uuid__": "41e04b5f-b821-4709-b6a0-069ed45da528"
+        "__uuid__": "680b0e93-f915-43e7-ac74-f8a2ffe2e6eb"
       },
       {
-        "__uuid__": "d4818062-c1d5-4449-875b-b22b75e46e24"
+        "__uuid__": "c27c0bc6-27e7-488a-9ca6-cee0b7e9d595"
       },
       {
-        "__uuid__": "0451fd4c-9cb5-48f6-97d3-8ef8ecb1297a"
+        "__uuid__": "29c54709-0158-448b-b567-26a9db1cdfae"
       },
       {
-        "__uuid__": "ddff93ee-ab4d-4e5e-9515-0e68ec0a6a5f"
+        "__uuid__": "f5b18cf5-ec73-4125-b610-dffcea675e92"
       },
       {
-        "__uuid__": "23c6311d-448a-4a60-a912-b3188f8b503d"
+        "__uuid__": "73ae78a5-11de-4514-b9e6-d37ec4a668e1"
       }
     ],
     "negativeAudio": [
       {
-        "__uuid__": "e6e865ee-cbcf-49fb-aa96-43c85a2bd095"
+        "__uuid__": "f16ec321-8347-419d-93e0-d74b9060395e"
       },
       {
-        "__uuid__": "b024bef8-99b4-4d58-8a4a-10f203bf3f4b"
+        "__uuid__": "9d409641-95e9-4522-83d1-fb47006ce569"
       },
       {
-        "__uuid__": "dfc6c35d-f5e1-4ca9-89df-3739e1d71b67"
+        "__uuid__": "8d95d089-e819-48b7-9f9f-dc46665c6ab2"
       },
       {
-        "__uuid__": "caccd092-a8d6-4f28-8ee1-7e7f1507d467"
+        "__uuid__": "55973a8b-c741-4824-9643-3c17c74064f2"
       },
       {
-        "__uuid__": "32b4734f-f142-4081-b008-95698bc7c7ca"
+        "__uuid__": "bb71b924-80b6-4e0a-a33b-d3785df944c4"
       },
       {
-        "__uuid__": "1f9f9bc6-6174-4231-a38a-3061d4fe0225"
+        "__uuid__": "6f36d01e-42cb-4a7b-9b65-382c4823f34b"
       },
       {
-        "__uuid__": "07d88c20-a52c-4c0b-88bc-815947ccfabb"
+        "__uuid__": "142c2c98-fc4a-491c-9ee6-c29dadd6dc96"
       }
     ],
     "stallionPositive": [],

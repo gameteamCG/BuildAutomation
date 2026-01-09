@@ -1,5 +1,6 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -407,6 +408,8 @@ export default class NewClass extends cc.Component {
                         .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
                 }, 0.1);
                 this.scheduleOnce(() => {
+                    console.log("iamhere");
+
                     this.callOptionIn();
                 }, 0.5);
             }, 1);
@@ -442,6 +445,7 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 let objScale: number = 0;
                 cc.audioEngine.playEffect(this.popSound[0], false);
+
                 if (startGame.Instance.templateType == "SimpleTap") {
                     objScale = 1;
                 }
@@ -456,7 +460,11 @@ export default class NewClass extends cc.Component {
                     this.node.getChildByName("Option").children.forEach((element) => {
                         element.getChildByName("img").scale = 1.4;
                     })
+
+
                 }
+                // console.log(objScale, "*******");
+
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
                     .to(0.5, { scale: objScale }, { easing: "sineInOut" }).start();
                 if (i == this.node.getChildByName("Option").children.length) {
@@ -494,6 +502,9 @@ export default class NewClass extends cc.Component {
                         element.getChildByName("img").scale = 1.4;
                     })
                 }
+
+                // console.log(objScale, 1111111);
+
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
                     .to(0.5, { scale: objScale }, { easing: "sineInOut" }).start();
 
@@ -654,6 +665,8 @@ export default class NewClass extends cc.Component {
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+
+
         cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
             this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
@@ -1104,6 +1117,7 @@ export default class NewClass extends cc.Component {
         let scaleFactor = Math.min(1, availableWidth / totalWidthWithPadding);
 
         let accumulatedWidth = 0;
+
         for (let i = 0; i < optionNodes.length; i++) {
             let option = optionNodes[i];
 
@@ -1117,7 +1131,7 @@ export default class NewClass extends cc.Component {
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
 
-
+            // console.log(optionScaleFactor, 1111111111);
 
 
             // Calculate position based on anchor and scaled size
@@ -1220,6 +1234,8 @@ export default class NewClass extends cc.Component {
             // Scale the option
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
+
+            // console.log(optionScaleFactor, "***");
 
             // Calculate position based on anchor and scaled size
             let posY = accumulatedHeight + (option.height * option.anchorY);

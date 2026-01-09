@@ -1,1 +1,140 @@
-{"additionalData":{"GameID":"Long 'e' word families_UKG_SB2_8","totalLevel":"7","TitleImageName":"longeesound.png","introBgName":"bgmain.png","bgmMusicName":"BGM.mp3","mainBgName":"desert BG.png","JockeyName":"Puzzle","templateType":"SimpleTap"},"questionData":[{"questionText":"Long sound e","questionAudioName":"identifypicturewithlongsounde.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"panel.png","isOptionText":false,"isOptionBG":true,"numberOfOptions":3,"options":["500x500_0011_jeep.png","500x500_0012_jam.png","500x500_0010_jug.png"],"correctAudios":["jeep.mp3"],"correctAnswerNum":"1"},{"questionText":"Long sound e","questionAudioName":"identifypicturewithlongsounde.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"panel.png","isOptionText":false,"isOptionBG":true,"numberOfOptions":3,"options":["500x500_0004_sock.png","500x500_0007_seed.png","500x500_0008_sad.png"],"correctAudios":["Seed.mp3"],"correctAnswerNum":"2"},{"questionText":"Long sound e","questionAudioName":"identifypicturewithlongsounde.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"panel.png","isOptionText":false,"isOptionBG":true,"numberOfOptions":3,"options":["500x500_0005_sloth.png","slip.png","500x500_0006_sleep.png"],"correctAudios":["Sleep.mp3"],"correctAnswerNum":"3"},{"questionText":"Long sound e","questionAudioName":"identifypicturewithlongsounde.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"panel.png","isOptionText":false,"isOptionBG":true,"numberOfOptions":3,"options":["500x500_0015_great.png","500x500_0014_green.png","500x500_0013_grin.png"],"correctAudios":["Green.mp3"],"correctAnswerNum":"2"},{"questionText":"Long sound e","questionAudioName":"identifypicturewithlongsounde.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"panel.png","isOptionText":false,"isOptionBG":true,"numberOfOptions":3,"options":["500x500_0009_meal.png","500x500_0001_whale.png","500x500_0000_wing.png"],"correctAudios":["Meal.mp3"],"correctAnswerNum":"1"},{"questionText":"Long sound e","questionAudioName":"identifypicturewithlongsounde.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"panel.png","isOptionText":false,"isOptionBG":true,"numberOfOptions":3,"options":["500x500_0003_stack.png","500x500_0002_stump.png","500x500_0016_seal.png"],"correctAudios":["Seal.mp3"],"correctAnswerNum":"3"},{"questionText":"Long sound e","questionAudioName":"identifypicturewithlongsounde.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"panel.png","isOptionText":false,"isOptionBG":true,"numberOfOptions":3,"options":["500x500_0018_drip.png","500x500_0019_cream.png","500x500_0017_duck.png"],"correctAudios":["Cream.mp3"],"correctAnswerNum":"2"}]}
+{
+    "additionalData": {
+        "GameID": "Long 'e' word families_UKG_SB2_8",
+        "totalLevel": "7",
+        "TitleImageName": "longeesound.png",
+        "introBgName": "bgmain.png",
+        "bgmMusicName": "BGM.mp3",
+        "mainBgName": "desert BG.png",
+        "JockeyName": "Puzzle",
+        "templateType": "SimpleTap"
+    },
+    "questionData": [
+        {
+            "questionText": "વાદળ",
+            "questionAudioName": "identifypicturewithlongsounde.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "panel.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 3,
+            "options": [
+                "Asset 525.png",
+                "Asset 524.png",
+                "Asset 523.png"
+            ],
+            "correctAudios": [
+                "jeep.mp3"
+            ],
+            "correctAnswerNum": "1"
+        },
+        {
+            "questionText": "ચાદર",
+            "questionAudioName": "identifypicturewithlongsounde.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "panel.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 3,
+            "options": [
+                "Asset 519.png",
+                "Asset 524.png",
+                "Asset 520.png"
+            ],
+            "correctAudios": [
+                "Seed.mp3"
+            ],
+            "correctAnswerNum": "2"
+        },
+        {
+            "questionText": "દવા",
+            "questionAudioName": "identifypicturewithlongsounde.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "panel.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 3,
+            "options": [
+                "Asset 522.png",
+                "Asset 523.png",
+                "Asset 519.png"
+            ],
+            "correctAudios": [
+                "Sleep.mp3"
+            ],
+            "correctAnswerNum": "3"
+        },
+        {
+            "questionText": "દાદર",
+            "questionAudioName": "identifypicturewithlongsounde.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "panel.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 3,
+            "options": [
+                "Asset 521.png",
+                "Asset 523.png",
+                "Asset 524.png"
+            ],
+            "correctAudios": [
+                "Green.mp3"
+            ],
+            "correctAnswerNum": "2"
+        },
+        {
+            "questionText": "મદદ",
+            "questionAudioName": "identifypicturewithlongsounde.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "panel.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 3,
+            "options": [
+                "Asset 522.png",
+                "Asset 525.png",
+                "Asset 520.png"
+            ],
+            "correctAudios": [
+                "Meal.mp3"
+            ],
+            "correctAnswerNum": "1"
+        },
+        {
+            "questionText": "શરદ",
+            "questionAudioName": "identifypicturewithlongsounde.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "panel.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 3,
+            "options": [
+                "Asset 524.png",
+                "Asset 519.png",
+                "Asset 521.png"
+            ],
+            "correctAudios": [
+                "Seal.mp3"
+            ],
+            "correctAnswerNum": "3"
+        },
+        {
+            "questionText": "પદક",
+            "questionAudioName": "identifypicturewithlongsounde.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "panel.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 3,
+            "options": [
+                "Asset 519.png",
+                "Asset 520.png",
+                "Asset 522.png"
+            ],
+            "correctAudios": [
+                "Cream.mp3"
+            ],
+            "correctAnswerNum": "2"
+        }
+    ]
+}

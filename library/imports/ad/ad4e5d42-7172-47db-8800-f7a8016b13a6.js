@@ -23,7 +23,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -357,6 +358,7 @@ var NewClass = /** @class */ (function (_super) {
                         .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
                 }, 0.1);
                 _this.scheduleOnce(function () {
+                    console.log("iamhere");
                     _this.callOptionIn();
                 }, 0.5);
             }, 1);
@@ -406,6 +408,7 @@ var NewClass = /** @class */ (function (_super) {
                         element.getChildByName("img").scale = 1.4;
                     });
                 }
+                // console.log(objScale, "*******");
                 cc.tween(_this.node.getChildByName("Option").getChildByName(i.toString()))
                     .to(0.5, { scale: objScale }, { easing: "sineInOut" }).start();
                 if (i == _this.node.getChildByName("Option").children.length) {
@@ -445,6 +448,7 @@ var NewClass = /** @class */ (function (_super) {
                         element.getChildByName("img").scale = 1.4;
                     });
                 }
+                // console.log(objScale, 1111111);
                 cc.tween(_this.node.getChildByName("Option").getChildByName(i.toString()))
                     .to(0.5, { scale: objScale }, { easing: "sineInOut" }).start();
                 var pos = _this.node.getChildByName("Option").getChildByName(i.toString()).getPosition();
@@ -1045,6 +1049,7 @@ var NewClass = /** @class */ (function (_super) {
             // Scale the option
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
+            // console.log(optionScaleFactor, 1111111111);
             // Calculate position based on anchor and scaled size
             var posX = accumulatedWidth + (option.width * option.anchorX);
             if (!this.isLastTween) {
@@ -1127,6 +1132,7 @@ var NewClass = /** @class */ (function (_super) {
             // Scale the option
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
+            // console.log(optionScaleFactor, "***");
             // Calculate position based on anchor and scaled size
             var posY = accumulatedHeight + (option.height * option.anchorY);
             option.y = posY - (optionsLayout.height * optionsLayout.anchorY);

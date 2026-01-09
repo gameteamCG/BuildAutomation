@@ -25,6 +25,8 @@ export default class NewClass extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
+        console.log(startGame.Instance.jockeyName, "*****");
+
         if (startGame.Instance.jockeyName == "Podar") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
         }
