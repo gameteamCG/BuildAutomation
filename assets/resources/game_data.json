@@ -1,0 +1,50 @@
+{
+    "additionalData": {
+        "GameID": "Join the dots and colour",
+        "totalLevel": "4",
+        "TitleImageName": "jointhedots.png",
+        "introBgName": "titlebg.png",
+        "bgmMusicName": "BGM.mp3",
+        "initialVOName": "",
+        "mainBgName": "artbackground4.png",
+        "JockeyName": "supercub"
+    },
+    "questionData": [
+        {
+            "questionText": "બિંદુઓને જોડો",
+            "questionImageName": "crab.png",
+            "questionAudioName": "6219016_1_---.mp3",
+            "shouldPlayQuestionAudio": true,
+            "pictureImageName": "crab2.png",
+            "needMoreTools": true,
+            "correctAudioName": "6219016_2_.mp3"
+        },
+        {
+            "questionText": "બિંદુઓને જોડો",
+            "questionImageName": "dolphin.png",
+            "questionAudioName": "6219016_1_---.mp3",
+            "shouldPlayQuestionAudio": true,
+            "pictureImageName": "dolphin2.png",
+            "needMoreTools": true,
+            "correctAudioName": "6219016_3_.mp3"
+        },
+        {
+            "questionText": "બિંદુઓને જોડો",
+            "questionImageName": "fish.png",
+            "questionAudioName": "6219016_1_---.mp3",
+            "shouldPlayQuestionAudio": false,
+            "pictureImageName": "fish2.png",
+            "needMoreTools": true,
+            "correctAudioName": "6219016_6_.mp3"
+        },
+        {
+            "questionText": "બિંદુઓને જોડો",
+            "questionImageName": "shark.png",
+            "questionAudioName": "6219016_1_---.mp3",
+            "shouldPlayQuestionAudio": false,
+            "pictureImageName": "shark2.png",
+            "needMoreTools": true,
+            "correctAudioName": "6219016_4_.mp3"
+        }
+    ]
+}

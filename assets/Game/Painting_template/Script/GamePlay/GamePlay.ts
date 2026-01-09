@@ -177,6 +177,16 @@ export default class GamePlay extends cc.Component {
         }, 1);
     }
 
+    PlayQVoButton(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[0], false)
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.question_audios[0].duration)
+        _event.target.getComponent(cc.Button).interactable = false;
+
+    }
+
 
     // update (dt) {}
 

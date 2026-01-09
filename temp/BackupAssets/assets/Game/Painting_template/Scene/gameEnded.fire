@@ -882,7 +882,7 @@
       "__id__": 17
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 19
@@ -901,8 +901,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 728.16,
-      "height": 896.05
+      "width": 409.26,
+      "height": 351.22
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -913,15 +913,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        334.072,
-        44.346,
+        -81.765,
+        143.728,
         0,
         0,
         0,
         0,
         1,
-        0.35,
-        0.35,
+        0.7,
+        0.7,
         0.35
       ]
     },
@@ -953,10 +953,10 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "positive_5",
+    "defaultAnimation": "positive_9",
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "loop": false,
+    "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 1,
     "_accTime": 0,
@@ -964,13 +964,13 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "positive_5",
+    "_animationName": "positive_9",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 1,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "02b60985-463e-42ce-b1e5-9173efd43fff"
+      "__uuid__": "2c81fbe0-5254-485b-838c-fdaa0a01eec1"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,

@@ -186,6 +186,14 @@ var GamePlay = /** @class */ (function (_super) {
             _this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
         }, 1);
     };
+    GamePlay.prototype.PlayQVoButton = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[0], false);
+        this.scheduleOnce(function () {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.question_audios[0].duration);
+        _event.target.getComponent(cc.Button).interactable = false;
+    };
     // update (dt) {}
     GamePlay.prototype.addDrawing = function () {
         var _this = this;
