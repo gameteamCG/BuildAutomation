@@ -1,41 +1,101 @@
 {
   "additionalData": {
     "GameID": "Null",
-    "totalLevel": "2",
+    "totalLevel": "6",
     "TitleImageName": "title.png",
-    "introBgName": "PLAYGROUP.png",
+    "introBgName": "BG_Composite.png",
     "bgmMusicName": "bgm1.mp3",
     "mainBgName": "PLAYGROUP.png",
-    "JockeyName": "Podar"
+    "JockeyName": "Puzzle"
   },
   "questionData": [
     {
-      "questionText": "Q 1",
+      "questionText": "વારતા",
       "questionAudioName": "question.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
       "options": [
-        "1",
-        "2",
-        "3"
+        "માડી",
+        "ચારતા",
+        "આડી"
+      ],
+      "correctAudios": [
+        "2.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "ચારતા",
+      "questionAudioName": "question.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "રિસાયો",
+        "પાડી",
+        "લાવતા"
       ],
       "correctAudios": [
         "3.mp3"
       ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionText": "વારતા",
+      "questionAudioName": "question.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "ભૌંસાયો",
+        "સમજાવતા",
+        "માડી"
+      ],
+      "correctAudios": [
+        "4.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "રિસાયો",
+      "questionAudioName": "question.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "ભૌંસાયો",
+        "લાવતા",
+        "આડી"
+      ],
+      "correctAudios": [
+        "5.mp3"
+      ],
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Q 2",
+      "questionText": "આડી",
       "questionAudioName": "question.mp3",
       "shouldPlayQuestionAudio": true,
-      "isOptionText": false,
+      "isOptionText": true,
       "options": [
-        "1.png",
-        "2.png",
-        "3.png"
+        "રિસાયો",
+        "પાડી",
+        "ચારતા"
       ],
       "correctAudios": [
-        "2.mp3"
+        "6.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "પાડી",
+      "questionAudioName": "question.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": true,
+      "options": [
+        "સમજાવતા",
+        "માડી",
+        "લાવતા"
+      ],
+      "correctAudios": [
+        "7.mp3"
       ],
       "correctAnswerNum": "2"
     }

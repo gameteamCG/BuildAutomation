@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toondomy0001",
+    "texture": "8df71232-16fc-4a68-827a-1d2f3cc6cfd9",
+    "atlas": "",
+    "rect": [
+      2,
+      45,
+      2042,
+      1821
+    ],
+    "offset": [
+      -1,
+      68.5
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

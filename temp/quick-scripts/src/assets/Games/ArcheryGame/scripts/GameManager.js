@@ -30,7 +30,8 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
     return r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var Constants_1 = require("../utils/Constants");
 var EventSystem_1 = require("../utils/EventSystem");
@@ -573,6 +574,8 @@ var GameManager = /** @class */ (function (_super) {
             this.panning(); // contains all panning logic and stuff
         }
         this.toggleFakeArrowVisibility(true);
+    };
+    GameManager.prototype.onSoundButtonClick = function () {
     };
     GameManager.prototype.callStarsEared = function () {
         if (!this.star1Log && globalVariables_1.default.Instance.currentLevel == 1) {

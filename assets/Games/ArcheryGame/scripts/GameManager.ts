@@ -1,4 +1,5 @@
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import { GAME_EVENTS, LogTypes } from "../utils/Constants";
 import EVENTS from "../utils/EventSystem";
@@ -683,6 +684,10 @@ export default class GameManager extends cc.Component {
       this.panning(); // contains all panning logic and stuff
     }
     this.toggleFakeArrowVisibility(true);
+  }
+
+  onSoundButtonClick() {
+    
   }
 
   callStarsEared() {
