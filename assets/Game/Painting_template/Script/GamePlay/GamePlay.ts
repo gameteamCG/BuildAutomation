@@ -258,13 +258,13 @@ export default class GamePlay extends cc.Component {
             console.log("levelComplete--" + (this.currentLevel));
             
             // Play reiteration audio after 0.5 second delay if available
-            this.scheduleOnce(() => {
-                let currentQuestionData = globalVariables.Instance.questions[this.currentLevel - 1];
-                if (currentQuestionData.reiteration !== undefined && currentQuestionData.reiteration !== "" && this.reiteration_VoiceOver) {
-                    cc.audioEngine.playEffect(this.reiteration_VoiceOver, false);
-                    console.log("Reiteration played for level " + this.currentLevel);
-                }
-            }, 0.2);
+            // this.scheduleOnce(() => {
+            //     let currentQuestionData = globalVariables.Instance.questions[this.currentLevel - 1];
+            //     if (currentQuestionData.reiteration !== undefined && currentQuestionData.reiteration !== "" && this.reiteration_VoiceOver) {
+            //         cc.audioEngine.playEffect(this.reiteration_VoiceOver, false);
+            //         console.log("Reiteration played for level " + this.currentLevel);
+            //     }
+            // }, 0.5);
         }
         this.hand.opacity = 0;
         this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;

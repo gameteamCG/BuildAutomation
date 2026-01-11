@@ -38,6 +38,9 @@ require('./assets/Game/Painting_template/Script/ScreenShot');
 require('./assets/Game/Painting_template/Script/endScreen');
 require('./assets/Game/Painting_template/Script/globalVariables');
 require('./assets/Game/Painting_template/Script/scratch');
+require('./assets/MainAssets/Scripts/FontChanger');
+require('./assets/MainAssets/Scripts/GameEnd');
+require('./assets/MainAssets/Scripts/JockeyController');
 require('./assets/resources/empty');
 
                     }

@@ -260,13 +260,13 @@ var GamePlay = /** @class */ (function (_super) {
             console.log("correctAnswer--" + (this.currentLevel));
             console.log("levelComplete--" + (this.currentLevel));
             // Play reiteration audio after 0.5 second delay if available
-            this.scheduleOnce(function () {
-                var currentQuestionData = globalVariables_1.default.Instance.questions[_this.currentLevel - 1];
-                if (currentQuestionData.reiteration !== undefined && currentQuestionData.reiteration !== "" && _this.reiteration_VoiceOver) {
-                    cc.audioEngine.playEffect(_this.reiteration_VoiceOver, false);
-                    console.log("Reiteration played for level " + _this.currentLevel);
-                }
-            }, 0.2);
+            // this.scheduleOnce(() => {
+            //     let currentQuestionData = globalVariables.Instance.questions[this.currentLevel - 1];
+            //     if (currentQuestionData.reiteration !== undefined && currentQuestionData.reiteration !== "" && this.reiteration_VoiceOver) {
+            //         cc.audioEngine.playEffect(this.reiteration_VoiceOver, false);
+            //         console.log("Reiteration played for level " + this.currentLevel);
+            //     }
+            // }, 0.5);
         }
         this.hand.opacity = 0;
         this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
