@@ -66,6 +66,7 @@ var GamePlay = /** @class */ (function (_super) {
         // @property(cc.AudioClip)
         _this.question_audios = [];
         _this.reiteration_Audio = [];
+        _this.reiteration_VoiceOver = null;
         _this.initialVO = null;
         _this.persistentScrollNode = null;
         _this.persistentScrollScript = null;
@@ -95,6 +96,25 @@ var GamePlay = /** @class */ (function (_super) {
         var _loop_1 = function (i) {
             var questionData = globalVariables_1.default.Instance.questions[i];
             this_1.questions[i] = questionData.questionText;
+            // Load reiteration from JSON
+            if (questionData.reiteration !== undefined && questionData.reiteration !== "") {
+                console.log("Reiteration loaded for question " + i + ": " + questionData.reiteration);
+                // Load reiteration audio
+                if (globalVariables_1.default.Instance.isDemoGame) {
+                    cc.loader.load(questionData.reiteration, function (err, audioClip) {
+                        if (err) {
+                            console.error("Failed to load reiteration audio:", err);
+                            return;
+                        }
+                        _this.reiteration_VoiceOver = audioClip;
+                    });
+                }
+                else {
+                    this_1.loadAudioClip(questionData.reiteration, function (audioClip) {
+                        _this.reiteration_VoiceOver = audioClip;
+                    });
+                }
+            }
             if (globalVariables_1.default.Instance.isDemoGame) {
                 cc.loader.load(questionData.questionImageName, function (err, texture) {
                     if (err) {
@@ -234,10 +254,19 @@ var GamePlay = /** @class */ (function (_super) {
         var _this = this;
         var duration = 0;
         if (this.currentLevel != 0) {
+            // Play correct audio (reiteration_Audio) immediately
             cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
             duration = this.reiteration_Audio[this.currentLevel - 1].duration;
             console.log("correctAnswer--" + (this.currentLevel));
             console.log("levelComplete--" + (this.currentLevel));
+            // Play reiteration audio after 0.5 second delay if available
+            this.scheduleOnce(function () {
+                var currentQuestionData = globalVariables_1.default.Instance.questions[_this.currentLevel - 1];
+                if (currentQuestionData.reiteration !== undefined && currentQuestionData.reiteration !== "" && _this.reiteration_VoiceOver) {
+                    cc.audioEngine.playEffect(_this.reiteration_VoiceOver, false);
+                    console.log("Reiteration played for level " + _this.currentLevel);
+                }
+            }, 0.2);
         }
         this.hand.opacity = 0;
         this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;

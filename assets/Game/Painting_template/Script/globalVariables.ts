@@ -19,6 +19,7 @@ interface QuestionData {
     pictureImageName: string;
     needMoreTools: boolean;
     correctAudioName: string;
+    reiteration: string;
 }
 
 interface MyJSONData {

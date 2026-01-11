@@ -1104,11 +1104,6 @@
     "meta": 1768141434681,
     "relativePath": "Game\\Painting_template\\Script\\ScreenShot.ts"
   },
-  "25d57ecb-2b48-4d88-8748-793fe3153e43": {
-    "asset": 1768141362417,
-    "meta": 1768141434483,
-    "relativePath": "Game\\Painting_template\\Script\\globalVariables.ts"
-  },
   "dbb8613b-41bb-4bc6-a557-14c1ec004eee": {
     "asset": 1768141362417,
     "meta": 1768141434574,
@@ -1233,11 +1228,6 @@
     "asset": 1768141362401,
     "meta": 1768141438636,
     "relativePath": "Game\\Painting_template\\Script\\GamePlay\\Drawingmask.ts"
-  },
-  "26a7f1a3-6935-4bfd-913f-5fb4440f7606": {
-    "asset": 1768141362401,
-    "meta": 1768141439098,
-    "relativePath": "Game\\Painting_template\\Script\\GamePlay\\GamePlay.ts"
   },
   "21df2f52-3442-434f-a855-195f2cc6eef8": {
     "asset": 1768141362401,
@@ -4474,14 +4464,24 @@
     "meta": 1768142199841,
     "relativePath": "resources\\audios\\3.mp3"
   },
-  "01d37f1c-8ed4-4d19-8c71-73e6534bf90f": {
-    "asset": 1768142280193,
-    "meta": 1768142281205,
-    "relativePath": "resources\\game_data.json"
-  },
   "6cb80e69-c08a-4601-b6bf-c46171ef2397": {
     "asset": 1768142497523,
     "meta": 1768142497561,
     "relativePath": "resources\\images\\Asset 6.png"
+  },
+  "25d57ecb-2b48-4d88-8748-793fe3153e43": {
+    "asset": 1768143466324,
+    "meta": 1768143485307,
+    "relativePath": "Game\\Painting_template\\Script\\globalVariables.ts"
+  },
+  "01d37f1c-8ed4-4d19-8c71-73e6534bf90f": {
+    "asset": 1768143809602,
+    "meta": 1768147081841,
+    "relativePath": "resources\\game_data.json"
+  },
+  "26a7f1a3-6935-4bfd-913f-5fb4440f7606": {
+    "asset": 1768147122402,
+    "meta": 1768147124208,
+    "relativePath": "Game\\Painting_template\\Script\\GamePlay\\GamePlay.ts"
   }
 }

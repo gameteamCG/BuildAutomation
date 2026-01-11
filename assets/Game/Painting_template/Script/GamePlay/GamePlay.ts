@@ -51,6 +51,8 @@ export default class GamePlay extends cc.Component {
     question_audios: cc.AudioClip[] = [];
 
     reiteration_Audio: cc.AudioClip[] = [];
+    
+    reiteration_VoiceOver: cc.AudioClip = null;
 
     initialVO: cc.AudioClip = null;
 
@@ -83,7 +85,25 @@ export default class GamePlay extends cc.Component {
         for (let i = 0; i < this.totalLevels; i++) {
             let questionData = globalVariables.Instance.questions[i];
             this.questions[i] = questionData.questionText;
-
+            
+            // Load reiteration from JSON
+            if (questionData.reiteration !== undefined && questionData.reiteration !== "") {
+                console.log("Reiteration loaded for question " + i + ": " + questionData.reiteration);
+                // Load reiteration audio
+                if (globalVariables.Instance.isDemoGame) {
+                    cc.loader.load(questionData.reiteration, (err, audioClip) => {
+                        if (err) {
+                            console.error("Failed to load reiteration audio:", err);
+                            return;
+                        }
+                        this.reiteration_VoiceOver = audioClip;
+                    });
+                } else {
+                    this.loadAudioClip(questionData.reiteration, (audioClip) => {
+                        this.reiteration_VoiceOver = audioClip;
+                    });
+                }
+            }
 
             if (globalVariables.Instance.isDemoGame) {
                 cc.loader.load(questionData.questionImageName, (err, texture) => {
@@ -231,10 +251,20 @@ export default class GamePlay extends cc.Component {
     checkNextLevel() {
         let duration: number = 0;
         if (this.currentLevel != 0) {
+            // Play correct audio (reiteration_Audio) immediately
             cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
             duration = this.reiteration_Audio[this.currentLevel - 1].duration;
             console.log("correctAnswer--" + (this.currentLevel))
             console.log("levelComplete--" + (this.currentLevel));
+            
+            // Play reiteration audio after 0.5 second delay if available
+            this.scheduleOnce(() => {
+                let currentQuestionData = globalVariables.Instance.questions[this.currentLevel - 1];
+                if (currentQuestionData.reiteration !== undefined && currentQuestionData.reiteration !== "" && this.reiteration_VoiceOver) {
+                    cc.audioEngine.playEffect(this.reiteration_VoiceOver, false);
+                    console.log("Reiteration played for level " + this.currentLevel);
+                }
+            }, 0.2);
         }
         this.hand.opacity = 0;
         this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
