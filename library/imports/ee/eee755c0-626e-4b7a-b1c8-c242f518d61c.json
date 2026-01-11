@@ -1458,8 +1458,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 320,
-      "height": 320
+      "width": 250,
+      "height": 250
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2756,7 +2756,7 @@
         "__uuid__": "ddff93ee-ab4d-4e5e-9515-0e68ec0a6a5f"
       },
       {
-        "__uuid__": "23c6311d-448a-4a60-a912-b3188f8b503d"
+        "__uuid__": "e0d9f6fb-f075-4f14-9342-effd057f68ec"
       }
     ],
     "negativeAudio": [

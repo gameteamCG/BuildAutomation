@@ -384,6 +384,7 @@ export default class gameplay extends cc.Component {
             dropNode.name = (i + 1).toString();
             dropNode.setParent(this.dropZones);
             dropNode.setPosition(cc.v2(0, 0));
+            dropNode.getChildByName("img").setPosition(-30,0);
             dropNode.opacity = 0;
         }
         for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfRightOptions; i++) {
@@ -391,6 +392,7 @@ export default class gameplay extends cc.Component {
             option.name = (i + 1).toString();
             option.setParent(this.optionsNode);
             option.setPosition(cc.v2(0, 0));
+            option.getChildByName("img").setPosition(30,0);
             option.opacity = 0;
         }
 
@@ -596,16 +598,16 @@ export default class gameplay extends cc.Component {
         this.optionsNode.active = false;
         cc.audioEngine.playEffect(this.positiveSound[0], false);
         cc.tween(_clone1).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1.children[1]).to(0.5, { width: 250, height: 250 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1.children[2]).to(0.5, { width: 250, height: 250 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).start();
 
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2.children[1]).to(0.5, { width: 250, height: 250 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2.children[2]).to(0.5, { width: 250, height: 250 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).start();
 
