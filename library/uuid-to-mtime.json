@@ -1115,8 +1115,8 @@
     "relativePath": "Game\\Painting_template\\Audios\\incorrectAnswer.mp3"
   },
   "8f491b88-8714-4309-8941-9a7f14c25a57": {
-    "asset": 1768142541008,
-    "meta": 1768142541046,
+    "asset": 1768147308815,
+    "meta": 1768147308868,
     "relativePath": "Game\\Painting_template\\Scene\\GamePlay.fire"
   },
   "0212e4bc-992e-422e-8092-508bec43d179": {
@@ -2260,8 +2260,8 @@
     "relativePath": "Game\\Painting_template\\Assets\\Template\\prefab\\GamePlay\\NewDrawings\\template.prefab"
   },
   "e50202c3-ac76-422f-819d-53adb206e350": {
-    "asset": 1768141362173,
-    "meta": 1768141442765,
+    "asset": 1768147299667,
+    "meta": 1768147299695,
     "relativePath": "Game\\Painting_template\\Assets\\Template\\prefab\\GamePlay\\NewDrawings\\test.prefab"
   },
   "3e8fe80b-541c-4206-abd3-550a9a13767a": {
