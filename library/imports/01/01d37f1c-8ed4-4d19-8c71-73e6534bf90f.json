@@ -16,31 +16,13 @@
     },
     "questionData": [
       {
-        "questionText": "Car",
+        "questionText": "ચિત્રના ખૂટતા ભાગો દોરો",
         "questionImageName": "",
-        "questionAudioName": "car.mp3",
+        "questionAudioName": "1.mp3",
         "shouldPlayQuestionAudio": true,
-        "pictureImageName": "1_0008_Layer-1.png",
+        "pictureImageName": "1.png",
         "needMoreTools": false,
         "correctAudioName": "EXCELLENTJOB.mp3"
-      },
-      {
-        "questionText": "Bus",
-        "questionImageName": "",
-        "questionAudioName": "bus.mp3",
-        "shouldPlayQuestionAudio": true,
-        "pictureImageName": "1_0011_Layer-1.png",
-        "needMoreTools": false,
-        "correctAudioName": "EXCEPTIONAL.mp3"
-      },
-      {
-        "questionText": "Truck",
-        "questionImageName": "",
-        "questionAudioName": "trk.mp3",
-        "shouldPlayQuestionAudio": true,
-        "pictureImageName": "1_0010_Layer-1.png",
-        "needMoreTools": false,
-        "correctAudioName": "GOODEFFORT.mp3"
       }
     ]
   }
