@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Colouring rainbow",
+      "totalLevel": "1",
+      "TitleImageName": "colouringtherainbow.png",
+      "introBgName": "tlc_bg.png",
+      "bgmMusicName": "BGM.mp3",
+      "initialVOName": "Colour_and_brighten_the_picture.mp3",
+      "mainBgName": "artbackground2.png",
+      "JockeyName": "tlc"
+    },
+    "questionData": [
+      {
+        "questionText": "મેઘધનુષ બનાવો",
+        "questionImageName": "rainbow2.png",
+        "questionAudioName": "Its_time_to_colour_the_rainbow.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "rainbow_colouring2.png",
+        "needMoreTools": true,
+        "correctAudioName": "EXCELLENTJOB.mp3"
+      }
+    ]
+  }
+}
