@@ -216,13 +216,13 @@ var GamePlay = /** @class */ (function (_super) {
         this.hand.opacity = 255;
     };
     GamePlay.prototype.onBackClicked = function () {
-        // console.log("levelComplete--" + (CommonFun.instance.currentLvl + 1));
+        var _this = this;
         cc.audioEngine.playEffect(this.clickAud, false);
-        // console.log("gameExit--true");
-        // this.persistentScrollNode.getChildByName("base").active = false;
-        // this.saveData();
-        // cc.director.loadScene("LevelSelection");
-        this.checkNextLevel();
+        this.hand.opacity = 0;
+        this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(function () {
+            _this.checkNextLevel();
+        }, 1);
     };
     GamePlay.prototype.OnExitClicked = function () {
         cc.audioEngine.playEffect(this.clickAud, false);
@@ -237,8 +237,6 @@ var GamePlay = /** @class */ (function (_super) {
             console.log("correctAnswer--" + (this.currentLevel));
             console.log("levelComplete--" + (this.currentLevel));
         }
-        this.hand.opacity = 0;
-        this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
         this.scheduleOnce(function () {
             cc.tween(_this.node.getChildByName("image")).to(0.5, { opacity: 0 }, { easing: "sineInOut" })
                 .to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();

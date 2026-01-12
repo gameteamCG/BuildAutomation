@@ -160,6 +160,7 @@ export default class DrawingTable extends cc.Component {
         var point1 = event.touch.getLocation();
         point1 = this.persistentScrollNode.convertToNodeSpaceAR(point1);
         this.persistentScrollScript.particleEffect.node.setPosition(point1);
+        cc.audioEngine.playEffect(this.persistentScrollScript.glowAud, false);
         this.persistentScrollScript.particleEffect.resetSystem();
     }
 

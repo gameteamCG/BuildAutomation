@@ -7747,7 +7747,7 @@
       "__uuid__": "6f340636-1d4e-4e19-9926-f88a75ab081a"
     },
     "_texture": null,
-    "_stopped": true,
+    "_stopped": false,
     "playOnLoad": false,
     "autoRemoveOnFinish": false,
     "totalParticles": 10,
@@ -10445,11 +10445,11 @@
     "_clip": {
       "__uuid__": "a24b7261-4d8d-4255-991b-be0396112bb7"
     },
-    "_volume": 0.1,
+    "_volume": 0.2,
     "_mute": false,
-    "_loop": false,
+    "_loop": true,
     "_firstlyEnabled": true,
-    "playOnLoad": false,
+    "playOnLoad": true,
     "preload": false,
     "_id": "8cS3AeimJBT6Ud910E5oVT"
   }

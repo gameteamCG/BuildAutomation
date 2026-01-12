@@ -155,6 +155,7 @@ var DrawingTable = /** @class */ (function (_super) {
         var point1 = event.touch.getLocation();
         point1 = this.persistentScrollNode.convertToNodeSpaceAR(point1);
         this.persistentScrollScript.particleEffect.node.setPosition(point1);
+        cc.audioEngine.playEffect(this.persistentScrollScript.glowAud, false);
         this.persistentScrollScript.particleEffect.resetSystem();
     };
     DrawingTable.prototype._addCircle = function (point) {

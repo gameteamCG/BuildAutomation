@@ -414,7 +414,6 @@ var PersistentScroll = /** @class */ (function (_super) {
         this.changeParticle(0);
     };
     PersistentScroll.prototype.changeParticle = function (index) {
-        //set color of particle
         if (this.currentTileIndex == Constant_1.Constant.COLORTAG.COLOR) {
             this.particleEffect.spriteFrame = this.FrameArray[index].colorParticleFrame;
             this.particleEffect.startColor = this.FrameArray[index].color; //CommonFun.instance.hexToRgb(this.FrameArray[index].color);

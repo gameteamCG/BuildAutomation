@@ -210,14 +210,12 @@ export default class GamePlay extends cc.Component {
     }
 
     onBackClicked() {
-
-        // console.log("levelComplete--" + (CommonFun.instance.currentLvl + 1));
         cc.audioEngine.playEffect(this.clickAud, false);
-        // console.log("gameExit--true");
-        // this.persistentScrollNode.getChildByName("base").active = false;
-        // this.saveData();
-        // cc.director.loadScene("LevelSelection");
-        this.checkNextLevel();
+        this.hand.opacity = 0;
+        this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(() => {
+            this.checkNextLevel();
+        }, 1)
     }
 
     OnExitClicked() {
@@ -233,8 +231,6 @@ export default class GamePlay extends cc.Component {
             console.log("correctAnswer--" + (this.currentLevel))
             console.log("levelComplete--" + (this.currentLevel));
         }
-        this.hand.opacity = 0;
-        this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
 
         this.scheduleOnce(() => {
             cc.tween(this.node.getChildByName("image")).to(0.5, { opacity: 0 }, { easing: "sineInOut" })
