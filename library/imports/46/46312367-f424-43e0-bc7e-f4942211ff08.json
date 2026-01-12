@@ -1,0 +1,56 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Drawing insects",
+      "totalLevel": "4",
+      "TitleImageName": "Asset102.png",
+      "introBgName": "jrkg.png",
+      "bgmMusicName": "BGMBackward.mp3",
+      "initialVOName": "evo.mp3",
+      "mainBgName": "purpleBG.png",
+      "JockeyName": "Podar"
+    },
+    "questionData": [
+      {
+        "questionText": "Drawing insect",
+        "questionImageName": "empty.png",
+        "questionAudioName": "Drawandcolouraladybug.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "500x500_0000_ladybug.png",
+        "needMoreTools": false,
+        "correctAudioName": "L2Correct.mp3"
+      },
+      {
+        "questionText": "Drawing insect",
+        "questionImageName": "empty.png",
+        "questionAudioName": "Drawandcolourabutterfly.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "500x500_0001_butterfly.png",
+        "needMoreTools": false,
+        "correctAudioName": "l4correct.mp3"
+      },
+      {
+        "questionText": "Drawing insect",
+        "questionImageName": "empty.png",
+        "questionAudioName": "Drawandcolourarasshopper.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "500x500_0002_grasshopper.png",
+        "needMoreTools": false,
+        "correctAudioName": "l6correct.mp3"
+      },
+      {
+        "questionText": "Drawing insect",
+        "questionImageName": "empty.png",
+        "questionAudioName": "Drawandcolouraspider.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "500x500_0003_spider.png",
+        "needMoreTools": false,
+        "correctAudioName": "L8Correct.mp3"
+      }
+    ]
+  }
+}
