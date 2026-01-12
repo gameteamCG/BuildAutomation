@@ -208,6 +208,14 @@ var GamePlay = /** @class */ (function (_super) {
             _this.DrawingTableClassRef.drawData(data);
         }, 10);
     };
+    GamePlay.prototype.PlayQVoButton = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
+        this.scheduleOnce(function () {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.question_audios[this.currentLevel].duration);
+        _event.target.getComponent(cc.Button).interactable = false;
+    };
     GamePlay.prototype.saveData = function () {
         this.overAllData = [];
         this.overAllData = this.DrawingTableClassRef.overAllData;

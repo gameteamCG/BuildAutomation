@@ -201,6 +201,15 @@ export default class GamePlay extends cc.Component {
         }, 10);
     }
 
+    PlayQVoButton(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false)
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.question_audios[this.currentLevel].duration)
+        _event.target.getComponent(cc.Button).interactable = false;
+
+    }
     saveData() {
         this.overAllData = [];
         this.overAllData = this.DrawingTableClassRef.overAllData;

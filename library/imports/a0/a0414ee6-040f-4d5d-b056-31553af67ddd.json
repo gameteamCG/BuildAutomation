@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "purple sound",
+    "texture": "b90af564-242b-477d-b343-4abf1146bbbe",
+    "atlas": "",
+    "rect": [
+      56,
+      80,
+      383,
+      360
+    ],
+    "offset": [
+      -2.5,
+      -9.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
