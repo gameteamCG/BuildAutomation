@@ -323,6 +323,22 @@ var GamePlay = /** @class */ (function (_super) {
         // ref.node.getParent().getChildByName("val").getComponent(cc.Label).string = val;
         // Constant.CurrentToolsTagSize[this.currentPensilSelection] = val;
     };
+    /**
+     * Plays the current question audio when called from a button click in the editor
+     */
+    GamePlay.prototype.onPlayQuestionSound = function () {
+        // Stop any currently playing audio
+        cc.audioEngine.stopAllEffects();
+        // Play the question audio for the current level
+        // Note: currentLevel is incremented after the level starts, so use currentLevel for the active question
+        var questionIndex = this.currentLevel > 0 ? this.currentLevel - 1 : 0;
+        if (this.question_audios[questionIndex]) {
+            cc.audioEngine.playEffect(this.question_audios[questionIndex], false);
+        }
+        else {
+            console.warn("Question audio not found for level:", questionIndex);
+        }
+    };
     var GamePlay_1;
     GamePlay.instance = null;
     __decorate([

@@ -329,4 +329,22 @@ export default class GamePlay extends cc.Component {
 
         // Constant.CurrentToolsTagSize[this.currentPensilSelection] = val;
     }
+
+    /**
+     * Plays the current question audio when called from a button click in the editor
+     */
+    onPlayQuestionSound() {
+        // Stop any currently playing audio
+        cc.audioEngine.stopAllEffects();
+        
+        // Play the question audio for the current level
+        // Note: currentLevel is incremented after the level starts, so use currentLevel for the active question
+        const questionIndex = this.currentLevel > 0 ? this.currentLevel - 1 : 0;
+        
+        if (this.question_audios[questionIndex]) {
+            cc.audioEngine.playEffect(this.question_audios[questionIndex], false);
+        } else {
+            console.warn("Question audio not found for level:", questionIndex);
+        }
+    }
 }
