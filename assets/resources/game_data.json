@@ -28,7 +28,7 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "હલકું",
+            "questionText": "હલકી",
             "questionAudioName": "Which object is light.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "commonimg.png",
@@ -62,7 +62,7 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "હલકું",
+            "questionText": "હલકી",
             "questionAudioName": "Which object is light.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "commonimg.png",
@@ -96,7 +96,7 @@
             "correctAnswerNum": "1"
         },
         {
-            "questionText": "હલકું",
+            "questionText": "હલકી",
             "questionAudioName": "Which object is light.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "commonimg.png",
