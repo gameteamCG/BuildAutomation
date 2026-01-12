@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "49a1aa42-ddf2-4e69-97a8-95f56889bfe5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "500x500_0002_grasshopper": {
+      "ver": "1.0.6",
+      "uuid": "82721015-a3b2-466d-87a6-a9279a475b64",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "49a1aa42-ddf2-4e69-97a8-95f56889bfe5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": 0,
+      "trimX": 3,
+      "trimY": 47,
+      "width": 497,
+      "height": 406,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

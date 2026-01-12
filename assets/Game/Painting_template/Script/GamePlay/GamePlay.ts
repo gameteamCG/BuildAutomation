@@ -189,6 +189,10 @@ export default class GamePlay extends cc.Component {
         this.DrawingTableClassRef = CommonFun.instance.getDrawingTableClassRef(this.currentDrawing);
         if (this.currentLevel > 0) {
             this.currentDrawing.getChildByName("splash").getComponent(cc.Sprite).spriteFrame = this.pictureImage[this.currentLevel - 1];
+            this.currentDrawing.getChildByName("splash").x = -500;
+            this.currentDrawing.getChildByName("splash").y = 100;
+            this.currentDrawing.getChildByName("splash").scale = 0.5;
+            console.log(this.currentDrawing.getChildByName("splash").x, this.currentDrawing.getChildByName("splash").y)
         }
         // else {
         //     this.currentDrawing.getChildByName("splash").getComponent(cc.Sprite).spriteFrame = this.questionImage[0];

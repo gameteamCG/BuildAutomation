@@ -1,6 +1,6 @@
 
 require('./assets/Framework/Jockeys/Scripts/Jockey');
-require('./assets/Framework/Prefabs/ProgressBar/Scripts/ProgressBar');
+require('./assets/Framework/Prefabs/Progressbar/Scripts/ProgressBar');
 require('./assets/Framework/Scripts/CustomWidget');
 require('./assets/Framework/Scripts/CustomWidget2');
 require('./assets/Framework/Scripts/Functionalities');
@@ -27,4 +27,5 @@ require('./assets/Game/Painting_template/Script/ScreenShot');
 require('./assets/Game/Painting_template/Script/endScreen');
 require('./assets/Game/Painting_template/Script/globalVariables');
 require('./assets/Game/Painting_template/Script/scratch');
+require('./assets/resources/Gujarati/1Gujarati/scripts/introduction');
 require('./assets/resources/empty');
