@@ -476,6 +476,7 @@ export default class Gameplay extends cc.Component {
                     }
                     this.scheduleOnce(() => {
                         cc.audioEngine.playEffect(this.correctVO, false);
+                        this.playAnim();
                         this.scheduleOnce(() => {
                             this.callJockey();
                         }, VOduration);
@@ -491,6 +492,7 @@ export default class Gameplay extends cc.Component {
                 }
                 this.scheduleOnce(() => {
                     cc.audioEngine.playEffect(this.correctVO, false);
+                    this.playAnim();
                     // this.callJockey();
                     this.scheduleOnce(() => {
                         // this.LoadNextQuestion();
@@ -502,6 +504,21 @@ export default class Gameplay extends cc.Component {
             // console.log("Incorrect order.");
             // Additional logic for when the order is incorrect
         }
+    }
+
+    playAnim() {
+        cc.tween(this.node.getChildByName("options").children[0]).to(0.5, { scale: 1.2 }, { easing: "sineInOut" }).start();
+        this.scheduleOnce(() => {
+            cc.tween(this.node.getChildByName("options").children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+            cc.tween(this.node.getChildByName("options").children[1]).to(0.5, { scale: 1.2 }, { easing: "sineInOut" }).start();
+            this.scheduleOnce(() => {
+                cc.tween(this.node.getChildByName("options").children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                cc.tween(this.node.getChildByName("options").children[2]).to(0.5, { scale: 1.2 }, { easing: "sineInOut" }).start();
+                this.scheduleOnce(() => {
+                    cc.tween(this.node.getChildByName("options").children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                }, 2)
+            }, 2)
+        }, 2)
     }
 
     getCurrentWord() {

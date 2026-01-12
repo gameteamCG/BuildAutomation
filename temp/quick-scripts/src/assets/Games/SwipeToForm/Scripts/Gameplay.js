@@ -462,6 +462,7 @@ var Gameplay = /** @class */ (function (_super) {
                     }
                     _this.scheduleOnce(function () {
                         cc.audioEngine.playEffect(_this.correctVO, false);
+                        _this.playAnim();
                         _this.scheduleOnce(function () {
                             _this.callJockey();
                         }, VOduration);
@@ -477,6 +478,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 this.scheduleOnce(function () {
                     cc.audioEngine.playEffect(_this.correctVO, false);
+                    _this.playAnim();
                     // this.callJockey();
                     _this.scheduleOnce(function () {
                         // this.LoadNextQuestion();
@@ -489,6 +491,21 @@ var Gameplay = /** @class */ (function (_super) {
             // console.log("Incorrect order.");
             // Additional logic for when the order is incorrect
         }
+    };
+    Gameplay.prototype.playAnim = function () {
+        var _this = this;
+        cc.tween(this.node.getChildByName("options").children[0]).to(0.5, { scale: 1.2 }, { easing: "sineInOut" }).start();
+        this.scheduleOnce(function () {
+            cc.tween(_this.node.getChildByName("options").children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+            cc.tween(_this.node.getChildByName("options").children[1]).to(0.5, { scale: 1.2 }, { easing: "sineInOut" }).start();
+            _this.scheduleOnce(function () {
+                cc.tween(_this.node.getChildByName("options").children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                cc.tween(_this.node.getChildByName("options").children[2]).to(0.5, { scale: 1.2 }, { easing: "sineInOut" }).start();
+                _this.scheduleOnce(function () {
+                    cc.tween(_this.node.getChildByName("options").children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                }, 2);
+            }, 2);
+        }, 2);
     };
     Gameplay.prototype.getCurrentWord = function () {
         // Sort the nodes based on their x-coordinate
