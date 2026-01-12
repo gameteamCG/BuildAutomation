@@ -44,7 +44,7 @@ var endScreen = /** @class */ (function (_super) {
         // update (dt) {}
     }
     endScreen.prototype.onLoad = function () {
-        this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables_1.default.Instance.introBG;
+        // this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables.Instance.introBG;
         console.log("showedScreen--wellDone");
         this.scheduleOnce(function () {
             console.log("gameEnded--true");
@@ -52,7 +52,7 @@ var endScreen = /** @class */ (function (_super) {
     };
     endScreen.prototype.start = function () {
         if (globalVariables_1.default.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
+            // this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
         }
         else if (globalVariables_1.default.Instance.jockeyName == "bag" || globalVariables_1.default.Instance.jockeyName == "cryon") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;

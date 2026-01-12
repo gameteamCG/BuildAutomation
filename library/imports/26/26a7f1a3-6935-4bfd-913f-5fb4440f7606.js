@@ -196,7 +196,12 @@ var GamePlay = /** @class */ (function (_super) {
         // console.log("pos = ", this.currentDrawing.getPosition().x);
         this.DrawingTableClassRef = CommonFun_1.default.instance.getDrawingTableClassRef(this.currentDrawing);
         if (this.currentLevel > 0) {
+            this.currentDrawing.getChildByName("splash").getComponent(cc.Sprite).sprite = null;
             this.currentDrawing.getChildByName("splash").getComponent(cc.Sprite).spriteFrame = this.pictureImage[this.currentLevel - 1];
+            this.currentDrawing.getChildByName("splash").x = -520;
+            this.currentDrawing.getChildByName("splash").y = 130;
+            this.currentDrawing.getChildByName("splash").scale = 0.4;
+            console.log(this.currentDrawing.getChildByName("splash").x, this.currentDrawing.getChildByName("splash").y);
         }
         // else {
         //     this.currentDrawing.getChildByName("splash").getComponent(cc.Sprite).spriteFrame = this.questionImage[0];

@@ -93,7 +93,8 @@ export default class PersistentScroll extends cc.Component {
 
     // @property(cc.Color)
     // colorPicker: cc.Color[] = null;
-
+    @property(cc.AudioClip)
+    questionsound: cc.AudioClip = null;
     @property(cc.ParticleSystem)
     particleEffect: cc.ParticleSystem = null;
 
@@ -577,5 +578,15 @@ export default class PersistentScroll extends cc.Component {
             data.parent.removeChild(data.child);
             this.currentDrawingScript.currentstensil.pop();
         }
+    }
+
+    playquestionsound() {
+        this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionsound, false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
+        }, this.questionsound.duration + 0.1);
     }
 }

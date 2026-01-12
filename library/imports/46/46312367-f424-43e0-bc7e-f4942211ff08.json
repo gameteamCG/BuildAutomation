@@ -6,9 +6,9 @@
   "json": {
     "additionalData": {
       "GameID": "Drawing insects",
-      "totalLevel": "4",
-      "TitleImageName": "Asset102.png",
-      "introBgName": "jrkg.png",
+      "totalLevel": "5",
+      "TitleImageName": "Asset 152 (1).png",
+      "introBgName": "titleBG.png",
       "bgmMusicName": "BGMBackward.mp3",
       "initialVOName": "evo.mp3",
       "mainBgName": "purpleBG.png",
@@ -16,40 +16,49 @@
     },
     "questionData": [
       {
-        "questionText": "Drawing insect",
+        "questionText": "જુઓ અને ચિત્ર દોરો",
         "questionImageName": "empty.png",
-        "questionAudioName": "Drawandcolouraladybug.mp3",
+        "questionAudioName": "Q1doodle.mp3",
         "shouldPlayQuestionAudio": true,
-        "pictureImageName": "500x500_0000_ladybug.png",
+        "pictureImageName": "1.png",
         "needMoreTools": false,
-        "correctAudioName": "L2Correct.mp3"
+        "correctAudioName": "positive_1.mp3"
       },
       {
-        "questionText": "Drawing insect",
+        "questionText": "જુઓ અને ચિત્ર દોરો",
         "questionImageName": "empty.png",
-        "questionAudioName": "Drawandcolourabutterfly.mp3",
+        "questionAudioName": "Q1doodle.mp3",
         "shouldPlayQuestionAudio": true,
-        "pictureImageName": "500x500_0001_butterfly.png",
+        "pictureImageName": "2.png",
         "needMoreTools": false,
-        "correctAudioName": "l4correct.mp3"
+        "correctAudioName": "positive_2.mp3"
       },
       {
-        "questionText": "Drawing insect",
+        "questionText": "જુઓ અને ચિત્ર દોરો",
         "questionImageName": "empty.png",
-        "questionAudioName": "Drawandcolourarasshopper.mp3",
+        "questionAudioName": "Q1doodle.mp3",
         "shouldPlayQuestionAudio": true,
-        "pictureImageName": "500x500_0002_grasshopper.png",
+        "pictureImageName": "3.png",
         "needMoreTools": false,
-        "correctAudioName": "l6correct.mp3"
+        "correctAudioName": "positive_3.mp3"
       },
       {
-        "questionText": "Drawing insect",
+        "questionText": "જુઓ અને ચિત્ર દોરો",
         "questionImageName": "empty.png",
-        "questionAudioName": "Drawandcolouraspider.mp3",
+        "questionAudioName": "Q1doodle.mp3",
         "shouldPlayQuestionAudio": true,
-        "pictureImageName": "500x500_0003_spider.png",
+        "pictureImageName": "4.png",
         "needMoreTools": false,
-        "correctAudioName": "L8Correct.mp3"
+        "correctAudioName": "positive_4.mp3"
+      },
+      {
+        "questionText": "જુઓ અને ચિત્ર દોરો",
+        "questionImageName": "empty.png",
+        "questionAudioName": "Q1doodle.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "5.png",
+        "needMoreTools": false,
+        "correctAudioName": "positive_5.mp3"
       }
     ]
   }

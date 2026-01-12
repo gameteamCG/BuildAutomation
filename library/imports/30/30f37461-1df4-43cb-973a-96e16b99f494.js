@@ -139,6 +139,7 @@ var PersistentScroll = /** @class */ (function (_super) {
         _this.QuadSymetry = null;
         // @property(cc.Color)
         // colorPicker: cc.Color[] = null;
+        _this.questionsound = null;
         _this.particleEffect = null;
         _this.cameraAud = null;
         _this.toolsAud = null;
@@ -526,6 +527,15 @@ var PersistentScroll = /** @class */ (function (_super) {
             this.currentDrawingScript.currentstensil.pop();
         }
     };
+    PersistentScroll.prototype.playquestionsound = function () {
+        var _this = this;
+        this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionsound, false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.questionsound.duration + 0.1);
+    };
     var PersistentScroll_1;
     PersistentScroll.instance = null;
     __decorate([
@@ -549,6 +559,9 @@ var PersistentScroll = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], PersistentScroll.prototype, "QuadSymetry", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], PersistentScroll.prototype, "questionsound", void 0);
     __decorate([
         property(cc.ParticleSystem)
     ], PersistentScroll.prototype, "particleEffect", void 0);
