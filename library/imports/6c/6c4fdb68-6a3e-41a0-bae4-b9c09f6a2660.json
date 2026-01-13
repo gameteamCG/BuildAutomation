@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Join the dots and colour",
-      "totalLevel": "8",
+      "totalLevel": "6",
       "TitleImageName": "jointhedots.png",
       "introBgName": "titlebg.png",
       "bgmMusicName": "BGM.mp3",
@@ -16,76 +16,58 @@
     },
     "questionData": [
       {
-        "questionText": "આંગળીથી અક્ષરો બનાવો",
-        "questionImageName": "",
-        "questionAudioName": "6281982_1_--.mp3",
+        "questionText": "ઘોડો",
+        "questionImageName": "horse.png",
+        "questionAudioName": "6292553_1_----.mp3",
         "shouldPlayQuestionAudio": true,
         "pictureImageName": "1.png",
         "needMoreTools": true,
-        "correctAudioName": "6281982_2_.mp3"
+        "correctAudioName": "6292553_2_.mp3"
       },
       {
-        "questionText": "આંગળીથી અક્ષરો બનાવો",
-        "questionImageName": "",
-        "questionAudioName": "6281982_1_--.mp3",
+        "questionText": "સિંહ",
+        "questionImageName": "lion.png",
+        "questionAudioName": "6292553_3_----.mp3",
         "shouldPlayQuestionAudio": true,
         "pictureImageName": "2.png",
         "needMoreTools": true,
-        "correctAudioName": "6281982_3_.mp3"
+        "correctAudioName": "6292553_4_.mp3"
       },
       {
-        "questionText": "આંગળીથી અક્ષરો બનાવો",
-        "questionImageName": "",
-        "questionAudioName": "6281982_1_--.mp3",
+        "questionText": "હાથી",
+        "questionImageName": "elephant.png",
+        "questionAudioName": "6292553_5_----.mp3",
         "shouldPlayQuestionAudio": false,
         "pictureImageName": "3.png",
         "needMoreTools": true,
-        "correctAudioName": "6281982_4_.mp3"
+        "correctAudioName": "6292553_6_.mp3"
       },
       {
-        "questionText": "આંગળીથી અક્ષરો બનાવો",
-        "questionImageName": "",
-        "questionAudioName": "6281982_1_--.mp3",
+        "questionText": "લૂમડો",
+        "questionImageName": "fox.png",
+        "questionAudioName": "6292553_7_----.mp3",
         "shouldPlayQuestionAudio": false,
         "pictureImageName": "4.png",
         "needMoreTools": true,
-        "correctAudioName": "6281982_5_.mp3"
+        "correctAudioName": "6292553_8_.mp3"
       },
       {
-        "questionText": "આંગળીથી અક્ષરો બનાવો",
-        "questionImageName": "",
-        "questionAudioName": "6281982_1_--.mp3",
-        "shouldPlayQuestionAudio": false,
-        "pictureImageName": "7.png",
-        "needMoreTools": true,
-        "correctAudioName": "6281982_8_.mp3"
-      },
-      {
-        "questionText": "આંગળીથી અક્ષરો બનાવો",
-        "questionImageName": "",
-        "questionAudioName": "6281982_1_--.mp3",
+        "questionText": "વાઘ",
+        "questionImageName": "tiger.png",
+        "questionAudioName": "6292553_9_----.mp3",
         "shouldPlayQuestionAudio": false,
         "pictureImageName": "5.png",
         "needMoreTools": true,
-        "correctAudioName": "6281982_6_.mp3"
+        "correctAudioName": "6292553_10_.mp3"
       },
       {
-        "questionText": "આંગળીથી અક્ષરો બનાવો",
-        "questionImageName": "",
-        "questionAudioName": "6281982_1_--.mp3",
+        "questionText": "પાંડા",
+        "questionImageName": "panda.png",
+        "questionAudioName": "6292553_11_----.mp3",
         "shouldPlayQuestionAudio": false,
         "pictureImageName": "6.png",
         "needMoreTools": true,
-        "correctAudioName": "6281982_7_.mp3"
-      },
-      {
-        "questionText": "આંગળીથી અક્ષરો બનાવો",
-        "questionImageName": "",
-        "questionAudioName": "6281982_1_--.mp3",
-        "shouldPlayQuestionAudio": false,
-        "pictureImageName": "8.png",
-        "needMoreTools": true,
-        "correctAudioName": "6281982_9_.mp3"
+        "correctAudioName": "6292553_12_.mp3"
       }
     ]
   }
