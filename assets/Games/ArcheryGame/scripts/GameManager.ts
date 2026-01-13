@@ -114,6 +114,12 @@ export default class GameManager extends cc.Component {
   @property(cc.AudioClip)
   private clockTick: cc.AudioClip = null;
 
+  @property(cc.AudioClip)
+  private runningSound: cc.AudioClip = null;
+
+  @property(cc.AudioClip)
+  private arrowShootSound: cc.AudioClip = null;
+
   public targetNode: cc.Node = null;
 
   public targetInitPos: cc.Vec3 = null;
@@ -436,6 +442,16 @@ export default class GameManager extends cc.Component {
     this.node.getChildByName("Player").getChildByName("player1").getComponent(sp.Skeleton).setAnimation(0, "ch_2_run", true);
     this.node.getChildByName("Player").getChildByName("RightHand").getComponent(sp.Skeleton).setAnimation(0, "ch_2_run", true);
     this.node.getChildByName("Player").getChildByName("arrow").getComponent(sp.Skeleton).setAnimation(0, "ch_2_run", true);
+    
+    // Play running sound
+    if (this.runningSound) {
+      cc.audioEngine.playEffect(this.runningSound, false);
+    }
+
+    this.scheduleOnce(() => {
+      cc.audioEngine.stopAllEffects();
+    },0.5);
+    
     cc.tween(this.playerNode)
       .by(0.25, { position: cc.v3(100, 0, 0) }, { easing: "quartOut" })
       .by(0.25, { position: cc.v3(-100, 0, 0) }, { easing: "quartOut" })
@@ -1065,6 +1081,11 @@ export default class GameManager extends cc.Component {
   }
 
   public launchArrow() {
+    // Play arrow shooting sound
+    if (this.arrowShootSound) {
+      cc.audioEngine.playEffect(this.arrowShootSound, false);
+    }
+    
     let angleInRadians = cc.misc.degreesToRadians(this.realArrowInstance.angle);
     let direction = cc.v2(Math.cos(angleInRadians), Math.sin(angleInRadians));
 

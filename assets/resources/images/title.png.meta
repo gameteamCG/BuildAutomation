@@ -8,8 +8,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 1244,
-  "height": 364,
+  "width": 378,
+  "height": 248,
   "platformSettings": {},
   "subMetas": {
     "title": {
@@ -25,9 +25,9 @@
       "trimX": 3,
       "trimY": 3,
       "width": 371,
-      "height": 221,
+      "height": 220,
       "rawWidth": 378,
-      "rawHeight": 248,
+      "rawHeight": 247,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

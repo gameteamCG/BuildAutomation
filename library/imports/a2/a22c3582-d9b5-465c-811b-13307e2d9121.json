@@ -6653,6 +6653,12 @@
     "clockTick": {
       "__uuid__": "14e9b83a-5d80-478e-8098-1cba7974f611"
     },
+    "runningSound": {
+      "__uuid__": "bcb807dc-682d-4a7a-a255-3a80ab6def4e"
+    },
+    "arrowShootSound": {
+      "__uuid__": "4a4bf671-a420-4ea6-b8fe-54b27372df2b"
+    },
     "power": 3500,
     "_id": "1c/Znj9+xFuq90qbd3F9R0"
   },

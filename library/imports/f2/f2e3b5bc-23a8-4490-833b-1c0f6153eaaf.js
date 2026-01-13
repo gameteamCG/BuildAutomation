@@ -80,6 +80,8 @@ var GameManager = /** @class */ (function (_super) {
         _this.podar_font = null;
         _this.jaipuria_font = null;
         _this.clockTick = null;
+        _this.runningSound = null;
+        _this.arrowShootSound = null;
         _this.targetNode = null;
         _this.targetInitPos = null;
         _this.tutorialHand = null;
@@ -353,6 +355,13 @@ var GameManager = /** @class */ (function (_super) {
         this.node.getChildByName("Player").getChildByName("player1").getComponent(sp.Skeleton).setAnimation(0, "ch_2_run", true);
         this.node.getChildByName("Player").getChildByName("RightHand").getComponent(sp.Skeleton).setAnimation(0, "ch_2_run", true);
         this.node.getChildByName("Player").getChildByName("arrow").getComponent(sp.Skeleton).setAnimation(0, "ch_2_run", true);
+        // Play running sound
+        if (this.runningSound) {
+            cc.audioEngine.playEffect(this.runningSound, false);
+        }
+        this.scheduleOnce(function () {
+            cc.audioEngine.stopAllEffects();
+        }, 0.5);
         cc.tween(this.playerNode)
             .by(0.25, { position: cc.v3(100, 0, 0) }, { easing: "quartOut" })
             .by(0.25, { position: cc.v3(-100, 0, 0) }, { easing: "quartOut" })
@@ -909,6 +918,10 @@ var GameManager = /** @class */ (function (_super) {
     };
     GameManager.prototype.launchArrow = function () {
         var _this = this;
+        // Play arrow shooting sound
+        if (this.arrowShootSound) {
+            cc.audioEngine.playEffect(this.arrowShootSound, false);
+        }
         var angleInRadians = cc.misc.degreesToRadians(this.realArrowInstance.angle);
         var direction = cc.v2(Math.cos(angleInRadians), Math.sin(angleInRadians));
         direction = direction.normalize();
@@ -1092,6 +1105,12 @@ var GameManager = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], GameManager.prototype, "clockTick", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], GameManager.prototype, "runningSound", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], GameManager.prototype, "arrowShootSound", void 0);
     __decorate([
         property(cc.Integer)
     ], GameManager.prototype, "power", void 0);
