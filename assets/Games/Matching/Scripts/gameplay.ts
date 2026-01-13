@@ -620,7 +620,7 @@ export default class gameplay extends cc.Component {
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             this.scheduleOnce(() => {
                 this.callJockey();
-            }, 0.7);
+            }, this.correctAudio[audioNum].duration);
         }, 0.5);
     }
 

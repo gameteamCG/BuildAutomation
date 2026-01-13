@@ -579,7 +579,7 @@ var gameplay = /** @class */ (function (_super) {
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             _this.scheduleOnce(function () {
                 _this.callJockey();
-            }, 0.7);
+            }, _this.correctAudio[audioNum].duration);
         }, 0.5);
     };
     gameplay.prototype.callJockey = function () {
