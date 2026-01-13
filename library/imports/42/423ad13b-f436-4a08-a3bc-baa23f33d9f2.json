@@ -334,8 +334,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1929,
-      "height": 1287
+      "width": 1921,
+      "height": 1081
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -386,7 +386,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "a5230606-7bd2-48f4-8e5a-7a35f2d63485"
+    },
     "_type": 0,
     "_sizeMode": 2,
     "_fillType": 0,
@@ -439,8 +441,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 637,
-      "height": 127
+      "width": 340,
+      "height": 131
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -451,8 +453,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        44.029,
-        -149.209,
+        0,
+        -173.515,
         0,
         0,
         0,
@@ -513,7 +515,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -9.772,
+        0,
         210.067,
         0,
         0,
@@ -607,8 +609,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -229.772,
-        139.769,
+        -181.16,
+        161.374,
         0,
         0,
         0,
@@ -701,8 +703,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        210.228,
-        139.769,
+        183.221,
+        161.374,
         0,
         0,
         0,
@@ -774,10 +776,10 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "d6de78b6-bbb9-42b6-879d-df9d0f5da30d"
+      "__uuid__": "04cfc73b-0e81-423a-8c23-a1d22d0a30fd"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -786,7 +788,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "c4kg8BNuZLha/F3lwrQsbi"
   },
