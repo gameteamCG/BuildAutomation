@@ -459,14 +459,22 @@ export default class NewClass extends cc.Component {
                 if (!this.isOptionBG) {
                     this.node.getChildByName("Option").children.forEach((element) => {
                         element.getChildByName("img").scale = 1.4;
+                        element.getChildByName("img").height = 500;
+                        element.getChildByName("img").width = 501;
                     })
 
 
                 }
-                // console.log(objScale, "*******");
+                console.log(objScale, "*******");
 
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
                     .to(0.5, { scale: objScale }, { easing: "sineInOut" }).start();
+                this.node.getChildByName("Option").getChildByName(i.toString()).children[1].scale = 1;
+                this.node.getChildByName("Option").getChildByName(i.toString()).children[1].height = 500;
+                this.node.getChildByName("Option").getChildByName(i.toString()).children[1].width = 501;
+                //console.log("Option 1@@@@@@@ ", this.node.getChildByName("Option").getChildByName(i.toString()).children[1].scale)
+                //console.log("Option 2@@@@@@@ ", this.node.getChildByName("Option").getChildByName(i.toString()).children[1].height)
+                //console.log("Option 3@@@@@@@ ", this.node.getChildByName("Option").getChildByName(i.toString()).children[1].width)
                 if (i == this.node.getChildByName("Option").children.length) {
                     this.scheduleOnce(() => {
                         this.PlayQuestionAudio();
@@ -1158,6 +1166,7 @@ export default class NewClass extends cc.Component {
                 subChild.height *= optionScaleFactor;
                 //console.log("subChild--", subChild.name);
             }
+            console.log("optionScaleFactor : ", optionScaleFactor)
         }
 
         optionsLayout.height = maxHeight * scaleFactor;

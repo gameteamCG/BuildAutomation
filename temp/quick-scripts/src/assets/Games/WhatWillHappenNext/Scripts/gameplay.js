@@ -406,11 +406,19 @@ var NewClass = /** @class */ (function (_super) {
                 if (!_this.isOptionBG) {
                     _this.node.getChildByName("Option").children.forEach(function (element) {
                         element.getChildByName("img").scale = 1.4;
+                        element.getChildByName("img").height = 500;
+                        element.getChildByName("img").width = 501;
                     });
                 }
-                // console.log(objScale, "*******");
+                console.log(objScale, "*******");
                 cc.tween(_this.node.getChildByName("Option").getChildByName(i.toString()))
                     .to(0.5, { scale: objScale }, { easing: "sineInOut" }).start();
+                _this.node.getChildByName("Option").getChildByName(i.toString()).children[1].scale = 1;
+                _this.node.getChildByName("Option").getChildByName(i.toString()).children[1].height = 500;
+                _this.node.getChildByName("Option").getChildByName(i.toString()).children[1].width = 501;
+                //console.log("Option 1@@@@@@@ ", this.node.getChildByName("Option").getChildByName(i.toString()).children[1].scale)
+                //console.log("Option 2@@@@@@@ ", this.node.getChildByName("Option").getChildByName(i.toString()).children[1].height)
+                //console.log("Option 3@@@@@@@ ", this.node.getChildByName("Option").getChildByName(i.toString()).children[1].width)
                 if (i == _this.node.getChildByName("Option").children.length) {
                     _this.scheduleOnce(function () {
                         _this.PlayQuestionAudio();
@@ -1070,6 +1078,7 @@ var NewClass = /** @class */ (function (_super) {
                 subChild.height *= optionScaleFactor;
                 //console.log("subChild--", subChild.name);
             }
+            console.log("optionScaleFactor : ", optionScaleFactor);
         }
         optionsLayout.height = maxHeight * scaleFactor;
         if (optionNodes.length == 2) {
