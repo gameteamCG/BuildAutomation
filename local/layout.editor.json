@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 217.66250610351562,
+            "width": 218,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 217.66250610351562,
-                "height": 359.25,
+                "width": 218,
+                "height": 359.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 217.66250610351562,
-                "height": 352.3500061035156,
+                "width": 218,
+                "height": 352.2875061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 870.625,
+            "width": 870,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 870.625,
-                "height": 359.2375183105469,
+                "width": 870,
+                "height": 359.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 870.625,
-                "height": 352.3500061035156,
+                "width": 870,
+                "height": 352.2875061035156,
                 "type": "panel",
                 "active": 1,
                 "children": [
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 441.7124938964844,
+            "width": 442,
             "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1768035922556": {}
+    "window-1768282131760": {}
   },
   "panels": {
     "project-settings": {

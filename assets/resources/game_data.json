@@ -1,9 +1,9 @@
 {
   "additionalData": {
     "GameID": "Matching Letters_Nursery Practice Book 2_6",
-    "totalLevel": "5",
+    "totalLevel": "4",
     "TitleImageName": "Asset_236.png",
-    "introBgName": "Bg.png",
+    "introBgName": "bg.png",
     "bgmMusicName": "BGM.mp3",
     "mainBgName": "books_Bg.png",
     "JockeyName": "Puzzle"
@@ -87,39 +87,18 @@
       "numberOfLeftOptions": 2,
       "leftoptions": [
         "13.png",
-        "15.png"
-      ],
-      "reiterations": [
-        "7.mp3",
-        "8.mp3"
-      ],
-      "commonRightOptionImageName": "left_puzzle2.png",
-      "isRightOptionText": false,
-      "numberOfRightOptions": 2,
-      "rightoptions": [
-        "14.png",
-        "16.png"
-      ]
-    },
-    {
-      "questionText": "વાહનોને મેળવો",
-      "questionAudioName": "Ques2.mp3",
-      "shouldPlayQuestionAudio": true,
-      "commonLeftOptionImageName": "right_puzzle2.png",
-      "isLeftOptionText": false,
-      "numberOfLeftOptions": 1,
-      "leftoptions": [
         "17.png"
       ],
       "reiterations": [
+        "7.mp3",
         "9.mp3"
       ],
       "commonRightOptionImageName": "left_puzzle2.png",
       "isRightOptionText": false,
       "numberOfRightOptions": 2,
       "rightoptions": [
-        "18.png",
-        "4.png"
+        "14.png",
+        "18.png"
       ]
     }
   ]
