@@ -2792,6 +2792,18 @@
       "__id__": 5
     },
     "_enabled": true,
+    "reiterationTexts": [
+      "Carrot",
+      "Onion",
+      "Potato",
+      "Broccoli",
+      "Cabbage",
+      "Peas",
+      "Bottle gourd",
+      "Eggplant",
+      "Pumpkin",
+      "Red bell pepper"
+    ],
     "finalImages": [
       {
         "__uuid__": "64aa4aa4-04ae-4095-a6c1-b9f8404b47bc"
