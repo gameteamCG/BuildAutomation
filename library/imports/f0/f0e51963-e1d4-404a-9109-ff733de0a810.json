@@ -19,7 +19,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "hen.png",
-        "QuestionAudioName": "What_does_the_hen_give_us.mp3",
+        "QuestionAudioName": "6494407_1_what-does-the-hen-give.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
@@ -29,7 +29,7 @@
           "onion.png",
           "wheat.png"
         ],
-        "ReiterationAudioName": "Egg.mp3",
+        "ReiterationAudioName": "6494407_2_egg.mp3",
         "CorrectAudioName": "MAGNIFICENT.mp3",
         "WrongAudioName": "nevermindtryagain.mp3",
         "CorrectAnswer": "1"
@@ -39,7 +39,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "cow.png",
-        "QuestionAudioName": "What_does_the_cow_give_us.mp3",
+        "QuestionAudioName": "6494407_3_what-does-a-cow-give-u.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
@@ -49,7 +49,7 @@
           "lemonade.png",
           "juice.png"
         ],
-        "ReiterationAudioName": "milk.mp3",
+        "ReiterationAudioName": "6494407_4_milk.mp3",
         "CorrectAudioName": "IMPRESSIVEWORK.mp3",
         "WrongAudioName": "ohoh.mp3",
         "CorrectAnswer": "2"
@@ -59,7 +59,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "bees.png",
-        "QuestionAudioName": "What_do_the_bees_give_us.mp3",
+        "QuestionAudioName": "6494407_5_what-do-the-bees-give-.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
@@ -69,7 +69,7 @@
           "honey.png",
           "jam.png"
         ],
-        "ReiterationAudioName": "honey.mp3",
+        "ReiterationAudioName": "6494407_6_honey.mp3",
         "CorrectAudioName": "EXCELLENTJOB.mp3",
         "WrongAudioName": "Oopsietryoncemore.mp3",
         "CorrectAnswer": "3"
