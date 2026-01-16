@@ -538,7 +538,7 @@ export default class NewClass extends cc.Component {
         this.scheduleOnce(() => {
           this.callOptionIn();
         }, 0.2);
-      }, 0.5);
+      }, 0.6);
     }, 1);
   }
 

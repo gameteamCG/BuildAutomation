@@ -398,7 +398,7 @@ var NewClass = /** @class */ (function (_super) {
                 _this.scheduleOnce(function () {
                     _this.callOptionIn();
                 }, 0.2);
-            }, 0.5);
+            }, 0.6);
         }, 1);
     };
     NewClass.prototype.OnVOButton = function () {
