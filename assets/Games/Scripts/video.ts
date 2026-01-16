@@ -40,6 +40,8 @@ class QuestionData {
 @ccclass
 export default class video extends cc.Component {
 
+    @property(cc.AudioClip)
+    quesionSond: cc.AudioClip = null;
     @property(cc.Node)
     tools: cc.Node = null;
     @property(cc.Node)
@@ -448,6 +450,7 @@ export default class video extends cc.Component {
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.correctSound, false);
             if (this.questions[this.currentQuestion - 1].reiterationAudio != null) {
+
                 this.scheduleOnce(() => {
                     cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].reiterationAudio, false);
                 }, 0.5);
@@ -520,7 +523,11 @@ export default class video extends cc.Component {
 
     OnSoundButton() {
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].questionAudio, false);
+        cc.audioEngine.playEffect(this.quesionSond, false);
+        this.scheduleOnce(() => {
+            cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].questionAudio, false);
+        }, this.quesionSond.duration)
+
     }
 
     checkOnMissingQuestions() {
@@ -612,7 +619,11 @@ export default class video extends cc.Component {
 
 
         this.scheduleOnce(() => {
-            cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+            cc.audioEngine.playEffect(this.quesionSond, false);
+            this.scheduleOnce(() => {
+                cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+            }, this.quesionSond.duration)
+            // cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
             this.character.getComponent(cc.Animation).play("Idle");
             this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             this.questionNode.getChildByName("options1").active = true;

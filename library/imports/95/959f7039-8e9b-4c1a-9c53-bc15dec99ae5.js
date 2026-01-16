@@ -67,6 +67,7 @@ var video = /** @class */ (function (_super) {
     __extends(video, _super);
     function video() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.quesionSond = null;
         _this.tools = null;
         _this.questionNode = null;
         _this.character = null;
@@ -513,8 +514,12 @@ var video = /** @class */ (function (_super) {
         }
     };
     video.prototype.OnSoundButton = function () {
+        var _this = this;
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].questionAudio, false);
+        cc.audioEngine.playEffect(this.quesionSond, false);
+        this.scheduleOnce(function () {
+            cc.audioEngine.playEffect(_this.questions[_this.currentQuestion - 1].questionAudio, false);
+        }, this.quesionSond.duration);
     };
     video.prototype.checkOnMissingQuestions = function () {
         var _this = this;
@@ -603,7 +608,11 @@ var video = /** @class */ (function (_super) {
             });
         }
         this.scheduleOnce(function () {
-            cc.audioEngine.playEffect(_this.questions[current].questionAudio, false);
+            cc.audioEngine.playEffect(_this.quesionSond, false);
+            _this.scheduleOnce(function () {
+                cc.audioEngine.playEffect(_this.questions[current].questionAudio, false);
+            }, _this.quesionSond.duration);
+            // cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
             _this.character.getComponent(cc.Animation).play("Idle");
             _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             _this.questionNode.getChildByName("options1").active = true;
@@ -706,6 +715,9 @@ var video = /** @class */ (function (_super) {
             callback(audioClip);
         });
     };
+    __decorate([
+        property(cc.AudioClip)
+    ], video.prototype, "quesionSond", void 0);
     __decorate([
         property(cc.Node)
     ], video.prototype, "tools", void 0);

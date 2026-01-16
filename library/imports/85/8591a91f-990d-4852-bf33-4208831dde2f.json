@@ -447,6 +447,9 @@
       "__id__": 5
     },
     "_enabled": true,
+    "quesionSond": {
+      "__uuid__": "03427312-b27f-4ac5-87a2-0730a7579145"
+    },
     "tools": {
       "__id__": 10
     },
@@ -2352,7 +2355,7 @@
     "_lineHeight": 65,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "3973d65f-94f6-47bd-adab-8f9135d35f89"
+      "__uuid__": "8548af5a-fb5e-4d3f-bc8c-cd0687e4226c"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -7807,8 +7810,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1172,
-      "height": 222
+      "width": 531,
+      "height": 98
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7826,8 +7829,8 @@
         0,
         0,
         1,
-        0.7,
-        0.7,
+        1,
+        1,
         1.65
       ]
     },
@@ -7860,7 +7863,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "98d13250-d21d-430f-a10e-c42065130ab2"
+      "__uuid__": "023d63a9-5d6c-4fe4-896f-794329c9acb4"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -9251,7 +9254,7 @@
     },
     "_enabled": true,
     "BGM_audio": null,
-    "volume": 0,
+    "volume": 0.01,
     "NextSceneName": "1",
     "TotalLevels": 7,
     "isAgeParameterNeeded": false,
