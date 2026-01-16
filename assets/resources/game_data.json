@@ -11,7 +11,7 @@
   "questionData": [
     {
       "questionText": "Petals",
-      "questionImageName": "basket.png",
+      "questionImageName": "basket 2.png",
       "questionAudioName": "petals_q.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "optionBox.png",
@@ -31,7 +31,7 @@
     },
     {
       "questionText": "Leaves",
-      "questionImageName": "basket.png",
+      "questionImageName": "basket 2.png",
       "questionAudioName": "leaves_q.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "optionBox.png",
@@ -51,7 +51,7 @@
     },
     {
       "questionText": "Seeds",
-      "questionImageName": "basket.png",
+      "questionImageName": "basket 2.png",
       "questionAudioName": "seeds_q.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "optionBox.png",
@@ -71,7 +71,7 @@
     },
     {
       "questionText": "Roots",
-      "questionImageName": "basket.png",
+      "questionImageName": "basket 2.png",
       "questionAudioName": "root_q.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "optionBox.png",
@@ -91,7 +91,7 @@
     },
     {
       "questionText": "Stem",
-      "questionImageName": "basket.png",
+      "questionImageName": "basket 2.png",
       "questionAudioName": "stem_q.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "optionBox.png",
@@ -111,7 +111,7 @@
     },
     {
       "questionText": "Fruits",
-      "questionImageName": "basket.png",
+      "questionImageName": "basket 2.png",
       "questionAudioName": "fruits_q.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "optionBox.png",

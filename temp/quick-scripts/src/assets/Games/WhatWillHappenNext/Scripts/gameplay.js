@@ -379,10 +379,14 @@ var NewClass = /** @class */ (function (_super) {
         this.node.getChildByName("QuestionBox").scale = 1;
         this.node.getChildByName("Layer2").setPosition(cc.v2(-1500, -200));
         this.node.getChildByName("Layer2").scale = 1;
+        this.node.getChildByName("Layer2").active = true;
         this.scheduleOnce(function () {
             _this.scheduleOnce(function () {
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 cc.tween(_this.node.getChildByName("QuestionBox"))
+                    .to(0.5, { x: -300 }, { easing: "sineInOut" })
+                    .start();
+                cc.tween(_this.node.getChildByName("Layer2"))
                     .to(0.5, { x: -300 }, { easing: "sineInOut" })
                     .start();
             }, 0.1);

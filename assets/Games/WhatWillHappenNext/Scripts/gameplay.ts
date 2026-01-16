@@ -515,12 +515,16 @@ export default class NewClass extends cc.Component {
 
     this.node.getChildByName("QuestionBox").setPosition(cc.v2(-1500, -200));
     this.node.getChildByName("QuestionBox").scale = 1;
-    this.node.getChildByName("Layer2").setPosition(cc.v2(-1500,-200))
+    this.node.getChildByName("Layer2").setPosition(cc.v2(-1500, -200));
     this.node.getChildByName("Layer2").scale = 1;
+    this.node.getChildByName("Layer2").active = true;
     this.scheduleOnce(() => {
       this.scheduleOnce(() => {
         cc.audioEngine.playEffect(this.popSound[0], false);
         cc.tween(this.node.getChildByName("QuestionBox"))
+          .to(0.5, { x: -300 }, { easing: "sineInOut" })
+          .start();
+        cc.tween(this.node.getChildByName("Layer2"))
           .to(0.5, { x: -300 }, { easing: "sineInOut" })
           .start();
       }, 0.1);
