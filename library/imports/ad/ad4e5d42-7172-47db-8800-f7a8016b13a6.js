@@ -642,6 +642,9 @@ var NewClass = /** @class */ (function (_super) {
         cc.tween(this.node.getChildByName("QuestionBox1"))
             .to(0.5, { x: -1500 }, { easing: "sineInOut" })
             .start();
+        cc.tween(this.node.getChildByName("Layer2"))
+            .to(0.5, { x: -1500 }, { easing: "sineInOut" })
+            .start();
         console.log("levelComplete--" + globalVariables_1.default.Instance.currentLevel);
         this.callStarsEared();
         if (globalVariables_1.default.Instance.currentLevel == this.maxLevel) {
@@ -695,13 +698,13 @@ var NewClass = /** @class */ (function (_super) {
         var thirdBox = this.node
             .getChildByName("QuestionBox")
             .getChildByName("ThirdObject");
-        var xRandom = this.getRandomNumber(-thirdBox.width / 4, thirdBox.width / 4);
+        var xRandom = this.getRandomNumber(-thirdBox.width / 8, thirdBox.width / 8);
         this.node.getChildByName("QuestionBox").getChildByName(imgName).scale =
             this.node.getChildByName("QuestionBox").getChildByName(imgName).scale -
                 this.node.getChildByName("QuestionBox").getChildByName(imgName).scale *
-                    0.2;
+                    0.5;
         cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName))
-            .bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 100))
+            .bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 120))
             .start();
         cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName))
             .to(0.7, { scale: 0.5 }, { easing: "sineInOut" })

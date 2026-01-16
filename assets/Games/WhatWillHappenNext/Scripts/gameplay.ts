@@ -824,6 +824,9 @@ export default class NewClass extends cc.Component {
     cc.tween(this.node.getChildByName("QuestionBox1"))
       .to(0.5, { x: -1500 }, { easing: "sineInOut" })
       .start();
+    cc.tween(this.node.getChildByName("Layer2"))
+      .to(0.5, { x: -1500 }, { easing: "sineInOut" })
+      .start();
     console.log("levelComplete--" + globalVariables.Instance.currentLevel);
     this.callStarsEared();
     if (globalVariables.Instance.currentLevel == this.maxLevel) {
@@ -884,19 +887,19 @@ export default class NewClass extends cc.Component {
       .getChildByName("QuestionBox")
       .getChildByName("ThirdObject");
     let xRandom: number = this.getRandomNumber(
-      -thirdBox.width / 4,
-      thirdBox.width / 4
+      -thirdBox.width / 8,
+      thirdBox.width / 8
     );
     this.node.getChildByName("QuestionBox").getChildByName(imgName).scale =
       this.node.getChildByName("QuestionBox").getChildByName(imgName).scale -
       this.node.getChildByName("QuestionBox").getChildByName(imgName).scale *
-        0.2;
+        0.5;
     cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName))
       .bezierTo(
         1,
         cc.v2(pos.x / 2, pos.y + 200),
         cc.v2(xRandom / 2, pos.y + 200),
-        cc.v2(xRandom, thirdBox.height / 2 - 100)
+        cc.v2(xRandom, thirdBox.height / 2 - 120)
       )
       .start();
     cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName))
