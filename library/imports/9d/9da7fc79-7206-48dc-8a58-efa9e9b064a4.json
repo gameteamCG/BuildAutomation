@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "beetel",
+    "texture": "f6b99101-06f6-45eb-8e6f-775759d90aa4",
+    "atlas": "",
+    "rect": [
+      74,
+      138,
+      352,
+      224
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

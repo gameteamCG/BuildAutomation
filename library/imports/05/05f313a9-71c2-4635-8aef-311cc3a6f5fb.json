@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dragonfly_1",
+    "texture": "2db970fa-58f3-4323-9a73-cdb017736459",
+    "atlas": "",
+    "rect": [
+      13,
+      56,
+      475,
+      390
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
