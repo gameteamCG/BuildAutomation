@@ -13,8 +13,8 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 215.1125030517578,
-            "height": 796.2000122070312,
+            "width": 216.9875030517578,
+            "height": 810.6000366210938,
             "type": "panel",
             "active": 0,
             "children": [
@@ -22,18 +22,18 @@
             ]
           },
           {
-            "width": 997.2750244140625,
-            "height": 796.2000122070312,
+            "width": 1006.2125244140625,
+            "height": 810.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 997.2750244140625,
-                "height": 527.2000122070312,
+                "width": 1006.2125244140625,
+                "height": 536.7000122070312,
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 744.4625244140625,
-                    "height": 527.2000122070312,
+                    "width": 751.1500244140625,
+                    "height": 536.7000122070312,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -41,8 +41,8 @@
                     ]
                   },
                   {
-                    "width": 249.8125,
-                    "height": 527.2000122070312,
+                    "width": 252.0625,
+                    "height": 536.7000122070312,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 997.2750244140625,
-                "height": 266,
+                "width": 1006.2125244140625,
+                "height": 270.8999938964844,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 304,
-            "height": 796.2000122070312,
+            "width": 306.8125,
+            "height": 810.6000366210938,
             "type": "panel",
             "active": 0,
             "children": [
@@ -88,7 +88,8 @@
         "cocos-services",
         "node-library"
       ]
-    }
+    },
+    " common-asset-worker-worker": {}
   },
   "panels": {
     "project-settings": {
