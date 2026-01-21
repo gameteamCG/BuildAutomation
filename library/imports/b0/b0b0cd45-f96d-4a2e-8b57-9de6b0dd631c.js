@@ -352,6 +352,13 @@ var NewClass = /** @class */ (function (_super) {
             }
         }
     };
+    NewClass.prototype.playButtonSound = function (event) {
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        this.scheduleOnce(function () {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.puzzleQuestionVo.duration);
+    };
     NewClass.prototype.InitiateGame = function () {
         var _this = this;
         //repeat method

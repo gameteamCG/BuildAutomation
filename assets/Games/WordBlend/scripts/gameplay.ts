@@ -387,7 +387,14 @@ export default class NewClass extends cc.Component {
         }
 
     }
+    playButtonSound(event: cc.Event) {
 
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false)
+        this.scheduleOnce(() => {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.puzzleQuestionVo.duration)
+    }
     InitiateGame() {
         //repeat method
         this.UpdateOptions();

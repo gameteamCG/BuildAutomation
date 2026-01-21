@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Domestic Animals_LKG Practice Book 2_79",
-      "totalLevel": "7",
+      "totalLevel": "6",
       "TitleImageName": "Asset134.png",
       "introBgName": "playground.png",
       "bgmMusicName": "BGM.mp3",
@@ -14,34 +14,6 @@
       "JockeyName": "Puzzle"
     },
     "questionData": [
-      {
-        "questionText": "Solve the Puzzle",
-        "questionAudioName": "qq.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonPuzzleImageName": "Artboard4.png",
-        "isHintRequired": false,
-        "numberOfPuzzles": 4,
-        "puzzles": [
-          "pig_part_001.png",
-          "pig_part_002.png",
-          "pig_part_003.png",
-          "pig_part_004.png"
-        ],
-        "correctAudioName": "GORGEOUSWORK.mp3",
-        "needReiteration": true,
-        "interactionType": "1",
-        "questionText2": "choose the correct name ",
-        "questionAudioName2": "",
-        "commonOptionImageName": "box2.png",
-        "isOptionText": true,
-        "numberOfOptions": 2,
-        "options": [
-          "goat",
-          "pig"
-        ],
-        "correctAnswer": "2",
-        "reiterationAudioName": "pig.mp3"
-      },
       {
         "questionText": "Solve the Puzzle",
         "questionAudioName": "qq.mp3",
