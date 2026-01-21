@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\EYFS\\fs1\\animal_world_fs1_r314",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
