@@ -1,4 +1,4 @@
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -1008,6 +1008,7 @@ export default class gameplay extends cc.Component {
 
 
     TouchStart(_node: cc.Node, _event: any) {
+
         if (!this.canMove) {
             return;
         }
