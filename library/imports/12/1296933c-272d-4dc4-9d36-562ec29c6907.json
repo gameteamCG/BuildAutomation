@@ -4087,7 +4087,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 377.99,
+      "width": 374.82,
       "height": 81.9
     },
     "_anchorPoint": {
@@ -4139,8 +4139,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Domestic animals",
-    "_N$string": "Domestic animals",
+    "_string": "domestic animals",
+    "_N$string": "domestic animals",
     "_fontSize": 60,
     "_lineHeight": 65,
     "_enableWrapText": true,
