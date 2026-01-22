@@ -1,0 +1,131 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "7",
+      "TitleImageName": "Asset197.png",
+      "introBgName": "Juniorskg.png",
+      "bgmMusicName": "hksmi.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "animal habitats",
+        "questionImageName": "1_1.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "5.png",
+          "1.png",
+          "3.png"
+        ],
+        "correctAudioName": "1.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "animal habitats",
+        "questionImageName": "2_1.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "2.png",
+          "7.png",
+          "4.png"
+        ],
+        "correctAudioName": "2.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "animal habitats",
+        "questionImageName": "3_1.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "5.png",
+          "4.png",
+          "3.png"
+        ],
+        "correctAudioName": "3.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "animal habitats",
+        "questionImageName": "4_1.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1.png",
+          "7.png",
+          "4.png"
+        ],
+        "correctAudioName": "4.mp3",
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "animal habitats",
+        "questionImageName": "5_1.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "5.png",
+          "3.png",
+          "1.png"
+        ],
+        "correctAudioName": "5.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "animal habitats",
+        "questionImageName": "6_1.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "6.png",
+          "1.png",
+          "3.png"
+        ],
+        "correctAudioName": "6.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "animal habitats",
+        "questionImageName": "7_1.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "commonasset.png",
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "1.png",
+          "4.png",
+          "7.png"
+        ],
+        "correctAudioName": "7.mp3",
+        "correctAnswerNum": "3"
+      }
+    ]
+  }
+}

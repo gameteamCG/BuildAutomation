@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\EYFS\\fs2\\animal_habitats_fs2_r271",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
