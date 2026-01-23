@@ -184,7 +184,7 @@ var NewClass = /** @class */ (function (_super) {
                 // cc.tween(this.AnswerNode)
                 //     .to(0.5, { y: this.data[globalVariables.Instance.currentLevel-1].answerpositions[0].y }, { easing: 'sineInOut' }).start();
                 _this.createOptionObject(_this.maxOptions);
-                _this.playSound(_this.popSound);
+                // this.playSound(this.popSound);
                 _this.scheduleOnce(function () {
                     for (var i = 0; i < _this.node.getChildByName("Options").children.length; i++) {
                         _this.isDone[i] = false;

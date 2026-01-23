@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "smellnew",
+    "texture": "027319fc-e7f1-4177-b700-2397fa6d3037",
+    "atlas": "",
+    "rect": [
+      104,
+      175,
+      241,
+      87
+    ],
+    "offset": [
+      -6,
+      12
+    ],
+    "originalSize": [
+      461,
+      461
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

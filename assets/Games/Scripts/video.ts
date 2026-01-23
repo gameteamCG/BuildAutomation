@@ -39,7 +39,14 @@ class QuestionData {
 }
 @ccclass
 export default class video extends cc.Component {
+    @property(cc.Node)
+    optionsNode: cc.Node = null;
 
+    @property(cc.AudioClip)
+    private popupSound: cc.AudioClip = null;
+
+    @property
+    popDelay: number = 0.2; // delay between pops
     @property(cc.Node)
     tools: cc.Node = null;
     @property(cc.Node)
@@ -147,6 +154,35 @@ export default class video extends cc.Component {
         this.slider.children[0].on("touchend", function () {
             this.UpdateSlider();
         }, this);
+    }
+    popOptions() {
+
+        const children = this.optionsNode.children;
+
+        // Hide all children first
+        children.forEach(child => {
+            child.setScale(0);
+            child.active = false;
+        });
+
+        // Pop them one by one
+        children.forEach((child, index) => {
+            setTimeout(() => {
+                child.active = true;
+
+                // Play sound
+                if (this.popupSound) {
+                    cc.audioEngine.playEffect(this.popupSound, false);
+                }
+
+                // Pop animation
+                cc.tween(child)
+                    .to(0.15, { scale: 1.1 })
+                    .to(0.1, { scale: 1 })
+                    .start();
+
+            }, index * this.popDelay * 1000);
+        });
     }
 
     UpdateQuestions() {
@@ -620,10 +656,13 @@ export default class video extends cc.Component {
 
 
         this.scheduleOnce(() => {
-            cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+            this.scheduleOnce(() => {
+                cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+            }, 1);
             this.character.getComponent(cc.Animation).play("Idle");
             this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             this.questionNode.getChildByName("options1").active = true;
+            this.popOptions();
             this.questionNode.getChildByName("questionBox").active = true;
         }, 0.5);
     }

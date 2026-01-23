@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tastenew",
+    "texture": "a86225f5-3d51-4eb5-ac3a-6d3db481ba9a",
+    "atlas": "",
+    "rect": [
+      100,
+      174,
+      258,
+      88
+    ],
+    "offset": [
+      -1,
+      12.5
+    ],
+    "originalSize": [
+      460,
+      461
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
