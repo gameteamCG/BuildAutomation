@@ -1,6 +1,6 @@
 
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -482,7 +482,7 @@ export default class NewClass extends cc.Component {
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             this.destroyOption();
-            cc.audioEngine.playEffect(this.popSound[0], false);
+            // cc.audioEngine.playEffect(this.popSound[0], false);
             this.scheduleOnce(() => {
                 this.callPositiveRection(_node);
             }, 0);
