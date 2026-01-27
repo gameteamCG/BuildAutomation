@@ -16,18 +16,17 @@
     "QuestionData": [
       {
         "QuestionAppearTime": "2000",
-        "IsQuestionText": false,
-        "QuestionText": "",
-        "QuestionImageName": "run.png",
-        "QuestionAudioName": "Tap_on_the_animal_which_can_run_very_fast.mp3",
+        "IsQuestionText": true,
+        "QuestionText": "run",
+        "QuestionAudioName": "L1.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "6_0013_cheetah.png",
-          "6_0014_butterfly.png",
-          "6_0009_fish_1.png",
-          "6_0007_hummingbird.png"
+          "cheetah.png",
+          "butterfly.png",
+          "sparrow.png",
+          "fish.png"
         ],
         "ReiterationAudioName": "cheetah.mp3",
         "CorrectAudioName": "FANTASTIC.mp3",
@@ -36,18 +35,17 @@
       },
       {
         "QuestionAppearTime": "2000",
-        "IsQuestionText": false,
-        "QuestionText": "",
-        "QuestionImageName": "swing.png",
-        "QuestionAudioName": "Tap_on_the_animal_which_can_swing_on_the_trees.mp3",
+        "IsQuestionText": true,
+        "QuestionText": "swing",
+        "QuestionAudioName": "L2.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "6_0006_lion_1.png",
-          "6_0008_horse_2.png",
-          "6_0005_monkey_2.png",
-          "6_0012_dog_1.png"
+          "horse.png",
+          "dog.png",
+          "monkey.png",
+          "lion.png"
         ],
         "ReiterationAudioName": "monkey.mp3",
         "CorrectAudioName": "GREATWORK.mp3",
@@ -56,18 +54,17 @@
       },
       {
         "QuestionAppearTime": "2000",
-        "IsQuestionText": false,
-        "QuestionText": "",
-        "QuestionImageName": "swim.png",
-        "QuestionAudioName": "Tap_on_the_animal_which_can_swim_in_the_water.mp3",
+        "IsQuestionText": true,
+        "QuestionText": "swim",
+        "QuestionAudioName": "L3.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "6_0002_rabbit.png",
-          "6_0000_shark_1.png",
+          "kangaroo.png",
+          "shark.png",
           "squirrel.png",
-          "6_0001_rat.png"
+          "rat.png"
         ],
         "ReiterationAudioName": "shark.mp3",
         "CorrectAudioName": "INCREDIBLE.mp3",
@@ -76,20 +73,19 @@
       },
       {
         "QuestionAppearTime": "2000",
-        "IsQuestionText": false,
-        "QuestionText": "",
-        "QuestionImageName": "fly.png",
-        "QuestionAudioName": "Tap_on_the_animal_which_can_fly_in_the_air.mp3",
+        "IsQuestionText": true,
+        "QuestionText": "fly",
+        "QuestionAudioName": "L4.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "6_0003_octopus_1.png",
-          "6_0011_dolphin_1.png",
-          "6_0010_eel.png",
-          "6_0007_hummingbird.png"
+          "eel.png",
+          "dolphin.png",
+          "octopus.png",
+          "bird.png"
         ],
-        "ReiterationAudioName": "hummingbird.mp3",
+        "ReiterationAudioName": "humming-bird.mp3",
         "CorrectAudioName": "MAGNIFICENT.mp3",
         "WrongAudioName": "Oopsietryoncemore.mp3",
         "CorrectAnswer": "4"
