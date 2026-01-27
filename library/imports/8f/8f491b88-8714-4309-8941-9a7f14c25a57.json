@@ -9375,7 +9375,7 @@
       "__id__": 164
     },
     "questionsound": {
-      "__uuid__": "a7408358-5999-4d1a-b011-2b1bd84fb9dd"
+      "__uuid__": "0d3e3dc3-21f0-4bea-a84c-02ac85551134"
     },
     "cameraAud": {
       "__uuid__": "e82972f8-cbd8-4aa8-b157-29cf65b362cc"
@@ -10236,8 +10236,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 500,
-      "height": 90
+      "width": 122.93,
+      "height": 75.6
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10304,7 +10304,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "8avwUpNwhDdZLZ+pbj6zbX"
   },
