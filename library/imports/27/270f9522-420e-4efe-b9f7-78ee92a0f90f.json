@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "s&P",
+    "texture": "b1669887-9c89-46c7-8ea4-aa1f4ac3dd30",
+    "atlas": "",
+    "rect": [
+      54,
+      44,
+      394,
+      413
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
