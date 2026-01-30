@@ -115,6 +115,7 @@ export default class NewClass extends cc.Component {
     correctAnswerCount: number = 0;
     isOptionBG: boolean = false;
     TotalOptions: number = 0;
+    bodyPartNames: string[] = [];
     positionArray: cc.Vec2[] = [];
     isDone: boolean[] = [];
     isLastTween: boolean = false;
@@ -304,7 +305,7 @@ export default class NewClass extends cc.Component {
     start() {
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
-
+        this.bodyPartNames = ["Chest", "Ear", "Eyes", "Hair", "Hand", "Knee", "Leg", "Mouth", "Nose", "Teeth", "Toes", "Fingers"]
         // this.OptionsLayout();
         //console.log("AnswerArray = ", this.answerArray);
         this.totalAnswers = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum.length;
@@ -604,6 +605,7 @@ export default class NewClass extends cc.Component {
             this.canTouch = false;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
+            this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.bodyPartNames[globalVariables.Instance.currentLevel - 1]
             //this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveFeedback(_node);

@@ -79,6 +79,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.correctAnswerCount = 0;
         _this.isOptionBG = false;
         _this.TotalOptions = 0;
+        _this.bodyPartNames = [];
         _this.positionArray = [];
         _this.isDone = [];
         _this.isLastTween = false;
@@ -263,6 +264,7 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.start = function () {
         ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
+        this.bodyPartNames = ["Chest", "Ear", "Eyes", "Hair", "Hand", "Knee", "Leg", "Mouth", "Nose", "Teeth", "Toes", "Fingers"];
         // this.OptionsLayout();
         //console.log("AnswerArray = ", this.answerArray);
         this.totalAnswers = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum.length;
@@ -555,6 +557,7 @@ var NewClass = /** @class */ (function (_super) {
             this.canTouch = false;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
+            this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.bodyPartNames[globalVariables_1.default.Instance.currentLevel - 1];
             //this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveFeedback(_node);
