@@ -5,7 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -285,6 +286,7 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
+            this.node.getChildByName("questionPanel").active = true;
             this.arrangeGridChildren(this.options, 80, _optionCount);
         }
         else {
@@ -298,6 +300,17 @@ export default class Gameplay extends cc.Component {
         }
         _template.destroy();
 
+
+    }
+
+
+    PlayQVoButton(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false)
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration)
+        _event.target.getComponent(cc.Button).interactable = false;
 
     }
 
