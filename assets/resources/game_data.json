@@ -11,7 +11,7 @@
   },
   "questionData": [
     {
-      "questionText": "સિક્કા અને નોટ્સ",
+      "questionText": "સિક્કા અને નોટો",
       "questionAudioName": "L1.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "QuestionCard.png",
@@ -28,7 +28,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "સિક્કા અને નોટ્સ",
+      "questionText": "સિક્કા અને નોટો",
       "questionAudioName": "L2.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "QuestionCard.png",
@@ -45,7 +45,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "સિક્કા અને નોટ્સ",
+      "questionText": "સિક્કા અને નોટો",
       "questionAudioName": "L3.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "QuestionCard.png",
@@ -62,7 +62,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "સિક્કા અને નોટ્સ",
+      "questionText": "સિક્કા અને નોટો",
       "questionAudioName": "L4.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "QuestionCard.png",
@@ -79,7 +79,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "સિક્કા અને નોટ્સ",
+      "questionText": "સિક્કા અને નોટો",
       "questionAudioName": "L5.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "QuestionCard.png",
@@ -96,7 +96,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "સિક્કા અને નોટ્સ",
+      "questionText": "સિક્કા અને નોટો",
       "questionAudioName": "L6.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "QuestionCard.png",
