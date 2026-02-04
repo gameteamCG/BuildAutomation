@@ -3,7 +3,7 @@
     "GameID": "Revision - letter Ff",
     "totalLevel": "4",
     "TitleImageName": "Asset4738.png",
-    "introBgName": "Playgroup.png",
+    "introBgName": "nurBG.png",
     "bgmMusicName": "bgm3.mp3",
     "initialVOName": "",
     "mainBgName": "Asset13.png",
@@ -11,8 +11,8 @@
   },
   "questionData": [
     {
-      "questionText": "colour the object ",
-      "questionImageName": "",
+      "questionText": "Fish",
+      "questionImageName": "Ff.png",
       "questionAudioName": "Question1234.mp3",
       "shouldPlayQuestionAudio": true,
       "pictureImageName": "14.png",
@@ -20,8 +20,8 @@
       "correctAudioName": "fish.mp3"
     },
     {
-      "questionText": "colour the object ",
-      "questionImageName": "",
+      "questionText": "Flower",
+      "questionImageName": "Ff.png",
       "questionAudioName": "Question1234.mp3",
       "shouldPlayQuestionAudio": true,
       "pictureImageName": "15.png",
@@ -29,8 +29,8 @@
       "correctAudioName": "flower.mp3"
     },
     {
-      "questionText": "colour the object ",
-      "questionImageName": "",
+      "questionText": "Fan",
+      "questionImageName": "Ff.png",
       "questionAudioName": "Question1234.mp3",
       "shouldPlayQuestionAudio": true,
       "pictureImageName": "17.png",
@@ -38,9 +38,9 @@
       "correctAudioName": "fan.mp3"
     },
     {
-      "questionText": "colour the animal ",
-      "questionImageName": "",
-      "questionAudioName": "Qylhsdl.mp3",
+      "questionText": "Fox",
+      "questionImageName": "Ff.png",
+      "questionAudioName": "Question1234.mp3",
       "shouldPlayQuestionAudio": true,
       "pictureImageName": "16.png",
       "needMoreTools": true,
