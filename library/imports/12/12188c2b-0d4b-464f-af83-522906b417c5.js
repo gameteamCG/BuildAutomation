@@ -41,7 +41,7 @@ var NewClass = /** @class */ (function (_super) {
     // LIFE-CYCLE CALLBACKS:
     NewClass.prototype.onLoad = function () {
         var _this = this;
-        if (StartGame_1.default.Instance.jockeyName == "Podar") {
+        if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {

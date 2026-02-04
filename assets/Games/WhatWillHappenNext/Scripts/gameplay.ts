@@ -1,5 +1,6 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -116,6 +117,7 @@ export default class NewClass extends cc.Component {
     TotalOptions: number = 0;
     positionArray: cc.Vec2[] = [];
     isDone: boolean[] = [];
+    textAnswerArray: string[] = [];
     isLastTween: boolean = false;
 
     onLoad() {
@@ -303,7 +305,7 @@ export default class NewClass extends cc.Component {
     start() {
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
-
+        this.textAnswerArray = ["Frog", "Fish", "Flag", "Fan", "Fox"]
         // this.OptionsLayout();
         //console.log("AnswerArray = ", this.answerArray);
         this.totalAnswers = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum.length;
@@ -676,6 +678,7 @@ export default class NewClass extends cc.Component {
         switch (startGame.Instance.templateType) {
             case "SimpleTap":
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.textAnswerArray[globalVariables.Instance.currentLevel - 1]
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
