@@ -6,66 +6,138 @@
   "json": {
     "AdditionalData": {
       "GameID": "My_family_SCIS",
-      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/fam_1747395789852.mp4",
+      "VideoLink": "https://cg-dynamic-games.s3.ap-south-1.amazonaws.com/Videos/firstDayFun.mp4",
       "TitleImageName": "Asset 41.png",
       "IntroAudio1Name": "",
       "IntroAudio2Name": "",
       "JockeyName": "puzzle",
-      "TotalLevel": "3"
+      "TotalLevel": "7"
     },
     "QuestionData": [
       {
         "QuestionAppearTime": "99999999999999999999999999",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "momQ.png",
-        "QuestionAudioName": "idmom.mp3",
+        "QuestionImageName": "1.png",
+        "QuestionAudioName": "L1.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
         "Options": [
-          "mom.png",
-          "father.png"
+          "1_1.png",
+          "1_2.png"
         ],
-        "ReiterationAudioName": "mum.mp3",
-        "CorrectAudioName": "EXCELLENTJOB.mp3",
-        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "ReiterationAudioName": "1.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "1"
       },
       {
         "QuestionAppearTime": "9999999999999999999999999999",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "fatherQ.png",
-        "QuestionAudioName": "idfather.mp3",
+        "QuestionImageName": "2.png",
+        "QuestionAudioName": "L2.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
         "Options": [
-          "mom.png",
-          "father.png"
+          "2_2.png",
+          "2_1.png"
         ],
-        "ReiterationAudioName": "futh.mp3",
-        "CorrectAudioName": "IMPRESSIVEWORK.mp3",
-        "WrongAudioName": "ohoh.mp3",
+        "ReiterationAudioName": "2.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
         "CorrectAnswer": "2"
       },
       {
         "QuestionAppearTime": "999999999999999999999999999999",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "sisQ.png",
-        "QuestionAudioName": "idsis.mp3",
+        "QuestionImageName": "3.png",
+        "QuestionAudioName": "L3.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
         "Options": [
-          "sis.png",
-          "mom.png"
+          "3_2.png",
+          "3_1.png"
         ],
-        "ReiterationAudioName": "INCREDIBLE.mp3",
-        "CorrectAudioName": "",
-        "WrongAudioName": "nevermindtryagain.mp3",
+        "ReiterationAudioName": "3.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999999999999999999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "4.png",
+        "QuestionAudioName": "L4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "4_1.png",
+          "4_2.png"
+        ],
+        "ReiterationAudioName": "4.mp3",
+        "CorrectAudioName": "positive_4.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "999999999999999999999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "5.png",
+        "QuestionAudioName": "L5.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "5_2.png",
+          "5_1.png"
+        ],
+        "ReiterationAudioName": "5.mp3",
+        "CorrectAudioName": "positive_5.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999999999999999999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "6.png",
+        "QuestionAudioName": "L6.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "6_2.png",
+          "6_1.png"
+        ],
+        "ReiterationAudioName": "6.mp3",
+        "CorrectAudioName": "positive_6.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "999999999999999999999999999999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "7.png",
+        "QuestionAudioName": "L7.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "7_1.png",
+          "7_2.png"
+        ],
+        "ReiterationAudioName": "7.mp3",
+        "CorrectAudioName": "positive_7.mp3",
+        "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "1"
       }
     ]
