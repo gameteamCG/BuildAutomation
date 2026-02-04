@@ -5,7 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -51,11 +52,13 @@ export default class Gameplay extends cc.Component {
 
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
+    textCorrectAns: string[] = [];
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
         // this.options = this.node.getChildByName(this.optionsLayout);
         // this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
+        this.textCorrectAns = ["Hat", "Horse", "House"]
     }
 
     LoadQuestion() {
@@ -249,6 +252,7 @@ export default class Gameplay extends cc.Component {
                 });
             }
             else if (this.optionsLayout == "layout3") {
+                this.node.getChildByName("questionPanel").active = true;
                 let delay = 0;
                 for (let i = 0; i < this.options.children.length; i++) {
                     this.scheduleOnce(() => {
@@ -285,6 +289,7 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
+            this.node.getChildByName("questionPanel").active = true;
             this.arrangeGridChildren(this.options, 80, _optionCount);
         }
         else {
@@ -356,6 +361,16 @@ export default class Gameplay extends cc.Component {
                 }).start();
 
         }
+    }
+
+    PlayQVoButton(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false)
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration)
+        _event.target.getComponent(cc.Button).interactable = false;
+
     }
 
     onTouchStart_layout2(event: cc.Event.EventTouch) {
@@ -451,6 +466,7 @@ export default class Gameplay extends cc.Component {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            this.node.getChildByName("questionPanel").children[1].getComponent(cc.Label).string = this.textCorrectAns[startGame.Instance.currentLevel - 4];
             this.correctCounter++;
             let _clone: cc.Node = cc.instantiate(node);
             _clone.parent = node;
