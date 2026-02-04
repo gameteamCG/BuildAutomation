@@ -99,10 +99,10 @@
           "potato.png"
         ],
         "optionsBg": [
-          "orange1.png",
-          "pear1.png",
-          "piniapple1.png",
-          "patato1.png"
+          "",
+          "",
+          "",
+          ""
         ],
         "correctAudioName": "L1correct.mp3",
         "wrongAudioName": "ns.mp3",
@@ -123,10 +123,10 @@
           "grapes.png"
         ],
         "optionsBg": [
-          "apple1.png",
-          "carrat1.png",
-          "banana1.png",
-          "grapes1.png"
+          "",
+          "",
+          "",
+          ""
         ],
         "correctAudioName": "l6correct.mp3",
         "wrongAudioName": "ns.mp3",

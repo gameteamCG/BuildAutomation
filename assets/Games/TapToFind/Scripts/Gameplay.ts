@@ -5,7 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -40,6 +41,9 @@ export default class Gameplay extends cc.Component {
     @property(cc.AudioClip)
     negative_audio: cc.AudioClip = null;
 
+    @property(cc.AudioClip)
+    private fruitsAndVegetableVo: cc.AudioClip[] = [];
+
     private questionAudio: cc.AudioClip = null;
     private correctAudio: cc.AudioClip = null;
     private wrongAudio: cc.AudioClip = null;
@@ -47,6 +51,7 @@ export default class Gameplay extends cc.Component {
 
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
+    fruitsAndVegNames: string[] = [];
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
@@ -199,7 +204,7 @@ export default class Gameplay extends cc.Component {
         this.LoadQuestion();
         ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
-
+        this.fruitsAndVegNames = ["Grapes", "Apple", "Capsicum", "Potato", "Carrot"]
         this.scheduleOnce(() => {
             if (this.questionAudio) {
                 if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
@@ -218,7 +223,7 @@ export default class Gameplay extends cc.Component {
                         element.setPosition(pos.x, pos.y - 850);
                         element.active = true;
                         cc.audioEngine.playEffect(this.pop_audio, false);
-                        cc.tween(element).to(0.65, { y: pos.y }, { easing: "sineInOut" }).start();
+                        cc.tween(element).to(0.65, { y: pos.y - 50 }, { easing: "sineInOut" }).start();
                     }, delay);
                     delay += 0.35;
                 }
@@ -271,6 +276,17 @@ export default class Gameplay extends cc.Component {
         }, 1);
     }
 
+
+    PlayQVoButton(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false)
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration)
+        _event.target.getComponent(cc.Button).interactable = false;
+
+    }
+
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
         for (let i = 0; i < _optionCount; i++) {
             let _option: cc.Node = cc.instantiate(_template);
@@ -281,7 +297,7 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            this.arrangeGridChildren(this.options, 5, _optionCount);
         }
         else {
             this.arrangeChildren(this.options, 80);
@@ -316,6 +332,7 @@ export default class Gameplay extends cc.Component {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            this.node.getChildByName("questionPanel").children[1].getComponent(cc.Label).string = this.fruitsAndVegNames[startGame.Instance.currentLevel - 1]
             this.correctCounter++;
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
@@ -374,6 +391,8 @@ export default class Gameplay extends cc.Component {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            this.node.getChildByName("questionPanel").children[1].getComponent(cc.Label).string = this.fruitsAndVegNames[startGame.Instance.currentLevel - 1]
+
             node.getComponent(cc.Animation).stop();
             node.angle = 0;
             this.correctCounter++;
@@ -447,6 +466,8 @@ export default class Gameplay extends cc.Component {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            this.node.getChildByName("questionPanel").children[1].getComponent(cc.Label).string = this.fruitsAndVegNames[startGame.Instance.currentLevel - 1]
+
             this.correctCounter++;
             let _clone: cc.Node = cc.instantiate(node);
             _clone.parent = node;
@@ -455,6 +476,7 @@ export default class Gameplay extends cc.Component {
             _clone.children[0].active = true;
             _clone.children[0].opacity = 0;
             node.active = false;
+
             cc.tween(_clone.children[0])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
                 .call(() => {
@@ -497,10 +519,11 @@ export default class Gameplay extends cc.Component {
         ProgressBar.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(() => {
             ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel);
+            cc.audioEngine.playEffect(this.fruitsAndVegetableVo[startGame.Instance.currentLevel - 1], false);
             this.scheduleOnce(() => {
                 this.callJockey();
-            }, 1);
-        }, 1.5);
+            }, this.fruitsAndVegetableVo[startGame.Instance.currentLevel - 1].duration);
+        }, 1.8);
     }
 
     callNextLevel() {
@@ -519,7 +542,7 @@ export default class Gameplay extends cc.Component {
     callJockey() {
         let anim: string[] = [];
         if (startGame.Instance.jockeyName == "Podar") {
-            anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9"];
         }
         else if (startGame.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
@@ -561,7 +584,7 @@ export default class Gameplay extends cc.Component {
             this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
         }
         else if (startGame.Instance.jockeyName == "Podar") {
-            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         }
         else {
             this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
@@ -574,7 +597,7 @@ export default class Gameplay extends cc.Component {
                 cc.tween(this.currentJockey).to(0.5, { x: pos[startGame.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
                 if (startGame.Instance.jockeyName != "stallion") {
                     if (startGame.Instance.jockeyName == "Podar") {
-                        this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                        this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                     }
                     else {
                         this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
@@ -595,7 +618,7 @@ export default class Gameplay extends cc.Component {
         this.scheduleOnce(() => {
             let anim: string[] = [];
             if (startGame.Instance.jockeyName == "Podar") {
-                anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
+                anim = ["negative_1", "negative_2"];
             }
             else if (startGame.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
@@ -634,7 +657,7 @@ export default class Gameplay extends cc.Component {
                 this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
             }
             else if (startGame.Instance.jockeyName == "Podar") {
-                this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             }
             else {
                 this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
@@ -647,7 +670,7 @@ export default class Gameplay extends cc.Component {
                     cc.tween(this.currentJockey).to(0.5, { x: posX_init }, { easing: "quartInOut" }).start();
                     if (startGame.Instance.jockeyName != "stallion") {
                         if (startGame.Instance.jockeyName == "Podar") {
-                            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         }
                         else {
                             this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);

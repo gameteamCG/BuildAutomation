@@ -29,7 +29,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
@@ -49,12 +50,14 @@ var Gameplay = /** @class */ (function (_super) {
         _this.pop_audio = null;
         _this.positive_audio = null;
         _this.negative_audio = null;
+        _this.fruitsAndVegetableVo = [];
         _this.questionAudio = null;
         _this.correctAudio = null;
         _this.wrongAudio = null;
         _this.reiterationAudio = [];
         _this.currentJockey = null;
         _this.maxLevel = 0;
+        _this.fruitsAndVegNames = [];
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
@@ -216,6 +219,7 @@ var Gameplay = /** @class */ (function (_super) {
         this.LoadQuestion();
         ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
+        this.fruitsAndVegNames = ["Grapes", "Apple", "Capsicum", "Potato", "Carrot"];
         this.scheduleOnce(function () {
             if (_this.questionAudio) {
                 if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
@@ -234,7 +238,7 @@ var Gameplay = /** @class */ (function (_super) {
                         element.setPosition(pos.x, pos.y - 850);
                         element.active = true;
                         cc.audioEngine.playEffect(_this.pop_audio, false);
-                        cc.tween(element).to(0.65, { y: pos.y }, { easing: "sineInOut" }).start();
+                        cc.tween(element).to(0.65, { y: pos.y - 50 }, { easing: "sineInOut" }).start();
                     }, delay);
                     delay += 0.35;
                 };
@@ -294,6 +298,14 @@ var Gameplay = /** @class */ (function (_super) {
             }, 1);
         }, 1);
     };
+    Gameplay.prototype.PlayQVoButton = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
+        this.scheduleOnce(function () {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration);
+        _event.target.getComponent(cc.Button).interactable = false;
+    };
     Gameplay.prototype.generateOptions = function (_template, _optionParent, _optionCount) {
         for (var i = 0; i < _optionCount; i++) {
             var _option = cc.instantiate(_template);
@@ -304,7 +316,7 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            this.arrangeGridChildren(this.options, 5, _optionCount);
         }
         else {
             this.arrangeChildren(this.options, 80);
@@ -337,6 +349,7 @@ var Gameplay = /** @class */ (function (_super) {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            this.node.getChildByName("questionPanel").children[1].getComponent(cc.Label).string = this.fruitsAndVegNames[StartGame_1.default.Instance.currentLevel - 1];
             this.correctCounter++;
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
@@ -393,6 +406,7 @@ var Gameplay = /** @class */ (function (_super) {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            this.node.getChildByName("questionPanel").children[1].getComponent(cc.Label).string = this.fruitsAndVegNames[StartGame_1.default.Instance.currentLevel - 1];
             node.getComponent(cc.Animation).stop();
             node.angle = 0;
             this.correctCounter++;
@@ -465,6 +479,7 @@ var Gameplay = /** @class */ (function (_super) {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            this.node.getChildByName("questionPanel").children[1].getComponent(cc.Label).string = this.fruitsAndVegNames[StartGame_1.default.Instance.currentLevel - 1];
             this.correctCounter++;
             var _clone = cc.instantiate(node);
             _clone.parent = node;
@@ -513,10 +528,11 @@ var Gameplay = /** @class */ (function (_super) {
         ProgressBar_1.default.Instance.createStarTrails(6, this.node);
         this.scheduleOnce(function () {
             ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel);
+            cc.audioEngine.playEffect(_this.fruitsAndVegetableVo[StartGame_1.default.Instance.currentLevel - 1], false);
             _this.scheduleOnce(function () {
                 _this.callJockey();
-            }, 1);
-        }, 1.5);
+            }, _this.fruitsAndVegetableVo[StartGame_1.default.Instance.currentLevel - 1].duration);
+        }, 1.8);
     };
     Gameplay.prototype.callNextLevel = function () {
         console.log("levelComplete--" + StartGame_1.default.Instance.currentLevel);
@@ -534,7 +550,7 @@ var Gameplay = /** @class */ (function (_super) {
         var _this = this;
         var anim = [];
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
@@ -576,7 +592,7 @@ var Gameplay = /** @class */ (function (_super) {
             this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
         }
         else if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+            this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         }
         else {
             this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
@@ -589,7 +605,7 @@ var Gameplay = /** @class */ (function (_super) {
                 cc.tween(_this.currentJockey).to(0.5, { x: pos[StartGame_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
                 if (StartGame_1.default.Instance.jockeyName != "stallion") {
                     if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                        _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                        _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                     }
                     else {
                         _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
@@ -609,7 +625,7 @@ var Gameplay = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             var anim = [];
             if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
+                anim = ["negative_1", "negative_2"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
@@ -647,7 +663,7 @@ var Gameplay = /** @class */ (function (_super) {
                 _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
             }
             else if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             }
             else {
                 _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
@@ -660,7 +676,7 @@ var Gameplay = /** @class */ (function (_super) {
                     cc.tween(_this.currentJockey).to(0.5, { x: posX_init }, { easing: "quartInOut" }).start();
                     if (StartGame_1.default.Instance.jockeyName != "stallion") {
                         if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                            _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                            _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         }
                         else {
                             _this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
@@ -765,6 +781,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_audio", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "fruitsAndVegetableVo", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);
