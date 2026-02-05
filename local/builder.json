@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\EYFS\\farm_animals_and_their_homes_fs0_r283",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

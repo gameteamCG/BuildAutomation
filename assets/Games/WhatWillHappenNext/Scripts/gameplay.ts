@@ -99,7 +99,7 @@ export default class NewClass extends cc.Component {
     private isFirstClick: boolean = false;
     private canTouch: boolean = false;
     private answerArray: string[] = [];
-    private maxLevel: number = 7;
+    private maxLevel: number = 8;
     wrongAnswerCount: number = 0;
     star1Log: boolean = false;
     star2Log: boolean = false;
@@ -359,7 +359,7 @@ export default class NewClass extends cc.Component {
             let option = cc.instantiate(this.node.getChildByName("template"));
             option.name = (i + 1).toString();
             option.setParent(this.node.getChildByName("Option"));
-            option.setPosition(cc.v2(0, 0));
+            option.setPosition(cc.v2(0, 40));
             option.opacity = 0;
             //console.log("isOptionBG--" + this.isOptionBG);
             if (this.isOptionBG) {

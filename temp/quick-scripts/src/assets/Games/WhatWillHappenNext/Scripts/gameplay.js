@@ -65,7 +65,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.isFirstClick = false;
         _this.canTouch = false;
         _this.answerArray = [];
-        _this.maxLevel = 7;
+        _this.maxLevel = 8;
         _this.wrongAnswerCount = 0;
         _this.star1Log = false;
         _this.star2Log = false;
@@ -311,7 +311,7 @@ var NewClass = /** @class */ (function (_super) {
             var option = cc.instantiate(this.node.getChildByName("template"));
             option.name = (i + 1).toString();
             option.setParent(this.node.getChildByName("Option"));
-            option.setPosition(cc.v2(0, 0));
+            option.setPosition(cc.v2(0, 40));
             option.opacity = 0;
             //console.log("isOptionBG--" + this.isOptionBG);
             if (this.isOptionBG) {
