@@ -89,14 +89,15 @@
         "node-library"
       ]
     },
-    "window-1770197845594": {}
+    " common-asset-worker-worker": {},
+    "window-1770354950280": {}
   },
   "panels": {
     "project-settings": {
-      "x": 0,
+      "x": 48,
       "y": 0,
       "width": 1440,
-      "height": 900
+      "height": 816
     },
     "preferences": {
       "x": 0,
