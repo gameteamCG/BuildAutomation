@@ -115,10 +115,10 @@
             "options": [
                 "dress.png",
                 "500x500_0002_lemon.png",
-                "airplane.png"
+                "avacado.png"
             ],
             "correctAudios": [
-                "airplane.mp3"
+                "avocado.mp3"
             ],
             "correctAnswerNum": "3"
         }

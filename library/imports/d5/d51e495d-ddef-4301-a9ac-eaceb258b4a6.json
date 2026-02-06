@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "avacado",
+    "texture": "93bf2537-bca9-4163-88dd-378b437e9cfe",
+    "atlas": "",
+    "rect": [
+      30,
+      34,
+      440,
+      432
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
