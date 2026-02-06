@@ -604,6 +604,7 @@ export default class NewClass extends cc.Component {
         if (iscorrect) {
             this.canTouch = false;
             cc.audioEngine.stopAllEffects();
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].answerText;
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             //this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);

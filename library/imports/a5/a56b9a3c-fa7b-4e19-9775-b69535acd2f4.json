@@ -17,6 +17,7 @@
     "questionData": [
       {
         "questionText": "Farm animals and their homes.",
+        "answerText": "Cat lives in a basket.",
         "questionImageName": "8.png",
         "questionAudioName": "identifythebirdwhobuiltthisnest.mp3",
         "shouldPlayQuestionAudio": true,
@@ -35,6 +36,7 @@
       },
       {
         "questionText": "Farm animals and their homes.",
+        "answerText": "Horse lives in a stable.",
         "questionImageName": "1.png",
         "questionAudioName": "identifythebirdwhobuiltthisnest.mp3",
         "shouldPlayQuestionAudio": true,
@@ -53,6 +55,7 @@
       },
       {
         "questionText": "Farm animals and their homes.",
+        "answerText": "Duck lives in a pond.",
         "questionImageName": "7.png",
         "questionAudioName": "identifythebirdwhobuiltthisnest.mp3",
         "shouldPlayQuestionAudio": true,
@@ -71,6 +74,7 @@
       },
       {
         "questionText": "Farm animals and their homes.",
+        "answerText": "Dog lives in a kennel.",
         "questionImageName": "6.png",
         "questionAudioName": "identifythebirdwhobuiltthisnest.mp3",
         "shouldPlayQuestionAudio": true,
@@ -89,6 +93,7 @@
       },
       {
         "questionText": "Farm animals and their homes.",
+        "answerText": "Sheep lives in a pen.",
         "questionImageName": "5.png",
         "questionAudioName": "identifythebirdwhobuiltthisnest.mp3",
         "shouldPlayQuestionAudio": true,
@@ -107,6 +112,7 @@
       },
       {
         "questionText": "Farm animals and their homes.",
+        "answerText": "Hen lives in a coop.",
         "questionImageName": "4.png",
         "questionAudioName": "identifythebirdwhobuiltthisnest.mp3",
         "shouldPlayQuestionAudio": true,
@@ -125,6 +131,7 @@
       },
       {
         "questionText": "Farm animals and their homes.",
+        "answerText": "Bee lives in a beehive.",
         "questionImageName": "3.png",
         "questionAudioName": "identifythebirdwhobuiltthisnest.mp3",
         "shouldPlayQuestionAudio": true,
@@ -143,6 +150,7 @@
       },
       {
         "questionText": "Farm animals and their homes.",
+        "answerText": "Cow lives in a shed.",
         "questionImageName": "2.png",
         "questionAudioName": "identifythebirdwhobuiltthisnest.mp3",
         "shouldPlayQuestionAudio": true,
