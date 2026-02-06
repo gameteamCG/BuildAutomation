@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5a628af3-a80c-4da4-b1a4-ec7ade917a02",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 562,
+  "height": 353,
+  "platformSettings": {},
+  "subMetas": {
+    "questionPanel": {
+      "ver": "1.0.6",
+      "uuid": "fa034d2e-3cdb-4761-ac08-29fbbf3866f0",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5a628af3-a80c-4da4-b1a4-ec7ade917a02",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 562,
+      "height": 353,
+      "rawWidth": 562,
+      "rawHeight": 353,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
