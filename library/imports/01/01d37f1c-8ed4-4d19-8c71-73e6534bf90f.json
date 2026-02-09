@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "સાઇકલ",
+        "questionText": "સાયકલ",
         "questionImageName": "",
         "questionAudioName": "6289353_1_----.mp3",
         "shouldPlayQuestionAudio": true,
@@ -43,7 +43,7 @@
         "correctAudioName": "6289353_4_.mp3"
       },
       {
-        "questionText": "કાર",
+        "questionText": "ગાડી",
         "questionImageName": "",
         "questionAudioName": "6289353_1_----.mp3",
         "shouldPlayQuestionAudio": true,
