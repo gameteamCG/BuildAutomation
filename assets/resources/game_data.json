@@ -14,14 +14,8 @@
       "questionAudioName": "question.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
-      "options": [
-        "માડી",
-        "ચારતા",
-        "આડી"
-      ],
-      "correctAudios": [
-        "2.mp3"
-      ],
+      "options": ["માડી", "ચારતા", "આડી"],
+      "correctAudios": ["2.mp3"],
       "correctAnswerNum": "2"
     },
     {
@@ -29,14 +23,8 @@
       "questionAudioName": "question.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
-      "options": [
-        "રિસાયો",
-        "પાડી",
-        "લાવતા"
-      ],
-      "correctAudios": [
-        "3.mp3"
-      ],
+      "options": ["રિસાયો", "પાડી", "લાવતા"],
+      "correctAudios": ["3.mp3"],
       "correctAnswerNum": "3"
     },
     {
@@ -44,14 +32,8 @@
       "questionAudioName": "question.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
-      "options": [
-        "ભૌંસાયો",
-        "સમજાવતા",
-        "માડી"
-      ],
-      "correctAudios": [
-        "4.mp3"
-      ],
+      "options": ["ભીંસયો", "સમજાવતા", "માડી"],
+      "correctAudios": ["4.mp3"],
       "correctAnswerNum": "2"
     },
     {
@@ -59,14 +41,8 @@
       "questionAudioName": "question.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
-      "options": [
-        "ભૌંસાયો",
-        "લાવતા",
-        "આડી"
-      ],
-      "correctAudios": [
-        "5.mp3"
-      ],
+      "options": ["ભીંસયો", "લાવતા", "આડી"],
+      "correctAudios": ["5.mp3"],
       "correctAnswerNum": "1"
     },
     {
@@ -74,14 +50,8 @@
       "questionAudioName": "question.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
-      "options": [
-        "રિસાયો",
-        "પાડી",
-        "ચારતા"
-      ],
-      "correctAudios": [
-        "6.mp3"
-      ],
+      "options": ["રિસાયો", "પાડી", "ચારતા"],
+      "correctAudios": ["6.mp3"],
       "correctAnswerNum": "2"
     },
     {
@@ -89,14 +59,8 @@
       "questionAudioName": "question.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
-      "options": [
-        "સમજાવતા",
-        "માડી",
-        "લાવતા"
-      ],
-      "correctAudios": [
-        "7.mp3"
-      ],
+      "options": ["સમજાવતા", "માડી", "લાવતા"],
+      "correctAudios": ["7.mp3"],
       "correctAnswerNum": "2"
     }
   ]
