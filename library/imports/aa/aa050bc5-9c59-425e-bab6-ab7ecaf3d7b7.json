@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_carrott",
+    "texture": "591bd0d6-3765-4729-9db3-591052a5b7e7",
+    "atlas": "",
+    "rect": [
+      155,
+      211,
+      215,
+      269
+    ],
+    "offset": [
+      12,
+      -95
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
