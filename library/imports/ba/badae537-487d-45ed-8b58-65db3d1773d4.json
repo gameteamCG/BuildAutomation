@@ -17,6 +17,7 @@
     "questionData": [
       {
         "questionText": "doctor tool",
+        "AnsText": "medicines",
         "questionImageName": "500x500_0005_first-aid.png",
         "questionAudioName": "q1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -35,6 +36,7 @@
       },
       {
         "questionText": "doctor tool",
+        "AnsText": "stethoscope",
         "questionImageName": "500x500_0005_first-aid.png",
         "questionAudioName": "q1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -53,6 +55,7 @@
       },
       {
         "questionText": "doctor tool",
+        "AnsText": "scissors",
         "questionImageName": "500x500_0005_first-aid.png",
         "questionAudioName": "q1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -71,6 +74,7 @@
       },
       {
         "questionText": "doctor tool",
+        "AnsText": "bandaids",
         "questionImageName": "500x500_0005_first-aid.png",
         "questionAudioName": "q1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -89,6 +93,7 @@
       },
       {
         "questionText": "doctor tool",
+        "AnsText": "thermometer",
         "questionImageName": "500x500_0005_first-aid.png",
         "questionAudioName": "q1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -107,6 +112,7 @@
       },
       {
         "questionText": "doctor tool",
+        "AnsText": "syringe",
         "questionImageName": "500x500_0005_first-aid.png",
         "questionAudioName": "q1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -125,6 +131,7 @@
       },
       {
         "questionText": "doctor tool",
+        "AnsText": "medicinal drops",
         "questionImageName": "500x500_0005_first-aid.png",
         "questionAudioName": "",
         "shouldPlayQuestionAudio": false,

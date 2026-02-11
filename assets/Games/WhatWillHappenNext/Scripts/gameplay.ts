@@ -1,5 +1,6 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+
 
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
@@ -229,6 +230,8 @@ export default class NewClass extends cc.Component {
                         }
                         const spriteFrame = new cc.SpriteFrame(texture);
                         this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+
+
                     });
                 }
                 else {
@@ -239,6 +242,7 @@ export default class NewClass extends cc.Component {
             }
 
             for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios.length; i++) {
+
                 cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios[i], (err, audioClip) => {
                     if (err) {
                         console.error("Failed to load audio clip:", err);
@@ -281,6 +285,18 @@ export default class NewClass extends cc.Component {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
                     this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (spriteFrame) => {
                         this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        let imgNode = this.node
+                            .getChildByName("Option")
+                            .getChildByName((i + 1).toString())
+                            .getChildByName("img");
+
+                        imgNode.getComponent(cc.Sprite).spriteFrame = spriteFrame;
+
+
+
+                        // Adjust scale
+                        imgNode.scale = 0.8;   // change this value as needed
+
                     });
                 }
 
@@ -603,6 +619,8 @@ export default class NewClass extends cc.Component {
         if (iscorrect) {
             this.canTouch = false;
             cc.audioEngine.stopAllEffects();
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].AnsText;
+
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             //this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
@@ -734,7 +752,7 @@ export default class NewClass extends cc.Component {
                         this.node.getChildByName("QuestionBox1").getChildByName(imgName).scale = imgScale;
                         //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
                         //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: 0 }, { easing: "sineInOut" }).start();
-                        cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
+                        cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 104)).start();
                         cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 0.5 }, { easing: "sineInOut" }).start();
 
                         this.scheduleOnce(() => {
