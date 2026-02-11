@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Letters and sounds Pp_NUR_SB3_16",
-      "totalLevel": "6",
+      "totalLevel": "5",
       "TitleImageName": "t.png",
       "introBgName": "Bg_1 copy.png",
       "bgmMusicName": "BGM.mp3",
@@ -15,22 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "letter sound",
-        "questionImageName": "Hh.png",
-        "questionAudioName": "q.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Questioncard.png",
-        "isOptionText": false,
-        "numberOfOptions": 2,
-        "options": [
-          "pig.png",
-          "gt.png"
-        ],
-        "correctAudioName": "pig.mp3",
-        "correctAnswerNum": "1"
-      },
-      {
-        "questionText": "letter sound",
+        "questionText": "Pp",
         "questionImageName": "Hh.png",
         "questionAudioName": "q.mp3",
         "shouldPlayQuestionAudio": true,
@@ -45,11 +30,11 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "letter sound",
+        "questionText": "Pp",
         "questionImageName": "Hh.png",
         "questionAudioName": "q.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Questioncard.png",
+        "commonOptionImageName": "2.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
@@ -60,7 +45,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "letter sound",
+        "questionText": "Pp",
         "questionImageName": "parrot.png",
         "questionAudioName": "qparrot.mp3",
         "shouldPlayQuestionAudio": true,
@@ -75,11 +60,11 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "letter sound",
+        "questionText": "Pp",
         "questionImageName": "penguin.png",
         "questionAudioName": "qpng.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Questioncard.png",
+        "commonOptionImageName": "2.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
@@ -90,7 +75,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "letter sound",
+        "questionText": "Pp",
         "questionImageName": "pumpkin.png",
         "questionAudioName": "qpm.mp3",
         "shouldPlayQuestionAudio": true,
