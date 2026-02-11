@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -501,7 +501,7 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         var anim = [];
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
@@ -542,7 +542,7 @@ var NewClass = /** @class */ (function (_super) {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             }
             else {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             }
         }
         if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
@@ -558,7 +558,7 @@ var NewClass = /** @class */ (function (_super) {
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         }
                         else {
-                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         }
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
@@ -624,7 +624,7 @@ var NewClass = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             var anim = [];
             if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
+                anim = ["negative_1", "negative_2", "negative_1", "negative_2", "negative_1", "negative_2"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
@@ -658,7 +658,7 @@ var NewClass = /** @class */ (function (_super) {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                 }
                 else {
-                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                 }
             }
             if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
@@ -674,7 +674,7 @@ var NewClass = /** @class */ (function (_super) {
                                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             }
                             else {
-                                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             }
                         }
                         //console.log("characterDisappear--Podar_Jumbo");

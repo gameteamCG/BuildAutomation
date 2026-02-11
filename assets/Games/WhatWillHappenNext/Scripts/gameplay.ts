@@ -1,6 +1,6 @@
 
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -543,7 +543,7 @@ export default class NewClass extends cc.Component {
     callJockey() {
         let anim: string[] = [];
         if (startGame.Instance.jockeyName == "Podar") {
-            anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
         }
         else if (startGame.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
@@ -584,7 +584,7 @@ export default class NewClass extends cc.Component {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             }
             else {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             }
         }
         if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
@@ -600,7 +600,7 @@ export default class NewClass extends cc.Component {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         }
                         else {
-                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         }
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
@@ -671,7 +671,7 @@ export default class NewClass extends cc.Component {
         this.scheduleOnce(() => {
             let anim: string[] = [];
             if (startGame.Instance.jockeyName == "Podar") {
-                anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
+                anim = ["negative_1", "negative_2", "negative_1", "negative_2", "negative_1", "negative_2"];
             }
             else if (startGame.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
@@ -706,7 +706,7 @@ export default class NewClass extends cc.Component {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                 }
                 else {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                 }
             }
             if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
@@ -722,7 +722,7 @@ export default class NewClass extends cc.Component {
                                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             }
                             else {
-                                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             }
                         }
                         //console.log("characterDisappear--Podar_Jumbo");
