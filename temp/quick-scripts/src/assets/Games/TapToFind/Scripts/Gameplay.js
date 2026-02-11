@@ -149,7 +149,12 @@ var Gameplay = /** @class */ (function (_super) {
                             return;
                         }
                         var spriteFrame = new cc.SpriteFrame(texture);
-                        _this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        if (_this.optionsLayout == "layout3") {
+                            _this.options.getChildByName((i + 1).toString()).getChildByName("img2").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        }
+                        else {
+                            _this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        }
                     });
                 }
                 else {
@@ -162,7 +167,7 @@ var Gameplay = /** @class */ (function (_super) {
                         return;
                     }
                     var spriteFrame = new cc.SpriteFrame(texture);
-                    _this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    _this.options.getChildByName((i + 1).toString()).getChildByName("img2").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             };
             var this_1 = this;
@@ -202,7 +207,7 @@ var Gameplay = /** @class */ (function (_super) {
                     this_3.options.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
                 }
                 this_3.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].optionsBg[i], function (spriteFrame) {
-                    _this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    _this.options.getChildByName((i + 1).toString()).getChildByName("img2").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             };
             var this_3 = this;
@@ -472,10 +477,10 @@ var Gameplay = /** @class */ (function (_super) {
             _clone.parent = node;
             _clone.setPosition(0, 0);
             _clone.setParentWithSamePos(this.node);
-            _clone.children[0].active = true;
-            _clone.children[0].opacity = 0;
+            _clone.children[3].active = true;
+            _clone.children[3].opacity = 0;
             node.active = false;
-            cc.tween(_clone.children[0])
+            cc.tween(_clone.children[3])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
                 .call(function () {
                 if (_this.reiterationAudio[audioNum]) {
@@ -684,6 +689,9 @@ var Gameplay = /** @class */ (function (_super) {
                 }, _this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration);
             }, 0.5);
         }, 0.7);
+    };
+    Gameplay.prototype.SoundButton = function () {
+        cc.audioEngine.playEffect(this.questionAudio, false);
     };
     Gameplay.prototype.arrangeChildren = function (centerNode, spacing) {
         var children = centerNode.children;

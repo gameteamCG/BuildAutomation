@@ -143,7 +143,12 @@ export default class Gameplay extends cc.Component {
                             return;
                         }
                         const spriteFrame = new cc.SpriteFrame(texture);
-                        this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        if (this.optionsLayout == "layout3") {
+                            this.options.getChildByName((i + 1).toString()).getChildByName("img2").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        }
+                        else {
+                            this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        }
                     });
                 }
                 else {
@@ -156,7 +161,7 @@ export default class Gameplay extends cc.Component {
                         return;
                     }
                     const spriteFrame = new cc.SpriteFrame(texture);
-                    this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    this.options.getChildByName((i + 1).toString()).getChildByName("img2").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             }
         }
@@ -190,7 +195,8 @@ export default class Gameplay extends cc.Component {
                     this.options.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[startGame.Instance.currentLevel - 1].options[i];
                 }
                 this.loadSpriteFrame(startGame.Instance.questions[startGame.Instance.currentLevel - 1].optionsBg[i], (spriteFrame) => {
-                    this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    this.options.getChildByName((i + 1).toString()).getChildByName("img2").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+
                 });
             }
         }
@@ -456,10 +462,10 @@ export default class Gameplay extends cc.Component {
             _clone.parent = node;
             _clone.setPosition(0, 0);
             _clone.setParentWithSamePos(this.node);
-            _clone.children[0].active = true;
-            _clone.children[0].opacity = 0;
+            _clone.children[3].active = true;
+            _clone.children[3].opacity = 0;
             node.active = false;
-            cc.tween(_clone.children[0])
+            cc.tween(_clone.children[3])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
                 .call(() => {
                     if (this.reiterationAudio[audioNum]) {
@@ -674,7 +680,9 @@ export default class Gameplay extends cc.Component {
             }, 0.5);
         }, 0.7)
     }
-
+    SoundButton() {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    }
     arrangeChildren(centerNode: cc.Node, spacing: number) {
         let children = centerNode.children;
         let totalWidth = 0;
