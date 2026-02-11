@@ -29,7 +29,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
@@ -411,6 +412,7 @@ var Gameplay = /** @class */ (function (_super) {
             this.scheduleOnce(function () {
                 _clone_1.getComponent(cc.Animation).stop();
                 _clone_1.angle = 0;
+                _clone_1.scale = 0.6;
                 if (_this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
                 }

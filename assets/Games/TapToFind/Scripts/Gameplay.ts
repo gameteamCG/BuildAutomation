@@ -5,7 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -390,10 +391,14 @@ export default class Gameplay extends cc.Component {
             _clone.getComponent(cc.Animation).stop();
             _clone.angle = 0;
             let pos = _clone.getPosition();
+
             cc.tween(_clone).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
             this.scheduleOnce(() => {
+
                 _clone.getComponent(cc.Animation).stop();
                 _clone.angle = 0;
+                _clone.scale = 0.6;
+
                 if (this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
                 }

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Artboard 9",
+    "texture": "dfd61481-d406-43d4-b80a-6120f2181d64",
+    "atlas": "",
+    "rect": [
+      142,
+      7,
+      190,
+      490
+    ],
+    "offset": [
+      -13.5,
+      -1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
