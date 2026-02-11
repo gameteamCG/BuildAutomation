@@ -233,7 +233,7 @@ var Gameplay = /** @class */ (function (_super) {
                     _this.scheduleOnce(function () {
                         var element = _this.options.children[i];
                         var pos = element.getPosition();
-                        element.setPosition(pos.x, pos.y - 850);
+                        element.setPosition(pos.x, pos.y - 1000);
                         element.active = true;
                         cc.audioEngine.playEffect(_this.pop_audio, false);
                         cc.tween(element).to(0.65, { y: pos.y }, { easing: "sineInOut" }).start();
