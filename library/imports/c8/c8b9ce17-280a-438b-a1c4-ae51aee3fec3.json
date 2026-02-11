@@ -7,8 +7,8 @@
     "additionalData": {
       "GameID": "First letter_SCIS",
       "totalLevel": "7",
-      "TitleImageName": "Asset245.png",
-      "introBgName": "introbg.png",
+      "TitleImageName": "Asset 1 (10).png",
+      "introBgName": "bgtitlemain.png",
       "bgmMusicName": "BGM_1.mp3",
       "mainBgName": "bg.png",
       "JockeyName": "Puzzle"
@@ -18,7 +18,7 @@
         "questionText": "First letter",
         "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Asset23.png",
+        "commonOptionImageName": "Asset 1.png",
         "commonDropNodeImageName": "Asset22.png",
         "isDropAreaText": false,
         "dropAreas": [
@@ -34,14 +34,14 @@
         "options": [
           "turtle.png",
           "walrus.png",
-          "yak.png"
+          "vulture.png"
         ]
       },
       {
         "questionText": "First letter",
         "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Asset23.png",
+        "commonOptionImageName": "Asset 1.png",
         "commonDropNodeImageName": "Asset22.png",
         "isDropAreaText": false,
         "dropAreas": [
@@ -64,7 +64,7 @@
         "questionText": "First letter",
         "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Asset23.png",
+        "commonOptionImageName": "Asset 1.png",
         "commonDropNodeImageName": "Asset22.png",
         "isDropAreaText": false,
         "dropAreas": [
@@ -87,21 +87,21 @@
         "questionText": "First letter",
         "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Asset23.png",
+        "commonOptionImageName": "Asset 1.png",
         "commonDropNodeImageName": "Asset22.png",
         "isDropAreaText": false,
         "dropAreas": [
-          "Artboard37opy10.png",
+          "Artboard 1 copy 13.png",
           "Artboard37copy11.png"
         ],
         "reiterationAudios": [
-          "yyoyo.mp3",
+          "cc carrot.mp3",
           "vvulture.mp3"
         ],
         "numberOfOptions": 3,
         "isOptionText": false,
         "options": [
-          "yoyo.png",
+          "Artboard 15.png",
           "vulture.png",
           "duck.png"
         ]
@@ -110,7 +110,7 @@
         "questionText": "First letter",
         "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Asset23.png",
+        "commonOptionImageName": "Asset 1.png",
         "commonDropNodeImageName": "Asset22.png",
         "isDropAreaText": false,
         "dropAreas": [
@@ -133,7 +133,7 @@
         "questionText": "First letter",
         "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Asset23.png",
+        "commonOptionImageName": "Asset 1.png",
         "commonDropNodeImageName": "Asset22.png",
         "isDropAreaText": false,
         "dropAreas": [
@@ -156,21 +156,21 @@
         "questionText": "First letter",
         "questionAudioName": "dragandmatchthepicturetothecorrectfirstletter.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Asset23.png",
+        "commonOptionImageName": "Asset 1.png",
         "commonDropNodeImageName": "Asset22.png",
         "isDropAreaText": false,
         "dropAreas": [
-          "Artboard33copy2.png",
+          "Artboard 1 copy 14.png",
           "Artboard_3.png"
         ],
         "reiterationAudios": [
-          "zzoo.mp3",
+          "l lamp.mp3",
           "a_alligator.mp3"
         ],
         "numberOfOptions": 3,
         "isOptionText": false,
         "options": [
-          "zoo.png",
+          "Artboard 16.png",
           "alligator.png",
           "walrus.png"
         ]
