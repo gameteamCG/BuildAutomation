@@ -176,7 +176,10 @@ export default class GamePlay extends cc.Component {
             this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
         }, 1);
     }
+    soundButton() {
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
 
+    }
 
     // update (dt) {}
 

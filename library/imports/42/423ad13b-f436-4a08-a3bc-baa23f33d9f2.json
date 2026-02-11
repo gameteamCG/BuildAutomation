@@ -334,8 +334,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1929,
-      "height": 1287
+      "width": 1921,
+      "height": 1081
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -386,7 +386,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "6876eaee-38a9-4795-b8e8-cbd5843b9ed5"
+    },
     "_type": 0,
     "_sizeMode": 2,
     "_fillType": 0,
@@ -439,8 +441,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 637,
-      "height": 127
+      "width": 537,
+      "height": 113
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -451,8 +453,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -180,
-        -100,
+        27.185,
+        -164.577,
         0,
         0,
         0,
@@ -514,7 +516,7 @@
       "ctor": "Float64Array",
       "array": [
         -9.772,
-        251.506,
+        176.166,
         0,
         0,
         0,
@@ -608,14 +610,14 @@
       "ctor": "Float64Array",
       "array": [
         -229.772,
-        181.208,
+        140.847,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        0.8,
+        0.8,
         1
       ]
     },
@@ -702,14 +704,14 @@
       "ctor": "Float64Array",
       "array": [
         210.228,
-        181.208,
+        140.847,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        0.8,
+        0.8,
         1
       ]
     },
@@ -777,7 +779,7 @@
       "__uuid__": "fc36cf80-2f5d-465a-9213-edcc5b76c0a2"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -786,7 +788,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "c4kg8BNuZLha/F3lwrQsbi"
   },
@@ -821,7 +823,7 @@
         "__id__": 18
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 21
@@ -1022,7 +1024,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "a23235d1-15db-4b95-8439-a2e005bfff91"
+      "__uuid__": "6876eaee-38a9-4795-b8e8-cbd5843b9ed5"
     },
     "_type": 0,
     "_sizeMode": 0,

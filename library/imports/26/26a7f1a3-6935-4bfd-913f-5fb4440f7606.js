@@ -186,6 +186,9 @@ var GamePlay = /** @class */ (function (_super) {
             _this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
         }, 1);
     };
+    GamePlay.prototype.soundButton = function () {
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
+    };
     // update (dt) {}
     GamePlay.prototype.addDrawing = function () {
         var _this = this;
