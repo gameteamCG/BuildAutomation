@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5f448395-0022-4444-b800-2933e79a813c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "Hospital": {
+      "ver": "1.0.6",
+      "uuid": "fd065385-fb5e-4919-a356-74cb0f862dbb",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5f448395-0022-4444-b800-2933e79a813c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1.5,
+      "offsetY": -12,
+      "trimX": 32,
+      "trimY": 161,
+      "width": 434,
+      "height": 203,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

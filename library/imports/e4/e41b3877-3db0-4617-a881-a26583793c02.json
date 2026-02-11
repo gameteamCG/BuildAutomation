@@ -5,163 +5,88 @@
   "_native": "",
   "json": {
     "additionalData": {
-      "GameID": "doctor_fs1_new_r352",
-      "totalLevel": "10",
+      "GameID": "Jobs_people_do_r347_EYFS_FIX",
+      "totalLevel": "5",
       "TitleImageName": "doctorset.png",
-      "introBgName": "NURSE.png",
-      "bgmMusicName": "hksmi.mp3",
-      "mainBgName": "BG.png",
+      "introBgName": "bg-composite.png",
+      "bgmMusicName": "bgm17.mp3",
+      "mainBgName": "bg.png",
       "JockeyName": "Puzzle"
     },
     "questionData": [
       {
-        "questionText": "doctor set",
-        "questionImageName": "1.png",
-        "questionAudioName": "whatwillyoudoifyouhaveafingercut.mp3",
+        "questionText": "Jobs people do",
+        "questionImageName": "Farmer.png",
+        "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Artboard3copy10.png",
+        "commonOptionImageName": "Option.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "1_b.png",
-          "1_a.png"
+          "Farm.png",
+          "FireStation.png"
         ],
-        "correctAudioName": "cleanthewoundandapplyaband-aid.mp3",
-        "correctAnswerNum": "2"
-      },
-      {
-        "questionText": "doctor set",
-        "questionImageName": "2.png",
-        "questionAudioName": "whatwillyoudoifyouhavehighfever.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Artboard3copy10.png",
-        "isOptionText": false,
-        "numberOfOptions": 2,
-        "options": [
-          "2_a.png",
-          "2_b.png"
-        ],
-        "correctAudioName": "checkusingathermometer.mp3",
+        "correctAudioName": "farmer_ans.mp3",
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "doctor set",
-        "questionImageName": "3.png",
-        "questionAudioName": "whatwillyoudoifyougetabruisefromfallingoffthebike.mp3",
+        "questionText": "Jobs people do",
+        "questionImageName": "Nurse.png",
+        "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Artboard3copy10.png",
+        "commonOptionImageName": "Option.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "3_a.png",
-          "3_b.png"
+          "PoliceStation.png",
+          "Hospital.png"
         ],
-        "correctAudioName": "cleanthewoundandapplyanantisepticointment.mp3",
+        "correctAudioName": "doctor_ans.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Jobs people do",
+        "questionImageName": "Police.png",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Option.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "School.png",
+          "PoliceStation.png"
+        ],
+        "correctAudioName": "police_ans.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Jobs people do",
+        "questionImageName": "Teacher.png",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Option.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "School.png",
+          "Farm.png"
+        ],
+        "correctAudioName": "teacher_ans.mp3",
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "doctor set",
-        "questionImageName": "4.png",
-        "questionAudioName": "whatwillyoudoifyouhaveswellingandpain.mp3",
+        "questionText": "Jobs people do",
+        "questionImageName": "Fireman.png",
+        "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Artboard3copy10.png",
+        "commonOptionImageName": "Option.png",
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "4_a.png",
-          "4_b.png"
+          "FireStation.png",
+          "Hospital.png"
         ],
-        "correctAudioName": "coolingicepack.mp3",
-        "correctAnswerNum": "1"
-      },
-      {
-        "questionText": "doctor set",
-        "questionImageName": "5.png",
-        "questionAudioName": "whatwillyoudoifyouhaveaminorburn.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Artboard3copy10.png",
-        "isOptionText": false,
-        "numberOfOptions": 2,
-        "options": [
-          "5_b.png",
-          "5_a.png"
-        ],
-        "correctAudioName": "runcoldwaterovertheburn.mp3",
-        "correctAnswerNum": "2"
-      },
-      {
-        "questionText": "doctor set",
-        "questionImageName": "6.png",
-        "questionAudioName": "whatwillyoudoifyouhaveaheadache.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Artboard3copy10.png",
-        "isOptionText": false,
-        "numberOfOptions": 2,
-        "options": [
-          "6_a.png",
-          "6_b.png"
-        ],
-        "correctAudioName": "takerestandstayhydrated.mp3",
-        "correctAnswerNum": "1"
-      },
-      {
-        "questionText": "doctor set",
-        "questionImageName": "7.png",
-        "questionAudioName": "whatwillyoudoifyouhaveasmallrash.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Artboard3copy10.png",
-        "isOptionText": false,
-        "numberOfOptions": 2,
-        "options": [
-          "7_b.png",
-          "7_a.png"
-        ],
-        "correctAudioName": "soothinglotion.mp3",
-        "correctAnswerNum": "2"
-      },
-      {
-        "questionText": "doctor set",
-        "questionImageName": "8.png",
-        "questionAudioName": "whatwillyoudoifyouhaveabrokenarm.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Artboard3copy10.png",
-        "isOptionText": false,
-        "numberOfOptions": 2,
-        "options": [
-          "8_b.png",
-          "8_a.png"
-        ],
-        "correctAudioName": "wrapbandagewithasling.mp3",
-        "correctAnswerNum": "2"
-      },
-      {
-        "questionText": "doctor set",
-        "questionImageName": "9.png",
-        "questionAudioName": "whatwillyoudoifyouhaveacoughandcold.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Artboard3copy10.png",
-        "isOptionText": false,
-        "numberOfOptions": 2,
-        "options": [
-          "9_b.png",
-          "9_a.png"
-        ],
-        "correctAudioName": "givemedicine.mp3",
-        "correctAnswerNum": "2"
-      },
-      {
-        "questionText": "doctor set",
-        "questionImageName": "10.png",
-        "questionAudioName": "whatwillyoudoifyouhaveaStomachache.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Artboard3copy10.png",
-        "isOptionText": false,
-        "numberOfOptions": 2,
-        "options": [
-          "10_a.png",
-          "10_b.png"
-        ],
-        "correctAudioName": "yogrt.mp3",
+        "correctAudioName": "fireman_ans.mp3",
         "correctAnswerNum": "1"
       }
     ]

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "PoliceStation",
+    "texture": "9f6f7a53-5fd4-4cca-9ed0-cfd2484658b7",
+    "atlas": "",
+    "rect": [
+      53,
+      118,
+      393,
+      276
+    ],
+    "offset": [
+      -1,
+      -5.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
