@@ -34,7 +34,7 @@
         "options": [
           "turtle.png",
           "walrus.png",
-          "vulture.png"
+          "vulturenew.png"
         ]
       },
       {
@@ -57,7 +57,7 @@
         "options": [
           "egg.png",
           "bee.png",
-          "kettle1.png"
+          "kettle1new.png"
         ]
       },
       {
@@ -80,7 +80,7 @@
         "options": [
           "strawbeery.png",
           "quil.png",
-          "vulture.png"
+          "vulturenew.png"
         ]
       },
       {
@@ -102,7 +102,7 @@
         "isOptionText": false,
         "options": [
           "new_carrott.png",
-          "vulture.png",
+          "vulturenew.png",
           "duck.png"
         ]
       },
@@ -148,7 +148,7 @@
         "isOptionText": false,
         "options": [
           "house.png",
-          "kettle1.png",
+          "kettle1new.png",
           "egg.png"
         ]
       },
