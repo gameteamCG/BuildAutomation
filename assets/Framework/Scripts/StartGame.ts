@@ -20,6 +20,7 @@ interface AdditionalData {
 
 interface QuestionData {
     questionText: string;
+    AnsText: string;
     questionImageName: string;
     questionAudioName: string;
     shouldPlayQuestionAudio: boolean;

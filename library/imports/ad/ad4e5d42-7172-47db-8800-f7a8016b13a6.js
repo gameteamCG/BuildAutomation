@@ -688,10 +688,9 @@ var NewClass = /** @class */ (function (_super) {
                         var thirdBox = _this.node.getChildByName("QuestionBox1").getChildByName("ThirdObject");
                         var xRandom = _this.getRandomNumber(-thirdBox.width / 4, thirdBox.width / 4);
                         _this.node.getChildByName("QuestionBox1").getChildByName(imgName).scale = imgScale;
-                        //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
-                        //cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: 0 }, { easing: "sineInOut" }).start();
-                        cc.tween(_this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 104)).start();
-                        cc.tween(_this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 0.5 }, { easing: "sineInOut" }).start();
+                        _this.node.getChildByName("QuestionBox1").getChildByName(imgName).bezierMoveNode(cc.v2(50, -70), 50, 1);
+                        // cc.tween(this.node.getChildByName("QuestionBox1").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(-50, pos.y + 200), cc.v2(-50, pos.y + 200)).start();
+                        cc.tween(_this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: 0 }, { easing: "sineInOut" }).start();
                         _this.scheduleOnce(function () {
                             _node.destroy();
                             _this.canTouch = true;
