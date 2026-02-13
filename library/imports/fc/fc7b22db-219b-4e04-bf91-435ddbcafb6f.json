@@ -35,8 +35,8 @@
         "correctAudioName": "EXCELLENTJOB.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "W SAYS WW.mp3",
-          "W SAYS WW.mp3"
+          "w.mp3",
+          "w.mp3"
         ],
         "correctAnswerNum": "14"
       },
@@ -86,15 +86,15 @@
         "correctAudioName": "GOODEFFORT.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
         "reiterationAudioName": [
-          "W SAYS WW.mp3",
-          "W SAYS WW.mp3"
+          "w.mp3",
+          "w.mp3"
         ],
         "correctAnswerNum": "13"
       },
       {
         "questionLayout": "layout3",
         "questionBgName": "Asset 28.png",
-        "questionAudioName": "Tap on the picture that begins with letter sound w.mp3",
+        "questionAudioName": "tap on the whale with the letter sound ww.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
@@ -137,15 +137,15 @@
         "correctAudioName": "EXCEPTIONAL.mp3",
         "wrongAudioName": "ohoh.mp3",
         "reiterationAudioName": [
-          "W SAYS WW.mp3",
-          "W SAYS WW.mp3"
+          "w.mp3",
+          "w.mp3"
         ],
         "correctAnswerNum": "14"
       },
       {
         "questionLayout": "layout3",
         "questionBgName": "aafafaf.png",
-        "questionAudioName": "Tap on the picture that begins with letter sound w.mp3",
+        "questionAudioName": "tap on the watch with the letter sound ww.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,

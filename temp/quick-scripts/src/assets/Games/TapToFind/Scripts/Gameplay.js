@@ -307,7 +307,7 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            this.arrangeGridChildren(this.options, 150, _optionCount);
         }
         else {
             this.arrangeChildren(this.options, 80);
