@@ -11,7 +11,7 @@
     },
     "questionData": [
         {
-            "questionText": "colour white",
+            "questionText": "Colour white",
             "questionImageName": "treasure.png",
             "questionAudioName": "Selecttheobjectthatiswhiteincolour.mp3",
             "shouldPlayQuestionAudio": true,
@@ -31,7 +31,7 @@
             "correctAnswerNum": "1"
         },
         {
-            "questionText": "colour white",
+            "questionText": "Colour white",
             "questionImageName": "treasure.png",
             "questionAudioName": "Selecttheobjectthatiswhiteincolour.mp3",
             "shouldPlayQuestionAudio": true,
@@ -51,7 +51,7 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "colour white",
+            "questionText": "Colour white",
             "questionImageName": "treasure.png",
             "questionAudioName": "Selecttheobjectthatiswhiteincolour.mp3",
             "shouldPlayQuestionAudio": true,
@@ -71,7 +71,7 @@
             "correctAnswerNum": "4"
         },
         {
-            "questionText": "colour white",
+            "questionText": "Colour white",
             "questionImageName": "treasure.png",
             "questionAudioName": "Selecttheobjectthatiswhiteincolour.mp3",
             "shouldPlayQuestionAudio": true,
@@ -91,7 +91,7 @@
             "correctAnswerNum": "3"
         },
         {
-            "questionText": "colour white",
+            "questionText": "Colour white",
             "questionImageName": "treasure.png",
             "questionAudioName": "Selecttheobjectthatiswhiteincolour.mp3",
             "shouldPlayQuestionAudio": true,
@@ -111,7 +111,7 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "colour white",
+            "questionText": "Colour white",
             "questionImageName": "treasure.png",
             "questionAudioName": "Selecttheobjectthatiswhiteincolour.mp3",
             "shouldPlayQuestionAudio": true,
