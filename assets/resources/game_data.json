@@ -1,88 +1,73 @@
 {
-    "additionalData": {
-        "GameID": "Jobs_people_do_r347_EYFS_FIX",
-        "totalLevel": "5",
-        "TitleImageName": "doctorset.png",
-        "introBgName": "bg-composite.png",
-        "bgmMusicName": "bgm17.mp3",
-        "mainBgName": "bg.png",
-        "JockeyName": "Puzzle"
+  "additionalData": {
+    "GameID": "Jobs_people_do_r347_EYFS_FIX",
+    "totalLevel": "5",
+    "TitleImageName": "doctorset.png",
+    "introBgName": "bg-composite.png",
+    "bgmMusicName": "bgm17.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Puzzle"
+  },
+  "questionData": [
+    {
+      "questionText": "Farmer",
+      "questionImageName": "Farmer.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Option.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": ["Farm.png", "FireStation.png"],
+      "correctAudioName": "farmer_ans.mp3",
+      "correctAnswerNum": "1"
     },
-    "questionData": [
-        {
-            "questionText": "Jobs people do",
-            "questionImageName": "Farmer.png",
-            "questionAudioName": "QVO.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "Option.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "Farm.png",
-                "FireStation.png"
-            ],
-            "correctAudioName": "farmer_ans.mp3",
-            "correctAnswerNum": "1"
-        },
-        {
-            "questionText": "Jobs people do",
-            "questionImageName": "Nurse.png",
-            "questionAudioName": "QVO.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "Option.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "PoliceStation.png",
-                "Hospital.png"
-            ],
-            "correctAudioName": "doctor_ans.mp3",
-            "correctAnswerNum": "2"
-        },
-        {
-            "questionText": "Jobs people do",
-            "questionImageName": "Police.png",
-            "questionAudioName": "QVO.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "Option.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "School.png",
-                "PoliceStation.png"
-            ],
-            "correctAudioName": "police_ans.mp3",
-            "correctAnswerNum": "2"
-        },
-        {
-            "questionText": "Jobs people do",
-            "questionImageName": "Teacher.png",
-            "questionAudioName": "QVO.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "Option.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "School.png",
-                "Farm.png"
-            ],
-            "correctAudioName": "teacher_ans.mp3",
-            "correctAnswerNum": "1"
-        },
-        {
-            "questionText": "Jobs people do",
-            "questionImageName": "Fireman.png",
-            "questionAudioName": "QVO.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "Option.png",
-            "isOptionText": false,
-            "numberOfOptions": 2,
-            "options": [
-                "FireStation.png",
-                "Hospital.png"
-            ],
-            "correctAudioName": "fireman_ans.mp3",
-            "correctAnswerNum": "1"
-        }
-    ]
+    {
+      "questionText": "Doctor",
+      "questionImageName": "Nurse.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Option.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": ["PoliceStation.png", "Hospital.png"],
+      "correctAudioName": "doctor_ans.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Police officer",
+      "questionImageName": "Police.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Option.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": ["School.png", "PoliceStation.png"],
+      "correctAudioName": "police_ans.mp3",
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "Teacher",
+      "questionImageName": "Teacher.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Option.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": ["School.png", "Farm.png"],
+      "correctAudioName": "teacher_ans.mp3",
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "Fire fighter",
+      "questionImageName": "Fireman.png",
+      "questionAudioName": "QVO.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "Option.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": ["FireStation.png", "Hospital.png"],
+      "correctAudioName": "fireman_ans.mp3",
+      "correctAnswerNum": "1"
+    }
+  ]
 }

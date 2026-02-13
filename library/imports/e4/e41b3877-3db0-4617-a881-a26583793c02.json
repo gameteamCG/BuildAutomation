@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "Jobs people do",
+        "questionText": "Farmer",
         "questionImageName": "Farmer.png",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
@@ -30,7 +30,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Jobs people do",
+        "questionText": "Doctor",
         "questionImageName": "Nurse.png",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
@@ -45,7 +45,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Jobs people do",
+        "questionText": "Police officer",
         "questionImageName": "Police.png",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
@@ -60,7 +60,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Jobs people do",
+        "questionText": "Teacher",
         "questionImageName": "Teacher.png",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
@@ -75,7 +75,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Jobs people do",
+        "questionText": "Fire fighter",
         "questionImageName": "Fireman.png",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
