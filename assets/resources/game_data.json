@@ -30,15 +30,15 @@
       "correctAudioName": "positive_1.mp3",
       "wrongAudioName": "negative_1.mp3",
       "reiterationAudioName": [
-        "R1-R3-R5.mp3",
-        "R1-R3-R5.mp3"
+        "q question mark.mp3",
+        "q question mark.mp3"
       ],
       "correctAnswerNum": "34"
     },
     {
       "questionLayout": "layout3",
       "questionBgName": "Bg2.png",
-      "questionAudioName": "L2-L4-L6.mp3",
+      "questionAudioName": "L2.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 3,
@@ -55,7 +55,7 @@
       "correctAudioName": "positive_2.mp3",
       "wrongAudioName": "negative_2.mp3",
       "reiterationAudioName": [
-        "R2.mp3"
+        "q quiver.mp3"
       ],
       "correctAnswerNum": "3"
     },
@@ -79,15 +79,15 @@
       "correctAudioName": "positive_3.mp3",
       "wrongAudioName": "negative_1.mp3",
       "reiterationAudioName": [
-        "R1-R3-R5.mp3",
-        "R1-R3-R5.mp3"
+        "q quill.mp3",
+        "q quill.mp3"
       ],
       "correctAnswerNum": "12"
     },
     {
       "questionLayout": "layout3",
       "questionBgName": "bg4.png",
-      "questionAudioName": "L2-L4-L6.mp3",
+      "questionAudioName": "L4.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 3,
@@ -104,7 +104,7 @@
       "correctAudioName": "positive_4.mp3",
       "wrongAudioName": "negative_2.mp3",
       "reiterationAudioName": [
-        "R6.mp3"
+        "q queen.mp3"
       ],
       "correctAnswerNum": "1"
     },
@@ -128,15 +128,15 @@
       "correctAudioName": "positive_5.mp3",
       "wrongAudioName": "negative_1.mp3",
       "reiterationAudioName": [
-        "R1-R3-R5.mp3",
-        "R1-R3-R5.mp3"
+        "q quail.mp3",
+        "q quail.mp3"
       ],
       "correctAnswerNum": "13"
     },
     {
       "questionLayout": "layout3",
       "questionBgName": "bg6.png",
-      "questionAudioName": "L2-L4-L6.mp3",
+      "questionAudioName": "L6.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 3,
@@ -153,7 +153,7 @@
       "correctAudioName": "positive_6.mp3",
       "wrongAudioName": "negative_2.mp3",
       "reiterationAudioName": [
-        "R4.mp3"
+        "q quilt.mp3"
       ],
       "correctAnswerNum": "2"
     }
