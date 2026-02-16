@@ -1,6 +1,4 @@
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
 import startGame from "../../../Framework/Scripts/StartGame";
-import globalVariables from "./globalVariables";
 
 const { ccclass, property } = cc._decorator;
 

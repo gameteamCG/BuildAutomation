@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "count and write 1-5",
+      "totalLevel": "5",
+      "TitleImageName": "Asset 123.png",
+      "introBgName": "Bg(8)-min.png",
+      "bgmMusicName": "B2.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Counting",
+        "questionAudioName": "match the number of objects to the correct number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "5-gem.png"
+        ],
+        "reiterations": [
+          "05.mp3"
+        ],
+        "commonRightOptionImageName": "puz.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "5",
+          "2"
+        ]
+      },
+      {
+        "questionText": "Counting",
+        "questionAudioName": "match the number of objects to the correct number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "3gem.png"
+        ],
+        "reiterations": [
+          "03.mp3"
+        ],
+        "commonRightOptionImageName": "puz.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "3.png",
+          "4.png"
+        ]
+      },
+      {
+        "questionText": "Counting",
+        "questionAudioName": "match the number of objects to the correct number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "1gem.png"
+        ],
+        "reiterations": [
+          "01.mp3"
+        ],
+        "commonRightOptionImageName": "puz.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "1.png",
+          "5.png"
+        ]
+      },
+      {
+        "questionText": "Counting",
+        "questionAudioName": "match the number of objects to the correct number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "2gem.png"
+        ],
+        "reiterations": [
+          "02.mp3"
+        ],
+        "commonRightOptionImageName": "puz.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "2.png",
+          "4.png"
+        ]
+      },
+      {
+        "questionText": "Counting",
+        "questionAudioName": "match the number of objects to the correct number.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "puz2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "4gems.png"
+        ],
+        "reiterations": [
+          "04.mp3"
+        ],
+        "commonRightOptionImageName": "puz.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "4.png",
+          "1.png"
+        ]
+      }
+    ]
+  }
+}
