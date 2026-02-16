@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\DoctorSet_SRKG",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
