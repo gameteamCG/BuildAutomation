@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "summer season",
+        "questionText": "Summer season",
         "questionImageName": "bucket_4.png",
         "questionAudioName": "what_do_you_wear_to_protect_your_eyes_during_summer_season.mp3",
         "shouldPlayQuestionAudio": true,
@@ -34,7 +34,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "summer season",
+        "questionText": "Summer season",
         "questionImageName": "bucket_4.png",
         "questionAudioName": "q2.mp3",
         "shouldPlayQuestionAudio": true,
@@ -53,7 +53,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "summer season",
+        "questionText": "Summer season",
         "questionImageName": "bucket_4.png",
         "questionAudioName": "capQ.mp3",
         "shouldPlayQuestionAudio": true,
@@ -72,7 +72,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "summer season",
+        "questionText": "Summer season",
         "questionImageName": "bucket_4.png",
         "questionAudioName": "warmnhot.mp3",
         "shouldPlayQuestionAudio": true,
@@ -91,7 +91,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "summer season",
+        "questionText": "Summer season",
         "questionImageName": "bucket_4.png",
         "questionAudioName": "flowersbloom.mp3",
         "shouldPlayQuestionAudio": true,
@@ -110,7 +110,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "summer season",
+        "questionText": "Summer season",
         "questionImageName": "bucket_4.png",
         "questionAudioName": "vegieripe.mp3",
         "shouldPlayQuestionAudio": true,
