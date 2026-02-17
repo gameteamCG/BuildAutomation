@@ -1,0 +1,116 @@
+{
+  "additionalData": {
+    "GameID": "number 14",
+    "totalLevel": "6",
+    "TitleImageName": "title.png",
+    "introBgName": "bg-composite.png",
+    "bgmMusicName": "bgm2.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "Puzzle",
+    "templateType": "SimpleTap"
+  },
+  "questionData": [
+    {
+      "questionText": "14",
+      "questionAudioName": "l1-q",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "L1_a.png",
+        "L1_w.png"
+      ],
+      "correctAudios": [
+        "l1-a.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "14",
+      "questionAudioName": "l2-q",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "L2_w.png",
+        "L2_a.png"
+      ],
+      "correctAudios": [
+        "l2-a.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "14",
+      "questionAudioName": "l3-q",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "L3_w.png",
+        "L3_a.png"
+      ],
+      "correctAudios": [
+        "l3-a.mp3"
+      ],
+      "correctAnswerNum": "2"
+    },
+    {
+      "questionText": "14",
+      "questionAudioName": "l4-q",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "L4_a.png",
+        "L4_w.png"
+      ],
+      "correctAudios": [
+        "l4-a.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "14",
+      "questionAudioName": "l5-q",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "L5_a.png",
+        "L5_w.png"
+      ],
+      "correctAudios": [
+        "l5-a.mp3"
+      ],
+      "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "14",
+      "questionAudioName": "l6-q",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "option.png",
+      "isOptionText": false,
+      "isOptionBG": true,
+      "numberOfOptions": 2,
+      "options": [
+        "L6_a.png",
+        "L6_w.png"
+      ],
+      "correctAudios": [
+        "l6-a.mp3"
+      ],
+      "correctAnswerNum": "1"
+    }
+  ]
+}
