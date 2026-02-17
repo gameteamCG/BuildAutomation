@@ -291,7 +291,7 @@ var NewClass = /** @class */ (function (_super) {
         // this.node.getChildByName("questionPanel").opacity = 255;
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
-        this.node.getChildByName("QuestionBox").setPosition(cc.v2(-1500, -200));
+        this.node.getChildByName("QuestionBox").setPosition(cc.v2(-1500, -100));
         this.node.getChildByName("QuestionBox").scale = 1;
         this.scheduleOnce(function () {
             _this.scheduleOnce(function () {
@@ -303,7 +303,7 @@ var NewClass = /** @class */ (function (_super) {
                 var QuestionBox1 = cc.instantiate(_this.node.getChildByName("QuestionBox"));
                 QuestionBox1.name = "QuestionBox1";
                 QuestionBox1.setParent(_this.node);
-                _this.node.getChildByName("QuestionBox1").setPosition(cc.v2(-300, -200));
+                _this.node.getChildByName("QuestionBox1").setPosition(cc.v2(-300, -100));
                 _this.scheduleOnce(function () {
                     _this.callOptionIn();
                 }, 0.2);
@@ -548,7 +548,8 @@ var NewClass = /** @class */ (function (_super) {
         var thirdBox = this.node.getChildByName("QuestionBox").getChildByName("ThirdObject");
         var xRandom = this.getRandomNumber(-thirdBox.width / 4, thirdBox.width / 4);
         this.node.getChildByName("QuestionBox").getChildByName(imgName).scale = this.node.getChildByName("QuestionBox").getChildByName(imgName).scale - (this.node.getChildByName("QuestionBox").getChildByName(imgName).scale * 0.2);
-        cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
+        cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(0, 0)).start();
+        // cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
         cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).to(0.7, { scale: 0.3 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             //console.log("correctAudio : ", this.correctAudio)
