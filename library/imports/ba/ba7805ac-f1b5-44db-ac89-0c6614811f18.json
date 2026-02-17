@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "usesofbodyparts",
+    "texture": "a81139be-a947-451b-b2ad-25b9edf1ef82",
+    "atlas": "",
+    "rect": [
+      2,
+      7,
+      537,
+      193
+    ],
+    "offset": [
+      -1,
+      1.5
+    ],
+    "originalSize": [
+      543,
+      210
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
