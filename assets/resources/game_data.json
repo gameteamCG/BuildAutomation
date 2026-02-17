@@ -86,7 +86,7 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "Summer season",
+            "questionText": "Spring season",
             "questionImageName": "bucket_4.png",
             "questionAudioName": "flowersbloom.mp3",
             "shouldPlayQuestionAudio": true,

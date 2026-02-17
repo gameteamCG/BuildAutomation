@@ -1770,8 +1770,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Scripts\\globalVariables.ts"
   },
   "cf4e36d8-89d2-4945-a198-67e319127411": {
-    "asset": 1771321587653,
-    "meta": 1771321587658,
+    "asset": 1771321882673,
+    "meta": 1771321882679,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\1.fire"
   },
   "ecc793e4-0368-4d2b-844b-75e10c5c7cb4": {
@@ -3350,8 +3350,8 @@
     "relativePath": "resources\\images\\summer.png"
   },
   "8184e71b-fe7e-4175-a5c5-cc0f200550eb": {
-    "asset": 1771321584739,
-    "meta": 1771321586699,
+    "asset": 1771321875960,
+    "meta": 1771321881900,
     "relativePath": "resources\\game_data.json"
   }
 }
