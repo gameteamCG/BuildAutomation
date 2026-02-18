@@ -1280,8 +1280,8 @@
     "relativePath": "Games\\TapToFind\\Animations"
   },
   "1884db93-7f63-45f1-b4ea-a8441f737895": {
-    "asset": 1771412795042,
-    "meta": 1771415438861,
+    "asset": 1771416372794,
+    "meta": 1771416914149,
     "relativePath": "Games\\TapToFind\\Assets"
   },
   "522b520f-ea62-47a7-950e-e78dce5e05e8": {
@@ -1530,14 +1530,9 @@
     "relativePath": "Games\\TapToFind\\Scenes\\1.fire"
   },
   "02bf612b-abaf-4827-9882-4f6715868e4b": {
-    "asset": 1771416135872,
-    "meta": 1771416135875,
+    "asset": 1771417114873,
+    "meta": 1771417114877,
     "relativePath": "Games\\TapToFind\\Scenes\\gameEnd.fire"
-  },
-  "181c546f-c391-4c45-8047-30e4148a66ee": {
-    "asset": 1771412615303,
-    "meta": 1771415439793,
-    "relativePath": "Games\\TapToFind\\Scripts\\EndScreen.ts"
   },
   "3eb7e153-1213-4777-a23a-80fa23ead79c": {
     "asset": 1771412615289,
@@ -3085,13 +3080,13 @@
     "relativePath": "Games\\Book_Prefab\\titleAssets\\BG.png"
   },
   "d01c4b20-f375-4ae5-8d55-e7be8c170780": {
-    "asset": 1771412795107,
-    "meta": 1771415438492,
+    "asset": 1771416103476,
+    "meta": 1771416914149,
     "relativePath": "resources\\audios"
   },
   "ffd58fe8-b054-4279-9a30-b1754d75fe31": {
-    "asset": 1771412795119,
-    "meta": 1771415438516,
+    "asset": 1771416549572,
+    "meta": 1771416914149,
     "relativePath": "resources\\images"
   },
   "cec996c0-e857-4560-90f8-d2269a2686fb": {
@@ -3328,5 +3323,10 @@
     "asset": 1771416549572,
     "meta": 1771416549607,
     "relativePath": "resources\\images\\capital_letter_F.png"
+  },
+  "181c546f-c391-4c45-8047-30e4148a66ee": {
+    "asset": 1771417112776,
+    "meta": 1771417114630,
+    "relativePath": "Games\\TapToFind\\Scripts\\EndScreen.ts"
   }
 }
