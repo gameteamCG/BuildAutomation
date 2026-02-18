@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dignew",
+    "texture": "1e9e76de-51aa-4b4e-8dbe-b896a647572e",
+    "atlas": "",
+    "rect": [
+      52,
+      7,
+      197,
+      243
+    ],
+    "offset": [
+      25.5,
+      -3.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
