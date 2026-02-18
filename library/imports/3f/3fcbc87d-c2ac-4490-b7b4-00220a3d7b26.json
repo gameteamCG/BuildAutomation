@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Recap letters_LKG_SB1_26",
-      "totalLevel": "11",
+      "totalLevel": "10",
       "TitleImageName": "FLT.png",
       "introBgName": "bg2.png",
       "bgmMusicName": "bgmss.mp3",
@@ -64,22 +64,6 @@
       },
       {
         "questionText": "first letter",
-        "questionImageName": "Hat.png",
-        "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "Questioncard.png",
-        "isOptionText": false,
-        "numberOfOptions": 3,
-        "options": [
-          "H.png",
-          "S.png",
-          "f.png"
-        ],
-        "correctAudioName": "hforhat.mp3",
-        "correctAnswerNum": "1"
-      },
-      {
-        "questionText": "first letter",
         "questionImageName": "Elephant.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -123,7 +107,7 @@
           "E.png",
           "C.png"
         ],
-        "correctAudioName": "Eforegg2.mp3",
+        "correctAudioName": "egg.mp3",
         "correctAnswerNum": "2"
       },
       {
@@ -160,7 +144,7 @@
       },
       {
         "questionText": "first letter",
-        "questionImageName": "House.png",
+        "questionImageName": "axe.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Questioncard.png",
@@ -168,10 +152,10 @@
         "numberOfOptions": 3,
         "options": [
           "G.png",
-          "H.png",
+          "A.png",
           "D.png"
         ],
-        "correctAudioName": "hforhouse.mp3",
+        "correctAudioName": "axe.mp3",
         "correctAnswerNum": "2"
       },
       {
