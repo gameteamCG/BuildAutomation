@@ -26,9 +26,9 @@
           "250x250_0000_500x500_0004_bluefish_F.png"
         ],
         "optionsBg": [
-          "empty.png",
-          "empty.png",
-          "empty.png"
+          "",
+          "",
+          ""
         ],
         "correctAudioName": "L1.mp3",
         "wrongAudioName": "ouch.mp3",
@@ -51,10 +51,10 @@
         ],
         "optionsBg": [
           "",
-          "empty.png",
-          "empty.png",
-          "empty.png",
-          "empty.png"
+          "",
+          "",
+          "",
+          ""
         ],
         "correctAudioName": "L2.mp3",
         "wrongAudioName": "ugh.mp3",
@@ -76,11 +76,11 @@
           "250x250_0000_500x500_0001_fish_H.png"
         ],
         "optionsBg": [
-          "empty.png",
-          "empty.png",
-          "empty.png",
-          "empty.png",
-          "empty.png"
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         "correctAudioName": "L3.mp3",
         "wrongAudioName": "sadness.mp3",
