@@ -1,5 +1,6 @@
 
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -363,7 +364,14 @@ export default class NewClass extends cc.Component {
         this.currentJockey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
         this.currentJockey.active = true;
     }
+    playButtonSound(event: cc.Event) {
 
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.wordVoQuestion, false)
+        this.scheduleOnce(() => {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.wordVoQuestion.duration)
+    }
     UpdateOptions() {
         this.options.active = false;
         this.node.getChildByName("hint").active = false;

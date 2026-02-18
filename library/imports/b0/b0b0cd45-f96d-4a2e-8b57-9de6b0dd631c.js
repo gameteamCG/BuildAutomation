@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
@@ -330,6 +330,13 @@ var NewClass = /** @class */ (function (_super) {
         }
         this.currentJockey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
         this.currentJockey.active = true;
+    };
+    NewClass.prototype.playButtonSound = function (event) {
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.wordVoQuestion, false);
+        this.scheduleOnce(function () {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.wordVoQuestion.duration);
     };
     NewClass.prototype.UpdateOptions = function () {
         this.options.active = false;
