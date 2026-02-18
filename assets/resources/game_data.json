@@ -25,11 +25,11 @@
         "41693485_3_map.mp3"
       ],
       "commonRightOptionImageName": "ewd.png",
-      "isRightOptionText": false,
+      "isRightOptionText": true,
       "numberOfRightOptions": 2,
       "rightoptions": [
-        "awf.png",
-        "awd.png"
+        "cap.png",
+        "map.png"
       ]
     },
     {
@@ -48,11 +48,11 @@
         "41693485_6_sap.mp3"
       ],
       "commonRightOptionImageName": "ewd.png",
-      "isRightOptionText": false,
+      "isRightOptionText": true,
       "numberOfRightOptions": 2,
       "rightoptions": [
-        "sx.png",
-        "erth.png"
+        "tap.png",
+        "sap.png"
       ]
     },
     {
@@ -71,11 +71,11 @@
         "41693485_7_nap.mp3"
       ],
       "commonRightOptionImageName": "ewd.png",
-      "isRightOptionText": false,
+      "isRightOptionText": true,
       "numberOfRightOptions": 2,
       "rightoptions": [
-        "afah.png",
-        "sxz.png"
+        "lap.png",
+        "nap.png"
       ]
     }
   ]

@@ -1542,9 +1542,9 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
-      "b": 255,
+      "r": 162,
+      "g": 34,
+      "b": 34,
       "a": 255
     },
     "_contentSize": {
@@ -2116,7 +2116,7 @@
     "_N$string": "",
     "_fontSize": 80,
     "_lineHeight": 130,
-    "_enableWrapText": true,
+    "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "a6f28ba5-bac8-45de-b153-c627bcbece95"
     },
