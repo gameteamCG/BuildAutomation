@@ -336,8 +336,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 767,
-      "height": 443
+      "width": 435,
+      "height": 209
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -348,8 +348,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -14.314,
-        0,
+        13.982,
+        -62.481,
         0,
         0,
         0,
@@ -388,7 +388,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "19399550-5706-4cf2-a26c-c779a871f377"
+    },
     "_type": 0,
     "_sizeMode": 2,
     "_fillType": 0,
@@ -764,7 +766,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "fbb9ca0b-3278-42cc-8a1c-a7174f17a495"
+      "__uuid__": "d4f92c4e-dd9b-4c5f-86ed-a4e83991af69"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -2743,7 +2745,7 @@
     "BGM_audio": {
       "__uuid__": "0de1ef27-6197-41a4-8ab5-319bb65fecab"
     },
-    "volume": 0.3,
+    "volume": 0.1,
     "NextSceneName": "1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [
