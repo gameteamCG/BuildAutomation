@@ -13,7 +13,7 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 218,
+            "width": 217.1374969482422,
             "height": 810.6000366210938,
             "type": "panel",
             "active": 0,
@@ -22,18 +22,18 @@
             ]
           },
           {
-            "width": 1008,
+            "width": 1006.6500244140625,
             "height": 810.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 1008,
-                "height": 541.6000366210938,
+                "width": 1006.6500244140625,
+                "height": 537.7250366210938,
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 787,
-                    "height": 541.6000366210938,
+                    "width": 786.5,
+                    "height": 537.7250366210938,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -41,8 +41,8 @@
                     ]
                   },
                   {
-                    "width": 218,
-                    "height": 541.6000366210938,
+                    "width": 217.1374969482422,
+                    "height": 537.7250366210938,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -52,10 +52,10 @@
                 ]
               },
               {
-                "width": 1008,
-                "height": 266,
+                "width": 1006.6500244140625,
+                "height": 269.8625183105469,
                 "type": "panel",
-                "active": 0,
+                "active": 1,
                 "children": [
                   "console",
                   "timeline",
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 304,
+            "width": 306.20001220703125,
             "height": 810.6000366210938,
             "type": "panel",
             "active": 0,
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
+        "assets",
         "console",
         "timeline",
         "game-window",
@@ -88,8 +88,7 @@
         "cocos-services",
         "node-library"
       ]
-    },
-    " common-asset-worker-worker": {}
+    }
   },
   "panels": {
     "project-settings": {
@@ -105,10 +104,10 @@
       "height": 900
     },
     "builder": {
-      "x": 0,
-      "y": 25,
-      "width": 1440,
-      "height": 814
+      "x": -8,
+      "y": -8,
+      "width": 1552,
+      "height": 928
     }
   },
   "panelLabelWidth": {}
