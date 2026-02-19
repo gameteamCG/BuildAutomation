@@ -41,7 +41,7 @@ export default class NewClass extends cc.Component {
             }, 2);
         }
 
-        this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
+        // this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
     }
 
     start() {
@@ -76,16 +76,22 @@ export default class NewClass extends cc.Component {
             this.node.getComponent(cc.AudioSource).clip = this.yeah[0];
             this.node.getComponent(cc.AudioSource).play();
             console.log("gameEnded--true");
+            this.node.getChildByName("end").opacity = 255;
         }, 2.3);
 
 
     }
-
-    OnEndBtn(_event: cc.Event) {
-        window.close();
+    EndButton() {
+        // cc.audioEngine.playEffect(startGame.Instance.play_audio, false);
+        closeWindow();
     }
 
 
 
     // update (dt) {}
+}
+
+const closeWindow = () => {
+    window.open(location.href, "_self", "");
+    window.close()
 }

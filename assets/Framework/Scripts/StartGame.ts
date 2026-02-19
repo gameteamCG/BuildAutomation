@@ -42,6 +42,13 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class startGame extends cc.Component {
+    @property(cc.ProgressBar)
+    loadingBar: cc.ProgressBar = null;
+    @property(cc.Node)
+    lodingimg: cc.Node = null;
+
+    @property(cc.AudioClip)
+    play_audio: cc.AudioClip = null;
     @property(cc.AudioClip)
     BGM_audio: cc.AudioClip = null;
     @property(Number)
@@ -371,7 +378,7 @@ export default class startGame extends cc.Component {
         }
 
 
-        cc.director.preloadScene("1");
+        // cc.director.preloadScene("1");
 
         this.scheduleOnce(() => {
             console.log("jockey name = ", this.jockeyName);
@@ -394,7 +401,7 @@ export default class startGame extends cc.Component {
 
             if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
                 this.scheduleOnce(() => {
-                    cc.director.loadScene("1");
+                    // cc.director.loadScene("1");
                 }, 2);
             }
         }, 1);
@@ -480,4 +487,19 @@ export default class startGame extends cc.Component {
     // }
 
     // update (dt) {}
+
+    OnStartGame(_event: cc.Event) {
+        cc.audioEngine.playEffect(this.play_audio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        _event.target.active = false;
+        this.loadSceneWithProgress();
+    }
+
+
+    loadSceneWithProgress() {
+        this.lodingimg.active = true;
+        cc.director.loadScene(this.NextSceneName);
+    }
+
+
 }
