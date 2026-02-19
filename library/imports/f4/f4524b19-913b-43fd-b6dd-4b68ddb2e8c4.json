@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "achor",
+    "texture": "4dab29e9-8a87-45bc-a14e-9351a030c760",
+    "atlas": "",
+    "rect": [
+      95,
+      66,
+      310,
+      369
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

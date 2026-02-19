@@ -7,10 +7,10 @@
     "additionalData": {
       "GameID": "Heavy and Light",
       "totalLevel": "7",
-      "TitleImageName": "Asset 96.png",
-      "introBgName": "Bg(8).png",
+      "TitleImageName": "titlenew.png",
+      "introBgName": "LKGBG.png",
       "bgmMusicName": "BGM(mp3cut.net).mp3",
-      "mainBgName": "bg.png",
+      "mainBgName": "bgnew.png",
       "JockeyName": "Puzzle",
       "templateType": "SimpleTap"
     },
@@ -19,7 +19,7 @@
         "questionText": "Which object is heavy?",
         "questionAudioName": "Which object is heavy.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "commonimg.png",
+        "commonOptionImageName": "new_panel.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
@@ -36,13 +36,13 @@
         "questionText": "Which object is light?",
         "questionAudioName": "Which object is light.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "commonimg.png",
+        "commonOptionImageName": "new_panel.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
           "pin.png",
-          "nail.png"
+          "achor.png"
         ],
         "correctAudios": [
           "Pin.mp3"
@@ -53,7 +53,7 @@
         "questionText": "Which object is heavy?",
         "questionAudioName": "Which object is heavy.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "commonimg.png",
+        "commonOptionImageName": "new_panel.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
@@ -70,7 +70,7 @@
         "questionText": "Which object is light?",
         "questionAudioName": "Which object is light.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "commonimg.png",
+        "commonOptionImageName": "new_panel.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
@@ -87,7 +87,7 @@
         "questionText": "Which object is heavy?",
         "questionAudioName": "Which object is heavy.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "commonimg.png",
+        "commonOptionImageName": "new_panel.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
@@ -104,7 +104,7 @@
         "questionText": "Which object is light?",
         "questionAudioName": "Which object is light.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "commonimg.png",
+        "commonOptionImageName": "new_panel.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
@@ -115,13 +115,13 @@
         "correctAudios": [
           "cycle.mp3"
         ],
-        "correctAnswerNum": "1"
+        "correctAnswerNum": "2"
       },
       {
         "questionText": "Which object is heavy?",
         "questionAudioName": "Which object is heavy.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "commonimg.png",
+        "commonOptionImageName": "new_panel.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 2,
