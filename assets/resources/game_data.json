@@ -1,1 +1,97 @@
-{"additionalData":{"GameID":"Fruits_fs1_new_r171","totalLevel":"3","TitleImageName":"Fruits.png","introBgName":"tlc_bg.png","bgmMusicName":"BGMBackward.mp3","mainBgName":"bg.png","JockeyName":"Puzzle"},"questionData":[{"questionText":"solve picture puzzle","questionAudioName":"Solve_the_picture_puzzle.mp3","shouldPlayQuestionAudio":true,"commonPuzzleImageName":"frame.png","isHintRequired":true,"numberOfPuzzles":4,"puzzles":["a1.png","a2.png","a3.png","a4.png"],"correctAudioName":"Q2.mp3","needReiteration":true,"interactionType":"1","questionText2":"choose correct name","questionAudioName2":"","commonOptionImageName":"panel_2.png","isOptionText":true,"numberOfOptions":2,"options":["a","b"],"correctAnswer":"1","reiterationAudioName":"AAAPPLE.mp3"},{"questionText":"solve picture puzzle","questionAudioName":"Solve_the_picture_puzzle.mp3","shouldPlayQuestionAudio":true,"commonPuzzleImageName":"frame.png","isHintRequired":true,"numberOfPuzzles":4,"puzzles":["b1.png","b2.png","b3.png","b4.png"],"correctAudioName":"Q2.mp3","needReiteration":true,"interactionType":"1","questionText2":"choose correct name","questionAudioName2":"","commonOptionImageName":"panel_2.png","isOptionText":true,"numberOfOptions":2,"options":["g","b"],"correctAnswer":"2","reiterationAudioName":"bbbanaa.mp3"},{"questionText":"solve picture puzzle","questionAudioName":"Solve_the_picture_puzzle.mp3","shouldPlayQuestionAudio":true,"commonPuzzleImageName":"frame.png","isHintRequired":true,"numberOfPuzzles":4,"puzzles":["g1.png","g2.png","g3.png","g4.png"],"correctAudioName":"Q2.mp3","needReiteration":true,"interactionType":"1","questionText2":"C","questionAudioName2":"","commonOptionImageName":"panel_2.png","isOptionText":true,"numberOfOptions":2,"options":["g","m"],"correctAnswer":"1","reiterationAudioName":"GGGRAPES.mp3"}]}
+{
+    "additionalData": {
+        "GameID": "Fruits_fs1_new_r171",
+        "totalLevel": "3",
+        "TitleImageName": "Fruits.png",
+        "introBgName": "tlc_bg.png",
+        "bgmMusicName": "BGMBackward.mp3",
+        "mainBgName": "bg.png",
+        "JockeyName": "Puzzle"
+    },
+    "questionData": [
+        {
+            "questionText": "solve picture puzzle",
+            "questionAudioName": "solve_pic_puzzle.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonPuzzleImageName": "frame.png",
+            "isHintRequired": true,
+            "numberOfPuzzles": 4,
+            "puzzles": [
+                "L1_1.png",
+                "L1_2.png",
+                "L1_3.png",
+                "L1_4.png"
+            ],
+            "correctAudioName": "choose_the_midd.mp3",
+            "needReiteration": true,
+            "interactionType": "1",
+            "questionText2": "choose correct name",
+            "questionAudioName2": "",
+            "commonOptionImageName": "panel_2.png",
+            "isOptionText": true,
+            "numberOfOptions": 2,
+            "options": [
+                "bag",
+                "dag"
+            ],
+            "correctAnswer": "1",
+            "reiterationAudioName": "bag.mp3"
+        },
+        {
+            "questionText": "solve picture puzzle",
+            "questionAudioName": "Solve_the_picture_puzzle.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonPuzzleImageName": "frame.png",
+            "isHintRequired": true,
+            "numberOfPuzzles": 4,
+            "puzzles": [
+                "b1.png",
+                "b2.png",
+                "b3.png",
+                "b4.png"
+            ],
+            "correctAudioName": "Q2.mp3",
+            "needReiteration": true,
+            "interactionType": "1",
+            "questionText2": "choose correct name",
+            "questionAudioName2": "",
+            "commonOptionImageName": "panel_2.png",
+            "isOptionText": true,
+            "numberOfOptions": 2,
+            "options": [
+                "g",
+                "b"
+            ],
+            "correctAnswer": "2",
+            "reiterationAudioName": "bbbanaa.mp3"
+        },
+        {
+            "questionText": "solve picture puzzle",
+            "questionAudioName": "Solve_the_picture_puzzle.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonPuzzleImageName": "frame.png",
+            "isHintRequired": true,
+            "numberOfPuzzles": 4,
+            "puzzles": [
+                "g1.png",
+                "g2.png",
+                "g3.png",
+                "g4.png"
+            ],
+            "correctAudioName": "Q2.mp3",
+            "needReiteration": true,
+            "interactionType": "1",
+            "questionText2": "C",
+            "questionAudioName2": "",
+            "commonOptionImageName": "panel_2.png",
+            "isOptionText": true,
+            "numberOfOptions": 2,
+            "options": [
+                "g",
+                "m"
+            ],
+            "correctAnswer": "1",
+            "reiterationAudioName": "GGGRAPES.mp3"
+        }
+    ]
+}

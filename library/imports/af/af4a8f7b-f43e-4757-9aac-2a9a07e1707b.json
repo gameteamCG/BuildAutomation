@@ -16,18 +16,18 @@
     "questionData": [
       {
         "questionText": "solve picture puzzle",
-        "questionAudioName": "Solve_the_picture_puzzle.mp3",
+        "questionAudioName": "solve_pic_puzzle.mp3",
         "shouldPlayQuestionAudio": true,
         "commonPuzzleImageName": "frame.png",
         "isHintRequired": true,
         "numberOfPuzzles": 4,
         "puzzles": [
-          "a1.png",
-          "a2.png",
-          "a3.png",
-          "a4.png"
+          "L1_1.png",
+          "L1_2.png",
+          "L1_3.png",
+          "L1_4.png"
         ],
-        "correctAudioName": "Q2.mp3",
+        "correctAudioName": "choose_the_midd.mp3",
         "needReiteration": true,
         "interactionType": "1",
         "questionText2": "choose correct name",
@@ -36,11 +36,11 @@
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "a",
-          "b"
+          "bag",
+          "dag"
         ],
         "correctAnswer": "1",
-        "reiterationAudioName": "AAAPPLE.mp3"
+        "reiterationAudioName": "bag.mp3"
       },
       {
         "questionText": "solve picture puzzle",
