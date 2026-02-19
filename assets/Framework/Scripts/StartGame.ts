@@ -46,6 +46,11 @@ export default class startGame extends cc.Component {
     BGM_audio: cc.AudioClip = null;
     @property(Number)
     volume: number = 0.1;
+    @property(cc.Node)
+    loadingBar: cc.Node = null;
+
+    @property(cc.AudioClip)
+    play_audio: cc.AudioClip = null;
     @property(cc.String)
     NextSceneName: string = "1";
     @property(cc.Boolean)
@@ -384,12 +389,12 @@ export default class startGame extends cc.Component {
                 cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
             }
             else if (this.jockeyName == "bag" || this.jockeyName == "cryon") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
+                // cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
 
             if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
                 this.scheduleOnce(() => {
-                    cc.director.loadScene(this.NextSceneName);
+                    // cc.director.loadScene(this.NextSceneName);
                 }, 2);
             }
         }, 1);
@@ -423,6 +428,14 @@ export default class startGame extends cc.Component {
 
     OnBack() {
         console.log("gameExit--true");
+    }
+
+    OnStartGame(_event: cc.Event) {
+        cc.audioEngine.playEffect(this.play_audio, false);
+        this.loadingBar.active = true;
+        _event.target.active = false;
+        _event.target.getComponent(cc.Button).interactable = false;
+        cc.director.loadScene(this.NextSceneName);
     }
 
     // OnTimer() {

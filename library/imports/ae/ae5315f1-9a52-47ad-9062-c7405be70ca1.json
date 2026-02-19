@@ -7,11 +7,11 @@
     "additionalData": {
       "GameID": "My toys_NUR_GA_27",
       "totalLevel": "3",
-      "TitleImageName": "title.png",
-      "introBgName": "tlc_bg.png",
+      "TitleImageName": "",
+      "introBgName": "",
       "bgmMusicName": "BGM2.mp3",
       "mainBgName": "bg.png",
-      "JockeyName": "Puzzle"
+      "JockeyName": "bag"
     },
     "questionData": [
       {

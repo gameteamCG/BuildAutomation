@@ -37,6 +37,8 @@ var startGame = /** @class */ (function (_super) {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.BGM_audio = null;
         _this.volume = 0.1;
+        _this.loadingBar = null;
+        _this.play_audio = null;
         _this.NextSceneName = "1";
         _this.isAgeParameterNeeded = true;
         _this.LevelAgeParameters = [3, 5, 7];
@@ -347,11 +349,11 @@ var startGame = /** @class */ (function (_super) {
                 cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
             }
             else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
+                // cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
                 _this.scheduleOnce(function () {
-                    cc.director.loadScene(_this.NextSceneName);
+                    // cc.director.loadScene(this.NextSceneName);
                 }, 2);
             }
         }, 1);
@@ -379,6 +381,13 @@ var startGame = /** @class */ (function (_super) {
     };
     startGame.prototype.OnBack = function () {
         console.log("gameExit--true");
+    };
+    startGame.prototype.OnStartGame = function (_event) {
+        cc.audioEngine.playEffect(this.play_audio, false);
+        this.loadingBar.active = true;
+        _event.target.active = false;
+        _event.target.getComponent(cc.Button).interactable = false;
+        cc.director.loadScene(this.NextSceneName);
     };
     // OnTimer() {
     //     let delay = 1;
@@ -417,6 +426,12 @@ var startGame = /** @class */ (function (_super) {
     __decorate([
         property(Number)
     ], startGame.prototype, "volume", void 0);
+    __decorate([
+        property(cc.Node)
+    ], startGame.prototype, "loadingBar", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], startGame.prototype, "play_audio", void 0);
     __decorate([
         property(cc.String)
     ], startGame.prototype, "NextSceneName", void 0);

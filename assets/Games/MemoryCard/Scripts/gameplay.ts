@@ -799,7 +799,7 @@ export default class NewClass extends cc.Component {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
         // console.log("anim length = ", anim.length);
-        let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
+        let currentClipNum: number = this.getRandomNumber(0, 4);
         // console.log("currentClipNum = ", currentClipNum);
         let pos: number[] = [-1200, 1200];
         let jockeytween: number[] = [-450, 450];
@@ -825,6 +825,7 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                console.log(startGame.Instance.jockeyName, currentClipNum)
                 this.scheduleOnce(() => {
                     cc.tween(this.currentJcokey).to(0.5, { x: pos[globalVariables.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
                     if (startGame.Instance.jockeyName != "stallion") {
@@ -837,7 +838,10 @@ export default class NewClass extends cc.Component {
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
                     this.callNextLevel();
+
+
                 }, this.positiveAudio[currentClipNum].duration);
+
             }, 0.5);
         }
         else if (startGame.Instance.jockeyName == "tlc") {

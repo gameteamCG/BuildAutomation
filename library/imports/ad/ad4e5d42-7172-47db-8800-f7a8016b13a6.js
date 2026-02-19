@@ -742,7 +742,7 @@ var NewClass = /** @class */ (function (_super) {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
         }
         // console.log("anim length = ", anim.length);
-        var currentClipNum = this.getRandomNumber(0, anim.length - 1);
+        var currentClipNum = this.getRandomNumber(0, 4);
         // console.log("currentClipNum = ", currentClipNum);
         var pos = [-1200, 1200];
         var jockeytween = [-450, 450];
@@ -768,6 +768,7 @@ var NewClass = /** @class */ (function (_super) {
             this.scheduleOnce(function () {
                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(_this.positiveAudio[currentClipNum], false);
+                console.log(StartGame_1.default.Instance.jockeyName, currentClipNum);
                 _this.scheduleOnce(function () {
                     cc.tween(_this.currentJcokey).to(0.5, { x: pos[globalVariables_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
                     if (StartGame_1.default.Instance.jockeyName != "stallion") {
