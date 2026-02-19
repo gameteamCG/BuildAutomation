@@ -1,22 +1,22 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "pig",
-    "texture": "c4d2e15d-8574-49a8-a858-4e1544218ac3",
+    "name": "potato",
+    "texture": "4af6a0fe-141b-4fd2-81e5-aead1c85329c",
     "atlas": "",
     "rect": [
-      131,
-      138,
-      339,
-      257
+      97,
+      37,
+      324,
+      427
     ],
     "offset": [
-      50.5,
-      -16.5
+      8.5,
+      0
     ],
     "originalSize": [
-      500,
-      500
+      501,
+      501
     ],
     "capInsets": [
       0,

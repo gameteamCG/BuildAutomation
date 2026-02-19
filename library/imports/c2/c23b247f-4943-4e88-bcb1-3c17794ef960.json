@@ -1,22 +1,22 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "pig - Copy",
-    "texture": "e78073a7-e98f-402d-96cb-bb30b683eed8",
+    "name": "peach",
+    "texture": "bb06a990-65c6-4361-aafd-2b0367795218",
     "atlas": "",
     "rect": [
-      131,
-      138,
-      339,
-      257
+      93,
+      40,
+      351,
+      421
     ],
     "offset": [
-      50.5,
-      -16.5
+      18,
+      0
     ],
     "originalSize": [
-      500,
-      500
+      501,
+      501
     ],
     "capInsets": [
       0,
