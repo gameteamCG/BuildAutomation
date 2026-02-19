@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_DP3",
+    "texture": "67716d41-1801-4760-82d7-211331c4fd63",
+    "atlas": "",
+    "rect": [
+      98,
+      88,
+      305,
+      326
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

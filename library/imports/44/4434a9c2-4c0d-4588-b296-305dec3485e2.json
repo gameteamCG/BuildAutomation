@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_DP2",
+    "texture": "8672984f-2dee-42c3-8ba3-952af5280046",
+    "atlas": "",
+    "rect": [
+      98,
+      88,
+      305,
+      326
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

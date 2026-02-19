@@ -15,8 +15,8 @@
     "questionData": [
       {
         "questionLayout": "layout1",
-        "questionBgName": "bg.png",
-        "questionAudioName": "q1.mp3",
+        "questionBgName": "bgnew2.png",
+        "questionAudioName": "7834971_2_tap-on-the-deer-with-t.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "numberOfOptions": 3,
@@ -26,21 +26,21 @@
           ""
         ],
         "optionsBg": [
-          "Asset_1.png",
-          "Asset_2.png",
-          "Asset_3.png"
+          "new_deer2.png",
+          "new_deer1.png",
+          "new_deer3.png"
         ],
-        "correctAudioName": "L1correct.mp3",
+        "correctAudioName": "L1Correct.mp3",
         "wrongAudioName": "no.mp3",
         "reiterationAudioName": [
-          "D.mp3"
+          "D SAYS DDD.mp3"
         ],
-        "correctAnswerNum": "3"
+        "correctAnswerNum": "1"
       },
       {
         "questionLayout": "layout2",
         "questionBgName": "bg_1.png",
-        "questionAudioName": "Q2.mp3",
+        "questionAudioName": "Q27834971_4_tap-on-the-dress-with-.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "numberOfOptions": 3,
@@ -57,14 +57,14 @@
         "correctAudioName": "L2Correct.mp3",
         "wrongAudioName": "nu.mp3",
         "reiterationAudioName": [
-          "D.mp3"
+          "D SAYS DDD.mp3"
         ],
         "correctAnswerNum": "2"
       },
       {
         "questionLayout": "layout2",
         "questionBgName": "bg_2.png",
-        "questionAudioName": "q2.mp3",
+        "questionAudioName": "7834971_1_tap-on-the-doll-with-t.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "numberOfOptions": 3,
@@ -74,21 +74,21 @@
           ""
         ],
         "optionsBg": [
-          "Asset_11.png",
-          "Asset_9.png",
-          "Asset_10.png"
+          "new_doll3.png",
+          "new_doll2.png",
+          "new_doll1.png"
         ],
         "correctAudioName": "L3correct.mp3",
         "wrongAudioName": "ns.mp3",
         "reiterationAudioName": [
-          "D.mp3"
+          "D SAYS DDD.mp3"
         ],
         "correctAnswerNum": "1"
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "bg_4.png",
-        "questionAudioName": "q4.mp3",
+        "questionBgName": "bgnew3.png",
+        "questionAudioName": "7834971_3_tap-on-the-duck-with-t.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "numberOfOptions": 3,
@@ -98,40 +98,40 @@
           ""
         ],
         "optionsBg": [
-          "Asset 25.png",
-          "Asset 26.png",
-          "Asset 27.png"
+          "new_duck3.png",
+          "new_duck2.png",
+          "new_duck1.png"
         ],
         "correctAudioName": "L5Correct.mp3",
         "wrongAudioName": "ns.mp3",
         "reiterationAudioName": [
-          "D.mp3"
+          "D SAYS DDD.mp3"
         ],
         "correctAnswerNum": "3"
       },
       {
-        "questionLayout": "layout3",
-        "questionBgName": "bg_3.png",
-        "questionAudioName": "qqqt.mp3",
+        "questionLayout": "layout1",
+        "questionBgName": "Asset 1.png",
+        "questionAudioName": "7834971_5_tap-on-the-dolphin-wit.mp3",
         "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
+        "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "Asset_13.png",
-          "Asset_15.png",
-          "Asset_17.png"
+          "",
+          "",
+          ""
         ],
         "optionsBg": [
-          "Asset_14.png",
-          "Asset_16.png",
-          "Asset_18.png"
+          "new_DP1.png",
+          "new_DP2.png",
+          "new_DP3.png"
         ],
-        "correctAudioName": "L8Correct.mp3",
-        "wrongAudioName": "Children_Voices.mp3",
+        "correctAudioName": "L4Correct.mp3",
+        "wrongAudioName": "ns.mp3",
         "reiterationAudioName": [
-          "D.mp3"
+          "D SAYS DDD.mp3"
         ],
-        "correctAnswerNum": "3"
+        "correctAnswerNum": "1"
       }
     ]
   }
