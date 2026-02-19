@@ -848,7 +848,7 @@
     "_dstBlendFactor": 771,
     "_spriteFrame": null,
     "_type": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -857,7 +857,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": false,
+    "_isTrimmedMode": true,
     "_atlas": null,
     "_id": "3cimjHJHlOTI/oWXF1RHqc"
   },
@@ -1466,7 +1466,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "03fbeb27-3a5f-484a-bd1a-43ea3f01536e"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
