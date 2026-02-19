@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\Mass_Market\\Thick_and_thin_LKG_numeracy_12",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
