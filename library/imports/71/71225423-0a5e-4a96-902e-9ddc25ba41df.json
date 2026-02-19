@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "umpire",
+    "texture": "acc1e238-8fec-4639-b4b1-90725a637cef",
+    "atlas": "",
+    "rect": [
+      151,
+      54,
+      228,
+      384
+    ],
+    "offset": [
+      14.5,
+      4.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vase",
+    "texture": "131e42f0-e5ad-4a17-b413-83849444af68",
+    "atlas": "",
+    "rect": [
+      107,
+      100,
+      286,
+      300
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

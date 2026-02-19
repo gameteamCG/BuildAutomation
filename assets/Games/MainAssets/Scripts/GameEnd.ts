@@ -4,7 +4,9 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
 // Learn life-cycle callbacks:
 
-import startGame from "../../Framework/Scripts/StartGame";
+import startGame from "../../../Framework/Scripts/StartGame";
+
+// import startGame from "../../Framework/Scripts/StartGame";
 
 // import startGame from "../../../Framework/Scripts/StartGame";
 

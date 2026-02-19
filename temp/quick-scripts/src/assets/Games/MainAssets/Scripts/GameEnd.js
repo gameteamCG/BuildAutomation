@@ -28,7 +28,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var StartGame_1 = require("../../Framework/Scripts/StartGame");
+var StartGame_1 = require("../../../Framework/Scripts/StartGame");
+// import startGame from "../../Framework/Scripts/StartGame";
 // import startGame from "../../../Framework/Scripts/StartGame";
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
