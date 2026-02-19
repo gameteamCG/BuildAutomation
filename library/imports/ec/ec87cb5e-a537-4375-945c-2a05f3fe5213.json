@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "Count the insects and choose the correct number",
+        "questionText": "Counting",
         "questionImageName": "1.png",
         "questionAudioName": "Count_the_insects_and_choose_the_correct_number.mp3",
         "shouldPlayQuestionAudio": true,
@@ -30,7 +30,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Count the insects and choose the correct number",
+        "questionText": "Counting",
         "questionImageName": "2.png",
         "questionAudioName": "Count_the_insects_and_choose_the_correct_number.mp3",
         "shouldPlayQuestionAudio": true,
@@ -45,7 +45,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Count the insects and choose the correct number",
+        "questionText": "Counting",
         "questionImageName": "3.png",
         "questionAudioName": "Count_the_insects_and_choose_the_correct_number.mp3",
         "shouldPlayQuestionAudio": true,
@@ -60,7 +60,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Count the insects and choose the correct number",
+        "questionText": "Counting",
         "questionImageName": "4.png",
         "questionAudioName": "Count_the_insects_and_choose_the_correct_number.mp3",
         "shouldPlayQuestionAudio": true,
@@ -75,7 +75,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Count the insects and choose the correct number",
+        "questionText": "Counting",
         "questionImageName": "5.png",
         "questionAudioName": "Count_the_insects_and_choose_the_correct_number.mp3",
         "shouldPlayQuestionAudio": true,
@@ -90,7 +90,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Count the insects and choose the correct number",
+        "questionText": "Counting",
         "questionImageName": "6.png",
         "questionAudioName": "Count_the_insects_and_choose_the_correct_number.mp3",
         "shouldPlayQuestionAudio": true,
