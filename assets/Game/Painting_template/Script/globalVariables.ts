@@ -195,7 +195,7 @@ export default class globalVariables extends cc.Component {
                 this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
                 this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.TitleImageName), (spriteFrame) => {
-                    this.node.getChildByName("intro").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // this.node.getChildByName("intro").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
                 this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.introBgName), (spriteFrame) => {
                     this.node.getChildByName("intro").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
@@ -225,9 +225,9 @@ export default class globalVariables extends cc.Component {
     }
 
     StartGame() {
-        this.node.getChildByName("intro").active = false;
-        this.node.getChildByName("base").opacity = 255;
-        GamePlay.Instance.StartGame();
+        // this.node.getChildByName("intro").active = false;
+        // this.node.getChildByName("base").opacity = 255;
+        // GamePlay.Instance.StartGame();
     }
 
     OnPlayBtn(_event: cc.Event) {

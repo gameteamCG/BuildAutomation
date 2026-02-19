@@ -1,10 +1,3 @@
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-
 import globalVariables from "./globalVariables";
 
 const { ccclass, property } = cc._decorator;
@@ -23,9 +16,10 @@ export default class endScreen extends cc.Component {
     private supercubEnd: cc.SpriteFrame = null;
 
     onLoad() {
-        this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables.Instance.mainBg;
+        this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables.Instance.introBG;
         console.log("showedScreen--wellDone");
         this.scheduleOnce(() => {
+            this.node.getChildByName("end").active = true;
             console.log("gameEnded--true");
         }, 2);
     }
@@ -48,5 +42,14 @@ export default class endScreen extends cc.Component {
 
     }
 
-    // update (dt) {}
+    EndButton() {
+        // cc.audioEngine.playEffect(startGame.Instance.play_audio, false);
+        closeWindow();
+    }
+
+}
+
+const closeWindow = () => {
+    window.open(location.href, "_self", "");
+    window.close()
 }

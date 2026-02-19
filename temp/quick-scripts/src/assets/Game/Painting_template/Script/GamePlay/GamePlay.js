@@ -230,6 +230,10 @@ var GamePlay = /** @class */ (function (_super) {
         cc.audioEngine.playEffect(this.clickAud, false);
         console.log("gameExit--true");
     };
+    GamePlay.prototype.playQues = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[0], false);
+    };
     GamePlay.prototype.checkNextLevel = function () {
         var _this = this;
         var duration = 0;

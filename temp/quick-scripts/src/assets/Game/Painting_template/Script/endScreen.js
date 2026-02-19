@@ -3,12 +3,6 @@ cc._RF.push(module, '5066f8YXv5M4rP4gJr2ulON', 'endScreen');
 // Game/Painting_template/Script/endScreen.ts
 
 "use strict";
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -41,12 +35,13 @@ var endScreen = /** @class */ (function (_super) {
         _this.tlcEnd = null;
         _this.supercubEnd = null;
         return _this;
-        // update (dt) {}
     }
     endScreen.prototype.onLoad = function () {
-        this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables_1.default.Instance.mainBg;
+        var _this = this;
+        this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables_1.default.Instance.introBG;
         console.log("showedScreen--wellDone");
         this.scheduleOnce(function () {
+            _this.node.getChildByName("end").active = true;
             console.log("gameEnded--true");
         }, 2);
     };
@@ -64,6 +59,10 @@ var endScreen = /** @class */ (function (_super) {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
         }
         this.node.getChildByName("jockey").getChildByName(globalVariables_1.default.Instance.jockeyName).active = true;
+    };
+    endScreen.prototype.EndButton = function () {
+        // cc.audioEngine.playEffect(startGame.Instance.play_audio, false);
+        closeWindow();
     };
     __decorate([
         property(cc.SpriteFrame)
@@ -83,5 +82,9 @@ var endScreen = /** @class */ (function (_super) {
     return endScreen;
 }(cc.Component));
 exports.default = endScreen;
+var closeWindow = function () {
+    window.open(location.href, "_self", "");
+    window.close();
+};
 
 cc._RF.pop();

@@ -23,7 +23,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var GamePlay_1 = require("./GamePlay/GamePlay");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var globalVariables = /** @class */ (function (_super) {
     __extends(globalVariables, _super);
@@ -181,7 +180,7 @@ var globalVariables = /** @class */ (function (_super) {
                 _this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
                 _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.TitleImageName), function (spriteFrame) {
-                    _this.node.getChildByName("intro").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // this.node.getChildByName("intro").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
                 _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.introBgName), function (spriteFrame) {
                     _this.node.getChildByName("intro").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
@@ -209,9 +208,9 @@ var globalVariables = /** @class */ (function (_super) {
         }
     };
     globalVariables.prototype.StartGame = function () {
-        this.node.getChildByName("intro").active = false;
-        this.node.getChildByName("base").opacity = 255;
-        GamePlay_1.default.Instance.StartGame();
+        // this.node.getChildByName("intro").active = false;
+        // this.node.getChildByName("base").opacity = 255;
+        // GamePlay.Instance.StartGame();
     };
     globalVariables.prototype.OnPlayBtn = function (_event) {
         _event.target.getComponent(cc.Button).interactable = false;

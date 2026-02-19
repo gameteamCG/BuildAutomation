@@ -38,6 +38,8 @@ require('./assets/Game/Painting_template/Script/ScreenShot');
 require('./assets/Game/Painting_template/Script/endScreen');
 require('./assets/Game/Painting_template/Script/globalVariables');
 require('./assets/Game/Painting_template/Script/scratch');
+require('./assets/Games/Assets/1_Jaipuria_Old/JaipuriaJockey');
+require('./assets/Games/Assets/1_Jaipuria_Old/Prefab/title');
 require('./assets/resources/empty');
 
                     }

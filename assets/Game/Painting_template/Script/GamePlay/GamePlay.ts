@@ -228,6 +228,11 @@ export default class GamePlay extends cc.Component {
         console.log("gameExit--true");
     }
 
+    playQues(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[0], false);
+    }
+
     checkNextLevel() {
         let duration: number = 0;
         if (this.currentLevel != 0) {
