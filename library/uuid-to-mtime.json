@@ -505,8 +505,8 @@
     "relativePath": "Framework"
   },
   "9b71e4f2-2b16-4cd9-94d9-a3fd140d3ced": {
-    "asset": 1771481954981,
-    "meta": 1771482047151,
+    "asset": 1771483518956,
+    "meta": 1771483567190,
     "relativePath": "Games"
   },
   "1dd2bd8a-f48a-425a-8913-b27c1dae387e": {
@@ -1375,13 +1375,13 @@
     "relativePath": "Games\\WhatWillHappenNext\\Sound\\JockeyVO"
   },
   "cf4e36d8-89d2-4945-a198-67e319127411": {
-    "asset": 1771482996856,
-    "meta": 1771482996879,
+    "asset": 1771484830671,
+    "meta": 1771484830700,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\1.fire"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1771482846392,
-    "meta": 1771482846416,
+    "asset": 1771484794532,
+    "meta": 1771484794550,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\Title.fire"
   },
   "51f71569-6b9e-43a6-9703-1106a9f3d9d1": {
@@ -1390,8 +1390,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\whats next.png"
   },
   "92133877-574e-4eb5-9c58-79f64d3fc3ed": {
-    "asset": 1771481558121,
-    "meta": 1771481893394,
+    "asset": 1771484707639,
+    "meta": 1771484707663,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\endScreen.fire"
   },
   "0de1ef27-6197-41a4-8ab5-319bb65fecab": {
@@ -2760,8 +2760,8 @@
     "relativePath": "Games\\SocialQuiz"
   },
   "7d45d308-3e7b-4ee6-8d0b-7977f19b28d7": {
-    "asset": 1771481831207,
-    "meta": 1771481891120,
+    "asset": 1771482787755,
+    "meta": 1771483567192,
     "relativePath": "resources\\audios"
   },
   "d7bc254a-32a4-4df1-8437-bdc1f59a5e9a": {
@@ -3274,11 +3274,6 @@
     "meta": 1771481892059,
     "relativePath": "resources\\images\\title.png"
   },
-  "a1b062bf-d849-4381-95f0-eba65139142b": {
-    "asset": 1771481558404,
-    "meta": 1771481892219,
-    "relativePath": "resources\\audios\\B2.mp3"
-  },
   "e69f6909-7104-4430-8958-26c918cbc963": {
     "asset": 1771481558141,
     "meta": 1771481893472,
@@ -3369,984 +3364,9 @@
     "meta": 1771481893544,
     "relativePath": "Framework\\Framework\\Prefabs\\Progressbar\\ProgressBar"
   },
-  "78e5a00c-aa4a-4bc4-a91e-f6e7115b3872": {
-    "asset": 1771481954016,
-    "meta": 1771481955196,
-    "relativePath": "Games\\1_Jaipuria"
-  },
-  "00721a18-187c-41ef-8c3f-eaecc5b2a20c": {
-    "asset": 1771481954092,
-    "meta": 1771481955197,
-    "relativePath": "Games\\1_Jaipuria\\Animation"
-  },
-  "1863cbd7-340c-4ff2-9105-61a36e384283": {
-    "asset": 1771481954045,
-    "meta": 1771481955197,
-    "relativePath": "Games\\1_Jaipuria\\End Words"
-  },
-  "cba494d8-9511-4035-9ef7-1f5329467775": {
-    "asset": 1771481954997,
-    "meta": 1771481955198,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey"
-  },
-  "b109bf26-acba-469a-81e1-019e442a53b4": {
-    "asset": 1771481954017,
-    "meta": 1771481955201,
-    "relativePath": "Games\\1_Jaipuria\\jaipuria4.ttf"
-  },
-  "860b267b-ea42-4a96-b6c9-c18b9501c0ee": {
-    "asset": 1771481954101,
-    "meta": 1771481955202,
-    "relativePath": "Games\\1_Jaipuria\\Prefab"
-  },
-  "6993a01a-26af-485a-ae5c-3712982410cf": {
-    "asset": 1771481954016,
-    "meta": 1771481955209,
-    "relativePath": "Games\\1_Jaipuria\\Script.ts"
-  },
-  "468011db-cbd0-43f5-ad67-92a670b0acd4": {
-    "asset": 1771481954164,
-    "meta": 1771481955210,
-    "relativePath": "Games\\1_Jaipuria\\scripts"
-  },
-  "ad10d428-bbe1-4eb8-a2a0-49f8fbcab60a": {
-    "asset": 1771481954149,
-    "meta": 1771481955210,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets"
-  },
-  "3930deef-6e1d-4276-a29f-bb913253b0fe": {
-    "asset": 1771481954179,
-    "meta": 1771481955211,
-    "relativePath": "Games\\1_Jaipuria\\VO"
-  },
-  "b704943a-5697-429d-aa17-06af97b6a66b": {
-    "asset": 1771481954422,
-    "meta": 1771481955212,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03"
-  },
-  "b9e36d05-69a3-4123-b008-8b4ace2852c5": {
-    "asset": 1771481954207,
-    "meta": 1771481955214,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey"
-  },
-  "735b37dd-5eae-4261-99f6-c85512106d9c": {
-    "asset": 1771481954242,
-    "meta": 1771481955215,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Bag"
-  },
-  "fdf57b32-457b-421a-af48-b6208956404c": {
-    "asset": 1771481954273,
-    "meta": 1771481955216,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Compass"
-  },
-  "7d27e3be-1b4a-438d-abed-0ebcb321f64a": {
-    "asset": 1771481954293,
-    "meta": 1771481955217,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Crayon"
-  },
-  "066fa38b-4ea5-41c7-9f50-cce6a1226ec2": {
-    "asset": 1771481955046,
-    "meta": 1771481955217,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey"
-  },
-  "293647b0-ee34-4317-bb10-033548736011": {
-    "asset": 1771481954311,
-    "meta": 1771481955218,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Pencil"
-  },
-  "ed69f482-66cd-4c3d-b4ab-de222c53b528": {
-    "asset": 1771481954347,
-    "meta": 1771481955219,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Sharpner"
-  },
-  "a971e6e1-355a-4c0d-a7b3-4fbf5c622635": {
-    "asset": 1771481954185,
-    "meta": 1771481955247,
-    "relativePath": "Games\\1_Jaipuria\\scripts\\graphics.ts"
-  },
-  "be6f0543-424c-444d-b173-9929ea14c076": {
-    "asset": 1771481954185,
-    "meta": 1771481955284,
-    "relativePath": "Games\\1_Jaipuria\\scripts\\introduction.ts"
-  },
-  "a8b24936-dafd-4faa-b664-dddc68088b94": {
-    "asset": 1771481954186,
-    "meta": 1771481955303,
-    "relativePath": "Games\\1_Jaipuria\\scripts\\roughArea.ts"
-  },
-  "86235601-004e-42da-b69b-e4c26f03267b": {
-    "asset": 1771481954183,
-    "meta": 1771481955310,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\PlayBtnAnim.anim"
-  },
-  "17e4d164-6838-4ee9-92d8-29ba34a58b5b": {
-    "asset": 1771481954182,
-    "meta": 1771481955314,
-    "relativePath": "Games\\1_Jaipuria\\Prefab\\Graphics.prefab"
-  },
-  "e7e2c267-1e06-427f-b89e-d3596227441d": {
-    "asset": 1771481954182,
-    "meta": 1771481955316,
-    "relativePath": "Games\\1_Jaipuria\\Prefab\\BG.prefab"
-  },
-  "9e510e0e-4c09-4665-9dbf-65a15799eb96": {
-    "asset": 1771481954183,
-    "meta": 1771481955319,
-    "relativePath": "Games\\1_Jaipuria\\Prefab\\end.prefab"
-  },
-  "d52b057d-0a93-4812-8526-0bf95a6f604f": {
-    "asset": 1771481954182,
-    "meta": 1771481955325,
-    "relativePath": "Games\\1_Jaipuria\\Prefab\\Intro.prefab"
-  },
-  "9b574d45-8dcf-4889-989a-70918e49190f": {
-    "asset": 1771481954183,
-    "meta": 1771481955327,
-    "relativePath": "Games\\1_Jaipuria\\Prefab\\timer.prefab"
-  },
-  "fc020168-e341-4bf4-bc0e-8d3f27711204": {
-    "asset": 1771481954183,
-    "meta": 1771481955332,
-    "relativePath": "Games\\1_Jaipuria\\Prefab\\roughArea.prefab"
-  },
-  "bc85355f-7248-4d18-a242-32c34fe39958": {
-    "asset": 1771481954182,
-    "meta": 1771481955335,
-    "relativePath": "Games\\1_Jaipuria\\Prefab\\RoughBtn.prefab"
-  },
-  "5e6eaf38-aaf6-41d6-a195-1ac1ab93da4e": {
-    "asset": 1771481954459,
-    "meta": 1771481955337,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\roughArea_assets"
-  },
-  "947c307f-ff38-44e8-bac0-107f467fff61": {
-    "asset": 1771481954183,
-    "meta": 1771481955371,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\bar.png"
-  },
-  "87166a2a-011d-4f4d-8b35-801ad1cc5594": {
-    "asset": 1771481954019,
-    "meta": 1771481955375,
-    "relativePath": "Games\\1_Jaipuria\\No articlespng.png"
-  },
-  "381369fb-6cf2-42ae-94cb-e5d42c73a938": {
-    "asset": 1771481954560,
-    "meta": 1771481955376,
-    "relativePath": "Games\\1_Jaipuria\\VO\\CorrectVO"
-  },
-  "6e28a7e3-743c-4148-b80d-cb622f3ffc24": {
-    "asset": 1771481954558,
-    "meta": 1771481955377,
-    "relativePath": "Games\\1_Jaipuria\\VO\\Incorrect VO"
-  },
-  "fe7d926e-adee-4ac9-90e1-184f30c17f33": {
-    "asset": 1771481954182,
-    "meta": 1771481955401,
-    "relativePath": "Games\\1_Jaipuria\\End Words\\yay.png"
-  },
-  "9abaaffd-a5b9-4fa8-a936-8441bdf704aa": {
-    "asset": 1771481954183,
-    "meta": 1771481955402,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\dialogue box.png"
-  },
-  "01d44024-0469-462a-b691-aa74c2de3e9e": {
-    "asset": 1771481954186,
-    "meta": 1771481955413,
-    "relativePath": "Games\\1_Jaipuria\\End Words\\good job.png"
-  },
-  "24a2eb35-a6e2-41f3-bfb7-5dcfa72db372": {
-    "asset": 1771481954186,
-    "meta": 1771481955415,
-    "relativePath": "Games\\1_Jaipuria\\End Words\\fantastic.png"
-  },
-  "4957434b-5887-4c11-8a43-53572015fe14": {
-    "asset": 1771481954187,
-    "meta": 1771481955418,
-    "relativePath": "Games\\1_Jaipuria\\End Words\\well done.png"
-  },
-  "bbcfdf41-cef3-4b2e-a375-ef7b45f4d932": {
-    "asset": 1771481954184,
-    "meta": 1771481955443,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\p2 (1).png"
-  },
-  "c4f4063c-8c1e-44c4-ba0d-383831c34af2": {
-    "asset": 1771481954184,
-    "meta": 1771481955447,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\p2.png"
-  },
-  "d7929b81-7cf5-4096-ab2f-5b92467525ab": {
-    "asset": 1771481954183,
-    "meta": 1771481955450,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\loading bar_1.png"
-  },
-  "0f679360-028e-4f02-997d-e09f75f87f67": {
-    "asset": 1771481954183,
-    "meta": 1771481955454,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\End.png"
-  },
-  "7d812312-18bb-4260-b593-157b6fbc3a17": {
-    "asset": 1771481954183,
-    "meta": 1771481955462,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\Play.png"
-  },
-  "fbfea684-872f-41e4-976f-7685d31b188f": {
-    "asset": 1771481954185,
-    "meta": 1771481955467,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\skip button_1.png"
-  },
-  "4ce02dca-a605-4220-b956-f98dc34d9083": {
-    "asset": 1771481954184,
-    "meta": 1771481955469,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\logo.png"
-  },
-  "a6200391-aba3-40ee-b79a-9aab630566b8": {
-    "asset": 1771481954183,
-    "meta": 1771481955473,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\image box.png"
-  },
-  "c4abfc46-5d83-492e-99b6-34c197eca509": {
-    "asset": 1771481954567,
-    "meta": 1771481955478,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\anim.anim"
-  },
-  "46438e63-6672-4a2c-a3ad-5a68a62d0f6a": {
-    "asset": 1771481954567,
-    "meta": 1771481955481,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\anim2.anim"
-  },
-  "9e82bf17-0e6b-4776-9fd9-38aa2a9cc62d": {
-    "asset": 1771481954185,
-    "meta": 1771481955508,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\timer.png"
-  },
-  "a976f28d-78ee-407a-b20b-59a041c7e8cb": {
-    "asset": 1771481954565,
-    "meta": 1771481955517,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0001.png"
-  },
-  "13d876a1-2ec3-4c1b-a393-9f83f0a40b6d": {
-    "asset": 1771481954567,
-    "meta": 1771481955531,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\Bg.png"
-  },
-  "def6f28c-ad8c-4ee6-bda4-01d5c6f4de1e": {
-    "asset": 1771481954567,
-    "meta": 1771481955540,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0003.png"
-  },
-  "c574a7d4-47d5-4bba-aa26-ec8a4ef96385": {
-    "asset": 1771481954566,
-    "meta": 1771481955544,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0004.png"
-  },
-  "ff53c149-8895-48ad-971e-d8facc3d9814": {
-    "asset": 1771481954650,
-    "meta": 1771481955546,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Crayon"
-  },
-  "a5be83ab-9275-4569-9713-13053a2fdcf3": {
-    "asset": 1771481954614,
-    "meta": 1771481955548,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Pencil"
-  },
-  "5e55423d-4bf6-4ee0-87c9-eb95ad538899": {
-    "asset": 1771481954668,
-    "meta": 1771481955549,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Sharpner"
-  },
-  "f77ea21d-2931-4275-a723-8e19aa73137b": {
-    "asset": 1771481954566,
-    "meta": 1771481955561,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0005.png"
-  },
-  "16f78ad3-f179-4850-8de6-7e41ee8c680e": {
-    "asset": 1771481954565,
-    "meta": 1771481955573,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0002.png"
-  },
-  "bd6f2904-7e67-405b-b61b-b7a76501e3e4": {
-    "asset": 1771481954580,
-    "meta": 1771481955582,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0008.png"
-  },
-  "15657575-9a31-4130-aec2-d6886e8ecc00": {
-    "asset": 1771481954580,
-    "meta": 1771481955586,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0011.png"
-  },
-  "f628eef8-80d1-4cf4-ae8f-20a7e9f562f9": {
-    "asset": 1771481954567,
-    "meta": 1771481955602,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0010.png"
-  },
-  "bf6ef363-423d-4dce-bf49-729db87001f0": {
-    "asset": 1771481954580,
-    "meta": 1771481955605,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0009.png"
-  },
-  "7a8ca274-8546-4bf2-a215-b0389716d967": {
-    "asset": 1771481954566,
-    "meta": 1771481955607,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0007.png"
-  },
-  "6688030a-806b-4c5e-a1bd-bd130a8bdd60": {
-    "asset": 1771481954566,
-    "meta": 1771481955617,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0006.png"
-  },
-  "399f3ff4-94be-412e-a973-9c87d4d84538": {
-    "asset": 1771481954668,
-    "meta": 1771481957007,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Bag\\Bag.json"
-  },
-  "ac318689-2fba-4d97-b7eb-e1a7e0cbb40d": {
-    "asset": 1771481955073,
-    "meta": 1771481955629,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny"
-  },
-  "d7c54a7a-a89a-4834-a16a-f145233d9f41": {
-    "asset": 1771481955074,
-    "meta": 1771481955630,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan"
-  },
-  "f7ea8324-6202-44fe-8e61-c337f4d945a9": {
-    "asset": 1771481955075,
-    "meta": 1771481955630,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin"
-  },
-  "4ade2d9d-df11-4eeb-862f-62a9585b472f": {
-    "asset": 1771481955078,
-    "meta": 1771481955631,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise"
-  },
-  "659b62aa-f9d9-4b5f-b62a-22b3a0f17b05": {
-    "asset": 1771481954685,
-    "meta": 1771481957025,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Compass\\compass.json"
-  },
-  "7c72c675-1a4e-4aef-8589-653d23f149a8": {
-    "asset": 1771481954682,
-    "meta": 1771481957063,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Crayon\\Crayon.json"
-  },
-  "5d975364-49a7-4dc2-80da-c1e9462d4b60": {
-    "asset": 1771481954562,
-    "meta": 1771481955678,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Bag\\Bag.atlas"
-  },
-  "4f5a3ca1-0880-447c-ad77-50e0c8642c1d": {
-    "asset": 1771481954563,
-    "meta": 1771481955687,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Compass\\compass.atlas"
-  },
-  "d2ae89cf-a50d-4b3b-afdf-a8ed9f965c1a": {
-    "asset": 1771481954567,
-    "meta": 1771481955707,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0012.png"
-  },
-  "7d7c7f3e-dd62-417b-be87-3272f07ec1be": {
-    "asset": 1771481954686,
-    "meta": 1771481957047,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Pencil\\Pencil.json"
-  },
-  "d7fabe77-4ff1-4285-a07a-2181ed3dd06c": {
-    "asset": 1771481954563,
-    "meta": 1771481955718,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Crayon\\Crayon.atlas"
-  },
-  "0c98e403-34ac-474c-933f-720ad8fb1f56": {
-    "asset": 1771481954567,
-    "meta": 1771481955720,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0013.png"
-  },
-  "e1498789-8140-4a2f-867c-ef63741f33ce": {
-    "asset": 1771481954567,
-    "meta": 1771481955721,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0014.png"
-  },
-  "bc314b66-7d99-47a0-9a02-dd087c2a357d": {
-    "asset": 1771481954567,
-    "meta": 1771481955724,
-    "relativePath": "Games\\1_Jaipuria\\Animation\\Transition03\\Transition0015.png"
-  },
-  "669552c2-ab73-422b-a8c0-43cbb5c3195e": {
-    "asset": 1771481954564,
-    "meta": 1771481955730,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Pencil\\Pencil.atlas"
-  },
-  "f4a60b2e-d2c1-4349-9e8a-009826c1ac06": {
-    "asset": 1771481954593,
-    "meta": 1771481957037,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Sharpner\\Shrpnpener.json"
-  },
-  "4a68ae6a-5e7d-4abd-b56e-b8f22563a1ed": {
-    "asset": 1771481954564,
-    "meta": 1771481955749,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Sharpner\\Shrpnpener.atlas"
-  },
-  "e2b27112-5851-42bc-ad49-2960016f070e": {
-    "asset": 1771481954592,
-    "meta": 1771481955831,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Crayon\\Crayon.png"
-  },
-  "7c40060c-e9ec-4f49-be15-f426da9b58fc": {
-    "asset": 1771481954571,
-    "meta": 1771481955850,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Compass\\compass.png"
-  },
-  "b8d8d877-028d-4fca-905d-7f4c654cbf8b": {
-    "asset": 1771481954590,
-    "meta": 1771481955889,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Bag\\Bag.png"
-  },
-  "5de1b2eb-5448-4c9b-b1d3-56481e6a4e4e": {
-    "asset": 1771481954565,
-    "meta": 1771481955919,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Sharpner\\Shrpnpener2.png"
-  },
-  "5f268982-f520-4d2d-b552-01bc4ac0ff21": {
-    "asset": 1771481954568,
-    "meta": 1771481955921,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\roughArea_assets\\Asset 10-8.png"
-  },
-  "8d717003-bdd5-4f9c-bd44-8e5d954fd5e5": {
-    "asset": 1771481954565,
-    "meta": 1771481955933,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Sharpner\\Shrpnpener5.png"
-  },
-  "6b7fbd9f-56cd-4ede-aba0-a783c61d5a1e": {
-    "asset": 1771481954576,
-    "meta": 1771481955947,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Sharpner\\Shrpnpener3.png"
-  },
-  "e64588fc-5cc4-4517-afb8-f413bc5ebef5": {
-    "asset": 1771481954565,
-    "meta": 1771481955961,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Sharpner\\Shrpnpener4.png"
-  },
-  "71293f65-839f-4837-818e-e541434dd7e7": {
-    "asset": 1771481954678,
-    "meta": 1771481955982,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Pencil\\Pencil.png"
-  },
-  "62e35f80-7245-4f49-807a-7d520182d451": {
-    "asset": 1771481954568,
-    "meta": 1771481955985,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\roughArea_assets\\Asset 11-8.png"
-  },
-  "dcb7a33f-a64a-4450-9fb8-f6bf536a7383": {
-    "asset": 1771481954568,
-    "meta": 1771481955986,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\roughArea_assets\\Asset 12-8.png"
-  },
-  "b8b2ea98-2e9f-4c9e-b919-3cfbd1258114": {
-    "asset": 1771481954576,
-    "meta": 1771481956002,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Sharpner\\Shrpnpener.png"
-  },
-  "71ab1285-f3b5-4da9-a653-5232136c8237": {
-    "asset": 1771481954568,
-    "meta": 1771481956017,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\roughArea_assets\\Asset 13-8.png"
-  },
-  "6f5262cd-94a0-4178-b227-a4cd9f8f301f": {
-    "asset": 1771481954568,
-    "meta": 1771481956026,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\roughArea_assets\\blankSc.png"
-  },
-  "4e38b4f7-7f63-4108-8dc9-150d328dbbb1": {
-    "asset": 1771481954568,
-    "meta": 1771481956029,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\roughArea_assets\\bgRough.png"
-  },
-  "f250fafb-56fa-4008-9402-8947fc179ad8": {
-    "asset": 1771481954568,
-    "meta": 1771481956033,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\roughArea_assets\\Asset 16-8.png"
-  },
-  "14e16130-9856-4302-9612-01305bbca4ac": {
-    "asset": 1771481954571,
-    "meta": 1771481956307,
-    "relativePath": "Games\\1_Jaipuria\\VO\\CorrectVO\\P5.mp3"
-  },
-  "8a81d8dd-86ef-42bd-9b70-8ff7d8b4628f": {
-    "asset": 1771481954593,
-    "meta": 1771481956317,
-    "relativePath": "Games\\1_Jaipuria\\VO\\Incorrect VO\\N1.mp3"
-  },
-  "3aa59a65-75e5-4f7b-b59c-56f0e74a54c1": {
-    "asset": 1771481954186,
-    "meta": 1771481956320,
-    "relativePath": "Games\\1_Jaipuria\\VO\\play (1).mp3"
-  },
-  "84212f6b-1785-4513-9671-f3a3c9bd0265": {
-    "asset": 1771481954568,
-    "meta": 1771481956336,
-    "relativePath": "Games\\1_Jaipuria\\VO\\CorrectVO\\P4.mp3"
-  },
-  "cf1d0e98-3db7-4156-bd13-a041822a14a8": {
-    "asset": 1771481954186,
-    "meta": 1771481956339,
-    "relativePath": "Games\\1_Jaipuria\\VO\\introVO.mp3"
-  },
-  "326b80f5-a63f-4259-89ae-849d5a624660": {
-    "asset": 1771481954568,
-    "meta": 1771481956342,
-    "relativePath": "Games\\1_Jaipuria\\VO\\CorrectVO\\P3.mp3"
-  },
-  "c2dd7166-8566-4373-8685-f1cdc19b7713": {
-    "asset": 1771481954568,
-    "meta": 1771481956345,
-    "relativePath": "Games\\1_Jaipuria\\VO\\CorrectVO\\P2.mp3"
-  },
-  "316071fc-8f9c-4bde-a009-2c6513c99261": {
-    "asset": 1771481954569,
-    "meta": 1771481956348,
-    "relativePath": "Games\\1_Jaipuria\\VO\\CorrectVO\\P9.mp3"
-  },
-  "4f6c7f39-4ada-4712-81d5-c504a5bf6eab": {
-    "asset": 1771481954569,
-    "meta": 1771481956351,
-    "relativePath": "Games\\1_Jaipuria\\VO\\CorrectVO\\P6.mp3"
-  },
-  "d6f7f359-be45-48d5-b1a0-1f6d0689b977": {
-    "asset": 1771481954569,
-    "meta": 1771481956354,
-    "relativePath": "Games\\1_Jaipuria\\VO\\Incorrect VO\\N10.mp3"
-  },
-  "264259db-42dc-43bf-b3ae-8806bc1a3121": {
-    "asset": 1771481954588,
-    "meta": 1771481956362,
-    "relativePath": "Games\\1_Jaipuria\\VO\\CorrectVO\\P7.mp3"
-  },
-  "0d638ab9-0c7e-466a-bbd1-87f9dfa39cbb": {
-    "asset": 1771481954587,
-    "meta": 1771481956365,
-    "relativePath": "Games\\1_Jaipuria\\VO\\CorrectVO\\P10.mp3"
-  },
-  "f61211f4-3639-4b1f-853a-09ab10391005": {
-    "asset": 1771481954569,
-    "meta": 1771481956367,
-    "relativePath": "Games\\1_Jaipuria\\VO\\CorrectVO\\P8.mp3"
-  },
-  "e74d8320-b9f1-4b19-8a84-a57bf96551e8": {
-    "asset": 1771481954588,
-    "meta": 1771481956374,
-    "relativePath": "Games\\1_Jaipuria\\VO\\CorrectVO\\P1.mp3"
-  },
-  "c609cdf7-de5f-4238-981b-7b5abd477fae": {
-    "asset": 1771481954693,
-    "meta": 1771481957084,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Crayon\\Crayon intro.json"
-  },
-  "5913247a-ff9b-4370-894f-5d8fdb141385": {
-    "asset": 1771481954684,
-    "meta": 1771481957078,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Pencil\\Pencil.json"
-  },
-  "391d7ef0-28d1-4c61-bb17-905d4f565022": {
-    "asset": 1771481954681,
-    "meta": 1771481956398,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\roughArea_assets\\pop-up.wav"
-  },
-  "3ab0f921-8415-4594-9cd6-5b15070ffd7d": {
-    "asset": 1771481954681,
-    "meta": 1771481956402,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Crayon\\Crayon intro.atlas"
-  },
-  "834cb59d-0865-4019-927b-00b208fcc5bc": {
-    "asset": 1771481955098,
-    "meta": 1771481956404,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio"
-  },
-  "f5c8b02c-c892-48d7-aafd-6d4ed83ed2af": {
-    "asset": 1771481954915,
-    "meta": 1771481957093,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Sharpner\\Compass.json"
-  },
-  "40f06a93-b7a2-4c34-a5bd-a080334fbbbe": {
-    "asset": 1771481955111,
-    "meta": 1771481956413,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\output"
-  },
-  "cc8d9f8b-c6d1-4a20-a40b-741521bd96f7": {
-    "asset": 1771481955122,
-    "meta": 1771481956414,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio"
-  },
-  "6640cd09-1723-45b4-bd9b-a8221af15f0b": {
-    "asset": 1771481955135,
-    "meta": 1771481956415,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\output"
-  },
-  "dad8c0d8-88fc-47a8-8261-6bef716b6413": {
-    "asset": 1771481955148,
-    "meta": 1771481956416,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio"
-  },
-  "e66e6b5c-353f-447e-beb0-258a56df3c86": {
-    "asset": 1771481955164,
-    "meta": 1771481956417,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\output"
-  },
-  "323ded71-e583-4d91-991f-ea1e42b84767": {
-    "asset": 1771481955175,
-    "meta": 1771481956417,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio"
-  },
-  "23ce3e62-6080-4870-8fd5-1bbe1c90af21": {
-    "asset": 1771481955189,
-    "meta": 1771481956419,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\output"
-  },
-  "ccf662ed-cb7b-4e25-a83f-295c5c55706b": {
-    "asset": 1771481954569,
-    "meta": 1771481956420,
-    "relativePath": "Games\\1_Jaipuria\\VO\\Timer (1).mp3"
-  },
-  "91bf59d8-cfc2-46d7-a572-fc5a2405a6da": {
-    "asset": 1771481954681,
-    "meta": 1771481956423,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Pencil\\Pencil.atlas"
-  },
-  "6f541c50-b154-48e8-bc71-416a28c97e8a": {
-    "asset": 1771481954569,
-    "meta": 1771481956427,
-    "relativePath": "Games\\1_Jaipuria\\VO\\Incorrect VO\\N2.mp3"
-  },
-  "dbfc1744-5fd8-4c6a-8c52-fb65fe61bb1b": {
-    "asset": 1771481954569,
-    "meta": 1771481956431,
-    "relativePath": "Games\\1_Jaipuria\\VO\\Incorrect VO\\N3.mp3"
-  },
-  "2f2bc11a-7ca1-4e3c-baa9-96236d7d99d8": {
-    "asset": 1771481954569,
-    "meta": 1771481956437,
-    "relativePath": "Games\\1_Jaipuria\\VO\\Incorrect VO\\N4.mp3"
-  },
-  "dbf0e873-24f8-473d-b063-8c803efab330": {
-    "asset": 1771481954682,
-    "meta": 1771481956443,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Sharpner\\Compass.atlas"
-  },
-  "fe762d9d-f296-434f-9891-7a13776e8c47": {
-    "asset": 1771481954569,
-    "meta": 1771481956446,
-    "relativePath": "Games\\1_Jaipuria\\VO\\Incorrect VO\\N6.mp3"
-  },
-  "db5d3e3c-9068-400f-9cc4-f973fab89a18": {
-    "asset": 1771481954569,
-    "meta": 1771481956451,
-    "relativePath": "Games\\1_Jaipuria\\VO\\Incorrect VO\\N7.mp3"
-  },
-  "ccb04739-1db5-40af-81e9-13f1baec8d1a": {
-    "asset": 1771481954583,
-    "meta": 1771481956454,
-    "relativePath": "Games\\1_Jaipuria\\VO\\Incorrect VO\\N9.mp3"
-  },
-  "b5c42854-440e-4834-a0f2-0ff01f69de0e": {
-    "asset": 1771481954569,
-    "meta": 1771481956458,
-    "relativePath": "Games\\1_Jaipuria\\VO\\Incorrect VO\\N8.mp3"
-  },
-  "3119565a-fbd1-4cac-a066-d105008aa7e9": {
-    "asset": 1771481954590,
-    "meta": 1771481956464,
-    "relativePath": "Games\\1_Jaipuria\\VO\\Incorrect VO\\N5.mp3"
-  },
-  "ebb96bc0-da71-48fa-80c9-aef82a7394af": {
-    "asset": 1771481954939,
-    "meta": 1771481956485,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\negative_1.mp3"
-  },
-  "cb76d477-d03b-4c4c-a968-3a3e540ffc11": {
-    "asset": 1771481954950,
-    "meta": 1771481957113,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\output\\Corny.json"
-  },
-  "ae8dd727-df50-4ae2-96e8-b3c54dfba8d6": {
-    "asset": 1771481954918,
-    "meta": 1771481956511,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\negative_3.mp3"
-  },
-  "9f5e24fb-e517-4cb2-a42b-c740dbbb2486": {
-    "asset": 1771481954925,
-    "meta": 1771481956515,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\negative_2.mp3"
-  },
-  "a6eb29ed-3fe2-47a7-a22c-90071c4d661e": {
-    "asset": 1771481954919,
-    "meta": 1771481956518,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\output\\Corny.atlas"
-  },
-  "88c0cac8-31ed-485a-909c-9c4554caba11": {
-    "asset": 1771481954926,
-    "meta": 1771481956527,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\negative_4.mp3"
-  },
-  "6b2a8002-b71d-4757-baf1-080322a56865": {
-    "asset": 1771481954957,
-    "meta": 1771481956532,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio.zip"
-  },
-  "90fe8cc5-bb5e-44ee-b2b9-4af805b589a1": {
-    "asset": 1771481954918,
-    "meta": 1771481956535,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\positive_1.mp3"
-  },
-  "ad1cca7d-2153-4131-a32e-75d338af84cc": {
-    "asset": 1771481954926,
-    "meta": 1771481956539,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\negative_5.mp3"
-  },
-  "7d05bb04-b238-4667-aebb-f9c3425b3889": {
-    "asset": 1771481954949,
-    "meta": 1771481956555,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Pencil\\Pencil.png"
-  },
-  "4d6a6869-9872-46f4-ba20-732806955ae3": {
-    "asset": 1771481954955,
-    "meta": 1771481956561,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Crayon\\Crayon intro.png"
-  },
-  "0c00f173-9165-49b9-bffa-6ec241657acc": {
-    "asset": 1771481954918,
-    "meta": 1771481956565,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\positive_2.mp3"
-  },
-  "c9757459-f91f-4879-a150-486025a47126": {
-    "asset": 1771481954918,
-    "meta": 1771481956574,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\positive_5.mp3"
-  },
-  "77eb02b0-5ce4-4e91-a9c4-2c4a21f6ff6b": {
-    "asset": 1771481954918,
-    "meta": 1771481956588,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\positive_3.mp3"
-  },
-  "4c19ae2a-5f0b-4b6d-9cb7-345fcd408d72": {
-    "asset": 1771481954918,
-    "meta": 1771481956593,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\positive_4.mp3"
-  },
-  "71c0c52d-420b-4b77-95ae-936b816b872a": {
-    "asset": 1771481954953,
-    "meta": 1771481957102,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\output\\Muskaan.json"
-  },
-  "a3891196-d64e-4b0d-96ca-21988c43c965": {
-    "asset": 1771481954919,
-    "meta": 1771481956617,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\output\\Muskaan.atlas"
-  },
-  "c404ed9d-7685-49fb-a212-50104e92bb5f": {
-    "asset": 1771481954916,
-    "meta": 1771481956620,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\N1.mp3"
-  },
-  "74c558f9-6244-465a-96eb-593cd591ab28": {
-    "asset": 1771481954924,
-    "meta": 1771481956626,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\N2.mp3"
-  },
-  "3162fac2-a249-44c6-9012-fcc57de09ab6": {
-    "asset": 1771481954917,
-    "meta": 1771481956634,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\N3.mp3"
-  },
-  "dfb006ff-f697-414c-8660-b1e785b53656": {
-    "asset": 1771481954946,
-    "meta": 1771481956640,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\N4.mp3"
-  },
-  "4384d4f8-571c-4757-b77c-e23594890bd6": {
-    "asset": 1771481954917,
-    "meta": 1771481956646,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\P3.mp3"
-  },
-  "b778d044-7806-450b-8d69-9a54e780f90e": {
-    "asset": 1771481954917,
-    "meta": 1771481956649,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\P2.mp3"
-  },
-  "44a46b6e-e955-4a75-9a29-9f8e1850209a": {
-    "asset": 1771481954917,
-    "meta": 1771481956654,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\P1.mp3"
-  },
-  "42252a97-756d-4d70-8887-101e58439e83": {
-    "asset": 1771481954939,
-    "meta": 1771481956658,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\N5.mp3"
-  },
-  "62031b00-6d18-421b-90bf-92b152ea60b7": {
-    "asset": 1771481954925,
-    "meta": 1771481956662,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\P5.mp3"
-  },
-  "d512b77d-649e-4939-8c3c-f96edc1bc0fc": {
-    "asset": 1771481954918,
-    "meta": 1771481956715,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\negative_1.mp3"
-  },
-  "aadad4e6-f5fb-47c8-9e16-5379fa078caa": {
-    "asset": 1771481954961,
-    "meta": 1771481956725,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\1Intro_Jockey\\Sharpner\\Compass.png"
-  },
-  "ebc74775-4af4-437f-a35e-2894d4115ce3": {
-    "asset": 1771481954918,
-    "meta": 1771481956731,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\negative_2.mp3"
-  },
-  "e1694a05-5d2d-4278-b455-a67fbf4f9dcc": {
-    "asset": 1771481954917,
-    "meta": 1771481956736,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\P4.mp3"
-  },
-  "4dcff85c-fe60-450a-8508-fa2c762d31a1": {
-    "asset": 1771481954952,
-    "meta": 1771481957125,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\output\\Muskaan.json"
-  },
-  "4680968a-642f-4b65-8262-b9e6512084d9": {
-    "asset": 1771481954919,
-    "meta": 1771481956767,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\output\\Muskaan.atlas"
-  },
-  "d8d9b99d-544b-4ca8-b261-6d05e47af7b7": {
-    "asset": 1771481954959,
-    "meta": 1771481956771,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\output\\Muskaan.png"
-  },
-  "05a39269-8056-4bcd-a572-9f35007e3035": {
-    "asset": 1771481954918,
-    "meta": 1771481956777,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\negative_3.mp3"
-  },
-  "4a741504-7987-4e35-ada7-4005dd20dc0c": {
-    "asset": 1771481954930,
-    "meta": 1771481956784,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\negative_4.mp3"
-  },
-  "793874c3-1f26-48c7-bf4e-c7e9a8472c7d": {
-    "asset": 1771481954930,
-    "meta": 1771481956788,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\negative_5.mp3"
-  },
-  "9f5a85f3-9fed-4a58-a1ac-01e15a92384e": {
-    "asset": 1771481954919,
-    "meta": 1771481956797,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\positive_3.mp3"
-  },
-  "13a73b61-f481-4643-a04b-653458e1df9e": {
-    "asset": 1771481954919,
-    "meta": 1771481956800,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\positive_1.mp3"
-  },
-  "f8f0b447-59f1-4198-809e-5ad035e095c9": {
-    "asset": 1771481954919,
-    "meta": 1771481956803,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\positive_4.mp3"
-  },
-  "710f102b-59bf-4f14-9a53-823f5a5e965c": {
-    "asset": 1771481954919,
-    "meta": 1771481956816,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\positive_5.mp3"
-  },
-  "f621e56c-a09d-4843-b12c-e7c434faa3c0": {
-    "asset": 1771481954919,
-    "meta": 1771481956821,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\positive_2.mp3"
-  },
-  "ffc3e2ac-b5f9-4685-a699-a4cb51ebe530": {
-    "asset": 1771481954935,
-    "meta": 1771481956828,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\negative_1.mp3"
-  },
-  "3e9fce5b-0b1a-4f8b-afe7-3c16b5def8c5": {
-    "asset": 1771481954950,
-    "meta": 1771481957135,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\output\\Muskaan.json"
-  },
-  "523ba4b9-d5ea-4d6d-b4f9-79c9264a6f65": {
-    "asset": 1771481954935,
-    "meta": 1771481956847,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\negative_3.mp3"
-  },
-  "bb71f1df-95b3-43e8-8b19-6229866ab870": {
-    "asset": 1771481954920,
-    "meta": 1771481956851,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\negative_2.mp3"
-  },
-  "bff7a39b-41c4-47b9-904e-e12325e11679": {
-    "asset": 1771481954935,
-    "meta": 1771481956854,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\negative_4.mp3"
-  },
-  "2806acb0-46c3-4d21-904d-989b5897d7da": {
-    "asset": 1771481954953,
-    "meta": 1771481956859,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\output\\Muskaan.png"
-  },
-  "e5d30592-a754-4822-b688-502dacb4a2a6": {
-    "asset": 1771481954935,
-    "meta": 1771481956863,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\negative_5.mp3"
-  },
-  "c18ea9b3-a003-4190-b719-810f3fa1f2a9": {
-    "asset": 1771481954921,
-    "meta": 1771481956866,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\positive_1.mp3"
-  },
-  "f2109140-cec7-4945-b2c2-0640959e5401": {
-    "asset": 1771481954921,
-    "meta": 1771481956871,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\positive_3.mp3"
-  },
-  "7747df83-b16b-41a8-9b85-f5fcbc8b9e65": {
-    "asset": 1771481954946,
-    "meta": 1771481956874,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\output\\Muskaan.atlas"
-  },
-  "8bf2c149-9e43-4fe0-b484-dc4c5555cb74": {
-    "asset": 1771481954937,
-    "meta": 1771481956878,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\positive_4.mp3"
-  },
-  "a5a50b94-d244-4a77-ad32-cba0f1d00021": {
-    "asset": 1771481954921,
-    "meta": 1771481956882,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\positive_2.mp3"
-  },
-  "0eb3dc39-700a-468b-811b-a33afbf724b6": {
-    "asset": 1771481954953,
-    "meta": 1771481956885,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\positive_5.mp3"
-  },
-  "8ff264db-990c-4e51-8d63-2b8098f5cf2e": {
-    "asset": 1771481954957,
-    "meta": 1771481956917,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\output\\Muskaan.png"
-  },
-  "daa9a437-1c04-4a15-b3ef-995377001ba7": {
-    "asset": 1771481954965,
-    "meta": 1771481956943,
-    "relativePath": "Games\\1_Jaipuria\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\output\\Corny.png"
-  },
-  "f1dbdbb7-c7a8-4416-87b4-774725199bf7": {
-    "asset": 1771482087450,
-    "meta": 1771482087489,
-    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\big and small.png"
-  },
-  "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
-    "asset": 1771482232642,
-    "meta": 1771482233254,
-    "relativePath": "Framework\\Scripts\\StartGame.ts"
-  },
   "e73cd483-a0a5-4abc-ad44-2e2d8cce4a08": {
-    "asset": 1771482488681,
-    "meta": 1771482488683,
+    "asset": 1771482497765,
+    "meta": 1771483567191,
     "relativePath": "Games\\MainAssets"
   },
   "497aff04-26a1-4728-95f4-f32017956a6c": {
@@ -4438,5 +3458,1205 @@
     "asset": 1771482787756,
     "meta": 1771482788368,
     "relativePath": "resources\\audios\\Tiger.mp3"
+  },
+  "a2d22bda-732c-4860-be5b-992bd2d831dd": {
+    "asset": 1771483518964,
+    "meta": 1771483519037,
+    "relativePath": "Games\\1_Jaipuria"
+  },
+  "9652f393-26db-4fec-9f72-5936f9ee05fd": {
+    "asset": 1771483518800,
+    "meta": 1771483519039,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO"
+  },
+  "4ccd9bea-37ae-4f1c-9399-7244e3815b89": {
+    "asset": 1771483518806,
+    "meta": 1771483519040,
+    "relativePath": "Games\\1_Jaipuria\\End Words"
+  },
+  "39cdb121-5894-4b14-82ca-b53433205934": {
+    "asset": 1771483518800,
+    "meta": 1771483519041,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO"
+  },
+  "70993430-6fa4-45ef-a216-8624b24edebf": {
+    "asset": 1771483518750,
+    "meta": 1771483519095,
+    "relativePath": "Games\\1_Jaipuria\\JaipuriaJockey.ts"
+  },
+  "8f631f2c-3cbe-4b50-9149-3ea4824ec51e": {
+    "asset": 1771483518812,
+    "meta": 1771483519097,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys"
+  },
+  "5b316b99-273f-41ab-9e00-a9a7ac851b73": {
+    "asset": 1771483518806,
+    "meta": 1771483519099,
+    "relativePath": "Games\\1_Jaipuria\\Loading"
+  },
+  "fbb71fe0-03ba-4655-b891-9293b972d841": {
+    "asset": 1771483518809,
+    "meta": 1771483519101,
+    "relativePath": "Games\\1_Jaipuria\\Prefab"
+  },
+  "d813e0d6-6067-47cf-943c-d566b37a4cc8": {
+    "asset": 1771483518754,
+    "meta": 1771483519103,
+    "relativePath": "Games\\1_Jaipuria\\SassoonInfantMd-Medium.ttf"
+  },
+  "01abb908-eeea-4ce2-8ad0-036d0a2f672a": {
+    "asset": 1771483539683,
+    "meta": 1771483567192,
+    "relativePath": "Games\\1_Jaipuria\\TitleAssets"
+  },
+  "24a2eb35-a6e2-41f3-bfb7-5dcfa72db372": {
+    "asset": 1771483518877,
+    "meta": 1771483519260,
+    "relativePath": "Games\\1_Jaipuria\\End Words\\fantastic.png"
+  },
+  "01d44024-0469-462a-b691-aa74c2de3e9e": {
+    "asset": 1771483518878,
+    "meta": 1771483519267,
+    "relativePath": "Games\\1_Jaipuria\\End Words\\good job.png"
+  },
+  "fe7d926e-adee-4ac9-90e1-184f30c17f33": {
+    "asset": 1771483518829,
+    "meta": 1771483519298,
+    "relativePath": "Games\\1_Jaipuria\\End Words\\yay.png"
+  },
+  "4957434b-5887-4c11-8a43-53572015fe14": {
+    "asset": 1771483518878,
+    "meta": 1771483519301,
+    "relativePath": "Games\\1_Jaipuria\\End Words\\well done.png"
+  },
+  "67cb969f-8164-4298-9477-8842e2884e64": {
+    "asset": 1771483518826,
+    "meta": 1771483520172,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO\\Good Job.mp3"
+  },
+  "82c5945e-b5ab-4e34-a641-2c875017b67e": {
+    "asset": 1771483518825,
+    "meta": 1771483520178,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO\\Beautiful Work.mp3"
+  },
+  "edf6acf8-bcb3-4153-bdfe-d24bbe052ada": {
+    "asset": 1771483518827,
+    "meta": 1771483520184,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO\\Sensational.mp3"
+  },
+  "f6eb40b3-a336-49ae-915f-5a1f843ea53b": {
+    "asset": 1771483518821,
+    "meta": 1771483520191,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\Do not give up, try again.mp3"
+  },
+  "08fc2835-c9fb-4a31-9c85-13260abd3735": {
+    "asset": 1771483518827,
+    "meta": 1771483520200,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO\\Perfect.mp3"
+  },
+  "2930d334-b519-45bd-9c97-5f0073dee946": {
+    "asset": 1771483518858,
+    "meta": 1771483520208,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO\\Admirable work.mp3"
+  },
+  "35d8bcd5-c373-4e92-9a9f-e050e3fc9cac": {
+    "asset": 1771483518827,
+    "meta": 1771483520213,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO\\Impressive work.mp3"
+  },
+  "ae4c508c-abf5-454b-bda9-f03b0e2e6d87": {
+    "asset": 1771483518826,
+    "meta": 1771483520220,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO\\Gorgeous work.mp3"
+  },
+  "8832b435-4a45-4ab7-8367-91a8a7b8f064": {
+    "asset": 1771483518825,
+    "meta": 1771483520225,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO\\Fantastic.mp3"
+  },
+  "aa693a0b-082a-4eec-a07f-76e970f8016f": {
+    "asset": 1771483518872,
+    "meta": 1771483520233,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO\\Impressive.mp3"
+  },
+  "3191efd3-b1b9-469e-b5c3-0c27e6ed0d91": {
+    "asset": 1771483518821,
+    "meta": 1771483520237,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\Give it another go.mp3"
+  },
+  "1f52bb8a-7146-4791-9986-677a00e2b669": {
+    "asset": 1771483518862,
+    "meta": 1771483520241,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO\\Genius kid.mp3"
+  },
+  "f87cdc1e-4b20-4723-aa52-dd021c1248fe": {
+    "asset": 1771483518825,
+    "meta": 1771483520245,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO\\Bang on.mp3"
+  },
+  "17f413b6-b3d9-451f-a8cc-06162e99aa39": {
+    "asset": 1771483518825,
+    "meta": 1771483520250,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO\\Excellent job.mp3"
+  },
+  "dd9469dd-85ac-46fb-9eaf-ba7c1c2cb6c9": {
+    "asset": 1771483518867,
+    "meta": 1771483520252,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO\\Magnificent.mp3"
+  },
+  "53ab7efd-9316-4cc9-8ddc-6753c44035b8": {
+    "asset": 1771483518825,
+    "meta": 1771483520257,
+    "relativePath": "Games\\1_Jaipuria\\CorrectVO\\Brilliant.mp3"
+  },
+  "3c6e19ec-cbb3-40be-943d-f130e5fb8117": {
+    "asset": 1771483518893,
+    "meta": 1771483520260,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\Bag"
+  },
+  "7e83fe72-3c37-4d77-bc03-d6d9b725b08c": {
+    "asset": 1771483518893,
+    "meta": 1771483520264,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\Crayon"
+  },
+  "17c8cc5e-b1c6-41f4-ab17-67c709fdd413": {
+    "asset": 1771483518894,
+    "meta": 1771483520266,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\pencil"
+  },
+  "1c50c11f-5f8f-4258-a9a3-24f17d46faf6": {
+    "asset": 1771483518894,
+    "meta": 1771483520267,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\sharpner"
+  },
+  "1a6295d1-aefa-489d-953d-748d4bb87e54": {
+    "asset": 1771483518827,
+    "meta": 1771483520281,
+    "relativePath": "Games\\1_Jaipuria\\Loading\\skeleton.atlas"
+  },
+  "0ba028a4-6f30-4ec2-8954-c9c72ca08e9c": {
+    "asset": 1771483518822,
+    "meta": 1771483520285,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\Give it another shot-.mp3"
+  },
+  "b37c1571-417e-4669-a0fb-3b0fa1d9a761": {
+    "asset": 1771483518827,
+    "meta": 1771483520797,
+    "relativePath": "Games\\1_Jaipuria\\Loading\\skeleton.json"
+  },
+  "ec902e4f-4836-4f0f-9572-8399a14732f4": {
+    "asset": 1771483518829,
+    "meta": 1771483520304,
+    "relativePath": "Games\\1_Jaipuria\\Prefab\\BG.prefab"
+  },
+  "892e135f-cfcc-49f4-b91d-922d73c9a5a8": {
+    "asset": 1771483518894,
+    "meta": 1771483520306,
+    "relativePath": "Games\\1_Jaipuria\\Prefab\\Buttons"
+  },
+  "51abd0df-bfd8-4c47-9c0a-da56d9681ca0": {
+    "asset": 1771483518824,
+    "meta": 1771483520314,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\let_s retry this once more.mp3"
+  },
+  "70725362-611c-426b-ab11-d7305ad4974f": {
+    "asset": 1771483518822,
+    "meta": 1771483520321,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\Might have to try that again.mp3"
+  },
+  "6bb4a640-4619-453d-88d9-7c362a070f04": {
+    "asset": 1771483518821,
+    "meta": 1771483520325,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\Have another try-.mp3"
+  },
+  "19a489ef-e8a2-4222-adfc-aa703c2ab16d": {
+    "asset": 1771483518824,
+    "meta": 1771483520332,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\nevermind, try again.mp3"
+  },
+  "9f23302f-3f72-4c1d-8f37-4ab22f58ecb5": {
+    "asset": 1771483518827,
+    "meta": 1771483520337,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\uhh uhh have another go!.mp3"
+  },
+  "08c04c2a-9657-4457-b789-cb632efe15c3": {
+    "asset": 1771483518823,
+    "meta": 1771483520341,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\Slow down try again-.mp3"
+  },
+  "8b79602a-84d9-42e5-aa64-44b2ea117af2": {
+    "asset": 1771483518821,
+    "meta": 1771483520347,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\Let_s attempt it again-.mp3"
+  },
+  "f25ba28a-8fd9-4762-bc12-740e9749350f": {
+    "asset": 1771483518822,
+    "meta": 1771483520352,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\Shall we try again.mp3"
+  },
+  "96858bdc-a028-4cd5-b3c6-8388c59981ef": {
+    "asset": 1771483518905,
+    "meta": 1771483520354,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\Bag\\output"
+  },
+  "f35270eb-df90-4f28-84d2-d5a17bed8cca": {
+    "asset": 1771483518911,
+    "meta": 1771483520358,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\Crayon\\output"
+  },
+  "03d0b797-1d1e-4919-9c13-9daac4930270": {
+    "asset": 1771483518907,
+    "meta": 1771483520361,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\pencil\\output"
+  },
+  "f9d4b375-65d5-47f4-970d-13249207c3e6": {
+    "asset": 1771483518911,
+    "meta": 1771483520364,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\sharpner\\output"
+  },
+  "d6aae5ac-7f3c-4ff2-9c9d-2fe25497ee18": {
+    "asset": 1771483518824,
+    "meta": 1771483520366,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\let_s try this over again.mp3"
+  },
+  "d0f7f48b-a910-4c31-9496-74d0b648d621": {
+    "asset": 1771483518822,
+    "meta": 1771483520369,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\Oh dear! Try again.mp3"
+  },
+  "13efe164-0ef6-4c04-88f0-6e6a994474be": {
+    "asset": 1771483518822,
+    "meta": 1771483520372,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\Oops! take another go.mp3"
+  },
+  "d7994f3a-fb75-4b54-ac45-9603b6bd45c2": {
+    "asset": 1771483518823,
+    "meta": 1771483520376,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\There_s no hurry, try again.mp3"
+  },
+  "9e510e0e-4c09-4665-9dbf-65a15799eb96": {
+    "asset": 1771483518830,
+    "meta": 1771483520383,
+    "relativePath": "Games\\1_Jaipuria\\Prefab\\end.prefab"
+  },
+  "a7713cda-3f7f-449f-ba1b-7d2f8982d1c2": {
+    "asset": 1771483518823,
+    "meta": 1771483520387,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\Whoopsie! try again.mp3"
+  },
+  "808fa59a-0ccb-414e-b985-d1b685eb7388": {
+    "asset": 1771483518822,
+    "meta": 1771483520396,
+    "relativePath": "Games\\1_Jaipuria\\Incorrect VO\\Oopsie try once more.mp3"
+  },
+  "a2e30aee-8e1f-4c08-9d63-f01b46b52ef1": {
+    "asset": 1771483518830,
+    "meta": 1771483520402,
+    "relativePath": "Games\\1_Jaipuria\\Prefab\\endScreenJockey.prefab"
+  },
+  "bf826df2-95d3-4bd4-a546-08c6ff2cd7ce": {
+    "asset": 1771483518830,
+    "meta": 1771483520407,
+    "relativePath": "Games\\1_Jaipuria\\Prefab\\jockey.prefab"
+  },
+  "f6f1b5cd-b122-43bc-8072-4503d46ac05e": {
+    "asset": 1771483518831,
+    "meta": 1771483520420,
+    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\effect2.prefab"
+  },
+  "33554333-4e44-4de8-aee8-207c9184d5bf": {
+    "asset": 1771483518896,
+    "meta": 1771483520425,
+    "relativePath": "Games\\1_Jaipuria\\Prefab\\Buttons\\Play.prefab"
+  },
+  "8122014a-c5f9-41d8-ac9a-8902b4b95b7e": {
+    "asset": 1771483518895,
+    "meta": 1771483520428,
+    "relativePath": "Games\\1_Jaipuria\\Prefab\\Buttons\\pulsate.anim"
+  },
+  "c8741d48-0f67-49e0-a975-6cc4f4708fb1": {
+    "asset": 1771483518877,
+    "meta": 1771483520437,
+    "relativePath": "Games\\1_Jaipuria\\Loading\\skeleton.png"
+  },
+  "37b5f362-8269-4ed4-8bb4-88656a7f70ec": {
+    "asset": 1771483518923,
+    "meta": 1771483520825,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\Bag\\output\\Bag.json"
+  },
+  "73f65733-36b0-4fcb-8213-c82d3ddbc94f": {
+    "asset": 1771483518923,
+    "meta": 1771483520834,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\Crayon\\output\\Crayon.json"
+  },
+  "479c7cb0-73db-4398-9c57-8724d280ad35": {
+    "asset": 1771483518930,
+    "meta": 1771483520851,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\pencil\\output\\Pencil.json"
+  },
+  "b85e3e65-8348-4595-ab5b-bba31c34bc08": {
+    "asset": 1771483518911,
+    "meta": 1771483520487,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\Bag\\output\\Bag.atlas"
+  },
+  "ccdf0bb5-76ea-45ce-ac06-fd00c97cc1f0": {
+    "asset": 1771483518913,
+    "meta": 1771483520492,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\Crayon\\output\\Crayon.atlas"
+  },
+  "8f584579-6460-4007-bfab-63b2797a49c9": {
+    "asset": 1771483518923,
+    "meta": 1771483520876,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\sharpner\\output\\Shrpnpener.json"
+  },
+  "c4f4063c-8c1e-44c4-ba0d-383831c34af2": {
+    "asset": 1771483518832,
+    "meta": 1771483520507,
+    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\p2.png"
+  },
+  "3aa59a65-75e5-4f7b-b59c-56f0e74a54c1": {
+    "asset": 1771483518895,
+    "meta": 1771483520514,
+    "relativePath": "Games\\1_Jaipuria\\Prefab\\Buttons\\play (1).mp3"
+  },
+  "bbcfdf41-cef3-4b2e-a375-ef7b45f4d932": {
+    "asset": 1771483518832,
+    "meta": 1771483520517,
+    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\p2 (1).png"
+  },
+  "7d812312-18bb-4260-b593-157b6fbc3a17": {
+    "asset": 1771483518895,
+    "meta": 1771483520520,
+    "relativePath": "Games\\1_Jaipuria\\Prefab\\Buttons\\Play.png"
+  },
+  "0f679360-028e-4f02-997d-e09f75f87f67": {
+    "asset": 1771483518895,
+    "meta": 1771483520523,
+    "relativePath": "Games\\1_Jaipuria\\Prefab\\Buttons\\End.png"
+  },
+  "ed4feb6a-7967-4839-bdfe-fcec7c5322e1": {
+    "asset": 1771483518917,
+    "meta": 1771483520526,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\sharpner\\output\\Shrpnpener.atlas"
+  },
+  "8caf73fd-ef46-4e3c-9d5e-1b17227ddd13": {
+    "asset": 1771483518912,
+    "meta": 1771483520529,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\pencil\\output\\Pencil.atlas"
+  },
+  "023cbe00-1726-4929-85ff-c574b65005d7": {
+    "asset": 1771483518884,
+    "meta": 1771483520588,
+    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\Bg.png"
+  },
+  "669a7212-40da-46bd-ae41-6caf13498dfe": {
+    "asset": 1771483518913,
+    "meta": 1771483520595,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\sharpner\\output\\Shrpnpener5.png"
+  },
+  "9c85606e-36b7-4442-a674-f6a201e8f8a3": {
+    "asset": 1771483518918,
+    "meta": 1771483520637,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\sharpner\\output\\Shrpnpener2.png"
+  },
+  "09ba8e49-d3d4-48b3-91d1-1aa39e77a54b": {
+    "asset": 1771483518931,
+    "meta": 1771483520644,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\pencil\\output\\Pencil.png"
+  },
+  "f468f366-92a4-4abf-8d73-c6a346354753": {
+    "asset": 1771483518920,
+    "meta": 1771483520665,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\sharpner\\output\\Shrpnpener3.png"
+  },
+  "562511a6-332f-41f7-8569-afa1d9b676d0": {
+    "asset": 1771483518920,
+    "meta": 1771483520676,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\sharpner\\output\\Shrpnpener4.png"
+  },
+  "56486392-f2b2-48a2-ada6-c813ede3b90d": {
+    "asset": 1771483518943,
+    "meta": 1771483520679,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\Crayon\\output\\Crayon.png"
+  },
+  "8e38476c-6f37-44cd-89c6-6433443dd5df": {
+    "asset": 1771483518927,
+    "meta": 1771483520714,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\sharpner\\output\\Shrpnpener.png"
+  },
+  "34fbee74-de0c-45db-aaa1-b7a2f84e5c52": {
+    "asset": 1771483518945,
+    "meta": 1771483520771,
+    "relativePath": "Games\\1_Jaipuria\\Jockeys\\Bag\\output\\Bag.png"
+  },
+  "4ce02dca-a605-4220-b956-f98dc34d9083": {
+    "asset": 1771483539693,
+    "meta": 1771483539737,
+    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\logo.png"
+  },
+  "50d495e8-a13f-48c8-b9e4-1399f7272205": {
+    "asset": 1771483582897,
+    "meta": 1771483582937,
+    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\big and small.png"
+  },
+  "1484f91c-8646-4394-9198-a84237725610": {
+    "asset": 1771483707081,
+    "meta": 1771483707085,
+    "relativePath": "Games\\1_Jaipuria\\New"
+  },
+  "58f59128-5640-48fa-8abe-fe4c1a40b4b1": {
+    "asset": 1771483723673,
+    "meta": 1771483724103,
+    "relativePath": "Games\\1_Jaipuria\\New\\jaipuria4.ttf"
+  },
+  "40b738dd-906e-4bff-a8f6-64794a830f64": {
+    "asset": 1771483723688,
+    "meta": 1771483724104,
+    "relativePath": "Games\\1_Jaipuria\\New\\scripts"
+  },
+  "a971e6e1-355a-4c0d-a7b3-4fbf5c622635": {
+    "asset": 1771483723698,
+    "meta": 1771483724129,
+    "relativePath": "Games\\1_Jaipuria\\New\\scripts\\graphics.ts"
+  },
+  "be6f0543-424c-444d-b173-9929ea14c076": {
+    "asset": 1771483723698,
+    "meta": 1771483724162,
+    "relativePath": "Games\\1_Jaipuria\\New\\scripts\\introduction.ts"
+  },
+  "a8b24936-dafd-4faa-b664-dddc68088b94": {
+    "asset": 1771483723699,
+    "meta": 1771483724183,
+    "relativePath": "Games\\1_Jaipuria\\New\\scripts\\roughArea.ts"
+  },
+  "0ab6a535-da3b-45ea-8ad0-20e7ec2e4379": {
+    "asset": 1771483723721,
+    "meta": 1771483724184,
+    "relativePath": "Games\\1_Jaipuria\\New\\End Words"
+  },
+  "2e7f551f-ed5b-4050-bc0c-b5988915b116": {
+    "asset": 1771483723684,
+    "meta": 1771483724188,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO"
+  },
+  "381369fb-6cf2-42ae-94cb-e5d42c73a938": {
+    "asset": 1771483723718,
+    "meta": 1771483724188,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\CorrectVO"
+  },
+  "6e28a7e3-743c-4148-b80d-cb622f3ffc24": {
+    "asset": 1771483723731,
+    "meta": 1771483724189,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\Incorrect VO"
+  },
+  "cb8b7f62-bae2-46fa-a169-4bba4f0ddd09": {
+    "asset": 1771483723740,
+    "meta": 1771483724267,
+    "relativePath": "Games\\1_Jaipuria\\New\\End Words\\yay.png"
+  },
+  "0785599c-109d-4035-8169-02147ea1b8c7": {
+    "asset": 1771483723749,
+    "meta": 1771483724276,
+    "relativePath": "Games\\1_Jaipuria\\New\\End Words\\good job.png"
+  },
+  "c6f23b05-5833-438c-86fc-05f125281800": {
+    "asset": 1771483723750,
+    "meta": 1771483724277,
+    "relativePath": "Games\\1_Jaipuria\\New\\End Words\\well done.png"
+  },
+  "c468e68a-959f-4846-8312-121ba27a2bbc": {
+    "asset": 1771483723749,
+    "meta": 1771483724279,
+    "relativePath": "Games\\1_Jaipuria\\New\\End Words\\fantastic.png"
+  },
+  "0d638ab9-0c7e-466a-bbd1-87f9dfa39cbb": {
+    "asset": 1771483723746,
+    "meta": 1771483724658,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\CorrectVO\\P10.mp3"
+  },
+  "326b80f5-a63f-4259-89ae-849d5a624660": {
+    "asset": 1771483723736,
+    "meta": 1771483724660,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\CorrectVO\\P3.mp3"
+  },
+  "84212f6b-1785-4513-9671-f3a3c9bd0265": {
+    "asset": 1771483723747,
+    "meta": 1771483724663,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\CorrectVO\\P4.mp3"
+  },
+  "14e16130-9856-4302-9612-01305bbca4ac": {
+    "asset": 1771483723739,
+    "meta": 1771483724668,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\CorrectVO\\P5.mp3"
+  },
+  "8899ccf2-2409-4d5e-b13f-4b01c7b89f41": {
+    "asset": 1771483723696,
+    "meta": 1771483724671,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\play (1).mp3"
+  },
+  "6f541c50-b154-48e8-bc71-416a28c97e8a": {
+    "asset": 1771483723741,
+    "meta": 1771483724675,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\Incorrect VO\\N2.mp3"
+  },
+  "cf1d0e98-3db7-4156-bd13-a041822a14a8": {
+    "asset": 1771483723696,
+    "meta": 1771483724678,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\introVO.mp3"
+  },
+  "c2dd7166-8566-4373-8685-f1cdc19b7713": {
+    "asset": 1771483723738,
+    "meta": 1771483724680,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\CorrectVO\\P2.mp3"
+  },
+  "3c45ac55-611a-4188-bdd9-c3f163317718": {
+    "asset": 1771483723903,
+    "meta": 1771483724681,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey"
+  },
+  "b9e36d05-69a3-4123-b008-8b4ace2852c5": {
+    "asset": 1771483723734,
+    "meta": 1771483724683,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\1Intro_Jockey"
+  },
+  "735b37dd-5eae-4261-99f6-c85512106d9c": {
+    "asset": 1771483723735,
+    "meta": 1771483724684,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Bag"
+  },
+  "fdf57b32-457b-421a-af48-b6208956404c": {
+    "asset": 1771483723736,
+    "meta": 1771483724688,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Compass"
+  },
+  "7d27e3be-1b4a-438d-abed-0ebcb321f64a": {
+    "asset": 1771483723738,
+    "meta": 1771483724690,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Crayon"
+  },
+  "8eb29ae6-7536-4997-9ce2-9b4cd43be832": {
+    "asset": 1771483723963,
+    "meta": 1771483724690,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey"
+  },
+  "293647b0-ee34-4317-bb10-033548736011": {
+    "asset": 1771483723740,
+    "meta": 1771483724692,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Pencil"
+  },
+  "ed69f482-66cd-4c3d-b4ab-de222c53b528": {
+    "asset": 1771483723746,
+    "meta": 1771483724693,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Sharpner"
+  },
+  "ff53c149-8895-48ad-971e-d8facc3d9814": {
+    "asset": 1771483723770,
+    "meta": 1771483724694,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\1Intro_Jockey\\Crayon"
+  },
+  "a5be83ab-9275-4569-9713-13053a2fdcf3": {
+    "asset": 1771483723771,
+    "meta": 1771483724695,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\1Intro_Jockey\\Pencil"
+  },
+  "5e55423d-4bf6-4ee0-87c9-eb95ad538899": {
+    "asset": 1771483723785,
+    "meta": 1771483724696,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\1Intro_Jockey\\Sharpner"
+  },
+  "4f6c7f39-4ada-4712-81d5-c504a5bf6eab": {
+    "asset": 1771483723739,
+    "meta": 1771483724699,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\CorrectVO\\P6.mp3"
+  },
+  "316071fc-8f9c-4bde-a009-2c6513c99261": {
+    "asset": 1771483723739,
+    "meta": 1771483724704,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\CorrectVO\\P9.mp3"
+  },
+  "d6f7f359-be45-48d5-b1a0-1f6d0689b977": {
+    "asset": 1771483723741,
+    "meta": 1771483724705,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\Incorrect VO\\N10.mp3"
+  },
+  "8a81d8dd-86ef-42bd-9b70-8ff7d8b4628f": {
+    "asset": 1771483723740,
+    "meta": 1771483724708,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\Incorrect VO\\N1.mp3"
+  },
+  "f61211f4-3639-4b1f-853a-09ab10391005": {
+    "asset": 1771483723739,
+    "meta": 1771483724715,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\CorrectVO\\P8.mp3"
+  },
+  "264259db-42dc-43bf-b3ae-8806bc1a3121": {
+    "asset": 1771483723748,
+    "meta": 1771483724717,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\CorrectVO\\P7.mp3"
+  },
+  "e74d8320-b9f1-4b19-8a84-a57bf96551e8": {
+    "asset": 1771483723746,
+    "meta": 1771483724718,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\CorrectVO\\P1.mp3"
+  },
+  "399f3ff4-94be-412e-a973-9c87d4d84538": {
+    "asset": 1771483723782,
+    "meta": 1771483725584,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Bag\\Bag.json"
+  },
+  "659b62aa-f9d9-4b5f-b62a-22b3a0f17b05": {
+    "asset": 1771483723778,
+    "meta": 1771483725576,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Compass\\compass.json"
+  },
+  "03fff9ab-d5ed-482b-982f-d7ee3e8906e8": {
+    "asset": 1771483723988,
+    "meta": 1771483724744,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny"
+  },
+  "1fdcfd88-5eec-4678-a5c5-980d3e06f5ea": {
+    "asset": 1771483723989,
+    "meta": 1771483724745,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan"
+  },
+  "9a415086-5068-45db-b660-50ddc7386cb7": {
+    "asset": 1771483723991,
+    "meta": 1771483724746,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin"
+  },
+  "948b7741-0032-49c0-afdf-cc3285d7e2f6": {
+    "asset": 1771483723992,
+    "meta": 1771483724748,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise"
+  },
+  "ccf662ed-cb7b-4e25-a83f-295c5c55706b": {
+    "asset": 1771483723732,
+    "meta": 1771483724752,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\Timer (1).mp3"
+  },
+  "7c72c675-1a4e-4aef-8589-653d23f149a8": {
+    "asset": 1771483723783,
+    "meta": 1771483725615,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Crayon\\Crayon.json"
+  },
+  "5d975364-49a7-4dc2-80da-c1e9462d4b60": {
+    "asset": 1771483723754,
+    "meta": 1771483724770,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Bag\\Bag.atlas"
+  },
+  "7d7c7f3e-dd62-417b-be87-3272f07ec1be": {
+    "asset": 1771483723817,
+    "meta": 1771483725639,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Pencil\\Pencil.json"
+  },
+  "d7fabe77-4ff1-4285-a07a-2181ed3dd06c": {
+    "asset": 1771483723755,
+    "meta": 1771483724785,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Crayon\\Crayon.atlas"
+  },
+  "4f5a3ca1-0880-447c-ad77-50e0c8642c1d": {
+    "asset": 1771483723754,
+    "meta": 1771483724787,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Compass\\compass.atlas"
+  },
+  "dbfc1744-5fd8-4c6a-8c52-fb65fe61bb1b": {
+    "asset": 1771483723741,
+    "meta": 1771483724795,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\Incorrect VO\\N3.mp3"
+  },
+  "669552c2-ab73-422b-a8c0-43cbb5c3195e": {
+    "asset": 1771483723755,
+    "meta": 1771483724798,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Pencil\\Pencil.atlas"
+  },
+  "f4a60b2e-d2c1-4349-9e8a-009826c1ac06": {
+    "asset": 1771483723765,
+    "meta": 1771483725605,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Sharpner\\Shrpnpener.json"
+  },
+  "2f2bc11a-7ca1-4e3c-baa9-96236d7d99d8": {
+    "asset": 1771483723741,
+    "meta": 1771483724822,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\Incorrect VO\\N4.mp3"
+  },
+  "ccb04739-1db5-40af-81e9-13f1baec8d1a": {
+    "asset": 1771483723742,
+    "meta": 1771483724825,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\Incorrect VO\\N9.mp3"
+  },
+  "b5c42854-440e-4834-a0f2-0ff01f69de0e": {
+    "asset": 1771483723742,
+    "meta": 1771483724831,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\Incorrect VO\\N8.mp3"
+  },
+  "fe762d9d-f296-434f-9891-7a13776e8c47": {
+    "asset": 1771483723742,
+    "meta": 1771483724835,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\Incorrect VO\\N6.mp3"
+  },
+  "db5d3e3c-9068-400f-9cc4-f973fab89a18": {
+    "asset": 1771483723741,
+    "meta": 1771483724838,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\Incorrect VO\\N7.mp3"
+  },
+  "3119565a-fbd1-4cac-a066-d105008aa7e9": {
+    "asset": 1771483723752,
+    "meta": 1771483724846,
+    "relativePath": "Games\\1_Jaipuria\\New\\VO\\Incorrect VO\\N5.mp3"
+  },
+  "4a68ae6a-5e7d-4abd-b56e-b8f22563a1ed": {
+    "asset": 1771483723757,
+    "meta": 1771483724852,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Sharpner\\Shrpnpener.atlas"
+  },
+  "c609cdf7-de5f-4238-981b-7b5abd477fae": {
+    "asset": 1771483723789,
+    "meta": 1771483725627,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\1Intro_Jockey\\Crayon\\Crayon intro.json"
+  },
+  "5913247a-ff9b-4370-894f-5d8fdb141385": {
+    "asset": 1771483723788,
+    "meta": 1771483725631,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\1Intro_Jockey\\Pencil\\Pencil.json"
+  },
+  "7c40060c-e9ec-4f49-be15-f426da9b58fc": {
+    "asset": 1771483723761,
+    "meta": 1771483724910,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Compass\\compass.png"
+  },
+  "ee4619ea-0c41-47cf-a72b-4d33166133ef": {
+    "asset": 1771483724012,
+    "meta": 1771483724913,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio"
+  },
+  "b8d8d877-028d-4fca-905d-7f4c654cbf8b": {
+    "asset": 1771483723770,
+    "meta": 1771483724942,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Bag\\Bag.png"
+  },
+  "5d146f48-cad0-4261-ab88-11ef71f59d56": {
+    "asset": 1771483724026,
+    "meta": 1771483724944,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\output"
+  },
+  "566c9b7f-2e4d-465e-bc82-61adfd58eb00": {
+    "asset": 1771483724034,
+    "meta": 1771483724947,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio"
+  },
+  "af77c219-697f-4005-9051-268fba5fb888": {
+    "asset": 1771483724047,
+    "meta": 1771483724948,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\output"
+  },
+  "71bd2344-07a9-4d56-8a79-800d460f3c8e": {
+    "asset": 1771483724059,
+    "meta": 1771483724951,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio"
+  },
+  "109fdd87-1875-412c-8eb3-fc66a1a51325": {
+    "asset": 1771483724072,
+    "meta": 1771483724952,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\output"
+  },
+  "90c92eaa-c73c-45c7-ad09-cc3001cd18f3": {
+    "asset": 1771483724084,
+    "meta": 1771483724953,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio"
+  },
+  "45d9b19f-f8c4-4b23-9187-c70054764b0c": {
+    "asset": 1771483724097,
+    "meta": 1771483724954,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\output"
+  },
+  "e2b27112-5851-42bc-ad49-2960016f070e": {
+    "asset": 1771483723765,
+    "meta": 1771483724966,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Crayon\\Crayon.png"
+  },
+  "3ab0f921-8415-4594-9cd6-5b15070ffd7d": {
+    "asset": 1771483723785,
+    "meta": 1771483724969,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\1Intro_Jockey\\Crayon\\Crayon intro.atlas"
+  },
+  "71293f65-839f-4837-818e-e541434dd7e7": {
+    "asset": 1771483723775,
+    "meta": 1771483724987,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Pencil\\Pencil.png"
+  },
+  "f5c8b02c-c892-48d7-aafd-6d4ed83ed2af": {
+    "asset": 1771483723789,
+    "meta": 1771483725620,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\1Intro_Jockey\\Sharpner\\Compass.json"
+  },
+  "91bf59d8-cfc2-46d7-a572-fc5a2405a6da": {
+    "asset": 1771483723781,
+    "meta": 1771483725000,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\1Intro_Jockey\\Pencil\\Pencil.atlas"
+  },
+  "5de1b2eb-5448-4c9b-b1d3-56481e6a4e4e": {
+    "asset": 1771483723763,
+    "meta": 1771483725033,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Sharpner\\Shrpnpener2.png"
+  },
+  "8d717003-bdd5-4f9c-bd44-8e5d954fd5e5": {
+    "asset": 1771483723764,
+    "meta": 1771483725069,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Sharpner\\Shrpnpener5.png"
+  },
+  "e64588fc-5cc4-4517-afb8-f413bc5ebef5": {
+    "asset": 1771483723758,
+    "meta": 1771483725081,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Sharpner\\Shrpnpener4.png"
+  },
+  "6b7fbd9f-56cd-4ede-aba0-a783c61d5a1e": {
+    "asset": 1771483723757,
+    "meta": 1771483725094,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Sharpner\\Shrpnpener3.png"
+  },
+  "b8b2ea98-2e9f-4c9e-b919-3cfbd1258114": {
+    "asset": 1771483723765,
+    "meta": 1771483725102,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Sharpner\\Shrpnpener.png"
+  },
+  "dbf0e873-24f8-473d-b063-8c803efab330": {
+    "asset": 1771483723782,
+    "meta": 1771483725109,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\1Intro_Jockey\\Sharpner\\Compass.atlas"
+  },
+  "e9025e26-324d-4f1e-aef1-163e96b247b1": {
+    "asset": 1771483723835,
+    "meta": 1771483725598,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\output\\Corny.json"
+  },
+  "832e4e7c-cf28-4fb2-bf0d-00f8d721f132": {
+    "asset": 1771483723820,
+    "meta": 1771483725143,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\negative_1.mp3"
+  },
+  "f7a87f13-e895-4d21-b52d-70527e583760": {
+    "asset": 1771483723820,
+    "meta": 1771483725149,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\negative_2.mp3"
+  },
+  "85f4f87d-6d1f-4e46-92a3-17ec1843717c": {
+    "asset": 1771483723819,
+    "meta": 1771483725152,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\output\\Corny.atlas"
+  },
+  "87d8c18a-5411-42a0-881d-397c0f2bd2ad": {
+    "asset": 1771483723832,
+    "meta": 1771483725160,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio.zip"
+  },
+  "20aff523-10f2-4df6-8456-aef6837f56aa": {
+    "asset": 1771483723820,
+    "meta": 1771483725188,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\negative_3.mp3"
+  },
+  "430603b7-5612-41ec-b8cf-de27b6a8e574": {
+    "asset": 1771483723825,
+    "meta": 1771483725190,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\negative_4.mp3"
+  },
+  "a09ce9d8-70d9-4ba6-8e43-884b2c5e48bd": {
+    "asset": 1771483723820,
+    "meta": 1771483725193,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\positive_1.mp3"
+  },
+  "7d05bb04-b238-4667-aebb-f9c3425b3889": {
+    "asset": 1771483723835,
+    "meta": 1771483725203,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\1Intro_Jockey\\Pencil\\Pencil.png"
+  },
+  "4d6a6869-9872-46f4-ba20-732806955ae3": {
+    "asset": 1771483723836,
+    "meta": 1771483725212,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\1Intro_Jockey\\Crayon\\Crayon intro.png"
+  },
+  "b0c65d11-70bd-4909-b749-0cf7de2de0a3": {
+    "asset": 1771483723820,
+    "meta": 1771483725216,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\positive_2.mp3"
+  },
+  "fb898fad-3854-4b0a-a1a5-4791ba7de048": {
+    "asset": 1771483723825,
+    "meta": 1771483725220,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\negative_5.mp3"
+  },
+  "9dadd2df-acde-4cfc-a9f0-da46d15d5d70": {
+    "asset": 1771483723820,
+    "meta": 1771483725225,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\positive_3.mp3"
+  },
+  "74ee82fd-7bb6-410e-bda8-95c32137b470": {
+    "asset": 1771483723820,
+    "meta": 1771483725234,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\positive_4.mp3"
+  },
+  "f6296a7d-d730-4b5f-831d-9a598b04df39": {
+    "asset": 1771483723820,
+    "meta": 1771483725236,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\audio\\positive_5.mp3"
+  },
+  "786faae0-3477-455e-87d8-ff39dce7d3b3": {
+    "asset": 1771483723831,
+    "meta": 1771483725658,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\output\\Muskaan.json"
+  },
+  "0e0d53da-2aa3-4fcf-945c-94b6d2aef38e": {
+    "asset": 1771483723817,
+    "meta": 1771483725254,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\N1.mp3"
+  },
+  "db21f117-51fa-4389-89f3-2ba279a814c6": {
+    "asset": 1771483723819,
+    "meta": 1771483725260,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\output\\Muskaan.atlas"
+  },
+  "660f5358-0bdc-4243-b647-00faafa14c38": {
+    "asset": 1771483723820,
+    "meta": 1771483725268,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\N3.mp3"
+  },
+  "c6353ad0-84f1-4af1-babd-9be0a3411d55": {
+    "asset": 1771483723817,
+    "meta": 1771483725272,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\N2.mp3"
+  },
+  "b8f1fcf3-a404-4c84-a1db-95d38fb9fba8": {
+    "asset": 1771483723818,
+    "meta": 1771483725282,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\P2.mp3"
+  },
+  "14c6e057-e34a-462c-8269-11c6579feff2": {
+    "asset": 1771483723818,
+    "meta": 1771483725285,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\P3.mp3"
+  },
+  "702f549c-a173-496e-bacd-146a33400f76": {
+    "asset": 1771483723818,
+    "meta": 1771483725288,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\P1.mp3"
+  },
+  "7d175091-e8df-4663-a920-74f5c70fdf27": {
+    "asset": 1771483723823,
+    "meta": 1771483725293,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\N4.mp3"
+  },
+  "8629afe9-895d-49ce-8782-c12326890d78": {
+    "asset": 1771483723824,
+    "meta": 1771483725296,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\N5.mp3"
+  },
+  "97ea992c-7bcb-45d2-bed3-6abd492df131": {
+    "asset": 1771483723819,
+    "meta": 1771483725300,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\P4.mp3"
+  },
+  "0df79bd7-eb84-4c4f-bd58-0ef0da9f9bb6": {
+    "asset": 1771483723819,
+    "meta": 1771483725316,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\audio\\P5.mp3"
+  },
+  "0a3e3ccd-4393-49c0-a279-b02094171629": {
+    "asset": 1771483723821,
+    "meta": 1771483725319,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\negative_1.mp3"
+  },
+  "dcca3de6-13d3-42ce-a56e-1587fa6b760b": {
+    "asset": 1771483723832,
+    "meta": 1771483725678,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\output\\Muskaan.json"
+  },
+  "075443c8-8c10-4bb0-a345-f5c1a560d72b": {
+    "asset": 1771483723822,
+    "meta": 1771483725336,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\negative_2.mp3"
+  },
+  "aadad4e6-f5fb-47c8-9e16-5379fa078caa": {
+    "asset": 1771483723841,
+    "meta": 1771483725344,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\1Intro_Jockey\\Sharpner\\Compass.png"
+  },
+  "3a463360-a982-4c76-bec1-baf08d8b9f93": {
+    "asset": 1771483723822,
+    "meta": 1771483725357,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\negative_3.mp3"
+  },
+  "ac9204ce-04c6-47af-b0eb-7bf0d7a72217": {
+    "asset": 1771483723821,
+    "meta": 1771483725362,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\output\\Muskaan.atlas"
+  },
+  "d24e2024-6176-4d4a-9906-182157423a4c": {
+    "asset": 1771483723827,
+    "meta": 1771483725367,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\negative_4.mp3"
+  },
+  "e44786e7-b4bf-4d7b-9095-1c9b0cc6fa2d": {
+    "asset": 1771483723828,
+    "meta": 1771483725371,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\negative_5.mp3"
+  },
+  "10fe0691-0295-4c33-9b00-8c53ac42f11d": {
+    "asset": 1771483723822,
+    "meta": 1771483725378,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\positive_1.mp3"
+  },
+  "6d9e1a0d-dfb3-4c3e-9d5f-3a6b58f1a81a": {
+    "asset": 1771483723822,
+    "meta": 1771483725384,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\positive_3.mp3"
+  },
+  "2dc38ed9-9810-4fab-bda3-f488f4168cec": {
+    "asset": 1771483723822,
+    "meta": 1771483725388,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\positive_2.mp3"
+  },
+  "1162f6b9-958f-4c9b-a97d-924b1ce0600f": {
+    "asset": 1771483723823,
+    "meta": 1771483725393,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\positive_5.mp3"
+  },
+  "c6458d84-4381-48af-86bb-9269e2f3b213": {
+    "asset": 1771483723838,
+    "meta": 1771483725403,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\2Muskaan\\output\\Muskaan.png"
+  },
+  "b0041c57-b171-48a1-86a2-567447466653": {
+    "asset": 1771483723823,
+    "meta": 1771483725407,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\audio\\positive_4.mp3"
+  },
+  "03adee69-e7a6-453b-ae96-0f727ac9afdb": {
+    "asset": 1771483723822,
+    "meta": 1771483725412,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\negative_1.mp3"
+  },
+  "10407842-074e-4c76-9a57-13d500d0ee21": {
+    "asset": 1771483723821,
+    "meta": 1771483725417,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\negative_2.mp3"
+  },
+  "7c3f56e5-2642-46bf-a8cd-0bb35e787592": {
+    "asset": 1771483723821,
+    "meta": 1771483725423,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\negative_3.mp3"
+  },
+  "ab965539-3746-4d24-834c-cafdfbc6f859": {
+    "asset": 1771483723832,
+    "meta": 1771483725667,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\output\\Muskaan.json"
+  },
+  "283d06a4-8c03-4802-a19c-1f514a4a8372": {
+    "asset": 1771483723827,
+    "meta": 1771483725438,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\negative_4.mp3"
+  },
+  "5fcfc790-c222-47b2-b45b-bca879b223f1": {
+    "asset": 1771483723827,
+    "meta": 1771483725442,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\negative_5.mp3"
+  },
+  "95fba17e-91d0-480e-89a7-7545dd335c38": {
+    "asset": 1771483723822,
+    "meta": 1771483725445,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\output\\Muskaan.atlas"
+  },
+  "4ea5467d-ebb9-4b23-9a49-6c6b15e695f6": {
+    "asset": 1771483723821,
+    "meta": 1771483725452,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\positive_1.mp3"
+  },
+  "3efafd94-8c1f-4bcd-99b4-11e3f6c0715f": {
+    "asset": 1771483723821,
+    "meta": 1771483725455,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\positive_2.mp3"
+  },
+  "021a3c15-95d0-4873-ad09-dfb6a3458a68": {
+    "asset": 1771483723838,
+    "meta": 1771483725462,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\3Penguin\\output\\Muskaan.png"
+  },
+  "ade2fa11-aa82-4b68-82d7-fa8490872ddf": {
+    "asset": 1771483723821,
+    "meta": 1771483725477,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\positive_3.mp3"
+  },
+  "7e4c9735-7d7e-41c3-9026-410489db13b9": {
+    "asset": 1771483723821,
+    "meta": 1771483725480,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\positive_4.mp3"
+  },
+  "ba4b078d-250c-457d-8371-a34aca090358": {
+    "asset": 1771483723821,
+    "meta": 1771483725482,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\audio\\positive_5.mp3"
+  },
+  "ce912678-87be-48ad-8372-3a40e7a30592": {
+    "asset": 1771483723840,
+    "meta": 1771483725512,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\4Tortoise\\output\\Muskaan.png"
+  },
+  "b7a4fb1b-fe94-413e-8efa-d55abe9c1408": {
+    "asset": 1771483723851,
+    "meta": 1771483725533,
+    "relativePath": "Games\\1_Jaipuria\\New\\Jaipuria Jockey\\Jaipuria_New_Jockey\\1Corny\\output\\Corny.png"
+  },
+  "4a032870-baa4-4e43-9468-fbb82d1347d9": {
+    "asset": 1771484184145,
+    "meta": 1771484184204,
+    "relativePath": "Games\\1_Jaipuria\\TitleAssets\\star.png"
+  },
+  "006d5565-992d-4574-8e27-b22d29cf1bad": {
+    "asset": 1771484315512,
+    "meta": 1771484315514,
+    "relativePath": "Games\\1_Jaipuria\\Scripts"
+  },
+  "061baa81-f33b-4e75-ab80-b8f8739aaa2b": {
+    "asset": 1771484559059,
+    "meta": 1771484559079,
+    "relativePath": "Games\\1_Jaipuria\\New\\CommonEndAudio"
+  },
+  "3d0ab419-d3be-4699-bba7-aea9a347e0b5": {
+    "asset": 1771484559049,
+    "meta": 1771484559541,
+    "relativePath": "Games\\1_Jaipuria\\New\\CommonEndAudio\\pop-up.mp3"
+  },
+  "da23334d-e607-4c28-8d99-9c9784929882": {
+    "asset": 1771484559050,
+    "meta": 1771484559544,
+    "relativePath": "Games\\1_Jaipuria\\New\\CommonEndAudio\\Yeahh.mp3"
+  },
+  "e0257aac-4f24-4e52-a59e-1a8cc6d8983d": {
+    "asset": 1771484559049,
+    "meta": 1771484559548,
+    "relativePath": "Games\\1_Jaipuria\\New\\CommonEndAudio\\clickNew.mp3"
+  },
+  "48509da8-d9c3-4427-98ab-3d62d6020c19": {
+    "asset": 1771484662081,
+    "meta": 1771484662100,
+    "relativePath": "Games\\1_Jaipuria\\Prefab\\GameEnd.prefab"
+  },
+  "f8505617-4359-4948-a5c9-a3ab16614a4f": {
+    "asset": 1771484702277,
+    "meta": 1771484702858,
+    "relativePath": "Games\\1_Jaipuria\\Scripts\\GameEnd.ts"
+  },
+  "a1b062bf-d849-4381-95f0-eba65139142b": {
+    "asset": 1771484789125,
+    "meta": 1771484789599,
+    "relativePath": "resources\\audios\\B2.mp3"
+  },
+  "22404d7d-33c5-4703-8d03-66642b34d5cc": {
+    "asset": 1771484816873,
+    "meta": 1771484817326,
+    "relativePath": "Games\\WhatWillHappenNext\\Sound\\Correct Answer (1).wav"
+  },
+  "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
+    "asset": 1771484900260,
+    "meta": 1771484900873,
+    "relativePath": "Framework\\Scripts\\StartGame.ts"
   }
 }

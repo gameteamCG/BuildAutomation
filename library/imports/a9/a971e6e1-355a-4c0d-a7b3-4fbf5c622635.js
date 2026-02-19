@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'a971ebhNVpMDaezT79cYiY1', 'graphics');
-// Games/1_Jaipuria/scripts/graphics.ts
+// Games/1_Jaipuria/New/scripts/graphics.ts
 
 "use strict";
 var __extends = (this && this.__extends) || (function () {

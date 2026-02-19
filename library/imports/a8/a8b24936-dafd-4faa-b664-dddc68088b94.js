@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'a8b24k22v1PqrZk3dxoCIuU', 'roughArea');
-// Games/1_Jaipuria/scripts/roughArea.ts
+// Games/1_Jaipuria/New/scripts/roughArea.ts
 
 "use strict";
 var __extends = (this && this.__extends) || (function () {

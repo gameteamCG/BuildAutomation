@@ -2108,7 +2108,7 @@
     ],
     "positiveSound": [
       {
-        "__uuid__": "e69f6909-7104-4430-8958-26c918cbc963"
+        "__uuid__": "22404d7d-33c5-4703-8d03-66642b34d5cc"
       }
     ],
     "negativeSound": [
@@ -2204,16 +2204,16 @@
       "__uuid__": "2ce83f33-1891-40dc-83ff-6f484dd80cb3"
     },
     "podar_font": {
-      "__uuid__": "b109bf26-acba-469a-81e1-019e442a53b4"
+      "__uuid__": "58f59128-5640-48fa-8abe-fe4c1a40b4b1"
     },
     "jaipuria_font": {
-      "__uuid__": "b109bf26-acba-469a-81e1-019e442a53b4"
+      "__uuid__": "58f59128-5640-48fa-8abe-fe4c1a40b4b1"
     },
     "tlc_font": {
-      "__uuid__": "b109bf26-acba-469a-81e1-019e442a53b4"
+      "__uuid__": "58f59128-5640-48fa-8abe-fe4c1a40b4b1"
     },
     "supercub_font": {
-      "__uuid__": "b109bf26-acba-469a-81e1-019e442a53b4"
+      "__uuid__": "58f59128-5640-48fa-8abe-fe4c1a40b4b1"
     },
     "_id": "04CCUW721K9IOPMiQOC81j"
   },
