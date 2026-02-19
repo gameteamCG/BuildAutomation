@@ -41,6 +41,8 @@ var startGame = /** @class */ (function (_super) {
         _this.isAgeParameterNeeded = true;
         _this.LevelAgeParameters = [3, 5, 7];
         _this.isMusicOn = true;
+        _this.loadingBar = null;
+        _this.play_audio = null;
         _this.levelType = "1";
         _this.currentLevel = "1";
         _this.hasAccess = false;
@@ -94,6 +96,24 @@ var startGame = /** @class */ (function (_super) {
         enumerable: false,
         configurable: true
     });
+    startGame.prototype.OnStartGame = function (_event) {
+        cc.audioEngine.playEffect(this.play_audio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        _event.target.active = false;
+        this.loadSceneWithProgress();
+    };
+    startGame.prototype.loadSceneWithProgress = function () {
+        var _this = this;
+        if (this.loadingBar) {
+            this.loadingBar.node.active = true;
+        }
+        cc.director.preloadScene(this.NextSceneName, function (completedCount, totalCount) {
+            var progress = completedCount / totalCount;
+            _this.loadingBar.progress = progress;
+        }, function () {
+            cc.director.loadScene(_this.NextSceneName);
+        });
+    };
     // LIFE-CYCLE CALLBACKS:
     startGame.prototype.onLoad = function () {
         var _this = this;
@@ -349,9 +369,9 @@ var startGame = /** @class */ (function (_super) {
             //     cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             // }
             // if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
-            _this.scheduleOnce(function () {
-                cc.director.loadScene(_this.NextSceneName);
-            }, 2);
+            // this.scheduleOnce(() => {
+            //     cc.director.loadScene(this.NextSceneName);
+            // }, 2);
             // }
         }, 1);
         // this.OnTimer();
@@ -427,6 +447,12 @@ var startGame = /** @class */ (function (_super) {
     __decorate([
         property(Number)
     ], startGame.prototype, "LevelAgeParameters", void 0);
+    __decorate([
+        property(cc.ProgressBar)
+    ], startGame.prototype, "loadingBar", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], startGame.prototype, "play_audio", void 0);
     __decorate([
         property(Boolean)
     ], startGame.prototype, "isPremiumGame", void 0);

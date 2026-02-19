@@ -53,6 +53,11 @@ export default class startGame extends cc.Component {
     @property(Number)
     LevelAgeParameters: number[] = [3, 5, 7];
     isMusicOn: boolean = true;
+    @property(cc.ProgressBar)
+    loadingBar: cc.ProgressBar = null;
+
+    @property(cc.AudioClip)
+    play_audio: cc.AudioClip = null;
 
     levelType: string = "1";
     currentLevel: string = "1";
@@ -108,6 +113,26 @@ export default class startGame extends cc.Component {
 
     static get Instance() {
         return startGame.instance
+    }
+
+     OnStartGame(_event: cc.Event) {
+        cc.audioEngine.playEffect(this.play_audio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        _event.target.active = false;
+        this.loadSceneWithProgress();
+    }
+
+
+    loadSceneWithProgress() {
+        if (this.loadingBar) {
+            this.loadingBar.node.active = true;
+        }
+        cc.director.preloadScene(this.NextSceneName, (completedCount: number, totalCount: number) => {
+            let progress = completedCount / totalCount;
+            this.loadingBar.progress = progress;
+        }, () => {
+            cc.director.loadScene(this.NextSceneName);
+        })
     }
 
     // LIFE-CYCLE CALLBACKS:
@@ -391,9 +416,9 @@ export default class startGame extends cc.Component {
             // }
 
             // if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
-            this.scheduleOnce(() => {
-                cc.director.loadScene(this.NextSceneName);
-            }, 2);
+            // this.scheduleOnce(() => {
+            //     cc.director.loadScene(this.NextSceneName);
+            // }, 2);
             // }
         }, 1);
 
