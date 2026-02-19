@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Letters and sounds Hh_LKG_SB1_25",
-      "totalLevel": "4",
+      "totalLevel": "5",
       "TitleImageName": "title (1).png",
       "introBgName": "Bg(8).png",
       "bgmMusicName": "bgm12.mp3",
@@ -15,37 +15,39 @@
     "questionData": [
       {
         "questionLayout": "layout1",
-        "questionBgName": "sky.png",
-        "questionAudioName": "Tap on the parachutes with the letter H.mp3",
+        "questionBgName": "bg1.png",
+        "questionAudioName": "honey.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 4,
+        "numberOfOptions": 5,
         "options": [
+          "",
           "",
           "",
           "",
           ""
         ],
         "optionsBg": [
-          "L1 (1).png",
-          "L1 (2).png",
-          "L1 (3).png",
-          "L1 (4).png"
+          "L1_a1.png",
+          "L1_a2.png",
+          "L1_w1.png",
+          "L1_w2.png",
+          "L1_w3.png"
         ],
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "H.mp3",
-          "H.mp3",
-          "H.mp3",
-          "H.mp3"
+          "h_Hh.mp3",
+          "h_Hh.mp3",
+          "h_Hh.mp3",
+          "h_Hh.mp3"
         ],
-        "correctAnswerNum": "1234"
+        "correctAnswerNum": "12"
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "L2 (1).png",
-        "questionAudioName": "Tap on the kites with the Letter H.mp3",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "hats.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 5,
@@ -57,78 +59,114 @@
           ""
         ],
         "optionsBg": [
-          "L2 (2).png",
-          "L2 (3).png",
-          "L2 (4).png",
-          "L2 (5).png",
-          "L2 (6).png"
+          "L2_a1.png",
+          "L2_w1.png",
+          "L2_w2.png",
+          "L2_w3.png",
+          "L2_a2.png"
         ],
-        "correctAudioName": "EXCELLENTJOB.mp3",
-        "wrongAudioName": "Oopsietryoncemore.mp3",
-        "reiterationAudioName": [
-          "H.mp3",
-          "H.mp3"
-        ],
-        "correctAnswerNum": "13"
-      },
-      {
-        "questionLayout": "layout1",
-        "questionBgName": "L2 (1).png",
-        "questionAudioName": "Tap on the parachutes with the letter H.mp3",
-        "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
-        "numberOfOptions": 5,
-        "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
-        ],
-        "optionsBg": [
-          "L3 (3).png",
-          "L3 (4).png",
-          "L3 (2).png",
-          "L3 (5).png",
-          "L3 (1).png"
-        ],
-        "correctAudioName": "FANTASTIC.mp3",
-        "wrongAudioName": "ohoh.mp3",
-        "reiterationAudioName": [
-          "H.mp3",
-          "H.mp3"
-        ],
-        "correctAnswerNum": "35"
-      },
-      {
-        "questionLayout": "layout3",
-        "questionBgName": "bg.png",
-        "questionAudioName": "Tap on the images that begin with the letter H.mp3",
-        "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
-        "numberOfOptions": 5,
-        "options": [
-          "L4 (2).png",
-          "L4 (10).png",
-          "L4 (4).png",
-          "L4 (8).png",
-          "L4 (6).png"
-        ],
-        "optionsBg": [
-          "L4 (3).png",
-          "L4 (1).png",
-          "L4 (5).png",
-          "L4 (9).png",
-          "L4 (7).png"
-        ],
-        "correctAudioName": "house, horse, hen.mp3",
+        "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "GOODJOB.mp3",
-          "GREATWORK.mp3",
-          "BRILLIANT.mp3"
+          "h_Hh.mp3",
+          "h_Hh.mp3",
+          "h_Hh.mp3",
+          "h_Hh.mp3"
         ],
-        "correctAnswerNum": "135"
+        "correctAnswerNum": "15"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg 3.png",
+        "questionAudioName": "huts.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "L3_w1.png",
+          "L3_a1.png",
+          "L3_w2.png",
+          "L3_a2.png",
+          "L3_w3.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "h_Hh.mp3",
+          "h_Hh.mp3",
+          "h_Hh.mp3",
+          "h_Hh.mp3"
+        ],
+        "correctAnswerNum": "24"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg 4.png",
+        "questionAudioName": "horse.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "L4_a1.png",
+          "L4_a2.png",
+          "L4_w1.png",
+          "L4_w2.png",
+          "L4_w3.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "h_Hh.mp3",
+          "h_Hh.mp3",
+          "h_Hh.mp3",
+          "h_Hh.mp3"
+        ],
+        "correctAnswerNum": "12"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "bg5.png",
+        "questionAudioName": "hens.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 5,
+        "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "L5_a1.png",
+          "L5_w1.png",
+          "L5_w2.png",
+          "L5_a2.png",
+          "L5_w3.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "h_Hh.mp3",
+          "h_Hh.mp3",
+          "h_Hh.mp3",
+          "h_Hh.mp3"
+        ],
+        "correctAnswerNum": "14"
       }
     ]
   }
