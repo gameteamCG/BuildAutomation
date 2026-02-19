@@ -1128,7 +1128,7 @@ var NewClass = /** @class */ (function (_super) {
             this.scheduleOnce(function () {
                 jockeyNode.getComponent(cc.Animation).play("puzzleStars");
                 jockeyNode.getComponent(cc.Animation).on("finished", (function () {
-                    jockeyNode.getComponent(cc.Animation).play("puzzleIdle");
+                    jockeyNode.getComponent(cc.Animation).play("idel");
                 }), _this);
                 _this.playDustAnim2(Math.round(_this.getRandomInt(5, 8)), _this.getRandomInt(15, 20), options2);
             }, jockeyNode.getComponent(cc.Animation).getClips()[1].duration + this.positiveFeedbackSound[globalVariables_1.default.Instance.currentLevel - 1].duration);
@@ -1142,7 +1142,7 @@ var NewClass = /** @class */ (function (_super) {
             this.scheduleOnce(function () {
                 jockeyNode.getComponent(cc.Animation).play("puzzleStars");
                 jockeyNode.getComponent(cc.Animation).on("finished", (function () {
-                    jockeyNode.getComponent(cc.Animation).play("puzzleIdle");
+                    jockeyNode.getComponent(cc.Animation).play("idel");
                 }), _this);
                 _this.playDustAnim2(Math.round(_this.getRandomInt(5, 8)), _this.getRandomInt(15, 20), options2);
             }, jockeyNode.getComponent(cc.Animation).getClips()[3].duration + this.negativeFeedbackSound[globalVariables_1.default.Instance.currentLevel - 1].duration);

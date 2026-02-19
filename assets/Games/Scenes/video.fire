@@ -5700,7 +5700,7 @@
       "__id__": 117
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 119
@@ -5717,8 +5717,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 409.26,
-      "height": 351.22
+      "width": 809.7,
+      "height": 962.85
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5736,8 +5736,8 @@
         0,
         0,
         1,
-        2,
-        2,
+        1,
+        1,
         1
       ]
     },
@@ -5769,7 +5769,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "idle",
+    "defaultAnimation": "idel",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -5780,13 +5780,13 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "idel",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "9ced526f-7adf-41e7-aee9-5507922781e4"
+      "__uuid__": "8f584579-6460-4007-bfab-63b2797a49c9"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
@@ -7904,8 +7904,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 409.26,
-      "height": 351.22
+      "width": 809.7,
+      "height": 962.85
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7923,8 +7923,8 @@
         0,
         0,
         1,
-        0.8,
-        0.8,
+        0.3,
+        0.3,
         1
       ]
     },
@@ -7966,8 +7966,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1172,
-      "height": 222
+      "width": 1198,
+      "height": 247
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7979,14 +7979,14 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        709.42375,
+        1900.93,
         0,
         0,
         0,
         0,
         1,
-        0.875,
-        0.875,
+        2,
+        2,
         0.875
       ]
     },
@@ -8022,7 +8022,7 @@
       "__uuid__": "98d13250-d21d-430f-a10e-c42065130ab2"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -8031,7 +8031,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "a3BNH9XFFIFqgrSuvEXY92"
   },
@@ -8067,7 +8067,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "9ced526f-7adf-41e7-aee9-5507922781e4"
+      "__uuid__": "8f584579-6460-4007-bfab-63b2797a49c9"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,

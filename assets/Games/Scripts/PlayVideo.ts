@@ -56,7 +56,7 @@ export default class NewClass extends cc.Component {
                 jockeyNode.getComponent(sp.Skeleton).setAnimation(0, this.anim2Name, true);
                 cc.audioEngine.playEffect(startGame.Instance.introAudio2, false);
                 this.scheduleOnce(() => {
-                    jockeyNode.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                    jockeyNode.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                     cc.tween(this.node.children[0]).to(0.5, { opacity: 0 }, { easing: "sineInOut" }).start();
                     this.scheduleOnce(() => {
                         this.curtain.getComponent(cc.Animation).play();

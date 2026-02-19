@@ -70,7 +70,7 @@ var NewClass = /** @class */ (function (_super) {
                 jockeyNode.getComponent(sp.Skeleton).setAnimation(0, _this.anim2Name, true);
                 cc.audioEngine.playEffect(StartGame_1.default.Instance.introAudio2, false);
                 _this.scheduleOnce(function () {
-                    jockeyNode.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                    jockeyNode.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                     cc.tween(_this.node.children[0]).to(0.5, { opacity: 0 }, { easing: "sineInOut" }).start();
                     _this.scheduleOnce(function () {
                         _this.curtain.getComponent(cc.Animation).play();

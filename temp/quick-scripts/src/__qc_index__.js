@@ -11,6 +11,8 @@ require('./assets/Framework/Scripts/Utilities/Utility');
 require('./assets/Framework/Scripts/Utils');
 require('./assets/Framework/WebView/Scripts/CheckForInitWebView');
 require('./assets/Framework/WebView/Scripts/WebView');
+require('./assets/Games/1_Jaipuria_Old/1_Jaipuria/JaipuriaJockey');
+require('./assets/Games/1_Jaipuria_Old/1_Jaipuria/Script');
 require('./assets/Games/Scripts/CustomWidget0');
 require('./assets/Games/Scripts/IData');
 require('./assets/Games/Scripts/PlayVideo');

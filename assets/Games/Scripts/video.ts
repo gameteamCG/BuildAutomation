@@ -516,7 +516,7 @@ export default class video extends cc.Component {
             // this.character.getChildByName("anim").getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
             this.scheduleOnce(() => {
                 // this.character.getComponent(cc.Animation).play("Idle");
-                this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idel", true);
             }, this.getAnimDuration(this.wrongAnim[num]));
             _event.target.getChildByName("red").active = true;
             _event.target.getComponent(cc.Button).interactable = false;
@@ -574,7 +574,7 @@ export default class video extends cc.Component {
         let current = this.currentQuestion;
         this.starUpdate(this.currentQuestion);
         // this.character.getComponent(cc.Animation).play("tweenIn");
-        this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+        this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idel", true);
         cc.tween(this.character.getChildByName("anim")).to(0.5, { x: 0 }, { easing: "backInOut" }).start();
         let id = cc.audioEngine.playMusic(this.bgMusic, true);
         this.questionNode.getChildByName("options1").active = false;
@@ -622,7 +622,7 @@ export default class video extends cc.Component {
         this.scheduleOnce(() => {
             cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
             this.character.getComponent(cc.Animation).play("Idle");
-            this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+            this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idel", true);
             this.questionNode.getChildByName("options1").active = true;
             this.questionNode.getChildByName("questionBox").active = true;
         }, 0.5);
