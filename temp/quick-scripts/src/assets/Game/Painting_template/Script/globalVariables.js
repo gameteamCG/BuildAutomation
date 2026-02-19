@@ -33,6 +33,8 @@ var globalVariables = /** @class */ (function (_super) {
         _this.playBtn_audio = null;
         _this.isDemoGame = false;
         _this.introBG = null;
+        _this.loadingBar = null;
+        _this.play_audio = null;
         // private totalLevels: string = "";
         _this.titleImageName = "";
         _this.jockeyName = "";
@@ -70,28 +72,64 @@ var globalVariables = /** @class */ (function (_super) {
             _this.StartGame();
         }, 2);
         if (this.jockeyName == "Podar") {
-            this.node.getChildByName("intro").getChildByName("bg").getChildByName("podar").active = true;
+            this.node
+                .getChildByName("intro")
+                .getChildByName("bg")
+                .getChildByName("podar").active = true;
         }
         else if (this.jockeyName == "tlc") {
-            this.node.getChildByName("intro").getChildByName("bg").getChildByName("tlc").active = true;
+            this.node
+                .getChildByName("intro")
+                .getChildByName("bg")
+                .getChildByName("tlc").active = true;
         }
         else if (this.jockeyName == "supercub") {
-            this.node.getChildByName("intro").getChildByName("bg").getChildByName("supercub").active = true;
+            this.node
+                .getChildByName("intro")
+                .getChildByName("bg")
+                .getChildByName("supercub").active = true;
         }
         else if (this.jockeyName == "stallion") {
-            this.node.getChildByName("intro").getChildByName("bg").getChildByName("stallion").active = true;
+            this.node
+                .getChildByName("intro")
+                .getChildByName("bg")
+                .getChildByName("stallion").active = true;
         }
         else if (this.jockeyName == "bag" || this.jockeyName == "cryon") {
-            this.node.getChildByName("intro").getChildByName("bg").getChildByName("jaipuria").active = true;
+            this.node
+                .getChildByName("intro")
+                .getChildByName("bg")
+                .getChildByName("jaipuria").active = true;
         }
     };
     globalVariables.prototype.removeExtension = function (imageName) {
         // Remove .png extension
-        return imageName.replace(/\.png$/g, '');
+        return imageName.replace(/\.png$/g, "");
     };
     globalVariables.prototype.removeAudioExtension = function (audioName) {
         // Remove .png extension
-        return audioName.replace(/\.mp3$/g, '');
+        return audioName.replace(/\.mp3$/g, "");
+    };
+    globalVariables.prototype.OnStartGame = function (_event) {
+        cc.audioEngine.playEffect(this.play_audio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        _event.target.active = false;
+        this.loadSceneWithProgress();
+    };
+    globalVariables.prototype.loadSceneWithProgress = function () {
+        var _this = this;
+        if (this.loadingBar) {
+            this.loadingBar.active = true;
+        }
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("BG").active = false;
+        }, 1.5);
+        // cc.director.preloadScene(this.NextSceneName, (completedCount: number, totalCount: number) => {
+        //     let progress = completedCount / totalCount;
+        //     this.loadingBar.progress = progress;
+        // }, () => {
+        //     cc.director.loadScene(this.NextSceneName);
+        // })
     };
     globalVariables.prototype.updateJSONdata = function () {
         var _this = this;
@@ -109,7 +147,7 @@ var globalVariables = /** @class */ (function (_super) {
         if (this.isDemoGame) {
             var urlParams = new URLSearchParams(window.location.search);
             // Get the 'json' parameter value from the URL
-            var encodedJson = urlParams.get('json');
+            var encodedJson = urlParams.get("json");
             // Decode the URL-encoded JSON data
             var decodedJsonString = decodeURIComponent(encodedJson);
             // Parse the JSON string into a JavaScript object
@@ -128,7 +166,11 @@ var globalVariables = /** @class */ (function (_super) {
                     return;
                 }
                 var spriteFrame = new cc.SpriteFrame(texture);
-                _this.node.getChildByName("intro").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                _this.node
+                    .getChildByName("intro")
+                    .getChildByName("bg")
+                    .getChildByName("Title")
+                    .getComponent(cc.Sprite).spriteFrame = spriteFrame;
             });
             cc.loader.load(jsonData.additionalData.bgmMusicName, function (err, audioClip) {
                 if (err) {
@@ -152,7 +194,10 @@ var globalVariables = /** @class */ (function (_super) {
                     return;
                 }
                 var spriteFrame = new cc.SpriteFrame(texture);
-                _this.node.getChildByName("intro").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                _this.node
+                    .getChildByName("intro")
+                    .getChildByName("bg")
+                    .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 _this.introBG = spriteFrame;
             });
             cc.loader.load(jsonData.additionalData.mainBgName, function (err, texture) {
@@ -162,11 +207,14 @@ var globalVariables = /** @class */ (function (_super) {
                 }
                 var spriteFrame = new cc.SpriteFrame(texture);
                 _this.mainBg = spriteFrame;
-                cc.find("Canvas").getChildByName("bg").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                cc
+                    .find("Canvas")
+                    .getChildByName("bg")
+                    .children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
             });
         }
         else {
-            cc.loader.loadRes('game_data', cc.JsonAsset, function (err, jsonAsset) {
+            cc.loader.loadRes("game_data", cc.JsonAsset, function (err, jsonAsset) {
                 if (err) {
                     cc.error(err.message || err);
                     return;
@@ -181,10 +229,17 @@ var globalVariables = /** @class */ (function (_super) {
                 _this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
                 _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.TitleImageName), function (spriteFrame) {
-                    _this.node.getChildByName("intro").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    _this.node
+                        .getChildByName("intro")
+                        .getChildByName("bg")
+                        .getChildByName("Title")
+                        .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
                 _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.introBgName), function (spriteFrame) {
-                    _this.node.getChildByName("intro").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    _this.node
+                        .getChildByName("intro")
+                        .getChildByName("bg")
+                        .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     _this.introBG = spriteFrame;
                 });
                 _this.loadAudioClip(_this.removeAudioExtension(jsonData.additionalData.bgmMusicName), function (AudioClip) {
@@ -197,7 +252,10 @@ var globalVariables = /** @class */ (function (_super) {
                 });
                 _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.mainBgName), function (spriteFrame) {
                     _this.mainBg = spriteFrame;
-                    cc.find("Canvas").getChildByName("bg").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    cc
+                        .find("Canvas")
+                        .getChildByName("bg")
+                        .children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
                 _this.questions.forEach(function (question) {
                     question.questionImageName = _this.removeExtension(question.questionImageName);
@@ -244,6 +302,12 @@ var globalVariables = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], globalVariables.prototype, "playBtn_audio", void 0);
+    __decorate([
+        property(cc.Node)
+    ], globalVariables.prototype, "loadingBar", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], globalVariables.prototype, "play_audio", void 0);
     globalVariables = globalVariables_1 = __decorate([
         ccclass
     ], globalVariables);

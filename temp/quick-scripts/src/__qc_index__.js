@@ -1,6 +1,6 @@
 
 require('./assets/Framework/Jockeys/Scripts/Jockey');
-require('./assets/Framework/Prefabs/Progressbar/Scripts/ProgressBar');
+require('./assets/Framework/Prefabs/ProgressBar/Scripts/ProgressBar');
 require('./assets/Framework/Scripts/CustomWidget');
 require('./assets/Framework/Scripts/CustomWidget2');
 require('./assets/Framework/Scripts/Functionalities');
@@ -11,6 +11,12 @@ require('./assets/Framework/Scripts/Utilities/Utility');
 require('./assets/Framework/Scripts/Utils');
 require('./assets/Framework/WebView/Scripts/CheckForInitWebView');
 require('./assets/Framework/WebView/Scripts/WebView');
+require('./assets/Game/1_Jaipuria/JaipuriaJockey');
+require('./assets/Game/1_Jaipuria/New/scripts/Script');
+require('./assets/Game/1_Jaipuria/New/scripts/graphics');
+require('./assets/Game/1_Jaipuria/New/scripts/introduction');
+require('./assets/Game/1_Jaipuria/New/scripts/roughArea');
+require('./assets/Game/1_Jaipuria/Scripts/GameEnd');
 require('./assets/Game/Painting_template/Script/Common/CommonFun');
 require('./assets/Game/Painting_template/Script/Common/ConfigController');
 require('./assets/Game/Painting_template/Script/Common/Constant');
