@@ -3084,8 +3084,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 610.46,
-      "height": 988.66
+      "width": 809.7,
+      "height": 962.85
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3136,7 +3136,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "idle",
+    "defaultAnimation": "",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -3153,7 +3153,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "7b1080d3-c8a7-4fac-b7da-2b21de20e714"
+      "__uuid__": "f4a60b2e-d2c1-4349-9e8a-009826c1ac06"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
@@ -3174,7 +3174,7 @@
     "BGM_audio": {
       "__uuid__": "0de1ef27-6197-41a4-8ab5-319bb65fecab"
     },
-    "volume": 0.3,
+    "volume": 0.15,
     "NextSceneName": "1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [

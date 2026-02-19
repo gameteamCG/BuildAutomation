@@ -763,7 +763,7 @@ var NewClass = /** @class */ (function (_super) {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "bag") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_1"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "cryon") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
@@ -887,7 +887,7 @@ var NewClass = /** @class */ (function (_super) {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "bag") {
-                anim = ["negative_1", "negative_2", "negative_3"];
+                anim = ["negative_1", "negative_2", "negative_1"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "cryon") {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];

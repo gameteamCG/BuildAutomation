@@ -816,7 +816,7 @@ export default class NewClass extends cc.Component {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (startGame.Instance.jockeyName == "bag") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_1"];
         }
         else if (startGame.Instance.jockeyName == "cryon") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
@@ -943,7 +943,7 @@ export default class NewClass extends cc.Component {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
             }
             else if (startGame.Instance.jockeyName == "bag") {
-                anim = ["negative_1", "negative_2", "negative_3"];
+                anim = ["negative_1", "negative_2", "negative_1"];
             }
             else if (startGame.Instance.jockeyName == "cryon") {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
