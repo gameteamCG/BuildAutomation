@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\devTesting\\JaipuriaNewTerm\\freezydance",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
