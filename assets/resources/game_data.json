@@ -12,7 +12,7 @@
     {
       "QuestionAppearTime": "9999",
       "IsQuestionText": true,
-      "QuestionText": "identify",
+      "QuestionText": "Identify",
       "QuestionImageName": "",
       "QuestionAudioName": "Que1.mp3",
       "PlayQuestionAudio": true,
