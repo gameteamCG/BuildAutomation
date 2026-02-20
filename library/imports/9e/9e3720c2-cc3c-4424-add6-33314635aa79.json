@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "big",
+        "questionText": "Big",
         "questionAudioName": "Taponthebigapple.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -33,7 +33,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "small",
+        "questionText": "Small",
         "questionAudioName": "Taponthemallstraw.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -50,7 +50,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "big",
+        "questionText": "Big",
         "questionAudioName": "Taponthebigwatermelon.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -67,7 +67,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "small",
+        "questionText": "Small",
         "questionAudioName": "Taponthesmallmango.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -84,7 +84,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "small",
+        "questionText": "Small",
         "questionAudioName": "Taponthesmallpear.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -101,7 +101,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "big",
+        "questionText": "Big",
         "questionAudioName": "SelectthebigPapaya.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
@@ -118,7 +118,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "big",
+        "questionText": "Big",
         "questionAudioName": "SelectthebigJackfruit.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "",
