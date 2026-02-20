@@ -67,7 +67,7 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "Summer season",
+            "questionText": "Changing seasons",
             "questionImageName": "bucket_4.png",
             "questionAudioName": "warmnhot.mp3",
             "shouldPlayQuestionAudio": true,
@@ -86,7 +86,7 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "Spring season",
+            "questionText": "Changing seasons",
             "questionImageName": "bucket_4.png",
             "questionAudioName": "flowersbloom.mp3",
             "shouldPlayQuestionAudio": true,
@@ -105,7 +105,7 @@
             "correctAnswerNum": "1"
         },
         {
-            "questionText": "Summer season",
+            "questionText": "Changing seasons",
             "questionImageName": "bucket_4.png",
             "questionAudioName": "vegieripe.mp3",
             "shouldPlayQuestionAudio": true,
