@@ -1,13 +1,13 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "Bg",
-    "texture": "023cbe00-1726-4929-85ff-c574b65005d7",
+    "name": "tlc_bg",
+    "texture": "924d1a9c-ea3f-4504-956b-19c8add1a4d6",
     "atlas": "",
     "rect": [
       0,
       0,
-      1920,
+      1921,
       1080
     ],
     "offset": [
@@ -15,7 +15,7 @@
       0
     ],
     "originalSize": [
-      1920,
+      1921,
       1080
     ],
     "capInsets": [
