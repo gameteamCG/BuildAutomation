@@ -52,7 +52,7 @@
         "correctAudioName": "4_u-for_unhappy.mp3"
       },
       {
-        "questionText": "unlock",
+        "questionText": "Unlock",
         "questionImageName": "ref_img.png",
         "questionAudioName": "Q_color_the_object_that_begins_with_the_letter_u.mp3",
         "shouldPlayQuestionAudio": true,
