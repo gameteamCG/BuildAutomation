@@ -9570,8 +9570,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 396,
-      "height": 83
+      "width": 430,
+      "height": 101
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -11574,7 +11574,7 @@
     "_clip": {
       "__uuid__": "6ad86f9c-268e-4f54-9f41-4258aa11bc30"
     },
-    "_volume": 0.07,
+    "_volume": 0,
     "_mute": false,
     "_loop": false,
     "_firstlyEnabled": true,
