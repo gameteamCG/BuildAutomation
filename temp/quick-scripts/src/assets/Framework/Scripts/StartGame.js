@@ -29,6 +29,7 @@ var startGame = /** @class */ (function (_super) {
     function startGame() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.BGM_audio = null;
+        _this.loading = null;
         _this.volume = 1;
         _this.NextSceneName = "1";
         _this.TotalLevels = 7;
@@ -360,6 +361,8 @@ var startGame = /** @class */ (function (_super) {
     };
     startGame.prototype.OnPlayBtn = function (_event) {
         _event.target.getComponent(cc.Button).interactable = false;
+        _event.target.active = false;
+        this.loading.active = true;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
         cc.director.loadScene(this.NextSceneName);
     };
@@ -386,6 +389,9 @@ var startGame = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], startGame.prototype, "BGM_audio", void 0);
+    __decorate([
+        property(cc.Node)
+    ], startGame.prototype, "loading", void 0);
     __decorate([
         property(Number)
     ], startGame.prototype, "volume", void 0);

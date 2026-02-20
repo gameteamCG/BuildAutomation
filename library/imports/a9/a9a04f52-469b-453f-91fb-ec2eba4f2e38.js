@@ -224,6 +224,7 @@ var Gameplay = /** @class */ (function (_super) {
             }
             if (_this.optionsLayout == "layout1") {
                 var delay = 0;
+                _this.node.getChildByName("bg2").active = false;
                 var _loop_5 = function (i) {
                     _this.options.children[i].active = false;
                     _this.options.children[i].opacity = 255;
@@ -248,6 +249,7 @@ var Gameplay = /** @class */ (function (_super) {
             else if (_this.optionsLayout == "layout2") {
                 // this.OptionsLayout();
                 _this.node.getChildByName("basket").active = true;
+                _this.node.getChildByName("bg2").active = false;
                 _this.node.getChildByName("rope").active = true;
                 // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
                 var delay = 0;
@@ -266,6 +268,7 @@ var Gameplay = /** @class */ (function (_super) {
                 });
             }
             else if (_this.optionsLayout == "layout3") {
+                _this.node.getChildByName("bg2").active = true;
                 var delay = 0;
                 var _loop_7 = function (i) {
                     _this.scheduleOnce(function () {
@@ -285,7 +288,7 @@ var Gameplay = /** @class */ (function (_super) {
                 if (StartGame_1.default.Instance.currentLevel == 1) {
                     var hand = _this.node.getChildByName("hand");
                     hand.setParent(_this.options.getChildByName(_this.correctAnswer[0].toString()));
-                    hand.setPosition(50, -100);
+                    hand.setPosition(50, -30);
                     hand.angle = 40;
                     hand.setParentWithSamePos(_this.node);
                     hand.active = true;

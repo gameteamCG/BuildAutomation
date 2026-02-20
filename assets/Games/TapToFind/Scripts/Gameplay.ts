@@ -208,6 +208,7 @@ export default class Gameplay extends cc.Component {
             }
             if (this.optionsLayout == "layout1") {
                 let delay = 0;
+                this.node.getChildByName("bg2").active = false;
                 for (let i = 0; i < this.options.children.length; i++) {
                     this.options.children[i].active = false;
                     this.options.children[i].opacity = 255;
@@ -230,6 +231,7 @@ export default class Gameplay extends cc.Component {
             else if (this.optionsLayout == "layout2") {
                 // this.OptionsLayout();
                 this.node.getChildByName("basket").active = true;
+                this.node.getChildByName("bg2").active = false;
                 this.node.getChildByName("rope").active = true;
                 // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
                 let delay = 0;
@@ -245,6 +247,7 @@ export default class Gameplay extends cc.Component {
                 });
             }
             else if (this.optionsLayout == "layout3") {
+                this.node.getChildByName("bg2").active = true;
                 let delay = 0;
                 for (let i = 0; i < this.options.children.length; i++) {
                     this.scheduleOnce(() => {
@@ -261,7 +264,7 @@ export default class Gameplay extends cc.Component {
                 if (startGame.Instance.currentLevel == 1) {
                     let hand = this.node.getChildByName("hand");
                     hand.setParent(this.options.getChildByName(this.correctAnswer[0].toString()));
-                    hand.setPosition(50, -100);
+                    hand.setPosition(50, -30);
                     hand.angle = 40;
                     hand.setParentWithSamePos(this.node);
                     hand.active = true;

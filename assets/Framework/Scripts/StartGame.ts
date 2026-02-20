@@ -33,6 +33,8 @@ export default class startGame extends cc.Component {
 
     @property(cc.AudioClip)
     BGM_audio: cc.AudioClip = null;
+    @property(cc.Node)
+    loading: cc.Node = null;
     @property(Number)
     volume: number = 1;
     @property(cc.String)
@@ -417,6 +419,8 @@ export default class startGame extends cc.Component {
 
     OnPlayBtn(_event: cc.Event) {
         _event.target.getComponent(cc.Button).interactable = false;
+        _event.target.active = false;
+        this.loading.active = true;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
         cc.director.loadScene(this.NextSceneName);
     }
