@@ -11,7 +11,7 @@
         {
             "questionLayout": "layout1",
             "questionBgName": "underwater_bg1.png",
-            "questionAudioName": "tap_on_all_the_fish_with_capital_F.mp3",
+            "questionAudioName": "tap on the fish with letter sound ff.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 3,
@@ -33,8 +33,8 @@
         {
             "questionLayout": "layout2",
             "questionBgName": "garden_BG.png",
-            "questionAudioName": "Tap_on_all_the_Figs_with_capital_F.mp3",
-            "shouldPlayQuestionAudio": false,
+            "questionAudioName": "tap on the figs with letter sound ff.mp3",
+            "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 5,
             "options": [
@@ -101,7 +101,10 @@
             ],
             "correctAudioName": "L5.mp3",
             "wrongAudioName": "ouch.mp3",
-            "reiterationAudioName": "F.mp3",
+            "reiterationAudioName": [
+                "frog.mp3",
+                "fork.mp3"
+            ],
             "correctAnswerNum": "23"
         },
         {
@@ -123,7 +126,10 @@
             ],
             "correctAudioName": "L5.mp3",
             "wrongAudioName": "ugh.mp3",
-            "reiterationAudioName": "F.mp3",
+            "reiterationAudioName": [
+                "fan.mp3",
+                "flower.mp3"
+            ],
             "correctAnswerNum": "13"
         }
     ]
