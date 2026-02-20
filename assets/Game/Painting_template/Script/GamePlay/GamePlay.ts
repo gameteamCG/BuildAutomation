@@ -267,6 +267,11 @@ export default class GamePlay extends cc.Component {
         }, duration);
     }
 
+    onSoundButtonClick() {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[0], false);
+    }
+
     loadSpriteFrame(imageName: string, callback: (spriteFrame: cc.SpriteFrame) => void) {
         cc.loader.loadRes("images/" + imageName, cc.SpriteFrame, (err, spriteFrame) => {
             if (err) {

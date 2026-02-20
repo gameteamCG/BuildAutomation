@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": " colour the hand",
+        "questionText": " Colour the hand",
         "questionImageName": "common.png",
         "questionAudioName": "colour-the-hand-and-count the fingers.mp3",
         "shouldPlayQuestionAudio": true,

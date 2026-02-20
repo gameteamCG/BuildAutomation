@@ -122,6 +122,9 @@ var globalVariables = /** @class */ (function (_super) {
             this.loadingBar.active = true;
         }
         this.scheduleOnce(function () {
+            _this.node.getChildByName("intro").active = false;
+            _this.node.getChildByName("base").opacity = 255;
+            GamePlay_1.default.Instance.StartGame();
             _this.node.getChildByName("BG").active = false;
         }, 1.5);
         // cc.director.preloadScene(this.NextSceneName, (completedCount: number, totalCount: number) => {
@@ -267,6 +270,7 @@ var globalVariables = /** @class */ (function (_super) {
         }
     };
     globalVariables.prototype.StartGame = function () {
+        return;
         this.node.getChildByName("intro").active = false;
         this.node.getChildByName("base").opacity = 255;
         GamePlay_1.default.Instance.StartGame();

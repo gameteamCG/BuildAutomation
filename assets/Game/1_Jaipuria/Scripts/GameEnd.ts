@@ -72,7 +72,7 @@ export default class GameEnd extends cc.Component {
     this.scheduleOnce(() => {
       this.node.getComponent(cc.AudioSource).clip = this.yeah;
       this.node.getComponent(cc.AudioSource).play();
-      console.log("gameEnded--" + true);
+      
     }, 2.5);
 
     this.scheduleOnce(() => {
@@ -82,6 +82,7 @@ export default class GameEnd extends cc.Component {
   }
 
   public EndButton() {
+    console.log("gameEnded--" + true);
     // cc.audioEngine.playEffect(startGame.Instance.play_audio, false);
     closeWindow();
   }

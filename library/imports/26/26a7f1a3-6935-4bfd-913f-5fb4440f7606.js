@@ -265,6 +265,10 @@ var GamePlay = /** @class */ (function (_super) {
             }
         }, duration);
     };
+    GamePlay.prototype.onSoundButtonClick = function () {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[0], false);
+    };
     GamePlay.prototype.loadSpriteFrame = function (imageName, callback) {
         cc.loader.loadRes("images/" + imageName, cc.SpriteFrame, function (err, spriteFrame) {
             if (err) {

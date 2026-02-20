@@ -128,6 +128,9 @@ export default class globalVariables extends cc.Component {
     }
 
     this.scheduleOnce(() => {
+      this.node.getChildByName("intro").active = false;
+      this.node.getChildByName("base").opacity = 255;
+      GamePlay.Instance.StartGame();
       this.node.getChildByName("BG").active = false;
     }, 1.5);
     // cc.director.preloadScene(this.NextSceneName, (completedCount: number, totalCount: number) => {
@@ -304,6 +307,7 @@ export default class globalVariables extends cc.Component {
   }
 
   StartGame() {
+    return;
     this.node.getChildByName("intro").active = false;
     this.node.getChildByName("base").opacity = 255;
     GamePlay.Instance.StartGame();
