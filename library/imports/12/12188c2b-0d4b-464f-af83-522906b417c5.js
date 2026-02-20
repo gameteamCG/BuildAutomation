@@ -86,11 +86,12 @@ var NewClass = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.yeah[0];
             _this.node.getComponent(cc.AudioSource).play();
-            console.log("gameEnded--true");
         }, 2.3);
     };
-    NewClass.prototype.OnEndBtn = function (_event) {
-        window.close();
+    NewClass.prototype.EndButton = function () {
+        console.log("gameEnded--true");
+        // cc.audioEngine.playEffect(startGame.Instance.play_audio, false);
+        closeWindow();
     };
     __decorate([
         property(cc.AudioClip)
@@ -116,5 +117,9 @@ var NewClass = /** @class */ (function (_super) {
     return NewClass;
 }(cc.Component));
 exports.default = NewClass;
+var closeWindow = function () {
+    window.open(location.href, "_self", "");
+    window.close();
+};
 
 cc._RF.pop();

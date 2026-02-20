@@ -556,7 +556,7 @@ export default class NewClass extends cc.Component {
                     this.scheduleOnce(() => {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
                         this.scheduleOnce(() => {
-                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                             this.canTouch = true;
                             if (globalVariables.Instance.currentLevel == 1) {
                                 let hand = this.node.getChildByName("hand");
@@ -819,7 +819,7 @@ export default class NewClass extends cc.Component {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_1"];
         }
         else if (startGame.Instance.jockeyName == "cryon") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_1"];
         }
         else if (startGame.Instance.jockeyName == "Singham") {
             anim = ["dance", "thumbs_up"];
@@ -848,7 +848,7 @@ export default class NewClass extends cc.Component {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
             }
             else {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
             }
         }
         if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
@@ -864,7 +864,7 @@ export default class NewClass extends cc.Component {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                         }
                         else {
-                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                         }
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
@@ -946,7 +946,7 @@ export default class NewClass extends cc.Component {
                 anim = ["negative_1", "negative_2", "negative_1"];
             }
             else if (startGame.Instance.jockeyName == "cryon") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
+                anim = ["negative_1", "negative_2"];
             }
             else if (startGame.Instance.jockeyName == "Singham") {
                 anim = ["no"];
@@ -965,7 +965,7 @@ export default class NewClass extends cc.Component {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
             }
             else if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
             }
             if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
                 this.currentJcokey.setPosition(1200, -350);
@@ -976,7 +976,7 @@ export default class NewClass extends cc.Component {
                     this.scheduleOnce(() => {
                         cc.tween(this.currentJcokey).to(0.5, { x: 1200 }, { easing: "quartInOut" }).start();
                         if (startGame.Instance.jockeyName != "stallion") {
-                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                         }
                         //console.log("characterDisappear--Podar_Jumbo");
                         this.canTouch = true;
@@ -987,7 +987,7 @@ export default class NewClass extends cc.Component {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
                 this.scheduleOnce(() => {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                     this.canTouch = true;
                 }, this.negativeAudio[currentClipNum].duration);
             }
@@ -1008,7 +1008,7 @@ export default class NewClass extends cc.Component {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                             this.canTouch = true;
                             this.scheduleOnce(() => {
-                                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                             }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
                         }, this.negativeAudio[currentClipNum].duration);
 
@@ -1018,7 +1018,7 @@ export default class NewClass extends cc.Component {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                     cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
                     this.scheduleOnce(() => {
-                        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                         this.canTouch = true;
                     }, this.negativeAudio[currentClipNum].duration);
                 }

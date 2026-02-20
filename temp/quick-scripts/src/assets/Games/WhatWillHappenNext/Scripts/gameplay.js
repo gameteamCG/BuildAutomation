@@ -509,7 +509,7 @@ var NewClass = /** @class */ (function (_super) {
                     _this.scheduleOnce(function () {
                         _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
                         _this.scheduleOnce(function () {
-                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                             _this.canTouch = true;
                             if (globalVariables_1.default.Instance.currentLevel == 1) {
                                 var hand = _this.node.getChildByName("hand");
@@ -766,7 +766,7 @@ var NewClass = /** @class */ (function (_super) {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_1"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "cryon") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_1"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Singham") {
             anim = ["dance", "thumbs_up"];
@@ -795,7 +795,7 @@ var NewClass = /** @class */ (function (_super) {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
             }
             else {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
             }
         }
         if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
@@ -811,7 +811,7 @@ var NewClass = /** @class */ (function (_super) {
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                         }
                         else {
-                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                         }
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
@@ -890,7 +890,7 @@ var NewClass = /** @class */ (function (_super) {
                 anim = ["negative_1", "negative_2", "negative_1"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "cryon") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
+                anim = ["negative_1", "negative_2"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Singham") {
                 anim = ["no"];
@@ -908,7 +908,7 @@ var NewClass = /** @class */ (function (_super) {
                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
             }
             else if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
-                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
             }
             if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
                 _this.currentJcokey.setPosition(1200, -350);
@@ -919,7 +919,7 @@ var NewClass = /** @class */ (function (_super) {
                     _this.scheduleOnce(function () {
                         cc.tween(_this.currentJcokey).to(0.5, { x: 1200 }, { easing: "quartInOut" }).start();
                         if (StartGame_1.default.Instance.jockeyName != "stallion") {
-                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                         }
                         //console.log("characterDisappear--Podar_Jumbo");
                         _this.canTouch = true;
@@ -930,7 +930,7 @@ var NewClass = /** @class */ (function (_super) {
                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
                 _this.scheduleOnce(function () {
-                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                     _this.canTouch = true;
                 }, _this.negativeAudio[currentClipNum].duration);
             }
@@ -951,7 +951,7 @@ var NewClass = /** @class */ (function (_super) {
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                             _this.canTouch = true;
                             _this.scheduleOnce(function () {
-                                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                             }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
                         }, _this.negativeAudio[currentClipNum].duration);
                     }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_start").duration);
@@ -960,7 +960,7 @@ var NewClass = /** @class */ (function (_super) {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
                     cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
                     _this.scheduleOnce(function () {
-                        _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                        _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
                         _this.canTouch = true;
                     }, _this.negativeAudio[currentClipNum].duration);
                 }
