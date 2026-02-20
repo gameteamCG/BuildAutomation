@@ -13,12 +13,12 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 263.82501220703125,
+            "width": 264,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 263.82501220703125,
+                "width": 264,
                 "height": 360.3000183105469,
                 "type": "panel",
                 "active": 0,
@@ -27,7 +27,7 @@
                 ]
               },
               {
-                "width": 263.82501220703125,
+                "width": 264,
                 "height": 351.3000183105469,
                 "type": "panel",
                 "active": 0,
@@ -38,12 +38,12 @@
             ]
           },
           {
-            "width": 824.4500122070312,
+            "width": 824,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 824.4500122070312,
+                "width": 824,
                 "height": 360.3000183105469,
                 "type": "panel",
                 "active": 0,
@@ -52,10 +52,10 @@
                 ]
               },
               {
-                "width": 824.4500122070312,
+                "width": 824,
                 "height": 351.3000183105469,
                 "type": "panel",
-                "active": 1,
+                "active": 2,
                 "children": [
                   "console",
                   "timeline",
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 441.7124938964844,
+            "width": 442,
             "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
@@ -89,7 +89,7 @@
         "node-library"
       ]
     },
-    "window-1767337074019": {}
+    "window-1771507836517": {}
   },
   "panels": {
     "project-settings": {
@@ -107,7 +107,7 @@
     "builder": {
       "x": 36,
       "y": 0,
-      "width": 1447,
+      "width": 1448,
       "height": 816
     }
   },
