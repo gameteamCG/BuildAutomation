@@ -13,8 +13,8 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 215,
-            "height": 810.6000366210938,
+            "width": 213.08750915527344,
+            "height": 796.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -22,18 +22,18 @@
             ]
           },
           {
-            "width": 982,
-            "height": 810.6000366210938,
+            "width": 973.2750244140625,
+            "height": 796.2000122070312,
             "type": "dock-v",
             "children": [
               {
-                "width": 982,
-                "height": 541.7374877929688,
+                "width": 973.2750244140625,
+                "height": 527.2000122070312,
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 767,
-                    "height": 541.7374877929688,
+                    "width": 760.1625366210938,
+                    "height": 527.2000122070312,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -41,8 +41,8 @@
                     ]
                   },
                   {
-                    "width": 212,
-                    "height": 541.7374877929688,
+                    "width": 210.1125030517578,
+                    "height": 527.2000122070312,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 982,
-                "height": 265.8625183105469,
+                "width": 973.2750244140625,
+                "height": 266,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 333,
-            "height": 810.6000366210938,
+            "width": 330.0375061035156,
+            "height": 796.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
+        "assets",
         "console",
         "timeline",
         "game-window",

@@ -28,6 +28,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 // import startGame from "../../Framework/Scripts/StartGame";
 // import startGame from "../../../Framework/Scripts/StartGame";
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
@@ -51,7 +52,7 @@ var GameEnd = /** @class */ (function (_super) {
     GameEnd.prototype.start = function () {
         var _this = this;
         this.fantastic = this.node.getChildByName("Fantastic");
-        // startGame.Instance.node.getChildByName("progress").opacity = 0;
+        StartGame_1.default.Instance.node.getChildByName("progress").opacity = 0;
         console.log("showedScreen--Congratulations");
         // this.scheduleOnce(() => {
         //   cc.tween(this.node.getChildByName("Fantastic"))

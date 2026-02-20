@@ -4,6 +4,8 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
 // Learn life-cycle callbacks:
 
+import startGame from "../../../Framework/Scripts/StartGame";
+
 // import startGame from "../../Framework/Scripts/StartGame";
 
 // import startGame from "../../../Framework/Scripts/StartGame";
@@ -36,7 +38,7 @@ export default class GameEnd extends cc.Component {
 
   start() {
     this.fantastic = this.node.getChildByName("Fantastic");
-    // startGame.Instance.node.getChildByName("progress").opacity = 0;
+    startGame.Instance.node.getChildByName("progress").opacity = 0;
     console.log("showedScreen--Congratulations");
     // this.scheduleOnce(() => {
     //   cc.tween(this.node.getChildByName("Fantastic"))

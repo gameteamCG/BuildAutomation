@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "empty",
+        "questionText": "Empty",
         "questionAudioName": "emptyplate.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
@@ -33,7 +33,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "full",
+        "questionText": "Full",
         "questionAudioName": "fulljar.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
@@ -50,7 +50,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "empty",
+        "questionText": "Empty",
         "questionAudioName": "emptybox.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
@@ -67,7 +67,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "full",
+        "questionText": "Full",
         "questionAudioName": "fullbasket.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
@@ -84,7 +84,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "empty",
+        "questionText": "Empty",
         "questionAudioName": "emptyjar.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
@@ -101,7 +101,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "full",
+        "questionText": "Full",
         "questionAudioName": "fullplate.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard.png",
