@@ -556,6 +556,7 @@ var video = /** @class */ (function (_super) {
                 }
                 _this.scheduleOnce(function () {
                     _this.node.active = false;
+                    _this.node.getParent().getChildByName("gameEnd").getChildByName("end").active = true;
                     if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "crayon") {
                         _this.node.getParent().getChildByName("gameEnd").getChildByName("end").active = true;
                     }

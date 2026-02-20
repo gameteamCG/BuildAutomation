@@ -554,6 +554,7 @@ export default class video extends cc.Component {
                 console.log("starsEarned--3");
                 console.log("showedScreen--Excellent");
                 console.log("gameEnded--true");
+
                 if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "crayon") {
                     this.node.getParent().getChildByName("gameEnd").getChildByName("jaipuria").active = true;
                 }
@@ -562,6 +563,7 @@ export default class video extends cc.Component {
                 }
                 this.scheduleOnce(() => {
                     this.node.active = false;
+                    this.node.getParent().getChildByName("gameEnd").getChildByName("end").active = true;
                     if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "crayon") {
                         this.node.getParent().getChildByName("gameEnd").getChildByName("end").active = true;
                     }
