@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "tall",
+        "questionText": "Tall",
         "questionAudioName": "Who_is_tall.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard2.png",
@@ -33,7 +33,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "short",
+        "questionText": "Short",
         "questionAudioName": "who_is_short.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard2.png",
@@ -50,7 +50,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "tall",
+        "questionText": "Tall",
         "questionAudioName": "Who_is_tall.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard2.png",
@@ -67,7 +67,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "short",
+        "questionText": "Short",
         "questionAudioName": "who_is_short.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard2.png",
@@ -84,7 +84,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "tall",
+        "questionText": "Tall",
         "questionAudioName": "Who_is_tall.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "QuestionCard2.png",
