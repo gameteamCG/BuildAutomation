@@ -1082,6 +1082,26 @@
       "__id__": 2
     },
     "_enabled": true,
+    "reiterations": [
+      {
+        "__uuid__": "7c34cb94-eff8-4014-8b65-880b924a2eb0"
+      },
+      {
+        "__uuid__": "7cc53b4d-491e-4a36-a359-7cababe25b96"
+      },
+      {
+        "__uuid__": "623a85b4-1e59-4fa7-a115-0a3eed1544b7"
+      },
+      {
+        "__uuid__": "c1ba3c54-88d5-4054-9721-e8ea10b095e5"
+      },
+      {
+        "__uuid__": "d6f7825f-07fd-49e9-a27f-ad0af7a90580"
+      },
+      {
+        "__uuid__": "d6f7825f-07fd-49e9-a27f-ad0af7a90580"
+      }
+    ],
     "DrawingDataArray": [
       {
         "__id__": 27
@@ -10190,9 +10210,9 @@
     "_dstBlendFactor": 771,
     "_string": "question",
     "_N$string": "question",
-    "_fontSize": 40,
+    "_fontSize": 35,
     "_lineHeight": 60,
-    "_enableWrapText": true,
+    "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "f525e1ef-1d42-4074-8f14-3f74b0187d92"
     },
@@ -10248,15 +10268,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        257.106,
-        -137.703,
+        255.809,
+        -145.482,
         0,
         0,
         0,
         0,
         1,
-        0.3,
-        0.3,
+        0.2,
+        0.2,
         0
       ]
     },

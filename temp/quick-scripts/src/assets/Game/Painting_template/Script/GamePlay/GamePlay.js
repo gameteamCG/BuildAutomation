@@ -49,6 +49,7 @@ var GamePlay = /** @class */ (function (_super) {
     __extends(GamePlay, _super);
     function GamePlay() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.reiterations = [];
         _this.DrawingDataArray = [];
         _this.clickAud = null;
         _this.currentDrawing = null;
@@ -59,7 +60,7 @@ var GamePlay = /** @class */ (function (_super) {
         _this.tlc_font = null;
         _this.supercub_font = null;
         // @property(String)
-        _this.questions = [''];
+        _this.questions = [""];
         // @property(cc.SpriteFrame)
         _this.questionImage = [];
         _this.pictureImage = [];
@@ -88,8 +89,7 @@ var GamePlay = /** @class */ (function (_super) {
         enumerable: false,
         configurable: true
     });
-    GamePlay.prototype.start = function () {
-    };
+    GamePlay.prototype.start = function () { };
     GamePlay.prototype.LoadJsonData = function () {
         var _this = this;
         this.totalLevels = globalVariables_1.default.Instance.questions.length;
@@ -97,8 +97,12 @@ var GamePlay = /** @class */ (function (_super) {
             var questionData = globalVariables_1.default.Instance.questions[i];
             this_1.questions[i] = questionData.questionText;
             // Load reiteration from JSON
-            if (questionData.reiteration !== undefined && questionData.reiteration !== "") {
-                console.log("Reiteration loaded for question " + i + ": " + questionData.reiteration);
+            if (questionData.reiteration !== undefined &&
+                questionData.reiteration !== "") {
+                console.log("Reiteration loaded for question " +
+                    i +
+                    ": " +
+                    questionData.reiteration);
                 // Load reiteration audio
                 if (globalVariables_1.default.Instance.isDemoGame) {
                     cc.loader.load(questionData.reiteration, function (err, audioClip) {
@@ -168,16 +172,20 @@ var GamePlay = /** @class */ (function (_super) {
             _loop_1(i);
         }
         if (globalVariables_1.default.Instance.jockeyName == "Podar") {
-            this.questionNode.children[0].getComponent(cc.Label).font = this.podar_font;
+            this.questionNode.children[0].getComponent(cc.Label).font =
+                this.podar_font;
         }
         else if (globalVariables_1.default.Instance.jockeyName == "tlc") {
             this.questionNode.children[0].getComponent(cc.Label).font = this.tlc_font;
         }
         else if (globalVariables_1.default.Instance.jockeyName == "supercub") {
-            this.questionNode.children[0].getComponent(cc.Label).font = this.supercub_font;
+            this.questionNode.children[0].getComponent(cc.Label).font =
+                this.supercub_font;
         }
-        else if (globalVariables_1.default.Instance.jockeyName == "bag" || globalVariables_1.default.Instance.jockeyName == "cryon") {
-            this.questionNode.children[0].getComponent(cc.Label).font = this.jaipuria_font;
+        else if (globalVariables_1.default.Instance.jockeyName == "bag" ||
+            globalVariables_1.default.Instance.jockeyName == "cryon") {
+            this.questionNode.children[0].getComponent(cc.Label).font =
+                this.jaipuria_font;
         }
     };
     GamePlay.prototype.StartGame = function () {
@@ -200,10 +208,14 @@ var GamePlay = /** @class */ (function (_super) {
                 }, 0.2);
             }
             _this.addDrawing();
-            _this.node.getChildByName("image").setPosition(_this.node.getChildByName("image").getPosition().x, 138);
+            _this.node
+                .getChildByName("image")
+                .setPosition(_this.node.getChildByName("image").getPosition().x, 138);
             _this.hand.setPosition(_this.node.getChildByName("backButton").getPosition().x + 100, _this.node.getChildByName("backButton").getPosition().y);
             _this.hand.opacity = 0;
-            _this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
+            _this.node
+                .getChildByName("backButton")
+                .getComponent(cc.Button).interactable = false;
         }, 1);
     };
     // update (dt) {}
@@ -216,7 +228,10 @@ var GamePlay = /** @class */ (function (_super) {
         // console.log("pos = ", this.currentDrawing.getPosition().x);
         this.DrawingTableClassRef = CommonFun_1.default.instance.getDrawingTableClassRef(this.currentDrawing);
         if (this.currentLevel > 0) {
-            this.currentDrawing.getChildByName("splash").getComponent(cc.Sprite).spriteFrame = this.pictureImage[this.currentLevel - 1];
+            this.currentDrawing
+                .getChildByName("splash")
+                .getComponent(cc.Sprite).spriteFrame =
+                this.pictureImage[this.currentLevel - 1];
         }
         // else {
         //     this.currentDrawing.getChildByName("splash").getComponent(cc.Sprite).spriteFrame = this.questionImage[0];
@@ -238,13 +253,19 @@ var GamePlay = /** @class */ (function (_super) {
         this.hand.opacity = 255;
     };
     GamePlay.prototype.onBackClicked = function () {
+        var _this = this;
         // console.log("levelComplete--" + (CommonFun.instance.currentLvl + 1));
         cc.audioEngine.playEffect(this.clickAud, false);
+        this.scheduleOnce(function () {
+            cc.audioEngine.playEffect(_this.reiterations[_this.currentLevel - 1], false);
+            _this.scheduleOnce(function () {
+                _this.checkNextLevel();
+            }, _this.reiterations[_this.currentLevel - 1].duration);
+        }, this.clickAud.duration - 2);
         // console.log("gameExit--true");
         // this.persistentScrollNode.getChildByName("base").active = false;
         // this.saveData();
         // cc.director.loadScene("LevelSelection");
-        this.checkNextLevel();
     };
     GamePlay.prototype.OnExitClicked = function () {
         cc.audioEngine.playEffect(this.clickAud, false);
@@ -257,8 +278,8 @@ var GamePlay = /** @class */ (function (_super) {
             // Play correct audio (reiteration_Audio) immediately
             cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
             duration = this.reiteration_Audio[this.currentLevel - 1].duration;
-            console.log("correctAnswer--" + (this.currentLevel));
-            console.log("levelComplete--" + (this.currentLevel));
+            console.log("correctAnswer--" + this.currentLevel);
+            console.log("levelComplete--" + this.currentLevel);
             // Play reiteration audio after 0.5 second delay if available
             // this.scheduleOnce(() => {
             //     let currentQuestionData = globalVariables.Instance.questions[this.currentLevel - 1];
@@ -269,23 +290,35 @@ var GamePlay = /** @class */ (function (_super) {
             // }, 0.5);
         }
         this.hand.opacity = 0;
-        this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
+        this.node
+            .getChildByName("backButton")
+            .getComponent(cc.Button).interactable = false;
         this.scheduleOnce(function () {
-            cc.tween(_this.node.getChildByName("image")).to(0.5, { opacity: 0 }, { easing: "sineInOut" })
-                .to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
-            cc.tween(_this.node.getChildByName("image")).to(0.5, { scale: 0 }, { easing: "sineInOut" })
-                .to(0.5, { scale: 0.75 }, { easing: "sineInOut" }).start();
-            cc.tween(_this.questionNode).to(0.5, { y: _this.Ypos }, { easing: "sineInOut" }).start();
+            cc.tween(_this.node.getChildByName("image"))
+                .to(0.5, { opacity: 0 }, { easing: "sineInOut" })
+                .to(0.5, { opacity: 255 }, { easing: "sineInOut" })
+                .start();
+            cc.tween(_this.node.getChildByName("image"))
+                .to(0.5, { scale: 0 }, { easing: "sineInOut" })
+                .to(0.5, { scale: 0.75 }, { easing: "sineInOut" })
+                .start();
+            cc.tween(_this.questionNode)
+                .to(0.5, { y: _this.Ypos }, { easing: "sineInOut" })
+                .start();
             if (_this.currentLevel < _this.totalLevels) {
                 console.log("levelStarted--" + (_this.currentLevel + 1));
                 cc.audioEngine.stopAllEffects();
                 _this.scheduleOnce(function () {
                     cc.audioEngine.playEffect(_this.question_audios[_this.currentLevel], false);
-                    _this.node.getChildByName("image").getComponent(cc.Sprite).spriteFrame = _this.questionImage[_this.currentLevel];
+                    _this.node
+                        .getChildByName("image")
+                        .getComponent(cc.Sprite).spriteFrame =
+                        _this.questionImage[_this.currentLevel];
                     _this.currentLevel++;
                     _this.addDrawing();
                 }, 0.5);
-                _this.questionNode.children[0].getComponent(cc.Label).string = _this.questions[_this.currentLevel];
+                _this.questionNode.children[0].getComponent(cc.Label).string =
+                    _this.questions[_this.currentLevel];
             }
             else {
                 _this.node.getChildByName("image").active = false;
@@ -341,6 +374,9 @@ var GamePlay = /** @class */ (function (_super) {
     };
     var GamePlay_1;
     GamePlay.instance = null;
+    __decorate([
+        property(cc.AudioClip)
+    ], GamePlay.prototype, "reiterations", void 0);
     __decorate([
         property(DrawingData)
     ], GamePlay.prototype, "DrawingDataArray", void 0);
