@@ -8,8 +8,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 504,
-  "height": 247,
+  "width": 531,
+  "height": 149,
   "platformSettings": {},
   "subMetas": {
     "jointhedots": {
@@ -24,9 +24,9 @@
       "offsetY": 0.5,
       "trimX": 3,
       "trimY": 3,
-      "width": 524,
+      "width": 526,
       "height": 142,
-      "rawWidth": 531,
+      "rawWidth": 533,
       "rawHeight": 149,
       "borderTop": 0,
       "borderBottom": 0,
