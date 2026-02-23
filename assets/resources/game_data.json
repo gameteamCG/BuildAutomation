@@ -32,7 +32,7 @@
       "questionAudioName": "question.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
-      "options": ["ભીંસયો", "સમજાવતા", "માડી"],
+      "options": ["ભીંસાયો", "સમજાવતા", "માડી"],
       "correctAudios": ["4.mp3"],
       "correctAnswerNum": "2"
     },
@@ -41,7 +41,7 @@
       "questionAudioName": "question.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
-      "options": ["ભીંસયો", "લાવતા", "આડી"],
+      "options": ["ભીંસાયો", "લાવતા", "આડી"],
       "correctAudios": ["5.mp3"],
       "correctAnswerNum": "1"
     },
