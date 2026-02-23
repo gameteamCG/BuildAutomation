@@ -455,7 +455,7 @@ export default class NewClass extends cc.Component {
                 //console.log("isOptionBg");
                 if (!this.isOptionBG) {
                     this.node.getChildByName("Option").children.forEach((element) => {
-                        element.getChildByName("img").scale = 1.4;
+                        element.getChildByName("img").scale = 1;
                     })
                 }
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
@@ -492,7 +492,7 @@ export default class NewClass extends cc.Component {
                 objScale = 0.7;
                 if (!this.isOptionBG) {
                     this.node.getChildByName("Option").children.forEach((element) => {
-                        element.getChildByName("img").scale = 1.4;
+                        element.getChildByName("img").scale = 1;
                     })
                 }
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
@@ -1111,7 +1111,7 @@ export default class NewClass extends cc.Component {
             // Calculate the scale factor for the option
             let optionScaleFactor = scaleFactor;
             if (optionNodes.length == 2 && startGame.Instance.templateType == "ObjectsTweenIn" && !this.isLastTween) {
-                optionScaleFactor = optionScaleFactor * 0.7;
+                optionScaleFactor = optionScaleFactor * 0.3;
             }
 
             // Scale the option
@@ -1143,6 +1143,7 @@ export default class NewClass extends cc.Component {
                 subChild.y *= optionScaleFactor;
                 subChild.width *= optionScaleFactor;
                 subChild.height *= optionScaleFactor;
+                console.log(subChild.width, subChild.height, "subChild : ");
                 //console.log("subChild--", subChild.name);
             }
         }
@@ -1207,6 +1208,7 @@ export default class NewClass extends cc.Component {
 
         let availableHeight = optionsLayout.height;
         let totalHeightWithPadding = totalHeight + (optionNodes.length - 1) * paddingBetweenOptions;
+        // let scaleFactor = Math.min(1, availableHeight / totalHeightWithPadding);
         let scaleFactor = Math.min(1, availableHeight / totalHeightWithPadding);
 
         let accumulatedHeight = 0;

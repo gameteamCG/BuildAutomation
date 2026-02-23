@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -403,7 +403,7 @@ var NewClass = /** @class */ (function (_super) {
                 //console.log("isOptionBg");
                 if (!_this.isOptionBG) {
                     _this.node.getChildByName("Option").children.forEach(function (element) {
-                        element.getChildByName("img").scale = 1.4;
+                        element.getChildByName("img").scale = 1;
                     });
                 }
                 cc.tween(_this.node.getChildByName("Option").getChildByName(i.toString()))
@@ -442,7 +442,7 @@ var NewClass = /** @class */ (function (_super) {
                 objScale = 0.7;
                 if (!_this.isOptionBG) {
                     _this.node.getChildByName("Option").children.forEach(function (element) {
-                        element.getChildByName("img").scale = 1.4;
+                        element.getChildByName("img").scale = 1;
                     });
                 }
                 cc.tween(_this.node.getChildByName("Option").getChildByName(i.toString()))
@@ -1040,7 +1040,7 @@ var NewClass = /** @class */ (function (_super) {
             // Calculate the scale factor for the option
             var optionScaleFactor = scaleFactor;
             if (optionNodes.length == 2 && StartGame_1.default.Instance.templateType == "ObjectsTweenIn" && !this.isLastTween) {
-                optionScaleFactor = optionScaleFactor * 0.7;
+                optionScaleFactor = optionScaleFactor * 0.3;
             }
             // Scale the option
             option.width *= optionScaleFactor;
@@ -1063,6 +1063,7 @@ var NewClass = /** @class */ (function (_super) {
                 subChild.y *= optionScaleFactor;
                 subChild.width *= optionScaleFactor;
                 subChild.height *= optionScaleFactor;
+                console.log(subChild.width, subChild.height, "subChild : ");
                 //console.log("subChild--", subChild.name);
             }
         }
@@ -1117,6 +1118,7 @@ var NewClass = /** @class */ (function (_super) {
         }
         var availableHeight = optionsLayout.height;
         var totalHeightWithPadding = totalHeight + (optionNodes.length - 1) * paddingBetweenOptions;
+        // let scaleFactor = Math.min(1, availableHeight / totalHeightWithPadding);
         var scaleFactor = Math.min(1, availableHeight / totalHeightWithPadding);
         var accumulatedHeight = 0;
         // Position each option node vertically
