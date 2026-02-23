@@ -112,7 +112,11 @@
         ],
         "correctAudioName": "GOODJOB.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
-        "reiterationAudioName": "B.mp3",
+        "reiterationAudioName": [
+          "book",
+          "banana",
+          "ball"
+        ],
         "correctAnswerNum": "123"
       }
     ]
