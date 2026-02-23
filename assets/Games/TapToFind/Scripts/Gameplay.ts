@@ -234,7 +234,7 @@ export default class Gameplay extends cc.Component {
             else if (this.optionsLayout == "layout2") {
                 // this.OptionsLayout();
                 this.node.getChildByName("basket").active = true;
-                this.node.getChildByName("rope").active = true;
+                //this.node.getChildByName("rope").active = true;
                 // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
                 let delay = 0;
                 for (let i = 0; i < this.options.children.length; i++) {
