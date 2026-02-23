@@ -13,7 +13,7 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 218,
+            "width": 217.1374969482422,
             "height": 810.6000366210938,
             "type": "panel",
             "active": 0,
@@ -22,18 +22,18 @@
             ]
           },
           {
-            "width": 1008,
+            "width": 1006.6500244140625,
             "height": 810.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 1008,
-                "height": 541.6000366210938,
+                "width": 1006.6500244140625,
+                "height": 537.4000244140625,
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 544,
-                    "height": 541.6000366210938,
+                    "width": 799.6500244140625,
+                    "height": 537.4000244140625,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -41,8 +41,8 @@
                     ]
                   },
                   {
-                    "width": 461,
-                    "height": 541.6000366210938,
+                    "width": 204,
+                    "height": 537.4000244140625,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 1008,
-                "height": 266,
+                "width": 1006.6500244140625,
+                "height": 270.20001220703125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 304,
+            "width": 306.20001220703125,
             "height": 810.6000366210938,
             "type": "panel",
             "active": 0,
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
+        "assets",
         "console",
         "timeline",
         "game-window",
