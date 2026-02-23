@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "CROW.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -31,7 +31,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "BALL.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -47,7 +47,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "DUCK.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -63,7 +63,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "Elephant.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -79,7 +79,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "Fish.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -95,7 +95,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "Egg.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -111,7 +111,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "ARROW.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -127,7 +127,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "GRAPES.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -143,7 +143,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "axe.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -159,7 +159,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "Frog.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
