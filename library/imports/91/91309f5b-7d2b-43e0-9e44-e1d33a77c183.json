@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "Vector Smart Object",
+    "name": "blankTile",
     "texture": "90be3f0c-d99b-4d14-ae6f-c79854752956",
     "atlas": "",
     "rect": [

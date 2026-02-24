@@ -10,16 +10,16 @@
       "TitleImageName": "Between 1-10.png",
       "introBgName": "bg.png",
       "bgmMusicName": "BGM.mp3",
-      "mainBgName": "BG.png",
+      "mainBgName": "bgmain.png",
       "JockeyName": "Puzzle"
     },
     "questionData": [
       {
         "questionText": "Between numbers",
-        "questionImageName": "Group1copy 6.png",
+        "questionImageName": "Q1.png",
         "questionAudioName": "Identify the number that comes in between the given number.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "",
+        "commonOptionImageName": "blankTile",
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
@@ -31,10 +31,10 @@
       },
       {
         "questionText": "Between numbers",
-        "questionImageName": "Group 1 copy 4.png",
+        "questionImageName": "Q2.png",
         "questionAudioName": "Identify the number that comes in between the given number.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "",
+        "commonOptionImageName": "blankTile",
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
@@ -46,10 +46,10 @@
       },
       {
         "questionText": "Between numbers",
-        "questionImageName": "Group 1 copy 5.png",
+        "questionImageName": "Q3.png",
         "questionAudioName": "Identify the number that comes in between the given number.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "",
+        "commonOptionImageName": "blankTile",
         "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
