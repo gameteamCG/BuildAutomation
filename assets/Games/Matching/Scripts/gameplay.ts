@@ -15,32 +15,20 @@ export default class gameplay extends cc.Component {
     private tlc_font: cc.Font = null;
     @property(cc.Font)
     private supercub_font: cc.Font = null;
-
-
     @property(cc.AudioClip)
     private popSound: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private popSound2: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private questionSound: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private positiveSound: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private negativeSound: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private positiveAudio: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private negativeAudio: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private stallionPositive: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private stallionNegative: cc.AudioClip[] = [];
 
@@ -597,14 +585,14 @@ export default class gameplay extends cc.Component {
         // cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -170, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -155, y: 0 }, { easing: "sineInOut" }).start();
 
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 170, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 155, y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
             cc.audioEngine.playEffect(this.positiveSound[0], false);
         }, 0.2)
@@ -616,7 +604,7 @@ export default class gameplay extends cc.Component {
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             this.scheduleOnce(() => {
                 this.callJockey();
-            }, 0.7);
+            }, this.correctAudio[audioNum].duration);
         }, 1);
     }
 

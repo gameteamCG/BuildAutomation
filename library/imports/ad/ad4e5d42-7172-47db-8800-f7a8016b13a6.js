@@ -36,7 +36,6 @@ var gameplay = /** @class */ (function (_super) {
         _this.tlc_font = null;
         _this.supercub_font = null;
         _this.popSound = [];
-        _this.popSound2 = [];
         _this.questionSound = [];
         _this.positiveSound = [];
         _this.negativeSound = [];
@@ -560,13 +559,13 @@ var gameplay = /** @class */ (function (_super) {
         // cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -170, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -155, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 170, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 155, y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             cc.audioEngine.playEffect(_this.positiveSound[0], false);
         }, 0.2);
@@ -578,7 +577,7 @@ var gameplay = /** @class */ (function (_super) {
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             _this.scheduleOnce(function () {
                 _this.callJockey();
-            }, 0.7);
+            }, _this.correctAudio[audioNum].duration);
         }, 1);
     };
     gameplay.prototype.callJockey = function () {
@@ -1092,9 +1091,6 @@ var gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], gameplay.prototype, "popSound", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], gameplay.prototype, "popSound2", void 0);
     __decorate([
         property(cc.AudioClip)
     ], gameplay.prototype, "questionSound", void 0);

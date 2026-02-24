@@ -19,7 +19,7 @@
             "children": [
               {
                 "width": 217,
-                "height": 359.2875061035156,
+                "height": 359.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -28,7 +28,7 @@
               },
               {
                 "width": 217,
-                "height": 352.3125,
+                "height": 352.2875061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -44,7 +44,7 @@
             "children": [
               {
                 "width": 871,
-                "height": 359.2875061035156,
+                "height": 359.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -53,9 +53,9 @@
               },
               {
                 "width": 871,
-                "height": 352.3125,
+                "height": 352.2875061035156,
                 "type": "panel",
-                "active": 1,
+                "active": 2,
                 "children": [
                   "console",
                   "timeline",
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1771318527374": {}
+    "window-1771913984040": {}
   },
   "panels": {
     "project-settings": {
@@ -108,7 +108,7 @@
     "builder": {
       "x": 32,
       "y": 0,
-      "width": 1455,
+      "width": 1456,
       "height": 820
     }
   },
