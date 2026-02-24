@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "drag the objects seen in the bedroom",
+        "questionText": "Drag the objects seen in the bedroom",
         "questionImageName": "box_0000_cardboard.png",
         "questionAudioName": "drag the objects seen in the bedroom.mp3",
         "shouldPlayQuestionAudio": true,
@@ -35,7 +35,7 @@
         "correctAnswerNum": "14"
       },
       {
-        "questionText": "drag the objects seen in the living room",
+        "questionText": "Drag the objects seen in the living room",
         "questionImageName": "box_0000_cardboard.png",
         "questionAudioName": "drag the objects seen in the living room.mp3",
         "shouldPlayQuestionAudio": true,
@@ -55,7 +55,7 @@
         "correctAnswerNum": "23"
       },
       {
-        "questionText": "drag the objects seen in the kitchen",
+        "questionText": "Drag the objects seen in the kitchen",
         "questionImageName": "box_0000_cardboard.png",
         "questionAudioName": "drag the objects seen in the kitchen.mp3",
         "shouldPlayQuestionAudio": true,
@@ -75,7 +75,7 @@
         "correctAnswerNum": "23"
       },
       {
-        "questionText": "drag the objects seen in the playroom",
+        "questionText": "Drag the objects seen in the playroom",
         "questionImageName": "box_0000_cardboard.png",
         "questionAudioName": "drag the objects seen in the playroom.mp3",
         "shouldPlayQuestionAudio": true,
@@ -95,7 +95,7 @@
         "correctAnswerNum": "14"
       },
       {
-        "questionText": "drag the objects seen in the kids room",
+        "questionText": "Drag the objects seen in the kids room",
         "questionImageName": "box_0000_cardboard.png",
         "questionAudioName": "drag the objects seen in the kids room.mp3",
         "shouldPlayQuestionAudio": true,
@@ -115,7 +115,7 @@
         "correctAnswerNum": "24"
       },
       {
-        "questionText": "drag the objects seen in the bedroom",
+        "questionText": "Drag the objects seen in the bedroom",
         "questionImageName": "box_0000_cardboard.png",
         "questionAudioName": "drag the objects seen in the bedroom.mp3",
         "shouldPlayQuestionAudio": true,
@@ -135,7 +135,7 @@
         "correctAnswerNum": "12"
       },
       {
-        "questionText": "drag the objects seen in the living room",
+        "questionText": "Drag the objects seen in the living room",
         "questionImageName": "box_0000_cardboard.png",
         "questionAudioName": "drag the objects seen in the living room.mp3",
         "shouldPlayQuestionAudio": true,
