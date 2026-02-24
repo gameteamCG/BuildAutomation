@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "star shaped object",
+        "questionText": "Star shaped object",
         "questionAudioName": "identifythestarshapedobject.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "common-asset.png",
@@ -33,7 +33,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "star shaped object",
+        "questionText": "Star shaped object",
         "questionAudioName": "identifythestarshapedobject.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "common-asset.png",
@@ -50,7 +50,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "star shaped object",
+        "questionText": "Star shaped object",
         "questionAudioName": "identifythestarshapedobject.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "common-asset.png",
@@ -67,7 +67,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "star shaped object",
+        "questionText": "Star shaped object",
         "questionAudioName": "identifythestarshapedobject.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "common-asset.png",
@@ -85,7 +85,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "star shaped object",
+        "questionText": "Star shaped object",
         "questionAudioName": "identifythestarshapedobject.mp3",
         "shouldPlayQuestionAudio": false,
         "commonOptionImageName": "common-asset.png",
@@ -103,7 +103,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "star shaped object",
+        "questionText": "Star shaped object",
         "questionAudioName": "identifythestarshapedobject.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "common-asset.png",

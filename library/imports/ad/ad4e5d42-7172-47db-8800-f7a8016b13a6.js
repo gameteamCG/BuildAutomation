@@ -1063,7 +1063,7 @@ var NewClass = /** @class */ (function (_super) {
                 subChild.y *= optionScaleFactor;
                 subChild.width *= optionScaleFactor;
                 subChild.height *= optionScaleFactor;
-                console.log(subChild.width, subChild.height, "subChild : ");
+                // console.log(subChild.width, subChild.height, "subChild : ");
                 //console.log("subChild--", subChild.name);
             }
         }

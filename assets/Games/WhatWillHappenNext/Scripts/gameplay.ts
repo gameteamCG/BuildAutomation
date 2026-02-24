@@ -1143,7 +1143,7 @@ export default class NewClass extends cc.Component {
                 subChild.y *= optionScaleFactor;
                 subChild.width *= optionScaleFactor;
                 subChild.height *= optionScaleFactor;
-                console.log(subChild.width, subChild.height, "subChild : ");
+                // console.log(subChild.width, subChild.height, "subChild : ");
                 //console.log("subChild--", subChild.name);
             }
         }
