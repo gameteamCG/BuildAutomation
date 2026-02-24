@@ -48,10 +48,6 @@ export default class NewClass extends cc.Component {
         console.log("showedScreen--Congratulations");
         startGame.Instance.node.getChildByName("progress").opacity = 0;
         this.scheduleOnce(() => {
-            this.node.getChildByName("awesome").getComponent(cc.Animation).play();
-        }, 0.3);
-
-        this.scheduleOnce(() => {
             this.node.getComponent(cc.AudioSource).clip = this.star[0];
             this.node.getComponent(cc.AudioSource).play();
             cc.tween(this.node.getChildByName("star1"))

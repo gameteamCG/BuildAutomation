@@ -63,9 +63,6 @@ var NewClass = /** @class */ (function (_super) {
         console.log("showedScreen--Congratulations");
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 0;
         this.scheduleOnce(function () {
-            _this.node.getChildByName("awesome").getComponent(cc.Animation).play();
-        }, 0.3);
-        this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
             _this.node.getComponent(cc.AudioSource).play();
             cc.tween(_this.node.getChildByName("star1"))
