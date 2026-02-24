@@ -251,7 +251,7 @@ var Gameplay = /** @class */ (function (_super) {
                 // this.OptionsLayout();
                 _this.node.getChildByName("basket").active = true;
                 //this.node.getChildByName("rope").active = true;
-                // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
+                _this.arrangeChildren(_this.options, 20); // 10 is an example spacing value
                 var delay = 0;
                 var _loop_6 = function (i) {
                     _this.scheduleOnce(function () {
