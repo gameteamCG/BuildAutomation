@@ -249,7 +249,13 @@ var Gameplay = /** @class */ (function (_super) {
             }
             else if (_this.optionsLayout == "layout2") {
                 // this.OptionsLayout();
-                _this.node.getChildByName("basket").active = true;
+                if (StartGame_1.default.Instance.currentLevel == 6) {
+                    _this.node.getChildByName("layout2").setPosition(-2.282, 110);
+                    _this.node.getChildByName("plate").active = true;
+                }
+                else {
+                    _this.node.getChildByName("basket").active = true;
+                }
                 //this.node.getChildByName("rope").active = true;
                 _this.arrangeChildren(_this.options, 20); // 10 is an example spacing value
                 var delay = 0;
@@ -296,6 +302,16 @@ var Gameplay = /** @class */ (function (_super) {
             }, 1);
         }, 1);
     };
+    Gameplay.prototype.playButtonSound = function (event) {
+        if (!this.canTouch) {
+            return;
+        }
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.questionAudio, false);
+        this.scheduleOnce(function () {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration);
+    };
     Gameplay.prototype.generateOptions = function (_template, _optionParent, _optionCount) {
         for (var i = 0; i < _optionCount; i++) {
             var _option = cc.instantiate(_template);
@@ -307,12 +323,21 @@ var Gameplay = /** @class */ (function (_super) {
         }
         if (this.optionsLayout == "layout3") {
             this.arrangeGridChildren(this.options, 80, _optionCount);
+            // if (startGame.Instance.currentLevel == 6) {
+            //     this.node.getChildByName("layout3").getChildByName("plate").active = true;
+            //     console.log("-------------------");
+            //     this.arrangeGridChildren(this.options, 10, _optionCount);
+            // }
         }
         else {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
             var _laypout1posY = [-150, 100, -100, 0, 50];
+            if (StartGame_1.default.Instance.currentLevel == 5) {
+                console.log("-------------------");
+                _laypout1posY = [-250, -100, -250, -100, -250];
+            }
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }

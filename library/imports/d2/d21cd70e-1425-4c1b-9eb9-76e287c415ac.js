@@ -248,12 +248,12 @@ var startGame = /** @class */ (function (_super) {
             this.premiumLevel = parseInt(premium);
         }
         this.NextSceneName = "1";
-        // if (level != null) {
-        //     this.NextSceneName = level;
-        //     if (parseInt(this.NextSceneName) >= this.TotalLevels) {
-        //         this.NextSceneName = this.TotalLevels.toString();
-        //     }
-        // }
+        if (level != null) {
+            startGame_1.instance.currentLevel = parseInt(level);
+            if (parseInt(this.NextSceneName) >= this.TotalLevels) {
+                startGame_1.instance.currentLevel = this.TotalLevels;
+            }
+        }
         if (mobile == "1") {
             this.hasMobile = true;
         }

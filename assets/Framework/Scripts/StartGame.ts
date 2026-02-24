@@ -289,12 +289,12 @@ export default class startGame extends cc.Component {
         }
         this.NextSceneName = "1";
 
-        // if (level != null) {
-        //     this.NextSceneName = level;
-        //     if (parseInt(this.NextSceneName) >= this.TotalLevels) {
-        //         this.NextSceneName = this.TotalLevels.toString();
-        //     }
-        // }
+        if (level != null) {
+            startGame.instance.currentLevel = parseInt(level);
+            if (parseInt(this.NextSceneName) >= this.TotalLevels) {
+                startGame.instance.currentLevel = this.TotalLevels;
+            }
+        }
 
         if (mobile == "1") {
             this.hasMobile = true;
