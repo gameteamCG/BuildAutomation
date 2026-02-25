@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Artboard 3 copy 8",
+    "texture": "3903d693-48ae-4095-b71a-7d6bf1635333",
+    "atlas": "",
+    "rect": [
+      0,
+      28,
+      451,
+      462
+    ],
+    "offset": [
+      -25,
+      -8.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

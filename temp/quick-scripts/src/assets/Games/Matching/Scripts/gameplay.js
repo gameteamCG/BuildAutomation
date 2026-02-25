@@ -382,7 +382,7 @@ var gameplay = /** @class */ (function (_super) {
                 _this.scheduleOnce(function () {
                     cc.audioEngine.playEffect(_this.popSound[0], false);
                     cc.tween(_this.dropZones.getChildByName(i.toString()))
-                        .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                        .to(0.5, { scale: 1.3 }, { easing: "sineInOut" }).start();
                     if (i == _this.dropZones.children.length) {
                         _this.scheduleOnce(function () {
                             _this.callOptionIn();
@@ -415,7 +415,7 @@ var gameplay = /** @class */ (function (_super) {
             this_6.scheduleOnce(function () {
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 cc.tween(_this.optionsNode.getChildByName(i.toString()))
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(0.5, { scale: 1.3 }, { easing: "sineInOut" }).start();
                 if (i == _this.optionsNode.children.length) {
                     _this.scheduleOnce(function () {
                         _this.PlayQuestionAudio();
@@ -567,7 +567,7 @@ var gameplay = /** @class */ (function (_super) {
         cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 185, y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             var audioNum = parseInt(_clone1.name);
             audioNum -= 1;
