@@ -546,6 +546,7 @@ var NewClass = /** @class */ (function (_super) {
                     if (_this.isSecondInteraction) {
                         //check what interaction it is and call the respective function
                         //show question panel
+                        _this.puzzleQuestionVo = _this.wordVoQuestion;
                         cc.audioEngine.playEffect(_this.wordVoQuestion, false);
                         _this.interactionType == "1" ? _this.OptionsAppear() : _this.wordAppear();
                     }
@@ -558,6 +559,14 @@ var NewClass = /** @class */ (function (_super) {
         else {
             this.interactable = true;
         }
+    };
+    NewClass.prototype.PlayQVoButton = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        this.scheduleOnce(function () {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.puzzleQuestionVo.duration);
+        _event.target.getComponent(cc.Button).interactable = false;
     };
     NewClass.prototype.CallJockey = function () {
         var _this = this;

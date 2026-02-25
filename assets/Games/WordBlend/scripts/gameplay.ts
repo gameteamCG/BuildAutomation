@@ -616,6 +616,7 @@ export default class NewClass extends cc.Component {
                     if (this.isSecondInteraction) {
                         //check what interaction it is and call the respective function
                         //show question panel
+                        this.puzzleQuestionVo = this.wordVoQuestion;
                         cc.audioEngine.playEffect(this.wordVoQuestion, false);
                         this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
                     }
@@ -627,6 +628,16 @@ export default class NewClass extends cc.Component {
         } else {
             this.interactable = true;
         }
+    }
+
+    PlayQVoButton(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false)
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+        }, this.puzzleQuestionVo.duration)
+        _event.target.getComponent(cc.Button).interactable = false;
+
     }
 
     CallJockey() {
