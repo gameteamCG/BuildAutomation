@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dirtynails",
+    "texture": "39e08703-4a61-4805-9005-e427769bd451",
+    "atlas": "",
+    "rect": [
+      129,
+      106,
+      243,
+      289
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

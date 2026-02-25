@@ -1,6 +1,7 @@
 
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -444,7 +445,8 @@ export default class NewClass extends cc.Component {
         if (_node.name == this.answerArray[0]) {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+            // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudioName.slice(0, -4)
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
@@ -460,6 +462,7 @@ export default class NewClass extends cc.Component {
     }
 
     callNextLevel() {
+        cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
         console.log("levelComplete--" + globalVariables.Instance.currentLevel);
         this.callStarsEared();
         if (globalVariables.Instance.currentLevel == this.maxLevel) {

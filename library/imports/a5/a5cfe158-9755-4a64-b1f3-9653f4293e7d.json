@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dressup",
+    "texture": "19bf24a9-6bd8-43de-b6de-0659f16083d1",
+    "atlas": "",
+    "rect": [
+      155,
+      90,
+      185,
+      347
+    ],
+    "offset": [
+      -3,
+      -13
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

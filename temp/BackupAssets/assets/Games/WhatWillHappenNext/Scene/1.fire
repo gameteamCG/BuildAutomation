@@ -1840,7 +1840,7 @@
     "_string": "",
     "_N$string": "",
     "_fontSize": 80,
-    "_lineHeight": 130,
+    "_lineHeight": 81,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "aeec3b5e-4b5a-4178-9128-c885bc14f054"
@@ -1897,7 +1897,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        247.76,
+        276.689,
         -146.64,
         0,
         0,
