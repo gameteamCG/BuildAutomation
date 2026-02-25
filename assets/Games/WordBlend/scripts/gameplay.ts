@@ -1,5 +1,6 @@
 
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -604,7 +605,7 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            //cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
 
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
@@ -627,6 +628,14 @@ export default class NewClass extends cc.Component {
         } else {
             this.interactable = true;
         }
+    }
+    playButtonSound(event: cc.Event) {
+
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        this.scheduleOnce(() => {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.puzzleQuestionVo.duration)
     }
 
     CallJockey() {
