@@ -1110,8 +1110,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Materials\\grey.mtl"
   },
   "cf4e36d8-89d2-4945-a198-67e319127411": {
-    "asset": 1772020985014,
-    "meta": 1772020985019,
+    "asset": 1772021115900,
+    "meta": 1772021115904,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\1.fire"
   },
   "064fa1cd-c092-45a6-8a88-4c65b8b70e53": {
@@ -3299,11 +3299,6 @@
     "meta": 1772019415405,
     "relativePath": "resources\\images\\Juniorskg.png"
   },
-  "cabd6900-48a4-4d99-9b7e-c317254c6425": {
-    "asset": 1772019263251,
-    "meta": 1772019415347,
-    "relativePath": "resources\\images\\indoorbg.png"
-  },
   "e44100a4-2dc7-4d9b-8bfe-9e8cb86dcca9": {
     "asset": 1772019263254,
     "meta": 1772019415407,
@@ -3378,5 +3373,10 @@
     "asset": 1772020730102,
     "meta": 1772020732525,
     "relativePath": "resources\\game_data.json"
+  },
+  "cabd6900-48a4-4d99-9b7e-c317254c6425": {
+    "asset": 1772021114504,
+    "meta": 1772021114548,
+    "relativePath": "resources\\images\\indoorbg.png"
   }
 }
