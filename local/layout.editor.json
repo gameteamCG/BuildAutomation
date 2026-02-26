@@ -89,7 +89,8 @@
         "node-library"
       ]
     },
-    " load-media-worker": {}
+    " common-asset-worker-worker": {},
+    "window-1772104340725": {}
   },
   "panels": {
     "project-settings": {
@@ -105,7 +106,7 @@
       "height": 900
     },
     "builder": {
-      "x": 48,
+      "x": 40,
       "y": 0,
       "width": 1440,
       "height": 816
