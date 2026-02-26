@@ -153,15 +153,15 @@
           ""
         ],
         "optionsBg": [
-          "a1.png",
+          "ap1.png",
           "a2.png",
           "a1.png",
-          "a2.png"
+          "ap2.png"
         ],
         "correctAudioName": "EXCELLENTJOB.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": "A.mp3",
-        "correctAnswerNum": "1234"
+        "correctAnswerNum": "23"
       }
     ]
   }
