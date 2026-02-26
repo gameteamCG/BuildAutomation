@@ -10,7 +10,7 @@
   },
   "questionData": [
     {
-      "questionText": "Sight word the",
+      "questionText": "Sight word",
       "questionImageName": "",
       "questionAudioName": "swipeQ.mp3",
       "shouldPlayQuestionAudio": true,
@@ -29,7 +29,7 @@
       "reiterationImageName": "apple.png"
     },
     {
-      "questionText": "Sight word the",
+      "questionText": "Sight word",
       "questionImageName": "",
       "questionAudioName": "swipeQ.mp3",
       "shouldPlayQuestionAudio": true,
@@ -48,7 +48,7 @@
       "reiterationImageName": "orange.png"
     },
     {
-      "questionText": "Sight word the",
+      "questionText": "Sight word",
       "questionImageName": "",
       "questionAudioName": "swipeQ.mp3",
       "shouldPlayQuestionAudio": true,
@@ -67,7 +67,7 @@
       "reiterationImageName": "starwa.png"
     },
     {
-      "questionText": "Sight word the",
+      "questionText": "Sight word",
       "questionImageName": "",
       "questionAudioName": "swipeQ.mp3",
       "shouldPlayQuestionAudio": true,
