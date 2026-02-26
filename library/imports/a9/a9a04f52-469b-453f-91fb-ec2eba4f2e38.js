@@ -29,7 +29,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
@@ -350,14 +351,16 @@ var Gameplay = /** @class */ (function (_super) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[0], false);
                 }
                 node.active = false;
-                if (_this.correctCounter == _this.correctAnswer.length) {
-                    console.log("all the options are answered correctly");
-                    cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
-                    _this.LoadNextQuestion();
-                }
-                else {
-                    _this.canTouch = true;
-                }
+                _this.scheduleOnce(function () {
+                    if (_this.correctCounter == _this.correctAnswer.length) {
+                        console.log("all the options are answered correctly");
+                        cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
+                        _this.LoadNextQuestion();
+                    }
+                    else {
+                        _this.canTouch = true;
+                    }
+                }, _this.reiterationAudio[0].duration);
             }).start();
         }
         else {
@@ -484,14 +487,16 @@ var Gameplay = /** @class */ (function (_super) {
                 else if (_this.reiterationAudio[0]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[0], false);
                 }
-                if (_this.correctCounter == _this.correctAnswer.length) {
-                    console.log("all the options are answered correctly");
-                    _this.LoadNextQuestion();
-                    // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
-                }
-                else {
-                    _this.canTouch = true;
-                }
+                _this.scheduleOnce(function () {
+                    if (_this.correctCounter == _this.correctAnswer.length) {
+                        console.log("all the options are answered correctly");
+                        _this.LoadNextQuestion();
+                        // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
+                    }
+                    else {
+                        _this.canTouch = true;
+                    }
+                }, _this.reiterationAudio[audioNum].duration);
             }).start();
         }
         else {

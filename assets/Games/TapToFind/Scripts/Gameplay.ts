@@ -5,7 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -331,14 +332,16 @@ export default class Gameplay extends cc.Component {
                         cc.audioEngine.playEffect(this.reiterationAudio[0], false);
                     }
                     node.active = false;
-                    if (this.correctCounter == this.correctAnswer.length) {
-                        console.log("all the options are answered correctly");
-                        cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
-                        this.LoadNextQuestion();
-                    }
-                    else {
-                        this.canTouch = true;
-                    }
+                    this.scheduleOnce(() => {
+                        if (this.correctCounter == this.correctAnswer.length) {
+                            console.log("all the options are answered correctly");
+                            cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
+                            this.LoadNextQuestion();
+                        }
+                        else {
+                            this.canTouch = true;
+                        }
+                    }, this.reiterationAudio[0].duration)
                 }).start();
         }
         else {
@@ -468,14 +471,16 @@ export default class Gameplay extends cc.Component {
                     else if (this.reiterationAudio[0]) {
                         cc.audioEngine.playEffect(this.reiterationAudio[0], false);
                     }
-                    if (this.correctCounter == this.correctAnswer.length) {
-                        console.log("all the options are answered correctly");
-                        this.LoadNextQuestion();
-                        // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
-                    }
-                    else {
-                        this.canTouch = true;
-                    }
+                    this.scheduleOnce(() => {
+                        if (this.correctCounter == this.correctAnswer.length) {
+                            console.log("all the options are answered correctly");
+                            this.LoadNextQuestion();
+                            // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
+                        }
+                        else {
+                            this.canTouch = true;
+                        }
+                    }, this.reiterationAudio[audioNum].duration)
                 }).start();
         }
         else {

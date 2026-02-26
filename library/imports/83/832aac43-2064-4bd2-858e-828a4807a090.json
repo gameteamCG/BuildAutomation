@@ -20,15 +20,15 @@
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
-        "options": [
-          "Artboard4copy6.png",
-          "Artboard4.png",
-          "Artboard4copy4.png"
-        ],
         "optionsBg": [
-          "Artboard4copy14.png",
-          "Artboard4copy8.png",
-          "Artboard4copy12.png"
+          "triangle.png",
+          "circle.png",
+          "square.png"
+        ],
+        "options": [
+          "triangle1.png",
+          "circle1.png",
+          "square1.png"
         ],
         "correctAudioName": "EXCELLENTJOB.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
@@ -44,15 +44,15 @@
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
-        "options": [
-          "Artboard4copy2.png",
-          "Artboard4copy5.png",
-          "Artboard4copy.png"
-        ],
         "optionsBg": [
-          "Artboard4copy10.png",
-          "Artboard4copy13.png",
-          "Artboard4copy9.png"
+          "triangle.png",
+          "circle.png",
+          "square.png"
+        ],
+        "options": [
+          "triangle1.png",
+          "circle1.png",
+          "square1.png"
         ],
         "correctAudioName": "EXCEPTIONAL.mp3",
         "wrongAudioName": "ohoh.mp3",
@@ -68,15 +68,15 @@
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
-        "options": [
-          "Artboard4copy4.png",
-          "Artboard4copy2.png",
-          "Artboard4copy7.png"
-        ],
         "optionsBg": [
-          "Artboard4copy12.png",
-          "Artboard4copy10.png",
-          "Artboard4copy15.png"
+          "rect.png",
+          "triangle.png",
+          "circle.png"
+        ],
+        "options": [
+          "rect1.png",
+          "triangle1.png",
+          "circle1.png"
         ],
         "correctAudioName": "IMPRESSIVEWORK.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
@@ -88,96 +88,96 @@
       {
         "questionLayout": "layout3",
         "questionBgName": "Artboard1copy7.png",
-        "questionAudioName": "identifythesemicircl.mp3",
+        "questionAudioName": "identifytherectangle.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
-        "options": [
-          "Artboard4copy7.png",
-          "Artboard4copy3.png",
-          "Artboard4copy.png"
-        ],
         "optionsBg": [
-          "Artboard4copy15.png",
-          "Artboard4copy11.png",
-          "Artboard4copy9.png"
+          "rect.png",
+          "circle.png",
+          "triangle.png"
+        ],
+        "options": [
+          "rect1.png",
+          "circle1.png",
+          "triangle1.png"
         ],
         "correctAudioName": "AWESOME YOU SAVED IT.mp3",
         "wrongAudioName": "ohoh.mp3",
         "reiterationAudioName": [
-          "semicircle.mp3"
+          "rectangle.mp3"
         ],
         "correctAnswerNum": "1"
       },
       {
         "questionLayout": "layout3",
         "questionBgName": "Artboard1copy7.png",
-        "questionAudioName": "identifytheovalshap.mp3",
+        "questionAudioName": "identifythetriangle.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
-        "options": [
-          "Artboard4copy6.png",
-          "Artboard4copy5.png",
-          "Artboard4copy3.png"
-        ],
         "optionsBg": [
-          "Artboard4copy14.png",
-          "Artboard4copy13.png",
-          "Artboard4copy11.png"
+          "rect.png",
+          "triangle.png",
+          "circle.png"
         ],
-        "correctAudioName": "MAGNIFICENT.mp3",
+        "options": [
+          "rect1.png",
+          "triangle1.png",
+          "circle1.png"
+        ],
+        "correctAudioName": "IMPRESSIVEWORK.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "oval.mp3"
-        ],
-        "correctAnswerNum": "3"
-      },
-      {
-        "questionLayout": "layout3",
-        "questionBgName": "Artboard1copy7.png",
-        "questionAudioName": "identifytherectangle.mp3",
-        "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
-        "numberOfOptions": 3,
-        "options": [
-          "Artboard4copy2.png",
-          "Artboard4copy4.png",
-          "Artboard4.png"
-        ],
-        "optionsBg": [
-          "Artboard4copy10.png",
-          "Artboard4copy12.png",
-          "Artboard4copy8.png"
-        ],
-        "correctAudioName": "GOODEFFORT.mp3",
-        "wrongAudioName": "Oopsietryoncemore.mp3",
-        "reiterationAudioName": [
-          "rectangle.mp3"
+          "triangle1.mp3"
         ],
         "correctAnswerNum": "2"
       },
       {
         "questionLayout": "layout3",
         "questionBgName": "Artboard1copy7.png",
-        "questionAudioName": "identifythediamonds.mp3",
+        "questionAudioName": "identifythecirclesh.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
-        "options": [
-          "Artboard4copy7.png",
-          "Artboard4copy.png",
-          "Artboard4copy6.png"
-        ],
         "optionsBg": [
-          "Artboard4copy15.png",
-          "Artboard4copy9.png",
-          "Artboard4copy14.png"
+          "triangle.png",
+          "circle.png",
+          "square.png"
         ],
-        "correctAudioName": "GORGEOUSWORK.mp3",
+        "options": [
+          "triangle1.png",
+          "circle1.png",
+          "square1.png"
+        ],
+        "correctAudioName": "EXCELLENTJOB.mp3",
+        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "reiterationAudioName": [
+          "circle1.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Artboard1copy7.png",
+        "questionAudioName": "identifythesquaresh.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "optionsBg": [
+          "triangle.png",
+          "circle.png",
+          "square.png"
+        ],
+        "options": [
+          "triangle1.png",
+          "circle1.png",
+          "square1.png"
+        ],
+        "correctAudioName": "EXCEPTIONAL.mp3",
         "wrongAudioName": "ohoh.mp3",
         "reiterationAudioName": [
-          "diamond.mp3"
+          "square1.mp3"
         ],
         "correctAnswerNum": "3"
       }
