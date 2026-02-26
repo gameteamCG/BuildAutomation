@@ -17,10 +17,12 @@
       "commonOptionImageName": "common-asset.png",
       "isOptionText": false,
       "isOptionBG": true,
-      "numberOfOptions": 2,
+      "numberOfOptions": 4,
       "options": [
         "8.png",
-        "1.png"
+        "1.png",
+        "9.png",
+        "10.png"
       ],
       "correctAudios": [
         "star.mp3"
@@ -34,10 +36,12 @@
       "commonOptionImageName": "common-asset.png",
       "isOptionText": false,
       "isOptionBG": true,
-      "numberOfOptions": 2,
+      "numberOfOptions": 4,
       "options": [
         "2.png",
-        "9.png"
+        "9.png",
+        "7.png",
+        "11.png"
       ],
       "correctAudios": [
         "starshapedcookie.mp3"
@@ -51,10 +55,12 @@
       "commonOptionImageName": "common-asset.png",
       "isOptionText": false,
       "isOptionBG": true,
-      "numberOfOptions": 2,
+      "numberOfOptions": 4,
       "options": [
         "9.png",
-        "6.png"
+        "6.png",
+        "14.png",
+        "13.png"
       ],
       "correctAudios": [
         "starshapedearings.mp3"
@@ -68,11 +74,12 @@
       "commonOptionImageName": "common-asset.png",
       "isOptionText": false,
       "isOptionBG": true,
-      "numberOfOptions": 3,
+      "numberOfOptions": 4,
       "options": [
         "11.png",
         "13.png",
-        "3.png"
+        "3.png",
+        "8.png"
       ],
       "correctAudios": [
         "starshapedhanging.mp3"
@@ -82,15 +89,16 @@
     {
       "questionText": "Star shaped object",
       "questionAudioName": "identifythestarshapedobject.mp3",
-      "shouldPlayQuestionAudio": false,
+      "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "common-asset.png",
       "isOptionText": false,
       "isOptionBG": true,
-      "numberOfOptions": 3,
+      "numberOfOptions": 4,
       "options": [
         "5.png",
         "9.png",
-        "12.png"
+        "12.png",
+        "11.png"
       ],
       "correctAudios": [
         "starshapedkeychain.mp3"
