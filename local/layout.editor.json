@@ -13,8 +13,8 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 218,
-            "height": 810.6000366210938,
+            "width": 215.0625,
+            "height": 796.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -22,18 +22,18 @@
             ]
           },
           {
-            "width": 1008,
-            "height": 810.6000366210938,
+            "width": 997.2625122070312,
+            "height": 796.2000122070312,
             "type": "dock-v",
             "children": [
               {
-                "width": 1008,
-                "height": 541.6000366210938,
+                "width": 997.2625122070312,
+                "height": 527.1375122070312,
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 755.25,
-                    "height": 541.6000366210938,
+                    "width": 746.9375,
+                    "height": 527.1375122070312,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -41,8 +41,8 @@
                     ]
                   },
                   {
-                    "width": 249.75,
-                    "height": 541.6000366210938,
+                    "width": 247.3125,
+                    "height": 527.1375122070312,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 1008,
-                "height": 266,
+                "width": 997.2625122070312,
+                "height": 266.0625,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 304,
-            "height": 810.6000366210938,
+            "width": 304.07501220703125,
+            "height": 796.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
+        "assets",
         "console",
         "timeline",
         "game-window",
@@ -88,8 +88,7 @@
         "cocos-services",
         "node-library"
       ]
-    },
-    " common-asset-worker-worker": {}
+    }
   },
   "panels": {
     "project-settings": {
