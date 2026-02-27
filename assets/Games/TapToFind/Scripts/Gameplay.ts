@@ -6,7 +6,8 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
 // import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
