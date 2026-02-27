@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "oval",
+        "questionText": "Oval",
         "questionImageName": "Artboard_15.png",
         "questionAudioName": "que.mp3",
         "shouldPlayQuestionAudio": true,
@@ -35,7 +35,7 @@
         "correctAnswerNum": "12"
       },
       {
-        "questionText": "oval",
+        "questionText": "Oval",
         "questionImageName": "Artboard_15.png",
         "questionAudioName": "que.mp3",
         "shouldPlayQuestionAudio": true,
@@ -55,7 +55,7 @@
         "correctAnswerNum": "13"
       },
       {
-        "questionText": "oval",
+        "questionText": "Oval",
         "questionImageName": "Artboard_15.png",
         "questionAudioName": "que.mp3",
         "shouldPlayQuestionAudio": true,
@@ -75,7 +75,7 @@
         "correctAnswerNum": "34"
       },
       {
-        "questionText": "oval",
+        "questionText": "Oval",
         "questionImageName": "Artboard_15.png",
         "questionAudioName": "que.mp3",
         "shouldPlayQuestionAudio": true,
@@ -95,7 +95,7 @@
         "correctAnswerNum": "23"
       },
       {
-        "questionText": "oval",
+        "questionText": "Oval",
         "questionImageName": "Artboard_15.png",
         "questionAudioName": "que.mp3",
         "shouldPlayQuestionAudio": true,
