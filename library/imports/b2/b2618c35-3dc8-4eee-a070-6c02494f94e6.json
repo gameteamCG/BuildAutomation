@@ -1,0 +1,134 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "5",
+      "TitleImageName": "revisionof2Dshapes.png",
+      "introBgName": "skg.png",
+      "bgmMusicName": "hksmi.mp3",
+      "mainBgName": "doodlebg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Recap shapes",
+        "questionAudioName": "draganddroptheobjecttoitsshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "350x350.png",
+        "commonDropNodeImageName": "250x250.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "rectangle.png",
+          "circle.png"
+        ],
+        "reiterationAudios": [
+          "rectangle.mp3",
+          "circle.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "almirah.png",
+          "pizza.png",
+          "fish_2.png"
+        ]
+      },
+      {
+        "questionText": "Recap shapes",
+        "questionAudioName": "draganddroptheobjecttoitsshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "350x350.png",
+        "commonDropNodeImageName": "250x250.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "square.png",
+          "circle.png"
+        ],
+        "reiterationAudios": [
+          "square.mp3",
+          "circle.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "chess_board.png",
+          "caterpillar.png",
+          "rug.png"
+        ]
+      },
+      {
+        "questionText": "Recap shapes",
+        "questionAudioName": "draganddroptheobjecttoitsshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "350x350.png",
+        "commonDropNodeImageName": "250x250.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "rectangle.png",
+          "square.png"
+        ],
+        "reiterationAudios": [
+          "rectangle.mp3",
+          "square.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "rug.png",
+          "cloth_square.png",
+          "fish_2.png"
+        ]
+      },
+      {
+        "questionText": "Recap shapes",
+        "questionAudioName": "draganddroptheobjecttoitsshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "350x350.png",
+        "commonDropNodeImageName": "250x250.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "triangle.png",
+          "circle.png"
+        ],
+        "reiterationAudios": [
+          "triangle.mp3",
+          "circle.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "fish_2.png",
+          "pizza.png",
+          "robot.png"
+        ]
+      },
+      {
+        "questionText": "Recap shapes",
+        "questionAudioName": "draganddroptheobjecttoitsshape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "350x350.png",
+        "commonDropNodeImageName": "250x250.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "rectangle.png",
+          "triangle.png"
+        ],
+        "reiterationAudios": [
+          "rectangle.mp3",
+          "triangle.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "almirah.png",
+          "kite.png",
+          "pizza.png"
+        ]
+      }
+    ]
+  }
+}

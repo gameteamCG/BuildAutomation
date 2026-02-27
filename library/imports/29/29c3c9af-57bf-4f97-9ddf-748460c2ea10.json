@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "revisionof2Dshapes",
+    "texture": "009701fe-19b3-4c87-9a86-42f324168165",
+    "atlas": "",
+    "rect": [
+      20,
+      19,
+      902,
+      388
+    ],
+    "offset": [
+      10,
+      -9.5
+    ],
+    "originalSize": [
+      922,
+      407
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

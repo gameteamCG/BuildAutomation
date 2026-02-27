@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "almirah",
+    "texture": "288c9ce3-b624-499a-a108-3a28725ff73a",
+    "atlas": "",
+    "rect": [
+      55,
+      17,
+      141,
+      217
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
