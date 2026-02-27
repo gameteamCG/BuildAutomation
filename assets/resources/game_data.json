@@ -1,7 +1,7 @@
 {
   "additionalData": {
     "GameID": "Beginning Sounds__LKG Practice Book 2_26",
-    "totalLevel": "9",
+    "totalLevel": "5",
     "TitleImageName": "Asset_245.png",
     "introBgName": "bg_2.png",
     "bgmMusicName": "BGM.mp3",
@@ -26,7 +26,7 @@
     },
     {
       "questionText": "Beginning sound",
-      "questionImageName": "z .png",
+      "questionImageName": "z.png",
       "questionAudioName": "identify_the_picture_that_beginning_with_the_given_letter_sound_Z.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "Asset_2.png",
@@ -83,66 +83,6 @@
       ],
       "correctAudioName": "25940291_5_fries.mp3",
       "correctAnswerNum": "2"
-    },
-    {
-      "questionText": "Beginning sound",
-      "questionImageName": "q.png",
-      "questionAudioName": "identify_the_picture_that_beginning_with_the_given_letter_sound_Q.mp3",
-      "shouldPlayQuestionAudio": true,
-      "commonOptionImageName": "Asset_2.png",
-      "isOptionText": false,
-      "numberOfOptions": 2,
-      "options": [
-        "queen.png",
-        "horse.png"
-      ],
-      "correctAudioName": "25940291_6_queen.mp3",
-      "correctAnswerNum": "1"
-    },
-    {
-      "questionText": "Beginning sound",
-      "questionImageName": "c.png",
-      "questionAudioName": "identify_the_picture_that_beginning_with_the_given_letter_sound_C.mp3",
-      "shouldPlayQuestionAudio": true,
-      "commonOptionImageName": "Asset_2.png",
-      "isOptionText": false,
-      "numberOfOptions": 2,
-      "options": [
-        "spoon.png",
-        "500x500_0009_cupcake.png"
-      ],
-      "correctAudioName": "25940291_7_cupcake.mp3",
-      "correctAnswerNum": "2"
-    },
-    {
-      "questionText": "Beginning sound",
-      "questionImageName": "j.png",
-      "questionAudioName": "identify_the_picture_that_beginning_with_the_given_letter_sound_J.mp3",
-      "shouldPlayQuestionAudio": true,
-      "commonOptionImageName": "Asset_2.png",
-      "isOptionText": false,
-      "numberOfOptions": 2,
-      "options": [
-        "crab.png",
-        "j for jellyfish.png"
-      ],
-      "correctAudioName": "25940291_8_jellyfish.mp3",
-      "correctAnswerNum": "2"
-    },
-    {
-      "questionText": "Beginning sound",
-      "questionImageName": "h.png",
-      "questionAudioName": "identify_the_picture_that_beginning_with_the_given_letter_sound_H.mp3",
-      "shouldPlayQuestionAudio": true,
-      "commonOptionImageName": "Asset_2.png",
-      "isOptionText": false,
-      "numberOfOptions": 2,
-      "options": [
-        "helicopter.png",
-        "rocket.png"
-      ],
-      "correctAudioName": "25940291_9_helicopter.mp3",
-      "correctAnswerNum": "1"
     }
   ]
 }
