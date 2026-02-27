@@ -12,7 +12,7 @@
     {
       "questionText": "Uses of body parts",
       "questionImageName": "arm.png",
-      "questionAudioName": "7540161_1_identify-the-use-of-th.mp3",
+      "questionAudioName": "new_identify-the-use-of-th.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "VectorSmartObject6.png",
       "isOptionText": false,
@@ -21,13 +21,13 @@
         "catch.png",
         "bike.png"
       ],
-      "correctAudioName": "7540161_2_arms-are-used-for-catc.mp3",
+      "correctAudioName": "new_arms-are-used-for-catc.mp3",
       "correctAnswerNum": "1"
     },
     {
       "questionText": "Uses of body parts",
       "questionImageName": "leg.png",
-      "questionAudioName": "7540161_1_identify-the-use-of-th.mp3",
+      "questionAudioName": "new_identify-the-use-of-th.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "VectorSmartObject6.png",
       "isOptionText": false,
@@ -36,13 +36,13 @@
         "run.png",
         "hug.png"
       ],
-      "correctAudioName": "7540161_3_legs-are-used-for-runn.mp3",
+      "correctAudioName": "new_3_legs-are-used-for-runn.mp3",
       "correctAnswerNum": "1"
     },
     {
       "questionText": "Uses of body parts",
       "questionImageName": "hand.png",
-      "questionAudioName": "7540161_1_identify-the-use-of-th.mp3",
+      "questionAudioName": "new_identify-the-use-of-th.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "VectorSmartObject6.png",
       "isOptionText": false,
@@ -51,13 +51,13 @@
         "kick.png",
         "paint.png"
       ],
-      "correctAudioName": "7540161_4_hands-are-used-for-pai.mp3",
+      "correctAudioName": "new_4_hands-are-used-for-pai.mp3",
       "correctAnswerNum": "2"
     },
     {
       "questionText": "Uses of body parts",
       "questionImageName": "leg.png",
-      "questionAudioName": "7540161_1_identify-the-use-of-th.mp3",
+      "questionAudioName": "new_identify-the-use-of-th.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "VectorSmartObject6.png",
       "isOptionText": false,
@@ -66,13 +66,13 @@
         "bike.png",
         "hug.png"
       ],
-      "correctAudioName": "7540161_5_legs-are-used-for-cycl.mp3",
+      "correctAudioName": "new_5_legs-are-used-for-cycl.mp3",
       "correctAnswerNum": "1"
     },
     {
       "questionText": "Uses of body parts",
       "questionImageName": "arm.png",
-      "questionAudioName": "7540161_1_identify-the-use-of-th.mp3",
+      "questionAudioName": "new_identify-the-use-of-th.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "VectorSmartObject6.png",
       "isOptionText": false,
@@ -81,13 +81,13 @@
         "hug.png",
         "kick.png"
       ],
-      "correctAudioName": "7540161_6_arms-are-used-for-hugg.mp3",
+      "correctAudioName": "new_6_arms-are-used-for-hugg.mp3",
       "correctAnswerNum": "1"
     },
     {
       "questionText": "Uses of body parts",
       "questionImageName": "hand.png",
-      "questionAudioName": "7540161_1_identify-the-use-of-th.mp3",
+      "questionAudioName": "new_identify-the-use-of-th.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "VectorSmartObject6.png",
       "isOptionText": false,
@@ -96,13 +96,13 @@
         "run.png",
         "eat.png"
       ],
-      "correctAudioName": "7540161_7_hands-are-used-for-eat.mp3",
+      "correctAudioName": "new_7_hands-are-used-for-eat.mp3",
       "correctAnswerNum": "2"
     },
     {
       "questionText": "Uses of body parts",
       "questionImageName": "leg.png",
-      "questionAudioName": "7540161_1_identify-the-use-of-th.mp3",
+      "questionAudioName": "new_identify-the-use-of-th.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "VectorSmartObject6.png",
       "isOptionText": false,
@@ -111,7 +111,7 @@
         "kick.png",
         "catch.png"
       ],
-      "correctAudioName": "7540161_8_legs-are-used-for-kick.mp3",
+      "correctAudioName": "new_8_legs-are-used-for-kick.mp3",
       "correctAnswerNum": "1"
     }
   ]
