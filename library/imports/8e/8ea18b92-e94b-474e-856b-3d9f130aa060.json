@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "a",
+        "questionText": "Aa",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_a.mp3",
         "shouldPlayQuestionAudio": true,
@@ -34,7 +34,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "b",
+        "questionText": "Bb",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_b.mp3",
         "shouldPlayQuestionAudio": true,
@@ -52,7 +52,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "c",
+        "questionText": "Cc",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_c.mp3",
         "shouldPlayQuestionAudio": true,
@@ -70,7 +70,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "d",
+        "questionText": "Dd",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_d.mp3",
         "shouldPlayQuestionAudio": true,
@@ -88,7 +88,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "e",
+        "questionText": "Ee",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_e.mp3",
         "shouldPlayQuestionAudio": true,
@@ -106,7 +106,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "f",
+        "questionText": "Ff",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_f.mp3",
         "shouldPlayQuestionAudio": true,
@@ -124,7 +124,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "g",
+        "questionText": "Gg",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_g.mp3",
         "shouldPlayQuestionAudio": true,
@@ -142,7 +142,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "h",
+        "questionText": "Hh",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_h.mp3",
         "shouldPlayQuestionAudio": true,
@@ -160,7 +160,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "i",
+        "questionText": "Ii",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_i.mp3",
         "shouldPlayQuestionAudio": true,
@@ -178,7 +178,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "j",
+        "questionText": "Jj",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_j.mp3",
         "shouldPlayQuestionAudio": true,
@@ -196,7 +196,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "k",
+        "questionText": "Kk",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_k.mp3",
         "shouldPlayQuestionAudio": true,
@@ -214,7 +214,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "l",
+        "questionText": "Ll",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_l.mp3",
         "shouldPlayQuestionAudio": true,
@@ -232,7 +232,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "m",
+        "questionText": "Mm",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_m.mp3",
         "shouldPlayQuestionAudio": true,
@@ -250,7 +250,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "n",
+        "questionText": "Nn",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_n.mp3",
         "shouldPlayQuestionAudio": true,
@@ -268,9 +268,9 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "o",
+        "questionText": "Oo",
         "questionImageName": "basket.png",
-        "questionAudioName": "letter sound_o.mp3",
+        "questionAudioName": "lettersound_o.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "optionbox.png",
         "isOptionText": false,
@@ -286,7 +286,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "p",
+        "questionText": "Pp",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_p.mp3",
         "shouldPlayQuestionAudio": true,
@@ -304,7 +304,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "q",
+        "questionText": "Qq",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_q.mp3",
         "shouldPlayQuestionAudio": true,
@@ -322,7 +322,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "r",
+        "questionText": "Rr",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_r.mp3",
         "shouldPlayQuestionAudio": true,
@@ -340,7 +340,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "s",
+        "questionText": "Ss",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_s.mp3",
         "shouldPlayQuestionAudio": true,
@@ -358,7 +358,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "t",
+        "questionText": "Tt",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_t.mp3",
         "shouldPlayQuestionAudio": true,
@@ -376,7 +376,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "u",
+        "questionText": "Uu",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_u.mp3",
         "shouldPlayQuestionAudio": true,
@@ -394,7 +394,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "v",
+        "questionText": "Vv",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_v.mp3",
         "shouldPlayQuestionAudio": true,
@@ -412,7 +412,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "w",
+        "questionText": "Ww",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_w.mp3",
         "shouldPlayQuestionAudio": true,
@@ -430,7 +430,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "x",
+        "questionText": "Xx",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_x.mp3",
         "shouldPlayQuestionAudio": true,
@@ -448,7 +448,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "y",
+        "questionText": "Yy",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_y.mp3",
         "shouldPlayQuestionAudio": true,
@@ -466,7 +466,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "z",
+        "questionText": "Zz",
         "questionImageName": "basket.png",
         "questionAudioName": "lettersound_z.mp3",
         "shouldPlayQuestionAudio": true,
