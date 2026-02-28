@@ -17,7 +17,7 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "identify letter",
+        "QuestionText": "Identify letter",
         "QuestionImageName": "",
         "QuestionAudioName": "Que1.mp3",
         "PlayQuestionAudio": true,
