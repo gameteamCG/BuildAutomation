@@ -535,7 +535,7 @@ export default class NewClass extends cc.Component {
                         this.callJockey();
                     }, 1);
                 }, 1.5);
-            }, 0.7);
+            }, this.correctAudio.duration);
         }, 0.5);
     }
 

@@ -31,7 +31,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "landform",
+        "questionText": "Landforms on the Earth",
         "questionImageName": "1.png",
         "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
@@ -63,7 +63,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "landform",
+        "questionText": "Landforms on the Earth",
         "questionImageName": "7.png",
         "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
@@ -79,7 +79,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "landform",
+        "questionText": "Landforms on the Earth",
         "questionImageName": "8.png",
         "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
@@ -95,7 +95,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "landform",
+        "questionText": "Landforms on the Earth",
         "questionImageName": "9.png",
         "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,
@@ -143,7 +143,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "landforms",
+        "questionText": "Landforms on the Earth",
         "questionImageName": "hill.png",
         "questionAudioName": "qvo.mp3",
         "shouldPlayQuestionAudio": true,

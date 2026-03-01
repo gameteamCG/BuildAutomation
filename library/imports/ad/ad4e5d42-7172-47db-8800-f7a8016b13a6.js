@@ -494,7 +494,7 @@ var NewClass = /** @class */ (function (_super) {
                         _this.callJockey();
                     }, 1);
                 }, 1.5);
-            }, 0.7);
+            }, _this.correctAudio.duration);
         }, 0.5);
     };
     NewClass.prototype.callJockey = function () {
