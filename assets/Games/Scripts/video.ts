@@ -613,6 +613,11 @@ export default class video extends cc.Component {
                     element.getChildByName("img").getComponent(cc.Sprite).spriteFrame = this.questions[this.currentQuestion].optionImgs[i];
                     element.getChildByName("text").active = false;
                     element.getChildByName("img").active = true;
+                    if (this.currentQuestion == 2) {
+                        element.getChildByName("img").width = 250;
+                        element.getChildByName("img").height = 250;
+                    }
+
                 }
                 i++;
             });

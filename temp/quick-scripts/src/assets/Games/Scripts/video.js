@@ -606,6 +606,10 @@ var video = /** @class */ (function (_super) {
                     element.getChildByName("img").getComponent(cc.Sprite).spriteFrame = _this.questions[_this.currentQuestion].optionImgs[i_2];
                     element.getChildByName("text").active = false;
                     element.getChildByName("img").active = true;
+                    if (_this.currentQuestion == 2) {
+                        element.getChildByName("img").width = 250;
+                        element.getChildByName("img").height = 250;
+                    }
                 }
                 i_2++;
             });
