@@ -32,7 +32,7 @@
       "IsQuestionText": false,
       "QuestionText": "",
       "QuestionImageName": "QKk.png",
-      "QuestionAudioName": "Q3.mp3",
+      "QuestionAudioName": "Q2.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 2,
@@ -50,15 +50,15 @@
       "IsQuestionText": false,
       "QuestionText": "",
       "QuestionImageName": "koala.png",
-      "QuestionAudioName": "Q2.mp3",
+      "QuestionAudioName": "Q3.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": true,
+      "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "tiger",
-        "koala"
+        "Pp.png",
+        "Kk.png"
       ],
-      "ReiterationAudioName": "koala.mp3",
+      "ReiterationAudioName": "R3.mp3",
       "CorrectAudioName": "positive_3.mp3",
       "WrongAudioName": "negative_3.mp3",
       "CorrectAnswer": "2"
