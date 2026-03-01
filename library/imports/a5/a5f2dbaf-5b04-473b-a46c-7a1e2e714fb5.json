@@ -55,7 +55,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "new_cat.png",
-        "QuestionAudioName": "new_4_identify-the-letter-wi.mp3",
+        "QuestionAudioName": "Identify the beginning sound for the given picture.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -63,7 +63,7 @@
           "new_tt.png",
           "new_cc.png"
         ],
-        "ReiterationAudioName": "new_5_cat.mp3",
+        "ReiterationAudioName": "new_c.mp3",
         "CorrectAudioName": "BRILLIANT.mp3",
         "WrongAudioName": "ohoh.mp3",
         "CorrectAnswer": "2"
