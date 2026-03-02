@@ -21,8 +21,8 @@
         "circle.png"
       ],
       "reiterationAudios": [
-        "rectangle.mp3",
-        "circle.mp3"
+        "rectangle_cupboard.mp3",
+        "circle_pizza.mp3"
       ],
       "numberOfOptions": 3,
       "isOptionText": false,
@@ -44,8 +44,8 @@
         "circle.png"
       ],
       "reiterationAudios": [
-        "square.mp3",
-        "circle.mp3"
+        "square_chess.mp3",
+        "circle_caterpillar.mp3"
       ],
       "numberOfOptions": 3,
       "isOptionText": false,
@@ -67,14 +67,14 @@
         "square.png"
       ],
       "reiterationAudios": [
-        "rectangle.mp3",
-        "square.mp3"
+        "rectangle_mat.mp3",
+        "square_window.mp3"
       ],
       "numberOfOptions": 3,
       "isOptionText": false,
       "options": [
         "rug.png",
-        "cloth_square.png",
+        "window.png",
         "fish_2.png"
       ]
     },
@@ -90,8 +90,8 @@
         "circle.png"
       ],
       "reiterationAudios": [
-        "triangle.mp3",
-        "circle.mp3"
+        "triangle_fish.mp3",
+        "circle_pizza.mp3"
       ],
       "numberOfOptions": 3,
       "isOptionText": false,
@@ -113,8 +113,8 @@
         "triangle.png"
       ],
       "reiterationAudios": [
-        "rectangle.mp3",
-        "triangle.mp3"
+        "rectangle_cupboard.mp3",
+        "triangle_kite.mp3"
       ],
       "numberOfOptions": 3,
       "isOptionText": false,
