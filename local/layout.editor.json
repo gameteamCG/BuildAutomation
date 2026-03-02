@@ -13,8 +13,8 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 220,
-            "height": 810.6000366210938,
+            "width": 218.0500030517578,
+            "height": 796.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -22,18 +22,18 @@
             ]
           },
           {
-            "width": 998,
-            "height": 810.6000366210938,
+            "width": 989.125,
+            "height": 796.2000122070312,
             "type": "dock-v",
             "children": [
               {
-                "width": 998,
-                "height": 535.7250366210938,
+                "width": 989.125,
+                "height": 526.1749877929688,
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 752,
-                    "height": 535.7250366210938,
+                    "width": 745.2875366210938,
+                    "height": 526.1749877929688,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -41,8 +41,8 @@
                     ]
                   },
                   {
-                    "width": 243,
-                    "height": 535.7250366210938,
+                    "width": 240.83750915527344,
+                    "height": 526.1749877929688,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 998,
-                "height": 271.8625183105469,
+                "width": 989.125,
+                "height": 267.01251220703125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 312,
-            "height": 810.6000366210938,
+            "width": 309.2250061035156,
+            "height": 796.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
