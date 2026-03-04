@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spellnumbernames1to10",
+    "texture": "a3abf33d-32c2-452b-9dc6-014dec943313",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      671,
+      192
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      677,
+      209
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
