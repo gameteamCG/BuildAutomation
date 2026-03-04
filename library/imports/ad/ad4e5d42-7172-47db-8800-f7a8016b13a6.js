@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -529,6 +529,7 @@ var NewClass = /** @class */ (function (_super) {
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             cc.audioEngine.playEffect(this.reiterationAudios[parseInt(correctDropNode.name) - 1], false);
+            this.scheduleOnce(function () { });
             this.callPositiveRection(_node);
         }
         else {
@@ -580,7 +581,9 @@ var NewClass = /** @class */ (function (_super) {
         var correctDropNode = this.dropNode.getChildByName(_node.parent.name);
         this.node.getChildByName("confetti").setPosition(correctDropNode.x, correctDropNode.y + 50);
         this.node.getChildByName("confetti").getComponent(cc.Animation).play();
-        cc.audioEngine.playEffect(this.positiveSound[0], false);
+        this.scheduleOnce(function () {
+            cc.audioEngine.playEffect(_this.positiveSound[0], false);
+        }, this.reiterationAudios[parseInt(correctDropNode.name) - 1].duration);
         var parentNode = _node.parent;
         //let imgName: string = _node.name + this.correctAnswerCount + 1;
         //_node.name = imgName;
