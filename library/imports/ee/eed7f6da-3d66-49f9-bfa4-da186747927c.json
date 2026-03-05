@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dad2",
+    "texture": "1f05d2ce-52b2-4f74-bd7a-3ca7118503d7",
+    "atlas": "",
+    "rect": [
+      95,
+      32,
+      310,
+      429
+    ],
+    "offset": [
+      0,
+      3.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
