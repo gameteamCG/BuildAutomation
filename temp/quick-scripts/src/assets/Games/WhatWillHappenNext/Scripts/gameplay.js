@@ -769,7 +769,7 @@ var NewClass = /** @class */ (function (_super) {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Singham") {
-            anim = ["dance", "thumbs_up", "dance", "thumbs_up", "dance", "thumbs_up"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Mighty_Raju") {
             anim = ["celebration", "well_done"];
@@ -893,7 +893,7 @@ var NewClass = /** @class */ (function (_super) {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Singham") {
-                anim = ["no"];
+                anim = ["negative_1", "negative_2"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Mighty_Raju") {
                 anim = ["try_again"];

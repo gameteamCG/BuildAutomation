@@ -2,8 +2,8 @@
   "additionalData": {
     "GameID": "Rhyming words_LKG Practice Book 2_15",
     "totalLevel": "7",
-    "TitleImageName": "Rhymingwords.png",
-    "introBgName": "tlcbg1.png",
+    "TitleImageName": "rhyming words.png",
+    "introBgName": "Asset 10.png",
     "bgmMusicName": "BBgmwhatsnext.mp3",
     "mainBgName": "bg2tomato.png",
     "JockeyName": "Singham",
@@ -11,7 +11,7 @@
   },
   "questionData": [
     {
-      "questionText": "rhyming word",
+      "questionText": "Rhyming word",
       "questionImageName": "robbusket.png",
       "questionAudioName": "choosethecorrectrhymingword.mp3",
       "shouldPlayQuestionAudio": true,
@@ -30,7 +30,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "rhyming word",
+      "questionText": "Rhyming word",
       "questionImageName": "hopbusket.png",
       "questionAudioName": "choosethecorrectrhymingword.mp3",
       "shouldPlayQuestionAudio": true,
@@ -49,7 +49,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "rhyming word",
+      "questionText": "Rhyming word",
       "questionImageName": "dotbusket.png",
       "questionAudioName": "choosethecorrectrhymingword.mp3",
       "shouldPlayQuestionAudio": true,
@@ -68,7 +68,7 @@
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "rhyming word",
+      "questionText": "Rhyming word",
       "questionImageName": "nodbusket.png",
       "questionAudioName": "choosethecorrectrhymingword.mp3",
       "shouldPlayQuestionAudio": true,
@@ -87,7 +87,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "rhyming word",
+      "questionText": "Rhyming word",
       "questionImageName": "fogbusket.png",
       "questionAudioName": "choosethecorrectrhymingword.mp3",
       "shouldPlayQuestionAudio": true,
@@ -106,7 +106,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "rhyming word",
+      "questionText": "Rhyming word",
       "questionImageName": "jotbusket.png",
       "questionAudioName": "choosethecorrectrhymingword.mp3",
       "shouldPlayQuestionAudio": true,
@@ -125,7 +125,7 @@
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "rhyming word",
+      "questionText": "Rhyming word",
       "questionImageName": "jogbusket.png",
       "questionAudioName": "choosethecorrectrhymingword.mp3",
       "shouldPlayQuestionAudio": true,

@@ -1508,11 +1508,11 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 80,
+    "_fontSize": 70,
     "_lineHeight": 130,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "3973d65f-94f6-47bd-adab-8f9135d35f89"
+      "__uuid__": "0724f2e6-a7f4-44e6-a439-80fec24ae998"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -2119,42 +2119,42 @@
     ],
     "positiveAudio": [
       {
-        "__uuid__": "bbe04caa-37da-4312-8235-21e6613b256c"
+        "__uuid__": "65068c57-c613-4d60-b01f-8a5fc0916906"
       },
       {
-        "__uuid__": "fea88440-f78b-4fd6-8121-f42bad368204"
+        "__uuid__": "1cd0f10c-8e62-4c82-95e7-9dc1148bbd58"
       },
       {
-        "__uuid__": "67cdee0a-f556-4515-bb9c-08be39a25cab"
+        "__uuid__": "f9dddb69-0c04-4816-9742-c096bb8388cd"
       },
       {
-        "__uuid__": "c4cf474e-33c3-40ef-a8e1-e1458e041a49"
+        "__uuid__": "4ac4e5b6-3d76-44f8-a501-065d3a9dfb61"
       },
       {
-        "__uuid__": "dd9186b5-2e25-47f2-af3c-bc018c4ed0e8"
+        "__uuid__": "ee8fc14a-c6d6-4d9d-a9fc-206dd7c516d8"
       },
       {
-        "__uuid__": "fea88440-f78b-4fd6-8121-f42bad368204"
+        "__uuid__": "67adfe3a-9585-40a1-8b7c-255836e0588c"
       }
     ],
     "negativeAudio": [
       {
-        "__uuid__": "610f6d2d-d65e-4e69-b0b2-4d7b83a80d98"
+        "__uuid__": "d0567169-6598-45e2-b025-3422e346c224"
       },
       {
-        "__uuid__": "0eb213a9-3623-44ad-9012-8e740e258ca3"
+        "__uuid__": "4385698a-ce55-4407-81d2-7c0bccbbb22e"
       },
       {
-        "__uuid__": "3bf5f62c-652e-427f-9408-5d2be644f77d"
+        "__uuid__": "d0567169-6598-45e2-b025-3422e346c224"
       },
       {
-        "__uuid__": "f87489e3-5298-472d-915f-191f390a1749"
+        "__uuid__": "4385698a-ce55-4407-81d2-7c0bccbbb22e"
       },
       {
-        "__uuid__": "d80deb08-a0a6-463f-afc9-c9b8aecc1363"
+        "__uuid__": "d0567169-6598-45e2-b025-3422e346c224"
       },
       {
-        "__uuid__": "94357935-b826-42e8-9379-bacd045fb0b1"
+        "__uuid__": "4385698a-ce55-4407-81d2-7c0bccbbb22e"
       }
     ],
     "stallionPositive": [],

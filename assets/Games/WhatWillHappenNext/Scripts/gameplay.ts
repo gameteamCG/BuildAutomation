@@ -822,7 +822,7 @@ export default class NewClass extends cc.Component {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (startGame.Instance.jockeyName == "Singham") {
-            anim = ["dance", "thumbs_up", "dance", "thumbs_up", "dance", "thumbs_up"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (startGame.Instance.jockeyName == "Mighty_Raju") {
             anim = ["celebration", "well_done"];
@@ -949,7 +949,7 @@ export default class NewClass extends cc.Component {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
             }
             else if (startGame.Instance.jockeyName == "Singham") {
-                anim = ["no"];
+                anim = ["negative_1", "negative_2"];
             }
             else if (startGame.Instance.jockeyName == "Mighty_Raju") {
                 anim = ["try_again"];
