@@ -6,17 +6,17 @@
     "atlas": "",
     "rect": [
       0,
-      57,
+      58,
       298,
       185
     ],
     "offset": [
       -1,
-      0.5
+      0
     ],
     "originalSize": [
       300,
-      300
+      301
     ],
     "capInsets": [
       0,
