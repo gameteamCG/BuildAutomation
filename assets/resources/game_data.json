@@ -54,7 +54,7 @@
     {
       "questionText": "5",
       "questionImageName": "",
-      "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBERPATTERNTILE.mp3",
+      "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBER.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "Asset16.png",
       "isOptionText": true,
@@ -74,7 +74,7 @@
     {
       "questionText": "4",
       "questionImageName": "",
-      "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBERPATTERNTILE.mp3",
+      "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBER.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "Asset17.png",
       "isOptionText": true,
@@ -114,7 +114,7 @@
     {
       "questionText": "1",
       "questionImageName": "",
-      "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBERPATTERNTILE.mp3",
+      "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBER.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "Asset15.png",
       "isOptionText": true,
@@ -133,7 +133,7 @@
     {
       "questionText": "7",
       "questionImageName": "",
-      "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBERPATTERNTILE.mp3",
+      "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBER.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "Asset18.png",
       "isOptionText": true,
@@ -154,7 +154,7 @@
     {
       "questionText": "6",
       "questionImageName": "",
-      "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBERPATTERNTILE.mp3",
+      "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBER.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "Asset17.png",
       "isOptionText": true,
@@ -173,7 +173,7 @@
     {
       "questionText": "10",
       "questionImageName": "",
-      "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBERPATTERNTILE.mp3",
+      "questionAudioName": "SWIPEANDSPELLTHENUMBERNAMEFORTHEGIVENNUMBER.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "Asset16.png",
       "isOptionText": true,
