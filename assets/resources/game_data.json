@@ -147,7 +147,7 @@
         {
             "questionText": "Healthy habits",
             "questionImageName": "11.png",
-            "questionAudioName": "Q11.mp3",
+            "questionAudioName": "washing hands after and before meals is a healthy or unhealthy habit.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "place_holder.png",
             "isOptionText": false,
@@ -156,7 +156,7 @@
                 "up.png",
                 "down.png"
             ],
-            "correctAudioName": "A11.mp3",
+            "correctAudioName": "washing hands after and before meals is a healthy habit.mp3",
             "correctAnswerNum": "1"
         }
     ]
