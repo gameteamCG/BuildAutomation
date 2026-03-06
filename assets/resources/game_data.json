@@ -11,7 +11,7 @@
   },
   "questionData": [
     {
-      "questionText": "Rhyming word",
+      "questionText": "Rhyming words",
       "questionImageName": "robbusket.png",
       "questionAudioName": "choosethecorrectrhymingword.mp3",
       "shouldPlayQuestionAudio": true,
@@ -30,7 +30,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Rhyming word",
+      "questionText": "Rhyming words",
       "questionImageName": "hopbusket.png",
       "questionAudioName": "choosethecorrectrhymingword.mp3",
       "shouldPlayQuestionAudio": true,
@@ -49,7 +49,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Rhyming word",
+      "questionText": "Rhyming words",
       "questionImageName": "dotbusket.png",
       "questionAudioName": "choosethecorrectrhymingword.mp3",
       "shouldPlayQuestionAudio": true,
@@ -68,7 +68,7 @@
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "Rhyming word",
+      "questionText": "Rhyming words",
       "questionImageName": "nodbusket.png",
       "questionAudioName": "choosethecorrectrhymingword.mp3",
       "shouldPlayQuestionAudio": true,
@@ -87,7 +87,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Rhyming word",
+      "questionText": "Rhyming words",
       "questionImageName": "fogbusket.png",
       "questionAudioName": "choosethecorrectrhymingword.mp3",
       "shouldPlayQuestionAudio": true,
@@ -106,7 +106,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Rhyming word",
+      "questionText": "Rhyming words",
       "questionImageName": "jotbusket.png",
       "questionAudioName": "choosethecorrectrhymingword.mp3",
       "shouldPlayQuestionAudio": true,
@@ -125,7 +125,7 @@
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "Rhyming word",
+      "questionText": "Rhyming words",
       "questionImageName": "jogbusket.png",
       "questionAudioName": "choosethecorrectrhymingword.mp3",
       "shouldPlayQuestionAudio": true,

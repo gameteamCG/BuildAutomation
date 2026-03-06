@@ -476,7 +476,7 @@ var NewClass = /** @class */ (function (_super) {
                 //console.log("answerArray : ", this.answerArray[0])
                 var hand = this.node.getChildByName("hand");
                 hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-                hand.setPosition(0, -70);
+                hand.setPosition(0, -180);
                 hand.setParentWithSamePos(this.node);
                 hand.getComponent(cc.Animation).play();
             }
@@ -498,7 +498,7 @@ var NewClass = /** @class */ (function (_super) {
                     if (globalVariables_1.default.Instance.currentLevel == 1) {
                         var hand = _this.node.getChildByName("hand");
                         hand.setParent(_this.node.getChildByName("Option").getChildByName(_this.answerArray[0]));
-                        hand.setPosition(0, -70);
+                        hand.setPosition(0, -180);
                         hand.setParentWithSamePos(_this.node);
                         hand.getComponent(cc.Animation).play();
                     }
@@ -514,7 +514,7 @@ var NewClass = /** @class */ (function (_super) {
                             if (globalVariables_1.default.Instance.currentLevel == 1) {
                                 var hand = _this.node.getChildByName("hand");
                                 hand.setParent(_this.node.getChildByName("Option").getChildByName(_this.answerArray[0]));
-                                hand.setPosition(0, -70);
+                                hand.setPosition(0, -180);
                                 hand.setParentWithSamePos(_this.node);
                                 hand.getComponent(cc.Animation).play();
                             }
