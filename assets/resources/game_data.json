@@ -14,7 +14,7 @@
             "questionImageName": "2.png",
             "questionAudioName": "8343003_1_brushing-twice-a-day-i.mp3",
             "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "place_holder.png",
+            "commonOptionImageName": "",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
@@ -29,7 +29,7 @@
             "questionImageName": "3.png",
             "questionAudioName": "8343003_3_chewing-food-slowly-is.mp3",
             "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "place_holder.png",
+            "commonOptionImageName": "",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
@@ -44,7 +44,7 @@
             "questionImageName": "4.png",
             "questionAudioName": "8343003_5_chewing-food-fast-is-a.mp3",
             "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "place_holder.png",
+            "commonOptionImageName": "",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
@@ -59,7 +59,7 @@
             "questionImageName": "5.png",
             "questionAudioName": "8343003_7_eating-green-vegetable",
             "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "place_holder.png",
+            "commonOptionImageName": "",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
@@ -74,7 +74,7 @@
             "questionImageName": "6.png",
             "questionAudioName": "8343003_9_eating-junk-food-all-t.mp3",
             "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "place_holder.png",
+            "commonOptionImageName": "",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
@@ -89,7 +89,7 @@
             "questionImageName": "7.png",
             "questionAudioName": "8343003_11_having-less-water-thro.mp3",
             "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "place_holder.png",
+            "commonOptionImageName": "",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
@@ -104,7 +104,7 @@
             "questionImageName": "8.png",
             "questionAudioName": "8343003_13_having-plenty-of-water.mp3",
             "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "place_holder.png",
+            "commonOptionImageName": "",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
@@ -119,7 +119,7 @@
             "questionImageName": "9.png",
             "questionAudioName": "8343003_15_wearing-clean-clothes-.mp3",
             "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "place_holder.png",
+            "commonOptionImageName": "",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
@@ -134,7 +134,7 @@
             "questionImageName": "10.png",
             "questionAudioName": "8343003_17_having-a-bath-after-pl.mp3",
             "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "place_holder.png",
+            "commonOptionImageName": "",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
@@ -149,7 +149,7 @@
             "questionImageName": "11.png",
             "questionAudioName": "washing hands after and before meals is a healthy or unhealthy habit.mp3",
             "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "place_holder.png",
+            "commonOptionImageName": "",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
