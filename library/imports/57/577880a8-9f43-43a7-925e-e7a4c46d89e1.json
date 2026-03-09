@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Eatlunch",
+    "texture": "ef5c6569-e085-418e-a697-b2eb7881b896",
+    "atlas": "",
+    "rect": [
+      20,
+      20,
+      459,
+      460
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
