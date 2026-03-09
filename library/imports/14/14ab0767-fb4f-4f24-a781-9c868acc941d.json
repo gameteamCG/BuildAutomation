@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "imli",
+    "texture": "e75bd63c-b37c-4877-a484-f820d0d81aad",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      179,
+      184
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      179,
+      184
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

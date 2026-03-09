@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jamun",
+    "texture": "411393df-c897-43e8-a211-787a345beab8",
+    "atlas": "",
+    "rect": [
+      42,
+      103,
+      398,
+      303
+    ],
+    "offset": [
+      -9.5,
+      -4
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

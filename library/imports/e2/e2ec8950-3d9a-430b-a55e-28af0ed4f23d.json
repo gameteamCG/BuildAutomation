@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "imarti",
+    "texture": "f5ef08fb-64a0-4378-9648-b5d5f586cf13",
+    "atlas": "",
+    "rect": [
+      31,
+      83,
+      453,
+      335
+    ],
+    "offset": [
+      7,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

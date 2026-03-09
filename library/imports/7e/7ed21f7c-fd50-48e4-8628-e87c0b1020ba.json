@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "swaree",
+    "texture": "7c085ca1-e043-49c8-b049-f3289b79f7a7",
+    "atlas": "",
+    "rect": [
+      22,
+      22,
+      504,
+      212
+    ],
+    "offset": [
+      11,
+      0.5
+    ],
+    "originalSize": [
+      526,
+      257
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

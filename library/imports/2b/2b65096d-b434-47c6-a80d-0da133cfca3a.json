@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Cardamom",
+    "texture": "adc4f247-5d9e-4b21-a5ab-b695668c1d91",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      168,
+      75
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      168,
+      75
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
