@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Principal_sroom",
+    "texture": "cab9b471-90b3-4ebc-a1ea-9f102de28a50",
+    "atlas": "",
+    "rect": [
+      33,
+      21,
+      237,
+      270
+    ],
+    "offset": [
+      1,
+      -5.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

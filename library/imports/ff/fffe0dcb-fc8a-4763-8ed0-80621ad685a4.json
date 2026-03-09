@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Assemblyhall",
+    "texture": "8e4d8b80-4f0a-4c78-bc87-8631dffbd7bb",
+    "atlas": "",
+    "rect": [
+      39,
+      22,
+      226,
+      272
+    ],
+    "offset": [
+      1.5,
+      -7.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "844ea13b-ff52-46d2-9b5e-917456c0068f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 301,
+  "height": 301,
+  "platformSettings": {},
+  "subMetas": {
+    "Musicanddanceroom": {
+      "ver": "1.0.6",
+      "uuid": "ac78bc4e-30c5-49bf-b05c-b3f50486638b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "844ea13b-ff52-46d2-9b5e-917456c0068f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -1,
+      "trimX": 39,
+      "trimY": 8,
+      "width": 222,
+      "height": 287,
+      "rawWidth": 301,
+      "rawHeight": 301,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

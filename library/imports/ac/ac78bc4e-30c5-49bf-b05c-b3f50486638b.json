@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Musicanddanceroom",
+    "texture": "844ea13b-ff52-46d2-9b5e-917456c0068f",
+    "atlas": "",
+    "rect": [
+      39,
+      8,
+      222,
+      287
+    ],
+    "offset": [
+      -0.5,
+      -1
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

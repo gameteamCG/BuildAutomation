@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Office",
+    "texture": "23f8ac74-5462-4982-9511-223b8dc150e6",
+    "atlas": "",
+    "rect": [
+      40,
+      21,
+      224,
+      269
+    ],
+    "offset": [
+      1.5,
+      -5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

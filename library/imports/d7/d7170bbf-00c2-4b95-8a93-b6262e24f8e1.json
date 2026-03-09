@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Toilet",
+    "texture": "0740f43b-79e6-42c2-827c-befa446ea0a5",
+    "atlas": "",
+    "rect": [
+      38,
+      19,
+      224,
+      265
+    ],
+    "offset": [
+      -0.5,
+      -1
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

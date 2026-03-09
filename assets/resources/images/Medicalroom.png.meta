@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "9a7dc359-976c-48ca-991f-7df831d93492",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 301,
+  "height": 301,
+  "platformSettings": {},
+  "subMetas": {
+    "Medicalroom": {
+      "ver": "1.0.6",
+      "uuid": "3d2ed166-86fe-4c11-bbf5-11029c7b1101",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9a7dc359-976c-48ca-991f-7df831d93492",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": -1,
+      "trimX": 40,
+      "trimY": 20,
+      "width": 224,
+      "height": 263,
+      "rawWidth": 301,
+      "rawHeight": 301,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

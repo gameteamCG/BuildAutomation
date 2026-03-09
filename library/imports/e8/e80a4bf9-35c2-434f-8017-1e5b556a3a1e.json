@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "places in my school_fs0_r150",
+      "totalLevel": "4",
+      "TitleImageName": "Asset683.png",
+      "introBgName": "jaibg.png",
+      "bgmMusicName": "BGM2.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "Places in my school",
+        "questionAudioName": "match_pic_with_word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset12.png",
+        "frontCardImageName": "Asset13.png",
+        "isOptionText": false,
+        "options": [
+          "Assemblyhall.png",
+          "Computerroom.png"
+        ],
+        "reiterationAudios": [
+          "29738850_2_assemblyhall.mp3",
+          "29738850_7_computerroom.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset150.png",
+          "Asset154.png"
+        ]
+      },
+      {
+        "questionText": "Places in my school",
+        "questionAudioName": "match_pic_with_word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset12.png",
+        "frontCardImageName": "Asset13.png",
+        "isOptionText": false,
+        "options": [
+          "Asset148.png",
+          "Asset152.png"
+        ],
+        "reiterationAudios": [
+          "29738850_4_library.mp3",
+          "29738850_6_medicalroom.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Library.png",
+          "Medicalroom.png"
+        ]
+      },
+      {
+        "questionText": "Places in my school",
+        "questionAudioName": "match_pic_with_word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset12.png",
+        "frontCardImageName": "Asset13.png",
+        "isOptionText": false,
+        "options": [
+          "Musicanddanceroom.png",
+          "Office.png",
+          "Playground.png"
+        ],
+        "reiterationAudios": [
+          "29738850_8_musicanddanceroom.mp3",
+          "29738850_10_office.mp3",
+          "29738850_9_playground.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Asset151.png",
+          "Asset146.png",
+          "Asset147.png"
+        ]
+      },
+      {
+        "questionText": "Places in my school",
+        "questionAudioName": "match_pic_with_word.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Asset12.png",
+        "frontCardImageName": "Asset13.png",
+        "isOptionText": false,
+        "options": [
+          "Asset149.png",
+          "Asset153.png",
+          "Asset145.png"
+        ],
+        "reiterationAudios": [
+          "29738850_3_principalsroom.mp3",
+          "29738850_5_staffroom.mp3",
+          "29738850_11_toilet.mp3"
+        ],
+        "isAnswerText": false,
+        "answers": [
+          "Principal_sroom.png",
+          "Staffroom.png",
+          "Toilet.png"
+        ]
+      }
+    ]
+  }
+}
