@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "My body parts",
+      "totalLevel": "7",
+      "TitleImageName": "title.png",
+      "introBgName": "Asset 11.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "Personal hygiene",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "1.png"
+        ],
+        "reiterations": [
+          "1.mp3"
+        ],
+        "commonRightOptionImageName": "",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "2.png",
+          "w2.png"
+        ]
+      },
+      {
+        "questionText": "Personal hygiene",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "3.png"
+        ],
+        "reiterations": [
+          "2.mp3"
+        ],
+        "commonRightOptionImageName": "",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "4.png",
+          "w4.png"
+        ]
+      },
+      {
+        "questionText": "Personal hygiene",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "5.png"
+        ],
+        "reiterations": [
+          "3.mp3"
+        ],
+        "commonRightOptionImageName": "",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "6.png",
+          "w6.png"
+        ]
+      },
+      {
+        "questionText": "Personal hygiene",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "7.png"
+        ],
+        "reiterations": [
+          "4.mp3"
+        ],
+        "commonRightOptionImageName": "",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "8.png",
+          "w8.png"
+        ]
+      },
+      {
+        "questionText": "Personal hygiene",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "9.png"
+        ],
+        "reiterations": [
+          "5.mp3"
+        ],
+        "commonRightOptionImageName": "",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "10.png",
+          "w10.png"
+        ]
+      },
+      {
+        "questionText": "Personal hygiene",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "11.png"
+        ],
+        "reiterations": [
+          "6.mp3"
+        ],
+        "commonRightOptionImageName": "",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "12.png",
+          "w12.png"
+        ]
+      },
+      {
+        "questionText": "Personal hygiene",
+        "questionAudioName": "L1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "13.png"
+        ],
+        "reiterations": [
+          "7.mp3"
+        ],
+        "commonRightOptionImageName": "",
+        "isRightOptionText": false,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "14.png",
+          "w14.png"
+        ]
+      }
+    ]
+  }
+}
