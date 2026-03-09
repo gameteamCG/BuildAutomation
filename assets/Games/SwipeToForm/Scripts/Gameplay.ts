@@ -174,7 +174,7 @@ export default class Gameplay extends cc.Component {
         this.UpdateQuestionData();
         this.scheduleOnce(() => {
             this.OptionsLayout();
-            if (this.optionsNode.children.length <= 2) {
+            if (this.optionsNode.children.length == 3) {
                 this.arrangeChildren(this.optionsNode, 80);
             }
             let delay = 0.2;
