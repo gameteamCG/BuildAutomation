@@ -2911,7 +2911,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 270.75,
+      "width": 0,
       "height": 69.3
     },
     "_anchorPoint": {
@@ -2963,8 +2963,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Wet and dry",
-    "_N$string": "Wet and dry",
+    "_string": "",
+    "_N$string": "",
     "_fontSize": 50,
     "_lineHeight": 55,
     "_enableWrapText": true,

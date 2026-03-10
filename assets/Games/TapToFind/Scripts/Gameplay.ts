@@ -281,6 +281,7 @@ export default class Gameplay extends cc.Component {
         }, this.questionAudio.duration)
     }
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
+        this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionText;
         for (let i = 0; i < _optionCount; i++) {
             let _option: cc.Node = cc.instantiate(_template);
             _option.parent = _optionParent;

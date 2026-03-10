@@ -9,6 +9,7 @@
     },
     "questionData": [
         {
+            "questionText": "Dry",
             "questionLayout": "layout2",
             "questionBgName": "clothbg.png",
             "questionAudioName": "tap on the dry clothing item .mp3",
@@ -33,6 +34,7 @@
             "correctAnswerNum": "14"
         },
         {
+            "questionText": "Wet",
             "questionLayout": "layout2",
             "questionBgName": "clothbg.png",
             "questionAudioName": "tap on the wet clothing item.mp3",
@@ -57,6 +59,7 @@
             "correctAnswerNum": "23"
         },
         {
+            "questionText": "Dry",
             "questionLayout": "layout2",
             "questionBgName": "flowerbg.png",
             "questionAudioName": "tap on the dry clothing item .mp3",
@@ -81,6 +84,7 @@
             "correctAnswerNum": "24"
         },
         {
+            "questionText": "Wet",
             "questionLayout": "layout2",
             "questionBgName": "flowerbg.png",
             "questionAudioName": "tap on the wet clothing item.mp3",
@@ -107,6 +111,7 @@
             "correctAnswerNum": "13"
         },
         {
+            "questionText": "Dry",
             "questionLayout": "layout2",
             "questionBgName": "clothbg.png",
             "questionAudioName": "tap on the dry clothing item .mp3",
@@ -133,6 +138,7 @@
             "correctAnswerNum": "35"
         },
         {
+            "questionText": "Wet",
             "questionLayout": "layout2",
             "questionBgName": "clothbg.png",
             "questionAudioName": "tap on the wet clothing item.mp3",
@@ -159,6 +165,7 @@
             "correctAnswerNum": "145"
         },
         {
+            "questionText": "Dry",
             "questionLayout": "layout2",
             "questionBgName": "flowerbg.png",
             "questionAudioName": "tap on the dry clothing item .mp3",

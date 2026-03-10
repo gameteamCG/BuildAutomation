@@ -305,6 +305,7 @@ var Gameplay = /** @class */ (function (_super) {
         }, this.questionAudio.duration);
     };
     Gameplay.prototype.generateOptions = function (_template, _optionParent, _optionCount) {
+        this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionText;
         for (var i = 0; i < _optionCount; i++) {
             var _option = cc.instantiate(_template);
             _option.parent = _optionParent;
