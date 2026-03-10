@@ -12,7 +12,7 @@
   "height": 251,
   "platformSettings": {},
   "subMetas": {
-    "Play": {
+    "play": {
       "ver": "1.0.6",
       "uuid": "dd36fff4-6a91-403f-9bc1-bed824faa146",
       "importer": "sprite-frame",
