@@ -1,0 +1,146 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "7",
+      "TitleImageName": "longeesound.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "desert BG.png",
+      "JockeyName": "Puzzle",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Leaf",
+        "questionAudioName": "identifypicturewithlongsounde.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "leaf.png",
+          "sloth.png",
+          "slip.png"
+        ],
+        "correctAudios": [
+          "Leaf.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Seal",
+        "questionAudioName": "identifypicturewithlongsounde.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "green.png",
+          "seal.png",
+          "drip.png"
+        ],
+        "correctAudios": [
+          "Seal.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Read",
+        "questionAudioName": "identifypicturewithlongsounde.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "duck.png",
+          "green.png",
+          "read.png"
+        ],
+        "correctAudios": [
+          "Read.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Meal",
+        "questionAudioName": "identifypicturewithlongsounde.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "jam.png",
+          "meal.png",
+          "seed.png"
+        ],
+        "correctAudios": [
+          "Meal.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Seat",
+        "questionAudioName": "identifypicturewithlongsounde.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "seat.png",
+          "sleep.png",
+          "whale.png"
+        ],
+        "correctAudios": [
+          "Seat.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Bead",
+        "questionAudioName": "identifypicturewithlongsounde.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "sock.png",
+          "stack.png",
+          "bead.png"
+        ],
+        "correctAudios": [
+          "Bead.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Beach",
+        "questionAudioName": "identifypicturewithlongsounde.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "panel.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "stump.png",
+          "beach.png",
+          "slip.png"
+        ],
+        "correctAudios": [
+          "Beach.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
