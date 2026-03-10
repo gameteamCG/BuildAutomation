@@ -25,13 +25,14 @@
         "options": [
           "cub.png",
           "Ant.png",
-          "astronout.png",
+          "14.png",
           "egg_0008_250x250_0001_egg.png"
         ],
         "correctAudios": [
-          "cub.mp3"
+          "cub.mp3",
+          "mum.mp3"
         ],
-        "correctAnswerNum": "1"
+        "correctAnswerNum": "13"
       },
       {
         "questionText": "u family words",
@@ -43,14 +44,15 @@
         "numberOfOptions": 4,
         "options": [
           "fan.png",
-          "Kite 1.png",
           "25.png",
-          "moon.png"
+          "19.png",
+          "astronout.png"
         ],
         "correctAudios": [
-          "sun.mp3"
+          "sun.mp3",
+          "hut.mp3"
         ],
-        "correctAnswerNum": "3"
+        "correctAnswerNum": "23"
       },
       {
         "questionText": "u family words",
@@ -61,13 +63,13 @@
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "Jacket.png",
-          "19.png",
-          "emptyglass.png",
+          "Ant.png",
+          "7.png",
+          "fox_0003_250x250_0003_fox.png",
           "11.png"
         ],
         "correctAudios": [
-          "hut.mp3",
+          "mud.mp3",
           "jug.mp3"
         ],
         "correctAnswerNum": "24"
@@ -82,9 +84,9 @@
         "numberOfOptions": 4,
         "options": [
           "9.png",
-          "monkey.png",
+          "magnet.png",
           "15.png",
-          "magnet.png"
+          "astronout.png"
         ],
         "correctAudios": [
           "hug.mp3",
@@ -104,14 +106,13 @@
           "4.png",
           "fox_0003_250x250_0003_fox.png",
           "14.png",
-          "7.png"
+          "Kite 1.png"
         ],
         "correctAudios": [
           "tub.mp3",
-          "mum.mp3",
-          "mud.mp3"
+          "mum.mp3"
         ],
-        "correctAnswerNum": "134"
+        "correctAnswerNum": "13"
       }
     ]
   }
