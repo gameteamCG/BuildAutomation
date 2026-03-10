@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "aath",
+    "texture": "3956ef29-4e48-468c-b735-78518a12e40f",
+    "atlas": "",
+    "rect": [
+      121,
+      94,
+      220,
+      314
+    ],
+    "offset": [
+      -19.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

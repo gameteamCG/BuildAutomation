@@ -561,13 +561,13 @@ var gameplay = /** @class */ (function (_super) {
         cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -180, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 160, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 180, y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             var audioNum = parseInt(_clone1.name);
             audioNum -= 1;
@@ -727,7 +727,7 @@ var gameplay = /** @class */ (function (_super) {
                 anim = ["negative_1", "negative_2", "negative_3"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "cryon") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
+                anim = ["negative_1", "negative_2", "negative_1", "negative_2"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Singham") {
                 anim = ["no"];
