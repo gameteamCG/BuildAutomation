@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "nill",
+      "totalLevel": "6",
+      "TitleImageName": "Asset 52.png",
+      "introBgName": "Bg(8).png",
+      "bgmMusicName": "newBGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "bag",
+      "templateType": "SimpleTap"
+    },
+    "questionData": [
+      {
+        "questionText": "Dry",
+        "questionAudioName": "which umbrella is dry (2).mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "dryumbrl.png",
+          "wetumrl.png"
+        ],
+        "correctAudios": [
+          "You are correct that umbrella is dry.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Wet",
+        "questionAudioName": "Which of the flowers is wet.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "wet-fl.png",
+          "dryflr.png"
+        ],
+        "correctAudios": [
+          "You are correct that flower is wet.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Dry",
+        "questionAudioName": "Which of these characters are dry.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "wetman.png",
+          "dryman.png"
+        ],
+        "correctAudios": [
+          "Correct that character is dry.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Wet",
+        "questionAudioName": "Which person is wet.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "dryp.png",
+          "wetp.png"
+        ],
+        "correctAudios": [
+          "The person taking a bath is wet.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Dry",
+        "questionAudioName": "Whose hair is dry.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "dryhair.png",
+          "wethair.png"
+        ],
+        "correctAudios": [
+          "Correct that girl has dry hair.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Wet",
+        "questionAudioName": "Which baby is wet.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset 1.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 2,
+        "options": [
+          "drybaby.png",
+          "wetbaby.png"
+        ],
+        "correctAudios": [
+          "The baby in the bathtub is wet.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

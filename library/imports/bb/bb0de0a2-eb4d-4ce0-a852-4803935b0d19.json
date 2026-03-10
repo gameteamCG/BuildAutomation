@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dryflr",
+    "texture": "25bde575-4af6-4f39-8d04-83c3b8d1129e",
+    "atlas": "",
+    "rect": [
+      125,
+      40,
+      250,
+      420
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

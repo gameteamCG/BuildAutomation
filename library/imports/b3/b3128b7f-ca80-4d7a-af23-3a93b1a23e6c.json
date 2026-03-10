@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dryp",
+    "texture": "01125d4d-0bfd-4d52-ab85-44119fc80c97",
+    "atlas": "",
+    "rect": [
+      137,
+      43,
+      230,
+      418
+    ],
+    "offset": [
+      2,
+      -2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dryumbrl",
+    "texture": "a741ec1c-a261-4fd4-abee-591680ef028d",
+    "atlas": "",
+    "rect": [
+      45,
+      45,
+      411,
+      410
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

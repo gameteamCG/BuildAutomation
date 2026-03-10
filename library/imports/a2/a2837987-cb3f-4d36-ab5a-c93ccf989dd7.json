@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dryhair",
+    "texture": "3aa3c71c-e755-4c23-9961-ef01abfcba72",
+    "atlas": "",
+    "rect": [
+      115,
+      96,
+      276,
+      365
+    ],
+    "offset": [
+      3,
+      -28.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

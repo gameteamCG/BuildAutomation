@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wethair",
+    "texture": "84f93292-2098-4334-b02d-12ec92590aae",
+    "atlas": "",
+    "rect": [
+      37,
+      38,
+      427,
+      424
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

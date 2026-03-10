@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dryman",
+    "texture": "99b89878-9763-4805-a78e-e890c82a1086",
+    "atlas": "",
+    "rect": [
+      134,
+      36,
+      268,
+      452
+    ],
+    "offset": [
+      18,
+      -12
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

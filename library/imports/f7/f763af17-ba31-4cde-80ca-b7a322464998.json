@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "drybaby",
+    "texture": "3f634d60-4633-4f91-aba9-229446dbdce4",
+    "atlas": "",
+    "rect": [
+      139,
+      67,
+      223,
+      366
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

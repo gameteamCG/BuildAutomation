@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wetbaby",
+    "texture": "82b4aba5-79a6-4950-a686-9a478663d778",
+    "atlas": "",
+    "rect": [
+      58,
+      67,
+      351,
+      367
+    ],
+    "offset": [
+      -16.5,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wetp",
+    "texture": "86c70066-eff6-4694-bf50-e2315e0d1ca9",
+    "atlas": "",
+    "rect": [
+      50,
+      39,
+      400,
+      426
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

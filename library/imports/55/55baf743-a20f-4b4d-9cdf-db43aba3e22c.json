@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wetman",
+    "texture": "8a852007-1ce3-4e88-a3a7-9b709a35609f",
+    "atlas": "",
+    "rect": [
+      101,
+      44,
+      312,
+      446
+    ],
+    "offset": [
+      7,
+      -17
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

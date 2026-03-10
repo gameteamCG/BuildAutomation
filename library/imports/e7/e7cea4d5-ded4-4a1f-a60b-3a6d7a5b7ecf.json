@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wetumrl",
+    "texture": "61dcda09-6f85-4182-8284-74b198fa0bc8",
+    "atlas": "",
+    "rect": [
+      37,
+      45,
+      419,
+      410
+    ],
+    "offset": [
+      -3.5,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
