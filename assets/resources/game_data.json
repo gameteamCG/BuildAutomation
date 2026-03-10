@@ -11,105 +11,105 @@
     "questionData": [
         {
             "questionText": "Count the tens and ones ",
-            "questionImageName": "Artboard41.png",
+            "questionImageName": "1new.png",
             "questionAudioName": "8425865_1_count-the-tens-and-one.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "Artboard41copy7.png",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
-                "Artboard41copy8.png",
-                "Artboard41copy10.png"
+                "11new.png",
+                "10new.png"
             ],
             "correctAudioName": "8425865_2_one-ten-six-ones-equal.mp3",
             "correctAnswerNum": "1"
         },
         {
             "questionText": "Count the tens and ones",
-            "questionImageName": "Artboard41copy.png",
+            "questionImageName": "2new.png",
             "questionAudioName": "8425865_1_count-the-tens-and-one.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "Artboard41copy7.png",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
-                "Artboard41copy11.png",
-                "Artboard41copy9.png"
+                "11new.png",
+                "9new.png"
             ],
             "correctAudioName": "8425865_3_three-tens-two-ones-eq.mp3",
             "correctAnswerNum": "2"
         },
         {
             "questionText": "Count the tens and ones",
-            "questionImageName": "Artboard41copy2.png",
+            "questionImageName": "3new.png",
             "questionAudioName": "8425865_1_count-the-tens-and-one.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "Artboard41copy7.png",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
-                "Artboard41copy10.png",
-                "Artboard41copy13.png"
+                "10new.png",
+                "13new.png"
             ],
             "correctAudioName": "8425865_4_five-tens-zero-ones-eq.mp3",
             "correctAnswerNum": "1"
         },
         {
             "questionText": "Count the tens and ones",
-            "questionImageName": "Artboard41copy3.png",
+            "questionImageName": "4new.png",
             "questionAudioName": "8425865_1_count-the-tens-and-one.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "Artboard41copy7.png",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
-                "Artboard41copy11.png",
-                "Artboard41copy9.png"
+                "11new.png",
+                "9new.png"
             ],
             "correctAudioName": "8425865_5_two-tens-six-ones-equa.mp3",
             "correctAnswerNum": "1"
         },
         {
             "questionText": "Count the tens and ones",
-            "questionImageName": "Artboard41copy4.png",
+            "questionImageName": "5new.png",
             "questionAudioName": "8425865_1_count-the-tens-and-one.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "Artboard41copy7.png",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
-                "Artboard41copy14.png",
-                "Artboard41copy12.png"
+                "14new.png",
+                "12new.png"
             ],
             "correctAudioName": "8425865_6_four-tens-seven-ones-e.mp3",
             "correctAnswerNum": "2"
         },
         {
             "questionText": "Count the tens and ones",
-            "questionImageName": "Artboard41copy5.png",
+            "questionImageName": "6new.png",
             "questionAudioName": "8425865_1_count-the-tens-and-one.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "Artboard41copy7.png",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
-                "Artboard41copy10.png",
-                "Artboard41copy13.png"
+                "10new.png",
+                "13new.png"
             ],
             "correctAudioName": "8425865_7_three-tens-nine-ones-e.mp3",
             "correctAnswerNum": "2"
         },
         {
             "questionText": "Count the tens and ones",
-            "questionImageName": "Artboard41copy6.png",
+            "questionImageName": "7new.png",
             "questionAudioName": "8425865_1_count-the-tens-and-one.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "Artboard41copy7.png",
             "isOptionText": false,
             "numberOfOptions": 2,
             "options": [
-                "Artboard41copy14.png",
-                "Artboard41copy15.png"
+                "14new.png",
+                "15new.png"
             ],
             "correctAudioName": "8425865_8_two-tens-five-ones-equ.mp3",
             "correctAnswerNum": "1"
