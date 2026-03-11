@@ -1,0 +1,152 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "null",
+      "totalLevel": "7",
+      "TitleImageName": "Asset122.png",
+      "introBgName": "BGl.png",
+      "bgmMusicName": "BGMLetterT.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Purple colour",
+        "questionImageName": "basket500.png",
+        "questionAudioName": "Collectthepurplecolourpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "comoptimg.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "glove.png",
+          "lemon.png",
+          "dolphin.png",
+          "crab.png"
+        ],
+        "correctAudios": [
+          "Purplegloves.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Purple colour",
+        "questionImageName": "basket500.png",
+        "questionAudioName": "Collectthepurplecolourpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "comoptimg.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "tomato.png",
+          "lemon.png",
+          "raddish.png",
+          "banana.png"
+        ],
+        "correctAudios": [
+          "PurpleRadish.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Purple colour",
+        "questionImageName": "basket500.png",
+        "questionAudioName": "Collectthepurplecolourpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "comoptimg.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "crab.png",
+          "balloon.png",
+          "skirt.png",
+          "owl.png"
+        ],
+        "correctAudios": [
+          "purpleballoon.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Purple colour",
+        "questionImageName": "basket500.png",
+        "questionAudioName": "Collectthepurplecolourpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "comoptimg.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "umbrella.png",
+          "dolphin.png",
+          "tomato.png",
+          "owl.png"
+        ],
+        "correctAudios": [
+          "PurpleUmbrella.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Purple colour",
+        "questionImageName": "basket500.png",
+        "questionAudioName": "Collectthepurplecolourpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "comoptimg.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "banana.png",
+          "tomato.png",
+          "lemon.png",
+          "eggplant.png"
+        ],
+        "correctAudios": [
+          "PurpleEggplant.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Purple colour",
+        "questionImageName": "basket500.png",
+        "questionAudioName": "Collectthepurplecolourpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "comoptimg.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "crab.png",
+          "butterfly.png",
+          "dolphin.png",
+          "owl.png"
+        ],
+        "correctAudios": [
+          "PurpleButterfly.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Purple colour",
+        "questionImageName": "basket500.png",
+        "questionAudioName": "Collectthepurplecolourpicture.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "comoptimg.png",
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "dolphin.png",
+          "hat.png",
+          "banana.png",
+          "skirt.png"
+        ],
+        "correctAudios": [
+          "PurpleHat.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}
