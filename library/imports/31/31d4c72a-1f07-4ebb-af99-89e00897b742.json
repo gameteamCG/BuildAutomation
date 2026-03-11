@@ -1,0 +1,139 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Fruits_fs1_new_r167",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/long_vowel_e.mp4",
+      "TitleImageName": "title.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "6"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q1.png",
+        "QuestionAudioName": "Q1.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "Lee",
+          "Bee",
+          "Chris",
+          "Krish"
+        ],
+        "ReiterationAudioName": "lee.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q2.png",
+        "QuestionAudioName": "Q2.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "bench",
+          "chair",
+          "tree",
+          "bed"
+        ],
+        "ReiterationAudioName": "tree.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q3.png",
+        "QuestionAudioName": "Q3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "ladybug",
+          "butterfly",
+          "hornet",
+          "bee"
+        ],
+        "ReiterationAudioName": "bee.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q4.png",
+        "QuestionAudioName": "Q4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "insects",
+          "seeds",
+          "food",
+          "leafs"
+        ],
+        "ReiterationAudioName": "seeds.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q5.png",
+        "QuestionAudioName": "Q5.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "leaf",
+          "trunk",
+          "roots",
+          "fruit"
+        ],
+        "ReiterationAudioName": "leaf.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q6.png",
+        "QuestionAudioName": "Q6.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "store",
+          "trunk",
+          "meal",
+          "fruits"
+        ],
+        "ReiterationAudioName": "meal.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      }
+    ]
+  }
+}
