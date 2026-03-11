@@ -15,14 +15,14 @@
     },
     "questionData": [
       {
-        "questionText": "match the letter",
+        "questionText": "Match the letter",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puzz2.png",
-        "isLeftOptionText": false,
+        "isLeftOptionText": true,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "p1.png"
+          "Pp"
         ],
         "reiterations": [
           "penguin.mp3"
@@ -36,35 +36,35 @@
         ]
       },
       {
-        "questionText": "match the letter",
+        "questionText": "Match the letter",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puzz2.png",
-        "isLeftOptionText": false,
+        "isLeftOptionText": true,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "p2.png"
+          "Pp"
         ],
         "reiterations": [
-          "pig.mp3"
+          "potato.mp3"
         ],
         "commonRightOptionImageName": "puzz1.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "pig.png",
+          "potato.png",
           "lock.png"
         ]
       },
       {
-        "questionText": "match the letter",
+        "questionText": "Match the letter",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puzz2.png",
-        "isLeftOptionText": false,
+        "isLeftOptionText": true,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "p3.png"
+          "Pp"
         ],
         "reiterations": [
           "parrot.mp3"
@@ -78,14 +78,14 @@
         ]
       },
       {
-        "questionText": "match the letter",
+        "questionText": "Match the letter",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puzz2.png",
-        "isLeftOptionText": false,
+        "isLeftOptionText": true,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "p6.png"
+          "Pp"
         ],
         "reiterations": [
           "pencil.mp3"
@@ -99,35 +99,35 @@
         ]
       },
       {
-        "questionText": "match the letter",
+        "questionText": "Match the letter",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puzz2.png",
-        "isLeftOptionText": false,
+        "isLeftOptionText": true,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "p7.png"
+          "Pp"
         ],
         "reiterations": [
-          "pig.mp3"
+          "peach.mp3"
         ],
         "commonRightOptionImageName": "puzz1.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "pig - Copy.png",
+          "peach.png",
           "clock.png"
         ]
       },
       {
-        "questionText": "match the letter",
+        "questionText": "Match the letter",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puzz2.png",
-        "isLeftOptionText": false,
+        "isLeftOptionText": true,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "4.png"
+          "Pp"
         ],
         "reiterations": [
           "pan.mp3"
@@ -141,14 +141,14 @@
         ]
       },
       {
-        "questionText": "match the letter",
+        "questionText": "Match the letter",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puzz2.png",
-        "isLeftOptionText": false,
+        "isLeftOptionText": true,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "5.png"
+          "Pp"
         ],
         "reiterations": [
           "panda.mp3"
