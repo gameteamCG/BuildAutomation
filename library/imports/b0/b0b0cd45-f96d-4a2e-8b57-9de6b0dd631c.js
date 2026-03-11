@@ -546,7 +546,7 @@ var NewClass = /** @class */ (function (_super) {
                     if (_this.isSecondInteraction) {
                         //check what interaction it is and call the respective function
                         //show question panel
-                        cc.audioEngine.playEffect(_this.wordVoQuestion, false);
+                        //cc.audioEngine.playEffect(this.wordVoQuestion, false);
                         _this.interactionType == "1" ? _this.OptionsAppear() : _this.wordAppear();
                     }
                     else {
@@ -706,7 +706,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.OptionsAppear = function () {
         var _this = this;
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
+        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: -34.979, scaleX: 1, scaleY: 1 }).start();
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(function () {
             _this.myOptions.active = true;
@@ -822,6 +822,13 @@ var NewClass = /** @class */ (function (_super) {
             }
         })
             .start();
+    };
+    NewClass.prototype.playButtonSound = function (event) {
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        this.scheduleOnce(function () {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.puzzleQuestionVo.duration);
     };
     NewClass.prototype.EndDrag = function () {
         this.wordCurrentSeleced = null;

@@ -617,7 +617,7 @@ export default class NewClass extends cc.Component {
                     if (this.isSecondInteraction) {
                         //check what interaction it is and call the respective function
                         //show question panel
-                        cc.audioEngine.playEffect(this.wordVoQuestion, false);
+                        //cc.audioEngine.playEffect(this.wordVoQuestion, false);
                         this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
                     }
                     else {
@@ -779,7 +779,7 @@ export default class NewClass extends cc.Component {
 
     OptionsAppear() {
 
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
+        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: -34.979, scaleX: 1, scaleY: 1 }).start();
 
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(() => {
@@ -920,6 +920,14 @@ export default class NewClass extends cc.Component {
             })
             .start();
 
+    }
+    playButtonSound(event: cc.Event) {
+
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        this.scheduleOnce(() => {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.puzzleQuestionVo.duration)
     }
     EndDrag() {
         this.wordCurrentSeleced = null;
