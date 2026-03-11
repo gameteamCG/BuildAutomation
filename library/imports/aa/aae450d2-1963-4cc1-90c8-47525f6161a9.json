@@ -114,12 +114,12 @@
         "isOptionBG": true,
         "numberOfOptions": 3,
         "options": [
-          "owl.png",
+          "oil.png",
           "Artboard 1 copy 70.png",
           "fox.png"
         ],
         "correctAudios": [
-          "owl.mp3"
+          "oil.mp3"
         ],
         "correctAnswerNum": "1"
       },
