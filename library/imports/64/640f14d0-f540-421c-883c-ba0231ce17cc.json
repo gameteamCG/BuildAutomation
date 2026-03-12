@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "police",
+        "questionText": "Police",
         "questionAudioName": "Match_the_object_police.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "left.png",
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "questionText": "construction worker ",
+        "questionText": "Construction worker ",
         "questionAudioName": "Match_the_object_construction_worker.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "left.png",
@@ -57,7 +57,7 @@
         ]
       },
       {
-        "questionText": "dentist ",
+        "questionText": "Dentist ",
         "questionAudioName": "Match_the_object_dentist.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "left.png",
@@ -78,7 +78,7 @@
         ]
       },
       {
-        "questionText": "doctor ",
+        "questionText": "Doctor ",
         "questionAudioName": "Match_the_object_doctor.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "left.png",
@@ -99,7 +99,7 @@
         ]
       },
       {
-        "questionText": "fireman ",
+        "questionText": "Fireman ",
         "questionAudioName": "Match_the_object_fireman.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "left.png",
@@ -120,7 +120,7 @@
         ]
       },
       {
-        "questionText": "mechanic",
+        "questionText": "Mechanic",
         "questionAudioName": "Match_the_object_maykanic.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "left.png",
@@ -141,7 +141,7 @@
         ]
       },
       {
-        "questionText": "postman ",
+        "questionText": "Postman ",
         "questionAudioName": "Match_the_object_postman.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "left.png",
@@ -162,7 +162,7 @@
         ]
       },
       {
-        "questionText": "sweeper ",
+        "questionText": "Sweeper ",
         "questionAudioName": "Match _the_object_sweeper.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "left.png",
