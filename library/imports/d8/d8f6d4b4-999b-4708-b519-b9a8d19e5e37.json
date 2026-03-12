@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "waga",
+    "texture": "5123f36d-7f48-4573-8fba-0e1e91f5ab42",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      267,
+      263
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      267,
+      263
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

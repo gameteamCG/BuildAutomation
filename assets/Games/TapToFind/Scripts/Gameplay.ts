@@ -5,7 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -281,22 +282,44 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
+            let _laypout1posY: number[] = [100, 100, 100];
             this.arrangeGridChildren(this.options, 80, _optionCount);
+            if (startGame.Instance.currentLevel == 2 || startGame.Instance.currentLevel == 6) {
+                console.log("-------------------");
+                _laypout1posY = [-10, 220, 100];
+            }
+            for (let i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+            }
         }
         else {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
+            let _laypout1posY: number[] = [-200, 0, -100, 0, 50];
+            if (startGame.Instance.currentLevel == 5) {
+                console.log("-------------------");
+                _laypout1posY = [-250, 0, -250, 0, -250]
+            }
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }
+
         }
         _template.destroy();
 
 
     }
-
+    playButtonSound(event: cc.Event) {
+        if (!this.canTouch) {
+            return;
+        }
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.questionAudio, false)
+        this.scheduleOnce(() => {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration)
+    }
     onTouchStart_layout1(event: cc.Event.EventTouch) {
         if (!this.canTouch) {
             return;

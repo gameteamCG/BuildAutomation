@@ -29,7 +29,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
@@ -304,18 +304,40 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
+            var _laypout1posY = [100, 100, 100];
             this.arrangeGridChildren(this.options, 80, _optionCount);
+            if (StartGame_1.default.Instance.currentLevel == 2 || StartGame_1.default.Instance.currentLevel == 6) {
+                console.log("-------------------");
+                _laypout1posY = [-10, 220, 100];
+            }
+            for (var i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+            }
         }
         else {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
+            var _laypout1posY = [-200, 0, -100, 0, 50];
+            if (StartGame_1.default.Instance.currentLevel == 5) {
+                console.log("-------------------");
+                _laypout1posY = [-250, 0, -250, 0, -250];
+            }
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }
         }
         _template.destroy();
+    };
+    Gameplay.prototype.playButtonSound = function (event) {
+        if (!this.canTouch) {
+            return;
+        }
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.questionAudio, false);
+        this.scheduleOnce(function () {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration);
     };
     Gameplay.prototype.onTouchStart_layout1 = function (event) {
         var _this = this;
