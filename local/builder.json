@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\MassMarket\\Positional_words_UKG_Literacy_103_British",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

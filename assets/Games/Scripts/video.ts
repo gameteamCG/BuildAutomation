@@ -6,6 +6,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
 import startGame from "../../Framework/Scripts/StartGame";
+import globalVariables from "./globalVariables";
 
 cc.macro.ENABLE_TRANSPARENT_CANVAS = true;
 
@@ -67,6 +68,8 @@ export default class video extends cc.Component {
 
     @property(cc.AudioClip)
     positiveVO: cc.AudioClip[] = [];
+    @property(cc.AudioClip)
+    Intro: cc.AudioClip = null;
 
     duration: number = 0;
     @property(cc.Node)
@@ -620,7 +623,15 @@ export default class video extends cc.Component {
 
 
         this.scheduleOnce(() => {
-            cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+            if (current == 0) {
+                cc.audioEngine.playEffect(this.Intro, false);
+                this.scheduleOnce(() => {
+                    cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+                }, this.Intro.duration)
+            }
+            else {
+                cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+            }
             this.character.getComponent(cc.Animation).play("Idle");
             this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             this.questionNode.getChildByName("options1").active = true;
