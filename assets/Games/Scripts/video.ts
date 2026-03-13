@@ -1,10 +1,3 @@
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-
 import startGame from "../../Framework/Scripts/StartGame";
 
 cc.macro.ENABLE_TRANSPARENT_CANVAS = true;
@@ -13,28 +6,17 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass("QuestionData")
 class QuestionData {
-    // @property(Number)
     questionTime: number = 0;
-    // @property(Boolean)
     isoptionText: boolean = false;
-    // @property(Boolean)
     isquestionText: boolean = false;
-    // @property(cc.SpriteFrame)
     questionImg: cc.SpriteFrame = null;
-    // @property(cc.AudioClip)
     questionAudio: cc.AudioClip = null;
-    // @property(String)
     questionText: string = "";
-    // @property(cc.SpriteFrame)
     optionImgs: cc.SpriteFrame[] = [];
-    // @property(String)
     optionTexts: string[] = [];
-    // @property(cc.AudioClip)
     reiterationAudio: cc.AudioClip = null;
     correctAudio: cc.AudioClip = null;
-    // @property(cc.AudioClip)
     wrongAudio: cc.AudioClip = null;
-    // @property(Number)
     correctAnswer: number = 1;
 }
 @ccclass
@@ -67,6 +49,8 @@ export default class video extends cc.Component {
 
     @property(cc.AudioClip)
     positiveVO: cc.AudioClip[] = [];
+    @property(cc.AudioClip)
+    Intro: cc.AudioClip = null;
 
     duration: number = 0;
     @property(cc.Node)
@@ -620,7 +604,15 @@ export default class video extends cc.Component {
 
 
         this.scheduleOnce(() => {
-            cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+            if (current == 0) {
+                cc.audioEngine.playEffect(this.Intro, false);
+                this.scheduleOnce(() => {
+                    cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+                }, this.Intro.duration)
+            }
+            else {
+                cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+            }
             this.character.getComponent(cc.Animation).play("Idle");
             this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             this.questionNode.getChildByName("options1").active = true;

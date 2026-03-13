@@ -3,12 +3,6 @@ cc._RF.push(module, '959f7A5jptMGpxTvBXeyZrl', 'video');
 // Games/Scripts/video.ts
 
 "use strict";
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -34,28 +28,17 @@ cc.macro.ENABLE_TRANSPARENT_CANVAS = true;
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var QuestionData = /** @class */ (function () {
     function QuestionData() {
-        // @property(Number)
         this.questionTime = 0;
-        // @property(Boolean)
         this.isoptionText = false;
-        // @property(Boolean)
         this.isquestionText = false;
-        // @property(cc.SpriteFrame)
         this.questionImg = null;
-        // @property(cc.AudioClip)
         this.questionAudio = null;
-        // @property(String)
         this.questionText = "";
-        // @property(cc.SpriteFrame)
         this.optionImgs = [];
-        // @property(String)
         this.optionTexts = [];
-        // @property(cc.AudioClip)
         this.reiterationAudio = null;
         this.correctAudio = null;
-        // @property(cc.AudioClip)
         this.wrongAudio = null;
-        // @property(Number)
         this.correctAnswer = 1;
     }
     QuestionData = __decorate([
@@ -79,6 +62,7 @@ var video = /** @class */ (function (_super) {
         _this.tlc_font = null;
         _this.supercub_font = null;
         _this.positiveVO = [];
+        _this.Intro = null;
         _this.duration = 0;
         _this.slider = null;
         _this.toolActivater = null;
@@ -611,7 +595,15 @@ var video = /** @class */ (function (_super) {
             });
         }
         this.scheduleOnce(function () {
-            cc.audioEngine.playEffect(_this.questions[current].questionAudio, false);
+            if (current == 0) {
+                cc.audioEngine.playEffect(_this.Intro, false);
+                _this.scheduleOnce(function () {
+                    cc.audioEngine.playEffect(_this.questions[current].questionAudio, false);
+                }, _this.Intro.duration);
+            }
+            else {
+                cc.audioEngine.playEffect(_this.questions[current].questionAudio, false);
+            }
             _this.character.getComponent(cc.Animation).play("Idle");
             _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             _this.questionNode.getChildByName("options1").active = true;
@@ -750,6 +742,9 @@ var video = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], video.prototype, "positiveVO", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], video.prototype, "Intro", void 0);
     __decorate([
         property(cc.Node)
     ], video.prototype, "slider", void 0);
