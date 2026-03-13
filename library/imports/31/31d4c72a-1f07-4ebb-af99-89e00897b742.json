@@ -5,8 +5,8 @@
   "_native": "",
   "json": {
     "AdditionalData": {
-      "GameID": "Fruits_fs1_new_r167",
-      "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/long_vowel_e.mp4",
+      "GameID": "Massmarket_UKG_Literacy_31_Phonic_reader_long_vowel_a_indian",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/long+vowel+'a'_+indian+Vo.mp4",
       "TitleImageName": "title.png",
       "IntroAudio1Name": "",
       "IntroAudio2Name": "",
@@ -21,15 +21,13 @@
         "QuestionImageName": "Q1.png",
         "QuestionAudioName": "Q1.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": true,
-        "NumberOfOptions": 4,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
         "Options": [
-          "Lee",
-          "Bee",
-          "Chris",
-          "Krish"
+          "day.png",
+          "night.png"
         ],
-        "ReiterationAudioName": "lee.mp3",
+        "ReiterationAudioName": "day.mp3",
         "CorrectAudioName": "GOODJOB.mp3",
         "WrongAudioName": "Oopsietryoncemore.mp3",
         "CorrectAnswer": "1"
@@ -41,55 +39,13 @@
         "QuestionImageName": "Q2.png",
         "QuestionAudioName": "Q2.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": true,
-        "NumberOfOptions": 4,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
         "Options": [
-          "bench",
-          "chair",
-          "tree",
-          "bed"
+          "sun.png",
+          "rain.png"
         ],
-        "ReiterationAudioName": "tree.mp3",
-        "CorrectAudioName": "GOODJOB.mp3",
-        "WrongAudioName": "Oopsietryoncemore.mp3",
-        "CorrectAnswer": "3"
-      },
-      {
-        "QuestionAppearTime": "2000",
-        "IsQuestionText": false,
-        "QuestionText": "",
-        "QuestionImageName": "Q3.png",
-        "QuestionAudioName": "Q3.mp3",
-        "PlayQuestionAudio": true,
-        "IsOptionText": true,
-        "NumberOfOptions": 4,
-        "Options": [
-          "ladybug",
-          "butterfly",
-          "hornet",
-          "bee"
-        ],
-        "ReiterationAudioName": "bee.mp3",
-        "CorrectAudioName": "GOODJOB.mp3",
-        "WrongAudioName": "Oopsietryoncemore.mp3",
-        "CorrectAnswer": "4"
-      },
-      {
-        "QuestionAppearTime": "2000",
-        "IsQuestionText": false,
-        "QuestionText": "",
-        "QuestionImageName": "Q4.png",
-        "QuestionAudioName": "Q4.mp3",
-        "PlayQuestionAudio": true,
-        "IsOptionText": true,
-        "NumberOfOptions": 4,
-        "Options": [
-          "insects",
-          "seeds",
-          "food",
-          "leafs"
-        ],
-        "ReiterationAudioName": "seeds.mp3",
+        "ReiterationAudioName": "rain.mp3",
         "CorrectAudioName": "GOODJOB.mp3",
         "WrongAudioName": "Oopsietryoncemore.mp3",
         "CorrectAnswer": "2"
@@ -98,18 +54,52 @@
         "QuestionAppearTime": "2000",
         "IsQuestionText": false,
         "QuestionText": "",
+        "QuestionImageName": "Q3.png",
+        "QuestionAudioName": "Q3.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "sleep.png",
+          "play.png"
+        ],
+        "ReiterationAudioName": "play.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Q4.png",
+        "QuestionAudioName": "Q4.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "bay.png",
+          "river.png"
+        ],
+        "ReiterationAudioName": "bay.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
         "QuestionImageName": "Q5.png",
         "QuestionAudioName": "Q5.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": true,
-        "NumberOfOptions": 4,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
         "Options": [
-          "leaf",
-          "trunk",
-          "roots",
-          "fruit"
+          "snail.png",
+          "bee.png"
         ],
-        "ReiterationAudioName": "leaf.mp3",
+        "ReiterationAudioName": "snail.mp3",
         "CorrectAudioName": "GOODJOB.mp3",
         "WrongAudioName": "Oopsietryoncemore.mp3",
         "CorrectAnswer": "1"
@@ -121,18 +111,16 @@
         "QuestionImageName": "Q6.png",
         "QuestionAudioName": "Q6.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": true,
-        "NumberOfOptions": 4,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
         "Options": [
-          "store",
-          "trunk",
-          "meal",
-          "fruits"
+          "cup.png",
+          "tray.png"
         ],
-        "ReiterationAudioName": "meal.mp3",
+        "ReiterationAudioName": "tray.mp3",
         "CorrectAudioName": "GOODJOB.mp3",
         "WrongAudioName": "Oopsietryoncemore.mp3",
-        "CorrectAnswer": "3"
+        "CorrectAnswer": "2"
       }
     ]
   }

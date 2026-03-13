@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bay",
+    "texture": "24df698f-a822-4520-9914-d22d19b27cf9",
+    "atlas": "",
+    "rect": [
+      80,
+      99,
+      94,
+      66
+    ],
+    "offset": [
+      1.5,
+      -6.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
