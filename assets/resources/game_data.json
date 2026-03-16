@@ -17,10 +17,10 @@
             "isHintRequired": true,
             "numberOfPuzzles": 4,
             "puzzles": [
-                "L1-1.png",
-                "L1-2.png",
-                "L1-3.png",
-                "L1-4.png"
+                "l1-1.png",
+                "l1-2.png",
+                "l1-3.png",
+                "l1-4.png"
             ],
             "correctAudioName": "1.mp3",
             "needReiteration": true,
@@ -45,10 +45,10 @@
             "isHintRequired": true,
             "numberOfPuzzles": 4,
             "puzzles": [
-                "L2-1.png",
-                "L2-2.png",
-                "L2-3.png",
-                "L2-4.png"
+                "l2-1.png",
+                "l2-2.png",
+                "l2-3.png",
+                "l2-4.png"
             ],
             "correctAudioName": "2.mp3",
             "needReiteration": true,
@@ -73,10 +73,10 @@
             "isHintRequired": true,
             "numberOfPuzzles": 4,
             "puzzles": [
-                "L3-1.png",
-                "L3-2.png",
-                "L3-3.png",
-                "L3-4.png"
+                "l3-1.png",
+                "l3-2.png",
+                "l3-3.png",
+                "l3-4.png"
             ],
             "correctAudioName": "3.mp3",
             "needReiteration": true,
@@ -101,10 +101,10 @@
             "isHintRequired": true,
             "numberOfPuzzles": 4,
             "puzzles": [
-                "L4-1.png",
-                "L4-2.png",
-                "L4-3.png",
-                "L4-4.png"
+                "l4-1.png",
+                "l4-2.png",
+                "l4-3.png",
+                "l4-4.png"
             ],
             "correctAudioName": "4.mp3",
             "needReiteration": true,
@@ -129,10 +129,10 @@
             "isHintRequired": true,
             "numberOfPuzzles": 4,
             "puzzles": [
-                "L5-1.png",
-                "L5-2.png",
-                "L5-3.png",
-                "L5-4.png"
+                "l5-1.png",
+                "l5-2.png",
+                "l5-3.png",
+                "l5-4.png"
             ],
             "correctAudioName": "5.mp3",
             "needReiteration": true,
@@ -157,10 +157,10 @@
             "isHintRequired": true,
             "numberOfPuzzles": 4,
             "puzzles": [
-                "L6-1.png",
-                "L6-2.png",
-                "L6-3.png",
-                "L6-4.png"
+                "l6-1.png",
+                "l6-2.png",
+                "l6-3.png",
+                "l6-4.png"
             ],
             "correctAudioName": "6.mp3",
             "needReiteration": true,
@@ -185,10 +185,10 @@
             "isHintRequired": true,
             "numberOfPuzzles": 4,
             "puzzles": [
-                "L7-1.png",
-                "L7-2.png",
-                "L7-3.png",
-                "L7-4.png"
+                "l7-1.png",
+                "l7-2.png",
+                "l7-3.png",
+                "l7-4.png"
             ],
             "correctAudioName": "7.mp3",
             "needReiteration": true,
