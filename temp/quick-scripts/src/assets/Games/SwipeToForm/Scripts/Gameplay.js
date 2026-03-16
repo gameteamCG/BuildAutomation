@@ -164,7 +164,7 @@ var Gameplay = /** @class */ (function (_super) {
         this.UpdateQuestionData();
         this.scheduleOnce(function () {
             _this.OptionsLayout();
-            if (_this.optionsNode.children.length <= 2) {
+            if (_this.optionsNode.children.length == 3) {
                 _this.arrangeChildren(_this.optionsNode, 80);
             }
             var delay = 0.2;
