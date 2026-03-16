@@ -1,7 +1,7 @@
 {
     "AdditionalData": {
         "GameID": "Fruits_fs1_new_r167",
-        "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/long_vowel_e.mp4",
+        "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/long+vowel+_e__Indian.mp4",
         "TitleImageName": "title.png",
         "IntroAudio1Name": "",
         "IntroAudio2Name": "",
@@ -45,7 +45,7 @@
                 "bed"
             ],
             "ReiterationAudioName": "tree.mp3",
-            "CorrectAudioName": "GOODJOB.mp3",
+            "CorrectAudioName": "EXCEPTIONAL.mp3",
             "WrongAudioName": "Oopsietryoncemore.mp3",
             "CorrectAnswer": "3"
         },
@@ -65,7 +65,7 @@
                 "bee"
             ],
             "ReiterationAudioName": "bee.mp3",
-            "CorrectAudioName": "GOODJOB.mp3",
+            "CorrectAudioName": "INCREDIBLE.mp3",
             "WrongAudioName": "Oopsietryoncemore.mp3",
             "CorrectAnswer": "4"
         },
@@ -105,7 +105,7 @@
                 "fruit"
             ],
             "ReiterationAudioName": "leaf.mp3",
-            "CorrectAudioName": "GOODJOB.mp3",
+            "CorrectAudioName": "INCREDIBLE.mp3",
             "WrongAudioName": "Oopsietryoncemore.mp3",
             "CorrectAnswer": "1"
         },
@@ -125,7 +125,7 @@
                 "fruits"
             ],
             "ReiterationAudioName": "meal.mp3",
-            "CorrectAudioName": "GOODJOB.mp3",
+            "CorrectAudioName": "FANTASTIC.mp3",
             "WrongAudioName": "Oopsietryoncemore.mp3",
             "CorrectAnswer": "3"
         }
