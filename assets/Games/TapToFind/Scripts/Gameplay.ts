@@ -262,7 +262,7 @@ export default class Gameplay extends cc.Component {
                 if (startGame.Instance.currentLevel == 1) {
                     let hand = this.node.getChildByName("hand");
                     hand.setParent(this.options.getChildByName(this.correctAnswer[0].toString()));
-                    hand.setPosition(50, -100);
+                    hand.setPosition(50, -30);
                     hand.angle = 40;
                     hand.setParentWithSamePos(this.node);
                     hand.active = true;
