@@ -72,6 +72,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.currWordSeq = "";
         _this.currScene = 1;
         _this.colorValue = null;
+        _this.playAudio = false;
         return _this;
     }
     NewClass.prototype.onLoad = function () {
@@ -147,7 +148,7 @@ var NewClass = /** @class */ (function (_super) {
             cc.director.preloadScene("GameEnd");
         }
         else {
-            cc.director.preloadScene((this.currScene + 1).toString());
+            cc.director.preloadScene("1");
         }
         StartGame_1.default.Instance.clickEvent = false;
         var canvas = cc.find("Canvas");
@@ -579,6 +580,8 @@ var NewClass = /** @class */ (function (_super) {
         })
             .start();
     };
+    NewClass.prototype.playQues = function (_event) {
+    };
     NewClass.prototype.optionClicked = function (_event) {
         this.resetInteraction();
         var handNode = this.node.getChildByName("handClick");
@@ -896,6 +899,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.OptionsAppear = function () {
         var _this = this;
+        this.playAudio = true;
         cc.tween(this.options)
             .to(0.3, { x: this.options.x - 200, y: -34.979, scaleX: 1, scaleY: 1 })
             .start();
@@ -1044,10 +1048,18 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.playButtonSound = function (event) {
         event.target.getComponent(cc.Button).interactable = false;
-        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
-        this.scheduleOnce(function () {
-            event.target.getComponent(cc.Button).interactable = true;
-        }, this.puzzleQuestionVo.duration);
+        if (!this.playAudio) {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+            this.scheduleOnce(function () {
+                event.target.getComponent(cc.Button).interactable = true;
+            }, this.puzzleQuestionVo.duration);
+        }
+        else {
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
+            this.scheduleOnce(function () {
+                event.target.getComponent(cc.Button).interactable = true;
+            }, this.wordVoQuestion.duration);
+        }
     };
     NewClass.prototype.EndDrag = function () {
         this.wordCurrentSeleced = null;

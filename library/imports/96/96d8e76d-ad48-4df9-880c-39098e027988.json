@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Mason",
+    "texture": "5e149807-19ee-4e9c-b357-8ad16f7ea33a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      323,
+      88
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      323,
+      88
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

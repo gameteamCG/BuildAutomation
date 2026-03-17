@@ -3124,8 +3124,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 200
+      "width": 320,
+      "height": 150
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3337,7 +3337,7 @@
     "_dstBlendFactor": 771,
     "_spriteFrame": null,
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -3357,7 +3357,7 @@
     "node": {
       "__id__": 67
     },
-    "_enabled": true,
+    "_enabled": false,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
@@ -3367,7 +3367,7 @@
     "_dstBlendFactor": 771,
     "_spriteFrame": null,
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -3496,8 +3496,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 172,
-      "height": 172
+      "width": 320,
+      "height": 150
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3709,7 +3709,7 @@
     "_dstBlendFactor": 771,
     "_spriteFrame": null,
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -3729,7 +3729,7 @@
     "node": {
       "__id__": 75
     },
-    "_enabled": true,
+    "_enabled": false,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
@@ -3741,7 +3741,7 @@
       "__uuid__": "b9849005-4f9e-4ca9-b0e7-14466ab7a2a0"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -4003,8 +4003,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 0,
-    "transition": 0,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -4060,10 +4060,12 @@
   },
   {
     "__type__": "cc.ClickEvent",
-    "target": null,
+    "target": {
+      "__id__": 5
+    },
     "component": "",
-    "_componentId": "",
-    "handler": "",
+    "_componentId": "b0b0c1F+W1KLotXneaw3WMc",
+    "handler": "playButtonSound",
     "customEventData": ""
   },
   {
@@ -4091,7 +4093,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 338.79,
+      "width": 339.28,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -4143,9 +4145,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Rhyming words: long vowel",
-    "_N$string": "Rhyming words: long vowel",
-    "_fontSize": 35,
+    "_string": "People who build our houses",
+    "_N$string": "People who build our houses",
+    "_fontSize": 33,
     "_lineHeight": 80,
     "_enableWrapText": true,
     "_N$file": {

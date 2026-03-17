@@ -176,7 +176,7 @@ export default class NewClass extends cc.Component {
     if (this.currScene >= startGame.Instance.totalLevels) {
       cc.director.preloadScene("GameEnd");
     } else {
-      cc.director.preloadScene((this.currScene + 1).toString());
+      cc.director.preloadScene("1");
     }
     startGame.Instance.clickEvent = false;
     let canvas = cc.find("Canvas");
@@ -803,7 +803,7 @@ export default class NewClass extends cc.Component {
             if (this.currScene <= 3) {
               handNode.active = true;
               handNode.getComponent(cc.Animation).play();
-              handNode.getComponent(cc.Animation).on("finished", () => {});
+              handNode.getComponent(cc.Animation).on("finished", () => { });
             }
             this.scheduleOnce(() => {
               this.scheduleOnce(() => {
@@ -818,6 +818,11 @@ export default class NewClass extends cc.Component {
           .start();
       })
       .start();
+  }
+
+
+  playQues(_event: cc.Event) {
+
   }
 
   optionClicked(_event: cc.Event) {
@@ -882,7 +887,7 @@ export default class NewClass extends cc.Component {
       this.scheduleOnce(() => {
         cc.audioEngine.stopAllEffects();
         // cc.audioEngine.playEffect(this.puzzleVoIteration, false);
-        cc.audioEngine.playEffect(this.wordVoQuestion,false);
+        cc.audioEngine.playEffect(this.wordVoQuestion, false);
         this.scheduleOnce(() => {
           this.options.color = cc.Color.WHITE;
           // this.wordAppear();
@@ -1124,8 +1129,9 @@ export default class NewClass extends cc.Component {
       }, 0.5);
     }, 0.7);
   }
-
+  playAudio: boolean = false;
   OptionsAppear() {
+    this.playAudio = true;
     cc.tween(this.options)
       .to(0.3, { x: this.options.x - 200, y: -34.979, scaleX: 1, scaleY: 1 })
       .start();
@@ -1291,10 +1297,18 @@ export default class NewClass extends cc.Component {
   }
   playButtonSound(event: cc.Event) {
     event.target.getComponent(cc.Button).interactable = false;
-    cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
-    this.scheduleOnce(() => {
-      event.target.getComponent(cc.Button).interactable = true;
-    }, this.puzzleQuestionVo.duration);
+    if (!this.playAudio) {
+      cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+      this.scheduleOnce(() => {
+        event.target.getComponent(cc.Button).interactable = true;
+      }, this.puzzleQuestionVo.duration);
+    }
+    else {
+      cc.audioEngine.playEffect(this.wordVoQuestion, false);
+      this.scheduleOnce(() => {
+        event.target.getComponent(cc.Button).interactable = true;
+      }, this.wordVoQuestion.duration);
+    }
   }
   EndDrag() {
     this.wordCurrentSeleced = null;

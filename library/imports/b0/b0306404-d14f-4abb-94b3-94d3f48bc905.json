@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Engineer",
+    "texture": "c5eb8232-783e-42b9-8e55-b672a0d53b4d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      322,
+      89
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      322,
+      89
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
