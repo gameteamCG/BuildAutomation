@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -77,22 +77,22 @@ var NewClass = /** @class */ (function (_super) {
     // LIFE-CYCLE CALLBACKS:
     NewClass.prototype.onLoad = function () {
         var _this = this;
-        if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
+        // if (startGame.Instance.jockeyName == "Podar") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+        // }
+        // else if (startGame.Instance.jockeyName == "tlc") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
+        // }
+        // else if (startGame.Instance.jockeyName == "supercub") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
+        // }
+        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        // }
         this.optionsNode = this.node.getChildByName("Option");
         this.GenerateOptions();
         this.maxLevel = StartGame_1.default.Instance.totalLevels;
@@ -528,7 +528,7 @@ var NewClass = /** @class */ (function (_super) {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_1", "positive_2", "positive_3", "positive_4"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];

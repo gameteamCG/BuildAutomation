@@ -23,8 +23,8 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "happy.png",
-          "sad.png"
+          "new_happy.png",
+          "new_sad.png"
         ],
         "correctAudioName": "r1.mp3",
         "correctAnswerNum": "1"
@@ -38,8 +38,8 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "sad.png",
-          "nervous.png"
+          "new_sad.png",
+          "new_nervous.png"
         ],
         "correctAudioName": "r2.mp3",
         "correctAnswerNum": "2"
@@ -53,8 +53,8 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "impatient.png",
-          "excited.png"
+          "new_impatient.png",
+          "new_excited.png"
         ],
         "correctAudioName": "r3.mp3",
         "correctAnswerNum": "2"
@@ -68,8 +68,8 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "sad.png",
-          "excited.png"
+          "new_sad.png",
+          "new_excited.png"
         ],
         "correctAudioName": "r4.mp3",
         "correctAnswerNum": "1"
@@ -83,8 +83,8 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "scared.png",
-          "happy.png"
+          "new_scared.png",
+          "new_happy.png"
         ],
         "correctAudioName": "r5.mp3",
         "correctAnswerNum": "1"
@@ -98,8 +98,8 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "impatient.png",
-          "excited.png"
+          "new_impatient.png",
+          "new_excited.png"
         ],
         "correctAudioName": "r6.mp3",
         "correctAnswerNum": "1"

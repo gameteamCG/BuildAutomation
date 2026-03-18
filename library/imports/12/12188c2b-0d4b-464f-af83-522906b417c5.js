@@ -40,23 +40,22 @@ var NewClass = /** @class */ (function (_super) {
     }
     // LIFE-CYCLE CALLBACKS:
     NewClass.prototype.onLoad = function () {
-        var _this = this;
-        if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
-            this.scheduleOnce(function () {
-                _this.node.getChildByName("end").active = true;
-            }, 2);
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
-        }
-        this.node.getComponent(cc.Sprite).spriteFrame = StartGame_1.default.Instance.introBG;
+        // if (startGame.Instance.jockeyName == "Podar") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
+        // }
+        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
+        //     this.scheduleOnce(() => {
+        //         this.node.getChildByName("end").active = true;
+        //     }, 2);
+        // }
+        // else if (startGame.Instance.jockeyName == "tlc") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
+        // }
+        // else if (startGame.Instance.jockeyName == "supercub") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
+        // }
+        // this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
     };
     NewClass.prototype.start = function () {
         var _this = this;
@@ -69,19 +68,19 @@ var NewClass = /** @class */ (function (_super) {
             _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
             _this.node.getComponent(cc.AudioSource).play();
             cc.tween(_this.node.getChildByName("star1"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         }, 0.8);
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
             _this.node.getComponent(cc.AudioSource).play();
             cc.tween(_this.node.getChildByName("star2"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         }, 1.3);
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
             _this.node.getComponent(cc.AudioSource).play();
             cc.tween(_this.node.getChildByName("star3"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         }, 1.8);
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.yeah[0];

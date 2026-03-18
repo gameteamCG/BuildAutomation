@@ -1,6 +1,6 @@
 
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -110,22 +110,22 @@ export default class NewClass extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
+        // if (startGame.Instance.jockeyName == "Podar") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+        // }
+        // else if (startGame.Instance.jockeyName == "tlc") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
+        // }
+        // else if (startGame.Instance.jockeyName == "supercub") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
+        // }
+        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        // }
         this.optionsNode = this.node.getChildByName("Option");
         this.GenerateOptions();
         this.maxLevel = startGame.Instance.totalLevels;
@@ -581,7 +581,7 @@ export default class NewClass extends cc.Component {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
         }
         else if (startGame.Instance.jockeyName == "Puzzle") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_1", "positive_2", "positive_3", "positive_4"];
         }
         else if (startGame.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
