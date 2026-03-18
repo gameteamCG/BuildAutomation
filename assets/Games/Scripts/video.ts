@@ -435,10 +435,20 @@ export default class video extends cc.Component {
             _event.target.getChildByName("green").active = true;
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.correctSound, false);
-            if (this.questions[this.currentQuestion - 1].reiterationAudio != null) {
-                this.scheduleOnce(() => {
+            if (this.currentQuestion == 7) {
+                if (_event.target.children[1].getComponent(cc.Label).string == "no") {
+                    cc.audioEngine.playEffect(this.Intro, false);
+                }
+                else {
                     cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].reiterationAudio, false);
-                }, 0.5);
+                }
+            }
+            else {
+                if (this.questions[this.currentQuestion - 1].reiterationAudio != null) {
+                    this.scheduleOnce(() => {
+                        cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].reiterationAudio, false);
+                    }, 0.5);
+                }
             }
             _event.target.getParent().children.forEach(element => {
                 element.getComponent(cc.Button).interactable = false;
@@ -602,13 +612,14 @@ export default class video extends cc.Component {
             });
         }
 
-
+        if (current == 6) {
+            this.questionNode.getChildByName("options1").children.forEach(elem => {
+                elem.name = "1";
+            })
+        }
         this.scheduleOnce(() => {
             if (current == 0) {
-                cc.audioEngine.playEffect(this.Intro, false);
-                this.scheduleOnce(() => {
-                    cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
-                }, this.Intro.duration)
+                cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
             }
             else {
                 cc.audioEngine.playEffect(this.questions[current].questionAudio, false);

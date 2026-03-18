@@ -1,44 +1,44 @@
 {
   "AdditionalData": {
     "GameID": "Letters and sounds Pp",
-    "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/Phonic_Reader_long_vowel_i_Indian.mp4",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/Videos/MassMarket_Activity_The_two_goats_UKG_Literacy_38_Indian.mp4",
     "TitleImageName": "GameTitleNew.png",
     "IntroAudio1Name": "",
     "IntroAudio2Name": "",
     "JockeyName": "puzzle",
-    "TotalLevel": "4"
+    "TotalLevel": "7"
   },
   "QuestionData": [
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "Phonic Reader - long vowel 'i'",
-      "QuestionImageName": "Q1.png",
+      "IsQuestionText": true,
+      "QuestionText": "Who is the story about?",
+      "QuestionImageName": "",
       "QuestionAudioName": "Q1.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "1.png",
-        "2.png"
+        "two goats",
+        "farmer"
       ],
       "ReiterationAudioName": "1.mp3",
       "CorrectAudioName": "positive_3.mp3",
-      "WrongAudioName": "negative_5.mp3",
+      "WrongAudioName": "negative_3.mp3",
       "CorrectAnswer": "1"
     },
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "Phonic Reader - long vowel 'i'",
-      "QuestionImageName": "Q2.png",
+      "IsQuestionText": true,
+      "QuestionText": "What did the brown goat want to eat?",
+      "QuestionImageName": "",
       "QuestionAudioName": "Q2.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "4.png",
-        "3.png"
+        "bread",
+        "grass"
       ],
       "ReiterationAudioName": "2.mp3",
       "CorrectAudioName": "positive_8.mp3",
@@ -47,16 +47,16 @@
     },
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "Phonic Reader - long vowel 'i'",
-      "QuestionImageName": "Q3.png",
+      "IsQuestionText": true,
+      "QuestionText": "What did the brown need to do cross to reach the other side?",
+      "QuestionImageName": "",
       "QuestionAudioName": "Q3.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "6.png",
-        "5.png"
+        "market",
+        "wooden bridge"
       ],
       "ReiterationAudioName": "3.mp3",
       "CorrectAudioName": "positive_10.mp3",
@@ -65,20 +65,74 @@
     },
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "Phonic Reader - long vowel 'i'",
-      "QuestionImageName": "Q4.png",
+      "IsQuestionText": true,
+      "QuestionText": "Who came from the other side to cross the bridge?",
+      "QuestionImageName": "",
       "QuestionAudioName": "Q4.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "7.png",
-        "8.png"
+        "white goat",
+        "black sheep"
       ],
       "ReiterationAudioName": "4.mp3",
       "CorrectAudioName": "positive_8.mp3",
       "WrongAudioName": "negative_5.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "What did the brown goat shout when he saw the white goat?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Q5.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "stop",
+        "run"
+      ],
+      "ReiterationAudioName": "5.mp3",
+      "CorrectAudioName": "positive_3.mp3",
+      "WrongAudioName": "negative_3.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "Who crossed the bridge first?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Q6.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "white horse",
+        "brown goat"
+      ],
+      "ReiterationAudioName": "6.mp3",
+      "CorrectAudioName": "positive_8.mp3",
+      "WrongAudioName": "negative_5.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "The two goats became good friends, but they got angry with one another. Do you also get angry with your friend?",
+      "QuestionImageName": "",
+      "QuestionAudioName": "Q7.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "yes",
+        "no"
+      ],
+      "ReiterationAudioName": "7.mp3",
+      "CorrectAudioName": "positive_10.mp3",
+      "WrongAudioName": "negative_3.mp3",
       "CorrectAnswer": "1"
     }
   ]
