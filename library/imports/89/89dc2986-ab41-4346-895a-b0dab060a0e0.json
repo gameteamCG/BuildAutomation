@@ -17,7 +17,7 @@
       {
         "QuestionAppearTime": "999999999",
         "IsQuestionText": true,
-        "QuestionText": "Cane",
+        "QuestionText": "cane",
         "QuestionImageName": "",
         "QuestionAudioName": "Q1_Identify_and_tap_on_the_picture_for_the_given_word.mp3",
         "PlayQuestionAudio": true,
@@ -57,7 +57,7 @@
       {
         "QuestionAppearTime": "999999999",
         "IsQuestionText": true,
-        "QuestionText": "Kite",
+        "QuestionText": "kite",
         "QuestionImageName": "",
         "QuestionAudioName": "Q3_find_the_image_for_the.mp3",
         "PlayQuestionAudio": true,
