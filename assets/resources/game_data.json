@@ -1,0 +1,216 @@
+{
+  "additionalData": {
+    "GameID": "तीन अक्षरों के शब्द_UKG_21",
+    "totalLevel": "7",
+    "TitleImageName": "title.png",
+    "introBgName": "ukg.png",
+    "bgmMusicName": "bgm.mp3",
+    "mainBgName": "bg.png",
+    "JockeyName": "bag"
+  },
+  "questionData": [
+    {
+      "questionText": "तीन अक्षरों के शब्द",
+      "questionAudioName": "solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "com.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "croco1.png",
+        "croco2.png",
+        "croco3.png",
+        "croco4.png"
+      ],
+      "correctAudioName": "7.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "तीन अक्षरों के शब्द",
+      "questionAudioName2": "swipe.mp3",
+      "commonOptionImageName": "233.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "म",
+        "र",
+        "ग"
+      ],
+      "correctAnswer": "132",
+      "reiterationAudioName": "magar.mp3"
+    },
+    {
+      "questionText": "तीन अक्षरों के शब्द",
+      "questionAudioName": "solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "233.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "lotus1.png",
+        "lotus2.png",
+        "lotus3.png",
+        "lotus4.png"
+      ],
+      "correctAudioName": "6.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "तीन अक्षरों के शब्द",
+      "questionAudioName2": "swipe.mp3",
+      "commonOptionImageName": "233.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "ल",
+        "क",
+        "म"
+      ],
+      "correctAnswer": "231",
+      "reiterationAudioName": "kamal.mp3"
+    },
+    {
+      "questionText": "तीन अक्षरों के शब्द",
+      "questionAudioName": "solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "233.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "road1.png",
+        "road2.png",
+        "road3.png",
+        "road4.png"
+      ],
+      "correctAudioName": "5.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "तीन अक्षरों के शब्द",
+      "questionAudioName2": "swipe.mp3",
+      "commonOptionImageName": "233.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "स",
+        "क",
+        "ड़"
+      ],
+      "correctAnswer": "132",
+      "reiterationAudioName": "sadak.mp3"
+    },
+    {
+      "questionText": "तीन अक्षरों के शब्द",
+      "questionAudioName": "solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "233.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "duck1.png",
+        "duck2.png",
+        "duck3.png",
+        "duck4.png"
+      ],
+      "correctAudioName": "4.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "तीन अक्षरों के शब्द",
+      "questionAudioName2": "swipe.mp3",
+      "commonOptionImageName": "233.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "ख",
+        "त",
+        "ब"
+      ],
+      "correctAnswer": "321",
+      "reiterationAudioName": "batakh.mp3"
+    },
+    {
+      "questionText": "तीन अक्षरों के शब्द",
+      "questionAudioName": "solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "233.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "kalash1.png",
+        "kalash2.png",
+        "kalash3.png",
+        "kalash4.png"
+      ],
+      "correctAudioName": "3.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "तीन अक्षरों के शब्द",
+      "questionAudioName2": "swipe.mp3",
+      "commonOptionImageName": "233.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "ल",
+        "क",
+        "श"
+      ],
+      "correctAnswer": "213",
+      "reiterationAudioName": "kalash.mp3"
+    },
+    {
+      "questionText": "तीन अक्षरों के शब्द",
+      "questionAudioName": "solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "233.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "palace1.png",
+        "palace2.png",
+        "palace3.png",
+        "palace4.png"
+      ],
+      "correctAudioName": "2.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "तीन अक्षरों के शब्द",
+      "questionAudioName2": "swipe.mp3",
+      "commonOptionImageName": "",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "ल",
+        "म",
+        "ह"
+      ],
+      "correctAnswer": "231",
+      "reiterationAudioName": "mahal.mp3"
+    },
+    {
+      "questionText": "तीन अक्षरों के शब्द",
+      "questionAudioName": "solve.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "233.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "sky1.png",
+        "sky2.png",
+        "sky3.png",
+        "sky4.png"
+      ],
+      "correctAudioName": "1.mp3",
+      "needReiteration": true,
+      "interactionType": "2",
+      "questionText2": "तीन अक्षरों के शब्द",
+      "questionAudioName2": "swipe.mp3",
+      "commonOptionImageName": "233.png",
+      "isOptionText": true,
+      "numberOfOptions": 3,
+      "options": [
+        "ग",
+        "न",
+        "ग"
+      ],
+      "correctAnswer": "132",
+      "reiterationAudioName": "gagan.mp3"
+    }
+  ]
+}

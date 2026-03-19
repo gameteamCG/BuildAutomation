@@ -1,5 +1,9 @@
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
+import ProgressBar from "../../../Framework/Scripts/ProgressBar";
 
 const { ccclass, property } = cc._decorator;
 
@@ -902,9 +906,9 @@ export default class NewClass extends cc.Component {
         cc.tween(_node2)
             .to(0.1, { x: x1 })
             .call(() => {
-                // console.log(this.currWordSeq, this.correctWordSeq[0], this.currScene);
-                if (word == this.correctWordSeq[0]) {
-                    // console.log("words aligned");
+                console.log(this.currWordSeq, this.correctWordSeq[0], this.currScene);
+                if (this.currWordSeq == this.correctWordSeq[0]) {
+                    console.log("words aligned");
                     this.selectable = false;
                     this.scheduleOnce(() => {
                         // this.levelFinished();

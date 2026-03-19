@@ -23,8 +23,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar");
+// import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
+var ProgressBar_1 = require("../../../Framework/Scripts/ProgressBar");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
@@ -808,9 +812,9 @@ var NewClass = /** @class */ (function (_super) {
         cc.tween(_node2)
             .to(0.1, { x: x1 })
             .call(function () {
-            // console.log(this.currWordSeq, this.correctWordSeq[0], this.currScene);
-            if (word == _this.correctWordSeq[0]) {
-                // console.log("words aligned");
+            console.log(_this.currWordSeq, _this.correctWordSeq[0], _this.currScene);
+            if (_this.currWordSeq == _this.correctWordSeq[0]) {
+                console.log("words aligned");
                 _this.selectable = false;
                 _this.scheduleOnce(function () {
                     // this.levelFinished();

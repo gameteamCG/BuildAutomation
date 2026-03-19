@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'e08b0tRP5pPcZvun88UXG3h', 'ProgressBar');
-// Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar.ts
+// Framework/Scripts/ProgressBar.ts
 
 "use strict";
 // Learn TypeScript:
@@ -29,7 +29,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var StartGame_1 = require("../../../../Scripts/StartGame");
+var StartGame_1 = require("./StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var ProgressBar = /** @class */ (function (_super) {
     __extends(ProgressBar, _super);
