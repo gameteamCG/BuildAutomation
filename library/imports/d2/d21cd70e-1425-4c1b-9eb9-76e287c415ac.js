@@ -34,6 +34,7 @@ var startGame = /** @class */ (function (_super) {
     __extends(startGame, _super);
     function startGame() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.play_Audio = null;
         _this.BGM_audio = null;
         _this.volume = 0.1;
         _this.NextSceneName = "1";
@@ -348,11 +349,18 @@ var startGame = /** @class */ (function (_super) {
             }
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
                 _this.scheduleOnce(function () {
-                    cc.director.loadScene(_this.NextSceneName);
+                    // cc.director.loadScene(this.NextSceneName);
                 }, 2);
             }
         }, 1);
         // this.OnTimer();
+    };
+    startGame.prototype.OnPlayClick = function (_event) {
+        cc.audioEngine.playEffect(this.play_Audio, false);
+        var node = _event.target;
+        node.active = false;
+        node.getParent().getChildByName('loading').active = true;
+        cc.director.loadScene(this.NextSceneName);
     };
     startGame.prototype.OnMusic = function (event) {
         if (event.target.children[0].activeInHierarchy) {
@@ -408,6 +416,9 @@ var startGame = /** @class */ (function (_super) {
     };
     var startGame_1;
     startGame.instance = null;
+    __decorate([
+        property(cc.AudioClip)
+    ], startGame.prototype, "play_Audio", void 0);
     __decorate([
         property(cc.AudioClip)
     ], startGame.prototype, "BGM_audio", void 0);
