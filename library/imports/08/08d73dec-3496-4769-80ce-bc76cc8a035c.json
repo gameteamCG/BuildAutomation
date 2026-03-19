@@ -8,15 +8,15 @@
       "GameID": "Magic words _NUR_GA_39",
       "totalLevel": "6",
       "TitleImageName": "Golden_words.png",
-      "introBgName": "Playgroup.png",
-      "bgmMusicName": "bgm.mp3",
+      "introBgName": "bg (12).png",
+      "bgmMusicName": "Riverside Ride (mp3cut.net).mp3",
       "mainBgName": "bg.png",
       "JockeyName": "Puzzle",
       "templateType": "SimpleTap"
     },
     "questionData": [
       {
-        "questionText": "thank you",
+        "questionText": "Thank you",
         "questionAudioName": "Thankyou.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_8.png",
@@ -33,7 +33,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "please",
+        "questionText": "Please",
         "questionAudioName": "please.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_8.png",
@@ -50,7 +50,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "sorry",
+        "questionText": "Sorry",
         "questionAudioName": "Sorry.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_8.png",
@@ -67,7 +67,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "thank you",
+        "questionText": "Thank you",
         "questionAudioName": "Thankyou.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_8.png",
@@ -84,7 +84,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "sorry",
+        "questionText": "Sorry",
         "questionAudioName": "Sorry.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_8.png",
@@ -101,7 +101,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "please",
+        "questionText": "Please",
         "questionAudioName": "please.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Asset_8.png",
