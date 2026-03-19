@@ -1,5 +1,6 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+
 // import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
@@ -668,8 +669,8 @@ export default class NewClass extends cc.Component {
       this.node
         .getChildByName("Option")
         .children[
-          i - 1
-        ].setPosition(0 - 100, this.node.getChildByName("QuestionBox").getPosition().y - 100);
+        i - 1
+      ].setPosition(0 - 100, this.node.getChildByName("QuestionBox").getPosition().y - 100);
       this.scheduleOnce(() => {
         let objScale: number = 0;
         cc.audioEngine.playEffect(this.popSound[0], false);
@@ -1846,5 +1847,5 @@ export default class NewClass extends cc.Component {
     }
   }
 
-  update() {}
+  update() { }
 }

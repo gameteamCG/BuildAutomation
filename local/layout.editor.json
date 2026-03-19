@@ -8,13 +8,13 @@
       "x": -8,
       "y": -8,
       "width": 1552,
-      "height": 928,
+      "height": 832,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 213.08750915527344,
-            "height": 796.2000122070312,
+            "width": 215,
+            "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
             "children": [
@@ -22,18 +22,18 @@
             ]
           },
           {
-            "width": 973.2750244140625,
-            "height": 796.2000122070312,
+            "width": 982,
+            "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 973.2750244140625,
-                "height": 527.2000122070312,
+                "width": 982,
+                "height": 445.75,
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 760.1625366210938,
-                    "height": 527.2000122070312,
+                    "width": 767.7875366210938,
+                    "height": 445.75,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -41,8 +41,8 @@
                     ]
                   },
                   {
-                    "width": 210.1125030517578,
-                    "height": 527.2000122070312,
+                    "width": 211.21250915527344,
+                    "height": 445.75,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 973.2750244140625,
-                "height": 266,
+                "width": 982,
+                "height": 265.8500061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 330.0375061035156,
-            "height": 796.2000122070312,
+            "width": 333,
+            "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
             "children": [
@@ -89,7 +89,8 @@
         "node-library"
       ]
     },
-    " common-asset-worker-worker": {}
+    " common-asset-worker-worker": {},
+    "window-1773895953283": {}
   },
   "panels": {
     "project-settings": {
@@ -108,7 +109,7 @@
       "x": -8,
       "y": -8,
       "width": 1552,
-      "height": 928
+      "height": 832
     }
   },
   "panelLabelWidth": {}
