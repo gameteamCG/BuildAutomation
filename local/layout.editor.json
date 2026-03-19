@@ -13,7 +13,7 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 217.71250915527344,
+            "width": 218,
             "height": 810.6000366210938,
             "type": "panel",
             "active": 0,
@@ -22,18 +22,18 @@
             ]
           },
           {
-            "width": 1000.6875,
+            "width": 1001,
             "height": 810.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 1000.6875,
-                "height": 541.4000244140625,
+                "width": 1001,
+                "height": 541.6000366210938,
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 746.5125122070312,
-                    "height": 541.4000244140625,
+                    "width": 746.75,
+                    "height": 541.6000366210938,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -41,8 +41,8 @@
                     ]
                   },
                   {
-                    "width": 251.1750030517578,
-                    "height": 541.4000244140625,
+                    "width": 251.25,
+                    "height": 541.6000366210938,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 1000.6875,
-                "height": 266.1875,
+                "width": 1001,
+                "height": 266,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 311.5874938964844,
+            "width": 311,
             "height": 810.6000366210938,
             "type": "panel",
             "active": 0,
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
+        "assets",
         "console",
         "timeline",
         "game-window",
@@ -88,8 +88,7 @@
         "cocos-services",
         "node-library"
       ]
-    },
-    " common-asset-worker-worker": {}
+    }
   },
   "panels": {
     "project-settings": {
