@@ -17,7 +17,7 @@
     "questionData": [
       {
         "questionText": "u",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "u-qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
         "isOptionText": false,
@@ -35,7 +35,7 @@
       },
       {
         "questionText": "v",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "v-qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
         "isOptionText": false,
@@ -53,7 +53,7 @@
       },
       {
         "questionText": "w",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "w-qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
         "isOptionText": false,
@@ -71,7 +71,7 @@
       },
       {
         "questionText": "x",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "x-qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
         "isOptionText": false,
@@ -89,7 +89,7 @@
       },
       {
         "questionText": "y",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "y-qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
         "isOptionText": false,
@@ -107,7 +107,7 @@
       },
       {
         "questionText": "z",
-        "questionAudioName": "QVO.mp3",
+        "questionAudioName": "z-qvo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
         "isOptionText": false,
