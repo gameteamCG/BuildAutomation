@@ -12,7 +12,7 @@
     {
       "questionText": "While playing football.",
       "questionImageName": "Q1.png",
-      "questionAudioName": "q1.mp3",
+      "questionAudioName": "9037064_1_choose-the-correct-emo.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "sm2.png",
       "isOptionText": false,
@@ -21,13 +21,13 @@
         "new_happy.png",
         "new_sad.png"
       ],
-      "correctAudioName": "r1.mp3",
+      "correctAudioName": "9037064_2_happy.mp3",
       "correctAnswerNum": "1"
     },
     {
       "questionText": "When you have to talk in front of the entire class.",
       "questionImageName": "Q2.png",
-      "questionAudioName": "q2.mp3",
+      "questionAudioName": "9037064_3_choose-the-correct-emo.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "sm2.png",
       "isOptionText": false,
@@ -36,13 +36,13 @@
         "new_sad.png",
         "new_nervous.png"
       ],
-      "correctAudioName": "r2.mp3",
+      "correctAudioName": "9037064_4_nervous.mp3",
       "correctAnswerNum": "2"
     },
     {
       "questionText": "When its your birthday party celebration with your friends.",
       "questionImageName": "Q3.png",
-      "questionAudioName": "q3.mp3",
+      "questionAudioName": "9037064_5_choose-the-correct-emo.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "sm2.png",
       "isOptionText": false,
@@ -51,13 +51,13 @@
         "new_impatient.png",
         "new_excited.png"
       ],
-      "correctAudioName": "r3.mp3",
+      "correctAudioName": "9037064_6_excited.mp3",
       "correctAnswerNum": "2"
     },
     {
       "questionText": "When you hurt yourself.",
       "questionImageName": "Q4.png",
-      "questionAudioName": "q4.mp3",
+      "questionAudioName": "9037064_7_choose-the-correct-emo.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "sm2.png",
       "isOptionText": false,
@@ -66,13 +66,13 @@
         "new_sad.png",
         "new_excited.png"
       ],
-      "correctAudioName": "r4.mp3",
+      "correctAudioName": "9037064_8_sad.mp3",
       "correctAnswerNum": "1"
     },
     {
       "questionText": "When your being chased by an angry dog.",
       "questionImageName": "Q5.png",
-      "questionAudioName": "q5.mp3",
+      "questionAudioName": "9037064_9_choose-the-correct-emo.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "sm2.png",
       "isOptionText": false,
@@ -81,13 +81,13 @@
         "new_scared.png",
         "new_happy.png"
       ],
-      "correctAudioName": "r5.mp3",
+      "correctAudioName": "9037064_10_scared.mp3",
       "correctAnswerNum": "1"
     },
     {
       "questionText": "When you have to wait for your turn.",
       "questionImageName": "Q6.png",
-      "questionAudioName": "q6.mp3",
+      "questionAudioName": "9037064_11_choose-the-correct-emo.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "sm2.png",
       "isOptionText": false,
@@ -96,7 +96,7 @@
         "new_impatient.png",
         "new_excited.png"
       ],
-      "correctAudioName": "r6.mp3",
+      "correctAudioName": "9037064_12_impatient.mp3",
       "correctAnswerNum": "1"
     }
   ]
