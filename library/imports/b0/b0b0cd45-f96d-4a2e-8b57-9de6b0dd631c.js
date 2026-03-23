@@ -539,7 +539,7 @@ var NewClass = /** @class */ (function (_super) {
             cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
-                cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
+                // cc.audioEngine.playEffect(this.puzzleVoIteration, false);
                 _this.scheduleOnce(function () {
                     _this.options.color = cc.Color.WHITE;
                     // this.wordAppear();
