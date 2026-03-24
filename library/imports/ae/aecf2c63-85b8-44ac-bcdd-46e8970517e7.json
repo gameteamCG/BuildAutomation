@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slushimg",
+    "texture": "55b50df0-59db-4e6d-81dc-a614a5527962",
+    "atlas": "",
+    "rect": [
+      52,
+      31,
+      354,
+      469
+    ],
+    "offset": [
+      -21.5,
+      -15
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
