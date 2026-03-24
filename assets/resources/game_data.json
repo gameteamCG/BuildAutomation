@@ -16,11 +16,11 @@
       "QuestionImageName": "",
       "QuestionAudioName": "Q1.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": true,
+      "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "two goats",
-        "farmer"
+        "1.png",
+        "2.png"
       ],
       "ReiterationAudioName": "1.mp3",
       "CorrectAudioName": "positive_3.mp3",
@@ -34,11 +34,11 @@
       "QuestionImageName": "",
       "QuestionAudioName": "Q2.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": true,
+      "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "bread",
-        "grass"
+        "3.png",
+        "4.png"
       ],
       "ReiterationAudioName": "2.mp3",
       "CorrectAudioName": "positive_8.mp3",
@@ -48,15 +48,15 @@
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": true,
-      "QuestionText": "What did the brown need to do cross to reach the other side?",
+      "QuestionText": "What did the brown goat need to do cross to reach the other side?",
       "QuestionImageName": "",
       "QuestionAudioName": "Q3.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": true,
+      "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "market",
-        "wooden bridge"
+        "5.png",
+        "6.png"
       ],
       "ReiterationAudioName": "3.mp3",
       "CorrectAudioName": "positive_10.mp3",
@@ -70,11 +70,11 @@
       "QuestionImageName": "",
       "QuestionAudioName": "Q4.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": true,
+      "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "white goat",
-        "black sheep"
+        "7.png",
+        "8.png"
       ],
       "ReiterationAudioName": "4.mp3",
       "CorrectAudioName": "positive_8.mp3",
@@ -88,11 +88,11 @@
       "QuestionImageName": "",
       "QuestionAudioName": "Q5.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": true,
+      "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "stop",
-        "run"
+        "9.png",
+        "10.png"
       ],
       "ReiterationAudioName": "5.mp3",
       "CorrectAudioName": "positive_3.mp3",
@@ -106,11 +106,11 @@
       "QuestionImageName": "",
       "QuestionAudioName": "Q6.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": true,
+      "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "white horse",
-        "brown goat"
+        "11.png",
+        "12.png"
       ],
       "ReiterationAudioName": "6.mp3",
       "CorrectAudioName": "positive_8.mp3",
@@ -124,11 +124,11 @@
       "QuestionImageName": "",
       "QuestionAudioName": "Q7.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": true,
+      "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "yes",
-        "no"
+        "13.png",
+        "14.png"
       ],
       "ReiterationAudioName": "7.mp3",
       "CorrectAudioName": "positive_10.mp3",
