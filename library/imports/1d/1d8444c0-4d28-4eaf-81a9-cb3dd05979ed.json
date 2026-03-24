@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0010_baby",
+    "texture": "ed261ca0-b49d-4930-bb01-1fa4167beb5e",
+    "atlas": "",
+    "rect": [
+      88,
+      148,
+      77,
+      90
+    ],
+    "offset": [
+      1.5,
+      -68
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
