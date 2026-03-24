@@ -1,0 +1,159 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "null",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/86379805_Under_the_Sea_Deep_Sea_1711597031635.mp4",
+      "TitleImageName": "deepsea_creatures.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "7"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "What were Singham and Karate trying to find?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "What_were_Singham_and_Karate_trying_to_find.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "camera2.png",
+          "diving_suit.png",
+          "submarine.png",
+          "torch.png"
+        ],
+        "ReiterationAudioName": "submarine.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "Which fish generates its own light?",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Which_fish_generates_its_own_light.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "sting_ray.png",
+          "flashlight_fish.png",
+          "crab.png",
+          "dolphin.png"
+        ],
+        "ReiterationAudioName": "flashlight_fish.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "black_swallower.png",
+        "QuestionAudioName": "Which_body_part_is_big_for_the_black_swallower.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 4,
+        "Options": [
+          "eyes",
+          "tail",
+          "mouth",
+          "stomach"
+        ],
+        "ReiterationAudioName": "stomach.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "4"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the angler fish",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Identify_the_angler_fish.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "angler_fish.png",
+          "jelly_fish.png",
+          "whale.png",
+          "shark.png"
+        ],
+        "ReiterationAudioName": "angler_fish.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "fangtooth fish",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Select_the_fangtooth_fish.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "seahorse.png",
+          "flashlight_fish.png",
+          "fangtooth_fish.png",
+          "black_swallower2.png"
+        ],
+        "ReiterationAudioName": "fangtooth_fish.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "nevermind,tryagain.mp3",
+        "CorrectAnswer": "3"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "blue ringed octopus",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Choose_the_blue_ringed_octopus.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "pink_octopus.png",
+          "blue_ringed_octopus.png",
+          "purple_octopus.png",
+          "orange_octopus.png"
+        ],
+        "ReiterationAudioName": "blue_ringed_octopus.mp3",
+        "CorrectAudioName": "INCREDIBLE.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "2000",
+        "IsQuestionText": true,
+        "QuestionText": "These look like plants but are a large set of small organisms",
+        "QuestionImageName": "",
+        "QuestionAudioName": "These_look_like_plants_but_are_a_large_set_of_small_organisms.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 4,
+        "Options": [
+          "coral.png",
+          "starfish.png",
+          "viperfish.png",
+          "seaturtle.png"
+        ],
+        "ReiterationAudioName": "corals.mp3",
+        "CorrectAudioName": "MAGNIFICENT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

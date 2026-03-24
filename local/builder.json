@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\EYFS\\Deep_Sea_Creatures",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

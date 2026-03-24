@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "deepsea_creatures",
+    "texture": "720d2f9a-7005-4cf1-8eb3-227e7912bf79",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      509,
+      192
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      515,
+      209
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
