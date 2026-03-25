@@ -16,13 +16,13 @@
       "QuestionImageName": "Asset 8.png",
       "QuestionAudioName": "tap on the missing blend.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 4,
       "Options": [
-        "Asset 1.png",
-        "Asset 7 (1).png",
-        "Asset 6.png",
-        "Asset 4 (1).png"
+        "gl",
+        "pl",
+        "cl",
+        "fl"
       ],
       "ReiterationAudioName": "GL.mp3",
       "CorrectAudioName": "EXCELLENTJOB.mp3",
@@ -56,13 +56,13 @@
       "QuestionImageName": "Asset 9.png",
       "QuestionAudioName": "tap on the missing blend.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 4,
       "Options": [
-        "Asset 4 (1).png",
-        "Asset 6.png",
-        "Asset 1.png",
-        "Asset 7 (1).png"
+        "fl",
+        "cl",
+        "gl",
+        "pl"
       ],
       "ReiterationAudioName": "GL.mp3",
       "CorrectAudioName": "GOODEFFORT.mp3",

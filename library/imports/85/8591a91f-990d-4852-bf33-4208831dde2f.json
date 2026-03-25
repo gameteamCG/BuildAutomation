@@ -2712,8 +2712,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 50,
+    "_lineHeight": 60,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -2726,7 +2726,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "c4FWyPnJdHkLyBTeyCl4db"
   },
@@ -3283,8 +3283,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 50,
+    "_lineHeight": 60,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -3297,7 +3297,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "65EQ/zQlpCBptJQnNxxHSj"
   },
@@ -3854,8 +3854,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 50,
+    "_lineHeight": 60,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -3868,7 +3868,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "d1EHtBD8JJ26pT0/mHwrp3"
   },
@@ -4425,8 +4425,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 50,
+    "_lineHeight": 60,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -4439,7 +4439,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "bf0SeWWkdO+YGv32ov5zZN"
   },
@@ -7967,8 +7967,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1172,
-      "height": 222
+      "width": 536,
+      "height": 113
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7986,8 +7986,8 @@
         0,
         0,
         1,
-        0.875,
-        0.875,
+        1.3,
+        1.3,
         0.875
       ]
     },
@@ -8023,7 +8023,7 @@
       "__uuid__": "98d13250-d21d-430f-a10e-c42065130ab2"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -8032,7 +8032,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "a3BNH9XFFIFqgrSuvEXY92"
   },
