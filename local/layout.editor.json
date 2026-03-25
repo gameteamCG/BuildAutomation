@@ -5,10 +5,10 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -8,
-      "y": -8,
-      "width": 1552,
-      "height": 832,
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 816,
       "layout": {
         "type": "dock-h",
         "children": [
@@ -53,7 +53,7 @@
               },
               {
                 "width": 806,
-                "height": 355.3000183105469,
+                "height": 355.2875061035156,
                 "type": "panel",
                 "active": 2,
                 "children": [
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1773122311117": {}
+    "window-1774422849971": {}
   },
   "panels": {
     "project-settings": {

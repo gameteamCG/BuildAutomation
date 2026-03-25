@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "स्वर - आ",
-      "totalLevel": "7",
+      "totalLevel": "6",
       "TitleImageName": "GameTitle.png",
       "introBgName": "LkgIntro.png",
       "bgmMusicName": "BG_BB.mp3",
@@ -54,27 +54,6 @@
         "rightoptions": [
           "aag.png",
           "1_w.png"
-        ]
-      },
-      {
-        "questionText": "आ",
-        "questionAudioName": "QVO.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonLeftOptionImageName": "leftOptionBg.png",
-        "isLeftOptionText": true,
-        "numberOfLeftOptions": 1,
-        "leftoptions": [
-          "आ"
-        ],
-        "reiterations": [
-          "aina_vo.mp3"
-        ],
-        "commonRightOptionImageName": "rightOptionBg.png",
-        "isRightOptionText": false,
-        "numberOfRightOptions": 2,
-        "rightoptions": [
-          "aina.png",
-          "3_w.png"
         ]
       },
       {
