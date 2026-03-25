@@ -1349,7 +1349,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "f0d4fdf3-4e91-4d41-98e7-3236a0eb2303"
+      "__uuid__": "8d2c487d-371b-44bb-9f91-ac77ba8843a2"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -1499,7 +1499,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -12,
+        0,
         -12.423,
         0,
         0,
@@ -1591,7 +1591,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -12,
+        0,
         -12.423,
         0,
         0,
@@ -2859,8 +2859,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 554,
-      "height": 348
+      "width": 399,
+      "height": 250
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2872,7 +2872,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        426.796,
+        355.839,
         0,
         0,
         0,
@@ -2936,8 +2936,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        253.985,
-        -141.316,
+        183.028,
+        -102.404,
         0,
         0,
         0,
@@ -2977,7 +2977,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "e877cb58-9b14-455e-9468-16c38a450c89"
+      "__uuid__": "3c8e2d4c-fc9c-40ab-9d6a-bf6bd52a8f3d"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -3095,14 +3095,14 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 66,
-      "g": 33,
-      "b": 11,
+      "r": 119,
+      "g": 19,
+      "b": 19,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 140.35,
+      "width": 149.88,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -3115,7 +3115,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -108.851,
+        -56.205,
         0,
         0,
         0,
@@ -3154,13 +3154,13 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Letter Tt",
-    "_N$string": "Letter Tt",
+    "_string": "Blend - sp",
+    "_N$string": "Blend - sp",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "a8e0e12d-4280-49dd-9536-e743a7c35fc1"
+      "__uuid__": "635aa15e-6006-436f-a562-93153e65f6e3"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -3190,7 +3190,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "f4feba5c-e7cc-4501-9b0b-40b3446fe32f"
+      "__uuid__": "196a4731-8a57-4de0-a0f9-4bd603cf0781"
     },
     "_type": 0,
     "_sizeMode": 1,

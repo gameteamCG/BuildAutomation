@@ -1,11 +1,4 @@
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -51,11 +44,15 @@ export default class Gameplay extends cc.Component {
 
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
+    answerString: string[] = [];
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
         // this.options = this.node.getChildByName(this.optionsLayout);
         // this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
+        this.answerString = ["Spoon", "Spin", "Sports", "Spa", "Space", "Spill", "Spade"];
+        this.node.getChildByName("qBar").zIndex = 20;
+        this.node.getChildByName("confetti").zIndex = 20;
     }
 
     LoadQuestion() {
@@ -330,6 +327,7 @@ export default class Gameplay extends cc.Component {
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
                 .call(() => {
+                    this.node.getChildByName("qBar").children[1].getComponent(cc.Label).string = this.answerString[startGame.Instance.currentLevel - 1];
                     if (this.reiterationAudio[audioNum]) {
                         cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
                     }
@@ -400,6 +398,7 @@ export default class Gameplay extends cc.Component {
             this.scheduleOnce(() => {
                 _clone.getComponent(cc.Animation).stop();
                 _clone.angle = 0;
+                this.node.getChildByName("qBar").children[1].getComponent(cc.Label).string = this.answerString[startGame.Instance.currentLevel - 1];
                 if (this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
                 }
@@ -468,6 +467,7 @@ export default class Gameplay extends cc.Component {
             cc.tween(_clone.children[3])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
                 .call(() => {
+                    this.node.getChildByName("qBar").children[1].getComponent(cc.Label).string = this.answerString[startGame.Instance.currentLevel - 1];
                     if (this.reiterationAudio[audioNum]) {
                         cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
                     }

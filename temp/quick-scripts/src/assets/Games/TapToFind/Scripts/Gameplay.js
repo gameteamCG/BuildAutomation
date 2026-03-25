@@ -3,12 +3,6 @@ cc._RF.push(module, 'a9a049SRptFP5H77C66Ty44', 'Gameplay');
 // Games/TapToFind/Scripts/Gameplay.ts
 
 "use strict";
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -29,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
@@ -57,12 +51,16 @@ var Gameplay = /** @class */ (function (_super) {
         _this.reiterationAudio = [];
         _this.currentJockey = null;
         _this.maxLevel = 0;
+        _this.answerString = [];
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
     Gameplay.prototype.onLoad = function () {
         // this.options = this.node.getChildByName(this.optionsLayout);
         // this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
+        this.answerString = ["Spoon", "Spin", "Sports", "Spa", "Space", "Spill", "Spade"];
+        this.node.getChildByName("qBar").zIndex = 20;
+        this.node.getChildByName("confetti").zIndex = 20;
     };
     Gameplay.prototype.LoadQuestion = function () {
         var _this = this;
@@ -348,6 +346,7 @@ var Gameplay = /** @class */ (function (_super) {
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
+                _this.node.getChildByName("qBar").children[1].getComponent(cc.Label).string = _this.answerString[StartGame_1.default.Instance.currentLevel - 1];
                 if (_this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
                 }
@@ -416,6 +415,7 @@ var Gameplay = /** @class */ (function (_super) {
             this.scheduleOnce(function () {
                 _clone_1.getComponent(cc.Animation).stop();
                 _clone_1.angle = 0;
+                _this.node.getChildByName("qBar").children[1].getComponent(cc.Label).string = _this.answerString[StartGame_1.default.Instance.currentLevel - 1];
                 if (_this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
                 }
@@ -483,6 +483,7 @@ var Gameplay = /** @class */ (function (_super) {
             cc.tween(_clone.children[3])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
                 .call(function () {
+                _this.node.getChildByName("qBar").children[1].getComponent(cc.Label).string = _this.answerString[StartGame_1.default.Instance.currentLevel - 1];
                 if (_this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
                 }
