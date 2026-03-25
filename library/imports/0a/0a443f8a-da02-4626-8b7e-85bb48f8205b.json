@@ -53,7 +53,7 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "What did the brown goat need to do cross to reach the other side?",
+        "QuestionText": "What did the brown goat need to cross to reach to the other side?",
         "QuestionImageName": "",
         "QuestionAudioName": "Q3.mp3",
         "PlayQuestionAudio": true,

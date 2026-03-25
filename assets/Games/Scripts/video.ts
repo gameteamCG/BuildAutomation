@@ -436,7 +436,7 @@ export default class video extends cc.Component {
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.correctSound, false);
             if (this.currentQuestion == 7) {
-                if (_event.target.children[1].getComponent(cc.Label).string == "no") {
+                if (_event.target.children[0].getComponent(cc.Sprite).spriteFrame.name == "14") {
                     cc.audioEngine.playEffect(this.Intro, false);
                 }
                 else {
