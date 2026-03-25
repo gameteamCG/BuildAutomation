@@ -3906,7 +3906,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 194.65,
+      "width": 211.88,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -3958,8 +3958,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Blends pl",
-    "_N$string": "Blends pl",
+    "_string": "Blend - pl",
+    "_N$string": "Blend - pl",
     "_fontSize": 60,
     "_lineHeight": 80,
     "_enableWrapText": true,
