@@ -109,18 +109,17 @@ var video = /** @class */ (function (_super) {
     }
     // LIFE-CYCLE CALLBACKS:
     video.prototype.onLoad = function () {
-        var _this = this;
         this.UpdateQuestions();
         this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).active = true;
-        this.scheduleOnce(function () {
-            for (var i = 0; i < _this.questions.length; i++) {
-                _this.timers[i] = _this.questions[i].questionTime;
-                console.log("question timer = ", _this.timers[i]);
-                _this.totalQuestions++;
-                _this.questionAppeared[i] = false;
-                _this.answeredQuestion[i] = false;
-            }
-        }, 1);
+        for (var i = 0; i < this.questions.length; i++) {
+            this.timers[i] = this.questions[i].questionTime;
+            console.log("question timer = ", this.timers[i]);
+            this.totalQuestions++;
+            this.questionAppeared[i] = false;
+            this.answeredQuestion[i] = false;
+        }
+        // this.scheduleOnce(() => {
+        // }, 1);
         this.slider.children[2].on("touchstart", function () {
             this.isSliding = false;
             this.isOnSlider = true;
@@ -280,8 +279,17 @@ var video = /** @class */ (function (_super) {
         }
     };
     video.prototype.start = function () {
-        this.playVideo1();
-        console.log("starsEarned--1");
+        var _this = this;
+        // this.playVideo1();
+        this.scheduleOnce(function () {
+            _this.gameStarted = true;
+            _this.checkOnMissingQuestions();
+            console.log("starsEarned--2");
+            console.log("video completed");
+            _this.tools.active = false;
+            _this.videoCompleted = true;
+            console.log("starsEarned--1");
+        }, 0.2);
         for (var i = 2; i <= StartGame_1.default.Instance.questions.length; i++) {
             var star = cc.instantiate(this.starsPanel.children[0]);
             star.parent = this.starsPanel;

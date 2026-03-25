@@ -111,15 +111,16 @@ export default class video extends cc.Component {
     onLoad() {
         this.UpdateQuestions();
         this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).active = true;
-        this.scheduleOnce(() => {
-            for (let i = 0; i < this.questions.length; i++) {
-                this.timers[i] = this.questions[i].questionTime;
-                console.log("question timer = ", this.timers[i]);
-                this.totalQuestions++;
-                this.questionAppeared[i] = false;
-                this.answeredQuestion[i] = false;
-            }
-        }, 1);
+        for (let i = 0; i < this.questions.length; i++) {
+            this.timers[i] = this.questions[i].questionTime;
+            console.log("question timer = ", this.timers[i]);
+            this.totalQuestions++;
+            this.questionAppeared[i] = false;
+            this.answeredQuestion[i] = false;
+        }
+        // this.scheduleOnce(() => {
+
+        // }, 1);
         this.slider.children[2].on("touchstart", function () {
             this.isSliding = false;
             this.isOnSlider = true;
@@ -277,8 +278,16 @@ export default class video extends cc.Component {
     }
 
     start() {
-        this.playVideo1();
-        console.log("starsEarned--1");
+        // this.playVideo1();
+        this.scheduleOnce(() => {
+            this.gameStarted = true;
+            this.checkOnMissingQuestions();
+            console.log("starsEarned--2");
+            console.log("video completed");
+            this.tools.active = false;
+            this.videoCompleted = true;
+            console.log("starsEarned--1");
+        }, 0.2);
         for (let i = 2; i <= startGame.Instance.questions.length; i++) {
             let star = cc.instantiate(this.starsPanel.children[0]);
             star.parent = this.starsPanel;
