@@ -2,7 +2,7 @@
   "additionalData": {
     "GameID": "blend sound br",
     "totalLevel": "6",
-    "TitleImageName": "Asset 175 (1).png",
+    "TitleImageName": "Asset 61 (6).png",
     "introBgName": "Asset 10.png",
     "bgmMusicName": "BGM.mp3",
     "mainBgName": "bg (3).png",
@@ -10,8 +10,8 @@
   },
   "questionData": [
     {
-      "questionText": "Blends - br",
-      "questionImageName": "brain.png",
+      "questionText": "Blend - br",
+      "questionImageName": "new_brain.png",
       "questionAudioName": "Look at the picture and tap on the correct blend word.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "panel (1).png",
@@ -25,8 +25,8 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Blends - br",
-      "questionImageName": "bread.png",
+      "questionText": "Blend - br",
+      "questionImageName": "new_bread.png",
       "questionAudioName": "Look at the picture and tap on the correct blend word.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "panel.png",
@@ -40,8 +40,8 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Blends - br",
-      "questionImageName": "bricks.png",
+      "questionText": "Blend - br",
+      "questionImageName": "new_bricks.png",
       "questionAudioName": "Look at the picture and tap on the correct blend word.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "panel.png",
@@ -55,8 +55,8 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Blends - br",
-      "questionImageName": "Broccoli.png",
+      "questionText": "Blend - br",
+      "questionImageName": "new_broccoli.png",
       "questionAudioName": "Look at the picture and tap on the correct blend word.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "panel.png",
@@ -70,8 +70,8 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Blends - br",
-      "questionImageName": "broom.png",
+      "questionText": "Blend - br",
+      "questionImageName": "new_broom.png",
       "questionAudioName": "Look at the picture and tap on the correct blend word.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "panel.png",
@@ -85,8 +85,8 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Blends - br",
-      "questionImageName": "brush.png",
+      "questionText": "Blend - br",
+      "questionImageName": "new_brush.png",
       "questionAudioName": "Look at the picture and tap on the correct blend word.mp3",
       "shouldPlayQuestionAudio": false,
       "commonOptionImageName": "panel.png",
