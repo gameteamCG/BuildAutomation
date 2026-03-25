@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_blanketimg",
+    "texture": "97af2358-7047-4f47-a0e2-f0495522a84a",
+    "atlas": "",
+    "rect": [
+      46,
+      97,
+      408,
+      324
+    ],
+    "offset": [
+      -0.5,
+      -8.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
