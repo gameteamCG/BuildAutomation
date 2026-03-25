@@ -539,7 +539,7 @@ export default class NewClass extends cc.Component {
                     }, 1);
                 }, 1.5);
             }, 0.7);
-        }, 0.5);
+        }, this.correctAudio.duration);
     }
 
 

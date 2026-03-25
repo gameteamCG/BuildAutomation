@@ -498,7 +498,7 @@ var NewClass = /** @class */ (function (_super) {
                     }, 1);
                 }, 1.5);
             }, 0.7);
-        }, 0.5);
+        }, this.correctAudio.duration);
     };
     NewClass.prototype.callJockey = function () {
         var _this = this;
