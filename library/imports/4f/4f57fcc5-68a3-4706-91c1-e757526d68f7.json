@@ -7,7 +7,7 @@
     "AdditionalData": {
       "GameID": "Blends - sl_UKG_SB3_7",
       "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/SL.9044mp4_1714037439292.mp4",
-      "TitleImageName": "Blend Sound _sl_.png",
+      "TitleImageName": "Asset 184.png",
       "IntroAudio1Name": "",
       "IntroAudio2Name": "",
       "JockeyName": "puzzle",
@@ -19,7 +19,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "sloth.png",
-        "QuestionAudioName": "identifythepicturefortheword.mp3",
+        "QuestionAudioName": "9080297_1_identify-the-picture-f.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -27,7 +27,7 @@
           "monkey.png",
           "sloth(1).png"
         ],
-        "ReiterationAudioName": "Sloth.mp3",
+        "ReiterationAudioName": "9080297_2_sloth.mp3",
         "CorrectAudioName": "BRILLIANT.mp3",
         "WrongAudioName": "ohoh.mp3",
         "CorrectAnswer": "2"
@@ -37,7 +37,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "slide.png",
-        "QuestionAudioName": "choosethemissingblend.mp3",
+        "QuestionAudioName": "9080297_3_choose-the-missing-ble.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -45,7 +45,7 @@
           "sl_.png",
           "gl_.png"
         ],
-        "ReiterationAudioName": "SL(1).mp3",
+        "ReiterationAudioName": "9080297_4_slide.mp3",
         "CorrectAudioName": "EXCELLENTJOB.mp3",
         "WrongAudioName": "Oopsietryoncemore.mp3",
         "CorrectAnswer": "1"
@@ -55,7 +55,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "sleigh.png",
-        "QuestionAudioName": "Thesleighisonthedash.mp3",
+        "QuestionAudioName": "9080297_5_the-sleigh-is-on-the-d.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -63,7 +63,7 @@
           "slug_.png",
           "slope_.png"
         ],
-        "ReiterationAudioName": "Slope.mp3",
+        "ReiterationAudioName": "9080297_6_slope.mp3",
         "CorrectAudioName": "EXCEPTIONAL.mp3",
         "WrongAudioName": "nevermind,tryagain.mp3",
         "CorrectAnswer": "2"
@@ -73,7 +73,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "slushimg.png",
-        "QuestionAudioName": "Slimboyisdrinkingdash.mp3",
+        "QuestionAudioName": "9080297_7_slim-boy-is-drinking-d.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -81,7 +81,7 @@
           "slush_.png",
           "slit_.png"
         ],
-        "ReiterationAudioName": "Slush.mp3",
+        "ReiterationAudioName": "9080297_8_slush.mp3",
         "CorrectAudioName": "GOODEFFORT.mp3",
         "WrongAudioName": "Oopsietryoncemore.mp3",
         "CorrectAnswer": "1"
