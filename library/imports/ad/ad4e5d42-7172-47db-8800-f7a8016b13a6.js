@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -81,6 +81,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.positionArray = [];
         _this.isDone = [];
         _this.isLastTween = false;
+        _this.answerString = [];
         return _this;
     }
     NewClass.prototype.onLoad = function () {
@@ -102,6 +103,7 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
         }
         this.TotalOptions = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions;
+        this.answerString = ["Gloves", "Glass", "Globe", "Glider", "Glue", "Glasses", "Glow"];
         //if (startGame.Instance.optionLayout == "horizontal") {
         //let optionsLayoutNode = cc.instantiate(this.HorizntalOptionNode);
         // optionsLayoutNode.setParent(this.node);
@@ -598,6 +600,7 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         _node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.extraImg;
         //console.log("correctAudio--" + this.correctAudio.name);
+        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerString[globalVariables_1.default.Instance.currentLevel - 1];
         cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
@@ -624,6 +627,7 @@ var NewClass = /** @class */ (function (_super) {
         var voIndex = this.answerArray.indexOf(_node.name);
         switch (StartGame_1.default.Instance.templateType) {
             case "SimpleTap":
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerString[globalVariables_1.default.Instance.currentLevel - 1];
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
@@ -663,6 +667,7 @@ var NewClass = /** @class */ (function (_super) {
                 }, this.correctAudio[voIndex].duration);
                 break;
             case "TapToCollect":
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerString[globalVariables_1.default.Instance.currentLevel - 1];
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 this.scheduleOnce(function () {
                     _this.node.getChildByName("QuestionBox1").zIndex = 1;
@@ -707,6 +712,7 @@ var NewClass = /** @class */ (function (_super) {
                 break;
             case "ObjectsTweenIn":
                 //console.log("answer arrray index : ", this.answerArray.indexOf(_node.name));
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerString[globalVariables_1.default.Instance.currentLevel - 1];
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
