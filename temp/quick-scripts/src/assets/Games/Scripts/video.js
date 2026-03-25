@@ -67,6 +67,7 @@ var video = /** @class */ (function (_super) {
     __extends(video, _super);
     function video() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.initialQvo = null;
         _this.tools = null;
         _this.questionNode = null;
         _this.character = null;
@@ -611,7 +612,11 @@ var video = /** @class */ (function (_super) {
             });
         }
         this.scheduleOnce(function () {
-            cc.audioEngine.playEffect(_this.questions[current].questionAudio, false);
+            //TODO: add initial qvo here
+            cc.audioEngine.playEffect(_this.initialQvo, false);
+            _this.scheduleOnce(function () {
+                cc.audioEngine.playEffect(_this.questions[current].questionAudio, false);
+            }, _this.initialQvo.duration);
             _this.character.getComponent(cc.Animation).play("Idle");
             _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             _this.questionNode.getChildByName("options1").active = true;
@@ -714,6 +719,9 @@ var video = /** @class */ (function (_super) {
             callback(audioClip);
         });
     };
+    __decorate([
+        property(cc.AudioClip)
+    ], video.prototype, "initialQvo", void 0);
     __decorate([
         property(cc.Node)
     ], video.prototype, "tools", void 0);

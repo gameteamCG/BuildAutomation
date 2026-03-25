@@ -40,6 +40,9 @@ class QuestionData {
 @ccclass
 export default class video extends cc.Component {
 
+    @property(cc.AudioClip)
+    public initialQvo: cc.AudioClip = null;
+
     @property(cc.Node)
     tools: cc.Node = null;
     @property(cc.Node)
@@ -620,7 +623,11 @@ export default class video extends cc.Component {
 
 
         this.scheduleOnce(() => {
-            cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+            //TODO: add initial qvo here
+            cc.audioEngine.playEffect(this.initialQvo,false);
+            this.scheduleOnce(() => {
+                cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+            },this.initialQvo.duration);
             this.character.getComponent(cc.Animation).play("Idle");
             this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             this.questionNode.getChildByName("options1").active = true;
