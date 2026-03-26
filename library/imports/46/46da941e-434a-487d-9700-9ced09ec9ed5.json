@@ -16,7 +16,8 @@
     },
     "questionData": [
       {
-        "questionText": "uses of water",
+        "questionText": "Uses of water",
+        "answerText": "Water is used for bathing.",
         "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel(1).png",
@@ -34,7 +35,8 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "uses of water",
+        "questionText": "Uses of water",
+        "answerText": "Water is used for watering plants.",
         "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel(1).png",
@@ -52,7 +54,8 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "uses of water",
+        "questionText": "Uses of water",
+        "answerText": "Water is used for drinking.",
         "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel(1).png",
@@ -70,7 +73,8 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "uses of water",
+        "questionText": "Uses of water",
+        "answerText": "Water is used for washing clothes.",
         "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel(1).png",
@@ -88,7 +92,8 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "uses of water",
+        "questionText": "Uses of water",
+        "answerText": "Water is used for washing hands.",
         "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel(1).png",
@@ -106,7 +111,8 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "uses of water",
+        "questionText": "Uses of water",
+        "answerText": "Water is used in cooking.",
         "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel(1).png",
@@ -124,7 +130,8 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "uses of water",
+        "questionText": "Uses of water",
+        "answerText": "Water is used for brushing teeth.",
         "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel(1).png",
@@ -142,7 +149,8 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "uses of water",
+        "questionText": "Uses of water",
+        "answerText": "Water is used to wash and clean utensils.",
         "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel(1).png",

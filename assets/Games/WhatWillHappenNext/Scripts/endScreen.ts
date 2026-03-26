@@ -34,6 +34,9 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.jockeyName == "supercub") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
         }
+        else if (startGame.Instance.jockeyName == "Puzzle") {
+            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
+        }
         else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
             this.scheduleOnce(() => {
