@@ -150,7 +150,7 @@
       },
       {
         "questionText": "Uses of water",
-        "answerText": "Water is used to wash and clean utensils.",
+        "answerText": "Water is used for cleaning unclean utensils.",
         "questionAudioName": "Identifyandtaponwhatiswaterusedfor.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel(1).png",
