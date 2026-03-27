@@ -58,7 +58,7 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.onLoad = function () {
         // this.options = this.node.getChildByName(this.optionsLayout);
         // this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
-        this.answerString = ["Spoon", "Spin", "Sports", "Spa", "Space", "Spill", "Spade"];
+        this.answerString = ["Spoon", "Spin", "Spider", "Spa", "Sponge", "Spill", "Spade"];
         this.node.getChildByName("qBar").zIndex = 20;
         this.node.getChildByName("confetti").zIndex = 20;
     };
