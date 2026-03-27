@@ -19,7 +19,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "new_blueimg.png",
-        "QuestionAudioName": "Choosethecorrectcolourfortheword(3).mp3",
+        "QuestionAudioName": "9080111_1_choose-the-correct-col.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
@@ -29,7 +29,7 @@
           "new_pink.png",
           "new_yellow.png"
         ],
-        "ReiterationAudioName": "Blue.mp3",
+        "ReiterationAudioName": "9080111_2_blue.mp3",
         "CorrectAudioName": "MAGNIFICENT.mp3",
         "WrongAudioName": "ohoh.mp3",
         "CorrectAnswer": "1"
@@ -39,7 +39,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "new_blanketimg.png",
-        "QuestionAudioName": "Identifythemissingblend(2).mp3",
+        "QuestionAudioName": "9080111_3_identify-the-missing-b.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
@@ -49,7 +49,7 @@
           "new_sm.png",
           "new_sh.png"
         ],
-        "ReiterationAudioName": "blanket.mp3",
+        "ReiterationAudioName": "9080111_4_blanket.mp3",
         "CorrectAudioName": "EXCELLENTJOB.mp3",
         "WrongAudioName": "Oopsietryoncemore.mp3",
         "CorrectAnswer": "2"
@@ -59,7 +59,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "new_black.png",
-        "QuestionAudioName": "Choosethecorrectwordfortheimage(2).mp3",
+        "QuestionAudioName": "9080111_5_choose-the-correct-wor.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
@@ -69,7 +69,7 @@
           "new_greentext.png",
           "new_blacktex.png"
         ],
-        "ReiterationAudioName": "Black.mp3",
+        "ReiterationAudioName": "9080111_6_black.mp3",
         "CorrectAudioName": "EXCEPTIONAL.mp3",
         "WrongAudioName": "nevermind,tryagain.mp3",
         "CorrectAnswer": "4"
@@ -79,7 +79,7 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "new_blockimg.png",
-        "QuestionAudioName": "whatisthis(3).mp3",
+        "QuestionAudioName": "9080111_7_what-is-this.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
@@ -89,7 +89,7 @@
           "new_blockstext.png",
           "new_bloomtext.png"
         ],
-        "ReiterationAudioName": "blocks.mp3",
+        "ReiterationAudioName": "9080111_8_blocks.mp3",
         "CorrectAudioName": "GOODEFFORT.mp3",
         "WrongAudioName": "Oopsietryoncemore.mp3",
         "CorrectAnswer": "3"
