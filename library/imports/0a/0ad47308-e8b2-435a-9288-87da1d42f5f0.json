@@ -17,7 +17,7 @@
       {
         "questionText": "",
         "questionImageName": "dignew.png",
-        "questionAudioName": "Q.mp3",
+        "questionAudioName": "8805885_1_swipe-and-spell-the-wo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "pumpkin2.png",
         "isOptionText": true,
@@ -29,14 +29,14 @@
           "i"
         ],
         "correctAnswer": "dig",
-        "correctAudioName": "dig.mp3",
+        "correctAudioName": "8805885_2_dig.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       },
       {
         "questionText": "",
         "questionImageName": "fig.png",
-        "questionAudioName": "Q.mp3",
+        "questionAudioName": "8805885_1_swipe-and-spell-the-wo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "pumpkin2.png",
         "isOptionText": true,
@@ -48,14 +48,14 @@
           "i"
         ],
         "correctAnswer": "fig",
-        "correctAudioName": "fig.mp3",
+        "correctAudioName": "8805885_3_fig.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       },
       {
         "questionText": "",
         "questionImageName": "wig.png",
-        "questionAudioName": "Q.mp3",
+        "questionAudioName": "8805885_1_swipe-and-spell-the-wo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "pumpkin2.png",
         "isOptionText": true,
@@ -67,14 +67,14 @@
           "g"
         ],
         "correctAnswer": "wig",
-        "correctAudioName": "wig.mp3",
+        "correctAudioName": "8805885_4_wig.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       },
       {
         "questionText": "",
         "questionImageName": "big.png",
-        "questionAudioName": "Q.mp3",
+        "questionAudioName": "8805885_1_swipe-and-spell-the-wo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "pumpkin2.png",
         "isOptionText": true,
@@ -86,14 +86,14 @@
           "i"
         ],
         "correctAnswer": "big",
-        "correctAudioName": "big.mp3",
+        "correctAudioName": "8805885_5_big.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       },
       {
         "questionText": "",
         "questionImageName": "hid.png",
-        "questionAudioName": "Q.mp3",
+        "questionAudioName": "8805885_1_swipe-and-spell-the-wo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "pumpkin2.png",
         "isOptionText": true,
@@ -105,14 +105,14 @@
           "h"
         ],
         "correctAnswer": "hid",
-        "correctAudioName": "hid.mp3",
+        "correctAudioName": "8805885_6_hid.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       },
       {
         "questionText": "",
         "questionImageName": "kid.png",
-        "questionAudioName": "Q.mp3",
+        "questionAudioName": "8805885_1_swipe-and-spell-the-wo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "pumpkin2.png",
         "isOptionText": true,
@@ -124,14 +124,14 @@
           "i"
         ],
         "correctAnswer": "kid",
-        "correctAudioName": "kid.mp3",
+        "correctAudioName": "8805885_7_kid.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       },
       {
         "questionText": "",
         "questionImageName": "lid.png",
-        "questionAudioName": "Q.mp3",
+        "questionAudioName": "8805885_1_swipe-and-spell-the-wo.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "pumpkin2.png",
         "isOptionText": true,
@@ -143,7 +143,7 @@
           "i"
         ],
         "correctAnswer": "lid",
-        "correctAudioName": "lid.mp3",
+        "correctAudioName": "8805885_8_lid.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       }
