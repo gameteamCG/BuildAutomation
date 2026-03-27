@@ -27,7 +27,7 @@
           "monkey.png",
           "sloth(1).png"
         ],
-        "ReiterationAudioName": "9080297_2_sloth.mp3",
+        "ReiterationAudioName": "slawth.mp3",
         "CorrectAudioName": "BRILLIANT.mp3",
         "WrongAudioName": "ohoh.mp3",
         "CorrectAnswer": "2"
@@ -45,7 +45,7 @@
           "sl_.png",
           "gl_.png"
         ],
-        "ReiterationAudioName": "9080297_4_slide.mp3",
+        "ReiterationAudioName": "sl slide.mp3",
         "CorrectAudioName": "EXCELLENTJOB.mp3",
         "WrongAudioName": "Oopsietryoncemore.mp3",
         "CorrectAnswer": "1"
