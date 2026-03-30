@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "save water",
+        "questionText": "Save water",
         "questionAudioName": "Tapandidentifytheactivitywhichcausesairpollution.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "ui.png",
@@ -33,7 +33,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "save water",
+        "questionText": "Save water",
         "questionAudioName": "Tapandidentifytheactivitywhichcausesairpollution.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "ui.png",
@@ -50,7 +50,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "save water",
+        "questionText": "Save water",
         "questionAudioName": "Tapandidentifytheactivitywhichcausesairpollution.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "ui.png",
@@ -67,7 +67,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "save water",
+        "questionText": "Save water",
         "questionAudioName": "Tapandidentifytheactivitywhichcausesairpollution.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "ui.png",
