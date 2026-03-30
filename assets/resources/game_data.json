@@ -1,1 +1,99 @@
-{"additionalData":{"GameID":"Air pollution_UKG_GA_91","totalLevel":"5","TitleImageName":"Asset136.png","introBgName":"bg3.png","bgmMusicName":"BBgmwhatsnext.mp3","mainBgName":"mainbg.png","JockeyName":"Puzzle","templateType":"SimpleTap"},"questionData":[{"questionText":"causes of air pollution","questionAudioName":"Tapandidentifytheactivitywhichcausesairpollution.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"ui.png","isOptionText":false,"isOptionBG":true,"numberOfOptions":2,"options":["burninggarbage.png","platingtrees.png"],"correctAudios":["burninggarbage2.mp3"],"correctAnswerNum":"1"},{"questionText":"causes of air pollution","questionAudioName":"Tapandidentifytheactivitywhichcausesairpollution.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"ui.png","isOptionText":false,"isOptionBG":true,"numberOfOptions":2,"options":["flyingkite.png","wildfires.png"],"correctAudios":["wildfires.mp3"],"correctAnswerNum":"2"},{"questionText":"causes of air pollution","questionAudioName":"Tapandidentifytheactivitywhichcausesairpollution.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"ui.png","isOptionText":false,"isOptionBG":true,"numberOfOptions":2,"options":["industrailsmoke.png","flyingparachute.png"],"correctAudios":["industrialsmoke.mp3"],"correctAnswerNum":"1"},{"questionText":"causes of air pollution","questionAudioName":"Tapandidentifytheactivitywhichcausesairpollution.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"ui.png","isOptionText":false,"isOptionBG":true,"numberOfOptions":2,"options":["cycling.png","smokevechiles.png"],"correctAudios":["smokefromvehicles.mp3"],"correctAnswerNum":"2"},{"questionText":"causes of air pollution","questionAudioName":"Tapandidentifytheactivitywhichcausesairpollution.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"ui.png","isOptionText":false,"isOptionBG":true,"numberOfOptions":2,"options":["chimneysmoke.png","blowingbubbles.png"],"correctAudios":["chimneysmoke.mp3"],"correctAnswerNum":"1"}]}
+{
+    "additionalData": {
+        "GameID": "Air pollution_UKG_GA_91",
+        "totalLevel": "5",
+        "TitleImageName": "Asset136.png",
+        "introBgName": "bg3.png",
+        "bgmMusicName": "BBgmwhatsnext.mp3",
+        "mainBgName": "mainbg.png",
+        "JockeyName": "Puzzle",
+        "templateType": "SimpleTap"
+    },
+    "questionData": [
+        {
+            "questionText": "causes of air pollution",
+            "questionAudioName": "8573648_1_tap-and-identify-the-a.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "ui.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "options": [
+                "burninggarbage.png",
+                "platingtrees.png"
+            ],
+            "correctAudios": [
+                "8573648_2_burning-garbage.mp3"
+            ],
+            "correctAnswerNum": "1"
+        },
+        {
+            "questionText": "causes of air pollution",
+            "questionAudioName": "8573648_1_tap-and-identify-the-a.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "ui.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "options": [
+                "flyingkite.png",
+                "wildfires.png"
+            ],
+            "correctAudios": [
+                "8573648_3_forest-fires.mp3"
+            ],
+            "correctAnswerNum": "2"
+        },
+        {
+            "questionText": "causes of air pollution",
+            "questionAudioName": "8573648_1_tap-and-identify-the-a.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "ui.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "options": [
+                "industrailsmoke.png",
+                "flyingparachute.png"
+            ],
+            "correctAudios": [
+                "8573648_4_industrial-smoke.mp3"
+            ],
+            "correctAnswerNum": "1"
+        },
+        {
+            "questionText": "causes of air pollution",
+            "questionAudioName": "8573648_1_tap-and-identify-the-a.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "ui.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "options": [
+                "cycling.png",
+                "smokevechiles.png"
+            ],
+            "correctAudios": [
+                "8573648_5_smoke-from-vehicles.mp3"
+            ],
+            "correctAnswerNum": "2"
+        },
+        {
+            "questionText": "causes of air pollution",
+            "questionAudioName": "8573648_1_tap-and-identify-the-a.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "ui.png",
+            "isOptionText": false,
+            "isOptionBG": true,
+            "numberOfOptions": 2,
+            "options": [
+                "chimneysmoke.png",
+                "blowingbubbles.png"
+            ],
+            "correctAudios": [
+                "8573648_6_chimney-smoke.mp3"
+            ],
+            "correctAnswerNum": "1"
+        }
+    ]
+}

@@ -17,7 +17,7 @@
     "questionData": [
       {
         "questionText": "causes of air pollution",
-        "questionAudioName": "Tapandidentifytheactivitywhichcausesairpollution.mp3",
+        "questionAudioName": "8573648_1_tap-and-identify-the-a.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "ui.png",
         "isOptionText": false,
@@ -28,13 +28,13 @@
           "platingtrees.png"
         ],
         "correctAudios": [
-          "burninggarbage2.mp3"
+          "8573648_2_burning-garbage.mp3"
         ],
         "correctAnswerNum": "1"
       },
       {
         "questionText": "causes of air pollution",
-        "questionAudioName": "Tapandidentifytheactivitywhichcausesairpollution.mp3",
+        "questionAudioName": "8573648_1_tap-and-identify-the-a.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "ui.png",
         "isOptionText": false,
@@ -45,13 +45,13 @@
           "wildfires.png"
         ],
         "correctAudios": [
-          "wildfires.mp3"
+          "8573648_3_forest-fires.mp3"
         ],
         "correctAnswerNum": "2"
       },
       {
         "questionText": "causes of air pollution",
-        "questionAudioName": "Tapandidentifytheactivitywhichcausesairpollution.mp3",
+        "questionAudioName": "8573648_1_tap-and-identify-the-a.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "ui.png",
         "isOptionText": false,
@@ -62,13 +62,13 @@
           "flyingparachute.png"
         ],
         "correctAudios": [
-          "industrialsmoke.mp3"
+          "8573648_4_industrial-smoke.mp3"
         ],
         "correctAnswerNum": "1"
       },
       {
         "questionText": "causes of air pollution",
-        "questionAudioName": "Tapandidentifytheactivitywhichcausesairpollution.mp3",
+        "questionAudioName": "8573648_1_tap-and-identify-the-a.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "ui.png",
         "isOptionText": false,
@@ -79,13 +79,13 @@
           "smokevechiles.png"
         ],
         "correctAudios": [
-          "smokefromvehicles.mp3"
+          "8573648_5_smoke-from-vehicles.mp3"
         ],
         "correctAnswerNum": "2"
       },
       {
         "questionText": "causes of air pollution",
-        "questionAudioName": "Tapandidentifytheactivitywhichcausesairpollution.mp3",
+        "questionAudioName": "8573648_1_tap-and-identify-the-a.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "ui.png",
         "isOptionText": false,
@@ -96,7 +96,7 @@
           "blowingbubbles.png"
         ],
         "correctAudios": [
-          "chimneysmoke.mp3"
+          "8573648_6_chimney-smoke.mp3"
         ],
         "correctAnswerNum": "1"
       }
