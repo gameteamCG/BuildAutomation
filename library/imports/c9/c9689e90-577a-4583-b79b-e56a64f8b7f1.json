@@ -5,7 +5,7 @@
   "_native": "",
   "json": {
     "additionalData": {
-      "GameID": "Digraph - 'ch'_ukg_sb4_9",
+      "GameID": "Digraph - ‘ch’_ukg_sb4_9",
       "totalLevel": "6",
       "TitleImageName": "Asset116.png",
       "introBgName": "BGTITLE.png",
@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "sound ch",
+        "questionText": "Digraph - ‘ch’",
         "questionImageName": "commonstone.png",
         "questionAudioName": "question1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -36,7 +36,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "sound ch",
+        "questionText": "Digraph - ‘ch’",
         "questionImageName": "commonstone.png",
         "questionAudioName": "question1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -56,7 +56,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "sound ch",
+        "questionText": "Digraph - ‘ch’",
         "questionImageName": "commonstone.png",
         "questionAudioName": "question1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -76,7 +76,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "sound ch",
+        "questionText": "Digraph - ‘ch’",
         "questionImageName": "commonstone.png",
         "questionAudioName": "question1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -96,7 +96,7 @@
         "correctAnswerNum": "4"
       },
       {
-        "questionText": "sound ch",
+        "questionText": "Digraph - ‘ch’",
         "questionImageName": "commonstone.png",
         "questionAudioName": "question1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -116,7 +116,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "sound ch",
+        "questionText": "Digraph - ‘ch’",
         "questionImageName": "commonstone.png",
         "questionAudioName": "question1.mp3",
         "shouldPlayQuestionAudio": true,
