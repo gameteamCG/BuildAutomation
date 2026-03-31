@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cube-gift",
+    "texture": "66f1ee93-9d10-4e7e-8c15-bf9a06c8b0ba",
+    "atlas": "",
+    "rect": [
+      129,
+      72,
+      273,
+      333
+    ],
+    "offset": [
+      15,
+      12
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

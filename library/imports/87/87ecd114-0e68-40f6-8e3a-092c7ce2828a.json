@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Solid Shapes_UKG Course Book 2_87",
-      "totalLevel": "6",
+      "totalLevel": "7",
       "TitleImageName": "Solid_Shapes.png",
       "introBgName": "tlc_bg.png",
       "bgmMusicName": "HappyKidsSnappyMusicalInterlude.mp3",
@@ -34,7 +34,7 @@
         "options": [
           "1_jar.png",
           "2_carrot.png",
-          "6_pyramid_of_giza.png"
+          "sphere-earth.png"
         ]
       },
       {
@@ -45,17 +45,17 @@
         "commonDropNodeImageName": "Asset_4.png",
         "isDropAreaText": false,
         "dropAreas": [
-          "pyramid_1.png",
+          "sphere-1.png",
           "cylinder.png"
         ],
         "reiterationAudios": [
-          "3_pyraid_shaped_toy.mp3",
+          "sphere-moon.mp3",
           "4_cylinder_shaped_soda_c.mp3"
         ],
         "numberOfOptions": 3,
         "isOptionText": false,
         "options": [
-          "3_pyramid toy.png",
+          "sphere-moon.png",
           "4_can.png",
           "11_spinning_top.png"
         ]
@@ -69,17 +69,17 @@
         "isDropAreaText": false,
         "dropAreas": [
           "Artboard_1.png",
-          "pyramid_1.png"
+          "sphere-1.png"
         ],
         "reiterationAudios": [
           "5_Cone_shaped_traffic_cone.mp3",
-          "6_Pyramid_shaped_Giza_pyramid.mp3"
+          "sphere-ball.mp3"
         ],
         "numberOfOptions": 3,
         "isOptionText": false,
         "options": [
           "5_traffic_cone.png",
-          "6_pyramid_of_giza.png",
+          "sphere-ball.png",
           "4_can.png"
         ]
       },
@@ -114,17 +114,17 @@
         "commonDropNodeImageName": "Asset_4.png",
         "isDropAreaText": false,
         "dropAreas": [
-          "pyramid_1.png",
+          "sphere-1.png",
           "cylinder.png"
         ],
         "reiterationAudios": [
-          "24257159_3_pyramid_the_louvre_mus.mp3",
+          "sphere-earth.mp3",
           "24257159_4_cylinder_drum.mp3"
         ],
         "numberOfOptions": 3,
         "isOptionText": false,
         "options": [
-          "9_the_louvre_museum.png",
+          "sphere-earth.png",
           "10_drum.png",
           "5_traffic_cone.png"
         ]
@@ -138,18 +138,41 @@
         "isDropAreaText": false,
         "dropAreas": [
           "Artboard_1.png",
-          "pyramid_1.png"
+          "cube-1.png"
         ],
         "reiterationAudios": [
-          "24257159_5_cone_spinning_top.mp3",
-          "24257159_6_pyramid_pyramid_shaped.mp3"
+          "cone-icecream.mp3",
+          "cube-rubiks.mp3"
         ],
         "numberOfOptions": 3,
         "isOptionText": false,
         "options": [
-          "11_spinning_top.png",
-          "12_pyramid_shape.png",
+          "cone-icecream.png",
+          "cube-rubiks.png",
           "1_jar.png"
+        ]
+      },
+      {
+        "questionText": "Solid shapes",
+        "questionAudioName": "Q_Match_the_object_to_the_correct_shape.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "Asset_4.png",
+        "commonDropNodeImageName": "Asset_4.png",
+        "isDropAreaText": false,
+        "dropAreas": [
+          "cube-1.png",
+          "cylinder.png"
+        ],
+        "reiterationAudios": [
+          "cube-gift-box.mp3",
+          "24257159_4_cylinder_drum.mp3"
+        ],
+        "numberOfOptions": 3,
+        "isOptionText": false,
+        "options": [
+          "cube-gift.png",
+          "10_drum.png",
+          "5_traffic_cone.png"
         ]
       }
     ]

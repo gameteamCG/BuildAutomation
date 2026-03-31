@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cube-rubiks",
+    "texture": "df051fae-46ec-4144-9ce3-05057f3db2f4",
+    "atlas": "",
+    "rect": [
+      105,
+      99,
+      292,
+      302
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

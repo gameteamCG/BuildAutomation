@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cone-icecream",
+    "texture": "dcad5eea-7a02-41e5-910f-c1e2406b2e88",
+    "atlas": "",
+    "rect": [
+      160,
+      77,
+      181,
+      347
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

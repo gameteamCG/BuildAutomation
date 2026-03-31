@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sphere-earth",
+    "texture": "cd039df5-f582-4686-9f4f-9abb3c9eefd5",
+    "atlas": "",
+    "rect": [
+      52,
+      52,
+      403,
+      403
+    ],
+    "offset": [
+      3,
+      -3
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
