@@ -151,9 +151,9 @@ export default class GamePlay extends cc.Component {
 
     StartGame() {
         this.LoadJsonData();
-        this.questionNode.setPosition(-60, this.questionNode.y);
+        this.questionNode.setPosition(-30, this.questionNode.y);
         this.Ypos = this.questionNode.getPosition().y;
-        this.questionNode.setPosition(-60, 1800);
+        this.questionNode.setPosition(-30, 400);
         this.scheduleOnce(() => {
             this.initialVO = globalVariables.Instance.initialVO;
             if (this.initialVO) {
@@ -177,7 +177,14 @@ export default class GamePlay extends cc.Component {
         }, 1);
     }
 
+    playButtonSound(event: cc.Event) {
 
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.initialVO, false);
+        this.scheduleOnce(() => {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.initialVO.duration)
+    }
     // update (dt) {}
 
     addDrawing() {
@@ -244,7 +251,7 @@ export default class GamePlay extends cc.Component {
                 .to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
             cc.tween(this.node.getChildByName("image")).to(0.5, { scale: 0 }, { easing: "sineInOut" })
                 .to(0.5, { scale: 0.75 }, { easing: "sineInOut" }).start();
-            cc.tween(this.questionNode).to(0.5, { y: this.Ypos }, { easing: "sineInOut" }).start();
+            //cc.tween(this.questionNode).to(0.5, { y: this.Ypos }, { easing: "sineInOut" }).start();
 
             if (this.currentLevel < this.totalLevels) {
                 console.log("levelStarted--" + (this.currentLevel + 1));

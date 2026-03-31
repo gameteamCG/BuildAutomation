@@ -163,9 +163,9 @@ var GamePlay = /** @class */ (function (_super) {
     GamePlay.prototype.StartGame = function () {
         var _this = this;
         this.LoadJsonData();
-        this.questionNode.setPosition(-60, this.questionNode.y);
+        this.questionNode.setPosition(-30, this.questionNode.y);
         this.Ypos = this.questionNode.getPosition().y;
-        this.questionNode.setPosition(-60, 1800);
+        this.questionNode.setPosition(-30, 400);
         this.scheduleOnce(function () {
             _this.initialVO = globalVariables_1.default.Instance.initialVO;
             if (_this.initialVO) {
@@ -185,6 +185,13 @@ var GamePlay = /** @class */ (function (_super) {
             _this.hand.opacity = 0;
             _this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
         }, 1);
+    };
+    GamePlay.prototype.playButtonSound = function (event) {
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.initialVO, false);
+        this.scheduleOnce(function () {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.initialVO.duration);
     };
     // update (dt) {}
     GamePlay.prototype.addDrawing = function () {
@@ -246,7 +253,7 @@ var GamePlay = /** @class */ (function (_super) {
                 .to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
             cc.tween(_this.node.getChildByName("image")).to(0.5, { scale: 0 }, { easing: "sineInOut" })
                 .to(0.5, { scale: 0.75 }, { easing: "sineInOut" }).start();
-            cc.tween(_this.questionNode).to(0.5, { y: _this.Ypos }, { easing: "sineInOut" }).start();
+            //cc.tween(this.questionNode).to(0.5, { y: this.Ypos }, { easing: "sineInOut" }).start();
             if (_this.currentLevel < _this.totalLevels) {
                 console.log("levelStarted--" + (_this.currentLevel + 1));
                 cc.audioEngine.stopAllEffects();
