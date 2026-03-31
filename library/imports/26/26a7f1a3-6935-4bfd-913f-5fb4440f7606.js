@@ -54,6 +54,7 @@ var GamePlay = /** @class */ (function (_super) {
         _this.currentDrawing = null;
         _this.questionNode = null;
         _this.hand = null;
+        _this.base = null;
         _this.podar_font = null;
         _this.jaipuria_font = null;
         _this.tlc_font = null;
@@ -245,7 +246,9 @@ var GamePlay = /** @class */ (function (_super) {
             duration = this.reiteration_Audio[this.currentLevel - 1].duration;
             console.log("correctAnswer--" + (this.currentLevel));
             console.log("levelComplete--" + (this.currentLevel));
+            this.base.opacity = 0;
         }
+        //this.persistentScrollNode.getChildByName("base").active = false;
         this.hand.opacity = 0;
         this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
         this.scheduleOnce(function () {
@@ -315,6 +318,9 @@ var GamePlay = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], GamePlay.prototype, "hand", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamePlay.prototype, "base", void 0);
     __decorate([
         property(cc.Font)
     ], GamePlay.prototype, "podar_font", void 0);

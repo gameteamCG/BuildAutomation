@@ -32,6 +32,8 @@ export default class GamePlay extends cc.Component {
     questionNode: cc.Node = null;
     @property(cc.Node)
     hand: cc.Node = null;
+    @property(cc.Node)
+    base: cc.Node = null;
 
     @property(cc.Font)
     private podar_font: cc.Font = null;
@@ -242,8 +244,11 @@ export default class GamePlay extends cc.Component {
             duration = this.reiteration_Audio[this.currentLevel - 1].duration;
             console.log("correctAnswer--" + (this.currentLevel))
             console.log("levelComplete--" + (this.currentLevel));
+            this.base.opacity = 0;
         }
+        //this.persistentScrollNode.getChildByName("base").active = false;
         this.hand.opacity = 0;
+
         this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
 
         this.scheduleOnce(() => {
