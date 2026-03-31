@@ -1,7 +1,7 @@
 {
   "additionalData": {
     "GameID": "Tens and Ones 41 to 50_lkg_sb5_45",
-    "totalLevel": "6",
+    "totalLevel": "7",
     "TitleImageName": "tns.png",
     "introBgName": "UKG.png",
     "bgmMusicName": "okBG.mp3",
@@ -25,19 +25,19 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "When you have to talk in front of the entire class.",
-      "questionImageName": "Q2.png",
-      "questionAudioName": "9037064_3_choose-the-correct-emo.mp3",
+      "questionText": "When your pet is sick.",
+      "questionImageName": "new6.png",
+      "questionAudioName": "new_9152779_1_choose-the-emotion-you.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "sm2.png",
       "isOptionText": false,
       "numberOfOptions": 2,
       "options": [
-        "new_sad.png",
-        "new_nervous.png"
+        "neww2 (2).png",
+        "neww1 (2).png"
       ],
-      "correctAudioName": "9037064_4_nervous.mp3",
-      "correctAnswerNum": "2"
+      "correctAudioName": "new_9152779_2_sad.mp3",
+      "correctAnswerNum": "1"
     },
     {
       "questionText": "When its your birthday party celebration with your friends.",
@@ -70,15 +70,15 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "When your being chased by an angry dog.",
-      "questionImageName": "Q5.png",
-      "questionAudioName": "9037064_9_choose-the-correct-emo.mp3",
+      "questionText": "When you lost your way home.",
+      "questionImageName": "new5.png",
+      "questionAudioName": "new9152779_3_choose-the-emotion-you.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "sm2.png",
       "isOptionText": false,
       "numberOfOptions": 2,
       "options": [
-        "new_scared.png",
+        "neww3 (2).png",
         "new_happy.png"
       ],
       "correctAudioName": "9037064_10_scared.mp3",
@@ -98,6 +98,21 @@
       ],
       "correctAudioName": "9037064_12_impatient.mp3",
       "correctAnswerNum": "1"
+    },
+    {
+      "questionText": "When someone takes your toys.",
+      "questionImageName": "neww4 (2).png",
+      "questionAudioName": "9037064_11_choose-the-correct-emo.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonOptionImageName": "sm2.png",
+      "isOptionText": false,
+      "numberOfOptions": 2,
+      "options": [
+        "new_excited.png",
+        "neww1 (2).png"
+      ],
+      "correctAudioName": "new_9152779_6_angry.mp3",
+      "correctAnswerNum": "2"
     }
   ]
 }

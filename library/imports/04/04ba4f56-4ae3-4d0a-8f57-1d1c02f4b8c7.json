@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "neww2 (2)",
+    "texture": "5ba0fd62-4d65-4b57-bbb6-2ae7ee3aa355",
+    "atlas": "",
+    "rect": [
+      35,
+      3,
+      431,
+      493
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
