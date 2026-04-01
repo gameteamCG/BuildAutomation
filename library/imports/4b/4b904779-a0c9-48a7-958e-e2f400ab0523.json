@@ -96,7 +96,7 @@
       {
         "questionLayout": "layout3",
         "questionBgName": "bg2.png",
-        "questionAudioName": "tapontheobjectswithlettersoundxxx.mp3",
+        "questionAudioName": "object-2.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 5,
