@@ -32,7 +32,7 @@
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 752,
+                    "width": 611.9874877929688,
                     "height": 445.6000061035156,
                     "type": "panel",
                     "active": 0,
@@ -41,7 +41,7 @@
                     ]
                   },
                   {
-                    "width": 253,
+                    "width": 393,
                     "height": 445.6000061035156,
                     "type": "panel",
                     "active": 0,
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
+        "assets",
         "console",
         "timeline",
         "game-window",
@@ -88,8 +88,7 @@
         "cocos-services",
         "node-library"
       ]
-    },
-    " common-asset-worker-worker": {}
+    }
   },
   "panels": {
     "project-settings": {
