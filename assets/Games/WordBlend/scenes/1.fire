@@ -4002,8 +4002,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 0,
-    "transition": 0,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -4059,10 +4059,12 @@
   },
   {
     "__type__": "cc.ClickEvent",
-    "target": null,
+    "target": {
+      "__id__": 5
+    },
     "component": "",
-    "_componentId": "",
-    "handler": "",
+    "_componentId": "b0b0c1F+W1KLotXneaw3WMc",
+    "handler": "playButtonSound",
     "customEventData": ""
   },
   {
@@ -4083,14 +4085,14 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 66,
-      "g": 17,
-      "b": 11,
+      "r": 100,
+      "g": 37,
+      "b": 37,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 338.79,
+      "width": 175.3,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -4142,9 +4144,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Rhyming words: long vowel",
-    "_N$string": "Rhyming words: long vowel",
-    "_fontSize": 35,
+    "_string": "Blend  str'",
+    "_N$string": "Blend  str'",
+    "_fontSize": 45,
     "_lineHeight": 80,
     "_enableWrapText": true,
     "_N$file": {
@@ -4170,7 +4172,7 @@
       "__id__": 82
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 90
@@ -4199,8 +4201,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -79.504,
-        -54.303,
+        18.103,
+        -57.768,
         0,
         0,
         0,

@@ -147,7 +147,7 @@ var NewClass = /** @class */ (function (_super) {
             cc.director.preloadScene("GameEnd");
         }
         else {
-            cc.director.preloadScene((this.currScene + 1).toString());
+            cc.director.preloadScene("1");
         }
         StartGame_1.default.Instance.clickEvent = false;
         var canvas = cc.find("Canvas");
@@ -641,23 +641,16 @@ var NewClass = /** @class */ (function (_super) {
                 .start();
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
-                // cc.audioEngine.playEffect(this.puzzleVoIteration, false);
                 cc.audioEngine.playEffect(_this.wordVoQuestion, false);
-                _this.scheduleOnce(function () {
-                    _this.options.color = cc.Color.WHITE;
-                    // this.wordAppear();
-                    if (_this.isSecondInteraction) {
-                        //check what interaction it is and call the respective function
-                        //show question panel
-                        //cc.audioEngine.playEffect(this.wordVoQuestion, false);
-                        _this.interactionType == "1"
-                            ? _this.OptionsAppear()
-                            : _this.wordAppear();
-                    }
-                    else {
-                        _this.CallJockey();
-                    }
-                }, _this.wordVoQuestion.duration);
+                _this.options.color = cc.Color.WHITE;
+                if (_this.isSecondInteraction) {
+                    _this.interactionType == "1"
+                        ? _this.OptionsAppear()
+                        : _this.wordAppear();
+                }
+                else {
+                    _this.CallJockey();
+                }
             }, 0.5);
         }
         else {

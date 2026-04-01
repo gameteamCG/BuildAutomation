@@ -176,7 +176,7 @@ export default class NewClass extends cc.Component {
     if (this.currScene >= startGame.Instance.totalLevels) {
       cc.director.preloadScene("GameEnd");
     } else {
-      cc.director.preloadScene((this.currScene + 1).toString());
+      cc.director.preloadScene("1");
     }
     startGame.Instance.clickEvent = false;
     let canvas = cc.find("Canvas");
@@ -803,7 +803,7 @@ export default class NewClass extends cc.Component {
             if (this.currScene <= 3) {
               handNode.active = true;
               handNode.getComponent(cc.Animation).play();
-              handNode.getComponent(cc.Animation).on("finished", () => {});
+              handNode.getComponent(cc.Animation).on("finished", () => { });
             }
             this.scheduleOnce(() => {
               this.scheduleOnce(() => {
@@ -881,23 +881,15 @@ export default class NewClass extends cc.Component {
 
       this.scheduleOnce(() => {
         cc.audioEngine.stopAllEffects();
-        // cc.audioEngine.playEffect(this.puzzleVoIteration, false);
-        cc.audioEngine.playEffect(this.wordVoQuestion,false);
-        this.scheduleOnce(() => {
-          this.options.color = cc.Color.WHITE;
-          // this.wordAppear();
-
-          if (this.isSecondInteraction) {
-            //check what interaction it is and call the respective function
-            //show question panel
-            //cc.audioEngine.playEffect(this.wordVoQuestion, false);
-            this.interactionType == "1"
-              ? this.OptionsAppear()
-              : this.wordAppear();
-          } else {
-            this.CallJockey();
-          }
-        }, this.wordVoQuestion.duration);
+        cc.audioEngine.playEffect(this.wordVoQuestion, false);
+        this.options.color = cc.Color.WHITE;
+        if (this.isSecondInteraction) {
+          this.interactionType == "1"
+            ? this.OptionsAppear()
+            : this.wordAppear();
+        } else {
+          this.CallJockey();
+        }
       }, 0.5);
     } else {
       this.interactable = true;
