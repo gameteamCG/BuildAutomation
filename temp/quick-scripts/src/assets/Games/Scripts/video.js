@@ -79,6 +79,7 @@ var video = /** @class */ (function (_super) {
         _this.tlc_font = null;
         _this.supercub_font = null;
         _this.positiveVO = [];
+        _this.IntroVO = null;
         _this.duration = 0;
         _this.slider = null;
         _this.toolActivater = null;
@@ -611,7 +612,15 @@ var video = /** @class */ (function (_super) {
             });
         }
         this.scheduleOnce(function () {
-            cc.audioEngine.playEffect(_this.questions[current].questionAudio, false);
+            if (current == 2) {
+                cc.audioEngine.playEffect(_this.IntroVO, false);
+                _this.scheduleOnce(function () {
+                    cc.audioEngine.playEffect(_this.questions[current].questionAudio, false);
+                }, _this.IntroVO.duration);
+            }
+            else {
+                cc.audioEngine.playEffect(_this.questions[current].questionAudio, false);
+            }
             _this.character.getComponent(cc.Animation).play("Idle");
             _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             _this.questionNode.getChildByName("options1").active = true;
@@ -750,6 +759,9 @@ var video = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], video.prototype, "positiveVO", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], video.prototype, "IntroVO", void 0);
     __decorate([
         property(cc.Node)
     ], video.prototype, "slider", void 0);

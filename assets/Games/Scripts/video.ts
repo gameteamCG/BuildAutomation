@@ -67,6 +67,8 @@ export default class video extends cc.Component {
 
     @property(cc.AudioClip)
     positiveVO: cc.AudioClip[] = [];
+    @property(cc.AudioClip)
+    IntroVO: cc.AudioClip = null;
 
     duration: number = 0;
     @property(cc.Node)
@@ -617,10 +619,16 @@ export default class video extends cc.Component {
                 i++;
             });
         }
-
-
         this.scheduleOnce(() => {
-            cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+            if (current == 2) {
+                cc.audioEngine.playEffect(this.IntroVO, false);
+                this.scheduleOnce(() => {
+                    cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+                }, this.IntroVO.duration)
+            }
+            else {
+                cc.audioEngine.playEffect(this.questions[current].questionAudio, false);
+            }
             this.character.getComponent(cc.Animation).play("Idle");
             this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             this.questionNode.getChildByName("options1").active = true;

@@ -481,6 +481,9 @@
     "tlc_font": null,
     "supercub_font": null,
     "positiveVO": [],
+    "IntroVO": {
+      "__uuid__": "c8a795fe-d3a3-4402-b1af-fcd99d940bc2"
+    },
     "slider": {
       "__id__": 13
     },
