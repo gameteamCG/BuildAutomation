@@ -44,7 +44,7 @@
             "children": [
               {
                 "width": 962,
-                "height": 374.7875061035156,
+                "height": 374.3125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -53,7 +53,7 @@
               },
               {
                 "width": 962,
-                "height": 336.8125,
+                "height": 337.2875061035156,
                 "type": "panel",
                 "active": 2,
                 "children": [
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "scene",
         "assets",
+        "scene",
         "console",
         "timeline",
         "game-window",
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1775036235988": {}
+    "window-1775047051948": {}
   },
   "panels": {
     "project-settings": {
