@@ -4073,7 +4073,7 @@
       "__id__": 82
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 88
@@ -4083,15 +4083,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 116,
-      "g": 9,
-      "b": 9,
+      "r": 87,
+      "g": 52,
+      "b": 0,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 356.43,
-      "height": 81.9
+      "width": 297.02,
+      "height": 126
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4103,7 +4103,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -100.077,
+        -107.511,
         0,
         0,
         0,
@@ -4142,10 +4142,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "'an' word family",
-    "_N$string": "'an' word family",
-    "_fontSize": 60,
-    "_lineHeight": 65,
+    "_string": "‘an’ word family",
+    "_N$string": "‘an’ word family",
+    "_fontSize": 50,
+    "_lineHeight": 100,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "c1d99ae6-e31e-4f79-bd8d-d4905b914fc4"
@@ -4170,7 +4170,7 @@
       "__id__": 82
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 90
