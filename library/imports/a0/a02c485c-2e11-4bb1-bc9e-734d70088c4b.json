@@ -37,7 +37,7 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "truck",
+        "QuestionText": "Truck",
         "QuestionImageName": "",
         "QuestionAudioName": "identifyimageforword.mp3",
         "PlayQuestionAudio": true,
