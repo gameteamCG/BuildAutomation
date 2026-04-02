@@ -11,16 +11,16 @@
   "QuestionData": [
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": true,
-      "QuestionText": "identify",
-      "QuestionImageName": "",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "Ques.png",
       "QuestionAudioName": "27917689_7_identify-the-letter-l.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": true,
+      "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "Ll",
-        "Xx"
+        "Ll.png",
+        "Xx.png"
       ],
       "ReiterationAudioName": "saysLL.mp3",
       "CorrectAudioName": "positive_1.mp3",
@@ -29,9 +29,9 @@
     },
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": true,
-      "QuestionText": "Ll",
-      "QuestionImageName": "",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "L.png",
       "QuestionAudioName": "taponpicturesoundL.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
@@ -47,9 +47,9 @@
     },
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": true,
-      "QuestionText": "Ll",
-      "QuestionImageName": "",
+      "IsQuestionText": false,
+      "QuestionText": "",
+      "QuestionImageName": "L.png",
       "QuestionAudioName": "taponpicturesoundL.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
