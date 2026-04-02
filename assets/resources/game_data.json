@@ -2,7 +2,7 @@
   "AdditionalData": {
     "GameID": "Letters and Sounds Jj",
     "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/j_1738584446618.mp4",
-    "TitleImageName": "title.png",
+    "TitleImageName": "Asset 62 (2).png",
     "IntroAudio1Name": "",
     "IntroAudio2Name": "",
     "JockeyName": "puzzle",
@@ -13,16 +13,16 @@
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
       "QuestionText": "",
-      "QuestionImageName": "identify.png",
-      "QuestionAudioName": "1.mp3",
+      "QuestionImageName": "new_identify.png",
+      "QuestionAudioName": "british_j identify-the-letter-with-the-letter-sound_3SJE6Xs3.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "Jj.png",
-        "Nn.png"
+        "new_Jjj.png",
+        "new_Nn.png"
       ],
-      "ReiterationAudioName": "J.mp3",
+      "ReiterationAudioName": "british_535341-9-j-says_tUUHAxRt.mp3",
       "CorrectAudioName": "positive_1.mp3",
       "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "1"
@@ -31,8 +31,8 @@
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
       "QuestionText": "",
-      "QuestionImageName": "QJj.png",
-      "QuestionAudioName": "2.mp3",
+      "QuestionImageName": "new_Jj.png",
+      "QuestionAudioName": "british_j british-identify-the-picture-that-begins-with-the-letter-sound_nQz9Sc4V.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 2,
@@ -40,7 +40,7 @@
         "fork.png",
         "jug.png"
       ],
-      "ReiterationAudioName": "19807590_7_jug.mp3",
+      "ReiterationAudioName": "british_8826246_4_jug.mp3",
       "CorrectAudioName": "positive_2.mp3",
       "WrongAudioName": "negative_2.mp3",
       "CorrectAnswer": "2"
@@ -49,14 +49,14 @@
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
       "QuestionText": "",
-      "QuestionImageName": "jelly.png",
-      "QuestionAudioName": "3.mp3",
+      "QuestionImageName": "new_jelly.png",
+      "QuestionAudioName": "british_Identify the letter for the given picture.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "Qq.png",
-        "Jj.png"
+        "new_Qq.png",
+        "new_Jjj.png"
       ],
       "ReiterationAudioName": "27767551_2_jelly.mp3",
       "CorrectAudioName": "positive_3.mp3",
