@@ -17,7 +17,7 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "drone",
+        "QuestionText": "Drone",
         "QuestionImageName": "",
         "QuestionAudioName": "identifycorrectpictureword.mp3",
         "PlayQuestionAudio": true,
