@@ -78,7 +78,7 @@
         "QuestionAppearTime": "9999",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "prize.png",
+        "QuestionImageName": "price.png",
         "QuestionAudioName": "selectmissingblend.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": true,
