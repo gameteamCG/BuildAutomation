@@ -8,18 +8,18 @@
       "x": -8,
       "y": -8,
       "width": 1552,
-      "height": 832,
+      "height": 928,
       "layout": {
         "type": "dock-h",
         "children": [
           {
             "width": 220,
-            "height": 714.6000366210938,
+            "height": 810.6000366210938,
             "type": "dock-v",
             "children": [
               {
                 "width": 220,
-                "height": 373.7875061035156,
+                "height": 424.2124938964844,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -28,7 +28,7 @@
               },
               {
                 "width": 220,
-                "height": 337.8125,
+                "height": 383.38751220703125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -39,12 +39,12 @@
           },
           {
             "width": 962,
-            "height": 714.6000366210938,
+            "height": 810.6000366210938,
             "type": "dock-v",
             "children": [
               {
                 "width": 962,
-                "height": 374.3125,
+                "height": 424.8125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -53,7 +53,7 @@
               },
               {
                 "width": 962,
-                "height": 337.2875061035156,
+                "height": 382.7875061035156,
                 "type": "panel",
                 "active": 2,
                 "children": [
@@ -66,7 +66,7 @@
           },
           {
             "width": 348,
-            "height": 714.6000366210938,
+            "height": 810.6000366210938,
             "type": "panel",
             "active": 0,
             "children": [
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1775047051948": {}
+    "window-1775124793998": {}
   },
   "panels": {
     "project-settings": {

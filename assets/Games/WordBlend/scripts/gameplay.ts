@@ -1,5 +1,4 @@
-// import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -803,7 +802,7 @@ export default class NewClass extends cc.Component {
             if (this.currScene <= 3) {
               handNode.active = true;
               handNode.getComponent(cc.Animation).play();
-              handNode.getComponent(cc.Animation).on("finished", () => { });
+              handNode.getComponent(cc.Animation).on("finished", () => {});
             }
             this.scheduleOnce(() => {
               this.scheduleOnce(() => {
