@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_vimg",
+    "texture": "894572ed-5a5b-4dac-b46b-5c51cb52cff8",
+    "atlas": "",
+    "rect": [
+      46,
+      43,
+      160,
+      166
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
