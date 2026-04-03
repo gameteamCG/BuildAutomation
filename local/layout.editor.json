@@ -32,7 +32,7 @@
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 650.25,
+                    "width": 649.9874877929688,
                     "height": 445.6000061035156,
                     "type": "panel",
                     "active": 0,
@@ -41,7 +41,7 @@
                     ]
                   },
                   {
-                    "width": 216.75,
+                    "width": 217,
                     "height": 445.6000061035156,
                     "type": "panel",
                     "active": 0,
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
+        "assets",
         "console",
         "timeline",
         "game-window",
