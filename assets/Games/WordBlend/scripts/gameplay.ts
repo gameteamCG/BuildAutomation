@@ -421,9 +421,9 @@ export default class NewClass extends cc.Component {
 
     SetFrameOptions() {
         this.options.active = true;
-        if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].isHintRequired) {
-            this.node.getChildByName("hint").active = true;
-        }
+        // if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].isHintRequired) {
+        this.node.getChildByName("hint").active = true;
+        // }
         if (this.options.childrenCount == 4) {
             this.options.children[0].setPosition(-this.options.children[0].width / 2, this.options.children[0].height / 2);
             this.options.children[1].setPosition(this.options.children[1].width / 2, this.options.children[1].height / 2);
