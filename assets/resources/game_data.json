@@ -2,8 +2,8 @@
   "additionalData": {
     "GameID": "Design your vehicle",
     "totalLevel": "1",
-    "TitleImageName": "design.png",
-    "introBgName": "sfdfgh.png",
+    "TitleImageName": "Asset 36 (1).png",
+    "introBgName": "LKGBG.png",
     "bgmMusicName": "B2.mp3",
     "initialVOName": "",
     "mainBgName": "artbackground5.png",
@@ -11,7 +11,7 @@
   },
   "questionData": [
     {
-      "questionText": "design your own vehicle",
+      "questionText": "Design your own vehicle",
       "questionImageName": "blankk.png",
       "questionAudioName": "draw.mp3",
       "shouldPlayQuestionAudio": true,
