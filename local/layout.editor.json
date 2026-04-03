@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
+        "assets",
         "console",
         "timeline",
         "game-window",
@@ -105,10 +105,10 @@
       "height": 900
     },
     "builder": {
-      "x": 40,
-      "y": 0,
-      "width": 1440,
-      "height": 816
+      "x": -8,
+      "y": -8,
+      "width": 1552,
+      "height": 832
     }
   },
   "panelLabelWidth": {}
