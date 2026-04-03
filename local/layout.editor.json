@@ -13,8 +13,8 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 237.83750915527344,
-            "height": 714.6000366210938,
+            "width": 235.8874969482422,
+            "height": 700.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -22,18 +22,18 @@
             ]
           },
           {
-            "width": 957.3624877929688,
-            "height": 714.6000366210938,
+            "width": 949.4874877929688,
+            "height": 700.2000122070312,
             "type": "dock-v",
             "children": [
               {
-                "width": 957.3624877929688,
-                "height": 445.6000061035156,
+                "width": 949.4874877929688,
+                "height": 431.20001220703125,
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 714.2750244140625,
-                    "height": 445.6000061035156,
+                    "width": 708.375,
+                    "height": 431.20001220703125,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -41,8 +41,8 @@
                     ]
                   },
                   {
-                    "width": 240.08750915527344,
-                    "height": 445.6000061035156,
+                    "width": 238.1125030517578,
+                    "height": 431.20001220703125,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -52,7 +52,7 @@
                 ]
               },
               {
-                "width": 957.3624877929688,
+                "width": 949.4874877929688,
                 "height": 266,
                 "type": "panel",
                 "active": 0,
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 334.7749938964844,
-            "height": 714.6000366210938,
+            "width": 331.0249938964844,
+            "height": 700.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
+        "assets",
         "console",
         "timeline",
         "game-window",
