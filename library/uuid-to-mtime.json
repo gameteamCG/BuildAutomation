@@ -1610,8 +1610,8 @@
     "relativePath": "Games\\Podar_ Day 111 - Video Quiz (solar system)\\L5 (2).mp3"
   },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1775202652773,
-    "meta": 1775202652788,
+    "asset": 1775203137244,
+    "meta": 1775203137258,
     "relativePath": "Games\\Scenes\\video.fire"
   },
   "456cfa32-849a-4a2e-b948-4c7983ad00a4": {
@@ -4834,9 +4834,44 @@
     "meta": 1775202641806,
     "relativePath": "resources\\images\\Asset 64 (3).png"
   },
+  "d2563cdc-e1f0-4436-8d1a-098f9a66a290": {
+    "asset": 1775203077196,
+    "meta": 1775203077639,
+    "relativePath": "resources\\audios\\british_9510507_3_star.mp3"
+  },
+  "c3e8e558-0714-467e-9b10-eb92a20b9e69": {
+    "asset": 1775203077196,
+    "meta": 1775203077641,
+    "relativePath": "resources\\audios\\british_9510507_2_identify-the-star-shap.mp3"
+  },
+  "ceced146-31cd-4ef2-ad71-7d693ff17780": {
+    "asset": 1775203077197,
+    "meta": 1775203077641,
+    "relativePath": "resources\\audios\\british_8410103_2_stairs.mp3"
+  },
+  "5d3051be-f583-4338-a3ef-54bad5c30153": {
+    "asset": 1775203077196,
+    "meta": 1775203077642,
+    "relativePath": "resources\\audios\\british_9510507_5_starfish.mp3"
+  },
+  "d1ef071e-9e4b-4a8d-a418-0a42edfcd6b0": {
+    "asset": 1775203077196,
+    "meta": 1775203077643,
+    "relativePath": "resources\\audios\\british_9510507_4_click-on-the-missing-b.mp3"
+  },
+  "0f0f8c39-705b-4664-82a9-1f6d33ad500a": {
+    "asset": 1775203077196,
+    "meta": 1775203077646,
+    "relativePath": "resources\\audios\\british_8410103_3_stove.mp3"
+  },
+  "011cdf31-e679-4893-9b92-ba773549d04e": {
+    "asset": 1775203077204,
+    "meta": 1775203077647,
+    "relativePath": "resources\\audios\\british_9510507_1_identify-the-picture-f.mp3"
+  },
   "88e3ece8-b3df-4190-aa47-f5c906de6360": {
-    "asset": 1775202651281,
-    "meta": 1775202652565,
+    "asset": 1775203136410,
+    "meta": 1775203137031,
     "relativePath": "resources\\game_data.json"
   }
 }
