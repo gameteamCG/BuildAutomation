@@ -1,5 +1,4 @@
-
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -608,7 +607,7 @@ export default class NewClass extends cc.Component {
 
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
-                cc.audioEngine.playEffect(this.puzzleVoIteration, false);
+                // cc.audioEngine.playEffect(this.puzzleVoIteration, false);
                 this.scheduleOnce(() => {
                     this.options.color = cc.Color.WHITE;
                     // this.wordAppear();
@@ -617,15 +616,28 @@ export default class NewClass extends cc.Component {
                         //check what interaction it is and call the respective function
                         //show question panel
                         cc.audioEngine.playEffect(this.wordVoQuestion, false);
+                        this.isPlay = true;
                         this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
                     }
                     else {
                         this.CallJockey();
                     }
-                }, this.puzzleVoIteration.duration);
+                }, 0.5);
             }, 0.5);
         } else {
             this.interactable = true;
+        }
+    }
+
+    isPlay: boolean = false;
+
+    playQues(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        if (!this.isPlay) {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
         }
     }
 

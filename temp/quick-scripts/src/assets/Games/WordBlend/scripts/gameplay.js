@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
@@ -71,6 +71,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.currWordSeq = "";
         _this.currScene = 1;
         _this.colorValue = null;
+        _this.isPlay = false;
         return _this;
     }
     NewClass.prototype.onLoad = function () {
@@ -539,7 +540,7 @@ var NewClass = /** @class */ (function (_super) {
             cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
-                cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
+                // cc.audioEngine.playEffect(this.puzzleVoIteration, false);
                 _this.scheduleOnce(function () {
                     _this.options.color = cc.Color.WHITE;
                     // this.wordAppear();
@@ -547,16 +548,26 @@ var NewClass = /** @class */ (function (_super) {
                         //check what interaction it is and call the respective function
                         //show question panel
                         cc.audioEngine.playEffect(_this.wordVoQuestion, false);
+                        _this.isPlay = true;
                         _this.interactionType == "1" ? _this.OptionsAppear() : _this.wordAppear();
                     }
                     else {
                         _this.CallJockey();
                     }
-                }, _this.puzzleVoIteration.duration);
+                }, 0.5);
             }, 0.5);
         }
         else {
             this.interactable = true;
+        }
+    };
+    NewClass.prototype.playQues = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        if (!this.isPlay) {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
         }
     };
     NewClass.prototype.CallJockey = function () {
