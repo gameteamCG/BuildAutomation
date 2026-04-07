@@ -706,6 +706,8 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.OptionsAppear = function () {
         var _this = this;
+        if (StartGame_1.default.Instance.currentLevel == 1)
+            this.node.getChildByName("handClick1").active = true;
         cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(function () {
@@ -729,6 +731,7 @@ var NewClass = /** @class */ (function (_super) {
             });
             cc.tween(_node).to(1, { y: 0 }, { easing: "sineInOut" }).start();
             console.log("correctAnswer--" + this.currScene);
+            this.node.getChildByName("handClick1").active = false;
             // console.log("correctAnswer--" + this.currScene);
             // cc.audioEngine.playEffect(this.correctButton, false);
             this.options.color = cc.Color.GREEN;

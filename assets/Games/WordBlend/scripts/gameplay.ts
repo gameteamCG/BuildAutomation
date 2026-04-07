@@ -777,7 +777,8 @@ export default class NewClass extends cc.Component {
 
 
     OptionsAppear() {
-
+        if (startGame.Instance.currentLevel == 1)
+            this.node.getChildByName("handClick1").active = true;
         cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
 
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
@@ -809,6 +810,7 @@ export default class NewClass extends cc.Component {
             cc.tween(_node).to(1, { y: 0 }, { easing: "sineInOut" }).start();
 
             console.log("correctAnswer--" + this.currScene);
+            this.node.getChildByName("handClick1").active = false;
             // console.log("correctAnswer--" + this.currScene);
             // cc.audioEngine.playEffect(this.correctButton, false);
             this.options.color = cc.Color.GREEN;
@@ -1034,6 +1036,7 @@ export default class NewClass extends cc.Component {
             option.setPosition(cc.v2(0, 0));
             option.opacity = 255;
             option.active = true;
+
         }
         this.node.getChildByName(_template).destroy();
         if (_template == "template1") {
