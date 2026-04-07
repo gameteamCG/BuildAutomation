@@ -1135,8 +1135,8 @@
     "relativePath": "Game\\Painting_template\\Audios\\incorrectAnswer.mp3"
   },
   "8f491b88-8714-4309-8941-9a7f14c25a57": {
-    "asset": 1775555354296,
-    "meta": 1775555354320,
+    "asset": 1775555662673,
+    "meta": 1775555662706,
     "relativePath": "Game\\Painting_template\\Scene\\GamePlay.fire"
   },
   "0212e4bc-992e-422e-8092-508bec43d179": {
@@ -4524,11 +4524,6 @@
     "meta": 1775555260998,
     "relativePath": "resources\\images\\Asset 36 (1).png"
   },
-  "05929d9d-1f9f-4681-b03f-82cf7d7521cd": {
-    "asset": 1775555163924,
-    "meta": 1775555259958,
-    "relativePath": "resources\\game_data.json"
-  },
   "f94b6cb3-19ca-42b7-826d-b86dcc7ba017": {
     "asset": 1775555163947,
     "meta": 1775555261021,
@@ -4553,5 +4548,15 @@
     "asset": 1775555352007,
     "meta": 1775555354140,
     "relativePath": "Game\\Painting_template\\Script\\GamePlay\\Persistent\\PersistentScroll.ts"
+  },
+  "29dc1e8d-5bbe-4150-a0aa-490e61571dfe": {
+    "asset": 1775555650792,
+    "meta": 1775555651241,
+    "relativePath": "resources\\audios\\draw and colour and design your vehicle.mp3"
+  },
+  "05929d9d-1f9f-4681-b03f-82cf7d7521cd": {
+    "asset": 1775555660994,
+    "meta": 1775555662491,
+    "relativePath": "resources\\game_data.json"
   }
 }
