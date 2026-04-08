@@ -4086,7 +4086,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 271.17,
+      "width": 274.04,
       "height": 81.9
     },
     "_anchorPoint": {
@@ -4138,8 +4138,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "About earth",
-    "_N$string": "About earth",
+    "_string": "About Earth",
+    "_N$string": "About Earth",
     "_fontSize": 60,
     "_lineHeight": 65,
     "_enableWrapText": true,
