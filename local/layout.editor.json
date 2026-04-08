@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 204,
-            "height": 693,
+            "width": 219.8000030517578,
+            "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 204,
-                "height": 347.3999938964844,
+                "width": 219.8000030517578,
+                "height": 358.38751220703125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 204,
-                "height": 342.6000061035156,
+                "width": 219.8000030517578,
+                "height": 353.2124938964844,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 806.9750366210938,
-            "height": 693,
+            "width": 868.4249877929688,
+            "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 806.9750366210938,
-                "height": 347.3999938964844,
+                "width": 868.4249877929688,
+                "height": 358.38751220703125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 806.9750366210938,
-                "height": 342.6000061035156,
+                "width": 868.4249877929688,
+                "height": 353.2124938964844,
                 "type": "panel",
                 "active": 2,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 409.4250183105469,
-            "height": 693,
+            "width": 441.76251220703125,
+            "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
             "children": [
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1772363414076": {}
+    "window-1775638684293": {}
   },
   "panels": {
     "project-settings": {
@@ -106,7 +106,7 @@
       "height": 900
     },
     "builder": {
-      "x": 48,
+      "x": 40,
       "y": 0,
       "width": 1440,
       "height": 816
