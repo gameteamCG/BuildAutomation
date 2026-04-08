@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Yes or No?_UKG Practice Book 2_41",
-      "totalLevel": "8",
+      "totalLevel": "3",
       "TitleImageName": "Asset_10.png",
       "introBgName": "tlc_bg.png",
       "bgmMusicName": "BGM.mp3",
@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "is this a shoe ?",
+        "questionText": "Is this a shoe ?",
         "questionImageName": "L1.png",
         "questionAudioName": "26309422_1_is-this-a-shoe.mp3",
         "shouldPlayQuestionAudio": true,
@@ -30,7 +30,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "is this a big tree ?",
+        "questionText": "Is this a big tree ?",
         "questionImageName": "L2.png",
         "questionAudioName": "26309422_2_is-this-a-big-tree.mp3",
         "shouldPlayQuestionAudio": true,
@@ -45,7 +45,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "is this a dog ?",
+        "questionText": "Is this a dog ?",
         "questionImageName": "L3.png",
         "questionAudioName": "26309422_3_is-this-a-dog.mp3",
         "shouldPlayQuestionAudio": true,

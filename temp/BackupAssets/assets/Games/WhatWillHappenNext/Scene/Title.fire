@@ -20,7 +20,7 @@
         "__id__": 17
       },
       {
-        "__id__": 62
+        "__id__": 59
       }
     ],
     "_active": true,
@@ -351,8 +351,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -14.314,
-        0,
+        19.809,
+        -57.747,
         0,
         0,
         0,
@@ -861,7 +861,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 61
+        "__id__": 58
       }
     ],
     "_prefab": null,
@@ -2589,9 +2589,6 @@
     "_children": [
       {
         "__id__": 56
-      },
-      {
-        "__id__": 59
       }
     ],
     "_active": true,
@@ -2646,7 +2643,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Mighty_Raju",
+    "_name": "Puzzle",
     "_objFlags": 0,
     "_parent": {
       "__id__": 55
@@ -2656,123 +2653,6 @@
     "_components": [
       {
         "__id__": 57
-      }
-    ],
-    "_prefab": {
-      "__id__": 58
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 179,
-      "height": 456.85
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        1500,
-        -375,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": false,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "a3kG0D9zJI8pWVb/r0mrNh"
-  },
-  {
-    "__type__": "sp.Skeleton",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 56
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "7afd064b-113f-480e-b793-8817d19f63c3"
-      }
-    ],
-    "paused": false,
-    "defaultSkin": "default",
-    "defaultAnimation": "",
-    "_preCacheMode": 0,
-    "_cacheMode": 0,
-    "loop": true,
-    "premultipliedAlpha": true,
-    "timeScale": 1,
-    "_accTime": 0,
-    "_playCount": 0,
-    "_frameCache": null,
-    "_curFrame": null,
-    "_skeletonCache": null,
-    "_animationName": "",
-    "_animationQueue": [],
-    "_headAniInfo": null,
-    "_playTimes": 0,
-    "_isAniComplete": true,
-    "_N$skeletonData": {
-      "__uuid__": "e3fc7fe6-0b0f-4bb8-bccb-2be6b3be1989"
-    },
-    "_N$_defaultCacheMode": 0,
-    "_N$debugSlots": false,
-    "_N$debugBones": false,
-    "_N$debugMesh": false,
-    "_N$useTint": false,
-    "_N$enableBatch": false,
-    "_id": "038c38JnpGnrhuHrOuHEzh"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 56
-    },
-    "asset": {
-      "__uuid__": "e1379459-0e91-4987-aca4-137d095b3f10"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "toondomy0001",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 55
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 60
       }
     ],
     "_prefab": null,
@@ -2828,7 +2708,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 59
+      "__id__": 56
     },
     "_enabled": true,
     "_materials": [
@@ -2903,7 +2783,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 63
+        "__id__": 60
       }
     ],
     "_prefab": null,
@@ -2959,7 +2839,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 62
+      "__id__": 59
     },
     "_enabled": true,
     "label": null,
