@@ -35,7 +35,6 @@ require('./assets/Games/Scripts/titleScript1');
 require('./assets/Games/Scripts/video');
 require('./assets/Games/Tictock/Scripts/questionData');
 require('./assets/Games/Tictock/Scripts/questionManager');
-require('./assets/resources/empty');
 
                     }
                     if (nodeEnv) {
