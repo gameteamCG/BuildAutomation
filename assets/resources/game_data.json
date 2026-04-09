@@ -2,7 +2,7 @@
   "AdditionalData": {
     "GameID": "Days of the week_UKG Course Book 2_51",
     "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Days+of+the+week_1_1722849994461.mp4",
-    "TitleImageName": "Asset 12.png",
+    "TitleImageName": "Asset 164.png",
     "IntroAudio1Name": "",
     "IntroAudio2Name": "",
     "JockeyName": "puzzle",
@@ -19,10 +19,10 @@
       "IsOptionText": false,
       "NumberOfOptions": 4,
       "Options": [
-        "Asset 9.png",
-        "Asset 10.png",
-        "Asset 11.png",
-        "Asset 8.png"
+        "british_10.png",
+        "british_7.png",
+        "british_6.png",
+        "british_9.png"
       ],
       "ReiterationAudioName": "26083056_2_7.mp3",
       "CorrectAudioName": "GREATWORK.mp3",
@@ -39,10 +39,10 @@
       "IsOptionText": false,
       "NumberOfOptions": 4,
       "Options": [
-        "Asset 6.png",
-        "Asset 1.png",
-        "Asset 4.png",
-        "Asset 3.png"
+        "british_monday.png",
+        "british_thursday.png",
+        "british_wednesday.png",
+        "british_sunday.png"
       ],
       "ReiterationAudioName": "26083056_4_wednesday.mp3",
       "CorrectAudioName": "FANTASTIC.mp3",
@@ -59,10 +59,10 @@
       "IsOptionText": false,
       "NumberOfOptions": 4,
       "Options": [
-        "Asset 2.png",
-        "Asset 7.png",
-        "Asset 1.png",
-        "Asset 5.png"
+        "british_friday.png",
+        "british_saturday.png",
+        "british_thursday.png",
+        "british_tuesday.png"
       ],
       "ReiterationAudioName": "26083056_6_friday.mp3",
       "CorrectAudioName": "EXCELLENTJOB.mp3",
@@ -79,10 +79,10 @@
       "IsOptionText": false,
       "NumberOfOptions": 4,
       "Options": [
-        "Asset 6.png",
-        "Asset 4.png",
-        "Asset 5.png",
-        "Asset 3.png"
+        "british_monday.png",
+        "british_wednesday.png",
+        "british_tuesday.png",
+        "british_sunday.png"
       ],
       "ReiterationAudioName": "26083056_8_sunday.mp3",
       "CorrectAudioName": "INCREDIBLE.mp3",

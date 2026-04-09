@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "british_6",
+    "texture": "79d3c8b8-dda2-446e-8e29-602a1ce4e505",
+    "atlas": "",
+    "rect": [
+      86,
+      48,
+      95,
+      155
+    ],
+    "offset": [
+      8.5,
+      -0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

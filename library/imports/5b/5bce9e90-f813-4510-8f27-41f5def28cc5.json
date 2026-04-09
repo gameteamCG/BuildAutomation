@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "british_friday",
+    "texture": "dba75846-abc9-4fa6-b187-08f24dd7c097",
+    "atlas": "",
+    "rect": [
+      68,
+      105,
+      128,
+      50
+    ],
+    "offset": [
+      6.5,
+      -5
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

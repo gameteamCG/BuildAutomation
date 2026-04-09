@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "british_tuesday",
+    "texture": "b3d43616-11e4-4008-bfb5-dc110be0eb2e",
+    "atlas": "",
+    "rect": [
+      46,
+      106,
+      170,
+      50
+    ],
+    "offset": [
+      5.5,
+      -5.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

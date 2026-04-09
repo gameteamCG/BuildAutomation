@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "british_monday",
+    "texture": "2ddefe90-b314-41a1-82b8-680a2881e909",
+    "atlas": "",
+    "rect": [
+      53,
+      105,
+      156,
+      50
+    ],
+    "offset": [
+      5.5,
+      -5
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
