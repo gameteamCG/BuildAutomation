@@ -19,8 +19,8 @@
       "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "Aa",
-        "Gg"
+        "a",
+        "g"
       ],
       "ReiterationAudioName": "Sound_of_a.mp3",
       "CorrectAudioName": "EXCELLENTJOB.mp3",
