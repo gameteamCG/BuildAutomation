@@ -1610,8 +1610,8 @@
     "relativePath": "Games\\Podar_ Day 111 - Video Quiz (solar system)\\L5 (2).mp3"
   },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1775726613147,
-    "meta": 1775726613159,
+    "asset": 1775726877609,
+    "meta": 1775726877624,
     "relativePath": "Games\\Scenes\\video.fire"
   },
   "456cfa32-849a-4a2e-b948-4c7983ad00a4": {
@@ -4570,8 +4570,8 @@
     "relativePath": "resources\\audios"
   },
   "3bb4fec9-aa65-4792-9191-b44ef898de11": {
-    "asset": 1775726540666,
-    "meta": 1775726573023,
+    "asset": 1775726612345,
+    "meta": 1775726766128,
     "relativePath": "resources\\images"
   },
   "b0e8bfc1-be2e-4c4e-b92c-421611e5d819": {
@@ -4824,11 +4824,6 @@
     "meta": 1775726575002,
     "relativePath": "resources\\images\\Asset 164.png"
   },
-  "ba21e13a-ecda-4b8e-90fa-f6157daf6445": {
-    "asset": 1775726540457,
-    "meta": 1775726573022,
-    "relativePath": "resources\\game_data.json"
-  },
   "1798b439-a3ec-47ba-88b8-909a95ce21ef": {
     "asset": 1775726539816,
     "meta": 1775726572973,
@@ -4843,5 +4838,50 @@
     "asset": 1775726612357,
     "meta": 1775726612381,
     "relativePath": "resources\\images\\british_thursday.png"
+  },
+  "94d22b8d-9c30-4b54-9ecf-5401006ffd6d": {
+    "asset": 1775726789431,
+    "meta": 1775726789993,
+    "relativePath": "resources\\audios\\8539823_2_seven.mp3"
+  },
+  "04808e42-8f9e-4955-a6c2-f170fa1160f0": {
+    "asset": 1775726789431,
+    "meta": 1775726789993,
+    "relativePath": "resources\\audios\\8539823_5_which-is-the-5th-day-o.mp3"
+  },
+  "bde7a447-7395-43e4-8770-8841830fe691": {
+    "asset": 1775726789431,
+    "meta": 1775726789993,
+    "relativePath": "resources\\audios\\8539823_4_wednesday.mp3"
+  },
+  "399be612-e6eb-400c-973b-0b7ebfc7f8c4": {
+    "asset": 1775726789431,
+    "meta": 1775726789993,
+    "relativePath": "resources\\audios\\8539823_8_sunday.mp3"
+  },
+  "17ea0fb7-19aa-43a7-bf4f-5cc367098eb1": {
+    "asset": 1775726789431,
+    "meta": 1775726789993,
+    "relativePath": "resources\\audios\\8539823_1_how-many-days-are-ther.mp3"
+  },
+  "99d61b51-4d7d-470d-be46-b437de30c9b1": {
+    "asset": 1775726789431,
+    "meta": 1775726789998,
+    "relativePath": "resources\\audios\\8539823_3_which-is-the-3rd-day-o.mp3"
+  },
+  "5f0a5d85-c19b-499c-951e-c34050800047": {
+    "asset": 1775726789431,
+    "meta": 1775726789998,
+    "relativePath": "resources\\audios\\8539823_7_on-which-day-does-a-we.mp3"
+  },
+  "8effd3b2-e856-4bee-9b11-42a3beb7e58c": {
+    "asset": 1775726789431,
+    "meta": 1775726790003,
+    "relativePath": "resources\\audios\\8539823_6_friday.mp3"
+  },
+  "ba21e13a-ecda-4b8e-90fa-f6157daf6445": {
+    "asset": 1775726875977,
+    "meta": 1775726877046,
+    "relativePath": "resources\\game_data.json"
   }
 }

@@ -19,7 +19,7 @@
         "IsQuestionText": true,
         "QuestionText": "How many days are there in a week?",
         "QuestionImageName": "",
-        "QuestionAudioName": "26083056_1_how-many-days-are-ther.mp3",
+        "QuestionAudioName": "8539823_1_how-many-days-are-ther.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
@@ -29,7 +29,7 @@
           "british_6.png",
           "british_9.png"
         ],
-        "ReiterationAudioName": "26083056_2_7.mp3",
+        "ReiterationAudioName": "8539823_2_seven.mp3",
         "CorrectAudioName": "GREATWORK.mp3",
         "WrongAudioName": "nevermindtryagain.mp3",
         "CorrectAnswer": "2"
@@ -39,7 +39,7 @@
         "IsQuestionText": true,
         "QuestionText": "Which is the 3rd day of the week?",
         "QuestionImageName": "",
-        "QuestionAudioName": "26083056_3_which-is-the-3rd-day-o.mp3",
+        "QuestionAudioName": "8539823_3_which-is-the-3rd-day-o.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
@@ -49,7 +49,7 @@
           "british_wednesday.png",
           "british_sunday.png"
         ],
-        "ReiterationAudioName": "26083056_4_wednesday.mp3",
+        "ReiterationAudioName": "8539823_4_wednesday.mp3",
         "CorrectAudioName": "FANTASTIC.mp3",
         "WrongAudioName": "ohoh.mp3",
         "CorrectAnswer": "3"
@@ -59,7 +59,7 @@
         "IsQuestionText": true,
         "QuestionText": "Which is the 5th day of the week?",
         "QuestionImageName": "",
-        "QuestionAudioName": "26083056_5_which-is-the-5th-day-o.mp3",
+        "QuestionAudioName": "8539823_5_which-is-the-5th-day-o.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
@@ -69,7 +69,7 @@
           "british_thursday.png",
           "british_tuesday.png"
         ],
-        "ReiterationAudioName": "26083056_6_friday.mp3",
+        "ReiterationAudioName": "8539823_6_friday.mp3",
         "CorrectAudioName": "EXCELLENTJOB.mp3",
         "WrongAudioName": "Oopsietryoncemore.mp3",
         "CorrectAnswer": "1"
@@ -79,7 +79,7 @@
         "IsQuestionText": true,
         "QuestionText": "On which day does a weekend ends?",
         "QuestionImageName": "",
-        "QuestionAudioName": "26083056_7_on-which-day-does-a-we.mp3",
+        "QuestionAudioName": "8539823_7_on-which-day-does-a-we.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
@@ -89,7 +89,7 @@
           "british_tuesday.png",
           "british_sunday.png"
         ],
-        "ReiterationAudioName": "26083056_8_sunday.mp3",
+        "ReiterationAudioName": "8539823_8_sunday.mp3",
         "CorrectAudioName": "INCREDIBLE.mp3",
         "WrongAudioName": "ohoh.mp3",
         "CorrectAnswer": "4"
