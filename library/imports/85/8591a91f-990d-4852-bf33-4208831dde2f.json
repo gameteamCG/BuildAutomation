@@ -2712,8 +2712,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 80,
+    "_lineHeight": 90,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "458ef669-7acf-4f3b-896c-0a1cbd363226"
@@ -2726,7 +2726,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "c4FWyPnJdHkLyBTeyCl4db"
   },
@@ -3283,8 +3283,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 80,
+    "_lineHeight": 90,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "458ef669-7acf-4f3b-896c-0a1cbd363226"
@@ -3297,7 +3297,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "65EQ/zQlpCBptJQnNxxHSj"
   },
@@ -3854,8 +3854,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 80,
+    "_lineHeight": 90,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "458ef669-7acf-4f3b-896c-0a1cbd363226"
@@ -3868,7 +3868,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "d1EHtBD8JJ26pT0/mHwrp3"
   },
@@ -4425,8 +4425,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 80,
+    "_lineHeight": 90,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "458ef669-7acf-4f3b-896c-0a1cbd363226"
@@ -4439,7 +4439,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "bf0SeWWkdO+YGv32ov5zZN"
   },
