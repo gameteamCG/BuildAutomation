@@ -78,10 +78,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 44
+        "__id__": 43
       },
       {
-        "__id__": 45
+        "__id__": 44
       }
     ],
     "_prefab": null,
@@ -254,25 +254,25 @@
         "__id__": 25
       },
       {
-        "__id__": 34
+        "__id__": 33
       },
       {
-        "__id__": 37
+        "__id__": 36
+      },
+      {
+        "__id__": 39
       },
       {
         "__id__": 40
-      },
-      {
-        "__id__": 41
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 42
+        "__id__": 41
       },
       {
-        "__id__": 43
+        "__id__": 42
       }
     ],
     "_prefab": null,
@@ -1188,7 +1188,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 1280,
-      "height": 720
+      "height": 600
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1200,7 +1200,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        -57.54,
         0,
         0,
         0,
@@ -1239,13 +1239,10 @@
         "__id__": 28
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 32
-      },
-      {
-        "__id__": 33
       }
     ],
     "_prefab": null,
@@ -1278,8 +1275,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        0.8,
+        0.8,
         1
       ]
     },
@@ -1321,8 +1318,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 480,
-      "height": 100
+      "width": 377.87,
+      "height": 163.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1334,7 +1331,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -90,
+        -85,
         0,
         0,
         0,
@@ -1373,9 +1370,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "",
-    "_N$string": "",
-    "_fontSize": 80,
+    "_string": "Describing words",
+    "_N$string": "Describing words",
+    "_fontSize": 60,
     "_lineHeight": 130,
     "_enableWrapText": true,
     "_N$file": {
@@ -1389,7 +1386,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "6729jBSFBGq7jPWfdGBv+i"
   },
@@ -1607,20 +1604,6 @@
     "_id": "77ZJF5LlZAGYMGGkFuEUTn"
   },
   {
-    "__type__": "3909dpzo1hPDJb1f4iWWEcf",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 25
-    },
-    "_enabled": true,
-    "leftOffset": 0,
-    "rightOffset": 0,
-    "bottomOffset": 0,
-    "topOffset": -220,
-    "_id": "d58iKDo8tHjLq7MMU353ki"
-  },
-  {
     "__type__": "cc.Node",
     "_name": "confetti",
     "_objFlags": 0,
@@ -1631,10 +1614,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 35
+        "__id__": 34
       },
       {
-        "__id__": 36
+        "__id__": 35
       }
     ],
     "_prefab": null,
@@ -1690,7 +1673,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 34
+      "__id__": 33
     },
     "_enabled": true,
     "_materials": [
@@ -1722,7 +1705,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 34
+      "__id__": 33
     },
     "_enabled": true,
     "_defaultClip": {
@@ -1747,10 +1730,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 38
+        "__id__": 37
       },
       {
-        "__id__": 39
+        "__id__": 38
       }
     ],
     "_prefab": null,
@@ -1806,7 +1789,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 37
+      "__id__": 36
     },
     "_enabled": true,
     "_materials": [
@@ -1836,7 +1819,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 37
+      "__id__": 36
     },
     "_enabled": true,
     "_defaultClip": {

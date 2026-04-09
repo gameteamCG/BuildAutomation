@@ -228,7 +228,6 @@ export default class startGame extends cc.Component {
                 // question.option2ImageName = question.option2ImageName
             });
             // Now you can use these variables within this script
-            this.logData();
         }
         else {
             cc.loader.loadRes('game_data', cc.JsonAsset, (err, jsonAsset) => {
@@ -272,8 +271,6 @@ export default class startGame extends cc.Component {
                     // question.option1ImageName = this.removeExtension(question.option1ImageName);
                     // question.option2ImageName = this.removeExtension(question.option2ImageName);
                 });
-                // Now you can use these variables within this script
-                this.logData(); // You can call a function to log the data or use it in other functions
             });
 
         }
