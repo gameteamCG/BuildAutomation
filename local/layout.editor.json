@@ -13,21 +13,37 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 220,
-            "height": 714.6000366210938,
-            "type": "panel",
-            "active": 0,
-            "children": [
-              "hierarchy"
-            ]
-          },
-          {
-            "width": 591,
+            "width": 315,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 591,
+                "width": 315,
+                "height": 356.3000183105469,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ]
+              },
+              {
+                "width": 315,
+                "height": 355.2875061035156,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "assets"
+                ]
+              }
+            ]
+          },
+          {
+            "width": 854,
+            "height": 714.6000366210938,
+            "type": "dock-v",
+            "children": [
+              {
+                "width": 854,
                 "height": 445.6000061035156,
                 "type": "panel",
                 "active": 0,
@@ -36,7 +52,7 @@
                 ]
               },
               {
-                "width": 591,
+                "width": 854,
                 "height": 266,
                 "type": "panel",
                 "active": 0,
@@ -46,15 +62,6 @@
                   "game-window"
                 ]
               }
-            ]
-          },
-          {
-            "width": 355,
-            "height": 714.6000366210938,
-            "type": "panel",
-            "active": 0,
-            "children": [
-              "assets"
             ]
           },
           {
@@ -72,17 +79,18 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
         "console",
         "timeline",
         "game-window",
+        "assets",
         "inspector",
         "cocos-services",
         "node-library"
       ]
     },
-    " common-asset-worker-worker": {}
+    " common-asset-worker-worker": {},
+    "window-1775727693710": {}
   },
   "panels": {
     "project-settings": {

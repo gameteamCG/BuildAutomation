@@ -1,1 +1,93 @@
-{"AdditionalData":{"GameID":"Space travel_UKG_GA_109","VideoLink":"https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/52291SpaceStationApproved_1720526596080.mp4","TitleImageName":"spacetravel.png","IntroAudio1Name":"","IntroAudio2Name":"bgm1.mp3","JockeyName":"puzzle","TotalLevel":"4"},"QuestionData":[{"QuestionAppearTime":"99999","IsQuestionText":true,"QuestionText":"Space station","QuestionImageName":"","QuestionAudioName":"IdentifytheictureoftheSpacestation.mp3","PlayQuestionAudio":true,"IsOptionText":false,"NumberOfOptions":4,"Options":["spacestation.png","aeroplane.png","rocket.png","helicopter.png"],"ReiterationAudioName":"spacestation.mp3","CorrectAudioName":"GREATWORK.mp3","WrongAudioName":"Oopsietryoncemore.mp3","CorrectAnswer":"1"},{"QuestionAppearTime":"999999","IsQuestionText":true,"QuestionText":"Who live in the space station?","QuestionImageName":"","QuestionAudioName":"Wholivsinthespacestation.mp3","PlayQuestionAudio":true,"IsOptionText":false,"NumberOfOptions":4,"Options":["constructionworker.png","painter.png","astronaut.png","farmer.png"],"ReiterationAudioName":"astronauts.mp3","CorrectAudioName":"EXCELLENTJOB.mp3","WrongAudioName":"ohoh.mp3","CorrectAnswer":"3"},{"QuestionAppearTime":"999999","IsQuestionText":true,"QuestionText":"Solar panels","QuestionImageName":"","QuestionAudioName":"Identifyandtaponthepictureofsolarpanels.mp3","PlayQuestionAudio":true,"IsOptionText":false,"NumberOfOptions":4,"Options":["solarpanel.png","dishantenna.png","rocks.png","battery.png"],"ReiterationAudioName":"solarpanelsconverttheenergyoftheSunintoelectricityforthespacestation.mp3","CorrectAudioName":"BRILLIANT.mp3","WrongAudioName":"nevermind,tryagain.mp3","CorrectAnswer":"1"},{"QuestionAppearTime":"999999","IsQuestionText":true,"QuestionText":"Where do astronauts sleep?","QuestionImageName":"","QuestionAudioName":"Wheredoastronautssleep.mp3","PlayQuestionAudio":true,"IsOptionText":false,"NumberOfOptions":4,"Options":["bed.png","chair.png","sofa.png","sleepingpod.png"],"ReiterationAudioName":"inthesleepingpod.mp3","CorrectAudioName":"GREATWORK.mp3","WrongAudioName":"Oopsietryoncemore.mp3","CorrectAnswer":"4"}]}
+{
+    "AdditionalData": {
+        "GameID": "Space travel_UKG_GA_109",
+        "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/52291SpaceStationApproved_1720526596080.mp4",
+        "TitleImageName": "spacetravel.png",
+        "IntroAudio1Name": "",
+        "IntroAudio2Name": "bgm1.mp3",
+        "JockeyName": "puzzle",
+        "TotalLevel": "4"
+    },
+    "QuestionData": [
+        {
+            "QuestionAppearTime": "99999",
+            "IsQuestionText": true,
+            "QuestionText": "Space station",
+            "QuestionImageName": "",
+            "QuestionAudioName": "IdentifytheictureoftheSpacestation.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "Options": [
+                "spacestation.png",
+                "aeroplane.png",
+                "rocket.png",
+                "helicopter.png"
+            ],
+            "ReiterationAudioName": "spacestation.mp3",
+            "CorrectAudioName": "GREATWORK.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "1"
+        },
+        {
+            "QuestionAppearTime": "999999",
+            "IsQuestionText": true,
+            "QuestionText": "Who lives in the space station?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "Wholivsinthespacestation.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "Options": [
+                "constructionworker.png",
+                "painter.png",
+                "astronaut.png",
+                "farmer.png"
+            ],
+            "ReiterationAudioName": "astronauts.mp3",
+            "CorrectAudioName": "EXCELLENTJOB.mp3",
+            "WrongAudioName": "ohoh.mp3",
+            "CorrectAnswer": "3"
+        },
+        {
+            "QuestionAppearTime": "999999",
+            "IsQuestionText": true,
+            "QuestionText": "Solar panels",
+            "QuestionImageName": "",
+            "QuestionAudioName": "Identifyandtaponthepictureofsolarpanels.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "Options": [
+                "solarpanel.png",
+                "dishantenna.png",
+                "rocks.png",
+                "battery.png"
+            ],
+            "ReiterationAudioName": "solarpanelsconverttheenergyoftheSunintoelectricityforthespacestation.mp3",
+            "CorrectAudioName": "BRILLIANT.mp3",
+            "WrongAudioName": "nevermind,tryagain.mp3",
+            "CorrectAnswer": "1"
+        },
+        {
+            "QuestionAppearTime": "999999",
+            "IsQuestionText": true,
+            "QuestionText": "Where do astronauts sleep?",
+            "QuestionImageName": "",
+            "QuestionAudioName": "Wheredoastronautssleep.mp3",
+            "PlayQuestionAudio": true,
+            "IsOptionText": false,
+            "NumberOfOptions": 4,
+            "Options": [
+                "bed.png",
+                "chair.png",
+                "sofa.png",
+                "sleepingpod.png"
+            ],
+            "ReiterationAudioName": "inthesleepingpod.mp3",
+            "CorrectAudioName": "GREATWORK.mp3",
+            "WrongAudioName": "Oopsietryoncemore.mp3",
+            "CorrectAnswer": "4"
+        }
+    ]
+}

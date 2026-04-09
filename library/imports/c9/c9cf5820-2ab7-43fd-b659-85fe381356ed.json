@@ -37,7 +37,7 @@
       {
         "QuestionAppearTime": "999999",
         "IsQuestionText": true,
-        "QuestionText": "Who live in the space station?",
+        "QuestionText": "Who lives in the space station?",
         "QuestionImageName": "",
         "QuestionAudioName": "Wholivsinthespacestation.mp3",
         "PlayQuestionAudio": true,
