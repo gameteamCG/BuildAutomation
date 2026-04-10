@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Airplanes_SCIS_FEBRUARY ",
-      "totalLevel": "2",
+      "totalLevel": "1",
       "TitleImageName": "airplane.png",
       "introBgName": "sfdfgh.png",
       "bgmMusicName": "B2.mp3",
@@ -16,22 +16,13 @@
     },
     "questionData": [
       {
-        "questionText": "airplane taking off",
+        "questionText": "Draw your favourite animal and their young one.",
         "questionImageName": "blankk.png",
         "questionAudioName": "takingoff.mp3",
         "shouldPlayQuestionAudio": true,
-        "pictureImageName": "off.png",
+        "pictureImageName": "blankk.png",
         "needMoreTools": true,
         "correctAudioName": "EXCELLENTJOB.mp3"
-      },
-      {
-        "questionText": "airplane landing",
-        "questionImageName": "blankk.png",
-        "questionAudioName": "landing.mp3",
-        "shouldPlayQuestionAudio": true,
-        "pictureImageName": "assets32.png",
-        "needMoreTools": true,
-        "correctAudioName": "GOODJOB.mp3"
       }
     ]
   }

@@ -74,6 +74,11 @@ export default class GamePlay extends cc.Component {
         return GamePlay.instance
     }
 
+    OnPlayQues(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[0], false);
+    }
+
     start() {
     }
 
