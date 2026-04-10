@@ -66,7 +66,7 @@
         {
             "QuestionAppearTime": "999999999",
             "IsQuestionText": true,
-            "QuestionText": "11:30 o'clock",
+            "QuestionText": "11:30",
             "QuestionImageName": "",
             "QuestionAudioName": "british_8583295_7_tap-on-the-clock-that-.mp3",
             "PlayQuestionAudio": true,
