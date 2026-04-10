@@ -21,6 +21,8 @@ require('./assets/Framework/Scripts/Utilities/Utility');
 require('./assets/Framework/Scripts/Utils');
 require('./assets/Framework/WebView/Scripts/CheckForInitWebView');
 require('./assets/Framework/WebView/Scripts/WebView');
+require('./assets/Games/WhatWillHappenNext/Jaipuria2026/1_Jaipuria_Old/1_Jaipuria/JaipuriaJockey');
+require('./assets/Games/WhatWillHappenNext/Jaipuria2026/1_Jaipuria_Old/1_Jaipuria_old/Script');
 require('./assets/Games/WhatWillHappenNext/Scripts/Title');
 require('./assets/Games/WhatWillHappenNext/Scripts/endScreen');
 require('./assets/Games/WhatWillHappenNext/Scripts/gameplay');
