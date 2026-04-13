@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ludo",
+    "texture": "009be50a-58b8-49e0-aeda-13f681134dbf",
+    "atlas": "",
+    "rect": [
+      21,
+      110,
+      458,
+      280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
