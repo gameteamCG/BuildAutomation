@@ -29,7 +29,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
@@ -287,7 +288,7 @@ var Gameplay = /** @class */ (function (_super) {
                 if (StartGame_1.default.Instance.currentLevel == 1) {
                     var hand = _this.node.getChildByName("hand");
                     hand.setParent(_this.options.getChildByName(_this.correctAnswer[0].toString()));
-                    hand.setPosition(50, -100);
+                    hand.setPosition(50, 0);
                     hand.angle = 40;
                     hand.setParentWithSamePos(_this.node);
                     hand.active = true;
@@ -557,7 +558,7 @@ var Gameplay = /** @class */ (function (_super) {
             anim = ["celebration", "well_done"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
@@ -636,7 +637,7 @@ var Gameplay = /** @class */ (function (_super) {
                 anim = ["try_again"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_1", "negative_2"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "stallion") {
                 anim = ["negative_1", "negative_2"];

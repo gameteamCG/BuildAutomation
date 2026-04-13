@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Nursery_SB2_Language_10: Letters and Sounds Ii",
-      "totalLevel": "4",
+      "totalLevel": "3",
       "TitleImageName": "lettersandsoundsIi.png",
       "introBgName": "NUR.png",
       "bgmMusicName": "BG.mp3",
@@ -16,14 +16,14 @@
       {
         "questionLayout": "layout1",
         "questionBgName": "bgL1.png",
-        "questionAudioName": "27917647_7_identify-the-letter-i.mp3",
+        "questionAudioName": "Q1.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "B1.png",
-          "I1.png",
-          "U1.png"
+          "iguana-w1.png",
+          "iguana-a1.png",
+          "iguana-w2.png"
         ],
         "optionsBg": [
           "",
@@ -33,93 +33,58 @@
         "correctAudioName": "positive_1.mp3",
         "wrongAudioName": "negative_1.mp3",
         "reiterationAudioName": [
-          "I.mp3"
+          "i.mp3"
         ],
         "correctAnswerNum": "2"
       },
       {
-        "questionLayout": "layout2",
-        "questionBgName": "bg2.png",
-        "questionAudioName": "chooseupperI.mp3",
-        "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
-        "numberOfOptions": 5,
-        "options": [
-          "E2.png",
-          "I2.png",
-          "H2.png",
-          "I2.png",
-          "J2.png"
-        ],
-        "optionsBg": [
-          "",
-          "",
-          "",
-          "",
-          ""
-        ],
-        "correctAudioName": "positive_2.mp3",
-        "wrongAudioName": "negative_2.mp3",
-        "reiterationAudioName": [
-          "I.mp3",
-          "I.mp3"
-        ],
-        "correctAnswerNum": "24"
-      },
-      {
         "questionLayout": "layout1",
-        "questionBgName": "bg3.png",
-        "questionAudioName": "taponlowercaseI.mp3",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "Q2.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "I3.png",
-          "B3.png",
-          "M3.png",
-          "S3.png"
+          "igloo-a1.png",
+          "igloo-w1.png",
+          "igloo-w2.png",
+          "igloo-w3.png"
         ],
         "optionsBg": [
-          "",
           "",
           "",
           ""
         ],
-        "correctAudioName": "positive_3.mp3",
+        "correctAudioName": "positive_1.mp3",
         "wrongAudioName": "negative_1.mp3",
         "reiterationAudioName": [
-          "ISAYSIII.mp3"
+          "i.mp3"
         ],
         "correctAnswerNum": "1"
       },
       {
-        "questionLayout": "layout3",
-        "questionBgName": "bg5.png",
-        "questionAudioName": "taponpicwithsoundI.mp3",
+        "questionLayout": "layout1",
+        "questionBgName": "bg3.png",
+        "questionAudioName": "Q3.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 3,
         "options": [
-          "bag.png",
-          "giraffe.png",
-          "insect.png",
-          "inkpot.png",
-          "jelly.png"
+          "ink-w1.png",
+          "ink-w2.png",
+          "ink-a1.png"
         ],
         "optionsBg": [
-          "bag2.png",
-          "giraffe2.png",
-          "insect2.png",
-          "inkpot2.png",
-          "jelly2.png"
+          "",
+          "",
+          ""
         ],
-        "correctAudioName": "positive_4.mp3",
-        "wrongAudioName": "negative_2.mp3",
+        "correctAudioName": "positive_1.mp3",
+        "wrongAudioName": "negative_1.mp3",
         "reiterationAudioName": [
-          "INSECTS.mp3",
-          "inkpot.mp3"
+          "i.mp3"
         ],
-        "correctAnswerNum": "34"
+        "correctAnswerNum": "3"
       }
     ]
   }

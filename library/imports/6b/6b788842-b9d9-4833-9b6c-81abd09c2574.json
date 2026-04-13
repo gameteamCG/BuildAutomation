@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ink-a1",
+    "texture": "3a225ee7-d8d9-4d0b-8f0e-42d905e29f66",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      200,
+      205
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      200,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
