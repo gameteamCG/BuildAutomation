@@ -7566,7 +7566,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "3def528a-c7f8-4ab9-891e-3e5ca8ed89b2"
+      "__uuid__": "651ecb3d-29b3-4b4f-8ab5-8316fcae14df"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -8022,8 +8022,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 676.93,
-      "height": 986.1
+      "width": 848.12,
+      "height": 947.04
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8168,7 +8168,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "positive_1",
+    "defaultAnimation": "",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -8185,7 +8185,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "886c8d86-929f-4179-8a1c-5491da1ba83d"
+      "__uuid__": "e1b35266-5111-4a84-86b1-6e1bdd0175e2"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
