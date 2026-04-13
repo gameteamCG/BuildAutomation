@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "croc4",
+    "texture": "3c493b13-c85e-4520-9d94-b5221eb99eda",
+    "atlas": "",
+    "rect": [
+      7,
+      124,
+      487,
+      234
+    ],
+    "offset": [
+      0,
+      9.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

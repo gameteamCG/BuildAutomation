@@ -225,15 +225,17 @@ var Gameplay = /** @class */ (function (_super) {
                 }
             }
             if (_this.optionsLayout == "layout1") {
+                console.log("layout1");
                 var delay = 0;
                 var _loop_5 = function (i) {
                     _this.options.children[i].active = false;
                     _this.options.children[i].opacity = 255;
+                    _this.options.children[i].scale = 0.7;
                     _this.options.setPosition(0, 0);
                     _this.scheduleOnce(function () {
                         var element = _this.options.children[i];
                         var pos = element.getPosition();
-                        element.setPosition(pos.x, pos.y - 850);
+                        element.setPosition(pos.x + 80, pos.y - 850);
                         element.active = true;
                         cc.audioEngine.playEffect(_this.pop_audio, false);
                         cc.tween(element).to(0.65, { y: pos.y }, { easing: "sineInOut" }).start();
@@ -248,16 +250,17 @@ var Gameplay = /** @class */ (function (_super) {
                 });
             }
             else if (_this.optionsLayout == "layout2") {
+                console.log("layout2");
                 // this.OptionsLayout();
                 if (StartGame_1.default.Instance.currentLevel == 6) {
-                    _this.node.getChildByName("layout2").setPosition(-2.282, 110);
+                    _this.node.getChildByName("layout2").setPosition(-2.282, 100);
                     _this.node.getChildByName("plate").active = true;
                 }
                 else {
                     _this.node.getChildByName("basket").active = true;
                 }
                 //this.node.getChildByName("rope").active = true;
-                _this.arrangeChildren(_this.options, 20); // 10 is an example spacing value
+                _this.arrangeChildren(_this.options, -100); // 10 is an example spacing value
                 var delay = 0;
                 var _loop_6 = function (i) {
                     _this.scheduleOnce(function () {
@@ -274,10 +277,12 @@ var Gameplay = /** @class */ (function (_super) {
                 });
             }
             else if (_this.optionsLayout == "layout3") {
+                console.log("layout3");
                 var delay = 0;
                 var _loop_7 = function (i) {
                     _this.scheduleOnce(function () {
                         cc.audioEngine.playEffect(_this.pop_audio, false);
+                        _this.options.children[i].scale = 0.8;
                         cc.tween(_this.options.children[i]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
                     }, delay);
                     delay += 0.25;
@@ -582,7 +587,7 @@ var Gameplay = /** @class */ (function (_super) {
             anim = ["celebration", "well_done"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_1", "positive_2", "positive_3"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
@@ -661,7 +666,7 @@ var Gameplay = /** @class */ (function (_super) {
                 anim = ["try_again"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+                anim = ["negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3", "negative_1"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "stallion") {
                 anim = ["negative_1", "negative_2"];

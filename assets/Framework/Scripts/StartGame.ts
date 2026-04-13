@@ -32,6 +32,8 @@ const { ccclass, property } = cc._decorator;
 export default class startGame extends cc.Component {
 
     @property(cc.AudioClip)
+    play_Audio: cc.AudioClip = null;
+    @property(cc.AudioClip)
     BGM_audio: cc.AudioClip = null;
     @property(Number)
     volume: number = 1;
@@ -234,10 +236,10 @@ export default class startGame extends cc.Component {
                 this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
                 this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.TitleImageName), (spriteFrame) => {
-                    cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
                 this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.introBgName), (spriteFrame) => {
-                    cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     this.introBG = spriteFrame;
                 });
                 this.loadAudioClip(this.removeAudioExtension(jsonData.additionalData.bgmMusicName), (AudioClip) => {
@@ -256,7 +258,7 @@ export default class startGame extends cc.Component {
                     question.correctAudioName = this.removeAudioExtension(question.correctAudioName);
                     question.wrongAudioName = this.removeAudioExtension(question.wrongAudioName);
                     // question.reiterationAudioName = this.removeAudioExtension(question.reiterationAudioName);
-                    question.reiterationAudioName = question.reiterationAudioName.map(reiterationAudioName => this.removeAudioExtension(reiterationAudioName));
+                    // question.reiterationAudioName = question.reiterationAudioName.map(reiterationAudioName => this.removeAudioExtension(reiterationAudioName));
                 });
                 // Now you can use these variables within this script
                 this.logData(); // You can call a function to log the data or use it in other functions
@@ -385,16 +387,22 @@ export default class startGame extends cc.Component {
 
 
             if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
-                this.scheduleOnce(() => {
-                    cc.director.loadScene(this.NextSceneName);
-                }, 2);
+                // this.scheduleOnce(() => {
+                //     cc.director.loadScene(this.NextSceneName);
+                // }, 2);
             }
         }, 1);
 
         // this.OnTimer();
 
     }
-
+    OnPlayClick(_event: cc.Event) {
+        cc.audioEngine.playEffect(this.play_Audio, false);
+        let node: cc.Node = _event.target;
+        node.active = false;
+        node.getParent().getChildByName('loading').active = true;
+        cc.director.loadScene(this.NextSceneName);
+    }
     OnMusic(event: cc.Event) {
         if (event.target.children[0].activeInHierarchy) {
             this.isMusicOn = true;

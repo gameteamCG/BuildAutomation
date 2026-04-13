@@ -921,8 +921,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 172,
-      "height": 195
+      "width": 313,
+      "height": 461
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -934,14 +934,14 @@
       "ctor": "Float64Array",
       "array": [
         -10.804,
-        250,
+        200,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        0.5,
+        0.5,
         1
       ]
     },
@@ -1211,7 +1211,7 @@
         "__id__": 28
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 30
@@ -3105,7 +3105,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 220.78,
+      "width": 242.4,
       "height": 81.9
     },
     "_anchorPoint": {
@@ -3163,7 +3163,7 @@
     "_lineHeight": 65,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "3d5b70fb-1eff-4289-a46a-80045810f642"
+      "__uuid__": "ef42077d-5670-41a9-b27c-e44e969123f4"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -3223,57 +3223,57 @@
     "tlc_font": null,
     "postive_VO": [
       {
-        "__uuid__": "2b9b51f6-bf19-460d-8c40-2eb2ab93b64e"
+        "__uuid__": "e6e83b1c-b21c-47be-8d62-75dd8b672995"
       },
       {
-        "__uuid__": "2d859d97-3a4d-4a13-bb33-65763115cba2"
+        "__uuid__": "d76e88c8-ca15-4483-8840-97443b483efa"
       },
       {
-        "__uuid__": "f29607d1-7014-42ab-9fc0-fefbc8ff2125"
+        "__uuid__": "2414d116-c229-4f68-bd7d-0da213563f2f"
       },
       {
-        "__uuid__": "468b76a0-cf2d-4b5e-be72-757425317524"
+        "__uuid__": "ac42c0b8-255d-429c-b2b4-3fd4b1e5975c"
       },
       {
-        "__uuid__": "d42cba5a-3054-406b-babb-c8393611c4bc"
+        "__uuid__": "8492280f-6c45-443f-a704-3f86e7e3b909"
       },
       {
-        "__uuid__": "d5f481e5-7477-4f5d-a038-6936073221c1"
+        "__uuid__": "bb534046-1216-44a7-8e8f-f198836f3ae4"
       },
       {
-        "__uuid__": "9c608c7c-a648-4f92-b767-2e215904429a"
+        "__uuid__": "f60b8ca9-3690-4e4a-97ef-947637ebad8e"
       },
       {
-        "__uuid__": "86e68356-b00c-4c35-8549-0f50d49c51d0"
+        "__uuid__": "779f0073-f542-4eb8-a82f-9b806ea1bdfa"
       },
       {
-        "__uuid__": "3db01c50-b9aa-41b1-8227-10e0ebe9dfb3"
+        "__uuid__": "82ca1b70-ef4f-47f5-9046-343ace603695"
       },
       {
-        "__uuid__": "693020fb-dfd4-4615-96d1-79148ed3baeb"
+        "__uuid__": "e6e83b1c-b21c-47be-8d62-75dd8b672995"
       }
     ],
     "negative_VO": [
       {
-        "__uuid__": "ebce7bee-9d32-4cff-afb8-990af3905312"
+        "__uuid__": "977094ac-50c4-490d-8509-fce2ddcc6668"
       },
       {
-        "__uuid__": "bf9df0e8-fb63-4a70-bca4-c06f1d08c80b"
+        "__uuid__": "5c95ef18-30d7-4d10-a6da-7c191105466a"
       },
       {
-        "__uuid__": "b4b3f2fd-c898-4ced-b754-ec40f44c90c7"
+        "__uuid__": "9774146f-f3b3-4ba3-858c-a58b0be694ca"
       },
       {
-        "__uuid__": "e03a07ed-f6de-4d6a-b77e-ed7ca83ad3fd"
+        "__uuid__": "d6b94942-6515-464d-9492-d9aaf8515662"
       },
       {
-        "__uuid__": "70fd8204-6ee9-470a-b493-f697f3584ac1"
+        "__uuid__": "ba2f931e-ce80-4bb3-97d6-69532e49277b"
       },
       {
-        "__uuid__": "089aa5ab-1843-45f2-ad3d-a1737e434236"
+        "__uuid__": "55219ed1-eaf9-4d44-abaf-7ae0fbf0c2aa"
       },
       {
-        "__uuid__": "d7c970da-9a8f-4993-a38f-d38b178b3b01"
+        "__uuid__": "948b58a2-f2cb-4a14-9682-6e52e9bc65b1"
       }
     ],
     "pop_audio": {

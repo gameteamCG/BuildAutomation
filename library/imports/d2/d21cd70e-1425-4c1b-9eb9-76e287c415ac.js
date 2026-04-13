@@ -28,6 +28,7 @@ var startGame = /** @class */ (function (_super) {
     __extends(startGame, _super);
     function startGame() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.play_Audio = null;
         _this.BGM_audio = null;
         _this.volume = 1;
         _this.NextSceneName = "1";
@@ -198,10 +199,10 @@ var startGame = /** @class */ (function (_super) {
                 _this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
                 _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.TitleImageName), function (spriteFrame) {
-                    cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
                 _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.introBgName), function (spriteFrame) {
-                    cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     _this.introBG = spriteFrame;
                 });
                 _this.loadAudioClip(_this.removeAudioExtension(jsonData.additionalData.bgmMusicName), function (AudioClip) {
@@ -220,7 +221,7 @@ var startGame = /** @class */ (function (_super) {
                     question.correctAudioName = _this.removeAudioExtension(question.correctAudioName);
                     question.wrongAudioName = _this.removeAudioExtension(question.wrongAudioName);
                     // question.reiterationAudioName = this.removeAudioExtension(question.reiterationAudioName);
-                    question.reiterationAudioName = question.reiterationAudioName.map(function (reiterationAudioName) { return _this.removeAudioExtension(reiterationAudioName); });
+                    // question.reiterationAudioName = question.reiterationAudioName.map(reiterationAudioName => this.removeAudioExtension(reiterationAudioName));
                 });
                 // Now you can use these variables within this script
                 _this.logData(); // You can call a function to log the data or use it in other functions
@@ -333,12 +334,19 @@ var startGame = /** @class */ (function (_super) {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
-                _this.scheduleOnce(function () {
-                    cc.director.loadScene(_this.NextSceneName);
-                }, 2);
+                // this.scheduleOnce(() => {
+                //     cc.director.loadScene(this.NextSceneName);
+                // }, 2);
             }
         }, 1);
         // this.OnTimer();
+    };
+    startGame.prototype.OnPlayClick = function (_event) {
+        cc.audioEngine.playEffect(this.play_Audio, false);
+        var node = _event.target;
+        node.active = false;
+        node.getParent().getChildByName('loading').active = true;
+        cc.director.loadScene(this.NextSceneName);
     };
     startGame.prototype.OnMusic = function (event) {
         if (event.target.children[0].activeInHierarchy) {
@@ -383,6 +391,9 @@ var startGame = /** @class */ (function (_super) {
     };
     var startGame_1;
     startGame.instance = null;
+    __decorate([
+        property(cc.AudioClip)
+    ], startGame.prototype, "play_Audio", void 0);
     __decorate([
         property(cc.AudioClip)
     ], startGame.prototype, "BGM_audio", void 0);

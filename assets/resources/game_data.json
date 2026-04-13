@@ -38,9 +38,8 @@
             "questionAudioName": "L2.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
-            "numberOfOptions": 5,
+            "numberOfOptions": 4,
             "options": [
-                "",
                 "",
                 "",
                 "",
@@ -50,13 +49,12 @@
                 "c1.png",
                 "c2.png",
                 "c3.png",
-                "c4.png",
                 "c5.png"
             ],
             "correctAudioName": "EXCELLENTJOB.mp3",
             "wrongAudioName": "nevermind,tryagain.mp3",
             "reiterationAudioName": "A.mp3",
-            "correctAnswerNum": "135"
+            "correctAnswerNum": "134"
         },
         {
             "questionLayout": "layout1",
@@ -74,10 +72,9 @@
             ],
             "optionsBg": [
                 "r1_1.png",
-                "r2_1.png",
-                "r3_1.png",
-                "r4_1.png",
-                "r5_1.png"
+                "r1_2.png",
+                "r1_3.png",
+                "r1_4.png"
             ],
             "correctAudioName": "FANTASTIC.mp3",
             "wrongAudioName": "ohoh.mp3",
@@ -86,8 +83,8 @@
         },
         {
             "questionLayout": "layout1",
-            "questionBgName": "bg 4.png",
-            "questionAudioName": "L4.mp3",
+            "questionBgName": "bg4.png",
+            "questionAudioName": "tap on all the ants with the uppercase letter A.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 4,
@@ -98,15 +95,15 @@
                 ""
             ],
             "optionsBg": [
-                "ant_1.png",
-                "ant_2.png",
-                "ant_3.png",
-                "ant_4.png"
+                "antnew.png",
+                "antnew.png",
+                "antnew.png",
+                "antnew.png"
             ],
             "correctAudioName": "BRILLIANT.mp3",
             "wrongAudioName": "nevermind,tryagain.mp3",
             "reiterationAudioName": "A.mp3",
-            "correctAnswerNum": "13"
+            "correctAnswerNum": "1234"
         },
         {
             "questionLayout": "layout1",
@@ -125,8 +122,8 @@
             "optionsBg": [
                 "croc1.png",
                 "croc2.png",
-                "croc1.png",
-                "croc3.png"
+                "croc3.png",
+                "croc4.png"
             ],
             "correctAudioName": "FANTASTIC.mp3",
             "wrongAudioName": "ohoh.mp3",
@@ -135,7 +132,7 @@
         },
         {
             "questionLayout": "layout2",
-            "questionBgName": "bg 6.png",
+            "questionBgName": "bg6.png",
             "questionAudioName": "L6.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
@@ -148,15 +145,15 @@
                 ""
             ],
             "optionsBg": [
-                "ap1.png",
-                "a2.png",
-                "a1.png",
-                "ap2.png"
+                "apple1.png",
+                "apple1.png",
+                "apple1.png",
+                "apple1.png"
             ],
             "correctAudioName": "EXCELLENTJOB.mp3",
             "wrongAudioName": "nevermind,tryagain.mp3",
             "reiterationAudioName": "A.mp3",
-            "correctAnswerNum": "23"
+            "correctAnswerNum": "1234"
         }
     ]
 }
