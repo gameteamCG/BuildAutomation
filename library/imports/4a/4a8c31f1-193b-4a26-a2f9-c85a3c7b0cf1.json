@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q3taste",
+    "texture": "ebd99faa-beb3-49fb-8d11-9a34d6156dbd",
+    "atlas": "",
+    "rect": [
+      118,
+      169,
+      232,
+      92
+    ],
+    "offset": [
+      4,
+      15.5
+    ],
+    "originalSize": [
+      460,
+      461
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
