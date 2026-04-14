@@ -16,8 +16,8 @@
     },
     "questionData": [
       {
-        "questionText": "odd one out",
-        "questionAudioName": "identifyandtapontheoddoneout.mp3",
+        "questionText": "Same and different",
+        "questionAudioName": "identify the flower that is different.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Questioncard.png",
         "isOptionText": false,
@@ -35,8 +35,8 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "odd one out",
-        "questionAudioName": "identifyandtapontheoddoneout.mp3",
+        "questionText": "Same and different",
+        "questionAudioName": "identify the flower that is different.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Questioncard.png",
         "isOptionText": false,
@@ -54,8 +54,8 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "odd one out",
-        "questionAudioName": "identifyandtapontheoddoneout.mp3",
+        "questionText": "Same and different",
+        "questionAudioName": "identify the flower that is different.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Questioncard.png",
         "isOptionText": false,
@@ -73,8 +73,8 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "odd one out",
-        "questionAudioName": "identifyandtapontheoddoneout.mp3",
+        "questionText": "Same and different",
+        "questionAudioName": "identify the flower that is different.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Questioncard.png",
         "isOptionText": false,
@@ -84,7 +84,7 @@
           "7.png",
           "7.png",
           "7.png",
-          "8.png"
+          "1.png"
         ],
         "correctAudios": [
           "evo.mp3"
@@ -92,18 +92,18 @@
         "correctAnswerNum": "4"
       },
       {
-        "questionText": "odd one out",
-        "questionAudioName": "identifyandtapontheoddoneout.mp3",
+        "questionText": "Same and different",
+        "questionAudioName": "identify the flower that is different.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Questioncard.png",
         "isOptionText": false,
         "isOptionBG": true,
         "numberOfOptions": 4,
         "options": [
-          "9.png",
-          "10.png",
-          "9.png",
-          "9.png"
+          "6.png",
+          "7.png",
+          "6.png",
+          "6.png"
         ],
         "correctAudios": [
           "evo.mp3"
