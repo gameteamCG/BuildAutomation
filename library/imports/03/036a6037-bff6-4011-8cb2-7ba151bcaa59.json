@@ -7,7 +7,7 @@
     "AdditionalData": {
       "GameID": "Letters and sounds Ii",
       "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/I_Song_1738237511252.mp4",
-      "TitleImageName": "Asset 34.png",
+      "TitleImageName": "Asset 231 (1).png",
       "IntroAudio1Name": "",
       "IntroAudio2Name": "",
       "JockeyName": "puzzle",
@@ -18,14 +18,14 @@
         "QuestionAppearTime": "99999",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "identify.png",
+        "QuestionImageName": "identify_new1.png",
         "QuestionAudioName": "letterwithlettersoundII.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
         "Options": [
-          "Ff.png",
-          "Ii.png"
+          "z_new1.png",
+          "i_new1.png"
         ],
         "ReiterationAudioName": "I.mp3",
         "CorrectAudioName": "positive_1.mp3",
@@ -36,7 +36,7 @@
         "QuestionAppearTime": "99999",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "QIi.png",
+        "QuestionImageName": "i_new2.png",
         "QuestionAudioName": "tapon.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
@@ -54,14 +54,14 @@
         "QuestionAppearTime": "99999",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "inkpot.png",
+        "QuestionImageName": "ink_new1.png",
         "QuestionAudioName": "identifyforgivenpicture.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
         "Options": [
-          "Rr.png",
-          "Ii.png"
+          "r_new1.png",
+          "i_new1.png"
         ],
         "ReiterationAudioName": "inkpot.mp3",
         "CorrectAudioName": "positive_3.mp3",
