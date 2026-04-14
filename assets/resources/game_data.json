@@ -19,8 +19,8 @@
       "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "Ss",
-        "Ee"
+        "s",
+        "e"
       ],
       "ReiterationAudioName": "S SAYS SS.mp3",
       "CorrectAudioName": "EXCELLENTJOB.mp3",
@@ -30,7 +30,7 @@
     {
       "QuestionAppearTime": "",
       "IsQuestionText": true,
-      "QuestionText": "Ss",
+      "QuestionText": "Letter s",
       "QuestionImageName": "",
       "QuestionAudioName": "Tap on the picture that begins with letter sound s.mp3",
       "PlayQuestionAudio": true,
@@ -55,8 +55,8 @@
       "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "Ss",
-        "Mm"
+        "s",
+        "m"
       ],
       "ReiterationAudioName": "s.mp3",
       "CorrectAudioName": "GOODEFFORT.mp3",

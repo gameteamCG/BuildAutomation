@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 219.8000030517578,
+            "width": 220,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 219.8000030517578,
-                "height": 359.38751220703125,
+                "width": 220,
+                "height": 359.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 219.8000030517578,
-                "height": 352.20001220703125,
+                "width": 220,
+                "height": 352.2875061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 868.4249877929688,
+            "width": 868,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 868.4249877929688,
-                "height": 359.38751220703125,
+                "width": 868,
+                "height": 359.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 868.4249877929688,
-                "height": 352.20001220703125,
+                "width": 868,
+                "height": 352.2875061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 441.76251220703125,
+            "width": 442,
             "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
@@ -88,9 +88,7 @@
         "cocos-services",
         "node-library"
       ]
-    },
-    " common-asset-worker-worker": {},
-    "window-1772359918649": {}
+    }
   },
   "panels": {
     "project-settings": {
