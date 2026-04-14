@@ -12,7 +12,7 @@
   "height": 1080,
   "platformSettings": {},
   "subMetas": {
-    "LKG": {
+    "LKG1": {
       "ver": "1.0.6",
       "uuid": "e2251eee-8604-4f1b-8a6f-e0b4592a7bd5",
       "importer": "sprite-frame",
@@ -24,10 +24,10 @@
       "offsetY": 0,
       "trimX": 0,
       "trimY": 0,
-      "width": 1920,
-      "height": 1080,
-      "rawWidth": 1920,
-      "rawHeight": 1080,
+      "width": 1921,
+      "height": 1081,
+      "rawWidth": 1921,
+      "rawHeight": 1081,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

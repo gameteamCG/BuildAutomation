@@ -3106,7 +3106,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 220.78,
+      "width": 188.32,
       "height": 81.9
     },
     "_anchorPoint": {
@@ -3158,8 +3158,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Letter Aa",
-    "_N$string": "Letter Aa",
+    "_string": "Letter a",
+    "_N$string": "Letter a",
     "_fontSize": 60,
     "_lineHeight": 65,
     "_enableWrapText": true,

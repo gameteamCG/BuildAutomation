@@ -315,15 +315,13 @@ export default class Gameplay extends cc.Component {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
+            let _laypout1posY: number[] = [-150, 100, -150, 100, 50];
             if (startGame.Instance.currentLevel == 5) {
-                console.log("-------------------");
-                _laypout1posY = [-250, -100, -250, -100, -250]
+                _laypout1posY = [-250, -100, -250, -100, -250];
             }
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }
-
         }
 
         _template.destroy();
@@ -352,7 +350,7 @@ export default class Gameplay extends cc.Component {
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
             this.correctCounter++;
             cc.tween(node)
-                .to(1, { y: 1200 }, { easing: "sineInOut" })
+                .to(1, { x: -1200 }, { easing: "sineInOut" })
                 .call(() => {
                     if (this.reiterationAudio[audioNum]) {
                         cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);

@@ -64,9 +64,8 @@
             "questionAudioName": "L3.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
-            "numberOfOptions": 5,
+            "numberOfOptions": 4,
             "options": [
-                "",
                 "",
                 "",
                 "",
@@ -76,8 +75,7 @@
                 "r1_1.png",
                 "r2_1.png",
                 "r3_1.png",
-                "r4_1.png",
-                "r5_1.png"
+                "r4_1.png"
             ],
             "correctAudioName": "FANTASTIC.mp3",
             "wrongAudioName": "ohoh.mp3",
@@ -99,14 +97,14 @@
             ],
             "optionsBg": [
                 "ant_1.png",
-                "ant_2.png",
-                "ant_3.png",
-                "ant_4.png"
+                "ant_1.png",
+                "ant_1.png",
+                "ant_1.png"
             ],
             "correctAudioName": "BRILLIANT.mp3",
             "wrongAudioName": "nevermind,tryagain.mp3",
             "reiterationAudioName": "A.mp3",
-            "correctAnswerNum": "13"
+            "correctAnswerNum": "1234"
         },
         {
             "questionLayout": "layout1",

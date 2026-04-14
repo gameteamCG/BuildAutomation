@@ -333,9 +333,8 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
+            var _laypout1posY = [-150, 100, -150, 100, 50];
             if (StartGame_1.default.Instance.currentLevel == 5) {
-                console.log("-------------------");
                 _laypout1posY = [-250, -100, -250, -100, -250];
             }
             for (var i = 0; i < _optionParent.children.length; i++) {
@@ -366,7 +365,7 @@ var Gameplay = /** @class */ (function (_super) {
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
             this.correctCounter++;
             cc.tween(node)
-                .to(1, { y: 1200 }, { easing: "sineInOut" })
+                .to(1, { x: -1200 }, { easing: "sineInOut" })
                 .call(function () {
                 if (_this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
