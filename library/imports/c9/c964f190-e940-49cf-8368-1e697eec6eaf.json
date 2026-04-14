@@ -7,7 +7,7 @@
     "AdditionalData": {
       "GameID": "Nursery_SB4_Language_7: LetterTt LettersAndSounds",
       "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Tsong66_1741332345373.mp4",
-      "TitleImageName": "Asset 85(1).png",
+      "TitleImageName": "Asset 231.png",
       "IntroAudio1Name": "",
       "IntroAudio2Name": "",
       "JockeyName": "puzzle",
@@ -24,8 +24,8 @@
         "IsOptionText": false,
         "NumberOfOptions": 2,
         "Options": [
-          "Asset8.png",
-          "Asset9.png"
+          "t_new1.png",
+          "j_new.png"
         ],
         "ReiterationAudioName": "TSAYSTT.mp3",
         "CorrectAudioName": "positive_1.mp3",
@@ -36,7 +36,7 @@
         "QuestionAppearTime": "99999",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "Asset7.png",
+        "QuestionImageName": "t_new2.png",
         "QuestionAudioName": "taponthepicturethatbeginswithlettersoundt.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
@@ -54,7 +54,7 @@
         "QuestionAppearTime": "99999",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "Asset7.png",
+        "QuestionImageName": "t_new2.png",
         "QuestionAudioName": "tap-on-the-animal-that-begins-with-the-letter-sound_TTT.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
