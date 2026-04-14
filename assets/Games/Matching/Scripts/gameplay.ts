@@ -1,4 +1,4 @@
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -144,12 +144,14 @@ export default class gameplay extends cc.Component {
             // cc.director.preloadScene(globalVariables.Instance.currentLevel.toString());
         }
         console.log(`levelStarted--` + globalVariables.Instance.currentLevel);
-
-        this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
+        this.updatebg();
+        // this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
         this.totalAnswers = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfLeftOptions;
         this.UpdateJSONData();
     }
-
+    updatebg() {
+        this.node.getChildByName("bg").children[(globalVariables.Instance.currentLevel) - 1].active = true;
+    }
     UpdateJSONData() {
         if (startGame.Instance.isDemoGame) {
             cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (err, audioClip) => {
@@ -597,14 +599,14 @@ export default class gameplay extends cc.Component {
         // cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -170, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -140, y: 0 }, { easing: "sineInOut" }).start();
 
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 170, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 110, y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(() => {
             cc.audioEngine.playEffect(this.positiveSound[0], false);
         }, 0.2)
