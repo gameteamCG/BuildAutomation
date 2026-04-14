@@ -88,7 +88,9 @@
         "cocos-services",
         "node-library"
       ]
-    }
+    },
+    " common-asset-worker-worker": {},
+    " load-media-worker": {}
   },
   "panels": {
     "project-settings": {
