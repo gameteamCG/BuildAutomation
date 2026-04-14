@@ -1,0 +1,124 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "स्वर - ऊ_LKG_7",
+      "totalLevel": "7",
+      "TitleImageName": "sawuu.png",
+      "introBgName": "ukg.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "123.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "स्वर - ऊ",
+        "questionImageName": "dfiud.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "height.png",
+          "fsdfdf.png"
+        ],
+        "correctAudioName": "ऊँचा .mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "स्वर - ऊ",
+        "questionImageName": "dfiud.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "slipper.png",
+          "camel.png"
+        ],
+        "correctAudioName": "ऊँट .mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "स्वर - ऊ",
+        "questionImageName": "dfiud.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "dfdf.png",
+          "otter.png"
+        ],
+        "correctAudioName": "ऊदबिलाव .mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "स्वर - ऊ",
+        "questionImageName": "dfiud.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "fefdd.png",
+          "wool.png"
+        ],
+        "correctAudioName": "ऊन.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "स्वर - ऊ",
+        "questionImageName": "dfiud.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "ucha.png",
+          "vdff.png"
+        ],
+        "correctAudioName": "ऊपर .mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "स्वर - ऊ",
+        "questionImageName": "dfiud.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "ubalna.png",
+          "chai.png"
+        ],
+        "correctAudioName": "ubaalna.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "स्वर - ऊ",
+        "questionImageName": "dfiud.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common-asset.png",
+        "isOptionText": false,
+        "numberOfOptions": 2,
+        "options": [
+          "bulb.png",
+          "drum.png"
+        ],
+        "correctAudioName": "ऊर्जा .mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

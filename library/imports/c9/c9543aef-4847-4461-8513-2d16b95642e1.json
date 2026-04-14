@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dfiud",
+    "texture": "357681f3-6aae-4d8f-aeb6-3dbae21dd143",
+    "atlas": "",
+    "rect": [
+      119,
+      190,
+      245,
+      182
+    ],
+    "offset": [
+      -9,
+      -30.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

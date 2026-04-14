@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sawuu",
+    "texture": "9800ca7a-8641-4c55-9fc8-859e1f76cc45",
+    "atlas": "",
+    "rect": [
+      15,
+      34,
+      470,
+      181
+    ],
+    "offset": [
+      7.5,
+      -6
+    ],
+    "originalSize": [
+      485,
+      237
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
