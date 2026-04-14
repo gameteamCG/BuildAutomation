@@ -234,8 +234,8 @@ export default class Gameplay extends cc.Component {
             else if (this.optionsLayout == "layout2") {
                 // this.OptionsLayout();
                 this.node.getChildByName("basket").active = true;
-                this.node.getChildByName("rope").active = true;
-                // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
+                //this.node.getChildByName("rope").active = true;
+                this.arrangeChildren(this.options, 160); // 10 is an example spacing value
                 let delay = 0;
                 for (let i = 0; i < this.options.children.length; i++) {
                     this.scheduleOnce(() => {
@@ -291,7 +291,7 @@ export default class Gameplay extends cc.Component {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
+            let _laypout1posY: number[] = [-10, -230, -10, 0, 50];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }
@@ -300,7 +300,16 @@ export default class Gameplay extends cc.Component {
 
 
     }
-
+    playButtonSound(event: cc.Event) {
+        if (!this.canTouch) {
+            return;
+        }
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.questionAudio, false)
+        this.scheduleOnce(() => {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration)
+    }
     onTouchStart_layout1(event: cc.Event.EventTouch) {
         if (!this.canTouch) {
             return;

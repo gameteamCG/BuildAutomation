@@ -250,8 +250,8 @@ var Gameplay = /** @class */ (function (_super) {
             else if (_this.optionsLayout == "layout2") {
                 // this.OptionsLayout();
                 _this.node.getChildByName("basket").active = true;
-                _this.node.getChildByName("rope").active = true;
-                // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
+                //this.node.getChildByName("rope").active = true;
+                _this.arrangeChildren(_this.options, 160); // 10 is an example spacing value
                 var delay = 0;
                 var _loop_6 = function (i) {
                     _this.scheduleOnce(function () {
@@ -312,12 +312,22 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
+            var _laypout1posY = [-10, -230, -10, 0, 50];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }
         }
         _template.destroy();
+    };
+    Gameplay.prototype.playButtonSound = function (event) {
+        if (!this.canTouch) {
+            return;
+        }
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.questionAudio, false);
+        this.scheduleOnce(function () {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration);
     };
     Gameplay.prototype.onTouchStart_layout1 = function (event) {
         var _this = this;

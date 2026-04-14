@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ghopper",
+    "texture": "3992b437-a0e6-4b94-a30f-2d7fc351070f",
+    "atlas": "",
+    "rect": [
+      97,
+      135,
+      306,
+      232
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

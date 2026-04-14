@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "crabwa",
+    "texture": "a3f571ca-1d5f-4c61-9017-14cc2e422cca",
+    "atlas": "",
+    "rect": [
+      76,
+      111,
+      350,
+      280
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

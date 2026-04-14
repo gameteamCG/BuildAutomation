@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "teeth",
+    "texture": "6fc0b405-dc3e-466b-9e76-3b21731cf3a2",
+    "atlas": "",
+    "rect": [
+      48,
+      32,
+      158,
+      204
+    ],
+    "offset": [
+      2,
+      -9
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

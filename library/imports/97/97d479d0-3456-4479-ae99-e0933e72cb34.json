@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "truck box",
+    "texture": "27d0aad3-312b-494c-b993-b8fba9c7d1d1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      403,
+      205
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      403,
+      205
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

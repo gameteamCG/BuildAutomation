@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ghopper_grey",
+    "texture": "08043d77-a3f1-4d22-855e-9649dae7ccb8",
+    "atlas": "",
+    "rect": [
+      97,
+      135,
+      306,
+      232
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
