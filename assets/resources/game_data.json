@@ -10,8 +10,8 @@
     },
     "questionData": [
         {
-            "questionText": "‘a’ family words",
-            "questionImageName": "q-map.png",
+            "questionText": "‘a’ word families",
+            "questionImageName": "q_map.png",
             "questionAudioName": "Taponheafamilywords.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "c_a.png",
@@ -25,8 +25,8 @@
             "correctAnswerNum": "1"
         },
         {
-            "questionText": "‘a’ family words",
-            "questionImageName": "a.png",
+            "questionText": "‘a’ word families",
+            "questionImageName": "q_cap.png",
             "questionAudioName": "Taponheafamilywords.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "c_a.png",
@@ -40,8 +40,8 @@
             "correctAnswerNum": "1"
         },
         {
-            "questionText": "‘a’ family words",
-            "questionImageName": "a.png",
+            "questionText": "‘a’ word families",
+            "questionImageName": "q_van.png",
             "questionAudioName": "Taponheafamilywords.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "c_a.png",
@@ -55,8 +55,8 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "‘a’ family words",
-            "questionImageName": "a.png",
+            "questionText": "‘a’ word families",
+            "questionImageName": "q_jam.png",
             "questionAudioName": "Taponheafamilywords.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "c_a.png",
