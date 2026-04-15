@@ -11,7 +11,7 @@
         {
             "questionLayout": "layout1",
             "questionBgName": "bg1.png",
-            "questionAudioName": "identify_the_picture.mp3",
+            "questionAudioName": "Lvl1.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 3,
@@ -28,15 +28,15 @@
             "correctAudioName": "INCREDIBLE.mp3",
             "wrongAudioName": "nevermindtryagain.mp3",
             "reiterationAudioName": [
-                "t_says_t.mp3",
-                "t_says_t.mp3"
+                "t.mp3",
+                "t.mp3"
             ],
             "correctAnswerNum": "12"
         },
         {
             "questionLayout": "layout2",
             "questionBgName": "bg2.png",
-            "questionAudioName": "identify_the_picture.mp3",
+            "questionAudioName": "Lvl2.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 3,
@@ -53,9 +53,9 @@
             "correctAudioName": "IMPRESSIVEWORK.mp3",
             "wrongAudioName": "ohoh.mp3",
             "reiterationAudioName": [
-                "t_says_t.mp3",
-                "t_says_t.mp3",
-                "t_says_t.mp3"
+                "t.mp3",
+                "t.mp3",
+                "t.mp3"
             ],
             "correctAnswerNum": "123"
         },
@@ -110,7 +110,7 @@
         {
             "questionLayout": "layout1",
             "questionBgName": "bg3.png",
-            "questionAudioName": "identify_the_picture.mp3",
+            "questionAudioName": "Lvl1.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 3,
@@ -127,8 +127,8 @@
             "correctAudioName": "INCREDIBLE.mp3",
             "wrongAudioName": "nevermindtryagain.mp3",
             "reiterationAudioName": [
-                "t_says_t.mp3",
-                "t_says_t.mp3"
+                "t.mp3",
+                "t.mp3"
             ],
             "correctAnswerNum": "13"
         },
