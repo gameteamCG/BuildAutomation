@@ -32,7 +32,7 @@
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 747.9874877929688,
+                    "width": 656,
                     "height": 445.6000061035156,
                     "type": "panel",
                     "active": 0,
@@ -41,7 +41,7 @@
                     ]
                   },
                   {
-                    "width": 204,
+                    "width": 296,
                     "height": 445.6000061035156,
                     "type": "panel",
                     "active": 0,
