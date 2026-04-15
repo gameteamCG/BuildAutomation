@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -560,13 +560,13 @@ var gameplay = /** @class */ (function (_super) {
         // cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -170, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -145, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         // cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 170, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 145, y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             cc.audioEngine.playEffect(_this.positiveSound[0], false);
         }, 0.2);
