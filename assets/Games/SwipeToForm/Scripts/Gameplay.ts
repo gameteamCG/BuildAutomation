@@ -1,5 +1,4 @@
-
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -182,7 +181,10 @@ export default class Gameplay extends cc.Component {
                 this.optionsNode.children[i].opacity = 255;
                 this.scheduleOnce(() => {
                     cc.audioEngine.playEffect(this.pop_sound, false);
-                    cc.tween(this.optionsNode.children[i]).to(0.3, { scale: 1 }, { easing: 'backInOut' }).start();
+                    if (globalVariables.Instance.currentLevel == 5) {
+                        this.optionsNode.y = -60;
+                    }
+                    cc.tween(this.optionsNode.children[i]).to(0.3, { scale: 0.7 }, { easing: 'backInOut' }).start();
                     if (i == this.optionsNode.children.length - 1) {
                         this.scheduleOnce(() => {
                             this.SubcribeEvents();
@@ -490,7 +492,7 @@ export default class Gameplay extends cc.Component {
                     VOduration = this.correctVO.duration;
                 }
                 this.scheduleOnce(() => {
-                    cc.audioEngine.playEffect(this.correctVO, false);
+                    // cc.audioEngine.playEffect(this.correctVO, false);
                     // this.callJockey();
                     this.scheduleOnce(() => {
                         // this.LoadNextQuestion();
