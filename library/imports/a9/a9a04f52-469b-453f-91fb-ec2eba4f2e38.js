@@ -295,6 +295,19 @@ var Gameplay = /** @class */ (function (_super) {
                 }
             }, 1);
         }, 1);
+        if (StartGame_1.default.Instance.currentLevel == 4) {
+            this.node.getChildByName("shortQBar").active = false;
+        }
+    };
+    Gameplay.prototype.playButtonSound = function (event) {
+        if (!this.canTouch) {
+            return;
+        }
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.questionAudio, false);
+        this.scheduleOnce(function () {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration);
     };
     Gameplay.prototype.generateOptions = function (_template, _optionParent, _optionCount) {
         for (var i = 0; i < _optionCount; i++) {

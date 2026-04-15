@@ -123,12 +123,12 @@
           "L4 (3).png",
           "L4 (1).png"
         ],
-        "correctAudioName": "igloo, iguana, ice-cream.mp3",
+        "correctAudioName": "FANTASTIC.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "BRILLIANT.mp3",
-          "EXCELLENTJOB.mp3",
-          "FANTASTIC.mp3"
+          "iguana.mp3",
+          "igloo.mp3",
+          "icecream.mp3"
         ],
         "correctAnswerNum": "245"
       }

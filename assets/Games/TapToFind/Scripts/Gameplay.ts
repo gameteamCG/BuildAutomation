@@ -271,10 +271,23 @@ export default class Gameplay extends cc.Component {
                     hand.active = true;
                     hand.getComponent(cc.Animation).play();
                 }
+
             }, 1);
         }, 1);
+        if (startGame.Instance.currentLevel == 4) {
+            this.node.getChildByName("shortQBar").active = false;
+        }
     }
-
+    playButtonSound(event: cc.Event) {
+        if (!this.canTouch) {
+            return;
+        }
+        event.target.getComponent(cc.Button).interactable = false;
+        cc.audioEngine.playEffect(this.questionAudio, false)
+        this.scheduleOnce(() => {
+            event.target.getComponent(cc.Button).interactable = true;
+        }, this.questionAudio.duration)
+    }
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
         for (let i = 0; i < _optionCount; i++) {
             let _option: cc.Node = cc.instantiate(_template);
