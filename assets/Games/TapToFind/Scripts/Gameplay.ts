@@ -274,9 +274,9 @@ export default class Gameplay extends cc.Component {
 
             }, 1);
         }, 1);
-        if (startGame.Instance.currentLevel == 4) {
-            this.node.getChildByName("shortQBar").active = false;
-        }
+        // if (startGame.Instance.currentLevel == 4) {
+        //     this.node.getChildByName("shortQBar").active = false;
+        // }
     }
     playButtonSound(event: cc.Event) {
         if (!this.canTouch) {
@@ -298,7 +298,8 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+
+            this.arrangeGridChildren(this.options, 20, _optionCount);
         }
         else {
             this.arrangeChildren(this.options, 80);

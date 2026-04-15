@@ -295,9 +295,9 @@ var Gameplay = /** @class */ (function (_super) {
                 }
             }, 1);
         }, 1);
-        if (StartGame_1.default.Instance.currentLevel == 4) {
-            this.node.getChildByName("shortQBar").active = false;
-        }
+        // if (startGame.Instance.currentLevel == 4) {
+        //     this.node.getChildByName("shortQBar").active = false;
+        // }
     };
     Gameplay.prototype.playButtonSound = function (event) {
         if (!this.canTouch) {
@@ -319,7 +319,7 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            this.arrangeGridChildren(this.options, 20, _optionCount);
         }
         else {
             this.arrangeChildren(this.options, 80);
