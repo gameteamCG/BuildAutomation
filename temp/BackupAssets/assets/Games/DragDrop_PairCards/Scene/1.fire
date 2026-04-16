@@ -2237,7 +2237,7 @@
     "excludedNodes": [],
     "applyOnLoad": true,
     "targetRootNode": null,
-    "debugMode": true,
+    "debugMode": false,
     "initialDelay": 0.1,
     "_id": "42urCa0TZCCYxS2zk/Y5GL"
   }
