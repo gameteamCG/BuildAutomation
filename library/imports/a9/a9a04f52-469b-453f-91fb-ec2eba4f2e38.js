@@ -312,9 +312,17 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
-            for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+            if (StartGame_1.default.Instance.currentLevel == 2) {
+                var _laypout1posY = [-110, -110, -110, 0, 50];
+                for (var i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                }
+            }
+            else {
+                var _laypout1posY = [-180, 50, -180, 0, 50];
+                for (var i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                }
             }
         }
         _template.destroy();
@@ -684,6 +692,9 @@ var Gameplay = /** @class */ (function (_super) {
                 }, _this.currentJockey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum]).duration);
             }, 0.5);
         }, 0.7);
+    };
+    Gameplay.prototype.playButtonSound = function () {
+        cc.audioEngine.playEffect(this.questionAudio, false);
     };
     Gameplay.prototype.arrangeChildren = function (centerNode, spacing) {
         var children = centerNode.children;

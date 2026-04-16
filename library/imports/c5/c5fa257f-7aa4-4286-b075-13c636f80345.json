@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nestw",
+    "texture": "e1373520-3281-4965-a82b-d0bef1efe3b0",
+    "atlas": "",
+    "rect": [
+      8,
+      83,
+      334,
+      185
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      350,
+      350
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

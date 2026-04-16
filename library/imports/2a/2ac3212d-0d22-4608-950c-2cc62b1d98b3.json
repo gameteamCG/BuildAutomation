@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nursee",
+    "texture": "ec1c65ce-1ea8-45dc-bb62-d35888ccf7b7",
+    "atlas": "",
+    "rect": [
+      117,
+      19,
+      267,
+      463
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

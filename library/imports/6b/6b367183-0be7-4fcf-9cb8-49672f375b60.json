@@ -15,11 +15,11 @@
     "questionData": [
       {
         "questionLayout": "layout1",
-        "questionBgName": "Asset3.png",
-        "questionAudioName": "Choosetheuppercaselettern.mp3",
+        "questionBgName": "bgn1.png",
+        "questionAudioName": "Q1.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
-        "numberOfOptions": 4,
+        "numberOfOptions": 3,
         "options": [
           "",
           "",
@@ -27,26 +27,25 @@
           ""
         ],
         "optionsBg": [
-          "Asset1.png",
-          "AssetF.png",
-          "AssetA.png",
-          "Asset2.png"
+          "nw.png",
+          "nc.png",
+          "nc.png"
         ],
         "correctAudioName": "positive_1.mp3",
         "wrongAudioName": "negative_1.mp3",
         "reiterationAudioName": [
-          "NSAYSNN.mp3",
-          "NSAYSNN.mp3"
+          "A1.mp3",
+          "A1.mp3"
         ],
-        "correctAnswerNum": "14"
+        "correctAnswerNum": "23"
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "Asset26.png",
-        "questionAudioName": "Taponthelowercaselettern.mp3",
+        "questionBgName": "bgn2.png",
+        "questionAudioName": "Q2.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
-        "numberOfOptions": 4,
+        "numberOfOptions": 3,
         "options": [
           "",
           "",
@@ -54,43 +53,43 @@
           ""
         ],
         "optionsBg": [
-          "Asset4.png",
-          "Asset4k.png",
-          "Asset4b.png",
-          "Asset4.png"
+          "nursen.png",
+          "nursee.png",
+          "nursen.png"
         ],
         "correctAudioName": "positive_2.mp3",
         "wrongAudioName": "negative_2.mp3",
         "reiterationAudioName": [
-          "NSAYSNN.mp3",
-          "NSAYSNN.mp3"
+          "A1.mp3",
+          "A1.mp3"
         ],
-        "correctAnswerNum": "14"
+        "correctAnswerNum": "13"
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "Asset24.png",
-        "questionAudioName": "27917862_4_identify-the-letter-n.mp3",
+        "questionBgName": "bgn3.png",
+        "questionAudioName": "Q3.mp3",
         "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
+        "isOptionText": true,
         "numberOfOptions": 3,
         "options": [
-          "Ncandy.png",
-          "Kcandy.png",
-          "Ncandy.png"
-        ],
-        "optionsBg": [
+          "",
           "",
           "",
           ""
         ],
-        "correctAudioName": "positive_3.mp3",
+        "optionsBg": [
+          "nestc.png",
+          "nestc.png",
+          "nestw.png"
+        ],
+        "correctAudioName": "positive_1.mp3",
         "wrongAudioName": "negative_1.mp3",
         "reiterationAudioName": [
-          "NSAYSNN.mp3",
-          "NSAYSNN.mp3"
+          "A1.mp3",
+          "A1.mp3"
         ],
-        "correctAnswerNum": "13"
+        "correctAnswerNum": "12"
       },
       {
         "questionLayout": "layout3",

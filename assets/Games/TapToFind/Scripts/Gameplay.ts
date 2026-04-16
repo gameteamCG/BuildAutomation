@@ -291,10 +291,20 @@ export default class Gameplay extends cc.Component {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
-            for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+            if (startGame.Instance.currentLevel == 2) {
+                let _laypout1posY: number[] = [-110, -110, -110, 0, 50];
+                for (let i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                }
+
+            } else {
+                let _laypout1posY: number[] = [-180, 50, -180, 0, 50];
+                for (let i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                }
             }
+
+
         }
         _template.destroy();
 
@@ -674,7 +684,9 @@ export default class Gameplay extends cc.Component {
             }, 0.5);
         }, 0.7)
     }
-
+    playButtonSound() {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    }
     arrangeChildren(centerNode: cc.Node, spacing: number) {
         let children = centerNode.children;
         let totalWidth = 0;
