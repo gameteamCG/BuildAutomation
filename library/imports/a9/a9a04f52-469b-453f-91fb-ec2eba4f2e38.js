@@ -306,7 +306,7 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            this.arrangeGridChildren(this.options, 50, _optionCount);
         }
         else {
             this.arrangeChildren(this.options, 80);
@@ -318,6 +318,9 @@ var Gameplay = /** @class */ (function (_super) {
             }
         }
         _template.destroy();
+    };
+    Gameplay.prototype.playSoundButton = function () {
+        cc.audioEngine.playEffect(this.questionAudio, false);
     };
     Gameplay.prototype.onTouchStart_layout1 = function (event) {
         var _this = this;
@@ -705,7 +708,7 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.arrangeGridChildren = function (centerNode, spacing, _optionCount) {
         var children = centerNode.children;
-        var maxColumns = 3;
+        var maxColumns = 2;
         if (_optionCount == 4) {
             maxColumns = 2;
         }

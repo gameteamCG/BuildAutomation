@@ -285,7 +285,7 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            this.arrangeGridChildren(this.options, 50, _optionCount);
         }
         else {
             this.arrangeChildren(this.options, 80);
@@ -300,7 +300,9 @@ export default class Gameplay extends cc.Component {
 
 
     }
-
+    playSoundButton() {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    }
     onTouchStart_layout1(event: cc.Event.EventTouch) {
         if (!this.canTouch) {
             return;
@@ -698,7 +700,7 @@ export default class Gameplay extends cc.Component {
 
     arrangeGridChildren(centerNode: cc.Node, spacing: number, _optionCount: number) {
         let children = centerNode.children;
-        let maxColumns = 3;
+        let maxColumns = 2;
         if (_optionCount == 4) {
             maxColumns = 2;
         }

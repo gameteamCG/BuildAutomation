@@ -16,7 +16,7 @@
       {
         "questionLayout": "layout1",
         "questionBgName": "L1(5).png",
-        "questionAudioName": "Tap on all the fishes with the letter P..mp3",
+        "questionAudioName": "Tap on all the fishes with the letter P.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
@@ -110,24 +110,21 @@
           "",
           "",
           "pan.png",
-          "parrot.png",
-          "pig.png"
+          "parrot.png"
         ],
         "optionsBg": [
           "lock.png",
           "leaf.png",
           "panbw.png",
-          "parrotbw.png",
-          "pigbw.png"
+          "parrotbw.png"
         ],
-        "correctAudioName": "pfor.mp3",
+        "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "BRILLIANT.mp3",
-          "EXCELLENTJOB.mp3",
-          "FANTASTIC.mp3"
+          "pan.mp3",
+          "parrot.mp3"
         ],
-        "correctAnswerNum": "345"
+        "correctAnswerNum": "34"
       }
     ]
   }
