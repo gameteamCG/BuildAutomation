@@ -13,4 +13,7 @@ require('./assets/Framework/WebView/Scripts/WebView');
 require('./assets/Games/DragDrop_PairCards/Scripts/endScreen');
 require('./assets/Games/DragDrop_PairCards/Scripts/gameplay');
 require('./assets/Games/DragDrop_PairCards/Scripts/globalVariables');
+require('./assets/Games/MainAssets/Scripts/FontChanger');
+require('./assets/Games/MainAssets/Scripts/GameEnd');
+require('./assets/Games/MainAssets/Scripts/JockeyController');
 require('./assets/resources/empty');
