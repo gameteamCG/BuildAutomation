@@ -15,8 +15,8 @@
     },
     "questionData": [
       {
-        "questionText": "Letter Kk",
-        "questionAudioName": "match the shadow to its picture that begins with the letter K .mp3",
+        "questionText": "Letter k",
+        "questionAudioName": "match the shadow to its picture that begins with the letter K.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "left_puzzle4.png",
         "isLeftOptionText": false,
@@ -36,8 +36,8 @@
         ]
       },
       {
-        "questionText": "Letter Kk",
-        "questionAudioName": "match the shadow to its picture.mp3",
+        "questionText": "Letter k",
+        "questionAudioName": "match the shadow to its picture that begins with the letter K.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "left_puzzle4.png",
         "isLeftOptionText": false,
@@ -57,8 +57,8 @@
         ]
       },
       {
-        "questionText": "Letter Kk",
-        "questionAudioName": "match the shadow to its picture.mp3",
+        "questionText": "Letter k",
+        "questionAudioName": "match the shadow to its picture that begins with the letter K.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "left_puzzle4.png",
         "isLeftOptionText": false,
@@ -78,8 +78,8 @@
         ]
       },
       {
-        "questionText": "Letter Kk",
-        "questionAudioName": "match the shadow to its picture.mp3",
+        "questionText": "Letter k",
+        "questionAudioName": "match the shadow to its picture that begins with the letter K.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "left_puzzle4.png",
         "isLeftOptionText": false,
@@ -99,10 +99,10 @@
         ]
       },
       {
-        "questionText": "Letter Kk",
-        "questionAudioName": "match the shadow to its picture.mp3",
+        "questionText": "Letter k",
+        "questionAudioName": "match the shadow to its picture that begins with the letter K.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonLeftOptionImageName": "left_puzzle4_1.png",
+        "commonLeftOptionImageName": "left_puzzle4.png",
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
