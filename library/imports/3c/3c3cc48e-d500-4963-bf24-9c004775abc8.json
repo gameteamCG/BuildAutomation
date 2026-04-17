@@ -21,11 +21,11 @@
         "QuestionImageName": "identify.png",
         "QuestionAudioName": "Q1.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": false,
+        "IsOptionText": true,
         "NumberOfOptions": 2,
         "Options": [
-          "Kk.png",
-          "Uu.png"
+          "k",
+          "u"
         ],
         "ReiterationAudioName": "k.mp3",
         "CorrectAudioName": "positive_1.mp3",
@@ -34,9 +34,9 @@
       },
       {
         "QuestionAppearTime": "99999",
-        "IsQuestionText": false,
-        "QuestionText": "",
-        "QuestionImageName": "QKk.png",
+        "IsQuestionText": true,
+        "QuestionText": "k",
+        "QuestionImageName": "",
         "QuestionAudioName": "Q2.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
@@ -57,11 +57,11 @@
         "QuestionImageName": "koala.png",
         "QuestionAudioName": "Q3.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": false,
+        "IsOptionText": true,
         "NumberOfOptions": 2,
         "Options": [
-          "Pp.png",
-          "Kk.png"
+          "p",
+          "k"
         ],
         "ReiterationAudioName": "R3.mp3",
         "CorrectAudioName": "positive_3.mp3",

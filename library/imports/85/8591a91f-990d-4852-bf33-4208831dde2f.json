@@ -460,7 +460,7 @@
       "__id__": 122
     },
     "bgMusic": {
-      "__uuid__": "2fd0d62f-307c-466d-8c74-d0415f65aae1"
+      "__uuid__": "d28317c7-be8b-40e5-aec9-66d2382842bf"
     },
     "correctSound": {
       "__uuid__": "617c9f98-08d8-49a8-874d-29e7b2166772"
@@ -2348,8 +2348,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 50,
-    "_lineHeight": 65,
+    "_fontSize": 120,
+    "_lineHeight": 150,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -2712,8 +2712,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 120,
+    "_lineHeight": 150,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -3283,8 +3283,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 120,
+    "_lineHeight": 150,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -3854,8 +3854,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 120,
+    "_lineHeight": 150,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -4425,8 +4425,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 120,
+    "_lineHeight": 150,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -7986,8 +7986,8 @@
         0,
         0,
         1,
-        0.875,
-        0.875,
+        1.5,
+        1.5,
         0.875
       ]
     },
