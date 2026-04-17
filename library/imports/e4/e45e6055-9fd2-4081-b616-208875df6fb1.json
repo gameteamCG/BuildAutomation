@@ -19,14 +19,18 @@
         "questionAudioName": "identifysmaller.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 2,
+        "numberOfOptions": 4,
         "options": [
+          "250empty.png",
+          "250empty.png",
           "250empty.png",
           "250empty.png"
         ],
         "optionsBg": [
-          "250x250_0004_43.png",
-          "250x250_0007_50.png"
+          "43.png",
+          "49.png",
+          "44.png",
+          "47.png"
         ],
         "correctAudioName": "EXCELLENTJOB.mp3",
         "wrongAudioName": "nevermindtryagain.mp3",
@@ -41,14 +45,18 @@
         "questionAudioName": "identifybigger.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 2,
+        "numberOfOptions": 4,
         "options": [
+          "250empty.png",
+          "250empty.png",
           "250empty.png",
           "250empty.png"
         ],
         "optionsBg": [
-          "250x250_0006_41.png",
-          "250x250_0008_49.png"
+          "41.png",
+          "49.png",
+          "46.png",
+          "42.png"
         ],
         "correctAudioName": "EXCELLENTJOB.mp3",
         "wrongAudioName": "ohoh.mp3",
@@ -63,14 +71,18 @@
         "questionAudioName": "identifysmaller.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 2,
+        "numberOfOptions": 4,
         "options": [
+          "250empty.png",
+          "250empty.png",
           "250empty.png",
           "250empty.png"
         ],
         "optionsBg": [
-          "250x250_0000_47.png",
-          "250x250_0003_44.png"
+          "47.png",
+          "44.png",
+          "46.png",
+          "49.png"
         ],
         "correctAudioName": "GOODEFFORT.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
@@ -85,14 +97,18 @@
         "questionAudioName": "identifybigger.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 2,
+        "numberOfOptions": 4,
         "options": [
+          "250empty.png",
+          "250empty.png",
           "250empty.png",
           "250empty.png"
         ],
         "optionsBg": [
-          "250x250_0002_45.png",
-          "250x250_0005_42.png"
+          "45.png",
+          "42.png",
+          "44.png",
+          "41.png"
         ],
         "correctAudioName": "GREATWORK.mp3",
         "wrongAudioName": "nevermindtryagain.mp3",
@@ -107,19 +123,23 @@
         "questionAudioName": "identifybigger.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 2,
+        "numberOfOptions": 4,
         "options": [
+          "250empty.png",
+          "250empty.png",
           "250empty.png",
           "250empty.png"
         ],
         "optionsBg": [
-          "250x250_0007_50.png",
-          "250x250_0005_42.png"
+          "49.png",
+          "42.png",
+          "46.png",
+          "41.png"
         ],
         "correctAudioName": "IMPRESSIVEWORK.mp3",
         "wrongAudioName": "ohoh.mp3",
         "reiterationAudioName": [
-          "50.mp3"
+          "49.mp3"
         ],
         "correctAnswerNum": "1"
       },
@@ -129,14 +149,18 @@
         "questionAudioName": "identifysmaller.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 2,
+        "numberOfOptions": 4,
         "options": [
+          "250empty.png",
+          "250empty.png",
           "250empty.png",
           "250empty.png"
         ],
         "optionsBg": [
-          "250x250_0009_48.png",
-          "250x250_0006_41.png"
+          "48.png",
+          "41.png",
+          "43.png",
+          "47.png"
         ],
         "correctAudioName": "EXCEPTIONAL.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
@@ -148,17 +172,21 @@
       {
         "questionLayout": "layout2",
         "questionBgName": "gardenbg.png",
-        "questionAudioName": "identifysmaller.mp3",
+        "questionAudioName": "identifybigger.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 2,
+        "numberOfOptions": 4,
         "options": [
+          "250empty.png",
+          "250empty.png",
           "250empty.png",
           "250empty.png"
         ],
         "optionsBg": [
-          "250x250_0005_42.png",
-          "250x250_0008_49.png"
+          "42.png",
+          "49.png",
+          "41.png",
+          "46.png"
         ],
         "correctAudioName": "INCREDIBLE.mp3",
         "wrongAudioName": "nevermindtryagain.mp3",

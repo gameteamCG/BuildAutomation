@@ -685,6 +685,9 @@ var Gameplay = /** @class */ (function (_super) {
             }, 0.5);
         }, 0.7);
     };
+    Gameplay.prototype.playButtonsSound = function () {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    };
     Gameplay.prototype.arrangeChildren = function (centerNode, spacing) {
         var children = centerNode.children;
         var totalWidth = 0;

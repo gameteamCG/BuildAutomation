@@ -674,7 +674,9 @@ export default class Gameplay extends cc.Component {
             }, 0.5);
         }, 0.7)
     }
-
+    playButtonsSound() {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    }
     arrangeChildren(centerNode: cc.Node, spacing: number) {
         let children = centerNode.children;
         let totalWidth = 0;
