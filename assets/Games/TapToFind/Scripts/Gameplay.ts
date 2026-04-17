@@ -5,13 +5,17 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class Gameplay extends cc.Component {
+
+    @property([cc.String])
+    public answers: string[] = [];
 
 
     @property(cc.Font)
@@ -199,7 +203,7 @@ export default class Gameplay extends cc.Component {
     }
 
     start() {
-
+        this.node.getChildByName("qbar").getChildByName("txt").getComponent(cc.Label).string = this.answers[startGame.Instance.currentLevel - 1];
         this.LoadQuestion();
         ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
@@ -273,6 +277,11 @@ export default class Gameplay extends cc.Component {
                 }
             }, 1);
         }, 1);
+    }
+
+    onSoundButtonClick() {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio,false);
     }
 
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
@@ -391,6 +400,7 @@ export default class Gameplay extends cc.Component {
             _clone.angle = 0;
             let pos = _clone.getPosition();
             cc.tween(_clone).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
+            cc.tween(_clone).to(1,{scale: 0.7}).start();
             this.scheduleOnce(() => {
                 _clone.getComponent(cc.Animation).stop();
                 _clone.angle = 0;

@@ -29,13 +29,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
     __extends(Gameplay, _super);
     function Gameplay() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.answers = [];
         _this.podar_font = null;
         _this.jaipuria_font = null;
         _this.supercub_font = null;
@@ -215,6 +217,7 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.start = function () {
         var _this = this;
+        this.node.getChildByName("qbar").getChildByName("txt").getComponent(cc.Label).string = this.answers[StartGame_1.default.Instance.currentLevel - 1];
         this.LoadQuestion();
         ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
@@ -295,6 +298,10 @@ var Gameplay = /** @class */ (function (_super) {
                 }
             }, 1);
         }, 1);
+    };
+    Gameplay.prototype.onSoundButtonClick = function () {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
     };
     Gameplay.prototype.generateOptions = function (_template, _optionParent, _optionCount) {
         for (var i = 0; i < _optionCount; i++) {
@@ -408,6 +415,7 @@ var Gameplay = /** @class */ (function (_super) {
             _clone_1.angle = 0;
             var pos = _clone_1.getPosition();
             cc.tween(_clone_1).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
+            cc.tween(_clone_1).to(1, { scale: 0.7 }).start();
             this.scheduleOnce(function () {
                 _clone_1.getComponent(cc.Animation).stop();
                 _clone_1.angle = 0;
@@ -754,6 +762,9 @@ var Gameplay = /** @class */ (function (_super) {
             callback(audioClip);
         });
     };
+    __decorate([
+        property([cc.String])
+    ], Gameplay.prototype, "answers", void 0);
     __decorate([
         property(cc.Font)
     ], Gameplay.prototype, "podar_font", void 0);
