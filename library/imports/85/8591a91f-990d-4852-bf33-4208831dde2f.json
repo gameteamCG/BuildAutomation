@@ -2348,11 +2348,11 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 50,
-    "_lineHeight": 65,
+    "_fontSize": 120,
+    "_lineHeight": 150,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "3973d65f-94f6-47bd-adab-8f9135d35f89"
+      "__uuid__": "468005c0-6446-4625-9d64-bb738aa5e444"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -2712,11 +2712,11 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 120,
+    "_lineHeight": 150,
     "_enableWrapText": false,
     "_N$file": {
-      "__uuid__": "3973d65f-94f6-47bd-adab-8f9135d35f89"
+      "__uuid__": "468005c0-6446-4625-9d64-bb738aa5e444"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -3283,11 +3283,11 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 120,
+    "_lineHeight": 150,
     "_enableWrapText": false,
     "_N$file": {
-      "__uuid__": "3973d65f-94f6-47bd-adab-8f9135d35f89"
+      "__uuid__": "468005c0-6446-4625-9d64-bb738aa5e444"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -3854,11 +3854,11 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 120,
+    "_lineHeight": 150,
     "_enableWrapText": false,
     "_N$file": {
-      "__uuid__": "3973d65f-94f6-47bd-adab-8f9135d35f89"
+      "__uuid__": "468005c0-6446-4625-9d64-bb738aa5e444"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -4425,11 +4425,11 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 120,
+    "_lineHeight": 150,
     "_enableWrapText": false,
     "_N$file": {
-      "__uuid__": "3973d65f-94f6-47bd-adab-8f9135d35f89"
+      "__uuid__": "468005c0-6446-4625-9d64-bb738aa5e444"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,

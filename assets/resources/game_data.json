@@ -16,11 +16,11 @@
       "QuestionImageName": "new_identify.png",
       "QuestionAudioName": "new-1-identify-the-letter-wi_Oe7p6tq8 (1).mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "new_ii.png",
-        "new_cc.png"
+        "i",
+        "c"
       ],
       "ReiterationAudioName": "new_c.mp3",
       "CorrectAudioName": "INCREDIBLE.mp3",
@@ -29,9 +29,9 @@
     },
     {
       "QuestionAppearTime": "2000",
-      "IsQuestionText": false,
-      "QuestionText": "",
-      "QuestionImageName": "new cc.png",
+      "IsQuestionText": true,
+      "QuestionText": "c",
+      "QuestionImageName": "",
       "QuestionAudioName": "new-2-tap-on-the-picture-tha_UmlJDCy0.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
@@ -52,11 +52,11 @@
       "QuestionImageName": "new_cat.png",
       "QuestionAudioName": "Identify the beginning sound for the given picture.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "new_tt.png",
-        "new_cc.png"
+        "t",
+        "c"
       ],
       "ReiterationAudioName": "new_c.mp3",
       "CorrectAudioName": "BRILLIANT.mp3",
