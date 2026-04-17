@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "4boat",
+    "texture": "1d673405-592d-4c72-b212-9434a99f2221",
+    "atlas": "",
+    "rect": [
+      116,
+      51,
+      323,
+      397
+    ],
+    "offset": [
+      27.5,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
