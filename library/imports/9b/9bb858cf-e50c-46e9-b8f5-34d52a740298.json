@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "inkpot-un",
+    "texture": "813c2cb3-3235-4246-a0cf-493c4469fef0",
+    "atlas": "",
+    "rect": [
+      14,
+      8,
+      484,
+      484
+    ],
+    "offset": [
+      6,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

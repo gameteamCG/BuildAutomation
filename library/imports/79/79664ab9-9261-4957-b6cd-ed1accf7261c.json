@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jelly-un",
+    "texture": "26b1ebdd-7622-4e81-800b-e31b86fa12b2",
+    "atlas": "",
+    "rect": [
+      14,
+      8,
+      484,
+      484
+    ],
+    "offset": [
+      6,
+      0.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
