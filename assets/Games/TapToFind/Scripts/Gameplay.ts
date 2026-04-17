@@ -223,7 +223,7 @@ export default class Gameplay extends cc.Component {
                         element.setPosition(pos.x, pos.y - 850);
                         element.active = true;
                         cc.audioEngine.playEffect(this.pop_audio, false);
-                        cc.tween(element).to(0.65, { y: pos.y }, { easing: "sineInOut" }).start();
+                        cc.tween(element).to(0.65, { y: pos.y, scale: 0.7 }, { easing: "sineInOut" }).start();
                     }, delay);
                     delay += 0.35;
                 }
@@ -391,7 +391,14 @@ export default class Gameplay extends cc.Component {
             _clone.getComponent(cc.Animation).stop();
             _clone.angle = 0;
             let pos = _clone.getPosition();
-            cc.tween(_clone).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
+            cc.tween(_clone).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0))
+            .start();
+
+            cc.tween(_clone).to(1,{scale: 0.7})
+             .call(()=>{
+                _clone.scale = 0.7;
+            })
+            .start();
             this.scheduleOnce(() => {
                 _clone.getComponent(cc.Animation).stop();
                 _clone.angle = 0;

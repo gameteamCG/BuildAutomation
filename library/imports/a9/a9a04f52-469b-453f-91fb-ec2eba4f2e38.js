@@ -237,7 +237,7 @@ var Gameplay = /** @class */ (function (_super) {
                         element.setPosition(pos.x, pos.y - 850);
                         element.active = true;
                         cc.audioEngine.playEffect(_this.pop_audio, false);
-                        cc.tween(element).to(0.65, { y: pos.y }, { easing: "sineInOut" }).start();
+                        cc.tween(element).to(0.65, { y: pos.y, scale: 0.7 }, { easing: "sineInOut" }).start();
                     }, delay);
                     delay += 0.35;
                 };
@@ -408,7 +408,13 @@ var Gameplay = /** @class */ (function (_super) {
             _clone_1.getComponent(cc.Animation).stop();
             _clone_1.angle = 0;
             var pos = _clone_1.getPosition();
-            cc.tween(_clone_1).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
+            cc.tween(_clone_1).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0))
+                .start();
+            cc.tween(_clone_1).to(1, { scale: 0.7 })
+                .call(function () {
+                _clone_1.scale = 0.7;
+            })
+                .start();
             this.scheduleOnce(function () {
                 _clone_1.getComponent(cc.Animation).stop();
                 _clone_1.angle = 0;

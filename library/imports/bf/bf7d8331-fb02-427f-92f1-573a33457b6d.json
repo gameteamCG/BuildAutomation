@@ -16,7 +16,7 @@
       {
         "questionLayout": "layout1",
         "questionBgName": "bg1.png",
-        "questionAudioName": "identifytheletterC.mp3",
+        "questionAudioName": "tap_cups.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
@@ -35,15 +35,15 @@
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "ohoh.mp3",
         "reiterationAudioName": [
-          "CSAYSCCC.mp3",
-          "CSAYSCCC.mp3"
+          "c_sound.mp3",
+          "c_sound.mp3"
         ],
         "correctAnswerNum": "14"
       },
       {
         "questionLayout": "layout2",
         "questionBgName": "bg2.png",
-        "questionAudioName": "ChoosetheuppercaseletterC.mp3",
+        "questionAudioName": "tap_carrots.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
@@ -62,15 +62,15 @@
         "correctAudioName": "EXCELLENTJOB.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
         "reiterationAudioName": [
-          "CSAYSCCC.mp3",
-          "CSAYSCCC.mp3"
+          "c_sound.mp3",
+          "c_sound.mp3"
         ],
         "correctAnswerNum": "24"
       },
       {
         "questionLayout": "layout1",
         "questionBgName": "bg3.png",
-        "questionAudioName": "TaponthelowercasletterC.mp3",
+        "questionAudioName": "tap_cats.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
@@ -89,15 +89,15 @@
         "correctAudioName": "GOODJOB.mp3",
         "wrongAudioName": "nevermindryagain.mp3",
         "reiterationAudioName": [
-          "CSAYSCCC.mp3",
-          "CSAYSCCC.mp3"
+          "c_sound.mp3",
+          "c_sound.mp3"
         ],
         "correctAnswerNum": "13"
       },
       {
         "questionLayout": "layout1",
         "questionBgName": "bg1.png",
-        "questionAudioName": "TaponthelowercasletterC.mp3",
+        "questionAudioName": "tap_cupcakes.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
@@ -116,15 +116,15 @@
         "correctAudioName": "GOODJOB.mp3",
         "wrongAudioName": "nevermindryagain.mp3",
         "reiterationAudioName": [
-          "CSAYSCCC.mp3",
-          "CSAYSCCC.mp3"
+          "c_sound.mp3",
+          "c_sound.mp3"
         ],
         "correctAnswerNum": "13"
       },
       {
         "questionLayout": "layout3",
         "questionBgName": "bg4.png",
-        "questionAudioName": "taponthepicturethatbeginswithlettersoundc.mp3",
+        "questionAudioName": "identify_picture_with_letter_sound.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
@@ -141,14 +141,14 @@
         "correctAudioName": "INCREDIBLE.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
         "reiterationAudioName": [
-          "carrot.mp3"
+          "cake.mp3"
         ],
         "correctAnswerNum": "3"
       },
       {
         "questionLayout": "layout3",
         "questionBgName": "bg5.png",
-        "questionAudioName": "taponthepicturethatbeginswithlettersoundc.mp3",
+        "questionAudioName": "identify_picture_with_letter_sound.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
@@ -165,14 +165,14 @@
         "correctAudioName": "INCREDIBLE.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
         "reiterationAudioName": [
-          "carrot.mp3"
+          "cat.mp3"
         ],
         "correctAnswerNum": "1"
       },
       {
         "questionLayout": "layout3",
         "questionBgName": "bg2.png",
-        "questionAudioName": "taponthepicturethatbeginswithlettersoundc.mp3",
+        "questionAudioName": "identify_picture_with_letter_sound.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
@@ -189,7 +189,7 @@
         "correctAudioName": "INCREDIBLE.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
         "reiterationAudioName": [
-          "carrot.mp3"
+          "car.mp3"
         ],
         "correctAnswerNum": "2"
       }
