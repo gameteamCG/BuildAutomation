@@ -1,0 +1,114 @@
+{
+    "additionalData": {
+        "GameID": "odd one out feedback TLC",
+        "totalLevel": "5",
+        "TitleImageName": "title.png",
+        "introBgName": "Bg(8).png",
+        "bgmMusicName": "BGM(mp3cut.net).mp3",
+        "mainBgName": "bg.png",
+        "JockeyName": "bag",
+        "templateType": "SimpleTap"
+    },
+    "questionData": [
+        {
+            "questionText": "Same and different",
+            "questionAudioName": "Q1.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "",
+            "isOptionText": false,
+            "isOptionBG": false,
+            "numberOfOptions": 5,
+            "options": [
+                "h2.png",
+                "h1.png",
+                "h12.png",
+                "h12.png",
+                "h12.png"
+            ],
+            "correctAudios": [
+                "BRILLIANT.mp3"
+            ],
+            "correctAnswerNum": "1"
+        },
+        {
+            "questionText": "Same and different",
+            "questionAudioName": "Q2.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "",
+            "isOptionText": false,
+            "isOptionBG": false,
+            "numberOfOptions": 5,
+            "options": [
+                "b1.png",
+                "b2.png",
+                "b12.png",
+                "b12.png",
+                "b12.png"
+            ],
+            "correctAudios": [
+                "EXCELLENTJOB.mp3"
+            ],
+            "correctAnswerNum": "2"
+        },
+        {
+            "questionText": "Same and different",
+            "questionAudioName": "Q3.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "",
+            "isOptionText": false,
+            "isOptionBG": false,
+            "numberOfOptions": 5,
+            "options": [
+                "bo12.png",
+                "bo1.png",
+                "bo2.png",
+                "bo1.png",
+                "bo1.png"
+            ],
+            "correctAudios": [
+                "FANTASTIC.mp3"
+            ],
+            "correctAnswerNum": "3"
+        },
+        {
+            "questionText": "Same and different",
+            "questionAudioName": "Q4.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "",
+            "isOptionText": false,
+            "isOptionBG": false,
+            "numberOfOptions": 5,
+            "options": [
+                "ba2.png",
+                "ba12.png",
+                "ba13.png",
+                "ba1.png",
+                "ba13.png"
+            ],
+            "correctAudios": [
+                "GOODJOB.mp3"
+            ],
+            "correctAnswerNum": "1"
+        },
+        {
+            "questionText": "Same and different",
+            "questionAudioName": "Q5.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "",
+            "isOptionText": false,
+            "isOptionBG": false,
+            "numberOfOptions": 5,
+            "options": [
+                "f13.png",
+                "f12.png",
+                "f1.png",
+                "f2.png",
+                "f1.png"
+            ],
+            "correctAudios": [
+                "GREATWORK.mp3"
+            ],
+            "correctAnswerNum": "4"
+        }
+    ]
+}
