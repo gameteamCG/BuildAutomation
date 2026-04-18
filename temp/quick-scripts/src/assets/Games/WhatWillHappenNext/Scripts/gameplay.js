@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -256,10 +256,12 @@ var NewClass = /** @class */ (function (_super) {
                 _loop_4(i);
             }
         }
+        console.log("Current Jockey : ", StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName));
         this.currentJcokey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
-        // this.currentJcokey.active = true;
+        this.currentJcokey.active = true;
     };
     NewClass.prototype.start = function () {
+        console.log("Current Jockey : ", StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName));
         ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
         // this.OptionsLayout();
@@ -381,6 +383,9 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callOptionIn = function () {
         var _this = this;
+        console.log("Current Jockey 11 : ", StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName));
+        this.currentJcokey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
+        this.currentJcokey.active = true;
         var delay = 0.5;
         if (StartGame_1.default.Instance.jockeyName == "supercub" || StartGame_1.default.Instance.jockeyName == "tlc") {
             this.node.getChildByName("Option").setPosition(this.node.getChildByName("Option").x - 80, this.node.getChildByName("Option").y);

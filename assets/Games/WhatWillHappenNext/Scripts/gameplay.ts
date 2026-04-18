@@ -1,5 +1,5 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -296,11 +296,13 @@ export default class NewClass extends cc.Component {
             }
 
         }
+        console.log("Current Jockey : ", startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName))
         this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
-        // this.currentJcokey.active = true;
+        this.currentJcokey.active = true;
     }
 
     start() {
+        console.log("Current Jockey : ", startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName))
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
 
@@ -432,6 +434,9 @@ export default class NewClass extends cc.Component {
     }
 
     callOptionIn() {
+        console.log("Current Jockey 11 : ", startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName))
+        this.currentJcokey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
+        this.currentJcokey.active = true;
         let delay: number = 0.5;
         if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tlc") {
             this.node.getChildByName("Option").setPosition(this.node.getChildByName("Option").x - 80, this.node.getChildByName("Option").y);

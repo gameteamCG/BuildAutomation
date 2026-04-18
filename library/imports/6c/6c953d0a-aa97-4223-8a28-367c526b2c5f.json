@@ -27,7 +27,9 @@
           "donkey.png",
           "brush.png"
         ],
-        "correctAudioName": "donkey.mp3",
+        "correctAudios": [
+          "donkey.mp3"
+        ],
         "correctAnswerNum": "1"
       },
       {
@@ -42,7 +44,9 @@
           "den.png",
           "carrot.png"
         ],
-        "correctAudioName": "den.mp3",
+        "correctAudios": [
+          "den.mp3"
+        ],
         "correctAnswerNum": "1"
       },
       {
@@ -58,7 +62,9 @@
           "dino.png",
           "500x500_0002_gift.png"
         ],
-        "correctAudioName": "dinosaur.mp3",
+        "correctAudios": [
+          "dinosaur.mp3"
+        ],
         "correctAnswerNum": "2"
       },
       {
@@ -74,7 +80,9 @@
           "cap.png",
           "200x200_0006_donut.png"
         ],
-        "correctAudioName": "donut.mp3",
+        "correctAudios": [
+          "donut.mp3"
+        ],
         "correctAnswerNum": "3"
       },
       {
@@ -90,7 +98,9 @@
           "500x500_0004_frog.png",
           "500x500_0005_fox.png"
         ],
-        "correctAudioName": "deer.mp3",
+        "correctAudios": [
+          "deer.mp3"
+        ],
         "correctAnswerNum": "1"
       },
       {
@@ -106,7 +116,9 @@
           "dress.png",
           "500x500_0002_flower.png"
         ],
-        "correctAudioName": "dress.mp3",
+        "correctAudios": [
+          "dress.mp3"
+        ],
         "correctAnswerNum": "2"
       }
     ]
