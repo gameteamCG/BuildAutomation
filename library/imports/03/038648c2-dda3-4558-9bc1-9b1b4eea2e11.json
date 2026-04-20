@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "favourite breakfast food",
+    "texture": "eadeb8a8-f369-496e-843a-7e9d537c3bac",
+    "atlas": "",
+    "rect": [
+      0,
+      19,
+      250,
+      231
+    ],
+    "offset": [
+      0,
+      -9.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

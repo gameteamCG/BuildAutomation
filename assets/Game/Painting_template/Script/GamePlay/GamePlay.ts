@@ -77,6 +77,11 @@ export default class GamePlay extends cc.Component {
     start() {
     }
 
+    playQues(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel - 1], false);
+    }
+
     LoadJsonData() {
         this.totalLevels = globalVariables.Instance.questions.length;
         // console.log("totalLevels--" + this.totalLevels);

@@ -35,6 +35,8 @@ export default class globalVariables extends cc.Component {
 
     @property(cc.AudioClip)
     playBtn_audio: cc.AudioClip = null;
+    @property(cc.Node)
+    loading: cc.Node = null;
 
     isDemoGame: boolean = false;
 
@@ -47,7 +49,7 @@ export default class globalVariables extends cc.Component {
 
     totalLevels: number = 0;
     BGM_audio: cc.AudioClip = null;
-    volume: number = 0.1;
+    volume: number = 0.05;
     mainBg: cc.SpriteFrame = null;
     initialVO: cc.AudioClip = null;
 
@@ -71,7 +73,6 @@ export default class globalVariables extends cc.Component {
         }
         this.updateJSONdata();
         this.scheduleOnce(() => {
-            this.StartGame();
         }, 2);
         if (this.jockeyName == "Podar") {
             this.node.getChildByName("intro").getChildByName("bg").getChildByName("podar").active = true;
@@ -232,6 +233,7 @@ export default class globalVariables extends cc.Component {
 
     OnPlayBtn(_event: cc.Event) {
         _event.target.getComponent(cc.Button).interactable = false;
+        this.loading.active = false;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
         this.StartGame();
     }

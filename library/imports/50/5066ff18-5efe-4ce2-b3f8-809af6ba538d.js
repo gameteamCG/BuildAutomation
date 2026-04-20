@@ -47,10 +47,13 @@ var endScreen = /** @class */ (function (_super) {
         this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables_1.default.Instance.mainBg;
         console.log("showedScreen--wellDone");
         this.scheduleOnce(function () {
-            console.log("gameEnded--true");
         }, 2);
     };
     endScreen.prototype.start = function () {
+        var _this = this;
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("end").active = true;
+        }, 2);
         if (globalVariables_1.default.Instance.jockeyName == "Podar") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
         }
@@ -64,6 +67,11 @@ var endScreen = /** @class */ (function (_super) {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
         }
         this.node.getChildByName("jockey").getChildByName(globalVariables_1.default.Instance.jockeyName).active = true;
+    };
+    endScreen.prototype.EndButton = function () {
+        cc.audioEngine.playEffect(globalVariables_1.default.Instance.playBtn_audio, false);
+        console.log("gameEnded--" + true);
+        closeWindow();
     };
     __decorate([
         property(cc.SpriteFrame)
@@ -83,5 +91,9 @@ var endScreen = /** @class */ (function (_super) {
     return endScreen;
 }(cc.Component));
 exports.default = endScreen;
+var closeWindow = function () {
+    window.open(location.href, "_self", "");
+    window.close();
+};
 
 cc._RF.pop();

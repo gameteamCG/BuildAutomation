@@ -89,6 +89,10 @@ var GamePlay = /** @class */ (function (_super) {
     });
     GamePlay.prototype.start = function () {
     };
+    GamePlay.prototype.playQues = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel - 1], false);
+    };
     GamePlay.prototype.LoadJsonData = function () {
         var _this = this;
         this.totalLevels = globalVariables_1.default.Instance.questions.length;

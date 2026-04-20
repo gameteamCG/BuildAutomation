@@ -31,6 +31,7 @@ var globalVariables = /** @class */ (function (_super) {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.jockey = null;
         _this.playBtn_audio = null;
+        _this.loading = null;
         _this.isDemoGame = false;
         _this.introBG = null;
         // private totalLevels: string = "";
@@ -39,7 +40,7 @@ var globalVariables = /** @class */ (function (_super) {
         _this.questions = [];
         _this.totalLevels = 0;
         _this.BGM_audio = null;
-        _this.volume = 0.1;
+        _this.volume = 0.05;
         _this.mainBg = null;
         _this.initialVO = null;
         return _this;
@@ -57,7 +58,6 @@ var globalVariables = /** @class */ (function (_super) {
         configurable: true
     });
     globalVariables.prototype.start = function () {
-        var _this = this;
         var url_string = window.location.href;
         var url = new URL(url_string);
         var demo = url.searchParams.get("isdemo");
@@ -67,7 +67,6 @@ var globalVariables = /** @class */ (function (_super) {
         }
         this.updateJSONdata();
         this.scheduleOnce(function () {
-            _this.StartGame();
         }, 2);
         if (this.jockeyName == "Podar") {
             this.node.getChildByName("intro").getChildByName("bg").getChildByName("podar").active = true;
@@ -215,6 +214,7 @@ var globalVariables = /** @class */ (function (_super) {
     };
     globalVariables.prototype.OnPlayBtn = function (_event) {
         _event.target.getComponent(cc.Button).interactable = false;
+        this.loading.active = false;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
         this.StartGame();
     };
@@ -244,6 +244,9 @@ var globalVariables = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], globalVariables.prototype, "playBtn_audio", void 0);
+    __decorate([
+        property(cc.Node)
+    ], globalVariables.prototype, "loading", void 0);
     globalVariables = globalVariables_1 = __decorate([
         ccclass
     ], globalVariables);

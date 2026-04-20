@@ -26,11 +26,13 @@ export default class endScreen extends cc.Component {
         this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables.Instance.mainBg;
         console.log("showedScreen--wellDone");
         this.scheduleOnce(() => {
-            console.log("gameEnded--true");
         }, 2);
     }
 
     start() {
+        this.scheduleOnce(() => {
+            this.node.getChildByName("end").active = true;
+        }, 2)
         if (globalVariables.Instance.jockeyName == "Podar") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
         }
@@ -47,6 +49,15 @@ export default class endScreen extends cc.Component {
         this.node.getChildByName("jockey").getChildByName(globalVariables.Instance.jockeyName).active = true;
 
     }
+    EndButton() {
+        cc.audioEngine.playEffect(globalVariables.Instance.playBtn_audio, false);
+        console.log("gameEnded--" + true);
+        closeWindow();
+    }
 
     // update (dt) {}
+}
+const closeWindow = () => {
+    window.open(location.href, "_self", "");
+    window.close()
 }
