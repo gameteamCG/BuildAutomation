@@ -15,32 +15,29 @@
     "questionData": [
       {
         "questionLayout": "layout1",
-        "questionBgName": "l1(5).png",
+        "questionBgName": "Asset 24.png",
         "questionAudioName": "taponbats.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 4,
+        "numberOfOptions": 3,
         "options": [
-          "",
           "",
           "",
           ""
         ],
         "optionsBg": [
-          "l1(1).png",
-          "l1(2).png",
-          "l1(3).png",
-          "l1(4).png"
+          "Artboard 11 copy.png",
+          "Artboard 11 copy 2.png",
+          "Artboard 11 copy.png"
         ],
         "correctAudioName": "GREATWORK.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
           "K.mp3",
           "K.mp3",
-          "K.mp3",
           "K.mp3"
         ],
-        "correctAnswerNum": "1234"
+        "correctAnswerNum": "13"
       },
       {
         "questionLayout": "layout2",
