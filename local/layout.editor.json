@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 309,
-            "height": 714.6000366210938,
+            "width": 306.25,
+            "height": 700.2000122070312,
             "type": "dock-v",
             "children": [
               {
-                "width": 309,
-                "height": 359.3000183105469,
+                "width": 306.25,
+                "height": 352.0249938964844,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 309,
-                "height": 352.2875061035156,
+                "width": 306.25,
+                "height": 345.1625061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 779,
-            "height": 714.6000366210938,
+            "width": 772.0750122070312,
+            "height": 700.2000122070312,
             "type": "dock-v",
             "children": [
               {
-                "width": 779,
-                "height": 359.3000183105469,
+                "width": 772.0750122070312,
+                "height": 352.0249938964844,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 779,
-                "height": 352.2875061035156,
+                "width": 772.0750122070312,
+                "height": 345.1625061035156,
                 "type": "panel",
                 "active": 2,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 442,
-            "height": 714.6000366210938,
+            "width": 438.07501220703125,
+            "height": 700.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1776668263679": {}
+    "window-1776746047681": {}
   },
   "panels": {
     "project-settings": {
