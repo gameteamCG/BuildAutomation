@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 216.9875030517578,
+            "width": 217,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 216.9875030517578,
-                "height": 359.375,
+                "width": 217,
+                "height": 359.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 216.9875030517578,
-                "height": 352.2250061035156,
+                "width": 217,
+                "height": 352.2875061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 870.9625244140625,
+            "width": 871,
             "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 870.9625244140625,
-                "height": 359.375,
+                "width": 871,
+                "height": 359.3000183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 870.9625244140625,
-                "height": 352.2250061035156,
+                "width": 871,
+                "height": 352.2875061035156,
                 "type": "panel",
                 "active": 1,
                 "children": [
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 442.0375061035156,
+            "width": 442,
             "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
@@ -88,7 +88,9 @@
         "cocos-services",
         "node-library"
       ]
-    }
+    },
+    " common-asset-worker-worker": {},
+    "window-1776766579526": {}
   },
   "panels": {
     "project-settings": {
@@ -106,7 +108,7 @@
     "builder": {
       "x": 32,
       "y": 0,
-      "width": 1455,
+      "width": 1456,
       "height": 820
     }
   },
