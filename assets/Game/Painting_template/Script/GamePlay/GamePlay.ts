@@ -32,6 +32,8 @@ export default class GamePlay extends cc.Component {
     questionNode: cc.Node = null;
     @property(cc.Node)
     hand: cc.Node = null;
+    @property(cc.Node)
+    hand2: cc.Node = null;
 
     @property(cc.Font)
     private podar_font: cc.Font = null;
@@ -190,7 +192,6 @@ export default class GamePlay extends cc.Component {
         this.node.addChild(this.currentDrawing);
         this.currentDrawing.setPosition(new cc.Vec2(CommonFun.instance.convertXPos(cc.winSize.width * 0.45, this.node), CommonFun.instance.convertYPos(cc.winSize.height * 0.5, this.node)));
         this.currentDrawing.setPosition(this.currentDrawing.getPosition().x + 50, this.currentDrawing.getPosition().y - 50);
-        // console.log("pos = ", this.currentDrawing.getPosition().x);
         this.DrawingTableClassRef = CommonFun.instance.getDrawingTableClassRef(this.currentDrawing);
         if (this.currentLevel > 0) {
             this.currentDrawing.getChildByName("splash").getComponent(cc.Sprite).spriteFrame = this.pictureImage[this.currentLevel - 1];
@@ -198,8 +199,10 @@ export default class GamePlay extends cc.Component {
         // else {
         //     this.currentDrawing.getChildByName("splash").getComponent(cc.Sprite).spriteFrame = this.questionImage[0];
         // }
+        this.currentDrawing.getPosition()
         this.DrawingTableClassRef.initTouch();
         this.DrawingTableClassRef.initialiseRef(this);
+        console.log("pos = ", this.currentDrawing.getPosition().x, this.currentDrawing.getPosition().y);
         setTimeout(() => {
             let data = Constant.getLevelData(CommonFun.instance.currentLvl);
             this.DrawingTableClassRef.drawData(data);
@@ -213,8 +216,8 @@ export default class GamePlay extends cc.Component {
         this.overAllData = this.DrawingTableClassRef.drawingDataArray;
         //new
         Constant.SaveLevelData(CommonFun.instance.currentLvl, this.overAllData);
-
         this.hand.opacity = 255;
+        this.hand2.opacity = 0;
     }
 
     onBackClicked() {
@@ -255,6 +258,9 @@ export default class GamePlay extends cc.Component {
                 console.log("levelStarted--" + (this.currentLevel + 1));
                 cc.audioEngine.stopAllEffects();
                 this.scheduleOnce(() => {
+                    if (this.currentLevel == 0) {
+                        this.hand2.getComponent(cc.Animation).play();
+                    }
                     cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
                     this.node.getChildByName("image").getComponent(cc.Sprite).spriteFrame = this.questionImage[this.currentLevel];
                     this.currentLevel++;

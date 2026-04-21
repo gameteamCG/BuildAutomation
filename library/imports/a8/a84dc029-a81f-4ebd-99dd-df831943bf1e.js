@@ -3,12 +3,6 @@ cc._RF.push(module, 'a84dcApqB9OvZnd34MZQ78e', 'DrawingTable');
 // Game/Painting_template/Script/GamePlay/DrawingTable.ts
 
 "use strict";
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -32,6 +26,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var CommonFun_1 = require("../Common/CommonFun");
 var Constant_1 = require("../Common/Constant");
 var Global_1 = require("../Common/Global");
+var GamePlay_1 = require("./GamePlay");
 var PersistentScroll_1 = require("./Persistent/PersistentScroll");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var DrawingSplitData = /** @class */ (function () {
@@ -130,16 +125,13 @@ var DrawingTable = /** @class */ (function (_super) {
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
         PersistentScroll_1.default.Instance.hand.opacity = 255;
+        GamePlay_1.default.Instance.hand2.opacity = 0;
         PersistentScroll_1.default.Instance.tickBtn.getComponent(cc.Button).interactable = true;
         this._addCircle(point);
         if (this.persistentScrollScript.currentPensilSelection == Constant_1.Constant.ToolsTag.BRUSH ||
             this.persistentScrollScript.currentPensilSelection == Constant_1.Constant.ToolsTag.PATTERN ||
             this.persistentScrollScript.currentPensilSelection == Constant_1.Constant.ToolsTag.SPARKEL)
             cc.audioEngine.playEffect(PersistentScroll_1.default.Instance.glowAud, false);
-        // if(this.persistentScrollScript.currentPensilSelection == Constant.ToolsTag.PAINT)
-        //     this.draggedstensil.push(this.currentMask);
-        // this.currentstensil.push(this.draggedstensil);
-        //new
         var myData = {
             currentTool: this.currentData.currentTool,
             currentPatternFrameIndex: this.currentData.currentPatternFrameIndex,
@@ -147,9 +139,6 @@ var DrawingTable = /** @class */ (function (_super) {
             child: this.currentMask,
         };
         this.drawingDataArray[this.currentData.currentChildIndex].push(myData);
-        //new
-        // this.currentData.drawArray.push(this.pointposition);
-        // this.overAllData.push(this.currentData);
         if (this.persistentScrollScript.currentPensilSelection == Constant_1.Constant.ToolsTag.ERASER)
             return;
         var point1 = event.touch.getLocation();

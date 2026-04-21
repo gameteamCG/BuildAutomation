@@ -1,14 +1,7 @@
-// Learn TypeScript:
-//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-
 import CommonFun from "../Common/CommonFun";
 import { Constant } from "../Common/Constant";
 import Global from "../Common/Global";
-import Drawingmask from "./Drawingmask";
+import GamePlay from "./GamePlay";
 import PersistentScroll from "./Persistent/PersistentScroll";
 
 const { ccclass, property } = cc._decorator;
@@ -127,6 +120,7 @@ export default class DrawingTable extends cc.Component {
         var point = event.touch.getLocation();
         point = this.node.convertToNodeSpaceAR(point);
         PersistentScroll.Instance.hand.opacity = 255;
+        GamePlay.Instance.hand2.opacity = 0;
         PersistentScroll.Instance.tickBtn.getComponent(cc.Button).interactable = true;
 
         this._addCircle(point);
@@ -134,12 +128,6 @@ export default class DrawingTable extends cc.Component {
             this.persistentScrollScript.currentPensilSelection == Constant.ToolsTag.PATTERN ||
             this.persistentScrollScript.currentPensilSelection == Constant.ToolsTag.SPARKEL)
             cc.audioEngine.playEffect(PersistentScroll.Instance.glowAud, false);
-
-
-        // if(this.persistentScrollScript.currentPensilSelection == Constant.ToolsTag.PAINT)
-        //     this.draggedstensil.push(this.currentMask);
-        // this.currentstensil.push(this.draggedstensil);
-        //new
         let myData = {
             currentTool: this.currentData.currentTool,
             currentPatternFrameIndex: this.currentData.currentPatternFrameIndex,
@@ -147,13 +135,6 @@ export default class DrawingTable extends cc.Component {
             child: this.currentMask,
         };
         this.drawingDataArray[this.currentData.currentChildIndex].push(myData);
-        //new
-
-        // this.currentData.drawArray.push(this.pointposition);
-        // this.overAllData.push(this.currentData);
-
-
-
         if (this.persistentScrollScript.currentPensilSelection == Constant.ToolsTag.ERASER)
             return;
 

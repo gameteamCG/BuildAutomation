@@ -1,0 +1,51 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "hand",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5166666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "anchorY": [
+        {
+          "frame": 0,
+          "value": -0.1
+        }
+      ]
+    },
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "8cf4aa1a-0fa9-41cd-9ef5-8f6139201856"
+            }
+          },
+          {
+            "frame": 0.016666666666666666,
+            "value": {
+              "__uuid__": "c6229d73-063c-40b2-9f0e-c366ae0f6dfc"
+            }
+          },
+          {
+            "frame": 0.36666666666666664,
+            "value": {
+              "__uuid__": "8cf4aa1a-0fa9-41cd-9ef5-8f6139201856"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "8cf4aa1a-0fa9-41cd-9ef5-8f6139201856"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

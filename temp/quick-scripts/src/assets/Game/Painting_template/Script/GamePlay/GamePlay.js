@@ -54,6 +54,7 @@ var GamePlay = /** @class */ (function (_super) {
         _this.currentDrawing = null;
         _this.questionNode = null;
         _this.hand = null;
+        _this.hand2 = null;
         _this.podar_font = null;
         _this.jaipuria_font = null;
         _this.tlc_font = null;
@@ -197,7 +198,6 @@ var GamePlay = /** @class */ (function (_super) {
         this.node.addChild(this.currentDrawing);
         this.currentDrawing.setPosition(new cc.Vec2(CommonFun_1.default.instance.convertXPos(cc.winSize.width * 0.45, this.node), CommonFun_1.default.instance.convertYPos(cc.winSize.height * 0.5, this.node)));
         this.currentDrawing.setPosition(this.currentDrawing.getPosition().x + 50, this.currentDrawing.getPosition().y - 50);
-        // console.log("pos = ", this.currentDrawing.getPosition().x);
         this.DrawingTableClassRef = CommonFun_1.default.instance.getDrawingTableClassRef(this.currentDrawing);
         if (this.currentLevel > 0) {
             this.currentDrawing.getChildByName("splash").getComponent(cc.Sprite).spriteFrame = this.pictureImage[this.currentLevel - 1];
@@ -205,8 +205,10 @@ var GamePlay = /** @class */ (function (_super) {
         // else {
         //     this.currentDrawing.getChildByName("splash").getComponent(cc.Sprite).spriteFrame = this.questionImage[0];
         // }
+        this.currentDrawing.getPosition();
         this.DrawingTableClassRef.initTouch();
         this.DrawingTableClassRef.initialiseRef(this);
+        console.log("pos = ", this.currentDrawing.getPosition().x, this.currentDrawing.getPosition().y);
         setTimeout(function () {
             var data = Constant_1.Constant.getLevelData(CommonFun_1.default.instance.currentLvl);
             _this.DrawingTableClassRef.drawData(data);
@@ -220,6 +222,7 @@ var GamePlay = /** @class */ (function (_super) {
         //new
         Constant_1.Constant.SaveLevelData(CommonFun_1.default.instance.currentLvl, this.overAllData);
         this.hand.opacity = 255;
+        this.hand2.opacity = 0;
     };
     GamePlay.prototype.onBackClicked = function () {
         // console.log("levelComplete--" + (CommonFun.instance.currentLvl + 1));
@@ -255,6 +258,9 @@ var GamePlay = /** @class */ (function (_super) {
                 console.log("levelStarted--" + (_this.currentLevel + 1));
                 cc.audioEngine.stopAllEffects();
                 _this.scheduleOnce(function () {
+                    if (_this.currentLevel == 0) {
+                        _this.hand2.getComponent(cc.Animation).play();
+                    }
                     cc.audioEngine.playEffect(_this.question_audios[_this.currentLevel], false);
                     _this.node.getChildByName("image").getComponent(cc.Sprite).spriteFrame = _this.questionImage[_this.currentLevel];
                     _this.currentLevel++;
@@ -312,6 +318,9 @@ var GamePlay = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], GamePlay.prototype, "hand", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamePlay.prototype, "hand2", void 0);
     __decorate([
         property(cc.Font)
     ], GamePlay.prototype, "podar_font", void 0);
