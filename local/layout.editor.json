@@ -5,54 +5,54 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -8,
-      "y": -8,
-      "width": 1552,
-      "height": 832,
+      "x": 0,
+      "y": 0,
+      "width": 1366,
+      "height": 728,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 217.8625030517578,
-            "height": 714.6000366210938,
-            "type": "panel",
-            "active": 0,
-            "children": [
-              "hierarchy"
-            ]
-          },
-          {
-            "width": 970.3624877929688,
-            "height": 714.6000366210938,
+            "width": 204,
+            "height": 610,
             "type": "dock-v",
             "children": [
               {
-                "width": 970.3624877929688,
-                "height": 445.6000061035156,
-                "type": "dock-h",
+                "width": 204,
+                "height": 266,
+                "type": "panel",
+                "active": 0,
                 "children": [
-                  {
-                    "width": 659.5625,
-                    "height": 445.6000061035156,
-                    "type": "panel",
-                    "active": 0,
-                    "children": [
-                      "scene"
-                    ]
-                  },
-                  {
-                    "width": 307.8000183105469,
-                    "height": 445.6000061035156,
-                    "type": "panel",
-                    "active": 0,
-                    "children": [
-                      "assets"
-                    ]
-                  }
+                  "hierarchy"
                 ]
               },
               {
-                "width": 970.3624877929688,
+                "width": 204,
+                "height": 341,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "assets"
+                ]
+              }
+            ]
+          },
+          {
+            "width": 836,
+            "height": 610,
+            "type": "dock-v",
+            "children": [
+              {
+                "width": 836,
+                "height": 341,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "scene"
+                ]
+              },
+              {
+                "width": 836,
                 "height": 266,
                 "type": "panel",
                 "active": 0,
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 341.7749938964844,
-            "height": 714.6000366210938,
+            "width": 304,
+            "height": 610,
             "type": "panel",
             "active": 0,
             "children": [
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
+        "assets",
         "console",
         "timeline",
         "game-window",
@@ -107,8 +107,8 @@
     "builder": {
       "x": -8,
       "y": -8,
-      "width": 1552,
-      "height": 832
+      "width": 1382,
+      "height": 744
     }
   },
   "panelLabelWidth": {}
