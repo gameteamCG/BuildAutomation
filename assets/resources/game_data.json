@@ -56,9 +56,9 @@
       "NumberOfOptions": 2,
       "Options": [
         "250x250_0003_500x500_0003_nut.png",
-        "0_0002_500x500_0000_insect.png"
+        "inc.png"
       ],
-      "ReiterationAudioName": "insect.mp3",
+      "ReiterationAudioName": "546970_5_insects.mp3",
       "CorrectAudioName": "FANTASTIC.mp3",
       "WrongAudioName": "Oopsietryoncemore.mp3",
       "CorrectAnswer": "2"

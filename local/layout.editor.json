@@ -5,16 +5,16 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -8,
-      "y": -8,
-      "width": 1552,
-      "height": 832,
+      "x": 0,
+      "y": 0,
+      "width": 1366,
+      "height": 728,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 220,
-            "height": 714.6000366210938,
+            "width": 204,
+            "height": 610,
             "type": "panel",
             "active": 0,
             "children": [
@@ -22,18 +22,18 @@
             ]
           },
           {
-            "width": 998,
-            "height": 714.6000366210938,
+            "width": 836,
+            "height": 610,
             "type": "dock-v",
             "children": [
               {
-                "width": 998,
-                "height": 445.6000061035156,
+                "width": 836,
+                "height": 341,
                 "type": "dock-h",
                 "children": [
                   {
-                    "width": 596,
-                    "height": 445.6000061035156,
+                    "width": 499,
+                    "height": 341,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -41,8 +41,8 @@
                     ]
                   },
                   {
-                    "width": 399,
-                    "height": 445.6000061035156,
+                    "width": 334,
+                    "height": 341,
                     "type": "panel",
                     "active": 0,
                     "children": [
@@ -52,7 +52,7 @@
                 ]
               },
               {
-                "width": 998,
+                "width": 836,
                 "height": 266,
                 "type": "panel",
                 "active": 0,
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 312,
-            "height": 714.6000366210938,
+            "width": 304,
+            "height": 610,
             "type": "panel",
             "active": 0,
             "children": [
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
+        "assets",
         "console",
         "timeline",
         "game-window",
@@ -95,8 +95,8 @@
     "project-settings": {
       "x": 0,
       "y": 0,
-      "width": 1440,
-      "height": 900
+      "width": 1366,
+      "height": 728
     },
     "preferences": {
       "x": 0,
@@ -107,8 +107,8 @@
     "builder": {
       "x": -8,
       "y": -8,
-      "width": 1552,
-      "height": 832
+      "width": 1382,
+      "height": 744
     }
   },
   "panelLabelWidth": {}
