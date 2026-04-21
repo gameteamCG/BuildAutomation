@@ -68,7 +68,7 @@ var globalVariables = /** @class */ (function (_super) {
         this.updateJSONdata();
         this.scheduleOnce(function () {
             _this.StartGame();
-        }, 2);
+        }, 0);
         if (this.jockeyName == "Podar") {
             this.node.getChildByName("intro").getChildByName("bg").getChildByName("podar").active = true;
         }
@@ -209,7 +209,7 @@ var globalVariables = /** @class */ (function (_super) {
         }
     };
     globalVariables.prototype.StartGame = function () {
-        this.node.getChildByName("intro").active = false;
+        // this.node.getChildByName("intro").active = false;
         this.node.getChildByName("base").opacity = 255;
         GamePlay_1.default.Instance.StartGame();
     };

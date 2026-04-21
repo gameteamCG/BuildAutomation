@@ -11,27 +11,27 @@
   },
   "questionData": [
     {
-      "questionText": "ચોરસ બનાવવું",
+      "questionText": "Square",
       "questionImageName": "common.png",
-      "questionAudioName": "mp3-output-ttsfree(dot)com (2).mp3",
+      "questionAudioName": "trace the lines to complete the square shape.mp3",
       "shouldPlayQuestionAudio": true,
       "pictureImageName": "1circle.png",
       "needMoreTools": true,
       "correctAudioName": "empty.mp3"
     },
     {
-      "questionText": "ચોરસ બનાવવું",
+      "questionText": "Square",
       "questionImageName": "common.png",
-      "questionAudioName": "mp3-output-ttsfree(dot)com (2).mp3",
+      "questionAudioName": "trace the lines to complete the square shape.mp3",
       "shouldPlayQuestionAudio": true,
       "pictureImageName": "4circle.png",
       "needMoreTools": true,
       "correctAudioName": "empty.mp3"
     },
     {
-      "questionText": "ચોરસ બનાવવું",
+      "questionText": "Square",
       "questionImageName": "common.png",
-      "questionAudioName": "mp3-output-ttsfree(dot)com (2).mp3",
+      "questionAudioName": "trace the lines to complete the square shape.mp3",
       "shouldPlayQuestionAudio": true,
       "pictureImageName": "6circle.png",
       "needMoreTools": true,

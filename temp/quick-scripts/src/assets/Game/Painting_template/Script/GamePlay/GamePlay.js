@@ -60,13 +60,14 @@ var GamePlay = /** @class */ (function (_super) {
         // @property(cc.AudioClip)
         _this.question_audios = [];
         _this.reiteration_Audio = [];
+        _this.reiteration_Audio1 = [];
         _this.initialVO = null;
         _this.persistentScrollNode = null;
         _this.persistentScrollScript = null;
         _this.DrawingTableClassRef = null;
         _this.overAllData = [];
         _this.currentLevel = 0;
-        _this.totalLevels = 0;
+        _this.totalLevels = 3;
         _this.Ypos = 0;
         return _this;
     }
@@ -85,7 +86,6 @@ var GamePlay = /** @class */ (function (_super) {
     };
     GamePlay.prototype.LoadJsonData = function () {
         var _this = this;
-        this.totalLevels = globalVariables_1.default.Instance.questions.length;
         var _loop_1 = function (i) {
             var questionData = globalVariables_1.default.Instance.questions[i];
             this_1.questions[i] = questionData.questionText;
@@ -137,6 +137,7 @@ var GamePlay = /** @class */ (function (_super) {
             }
         };
         var this_1 = this;
+        // this.totalLevels = globalVariables.Instance.questions.length;
         // console.log("totalLevels--" + this.totalLevels);
         for (var i = 0; i < this.totalLevels; i++) {
             _loop_1(i);
@@ -232,8 +233,10 @@ var GamePlay = /** @class */ (function (_super) {
         var _this = this;
         var duration = 0;
         if (this.currentLevel != 0) {
-            cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
-            duration = this.reiteration_Audio[this.currentLevel - 1].duration;
+            // cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
+            // duration = this.reiteration_Audio[this.currentLevel - 1].duration;
+            cc.audioEngine.stopAllEffects();
+            cc.audioEngine.playEffect(this.reiteration_Audio1[0], false);
             console.log("correctAnswer--" + (this.currentLevel));
             console.log("levelComplete--" + (this.currentLevel));
         }
@@ -318,6 +321,9 @@ var GamePlay = /** @class */ (function (_super) {
     __decorate([
         property(cc.Font)
     ], GamePlay.prototype, "supercub_font", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], GamePlay.prototype, "reiteration_Audio1", void 0);
     GamePlay = GamePlay_1 = __decorate([
         ccclass
     ], GamePlay);

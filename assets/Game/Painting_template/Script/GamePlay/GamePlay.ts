@@ -43,6 +43,8 @@ export default class GamePlay extends cc.Component {
     question_audios: cc.AudioClip[] = [];
 
     reiteration_Audio: cc.AudioClip[] = [];
+    @property(cc.AudioClip)
+    reiteration_Audio1: cc.AudioClip[] = [];
 
     initialVO: cc.AudioClip = null;
 
@@ -53,7 +55,7 @@ export default class GamePlay extends cc.Component {
     overAllData = [];
 
     private currentLevel: number = 0;
-    private totalLevels: number = 0;
+    private totalLevels: number = 3;
 
     private Ypos: number = 0;
     private static instance: GamePlay = null;
@@ -70,7 +72,7 @@ export default class GamePlay extends cc.Component {
     }
 
     LoadJsonData() {
-        this.totalLevels = globalVariables.Instance.questions.length;
+        // this.totalLevels = globalVariables.Instance.questions.length;
         // console.log("totalLevels--" + this.totalLevels);
         for (let i = 0; i < this.totalLevels; i++) {
             let questionData = globalVariables.Instance.questions[i];
@@ -228,8 +230,10 @@ export default class GamePlay extends cc.Component {
     checkNextLevel() {
         let duration: number = 0;
         if (this.currentLevel != 0) {
-            cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
-            duration = this.reiteration_Audio[this.currentLevel - 1].duration;
+            // cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
+            // duration = this.reiteration_Audio[this.currentLevel - 1].duration;
+            cc.audioEngine.stopAllEffects();
+            cc.audioEngine.playEffect(this.reiteration_Audio1[0], false);
             console.log("correctAnswer--" + (this.currentLevel))
             console.log("levelComplete--" + (this.currentLevel));
         }

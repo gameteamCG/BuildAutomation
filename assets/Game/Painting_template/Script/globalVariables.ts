@@ -72,7 +72,7 @@ export default class globalVariables extends cc.Component {
         this.updateJSONdata();
         this.scheduleOnce(() => {
             this.StartGame();
-        }, 2);
+        }, 0);
         if (this.jockeyName == "Podar") {
             this.node.getChildByName("intro").getChildByName("bg").getChildByName("podar").active = true;
         }
@@ -225,7 +225,7 @@ export default class globalVariables extends cc.Component {
     }
 
     StartGame() {
-        this.node.getChildByName("intro").active = false;
+        // this.node.getChildByName("intro").active = false;
         this.node.getChildByName("base").opacity = 255;
         GamePlay.Instance.StartGame();
     }

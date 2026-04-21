@@ -1,0 +1,258 @@
+
+Crayon.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Crayon0001
+  rotate: true
+  xy: 1669, 403
+  size: 154, 72
+  orig: 154, 72
+  offset: 0, 0
+  index: -1
+Crayon0002
+  rotate: false
+  xy: 1799, 454
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1
+Crayon0003
+  rotate: false
+  xy: 1444, 794
+  size: 240, 222
+  orig: 240, 222
+  offset: 0, 0
+  index: -1
+Crayon0004
+  rotate: true
+  xy: 1599, 350
+  size: 126, 64
+  orig: 126, 64
+  offset: 0, 0
+  index: -1
+Crayon0005
+  rotate: true
+  xy: 1669, 559
+  size: 112, 128
+  orig: 112, 128
+  offset: 0, 0
+  index: -1
+Crayon0006
+  rotate: true
+  xy: 1686, 790
+  size: 226, 234
+  orig: 226, 234
+  offset: 0, 0
+  index: -1
+Crayon0007
+  rotate: false
+  xy: 1004, 98
+  size: 438, 918
+  orig: 438, 918
+  offset: 0, 0
+  index: -1
+Crayon0008
+  rotate: true
+  xy: 1444, 300
+  size: 82, 122
+  orig: 82, 122
+  offset: 0, 0
+  index: -1
+Crayon0009
+  rotate: true
+  xy: 1444, 384
+  size: 86, 126
+  orig: 86, 126
+  offset: 0, 0
+  index: -1
+Crayon0010
+  rotate: true
+  xy: 2010, 946
+  size: 70, 34
+  orig: 70, 34
+  offset: 0, 0
+  index: -1
+Crayon0011
+  rotate: true
+  xy: 2003, 700
+  size: 68, 40
+  orig: 68, 40
+  offset: 0, 0
+  index: -1
+Crayon0012
+  rotate: true
+  xy: 1905, 562
+  size: 226, 54
+  orig: 226, 54
+  offset: 0, 0
+  index: -1
+Crayon0013
+  rotate: true
+  xy: 1827, 562
+  size: 226, 76
+  orig: 226, 76
+  offset: 0, 0
+  index: -1
+Crayon0014
+  rotate: true
+  xy: 1922, 790
+  size: 226, 86
+  orig: 226, 86
+  offset: 0, 0
+  index: -1
+Crayon0015
+  rotate: false
+  xy: 1004, 2
+  size: 226, 94
+  orig: 226, 94
+  offset: 0, 0
+  index: -1
+Crayon0016
+  rotate: true
+  xy: 1961, 714
+  size: 74, 40
+  orig: 74, 40
+  offset: 0, 0
+  index: -1
+Crayon0017
+  rotate: true
+  xy: 2010, 832
+  size: 50, 36
+  orig: 50, 36
+  offset: 0, 0
+  index: -1
+Crayon0018
+  rotate: true
+  xy: 1599, 478
+  size: 226, 68
+  orig: 226, 68
+  offset: 0, 0
+  index: -1
+Crayon0019
+  rotate: false
+  xy: 1232, 2
+  size: 226, 94
+  orig: 226, 94
+  offset: 0, 0
+  index: -1
+Crayon0020
+  rotate: false
+  xy: 1444, 706
+  size: 226, 86
+  orig: 226, 86
+  offset: 0, 0
+  index: -1
+Crayon0021
+  rotate: true
+  xy: 1961, 682
+  size: 30, 36
+  orig: 30, 36
+  offset: 0, 0
+  index: -1
+Crayon0022
+  rotate: true
+  xy: 1999, 668
+  size: 30, 36
+  orig: 30, 36
+  offset: 0, 0
+  index: -1
+Crayon0024
+  rotate: true
+  xy: 2010, 770
+  size: 60, 26
+  orig: 60, 26
+  offset: 0, 0
+  index: -1
+Crayon0025
+  rotate: false
+  xy: 1741, 316
+  size: 74, 58
+  orig: 74, 58
+  offset: 0, 0
+  index: -1
+Crayon0026
+  rotate: true
+  xy: 1444, 224
+  size: 74, 90
+  orig: 74, 90
+  offset: 0, 0
+  index: -1
+Crayon0027
+  rotate: false
+  xy: 1665, 291
+  size: 74, 110
+  orig: 74, 110
+  offset: 0, 0
+  index: -1
+Crayon0029
+  rotate: true
+  xy: 2010, 884
+  size: 60, 36
+  orig: 60, 36
+  offset: 0, 0
+  index: -1
+Crayon0030
+  rotate: false
+  xy: 1857, 316
+  size: 72, 66
+  orig: 72, 66
+  offset: 0, 0
+  index: -1
+Crayon0031
+  rotate: false
+  xy: 1568, 252
+  size: 76, 96
+  orig: 76, 96
+  offset: 0, 0
+  index: -1
+Crayon0032
+  rotate: true
+  xy: 1743, 376
+  size: 76, 112
+  orig: 76, 112
+  offset: 0, 0
+  index: -1
+hand1
+  rotate: false
+  xy: 1961, 526
+  size: 84, 140
+  orig: 84, 140
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: false
+  xy: 1913, 384
+  size: 84, 140
+  orig: 84, 140
+  offset: 0, 0
+  index: -1
+hand3
+  rotate: true
+  xy: 1672, 673
+  size: 115, 153
+  orig: 115, 153
+  offset: 0, 0
+  index: -1
+hand4
+  rotate: true
+  xy: 1444, 589
+  size: 115, 153
+  orig: 115, 153
+  offset: 0, 0
+  index: -1
+hand5
+  rotate: true
+  xy: 1444, 472
+  size: 115, 153
+  orig: 115, 153
+  offset: 0, 0
+  index: -1
+r hand 10002
+  rotate: false
+  xy: 2, 16
+  size: 1000, 1000
+  orig: 1000, 1000
+  offset: 0, 0
+  index: -1
