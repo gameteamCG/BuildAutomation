@@ -101,18 +101,16 @@
             "questionAudioName": "Identify all the objects that begin with the letter i.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
-            "numberOfOptions": 5,
+            "numberOfOptions": 4,
             "options": [
                 "1c.png",
                 "2c.png",
-                "3c.png",
                 "4c.png",
                 "5c.png"
             ],
             "optionsBg": [
                 "1b.png",
                 "2b.png",
-                "3b.png",
                 "4b.png",
                 "5b.png"
             ],
@@ -121,11 +119,10 @@
             "reiterationAudioName": [
                 "i_insect.mp3",
                 "i_igloo.mp3",
-                "i_icecream.mp3",
                 "i_iguana.mp3",
                 "i_infant.mp3"
             ],
-            "correctAnswerNum": "12345"
+            "correctAnswerNum": "1234"
         }
     ]
 }
