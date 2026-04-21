@@ -1,1 +1,163 @@
-{"additionalData":{"GameID":"People who help us","totalLevel":"10","TitleImageName":"community-helpers.png","introBgName":"Bg.png","bgmMusicName":"Funny-Song-mp3cutnet.mp3","mainBgName":"bg(1).png","JockeyName":"Puzzle"},"questionData":[{"questionText":"police officer","questionImageName":"police.png","questionAudioName":"police-Q.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"AnsCard.png","isOptionText":false,"numberOfOptions":2,"options":["place.png","robber.png"],"correctAudioName":"catches-bad-guys.mp3","correctAnswerNum":"2"},{"questionText":"doctor","questionImageName":"doctor.png","questionAudioName":"doctor-Q.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"AnsCard.png","isOptionText":false,"numberOfOptions":2,"options":["patient.png","wooden.png"],"correctAudioName":"treats-sick-people.mp3","correctAnswerNum":"1"},{"questionText":"firefighter","questionImageName":"fireman.png","questionAudioName":"fire-fighter-Q.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"AnsCard.png","isOptionText":false,"numberOfOptions":2,"options":["firehouse.png","farm.png"],"correctAudioName":"puts-out-fires.mp3","correctAnswerNum":"1"},{"questionText":"tailor","questionImageName":"tailor.png","questionAudioName":"tailor-Q.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"AnsCard.png","isOptionText":false,"numberOfOptions":2,"options":["patient.png","place.png"],"correctAudioName":"stitches-clothes.mp3","correctAnswerNum":"2"},{"questionText":"chef","questionImageName":"chef.png","questionAudioName":"chef-Q.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"AnsCard.png","isOptionText":false,"numberOfOptions":2,"options":["house.png","food.png"],"correctAudioName":"cooks-food.mp3","correctAnswerNum":"2"},{"questionText":"teacher","questionImageName":"teacher.png","questionAudioName":"teacher-Q.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"AnsCard.png","isOptionText":false,"numberOfOptions":2,"options":["patient.png","school.png"],"correctAudioName":"teaches-school.mp3","correctAnswerNum":"2"},{"questionText":"carpenter","questionImageName":"carpenter.png","questionAudioName":"carpenter-Q.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"AnsCard.png","isOptionText":false,"numberOfOptions":2,"options":["wooden.png","airplane.png"],"correctAudioName":"furniture.mp3","correctAnswerNum":"1"},{"questionText":"farmer","questionImageName":"farmer.png","questionAudioName":"farmer-Q.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"AnsCard.png","isOptionText":false,"numberOfOptions":2,"options":["farm.png","robber.png"],"correctAudioName":"fruits-and-vegetables.mp3","correctAnswerNum":"1"},{"questionText":"pilot","questionImageName":"pilot.png","questionAudioName":"pilot-Q.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"AnsCard.png","isOptionText":false,"numberOfOptions":2,"options":["food.png","airplane.png"],"correctAudioName":"flies-the-airplane.mp3","correctAnswerNum":"2"},{"questionText":"painter","questionImageName":"painter.png","questionAudioName":"painter-Q.mp3","shouldPlayQuestionAudio":true,"commonOptionImageName":"AnsCard.png","isOptionText":false,"numberOfOptions":2,"options":["house.png","school.png"],"correctAudioName":"paints-house.mp3","correctAnswerNum":"1"}]}
+{
+    "additionalData": {
+        "GameID": "People who help us",
+        "totalLevel": "10",
+        "TitleImageName": "Asset 61 (8).png",
+        "introBgName": "bgtitlemain.png",
+        "bgmMusicName": "Funny-Song-mp3cutnet.mp3",
+        "mainBgName": "bg(1).png",
+        "JockeyName": "Puzzle"
+    },
+    "questionData": [
+        {
+            "questionText": "police officer",
+            "questionImageName": "police.png",
+            "questionAudioName": "police-Q.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "AnsCard.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "place.png",
+                "robber.png"
+            ],
+            "correctAudioName": "catches-bad-guys.mp3",
+            "correctAnswerNum": "2"
+        },
+        {
+            "questionText": "doctor",
+            "questionImageName": "doctor.png",
+            "questionAudioName": "doctor-Q.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "AnsCard.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "patient.png",
+                "wooden.png"
+            ],
+            "correctAudioName": "treats-sick-people.mp3",
+            "correctAnswerNum": "1"
+        },
+        {
+            "questionText": "firefighter",
+            "questionImageName": "fireman.png",
+            "questionAudioName": "fire-fighter-Q.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "AnsCard.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "firehouse.png",
+                "farm.png"
+            ],
+            "correctAudioName": "puts-out-fires.mp3",
+            "correctAnswerNum": "1"
+        },
+        {
+            "questionText": "tailor",
+            "questionImageName": "tailor.png",
+            "questionAudioName": "tailor-Q.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "AnsCard.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "patient.png",
+                "place.png"
+            ],
+            "correctAudioName": "stitches-clothes.mp3",
+            "correctAnswerNum": "2"
+        },
+        {
+            "questionText": "chef",
+            "questionImageName": "chef.png",
+            "questionAudioName": "chef-Q.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "AnsCard.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "house.png",
+                "food.png"
+            ],
+            "correctAudioName": "cooks-food.mp3",
+            "correctAnswerNum": "2"
+        },
+        {
+            "questionText": "teacher",
+            "questionImageName": "teacher.png",
+            "questionAudioName": "teacher-Q.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "AnsCard.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "patient.png",
+                "school.png"
+            ],
+            "correctAudioName": "teaches-school.mp3",
+            "correctAnswerNum": "2"
+        },
+        {
+            "questionText": "carpenter",
+            "questionImageName": "carpenter.png",
+            "questionAudioName": "carpenter-Q.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "AnsCard.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "wooden.png",
+                "airplane.png"
+            ],
+            "correctAudioName": "furniture.mp3",
+            "correctAnswerNum": "1"
+        },
+        {
+            "questionText": "farmer",
+            "questionImageName": "farmer.png",
+            "questionAudioName": "farmer-Q.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "AnsCard.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "farm.png",
+                "robber.png"
+            ],
+            "correctAudioName": "fruits-and-vegetables.mp3",
+            "correctAnswerNum": "1"
+        },
+        {
+            "questionText": "pilot",
+            "questionImageName": "pilot.png",
+            "questionAudioName": "pilot-Q.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "AnsCard.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "food.png",
+                "airplane.png"
+            ],
+            "correctAudioName": "flies-the-airplane.mp3",
+            "correctAnswerNum": "2"
+        },
+        {
+            "questionText": "painter",
+            "questionImageName": "painter.png",
+            "questionAudioName": "painter-Q.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "AnsCard.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "house.png",
+                "school.png"
+            ],
+            "correctAudioName": "paints-house.mp3",
+            "correctAnswerNum": "1"
+        }
+    ]
+}
