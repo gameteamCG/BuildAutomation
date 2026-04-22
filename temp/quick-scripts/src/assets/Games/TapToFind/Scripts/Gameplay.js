@@ -287,7 +287,7 @@ var Gameplay = /** @class */ (function (_super) {
                 if (StartGame_1.default.Instance.currentLevel == 1) {
                     var hand = _this.node.getChildByName("hand");
                     hand.setParent(_this.options.getChildByName(_this.correctAnswer[0].toString()));
-                    hand.setPosition(50, -100);
+                    hand.setPosition(50, -50);
                     hand.angle = 40;
                     hand.setParentWithSamePos(_this.node);
                     hand.active = true;
@@ -312,9 +312,9 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
+            var _laypout1posX = [-450, 0, 450, 0, 50];
             for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                _optionParent.children[i].setPosition(_laypout1posX[i], -100);
             }
         }
         _template.destroy();
@@ -374,6 +374,10 @@ var Gameplay = /** @class */ (function (_super) {
                 // this.canTouch = true;
             }).start();
         }
+    };
+    Gameplay.prototype.playQues = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
     };
     Gameplay.prototype.onTouchStart_layout2 = function (event) {
         var _this = this;

@@ -265,7 +265,7 @@ export default class Gameplay extends cc.Component {
                 if (startGame.Instance.currentLevel == 1) {
                     let hand = this.node.getChildByName("hand");
                     hand.setParent(this.options.getChildByName(this.correctAnswer[0].toString()));
-                    hand.setPosition(50, -100);
+                    hand.setPosition(50, -50);
                     hand.angle = 40;
                     hand.setParentWithSamePos(this.node);
                     hand.active = true;
@@ -291,9 +291,9 @@ export default class Gameplay extends cc.Component {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
+            let _laypout1posX: number[] = [-450, 0, 450, 0, 50];
             for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                _optionParent.children[i].setPosition(_laypout1posX[i], -100);
             }
         }
         _template.destroy();
@@ -357,7 +357,10 @@ export default class Gameplay extends cc.Component {
 
         }
     }
-
+    playQues(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    }
     onTouchStart_layout2(event: cc.Event.EventTouch) {
         if (!this.canTouch) {
             return;

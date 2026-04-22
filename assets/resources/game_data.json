@@ -10,19 +10,17 @@
   "questionData": [
     {
       "questionLayout": "layout1",
-      "questionBgName": "Forest.png",
-      "questionAudioName": "Choosetheuppercaseletterr.mp3",
+      "questionBgName": "BG1.png",
+      "questionAudioName": "L1.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
-      "numberOfOptions": 4,
+      "numberOfOptions": 3,
       "options": [
-        "Asset27.png",
-        "Asset30.png",
-        "Asset28.png",
-        "Asset29.png"
+        "1.png",
+        "2.png",
+        "3.png"
       ],
       "optionsBg": [
-        "",
         "",
         "",
         ""
@@ -30,50 +28,97 @@
       "correctAudioName": "positive_1.mp3",
       "wrongAudioName": "negative_1.mp3",
       "reiterationAudioName": [
-        "RSAYSRR.mp3",
-        "RSAYSRR.mp3"
+        "R1.mp3",
+        "R1.mp3"
+      ],
+      "correctAnswerNum": "13"
+    },
+    {
+      "questionLayout": "layout3",
+      "questionBgName": "BG4.png",
+      "questionAudioName": "L4.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "10.png",
+        "11.png",
+        "12_1.png"
+      ],
+      "optionsBg": [
+        "10.png",
+        "11.png",
+        "12.png"
+      ],
+      "correctAudioName": "positive_4.mp3",
+      "wrongAudioName": "negative_2.mp3",
+      "reiterationAudioName": [
+        "R4.mp3"
+      ],
+      "correctAnswerNum": "3"
+    },
+    {
+      "questionLayout": "layout1",
+      "questionBgName": "BG2.png",
+      "questionAudioName": "L2.mp3",
+      "shouldPlayQuestionAudio": true,
+      "isOptionText": false,
+      "numberOfOptions": 3,
+      "options": [
+        "4.png",
+        "5.png",
+        "6.png"
+      ],
+      "optionsBg": [
+        "",
+        "",
+        ""
+      ],
+      "correctAudioName": "positive_2.mp3",
+      "wrongAudioName": "negative_2.mp3",
+      "reiterationAudioName": [
+        "R1.mp3",
+        "R1.mp3"
       ],
       "correctAnswerNum": "23"
     },
     {
       "questionLayout": "layout3",
-      "questionBgName": "Asset7.png",
-      "questionAudioName": "taponthepicturethatbeginswithlettersoundr.mp3",
+      "questionBgName": "BG5.png",
+      "questionAudioName": "L4.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 3,
       "options": [
-        "Asset4.png",
-        "Asset6.png",
-        "Asset5.png"
+        "15_1.png",
+        "13.png",
+        "14.png"
       ],
       "optionsBg": [
-        "Asset1.png",
-        "Asset3.png",
-        "Asset2.png"
+        "15.png",
+        "13.png",
+        "14.png"
       ],
-      "correctAudioName": "positive_2.mp3",
-      "wrongAudioName": "negative_2.mp3",
+      "correctAudioName": "positive_5.mp3",
+      "wrongAudioName": "negative_1.mp3",
       "reiterationAudioName": [
-        "27915064_6_rose.mp3"
+        "R5.mp3"
       ],
-      "correctAnswerNum": "2"
+      "correctAnswerNum": "1"
     },
     {
       "questionLayout": "layout1",
-      "questionBgName": "Forest.png",
-      "questionAudioName": "Taponthelowercaseletterr.mp3",
+      "questionBgName": "BG3.png",
+      "questionAudioName": "L3.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
-      "numberOfOptions": 4,
+      "numberOfOptions": 3,
       "options": [
-        "Asset23.png",
-        "Asset24.png",
-        "Asset25.png",
-        "Asset26.png"
+        "9.png",
+        "8.png",
+        "7.png"
       ],
       "optionsBg": [
-        "",
         "",
         "",
         ""
@@ -81,85 +126,34 @@
       "correctAudioName": "positive_3.mp3",
       "wrongAudioName": "negative_1.mp3",
       "reiterationAudioName": [
-        "RSAYSRR.mp3",
-        "RSAYSRR.mp3"
+        "R1.mp3",
+        "R1.mp3"
       ],
-      "correctAnswerNum": "34"
+      "correctAnswerNum": "12"
     },
     {
       "questionLayout": "layout3",
-      "questionBgName": "Asset31.png",
-      "questionAudioName": "taponthepicturethatbeginswithlettersoundr.mp3",
+      "questionBgName": "BG6.png",
+      "questionAudioName": "L4.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 3,
       "options": [
-        "Asset19.png",
-        "Asset17.png",
-        "Asset18.png"
+        "16.png",
+        "18_1.png",
+        "17.png"
       ],
       "optionsBg": [
-        "Asset16.png",
-        "Asset14.png",
-        "Asset15.png"
-      ],
-      "correctAudioName": "positive_4.mp3",
-      "wrongAudioName": "negative_2.mp3",
-      "reiterationAudioName": [
-        "27915064_4_rabbit.mp3"
-      ],
-      "correctAnswerNum": "1"
-    },
-    {
-      "questionLayout": "layout1",
-      "questionBgName": "Forest.png",
-      "questionAudioName": "27917899_7_identify-the-letter-r.mp3",
-      "shouldPlayQuestionAudio": true,
-      "isOptionText": false,
-      "numberOfOptions": 4,
-      "options": [
-        "Asset20.png",
-        "Asset21.png",
-        "Asset20.png",
-        "Asset22.png"
-      ],
-      "optionsBg": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctAudioName": "positive_5.mp3",
-      "wrongAudioName": "negative_1.mp3",
-      "reiterationAudioName": [
-        "RSAYSRR.mp3",
-        "RSAYSRR.mp3"
-      ],
-      "correctAnswerNum": "13"
-    },
-    {
-      "questionLayout": "layout3",
-      "questionBgName": "Asset31.png",
-      "questionAudioName": "taponthepicturethatbeginswithlettersoundr.mp3",
-      "shouldPlayQuestionAudio": true,
-      "isOptionText": false,
-      "numberOfOptions": 3,
-      "options": [
-        "Asset8.png",
-        "Asset9.png",
-        "Asset10.png"
-      ],
-      "optionsBg": [
-        "Asset11.png",
-        "Asset12.png",
-        "Asset13.png"
+        "16.png",
+        "18.png",
+        "17.png"
       ],
       "correctAudioName": "positive_6.mp3",
       "wrongAudioName": "negative_2.mp3",
       "reiterationAudioName": [
-        "27915064_5_rat.mp3"
+        "R6.mp3"
       ],
-      "correctAnswerNum": "3"
+      "correctAnswerNum": "2"
     }
   ]
 }
