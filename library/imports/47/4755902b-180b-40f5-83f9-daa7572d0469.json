@@ -15,8 +15,8 @@
     "questionData": [
       {
         "questionLayout": "layout1",
-        "questionBgName": "Asset23.png",
-        "questionAudioName": "Choosetheuppercaseletterm.mp3",
+        "questionBgName": "bg1",
+        "questionAudioName": "choose_mangoes.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "numberOfOptions": 3,
@@ -26,22 +26,22 @@
           ""
         ],
         "optionsBg": [
-          "Asset44M.png",
-          "Asset44.png",
-          "Asset44M.png"
+          "mango-a.png",
+          "mango-w.png",
+          "mango-a.png"
         ],
         "correctAudioName": "positive_1.mp3",
         "wrongAudioName": "negative_1.mp3",
         "reiterationAudioName": [
-          "MSAYSMM.mp3",
-          "MSAYSMM.mp3"
+          "m_sound.mp3",
+          "m_sound.mp3"
         ],
         "correctAnswerNum": "13"
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "Asset23.png",
-        "questionAudioName": "Taponthelowercaseletterm.mp3",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "choose_mushrooms.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "numberOfOptions": 3,
@@ -51,21 +51,22 @@
           ""
         ],
         "optionsBg": [
-          "Asset25k.png",
-          "Asset25.png",
-          "Asset25e.png"
+          "mushroom-w.png",
+          "mushroom-a.png",
+          "mushroom-a.png"
         ],
         "correctAudioName": "positive_2.mp3",
         "wrongAudioName": "negative_2.mp3",
         "reiterationAudioName": [
-          "MSAYSMM.mp3"
+          "m_sound.mp3",
+          "m_sound.mp3"
         ],
-        "correctAnswerNum": "2"
+        "correctAnswerNum": "23"
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "Asset23.png",
-        "questionAudioName": "27917862_1_identify-the-letter-m.mp3",
+        "questionBgName": "bg3.png",
+        "questionAudioName": "choose_mugs.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
         "numberOfOptions": 3,
@@ -75,87 +76,87 @@
           ""
         ],
         "optionsBg": [
-          "Asset45.png",
-          "Asset45d.png",
-          "Asset45.png"
+          "mug-a.png",
+          "mug-a.png",
+          "mug-w.png"
         ],
         "correctAudioName": "positive_3.mp3",
         "wrongAudioName": "negative_1.mp3",
         "reiterationAudioName": [
-          "MSAYSMM.mp3",
-          "MSAYSMM.mp3"
+          "m_sound.mp3",
+          "m_sound.mp3"
         ],
-        "correctAnswerNum": "13"
+        "correctAnswerNum": "12"
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "Asset46.png",
-        "questionAudioName": "taponthepicturethatbeginswithlettersoundm.mp3",
+        "questionBgName": "bg4.png",
+        "questionAudioName": "identify_picture_with_letter_sound.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "Asset40.png",
-          "Asset41.png",
-          "Asset39.png"
+          "lion-c.png",
+          "hat-c.png",
+          "monkey-c.png"
         ],
         "optionsBg": [
-          "Asset40.png",
-          "Asset41.png",
-          "Asset42.png"
+          "lion-un.png",
+          "hat-un.png",
+          "monkey-un.png"
         ],
         "correctAudioName": "positive_4.mp3",
         "wrongAudioName": "negative_2.mp3",
         "reiterationAudioName": [
-          "28044154_6_monkey.mp3"
+          "monkey.mp3"
         ],
         "correctAnswerNum": "3"
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "Asset46.png",
-        "questionAudioName": "taponthepicturethatbeginswithlettersoundm.mp3",
+        "questionBgName": "bg4.png",
+        "questionAudioName": "identify_picture_with_letter_sound.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "Asset34.png",
-          "Asset33.png",
-          "Asset35.png"
+          "hat-c.png",
+          "elephant-c.png",
+          "mango-c.png"
         ],
         "optionsBg": [
-          "Asset34.png",
-          "Asset33.png",
-          "Asset32.png"
+          "hat-un.png",
+          "elephant-un.png",
+          "mango-un.png"
         ],
         "correctAudioName": "positive_5.mp3",
         "wrongAudioName": "negative_1.mp3",
         "reiterationAudioName": [
-          "27054835_8_mango.mp3"
+          "mango.mp3"
         ],
         "correctAnswerNum": "3"
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "Asset46.png",
-        "questionAudioName": "taponthepicturethatbeginswithlettersoundm.mp3",
+        "questionBgName": "bg4.png",
+        "questionAudioName": "identify_picture_with_letter_sound.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "Asset31.png",
-          "Asset27.png",
-          "Asset26.png"
+          "mop-c.png",
+          "banana-c.png",
+          "ball-c.png"
         ],
         "optionsBg": [
-          "Asset28.png",
-          "Asset27.png",
-          "Asset26.png"
+          "mop-un.png",
+          "banana-un.png",
+          "ball-un.png"
         ],
         "correctAudioName": "positive_6.mp3",
         "wrongAudioName": "negative_2.mp3",
         "reiterationAudioName": [
-          "28044154_4_mat.mp3"
+          "mop.mp3"
         ],
         "correctAnswerNum": "1"
       }

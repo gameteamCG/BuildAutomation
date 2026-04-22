@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mug-w",
+    "texture": "bd8fc2d2-7a8e-49f3-bea4-4a791e5c9032",
+    "atlas": "",
+    "rect": [
+      123,
+      128,
+      255,
+      246
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

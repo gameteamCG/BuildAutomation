@@ -5,7 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -265,7 +266,7 @@ export default class Gameplay extends cc.Component {
                 if (startGame.Instance.currentLevel == 1) {
                     let hand = this.node.getChildByName("hand");
                     hand.setParent(this.options.getChildByName(this.correctAnswer[0].toString()));
-                    hand.setPosition(50, -100);
+                    hand.setPosition(0, 0);
                     hand.angle = 40;
                     hand.setParentWithSamePos(this.node);
                     hand.active = true;
