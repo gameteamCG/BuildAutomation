@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bathroom",
+    "texture": "aabd64d1-3bc2-4cab-84f6-5ed7dc806fe6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1418,
+      1417
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      1418,
+      1418
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

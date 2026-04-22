@@ -1,0 +1,27 @@
+
+particle_spine.png
+size: 2646,1284
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+87e1db22-e537-4fa6-9a34-186fbd4da129
+  rotate: true
+  xy: 1924, 2
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+Background_00000_00000
+  rotate: false
+  xy: 2, 202
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+sprite-asset_1776329062590_wh969kvr0
+  rotate: false
+  xy: 2, 122
+  size: 82, 78
+  orig: 82, 78
+  offset: 0, 0
+  index: -1
