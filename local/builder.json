@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\EYFS\\FS0\\Letter_r_fs0_phonics_r83",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
