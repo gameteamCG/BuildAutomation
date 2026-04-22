@@ -229,6 +229,7 @@ var Gameplay = /** @class */ (function (_super) {
                 var _loop_5 = function (i) {
                     _this.options.children[i].active = false;
                     _this.options.children[i].opacity = 255;
+                    _this.options.children[i].scale = 0.8;
                     _this.options.setPosition(0, 0);
                     _this.scheduleOnce(function () {
                         var element = _this.options.children[i];
@@ -254,6 +255,7 @@ var Gameplay = /** @class */ (function (_super) {
                 // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
                 var delay = 0;
                 var _loop_6 = function (i) {
+                    _this.options.children[i].scale = 0.8;
                     _this.scheduleOnce(function () {
                         cc.audioEngine.playEffect(_this.pop_audio, false);
                         cc.tween(_this.options.children[i]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();

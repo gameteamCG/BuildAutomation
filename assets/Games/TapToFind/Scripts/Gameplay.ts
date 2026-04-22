@@ -215,6 +215,7 @@ export default class Gameplay extends cc.Component {
                 for (let i = 0; i < this.options.children.length; i++) {
                     this.options.children[i].active = false;
                     this.options.children[i].opacity = 255;
+                    this.options.children[i].scale = 0.8;
                     this.options.setPosition(0, 0);
                     this.scheduleOnce(() => {
                         let element = this.options.children[i];
@@ -238,6 +239,7 @@ export default class Gameplay extends cc.Component {
                 // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
                 let delay = 0;
                 for (let i = 0; i < this.options.children.length; i++) {
+                    this.options.children[i].scale = 0.8;
                     this.scheduleOnce(() => {
                         cc.audioEngine.playEffect(this.pop_audio, false);
                         cc.tween(this.options.children[i]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();

@@ -868,7 +868,7 @@
     "node": {
       "__id__": 11
     },
-    "_enabled": true,
+    "_enabled": false,
     "_defaultClip": {
       "__uuid__": "f6784b52-a5aa-4a58-b8fc-0de61058bcce"
     },

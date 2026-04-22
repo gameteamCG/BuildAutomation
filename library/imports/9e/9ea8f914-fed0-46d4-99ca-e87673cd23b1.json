@@ -6,8 +6,8 @@
   "json": {
     "additionalData": {
       "GameID": "Letters and sounds Kk",
-      "totalLevel": "4",
-      "TitleImageName": "titleK.png",
+      "totalLevel": "6",
+      "TitleImageName": "letter k.png",
       "introBgName": "Bg(8).png",
       "bgmMusicName": "bgmm.mp3",
       "JockeyName": "Puzzle"
@@ -16,7 +16,7 @@
       {
         "questionLayout": "layout1",
         "questionBgName": "Asset 24.png",
-        "questionAudioName": "taponbats.mp3",
+        "questionAudioName": "newtap on all the kites with the letter sound k.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
@@ -33,101 +33,143 @@
         "correctAudioName": "GREATWORK.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "K.mp3",
-          "K.mp3",
-          "K.mp3"
+          "new_535341-10-k-says_p7ktWp4Z.mp3",
+          "new_535341-10-k-says_p7ktWp4Z.mp3",
+          "new_535341-10-k-says_p7ktWp4Z.mp3"
         ],
         "correctAnswerNum": "13"
       },
       {
         "questionLayout": "layout2",
-        "questionBgName": "l2(6).png",
-        "questionAudioName": "taponcandybags.mp3",
+        "questionBgName": "Asset 23.png",
+        "questionAudioName": "newtap on all the kiwis with the letter sound k.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 4,
         "options": [
-          "",
           "",
           "",
           "",
           ""
         ],
         "optionsBg": [
-          "l2(1).png",
-          "l2(2).png",
-          "l2(3).png",
-          "l2(4).png",
-          "l2(5).png"
+          "Artboard 7.png",
+          "Artboard 8.png",
+          "Artboard 7.png",
+          "Artboard 9.png"
         ],
         "correctAudioName": "FANTASTIC.mp3",
         "wrongAudioName": "ohoh.mp3",
         "reiterationAudioName": [
-          "K.mp3",
-          "K.mp3",
-          "K.mp3"
+          "new_535341-10-k-says_p7ktWp4Z.mp3",
+          "new_535341-10-k-says_p7ktWp4Z.mp3",
+          "new_535341-10-k-says_p7ktWp4Z.mp3"
         ],
-        "correctAnswerNum": "135"
+        "correctAnswerNum": "13"
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "l3(6).png",
-        "questionAudioName": "taponpumpkins.mp3",
+        "questionBgName": "Asset 25.png",
+        "questionAudioName": "newtap on all the kangaroos with the letter sound k.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 3,
         "options": [
-          "",
-          "",
           "",
           "",
           ""
         ],
         "optionsBg": [
-          "l3(1).png",
-          "l3(2).png",
-          "l3(3).png",
-          "l3(4).png",
-          "l3(5).png"
+          "Artboard 10.png",
+          "Artboard 11.png",
+          "Artboard 10.png"
         ],
-        "correctAudioName": "BRILLIANT.mp3",
-        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "correctAudioName": "GREATWORK.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "K.mp3",
-          "K.mp3",
-          "K.mp3"
+          "new_535341-10-k-says_p7ktWp4Z.mp3",
+          "new_535341-10-k-says_p7ktWp4Z.mp3",
+          "new_535341-10-k-says_p7ktWp4Z.mp3"
         ],
-        "correctAnswerNum": "125"
+        "correctAnswerNum": "13"
+      },
+      {
+        "questionLayout": "layout1",
+        "questionBgName": "Asset 26.png",
+        "questionAudioName": "newtap on all the kettles with the letter sound k.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "",
+          "",
+          ""
+        ],
+        "optionsBg": [
+          "Artboard 5.png",
+          "Artboard 5.png",
+          "Artboard 6.png"
+        ],
+        "correctAudioName": "GREATWORK.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "new_535341-10-k-says_p7ktWp4Z.mp3",
+          "new_535341-10-k-says_p7ktWp4Z.mp3",
+          "new_535341-10-k-says_p7ktWp4Z.mp3"
+        ],
+        "correctAnswerNum": "12"
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bghealthy.png",
-        "questionAudioName": "taponobjects.mp3",
+        "questionBgName": "Asset 21.png",
+        "questionAudioName": "newtap on all the objects that begin with the letter sound k.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 3,
         "options": [
-          "fish.png",
-          "key.png",
-          "kite.png",
-          "camel.png",
-          "kangaroo.png"
+          "Artboard 12 copy 7.png",
+          "Artboard 12 copy 5.png",
+          "Artboard 12 copy 6.png"
         ],
         "optionsBg": [
-          "bw(4).png",
-          "bw(1).png",
-          "bw(2).png",
-          "bw(5).png",
-          "bw(3).png"
+          "Artboard 12 copy 4.png",
+          "Artboard 12 copy 5.png",
+          "Artboard 12 copy 6.png"
         ],
         "correctAudioName": "keykangarookite.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "BRILLIANT.mp3",
-          "EXCELLENTJOB.mp3",
-          "FANTASTIC.mp3"
+          "new_702237_4_king.mp3",
+          "new_702237_4_king.mp3",
+          "new_702237_4_king.mp3"
         ],
-        "correctAnswerNum": "235"
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "Asset 27.png",
+        "questionAudioName": "newtap on all the objects that begin with the letter sound k.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "Artboard 12 copy.png",
+          "Artboard 12 copy 2.png",
+          "Artboard 12.png"
+        ],
+        "optionsBg": [
+          "Artboard 12 copy.png",
+          "Artboard 12 copy 2.png",
+          "Artboard 12 copy 3.png"
+        ],
+        "correctAudioName": "keykangarookite.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "new8427157_7_key.mp3",
+          "new8427157_7_key.mp3",
+          "new8427157_7_key.mp3"
+        ],
+        "correctAnswerNum": "3"
       }
     ]
   }
