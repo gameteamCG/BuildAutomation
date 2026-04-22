@@ -17,15 +17,15 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Identify the letter",
+        "QuestionText": "Identify",
         "QuestionImageName": "",
         "QuestionAudioName": "identifyletterD.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": true,
         "NumberOfOptions": 2,
         "Options": [
-          "Dd",
-          "Rr"
+          "d",
+          "r"
         ],
         "ReiterationAudioName": "Sound_of_d.mp3",
         "CorrectAudioName": "FANTASTIC.mp3",
@@ -35,7 +35,7 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Letter sound ‘Dd’",
+        "QuestionText": "Letter sound d",
         "QuestionImageName": "",
         "QuestionAudioName": "identifythewordthatbegins.mp3",
         "PlayQuestionAudio": true,
@@ -53,7 +53,7 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Letter sound ‘Dd’",
+        "QuestionText": "Letter sound d",
         "QuestionImageName": "",
         "QuestionAudioName": "identifythewordthatbegins.mp3",
         "PlayQuestionAudio": true,
@@ -71,7 +71,7 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Letter sound ‘Dd’",
+        "QuestionText": "Letter sound d",
         "QuestionImageName": "",
         "QuestionAudioName": "identifythewordthatbegins.mp3",
         "PlayQuestionAudio": true,
@@ -89,7 +89,7 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Letter sound ‘Dd’",
+        "QuestionText": "Letter sound d",
         "QuestionImageName": "",
         "QuestionAudioName": "identifythewordthatbegins.mp3",
         "PlayQuestionAudio": true,
