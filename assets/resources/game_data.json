@@ -10,7 +10,7 @@
     "questionData": [
         {
             "questionLayout": "layout1",
-            "questionBgName": "bgnew2.png",
+            "questionBgName": "bg_1.png",
             "questionAudioName": "1_new_tap-on-the-deer-with-t_xrs3nrJs.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": true,
@@ -25,7 +25,7 @@
                 "new_deer1.png",
                 "new_deer3.png"
             ],
-            "correctAudioName": "L1Correct.mp3",
+            "correctAudioName": "L1correct.mp3",
             "wrongAudioName": "no.mp3",
             "reiterationAudioName": [
                 "new_6_d-says_3LGCmpXm.mp3"
@@ -34,7 +34,7 @@
         },
         {
             "questionLayout": "layout2",
-            "questionBgName": "bg_1.png",
+            "questionBgName": "bg_2.png",
             "questionAudioName": "new_2tap-on-the-dress-with_dC2WQIHs.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": true,
@@ -58,7 +58,7 @@
         },
         {
             "questionLayout": "layout2",
-            "questionBgName": "bg_2.png",
+            "questionBgName": "bg_3.png",
             "questionAudioName": "new_3tap-on-the-doll-with-t_03nYvDxt.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": true,
@@ -82,7 +82,7 @@
         },
         {
             "questionLayout": "layout1",
-            "questionBgName": "bgnew3.png",
+            "questionBgName": "bg_4.png",
             "questionAudioName": "new_4-tap-on-the-duck-with-t_w4X1oUmP.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": true,
@@ -121,7 +121,7 @@
                 "new_DP2.png",
                 "new_DP3.png"
             ],
-            "correctAudioName": "L4Correct.mp3",
+            "correctAudioName": "L5Correct.mp3",
             "wrongAudioName": "ns.mp3",
             "reiterationAudioName": [
                 "new_6_d-says_3LGCmpXm.mp3"
