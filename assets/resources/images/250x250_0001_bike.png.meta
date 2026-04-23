@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "43a76efd-67ba-43e8-b422-d121bb9847f6",
+  "uuid": "07e66f33-2238-4f9e-8adf-53ae528ed22f",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "250x250_0001_bike": {
       "ver": "1.0.6",
-      "uuid": "4f8b8097-4cb5-401e-aa2c-e87ade2fe5c3",
+      "uuid": "d775a882-1825-4e4e-ba8e-ce134aeb1ef0",
       "importer": "sprite-frame",
-      "rawTextureUuid": "43a76efd-67ba-43e8-b422-d121bb9847f6",
+      "rawTextureUuid": "07e66f33-2238-4f9e-8adf-53ae528ed22f",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
