@@ -15,7 +15,7 @@
     "questionData": [
       {
         "questionLayout": "layout1",
-        "questionBgName": "bg1.png",
+        "questionBgName": "bg_new_1.png",
         "questionAudioName": "identify.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -27,10 +27,10 @@
           ""
         ],
         "optionsBg": [
-          "Asset 68.png",
-          "Asset_64.png",
-          "Asset_67.png",
-          "Asset_65.png"
+          "hen-a.png",
+          "hen-w.png",
+          "hen-a.png",
+          "hen-w.png"
         ],
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
@@ -42,7 +42,7 @@
       },
       {
         "questionLayout": "layout2",
-        "questionBgName": "bg2.png",
+        "questionBgName": "bg_new_2.png",
         "questionAudioName": "uppercase.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -54,10 +54,10 @@
           ""
         ],
         "optionsBg": [
-          "Asset_133.png",
-          "Asset_132.png",
-          "Asset_135.png",
-          "Asset_134.png"
+          "hay-a.png",
+          "hay-w.png",
+          "hay-w2.png",
+          "hay-a.png"
         ],
         "correctAudioName": "EXCELLENTJOB.mp3",
         "wrongAudioName": "nevermindtryagain.mp3",
@@ -69,7 +69,7 @@
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "bg3.png",
+        "questionBgName": "bg_new_3.png",
         "questionAudioName": "lowercase.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -81,10 +81,10 @@
           ""
         ],
         "optionsBg": [
-          "Asset_75.png",
-          "Asset_80.png",
-          "Asset_81.png",
-          "Asset_76.png"
+          "hat-w.png",
+          "hat-a.png",
+          "hat-a.png",
+          "hat-w.png"
         ],
         "correctAudioName": "EXCEPTIONAL.mp3",
         "wrongAudioName": "ohoh.mp3",
@@ -96,20 +96,20 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg5.png",
+        "questionBgName": "bg_new_1.png",
         "questionAudioName": "tap.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "hat.png",
-          "ball.png",
-          "egg.png"
+          "horse-c.png",
+          "tree-un.png",
+          "fish-un.png"
         ],
         "optionsBg": [
-          "hat2.png",
-          "bll2.png",
-          "egg2.png"
+          "horse-un.png",
+          "tree-un.png",
+          "fish-un.png"
         ],
         "correctAudioName": "FANTASTIC.mp3",
         "wrongAudioName": "nevermindtryagain.mp3",
@@ -120,20 +120,20 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg5.png",
+        "questionBgName": "bg_new_1.png",
         "questionAudioName": "tap.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "bug.png",
-          "horse_1.png",
-          "flower.png"
+          "magnet-un.png",
+          "hat-c.png",
+          "ball-un.png"
         ],
         "optionsBg": [
-          "bug2.png",
-          "horse_2.png",
-          "flower2.png"
+          "magnet-un.png",
+          "hat-un.png",
+          "ball-un.png"
         ],
         "correctAudioName": "INCREDIBLE.mp3",
         "wrongAudioName": "ohoh.mp3",
@@ -144,20 +144,20 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg5.png",
+        "questionBgName": "bg_new_1.png",
         "questionAudioName": "tap.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "mag.png",
-          "tree.png",
-          "house.png"
+          "flower-un.png",
+          "fish-un.png",
+          "house-c.png"
         ],
         "optionsBg": [
-          "magbw.png",
-          "tree2.png",
-          "house2.png"
+          "flower-un.png",
+          "fish-un.png",
+          "house-un.png"
         ],
         "correctAudioName": "MAGNIFICENT.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
