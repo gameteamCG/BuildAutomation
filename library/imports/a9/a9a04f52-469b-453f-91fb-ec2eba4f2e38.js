@@ -288,7 +288,7 @@ var Gameplay = /** @class */ (function (_super) {
                 if (StartGame_1.default.Instance.currentLevel == 1) {
                     var hand = _this.node.getChildByName("hand");
                     hand.setParent(_this.options.getChildByName(_this.correctAnswer[0].toString()));
-                    hand.setPosition(50, -100);
+                    hand.setPosition(0, -100);
                     hand.angle = 40;
                     hand.setParentWithSamePos(_this.node);
                     hand.active = true;

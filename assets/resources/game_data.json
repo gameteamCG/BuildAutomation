@@ -11,7 +11,7 @@
         {
             "questionLayout": "layout1",
             "questionBgName": "bg_new_1.png",
-            "questionAudioName": "identify.mp3",
+            "questionAudioName": "tap_hen.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 4,
@@ -31,14 +31,14 @@
             "wrongAudioName": "Oopsietryoncemore.mp3",
             "reiterationAudioName": [
                 "",
-                "hsaysHh.mp3"
+                "h_sound.mp3"
             ],
             "correctAnswerNum": "13"
         },
         {
             "questionLayout": "layout2",
             "questionBgName": "bg_new_2.png",
-            "questionAudioName": "uppercase.mp3",
+            "questionAudioName": "tap_hay.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 4,
@@ -58,14 +58,14 @@
             "wrongAudioName": "nevermindtryagain.mp3",
             "reiterationAudioName": [
                 "",
-                "hsaysHh.mp3"
+                "h_sound.mp3"
             ],
             "correctAnswerNum": "14"
         },
         {
             "questionLayout": "layout1",
             "questionBgName": "bg_new_3.png",
-            "questionAudioName": "lowercase.mp3",
+            "questionAudioName": "tap_hat.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 4,
@@ -85,14 +85,14 @@
             "wrongAudioName": "ohoh.mp3",
             "reiterationAudioName": [
                 "",
-                "hsaysHh.mp3"
+                "h_sound.mp3"
             ],
             "correctAnswerNum": "23"
         },
         {
             "questionLayout": "layout3",
             "questionBgName": "bg_new_1.png",
-            "questionAudioName": "tap.mp3",
+            "questionAudioName": "identify_picture.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 3,
@@ -109,14 +109,14 @@
             "correctAudioName": "FANTASTIC.mp3",
             "wrongAudioName": "nevermindtryagain.mp3",
             "reiterationAudioName": [
-                "25558829_8_hat.mp3"
+                "horse.mp3"
             ],
             "correctAnswerNum": "1"
         },
         {
             "questionLayout": "layout3",
             "questionBgName": "bg_new_1.png",
-            "questionAudioName": "tap.mp3",
+            "questionAudioName": "identify_picture.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 3,
@@ -133,14 +133,14 @@
             "correctAudioName": "INCREDIBLE.mp3",
             "wrongAudioName": "ohoh.mp3",
             "reiterationAudioName": [
-                "25248872_4_horse.mp3"
+                "hat.mp3"
             ],
             "correctAnswerNum": "2"
         },
         {
             "questionLayout": "layout3",
             "questionBgName": "bg_new_1.png",
-            "questionAudioName": "tap.mp3",
+            "questionAudioName": "identify_picture.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 3,
@@ -157,7 +157,7 @@
             "correctAudioName": "MAGNIFICENT.mp3",
             "wrongAudioName": "Oopsietryoncemore.mp3",
             "reiterationAudioName": [
-                "25248872_2_house.mp3"
+                "house.mp3"
             ],
             "correctAnswerNum": "3"
         }
