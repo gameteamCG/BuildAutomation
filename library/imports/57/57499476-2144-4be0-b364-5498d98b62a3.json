@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Deer",
+    "texture": "0e6e4eb8-9506-4f9a-aec3-1d810519e030",
+    "atlas": "",
+    "rect": [
+      59,
+      5,
+      379,
+      484
+    ],
+    "offset": [
+      -2,
+      3.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
