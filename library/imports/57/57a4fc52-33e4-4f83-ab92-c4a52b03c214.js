@@ -173,7 +173,10 @@ var Gameplay = /** @class */ (function (_super) {
                 _this.optionsNode.children[i].opacity = 255;
                 _this.scheduleOnce(function () {
                     cc.audioEngine.playEffect(_this.pop_sound, false);
-                    cc.tween(_this.optionsNode.children[i]).to(0.3, { scale: 1 }, { easing: 'backInOut' }).start();
+                    if (globalVariables_1.default.Instance.currentLevel == 5) {
+                        _this.optionsNode.y = -60;
+                    }
+                    cc.tween(_this.optionsNode.children[i]).to(0.3, { scale: 0.7 }, { easing: 'backInOut' }).start();
                     if (i == _this.optionsNode.children.length - 1) {
                         _this.scheduleOnce(function () {
                             _this.SubcribeEvents();
@@ -476,7 +479,7 @@ var Gameplay = /** @class */ (function (_super) {
                     VOduration_1 = this.correctVO.duration;
                 }
                 this.scheduleOnce(function () {
-                    cc.audioEngine.playEffect(_this.correctVO, false);
+                    // cc.audioEngine.playEffect(this.correctVO, false);
                     // this.callJockey();
                     _this.scheduleOnce(function () {
                         // this.LoadNextQuestion();

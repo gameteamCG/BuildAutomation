@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jam3",
+    "texture": "add0faee-95a4-468b-9c7c-272b9e64ace7",
+    "atlas": "",
+    "rect": [
+      61,
+      94,
+      181,
+      206
+    ],
+    "offset": [
+      1.5,
+      -47
+    ],
+    "originalSize": [
+      300,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
