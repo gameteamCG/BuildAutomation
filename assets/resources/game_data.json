@@ -16,11 +16,11 @@
       "QuestionImageName": "",
       "QuestionAudioName": "L1.mp3",
       "PlayQuestionAudio": false,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "Asset 35.png",
-        "Asset 36.png"
+        "o",
+        "v"
       ],
       "ReiterationAudioName": "R1.mp3",
       "CorrectAudioName": "positive_1.mp3",
@@ -29,8 +29,8 @@
     },
     {
       "QuestionAppearTime": "",
-      "IsQuestionText": false,
-      "QuestionText": "",
+      "IsQuestionText": true,
+      "QuestionText": "Letter o",
       "QuestionImageName": "Asset 34.png",
       "QuestionAudioName": "L2.mp3",
       "PlayQuestionAudio": true,
@@ -48,15 +48,15 @@
     {
       "QuestionAppearTime": "",
       "IsQuestionText": false,
-      "QuestionText": "",
+      "QuestionText": "Letter o",
       "QuestionImageName": "Qoranges.png",
       "QuestionAudioName": "L3.mp3",
       "PlayQuestionAudio": false,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "Asset 37 (1).png",
-        "Asset 35.png"
+        "b",
+        "o"
       ],
       "ReiterationAudioName": "R3.mp3",
       "CorrectAudioName": "positive_3.mp3",
