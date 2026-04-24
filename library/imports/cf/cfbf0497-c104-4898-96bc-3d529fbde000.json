@@ -17,7 +17,7 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "identify letter",
+        "QuestionText": "Identify",
         "QuestionImageName": "",
         "QuestionAudioName": "Que1.mp3",
         "PlayQuestionAudio": true,
@@ -53,7 +53,7 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Aa",
+        "QuestionText": "Letter sound a",
         "QuestionImageName": "",
         "QuestionAudioName": "Que23.mp3",
         "PlayQuestionAudio": true,
