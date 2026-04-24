@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "9 balls",
+        "questionText": "Number 9",
         "questionImageName": "",
         "questionAudioName": "1_colour_9_balls.mp3",
         "shouldPlayQuestionAudio": true,
@@ -25,7 +25,7 @@
         "correctAudioName": "FANTASTIC.mp3"
       },
       {
-        "questionText": "9 hats",
+        "questionText": "Number 9",
         "questionImageName": "",
         "questionAudioName": "3_colour_9_hats.mp3",
         "shouldPlayQuestionAudio": true,
@@ -34,7 +34,7 @@
         "correctAudioName": "GOODJOB.mp3"
       },
       {
-        "questionText": "9 kites",
+        "questionText": "Number 9",
         "questionImageName": "",
         "questionAudioName": "2_colour_9_kites.mp3",
         "shouldPlayQuestionAudio": true,

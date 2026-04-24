@@ -179,7 +179,9 @@ export default class GamePlay extends cc.Component {
 
 
     // update (dt) {}
-
+    playButtonSound() {
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel - 1], false);
+    }
     addDrawing() {
         this.currentDrawing = cc.instantiate(this.DrawingDataArray[CommonFun.instance.currentLvl].DrawingDataPrefab);
         this.node.addChild(this.currentDrawing);

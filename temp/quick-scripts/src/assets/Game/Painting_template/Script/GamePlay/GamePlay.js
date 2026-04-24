@@ -187,6 +187,9 @@ var GamePlay = /** @class */ (function (_super) {
         }, 1);
     };
     // update (dt) {}
+    GamePlay.prototype.playButtonSound = function () {
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel - 1], false);
+    };
     GamePlay.prototype.addDrawing = function () {
         var _this = this;
         this.currentDrawing = cc.instantiate(this.DrawingDataArray[CommonFun_1.default.instance.currentLvl].DrawingDataPrefab);
