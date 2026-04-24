@@ -19,8 +19,8 @@
       "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "Nn",
-        "Ss"
+        "n",
+        "s"
       ],
       "ReiterationAudioName": "N(1).mp3",
       "CorrectAudioName": "positive_1.mp3",
@@ -30,7 +30,7 @@
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": true,
-      "QuestionText": "Nn",
+      "QuestionText": "n",
       "QuestionImageName": "",
       "QuestionAudioName": "tapOnPicLetterN.mp3",
       "PlayQuestionAudio": true,
@@ -48,7 +48,7 @@
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": true,
-      "QuestionText": "Nn",
+      "QuestionText": "n",
       "QuestionImageName": "",
       "QuestionAudioName": "tap-on-the-body-part-that-begins-with-the-letter-sound_nn.mp3",
       "PlayQuestionAudio": true,
