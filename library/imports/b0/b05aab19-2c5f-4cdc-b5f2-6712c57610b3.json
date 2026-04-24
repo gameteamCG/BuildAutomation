@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "Umbrella",
+        "questionText": "umbrella",
         "questionImageName": "ref_img.png",
         "questionAudioName": "color_the_object_that_begins_with_the_letter_sound_uuu.mp3",
         "shouldPlayQuestionAudio": true,
@@ -25,7 +25,7 @@
         "correctAudioName": "1_u_for_umbrella.mp3"
       },
       {
-        "questionText": "Uncle",
+        "questionText": "uncle",
         "questionImageName": "ref_img.png",
         "questionAudioName": "color_the_object_that_begins_with_the_letter_sound_uuu.mp3",
         "shouldPlayQuestionAudio": true,
@@ -34,7 +34,7 @@
         "correctAudioName": "2_u_for_uncle.mp3"
       },
       {
-        "questionText": "Urn",
+        "questionText": "urn",
         "questionImageName": "ref_img.png",
         "questionAudioName": "color_the_object_that_begins_with_the_letter_sound_uuu.mp3",
         "shouldPlayQuestionAudio": true,
@@ -43,7 +43,7 @@
         "correctAudioName": "3_u-for-urn.mp3"
       },
       {
-        "questionText": "Unhappy",
+        "questionText": "unhappy",
         "questionImageName": "ref_img.png",
         "questionAudioName": "color_the_object_that_begins_with_the_letter_sound_uuu.mp3",
         "shouldPlayQuestionAudio": true,

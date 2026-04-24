@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GameTitle",
+    "texture": "d022e104-5138-41e2-bc93-8b5fe7a90b47",
+    "atlas": "",
+    "rect": [
+      3,
+      7,
+      473,
+      299
+    ],
+    "offset": [
+      -6,
+      -2
+    ],
+    "originalSize": [
+      491,
+      309
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
