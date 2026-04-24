@@ -24,8 +24,8 @@
         "IsOptionText": true,
         "NumberOfOptions": 2,
         "Options": [
-          "Mm",
-          "Dd"
+          "m",
+          "d"
         ],
         "ReiterationAudioName": "M(1).mp3",
         "CorrectAudioName": "positive_1.mp3",
@@ -35,7 +35,7 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "Mm",
+        "QuestionText": "m",
         "QuestionImageName": "",
         "QuestionAudioName": "taponpicletterm.mp3",
         "PlayQuestionAudio": false,
@@ -53,7 +53,7 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "Mm",
+        "QuestionText": "m",
         "QuestionImageName": "",
         "QuestionAudioName": "tap-on-the-animal-that-begins-with-the-letter-sound_mmm.mp3",
         "PlayQuestionAudio": false,
