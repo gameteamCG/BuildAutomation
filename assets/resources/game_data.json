@@ -16,11 +16,11 @@
             "QuestionImageName": "question.png",
             "QuestionAudioName": "identify-the-letter-with-the-letter-sound_fff.mp3",
             "PlayQuestionAudio": true,
-            "IsOptionText": false,
+            "IsOptionText": true,
             "NumberOfOptions": 2,
             "Options": [
-                "ans.png",
-                "ans_2.png"
+                "o",
+                "f"
             ],
             "ReiterationAudioName": "FF.mp3",
             "CorrectAudioName": "positive_1.mp3",
@@ -29,9 +29,9 @@
         },
         {
             "QuestionAppearTime": "99999",
-            "IsQuestionText": false,
-            "QuestionText": "",
-            "QuestionImageName": "question_1.png",
+            "IsQuestionText": true,
+            "QuestionText": "letter sound f",
+            "QuestionImageName": "",
             "QuestionAudioName": "tap.mp3",
             "PlayQuestionAudio": true,
             "IsOptionText": false,
@@ -52,11 +52,11 @@
             "QuestionImageName": "fish.png",
             "QuestionAudioName": "identifyLetterForPic.mp3",
             "PlayQuestionAudio": true,
-            "IsOptionText": false,
+            "IsOptionText": true,
             "NumberOfOptions": 2,
             "Options": [
-                "ans_2.png",
-                "ans_1.png"
+                "f",
+                "p"
             ],
             "ReiterationAudioName": "f fish.mp3",
             "CorrectAudioName": "positive_3.mp3",
