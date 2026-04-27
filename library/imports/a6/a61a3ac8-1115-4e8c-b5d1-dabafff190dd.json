@@ -518,7 +518,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        250,
+        231.095,
         0,
         0,
         0,
@@ -2911,7 +2911,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 212.64,
+      "width": 188.2,
       "height": 75.6
     },
     "_anchorPoint": {
@@ -2963,8 +2963,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Letter Ff",
-    "_N$string": "Letter Ff",
+    "_string": "Letter f",
+    "_N$string": "Letter f",
     "_fontSize": 60,
     "_lineHeight": 60,
     "_enableWrapText": true,
