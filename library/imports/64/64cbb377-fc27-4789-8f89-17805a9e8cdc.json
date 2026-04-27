@@ -17,15 +17,15 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Identify the letter ",
+        "QuestionText": "Identify",
         "QuestionImageName": "",
-        "QuestionAudioName": "identifyletterf.mp3",
+        "QuestionAudioName": "L1.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": true,
         "NumberOfOptions": 2,
         "Options": [
-          "Ff",
-          "Aa"
+          "f",
+          "a"
         ],
         "ReiterationAudioName": "Sound_of_f.mp3",
         "CorrectAudioName": "GREATWORK.mp3",
@@ -35,9 +35,9 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Letter sound ‘Ff’",
+        "QuestionText": "Letter sound f",
         "QuestionImageName": "",
-        "QuestionAudioName": "Identify the word that begins with the letter sound F.mp3",
+        "QuestionAudioName": "L2.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -53,9 +53,9 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Letter sound ‘Ff’",
+        "QuestionText": "Letter sound f",
         "QuestionImageName": "",
-        "QuestionAudioName": "Identify the word that begins with the letter sound F.mp3",
+        "QuestionAudioName": "L2.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -71,9 +71,9 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Letter sound ‘Ff’",
+        "QuestionText": "Letter sound f",
         "QuestionImageName": "",
-        "QuestionAudioName": "Identify the word that begins with the letter sound F.mp3",
+        "QuestionAudioName": "L2.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -89,9 +89,9 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Letter sound ‘Ff’",
+        "QuestionText": "Letter sound f",
         "QuestionImageName": "",
-        "QuestionAudioName": "Identify the word that begins with the letter sound F.mp3",
+        "QuestionAudioName": "L2.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
