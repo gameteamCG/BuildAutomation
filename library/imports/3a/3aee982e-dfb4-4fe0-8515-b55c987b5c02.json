@@ -17,15 +17,15 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Identify the letter",
+        "QuestionText": "Identify",
         "QuestionImageName": "",
         "QuestionAudioName": "identifyletterL.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": true,
         "NumberOfOptions": 2,
         "Options": [
-          "Ll",
-          "Uu"
+          "l",
+          "u"
         ],
         "ReiterationAudioName": "Sound_of_L.mp3",
         "CorrectAudioName": "GREATWORK.mp3",
@@ -35,7 +35,7 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Letter sound ‘Ll’",
+        "QuestionText": "Letter sound l",
         "QuestionImageName": "",
         "QuestionAudioName": "identifyletterbehinsoundL.mp3",
         "PlayQuestionAudio": true,
@@ -53,7 +53,7 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Letter sound ‘Ll’",
+        "QuestionText": "Letter sound l",
         "QuestionImageName": "",
         "QuestionAudioName": "identifyletterbehinsoundL.mp3",
         "PlayQuestionAudio": true,
@@ -71,7 +71,7 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Letter sound ‘Ll’",
+        "QuestionText": "Letter sound l",
         "QuestionImageName": "",
         "QuestionAudioName": "identifyletterbehinsoundL.mp3",
         "PlayQuestionAudio": true,
@@ -89,7 +89,7 @@
       {
         "QuestionAppearTime": "9999",
         "IsQuestionText": true,
-        "QuestionText": "Letter sound ‘Ll’",
+        "QuestionText": "Letter sound l",
         "QuestionImageName": "",
         "QuestionAudioName": "identifyletterbehinsoundL.mp3",
         "PlayQuestionAudio": true,
