@@ -388,9 +388,7 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": {
-      "__uuid__": "85294770-66b7-4776-8159-d442a3067bef"
-    },
+    "_spriteFrame": null,
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -446,7 +444,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -40,
+        -71.556,
         0,
         0,
         0,
