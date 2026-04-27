@@ -186,6 +186,10 @@ var GamePlay = /** @class */ (function (_super) {
             _this.node.getChildByName("backButton").getComponent(cc.Button).interactable = false;
         }, 1);
     };
+    GamePlay.prototype.PlayQues = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel - 1], false);
+    };
     // update (dt) {}
     GamePlay.prototype.addDrawing = function () {
         var _this = this;

@@ -177,6 +177,11 @@ export default class GamePlay extends cc.Component {
         }, 1);
     }
 
+    PlayQues(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel - 1], false)
+    }
+
 
     // update (dt) {}
 

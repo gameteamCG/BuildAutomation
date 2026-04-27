@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "letter Ff",
+        "questionText": "Letter f",
         "questionImageName": "",
         "questionAudioName": "Question1234.mp3",
         "shouldPlayQuestionAudio": true,
@@ -25,7 +25,7 @@
         "correctAudioName": "fish.mp3"
       },
       {
-        "questionText": "letter Ff",
+        "questionText": "Letter f",
         "questionImageName": "",
         "questionAudioName": "Question1234.mp3",
         "shouldPlayQuestionAudio": true,
@@ -34,7 +34,7 @@
         "correctAudioName": "flower.mp3"
       },
       {
-        "questionText": "letter Ff",
+        "questionText": "Letter f",
         "questionImageName": "",
         "questionAudioName": "Question1234.mp3",
         "shouldPlayQuestionAudio": true,
@@ -43,7 +43,7 @@
         "correctAudioName": "fan.mp3"
       },
       {
-        "questionText": "letter Ff",
+        "questionText": "Letter f",
         "questionImageName": "",
         "questionAudioName": "Question1234.mp3",
         "shouldPlayQuestionAudio": true,

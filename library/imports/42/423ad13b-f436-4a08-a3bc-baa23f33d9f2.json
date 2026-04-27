@@ -79,10 +79,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 25
+        "__id__": 24
       },
       {
-        "__id__": 26
+        "__id__": 25
       }
     ],
     "_prefab": null,
@@ -252,13 +252,13 @@
     "_active": true,
     "_components": [
       {
+        "__id__": 21
+      },
+      {
         "__id__": 22
       },
       {
         "__id__": 23
-      },
-      {
-        "__id__": 24
       }
     ],
     "_prefab": null,
@@ -824,7 +824,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 21
+        "__id__": 20
       }
     ],
     "_prefab": null,
@@ -877,7 +877,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Singham",
+    "_name": "Puzzle",
     "_objFlags": 0,
     "_parent": {
       "__id__": 17
@@ -889,9 +889,7 @@
         "__id__": 19
       }
     ],
-    "_prefab": {
-      "__id__": 20
-    },
+    "_prefab": null,
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -980,17 +978,6 @@
     "_N$useTint": false,
     "_N$enableBatch": false,
     "_id": "0frqDtlrRFa4yAYqVTqOZ+"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 18
-    },
-    "asset": {
-      "__uuid__": "6a798167-3f6b-46f8-a5d2-532770fd320e"
-    },
-    "fileId": "",
-    "sync": false
   },
   {
     "__type__": "3909dpzo1hPDJb1f4iWWEcf",
