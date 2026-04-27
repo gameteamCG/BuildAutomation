@@ -34,8 +34,8 @@
       },
       {
         "QuestionAppearTime": "99999",
-        "IsQuestionText": false,
-        "QuestionText": "",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound l",
         "QuestionImageName": "L.png",
         "QuestionAudioName": "taponpicturesoundL.mp3",
         "PlayQuestionAudio": true,
@@ -52,8 +52,8 @@
       },
       {
         "QuestionAppearTime": "99999",
-        "IsQuestionText": false,
-        "QuestionText": "",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound l",
         "QuestionImageName": "L.png",
         "QuestionAudioName": "taponpicturesoundL.mp3",
         "PlayQuestionAudio": true,
