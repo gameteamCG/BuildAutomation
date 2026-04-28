@@ -16,11 +16,11 @@
             "QuestionImageName": "",
             "QuestionAudioName": "Que1.mp3",
             "PlayQuestionAudio": true,
-            "IsOptionText": false,
+            "IsOptionText": true,
             "NumberOfOptions": 2,
             "Options": [
-                "Aa.png",
-                "Cc.png"
+                "a",
+                "c"
             ],
             "ReiterationAudioName": "A(1).mp3",
             "CorrectAudioName": "BRILLIANT.mp3",
@@ -29,8 +29,8 @@
         },
         {
             "QuestionAppearTime": "9999",
-            "IsQuestionText": false,
-            "QuestionText": "",
+            "IsQuestionText": true,
+            "QuestionText": "Letter sound a",
             "QuestionImageName": "AaQue",
             "QuestionAudioName": "Que23.mp3",
             "PlayQuestionAudio": true,
