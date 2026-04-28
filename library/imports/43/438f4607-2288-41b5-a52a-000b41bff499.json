@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tabala",
+    "texture": "97afc28e-0b6b-4b31-8024-f727c67d186c",
+    "atlas": "",
+    "rect": [
+      36,
+      144,
+      428,
+      261
+    ],
+    "offset": [
+      -0.5,
+      -24
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

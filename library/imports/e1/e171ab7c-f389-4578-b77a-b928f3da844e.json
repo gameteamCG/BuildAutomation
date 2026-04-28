@@ -1,0 +1,169 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "स्वर - ऊ_LKG_7",
+      "totalLevel": "10",
+      "TitleImageName": "title.png",
+      "introBgName": "ukg.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "आ की मात्रा",
+        "questionImageName": "tea.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "चाय",
+          "माला"
+        ],
+        "correctAudioName": "chai.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "आ की मात्रा",
+        "questionImageName": "net.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "पहाड़",
+          "जाल"
+        ],
+        "correctAudioName": "jaal.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "आ की मात्रा",
+        "questionImageName": "necklace.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "गाजर",
+          "माला"
+        ],
+        "correctAudioName": "mala.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "आ की मात्रा",
+        "questionImageName": "mountain.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "चाय",
+          "पहाड़"
+        ],
+        "correctAudioName": "pahaad.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "आ की मात्रा",
+        "questionImageName": "carrot.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "गाजर",
+          "तबला"
+        ],
+        "correctAudioName": "gaajar.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "आ की मात्रा",
+        "questionImageName": "tabala.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "तबला",
+          "अनार"
+        ],
+        "correctAudioName": "tabla.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "आ की मात्रा",
+        "questionImageName": "charakha.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "चरखा",
+          "बादल"
+        ],
+        "correctAudioName": "charkha.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "आ की मात्रा",
+        "questionImageName": "pom.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "अनार",
+          "पहाड़"
+        ],
+        "correctAudioName": "anaar.mp3",
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "आ की मात्रा",
+        "questionImageName": "ship.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "गाजर",
+          "जहाज"
+        ],
+        "correctAudioName": "jahaaj.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "आ की मात्रा",
+        "questionImageName": "cloud.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "option.png",
+        "isOptionText": true,
+        "numberOfOptions": 2,
+        "options": [
+          "बादल",
+          "जाल"
+        ],
+        "correctAudioName": "baadal.mp3",
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

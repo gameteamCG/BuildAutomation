@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "charakha",
+    "texture": "95d2b1b1-2cc1-4af5-845c-744ffcff8c95",
+    "atlas": "",
+    "rect": [
+      27,
+      116,
+      472,
+      311
+    ],
+    "offset": [
+      12.5,
+      -21
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

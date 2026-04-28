@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ubalna",
+    "texture": "a1075ada-dccf-4663-b0b8-1422a9bc7981",
+    "atlas": "",
+    "rect": [
+      7,
+      2,
+      237,
+      246
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      251,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
