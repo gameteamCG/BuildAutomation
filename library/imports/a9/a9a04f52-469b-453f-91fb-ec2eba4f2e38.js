@@ -237,6 +237,9 @@ var Gameplay = /** @class */ (function (_super) {
                         element.active = true;
                         cc.audioEngine.playEffect(_this.pop_audio, false);
                         cc.tween(element).to(0.65, { y: pos.y }, { easing: "sineInOut" }).start();
+                        // if (startGame.Instance.currentLevel == 3) {
+                        _this.options.scale = 0.8;
+                        // }
                     }, delay);
                     delay += 0.35;
                 };
@@ -312,7 +315,7 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
+            var _laypout1posY = [-150, 100, -100, 150, 50];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }

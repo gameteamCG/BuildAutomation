@@ -223,6 +223,9 @@ export default class Gameplay extends cc.Component {
                         element.active = true;
                         cc.audioEngine.playEffect(this.pop_audio, false);
                         cc.tween(element).to(0.65, { y: pos.y }, { easing: "sineInOut" }).start();
+                        // if (startGame.Instance.currentLevel == 3) {
+                        this.options.scale = 0.8;
+                        // }
                     }, delay);
                     delay += 0.35;
                 }
@@ -291,7 +294,7 @@ export default class Gameplay extends cc.Component {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
+            let _laypout1posY: number[] = [-150, 100, -100, 150, 50];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }
