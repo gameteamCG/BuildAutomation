@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ghar",
+    "texture": "aa2875bb-8441-49a5-8bbd-8aef96a3aa6c",
+    "atlas": "",
+    "rect": [
+      105,
+      150,
+      304,
+      199
+    ],
+    "offset": [
+      7,
+      1
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

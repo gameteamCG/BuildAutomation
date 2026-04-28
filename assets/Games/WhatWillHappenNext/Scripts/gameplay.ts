@@ -8,6 +8,9 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class NewClass extends cc.Component {
 
+    @property([cc.String])
+    public answers: string[] = [];
+
     @property(cc.Prefab)
     HorizntalOptionNode: cc.Prefab = null;
 
@@ -307,6 +310,8 @@ export default class NewClass extends cc.Component {
         // this.OptionsLayout();
         //console.log("AnswerArray = ", this.answerArray);
         this.totalAnswers = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum.length;
+
+        this.node.getChildByName("QuestionBox").getChildByName("Txt").getComponent(cc.Label).string = this.answers[globalVariables.Instance.currentLevel - 1];
 
         this.callQuestionBar();
         if (startGame.Instance.templateType == "SimpleTap") {

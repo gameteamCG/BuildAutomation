@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "adrak",
+    "texture": "cbd535e8-e02f-4d39-a0b8-89ead9246880",
+    "atlas": "",
+    "rect": [
+      89,
+      185,
+      322,
+      187
+    ],
+    "offset": [
+      0,
+      -28
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

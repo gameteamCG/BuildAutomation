@@ -1,0 +1,153 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "दो अक्षर के शब्द_UKG_17",
+      "totalLevel": "7",
+      "TitleImageName": "title.png",
+      "introBgName": "ukg.png",
+      "bgmMusicName": "bgm.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "bag",
+      "templateType": "ObjectsTweenIn"
+    },
+    "questionData": [
+      {
+        "questionText": "अ की मात्रा",
+        "questionImageName": "question.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "nal.png",
+          "tarbooj.png",
+          "chai.png"
+        ],
+        "correctAudios": [
+          "nal.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "अ की मात्रा",
+        "questionImageName": "question.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "kamal.png",
+          "tarbooj.png",
+          "magar.png"
+        ],
+        "correctAudios": [
+          "magar.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "अ की मात्रा",
+        "questionImageName": "question.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "kamal.png",
+          "nath.png",
+          "namak.png"
+        ],
+        "correctAudios": [
+          "kamal.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "अ की मात्रा",
+        "questionImageName": "question.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "magar.png",
+          "havan.png",
+          "jag.png"
+        ],
+        "correctAudios": [
+          "havan.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "अ की मात्रा",
+        "questionImageName": "question.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "ghar.png",
+          "matar.png",
+          "namak.png"
+        ],
+        "correctAudios": [
+          "namak.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "अ की मात्रा",
+        "questionImageName": "question.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "matar.png",
+          "adrak.png",
+          "tarbooj.png"
+        ],
+        "correctAudios": [
+          "matar.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "अ की मात्रा",
+        "questionImageName": "question.png",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "common.png",
+        "isOptionText": false,
+        "isOptionBG": true,
+        "numberOfOptions": 3,
+        "options": [
+          "rath.png",
+          "adrak.png",
+          "havan.png"
+        ],
+        "correctAudios": [
+          "adrak.mp3"
+        ],
+        "correctAnswerNum": "2"
+      }
+    ]
+  }
+}

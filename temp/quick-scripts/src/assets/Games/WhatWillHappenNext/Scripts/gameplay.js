@@ -31,6 +31,7 @@ var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.answers = [];
         _this.HorizntalOptionNode = null;
         _this.VerticalOptionNode = null;
         _this.extraImg = null;
@@ -265,6 +266,7 @@ var NewClass = /** @class */ (function (_super) {
         // this.OptionsLayout();
         //console.log("AnswerArray = ", this.answerArray);
         this.totalAnswers = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum.length;
+        this.node.getChildByName("QuestionBox").getChildByName("Txt").getComponent(cc.Label).string = this.answers[globalVariables_1.default.Instance.currentLevel - 1];
         this.callQuestionBar();
         if (StartGame_1.default.Instance.templateType == "SimpleTap") {
             this.setOptionsLayout("horizontal");
@@ -1242,6 +1244,9 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.update = function () {
     };
+    __decorate([
+        property([cc.String])
+    ], NewClass.prototype, "answers", void 0);
     __decorate([
         property(cc.Prefab)
     ], NewClass.prototype, "HorizntalOptionNode", void 0);

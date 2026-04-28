@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "magar",
+    "texture": "d8ab78b2-934d-462d-8f81-1f90c731b03a",
+    "atlas": "",
+    "rect": [
+      68,
+      205,
+      382,
+      138
+    ],
+    "offset": [
+      9,
+      -23.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

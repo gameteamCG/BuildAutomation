@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kamal",
+    "texture": "881b4a41-74f3-47fb-baf1-5721ceba7a57",
+    "atlas": "",
+    "rect": [
+      54,
+      134,
+      372,
+      286
+    ],
+    "offset": [
+      -10,
+      -26.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

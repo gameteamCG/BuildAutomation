@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "havan",
+    "texture": "9d5aa146-1c9b-49c4-bdfb-92e6a276c60a",
+    "atlas": "",
+    "rect": [
+      94,
+      99,
+      312,
+      303
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "matar",
+    "texture": "4f8987d0-a482-43a5-8d6f-170ca4f9fb4a",
+    "atlas": "",
+    "rect": [
+      55,
+      166,
+      408,
+      211
+    ],
+    "offset": [
+      9,
+      -21
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

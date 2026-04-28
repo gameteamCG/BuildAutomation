@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nal",
+    "texture": "3bb43d0c-95cd-4fe5-9919-fe0752fbb682",
+    "atlas": "",
+    "rect": [
+      64,
+      70,
+      394,
+      349
+    ],
+    "offset": [
+      11,
+      6
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

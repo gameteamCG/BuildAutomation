@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nath",
+    "texture": "7e168f81-6061-4a98-897b-0fd92350ac4a",
+    "atlas": "",
+    "rect": [
+      133,
+      76,
+      254,
+      377
+    ],
+    "offset": [
+      10,
+      -14
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

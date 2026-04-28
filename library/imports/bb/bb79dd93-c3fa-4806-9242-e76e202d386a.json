@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tarbooj",
+    "texture": "945095b5-1414-4083-ae1e-2202662093c9",
+    "atlas": "",
+    "rect": [
+      78,
+      136,
+      349,
+      264
+    ],
+    "offset": [
+      2.5,
+      -17.5
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
