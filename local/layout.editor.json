@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1776770813242": {}
+    "window-1777376868972": {}
   },
   "panels": {
     "project-settings": {
@@ -106,9 +106,9 @@
       "height": 900
     },
     "builder": {
-      "x": 40,
+      "x": 36,
       "y": 0,
-      "width": 1443,
+      "width": 1447,
       "height": 816
     }
   },
