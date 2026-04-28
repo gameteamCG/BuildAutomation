@@ -265,7 +265,7 @@ export default class Gameplay extends cc.Component {
                 if (startGame.Instance.currentLevel == 1) {
                     let hand = this.node.getChildByName("hand");
                     hand.setParent(this.options.getChildByName(this.correctAnswer[0].toString()));
-                    hand.setPosition(50, -100);
+                    hand.setPosition(40, -20);
                     hand.angle = 40;
                     hand.setParentWithSamePos(this.node);
                     hand.active = true;
@@ -274,7 +274,9 @@ export default class Gameplay extends cc.Component {
             }, 1);
         }, 1);
     }
-
+    playButtonSound() {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    }
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
         for (let i = 0; i < _optionCount; i++) {
             let _option: cc.Node = cc.instantiate(_template);
@@ -286,12 +288,21 @@ export default class Gameplay extends cc.Component {
         }
         if (this.optionsLayout == "layout3") {
             this.arrangeGridChildren(this.options, 80, _optionCount);
+
+            let _laypout1posY: number[] = [-150, 20, -100, 0, 50];
+
+            for (let i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(
+                    _optionParent.children[i].x,
+                    _laypout1posY[i]
+                );
+            }
         }
         else {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
+            let _laypout1posY: number[] = [-150, 20, -100, 0, 50];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }

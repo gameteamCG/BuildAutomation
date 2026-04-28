@@ -287,7 +287,7 @@ var Gameplay = /** @class */ (function (_super) {
                 if (StartGame_1.default.Instance.currentLevel == 1) {
                     var hand = _this.node.getChildByName("hand");
                     hand.setParent(_this.options.getChildByName(_this.correctAnswer[0].toString()));
-                    hand.setPosition(50, -100);
+                    hand.setPosition(40, -20);
                     hand.angle = 40;
                     hand.setParentWithSamePos(_this.node);
                     hand.active = true;
@@ -295,6 +295,9 @@ var Gameplay = /** @class */ (function (_super) {
                 }
             }, 1);
         }, 1);
+    };
+    Gameplay.prototype.playButtonSound = function () {
+        cc.audioEngine.playEffect(this.questionAudio, false);
     };
     Gameplay.prototype.generateOptions = function (_template, _optionParent, _optionCount) {
         for (var i = 0; i < _optionCount; i++) {
@@ -307,12 +310,16 @@ var Gameplay = /** @class */ (function (_super) {
         }
         if (this.optionsLayout == "layout3") {
             this.arrangeGridChildren(this.options, 80, _optionCount);
+            var _laypout1posY = [-150, 20, -100, 0, 50];
+            for (var i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+            }
         }
         else {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
+            var _laypout1posY = [-150, 20, -100, 0, 50];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }

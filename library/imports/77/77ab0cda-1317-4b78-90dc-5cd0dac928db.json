@@ -15,8 +15,8 @@
     "questionData": [
       {
         "questionLayout": "layout1",
-        "questionBgName": "Asset 109.png",
-        "questionAudioName": "identify-the-letter-s.mp3",
+        "questionBgName": "newBG1.png",
+        "questionAudioName": "lvl1.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
@@ -42,7 +42,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "Asset 103.png",
+        "questionBgName": "newBG2.png",
         "questionAudioName": "Tap on the picture that begins with letter sound s.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -66,8 +66,8 @@
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "Asset 108.png",
-        "questionAudioName": "choose the uppercase letter s.mp3",
+        "questionBgName": "newBG3.png",
+        "questionAudioName": "lvl3.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
@@ -93,7 +93,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "Asset 103.png",
+        "questionBgName": "newBG4.png",
         "questionAudioName": "Tap on the picture that begins with letter sound s.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -118,7 +118,7 @@
       {
         "questionLayout": "layout1",
         "questionBgName": "Asset 110.png",
-        "questionAudioName": "tap on the lowercase letter s.mp3",
+        "questionAudioName": "lvl5.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
@@ -144,7 +144,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "31633.jpg",
+        "questionBgName": "newBG5",
         "questionAudioName": "Tap on the picture that begins with letter sound s.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
