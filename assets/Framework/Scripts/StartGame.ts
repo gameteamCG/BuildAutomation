@@ -32,6 +32,8 @@ const { ccclass, property } = cc._decorator;
 export default class startGame extends cc.Component {
 
     @property(cc.AudioClip)
+    play_Audio: cc.AudioClip = null;
+    @property(cc.AudioClip)
     BGM_audio: cc.AudioClip = null;
     @property(Number)
     volume: number = 1;
@@ -386,13 +388,20 @@ export default class startGame extends cc.Component {
 
             if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
                 this.scheduleOnce(() => {
-                    cc.director.loadScene(this.NextSceneName);
+                    // cc.director.loadScene(this.NextSceneName);
                 }, 2);
             }
         }, 1);
 
         // this.OnTimer();
 
+    }
+    OnPlayClick(_event: cc.Event) {
+        cc.audioEngine.playEffect(this.play_Audio, false);
+        let node: cc.Node = _event.target;
+        node.active = false;
+        node.getParent().getChildByName('loading').active = true;
+        cc.director.loadScene(this.NextSceneName);
     }
 
     OnMusic(event: cc.Event) {

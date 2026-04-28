@@ -550,7 +550,7 @@ export default class Gameplay extends cc.Component {
             anim = ["celebration", "well_done"];
         }
         else if (startGame.Instance.jockeyName == "Puzzle") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_1", "positive_2", "positive_3", "positive_4"];
         }
         else if (startGame.Instance.jockeyName == "stallion") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
@@ -630,7 +630,7 @@ export default class Gameplay extends cc.Component {
                 anim = ["try_again"];
             }
             else if (startGame.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+                anim = ["negative_1", "negative_2", "negative_1", "negative_2", "negative_1", "negative_2", "negative_1"];
             }
             else if (startGame.Instance.jockeyName == "stallion") {
                 anim = ["negative_1", "negative_2"];

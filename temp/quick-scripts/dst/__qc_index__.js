@@ -24,6 +24,8 @@ require('./assets/Framework/WebView/Scripts/CheckForInitWebView');
 require('./assets/Framework/WebView/Scripts/WebView');
 require('./assets/Games/TapToFind/Scripts/EndScreen');
 require('./assets/Games/TapToFind/Scripts/Gameplay');
+require('./assets/resources/1_Jaipuria_Old/1_Jaipuria/JaipuriaJockey');
+require('./assets/resources/1_Jaipuria_Old/1_Jaipuria_old/Script');
 require('./assets/resources/empty');
 
                     }
