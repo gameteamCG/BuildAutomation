@@ -384,11 +384,11 @@ export default class startGame extends cc.Component {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
 
-            if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
-                this.scheduleOnce(() => {
-                    cc.director.loadScene(this.NextSceneName);
-                }, 2);
-            }
+            // if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
+            //     this.scheduleOnce(() => {
+            //         cc.director.loadScene(this.NextSceneName);
+            //     }, 2);
+            // }
         }, 1);
 
 

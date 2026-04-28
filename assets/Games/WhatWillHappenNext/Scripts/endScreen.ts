@@ -67,6 +67,9 @@ export default class NewClass extends cc.Component {
             this.node.getComponent(cc.AudioSource).play();
             console.log("gameEnded--true");
         }, 2.3);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("end").active = true;
+        }, 3);
 
 
     }

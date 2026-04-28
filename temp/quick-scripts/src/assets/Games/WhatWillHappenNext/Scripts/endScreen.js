@@ -80,6 +80,9 @@ var NewClass = /** @class */ (function (_super) {
             _this.node.getComponent(cc.AudioSource).play();
             console.log("gameEnded--true");
         }, 2.3);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("end").active = true;
+        }, 3);
     };
     NewClass.prototype.OnEndBtn = function (_event) {
         window.close();
