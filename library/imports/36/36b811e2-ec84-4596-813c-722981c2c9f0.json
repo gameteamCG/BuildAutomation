@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0003_zoo",
+    "texture": "e906ddaf-ce4d-4502-9235-c923e2ac6c2a",
+    "atlas": "",
+    "rect": [
+      7,
+      46,
+      236,
+      157
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

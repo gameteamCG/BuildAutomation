@@ -1,0 +1,103 @@
+{
+  "AdditionalData": {
+    "GameID": "null",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/letterZ.mp4",
+    "TitleImageName": "letterZtitle.png",
+    "IntroAudio1Name": "",
+    "IntroAudio2Name": "",
+    "JockeyName": "puzzle",
+    "TotalLevel": "5"
+  },
+  "QuestionData": [
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Identify the letter",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifyletterZ.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 2,
+      "Options": [
+        "r",
+        "z"
+      ],
+      "ReiterationAudioName": "Sound_of_Z.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Letter sound ‘z’",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifywordbeginsletterZ.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "250x250_0002_zebra.png",
+        "250x250_0002_goose.png"
+      ],
+      "ReiterationAudioName": "Zebra.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Letter sound ‘z’",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifywordbeginsletterZ.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "250x250_0003_gorilla.png",
+        "250x250_0001_zipper.png"
+      ],
+      "ReiterationAudioName": "Zipper.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Letter sound ‘z’",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifywordbeginsletterZ.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "250x250_0003_zoo.png",
+        "250x250_0004_purple_octopus.png"
+      ],
+      "ReiterationAudioName": "Zoo.mp3",
+      "CorrectAudioName": "GREATWORK.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Letter sound ‘z’",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifywordbeginsletterZ.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "250x250_0012_well.png",
+        "250x250_0000_0.png"
+      ],
+      "ReiterationAudioName": "Zero.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "ohoh.mp3",
+      "CorrectAnswer": "2"
+    }
+  ]
+}
