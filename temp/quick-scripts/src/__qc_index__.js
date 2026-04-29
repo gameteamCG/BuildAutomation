@@ -15,3 +15,5 @@ require('./assets/Games/WhatWillHappenNext/Scripts/endScreen');
 require('./assets/Games/WhatWillHappenNext/Scripts/gameplay');
 require('./assets/Games/WhatWillHappenNext/Scripts/globalVariables');
 require('./assets/resources/empty');
+require('./assets/resources/images/1_Jaipuria_Old/1_Jaipuria/JaipuriaJockey');
+require('./assets/resources/images/1_Jaipuria_Old/1_Jaipuria_old/Script');

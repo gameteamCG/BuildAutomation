@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "good job",
+    "texture": "421a8699-f409-4892-8346-21725d42a26d",
+    "atlas": "",
+    "rect": [
+      24,
+      24,
+      589,
+      454
+    ],
+    "offset": [
+      11,
+      -11.5
+    ],
+    "originalSize": [
+      615,
+      479
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

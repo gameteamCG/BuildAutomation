@@ -1,9 +1,9 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
-const { ccclass, property } = cc._decorator;
+const { ccclass, property } = cc._decorator; 12
 
 @ccclass
 export default class NewClass extends cc.Component {
@@ -120,22 +120,22 @@ export default class NewClass extends cc.Component {
 
     onLoad() {
 
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
+        // if (startGame.Instance.jockeyName == "Podar") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+        // }
+        // else if (startGame.Instance.jockeyName == "tlc") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
+        // }
+        // else if (startGame.Instance.jockeyName == "supercub") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
+        // }
+        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        // }
 
 
         this.TotalOptions = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions;
@@ -513,7 +513,7 @@ export default class NewClass extends cc.Component {
     PlayQuestionAudio() {
         this.canTouch = false;
         //console.log("Jockey coming");
-        this.currentJcokey.active = true;
+        // this.currentJcokey.active = true;
         if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
             if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
@@ -530,46 +530,47 @@ export default class NewClass extends cc.Component {
         }
         else if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
             let intoAnim = "intro";
-            this.currentJcokey.setPosition(450, -370);
+            // this.currentJcokey.setPosition(450, -370);
             if (startGame.Instance.jockeyName == "supercub") {
-                intoAnim = "intro_1";
-                this.currentJcokey.setPosition(870, -370);
+                // intoAnim = "intro_1";
+                // this.currentJcokey.setPosition(870, -370);
             }
-            if (startGame.Instance.jockeyName == "tlc") {
-                cc.audioEngine.playEffect(this.tlc_birdFlying, false);
+            // if (startGame.Instance.jockeyName == "tlc") {
+            //     cc.audioEngine.playEffect(this.tlc_birdFlying, false);
+            // }
+            // this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
+            // this.scheduleOnce(() => {
+            if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
+                this.canTouch = true;
+                if (globalVariables.Instance.currentLevel == 1) {
+                    let hand = this.node.getChildByName("hand");
+                    hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
+                    hand.setPosition(0, -70);
+                    hand.setParentWithSamePos(this.node);
+                    hand.getComponent(cc.Animation).play();
+                }
             }
-            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
-            this.scheduleOnce(() => {
-                if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    this.canTouch = true;
-                    if (globalVariables.Instance.currentLevel == 1) {
-                        let hand = this.node.getChildByName("hand");
-                        hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-                        hand.setPosition(0, -70);
-                        hand.setParentWithSamePos(this.node);
-                        hand.getComponent(cc.Animation).play();
-                    }
-                }
-                else {
-                    cc.audioEngine.playEffect(this.questionSound[0], false);
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_loop", true);
-                    this.scheduleOnce(() => {
-                        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
-                        this.scheduleOnce(() => {
-                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                            this.canTouch = true;
-                            if (globalVariables.Instance.currentLevel == 1) {
-                                let hand = this.node.getChildByName("hand");
-                                hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-                                hand.setPosition(0, -70);
-                                hand.setParentWithSamePos(this.node);
-                                hand.getComponent(cc.Animation).play();
-                            }
-                        }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
-                    }, this.questionSound[0].duration);
-                }
+            else {
+                cc.audioEngine.playEffect(this.questionSound[0], false);
+                this.canTouch = true;
+                // this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_loop", true);
+                // this.scheduleOnce(() => {
+                //     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
+                //     this.scheduleOnce(() => {
+                //         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                //         this.canTouch = true;
+                //         if (globalVariables.Instance.currentLevel == 1) {
+                //             let hand = this.node.getChildByName("hand");
+                //             hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
+                //             hand.setPosition(0, -70);
+                //             hand.setParentWithSamePos(this.node);
+                //             hand.getComponent(cc.Animation).play();
+                //         }
+                //     }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
+                // }, this.questionSound[0].duration);
+            }
 
-            }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(intoAnim).duration);
+            // }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(intoAnim).duration);
         }
     }
 
@@ -616,6 +617,7 @@ export default class NewClass extends cc.Component {
 
     callNextLevel() {
         console.log("levelComplete--" + globalVariables.Instance.currentLevel);
+        cc.tween(this.currentJcokey).to(0.5, { x: -2000 }).start();
         this.callStarsEared();
         if (globalVariables.Instance.currentLevel == this.maxLevel) {
             this.scheduleOnce(() => {
@@ -805,6 +807,7 @@ export default class NewClass extends cc.Component {
 
 
     callJockey() {
+        this.currentJcokey.active = true;
         let anim: string[] = [];
         if (startGame.Instance.jockeyName == "Podar") {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
@@ -877,12 +880,12 @@ export default class NewClass extends cc.Component {
             cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
             this.scheduleOnce(() => {
                 //bird flying out sound
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_out", false);
+                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", false);
                 cc.audioEngine.playEffect(this.tlc_birdFlying, false);
                 this.scheduleOnce(() => {
-                    this.currentJcokey.active = false;
+                    // this.currentJcokey.active = false;
                     this.callNextLevel();
-                }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_out").duration);
+                }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("idle").duration);
             }, this.positiveAudio[currentClipNum].duration);
         }
         else if (startGame.Instance.jockeyName == "supercub") {

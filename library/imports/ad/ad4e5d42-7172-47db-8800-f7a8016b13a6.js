@@ -23,10 +23,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+12;
 var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
     function NewClass() {
@@ -84,23 +85,23 @@ var NewClass = /** @class */ (function (_super) {
         return _this;
     }
     NewClass.prototype.onLoad = function () {
+        // if (startGame.Instance.jockeyName == "Podar") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+        // }
+        // else if (startGame.Instance.jockeyName == "tlc") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
+        // }
+        // else if (startGame.Instance.jockeyName == "supercub") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
+        // }
+        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
+        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        // }
         var _this = this;
-        if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
         this.TotalOptions = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions;
         //if (startGame.Instance.optionLayout == "horizontal") {
         //let optionsLayoutNode = cc.instantiate(this.HorizntalOptionNode);
@@ -463,10 +464,9 @@ var NewClass = /** @class */ (function (_super) {
         }
     };
     NewClass.prototype.PlayQuestionAudio = function () {
-        var _this = this;
         this.canTouch = false;
         //console.log("Jockey coming");
-        this.currentJcokey.active = true;
+        // this.currentJcokey.active = true;
         if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
             if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
@@ -483,45 +483,46 @@ var NewClass = /** @class */ (function (_super) {
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "supercub") {
             var intoAnim = "intro";
-            this.currentJcokey.setPosition(450, -370);
+            // this.currentJcokey.setPosition(450, -370);
             if (StartGame_1.default.Instance.jockeyName == "supercub") {
-                intoAnim = "intro_1";
-                this.currentJcokey.setPosition(870, -370);
+                // intoAnim = "intro_1";
+                // this.currentJcokey.setPosition(870, -370);
             }
-            if (StartGame_1.default.Instance.jockeyName == "tlc") {
-                cc.audioEngine.playEffect(this.tlc_birdFlying, false);
+            // if (startGame.Instance.jockeyName == "tlc") {
+            //     cc.audioEngine.playEffect(this.tlc_birdFlying, false);
+            // }
+            // this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
+            // this.scheduleOnce(() => {
+            if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
+                this.canTouch = true;
+                if (globalVariables_1.default.Instance.currentLevel == 1) {
+                    var hand = this.node.getChildByName("hand");
+                    hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
+                    hand.setPosition(0, -70);
+                    hand.setParentWithSamePos(this.node);
+                    hand.getComponent(cc.Animation).play();
+                }
             }
-            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
-            this.scheduleOnce(function () {
-                if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    _this.canTouch = true;
-                    if (globalVariables_1.default.Instance.currentLevel == 1) {
-                        var hand = _this.node.getChildByName("hand");
-                        hand.setParent(_this.node.getChildByName("Option").getChildByName(_this.answerArray[0]));
-                        hand.setPosition(0, -70);
-                        hand.setParentWithSamePos(_this.node);
-                        hand.getComponent(cc.Animation).play();
-                    }
-                }
-                else {
-                    cc.audioEngine.playEffect(_this.questionSound[0], false);
-                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_loop", true);
-                    _this.scheduleOnce(function () {
-                        _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
-                        _this.scheduleOnce(function () {
-                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                            _this.canTouch = true;
-                            if (globalVariables_1.default.Instance.currentLevel == 1) {
-                                var hand = _this.node.getChildByName("hand");
-                                hand.setParent(_this.node.getChildByName("Option").getChildByName(_this.answerArray[0]));
-                                hand.setPosition(0, -70);
-                                hand.setParentWithSamePos(_this.node);
-                                hand.getComponent(cc.Animation).play();
-                            }
-                        }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
-                    }, _this.questionSound[0].duration);
-                }
-            }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(intoAnim).duration);
+            else {
+                cc.audioEngine.playEffect(this.questionSound[0], false);
+                this.canTouch = true;
+                // this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_loop", true);
+                // this.scheduleOnce(() => {
+                //     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
+                //     this.scheduleOnce(() => {
+                //         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                //         this.canTouch = true;
+                //         if (globalVariables.Instance.currentLevel == 1) {
+                //             let hand = this.node.getChildByName("hand");
+                //             hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
+                //             hand.setPosition(0, -70);
+                //             hand.setParentWithSamePos(this.node);
+                //             hand.getComponent(cc.Animation).play();
+                //         }
+                //     }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
+                // }, this.questionSound[0].duration);
+            }
+            // }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(intoAnim).duration);
         }
     };
     NewClass.prototype.OnButtonClick = function (_event) {
@@ -566,6 +567,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callNextLevel = function () {
         console.log("levelComplete--" + globalVariables_1.default.Instance.currentLevel);
+        cc.tween(this.currentJcokey).to(0.5, { x: -2000 }).start();
         this.callStarsEared();
         if (globalVariables_1.default.Instance.currentLevel == this.maxLevel) {
             this.scheduleOnce(function () {
@@ -752,6 +754,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callJockey = function () {
         var _this = this;
+        this.currentJcokey.active = true;
         var anim = [];
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
@@ -824,12 +827,12 @@ var NewClass = /** @class */ (function (_super) {
             cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
             this.scheduleOnce(function () {
                 //bird flying out sound
-                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_out", false);
+                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", false);
                 cc.audioEngine.playEffect(_this.tlc_birdFlying, false);
                 _this.scheduleOnce(function () {
-                    _this.currentJcokey.active = false;
+                    // this.currentJcokey.active = false;
                     _this.callNextLevel();
-                }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_out").duration);
+                }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation("idle").duration);
             }, this.positiveAudio[currentClipNum].duration);
         }
         else if (StartGame_1.default.Instance.jockeyName == "supercub") {
