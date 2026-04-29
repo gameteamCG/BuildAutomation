@@ -7,14 +7,14 @@
       "windowType": "dockable",
       "x": -8,
       "y": -8,
-      "width": 1552,
-      "height": 832,
+      "width": 1936,
+      "height": 1048,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 237,
-            "height": 714.6000366210938,
+            "width": 296.59375,
+            "height": 930,
             "type": "panel",
             "active": 0,
             "children": [
@@ -22,13 +22,13 @@
             ]
           },
           {
-            "width": 696,
-            "height": 714.6000366210938,
+            "width": 871.03125,
+            "height": 930,
             "type": "dock-v",
             "children": [
               {
-                "width": 696,
-                "height": 445.75,
+                "width": 871.03125,
+                "height": 580.671875,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -36,8 +36,8 @@
                 ]
               },
               {
-                "width": 696,
-                "height": 265.8500061035156,
+                "width": 871.03125,
+                "height": 346.328125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -49,8 +49,8 @@
             ]
           },
           {
-            "width": 278,
-            "height": 714.6000366210938,
+            "width": 347.90625,
+            "height": 930,
             "type": "panel",
             "active": 0,
             "children": [
@@ -58,8 +58,8 @@
             ]
           },
           {
-            "width": 316,
-            "height": 714.6000366210938,
+            "width": 395.46875,
+            "height": 930,
             "type": "panel",
             "active": 0,
             "children": [
@@ -72,11 +72,11 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
         "console",
         "timeline",
         "game-window",
+        "assets",
         "inspector",
         "cocos-services",
         "node-library"

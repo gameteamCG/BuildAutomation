@@ -5,7 +5,7 @@
   "_native": "",
   "json": {
     "additionalData": {
-      "GameID": "Letter Aa Letters and sounda_113",
+      "GameID": "Letter a",
       "totalLevel": "6",
       "TitleImageName": "title_letterAa.png",
       "introBgName": "bgmain.png",
@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "Letter Aa",
+        "questionText": "Letter a",
         "questionImageName": "hat.png",
         "questionAudioName": "L4.mp3",
         "shouldPlayQuestionAudio": true,
@@ -34,7 +34,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Letter Aa",
+        "questionText": "Letter a",
         "questionImageName": "hat.png",
         "questionAudioName": "L4.mp3",
         "shouldPlayQuestionAudio": true,
@@ -52,7 +52,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Letter Aa",
+        "questionText": "Letter a",
         "questionImageName": "hat.png",
         "questionAudioName": "L4.mp3",
         "shouldPlayQuestionAudio": true,
@@ -71,7 +71,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "Letter Aa",
+        "questionText": "Letter a",
         "questionImageName": "hat.png",
         "questionAudioName": "L4.mp3",
         "shouldPlayQuestionAudio": true,
@@ -90,7 +90,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Letter Aa",
+        "questionText": "Letter a",
         "questionImageName": "hat.png",
         "questionAudioName": "L4.mp3",
         "shouldPlayQuestionAudio": true,
@@ -109,7 +109,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Letter Aa",
+        "questionText": "Letter a",
         "questionImageName": "hat.png",
         "questionAudioName": "L4.mp3",
         "shouldPlayQuestionAudio": true,
