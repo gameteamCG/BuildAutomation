@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 216.0625,
-            "height": 700.2000122070312,
+            "width": 218,
+            "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 216.0625,
-                "height": 382.1000061035156,
+                "width": 218,
+                "height": 390,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 216.0625,
-                "height": 315.0874938964844,
+                "width": 218,
+                "height": 321.5874938964844,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 977.2625122070312,
-            "height": 700.2000122070312,
+            "width": 986.0250244140625,
+            "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 977.2625122070312,
-                "height": 381.1125183105469,
+                "width": 986.0250244140625,
+                "height": 388.9750061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 977.2625122070312,
-                "height": 316.0874938964844,
+                "width": 986.0250244140625,
+                "height": 322.625,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "width": 323.0874938964844,
-            "height": 700.2000122070312,
+            "width": 325.9875183105469,
+            "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
             "children": [
@@ -79,8 +79,8 @@
       },
       "panels": [
         "hierarchy",
-        "scene",
         "assets",
+        "scene",
         "console",
         "timeline",
         "game-window",
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1776942245690": {}
+    "window-1777453523369": {}
   },
   "panels": {
     "project-settings": {
