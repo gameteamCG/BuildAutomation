@@ -2,7 +2,7 @@
     "additionalData": {
         "GameID": "Letters and sounds Bb _LKG_SB1_7",
         "totalLevel": "4",
-        "TitleImageName": "title.png",
+        "TitleImageName": "letterbtitle.png",
         "introBgName": "Bg(8).png",
         "bgmMusicName": "bgm_1.mp3",
         "JockeyName": "Puzzle"
@@ -22,10 +22,10 @@
                 ""
             ],
             "optionsBg": [
-                "k1.png",
-                "k2.png",
-                "k3.png",
-                "k4.png"
+                "new_Asset 6 (7).png",
+                "new_Asset 7 (2).png",
+                "new_Asset 6 (7).png",
+                "new_Asset 7 (2).png"
             ],
             "correctAudioName": "BRILLIANT.mp3",
             "wrongAudioName": "nevermind,tryagain.mp3",
@@ -47,11 +47,11 @@
                 ""
             ],
             "optionsBg": [
-                "b1.png",
-                "b2.png",
-                "b3.png",
-                "b4.png",
-                "b5.png"
+                "new_Asset 4 (12).png",
+                "new_Asset 5 (6).png",
+                "new_Asset 5 (6).png",
+                "new_Asset 3 (10).png",
+                "new_Asset 5 (6).png"
             ],
             "correctAudioName": "EXCELLENTJOB.mp3",
             "wrongAudioName": "nevermind,tryagain.mp3",
@@ -73,11 +73,11 @@
                 ""
             ],
             "optionsBg": [
-                "baloon1.png",
+                "new_Asset 2 (10).png",
                 "baloon2.png",
-                "baloon3.png",
+                "new_Asset 2 (10).png",
                 "baloon4.png",
-                "baloon5.png"
+                "new_Asset 2 (10).png"
             ],
             "correctAudioName": "FANTASTIC.mp3",
             "wrongAudioName": "ohoh.mp3",

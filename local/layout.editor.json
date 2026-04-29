@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 204,
+            "width": 433,
             "height": 602,
             "type": "dock-v",
             "children": [
               {
-                "width": 204,
-                "height": 299.921875,
+                "width": 433,
+                "height": 299.984375,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 204,
-                "height": 299.0625,
+                "width": 433,
+                "height": 299,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 801.109375,
+            "width": 572,
             "height": 602,
             "type": "dock-v",
             "children": [
               {
-                "width": 801.109375,
-                "height": 299.921875,
+                "width": 572,
+                "height": 299.984375,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 801.109375,
-                "height": 299.0625,
+                "width": 572,
+                "height": 299,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 338.875,
+            "width": 339,
             "height": 602,
             "type": "panel",
             "active": 0,
@@ -105,10 +105,10 @@
       "height": 900
     },
     "builder": {
-      "x": 40,
-      "y": 0,
-      "width": 1440,
-      "height": 816
+      "x": -8,
+      "y": -8,
+      "width": 1382,
+      "height": 736
     }
   },
   "panelLabelWidth": {}
