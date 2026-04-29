@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "Letter sound",
+        "questionText": "Letter j",
         "questionImageName": "Jj.png",
         "questionAudioName": "Q-J1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -30,7 +30,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Letter sound",
+        "questionText": "Letter j",
         "questionImageName": "Jj.png",
         "questionAudioName": "Q-J1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -45,7 +45,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Letter sound",
+        "questionText": "Letter j",
         "questionImageName": "Jj.png",
         "questionAudioName": "Q-J1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -60,7 +60,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Letter sound",
+        "questionText": "Letter j",
         "questionImageName": "Jj.png",
         "questionAudioName": "Q-J1.mp3",
         "shouldPlayQuestionAudio": false,
@@ -75,7 +75,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Letter sound",
+        "questionText": "Letter j",
         "questionImageName": "500x500_0003_jacket.png",
         "questionAudioName": "Q2-Jacket.mp3",
         "shouldPlayQuestionAudio": true,
@@ -90,7 +90,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Letter sound",
+        "questionText": "Letter j",
         "questionImageName": "500x500_0006_jug.png",
         "questionAudioName": "Q2-Jug.mp3",
         "shouldPlayQuestionAudio": true,
@@ -105,7 +105,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Letter sound",
+        "questionText": "Letter j",
         "questionImageName": "500x500_0004_jellyfish.png",
         "questionAudioName": "Q2-Jellyfish.mp3",
         "shouldPlayQuestionAudio": true,
