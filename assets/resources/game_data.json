@@ -1,66 +1,102 @@
 {
   "AdditionalData": {
-    "GameID": "Letters and Sounds Jj",
-    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/j_1738584446618.mp4",
-    "TitleImageName": "Asset 68.png",
+    "GameID": "null",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/letterJ.mp4",
+    "TitleImageName": "letterJtitle.png",
     "IntroAudio1Name": "",
     "IntroAudio2Name": "",
     "JockeyName": "puzzle",
-    "TotalLevel": "3"
+    "TotalLevel": "5"
   },
   "QuestionData": [
     {
-      "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "",
-      "QuestionImageName": "new_identify.png",
-      "QuestionAudioName": "L1.mp3",
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Identify",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifyletterJ.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        " j ",
-        "n"
+        "c",
+        " j "
       ],
-      "ReiterationAudioName": "1.mp3",
-      "CorrectAudioName": "positive_1.mp3",
-      "WrongAudioName": "negative_1.mp3",
-      "CorrectAnswer": "1"
+      "ReiterationAudioName": "Sound_of_j.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "2"
     },
     {
-      "QuestionAppearTime": "99999",
+      "QuestionAppearTime": "9999",
       "IsQuestionText": true,
       "QuestionText": "Letter sound j",
       "QuestionImageName": "",
-      "QuestionAudioName": "L2.mp3",
+      "QuestionAudioName": "identifywordbegindJ.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "fork.png",
-        "jug.png"
+        "250_0000_500x500_0018_jet.png",
+        "250x250_0001_fan.png"
       ],
-      "ReiterationAudioName": "2.mp3",
-      "CorrectAudioName": "positive_2.mp3",
-      "WrongAudioName": "negative_2.mp3",
+      "ReiterationAudioName": "Jet.mp3",
+      "CorrectAudioName": "FANTASTIC.mp3",
+      "WrongAudioName": "nevermindtryagain.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Letter sound j",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifywordbegindJ.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "250x250_0001_egg.png",
+        "250_0003_500x500_0015_jellyfish.png"
+      ],
+      "ReiterationAudioName": "jellyfish.mp3",
+      "CorrectAudioName": "EXCELLENTJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
       "CorrectAnswer": "2"
     },
     {
-      "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "",
-      "QuestionImageName": "new_jelly.png",
-      "QuestionAudioName": "L3.mp3",
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Letter sound j",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifywordbegindJ.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": true,
+      "IsOptionText": false,
       "NumberOfOptions": 2,
       "Options": [
-        "q",
-        " j "
+        "250_0002_500x500_0016_jeep.png",
+        "250x250_0001_goat.png"
       ],
-      "ReiterationAudioName": "3.mp3",
-      "CorrectAudioName": "positive_3.mp3",
-      "WrongAudioName": "negative_3.mp3",
+      "ReiterationAudioName": "jeep.mp3",
+      "CorrectAudioName": "GOODJOB.mp3",
+      "WrongAudioName": "Oopsietryoncemore.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "9999",
+      "IsQuestionText": true,
+      "QuestionText": "Letter sound j",
+      "QuestionImageName": "",
+      "QuestionAudioName": "identifywordbegindJ.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 2,
+      "Options": [
+        "elk.png",
+        "250_0001_500x500_0017_jam.png"
+      ],
+      "ReiterationAudioName": "Jam.mp3",
+      "CorrectAudioName": "BRILLIANT.mp3",
+      "WrongAudioName": "ohoh.mp3",
       "CorrectAnswer": "2"
     }
   ]

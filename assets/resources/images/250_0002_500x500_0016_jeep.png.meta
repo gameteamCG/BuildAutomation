@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "15c84879-8f66-462e-ad5b-4547583f1c53",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250_0002_500x500_0016_jeep": {
+      "ver": "1.0.6",
+      "uuid": "210f0c1b-5a65-4b29-b658-aa9a050478f8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "15c84879-8f66-462e-ad5b-4547583f1c53",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 0,
+      "trimY": 55,
+      "width": 250,
+      "height": 141,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

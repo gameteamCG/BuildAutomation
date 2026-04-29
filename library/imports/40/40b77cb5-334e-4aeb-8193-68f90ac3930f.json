@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250_0000_500x500_0018_jet",
+    "texture": "9a90954f-83e8-42f6-9984-770c10ea72da",
+    "atlas": "",
+    "rect": [
+      6,
+      55,
+      236,
+      149
+    ],
+    "offset": [
+      -1,
+      -4.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
