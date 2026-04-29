@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var globalVariables_1 = require("../../Games/SwipeToForm/Scripts/globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var startGame = /** @class */ (function (_super) {
     __extends(startGame, _super);
@@ -261,12 +262,12 @@ var startGame = /** @class */ (function (_super) {
             this.premiumLevel = parseInt(premium);
         }
         this.NextSceneName = "1";
-        // if (level != null) {
-        //     this.NextSceneName = level;
-        //     if (parseInt(this.NextSceneName) >= this.TotalLevels) {
-        //         this.NextSceneName = this.TotalLevels.toString();
-        //     }
-        // }
+        if (level != null) {
+            globalVariables_1.default.Instance.currentLevel = parseInt(level);
+            if (parseInt(this.NextSceneName) >= this.TotalLevels) {
+                globalVariables_1.default.Instance.currentLevel = this.TotalLevels;
+            }
+        }
         if (mobile == "1") {
             this.hasMobile = true;
         }

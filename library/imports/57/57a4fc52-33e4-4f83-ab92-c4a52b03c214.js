@@ -300,7 +300,6 @@ var Gameplay = /** @class */ (function (_super) {
                     optionTextFontSize = optionNode.getChildByName("text").getComponent(cc.Label).fontSize;
                 }
                 optionNode.getChildByName("text").getComponent(cc.Label).fontSize = optionTextFontSize;
-                console.log("Latest size = ", optionTextFontSize);
             }
             else {
                 optionNode.getChildByName("img").active = true;
@@ -537,6 +536,15 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.OptionsLayout = function () {
         var optionsLayout = this.optionsNode;
         var optionNodes = optionsLayout.children;
+        if (optionsLayout.childrenCount == 3) {
+            this.node.getChildByName("options").width = 750;
+        }
+        else if (optionsLayout.childrenCount == 4) {
+            this.node.getChildByName("options").width = 1000;
+        }
+        else if (optionsLayout.childrenCount == 5) {
+            this.node.getChildByName("options").width = 1100;
+        }
         var paddingBetweenOptions = 10;
         var totalWidth = 0;
         var maxHeight = 0;
@@ -574,13 +582,6 @@ var Gameplay = /** @class */ (function (_super) {
             }
         }
         optionsLayout.height = maxHeight * scaleFactor;
-        // this.optionsNode.children.forEach(element => {
-        //     console.log("actual text ", element.getChildByName("text").getComponent(cc.Label).string);
-        //     console.log("actual scale ", element.getChildByName("text").scale);
-        //     console.log("actual width ", element.getChildByName("text").width);
-        //     console.log("actual font size ", element.getChildByName("text").getComponent(cc.Label).fontSize);
-        //     // element.getChildByName("text").getComponent(cc.Label).height = optionTextFontSize;
-        // });
     };
     Gameplay.prototype.arrangeChildren = function (centerNode, spacing) {
         var children = centerNode.children;

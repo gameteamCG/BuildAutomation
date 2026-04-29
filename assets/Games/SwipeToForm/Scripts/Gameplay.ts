@@ -1,5 +1,4 @@
-
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -313,7 +312,6 @@ export default class Gameplay extends cc.Component {
                     optionTextFontSize = optionNode.getChildByName("text").getComponent(cc.Label).fontSize;
                 }
                 optionNode.getChildByName("text").getComponent(cc.Label).fontSize = optionTextFontSize;
-                console.log("Latest size = ", optionTextFontSize);
             }
             else {
                 optionNode.getChildByName("img").active = true;
@@ -559,7 +557,15 @@ export default class Gameplay extends cc.Component {
     OptionsLayout() {
         let optionsLayout = this.optionsNode;
         let optionNodes = optionsLayout.children;
-
+        if (optionsLayout.childrenCount == 3) {
+            this.node.getChildByName("options").width = 750;
+        }
+        else if (optionsLayout.childrenCount == 4) {
+            this.node.getChildByName("options").width = 1000;
+        }
+        else if (optionsLayout.childrenCount == 5) {
+            this.node.getChildByName("options").width = 1100;
+        }
         const paddingBetweenOptions = 10;
 
         let totalWidth = 0;
@@ -607,14 +613,6 @@ export default class Gameplay extends cc.Component {
         }
 
         optionsLayout.height = maxHeight * scaleFactor;
-
-        // this.optionsNode.children.forEach(element => {
-        //     console.log("actual text ", element.getChildByName("text").getComponent(cc.Label).string);
-        //     console.log("actual scale ", element.getChildByName("text").scale);
-        //     console.log("actual width ", element.getChildByName("text").width);
-        //     console.log("actual font size ", element.getChildByName("text").getComponent(cc.Label).fontSize);
-        //     // element.getChildByName("text").getComponent(cc.Label).height = optionTextFontSize;
-        // });
     }
 
     arrangeChildren(centerNode: cc.Node, spacing: number) {
