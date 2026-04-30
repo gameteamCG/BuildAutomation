@@ -16,11 +16,11 @@
       "QuestionImageName": "Asset10.png",
       "QuestionAudioName": "identify-the-letter-with-the-letter-sound_xxx.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "Asset23.png",
-        "Asset24.png"
+        "x",
+        "o"
       ],
       "ReiterationAudioName": "XSAYSXX.mp3",
       "CorrectAudioName": "positive_1.mp3",
@@ -29,8 +29,8 @@
     },
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "",
+      "IsQuestionText": true,
+      "QuestionText": "x",
       "QuestionImageName": "Asset21.png",
       "QuestionAudioName": "Taponthepicturethatbeginswithlettersoundx.mp3",
       "PlayQuestionAudio": true,
@@ -47,8 +47,8 @@
     },
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "",
+      "IsQuestionText": true,
+      "QuestionText": "x",
       "QuestionImageName": "Asset21.png",
       "QuestionAudioName": "tap-on-the-number-that-has-the-letter-sound_xx.mp3",
       "PlayQuestionAudio": true,
