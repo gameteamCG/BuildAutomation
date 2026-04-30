@@ -251,9 +251,7 @@ export default class Gameplay extends cc.Component {
         this.needReiteration = questionData.needReiteration;
         this.LoadAssetsAudios(questionData);
         if (this.needReiteration) {
-            // this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = questionData.correctAnswer;
-            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = "";
-            this.node.getChildByName("reiteration").getChildByName("text").active = false;
+            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = questionData.correctAnswer;
             if (questionData.reiterationImageName != null && questionData.reiterationImageName != "") {
                 if (startGame.Instance.isDemoGame) {
                     cc.loader.load(questionData.reiterationImageName, (err, texture) => {
@@ -456,6 +454,7 @@ export default class Gameplay extends cc.Component {
             this.currentDraggingObject = null;
         }, 0.2);
     }
+    numName = ["three", "eight", "five", "four", "nine", "one", "seven", "six", "ten", "two"]
     checkOrder() {
         let currentWord = this.getCurrentWord();
         // console.log("current word =", currentWord);
@@ -469,7 +468,6 @@ export default class Gameplay extends cc.Component {
             // console.log("need iteration--" + this.needReiteration);
             cc.audioEngine.playEffect(this.correctSound, false);
             if (this.needReiteration) {
-                // this.optionsNode.active = false;
                 this.node.getChildByName("reiteration").active = true;
                 this.node.getChildByName("reiteration").scale = 0;
                 cc.tween(this.optionsNode).to(0.25, { scaleX: 0 }, { easing: 'backInOut' }).start();
@@ -638,6 +636,7 @@ export default class Gameplay extends cc.Component {
 
 
     callJockey() {
+        ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
         let anim: string[] = [];
         if (startGame.Instance.jockeyName == "Podar") {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];

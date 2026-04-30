@@ -61,6 +61,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.maxLevel = 7;
         _this.questionBoxPosY = 0;
         _this.currentJockey = null;
+        _this.numName = ["three", "eight", "five", "four", "nine", "one", "seven", "six", "ten", "two"];
         return _this;
         // update (dt) {}
     }
@@ -244,9 +245,7 @@ var Gameplay = /** @class */ (function (_super) {
         this.needReiteration = questionData.needReiteration;
         this.LoadAssetsAudios(questionData);
         if (this.needReiteration) {
-            // this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = questionData.correctAnswer;
-            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = "";
-            this.node.getChildByName("reiteration").getChildByName("text").active = false;
+            this.node.getChildByName("reiteration").getChildByName("text").getComponent(cc.Label).string = questionData.correctAnswer;
             if (questionData.reiterationImageName != null && questionData.reiterationImageName != "") {
                 if (StartGame_1.default.Instance.isDemoGame) {
                     cc.loader.load(questionData.reiterationImageName, function (err, texture) {
@@ -454,7 +453,6 @@ var Gameplay = /** @class */ (function (_super) {
             // console.log("need iteration--" + this.needReiteration);
             cc.audioEngine.playEffect(this.correctSound, false);
             if (this.needReiteration) {
-                // this.optionsNode.active = false;
                 this.node.getChildByName("reiteration").active = true;
                 this.node.getChildByName("reiteration").scale = 0;
                 cc.tween(this.optionsNode).to(0.25, { scaleX: 0 }, { easing: 'backInOut' }).start();
@@ -603,6 +601,7 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.callJockey = function () {
         var _this = this;
+        ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
         var anim = [];
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
