@@ -1,5 +1,6 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -7,6 +8,9 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class NewClass extends cc.Component {
+
+    @property([cc.String])
+    public levelAnswers: string[] = [];
 
     @property(cc.Prefab)
     HorizntalOptionNode: cc.Prefab = null;
@@ -304,6 +308,8 @@ export default class NewClass extends cc.Component {
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
 
+        this.node.getChildByName("QuestionBox").getChildByName("Txt").getComponent(cc.Label).string = this.levelAnswers[globalVariables.Instance.currentLevel - 1];
+
         // this.OptionsLayout();
         //console.log("AnswerArray = ", this.answerArray);
         this.totalAnswers = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum.length;
@@ -414,7 +420,7 @@ export default class NewClass extends cc.Component {
         else if (startGame.Instance.templateType == "ObjectsTweenIn") {
             this.optionsNode.y = this.optionsNode.y + 100;
             this.node.getChildByName("QuestionBox").setPosition(cc.v2(1500, -250));
-            this.node.getChildByName("QuestionBox").scale = 1;
+            this.node.getChildByName("QuestionBox").scale = 0.7;
             this.scheduleOnce(() => {
                 this.scheduleOnce(() => {
                     cc.tween(this.node.getChildByName("QuestionBox"))

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "qbox",
+    "texture": "37d2eb14-499a-480e-b940-f93e0c7fd8e5",
+    "atlas": "",
+    "rect": [
+      5,
+      36,
+      491,
+      429
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -23,7 +23,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -31,6 +32,7 @@ var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.levelAnswers = [];
         _this.HorizntalOptionNode = null;
         _this.VerticalOptionNode = null;
         _this.extraImg = null;
@@ -262,6 +264,7 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.start = function () {
         ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
+        this.node.getChildByName("QuestionBox").getChildByName("Txt").getComponent(cc.Label).string = this.levelAnswers[globalVariables_1.default.Instance.currentLevel - 1];
         // this.OptionsLayout();
         //console.log("AnswerArray = ", this.answerArray);
         this.totalAnswers = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum.length;
@@ -364,7 +367,7 @@ var NewClass = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.templateType == "ObjectsTweenIn") {
             this.optionsNode.y = this.optionsNode.y + 100;
             this.node.getChildByName("QuestionBox").setPosition(cc.v2(1500, -250));
-            this.node.getChildByName("QuestionBox").scale = 1;
+            this.node.getChildByName("QuestionBox").scale = 0.7;
             this.scheduleOnce(function () {
                 _this.scheduleOnce(function () {
                     cc.tween(_this.node.getChildByName("QuestionBox"))
@@ -1248,6 +1251,9 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.update = function () {
     };
+    __decorate([
+        property([cc.String])
+    ], NewClass.prototype, "levelAnswers", void 0);
     __decorate([
         property(cc.Prefab)
     ], NewClass.prototype, "HorizntalOptionNode", void 0);
