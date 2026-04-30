@@ -2348,8 +2348,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 50,
-    "_lineHeight": 65,
+    "_fontSize": 200,
+    "_lineHeight": 205,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -2712,8 +2712,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 220,
+    "_lineHeight": 225,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -3283,8 +3283,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 220,
+    "_lineHeight": 225,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -3854,8 +3854,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 220,
+    "_lineHeight": 225,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -4425,8 +4425,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 40,
-    "_lineHeight": 50,
+    "_fontSize": 220,
+    "_lineHeight": 225,
     "_enableWrapText": false,
     "_N$file": {
       "__uuid__": "6792eab2-6521-4468-b280-b08dc7994bab"
@@ -7967,8 +7967,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 530,
-      "height": 96
+      "width": 537,
+      "height": 113
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8020,10 +8020,10 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "fff54d0d-dd62-44e6-967e-fc5d5131dc5d"
+      "__uuid__": "ae8edc92-db28-4a0c-997e-52ffeac264c4"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -8032,7 +8032,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "a3BNH9XFFIFqgrSuvEXY92"
   },
