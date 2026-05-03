@@ -99,8 +99,8 @@ export default class startGame extends cc.Component {
             }
         });
 
-        this.loadingBar = cc.find("Canvas/bg/jaipuria/loadingBar").getComponent(cc.ProgressBar);
-        this.loadingBar.node.active = false;
+        // this.loadingBar = cc.find("Canvas/bg/jaipuria/loadingBar").getComponent(cc.ProgressBar);
+        // this.loadingBar.node.active = false;
 
 
     }
@@ -209,13 +209,13 @@ export default class startGame extends cc.Component {
                 // Assign question data to the variable
                 this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
-                this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.TitleImageName), (spriteFrame) => {
-                    cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                });
-                this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.introBgName), (spriteFrame) => {
-                    cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    this.introBG = spriteFrame;
-                });
+                // this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.TitleImageName), (spriteFrame) => {
+                //     cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                // });
+                // this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.introBgName), (spriteFrame) => {
+                //     cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                //     this.introBG = spriteFrame;
+                // });
                 this.loadAudioClip(this.removeAudioExtension(jsonData.additionalData.bgmMusicName), (AudioClip) => {
                     this.BGM_audio = AudioClip;
                     let id = cc.audioEngine.playMusic(this.BGM_audio, true);
@@ -355,18 +355,9 @@ export default class startGame extends cc.Component {
         this.scheduleOnce(() => {
             console.log("jockey name = ", this.jockeyName);
 
-            if (this.jockeyName == "Podar") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
-            }
-            else if (this.jockeyName == "bag" || this.jockeyName == "cryon") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
-            }
-
-            if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
-                this.scheduleOnce(() => {
-                    cc.director.loadScene(this.NextSceneName);
-                }, 2);
-            }
+            this.scheduleOnce(() => {
+                cc.director.loadScene(this.NextSceneName);
+            }, 2);
         }, 1);
 
         // this.OnTimer();

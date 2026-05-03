@@ -84,8 +84,8 @@ var startGame = /** @class */ (function (_super) {
                 _this.JockeyNode = element;
             }
         });
-        this.loadingBar = cc.find("Canvas/bg/jaipuria/loadingBar").getComponent(cc.ProgressBar);
-        this.loadingBar.node.active = false;
+        // this.loadingBar = cc.find("Canvas/bg/jaipuria/loadingBar").getComponent(cc.ProgressBar);
+        // this.loadingBar.node.active = false;
     };
     startGame.prototype.logData = function () {
         console.log("Game ID:", this.gameID);
@@ -181,13 +181,13 @@ var startGame = /** @class */ (function (_super) {
                 // Assign question data to the variable
                 _this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
-                _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.TitleImageName), function (spriteFrame) {
-                    cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                });
-                _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.introBgName), function (spriteFrame) {
-                    cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    _this.introBG = spriteFrame;
-                });
+                // this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.TitleImageName), (spriteFrame) => {
+                //     cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                // });
+                // this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.introBgName), (spriteFrame) => {
+                //     cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                //     this.introBG = spriteFrame;
+                // });
                 _this.loadAudioClip(_this.removeAudioExtension(jsonData.additionalData.bgmMusicName), function (AudioClip) {
                     _this.BGM_audio = AudioClip;
                     var id = cc.audioEngine.playMusic(_this.BGM_audio, true);
@@ -309,17 +309,9 @@ var startGame = /** @class */ (function (_super) {
         }
         this.scheduleOnce(function () {
             console.log("jockey name = ", _this.jockeyName);
-            if (_this.jockeyName == "Podar") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
-            }
-            else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
-            }
-            if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
-                _this.scheduleOnce(function () {
-                    cc.director.loadScene(_this.NextSceneName);
-                }, 2);
-            }
+            _this.scheduleOnce(function () {
+                cc.director.loadScene(_this.NextSceneName);
+            }, 2);
         }, 1);
         // this.OnTimer();
     };

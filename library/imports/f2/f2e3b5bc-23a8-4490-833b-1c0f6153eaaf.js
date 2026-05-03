@@ -46,6 +46,8 @@ var GameManager = /** @class */ (function (_super) {
     __extends(GameManager, _super);
     function GameManager() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.questionSoundGlobal = null;
+        _this.qbarImages = [];
         _this.playerNode = null;
         _this.upDownAnim = null;
         _this.realArrow = null;
@@ -118,6 +120,10 @@ var GameManager = /** @class */ (function (_super) {
         this.questionSum = num1 + num2;
         this.questionLabel.string = num1 + " + " + num2 + " = ?";
         this.createOptions();
+    };
+    GameManager.prototype.showImage = function () {
+        var imgNode = this.node.getChildByName("QuestionBg").getChildByName("IMG");
+        imgNode.getComponent(cc.Sprite).spriteFrame = this.qbarImages[this.currLevel - 1];
     };
     GameManager.prototype.onLoad = function () {
         var _this = this;
@@ -261,8 +267,13 @@ var GameManager = /** @class */ (function (_super) {
             }, _this.questionSound[0].duration);
         }, 1);
     };
+    GameManager.prototype.onSoundButtonClick = function () {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionSoundGlobal, false);
+    };
     GameManager.prototype.setQuestionScreen = function () {
         var _this = this;
+        this.showImage();
         this.node.getChildByName("Target").children.forEach(function (element) {
             element.getChildByName("text").getComponent(cc.Label).string = "";
             if (element.getChildByName("img").getComponent(cc.Sprite).spriteFrame) {
@@ -990,6 +1001,12 @@ var GameManager = /** @class */ (function (_super) {
     };
     var GameManager_1;
     GameManager.roughSheetMode = false;
+    __decorate([
+        property(cc.AudioClip)
+    ], GameManager.prototype, "questionSoundGlobal", void 0);
+    __decorate([
+        property(cc.SpriteFrame)
+    ], GameManager.prototype, "qbarImages", void 0);
     __decorate([
         property(cc.Node)
     ], GameManager.prototype, "playerNode", void 0);

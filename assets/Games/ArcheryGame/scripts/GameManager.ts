@@ -14,6 +14,13 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class GameManager extends cc.Component {
+
+  @property(cc.AudioClip)
+  public questionSoundGlobal: cc.AudioClip = null;
+
+  @property(cc.SpriteFrame)
+  public qbarImages: cc.SpriteFrame[] = [];
+
   @property(cc.Node)
   public playerNode: cc.Node = null;
 
@@ -168,6 +175,11 @@ export default class GameManager extends cc.Component {
     this.questionSum = num1 + num2;
     this.questionLabel.string = `${num1} + ${num2} = ?`;
     this.createOptions();
+  }
+
+  showImage() {
+    let imgNode = this.node.getChildByName("QuestionBg").getChildByName("IMG");
+    imgNode.getComponent(cc.Sprite).spriteFrame = this.qbarImages[this.currLevel - 1];
   }
 
   onLoad() {
@@ -338,8 +350,14 @@ export default class GameManager extends cc.Component {
 
   }
 
+  onSoundButtonClick() {
+    cc.audioEngine.stopAllEffects();
+    cc.audioEngine.playEffect(this.questionSoundGlobal,false);
+  }
+
   setQuestionScreen() {
 
+    this.showImage();
     this.node.getChildByName("Target").children.forEach(element => {
       element.getChildByName("text").getComponent(cc.Label).string = "";
       if (element.getChildByName("img").getComponent(cc.Sprite).spriteFrame) {
