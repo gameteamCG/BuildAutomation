@@ -7,14 +7,14 @@
       "windowType": "dockable",
       "x": -8,
       "y": -8,
-      "width": 1936,
-      "height": 1048,
+      "width": 1552,
+      "height": 832,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 272,
-            "height": 930,
+            "width": 211.41250610351562,
+            "height": 700.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -22,13 +22,13 @@
             ]
           },
           {
-            "width": 1005,
-            "height": 930,
+            "width": 781.1375122070312,
+            "height": 700.2000122070312,
             "type": "dock-v",
             "children": [
               {
-                "width": 1005,
-                "height": 661,
+                "width": 781.1375122070312,
+                "height": 431.20001220703125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -36,7 +36,7 @@
                 ]
               },
               {
-                "width": 1005,
+                "width": 781.1375122070312,
                 "height": 266,
                 "type": "panel",
                 "active": 0,
@@ -49,8 +49,8 @@
             ]
           },
           {
-            "width": 279,
-            "height": 930,
+            "width": 216.85000610351562,
+            "height": 700.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -58,8 +58,8 @@
             ]
           },
           {
-            "width": 355,
-            "height": 930,
+            "width": 304,
+            "height": 700.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -72,11 +72,11 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
         "console",
         "timeline",
         "game-window",
+        "assets",
         "inspector",
         "cocos-services",
         "node-library"
@@ -98,10 +98,10 @@
       "height": 900
     },
     "builder": {
-      "x": 0,
-      "y": 25,
-      "width": 1440,
-      "height": 813
+      "x": -8,
+      "y": -8,
+      "width": 1552,
+      "height": 832
     }
   },
   "panelLabelWidth": {}
