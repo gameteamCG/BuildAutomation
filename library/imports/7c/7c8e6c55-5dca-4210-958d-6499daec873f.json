@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0020_quiz",
+    "texture": "72654f1a-196e-4473-9485-84a93503cba4",
+    "atlas": "",
+    "rect": [
+      26,
+      25,
+      198,
+      198
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "250x250_0009_xray",
+    "texture": "af1f7957-7f84-4a19-9acd-5668022a9340",
+    "atlas": "",
+    "rect": [
+      19,
+      53,
+      210,
+      143
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      250,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
