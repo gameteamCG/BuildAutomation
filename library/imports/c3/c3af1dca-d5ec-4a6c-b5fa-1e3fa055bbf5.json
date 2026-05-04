@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "botttle_grey",
+    "texture": "8d4ec672-a470-41ae-a782-eb0aedf05b60",
+    "atlas": "",
+    "rect": [
+      202,
+      87,
+      97,
+      327
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

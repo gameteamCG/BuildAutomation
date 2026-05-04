@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nvase",
+    "texture": "418314ee-c052-4d27-a727-a7ab6e596bfe",
+    "atlas": "",
+    "rect": [
+      155,
+      106,
+      223,
+      323
+    ],
+    "offset": [
+      16,
+      -17
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

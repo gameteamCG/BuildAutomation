@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vvase",
+    "texture": "f6623796-f203-4c05-b709-6678c09be2b9",
+    "atlas": "",
+    "rect": [
+      122,
+      101,
+      223,
+      323
+    ],
+    "offset": [
+      -17,
+      -12
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

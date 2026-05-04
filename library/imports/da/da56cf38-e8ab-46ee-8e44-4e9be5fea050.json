@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "svase",
+    "texture": "b0fae872-2657-46a5-ab1b-a78e2f993652",
+    "atlas": "",
+    "rect": [
+      127,
+      95,
+      223,
+      323
+    ],
+    "offset": [
+      -12,
+      -6
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vio",
+    "texture": "ffea572d-47b7-4b10-9c0f-cc38bcd83761",
+    "atlas": "",
+    "rect": [
+      146,
+      37,
+      209,
+      426
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

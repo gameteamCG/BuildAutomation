@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vio_grey",
+    "texture": "fe07cb32-6d6f-4b3a-b02f-3aba6c02a9ec",
+    "atlas": "",
+    "rect": [
+      146,
+      37,
+      209,
+      426
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

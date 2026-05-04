@@ -265,7 +265,7 @@ export default class Gameplay extends cc.Component {
                 if (startGame.Instance.currentLevel == 1) {
                     let hand = this.node.getChildByName("hand");
                     hand.setParent(this.options.getChildByName(this.correctAnswer[0].toString()));
-                    hand.setPosition(50, -100);
+                    hand.setPosition(50, 0);
                     hand.angle = 40;
                     hand.setParentWithSamePos(this.node);
                     hand.active = true;
@@ -274,7 +274,9 @@ export default class Gameplay extends cc.Component {
             }, 1);
         }, 1);
     }
-
+    playButtonSound() {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    }
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
         for (let i = 0; i < _optionCount; i++) {
             let _option: cc.Node = cc.instantiate(_template);
@@ -285,18 +287,62 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            if (startGame.Instance.currentLevel == 4) {
+                this.arrangeGridChildren(this.options, 80, _optionCount);
+
+                // 👇 custom Y positions for layout3
+                let posY: number[] = [-30, -30, -50, 100, 0]; // adjust as needed
+
+                _optionParent.children.forEach((child, i) => {
+                    child.setPosition(child.x, posY[i]);
+                });
+            }
+            else {
+                this.arrangeGridChildren(this.options, 80, _optionCount);
+
+                // 👇 custom Y positions for layout3
+                let posY: number[] = [50, 50, 50, 100, 0]; // adjust as needed
+
+                _optionParent.children.forEach((child, i) => {
+                    child.setPosition(child.x, posY[i]);
+                });
+            }
         }
         else {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
-            for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+            if (startGame.Instance.currentLevel == 1) {
+                let posX: number[] = [-200, -200, 250, 250, 200];   // 👈 your custom X
+                let posY: number[] = [-300, -80, -80, -300, 50];    // existing Y
+
+                _optionParent.children.forEach((child, i) => {
+                    child.setPosition(posX[i], posY[i]);
+                });
+
+                _template.destroy();
+            } else if (startGame.Instance.currentLevel == 3) {
+                let posX: number[] = [-400, -100, 200, 500, 500];   // 👈 your custom X
+                let posY: number[] = [-250, -250, -250, -250, -250];    // existing Y
+
+                _optionParent.children.forEach((child, i) => {
+                    child.setPosition(posX[i], posY[i]);
+                });
+
+                _template.destroy();
+
             }
+            else {
+                let posX: number[] = [-200, -200, 250, 250, 200];   // 👈 your custom X
+                let posY: number[] = [-300, -80, -80, -300, 50];    // existing Y
+
+                _optionParent.children.forEach((child, i) => {
+                    child.setPosition(posX[i], posY[i]);
+                });
+            }
+            _template.destroy();
+
         }
-        _template.destroy();
 
 
     }
