@@ -1,0 +1,109 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "null",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/letterY.mp4",
+      "TitleImageName": "Asset 263 (1).png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "puzzle",
+      "TotalLevel": "5"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Identify the letter",
+        "QuestionImageName": "",
+        "QuestionAudioName": "british_y identify-the-letter-with-the-letter-sound_HtluJYrs.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "y",
+          "h"
+        ],
+        "ReiterationAudioName": "british_535341-24-y-says_F1XU7atd.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘y’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "british_y british-identify-the-picture-that-begins-with-the-letter-sound_38R69Y1t.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0007_yoyo.png",
+          "250x250_0001_vase.png"
+        ],
+        "ReiterationAudioName": "british_8690640_5_yoyo-toy.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘y’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "british_y british-identify-the-picture-that-begins-with-the-letter-sound_38R69Y1t.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0003_duck.png",
+          "250x250_0006_yogurt.png"
+        ],
+        "ReiterationAudioName": "british_8690640_4_yogurt.mp3",
+        "CorrectAudioName": "BRILLIANT.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘y’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "british_y british-identify-the-picture-that-begins-with-the-letter-sound_38R69Y1t.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0005_yellow.png",
+          "250x250_0005_ox.png"
+        ],
+        "ReiterationAudioName": "british_8839745_10_yellow.mp3",
+        "CorrectAudioName": "GOODJOB.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999",
+        "IsQuestionText": true,
+        "QuestionText": "Letter sound ‘y’",
+        "QuestionImageName": "",
+        "QuestionAudioName": "british_y british-identify-the-picture-that-begins-with-the-letter-sound_38R69Y1t.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0013_500x500_0012_king.png",
+          "250x250_0004_yarn.png"
+        ],
+        "ReiterationAudioName": "british_8690640_6_yarn.mp3",
+        "CorrectAudioName": "GREATWORK.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}
