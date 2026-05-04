@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "Recap letters - /ck/, e,h,r,m,d",
+        "questionText": "Recap of letters",
         "questionImageName": "qbox.png",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
@@ -34,7 +34,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Recap letters - /ck/, e,h,r,m,d",
+        "questionText": "Recap of letters",
         "questionImageName": "qbox.png",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
@@ -52,7 +52,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Recap letters - /ck/, e,h,r,m,d",
+        "questionText": "Recap of letters",
         "questionImageName": "qbox.png",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
@@ -70,7 +70,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Recap letters - /ck/, e,h,r,m,d",
+        "questionText": "Recap of letters",
         "questionImageName": "qbox.png",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
@@ -88,7 +88,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Recap letters - /ck/, e,h,r,m,d",
+        "questionText": "Recap of letters",
         "questionImageName": "qbox.png",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
@@ -106,7 +106,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Recap letters - /ck/, e,h,r,m,d",
+        "questionText": "Recap of letters",
         "questionImageName": "qbox.png",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
@@ -124,7 +124,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Recap letters - /ck/, e,h,r,m,d",
+        "questionText": "Recap of letters",
         "questionImageName": "qbox.png",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
