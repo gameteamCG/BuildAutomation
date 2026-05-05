@@ -1,7 +1,7 @@
 {
   "additionalData": {
     "GameID": "Letter Ww Letters and sounds_NUR_sb4_18",
-    "totalLevel": "6",
+    "totalLevel": "5",
     "TitleImageName": "Asset 78.png",
     "introBgName": "NUR.png",
     "bgmMusicName": "Kids Game_1.mp3",
@@ -10,16 +10,16 @@
   "questionData": [
     {
       "questionLayout": "layout1",
-      "questionBgName": "Asset 31.png",
-      "questionAudioName": "identify and tap the letter W.mp3",
+      "questionBgName": "bg1",
+      "questionAudioName": "tap_wells.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 4,
       "options": [
-        "Asset 41.png",
-        "Asset 40.png",
-        "Asset 39.png",
-        "Asset 41.png"
+        "well-w1",
+        "well-a",
+        "well-a",
+        "well-w2"
       ],
       "optionsBg": [
         "",
@@ -30,47 +30,47 @@
       "correctAudioName": "EXCELLENTJOB.mp3",
       "wrongAudioName": "nevermind,tryagain.mp3",
       "reiterationAudioName": [
-        "W SAYS WW.mp3",
-        "W SAYS WW.mp3"
+        "w-sound.mp3",
+        "w-sound.mp3"
       ],
-      "correctAnswerNum": "14"
+      "correctAnswerNum": "23"
     },
     {
       "questionLayout": "layout3",
-      "questionBgName": "Asset 29.png",
-      "questionAudioName": "Tap on the picture that begins with letter sound w.mp3",
+      "questionBgName": "bg2.png",
+      "questionAudioName": "identify_picture.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 3,
       "options": [
-        "Asset 18.png",
-        "Asset 16.png",
-        "Asset 17.png"
+        "mug-c.png",
+        "fox-c.png",
+        "wheel-c.png"
       ],
       "optionsBg": [
-        "Asset 15.png",
-        "Asset 13.png",
-        "Asset 14.png"
+        "mug-un.png",
+        "fox-un.png",
+        "wheel-un.png"
       ],
       "correctAudioName": "EXCEPTIONAL.mp3",
       "wrongAudioName": "ohoh.mp3",
       "reiterationAudioName": [
-        "26506756_37_wheel.mp3"
+        "wheel.mp3"
       ],
-      "correctAnswerNum": "1"
+      "correctAnswerNum": "3"
     },
     {
       "questionLayout": "layout1",
-      "questionBgName": "Asset 30.png",
-      "questionAudioName": "tap on the uppercase letter W.mp3",
+      "questionBgName": "bg3.png",
+      "questionAudioName": "tap_watches.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 4,
       "options": [
-        "Asset 42.png",
-        "Asset 34.png",
-        "Asset 42.png",
-        "Asset 35.png"
+        "watch-a.png",
+        "watch-w1.png",
+        "watch-w2.png",
+        "watch-a.png"
       ],
       "optionsBg": [
         "",
@@ -81,47 +81,47 @@
       "correctAudioName": "GOODEFFORT.mp3",
       "wrongAudioName": "Oopsietryoncemore.mp3",
       "reiterationAudioName": [
-        "W SAYS WW.mp3",
-        "W SAYS WW.mp3"
+        "w-sound.mp3",
+        "w-sound.mp3"
       ],
-      "correctAnswerNum": "13"
+      "correctAnswerNum": "14"
     },
     {
       "questionLayout": "layout3",
-      "questionBgName": "Asset 28.png",
-      "questionAudioName": "Tap on the picture that begins with letter sound w.mp3",
+      "questionBgName": "bg4.png",
+      "questionAudioName": "identify_picture.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 3,
       "options": [
-        "Asset 12.png",
-        "Asset 10.png",
-        "Asset 11.png"
+        "bus-c.png",
+        "wagon-c.png",
+        "bike-c.png"
       ],
       "optionsBg": [
-        "Asset 9.png",
-        "Asset 7.png",
-        "Asset 8.png"
+        "bus-un.png",
+        "wagon-un.png",
+        "bike-un.png"
       ],
       "correctAudioName": "EXCELLENTJOB.mp3",
       "wrongAudioName": "nevermind,tryagain.mp3",
       "reiterationAudioName": [
-        "39508987_5_whale.mp3"
+        "wagon.mp3"
       ],
-      "correctAnswerNum": "1"
+      "correctAnswerNum": "2"
     },
     {
       "questionLayout": "layout1",
-      "questionBgName": "Asset 32.png",
-      "questionAudioName": "tap on the lowercase letter W.mp3",
+      "questionBgName": "bg5.png",
+      "questionAudioName": "tap_windows.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 4,
       "options": [
-        "Asset 36.png",
-        "Asset 37.png",
-        "Asset 38.png",
-        "Asset 36.png"
+        "window-w1.png",
+        "window-a.png",
+        "window-a.png",
+        "window-w2.png"
       ],
       "optionsBg": [
         "",
@@ -132,34 +132,10 @@
       "correctAudioName": "EXCEPTIONAL.mp3",
       "wrongAudioName": "ohoh.mp3",
       "reiterationAudioName": [
-        "W SAYS WW.mp3",
-        "W SAYS WW.mp3"
+        "w-sound.mp3",
+        "w-sound.mp3"
       ],
-      "correctAnswerNum": "14"
-    },
-    {
-      "questionLayout": "layout3",
-      "questionBgName": "aafafaf.png",
-      "questionAudioName": "Tap on the picture that begins with letter sound w.mp3",
-      "shouldPlayQuestionAudio": true,
-      "isOptionText": false,
-      "numberOfOptions": 3,
-      "options": [
-        "Asset 6.png",
-        "Asset 4.png",
-        "Asset 5.png"
-      ],
-      "optionsBg": [
-        "Asset 3.png",
-        "Asset 1.png",
-        "Asset 2.png"
-      ],
-      "correctAudioName": "GOODEFFORT.mp3",
-      "wrongAudioName": "Oopsietryoncemore.mp3",
-      "reiterationAudioName": [
-        "39020732_3_watermelon.mp3"
-      ],
-      "correctAnswerNum": "1"
+      "correctAnswerNum": "23"
     }
   ]
 }
