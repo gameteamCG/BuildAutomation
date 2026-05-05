@@ -7,7 +7,7 @@
     "AdditionalData": {
       "GameID": "Letters and sounds Dd",
       "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/D_song_1734693162803.mp4",
-      "TitleImageName": "Asset 4 (5).png",
+      "TitleImageName": "Asset 62 (4).png",
       "IntroAudio1Name": "",
       "IntroAudio2Name": "",
       "JockeyName": "puzzle",
@@ -17,17 +17,17 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "identify",
+        "QuestionText": "Identify",
         "QuestionImageName": "",
-        "QuestionAudioName": "35653435_1_identify-the-letter-d.mp3",
+        "QuestionAudioName": "british_d identify-the-letter-with-the-letter-sound_OoiqjXgv.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": true,
         "NumberOfOptions": 2,
         "Options": [
-          "Dd",
-          "Ff"
+          "d",
+          "f"
         ],
-        "ReiterationAudioName": "35653435_7_d.mp3",
+        "ReiterationAudioName": "british_535341-3-d-says_3LGCmpXm.mp3",
         "CorrectAudioName": "positive_1.mp3",
         "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "1"
@@ -35,9 +35,9 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "Dd",
+        "QuestionText": "d",
         "QuestionImageName": "",
-        "QuestionAudioName": "35653435_2_identify-the-object-th.mp3",
+        "QuestionAudioName": "d british-identify-the-picture-that-begins-with-the-letter-sound_I4qv6u5F.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -45,7 +45,7 @@
           "Asset5.png",
           "Asset6.png"
         ],
-        "ReiterationAudioName": "35653435_3_door.mp3",
+        "ReiterationAudioName": "british_779935_4_door.mp3",
         "CorrectAudioName": "positive_2.mp3",
         "WrongAudioName": "negative_2.mp3",
         "CorrectAnswer": "2"
@@ -53,9 +53,9 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "Dd",
+        "QuestionText": "d",
         "QuestionImageName": "",
-        "QuestionAudioName": "35653435_2_identify-the-object-th.mp3",
+        "QuestionAudioName": "d british-identify-the-picture-that-begins-with-the-letter-sound_I4qv6u5F.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 2,
@@ -63,7 +63,7 @@
           "Asset4.png",
           "Asset2.png"
         ],
-        "ReiterationAudioName": "35653435_4_drum.mp3",
+        "ReiterationAudioName": "british_779935_5_drum.mp3",
         "CorrectAudioName": "positive_3.mp3",
         "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "1"
@@ -73,15 +73,15 @@
         "IsQuestionText": false,
         "QuestionText": "",
         "QuestionImageName": "Asset1.png",
-        "QuestionAudioName": "35653435_5_identify-the-beginning.mp3",
+        "QuestionAudioName": "british_779935_6_identify-the-beginning.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": true,
         "NumberOfOptions": 2,
         "Options": [
-          "Ee",
-          "Dd"
+          "e",
+          "d"
         ],
-        "ReiterationAudioName": "35653435_7_d.mp3",
+        "ReiterationAudioName": "british_779935_2_d.mp3",
         "CorrectAudioName": "positive_4.mp3",
         "WrongAudioName": "negative_2.mp3",
         "CorrectAnswer": "2"
