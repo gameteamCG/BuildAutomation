@@ -11,9 +11,9 @@
     "QuestionData": [
         {
             "QuestionAppearTime": "9999",
-            "IsQuestionText": true,
+            "IsQuestionText": false,
             "QuestionText": "Identify the letter",
-            "QuestionImageName": "",
+            "QuestionImageName": "Asset10.png",
             "QuestionAudioName": "identifyletterR.mp3",
             "PlayQuestionAudio": true,
             "IsOptionText": true,
@@ -30,7 +30,7 @@
         {
             "QuestionAppearTime": "9999",
             "IsQuestionText": true,
-            "QuestionText": "Letter sound ‘r’",
+            "QuestionText": "r",
             "QuestionImageName": "",
             "QuestionAudioName": "identifywordbeginsletterR.mp3",
             "PlayQuestionAudio": true,
@@ -48,7 +48,7 @@
         {
             "QuestionAppearTime": "9999",
             "IsQuestionText": true,
-            "QuestionText": "Letter sound ‘r’",
+            "QuestionText": "r",
             "QuestionImageName": "",
             "QuestionAudioName": "identifywordbeginsletterR.mp3",
             "PlayQuestionAudio": true,
@@ -66,7 +66,7 @@
         {
             "QuestionAppearTime": "9999",
             "IsQuestionText": true,
-            "QuestionText": "Letter sound ‘r’",
+            "QuestionText": "r",
             "QuestionImageName": "",
             "QuestionAudioName": "identifywordbeginsletterR.mp3",
             "PlayQuestionAudio": true,
@@ -84,7 +84,7 @@
         {
             "QuestionAppearTime": "9999",
             "IsQuestionText": true,
-            "QuestionText": "Letter sound ‘r’",
+            "QuestionText": "r",
             "QuestionImageName": "",
             "QuestionAudioName": "identifywordbeginsletterR.mp3",
             "PlayQuestionAudio": true,
