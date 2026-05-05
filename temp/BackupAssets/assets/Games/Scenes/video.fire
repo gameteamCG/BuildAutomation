@@ -2347,7 +2347,7 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 100,
+    "_fontSize": 190,
     "_lineHeight": 200,
     "_enableWrapText": true,
     "_N$file": {
@@ -2483,7 +2483,7 @@
         "__id__": 57
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 59
@@ -2711,7 +2711,7 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 100,
+    "_fontSize": 190,
     "_lineHeight": 200,
     "_enableWrapText": false,
     "_N$file": {
@@ -3054,7 +3054,7 @@
         "__id__": 69
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 71
@@ -3282,7 +3282,7 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 100,
+    "_fontSize": 190,
     "_lineHeight": 200,
     "_enableWrapText": false,
     "_N$file": {
@@ -3853,7 +3853,7 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 100,
+    "_fontSize": 190,
     "_lineHeight": 200,
     "_enableWrapText": false,
     "_N$file": {
@@ -4424,7 +4424,7 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 100,
+    "_fontSize": 190,
     "_lineHeight": 200,
     "_enableWrapText": false,
     "_N$file": {
