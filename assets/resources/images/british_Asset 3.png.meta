@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "920928fc-7cce-48bc-89d3-f15dacf37ee2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1922,
+  "height": 1081,
+  "platformSettings": {},
+  "subMetas": {
+    "british_Asset 3": {
+      "ver": "1.0.6",
+      "uuid": "ad335865-a69e-4f46-b528-c6dcd09e8f24",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "920928fc-7cce-48bc-89d3-f15dacf37ee2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1921,
+      "height": 1080,
+      "rawWidth": 1922,
+      "rawHeight": 1081,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "british_Artboard 12 copy 15",
+    "texture": "b623e119-1d0b-4fd1-b994-9d1d990ed228",
+    "atlas": "",
+    "rect": [
+      15,
+      7,
+      484,
+      484
+    ],
+    "offset": [
+      6.5,
+      1.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

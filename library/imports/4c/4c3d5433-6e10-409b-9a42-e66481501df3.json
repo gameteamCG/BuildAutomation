@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "british_Asset 5",
+    "texture": "1a9ef2c8-80e9-4e58-b93f-0d6a2adda73b",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      1921,
+      1080
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      1921,
+      1081
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

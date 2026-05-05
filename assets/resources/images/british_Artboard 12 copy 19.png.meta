@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "89a0d020-5740-4b5d-b9a2-96b3793030dd",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "british_Artboard 12 copy 19": {
+      "ver": "1.0.6",
+      "uuid": "d9cb47b6-f6b8-4fdd-95e9-a7bb135340fe",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "89a0d020-5740-4b5d-b9a2-96b3793030dd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 6.5,
+      "offsetY": 0.5,
+      "trimX": 15,
+      "trimY": 8,
+      "width": 484,
+      "height": 484,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

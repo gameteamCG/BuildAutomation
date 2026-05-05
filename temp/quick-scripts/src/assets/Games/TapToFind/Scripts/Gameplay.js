@@ -229,6 +229,7 @@ var Gameplay = /** @class */ (function (_super) {
                 var _loop_5 = function (i) {
                     _this.options.children[i].active = false;
                     _this.options.children[i].opacity = 255;
+                    _this.options.children[i].scale = 0.9;
                     _this.options.setPosition(0, 0);
                     _this.scheduleOnce(function () {
                         var element = _this.options.children[i];
@@ -257,6 +258,8 @@ var Gameplay = /** @class */ (function (_super) {
                     _this.scheduleOnce(function () {
                         cc.audioEngine.playEffect(_this.pop_audio, false);
                         cc.tween(_this.options.children[i]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
+                        _this.options.children[i].scale = 0.5;
+                        _this.options.children[i].angle = 50;
                     }, delay);
                     delay += 0.25;
                 };
@@ -312,9 +315,10 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
+            var _laypout1posY = [0, 0, 0, -250, -250];
+            var _laypout1posX = [-250, 100, 450, -100, 250];
             for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
         }
         _template.destroy();

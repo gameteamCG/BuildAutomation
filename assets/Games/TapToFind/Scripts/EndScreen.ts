@@ -40,7 +40,7 @@ export default class NewClass extends cc.Component {
             }, 2);
         }
 
-        this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
+        // this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
     }
 
     start() {
