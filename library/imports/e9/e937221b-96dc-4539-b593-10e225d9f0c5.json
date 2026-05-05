@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bus-un",
+    "texture": "2791322e-d7ef-4004-b8e0-1872af3f98ae",
+    "atlas": "",
+    "rect": [
+      15,
+      141,
+      472,
+      215
+    ],
+    "offset": [
+      0.5,
+      2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

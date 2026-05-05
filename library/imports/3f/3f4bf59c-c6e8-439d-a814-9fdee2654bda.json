@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wheel-un",
+    "texture": "29746946-41ca-4134-bdfd-b08df706dfe7",
+    "atlas": "",
+    "rect": [
+      84,
+      90,
+      333,
+      309
+    ],
+    "offset": [
+      0,
+      6
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

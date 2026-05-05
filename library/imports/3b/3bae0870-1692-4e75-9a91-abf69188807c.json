@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "watch-a",
+    "texture": "bff0c1b0-98fb-4214-920f-ca194b8a43cf",
+    "atlas": "",
+    "rect": [
+      163,
+      92,
+      174,
+      317
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

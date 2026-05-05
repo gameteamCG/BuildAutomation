@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wagon-un",
+    "texture": "f2c6c929-9479-49fd-b932-8073122ec820",
+    "atlas": "",
+    "rect": [
+      48,
+      128,
+      404,
+      241
+    ],
+    "offset": [
+      -0.5,
+      2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

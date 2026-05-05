@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wagon-c",
+    "texture": "bb59b773-b304-4bf2-b3a4-53ad644cc930",
+    "atlas": "",
+    "rect": [
+      48,
+      130,
+      404,
+      241
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
