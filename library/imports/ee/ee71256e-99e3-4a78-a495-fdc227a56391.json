@@ -33,7 +33,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Where do you sleep?\n",
+        "questionText": "Where do you sleep?",
         "questionAudioName": "16736433_2_where-do-you-sleep.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
