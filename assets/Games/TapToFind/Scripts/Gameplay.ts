@@ -291,9 +291,10 @@ export default class Gameplay extends cc.Component {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posX: number[] = [-450, 0, 450, 0, 50];
+            let _laypout1posX: number[] = [-375, -105, 165, 435];
+            let _laypout1posY: number[] = [-200, 50, -200, 50];
             for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], -100);
+                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
         }
         _template.destroy();

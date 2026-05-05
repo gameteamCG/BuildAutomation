@@ -442,8 +442,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 1000,
+      "height": 200
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -608,8 +608,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 183,
-      "height": 337
+      "width": 250,
+      "height": 250
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -851,7 +851,7 @@
     "_dstBlendFactor": 771,
     "_spriteFrame": null,
     "_type": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -880,7 +880,7 @@
         "__uuid__": "f6784b52-a5aa-4a58-b8fc-0de61058bcce"
       }
     ],
-    "playOnLoad": true,
+    "playOnLoad": false,
     "_id": "90xlxvR1xFzLSsQQGQ5ujJ"
   },
   {
@@ -2910,7 +2910,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 154.98,
+      "width": 154.49,
       "height": 75.6
     },
     "_anchorPoint": {
@@ -2962,8 +2962,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Letter r",
-    "_N$string": "Letter r",
+    "_string": "Letter x",
+    "_N$string": "Letter x",
     "_fontSize": 50,
     "_lineHeight": 60,
     "_enableWrapText": true,

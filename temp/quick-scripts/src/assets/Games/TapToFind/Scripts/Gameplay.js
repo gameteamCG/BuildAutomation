@@ -312,9 +312,10 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posX = [-450, 0, 450, 0, 50];
+            var _laypout1posX = [-375, -105, 165, 435];
+            var _laypout1posY = [-200, 50, -200, 50];
             for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_laypout1posX[i], -100);
+                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
         }
         _template.destroy();
