@@ -48,6 +48,8 @@ export default class Gameplay extends cc.Component {
     private correctAudio: cc.AudioClip = null;
     private wrongAudio: cc.AudioClip = null;
     private reiterationAudio: cc.AudioClip[] = [];
+    @property(cc.AudioClip)
+    private questionvo: cc.AudioClip[] = [];
 
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
@@ -203,6 +205,13 @@ export default class Gameplay extends cc.Component {
         this.LoadQuestion();
         ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
+
+        if (startGame.Instance.currentLevel == 1 || startGame.Instance.currentLevel == 3 || startGame.Instance.currentLevel == 6) {
+            this.node.getChildByName("Questionapanel").active = false;
+        }
+        else {
+            this.node.getChildByName("Questionapanel").active = true;
+        }
 
         this.scheduleOnce(() => {
             if (this.questionAudio) {
@@ -759,4 +768,14 @@ export default class Gameplay extends cc.Component {
             callback(audioClip);
         });
     }
+    playQuestionsound() {
+        this.node.getChildByName("Questionapanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionvo[startGame.Instance.currentLevel], false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("Questionapanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
+        }, this.questionvo[startGame.Instance.currentLevel].duration + 0.1);
+    }
+
 }

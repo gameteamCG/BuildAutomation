@@ -55,6 +55,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.correctAudio = null;
         _this.wrongAudio = null;
         _this.reiterationAudio = [];
+        _this.questionvo = [];
         _this.currentJockey = null;
         _this.maxLevel = 0;
         return _this;
@@ -218,6 +219,12 @@ var Gameplay = /** @class */ (function (_super) {
         this.LoadQuestion();
         ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
+        if (StartGame_1.default.Instance.currentLevel == 1 || StartGame_1.default.Instance.currentLevel == 3 || StartGame_1.default.Instance.currentLevel == 6) {
+            this.node.getChildByName("Questionapanel").active = false;
+        }
+        else {
+            this.node.getChildByName("Questionapanel").active = true;
+        }
         this.scheduleOnce(function () {
             if (_this.questionAudio) {
                 if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
@@ -757,6 +764,15 @@ var Gameplay = /** @class */ (function (_super) {
             callback(audioClip);
         });
     };
+    Gameplay.prototype.playQuestionsound = function () {
+        var _this = this;
+        this.node.getChildByName("Questionapanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionvo[StartGame_1.default.Instance.currentLevel], false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("Questionapanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.questionvo[StartGame_1.default.Instance.currentLevel].duration + 0.1);
+    };
     __decorate([
         property(cc.Font)
     ], Gameplay.prototype, "podar_font", void 0);
@@ -784,6 +800,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_audio", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "questionvo", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);
