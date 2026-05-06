@@ -199,6 +199,11 @@ export default class Gameplay extends cc.Component {
         this.currentJockey.active = true;
     }
 
+    onSoundButtonClick() {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio,false);
+    }
+
     start() {
 
         this.LoadQuestion();

@@ -214,6 +214,10 @@ var Gameplay = /** @class */ (function (_super) {
         this.currentJockey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
         this.currentJockey.active = true;
     };
+    Gameplay.prototype.onSoundButtonClick = function () {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    };
     Gameplay.prototype.start = function () {
         var _this = this;
         this.LoadQuestion();
