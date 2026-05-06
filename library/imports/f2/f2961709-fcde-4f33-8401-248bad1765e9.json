@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "While playing football.",
+        "questionText": "While playing football",
         "questionImageName": "Q1.png",
         "questionAudioName": "q1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -30,7 +30,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "When you have to talk in front of the entire class.",
+        "questionText": "When you have to talk in front of the entire class",
         "questionImageName": "Q2.png",
         "questionAudioName": "q2.mp3",
         "shouldPlayQuestionAudio": true,
@@ -45,7 +45,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "When its your birthday party celebration with your friends.",
+        "questionText": "When its your birthday party celebration with your friends",
         "questionImageName": "Q3.png",
         "questionAudioName": "q3.mp3",
         "shouldPlayQuestionAudio": true,
@@ -60,7 +60,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "When you hurt yourself.",
+        "questionText": "When you hurt yourself",
         "questionImageName": "Q4.png",
         "questionAudioName": "q4.mp3",
         "shouldPlayQuestionAudio": true,
@@ -75,7 +75,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "When your being chased by an angry dog.",
+        "questionText": "When your being chased by an angry dog",
         "questionImageName": "Q5.png",
         "questionAudioName": "q5.mp3",
         "shouldPlayQuestionAudio": true,
@@ -90,7 +90,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "When you have to wait for your turn.",
+        "questionText": "When you have to wait for your turn",
         "questionImageName": "Q6.png",
         "questionAudioName": "q6.mp3",
         "shouldPlayQuestionAudio": true,
