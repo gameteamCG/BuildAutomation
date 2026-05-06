@@ -36,7 +36,7 @@ var Target = /** @class */ (function (_super) {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.value = 0;
         _this.targetLabel = null;
-        _this.defColor = new cc.Color(96, 45, 11);
+        _this.defColor = cc.Color.WHITE;
         return _this;
     }
     Target.prototype.setValue = function (val) {
