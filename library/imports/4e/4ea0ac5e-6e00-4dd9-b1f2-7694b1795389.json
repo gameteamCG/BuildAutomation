@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "letter Rr",
-      "totalLevel": "8",
+      "totalLevel": "7",
       "TitleImageName": "Asset 23 (1).png",
       "introBgName": "bgtitlemain.png",
       "bgmMusicName": "BGM.mp3",
@@ -102,21 +102,6 @@
           "gift.png"
         ],
         "correctAudioName": "27915064_7_reindeer.mp3",
-        "correctAnswerNum": "1"
-      },
-      {
-        "questionText": "Letter Rr",
-        "questionImageName": "Rr.png",
-        "questionAudioName": "Que_vo.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "placeholder.png",
-        "isOptionText": false,
-        "numberOfOptions": 2,
-        "options": [
-          "raspberry.png",
-          "kiwi.png"
-        ],
-        "correctAudioName": "27915064_8_raspberry.mp3",
         "correctAnswerNum": "1"
       },
       {
