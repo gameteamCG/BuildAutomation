@@ -36,6 +36,7 @@ var Gameplay = /** @class */ (function (_super) {
     __extends(Gameplay, _super);
     function Gameplay() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.questionvo = [];
         _this.podar_font = null;
         _this.jaipuria_font = null;
         _this.supercub_font = null;
@@ -758,6 +759,18 @@ var Gameplay = /** @class */ (function (_super) {
             callback(audioClip);
         });
     };
+    Gameplay.prototype.playQuestionsound = function () {
+        var _this = this;
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionvo[StartGame_1.default.Instance.currentLevel], false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.questionvo[StartGame_1.default.Instance.currentLevel].duration + 0.1);
+    };
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "questionvo", void 0);
     __decorate([
         property(cc.Font)
     ], Gameplay.prototype, "podar_font", void 0);

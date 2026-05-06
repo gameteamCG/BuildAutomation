@@ -13,7 +13,8 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class Gameplay extends cc.Component {
 
-
+    @property(cc.AudioClip)
+    private questionvo: cc.AudioClip[] = [];
     @property(cc.Font)
     private podar_font: cc.Font = null;
     @property(cc.Font)
@@ -759,5 +760,14 @@ export default class Gameplay extends cc.Component {
             }
             callback(audioClip);
         });
+    }
+    playQuestionsound() {
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionvo[startGame.Instance.currentLevel], false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
+        }, this.questionvo[startGame.Instance.currentLevel].duration + 0.1);
     }
 }
