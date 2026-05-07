@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "2ee83735-fcb3-4a30-bd5b-f7d4ba2374e2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 250,
+  "height": 250,
+  "platformSettings": {},
+  "subMetas": {
+    "250x250_0014_wagon": {
+      "ver": "1.0.6",
+      "uuid": "f0ceaadb-1a80-4cc9-a929-5f879c7a0973",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2ee83735-fcb3-4a30-bd5b-f7d4ba2374e2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 8,
+      "trimY": 73,
+      "width": 234,
+      "height": 104,
+      "rawWidth": 250,
+      "rawHeight": 250,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
