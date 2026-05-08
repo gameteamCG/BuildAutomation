@@ -15,8 +15,8 @@
     "questionData": [
       {
         "questionLayout": "layout1",
-        "questionBgName": "L1(5).png",
-        "questionAudioName": "Tap on all the fishes with the letter P.mp3",
+        "questionBgName": "bg1.png",
+        "questionAudioName": "pineapple.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
@@ -35,20 +35,20 @@
         "correctAudioName": "FANTASTIC.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "P.mp3",
-          "P.mp3",
-          "P.mp3",
-          "P.mp3"
+          "psaysp.mp3",
+          "psaysp.mp3",
+          "psaysp.mp3",
+          "psaysp.mp3"
         ],
         "correctAnswerNum": "1234"
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "L2(6).png",
-        "questionAudioName": "Tap on all the shells with the letter P.mp3",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "l2QVO.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 4,
         "options": [
           "",
           "",
@@ -58,24 +58,23 @@
         ],
         "optionsBg": [
           "L2(1).png",
-          "L2(2).png",
           "L2(3).png",
-          "L2(4).png",
-          "L2(5).png"
+          "L2(5).png",
+          "L2(2).png"
         ],
         "correctAudioName": "EXCELLENTJOB.mp3",
         "wrongAudioName": "ohoh.mp3",
         "reiterationAudioName": [
-          "P.mp3",
-          "P.mp3",
-          "P.mp3"
+          "psaysp.mp3",
+          "psaysp.mp3",
+          "psaysp.mp3"
         ],
-        "correctAnswerNum": "134"
+        "correctAnswerNum": "12"
       },
       {
         "questionLayout": "layout1",
         "questionBgName": "L3(5).png",
-        "questionAudioName": "Tap on all the octopuses with the letter P.mp3",
+        "questionAudioName": "l3QVO.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
@@ -87,36 +86,36 @@
         ],
         "optionsBg": [
           "L3(1).png",
-          "L3(2).png",
           "L3(3).png",
+          "L3(2).png",
           "L3(4).png"
         ],
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
         "reiterationAudioName": [
-          "P.mp3",
-          "P.mp3"
+          "psaysp.mp3",
+          "psaysp.mp3"
         ],
-        "correctAnswerNum": "24"
+        "correctAnswerNum": "34"
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bgjtor.png",
-        "questionAudioName": "Tap on the images that begin with the letter P (2).mp3",
+        "questionBgName": "bg4.png",
+        "questionAudioName": "q4.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 5,
+        "numberOfOptions": 4,
         "options": [
           "",
           "",
-          "pan.png",
-          "parrot.png"
+          "panc.png",
+          "parrotc.png"
         ],
         "optionsBg": [
-          "lock.png",
-          "leaf.png",
-          "panbw.png",
-          "parrotbw.png"
+          "ballw.png",
+          "catw.png",
+          "panw.png",
+          "parrotw.png"
         ],
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",

@@ -312,9 +312,20 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
+            var posX = void 0;
+            var posY = void 0;
+            // 👇 custom positions for level 3
+            if (StartGame_1.default.Instance.currentLevel == 3) {
+                posX = [-450, 200, -150, 550, 0];
+                posY = [-130, -130, -130, -130, 50];
+            }
+            else {
+                // default positions
+                posX = [-450, 200, -150, 500, 0];
+                posY = [-120, -120, 40, 40, 50];
+            }
             for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                _optionParent.children[i].setPosition(posX[i], posY[i]);
             }
         }
         _template.destroy();
