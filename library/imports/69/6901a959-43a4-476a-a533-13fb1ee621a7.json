@@ -20,11 +20,11 @@
         "questionAudioName": "lowercase.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "placeholder.png",
-        "isOptionText": false,
+        "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "Small_c.png",
-          "d.png"
+          "c",
+          "d"
         ],
         "correctAudioName": "sound of c.mp3",
         "correctAnswerNum": "1"
@@ -35,11 +35,11 @@
         "questionAudioName": "uppercase.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "placeholder.png",
-        "isOptionText": false,
+        "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "cap_D.png",
-          "capital_C.png"
+          "D",
+          "C"
         ],
         "correctAudioName": "sound of c.mp3",
         "correctAnswerNum": "2"
@@ -50,11 +50,11 @@
         "questionAudioName": "lowercase.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "placeholder.png",
-        "isOptionText": false,
+        "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "h.png",
-          "Small_c.png"
+          "h",
+          "c"
         ],
         "correctAudioName": "sound of c.mp3",
         "correctAnswerNum": "2"
@@ -65,11 +65,11 @@
         "questionAudioName": "uppercase.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "placeholder.png",
-        "isOptionText": false,
+        "isOptionText": true,
         "numberOfOptions": 2,
         "options": [
-          "t.png",
-          "capital_C.png"
+          "T",
+          "C"
         ],
         "correctAudioName": "sound of c.mp3",
         "correctAnswerNum": "2"
