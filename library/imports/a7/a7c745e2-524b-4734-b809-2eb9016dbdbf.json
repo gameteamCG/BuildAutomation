@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "Identify the things you see in a kitchen",
+        "questionText": "Kitchen",
         "questionAudioName": "identifythingsyouseekitchen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Panel.png",
@@ -33,7 +33,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Identify the things you see in a kitchen",
+        "questionText": "Kitchen",
         "questionAudioName": "identifythingsyouseekitchen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Panel.png",
@@ -50,7 +50,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Identify the things you see in a kitchen",
+        "questionText": "Kitchen",
         "questionAudioName": "identifythingsyouseekitchen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Panel.png",
@@ -67,7 +67,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Identify the things you see in a kitchen",
+        "questionText": "Kitchen",
         "questionAudioName": "identifythingsyouseekitchen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Panel.png",
@@ -84,7 +84,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Identify the things you see in a kitchen",
+        "questionText": "Kitchen",
         "questionAudioName": "identifythingsyouseekitchen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Panel.png",
@@ -101,7 +101,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Identify the things you see in a kitchen",
+        "questionText": "Kitchen",
         "questionAudioName": "identifythingsyouseekitchen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Panel.png",
@@ -118,7 +118,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Identify the things you see in a kitchen",
+        "questionText": "Kitchen",
         "questionAudioName": "identifythingsyouseekitchen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Panel.png",
