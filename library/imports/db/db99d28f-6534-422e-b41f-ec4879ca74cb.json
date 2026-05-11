@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cracker",
+    "texture": "0afd73f2-0389-4fb0-bbee-d6819d950b37",
+    "atlas": "",
+    "rect": [
+      115,
+      123,
+      272,
+      255
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

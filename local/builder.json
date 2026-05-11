@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\SmartLearn\\Nursery\\Triangle_Nursery_SB2_Numeracy_63",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

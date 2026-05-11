@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "radio",
+    "texture": "d23c50c7-b1ca-4386-b40d-aaa1d705f7d5",
+    "atlas": "",
+    "rect": [
+      112,
+      105,
+      278,
+      291
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
