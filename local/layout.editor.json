@@ -28,7 +28,7 @@
             "children": [
               {
                 "width": 709,
-                "height": 445.75,
+                "height": 445.6000061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -37,7 +37,7 @@
               },
               {
                 "width": 709,
-                "height": 265.8500061035156,
+                "height": 266,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -72,11 +72,11 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
         "console",
         "timeline",
         "game-window",
+        "assets",
         "inspector",
         "cocos-services",
         "node-library"
