@@ -12,15 +12,15 @@
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": true,
-      "QuestionText": "identify",
+      "QuestionText": "Identify",
       "QuestionImageName": "",
       "QuestionAudioName": "identify-the-letter-with-the-letter-sound_rrr.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "Rr",
-        "Ff"
+        "r",
+        "f"
       ],
       "ReiterationAudioName": "RsaysRR.mp3",
       "CorrectAudioName": "positive_1.mp3",
@@ -30,7 +30,7 @@
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": true,
-      "QuestionText": "Rr",
+      "QuestionText": "r",
       "QuestionImageName": "",
       "QuestionAudioName": "taponpicR.mp3",
       "PlayQuestionAudio": true,
@@ -55,8 +55,8 @@
       "IsOptionText": true,
       "NumberOfOptions": 2,
       "Options": [
-        "Rr",
-        "Uu"
+        "r",
+        "u"
       ],
       "ReiterationAudioName": "27915064_6_rose.mp3",
       "CorrectAudioName": "positive_3.mp3",
