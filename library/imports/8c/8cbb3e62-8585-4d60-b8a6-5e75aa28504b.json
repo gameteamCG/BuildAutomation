@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tractorbw",
+    "texture": "b90e7758-b395-4407-84c9-1b2d504db83f",
+    "atlas": "",
+    "rect": [
+      23,
+      29,
+      455,
+      455
+    ],
+    "offset": [
+      0,
+      -6
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

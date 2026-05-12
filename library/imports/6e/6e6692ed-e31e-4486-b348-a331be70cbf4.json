@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zebrac",
+    "texture": "b04183e5-9dea-40d6-857c-4dcd2e8db411",
+    "atlas": "",
+    "rect": [
+      17,
+      25,
+      466,
+      467
+    ],
+    "offset": [
+      -0.5,
+      -8
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

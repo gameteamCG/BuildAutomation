@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "scooterbw",
+    "texture": "17c69602-1561-4e14-a1ab-6a5f7242a229",
+    "atlas": "",
+    "rect": [
+      23,
+      29,
+      455,
+      455
+    ],
+    "offset": [
+      0,
+      -6
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

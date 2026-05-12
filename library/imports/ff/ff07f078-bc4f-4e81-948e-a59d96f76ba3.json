@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zepbw",
+    "texture": "bc2f66a6-9f57-4a32-9113-6a9a747ea05f",
+    "atlas": "",
+    "rect": [
+      22,
+      29,
+      455,
+      455
+    ],
+    "offset": [
+      -1,
+      -6
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

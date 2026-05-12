@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zuccinibw",
+    "texture": "0baefd29-3ff1-4bf2-b6ba-f7240b76e2a8",
+    "atlas": "",
+    "rect": [
+      26,
+      34,
+      449,
+      449
+    ],
+    "offset": [
+      0,
+      -8
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
