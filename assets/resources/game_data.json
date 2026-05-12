@@ -10,7 +10,7 @@
   },
   "questionData": [
     {
-      "questionText": "Match the body parts.",
+      "questionText": "Match the body parts",
       "questionAudioName": "qvo.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "que.png",
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "questionText": "Match the body parts.",
+      "questionText": "Match the body parts",
       "questionAudioName": "qvo.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "que.png",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "questionText": "Match the body parts.",
+      "questionText": "Match the body parts",
       "questionAudioName": "qvo.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "que.png",
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "questionText": "Match the body parts.",
+      "questionText": "Match the body parts",
       "questionAudioName": "qvo.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "que.png",
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "questionText": "Match the body parts.",
+      "questionText": "Match the body parts",
       "questionAudioName": "qvo.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "que.png",
