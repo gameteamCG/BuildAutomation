@@ -14,6 +14,9 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class Gameplay extends cc.Component {
 
+    @property([cc.String])
+    public answers: string[] = [];
+
 
     @property(cc.Font)
     private podar_font: cc.Font = null;
@@ -202,6 +205,7 @@ export default class Gameplay extends cc.Component {
     start() {
 
         this.LoadQuestion();
+        this.node.getChildByName("qbar").getChildByName("Txt").getComponent(cc.Label).string = this.answers[startGame.Instance.currentLevel - 1];
         ProgressBar.Instance.ProgressFill(startGame.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
 
@@ -736,6 +740,11 @@ export default class Gameplay extends cc.Component {
         _number = cc.misc.lerp(min, max, _number);
         _number = Math.round(_number);
         return _number;
+    }
+
+    onSoundButtonClick() {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
     }
 
 

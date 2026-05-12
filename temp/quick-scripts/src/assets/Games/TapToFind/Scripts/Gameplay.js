@@ -37,6 +37,7 @@ var Gameplay = /** @class */ (function (_super) {
     __extends(Gameplay, _super);
     function Gameplay() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.answers = [];
         _this.podar_font = null;
         _this.jaipuria_font = null;
         _this.supercub_font = null;
@@ -217,6 +218,7 @@ var Gameplay = /** @class */ (function (_super) {
     Gameplay.prototype.start = function () {
         var _this = this;
         this.LoadQuestion();
+        this.node.getChildByName("qbar").getChildByName("Txt").getComponent(cc.Label).string = this.answers[StartGame_1.default.Instance.currentLevel - 1];
         ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
         this.scheduleOnce(function () {
@@ -737,6 +739,10 @@ var Gameplay = /** @class */ (function (_super) {
         _number = Math.round(_number);
         return _number;
     };
+    Gameplay.prototype.onSoundButtonClick = function () {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    };
     Gameplay.prototype.loadSpriteFrame = function (imageName, callback) {
         cc.loader.loadRes("images/" + imageName, cc.SpriteFrame, function (err, spriteFrame) {
             if (err) {
@@ -755,6 +761,9 @@ var Gameplay = /** @class */ (function (_super) {
             callback(audioClip);
         });
     };
+    __decorate([
+        property([cc.String])
+    ], Gameplay.prototype, "answers", void 0);
     __decorate([
         property(cc.Font)
     ], Gameplay.prototype, "podar_font", void 0);
