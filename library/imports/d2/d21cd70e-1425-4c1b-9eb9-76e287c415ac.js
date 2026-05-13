@@ -88,6 +88,7 @@ var startGame = /** @class */ (function (_super) {
     }
     startGame_1 = startGame;
     Object.defineProperty(startGame, "Instance", {
+        //method
         get: function () {
             return startGame_1.instance;
         },
@@ -98,6 +99,7 @@ var startGame = /** @class */ (function (_super) {
     startGame.prototype.onLoad = function () {
         var _this = this;
         cc.game.addPersistRootNode(this.node);
+        //setting instance
         startGame_1.instance = this;
         console.log("loading--100");
         console.log("loaderComplete--true");
@@ -413,7 +415,7 @@ var startGame = /** @class */ (function (_super) {
         });
     };
     var startGame_1;
-    startGame.instance = null;
+    startGame.instance = null; // define instace
     __decorate([
         property(cc.AudioClip)
     ], startGame.prototype, "BGM_audio", void 0);

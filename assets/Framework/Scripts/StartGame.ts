@@ -87,7 +87,7 @@ export default class startGame extends cc.Component {
 
     timer: number = 0;
 
-    private static instance: startGame = null;
+    private static instance: startGame = null; // define instace
 
     private isLoaded: boolean = false;
 
@@ -106,6 +106,7 @@ export default class startGame extends cc.Component {
     optionLayout: string = "horizontal";
     questions: QuestionData[] = [];
 
+    //method
     static get Instance() {
         return startGame.instance
     }
@@ -114,6 +115,8 @@ export default class startGame extends cc.Component {
 
     onLoad() {
         cc.game.addPersistRootNode(this.node);
+
+        //setting instance
         startGame.instance = this;
         console.log("loading--100");
         console.log("loaderComplete--true");
@@ -409,7 +412,7 @@ export default class startGame extends cc.Component {
             event.target.children[0].active = false;
             let id = cc.audioEngine.playMusic(this.BGM_audio, true);
             cc.audioEngine.setVolume(id, this.volume);
-            console.log("soundSetting--true");
+            console.log("soundSetting--true"); 
         }
         else {
             this.isMusicOn = false;
