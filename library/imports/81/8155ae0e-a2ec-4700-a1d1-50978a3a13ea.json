@@ -1,22 +1,22 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "1train",
+    "name": "5",
     "texture": "4c3c7053-dab9-4dca-8746-43670789418e",
     "atlas": "",
     "rect": [
       0,
       0,
-      235,
-      129
+      501,
+      500
     ],
     "offset": [
       0,
-      0
+      0.5
     ],
     "originalSize": [
-      235,
-      129
+      501,
+      501
     ],
     "capInsets": [
       0,

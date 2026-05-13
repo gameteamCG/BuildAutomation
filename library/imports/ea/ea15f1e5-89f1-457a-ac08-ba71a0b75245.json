@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "Pp",
+        "questionText": "P",
         "questionAudioName": "choosethecorrectpictureforthegivenletter.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
@@ -24,8 +24,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "1parrot.png",
-          "hen.png"
+          "1.png",
+          "2.png"
         ],
         "correctAudios": [
           "p parrot.mp3"
@@ -33,7 +33,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Rr",
+        "questionText": "R",
         "questionAudioName": "choosethecorrectpictureforthegivenletter.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
@@ -41,8 +41,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "ears.png",
-          "1rainbow.png"
+          "3.png",
+          "4.png"
         ],
         "correctAudios": [
           "r rainbow.mp3"
@@ -50,7 +50,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Tt",
+        "questionText": "T",
         "questionAudioName": "choosethecorrectpictureforthegivenletter.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
@@ -58,8 +58,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "1train.png",
-          "cow.png"
+          "5.png",
+          "6.png"
         ],
         "correctAudios": [
           "t train.mp3"
@@ -67,7 +67,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Qq",
+        "questionText": "Q",
         "questionAudioName": "choosethecorrectpictureforthegivenletter.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
@@ -75,8 +75,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "1queen.png",
-          "yellow.png"
+          "7.png",
+          "8.png"
         ],
         "correctAudios": [
           "q queen.mp3"
@@ -84,7 +84,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Ss",
+        "questionText": "S",
         "questionAudioName": "choosethecorrectpictureforthegivenletter.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
@@ -92,8 +92,8 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "strawberry.png",
-          "net.png"
+          "9.png",
+          "10.png"
         ],
         "correctAudios": [
           "s starwberry.mp3"
