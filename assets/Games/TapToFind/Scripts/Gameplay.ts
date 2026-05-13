@@ -285,7 +285,30 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 50, _optionCount);
+            let posX: number[];
+            let posY: number[];
+            if (startGame.Instance.currentLevel == 2) {
+
+                posX = [-400, 50, 500, 550, 0];
+                posY = [10, 10, 10, 0, 0];
+
+            }
+            else if (startGame.Instance.currentLevel == 3) {
+
+                posX = [-400, 50, 500, 550, 0];
+                posY = [10, 10, 10, 0, 0];
+
+            }
+            else {
+
+                // default positions
+                posX = [-450, 200, -150, 500, 0];
+                posY = [-120, -120, 40, 40, 50];
+            }
+
+            for (let i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(posX[i], 0);
+            }
         }
         else {
             this.arrangeChildren(this.options, 80);
@@ -296,10 +319,32 @@ export default class Gameplay extends cc.Component {
             let posY: number[];
 
             // 👇 custom positions for level 3
-            if (startGame.Instance.currentLevel == 3) {
+            if (startGame.Instance.currentLevel == 5) {
 
-                posX = [-450, 200, -150, 550, 0];
-                posY = [-130, -130, -130, -130, 50];
+                posX = [200, 200, -150, -150, 0];
+                posY = [-170, 100, 100, -170, 50];
+
+            } else {
+
+                // default positions
+                posX = [-450, 200, -150, 500, 0];
+                posY = [-120, -120, 40, 40, 50];
+            }
+
+            for (let i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(posX[i], posY[i]);
+            }
+        }
+        if (this.optionsLayout == "layout2") {
+
+            let posX: number[];
+            let posY: number[];
+
+            // 👇 custom positions for level 3
+            if (startGame.Instance.currentLevel == 4) {
+
+                posX = [-300, -100, 100, 300, 0];
+                posY = [-25, -25, -25, -25, 50];
 
             } else {
 

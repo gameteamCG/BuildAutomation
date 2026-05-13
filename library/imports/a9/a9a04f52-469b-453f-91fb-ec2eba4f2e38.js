@@ -306,7 +306,24 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 50, _optionCount);
+            var posX = void 0;
+            var posY = void 0;
+            if (StartGame_1.default.Instance.currentLevel == 2) {
+                posX = [-400, 50, 500, 550, 0];
+                posY = [10, 10, 10, 0, 0];
+            }
+            else if (StartGame_1.default.Instance.currentLevel == 3) {
+                posX = [-400, 50, 500, 550, 0];
+                posY = [10, 10, 10, 0, 0];
+            }
+            else {
+                // default positions
+                posX = [-450, 200, -150, 500, 0];
+                posY = [-120, -120, 40, 40, 50];
+            }
+            for (var i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(posX[i], 0);
+            }
         }
         else {
             this.arrangeChildren(this.options, 80);
@@ -315,9 +332,26 @@ var Gameplay = /** @class */ (function (_super) {
             var posX = void 0;
             var posY = void 0;
             // 👇 custom positions for level 3
-            if (StartGame_1.default.Instance.currentLevel == 3) {
-                posX = [-450, 200, -150, 550, 0];
-                posY = [-130, -130, -130, -130, 50];
+            if (StartGame_1.default.Instance.currentLevel == 5) {
+                posX = [200, 200, -150, -150, 0];
+                posY = [-170, 100, 100, -170, 50];
+            }
+            else {
+                // default positions
+                posX = [-450, 200, -150, 500, 0];
+                posY = [-120, -120, 40, 40, 50];
+            }
+            for (var i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(posX[i], posY[i]);
+            }
+        }
+        if (this.optionsLayout == "layout2") {
+            var posX = void 0;
+            var posY = void 0;
+            // 👇 custom positions for level 3
+            if (StartGame_1.default.Instance.currentLevel == 4) {
+                posX = [-300, -100, 100, 300, 0];
+                posY = [-25, -25, -25, -25, 50];
             }
             else {
                 // default positions
