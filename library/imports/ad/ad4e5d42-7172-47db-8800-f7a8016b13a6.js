@@ -473,12 +473,14 @@ var NewClass = /** @class */ (function (_super) {
                 element.getComponent(cc.Button).interactable = true;
             });
             if (globalVariables_1.default.Instance.currentLevel == 1) {
-                var hand = this.node.getChildByName("hand");
-                console.log("answer array num = ", this.answerArray[0]);
-                hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                hand.setPosition(0, -30);
-                hand.setParentWithSamePos(this.node);
-                hand.getComponent(cc.Animation).play();
+                this.scheduleOnce(function () {
+                    var hand = _this.node.getChildByName("hand");
+                    console.log("answer array num = ", _this.answerArray[0]);
+                    hand.setParent(_this.node.getChildByName("Option").getChildByName("1"));
+                    hand.setPosition(0, 0);
+                    hand.setParentWithSamePos(_this.node);
+                    hand.getComponent(cc.Animation).play();
+                }, 1);
             }
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "supercub") {
