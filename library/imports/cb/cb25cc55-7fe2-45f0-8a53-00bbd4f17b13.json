@@ -62,7 +62,7 @@
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "elf.mp3"
+          "engine.mp3"
         ],
         "correctAnswerNum": "3"
       },
@@ -86,7 +86,7 @@
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "engine.mp3"
+          "elf.mp3"
         ],
         "correctAnswerNum": "1"
       },
@@ -112,8 +112,8 @@
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "pan.mp3",
-          "parrot.mp3"
+          "esayse.mp3",
+          "esayse.mp3"
         ],
         "correctAnswerNum": "24"
       },
