@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\buildfiles\\massmarket\\Letter_Bb_Nursery_Literacy_8_british",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
