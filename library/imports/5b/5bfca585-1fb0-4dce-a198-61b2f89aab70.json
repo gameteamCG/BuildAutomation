@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "QuestionPanel",
+    "texture": "ec6396da-318d-4456-81ae-d4f5dcc0ee46",
+    "atlas": "",
+    "rect": [
+      74,
+      1,
+      354,
+      499
+    ],
+    "offset": [
+      1,
+      -0.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Use of 'the' UKG practice book",
+      "totalLevel": "6",
+      "TitleImageName": "useofthetitle.png",
+      "introBgName": "titlebg.png",
+      "bgmMusicName": "BBgmwhatsnext.mp3",
+      "mainBgName": "outdoorbg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Diagraph th",
+        "questionAudioName": "QVo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "L1.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          " "
+        ],
+        "reiterations": [
+          "L1.mp3"
+        ],
+        "commonRightOptionImageName": "option-panel.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "thorn",
+          "sloth"
+        ]
+      },
+      {
+        "questionText": "Diagraph th",
+        "questionAudioName": "QVo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "L2.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          " "
+        ],
+        "reiterations": [
+          "L2.mp3"
+        ],
+        "commonRightOptionImageName": "option-panel.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "sloth",
+          "thread"
+        ]
+      },
+      {
+        "questionText": "Diagraph th",
+        "questionAudioName": "QVo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "L3.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          " "
+        ],
+        "reiterations": [
+          "L3.mp3"
+        ],
+        "commonRightOptionImageName": "option-panel.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "thief",
+          "thorn"
+        ]
+      },
+      {
+        "questionText": "Diagraph th",
+        "questionAudioName": "QVo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "L4.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          " "
+        ],
+        "reiterations": [
+          "L4.mp3"
+        ],
+        "commonRightOptionImageName": "option-panel.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "bath",
+          "thread"
+        ]
+      },
+      {
+        "questionText": "Diagraph th",
+        "questionAudioName": "QVo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "L5.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          " "
+        ],
+        "reiterations": [
+          "L5.mp3"
+        ],
+        "commonRightOptionImageName": "option-panel.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "mouth",
+          "sloth"
+        ]
+      },
+      {
+        "questionText": "Diagraph th",
+        "questionAudioName": "QVo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "L6.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          " "
+        ],
+        "reiterations": [
+          "L6.mp3"
+        ],
+        "commonRightOptionImageName": "option-panel.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "thread",
+          "thief"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "boyistall",
+    "texture": "f6538784-3177-46a9-b696-2a27fdef3be5",
+    "atlas": "",
+    "rect": [
+      98,
+      149,
+      250,
+      250
+    ],
+    "offset": [
+      -27,
+      -24
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
