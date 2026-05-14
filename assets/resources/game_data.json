@@ -1,7 +1,7 @@
 {
     "additionalData": {
         "GameID": "Sound ue_fs2_r187",
-        "totalLevel": "5",
+        "totalLevel": "4",
         "TitleImageName": "Soundue.png",
         "introBgName": "skg.png",
         "bgmMusicName": "hksmi.mp3",
@@ -16,12 +16,11 @@
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "common.png",
             "isOptionText": false,
-            "numberOfOptions": 4,
+            "numberOfOptions": 3,
             "options": [
                 "nuts.png",
                 "drum.png",
-                "barbeque.png",
-                "igloo.png"
+                "barbeque.png"
             ],
             "correctAudioName": "barbeque.mp3",
             "correctAnswerNum": "3"
@@ -33,12 +32,11 @@
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "common.png",
             "isOptionText": false,
-            "numberOfOptions": 4,
+            "numberOfOptions": 3,
             "options": [
                 "lock.png",
                 "rescue.png",
-                "nuts.png",
-                "drum.png"
+                "nuts.png"
             ],
             "correctAudioName": "rescue.mp3",
             "correctAnswerNum": "2"
@@ -50,12 +48,11 @@
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "common.png",
             "isOptionText": false,
-            "numberOfOptions": 4,
+            "numberOfOptions": 3,
             "options": [
                 "apple.png",
                 "tiki.png",
-                "argue.png",
-                "fish.png"
+                "argue.png"
             ],
             "correctAudioName": "argue.mp3",
             "correctAnswerNum": "3"
@@ -67,29 +64,11 @@
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "common.png",
             "isOptionText": false,
-            "numberOfOptions": 4,
-            "options": [
-                "dengue.png",
-                "snail.png",
-                "drum.png",
-                "lock.png"
-            ],
-            "correctAudioName": "dengue.mp3",
-            "correctAnswerNum": "1"
-        },
-        {
-            "questionText": "Diagraph ue",
-            "questionImageName": "ue.png",
-            "questionAudioName": "question.mp3",
-            "shouldPlayQuestionAudio": true,
-            "commonOptionImageName": "common.png",
-            "isOptionText": false,
-            "numberOfOptions": 4,
+            "numberOfOptions": 3,
             "options": [
                 "bug.png",
                 "quue.png",
-                "light.png",
-                "fish.png"
+                "light.png"
             ],
             "correctAudioName": "queue.mp3",
             "correctAnswerNum": "2"
