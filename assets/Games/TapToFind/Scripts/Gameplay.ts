@@ -51,6 +51,8 @@ export default class Gameplay extends cc.Component {
 
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
+    @property(cc.AudioClip)
+    Questionsound: cc.AudioClip[] = [];
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
@@ -757,4 +759,14 @@ export default class Gameplay extends cc.Component {
             callback(audioClip);
         });
     }
+    playQuestionsound() {
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.Questionsound[startGame.Instance.currentLevel - 1], false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
+        }, this.Questionsound[startGame.Instance.currentLevel - 1].duration + 0.1);
+    }
+
 }

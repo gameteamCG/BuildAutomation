@@ -57,6 +57,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.reiterationAudio = [];
         _this.currentJockey = null;
         _this.maxLevel = 0;
+        _this.Questionsound = [];
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
@@ -755,6 +756,15 @@ var Gameplay = /** @class */ (function (_super) {
             callback(audioClip);
         });
     };
+    Gameplay.prototype.playQuestionsound = function () {
+        var _this = this;
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.Questionsound[StartGame_1.default.Instance.currentLevel - 1], false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.Questionsound[StartGame_1.default.Instance.currentLevel - 1].duration + 0.1);
+    };
     __decorate([
         property(cc.Font)
     ], Gameplay.prototype, "podar_font", void 0);
@@ -782,6 +792,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_audio", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "Questionsound", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);
