@@ -439,7 +439,7 @@ var NewClass = /** @class */ (function (_super) {
             this_5.scheduleOnce(function () {
                 var objScale = 0;
                 cc.audioEngine.playEffect(_this.popSound[0], false);
-                objScale = 0.7;
+                objScale = 1;
                 if (!_this.isOptionBG) {
                     _this.node.getChildByName("Option").children.forEach(function (element) {
                         element.getChildByName("img").scale = 1.4;

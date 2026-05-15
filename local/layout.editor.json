@@ -7,14 +7,14 @@
       "windowType": "dockable",
       "x": -8,
       "y": -8,
-      "width": 1552,
-      "height": 832,
+      "width": 1936,
+      "height": 1048,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 253.5,
-            "height": 714.6000366210938,
+            "width": 280,
+            "height": 930,
             "type": "panel",
             "active": 0,
             "children": [
@@ -22,13 +22,13 @@
             ]
           },
           {
-            "width": 632.7625122070312,
-            "height": 714.6000366210938,
+            "width": 1027.984375,
+            "height": 930,
             "type": "dock-v",
             "children": [
               {
-                "width": 632.7625122070312,
-                "height": 445.75,
+                "width": 1027.984375,
+                "height": 661,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -36,10 +36,10 @@
                 ]
               },
               {
-                "width": 632.7625122070312,
-                "height": 265.8500061035156,
+                "width": 1027.984375,
+                "height": 266,
                 "type": "panel",
-                "active": 0,
+                "active": 2,
                 "children": [
                   "timeline",
                   "game-window",
@@ -49,8 +49,8 @@
             ]
           },
           {
-            "width": 293.4250183105469,
-            "height": 714.6000366210938,
+            "width": 277,
+            "height": 930,
             "type": "panel",
             "active": 0,
             "children": [
@@ -58,8 +58,8 @@
             ]
           },
           {
-            "width": 347.3125,
-            "height": 714.6000366210938,
+            "width": 326,
+            "height": 930,
             "type": "panel",
             "active": 0,
             "children": [
@@ -72,16 +72,17 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
-        "console",
         "timeline",
         "game-window",
+        "console",
+        "assets",
         "inspector",
         "cocos-services",
         "node-library"
       ]
-    }
+    },
+    " common-asset-worker-worker": {}
   },
   "panels": {
     "project-settings": {
@@ -99,8 +100,8 @@
     "builder": {
       "x": -8,
       "y": -8,
-      "width": 1552,
-      "height": 832
+      "width": 1936,
+      "height": 1048
     }
   },
   "panelLabelWidth": {}

@@ -489,7 +489,7 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 let objScale: number = 0;
                 cc.audioEngine.playEffect(this.popSound[0], false);
-                objScale = 0.7;
+                objScale = 1;
                 if (!this.isOptionBG) {
                     this.node.getChildByName("Option").children.forEach((element) => {
                         element.getChildByName("img").scale = 1.4;
