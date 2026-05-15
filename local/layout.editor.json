@@ -7,14 +7,14 @@
       "windowType": "dockable",
       "x": -8,
       "y": -8,
-      "width": 1552,
-      "height": 832,
+      "width": 1936,
+      "height": 1048,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 217,
-            "height": 714.6000366210938,
+            "width": 271.5625,
+            "height": 930,
             "type": "panel",
             "active": 0,
             "children": [
@@ -22,13 +22,13 @@
             ]
           },
           {
-            "width": 762.5,
-            "height": 714.6000366210938,
+            "width": 954.875,
+            "height": 930,
             "type": "dock-v",
             "children": [
               {
-                "width": 762.5,
-                "height": 445.6000061035156,
+                "width": 954.875,
+                "height": 580.671875,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -36,8 +36,8 @@
                 ]
               },
               {
-                "width": 762.5,
-                "height": 266,
+                "width": 954.875,
+                "height": 346.328125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -49,8 +49,8 @@
             ]
           },
           {
-            "width": 236.91250610351562,
-            "height": 714.6000366210938,
+            "width": 295.34375,
+            "height": 930,
             "type": "panel",
             "active": 0,
             "children": [
@@ -58,8 +58,8 @@
             ]
           },
           {
-            "width": 310.57501220703125,
-            "height": 714.6000366210938,
+            "width": 389.203125,
+            "height": 930,
             "type": "panel",
             "active": 0,
             "children": [
@@ -72,11 +72,11 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
         "console",
         "timeline",
         "game-window",
+        "assets",
         "inspector",
         "cocos-services",
         "node-library"
@@ -100,8 +100,8 @@
     "builder": {
       "x": -8,
       "y": -8,
-      "width": 1552,
-      "height": 832
+      "width": 1936,
+      "height": 1048
     }
   },
   "panelLabelWidth": {}

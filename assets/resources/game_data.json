@@ -10,7 +10,7 @@
     "questionData": [
         {
             "questionLayout": "layout2",
-            "questionBgName": "bg1.png",
+            "questionBgName": "BG1.png",
             "questionAudioName": "question.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
@@ -140,7 +140,7 @@
         },
         {
             "questionLayout": "layout2",
-            "questionBgName": "bg1.png",
+            "questionBgName": "BG1.png",
             "questionAudioName": "question.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
