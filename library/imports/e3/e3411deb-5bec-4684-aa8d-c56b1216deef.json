@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "Beginning Sound b",
+        "questionText": "Beginning sound",
         "questionImageName": "b.png",
         "questionAudioName": "identify_the_picture_that_beginning_with_the_given_letter_sound_B.mp3",
         "shouldPlayQuestionAudio": true,
@@ -30,7 +30,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Beginning Sound z",
+        "questionText": "Beginning sound",
         "questionImageName": "z.png",
         "questionAudioName": "identify_the_picture_that_beginning_with_the_given_letter_sound_Z.mp3",
         "shouldPlayQuestionAudio": true,
@@ -45,7 +45,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Beginning Sound d",
+        "questionText": "Beginning sound",
         "questionImageName": "d.png",
         "questionAudioName": "identify_the_picture_that_beginning_with_the_given_letter_sound_D.mp3",
         "shouldPlayQuestionAudio": true,
@@ -60,7 +60,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Beginning Sound v",
+        "questionText": "Beginning sound",
         "questionImageName": "v.png",
         "questionAudioName": "identify_the_picture_that_beginning_with_the_given_letter_sound_V.mp3",
         "shouldPlayQuestionAudio": true,
@@ -75,7 +75,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Beginning Sound f",
+        "questionText": "Beginning sound",
         "questionImageName": "f.png",
         "questionAudioName": "identify_the_picture_that_beginning_with_the_given_letter_sound_F.mp3",
         "shouldPlayQuestionAudio": true,
