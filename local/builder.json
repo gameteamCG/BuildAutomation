@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "D:\\buildfiles\\massmarket\\Beginning_Sound_Nursery_Literacy_117_british",
+  "buildPath": "build",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
