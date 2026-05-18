@@ -32,6 +32,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var CommonFun_1 = require("../../Common/CommonFun");
 var Constant_1 = require("../../Common/Constant");
 var Global_1 = require("../../Common/Global");
+var GamePlay_1 = require("../GamePlay");
 var TileSelection_1 = require("../TileSelection");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var ColorFrameList = /** @class */ (function () {
@@ -130,6 +131,7 @@ var PersistentScroll = /** @class */ (function (_super) {
     __extends(PersistentScroll, _super);
     function PersistentScroll() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.Qvoplay = [];
         _this.hand = null;
         _this.tickBtn = null;
         _this.TileSelectionListArray = [];
@@ -526,8 +528,20 @@ var PersistentScroll = /** @class */ (function (_super) {
             this.currentDrawingScript.currentstensil.pop();
         }
     };
+    PersistentScroll.prototype.playQuestionsound = function () {
+        var _this = this;
+        this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.Qvoplay[GamePlay_1.default.Instance.count], false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.Qvoplay[GamePlay_1.default.Instance.count].duration + 0.1);
+    };
     var PersistentScroll_1;
     PersistentScroll.instance = null;
+    __decorate([
+        property(cc.AudioClip)
+    ], PersistentScroll.prototype, "Qvoplay", void 0);
     __decorate([
         property(cc.Node)
     ], PersistentScroll.prototype, "hand", void 0);

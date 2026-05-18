@@ -9,6 +9,7 @@ import CommonFun from "../../Common/CommonFun";
 import configData from "../../Common/ConfigController";
 import { Constant } from "../../Common/Constant";
 import Global from "../../Common/Global";
+import GamePlay from "../GamePlay";
 import TileSelection from "../TileSelection";
 
 const { ccclass, property } = cc._decorator;
@@ -70,6 +71,8 @@ class TileSelectionList {
 
 @ccclass
 export default class PersistentScroll extends cc.Component {
+    @property(cc.AudioClip)
+    Qvoplay: cc.AudioClip[] = [];
 
     @property(cc.Node)
     hand: cc.Node = null;
@@ -577,5 +580,14 @@ export default class PersistentScroll extends cc.Component {
             data.parent.removeChild(data.child);
             this.currentDrawingScript.currentstensil.pop();
         }
+    }
+    playQuestionsound() {
+        this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.Qvoplay[GamePlay.Instance.count], false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
+        }, this.Qvoplay[GamePlay.Instance.count].duration + 0.1);
     }
 }

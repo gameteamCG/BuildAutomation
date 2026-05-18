@@ -74,6 +74,8 @@ var GamePlay = /** @class */ (function (_super) {
         _this.currentLevel = 0;
         _this.totalLevels = 0;
         _this.Ypos = 0;
+        _this.Qvoplay = [];
+        _this.count = 0;
         return _this;
     }
     GamePlay_1 = GamePlay;
@@ -218,6 +220,7 @@ var GamePlay = /** @class */ (function (_super) {
         this.hand.opacity = 255;
     };
     GamePlay.prototype.onBackClicked = function () {
+        GamePlay_1.instance.count++;
         // console.log("levelComplete--" + (CommonFun.instance.currentLvl + 1));
         cc.audioEngine.playEffect(this.clickAud, false);
         // console.log("gameExit--true");
@@ -294,6 +297,15 @@ var GamePlay = /** @class */ (function (_super) {
         // ref.node.getParent().getChildByName("val").getComponent(cc.Label).string = val;
         // Constant.CurrentToolsTagSize[this.currentPensilSelection] = val;
     };
+    GamePlay.prototype.playQuestionsound = function () {
+        var _this = this;
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.Qvoplay[this.count], false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.Qvoplay[this.count].duration + 0.1);
+    };
     var GamePlay_1;
     GamePlay.instance = null;
     __decorate([
@@ -320,6 +332,9 @@ var GamePlay = /** @class */ (function (_super) {
     __decorate([
         property(cc.Font)
     ], GamePlay.prototype, "supercub_font", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], GamePlay.prototype, "Qvoplay", void 0);
     GamePlay = GamePlay_1 = __decorate([
         ccclass
     ], GamePlay);

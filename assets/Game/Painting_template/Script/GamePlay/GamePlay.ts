@@ -65,6 +65,9 @@ export default class GamePlay extends cc.Component {
 
     private Ypos: number = 0;
     private static instance: GamePlay = null;
+    @property(cc.AudioClip)
+    Qvoplay: cc.AudioClip[] = [];
+    count: number = 0;
 
     onLoad() {
         GamePlay.instance = this;
@@ -213,7 +216,7 @@ export default class GamePlay extends cc.Component {
     }
 
     onBackClicked() {
-
+        GamePlay.instance.count++;
         // console.log("levelComplete--" + (CommonFun.instance.currentLvl + 1));
         cc.audioEngine.playEffect(this.clickAud, false);
         // console.log("gameExit--true");
@@ -299,4 +302,14 @@ export default class GamePlay extends cc.Component {
 
         // Constant.CurrentToolsTagSize[this.currentPensilSelection] = val;
     }
+    playQuestionsound() {
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.Qvoplay[this.count], false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
+        }, this.Qvoplay[this.count].duration + 0.1);
+    }
+
 }
