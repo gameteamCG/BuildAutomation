@@ -1,7 +1,7 @@
 {
     "additionalData": {
         "GameID": "Long 'u' word families_ukg_sb2_23",
-        "totalLevel": "7",
+        "totalLevel": "6",
         "TitleImageName": "titel.png",
         "introBgName": "Bg_3.png",
         "bgmMusicName": "BGM_BW_game.mp3",
@@ -111,32 +111,6 @@
                 "20728153_4_tube.mp3"
             ],
             "correctAnswerNum": "3"
-        },
-        {
-            "questionLayout": "layout2",
-            "questionBgName": "bg5.png",
-            "questionAudioName": "question.mp3",
-            "shouldPlayQuestionAudio": true,
-            "isOptionText": false,
-            "numberOfOptions": 4,
-            "options": [
-                "crab.png",
-                "rule.png",
-                "tug.png",
-                "yup.png"
-            ],
-            "optionsBg": [
-                "",
-                "",
-                "",
-                ""
-            ],
-            "correctAudioName": "GOODJOB.mp3",
-            "wrongAudioName": "nevermindtryagain.mp3",
-            "reiterationAudioName": [
-                "20728153_5_rule.mp3"
-            ],
-            "correctAnswerNum": "2"
         },
         {
             "questionLayout": "layout2",

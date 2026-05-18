@@ -7,14 +7,14 @@
       "windowType": "dockable",
       "x": -8,
       "y": -8,
-      "width": 1936,
-      "height": 1048,
+      "width": 1552,
+      "height": 832,
       "layout": {
         "type": "dock-h",
         "children": [
           {
-            "width": 271.5625,
-            "height": 930,
+            "width": 216.5500030517578,
+            "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
             "children": [
@@ -22,13 +22,13 @@
             ]
           },
           {
-            "width": 954.875,
-            "height": 930,
+            "width": 763.1000366210938,
+            "height": 714.6000366210938,
             "type": "dock-v",
             "children": [
               {
-                "width": 954.875,
-                "height": 580.671875,
+                "width": 763.1000366210938,
+                "height": 445.6000061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -36,8 +36,8 @@
                 ]
               },
               {
-                "width": 954.875,
-                "height": 346.328125,
+                "width": 763.1000366210938,
+                "height": 266,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -49,8 +49,8 @@
             ]
           },
           {
-            "width": 295.34375,
-            "height": 930,
+            "width": 235.72500610351562,
+            "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
             "children": [
@@ -58,8 +58,8 @@
             ]
           },
           {
-            "width": 389.203125,
-            "height": 930,
+            "width": 311.63751220703125,
+            "height": 714.6000366210938,
             "type": "panel",
             "active": 0,
             "children": [
@@ -100,8 +100,8 @@
     "builder": {
       "x": -8,
       "y": -8,
-      "width": 1936,
-      "height": 1048
+      "width": 1552,
+      "height": 832
     }
   },
   "panelLabelWidth": {}
