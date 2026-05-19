@@ -7,7 +7,7 @@
     "additionalData": {
       "GameID": "Letter Dd Letters and sounds",
       "totalLevel": "6",
-      "TitleImageName": "Asset_173.png",
+      "TitleImageName": "Asset 4 (13).png",
       "introBgName": "books_Bg.png",
       "bgmMusicName": "BGM.mp3",
       "JockeyName": "Puzzle"
@@ -16,7 +16,7 @@
       {
         "questionLayout": "layout1",
         "questionBgName": "L1_bg.png",
-        "questionAudioName": "identify_the_letter_d.mp3",
+        "questionAudioName": "british8439british537_1_identify-the-letter-d.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
@@ -35,15 +35,15 @@
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
         "reiterationAudioName": [
-          "D_SAYS_DDD.mp3",
-          "D_SAYS_DDD.mp3"
+          "british535341-3-d-says_3LGCmpXm.mp3",
+          "british535341-3-d-says_3LGCmpXm.mp3"
         ],
         "correctAnswerNum": "13"
       },
       {
         "questionLayout": "layout2",
         "questionBgName": "L2_bg.png",
-        "questionAudioName": "Choose_the_uppercase_letter_D.mp3",
+        "questionAudioName": "british8439537_2_choose-the-uppercase-l.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
@@ -62,15 +62,15 @@
         "correctAudioName": "EXCELLENTJOB.mp3",
         "wrongAudioName": "ohoh.mp3",
         "reiterationAudioName": [
-          "D_SAYS_DDD.mp3",
-          "D_SAYS_DDD.mp3"
+          "british535341-3-d-says_3LGCmpXm.mp3",
+          "british535341-3-d-says_3LGCmpXm.mp3"
         ],
         "correctAnswerNum": "24"
       },
       {
         "questionLayout": "layout1",
         "questionBgName": "L3_bg.png",
-        "questionAudioName": "Tap_on_the_lowercase_letter_D.mp3",
+        "questionAudioName": "british8439537_3_tap-on-the-lowercase-l.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
@@ -89,15 +89,15 @@
         "correctAudioName": "EXCEPTIONAL.mp3",
         "wrongAudioName": "nevermindtryagain.mp3",
         "reiterationAudioName": [
-          "D_SAYS_DDD.mp3",
-          "D_SAYS_DDD.mp3"
+          "british535341-3-d-says_3LGCmpXm.mp3",
+          "british535341-3-d-says_3LGCmpXm.mp3"
         ],
         "correctAnswerNum": "34"
       },
       {
         "questionLayout": "layout3",
         "questionBgName": "Layout3_bg.png",
-        "questionAudioName": "Tap_on_the_picture_that_begins_with_letter_sound_d.mp3",
+        "questionAudioName": "britishd british-identify-the-picture-that-begins-with-the-letter-sound_I4qv6u5F.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
@@ -114,14 +114,14 @@
         "correctAudioName": "FANTASTIC.mp3",
         "wrongAudioName": "Oopsietryoncemore.mp3",
         "reiterationAudioName": [
-          "27767026_4_dog.mp3"
+          "british8439537_4_dog.mp3"
         ],
         "correctAnswerNum": "2"
       },
       {
         "questionLayout": "layout3",
         "questionBgName": "Layout3_bg.png",
-        "questionAudioName": "Tap_on_the_picture_that_begins_with_letter_sound_d.mp3",
+        "questionAudioName": "britishd british-identify-the-picture-that-begins-with-the-letter-sound_I4qv6u5F.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
@@ -138,14 +138,14 @@
         "correctAudioName": "INCREDIBLE.mp3",
         "wrongAudioName": "ohoh.mp3",
         "reiterationAudioName": [
-          "donut.mp3"
+          "british8439537_5_donut.mp3"
         ],
         "correctAnswerNum": "1"
       },
       {
         "questionLayout": "layout3",
         "questionBgName": "Layout3_bg.png",
-        "questionAudioName": "Tap_on_the_picture_that_begins_with_letter_sound_d.mp3",
+        "questionAudioName": "britishd british-identify-the-picture-that-begins-with-the-letter-sound_I4qv6u5F.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
@@ -162,7 +162,7 @@
         "correctAudioName": "MAGNIFICENT.mp3",
         "wrongAudioName": "nevermindtryagain.mp3",
         "reiterationAudioName": [
-          "dragonfly.mp3"
+          "british8439537_6_dragonfly.mp3"
         ],
         "correctAnswerNum": "3"
       }
