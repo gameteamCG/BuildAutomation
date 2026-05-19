@@ -67,6 +67,8 @@ export default class GamePlay extends cc.Component {
     private static instance: GamePlay = null;
     @property(cc.AudioClip)
     Qvoplay: cc.AudioClip[] = [];
+    @property(cc.AudioClip)
+    InitialQvo: cc.AudioClip[] = [];
     count: number = 0;
 
     onLoad() {
@@ -159,11 +161,11 @@ export default class GamePlay extends cc.Component {
         this.questionNode.setPosition(-60, 1800);
         this.scheduleOnce(() => {
             this.initialVO = globalVariables.Instance.initialVO;
-            if (this.initialVO) {
-                cc.audioEngine.playEffect(this.initialVO, false);
+            if (this.InitialQvo[0]) {
+                cc.audioEngine.playEffect(this.InitialQvo[0], false);
                 this.scheduleOnce(() => {
                     this.checkNextLevel();
-                }, this.initialVO.duration);
+                }, this.InitialQvo[0].duration);
             }
             else {
                 this.scheduleOnce(() => {

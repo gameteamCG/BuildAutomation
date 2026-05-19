@@ -49,6 +49,7 @@ export default class globalVariables extends cc.Component {
     BGM_audio: cc.AudioClip = null;
     volume: number = 0.1;
     mainBg: cc.SpriteFrame = null;
+    @property(cc.AudioClip)
     initialVO: cc.AudioClip = null;
 
     private static instance: globalVariables = null;

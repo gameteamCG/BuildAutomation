@@ -75,6 +75,7 @@ var GamePlay = /** @class */ (function (_super) {
         _this.totalLevels = 0;
         _this.Ypos = 0;
         _this.Qvoplay = [];
+        _this.InitialQvo = [];
         _this.count = 0;
         return _this;
     }
@@ -170,11 +171,11 @@ var GamePlay = /** @class */ (function (_super) {
         this.questionNode.setPosition(-60, 1800);
         this.scheduleOnce(function () {
             _this.initialVO = globalVariables_1.default.Instance.initialVO;
-            if (_this.initialVO) {
-                cc.audioEngine.playEffect(_this.initialVO, false);
+            if (_this.InitialQvo[0]) {
+                cc.audioEngine.playEffect(_this.InitialQvo[0], false);
                 _this.scheduleOnce(function () {
                     _this.checkNextLevel();
-                }, _this.initialVO.duration);
+                }, _this.InitialQvo[0].duration);
             }
             else {
                 _this.scheduleOnce(function () {
@@ -335,6 +336,9 @@ var GamePlay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], GamePlay.prototype, "Qvoplay", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], GamePlay.prototype, "InitialQvo", void 0);
     GamePlay = GamePlay_1 = __decorate([
         ccclass
     ], GamePlay);

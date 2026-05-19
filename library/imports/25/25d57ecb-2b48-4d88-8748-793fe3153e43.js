@@ -244,6 +244,9 @@ var globalVariables = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], globalVariables.prototype, "playBtn_audio", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], globalVariables.prototype, "initialVO", void 0);
     globalVariables = globalVariables_1 = __decorate([
         ccclass
     ], globalVariables);
