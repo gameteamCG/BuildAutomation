@@ -509,6 +509,9 @@ var Gameplay = /** @class */ (function (_super) {
             }).start();
         }
     };
+    Gameplay.prototype.playButtonSound = function () {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    };
     Gameplay.prototype.LoadNextQuestion = function () {
         var _this = this;
         this.node.getChildByName("confetti").active = true;

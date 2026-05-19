@@ -494,7 +494,9 @@ export default class Gameplay extends cc.Component {
 
         }
     }
-
+    playButtonSound() {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    }
 
     LoadNextQuestion() {
         this.node.getChildByName("confetti").active = true;
