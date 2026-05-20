@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wiggle",
+    "texture": "67b72b47-c94e-4552-90bc-8337494955fe",
+    "atlas": "",
+    "rect": [
+      61,
+      0,
+      379,
+      501
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

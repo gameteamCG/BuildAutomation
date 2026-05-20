@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Tens and ones 60 to 70",
+      "totalLevel": "2",
+      "TitleImageName": "GameTitle.png",
+      "introBgName": "UKG_Intro.png",
+      "bgmMusicName": "BG_BB.mp3",
+      "mainBgName": "Main_BG.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "card-back.png",
+        "frontCardImageName": "card-front.png",
+        "isOptionText": false,
+        "options": [
+          "fish.png",
+          "dolphin.png"
+        ],
+        "reiterationAudios": [
+          "fish-ans.mp3",
+          "dolphin-ans.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "swim",
+          "jump"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "Card_Back.png",
+        "frontCardImageName": "Card_Front.png",
+        "isOptionText": false,
+        "options": [
+          "IMG_69.png",
+          "IMG_64.png"
+        ],
+        "reiterationAudios": [
+          "VO_69.mp3",
+          "VO_64.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "69",
+          "64"
+        ]
+      }
+    ]
+  }
+}
