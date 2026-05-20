@@ -1,0 +1,56 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Revision - letter Ff",
+      "totalLevel": "4",
+      "TitleImageName": "Asset4738.png",
+      "introBgName": "nurBG.png",
+      "bgmMusicName": "bgm3.mp3",
+      "initialVOName": "",
+      "mainBgName": "Asset13.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Fish",
+        "questionImageName": "Ff.png",
+        "questionAudioName": "Question1234.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "14.png",
+        "needMoreTools": true,
+        "correctAudioName": "fish.mp3"
+      },
+      {
+        "questionText": "Flower",
+        "questionImageName": "Ff.png",
+        "questionAudioName": "Question1234.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "15.png",
+        "needMoreTools": true,
+        "correctAudioName": "flower.mp3"
+      },
+      {
+        "questionText": "Fan",
+        "questionImageName": "Ff.png",
+        "questionAudioName": "Question1234.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "17.png",
+        "needMoreTools": true,
+        "correctAudioName": "fan.mp3"
+      },
+      {
+        "questionText": "Fox",
+        "questionImageName": "Ff.png",
+        "questionAudioName": "Question1234.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "16.png",
+        "needMoreTools": true,
+        "correctAudioName": "fox.mp3"
+      }
+    ]
+  }
+}

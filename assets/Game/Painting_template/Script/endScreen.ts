@@ -44,7 +44,7 @@ export default class endScreen extends cc.Component {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
         }
 
-        this.node.getChildByName("jockey").getChildByName(globalVariables.Instance.jockeyName).active = true;
+
 
     }
 

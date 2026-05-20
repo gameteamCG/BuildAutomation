@@ -217,6 +217,9 @@ var GamePlay = /** @class */ (function (_super) {
         Constant_1.Constant.SaveLevelData(CommonFun_1.default.instance.currentLvl, this.overAllData);
         this.hand.opacity = 255;
     };
+    GamePlay.prototype.playButtonSound = function () {
+        cc.audioEngine.playEffect(this.question_audios[0], false);
+    };
     GamePlay.prototype.onBackClicked = function () {
         // console.log("levelComplete--" + (CommonFun.instance.currentLvl + 1));
         cc.audioEngine.playEffect(this.clickAud, false);

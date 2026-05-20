@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lowercase_f",
+    "texture": "004ed6d8-6165-4e8b-a8f0-b29733643b65",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      288,
+      369
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      288,
+      369
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -211,7 +211,10 @@ export default class GamePlay extends cc.Component {
 
         this.hand.opacity = 255;
     }
+    playButtonSound() {
+        cc.audioEngine.playEffect(this.question_audios[0], false)
 
+    }
     onBackClicked() {
 
         // console.log("levelComplete--" + (CommonFun.instance.currentLvl + 1));
