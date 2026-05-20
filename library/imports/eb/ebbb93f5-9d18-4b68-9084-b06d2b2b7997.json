@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Tens and ones 60 to 70",
-      "totalLevel": "2",
+      "totalLevel": "3",
       "TitleImageName": "GameTitle.png",
       "introBgName": "UKG_Intro.png",
       "bgmMusicName": "BG_BB.mp3",
@@ -39,21 +39,42 @@
         "questionText": "",
         "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
-        "backCardImageName": "Card_Back.png",
-        "frontCardImageName": "Card_Front.png",
+        "backCardImageName": "card-back.png",
+        "frontCardImageName": "card-front.png",
         "isOptionText": false,
         "options": [
-          "IMG_69.png",
-          "IMG_64.png"
+          "octopus.png",
+          "seahorse.png"
         ],
         "reiterationAudios": [
-          "VO_69.mp3",
-          "VO_64.mp3"
+          "octopus-ans.mp3",
+          "seahorse-ans.mp3"
         ],
         "isAnswerText": true,
         "answers": [
-          "69",
-          "64"
+          "wriggle",
+          "glide"
+        ]
+      },
+      {
+        "questionText": "",
+        "questionAudioName": "QVO.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "card-back.png",
+        "frontCardImageName": "card-front.png",
+        "isOptionText": false,
+        "options": [
+          "jellyfish.png",
+          "whale.png"
+        ],
+        "reiterationAudios": [
+          "jellyfish-ans.mp3",
+          "whale-ans.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "float",
+          "splash"
         ]
       }
     ]
