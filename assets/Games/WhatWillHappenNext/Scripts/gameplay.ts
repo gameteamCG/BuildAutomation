@@ -604,7 +604,7 @@ export default class NewClass extends cc.Component {
             this.canTouch = false;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
-            //this.destroyOption();
+            this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveFeedback(_node);
         }

@@ -554,7 +554,7 @@ var NewClass = /** @class */ (function (_super) {
             this.canTouch = false;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
-            //this.destroyOption();
+            this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveFeedback(_node);
         }
