@@ -15,22 +15,22 @@
     "questionData": [
       {
         "questionLayout": "layout1",
-        "questionBgName": "L1_bg.png",
+        "questionBgName": "newbg3.png",
         "questionAudioName": "british_9288238_1_identify-the-letter-e.mp3",
         "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
+        "isOptionText": true,
         "numberOfOptions": 4,
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "Gg",
+          "Ee",
+          "Hh",
+          "Ee"
         ],
         "optionsBg": [
-          "L1_1.png",
-          "L1_2.png",
-          "L1_3.png",
-          "L1_4.png"
+          "newAsset 1.png",
+          "newAsset 1.png",
+          "newAsset 1.png",
+          "newAsset 1.png"
         ],
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "ohoh.mp3",
@@ -42,22 +42,22 @@
       },
       {
         "questionLayout": "layout2",
-        "questionBgName": "L2_bg.png",
+        "questionBgName": "newbg1.png",
         "questionAudioName": "british_9288238_2_choose-the-uppercase-l.mp3",
         "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
+        "isOptionText": true,
         "numberOfOptions": 4,
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "E",
+          "H",
+          "E",
+          "D"
         ],
         "optionsBg": [
-          "L2_1.png",
-          "L2_2.png",
-          "L2_3.png",
-          "L2_4.png"
+          "newAsset 2.png",
+          "newAsset 2.png",
+          "newAsset 2.png",
+          "newAsset 2.png"
         ],
         "correctAudioName": "EXCELLENTJOB.mp3",
         "wrongAudioName": "nevermindtryagain.mp3",
@@ -69,30 +69,28 @@
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "L3_bg.png",
+        "questionBgName": "newbg2.png",
         "questionAudioName": "british_9288238_3_tap-on-the-lowercase-l.mp3",
         "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
-        "numberOfOptions": 4,
+        "isOptionText": true,
+        "numberOfOptions": 3,
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "e",
+          "g",
+          "h"
         ],
         "optionsBg": [
-          "L3_1.png",
-          "L3_2.png",
-          "L3_3.png",
-          "L3_4.png"
+          "newAsset 4.png",
+          "newAsset 4.png",
+          "newAsset 4.png"
         ],
-        "correctAudioName": "EXCEPTIONAL.mp3",
-        "wrongAudioName": "Oopsietryoncemore.mp3",
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "ohoh.mp3",
         "reiterationAudioName": [
           "",
           "british_535341-4-e-says_yIRZ4MRQ.mp3"
         ],
-        "correctAnswerNum": "23"
+        "correctAnswerNum": "1"
       },
       {
         "questionLayout": "layout3",

@@ -230,6 +230,10 @@ var Gameplay = /** @class */ (function (_super) {
                 var _loop_5 = function (i) {
                     _this.options.children[i].active = false;
                     _this.options.children[i].opacity = 255;
+                    if (StartGame_1.default.Instance.currentLevel == 3) {
+                        _this.options.children[i].getChildByName("text").x = 100;
+                        _this.options.children[i].getChildByName("text").y = 70;
+                    }
                     _this.options.setPosition(0, 0);
                     _this.scheduleOnce(function () {
                         var element = _this.options.children[i];
@@ -314,9 +318,18 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
-            for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+            if (StartGame_1.default.Instance.currentLevel == 3) {
+                var _laypout1posY = [-100, -100, -100, -100, -100];
+                var _laypout1posX = [-350, 50, 450, 600, 800];
+                for (var i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                }
+            }
+            else {
+                var _laypout1posY = [-150, 100, -100, 0, 50];
+                for (var i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                }
             }
         }
         _template.destroy();
@@ -477,17 +490,26 @@ var Gameplay = /** @class */ (function (_super) {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            node.getComponent(cc.Animation).stop();
+            node.angle = 0;
             this.correctCounter++;
-            var _clone = cc.instantiate(node);
-            _clone.parent = node;
-            _clone.setPosition(0, 0);
-            _clone.setParentWithSamePos(this.node);
-            _clone.children[0].active = true;
-            _clone.children[0].opacity = 0;
+            var _clone_2 = cc.instantiate(node);
+            _clone_2.parent = node;
+            _clone_2.setPosition(0, 0);
+            var _parentNode = this.node.getChildByName("basket").getChildByName("answered").getChildByName(this.correctCounter.toString());
+            _clone_2.setParentWithSamePos(_parentNode);
             node.active = false;
-            cc.tween(_clone.children[0])
-                .to(1, { opacity: 255 }, { easing: "sineInOut" })
-                .call(function () {
+            _clone_2.getComponent(cc.Animation).stop();
+            _clone_2.angle = 0;
+            var pos = _clone_2.getPosition();
+            cc.tween(_clone_2).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
+            if (StartGame_1.default.Instance.currentLevel == 4)
+                this.node.getChildByName("elephant").active = true;
+            else if (StartGame_1.default.Instance.currentLevel == 5)
+                this.node.getChildByName("egg2").active = true;
+            this.scheduleOnce(function () {
+                _clone_2.getComponent(cc.Animation).stop();
+                _clone_2.angle = 0;
                 if (_this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
                 }
@@ -496,19 +518,26 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 if (_this.correctCounter == _this.correctAnswer.length) {
                     console.log("all the options are answered correctly");
+                    cc.tween(_this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
+                    cc.tween(_this.node.getChildByName("elephant")).to(1, { x: -1500 }, { easing: "backInOut" }).start();
+                    cc.tween(_this.node.getChildByName("egg2")).to(1, { x: -1500 }, { easing: "backInOut" }).start();
                     _this.LoadNextQuestion();
                     // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
                 }
                 else {
                     _this.canTouch = true;
                 }
-            }).start();
+            }, 1);
+            // cc.tween(_clone)
+            //     .to(1, { x: 0, y: 0 }, { easing: "sineInOut" })
+            //     .call(() => {
+            //     }).start();
         }
         else {
+            //play negative audio
             // cc.audioEngine.playEffect(this.negative_audio, false);
             this.callNegativeRection();
             console.log("wrongAnswer--" + StartGame_1.default.Instance.currentLevel);
-            //play negative audio
             var posX = node.getPosition().x;
             cc.tween(node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE })
                 .to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).start();

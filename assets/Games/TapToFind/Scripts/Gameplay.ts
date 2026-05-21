@@ -216,6 +216,11 @@ export default class Gameplay extends cc.Component {
                 for (let i = 0; i < this.options.children.length; i++) {
                     this.options.children[i].active = false;
                     this.options.children[i].opacity = 255;
+                    if (startGame.Instance.currentLevel == 3) {
+                        this.options.children[i].getChildByName("text").x = 100;
+                        this.options.children[i].getChildByName("text").y = 70;
+                    }
+
                     this.options.setPosition(0, 0);
                     this.scheduleOnce(() => {
                         let element = this.options.children[i];
@@ -293,9 +298,19 @@ export default class Gameplay extends cc.Component {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
-            for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+
+            if (startGame.Instance.currentLevel == 3) {
+                let _laypout1posY: number[] = [-100, -100, -100, -100, -100];
+                let _laypout1posX: number[] = [-350, 50, 450, 600, 800];
+                for (let i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                }
+            }
+            else {
+                let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
+                for (let i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                }
             }
         }
         _template.destroy();
@@ -461,41 +476,60 @@ export default class Gameplay extends cc.Component {
                 break;
             }
         }
+
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            node.getComponent(cc.Animation).stop();
+            node.angle = 0;
             this.correctCounter++;
             let _clone: cc.Node = cc.instantiate(node);
             _clone.parent = node;
             _clone.setPosition(0, 0);
-            _clone.setParentWithSamePos(this.node);
-            _clone.children[0].active = true;
-            _clone.children[0].opacity = 0;
+            let _parentNode: cc.Node = this.node.getChildByName("basket").getChildByName("answered").getChildByName(this.correctCounter.toString());
+            _clone.setParentWithSamePos(_parentNode);
             node.active = false;
-            cc.tween(_clone.children[0])
-                .to(1, { opacity: 255 }, { easing: "sineInOut" })
-                .call(() => {
-                    if (this.reiterationAudio[audioNum]) {
-                        cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
-                    }
-                    else if (this.reiterationAudio[0]) {
-                        cc.audioEngine.playEffect(this.reiterationAudio[0], false);
-                    }
-                    if (this.correctCounter == this.correctAnswer.length) {
-                        console.log("all the options are answered correctly");
-                        this.LoadNextQuestion();
-                        // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
-                    }
-                    else {
-                        this.canTouch = true;
-                    }
-                }).start();
+            _clone.getComponent(cc.Animation).stop();
+            _clone.angle = 0;
+            let pos = _clone.getPosition();
+            cc.tween(_clone).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
+            if (startGame.Instance.currentLevel == 4)
+                this.node.getChildByName("elephant").active = true;
+            else if (startGame.Instance.currentLevel == 5)
+                this.node.getChildByName("egg2").active = true;
+
+            this.scheduleOnce(() => {
+                _clone.getComponent(cc.Animation).stop();
+                _clone.angle = 0;
+                if (this.reiterationAudio[audioNum]) {
+                    cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
+                }
+                else if (this.reiterationAudio[0]) {
+                    cc.audioEngine.playEffect(this.reiterationAudio[0], false);
+                }
+                if (this.correctCounter == this.correctAnswer.length) {
+                    console.log("all the options are answered correctly");
+                    cc.tween(this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
+                    cc.tween(this.node.getChildByName("elephant")).to(1, { x: -1500 }, { easing: "backInOut" }).start();
+                    cc.tween(this.node.getChildByName("egg2")).to(1, { x: -1500 }, { easing: "backInOut" }).start();
+                    this.LoadNextQuestion();
+                    // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
+                }
+                else {
+                    this.canTouch = true;
+                }
+            }, 1);
+            // cc.tween(_clone)
+            //     .to(1, { x: 0, y: 0 }, { easing: "sineInOut" })
+            //     .call(() => {
+
+            //     }).start();
         }
         else {
+            //play negative audio
             // cc.audioEngine.playEffect(this.negative_audio, false);
             this.callNegativeRection();
             console.log("wrongAnswer--" + startGame.Instance.currentLevel);
-            //play negative audio
             let posX = node.getPosition().x;
             cc.tween(node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE })
                 .to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).start();
