@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vil",
+    "texture": "3ff3aa16-255e-43ff-b9eb-7c34bcf29f1f",
+    "atlas": "",
+    "rect": [
+      56,
+      3,
+      138,
+      245
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
