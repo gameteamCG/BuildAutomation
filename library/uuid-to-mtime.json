@@ -1525,8 +1525,8 @@
     "relativePath": "Games\\TapToFind\\End\\Star.png"
   },
   "a61a3ac8-1115-4e8c-b5d1-dabafff190dd": {
-    "asset": 1779440194551,
-    "meta": 1779440194566,
+    "asset": 1779440602680,
+    "meta": 1779440602693,
     "relativePath": "Games\\TapToFind\\Scenes\\1.fire"
   },
   "02bf612b-abaf-4827-9882-4f6715868e4b": {
@@ -3115,8 +3115,8 @@
     "relativePath": "resources\\audios"
   },
   "b7e82b39-1803-4c32-9e65-d1cb36fd8817": {
-    "asset": 1779439063362,
-    "meta": 1779439160201,
+    "asset": 1779439703200,
+    "meta": 1779440367251,
     "relativePath": "resources\\images"
   },
   "37bbf211-b078-4933-8380-e837ce7acc0e": {
@@ -3454,14 +3454,24 @@
     "meta": 1779439703258,
     "relativePath": "resources\\images\\Artboard 1 copy 5 (1).png"
   },
+  "c5d72417-d6e9-4537-aa5e-b9f1cf74b3cd": {
+    "asset": 1779440399870,
+    "meta": 1779440399900,
+    "relativePath": "resources\\images\\question panel.png"
+  },
+  "4c228bc4-d61a-46c4-877a-69fe0fbd583f": {
+    "asset": 1779440399870,
+    "meta": 1779440399912,
+    "relativePath": "resources\\images\\vo.png"
+  },
   "574c0b36-8cc0-4dea-9fbd-5183c8df61a5": {
-    "asset": 1779439712740,
-    "meta": 1779439714473,
+    "asset": 1779440537738,
+    "meta": 1779440553658,
     "relativePath": "resources\\game_data.json"
   },
   "a9a04f52-469b-453f-91fb-ec2eba4f2e38": {
-    "asset": 1779440193274,
-    "meta": 1779440194450,
+    "asset": 1779440561552,
+    "meta": 1779440562266,
     "relativePath": "Games\\TapToFind\\Scripts\\Gameplay.ts"
   }
 }
