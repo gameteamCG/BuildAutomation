@@ -604,6 +604,8 @@ export default class NewClass extends cc.Component {
         if (iscorrect) {
             this.canTouch = false;
             cc.audioEngine.stopAllEffects();
+            console.log("-----------------", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].answerText);
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].answerText;
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             //this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
@@ -678,6 +680,7 @@ export default class NewClass extends cc.Component {
         switch (startGame.Instance.templateType) {
             case "SimpleTap":
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {

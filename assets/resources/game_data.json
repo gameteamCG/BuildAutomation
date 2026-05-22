@@ -11,7 +11,8 @@
   },
   "questionData": [
     {
-      "questionText": "Letters and sounds ie",
+      "questionText": "Digraph ee",
+      "answerText": "bees",
       "questionImageName": "hat.png",
       "questionAudioName": "CollectpictureswiththesoundE.mp3",
       "shouldPlayQuestionAudio": true,
@@ -31,7 +32,8 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Letters and sounds ie",
+      "questionText": "Digraph ee",
+      "answerText": "feed",
       "questionImageName": "hat.png",
       "questionAudioName": "CollectpictureswiththesoundE.mp3",
       "shouldPlayQuestionAudio": true,
@@ -51,7 +53,8 @@
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "Letters and sounds ie",
+      "questionText": "Digraph ee",
+      "answerText": "feet",
       "questionImageName": "hat.png",
       "questionAudioName": "CollectpictureswiththesoundE.mp3",
       "shouldPlayQuestionAudio": true,
@@ -71,7 +74,8 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Letters and sounds ie",
+      "questionText": "Digraph ee",
+      "answerText": "green",
       "questionImageName": "hat.png",
       "questionAudioName": "CollectpictureswiththesoundE.mp3",
       "shouldPlayQuestionAudio": true,
@@ -91,7 +95,8 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Letters and sounds ie",
+      "questionText": "Digraph ee",
+      "answerText": "jeep",
       "questionImageName": "hat.png",
       "questionAudioName": "CollectpictureswiththesoundE.mp3",
       "shouldPlayQuestionAudio": true,
@@ -111,7 +116,8 @@
       "correctAnswerNum": "4"
     },
     {
-      "questionText": "Letters and sounds ie",
+      "questionText": "Digraph ee",
+      "answerText": "queen",
       "questionImageName": "hat.png",
       "questionAudioName": "CollectpictureswiththesoundE.mp3",
       "shouldPlayQuestionAudio": true,
@@ -131,7 +137,8 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Letters and sounds ie",
+      "questionText": "Digraph ee",
+      "answerText": "seed",
       "questionImageName": "hat.png",
       "questionAudioName": "CollectpictureswiththesoundE.mp3",
       "shouldPlayQuestionAudio": true,
@@ -151,7 +158,8 @@
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "Letters and sounds ie",
+      "questionText": "Digraph ee",
+      "answerText": "tree",
       "questionImageName": "hat.png",
       "questionAudioName": "CollectpictureswiththesoundE.mp3",
       "shouldPlayQuestionAudio": true,
@@ -171,7 +179,8 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Letters and sounds ie",
+      "questionText": "Digraph ee",
+      "answerText": "sheep",
       "questionImageName": "hat.png",
       "questionAudioName": "CollectpictureswiththesoundE.mp3",
       "shouldPlayQuestionAudio": true,
@@ -191,7 +200,8 @@
       "correctAnswerNum": "4"
     },
     {
-      "questionText": "Letters and sounds ie",
+      "questionText": "Digraph ee",
+      "answerText": "sleep",
       "questionImageName": "hat.png",
       "questionAudioName": "CollectpictureswiththesoundE.mp3",
       "shouldPlayQuestionAudio": true,
@@ -211,7 +221,8 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Letters and sounds ie",
+      "questionText": "Digraph ee",
+      "answerText": "teeth",
       "questionImageName": "hat.png",
       "questionAudioName": "CollectpictureswiththesoundE.mp3",
       "shouldPlayQuestionAudio": true,
@@ -231,7 +242,8 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Letters and sounds ie",
+      "questionText": "Digraph ee",
+      "answerText": "wheel",
       "questionImageName": "hat.png",
       "questionAudioName": "CollectpictureswiththesoundE.mp3",
       "shouldPlayQuestionAudio": true,

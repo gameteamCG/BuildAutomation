@@ -553,6 +553,8 @@ var NewClass = /** @class */ (function (_super) {
         if (iscorrect) {
             this.canTouch = false;
             cc.audioEngine.stopAllEffects();
+            console.log("-----------------", StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].answerText);
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].answerText;
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
             //this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
