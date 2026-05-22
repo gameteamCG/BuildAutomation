@@ -3090,9 +3090,30 @@
     "negative_audio": {
       "__uuid__": "f85ba194-a1c6-4989-8407-5a0b353d8529"
     },
-    "questionvo": {
-      "__uuid__": "27bb45c8-e2f9-4a7f-9544-bd23b3e3c5ee"
-    },
+    "questionvo": [
+      {
+        "__uuid__": "d89ccbee-0669-4528-a47b-4117b168fe3d"
+      },
+      {
+        "__uuid__": "d89ccbee-0669-4528-a47b-4117b168fe3d"
+      },
+      {
+        "__uuid__": "f6b584f3-118c-491f-9fb2-65d0be3261cf"
+      },
+      {
+        "__uuid__": "8ac99484-320c-4c7c-8987-c25c8b19a911"
+      },
+      {
+        "__uuid__": "4ad026e7-303a-4c23-9859-5efb8991bed2"
+      },
+      {
+        "__uuid__": "2773c709-4589-4f41-af26-1c6f8874ec76"
+      },
+      {
+        "__uuid__": "f970c36e-e0ec-4268-a02d-9360d80898da"
+      },
+      null
+    ],
     "_id": "1eLb3fv5xBood9rsHUrTmd"
   },
   {

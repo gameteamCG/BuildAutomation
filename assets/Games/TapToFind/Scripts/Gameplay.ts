@@ -52,7 +52,7 @@ export default class Gameplay extends cc.Component {
 
     currentJockey: cc.Node = null;
     @property(cc.AudioClip)
-    private questionvo: cc.AudioClip = null;
+    private questionvo: cc.AudioClip[] = [];
     maxLevel: number = 0;
     // LIFE-CYCLE CALLBACKS:
 
@@ -783,11 +783,11 @@ export default class Gameplay extends cc.Component {
     playQuestionsound() {
         this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
         cc.audioEngine.stopAllEffects();
-        cc.audioEngine.playEffect(this.questionvo, false);
+        cc.audioEngine.playEffect(this.questionvo[startGame.Instance.currentLevel], false);
         this.scheduleOnce(() => {
             this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
 
-        }, this.questionvo.duration + 0.1);
+        }, this.questionvo[startGame.Instance.currentLevel].duration + 0.1);
     }
 
 }

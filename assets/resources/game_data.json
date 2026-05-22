@@ -11,7 +11,7 @@
     {
       "questionLayout": "layout1",
       "questionBgName": "Artboard 1 copy 4.png",
-      "questionAudioName": "Que.mp3",
+      "questionAudioName": "tap on all the pumpkins with the letter sound p.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
       "numberOfOptions": 4,
@@ -30,15 +30,15 @@
       "correctAudioName": "positive_1.mp3",
       "wrongAudioName": "negative_1.mp3",
       "reiterationAudioName": [
-        "P SAYS PP.mp3",
-        "P SAYS PP.mp3"
+        "newP SAYS PP.mp3",
+        "newP SAYS PP.mp3"
       ],
       "correctAnswerNum": "24"
     },
     {
       "questionLayout": "layout2",
       "questionBgName": "bg2-bg6.png",
-      "questionAudioName": "Que.mp3",
+      "questionAudioName": "tap on all the pairs with the letter sound p.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 4,
@@ -57,15 +57,15 @@
       "correctAudioName": "positive_2.mp3",
       "wrongAudioName": "negative_2.mp3",
       "reiterationAudioName": [
-        "P SAYS PP.mp3",
-        "P SAYS PP.mp3"
+        "newP SAYS PP.mp3",
+        "newP SAYS PP.mp3"
       ],
       "correctAnswerNum": "14"
     },
     {
       "questionLayout": "layout1",
       "questionBgName": "Artboard 1 copy 4.png",
-      "questionAudioName": "Que.mp3",
+      "questionAudioName": "tap on all the potatoes with the letter sound p.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
       "numberOfOptions": 4,
@@ -84,15 +84,15 @@
       "correctAudioName": "positive_3.mp3",
       "wrongAudioName": "negative_1.mp3",
       "reiterationAudioName": [
-        "P SAYS PP.mp3",
-        "P SAYS PP.mp3"
+        "newP SAYS PP.mp3",
+        "newP SAYS PP.mp3"
       ],
       "correctAnswerNum": "13"
     },
     {
       "questionLayout": "layout1",
       "questionBgName": "Artboard 4 copy.png",
-      "questionAudioName": "Que.mp3",
+      "questionAudioName": "tap on all the pan-das with the letter sound p.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 4,
@@ -111,15 +111,15 @@
       "correctAudioName": "positive_4.mp3",
       "wrongAudioName": "negative_2.mp3",
       "reiterationAudioName": [
-        "P SAYS PP.mp3",
-        "P SAYS PP.mp3"
+        "newP SAYS PP.mp3",
+        "newP SAYS PP.mp3"
       ],
       "correctAnswerNum": "34"
     },
     {
       "questionLayout": "layout1",
       "questionBgName": "Artboard 1 copy 5 (1).png",
-      "questionAudioName": "Que.mp3",
+      "questionAudioName": "tap on all the penguins with the letter sound p.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
       "numberOfOptions": 4,
@@ -138,15 +138,15 @@
       "correctAudioName": "positive_5.mp3",
       "wrongAudioName": "negative_1.mp3",
       "reiterationAudioName": [
-        "P SAYS PP.mp3",
-        "P SAYS PP.mp3"
+        "newP SAYS PP.mp3",
+        "newP SAYS PP.mp3"
       ],
       "correctAnswerNum": "14"
     },
     {
       "questionLayout": "layout1",
       "questionBgName": "Artboard 1 copy 4.png",
-      "questionAudioName": "Que.mp3",
+      "questionAudioName": "tap on all the parrots with the letter sound pp.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 4,
@@ -165,7 +165,7 @@
       "correctAudioName": "positive_6.mp3",
       "wrongAudioName": "negative_2.mp3",
       "reiterationAudioName": [
-        "P SAYS PP.mp3"
+        "newP SAYS PP.mp3"
       ],
       "correctAnswerNum": "23"
     }
