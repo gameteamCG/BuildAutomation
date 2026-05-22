@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\EYFS\\FS2_New\\Matching_half_fs2_new_r424",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

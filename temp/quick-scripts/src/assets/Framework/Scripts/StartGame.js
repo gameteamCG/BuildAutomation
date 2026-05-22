@@ -41,7 +41,6 @@ var startGame = /** @class */ (function (_super) {
         _this.isAgeParameterNeeded = true;
         _this.LevelAgeParameters = [3, 5, 7];
         _this.isMusicOn = true;
-        _this.playBtn_audio = null;
         _this.levelType = "1";
         _this.currentLevel = "1";
         _this.hasAccess = false;
@@ -57,6 +56,7 @@ var startGame = /** @class */ (function (_super) {
         _this.firstClick = 1;
         _this.clickEvent = false;
         _this.totalLevels = 7;
+        _this.playBtn_audio = null;
         // currentHealth: number = 10;
         _this.timer = 0;
         _this.isLoaded = false;
@@ -67,6 +67,8 @@ var startGame = /** @class */ (function (_super) {
         // private totalLevels: string = "";
         _this.titleImageName = "";
         _this.jockeyName = "";
+        _this.templateType = "";
+        _this.optionLayout = "horizontal";
         _this.questions = [];
         return _this;
         // blobToDataURL(blobUrl, callback) {
@@ -136,16 +138,6 @@ var startGame = /** @class */ (function (_super) {
     };
     startGame.prototype.updateJSONdata = function () {
         var _this = this;
-        // this.scheduleOnce(() => {
-        //     cc.loader.load("https://s3.ap-south-1.amazonaws.com/cgv2-prod-images.creativegalileo.com/HybridLZAssets/BTN-bg-orange.png", (err, texture) => {
-        //         if (err) {
-        //             console.error("Failed to load image:", err);
-        //             return;
-        //         }
-        //         const spriteFrame = new cc.SpriteFrame(texture);
-        //         cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-        //     });
-        // }, 1);
         if (this.isDemoGame) {
             var urlParams = new URLSearchParams(window.location.search);
             // Get the 'json' parameter value from the URL
@@ -160,6 +152,9 @@ var startGame = /** @class */ (function (_super) {
             this.totalLevels = parseInt(levelCount);
             this.titleImageName = jsonData.additionalData.TitleImageName;
             this.jockeyName = jsonData.additionalData.JockeyName;
+            this.optionLayout = jsonData.additionalData.optionLayout;
+            this.templateType = jsonData.additionalData.templateType;
+            //console.log("optionLayout @@@@@@@@@@@@@@@@ = ", this.optionLayout);
             // Assign question data to the variable
             this.questions = jsonData.questionData;
             console.log("BGM music name = ", jsonData.additionalData.bgmMusicName);
@@ -197,11 +192,13 @@ var startGame = /** @class */ (function (_super) {
                 var spriteFrame = new cc.SpriteFrame(texture);
                 _this.mainBg = spriteFrame;
             });
-            this.questions.forEach(function (question) {
-                question.questionImageName = question.questionImageName;
-                // question.option1ImageName = question.option1ImageName
-                // question.option2ImageName = question.option2ImageName
-            });
+            if (this.templateType != "SimpleTap") {
+                this.questions.forEach(function (question) {
+                    question.questionImageName = question.questionImageName;
+                    // question.option1ImageName = question.option1ImageName
+                    // question.option2ImageName = question.option2ImageName
+                });
+            }
             // Now you can use these variables within this script
             // this.logData();
         }
@@ -218,6 +215,8 @@ var startGame = /** @class */ (function (_super) {
                 _this.totalLevels = parseInt(levelCount);
                 _this.titleImageName = jsonData.additionalData.TitleImageName;
                 _this.jockeyName = jsonData.additionalData.JockeyName;
+                _this.optionLayout = jsonData.additionalData.optionLayout;
+                _this.templateType = jsonData.additionalData.templateType;
                 // Assign question data to the variable
                 _this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
@@ -237,7 +236,9 @@ var startGame = /** @class */ (function (_super) {
                     _this.mainBg = spriteFrame;
                 });
                 _this.questions.forEach(function (question) {
-                    question.questionImageName = _this.removeExtension(question.questionImageName);
+                    if (_this.templateType != "SimpleTap") {
+                        question.questionImageName = _this.removeExtension(question.questionImageName);
+                    }
                     question.commonOptionImageName = _this.removeExtension(question.commonOptionImageName);
                     question.options = question.options.map(function (option) { return _this.removeExtension(option); });
                     // question.option1ImageName = this.removeExtension(question.option1ImageName);
@@ -264,10 +265,11 @@ var startGame = /** @class */ (function (_super) {
             console.log("It is a demo game");
         }
         this.updateJSONdata();
-        if (premium != null) {
-            this.premiumLevel = parseInt(premium);
-        }
+        this.NextSceneName = "1";
         globalVariables_1.default.Instance.currentLevel = 1;
+        // if (premium != null) {
+        //     this.premiumLevel = parseInt(premium);
+        // }
         // if (level != null) {
         //     this.NextSceneName = level;
         //     globalVariables.Instance.currentLevel = parseInt(this.NextSceneName);
@@ -375,6 +377,8 @@ var startGame = /** @class */ (function (_super) {
         _event.target.getComponent(cc.Button).interactable = false;
         cc.audioEngine.playEffect(this.playBtn_audio, false);
         cc.director.loadScene("1");
+        _event.target.active = false;
+        _event.target.parent.getChildByName("loading").active = true;
     };
     startGame.prototype.OnBack = function () {
         console.log("gameExit--true");
@@ -426,9 +430,6 @@ var startGame = /** @class */ (function (_super) {
         property(Number)
     ], startGame.prototype, "LevelAgeParameters", void 0);
     __decorate([
-        property(cc.AudioClip)
-    ], startGame.prototype, "playBtn_audio", void 0);
-    __decorate([
         property(Boolean)
     ], startGame.prototype, "isPremiumGame", void 0);
     __decorate([
@@ -443,6 +444,9 @@ var startGame = /** @class */ (function (_super) {
     __decorate([
         property(Number)
     ], startGame.prototype, "totalLevels", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], startGame.prototype, "playBtn_audio", void 0);
     startGame = startGame_1 = __decorate([
         ccclass
     ], startGame);

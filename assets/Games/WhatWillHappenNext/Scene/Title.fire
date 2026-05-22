@@ -446,7 +446,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        31.498,
         -60,
         0,
         0,
@@ -2853,9 +2853,6 @@
     "NextSceneName": "1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [],
-    "playBtn_audio": {
-      "__uuid__": "1b2d7472-275a-4955-a286-f66f90599ebe"
-    },
     "isPremiumGame": false,
     "isMobileNumberPriority": false,
     "premiumLevel": 0,
@@ -2863,6 +2860,9 @@
       "__id__": 57
     },
     "totalLevels": 7,
+    "playBtn_audio": {
+      "__uuid__": "1b2d7472-275a-4955-a286-f66f90599ebe"
+    },
     "_id": "084Fq54/FDVaDDj+BDSytU"
   },
   {
