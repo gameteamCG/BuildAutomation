@@ -10,22 +10,22 @@
   "questionData": [
     {
       "questionLayout": "layout1",
-      "questionBgName": "l1bg.png",
+      "questionBgName": "newbg1 (3).png",
       "questionAudioName": "british_9287111_1_identify-the-letter-z.mp3",
       "shouldPlayQuestionAudio": true,
-      "isOptionText": false,
+      "isOptionText": true,
       "numberOfOptions": 4,
       "options": [
-        "",
-        "",
-        "",
-        ""
+        "Zz",
+        "Xx",
+        "Yy",
+        "Zz"
       ],
       "optionsBg": [
-        "ballonzz.png",
-        "ballonxx.png",
-        "ballonzz.png",
-        "ballonyy.png"
+        "newArtboard 3 copy 2 (2).png",
+        "newArtboard 3 copy (3).png",
+        "newArtboard 3 copy 2 (2).png",
+        "newArtboard 3 copy (3).png"
       ],
       "correctAudioName": "EXCELLENTJOB.mp3",
       "wrongAudioName": "nevermindtryagain.mp3",
@@ -33,24 +33,24 @@
         "british_535341-25-z-says_cjIt8uMK.mp3",
         "british_535341-25-z-says_cjIt8uMK.mp3"
       ],
-      "correctAnswerNum": "13"
+      "correctAnswerNum": "14"
     },
     {
       "questionLayout": "layout1",
-      "questionBgName": "l1bg.png",
+      "questionBgName": "newbg2 (1).png",
       "questionAudioName": "british_9287111_3_tap-on-the-uppercase-l.mp3",
       "shouldPlayQuestionAudio": true,
-      "isOptionText": false,
+      "isOptionText": true,
       "numberOfOptions": 3,
       "options": [
-        "",
-        "",
-        ""
+        "Z",
+        "X",
+        "Z"
       ],
       "optionsBg": [
-        "kitez.png",
-        "kitex.png",
-        "kitez.png"
+        "newArtboard 3 (6).png",
+        "newArtboard 3 (6).png",
+        "newArtboard 3 (6).png"
       ],
       "correctAudioName": "EXCEPTIONAL.mp3",
       "wrongAudioName": "ohoh.mp3",
@@ -62,20 +62,20 @@
     },
     {
       "questionLayout": "layout1",
-      "questionBgName": "l1bg.png",
+      "questionBgName": "newbg3 (1).png",
       "questionAudioName": "british_9287111_4_tap-on-the-lowercase-l.mp3",
       "shouldPlayQuestionAudio": true,
-      "isOptionText": false,
+      "isOptionText": true,
       "numberOfOptions": 3,
       "options": [
-        "",
-        "",
-        ""
+        "k",
+        "z",
+        "z"
       ],
       "optionsBg": [
-        "zzz.png",
-        "kkkkkk.png",
-        "zzz.png"
+        "newArtboard 3 copy 3 (2).png",
+        "newArtboard 3 copy 3 (2).png",
+        "newArtboard 3 copy 3 (2).png"
       ],
       "correctAudioName": "GOODEFFORT.mp3",
       "wrongAudioName": "Oopsietryoncemore.mp3",
@@ -83,7 +83,7 @@
         "british_535341-25-z-says_cjIt8uMK.mp3",
         "british_535341-25-z-says_cjIt8uMK.mp3"
       ],
-      "correctAnswerNum": "13"
+      "correctAnswerNum": "23"
     },
     {
       "questionLayout": "layout3",

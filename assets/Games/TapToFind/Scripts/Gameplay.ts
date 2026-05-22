@@ -52,6 +52,8 @@ export default class Gameplay extends cc.Component {
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
     // LIFE-CYCLE CALLBACKS:
+    @property(cc.AudioClip)
+    private Questionvo: cc.AudioClip[] = [];
 
     onLoad() {
         // this.options = this.node.getChildByName(this.optionsLayout);
@@ -215,6 +217,11 @@ export default class Gameplay extends cc.Component {
                 for (let i = 0; i < this.options.children.length; i++) {
                     this.options.children[i].active = false;
                     this.options.children[i].opacity = 255;
+                    this.options.children[i].scale = 0.8;
+                    if (startGame.Instance.currentLevel == 2)
+                        this.options.children[i].children[0].color = cc.Color.WHITE;
+                    if (startGame.Instance.currentLevel == 3)
+                        this.options.children[i].children[0].y = 80;
                     this.options.setPosition(0, 0);
                     this.scheduleOnce(() => {
                         let element = this.options.children[i];
@@ -291,10 +298,19 @@ export default class Gameplay extends cc.Component {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
-            for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+            if (startGame.Instance.currentLevel == 1) {
+                let _laypout1posY: number[] = [-150, 100, -100, 180, 200];
+                for (let i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                }
             }
+            else if (startGame.Instance.currentLevel == 2 || startGame.Instance.currentLevel == 3) {
+                let _laypout1posY: number[] = [-250, -50, -250, 180, 200];
+                for (let i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                }
+            }
+
         }
         _template.destroy();
 
@@ -756,4 +772,14 @@ export default class Gameplay extends cc.Component {
             callback(audioClip);
         });
     }
+    playQuestionsound() {
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.Questionvo[startGame.Instance.currentLevel], false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
+        }, this.Questionvo[startGame.Instance.currentLevel].duration + 0.1);
+    }
+
 }

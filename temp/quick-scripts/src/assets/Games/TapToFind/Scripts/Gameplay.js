@@ -57,9 +57,10 @@ var Gameplay = /** @class */ (function (_super) {
         _this.reiterationAudio = [];
         _this.currentJockey = null;
         _this.maxLevel = 0;
+        // LIFE-CYCLE CALLBACKS:
+        _this.Questionvo = [];
         return _this;
     }
-    // LIFE-CYCLE CALLBACKS:
     Gameplay.prototype.onLoad = function () {
         // this.options = this.node.getChildByName(this.optionsLayout);
         // this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
@@ -229,6 +230,11 @@ var Gameplay = /** @class */ (function (_super) {
                 var _loop_5 = function (i) {
                     _this.options.children[i].active = false;
                     _this.options.children[i].opacity = 255;
+                    _this.options.children[i].scale = 0.8;
+                    if (StartGame_1.default.Instance.currentLevel == 2)
+                        _this.options.children[i].children[0].color = cc.Color.WHITE;
+                    if (StartGame_1.default.Instance.currentLevel == 3)
+                        _this.options.children[i].children[0].y = 80;
                     _this.options.setPosition(0, 0);
                     _this.scheduleOnce(function () {
                         var element = _this.options.children[i];
@@ -312,9 +318,17 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
-            for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+            if (StartGame_1.default.Instance.currentLevel == 1) {
+                var _laypout1posY = [-150, 100, -100, 180, 200];
+                for (var i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                }
+            }
+            else if (StartGame_1.default.Instance.currentLevel == 2 || StartGame_1.default.Instance.currentLevel == 3) {
+                var _laypout1posY = [-250, -50, -250, 180, 200];
+                for (var i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                }
             }
         }
         _template.destroy();
@@ -754,6 +768,15 @@ var Gameplay = /** @class */ (function (_super) {
             callback(audioClip);
         });
     };
+    Gameplay.prototype.playQuestionsound = function () {
+        var _this = this;
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.Questionvo[StartGame_1.default.Instance.currentLevel], false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.Questionvo[StartGame_1.default.Instance.currentLevel].duration + 0.1);
+    };
     __decorate([
         property(cc.Font)
     ], Gameplay.prototype, "podar_font", void 0);
@@ -781,6 +804,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_audio", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "Questionvo", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);
