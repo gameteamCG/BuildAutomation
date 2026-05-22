@@ -288,7 +288,7 @@
       }
     ],
     "_prefab": null,
-    "_opacity": 255,
+    "_opacity": 0,
     "_color": {
       "__type__": "cc.Color",
       "r": 255,
@@ -342,7 +342,7 @@
     "node": {
       "__id__": 5
     },
-    "_enabled": true,
+    "_enabled": false,
     "_resourceType": 0,
     "_remoteURL": "https://s3.ap-south-1.amazonaws.com/cgvideos.creativegalileo.com/KTB_Videos/Jaipuria/PT_LV_44_FruitsSong_V2.mp4",
     "_clip": {
@@ -6524,7 +6524,7 @@
         "__id__": 139
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 141

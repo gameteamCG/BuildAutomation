@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "curtainAnim0",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.1666666666666667,
+  "sample": 6,
+  "speed": 0.8,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "d20c1fcd-b36f-4b3d-b7c9-a810eb246ff5"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "6f0cfb34-044b-49a3-97b9-beadf8d5b67b"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "a7dec756-5811-4257-87c1-5a2e1887eca7"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "756eb582-2ef2-4af6-a0eb-752b4339583c"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "6b549c80-fa7f-412c-b792-2f81a9d2aa59"
+            }
+          },
+          {
+            "frame": 0.8333333333333334,
+            "value": {
+              "__uuid__": "60e33401-6cad-4245-af4a-822737789f53"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "b82b6c5c-c78d-4587-a094-e4229ee2cae3"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

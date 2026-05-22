@@ -96,7 +96,7 @@ var video = /** @class */ (function (_super) {
         _this.canNextQuestion = true;
         _this.attemps = 0;
         _this.videoCompleted = false;
-        _this.gameStarted = false;
+        _this.gameStarted = true;
         _this.correctAnim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         _this.wrongAnim = ["negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3"];
         _this.puzzleCorrectAnim = ["positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3"];
@@ -109,18 +109,19 @@ var video = /** @class */ (function (_super) {
     }
     // LIFE-CYCLE CALLBACKS:
     video.prototype.onLoad = function () {
-        var _this = this;
+        console.log("video onload");
+        this.node.getComponent(cc.VideoPlayer).stop();
         this.UpdateQuestions();
         this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).active = true;
-        this.scheduleOnce(function () {
-            for (var i = 0; i < _this.questions.length; i++) {
-                _this.timers[i] = _this.questions[i].questionTime;
-                console.log("question timer = ", _this.timers[i]);
-                _this.totalQuestions++;
-                _this.questionAppeared[i] = false;
-                _this.answeredQuestion[i] = false;
-            }
-        }, 1);
+        console.log("this.questions.length ::", this.questions.length);
+        for (var i = 0; i < this.questions.length; i++) {
+            this.timers[i] = this.questions[i].questionTime;
+            console.log("question timer = ", this.timers[i]);
+            this.totalQuestions++;
+            this.questionAppeared[i] = false;
+            this.answeredQuestion[i] = false;
+            console.log("this.questionAppeared :::::::::", this.questionAppeared);
+        }
         this.slider.children[2].on("touchstart", function () {
             this.isSliding = false;
             this.isOnSlider = true;
@@ -149,6 +150,7 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.UpdateQuestions = function () {
         var _this = this;
+        console.log("UpdateQuestions ::");
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             this.questionNode.getChildByName("options1").children.forEach(function (element) {
@@ -174,6 +176,7 @@ var video = /** @class */ (function (_super) {
             });
         }
         var _loop_1 = function (i) {
+            console.log("startGame.Instance.TotalLevels", StartGame_1.default.Instance.TotalLevels);
             this_1.questions[i] = new QuestionData();
             this_1.questions[i].questionTime = parseInt(StartGame_1.default.Instance.questions[i].QuestionAppearTime);
             this_1.questions[i].isoptionText = StartGame_1.default.Instance.questions[i].IsOptionText;
@@ -280,7 +283,11 @@ var video = /** @class */ (function (_super) {
         }
     };
     video.prototype.start = function () {
-        this.playVideo1();
+        var _this = this;
+        console.log("video start");
+        this.scheduleOnce(function () {
+            _this.playVideo1();
+        }, 0.5);
         console.log("starsEarned--1");
         for (var i = 2; i <= StartGame_1.default.Instance.questions.length; i++) {
             var star = cc.instantiate(this.starsPanel.children[0]);
@@ -304,17 +311,20 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.playVideo1 = function () {
         var _this = this;
-        this.node.on('completed', function () {
-            if (this.gameStarted) {
-                this.checkOnMissingQuestions();
-                console.log("starsEarned--2");
-                console.log("video completed");
-                this.tools.active = false;
-                this.videoCompleted = true;
-            }
-            // cc.director.loadScene("1");
-            // this.node.destroy();
-        }, this);
+        console.log("playVideo1 ::::::::::::");
+        // this.node.on('completed', function () {
+        console.log("playVideo2 ::::::::::::");
+        if (this.gameStarted) {
+            this.checkOnMissingQuestions();
+            console.log("checkOnMissingQuestions 1");
+            console.log("starsEarned--2");
+            console.log("video completed");
+            this.tools.active = false;
+            this.videoCompleted = true;
+        }
+        // cc.director.loadScene("1");
+        // this.node.destroy();
+        // }, this);
         this.node.on('playing', function () {
             var _this = this;
             this.isPlay = true;
@@ -490,6 +500,7 @@ var video = /** @class */ (function (_super) {
                     _this.canNextQuestion = true;
                     if (_this.videoCompleted) {
                         _this.checkOnMissingQuestions();
+                        console.log("checkOnMissingQuestions 2");
                     }
                     else {
                         _this.ResumePlayButton();
@@ -524,6 +535,7 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.checkOnMissingQuestions = function () {
         var _this = this;
+        console.log("this.questionAppeared.length ::::", this.questionAppeared.length);
         var isEnd = true;
         for (var i = 0; i < this.questionAppeared.length; i++) {
             if (!this.questionAppeared[i]) {
@@ -565,6 +577,7 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.questionSetup = function () {
         var _this = this;
+        console.log("questionSetup :::::::::");
         var current = this.currentQuestion;
         this.starUpdate(this.currentQuestion);
         // this.character.getComponent(cc.Animation).play("tweenIn");
@@ -584,7 +597,9 @@ var video = /** @class */ (function (_super) {
             this.questionNode.getChildByName("questionBox").getChildByName("img").active = true;
             this.questionNode.getChildByName("questionBox").getChildByName("img").getComponent(cc.Sprite).spriteFrame = this.questions[this.currentQuestion].questionImg;
         }
+        console.log("############", this.questions[this.currentQuestion].isoptionText);
         if (this.questions[this.currentQuestion].isoptionText) {
+            console.log("11111111111111111");
             var i_1 = 0;
             this.questionNode.getChildByName("options1").children.forEach(function (element) {
                 element.active = false;
@@ -598,14 +613,17 @@ var video = /** @class */ (function (_super) {
             });
         }
         else {
+            console.log("222222222222222222");
             var i_2 = 0;
             this.questionNode.getChildByName("options1").children.forEach(function (element) {
                 element.active = false;
+                console.log("element ::::::::::::::", _this.currentQuestion, _this.questions[_this.currentQuestion].optionImgs.length);
                 if (i_2 <= (_this.questions[_this.currentQuestion].optionImgs.length - 1)) {
                     element.active = true;
                     element.getChildByName("img").getComponent(cc.Sprite).spriteFrame = _this.questions[_this.currentQuestion].optionImgs[i_2];
                     element.getChildByName("text").active = false;
                     element.getChildByName("img").active = true;
+                    console.log("element ::::::::::::::", element);
                 }
                 i_2++;
             });
@@ -616,6 +634,7 @@ var video = /** @class */ (function (_super) {
             _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             _this.questionNode.getChildByName("options1").active = true;
             _this.questionNode.getChildByName("questionBox").active = true;
+            console.log(_this.questionNode.getChildByName("options1"), "&&&&&");
         }, 0.5);
     };
     video.prototype.update = function () {
