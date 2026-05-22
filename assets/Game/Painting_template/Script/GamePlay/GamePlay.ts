@@ -243,7 +243,7 @@ export default class GamePlay extends cc.Component {
             cc.tween(this.node.getChildByName("image")).to(0.5, { opacity: 0 }, { easing: "sineInOut" })
                 .to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
             cc.tween(this.node.getChildByName("image")).to(0.5, { scale: 0 }, { easing: "sineInOut" })
-                .to(0.5, { scale: 0.75 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.5 }, { easing: "sineInOut" }).start();
             cc.tween(this.questionNode).to(0.5, { y: this.Ypos }, { easing: "sineInOut" }).start();
 
             if (this.currentLevel < this.totalLevels) {

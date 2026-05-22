@@ -245,7 +245,7 @@ var GamePlay = /** @class */ (function (_super) {
             cc.tween(_this.node.getChildByName("image")).to(0.5, { opacity: 0 }, { easing: "sineInOut" })
                 .to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
             cc.tween(_this.node.getChildByName("image")).to(0.5, { scale: 0 }, { easing: "sineInOut" })
-                .to(0.5, { scale: 0.75 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.5 }, { easing: "sineInOut" }).start();
             cc.tween(_this.questionNode).to(0.5, { y: _this.Ypos }, { easing: "sineInOut" }).start();
             if (_this.currentLevel < _this.totalLevels) {
                 console.log("levelStarted--" + (_this.currentLevel + 1));
