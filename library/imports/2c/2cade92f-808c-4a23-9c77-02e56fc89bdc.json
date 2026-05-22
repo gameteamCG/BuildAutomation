@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "Join the dots in the correct number sequence and colour the camel.",
+        "questionText": "Camel",
         "questionImageName": "blankk.png",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
@@ -25,7 +25,7 @@
         "correctAudioName": "1.mp3"
       },
       {
-        "questionText": "Join the dots in the correct number sequence and colour the camel.",
+        "questionText": "Camel",
         "questionImageName": "blankk.png",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
@@ -34,7 +34,7 @@
         "correctAudioName": "1.mp3"
       },
       {
-        "questionText": "Join the dots in the correct number sequence and colour the camel.",
+        "questionText": "Camel",
         "questionImageName": "blankk.png",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
@@ -43,7 +43,7 @@
         "correctAudioName": "1.mp3"
       },
       {
-        "questionText": "Join the dots in the correct number sequence and colour the camel.",
+        "questionText": "Camel",
         "questionImageName": "blankk.png",
         "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,

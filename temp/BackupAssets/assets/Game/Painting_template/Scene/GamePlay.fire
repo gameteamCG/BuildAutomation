@@ -10334,7 +10334,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 500,
-      "height": 46.62
+      "height": 88.2
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10387,8 +10387,8 @@
     "_dstBlendFactor": 771,
     "_string": "question",
     "_N$string": "question",
-    "_fontSize": 35,
-    "_lineHeight": 37,
+    "_fontSize": 60,
+    "_lineHeight": 70,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "f525e1ef-1d42-4074-8f14-3f74b0187d92"
