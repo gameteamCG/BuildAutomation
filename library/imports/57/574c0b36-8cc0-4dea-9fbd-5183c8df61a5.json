@@ -35,8 +35,8 @@
         "correctAudioName": "positive_1.mp3",
         "wrongAudioName": "negative_1.mp3",
         "reiterationAudioName": [
-          "p pumpkin.mp3",
-          "p pumpkin.mp3"
+          "P SAYS PP.mp3",
+          "P SAYS PP.mp3"
         ],
         "correctAnswerNum": "24"
       },
@@ -62,8 +62,8 @@
         "correctAudioName": "positive_2.mp3",
         "wrongAudioName": "negative_2.mp3",
         "reiterationAudioName": [
-          "p pear.mp3",
-          "p pear.mp3"
+          "P SAYS PP.mp3",
+          "P SAYS PP.mp3"
         ],
         "correctAnswerNum": "14"
       },
@@ -81,10 +81,10 @@
           ""
         ],
         "optionsBg": [
-          "Artboard 6 copy 2.png",
-          "Artboard 7 copy 2.png",
-          "Artboard 6 copy 2.png",
-          "Artboard 8 copy 2.png"
+          "newArtboard 6 copy 2.png",
+          "newArtboard 8 copy 2.png",
+          "newArtboard 6 copy 2.png",
+          "newArtboard 7 copy 2.png"
         ],
         "correctAudioName": "positive_3.mp3",
         "wrongAudioName": "negative_1.mp3",
@@ -123,7 +123,7 @@
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "Artboard 1 copy 5.png",
+        "questionBgName": "Artboard 1 copy 5 (1).png",
         "questionAudioName": "Que.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": true,
@@ -143,8 +143,8 @@
         "correctAudioName": "positive_5.mp3",
         "wrongAudioName": "negative_1.mp3",
         "reiterationAudioName": [
-          "p penguin.mp3",
-          "p penguin.mp3"
+          "P SAYS PP.mp3",
+          "P SAYS PP.mp3"
         ],
         "correctAnswerNum": "14"
       },

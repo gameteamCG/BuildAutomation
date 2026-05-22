@@ -30,7 +30,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 // import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
@@ -313,9 +313,23 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
-            for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+            if (StartGame_1.default.Instance.currentLevel == 3) {
+                var _laypout1posY = [-150, -50, -100, -150, 50];
+                for (var i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                }
+            }
+            else if (StartGame_1.default.Instance.currentLevel == 5) {
+                var _laypout1posY = [50, 50, 50, 50, 50];
+                for (var i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                }
+            }
+            else {
+                var _laypout1posY = [-150, 100, -100, 50, 50];
+                for (var i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                }
             }
         }
         _template.destroy();
