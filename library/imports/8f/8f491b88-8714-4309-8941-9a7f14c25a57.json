@@ -9303,8 +9303,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 899,
-      "height": 269
+      "width": 446,
+      "height": 97
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -9322,8 +9322,8 @@
         0,
         0,
         1,
-        0.8,
-        0.8,
+        1,
+        1,
         1
       ]
     },
@@ -10335,7 +10335,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 500,
-      "height": 88.2
+      "height": 69.3
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10388,8 +10388,8 @@
     "_dstBlendFactor": 771,
     "_string": "question",
     "_N$string": "question",
-    "_fontSize": 60,
-    "_lineHeight": 70,
+    "_fontSize": 45,
+    "_lineHeight": 55,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "f525e1ef-1d42-4074-8f14-3f74b0187d92"

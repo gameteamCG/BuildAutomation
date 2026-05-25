@@ -1120,8 +1120,8 @@
     "relativePath": "Game\\Painting_template\\Audios\\incorrectAnswer.mp3"
   },
   "8f491b88-8714-4309-8941-9a7f14c25a57": {
-    "asset": 1779449963127,
-    "meta": 1779449963141,
+    "asset": 1779684585430,
+    "meta": 1779684585446,
     "relativePath": "Game\\Painting_template\\Scene\\GamePlay.fire"
   },
   "0212e4bc-992e-422e-8092-508bec43d179": {
@@ -4414,11 +4414,6 @@
     "meta": 1779449527256,
     "relativePath": "Game\\KGPenmanship2.ttf"
   },
-  "d9ec9990-8d18-4688-85c9-eceed910dbff": {
-    "asset": 1779449419058,
-    "meta": 1779449527491,
-    "relativePath": "Game\\Asset 15.png"
-  },
   "ffe54923-a815-4f89-bdb1-48ffeacefe8f": {
     "asset": 1779449418966,
     "meta": 1779449527245,
@@ -4514,45 +4509,10 @@
     "meta": 1779449528024,
     "relativePath": "Framework\\Jockey New\\pencil\\pencil"
   },
-  "cf23a19e-d668-4394-ac1a-49cea75ecd2c": {
-    "asset": 1779449419922,
-    "meta": 1779449528156,
-    "relativePath": "resources\\audios\\1.mp3"
-  },
-  "2688f494-924d-4ba8-86c2-2211c910c31e": {
-    "asset": 1779449419995,
-    "meta": 1779449528153,
-    "relativePath": "resources\\audios\\Ques.mp3"
-  },
   "25f91138-831b-48fe-a775-784a0b5c39e9": {
     "asset": 1779449420044,
     "meta": 1779449527843,
     "relativePath": "resources\\images\\back.png"
-  },
-  "765437e6-17a2-414f-94d9-e534f125f7aa": {
-    "asset": 1779449420008,
-    "meta": 1779449527742,
-    "relativePath": "resources\\images\\3.png"
-  },
-  "9b6e8d4f-9c65-401d-be9d-0dd76ca0434a": {
-    "asset": 1779449420010,
-    "meta": 1779449527758,
-    "relativePath": "resources\\images\\4.png"
-  },
-  "d133dfa0-6184-407b-b3e1-1b91e2097d03": {
-    "asset": 1779449420005,
-    "meta": 1779449527725,
-    "relativePath": "resources\\images\\2.png"
-  },
-  "075e0dd2-dc18-4726-ab78-523dac4aff5d": {
-    "asset": 1779449420002,
-    "meta": 1779449527707,
-    "relativePath": "resources\\images\\1.png"
-  },
-  "0929ec8b-8e7b-492e-9ea7-4fe8a9765e4a": {
-    "asset": 1779449420037,
-    "meta": 1779449527922,
-    "relativePath": "resources\\images\\BG.png"
   },
   "26a7f1a3-6935-4bfd-913f-5fb4440f7606": {
     "asset": 1779449419461,
@@ -4564,11 +4524,6 @@
     "meta": 1779449528659,
     "relativePath": "resources\\audios\\B2.mp3"
   },
-  "6b59d465-cdde-4156-b1a0-2be189d613ed": {
-    "asset": 1779449420040,
-    "meta": 1779449527780,
-    "relativePath": "resources\\images\\airplane.png"
-  },
   "c0e85136-c55f-4019-8ab3-b31a738fb9f8": {
     "asset": 1779449420058,
     "meta": 1779449528017,
@@ -4579,9 +4534,79 @@
     "meta": 1779449527825,
     "relativePath": "resources\\images\\Asset 17.png"
   },
+  "0929ec8b-8e7b-492e-9ea7-4fe8a9765e4a": {
+    "asset": 1779684047347,
+    "meta": 1779684047517,
+    "relativePath": "resources\\images\\BG.png"
+  },
+  "2688f494-924d-4ba8-86c2-2211c910c31e": {
+    "asset": 1779684066613,
+    "meta": 1779684067645,
+    "relativePath": "resources\\audios\\Ques.mp3"
+  },
+  "d133dfa0-6184-407b-b3e1-1b91e2097d03": {
+    "asset": 1779684159255,
+    "meta": 1779684159415,
+    "relativePath": "resources\\images\\2.png"
+  },
+  "765437e6-17a2-414f-94d9-e534f125f7aa": {
+    "asset": 1779684159255,
+    "meta": 1779684159418,
+    "relativePath": "resources\\images\\3.png"
+  },
+  "9b6e8d4f-9c65-401d-be9d-0dd76ca0434a": {
+    "asset": 1779684159254,
+    "meta": 1779684159420,
+    "relativePath": "resources\\images\\4.png"
+  },
+  "075e0dd2-dc18-4726-ab78-523dac4aff5d": {
+    "asset": 1779684159257,
+    "meta": 1779684159423,
+    "relativePath": "resources\\images\\1.png"
+  },
+  "d113aa41-e84c-4528-b04a-f0fa3ce81915": {
+    "asset": 1779684159255,
+    "meta": 1779684159457,
+    "relativePath": "resources\\images\\5.png"
+  },
+  "d9ec9990-8d18-4688-85c9-eceed910dbff": {
+    "asset": 1779684189817,
+    "meta": 1779684189896,
+    "relativePath": "Game\\Asset 15.png"
+  },
+  "cf23a19e-d668-4394-ac1a-49cea75ecd2c": {
+    "asset": 1779684308379,
+    "meta": 1779684309852,
+    "relativePath": "resources\\audios\\1.mp3"
+  },
+  "1929d7a7-f59d-42d7-b10c-f1bb756dc260": {
+    "asset": 1779684308378,
+    "meta": 1779684309882,
+    "relativePath": "resources\\audios\\4.mp3"
+  },
+  "e0439744-3715-4c3c-bea7-f6c42d0cd6ce": {
+    "asset": 1779684308378,
+    "meta": 1779684309885,
+    "relativePath": "resources\\audios\\5.mp3"
+  },
+  "918cc278-72a4-4bbe-94ea-f3d9bec07bdd": {
+    "asset": 1779684308378,
+    "meta": 1779684309888,
+    "relativePath": "resources\\audios\\3.mp3"
+  },
+  "5a537189-2578-426e-90ab-9215bb750f66": {
+    "asset": 1779684308378,
+    "meta": 1779684309891,
+    "relativePath": "resources\\audios\\2.mp3"
+  },
   "2cade92f-808c-4a23-9c77-02e56fc89bdc": {
-    "asset": 1779449932928,
-    "meta": 1779449938644,
+    "asset": 1779684374528,
+    "meta": 1779684451244,
     "relativePath": "resources\\game_data.json"
+  },
+  "6b59d465-cdde-4156-b1a0-2be189d613ed": {
+    "asset": 1779684535600,
+    "meta": 1779684535712,
+    "relativePath": "resources\\images\\airplane.png"
   }
 }
