@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Letters and sounds Pp_LKG_SB2_24",
-      "totalLevel": "5",
+      "totalLevel": "4",
       "TitleImageName": "TITLE.png",
       "introBgName": "Bg(8).png",
       "bgmMusicName": "bgm12.mp3",
@@ -16,135 +16,98 @@
       {
         "questionLayout": "layout1",
         "questionBgName": "bg1.png",
-        "questionAudioName": "L1.mp3",
+        "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 4,
+        "numberOfOptions": 3,
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "empty.png",
+          "empty.png",
+          "empty.png"
         ],
         "optionsBg": [
-          "L1(1).png",
-          "L1(2).png",
-          "L1(3).png",
-          "L1(4).png"
+          "e1.png",
+          "e2.png",
+          "e3.png"
         ],
         "correctAudioName": "FANTASTIC.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "esayse.mp3",
-          "esayse.mp3",
-          "esayse.mp3",
-          "esayse.mp3"
-        ],
-        "correctAnswerNum": "14"
-      },
-      {
-        "questionLayout": "layout3",
-        "questionBgName": "bg2.png",
-        "questionAudioName": "picture.mp3",
-        "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
-        "numberOfOptions": 3,
-        "options": [
-          "",
-          "",
-          "enginec.png"
-        ],
-        "optionsBg": [
-          "catbw.png",
-          "ballbw.png",
-          "enginebw.png"
-        ],
-        "correctAudioName": "BRILLIANT.mp3",
-        "wrongAudioName": "nevermind,tryagain.mp3",
-        "reiterationAudioName": [
-          "engine.mp3"
-        ],
-        "correctAnswerNum": "3"
-      },
-      {
-        "questionLayout": "layout3",
-        "questionBgName": "bg3.png",
-        "questionAudioName": "picture.mp3",
-        "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
-        "numberOfOptions": 3,
-        "options": [
-          "elfc.png",
-          "",
-          ""
-        ],
-        "optionsBg": [
-          "elfbw.png",
-          "jarbw.png",
-          "drumbw.png"
-        ],
-        "correctAudioName": "BRILLIANT.mp3",
-        "wrongAudioName": "nevermind,tryagain.mp3",
-        "reiterationAudioName": [
-          "elf.mp3"
+          "1.mp3"
         ],
         "correctAnswerNum": "1"
       },
       {
         "questionLayout": "layout2",
-        "questionBgName": "bg4.png",
-        "questionAudioName": "L4.mp3",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 4,
+        "numberOfOptions": 3,
         "options": [
-          "letterw.png",
-          "letterc.png",
-          "lettera.png",
-          "letterc.png"
+          "empty.png",
+          "empty.png",
+          "empty.png"
         ],
         "optionsBg": [
-          " ",
-          " ",
-          " ",
-          " "
+          "f1.png",
+          "f2.png",
+          "f3.png"
         ],
         "correctAudioName": "BRILLIANT.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "esayse.mp3",
-          "esayse.mp3"
+          "1.mp3"
         ],
-        "correctAnswerNum": "24"
+        "correctAnswerNum": "3"
       },
       {
         "questionLayout": "layout1",
-        "questionBgName": "bg5.png",
-        "questionAudioName": "L5.mp3",
+        "questionBgName": "bg1.png",
+        "questionAudioName": "Ques.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
-        "numberOfOptions": 4,
+        "numberOfOptions": 3,
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "empty.png",
+          "empty.png",
+          "empty.png"
         ],
         "optionsBg": [
-          "L5(1).png",
-          "L5(2).png",
-          "L5(3).png",
-          "L5(4).png"
+          "e4.png",
+          "e5.png",
+          "e6.png"
         ],
         "correctAudioName": "FANTASTIC.mp3",
         "wrongAudioName": "nevermind,tryagain.mp3",
         "reiterationAudioName": [
-          "esayse.mp3",
-          "esayse.mp3",
-          "esayse.mp3",
-          "esayse.mp3"
+          "1.mp3"
         ],
-        "correctAnswerNum": "14"
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout2",
+        "questionBgName": "bg2.png",
+        "questionAudioName": "Ques.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 3,
+        "options": [
+          "empty.png",
+          "empty.png",
+          "empty.png"
+        ],
+        "optionsBg": [
+          "f4.png",
+          "f5.png",
+          "f6.png"
+        ],
+        "correctAudioName": "BRILLIANT.mp3",
+        "wrongAudioName": "nevermind,tryagain.mp3",
+        "reiterationAudioName": [
+          "1.mp3"
+        ],
+        "correctAnswerNum": "1"
       }
     ]
   }

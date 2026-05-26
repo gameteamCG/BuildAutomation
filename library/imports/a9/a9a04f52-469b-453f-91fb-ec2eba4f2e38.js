@@ -331,16 +331,8 @@ var Gameplay = /** @class */ (function (_super) {
         if (this.optionsLayout == "layout1") {
             var posX = void 0;
             var posY = void 0;
-            // 👇 custom positions for level 3
-            if (StartGame_1.default.Instance.currentLevel == 5) {
-                posX = [200, 200, -150, -150, 0];
-                posY = [-170, 100, 100, -170, 50];
-            }
-            else {
-                // default positions
-                posX = [-450, 200, -150, 500, 0];
-                posY = [-120, -120, 40, 40, 50];
-            }
+            posX = [-400, 0, 400];
+            posY = [-100, 70, -100];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(posX[i], posY[i]);
             }
@@ -348,16 +340,8 @@ var Gameplay = /** @class */ (function (_super) {
         if (this.optionsLayout == "layout2") {
             var posX = void 0;
             var posY = void 0;
-            // 👇 custom positions for level 3
-            if (StartGame_1.default.Instance.currentLevel == 4) {
-                posX = [-300, -100, 100, 300, 0];
-                posY = [-25, -25, -25, -25, 50];
-            }
-            else {
-                // default positions
-                posX = [-450, 200, -150, 500, 0];
-                posY = [-120, -120, 40, 40, 50];
-            }
+            posX = [-300, 0, 300];
+            posY = [50, 50, 50];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(posX[i], posY[i]);
             }
@@ -455,7 +439,8 @@ var Gameplay = /** @class */ (function (_super) {
             _clone_1.getComponent(cc.Animation).stop();
             _clone_1.angle = 0;
             var pos = _clone_1.getPosition();
-            cc.tween(_clone_1).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
+            _clone_1.bezierMoveNode(cc.v2(50, 50), 50, 1);
+            // cc.tween(_clone).bezierTo(1, cc.v2(0), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
             this.scheduleOnce(function () {
                 _clone_1.getComponent(cc.Animation).stop();
                 _clone_1.angle = 0;
