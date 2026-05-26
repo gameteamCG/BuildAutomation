@@ -8,14 +8,14 @@
       "GameID": "Beginning Sound - uvwx",
       "totalLevel": "8",
       "TitleImageName": "assssut.png",
-      "introBgName": "bg1.png",
+      "introBgName": "BG.png",
       "bgmMusicName": "B2.mp3",
       "mainBgName": "BG_1.png",
       "JockeyName": "Puzzle"
     },
     "questionData": [
       {
-        "questionText": "Letter sound \"w\"",
+        "questionText": "W",
         "questionImageName": "basketL2.png",
         "questionAudioName": "Q1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -34,7 +34,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Letter sound \"x\"",
+        "questionText": "X",
         "questionImageName": "basketL2.png",
         "questionAudioName": "Q2.mp3",
         "shouldPlayQuestionAudio": true,
@@ -53,7 +53,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "Letter sound \"u\"",
+        "questionText": "U",
         "questionImageName": "basketL2.png",
         "questionAudioName": "Q3.mp3",
         "shouldPlayQuestionAudio": true,
@@ -64,7 +64,7 @@
           "7.png",
           "BanyanTree.png",
           "lamp.png",
-          "1.png"
+          "umbrella.png"
         ],
         "correctAudios": [
           "Umbrella.mp3"
@@ -72,7 +72,7 @@
         "correctAnswerNum": "4"
       },
       {
-        "questionText": "Letter sound \"v\"",
+        "questionText": "V",
         "questionImageName": "basketL2.png",
         "questionAudioName": "Q4.mp3",
         "shouldPlayQuestionAudio": true,
@@ -91,7 +91,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Letter sound \"w\"",
+        "questionText": "W",
         "questionImageName": "basketL2.png",
         "questionAudioName": "Q1.mp3",
         "shouldPlayQuestionAudio": true,
@@ -110,7 +110,7 @@
         "correctAnswerNum": "4"
       },
       {
-        "questionText": "Letter sound \"v\"",
+        "questionText": "V",
         "questionImageName": "basketL2.png",
         "questionAudioName": "Q4.mp3",
         "shouldPlayQuestionAudio": true,
@@ -129,7 +129,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Letter sound \"x\"",
+        "questionText": "X",
         "questionImageName": "basketL2.png",
         "questionAudioName": "Q2.mp3",
         "shouldPlayQuestionAudio": true,
@@ -148,7 +148,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "Letter sound \"u\"",
+        "questionText": "U",
         "questionImageName": "basketL2.png",
         "questionAudioName": "Q3.mp3",
         "shouldPlayQuestionAudio": true,
