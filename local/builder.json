@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\SmartLearn\\Nursery\\Modes_of_Transport_Nursery_GA_Pg91",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
