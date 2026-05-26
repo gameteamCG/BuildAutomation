@@ -17,7 +17,7 @@
     "questionData": [
       {
         "questionText": "Digraph ee",
-        "answerText": "bees",
+        "answerText": "bee",
         "questionImageName": "hat.png",
         "questionAudioName": "CollectpictureswiththesoundE.mp3",
         "shouldPlayQuestionAudio": true,
