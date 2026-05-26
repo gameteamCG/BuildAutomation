@@ -1,7 +1,7 @@
 {
     "additionalData": {
         "GameID": "Airplanes_SCIS_FEBRUARY ",
-        "totalLevel": "4",
+        "totalLevel": "1",
         "TitleImageName": "airplane.png",
         "introBgName": "sfdfgh.png",
         "bgmMusicName": "B2.mp3",
@@ -11,49 +11,13 @@
     },
     "questionData": [
         {
-            "questionText": "Favourite breakfast food",
-            "questionImageName": "1.png",
-            "questionAudioName": "Ques.mp3",
-            "shouldPlayQuestionAudio": true,
-            "pictureImageName": "blankk.png",
-            "needMoreTools": true,
-            "correctAudioName": "1.mp3"
-        },
-        {
-            "questionText": "Favourite lunch food item",
+            "questionText": "Favourite Emirate food item",
             "questionImageName": "2.png",
             "questionAudioName": "Ques.mp3",
             "shouldPlayQuestionAudio": true,
             "pictureImageName": "blankk.png",
             "needMoreTools": true,
-            "correctAudioName": "2.mp3"
-        },
-        {
-            "questionText": "Favourite snack",
-            "questionImageName": "3.png",
-            "questionAudioName": "Ques.mp3",
-            "shouldPlayQuestionAudio": true,
-            "pictureImageName": "blankk.png",
-            "needMoreTools": true,
-            "correctAudioName": "3.mp3"
-        },
-        {
-            "questionText": "Favourite fruit",
-            "questionImageName": "4.png",
-            "questionAudioName": "Ques.mp3",
-            "shouldPlayQuestionAudio": true,
-            "pictureImageName": "blankk.png",
-            "needMoreTools": true,
-            "correctAudioName": "4.mp3"
-        },
-        {
-            "questionText": "Favourite vegetable",
-            "questionImageName": "5.png",
-            "questionAudioName": "Ques.mp3",
-            "shouldPlayQuestionAudio": true,
-            "pictureImageName": "blankk.png",
-            "needMoreTools": true,
-            "correctAudioName": "5.mp3"
+            "correctAudioName": "1.mp3"
         }
     ]
 }
