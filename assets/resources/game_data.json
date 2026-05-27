@@ -53,7 +53,7 @@
         },
         {
             "questionText": "Modes of transport",
-            "questionAudioName": "busisaroadwaytransportation.mp3",
+            "questionAudioName": "matchthemodeoftransporttoitscorrectshadow.mp3",
             "shouldPlayQuestionAudio": true,
             "commonLeftOptionImageName": "common.png",
             "isLeftOptionText": false,
