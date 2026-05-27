@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "hearing",
+        "questionText": "Hear",
         "questionAudioName": "matchobjecthear.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "500x500_0001_left-puzzle.png",
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "questionText": "sight",
+        "questionText": "See",
         "questionAudioName": "matchobjectsee.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "500x500_0001_left-puzzle.png",
@@ -57,7 +57,7 @@
         ]
       },
       {
-        "questionText": "smell",
+        "questionText": "Smell",
         "questionAudioName": "matchobjectsmell.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "500x500_0001_left-puzzle.png",
@@ -78,7 +78,7 @@
         ]
       },
       {
-        "questionText": "taste",
+        "questionText": "Taste",
         "questionAudioName": "matchobjecttaste.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "500x500_0001_left-puzzle.png",
@@ -99,7 +99,7 @@
         ]
       },
       {
-        "questionText": "feel",
+        "questionText": "Feel",
         "questionAudioName": "matchobjectfeel.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "500x500_0001_left-puzzle.png",
