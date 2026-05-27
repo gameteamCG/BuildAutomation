@@ -11,6 +11,7 @@
         {
             "questionLayout": "layout2",
             "questionBgName": "gardenbg.png",
+            "questionText": "Smallest number",
             "questionAudioName": "identifysmaller.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
@@ -37,6 +38,7 @@
         {
             "questionLayout": "layout2",
             "questionBgName": "gardenbg.png",
+            "questionText": "Biggest number",
             "questionAudioName": "identifybigger.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
@@ -63,6 +65,7 @@
         {
             "questionLayout": "layout2",
             "questionBgName": "gardenbg.png",
+            "questionText": "Smallest number",
             "questionAudioName": "identifysmaller.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
@@ -89,6 +92,7 @@
         {
             "questionLayout": "layout2",
             "questionBgName": "gardenbg.png",
+            "questionText": "Biggest number",
             "questionAudioName": "identifybigger.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
@@ -115,6 +119,7 @@
         {
             "questionLayout": "layout2",
             "questionBgName": "gardenbg.png",
+            "questionText": "Biggest number",
             "questionAudioName": "identifybigger.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
@@ -141,6 +146,7 @@
         {
             "questionLayout": "layout2",
             "questionBgName": "gardenbg.png",
+            "questionText": "Smallest number",
             "questionAudioName": "identifysmaller.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
@@ -167,6 +173,7 @@
         {
             "questionLayout": "layout2",
             "questionBgName": "gardenbg.png",
+            "questionText": "Biggest number",
             "questionAudioName": "identifybigger.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,

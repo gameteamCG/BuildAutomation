@@ -208,6 +208,7 @@ export default class Gameplay extends cc.Component {
             if (this.questionAudio) {
                 if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     cc.audioEngine.playEffect(this.questionAudio, false);
+                    this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionText;
                 }
             }
             if (this.optionsLayout == "layout1") {
