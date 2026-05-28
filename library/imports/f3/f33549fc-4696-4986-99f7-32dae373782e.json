@@ -7,7 +7,7 @@
     "additionalData": {
       "GameID": "sound ie_fs2_new_r95",
       "totalLevel": "4",
-      "TitleImageName": "Asset107(2).png",
+      "TitleImageName": "Asset 68 (3).png",
       "introBgName": "skg.png",
       "bgmMusicName": "bgmpattern.mp3",
       "mainBgName": "bg1.png",
@@ -17,7 +17,7 @@
       {
         "questionText": "tie",
         "questionImageName": "",
-        "questionAudioName": "SWIPEtheletterstoformthewordtie.mp3",
+        "questionAudioName": "new12147127_1_swipe-the-letters-to-f.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "GreenButton.png",
         "isOptionText": true,
@@ -29,14 +29,14 @@
           "i"
         ],
         "correctAnswer": "tie",
-        "correctAudioName": "l6correct.mp3",
+        "correctAudioName": "new12147127_2_tie.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       },
       {
         "questionText": "lie",
         "questionImageName": "",
-        "questionAudioName": "SWIPEtheletterstoformtheworDlie.mp3",
+        "questionAudioName": "new12147127_3_swipe-the-letters-to-f.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "GreenButton.png",
         "isOptionText": true,
@@ -48,14 +48,14 @@
           "l"
         ],
         "correctAnswer": "lie",
-        "correctAudioName": "L5Correct.mp3",
+        "correctAudioName": "new12147127_4_lie.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       },
       {
         "questionText": "die",
         "questionImageName": "",
-        "questionAudioName": "SWIPEtheletterstoformtheworddie.mp3",
+        "questionAudioName": "new12147127_5_swipe-the-letters-to-f.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "GreenButton.png",
         "isOptionText": true,
@@ -67,14 +67,14 @@
           "i"
         ],
         "correctAnswer": "die",
-        "correctAudioName": "L9Correct.mp3",
+        "correctAudioName": "new12147127_6_die.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       },
       {
         "questionText": "pie",
         "questionImageName": "",
-        "questionAudioName": "SWIPETheletterstoformthewordpie.mp3",
+        "questionAudioName": "new12147127_7_swipe-the-letters-to-f.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "GreenButton.png",
         "isOptionText": true,
@@ -86,7 +86,7 @@
           "p"
         ],
         "correctAnswer": "pie",
-        "correctAudioName": "L2Correct.mp3",
+        "correctAudioName": "new12147127_8_pie.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       }
