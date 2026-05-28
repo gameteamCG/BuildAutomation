@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f1c03612-698d-4fe4-8f49-01fd4371aed6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2048,
+  "height": 2048,
+  "platformSettings": {},
+  "subMetas": {
+    "toondomy0001": {
+      "ver": "1.0.6",
+      "uuid": "71ccf212-d6d2-45a6-856a-f96d6b9bb21e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f1c03612-698d-4fe4-8f49-01fd4371aed6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 68.5,
+      "trimX": 2,
+      "trimY": 45,
+      "width": 2042,
+      "height": 1821,
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
