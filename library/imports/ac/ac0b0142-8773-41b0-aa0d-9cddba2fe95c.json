@@ -6,8 +6,8 @@
   "json": {
     "AdditionalData": {
       "GameID": "Letter 'Ss'",
-      "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/EYFS_FIX_Digraph_oa_fs2_phonics_r85.mp4",
-      "TitleImageName": "Asset 72 (5).png",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/EYFS_FIX_Digraph_ai_fs2_phonics_r79.mp4",
+      "TitleImageName": "Asset 71 (3).png",
       "IntroAudio1Name": "",
       "IntroAudio2Name": "",
       "JockeyName": "puzzle",
@@ -17,17 +17,17 @@
       {
         "QuestionAppearTime": "10000",
         "IsQuestionText": true,
-        "QuestionText": "Boat",
+        "QuestionText": "snail",
         "QuestionImageName": "s.png",
         "QuestionAudioName": "11222202_1_identify-the-picture-f.mp3",
         "PlayQuestionAudio": false,
         "IsOptionText": false,
         "NumberOfOptions": 2,
         "Options": [
-          "new_Asset 558.png",
-          "new_Asset 556.png"
+          "ai_Artboard 2 copy.png",
+          "ai_Artboard 2 copy 2.png"
         ],
-        "ReiterationAudioName": "11222202_2_boat.mp3",
+        "ReiterationAudioName": "11221969_2_snail.mp3",
         "CorrectAudioName": "BRAVO_YOU_RESCUED_IT.mp3",
         "WrongAudioName": "uhh_uhh.mp3",
         "CorrectAnswer": "1"
@@ -36,16 +36,16 @@
         "QuestionAppearTime": "10000",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "new_Asset 555.png",
+        "QuestionImageName": "ai_Artboard 2.png",
         "QuestionAudioName": "identify the word for the picture.mp3",
         "PlayQuestionAudio": false,
         "IsOptionText": true,
         "NumberOfOptions": 2,
         "Options": [
-          "goat",
-          "loaf.png"
+          "drain",
+          "pail.png"
         ],
-        "ReiterationAudioName": "11222202_5_loaf.mp3",
+        "ReiterationAudioName": "11221969_3_pail.mp3",
         "CorrectAudioName": "BEAUTIFUL_WORK.mp3",
         "WrongAudioName": "Whoops.mp3",
         "CorrectAnswer": "2"
@@ -53,17 +53,17 @@
       {
         "QuestionAppearTime": "10000",
         "IsQuestionText": true,
-        "QuestionText": "Goat",
+        "QuestionText": "mail",
         "QuestionImageName": "s.png",
         "QuestionAudioName": "11222202_1_identify-the-picture-f.mp3",
         "PlayQuestionAudio": false,
         "IsOptionText": false,
         "NumberOfOptions": 2,
         "Options": [
-          "new_Asset 554.png",
-          "new_Asset 557.png"
+          "ai_Artboard 2 copy 5.png",
+          "ai_Artboard 2 copy 3.png"
         ],
-        "ReiterationAudioName": "11222202_3_goat.mp3",
+        "ReiterationAudioName": "11221969_5_mail.mp3",
         "CorrectAudioName": "BRAVO_YOU_RESCUED_IT.mp3",
         "WrongAudioName": "uhh_uhh.mp3",
         "CorrectAnswer": "2"
@@ -71,17 +71,17 @@
       {
         "QuestionAppearTime": "10000",
         "IsQuestionText": true,
-        "QuestionText": "Coat",
+        "QuestionText": "train",
         "QuestionImageName": "s.png",
         "QuestionAudioName": "11222202_1_identify-the-picture-f.mp3",
         "PlayQuestionAudio": false,
         "IsOptionText": false,
         "NumberOfOptions": 2,
         "Options": [
-          "new_Asset 556.png",
-          "new_Asset 553.png"
+          "ai_Artboard 2 copy 4.png",
+          "ai_Artboard 2 copy 2.png"
         ],
-        "ReiterationAudioName": "11222202_4_coat.mp3",
+        "ReiterationAudioName": "11221969_6_train.mp3",
         "CorrectAudioName": "BRAVO_YOU_RESCUED_IT.mp3",
         "WrongAudioName": "uhh_uhh.mp3",
         "CorrectAnswer": "1"
@@ -90,17 +90,17 @@
         "QuestionAppearTime": "10000",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "new_Asset 554.png",
+        "QuestionImageName": "ai_Artboard 2 copy 2.png",
         "QuestionAudioName": "identify the word for the picture.mp3",
         "PlayQuestionAudio": false,
         "IsOptionText": true,
         "NumberOfOptions": 2,
         "Options": [
-          "goat",
-          "toad.png"
+          "snail",
+          "hail.png"
         ],
-        "ReiterationAudioName": "11222202_6_toad.mp3",
-        "CorrectAudioName": "BEAUTIFUL_WORK.mp3",
+        "ReiterationAudioName": "11221969_4_hail.mp3",
+        "CorrectAudioName": "BRAVO_YOU_RESCUED_IT.mp3",
         "WrongAudioName": "Whoops.mp3",
         "CorrectAnswer": "2"
       },
@@ -108,16 +108,16 @@
         "QuestionAppearTime": "10000",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "new_Asset 559.png",
+        "QuestionImageName": "ai_Artboard 2 copy 5.png",
         "QuestionAudioName": "identify the word for the picture.mp3",
         "PlayQuestionAudio": false,
         "IsOptionText": true,
         "NumberOfOptions": 2,
         "Options": [
-          "soap",
-          "toad.png"
+          "drain",
+          "mail.png"
         ],
-        "ReiterationAudioName": "11222202_7_soap.mp3",
+        "ReiterationAudioName": "11221969_7_drain.mp3",
         "CorrectAudioName": "BEAUTIFUL_WORK.mp3",
         "WrongAudioName": "Whoops.mp3",
         "CorrectAnswer": "1"
@@ -126,17 +126,17 @@
         "QuestionAppearTime": "10000",
         "IsQuestionText": false,
         "QuestionText": "",
-        "QuestionImageName": "Asset 560.png",
+        "QuestionImageName": "Asset 499.png",
         "QuestionAudioName": "11222202_8_choose-the-missing-let.mp3",
         "PlayQuestionAudio": false,
         "IsOptionText": true,
         "NumberOfOptions": 2,
         "Options": [
-          "ia",
-          "oa"
+          "oa",
+          "ai"
         ],
-        "ReiterationAudioName": "11222202_9_toast.mp3",
-        "CorrectAudioName": "BEAUTIFUL_WORK.mp3",
+        "ReiterationAudioName": "11221969_9_rain.mp3",
+        "CorrectAudioName": "BRAVO_YOU_RESCUED_IT.mp3",
         "WrongAudioName": "Whoops.mp3",
         "CorrectAnswer": "2"
       }
