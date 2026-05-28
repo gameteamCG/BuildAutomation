@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "newQ19",
+    "texture": "62a1b925-43e1-4627-b115-841b409912a4",
+    "atlas": "",
+    "rect": [
+      75,
+      111,
+      350,
+      278
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
