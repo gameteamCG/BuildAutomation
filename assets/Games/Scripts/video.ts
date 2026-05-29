@@ -519,8 +519,13 @@ export default class video extends cc.Component {
     }
 
     OnSoundButton() {
+        this.questionNode.getChildByName("sound").getComponent(cc.Button).interactable = false;
         cc.audioEngine.stopAllEffects();
         cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].questionAudio, false);
+        this.scheduleOnce(() => {
+            this.questionNode.getChildByName("sound").getComponent(cc.Button).interactable = true;
+        }, this.questions[this.currentQuestion - 1].questionAudio.duration + 0.1);
+
     }
 
     checkOnMissingQuestions() {

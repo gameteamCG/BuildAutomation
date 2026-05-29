@@ -513,8 +513,13 @@ var video = /** @class */ (function (_super) {
         }
     };
     video.prototype.OnSoundButton = function () {
+        var _this = this;
+        this.questionNode.getChildByName("sound").getComponent(cc.Button).interactable = false;
         cc.audioEngine.stopAllEffects();
         cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].questionAudio, false);
+        this.scheduleOnce(function () {
+            _this.questionNode.getChildByName("sound").getComponent(cc.Button).interactable = true;
+        }, this.questions[this.currentQuestion - 1].questionAudio.duration + 0.1);
     };
     video.prototype.checkOnMissingQuestions = function () {
         var _this = this;
