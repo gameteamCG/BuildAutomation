@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\SmartLearn\\LKG\\Vowels_in_the_middle_LKG_SB4_Language_11",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

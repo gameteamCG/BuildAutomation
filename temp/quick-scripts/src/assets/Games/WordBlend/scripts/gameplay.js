@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
@@ -134,6 +134,9 @@ var NewClass = /** @class */ (function (_super) {
         }
         this.UpdateJsonData();
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("shortQBar").opacity = 255;
+        });
         this.colorValue = this.options.color;
         this.currScene = StartGame_1.default.Instance.currentLevel;
         ProgressBar_1.default.Instance.ProgressFill(this.currScene - 1, false);
@@ -352,6 +355,9 @@ var NewClass = /** @class */ (function (_super) {
             }
         }
     };
+    NewClass.prototype.playButtonSound = function () {
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+    };
     NewClass.prototype.InitiateGame = function () {
         var _this = this;
         //repeat method
@@ -536,6 +542,9 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
+            this.scheduleOnce(function () {
+                _this.node.getChildByName("shortQBar").opacity = 0;
+            });
             cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();

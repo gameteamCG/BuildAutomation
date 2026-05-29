@@ -1,0 +1,98 @@
+// Learn TypeScript:
+//  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
+// Learn Attribute:
+//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
+// Learn life-cycle callbacks:
+//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
+
+import startGame from "../../Scripts/StartGame";
+
+const { ccclass, property } = cc._decorator;
+
+@ccclass
+export default class Jockey extends cc.Component {
+	// LIFE-CYCLE CALLBACKS:
+	private static instance: Jockey = null;
+	static get Instance() {
+		return Jockey.instance;
+	}
+
+	@property(cc.AudioClip)
+	public inAudio: cc.AudioClip = null;
+
+	@property(cc.AudioClip)
+	public positiveVO: cc.AudioClip[] = [];
+
+	@property(cc.AudioClip)
+	public negativeVO: cc.AudioClip[] = [];
+
+	private positiveAnims: string[] = [];
+	private negativeAnims: string[] = [];
+
+	public getRandomNumber(min: number, max: number): number {
+		let _number: number = Math.random();
+		_number = cc.misc.lerp(min, max, _number);
+		_number = Math.round(_number);
+		return _number;
+	}
+
+	// LIFE-CYCLE CALLBACKS:
+
+	onLoad() {
+		// cc.game.addPersistRootNode(this.node);
+		Jockey.instance = this;
+		for (let i = 1; i <= 9; i++) this.positiveAnims.push("positive_" + i);
+		for (let i = 1; i <= 2; i++) this.negativeAnims.push("negative_" + i);
+	}
+
+	start() {}
+
+	CallJockey(): number {
+		let num = this.getRandomNumber(0, 8);
+		this.node.getComponent(sp.Skeleton).setAnimation(0, "in", false);
+		cc.tween(this.node)
+			.to(0.3, { x: -350, y: -340 }, { easing: "backOut" })
+			.start();
+		cc.audioEngine.playEffect(this.inAudio, false);
+		console.log("characterAppear--Puzzle");
+		this.scheduleOnce(() => {
+			this.node
+				.getComponent(sp.Skeleton)
+				.setAnimation(0, this.positiveAnims[num], false);
+			cc.audioEngine.playEffect(this.positiveVO[num], false);
+			this.scheduleOnce(() => {
+				console.log("characterDisappear--Puzzle");
+				cc.tween(this.node)
+					.to(0.3, { x: -1200 }, { easing: "backIn" })
+					.start();
+			}, this.positiveVO[num].duration);
+		}, 0.3);
+		return this.positiveVO[num].duration;
+	}
+
+	CallJockeyNeg(): number {
+		let num = this.getRandomNumber(0, 1);
+		this.node.getComponent(sp.Skeleton).setAnimation(0, "in", false);
+		cc.tween(this.node)
+			.to(0.3, { x: -350, y: -340 }, { easing: "backOut" })
+			.start();
+		console.log("characterAppear--Puzzle");
+		cc.audioEngine.playEffect(this.inAudio, false);
+		this.scheduleOnce(() => {
+			this.node
+				.getComponent(sp.Skeleton)
+				.setAnimation(0, this.negativeAnims[num], false);
+			console.log(this.negativeAnims[num]);
+			cc.audioEngine.playEffect(this.negativeVO[num], false);
+			this.scheduleOnce(() => {
+				console.log("characterDisappear--Puzzle");
+
+				cc.tween(this.node)
+					.to(0.3, { x: -1200 }, { easing: "backIn" })
+					.start();
+			}, this.negativeVO[num].duration - 0.3);
+		}, 0.3);
+		return this.negativeVO[num].duration;
+	}
+	// update (dt) {}
+}

@@ -1,5 +1,5 @@
 
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -168,7 +168,9 @@ export default class NewClass extends cc.Component {
         this.UpdateJsonData();
 
         startGame.Instance.node.getChildByName("progress").opacity = 255;
-
+        this.scheduleOnce(() => {
+            this.node.getChildByName("shortQBar").opacity = 255;
+        })
         this.colorValue = this.options.color;
         this.currScene = startGame.Instance.currentLevel;
         ProgressBar.Instance.ProgressFill(this.currScene - 1, false);
@@ -387,7 +389,9 @@ export default class NewClass extends cc.Component {
         }
 
     }
-
+    playButtonSound() {
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+    }
     InitiateGame() {
         //repeat method
         this.UpdateOptions();
@@ -604,6 +608,9 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
+            this.scheduleOnce(() => {
+                this.node.getChildByName("shortQBar").opacity = 0;
+            })
             cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
 
             this.scheduleOnce(() => {
