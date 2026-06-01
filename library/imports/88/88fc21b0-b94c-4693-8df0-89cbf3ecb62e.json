@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wi5",
+    "texture": "9929fdd7-2bfd-4a8b-ae84-337b71a068db",
+    "atlas": "",
+    "rect": [
+      18,
+      0,
+      501,
+      501
+    ],
+    "offset": [
+      9,
+      2
+    ],
+    "originalSize": [
+      519,
+      505
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

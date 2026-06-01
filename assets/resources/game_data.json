@@ -12,6 +12,7 @@
         {
             "questionText": "Matching half",
             "questionImageName": "L1",
+            "ansName": "wi1",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "common.png",
@@ -27,6 +28,7 @@
         {
             "questionText": "Matching half",
             "questionImageName": "L2",
+            "ansName": "wi2",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "common.png",
@@ -42,6 +44,7 @@
         {
             "questionText": "Matching half",
             "questionImageName": "L3",
+            "ansName": "wi3",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "common.png",
@@ -57,6 +60,7 @@
         {
             "questionText": "Matching half",
             "questionImageName": "L4",
+            "ansName": "wi4",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "common.png",
@@ -72,6 +76,7 @@
         {
             "questionText": "Matching half",
             "questionImageName": "L5",
+            "ansName": "wi5",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "common.png",
@@ -87,6 +92,7 @@
         {
             "questionText": "Matching half",
             "questionImageName": "L6",
+            "ansName": "wi6",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "common.png",
@@ -102,6 +108,7 @@
         {
             "questionText": "Matching half",
             "questionImageName": "L7",
+            "ansName": "wi7",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "common.png",
@@ -117,6 +124,7 @@
         {
             "questionText": "Matching half",
             "questionImageName": "L8",
+            "ansName": "wi8",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "common.png",

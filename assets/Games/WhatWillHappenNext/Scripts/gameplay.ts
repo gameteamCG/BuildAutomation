@@ -31,6 +31,8 @@ export default class NewClass extends cc.Component {
 
     @property(cc.AudioClip)
     private questionSound: cc.AudioClip[] = [];
+    @property(cc.SpriteFrame)
+    private ansImage: cc.SpriteFrame[] = [];
 
     @property(cc.AudioClip)
     private positiveSound: cc.AudioClip[] = [];
@@ -129,7 +131,7 @@ export default class NewClass extends cc.Component {
         }
         this.optionsNode = this.node.getChildByName("Option");
         this.GenerateOptions();
-        this.maxLevel = startGame.Instance.totalLevels;
+        this.maxLevel = startGame.Instance.TotalLevels;
         if (globalVariables.Instance.currentLevel == this.maxLevel) {
             cc.director.preloadScene("endScreen");
         }
@@ -316,7 +318,7 @@ export default class NewClass extends cc.Component {
             }, 0.1);
             this.scheduleOnce(() => {
                 cc.tween(this.node.getChildByName("QuestionBox"))
-                    .to(0.5, { x: posX }, { easing: "sineInOut" }).start();
+                    .to(0.5, { x: -200 }, { easing: "sineInOut" }).start();
                 this.canTouch = true;
                 this.callOptionIn();
             }, 1);
@@ -524,6 +526,19 @@ export default class NewClass extends cc.Component {
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
+        this.scheduleOnce(() => {
+            cc.tween(_node).to(0.5, { x: -30 }, { easing: "sineInOut" }).start();
+            _node.active = false;
+            this.node.getChildByName("QuestionBox").active = false;
+            this.node.getChildByName("ans").active = true
+            this.scheduleOnce(() => {
+                this.node.getChildByName("ans").getComponent(cc.Sprite).spriteFrame = this.ansImage[globalVariables.Instance.currentLevel - 1];
+
+            }, 0.2)
+
+            // cc.tween(this.node.getChildByName("QuestionBox"))
+            //     .to(0.5, { x: 0 }, { easing: "sineInOut" }).start();
+        }, 0.5)
         this.scheduleOnce(() => {
             this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();

@@ -39,6 +39,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.popSound = [];
         _this.popSound2 = [];
         _this.questionSound = [];
+        _this.ansImage = [];
         _this.positiveSound = [];
         _this.negativeSound = [];
         _this.positiveAudio = [];
@@ -95,7 +96,7 @@ var NewClass = /** @class */ (function (_super) {
         }
         this.optionsNode = this.node.getChildByName("Option");
         this.GenerateOptions();
-        this.maxLevel = StartGame_1.default.Instance.totalLevels;
+        this.maxLevel = StartGame_1.default.Instance.TotalLevels;
         if (globalVariables_1.default.Instance.currentLevel == this.maxLevel) {
             cc.director.preloadScene("endScreen");
         }
@@ -276,7 +277,7 @@ var NewClass = /** @class */ (function (_super) {
             }, 0.1);
             _this.scheduleOnce(function () {
                 cc.tween(_this.node.getChildByName("QuestionBox"))
-                    .to(0.5, { x: posX }, { easing: "sineInOut" }).start();
+                    .to(0.5, { x: -200 }, { easing: "sineInOut" }).start();
                 _this.canTouch = true;
                 _this.callOptionIn();
             }, 1);
@@ -482,6 +483,17 @@ var NewClass = /** @class */ (function (_super) {
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { y: 0 }, { easing: "sineInOut" }).start();
+        this.scheduleOnce(function () {
+            cc.tween(_node).to(0.5, { x: -30 }, { easing: "sineInOut" }).start();
+            _node.active = false;
+            _this.node.getChildByName("QuestionBox").active = false;
+            _this.node.getChildByName("ans").active = true;
+            _this.scheduleOnce(function () {
+                _this.node.getChildByName("ans").getComponent(cc.Sprite).spriteFrame = _this.ansImage[globalVariables_1.default.Instance.currentLevel - 1];
+            }, 0.2);
+            // cc.tween(this.node.getChildByName("QuestionBox"))
+            //     .to(0.5, { x: 0 }, { easing: "sineInOut" }).start();
+        }, 0.5);
         this.scheduleOnce(function () {
             _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
@@ -852,6 +864,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "questionSound", void 0);
+    __decorate([
+        property(cc.SpriteFrame)
+    ], NewClass.prototype, "ansImage", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "positiveSound", void 0);
