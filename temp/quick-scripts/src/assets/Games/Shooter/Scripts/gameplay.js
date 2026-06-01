@@ -419,6 +419,12 @@ var NewClass = /** @class */ (function (_super) {
         var voIndex = this.answerArray.indexOf(_node.name);
         cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
         _node.getChildByName("img").color = cc.Color.GRAY;
+        // Hide wrong options immediately after correct selection
+        this.node.getChildByName("Option").children.forEach(function (option) {
+            if (_this.answerArray.indexOf(option.name) === -1) {
+                option.active = false;
+            }
+        });
         this.scheduleOnce(function () {
             _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();

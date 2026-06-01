@@ -488,6 +488,14 @@ export default class NewClass extends cc.Component {
         let voIndex: number = this.answerArray.indexOf(_node.name);
         cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
         _node.getChildByName("img").color = cc.Color.GRAY;
+
+        // Hide wrong options immediately after correct selection
+        this.node.getChildByName("Option").children.forEach((option) => {
+            if (this.answerArray.indexOf(option.name) === -1) {
+                option.active = false;
+            }
+        });
+
         this.scheduleOnce(() => {
             this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
