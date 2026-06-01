@@ -83,6 +83,7 @@ export default class NewClass extends cc.Component {
     private supercubNegative: cc.AudioClip[] = [];
 
     private isSecondInteraction: boolean = true;
+    private isSecond: boolean = false;
     private interactionType: string = "1";
 
 
@@ -419,7 +420,19 @@ export default class NewClass extends cc.Component {
             element.on('touchend', (_event) => { this.wordTouchEnd(_event); });
         });
     }
+    playButtonSound() {
+        if (this.isSecond == true) {
+            //check what interaction it is and call the respective function
+            //show question panel
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
+            //this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
+        }
+        else {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false)
 
+        }
+
+    }
     SetFrameOptions() {
         this.options.active = true;
         if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].isHintRequired) {
@@ -605,7 +618,7 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            //cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
 
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
@@ -615,6 +628,7 @@ export default class NewClass extends cc.Component {
                     // this.wordAppear();
 
                     if (this.isSecondInteraction) {
+                        this.isSecond = true
                         //check what interaction it is and call the respective function
                         //show question panel
                         cc.audioEngine.playEffect(this.wordVoQuestion, false);

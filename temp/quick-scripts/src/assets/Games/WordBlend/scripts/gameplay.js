@@ -63,6 +63,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.supercubPositive = [];
         _this.supercubNegative = [];
         _this.isSecondInteraction = true;
+        _this.isSecond = false;
         _this.interactionType = "1";
         _this.currentJockey = null;
         _this.selectable = false;
@@ -383,6 +384,17 @@ var NewClass = /** @class */ (function (_super) {
             element.on('touchend', function (_event) { _this.wordTouchEnd(_event); });
         });
     };
+    NewClass.prototype.playButtonSound = function () {
+        if (this.isSecond == true) {
+            //check what interaction it is and call the respective function
+            //show question panel
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
+            //this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
+        }
+        else {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        }
+    };
     NewClass.prototype.SetFrameOptions = function () {
         var _this = this;
         this.options.active = true;
@@ -536,7 +548,7 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            //cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
                 cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
@@ -544,6 +556,7 @@ var NewClass = /** @class */ (function (_super) {
                     _this.options.color = cc.Color.WHITE;
                     // this.wordAppear();
                     if (_this.isSecondInteraction) {
+                        _this.isSecond = true;
                         //check what interaction it is and call the respective function
                         //show question panel
                         cc.audioEngine.playEffect(_this.wordVoQuestion, false);
