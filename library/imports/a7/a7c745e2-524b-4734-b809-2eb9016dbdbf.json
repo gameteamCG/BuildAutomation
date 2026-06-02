@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "Identify the things you see in a kitchen",
+        "questionText": "Identify the things you see in a kitchen.",
         "questionAudioName": "identifythingsyouseekitchen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Panel.png",
@@ -33,7 +33,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Identify the things you see in a kitchen",
+        "questionText": "Identify the things you see in a kitchen.",
         "questionAudioName": "identifythingsyouseekitchen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Panel.png",
@@ -50,7 +50,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Identify the things you see in a kitchen",
+        "questionText": "Identify the things you see in a kitchen.",
         "questionAudioName": "identifythingsyouseekitchen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Panel.png",
@@ -58,7 +58,7 @@
         "isOptionBG": true,
         "numberOfOptions": 2,
         "options": [
-          "250x250_0005_pig.png",
+          "250x250_0011_camel.png",
           "250x250_0012_bowl.png"
         ],
         "correctAudios": [
@@ -67,7 +67,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Identify the things you see in a kitchen",
+        "questionText": "Identify the things you see in a kitchen.",
         "questionAudioName": "identifythingsyouseekitchen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Panel.png",
@@ -84,7 +84,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Identify the things you see in a kitchen",
+        "questionText": "Identify the things you see in a kitchen.",
         "questionAudioName": "identifythingsyouseekitchen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Panel.png",
@@ -101,7 +101,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Identify the things you see in a kitchen",
+        "questionText": "Identify the things you see in a kitchen.",
         "questionAudioName": "identifythingsyouseekitchen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Panel.png",
@@ -118,7 +118,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Identify the things you see in a kitchen",
+        "questionText": "Identify the things you see in a kitchen.",
         "questionAudioName": "identifythingsyouseekitchen.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Panel.png",
