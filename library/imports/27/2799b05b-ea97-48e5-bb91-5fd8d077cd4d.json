@@ -1,22 +1,22 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "egg",
-    "texture": "d11cc105-4284-4e19-b628-64f212bbea06",
+    "name": "Asset 553",
+    "texture": "594a5817-ebfc-410d-96b5-85d442bea267",
     "atlas": "",
     "rect": [
-      127,
-      102,
-      246,
-      296
+      9,
+      9,
+      275,
+      275
     ],
     "offset": [
-      0,
-      0
+      0.5,
+      -0.5
     ],
     "originalSize": [
-      500,
-      500
+      292,
+      292
     ],
     "capInsets": [
       0,

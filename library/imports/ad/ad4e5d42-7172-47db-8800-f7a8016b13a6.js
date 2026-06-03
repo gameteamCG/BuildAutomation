@@ -598,6 +598,7 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         _node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.extraImg;
         //console.log("correctAudio--" + this.correctAudio.name);
+        this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.correctAudio[parseInt(_node.name) - 1].name;
         cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
@@ -624,6 +625,7 @@ var NewClass = /** @class */ (function (_super) {
         var voIndex = this.answerArray.indexOf(_node.name);
         switch (StartGame_1.default.Instance.templateType) {
             case "SimpleTap":
+                this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.correctAudio[voIndex].name;
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
@@ -663,6 +665,7 @@ var NewClass = /** @class */ (function (_super) {
                 }, this.correctAudio[voIndex].duration);
                 break;
             case "TapToCollect":
+                this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.correctAudio[voIndex].name;
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 this.scheduleOnce(function () {
                     _this.node.getChildByName("QuestionBox1").zIndex = 1;
@@ -707,6 +710,7 @@ var NewClass = /** @class */ (function (_super) {
                 break;
             case "ObjectsTweenIn":
                 //console.log("answer arrray index : ", this.answerArray.indexOf(_node.name));
+                this.node.getChildByName("questionPanel").children[0].getComponent(cc.Label).string = this.correctAudio[voIndex].name;
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;

@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "oval ",
+        "questionText": "Oval",
         "questionImageName": "basket.png",
         "questionAudioName": "identifyandtapontheovalshapedobject.mp3",
         "shouldPlayQuestionAudio": true,
@@ -31,12 +31,12 @@
           "purse.png"
         ],
         "correctAudios": [
-          "ovalshapedrugbyball.mp3"
+          "Oval shaped rugby ball.mp3"
         ],
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "oval ",
+        "questionText": "Oval",
         "questionImageName": "basket.png",
         "questionAudioName": "identifyandtapontheovalshapedobject.mp3",
         "shouldPlayQuestionAudio": true,
@@ -51,12 +51,12 @@
           "alarmclock.png"
         ],
         "correctAudios": [
-          "ovalshapedwatermelon.mp3"
+          "Oval shaped watermelon.mp3"
         ],
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "oval ",
+        "questionText": "Oval",
         "questionImageName": "basket.png",
         "questionAudioName": "identifyandtapontheovalshapedobject.mp3",
         "shouldPlayQuestionAudio": true,
@@ -71,12 +71,12 @@
           "pendant.png"
         ],
         "correctAudios": [
-          "ovalshapedpendant.mp3"
+          "Oval shaped pendant.mp3"
         ],
         "correctAnswerNum": "4"
       },
       {
-        "questionText": "oval",
+        "questionText": "Oval",
         "questionImageName": "basket.png",
         "questionAudioName": "identifyandtapontheovalshapedobject.mp3",
         "shouldPlayQuestionAudio": true,
@@ -91,12 +91,12 @@
           "football.png"
         ],
         "correctAudios": [
-          "ovalshapedgrapes.mp3"
+          "Oval shaped grapes.mp3"
         ],
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "oval",
+        "questionText": "Oval",
         "questionImageName": "basket.png",
         "questionAudioName": "identifyandtapontheovalshapedobject.mp3",
         "shouldPlayQuestionAudio": true,
@@ -111,7 +111,7 @@
           "clock.png"
         ],
         "correctAudios": [
-          "ovalshapedbeans.mp3"
+          "Oval shaped beans.mp3"
         ],
         "correctAnswerNum": "1"
       }
