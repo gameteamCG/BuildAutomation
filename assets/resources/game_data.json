@@ -10,7 +10,7 @@
   },
   "questionData": [
     {
-      "questionText": "41 _ 43",
+      "questionText": "41  _  43",
       "questionAudioName": "q1.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -25,7 +25,7 @@
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "_ 44 45",
+      "questionText": "_  44 45",
       "questionAudioName": "q2.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -40,7 +40,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "44 45 _",
+      "questionText": "44 45  _",
       "questionAudioName": "q3.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -55,7 +55,7 @@
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "46 _ 48",
+      "questionText": "46  _  48",
       "questionAudioName": "q4.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
@@ -70,7 +70,7 @@
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "48 49 _",
+      "questionText": "48 49  _",
       "questionAudioName": "q5.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
