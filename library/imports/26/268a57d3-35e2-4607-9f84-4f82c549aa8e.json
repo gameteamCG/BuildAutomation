@@ -1,0 +1,114 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "Abhay CG129",
+      "totalLevel": "5",
+      "TitleImageName": "Asset.png",
+      "introBgName": "Nur.png",
+      "bgmMusicName": "measurementBGM_1.mp3",
+      "mainBgName": "bg_bg.png",
+      "JockeyName": "Puzzle"
+    },
+    "questionData": [
+      {
+        "questionText": "Tricky word ",
+        "questionImageName": "Que.png",
+        "questionAudioName": "que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "like",
+          "make",
+          "can",
+          "the"
+        ],
+        "correctAudios": [
+          "like.mp3"
+        ],
+        "correctAnswerNum": "1"
+      },
+      {
+        "questionText": "Tricky word ",
+        "questionImageName": "Que.png",
+        "questionAudioName": "que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "she",
+          "make",
+          "the",
+          "like"
+        ],
+        "correctAudios": [
+          "like.mp3"
+        ],
+        "correctAnswerNum": "4"
+      },
+      {
+        "questionText": "Tricky word ",
+        "questionImageName": "Que.png",
+        "questionAudioName": "que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "you",
+          "like",
+          "the",
+          "can"
+        ],
+        "correctAudios": [
+          "like.mp3"
+        ],
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionText": "Tricky word ",
+        "questionImageName": "Que.png",
+        "questionAudioName": "que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "they",
+          "make",
+          "like",
+          "can"
+        ],
+        "correctAudios": [
+          "like.mp3"
+        ],
+        "correctAnswerNum": "3"
+      },
+      {
+        "questionText": "Tricky word ",
+        "questionImageName": "Que.png",
+        "questionAudioName": "que.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonOptionImageName": "blankframe.png",
+        "isOptionText": true,
+        "numberOfOptions": 4,
+        "options": [
+          "like",
+          "make",
+          "she",
+          "can"
+        ],
+        "correctAudios": [
+          "like.mp3"
+        ],
+        "correctAnswerNum": "1"
+      }
+    ]
+  }
+}

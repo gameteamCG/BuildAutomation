@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\buildfiles\\EYFS\\fs2_phonics\\EYFS_Tricky_word_like_fs2_phonics_r368",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

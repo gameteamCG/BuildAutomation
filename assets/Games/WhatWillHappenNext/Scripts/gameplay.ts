@@ -200,7 +200,7 @@ export default class NewClass extends cc.Component {
                 }
                 else {
                     // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
-                    this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
+                    this.node.getChildByName("Option").getChildByName((i + 1).toString()).children[0].getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
                 }
             }
             for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios.length; i++) {
@@ -240,7 +240,7 @@ export default class NewClass extends cc.Component {
                 }
 
                 else {
-                    this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
+                    this.node.getChildByName("Option").getChildByName((i + 1).toString()).children[0].getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
                 }
             }
             for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios.length; i++) {
@@ -260,7 +260,9 @@ export default class NewClass extends cc.Component {
         // this.OptionsLayout();
 
         this.totalAnswers = this.answerArray.length;
-
+        for (let i = 1; i <= this.node.getChildByName("Option").children.length; i++) {
+            this.node.getChildByName("Option").children[i - 1].scale = 0;
+        }
         this.OptionsLayoutGrid();
         this.reverseOptionsLayout();
         this.callThirdObjectIn();
@@ -296,29 +298,20 @@ export default class NewClass extends cc.Component {
     }
 
     GenerateOptions() {
-        for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].numberOfOptions; i++) {
-            let option = cc.instantiate(this.node.getChildByName("template"));
-            option.name = (i + 1).toString();
-            option.setParent(this.node.getChildByName("Option"));
-            option.setPosition(cc.v2(0, 0));
-            option.opacity = 0;
-            option.width = 250;
-            option.height = 250;
-
-            option.on('touchstart', function (event) {
-                this.TouchStart(option.getChildByName("img"));
+        for (let i = 0; i < this.node.getChildByName("Option").children.length; i++) {
+            this.node.getChildByName("Option").children[i].on('touchstart', function (event) {
+                this.TouchStart(this.node.getChildByName("Option").children[i].getChildByName("img"));
             }, this);
-            option.on('touchmove', function (event) {
-                this.TouchMove(option.getChildByName("img"), event);
+            this.node.getChildByName("Option").children[i].on('touchmove', function (event) {
+                this.TouchMove(this.node.getChildByName("Option").children[i].getChildByName("img"), event);
             }, this);
-            option.on('touchend', function (event) {
-                this.TouchEnd(option.getChildByName("img"));
+            this.node.getChildByName("Option").children[i].on('touchend', function (event) {
+                this.TouchEnd(this.node.getChildByName("Option").children[i].getChildByName("img"));
             }, this);
-            option.on('touchcancel', function (event) {
-                this.TouchEnd(option.getChildByName("img"));
+            this.node.getChildByName("Option").children[i].on('touchcancel', function (event) {
+                this.TouchEnd(this.node.getChildByName("Option").children[i].getChildByName("img"));
             }, this);
         }
-        this.node.getChildByName("template").destroy();
     }
 
     callThirdObjectIn() {
@@ -404,7 +397,7 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("QuestionBox1").setPosition(this.node.getChildByName("QuestionBox1").x - 120, this.node.getChildByName("QuestionBox1").y);
         }
         let delay: number = 0.5;
-        let ObjScale: number = 1;
+        let ObjScale: number = 1.2;
         for (let i = 1; i <= this.node.getChildByName("Option").children.length; i++) {
             this.node.getChildByName("Option").children[i - 1].scale = 0;
             this.node.getChildByName("Option").children[i - 1].opacity = 255;
