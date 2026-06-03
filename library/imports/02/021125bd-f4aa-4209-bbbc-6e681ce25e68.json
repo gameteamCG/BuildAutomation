@@ -1167,14 +1167,14 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        207.528,
+        203.487,
         0,
         0,
         0,
         0,
         1,
-        0.7,
-        0.7,
+        0.8,
+        0.8,
         1
       ]
     },
@@ -4805,34 +4805,34 @@
     "_enabled": true,
     "questionImages": [
       {
-        "__uuid__": "ec32340b-b8ca-4dff-8a67-d107a705327e"
-      },
-      {
         "__uuid__": "82dd2f58-f25a-46f1-8511-b5310ab0da20"
-      },
-      {
-        "__uuid__": "bbf17cd5-e38e-4166-8dd0-5cef9d79abdf"
       },
       {
         "__uuid__": "1f53e8c2-e926-4390-87c7-d6d28d47f22c"
       },
       {
-        "__uuid__": "3e6bd6dd-79ec-4b5c-ac71-2e05a61a52b7"
-      },
-      {
         "__uuid__": "05a6a974-faeb-4206-89a2-54438ccfccb2"
-      },
-      {
-        "__uuid__": "4758e036-6c77-48d9-be07-effbb5396a12"
       },
       {
         "__uuid__": "35c0d3c1-d3de-48a9-8d83-32e6aed77cc5"
       },
       {
+        "__uuid__": "d747f1f2-7379-4884-9f6e-d61bb3918bfd"
+      },
+      {
         "__uuid__": "355206a4-5925-4f59-8858-868402f4c3eb"
       },
       {
-        "__uuid__": "d747f1f2-7379-4884-9f6e-d61bb3918bfd"
+        "__uuid__": "3e6bd6dd-79ec-4b5c-ac71-2e05a61a52b7"
+      },
+      {
+        "__uuid__": "bbf17cd5-e38e-4166-8dd0-5cef9d79abdf"
+      },
+      {
+        "__uuid__": "4758e036-6c77-48d9-be07-effbb5396a12"
+      },
+      {
+        "__uuid__": "ec32340b-b8ca-4dff-8a67-d107a705327e"
       }
     ],
     "playerNode": {
