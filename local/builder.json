@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\SmartLearn\\LKG\\Animal_shadow_matching_LKG_GA_84",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

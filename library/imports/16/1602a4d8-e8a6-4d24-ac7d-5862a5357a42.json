@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Animal shadow matching_LKG_GA_84",
-      "totalLevel": "7",
+      "totalLevel": "6",
       "TitleImageName": "title.png",
       "introBgName": "Junior.png",
       "bgmMusicName": "BGM.mp3",
@@ -15,28 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "shadow matching",
-        "questionAudioName": "match.mp3",
-        "shouldPlayQuestionAudio": true,
-        "commonLeftOptionImageName": "Asset16.png",
-        "isLeftOptionText": false,
-        "numberOfLeftOptions": 1,
-        "leftoptions": [
-          "Asset2.png"
-        ],
-        "reiterations": [
-          "30856887_7_pig.mp3"
-        ],
-        "commonRightOptionImageName": "Asset15.png",
-        "isRightOptionText": false,
-        "numberOfRightOptions": 2,
-        "rightoptions": [
-          "Asset9.png",
-          "Asset8.png"
-        ]
-      },
-      {
-        "questionText": "shadow matching",
+        "questionText": "Shadow matching",
         "questionAudioName": "match.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "Asset16.png",
@@ -57,7 +36,7 @@
         ]
       },
       {
-        "questionText": "shadow matching",
+        "questionText": "Shadow matching",
         "questionAudioName": "match.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "Asset16.png",
@@ -78,7 +57,7 @@
         ]
       },
       {
-        "questionText": "shadow matching",
+        "questionText": "Shadow matching",
         "questionAudioName": "match.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "Asset16.png",
@@ -99,7 +78,7 @@
         ]
       },
       {
-        "questionText": "shadow matching",
+        "questionText": "Shadow matching",
         "questionAudioName": "match.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "Asset16.png",
@@ -120,7 +99,7 @@
         ]
       },
       {
-        "questionText": "shadow matching",
+        "questionText": "Shadow matching",
         "questionAudioName": "match.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "Asset16.png",
@@ -141,7 +120,7 @@
         ]
       },
       {
-        "questionText": "shadow matching",
+        "questionText": "Shadow matching",
         "questionAudioName": "match.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "Asset16.png",

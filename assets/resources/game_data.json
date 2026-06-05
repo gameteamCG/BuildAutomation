@@ -1,1 +1,139 @@
-{"additionalData":{"GameID":"Animal shadow matching_LKG_GA_84","totalLevel":"7","TitleImageName":"title.png","introBgName":"Junior.png","bgmMusicName":"BGM.mp3","mainBgName":"bg.png","JockeyName":"Puzzle"},"questionData":[{"questionText":"shadow matching","questionAudioName":"match.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Asset16.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["Asset2.png"],"reiterations":["30856887_7_pig.mp3"],"commonRightOptionImageName":"Asset15.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["Asset9.png","Asset8.png"]},{"questionText":"shadow matching","questionAudioName":"match.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Asset16.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["Asset1.png"],"reiterations":["30856887_2_horse.mp3"],"commonRightOptionImageName":"Asset15.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["Asset8.png","Asset14.png"]},{"questionText":"shadow matching","questionAudioName":"match.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Asset16.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["Asset3.png"],"reiterations":["30856887_3_sheep.mp3"],"commonRightOptionImageName":"Asset15.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["Asset10.png","Asset13.png"]},{"questionText":"shadow matching","questionAudioName":"match.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Asset16.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["Asset4.png"],"reiterations":["30856887_6_hen.mp3"],"commonRightOptionImageName":"Asset15.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["Asset12.png","Asset9.png"]},{"questionText":"shadow matching","questionAudioName":"match.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Asset16.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["Asset5.png"],"reiterations":["30856689_6_tiger.mp3"],"commonRightOptionImageName":"Asset15.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["Asset11.png","Asset10.png"]},{"questionText":"shadow matching","questionAudioName":"match.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Asset16.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["Asset6.png"],"reiterations":["30856689_3_lion.mp3"],"commonRightOptionImageName":"Asset15.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["Asset13.png","Asset12.png"]},{"questionText":"shadow matching","questionAudioName":"match.mp3","shouldPlayQuestionAudio":true,"commonLeftOptionImageName":"Asset16.png","isLeftOptionText":false,"numberOfLeftOptions":1,"leftoptions":["Asset7.png"],"reiterations":["bear.mp3"],"commonRightOptionImageName":"Asset15.png","isRightOptionText":false,"numberOfRightOptions":2,"rightoptions":["Asset14.png","Asset11.png"]}]}
+{
+    "additionalData": {
+        "GameID": "Animal shadow matching_LKG_GA_84",
+        "totalLevel": "6",
+        "TitleImageName": "title.png",
+        "introBgName": "Junior.png",
+        "bgmMusicName": "BGM.mp3",
+        "mainBgName": "bg.png",
+        "JockeyName": "Puzzle"
+    },
+    "questionData": [
+        {
+            "questionText": "Shadow matching",
+            "questionAudioName": "match.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Asset16.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "Asset1.png"
+            ],
+            "reiterations": [
+                "30856887_2_horse.mp3"
+            ],
+            "commonRightOptionImageName": "Asset15.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "Asset8.png",
+                "Asset14.png"
+            ]
+        },
+        {
+            "questionText": "Shadow matching",
+            "questionAudioName": "match.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Asset16.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "Asset3.png"
+            ],
+            "reiterations": [
+                "30856887_3_sheep.mp3"
+            ],
+            "commonRightOptionImageName": "Asset15.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "Asset10.png",
+                "Asset13.png"
+            ]
+        },
+        {
+            "questionText": "Shadow matching",
+            "questionAudioName": "match.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Asset16.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "Asset4.png"
+            ],
+            "reiterations": [
+                "30856887_6_hen.mp3"
+            ],
+            "commonRightOptionImageName": "Asset15.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "Asset12.png",
+                "Asset9.png"
+            ]
+        },
+        {
+            "questionText": "Shadow matching",
+            "questionAudioName": "match.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Asset16.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "Asset5.png"
+            ],
+            "reiterations": [
+                "30856689_6_tiger.mp3"
+            ],
+            "commonRightOptionImageName": "Asset15.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "Asset11.png",
+                "Asset10.png"
+            ]
+        },
+        {
+            "questionText": "Shadow matching",
+            "questionAudioName": "match.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Asset16.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "Asset6.png"
+            ],
+            "reiterations": [
+                "30856689_3_lion.mp3"
+            ],
+            "commonRightOptionImageName": "Asset15.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "Asset13.png",
+                "Asset12.png"
+            ]
+        },
+        {
+            "questionText": "Shadow matching",
+            "questionAudioName": "match.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonLeftOptionImageName": "Asset16.png",
+            "isLeftOptionText": false,
+            "numberOfLeftOptions": 1,
+            "leftoptions": [
+                "Asset7.png"
+            ],
+            "reiterations": [
+                "bear.mp3"
+            ],
+            "commonRightOptionImageName": "Asset15.png",
+            "isRightOptionText": false,
+            "numberOfRightOptions": 2,
+            "rightoptions": [
+                "Asset14.png",
+                "Asset11.png"
+            ]
+        }
+    ]
+}
