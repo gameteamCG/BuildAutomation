@@ -56,7 +56,7 @@ var NewClass = /** @class */ (function (_super) {
         else if (StartGame_1.default.Instance.jockeyName == "supercub") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
         }
-        this.node.getComponent(cc.Sprite).spriteFrame = StartGame_1.default.Instance.introBG;
+        // this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
     };
     NewClass.prototype.start = function () {
         var _this = this;
@@ -69,19 +69,19 @@ var NewClass = /** @class */ (function (_super) {
             _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
             _this.node.getComponent(cc.AudioSource).play();
             cc.tween(_this.node.getChildByName("star1"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.6 }, { easing: "sineInOut" }).start();
         }, 0.8);
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
             _this.node.getComponent(cc.AudioSource).play();
             cc.tween(_this.node.getChildByName("star2"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.7 }, { easing: "sineInOut" }).start();
         }, 1.3);
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
             _this.node.getComponent(cc.AudioSource).play();
             cc.tween(_this.node.getChildByName("star3"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.7 }, { easing: "sineInOut" }).start();
         }, 1.8);
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.yeah[0];
