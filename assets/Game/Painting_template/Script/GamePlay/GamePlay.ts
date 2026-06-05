@@ -222,7 +222,9 @@ export default class GamePlay extends cc.Component {
         // cc.director.loadScene("LevelSelection");
         this.checkNextLevel();
     }
-
+    playButtonSound() {
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
+    }
     OnExitClicked() {
         cc.audioEngine.playEffect(this.clickAud, false);
         console.log("gameExit--true");

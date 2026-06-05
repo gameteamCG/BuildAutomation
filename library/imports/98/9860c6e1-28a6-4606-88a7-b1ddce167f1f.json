@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "healthy food",
+        "questionText": "Healthy food",
         "questionImageName": "apple.png",
         "questionAudioName": "healthyQ.mp3",
         "shouldPlayQuestionAudio": true,
@@ -25,7 +25,7 @@
         "correctAudioName": "positive_4.mp3"
       },
       {
-        "questionText": "unhealthy food",
+        "questionText": "Unhealthy food",
         "questionImageName": "donut.png",
         "questionAudioName": "unhealthyQ.mp3",
         "shouldPlayQuestionAudio": true,

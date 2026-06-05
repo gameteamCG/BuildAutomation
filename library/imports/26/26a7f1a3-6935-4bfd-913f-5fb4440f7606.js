@@ -226,6 +226,9 @@ var GamePlay = /** @class */ (function (_super) {
         // cc.director.loadScene("LevelSelection");
         this.checkNextLevel();
     };
+    GamePlay.prototype.playButtonSound = function () {
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
+    };
     GamePlay.prototype.OnExitClicked = function () {
         cc.audioEngine.playEffect(this.clickAud, false);
         console.log("gameExit--true");
