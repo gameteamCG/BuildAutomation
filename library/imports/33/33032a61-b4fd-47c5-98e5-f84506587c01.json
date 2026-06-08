@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_what_did_mike_ran_on_top_of",
+    "texture": "7a6365e8-4e54-4bc0-86c3-a102c51350ce",
+    "atlas": "",
+    "rect": [
+      97,
+      132,
+      308,
+      253
+    ],
+    "offset": [
+      0.5,
+      -8
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

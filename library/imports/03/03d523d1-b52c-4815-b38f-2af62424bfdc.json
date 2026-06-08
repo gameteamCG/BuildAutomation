@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_where_did_mike_go",
+    "texture": "9b7719be-743d-430c-ac53-bba1d8ae7e22",
+    "atlas": "",
+    "rect": [
+      68,
+      178,
+      364,
+      161
+    ],
+    "offset": [
+      0,
+      -8.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_football",
+    "texture": "784e38b4-8eb0-4461-8ccc-6b9461af89d2",
+    "atlas": "",
+    "rect": [
+      58,
+      25,
+      162,
+      191
+    ],
+    "offset": [
+      13.5,
+      5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_ride",
+    "texture": "32a2c522-22e9-4804-bdd6-9dd57bf48ca4",
+    "atlas": "",
+    "rect": [
+      63,
+      37,
+      142,
+      193
+    ],
+    "offset": [
+      8.5,
+      -8
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

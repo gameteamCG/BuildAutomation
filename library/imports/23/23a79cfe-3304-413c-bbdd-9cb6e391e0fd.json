@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_what_kind_o_f_fig_was_the_pie_made_up_of",
+    "texture": "d44a139e-879e-49c5-98e8-c86753cebb0a",
+    "atlas": "",
+    "rect": [
+      21,
+      133,
+      458,
+      251
+    ],
+    "offset": [
+      -0.5,
+      -8
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "416bb74b-793a-491c-9adf-4406b33cea7f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "new_what_did_mike_take_with_him": {
+      "ver": "1.0.6",
+      "uuid": "86018203-6199-481f-adde-40f4d7b95c7b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "416bb74b-793a-491c-9adf-4406b33cea7f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -5,
+      "offsetY": 2,
+      "trimX": 102,
+      "trimY": 132,
+      "width": 287,
+      "height": 233,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_what_did_mike_take_with_him",
+    "texture": "416bb74b-793a-491c-9adf-4406b33cea7f",
+    "atlas": "",
+    "rect": [
+      102,
+      132,
+      287,
+      233
+    ],
+    "offset": [
+      -5,
+      2
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

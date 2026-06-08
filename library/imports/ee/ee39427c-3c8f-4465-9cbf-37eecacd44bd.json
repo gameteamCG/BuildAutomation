@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_park",
+    "texture": "e1934e9a-5fe6-47d8-9e53-d532fa15e8f8",
+    "atlas": "",
+    "rect": [
+      43,
+      22,
+      167,
+      216
+    ],
+    "offset": [
+      1,
+      -4.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

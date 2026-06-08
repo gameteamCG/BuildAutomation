@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_what_did_mike_fly",
+    "texture": "ffcddaa7-24bb-4cba-9cd0-d7569b35df5e",
+    "atlas": "",
+    "rect": [
+      116,
+      178,
+      269,
+      161
+    ],
+    "offset": [
+      0.5,
+      -8
+    ],
+    "originalSize": [
+      500,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

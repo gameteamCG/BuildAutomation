@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d44a139e-879e-49c5-98e8-c86753cebb0a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "new_what_kind_o_f_fig_was_the_pie_made_up_of": {
+      "ver": "1.0.6",
+      "uuid": "23a79cfe-3304-413c-bbdd-9cb6e391e0fd",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d44a139e-879e-49c5-98e8-c86753cebb0a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -8,
+      "trimX": 21,
+      "trimY": 133,
+      "width": 458,
+      "height": 251,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
