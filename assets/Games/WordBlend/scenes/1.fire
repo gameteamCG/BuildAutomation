@@ -3239,8 +3239,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 50,
-    "_lineHeight": 60,
+    "_fontSize": 120,
+    "_lineHeight": 125,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "76a75812-cc05-483f-a8f7-4ccf842f4aa4"
