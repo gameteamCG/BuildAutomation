@@ -227,7 +227,7 @@ var GamePlay = /** @class */ (function (_super) {
         this.checkNextLevel();
     };
     GamePlay.prototype.playButtonSound = function () {
-        cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel - 1], false);
     };
     GamePlay.prototype.OnExitClicked = function () {
         cc.audioEngine.playEffect(this.clickAud, false);

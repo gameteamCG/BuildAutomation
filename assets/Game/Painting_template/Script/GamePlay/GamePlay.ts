@@ -223,7 +223,7 @@ export default class GamePlay extends cc.Component {
         this.checkNextLevel();
     }
     playButtonSound() {
-        cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel - 1], false);
     }
     OnExitClicked() {
         cc.audioEngine.playEffect(this.clickAud, false);
