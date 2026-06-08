@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toad",
+    "texture": "8290b205-b4ec-4208-8459-afbf290fbb89",
+    "atlas": "",
+    "rect": [
+      50,
+      82,
+      151,
+      138
+    ],
+    "offset": [
+      0,
+      -25.5
+    ],
+    "originalSize": [
+      251,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
