@@ -5,7 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+//import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -32,6 +33,7 @@ export default class Gameplay extends cc.Component {
     private optionsLayout: string = "layout3";
 
     correctAnswer: number[] = [];
+
 
     private canTouch: boolean = true;
     correctCounter: number = 0;
@@ -197,7 +199,7 @@ export default class Gameplay extends cc.Component {
         this.currentJockey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
         this.currentJockey.active = true;
     }
-
+    private quesWords: string[] = ["Mute", "Sew", "Glue", "Tube", "Rule", "Blew", "Clue"];
     start() {
 
         this.LoadQuestion();
@@ -208,6 +210,7 @@ export default class Gameplay extends cc.Component {
             if (this.questionAudio) {
                 if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     cc.audioEngine.playEffect(this.questionAudio, false);
+                    this.node.getChildByName("Questionbar").getChildByName("shortQBar").getChildByName("New Label").getComponent(cc.Label).string = this.quesWords[startGame.Instance.currentLevel - 1];
                 }
             }
             if (this.optionsLayout == "layout1") {
@@ -274,7 +277,10 @@ export default class Gameplay extends cc.Component {
             }, 1);
         }, 1);
     }
-
+    playaudio(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    }
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
         for (let i = 0; i < _optionCount; i++) {
             let _option: cc.Node = cc.instantiate(_template);
@@ -520,6 +526,7 @@ export default class Gameplay extends cc.Component {
         }
     }
 
+
     callJockey() {
         let anim: string[] = [];
         if (startGame.Instance.jockeyName == "Podar") {
@@ -756,4 +763,5 @@ export default class Gameplay extends cc.Component {
             callback(audioClip);
         });
     }
+
 }

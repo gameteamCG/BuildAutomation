@@ -29,7 +29,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
+//import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
@@ -57,6 +58,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.reiterationAudio = [];
         _this.currentJockey = null;
         _this.maxLevel = 0;
+        _this.quesWords = ["Mute", "Sew", "Glue", "Tube", "Rule", "Blew", "Clue"];
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
@@ -222,6 +224,7 @@ var Gameplay = /** @class */ (function (_super) {
             if (_this.questionAudio) {
                 if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     cc.audioEngine.playEffect(_this.questionAudio, false);
+                    _this.node.getChildByName("Questionbar").getChildByName("shortQBar").getChildByName("New Label").getComponent(cc.Label).string = _this.quesWords[StartGame_1.default.Instance.currentLevel - 1];
                 }
             }
             if (_this.optionsLayout == "layout1") {
@@ -295,6 +298,10 @@ var Gameplay = /** @class */ (function (_super) {
                 }
             }, 1);
         }, 1);
+    };
+    Gameplay.prototype.playaudio = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionAudio, false);
     };
     Gameplay.prototype.generateOptions = function (_template, _optionParent, _optionCount) {
         for (var i = 0; i < _optionCount; i++) {
