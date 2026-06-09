@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Community helpers and their tools _LKG_GA_54",
-      "totalLevel": "6",
+      "totalLevel": "4",
       "TitleImageName": "communityhelpers.png",
       "introBgName": "skg.png",
       "bgmMusicName": "bgm.mp3",
@@ -15,7 +15,7 @@
     "questionData": [
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg_6.png",
+        "questionBgName": "bg1.png",
         "questionAudioName": "Tapontheobjectsthatareusedbyaconstructionworker.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -45,37 +45,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "Bg_2.png",
-        "questionAudioName": "Tapontheobjectsthatareusedbyadentist.mp3",
-        "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
-        "numberOfOptions": 5,
-        "options": [
-          "mirror.png",
-          "braces.png",
-          "mop.png",
-          "brush.png",
-          "handcuff.png"
-        ],
-        "optionsBg": [
-          "mirror4.png",
-          "braces6.png",
-          "mop16.png",
-          "brush21.png",
-          "handcuffs18.png"
-        ],
-        "correctAudioName": "L2Correct.mp3",
-        "wrongAudioName": "ns.mp3",
-        "reiterationAudioName": [
-          "MIRROR.mp3",
-          "braces.mp3",
-          "brush.mp3"
-        ],
-        "correctAnswerNum": "124"
-      },
-      {
-        "questionLayout": "layout3",
-        "questionBgName": "Bg_2.png",
+        "questionBgName": "bg2.png",
         "questionAudioName": "tapontheobjectsthatareusedbyadoctor.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -105,7 +75,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg.png",
+        "questionBgName": "bg3.png",
         "questionAudioName": "Tapontheobjectsthatareusedbyafireman.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -135,7 +105,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg_1.png",
+        "questionBgName": "bg4.png",
         "questionAudioName": "Tapontheobjectthatareusedbythe police.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -162,36 +132,6 @@
           "POLICECAR.mp3"
         ],
         "correctAnswerNum": "245"
-      },
-      {
-        "questionLayout": "layout3",
-        "questionBgName": "bg_5.png",
-        "questionAudioName": "Tapontheobjectsthatareusedbyapostman.mp3",
-        "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
-        "numberOfOptions": 5,
-        "options": [
-          "postbox.png",
-          "letters.png",
-          "stamp.png",
-          "soap.png",
-          "tire.png"
-        ],
-        "optionsBg": [
-          "postbox2.png",
-          "letter5.png",
-          "stamp10.png",
-          "soap11.png",
-          "tire12.png"
-        ],
-        "correctAudioName": "L8Correct.mp3",
-        "wrongAudioName": "ns.mp3",
-        "reiterationAudioName": [
-          "postbox.mp3",
-          "LETTERS.mp3",
-          "STAMPS.mp3"
-        ],
-        "correctAnswerNum": "123"
       }
     ]
   }
