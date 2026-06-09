@@ -1,5 +1,4 @@
-
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -177,7 +176,7 @@ export default class NewClass extends cc.Component {
             cc.director.preloadScene("GameEnd");
         }
         else {
-            cc.director.preloadScene((this.currScene + 1).toString());
+            cc.director.preloadScene("1");
         }
         startGame.Instance.clickEvent = false;
         let canvas = cc.find("Canvas");
@@ -604,11 +603,11 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            cc.tween(this.options).to(0.3, { x: 0, y: -50, scaleX: 1, scaleY: 1 }).start();
 
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
-                cc.audioEngine.playEffect(this.puzzleVoIteration, false);
+                // cc.audioEngine.playEffect(this.puzzleVoIteration, false);
                 this.scheduleOnce(() => {
                     this.options.color = cc.Color.WHITE;
                     // this.wordAppear();
@@ -622,10 +621,20 @@ export default class NewClass extends cc.Component {
                     else {
                         this.CallJockey();
                     }
-                }, this.puzzleVoIteration.duration);
+                }, 1);
             }, 0.5);
         } else {
             this.interactable = true;
+        }
+    }
+
+    playQues(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        if (this.myOptions.active == false) {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
         }
     }
 
@@ -778,7 +787,7 @@ export default class NewClass extends cc.Component {
 
     OptionsAppear() {
 
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
+        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: -50, scaleX: 1, scaleY: 1 }).start();
 
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(() => {
