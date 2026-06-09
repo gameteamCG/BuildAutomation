@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "Tens and Ones",
+        "questionText": "Tens and ones",
         "questionImageName": "86.png",
         "questionAudioName": "2QVO.mp3",
         "shouldPlayQuestionAudio": true,
@@ -30,7 +30,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Tens and Ones",
+        "questionText": "Tens and ones",
         "questionImageName": "87.png",
         "questionAudioName": "2QVO.mp3",
         "shouldPlayQuestionAudio": true,
@@ -45,7 +45,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Tens and Ones",
+        "questionText": "Tens and ones",
         "questionImageName": "88.png",
         "questionAudioName": "2QVO.mp3",
         "shouldPlayQuestionAudio": true,
@@ -60,7 +60,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Tens and Ones",
+        "questionText": "Tens and ones",
         "questionImageName": "89.png",
         "questionAudioName": "2QVO.mp3",
         "shouldPlayQuestionAudio": true,
@@ -75,7 +75,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Tens and Ones",
+        "questionText": "Tens and ones",
         "questionImageName": "90.png",
         "questionAudioName": "2QVO.mp3",
         "shouldPlayQuestionAudio": true,
