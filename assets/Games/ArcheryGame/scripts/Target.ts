@@ -14,7 +14,7 @@ export default class Target extends cc.Component {
   @property(cc.Label)
   public targetLabel: cc.Label = null;
 
-  public defColor = new cc.Color(96, 45, 11);
+  public defColor = new cc.Color(255, 255, 255);
 
   public setValue(val: number) {
     // this.value = val;

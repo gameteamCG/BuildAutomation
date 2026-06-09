@@ -84,7 +84,9 @@ var startGame = /** @class */ (function (_super) {
                 _this.JockeyNode = element;
             }
         });
-        this.loadingBar = cc.find("Canvas/bg/jaipuria/loadingBar").getComponent(cc.ProgressBar);
+        this.loadingBar = cc
+            .find("Canvas/bg/jaipuria/loadingBar")
+            .getComponent(cc.ProgressBar);
         this.loadingBar.node.active = false;
     };
     startGame.prototype.logData = function () {
@@ -104,18 +106,18 @@ var startGame = /** @class */ (function (_super) {
     };
     startGame.prototype.removeExtension = function (imageName) {
         // Remove .png extension
-        return imageName.replace(/\.png$/g, '');
+        return imageName.replace(/\.png$/g, "");
     };
     startGame.prototype.removeAudioExtension = function (audioName) {
         // Remove .png extension
-        return audioName.replace(/\.mp3$/g, '');
+        return audioName.replace(/\.mp3$/g, "");
     };
     startGame.prototype.updateJSONdata = function () {
         var _this = this;
         if (this.isDemoGame) {
             var urlParams = new URLSearchParams(window.location.search);
             // Get the 'json' parameter value from the URL
-            var encodedJson = urlParams.get('json');
+            var encodedJson = urlParams.get("json");
             // Decode the URL-encoded JSON data
             var decodedJsonString = decodeURIComponent(encodedJson);
             // Parse the JSON string into a JavaScript object
@@ -134,7 +136,11 @@ var startGame = /** @class */ (function (_super) {
                     return;
                 }
                 var spriteFrame = new cc.SpriteFrame(texture);
-                cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                cc
+                    .find("Canvas")
+                    .getChildByName("bg")
+                    .getChildByName("Title")
+                    .getComponent(cc.Sprite).spriteFrame = spriteFrame;
             });
             cc.loader.load(jsonData.additionalData.bgmMusicName, function (err, audioClip) {
                 if (err) {
@@ -151,7 +157,10 @@ var startGame = /** @class */ (function (_super) {
                     return;
                 }
                 var spriteFrame = new cc.SpriteFrame(texture);
-                cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                cc
+                    .find("Canvas")
+                    .getChildByName("bg")
+                    .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 _this.introBG = spriteFrame;
             });
             cc.loader.load(jsonData.additionalData.mainBgName, function (err, texture) {
@@ -166,7 +175,7 @@ var startGame = /** @class */ (function (_super) {
             this.logData();
         }
         else {
-            cc.loader.loadRes('game_data', cc.JsonAsset, function (err, jsonAsset) {
+            cc.loader.loadRes("game_data", cc.JsonAsset, function (err, jsonAsset) {
                 if (err) {
                     cc.error(err.message || err);
                     return;
@@ -182,10 +191,17 @@ var startGame = /** @class */ (function (_super) {
                 _this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
                 _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.TitleImageName), function (spriteFrame) {
-                    cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    cc
+                        .find("Canvas")
+                        .getChildByName("bg")
+                        .getChildByName("Title")
+                        .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
                 _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.introBgName), function (spriteFrame) {
-                    cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    cc
+                        .find("Canvas")
+                        .getChildByName("bg")
+                        .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     _this.introBG = spriteFrame;
                 });
                 _this.loadAudioClip(_this.removeAudioExtension(jsonData.additionalData.bgmMusicName), function (AudioClip) {
@@ -197,7 +213,9 @@ var startGame = /** @class */ (function (_super) {
                     _this.mainBg = spriteFrame;
                 });
                 _this.questions.forEach(function (question) {
-                    question.options = question.options.map(function (option) { return _this.removeExtension(option); });
+                    question.options = question.options.map(function (option) {
+                        return _this.removeExtension(option);
+                    });
                 });
                 _this.logData();
             });
@@ -287,19 +305,23 @@ var startGame = /** @class */ (function (_super) {
                 this.levelType = "1";
             }
             else if (this.LevelAgeParameters.length > 1) {
-                if (ageValue > this.LevelAgeParameters[0] && ageValue <= this.LevelAgeParameters[1]) {
+                if (ageValue > this.LevelAgeParameters[0] &&
+                    ageValue <= this.LevelAgeParameters[1]) {
                     this.levelType = "2";
                 }
                 else if (this.LevelAgeParameters.length > 2) {
-                    if (ageValue > this.LevelAgeParameters[1] && ageValue <= this.LevelAgeParameters[2]) {
+                    if (ageValue > this.LevelAgeParameters[1] &&
+                        ageValue <= this.LevelAgeParameters[2]) {
                         this.levelType = "3";
                     }
                     else if (this.LevelAgeParameters.length > 3) {
-                        if (ageValue > this.LevelAgeParameters[2] && ageValue <= this.LevelAgeParameters[3]) {
+                        if (ageValue > this.LevelAgeParameters[2] &&
+                            ageValue <= this.LevelAgeParameters[3]) {
                             this.levelType = "4";
                         }
                         else if (this.LevelAgeParameters.length > 4) {
-                            if (ageValue > this.LevelAgeParameters[3] && ageValue <= this.LevelAgeParameters[4]) {
+                            if (ageValue > this.LevelAgeParameters[3] &&
+                                ageValue <= this.LevelAgeParameters[4]) {
                                 this.levelType = "5";
                             }
                         }
@@ -307,20 +329,23 @@ var startGame = /** @class */ (function (_super) {
                 }
             }
         }
+        // this.scheduleOnce(() => {
+        //     console.log("jockey name = ", this.jockeyName);
+        //     if (this.jockeyName == "Podar") {
+        //         cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
+        //     }
+        //     else if (this.jockeyName == "bag" || this.jockeyName == "cryon") {
+        //         cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
+        //     }
+        //     if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
+        //         this.scheduleOnce(() => {
+        //             cc.director.loadScene(this.NextSceneName);
+        //         }, 2);
+        //     }
+        // }, 1);
         this.scheduleOnce(function () {
-            console.log("jockey name = ", _this.jockeyName);
-            if (_this.jockeyName == "Podar") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
-            }
-            else if (_this.jockeyName == "bag" || _this.jockeyName == "cryon") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
-            }
-            if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
-                _this.scheduleOnce(function () {
-                    cc.director.loadScene(_this.NextSceneName);
-                }, 2);
-            }
-        }, 1);
+            cc.director.loadScene(_this.NextSceneName);
+        }, 2);
         // this.OnTimer();
     };
     startGame.prototype.onClickPlayBtn = function () {
@@ -329,13 +354,15 @@ var startGame = /** @class */ (function (_super) {
         var playBtnAnimComp = playBtn.getComponent(cc.Animation);
         playBtnAnimComp.stop();
         // playBtnAnimComp.enabled = false;
-        cc.tween(playBtn).to(0.1, { scale: 0.8 }, { easing: "quadOut" }).
-            to(0.2, { scale: 1.5 }, { easing: "quadOut" })
+        cc.tween(playBtn)
+            .to(0.1, { scale: 0.8 }, { easing: "quadOut" })
+            .to(0.2, { scale: 1.5 }, { easing: "quadOut" })
             .call(function () {
             // cc.director.loadScene(this.NextSceneName);
             playBtn.active = false;
             _this.loadSceneWithProgress();
-        }).start();
+        })
+            .start();
     };
     startGame.prototype.loadSceneWithProgress = function () {
         var _this = this;

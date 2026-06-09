@@ -1,5 +1,8 @@
 import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
+import JockeyController, {
+  JOCKEY_TYPE,
+} from "../../MainAssets/Scripts/JockeyController";
 import { GAME_EVENTS, LogTypes } from "../utils/Constants";
 import EVENTS from "../utils/EventSystem";
 import Target from "./Target";
@@ -14,6 +17,15 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class GameManager extends cc.Component {
+  @property(cc.AudioClip)
+  public runningSFX: cc.AudioClip = null;
+
+  @property(cc.AudioClip)
+  public wrongSFX: cc.AudioClip = null;
+
+  @property(cc.AudioClip)
+  public targetHitSFX: cc.AudioClip = null;
+
   @property(cc.Node)
   public playerNode: cc.Node = null;
 
@@ -85,7 +97,6 @@ export default class GameManager extends cc.Component {
 
   @property(cc.AudioClip)
   private questionSound: cc.AudioClip[] = [];
-
 
   @property(cc.AudioClip)
   private bagPositive: cc.AudioClip[] = [];
@@ -161,7 +172,6 @@ export default class GameManager extends cc.Component {
 
   clocktick: any;
 
-
   public generateQuestion() {
     let num1 = Math.floor(Math.random() * 50);
     let num2 = Math.floor(Math.random() * 50);
@@ -173,7 +183,10 @@ export default class GameManager extends cc.Component {
   onLoad() {
     console.log("onload@@@@@@@@@@@@@@");
     startGame.Instance.node.getChildByName("progress").opacity = 255;
-    ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1, false);
+    ProgressBar.Instance.ProgressFill(
+      globalVariables.Instance.currentLevel - 1,
+      false,
+    );
     cc.director.getPhysicsManager().enabled = true;
     this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
     this.node.on(cc.Node.EventType.TOUCH_END, this.onTouchEnd, this);
@@ -190,23 +203,30 @@ export default class GameManager extends cc.Component {
     this.roughAreaNode.active = false;
     this.mainBgSprite = this.bgNode.getComponent(cc.Sprite);
 
-    this.questionLabel.string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
-
+    this.questionLabel.string =
+      startGame.Instance.questions[
+        globalVariables.Instance.currentLevel - 1
+      ].questionText;
 
     // new code
     if (startGame.Instance.jockeyName == "Podar") {
-      this.node.getChildByName("QuestionLabel").getComponent(cc.Label).font = this.podar_font;
+      this.node.getChildByName("QuestionLabel").getComponent(cc.Label).font =
+        this.podar_font;
       this.node.getChildByName("Target").children.forEach((element) => {
-        element.getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+        element.getChildByName("text").getComponent(cc.Label).font =
+          this.podar_font;
+      });
+    } else if (
+      startGame.Instance.jockeyName == "bag" ||
+      startGame.Instance.jockeyName == "cryon"
+    ) {
+      this.node.getChildByName("QuestionLabel").getComponent(cc.Label).font =
+        this.jaipuria_font;
+      this.node.getChildByName("Target").children.forEach((element) => {
+        element.getChildByName("text").getComponent(cc.Label).font =
+          this.jaipuria_font;
       });
     }
-    else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-      this.node.getChildByName("QuestionLabel").getComponent(cc.Label).font = this.jaipuria_font;
-      this.node.getChildByName("Target").children.forEach((element) => {
-        element.getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-      });
-    }
-
 
     this.optionsNode = this.node.getChildByName("Target");
 
@@ -216,107 +236,159 @@ export default class GameManager extends cc.Component {
     }
     console.log(`levelStarted--` + globalVariables.Instance.currentLevel);
 
-    this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
+    this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame =
+      startGame.Instance.mainBg;
 
     // for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum.length; i++) {
     //   this.answerArray[i] = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum[i];
     // }
 
-    this.answerNum = parseInt(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum);
+    this.answerNum = parseInt(
+      startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]
+        .correctAnswerNum,
+    );
     this.questionSum = this.answerNum;
 
-    console.log("CorrectAnswer : ", this.answerNum, globalVariables.Instance.currentLevel);
-
-
+    console.log(
+      "CorrectAnswer : ",
+      this.answerNum,
+      globalVariables.Instance.currentLevel,
+    );
 
     if (startGame.Instance.isDemoGame) {
-      cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (err, audioClip) => {
-        if (err) {
-          console.error("Failed to load audio clip:", err);
-          return;
-        }
-        this.questionSound[0] = audioClip;
-      });
-
-
-
+      cc.loader.load(
+        startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]
+          .questionAudioName,
+        (err, audioClip) => {
+          if (err) {
+            console.error("Failed to load audio clip:", err);
+            return;
+          }
+          this.questionSound[0] = audioClip;
+        },
+      );
 
       for (let i = 0; i < this.TotalOptions; i++) {
-        if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
-          cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (err, texture) => {
-            if (err) {
-              console.error("Failed to load image:", err);
-              return;
-            }
-            const spriteFrame = new cc.SpriteFrame(texture);
-            this.node.getChildByName("Target").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-          });
+        if (
+          !startGame.Instance.questions[
+            globalVariables.Instance.currentLevel - 1
+          ].isOptionText
+        ) {
+          cc.loader.load(
+            startGame.Instance.questions[
+              globalVariables.Instance.currentLevel - 1
+            ].options[i],
+            (err, texture) => {
+              if (err) {
+                console.error("Failed to load image:", err);
+                return;
+              }
+              const spriteFrame = new cc.SpriteFrame(texture);
+              this.node
+                .getChildByName("Target")
+                .getChildByName((i + 1).toString())
+                .getChildByName("img")
+                .getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            },
+          );
+        } else {
+          this.node
+            .getChildByName("Target")
+            .getChildByName((i + 1).toString())
+            .getChildByName("text")
+            .getComponent(cc.Label).string =
+            startGame.Instance.questions[
+              globalVariables.Instance.currentLevel - 1
+            ].options[i];
         }
-        else {
-          this.node.getChildByName("Target").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
-        }
-
       }
 
-
-      cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios[0], (err, audioClip) => {
-        if (err) {
-          console.error("Failed to load audio clip:", err);
-          return;
-        }
-        this.correctAudio[0] = audioClip;
-      });
-    }
-    else {
-      this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (AudioClip) => {
-        this.questionSound[0] = AudioClip;
-        console.log("QuestionSound onload: ", this.questionSound[0]);
-      });
-
-
-
+      cc.loader.load(
+        startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]
+          .correctAudios[0],
+        (err, audioClip) => {
+          if (err) {
+            console.error("Failed to load audio clip:", err);
+            return;
+          }
+          this.correctAudio[0] = audioClip;
+        },
+      );
+    } else {
+      this.loadAudioClip(
+        startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]
+          .questionAudioName,
+        (AudioClip) => {
+          this.questionSound[0] = AudioClip;
+          console.log("QuestionSound onload: ", this.questionSound[0]);
+        },
+      );
 
       for (let i = 0; i < this.TotalOptions; i++) {
-        if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
-          this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (spriteFrame) => {
-            this.node.getChildByName("Target").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-          });
-        }
-        else {
+        if (
+          !startGame.Instance.questions[
+            globalVariables.Instance.currentLevel - 1
+          ].isOptionText
+        ) {
+          this.loadSpriteFrame(
+            startGame.Instance.questions[
+              globalVariables.Instance.currentLevel - 1
+            ].options[i],
+            (spriteFrame) => {
+              this.node
+                .getChildByName("Target")
+                .getChildByName((i + 1).toString())
+                .getChildByName("img")
+                .getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            },
+          );
+        } else {
           console.log("for i : ", i);
-          this.node.getChildByName("Target").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
+          this.node
+            .getChildByName("Target")
+            .getChildByName((i + 1).toString())
+            .getChildByName("text")
+            .getComponent(cc.Label).string =
+            startGame.Instance.questions[
+              globalVariables.Instance.currentLevel - 1
+            ].options[i];
         }
-
       }
 
-      this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios[0], (AudioClip) => {
-        this.correctAudio[0] = AudioClip;
-      });
-
+      this.loadAudioClip(
+        startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]
+          .correctAudios[0],
+        (AudioClip) => {
+          this.correctAudio[0] = AudioClip;
+        },
+      );
     }
-    this.currentJcokey = startGame.Instance.JockeyNode.getChildByName(startGame.Instance.jockeyName);
+    this.currentJcokey = startGame.Instance.JockeyNode.getChildByName(
+      startGame.Instance.jockeyName,
+    );
     this.currentJcokey.active = true;
-
   }
 
   start() {
+    this.startingMovement();
     console.log("start@@@@@@@@@@@@@@");
-    this.value = this.node.getChildByName("timer").getChildByName("timer1").getComponent(cc.Sprite).fillRange;
+    this.value = this.node
+      .getChildByName("timer")
+      .getChildByName("timer1")
+      .getComponent(cc.Sprite).fillRange;
 
-    ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
+    ProgressBar.Instance.ProgressFill(
+      globalVariables.Instance.currentLevel - 1,
+    );
     startGame.Instance.node.getChildByName("progress").opacity = 255;
-
-
 
     if (startGame.Instance.jockeyName == "bag") {
       this.positiveAudio = this.bagPositive;
       this.negativeAudio = this.bagNegative;
-    }
-    else if (startGame.Instance.jockeyName == "cryon") {
+    } else if (startGame.Instance.jockeyName == "cryon") {
       this.positiveAudio = this.cryonPositive;
       this.negativeAudio = this.cryonNegative;
-    }
-    else if (startGame.Instance.jockeyName == "Podar") {
+    } else if (startGame.Instance.jockeyName == "Podar") {
       this.positiveAudio = this.podarPositive;
       this.negativeAudio = this.podarNegative;
     }
@@ -335,83 +407,133 @@ export default class GameManager extends cc.Component {
         this.node.getChildByName("TutorialHand").active = true;
       }, this.questionSound[0].duration);
     }, 1);
-
   }
 
   setQuestionScreen() {
-
-    this.node.getChildByName("Target").children.forEach(element => {
+    this.node.getChildByName("Target").children.forEach((element) => {
       element.getChildByName("text").getComponent(cc.Label).string = "";
       if (element.getChildByName("img").getComponent(cc.Sprite).spriteFrame) {
-        element.getChildByName("img").getComponent(cc.Sprite).spriteFrame = null;
+        element.getChildByName("img").getComponent(cc.Sprite).spriteFrame =
+          null;
       }
     });
 
-    this.questionLabel.string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
+    this.questionLabel.string =
+      startGame.Instance.questions[
+        globalVariables.Instance.currentLevel - 1
+      ].questionText;
 
     if (startGame.Instance.isDemoGame) {
-      cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (err, audioClip) => {
-        if (err) {
-          console.error("Failed to load audio clip:", err);
-          return;
-        }
-        this.questionSound[0] = audioClip;
-      });
-
+      cc.loader.load(
+        startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]
+          .questionAudioName,
+        (err, audioClip) => {
+          if (err) {
+            console.error("Failed to load audio clip:", err);
+            return;
+          }
+          this.questionSound[0] = audioClip;
+        },
+      );
 
       for (let i = 0; i < this.TotalOptions; i++) {
-        if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
-          cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (err, texture) => {
-            if (err) {
-              console.error("Failed to load image:", err);
-              return;
-            }
-            const spriteFrame = new cc.SpriteFrame(texture);
-            this.node.getChildByName("Target").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-          });
+        if (
+          !startGame.Instance.questions[
+            globalVariables.Instance.currentLevel - 1
+          ].isOptionText
+        ) {
+          cc.loader.load(
+            startGame.Instance.questions[
+              globalVariables.Instance.currentLevel - 1
+            ].options[i],
+            (err, texture) => {
+              if (err) {
+                console.error("Failed to load image:", err);
+                return;
+              }
+              const spriteFrame = new cc.SpriteFrame(texture);
+              this.node
+                .getChildByName("Target")
+                .getChildByName((i + 1).toString())
+                .getChildByName("img")
+                .getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            },
+          );
+        } else {
+          this.node
+            .getChildByName("Target")
+            .getChildByName((i + 1).toString())
+            .getChildByName("text")
+            .getComponent(cc.Label).string =
+            startGame.Instance.questions[
+              globalVariables.Instance.currentLevel - 1
+            ].options[i];
         }
-        else {
-          this.node.getChildByName("Target").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
-        }
-
       }
 
-      cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios[0], (err, audioClip) => {
-        if (err) {
-          console.error("Failed to load audio clip:", err);
-          return;
-        }
-        this.correctAudio[0] = audioClip;
-      });
-    }
-    else {
-      this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (AudioClip) => {
-        this.questionSound[0] = AudioClip;
-      });
-
-
-
+      cc.loader.load(
+        startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]
+          .correctAudios[0],
+        (err, audioClip) => {
+          if (err) {
+            console.error("Failed to load audio clip:", err);
+            return;
+          }
+          this.correctAudio[0] = audioClip;
+        },
+      );
+    } else {
+      this.loadAudioClip(
+        startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]
+          .questionAudioName,
+        (AudioClip) => {
+          this.questionSound[0] = AudioClip;
+        },
+      );
 
       for (let i = 0; i < this.TotalOptions; i++) {
-        if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
-          this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (spriteFrame) => {
-            this.node.getChildByName("Target").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-          });
-        }
-        else {
+        if (
+          !startGame.Instance.questions[
+            globalVariables.Instance.currentLevel - 1
+          ].isOptionText
+        ) {
+          this.loadSpriteFrame(
+            startGame.Instance.questions[
+              globalVariables.Instance.currentLevel - 1
+            ].options[i],
+            (spriteFrame) => {
+              this.node
+                .getChildByName("Target")
+                .getChildByName((i + 1).toString())
+                .getChildByName("img")
+                .getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            },
+          );
+        } else {
           console.log("for i : ", i);
-          this.node.getChildByName("Target").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
+          this.node
+            .getChildByName("Target")
+            .getChildByName((i + 1).toString())
+            .getChildByName("text")
+            .getComponent(cc.Label).string =
+            startGame.Instance.questions[
+              globalVariables.Instance.currentLevel - 1
+            ].options[i];
         }
-
       }
 
-      this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios[0], (AudioClip) => {
-        this.correctAudio[0] = AudioClip;
-        console.log("@@@@@@@@@@@@@@@@@@@@@@@@", this.correctAudio[0])
-      });
-
+      this.loadAudioClip(
+        startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]
+          .correctAudios[0],
+        (AudioClip) => {
+          this.correctAudio[0] = AudioClip;
+          console.log("@@@@@@@@@@@@@@@@@@@@@@@@", this.correctAudio[0]);
+        },
+      );
     }
-    this.currentJcokey = startGame.Instance.JockeyNode.getChildByName(startGame.Instance.jockeyName);
+    this.currentJcokey = startGame.Instance.JockeyNode.getChildByName(
+      startGame.Instance.jockeyName,
+    );
     this.scheduleOnce(() => {
       cc.audioEngine.playEffect(this.questionSound[0], false);
       this.scheduleOnce(() => {
@@ -419,7 +541,7 @@ export default class GameManager extends cc.Component {
         this.gameStarted = true;
         this.resetTimer();
         this.clocktick = cc.audioEngine.playEffect(this.clockTick, true);
-      }, this.questionSound[0].duration)
+      }, this.questionSound[0].duration);
     }, 1);
   }
 
@@ -430,28 +552,121 @@ export default class GameManager extends cc.Component {
     return randomNumber;
   }
 
-  public movePlayer() {
-    this.node.getChildByName("Player").getChildByName("lefthand").getComponent(sp.Skeleton).setAnimation(0, "ch_2_run", true);
-    this.node.getChildByName("Player").getChildByName("player1").getComponent(sp.Skeleton).setAnimation(0, "ch_2_run", true);
-    this.node.getChildByName("Player").getChildByName("RightHand").getComponent(sp.Skeleton).setAnimation(0, "ch_2_run", true);
-    this.node.getChildByName("Player").getChildByName("arrow").getComponent(sp.Skeleton).setAnimation(0, "ch_2_run", true);
+  public startingMovement() {
+    this.node
+      .getChildByName("Player")
+      .getChildByName("lefthand")
+      .getComponent(sp.Skeleton)
+      .setAnimation(0, "ch_2_run", true);
+    this.node
+      .getChildByName("Player")
+      .getChildByName("player1")
+      .getComponent(sp.Skeleton)
+      .setAnimation(0, "ch_2_run", true);
+    this.node
+      .getChildByName("Player")
+      .getChildByName("RightHand")
+      .getComponent(sp.Skeleton)
+      .setAnimation(0, "ch_2_run", true);
+    this.node
+      .getChildByName("Player")
+      .getChildByName("arrow")
+      .getComponent(sp.Skeleton)
+      .setAnimation(0, "ch_2_run", true);
+
+    let id = cc.audioEngine.playEffect(this.runningSFX, false);
+
     cc.tween(this.playerNode)
-      .by(0.25, { position: cc.v3(100, 0, 0) }, { easing: "quartOut" })
-      .by(0.25, { position: cc.v3(-100, 0, 0) }, { easing: "quartOut" })
+      .to(1, { position: cc.v3(-419, -85, 0) }, { easing: "quartOut" })
+      .call(() => {
+        cc.audioEngine.stop(id);
+      })
+      // .by(0.25, { position: cc.v3(-100, 0, 0) }, { easing: "quartOut" })
       .start();
 
     this.scheduleOnce(() => {
-      this.node.getChildByName("Player").getChildByName("lefthand").getComponent(sp.Skeleton).setAnimation(0, "idle_1", true);
-      this.node.getChildByName("Player").getChildByName("player1").getComponent(sp.Skeleton).setAnimation(0, "idle_1", true);
-      this.node.getChildByName("Player").getChildByName("RightHand").getComponent(sp.Skeleton).setAnimation(0, "idle_1", true);
-      this.node.getChildByName("Player").getChildByName("arrow").getComponent(sp.Skeleton).setAnimation(0, "idle_1", true);
+      this.node
+        .getChildByName("Player")
+        .getChildByName("lefthand")
+        .getComponent(sp.Skeleton)
+        .setAnimation(0, "idle_1", true);
+      this.node
+        .getChildByName("Player")
+        .getChildByName("player1")
+        .getComponent(sp.Skeleton)
+        .setAnimation(0, "idle_1", true);
+      this.node
+        .getChildByName("Player")
+        .getChildByName("RightHand")
+        .getComponent(sp.Skeleton)
+        .setAnimation(0, "idle_1", true);
+      this.node
+        .getChildByName("Player")
+        .getChildByName("arrow")
+        .getComponent(sp.Skeleton)
+        .setAnimation(0, "idle_1", true);
+    }, 0.5);
+  }
+
+  public movePlayer() {
+    this.node
+      .getChildByName("Player")
+      .getChildByName("lefthand")
+      .getComponent(sp.Skeleton)
+      .setAnimation(0, "ch_2_run", true);
+    this.node
+      .getChildByName("Player")
+      .getChildByName("player1")
+      .getComponent(sp.Skeleton)
+      .setAnimation(0, "ch_2_run", true);
+    this.node
+      .getChildByName("Player")
+      .getChildByName("RightHand")
+      .getComponent(sp.Skeleton)
+      .setAnimation(0, "ch_2_run", true);
+    this.node
+      .getChildByName("Player")
+      .getChildByName("arrow")
+      .getComponent(sp.Skeleton)
+      .setAnimation(0, "ch_2_run", true);
+
+    let id = cc.audioEngine.playEffect(this.runningSFX, false);
+    cc.tween(this.playerNode)
+      .by(0.25, { position: cc.v3(100, 0, 0) }, { easing: "quartOut" })
+      .by(0.25, { position: cc.v3(-100, 0, 0) }, { easing: "quartOut" })
+      .call(() => {
+        cc.audioEngine.stop(id);
+      })
+      .start();
+
+    this.scheduleOnce(() => {
+      this.node
+        .getChildByName("Player")
+        .getChildByName("lefthand")
+        .getComponent(sp.Skeleton)
+        .setAnimation(0, "idle_1", true);
+      this.node
+        .getChildByName("Player")
+        .getChildByName("player1")
+        .getComponent(sp.Skeleton)
+        .setAnimation(0, "idle_1", true);
+      this.node
+        .getChildByName("Player")
+        .getChildByName("RightHand")
+        .getComponent(sp.Skeleton)
+        .setAnimation(0, "idle_1", true);
+      this.node
+        .getChildByName("Player")
+        .getChildByName("arrow")
+        .getComponent(sp.Skeleton)
+        .setAnimation(0, "idle_1", true);
     }, 0.5);
   }
 
   public playSpineAnimAndIdle(
     animName: string,
     num: number,
-    isCorrect: boolean
+    isCorrect: boolean,
   ) {
     this.spineAnim.setAnimation(0, `${animName}${num}`, false);
     this.spineAnim.setCompleteListener((trackEntry: sp.spine.TrackEntry) => {
@@ -513,28 +728,38 @@ export default class GameManager extends cc.Component {
     }
   }
 
-
-
-
-  loadSpriteFrame(imageName: string, callback: (spriteFrame: cc.SpriteFrame) => void) {
-    cc.loader.loadRes("images/" + imageName, cc.SpriteFrame, (err, spriteFrame) => {
-      if (err) {
-        cc.error(err.message || err);
-        return;
-      }
-      callback(spriteFrame);
-    });
+  loadSpriteFrame(
+    imageName: string,
+    callback: (spriteFrame: cc.SpriteFrame) => void,
+  ) {
+    cc.loader.loadRes(
+      "images/" + imageName,
+      cc.SpriteFrame,
+      (err, spriteFrame) => {
+        if (err) {
+          cc.error(err.message || err);
+          return;
+        }
+        callback(spriteFrame);
+      },
+    );
   }
-  loadAudioClip(audioName: string, callback: (spriteFrame: cc.AudioClip) => void) {
-    cc.loader.loadRes("audios/" + audioName, cc.AudioClip, (err, spriteFrame) => {
-      if (err) {
-        cc.error(err.message || err);
-        return;
-      }
-      callback(spriteFrame);
-    });
+  loadAudioClip(
+    audioName: string,
+    callback: (spriteFrame: cc.AudioClip) => void,
+  ) {
+    cc.loader.loadRes(
+      "audios/" + audioName,
+      cc.AudioClip,
+      (err, spriteFrame) => {
+        if (err) {
+          cc.error(err.message || err);
+          return;
+        }
+        callback(spriteFrame);
+      },
+    );
   }
-
 
   public openRoughArea() {
     this.roughAreaNode.active = true;
@@ -559,7 +784,6 @@ export default class GameManager extends cc.Component {
     return arr;
   } // Fisher Yates Shuffle for shuffling the options
 
-
   afterReaction() {
     //console.log("this.node @@@@@@@", this.node)
     this.playerNode = this.node.getChildByName("Player");
@@ -574,15 +798,19 @@ export default class GameManager extends cc.Component {
   }
 
   onHit(targetNode: Target) {
-    this.answerNum = parseInt(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum);
+    this.answerNum = parseInt(
+      startGame.Instance.questions[globalVariables.Instance.currentLevel - 1]
+        .correctAnswerNum,
+    );
     this.questionSum = this.answerNum;
     console.log("onHit targetNode : ", targetNode.value);
     console.log("onHit answerNum : ", this.questionSum);
 
-
     // this.commonActions();
     this.toggleLaunch(false);
     this.unschedule(this.changeArrowAngle);
+
+    cc.audioEngine.playEffect(this.targetHitSFX, false);
 
     if (targetNode.value === this.questionSum) {
       console.log("Hooray, correct answer");
@@ -608,6 +836,8 @@ export default class GameManager extends cc.Component {
       // let num = this.genRandomNumber(1, 7);
       // this.playSpineAnimAndIdle("negative_", num, false);
       // this.playAudio(AudioType.NEGATIVE, num);
+
+      this.canTouch = false;
       targetNode.setColor(cc.Color.RED);
       this.afterReaction();
       this.callNegativeRection();
@@ -615,26 +845,50 @@ export default class GameManager extends cc.Component {
     this.destroyArrow(1);
   }
 
-
   callJockey() {
+    JockeyController.JOCKEY.callJockey(JOCKEY_TYPE.POSITIVE, () => {
+      this.callNextLevel();
+    });
+    return;
     let anim: string[] = [];
     if (startGame.Instance.jockeyName == "Podar") {
-      anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
-    }
-    else if (startGame.Instance.jockeyName == "bag") {
-      anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-    }
-    else if (startGame.Instance.jockeyName == "cryon") {
-      anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-    }
-    else if (startGame.Instance.jockeyName == "Singham") {
+      anim = [
+        "possitive",
+        "possitive2",
+        "possitive3",
+        "possitive4",
+        "possitive5",
+        "possitive6",
+      ];
+    } else if (startGame.Instance.jockeyName == "bag") {
+      anim = [
+        "positive_1",
+        "positive_2",
+        "positive_3",
+        "positive_4",
+        "positive_5",
+      ];
+    } else if (startGame.Instance.jockeyName == "cryon") {
+      anim = [
+        "positive_1",
+        "positive_2",
+        "positive_3",
+        "positive_4",
+        "positive_5",
+      ];
+    } else if (startGame.Instance.jockeyName == "Singham") {
       anim = ["dance", "thumbs_up"];
-    }
-    else if (startGame.Instance.jockeyName == "Mighty_Raju") {
+    } else if (startGame.Instance.jockeyName == "Mighty_Raju") {
       anim = ["celebration", "well_done"];
-    }
-    else if (startGame.Instance.jockeyName == "Puzzle") {
-      anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
+    } else if (startGame.Instance.jockeyName == "Puzzle") {
+      anim = [
+        "positive_1",
+        "positive_2",
+        "positive_3",
+        "positive_4",
+        "positive_5",
+        "positive_6",
+      ];
     }
     // console.log("anim length = ", anim.length);
     let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
@@ -643,19 +897,27 @@ export default class GameManager extends cc.Component {
     let jockeytween: number[] = [-450, 450];
     //console.log("characterAppear--Podar_Jumbo");
     if (startGame.Instance.jockeyName == "Podar") {
-      this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+      this.currentJcokey
+        .getComponent(sp.Skeleton)
+        .setAnimation(0, "idel", true);
+    } else {
+      this.currentJcokey
+        .getComponent(sp.Skeleton)
+        .setAnimation(0, "idle", true);
     }
-    else {
-      this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-    }
-    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+    this.currentJcokey
+      .getComponent(sp.Skeleton)
+      .setAnimation(0, anim[currentClipNum], false);
     cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
     this.scheduleOnce(() => {
       if (startGame.Instance.jockeyName == "Podar") {
-        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
-      }
-      else {
-        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+        this.currentJcokey
+          .getComponent(sp.Skeleton)
+          .setAnimation(0, "idel", true);
+      } else {
+        this.currentJcokey
+          .getComponent(sp.Skeleton)
+          .setAnimation(0, "idle", true);
       }
       //console.log("characterDisappear--Podar_Jumbo");
       this.callNextLevel();
@@ -665,7 +927,6 @@ export default class GameManager extends cc.Component {
   callNextLevel() {
     console.log("levelComplete--" + globalVariables.Instance.currentLevel);
     this.callStarsEared();
-
 
     this.currLevel++;
     globalVariables.Instance.currentLevel++;
@@ -677,8 +938,7 @@ export default class GameManager extends cc.Component {
       this.scheduleOnce(() => {
         cc.director.loadScene("gameEnd");
       }, 2);
-    }
-    else {
+    } else {
       this.setQuestionScreen();
       this.panning(); // contains all panning logic and stuff
     }
@@ -694,7 +954,10 @@ export default class GameManager extends cc.Component {
       this.star2Log = true;
       console.log("starsEarned--2");
     }
-    if (!this.star3Log && globalVariables.Instance.currentLevel == this.maxLevel) {
+    if (
+      !this.star3Log &&
+      globalVariables.Instance.currentLevel == this.maxLevel
+    ) {
       this.star3Log = true;
       console.log("starsEarned--3");
     }
@@ -707,54 +970,64 @@ export default class GameManager extends cc.Component {
     return _number;
   }
 
-
   callNegativeRection() {
     this.reduceLife();
     this.canTouch = false;
     //_node.children[0].getComponent(cc.Sprite).setMaterial(0, this.greyMat);
     this.scheduleOnce(() => {
-      let anim: string[] = [];
-      if (startGame.Instance.jockeyName == "Podar") {
-        anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
-      }
-      else if (startGame.Instance.jockeyName == "bag") {
-        anim = ["negative_1", "negative_2", "negative_3"];
-      }
-      else if (startGame.Instance.jockeyName == "cryon") {
-        anim = ["negative_1", "negative_2", "negative_3"];
-      }
-      else if (startGame.Instance.jockeyName == "Singham") {
-        anim = ["no"];
-      }
-      else if (startGame.Instance.jockeyName == "Mighty_Raju") {
-        anim = ["try_again"];
-      }
-      else if (startGame.Instance.jockeyName == "Puzzle") {
-        anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
-      }
-
-      let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
-      if (startGame.Instance.jockeyName == "Podar") {
-        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
-      }
-      else {
-        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-      }
-      this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-      cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
-      this.scheduleOnce(() => {
-        if (startGame.Instance.jockeyName == "Podar") {
-          this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
-        }
-        else {
-          this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-        }
+      JockeyController.JOCKEY.callJockey(JOCKEY_TYPE.NEGATIVE, () => {
         this.canTouch = true;
-      }, this.negativeAudio[currentClipNum].duration);
+      });
+      // let anim: string[] = [];
+      // if (startGame.Instance.jockeyName == "Podar") {
+      //   anim = [
+      //     "negetive",
+      //     "negetive2",
+      //     "negetive3",
+      //     "negetive4",
+      //     "negetive5",
+      //     "negetive6",
+      //   ];
+      // } else if (startGame.Instance.jockeyName == "bag") {
+      //   anim = ["negative_1", "negative_2", "negative_3"];
+      // } else if (startGame.Instance.jockeyName == "cryon") {
+      //   anim = ["negative_1", "negative_2", "negative_3"];
+      // } else if (startGame.Instance.jockeyName == "Singham") {
+      //   anim = ["no"];
+      // } else if (startGame.Instance.jockeyName == "Mighty_Raju") {
+      //   anim = ["try_again"];
+      // } else if (startGame.Instance.jockeyName == "Puzzle") {
+      //   anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
+      // }
+
+      // let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
+      // if (startGame.Instance.jockeyName == "Podar") {
+      //   this.currentJcokey
+      //     .getComponent(sp.Skeleton)
+      //     .setAnimation(0, "idel", true);
+      // } else {
+      //   this.currentJcokey
+      //     .getComponent(sp.Skeleton)
+      //     .setAnimation(0, "idle", true);
+      // }
+      // this.currentJcokey
+      //   .getComponent(sp.Skeleton)
+      //   .setAnimation(0, anim[currentClipNum], false);
+      // cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
+      // this.scheduleOnce(() => {
+      //   if (startGame.Instance.jockeyName == "Podar") {
+      //     this.currentJcokey
+      //       .getComponent(sp.Skeleton)
+      //       .setAnimation(0, "idel", true);
+      //   } else {
+      //     this.currentJcokey
+      //       .getComponent(sp.Skeleton)
+      //       .setAnimation(0, "idle", true);
+      //   }
+      //   this.canTouch = true;
+      // }, this.negativeAudio[currentClipNum].duration);
     }, 0.7);
-
   }
-
 
   public onRightAnswer() {
     this.currLevel++;
@@ -767,8 +1040,7 @@ export default class GameManager extends cc.Component {
       this.scheduleOnce(() => {
         cc.director.loadScene("gameEnd");
       }, 2);
-    }
-    else {
+    } else {
       this.setQuestionScreen();
     }
     this.panning();
@@ -786,10 +1058,45 @@ export default class GameManager extends cc.Component {
 
   public panning() {
     // contains all the panning functions and methods
-    this.panBackground();
-    this.movePlayer();
-    this.panTarget();
+
+    cc.tween(this.node.getChildByName("Target"))
+      .to(0.2, { opacity: 0 }, { easing: "smooth" })
+      .start();
+    this.node.getChildByName("BridgeComplete").active = true;
+    this.node.getChildByName("BridgeComplete").opacity = 0;
+
+    cc.tween(this.node.getChildByName("BridgeComplete"))
+      .to(1, { opacity: 255 }, { easing: "smooth" })
+      .call(() => {
+        this.panBridge();
+        this.panBackground();
+        this.movePlayer();
+        this.panTarget();
+      })
+      .start();
     // this.changeBowAndArrowSprite();
+  }
+
+  public panBridge() {
+    let bridge = this.node.getChildByName("Bridge");
+    let bridge2 = this.node.getChildByName("BridgeComplete");
+
+    let bridge_init_pos = bridge.getPosition();
+    let bridge2_init_pos = bridge2.getPosition();
+
+    cc.tween(bridge)
+      .to(0.5, { x: -1500 }, { easing: "quartOut" })
+      .call(() => {
+        bridge.setPosition(bridge_init_pos);
+      })
+      .start();
+    cc.tween(bridge2)
+      .to(0.5, { x: bridge_init_pos.x }, { easing: "quartOut" })
+      .call(() => {
+        bridge2.setPosition(bridge2_init_pos);
+        bridge2.active = false;
+      })
+      .start();
   }
 
   public panBackground() {
@@ -800,7 +1107,9 @@ export default class GameManager extends cc.Component {
     clone2.position = new cc.Vec3(1920, 0);
     let comp2 = clone2.getComponent(cc.Sprite);
     //comp2.spriteFrame = this.backgroundSpriteFrames[this.currLevel - 1];
-    comp2.spriteFrame = this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame;
+    comp2.spriteFrame = this.node
+      .getChildByName("bg")
+      .getComponent(cc.Sprite).spriteFrame;
 
     cc.tween(clone1)
       .to(0.5, { position: new cc.Vec3(-1920, 0) }, { easing: "quartOut" })
@@ -812,8 +1121,9 @@ export default class GameManager extends cc.Component {
     cc.tween(clone2)
       .to(0.5, { position: new cc.Vec3(0, 0) }, { easing: "quartOut" })
       .call(() => {
-        this.mainBgSprite.spriteFrame =
-          this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame;
+        this.mainBgSprite.spriteFrame = this.node
+          .getChildByName("bg")
+          .getComponent(cc.Sprite).spriteFrame;
         this.changeBowAndArrowSprite();
         clone2.destroy();
       })
@@ -830,11 +1140,13 @@ export default class GameManager extends cc.Component {
       })
       .to(0.5, { position: TargetEndPos.position }, { easing: "quartOut" })
       .call(() => {
+        this.node.getChildByName("Target").opacity = 255;
         this.targetNode.position = TargetStartPos.position;
       })
       .delay(0.2)
       .to(0.5, { position: this.targetInitPos }, { easing: "quartOut" })
       .call(() => {
+        this.node.getChildByName("Target").opacity = 255;
         this.targets.forEach((target) => (target.node.active = true));
         this.inputBlocker.active = false;
       })
@@ -871,8 +1183,6 @@ export default class GameManager extends cc.Component {
     this.afterReaction();
     this.callNegativeRection();
   }
-
-
 
   public changeArrowAngle() {
     if (this.realArrowInstance == null) return;
@@ -915,15 +1225,47 @@ export default class GameManager extends cc.Component {
     this.stopAnim();
     this.arrowHead.active = false;
     // this.toggleLaunch(true);
-    this.node.getChildByName("Player").getChildByName("lefthand").getComponent(sp.Skeleton).setAnimation(0, "ch_1_shoot", false);
-    this.node.getChildByName("Player").getChildByName("player1").getComponent(sp.Skeleton).setAnimation(0, "ch_1_shoot", false);
-    this.node.getChildByName("Player").getChildByName("RightHand").getComponent(sp.Skeleton).setAnimation(0, "ch_1_shoot", false);
-    this.node.getChildByName("Player").getChildByName("arrow").getComponent(sp.Skeleton).setAnimation(0, "ch_1_shoot", false);
+    this.node
+      .getChildByName("Player")
+      .getChildByName("lefthand")
+      .getComponent(sp.Skeleton)
+      .setAnimation(0, "ch_1_shoot", false);
+    this.node
+      .getChildByName("Player")
+      .getChildByName("player1")
+      .getComponent(sp.Skeleton)
+      .setAnimation(0, "ch_1_shoot", false);
+    this.node
+      .getChildByName("Player")
+      .getChildByName("RightHand")
+      .getComponent(sp.Skeleton)
+      .setAnimation(0, "ch_1_shoot", false);
+    this.node
+      .getChildByName("Player")
+      .getChildByName("arrow")
+      .getComponent(sp.Skeleton)
+      .setAnimation(0, "ch_1_shoot", false);
     this.scheduleOnce(() => {
-      this.node.getChildByName("Player").getChildByName("lefthand").getComponent(sp.Skeleton).setAnimation(0, "idle_1", true);
-      this.node.getChildByName("Player").getChildByName("player1").getComponent(sp.Skeleton).setAnimation(0, "idle_1", true);
-      this.node.getChildByName("Player").getChildByName("RightHand").getComponent(sp.Skeleton).setAnimation(0, "idle_1", true);
-      this.node.getChildByName("Player").getChildByName("arrow").getComponent(sp.Skeleton).setAnimation(0, "idle_1", true);
+      this.node
+        .getChildByName("Player")
+        .getChildByName("lefthand")
+        .getComponent(sp.Skeleton)
+        .setAnimation(0, "idle_1", true);
+      this.node
+        .getChildByName("Player")
+        .getChildByName("player1")
+        .getComponent(sp.Skeleton)
+        .setAnimation(0, "idle_1", true);
+      this.node
+        .getChildByName("Player")
+        .getChildByName("RightHand")
+        .getComponent(sp.Skeleton)
+        .setAnimation(0, "idle_1", true);
+      this.node
+        .getChildByName("Player")
+        .getChildByName("arrow")
+        .getComponent(sp.Skeleton)
+        .setAnimation(0, "idle_1", true);
       // this.node.getChildByName("Player").getChildByName("arrow").active = false;
       // this.node.getChildByName("Player").getChildByName("Bow").active = true;
       this.createNewArrow();
@@ -1070,7 +1412,7 @@ export default class GameManager extends cc.Component {
     this.arrowRigidBody.applyLinearImpulse(
       direction.mul(this.power),
       this.arrowRigidBody.getWorldCenter(),
-      true
+      true,
     );
 
     this.schedule(() => {
@@ -1114,13 +1456,19 @@ export default class GameManager extends cc.Component {
     this.audioSrc.play();
   }
 
+  public playQuestionAudio() {
+    if (this.questionSound[0]) {
+      cc.audioEngine.playEffect(this.questionSound[0], false);
+    }
+  }
+
   update() {
-
-
     if (!this.levelend) {
       this.value = this.timer / this.defaultTime;
-      this.node.getChildByName("timer").getChildByName("timer1").getComponent(cc.Sprite).fillRange = this.value;
-
+      this.node
+        .getChildByName("timer")
+        .getChildByName("timer1")
+        .getComponent(cc.Sprite).fillRange = this.value;
 
       if (this.timer >= this.defaultTime) {
         this.timer = 0;
@@ -1129,21 +1477,24 @@ export default class GameManager extends cc.Component {
         this.resetTimer();
       }
     }
-
   }
 
   reduceLife() {
     console.log("Reducelife $$$$$$$$$$$$$$$$: ", this.lives);
     let currentLifeNode: cc.Node;
-    currentLifeNode = this.node.getChildByName("lives").getChildByName(this.lives.toString());
+    currentLifeNode = this.node
+      .getChildByName("lives")
+      .getChildByName(this.lives.toString());
     console.log("currentLifeNode : ", currentLifeNode);
     cc.tween(currentLifeNode)
       .to(0.1, { opacity: 150 })
       .to(0.1, { opacity: 255 })
       .to(0.1, { opacity: 150 })
-      .to(0.1, { opacity: 255 }).call(() => {
+      .to(0.1, { opacity: 255 })
+      .call(() => {
         currentLifeNode.opacity = 0;
-      }).start();
+      })
+      .start();
     this.lives -= 1;
     if (this.lives == 0) {
       this.resetGame();
@@ -1159,7 +1510,10 @@ export default class GameManager extends cc.Component {
     this.timer = 0;
     this.value = 0;
     this.value = this.timer / this.defaultTime;
-    this.node.getChildByName("timer").getChildByName("timer1").getComponent(cc.Sprite).fillRange = this.value;
+    this.node
+      .getChildByName("timer")
+      .getChildByName("timer1")
+      .getComponent(cc.Sprite).fillRange = this.value;
     cc.audioEngine.stop(this.clocktick);
   }
 }
