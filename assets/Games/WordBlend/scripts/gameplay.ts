@@ -1,5 +1,5 @@
 
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -24,7 +24,8 @@ export default class NewClass extends cc.Component {
     myOptions: cc.Node = null;
 
     correctAnswer: string = "1";
-
+    @property(cc.AudioClip)
+    introvo: cc.AudioClip = null;
     @property(cc.AudioClip)
     correctAction: cc.AudioClip = null;
     @property(cc.AudioClip)
@@ -604,7 +605,7 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            // cc.tween(this.options).to(0.3, { x: 0, y: -80, scaleX: 1, scaleY: 1 }).start();
 
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
@@ -616,7 +617,7 @@ export default class NewClass extends cc.Component {
                     if (this.isSecondInteraction) {
                         //check what interaction it is and call the respective function
                         //show question panel
-                        cc.audioEngine.playEffect(this.wordVoQuestion, false);
+                        // cc.audioEngine.playEffect(this.wordVoQuestion, false);
                         this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
                     }
                     else {
@@ -778,7 +779,7 @@ export default class NewClass extends cc.Component {
 
     OptionsAppear() {
 
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
+        cc.tween(this.options).to(0.3, { x: this.options.x - 200, scaleX: 1, scaleY: 1 }).start();
 
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(() => {
@@ -797,6 +798,7 @@ export default class NewClass extends cc.Component {
     }
     onButtonClick(_event: cc.Event) {
         let _node: cc.Node = _event.target;
+        console.log(this.correctAnswer, _node.name);
 
         if (_node.name === this.correctAnswer) {
 
@@ -1049,8 +1051,13 @@ export default class NewClass extends cc.Component {
             this.OptionsLayoutVertical();
             this.reverseOptionsLayout();
             if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions == 2) {
-                this.myOptions.children[0].setPosition(0, 120);
-                this.myOptions.children[1].setPosition(0, -120);
+                this.myOptions.children[0].setPosition(0, 50);
+                this.myOptions.children[0].width = 273;
+                this.myOptions.children[0].height = 110;
+
+                this.myOptions.children[1].width = 273;
+                this.myOptions.children[1].height = 110;
+                this.myOptions.children[1].setPosition(0, -80);
             }
         }
         else {
@@ -1207,5 +1214,16 @@ export default class NewClass extends cc.Component {
             optionNodes[i].y = newPositions[i];
         }
     }
+
+    playQuestionsound() {
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.introvo, false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
+        }, this.introvo.duration + 0.1);
+    }
+
 
 }

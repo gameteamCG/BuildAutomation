@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
@@ -38,6 +38,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.wordsNode = null;
         _this.myOptions = null;
         _this.correctAnswer = "1";
+        _this.introvo = null;
         _this.correctAction = null;
         _this.incorrectButton = [];
         _this.rotateAction = null;
@@ -536,7 +537,7 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            // cc.tween(this.options).to(0.3, { x: 0, y: -80, scaleX: 1, scaleY: 1 }).start();
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
                 cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
@@ -546,7 +547,7 @@ var NewClass = /** @class */ (function (_super) {
                     if (_this.isSecondInteraction) {
                         //check what interaction it is and call the respective function
                         //show question panel
-                        cc.audioEngine.playEffect(_this.wordVoQuestion, false);
+                        // cc.audioEngine.playEffect(this.wordVoQuestion, false);
                         _this.interactionType == "1" ? _this.OptionsAppear() : _this.wordAppear();
                     }
                     else {
@@ -706,7 +707,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.OptionsAppear = function () {
         var _this = this;
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
+        cc.tween(this.options).to(0.3, { x: this.options.x - 200, scaleX: 1, scaleY: 1 }).start();
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(function () {
             _this.myOptions.active = true;
@@ -721,6 +722,7 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.onButtonClick = function (_event) {
         var _this = this;
         var _node = _event.target;
+        console.log(this.correctAnswer, _node.name);
         if (_node.name === this.correctAnswer) {
             this.myOptions.children.forEach(function (element) {
                 if (element.name != _node.name) {
@@ -952,8 +954,12 @@ var NewClass = /** @class */ (function (_super) {
             this.OptionsLayoutVertical();
             this.reverseOptionsLayout();
             if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions == 2) {
-                this.myOptions.children[0].setPosition(0, 120);
-                this.myOptions.children[1].setPosition(0, -120);
+                this.myOptions.children[0].setPosition(0, 50);
+                this.myOptions.children[0].width = 273;
+                this.myOptions.children[0].height = 110;
+                this.myOptions.children[1].width = 273;
+                this.myOptions.children[1].height = 110;
+                this.myOptions.children[1].setPosition(0, -80);
             }
         }
         else {
@@ -1079,6 +1085,15 @@ var NewClass = /** @class */ (function (_super) {
             optionNodes[i].y = newPositions[i];
         }
     };
+    NewClass.prototype.playQuestionsound = function () {
+        var _this = this;
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.introvo, false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.introvo.duration + 0.1);
+    };
     __decorate([
         property(cc.Font)
     ], NewClass.prototype, "podar_font", void 0);
@@ -1100,6 +1115,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], NewClass.prototype, "myOptions", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], NewClass.prototype, "introvo", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "correctAction", void 0);
