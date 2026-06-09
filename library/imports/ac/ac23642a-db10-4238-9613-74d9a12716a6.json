@@ -6,7 +6,7 @@
   "json": {
     "AdditionalData": {
       "GameID": "Phonic reader - long vowel 'o'_UKG_SB2_21",
-      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/long_vowel__o__1741020467467.mp4",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/long+vowel+'o'_+Indian.mp4",
       "TitleImageName": "Asset 39.png",
       "IntroAudio1Name": "",
       "IntroAudio2Name": "",
@@ -21,13 +21,13 @@
         "QuestionImageName": "Q1.png",
         "QuestionAudioName": "Q1.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": false,
+        "IsOptionText": true,
         "NumberOfOptions": 4,
         "Options": [
-          "coat.png",
-          "hat.png",
-          "ball.png",
-          "axe.png"
+          "coat",
+          "hat",
+          "ball",
+          "axe"
         ],
         "ReiterationAudioName": "coat.mp3",
         "CorrectAudioName": "EXCELLENTJOB.mp3",
@@ -41,16 +41,16 @@
         "QuestionImageName": "Q2.png",
         "QuestionAudioName": "Q2.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": false,
+        "IsOptionText": true,
         "NumberOfOptions": 4,
         "Options": [
-          "cat.png",
-          "ant.png",
-          "dog.png",
-          "toad.png"
+          "cat",
+          "ant",
+          "dog",
+          "toad"
         ],
         "ReiterationAudioName": "toad.mp3",
-        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
         "WrongAudioName": "nevermind,tryagain.mp3",
         "CorrectAnswer": "4"
       },
@@ -61,16 +61,16 @@
         "QuestionImageName": "Q3.png",
         "QuestionAudioName": "Q3.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": false,
+        "IsOptionText": true,
         "NumberOfOptions": 4,
         "Options": [
-          "hen.png",
-          "ant.png",
-          "goat.png",
-          "cat.png"
+          "hen",
+          "ant",
+          "goat",
+          "cat"
         ],
         "ReiterationAudioName": "goat.mp3",
-        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
         "WrongAudioName": "nevermind,tryagain.mp3",
         "CorrectAnswer": "3"
       },
@@ -81,13 +81,13 @@
         "QuestionImageName": "Q4.png",
         "QuestionAudioName": "Q4.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": false,
+        "IsOptionText": true,
         "NumberOfOptions": 4,
         "Options": [
-          "coat.png",
-          "boat.png",
-          "ball.png",
-          "apple.png"
+          "coat",
+          "boat",
+          "ball",
+          "apple"
         ],
         "ReiterationAudioName": "paper-boat.mp3",
         "CorrectAudioName": "EXCELLENTJOB.mp3",
@@ -101,16 +101,16 @@
         "QuestionImageName": "Q5.png",
         "QuestionAudioName": "Q5.mp3",
         "PlayQuestionAudio": true,
-        "IsOptionText": false,
+        "IsOptionText": true,
         "NumberOfOptions": 4,
         "Options": [
-          "float.png",
-          "fly.png",
-          "swing.png",
-          "jump.png"
+          "float",
+          "fly",
+          "swing",
+          "jump"
         ],
         "ReiterationAudioName": "float.mp3",
-        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
         "WrongAudioName": "nevermind,tryagain.mp3",
         "CorrectAnswer": "1"
       }
