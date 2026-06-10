@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_hard",
+    "texture": "5cff4705-1c41-42ff-8534-63be00d7264a",
+    "atlas": "",
+    "rect": [
+      0,
+      16,
+      501,
+      485
+    ],
+    "offset": [
+      0,
+      -8
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
