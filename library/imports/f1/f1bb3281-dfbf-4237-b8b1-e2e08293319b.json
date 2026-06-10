@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hive",
+    "texture": "f5794526-eab2-472a-b1b3-c064786de6cd",
+    "atlas": "",
+    "rect": [
+      83,
+      7,
+      335,
+      487
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
