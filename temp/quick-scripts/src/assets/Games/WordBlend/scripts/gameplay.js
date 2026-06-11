@@ -446,12 +446,12 @@ var NewClass = /** @class */ (function (_super) {
             _randomNumber = _this.getRandomNumber(_randomNumber);
             element.angle = -(90 * _randomNumber);
         });
-        this.options.scale = 0.8;
+        this.options.scale = 0.7;
         this.options.opacity = 100;
         this.node.getChildByName("hint").opacity = 100;
         this.node.getChildByName("hint").scale = 0;
         cc.tween(this.options)
-            .to(0.8, { scale: 1, opacity: 255 })
+            .to(0.8, { scale: 0.9, opacity: 255 })
             .call(function () {
             cc.tween(_this.node.getChildByName("hint"))
                 .to(0.5, { scale: 0.3, opacity: 255 })
@@ -540,20 +540,20 @@ var NewClass = /** @class */ (function (_super) {
             // cc.tween(this.options).to(0.3, { x: 0, y: -80, scaleX: 1, scaleY: 1 }).start();
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
-                cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
-                _this.scheduleOnce(function () {
-                    _this.options.color = cc.Color.WHITE;
-                    // this.wordAppear();
-                    if (_this.isSecondInteraction) {
-                        //check what interaction it is and call the respective function
-                        //show question panel
-                        // cc.audioEngine.playEffect(this.wordVoQuestion, false);
-                        _this.interactionType == "1" ? _this.OptionsAppear() : _this.wordAppear();
-                    }
-                    else {
-                        _this.CallJockey();
-                    }
-                }, _this.puzzleVoIteration.duration);
+                // cc.audioEngine.playEffect(this.puzzleVoIteration, false);
+                // this.scheduleOnce(() => {
+                _this.options.color = cc.Color.WHITE;
+                // this.wordAppear();
+                if (_this.isSecondInteraction) {
+                    //check what interaction it is and call the respective function
+                    //show question panel
+                    // cc.audioEngine.playEffect(this.wordVoQuestion, false);
+                    _this.interactionType == "1" ? _this.OptionsAppear() : _this.wordAppear();
+                }
+                else {
+                    _this.CallJockey();
+                }
+                // }, this.puzzleVoIteration.duration);
             }, 0.5);
         }
         else {
@@ -707,7 +707,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.OptionsAppear = function () {
         var _this = this;
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, scaleX: 1, scaleY: 1 }).start();
+        cc.tween(this.options).to(0.3, { x: this.options.x - 200, scaleX: 0.8, scaleY: 0.8 }).start();
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(function () {
             _this.myOptions.active = true;
@@ -769,7 +769,7 @@ var NewClass = /** @class */ (function (_super) {
         this.wordsNode.children.forEach(function (_child, index) {
             _child.scale = 0;
             _this.scheduleOnce(function () {
-                cc.tween(_child).to(0.3, { scale: 1 }).start();
+                cc.tween(_child).to(0.3, { scale: 0.8 }).start();
             }, 0.5 * index);
         });
         this.wordsNode.active = true;

@@ -508,12 +508,12 @@ export default class NewClass extends cc.Component {
             element.angle = -(90 * _randomNumber);
 
         });
-        this.options.scale = 0.8;
+        this.options.scale = 0.7;
         this.options.opacity = 100;
         this.node.getChildByName("hint").opacity = 100;
         this.node.getChildByName("hint").scale = 0;
         cc.tween(this.options)
-            .to(0.8, { scale: 1, opacity: 255 })
+            .to(0.8, { scale: 0.9, opacity: 255 })
             .call(() => {
                 cc.tween(this.node.getChildByName("hint"))
                     .to(0.5, { scale: 0.3, opacity: 255 })
@@ -609,21 +609,21 @@ export default class NewClass extends cc.Component {
 
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
-                cc.audioEngine.playEffect(this.puzzleVoIteration, false);
-                this.scheduleOnce(() => {
-                    this.options.color = cc.Color.WHITE;
-                    // this.wordAppear();
+                // cc.audioEngine.playEffect(this.puzzleVoIteration, false);
+                // this.scheduleOnce(() => {
+                this.options.color = cc.Color.WHITE;
+                // this.wordAppear();
 
-                    if (this.isSecondInteraction) {
-                        //check what interaction it is and call the respective function
-                        //show question panel
-                        // cc.audioEngine.playEffect(this.wordVoQuestion, false);
-                        this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
-                    }
-                    else {
-                        this.CallJockey();
-                    }
-                }, this.puzzleVoIteration.duration);
+                if (this.isSecondInteraction) {
+                    //check what interaction it is and call the respective function
+                    //show question panel
+                    // cc.audioEngine.playEffect(this.wordVoQuestion, false);
+                    this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
+                }
+                else {
+                    this.CallJockey();
+                }
+                // }, this.puzzleVoIteration.duration);
             }, 0.5);
         } else {
             this.interactable = true;
@@ -779,7 +779,7 @@ export default class NewClass extends cc.Component {
 
     OptionsAppear() {
 
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, scaleX: 1, scaleY: 1 }).start();
+        cc.tween(this.options).to(0.3, { x: this.options.x - 200, scaleX: 0.8, scaleY: 0.8 }).start();
 
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(() => {
@@ -862,7 +862,7 @@ export default class NewClass extends cc.Component {
         this.wordsNode.children.forEach((_child, index) => {
             _child.scale = 0;
             this.scheduleOnce(() => {
-                cc.tween(_child).to(0.3, { scale: 1 }).start()
+                cc.tween(_child).to(0.3, { scale: 0.8 }).start()
             }, 0.5 * index);
         })
         this.wordsNode.active = true;
