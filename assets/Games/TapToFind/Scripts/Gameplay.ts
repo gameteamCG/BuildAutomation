@@ -274,7 +274,9 @@ export default class Gameplay extends cc.Component {
             }, 1);
         }, 1);
     }
-
+    playButtonSound() {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    }
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
         for (let i = 0; i < _optionCount; i++) {
             let _option: cc.Node = cc.instantiate(_template);

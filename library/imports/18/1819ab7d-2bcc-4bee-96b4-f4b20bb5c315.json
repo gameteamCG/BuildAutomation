@@ -6,7 +6,7 @@
   "json": {
     "additionalData": {
       "GameID": "Recap - digraph_ukg_sb4_31",
-      "totalLevel": "10",
+      "totalLevel": "9",
       "TitleImageName": "Recap - digraph_1.png",
       "introBgName": "UKG.png",
       "bgmMusicName": "bgm.mp3",
@@ -74,7 +74,7 @@
           "whale.png"
         ],
         "optionsBg": [
-          "Asset_1.png",
+          "Asset_14.png",
           "Asset_4.png",
           "whaleB.png"
         ],
@@ -204,30 +204,6 @@
           "26259647_11_wash.mp3"
         ],
         "correctAnswerNum": "3"
-      },
-      {
-        "questionLayout": "layout3",
-        "questionBgName": "Asset 13.png",
-        "questionAudioName": "question.mp3",
-        "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
-        "numberOfOptions": 3,
-        "options": [
-          "Asset_7.png",
-          "Asset_21.png",
-          "Asset_41.png"
-        ],
-        "optionsBg": [
-          "Asset_1.png",
-          "Asset_14.png",
-          "Asset_32.png"
-        ],
-        "correctAudioName": "GOODEFFORT.mp3",
-        "wrongAudioName": "Oopsietryoncemore.mp3",
-        "reiterationAudioName": [
-          "26259647_4_witch.mp3"
-        ],
-        "correctAnswerNum": "1"
       },
       {
         "questionLayout": "layout3",

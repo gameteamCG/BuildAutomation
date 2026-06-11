@@ -296,6 +296,9 @@ var Gameplay = /** @class */ (function (_super) {
             }, 1);
         }, 1);
     };
+    Gameplay.prototype.playButtonSound = function () {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    };
     Gameplay.prototype.generateOptions = function (_template, _optionParent, _optionCount) {
         for (var i = 0; i < _optionCount; i++) {
             var _option = cc.instantiate(_template);
