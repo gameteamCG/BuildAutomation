@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "Opposite",
+        "questionText": "Opposites",
         "questionImageName": "new_young1.png",
         "questionAudioName": "14534061_1_identify-the-opposite-.mp3",
         "shouldPlayQuestionAudio": true,
@@ -30,7 +30,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Opposite",
+        "questionText": "Opposites",
         "questionImageName": "new_tall1.png",
         "questionAudioName": "14534061_1_identify-the-opposite-.mp3",
         "shouldPlayQuestionAudio": true,
@@ -45,7 +45,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Opposite",
+        "questionText": "Opposites",
         "questionImageName": "new_near.png",
         "questionAudioName": "14534061_1_identify-the-opposite-.mp3",
         "shouldPlayQuestionAudio": true,
@@ -60,7 +60,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Opposite",
+        "questionText": "Opposites",
         "questionImageName": "new_wet.png",
         "questionAudioName": "14534061_1_identify-the-opposite-.mp3",
         "shouldPlayQuestionAudio": true,
@@ -75,7 +75,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Opposite",
+        "questionText": "Opposites",
         "questionImageName": "new_clean.png",
         "questionAudioName": "14534061_1_identify-the-opposite-.mp3",
         "shouldPlayQuestionAudio": true,
@@ -90,7 +90,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Opposite",
+        "questionText": "Opposites",
         "questionImageName": "new_hard.png",
         "questionAudioName": "14534061_1_identify-the-opposite-.mp3",
         "shouldPlayQuestionAudio": true,
@@ -105,7 +105,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Opposite",
+        "questionText": "Opposites",
         "questionImageName": "new_full.png",
         "questionAudioName": "14534061_1_identify-the-opposite-.mp3",
         "shouldPlayQuestionAudio": true,
