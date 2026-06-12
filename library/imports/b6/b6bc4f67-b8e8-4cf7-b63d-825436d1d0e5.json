@@ -1,18 +1,18 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "L54",
+    "name": "L5_4",
     "texture": "0aaba73a-3e1d-4faa-9d91-157daca38bc2",
     "atlas": "",
     "rect": [
       0,
       0,
-      250,
-      250
+      55,
+      35
     ],
     "offset": [
-      0,
-      0
+      -97.5,
+      107.5
     ],
     "originalSize": [
       250,

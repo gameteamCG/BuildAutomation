@@ -3862,8 +3862,8 @@
         0,
         0,
         1,
-        0.8,
-        0.8,
+        1,
+        1,
         1
       ]
     },
@@ -3920,15 +3920,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        176.314,
-        -104.835,
+        180.884,
+        -108.263,
         0,
         0,
         0,
         0,
         1,
-        0.3,
-        0.3,
+        0.4,
+        0.4,
         1
       ]
     },
@@ -4079,15 +4079,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 66,
-      "g": 33,
-      "b": 11,
+      "r": 73,
+      "g": 12,
+      "b": 12,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 336.25,
-      "height": 50.4
+      "width": 316.21,
+      "height": 75.6
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4138,10 +4138,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Tens and ones 21 to 30",
-    "_N$string": "Tens and ones 21 to 30",
-    "_fontSize": 40,
-    "_lineHeight": 40,
+    "_string": "Leafy vegetables",
+    "_N$string": "Leafy vegetables",
+    "_fontSize": 50,
+    "_lineHeight": 60,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "e9b6b310-5e42-4213-a3f1-9ffa7547edbb"
@@ -4261,9 +4261,6 @@
       },
       {
         "__uuid__": "ddff93ee-ab4d-4e5e-9515-0e68ec0a6a5f"
-      },
-      {
-        "__uuid__": "23c6311d-448a-4a60-a912-b3188f8b503d"
       }
     ],
     "negativeAudio": [
@@ -4272,33 +4269,8 @@
       },
       {
         "__uuid__": "b024bef8-99b4-4d58-8a4a-10f203bf3f4b"
-      },
-      {
-        "__uuid__": "dfc6c35d-f5e1-4ca9-89df-3739e1d71b67"
-      },
-      {
-        "__uuid__": "caccd092-a8d6-4f28-8ee1-7e7f1507d467"
-      },
-      {
-        "__uuid__": "32b4734f-f142-4081-b008-95698bc7c7ca"
-      },
-      {
-        "__uuid__": "1f9f9bc6-6174-4231-a38a-3061d4fe0225"
-      },
-      {
-        "__uuid__": "07d88c20-a52c-4c0b-88bc-815947ccfabb"
       }
     ],
-    "stallionPositive": [],
-    "stallionNegative": [],
-    "bagPositive": [],
-    "bagNegative": [],
-    "cryonPositive": [],
-    "cryonNegative": [],
-    "tlcPositive": [],
-    "tlcNegative": [],
-    "supercubPositive": [],
-    "supercubNegative": [],
     "_id": "90gjgtdrpOaIcwz2b2JxoD"
   },
   {

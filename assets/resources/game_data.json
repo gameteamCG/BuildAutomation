@@ -1,7 +1,7 @@
 {
   "additionalData": {
     "GameID": "LKG_SB3_Numeracy_46: Tens and Ones 21 to 30",
-    "totalLevel": "9",
+    "totalLevel": "10",
     "TitleImageName": "titletensandones.png",
     "introBgName": "LKG.png",
     "bgmMusicName": "bgm.mp3",
@@ -17,12 +17,12 @@
       "isHintRequired": true,
       "numberOfPuzzles": 4,
       "puzzles": [
-        "Asset25.png",
-        "Asset24.png",
-        "Asset23.png",
-        "Asset22.png"
+        "L1_1.png",
+        "L1_2.png",
+        "L1_3.png",
+        "L1_4.png"
       ],
-      "correctAudioName": "positive_4.mp3",
+      "correctAudioName": "1.mp3",
       "needReiteration": true,
       "interactionType": "1",
       "questionText2": "",
@@ -45,12 +45,12 @@
       "isHintRequired": false,
       "numberOfPuzzles": 4,
       "puzzles": [
-        "Asset17.png",
-        "Asset16.png",
-        "Asset15.png",
-        "Asset14.png"
+        "L2_1.png",
+        "L2_2.png",
+        "L2_3.png",
+        "L2_4.png"
       ],
-      "correctAudioName": "positive_2.mp3",
+      "correctAudioName": "2.mp3",
       "needReiteration": true,
       "interactionType": "1",
       "questionText2": "",
@@ -73,12 +73,12 @@
       "isHintRequired": false,
       "numberOfPuzzles": 4,
       "puzzles": [
-        "Asset13.png",
-        "Asset12.png",
-        "Asset11.png",
-        "Asset10.png"
+        "L3_1.png",
+        "L3_2.png",
+        "L3_3.png",
+        "L3_4.png"
       ],
-      "correctAudioName": "positive_6.mp3",
+      "correctAudioName": "3.mp3",
       "needReiteration": true,
       "interactionType": "1",
       "questionText2": "",
@@ -101,12 +101,12 @@
       "isHintRequired": false,
       "numberOfPuzzles": 4,
       "puzzles": [
-        "Asset21.png",
-        "Asset20.png",
-        "Asset19.png",
-        "Asset18.png"
+        "L4_1.png",
+        "L4_2.png",
+        "L4_3.png",
+        "L4_4.png"
       ],
-      "correctAudioName": "positive_1.mp3",
+      "correctAudioName": "4.mp3",
       "needReiteration": true,
       "interactionType": "1",
       "questionText2": "",
@@ -129,12 +129,12 @@
       "isHintRequired": false,
       "numberOfPuzzles": 4,
       "puzzles": [
-        "L61.png",
-        "L62.png",
-        "L63.png",
-        "L64.png"
+        "L5_1.png",
+        "L5_2.png",
+        "L5_3.png",
+        "L5_4.png"
       ],
-      "correctAudioName": "positive_2.mp3",
+      "correctAudioName": "5.mp3",
       "needReiteration": true,
       "interactionType": "1",
       "questionText2": "",
@@ -157,12 +157,12 @@
       "isHintRequired": false,
       "numberOfPuzzles": 4,
       "puzzles": [
-        "L51.png",
-        "L52.png",
-        "L53.png",
-        "L54.png"
+        "L6_1.png",
+        "L6_2.png",
+        "L6_3.png",
+        "L6_4.png"
       ],
-      "correctAudioName": "positive_7.mp3",
+      "correctAudioName": "6.mp3",
       "needReiteration": true,
       "interactionType": "1",
       "questionText2": "",
@@ -185,12 +185,12 @@
       "isHintRequired": false,
       "numberOfPuzzles": 4,
       "puzzles": [
-        "L81.png",
-        "L82.png",
-        "L83.png",
-        "L84.png"
+        "L7_1.png",
+        "L7_2.png",
+        "L7_3.png",
+        "L7_4.png"
       ],
-      "correctAudioName": "positive_1.mp3",
+      "correctAudioName": "7.mp3",
       "needReiteration": true,
       "interactionType": "1",
       "questionText2": "",
@@ -213,12 +213,12 @@
       "isHintRequired": false,
       "numberOfPuzzles": 4,
       "puzzles": [
-        "L91.png",
-        "L92.png",
-        "L93.png",
-        "L94.png"
+        "L8_1.png",
+        "L8_2.png",
+        "L8_3.png",
+        "L8_4.png"
       ],
-      "correctAudioName": "positive_1.mp3",
+      "correctAudioName": "8.mp3",
       "needReiteration": true,
       "interactionType": "1",
       "questionText2": "",
@@ -241,12 +241,40 @@
       "isHintRequired": false,
       "numberOfPuzzles": 4,
       "puzzles": [
-        "L71.png",
-        "L72.png",
-        "L73.png",
-        "L74.png"
+        "L9_1.png",
+        "L9_2.png",
+        "L9_3.png",
+        "L9_4.png"
       ],
-      "correctAudioName": "positive_1.mp3",
+      "correctAudioName": "9.mp3",
+      "needReiteration": true,
+      "interactionType": "1",
+      "questionText2": "",
+      "questionAudioName2": "counttensandones.mp3",
+      "commonOptionImageName": "frame.png",
+      "isOptionText": true,
+      "numberOfOptions": 2,
+      "options": [
+        "22",
+        "27"
+      ],
+      "correctAnswer": "2",
+      "reiterationAudioName": "27.mp3"
+    },
+    {
+      "questionText": "",
+      "questionAudioName": "solve-the-picture.mp3",
+      "shouldPlayQuestionAudio": true,
+      "commonPuzzleImageName": "frame.png",
+      "isHintRequired": false,
+      "numberOfPuzzles": 4,
+      "puzzles": [
+        "L10_1.png",
+        "L10_2.png",
+        "L10_3.png",
+        "L10_4.png"
+      ],
+      "correctAudioName": "10.mp3",
       "needReiteration": true,
       "interactionType": "1",
       "questionText2": "",

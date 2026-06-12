@@ -1,18 +1,18 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "L62",
+    "name": "L6_2",
     "texture": "237e45de-1a54-4897-b501-41abf2f77113",
     "atlas": "",
     "rect": [
       0,
-      0,
-      250,
-      250
+      102,
+      218,
+      148
     ],
     "offset": [
-      0,
-      0
+      -16,
+      -51
     ],
     "originalSize": [
       250,

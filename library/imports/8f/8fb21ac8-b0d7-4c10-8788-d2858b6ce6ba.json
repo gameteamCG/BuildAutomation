@@ -1,18 +1,18 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "L91",
+    "name": "L9_1",
     "texture": "db1cdf95-06ee-4b50-afab-270ededfaae6",
     "atlas": "",
     "rect": [
-      0,
-      0,
-      250,
-      250
+      45,
+      54,
+      205,
+      196
     ],
     "offset": [
-      0,
-      0
+      22.5,
+      -27
     ],
     "originalSize": [
       250,

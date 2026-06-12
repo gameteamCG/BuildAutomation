@@ -1,18 +1,18 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "L73",
+    "name": "L7_3",
     "texture": "36305a7c-594c-4c64-b73e-e043e2e24fe5",
     "atlas": "",
     "rect": [
+      41,
       0,
-      0,
-      250,
-      250
+      209,
+      209
     ],
     "offset": [
-      0,
-      0
+      20.5,
+      20.5
     ],
     "originalSize": [
       250,
