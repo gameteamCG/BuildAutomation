@@ -5,7 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -26,6 +27,8 @@ export default class Gameplay extends cc.Component {
     private postive_VO: cc.AudioClip[] = [];
     @property(cc.AudioClip)
     private negative_VO: cc.AudioClip[] = [];
+    @property([cc.SpriteFrame])
+    private baskets: cc.SpriteFrame[] = [];
 
     private options: cc.Node = null;
 
@@ -234,8 +237,9 @@ export default class Gameplay extends cc.Component {
             else if (this.optionsLayout == "layout2") {
                 // this.OptionsLayout();
                 this.node.getChildByName("basket").active = true;
-                this.node.getChildByName("rope").active = true;
+                //this.node.getChildByName("rope").active = true;
                 // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
+                this.node.getChildByName("basket").getChildByName("outside").getComponent(cc.Sprite).spriteFrame = this.baskets[startGame.Instance.currentLevel - 1];
                 let delay = 0;
                 for (let i = 0; i < this.options.children.length; i++) {
                     this.scheduleOnce(() => {
@@ -320,6 +324,7 @@ export default class Gameplay extends cc.Component {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
+
             this.correctCounter++;
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
@@ -378,6 +383,7 @@ export default class Gameplay extends cc.Component {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionText;
             node.getComponent(cc.Animation).stop();
             node.angle = 0;
             this.correctCounter++;
@@ -674,7 +680,9 @@ export default class Gameplay extends cc.Component {
             }, 0.5);
         }, 0.7)
     }
-
+    playButtonSound() {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    }
     arrangeChildren(centerNode: cc.Node, spacing: number) {
         let children = centerNode.children;
         let totalWidth = 0;

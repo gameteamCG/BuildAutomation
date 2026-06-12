@@ -29,7 +29,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
@@ -42,6 +42,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.tlc_font = null;
         _this.postive_VO = [];
         _this.negative_VO = [];
+        _this.baskets = [];
         _this.options = null;
         _this.optionsLayout = "layout3";
         _this.correctAnswer = [];
@@ -250,8 +251,9 @@ var Gameplay = /** @class */ (function (_super) {
             else if (_this.optionsLayout == "layout2") {
                 // this.OptionsLayout();
                 _this.node.getChildByName("basket").active = true;
-                _this.node.getChildByName("rope").active = true;
+                //this.node.getChildByName("rope").active = true;
                 // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
+                _this.node.getChildByName("basket").getChildByName("outside").getComponent(cc.Sprite).spriteFrame = _this.baskets[StartGame_1.default.Instance.currentLevel - 1];
                 var delay = 0;
                 var _loop_6 = function (i) {
                     _this.scheduleOnce(function () {
@@ -395,6 +397,7 @@ var Gameplay = /** @class */ (function (_super) {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionText;
             node.getComponent(cc.Animation).stop();
             node.angle = 0;
             this.correctCounter++;
@@ -685,6 +688,9 @@ var Gameplay = /** @class */ (function (_super) {
             }, 0.5);
         }, 0.7);
     };
+    Gameplay.prototype.playButtonSound = function () {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    };
     Gameplay.prototype.arrangeChildren = function (centerNode, spacing) {
         var children = centerNode.children;
         var totalWidth = 0;
@@ -772,6 +778,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_VO", void 0);
+    __decorate([
+        property([cc.SpriteFrame])
+    ], Gameplay.prototype, "baskets", void 0);
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "pop_audio", void 0);
