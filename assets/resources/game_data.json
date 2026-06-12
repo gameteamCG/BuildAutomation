@@ -85,16 +85,16 @@
       "correctAnswerNum": "12"
     },
     {
-      "questionLayout": "layout3",
+      "questionLayout": "layout1",
       "questionBgName": "bg4.png",
       "questionAudioName": "L4.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
       "numberOfOptions": 3,
       "options": [
-        "L4-5.png",
-        "L4-1.png",
-        "L4-3.png"
+        "",
+        "",
+        ""
       ],
       "optionsBg": [
         "L4-6.png",
