@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -31,13 +31,11 @@ var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.extraImg = null;
         _this.podar_font = null;
         _this.jaipuria_font = null;
         _this.tlc_font = null;
         _this.supercub_font = null;
         _this.popSound = [];
-        _this.popSound2 = [];
         _this.questionSound = [];
         _this.positiveSound = [];
         _this.negativeSound = [];
@@ -72,11 +70,19 @@ var NewClass = /** @class */ (function (_super) {
         _this.correctAudio = null;
         _this.optionsNode = null;
         _this.questionBoxPosY = 0;
+        _this.answerText = [];
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
     NewClass.prototype.onLoad = function () {
         var _this = this;
+        this.answerText = [
+            "6 tens and 1 one",
+            "6 tens and 4 ones",
+            "6 tens and 3 ones",
+            "6 tens and 2 ones",
+            "6 tens and 5 ones",
+        ];
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
@@ -329,7 +335,7 @@ var NewClass = /** @class */ (function (_super) {
             if (globalVariables_1.default.Instance.currentLevel == 1) {
                 var hand = this.node.getChildByName("hand");
                 console.log("answer array num = ", this.answerArray[0]);
-                hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
+                hand.setParent(this.node.getChildByName("Option").children[0]);
                 hand.setPosition(50, -50);
                 hand.angle = 30;
                 hand.setParentWithSamePos(this.node);
@@ -406,7 +412,7 @@ var NewClass = /** @class */ (function (_super) {
         if (_node.name == this.answerArray[0]) {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+            // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
@@ -476,6 +482,7 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.callPositiveRection = function (_node) {
         var _this = this;
         // _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
+        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerText[globalVariables_1.default.Instance.currentLevel - 1];
         cc.audioEngine.playEffect(this.correctAudio, false);
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
@@ -774,7 +781,7 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.OptionsLayoutVertical = function () {
         var optionsLayout = this.optionsNode;
         var optionNodes = optionsLayout.children;
-        var paddingBetweenOptions = 10;
+        var paddingBetweenOptions = 0;
         var totalHeight = 0;
         var maxWidth = 0;
         // Calculate the total height and the maximum width of the options
@@ -829,9 +836,6 @@ var NewClass = /** @class */ (function (_super) {
         }
     };
     __decorate([
-        property(cc.SpriteFrame)
-    ], NewClass.prototype, "extraImg", void 0);
-    __decorate([
         property(cc.Font)
     ], NewClass.prototype, "podar_font", void 0);
     __decorate([
@@ -846,9 +850,6 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "popSound", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "popSound2", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "questionSound", void 0);

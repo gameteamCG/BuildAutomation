@@ -1,6 +1,4 @@
-
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -8,9 +6,6 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class NewClass extends cc.Component {
-
-    @property(cc.SpriteFrame)
-    private extraImg: cc.SpriteFrame = null;
 
     @property(cc.Font)
     private podar_font: cc.Font = null;
@@ -24,9 +19,6 @@ export default class NewClass extends cc.Component {
 
     @property(cc.AudioClip)
     private popSound: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private popSound2: cc.AudioClip[] = [];
 
     @property(cc.AudioClip)
     private questionSound: cc.AudioClip[] = [];
@@ -106,10 +98,18 @@ export default class NewClass extends cc.Component {
 
 
     private questionBoxPosY: number = 0;
+    private answerText: string[] = [];
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
+        this.answerText = [
+            "6 tens and 1 one",
+            "6 tens and 4 ones",
+            "6 tens and 3 ones",
+            "6 tens and 2 ones",
+            "6 tens and 5 ones",
+        ]
         if (startGame.Instance.jockeyName == "Podar") {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
@@ -300,7 +300,6 @@ export default class NewClass extends cc.Component {
         // this.node.getChildByName("questionPanel").opacity = 255;
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
-
         this.OptionsLayoutVertical();
         this.reverseOptionsLayout();
         let posX = -237;
@@ -365,7 +364,7 @@ export default class NewClass extends cc.Component {
             if (globalVariables.Instance.currentLevel == 1) {
                 let hand = this.node.getChildByName("hand");
                 console.log("answer array num = ", this.answerArray[0]);
-                hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
+                hand.setParent(this.node.getChildByName("Option").children[0]);
                 hand.setPosition(50, -50);
                 hand.angle = 30;
                 hand.setParentWithSamePos(this.node);
@@ -444,7 +443,7 @@ export default class NewClass extends cc.Component {
         if (_node.name == this.answerArray[0]) {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+            // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
@@ -517,6 +516,7 @@ export default class NewClass extends cc.Component {
 
     callPositiveRection(_node: cc.Node) {
         // _node.getComponent(cc.Sprite).spriteFrame = this.extraImg;
+        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerText[globalVariables.Instance.currentLevel - 1];
         cc.audioEngine.playEffect(this.correctAudio, false);
         // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
@@ -829,7 +829,7 @@ export default class NewClass extends cc.Component {
         let optionsLayout = this.optionsNode;
         let optionNodes = optionsLayout.children;
 
-        const paddingBetweenOptions = 10;
+        const paddingBetweenOptions = 0;
 
         let totalHeight = 0;
         let maxWidth = 0;
