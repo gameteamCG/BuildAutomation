@@ -1,66 +1,152 @@
 {
   "AdditionalData": {
     "GameID": "Letters and sounds Pp",
-    "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/video_LetterAndSoundPp_JollyPhonics.mp4",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/EYFS_Digraph_th_fs2_phonics_r159/Sound+th.mp4",
     "TitleImageName": "GameTitleNew.png",
     "IntroAudio1Name": "",
     "IntroAudio2Name": "",
     "JockeyName": "puzzle",
-    "TotalLevel": "3"
+    "TotalLevel": "7"
   },
   "QuestionData": [
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "",
+      "IsQuestionText": true,
+      "QuestionText": "Thumb",
       "QuestionImageName": "Q1.png",
-      "QuestionAudioName": "Q1.mp3",
+      "QuestionAudioName": "QVO1.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
-      "NumberOfOptions": 2,
+      "NumberOfOptions": 4,
       "Options": [
-        "Dd.png",
-        "Pp.png"
+        "thumb.png",
+        "moth.png",
+        "tooth.png",
+        "path.png"
       ],
-      "ReiterationAudioName": "p_vo.mp3",
+      "ReiterationAudioName": "thumb.mp3",
+      "CorrectAudioName": "positive_1.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "Thin",
+      "QuestionImageName": "Q1.png",
+      "QuestionAudioName": "QVO1.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "thick",
+        "moth.png",
+        "tooth.png",
+        "thin.png"
+      ],
+      "ReiterationAudioName": "thin.mp3",
+      "CorrectAudioName": "positive_2.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "4"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": true,
+      "QuestionText": "Moth",
+      "QuestionImageName": "Q1.png",
+      "QuestionAudioName": "QVO1.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": false,
+      "NumberOfOptions": 4,
+      "Options": [
+        "tooth.png",
+        "moth.png",
+        "thumb.png",
+        "thick.png"
+      ],
+      "ReiterationAudioName": "moth.mp3",
       "CorrectAudioName": "positive_3.mp3",
-      "WrongAudioName": "negative_5.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "2"
     },
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
-      "QuestionText": "Pp",
-      "QuestionImageName": "Q2.png",
-      "QuestionAudioName": "Q2.mp3",
+      "QuestionText": "Thumb",
+      "QuestionImageName": "path.png",
+      "QuestionAudioName": "QVO2.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
-      "NumberOfOptions": 2,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
       "Options": [
-        "rabbit.png",
-        "panda.png"
+        "thick",
+        "moth",
+        "tooth",
+        "path"
       ],
-      "ReiterationAudioName": "panda_vo.mp3",
-      "CorrectAudioName": "positive_8.mp3",
-      "WrongAudioName": "negative_5.mp3",
-      "CorrectAnswer": "2"
+      "ReiterationAudioName": "path.mp3",
+      "CorrectAudioName": "positive_1.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "4"
     },
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
-      "QuestionText": "Pp",
-      "QuestionImageName": "Q2.png",
-      "QuestionAudioName": "Q3.mp3",
+      "QuestionText": "Thumb",
+      "QuestionImageName": "thick.png",
+      "QuestionAudioName": "QVO2.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
-      "NumberOfOptions": 2,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
       "Options": [
-        "pumpkin.png",
-        "onion.png"
+        "thick",
+        "thin",
+        "tooth",
+        "path"
       ],
-      "ReiterationAudioName": "pumpkin_vo.mp3",
-      "CorrectAudioName": "positive_10.mp3",
-      "WrongAudioName": "negative_3.mp3",
+      "ReiterationAudioName": "thick.mp3",
+      "CorrectAudioName": "positive_2.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "1"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": false,
+      "QuestionText": "Thumb",
+      "QuestionImageName": "tooth.png",
+      "QuestionAudioName": "QVO2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "thin",
+        "moth",
+        "tooth",
+        "path"
+      ],
+      "ReiterationAudioName": "tooth.mp3",
+      "CorrectAudioName": "positive_3.mp3",
+      "WrongAudioName": "negative_1.mp3",
+      "CorrectAnswer": "3"
+    },
+    {
+      "QuestionAppearTime": "99999",
+      "IsQuestionText": false,
+      "QuestionText": "Thumb",
+      "QuestionImageName": "three.png",
+      "QuestionAudioName": "QVO2.mp3",
+      "PlayQuestionAudio": true,
+      "IsOptionText": true,
+      "NumberOfOptions": 4,
+      "Options": [
+        "th",
+        "mo",
+        "ck",
+        "pa"
+      ],
+      "ReiterationAudioName": "three.mp3",
+      "CorrectAudioName": "positive_1.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "1"
     }
   ]
