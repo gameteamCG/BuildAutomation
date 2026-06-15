@@ -78,10 +78,23 @@ var gameplay = /** @class */ (function (_super) {
         _this.droppedBool = [];
         _this.answeredCount = 0;
         _this.totalAnswers = 0;
+        // LIFE-CYCLE CALLBACKS:
+        _this.answertext = [];
         return _this;
     }
-    // LIFE-CYCLE CALLBACKS:
     gameplay.prototype.onLoad = function () {
+        this.answertext = [
+            "4 tens and 1 one",
+            "4 tens and 7 ones",
+            "4 tens and 5 ones",
+            "4 tens and 9 ones",
+            "4 tens and 8 ones",
+            "4 tens and 3 ones",
+            "4 tens and 6 ones",
+            "5 tens and 0 ones",
+            "4 tens and 4 ones",
+            "4 tens and 2 ones",
+        ];
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
@@ -382,7 +395,7 @@ var gameplay = /** @class */ (function (_super) {
                 _this.scheduleOnce(function () {
                     cc.audioEngine.playEffect(_this.popSound[0], false);
                     cc.tween(_this.dropZones.getChildByName(i.toString()))
-                        .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                        .to(0.5, { scale: 0.8 }, { easing: "sineInOut" }).start();
                     if (i == _this.dropZones.children.length) {
                         _this.scheduleOnce(function () {
                             _this.callOptionIn();
@@ -415,7 +428,7 @@ var gameplay = /** @class */ (function (_super) {
             this_6.scheduleOnce(function () {
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 cc.tween(_this.optionsNode.getChildByName(i.toString()))
-                    .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+                    .to(0.5, { scale: 0.6 }, { easing: "sineInOut" }).start();
                 if (i == _this.optionsNode.children.length) {
                     _this.scheduleOnce(function () {
                         _this.PlayQuestionAudio();
@@ -517,7 +530,6 @@ var gameplay = /** @class */ (function (_super) {
             }, 1.5);
         }
         else {
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
             this.dropZones.active = true;
             this.optionsNode.active = true;
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = true;
@@ -549,30 +561,32 @@ var gameplay = /** @class */ (function (_super) {
         var _clone1 = cc.instantiate(_node1);
         var _clone2 = cc.instantiate(_node2);
         this.node.getChildByName("overlay").active = true;
-        _clone1.setParent(this.node.getChildByName("overlay"));
         _clone2.setParent(this.node.getChildByName("overlay"));
+        _clone1.setParent(this.node.getChildByName("overlay"));
         _node1.destroy();
         _node2.destroy();
         this.dropZones.active = false;
         this.optionsNode.active = false;
         cc.audioEngine.playEffect(this.positiveSound[0], false);
-        cc.tween(_clone1).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        // cc.tween(_clone1).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
+        // cc.tween(_clone1.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone1.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone1).to(0.5, { x: -160, y: 0 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        // cc.tween(_clone1.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1.children[2]).to(0.5, { scale: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone1).to(0.5, { x: -139, y: 0 }, { easing: "sineInOut" }).start();
+        // cc.tween(_clone2).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
+        // cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { scale: 0.8 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
+        // cc.tween(_clone2.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2).to(0.5, { x: 230, y: 0 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2).to(0.5, { x: 139, y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             var audioNum = parseInt(_clone1.name);
             audioNum -= 1;
             console.log("audio Number = ", audioNum);
             cc.audioEngine.playEffect(_this.correctAudio[audioNum], false);
+            _this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = _this.answertext[globalVariables_1.default.Instance.currentLevel - 1];
             _this.node.getChildByName("confetti").setPosition(0, 0);
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             _this.scheduleOnce(function () {
@@ -1065,7 +1079,6 @@ var gameplay = /** @class */ (function (_super) {
             this.answeredCount++;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveRection(_dropNode, _node);
