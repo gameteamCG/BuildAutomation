@@ -6697,7 +6697,7 @@
         "__id__": 154
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 156
@@ -6885,6 +6885,9 @@
       "__id__": 5
     },
     "_enabled": true,
+    "bridgeAppearSFX": {
+      "__uuid__": "239219e3-053d-453b-930a-fc2f1db9e5a4"
+    },
     "runningSFX": {
       "__uuid__": "29d0acad-94ce-47b3-865b-4e7286756e6e"
     },

@@ -18,6 +18,9 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class GameManager extends cc.Component {
   @property(cc.AudioClip)
+  public bridgeAppearSFX: cc.AudioClip = null;
+
+  @property(cc.AudioClip)
   public runningSFX: cc.AudioClip = null;
 
   @property(cc.AudioClip)
@@ -1065,6 +1068,7 @@ export default class GameManager extends cc.Component {
     this.node.getChildByName("BridgeComplete").active = true;
     this.node.getChildByName("BridgeComplete").opacity = 0;
 
+    cc.audioEngine.playEffect(this.bridgeAppearSFX, false);
     cc.tween(this.node.getChildByName("BridgeComplete"))
       .to(1, { opacity: 255 }, { easing: "smooth" })
       .call(() => {

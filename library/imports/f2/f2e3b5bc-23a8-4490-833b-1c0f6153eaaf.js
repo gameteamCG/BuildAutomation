@@ -47,6 +47,7 @@ var GameManager = /** @class */ (function (_super) {
     __extends(GameManager, _super);
     function GameManager() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.bridgeAppearSFX = null;
         _this.runningSFX = null;
         _this.wrongSFX = null;
         _this.targetHitSFX = null;
@@ -882,6 +883,7 @@ var GameManager = /** @class */ (function (_super) {
             .start();
         this.node.getChildByName("BridgeComplete").active = true;
         this.node.getChildByName("BridgeComplete").opacity = 0;
+        cc.audioEngine.playEffect(this.bridgeAppearSFX, false);
         cc.tween(this.node.getChildByName("BridgeComplete"))
             .to(1, { opacity: 255 }, { easing: "smooth" })
             .call(function () {
@@ -1281,6 +1283,9 @@ var GameManager = /** @class */ (function (_super) {
     };
     var GameManager_1;
     GameManager.roughSheetMode = false;
+    __decorate([
+        property(cc.AudioClip)
+    ], GameManager.prototype, "bridgeAppearSFX", void 0);
     __decorate([
         property(cc.AudioClip)
     ], GameManager.prototype, "runningSFX", void 0);
