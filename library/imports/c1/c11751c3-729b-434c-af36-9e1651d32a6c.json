@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_moon",
+    "texture": "98296282-a010-43fd-a9b6-f6a7f2475f0b",
+    "atlas": "",
+    "rect": [
+      13,
+      13,
+      475,
+      476
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

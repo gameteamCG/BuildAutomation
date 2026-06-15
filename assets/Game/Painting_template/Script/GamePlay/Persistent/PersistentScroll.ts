@@ -9,6 +9,7 @@ import CommonFun from "../../Common/CommonFun";
 import configData from "../../Common/ConfigController";
 import { Constant } from "../../Common/Constant";
 import Global from "../../Common/Global";
+import GamePlay from "../GamePlay";
 import TileSelection from "../TileSelection";
 
 const { ccclass, property } = cc._decorator;
@@ -134,6 +135,8 @@ export default class PersistentScroll extends cc.Component {
     isQuadSymetryClicked = false;
 
     private static instance: PersistentScroll = null;
+    @property(cc.AudioClip)
+    questionsound: cc.AudioClip[] = [];
     static get Instance() {
         return PersistentScroll.instance
     }
@@ -577,5 +580,14 @@ export default class PersistentScroll extends cc.Component {
             data.parent.removeChild(data.child);
             this.currentDrawingScript.currentstensil.pop();
         }
+    }
+    playQuestionsound() {
+        this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionsound[CommonFun.instance.currentLvl], false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
+        }, this.questionsound[CommonFun.instance.currentLvl].duration + 0.1);
     }
 }

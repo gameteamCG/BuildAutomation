@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_wood",
+    "texture": "57beda24-74db-44bd-8211-dff10f417171",
+    "atlas": "",
+    "rect": [
+      76,
+      13,
+      350,
+      476
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

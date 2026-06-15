@@ -65,6 +65,8 @@ export default class GamePlay extends cc.Component {
 
     private Ypos: number = 0;
     private static instance: GamePlay = null;
+    @property(cc.AudioClip)
+    questionsound: cc.AudioClip[] = [];
 
     onLoad() {
         GamePlay.instance = this;
@@ -298,5 +300,15 @@ export default class GamePlay extends cc.Component {
         // ref.node.getParent().getChildByName("val").getComponent(cc.Label).string = val;
 
         // Constant.CurrentToolsTagSize[this.currentPensilSelection] = val;
+    }
+
+    playQuestionsound() {
+        this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionsound[this.currentLevel - 1], false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
+        }, this.questionsound[this.currentLevel - 1].duration + 0.1);
     }
 }

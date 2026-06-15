@@ -8553,6 +8553,8 @@
       "__id__": 27
     },
     "_enabled": true,
+    "hand": null,
+    "tickBtn": null,
     "TileSelectionListArray": [
       {
         "__id__": 183
@@ -8613,6 +8615,7 @@
     "eraserAud": {
       "__uuid__": "893604f5-7813-4f3d-9d18-d669ac825a1f"
     },
+    "questionsound": [],
     "_id": "06ikYZcLlMvY8batOIKaTr"
   },
   {

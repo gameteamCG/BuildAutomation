@@ -163,6 +163,7 @@ var PersistentScroll = /** @class */ (function (_super) {
         _this.currentDrawingScript = null;
         _this.isDualSymetryClicked = false;
         _this.isQuadSymetryClicked = false;
+        _this.questionsound = [];
         return _this;
     }
     PersistentScroll_1 = PersistentScroll;
@@ -526,6 +527,15 @@ var PersistentScroll = /** @class */ (function (_super) {
             this.currentDrawingScript.currentstensil.pop();
         }
     };
+    PersistentScroll.prototype.playQuestionsound = function () {
+        var _this = this;
+        this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionsound[CommonFun_1.default.instance.currentLvl], false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.questionsound[CommonFun_1.default.instance.currentLvl].duration + 0.1);
+    };
     var PersistentScroll_1;
     PersistentScroll.instance = null;
     __decorate([
@@ -567,6 +577,9 @@ var PersistentScroll = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], PersistentScroll.prototype, "eraserAud", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], PersistentScroll.prototype, "questionsound", void 0);
     PersistentScroll = PersistentScroll_1 = __decorate([
         ccclass
     ], PersistentScroll);

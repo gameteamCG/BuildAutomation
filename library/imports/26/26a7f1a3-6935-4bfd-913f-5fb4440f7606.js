@@ -74,6 +74,7 @@ var GamePlay = /** @class */ (function (_super) {
         _this.currentLevel = 0;
         _this.totalLevels = 0;
         _this.Ypos = 0;
+        _this.questionsound = [];
         return _this;
     }
     GamePlay_1 = GamePlay;
@@ -294,6 +295,15 @@ var GamePlay = /** @class */ (function (_super) {
         // ref.node.getParent().getChildByName("val").getComponent(cc.Label).string = val;
         // Constant.CurrentToolsTagSize[this.currentPensilSelection] = val;
     };
+    GamePlay.prototype.playQuestionsound = function () {
+        var _this = this;
+        this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionsound[this.currentLevel - 1], false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("panel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.questionsound[this.currentLevel - 1].duration + 0.1);
+    };
     var GamePlay_1;
     GamePlay.instance = null;
     __decorate([
@@ -320,6 +330,9 @@ var GamePlay = /** @class */ (function (_super) {
     __decorate([
         property(cc.Font)
     ], GamePlay.prototype, "supercub_font", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], GamePlay.prototype, "questionsound", void 0);
     GamePlay = GamePlay_1 = __decorate([
         ccclass
     ], GamePlay);

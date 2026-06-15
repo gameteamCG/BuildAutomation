@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_rook",
+    "texture": "72ecebc9-cc99-478d-a4a2-b70a840d35d1",
+    "atlas": "",
+    "rect": [
+      116,
+      27,
+      269,
+      448
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
