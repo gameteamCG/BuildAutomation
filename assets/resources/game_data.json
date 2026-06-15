@@ -1,7 +1,7 @@
 {
   "AdditionalData": {
     "GameID": "Letters and sounds Pp",
-    "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/video_LetterAndSoundPp_JollyPhonics.mp4",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/EYFS_Digraph_ng_fs2_phonics_r121/Sound+ng_1.mp4",
     "TitleImageName": "GameTitleNew.png",
     "IntroAudio1Name": "",
     "IntroAudio2Name": "",
@@ -11,39 +11,43 @@
   "QuestionData": [
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "",
+      "IsQuestionText": true,
+      "QuestionText": "King",
       "QuestionImageName": "Q1.png",
       "QuestionAudioName": "Q1.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
-      "NumberOfOptions": 2,
+      "NumberOfOptions": 4,
       "Options": [
-        "Dd.png",
-        "Pp.png"
+        "tong.png",
+        "king.png",
+        "wing.png",
+        "ring.png"
       ],
-      "ReiterationAudioName": "p_vo.mp3",
+      "ReiterationAudioName": "king.mp3",
       "CorrectAudioName": "positive_3.mp3",
       "WrongAudioName": "negative_5.mp3",
       "CorrectAnswer": "2"
     },
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "Pp",
-      "QuestionImageName": "Q2.png",
-      "QuestionAudioName": "Q2.mp3",
+      "IsQuestionText": true,
+      "QuestionText": "Sing",
+      "QuestionImageName": "Q1.png",
+      "QuestionAudioName": "Q1.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
-      "NumberOfOptions": 2,
+      "NumberOfOptions": 4,
       "Options": [
-        "rabbit.png",
-        "panda.png"
+        "sing.png",
+        "king.png",
+        "wing.png",
+        "ring.png"
       ],
-      "ReiterationAudioName": "panda_vo.mp3",
-      "CorrectAudioName": "positive_8.mp3",
+      "ReiterationAudioName": "sing.mp3",
+      "CorrectAudioName": "positive_3.mp3",
       "WrongAudioName": "negative_5.mp3",
-      "CorrectAnswer": "2"
+      "CorrectAnswer": "1"
     },
     {
       "QuestionAppearTime": "99999",
