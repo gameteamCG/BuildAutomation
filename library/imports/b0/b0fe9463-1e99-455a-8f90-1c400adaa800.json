@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "black-glasses",
+    "texture": "9f787835-ea60-40cf-8f4e-fe5be62ced0c",
+    "atlas": "",
+    "rect": [
+      27,
+      183,
+      453,
+      157
+    ],
+    "offset": [
+      3,
+      -11
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
