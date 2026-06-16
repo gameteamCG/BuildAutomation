@@ -1560,7 +1560,7 @@
     "node": {
       "__id__": 27
     },
-    "_enabled": true,
+    "_enabled": false,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
@@ -1790,8 +1790,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "",
-    "_N$string": "",
+    "_string": "Tricky word",
+    "_N$string": "Tricky word",
     "_fontSize": 80,
     "_lineHeight": 130,
     "_enableWrapText": true,
