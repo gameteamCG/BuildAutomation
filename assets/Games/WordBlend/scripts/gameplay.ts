@@ -617,7 +617,7 @@ export default class NewClass extends cc.Component {
                 if (this.isSecondInteraction) {
                     //check what interaction it is and call the respective function
                     //show question panel
-                    // cc.audioEngine.playEffect(this.wordVoQuestion, false);
+                    cc.audioEngine.playEffect(this.wordVoQuestion, false);
                     this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
                 }
                 else {

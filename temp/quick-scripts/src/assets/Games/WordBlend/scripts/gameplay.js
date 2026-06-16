@@ -547,7 +547,7 @@ var NewClass = /** @class */ (function (_super) {
                 if (_this.isSecondInteraction) {
                     //check what interaction it is and call the respective function
                     //show question panel
-                    // cc.audioEngine.playEffect(this.wordVoQuestion, false);
+                    cc.audioEngine.playEffect(_this.wordVoQuestion, false);
                     _this.interactionType == "1" ? _this.OptionsAppear() : _this.wordAppear();
                 }
                 else {

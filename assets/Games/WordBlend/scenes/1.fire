@@ -630,8 +630,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        0.9,
+        0.9,
         1
       ]
     },
@@ -4084,7 +4084,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 390.54,
+      "width": 466.06,
       "height": 252
     },
     "_anchorPoint": {
@@ -4136,9 +4136,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Review Digraph",
-    "_N$string": "Review Digraph",
-    "_fontSize": 70,
+    "_string": "Tens and Ones 76 to 80 ",
+    "_N$string": "Tens and Ones 76 to 80 ",
+    "_fontSize": 50,
     "_lineHeight": 200,
     "_enableWrapText": true,
     "_N$file": {
