@@ -1605,8 +1605,8 @@
     "relativePath": "Games\\Podar_ Day 111 - Video Quiz (solar system)\\L5 (2).mp3"
   },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1781673663187,
-    "meta": 1781673663219,
+    "asset": 1781674614569,
+    "meta": 1781674614583,
     "relativePath": "Games\\Scenes\\video.fire"
   },
   "456cfa32-849a-4a2e-b948-4c7983ad00a4": {
@@ -4714,11 +4714,6 @@
     "meta": 1781611024323,
     "relativePath": "Framework\\Prefabs\\Progressbar\\ProgressBar\\ProgressBar"
   },
-  "c1fa9f02-1d05-479a-80bf-5b6da7bebcdb": {
-    "asset": 1781611282244,
-    "meta": 1781611282292,
-    "relativePath": "resources\\images\\GameTitleNew.png"
-  },
   "d314c04a-08eb-46e8-af4a-7da0def99a73": {
     "asset": 1781611755707,
     "meta": 1781611756279,
@@ -4734,75 +4729,15 @@
     "meta": 1781611756280,
     "relativePath": "resources\\audios\\QVO1.mp3"
   },
-  "d4465511-dc87-4b19-9a7b-fbdd91156931": {
-    "asset": 1781611755706,
-    "meta": 1781611756297,
-    "relativePath": "resources\\audios\\5.mp3"
-  },
-  "32196c50-037c-413e-9d8a-02957ea70c96": {
-    "asset": 1781611755706,
-    "meta": 1781611756297,
-    "relativePath": "resources\\audios\\2.mp3"
-  },
-  "812d5c23-dac4-4b89-82c3-a5c1bc29f1c1": {
-    "asset": 1781611755706,
-    "meta": 1781611756298,
-    "relativePath": "resources\\audios\\7.mp3"
-  },
-  "092ebadc-ec56-4359-8b11-b91f716b4995": {
-    "asset": 1781611755706,
-    "meta": 1781611756299,
-    "relativePath": "resources\\audios\\3.mp3"
-  },
-  "591fa01c-4577-4f0f-901c-3a2591a60dbf": {
-    "asset": 1781611755706,
-    "meta": 1781611756299,
-    "relativePath": "resources\\audios\\1.mp3"
-  },
-  "9d4ccda2-e454-41a4-805d-efaad68eadc5": {
-    "asset": 1781611755706,
-    "meta": 1781611756300,
-    "relativePath": "resources\\audios\\6.mp3"
-  },
-  "edae90fb-784e-4f22-a85c-380bf80c9904": {
-    "asset": 1781611755706,
-    "meta": 1781611756300,
-    "relativePath": "resources\\audios\\4.mp3"
-  },
   "1ca7c54a-e2fe-4d49-9685-3d497fd2130d": {
     "asset": 1781611969261,
     "meta": 1781611969813,
     "relativePath": "resources\\audios\\empty.mp3"
   },
-  "f10458a3-8cef-48d9-ada6-6ea91ca8f20f": {
-    "asset": 1781613970443,
-    "meta": 1781613970631,
-    "relativePath": "resources\\images\\2.png"
-  },
-  "59b40760-0950-49bc-8719-79126f492fca": {
-    "asset": 1781613970443,
-    "meta": 1781613970634,
-    "relativePath": "resources\\images\\4.png"
-  },
   "57806def-9391-4684-aaf0-f650d451ad55": {
     "asset": 1781613970443,
     "meta": 1781613970642,
     "relativePath": "resources\\images\\3.png"
-  },
-  "cf2e5385-a0b3-4aa9-b402-5ed3ee63e029": {
-    "asset": 1781613970443,
-    "meta": 1781613970644,
-    "relativePath": "resources\\images\\8.png"
-  },
-  "4b174587-cad9-4966-bcab-1d8cad421066": {
-    "asset": 1781613970443,
-    "meta": 1781613970650,
-    "relativePath": "resources\\images\\5.png"
-  },
-  "e24e32ae-77a1-423e-9896-482372fdf6ff": {
-    "asset": 1781613970443,
-    "meta": 1781613970654,
-    "relativePath": "resources\\images\\L4.png"
   },
   "bdb5b1ed-0bf0-449e-82c4-4f3766ded799": {
     "asset": 1781613970444,
@@ -4813,11 +4748,6 @@
     "asset": 1781613970444,
     "meta": 1781613970658,
     "relativePath": "resources\\images\\12.png"
-  },
-  "84389610-350f-439a-9706-54e6de98b161": {
-    "asset": 1781613970443,
-    "meta": 1781613970660,
-    "relativePath": "resources\\images\\1.png"
   },
   "c9c35fac-872e-405c-bbbc-9e6db38f2050": {
     "asset": 1781613970443,
@@ -4834,31 +4764,6 @@
     "meta": 1781613970678,
     "relativePath": "resources\\images\\11.png"
   },
-  "e7d0d90c-54b5-493c-9ed0-f0176bab2af2": {
-    "asset": 1781613970444,
-    "meta": 1781613970678,
-    "relativePath": "resources\\images\\L5.png"
-  },
-  "e60bf85b-4ba2-4fe0-9255-1f0845d6ce05": {
-    "asset": 1781613970444,
-    "meta": 1781613970681,
-    "relativePath": "resources\\images\\L6.png"
-  },
-  "0d5d1b81-4915-4a14-af07-6c1339318aef": {
-    "asset": 1781614096596,
-    "meta": 1781614096651,
-    "relativePath": "resources\\images\\L7.png"
-  },
-  "a54bd61c-122c-4e3a-a032-17557fb558d3": {
-    "asset": 1781614096596,
-    "meta": 1781614096652,
-    "relativePath": "resources\\images\\7.png"
-  },
-  "0a443f8a-da02-4626-8b7e-85bb48f8205b": {
-    "asset": 1781672878779,
-    "meta": 1781672879999,
-    "relativePath": "resources\\game_data.json"
-  },
   "959f7039-8e9b-4c1a-9c53-bc15dec99ae5": {
     "asset": 1781673521649,
     "meta": 1781673523291,
@@ -4868,5 +4773,85 @@
     "asset": 1781673620935,
     "meta": 1781673622466,
     "relativePath": "Framework\\Scripts\\StartGame.ts"
+  },
+  "e24e32ae-77a1-423e-9896-482372fdf6ff": {
+    "asset": 1781674031759,
+    "meta": 1781674031865,
+    "relativePath": "resources\\images\\L4.png"
+  },
+  "e7d0d90c-54b5-493c-9ed0-f0176bab2af2": {
+    "asset": 1781674031755,
+    "meta": 1781674031879,
+    "relativePath": "resources\\images\\L5.png"
+  },
+  "d4f30af4-aef2-4073-adcc-89fc9ab841c5": {
+    "asset": 1781674031755,
+    "meta": 1781674031930,
+    "relativePath": "resources\\images\\L3.png"
+  },
+  "c1fa9f02-1d05-479a-80bf-5b6da7bebcdb": {
+    "asset": 1781674054193,
+    "meta": 1781674054250,
+    "relativePath": "resources\\images\\GameTitleNew.png"
+  },
+  "d4465511-dc87-4b19-9a7b-fbdd91156931": {
+    "asset": 1781674088131,
+    "meta": 1781674089117,
+    "relativePath": "resources\\audios\\5.mp3"
+  },
+  "32196c50-037c-413e-9d8a-02957ea70c96": {
+    "asset": 1781674088131,
+    "meta": 1781674089117,
+    "relativePath": "resources\\audios\\2.mp3"
+  },
+  "092ebadc-ec56-4359-8b11-b91f716b4995": {
+    "asset": 1781674088131,
+    "meta": 1781674089117,
+    "relativePath": "resources\\audios\\3.mp3"
+  },
+  "edae90fb-784e-4f22-a85c-380bf80c9904": {
+    "asset": 1781674088131,
+    "meta": 1781674089120,
+    "relativePath": "resources\\audios\\4.mp3"
+  },
+  "591fa01c-4577-4f0f-901c-3a2591a60dbf": {
+    "asset": 1781674088131,
+    "meta": 1781674089122,
+    "relativePath": "resources\\audios\\1.mp3"
+  },
+  "f10458a3-8cef-48d9-ada6-6ea91ca8f20f": {
+    "asset": 1781674239459,
+    "meta": 1781674239592,
+    "relativePath": "resources\\images\\2.png"
+  },
+  "a54bd61c-122c-4e3a-a032-17557fb558d3": {
+    "asset": 1781674239459,
+    "meta": 1781674239595,
+    "relativePath": "resources\\images\\7.png"
+  },
+  "4b174587-cad9-4966-bcab-1d8cad421066": {
+    "asset": 1781674239462,
+    "meta": 1781674239600,
+    "relativePath": "resources\\images\\5.png"
+  },
+  "59b40760-0950-49bc-8719-79126f492fca": {
+    "asset": 1781674239462,
+    "meta": 1781674239600,
+    "relativePath": "resources\\images\\4.png"
+  },
+  "84389610-350f-439a-9706-54e6de98b161": {
+    "asset": 1781674547776,
+    "meta": 1781674547841,
+    "relativePath": "resources\\images\\1.png"
+  },
+  "cf2e5385-a0b3-4aa9-b402-5ed3ee63e029": {
+    "asset": 1781674547780,
+    "meta": 1781674547842,
+    "relativePath": "resources\\images\\8.png"
+  },
+  "0a443f8a-da02-4626-8b7e-85bb48f8205b": {
+    "asset": 1781674613154,
+    "meta": 1781674614094,
+    "relativePath": "resources\\game_data.json"
   }
 }

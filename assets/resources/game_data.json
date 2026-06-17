@@ -1,18 +1,18 @@
 {
   "AdditionalData": {
     "GameID": "Letters and sounds Pp",
-    "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/EYFS_Digraph_oi_fs2_phonics_r177.mp4",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/EYFS_Digraph_ie_fs2_phonics_r91.mp4",
     "TitleImageName": "GameTitleNew.png",
     "IntroAudio1Name": "",
     "IntroAudio2Name": "",
     "JockeyName": "puzzle",
-    "TotalLevel": "7"
+    "TotalLevel": "5"
   },
   "QuestionData": [
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": true,
-      "QuestionText": "boil",
+      "QuestionText": "tie",
       "QuestionImageName": "Q1.png",
       "QuestionAudioName": "QVO1.mp3",
       "PlayQuestionAudio": true,
@@ -21,8 +21,8 @@
       "Options": [
         "1.png",
         "2.png",
-        "3.png",
-        "4.png"
+        "6.png",
+        "7.png"
       ],
       "ReiterationAudioName": "1.mp3",
       "CorrectAudioName": "positive_1.mp3",
@@ -32,7 +32,7 @@
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": true,
-      "QuestionText": "coin",
+      "QuestionText": "lie",
       "QuestionImageName": "Q1.png",
       "QuestionAudioName": "QVO1.mp3",
       "PlayQuestionAudio": true,
@@ -40,32 +40,32 @@
       "NumberOfOptions": 4,
       "Options": [
         "5.png",
-        "6.png",
-        "7.png",
+        "3.png",
+        "4.png",
         "8.png"
       ],
       "ReiterationAudioName": "2.mp3",
       "CorrectAudioName": "positive_2.mp3",
       "WrongAudioName": "negative_1.mp3",
-      "CorrectAnswer": "3"
+      "CorrectAnswer": "4"
     },
     {
       "QuestionAppearTime": "99999",
-      "IsQuestionText": true,
-      "QuestionText": "soil",
-      "QuestionImageName": "Q1.png",
-      "QuestionAudioName": "QVO1.mp3",
+      "IsQuestionText": false,
+      "QuestionText": "Thumb",
+      "QuestionImageName": "L3.png",
+      "QuestionAudioName": "QVO2.mp3",
       "PlayQuestionAudio": true,
-      "IsOptionText": false,
+      "IsOptionText": true,
       "NumberOfOptions": 4,
       "Options": [
-        "9.png",
-        "10.png",
-        "11.png",
-        "12.png"
+        "ball",
+        "pie",
+        "nose",
+        "van"
       ],
       "ReiterationAudioName": "3.mp3",
-      "CorrectAudioName": "positive_3.mp3",
+      "CorrectAudioName": "positive_1.mp3",
       "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "2"
     },
@@ -79,32 +79,12 @@
       "IsOptionText": true,
       "NumberOfOptions": 4,
       "Options": [
-        "man",
-        "car",
-        "nose",
-        "oil"
+        "die",
+        "cup",
+        "pin",
+        "leg"
       ],
       "ReiterationAudioName": "4.mp3",
-      "CorrectAudioName": "positive_1.mp3",
-      "WrongAudioName": "negative_1.mp3",
-      "CorrectAnswer": "4"
-    },
-    {
-      "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "Thumb",
-      "QuestionImageName": "L5.png",
-      "QuestionAudioName": "QVO2.mp3",
-      "PlayQuestionAudio": true,
-      "IsOptionText": true,
-      "NumberOfOptions": 4,
-      "Options": [
-        " join ",
-        " jar ",
-        "ball",
-        "egg"
-      ],
-      "ReiterationAudioName": "5.mp3",
       "CorrectAudioName": "positive_2.mp3",
       "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "1"
@@ -113,41 +93,21 @@
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
       "QuestionText": "Thumb",
-      "QuestionImageName": "L6.png",
-      "QuestionAudioName": "QVO2.mp3",
-      "PlayQuestionAudio": true,
-      "IsOptionText": true,
-      "NumberOfOptions": 4,
-      "Options": [
-        "ear",
-        "van",
-        "foil",
-        "kite"
-      ],
-      "ReiterationAudioName": "6.mp3",
-      "CorrectAudioName": "positive_3.mp3",
-      "WrongAudioName": "negative_1.mp3",
-      "CorrectAnswer": "3"
-    },
-    {
-      "QuestionAppearTime": "99999",
-      "IsQuestionText": false,
-      "QuestionText": "Thumb",
-      "QuestionImageName": "L7.png",
+      "QuestionImageName": "L5.png",
       "QuestionAudioName": "QVO3.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": true,
       "NumberOfOptions": 4,
       "Options": [
         "oi",
-        "lk",
         "sm",
-        "oo"
+        "ie",
+        "qu"
       ],
-      "ReiterationAudioName": "7.mp3",
+      "ReiterationAudioName": "5.mp3",
       "CorrectAudioName": "positive_1.mp3",
       "WrongAudioName": "negative_1.mp3",
-      "CorrectAnswer": "1"
+      "CorrectAnswer": "3"
     }
   ]
 }
