@@ -1600,8 +1600,8 @@
     "relativePath": "Games\\Podar_ Day 111 - Video Quiz (solar system)\\L5 (2).mp3"
   },
   "8591a91f-990d-4852-bf33-4208831dde2f": {
-    "asset": 1781680621152,
-    "meta": 1781680621168,
+    "asset": 1781686587075,
+    "meta": 1781686587090,
     "relativePath": "Games\\Scenes\\video.fire"
   },
   "456cfa32-849a-4a2e-b948-4c7983ad00a4": {
@@ -5064,9 +5064,99 @@
     "meta": 1781680587343,
     "relativePath": "Games\\Copy of Asset 25.png"
   },
+  "7aeb1096-b782-4871-bef9-d2b24fa55b5e": {
+    "asset": 1781685280076,
+    "meta": 1781685280149,
+    "relativePath": "resources\\images\\ch1_Artboard 1 copy 6.png"
+  },
+  "0c5234f6-0953-47df-b827-98b4904000eb": {
+    "asset": 1781685280076,
+    "meta": 1781685280164,
+    "relativePath": "resources\\images\\ch1_Artboard 1 copy 3.png"
+  },
+  "5e02e789-9c48-46a5-bd0b-4965ecc7f5f1": {
+    "asset": 1781685280085,
+    "meta": 1781685280166,
+    "relativePath": "resources\\images\\ch1_Artboard 1 copy 4.png"
+  },
+  "7b13928f-f481-4c70-ad33-38fa0ea09dfe": {
+    "asset": 1781685280085,
+    "meta": 1781685280168,
+    "relativePath": "resources\\images\\ch1_Artboard 1.png"
+  },
+  "c2ccd190-1ef6-44e3-a8e6-2aa4e29d878d": {
+    "asset": 1781685280076,
+    "meta": 1781685280171,
+    "relativePath": "resources\\images\\ch1_Artboard 1 copy 2.png"
+  },
+  "8908fd18-f6ef-41c7-bc69-aa05c684b621": {
+    "asset": 1781685280085,
+    "meta": 1781685280173,
+    "relativePath": "resources\\images\\ch1_Artboard 1 copy.png"
+  },
+  "d859bae0-012e-41fc-8e91-a43178f4b56e": {
+    "asset": 1781685280076,
+    "meta": 1781685280175,
+    "relativePath": "resources\\images\\ch1_Artboard 1 copy 5.png"
+  },
+  "e45a3c34-0f23-4d44-bf2e-5af7d8410963": {
+    "asset": 1781685388568,
+    "meta": 1781685389034,
+    "relativePath": "resources\\audios\\ch1_11256606_2_chest.mp3"
+  },
+  "ff8ab2f8-79a4-4324-8fa5-53fa00cd8a85": {
+    "asset": 1781685388568,
+    "meta": 1781685389037,
+    "relativePath": "resources\\audios\\ch1_11256606_3_chain.mp3"
+  },
+  "626f396a-e7d5-48f7-b837-d9c35d568dd4": {
+    "asset": 1781685388568,
+    "meta": 1781685389038,
+    "relativePath": "resources\\audios\\ch1_11256606_4_chair.mp3"
+  },
+  "217a5f39-1a0d-4429-8dbf-6387c6a0e4ab": {
+    "asset": 1781685388568,
+    "meta": 1781685389039,
+    "relativePath": "resources\\audios\\ch1_11256606_9_cheese.mp3"
+  },
+  "3b881d7f-dea7-447a-8d06-f8bbd060acf0": {
+    "asset": 1781685388568,
+    "meta": 1781685389040,
+    "relativePath": "resources\\audios\\ch1_11256606_7_chin.mp3"
+  },
+  "6ffee6d2-3344-46d8-adf3-7bc5dbfd88e7": {
+    "asset": 1781685388568,
+    "meta": 1781685389041,
+    "relativePath": "resources\\audios\\ch1_11256606_5_torch.mp3"
+  },
+  "b01d1bc3-d00f-40ab-90ee-7a91d5dab5da": {
+    "asset": 1781685388569,
+    "meta": 1781685389042,
+    "relativePath": "resources\\audios\\ch1_11256606_8_choose-the-missing-let.mp3"
+  },
+  "6b0e605f-0ccc-4b79-9284-5c9ed0038b11": {
+    "asset": 1781685388568,
+    "meta": 1781685389043,
+    "relativePath": "resources\\audios\\ch1_11256606_1_identify-the-picture-f.mp3"
+  },
+  "78c142d3-826a-4d10-8ee8-40a080a83187": {
+    "asset": 1781685388569,
+    "meta": 1781685389060,
+    "relativePath": "resources\\audios\\ch1_11256606_6_chick.mp3"
+  },
+  "df4f0deb-7d58-4521-bf9d-df89216cd9ef": {
+    "asset": 1781686116671,
+    "meta": 1781686116711,
+    "relativePath": "resources\\images\\cheese 2.png"
+  },
+  "f8f4544d-e8e0-49b3-9387-fe55d00a5845": {
+    "asset": 1781686197880,
+    "meta": 1781686197918,
+    "relativePath": "resources\\images\\Asset 66 (6).png"
+  },
   "0a443f8a-da02-4626-8b7e-85bb48f8205b": {
-    "asset": 1781680620072,
-    "meta": 1781680620953,
+    "asset": 1781686585313,
+    "meta": 1781686586918,
     "relativePath": "resources\\game_data.json"
   }
 }

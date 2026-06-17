@@ -6,30 +6,30 @@
   "json": {
     "AdditionalData": {
       "GameID": "Letters and sounds Pp",
-      "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/EYFS_FIX_Digraph-'er'_fs2_phonics_r189.mp4",
-      "TitleImageName": "Asset 83 (2).png",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/pranjalEYFS_FIX_Digraph-'ch'_fs2_phonics_r147.mp4",
+      "TitleImageName": "Asset 66 (6).png",
       "IntroAudio1Name": "",
       "IntroAudio2Name": "",
       "JockeyName": "puzzle",
-      "TotalLevel": "7"
+      "TotalLevel": "6"
     },
     "QuestionData": [
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "baker",
+        "QuestionText": "chain",
         "QuestionImageName": "Q1.png",
-        "QuestionAudioName": "new_11256630_1_identify-the-picture-f.mp3",
+        "QuestionAudioName": "ch1_11256606_1_identify-the-picture-f.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "k copy 5.png",
-          "k.png",
-          "k copy 6.png",
-          "k copy 3.png"
+          "ch1_Artboard 1 copy 3.png",
+          "ch1_Artboard 1 copy.png",
+          "ch1_Artboard 1 copy 5.png",
+          "ch1_Artboard 1 copy 6.png"
         ],
-        "ReiterationAudioName": "11337727_2_baker.mp3",
+        "ReiterationAudioName": "ch1_11256606_3_chain.mp3",
         "CorrectAudioName": "positive_3.mp3",
         "WrongAudioName": "negative_5.mp3",
         "CorrectAnswer": "2"
@@ -37,59 +37,39 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "winter",
+        "QuestionText": "chair",
         "QuestionImageName": "Q1.png",
-        "QuestionAudioName": "11337727_1_identify-the-picture-f.mp3",
+        "QuestionAudioName": "ch1_11256606_1_identify-the-picture-f.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
         "Options": [
-          "k copy.png",
-          "k copy 2.png",
-          "k copy 4.png",
-          "k copy 3.png"
+          "ch1_Artboard 1 copy 2.png",
+          "ch1_Artboard 1 copy 4.png",
+          "ch1_Artboard 1 copy.png",
+          "ch1_Artboard 1 copy 6.png"
         ],
-        "ReiterationAudioName": "11337727_3_winter.mp3",
+        "ReiterationAudioName": "ch1_11256606_4_chair.mp3",
         "CorrectAudioName": "positive_8.mp3",
         "WrongAudioName": "negative_5.mp3",
         "CorrectAnswer": "1"
       },
       {
         "QuestionAppearTime": "99999",
-        "IsQuestionText": true,
-        "QuestionText": "letter",
-        "QuestionImageName": "Q1.png",
-        "QuestionAudioName": "11337727_1_identify-the-picture-f.mp3",
-        "PlayQuestionAudio": true,
-        "IsOptionText": false,
-        "NumberOfOptions": 4,
-        "Options": [
-          "k copy 5.png",
-          "k copy 6.png",
-          "k copy 2.png",
-          "k copy.png"
-        ],
-        "ReiterationAudioName": "11337727_4_letter.mp3",
-        "CorrectAudioName": "positive_10.mp3",
-        "WrongAudioName": "negative_5.mp3",
-        "CorrectAnswer": "3"
-      },
-      {
-        "QuestionAppearTime": "99999",
         "IsQuestionText": false,
         "QuestionText": "shop",
-        "QuestionImageName": "k copy 3.png",
+        "QuestionImageName": "ch1_Artboard 1 copy 3.png",
         "QuestionAudioName": "11337727_5_identify-the-word-for-.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": true,
         "NumberOfOptions": 4,
         "Options": [
-          "spring",
-          "rainy",
-          "winter",
-          "summer"
+          "chest",
+          "chin",
+          "chick",
+          "torch"
         ],
-        "ReiterationAudioName": "11337727_6_summer.mp3",
+        "ReiterationAudioName": "ch1_11256606_5_torch.mp3",
         "CorrectAudioName": "positive_8.mp3",
         "WrongAudioName": "negative_5.mp3",
         "CorrectAnswer": "4"
@@ -98,18 +78,18 @@
         "QuestionAppearTime": "99999",
         "IsQuestionText": false,
         "QuestionText": "bush",
-        "QuestionImageName": "k copy 4.png",
+        "QuestionImageName": "ch1_Artboard 1 copy 4.png",
         "QuestionAudioName": "11337727_5_identify-the-word-for-.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": true,
         "NumberOfOptions": 4,
         "Options": [
-          "butter",
-          "driver",
-          "letter",
-          "baker"
+          "chick",
+          "chain",
+          "chest",
+          "torch"
         ],
-        "ReiterationAudioName": "11337727_7_butter.mp3",
+        "ReiterationAudioName": "ch1_11256606_6_chick.mp3",
         "CorrectAudioName": "positive_3.mp3",
         "WrongAudioName": "negative_5.mp3",
         "CorrectAnswer": "1"
@@ -117,19 +97,19 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": false,
-        "QuestionText": "ship",
-        "QuestionImageName": "k copy 5.png",
+        "QuestionText": "chin",
+        "QuestionImageName": "ch1_Artboard 1 copy 5.png",
         "QuestionAudioName": "11337727_5_identify-the-word-for-.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": true,
         "NumberOfOptions": 4,
         "Options": [
           "butter",
-          "teacher",
-          "driver",
-          "baker"
+          "chik",
+          "chin",
+          "chest"
         ],
-        "ReiterationAudioName": "11337727_8_driver.mp3",
+        "ReiterationAudioName": "ch1_11256606_7_chin.mp3",
         "CorrectAudioName": "positive_10.mp3",
         "WrongAudioName": "negative_5.mp3",
         "CorrectAnswer": "3"
@@ -138,18 +118,18 @@
         "QuestionAppearTime": "99999",
         "IsQuestionText": false,
         "QuestionText": "letter",
-        "QuestionImageName": "teacher n.png",
-        "QuestionAudioName": "11337727_9_choose-the-missing-let.mp3",
+        "QuestionImageName": "cheese 2.png",
+        "QuestionAudioName": "ch1_11256606_8_choose-the-missing-let.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": true,
         "NumberOfOptions": 4,
         "Options": [
-          "lr",
-          "kr",
-          "er",
-          "ar"
+          "lh",
+          "kh",
+          "ch",
+          "ah"
         ],
-        "ReiterationAudioName": "11337727_10_teacher.mp3",
+        "ReiterationAudioName": "ch1_11256606_9_cheese.mp3",
         "CorrectAudioName": "positive_8.mp3",
         "WrongAudioName": "negative_5.mp3",
         "CorrectAnswer": "3"
