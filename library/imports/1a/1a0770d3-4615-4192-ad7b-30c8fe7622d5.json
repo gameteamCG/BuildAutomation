@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "queue",
+    "texture": "fdd21e22-bedf-4463-be31-32ccbd2457fe",
+    "atlas": "",
+    "rect": [
+      19,
+      96,
+      464,
+      308
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      501,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

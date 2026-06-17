@@ -1,7 +1,7 @@
 {
   "AdditionalData": {
     "GameID": "Letters and sounds Pp",
-    "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/EYFS_Digraph_ar_fs2_phonics_r195/Sound+ar.mp4",
+    "VideoLink": "https://s3.ap-south-1.amazonaws.com/devgames.creativegalileo.com/Cocos_Games/1_Videos/EYFS_Digraph_ou_fs2_phonics_r165/Sound+qu.mp4",
     "TitleImageName": "GameTitleNew.png",
     "IntroAudio1Name": "",
     "IntroAudio2Name": "",
@@ -12,19 +12,19 @@
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": true,
-      "QuestionText": "Park",
+      "QuestionText": "queen",
       "QuestionImageName": "Q1.png",
       "QuestionAudioName": "QVO1.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 4,
       "Options": [
-        "park.png",
-        "car.png",
-        "jar.png",
-        "barn.png"
+        "queen.png",
+        "queue.png",
+        "quilt.png",
+        "quill.png"
       ],
-      "ReiterationAudioName": "park.mp3",
+      "ReiterationAudioName": "queen.mp3",
       "CorrectAudioName": "positive_1.mp3",
       "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "1"
@@ -32,19 +32,19 @@
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": true,
-      "QuestionText": "Car",
+      "QuestionText": "squid",
       "QuestionImageName": "Q1.png",
       "QuestionAudioName": "QVO1.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 4,
       "Options": [
-        "shark.png",
-        "barn.png",
-        "jar.png",
-        "car.png"
+        "quilt.png",
+        "quill.png",
+        "quiet.png",
+        "squid.png"
       ],
-      "ReiterationAudioName": "car.mp3",
+      "ReiterationAudioName": "squid.mp3",
       "CorrectAudioName": "positive_2.mp3",
       "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "4"
@@ -52,19 +52,19 @@
     {
       "QuestionAppearTime": "99999",
       "IsQuestionText": true,
-      "QuestionText": "Barn",
+      "QuestionText": "quill",
       "QuestionImageName": "Q1.png",
       "QuestionAudioName": "QVO1.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": false,
       "NumberOfOptions": 4,
       "Options": [
-        "star.png",
-        "barn.png",
-        "jar.png",
-        "car.png"
+        "queue.png",
+        "quill.png",
+        "quilt.png",
+        "quiet.png"
       ],
-      "ReiterationAudioName": "barn.mp3",
+      "ReiterationAudioName": "quill.mp3",
       "CorrectAudioName": "positive_3.mp3",
       "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "2"
@@ -73,18 +73,18 @@
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
       "QuestionText": "Thumb",
-      "QuestionImageName": "jar.png",
+      "QuestionImageName": "queue.png",
       "QuestionAudioName": "QVO2.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": true,
       "NumberOfOptions": 4,
       "Options": [
-        "shark",
-        "car",
-        "star",
-        " jar "
+        "quilt",
+        "squid",
+        "quill",
+        "queue"
       ],
-      "ReiterationAudioName": "jar.mp3",
+      "ReiterationAudioName": "queue.mp3",
       "CorrectAudioName": "positive_1.mp3",
       "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "4"
@@ -93,18 +93,18 @@
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
       "QuestionText": "Thumb",
-      "QuestionImageName": "star.png",
+      "QuestionImageName": "quiet.png",
       "QuestionAudioName": "QVO2.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": true,
       "NumberOfOptions": 4,
       "Options": [
-        "star",
-        " jar ",
-        "car",
-        "barn"
+        "quiet",
+        "squid",
+        "queen",
+        "quill"
       ],
-      "ReiterationAudioName": "star.mp3",
+      "ReiterationAudioName": "quiet.mp3",
       "CorrectAudioName": "positive_2.mp3",
       "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "1"
@@ -113,18 +113,18 @@
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
       "QuestionText": "Thumb",
-      "QuestionImageName": "shark.png",
+      "QuestionImageName": "quilt.png",
       "QuestionAudioName": "QVO2.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": true,
       "NumberOfOptions": 4,
       "Options": [
-        "barn",
-        " jar ",
-        "shark",
-        "star"
+        "quiet",
+        "queen",
+        "quilt",
+        "queue"
       ],
-      "ReiterationAudioName": "shark.mp3",
+      "ReiterationAudioName": "quilt.mp3",
       "CorrectAudioName": "positive_3.mp3",
       "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "3"
@@ -133,18 +133,18 @@
       "QuestionAppearTime": "99999",
       "IsQuestionText": false,
       "QuestionText": "Thumb",
-      "QuestionImageName": "farmer.png",
+      "QuestionImageName": "question.png",
       "QuestionAudioName": "QVO3.mp3",
       "PlayQuestionAudio": true,
       "IsOptionText": true,
       "NumberOfOptions": 4,
       "Options": [
-        "ar",
+        "qu",
         "mo",
         "ck",
         "pa"
       ],
-      "ReiterationAudioName": "farmer.mp3",
+      "ReiterationAudioName": "question.mp3",
       "CorrectAudioName": "positive_1.mp3",
       "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "1"
