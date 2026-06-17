@@ -87,20 +87,16 @@ var startGame = /** @class */ (function (_super) {
     };
     startGame.prototype.logData = function () {
         console.log("Total Levels:", this.TotalLevels);
-        // console.log("BGM audio name:", this.BGM_audio.name);
         console.log("Title Image Name:", this.titleImageName);
         console.log("Jockey Name:", this.jockeyName);
-        // Log question data
         this.questions.forEach(function (question, index) {
             console.log("Question " + (index + 1) + ":");
         });
     };
     startGame.prototype.removeExtension = function (imageName) {
-        // Remove .png extension
         return imageName.replace(/\.png$/g, '');
     };
     startGame.prototype.removeAudioExtension = function (audioName) {
-        // Remove .png extension
         return audioName.replace(/\.mp3$/g, '');
     };
     startGame.prototype.updateJSONdata = function () {
@@ -236,19 +232,8 @@ var startGame = /** @class */ (function (_super) {
         if (!this.isPremiumGame) {
             this.hasAccess = true;
         }
-        // let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-        // cc.audioEngine.setVolume(id, this.volume);
-        if (isAudio == "false") {
-            this.node.getChildByName("music").children[0].active = true;
-            this.isMusicOn = false;
-            // cc.audioEngine.stopMusic();
-        }
-        else {
-            this.node.getChildByName("music").children[0].active = false;
-            this.isMusicOn = true;
-            // let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-            // cc.audioEngine.setVolume(id, this.volume);
-        }
+        var id = cc.audioEngine.playMusic(this.BGM_audio, true);
+        cc.audioEngine.setVolume(id, this.volume);
         var ageValue = parseInt(age);
         if (this.isAgeParameterNeeded) {
             if (ageValue <= this.LevelAgeParameters[0]) {
