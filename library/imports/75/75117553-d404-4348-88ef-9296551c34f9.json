@@ -15,7 +15,7 @@
     "questionData": [
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg.png",
+        "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -39,7 +39,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg.png",
+        "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -63,7 +63,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg.png",
+        "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -74,7 +74,7 @@
           "north.png"
         ],
         "optionsBg": [
-          "Asset_1.png",
+          "Asset_3.png",
           "Asset_17.png",
           "northG.png"
         ],
@@ -87,7 +87,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg.png",
+        "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -111,7 +111,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg.png",
+        "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -135,7 +135,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg.png",
+        "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -159,7 +159,7 @@
       },
       {
         "questionLayout": "layout3",
-        "questionBgName": "bg.png",
+        "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
