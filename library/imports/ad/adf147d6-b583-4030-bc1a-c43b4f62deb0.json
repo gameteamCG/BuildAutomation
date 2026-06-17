@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "statue",
+    "texture": "115cb345-6666-425a-a8d7-f356f415eb22",
+    "atlas": "",
+    "rect": [
+      165,
+      11,
+      171,
+      478
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

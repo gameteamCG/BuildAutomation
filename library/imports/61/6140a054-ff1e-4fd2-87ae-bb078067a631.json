@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tissue",
+    "texture": "7e18957a-9c4b-46b5-978b-7a878e550399",
+    "atlas": "",
+    "rect": [
+      84,
+      113,
+      329,
+      321
+    ],
+    "offset": [
+      -2,
+      -23
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

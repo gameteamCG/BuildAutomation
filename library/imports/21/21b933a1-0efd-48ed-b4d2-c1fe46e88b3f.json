@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rescue",
+    "texture": "f7493bba-0f24-4b80-aa34-09ed90fa033b",
+    "atlas": "",
+    "rect": [
+      115,
+      44,
+      298,
+      403
+    ],
+    "offset": [
+      13.5,
+      5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
