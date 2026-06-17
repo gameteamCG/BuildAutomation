@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "heels",
+    "texture": "ab700adf-ba7f-420e-b515-164a0df44ca7",
+    "atlas": "",
+    "rect": [
+      46,
+      65,
+      217,
+      185
+    ],
+    "offset": [
+      4,
+      -7.5
+    ],
+    "originalSize": [
+      301,
+      300
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
