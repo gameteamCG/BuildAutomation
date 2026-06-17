@@ -17,7 +17,7 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "Park",
+        "QuestionText": "park",
         "QuestionImageName": "Q1.png",
         "QuestionAudioName": "QVO1.mp3",
         "PlayQuestionAudio": true,
@@ -37,7 +37,7 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "Car",
+        "QuestionText": "car",
         "QuestionImageName": "Q1.png",
         "QuestionAudioName": "QVO1.mp3",
         "PlayQuestionAudio": true,
@@ -57,7 +57,7 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "Barn",
+        "QuestionText": "barn",
         "QuestionImageName": "Q1.png",
         "QuestionAudioName": "QVO1.mp3",
         "PlayQuestionAudio": true,
