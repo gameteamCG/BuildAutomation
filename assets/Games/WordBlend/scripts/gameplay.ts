@@ -97,6 +97,7 @@ export default class NewClass extends cc.Component {
     private questionPlaying = false;
 
     private correctWordSeq: string[] = ["132"];
+    private answerText: string[] = [];
     private currWordSeq: string = "";
 
     private currScene: number = 1;
@@ -104,23 +105,7 @@ export default class NewClass extends cc.Component {
 
     private sheduleQuestionClip;
     onLoad() {
-        // if (startGame.Instance.jockeyName == "Podar") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "tlc") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "supercub") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        // }
-
+        this.answerText = ["ऐरावत", "ओखली", "अंगूठी", "अदरक", "ईद", " उल्लू ", "ऋतु"];
         this.isSecondInteraction = startGame.Instance.questions[startGame.Instance.currentLevel - 1].needReiteration;
         this.interactionType = startGame.Instance.questions[startGame.Instance.currentLevel - 1].interactionType;
         if (this.isSecondInteraction) {
@@ -143,6 +128,17 @@ export default class NewClass extends cc.Component {
         this.unschedule(this.sheduleQuestionClip);
         this.scheduleOnce(this.sheduleQuestionClip, 10);
     }
+
+    playQues(_event: cc.Event) {
+        cc.audioEngine.stopAllEffects();
+        if (this.myOptions.active == true) {
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        }
+    }
+
     start() {
         if (startGame.Instance.jockeyName == "bag") {
             this.positiveAudio = this.bagPositive;
@@ -604,7 +600,7 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            cc.tween(this.options).to(0.3, { x: 0, scaleX: 1, scaleY: 1 }).start();
 
             this.scheduleOnce(() => {
                 cc.audioEngine.stopAllEffects();
@@ -778,7 +774,7 @@ export default class NewClass extends cc.Component {
 
     OptionsAppear() {
 
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
+        cc.tween(this.options).to(0.3, { x: this.options.x - 200, scaleX: 1, scaleY: 1 }).start();
 
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(() => {
@@ -821,6 +817,7 @@ export default class NewClass extends cc.Component {
                 element.getComponent(cc.Button).interactable = false;
             });
             cc.audioEngine.stopAllEffects();
+            this.node.getChildByName("question").children[1].getComponent(cc.Label).string = this.answerText[this.currScene - 1];
             cc.audioEngine.playEffect(this.wordVoIteration, false);
             this.scheduleOnce(() => {
                 this.node.getChildByName("confetti").getComponent(cc.Animation).play();

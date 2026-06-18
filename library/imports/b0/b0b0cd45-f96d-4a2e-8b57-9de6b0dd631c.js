@@ -68,28 +68,14 @@ var NewClass = /** @class */ (function (_super) {
         _this.selectable = false;
         _this.questionPlaying = false;
         _this.correctWordSeq = ["132"];
+        _this.answerText = [];
         _this.currWordSeq = "";
         _this.currScene = 1;
         _this.colorValue = null;
         return _this;
     }
     NewClass.prototype.onLoad = function () {
-        // if (startGame.Instance.jockeyName == "Podar") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "tlc") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "supercub") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-        // }
-        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-        //     this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        // }
+        this.answerText = ["ऐरावत", "ओखली", "अंगूठी", "अदरक", "ईद", " उल्लू ", "ऋतु"];
         this.isSecondInteraction = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].needReiteration;
         this.interactionType = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].interactionType;
         if (this.isSecondInteraction) {
@@ -109,6 +95,15 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.resetInteraction = function () {
         this.unschedule(this.sheduleQuestionClip);
         this.scheduleOnce(this.sheduleQuestionClip, 10);
+    };
+    NewClass.prototype.playQues = function (_event) {
+        cc.audioEngine.stopAllEffects();
+        if (this.myOptions.active == true) {
+            cc.audioEngine.playEffect(this.wordVoQuestion, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+        }
     };
     NewClass.prototype.start = function () {
         var _this = this;
@@ -536,7 +531,7 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("hint").active = false;
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             console.log("correctAnswer--" + this.currScene);
-            cc.tween(this.options).to(0.3, { x: 0, y: 0, scaleX: 1, scaleY: 1 }).start();
+            cc.tween(this.options).to(0.3, { x: 0, scaleX: 1, scaleY: 1 }).start();
             this.scheduleOnce(function () {
                 cc.audioEngine.stopAllEffects();
                 cc.audioEngine.playEffect(_this.puzzleVoIteration, false);
@@ -706,7 +701,7 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.OptionsAppear = function () {
         var _this = this;
-        cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
+        cc.tween(this.options).to(0.3, { x: this.options.x - 200, scaleX: 1, scaleY: 1 }).start();
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(function () {
             _this.myOptions.active = true;
@@ -738,6 +733,7 @@ var NewClass = /** @class */ (function (_super) {
                 element.getComponent(cc.Button).interactable = false;
             });
             cc.audioEngine.stopAllEffects();
+            this.node.getChildByName("question").children[1].getComponent(cc.Label).string = this.answerText[this.currScene - 1];
             cc.audioEngine.playEffect(this.wordVoIteration, false);
             this.scheduleOnce(function () {
                 _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
