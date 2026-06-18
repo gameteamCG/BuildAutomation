@@ -1,5 +1,9 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
 import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+<<<<<<< Updated upstream
+=======
+//import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+>>>>>>> Stashed changes
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 

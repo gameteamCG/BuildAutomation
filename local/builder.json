@@ -2,7 +2,11 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
+<<<<<<< Updated upstream
   "buildPath": "build",
+=======
+  "buildPath": "B:\\EYFS_build\\likhitMassMarket_Letter_Bb_Nursery_Literacy_8_british",
+>>>>>>> Stashed changes
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
