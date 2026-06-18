@@ -15,11 +15,11 @@
     },
     "questionData": [
       {
-        "questionText": "Tens and Ones 41 to 50",
+        "questionText": "Tens and ones",
         "questionImageName": "t41.png",
         "questionAudioName": "tensnson.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "sm2.png",
+        "commonOptionImageName": "",
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
@@ -31,11 +31,11 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Tens and Ones 41 to 50",
+        "questionText": "Tens and ones",
         "questionImageName": "t42.png",
         "questionAudioName": "tensnson.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "sm2.png",
+        "commonOptionImageName": "",
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
@@ -47,11 +47,11 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Tens and Ones 41 to 50",
+        "questionText": "Tens and ones",
         "questionImageName": "t49.png",
         "questionAudioName": "tensnson.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "sm2.png",
+        "commonOptionImageName": "",
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
@@ -63,11 +63,11 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "Tens and Ones 41 to 50",
+        "questionText": "Tens and ones",
         "questionImageName": "t44.png",
         "questionAudioName": "tensnson.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "sm2.png",
+        "commonOptionImageName": "",
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
@@ -79,11 +79,11 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "Tens and Ones 41 to 50",
+        "questionText": "Tens and ones",
         "questionImageName": "t47.png",
         "questionAudioName": "tensnson.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "sm2.png",
+        "commonOptionImageName": "",
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
@@ -95,11 +95,11 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "Tens and Ones 41 to 50",
+        "questionText": "Tens and ones",
         "questionImageName": "t43.png",
         "questionAudioName": "tensnson.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "sm2.png",
+        "commonOptionImageName": "",
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
@@ -111,11 +111,11 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "Tens and Ones 41 to 50",
+        "questionText": "Tens and ones",
         "questionImageName": "t50.png",
         "questionAudioName": "tensnson.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonOptionImageName": "sm2.png",
+        "commonOptionImageName": "",
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
