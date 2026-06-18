@@ -244,7 +244,7 @@ export default class Gameplay extends cc.Component {
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         }
         else if (this.questionText != "") {
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.questionText;
+            this.node.getChildByName("panel").getChildByName("text").getComponent(cc.Label).string = this.questionText;
             this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
             this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
@@ -456,6 +456,18 @@ export default class Gameplay extends cc.Component {
 
         if (currentWord === targetWord) {
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
+
+            cc.audioEngine.playEffect(this.pop_sound, false);
+            this.optionsNode.children.forEach((child) => {
+                cc.tween(child)
+                    .to(0.3, { scale: 0 }, { easing: "backInOut" })
+                    .start();
+            });
+            if (parseInt(startGame.Instance.currentLevel) == 4) {
+                this.node.getChildByName("panel").getChildByName("text").setPosition(0, 38)
+            }
+            this.node.getChildByName("panel").active = true;
+
             this.isAnswered = true;
             this.node.getChildByName("questionPanel").getChildByName("sound").active = false;
             // Additional logic for when the order is correct
