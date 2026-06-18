@@ -275,8 +275,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1920,
-      "height": 1080
+      "width": 1921,
+      "height": 1081
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -337,8 +337,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1156,
-      "height": 254
+      "width": 536,
+      "height": 113
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -349,15 +349,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        -98.033,
+        39.234,
+        -139.882,
         0,
         0,
         0,
         0,
         1,
-        0.6,
-        0.6,
+        1,
+        1,
         1
       ]
     },
@@ -393,7 +393,7 @@
       "__uuid__": "4e53ea24-e735-4173-b675-a912d8836f4c"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -443,8 +443,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        50.139,
+        36.618,
+        29.214,
         0,
         0,
         0,
@@ -537,8 +537,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -130,
-        24.991,
+        -93.382,
+        4.066,
         0,
         0,
         0,
@@ -631,8 +631,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        130,
-        24.991,
+        166.618,
+        4.066,
         0,
         0,
         0,
@@ -703,9 +703,11 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "7a785c63-7b18-442c-b3bb-d79f816eb155"
+    },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -714,7 +716,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "4ap4x1My1Hdo64bm8aPUBw"
   },

@@ -1,5 +1,6 @@
 
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -278,7 +279,7 @@ export default class Gameplay extends cc.Component {
             let optionNode: cc.Node = cc.instantiate(this.node.getChildByName("template"));
             optionNode.name = (i + 1).toString();
             optionNode.setParent(this.optionsNode);
-            optionNode.setPosition(cc.v2(0, 0));
+            optionNode.setPosition(cc.v2(0, 50));
 
             optionNode.getChildByName("img").setPosition(cc.v2(optionNode.getChildByName("img").getPosition().x, questionData.optionOffset));
             optionNode.getChildByName("text").setPosition(cc.v2(optionNode.getChildByName("text").getPosition().x, questionData.optionOffset));

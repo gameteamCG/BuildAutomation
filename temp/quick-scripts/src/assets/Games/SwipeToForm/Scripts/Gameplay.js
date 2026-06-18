@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -269,7 +269,7 @@ var Gameplay = /** @class */ (function (_super) {
             var optionNode = cc.instantiate(this_1.node.getChildByName("template"));
             optionNode.name = (i + 1).toString();
             optionNode.setParent(this_1.optionsNode);
-            optionNode.setPosition(cc.v2(0, 0));
+            optionNode.setPosition(cc.v2(0, 50));
             optionNode.getChildByName("img").setPosition(cc.v2(optionNode.getChildByName("img").getPosition().x, questionData.optionOffset));
             optionNode.getChildByName("text").setPosition(cc.v2(optionNode.getChildByName("text").getPosition().x, questionData.optionOffset));
             if (questionData.commonOptionImageName != null && questionData.commonOptionImageName != "") {

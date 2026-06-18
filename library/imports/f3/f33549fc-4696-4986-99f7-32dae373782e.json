@@ -17,7 +17,7 @@
       {
         "questionText": "tie",
         "questionImageName": "",
-        "questionAudioName": "SWIPEtheletterstoformthewordtie.mp3",
+        "questionAudioName": "Qtie.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "GreenButton.png",
         "isOptionText": true,
@@ -29,14 +29,14 @@
           "i"
         ],
         "correctAnswer": "tie",
-        "correctAudioName": "l6correct.mp3",
+        "correctAudioName": "tie.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       },
       {
         "questionText": "lie",
         "questionImageName": "",
-        "questionAudioName": "SWIPEtheletterstoformtheworDlie.mp3",
+        "questionAudioName": "Qlie.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "GreenButton.png",
         "isOptionText": true,
@@ -48,14 +48,14 @@
           "l"
         ],
         "correctAnswer": "lie",
-        "correctAudioName": "L5Correct.mp3",
+        "correctAudioName": "lie.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       },
       {
         "questionText": "die",
         "questionImageName": "",
-        "questionAudioName": "SWIPEtheletterstoformtheworddie.mp3",
+        "questionAudioName": "Qdie.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "GreenButton.png",
         "isOptionText": true,
@@ -67,14 +67,14 @@
           "i"
         ],
         "correctAnswer": "die",
-        "correctAudioName": "L9Correct.mp3",
+        "correctAudioName": "die.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       },
       {
         "questionText": "pie",
         "questionImageName": "",
-        "questionAudioName": "SWIPETheletterstoformthewordpie.mp3",
+        "questionAudioName": "Qpie.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "GreenButton.png",
         "isOptionText": true,
@@ -86,7 +86,7 @@
           "p"
         ],
         "correctAnswer": "pie",
-        "correctAudioName": "L2Correct.mp3",
+        "correctAudioName": "pie.mp3",
         "needReiteration": false,
         "reiterationImageName": ""
       }
