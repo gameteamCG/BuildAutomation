@@ -406,8 +406,10 @@ var NewClass = /** @class */ (function (_super) {
         if (_node.name == this.answerArray[0]) {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+            // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].answerText;
+            console.log("#", StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].answerText);
             this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.scheduleOnce(function () {

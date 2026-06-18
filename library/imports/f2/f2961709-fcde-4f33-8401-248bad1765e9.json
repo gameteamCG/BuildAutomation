@@ -16,6 +16,7 @@
     "questionData": [
       {
         "questionText": "Tens and ones",
+        "answerText": "4 Tens and 1 one",
         "questionImageName": "t41.png",
         "questionAudioName": "tensnson.mp3",
         "shouldPlayQuestionAudio": true,
@@ -32,6 +33,7 @@
       },
       {
         "questionText": "Tens and ones",
+        "answerText": "4 Tens and 2 ones",
         "questionImageName": "t42.png",
         "questionAudioName": "tensnson.mp3",
         "shouldPlayQuestionAudio": true,
@@ -48,6 +50,7 @@
       },
       {
         "questionText": "Tens and ones",
+        "answerText": "4 Tens and 9 ones",
         "questionImageName": "t49.png",
         "questionAudioName": "tensnson.mp3",
         "shouldPlayQuestionAudio": true,
@@ -64,6 +67,7 @@
       },
       {
         "questionText": "Tens and ones",
+        "answerText": "4 Tens and 4 ones",
         "questionImageName": "t44.png",
         "questionAudioName": "tensnson.mp3",
         "shouldPlayQuestionAudio": true,
@@ -80,6 +84,7 @@
       },
       {
         "questionText": "Tens and ones",
+        "answerText": "4 Tens and 7 ones",
         "questionImageName": "t47.png",
         "questionAudioName": "tensnson.mp3",
         "shouldPlayQuestionAudio": true,
@@ -96,6 +101,7 @@
       },
       {
         "questionText": "Tens and ones",
+        "answerText": "4 Tens and 3 ones",
         "questionImageName": "t43.png",
         "questionAudioName": "tensnson.mp3",
         "shouldPlayQuestionAudio": true,
@@ -112,6 +118,7 @@
       },
       {
         "questionText": "Tens and ones",
+        "answerText": "5 Tens and 0 ones",
         "questionImageName": "t50.png",
         "questionAudioName": "tensnson.mp3",
         "shouldPlayQuestionAudio": true,
