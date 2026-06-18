@@ -539,8 +539,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 330,
-      "height": 330
+      "width": 501,
+      "height": 501
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -687,7 +687,7 @@
       "__uuid__": "06dd4157-4f14-44e1-8963-dfee4c243ec0"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -696,7 +696,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "58uzqIJ4JDGL8phXMfBu7j"
   },
@@ -818,8 +818,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 330,
-      "height": 330
+      "width": 501,
+      "height": 501
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -966,7 +966,7 @@
       "__uuid__": "06dd4157-4f14-44e1-8963-dfee4c243ec0"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -975,7 +975,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "dfnLpjAzJOGrodm1CWqEsa"
   },
@@ -1107,7 +1107,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -70,
+        -100,
         0,
         0,
         0,
@@ -1407,8 +1407,8 @@
         0,
         0,
         1,
-        0.55,
-        0.55,
+        0.45,
+        0.45,
         1
       ]
     },
@@ -1737,8 +1737,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 480,
-      "height": 100
+      "width": 154.1,
+      "height": 157.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1750,7 +1750,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -90,
+        -60.655,
         0,
         0,
         0,
@@ -1791,8 +1791,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 80,
-    "_lineHeight": 130,
+    "_fontSize": 120,
+    "_lineHeight": 125,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "0ca2c53c-c2a0-4547-8f84-4806f6955a2a"
@@ -1805,7 +1805,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 2,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "6729jBSFBGq7jPWfdGBv+i"
   },

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lip",
+    "texture": "597b0a2c-939a-4ccd-93d8-d56daff3041e",
+    "atlas": "",
+    "rect": [
+      10,
+      67,
+      216,
+      156
+    ],
+    "offset": [
+      0,
+      -27
+    ],
+    "originalSize": [
+      236,
+      236
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
