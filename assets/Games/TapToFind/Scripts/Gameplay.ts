@@ -5,7 +5,7 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -48,6 +48,8 @@ export default class Gameplay extends cc.Component {
     private correctAudio: cc.AudioClip = null;
     private wrongAudio: cc.AudioClip = null;
     private reiterationAudio: cc.AudioClip[] = [];
+    @property(cc.AudioClip)
+    private questionSound: cc.AudioClip = null;
 
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
@@ -755,5 +757,16 @@ export default class Gameplay extends cc.Component {
             }
             callback(audioClip);
         });
+    }
+
+
+    playQuestionsound() {
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionSound, false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
+        }, this.questionSound.duration + 0.1);
     }
 }

@@ -29,7 +29,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
@@ -55,6 +55,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.correctAudio = null;
         _this.wrongAudio = null;
         _this.reiterationAudio = [];
+        _this.questionSound = null;
         _this.currentJockey = null;
         _this.maxLevel = 0;
         return _this;
@@ -754,6 +755,15 @@ var Gameplay = /** @class */ (function (_super) {
             callback(audioClip);
         });
     };
+    Gameplay.prototype.playQuestionsound = function () {
+        var _this = this;
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionSound, false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.questionSound.duration + 0.1);
+    };
     __decorate([
         property(cc.Font)
     ], Gameplay.prototype, "podar_font", void 0);
@@ -781,6 +791,9 @@ var Gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Gameplay.prototype, "negative_audio", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Gameplay.prototype, "questionSound", void 0);
     Gameplay = __decorate([
         ccclass
     ], Gameplay);
