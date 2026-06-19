@@ -1,6 +1,6 @@
 {
   "additionalData": {
-    "GameID": "I am a living thing ",
+    "GameID": "Living things",
     "totalLevel": "5",
     "TitleImageName": "til1.png",
     "introBgName": "sfdfgh.png",
@@ -11,93 +11,63 @@
   },
   "questionData": [
     {
-      "questionText": "living thing ",
+      "questionText": "Living things",
       "questionAudioName": "livingthings.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "blankbox.png",
       "isOptionText": false,
       "isOptionBG": false,
       "numberOfOptions": 3,
-      "options": [
-        "bag.png",
-        "cat.png",
-        "dice.png"
-      ],
-      "correctAudios": [
-        "BRILLIANT.mp3"
-      ],
+      "options": ["bag.png", "cat.png", "dice.png"],
+      "correctAudios": ["BRILLIANT.mp3"],
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "living thing  ",
+      "questionText": "Living things",
       "questionAudioName": "livingthings.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "blankbox.png",
       "isOptionText": false,
       "isOptionBG": false,
       "numberOfOptions": 3,
-      "options": [
-        "door.png",
-        "dolphin.png",
-        "ball.png"
-      ],
-      "correctAudios": [
-        "EXCELLENTJOB.mp3"
-      ],
+      "options": ["door.png", "dolphin.png", "ball.png"],
+      "correctAudios": ["EXCELLENTJOB.mp3"],
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "living thing ",
+      "questionText": "Living things",
       "questionAudioName": "livingthings.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "blankbox.png",
       "isOptionText": false,
       "isOptionBG": false,
       "numberOfOptions": 3,
-      "options": [
-        "honey bee.png",
-        "hat.png",
-        "sofa.png"
-      ],
-      "correctAudios": [
-        "BRILLIANT.mp3"
-      ],
+      "options": ["honey bee.png", "hat.png", "sofa.png"],
+      "correctAudios": ["BRILLIANT.mp3"],
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "living thing  ",
+      "questionText": "Living things",
       "questionAudioName": "livingthings.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "blankbox.png",
       "isOptionText": false,
       "isOptionBG": false,
       "numberOfOptions": 3,
-      "options": [
-        "panel.png",
-        "door.png",
-        "rose.png"
-      ],
-      "correctAudios": [
-        "EXCEPTIONAL.mp3"
-      ],
+      "options": ["panel.png", "door.png", "rose.png"],
+      "correctAudios": ["EXCEPTIONAL.mp3"],
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "living thing  ",
+      "questionText": "Living things",
       "questionAudioName": "livingthings.mp3",
       "shouldPlayQuestionAudio": true,
       "commonOptionImageName": "blankbox.png",
       "isOptionText": false,
       "isOptionBG": false,
       "numberOfOptions": 3,
-      "options": [
-        "mangiio.png",
-        "bat.png",
-        "ball.png"
-      ],
-      "correctAudios": [
-        "GOODJOB.mp3"
-      ],
+      "options": ["mangiio.png", "bat.png", "ball.png"],
+      "correctAudios": ["GOODJOB.mp3"],
       "correctAnswerNum": "1"
     }
   ]

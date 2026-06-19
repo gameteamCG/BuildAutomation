@@ -5,7 +5,7 @@
   "_native": "",
   "json": {
     "additionalData": {
-      "GameID": "I am a living thing ",
+      "GameID": "Living things",
       "totalLevel": "5",
       "TitleImageName": "til1.png",
       "introBgName": "sfdfgh.png",
@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "living thing ",
+        "questionText": "Living things",
         "questionAudioName": "livingthings.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "blankbox.png",
@@ -34,7 +34,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "living thing  ",
+        "questionText": "Living things",
         "questionAudioName": "livingthings.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "blankbox.png",
@@ -52,7 +52,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "living thing ",
+        "questionText": "Living things",
         "questionAudioName": "livingthings.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "blankbox.png",
@@ -70,7 +70,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "living thing  ",
+        "questionText": "Living things",
         "questionAudioName": "livingthings.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "blankbox.png",
@@ -88,7 +88,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "living thing  ",
+        "questionText": "Living things",
         "questionAudioName": "livingthings.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "blankbox.png",
