@@ -33,12 +33,12 @@
         "questionText2": "",
         "questionAudioName2": "idqvo.mp3",
         "commonOptionImageName": "UI.png",
-        "isOptionText": true,
+        "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "pyramid",
-          "cube",
-          "sphere"
+          "pyramid.png",
+          "cube.png",
+          "sphere.png"
         ],
         "correctAnswer": "1",
         "reiterationAudioName": "pyramid.mp3"
@@ -62,12 +62,12 @@
         "questionText2": "",
         "questionAudioName2": "idqvo.mp3",
         "commonOptionImageName": "UI.png",
-        "isOptionText": true,
+        "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "pyramid",
-          "cube",
-          "cylinder"
+          "pyramid.png",
+          "cube.png",
+          "cylinder.png"
         ],
         "correctAnswer": "3",
         "reiterationAudioName": "cylinder.mp3"
@@ -91,12 +91,12 @@
         "questionText2": "",
         "questionAudioName2": "idqvo.mp3",
         "commonOptionImageName": "UI.png",
-        "isOptionText": true,
+        "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "pyramid",
-          "cube",
-          "sphere"
+          "pyramid.png",
+          "cube.png",
+          "sphere.png"
         ],
         "correctAnswer": "2",
         "reiterationAudioName": "cube.mp3"
@@ -120,12 +120,12 @@
         "questionText2": "",
         "questionAudioName2": "idqvo.mp3",
         "commonOptionImageName": "UI.png",
-        "isOptionText": true,
+        "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "sphere",
-          "cube",
-          "pyramid"
+          "sphere.png",
+          "cube.png",
+          "pyramid.png"
         ],
         "correctAnswer": "1",
         "reiterationAudioName": "sphere.mp3"
@@ -149,12 +149,12 @@
         "questionText2": "",
         "questionAudioName2": "idqvo.mp3",
         "commonOptionImageName": "UI.png",
-        "isOptionText": true,
+        "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "cylinder",
-          "cube",
-          "pyramid"
+          "cylinder.png",
+          "cube.png",
+          "pyramid.png"
         ],
         "correctAnswer": "3",
         "reiterationAudioName": "pyramid.mp3"
@@ -178,12 +178,12 @@
         "questionText2": "",
         "questionAudioName2": "idqvo.mp3",
         "commonOptionImageName": "UI.png",
-        "isOptionText": true,
+        "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "cylinder",
-          "sphere",
-          "cube"
+          "cylinder.png",
+          "sphere.png",
+          "cube.png"
         ],
         "correctAnswer": "1",
         "reiterationAudioName": "cylinder.mp3"
@@ -207,12 +207,12 @@
         "questionText2": "",
         "questionAudioName2": "idqvo.mp3",
         "commonOptionImageName": "UI.png",
-        "isOptionText": true,
+        "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "cylinder",
-          "sphere",
-          "cube"
+          "cylinder.png",
+          "sphere.png",
+          "cube.png"
         ],
         "correctAnswer": "3",
         "reiterationAudioName": "cube.mp3"
@@ -236,12 +236,12 @@
         "questionText2": "",
         "questionAudioName2": "idqvo.mp3",
         "commonOptionImageName": "UI.png",
-        "isOptionText": true,
+        "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "cube",
-          "sphere",
-          "pyramid"
+          "cube.png",
+          "sphere.png",
+          "pyramid.png"
         ],
         "correctAnswer": "2",
         "reiterationAudioName": "sphere.mp3"
