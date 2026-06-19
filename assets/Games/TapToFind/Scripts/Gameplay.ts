@@ -44,11 +44,8 @@ export default class Gameplay extends cc.Component {
 
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
-    // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
-        // this.options = this.node.getChildByName(this.optionsLayout);
-        // this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
     }
 
     LoadQuestion() {
@@ -290,23 +287,29 @@ export default class Gameplay extends cc.Component {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         else {
-            this.arrangeChildren(this.options, 80);
+            // this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
+            let _laypout1posX: number[] = [-750, -285, 257, 754];
+            let _laypout1posY: number[] = [-150, 100, -100, 0];
             for (let i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+            }
+            if (startGame.Instance.currentLevel == 5) {
+                let _laypout1posY: number[] = [-150, -160, -80, -120];
+                for (let i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+                }
             }
         }
         _template.destroy();
-
-
     }
 
     onTouchStart_layout1(event: cc.Event.EventTouch) {
         if (!this.canTouch) {
             return;
         }
+        cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
         let node = event.target;
@@ -326,6 +329,7 @@ export default class Gameplay extends cc.Component {
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
                 .call(() => {
+                    cc.audioEngine.stopAllEffects();
                     if (this.reiterationAudio[audioNum]) {
                         cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
                     }
@@ -364,6 +368,7 @@ export default class Gameplay extends cc.Component {
         if (!this.canTouch) {
             return;
         }
+        cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
         let node: cc.Node = event.target;
@@ -396,6 +401,7 @@ export default class Gameplay extends cc.Component {
             this.scheduleOnce(() => {
                 _clone.getComponent(cc.Animation).stop();
                 _clone.angle = 0;
+                cc.audioEngine.stopAllEffects();
                 if (this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
                 }
@@ -438,6 +444,7 @@ export default class Gameplay extends cc.Component {
         if (!this.canTouch) {
             return;
         }
+        cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
         let node = event.target;

@@ -65,8 +65,9 @@
       "questionAudioName": "L3.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
-      "numberOfOptions": 3,
+      "numberOfOptions": 4,
       "options": [
+        "",
         "",
         "",
         ""
@@ -74,7 +75,8 @@
       "optionsBg": [
         "L3-1.png",
         "L3-2.png",
-        "L3-3.png"
+        "L3-3.png",
+        "L3-4.png"
       ],
       "correctAudioName": "positive_3.mp3",
       "wrongAudioName": "negative_1.mp3",
@@ -90,8 +92,9 @@
       "questionAudioName": "L4.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": false,
-      "numberOfOptions": 3,
+      "numberOfOptions": 4,
       "options": [
+        "",
         "",
         "",
         ""
@@ -99,14 +102,16 @@
       "optionsBg": [
         "L4-6.png",
         "L4-2.png",
-        "L4-4.png"
+        "L4-4.png",
+        "L4-6.png"
       ],
       "correctAudioName": "positive_4.mp3",
       "wrongAudioName": "negative_2.mp3",
       "reiterationAudioName": [
+        "q queen.mp3",
         "q queen.mp3"
       ],
-      "correctAnswerNum": "1"
+      "correctAnswerNum": "14"
     },
     {
       "questionLayout": "layout1",
@@ -114,8 +119,9 @@
       "questionAudioName": "L5.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
-      "numberOfOptions": 3,
+      "numberOfOptions": 4,
       "options": [
+        "",
         "",
         "",
         ""
@@ -123,7 +129,8 @@
       "optionsBg": [
         "L5-1.png",
         "L5-2.png",
-        "L5-3.png"
+        "L5-3.png",
+        "L5-4.png"
       ],
       "correctAudioName": "positive_5.mp3",
       "wrongAudioName": "negative_1.mp3",

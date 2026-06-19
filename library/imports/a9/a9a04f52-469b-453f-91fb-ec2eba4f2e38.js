@@ -53,10 +53,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.maxLevel = 0;
         return _this;
     }
-    // LIFE-CYCLE CALLBACKS:
     Gameplay.prototype.onLoad = function () {
-        // this.options = this.node.getChildByName(this.optionsLayout);
-        // this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
     };
     Gameplay.prototype.LoadQuestion = function () {
         var _this = this;
@@ -311,12 +308,19 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeGridChildren(this.options, 70, _optionCount);
         }
         else {
-            this.arrangeChildren(this.options, 80);
+            // this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
+            var _laypout1posX = [-750, -285, 257, 754];
+            var _laypout1posY = [-150, 100, -100, 0];
             for (var i = 0; i < _optionParent.children.length; i++) {
-                _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
+                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+            }
+            if (StartGame_1.default.Instance.currentLevel == 5) {
+                var _laypout1posY_1 = [-150, -160, -80, -120];
+                for (var i = 0; i < _optionParent.children.length; i++) {
+                    _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY_1[i]);
+                }
             }
         }
         _template.destroy();
@@ -326,6 +330,7 @@ var Gameplay = /** @class */ (function (_super) {
         if (!this.canTouch) {
             return;
         }
+        cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
         var node = event.target;
@@ -345,6 +350,7 @@ var Gameplay = /** @class */ (function (_super) {
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
+                cc.audioEngine.stopAllEffects();
                 if (_this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
                 }
@@ -382,6 +388,7 @@ var Gameplay = /** @class */ (function (_super) {
         if (!this.canTouch) {
             return;
         }
+        cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
         var node = event.target;
@@ -413,6 +420,7 @@ var Gameplay = /** @class */ (function (_super) {
             this.scheduleOnce(function () {
                 _clone_1.getComponent(cc.Animation).stop();
                 _clone_1.angle = 0;
+                cc.audioEngine.stopAllEffects();
                 if (_this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
                 }
@@ -454,6 +462,7 @@ var Gameplay = /** @class */ (function (_super) {
         if (!this.canTouch) {
             return;
         }
+        cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
         var node = event.target;
