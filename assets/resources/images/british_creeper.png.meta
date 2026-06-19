@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4a0b8a99-066d-482d-8171-555df74ba750",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "british_creeper": {
+      "ver": "1.0.6",
+      "uuid": "3b68b675-3d4b-40a3-9f8a-9a858ed4d0b3",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4a0b8a99-066d-482d-8171-555df74ba750",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": -30.5,
+      "trimX": 61,
+      "trimY": 240,
+      "width": 381,
+      "height": 82,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

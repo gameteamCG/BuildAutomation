@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "british_tree",
+    "texture": "9b069373-7a50-4910-a165-6c2c83fb544f",
+    "atlas": "",
+    "rect": [
+      145,
+      207,
+      209,
+      82
+    ],
+    "offset": [
+      -1,
+      2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

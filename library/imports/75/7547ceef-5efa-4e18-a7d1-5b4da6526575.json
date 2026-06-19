@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "british_shrub",
+    "texture": "294ec342-ffda-4cf5-bea7-08a1ff0ce8ba",
+    "atlas": "",
+    "rect": [
+      121,
+      206,
+      263,
+      84
+    ],
+    "offset": [
+      2,
+      2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

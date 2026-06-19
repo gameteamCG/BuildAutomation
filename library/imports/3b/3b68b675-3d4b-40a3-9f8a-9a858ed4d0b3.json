@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "british_creeper",
+    "texture": "4a0b8a99-066d-482d-8171-555df74ba750",
+    "atlas": "",
+    "rect": [
+      61,
+      240,
+      381,
+      82
+    ],
+    "offset": [
+      1,
+      -30.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

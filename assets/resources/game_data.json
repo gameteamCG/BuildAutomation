@@ -2,22 +2,22 @@
   "additionalData": {
     "GameID": "Types of plants_UKG Social Science_88",
     "totalLevel": "5",
-    "TitleImageName": "Asset_198.png",
-    "introBgName": "tlc_bg.png",
+    "TitleImageName": "Asset 61 (18).png",
+    "introBgName": "Asset 10.png",
     "bgmMusicName": "BGMBackward.mp3",
     "mainBgName": "bg.png",
     "JockeyName": "Puzzle"
   },
   "questionData": [
     {
-      "questionText": "tree",
+      "questionText": "Types of plants",
       "questionAudioName": "the_tree.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "left_puzzle3.png",
       "isLeftOptionText": false,
       "numberOfLeftOptions": 1,
       "leftoptions": [
-        "tree.png"
+        "british_tree.png"
       ],
       "reiterations": [
         "tree.mp3"
@@ -31,14 +31,14 @@
       ]
     },
     {
-      "questionText": "shrub",
+      "questionText": "Types of plants",
       "questionAudioName": "shrub.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "left_puzzle3.png",
       "isLeftOptionText": false,
       "numberOfLeftOptions": 1,
       "leftoptions": [
-        "shrub.png"
+        "british_shrub.png"
       ],
       "reiterations": [
         "3_heebiscus.mp3"
@@ -52,14 +52,14 @@
       ]
     },
     {
-      "questionText": "herb",
+      "questionText": "Types of plants",
       "questionAudioName": "herb.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "left_puzzle3.png",
       "isLeftOptionText": false,
       "numberOfLeftOptions": 1,
       "leftoptions": [
-        "herb.png"
+        "british_herb.png"
       ],
       "reiterations": [
         "2_mint_is_a_herb.mp3"
@@ -73,14 +73,14 @@
       ]
     },
     {
-      "questionText": "grass",
+      "questionText": "Types of plants",
       "questionAudioName": "grass.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "left_puzzle3.png",
       "isLeftOptionText": false,
       "numberOfLeftOptions": 1,
       "leftoptions": [
-        "grass.png"
+        "british_grass.png"
       ],
       "reiterations": [
         "1_grass.mp3"
@@ -94,14 +94,14 @@
       ]
     },
     {
-      "questionText": "creeper",
+      "questionText": "Types of plants",
       "questionAudioName": "creeper.mp3",
       "shouldPlayQuestionAudio": true,
       "commonLeftOptionImageName": "left_puzzle3.png",
       "isLeftOptionText": false,
       "numberOfLeftOptions": 1,
       "leftoptions": [
-        "creeper.png"
+        "british_creeper.png"
       ],
       "reiterations": [
         "a3_watermelon_is_a_creeper.mp3"

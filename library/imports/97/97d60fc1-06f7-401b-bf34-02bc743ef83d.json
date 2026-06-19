@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "british_herb",
+    "texture": "21e1446a-9ae0-49c3-a5dd-0dc8ab100fd1",
+    "atlas": "",
+    "rect": [
+      144,
+      206,
+      213,
+      84
+    ],
+    "offset": [
+      0,
+      2.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

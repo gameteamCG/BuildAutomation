@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "british_grass",
+    "texture": "7fbf5a32-f5ed-469a-8a2c-076e0d617a0f",
+    "atlas": "",
+    "rect": [
+      118,
+      238,
+      264,
+      84
+    ],
+    "offset": [
+      -0.5,
+      -29.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
