@@ -472,7 +472,7 @@ export default class video extends cc.Component {
             }
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].correctAudio, false);
-                this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.correctAnim[num], false);
+                this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.correctAnim[this.currentQuestion - 1], false);
                 if (this.attemps <= 1) {
                     this.starUpdate(this.currentQuestion - 1, true, true);
                 }
