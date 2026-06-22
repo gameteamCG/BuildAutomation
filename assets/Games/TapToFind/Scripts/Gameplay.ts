@@ -59,6 +59,7 @@ export default class Gameplay extends cc.Component {
     }
 
     LoadQuestion() {
+        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[startGame.Instance.currentLevel - 1].questionText;
         if (startGame.Instance.jockeyName == "Podar") {
             this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
@@ -461,6 +462,11 @@ export default class Gameplay extends cc.Component {
             _clone.children[0].active = true;
             _clone.children[0].opacity = 0;
             node.active = false;
+            this.node.getChildByName("questionPanel").getChildByName("text2").active = false;
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).fontSize = 80;
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).lineHeight = 85;
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[startGame.Instance.currentLevel - 1].ansText;
+
             cc.tween(_clone.children[0])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
                 .call(() => {

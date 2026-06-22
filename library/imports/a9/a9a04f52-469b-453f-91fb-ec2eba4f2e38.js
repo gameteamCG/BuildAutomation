@@ -66,6 +66,7 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.LoadQuestion = function () {
         var _this = this;
+        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].questionText;
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
             this.node.getChildByName("layout1_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
             this.node.getChildByName("layout2_template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
@@ -478,6 +479,10 @@ var Gameplay = /** @class */ (function (_super) {
             _clone.children[0].active = true;
             _clone.children[0].opacity = 0;
             node.active = false;
+            this.node.getChildByName("questionPanel").getChildByName("text2").active = false;
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).fontSize = 80;
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).lineHeight = 85;
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].ansText;
             cc.tween(_clone.children[0])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
                 .call(function () {
