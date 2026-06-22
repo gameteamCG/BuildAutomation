@@ -30,6 +30,9 @@ var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.Questionpanelnswerarray = ["7 tens and 6 ones", "7 tens and 6 ones", "7 tens and 7 ones",
+            "7 tens and 8 ones", "7 tens and 9 ones", "8 tens and 0 one"
+        ];
         _this.podar_font = null;
         _this.jaipuria_font = null;
         _this.tlc_font = null;
@@ -731,6 +734,7 @@ var NewClass = /** @class */ (function (_super) {
             });
             cc.tween(_node).to(1, { y: 0 }, { easing: "sineInOut" }).start();
             console.log("correctAnswer--" + this.currScene);
+            this.node.getChildByName("Questionpanel").getChildByName("text").getComponent(cc.Label).string = this.Questionpanelnswerarray[StartGame_1.default.Instance.currentLevel];
             // console.log("correctAnswer--" + this.currScene);
             // cc.audioEngine.playEffect(this.correctButton, false);
             this.options.color = cc.Color.GREEN;

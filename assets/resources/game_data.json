@@ -10,7 +10,7 @@
   },
   "questionData": [
     {
-      "questionText": "Tens and Ones 76 to 80 ",
+      "questionText": "Tens and Ones",
       "questionAudioName": "new_14941921_1_solve-the-picture.mp3",
       "shouldPlayQuestionAudio": true,
       "commonPuzzleImageName": "Asset 8.png",
@@ -38,7 +38,7 @@
       "reiterationAudioName": "new_14941921_3_7-tens-and-6-ones-equa.mp3"
     },
     {
-      "questionText": "Tens and Ones 76 to 80 ",
+      "questionText": "Tens and Ones",
       "questionAudioName": "new_14941921_1_solve-the-picture.mp3",
       "shouldPlayQuestionAudio": true,
       "commonPuzzleImageName": "Asset 8.png",
@@ -66,7 +66,7 @@
       "reiterationAudioName": "new_14941921_4_7-tens-and-7-ones-equa.mp3"
     },
     {
-      "questionText": "Tens and Ones 76 to 80 ",
+      "questionText": "Tens and Ones",
       "questionAudioName": "new_14941921_1_solve-the-picture.mp3",
       "shouldPlayQuestionAudio": true,
       "commonPuzzleImageName": "Asset 8.png",
@@ -94,7 +94,7 @@
       "reiterationAudioName": "new_14941921_5_7-tens-and-8-ones-equa.mp3"
     },
     {
-      "questionText": "Tens and Ones 76 to 80 ",
+      "questionText": "Tens and Ones",
       "questionAudioName": "new_14941921_1_solve-the-picture.mp3",
       "shouldPlayQuestionAudio": true,
       "commonPuzzleImageName": "Asset 8.png",
@@ -122,17 +122,17 @@
       "reiterationAudioName": "new_14941921_6_7-tens-and-9-ones-equa.mp3"
     },
     {
-      "questionText": "Tens and Ones 76 to 80 ",
+      "questionText": "Tens and Ones",
       "questionAudioName": "new_14941921_1_solve-the-picture.mp3",
       "shouldPlayQuestionAudio": true,
       "commonPuzzleImageName": "Asset 8.png",
       "isHintRequired": true,
       "numberOfPuzzles": 4,
       "puzzles": [
-        "L5 Top Left.png",
-        "L5 Top Right.png",
-        "L5 Bottom Left.png",
-        "L5 Bottom Right.png"
+        "L6 Top Left.png",
+        "L6 Top Right.png",
+        "L6 Bottom Left.png",
+        "L6 Bottom Right.png"
       ],
       "correctAudioName": "new14356498_3_apple.mp3",
       "needReiteration": true,

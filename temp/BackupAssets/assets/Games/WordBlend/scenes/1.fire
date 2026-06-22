@@ -630,8 +630,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        0.9,
+        0.9,
         1
       ]
     },
@@ -4084,7 +4084,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 466.06,
+      "width": 275.59,
       "height": 252
     },
     "_anchorPoint": {
@@ -4136,8 +4136,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Tens and Ones 76 to 80 ",
-    "_N$string": "Tens and Ones 76 to 80 ",
+    "_string": "Tens and Ones",
+    "_N$string": "Tens and Ones",
     "_fontSize": 50,
     "_lineHeight": 200,
     "_enableWrapText": true,

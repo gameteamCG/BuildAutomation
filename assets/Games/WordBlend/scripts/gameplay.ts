@@ -6,7 +6,9 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class NewClass extends cc.Component {
-
+    Questionpanelnswerarray = ["7 tens and 6 ones", "7 tens and 6 ones", "7 tens and 7 ones",
+        "7 tens and 8 ones", "7 tens and 9 ones", "8 tens and 0 one"
+    ];
     @property(cc.Font)
     private podar_font: cc.Font = null;
     @property(cc.Font)
@@ -811,6 +813,7 @@ export default class NewClass extends cc.Component {
             cc.tween(_node).to(1, { y: 0 }, { easing: "sineInOut" }).start();
 
             console.log("correctAnswer--" + this.currScene);
+            this.node.getChildByName("Questionpanel").getChildByName("text").getComponent(cc.Label).string = this.Questionpanelnswerarray[startGame.Instance.currentLevel];
             // console.log("correctAnswer--" + this.currScene);
             // cc.audioEngine.playEffect(this.correctButton, false);
             this.options.color = cc.Color.GREEN;
