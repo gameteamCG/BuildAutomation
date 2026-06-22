@@ -16,7 +16,7 @@
       {
         "questionLayout": "layout3",
         "questionBgName": "bgssgsgsg.png",
-        "questionAudioName": "spread.mp3",
+        "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
@@ -40,7 +40,7 @@
       {
         "questionLayout": "layout3",
         "questionBgName": "bgssgsgsg.png",
-        "questionAudioName": "screw.mp3",
+        "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
@@ -64,7 +64,7 @@
       {
         "questionLayout": "layout3",
         "questionBgName": "bgssgsgsg.png",
-        "questionAudioName": "strong.mp3",
+        "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
@@ -88,7 +88,7 @@
       {
         "questionLayout": "layout3",
         "questionBgName": "bgssgsgsg.png",
-        "questionAudioName": "sprout.mp3",
+        "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
@@ -112,7 +112,7 @@
       {
         "questionLayout": "layout3",
         "questionBgName": "bgssgsgsg.png",
-        "questionAudioName": "screen.mp3",
+        "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
@@ -136,7 +136,7 @@
       {
         "questionLayout": "layout3",
         "questionBgName": "bgssgsgsg.png",
-        "questionAudioName": "scroll.mp3",
+        "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
@@ -160,7 +160,7 @@
       {
         "questionLayout": "layout3",
         "questionBgName": "bgssgsgsg.png",
-        "questionAudioName": "strap.mp3",
+        "questionAudioName": "QVO.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
