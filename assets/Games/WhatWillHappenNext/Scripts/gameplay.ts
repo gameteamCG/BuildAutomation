@@ -517,8 +517,10 @@ export default class NewClass extends cc.Component {
             if (cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.PolygonCollider).points)) {
                 cc.audioEngine.stopAllEffects();
                 console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
-                cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].ansText;
+
+                // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                // this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 this.callPositiveRection(_node);
             }
@@ -582,7 +584,6 @@ export default class NewClass extends cc.Component {
 
     callPositiveRection(_node: cc.Node) {
         this.canTouch = false;
-
         let voIndex: number = this.audioanswerArray.indexOf(_node.parent.name);
         console.log("voIndex : ", voIndex);
         //this.scheduleOnce(() => {
@@ -615,8 +616,8 @@ export default class NewClass extends cc.Component {
                     this.scheduleOnce(() => {
                         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
                         this.scheduleOnce(() => {
-                            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                            this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                            // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                            // this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
                             console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
                             this.callJockey();
                         }, 1);

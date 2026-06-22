@@ -11,6 +11,7 @@
     "questionData": [
         {
             "questionText": "cap",
+            "ansText": "cap - tap",
             "questionImageName": "Basket_4.png",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
@@ -30,6 +31,7 @@
         },
         {
             "questionText": "log",
+            "ansText": "log - dog",
             "questionImageName": "Basket_4.png",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
@@ -49,6 +51,7 @@
         },
         {
             "questionText": "zip",
+            "ansText": "zip - lip",
             "questionImageName": "Basket_4.png",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
@@ -68,6 +71,7 @@
         },
         {
             "questionText": "net",
+            "ansText": "net - wet",
             "questionImageName": "Basket_4.png",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
@@ -87,6 +91,7 @@
         },
         {
             "questionText": "bug",
+            "ansText": "bug - mug",
             "questionImageName": "Basket_4.png",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
@@ -106,6 +111,7 @@
         },
         {
             "questionText": "mop",
+            "ansText": "mop - top",
             "questionImageName": "Basket_4.png",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
@@ -125,6 +131,7 @@
         },
         {
             "questionText": "fox",
+            "ansText": "fox - box",
             "questionImageName": "Basket_4.png",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,

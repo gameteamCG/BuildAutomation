@@ -78,10 +78,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 51
+        "__id__": 50
       },
       {
-        "__id__": 52
+        "__id__": 51
       }
     ],
     "_prefab": null,
@@ -257,19 +257,19 @@
         "__id__": 34
       },
       {
-        "__id__": 43
+        "__id__": 42
       },
       {
-        "__id__": 46
+        "__id__": 45
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 49
+        "__id__": 48
       },
       {
-        "__id__": 50
+        "__id__": 49
       }
     ],
     "_prefab": null,
@@ -1659,9 +1659,6 @@
     "_components": [
       {
         "__id__": 41
-      },
-      {
-        "__id__": 42
       }
     ],
     "_prefab": null,
@@ -1675,8 +1672,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 562,
-      "height": 353
+      "width": 399,
+      "height": 250
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1688,7 +1685,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        388.449,
+        356.489,
         0,
         0,
         0,
@@ -1737,8 +1734,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 154.1,
-      "height": 157.5
+      "width": 0,
+      "height": 100.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1750,7 +1747,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -60.655,
+        -46.451,
         0,
         0,
         0,
@@ -1791,8 +1788,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 120,
-    "_lineHeight": 125,
+    "_fontSize": 75,
+    "_lineHeight": 80,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "0ca2c53c-c2a0-4547-8f84-4806f6955a2a"
@@ -1837,8 +1834,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 70,
-      "height": 70
+      "width": 134,
+      "height": 133
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1849,15 +1846,15 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        247.76,
-        -146.64,
+        170.847,
+        -103.972,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        0.4,
+        0.4,
         0
       ]
     },
@@ -1893,7 +1890,7 @@
       "__uuid__": "084840f0-dea1-4c20-9009-fc623ae3be8c"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -2006,10 +2003,10 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "5b029168-d7fb-46ee-bb27-2327bfaa25f7"
+      "__uuid__": "c742701b-8133-45dd-942a-8311e5906b1a"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -2018,23 +2015,9 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "77ZJF5LlZAGYMGGkFuEUTn"
-  },
-  {
-    "__type__": "3909dpzo1hPDJb1f4iWWEcf",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 34
-    },
-    "_enabled": true,
-    "leftOffset": 0,
-    "rightOffset": 0,
-    "bottomOffset": 0,
-    "topOffset": -220,
-    "_id": "d58iKDo8tHjLq7MMU353ki"
   },
   {
     "__type__": "cc.Node",
@@ -2047,10 +2030,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 44
+        "__id__": 43
       },
       {
-        "__id__": 45
+        "__id__": 44
       }
     ],
     "_prefab": null,
@@ -2106,7 +2089,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 43
+      "__id__": 42
     },
     "_enabled": true,
     "_materials": [
@@ -2138,7 +2121,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 43
+      "__id__": 42
     },
     "_enabled": true,
     "_defaultClip": {
@@ -2163,10 +2146,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 47
+        "__id__": 46
       },
       {
-        "__id__": 48
+        "__id__": 47
       }
     ],
     "_prefab": null,
@@ -2222,7 +2205,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 46
+      "__id__": 45
     },
     "_enabled": true,
     "_materials": [
@@ -2252,7 +2235,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 46
+      "__id__": 45
     },
     "_enabled": true,
     "_defaultClip": {

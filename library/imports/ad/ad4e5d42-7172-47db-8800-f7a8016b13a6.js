@@ -472,8 +472,9 @@ var NewClass = /** @class */ (function (_super) {
             if (cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.PolygonCollider).points)) {
                 cc.audioEngine.stopAllEffects();
                 console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
-                cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].ansText;
+                // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                // this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 this.callPositiveRection(_node);
             }
@@ -565,8 +566,8 @@ var NewClass = /** @class */ (function (_super) {
                     _this.scheduleOnce(function () {
                         ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
                         _this.scheduleOnce(function () {
-                            cc.tween(_this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                            _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                            // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+                            // this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
                             console.log("correctAnswerCount--" + _this.correctAnswerCount, _this.totalAnswers);
                             _this.callJockey();
                         }, 1);
