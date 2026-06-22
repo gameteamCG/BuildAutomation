@@ -81,20 +81,20 @@
         "questionText": "Digraph wh",
         "questionAudioName": "match the picture with the correct word.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonLeftOptionImageName": "Asset 500",
+        "commonLeftOptionImageName": "whistle",
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
           ""
         ],
         "reiterations": [
-          "whip.mp3"
+          "whistle.mp3"
         ],
         "commonRightOptionImageName": "Asset 506.png",
         "isRightOptionText": true,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "whip",
+          "whistle",
           "phone"
         ]
       },
