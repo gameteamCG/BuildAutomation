@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "grape",
+    "texture": "286a7689-3f14-4113-8024-75769f1909a2",
+    "atlas": "",
+    "rect": [
+      141,
+      10,
+      220,
+      480
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

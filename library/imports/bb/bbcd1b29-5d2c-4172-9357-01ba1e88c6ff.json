@@ -25,7 +25,7 @@
           "british_tree.png"
         ],
         "reiterations": [
-          "tree.mp3"
+          "a banayn tree is a tree.mp3"
         ],
         "commonRightOptionImageName": "left_puzzle3_1.png",
         "isRightOptionText": false,
@@ -79,23 +79,23 @@
       },
       {
         "questionText": "Types of plants",
-        "questionAudioName": "grass.mp3",
+        "questionAudioName": "15380465_2_identify-and-match-the.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "left_puzzle3.png",
         "isLeftOptionText": false,
         "numberOfLeftOptions": 1,
         "leftoptions": [
-          "british_grass.png"
+          "climber.png"
         ],
         "reiterations": [
-          "1_grass.mp3"
+          "15380465_1_grapevine-is-a-climber.mp3"
         ],
         "commonRightOptionImageName": "left_puzzle3_1.png",
         "isRightOptionText": false,
         "numberOfRightOptions": 2,
         "rightoptions": [
-          "grass_1.png",
-          "coconut_tree.png"
+          "grape.png",
+          "rose.png"
         ]
       },
       {
