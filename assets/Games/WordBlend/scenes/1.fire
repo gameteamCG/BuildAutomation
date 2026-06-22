@@ -3905,7 +3905,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 317.82,
+      "width": 320.46,
       "height": 100.8
     },
     "_anchorPoint": {
@@ -3957,8 +3957,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Recap: 3d shapes",
-    "_N$string": "Recap: 3d shapes",
+    "_string": "Recap: 3D shapes",
+    "_N$string": "Recap: 3D shapes",
     "_fontSize": 50,
     "_lineHeight": 80,
     "_enableWrapText": true,

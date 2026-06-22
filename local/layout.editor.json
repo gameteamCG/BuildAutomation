@@ -13,8 +13,8 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 213,
-            "height": 714.6000366210938,
+            "width": 211.10000610351562,
+            "height": 700.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -22,13 +22,13 @@
             ]
           },
           {
-            "width": 721,
-            "height": 714.6000366210938,
+            "width": 714.5750122070312,
+            "height": 700.2000122070312,
             "type": "dock-v",
             "children": [
               {
-                "width": 721,
-                "height": 445.6000061035156,
+                "width": 714.5750122070312,
+                "height": 431.20001220703125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -36,7 +36,7 @@
                 ]
               },
               {
-                "width": 721,
+                "width": 714.5750122070312,
                 "height": 266,
                 "type": "panel",
                 "active": 0,
@@ -49,8 +49,8 @@
             ]
           },
           {
-            "width": 262,
-            "height": 714.6000366210938,
+            "width": 259.6625061035156,
+            "height": 700.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -58,8 +58,8 @@
             ]
           },
           {
-            "width": 331,
-            "height": 714.6000366210938,
+            "width": 328.0500183105469,
+            "height": 700.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -72,11 +72,11 @@
       },
       "panels": [
         "hierarchy",
-        "assets",
         "scene",
         "console",
         "timeline",
         "game-window",
+        "assets",
         "inspector",
         "cocos-services",
         "node-library"
