@@ -1,5 +1,5 @@
 
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -25,6 +25,8 @@ export default class NewClass extends cc.Component {
 
     correctAnswer: string = "1";
 
+    @property(cc.AudioClip)
+    questionSound: cc.AudioClip = null;
     @property(cc.AudioClip)
     correctAction: cc.AudioClip = null;
     @property(cc.AudioClip)
@@ -617,6 +619,8 @@ export default class NewClass extends cc.Component {
                         //check what interaction it is and call the respective function
                         //show question panel
                         cc.audioEngine.playEffect(this.wordVoQuestion, false);
+
+                        cc.tween(this.node.getChildByName("Questionpanel")).to(0.5, { y: 1000 }, { easing: "sineInOut" }).start();
                         this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
                     }
                     else {
@@ -1197,6 +1201,15 @@ export default class NewClass extends cc.Component {
         for (let i = 0; i < optionNodes.length; i++) {
             optionNodes[i].y = newPositions[i];
         }
+    }
+    playQuestionsound() {
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionSound, false);
+        this.scheduleOnce(() => {
+            this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+
+        }, this.questionSound.duration + 0.1);
     }
 
 }

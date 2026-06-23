@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
@@ -38,6 +38,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.wordsNode = null;
         _this.myOptions = null;
         _this.correctAnswer = "1";
+        _this.questionSound = null;
         _this.correctAction = null;
         _this.incorrectButton = [];
         _this.rotateAction = null;
@@ -547,6 +548,7 @@ var NewClass = /** @class */ (function (_super) {
                         //check what interaction it is and call the respective function
                         //show question panel
                         cc.audioEngine.playEffect(_this.wordVoQuestion, false);
+                        cc.tween(_this.node.getChildByName("Questionpanel")).to(0.5, { y: 1000 }, { easing: "sineInOut" }).start();
                         _this.interactionType == "1" ? _this.OptionsAppear() : _this.wordAppear();
                     }
                     else {
@@ -1072,6 +1074,15 @@ var NewClass = /** @class */ (function (_super) {
             optionNodes[i].y = newPositions[i];
         }
     };
+    NewClass.prototype.playQuestionsound = function () {
+        var _this = this;
+        this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = false;
+        cc.audioEngine.stopAllEffects();
+        cc.audioEngine.playEffect(this.questionSound, false);
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("Questionpanel").getChildByName("vo").getComponent(cc.Button).interactable = true;
+        }, this.questionSound.duration + 0.1);
+    };
     __decorate([
         property(cc.Font)
     ], NewClass.prototype, "podar_font", void 0);
@@ -1093,6 +1104,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], NewClass.prototype, "myOptions", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], NewClass.prototype, "questionSound", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "correctAction", void 0);

@@ -18,7 +18,7 @@
         "questionText": "",
         "questionAudioName": "solvethePP.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonPuzzleImageName": "trans.png",
+        "commonPuzzleImageName": "Asset 509.png",
         "isHintRequired": true,
         "numberOfPuzzles": 4,
         "puzzles": [
@@ -48,12 +48,12 @@
         "questionText": "",
         "questionAudioName": "solvethePP.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonPuzzleImageName": "trans.png",
+        "commonPuzzleImageName": "Asset 509.png",
         "isHintRequired": true,
         "numberOfPuzzles": 4,
         "puzzles": [
-          "pull1.png",
           "pull2.png",
+          "pull1.png",
           "pull3.png",
           "pull4.png"
         ],
@@ -78,14 +78,14 @@
         "questionText": "",
         "questionAudioName": "solvethePP.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonPuzzleImageName": "trans.png",
+        "commonPuzzleImageName": "Asset 509.png",
         "isHintRequired": true,
         "numberOfPuzzles": 4,
         "puzzles": [
           "bell1.png",
           "bell2.png",
-          "bell3.png",
-          "bell4.png"
+          "bell4.png",
+          "bell3.png"
         ],
         "correctAudioName": "EXCELLENTJOB.mp3",
         "needReiteration": true,
@@ -108,7 +108,7 @@
         "questionText": "",
         "questionAudioName": "solvethePP.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonPuzzleImageName": "trans.png",
+        "commonPuzzleImageName": "Asset 509.png",
         "isHintRequired": true,
         "numberOfPuzzles": 4,
         "puzzles": [
@@ -138,7 +138,7 @@
         "questionText": "",
         "questionAudioName": "solvethePP.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonPuzzleImageName": "trans.png",
+        "commonPuzzleImageName": "Asset 509.png",
         "isHintRequired": true,
         "numberOfPuzzles": 4,
         "puzzles": [
@@ -168,7 +168,7 @@
         "questionText": "",
         "questionAudioName": "solvethePP.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonPuzzleImageName": "trans.png",
+        "commonPuzzleImageName": "Asset 509.png",
         "isHintRequired": true,
         "numberOfPuzzles": 4,
         "puzzles": [
@@ -198,7 +198,7 @@
         "questionText": "",
         "questionAudioName": "solvethePP.mp3",
         "shouldPlayQuestionAudio": true,
-        "commonPuzzleImageName": "trans.png",
+        "commonPuzzleImageName": "Asset 509.png",
         "isHintRequired": true,
         "numberOfPuzzles": 4,
         "puzzles": [
