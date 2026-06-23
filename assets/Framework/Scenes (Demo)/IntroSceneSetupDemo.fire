@@ -972,6 +972,8 @@
     "isPremiumGame": false,
     "isMobileNumberPriority": false,
     "premiumLevel": 3,
+    "jockey": null,
+    "playBtn_audio": null,
     "_id": "9cn2lOJBZHB78JfXbiF0DT"
   }
 ]

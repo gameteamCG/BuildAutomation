@@ -15,7 +15,7 @@
     "questionData": [
       {
         "questionLayout": "layout2",
-        "questionBgName": "BG1.png",
+        "questionBgName": "bathroom bg.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -41,7 +41,7 @@
       },
       {
         "questionLayout": "layout2",
-        "questionBgName": "bg_1(1).png",
+        "questionBgName": "bathroom bg.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -67,7 +67,7 @@
       },
       {
         "questionLayout": "layout2",
-        "questionBgName": "Bag.png",
+        "questionBgName": "bathroom bg.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -93,7 +93,7 @@
       },
       {
         "questionLayout": "layout2",
-        "questionBgName": "Bg1_8.png",
+        "questionBgName": "bathroom bg.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -119,7 +119,7 @@
       },
       {
         "questionLayout": "layout2",
-        "questionBgName": "Bg51.png",
+        "questionBgName": "bathroom bg.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -128,7 +128,7 @@
           "crab.png",
           "rule.png",
           "tug.png",
-          "yup.png"
+          "pin.png"
         ],
         "optionsBg": [
           "",
@@ -145,7 +145,7 @@
       },
       {
         "questionLayout": "layout2",
-        "questionBgName": "BG_2.png",
+        "questionBgName": "bathroom bg.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
@@ -171,7 +171,7 @@
       },
       {
         "questionLayout": "layout2",
-        "questionBgName": "BgsNew06.png",
+        "questionBgName": "bathroom bg.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,

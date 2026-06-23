@@ -63,6 +63,8 @@ var Gameplay = /** @class */ (function (_super) {
     }
     // LIFE-CYCLE CALLBACKS:
     Gameplay.prototype.onLoad = function () {
+        this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[0].active = true;
+        this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].active = false;
         // this.options = this.node.getChildByName(this.optionsLayout);
         // this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
     };
@@ -224,7 +226,7 @@ var Gameplay = /** @class */ (function (_super) {
             if (_this.questionAudio) {
                 if (StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     cc.audioEngine.playEffect(_this.questionAudio, false);
-                    _this.node.getChildByName("Questionbar").getChildByName("shortQBar").getChildByName("New Label").getComponent(cc.Label).string = _this.quesWords[StartGame_1.default.Instance.currentLevel - 1];
+                    //this.node.getChildByName("Questionbar").getChildByName("shortQBar").getChildByName("New Label").getComponent(cc.Label).string = "Long 'U' word families";
                 }
             }
             if (_this.optionsLayout == "layout1") {
@@ -344,6 +346,9 @@ var Gameplay = /** @class */ (function (_super) {
             }
         }
         if (correct) {
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[0].active = false;
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].active = true;
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].getComponent(cc.Label).string = this.quesWords[StartGame_1.default.Instance.currentLevel - 1];
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
             this.correctCounter++;
@@ -401,6 +406,9 @@ var Gameplay = /** @class */ (function (_super) {
         }
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[0].active = false;
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].active = true;
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].getComponent(cc.Label).string = this.quesWords[StartGame_1.default.Instance.currentLevel - 1];
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
             node.getComponent(cc.Animation).stop();
             node.angle = 0;
@@ -414,7 +422,7 @@ var Gameplay = /** @class */ (function (_super) {
             _clone_1.getComponent(cc.Animation).stop();
             _clone_1.angle = 0;
             var pos = _clone_1.getPosition();
-            cc.tween(_clone_1).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
+            cc.tween(_clone_1).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(100, 0)).start();
             this.scheduleOnce(function () {
                 _clone_1.getComponent(cc.Animation).stop();
                 _clone_1.angle = 0;
@@ -473,6 +481,9 @@ var Gameplay = /** @class */ (function (_super) {
         }
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[0].active = false;
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].active = true;
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].getComponent(cc.Label).string = this.quesWords[StartGame_1.default.Instance.currentLevel - 1];
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
             this.correctCounter++;
             var _clone = cc.instantiate(node);

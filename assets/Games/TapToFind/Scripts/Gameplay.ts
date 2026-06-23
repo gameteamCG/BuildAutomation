@@ -56,6 +56,10 @@ export default class Gameplay extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
+        this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[0].active = true;
+        this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].active = false;
+
+
         // this.options = this.node.getChildByName(this.optionsLayout);
         // this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
     }
@@ -210,7 +214,7 @@ export default class Gameplay extends cc.Component {
             if (this.questionAudio) {
                 if (startGame.Instance.questions[startGame.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     cc.audioEngine.playEffect(this.questionAudio, false);
-                    this.node.getChildByName("Questionbar").getChildByName("shortQBar").getChildByName("New Label").getComponent(cc.Label).string = this.quesWords[startGame.Instance.currentLevel - 1];
+                    //this.node.getChildByName("Questionbar").getChildByName("shortQBar").getChildByName("New Label").getComponent(cc.Label).string = "Long 'U' word families";
                 }
             }
             if (this.optionsLayout == "layout1") {
@@ -324,6 +328,9 @@ export default class Gameplay extends cc.Component {
             }
         }
         if (correct) {
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[0].active = false;
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].active = true;
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].getComponent(cc.Label).string = this.quesWords[startGame.Instance.currentLevel - 1];
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
             this.correctCounter++;
@@ -383,6 +390,10 @@ export default class Gameplay extends cc.Component {
 
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[0].active = false;
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].active = true;
+
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].getComponent(cc.Label).string = this.quesWords[startGame.Instance.currentLevel - 1];
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
             node.getComponent(cc.Animation).stop();
             node.angle = 0;
@@ -396,7 +407,7 @@ export default class Gameplay extends cc.Component {
             _clone.getComponent(cc.Animation).stop();
             _clone.angle = 0;
             let pos = _clone.getPosition();
-            cc.tween(_clone).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
+            cc.tween(_clone).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(100, 0)).start();
             this.scheduleOnce(() => {
                 _clone.getComponent(cc.Animation).stop();
                 _clone.angle = 0;
@@ -456,6 +467,10 @@ export default class Gameplay extends cc.Component {
         }
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[0].active = false;
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].active = true;
+
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].getComponent(cc.Label).string = this.quesWords[startGame.Instance.currentLevel - 1];
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
             this.correctCounter++;
             let _clone: cc.Node = cc.instantiate(node);
