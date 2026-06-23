@@ -2585,8 +2585,8 @@
     "relativePath": "resources\\audios"
   },
   "4b6a1ede-ccd2-446c-aa31-e527bb8f840f": {
-    "asset": 1782207538449,
-    "meta": 1782207744779,
+    "asset": 1782210706477,
+    "meta": 1782211820400,
     "relativePath": "resources\\images"
   },
   "141da97f-6517-480d-a157-7eadef7440b2": {
@@ -3066,7 +3066,7 @@
   },
   "954fec8b-cd16-4bb9-a3b7-7719660e7558": {
     "asset": 1778045534373,
-    "meta": 1782207743021,
+    "meta": 1782211820010,
     "relativePath": "model\\primitives.fbx"
   },
   "897ef7a1-4860-4f64-968d-f5924b18668a": {
