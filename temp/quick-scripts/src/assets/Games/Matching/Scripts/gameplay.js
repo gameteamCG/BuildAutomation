@@ -546,6 +546,7 @@ var gameplay = /** @class */ (function (_super) {
     };
     gameplay.prototype.callPositiveRection = function (_node1, _node2) {
         var _this = this;
+        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].ansText;
         var _clone1 = cc.instantiate(_node1);
         var _clone2 = cc.instantiate(_node2);
         this.node.getChildByName("overlay").active = true;
@@ -566,7 +567,7 @@ var gameplay = /** @class */ (function (_super) {
         cc.tween(_clone2.children[1]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[1]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2.children[2]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
-        cc.tween(_clone2.children[2]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
+        cc.tween(_clone2.children[2]).to(0.5, { scale: 2 }, { easing: "sineInOut" }).start();
         cc.tween(_clone2).to(0.5, { x: 230, y: 0 }, { easing: "sineInOut" }).start();
         this.scheduleOnce(function () {
             var audioNum = parseInt(_clone1.name);
@@ -577,7 +578,7 @@ var gameplay = /** @class */ (function (_super) {
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             _this.scheduleOnce(function () {
                 _this.callJockey();
-            }, 0.7);
+            }, 2.5);
         }, 0.5);
     };
     gameplay.prototype.callJockey = function () {
@@ -1065,8 +1066,8 @@ var gameplay = /** @class */ (function (_super) {
             this.answeredCount++;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-            this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+            // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+            // this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveRection(_dropNode, _node);
         }
