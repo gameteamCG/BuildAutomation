@@ -25,8 +25,8 @@
         "ring.png"
       ],
       "ReiterationAudioName": "king.mp3",
-      "CorrectAudioName": "positive_3.mp3",
-      "WrongAudioName": "negative_5.mp3",
+      "CorrectAudioName": "positive_1.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "2"
     },
     {
@@ -45,8 +45,8 @@
         "ring.png"
       ],
       "ReiterationAudioName": "sing.mp3",
-      "CorrectAudioName": "positive_3.mp3",
-      "WrongAudioName": "negative_5.mp3",
+      "CorrectAudioName": "positive_2.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "1"
     },
     {
@@ -66,7 +66,7 @@
       ],
       "ReiterationAudioName": "wing.mp3",
       "CorrectAudioName": "positive_3.mp3",
-      "WrongAudioName": "negative_5.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "3"
     },
     {
@@ -85,8 +85,8 @@
         "ring"
       ],
       "ReiterationAudioName": "ring.mp3",
-      "CorrectAudioName": "positive_3.mp3",
-      "WrongAudioName": "negative_5.mp3",
+      "CorrectAudioName": "positive_1.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "4"
     },
     {
@@ -105,8 +105,8 @@
         "tong"
       ],
       "ReiterationAudioName": "lung.mp3",
-      "CorrectAudioName": "positive_3.mp3",
-      "WrongAudioName": "negative_5.mp3",
+      "CorrectAudioName": "positive_2.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "1"
     },
     {
@@ -126,7 +126,7 @@
       ],
       "ReiterationAudioName": "tongs.mp3",
       "CorrectAudioName": "positive_3.mp3",
-      "WrongAudioName": "negative_5.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "3"
     },
     {
@@ -145,8 +145,8 @@
         "tong"
       ],
       "ReiterationAudioName": "swing.mp3",
-      "CorrectAudioName": "positive_3.mp3",
-      "WrongAudioName": "negative_5.mp3",
+      "CorrectAudioName": "positive_1.mp3",
+      "WrongAudioName": "negative_1.mp3",
       "CorrectAnswer": "2"
     }
   ]

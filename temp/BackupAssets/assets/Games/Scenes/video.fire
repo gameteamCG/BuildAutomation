@@ -458,9 +458,7 @@
     "starsPanel": {
       "__id__": 122
     },
-    "bgMusic": {
-      "__uuid__": "2fd0d62f-307c-466d-8c74-d0415f65aae1"
-    },
+    "bgMusic": null,
     "correctSound": {
       "__uuid__": "617c9f98-08d8-49a8-874d-29e7b2166772"
     },
@@ -7966,8 +7964,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1172,
-      "height": 222
+      "width": 537,
+      "height": 113
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7985,8 +7983,8 @@
         0,
         0,
         1,
-        0.875,
-        0.875,
+        1,
+        1,
         0.875
       ]
     },
@@ -8019,10 +8017,10 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "98d13250-d21d-430f-a10e-c42065130ab2"
+      "__uuid__": "529d850b-e572-467a-b5b7-e6c9dfe70bf4"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -8031,7 +8029,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "a3BNH9XFFIFqgrSuvEXY92"
   },
@@ -9249,8 +9247,10 @@
       "__id__": 181
     },
     "_enabled": true,
-    "BGM_audio": null,
-    "volume": 0,
+    "BGM_audio": {
+      "__uuid__": "2fd0d62f-307c-466d-8c74-d0415f65aae1"
+    },
+    "volume": 0.1,
     "NextSceneName": "1",
     "TotalLevels": 7,
     "isAgeParameterNeeded": false,
