@@ -31,7 +31,7 @@ var NewClass = /** @class */ (function (_super) {
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.Questionpanelnswerarray = ["7 tens and 6 ones", "7 tens and 6 ones", "7 tens and 7 ones",
-            "7 tens and 8 ones", "7 tens and 9 ones", "8 tens and 0 one"
+            "7 tens and 8 ones", "7 tens and 9 ones", "8 tens and 0 ones"
         ];
         _this.podar_font = null;
         _this.jaipuria_font = null;

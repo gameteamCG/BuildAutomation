@@ -7,7 +7,7 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class NewClass extends cc.Component {
     Questionpanelnswerarray = ["7 tens and 6 ones", "7 tens and 6 ones", "7 tens and 7 ones",
-        "7 tens and 8 ones", "7 tens and 9 ones", "8 tens and 0 one"
+        "7 tens and 8 ones", "7 tens and 9 ones", "8 tens and 0 ones"
     ];
     @property(cc.Font)
     private podar_font: cc.Font = null;
