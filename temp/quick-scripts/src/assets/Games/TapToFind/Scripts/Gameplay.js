@@ -405,9 +405,10 @@ var Gameplay = /** @class */ (function (_super) {
             _option.active = true;
             _option.opacity = 0;
             _option.name = (i + 1).toString();
+            _option.scale = 1.5;
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 0, _optionCount);
+            this.arrangeGridChildren(this.options, -20, _optionCount);
         }
         else {
             this.arrangeChildren(this.options, 80);
