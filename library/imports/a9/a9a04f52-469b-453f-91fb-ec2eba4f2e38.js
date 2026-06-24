@@ -58,7 +58,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.reiterationAudio = [];
         _this.currentJockey = null;
         _this.maxLevel = 0;
-        _this.quesWords = ["Mute", "Sew", "Glue", "Tube", "Rule", "Blew", "Clue"];
+        _this.quesWords = ["mute", "sew", "glue", "tube", "rule", "blew", "clue"];
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
@@ -348,6 +348,7 @@ var Gameplay = /** @class */ (function (_super) {
         if (correct) {
             this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[0].active = false;
             this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].active = true;
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[2].active = false;
             this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].getComponent(cc.Label).string = this.quesWords[StartGame_1.default.Instance.currentLevel - 1];
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
@@ -408,6 +409,7 @@ var Gameplay = /** @class */ (function (_super) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[0].active = false;
             this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].active = true;
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[2].active = false;
             this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].getComponent(cc.Label).string = this.quesWords[StartGame_1.default.Instance.currentLevel - 1];
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
             node.getComponent(cc.Animation).stop();

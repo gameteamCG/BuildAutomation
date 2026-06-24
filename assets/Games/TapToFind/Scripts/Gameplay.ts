@@ -203,7 +203,8 @@ export default class Gameplay extends cc.Component {
         this.currentJockey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
         this.currentJockey.active = true;
     }
-    private quesWords: string[] = ["Mute", "Sew", "Glue", "Tube", "Rule", "Blew", "Clue"];
+
+    private quesWords: string[] = ["mute", "sew", "glue", "tube", "rule", "blew", "clue"];
     start() {
 
         this.LoadQuestion();
@@ -330,6 +331,8 @@ export default class Gameplay extends cc.Component {
         if (correct) {
             this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[0].active = false;
             this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].active = true;
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[2].active = false;
+
             this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].getComponent(cc.Label).string = this.quesWords[startGame.Instance.currentLevel - 1];
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
@@ -392,6 +395,7 @@ export default class Gameplay extends cc.Component {
             cc.audioEngine.playEffect(this.positive_audio, false);
             this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[0].active = false;
             this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].active = true;
+            this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[2].active = false;
 
             this.node.getChildByName("Questionbar").getChildByName("shortQBar").children[1].getComponent(cc.Label).string = this.quesWords[startGame.Instance.currentLevel - 1];
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
