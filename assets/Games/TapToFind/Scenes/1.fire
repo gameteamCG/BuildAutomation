@@ -2990,7 +2990,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "text",
+    "_name": "text1",
     "_objFlags": 0,
     "_parent": {
       "__id__": 56
@@ -3087,7 +3087,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "text",
+    "_name": "text2",
     "_objFlags": 0,
     "_parent": {
       "__id__": 56

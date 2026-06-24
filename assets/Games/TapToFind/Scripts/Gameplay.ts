@@ -53,6 +53,7 @@ export default class Gameplay extends cc.Component {
 
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
+    questionpanelanswer: string[] = ["hook", "wood", "book", "wool", "stool", "cook", "good"];
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
@@ -321,7 +322,10 @@ export default class Gameplay extends cc.Component {
         }
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
-            console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            console.log("correctAnswer--2" + startGame.Instance.currentLevel);
+            this.node.getChildByName("text").getComponent(cc.Label).string = this.questionpanelanswer[startGame.Instance.currentLevel];
+            this.node.getChildByName("text1").active = false;
+            this.node.getChildByName("text2").active = false;
             this.correctCounter++;
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
@@ -379,8 +383,9 @@ export default class Gameplay extends cc.Component {
 
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
-            console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            console.log("correctAnswer--3" + startGame.Instance.currentLevel);
             node.getComponent(cc.Animation).stop();
+
             node.angle = 0;
             this.correctCounter++;
             let _clone: cc.Node = cc.instantiate(node);
@@ -452,7 +457,10 @@ export default class Gameplay extends cc.Component {
         }
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
-            console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            console.log("correctAnswer--1" + startGame.Instance.currentLevel);
+            this.node.getChildByName("Questionpanel").getChildByName("text").getComponent(cc.Label).string = this.questionpanelanswer[startGame.Instance.currentLevel - 1];
+            this.node.getChildByName("Questionpanel").getChildByName("text1").active = false;
+            this.node.getChildByName("Questionpanel").getChildByName("text2").active = false;
             this.correctCounter++;
             let _clone: cc.Node = cc.instantiate(node);
             _clone.parent = node;

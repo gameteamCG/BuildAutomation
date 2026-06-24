@@ -58,6 +58,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.questionSound = null;
         _this.currentJockey = null;
         _this.maxLevel = 0;
+        _this.questionpanelanswer = ["hook", "wood", "book", "wool", "stool", "cook", "good"];
         return _this;
     }
     // LIFE-CYCLE CALLBACKS:
@@ -339,7 +340,10 @@ var Gameplay = /** @class */ (function (_super) {
         }
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
-            console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            console.log("correctAnswer--2" + StartGame_1.default.Instance.currentLevel);
+            this.node.getChildByName("text").getComponent(cc.Label).string = this.questionpanelanswer[StartGame_1.default.Instance.currentLevel];
+            this.node.getChildByName("text1").active = false;
+            this.node.getChildByName("text2").active = false;
             this.correctCounter++;
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
@@ -395,7 +399,7 @@ var Gameplay = /** @class */ (function (_super) {
         }
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
-            console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            console.log("correctAnswer--3" + StartGame_1.default.Instance.currentLevel);
             node.getComponent(cc.Animation).stop();
             node.angle = 0;
             this.correctCounter++;
@@ -467,7 +471,10 @@ var Gameplay = /** @class */ (function (_super) {
         }
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
-            console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            console.log("correctAnswer--1" + StartGame_1.default.Instance.currentLevel);
+            this.node.getChildByName("Questionpanel").getChildByName("text").getComponent(cc.Label).string = this.questionpanelanswer[StartGame_1.default.Instance.currentLevel - 1];
+            this.node.getChildByName("Questionpanel").getChildByName("text1").active = false;
+            this.node.getChildByName("Questionpanel").getChildByName("text2").active = false;
             this.correctCounter++;
             var _clone = cc.instantiate(node);
             _clone.parent = node;
