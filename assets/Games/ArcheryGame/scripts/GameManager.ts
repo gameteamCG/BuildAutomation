@@ -1479,6 +1479,7 @@ export default class GameManager extends cc.Component {
         //this.levelend = true;
         this.reduceLife();
         this.resetTimer();
+        this.clocktick = cc.audioEngine.playEffect(this.clockTick, true);
       }
     }
   }
@@ -1497,16 +1498,23 @@ export default class GameManager extends cc.Component {
       .to(0.1, { opacity: 255 })
       .call(() => {
         currentLifeNode.opacity = 0;
+        this.lives -= 1;
+        if (this.lives == 0) {
+          this.resetGame();
+        }
       })
       .start();
-    this.lives -= 1;
-    if (this.lives == 0) {
-      this.resetGame();
-    }
   }
 
   resetGame() {
     globalVariables.Instance.currentLevel = 1;
+    ProgressBar.Instance.ProgressFill(0, false);
+    ProgressBar.Instance.disappearAllStars();
+    this.currLevel = 1;
+    this.lives = 3;
+    this.node.getChildByName("lives").children.forEach((elem) => {
+      elem.opacity = 255;
+    });
     this.setQuestionScreen();
   }
 

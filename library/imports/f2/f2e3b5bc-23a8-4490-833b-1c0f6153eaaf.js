@@ -1243,10 +1243,12 @@ var GameManager = /** @class */ (function (_super) {
                 //this.levelend = true;
                 this.reduceLife();
                 this.resetTimer();
+                this.clocktick = cc.audioEngine.playEffect(this.clockTick, true);
             }
         }
     };
     GameManager.prototype.reduceLife = function () {
+        var _this = this;
         console.log("Reducelife $$$$$$$$$$$$$$$$: ", this.lives);
         var currentLifeNode;
         currentLifeNode = this.node
@@ -1260,15 +1262,22 @@ var GameManager = /** @class */ (function (_super) {
             .to(0.1, { opacity: 255 })
             .call(function () {
             currentLifeNode.opacity = 0;
+            _this.lives -= 1;
+            if (_this.lives == 0) {
+                _this.resetGame();
+            }
         })
             .start();
-        this.lives -= 1;
-        if (this.lives == 0) {
-            this.resetGame();
-        }
     };
     GameManager.prototype.resetGame = function () {
         globalVariables_1.default.Instance.currentLevel = 1;
+        ProgressBar_1.default.Instance.ProgressFill(0, false);
+        ProgressBar_1.default.Instance.disappearAllStars();
+        this.currLevel = 1;
+        this.lives = 3;
+        this.node.getChildByName("lives").children.forEach(function (elem) {
+            elem.opacity = 255;
+        });
         this.setQuestionScreen();
     };
     GameManager.prototype.resetTimer = function () {

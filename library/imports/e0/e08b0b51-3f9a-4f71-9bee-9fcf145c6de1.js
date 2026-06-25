@@ -53,8 +53,7 @@ var ProgressBar = /** @class */ (function (_super) {
         // cc.game.addPersistRootNode(this.node);
         ProgressBar_1.instance = this;
     };
-    ProgressBar.prototype.start = function () {
-    };
+    ProgressBar.prototype.start = function () { };
     ProgressBar.prototype.ProgressFill = function (_currentQues, starLog) {
         if (starLog === void 0) { starLog = true; }
         // this.createStarTrails(10, this.node);
@@ -62,32 +61,51 @@ var ProgressBar = /** @class */ (function (_super) {
         var maxLevels = StartGame_1.default.Instance.totalLevels; //totalLevels
         console.log("maxLevel : ", maxLevels);
         var value = _currentQues / maxLevels;
-        cc.tween(this.node.getComponent(cc.ProgressBar)).to(0.5, { progress: value }, { easing: "sineInOut" }).start();
+        cc.tween(this.node.getComponent(cc.ProgressBar))
+            .to(0.5, { progress: value }, { easing: "sineInOut" })
+            .start();
         this.node.addComponent(cc.AudioSource).clip = this.starPopSound;
         this.node.addComponent(cc.AudioSource).play();
-        if (_currentQues != 0 && _currentQues < maxLevels && _currentQues < maxLevels / 2) {
+        if (_currentQues != 0 &&
+            _currentQues < maxLevels &&
+            _currentQues < maxLevels / 2) {
             if (!this.starsEarned[0] && starLog) {
                 this.starsEarned[0] = true;
                 console.log("starsEarned--1");
             }
-            cc.tween(this.node.getChildByName("stars").children[0]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
+            cc.tween(this.node.getChildByName("stars").children[0])
+                .to(0.5, { opacity: 255 }, { easing: "sineInOut" })
+                .start();
         }
-        else if (_currentQues >= maxLevels / 2 && _currentQues < maxLevels && this.node.getChildByName("stars").children[1].opacity == 0) {
+        else if (_currentQues >= maxLevels / 2 &&
+            _currentQues < maxLevels &&
+            this.node.getChildByName("stars").children[1].opacity == 0) {
             if (!this.starsEarned[1] && starLog) {
                 this.starsEarned[1] = true;
                 console.log("starsEarned--2");
             }
-            cc.tween(this.node.getChildByName("stars").children[0]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
-            cc.tween(this.node.getChildByName("stars").children[1]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
+            cc.tween(this.node.getChildByName("stars").children[0])
+                .to(0.5, { opacity: 255 }, { easing: "sineInOut" })
+                .start();
+            cc.tween(this.node.getChildByName("stars").children[1])
+                .to(0.5, { opacity: 255 }, { easing: "sineInOut" })
+                .start();
         }
-        else if (_currentQues >= maxLevels && this.node.getChildByName("stars").children[2].opacity == 0) {
+        else if (_currentQues >= maxLevels &&
+            this.node.getChildByName("stars").children[2].opacity == 0) {
             if (!this.starsEarned[2] && starLog) {
                 this.starsEarned[2] = true;
                 console.log("starsEarned--3");
             }
-            cc.tween(this.node.getChildByName("stars").children[0]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
-            cc.tween(this.node.getChildByName("stars").children[1]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
-            cc.tween(this.node.getChildByName("stars").children[2]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
+            cc.tween(this.node.getChildByName("stars").children[0])
+                .to(0.5, { opacity: 255 }, { easing: "sineInOut" })
+                .start();
+            cc.tween(this.node.getChildByName("stars").children[1])
+                .to(0.5, { opacity: 255 }, { easing: "sineInOut" })
+                .start();
+            cc.tween(this.node.getChildByName("stars").children[2])
+                .to(0.5, { opacity: 255 }, { easing: "sineInOut" })
+                .start();
         }
     };
     ProgressBar.prototype.getRandomNumber = function (min, max) {
@@ -97,6 +115,11 @@ var ProgressBar = /** @class */ (function (_super) {
         _number = Math.round(_number);
         return _number;
     };
+    ProgressBar.prototype.disappearAllStars = function () {
+        this.node.getChildByName("stars").children.forEach(function (elem) {
+            elem.opacity = 0;
+        });
+    };
     ProgressBar.prototype.createStarTrails = function (num, _node) {
         var _this = this;
         var rng_NumOfParticles = num;
@@ -105,8 +128,8 @@ var ProgressBar = /** @class */ (function (_super) {
             var NodePOS = _node.convertToWorldSpaceAR(this_1.node.parent.position);
             var rngX = this_1.getRandomNumber(_node.x - _offset, _node.x + _offset);
             var rngY = this_1.getRandomNumber(_node.y - _offset, _node.y + _offset);
-            var particles = cc.instantiate(new cc.Node);
-            var trail = cc.instantiate(new cc.Node);
+            var particles = cc.instantiate(new cc.Node());
+            var trail = cc.instantiate(new cc.Node());
             particles.parent = this_1.node.parent;
             trail.parent = particles;
             particles.x = rngX;
@@ -125,10 +148,17 @@ var ProgressBar = /** @class */ (function (_super) {
             // trail.color = new cc.Color(252, 244, 0);
             this_1.scheduleOnce(function () {
                 particles.getComponent(cc.AudioSource).play();
-                cc.tween(particles).to(0.75, { width: 35, height: 35 }, { easing: "backOut" }).start();
-                cc.tween(particles).to(0.25, { angle: 0 }, { easing: "cubicInOut" })
-                    .to(0.25, { angle: 180 }, { easing: "cubicInOut" }).start().to(0.25, { angle: 360 }, { easing: "cubicInOut" });
-                cc.tween(particles).to(0.25, { opacity: 255 }, { easing: "cubicInOut" }).call(function () {
+                cc.tween(particles)
+                    .to(0.75, { width: 35, height: 35 }, { easing: "backOut" })
+                    .start();
+                cc.tween(particles)
+                    .to(0.25, { angle: 0 }, { easing: "cubicInOut" })
+                    .to(0.25, { angle: 180 }, { easing: "cubicInOut" })
+                    .start()
+                    .to(0.25, { angle: 360 }, { easing: "cubicInOut" });
+                cc.tween(particles)
+                    .to(0.25, { opacity: 255 }, { easing: "cubicInOut" })
+                    .call(function () {
                     _this.scheduleOnce(function () {
                         trail.getComponent(cc.MotionStreak).minSeg = 10;
                         trail.getComponent(cc.MotionStreak).stroke = 20;
@@ -141,23 +171,39 @@ var ProgressBar = /** @class */ (function (_super) {
                         // particles.getComponent(cc.AudioSource).volume = 0.2;
                         // particles.getComponent(cc.AudioSource).play();
                         if (_this.isVertical) {
-                            cc.tween(particles).bezierTo(0.75, new cc.Vec2(particles.x, particles.y), //start
+                            cc.tween(particles)
+                                .bezierTo(0.75, new cc.Vec2(particles.x, particles.y), //start
                             new cc.Vec2(_this.getRandomNumber(particles.x - 100, particles.x + 100), _this.getRandomNumber(particles.y - 500, particles.y + 200)), //curve range
-                            new cc.Vec2(_this.node.x, _this.node.y - _this.node.getComponent(cc.ProgressBar).totalLength / 2 + (_this.node.getComponent(cc.ProgressBar).totalLength * _this.node.getComponent(cc.ProgressBar).progress))) //endpoint
+                            new cc.Vec2(_this.node.x, _this.node.y -
+                                _this.node.getComponent(cc.ProgressBar).totalLength /
+                                    2 +
+                                _this.node.getComponent(cc.ProgressBar).totalLength *
+                                    _this.node.getComponent(cc.ProgressBar).progress)) //endpoint
                                 .start();
                         }
                         else {
-                            cc.tween(particles).bezierTo(0.75, new cc.Vec2(particles.x, particles.y), //start
+                            cc.tween(particles)
+                                .bezierTo(0.75, new cc.Vec2(particles.x, particles.y), //start
                             new cc.Vec2(_this.getRandomNumber(particles.x - 100, particles.x + 100), _this.getRandomNumber(particles.y - 500, particles.y + 200)), //curve range
-                            new cc.Vec2(_this.node.x - _this.node.getComponent(cc.ProgressBar).totalLength / 2 + (_this.node.getComponent(cc.ProgressBar).totalLength * _this.node.getComponent(cc.ProgressBar).progress), _this.node.y)) //endpoint
+                            new cc.Vec2(_this.node.x -
+                                _this.node.getComponent(cc.ProgressBar).totalLength /
+                                    2 +
+                                _this.node.getComponent(cc.ProgressBar).totalLength *
+                                    _this.node.getComponent(cc.ProgressBar).progress, _this.node.y)) //endpoint
                                 .start();
                         }
-                        cc.tween(particles).to(0.75, { angle: -particles.angle / 2 }, { easing: "cubicInOut" }).start();
-                        cc.tween(particles).to(0.75, { scale: 0 }, { easing: "cubicIn" }).call(function () {
+                        cc.tween(particles)
+                            .to(0.75, { angle: -particles.angle / 2 }, { easing: "cubicInOut" })
+                            .start();
+                        cc.tween(particles)
+                            .to(0.75, { scale: 0 }, { easing: "cubicIn" })
+                            .call(function () {
                             particles.destroy();
-                        }).start();
+                        })
+                            .start();
                     }, 0.5);
-                }).start();
+                })
+                    .start();
             }, 0.1 * (i + 1));
         };
         var this_1 = this;
