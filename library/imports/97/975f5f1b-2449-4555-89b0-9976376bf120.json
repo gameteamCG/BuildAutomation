@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stork",
+    "texture": "1e410526-7f02-49d2-8a69-d25050d67e22",
+    "atlas": "",
+    "rect": [
+      100,
+      29,
+      301,
+      443
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

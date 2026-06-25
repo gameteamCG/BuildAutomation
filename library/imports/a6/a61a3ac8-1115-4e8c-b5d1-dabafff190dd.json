@@ -2733,7 +2733,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 280.91,
+      "width": 259.26,
       "height": 75.6
     },
     "_anchorPoint": {
@@ -2785,8 +2785,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Digraph -  or'",
-    "_N$string": "Digraph -  or'",
+    "_string": "Digraph   or'",
+    "_N$string": "Digraph   or'",
     "_fontSize": 55,
     "_lineHeight": 60,
     "_enableWrapText": true,
@@ -2807,7 +2807,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "text",
+    "_name": "text1",
     "_objFlags": 0,
     "_parent": {
       "__id__": 56
@@ -2842,8 +2842,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        74.698,
-        -49.854,
+        65.50300000000004,
+        -49.85399999999993,
         0,
         0,
         0,
@@ -2851,7 +2851,7 @@
         1,
         -1,
         1,
-        1
+        -1
       ]
     },
     "_eulerAngles": {

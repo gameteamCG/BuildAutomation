@@ -15,6 +15,7 @@
     "questionData": [
       {
         "questionLayout": "layout3",
+        "ansText": "corn",
         "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
@@ -39,6 +40,7 @@
       },
       {
         "questionLayout": "layout3",
+        "ansText": "fork",
         "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
@@ -63,6 +65,7 @@
       },
       {
         "questionLayout": "layout3",
+        "ansText": "North",
         "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
@@ -87,18 +90,19 @@
       },
       {
         "questionLayout": "layout3",
+        "ansText": "stork",
         "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "score.png",
+          "stork.png",
           "thumb.png",
           "Asset_24.png"
         ],
         "optionsBg": [
-          "scoreG.png",
+          "storkbw.png",
           "thumbB.png",
           "Asset_17.png"
         ],
@@ -111,6 +115,7 @@
       },
       {
         "questionLayout": "layout3",
+        "ansText": "sword",
         "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
@@ -135,6 +140,7 @@
       },
       {
         "questionLayout": "layout3",
+        "ansText": "thorn",
         "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,
@@ -159,6 +165,7 @@
       },
       {
         "questionLayout": "layout3",
+        "ansText": "torch",
         "questionBgName": "newBG.png",
         "questionAudioName": "question.mp3",
         "shouldPlayQuestionAudio": true,

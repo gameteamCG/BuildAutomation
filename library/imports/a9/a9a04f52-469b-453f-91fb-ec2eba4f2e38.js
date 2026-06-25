@@ -470,6 +470,10 @@ var Gameplay = /** @class */ (function (_super) {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).fontSize = 70;
+            this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).lineHeight = 75;
+            this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].ansText;
+            this.node.getChildByName("shortQBar").getChildByName("text1").active = false;
             this.correctCounter++;
             var _clone = cc.instantiate(node);
             _clone.parent = node;

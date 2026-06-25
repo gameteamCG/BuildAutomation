@@ -454,6 +454,10 @@ export default class Gameplay extends cc.Component {
         if (correct) {
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
+            this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).fontSize = 70;
+            this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).lineHeight = 75;
+            this.node.getChildByName("shortQBar").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[startGame.Instance.currentLevel - 1].ansText;
+            this.node.getChildByName("shortQBar").getChildByName("text1").active = false;
             this.correctCounter++;
             let _clone: cc.Node = cc.instantiate(node);
             _clone.parent = node;
@@ -465,6 +469,7 @@ export default class Gameplay extends cc.Component {
             cc.tween(_clone.children[0])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
                 .call(() => {
+
                     if (this.reiterationAudio[audioNum]) {
                         cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
                     }

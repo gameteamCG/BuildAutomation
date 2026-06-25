@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "storkbw",
+    "texture": "56d412f6-b860-46a1-bce9-5d2b525a2a4a",
+    "atlas": "",
+    "rect": [
+      100,
+      29,
+      301,
+      443
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
