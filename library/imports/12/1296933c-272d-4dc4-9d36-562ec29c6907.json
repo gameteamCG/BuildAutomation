@@ -4085,7 +4085,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 390.54,
+      "width": 419.73,
       "height": 252
     },
     "_anchorPoint": {
@@ -4137,8 +4137,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Review Digraph",
-    "_N$string": "Review Digraph",
+    "_string": "Review: Group 4",
+    "_N$string": "Review: Group 4",
     "_fontSize": 70,
     "_lineHeight": 200,
     "_enableWrapText": true,
