@@ -17,7 +17,7 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "King",
+        "QuestionText": "king",
         "QuestionImageName": "Q1.png",
         "QuestionAudioName": "QVO1.mp3",
         "PlayQuestionAudio": true,
@@ -37,9 +37,9 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "Sing",
+        "QuestionText": "sing",
         "QuestionImageName": "Q1.png",
-        "QuestionAudioName": "Q1.mp3",
+        "QuestionAudioName": "QVO1.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
@@ -57,9 +57,9 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "Wing",
+        "QuestionText": "wing",
         "QuestionImageName": "Q1.png",
-        "QuestionAudioName": "Q1.mp3",
+        "QuestionAudioName": "QVO1.mp3",
         "PlayQuestionAudio": true,
         "IsOptionText": false,
         "NumberOfOptions": 4,
@@ -77,7 +77,7 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": false,
-        "QuestionText": "Sing",
+        "QuestionText": "sing",
         "QuestionImageName": "ring.png",
         "QuestionAudioName": "QVO2.mp3",
         "PlayQuestionAudio": true,
@@ -97,7 +97,7 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": false,
-        "QuestionText": "Sing",
+        "QuestionText": "sing",
         "QuestionImageName": "lung.png",
         "QuestionAudioName": "QVO2.mp3",
         "PlayQuestionAudio": true,
@@ -109,7 +109,7 @@
           "wing",
           "tong"
         ],
-        "ReiterationAudioName": "lung.mp3",
+        "ReiterationAudioName": "lungs.mp3",
         "CorrectAudioName": "positive_2.mp3",
         "WrongAudioName": "negative_1.mp3",
         "CorrectAnswer": "1"
@@ -117,7 +117,7 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": false,
-        "QuestionText": "Sing",
+        "QuestionText": "sing",
         "QuestionImageName": "tong.png",
         "QuestionAudioName": "QVO2.mp3",
         "PlayQuestionAudio": true,
@@ -137,7 +137,7 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": false,
-        "QuestionText": "Sing",
+        "QuestionText": "sing",
         "QuestionImageName": "swing.png",
         "QuestionAudioName": "QVO3.mp3",
         "PlayQuestionAudio": true,
