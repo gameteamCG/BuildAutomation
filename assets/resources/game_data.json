@@ -79,7 +79,7 @@
       "IsOptionText": true,
       "NumberOfOptions": 4,
       "Options": [
-        "lung",
+        "lungs",
         "king",
         "wing",
         "ring"
@@ -99,7 +99,7 @@
       "IsOptionText": true,
       "NumberOfOptions": 4,
       "Options": [
-        "lung",
+        "lungs",
         "sing",
         "wing",
         "tong"
@@ -119,7 +119,7 @@
       "IsOptionText": true,
       "NumberOfOptions": 4,
       "Options": [
-        "lung",
+        "lungs",
         "king",
         "tongs",
         "ring"
@@ -139,10 +139,10 @@
       "IsOptionText": true,
       "NumberOfOptions": 4,
       "Options": [
-        "lung",
-        "swing",
-        "wing",
-        "tong"
+        "st",
+        "ng",
+        "rd",
+        "ed"
       ],
       "ReiterationAudioName": "swing.mp3",
       "CorrectAudioName": "positive_1.mp3",
