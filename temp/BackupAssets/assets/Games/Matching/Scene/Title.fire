@@ -570,8 +570,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 881,
-      "height": 332
+      "width": 613,
+      "height": 215
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -622,7 +622,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "f3f6483c-33d9-4e86-a2c5-f70946e3896f"
+    },
     "_type": 0,
     "_sizeMode": 2,
     "_fillType": 0,
@@ -2646,7 +2648,7 @@
       "__id__": 58
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 60
@@ -2663,8 +2665,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 409.01,
-      "height": 351.22
+      "width": 676.93,
+      "height": 986.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2682,8 +2684,8 @@
         0,
         0,
         1,
-        0.7,
-        0.7,
+        0.4,
+        0.4,
         1
       ]
     },
@@ -2732,7 +2734,7 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": {
-      "__uuid__": "5026321f-288a-4b04-96ca-8898edd7bd8f"
+      "__uuid__": "7d7c7f3e-dd62-417b-be87-3272f07ec1be"
     },
     "_N$_defaultCacheMode": 0,
     "_N$debugSlots": false,
