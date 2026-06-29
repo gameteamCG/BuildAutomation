@@ -31,6 +31,7 @@ var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.endSFX = null;
         _this.extraImg = null;
         _this.dropNode = null;
         _this.podar_font = null;
@@ -82,26 +83,55 @@ var NewClass = /** @class */ (function (_super) {
     // LIFE-CYCLE CALLBACKS:
     NewClass.prototype.onLoad = function () {
         var _this = this;
-        for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum.length; i++) {
-            this.answerArray[i] = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum[i];
-            this.audioanswerArray[i] = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum[i];
+        for (var i = 0; i <
+            StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
+                .correctAnswerNum.length; i++) {
+            this.answerArray[i] =
+                StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum[i];
+            this.audioanswerArray[i] =
+                StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAnswerNum[i];
             //console.log("AnswerArray : ", this.answerArray)
         }
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+            this.node
+                .getChildByName("template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.podar_font;
+            this.node
+                .getChildByName("questionPanel")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.podar_font;
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.tlc_font;
+            this.node
+                .getChildByName("template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.tlc_font;
+            this.node
+                .getChildByName("questionPanel")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.tlc_font;
         }
         else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.supercub_font;
+            this.node
+                .getChildByName("template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.supercub_font;
+            this.node
+                .getChildByName("questionPanel")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.supercub_font;
         }
-        else if (StartGame_1.default.Instance.jockeyName == "bag" || StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.node.getChildByName("template").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        else if (StartGame_1.default.Instance.jockeyName == "bag" ||
+            StartGame_1.default.Instance.jockeyName == "cryon") {
+            this.node
+                .getChildByName("template")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.jaipuria_font;
+            this.node
+                .getChildByName("questionPanel")
+                .getChildByName("text")
+                .getComponent(cc.Label).font = this.jaipuria_font;
         }
         this.optionsNode = this.node.getChildByName("Option");
         this.GenerateOptions();
@@ -113,16 +143,19 @@ var NewClass = /** @class */ (function (_super) {
             //cc.director.preloadScene(globalVariables.Instance.currentLevel.toString());
         }
         console.log("levelStarted--" + globalVariables_1.default.Instance.currentLevel);
-        this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = StartGame_1.default.Instance.mainBg;
+        this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame =
+            StartGame_1.default.Instance.mainBg;
         if (StartGame_1.default.Instance.isDemoGame) {
-            cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionAudioName, function (err, audioClip) {
+            cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
+                .questionAudioName, function (err, audioClip) {
                 if (err) {
                     console.error("Failed to load audio clip:", err);
                     return;
                 }
                 _this.questionSound[0] = audioClip;
             });
-            if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonOptionImageName != "") {
+            if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
+                .commonOptionImageName != "") {
                 cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonOptionImageName, function (err, texture) {
                     if (err) {
                         console.error("Failed to load image:", err);
@@ -130,18 +163,26 @@ var NewClass = /** @class */ (function (_super) {
                     }
                     var spriteFrame = new cc.SpriteFrame(texture);
                     //this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
-                        _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    for (var i = 0; i <
+                        StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
+                        _this.node
+                            .getChildByName("Option")
+                            .getChildByName((i + 1).toString())
+                            .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
                 });
             }
-            cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionImageName, function (err, texture) {
+            cc.loader.load(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
+                .questionImageName, function (err, texture) {
                 if (err) {
                     console.error("Failed to load image:", err);
                     return;
                 }
                 var spriteFrame = new cc.SpriteFrame(texture);
-                _this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                _this.node
+                    .getChildByName("QuestionBox")
+                    .getChildByName("ThirdObject")
+                    .getComponent(cc.Sprite).spriteFrame = spriteFrame;
             });
             var _loop_1 = function (i) {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionText) {
@@ -152,16 +193,27 @@ var NewClass = /** @class */ (function (_super) {
                             return;
                         }
                         var spriteFrame = new cc.SpriteFrame(texture);
-                        _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        _this.node
+                            .getChildByName("Option")
+                            .getChildByName((i + 1).toString())
+                            .getChildByName("img")
+                            .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     });
                 }
                 else {
                     // console.log("option text = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
-                    this_1.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i];
+                    this_1.node
+                        .getChildByName("Option")
+                        .getChildByName((i + 1).toString())
+                        .getChildByName("text")
+                        .getComponent(cc.Label).string =
+                        StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i];
                 }
             };
             var this_1 = this;
-            for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
+            for (var i = 0; i <
+                StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
+                    .numberOfOptions; i++) {
                 _loop_1(i);
             }
             var _loop_2 = function (i) {
@@ -173,38 +225,61 @@ var NewClass = /** @class */ (function (_super) {
                     _this.correctAudio[i] = audioClip;
                 });
             };
-            for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAudios.length; i++) {
+            for (var i = 0; i <
+                StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
+                    .correctAudios.length; i++) {
                 _loop_2(i);
             }
         }
         else {
             //console.log("correctAudios : ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAudios);
-            this.loadAudioClip(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionAudioName, function (AudioClip) {
+            this.loadAudioClip(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
+                .questionAudioName, function (AudioClip) {
                 _this.questionSound[0] = AudioClip;
             });
-            if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonOptionImageName != "") {
+            if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
+                .commonOptionImageName != "") {
                 this.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].commonOptionImageName, function (spriteFrame) {
                     //this.node.getChildByName("QuestionBox").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
-                        _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    for (var i = 0; i <
+                        StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
+                        _this.node
+                            .getChildByName("Option")
+                            .getChildByName((i + 1).toString())
+                            .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     }
                 });
             }
-            this.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionImageName, function (spriteFrame) {
-                _this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            this.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
+                .questionImageName, function (spriteFrame) {
+                _this.node
+                    .getChildByName("QuestionBox")
+                    .getChildByName("ThirdObject")
+                    .getComponent(cc.Sprite).spriteFrame = spriteFrame;
             });
             var _loop_3 = function (i) {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionText) {
                     this_2.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i], function (spriteFrame) {
-                        _this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                        _this.node
+                            .getChildByName("Option")
+                            .getChildByName((i + 1).toString())
+                            .getChildByName("img")
+                            .getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     });
                 }
                 else {
-                    this_2.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i];
+                    this_2.node
+                        .getChildByName("Option")
+                        .getChildByName((i + 1).toString())
+                        .getChildByName("text")
+                        .getComponent(cc.Label).string =
+                        StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i];
                 }
             };
             var this_2 = this;
-            for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
+            for (var i = 0; i <
+                StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
+                    .numberOfOptions; i++) {
                 _loop_3(i);
             }
             var _loop_4 = function (i) {
@@ -213,7 +288,9 @@ var NewClass = /** @class */ (function (_super) {
                 });
             };
             var this_3 = this;
-            for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].correctAudios.length; i++) {
+            for (var i = 0; i <
+                StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
+                    .correctAudios.length; i++) {
                 _loop_4(i);
             }
         }
@@ -265,21 +342,23 @@ var NewClass = /** @class */ (function (_super) {
             option.opacity = 0;
             option.width = 250;
             option.height = 250;
-            option.on('touchstart', function (event) {
+            option.on("touchstart", function (event) {
                 this.TouchStart(option.getChildByName("img"));
             }, this_4);
-            option.on('touchmove', function (event) {
+            option.on("touchmove", function (event) {
                 this.TouchMove(option.getChildByName("img"), event);
             }, this_4);
-            option.on('touchend', function (event) {
+            option.on("touchend", function (event) {
                 this.TouchEnd(option.getChildByName("img"));
             }, this_4);
-            option.on('touchcancel', function (event) {
+            option.on("touchcancel", function (event) {
                 this.TouchEnd(option.getChildByName("img"));
             }, this_4);
         };
         var this_4 = this;
-        for (var i = 0; i < StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
+        for (var i = 0; i <
+            StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
+                .numberOfOptions; i++) {
             _loop_5(i);
         }
         this.node.getChildByName("template").destroy();
@@ -289,15 +368,22 @@ var NewClass = /** @class */ (function (_super) {
         this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
         // this.node.getChildByName("questionPanel").opacity = 255;
-        cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
-        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
+        cc.tween(this.node.getChildByName("questionPanel"))
+            .to(1, { y: this.questionBoxPosY }, { easing: "sineInOut" })
+            .start();
+        this.node
+            .getChildByName("questionPanel")
+            .getChildByName("text")
+            .getComponent(cc.Label).string =
+            StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
         this.node.getChildByName("QuestionBox").setPosition(cc.v2(-1500, -200));
         this.node.getChildByName("QuestionBox").scale = 1;
         this.scheduleOnce(function () {
             _this.scheduleOnce(function () {
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 cc.tween(_this.node.getChildByName("QuestionBox"))
-                    .to(0.5, { x: -300 }, { easing: "sineInOut" }).start();
+                    .to(0.5, { x: -300 }, { easing: "sineInOut" })
+                    .start();
             }, 0.1);
             _this.scheduleOnce(function () {
                 var QuestionBox1 = cc.instantiate(_this.node.getChildByName("QuestionBox"));
@@ -320,13 +406,16 @@ var NewClass = /** @class */ (function (_super) {
         this.canTouch = false;
         console.log("Jockey coming");
         this.currentJcokey.active = true;
-        if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
-            if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
+        if (StartGame_1.default.Instance.jockeyName != "tlc" &&
+            StartGame_1.default.Instance.jockeyName != "supercub") {
+            if (StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1]
+                .shouldPlayQuestionAudio) {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
             }
             this.canTouch = true;
         }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "supercub") {
+        else if (StartGame_1.default.Instance.jockeyName == "tlc" ||
+            StartGame_1.default.Instance.jockeyName == "supercub") {
             var intoAnim = "intro";
             this.currentJcokey.setPosition(450, -370);
             if (StartGame_1.default.Instance.jockeyName == "supercub") {
@@ -336,18 +425,26 @@ var NewClass = /** @class */ (function (_super) {
             if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 cc.audioEngine.playEffect(this.tlc_birdFlying, false);
             }
-            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
+            this.currentJcokey
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, intoAnim, false);
             this.scheduleOnce(function () {
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     _this.canTouch = true;
                 }
                 else {
                     cc.audioEngine.playEffect(_this.questionSound[0], false);
-                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_loop", true);
+                    _this.currentJcokey
+                        .getComponent(sp.Skeleton)
+                        .setAnimation(0, "intro_loop", true);
                     _this.scheduleOnce(function () {
-                        _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
+                        _this.currentJcokey
+                            .getComponent(sp.Skeleton)
+                            .setAnimation(0, "intro_end", false);
                         _this.scheduleOnce(function () {
-                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                            _this.currentJcokey
+                                .getComponent(sp.Skeleton)
+                                .setAnimation(0, "idle", true);
                             _this.canTouch = true;
                         }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
                     }, _this.questionSound[0].duration);
@@ -357,10 +454,17 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callOptionIn = function () {
         var _this = this;
-        if (StartGame_1.default.Instance.jockeyName == "supercub" || StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("Option").setPosition(this.node.getChildByName("Option").x - 200, this.node.getChildByName("Option").y);
-            this.node.getChildByName("QuestionBox").setPosition(this.node.getChildByName("QuestionBox").x - 120, this.node.getChildByName("QuestionBox").y);
-            this.node.getChildByName("QuestionBox1").setPosition(this.node.getChildByName("QuestionBox1").x - 120, this.node.getChildByName("QuestionBox1").y);
+        if (StartGame_1.default.Instance.jockeyName == "supercub" ||
+            StartGame_1.default.Instance.jockeyName == "tlc") {
+            this.node
+                .getChildByName("Option")
+                .setPosition(this.node.getChildByName("Option").x - 200, this.node.getChildByName("Option").y);
+            this.node
+                .getChildByName("QuestionBox")
+                .setPosition(this.node.getChildByName("QuestionBox").x - 120, this.node.getChildByName("QuestionBox").y);
+            this.node
+                .getChildByName("QuestionBox1")
+                .setPosition(this.node.getChildByName("QuestionBox1").x - 120, this.node.getChildByName("QuestionBox1").y);
         }
         var delay = 0.5;
         var ObjScale = 1;
@@ -370,46 +474,65 @@ var NewClass = /** @class */ (function (_super) {
             this_5.scheduleOnce(function () {
                 cc.audioEngine.playEffect(_this.popSound[0], false);
                 cc.tween(_this.node.getChildByName("Option").getChildByName(i.toString()))
-                    .to(0.5, { scale: ObjScale }, { easing: "sineInOut" }).start();
+                    .to(0.5, { scale: ObjScale }, { easing: "sineInOut" })
+                    .start();
                 if (i == _this.node.getChildByName("Option").children.length) {
                     _this.scheduleOnce(function () {
                         if (globalVariables_1.default.Instance.currentLevel == 1) {
                             var hand_1 = _this.node.getChildByName("hand");
                             console.log("answer array num = ", _this.answerArray[0]);
-                            hand_1.setParent(_this.node.getChildByName("Option").getChildByName(_this.answerArray[0]));
+                            hand_1.setParent(_this.node
+                                .getChildByName("Option")
+                                .getChildByName(_this.answerArray[0]));
                             hand_1.setPosition(0, -30);
                             hand_1.setParentWithSamePos(_this.node);
                             var handPosition_1 = hand_1.getPosition();
-                            var ThirdObject_1 = _this.node.getChildByName("QuestionBox").getChildByName("ThirdObject");
+                            var ThirdObject_1 = _this.node
+                                .getChildByName("QuestionBox")
+                                .getChildByName("ThirdObject");
                             var distanceX_1 = 0;
-                            if (StartGame_1.default.Instance.jockeyName == "supercub" || StartGame_1.default.Instance.jockeyName == "tlc") {
+                            if (StartGame_1.default.Instance.jockeyName == "supercub" ||
+                                StartGame_1.default.Instance.jockeyName == "tlc") {
                                 distanceX_1 = 420;
                             }
                             else {
                                 distanceX_1 = 300;
                             }
                             var waitTime = 0;
-                            if (StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "supercub") {
+                            if (StartGame_1.default.Instance.jockeyName == "tlc" ||
+                                StartGame_1.default.Instance.jockeyName == "supercub") {
                                 waitTime = 2;
                             }
                             _this.scheduleOnce(function () {
                                 hand_1.getComponent(cc.Animation).play("handDrag");
                                 _this.scheduleOnce(function () {
-                                    cc.tween(hand_1).to(1, { x: ThirdObject_1.x - distanceX_1, y: ThirdObject_1.y - 200 }).call(function () {
+                                    cc.tween(hand_1)
+                                        .to(1, {
+                                        x: ThirdObject_1.x - distanceX_1,
+                                        y: ThirdObject_1.y - 200,
+                                    })
+                                        .call(function () {
                                         hand_1.getComponent(cc.Animation).play("handDrop");
                                         _this.scheduleOnce(function () {
                                             hand_1.setPosition(handPosition_1.x, handPosition_1.y);
                                             hand_1.getComponent(cc.Animation).play("handDrag");
                                             _this.scheduleOnce(function () {
-                                                cc.tween(hand_1).to(1, { x: ThirdObject_1.x - distanceX_1, y: ThirdObject_1.y - 200 }).call(function () {
+                                                cc.tween(hand_1)
+                                                    .to(1, {
+                                                    x: ThirdObject_1.x - distanceX_1,
+                                                    y: ThirdObject_1.y - 200,
+                                                })
+                                                    .call(function () {
                                                     hand_1.getComponent(cc.Animation).play("handDrop");
                                                     _this.scheduleOnce(function () {
                                                         hand_1.active = false;
                                                     }, 1);
-                                                }).start();
+                                                })
+                                                    .start();
                                             }, 1);
                                         }, 1);
-                                    }).start();
+                                    })
+                                        .start();
                                 }, 1);
                             }, waitTime);
                         }
@@ -425,8 +548,7 @@ var NewClass = /** @class */ (function (_super) {
             _loop_6(i);
         }
     };
-    NewClass.prototype.OnButtonClick = function (_event) {
-    };
+    NewClass.prototype.OnButtonClick = function (_event) { };
     NewClass.prototype.TouchStart = function (_node) {
         console.log("touchStart");
         if (!this.canTouch) {
@@ -468,18 +590,30 @@ var NewClass = /** @class */ (function (_super) {
         }
         if (isCorrect) {
             var _nodeWorldSpacePos = _node.parent.convertToWorldSpaceAR(_node.getPosition());
-            var _actualPosition = this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").convertToNodeSpaceAR(_nodeWorldSpacePos);
-            if (cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.PolygonCollider).points)) {
+            var _actualPosition = this.node
+                .getChildByName("QuestionBox")
+                .getChildByName("ThirdObject")
+                .convertToNodeSpaceAR(_nodeWorldSpacePos);
+            if (cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.node
+                .getChildByName("QuestionBox")
+                .getChildByName("ThirdObject")
+                .getComponent(cc.PolygonCollider).points)) {
                 cc.audioEngine.stopAllEffects();
                 console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
-                cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                cc.tween(this.node.getChildByName("questionPanel"))
+                    .to(1, { y: 1500 }, { easing: "sineInOut" })
+                    .start();
+                this.node
+                    .getChildByName("questionPanel")
+                    .getChildByName("sound")
+                    .getComponent(cc.Button).interactable = false;
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 this.callPositiveRection(_node);
             }
             else {
                 cc.tween(_node)
-                    .to(0.2, { x: 0, y: 0 }, { easing: "backInOut" }).start();
+                    .to(0.2, { x: 0, y: 0 }, { easing: "backInOut" })
+                    .start();
                 this.answerArray.push(_node.parent.name);
             }
         }
@@ -489,8 +623,7 @@ var NewClass = /** @class */ (function (_super) {
             console.log("wrongAnswer--" + globalVariables_1.default.Instance.currentLevel);
             // cc.tween(_node)
             //     .to(0.2, { x: this.positionArray[parseInt(_node.name) - 1].x, y: this.positionArray[parseInt(_node.name) - 1].y }, { easing: "backInOut" }).start();
-            cc.tween(_node)
-                .to(0.2, { x: 0, y: 0 }, { easing: "backInOut" }).start();
+            cc.tween(_node).to(0.2, { x: 0, y: 0 }, { easing: "backInOut" }).start();
             this.scheduleOnce(function () {
                 _this.callNegativeRection(_node, _event);
             }, 0.2);
@@ -498,9 +631,11 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callNextLevel = function () {
         cc.tween(this.node.getChildByName("QuestionBox"))
-            .to(0.5, { x: -1500 }, { easing: "sineInOut" }).start();
+            .to(0.5, { x: -1500 }, { easing: "sineInOut" })
+            .start();
         cc.tween(this.node.getChildByName("QuestionBox1"))
-            .to(0.5, { x: -1500 }, { easing: "sineInOut" }).start();
+            .to(0.5, { x: -1500 }, { easing: "sineInOut" })
+            .start();
         console.log("levelComplete--" + globalVariables_1.default.Instance.currentLevel);
         this.callStarsEared();
         if (globalVariables_1.default.Instance.currentLevel == this.maxLevel) {
@@ -525,7 +660,8 @@ var NewClass = /** @class */ (function (_super) {
             this.star2Log = true;
             console.log("starsEarned--2");
         }
-        if (!this.star3Log && globalVariables_1.default.Instance.currentLevel == this.maxLevel) {
+        if (!this.star3Log &&
+            globalVariables_1.default.Instance.currentLevel == this.maxLevel) {
             this.star3Log = true;
             console.log("starsEarned--3");
         }
@@ -536,7 +672,9 @@ var NewClass = /** @class */ (function (_super) {
         var voIndex = this.audioanswerArray.indexOf(_node.parent.name);
         console.log("voIndex : ", voIndex);
         //this.scheduleOnce(() => {
-        this.node.getChildByName("confetti").setPosition(this.node.getChildByName("QuestionBox").x, this.node.getChildByName("QuestionBox").y);
+        this.node
+            .getChildByName("confetti")
+            .setPosition(this.node.getChildByName("QuestionBox").x, this.node.getChildByName("QuestionBox").y);
         this.node.getChildByName("confetti").getComponent(cc.Animation).play();
         cc.audioEngine.playEffect(this.positiveSound[0], false);
         var parentNode = _node.parent;
@@ -544,12 +682,25 @@ var NewClass = /** @class */ (function (_super) {
         var imgName = _node.name + this.correctAnswerCount + 1;
         _node.name = imgName;
         _node.setParentWithSamePos(this.node.getChildByName("QuestionBox"));
-        var pos = this.node.getChildByName("QuestionBox").getChildByName(imgName).getPosition();
-        var thirdBox = this.node.getChildByName("QuestionBox").getChildByName("ThirdObject");
+        var pos = this.node
+            .getChildByName("QuestionBox")
+            .getChildByName(imgName)
+            .getPosition();
+        var thirdBox = this.node
+            .getChildByName("QuestionBox")
+            .getChildByName("ThirdObject");
         var xRandom = this.getRandomNumber(-thirdBox.width / 4, thirdBox.width / 4);
-        this.node.getChildByName("QuestionBox").getChildByName(imgName).scale = this.node.getChildByName("QuestionBox").getChildByName(imgName).scale - (this.node.getChildByName("QuestionBox").getChildByName(imgName).scale * 0.2);
-        cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 50)).start();
-        cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName)).to(0.7, { scale: 0.3 }, { easing: "sineInOut" }).start();
+        this.node.getChildByName("QuestionBox").getChildByName(imgName).scale =
+            this.node.getChildByName("QuestionBox").getChildByName(imgName).scale -
+                this.node.getChildByName("QuestionBox").getChildByName(imgName).scale *
+                    0.2;
+        cc.audioEngine.playEffect(this.endSFX, false);
+        cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName))
+            .bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(xRandom / 2, pos.y + 200), cc.v2(xRandom, thirdBox.height / 2 - 50))
+            .start();
+        cc.tween(this.node.getChildByName("QuestionBox").getChildByName(imgName))
+            .to(0.7, { scale: 0 }, { easing: "sineInOut" })
+            .start();
         this.scheduleOnce(function () {
             //console.log("correctAudio : ", this.correctAudio)
             cc.audioEngine.playEffect(_this.correctAudio[voIndex], false);
@@ -565,8 +716,13 @@ var NewClass = /** @class */ (function (_super) {
                     _this.scheduleOnce(function () {
                         ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
                         _this.scheduleOnce(function () {
-                            cc.tween(_this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                            _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                            cc.tween(_this.node.getChildByName("questionPanel"))
+                                .to(1, { y: 1500 }, { easing: "sineInOut" })
+                                .start();
+                            _this.node
+                                .getChildByName("questionPanel")
+                                .getChildByName("sound")
+                                .getComponent(cc.Button).interactable = false;
                             console.log("correctAnswerCount--" + _this.correctAnswerCount, _this.totalAnswers);
                             _this.callJockey();
                         }, 1);
@@ -579,22 +735,65 @@ var NewClass = /** @class */ (function (_super) {
         var _this = this;
         var anim = [];
         if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
+            anim = [
+                "possitive",
+                "possitive2",
+                "possitive3",
+                "possitive4",
+                "possitive5",
+                "possitive6",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+            anim = [
+                "positive_1",
+                "positive_2",
+                "positive_3",
+                "positive_4",
+                "positive_5",
+                "positive_6",
+                "positive_7",
+                "positive_8",
+                "positive_9",
+                "positive_10",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
+            anim = [
+                "positive_1",
+                "positive_2",
+                "positive_3",
+                "positive_4",
+                "positive_5",
+                "positive_6",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+            anim = [
+                "positive_1",
+                "positive_2",
+                "positive_3",
+                "positive_4",
+                "positive_5",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "bag") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+            anim = [
+                "positive_1",
+                "positive_2",
+                "positive_3",
+                "positive_4",
+                "positive_5",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "cryon") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+            anim = [
+                "positive_1",
+                "positive_2",
+                "positive_3",
+                "positive_4",
+                "positive_5",
+            ];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Singham") {
             anim = ["dance", "thumbs_up"];
@@ -612,29 +811,46 @@ var NewClass = /** @class */ (function (_super) {
         var jockeytween = [-450, 450];
         //console.log("characterAppear--Podar_Jumbo");
         //this.currentJcokey.setPosition(pos[globalVariables.Instance.currentLevel % 2], -350);
-        if (globalVariables_1.default.Instance.currentLevel % 2 == 0 && StartGame_1.default.Instance.jockeyName == "stallion") {
+        if (globalVariables_1.default.Instance.currentLevel % 2 == 0 &&
+            StartGame_1.default.Instance.jockeyName == "stallion") {
             this.currentJcokey.scaleX = -0.65;
         }
         else if (StartGame_1.default.Instance.jockeyName == "stallion") {
             this.currentJcokey.scaleX = 0.65;
-            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+            this.currentJcokey
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, anim[currentClipNum], false);
         }
         else if (StartGame_1.default.Instance.jockeyName == "Podar") {
-            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+            this.currentJcokey
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, "idel", true);
         }
-        else if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
-            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+        else if (StartGame_1.default.Instance.jockeyName != "tlc" &&
+            StartGame_1.default.Instance.jockeyName != "supercub") {
+            this.currentJcokey
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, "idle", true);
         }
-        if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
+        if (StartGame_1.default.Instance.jockeyName != "tlc" &&
+            StartGame_1.default.Instance.jockeyName != "supercub") {
             this.currentJcokey.setPosition(pos[globalVariables_1.default.Instance.currentLevel % 2], -350);
-            cc.tween(this.currentJcokey).to(0.5, { x: jockeytween[globalVariables_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
+            cc.tween(this.currentJcokey)
+                .to(0.5, { x: jockeytween[globalVariables_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" })
+                .start();
             this.scheduleOnce(function () {
-                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+                _this.currentJcokey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(_this.positiveAudio[currentClipNum], false);
                 _this.scheduleOnce(function () {
-                    cc.tween(_this.currentJcokey).to(0.5, { x: pos[globalVariables_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
+                    cc.tween(_this.currentJcokey)
+                        .to(0.5, { x: pos[globalVariables_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" })
+                        .start();
                     if (StartGame_1.default.Instance.jockeyName != "stallion") {
-                        _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                        _this.currentJcokey
+                            .getComponent(sp.Skeleton)
+                            .setAnimation(0, "idle", true);
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
                     _this.callNextLevel();
@@ -642,11 +858,15 @@ var NewClass = /** @class */ (function (_super) {
             }, 0.5);
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+            this.currentJcokey
+                .getComponent(sp.Skeleton)
+                .setAnimation(0, anim[currentClipNum], false);
             cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
             this.scheduleOnce(function () {
                 //bird flying out sound
-                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_out", false);
+                _this.currentJcokey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, "intro_out", false);
                 cc.audioEngine.playEffect(_this.tlc_birdFlying, false);
                 _this.scheduleOnce(function () {
                     _this.currentJcokey.active = false;
@@ -655,10 +875,15 @@ var NewClass = /** @class */ (function (_super) {
             }, this.positiveAudio[currentClipNum].duration);
         }
         else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            if (anim[currentClipNum] == "positive_1" || anim[currentClipNum] == "positive_2") {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_start", false);
+            if (anim[currentClipNum] == "positive_1" ||
+                anim[currentClipNum] == "positive_2") {
+                this.currentJcokey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, anim[currentClipNum] + "_start", false);
                 this.scheduleOnce(function () {
-                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
+                    _this.currentJcokey
+                        .getComponent(sp.Skeleton)
+                        .setAnimation(0, anim[currentClipNum] + "_loop", true);
                     cc.audioEngine.playEffect(_this.positiveAudio[currentClipNum], false);
                     _this.scheduleOnce(function () {
                         if (anim[currentClipNum] == "positive_1") {
@@ -667,21 +892,33 @@ var NewClass = /** @class */ (function (_super) {
                         else if (anim[currentClipNum] == "positive_2") {
                             cc.audioEngine.playEffect(_this.supercub_Pos2, false);
                         }
-                        _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
+                        _this.currentJcokey
+                            .getComponent(sp.Skeleton)
+                            .setAnimation(0, anim[currentClipNum] + "_end", false);
                         _this.scheduleOnce(function () {
-                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
+                            _this.currentJcokey
+                                .getComponent(sp.Skeleton)
+                                .setAnimation(0, "run", false);
                             cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
                             //console.log("characterDisappear--Podar_Jumbo");
                             _this.callNextLevel();
-                        }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
+                        }, _this.currentJcokey
+                            .getComponent(sp.Skeleton)
+                            .findAnimation(anim[currentClipNum] + "_end").duration);
                     }, _this.positiveAudio[currentClipNum].duration);
-                }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_start").duration);
+                }, this.currentJcokey
+                    .getComponent(sp.Skeleton)
+                    .findAnimation(anim[currentClipNum] + "_start").duration);
             }
             else {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+                this.currentJcokey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
                 this.scheduleOnce(function () {
-                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
+                    _this.currentJcokey
+                        .getComponent(sp.Skeleton)
+                        .setAnimation(0, "run", false);
                     cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
                     //console.log("characterDisappear--Podar_Jumbo");
                     _this.callNextLevel();
@@ -699,10 +936,25 @@ var NewClass = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             var anim = [];
             if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
+                anim = [
+                    "negetive",
+                    "negetive2",
+                    "negetive3",
+                    "negetive4",
+                    "negetive5",
+                    "negetive6",
+                ];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+                anim = [
+                    "negative_1",
+                    "negative_2",
+                    "negative_3",
+                    "negative_4",
+                    "negative_5",
+                    "negative_6",
+                    "negative_7",
+                ];
             }
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
@@ -730,27 +982,45 @@ var NewClass = /** @class */ (function (_super) {
             //this.currentJcokey.setPosition(1200, -350);
             if (StartGame_1.default.Instance.jockeyName == "stallion") {
                 _this.currentJcokey.scaleX = 0.65;
-                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+                _this.currentJcokey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, anim[currentClipNum], false);
             }
             else if (StartGame_1.default.Instance.jockeyName == "Podar") {
-                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idel", true);
+                _this.currentJcokey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, "idel", true);
             }
-            else if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
-                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+            else if (StartGame_1.default.Instance.jockeyName != "tlc" &&
+                StartGame_1.default.Instance.jockeyName != "supercub") {
+                _this.currentJcokey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, "idle", true);
             }
             else {
-                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                _this.currentJcokey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, "idle", true);
             }
-            if (StartGame_1.default.Instance.jockeyName != "tlc" && StartGame_1.default.Instance.jockeyName != "supercub") {
+            if (StartGame_1.default.Instance.jockeyName != "tlc" &&
+                StartGame_1.default.Instance.jockeyName != "supercub") {
                 _this.currentJcokey.setPosition(1200, -350);
-                cc.tween(_this.currentJcokey).to(0.5, { x: 400 }, { easing: "quartInOut" }).start();
+                cc.tween(_this.currentJcokey)
+                    .to(0.5, { x: 400 }, { easing: "quartInOut" })
+                    .start();
                 _this.scheduleOnce(function () {
-                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+                    _this.currentJcokey
+                        .getComponent(sp.Skeleton)
+                        .setAnimation(0, anim[currentClipNum], false);
                     cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
                     _this.scheduleOnce(function () {
-                        cc.tween(_this.currentJcokey).to(0.5, { x: 1200 }, { easing: "quartInOut" }).start();
+                        cc.tween(_this.currentJcokey)
+                            .to(0.5, { x: 1200 }, { easing: "quartInOut" })
+                            .start();
                         if (StartGame_1.default.Instance.jockeyName != "stallion") {
-                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                            _this.currentJcokey
+                                .getComponent(sp.Skeleton)
+                                .setAnimation(0, "idle", true);
                         }
                         //console.log("characterDisappear--Podar_Jumbo");
                         _this.canTouch = true;
@@ -758,19 +1028,28 @@ var NewClass = /** @class */ (function (_super) {
                 }, 0.5);
             }
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+                _this.currentJcokey
+                    .getComponent(sp.Skeleton)
+                    .setAnimation(0, anim[currentClipNum], false);
                 cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
                 _this.scheduleOnce(function () {
-                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                    _this.currentJcokey
+                        .getComponent(sp.Skeleton)
+                        .setAnimation(0, "idle", true);
                     _this.canTouch = true;
                 }, _this.negativeAudio[currentClipNum].duration);
             }
             else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-                if (anim[currentClipNum] == "negative_1" || anim[currentClipNum] == "negative_2") {
+                if (anim[currentClipNum] == "negative_1" ||
+                    anim[currentClipNum] == "negative_2") {
                     //play bulb break if needed
-                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_start", false);
+                    _this.currentJcokey
+                        .getComponent(sp.Skeleton)
+                        .setAnimation(0, anim[currentClipNum] + "_start", false);
                     _this.scheduleOnce(function () {
-                        _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
+                        _this.currentJcokey
+                            .getComponent(sp.Skeleton)
+                            .setAnimation(0, anim[currentClipNum] + "_loop", true);
                         cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
                         _this.scheduleOnce(function () {
                             if (anim[currentClipNum] == "negative_1") {
@@ -779,19 +1058,31 @@ var NewClass = /** @class */ (function (_super) {
                             else if (anim[currentClipNum] == "negative_2") {
                                 cc.audioEngine.playEffect(_this.supercub_Neg2, false);
                             }
-                            _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
+                            _this.currentJcokey
+                                .getComponent(sp.Skeleton)
+                                .setAnimation(0, anim[currentClipNum] + "_end", false);
                             _this.canTouch = true;
                             _this.scheduleOnce(function () {
-                                _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                            }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
+                                _this.currentJcokey
+                                    .getComponent(sp.Skeleton)
+                                    .setAnimation(0, "idle", true);
+                            }, _this.currentJcokey
+                                .getComponent(sp.Skeleton)
+                                .findAnimation(anim[currentClipNum] + "_end").duration);
                         }, _this.negativeAudio[currentClipNum].duration);
-                    }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_start").duration);
+                    }, _this.currentJcokey
+                        .getComponent(sp.Skeleton)
+                        .findAnimation(anim[currentClipNum] + "_start").duration);
                 }
                 else {
-                    _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
+                    _this.currentJcokey
+                        .getComponent(sp.Skeleton)
+                        .setAnimation(0, anim[currentClipNum], false);
                     cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
                     _this.scheduleOnce(function () {
-                        _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                        _this.currentJcokey
+                            .getComponent(sp.Skeleton)
+                            .setAnimation(0, "idle", true);
                         _this.canTouch = true;
                     }, _this.negativeAudio[currentClipNum].duration);
                 }
@@ -802,7 +1093,8 @@ var NewClass = /** @class */ (function (_super) {
             .to(0.2, { x: _node.x + 10 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x - 10 }, { easing: "sineInOut" })
             .to(0.2, { x: _node.x + 10 }, { easing: "sineInOut" })
-            .to(0.2, { x: _node.x }, { easing: "sineInOut" }).call(function () {
+            .to(0.2, { x: _node.x }, { easing: "sineInOut" })
+            .call(function () {
             _node.getComponent(cc.Sprite).setMaterial(0, _this.defaultMat);
         })
             .start();
@@ -861,8 +1153,8 @@ var NewClass = /** @class */ (function (_super) {
             option.width *= optionScaleFactor;
             option.height *= optionScaleFactor;
             // Calculate position based on anchor and scaled size
-            var posY = accumulatedHeight + (option.height * option.anchorY);
-            option.y = posY - (optionsLayout.height * optionsLayout.anchorY);
+            var posY = accumulatedHeight + option.height * option.anchorY;
+            option.y = posY - optionsLayout.height * optionsLayout.anchorY;
             accumulatedHeight += option.height + paddingBetweenOptions;
             // Scale and position children nodes proportionally
             for (var _i = 0, _a = option.children; _i < _a.length; _i++) {
@@ -922,6 +1214,9 @@ var NewClass = /** @class */ (function (_super) {
             this.positionArray.push(cc.v2(optionNodes[i].x, optionNodes[i].y));
         }
     };
+    __decorate([
+        property(cc.AudioClip)
+    ], NewClass.prototype, "endSFX", void 0);
     __decorate([
         property(cc.SpriteFrame)
     ], NewClass.prototype, "extraImg", void 0);
