@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "efb35022-83e1-4832-af8a-cd1b9d507034",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "bakery_0000_1_bread_loaf": {
+      "ver": "1.0.6",
+      "uuid": "578fda25-f00b-4244-b40c-780db6c31921",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "efb35022-83e1-4832-af8a-cd1b9d507034",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -16.5,
+      "trimX": 0,
+      "trimY": 108,
+      "width": 500,
+      "height": 317,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

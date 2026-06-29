@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bakery_0004_3_corrisoints",
+    "texture": "6d04b275-a7dc-43cb-b67b-0d06dcc924f3",
+    "atlas": "",
+    "rect": [
+      0,
+      200,
+      500,
+      225
+    ],
+    "offset": [
+      0,
+      -62.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

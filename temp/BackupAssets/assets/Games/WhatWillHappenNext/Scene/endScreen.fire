@@ -342,8 +342,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1156,
-      "height": 254
+      "width": 1198,
+      "height": 247
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -395,7 +395,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "934514d1-8c36-4fc9-bc4f-011335c06a70"
+      "__uuid__": "183959ef-ee78-489d-8c7e-6c3a9e7b26d4"
     },
     "_type": 0,
     "_sizeMode": 2,
@@ -1126,7 +1126,7 @@
     ],
     "podarEnd": null,
     "jaipuriaEnd": {
-      "__uuid__": "7ee6385b-10a2-46f5-a385-17206245ca4f"
+      "__uuid__": "183959ef-ee78-489d-8c7e-6c3a9e7b26d4"
     },
     "tlcEnd": null,
     "supercubEnd": null,

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bakery_0006_2_bun",
+    "texture": "388b7543-6d7e-4089-9b90-e77494e98b82",
+    "atlas": "",
+    "rect": [
+      0,
+      225,
+      500,
+      200
+    ],
+    "offset": [
+      0,
+      -75
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

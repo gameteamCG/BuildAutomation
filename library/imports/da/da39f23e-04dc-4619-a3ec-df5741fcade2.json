@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bakery_0002_4_cakes",
+    "texture": "45666c8a-e09a-4249-b7ef-d963596f1d90",
+    "atlas": "",
+    "rect": [
+      0,
+      123,
+      500,
+      302
+    ],
+    "offset": [
+      0,
+      -24
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

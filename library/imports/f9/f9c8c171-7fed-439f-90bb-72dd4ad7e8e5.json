@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bakery_0007_0_empty_plate",
+    "texture": "07e1d0e9-ef20-45cb-a49e-007762df5d6a",
+    "atlas": "",
+    "rect": [
+      0,
+      250,
+      500,
+      175
+    ],
+    "offset": [
+      0,
+      -87.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

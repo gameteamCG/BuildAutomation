@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bakery_0005_1_jelly",
+    "texture": "5f1bfbab-a738-4942-a625-3921afe5ecde",
+    "atlas": "",
+    "rect": [
+      0,
+      142,
+      500,
+      283
+    ],
+    "offset": [
+      0,
+      -33.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

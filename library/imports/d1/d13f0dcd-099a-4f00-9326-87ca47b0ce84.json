@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bakery_0001_2_pie",
+    "texture": "5900ed9a-3155-4b3b-a4e4-333f61e94e06",
+    "atlas": "",
+    "rect": [
+      0,
+      250,
+      500,
+      175
+    ],
+    "offset": [
+      0,
+      -87.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

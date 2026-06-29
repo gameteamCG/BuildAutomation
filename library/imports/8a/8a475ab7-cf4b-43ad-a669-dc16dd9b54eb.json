@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bakery_0003_7_Coffee",
+    "texture": "4330db7a-240e-40a7-834a-93a905759295",
+    "atlas": "",
+    "rect": [
+      0,
+      164,
+      500,
+      261
+    ],
+    "offset": [
+      0,
+      -44.5
+    ],
+    "originalSize": [
+      500,
+      500
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
