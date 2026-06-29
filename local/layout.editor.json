@@ -5,21 +5,21 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -8,
-      "y": -8,
-      "width": 1552,
+      "x": 0,
+      "y": 40,
+      "width": 1536,
       "height": 832,
       "layout": {
         "type": "dock-h",
         "children": [
           {
             "width": 216.0625,
-            "height": 700.2000122070312,
+            "height": 716.2000122070312,
             "type": "dock-v",
             "children": [
               {
                 "width": 216.0625,
-                "height": 352.1000061035156,
+                "height": 360.1875,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -28,7 +28,7 @@
               },
               {
                 "width": 216.0625,
-                "height": 345.1000061035156,
+                "height": 353.01251220703125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -39,12 +39,12 @@
           },
           {
             "width": 862.2250366210938,
-            "height": 700.2000122070312,
+            "height": 716.2000122070312,
             "type": "dock-v",
             "children": [
               {
                 "width": 862.2250366210938,
-                "height": 352.1000061035156,
+                "height": 360.1875,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -53,7 +53,7 @@
               },
               {
                 "width": 862.2250366210938,
-                "height": 345.1000061035156,
+                "height": 353.01251220703125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -66,7 +66,7 @@
           },
           {
             "width": 438.1125183105469,
-            "height": 700.2000122070312,
+            "height": 716.2000122070312,
             "type": "panel",
             "active": 0,
             "children": [
@@ -88,9 +88,7 @@
         "cocos-services",
         "node-library"
       ]
-    },
-    " common-asset-worker-worker": {},
-    "window-1782302930783": {}
+    }
   },
   "panels": {
     "project-settings": {
@@ -107,7 +105,7 @@
     },
     "builder": {
       "x": 40,
-      "y": 0,
+      "y": 28,
       "width": 1440,
       "height": 816
     }

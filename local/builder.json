@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "D:\\Builds\\EYFS\\fs2_phonics\\Digraph_oi_fs2_phonics_r177_F",
+  "buildPath": "D:\\buildfiles\\EYFS\\shruti_mam\\Digraph_oi_fs2_phonics_r177",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
