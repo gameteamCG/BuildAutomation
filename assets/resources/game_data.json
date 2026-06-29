@@ -12,6 +12,7 @@
     "questionData": [
         {
             "questionText": "sound ch",
+             "answerText":"cheese",
             "questionImageName": "commonstone.png",
             "questionAudioName": "question1.mp3",
             "shouldPlayQuestionAudio": true,
@@ -32,6 +33,7 @@
         },
         {
             "questionText": "sound ch",
+             "answerText":"chin",
             "questionImageName": "commonstone.png",
             "questionAudioName": "question1.mp3",
             "shouldPlayQuestionAudio": true,
@@ -52,6 +54,7 @@
         },
         {
             "questionText": "sound ch",
+            "answerText":"chilli",
             "questionImageName": "commonstone.png",
             "questionAudioName": "question1.mp3",
             "shouldPlayQuestionAudio": true,
@@ -60,7 +63,7 @@
             "isOptionBG": true,
             "numberOfOptions": 4,
             "options": [
-                "plant.png",
+                "plant 1.png",
                 "chilli.png",
                 "rose.png",
                 "nut.png"
@@ -72,6 +75,7 @@
         },
         {
             "questionText": "sound ch",
+             "answerText":"chick",
             "questionImageName": "commonstone.png",
             "questionAudioName": "question1.mp3",
             "shouldPlayQuestionAudio": true,
@@ -92,6 +96,7 @@
         },
         {
             "questionText": "sound ch",
+             "answerText":"chess",
             "questionImageName": "commonstone.png",
             "questionAudioName": "question1.mp3",
             "shouldPlayQuestionAudio": true,
@@ -112,6 +117,7 @@
         },
         {
             "questionText": "sound ch",
+             "answerText":"chain", 
             "questionImageName": "commonstone.png",
             "questionAudioName": "question1.mp3",
             "shouldPlayQuestionAudio": true,

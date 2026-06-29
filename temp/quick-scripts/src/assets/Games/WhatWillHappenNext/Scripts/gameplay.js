@@ -63,6 +63,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.jaipuria_font = null;
         _this.tlc_font = null;
         _this.supercub_font = null;
+        _this.answerTexts = [];
         _this.isFirstClick = false;
         _this.canTouch = false;
         _this.answerArray = [];
@@ -82,6 +83,14 @@ var NewClass = /** @class */ (function (_super) {
         _this.positionArray = [];
         _this.isDone = [];
         _this.isLastTween = false;
+        _this.answerText = [
+            "cheese",
+            "chin",
+            "chilly",
+            "chick",
+            "chess",
+            "chain"
+        ];
         return _this;
     }
     NewClass.prototype.onLoad = function () {
@@ -547,6 +556,7 @@ var NewClass = /** @class */ (function (_super) {
             if (_node.name == this.answerArray[i]) {
                 iscorrect = true;
                 this.isDone[parseInt(_node.name) - 1] = true;
+                // this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
                 //console.log("iscorrect--");
                 break;
             }
@@ -556,6 +566,7 @@ var NewClass = /** @class */ (function (_super) {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
             //this.destroyOption();
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerText[globalVariables_1.default.Instance.currentLevel - 1];
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveFeedback(_node);
         }
@@ -609,6 +620,7 @@ var NewClass = /** @class */ (function (_super) {
             _this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
             _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(_this.positiveSound[0], false);
+            cc.audioEngine.setMusicVolume(1.5);
             _this.scheduleOnce(function () {
                 ProgressBar_1.default.Instance.createStarTrails(6, _this.node);
                 _this.scheduleOnce(function () {
@@ -807,7 +819,8 @@ var NewClass = /** @class */ (function (_super) {
             cc.tween(this.currentJcokey).to(0.5, { x: jockeytween[globalVariables_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
             this.scheduleOnce(function () {
                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                cc.audioEngine.playEffect(_this.positiveAudio[currentClipNum], false);
+                var id = cc.audioEngine.playEffect(_this.positiveAudio[currentClipNum], false);
+                cc.audioEngine.setVolume(id, 1.5);
                 _this.scheduleOnce(function () {
                     cc.tween(_this.currentJcokey).to(0.5, { x: pos[globalVariables_1.default.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
                     if (StartGame_1.default.Instance.jockeyName != "stallion") {
@@ -825,11 +838,13 @@ var NewClass = /** @class */ (function (_super) {
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-            cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+            var id = cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+            cc.audioEngine.setVolume(id, 1.5);
             this.scheduleOnce(function () {
                 //bird flying out sound
                 _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_out", false);
-                cc.audioEngine.playEffect(_this.tlc_birdFlying, false);
+                var id = cc.audioEngine.playEffect(_this.tlc_birdFlying, false);
+                cc.audioEngine.setVolume(id, 1.5);
                 _this.scheduleOnce(function () {
                     _this.currentJcokey.active = false;
                     _this.callNextLevel();
@@ -841,7 +856,8 @@ var NewClass = /** @class */ (function (_super) {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_start", false);
                 this.scheduleOnce(function () {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
-                    cc.audioEngine.playEffect(_this.positiveAudio[currentClipNum], false);
+                    var id = cc.audioEngine.playEffect(_this.positiveAudio[currentClipNum], false);
+                    cc.audioEngine.setVolume(id, 1.5);
                     _this.scheduleOnce(function () {
                         if (anim[currentClipNum] == "positive_1") {
                             cc.audioEngine.playEffect(_this.supercub_Pos1, false);
@@ -861,7 +877,8 @@ var NewClass = /** @class */ (function (_super) {
             }
             else {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                var id = cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                cc.audioEngine.setVolume(id, 1.5);
                 this.scheduleOnce(function () {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
                     cc.tween(_this.currentJcokey).to(2, { x: -1000 }).start();
@@ -922,7 +939,8 @@ var NewClass = /** @class */ (function (_super) {
                 cc.tween(_this.currentJcokey).to(0.5, { x: 350 }, { easing: "quartInOut" }).start();
                 _this.scheduleOnce(function () {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                    cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
+                    var id = cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
+                    cc.audioEngine.setVolume(id, 1.5);
                     _this.scheduleOnce(function () {
                         cc.tween(_this.currentJcokey).to(0.5, { x: 1200 }, { easing: "quartInOut" }).start();
                         if (StartGame_1.default.Instance.jockeyName != "stallion") {
@@ -951,9 +969,11 @@ var NewClass = /** @class */ (function (_super) {
                         _this.scheduleOnce(function () {
                             if (anim[currentClipNum] == "negative_1") {
                                 cc.audioEngine.playEffect(_this.supercub_Neg1, false);
+                                cc.audioEngine.setMusicVolume(1.5);
                             }
                             else if (anim[currentClipNum] == "negative_2") {
                                 cc.audioEngine.playEffect(_this.supercub_Neg2, false);
+                                cc.audioEngine.setMusicVolume(1.5);
                             }
                             _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                             _this.canTouch = true;
@@ -965,7 +985,8 @@ var NewClass = /** @class */ (function (_super) {
                 }
                 else {
                     _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                    cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
+                    var id = cc.audioEngine.playEffect(_this.negativeAudio[currentClipNum], false);
+                    cc.audioEngine.setVolume(id, 1.5);
                     _this.scheduleOnce(function () {
                         _this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         _this.canTouch = true;
@@ -1342,6 +1363,9 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.Font)
     ], NewClass.prototype, "supercub_font", void 0);
+    __decorate([
+        property([cc.String])
+    ], NewClass.prototype, "answerTexts", void 0);
     NewClass = __decorate([
         ccclass
     ], NewClass);

@@ -95,6 +95,10 @@ export default class NewClass extends cc.Component {
     @property(cc.Font)
     private supercub_font: cc.Font = null;
 
+    @property([cc.String])
+    private answerTexts: string[] = [];
+
+
     private isFirstClick: boolean = false;
     private canTouch: boolean = false;
     private answerArray: string[] = [];
@@ -118,6 +122,17 @@ export default class NewClass extends cc.Component {
     positionArray: cc.Vec2[] = [];
     isDone: boolean[] = [];
     isLastTween: boolean = false;
+
+
+    public answerText: string[] = [
+        "cheese",
+        "chin",
+        "chilly",
+        "chick",
+        "chess",
+        "chain"
+    ];
+
 
     onLoad() {
 
@@ -596,6 +611,8 @@ export default class NewClass extends cc.Component {
             if (_node.name == this.answerArray[i]) {
                 iscorrect = true;
                 this.isDone[parseInt(_node.name) - 1] = true;
+                // this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
+
                 //console.log("iscorrect--");
                 break;
             }
@@ -605,6 +622,7 @@ export default class NewClass extends cc.Component {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             //this.destroyOption();
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerText[globalVariables.Instance.currentLevel - 1];
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveFeedback(_node);
         }
@@ -660,6 +678,8 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("confetti").setPosition(_node.x, _node.y);
             this.node.getChildByName("confetti").getComponent(cc.Animation).play();
             cc.audioEngine.playEffect(this.positiveSound[0], false);
+            cc.audioEngine.setMusicVolume(1.5);
+
             this.scheduleOnce(() => {
                 ProgressBar.Instance.createStarTrails(6, this.node);
                 this.scheduleOnce(() => {
@@ -860,7 +880,9 @@ export default class NewClass extends cc.Component {
             cc.tween(this.currentJcokey).to(0.5, { x: jockeytween[globalVariables.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
             this.scheduleOnce(() => {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                let id = cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                cc.audioEngine.setVolume(id, 1.5);
+
                 this.scheduleOnce(() => {
                     cc.tween(this.currentJcokey).to(0.5, { x: pos[globalVariables.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
                     if (startGame.Instance.jockeyName != "stallion") {
@@ -878,11 +900,16 @@ export default class NewClass extends cc.Component {
         }
         else if (startGame.Instance.jockeyName == "tlc") {
             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-            cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+            let id = cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+            cc.audioEngine.setVolume(id, 1.5);
+
             this.scheduleOnce(() => {
                 //bird flying out sound
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_out", false);
-                cc.audioEngine.playEffect(this.tlc_birdFlying, false);
+                let id = cc.audioEngine.playEffect(this.tlc_birdFlying, false);
+                cc.audioEngine.setVolume(id, 1.5);
+
+
                 this.scheduleOnce(() => {
                     this.currentJcokey.active = false;
                     this.callNextLevel();
@@ -894,13 +921,19 @@ export default class NewClass extends cc.Component {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_start", false);
                 this.scheduleOnce(() => {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
-                    cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                    let id = cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                    cc.audioEngine.setVolume(id, 1.5);
+
+
                     this.scheduleOnce(() => {
                         if (anim[currentClipNum] == "positive_1") {
                             cc.audioEngine.playEffect(this.supercub_Pos1, false);
+
+
                         }
                         else if (anim[currentClipNum] == "positive_2") {
                             cc.audioEngine.playEffect(this.supercub_Pos2, false);
+
                         }
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                         this.scheduleOnce(() => {
@@ -915,7 +948,9 @@ export default class NewClass extends cc.Component {
             }
             else {
                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                let id = cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                cc.audioEngine.setVolume(id, 1.5);
+
                 this.scheduleOnce(() => {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
                     cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
@@ -979,7 +1014,9 @@ export default class NewClass extends cc.Component {
                 cc.tween(this.currentJcokey).to(0.5, { x: 350 }, { easing: "quartInOut" }).start();
                 this.scheduleOnce(() => {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                    cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
+                    let id = cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
+                    cc.audioEngine.setVolume(id, 1.5);
+
                     this.scheduleOnce(() => {
                         cc.tween(this.currentJcokey).to(0.5, { x: 1200 }, { easing: "quartInOut" }).start();
                         if (startGame.Instance.jockeyName != "stallion") {
@@ -1008,9 +1045,13 @@ export default class NewClass extends cc.Component {
                         this.scheduleOnce(() => {
                             if (anim[currentClipNum] == "negative_1") {
                                 cc.audioEngine.playEffect(this.supercub_Neg1, false);
+                                cc.audioEngine.setMusicVolume(1.5);
+
                             }
                             else if (anim[currentClipNum] == "negative_2") {
                                 cc.audioEngine.playEffect(this.supercub_Neg2, false);
+                                cc.audioEngine.setMusicVolume(1.5);
+
                             }
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                             this.canTouch = true;
@@ -1023,7 +1064,10 @@ export default class NewClass extends cc.Component {
                 }
                 else {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                    cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
+                    let id = cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
+                    cc.audioEngine.setVolume(id, 1.5);
+
+
                     this.scheduleOnce(() => {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         this.canTouch = true;
