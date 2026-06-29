@@ -22,8 +22,8 @@
         "numberOfOptions": 4,
         "options": [
           "Asset 46.png",
-          "Asset 45.png",
-          "waga.png",
+          "starN.png",
+          "starE.png",
           "Asset 46.png"
         ],
         "optionsBg": [
@@ -72,10 +72,10 @@
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "Asset 43.png",
-          "Asset 44.png",
-          "Asset 43.png",
-          "Asset 50.png"
+          "snailS.png",
+          "snailM.png",
+          "snailS.png",
+          "snailM.png"
         ],
         "optionsBg": [
           "",
@@ -124,8 +124,8 @@
         "numberOfOptions": 4,
         "options": [
           "Asset 48.png",
-          "Asset 49.png",
-          "Asset 47.png",
+          "sockA.png",
+          "sockX.png",
           "Asset 48.png"
         ],
         "optionsBg": [
