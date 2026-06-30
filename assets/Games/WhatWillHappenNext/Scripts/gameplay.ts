@@ -127,7 +127,7 @@ export default class NewClass extends cc.Component {
     public answerText: string[] = [
         "cheese",
         "chin",
-        "chilly",
+        "chilli",
         "chick",
         "chess",
         "chain"
@@ -622,6 +622,7 @@ export default class NewClass extends cc.Component {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             //this.destroyOption();
+            this.node.getChildByName("questionPanel").getChildByName("text1").active = false;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerText[globalVariables.Instance.currentLevel - 1];
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveFeedback(_node);

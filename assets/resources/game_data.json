@@ -11,8 +11,8 @@
     },
     "questionData": [
         {
-            "questionText": "sound ch",
-             "answerText":"cheese",
+            "questionText": "Digraph ch'",
+            "answerText": "cheese",
             "questionImageName": "commonstone.png",
             "questionAudioName": "question1.mp3",
             "shouldPlayQuestionAudio": true,
@@ -32,8 +32,8 @@
             "correctAnswerNum": "1"
         },
         {
-            "questionText": "sound ch",
-             "answerText":"chin",
+            "questionText": "Digraph ch'",
+            "answerText": "chin",
             "questionImageName": "commonstone.png",
             "questionAudioName": "question1.mp3",
             "shouldPlayQuestionAudio": true,
@@ -53,8 +53,8 @@
             "correctAnswerNum": "3"
         },
         {
-            "questionText": "sound ch",
-            "answerText":"chilli",
+            "questionText": "Digraph ch'",
+            "answerText": "chilli",
             "questionImageName": "commonstone.png",
             "questionAudioName": "question1.mp3",
             "shouldPlayQuestionAudio": true,
@@ -74,8 +74,8 @@
             "correctAnswerNum": "2"
         },
         {
-            "questionText": "sound ch",
-             "answerText":"chick",
+            "questionText": "Digraph ch'",
+            "answerText": "chick",
             "questionImageName": "commonstone.png",
             "questionAudioName": "question1.mp3",
             "shouldPlayQuestionAudio": true,
@@ -95,8 +95,8 @@
             "correctAnswerNum": "4"
         },
         {
-            "questionText": "sound ch",
-             "answerText":"chess",
+            "questionText": "Digraph ch'",
+            "answerText": "chess",
             "questionImageName": "commonstone.png",
             "questionAudioName": "question1.mp3",
             "shouldPlayQuestionAudio": true,
@@ -116,8 +116,8 @@
             "correctAnswerNum": "1"
         },
         {
-            "questionText": "sound ch",
-             "answerText":"chain", 
+            "questionText": "Digraph ch'",
+            "answerText": "chain",
             "questionImageName": "commonstone.png",
             "questionAudioName": "question1.mp3",
             "shouldPlayQuestionAudio": true,

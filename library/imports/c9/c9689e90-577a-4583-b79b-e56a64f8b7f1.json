@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "sound ch",
+        "questionText": "Digraph ch'",
         "answerText": "cheese",
         "questionImageName": "commonstone.png",
         "questionAudioName": "question1.mp3",
@@ -37,7 +37,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "sound ch",
+        "questionText": "Digraph ch'",
         "answerText": "chin",
         "questionImageName": "commonstone.png",
         "questionAudioName": "question1.mp3",
@@ -58,7 +58,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "sound ch",
+        "questionText": "Digraph ch'",
         "answerText": "chilli",
         "questionImageName": "commonstone.png",
         "questionAudioName": "question1.mp3",
@@ -79,7 +79,7 @@
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "sound ch",
+        "questionText": "Digraph ch'",
         "answerText": "chick",
         "questionImageName": "commonstone.png",
         "questionAudioName": "question1.mp3",
@@ -100,7 +100,7 @@
         "correctAnswerNum": "4"
       },
       {
-        "questionText": "sound ch",
+        "questionText": "Digraph ch'",
         "answerText": "chess",
         "questionImageName": "commonstone.png",
         "questionAudioName": "question1.mp3",
@@ -121,7 +121,7 @@
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "sound ch",
+        "questionText": "Digraph ch'",
         "answerText": "chain",
         "questionImageName": "commonstone.png",
         "questionAudioName": "question1.mp3",

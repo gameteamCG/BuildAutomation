@@ -86,7 +86,7 @@ var NewClass = /** @class */ (function (_super) {
         _this.answerText = [
             "cheese",
             "chin",
-            "chilly",
+            "chilli",
             "chick",
             "chess",
             "chain"
@@ -566,6 +566,7 @@ var NewClass = /** @class */ (function (_super) {
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
             //this.destroyOption();
+            this.node.getChildByName("questionPanel").getChildByName("text1").active = false;
             this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.answerText[globalVariables_1.default.Instance.currentLevel - 1];
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveFeedback(_node);
