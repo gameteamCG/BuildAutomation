@@ -468,7 +468,7 @@ export default class video extends cc.Component {
             }
             this.scheduleOnce(() => {
                 cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].correctAudio, false);
-                this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.correctAnim[num], false);
+                this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.questions[this.currentQuestion - 1].correctAudio.name, false);
                 if (this.attemps <= 1) {
                     this.starUpdate(this.currentQuestion - 1, true, true);
                 }
@@ -499,17 +499,12 @@ export default class video extends cc.Component {
         else {
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].wrongAudio, false);
-            // this.character.getComponent(cc.Animation).play("wrong");
-            // let num: number = this.getRandomNumber(0, this.wrongAnim.length - 1);
             let num = this.currentQuestion - 1;
             if (num > this.wrongAnim.length - 1) {
                 num -= (this.wrongAnim.length - 1);
             }
-
-            this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
-            // this.character.getChildByName("anim").getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
+            this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.questions[this.currentQuestion - 1].wrongAudio.name, false);
             this.scheduleOnce(() => {
-                // this.character.getComponent(cc.Animation).play("Idle");
                 this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             }, this.getAnimDuration(this.wrongAnim[num]));
             _event.target.getChildByName("red").active = true;

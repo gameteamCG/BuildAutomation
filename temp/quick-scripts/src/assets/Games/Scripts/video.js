@@ -466,7 +466,7 @@ var video = /** @class */ (function (_super) {
             }
             this.scheduleOnce(function () {
                 cc.audioEngine.playEffect(_this.questions[_this.currentQuestion - 1].correctAudio, false);
-                _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, _this.correctAnim[num_1], false);
+                _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, _this.questions[_this.currentQuestion - 1].correctAudio.name, false);
                 if (_this.attemps <= 1) {
                     _this.starUpdate(_this.currentQuestion - 1, true, true);
                 }
@@ -496,16 +496,12 @@ var video = /** @class */ (function (_super) {
         else {
             cc.audioEngine.stopAllEffects();
             cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].wrongAudio, false);
-            // this.character.getComponent(cc.Animation).play("wrong");
-            // let num: number = this.getRandomNumber(0, this.wrongAnim.length - 1);
             var num = this.currentQuestion - 1;
             if (num > this.wrongAnim.length - 1) {
                 num -= (this.wrongAnim.length - 1);
             }
-            this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
-            // this.character.getChildByName("anim").getComponent(sp.Skeleton).setAnimation(0, this.wrongAnim[num], false);
+            this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, this.questions[this.currentQuestion - 1].wrongAudio.name, false);
             this.scheduleOnce(function () {
-                // this.character.getComponent(cc.Animation).play("Idle");
                 _this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
             }, this.getAnimDuration(this.wrongAnim[num]));
             _event.target.getChildByName("red").active = true;
