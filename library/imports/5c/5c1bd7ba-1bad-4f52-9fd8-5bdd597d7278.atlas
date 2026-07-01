@@ -1,0 +1,188 @@
+
+Muskaan.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 666, 7
+  size: 28, 50
+  orig: 28, 50
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 1043, 124
+  size: 129, 104
+  orig: 129, 104
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 1140, 69
+  size: 43, 53
+  orig: 43, 53
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 1141, 14
+  size: 43, 53
+  orig: 43, 53
+  offset: 0, 0
+  index: -1
+13
+  rotate: true
+  xy: 502, 2
+  size: 33, 54
+  orig: 33, 54
+  offset: 0, 0
+  index: -1
+14
+  rotate: true
+  xy: 1095, 13
+  size: 53, 44
+  orig: 53, 44
+  offset: 0, 0
+  index: -1
+15
+  rotate: true
+  xy: 558, 7
+  size: 28, 52
+  orig: 28, 52
+  offset: 0, 0
+  index: -1
+16
+  rotate: true
+  xy: 612, 7
+  size: 28, 52
+  orig: 28, 52
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 1095, 68
+  size: 43, 54
+  orig: 43, 54
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 1185, 100
+  size: 43, 48
+  orig: 43, 48
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 1149, 150
+  size: 44, 49
+  orig: 44, 49
+  offset: 0, 0
+  index: -1
+Layer 104
+  rotate: true
+  xy: 1025, 11
+  size: 108, 68
+  orig: 108, 68
+  offset: 0, 0
+  index: -1
+Layer 16 copy 6
+  rotate: true
+  xy: 718, 3
+  size: 91, 52
+  orig: 91, 52
+  offset: 0, 0
+  index: -1
+Layer 16 copy 7
+  rotate: true
+  xy: 772, 3
+  size: 91, 52
+  orig: 91, 52
+  offset: 0, 0
+  index: -1
+Layer 74
+  rotate: false
+  xy: 826, 11
+  size: 127, 83
+  orig: 127, 83
+  offset: 0, 0
+  index: -1
+Layer 77
+  rotate: true
+  xy: 2, 13
+  size: 240, 498
+  orig: 240, 498
+  offset: 0, 0
+  index: -1
+Layer 79xcxc
+  rotate: false
+  xy: 685, 53
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1
+Layer 83
+  rotate: true
+  xy: 837, 113
+  size: 140, 102
+  orig: 140, 102
+  offset: 0, 0
+  index: -1
+Layer 83 copy
+  rotate: true
+  xy: 941, 121
+  size: 132, 100
+  orig: 132, 100
+  offset: 0, 0
+  index: -1
+Layer 85cxc
+  rotate: true
+  xy: 1185, 71
+  size: 27, 42
+  orig: 27, 42
+  offset: 0, 0
+  index: -1
+Layer 87 copy 2
+  rotate: true
+  xy: 955, 11
+  size: 108, 68
+  orig: 108, 68
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 685, 96
+  size: 157, 150
+  orig: 157, 150
+  offset: 0, 0
+  index: -1
+lips1
+  rotate: true
+  xy: 1149, 201
+  size: 52, 48
+  orig: 52, 48
+  offset: 0, 0
+  index: -1
+lips2
+  rotate: true
+  xy: 583, 37
+  size: 216, 55
+  orig: 216, 55
+  offset: 0, 0
+  index: -1
+lips3
+  rotate: true
+  xy: 640, 37
+  size: 216, 43
+  orig: 216, 43
+  offset: 0, 0
+  index: -1
+lips4
+  rotate: true
+  xy: 502, 37
+  size: 216, 79
+  orig: 216, 79
+  offset: 0, 0
+  index: -1

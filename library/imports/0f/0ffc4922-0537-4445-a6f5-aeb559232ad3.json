@@ -7,8 +7,8 @@
     "additionalData": {
       "GameID": "Letters and sounds Pp_NUR_SB3_16",
       "totalLevel": "5",
-      "TitleImageName": "t.png",
-      "introBgName": "Bg_1 copy.png",
+      "TitleImageName": "Asset 88 (3).png",
+      "introBgName": "Bg (14).png",
       "bgmMusicName": "BGM.mp3",
       "mainBgName": "BG_1.png",
       "JockeyName": "Puzzle"
@@ -16,7 +16,7 @@
     "questionData": [
       {
         "questionText": "Pp",
-        "questionImageName": "Hh.png",
+        "questionImageName": "new_Pp.png",
         "questionAudioName": "q.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "Questioncard.png",
@@ -31,7 +31,7 @@
       },
       {
         "questionText": "Pp",
-        "questionImageName": "Hh.png",
+        "questionImageName": "new_Pp.png",
         "questionAudioName": "q.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "2.png",
@@ -53,8 +53,8 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "Hh.png",
-          "Ee.png"
+          "new_Pp.png",
+          "new_Ee.png"
         ],
         "correctAudioName": "Sound_of_P.mp3",
         "correctAnswerNum": "1"
@@ -68,8 +68,8 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "Xx.png",
-          "Hh.png"
+          "new_Xx.png",
+          "new_Pp.png"
         ],
         "correctAudioName": "Sound_of_P.mp3",
         "correctAnswerNum": "2"
@@ -83,8 +83,8 @@
         "isOptionText": false,
         "numberOfOptions": 2,
         "options": [
-          "Ff.png",
-          "Hh.png"
+          "new_Ff.png",
+          "new_Pp.png"
         ],
         "correctAudioName": "Sound_of_P.mp3",
         "correctAnswerNum": "2"

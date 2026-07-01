@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "new_Ee",
+    "texture": "e691641d-124f-482d-b000-b9d6305c98d3",
+    "atlas": "",
+    "rect": [
+      152,
+      99,
+      206,
+      170
+    ],
+    "offset": [
+      4.5,
+      16.5
+    ],
+    "originalSize": [
+      501,
+      401
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

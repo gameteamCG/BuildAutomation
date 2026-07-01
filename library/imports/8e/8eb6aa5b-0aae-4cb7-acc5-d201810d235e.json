@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Corny",
+    "texture": "f643245d-29b4-4c5d-bb15-7a22be401b24",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      2022,
+      2042
+    ],
+    "offset": [
+      -10,
+      0
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -35,6 +35,8 @@ var startGame = /** @class */ (function (_super) {
     __extends(startGame, _super);
     function startGame() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.loadingBar = null;
+        _this.play_audio = null;
         _this.BGM_audio = null;
         _this.volume = 0.1;
         _this.NextSceneName = "1";
@@ -222,11 +224,11 @@ var startGame = /** @class */ (function (_super) {
                 _this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
                 _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.TitleImageName), function (spriteFrame) {
-                    cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
                 _this.loadSpriteFrame(_this.removeExtension(jsonData.additionalData.introBgName), function (spriteFrame) {
-                    cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    _this.introBG = spriteFrame;
+                    // cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // this.introBG = spriteFrame;
                 });
                 _this.loadAudioClip(_this.removeAudioExtension(jsonData.additionalData.bgmMusicName), function (AudioClip) {
                     _this.BGM_audio = AudioClip;
@@ -349,9 +351,9 @@ var startGame = /** @class */ (function (_super) {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
-                _this.scheduleOnce(function () {
-                    cc.director.loadScene("1");
-                }, 2);
+                // this.scheduleOnce(() => {
+                //     cc.director.loadScene("1");
+                // }, 2);
             }
         }, 1);
         // this.OnTimer();
@@ -408,8 +410,32 @@ var startGame = /** @class */ (function (_super) {
             callback(spriteFrame);
         });
     };
+    startGame.prototype.OnStartGame = function (_event) {
+        cc.audioEngine.playEffect(this.play_audio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        _event.target.active = false;
+        this.loadSceneWithProgress();
+    };
+    startGame.prototype.loadSceneWithProgress = function () {
+        var _this = this;
+        if (this.loadingBar) {
+            this.loadingBar.node.active = true;
+        }
+        cc.director.preloadScene(this.NextSceneName, function (completedCount, totalCount) {
+            var progress = completedCount / totalCount;
+            _this.loadingBar.progress = progress;
+        }, function () {
+            cc.director.loadScene(_this.NextSceneName);
+        });
+    };
     var startGame_1;
     startGame.instance = null;
+    __decorate([
+        property(cc.ProgressBar)
+    ], startGame.prototype, "loadingBar", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], startGame.prototype, "play_audio", void 0);
     __decorate([
         property(cc.AudioClip)
     ], startGame.prototype, "BGM_audio", void 0);
