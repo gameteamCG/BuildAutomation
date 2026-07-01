@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "christC",
+    "texture": "b3a96f9f-ebd9-4e18-b990-8d193d8f06ad",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      300,
+      301
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      300,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

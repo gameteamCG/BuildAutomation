@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TajC",
+    "texture": "170d24e7-5758-4d6f-809a-b009213e338d",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      300,
+      301
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

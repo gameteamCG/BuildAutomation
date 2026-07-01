@@ -40,6 +40,7 @@ var endScreen = /** @class */ (function (_super) {
         _this.jaipuriaEnd = null;
         _this.tlcEnd = null;
         _this.supercubEnd = null;
+        _this.star = null;
         return _this;
         // update (dt) {}
     }
@@ -50,6 +51,7 @@ var endScreen = /** @class */ (function (_super) {
         }, 2);
     };
     endScreen.prototype.start = function () {
+        var _this = this;
         if (globalVariables_1.default.Instance.jockeyName == "Podar") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
         }
@@ -62,6 +64,18 @@ var endScreen = /** @class */ (function (_super) {
         else if (globalVariables_1.default.Instance.jockeyName == "supercub") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
         }
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("awesome").getChildByName("1").active = true;
+            cc.audioEngine.playEffect(_this.star, false);
+            _this.scheduleOnce(function () {
+                _this.node.getChildByName("awesome").getChildByName("2").active = true;
+                cc.audioEngine.playEffect(_this.star, false);
+                _this.scheduleOnce(function () {
+                    _this.node.getChildByName("awesome").getChildByName("3").active = true;
+                    cc.audioEngine.playEffect(_this.star, false);
+                }, 0.8);
+            }, 0.4);
+        }, 0.1);
     };
     __decorate([
         property(cc.SpriteFrame)
@@ -75,6 +89,9 @@ var endScreen = /** @class */ (function (_super) {
     __decorate([
         property(cc.SpriteFrame)
     ], endScreen.prototype, "supercubEnd", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], endScreen.prototype, "star", void 0);
     endScreen = __decorate([
         ccclass
     ], endScreen);

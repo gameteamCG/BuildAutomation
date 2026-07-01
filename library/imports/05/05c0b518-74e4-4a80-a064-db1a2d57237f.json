@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "petraC",
+    "texture": "4a0b2c82-c255-4c09-867e-45937df4c5ba",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      300,
+      300
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      300,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

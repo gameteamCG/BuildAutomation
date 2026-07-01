@@ -21,7 +21,8 @@ export default class endScreen extends cc.Component {
     private tlcEnd: cc.SpriteFrame = null;
     @property(cc.SpriteFrame)
     private supercubEnd: cc.SpriteFrame = null;
-
+    @property(cc.AudioClip)
+    private star: cc.AudioClip = null;
     onLoad() {
         console.log("showedScreen--wellDone");
         this.scheduleOnce(() => {
@@ -43,6 +44,19 @@ export default class endScreen extends cc.Component {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
         }
 
+        this.scheduleOnce(() => {
+            this.node.getChildByName("awesome").getChildByName("1").active = true;
+            cc.audioEngine.playEffect(this.star, false);
+            this.scheduleOnce(() => {
+                this.node.getChildByName("awesome").getChildByName("2").active = true;
+                cc.audioEngine.playEffect(this.star, false);
+                this.scheduleOnce(() => {
+                    this.node.getChildByName("awesome").getChildByName("3").active = true;
+                    cc.audioEngine.playEffect(this.star, false);
+
+                }, 0.8)
+            }, 0.4)
+        }, 0.1)
     }
 
     // update (dt) {}

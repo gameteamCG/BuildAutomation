@@ -5,17 +5,17 @@
     "texture": "4a3833a0-a83d-4c74-a074-5a15dab3b82e",
     "atlas": "",
     "rect": [
-      2,
+      3,
       7,
-      531,
-      96
+      489,
+      97
     ],
     "offset": [
       -0.5,
-      1.5
+      1
     ],
     "originalSize": [
-      536,
+      496,
       113
     ],
     "capInsets": [

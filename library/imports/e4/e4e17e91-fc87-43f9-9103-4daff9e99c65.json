@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greatwallC",
+    "texture": "eefc589e-3f24-49eb-9b6e-5547010146c5",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      300,
+      301
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

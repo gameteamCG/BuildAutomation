@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "machupC",
+    "texture": "67b80e2e-4bbc-45ac-860b-205237257936",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      300,
+      300
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

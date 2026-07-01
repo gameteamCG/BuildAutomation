@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TajOL",
+    "texture": "80a2a03f-212b-492e-a48b-500f2e8c266a",
+    "atlas": "",
+    "rect": [
+      25,
+      50,
+      451,
+      400
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      501,
+      501
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

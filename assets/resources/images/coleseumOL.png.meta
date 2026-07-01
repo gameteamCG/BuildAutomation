@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5d142108-b20e-483d-99d4-60a1c8581b14",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 501,
+  "height": 501,
+  "platformSettings": {},
+  "subMetas": {
+    "coleseumOL": {
+      "ver": "1.0.6",
+      "uuid": "03b71241-843a-440f-b820-cd81145407b7",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5d142108-b20e-483d-99d4-60a1c8581b14",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 25,
+      "trimY": 107,
+      "width": 451,
+      "height": 287,
+      "rawWidth": 501,
+      "rawHeight": 501,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

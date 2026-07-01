@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "coleseumC",
+    "texture": "1ad4ac61-a6a8-4bd7-ab6a-bfb8e85f734f",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      300,
+      301
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
