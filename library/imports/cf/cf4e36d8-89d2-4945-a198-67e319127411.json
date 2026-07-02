@@ -1508,8 +1508,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 80,
-    "_lineHeight": 110,
+    "_fontSize": 70,
+    "_lineHeight": 75,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "d9348f57-e185-484c-b22d-019c41022ac4"
@@ -1566,8 +1566,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        247.76,
-        -146.64,
+        249.401,
+        -149.265,
         0,
         0,
         0,
