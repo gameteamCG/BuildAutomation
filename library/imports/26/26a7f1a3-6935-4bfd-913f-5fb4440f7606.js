@@ -52,6 +52,8 @@ var GamePlay = /** @class */ (function (_super) {
         _this.DrawingDataArray = [];
         _this.clickAud = null;
         _this.currentDrawing = null;
+        _this.loading = null;
+        _this.play_audio = null;
         _this.questionNode = null;
         _this.hand = null;
         _this.podar_font = null;
@@ -265,6 +267,9 @@ var GamePlay = /** @class */ (function (_super) {
             }
         }, duration);
     };
+    GamePlay.prototype.playButtonSound = function () {
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
+    };
     GamePlay.prototype.loadSpriteFrame = function (imageName, callback) {
         cc.loader.loadRes("images/" + imageName, cc.SpriteFrame, function (err, spriteFrame) {
             if (err) {
@@ -302,6 +307,12 @@ var GamePlay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], GamePlay.prototype, "clickAud", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GamePlay.prototype, "loading", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], GamePlay.prototype, "play_audio", void 0);
     __decorate([
         property(cc.Node)
     ], GamePlay.prototype, "questionNode", void 0);

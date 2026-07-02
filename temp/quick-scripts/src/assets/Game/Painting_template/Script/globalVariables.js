@@ -57,7 +57,6 @@ var globalVariables = /** @class */ (function (_super) {
         configurable: true
     });
     globalVariables.prototype.start = function () {
-        var _this = this;
         var url_string = window.location.href;
         var url = new URL(url_string);
         var demo = url.searchParams.get("isdemo");
@@ -67,7 +66,7 @@ var globalVariables = /** @class */ (function (_super) {
         }
         this.updateJSONdata();
         this.scheduleOnce(function () {
-            _this.StartGame();
+            //this.StartGame();
         }, 2);
         if (this.jockeyName == "Podar") {
             this.node.getChildByName("intro").getChildByName("bg").getChildByName("podar").active = true;

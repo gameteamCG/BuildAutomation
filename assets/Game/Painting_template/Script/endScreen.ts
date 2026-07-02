@@ -21,9 +21,11 @@ export default class endScreen extends cc.Component {
     private tlcEnd: cc.SpriteFrame = null;
     @property(cc.SpriteFrame)
     private supercubEnd: cc.SpriteFrame = null;
+    @property(cc.AudioClip)
+    private star: cc.AudioClip = null;
 
     onLoad() {
-        this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables.Instance.mainBg;
+        //this.node.getChildByName("bgimg").getComponent(cc.Sprite).spriteFrame = globalVariables.Instance.mainBg;
         console.log("showedScreen--wellDone");
         this.scheduleOnce(() => {
             console.log("gameEnded--true");
@@ -43,10 +45,31 @@ export default class endScreen extends cc.Component {
         else if (globalVariables.Instance.jockeyName == "supercub") {
             this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
         }
+        this.scheduleOnce(() => {
+            this.node.getChildByName("awesome").getChildByName("1").active = true;
+            cc.audioEngine.playEffect(this.star, false);
+            this.scheduleOnce(() => {
+                this.node.getChildByName("awesome").getChildByName("2").active = true;
+                cc.audioEngine.playEffect(this.star, false);
+                this.scheduleOnce(() => {
+                    this.node.getChildByName("awesome").getChildByName("3").active = true;
+                    cc.audioEngine.playEffect(this.star, false);
+                    this.scheduleOnce(() => {
+                        this.node.getChildByName("end").active = true;
+                    }, this.star.duration)
+                }, 0.8)
+            }, 0.4)
+        }, 0.1)
+        //this.node.getChildByName("jockey").getChildByName(globalVariables.Instance.jockeyName).active = true;
 
-        this.node.getChildByName("jockey").getChildByName(globalVariables.Instance.jockeyName).active = true;
-
+    }
+    EndButton() {
+        closeWindow();
     }
 
     // update (dt) {}
+}
+const closeWindow = () => {
+    window.open(location.href, "_self", "");
+    window.close()
 }

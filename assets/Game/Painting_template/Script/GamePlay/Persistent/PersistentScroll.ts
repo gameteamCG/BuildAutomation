@@ -9,6 +9,7 @@ import CommonFun from "../../Common/CommonFun";
 import configData from "../../Common/ConfigController";
 import { Constant } from "../../Common/Constant";
 import Global from "../../Common/Global";
+import GamePlay from "../GamePlay";
 import TileSelection from "../TileSelection";
 
 const { ccclass, property } = cc._decorator;
@@ -75,7 +76,8 @@ export default class PersistentScroll extends cc.Component {
     hand: cc.Node = null;
     @property(cc.Node)
     tickBtn: cc.Node = null;
-
+    @property(cc.AudioClip)
+    private QVo: cc.AudioClip = null;
     @property(TileSelectionList)
     TileSelectionListArray: TileSelectionList[] = [];
 
@@ -335,7 +337,9 @@ export default class PersistentScroll extends cc.Component {
         }
     }
 
-
+    playButtonSound() {
+        cc.audioEngine.playEffect(this.QVo, false);
+    }
     onTileSelected(ref) {
         cc.audioEngine.playEffect(this.scrollAud, false);
         if (this.isScrolled) {

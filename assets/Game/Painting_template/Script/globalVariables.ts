@@ -71,7 +71,7 @@ export default class globalVariables extends cc.Component {
         }
         this.updateJSONdata();
         this.scheduleOnce(() => {
-            this.StartGame();
+            //this.StartGame();
         }, 2);
         if (this.jockeyName == "Podar") {
             this.node.getChildByName("intro").getChildByName("bg").getChildByName("podar").active = true;

@@ -27,7 +27,10 @@ export default class GamePlay extends cc.Component {
     clickAud: cc.AudioClip = null;
 
     currentDrawing = null;
-
+    @property(cc.Node)
+    loading: cc.Node = null;
+    @property(cc.AudioClip)
+    play_audio: cc.AudioClip = null;
     @property(cc.Node)
     questionNode: cc.Node = null;
     @property(cc.Node)
@@ -264,7 +267,9 @@ export default class GamePlay extends cc.Component {
             }
         }, duration);
     }
-
+    playButtonSound() {
+        cc.audioEngine.playEffect(this.question_audios[this.currentLevel], false);
+    }
     loadSpriteFrame(imageName: string, callback: (spriteFrame: cc.SpriteFrame) => void) {
         cc.loader.loadRes("images/" + imageName, cc.SpriteFrame, (err, spriteFrame) => {
             if (err) {

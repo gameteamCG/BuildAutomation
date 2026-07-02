@@ -132,6 +132,7 @@ var PersistentScroll = /** @class */ (function (_super) {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.hand = null;
         _this.tickBtn = null;
+        _this.QVo = null;
         _this.TileSelectionListArray = [];
         _this.rightNode = null;
         _this.ToolArray = [];
@@ -324,6 +325,9 @@ var PersistentScroll = /** @class */ (function (_super) {
             this.TileArray.unshift(data);
             this.checkIfTileFilledOnTop(this.TileArray[0], currentArray);
         }
+    };
+    PersistentScroll.prototype.playButtonSound = function () {
+        cc.audioEngine.playEffect(this.QVo, false);
     };
     PersistentScroll.prototype.onTileSelected = function (ref) {
         cc.audioEngine.playEffect(this.scrollAud, false);
@@ -534,6 +538,9 @@ var PersistentScroll = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], PersistentScroll.prototype, "tickBtn", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], PersistentScroll.prototype, "QVo", void 0);
     __decorate([
         property(TileSelectionList)
     ], PersistentScroll.prototype, "TileSelectionListArray", void 0);

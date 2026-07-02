@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "My home design_Nursery_GA_26",
+      "totalLevel": "1",
+      "TitleImageName": "Asset652.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "bgm1.mp3",
+      "initialVOName": "",
+      "mainBgName": "Asset11162.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "My home design",
+        "questionImageName": "",
+        "questionAudioName": "gkdfzc.mp3",
+        "shouldPlayQuestionAudio": true,
+        "pictureImageName": "Asset23f17.png",
+        "needMoreTools": false,
+        "correctAudioName": "GoodP.mp3"
+      }
+    ]
+  }
+}
