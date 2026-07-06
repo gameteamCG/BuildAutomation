@@ -29,7 +29,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
@@ -52,7 +52,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.questionAudio = null;
         _this.correctAudio = null;
         _this.wrongAudio = null;
-        _this.reiterationAudio = [];
+        _this.reiterationAudio = null;
         _this.currentJockey = null;
         _this.maxLevel = 0;
         return _this;
@@ -126,19 +126,11 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 _this.wrongAudio = audioClip;
             });
+            this.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].reiterationAudioName, function (AudioClip) {
+                console.log("Loaded reiteration:", AudioClip);
+                _this.reiterationAudio = AudioClip;
+            });
             var _loop_1 = function (i) {
-                cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].reiterationAudioName[i], function (err, audioClip) {
-                    if (err) {
-                        console.error("Failed to load audio clip:", err);
-                        return;
-                    }
-                    _this.reiterationAudio[i] = audioClip;
-                });
-            };
-            for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].reiterationAudioName.length; i++) {
-                _loop_1(i);
-            }
-            var _loop_2 = function (i) {
                 if (!StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].isOptionText) {
                     // console.log("option img = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
                     cc.loader.load(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i], function (err, texture) {
@@ -165,7 +157,7 @@ var Gameplay = /** @class */ (function (_super) {
             };
             var this_1 = this;
             for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
-                _loop_2(i);
+                _loop_1(i);
             }
         }
         else {
@@ -181,31 +173,26 @@ var Gameplay = /** @class */ (function (_super) {
             this.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].wrongAudioName, function (AudioClip) {
                 _this.wrongAudio = AudioClip;
             });
-            var _loop_3 = function (i) {
-                this_2.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].reiterationAudioName[i], function (AudioClip) {
-                    _this.reiterationAudio[i] = AudioClip;
-                });
-            };
-            var this_2 = this;
-            for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].reiterationAudioName.length; i++) {
-                _loop_3(i);
-            }
-            var _loop_4 = function (i) {
+            this.loadAudioClip(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].reiterationAudioName, function (AudioClip) {
+                console.log("Loaded reiteration:", AudioClip);
+                _this.reiterationAudio = AudioClip;
+            });
+            var _loop_2 = function (i) {
                 if (!StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].isOptionText) {
-                    this_3.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i], function (spriteFrame) {
+                    this_2.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i], function (spriteFrame) {
                         _this.options.getChildByName((i + 1).toString()).getChildByName("img").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     });
                 }
                 else {
-                    this_3.options.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
+                    this_2.options.getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].options[i];
                 }
-                this_3.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].optionsBg[i], function (spriteFrame) {
+                this_2.loadSpriteFrame(StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].optionsBg[i], function (spriteFrame) {
                     _this.options.getChildByName((i + 1).toString()).getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
             };
-            var this_3 = this;
+            var this_2 = this;
             for (var i = 0; i < StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions; i++) {
-                _loop_4(i);
+                _loop_2(i);
             }
         }
         this.currentJockey = StartGame_1.default.Instance.jockey.getChildByName(StartGame_1.default.Instance.jockeyName);
@@ -224,7 +211,7 @@ var Gameplay = /** @class */ (function (_super) {
             }
             if (_this.optionsLayout == "layout1") {
                 var delay = 0;
-                var _loop_5 = function (i) {
+                var _loop_3 = function (i) {
                     _this.options.children[i].active = false;
                     _this.options.children[i].opacity = 255;
                     _this.options.setPosition(0, 0);
@@ -239,7 +226,7 @@ var Gameplay = /** @class */ (function (_super) {
                     delay += 0.35;
                 };
                 for (var i = 0; i < _this.options.children.length; i++) {
-                    _loop_5(i);
+                    _loop_3(i);
                 }
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout1, _this);
@@ -251,7 +238,7 @@ var Gameplay = /** @class */ (function (_super) {
                 _this.node.getChildByName("rope").active = true;
                 // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
                 var delay = 0;
-                var _loop_6 = function (i) {
+                var _loop_4 = function (i) {
                     _this.scheduleOnce(function () {
                         cc.audioEngine.playEffect(_this.pop_audio, false);
                         cc.tween(_this.options.children[i]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
@@ -259,7 +246,7 @@ var Gameplay = /** @class */ (function (_super) {
                     delay += 0.25;
                 };
                 for (var i = 0; i < _this.options.children.length; i++) {
-                    _loop_6(i);
+                    _loop_4(i);
                 }
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout2, _this);
@@ -267,7 +254,7 @@ var Gameplay = /** @class */ (function (_super) {
             }
             else if (_this.optionsLayout == "layout3") {
                 var delay = 0;
-                var _loop_7 = function (i) {
+                var _loop_5 = function (i) {
                     _this.scheduleOnce(function () {
                         cc.audioEngine.playEffect(_this.pop_audio, false);
                         cc.tween(_this.options.children[i]).to(0.5, { opacity: 255 }, { easing: "sineInOut" }).start();
@@ -275,7 +262,7 @@ var Gameplay = /** @class */ (function (_super) {
                     delay += 0.25;
                 };
                 for (var i = 0; i < _this.options.children.length; i++) {
-                    _loop_7(i);
+                    _loop_5(i);
                 }
                 _this.options.children.forEach(function (element) {
                     element.on(cc.Node.EventType.TOUCH_START, _this.onTouchStart_layout3, _this);
@@ -294,6 +281,9 @@ var Gameplay = /** @class */ (function (_super) {
             }, 1);
         }, 1);
     };
+    Gameplay.prototype.playButttonSound = function () {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    };
     Gameplay.prototype.generateOptions = function (_template, _optionParent, _optionCount) {
         for (var i = 0; i < _optionCount; i++) {
             var _option = cc.instantiate(_template);
@@ -304,13 +294,13 @@ var Gameplay = /** @class */ (function (_super) {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            this.arrangeGridChildren(this.options, 50, _optionCount);
         }
         else {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 100, -100, 0, 50];
+            var _laypout1posY = [-150, 0, -100, 0, 50];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }
@@ -341,16 +331,11 @@ var Gameplay = /** @class */ (function (_super) {
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
-                if (_this.reiterationAudio[audioNum]) {
-                    cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
+                if (_this.reiterationAudio) {
+                    cc.audioEngine.playEffect(_this.reiterationAudio, false);
                 }
-                else if (_this.reiterationAudio[0]) {
-                    cc.audioEngine.playEffect(_this.reiterationAudio[0], false);
-                }
-                node.active = false;
                 if (_this.correctCounter == _this.correctAnswer.length) {
                     console.log("all the options are answered correctly");
-                    cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
                     _this.LoadNextQuestion();
                 }
                 else {
@@ -396,35 +381,34 @@ var Gameplay = /** @class */ (function (_super) {
             node.getComponent(cc.Animation).stop();
             node.angle = 0;
             this.correctCounter++;
-            var _clone_1 = cc.instantiate(node);
-            _clone_1.parent = node;
-            _clone_1.setPosition(0, 0);
+            var _clone = cc.instantiate(node);
+            _clone.parent = node;
+            _clone.setPosition(0, 0);
             var _parentNode = this.node.getChildByName("basket").getChildByName("answered").getChildByName(this.correctCounter.toString());
-            _clone_1.setParentWithSamePos(_parentNode);
+            _clone.setParentWithSamePos(_parentNode);
             node.active = false;
-            _clone_1.getComponent(cc.Animation).stop();
-            _clone_1.angle = 0;
-            var pos = _clone_1.getPosition();
-            cc.tween(_clone_1).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
-            this.scheduleOnce(function () {
-                _clone_1.getComponent(cc.Animation).stop();
-                _clone_1.angle = 0;
+            _clone.getComponent(cc.Animation).stop();
+            _clone.angle = 0;
+            var pos = _clone.getPosition();
+            cc.tween(node)
+                .to(1, { y: 1200 }, { easing: "sineInOut" })
+                .call(function () {
                 if (_this.reiterationAudio[audioNum]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
                 }
                 else if (_this.reiterationAudio[0]) {
                     cc.audioEngine.playEffect(_this.reiterationAudio[0], false);
                 }
+                node.active = false;
                 if (_this.correctCounter == _this.correctAnswer.length) {
                     console.log("all the options are answered correctly");
-                    cc.tween(_this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
+                    cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
                     _this.LoadNextQuestion();
-                    // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
                 }
                 else {
                     _this.canTouch = true;
                 }
-            }, 1);
+            }).start();
             // cc.tween(_clone)
             //     .to(1, { x: 0, y: 0 }, { easing: "sineInOut" })
             //     .call(() => {
@@ -476,16 +460,12 @@ var Gameplay = /** @class */ (function (_super) {
             cc.tween(_clone.children[0])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
                 .call(function () {
-                if (_this.reiterationAudio[audioNum]) {
-                    cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
-                }
-                else if (_this.reiterationAudio[0]) {
-                    cc.audioEngine.playEffect(_this.reiterationAudio[0], false);
+                if (_this.reiterationAudio) {
+                    cc.audioEngine.playEffect(_this.reiterationAudio, false);
                 }
                 if (_this.correctCounter == _this.correctAnswer.length) {
                     console.log("all the options are answered correctly");
                     _this.LoadNextQuestion();
-                    // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
                 }
                 else {
                     _this.canTouch = true;

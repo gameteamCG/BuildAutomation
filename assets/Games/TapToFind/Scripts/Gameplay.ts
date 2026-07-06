@@ -5,7 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -43,7 +44,7 @@ export default class Gameplay extends cc.Component {
     private questionAudio: cc.AudioClip = null;
     private correctAudio: cc.AudioClip = null;
     private wrongAudio: cc.AudioClip = null;
-    private reiterationAudio: cc.AudioClip[] = [];
+    private reiterationAudio: cc.AudioClip = null;
 
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
@@ -121,15 +122,14 @@ export default class Gameplay extends cc.Component {
                 }
                 this.wrongAudio = audioClip;
             });
-            for (let i = 0; i < startGame.Instance.questions[startGame.Instance.currentLevel - 1].reiterationAudioName.length; i++) {
-                cc.loader.load(startGame.Instance.questions[startGame.Instance.currentLevel - 1].reiterationAudioName[i], (err, audioClip) => {
-                    if (err) {
-                        console.error("Failed to load audio clip:", err);
-                        return;
-                    }
-                    this.reiterationAudio[i] = audioClip;
-                });
-            }
+
+            this.loadAudioClip(
+                startGame.Instance.questions[startGame.Instance.currentLevel - 1].reiterationAudioName,
+                (AudioClip) => {
+                    console.log("Loaded reiteration:", AudioClip);
+                    this.reiterationAudio = AudioClip;
+                }
+            );
             for (let i = 0; i < startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions; i++) {
                 if (!startGame.Instance.questions[startGame.Instance.currentLevel - 1].isOptionText) {
                     // console.log("option img = ", startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i]);
@@ -169,11 +169,13 @@ export default class Gameplay extends cc.Component {
             this.loadAudioClip(startGame.Instance.questions[startGame.Instance.currentLevel - 1].wrongAudioName, (AudioClip) => {
                 this.wrongAudio = AudioClip;
             });
-            for (let i = 0; i < startGame.Instance.questions[startGame.Instance.currentLevel - 1].reiterationAudioName.length; i++) {
-                this.loadAudioClip(startGame.Instance.questions[startGame.Instance.currentLevel - 1].reiterationAudioName[i], (AudioClip) => {
-                    this.reiterationAudio[i] = AudioClip;
-                });
-            }
+            this.loadAudioClip(
+                startGame.Instance.questions[startGame.Instance.currentLevel - 1].reiterationAudioName,
+                (AudioClip) => {
+                    console.log("Loaded reiteration:", AudioClip);
+                    this.reiterationAudio = AudioClip;
+                }
+            );
 
             for (let i = 0; i < startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions; i++) {
                 if (!startGame.Instance.questions[startGame.Instance.currentLevel - 1].isOptionText) {
@@ -270,7 +272,9 @@ export default class Gameplay extends cc.Component {
             }, 1);
         }, 1);
     }
-
+    playButttonSound() {
+        cc.audioEngine.playEffect(this.questionAudio, false);
+    }
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
         for (let i = 0; i < _optionCount; i++) {
             let _option: cc.Node = cc.instantiate(_template);
@@ -281,13 +285,13 @@ export default class Gameplay extends cc.Component {
             _option.name = (i + 1).toString();
         }
         if (this.optionsLayout == "layout3") {
-            this.arrangeGridChildren(this.options, 80, _optionCount);
+            this.arrangeGridChildren(this.options, 50, _optionCount);
         }
         else {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posY: number[] = [-150, 100, -100, 0, 50];
+            let _laypout1posY: number[] = [-150, 0, -100, 0, 50];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }
@@ -320,16 +324,12 @@ export default class Gameplay extends cc.Component {
             cc.tween(node)
                 .to(1, { y: 1200 }, { easing: "sineInOut" })
                 .call(() => {
-                    if (this.reiterationAudio[audioNum]) {
-                        cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
+                    if (this.reiterationAudio) {
+                        cc.audioEngine.playEffect(this.reiterationAudio, false);
                     }
-                    else if (this.reiterationAudio[0]) {
-                        cc.audioEngine.playEffect(this.reiterationAudio[0], false);
-                    }
-                    node.active = false;
+
                     if (this.correctCounter == this.correctAnswer.length) {
                         console.log("all the options are answered correctly");
-                        cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
                         this.LoadNextQuestion();
                     }
                     else {
@@ -386,26 +386,25 @@ export default class Gameplay extends cc.Component {
             _clone.getComponent(cc.Animation).stop();
             _clone.angle = 0;
             let pos = _clone.getPosition();
-            cc.tween(_clone).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
-            this.scheduleOnce(() => {
-                _clone.getComponent(cc.Animation).stop();
-                _clone.angle = 0;
-                if (this.reiterationAudio[audioNum]) {
-                    cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
-                }
-                else if (this.reiterationAudio[0]) {
-                    cc.audioEngine.playEffect(this.reiterationAudio[0], false);
-                }
-                if (this.correctCounter == this.correctAnswer.length) {
-                    console.log("all the options are answered correctly");
-                    cc.tween(this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
-                    this.LoadNextQuestion();
-                    // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
-                }
-                else {
-                    this.canTouch = true;
-                }
-            }, 1);
+            cc.tween(node)
+                .to(1, { y: 1200 }, { easing: "sineInOut" })
+                .call(() => {
+                    if (this.reiterationAudio[audioNum]) {
+                        cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
+                    }
+                    else if (this.reiterationAudio[0]) {
+                        cc.audioEngine.playEffect(this.reiterationAudio[0], false);
+                    }
+                    node.active = false;
+                    if (this.correctCounter == this.correctAnswer.length) {
+                        console.log("all the options are answered correctly");
+                        cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
+                        this.LoadNextQuestion();
+                    }
+                    else {
+                        this.canTouch = true;
+                    }
+                }).start();
             // cc.tween(_clone)
             //     .to(1, { x: 0, y: 0 }, { easing: "sineInOut" })
             //     .call(() => {
@@ -458,16 +457,13 @@ export default class Gameplay extends cc.Component {
             cc.tween(_clone.children[0])
                 .to(1, { opacity: 255 }, { easing: "sineInOut" })
                 .call(() => {
-                    if (this.reiterationAudio[audioNum]) {
-                        cc.audioEngine.playEffect(this.reiterationAudio[audioNum], false);
+                    if (this.reiterationAudio) {
+                        cc.audioEngine.playEffect(this.reiterationAudio, false);
                     }
-                    else if (this.reiterationAudio[0]) {
-                        cc.audioEngine.playEffect(this.reiterationAudio[0], false);
-                    }
+
                     if (this.correctCounter == this.correctAnswer.length) {
                         console.log("all the options are answered correctly");
                         this.LoadNextQuestion();
-                        // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
                     }
                     else {
                         this.canTouch = true;
