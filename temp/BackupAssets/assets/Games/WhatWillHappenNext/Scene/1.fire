@@ -636,8 +636,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 350,
-      "height": 350
+      "width": 450,
+      "height": 450
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1505,13 +1505,13 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "",
-    "_N$string": "",
+    "_string": "Up and down",
+    "_N$string": "Up and down",
     "_fontSize": 80,
     "_lineHeight": 110,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "d9348f57-e185-484c-b22d-019c41022ac4"
+      "__uuid__": "f5b53d31-188b-45f3-b64c-aa062d1e4ddd"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
