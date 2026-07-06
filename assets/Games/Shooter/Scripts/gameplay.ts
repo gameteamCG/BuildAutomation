@@ -1,5 +1,5 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 import optionscript from "./optionscript";
@@ -672,7 +672,7 @@ export default class NewClass extends cc.Component {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
             }
             else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "tortoise") {
-                anim = ["negative_1", "negative_2", "negative_3"];
+                anim = ["negative_1", "negative_2"];
             }
             else if (startGame.Instance.jockeyName == "cryon") {
                 anim = ["negative_1", "negative_2", "negative_3"];

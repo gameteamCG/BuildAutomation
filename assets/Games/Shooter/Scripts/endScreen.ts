@@ -25,23 +25,23 @@ export default class NewClass extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon" || startGame.Instance.jockeyName == "tortoise") {
-            this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
-            this.scheduleOnce(() => {
-                this.node.getChildByName("end").active = true;
-            }, 2);
-        }
+        // if (startGame.Instance.jockeyName == "Podar") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.podarEnd;
+        // }
+        // else if (startGame.Instance.jockeyName == "tlc") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.tlcEnd;
+        // }
+        // else if (startGame.Instance.jockeyName == "supercub") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.supercubEnd;
+        // }
+        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon" || startGame.Instance.jockeyName == "tortoise") {
+        //     this.node.getChildByName("awesome").getComponent(cc.Sprite).spriteFrame = this.jaipuriaEnd;
+        //     this.scheduleOnce(() => {
+        //         this.node.getChildByName("end").active = true;
+        //     }, 2);
+        // }
 
-        this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
+        // this.node.getComponent(cc.Sprite).spriteFrame = startGame.Instance.introBG;
     }
 
     start() {
@@ -55,21 +55,21 @@ export default class NewClass extends cc.Component {
             this.node.getComponent(cc.AudioSource).clip = this.star[0];
             this.node.getComponent(cc.AudioSource).play();
             cc.tween(this.node.getChildByName("star1"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.7 }, { easing: "sineInOut" }).start();
         }, 0.8);
 
         this.scheduleOnce(() => {
             this.node.getComponent(cc.AudioSource).clip = this.star[0];
             this.node.getComponent(cc.AudioSource).play();
             cc.tween(this.node.getChildByName("star2"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.7 }, { easing: "sineInOut" }).start();
         }, 1.3);
 
         this.scheduleOnce(() => {
             this.node.getComponent(cc.AudioSource).clip = this.star[0];
             this.node.getComponent(cc.AudioSource).play();
             cc.tween(this.node.getChildByName("star3"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
+                .to(0.5, { scale: 0.7 }, { easing: "sineInOut" }).start();
         }, 1.8);
 
         this.scheduleOnce(() => {

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Copy of Asset 23",
+    "texture": "5e4f01fb-088a-49a4-b7c7-c200c9dbfaaf",
+    "atlas": "",
+    "rect": [
+      4,
+      7,
+      242,
+      96
+    ],
+    "offset": [
+      0.5,
+      1.5
+    ],
+    "originalSize": [
+      249,
+      113
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

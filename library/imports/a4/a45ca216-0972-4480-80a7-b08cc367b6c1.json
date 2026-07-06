@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "LKG_cloud",
+    "texture": "6fc81765-cd3e-44f0-9bf2-30f26d5eec4f",
+    "atlas": "",
+    "rect": [
+      21,
+      26,
+      1004,
+      658
+    ],
+    "offset": [
+      0.5,
+      -3
+    ],
+    "originalSize": [
+      1045,
+      704
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

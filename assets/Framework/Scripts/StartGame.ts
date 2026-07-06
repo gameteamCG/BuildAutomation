@@ -344,6 +344,9 @@ export default class startGame extends cc.Component {
 
 
         cc.director.preloadScene(this.NextSceneName);
+        this.scheduleOnce(() => {
+            cc.director.loadScene(this.NextSceneName);
+        }, 2);
 
         this.scheduleOnce(() => {
             console.log("jockey name = ", this.jockeyName);

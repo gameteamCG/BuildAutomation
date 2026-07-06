@@ -312,6 +312,9 @@ var startGame = /** @class */ (function (_super) {
         }
         cc.director.preloadScene(this.NextSceneName);
         this.scheduleOnce(function () {
+            cc.director.loadScene(_this.NextSceneName);
+        }, 2);
+        this.scheduleOnce(function () {
             console.log("jockey name = ", _this.jockeyName);
             if (_this.jockeyName == "Podar") {
                 cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;

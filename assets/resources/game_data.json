@@ -2,170 +2,170 @@
   "additionalData": {
     "GameID": "Contributions towards Green Bharat_Grade 4 (Social Science)__R40_T2",
     "totalLevel": "10",
-    "TitleImageName": "title.png",
-    "introBgName": "Bg.png",
+    "TitleImageName": "title_no.png",
+    "introBgName": "bgtitlemain.png",
     "bgmMusicName": "BGM.mp3",
     "mainBgName": "Gamebg.png",
     "JockeyName": "tortoise"
   },
   "questionData": [
     {
-      "questionText": "Contributions towards Green Bharat",
-      "questionAudioName": "L1.mp3",
+      "questionText": "Tricky word",
+      "questionAudioName": "12952691_44_identify-and-tap-on-th.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
       "options": [
-        "Save water",
-        "Make plastic toys",
-        "Use AC non-stop",
-        "Cut trees for paper"
+        "no",
+        "yes",
+        "do",
+        "we"
       ],
       "correctAudios": [
-        "R1.mp3"
+        "12952691_45_n-o-no.mp3"
       ],
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Contributions towards Green Bharat",
-      "questionAudioName": "L1.mp3",
+      "questionText": "Tricky word",
+      "questionAudioName": "12952691_44_identify-and-tap-on-th.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
       "options": [
-        "Use plastic bags",
-        "Leave lights on",
-        "Save energy",
-        "Dump waste in rivers"
+        "where",
+        "yes",
+        "no",
+        "we"
       ],
       "correctAudios": [
-        "R2.mp3"
+        "12952691_45_n-o-no.mp3"
       ],
       "correctAnswerNum": "3"
     },
     {
-      "questionText": "Contributions towards Green Bharat",
-      "questionAudioName": "L1.mp3",
+      "questionText": "Tricky word",
+      "questionAudioName": "12952691_44_identify-and-tap-on-th.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
       "options": [
-        "Use more plastic",
-        "Plant trees",
-        "Burn fossil fuels",
-        "Use more paper"
+        "yes",
+        "no",
+        "me",
+        "why"
       ],
       "correctAudios": [
-        "R3.mp3"
+        "12952691_45_n-o-no.mp3"
       ],
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Contributions towards Green Bharat",
-      "questionAudioName": "L1.mp3",
+      "questionText": "Tricky word",
+      "questionAudioName": "12952691_44_identify-and-tap-on-th.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
       "options": [
-        "Burn more coal",
-        "Dump in rivers",
-        "Use plastic bags",
-        "Use electric vehicles"
+        "she",
+        "the",
+        "me",
+        "no"
       ],
       "correctAudios": [
-        "R4.mp3"
+        "12952691_45_n-o-no.mp3"
       ],
       "correctAnswerNum": "4"
     },
     {
-      "questionText": "Contributions towards Green Bharat",
-      "questionAudioName": "L1.mp3",
+      "questionText": "Tricky word",
+      "questionAudioName": "12952691_44_identify-and-tap-on-th.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
       "options": [
-        "Use CNG vehicles",
-        "More plastic use",
-        "Run AC always",
-        "Burn waste openly"
+        "no",
+        "only",
+        "me",
+        "yes"
       ],
       "correctAudios": [
-        "R5.mp3"
+        "12952691_45_n-o-no.mp3"
       ],
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Contributions towards Green Bharat",
-      "questionAudioName": "L1.mp3",
+      "questionText": "Tricky word",
+      "questionAudioName": "12952691_44_identify-and-tap-on-th.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
       "options": [
-        "Burn all waste",
-        "Overuse non-renewables",
-        "Cut trees for paper",
-        "Avoid using plastic"
+        "me",
+        "only",
+        "little",
+        "no"
       ],
       "correctAudios": [
-        "R6.mp3"
+        "12952691_45_n-o-no.mp3"
       ],
       "correctAnswerNum": "4"
     },
     {
-      "questionText": "Contributions towards Green Bharat",
-      "questionAudioName": "L1.mp3",
+      "questionText": "Tricky word",
+      "questionAudioName": "12952691_44_identify-and-tap-on-th.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
       "options": [
-        "Burn plastic openly",
-        "Use plastic waste to build roads",
-        "Use more fossil fuels",
-        "Dump waste in rivers"
+        "he",
+        "no",
+        "where",
+        "yes"
       ],
       "correctAudios": [
-        "R7.mp3"
+        "12952691_45_n-o-no.mp3"
       ],
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Contributions towards Green Bharat",
-      "questionAudioName": "L1.mp3",
+      "questionText": "Tricky word",
+      "questionAudioName": "12952691_44_identify-and-tap-on-th.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
       "options": [
-        "Cut forests for cities",
-        "Promote solar power",
-        "Frequent plastic use",
-        "Burn leaves openly"
+        "do",
+        "no",
+        "me",
+        "yes"
       ],
       "correctAudios": [
-        "R8.mp3"
+        "12952691_45_n-o-no.mp3"
       ],
       "correctAnswerNum": "2"
     },
     {
-      "questionText": "Contributions towards Green Bharat",
-      "questionAudioName": "L1.mp3",
+      "questionText": "Tricky word",
+      "questionAudioName": "12952691_44_identify-and-tap-on-th.mp3",
       "shouldPlayQuestionAudio": true,
       "isOptionText": true,
       "options": [
-        "Use terracotta cooling ",
-        "Burn plastic",
-        "Use non-recyclables",
-        "More chemical use"
+        "no",
+        "can",
+        "me",
+        "when"
       ],
       "correctAudios": [
-        "R9.mp3"
+        "12952691_45_n-o-no.mp3"
       ],
       "correctAnswerNum": "1"
     },
     {
-      "questionText": "Contributions towards Green Bharat",
-      "questionAudioName": "",
+      "questionText": "Tricky word",
+      "questionAudioName": "12952691_44_identify-and-tap-on-th.mp3",
       "shouldPlayQuestionAudio": false,
       "isOptionText": true,
       "options": [
-        "Keep engine on idle",
-        "Use cars for short trips",
-        "Spread awareness",
-        "Waste fuel"
+        "me",
+        "the",
+        "no",
+        "what"
       ],
       "correctAudios": [
-        "R10.mp3"
+        "12952691_45_n-o-no.mp3"
       ],
       "correctAnswerNum": "3"
     }
