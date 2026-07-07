@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7f2ede93-a4be-46a5-8a80-555c08d0c596",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1043,
+  "height": 1043,
+  "platformSettings": {},
+  "subMetas": {
+    "gasstove": {
+      "ver": "1.0.6",
+      "uuid": "7b191716-f7a8-4ee0-bbfd-289bcd844bb1",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7f2ede93-a4be-46a5-8a80-555c08d0c596",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 131,
+      "trimY": 417,
+      "width": 782,
+      "height": 209,
+      "rawWidth": 1043,
+      "rawHeight": 1043,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

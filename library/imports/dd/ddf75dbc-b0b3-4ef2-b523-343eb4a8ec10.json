@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cookpot",
+    "texture": "d4946197-9411-4fa1-ad70-80da4e867268",
+    "atlas": "",
+    "rect": [
+      151,
+      218,
+      742,
+      607
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      1043,
+      1042
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

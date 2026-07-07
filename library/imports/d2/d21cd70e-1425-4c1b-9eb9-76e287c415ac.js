@@ -42,6 +42,7 @@ var startGame = /** @class */ (function (_super) {
         _this.LevelAgeParameters = [3, 5, 7];
         _this.isMusicOn = true;
         _this.playBtn_audio = null;
+        _this.loading = null;
         _this.levelType = "1";
         _this.currentLevel = "1";
         _this.hasAccess = false;
@@ -330,7 +331,7 @@ var startGame = /** @class */ (function (_super) {
                 }
             }
         }
-        cc.director.preloadScene(this.NextSceneName);
+        //cc.director.preloadScene(this.NextSceneName);
         this.scheduleOnce(function () {
             console.log("jockey name = ", _this.jockeyName);
             if (_this.jockeyName == "Podar") {
@@ -349,12 +350,19 @@ var startGame = /** @class */ (function (_super) {
                 cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
             }
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
-                _this.scheduleOnce(function () {
-                    cc.director.loadScene(_this.NextSceneName);
-                }, 2);
+                // this.scheduleOnce(() => {
+                //     cc.director.loadScene(this.NextSceneName);
+                // }, 2);
             }
         }, 1);
         // this.OnTimer();
+    };
+    startGame.prototype.OnStartGame = function (_event) {
+        cc.audioEngine.playEffect(this.playBtn_audio, false);
+        this.loading.active = true;
+        _event.target.active = false;
+        _event.target.getComponent(cc.Button).interactable = false;
+        cc.director.loadScene(this.NextSceneName);
     };
     startGame.prototype.OnMusic = function (event) {
         if (event.target.children[0].activeInHierarchy) {
@@ -428,6 +436,9 @@ var startGame = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], startGame.prototype, "playBtn_audio", void 0);
+    __decorate([
+        property(cc.Node)
+    ], startGame.prototype, "loading", void 0);
     __decorate([
         property(Boolean)
     ], startGame.prototype, "isPremiumGame", void 0);

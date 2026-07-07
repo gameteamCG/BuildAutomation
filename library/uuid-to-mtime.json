@@ -1779,19 +1779,14 @@
     "meta": 1783353467239,
     "relativePath": "Games\\WhatWillHappenNext\\Materials\\grey.mtl"
   },
-  "12188c2b-0d4b-464f-af83-522906b417c5": {
-    "asset": 1783353218551,
-    "meta": 1783353465866,
-    "relativePath": "Games\\WhatWillHappenNext\\Scripts\\endScreen.ts"
-  },
   "f6f52f13-6bc9-4a7e-9613-c33ee8a95b60": {
     "asset": 1783348905480,
     "meta": 1783353466071,
     "relativePath": "Games\\WhatWillHappenNext\\Scripts\\globalVariables.ts"
   },
   "cf4e36d8-89d2-4945-a198-67e319127411": {
-    "asset": 1783396488070,
-    "meta": 1783396488077,
+    "asset": 1783402903590,
+    "meta": 1783402903594,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\1.fire"
   },
   "ecc793e4-0368-4d2b-844b-75e10c5c7cb4": {
@@ -1815,13 +1810,13 @@
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\horse png (1).png"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1783356258776,
-    "meta": 1783356258782,
+    "asset": 1783403391475,
+    "meta": 1783403391478,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\Title.fire"
   },
   "92133877-574e-4eb5-9c58-79f64d3fc3ed": {
-    "asset": 1783353218551,
-    "meta": 1783353466080,
+    "asset": 1783403382343,
+    "meta": 1783403382347,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\endScreen.fire"
   },
   "e69f6909-7104-4430-8958-26c918cbc963": {
@@ -2859,11 +2854,6 @@
     "meta": 1783353466352,
     "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\output 40"
   },
-  "b024bef8-99b4-4d58-8a4a-10f203bf3f4b": {
-    "asset": 1783353218425,
-    "meta": 1783353466625,
-    "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\negative_2.mp3"
-  },
   "3d05f0b6-c650-4d20-9a7f-5748c3cf010c": {
     "asset": 1783353218423,
     "meta": 1783353466622,
@@ -2878,11 +2868,6 @@
     "asset": 1783353218421,
     "meta": 1783353466615,
     "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\carefully.mp3"
-  },
-  "e6e865ee-cbcf-49fb-aa96-43c85a2bd095": {
-    "asset": 1783353218423,
-    "meta": 1783353466629,
-    "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\negative_1.mp3"
   },
   "fb58a31b-2e8b-4e5a-bbb2-846776478cdc": {
     "asset": 1783353218422,
@@ -2909,20 +2894,10 @@
     "meta": 1783353466645,
     "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\positive_11_1.mp3"
   },
-  "e0d9f6fb-f075-4f14-9342-effd057f68ec": {
-    "asset": 1783353218429,
-    "meta": 1783353466647,
-    "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\positive_1.mp3"
-  },
   "caccd092-a8d6-4f28-8ee1-7e7f1507d467": {
     "asset": 1783353218426,
     "meta": 1783353466638,
     "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\negative_4.mp3"
-  },
-  "dfc6c35d-f5e1-4ca9-89df-3739e1d71b67": {
-    "asset": 1783353218425,
-    "meta": 1783353466632,
-    "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\negative_3.mp3"
   },
   "23c6311d-448a-4a60-a912-b3188f8b503d": {
     "asset": 1783353218429,
@@ -2949,16 +2924,6 @@
     "meta": 1783353466650,
     "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\positive_13.mp3"
   },
-  "d7f6ddc8-9dff-4cb0-9132-3886f72b5e4b": {
-    "asset": 1783353218433,
-    "meta": 1783353466673,
-    "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\positive_2.mp3"
-  },
-  "6702bcb6-1561-48b8-96bf-e3a05e722fb0": {
-    "asset": 1783353218433,
-    "meta": 1783353466677,
-    "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\positive_3.mp3"
-  },
   "155ae6ae-4633-4fd4-a760-ad73c4d5c7fd": {
     "asset": 1783353218431,
     "meta": 1783353466676,
@@ -2973,11 +2938,6 @@
     "asset": 1783353218435,
     "meta": 1783353466725,
     "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\positive_5.mp3"
-  },
-  "f186e8c7-cbe1-4699-8da7-92a1c464d09b": {
-    "asset": 1783353218434,
-    "meta": 1783353466680,
-    "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\positive_4.mp3"
   },
   "43fc15fc-3fcb-446f-9ede-5cd9217b21d9": {
     "asset": 1783353218439,
@@ -3100,8 +3060,8 @@
     "relativePath": "resources\\audios"
   },
   "03df1676-fdc9-4dfd-b250-91748c447546": {
-    "asset": 1783356526321,
-    "meta": 1783394537896,
+    "asset": 1783396200505,
+    "meta": 1783396622828,
     "relativePath": "resources\\images"
   },
   "6a5f40f5-f583-4fc2-a862-5df3496ab18b": {
@@ -3419,11 +3379,6 @@
     "meta": 1783353465461,
     "relativePath": "resources\\images\\postbox.png"
   },
-  "18b58750-d20e-4a0b-b097-7c7961d37d78": {
-    "asset": 1783353218595,
-    "meta": 1783353465440,
-    "relativePath": "resources\\images\\bgmain.png"
-  },
   "5014b2ef-cf1b-46d7-94d6-ad7f92c257ce": {
     "asset": 1783353218602,
     "meta": 1783353465463,
@@ -3469,11 +3424,6 @@
     "meta": 1783354281395,
     "relativePath": "resources\\images\\tlc_bg.png"
   },
-  "80446a4a-0537-4f9a-be48-324440801f9c": {
-    "asset": 1783356237592,
-    "meta": 1783356237646,
-    "relativePath": "resources\\images\\box_0000_cardboard.png"
-  },
   "d792c6d5-e7ee-4135-8859-ce9d305f7dab": {
     "asset": 1783395495004,
     "meta": 1783395495060,
@@ -3509,24 +3459,919 @@
     "meta": 1783395495188,
     "relativePath": "resources\\images\\livingroom.png"
   },
-  "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
-    "asset": 1783395775390,
-    "meta": 1783395780182,
-    "relativePath": "Framework\\Scripts\\StartGame.ts"
-  },
-  "89504f6a-127f-4d38-ba4d-9ec63444c98e": {
-    "asset": 1783395777184,
-    "meta": 1783395780188,
-    "relativePath": "resources\\game_data.json"
+  "80446a4a-0537-4f9a-be48-324440801f9c": {
+    "asset": 1783396658339,
+    "meta": 1783396658371,
+    "relativePath": "resources\\images\\box_0000_cardboard.png"
   },
   "799a84c3-f239-456d-b6f6-edc52bcf43c8": {
-    "asset": 1783396200505,
-    "meta": 1783396200534,
+    "asset": 1783396751276,
+    "meta": 1783396751298,
     "relativePath": "resources\\images\\panel.png"
   },
+  "f50feb01-c5e5-4ac4-8b13-10bc230d5851": {
+    "asset": 1783396930480,
+    "meta": 1783396930500,
+    "relativePath": "resources\\images\\inside.png"
+  },
+  "009432de-9082-443c-958f-8a837bd83276": {
+    "asset": 1783397021280,
+    "meta": 1783397021315,
+    "relativePath": "resources\\images\\bowl.png"
+  },
+  "daf091d0-d5dd-4e46-b855-303182f6b7d4": {
+    "asset": 1783397021279,
+    "meta": 1783397021318,
+    "relativePath": "resources\\images\\rollingpin.png"
+  },
+  "d4e678c5-d337-4d16-b061-a9b58d26c180": {
+    "asset": 1783397309862,
+    "meta": 1783397309892,
+    "relativePath": "resources\\images\\bag.png"
+  },
+  "1d10aad8-e76b-4537-936d-7e0ba11ef07b": {
+    "asset": 1783397309862,
+    "meta": 1783397309896,
+    "relativePath": "resources\\images\\egg.png"
+  },
+  "e64b820b-a586-4860-bd31-9c3b69bc6890": {
+    "asset": 1783397456818,
+    "meta": 1783397457251,
+    "relativePath": "resources\\audios\\cookpot.mp3"
+  },
+  "78a931e8-f43e-4b58-8b31-7f717d4cc0db": {
+    "asset": 1783397456818,
+    "meta": 1783397457253,
+    "relativePath": "resources\\audios\\gasstove.mp3"
+  },
+  "d4946197-9411-4fa1-ad70-80da4e867268": {
+    "asset": 1783397517892,
+    "meta": 1783397517931,
+    "relativePath": "resources\\images\\cookpot.png"
+  },
+  "7f2ede93-a4be-46a5-8a80-555c08d0c596": {
+    "asset": 1783397517891,
+    "meta": 1783397517934,
+    "relativePath": "resources\\images\\gasstove.png"
+  },
+  "e5dadcfb-c6d1-4519-bd2a-055deb56da03": {
+    "asset": 1783397517892,
+    "meta": 1783397517937,
+    "relativePath": "resources\\images\\soap.png"
+  },
+  "03d66971-0e49-4b3d-83ec-7e40d606d209": {
+    "asset": 1783397517890,
+    "meta": 1783397517939,
+    "relativePath": "resources\\images\\vessel.png"
+  },
+  "715c9c1d-979e-4d94-b327-7b9592118bfc": {
+    "asset": 1783397779464,
+    "meta": 1783397779501,
+    "relativePath": "resources\\images\\teddy.png"
+  },
+  "e4eb3986-7848-4462-b0fa-b2f855345b25": {
+    "asset": 1783397779464,
+    "meta": 1783397779504,
+    "relativePath": "resources\\images\\duck.png"
+  },
+  "05c16aee-aaa8-4745-b03f-ebd8622f4049": {
+    "asset": 1783397779460,
+    "meta": 1783397779506,
+    "relativePath": "resources\\images\\brush.png"
+  },
+  "3a0bf835-1b0c-496c-9662-e2a557318ca1": {
+    "asset": 1783397886409,
+    "meta": 1783397886842,
+    "relativePath": "resources\\audios\\teddy.mp3"
+  },
+  "76b368a0-3a15-41ac-aa88-a6aee456782f": {
+    "asset": 1783397886409,
+    "meta": 1783397886847,
+    "relativePath": "resources\\audios\\duck.mp3"
+  },
+  "e9e4c410-a427-45f6-9224-b82fda05bec9": {
+    "asset": 1783398056385,
+    "meta": 1783398056420,
+    "relativePath": "resources\\images\\sandbucket.png"
+  },
+  "2b208e16-f947-4cdf-b056-7a1d2254f939": {
+    "asset": 1783398056385,
+    "meta": 1783398056423,
+    "relativePath": "resources\\images\\kite.png"
+  },
+  "33b682fd-2efe-45b0-9ce9-71c0d48afb5e": {
+    "asset": 1783398056385,
+    "meta": 1783398056425,
+    "relativePath": "resources\\images\\bookcase.png"
+  },
+  "f14c2500-9134-46fe-84e0-95c474d39dda": {
+    "asset": 1783398056385,
+    "meta": 1783398056429,
+    "relativePath": "resources\\images\\table.png"
+  },
+  "32a57f66-2bb0-4442-aeda-40d0c6155000": {
+    "asset": 1783398532777,
+    "meta": 1783398532810,
+    "relativePath": "resources\\images\\bed.png"
+  },
+  "b6037676-16d8-48d9-8129-1dd9aef8db28": {
+    "asset": 1783398532777,
+    "meta": 1783398532814,
+    "relativePath": "resources\\images\\lamp.png"
+  },
+  "ad3cf692-16f3-4354-9d9c-59db2cf13ebc": {
+    "asset": 1783398581961,
+    "meta": 1783398582389,
+    "relativePath": "resources\\audios\\lamp.mp3"
+  },
+  "39f64a61-585c-41f6-b1e3-bf4ee8cce03b": {
+    "asset": 1783398581959,
+    "meta": 1783398582390,
+    "relativePath": "resources\\audios\\bed.mp3"
+  },
+  "e9e666ee-d42c-4e4f-aabb-f316530b94b3": {
+    "asset": 1783398980805,
+    "meta": 1783398980845,
+    "relativePath": "resources\\images\\mirror.png"
+  },
+  "71317cce-e2fb-4bb4-a350-7fefdcae3e2a": {
+    "asset": 1783398980807,
+    "meta": 1783398980848,
+    "relativePath": "resources\\images\\vase.png"
+  },
+  "5823d6fe-b7ba-4d25-9e97-bfc3425ede73": {
+    "asset": 1783398980808,
+    "meta": 1783398980851,
+    "relativePath": "resources\\images\\tub.png"
+  },
+  "ebf9b3b6-a40c-4f0d-a8cf-096685ce1ad0": {
+    "asset": 1783398980805,
+    "meta": 1783398980855,
+    "relativePath": "resources\\images\\grate.png"
+  },
+  "b668c6e1-7776-41ec-a7fc-b342128b8597": {
+    "asset": 1783399129276,
+    "meta": 1783399129742,
+    "relativePath": "resources\\audios\\mirror.mp3"
+  },
+  "752b0488-1180-4f92-a348-727b383bcc58": {
+    "asset": 1783399129275,
+    "meta": 1783399129747,
+    "relativePath": "resources\\audios\\bathtub.mp3"
+  },
   "ad4e5d42-7172-47db-8800-f7a8016b13a6": {
-    "asset": 1783396485816,
-    "meta": 1783396487684,
+    "asset": 1783401792908,
+    "meta": 1783401794909,
     "relativePath": "Games\\WhatWillHappenNext\\Scripts\\gameplay.ts"
+  },
+  "e6e865ee-cbcf-49fb-aa96-43c85a2bd095": {
+    "asset": 1783401832006,
+    "meta": 1783401832503,
+    "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\negative_1.mp3"
+  },
+  "dfc6c35d-f5e1-4ca9-89df-3739e1d71b67": {
+    "asset": 1783401832009,
+    "meta": 1783401832503,
+    "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\negative_3.mp3"
+  },
+  "6702bcb6-1561-48b8-96bf-e3a05e722fb0": {
+    "asset": 1783401832009,
+    "meta": 1783401832504,
+    "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\positive_3.mp3"
+  },
+  "d7f6ddc8-9dff-4cb0-9132-3886f72b5e4b": {
+    "asset": 1783401832009,
+    "meta": 1783401832506,
+    "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\positive_2.mp3"
+  },
+  "e0d9f6fb-f075-4f14-9342-effd057f68ec": {
+    "asset": 1783401832009,
+    "meta": 1783401832506,
+    "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\positive_1.mp3"
+  },
+  "b024bef8-99b4-4d58-8a4a-10f203bf3f4b": {
+    "asset": 1783401832007,
+    "meta": 1783401832507,
+    "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\negative_2.mp3"
+  },
+  "f186e8c7-cbe1-4699-8da7-92a1c464d09b": {
+    "asset": 1783401832009,
+    "meta": 1783401832508,
+    "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\positive_4.mp3"
+  },
+  "0b1af3a3-9e58-4136-b1fd-76169629faf8": {
+    "asset": 1783401884842,
+    "meta": 1783401884908,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old"
+  },
+  "4ccd9bea-37ae-4f1c-9399-7244e3815b89": {
+    "asset": 1783401884768,
+    "meta": 1783401884908,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\End Words"
+  },
+  "2b7fa925-a39a-4e0a-be97-9b87d7ff3421": {
+    "asset": 1783401884845,
+    "meta": 1783401884910,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation"
+  },
+  "6ab3b22a-9b9b-43ca-be6a-b4027e0ca850": {
+    "asset": 1783401884762,
+    "meta": 1783401884911,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\jaipuria4.ttf"
+  },
+  "70993430-6fa4-45ef-a216-8624b24edebf": {
+    "asset": 1783401884763,
+    "meta": 1783401884920,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\JaipuriaJockey.ts"
+  },
+  "8f631f2c-3cbe-4b50-9149-3ea4824ec51e": {
+    "asset": 1783401884769,
+    "meta": 1783401884921,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys"
+  },
+  "5b316b99-273f-41ab-9e00-a9a7ac851b73": {
+    "asset": 1783401884770,
+    "meta": 1783401884921,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Loading"
+  },
+  "fbb71fe0-03ba-4655-b891-9293b972d841": {
+    "asset": 1783401884768,
+    "meta": 1783401884921,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Prefab"
+  },
+  "01abb908-eeea-4ce2-8ad0-036d0a2f672a": {
+    "asset": 1783401884849,
+    "meta": 1783401884924,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\TitleAssets"
+  },
+  "9652f393-26db-4fec-9f72-5936f9ee05fd": {
+    "asset": 1783401884776,
+    "meta": 1783401884924,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO"
+  },
+  "624ed998-e25a-4284-838c-5234b6a7fc87": {
+    "asset": 1783401884799,
+    "meta": 1783401884926,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5"
+  },
+  "c0f0c459-d306-4011-a51a-e11afd7513a9": {
+    "asset": 1783401884799,
+    "meta": 1783401884926,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Bag"
+  },
+  "49e8ded9-6e78-41dd-8aae-dc7a4f4dcdd2": {
+    "asset": 1783401884801,
+    "meta": 1783401884928,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Compass"
+  },
+  "91a26f25-90d8-4fb6-81bf-7e5660a0f42e": {
+    "asset": 1783401884800,
+    "meta": 1783401884928,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Crayon"
+  },
+  "49b85d8f-48be-443c-a1e4-1d36e8e9aaaf": {
+    "asset": 1783401884801,
+    "meta": 1783401884928,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Pencil"
+  },
+  "6a61370f-3409-43ee-83a3-d324a2db5c9a": {
+    "asset": 1783401884802,
+    "meta": 1783401884929,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Sharpner"
+  },
+  "892e135f-cfcc-49f4-b91d-922d73c9a5a8": {
+    "asset": 1783401884790,
+    "meta": 1783401884932,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Prefab\\Buttons"
+  },
+  "5636c7bb-739c-478b-ae1d-2e07dab738fd": {
+    "asset": 1783401884778,
+    "meta": 1783401885910,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Loading\\skeleton.json"
+  },
+  "9e510e0e-4c09-4665-9dbf-65a15799eb96": {
+    "asset": 1783401884778,
+    "meta": 1783401884937,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Prefab\\end.prefab"
+  },
+  "a2e30aee-8e1f-4c08-9d63-f01b46b52ef1": {
+    "asset": 1783401884778,
+    "meta": 1783401884938,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Prefab\\endScreenJockey.prefab"
+  },
+  "ec902e4f-4836-4f0f-9572-8399a14732f4": {
+    "asset": 1783401884777,
+    "meta": 1783401884940,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Prefab\\BG.prefab"
+  },
+  "dcf44aa2-a1b6-4e09-b081-5f2c1f697111": {
+    "asset": 1783401884778,
+    "meta": 1783401884942,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Loading\\skeleton.atlas"
+  },
+  "bf826df2-95d3-4bd4-a546-08c6ff2cd7ce": {
+    "asset": 1783401884779,
+    "meta": 1783401884944,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Prefab\\jockey.prefab"
+  },
+  "f6f1b5cd-b122-43bc-8072-4503d46ac05e": {
+    "asset": 1783401884778,
+    "meta": 1783401884946,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\TitleAssets\\effect2.prefab"
+  },
+  "b03f3c4e-f876-4f7e-8d10-287e4c06a899": {
+    "asset": 1783401884764,
+    "meta": 1783401884984,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\shortQBar.png"
+  },
+  "508cf11f-4071-4f6f-8c80-55eaf9f3a234": {
+    "asset": 1783401884763,
+    "meta": 1783401884986,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\SoundButton.png"
+  },
+  "fe7d926e-adee-4ac9-90e1-184f30c17f33": {
+    "asset": 1783401884778,
+    "meta": 1783401884993,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\End Words\\yay.png"
+  },
+  "01d44024-0469-462a-b691-aa74c2de3e9e": {
+    "asset": 1783401884783,
+    "meta": 1783401884996,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\End Words\\good job.png"
+  },
+  "4957434b-5887-4c11-8a43-53572015fe14": {
+    "asset": 1783401884783,
+    "meta": 1783401884999,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\End Words\\well done.png"
+  },
+  "d9246b4b-e901-4723-b667-3327477b74eb": {
+    "asset": 1783401884785,
+    "meta": 1783401885002,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Loading\\skeleton.png"
+  },
+  "24a2eb35-a6e2-41f3-bfb7-5dcfa72db372": {
+    "asset": 1783401884783,
+    "meta": 1783401885005,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\End Words\\fantastic.png"
+  },
+  "f88e84ca-e0c5-49b0-90fc-5ad4c3e729fa": {
+    "asset": 1783401884778,
+    "meta": 1783401885014,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\TitleAssets\\logo (1).png"
+  },
+  "bbcfdf41-cef3-4b2e-a375-ef7b45f4d932": {
+    "asset": 1783401884778,
+    "meta": 1783401885019,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\TitleAssets\\p2 (1).png"
+  },
+  "c4f4063c-8c1e-44c4-ba0d-383831c34af2": {
+    "asset": 1783401884778,
+    "meta": 1783401885020,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\TitleAssets\\p2.png"
+  },
+  "023cbe00-1726-4929-85ff-c574b65005d7": {
+    "asset": 1783401884814,
+    "meta": 1783401885045,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\TitleAssets\\Bg.png"
+  },
+  "39cdb121-5894-4b14-82ca-b53433205934": {
+    "asset": 1783401884807,
+    "meta": 1783401885046,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO"
+  },
+  "ae4c508c-abf5-454b-bda9-f03b0e2e6d87": {
+    "asset": 1783401884779,
+    "meta": 1783401885430,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Gorgeous work.mp3"
+  },
+  "82c5945e-b5ab-4e34-a641-2c875017b67e": {
+    "asset": 1783401884778,
+    "meta": 1783401885432,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Beautiful Work.mp3"
+  },
+  "53ab7efd-9316-4cc9-8ddc-6753c44035b8": {
+    "asset": 1783401884778,
+    "meta": 1783401885433,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Brilliant.mp3"
+  },
+  "35d8bcd5-c373-4e92-9a9f-e050e3fc9cac": {
+    "asset": 1783401884779,
+    "meta": 1783401885435,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Impressive work.mp3"
+  },
+  "17f413b6-b3d9-451f-a8cc-06162e99aa39": {
+    "asset": 1783401884778,
+    "meta": 1783401885436,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Excellent job.mp3"
+  },
+  "30eadff3-06c1-4852-9f78-aaa65c347f95": {
+    "asset": 1783401884828,
+    "meta": 1783401885438,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi negative edited"
+  },
+  "6065927a-6265-4b6c-944d-e1bfd587c342": {
+    "asset": 1783401884831,
+    "meta": 1783401885439,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi positive edited"
+  },
+  "aa693a0b-082a-4eec-a07f-76e970f8016f": {
+    "asset": 1783401884786,
+    "meta": 1783401885440,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Impressive.mp3"
+  },
+  "8832b435-4a45-4ab7-8367-91a8a7b8f064": {
+    "asset": 1783401884778,
+    "meta": 1783401885441,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Fantastic.mp3"
+  },
+  "2930d334-b519-45bd-9c97-5f0073dee946": {
+    "asset": 1783401884785,
+    "meta": 1783401885442,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Admirable work.mp3"
+  },
+  "f87cdc1e-4b20-4723-aa52-dd021c1248fe": {
+    "asset": 1783401884778,
+    "meta": 1783401885443,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Bang on.mp3"
+  },
+  "dd9469dd-85ac-46fb-9eaf-ba7c1c2cb6c9": {
+    "asset": 1783401884786,
+    "meta": 1783401885445,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Magnificent.mp3"
+  },
+  "1f52bb8a-7146-4791-9986-677a00e2b669": {
+    "asset": 1783401884786,
+    "meta": 1783401885445,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Genius kid.mp3"
+  },
+  "67cb969f-8164-4298-9477-8842e2884e64": {
+    "asset": 1783401884779,
+    "meta": 1783401885448,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Good Job.mp3"
+  },
+  "08fc2835-c9fb-4a31-9c85-13260abd3735": {
+    "asset": 1783401884779,
+    "meta": 1783401885453,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Perfect.mp3"
+  },
+  "edf6acf8-bcb3-4153-bdfe-d24bbe052ada": {
+    "asset": 1783401884783,
+    "meta": 1783401885456,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Sensational.mp3"
+  },
+  "ad2274a2-c21a-403d-b623-d262b0116046": {
+    "asset": 1783401884812,
+    "meta": 1783401885463,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\look carefully.mp3"
+  },
+  "e3fc2411-9e6d-43c4-9fc6-5fca23b21bfa": {
+    "asset": 1783401884812,
+    "meta": 1783401885465,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\in.mp3"
+  },
+  "bec7fc65-b360-4d6c-b9f2-cfd2b114844a": {
+    "asset": 1783401884812,
+    "meta": 1783401885468,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\look at it once more.mp3"
+  },
+  "4cd7c66d-b082-4792-9412-bee151b6c6eb": {
+    "asset": 1783401884815,
+    "meta": 1783401885469,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\Fun Dance For Kids.mp3"
+  },
+  "21b994d9-ce89-4708-acbf-8cc46c26e9fc": {
+    "asset": 1783401884815,
+    "meta": 1783401885471,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\Hmmm, look at it again.mp3"
+  },
+  "af745eab-1e8d-452d-8ab1-564fb6129cdf": {
+    "asset": 1783401884812,
+    "meta": 1783401885472,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\carefully.mp3"
+  },
+  "a60b3e9a-4739-4b3e-8fcf-3eb87987b05a": {
+    "asset": 1783401884812,
+    "meta": 1783401885474,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\negative_2.mp3"
+  },
+  "45367b58-b05d-464e-a582-13db302b2a24": {
+    "asset": 1783401884812,
+    "meta": 1783401885476,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\negative_1.mp3"
+  },
+  "fe6cb418-ade4-4f0a-b97a-d3360a7740aa": {
+    "asset": 1783401884817,
+    "meta": 1783401885478,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\negative_4.mp3"
+  },
+  "fa14c9fc-b94c-429c-b7dc-bbd9ef6a165e": {
+    "asset": 1783401884817,
+    "meta": 1783401885481,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\negative_3.mp3"
+  },
+  "94fbb34c-f0db-4c30-ba47-ade119248533": {
+    "asset": 1783401884812,
+    "meta": 1783401885484,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\negative_5.mp3"
+  },
+  "97e1046e-8e92-4b22-a062-6426a59f626c": {
+    "asset": 1783401884812,
+    "meta": 1783401885486,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\negative_6.mp3"
+  },
+  "b1a17fe0-2042-43d7-bcaf-ac2d1a869962": {
+    "asset": 1783401884812,
+    "meta": 1783401885493,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\positive_10.mp3"
+  },
+  "ac3805a6-32ef-4a4b-bd86-eb74959a903c": {
+    "asset": 1783401884812,
+    "meta": 1783401885495,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\positive_1.mp3"
+  },
+  "b7531e61-52bd-4a48-86ff-bff86f6b48d5": {
+    "asset": 1783401884812,
+    "meta": 1783401885496,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\negative_7.mp3"
+  },
+  "77e3394d-33ab-4923-bcdc-fd28a4b82263": {
+    "asset": 1783401884812,
+    "meta": 1783401885500,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\positive_12.mp3"
+  },
+  "22c2e889-0ce2-4ab6-a7c4-92a31c6682c0": {
+    "asset": 1783401884812,
+    "meta": 1783401885501,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\positive_14.mp3"
+  },
+  "657a2da2-2158-46d7-a6e8-d49ff354eae6": {
+    "asset": 1783401884812,
+    "meta": 1783401885503,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\positive_13.mp3"
+  },
+  "2d760030-a95d-4737-abca-71a6f6e57bef": {
+    "asset": 1783401884812,
+    "meta": 1783401885511,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\positive_11_1.mp3"
+  },
+  "99d80718-3ab9-42b4-88cf-b2fd4b93142f": {
+    "asset": 1783401884812,
+    "meta": 1783401885513,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\positive_2.mp3"
+  },
+  "167b38dc-8423-4769-964e-cff1901316d9": {
+    "asset": 1783401884812,
+    "meta": 1783401885517,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\positive_3.mp3"
+  },
+  "52fa0603-ece3-488e-8bb6-37477cd1321d": {
+    "asset": 1783401884812,
+    "meta": 1783401885532,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\positive_4.mp3"
+  },
+  "399f3ff4-94be-412e-a973-9c87d4d84538": {
+    "asset": 1783401884825,
+    "meta": 1783401885907,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Bag\\Bag.json"
+  },
+  "6c9b218b-7d43-473a-bb77-17c563f06703": {
+    "asset": 1783401884814,
+    "meta": 1783401885540,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\positive_6.mp3"
+  },
+  "58c5cec2-7b0f-423e-a998-0ec9358f40e5": {
+    "asset": 1783401884812,
+    "meta": 1783401885550,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\positive_5.mp3"
+  },
+  "659b62aa-f9d9-4b5f-b62a-22b3a0f17b05": {
+    "asset": 1783401884832,
+    "meta": 1783401885940,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Compass\\compass.json"
+  },
+  "5d975364-49a7-4dc2-80da-c1e9462d4b60": {
+    "asset": 1783401884814,
+    "meta": 1783401885560,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Bag\\Bag.atlas"
+  },
+  "7c72c675-1a4e-4aef-8589-653d23f149a8": {
+    "asset": 1783401884835,
+    "meta": 1783401885921,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Crayon\\Crayon.json"
+  },
+  "4f5a3ca1-0880-447c-ad77-50e0c8642c1d": {
+    "asset": 1783401884814,
+    "meta": 1783401885576,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Compass\\compass.atlas"
+  },
+  "932c100a-fc22-44aa-9729-c44a3103c7a4": {
+    "asset": 1783401884814,
+    "meta": 1783401885577,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\positive_7.mp3"
+  },
+  "3bec670f-3c59-45cb-ab3e-58115f487434": {
+    "asset": 1783401884814,
+    "meta": 1783401885582,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\positive_8.mp3"
+  },
+  "d9170fa0-386b-4974-844f-bb0865e72689": {
+    "asset": 1783401884814,
+    "meta": 1783401885583,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\questionfox.mp3"
+  },
+  "cd089ed5-494a-475e-b31c-08d020e3a255": {
+    "asset": 1783401884814,
+    "meta": 1783401885584,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\positive_9.mp3"
+  },
+  "d7fabe77-4ff1-4285-a07a-2181ed3dd06c": {
+    "asset": 1783401884814,
+    "meta": 1783401885586,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Crayon\\Crayon.atlas"
+  },
+  "7d7c7f3e-dd62-417b-be87-3272f07ec1be": {
+    "asset": 1783401884833,
+    "meta": 1783401885932,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Pencil\\Pencil.json"
+  },
+  "f4a60b2e-d2c1-4349-9e8a-009826c1ac06": {
+    "asset": 1783401884825,
+    "meta": 1783401885945,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Sharpner\\Shrpnpener.json"
+  },
+  "669552c2-ab73-422b-a8c0-43cbb5c3195e": {
+    "asset": 1783401884814,
+    "meta": 1783401885606,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Pencil\\Pencil.atlas"
+  },
+  "4a68ae6a-5e7d-4abd-b56e-b8f22563a1ed": {
+    "asset": 1783401884814,
+    "meta": 1783401885609,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Sharpner\\Shrpnpener.atlas"
+  },
+  "b8d8d877-028d-4fca-905d-7f4c654cbf8b": {
+    "asset": 1783401884831,
+    "meta": 1783401885654,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Bag\\Bag.png"
+  },
+  "7c40060c-e9ec-4f49-be15-f426da9b58fc": {
+    "asset": 1783401884820,
+    "meta": 1783401885663,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Compass\\compass.png"
+  },
+  "e2b27112-5851-42bc-ad49-2960016f070e": {
+    "asset": 1783401884825,
+    "meta": 1783401885673,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Crayon\\Crayon.png"
+  },
+  "6b7fbd9f-56cd-4ede-aba0-a783c61d5a1e": {
+    "asset": 1783401884814,
+    "meta": 1783401885684,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Sharpner\\Shrpnpener3.png"
+  },
+  "8d717003-bdd5-4f9c-bd44-8e5d954fd5e5": {
+    "asset": 1783401884814,
+    "meta": 1783401885693,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Sharpner\\Shrpnpener5.png"
+  },
+  "0f679360-028e-4f02-997d-e09f75f87f67": {
+    "asset": 1783401884811,
+    "meta": 1783401885707,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Prefab\\Buttons\\End.png"
+  },
+  "5de1b2eb-5448-4c9b-b1d3-56481e6a4e4e": {
+    "asset": 1783401884814,
+    "meta": 1783401885722,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Sharpner\\Shrpnpener2.png"
+  },
+  "e64588fc-5cc4-4517-afb8-f413bc5ebef5": {
+    "asset": 1783401884814,
+    "meta": 1783401885729,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Sharpner\\Shrpnpener4.png"
+  },
+  "33554333-4e44-4de8-aee8-207c9184d5bf": {
+    "asset": 1783401884815,
+    "meta": 1783401885735,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Prefab\\Buttons\\Play.prefab"
+  },
+  "8122014a-c5f9-41d8-ac9a-8902b4b95b7e": {
+    "asset": 1783401884811,
+    "meta": 1783401885738,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Prefab\\Buttons\\pulsate.anim"
+  },
+  "71293f65-839f-4837-818e-e541434dd7e7": {
+    "asset": 1783401884825,
+    "meta": 1783401885755,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Pencil\\Pencil.png"
+  },
+  "7d812312-18bb-4260-b593-157b6fbc3a17": {
+    "asset": 1783401884811,
+    "meta": 1783401885760,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Prefab\\Buttons\\Play.png"
+  },
+  "3aa59a65-75e5-4f7b-b59c-56f0e74a54c1": {
+    "asset": 1783401884811,
+    "meta": 1783401885767,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Prefab\\Buttons\\play (1).mp3"
+  },
+  "f6eb40b3-a336-49ae-915f-5a1f843ea53b": {
+    "asset": 1783401884814,
+    "meta": 1783401885780,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\Do not give up, try again.mp3"
+  },
+  "b8b2ea98-2e9f-4c9e-b919-3cfbd1258114": {
+    "asset": 1783401884821,
+    "meta": 1783401885784,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Jockeys\\Sharpner\\Shrpnpener.png"
+  },
+  "3191efd3-b1b9-469e-b5c3-0c27e6ed0d91": {
+    "asset": 1783401884814,
+    "meta": 1783401885789,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\Give it another go.mp3"
+  },
+  "0ba028a4-6f30-4ec2-8954-c9c72ca08e9c": {
+    "asset": 1783401884815,
+    "meta": 1783401885803,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\Give it another shot-.mp3"
+  },
+  "6bb4a640-4619-453d-88d9-7c362a070f04": {
+    "asset": 1783401884815,
+    "meta": 1783401885807,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\Have another try-.mp3"
+  },
+  "19a489ef-e8a2-4222-adfc-aa703c2ab16d": {
+    "asset": 1783401884815,
+    "meta": 1783401885811,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\nevermind, try again.mp3"
+  },
+  "13efe164-0ef6-4c04-88f0-6e6a994474be": {
+    "asset": 1783401884815,
+    "meta": 1783401885813,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\Oops! take another go.mp3"
+  },
+  "8b79602a-84d9-42e5-aa64-44b2ea117af2": {
+    "asset": 1783401884815,
+    "meta": 1783401885815,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\Let_s attempt it again-.mp3"
+  },
+  "d0f7f48b-a910-4c31-9496-74d0b648d621": {
+    "asset": 1783401884815,
+    "meta": 1783401885818,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\Oh dear! Try again.mp3"
+  },
+  "51abd0df-bfd8-4c47-9c0a-da56d9681ca0": {
+    "asset": 1783401884815,
+    "meta": 1783401885820,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\let_s retry this once more.mp3"
+  },
+  "70725362-611c-426b-ab11-d7305ad4974f": {
+    "asset": 1783401884815,
+    "meta": 1783401885822,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\Might have to try that again.mp3"
+  },
+  "d6aae5ac-7f3c-4ff2-9c9d-2fe25497ee18": {
+    "asset": 1783401884815,
+    "meta": 1783401885824,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\let_s try this over again.mp3"
+  },
+  "808fa59a-0ccb-414e-b985-d1b685eb7388": {
+    "asset": 1783401884815,
+    "meta": 1783401885829,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\Oopsie try once more.mp3"
+  },
+  "f25ba28a-8fd9-4762-bc12-740e9749350f": {
+    "asset": 1783401884815,
+    "meta": 1783401885833,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\Shall we try again.mp3"
+  },
+  "08c04c2a-9657-4457-b789-cb632efe15c3": {
+    "asset": 1783401884815,
+    "meta": 1783401885835,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\Slow down try again-.mp3"
+  },
+  "d7994f3a-fb75-4b54-ac45-9603b6bd45c2": {
+    "asset": 1783401884815,
+    "meta": 1783401885838,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\There_s no hurry, try again.mp3"
+  },
+  "268d43e1-98f9-4cb4-8b0d-9b510b1f6c99": {
+    "asset": 1783401884833,
+    "meta": 1783401885844,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi negative edited\\negative 1.mp3"
+  },
+  "9f23302f-3f72-4c1d-8f37-4ab22f58ecb5": {
+    "asset": 1783401884815,
+    "meta": 1783401885845,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\uhh uhh have another go!.mp3"
+  },
+  "a7713cda-3f7f-449f-ba1b-7d2f8982d1c2": {
+    "asset": 1783401884815,
+    "meta": 1783401885847,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\VO\\Incorrect VO\\Whoopsie! try again.mp3"
+  },
+  "ea9667ba-c6a1-4509-9aa2-de679a9b47ca": {
+    "asset": 1783401884835,
+    "meta": 1783401885851,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi negative edited\\negative 2.mp3"
+  },
+  "808aa112-1865-4ee2-9b99-7317f335572d": {
+    "asset": 1783401884832,
+    "meta": 1783401885852,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi negative edited\\negative 3 एक और बार कोशिश करे.mp3"
+  },
+  "be9986fd-5e60-4718-b044-55f5d33c1335": {
+    "asset": 1783401884832,
+    "meta": 1783401885857,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi negative edited\\negative 4 oh no, एक बार और कोशिश करे.mp3"
+  },
+  "f577ba97-41b6-4423-9300-bb709c9e5198": {
+    "asset": 1783401884832,
+    "meta": 1783401885859,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi negative edited\\negative 7 आप बहुत बेहतर कर सकते हैं.mp3"
+  },
+  "f22e0809-02d1-48d0-8ea9-877be1549e81": {
+    "asset": 1783401884832,
+    "meta": 1783401885861,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi negative edited\\negative 5 क्या हम दोबारा कोशिश करें.mp3"
+  },
+  "cb9a85b9-2504-4bba-a48c-b4afafb25233": {
+    "asset": 1783401884832,
+    "meta": 1783401885865,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi negative edited\\negavtive 6 क्या हम एक और प्रयास कर सकते हैं.mp3"
+  },
+  "64ada904-8774-4ef3-9492-e4f83ead7637": {
+    "asset": 1783401884832,
+    "meta": 1783401885865,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi positive edited\\positive 10 जबरदस्त काम.mp3"
+  },
+  "a0e4eb73-5148-4006-af74-f5386488e821": {
+    "asset": 1783401884832,
+    "meta": 1783401885866,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi positive edited\\positive 1 आप बहुत अच्छा कर रहे हैं .mp3"
+  },
+  "0e9b666d-f985-41cc-b06c-f751660c3403": {
+    "asset": 1783401884832,
+    "meta": 1783401885868,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi positive edited\\positive 2 wohoo.mp3"
+  },
+  "0823bb4f-e012-496e-a191-d70b87af8ec9": {
+    "asset": 1783401884834,
+    "meta": 1783401885869,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi positive edited\\positive 3yaba dabba do.mp3"
+  },
+  "ff932663-54f9-4912-a289-b358037bf258": {
+    "asset": 1783401884832,
+    "meta": 1783401885871,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi positive edited\\positive 4 बहुत अच्छा.mp3"
+  },
+  "6220f010-99e6-4acd-9f11-e96a53e2192f": {
+    "asset": 1783401884832,
+    "meta": 1783401885872,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi positive edited\\positive 5 यह जीनियस काम है.mp3"
+  },
+  "3f222951-0936-451c-a02f-eb5ac70ead8d": {
+    "asset": 1783401884832,
+    "meta": 1783401885873,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi positive edited\\positive 6 लाजवाब काम!.mp3"
+  },
+  "31124203-96e4-483b-986b-5a5361bd56b3": {
+    "asset": 1783401884832,
+    "meta": 1783401885875,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi positive edited\\positive 7 ज़बरदस्त.mp3"
+  },
+  "e9ab66d8-5302-408c-8f70-27980860c5be": {
+    "asset": 1783401884835,
+    "meta": 1783401885876,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi positive edited\\positive 9 music.mp3"
+  },
+  "5d2f6e2a-c4cf-4a6a-ae1c-9b362e56a86a": {
+    "asset": 1783401884835,
+    "meta": 1783401885877,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Hindi_appreciation\\audio 5\\hindi positive edited\\positive 8 music.mp3"
+  },
+  "d21cd70e-1425-4c1b-9eb9-76e287c415ac": {
+    "asset": 1783402153348,
+    "meta": 1783402155380,
+    "relativePath": "Framework\\Scripts\\StartGame.ts"
+  },
+  "d7accf1a-b343-4a67-99fe-69226621dcee": {
+    "asset": 1783402216742,
+    "meta": 1783402216761,
+    "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old\\Asset 74 (1).png"
+  },
+  "18b58750-d20e-4a0b-b097-7c7961d37d78": {
+    "asset": 1783402253415,
+    "meta": 1783402253461,
+    "relativePath": "resources\\images\\bgmain.png"
+  },
+  "89504f6a-127f-4d38-ba4d-9ec63444c98e": {
+    "asset": 1783402722625,
+    "meta": 1783402724030,
+    "relativePath": "resources\\game_data.json"
+  },
+  "12188c2b-0d4b-464f-af83-522906b417c5": {
+    "asset": 1783403229016,
+    "meta": 1783403235596,
+    "relativePath": "Games\\WhatWillHappenNext\\Scripts\\endScreen.ts"
   }
 }

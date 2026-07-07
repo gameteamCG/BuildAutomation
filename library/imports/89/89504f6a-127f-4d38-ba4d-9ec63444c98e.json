@@ -15,9 +15,8 @@
     },
     "questionData": [
       {
-        "questionText": "drag the objects seen in the bedroom",
+        "questionText": "Drag the objects seen in the bedroom.",
         "questionImageName": "box_0000_cardboard.png",
-        "levelBG": "bedroom1.png",
         "questionAudioName": "drag the objects seen in the bedroom.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",
@@ -25,8 +24,8 @@
         "numberOfOptions": 4,
         "options": [
           "500x500_0006_curtain.png",
-          "500x500_0018_snail.png",
-          "car.png",
+          "bowl.png",
+          "rollingpin.png",
           "500x500_0007_chair.png"
         ],
         "correctAudios": [
@@ -36,7 +35,7 @@
         "correctAnswerNum": "14"
       },
       {
-        "questionText": "drag the objects seen in the living room",
+        "questionText": "Drag the objects seen in the living room.",
         "questionImageName": "box_0000_cardboard.png",
         "questionAudioName": "drag the objects seen in the living room.mp3",
         "shouldPlayQuestionAudio": true,
@@ -44,10 +43,10 @@
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "500x500_0013_parrot.png",
+          "egg.png",
           "500x500_0002_sofa.png",
           "500x500_0012_tv.png",
-          "500x500_0017_snake.png"
+          "bag.png"
         ],
         "correctAudios": [
           "27787752_2_sofa.mp3",
@@ -56,7 +55,7 @@
         "correctAnswerNum": "23"
       },
       {
-        "questionText": "drag the objects seen in the kitchen",
+        "questionText": "Drag the objects seen in the kitchen.",
         "questionImageName": "box_0000_cardboard.png",
         "questionAudioName": "drag the objects seen in the kitchen.mp3",
         "shouldPlayQuestionAudio": true,
@@ -64,19 +63,19 @@
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "500x500_0001_whale.png",
-          "500x500_0000_nuts.png",
-          "500x500_0000_grapes.png",
-          "500x500_0008_bookcase.png"
+          "vessel.png",
+          "cookpot.png",
+          "gasstove.png",
+          "soap.png"
         ],
         "correctAudios": [
-          "42294106_6_nuts.mp3",
-          "40532901_9_grapes.mp3"
+          "cookpot.mp3",
+          "gasstove.mp3"
         ],
         "correctAnswerNum": "23"
       },
       {
-        "questionText": "drag the objects seen in the playroom",
+        "questionText": "Drag the objects seen in the playroom.",
         "questionImageName": "box_0000_cardboard.png",
         "questionAudioName": "drag the objects seen in the playroom.mp3",
         "shouldPlayQuestionAudio": true,
@@ -84,19 +83,19 @@
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "500x500_0011_lamp.png",
-          "500x500_0008_cat.png",
-          "postbox.png",
-          "500x500_0016_teddy.png"
+          "teddy.png",
+          "500x500_0007_chair.png",
+          "brush.png",
+          "duck.png"
         ],
         "correctAudios": [
-          "30382274_3_lamp.mp3",
-          "TEDDY.mp3"
+          "teddy.mp3",
+          "duck.mp3"
         ],
         "correctAnswerNum": "14"
       },
       {
-        "questionText": "drag the objects seen in the kids room",
+        "questionText": "Drag the objects seen in the kids room.",
         "questionImageName": "box_0000_cardboard.png",
         "questionAudioName": "drag the objects seen in the kids room.mp3",
         "shouldPlayQuestionAudio": true,
@@ -104,10 +103,10 @@
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "ostrich.png",
-          "500x500_0008_bookcase.png",
-          "500x500_0001_whale.png",
-          "500x500_0001_table.png"
+          "kite.png",
+          "bookcase.png",
+          "sandbucket.png",
+          "table.png"
         ],
         "correctAudios": [
           "41607735_8_book-shelf.mp3",
@@ -116,7 +115,7 @@
         "correctAnswerNum": "24"
       },
       {
-        "questionText": "drag the objects seen in the bedroom",
+        "questionText": "Drag the objects seen in the bedroom.",
         "questionImageName": "box_0000_cardboard.png",
         "questionAudioName": "drag the objects seen in the bedroom.mp3",
         "shouldPlayQuestionAudio": true,
@@ -124,19 +123,19 @@
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "500x500_0001_table.png",
-          "500x500_0003_mirror.png",
-          "500x500_0013_parrot.png",
-          "500x500_0018_snail.png"
+          "bed.png",
+          "lamp.png",
+          "vessel.png",
+          "egg.png"
         ],
         "correctAudios": [
-          "table.mp3",
-          "28043883_7_mirror.mp3"
+          "bed.mp3",
+          "lamp.mp3"
         ],
         "correctAnswerNum": "12"
       },
       {
-        "questionText": "drag the objects seen in the living room",
+        "questionText": "Drag the objects seen in the bathroom.",
         "questionImageName": "box_0000_cardboard.png",
         "questionAudioName": "drag the objects seen in the living room.mp3",
         "shouldPlayQuestionAudio": true,
@@ -144,14 +143,14 @@
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "500x500_0017_duck.png",
-          "500x500_0008_cat.png",
-          "500x500_0011_lamp.png",
-          "500x500_0010_vase.png"
+          "vase.png",
+          "grate.png",
+          "tub.png",
+          "mirror.png"
         ],
         "correctAudios": [
-          "30382274_3_lamp.mp3",
-          "VASE.mp3"
+          "bathtub.mp3",
+          "mirror.mp3"
         ],
         "correctAnswerNum": "34"
       }

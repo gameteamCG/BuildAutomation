@@ -53,6 +53,9 @@ export default class startGame extends cc.Component {
     isMusicOn: boolean = true;
     @property(cc.AudioClip)
     playBtn_audio: cc.AudioClip = null;
+    @property(cc.Node)
+    loading: cc.Node = null;
+
 
     levelType: string = "1";
     currentLevel: string = "1";
@@ -365,7 +368,7 @@ export default class startGame extends cc.Component {
             }
         }
 
-        cc.director.preloadScene(this.NextSceneName);
+        //cc.director.preloadScene(this.NextSceneName);
         this.scheduleOnce(() => {
             console.log("jockey name = ", this.jockeyName);
 
@@ -386,9 +389,9 @@ export default class startGame extends cc.Component {
             }
 
             if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
-                this.scheduleOnce(() => {
-                    cc.director.loadScene(this.NextSceneName);
-                }, 2);
+                // this.scheduleOnce(() => {
+                //     cc.director.loadScene(this.NextSceneName);
+                // }, 2);
             }
         }, 1);
 
@@ -396,7 +399,13 @@ export default class startGame extends cc.Component {
         // this.OnTimer();
 
     }
-
+    OnStartGame(_event: cc.Event) {
+        cc.audioEngine.playEffect(this.playBtn_audio, false);
+        this.loading.active = true;
+        _event.target.active = false;
+        _event.target.getComponent(cc.Button).interactable = false;
+        cc.director.loadScene(this.NextSceneName);
+    }
     OnMusic(event: cc.Event) {
         if (event.target.children[0].activeInHierarchy) {
             this.isMusicOn = true;

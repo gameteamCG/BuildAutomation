@@ -55,26 +55,20 @@ var NewClass = /** @class */ (function (_super) {
         console.log("showedScreen--Congratulations");
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 0;
         this.scheduleOnce(function () {
-            _this.node.getChildByName("awesome").getComponent(cc.Animation).play();
-        }, 0.3);
+            _this.node.getChildByName("end").active = true;
+        }, 2);
         this.scheduleOnce(function () {
-            _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
-            _this.node.getComponent(cc.AudioSource).play();
-            cc.tween(_this.node.getChildByName("star1"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
-        }, 0.8);
-        this.scheduleOnce(function () {
-            _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
-            _this.node.getComponent(cc.AudioSource).play();
-            cc.tween(_this.node.getChildByName("star2"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
-        }, 1.3);
-        this.scheduleOnce(function () {
-            _this.node.getComponent(cc.AudioSource).clip = _this.star[0];
-            _this.node.getComponent(cc.AudioSource).play();
-            cc.tween(_this.node.getChildByName("star3"))
-                .to(0.5, { scale: 0.9 }, { easing: "sineInOut" }).start();
-        }, 1.8);
+            _this.node.getChildByName("1").active = true;
+            cc.audioEngine.playEffect(_this.star[0], false);
+            _this.scheduleOnce(function () {
+                _this.node.getChildByName("2").active = true;
+                cc.audioEngine.playEffect(_this.star[0], false);
+                _this.scheduleOnce(function () {
+                    _this.node.getChildByName("3").active = true;
+                    cc.audioEngine.playEffect(_this.star[0], false);
+                }, 0.8);
+            }, 0.4);
+        }, 0.1);
         this.scheduleOnce(function () {
             _this.node.getComponent(cc.AudioSource).clip = _this.yeah[0];
             _this.node.getComponent(cc.AudioSource).play();

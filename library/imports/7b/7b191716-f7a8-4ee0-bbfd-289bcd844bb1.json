@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gasstove",
+    "texture": "7f2ede93-a4be-46a5-8a80-555c08d0c596",
+    "atlas": "",
+    "rect": [
+      131,
+      417,
+      782,
+      209
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      1043,
+      1043
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

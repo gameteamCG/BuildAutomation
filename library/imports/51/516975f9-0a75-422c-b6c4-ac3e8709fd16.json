@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "vessel",
+    "texture": "03d66971-0e49-4b3d-83ec-7e40d606d209",
+    "atlas": "",
+    "rect": [
+      169,
+      263,
+      706,
+      516
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      1043,
+      1043
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

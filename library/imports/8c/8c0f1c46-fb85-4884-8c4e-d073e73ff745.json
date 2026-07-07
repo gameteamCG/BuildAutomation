@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tub",
+    "texture": "5823d6fe-b7ba-4d25-9e97-bfc3425ede73",
+    "atlas": "",
+    "rect": [
+      195,
+      281,
+      653,
+      481
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1043,
+      1043
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
