@@ -132,7 +132,7 @@
         {
             "questionText": "Drag the objects seen in the bathroom.",
             "questionImageName": "box_0000_cardboard.png",
-            "questionAudioName": "drag the objects seen in the living room.mp3",
+            "questionAudioName": "bathroom.mp3",
             "shouldPlayQuestionAudio": true,
             "commonOptionImageName": "panel.png",
             "isOptionText": false,

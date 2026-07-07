@@ -1285,8 +1285,8 @@
     "relativePath": "Games\\DragNDrop"
   },
   "fe7f2710-bc78-445e-965a-8ebdb050ff78": {
-    "asset": 1783353218553,
-    "meta": 1783353464693,
+    "asset": 1783401884839,
+    "meta": 1783403620236,
     "relativePath": "Games\\WhatWillHappenNext"
   },
   "dfc58db2-c9a7-4508-9aec-8dded7df7ac2": {
@@ -1810,8 +1810,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Assets\\horse png (1).png"
   },
   "6fd4a4d4-7d0f-41b1-8df8-284df5d08a0a": {
-    "asset": 1783403391475,
-    "meta": 1783403391478,
+    "asset": 1783403691960,
+    "meta": 1783403691965,
     "relativePath": "Games\\WhatWillHappenNext\\Scene\\Title.fire"
   },
   "92133877-574e-4eb5-9c58-79f64d3fc3ed": {
@@ -2845,8 +2845,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2"
   },
   "80d9f830-3c22-4fdb-b6dc-4653b57edb90": {
-    "asset": 1783353218439,
-    "meta": 1783353466351,
+    "asset": 1783401832006,
+    "meta": 1783403620239,
     "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5"
   },
   "a3b0792f-9c61-4c62-91aa-85614f91da1b": {
@@ -3055,13 +3055,13 @@
     "relativePath": "Games\\WhatWillHappenNext\\titleBG.png"
   },
   "08e650fe-03b7-4da0-9305-b4a8f5b47757": {
-    "asset": 1783353218575,
-    "meta": 1783353464693,
+    "asset": 1783399129743,
+    "meta": 1783403620236,
     "relativePath": "resources\\audios"
   },
   "03df1676-fdc9-4dfd-b250-91748c447546": {
-    "asset": 1783396200505,
-    "meta": 1783396622828,
+    "asset": 1783402253412,
+    "meta": 1783403620238,
     "relativePath": "resources\\images"
   },
   "6a5f40f5-f583-4fc2-a862-5df3496ab18b": {
@@ -3158,11 +3158,6 @@
     "asset": 1783353218566,
     "meta": 1783353465266,
     "relativePath": "resources\\audios\\CUPBOARD.mp3"
-  },
-  "707eb689-32f9-4737-8b1d-30fca21dcc76": {
-    "asset": 1783353218569,
-    "meta": 1783353465288,
-    "relativePath": "resources\\audios\\TEDDY.mp3"
   },
   "b9c51ba9-9322-4f74-a0ab-57cf457d5fb9": {
     "asset": 1783353218566,
@@ -3660,8 +3655,8 @@
     "relativePath": "Games\\WhatWillHappenNext\\Animation\\Puzzle_Animation 2\\audio 5\\positive_4.mp3"
   },
   "0b1af3a3-9e58-4136-b1fd-76169629faf8": {
-    "asset": 1783401884842,
-    "meta": 1783401884908,
+    "asset": 1783402216743,
+    "meta": 1783403620239,
     "relativePath": "Games\\WhatWillHappenNext\\1_Jaipuria_Old"
   },
   "4ccd9bea-37ae-4f1c-9399-7244e3815b89": {
@@ -4364,14 +4359,19 @@
     "meta": 1783402253461,
     "relativePath": "resources\\images\\bgmain.png"
   },
-  "89504f6a-127f-4d38-ba4d-9ec63444c98e": {
-    "asset": 1783402722625,
-    "meta": 1783402724030,
-    "relativePath": "resources\\game_data.json"
-  },
   "12188c2b-0d4b-464f-af83-522906b417c5": {
     "asset": 1783403229016,
     "meta": 1783403235596,
     "relativePath": "Games\\WhatWillHappenNext\\Scripts\\endScreen.ts"
+  },
+  "f4dc4c51-77ef-4381-b6e3-3b18ea267472": {
+    "asset": 1783403679852,
+    "meta": 1783403680286,
+    "relativePath": "resources\\audios\\bathroom.mp3"
+  },
+  "89504f6a-127f-4d38-ba4d-9ec63444c98e": {
+    "asset": 1783403689359,
+    "meta": 1783403691424,
+    "relativePath": "resources\\game_data.json"
   }
 }
