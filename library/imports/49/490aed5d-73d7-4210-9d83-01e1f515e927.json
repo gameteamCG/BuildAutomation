@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "Play",
+    "name": "play",
     "texture": "ebdcf6d5-da59-46c4-93a4-d523e9ae4ee0",
     "atlas": "",
     "rect": [
