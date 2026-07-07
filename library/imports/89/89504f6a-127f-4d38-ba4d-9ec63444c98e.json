@@ -17,6 +17,7 @@
       {
         "questionText": "drag the objects seen in the bedroom",
         "questionImageName": "box_0000_cardboard.png",
+        "levelBG": "bedroom1.png",
         "questionAudioName": "drag the objects seen in the bedroom.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "panel.png",

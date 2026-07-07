@@ -1,6 +1,7 @@
 
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -11,7 +12,8 @@ export default class NewClass extends cc.Component {
 
     @property(cc.SpriteFrame)
     private extraImg: cc.SpriteFrame = null;
-
+    @property(cc.SpriteFrame)
+    private BGs: cc.SpriteFrame[] = [];
     @property(cc.Node)
     dropNode: cc.Node = null;
 
@@ -255,6 +257,7 @@ export default class NewClass extends cc.Component {
     }
 
     start() {
+        this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.BGs[globalVariables.Instance.currentLevel - 1];
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
         // this.OptionsLayout();
@@ -627,12 +630,13 @@ export default class NewClass extends cc.Component {
 
 
     callJockey() {
+        console.log("theeeeeeee", startGame.Instance.jockeyName)
         let anim: string[] = [];
         if (startGame.Instance.jockeyName == "Podar") {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
         }
         else if (startGame.Instance.jockeyName == "Puzzle") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (startGame.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];

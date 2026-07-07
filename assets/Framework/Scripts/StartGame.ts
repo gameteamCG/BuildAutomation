@@ -19,6 +19,7 @@ interface AdditionalData {
 interface QuestionData {
     questionText: string;
     questionImageName: string;
+    levelBG: string;
     questionAudioName: string;
     shouldPlayQuestionAudio: boolean;
     commonOptionImageName: string;
