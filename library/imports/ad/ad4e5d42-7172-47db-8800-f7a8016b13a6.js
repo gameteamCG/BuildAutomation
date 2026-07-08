@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -329,7 +329,6 @@ var NewClass = /** @class */ (function (_super) {
         this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
-        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
     };
     NewClass.prototype.setOptionsLayout = function (type) {
         if (type == "horizontal") {
@@ -597,9 +596,9 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.callPositiveRection = function (_node) {
         var _this = this;
         _node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.extraImg;
-        //console.log("correctAudio--" + this.correctAudio.name);
         cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
-        // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
+        this.node.getChildByName("questionPanel").getChildByName("text").active = false;
+        this.node.getChildByName("questionPanel").getChildByName("text1").getComponent(cc.Label).string = this.correctAudio[parseInt(_node.name) - 1].name;
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
@@ -625,6 +624,8 @@ var NewClass = /** @class */ (function (_super) {
         switch (StartGame_1.default.Instance.templateType) {
             case "SimpleTap":
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").getChildByName("text").active = false;
+                this.node.getChildByName("questionPanel").getChildByName("text1").getComponent(cc.Label).string = this.correctAudio[voIndex].name;
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {
@@ -664,6 +665,8 @@ var NewClass = /** @class */ (function (_super) {
                 break;
             case "TapToCollect":
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").getChildByName("text").active = false;
+                this.node.getChildByName("questionPanel").getChildByName("text1").getComponent(cc.Label).string = this.correctAudio[voIndex].name;
                 this.scheduleOnce(function () {
                     _this.node.getChildByName("QuestionBox1").zIndex = 1;
                     _this.node.getChildByName("QuestionBox").zIndex = 1;
@@ -708,6 +711,8 @@ var NewClass = /** @class */ (function (_super) {
             case "ObjectsTweenIn":
                 //console.log("answer arrray index : ", this.answerArray.indexOf(_node.name));
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").getChildByName("text").active = false;
+                this.node.getChildByName("questionPanel").getChildByName("text1").getComponent(cc.Label).string = this.correctAudio[voIndex].name;
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(function () {

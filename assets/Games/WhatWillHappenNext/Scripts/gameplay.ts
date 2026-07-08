@@ -1,5 +1,4 @@
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -376,7 +375,6 @@ export default class NewClass extends cc.Component {
         this.questionBoxPosY = this.node.getChildByName("questionPanel").y;
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
-        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
     }
 
     setOptionsLayout(type: string) {
@@ -648,9 +646,9 @@ export default class NewClass extends cc.Component {
 
     callPositiveRection(_node: cc.Node) {
         _node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = this.extraImg;
-        //console.log("correctAudio--" + this.correctAudio.name);
         cc.audioEngine.playEffect(this.correctAudio[parseInt(_node.name) - 1], false);
-        // cc.tween(_node).to(0.5, { scale: 1.5, x: 0, y: 0 }, { easing: "sineInOut" }).start();
+        this.node.getChildByName("questionPanel").getChildByName("text").active = false;
+        this.node.getChildByName("questionPanel").getChildByName("text1").getComponent(cc.Label).string = this.correctAudio[parseInt(_node.name) - 1].name;
         cc.tween(_node).to(0.5, { width: 400, height: 400 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { width: 320, height: 320 }, { easing: "sineInOut" }).start();
         cc.tween(_node.children[0]).to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
@@ -676,6 +674,8 @@ export default class NewClass extends cc.Component {
         switch (startGame.Instance.templateType) {
             case "SimpleTap":
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").getChildByName("text").active = false;
+                this.node.getChildByName("questionPanel").getChildByName("text1").getComponent(cc.Label).string = this.correctAudio[voIndex].name;
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
@@ -715,6 +715,8 @@ export default class NewClass extends cc.Component {
                 break;
             case "TapToCollect":
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").getChildByName("text").active = false;
+                this.node.getChildByName("questionPanel").getChildByName("text1").getComponent(cc.Label).string = this.correctAudio[voIndex].name;
                 this.scheduleOnce(() => {
                     this.node.getChildByName("QuestionBox1").zIndex = 1;
                     this.node.getChildByName("QuestionBox").zIndex = 1;
@@ -760,6 +762,8 @@ export default class NewClass extends cc.Component {
             case "ObjectsTweenIn":
                 //console.log("answer arrray index : ", this.answerArray.indexOf(_node.name));
                 cc.audioEngine.playEffect(this.correctAudio[voIndex], false);
+                this.node.getChildByName("questionPanel").getChildByName("text").active = false;
+                this.node.getChildByName("questionPanel").getChildByName("text1").getComponent(cc.Label).string = this.correctAudio[voIndex].name;
                 _node.getChildByName("img").color = cc.Color.GRAY;
                 _node.getChildByName("tick").active = true;
                 this.scheduleOnce(() => {
