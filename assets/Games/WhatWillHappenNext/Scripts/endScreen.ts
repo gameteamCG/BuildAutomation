@@ -81,11 +81,16 @@ export default class NewClass extends cc.Component {
 
     }
 
-    OnEndBtn(_event: cc.Event) {
-        window.close();
+    EndButton() {
+        closeWindow();
     }
 
 
 
+
     // update (dt) {}
+}
+const closeWindow = () => {
+    window.open(location.href, "_self", "");
+    window.close()
 }

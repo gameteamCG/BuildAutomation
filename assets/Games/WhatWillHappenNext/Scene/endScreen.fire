@@ -1071,7 +1071,7 @@
     },
     "component": "",
     "_componentId": "12188wrDUtGT6+DUikGtBfF",
-    "handler": "OnEndBtn",
+    "handler": "EndButton",
     "customEventData": ""
   },
   {

@@ -89,8 +89,8 @@ var NewClass = /** @class */ (function (_super) {
             console.log("gameEnded--true");
         }, 2.3);
     };
-    NewClass.prototype.OnEndBtn = function (_event) {
-        window.close();
+    NewClass.prototype.EndButton = function () {
+        closeWindow();
     };
     __decorate([
         property(cc.AudioClip)
@@ -116,5 +116,9 @@ var NewClass = /** @class */ (function (_super) {
     return NewClass;
 }(cc.Component));
 exports.default = NewClass;
+var closeWindow = function () {
+    window.open(location.href, "_self", "");
+    window.close();
+};
 
 cc._RF.pop();

@@ -17,7 +17,7 @@
     "questionData": [
       {
         "questionText": "up",
-        "questionAudioName": "boy_climbing_up_the_stairs.mp3",
+        "questionAudioName": "L1.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "blank.png",
         "isOptionText": false,
@@ -34,7 +34,7 @@
       },
       {
         "questionText": "down",
-        "questionAudioName": "boy_sitting_down_on_the_see_saw.mp3",
+        "questionAudioName": "L2.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "blank.png",
         "isOptionText": false,
@@ -51,7 +51,7 @@
       },
       {
         "questionText": "down",
-        "questionAudioName": "hillQ.mp3",
+        "questionAudioName": "L3.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "blank.png",
         "isOptionText": false,
@@ -68,7 +68,7 @@
       },
       {
         "questionText": "down",
-        "questionAudioName": "girl_that_is_down_the_slide.mp3",
+        "questionAudioName": "L4.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "blank.png",
         "isOptionText": false,
@@ -85,7 +85,7 @@
       },
       {
         "questionText": "up",
-        "questionAudioName": "monkey_that_is_up_on_the_tree.mp3",
+        "questionAudioName": "L5.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "blank.png",
         "isOptionText": false,
@@ -102,7 +102,7 @@
       },
       {
         "questionText": "up",
-        "questionAudioName": "girl_that_has_jumped_up_high.mp3",
+        "questionAudioName": "L6.mp3",
         "shouldPlayQuestionAudio": true,
         "commonOptionImageName": "blank.png",
         "isOptionText": false,
