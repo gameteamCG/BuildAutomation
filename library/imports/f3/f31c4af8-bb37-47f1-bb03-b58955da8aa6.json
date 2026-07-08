@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Play",
+    "texture": "6e6e5be7-3ef3-404d-8c47-6167807921d1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      252,
+      251
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      252,
+      251
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

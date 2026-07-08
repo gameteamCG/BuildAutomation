@@ -365,7 +365,7 @@ var gameplay = /** @class */ (function (_super) {
         this.node.getChildByName("questionPanel").setPosition(cc.v2(0, 1500));
         // this.node.getChildByName("questionPanel").opacity = 255;
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
-        this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
+        // this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionText;
         this.OptionsLayoutVertical(this.optionsNode);
         this.OptionsLayoutVertical(this.dropZones);
         this.reverseOptionsLayout(this.optionsNode);
@@ -587,7 +587,7 @@ var gameplay = /** @class */ (function (_super) {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
@@ -721,7 +721,7 @@ var gameplay = /** @class */ (function (_super) {
                 anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_1", "negative_2", "negative_3"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
@@ -1065,7 +1065,8 @@ var gameplay = /** @class */ (function (_super) {
             this.answeredCount++;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
+            // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveRection(_dropNode, _node);

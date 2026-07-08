@@ -2113,13 +2113,13 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "",
-    "_N$string": "",
+    "_string": "cl blend words",
+    "_N$string": "cl blend words",
     "_fontSize": 80,
     "_lineHeight": 130,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "a6f28ba5-bac8-45de-b153-c627bcbece95"
+      "__uuid__": "b109bf26-acba-469a-81e1-019e442a53b4"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -2729,57 +2729,57 @@
     ],
     "positiveAudio": [
       {
-        "__uuid__": "e0d9f6fb-f075-4f14-9342-effd057f68ec"
+        "__uuid__": "e74d8320-b9f1-4b19-8a84-a57bf96551e8"
       },
       {
-        "__uuid__": "d7f6ddc8-9dff-4cb0-9132-3886f72b5e4b"
+        "__uuid__": "c2dd7166-8566-4373-8685-f1cdc19b7713"
       },
       {
-        "__uuid__": "6702bcb6-1561-48b8-96bf-e3a05e722fb0"
+        "__uuid__": "326b80f5-a63f-4259-89ae-849d5a624660"
       },
       {
-        "__uuid__": "f186e8c7-cbe1-4699-8da7-92a1c464d09b"
+        "__uuid__": "84212f6b-1785-4513-9671-f3a3c9bd0265"
       },
       {
-        "__uuid__": "da16b95f-2850-42ba-b4b3-a1c1d42340b9"
+        "__uuid__": "14e16130-9856-4302-9612-01305bbca4ac"
       },
       {
-        "__uuid__": "41e04b5f-b821-4709-b6a0-069ed45da528"
+        "__uuid__": "4f6c7f39-4ada-4712-81d5-c504a5bf6eab"
       },
       {
-        "__uuid__": "d4818062-c1d5-4449-875b-b22b75e46e24"
+        "__uuid__": "264259db-42dc-43bf-b3ae-8806bc1a3121"
       },
       {
-        "__uuid__": "0451fd4c-9cb5-48f6-97d3-8ef8ecb1297a"
+        "__uuid__": "f61211f4-3639-4b1f-853a-09ab10391005"
       },
       {
-        "__uuid__": "ddff93ee-ab4d-4e5e-9515-0e68ec0a6a5f"
+        "__uuid__": "316071fc-8f9c-4bde-a009-2c6513c99261"
       },
       {
-        "__uuid__": "23c6311d-448a-4a60-a912-b3188f8b503d"
+        "__uuid__": "0d638ab9-0c7e-466a-bbd1-87f9dfa39cbb"
       }
     ],
     "negativeAudio": [
       {
-        "__uuid__": "e6e865ee-cbcf-49fb-aa96-43c85a2bd095"
+        "__uuid__": "8a81d8dd-86ef-42bd-9b70-8ff7d8b4628f"
       },
       {
-        "__uuid__": "b024bef8-99b4-4d58-8a4a-10f203bf3f4b"
+        "__uuid__": "6f541c50-b154-48e8-bc71-416a28c97e8a"
       },
       {
-        "__uuid__": "dfc6c35d-f5e1-4ca9-89df-3739e1d71b67"
+        "__uuid__": "dbfc1744-5fd8-4c6a-8c52-fb65fe61bb1b"
       },
       {
-        "__uuid__": "caccd092-a8d6-4f28-8ee1-7e7f1507d467"
+        "__uuid__": "2f2bc11a-7ca1-4e3c-baa9-96236d7d99d8"
       },
       {
-        "__uuid__": "32b4734f-f142-4081-b008-95698bc7c7ca"
+        "__uuid__": "3119565a-fbd1-4cac-a066-d105008aa7e9"
       },
       {
-        "__uuid__": "1f9f9bc6-6174-4231-a38a-3061d4fe0225"
+        "__uuid__": "fe762d9d-f296-434f-9891-7a13776e8c47"
       },
       {
-        "__uuid__": "07d88c20-a52c-4c0b-88bc-815947ccfabb"
+        "__uuid__": "db5d3e3c-9068-400f-9cc4-f973fab89a18"
       }
     ],
     "stallionPositive": [],

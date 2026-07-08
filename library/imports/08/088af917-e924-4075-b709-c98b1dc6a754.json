@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "cl blend words",
+        "questionText": "clap",
         "questionAudioName": "match_the_blend_to_the_correct_picture.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz3_1.png",
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "questionText": "cl blend words",
+        "questionText": "cloud",
         "questionAudioName": "match_the_blend_to_the_correct_picture.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz3_1.png",
@@ -57,7 +57,7 @@
         ]
       },
       {
-        "questionText": "cl blend words",
+        "questionText": "clock",
         "questionAudioName": "match_the_blend_to_the_correct_picture.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz3_1.png",
@@ -78,7 +78,7 @@
         ]
       },
       {
-        "questionText": "'cl' blend words",
+        "questionText": "claw",
         "questionAudioName": "match_the_blend_to_the_correct_picture.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz3_1.png",
@@ -99,7 +99,7 @@
         ]
       },
       {
-        "questionText": "cl blend words",
+        "questionText": "clown",
         "questionAudioName": "match_the_blend_to_the_correct_picture.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz3_1.png",
@@ -120,7 +120,7 @@
         ]
       },
       {
-        "questionText": "cl blend words",
+        "questionText": "clip",
         "questionAudioName": "match_the_blend_to_the_correct_picture.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz3_1.png",
@@ -141,7 +141,7 @@
         ]
       },
       {
-        "questionText": "cl blend words",
+        "questionText": "clue",
         "questionAudioName": "match_the_blend_to_the_correct_picture.mp3",
         "shouldPlayQuestionAudio": true,
         "commonLeftOptionImageName": "puz3_1.png",
