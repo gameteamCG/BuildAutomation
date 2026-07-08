@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -36,7 +36,6 @@ var gameplay = /** @class */ (function (_super) {
         _this.tlc_font = null;
         _this.supercub_font = null;
         _this.popSound = [];
-        _this.popSound2 = [];
         _this.questionSound = [];
         _this.positiveSound = [];
         _this.negativeSound = [];
@@ -1085,9 +1084,6 @@ var gameplay = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], gameplay.prototype, "popSound", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], gameplay.prototype, "popSound2", void 0);
     __decorate([
         property(cc.AudioClip)
     ], gameplay.prototype, "questionSound", void 0);

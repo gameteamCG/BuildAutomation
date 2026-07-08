@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\Jaipuria\\LKG\\Numbers_1_6_LKG_week4_Day1",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
