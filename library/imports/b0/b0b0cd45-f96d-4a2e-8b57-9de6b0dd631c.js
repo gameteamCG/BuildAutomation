@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
@@ -558,6 +558,9 @@ var NewClass = /** @class */ (function (_super) {
         else {
             this.interactable = true;
         }
+    };
+    NewClass.prototype.playButtonSound = function () {
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
     };
     NewClass.prototype.CallJockey = function () {
         var _this = this;

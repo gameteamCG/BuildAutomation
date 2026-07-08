@@ -1,4 +1,5 @@
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/ProgressBar/Scripts/ProgressBar";
+
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 
 const { ccclass, property } = cc._decorator;
@@ -627,7 +628,9 @@ export default class NewClass extends cc.Component {
             this.interactable = true;
         }
     }
-
+    playButtonSound() {
+        cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+    }
     CallJockey() {
         let anim: string[] = [];
         if (startGame.Instance.jockeyName == "Podar") {
