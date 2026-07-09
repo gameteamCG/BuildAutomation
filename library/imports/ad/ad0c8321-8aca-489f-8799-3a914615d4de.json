@@ -967,12 +967,14 @@
     "BGM_audio": null,
     "volume": 1,
     "NextSceneName": "WebViewDemo",
-    "TotalLevels": 7,
     "isAgeParameterNeeded": true,
     "LevelAgeParameters": [],
+    "playBtn_audio": null,
     "isPremiumGame": false,
     "isMobileNumberPriority": false,
     "premiumLevel": 3,
+    "jockey": null,
+    "totalLevels": 7,
     "_id": "9cn2lOJBZHB78JfXbiF0DT"
   }
 ]
