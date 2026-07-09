@@ -123,7 +123,7 @@
                 "L5cb.png",
                 "L5db.png"
             ],
-            "correctAudioName": "positive_5.mp3",
+            "correctAudioName": "positive_1.mp3",
             "wrongAudioName": "negative_1.mp3",
             "reiterationAudioName": "L5.mp3",
             "correctAnswerNum": "1"
