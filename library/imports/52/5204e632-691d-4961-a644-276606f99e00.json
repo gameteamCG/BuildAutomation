@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "L5bb",
+    "texture": "bb8e5075-b4c4-43ad-a19c-c6ec67bad8da",
+    "atlas": "",
+    "rect": [
+      21,
+      1,
+      260,
+      298
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

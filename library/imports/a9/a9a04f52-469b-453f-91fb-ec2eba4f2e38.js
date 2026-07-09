@@ -295,12 +295,17 @@ var Gameplay = /** @class */ (function (_super) {
         }
         if (this.optionsLayout == "layout3") {
             this.arrangeGridChildren(this.options, 50, _optionCount);
+            var _laypout1posY = [0, 0, 0, 0, 0];
+            var _laypout1posX = [-397.325, -126.293, 144.722, 417.624, 50];
+            for (var i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
+            }
         }
         else {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posY = [-150, 0, -100, 0, 50];
+            var _laypout1posY = [0, 0, 0, 0, 50];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_optionParent.children[i].x, _laypout1posY[i]);
             }

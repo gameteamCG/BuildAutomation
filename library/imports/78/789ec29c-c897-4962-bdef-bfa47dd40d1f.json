@@ -21,20 +21,20 @@
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "capsicum.png",
-          "brinjal.png",
-          "grapes.png",
-          "pupkin.png"
+          "L1ac.png",
+          "L1bc.png",
+          "L1cc.png",
+          "L1dc.png"
         ],
         "optionsBg": [
-          "capsicum1.png",
-          "bringal1.png",
-          "grapes1.png",
-          "pukin1.png"
+          "L1ab.png",
+          "L1bb.png",
+          "L1cb.png",
+          "L1db.png"
         ],
         "correctAudioName": "positive_1.mp3",
         "wrongAudioName": "negative_1.mp3",
-        "reiterationAudioName": "grapesareafruit.mp3",
+        "reiterationAudioName": "L1.mp3",
         "correctAnswerNum": "3"
       },
       {
@@ -45,21 +45,21 @@
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "potato.png",
-          "carrat.png",
-          "onion.png",
-          "apple.png"
+          "L2ac.png",
+          "L2bc.png",
+          "L2cc.png",
+          "L2dc.png"
         ],
         "optionsBg": [
-          "patato1.png",
-          "carrat1.png",
-          "onion1.png",
-          "apple1.png"
+          "L2ab.png",
+          "L2bb.png",
+          "L2cb.png",
+          "L2db.png"
         ],
         "correctAudioName": "positive_2.mp3",
         "wrongAudioName": "negative_2.mp3",
-        "reiterationAudioName": "appleisafruit.mp3",
-        "correctAnswerNum": "4"
+        "reiterationAudioName": "L2.mp3",
+        "correctAnswerNum": "1"
       },
       {
         "questionLayout": "layout3",
@@ -69,63 +69,69 @@
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "banana.png",
-          "mango.png",
-          "capsicum.png",
-          "grapes.png"
+          "L3ac.png",
+          "L3bc.png",
+          "L3cc.png",
+          "L1cc.png"
         ],
         "optionsBg": [
-          "banana1.png",
-          "mango1.png",
-          "capsicum1.png",
-          "grapes1.png"
+          "L3ab.png",
+          "L3bb.png",
+          "L3cb.png",
+          "L1cb.png"
         ],
         "correctAudioName": "positive_3.mp3",
-        "wrongAudioName": "negative_3.mp3",
-        "reiterationAudioName": "capsicumvegetable.mp3",
+        "wrongAudioName": "negative_1.mp3",
+        "reiterationAudioName": "L3.mp3",
+        "correctAnswerNum": "2"
+      },
+      {
+        "questionLayout": "layout3",
+        "questionBgName": "BG.png",
+        "questionAudioName": "Selecttheodoneout.mp3",
+        "shouldPlayQuestionAudio": true,
+        "isOptionText": false,
+        "numberOfOptions": 4,
+        "options": [
+          "L4ac.png",
+          "L4bc.png",
+          "L4cc.png",
+          "L4dc.png"
+        ],
+        "optionsBg": [
+          "L4ab.png",
+          "L4bb.png",
+          "L4cb.png",
+          "L4db.png"
+        ],
+        "correctAudioName": "positive_4.mp3",
+        "wrongAudioName": "negative_2.mp3",
+        "reiterationAudioName": "L4.mp3",
         "correctAnswerNum": "3"
       },
       {
-        "questionLayout": "layout1",
+        "questionLayout": "layout3",
         "questionBgName": "BG.png",
         "questionAudioName": "Selecttheodoneout.mp3",
         "shouldPlayQuestionAudio": true,
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "o.png",
-          "pp.png",
-          "p.png",
-          "ppp.png"
+          "L5ac.png",
+          "L5bc.png",
+          "L5cc.png",
+          "L5dc.png"
         ],
         "optionsBg": [
-          "blank.png"
+          "L5ab.png",
+          "L5bb.png",
+          "L5cb.png",
+          "L5db.png"
         ],
-        "correctAudioName": "positive_4.mp3",
+        "correctAudioName": "positive_5.mp3",
         "wrongAudioName": "negative_1.mp3",
-        "reiterationAudioName": "potatoisavegetable.mp3",
-        "correctAnswerNum": "4"
-      },
-      {
-        "questionLayout": "layout1",
-        "questionBgName": "BG.png",
-        "questionAudioName": "Selecttheodoneout.mp3",
-        "shouldPlayQuestionAudio": true,
-        "isOptionText": false,
-        "numberOfOptions": 4,
-        "options": [
-          "a.png",
-          "cc.png",
-          "b.png",
-          "g.png"
-        ],
-        "optionsBg": [
-          "blank.png"
-        ],
-        "correctAudioName": "positive_1.mp3",
-        "wrongAudioName": "negative_2.mp3",
-        "reiterationAudioName": "carrotisavegetable.mp3",
-        "correctAnswerNum": "2"
+        "reiterationAudioName": "L5.mp3",
+        "correctAnswerNum": "1"
       }
     ]
   }
