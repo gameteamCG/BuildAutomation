@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "titleBG",
+    "name": "titleBGN",
     "texture": "fc58c4ec-3fdc-4062-8984-e9f5d99fca56",
     "atlas": "",
     "rect": [

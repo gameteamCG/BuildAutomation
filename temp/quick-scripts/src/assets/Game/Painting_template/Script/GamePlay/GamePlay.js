@@ -234,8 +234,9 @@ var GamePlay = /** @class */ (function (_super) {
         var _this = this;
         var duration = 0;
         if (this.currentLevel != 0) {
-            cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
-            duration = this.reiteration_Audio[this.currentLevel - 1].duration;
+            console.log("this.currentLevel - 1", this.currentLevel - 1, this.reiteration_Audio);
+            //cc.audioEngine.playEffect(this.reiteration_Audio[this.currentLevel - 1], false);
+            //duration = this.reiteration_Audio[this.currentLevel - 1].duration;
             console.log("correctAnswer--" + (this.currentLevel));
             console.log("levelComplete--" + (this.currentLevel));
         }
@@ -263,7 +264,7 @@ var GamePlay = /** @class */ (function (_super) {
                 _this.questionNode.getParent().active = false;
                 cc.director.loadScene("gameEnded");
             }
-        }, duration);
+        }, 0);
     };
     GamePlay.prototype.loadSpriteFrame = function (imageName, callback) {
         cc.loader.loadRes("images/" + imageName, cc.SpriteFrame, function (err, spriteFrame) {
