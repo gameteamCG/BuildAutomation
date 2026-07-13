@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -259,7 +259,6 @@ var NewClass = /** @class */ (function (_super) {
             // });
             var counter = 1;
             var _loop_5 = function (i) {
-                console.log("Option loop");
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isOptionText) {
                     this_4.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options[i], function (spriteFrame) {
                         //this.spriteArray.push(spriteFrame);
@@ -280,7 +279,6 @@ var NewClass = /** @class */ (function (_super) {
             var counter1 = 1;
             var AnswerStartIndex = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].options.length;
             var _loop_6 = function (i) {
-                console.log("Answer loop");
                 if (!StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].isAnswerText) {
                     this_5.loadSpriteFrame(StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].answers[i - AnswerStartIndex], function (spriteFrame) {
                         //this.spriteArray.push(spriteFrame);
@@ -291,7 +289,6 @@ var NewClass = /** @class */ (function (_super) {
                     this_5.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].answers[i - AnswerStartIndex];
                     //this.textArray.push(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].answers[i]);
                 }
-                console.log("Options : ", this_5.node.getChildByName("Option"));
                 this_5.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("label").name = counter1.toString();
                 counter1++;
             };
@@ -305,13 +302,9 @@ var NewClass = /** @class */ (function (_super) {
         this.currentJcokey.active = true;
     };
     NewClass.prototype.start = function () {
-        console.log("ImageArray : ", this.spriteArray);
         ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
         this.TotalOptions = this.node.getChildByName("Option").children.length;
-        // this.setAnswerArray();
-        // this.OptionsLayout();
-        //this.callThirdObjectIn();
         this.canTouch = false;
         this.callOptionIn();
         if (StartGame_1.default.Instance.jockeyName == "bag") {
@@ -400,7 +393,6 @@ var NewClass = /** @class */ (function (_super) {
                 option.opacity = 255;
                 option.active = true;
                 counter++;
-                console.log("counter : ", counter);
                 option.name = counter.toString();
                 startX += (objWidth) + offsetX;
                 option.opacity = 0;
@@ -425,6 +417,10 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.callOptionIn = function () {
         var _this = this;
+        this.node.getChildByName("Option").children[0].setPosition(-250, 145);
+        this.node.getChildByName("Option").children[1].setPosition(250, 145);
+        this.node.getChildByName("Option").children[2].setPosition(-250, -160);
+        this.node.getChildByName("Option").children[3].setPosition(250, -160);
         this.shufflePositions();
         if (StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "supercub") {
             // this.node.getChildByName("Option").setPosition(-100, 0);
@@ -439,6 +435,7 @@ var NewClass = /** @class */ (function (_super) {
         }, 0.5);
     };
     NewClass.prototype.moveCards = function () {
+        var _this = this;
         for (var i = 0; i < this.node.getChildByName("Option").children.length; i++) {
             cc.tween(this.node.getChildByName("Option").children[i])
                 .to(0.3, { x: 0, y: 0 })
@@ -448,14 +445,14 @@ var NewClass = /** @class */ (function (_super) {
                 .to(0.3, { x: this.positionArray[this.arr[i]].x, y: this.positionArray[this.arr[i]].y }).start();
         }
         this.scheduleOnce(function () {
-            // if (globalVariables.Instance.currentLevel == 1) {
-            //     let hand = this.node.getChildByName("hand");
-            //     console.log("answer array num = ", this.answerArray[0]);
-            //     hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-            //     hand.setPosition(0, -30);
-            //     hand.setParentWithSamePos(this.node);
-            //     hand.getComponent(cc.Animation).play();
-            // }
+            if (globalVariables_1.default.Instance.currentLevel == 1) {
+                var hand = _this.node.getChildByName("hand");
+                console.log("answer array num = ", _this.answerArray[0]);
+                hand.setParent(_this.node.getChildByName("Option").getChildByName("1"));
+                hand.setPosition(0, -30);
+                hand.setParentWithSamePos(_this.node);
+                hand.getComponent(cc.Animation).play();
+            }
         }, 1.5);
     };
     NewClass.prototype.PlayQuestionAudio = function () {
@@ -472,14 +469,6 @@ var NewClass = /** @class */ (function (_super) {
             this.node.getChildByName("Option").children.forEach(function (element) {
                 element.getComponent(cc.Button).interactable = true;
             });
-            if (globalVariables_1.default.Instance.currentLevel == 1) {
-                var hand = this.node.getChildByName("hand");
-                console.log("answer array num = ", this.answerArray[0]);
-                hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                hand.setPosition(0, -30);
-                hand.setParentWithSamePos(this.node);
-                hand.getComponent(cc.Animation).play();
-            }
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "supercub") {
             var intoAnim = "intro";
@@ -497,14 +486,6 @@ var NewClass = /** @class */ (function (_super) {
                     _this.node.getChildByName("Option").children.forEach(function (element) {
                         element.getComponent(cc.Button).interactable = true;
                     });
-                    if (globalVariables_1.default.Instance.currentLevel == 1) {
-                        var hand = _this.node.getChildByName("hand");
-                        console.log("answer array num = ", _this.answerArray[0]);
-                        hand.setParent(_this.node.getChildByName("Option").getChildByName("1"));
-                        hand.setPosition(0, -30);
-                        hand.setParentWithSamePos(_this.node);
-                        hand.getComponent(cc.Animation).play();
-                    }
                 }
                 else {
                     cc.audioEngine.playEffect(_this.questionSound[0], false);
@@ -516,14 +497,6 @@ var NewClass = /** @class */ (function (_super) {
                             _this.node.getChildByName("Option").children.forEach(function (element) {
                                 element.getComponent(cc.Button).interactable = true;
                             });
-                            if (globalVariables_1.default.Instance.currentLevel == 1) {
-                                var hand = _this.node.getChildByName("hand");
-                                console.log("answer array num = ", _this.answerArray[0]);
-                                hand.setParent(_this.node.getChildByName("Option").getChildByName("1"));
-                                hand.setPosition(0, -30);
-                                hand.setParentWithSamePos(_this.node);
-                                hand.getComponent(cc.Animation).play();
-                            }
                         }, _this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
                     }, _this.questionSound[0].duration);
                 }
@@ -563,12 +536,12 @@ var NewClass = /** @class */ (function (_super) {
                 this.scheduleOnce(function () {
                     _this.card1.setParent(_this.node.getChildByName("Panel"));
                     _this.card2.setParent(_this.node.getChildByName("Panel"));
-                    _this.node.getChildByName("Panel").getChildByName(card1Name_1).setPosition(-150, 0);
-                    _this.node.getChildByName("Panel").getChildByName(card2Name_1).setPosition(150, 0);
+                    _this.node.getChildByName("Panel").getChildByName(card1Name_1).setPosition(-200, 0);
+                    _this.node.getChildByName("Panel").getChildByName(card2Name_1).setPosition(200, 0);
                     _this.node.getChildByName("Panel").getChildByName(card1Name_1).scale = 0;
                     _this.node.getChildByName("Panel").getChildByName(card2Name_1).scale = 0;
-                    cc.tween(_this.node.getChildByName("Panel").getChildByName(card1Name_1)).to(0.5, { scale: 1.3 }).start();
-                    cc.tween(_this.node.getChildByName("Panel").getChildByName(card2Name_1)).to(0.5, { scale: 1.3 }).start();
+                    cc.tween(_this.node.getChildByName("Panel").getChildByName(card1Name_1)).to(0.5, { scale: 1 }).start();
+                    cc.tween(_this.node.getChildByName("Panel").getChildByName(card2Name_1)).to(0.5, { scale: 1 }).start();
                     _this.scheduleOnce(function () {
                         var audioIndex = 0;
                         if (parseInt(card1Name_1) < parseInt(card2Name_1)) {
@@ -1129,5 +1102,89 @@ var NewClass = /** @class */ (function (_super) {
     return NewClass;
 }(cc.Component));
 exports.default = NewClass;
+// {
+//   "questionText": "चित्र का सही शब्द से मिलान करें",
+//   "questionAudioName": "qvo.mp3",
+//   "shouldPlayQuestionAudio": true,
+//   "backCardImageName": "back.png",
+//   "frontCardImageName": "front.png",
+//   "isOptionText": false,
+//   "options": [
+//     "Artboard 2 copy 2.png",
+//     "Artboard 2 copy 3.png"
+//   ],
+//   "reiterationAudios": [
+//     "पेड.mp3",
+//     "शेर.mp3"
+//   ],
+//   "isAnswerText": true,
+//   "answers": [
+//     "पेड",
+//     "शेर"
+//   ]
+// },
+// {
+//   "questionText": "चित्र का सही शब्द से मिलान करें",
+//   "questionAudioName": "qvo.mp3",
+//   "shouldPlayQuestionAudio": true,
+//   "backCardImageName": "back.png",
+//   "frontCardImageName": "front.png",
+//   "isOptionText": false,
+//   "options": [
+//     "Artboard 2 copy 4.png",
+//     "Artboard 2 copy 7.png"
+//   ],
+//   "reiterationAudios": [
+//     "बेर.mp3",
+//     "खेत.mp3"
+//   ],
+//   "isAnswerText": true,
+//   "answers": [
+//     "बेर",
+//     "खेत"
+//   ]
+// },
+// {
+//   "questionText": "चित्र का सही शब्द से मिलान करें",
+//   "questionAudioName": "qvo.mp3",
+//   "shouldPlayQuestionAudio": true,
+//   "backCardImageName": "back.png",
+//   "frontCardImageName": "front.png",
+//   "isOptionText": false,
+//   "options": [
+//     "Artboard 2 copy 6.png",
+//     "Artboard 2 copy 5.png"
+//   ],
+//   "reiterationAudios": [
+//     "रेल.mp3",
+//     "जेल.mp3"
+//   ],
+//   "isAnswerText": true,
+//   "answers": [
+//     "रेल",
+//     "जेल"
+//   ]
+// },
+// {
+//   "questionText": "चित्र का सही शब्द से मिलान करें",
+//   "questionAudioName": "qvo.mp3",
+//   "shouldPlayQuestionAudio": true,
+//   "backCardImageName": "back.png",
+//   "frontCardImageName": "front.png",
+//   "isOptionText": false,
+//   "options": [
+//     "Artboard 2 copy 8.png",
+//     "oil.png"
+//   ],
+//   "reiterationAudios": [
+//     "रेत.mp3",
+//     "तेल.mp3"
+//   ],
+//   "isAnswerText": true,
+//   "answers": [
+//     "रेत",
+//     "तेल"
+//   ]
+// }
 
 cc._RF.pop();

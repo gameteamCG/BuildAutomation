@@ -1,0 +1,82 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "ए की मात्रा",
+      "totalLevel": "3",
+      "TitleImageName": "Asset132.png",
+      "introBgName": "bg_2.png",
+      "bgmMusicName": "BGM.mp3",
+      "mainBgName": "bg.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "चित्र का सही शब्द से मिलान करें",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "1.png",
+          "2.png"
+        ],
+        "reiterationAudios": [
+          "केला.mp3",
+          "सेब.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "केला",
+          "सेब"
+        ]
+      },
+      {
+        "questionText": "चित्र का सही शब्द से मिलान करें",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "3.png",
+          "4.png"
+        ],
+        "reiterationAudios": [
+          "रेल.mp3",
+          "हथेली.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "रेल",
+          "हथेली"
+        ]
+      },
+      {
+        "questionText": "चित्र का सही शब्द से मिलान करें",
+        "questionAudioName": "qvo.mp3",
+        "shouldPlayQuestionAudio": true,
+        "backCardImageName": "back.png",
+        "frontCardImageName": "front.png",
+        "isOptionText": false,
+        "options": [
+          "5.png",
+          "6.png"
+        ],
+        "reiterationAudios": [
+          "बेसन.mp3",
+          "लालटेन.mp3"
+        ],
+        "isAnswerText": true,
+        "answers": [
+          "बेसन",
+          "लालटेन"
+        ]
+      }
+    ]
+  }
+}

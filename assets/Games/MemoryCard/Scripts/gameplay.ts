@@ -1,6 +1,4 @@
-
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 
@@ -282,7 +280,6 @@ export default class NewClass extends cc.Component {
             // });
             let counter: number = 1;
             for (let i = 0; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options.length; i++) {
-                console.log("Option loop");
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionText) {
                     this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i], (spriteFrame) => {
                         //this.spriteArray.push(spriteFrame);
@@ -301,7 +298,6 @@ export default class NewClass extends cc.Component {
             let counter1: number = 1;
             let AnswerStartIndex: number = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options.length
             for (let i = AnswerStartIndex; i < startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].answers.length + AnswerStartIndex; i++) {
-                console.log("Answer loop");
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isAnswerText) {
                     this.loadSpriteFrame(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].answers[i - AnswerStartIndex], (spriteFrame) => {
                         //this.spriteArray.push(spriteFrame);
@@ -313,7 +309,6 @@ export default class NewClass extends cc.Component {
                     this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].answers[i - AnswerStartIndex];
                     //this.textArray.push(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].answers[i]);
                 }
-                console.log("Options : ", this.node.getChildByName("Option"));
                 this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("label").name = counter1.toString();
                 counter1++;
             }
@@ -324,14 +319,9 @@ export default class NewClass extends cc.Component {
     }
 
     start() {
-        console.log("ImageArray : ", this.spriteArray);
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
         this.TotalOptions = this.node.getChildByName("Option").children.length;
-        // this.setAnswerArray();
-        // this.OptionsLayout();
-        //this.callThirdObjectIn();
-
         this.canTouch = false;
 
 
@@ -445,7 +435,6 @@ export default class NewClass extends cc.Component {
                 option.opacity = 255;
                 option.active = true;
                 counter++;
-                console.log("counter : ", counter);
                 option.name = counter.toString();
                 startX += (objWidth) + offsetX;
                 option.opacity = 0;
@@ -473,6 +462,10 @@ export default class NewClass extends cc.Component {
     }
 
     callOptionIn() {
+        this.node.getChildByName("Option").children[0].setPosition(-250, 145)
+        this.node.getChildByName("Option").children[1].setPosition(250, 145)
+        this.node.getChildByName("Option").children[2].setPosition(-250, -160)
+        this.node.getChildByName("Option").children[3].setPosition(250, -160)
         this.shufflePositions();
         if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
             // this.node.getChildByName("Option").setPosition(-100, 0);
@@ -497,14 +490,14 @@ export default class NewClass extends cc.Component {
                 .to(0.3, { x: this.positionArray[this.arr[i]].x, y: this.positionArray[this.arr[i]].y }).start();
         }
         this.scheduleOnce(() => {
-            // if (globalVariables.Instance.currentLevel == 1) {
-            //     let hand = this.node.getChildByName("hand");
-            //     console.log("answer array num = ", this.answerArray[0]);
-            //     hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-            //     hand.setPosition(0, -30);
-            //     hand.setParentWithSamePos(this.node);
-            //     hand.getComponent(cc.Animation).play();
-            // }
+            if (globalVariables.Instance.currentLevel == 1) {
+                let hand = this.node.getChildByName("hand");
+                console.log("answer array num = ", this.answerArray[0]);
+                hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
+                hand.setPosition(0, -30);
+                hand.setParentWithSamePos(this.node);
+                hand.getComponent(cc.Animation).play();
+            }
         }, 1.5);
     }
 
@@ -521,14 +514,6 @@ export default class NewClass extends cc.Component {
             this.node.getChildByName("Option").children.forEach(element => {
                 element.getComponent(cc.Button).interactable = true;
             });
-            if (globalVariables.Instance.currentLevel == 1) {
-                let hand = this.node.getChildByName("hand");
-                console.log("answer array num = ", this.answerArray[0]);
-                hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                hand.setPosition(0, -30);
-                hand.setParentWithSamePos(this.node);
-                hand.getComponent(cc.Animation).play();
-            }
         }
         else if (startGame.Instance.jockeyName == "tlc" || startGame.Instance.jockeyName == "supercub") {
             let intoAnim = "intro";
@@ -546,14 +531,6 @@ export default class NewClass extends cc.Component {
                     this.node.getChildByName("Option").children.forEach(element => {
                         element.getComponent(cc.Button).interactable = true;
                     });
-                    if (globalVariables.Instance.currentLevel == 1) {
-                        let hand = this.node.getChildByName("hand");
-                        console.log("answer array num = ", this.answerArray[0]);
-                        hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                        hand.setPosition(0, -30);
-                        hand.setParentWithSamePos(this.node);
-                        hand.getComponent(cc.Animation).play();
-                    }
                 }
                 else {
                     cc.audioEngine.playEffect(this.questionSound[0], false);
@@ -565,14 +542,6 @@ export default class NewClass extends cc.Component {
                             this.node.getChildByName("Option").children.forEach(element => {
                                 element.getComponent(cc.Button).interactable = true;
                             });
-                            if (globalVariables.Instance.currentLevel == 1) {
-                                let hand = this.node.getChildByName("hand");
-                                console.log("answer array num = ", this.answerArray[0]);
-                                hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                                hand.setPosition(0, -30);
-                                hand.setParentWithSamePos(this.node);
-                                hand.getComponent(cc.Animation).play();
-                            }
                         }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
                     }, this.questionSound[0].duration);
                 }
@@ -614,12 +583,12 @@ export default class NewClass extends cc.Component {
                 this.scheduleOnce(() => {
                     this.card1.setParent(this.node.getChildByName("Panel"));
                     this.card2.setParent(this.node.getChildByName("Panel"));
-                    this.node.getChildByName("Panel").getChildByName(card1Name).setPosition(-150, 0);
-                    this.node.getChildByName("Panel").getChildByName(card2Name).setPosition(150, 0);
+                    this.node.getChildByName("Panel").getChildByName(card1Name).setPosition(-200, 0);
+                    this.node.getChildByName("Panel").getChildByName(card2Name).setPosition(200, 0);
                     this.node.getChildByName("Panel").getChildByName(card1Name).scale = 0;
                     this.node.getChildByName("Panel").getChildByName(card2Name).scale = 0;
-                    cc.tween(this.node.getChildByName("Panel").getChildByName(card1Name)).to(0.5, { scale: 1.3 }).start();
-                    cc.tween(this.node.getChildByName("Panel").getChildByName(card2Name)).to(0.5, { scale: 1.3 }).start();
+                    cc.tween(this.node.getChildByName("Panel").getChildByName(card1Name)).to(0.5, { scale: 1 }).start();
+                    cc.tween(this.node.getChildByName("Panel").getChildByName(card2Name)).to(0.5, { scale: 1 }).start();
                     this.scheduleOnce(() => {
                         let audioIndex: number = 0;
                         if (parseInt(card1Name) < parseInt(card2Name)) {
@@ -1125,3 +1094,88 @@ export default class NewClass extends cc.Component {
 
 
 }
+
+// {
+//   "questionText": "चित्र का सही शब्द से मिलान करें",
+//   "questionAudioName": "qvo.mp3",
+//   "shouldPlayQuestionAudio": true,
+//   "backCardImageName": "back.png",
+//   "frontCardImageName": "front.png",
+//   "isOptionText": false,
+//   "options": [
+//     "Artboard 2 copy 2.png",
+//     "Artboard 2 copy 3.png"
+//   ],
+//   "reiterationAudios": [
+//     "पेड.mp3",
+//     "शेर.mp3"
+//   ],
+//   "isAnswerText": true,
+//   "answers": [
+//     "पेड",
+//     "शेर"
+//   ]
+// },
+// {
+//   "questionText": "चित्र का सही शब्द से मिलान करें",
+//   "questionAudioName": "qvo.mp3",
+//   "shouldPlayQuestionAudio": true,
+//   "backCardImageName": "back.png",
+//   "frontCardImageName": "front.png",
+//   "isOptionText": false,
+//   "options": [
+//     "Artboard 2 copy 4.png",
+//     "Artboard 2 copy 7.png"
+//   ],
+//   "reiterationAudios": [
+//     "बेर.mp3",
+//     "खेत.mp3"
+//   ],
+//   "isAnswerText": true,
+//   "answers": [
+//     "बेर",
+//     "खेत"
+//   ]
+// },
+// {
+//   "questionText": "चित्र का सही शब्द से मिलान करें",
+//   "questionAudioName": "qvo.mp3",
+//   "shouldPlayQuestionAudio": true,
+//   "backCardImageName": "back.png",
+//   "frontCardImageName": "front.png",
+//   "isOptionText": false,
+//   "options": [
+//     "Artboard 2 copy 6.png",
+//     "Artboard 2 copy 5.png"
+//   ],
+//   "reiterationAudios": [
+//     "रेल.mp3",
+//     "जेल.mp3"
+//   ],
+//   "isAnswerText": true,
+//   "answers": [
+//     "रेल",
+//     "जेल"
+//   ]
+// },
+// {
+//   "questionText": "चित्र का सही शब्द से मिलान करें",
+//   "questionAudioName": "qvo.mp3",
+//   "shouldPlayQuestionAudio": true,
+//   "backCardImageName": "back.png",
+//   "frontCardImageName": "front.png",
+//   "isOptionText": false,
+//   "options": [
+//     "Artboard 2 copy 8.png",
+//     "oil.png"
+//   ],
+//   "reiterationAudios": [
+//     "रेत.mp3",
+//     "तेल.mp3"
+//   ],
+//   "isAnswerText": true,
+//   "answers": [
+//     "रेत",
+//     "तेल"
+//   ]
+// }
