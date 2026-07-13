@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pearb",
+    "texture": "93797558-c310-4c52-8e76-1c14052ffafb",
+    "atlas": "",
+    "rect": [
+      96,
+      61,
+      109,
+      179
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

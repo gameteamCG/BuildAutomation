@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pineb",
+    "texture": "76cd8e99-4ca5-47c4-834a-c02c12c8a6c1",
+    "atlas": "",
+    "rect": [
+      77,
+      42,
+      146,
+      216
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
