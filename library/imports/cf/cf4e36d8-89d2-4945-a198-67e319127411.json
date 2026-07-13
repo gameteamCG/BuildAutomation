@@ -1799,7 +1799,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -90,
+        -95.554,
         0,
         0,
         0,
@@ -2363,30 +2363,30 @@
     "stallionNegative": [],
     "bagPositive": [
       {
-        "__uuid__": "87cf9f95-04f3-4d8f-b633-6e09a2f30c63"
+        "__uuid__": "a0e4eb73-5148-4006-af74-f5386488e821"
       },
       {
-        "__uuid__": "0fc4ace4-a063-4245-9667-7b7b49abf666"
+        "__uuid__": "0e9b666d-f985-41cc-b06c-f751660c3403"
       },
       {
-        "__uuid__": "7914dcc8-7a42-4f45-b48c-c36f57156549"
+        "__uuid__": "0823bb4f-e012-496e-a191-d70b87af8ec9"
       },
       {
-        "__uuid__": "2a0c44af-6921-4b04-a360-f603304932fc"
+        "__uuid__": "ff932663-54f9-4912-a289-b358037bf258"
       },
       {
-        "__uuid__": "93e5bce9-491e-4c17-9da2-01075a41c0b3"
+        "__uuid__": "6220f010-99e6-4acd-9f11-e96a53e2192f"
       }
     ],
     "bagNegative": [
       {
-        "__uuid__": "b1fa9384-70ea-4eef-bc69-738d790b79f8"
+        "__uuid__": "268d43e1-98f9-4cb4-8b0d-9b510b1f6c99"
       },
       {
-        "__uuid__": "de2f2ba2-5814-42b0-bffe-db42bebf0a92"
+        "__uuid__": "ea9667ba-c6a1-4509-9aa2-de679a9b47ca"
       },
       {
-        "__uuid__": "9bf14701-26b4-41d5-ba20-3f1593c2fecd"
+        "__uuid__": "808aa112-1865-4ee2-9b99-7317f335572d"
       }
     ],
     "cryonPositive": [],
