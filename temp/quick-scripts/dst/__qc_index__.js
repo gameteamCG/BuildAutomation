@@ -11,7 +11,7 @@
                     function __define (exports, require, module) {
                         if (!nodeEnv) {__quick_compile_project__.registerModule(__filename, module);}
 require('./assets/Framework/Jockeys/Scripts/Jockey');
-require('./assets/Framework/Prefabs/ProgressBar/Scripts/ProgressBar');
+require('./assets/Framework/Prefabs/Progressbar/Scripts/ProgressBar');
 require('./assets/Framework/Scripts/CustomWidget');
 require('./assets/Framework/Scripts/CustomWidget2');
 require('./assets/Framework/Scripts/Progress');
@@ -24,6 +24,7 @@ require('./assets/Framework/WebView/Scripts/WebView');
 require('./assets/Games/MainAssets/Scripts/FontChanger');
 require('./assets/Games/MainAssets/Scripts/GameEnd');
 require('./assets/Games/MainAssets/Scripts/JockeyController');
+require('./assets/Games/WhatWillHappenNext/Scripts/TVInputManager');
 require('./assets/Games/WhatWillHappenNext/Scripts/Title');
 require('./assets/Games/WhatWillHappenNext/Scripts/endScreen');
 require('./assets/Games/WhatWillHappenNext/Scripts/gameplay');

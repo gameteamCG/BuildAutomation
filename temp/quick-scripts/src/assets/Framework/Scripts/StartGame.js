@@ -30,6 +30,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var globalVariables_1 = require("../../Games/WhatWillHappenNext/Scripts/globalVariables");
+var TVInputManager_1 = require("../../Games/WhatWillHappenNext/Scripts/TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var startGame = /** @class */ (function (_super) {
     __extends(startGame, _super);
@@ -107,6 +108,12 @@ var startGame = /** @class */ (function (_super) {
                 _this.JockeyNode = element;
             }
         });
+        var backBtn = this.node.getChildByName("back");
+        var musicBtn = this.node.getChildByName("music");
+        var nodes = [backBtn, musicBtn,];
+        this.scheduleOnce(function () {
+            TVInputManager_1.default.Instance.init(nodes);
+        }, 0.5);
         // const storedJSONData = cc.sys.localStorage.getItem('gameData');
         // if (storedJSONData) {
         //     const jsonData = JSON.parse(storedJSONData);

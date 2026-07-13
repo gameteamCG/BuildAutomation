@@ -1,8 +1,9 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
-// import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
+import TVInputManager from "./TVInputManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -161,6 +162,7 @@ export default class NewClass extends cc.Component {
         if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].isOptionBG) {
             this.isOptionBG = true;
         }
+
         this.GenerateOptions();
         this.maxLevel = startGame.Instance.totalLevels;
         if (globalVariables.Instance.currentLevel == this.maxLevel) {
@@ -353,6 +355,7 @@ export default class NewClass extends cc.Component {
     }
 
     GenerateOptions() {
+
         //console.log("Total Options : ", this.TotalOptions)
         for (let i = 0; i < this.TotalOptions; i++) {
             let option = cc.instantiate(this.node.getChildByName("template"));
@@ -427,12 +430,18 @@ export default class NewClass extends cc.Component {
     }
 
     OnVOButton() {
+        this.setupTVFocus("Option");
         cc.audioEngine.stopAllEffects();
+        this.canTouch = false
         if (this.questionSound[0])
             cc.audioEngine.playEffect(this.questionSound[0], false);
+        this.scheduleOnce(() => {
+            this.canTouch = true
+        }, this.questionSound[0].duration + 0.1)
     }
 
     callOptionIn() {
+
         let delay: number = 0.5;
         if (startGame.Instance.jockeyName == "supercub" || startGame.Instance.jockeyName == "tlc") {
             this.node.getChildByName("Option").setPosition(this.node.getChildByName("Option").x - 80, this.node.getChildByName("Option").y);
@@ -443,24 +452,21 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 let objScale: number = 0;
                 cc.audioEngine.playEffect(this.popSound[0], false);
-                if (startGame.Instance.templateType == "SimpleTap") {
-                    objScale = 1;
-                }
-                else if (startGame.Instance.templateType == "TapToCollect") {
-                    objScale = 0.5;
-                }
-                else {
-                    objScale = 0.7;
-                }
+                objScale = 1;
                 //console.log("isOptionBg");
-                if (!this.isOptionBG) {
-                    this.node.getChildByName("Option").children.forEach((element) => {
-                        element.getChildByName("img").scale = 1.4;
-                    })
-                }
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
                     .to(0.5, { scale: objScale }, { easing: "sineInOut" }).start();
                 if (i == this.node.getChildByName("Option").children.length) {
+                    let optionNodes = this.node.getChildByName("Option").children;
+                    optionNodes.forEach((element, idx) => {
+                        let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
+                        if (idx === optionNodes.length - 1) {
+                            t = t.call(() => {
+                                this.setupTVFocus("Option");
+                            });
+                        }
+                        t.start();
+                    });
                     this.scheduleOnce(() => {
                         this.PlayQuestionAudio();
                     }, 0.5);
@@ -510,9 +516,33 @@ export default class NewClass extends cc.Component {
             delay += 0.5;
         }
     }
-
+    private setupTVFocus(activeContainerName: string) {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
+            let btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+        let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+        if (globalVariables.Instance.currentLevel == 1) {
+            console.log(globalVariables.Instance.currentLevel, "-------------")
+            TVInputManager.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        TVInputManager.Instance.setCanSelect(this.canTouch);
+    }
     PlayQuestionAudio() {
         this.canTouch = false;
+
+        if (TVInputManager.Instance) {
+            TVInputManager.Instance.setCanSelect(this.canTouch)
+        }
+
         //console.log("Jockey coming");
         this.currentJcokey.active = true;
         if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
@@ -520,6 +550,7 @@ export default class NewClass extends cc.Component {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
             }
             this.canTouch = true;
+            TVInputManager.Instance.setCanSelect(this.canTouch)
             if (globalVariables.Instance.currentLevel == 1) {
                 //console.log("answerArray : ", this.answerArray[0])
                 let hand = this.node.getChildByName("hand");
@@ -543,6 +574,8 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     this.canTouch = true;
+                    TVInputManager.Instance.setCanSelect(this.canTouch)
+
                     if (globalVariables.Instance.currentLevel == 1) {
                         let hand = this.node.getChildByName("hand");
                         hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
@@ -559,6 +592,7 @@ export default class NewClass extends cc.Component {
                         this.scheduleOnce(() => {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             this.canTouch = true;
+                            TVInputManager.Instance.setCanSelect(this.canTouch)
                             if (globalVariables.Instance.currentLevel == 1) {
                                 let hand = this.node.getChildByName("hand");
                                 hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
@@ -602,6 +636,7 @@ export default class NewClass extends cc.Component {
         }
         if (iscorrect) {
             this.canTouch = false;
+            TVInputManager.Instance.setCanSelect(this.canTouch)
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             //this.destroyOption();
@@ -685,6 +720,7 @@ export default class NewClass extends cc.Component {
                     cc.audioEngine.playEffect(this.positiveSound[0], false);
                     this.scheduleOnce(() => {
                         this.canTouch = true;
+                        TVInputManager.Instance.setCanSelect(this.canTouch)
                         this.correctAnswerCount++;
                         if (this.correctAnswerCount == this.totalAnswers) {
                             for (let i = 0; i < this.node.getChildByName("Option").children.length; i++) {
@@ -699,6 +735,7 @@ export default class NewClass extends cc.Component {
                                 this.isLastTween = true;
                                 this.OptionsLayoutHorizontal();
                                 this.canTouch = false;
+                                TVInputManager.Instance.setCanSelect(this.canTouch)
                                 ProgressBar.Instance.createStarTrails(6, this.node);
                                 this.scheduleOnce(() => {
                                     ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
@@ -740,9 +777,11 @@ export default class NewClass extends cc.Component {
                         this.scheduleOnce(() => {
                             _node.destroy();
                             this.canTouch = true;
+                            TVInputManager.Instance.setCanSelect(this.canTouch)
                             this.correctAnswerCount++;
                             if (this.correctAnswerCount == this.totalAnswers) {
                                 this.canTouch = false;
+                                TVInputManager.Instance.setCanSelect(this.canTouch)
                                 ProgressBar.Instance.createStarTrails(6, this.node);
                                 this.scheduleOnce(() => {
                                     ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
@@ -770,6 +809,7 @@ export default class NewClass extends cc.Component {
                     this.scheduleOnce(() => {
                         //_node.destroy();
                         this.canTouch = true;
+                        TVInputManager.Instance.setCanSelect(this.canTouch)
                         this.correctAnswerCount++;
                         if (this.correctAnswerCount == this.totalAnswers) {
                             for (let i = 0; i < this.node.getChildByName("Option").children.length; i++) {
@@ -778,6 +818,7 @@ export default class NewClass extends cc.Component {
                                 }
                             }
                             this.canTouch = false;
+                            TVInputManager.Instance.setCanSelect(this.canTouch)
                             this.scheduleOnce(() => {
                                 this.node.getChildByName("Option").children.forEach(elem => {
                                     elem.getChildByName("img").color = cc.Color.WHITE;
@@ -930,6 +971,7 @@ export default class NewClass extends cc.Component {
 
     callNegativeRection(_node: cc.Node, _event) {
         this.canTouch = false;
+        TVInputManager.Instance.setCanSelect(this.canTouch)
         //_node.children[0].getComponent(cc.Sprite).setMaterial(0, this.greyMat);
         cc.audioEngine.playEffect(this.negativeSound[0], false);
         if (this.wrongAnswerCount >= 6) {
@@ -987,6 +1029,7 @@ export default class NewClass extends cc.Component {
                         }
                         //console.log("characterDisappear--Podar_Jumbo");
                         this.canTouch = true;
+                        TVInputManager.Instance.setCanSelect(this.canTouch)
                     }, this.negativeAudio[currentClipNum].duration);
                 }, 0.5);
             }
@@ -996,6 +1039,7 @@ export default class NewClass extends cc.Component {
                 this.scheduleOnce(() => {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                     this.canTouch = true;
+                    TVInputManager.Instance.setCanSelect(this.canTouch)
                 }, this.negativeAudio[currentClipNum].duration);
             }
             else if (startGame.Instance.jockeyName == "supercub") {
@@ -1014,6 +1058,7 @@ export default class NewClass extends cc.Component {
                             }
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                             this.canTouch = true;
+                            TVInputManager.Instance.setCanSelect(this.canTouch)
                             this.scheduleOnce(() => {
                                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
@@ -1027,6 +1072,7 @@ export default class NewClass extends cc.Component {
                     this.scheduleOnce(() => {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         this.canTouch = true;
+                        TVInputManager.Instance.setCanSelect(this.canTouch)
                     }, this.negativeAudio[currentClipNum].duration);
                 }
 

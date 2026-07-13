@@ -5,6 +5,7 @@
 // Learn life-cycle callbacks:
 
 import startGame from "../../../Framework/Scripts/StartGame";
+import TVInputManager from "../../WhatWillHappenNext/Scripts/TVInputManager";
 
 // import startGame from "../../Framework/Scripts/StartGame";
 
@@ -34,7 +35,15 @@ export default class GameEnd extends cc.Component {
 
   // LIFE-CYCLE CALLBACKS:
 
-  // onLoad () {}
+  onLoad() {
+    let backBtn = startGame.Instance.node.getChildByName("back");
+    let musicBtn = startGame.Instance.node.getChildByName("music");
+    backBtn.scale = 1;
+    musicBtn.scale = 1;
+    let nodes = [backBtn, musicBtn,];
+    TVInputManager.Instance.setCanSelect(true);
+    TVInputManager.Instance.init(nodes);
+  }
 
   start() {
     this.fantastic = this.node.getChildByName("Fantastic");
