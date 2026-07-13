@@ -19,7 +19,7 @@
             "children": [
               {
                 "width": 216.0625,
-                "height": 352.0249938964844,
+                "height": 352.1000061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -28,7 +28,7 @@
               },
               {
                 "width": 216.0625,
-                "height": 345.1625061035156,
+                "height": 345.1000061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 862.2625122070312,
+            "width": 862.2250366210938,
             "height": 700.2000122070312,
             "type": "dock-v",
             "children": [
               {
-                "width": 862.2625122070312,
-                "height": 352.0249938964844,
+                "width": 862.2250366210938,
+                "height": 352.1000061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,8 +52,8 @@
                 ]
               },
               {
-                "width": 862.2625122070312,
-                "height": 345.1625061035156,
+                "width": 862.2250366210938,
+                "height": 345.1000061035156,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 438.07501220703125,
+            "width": 438.1125183105469,
             "height": 700.2000122070312,
             "type": "panel",
             "active": 0,
@@ -89,7 +89,8 @@
         "node-library"
       ]
     },
-    "window-1783925203958": {}
+    " common-asset-worker-worker": {},
+    "window-1783926205448": {}
   },
   "panels": {
     "project-settings": {
