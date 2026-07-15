@@ -16,7 +16,7 @@
     },
     "questionData": [
       {
-        "questionText": "Great wall of China, China",
+        "questionText": "Great Wall of China, China",
         "questionImageName": "greatwallC.png",
         "questionAudioName": "QVo.mp3",
         "shouldPlayQuestionAudio": true,

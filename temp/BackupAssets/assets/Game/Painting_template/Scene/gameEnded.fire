@@ -1068,7 +1068,9 @@
     "jaipuriaEnd": null,
     "tlcEnd": null,
     "supercubEnd": null,
-    "star": null,
+    "star": {
+      "__uuid__": "0fa06f4a-4deb-43ab-9b27-e7f25310f620"
+    },
     "_id": "19KOzdHylIMbCZouzCkc50"
   },
   {
