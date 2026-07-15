@@ -8,11 +8,11 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 101,
-  "height": 101,
+  "width": 252,
+  "height": 251,
   "platformSettings": {},
   "subMetas": {
-    "Play": {
+    "play": {
       "ver": "1.0.6",
       "uuid": "1247900b-99cf-4cfd-87b8-b9f32323b127",
       "importer": "sprite-frame",

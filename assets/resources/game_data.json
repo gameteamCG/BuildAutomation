@@ -17,16 +17,16 @@
       "frontCardImageName": "front.png",
       "isOptionText": false,
       "options": [
-        "1.png",
+        "7.png",
         "2.png"
       ],
       "reiterationAudios": [
-        "केला.mp3",
+        "शेर.mp3",
         "सेब.mp3"
       ],
       "isAnswerText": true,
       "answers": [
-        "केला",
+        "शेर",
         "सेब"
       ]
     },
