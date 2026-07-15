@@ -94,13 +94,13 @@ export default class video extends cc.Component {
     private videoCompleted: boolean = false;
     private gameStarted: boolean = false;
 
-    private correctAnim: string[] = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+    private correctAnim: string[] = ["positive_1", "positive_2", "positive_3", "positive_5", "positive_5", "positive_1", "positive_2", "positive_3", "positive_5", "positive_5"];
     private wrongAnim: string[] = ["negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3"];
 
     private puzzleCorrectAnim: string[] = ["positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3"];
     private puzzleNegativeAnim: string[] = ["negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1"];
 
-    private supercubCorrectAnim: string[] = ["positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5"];
+    private supercubCorrectAnim: string[] = ["positive_3", "positive_5", "positive_5", "positive_3", "positive_5", "positive_5", "positive_3", "positive_5", "positive_5", "positive_3", "positive_5", "positive_5"];
     private supercubNegativeAnim: string[] = ["negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4"];
 
     private podarCorrectAnim: string[] = ["possitive1", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6", "possitive1", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
@@ -568,10 +568,10 @@ export default class video extends cc.Component {
         // this.character.getComponent(cc.Animation).play("tweenIn");
         this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         cc.tween(this.character.getChildByName("anim")).to(0.5, { x: 0 }, { easing: "backInOut" }).start();
-        let id = cc.audioEngine.playMusic(this.bgMusic, true);
+        // let id = cc.audioEngine.playMusic(this.bgMusic, true);
         this.questionNode.getChildByName("options1").active = false;
         this.questionNode.getChildByName("questionBox").active = false;
-        cc.audioEngine.setVolume(id, 0.1);
+        // cc.audioEngine.setVolume(id, 0.1);
         if (this.questions[this.currentQuestion].isquestionText) {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).string = this.questions[this.currentQuestion].questionText;
             this.questionNode.getChildByName("questionBox").getChildByName("img").active = false;

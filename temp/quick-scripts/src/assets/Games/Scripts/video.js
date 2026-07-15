@@ -97,11 +97,11 @@ var video = /** @class */ (function (_super) {
         _this.attemps = 0;
         _this.videoCompleted = false;
         _this.gameStarted = false;
-        _this.correctAnim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
+        _this.correctAnim = ["positive_1", "positive_2", "positive_3", "positive_5", "positive_5", "positive_1", "positive_2", "positive_3", "positive_5", "positive_5"];
         _this.wrongAnim = ["negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3"];
         _this.puzzleCorrectAnim = ["positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3"];
         _this.puzzleNegativeAnim = ["negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1", "negative_1"];
-        _this.supercubCorrectAnim = ["positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5", "positive_3", "positive_4", "positive_5"];
+        _this.supercubCorrectAnim = ["positive_3", "positive_5", "positive_5", "positive_3", "positive_5", "positive_5", "positive_3", "positive_5", "positive_5", "positive_3", "positive_5", "positive_5"];
         _this.supercubNegativeAnim = ["negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4", "negative_3", "negative_4"];
         _this.podarCorrectAnim = ["possitive1", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6", "possitive1", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
         _this.podarNegativeAnim = ["negetive1", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6", "negetive1", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
@@ -562,10 +562,10 @@ var video = /** @class */ (function (_super) {
         // this.character.getComponent(cc.Animation).play("tweenIn");
         this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         cc.tween(this.character.getChildByName("anim")).to(0.5, { x: 0 }, { easing: "backInOut" }).start();
-        var id = cc.audioEngine.playMusic(this.bgMusic, true);
+        // let id = cc.audioEngine.playMusic(this.bgMusic, true);
         this.questionNode.getChildByName("options1").active = false;
         this.questionNode.getChildByName("questionBox").active = false;
-        cc.audioEngine.setVolume(id, 0.1);
+        // cc.audioEngine.setVolume(id, 0.1);
         if (this.questions[this.currentQuestion].isquestionText) {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).string = this.questions[this.currentQuestion].questionText;
             this.questionNode.getChildByName("questionBox").getChildByName("img").active = false;

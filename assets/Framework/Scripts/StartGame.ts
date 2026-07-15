@@ -114,7 +114,6 @@ export default class startGame extends cc.Component {
 
     logData() {
         console.log("Total Levels:", this.TotalLevels);
-        // console.log("BGM audio name:", this.BGM_audio.name);
         console.log("Title Image Name:", this.titleImageName);
         console.log("Jockey Name:", this.jockeyName);
 
@@ -285,18 +284,15 @@ export default class startGame extends cc.Component {
             this.hasAccess = true;
         }
 
-        // let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-        // cc.audioEngine.setVolume(id, this.volume);
+        let id = cc.audioEngine.playMusic(this.BGM_audio, true);
+        cc.audioEngine.setVolume(id, this.volume);
         if (isAudio == "false") {
             this.node.getChildByName("music").children[0].active = true;
             this.isMusicOn = false;
-            // cc.audioEngine.stopMusic();
         }
         else {
             this.node.getChildByName("music").children[0].active = false;
             this.isMusicOn = true;
-            // let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-            // cc.audioEngine.setVolume(id, this.volume);
         }
 
         let ageValue: number = parseInt(age);

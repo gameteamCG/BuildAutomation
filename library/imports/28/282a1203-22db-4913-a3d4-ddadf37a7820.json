@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "home_work",
+    "texture": "373668d7-c48f-4019-beba-73a1c6085b02",
+    "atlas": "",
+    "rect": [
+      38,
+      35,
+      124,
+      130
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

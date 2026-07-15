@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Eid : page 318 KINDERGARTEN",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/34624852_Eid_1719229801593.mp4",
+      "TitleImageName": "tital.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "crayon",
+      "TotalLevel": "4"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Eid celebration",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Q1_vo.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "1.png",
+          "sleeping.png"
+        ],
+        "ReiterationAudioName": "answer_1.mp3",
+        "CorrectAudioName": "GOODEFFORT.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Eid celebration",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Q2_and_Q4_vo.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Going_to_school.png",
+          "2.png"
+        ],
+        "ReiterationAudioName": "2_people_celebrate_eid_b.mp3",
+        "CorrectAudioName": "FANTASTIC.mp3",
+        "WrongAudioName": "ohoh.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Eid celebration",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Q3_vo.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "3.png",
+          "Washing_clothes.png"
+        ],
+        "ReiterationAudioName": "3_people_celebrate_eid_b.mp3",
+        "CorrectAudioName": "EXCEPTIONAL.mp3",
+        "WrongAudioName": "Oopsietryoncemore.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "9999999999",
+        "IsQuestionText": true,
+        "QuestionText": "Eid celebration",
+        "QuestionImageName": "",
+        "QuestionAudioName": "Q2_and_Q4_vo.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Watching_TV.png",
+          "4.png"
+        ],
+        "ReiterationAudioName": "5_people-celebrate-eid-b.mp3",
+        "CorrectAudioName": "EXCELLENTJOB.mp3",
+        "WrongAudioName": "nevermindtryagain.mp3",
+        "CorrectAnswer": "2"
+      }
+    ]
+  }
+}

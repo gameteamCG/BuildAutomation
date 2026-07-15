@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Going_to_school",
+    "texture": "d49dc79a-52fd-42ba-8a51-ee795637a154",
+    "atlas": "",
+    "rect": [
+      16,
+      16,
+      169,
+      168
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
