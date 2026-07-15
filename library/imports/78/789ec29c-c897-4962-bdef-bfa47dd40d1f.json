@@ -93,16 +93,16 @@
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "bananab.png",
-          "carrotb.png",
-          "orangeb.png",
-          "potatob.png"
+          "banana.png",
+          "mango.png",
+          "pear.png",
+          "potato.png"
         ],
         "optionsBg": [
-          "bananab.png",
-          "carrotb.png",
-          "orangeb.png",
-          "potatoc.png"
+          "banana1.png",
+          "mango1.png",
+          "pear1.png",
+          "patato1.png"
         ],
         "correctAudioName": "positive_4.mp3",
         "wrongAudioName": "negative_3.mp3",
@@ -117,21 +117,21 @@
         "isOptionText": false,
         "numberOfOptions": 4,
         "options": [
-          "pearb.png",
-          "pineb.png",
-          "carrotb.png",
-          "orangeb.png"
+          "carrat.png",
+          "apple.png",
+          "pear.png",
+          "grapes.png"
         ],
         "optionsBg": [
-          "pearb.png",
-          "pineb.png",
-          "carrotc.png",
-          "orangeb.png"
+          "carrat1.png",
+          "apple1.png",
+          "pear1.png",
+          "grapes1.png"
         ],
         "correctAudioName": "positive_3.mp3",
         "wrongAudioName": "negative_3.mp3",
         "reiterationAudioName": "carrotisavegetable.mp3",
-        "correctAnswerNum": "2"
+        "correctAnswerNum": "1"
       }
     ]
   }
