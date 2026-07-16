@@ -15,7 +15,7 @@
     },
     "questionData": [
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "CROW.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -23,15 +23,15 @@
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "E.png",
+          "S.png",
           "C.png",
-          "L.png"
+          "B.png"
         ],
         "correctAudioName": "Cforcrow2.mp3",
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "BALL.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -39,7 +39,7 @@
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "I.png",
+          "Q.png",
           "P.png",
           "B.png"
         ],
@@ -47,7 +47,7 @@
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "DUCK.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -57,13 +57,13 @@
         "options": [
           "D.png",
           "T.png",
-          "B.png"
+          "F.png"
         ],
         "correctAudioName": "dforduck.mp3",
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "Hat.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -73,13 +73,13 @@
         "options": [
           "H.png",
           "S.png",
-          "f.png"
+          "A.png"
         ],
         "correctAudioName": "hforhat.mp3",
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "Elephant.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -88,14 +88,14 @@
         "numberOfOptions": 3,
         "options": [
           "Q.png",
-          "A.png",
+          "T.png",
           "E.png"
         ],
         "correctAudioName": "eforelephant.mp3",
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "Fish.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -103,15 +103,15 @@
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "f.png",
+          "F.png",
           "E.png",
-          "Q.png"
+          "G.png"
         ],
         "correctAudioName": "fforfish.mp3",
         "correctAnswerNum": "1"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "Egg.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -119,15 +119,15 @@
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "R.png",
+          "F.png",
           "E.png",
           "C.png"
         ],
-        "correctAudioName": "Eforegg2.mp3",
+        "correctAudioName": "efoegg.mp3",
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "ARROW.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -135,15 +135,15 @@
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "I.png",
+          "G.png",
           "A.png",
-          "E.png"
+          "S.png"
         ],
         "correctAudioName": "aforarrow.mp3",
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "GRAPES.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -152,14 +152,14 @@
         "numberOfOptions": 3,
         "options": [
           "C.png",
-          "E.png",
+          "F.png",
           "G.png"
         ],
         "correctAudioName": "gforgrapes.mp3",
         "correctAnswerNum": "3"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "House.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -169,13 +169,13 @@
         "options": [
           "G.png",
           "H.png",
-          "D.png"
+          "F.png"
         ],
         "correctAudioName": "hforhouse.mp3",
         "correctAnswerNum": "2"
       },
       {
-        "questionText": "first letter",
+        "questionText": "First letter",
         "questionImageName": "Frog.png",
         "questionAudioName": "taponthefirstletteroftheshownimage.mp3",
         "shouldPlayQuestionAudio": true,
@@ -183,9 +183,9 @@
         "isOptionText": false,
         "numberOfOptions": 3,
         "options": [
-          "f.png",
+          "F.png",
           "B.png",
-          "u.png"
+          "U.png"
         ],
         "correctAudioName": "ffofrog.mp3",
         "correctAnswerNum": "1"
