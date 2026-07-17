@@ -5,6 +5,7 @@
 // Learn life-cycle callbacks:
 
 import startGame from "../../../Framework/Scripts/StartGame";
+import TVInputManager from "../../Shooter/Scripts/TVInputManager";
 
 // import startGame from "../../Framework/Scripts/StartGame";
 
@@ -37,6 +38,20 @@ export default class GameEnd extends cc.Component {
   // onLoad () {}
 
   start() {
+    let backBtn = startGame.Instance.node.getChildByName("back");
+
+    // :fire: music button
+    let musicBtn = startGame.Instance.node.getChildByName("music");
+    backBtn.scale = 1;
+    musicBtn.scale = 1;
+    let nodes = [
+
+      backBtn,
+      musicBtn,
+    ];
+    TVInputManager.Instance.setCanSelect(true);
+
+    TVInputManager.Instance.init(nodes);
     this.fantastic = this.node.getChildByName("Fantastic");
     startGame.Instance.node.getChildByName("progress").opacity = 0;
     console.log("showedScreen--Congratulations");

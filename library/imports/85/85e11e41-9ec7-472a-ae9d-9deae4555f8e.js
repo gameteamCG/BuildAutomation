@@ -29,6 +29,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
+var TVInputManager_1 = require("../../Shooter/Scripts/TVInputManager");
 // import startGame from "../../Framework/Scripts/StartGame";
 // import startGame from "../../../Framework/Scripts/StartGame";
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
@@ -51,6 +52,17 @@ var GameEnd = /** @class */ (function (_super) {
     // onLoad () {}
     GameEnd.prototype.start = function () {
         var _this = this;
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        // :fire: music button
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        var nodes = [
+            backBtn,
+            musicBtn,
+        ];
+        TVInputManager_1.default.Instance.setCanSelect(true);
+        TVInputManager_1.default.Instance.init(nodes);
         this.fantastic = this.node.getChildByName("Fantastic");
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 0;
         console.log("showedScreen--Congratulations");

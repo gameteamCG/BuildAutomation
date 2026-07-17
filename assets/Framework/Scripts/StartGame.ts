@@ -6,6 +6,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
 import globalVariables from "../../Games/Shooter/Scripts/globalVariables";
+import TVInputManager from "../../Games/Shooter/Scripts/TVInputManager";
 
 interface AdditionalData {
     GameID: string;
@@ -117,6 +118,21 @@ export default class startGame extends cc.Component {
                 this.JockeyNode = element;
             }
         });
+        this.scheduleOnce(() => {
+            let backBtn = this.node.getChildByName("back");
+            // :fire: music button
+            let musicBtn = this.node.getChildByName("music");
+            backBtn.scale = 1;
+            musicBtn.scale = 1;
+            let nodes = [
+
+                backBtn,
+                musicBtn,
+            ];
+            TVInputManager.Instance.setCanSelect(true);
+
+            TVInputManager.Instance.init(nodes);
+        }, 0.5);
         // const storedJSONData = cc.sys.localStorage.getItem('gameData');
 
         // if (storedJSONData) {
@@ -312,6 +328,19 @@ export default class startGame extends cc.Component {
             this.isMusicOn = true;
             let id = cc.audioEngine.playMusic(this.BGM_audio, true);
             cc.audioEngine.setVolume(id, this.volume);
+            let backBtn = this.node.getChildByName("back");
+            // :fire: music button
+            let musicBtn = this.node.getChildByName("music");
+            backBtn.scale = 1;
+            musicBtn.scale = 1;
+            let nodes = [
+
+                backBtn,
+                musicBtn,
+            ];
+            TVInputManager.Instance.setCanSelect(true);
+
+            TVInputManager.Instance.init(nodes);
         }
 
         let ageValue: number = parseInt(age);
@@ -362,7 +391,7 @@ export default class startGame extends cc.Component {
             }
             else if (this.jockeyName == "bag" || this.jockeyName == "cryon") {
                 // cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
-                 this.scheduleOnce(() => {
+                this.scheduleOnce(() => {
                     cc.director.loadScene(this.NextSceneName);
                 }, 2);
             }

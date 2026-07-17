@@ -1,6 +1,6 @@
 
 require('./assets/Framework/Jockeys/Scripts/Jockey');
-require('./assets/Framework/Prefabs/ProgressBar/Scripts/ProgressBar');
+require('./assets/Framework/Prefabs/Progressbar/Scripts/ProgressBar');
 require('./assets/Framework/Scripts/CustomWidget');
 require('./assets/Framework/Scripts/CustomWidget2');
 require('./assets/Framework/Scripts/Progress');
@@ -13,6 +13,7 @@ require('./assets/Framework/WebView/Scripts/WebView');
 require('./assets/Games/MainAssets/Scripts/FontChanger');
 require('./assets/Games/MainAssets/Scripts/GameEnd');
 require('./assets/Games/MainAssets/Scripts/JockeyController');
+require('./assets/Games/Shooter/Scripts/TVInputManager');
 require('./assets/Games/Shooter/Scripts/Title');
 require('./assets/Games/Shooter/Scripts/endScreen');
 require('./assets/Games/Shooter/Scripts/gameplay');
