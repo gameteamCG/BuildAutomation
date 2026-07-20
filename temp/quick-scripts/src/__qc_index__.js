@@ -13,4 +13,5 @@ require('./assets/Framework/WebView/Scripts/CheckForInitWebView');
 require('./assets/Framework/WebView/Scripts/WebView');
 require('./assets/Games/TapToFind/Scripts/EndScreen');
 require('./assets/Games/TapToFind/Scripts/Gameplay');
+require('./assets/Games/TapToFind/Scripts/TVInputManager');
 require('./assets/resources/empty');

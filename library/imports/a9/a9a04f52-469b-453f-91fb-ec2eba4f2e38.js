@@ -22,9 +22,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __spreadArrays = (this && this.__spreadArrays) || function () {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
+var TVInputManager_1 = require("./TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Gameplay = /** @class */ (function (_super) {
     __extends(Gameplay, _super);
@@ -83,6 +91,18 @@ var Gameplay = /** @class */ (function (_super) {
         this.numberofOptions = StartGame_1.default.Instance.questions[StartGame_1.default.Instance.currentLevel - 1].numberOfOptions;
         this.options = this.node.getChildByName(this.optionsLayout);
         this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
+        this.scheduleOnce(function () {
+            var optionNodes = _this.options.children;
+            optionNodes.forEach(function (element, idx) {
+                var t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
+                if (idx === optionNodes.length - 1) {
+                    t = t.call(function () {
+                        _this.setupTVFocus(_this.optionsLayout);
+                    });
+                }
+                t.start();
+            });
+        }, 1);
         this.maxLevel = StartGame_1.default.Instance.TotalLevels;
         if (StartGame_1.default.Instance.currentLevel == this.maxLevel) {
             cc.director.preloadScene("gameEnd");
@@ -288,12 +308,32 @@ var Gameplay = /** @class */ (function (_super) {
         }, 1);
     };
     Gameplay.prototype.PlayQVoButton = function (_event) {
+        this.setupTVFocus("Options");
         cc.audioEngine.stopAllEffects();
         cc.audioEngine.playEffect(this.questionAudio, false);
         this.scheduleOnce(function () {
             _event.target.getComponent(cc.Button).interactable = true;
         }, this.questionAudio.duration);
         _event.target.getComponent(cc.Button).interactable = false;
+    };
+    Gameplay.prototype.setupTVFocus = function (activeContainerName) {
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        var soundBtn = this.node.getChildByName("questionPanel").getChildByName("purple sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        var optionButtons = this.node.getChildByName(activeContainerName).children.filter(function (node) {
+            var btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+        var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
+        if (cc.director.getScene().name == "1") {
+            TVInputManager_1.default.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager_1.default.Instance.init(nodes, -1);
+        }
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
     };
     Gameplay.prototype.generateOptions = function (_template, _optionParent, _optionCount) {
         for (var i = 0; i < _optionCount; i++) {
@@ -330,9 +370,13 @@ var Gameplay = /** @class */ (function (_super) {
         if (!this.canTouch) {
             return;
         }
+        if (TVInputManager_1.default.Instance) {
+            TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
+        }
         cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
         var node = event.target;
         var correct = false;
         var audioNum = 0;
@@ -344,6 +388,7 @@ var Gameplay = /** @class */ (function (_super) {
             }
         }
         if (correct) {
+            console.log("helooooooooooo");
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
             this.correctCounter++;
@@ -365,6 +410,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 else {
                     _this.canTouch = true;
+                    TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
                 }
             }).start();
         }
@@ -388,9 +434,11 @@ var Gameplay = /** @class */ (function (_super) {
         if (!this.canTouch) {
             return;
         }
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
         cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
         var node = event.target;
         var correct = false;
         var audioNum = 0;
@@ -435,6 +483,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 else {
                     _this.canTouch = true;
+                    TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
                 }
             }, 1);
             // cc.tween(_clone)
@@ -462,9 +511,11 @@ var Gameplay = /** @class */ (function (_super) {
         if (!this.canTouch) {
             return;
         }
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
         cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
         var node = event.target;
         var correct = false;
         var audioNum = 0;
@@ -502,6 +553,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 else {
                     _this.canTouch = true;
+                    TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
                 }
             }).start();
         }
@@ -689,6 +741,7 @@ var Gameplay = /** @class */ (function (_super) {
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
                     _this.canTouch = true;
+                    TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
                     if (_this.questionAudio) {
                         cc.audioEngine.playEffect(_this.questionAudio, false);
                     }

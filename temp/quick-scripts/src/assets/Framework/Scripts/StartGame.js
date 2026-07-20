@@ -23,6 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var TVInputManager_1 = require("../../Games/TapToFind/Scripts/TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var startGame = /** @class */ (function (_super) {
     __extends(startGame, _super);
@@ -74,6 +75,12 @@ var startGame = /** @class */ (function (_super) {
     // LIFE-CYCLE CALLBACKS:
     startGame.prototype.onLoad = function () {
         var _this = this;
+        var backBtn = this.node.getChildByName("back");
+        var musicBtn = this.node.getChildByName("music");
+        var nodes = [backBtn, musicBtn,];
+        this.scheduleOnce(function () {
+            TVInputManager_1.default.Instance.init(nodes);
+        }, 0.5);
         cc.game.addPersistRootNode(this.node);
         startGame_1.instance = this;
         console.log("loading--100");

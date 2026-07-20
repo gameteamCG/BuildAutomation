@@ -1,5 +1,6 @@
 import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
+import TVInputManager from "./TVInputManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -76,6 +77,18 @@ export default class Gameplay extends cc.Component {
         this.numberofOptions = startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions;
         this.options = this.node.getChildByName(this.optionsLayout);
         this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
+        this.scheduleOnce(() => {
+            let optionNodes = this.options.children;
+            optionNodes.forEach((element, idx) => {
+                let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
+                if (idx === optionNodes.length - 1) {
+                    t = t.call(() => {
+                        this.setupTVFocus(this.optionsLayout);
+                    });
+                }
+                t.start();
+            });
+        }, 1)
         this.maxLevel = startGame.Instance.TotalLevels;
         if (startGame.Instance.currentLevel == this.maxLevel) {
             cc.director.preloadScene("gameEnd");
@@ -265,6 +278,7 @@ export default class Gameplay extends cc.Component {
     }
 
     PlayQVoButton(_event: cc.Event) {
+        this.setupTVFocus("Options");
         cc.audioEngine.stopAllEffects();
         cc.audioEngine.playEffect(this.questionAudio, false)
         this.scheduleOnce(() => {
@@ -273,7 +287,25 @@ export default class Gameplay extends cc.Component {
         _event.target.getComponent(cc.Button).interactable = false;
 
     }
-
+    private setupTVFocus(activeContainerName: string) {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("purple sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
+            let btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+        let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        TVInputManager.Instance.setCanSelect(this.canTouch);
+    }
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
         for (let i = 0; i < _optionCount; i++) {
             let _option: cc.Node = cc.instantiate(_template);
@@ -303,15 +335,20 @@ export default class Gameplay extends cc.Component {
             }
         }
         _template.destroy();
+
     }
 
     onTouchStart_layout1(event: cc.Event.EventTouch) {
         if (!this.canTouch) {
             return;
         }
+        if (TVInputManager.Instance) {
+            TVInputManager.Instance.setCanSelect(this.canTouch)
+        }
         cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        TVInputManager.Instance.setCanSelect(this.canTouch)
         let node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
@@ -323,6 +360,7 @@ export default class Gameplay extends cc.Component {
             }
         }
         if (correct) {
+            console.log("helooooooooooo")
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
             this.correctCounter++;
@@ -344,6 +382,7 @@ export default class Gameplay extends cc.Component {
                     }
                     else {
                         this.canTouch = true;
+                        TVInputManager.Instance.setCanSelect(this.canTouch)
                     }
                 }).start();
         }
@@ -368,9 +407,11 @@ export default class Gameplay extends cc.Component {
         if (!this.canTouch) {
             return;
         }
+        TVInputManager.Instance.setCanSelect(this.canTouch)
         cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        TVInputManager.Instance.setCanSelect(this.canTouch)
         let node: cc.Node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
@@ -416,6 +457,7 @@ export default class Gameplay extends cc.Component {
                 }
                 else {
                     this.canTouch = true;
+                    TVInputManager.Instance.setCanSelect(this.canTouch)
                 }
             }, 1);
             // cc.tween(_clone)
@@ -444,9 +486,11 @@ export default class Gameplay extends cc.Component {
         if (!this.canTouch) {
             return;
         }
+        TVInputManager.Instance.setCanSelect(this.canTouch)
         cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
         this.canTouch = false;
+        TVInputManager.Instance.setCanSelect(this.canTouch)
         let node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
@@ -484,6 +528,7 @@ export default class Gameplay extends cc.Component {
                     }
                     else {
                         this.canTouch = true;
+                        TVInputManager.Instance.setCanSelect(this.canTouch)
                     }
                 }).start();
         }
@@ -676,6 +721,7 @@ export default class Gameplay extends cc.Component {
                     }
                     //console.log("characterDisappear--Podar_Jumbo");
                     this.canTouch = true;
+                    TVInputManager.Instance.setCanSelect(this.canTouch)
                     if (this.questionAudio) {
                         cc.audioEngine.playEffect(this.questionAudio, false);
                     }
