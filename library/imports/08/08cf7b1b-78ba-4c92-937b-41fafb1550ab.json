@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Letters and sounds Pp",
+    "texture": "3a31ed3a-5a36-4295-8789-342a8db23f35",
+    "atlas": "",
+    "rect": [
+      2,
+      8,
+      581,
+      207
+    ],
+    "offset": [
+      -0.5,
+      -2.5
+    ],
+    "originalSize": [
+      586,
+      218
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -3,6 +3,7 @@ import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
 import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
+import TVInputManager from "./TVInputManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -128,6 +129,7 @@ export default class NewClass extends cc.Component {
         }
         this.optionsNode = this.node.getChildByName("Option");
         this.GenerateOptions();
+
         this.maxLevel = startGame.Instance.totalLevels;
         if (globalVariables.Instance.currentLevel == this.maxLevel) {
             cc.director.preloadScene("endScreen");
@@ -317,12 +319,32 @@ export default class NewClass extends cc.Component {
                 cc.tween(this.node.getChildByName("QuestionBox"))
                     .to(0.5, { x: posX }, { easing: "sineInOut" }).start();
                 this.canTouch = true;
+                TVInputManager.Instance.setCanSelect(this.canTouch)
                 this.callOptionIn();
             }, 1);
         }, 1);
     }
-
+    private setupTVFocus(activeContainerName: string) {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
+            let btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+        let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        TVInputManager.Instance.setCanSelect(this.canTouch);
+    }
     OnVOButton() {
+        this.setupTVFocus("Option");
         cc.audioEngine.stopAllEffects();
         if (this.questionSound[0])
             cc.audioEngine.playEffect(this.questionSound[0], false);
@@ -346,6 +368,16 @@ export default class NewClass extends cc.Component {
                     }, 0.5);
                 }
             }, delay);
+            let optionNodes = this.node.getChildByName("Option").children;
+            optionNodes.forEach((element, idx) => {
+                let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
+                if (idx === optionNodes.length - 1) {
+                    t = t.call(() => {
+                        this.setupTVFocus("Option");
+                    });
+                }
+                t.start();
+            });
             delay += 0.5;
         }
     }
@@ -432,6 +464,9 @@ export default class NewClass extends cc.Component {
         });
         if (!this.canTouch) {
             return;
+        }
+        if (TVInputManager.Instance) {
+            TVInputManager.Instance.setCanSelect(this.canTouch)
         }
         if (!this.isFirstClick) {
             this.isFirstClick = true;

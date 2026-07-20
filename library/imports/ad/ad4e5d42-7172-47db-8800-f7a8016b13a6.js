@@ -22,10 +22,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __spreadArrays = (this && this.__spreadArrays) || function () {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
+var TVInputManager_1 = require("./TVInputManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
@@ -278,11 +286,32 @@ var NewClass = /** @class */ (function (_super) {
                 cc.tween(_this.node.getChildByName("QuestionBox"))
                     .to(0.5, { x: posX }, { easing: "sineInOut" }).start();
                 _this.canTouch = true;
+                TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
                 _this.callOptionIn();
             }, 1);
         }, 1);
     };
+    NewClass.prototype.setupTVFocus = function (activeContainerName) {
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        var soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        var optionButtons = this.node.getChildByName(activeContainerName).children.filter(function (node) {
+            var btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+        var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
+        if (cc.director.getScene().name == "1") {
+            TVInputManager_1.default.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager_1.default.Instance.init(nodes, -1);
+        }
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
+    };
     NewClass.prototype.OnVOButton = function () {
+        this.setupTVFocus("Option");
         cc.audioEngine.stopAllEffects();
         if (this.questionSound[0])
             cc.audioEngine.playEffect(this.questionSound[0], false);
@@ -306,6 +335,16 @@ var NewClass = /** @class */ (function (_super) {
                     }, 0.5);
                 }
             }, delay);
+            var optionNodes = this_3.node.getChildByName("Option").children;
+            optionNodes.forEach(function (element, idx) {
+                var t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
+                if (idx === optionNodes.length - 1) {
+                    t = t.call(function () {
+                        _this.setupTVFocus("Option");
+                    });
+                }
+                t.start();
+            });
             delay += 0.5;
         };
         var this_3 = this;
@@ -394,6 +433,9 @@ var NewClass = /** @class */ (function (_super) {
         });
         if (!this.canTouch) {
             return;
+        }
+        if (TVInputManager_1.default.Instance) {
+            TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
         }
         if (!this.isFirstClick) {
             this.isFirstClick = true;
