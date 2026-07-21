@@ -206,6 +206,7 @@ var TVInputManager = /** @class */ (function (_super) {
             var baseScale = (_a = _this.originalScales.get(node)) !== null && _a !== void 0 ? _a : 1;
             cc.Tween.stopAllByTarget(node);
             if (index === _this.currentIndex) {
+                cc.audioEngine.playEffect(_this.hoverSFX, false);
                 cc.tween(node)
                     .to(0.1, { scale: baseScale * TVInputManager_1.FOCUS_SCALE })
                     .start();

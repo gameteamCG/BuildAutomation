@@ -191,6 +191,7 @@ export default class TVInputManager extends cc.Component {
             const baseScale = this.originalScales.get(node) ?? 1;
             cc.Tween.stopAllByTarget(node);
             if (index === this.currentIndex) {
+                cc.audioEngine.playEffect(this.hoverSFX, false);
                 cc.tween(node)
                     .to(0.1, { scale: baseScale * TVInputManager.FOCUS_SCALE })
                     .start();

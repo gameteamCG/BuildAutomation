@@ -20,17 +20,6 @@ export default class Gameplay extends cc.Component {
     private postive_VO: cc.AudioClip[] = [];
     @property(cc.AudioClip)
     private negative_VO: cc.AudioClip[] = [];
-
-    private options: cc.Node = null;
-
-    private optionsLayout: string = "layout3";
-
-    correctAnswer: number[] = [];
-
-    private canTouch: boolean = true;
-    correctCounter: number = 0;
-    private numberofOptions: number = 5;
-
     @property(cc.AudioClip)
     pop_audio: cc.AudioClip = null;
     @property(cc.AudioClip)
@@ -42,6 +31,12 @@ export default class Gameplay extends cc.Component {
     private correctAudio: cc.AudioClip = null;
     private wrongAudio: cc.AudioClip = null;
     private reiterationAudio: cc.AudioClip[] = [];
+    private options: cc.Node = null;
+    private optionsLayout: string = "layout3";
+    correctAnswer: number[] = [];
+    private canTouch: boolean = true;
+    correctCounter: number = 0;
+    private numberofOptions: number = 5;
 
     currentJockey: cc.Node = null;
     maxLevel: number = 0;
@@ -77,18 +72,7 @@ export default class Gameplay extends cc.Component {
         this.numberofOptions = startGame.Instance.questions[startGame.Instance.currentLevel - 1].numberOfOptions;
         this.options = this.node.getChildByName(this.optionsLayout);
         this.generateOptions(this.node.getChildByName(this.optionsLayout + "_template"), this.options, this.numberofOptions);
-        this.scheduleOnce(() => {
-            let optionNodes = this.options.children;
-            optionNodes.forEach((element, idx) => {
-                let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
-                if (idx === optionNodes.length - 1) {
-                    t = t.call(() => {
-                        this.setupTVFocus(this.optionsLayout);
-                    });
-                }
-                t.start();
-            });
-        }, 1)
+
         this.maxLevel = startGame.Instance.TotalLevels;
         if (startGame.Instance.currentLevel == this.maxLevel) {
             cc.director.preloadScene("gameEnd");
@@ -198,6 +182,18 @@ export default class Gameplay extends cc.Component {
         }
         this.currentJockey = startGame.Instance.jockey.getChildByName(startGame.Instance.jockeyName);
         this.currentJockey.active = true;
+        this.scheduleOnce(() => {
+            let optionNodes = this.options.children;
+            optionNodes.forEach((element, idx) => {
+                let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
+                if (idx === optionNodes.length - 1) {
+                    t = t.call(() => {
+                        this.setupTVFocus(this.optionsLayout);
+                    });
+                }
+                t.start();
+            });
+        }, 2)
     }
 
     start() {
@@ -230,14 +226,13 @@ export default class Gameplay extends cc.Component {
                 }
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout1, this);
+                    element.on("tv-select", this.onTouchStart_layout1, this);
                 });
             }
 
             else if (this.optionsLayout == "layout2") {
-                // this.OptionsLayout();
                 this.node.getChildByName("basket").active = true;
                 this.node.getChildByName("rope").active = true;
-                // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
                 let delay = 0;
                 for (let i = 0; i < this.options.children.length; i++) {
                     this.scheduleOnce(() => {
@@ -248,6 +243,7 @@ export default class Gameplay extends cc.Component {
                 }
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout2, this);
+                    element.on("tv-select", this.onTouchStart_layout3, this);
                 });
             }
             else if (this.optionsLayout == "layout3") {
@@ -261,6 +257,7 @@ export default class Gameplay extends cc.Component {
                 }
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout3, this);
+                    element.on("tv-select", this.onTouchStart_layout3, this);
                 });
             }
             this.scheduleOnce(() => {
@@ -342,13 +339,11 @@ export default class Gameplay extends cc.Component {
         if (!this.canTouch) {
             return;
         }
-        if (TVInputManager.Instance) {
-            TVInputManager.Instance.setCanSelect(this.canTouch)
-        }
-        cc.audioEngine.stopAllEffects();
-        this.node.getChildByName("hand").active = false;
         this.canTouch = false;
         TVInputManager.Instance.setCanSelect(this.canTouch)
+        console.log("-----------me aloyyyyyyyyyyyy")
+        cc.audioEngine.stopAllEffects();
+        this.node.getChildByName("hand").active = false;
         let node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
@@ -360,7 +355,6 @@ export default class Gameplay extends cc.Component {
             }
         }
         if (correct) {
-            console.log("helooooooooooo")
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
             this.correctCounter++;
@@ -375,6 +369,8 @@ export default class Gameplay extends cc.Component {
                         cc.audioEngine.playEffect(this.reiterationAudio[0], false);
                     }
                     node.active = false;
+                    this.canTouch = true;
+                    TVInputManager.Instance.setCanSelect(this.canTouch)
                     if (this.correctCounter == this.correctAnswer.length) {
                         console.log("all the options are answered correctly");
                         cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
@@ -397,7 +393,6 @@ export default class Gameplay extends cc.Component {
             cc.tween(node).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
                 .to(0.1, { x: posX }).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
                 .to(0.1, { x: posX }).call(() => {
-                    // this.canTouch = true;
                 }).start();
 
         }
@@ -407,11 +402,10 @@ export default class Gameplay extends cc.Component {
         if (!this.canTouch) {
             return;
         }
+        this.canTouch = false;
         TVInputManager.Instance.setCanSelect(this.canTouch)
         cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
-        this.canTouch = false;
-        TVInputManager.Instance.setCanSelect(this.canTouch)
         let node: cc.Node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
@@ -453,22 +447,14 @@ export default class Gameplay extends cc.Component {
                     console.log("all the options are answered correctly");
                     cc.tween(this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
                     this.LoadNextQuestion();
-                    // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
                 }
                 else {
                     this.canTouch = true;
                     TVInputManager.Instance.setCanSelect(this.canTouch)
                 }
             }, 1);
-            // cc.tween(_clone)
-            //     .to(1, { x: 0, y: 0 }, { easing: "sineInOut" })
-            //     .call(() => {
-
-            //     }).start();
         }
         else {
-            //play negative audio
-            // cc.audioEngine.playEffect(this.negative_audio, false);
             this.callNegativeRection();
             console.log("wrongAnswer--" + startGame.Instance.currentLevel);
             let posX = node.getPosition().x;
@@ -477,7 +463,6 @@ export default class Gameplay extends cc.Component {
             cc.tween(node).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
                 .to(0.1, { x: posX }).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
                 .to(0.1, { x: posX }).call(() => {
-                    // this.canTouch = true;
                 }).start();
 
         }
@@ -486,11 +471,10 @@ export default class Gameplay extends cc.Component {
         if (!this.canTouch) {
             return;
         }
+        this.canTouch = false;
         TVInputManager.Instance.setCanSelect(this.canTouch)
         cc.audioEngine.stopAllEffects();
         this.node.getChildByName("hand").active = false;
-        this.canTouch = false;
-        TVInputManager.Instance.setCanSelect(this.canTouch)
         let node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
@@ -524,7 +508,6 @@ export default class Gameplay extends cc.Component {
                     if (this.correctCounter == this.correctAnswer.length) {
                         console.log("all the options are answered correctly");
                         this.LoadNextQuestion();
-                        // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
                     }
                     else {
                         this.canTouch = true;
@@ -533,17 +516,14 @@ export default class Gameplay extends cc.Component {
                 }).start();
         }
         else {
-            // cc.audioEngine.playEffect(this.negative_audio, false);
             this.callNegativeRection();
             console.log("wrongAnswer--" + startGame.Instance.currentLevel);
-            //play negative audio
             let posX = node.getPosition().x;
             cc.tween(node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE })
                 .to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).start();
             cc.tween(node).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
                 .to(0.1, { x: posX }).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
                 .to(0.1, { x: posX }).call(() => {
-                    // this.canTouch = true;
                 }).start();
 
         }
@@ -719,7 +699,6 @@ export default class Gameplay extends cc.Component {
                             this.currentJockey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         }
                     }
-                    //console.log("characterDisappear--Podar_Jumbo");
                     this.canTouch = true;
                     TVInputManager.Instance.setCanSelect(this.canTouch)
                     if (this.questionAudio) {
