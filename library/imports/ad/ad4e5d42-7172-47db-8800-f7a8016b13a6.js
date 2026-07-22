@@ -383,15 +383,9 @@ var NewClass = /** @class */ (function (_super) {
         }
     };
     NewClass.prototype.OnVOButton = function () {
-        var _this = this;
         this.setupTVFocus("Option");
         cc.audioEngine.stopAllEffects();
-        this.canTouch = false;
-        if (this.questionSound[0])
-            cc.audioEngine.playEffect(this.questionSound[0], false);
-        this.scheduleOnce(function () {
-            _this.canTouch = true;
-        }, this.questionSound[0].duration + 0.1);
+        cc.audioEngine.playEffect(this.questionSound[0], false);
     };
     NewClass.prototype.callOptionIn = function () {
         var _this = this;
@@ -670,8 +664,6 @@ var NewClass = /** @class */ (function (_super) {
                     _this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                     cc.audioEngine.playEffect(_this.positiveSound[0], false);
                     _this.scheduleOnce(function () {
-                        _this.canTouch = true;
-                        TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
                         _this.correctAnswerCount++;
                         if (_this.correctAnswerCount == _this.totalAnswers) {
                             for (var i = 0; i < _this.node.getChildByName("Option").children.length; i++) {
@@ -692,7 +684,7 @@ var NewClass = /** @class */ (function (_super) {
                                     ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
                                     _this.scheduleOnce(function () {
                                         cc.tween(_this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                                        _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                                        //this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
                                         // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
                                         _this.callJockey();
                                     }, 1);
@@ -726,8 +718,6 @@ var NewClass = /** @class */ (function (_super) {
                         cc.tween(_this.node.getChildByName("QuestionBox1").getChildByName(imgName)).delay(0.5).to(0.7, { scale: imgScale * 0.5 }, { easing: "sineInOut" }).start();
                         _this.scheduleOnce(function () {
                             _node.destroy();
-                            _this.canTouch = true;
-                            TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
                             _this.correctAnswerCount++;
                             if (_this.correctAnswerCount == _this.totalAnswers) {
                                 _this.canTouch = false;
@@ -758,8 +748,6 @@ var NewClass = /** @class */ (function (_super) {
                     cc.audioEngine.playEffect(_this.positiveSound[0], false);
                     _this.scheduleOnce(function () {
                         //_node.destroy();
-                        _this.canTouch = true;
-                        TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
                         _this.correctAnswerCount++;
                         if (_this.correctAnswerCount == _this.totalAnswers) {
                             for (var i = 0; i < _this.node.getChildByName("Option").children.length; i++) {
@@ -780,7 +768,7 @@ var NewClass = /** @class */ (function (_super) {
                                     ProgressBar_1.default.Instance.ProgressFill(globalVariables_1.default.Instance.currentLevel);
                                     _this.scheduleOnce(function () {
                                         cc.tween(_this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                                        _this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                                        //this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
                                         // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
                                         _this.callJockey();
                                     }, 1);

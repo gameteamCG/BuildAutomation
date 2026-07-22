@@ -1,7 +1,11 @@
+
 const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class TVInputManager extends cc.Component {
+
+    @property(cc.AudioClip)
+    private hoverSFX: cc.AudioClip = null;
     private focusNodes: cc.Node[] = [];
     private currentIndex: number = -1;
     private canSelect: boolean = true;
@@ -187,6 +191,7 @@ export default class TVInputManager extends cc.Component {
             const baseScale = this.originalScales.get(node) ?? 1;
             cc.Tween.stopAllByTarget(node);
             if (index === this.currentIndex) {
+                cc.audioEngine.playEffect(this.hoverSFX, false)
                 cc.tween(node)
                     .to(0.1, { scale: baseScale * TVInputManager.FOCUS_SCALE })
                     .start();
@@ -241,6 +246,7 @@ export default class TVInputManager extends cc.Component {
                 });
             });
             node.on(cc.Node.EventType.MOUSE_ENTER, () => {
+                cc.audioEngine.playEffect(this.hoverSFX, false)
                 const baseScale = this.originalScales.get(node) ?? 1;
                 cc.tween(node).to(0.1, { scale: baseScale * TVInputManager.FOCUS_SCALE }).start();
             });
@@ -267,6 +273,11 @@ export default class TVInputManager extends cc.Component {
 /*
         --------------For Gameplay--------------------------------
     
+        if game has touchStart event : add this after assigning touchStart event
+        element.on('tv-select', function (event) {
+            this.TouchStart(element);
+        }, this);
+
         if(TVInputManager.Instance) {
             TVInputManager.Instance.setCanSelect(this.canTouch)
         }

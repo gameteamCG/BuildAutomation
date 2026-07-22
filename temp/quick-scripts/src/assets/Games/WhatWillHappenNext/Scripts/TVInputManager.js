@@ -28,6 +28,7 @@ var TVInputManager = /** @class */ (function (_super) {
     __extends(TVInputManager, _super);
     function TVInputManager() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.hoverSFX = null;
         _this.focusNodes = [];
         _this.currentIndex = -1;
         _this.canSelect = true;
@@ -205,6 +206,7 @@ var TVInputManager = /** @class */ (function (_super) {
             var baseScale = (_a = _this.originalScales.get(node)) !== null && _a !== void 0 ? _a : 1;
             cc.Tween.stopAllByTarget(node);
             if (index === _this.currentIndex) {
+                cc.audioEngine.playEffect(_this.hoverSFX, false);
                 cc.tween(node)
                     .to(0.1, { scale: baseScale * TVInputManager_1.FOCUS_SCALE })
                     .start();
@@ -264,6 +266,7 @@ var TVInputManager = /** @class */ (function (_super) {
             });
             node.on(cc.Node.EventType.MOUSE_ENTER, function () {
                 var _a;
+                cc.audioEngine.playEffect(_this.hoverSFX, false);
                 var baseScale = (_a = _this.originalScales.get(node)) !== null && _a !== void 0 ? _a : 1;
                 cc.tween(node).to(0.1, { scale: baseScale * TVInputManager_1.FOCUS_SCALE }).start();
             });
@@ -288,6 +291,9 @@ var TVInputManager = /** @class */ (function (_super) {
     TVInputManager.FOCUS_SCALE = 1.15;
     // ================= INIT =================
     TVInputManager.instance = null;
+    __decorate([
+        property(cc.AudioClip)
+    ], TVInputManager.prototype, "hoverSFX", void 0);
     TVInputManager = TVInputManager_1 = __decorate([
         ccclass
     ], TVInputManager);
@@ -297,6 +303,11 @@ exports.default = TVInputManager;
 /*
         --------------For Gameplay--------------------------------
     
+        if game has touchStart event : add this after assigning touchStart event
+        element.on('tv-select', function (event) {
+            this.TouchStart(element);
+        }, this);
+
         if(TVInputManager.Instance) {
             TVInputManager.Instance.setCanSelect(this.canTouch)
         }

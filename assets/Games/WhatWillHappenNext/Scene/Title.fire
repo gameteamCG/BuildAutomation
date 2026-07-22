@@ -3260,6 +3260,9 @@
       "__id__": 69
     },
     "_enabled": true,
+    "hoverSFX": {
+      "__uuid__": "9660c45c-7b48-4081-abe6-b83a6e33427a"
+    },
     "_id": "0cclRlnx5ChrrcrLMPhZjO"
   },
   {

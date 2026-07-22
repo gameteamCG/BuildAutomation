@@ -432,12 +432,10 @@ export default class NewClass extends cc.Component {
     OnVOButton() {
         this.setupTVFocus("Option");
         cc.audioEngine.stopAllEffects();
-        this.canTouch = false
-        if (this.questionSound[0])
-            cc.audioEngine.playEffect(this.questionSound[0], false);
-        this.scheduleOnce(() => {
-            this.canTouch = true
-        }, this.questionSound[0].duration + 0.1)
+
+
+        cc.audioEngine.playEffect(this.questionSound[0], false);
+
     }
 
     callOptionIn() {
@@ -719,8 +717,7 @@ export default class NewClass extends cc.Component {
                     this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                     cc.audioEngine.playEffect(this.positiveSound[0], false);
                     this.scheduleOnce(() => {
-                        this.canTouch = true;
-                        TVInputManager.Instance.setCanSelect(this.canTouch)
+
                         this.correctAnswerCount++;
                         if (this.correctAnswerCount == this.totalAnswers) {
                             for (let i = 0; i < this.node.getChildByName("Option").children.length; i++) {
@@ -741,7 +738,7 @@ export default class NewClass extends cc.Component {
                                     ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
                                     this.scheduleOnce(() => {
                                         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                                        this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                                        //this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
                                         // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
                                         this.callJockey();
                                     }, 1);
@@ -776,8 +773,7 @@ export default class NewClass extends cc.Component {
 
                         this.scheduleOnce(() => {
                             _node.destroy();
-                            this.canTouch = true;
-                            TVInputManager.Instance.setCanSelect(this.canTouch)
+
                             this.correctAnswerCount++;
                             if (this.correctAnswerCount == this.totalAnswers) {
                                 this.canTouch = false;
@@ -808,8 +804,7 @@ export default class NewClass extends cc.Component {
                     cc.audioEngine.playEffect(this.positiveSound[0], false);
                     this.scheduleOnce(() => {
                         //_node.destroy();
-                        this.canTouch = true;
-                        TVInputManager.Instance.setCanSelect(this.canTouch)
+
                         this.correctAnswerCount++;
                         if (this.correctAnswerCount == this.totalAnswers) {
                             for (let i = 0; i < this.node.getChildByName("Option").children.length; i++) {
@@ -830,7 +825,7 @@ export default class NewClass extends cc.Component {
                                     ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel);
                                     this.scheduleOnce(() => {
                                         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-                                        this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+                                        //this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
                                         // console.log("correctAnswerCount--" + this.correctAnswerCount, this.totalAnswers);
                                         this.callJockey();
                                     }, 1);
@@ -916,6 +911,7 @@ export default class NewClass extends cc.Component {
                     this.callNextLevel();
                 }, this.positiveAudio[currentClipNum].duration);
             }, 0.5);
+
         }
         else if (startGame.Instance.jockeyName == "tlc") {
             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
