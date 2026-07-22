@@ -412,16 +412,20 @@ var NewClass = /** @class */ (function (_super) {
                             var hand_1 = _this.node.getChildByName("hand");
                             console.log("answer array num = ", _this.answerArray[0]);
                             hand_1.setParent(_this.node.getChildByName("Option").getChildByName(_this.answerArray[0]));
-                            hand_1.setPosition(0, -30);
+                            // hand.setPosition(240.012, 90);
+                            _this.scheduleOnce(function () {
+                                _this.node.getChildByName("hand1").active = true;
+                                _this.node.getChildByName("hand1").getComponent(cc.Animation).play("handTap");
+                            }, 0.1);
                             hand_1.setParentWithSamePos(_this.node);
                             var handPosition_1 = hand_1.getPosition();
-                            var ThirdObject_1 = _this.node.getChildByName("QuestionBox").getChildByName("ThirdObject");
-                            var distanceX_1 = 0;
+                            var ThirdObject = _this.node.getChildByName("QuestionBox").getChildByName("ThirdObject");
+                            var distanceX = 0;
                             if (StartGame_1.default.Instance.jockeyName == "supercub" || StartGame_1.default.Instance.jockeyName == "tlc") {
-                                distanceX_1 = 420;
+                                distanceX = 420;
                             }
                             else {
-                                distanceX_1 = 300;
+                                distanceX = 300;
                             }
                             var waitTime = 0;
                             if (StartGame_1.default.Instance.jockeyName == "tlc" || StartGame_1.default.Instance.jockeyName == "supercub") {
@@ -430,13 +434,13 @@ var NewClass = /** @class */ (function (_super) {
                             _this.scheduleOnce(function () {
                                 hand_1.getComponent(cc.Animation).play("handDrag");
                                 _this.scheduleOnce(function () {
-                                    cc.tween(hand_1).to(1, { x: ThirdObject_1.x - distanceX_1, y: ThirdObject_1.y - 200 }).call(function () {
+                                    cc.tween(hand_1).to(1, { x: 240.012, y: 90 }).call(function () {
                                         hand_1.getComponent(cc.Animation).play("handDrop");
                                         _this.scheduleOnce(function () {
                                             hand_1.setPosition(handPosition_1.x, handPosition_1.y);
                                             hand_1.getComponent(cc.Animation).play("handDrag");
                                             _this.scheduleOnce(function () {
-                                                cc.tween(hand_1).to(1, { x: ThirdObject_1.x - distanceX_1, y: ThirdObject_1.y - 200 }).call(function () {
+                                                cc.tween(hand_1).to(1, { x: 240.012, y: 90 }).call(function () {
                                                     hand_1.getComponent(cc.Animation).play("handDrop");
                                                     _this.scheduleOnce(function () {
                                                         hand_1.active = false;
@@ -506,6 +510,7 @@ var NewClass = /** @class */ (function (_super) {
             var _actualPosition = this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").convertToNodeSpaceAR(_nodeWorldSpacePos);
             // if (cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.PolygonCollider).points)) {
             cc.audioEngine.stopAllEffects();
+            this.node.getChildByName("hand1").active = false;
             console.log("correctAnswer--" + globalVariables_1.default.Instance.currentLevel);
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;

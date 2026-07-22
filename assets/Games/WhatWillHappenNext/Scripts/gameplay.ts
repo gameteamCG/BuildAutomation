@@ -255,6 +255,7 @@ export default class NewClass extends cc.Component {
     }
 
     start() {
+
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
         // this.OptionsLayout();
@@ -434,13 +435,18 @@ export default class NewClass extends cc.Component {
                 cc.audioEngine.playEffect(this.popSound[0], false);
                 cc.tween(this.node.getChildByName("Option").getChildByName(i.toString()))
                     .to(0.5, { scale: ObjScale }, { easing: "sineInOut" }).start();
+
                 if (i == this.node.getChildByName("Option").children.length) {
                     this.scheduleOnce(() => {
                         if (globalVariables.Instance.currentLevel == 1) {
                             let hand = this.node.getChildByName("hand");
                             console.log("answer array num = ", this.answerArray[0]);
                             hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-                            hand.setPosition(0, -30);
+                            // hand.setPosition(240.012, 90);
+                            this.scheduleOnce(() => {
+                                this.node.getChildByName("hand1").active = true;
+                                this.node.getChildByName("hand1").getComponent(cc.Animation).play("handTap");
+                            }, 0.1);
                             hand.setParentWithSamePos(this.node);
                             let handPosition: cc.Vec2 = hand.getPosition();
                             let ThirdObject: cc.Node = this.node.getChildByName("QuestionBox").getChildByName("ThirdObject");
@@ -458,13 +464,13 @@ export default class NewClass extends cc.Component {
                             this.scheduleOnce(() => {
                                 hand.getComponent(cc.Animation).play("handDrag");
                                 this.scheduleOnce(() => {
-                                    cc.tween(hand).to(1, { x: ThirdObject.x - distanceX, y: ThirdObject.y - 200 }).call(() => {
+                                    cc.tween(hand).to(1, { x: 240.012, y: 90 }).call(() => {
                                         hand.getComponent(cc.Animation).play("handDrop");
                                         this.scheduleOnce(() => {
                                             hand.setPosition(handPosition.x, handPosition.y);
                                             hand.getComponent(cc.Animation).play("handDrag");
                                             this.scheduleOnce(() => {
-                                                cc.tween(hand).to(1, { x: ThirdObject.x - distanceX, y: ThirdObject.y - 200 }).call(() => {
+                                                cc.tween(hand).to(1, { x: 240.012, y: 90 }).call(() => {
                                                     hand.getComponent(cc.Animation).play("handDrop");
                                                     this.scheduleOnce(() => {
                                                         hand.active = false;
@@ -536,6 +542,7 @@ export default class NewClass extends cc.Component {
             var _actualPosition = this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").convertToNodeSpaceAR(_nodeWorldSpacePos);
             // if (cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.PolygonCollider).points)) {
             cc.audioEngine.stopAllEffects();
+            this.node.getChildByName("hand1").active = false;
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;

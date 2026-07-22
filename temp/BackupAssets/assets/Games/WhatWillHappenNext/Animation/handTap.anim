@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "handTap",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.10344827586206896,
+  "sample": 29,
+  "speed": 0.1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "7b01d87c-d2a5-4ed0-bb38-9c5743075e8e"
+            }
+          },
+          {
+            "frame": 0.06896551724137931,
+            "value": {
+              "__uuid__": "662c7da7-cfcf-4792-a1a9-79d46d7a656f"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

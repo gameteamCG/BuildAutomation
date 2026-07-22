@@ -2839,7 +2839,7 @@
     "BGM_audio": {
       "__uuid__": "0de1ef27-6197-41a4-8ab5-319bb65fecab"
     },
-    "volume": 0.03,
+    "volume": 1,
     "NextSceneName": "1",
     "isAgeParameterNeeded": false,
     "LevelAgeParameters": [
@@ -3003,6 +3003,9 @@
       "__id__": 62
     },
     "_enabled": true,
+    "hoverSFX": {
+      "__uuid__": "25a87ed5-0cc8-4f71-9d4f-3f23cf4688ca"
+    },
     "_id": "e2RwI+Q5xCP7iD/7CQw/fy"
   }
 ]

@@ -1,48 +1,38 @@
+
 const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class TVInputManager extends cc.Component {
 
-
-
+    @property(cc.AudioClip)
+    private hoverSFX: cc.AudioClip = null;
     private focusNodes: cc.Node[] = [];
     private currentIndex: number = -1;
     private canSelect: boolean = true;
-    private originalScales: Map<cc.Node, number> = new Map(); // 🔥 store base scales
-
-    private static readonly FOCUS_SCALE = 1.15; // tweak to taste
+    private originalScales: Map<cc.Node, number> = new Map();
+    private static readonly FOCUS_SCALE = 1.15;
 
     // ================= INIT =================
 
     private static instance: TVInputManager = null;
-
     static get Instance() {
         return this.instance;
     }
-
     init(nodes: cc.Node[], defaultIndex: number = -1) {
-
         this.focusNodes = nodes || [];
-
-        // 🔥 remember each node's original scale
         this.originalScales.clear();
         this.focusNodes.forEach(node => {
             if (node && node.isValid) {
-                // defensive: if captured mid pop-in/hide animation (scale ~0),
-                // fall back to 1 instead of freezing the node invisible
                 const scale = node.scale;
                 this.originalScales.set(node, scale > 0.01 ? scale : 1);
             }
         });
-
         this.currentIndex = defaultIndex;
-
         if (defaultIndex === -1) {
             this.clearFocus();
         } else {
             this.updateFocus();
         }
-
         this.attachClickListeners();
     }
 
@@ -54,7 +44,6 @@ export default class TVInputManager extends cc.Component {
 
 
     private handleTVKeys = (e: KeyboardEvent) => {
-
         const blockedKeys = [
             "ArrowUp",
             "ArrowDown",
@@ -71,13 +60,10 @@ export default class TVInputManager extends cc.Component {
         ];
 
         if (blockedKeys.includes(e.key)) {
-
             e.preventDefault();
             e.stopPropagation();
             e.stopImmediatePropagation();
-
             cc.game.canvas?.focus();
-
             this.onKeyDown({
                 keyCode: e.keyCode
             } as any);
@@ -86,63 +72,36 @@ export default class TVInputManager extends cc.Component {
 
 
     onLoad() {
-
         cc.game.addPersistRootNode(this.node);
         TVInputManager.instance = this;
-
         document.body.style.overflow = "hidden";
         document.body.style.touchAction = "none";
-
-        // 🔥 block native TV navigation
         window.addEventListener(
             "keydown",
             this.handleTVKeys,
             true
         );
-        console.log("onload---------");
-
         TVInputManager.instance = this;
-
-
-
-        // 🔥 focus browser + canvas
         window.focus();
-
         this.scheduleOnce(() => {
-
             if (cc.game.canvas) {
-
                 cc.game.canvas.setAttribute("tabindex", "0");
-
                 cc.game.canvas.focus();
-
             }
-
         }, 0.2);
     }
 
     onDestroy() {
-
-
-
-        // 🔥 remove TV listener
         window.removeEventListener("keydown", this.handleTVKeys, true);
         this.focusNodes = [];
         this.originalScales.clear();
-
         TVInputManager.instance = null;
     }
 
 
     onKeyDown(event: cc.Event.EventKeyboard) {
-
-
         (event as any).preventDefault?.();
-
-        console.log("KEY DETECTED", event.keyCode);
-
         switch (event.keyCode) {
-
             case cc.macro.KEY.left:
             case cc.macro.KEY.up:
                 this.move(-1);
@@ -153,21 +112,13 @@ export default class TVInputManager extends cc.Component {
                 this.move(1);
                 return;
         }
-        console.log("canslect 1")
-
         if (!this.canSelect) return;
-
         if (
-            event.keyCode === 8 ||    // Backspace
-            event.keyCode === 27      // Escape
+            event.keyCode === 8 ||
+            event.keyCode === 27
         ) {
-
-            console.log("TV BACK BUTTON");
-
-            // your custom back logic
             return;
         }
-
         if (
             event.keyCode === cc.macro.KEY.enter ||
             event.keyCode === cc.macro.KEY.space ||
@@ -175,8 +126,6 @@ export default class TVInputManager extends cc.Component {
             event.keyCode === 23 ||
             event.keyCode === 66
         ) {
-            console.log("trigger 5")
-
             this.trigger();
         }
     }
@@ -186,14 +135,8 @@ export default class TVInputManager extends cc.Component {
     move(step: number) {
         console.log("Move")
         this.clean();
-
         if (this.focusNodes.length === 0) return;
-
-
-
-        // 🔥 first move → set initial focus
         if (this.currentIndex === -1) {
-
             this.currentIndex =
                 step > 0
                     ? 0
@@ -202,57 +145,28 @@ export default class TVInputManager extends cc.Component {
             this.updateFocus();
             return;
         }
-
         this.currentIndex += step;
-
         if (this.currentIndex < 0) this.currentIndex = this.focusNodes.length - 1;
         if (this.currentIndex >= this.focusNodes.length) this.currentIndex = 0;
-
         this.updateFocus();
-
-        console.log(
-            "Current Focus:",
-            this.currentIndex,
-            this.focusNodes[this.currentIndex]?.name
-        );
     }
 
     trigger() {
-
         this.clean();
-        console.log("1 trigger")
-
         if (this.focusNodes.length === 0) return;
-        console.log("2 trigger")
-
         if (this.currentIndex === -1) return;
-        console.log("3 trigger")
         let node = this.focusNodes[this.currentIndex];
         if (!node) return;
-
-        // if (startGame.Instance && startGame.Instance.buttonClick) {
-        //     cc.audioEngine.playEffect(startGame.Instance.buttonClick, false);
-        // }
-        console.log("4 trigger")
-
         this.playPressEffect(node, () => {
-            console.log("playeffect")
-
             let button = node.getComponent(cc.Button);
-
             if (button && button.clickEvents.length > 0) {
-
                 button.clickEvents.forEach(eventHandler => {
-
                     eventHandler.emit([{
                         target: node,
                         currentTarget: node
                     }]);
-
                 });
-
             }
-
         });
     }
 
@@ -261,10 +175,8 @@ export default class TVInputManager extends cc.Component {
     clean() {
         this.focusNodes = this.focusNodes.filter(node => {
             if (!node || !node.isValid) return false;
-
             let btn = node.getComponent(cc.Button);
             if (btn && !btn.interactable) return false;
-
             return true;
         });
 
@@ -274,23 +186,17 @@ export default class TVInputManager extends cc.Component {
     }
 
     updateFocus() {
-        console.log("this.focusNodes.length", this.focusNodes.length);
-
         this.focusNodes.forEach((node, index) => {
-
             if (!node || !node.isValid) return;
-
             const baseScale = this.originalScales.get(node) ?? 1;
-
             cc.Tween.stopAllByTarget(node);
             if (index === this.currentIndex) {
-                console.log("focused");
+                cc.audioEngine.playEffect(this.hoverSFX, false)
                 cc.tween(node)
                     .to(0.1, { scale: baseScale * TVInputManager.FOCUS_SCALE })
                     .start();
                 node.opacity = 255;
             } else {
-                console.log("unfocused");
                 cc.tween(node)
                     .to(0.1, { scale: baseScale })
                     .start();
@@ -301,7 +207,6 @@ export default class TVInputManager extends cc.Component {
     // ================= MOUSE + TV =================
 
     playPressEffect(node: cc.Node, callback?: Function) {
-
         let baseScale = this.originalScales.get(node) ?? node.scale; // 🔥 important
         console.log("CLICK:", node.name);
         cc.Tween.stopAllByTarget(node);
@@ -312,16 +217,13 @@ export default class TVInputManager extends cc.Component {
                 if (callback) callback();
             })
             .start();
-        // When game only has touch events.
         node.emit("tv-select", { target: node, currentTarget: node });
     }
 
     clearFocus() {
         this.focusNodes.forEach(node => {
             if (!node || !node.isValid) return;
-
             const baseScale = this.originalScales.get(node) ?? 1;
-
             cc.Tween.stopAllByTarget(node);
             node.scale = baseScale;
             node.opacity = 255;
@@ -330,54 +232,136 @@ export default class TVInputManager extends cc.Component {
 
     attachClickListeners() {
         this.focusNodes.forEach((node, index) => {
-
             node.off(cc.Node.EventType.MOUSE_ENTER);
             node.off(cc.Node.EventType.MOUSE_LEAVE);
             node.off(cc.Node.EventType.MOUSE_DOWN);
             node.off("click");
-
             node.on("click", (event) => {
-
                 this.currentIndex = index;
                 this.updateFocus();
-
                 this.playPressEffect(node, () => {
                     if (this.canSelect) {
                         node.emit("custom-select", event || { target: node });
                     }
                 });
-
             });
-
             node.on(cc.Node.EventType.MOUSE_ENTER, () => {
+                cc.audioEngine.playEffect(this.hoverSFX, false)
                 const baseScale = this.originalScales.get(node) ?? 1;
                 cc.tween(node).to(0.1, { scale: baseScale * TVInputManager.FOCUS_SCALE }).start();
             });
-
             node.on(cc.Node.EventType.MOUSE_LEAVE, () => {
-
                 const baseScale = this.originalScales.get(node) ?? 1;
-
                 if (
                     !this.focusNodes ||
                     this.currentIndex < 0 ||
                     !this.focusNodes[this.currentIndex]
                 ) {
-
                     cc.tween(node).to(0.1, { scale: baseScale }).start();
                     return;
                 }
-
                 if (this.focusNodes[this.currentIndex] !== node) {
-
                     cc.tween(node)
                         .to(0.1, { scale: baseScale })
                         .start();
                 }
             });
-
         });
-
-
     }
 }
+
+/*
+        --------------For Gameplay--------------------------------
+    
+        if game has touchStart event : add this after assigning touchStart event
+        element.on('tv-select', function (event) {
+            this.TouchStart(element);
+        }, this);
+
+        if(TVInputManager.Instance) {
+            TVInputManager.Instance.setCanSelect(this.canTouch)
+        }
+    
+        Start :
+        let optionNodes = this.node.getChildByName("options").children;
+        optionNodes.forEach((element, idx) => {
+            let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
+            if (idx === optionNodes.length - 1) {
+                t = t.call(() => {
+                    this.setupTVFocus("options");
+                });
+            }
+            t.start();
+        });
+    
+        For options
+        let optionNodes2 = this.node.getChildByName("options").children;
+        optionNodes2.forEach((element, idx) => {
+            let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" })
+                .call(() => {
+                    this.canTouch = true;
+                    TVInputManager.Instance.setCanSelect(this.canTouch)
+                });
+            if (idx === optionNodes2.length - 1) {
+                t = t.call(() => {
+                    this.setupTVFocus("options");
+                });
+            }
+            t.start();
+        });
+    
+        buttonSound: this.setupTVFocus("options");
+    
+        private setupTVFocus(activeContainerName: string) {
+            let backBtn = startGame.Instance.node.getChildByName("back");
+            let musicBtn = startGame.Instance.node.getChildByName("music");
+            let soundBtn = this.node.getChildByName("panel").getChildByName("soundbutton");
+            backBtn.scale = 1;
+            musicBtn.scale = 1;
+            let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
+                let btn = node.getComponent(cc.Button);
+                return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+            });
+            let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+            if (cc.director.getScene().name == "1") {
+                TVInputManager.Instance.init(nodes, (parseInt(this.answerarray[0])) - 1);
+            }
+            else {
+                TVInputManager.Instance.init(nodes, -1);
+            }
+            TVInputManager.Instance.setCanSelect(this.canTouch);
+        }
+            
+        private setupTVFocus2() {
+            let backBtn = startGame.Instance.node.getChildByName("back");
+            let musicBtn = startGame.Instance.node.getChildByName("music");
+            backBtn.scale = 1;
+            musicBtn.scale = 1;
+            let nodes = [backBtn, musicBtn,];
+            TVInputManager.Instance.setCanSelect(true);
+            TVInputManager.Instance.init(nodes);
+        }
+
+
+
+        -------------------------------- EndScreen-----------------------------------------
+         onload : 
+                let backBtn = startGame.Instance.node.getChildByName("back");
+                let musicBtn = startGame.Instance.node.getChildByName("music");
+                backBtn.scale = 1;
+                musicBtn.scale = 1;
+                let nodes = [backBtn, musicBtn,];
+                TVInputManager.Instance.setCanSelect(true);
+                TVInputManager.Instance.init(nodes);
+    
+
+        ------------------------------StartGame -----------------------------------------
+        onload :
+            let backBtn = this.node.getChildByName("back");
+            let musicBtn = this.node.getChildByName("music");
+            let nodes = [backBtn, musicBtn,];
+            this.scheduleOnce(() => {
+                TVInputManager.Instance.init(nodes);
+            }, 0.5);
+    
+*/
