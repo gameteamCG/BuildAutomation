@@ -6,6 +6,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
 import globalVariables from "../../Games/WhatWillHappenNext/Scripts/globalVariables";
+import TVInputManager from "../../Games/WhatWillHappenNext/Scripts/TVInputManager";
 interface AdditionalData {
     GameID: string;
     totalLevel: string;
@@ -113,6 +114,12 @@ export default class startGame extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
+        let backBtn = this.node.getChildByName("back");
+        let musicBtn = this.node.getChildByName("music");
+        let nodes = [backBtn, musicBtn,];
+        this.scheduleOnce(() => {
+            TVInputManager.Instance.init(nodes);
+        }, 0.5);
         cc.game.addPersistRootNode(this.node);
         startGame.instance = this;
         console.log("loading--100");
