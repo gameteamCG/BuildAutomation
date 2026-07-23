@@ -2,6 +2,7 @@
 
 import ProgressBar from "../../../Framework/Prefabs/Progressbar/ProgressBar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
+import TVInputManager from "./TVInputManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -43,7 +44,17 @@ export default class NewClass extends cc.Component {
     jockeyCorrect2: cc.AudioClip = null;
     @property(cc.AudioClip)
     wrongAnswer: cc.AudioClip = null;
-
+    private questions: string[] = [
+        "2 tens and 1 one", // 21
+        "2 tens and 3 ones", // 23
+        "2 tens and 4 ones", // 24
+        "2 tens and 2 ones", // 22
+        "2 tens and 6 ones", // 26
+        "2 tens and 5 ones", // 25
+        "2 tens and 8 ones", // 28
+        "2 tens and 9 ones", // 29
+        "2 tens and 7 ones", // 27
+    ];
     // @property(cc.SpriteFrame)
     temporarySprites: cc.SpriteFrame[] = [];
 
@@ -90,7 +101,7 @@ export default class NewClass extends cc.Component {
     currentJockey: cc.Node = null;
 
 
-
+    private canTouch = false;
     private interactable;
     private selectable = false;
     private wordCurrentSeleced: cc.Node;
@@ -146,6 +157,7 @@ export default class NewClass extends cc.Component {
         this.scheduleOnce(this.sheduleQuestionClip, 10);
     }
     start() {
+
         if (startGame.Instance.jockeyName == "bag") {
             this.positiveAudio = this.bagPositive;
             this.negativeAudio = this.bagNegative;
@@ -182,11 +194,14 @@ export default class NewClass extends cc.Component {
             cc.director.preloadScene((this.currScene + 1).toString());
         }
         startGame.Instance.clickEvent = false;
+        this.canTouch = false;
+        TVInputManager.Instance.setCanSelect(this.canTouch)
         let canvas = cc.find("Canvas");
         canvas.on('touchstart', function (event) {
             if (!startGame.Instance.clickEvent) {
                 {
                     startGame.Instance.clickEvent = true;
+
                     console.log("firstClick--" + this.currScene);
                 }
             }
@@ -199,7 +214,46 @@ export default class NewClass extends cc.Component {
 
 
     }
+    private setupTVFocus(activeContainerName: string) {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("shortQBar").getChildByName("SoundButton");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        let optionButtons = this.node.getChildByName("frame").children.filter(node => {
+            let btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+        let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
 
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        TVInputManager.Instance.setCanSelect(this.canTouch);
+    }
+    private setupTVFocus2() {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("shortQBar").getChildByName("SoundButton");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        let optionButtons = this.myOptions.children.filter(node => {
+            let btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable);
+        });
+        let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        TVInputManager.Instance.setCanSelect(this.canTouch);
+    }
     UpdateJsonData() {
         this.node.getChildByName("bg").getComponent(cc.Sprite).spriteFrame = startGame.Instance.mainBg;
 
@@ -367,6 +421,7 @@ export default class NewClass extends cc.Component {
     }
 
     UpdateOptions() {
+
         this.options.active = false;
         this.node.getChildByName("hint").active = false;
         let _width = 250;
@@ -394,7 +449,7 @@ export default class NewClass extends cc.Component {
         //repeat method
         this.UpdateOptions();
         this.sheduleQuestionClip = () => {
-            if (this.interactable) { cc.audioEngine.playEffect(this.puzzleQuestionVo, false); }
+            if (this.canTouch) { cc.audioEngine.playEffect(this.puzzleQuestionVo, false); }
             this.options.children.forEach((_child) => {
                 if (_child.angle % 360 != 0) {
                     cc.tween(_child)
@@ -415,12 +470,23 @@ export default class NewClass extends cc.Component {
         }, 0.1);
 
         this.wordsNode.children.forEach((element) => {
-            element.on('touchstart', (_event) => { this.wordTouchStart(_event); });
-            element.on('touchmove', (_event) => { this.wordTouchMove(_event); });
-            element.on('touchend', (_event) => { this.wordTouchEnd(_event); });
+            element.on('touchstart', (_event) => {
+                this.wordTouchStart(_event);
+            });
+        });
+        let optionNodes = this.node.getChildByName("options").children;
+        optionNodes.forEach((element, idx) => {
+            let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
+            if (idx === optionNodes.length - 1) {
+                t = t.call(() => {
+                    this.setupTVFocus("options");
+                });
+            }
+            t.start();
         });
     }
     playButtonSound() {
+        this.setupTVFocus("Options");
         if (this.isSecond == true) {
             //check what interaction it is and call the respective function
             //show question panel
@@ -546,14 +612,12 @@ export default class NewClass extends cc.Component {
 
                         }
                         this.scheduleOnce(() => {
-
-
-
                             this.scheduleOnce(() => {
-                                this.interactable = true;
+                                this.canTouch = true;
+                                TVInputManager.Instance.setCanSelect(this.canTouch)
                                 this.scheduleOnce(this.sheduleQuestionClip, 10);
                                 this.resetInteraction();
-                                if (this.currScene < 4)
+                                if (this.currScene < 2)
                                     this.rotatePuzzleImage(this.options.getChildByName("1"));
                             }, 0.2)
                         }, duration);
@@ -564,44 +628,57 @@ export default class NewClass extends cc.Component {
     }
 
     optionClicked(_event: cc.Event) {
+        if (!this.canTouch) {
+            return;
+        }
+        this.canTouch = false;
+        TVInputManager.Instance.setCanSelect(this.canTouch)
+        console.log("-----------------------")
         this.resetInteraction();
         let handNode = this.node.getChildByName("handClick");
         handNode.active = false;
         if (!startGame.Instance.clickEvent) {
             {
                 startGame.Instance.clickEvent = true;
-
-
                 console.log("firstClick--" + this.currScene);
             }
         }
-        if (this.interactable) {
-
-            this.rotatePuzzleImage(_event.target);
-        }
+        this.rotatePuzzleImage(_event.target);
     }
     repeatQuestionClicked(_event: cc.Event) {
         if (!this.questionPlaying) {
             _event.target.getComponent(cc.Button).interactable = false;
+            this.canTouch = false;
+            TVInputManager.Instance.setCanSelect(this.canTouch)
             this.questionPlaying = true;
             cc.audioEngine.playEffect(this.wordVoIteration, false);
             this.scheduleOnce(() => {
                 this.questionPlaying = false;
                 _event.target.getComponent(cc.Button).interactable = true;
+                this.canTouch = true;
+                TVInputManager.Instance.setCanSelect(this.canTouch)
             }, this.wordVoIteration.duration);
         }
     }
     rotatePuzzleImage(_node: cc.Node) {
-        this.interactable = false;
         let child = _node;
+
         const angle = child.angle;
         cc.audioEngine.playEffect(this.rotateAction, false);
-        cc.tween(child)
-            .to(0.2, { angle: angle - 90 })
-            .call(() => { this.optionsAligned() })
-            .start()
+        this.scheduleOnce(() => {
+            cc.tween(child)
+                .to(0.2, { angle: angle - 90 })
+                .call(() => {
+
+                    this.canTouch = true;
+                    TVInputManager.Instance.setCanSelect(this.canTouch)
+                    this.optionsAligned()
+                })
+                .start()
+        }, 0.1)
     }
     optionsAligned() {
+
         let levelPassed = true;
         this.options.children.forEach((_child) => {
             if (_child.angle % 360 != 0) {
@@ -609,8 +686,19 @@ export default class NewClass extends cc.Component {
             }
         })
         if (levelPassed) {
+
+            // if (!this.canTouch) { return; }
+
+
             //if the items have been aligned 
             this.options.color = cc.Color.GREEN;
+            this.canTouch = false;
+            TVInputManager.Instance.setCanSelect(this.canTouch)
+            TVInputManager.Instance.init([], -1);   // Clear all focusable nodes
+            TVInputManager.Instance.setCanSelect(false);
+            this.options.children.forEach((_child) => {
+                _child.scale = 1
+            })
             cc.audioEngine.playEffect(this.correctAction, false);
             this.scheduleOnce(() => {
                 // cc.audioEngine.playEffect(this.jockeyCorrect2, false);
@@ -640,7 +728,8 @@ export default class NewClass extends cc.Component {
                 }, this.puzzleVoIteration.duration);
             }, 0.5);
         } else {
-            this.interactable = true;
+            this.canTouch = true;
+            TVInputManager.Instance.setCanSelect(this.canTouch)
         }
     }
 
@@ -784,6 +873,8 @@ export default class NewClass extends cc.Component {
                     //console.log("characterDisappear--Podar_Jumbo");
                     this.myOptions.children.forEach(elem => {
                         elem.getComponent(cc.Button).interactable = true;
+                        this.canTouch = true;
+                        TVInputManager.Instance.setCanSelect(this.canTouch)
                     });
                 }, this.negativeAudio[currentClipNum].duration);
             }, 0.5);
@@ -792,13 +883,17 @@ export default class NewClass extends cc.Component {
 
 
     OptionsAppear() {
-
         cc.tween(this.options).to(0.3, { x: this.options.x - 200, y: 0, scaleX: 1, scaleY: 1 }).start();
 
         cc.tween(this.myOptions).to(0.3, { y: 0 }).start();
         this.scheduleOnce(() => {
-
             this.myOptions.active = true;
+
+            this.canTouch = true;
+
+            this.setupTVFocus2();               // Register the new buttons
+            TVInputManager.Instance.setCanSelect(true);
+
         }, 0.5);
 
 
@@ -807,6 +902,7 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 cc.tween(_child).to(0.8, { scale: 1 }).start()
             }, 0.5 * index);
+
         });
 
     }
@@ -834,9 +930,13 @@ export default class NewClass extends cc.Component {
 
             this.myOptions.children.forEach(element => {
                 element.getComponent(cc.Button).interactable = false;
+                this.canTouch = false;
+                TVInputManager.Instance.setCanSelect(this.canTouch)
             });
             cc.audioEngine.stopAllEffects();
+            console.log("-----------hihihihi")
             cc.audioEngine.playEffect(this.wordVoIteration, false);
+            this.node.getChildByName("shortQBar").getChildByName("New Label").getComponent(cc.Label).string = this.questions[startGame.Instance.currentLevel - 1];
             this.scheduleOnce(() => {
                 this.node.getChildByName("confetti").getComponent(cc.Animation).play();
                 this.CallJockey();
@@ -844,13 +944,16 @@ export default class NewClass extends cc.Component {
         }
 
         else {
+
             console.log("wrongAnswer--" + this.currScene);
             cc.audioEngine.playEffect(this.wrongAnswer, false);
-            this.callNegativeRection();
-            this.myOptions.children.forEach(element => {
-                element.getComponent(cc.Button).interactable = false;
-            });
 
+            this.myOptions.children.forEach(element => {
+                //element.getComponent(cc.Button).interactable = false;
+                this.canTouch = false;
+                TVInputManager.Instance.setCanSelect(this.canTouch)
+            });
+            this.callNegativeRection();
             cc.tween(_node).to(0.1, { angle: 10 }).to(0.1, { angle: 0 }).to(0.1, { angle: -10 })
                 .to(0.1, { angle: 0 }).to(0.1, { angle: 10 }).to(0.1, { angle: 0 }).start();
 
@@ -941,6 +1044,7 @@ export default class NewClass extends cc.Component {
         this.selectable = true;
     }
     wordTouchStart(_event: cc.Event) {
+        console.log("=-==========================")
         // console.log(this.selectable);
         if (this.selectable) {
             // console.log("start event");

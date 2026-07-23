@@ -53,7 +53,7 @@
               },
               {
                 "width": 860.6625366210938,
-                "height": 346.0874938964844,
+                "height": 346.1000061035156,
                 "type": "panel",
                 "active": 1,
                 "children": [
@@ -90,7 +90,7 @@
       ]
     },
     " common-asset-worker-worker": {},
-    "window-1780892404545": {}
+    "window-1784803015200": {}
   },
   "panels": {
     "project-settings": {

@@ -11,5 +11,6 @@ require('./assets/Framework/Scripts/Utils');
 require('./assets/Framework/WebView/Scripts/CheckForInitWebView');
 require('./assets/Framework/WebView/Scripts/WebView');
 require('./assets/Games/WordBlend/scripts/GameEnd');
+require('./assets/Games/WordBlend/scripts/TVInputManager');
 require('./assets/Games/WordBlend/scripts/gameplay');
 require('./assets/resources/empty');
