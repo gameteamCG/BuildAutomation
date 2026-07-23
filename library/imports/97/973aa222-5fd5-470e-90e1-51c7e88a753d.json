@@ -17,7 +17,7 @@
       {
         "QuestionAppearTime": "99999",
         "IsQuestionText": true,
-        "QuestionText": "identify",
+        "QuestionText": "Identify",
         "QuestionImageName": "",
         "QuestionAudioName": "newidentify-the-letter-with-the-letter-sound_nnn.mp3",
         "PlayQuestionAudio": true,
