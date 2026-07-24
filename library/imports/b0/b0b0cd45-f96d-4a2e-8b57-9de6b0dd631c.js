@@ -419,7 +419,7 @@ var NewClass = /** @class */ (function (_super) {
         this.UpdateOptions();
         this.sheduleQuestionClip = function () {
             if (_this.canTouch) {
-                cc.audioEngine.playEffect(_this.puzzleQuestionVo, false);
+                //cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
             }
             _this.options.children.forEach(function (_child) {
                 if (_child.angle % 360 != 0) {
@@ -454,16 +454,42 @@ var NewClass = /** @class */ (function (_super) {
             t.start();
         });
     };
-    NewClass.prototype.playButtonSound = function () {
-        this.setupTVFocus("Options");
-        if (this.isSecond == true) {
-            //check what interaction it is and call the respective function
-            //show question panel
+    NewClass.prototype.playButtonSound = function (_event) {
+        var _this = this;
+        this.canTouch = false;
+        TVInputManager_1.default.Instance.setCanSelect(false);
+        var button = _event ? _event.target.getComponent(cc.Button) : null;
+        if (button) {
+            button.interactable = false;
+        }
+        cc.audioEngine.stopAllEffects();
+        if (this.isSecond) {
+            // Play word question
             cc.audioEngine.playEffect(this.wordVoQuestion, false);
-            //this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
+            this.scheduleOnce(function () {
+                if (button) {
+                    button.interactable = true;
+                    _event.target.scale = 1;
+                }
+                _this.canTouch = true;
+                TVInputManager_1.default.Instance.setCanSelect(true);
+                // Focus for second interaction
+                _this.setupTVFocus2();
+            }, this.wordVoQuestion.duration);
         }
         else {
+            // Play puzzle question
             cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+            this.scheduleOnce(function () {
+                if (button) {
+                    button.interactable = true;
+                    _event.target.scale = 1;
+                }
+                _this.canTouch = true;
+                TVInputManager_1.default.Instance.setCanSelect(true);
+                // Focus for first interaction
+                _this.setupTVFocus("Options");
+            }, this.puzzleQuestionVo.duration);
         }
     };
     NewClass.prototype.SetFrameOptions = function () {
@@ -571,7 +597,6 @@ var NewClass = /** @class */ (function (_super) {
         }
         this.canTouch = false;
         TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
-        console.log("-----------------------");
         this.resetInteraction();
         var handNode = this.node.getChildByName("handClick");
         handNode.active = false;
@@ -608,12 +633,13 @@ var NewClass = /** @class */ (function (_super) {
             cc.tween(child)
                 .to(0.2, { angle: angle - 90 })
                 .call(function () {
-                _this.canTouch = true;
-                TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
+                console.log("-------");
                 _this.optionsAligned();
             })
                 .start();
         }, 0.1);
+        this.canTouch = false;
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
     };
     NewClass.prototype.optionsAligned = function () {
         var _this = this;
@@ -621,6 +647,7 @@ var NewClass = /** @class */ (function (_super) {
         this.options.children.forEach(function (_child) {
             if (_child.angle % 360 != 0) {
                 levelPassed = false;
+                console.log("yooooooooooooo");
             }
         });
         if (levelPassed) {

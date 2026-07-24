@@ -133,6 +133,7 @@ export default class TVInputManager extends cc.Component {
     // ================= CORE =================
 
     move(step: number) {
+        if (!this.canSelect) return;
         console.log("Move")
         this.clean();
         if (this.focusNodes.length === 0) return;
@@ -191,6 +192,7 @@ export default class TVInputManager extends cc.Component {
             const baseScale = this.originalScales.get(node) ?? 1;
             cc.Tween.stopAllByTarget(node);
             if (index === this.currentIndex) {
+                cc.audioEngine.playEffect(this.hoverSFX, false);
                 cc.tween(node)
                     .to(0.1, { scale: baseScale * TVInputManager.FOCUS_SCALE })
                     .start();
@@ -207,7 +209,7 @@ export default class TVInputManager extends cc.Component {
 
     playPressEffect(node: cc.Node, callback?: Function) {
         let baseScale = this.originalScales.get(node) ?? node.scale; // 🔥 important
-        // cc.Tween.stopAllByTarget(node);
+        cc.Tween.stopAllByTarget(node);
         // cc.tween(node)
         //     .to(0.05, { scale: baseScale * 0.85, opacity: 255 })
         //     .to(0.1, { scale: baseScale, opacity: 255 })
@@ -219,6 +221,7 @@ export default class TVInputManager extends cc.Component {
     }
 
     clearFocus() {
+        console.log("me ithe yetoyyyyyyyyyyyyyyyyy")
         this.focusNodes.forEach(node => {
             if (!node || !node.isValid) return;
             const baseScale = this.originalScales.get(node) ?? 1;

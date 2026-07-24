@@ -449,7 +449,9 @@ export default class NewClass extends cc.Component {
         //repeat method
         this.UpdateOptions();
         this.sheduleQuestionClip = () => {
-            if (this.canTouch) { cc.audioEngine.playEffect(this.puzzleQuestionVo, false); }
+            if (this.canTouch) {
+                //cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+            }
             this.options.children.forEach((_child) => {
                 if (_child.angle % 360 != 0) {
                     cc.tween(_child)
@@ -485,19 +487,51 @@ export default class NewClass extends cc.Component {
             t.start();
         });
     }
-    playButtonSound() {
-        this.setupTVFocus("Options");
-        if (this.isSecond == true) {
-            //check what interaction it is and call the respective function
-            //show question panel
+    playButtonSound(_event?: cc.Event) {
+        this.canTouch = false;
+        TVInputManager.Instance.setCanSelect(false);
+
+        let button = _event ? _event.target.getComponent(cc.Button) : null;
+        if (button) {
+            button.interactable = false;
+        }
+
+        cc.audioEngine.stopAllEffects();
+
+        if (this.isSecond) {
+            // Play word question
             cc.audioEngine.playEffect(this.wordVoQuestion, false);
-            //this.interactionType == "1" ? this.OptionsAppear() : this.wordAppear();
-        }
-        else {
-            cc.audioEngine.playEffect(this.puzzleQuestionVo, false)
 
-        }
+            this.scheduleOnce(() => {
+                if (button) {
+                    button.interactable = true;
+                    _event.target.scale = 1;
+                }
 
+                this.canTouch = true;
+                TVInputManager.Instance.setCanSelect(true);
+
+                // Focus for second interaction
+                this.setupTVFocus2();
+            }, this.wordVoQuestion.duration);
+
+        } else {
+            // Play puzzle question
+            cc.audioEngine.playEffect(this.puzzleQuestionVo, false);
+
+            this.scheduleOnce(() => {
+                if (button) {
+                    button.interactable = true;
+                    _event.target.scale = 1;
+                }
+
+                this.canTouch = true;
+                TVInputManager.Instance.setCanSelect(true);
+
+                // Focus for first interaction
+                this.setupTVFocus("Options");
+            }, this.puzzleQuestionVo.duration);
+        }
     }
     SetFrameOptions() {
         this.options.active = true;
@@ -633,7 +667,7 @@ export default class NewClass extends cc.Component {
         }
         this.canTouch = false;
         TVInputManager.Instance.setCanSelect(this.canTouch)
-        console.log("-----------------------")
+
         this.resetInteraction();
         let handNode = this.node.getChildByName("handClick");
         handNode.active = false;
@@ -669,13 +703,14 @@ export default class NewClass extends cc.Component {
             cc.tween(child)
                 .to(0.2, { angle: angle - 90 })
                 .call(() => {
+                    console.log("-------")
 
-                    this.canTouch = true;
-                    TVInputManager.Instance.setCanSelect(this.canTouch)
                     this.optionsAligned()
                 })
                 .start()
         }, 0.1)
+        this.canTouch = false;
+        TVInputManager.Instance.setCanSelect(this.canTouch)
     }
     optionsAligned() {
 
@@ -683,6 +718,8 @@ export default class NewClass extends cc.Component {
         this.options.children.forEach((_child) => {
             if (_child.angle % 360 != 0) {
                 levelPassed = false;
+                console.log("yooooooooooooo")
+
             }
         })
         if (levelPassed) {

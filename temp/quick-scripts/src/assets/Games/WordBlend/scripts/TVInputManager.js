@@ -143,6 +143,8 @@ var TVInputManager = /** @class */ (function (_super) {
     };
     // ================= CORE =================
     TVInputManager.prototype.move = function (step) {
+        if (!this.canSelect)
+            return;
         console.log("Move");
         this.clean();
         if (this.focusNodes.length === 0)
@@ -206,6 +208,7 @@ var TVInputManager = /** @class */ (function (_super) {
             var baseScale = (_a = _this.originalScales.get(node)) !== null && _a !== void 0 ? _a : 1;
             cc.Tween.stopAllByTarget(node);
             if (index === _this.currentIndex) {
+                cc.audioEngine.playEffect(_this.hoverSFX, false);
                 cc.tween(node)
                     .to(0.1, { scale: baseScale * TVInputManager_1.FOCUS_SCALE })
                     .start();
@@ -223,7 +226,7 @@ var TVInputManager = /** @class */ (function (_super) {
     TVInputManager.prototype.playPressEffect = function (node, callback) {
         var _a;
         var baseScale = (_a = this.originalScales.get(node)) !== null && _a !== void 0 ? _a : node.scale; // 🔥 important
-        // cc.Tween.stopAllByTarget(node);
+        cc.Tween.stopAllByTarget(node);
         // cc.tween(node)
         //     .to(0.05, { scale: baseScale * 0.85, opacity: 255 })
         //     .to(0.1, { scale: baseScale, opacity: 255 })
@@ -236,6 +239,7 @@ var TVInputManager = /** @class */ (function (_super) {
     };
     TVInputManager.prototype.clearFocus = function () {
         var _this = this;
+        console.log("me ithe yetoyyyyyyyyyyyyyyyyy");
         this.focusNodes.forEach(function (node) {
             var _a;
             if (!node || !node.isValid)
