@@ -115,6 +115,7 @@ export default class NewClass extends cc.Component {
     positionArray: cc.Vec2[] = [];
     correctAnswerCount: number = 0;
     totalAnswers: number = 1;
+    correctanswerarray: string[] = ["Umbrella", "Vest", "Watch", "X-mas Tree", "Yoghurt", "Zip"];
 
     // LIFE-CYCLE CALLBACKS:
 
@@ -369,11 +370,15 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 if (this.node.getChildByName("Option").children.length > 0) {
                     soundBtn.getComponent(cc.Button).interactable = true;
+                    soundBtn.scale = 1;
                     this.setupTVFocus("Option");
                 }
             }, this.questionSound[0].duration);
         }
+
     }
+
+
 
     PlayQuestionAudio() {
         this.canTouch = false;
@@ -543,8 +548,9 @@ export default class NewClass extends cc.Component {
             // if (cc.Intersection.pointInPolygon(new cc.Vec2(_actualPosition.x, _actualPosition.y), this.node.getChildByName("QuestionBox").getChildByName("ThirdObject").getComponent(cc.PolygonCollider).points)) {
             cc.audioEngine.stopAllEffects();
             this.node.getChildByName("hand1").active = false;
+            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = this.correctanswerarray[globalVariables.Instance.currentLevel - 1];
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
-            cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
+            // cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.callPositiveRection(_node);
