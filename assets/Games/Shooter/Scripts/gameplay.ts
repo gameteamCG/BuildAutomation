@@ -3,6 +3,7 @@ import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/Progress
 import startGame from "../../../Framework/Scripts/StartGame";
 import globalVariables from "./globalVariables";
 import optionscript from "./optionscript";
+import TVInputManager from "./TVInputManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -128,6 +129,7 @@ export default class NewClass extends cc.Component {
     positionArray: cc.Vec2[] = [];
     isDone: boolean[] = [];
     isLastTween: boolean = false;
+    canPlay: boolean = false;
 
     onLoad() {
         this.optionsNode.children.forEach((elem) => {
@@ -138,18 +140,18 @@ export default class NewClass extends cc.Component {
         this.optionsNode.children[0].children[0].active = false;
         this.optionsNode.children[1].children[0].active = false;
         this.optionsNode.children[2].children[0].active = false;
-        if (startGame.Instance.jockeyName == "Podar") {
-            this.optionsNode.children.forEach((element) => {
-                element.getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-            });
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
-        }
-        else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
-            this.optionsNode.children.forEach((element) => {
-                element.getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-            });
-            this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
-        }
+        // if (startGame.Instance.jockeyName == "Podar") {
+        //     this.optionsNode.children.forEach((element) => {
+        //         element.getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+        //     });
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.podar_font;
+        // }
+        // else if (startGame.Instance.jockeyName == "bag" || startGame.Instance.jockeyName == "cryon") {
+        //     this.optionsNode.children.forEach((element) => {
+        //         element.getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        //     });
+        //     this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).font = this.jaipuria_font;
+        // }
 
         this.TotalOptions = 3;
 
@@ -233,6 +235,9 @@ export default class NewClass extends cc.Component {
 
     start() {
         this.canTouch = true;
+        this.canPlay = true;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+        TVInputManager.Instance.isGameEnded = false;
         ProgressBar.Instance.ProgressFill(globalVariables.Instance.currentLevel - 1);
         startGame.Instance.node.getChildByName("progress").opacity = 255;
 
@@ -288,6 +293,12 @@ export default class NewClass extends cc.Component {
         cc.audioEngine.stopAllEffects();
         if (this.questionSound[0])
             cc.audioEngine.playEffect(this.questionSound[0], false);
+        this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(() => {
+            this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = true;
+            this.setupTVFocus("Option");
+        }, this.questionSound[0].duration + 0.1);
+
     }
 
     callOptionIn() {
@@ -314,6 +325,7 @@ export default class NewClass extends cc.Component {
             });
 
             this.scheduleOnce(() => {
+                this.setupTVFocus("Option");
                 this.PlayQuestionAudio();
             }, 0.5);
         }, 0.5);
@@ -328,12 +340,16 @@ export default class NewClass extends cc.Component {
 
     PlayQuestionAudio() {
         this.canTouch = false;
+        this.canPlay = false;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         this.currentJcokey.active = true;
         if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
             if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
             }
             this.canTouch = true;
+            this.canPlay = true;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
             if (globalVariables.Instance.currentLevel == 1) {
                 let hand = this.node.getChildByName("hand");
                 hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
@@ -357,6 +373,9 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                     this.canTouch = true;
+                    this.canPlay = true;
+                    this.setupTVFocus("Option");
+                    if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                     if (globalVariables.Instance.currentLevel == 1) {
                         let hand = this.node.getChildByName("hand");
                         hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
@@ -373,6 +392,9 @@ export default class NewClass extends cc.Component {
                         this.scheduleOnce(() => {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             this.canTouch = true;
+                            this.canPlay = true;
+                            this.setupTVFocus("Option");
+                            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                             if (globalVariables.Instance.currentLevel == 1) {
                                 let hand = this.node.getChildByName("hand");
                                 hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
@@ -414,6 +436,9 @@ export default class NewClass extends cc.Component {
         }
         if (iscorrect) {
             this.canTouch = false;
+            this.canPlay = false;
+            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
+            TVInputManager.Instance.isGameEnded = true;
             cc.audioEngine.stopAllEffects();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             cc.audioEngine.playEffect(this.popSound[0], false);
@@ -494,6 +519,8 @@ export default class NewClass extends cc.Component {
             cc.audioEngine.playEffect(this.positiveSound[0], false);
             this.scheduleOnce(() => {
                 this.canTouch = true;
+                this.canPlay = true;
+                if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                 this.correctAnswerCount++;
                 if (this.correctAnswerCount == this.totalAnswers) {
                     for (let i = 0; i < this.node.getChildByName("Option").children.length; i++) {
@@ -507,6 +534,8 @@ export default class NewClass extends cc.Component {
                         });
                         this.isLastTween = true;
                         this.canTouch = false;
+                        this.canPlay = false;
+                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                         this.callBeePositiveReaction(_node);
                         this.scheduleOnce(() => {
                             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
@@ -635,6 +664,8 @@ export default class NewClass extends cc.Component {
 
     callNegativeRection(_node: cc.Node, _event) {
         this.canTouch = false;
+        this.canPlay = false;
+        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
         cc.audioEngine.playEffect(this.negativeSound[0], false);
         if (this.wrongAnswerCount >= 6) {
             this.wrongAnswerCount = 1;
@@ -661,7 +692,7 @@ export default class NewClass extends cc.Component {
                 anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
             }
             else if (startGame.Instance.jockeyName == "bag") {
-                anim = ["negative_1", "negative_2", "negative_3"];
+                anim = ["negative_1", "negative_2", "negative_1"];
             }
             else if (startGame.Instance.jockeyName == "cryon") {
                 anim = ["negative_1", "negative_2", "negative_3"];
@@ -696,6 +727,8 @@ export default class NewClass extends cc.Component {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         }
                         this.canTouch = true;
+                        this.canPlay = true;
+                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                     }, this.negativeAudio[currentClipNum].duration);
                 }, 0.5);
             }
@@ -705,6 +738,8 @@ export default class NewClass extends cc.Component {
                 this.scheduleOnce(() => {
                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                     this.canTouch = true;
+                    this.canPlay = true;
+                    if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                 }, this.negativeAudio[currentClipNum].duration);
             }
             else if (startGame.Instance.jockeyName == "supercub") {
@@ -722,6 +757,8 @@ export default class NewClass extends cc.Component {
                             }
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
                             this.canTouch = true;
+                            this.canPlay = true;
+                            if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                             this.scheduleOnce(() => {
                                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
@@ -735,6 +772,8 @@ export default class NewClass extends cc.Component {
                     this.scheduleOnce(() => {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         this.canTouch = true;
+                        this.canPlay = true;
+                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                     }, this.negativeAudio[currentClipNum].duration);
                 }
 
@@ -857,6 +896,32 @@ export default class NewClass extends cc.Component {
 
     update() {
 
+    }
+
+    private setupTVFocus(activeContainerName: string) {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+
+        let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
+            let btn = node.getComponent(cc.Button);
+            return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
+        });
+
+        let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+
+        // pick a sensible default — e.g. first option, or correct answer index
+
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+
+        TVInputManager.Instance.setCanSelect(this.canPlay);
     }
 
 }
