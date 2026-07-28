@@ -234,7 +234,7 @@ export default class Gameplay extends cc.Component {
             else if (this.optionsLayout == "layout2") {
                 // this.OptionsLayout();
                 this.node.getChildByName("basket").active = true;
-                this.node.getChildByName("rope").active = true;
+                //this.node.getChildByName("rope").active = true;
                 // this.arrangeChildren(this.options, 80); // 10 is an example spacing value
                 let delay = 0;
                 for (let i = 0; i < this.options.children.length; i++) {
@@ -246,6 +246,7 @@ export default class Gameplay extends cc.Component {
                 }
                 this.options.children.forEach(element => {
                     element.on(cc.Node.EventType.TOUCH_START, this.onTouchStart_layout2, this);
+                    element.on("tv-select", this.onTouchStart_layout2, this);
                 });
             }
             else if (this.optionsLayout == "layout3") {
@@ -307,6 +308,22 @@ export default class Gameplay extends cc.Component {
         }
         TVInputManager.Instance.setCanSelect(this.canTouch);
     }
+    private setupTVFocus2() {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("purple sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+
+        let nodes = [backBtn, soundBtn, musicBtn].filter(n => !!n);
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        TVInputManager.Instance.setCanSelect(this.canTouch);
+    }
     generateOptions(_template: cc.Node, _optionParent: cc.Node, _optionCount: number) {
         for (let i = 0; i < _optionCount; i++) {
             let _option: cc.Node = cc.instantiate(_template);
@@ -324,15 +341,22 @@ export default class Gameplay extends cc.Component {
         }
         if (this.optionsLayout == "layout1") {
             let _laypout1posX: number[] = [-750, -285, 257, 754];
-            let _laypout1posY: number[] = [-150, 100, -100, 0];
+            let _laypout1posY: number[] = [-150, 100, -100, 150];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
             if (startGame.Instance.currentLevel == 5) {
-                let _laypout1posY: number[] = [-150, -160, -80, -120];
+                let _laypout1posY: number[] = [-150, 100, -100, 150];
                 for (let i = 0; i < _optionParent.children.length; i++) {
                     _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
                 }
+            }
+        }
+        if (this.optionsLayout == "layout2") {
+            let _laypout1posX: number[] = [-380, 0, 450, 0];
+            let _laypout1posY: number[] = [-20, -30, -20, 0];
+            for (let i = 0; i < _optionParent.children.length; i++) {
+                _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
         }
         _template.destroy();
@@ -359,16 +383,17 @@ export default class Gameplay extends cc.Component {
             }
         }
         if (correct) {
-
             this.canTouch = false;
             TVInputManager.Instance.setCanSelect(false);
+            this.setupTVFocus2();
+
 
             this.correctCounter++;
 
             cc.audioEngine.playEffect(this.positive_audio, false);
 
             cc.tween(node)
-                .to(0.5, { y: 1200 }, { easing: "sineInOut" })
+                .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(() => {
 
                     node.active = false;
@@ -412,11 +437,16 @@ export default class Gameplay extends cc.Component {
     }
 
     onTouchStart_layout2(event: cc.Event.EventTouch) {
+        console.log("===== TOUCH START =====");
+        console.log("canTouch:", this.canTouch);
+        console.log("Target:", event.target.name);
+
         if (!this.canTouch) {
             return;
         }
+
         this.node.getChildByName("hand").active = false;
-        this.canTouch = false;
+
         let node: cc.Node = event.target;
         let correct: boolean = false;
         let audioNum: number = 0;
@@ -429,10 +459,13 @@ export default class Gameplay extends cc.Component {
         }
 
         if (correct) {
+            this.canTouch = false;
+            TVInputManager.Instance.setCanSelect(false);
             cc.audioEngine.playEffect(this.positive_audio, false);
             console.log("correctAnswer--" + startGame.Instance.currentLevel);
             node.getComponent(cc.Animation).stop();
             node.angle = 0;
+
             this.correctCounter++;
             let _clone: cc.Node = cc.instantiate(node);
             _clone.parent = node;
@@ -461,6 +494,7 @@ export default class Gameplay extends cc.Component {
                 }
                 else {
                     this.canTouch = true;
+                    TVInputManager.Instance.setCanSelect(this.canTouch)
                 }
             }, 1);
             // cc.tween(_clone)
