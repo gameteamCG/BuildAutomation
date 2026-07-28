@@ -2681,7 +2681,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        407.665,
+        348.242,
         0,
         0,
         0,
@@ -2911,8 +2911,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 312.27,
-      "height": 100.8
+      "width": 259.17,
+      "height": 158.2
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2924,7 +2924,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -94.668,
+        -70.359,
         0,
         0,
         0,
@@ -2963,10 +2963,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": " Letter Qq ",
-    "_N$string": " Letter Qq ",
-    "_fontSize": 70,
-    "_lineHeight": 80,
+    "_string": "Letter and\nsounds Pp",
+    "_N$string": "Letter and\nsounds Pp",
+    "_fontSize": 65,
+    "_lineHeight": 70,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "cd11a407-6fd2-41d1-9981-0bf5a75768b7"
@@ -3002,7 +3002,7 @@
       "__uuid__": "80f8ea45-785e-4668-9fca-64e6503a2f2d"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -3011,7 +3011,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": null,
     "_id": "bftd5SKftIabOBTVv1oPot"
   },
