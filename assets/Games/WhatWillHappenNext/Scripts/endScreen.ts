@@ -1,5 +1,6 @@
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
 import startGame from "../../../Framework/Scripts/StartGame";
+import TVInputManager from "../../../Framework/Scripts/TVInputManager";
 import globalVariables from "./globalVariables";
 
 const { ccclass, property } = cc._decorator;
@@ -45,6 +46,20 @@ export default class NewClass extends cc.Component {
     }
 
     start() {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+
+        // :fire: music button
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        let nodes = [
+
+            backBtn,
+            musicBtn,
+        ];
+        TVInputManager.Instance.setCanSelect(true);
+
+        TVInputManager.Instance.init(nodes);
         console.log("showedScreen--Congratulations");
         startGame.Instance.node.getChildByName("progress").opacity = 0;
         this.scheduleOnce(() => {

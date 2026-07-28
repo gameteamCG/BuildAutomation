@@ -1,7 +1,10 @@
 
 import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
+import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
+
+
 import startGame from "../../../Framework/Scripts/StartGame";
+import TVInputManager from "../../../Framework/Scripts/TVInputManager";
 import globalVariables from "./globalVariables";
 
 const { ccclass, property } = cc._decorator;
@@ -103,6 +106,7 @@ export default class NewClass extends cc.Component {
     correctAudio: cc.AudioClip = null;
 
     private optionsNode: cc.Node = null;
+    canPlay: boolean = false;
 
 
     private questionBoxPosY: number = 0;
@@ -274,6 +278,8 @@ export default class NewClass extends cc.Component {
             this.negativeAudio = this.supercubNegative;
         }
 
+
+
     }
 
     private getRandomNumber(min: number, max: number): number {
@@ -292,6 +298,10 @@ export default class NewClass extends cc.Component {
             option.opacity = 0;
         }
         this.node.getChildByName("template").destroy();
+
+        this.scheduleOnce(() => {
+            this.setupTVFocus("Option");
+        }, 0.1);
     }
 
     callThirdObjectIn() {
@@ -317,6 +327,8 @@ export default class NewClass extends cc.Component {
                 cc.tween(this.node.getChildByName("QuestionBox"))
                     .to(0.5, { x: posX }, { easing: "sineInOut" }).start();
                 this.canTouch = true;
+                this.canPlay = true;
+                if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                 this.callOptionIn();
             }, 1);
         }, 1);
@@ -326,6 +338,8 @@ export default class NewClass extends cc.Component {
         cc.audioEngine.stopAllEffects();
         if (this.questionSound[0])
             cc.audioEngine.playEffect(this.questionSound[0], false);
+        this.setupTVFocus("Option");
+
     }
 
     callOptionIn() {
@@ -892,6 +906,31 @@ export default class NewClass extends cc.Component {
             optionNodes[i].y = newPositions[i];
         }
     }
+    private setupTVFocus(activeContainerName: string) {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
 
+        let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
+            let btn = node.getComponent(cc.Button);
+            return (!btn || btn.interactable !== false);
+        });
+
+        let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+        console.log("setTVFocus : ", nodes, this.node.getChildByName(activeContainerName).children.length, this.node.getChildByName(activeContainerName));
+
+        // pick a sensible default — e.g. first option, or correct answer index
+
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+
+        TVInputManager.Instance.setCanSelect(this.canPlay);
+    }
 
 }
