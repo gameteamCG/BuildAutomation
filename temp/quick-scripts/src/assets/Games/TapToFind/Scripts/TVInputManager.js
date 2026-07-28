@@ -161,6 +161,8 @@ var TVInputManager = /** @class */ (function (_super) {
         if (this.currentIndex >= this.focusNodes.length)
             this.currentIndex = 0;
         this.updateFocus();
+        if (!this.canSelect)
+            return;
     };
     TVInputManager.prototype.trigger = function () {
         this.clean();

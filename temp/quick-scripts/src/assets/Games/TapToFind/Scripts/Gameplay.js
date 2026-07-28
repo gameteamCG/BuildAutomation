@@ -54,7 +54,7 @@ var Gameplay = /** @class */ (function (_super) {
         _this.options = null;
         _this.optionsLayout = "layout3";
         _this.correctAnswer = [];
-        _this.canTouch = true;
+        _this.canTouch = false;
         _this.correctCounter = 0;
         _this.numberofOptions = 5;
         _this.currentJockey = null;
@@ -226,6 +226,8 @@ var Gameplay = /** @class */ (function (_super) {
     };
     Gameplay.prototype.start = function () {
         var _this = this;
+        this.canTouch = true;
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
         this.LoadQuestion();
         ProgressBar_1.default.Instance.ProgressFill(StartGame_1.default.Instance.currentLevel - 1);
         StartGame_1.default.Instance.node.getChildByName("progress").opacity = 255;
@@ -309,13 +311,15 @@ var Gameplay = /** @class */ (function (_super) {
         }, 1);
     };
     Gameplay.prototype.PlayQVoButton = function (_event) {
-        this.setupTVFocus("Options");
+        var _this = this;
         cc.audioEngine.stopAllEffects();
         cc.audioEngine.playEffect(this.questionAudio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
         this.scheduleOnce(function () {
             _event.target.getComponent(cc.Button).interactable = true;
+            _event.target.scale = 1;
+            _this.setupTVFocus("Options");
         }, this.questionAudio.duration);
-        _event.target.getComponent(cc.Button).interactable = false;
     };
     Gameplay.prototype.setupTVFocus = function (activeContainerName) {
         var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
@@ -387,45 +391,39 @@ var Gameplay = /** @class */ (function (_super) {
             }
         }
         if (correct) {
-            cc.audioEngine.playEffect(this.positive_audio, false);
-            console.log("correctAnswer--" + StartGame_1.default.Instance.currentLevel);
+            this.canTouch = false;
+            TVInputManager_1.default.Instance.setCanSelect(false);
             this.correctCounter++;
+            cc.audioEngine.playEffect(this.positive_audio, false);
             cc.tween(node)
-                .to(1, { y: 1200 }, { easing: "sineInOut" })
+                .to(0.5, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
-                cc.audioEngine.stopAllEffects();
-                if (_this.reiterationAudio[audioNum]) {
-                    cc.audioEngine.playEffect(_this.reiterationAudio[audioNum], false);
-                }
-                else if (_this.reiterationAudio[0]) {
-                    cc.audioEngine.playEffect(_this.reiterationAudio[0], false);
-                }
                 node.active = false;
-                _this.canTouch = true;
-                TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
+                _this.setupTVFocus(_this.optionsLayout);
+                // Re-enable touch immediately after tween
+                if (_this.correctCounter != _this.correctAnswer.length) {
+                    var clip_1 = _this.reiterationAudio[audioNum] || _this.reiterationAudio[0];
+                    _this.scheduleOnce(function () {
+                        _this.canTouch = true;
+                        TVInputManager_1.default.Instance.setCanSelect(true);
+                    }, 0.5);
+                }
+                // Play reiteration
+                var clip = _this.reiterationAudio[audioNum] || _this.reiterationAudio[0];
+                if (clip) {
+                    cc.audioEngine.playEffect(clip, false);
+                }
+                // Last answer
                 if (_this.correctCounter == _this.correctAnswer.length) {
-                    console.log("all the options are answered correctly");
-                    cc.tween(_this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
-                    _this.LoadNextQuestion();
+                    cc.tween(_this.options)
+                        .bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200))
+                        .call(function () {
+                        _this.LoadNextQuestion();
+                    })
+                        .start();
                 }
-                else {
-                    _this.canTouch = true;
-                    TVInputManager_1.default.Instance.setCanSelect(_this.canTouch);
-                }
-            }).start();
-        }
-        else {
-            //play negative audio
-            // cc.audioEngine.playEffect(this.negative_audio, false);
-            this.callNegativeRection();
-            console.log("wrongAnswer--" + StartGame_1.default.Instance.currentLevel);
-            var posX = node.getPosition().x;
-            cc.tween(node).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE })
-                .to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).to(0.1, { color: cc.Color.RED }).to(0.1, { color: cc.Color.WHITE }).start();
-            cc.tween(node).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
-                .to(0.1, { x: posX }).to(0.1, { x: posX - 20 }).to(0.1, { x: posX }).to(0.1, { x: posX + 20 })
-                .to(0.1, { x: posX }).call(function () {
-            }).start();
+            })
+                .start();
         }
     };
     Gameplay.prototype.onTouchStart_layout2 = function (event) {
