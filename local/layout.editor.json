@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 408.90625,
+            "width": 409,
             "height": 602,
             "type": "dock-v",
             "children": [
               {
-                "width": 408.90625,
-                "height": 299.5,
+                "width": 409,
+                "height": 299.984375,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 408.90625,
-                "height": 299.5,
+                "width": 409,
+                "height": 299,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,13 +38,13 @@
             ]
           },
           {
-            "width": 630.40625,
+            "width": 630,
             "height": 602,
             "type": "dock-v",
             "children": [
               {
-                "width": 630.40625,
-                "height": 333,
+                "width": 630,
+                "height": 332.984375,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -52,10 +52,10 @@
                 ]
               },
               {
-                "width": 630.40625,
+                "width": 630,
                 "height": 266,
                 "type": "panel",
-                "active": 0,
+                "active": 2,
                 "children": [
                   "console",
                   "timeline",
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "width": 304.6875,
+            "width": 305,
             "height": 602,
             "type": "panel",
             "active": 0,
@@ -79,11 +79,11 @@
       },
       "panels": [
         "hierarchy",
+        "assets",
         "scene",
         "console",
         "timeline",
         "game-window",
-        "assets",
         "inspector",
         "cocos-services",
         "node-library"

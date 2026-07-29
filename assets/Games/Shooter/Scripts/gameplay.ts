@@ -400,9 +400,14 @@ export default class NewClass extends cc.Component {
 
   OnVOButton() {
     cc.audioEngine.stopAllEffects();
-    this.setupTVFocus("Option");
     if (this.questionSound[0])
       cc.audioEngine.playEffect(this.questionSound[0], false);
+    this.node.getChildByName("QPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+    this.scheduleOnce(() => {
+      this.node.getChildByName("QPanel").getChildByName("sound").getComponent(cc.Button).interactable = true;
+      this.node.getChildByName("QPanel").getChildByName("sound").scale = 1;
+      this.setupTVFocus("Option");
+    }, this.questionSound[0].duration + 0.1);
   }
 
   callOptionIn() {
@@ -1292,7 +1297,7 @@ export default class NewClass extends cc.Component {
     // pick a sensible default — e.g. first option, or correct answer index
 
     if (cc.director.getScene().name == "1") {
-      TVInputManager.Instance.init(nodes, 0);
+      TVInputManager.Instance.init(nodes, -1);
     }
     else {
       TVInputManager.Instance.init(nodes, -1);

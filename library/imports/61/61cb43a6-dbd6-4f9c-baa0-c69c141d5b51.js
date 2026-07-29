@@ -206,6 +206,7 @@ var TVInputManager = /** @class */ (function (_super) {
             var baseScale = (_a = _this.originalScales.get(node)) !== null && _a !== void 0 ? _a : 1;
             cc.Tween.stopAllByTarget(node);
             if (index === _this.currentIndex) {
+                cc.audioEngine.playEffect(_this.hoverSFX, false);
                 cc.tween(node)
                     .to(0.1, { scale: baseScale * TVInputManager_1.FOCUS_SCALE })
                     .start();
@@ -359,6 +360,16 @@ exports.default = TVInputManager;
                 TVInputManager.Instance.init(nodes, -1);
             }
             TVInputManager.Instance.setCanSelect(this.canTouch);
+        }
+            
+        private setupTVFocus2() {
+            let backBtn = startGame.Instance.node.getChildByName("back");
+            let musicBtn = startGame.Instance.node.getChildByName("music");
+            backBtn.scale = 1;
+            musicBtn.scale = 1;
+            let nodes = [backBtn, musicBtn,];
+            TVInputManager.Instance.setCanSelect(true);
+            TVInputManager.Instance.init(nodes);
         }
 
 

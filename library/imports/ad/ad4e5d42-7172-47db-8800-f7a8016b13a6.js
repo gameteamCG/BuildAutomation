@@ -301,10 +301,16 @@ var NewClass = /** @class */ (function (_super) {
         }, 1);
     };
     NewClass.prototype.OnVOButton = function () {
+        var _this = this;
         cc.audioEngine.stopAllEffects();
-        this.setupTVFocus("Option");
         if (this.questionSound[0])
             cc.audioEngine.playEffect(this.questionSound[0], false);
+        this.node.getChildByName("QPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(function () {
+            _this.node.getChildByName("QPanel").getChildByName("sound").getComponent(cc.Button).interactable = true;
+            _this.node.getChildByName("QPanel").getChildByName("sound").scale = 1;
+            _this.setupTVFocus("Option");
+        }, this.questionSound[0].duration + 0.1);
     };
     NewClass.prototype.callOptionIn = function () {
         var _this = this;
@@ -1130,7 +1136,7 @@ var NewClass = /** @class */ (function (_super) {
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
         // pick a sensible default — e.g. first option, or correct answer index
         if (cc.director.getScene().name == "1") {
-            TVInputManager_1.default.Instance.init(nodes, 0);
+            TVInputManager_1.default.Instance.init(nodes, -1);
         }
         else {
             TVInputManager_1.default.Instance.init(nodes, -1);

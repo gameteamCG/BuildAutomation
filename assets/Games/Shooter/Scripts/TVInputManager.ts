@@ -191,6 +191,7 @@ export default class TVInputManager extends cc.Component {
             const baseScale = this.originalScales.get(node) ?? 1;
             cc.Tween.stopAllByTarget(node);
             if (index === this.currentIndex) {
+                cc.audioEngine.playEffect(this.hoverSFX, false)
                 cc.tween(node)
                     .to(0.1, { scale: baseScale * TVInputManager.FOCUS_SCALE })
                     .start();
@@ -329,6 +330,16 @@ export default class TVInputManager extends cc.Component {
                 TVInputManager.Instance.init(nodes, -1);
             }
             TVInputManager.Instance.setCanSelect(this.canTouch);
+        }
+            
+        private setupTVFocus2() {
+            let backBtn = startGame.Instance.node.getChildByName("back");
+            let musicBtn = startGame.Instance.node.getChildByName("music");
+            backBtn.scale = 1;
+            musicBtn.scale = 1;
+            let nodes = [backBtn, musicBtn,];
+            TVInputManager.Instance.setCanSelect(true);
+            TVInputManager.Instance.init(nodes);
         }
 
 
