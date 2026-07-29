@@ -30,7 +30,11 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class startGame extends cc.Component {
+    @property(cc.ProgressBar)
+    loadingBar: cc.ProgressBar = null;
 
+    @property(cc.AudioClip)
+    play_audio: cc.AudioClip = null;
     @property(cc.AudioClip)
     BGM_audio: cc.AudioClip = null;
     @property(Number)
@@ -234,10 +238,10 @@ export default class startGame extends cc.Component {
                 this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
                 this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.TitleImageName), (spriteFrame) => {
-                    cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
                 this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.introBgName), (spriteFrame) => {
-                    cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                     this.introBG = spriteFrame;
                 });
                 this.loadAudioClip(this.removeAudioExtension(jsonData.additionalData.bgmMusicName), (AudioClip) => {
@@ -386,7 +390,7 @@ export default class startGame extends cc.Component {
 
             if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
                 this.scheduleOnce(() => {
-                    cc.director.loadScene(this.NextSceneName);
+                    // cc.director.loadScene(this.NextSceneName);
                 }, 2);
             }
         }, 1);
@@ -394,6 +398,27 @@ export default class startGame extends cc.Component {
         // this.OnTimer();
 
     }
+
+    OnStartGame(_event: cc.Event) {
+        cc.audioEngine.playEffect(this.play_audio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        _event.target.active = false;
+        this.loadSceneWithProgress();
+    }
+
+
+    loadSceneWithProgress() {
+        if (this.loadingBar) {
+            this.loadingBar.node.active = true;
+        }
+        cc.director.preloadScene(this.NextSceneName, (completedCount: number, totalCount: number) => {
+            let progress = completedCount / totalCount;
+            this.loadingBar.progress = progress;
+        }, () => {
+            cc.director.loadScene(this.NextSceneName);
+        })
+    }
+
 
     OnMusic(event: cc.Event) {
         if (event.target.children[0].activeInHierarchy) {
