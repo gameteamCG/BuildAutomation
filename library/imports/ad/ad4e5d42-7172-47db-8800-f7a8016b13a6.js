@@ -310,11 +310,16 @@ var NewClass = /** @class */ (function (_super) {
         }
         TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
     };
-    NewClass.prototype.OnVOButton = function () {
-        this.setupTVFocus("Option");
+    NewClass.prototype.OnVOButton = function (_event) {
+        var _this = this;
         cc.audioEngine.stopAllEffects();
-        if (this.questionSound[0])
-            cc.audioEngine.playEffect(this.questionSound[0], false);
+        cc.audioEngine.playEffect(this.questionSound[0], false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(function () {
+            _event.target.getComponent(cc.Button).interactable = true;
+            _event.target.scale = 1;
+            _this.setupTVFocus("Option");
+        }, this.questionSound[0].duration);
     };
     NewClass.prototype.callOptionIn = function () {
         var _this = this;

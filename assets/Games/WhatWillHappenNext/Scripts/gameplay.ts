@@ -343,11 +343,15 @@ export default class NewClass extends cc.Component {
         }
         TVInputManager.Instance.setCanSelect(this.canTouch);
     }
-    OnVOButton() {
-        this.setupTVFocus("Option");
+    OnVOButton(_event: cc.Event) {
         cc.audioEngine.stopAllEffects();
-        if (this.questionSound[0])
-            cc.audioEngine.playEffect(this.questionSound[0], false);
+        cc.audioEngine.playEffect(this.questionSound[0], false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+            _event.target.scale = 1;
+            this.setupTVFocus("Option");
+        }, this.questionSound[0].duration)
     }
 
     callOptionIn() {
