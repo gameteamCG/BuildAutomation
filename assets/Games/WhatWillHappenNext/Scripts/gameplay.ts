@@ -1,8 +1,4 @@
-
-import Jockey from "../../../Framework/Jockeys/Scripts/Jockey";
-import ProgressBar from "../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar";
-
-
+import ProgressBar from "../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar";
 import startGame from "../../../Framework/Scripts/StartGame";
 import TVInputManager from "../../../Framework/Scripts/TVInputManager";
 import globalVariables from "./globalVariables";
@@ -11,10 +7,6 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class NewClass extends cc.Component {
-
-    @property(cc.SpriteFrame)
-    private extraImg: cc.SpriteFrame = null;
-
     @property(cc.Font)
     private podar_font: cc.Font = null;
     @property(cc.Font)
@@ -23,58 +15,18 @@ export default class NewClass extends cc.Component {
     private tlc_font: cc.Font = null;
     @property(cc.Font)
     private supercub_font: cc.Font = null;
-
-
     @property(cc.AudioClip)
     private popSound: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private popSound2: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private questionSound: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private positiveSound: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private negativeSound: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private positiveAudio: cc.AudioClip[] = [];
-
     @property(cc.AudioClip)
     private negativeAudio: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private stallionPositive: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private stallionNegative: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private bagPositive: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private bagNegative: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private cryonPositive: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private cryonNegative: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private tlcPositive: cc.AudioClip[] = [];
-    @property(cc.AudioClip)
-    private tlcNegative: cc.AudioClip[] = [];
-
-    @property(cc.AudioClip)
-    private supercubPositive: cc.AudioClip[] = [];
-    @property(cc.AudioClip)
-    private supercubNegative: cc.AudioClip[] = [];
-
-
     @property(cc.AudioClip)
     private tlc_birdFlying: cc.AudioClip = null;
 
@@ -82,10 +34,6 @@ export default class NewClass extends cc.Component {
     private supercub_Pos1: cc.AudioClip = null;
     @property(cc.AudioClip)
     private supercub_Pos2: cc.AudioClip = null;
-    @property(cc.AudioClip)
-    private supercub_Neg1: cc.AudioClip = null;
-    @property(cc.AudioClip)
-    private supercub_Neg2: cc.AudioClip = null;
 
     @property(cc.Material)
     defaultMat: cc.Material = null;
@@ -102,16 +50,11 @@ export default class NewClass extends cc.Component {
     star2Log: boolean = false;
     star3Log: boolean = false;
     currentJcokey: cc.Node = null;
-
     correctAudio: cc.AudioClip = null;
-
     private optionsNode: cc.Node = null;
-    canPlay: boolean = false;
 
 
     private questionBoxPosY: number = 0;
-
-    // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
         if (startGame.Instance.jockeyName == "Podar") {
@@ -196,22 +139,6 @@ export default class NewClass extends cc.Component {
                     this.node.getChildByName("Option").getChildByName((i + 1).toString()).getChildByName("text").getComponent(cc.Label).string = startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].options[i];
                 }
             }
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option1ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("1").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
-            // cc.loader.load(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].option2ImageName, (err, texture) => {
-            //     if (err) {
-            //         console.error("Failed to load image:", err);
-            //         return;
-            //     }
-            //     const spriteFrame = new cc.SpriteFrame(texture);
-            //     this.node.getChildByName("Option").getChildByName("2").children[0].getComponent(cc.Sprite).spriteFrame = spriteFrame;
-            // });
         }
         else {
             this.loadAudioClip(startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].questionAudioName, (AudioClip) => {
@@ -256,30 +183,6 @@ export default class NewClass extends cc.Component {
         this.answerArray = [startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].correctAnswerNum];
         // this.OptionsLayout();
         this.callThirdObjectIn();
-
-        if (startGame.Instance.jockeyName == "bag") {
-            this.positiveAudio = this.bagPositive;
-            this.negativeAudio = this.bagNegative;
-        }
-        else if (startGame.Instance.jockeyName == "cryon") {
-            this.positiveAudio = this.cryonPositive;
-            this.negativeAudio = this.cryonNegative;
-        }
-        else if (startGame.Instance.jockeyName == "stallion") {
-            this.positiveAudio = this.stallionPositive;
-            this.negativeAudio = this.stallionNegative;
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.positiveAudio = this.tlcPositive;
-            this.negativeAudio = this.tlcNegative;
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            this.positiveAudio = this.supercubPositive;
-            this.negativeAudio = this.supercubNegative;
-        }
-
-
-
     }
 
     private getRandomNumber(min: number, max: number): number {
@@ -298,10 +201,6 @@ export default class NewClass extends cc.Component {
             option.opacity = 0;
         }
         this.node.getChildByName("template").destroy();
-
-        this.scheduleOnce(() => {
-            this.setupTVFocus("Option");
-        }, 0.1);
     }
 
     callThirdObjectIn() {
@@ -326,20 +225,20 @@ export default class NewClass extends cc.Component {
             this.scheduleOnce(() => {
                 cc.tween(this.node.getChildByName("QuestionBox"))
                     .to(0.5, { x: posX }, { easing: "sineInOut" }).start();
-                this.canTouch = true;
-                this.canPlay = true;
-                if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canPlay);
                 this.callOptionIn();
             }, 1);
         }, 1);
     }
 
-    OnVOButton() {
+    OnVOButton(_event: cc.Event) {
         cc.audioEngine.stopAllEffects();
-        if (this.questionSound[0])
-            cc.audioEngine.playEffect(this.questionSound[0], false);
-        this.setupTVFocus("Option");
-
+        cc.audioEngine.playEffect(this.questionSound[0], false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+            _event.target.scale = 1;
+            this.setupTVFocus("Option");
+        }, this.questionSound[0].duration)
     }
 
     callOptionIn() {
@@ -356,6 +255,9 @@ export default class NewClass extends cc.Component {
                     .to(0.5, { scale: 1 }, { easing: "sineInOut" }).start();
                 if (i == this.node.getChildByName("Option").children.length) {
                     this.scheduleOnce(() => {
+                        this.canTouch = true;
+                        if (TVInputManager.Instance) TVInputManager.Instance.setCanSelect(this.canTouch);
+                        this.setupTVFocus("Option");
                         this.PlayQuestionAudio();
                     }, 0.5);
                 }
@@ -365,17 +267,11 @@ export default class NewClass extends cc.Component {
     }
 
     PlayQuestionAudio() {
-        this.node.getChildByName("Option").children.forEach(element => {
-            element.getComponent(cc.Button).interactable = false;
-        });
         this.currentJcokey.active = true;
         if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
             if (startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
                 cc.audioEngine.playEffect(this.questionSound[0], false);
             }
-            this.node.getChildByName("Option").children.forEach(element => {
-                element.getComponent(cc.Button).interactable = true;
-            });
             if (globalVariables.Instance.currentLevel == 1) {
                 let hand = this.node.getChildByName("hand");
                 console.log("answer array num = ", this.answerArray[0]);
@@ -399,9 +295,6 @@ export default class NewClass extends cc.Component {
             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
             this.scheduleOnce(() => {
                 if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-                    this.node.getChildByName("Option").children.forEach(element => {
-                        element.getComponent(cc.Button).interactable = true;
-                    });
                     if (globalVariables.Instance.currentLevel == 1) {
                         let hand = this.node.getChildByName("hand");
                         console.log("answer array num = ", this.answerArray[0]);
@@ -419,9 +312,6 @@ export default class NewClass extends cc.Component {
                         this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
                         this.scheduleOnce(() => {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                            this.node.getChildByName("Option").children.forEach(element => {
-                                element.getComponent(cc.Button).interactable = true;
-                            });
                             if (globalVariables.Instance.currentLevel == 1) {
                                 let hand = this.node.getChildByName("hand");
                                 console.log("answer array num = ", this.answerArray[0]);
@@ -441,12 +331,11 @@ export default class NewClass extends cc.Component {
     }
 
     OnButtonClick(_event: cc.Event) {
-        this.node.getChildByName("Option").children.forEach(elem => {
-            elem.getComponent(cc.Button).interactable = false;
-        });
         if (!this.canTouch) {
             return;
         }
+        this.canTouch = false;
+        TVInputManager.Instance.setCanSelect(this.canTouch);
         if (!this.isFirstClick) {
             this.isFirstClick = true;
             console.log("firstClick--" + globalVariables.Instance.currentLevel);
@@ -457,9 +346,10 @@ export default class NewClass extends cc.Component {
         let _node = _event.target;
         if (_node.name == this.answerArray[0]) {
             cc.audioEngine.stopAllEffects();
+            this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
+            this.setupTVFocus2();
             console.log("correctAnswer--" + globalVariables.Instance.currentLevel);
             cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: 1500 }, { easing: 'sineInOut' }).start();
-            this.node.getChildByName("questionPanel").getChildByName("sound").getComponent(cc.Button).interactable = false;
             this.destroyOption();
             cc.audioEngine.playEffect(this.popSound[0], false);
             this.scheduleOnce(() => {
@@ -555,60 +445,41 @@ export default class NewClass extends cc.Component {
 
 
     callJockey() {
-        let anim: string[] = [];
-        if (startGame.Instance.jockeyName == "Podar") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-        }
-        else if (startGame.Instance.jockeyName == "bag") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-        }
-        else if (startGame.Instance.jockeyName == "cryon") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
-        }
-        else if (startGame.Instance.jockeyName == "Singham") {
-            anim = ["dance", "thumbs_up"];
-        }
-        else if (startGame.Instance.jockeyName == "Mighty_Raju") {
-            anim = ["celebration", "well_done"];
-        }
-        else if (startGame.Instance.jockeyName == "stallion") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4"];
-        }
-        // console.log("anim length = ", anim.length);
-        let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
-        // console.log("currentClipNum = ", currentClipNum);
         let pos: number[] = [-1200, 1200];
         let jockeytween: number[] = [-450, 450];
-        //console.log("characterAppear--Podar_Jumbo");
-        if (globalVariables.Instance.currentLevel % 2 == 0 && startGame.Instance.jockeyName == "stallion") {
-            this.currentJcokey.scaleX = -0.65;
-        }
-        else if (startGame.Instance.jockeyName == "stallion") {
-            this.currentJcokey.scaleX = 0.65;
-            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-        }
-        else if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
-            if (startGame.Instance.jockeyName != "Podar") {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-            }
-            else {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-            }
-        }
-        if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
-            this.currentJcokey.setPosition(pos[globalVariables.Instance.currentLevel % 2], -350);
-            cc.tween(this.currentJcokey).to(0.5, { x: jockeytween[globalVariables.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
+        this.currentJcokey.setPosition(pos[globalVariables.Instance.currentLevel % 2], -350);
+        cc.tween(this.currentJcokey).to(0.5, { x: jockeytween[globalVariables.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
+        this.scheduleOnce(() => {
+            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, this.positiveAudio[globalVariables.Instance.currentLevel % 6].name, false);
+            cc.audioEngine.playEffect(this.positiveAudio[globalVariables.Instance.currentLevel % 6], false);
             this.scheduleOnce(() => {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
+                cc.tween(this.currentJcokey).to(0.5, { x: pos[globalVariables.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
+                if (startGame.Instance.jockeyName != "stallion") {
+                    if (startGame.Instance.jockeyName != "Podar") {
+                        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                    }
+                    else {
+                        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                    }
+                }
+                //console.log("characterDisappear--Podar_Jumbo");
+                this.callNextLevel();
+            }, this.positiveAudio[globalVariables.Instance.currentLevel % 6].duration);
+        }, 0.5);
+    }
+
+
+    callNegativeRection(_node: cc.Node, _event) {
+        _node.children[0].getComponent(cc.Sprite).setMaterial(0, this.greyMat);
+        cc.audioEngine.playEffect(this.negativeSound[0], false);
+        this.scheduleOnce(() => {
+            this.currentJcokey.setPosition(1200, -350);
+            cc.tween(this.currentJcokey).to(0.5, { x: 400 }, { easing: "quartInOut" }).start();
+            this.scheduleOnce(() => {
+                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, this.negativeAudio[this.wrongAnswerCount % 2].name, false);
+                cc.audioEngine.playEffect(this.negativeAudio[this.wrongAnswerCount % 2], false);
                 this.scheduleOnce(() => {
-                    cc.tween(this.currentJcokey).to(0.5, { x: pos[globalVariables.Instance.currentLevel % 2] }, { easing: "quartInOut" }).start();
+                    cc.tween(this.currentJcokey).to(0.5, { x: 1200 }, { easing: "quartInOut" }).start();
                     if (startGame.Instance.jockeyName != "stallion") {
                         if (startGame.Instance.jockeyName != "Podar") {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
@@ -617,182 +488,10 @@ export default class NewClass extends cc.Component {
                             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                         }
                     }
-                    //console.log("characterDisappear--Podar_Jumbo");
-                    this.callNextLevel();
-                }, this.positiveAudio[currentClipNum].duration);
+                    this.canTouch = true;
+                    TVInputManager.Instance.setCanSelect(this.canTouch);
+                }, this.negativeAudio[this.wrongAnswerCount % 2].duration);
             }, 0.5);
-        }
-        else if (startGame.Instance.jockeyName == "tlc") {
-            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-            cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
-            this.scheduleOnce(() => {
-                //bird flying out sound
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_out", false);
-                cc.audioEngine.playEffect(this.tlc_birdFlying, false);
-                this.scheduleOnce(() => {
-                    this.currentJcokey.active = false;
-                    this.callNextLevel();
-                }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_out").duration);
-            }, this.positiveAudio[currentClipNum].duration);
-        }
-        else if (startGame.Instance.jockeyName == "supercub") {
-            if (anim[currentClipNum] == "positive_1" || anim[currentClipNum] == "positive_2") {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_start", false);
-                this.scheduleOnce(() => {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
-                    cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
-                    this.scheduleOnce(() => {
-                        if (anim[currentClipNum] == "positive_1") {
-                            cc.audioEngine.playEffect(this.supercub_Pos1, false);
-                        }
-                        else if (anim[currentClipNum] == "positive_2") {
-                            cc.audioEngine.playEffect(this.supercub_Pos2, false);
-                        }
-                        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
-                        this.scheduleOnce(() => {
-                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                            cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
-                            //console.log("characterDisappear--Podar_Jumbo");
-                            this.callNextLevel();
-                        }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration)
-                    }, this.positiveAudio[currentClipNum].duration);
-
-                }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_start").duration);
-            }
-            else {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                cc.audioEngine.playEffect(this.positiveAudio[currentClipNum], false);
-                this.scheduleOnce(() => {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "run", false);
-                    cc.tween(this.currentJcokey).to(2, { x: -1000 }).start();
-                    //console.log("characterDisappear--Podar_Jumbo");
-                    this.callNextLevel();
-                }, this.positiveAudio[currentClipNum].duration);
-            }
-
-        }
-
-
-    }
-
-
-    callNegativeRection(_node: cc.Node, _event) {
-        _node.children[0].getComponent(cc.Sprite).setMaterial(0, this.greyMat);
-        cc.audioEngine.playEffect(this.negativeSound[0], false);
-        if (this.wrongAnswerCount >= 6) {
-            this.wrongAnswerCount = 1;
-        }
-        this.scheduleOnce(() => {
-            let anim: string[] = [];
-            if (startGame.Instance.jockeyName == "Podar") {
-                anim = ["negative_1", "negative_2", "negative_1", "negative_2", "negative_1", "negative_2"];
-            }
-            else if (startGame.Instance.jockeyName == "tlc") {
-                anim = ["negative_1", "negative_2", "negative_3"];
-            }
-            else if (startGame.Instance.jockeyName == "supercub") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
-            }
-            else if (startGame.Instance.jockeyName == "bag") {
-                anim = ["negative_1", "negative_2", "negative_3"];
-            }
-            else if (startGame.Instance.jockeyName == "cryon") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4"];
-            }
-            else if (startGame.Instance.jockeyName == "Singham") {
-                anim = ["no"];
-            }
-            else if (startGame.Instance.jockeyName == "Mighty_Raju") {
-                anim = ["try_again"];
-            }
-            else if (startGame.Instance.jockeyName == "stallion") {
-                anim = ["negative_1", "negative_2"];
-            }
-
-            let currentClipNum: number = this.getRandomNumber(0, anim.length - 1);
-            //console.log("characterAppear--Podar_Jumbo");
-            if (startGame.Instance.jockeyName == "stallion") {
-                this.currentJcokey.scaleX = 0.65;
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-            }
-            else if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
-                if (startGame.Instance.jockeyName != "Podar") {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                }
-                else {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                }
-            }
-            if (startGame.Instance.jockeyName != "tlc" && startGame.Instance.jockeyName != "supercub") {
-                this.currentJcokey.setPosition(1200, -350);
-                cc.tween(this.currentJcokey).to(0.5, { x: 400 }, { easing: "quartInOut" }).start();
-                this.scheduleOnce(() => {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                    cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
-                    this.scheduleOnce(() => {
-                        cc.tween(this.currentJcokey).to(0.5, { x: 1200 }, { easing: "quartInOut" }).start();
-                        if (startGame.Instance.jockeyName != "stallion") {
-                            if (startGame.Instance.jockeyName != "Podar") {
-                                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                            }
-                            else {
-                                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                            }
-                        }
-                        //console.log("characterDisappear--Podar_Jumbo");
-                        this.node.getChildByName("Option").children.forEach(elem => {
-                            elem.getComponent(cc.Button).interactable = true;
-                        });
-                    }, this.negativeAudio[currentClipNum].duration);
-                }, 0.5);
-            }
-            else if (startGame.Instance.jockeyName == "tlc") {
-                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
-                this.scheduleOnce(() => {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                    this.node.getChildByName("Option").children.forEach(elem => {
-                        elem.getComponent(cc.Button).interactable = true;
-                    });
-                }, this.negativeAudio[currentClipNum].duration);
-            }
-            else if (startGame.Instance.jockeyName == "supercub") {
-                if (anim[currentClipNum] == "negative_1" || anim[currentClipNum] == "negative_2") {
-                    //play bulb break if needed
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_start", false);
-                    this.scheduleOnce(() => {
-                        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_loop", true);
-                        cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
-                        this.scheduleOnce(() => {
-                            if (anim[currentClipNum] == "negative_1") {
-                                cc.audioEngine.playEffect(this.supercub_Neg1, false);
-                            }
-                            else if (anim[currentClipNum] == "negative_2") {
-                                cc.audioEngine.playEffect(this.supercub_Neg2, false);
-                            }
-                            this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum] + "_end", false);
-                            this.node.getChildByName("Option").children.forEach(elem => {
-                                elem.getComponent(cc.Button).interactable = true;
-                            });
-                            this.scheduleOnce(() => {
-                                this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                            }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_end").duration);
-                        }, this.negativeAudio[currentClipNum].duration);
-
-                    }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(anim[currentClipNum] + "_start").duration);
-                }
-                else {
-                    this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, anim[currentClipNum], false);
-                    cc.audioEngine.playEffect(this.negativeAudio[currentClipNum], false);
-                    this.scheduleOnce(() => {
-                        this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-                        this.node.getChildByName("Option").children.forEach(elem => {
-                            elem.getComponent(cc.Button).interactable = true;
-                        });
-                    }, this.negativeAudio[currentClipNum].duration);
-                }
-
-            }
         }, 0.7)
 
         cc.tween(_node)
@@ -912,25 +611,33 @@ export default class NewClass extends cc.Component {
         let soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
         backBtn.scale = 1;
         musicBtn.scale = 1;
-
         let optionButtons = this.node.getChildByName(activeContainerName).children.filter(node => {
             let btn = node.getComponent(cc.Button);
             return (!btn || btn.interactable !== false);
         });
-
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
-        console.log("setTVFocus : ", nodes, this.node.getChildByName(activeContainerName).children.length, this.node.getChildByName(activeContainerName));
-
-        // pick a sensible default — e.g. first option, or correct answer index
-
         if (cc.director.getScene().name == "1") {
             TVInputManager.Instance.init(nodes, 0);
         }
         else {
             TVInputManager.Instance.init(nodes, -1);
         }
-
-        TVInputManager.Instance.setCanSelect(this.canPlay);
+        TVInputManager.Instance.setCanSelect(this.canTouch);
+    }
+    private setupTVFocus2() {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        let nodes = [backBtn, soundBtn, musicBtn].filter(n => !!n);
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        TVInputManager.Instance.setCanSelect(this.canTouch);
     }
 
 }
