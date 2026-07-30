@@ -651,6 +651,7 @@ var video = /** @class */ (function (_super) {
                 this.questionSetup();
                 this.currentQuestion++;
                 console.log("levelStarted--" + this.currentQuestion);
+                this.PauseButton();
                 this.questionNode.active = true;
                 this.scheduleOnce(function () {
                     _this.setupTVFocus3();

@@ -679,6 +679,7 @@ export default class video extends cc.Component {
                 this.questionSetup();
                 this.currentQuestion++;
                 console.log("levelStarted--" + this.currentQuestion);
+                this.PauseButton();
                 this.questionNode.active = true;
                 this.scheduleOnce(() => {
                     this.setupTVFocus3();
@@ -813,6 +814,7 @@ export default class video extends cc.Component {
                 this.questionSetup();
                 this.currentQuestion++;
                 this.questionNode.active = true;
+
 
             }
         }
