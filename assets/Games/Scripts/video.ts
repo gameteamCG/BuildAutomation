@@ -6,6 +6,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
 import startGame from "../../Framework/Scripts/StartGame";
+import TVInputManager from "./TVInputManager";
 
 cc.macro.ENABLE_TRANSPARENT_CANVAS = true;
 
@@ -36,6 +37,7 @@ class QuestionData {
     wrongAudio: cc.AudioClip = null;
     // @property(Number)
     correctAnswer: number = 1;
+
 }
 @ccclass
 export default class video extends cc.Component {
@@ -64,7 +66,8 @@ export default class video extends cc.Component {
     @property(cc.Font)
     supercub_font: cc.Font = null;
 
-
+    @property(Number)
+    skipSeconds: number = 4;
     @property(cc.AudioClip)
     positiveVO: cc.AudioClip[] = [];
 
@@ -78,7 +81,7 @@ export default class video extends cc.Component {
     questions: QuestionData[] = [];
 
     private isSliding: boolean = false;
-
+    private hideToolsCallback: Function = null;
     private currentTime: number = 0;
     private timers: number[] = [];
     private totalQuestions: number = 0;
@@ -93,6 +96,7 @@ export default class video extends cc.Component {
     private attemps: number = 0;
     private videoCompleted: boolean = false;
     private gameStarted: boolean = false;
+    private canTouch: boolean = false;
 
     private correctAnim: string[] = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
     private wrongAnim: string[] = ["negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3"];
@@ -124,6 +128,11 @@ export default class video extends cc.Component {
             this.isSliding = false;
             this.isOnSlider = true;
         }, this);
+        this.slider.children[2].on("tv-select", function () {
+            this.isSliding = false;
+            this.isOnSlider = true;
+            this.SliderButton();
+        }, this);
 
         this.slider.children[2].on("touchmove", function () {
             this.isSliding = false;
@@ -139,6 +148,9 @@ export default class video extends cc.Component {
         }, this);
 
         this.slider.children[0].on("touchstart", function () {
+            this.isSliding = false;
+        }, this);
+        this.slider.children[0].on("tv-select", function () {
             this.isSliding = false;
         }, this);
         this.slider.children[0].on("touchmove", function () {
@@ -299,7 +311,24 @@ export default class video extends cc.Component {
             this.wrongAnim = this.podarNegativeAnim;
         }
     }
+    SkipForward() {
+        let video = this.node.getComponent(cc.VideoPlayer);
 
+        let duration = video.getDuration();
+        let currentTime = video.currentTime;
+
+        // Don't go beyond the end of the video
+        let newTime = Math.min(currentTime + this.skipSeconds, duration);
+
+        video.currentTime = newTime;
+
+        // Update slider
+        this.slider.getComponent(cc.Slider).progress = newTime / duration;
+        this.slider.getChildByName("high").width =
+            this.slider.getChildByName("Handle").getPosition().x + 472.5;
+
+        console.log(`Skipped from ${currentTime.toFixed(2)}s to ${newTime.toFixed(2)}s`);
+    }
     playVideo1() {
         this.node.on('completed', function () {
             if (this.gameStarted) {
@@ -341,16 +370,31 @@ export default class video extends cc.Component {
         //     this.tools.active = true;
         // }, 5);
     }
-
+    public OnTVNavigation() {
+        if (this.tools.opacity == 0) {
+            this.ActivateTools(true);
+            this.setupTVFocus2();
+        }
+    }
     ActivateTools(_activate: boolean = true) {
         if (_activate) {
+
             this.toolActivater.active = false;
             this.tools.opacity = 255;
-            this.scheduleOnce(() => {
+
+            // Cancel any previous hide timer
+            if (this.hideToolsCallback) {
+                this.unschedule(this.hideToolsCallback);
+            }
+
+            this.hideToolsCallback = () => {
                 if (this.tools.opacity == 255 && !this.isPause && !this.isOnSlider) {
                     this.ActivateTools(false);
                 }
-            }, 2)
+            };
+
+            // Start a fresh timer every time the controls are shown
+            this.scheduleOnce(this.hideToolsCallback, 3); // Change to 3, 4, or 5 seconds as you like
         }
         else {
             this.toolActivater.active = true;
@@ -381,19 +425,33 @@ export default class video extends cc.Component {
 
     ResumePlayButton() {
         cc.audioEngine.stopMusic();
+
         this.isPlay = true;
         this.isPause = false;
+
         this.node.getComponent(cc.VideoPlayer).resume();
+
         this.tools.getChildByName("resume").active = false;
         this.tools.getChildByName("pause").active = true;
+
+        this.scheduleOnce(() => {
+            this.setupTVFocus2();
+        }, 0);
     }
     PauseButton() {
         this.isPlay = false;
         this.isPause = true;
+
         this.node.getComponent(cc.VideoPlayer).pause();
+
         this.tools.getChildByName("resume").active = true;
         this.tools.getChildByName("pause").active = false;
+
         this.ActivateTools();
+
+        this.scheduleOnce(() => {
+            this.setupTVFocus2();
+        }, 0);
     }
 
 
@@ -407,12 +465,16 @@ export default class video extends cc.Component {
         console.log("updateslider : ", Math.round(this.node.getComponent(cc.VideoPlayer).currentTime));
         this.scheduleOnce(() => {
             this.isSliding = true;
-            this.node.getComponent(cc.VideoPlayer).pause();
 
+            this.node.getComponent(cc.VideoPlayer).pause();
             this.node.getComponent(cc.VideoPlayer).resume();
+
             this.tools.getChildByName("resume").active = false;
             this.tools.getChildByName("pause").active = true;
+
+            this.setupTVFocus2();
         }, 0.2);
+
     }
 
     UpdateSlider2() {
@@ -437,8 +499,39 @@ export default class video extends cc.Component {
 
     SliderButton() {
         this.isOnSlider = true;
-        // console.log("is slider button working!!!!!!!");
-        this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
+
+        let video = this.node.getComponent(cc.VideoPlayer);
+        let duration = video.getDuration();
+
+        if (duration <= 0) return;
+
+        // Current time
+        let currentTime = video.currentTime;
+
+        // Calculate new time (don't exceed duration)
+        let newTime = Math.min(currentTime + this.skipSeconds, duration);
+
+        // Update video
+        video.stop();
+        video.currentTime = newTime;
+        video.play();
+
+        // Update slider
+        let progress = newTime / duration;
+        this.slider.getComponent(cc.Slider).progress = progress;
+
+        // Update high bar
+        this.slider.getChildByName("high").width =
+            this.slider.getChildByName("Handle").getPosition().x + 472.5;
+
+        console.log(
+            `Skipped ${newTime - currentTime}s | ${newTime.toFixed(2)} / ${duration.toFixed(2)}`
+        );
+
+        this.scheduleOnce(() => {
+            video.resume();
+            this.isOnSlider = false;
+        }, 0.2);
     }
 
     OnQuestionAnswered(_event: cc.Event) {
@@ -569,17 +662,42 @@ export default class video extends cc.Component {
             }, this.node.getParent().getChildByName("curtain").getComponent(cc.Animation).currentClip.duration);
         }
     }
+    private setupTVFocus2() {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = startGame.Instance.node.getChildByName("sound");
 
+        let pauseBtn = this.tools.getChildByName("pause");
+        let resumeBtn = this.tools.getChildByName("resume");
+        let sliderHandle = this.slider.getChildByName("Handle");
+
+        let nodes: cc.Node[] = [];
+
+        if (pauseBtn.active && pauseBtn.opacity > 0)
+            nodes.push(pauseBtn);
+
+        if (resumeBtn.active && resumeBtn.opacity > 0)
+            nodes.push(resumeBtn);
+
+        nodes.push(sliderHandle);
+
+        if (backBtn) nodes.push(backBtn);
+        if (soundBtn) nodes.push(soundBtn);
+        if (musicBtn) nodes.push(musicBtn);
+
+        TVInputManager.Instance.init(nodes, 0);
+        TVInputManager.Instance.setCanSelect(true);
+    }
     questionSetup() {
         let current = this.currentQuestion;
         this.starUpdate(this.currentQuestion);
         // this.character.getComponent(cc.Animation).play("tweenIn");
         this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         cc.tween(this.character.getChildByName("anim")).to(0.5, { x: 0 }, { easing: "backInOut" }).start();
-        let id = cc.audioEngine.playMusic(this.bgMusic, true);
+        // let id = cc.audioEngine.playMusic(this.bgMusic, true);
         this.questionNode.getChildByName("options1").active = false;
         this.questionNode.getChildByName("questionBox").active = false;
-        cc.audioEngine.setVolume(id, 0.1);
+        //cc.audioEngine.setVolume(id, 0.1);
         if (this.questions[this.currentQuestion].isquestionText) {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).string = this.questions[this.currentQuestion].questionText;
             this.questionNode.getChildByName("questionBox").getChildByName("img").active = false;

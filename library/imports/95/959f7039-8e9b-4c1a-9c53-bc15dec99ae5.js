@@ -30,6 +30,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var StartGame_1 = require("../../Framework/Scripts/StartGame");
+var TVInputManager_1 = require("./TVInputManager");
 cc.macro.ENABLE_TRANSPARENT_CANVAS = true;
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var QuestionData = /** @class */ (function () {
@@ -78,12 +79,14 @@ var video = /** @class */ (function (_super) {
         _this.podar_font = null;
         _this.tlc_font = null;
         _this.supercub_font = null;
+        _this.skipSeconds = 4;
         _this.positiveVO = [];
         _this.duration = 0;
         _this.slider = null;
         _this.toolActivater = null;
         _this.questions = [];
         _this.isSliding = false;
+        _this.hideToolsCallback = null;
         _this.currentTime = 0;
         _this.timers = [];
         _this.totalQuestions = 0;
@@ -97,6 +100,7 @@ var video = /** @class */ (function (_super) {
         _this.attemps = 0;
         _this.videoCompleted = false;
         _this.gameStarted = false;
+        _this.canTouch = false;
         _this.correctAnim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         _this.wrongAnim = ["negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3"];
         _this.puzzleCorrectAnim = ["positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3"];
@@ -125,6 +129,11 @@ var video = /** @class */ (function (_super) {
             this.isSliding = false;
             this.isOnSlider = true;
         }, this);
+        this.slider.children[2].on("tv-select", function () {
+            this.isSliding = false;
+            this.isOnSlider = true;
+            this.SliderButton();
+        }, this);
         this.slider.children[2].on("touchmove", function () {
             this.isSliding = false;
             this.isOnSlider = true;
@@ -138,6 +147,9 @@ var video = /** @class */ (function (_super) {
             this.isOnSlider = false;
         }, this);
         this.slider.children[0].on("touchstart", function () {
+            this.isSliding = false;
+        }, this);
+        this.slider.children[0].on("tv-select", function () {
             this.isSliding = false;
         }, this);
         this.slider.children[0].on("touchmove", function () {
@@ -302,6 +314,19 @@ var video = /** @class */ (function (_super) {
             this.wrongAnim = this.podarNegativeAnim;
         }
     };
+    video.prototype.SkipForward = function () {
+        var video = this.node.getComponent(cc.VideoPlayer);
+        var duration = video.getDuration();
+        var currentTime = video.currentTime;
+        // Don't go beyond the end of the video
+        var newTime = Math.min(currentTime + this.skipSeconds, duration);
+        video.currentTime = newTime;
+        // Update slider
+        this.slider.getComponent(cc.Slider).progress = newTime / duration;
+        this.slider.getChildByName("high").width =
+            this.slider.getChildByName("Handle").getPosition().x + 472.5;
+        console.log("Skipped from " + currentTime.toFixed(2) + "s to " + newTime.toFixed(2) + "s");
+    };
     video.prototype.playVideo1 = function () {
         var _this = this;
         this.node.on('completed', function () {
@@ -342,17 +367,29 @@ var video = /** @class */ (function (_super) {
         //     this.tools.active = true;
         // }, 5);
     };
+    video.prototype.OnTVNavigation = function () {
+        if (this.tools.opacity == 0) {
+            this.ActivateTools(true);
+            this.setupTVFocus2();
+        }
+    };
     video.prototype.ActivateTools = function (_activate) {
         var _this = this;
         if (_activate === void 0) { _activate = true; }
         if (_activate) {
             this.toolActivater.active = false;
             this.tools.opacity = 255;
-            this.scheduleOnce(function () {
+            // Cancel any previous hide timer
+            if (this.hideToolsCallback) {
+                this.unschedule(this.hideToolsCallback);
+            }
+            this.hideToolsCallback = function () {
                 if (_this.tools.opacity == 255 && !_this.isPause && !_this.isOnSlider) {
                     _this.ActivateTools(false);
                 }
-            }, 2);
+            };
+            // Start a fresh timer every time the controls are shown
+            this.scheduleOnce(this.hideToolsCallback, 3); // Change to 3, 4, or 5 seconds as you like
         }
         else {
             this.toolActivater.active = true;
@@ -381,20 +418,28 @@ var video = /** @class */ (function (_super) {
         }
     };
     video.prototype.ResumePlayButton = function () {
+        var _this = this;
         cc.audioEngine.stopMusic();
         this.isPlay = true;
         this.isPause = false;
         this.node.getComponent(cc.VideoPlayer).resume();
         this.tools.getChildByName("resume").active = false;
         this.tools.getChildByName("pause").active = true;
+        this.scheduleOnce(function () {
+            _this.setupTVFocus2();
+        }, 0);
     };
     video.prototype.PauseButton = function () {
+        var _this = this;
         this.isPlay = false;
         this.isPause = true;
         this.node.getComponent(cc.VideoPlayer).pause();
         this.tools.getChildByName("resume").active = true;
         this.tools.getChildByName("pause").active = false;
         this.ActivateTools();
+        this.scheduleOnce(function () {
+            _this.setupTVFocus2();
+        }, 0);
     };
     video.prototype.UpdateSlider = function () {
         var _this = this;
@@ -411,6 +456,7 @@ var video = /** @class */ (function (_super) {
             _this.node.getComponent(cc.VideoPlayer).resume();
             _this.tools.getChildByName("resume").active = false;
             _this.tools.getChildByName("pause").active = true;
+            _this.setupTVFocus2();
         }, 0.2);
     };
     video.prototype.UpdateSlider2 = function () {
@@ -434,9 +480,31 @@ var video = /** @class */ (function (_super) {
         // }, 0.1);
     };
     video.prototype.SliderButton = function () {
+        var _this = this;
         this.isOnSlider = true;
-        // console.log("is slider button working!!!!!!!");
-        this.slider.getChildByName("high").width = this.slider.getChildByName("Handle").getPosition().x + 472.5;
+        var video = this.node.getComponent(cc.VideoPlayer);
+        var duration = video.getDuration();
+        if (duration <= 0)
+            return;
+        // Current time
+        var currentTime = video.currentTime;
+        // Calculate new time (don't exceed duration)
+        var newTime = Math.min(currentTime + this.skipSeconds, duration);
+        // Update video
+        video.stop();
+        video.currentTime = newTime;
+        video.play();
+        // Update slider
+        var progress = newTime / duration;
+        this.slider.getComponent(cc.Slider).progress = progress;
+        // Update high bar
+        this.slider.getChildByName("high").width =
+            this.slider.getChildByName("Handle").getPosition().x + 472.5;
+        console.log("Skipped " + (newTime - currentTime) + "s | " + newTime.toFixed(2) + " / " + duration.toFixed(2));
+        this.scheduleOnce(function () {
+            video.resume();
+            _this.isOnSlider = false;
+        }, 0.2);
     };
     video.prototype.OnQuestionAnswered = function (_event) {
         var _this = this;
@@ -563,6 +631,28 @@ var video = /** @class */ (function (_super) {
             }, this.node.getParent().getChildByName("curtain").getComponent(cc.Animation).currentClip.duration);
         }
     };
+    video.prototype.setupTVFocus2 = function () {
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        var soundBtn = StartGame_1.default.Instance.node.getChildByName("sound");
+        var pauseBtn = this.tools.getChildByName("pause");
+        var resumeBtn = this.tools.getChildByName("resume");
+        var sliderHandle = this.slider.getChildByName("Handle");
+        var nodes = [];
+        if (pauseBtn.active && pauseBtn.opacity > 0)
+            nodes.push(pauseBtn);
+        if (resumeBtn.active && resumeBtn.opacity > 0)
+            nodes.push(resumeBtn);
+        nodes.push(sliderHandle);
+        if (backBtn)
+            nodes.push(backBtn);
+        if (soundBtn)
+            nodes.push(soundBtn);
+        if (musicBtn)
+            nodes.push(musicBtn);
+        TVInputManager_1.default.Instance.init(nodes, 0);
+        TVInputManager_1.default.Instance.setCanSelect(true);
+    };
     video.prototype.questionSetup = function () {
         var _this = this;
         var current = this.currentQuestion;
@@ -570,10 +660,10 @@ var video = /** @class */ (function (_super) {
         // this.character.getComponent(cc.Animation).play("tweenIn");
         this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).getComponent(sp.Skeleton).setAnimation(0, "idle", true);
         cc.tween(this.character.getChildByName("anim")).to(0.5, { x: 0 }, { easing: "backInOut" }).start();
-        var id = cc.audioEngine.playMusic(this.bgMusic, true);
+        // let id = cc.audioEngine.playMusic(this.bgMusic, true);
         this.questionNode.getChildByName("options1").active = false;
         this.questionNode.getChildByName("questionBox").active = false;
-        cc.audioEngine.setVolume(id, 0.1);
+        //cc.audioEngine.setVolume(id, 0.1);
         if (this.questions[this.currentQuestion].isquestionText) {
             this.questionNode.getChildByName("questionBox").getChildByName("text").getComponent(cc.Label).string = this.questions[this.currentQuestion].questionText;
             this.questionNode.getChildByName("questionBox").getChildByName("img").active = false;
@@ -747,6 +837,9 @@ var video = /** @class */ (function (_super) {
     __decorate([
         property(cc.Font)
     ], video.prototype, "supercub_font", void 0);
+    __decorate([
+        property(Number)
+    ], video.prototype, "skipSeconds", void 0);
     __decorate([
         property(cc.AudioClip)
     ], video.prototype, "positiveVO", void 0);

@@ -1,3 +1,5 @@
+import TVInputManager from "../../Games/Scripts/TVInputManager";
+
 interface AdditionalData {
     GameID: string;
     VideoLink: string;
@@ -100,6 +102,12 @@ export default class startGame extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
+        let backBtn = this.node.getChildByName("back");
+        let musicBtn = this.node.getChildByName("music");
+        let nodes = [backBtn, musicBtn,];
+        this.scheduleOnce(() => {
+            TVInputManager.Instance.init(nodes);
+        }, 0.5);
         cc.game.addPersistRootNode(this.node);
         startGame.instance = this;
         console.log("loading--100");
@@ -295,8 +303,8 @@ export default class startGame extends cc.Component {
         else {
             this.node.getChildByName("music").children[0].active = false;
             this.isMusicOn = true;
-            // let id = cc.audioEngine.playMusic(this.BGM_audio, true);
-            // cc.audioEngine.setVolume(id, this.volume);
+            let id = cc.audioEngine.playMusic(this.BGM_audio, true);
+            cc.audioEngine.setVolume(id, this.volume);
         }
 
         let ageValue: number = parseInt(age);

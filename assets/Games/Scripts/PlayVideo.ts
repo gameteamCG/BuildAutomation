@@ -6,6 +6,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
 import startGame from "../../Framework/Scripts/StartGame";
+import TVInputManager from "./TVInputManager";
 
 
 const { ccclass, property } = cc._decorator;
@@ -25,6 +26,7 @@ export default class NewClass extends cc.Component {
     voAudio: cc.AudioClip = null;
     @property(cc.AudioClip)
     btnClick: cc.AudioClip = null;
+    private canTouch: boolean = false;
 
     private jockeyName: string = null;
 
@@ -37,10 +39,15 @@ export default class NewClass extends cc.Component {
         // console.log("loading--100");
         // console.log("loaderComplete--true");
         // this.playAnimation();
+        this.canTouch = true;
+        this.scheduleOnce(() => {
+            this.setupTVFocus("");
+        }, 2);
         this.scheduleOnce(() => {
             if (startGame.Instance.jockeyName == "tlc") {
                 this.node.getChildByName("tlc").active = true;
             }
+            this.setupTVFocus("play");
         }, 0.5);
 
     }
@@ -84,7 +91,17 @@ export default class NewClass extends cc.Component {
     //     this.videoPlayerNode.active = true;
     //     this.videoPlayerTools.active = true;
     // }
+    private setupTVFocus(activeContainerName: string) {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        //let soundBtn = this.node.getChildByName("panel").getChildByName("soundbutton");
+        let playBtn = this.node.getChildByName("play");
 
+        let nodes = [playBtn, backBtn, musicBtn].filter(n => !!n);
+
+        TVInputManager.Instance.init(nodes, 0);
+        TVInputManager.Instance.setCanSelect(true);
+    }
     Play() {
         this.videoPlayerNode.getComponent(cc.VideoPlayer).remoteURL = startGame.Instance.videoLink;
         this.jockeyName = startGame.Instance.jockeyName;
@@ -93,6 +110,9 @@ export default class NewClass extends cc.Component {
         }
         cc.audioEngine.playEffect(this.btnClick, false);
         this.node.getChildByName("play").getComponent(cc.Button).interactable = false;
+        this.canTouch = false;
+        TVInputManager.Instance.setCanSelect(false);
+
         cc.tween(this.node.getChildByName("title")).to(1, { y: 800 }, { easing: "backInOut" }).start();
         cc.tween(this.node.getChildByName("play")).to(1, { y: -800 }, { easing: "backInOut" }).start();
 
