@@ -199,6 +199,9 @@ export default class TVInputManager extends cc.Component {
     }
 
     updateFocus() {
+        console.log("Current Index:", this.currentIndex);
+        console.log("Current Node:", this.focusNodes[this.currentIndex]?.name);
+        console.log("Focus Nodes:", this.focusNodes.map(n => n.name));
         this.focusNodes.forEach((node, index) => {
             if (!node || !node.isValid) return;
             const baseScale = this.originalScales.get(node) ?? 1;

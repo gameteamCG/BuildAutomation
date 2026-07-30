@@ -2964,7 +2964,7 @@
     "_normalMaterial": null,
     "_grayMaterial": null,
     "duration": 0.1,
-    "zoomScale": 1.2,
+    "zoomScale": 1.15,
     "clickEvents": [
       {
         "__id__": 61
@@ -3535,7 +3535,7 @@
     "_normalMaterial": null,
     "_grayMaterial": null,
     "duration": 0.1,
-    "zoomScale": 1.2,
+    "zoomScale": 1.15,
     "clickEvents": [
       {
         "__id__": 73
@@ -4106,7 +4106,7 @@
     "_normalMaterial": null,
     "_grayMaterial": null,
     "duration": 0.1,
-    "zoomScale": 1.2,
+    "zoomScale": 1.15,
     "clickEvents": [
       {
         "__id__": 85
@@ -4677,7 +4677,7 @@
     "_normalMaterial": null,
     "_grayMaterial": null,
     "duration": 0.1,
-    "zoomScale": 1.2,
+    "zoomScale": 1.15,
     "clickEvents": [
       {
         "__id__": 97
@@ -5293,8 +5293,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 80,
-      "height": 80
+      "width": 118,
+      "height": 116
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",

@@ -373,7 +373,9 @@ export default class video extends cc.Component {
     public OnTVNavigation() {
         if (this.tools.opacity == 0) {
             this.ActivateTools(true);
-            this.setupTVFocus2();
+            if (!this.questionNode.active) {
+                this.setupTVFocus2();
+            }
         }
     }
     ActivateTools(_activate: boolean = true) {
@@ -435,7 +437,9 @@ export default class video extends cc.Component {
         this.tools.getChildByName("pause").active = true;
 
         this.scheduleOnce(() => {
-            this.setupTVFocus2();
+            if (!this.questionNode.active) {
+                this.setupTVFocus2();
+            }
         }, 0);
     }
     PauseButton() {
@@ -450,7 +454,9 @@ export default class video extends cc.Component {
         this.ActivateTools();
 
         this.scheduleOnce(() => {
-            this.setupTVFocus2();
+            if (!this.questionNode.active) {
+                this.setupTVFocus2();
+            }
         }, 0);
     }
 
@@ -472,7 +478,9 @@ export default class video extends cc.Component {
             this.tools.getChildByName("resume").active = false;
             this.tools.getChildByName("pause").active = true;
 
-            this.setupTVFocus2();
+            if (!this.questionNode.active) {
+                this.setupTVFocus2();
+            }
         }, 0.2);
 
     }
@@ -535,6 +543,8 @@ export default class video extends cc.Component {
     }
 
     OnQuestionAnswered(_event: cc.Event) {
+        this.canTouch = true;
+        TVInputManager.Instance.setCanSelect(this.canTouch)
         let input: string = _event.target.name;
         this.attemps++;
         if (parseInt(input) == this.questions[this.currentQuestion - 1].correctAnswer) {
@@ -613,15 +623,49 @@ export default class video extends cc.Component {
             }, this.getAnimDuration(this.wrongAnim[num]));
             _event.target.getChildByName("red").active = true;
             _event.target.getComponent(cc.Button).interactable = false;
+
         }
 
     }
 
-    OnSoundButton() {
+    OnSoundButton(_event: cc.Event) {
         cc.audioEngine.stopAllEffects();
         cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].questionAudio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(() => {
+            _event.target.getComponent(cc.Button).interactable = true;
+            _event.target.scale = 1;
+            this.setupTVFocus3();
+        }, this.questions[this.currentQuestion - 1].questionAudio.duration)
     }
+    private setupTVFocus3() {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.questionNode.getChildByName("sound");
 
+        let optionButtons = this.questionNode
+            .getChildByName("options1")
+            .children.filter(node => {
+                let btn = node.getComponent(cc.Button);
+                return node.active &&
+                    node.opacity > 0 &&
+                    btn &&
+                    btn.interactable;
+            });
+
+        let nodes = [
+            ...optionButtons,
+            soundBtn,
+            backBtn,
+            musicBtn
+        ].filter(n => n);
+
+        // setupTVFocus3
+        console.log("setupTVFocus3:", nodes.map(n => n.name));
+
+        TVInputManager.Instance.init(nodes, 0);
+        TVInputManager.Instance.setCanSelect(true);
+    }
     checkOnMissingQuestions() {
         let isEnd: boolean = true;
         for (let i = 0; i < this.questionAppeared.length; i++) {
@@ -636,6 +680,9 @@ export default class video extends cc.Component {
                 this.currentQuestion++;
                 console.log("levelStarted--" + this.currentQuestion);
                 this.questionNode.active = true;
+                this.scheduleOnce(() => {
+                    this.setupTVFocus3();
+                }, 1);
                 break;
             }
         }
@@ -684,7 +731,8 @@ export default class video extends cc.Component {
         if (backBtn) nodes.push(backBtn);
         if (soundBtn) nodes.push(soundBtn);
         if (musicBtn) nodes.push(musicBtn);
-
+        // setupTVFocus3
+        console.log("setupTVFocus2:", nodes.map(n => n.name));
         TVInputManager.Instance.init(nodes, 0);
         TVInputManager.Instance.setCanSelect(true);
     }
@@ -765,6 +813,7 @@ export default class video extends cc.Component {
                 this.questionSetup();
                 this.currentQuestion++;
                 this.questionNode.active = true;
+
             }
         }
     }

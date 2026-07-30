@@ -28,6 +28,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __spreadArrays = (this && this.__spreadArrays) || function () {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var StartGame_1 = require("../../Framework/Scripts/StartGame");
 var TVInputManager_1 = require("./TVInputManager");
@@ -370,7 +377,9 @@ var video = /** @class */ (function (_super) {
     video.prototype.OnTVNavigation = function () {
         if (this.tools.opacity == 0) {
             this.ActivateTools(true);
-            this.setupTVFocus2();
+            if (!this.questionNode.active) {
+                this.setupTVFocus2();
+            }
         }
     };
     video.prototype.ActivateTools = function (_activate) {
@@ -426,7 +435,9 @@ var video = /** @class */ (function (_super) {
         this.tools.getChildByName("resume").active = false;
         this.tools.getChildByName("pause").active = true;
         this.scheduleOnce(function () {
-            _this.setupTVFocus2();
+            if (!_this.questionNode.active) {
+                _this.setupTVFocus2();
+            }
         }, 0);
     };
     video.prototype.PauseButton = function () {
@@ -438,7 +449,9 @@ var video = /** @class */ (function (_super) {
         this.tools.getChildByName("pause").active = false;
         this.ActivateTools();
         this.scheduleOnce(function () {
-            _this.setupTVFocus2();
+            if (!_this.questionNode.active) {
+                _this.setupTVFocus2();
+            }
         }, 0);
     };
     video.prototype.UpdateSlider = function () {
@@ -456,7 +469,9 @@ var video = /** @class */ (function (_super) {
             _this.node.getComponent(cc.VideoPlayer).resume();
             _this.tools.getChildByName("resume").active = false;
             _this.tools.getChildByName("pause").active = true;
-            _this.setupTVFocus2();
+            if (!_this.questionNode.active) {
+                _this.setupTVFocus2();
+            }
         }, 0.2);
     };
     video.prototype.UpdateSlider2 = function () {
@@ -508,6 +523,8 @@ var video = /** @class */ (function (_super) {
     };
     video.prototype.OnQuestionAnswered = function (_event) {
         var _this = this;
+        this.canTouch = true;
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
         var input = _event.target.name;
         this.attemps++;
         if (parseInt(input) == this.questions[this.currentQuestion - 1].correctAnswer) {
@@ -586,9 +603,39 @@ var video = /** @class */ (function (_super) {
             _event.target.getComponent(cc.Button).interactable = false;
         }
     };
-    video.prototype.OnSoundButton = function () {
+    video.prototype.OnSoundButton = function (_event) {
+        var _this = this;
         cc.audioEngine.stopAllEffects();
         cc.audioEngine.playEffect(this.questions[this.currentQuestion - 1].questionAudio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        this.scheduleOnce(function () {
+            _event.target.getComponent(cc.Button).interactable = true;
+            _event.target.scale = 1;
+            _this.setupTVFocus3();
+        }, this.questions[this.currentQuestion - 1].questionAudio.duration);
+    };
+    video.prototype.setupTVFocus3 = function () {
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        var soundBtn = this.questionNode.getChildByName("sound");
+        var optionButtons = this.questionNode
+            .getChildByName("options1")
+            .children.filter(function (node) {
+            var btn = node.getComponent(cc.Button);
+            return node.active &&
+                node.opacity > 0 &&
+                btn &&
+                btn.interactable;
+        });
+        var nodes = __spreadArrays(optionButtons, [
+            soundBtn,
+            backBtn,
+            musicBtn
+        ]).filter(function (n) { return n; });
+        // setupTVFocus3
+        console.log("setupTVFocus3:", nodes.map(function (n) { return n.name; }));
+        TVInputManager_1.default.Instance.init(nodes, 0);
+        TVInputManager_1.default.Instance.setCanSelect(true);
     };
     video.prototype.checkOnMissingQuestions = function () {
         var _this = this;
@@ -605,6 +652,9 @@ var video = /** @class */ (function (_super) {
                 this.currentQuestion++;
                 console.log("levelStarted--" + this.currentQuestion);
                 this.questionNode.active = true;
+                this.scheduleOnce(function () {
+                    _this.setupTVFocus3();
+                }, 1);
                 break;
             }
         }
@@ -650,6 +700,8 @@ var video = /** @class */ (function (_super) {
             nodes.push(soundBtn);
         if (musicBtn)
             nodes.push(musicBtn);
+        // setupTVFocus3
+        console.log("setupTVFocus2:", nodes.map(function (n) { return n.name; }));
         TVInputManager_1.default.Instance.init(nodes, 0);
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
