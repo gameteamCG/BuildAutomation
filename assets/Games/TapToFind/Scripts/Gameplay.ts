@@ -283,7 +283,7 @@ export default class Gameplay extends cc.Component {
         this.scheduleOnce(() => {
             _event.target.getComponent(cc.Button).interactable = true;
             _event.target.scale = 1;
-            this.setupTVFocus("Options");
+            this.setupTVFocus(this.optionsLayout);
         }, this.questionAudio.duration)
 
     }
@@ -298,6 +298,22 @@ export default class Gameplay extends cc.Component {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         let nodes = [...optionButtons, backBtn, soundBtn, musicBtn].filter(n => !!n);
+        if (cc.director.getScene().name == "1") {
+            TVInputManager.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager.Instance.init(nodes, -1);
+        }
+        TVInputManager.Instance.setCanSelect(this.canTouch);
+    }
+    private setupTVFocus2() {
+        let backBtn = startGame.Instance.node.getChildByName("back");
+        let musicBtn = startGame.Instance.node.getChildByName("music");
+        let soundBtn = this.node.getChildByName("questionPanel").getChildByName("purple sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+
+        let nodes = [backBtn, soundBtn, musicBtn].filter(n => !!n);
         if (cc.director.getScene().name == "1") {
             TVInputManager.Instance.init(nodes, 0);
         }
@@ -358,16 +374,17 @@ export default class Gameplay extends cc.Component {
             }
         }
         if (correct) {
-
             this.canTouch = false;
             TVInputManager.Instance.setCanSelect(false);
+            this.setupTVFocus2();
+
 
             this.correctCounter++;
 
             cc.audioEngine.playEffect(this.positive_audio, false);
 
             cc.tween(node)
-                .to(0.5, { y: 1200 }, { easing: "sineInOut" })
+                .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(() => {
 
                     node.active = false;
@@ -409,7 +426,6 @@ export default class Gameplay extends cc.Component {
                 .start();
         }
     }
-
     onTouchStart_layout2(event: cc.Event.EventTouch) {
         if (!this.canTouch) {
             return;

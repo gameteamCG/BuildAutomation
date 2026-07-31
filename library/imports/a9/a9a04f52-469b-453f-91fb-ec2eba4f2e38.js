@@ -318,7 +318,7 @@ var Gameplay = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             _event.target.getComponent(cc.Button).interactable = true;
             _event.target.scale = 1;
-            _this.setupTVFocus("Options");
+            _this.setupTVFocus(_this.optionsLayout);
         }, this.questionAudio.duration);
     };
     Gameplay.prototype.setupTVFocus = function (activeContainerName) {
@@ -332,6 +332,21 @@ var Gameplay = /** @class */ (function (_super) {
             return node.active && node.opacity > 0 && (!btn || btn.interactable !== false);
         });
         var nodes = __spreadArrays(optionButtons, [backBtn, soundBtn, musicBtn]).filter(function (n) { return !!n; });
+        if (cc.director.getScene().name == "1") {
+            TVInputManager_1.default.Instance.init(nodes, 0);
+        }
+        else {
+            TVInputManager_1.default.Instance.init(nodes, -1);
+        }
+        TVInputManager_1.default.Instance.setCanSelect(this.canTouch);
+    };
+    Gameplay.prototype.setupTVFocus2 = function () {
+        var backBtn = StartGame_1.default.Instance.node.getChildByName("back");
+        var musicBtn = StartGame_1.default.Instance.node.getChildByName("music");
+        var soundBtn = this.node.getChildByName("questionPanel").getChildByName("purple sound");
+        backBtn.scale = 1;
+        musicBtn.scale = 1;
+        var nodes = [backBtn, soundBtn, musicBtn].filter(function (n) { return !!n; });
         if (cc.director.getScene().name == "1") {
             TVInputManager_1.default.Instance.init(nodes, 0);
         }
@@ -393,10 +408,11 @@ var Gameplay = /** @class */ (function (_super) {
         if (correct) {
             this.canTouch = false;
             TVInputManager_1.default.Instance.setCanSelect(false);
+            this.setupTVFocus2();
             this.correctCounter++;
             cc.audioEngine.playEffect(this.positive_audio, false);
             cc.tween(node)
-                .to(0.5, { y: 1200 }, { easing: "sineInOut" })
+                .to(0.8, { y: 1200 }, { easing: "sineInOut" })
                 .call(function () {
                 node.active = false;
                 _this.setupTVFocus(_this.optionsLayout);
