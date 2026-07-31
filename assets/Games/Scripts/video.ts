@@ -44,6 +44,7 @@ export default class video extends cc.Component {
 
     @property(cc.Node)
     tools: cc.Node = null;
+
     @property(cc.Node)
     questionNode: cc.Node = null;
     @property(cc.Node)
@@ -97,7 +98,8 @@ export default class video extends cc.Component {
     private videoCompleted: boolean = false;
     private gameStarted: boolean = false;
     private canTouch: boolean = false;
-
+    private forwardBtn: cc.Node = null;
+    private backwardBtn: cc.Node = null;
     private correctAnim: string[] = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
     private wrongAnim: string[] = ["negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3"];
 
@@ -113,6 +115,8 @@ export default class video extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     onLoad() {
+        this.forwardBtn = cc.find("Canvas/skipAhead");
+        this.backwardBtn = cc.find("Canvas/skipBack");
         this.UpdateQuestions();
         this.character.getChildByName("anim").getChildByName(startGame.Instance.jockeyName).active = true;
         this.scheduleOnce(() => {
@@ -128,11 +132,11 @@ export default class video extends cc.Component {
             this.isSliding = false;
             this.isOnSlider = true;
         }, this);
-        this.slider.children[2].on("tv-select", function () {
-            this.isSliding = false;
-            this.isOnSlider = true;
-            this.SliderButton();
-        }, this);
+        // this.slider.children[2].on("tv-select", function () {
+        //     this.isSliding = false;
+        //     this.isOnSlider = true;
+        //     this.SliderButton();
+        // }, this);
 
         this.slider.children[2].on("touchmove", function () {
             this.isSliding = false;
@@ -150,9 +154,9 @@ export default class video extends cc.Component {
         this.slider.children[0].on("touchstart", function () {
             this.isSliding = false;
         }, this);
-        this.slider.children[0].on("tv-select", function () {
-            this.isSliding = false;
-        }, this);
+        // this.slider.children[0].on("tv-select", function () {
+        //     this.isSliding = false;
+        // }, this);
         this.slider.children[0].on("touchmove", function () {
             this.isSliding = false;
         }, this);
@@ -311,23 +315,66 @@ export default class video extends cc.Component {
             this.wrongAnim = this.podarNegativeAnim;
         }
     }
-    SkipForward() {
+    SkipForward(_event?: cc.Event) {
+
+        if (_event) {
+            _event.target.getComponent(cc.Button).interactable = false;
+        }
+
         let video = this.node.getComponent(cc.VideoPlayer);
 
         let duration = video.getDuration();
-        let currentTime = video.currentTime;
-
-        // Don't go beyond the end of the video
-        let newTime = Math.min(currentTime + this.skipSeconds, duration);
+        let newTime = Math.min(video.currentTime + this.skipSeconds, duration);
 
         video.currentTime = newTime;
 
-        // Update slider
         this.slider.getComponent(cc.Slider).progress = newTime / duration;
         this.slider.getChildByName("high").width =
             this.slider.getChildByName("Handle").getPosition().x + 472.5;
 
-        console.log(`Skipped from ${currentTime.toFixed(2)}s to ${newTime.toFixed(2)}s`);
+        this.scheduleOnce(() => {
+
+            if (_event) {
+                _event.target.getComponent(cc.Button).interactable = true;
+                _event.target.scale = 1;
+            }
+
+            if (!this.questionNode.active) {
+                this.setupTVFocus2();
+            }
+
+        }, 0.1);
+    }
+    SkipBackward(_event?: cc.Event) {
+
+        if (_event) {
+            _event.target.getComponent(cc.Button).interactable = false;
+        }
+
+        let video = this.node.getComponent(cc.VideoPlayer);
+
+        let newTime = Math.max(video.currentTime - this.skipSeconds, 0);
+
+        video.currentTime = newTime;
+
+        this.slider.getComponent(cc.Slider).progress =
+            newTime / video.getDuration();
+
+        this.slider.getChildByName("high").width =
+            this.slider.getChildByName("Handle").getPosition().x + 472.5;
+
+        this.scheduleOnce(() => {
+
+            if (_event) {
+                _event.target.getComponent(cc.Button).interactable = true;
+                _event.target.scale = 1;
+            }
+
+            if (!this.questionNode.active) {
+                this.setupTVFocus2();
+            }
+
+        }, 0.1);
     }
     playVideo1() {
         this.node.on('completed', function () {
@@ -379,26 +426,29 @@ export default class video extends cc.Component {
         }
     }
     ActivateTools(_activate: boolean = true) {
+
         if (_activate) {
 
             this.toolActivater.active = false;
             this.tools.opacity = 255;
 
-            // Cancel any previous hide timer
-            if (this.hideToolsCallback) {
-                this.unschedule(this.hideToolsCallback);
+            const pauseVisible = this.tools.getChildByName("pause").active;
+
+            if (this.forwardBtn) {
+                this.forwardBtn.active = pauseVisible;
             }
 
-            this.hideToolsCallback = () => {
-                if (this.tools.opacity == 255 && !this.isPause && !this.isOnSlider) {
-                    this.ActivateTools(false);
-                }
-            };
+            if (this.backwardBtn) {
+                this.backwardBtn.active = pauseVisible;
+            }
 
-            // Start a fresh timer every time the controls are shown
-            this.scheduleOnce(this.hideToolsCallback, 3); // Change to 3, 4, or 5 seconds as you like
+            // Existing timer code...
         }
         else {
+
+            if (this.forwardBtn) this.forwardBtn.active = false;
+            if (this.backwardBtn) this.backwardBtn.active = false;
+
             this.toolActivater.active = true;
             this.tools.opacity = 0;
         }
@@ -425,7 +475,7 @@ export default class video extends cc.Component {
 
     }
 
-    ResumePlayButton() {
+    ResumePlayButton(_event?: cc.Event) {
         cc.audioEngine.stopMusic();
 
         this.isPlay = true;
@@ -436,13 +486,16 @@ export default class video extends cc.Component {
         this.tools.getChildByName("resume").active = false;
         this.tools.getChildByName("pause").active = true;
 
+        if (this.forwardBtn) this.forwardBtn.active = true;
+        if (this.backwardBtn) this.backwardBtn.active = true;
+
         this.scheduleOnce(() => {
             if (!this.questionNode.active) {
                 this.setupTVFocus2();
             }
         }, 0);
     }
-    PauseButton() {
+    PauseButton(_event?: cc.Event) {
         this.isPlay = false;
         this.isPause = true;
 
@@ -450,6 +503,9 @@ export default class video extends cc.Component {
 
         this.tools.getChildByName("resume").active = true;
         this.tools.getChildByName("pause").active = false;
+
+        if (this.forwardBtn) this.forwardBtn.active = false;
+        if (this.backwardBtn) this.backwardBtn.active = false;
 
         this.ActivateTools();
 
@@ -663,7 +719,7 @@ export default class video extends cc.Component {
         // setupTVFocus3
         console.log("setupTVFocus3:", nodes.map(n => n.name));
 
-        TVInputManager.Instance.init(nodes, 0);
+        TVInputManager.Instance.init(nodes, -1);
         TVInputManager.Instance.setCanSelect(true);
     }
     checkOnMissingQuestions() {
@@ -681,6 +737,8 @@ export default class video extends cc.Component {
                 console.log("levelStarted--" + this.currentQuestion);
                 this.PauseButton();
                 this.questionNode.active = true;
+                this.forwardBtn.active = false;
+                this.backwardBtn.active = false;
                 this.scheduleOnce(() => {
                     this.setupTVFocus3();
                 }, 1);
@@ -717,21 +775,29 @@ export default class video extends cc.Component {
 
         let pauseBtn = this.tools.getChildByName("pause");
         let resumeBtn = this.tools.getChildByName("resume");
-        let sliderHandle = this.slider.getChildByName("Handle");
+        let forwardBtn = cc.find("Canvas/skipAhead");
+        let backwardBtn = cc.find("Canvas/skipBack");
+        //let sliderHandle = this.slider.getChildByName("Handle");
 
         let nodes: cc.Node[] = [];
 
-        if (pauseBtn.active && pauseBtn.opacity > 0)
+        if (pauseBtn && pauseBtn.active && pauseBtn.opacity > 0)
             nodes.push(pauseBtn);
+        if (forwardBtn && forwardBtn.active && forwardBtn.opacity > 0)
+            nodes.push(forwardBtn);
+        if (backwardBtn && backwardBtn.active && backwardBtn.opacity > 0)
+            nodes.push(backwardBtn);
 
-        if (resumeBtn.active && resumeBtn.opacity > 0)
+
+
+        if (resumeBtn && resumeBtn.active && resumeBtn.opacity > 0)
             nodes.push(resumeBtn);
-
-        nodes.push(sliderHandle);
+        //nodes.push(sliderHandle);
 
         if (backBtn) nodes.push(backBtn);
         if (soundBtn) nodes.push(soundBtn);
         if (musicBtn) nodes.push(musicBtn);
+
         // setupTVFocus3
         console.log("setupTVFocus2:", nodes.map(n => n.name));
         TVInputManager.Instance.init(nodes, 0);
@@ -814,6 +880,9 @@ export default class video extends cc.Component {
                 this.questionSetup();
                 this.currentQuestion++;
                 this.questionNode.active = true;
+                this.forwardBtn.active = false;
+                this.backwardBtn.active = false;
+
 
 
             }

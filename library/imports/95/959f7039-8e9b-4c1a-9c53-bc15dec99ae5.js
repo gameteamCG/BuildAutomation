@@ -108,6 +108,8 @@ var video = /** @class */ (function (_super) {
         _this.videoCompleted = false;
         _this.gameStarted = false;
         _this.canTouch = false;
+        _this.forwardBtn = null;
+        _this.backwardBtn = null;
         _this.correctAnim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_1", "positive_2", "positive_3", "positive_4", "positive_5"];
         _this.wrongAnim = ["negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3", "negative_1", "negative_2", "negative_3"];
         _this.puzzleCorrectAnim = ["positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3", "positive_1", "positive_2", "positive_3"];
@@ -121,6 +123,8 @@ var video = /** @class */ (function (_super) {
     // LIFE-CYCLE CALLBACKS:
     video.prototype.onLoad = function () {
         var _this = this;
+        this.forwardBtn = cc.find("Canvas/skipAhead");
+        this.backwardBtn = cc.find("Canvas/skipBack");
         this.UpdateQuestions();
         this.character.getChildByName("anim").getChildByName(StartGame_1.default.Instance.jockeyName).active = true;
         this.scheduleOnce(function () {
@@ -136,11 +140,11 @@ var video = /** @class */ (function (_super) {
             this.isSliding = false;
             this.isOnSlider = true;
         }, this);
-        this.slider.children[2].on("tv-select", function () {
-            this.isSliding = false;
-            this.isOnSlider = true;
-            this.SliderButton();
-        }, this);
+        // this.slider.children[2].on("tv-select", function () {
+        //     this.isSliding = false;
+        //     this.isOnSlider = true;
+        //     this.SliderButton();
+        // }, this);
         this.slider.children[2].on("touchmove", function () {
             this.isSliding = false;
             this.isOnSlider = true;
@@ -156,9 +160,9 @@ var video = /** @class */ (function (_super) {
         this.slider.children[0].on("touchstart", function () {
             this.isSliding = false;
         }, this);
-        this.slider.children[0].on("tv-select", function () {
-            this.isSliding = false;
-        }, this);
+        // this.slider.children[0].on("tv-select", function () {
+        //     this.isSliding = false;
+        // }, this);
         this.slider.children[0].on("touchmove", function () {
             this.isSliding = false;
         }, this);
@@ -321,18 +325,49 @@ var video = /** @class */ (function (_super) {
             this.wrongAnim = this.podarNegativeAnim;
         }
     };
-    video.prototype.SkipForward = function () {
+    video.prototype.SkipForward = function (_event) {
+        var _this = this;
+        if (_event) {
+            _event.target.getComponent(cc.Button).interactable = false;
+        }
         var video = this.node.getComponent(cc.VideoPlayer);
         var duration = video.getDuration();
-        var currentTime = video.currentTime;
-        // Don't go beyond the end of the video
-        var newTime = Math.min(currentTime + this.skipSeconds, duration);
+        var newTime = Math.min(video.currentTime + this.skipSeconds, duration);
         video.currentTime = newTime;
-        // Update slider
         this.slider.getComponent(cc.Slider).progress = newTime / duration;
         this.slider.getChildByName("high").width =
             this.slider.getChildByName("Handle").getPosition().x + 472.5;
-        console.log("Skipped from " + currentTime.toFixed(2) + "s to " + newTime.toFixed(2) + "s");
+        this.scheduleOnce(function () {
+            if (_event) {
+                _event.target.getComponent(cc.Button).interactable = true;
+                _event.target.scale = 1;
+            }
+            if (!_this.questionNode.active) {
+                _this.setupTVFocus2();
+            }
+        }, 0.1);
+    };
+    video.prototype.SkipBackward = function (_event) {
+        var _this = this;
+        if (_event) {
+            _event.target.getComponent(cc.Button).interactable = false;
+        }
+        var video = this.node.getComponent(cc.VideoPlayer);
+        var newTime = Math.max(video.currentTime - this.skipSeconds, 0);
+        video.currentTime = newTime;
+        this.slider.getComponent(cc.Slider).progress =
+            newTime / video.getDuration();
+        this.slider.getChildByName("high").width =
+            this.slider.getChildByName("Handle").getPosition().x + 472.5;
+        this.scheduleOnce(function () {
+            if (_event) {
+                _event.target.getComponent(cc.Button).interactable = true;
+                _event.target.scale = 1;
+            }
+            if (!_this.questionNode.active) {
+                _this.setupTVFocus2();
+            }
+        }, 0.1);
     };
     video.prototype.playVideo1 = function () {
         var _this = this;
@@ -383,24 +418,24 @@ var video = /** @class */ (function (_super) {
         }
     };
     video.prototype.ActivateTools = function (_activate) {
-        var _this = this;
         if (_activate === void 0) { _activate = true; }
         if (_activate) {
             this.toolActivater.active = false;
             this.tools.opacity = 255;
-            // Cancel any previous hide timer
-            if (this.hideToolsCallback) {
-                this.unschedule(this.hideToolsCallback);
+            var pauseVisible = this.tools.getChildByName("pause").active;
+            if (this.forwardBtn) {
+                this.forwardBtn.active = pauseVisible;
             }
-            this.hideToolsCallback = function () {
-                if (_this.tools.opacity == 255 && !_this.isPause && !_this.isOnSlider) {
-                    _this.ActivateTools(false);
-                }
-            };
-            // Start a fresh timer every time the controls are shown
-            this.scheduleOnce(this.hideToolsCallback, 3); // Change to 3, 4, or 5 seconds as you like
+            if (this.backwardBtn) {
+                this.backwardBtn.active = pauseVisible;
+            }
+            // Existing timer code...
         }
         else {
+            if (this.forwardBtn)
+                this.forwardBtn.active = false;
+            if (this.backwardBtn)
+                this.backwardBtn.active = false;
             this.toolActivater.active = true;
             this.tools.opacity = 0;
         }
@@ -426,7 +461,7 @@ var video = /** @class */ (function (_super) {
             }
         }
     };
-    video.prototype.ResumePlayButton = function () {
+    video.prototype.ResumePlayButton = function (_event) {
         var _this = this;
         cc.audioEngine.stopMusic();
         this.isPlay = true;
@@ -434,19 +469,27 @@ var video = /** @class */ (function (_super) {
         this.node.getComponent(cc.VideoPlayer).resume();
         this.tools.getChildByName("resume").active = false;
         this.tools.getChildByName("pause").active = true;
+        if (this.forwardBtn)
+            this.forwardBtn.active = true;
+        if (this.backwardBtn)
+            this.backwardBtn.active = true;
         this.scheduleOnce(function () {
             if (!_this.questionNode.active) {
                 _this.setupTVFocus2();
             }
         }, 0);
     };
-    video.prototype.PauseButton = function () {
+    video.prototype.PauseButton = function (_event) {
         var _this = this;
         this.isPlay = false;
         this.isPause = true;
         this.node.getComponent(cc.VideoPlayer).pause();
         this.tools.getChildByName("resume").active = true;
         this.tools.getChildByName("pause").active = false;
+        if (this.forwardBtn)
+            this.forwardBtn.active = false;
+        if (this.backwardBtn)
+            this.backwardBtn.active = false;
         this.ActivateTools();
         this.scheduleOnce(function () {
             if (!_this.questionNode.active) {
@@ -634,7 +677,7 @@ var video = /** @class */ (function (_super) {
         ]).filter(function (n) { return n; });
         // setupTVFocus3
         console.log("setupTVFocus3:", nodes.map(function (n) { return n.name; }));
-        TVInputManager_1.default.Instance.init(nodes, 0);
+        TVInputManager_1.default.Instance.init(nodes, -1);
         TVInputManager_1.default.Instance.setCanSelect(true);
     };
     video.prototype.checkOnMissingQuestions = function () {
@@ -653,6 +696,8 @@ var video = /** @class */ (function (_super) {
                 console.log("levelStarted--" + this.currentQuestion);
                 this.PauseButton();
                 this.questionNode.active = true;
+                this.forwardBtn.active = false;
+                this.backwardBtn.active = false;
                 this.scheduleOnce(function () {
                     _this.setupTVFocus3();
                 }, 1);
@@ -688,13 +733,19 @@ var video = /** @class */ (function (_super) {
         var soundBtn = StartGame_1.default.Instance.node.getChildByName("sound");
         var pauseBtn = this.tools.getChildByName("pause");
         var resumeBtn = this.tools.getChildByName("resume");
-        var sliderHandle = this.slider.getChildByName("Handle");
+        var forwardBtn = cc.find("Canvas/skipAhead");
+        var backwardBtn = cc.find("Canvas/skipBack");
+        //let sliderHandle = this.slider.getChildByName("Handle");
         var nodes = [];
-        if (pauseBtn.active && pauseBtn.opacity > 0)
+        if (pauseBtn && pauseBtn.active && pauseBtn.opacity > 0)
             nodes.push(pauseBtn);
-        if (resumeBtn.active && resumeBtn.opacity > 0)
+        if (forwardBtn && forwardBtn.active && forwardBtn.opacity > 0)
+            nodes.push(forwardBtn);
+        if (backwardBtn && backwardBtn.active && backwardBtn.opacity > 0)
+            nodes.push(backwardBtn);
+        if (resumeBtn && resumeBtn.active && resumeBtn.opacity > 0)
             nodes.push(resumeBtn);
-        nodes.push(sliderHandle);
+        //nodes.push(sliderHandle);
         if (backBtn)
             nodes.push(backBtn);
         if (soundBtn)
@@ -780,6 +831,8 @@ var video = /** @class */ (function (_super) {
                 this.questionSetup();
                 this.currentQuestion++;
                 this.questionNode.active = true;
+                this.forwardBtn.active = false;
+                this.backwardBtn.active = false;
             }
         }
     };
