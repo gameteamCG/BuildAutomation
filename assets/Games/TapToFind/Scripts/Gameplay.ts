@@ -185,7 +185,7 @@ export default class Gameplay extends cc.Component {
         this.scheduleOnce(() => {
             let optionNodes = this.options.children;
             optionNodes.forEach((element, idx) => {
-                let t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
+                let t = cc.tween(element).to(0.5, { scale: 0.8 }, { easing: "sineInOut" });
                 if (idx === optionNodes.length - 1) {
                     t = t.call(() => {
                         this.setupTVFocus(this.optionsLayout);
@@ -285,7 +285,7 @@ export default class Gameplay extends cc.Component {
         this.scheduleOnce(() => {
             _event.target.getComponent(cc.Button).interactable = true;
             _event.target.scale = 1;
-            this.setupTVFocus("Options");
+            this.setupTVFocus(this.optionsLayout);
         }, this.questionAudio.duration)
 
     }
@@ -340,7 +340,7 @@ export default class Gameplay extends cc.Component {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posX: number[] = [-750, -285, 257, 754];
+            let _laypout1posX: number[] = [-600, -200, 257, 754];
             let _laypout1posY: number[] = [-150, 100, -100, 150];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
@@ -476,7 +476,10 @@ export default class Gameplay extends cc.Component {
             _clone.getComponent(cc.Animation).stop();
             _clone.angle = 0;
             let pos = _clone.getPosition();
-            cc.tween(_clone).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
+            cc.tween(_clone).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0),).start();
+            this.scheduleOnce(() => {
+                cc.tween(_clone).to(1, { opacity: 0 }, { easing: "backInOut" }).start();
+            }, 1)
             this.scheduleOnce(() => {
                 _clone.getComponent(cc.Animation).stop();
                 _clone.angle = 0;
@@ -488,7 +491,7 @@ export default class Gameplay extends cc.Component {
                 }
                 if (this.correctCounter == this.correctAnswer.length) {
                     console.log("all the options are answered correctly");
-                    cc.tween(this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
+                    cc.tween(this.options).to(1, { x: -1500, }, { easing: "backInOut" }).start();
                     this.LoadNextQuestion();
                     // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
                 }

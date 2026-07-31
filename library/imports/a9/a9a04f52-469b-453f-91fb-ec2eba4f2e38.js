@@ -214,7 +214,7 @@ var Gameplay = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             var optionNodes = _this.options.children;
             optionNodes.forEach(function (element, idx) {
-                var t = cc.tween(element).to(0.5, { scale: 1 }, { easing: "sineInOut" });
+                var t = cc.tween(element).to(0.5, { scale: 0.8 }, { easing: "sineInOut" });
                 if (idx === optionNodes.length - 1) {
                     t = t.call(function () {
                         _this.setupTVFocus(_this.optionsLayout);
@@ -320,7 +320,7 @@ var Gameplay = /** @class */ (function (_super) {
         this.scheduleOnce(function () {
             _event.target.getComponent(cc.Button).interactable = true;
             _event.target.scale = 1;
-            _this.setupTVFocus("Options");
+            _this.setupTVFocus(_this.optionsLayout);
         }, this.questionAudio.duration);
     };
     Gameplay.prototype.setupTVFocus = function (activeContainerName) {
@@ -373,7 +373,7 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posX = [-750, -285, 257, 754];
+            var _laypout1posX = [-600, -200, 257, 754];
             var _laypout1posY = [-150, 100, -100, 150];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
@@ -489,6 +489,9 @@ var Gameplay = /** @class */ (function (_super) {
             var pos = _clone_1.getPosition();
             cc.tween(_clone_1).bezierTo(1, cc.v2(pos.x / 2, pos.y + 200), cc.v2(pos.x / 4, pos.y), cc.v2(0, 0)).start();
             this.scheduleOnce(function () {
+                cc.tween(_clone_1).to(1, { opacity: 0 }, { easing: "backInOut" }).start();
+            }, 1);
+            this.scheduleOnce(function () {
                 _clone_1.getComponent(cc.Animation).stop();
                 _clone_1.angle = 0;
                 if (_this.reiterationAudio[audioNum]) {
@@ -499,7 +502,7 @@ var Gameplay = /** @class */ (function (_super) {
                 }
                 if (_this.correctCounter == _this.correctAnswer.length) {
                     console.log("all the options are answered correctly");
-                    cc.tween(_this.options).to(1, { x: -1500 }, { easing: "backInOut" }).start();
+                    cc.tween(_this.options).to(1, { x: -1500, }, { easing: "backInOut" }).start();
                     _this.LoadNextQuestion();
                     // cc.tween(this.options).bezierTo(1, cc.v2(-100, 300), cc.v2(0, 0), cc.v2(100, -1200)).start();
                 }

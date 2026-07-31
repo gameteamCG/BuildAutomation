@@ -11,7 +11,7 @@
         {
             "questionLayout": "layout1",
             "questionBgName": "bg1.png",
-            "questionAudioName": "QVo.mp3",
+            "questionAudioName": "L1.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 4,
@@ -37,7 +37,7 @@
         },
         {
             "questionLayout": "layout2",
-            "questionBgName": "bg2.png",
+            "questionBgName": "Bg2.png",
             "questionAudioName": "QVo.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
@@ -62,7 +62,7 @@
         {
             "questionLayout": "layout1",
             "questionBgName": "bg3.png",
-            "questionAudioName": "QVo.mp3",
+            "questionAudioName": "L3.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 4,
@@ -112,7 +112,7 @@
         {
             "questionLayout": "layout1",
             "questionBgName": "bg5.png",
-            "questionAudioName": "QVo.mp3",
+            "questionAudioName": "L5.mp3",
             "shouldPlayQuestionAudio": true,
             "isOptionText": false,
             "numberOfOptions": 4,
