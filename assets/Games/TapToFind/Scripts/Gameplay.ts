@@ -340,8 +340,8 @@ export default class Gameplay extends cc.Component {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            let _laypout1posX: number[] = [-600, -200, 257, 754];
-            let _laypout1posY: number[] = [-150, 100, -100, 150];
+            let _laypout1posX: number[] = [-600, -200, 257, 700];
+            let _laypout1posY: number[] = [-150, 100, -150, 250];
             for (let i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }

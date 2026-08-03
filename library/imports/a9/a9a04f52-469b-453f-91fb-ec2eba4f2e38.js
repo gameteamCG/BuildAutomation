@@ -373,8 +373,8 @@ var Gameplay = /** @class */ (function (_super) {
             this.arrangeChildren(this.options, 80);
         }
         if (this.optionsLayout == "layout1") {
-            var _laypout1posX = [-600, -200, 257, 754];
-            var _laypout1posY = [-150, 100, -100, 150];
+            var _laypout1posX = [-600, -200, 257, 700];
+            var _laypout1posY = [-150, 100, -150, 250];
             for (var i = 0; i < _optionParent.children.length; i++) {
                 _optionParent.children[i].setPosition(_laypout1posX[i], _laypout1posY[i]);
             }
