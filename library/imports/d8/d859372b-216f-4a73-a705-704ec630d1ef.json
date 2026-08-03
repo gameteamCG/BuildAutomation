@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "newpuz",
+    "texture": "b448000b-6cf1-47dd-8b6e-6c59856466c0",
+    "atlas": "",
+    "rect": [
+      152,
+      79,
+      849,
+      837
+    ],
+    "offset": [
+      76,
+      3
+    ],
+    "originalSize": [
+      1001,
+      1001
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

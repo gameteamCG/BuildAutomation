@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "additionalData": {
+      "GameID": "count and write 1-5",
+      "totalLevel": "7",
+      "TitleImageName": "new title.png",
+      "introBgName": "bgmain.png",
+      "bgmMusicName": "B2.mp3",
+      "mainBgName": "newbg.png",
+      "JockeyName": "bag"
+    },
+    "questionData": [
+      {
+        "questionText": "Counting",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "newpuz.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "beli pepper.png"
+        ],
+        "reiterations": [
+          "1bell paper.mp3"
+        ],
+        "commonRightOptionImageName": "puz1.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "1.png",
+          "2"
+        ]
+      },
+      {
+        "questionText": "Counting",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "newpuz.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "eggplant.png"
+        ],
+        "reiterations": [
+          "2egg plants.mp3"
+        ],
+        "commonRightOptionImageName": "puz1.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "2.png",
+          "3.png"
+        ]
+      },
+      {
+        "questionText": "Counting",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "newpuz.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "lettuces.png"
+        ],
+        "reiterations": [
+          "3lettuces.mp3"
+        ],
+        "commonRightOptionImageName": "puz1.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "3.png",
+          "5.png"
+        ]
+      },
+      {
+        "questionText": "Counting",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "newpuz.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "carrot.png"
+        ],
+        "reiterations": [
+          "2carrots.mp3"
+        ],
+        "commonRightOptionImageName": "puz1.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "2.png",
+          "4.png"
+        ]
+      },
+      {
+        "questionText": "Counting",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "newpuz.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "garlic.png"
+        ],
+        "reiterations": [
+          "1 garlic pod.mp3"
+        ],
+        "commonRightOptionImageName": "puz1.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "1.png",
+          "3.png"
+        ]
+      },
+      {
+        "questionText": "Counting",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "newpuz.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "brokoli.png"
+        ],
+        "reiterations": [
+          "3 broklies.mp3"
+        ],
+        "commonRightOptionImageName": "puz1.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "3.png",
+          "1.png"
+        ]
+      },
+      {
+        "questionText": "Counting",
+        "questionAudioName": "q1.mp3",
+        "shouldPlayQuestionAudio": true,
+        "commonLeftOptionImageName": "newpuz.png",
+        "isLeftOptionText": false,
+        "numberOfLeftOptions": 1,
+        "leftoptions": [
+          "onion.png"
+        ],
+        "reiterations": [
+          "1 onion.mp3"
+        ],
+        "commonRightOptionImageName": "puz1.png",
+        "isRightOptionText": true,
+        "numberOfRightOptions": 2,
+        "rightoptions": [
+          "1.png",
+          "4.png"
+        ]
+      }
+    ]
+  }
+}

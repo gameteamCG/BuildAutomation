@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "beli pepper",
+    "texture": "ada390ad-cb8f-40d8-8aee-785c2dbb20e1",
+    "atlas": "",
+    "rect": [
+      257,
+      169,
+      469,
+      621
+    ],
+    "offset": [
+      -9,
+      21
+    ],
+    "originalSize": [
+      1001,
+      1001
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
