@@ -110,7 +110,18 @@ export default class startGame extends cc.Component {
         return startGame.instance
     }
 
-    // LIFE-CYCLE CALLBACKS:
+    @property(cc.Node)
+    loading: cc.Node = null;
+    @property(cc.AudioClip)
+    play_audio: cc.AudioClip = null;
+
+    OnStartGame(_event: cc.Event) {
+        cc.audioEngine.playEffect(this.play_audio, false);
+        this.loading.active = true;
+        _event.target.active = false;
+        _event.target.getComponent(cc.Button).interactable = false;
+        cc.director.loadScene(this.NextSceneName);
+    }
 
     onLoad() {
         cc.game.addPersistRootNode(this.node);
@@ -368,7 +379,7 @@ export default class startGame extends cc.Component {
 
             if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
                 this.scheduleOnce(() => {
-                    cc.director.loadScene(this.NextSceneName);
+                    // cc.director.loadScene(this.NextSceneName);
                 }, 2);
             }
         }, 1);

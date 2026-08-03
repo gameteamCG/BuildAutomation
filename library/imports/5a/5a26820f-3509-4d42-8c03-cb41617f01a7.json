@@ -1,18 +1,18 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "quil",
+    "name": "w3",
     "texture": "3ab35f73-1810-4b0a-af2b-e48f5d6bf74d",
     "atlas": "",
     "rect": [
-      135,
-      222,
-      266,
-      272
+      125,
+      104,
+      296,
+      302
     ],
     "offset": [
-      17.5,
-      -107.5
+      22.5,
+      -4.5
     ],
     "originalSize": [
       501,

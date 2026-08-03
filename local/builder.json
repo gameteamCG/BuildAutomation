@@ -2,7 +2,7 @@
   "platform": "web-mobile",
   "actualPlatform": "web-mobile",
   "template": "link",
-  "buildPath": "build",
+  "buildPath": "D:\\Builds\\Jaipuria\\Nursery\\Nursery_Aug_week16_day5",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,

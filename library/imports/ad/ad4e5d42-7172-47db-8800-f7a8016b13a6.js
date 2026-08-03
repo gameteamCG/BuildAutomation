@@ -23,7 +23,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var ProgressBar_1 = require("../../../Framework/Prefabs/ProgressBar/Scripts/ProgressBar");
+var ProgressBar_1 = require("../../../Framework/Prefabs/Progressbar/Scripts/ProgressBar");
 var StartGame_1 = require("../../../Framework/Scripts/StartGame");
 var globalVariables_1 = require("./globalVariables");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -31,33 +31,18 @@ var NewClass = /** @class */ (function (_super) {
     __extends(NewClass, _super);
     function NewClass() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.extraImg = null;
         _this.dropNode = null;
         _this.podar_font = null;
         _this.jaipuria_font = null;
         _this.popSound = [];
-        _this.popSound2 = [];
         _this.questionSound = [];
         _this.reiterationAudios = [];
         _this.positiveSound = [];
         _this.negativeSound = [];
         _this.positiveAudio = [];
         _this.negativeAudio = [];
-        _this.stallionPositive = [];
-        _this.stallionNegative = [];
-        _this.bagPositive = [];
-        _this.bagNegative = [];
-        _this.cryonPositive = [];
-        _this.cryonNegative = [];
-        _this.tlcPositive = [];
-        _this.tlcNegative = [];
         _this.supercubPositive = [];
         _this.supercubNegative = [];
-        _this.tlc_birdFlying = null;
-        _this.supercub_Pos1 = null;
-        _this.supercub_Pos2 = null;
-        _this.supercub_Neg1 = null;
-        _this.supercub_Neg2 = null;
         _this.tlc_font = null;
         _this.supercub_font = null;
         _this.defaultMat = null;
@@ -279,26 +264,6 @@ var NewClass = /** @class */ (function (_super) {
         this.totalAnswers = this.dropNode.children.length;
         this.OptionsLayoutHorizontal(this.node.getChildByName("Option"));
         this.callThirdObjectIn();
-        if (StartGame_1.default.Instance.jockeyName == "bag") {
-            this.positiveAudio = this.bagPositive;
-            this.negativeAudio = this.bagNegative;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "tlc") {
-            this.positiveAudio = this.tlcPositive;
-            this.negativeAudio = this.tlcNegative;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "supercub") {
-            this.positiveAudio = this.supercubPositive;
-            this.negativeAudio = this.supercubNegative;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "cryon") {
-            this.positiveAudio = this.cryonPositive;
-            this.negativeAudio = this.cryonNegative;
-        }
-        else if (StartGame_1.default.Instance.jockeyName == "stallion") {
-            this.positiveAudio = this.stallionPositive;
-            this.negativeAudio = this.stallionNegative;
-        }
     };
     NewClass.prototype.getRandomNumber = function (min, max) {
         var _number = Math.random();
@@ -315,52 +280,6 @@ var NewClass = /** @class */ (function (_super) {
             cc.audioEngine.playEffect(this.questionSound[0], false);
         }
         this.canTouch = true;
-        // if (globalVariables.Instance.currentLevel == 1) {
-        //     let hand = this.node.getChildByName("hand");
-        //     hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-        //     hand.setPosition(0, -30);
-        //     hand.setParentWithSamePos(this.node);
-        //     hand.getComponent(cc.Animation).play();
-        // }
-        //}
-        // else if (startGame.Instance.jockeyName == "tlc") {
-        //     let intoAnim = "intro";
-        //     this.currentJcokey.setPosition(450, -370);
-        //     if (startGame.Instance.jockeyName == "tlc") {
-        //         cc.audioEngine.playEffect(this.tlc_birdFlying, false);
-        //     }
-        //     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, intoAnim, false);
-        //     this.scheduleOnce(() => {
-        //         if (!startGame.Instance.questions[globalVariables.Instance.currentLevel - 1].shouldPlayQuestionAudio) {
-        //             this.canTouch = true;
-        //             // if (globalVariables.Instance.currentLevel == 1) {
-        //             //     let hand = this.node.getChildByName("hand");
-        //             //     hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-        //             //     hand.setPosition(0, -30);
-        //             //     hand.setParentWithSamePos(this.node);
-        //             //     hand.getComponent(cc.Animation).play();
-        //             // }
-        //         }
-        //         else {
-        //             cc.audioEngine.playEffect(this.questionSound[0], false);
-        //             this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_loop", true);
-        //             this.scheduleOnce(() => {
-        //                 this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "intro_end", false);
-        //                 this.scheduleOnce(() => {
-        //                     this.currentJcokey.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
-        //                     this.canTouch = true;
-        //                     // if (globalVariables.Instance.currentLevel == 1) {
-        //                     //     let hand = this.node.getChildByName("hand");
-        //                     //     hand.setParent(this.node.getChildByName("Option").getChildByName(this.answerArray[0]));
-        //                     //     hand.setPosition(0, -30);
-        //                     //     hand.setParentWithSamePos(this.node);
-        //                     //     hand.getComponent(cc.Animation).play();
-        //                     // }
-        //                 }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation("intro_end").duration);
-        //             }, this.questionSound[0].duration);
-        //         }
-        //     }, this.currentJcokey.getComponent(sp.Skeleton).findAnimation(intoAnim).duration);
-        // }
     };
     NewClass.prototype.GenerateOptions = function () {
         var _loop_5 = function (i) {
@@ -397,14 +316,6 @@ var NewClass = /** @class */ (function (_super) {
         cc.tween(this.node.getChildByName("questionPanel")).to(1, { y: this.questionBoxPosY }, { easing: 'sineInOut' }).start();
         this.node.getChildByName("questionPanel").getChildByName("text").getComponent(cc.Label).string = StartGame_1.default.Instance.questions[globalVariables_1.default.Instance.currentLevel - 1].questionText;
         this.scheduleOnce(function () {
-            // this.scheduleOnce(() => {
-            //     cc.audioEngine.playEffect(this.popSound[0], false);
-            //     for (let i = 0; i < this.node.getChildByName("dropArea").children.length; i++) {
-            //         this.node.getChildByName("dropArea").children[i].scale = 0;
-            //         this.node.getChildByName("dropArea").children[i].opacity = 255;
-            //         cc.tween(this.node.getChildByName("dropArea").children[i]).to(0.5, { scale: ObjScale }, { easing: "sineInOut" }).start();
-            //     }
-            // }, 0.1);
             _this.scheduleOnce(function () {
                 _this.callOptionIn();
             }, 0.5);
@@ -418,7 +329,6 @@ var NewClass = /** @class */ (function (_super) {
     NewClass.prototype.callOptionIn = function () {
         var _this = this;
         var ObjScale = 1;
-        //ObjScale = 0.7;
         cc.audioEngine.playEffect(this.popSound[0], false);
         var _loop_6 = function (i) {
             this_6.node.getChildByName("Option").children[i - 1].scale = 0;
@@ -428,14 +338,6 @@ var NewClass = /** @class */ (function (_super) {
                     .to(0.5, { scale: ObjScale }, { easing: "sineInOut" }).start();
                 if (i == _this.node.getChildByName("Option").children.length) {
                     _this.scheduleOnce(function () {
-                        // if (globalVariables.Instance.currentLevel == 1) {
-                        //     let hand = this.node.getChildByName("hand");
-                        //     console.log("answer array num = ", this.answerArray[0]);
-                        //     hand.setParent(this.node.getChildByName("Option").getChildByName("1"));
-                        //     hand.setPosition(0, -30);
-                        //     hand.setParentWithSamePos(this.node);
-                        //     hand.getComponent(cc.Animation).play();
-                        // }
                         if (globalVariables_1.default.Instance.currentLevel == 1) {
                             var hand_1 = _this.node.getChildByName("hand");
                             console.log("answer array num = ", _this.answerArray[0]);
@@ -446,17 +348,8 @@ var NewClass = /** @class */ (function (_super) {
                             var handPosition_1 = hand_1.getPosition();
                             var ThirdObject_1 = _this.node.getChildByName("dropArea").getChildByName("1");
                             var distanceX_1 = 0;
-                            // if (startGame.Instance.jockeyName == "tlc") {
-                            //     distanceX = 270;
-                            // }
-                            // else {
-                            //     distanceX = 150;
-                            // }
                             distanceX_1 = 150;
                             var waitTime = 0;
-                            // if (startGame.Instance.jockeyName == "tlc") {
-                            //     waitTime = 2;
-                            // }
                             _this.scheduleOnce(function () {
                                 cc.tween(hand_1).to(1, { x: ThirdObject_1.x + distanceX_1, y: ThirdObject_1.y }).call(function () {
                                     hand_1.setPosition(handPosition_1.x, handPosition_1.y);
@@ -617,7 +510,7 @@ var NewClass = /** @class */ (function (_super) {
             anim = ["possitive", "possitive2", "possitive3", "possitive4", "possitive5", "possitive6"];
         }
         else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6", "positive_7", "positive_8", "positive_9", "positive_10"];
+            anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5",];
         }
         else if (StartGame_1.default.Instance.jockeyName == "tlc") {
             anim = ["positive_1", "positive_2", "positive_3", "positive_4", "positive_5", "positive_6"];
@@ -712,7 +605,7 @@ var NewClass = /** @class */ (function (_super) {
                 anim = ["negetive", "negetive2", "negetive3", "negetive4", "negetive5", "negetive6"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "Puzzle") {
-                anim = ["negative_1", "negative_2", "negative_3", "negative_4", "negative_5", "negative_6", "negative_7"];
+                anim = ["negative_1", "negative_2", "negative_3"];
             }
             else if (StartGame_1.default.Instance.jockeyName == "tlc") {
                 anim = ["negative_1", "negative_2", "negative_3"];
@@ -991,9 +884,6 @@ var NewClass = /** @class */ (function (_super) {
         return shuffledArray;
     };
     __decorate([
-        property(cc.SpriteFrame)
-    ], NewClass.prototype, "extraImg", void 0);
-    __decorate([
         property(cc.Node)
     ], NewClass.prototype, "dropNode", void 0);
     __decorate([
@@ -1005,9 +895,6 @@ var NewClass = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "popSound", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "popSound2", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "questionSound", void 0);
@@ -1028,49 +915,10 @@ var NewClass = /** @class */ (function (_super) {
     ], NewClass.prototype, "negativeAudio", void 0);
     __decorate([
         property(cc.AudioClip)
-    ], NewClass.prototype, "stallionPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "stallionNegative", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "bagPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "bagNegative", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "cryonPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "cryonNegative", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "tlcPositive", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "tlcNegative", void 0);
-    __decorate([
-        property(cc.AudioClip)
     ], NewClass.prototype, "supercubPositive", void 0);
     __decorate([
         property(cc.AudioClip)
     ], NewClass.prototype, "supercubNegative", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "tlc_birdFlying", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "supercub_Pos1", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "supercub_Pos2", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "supercub_Neg1", void 0);
-    __decorate([
-        property(cc.AudioClip)
-    ], NewClass.prototype, "supercub_Neg2", void 0);
     __decorate([
         property(cc.Font)
     ], NewClass.prototype, "tlc_font", void 0);

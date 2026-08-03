@@ -65,17 +65,22 @@ export default class NewClass extends cc.Component {
         this.scheduleOnce(() => {
             this.node.getComponent(cc.AudioSource).clip = this.yeah[0];
             this.node.getComponent(cc.AudioSource).play();
-            console.log("gameEnded--true");
+            this.node.getChildByName("end").active = true;
         }, 2.3);
 
 
     }
 
-    OnEndBtn(_event: cc.Event) {
-        window.close();
+    EndButton() {
+        cc.audioEngine.playEffect(startGame.Instance.play_audio, false);
+        console.log("gameEnded--" + true);
+        closeWindow();
     }
 
 
-
     // update (dt) {}
+}
+const closeWindow = () => {
+    window.open(location.href, "_self", "");
+    window.close()
 }

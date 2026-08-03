@@ -342,8 +342,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1156,
-      "height": 254
+      "width": 478,
+      "height": 234
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -395,7 +395,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "934514d1-8c36-4fc9-bc4f-011335c06a70"
+      "__uuid__": "71ad6607-0ed8-4482-93ef-36bf9ee837c5"
     },
     "_type": 0,
     "_sizeMode": 2,
@@ -775,7 +775,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "bdhgo+wTtAG60GQgiz5kKY"
+    "_id": "1cb4JmtyZBcYu0wi0K2dI/"
   },
   {
     "__type__": "cc.Node",
@@ -792,7 +792,7 @@
       }
     ],
     "_prefab": null,
-    "_opacity": 55,
+    "_opacity": 155,
     "_color": {
       "__type__": "cc.Color",
       "r": 0,
@@ -837,7 +837,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "d2jxph3pNKIb5jUX9yBccc"
+    "_id": "6cOKrrg9tL1aKy+WCs4xHZ"
   },
   {
     "__type__": "cc.Sprite",
@@ -869,7 +869,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": "c2hjqxwDZOeqExKlp48b7Q"
+    "_id": "88UboZ4x1DYrQn3w/boThB"
   },
   {
     "__type__": "cc.Node",
@@ -888,7 +888,7 @@
         "__id__": 20
       },
       {
-        "__id__": 21
+        "__id__": 22
       }
     ],
     "_prefab": null,
@@ -923,7 +923,7 @@
         1,
         1,
         1,
-        1
+        0
       ]
     },
     "_eulerAngles": {
@@ -937,7 +937,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "09I1QyOQxBKraG44X8rWx3"
+    "_id": "5eXcvfBf9AUoO4baTL8STT"
   },
   {
     "__type__": "cc.Sprite",
@@ -955,7 +955,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "79d2d42b-6150-406c-a80f-62334cdea24d"
+      "__uuid__": "b1b77d42-291b-435f-a660-f088c7a7afbc"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -969,26 +969,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": "cbAjIFAeNDzY9G68tErAHV"
-  },
-  {
-    "__type__": "cc.Animation",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 18
-    },
-    "_enabled": true,
-    "_defaultClip": {
-      "__uuid__": "46b69672-7517-4942-bf54-2fc2a123f362"
-    },
-    "_clips": [
-      {
-        "__uuid__": "46b69672-7517-4942-bf54-2fc2a123f362"
-      }
-    ],
-    "playOnLoad": true,
-    "_id": "00TFbY0+FNx4Uta56CZd92"
+    "_id": "e2E3NiRU9O26bmIvr+fACV"
   },
   {
     "__type__": "cc.Button",
@@ -1004,13 +985,13 @@
     "zoomScale": 1.2,
     "clickEvents": [
       {
-        "__id__": 22
+        "__id__": 21
       }
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 0,
-    "transition": 0,
+    "_N$transition": 1,
+    "transition": 1,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -1062,7 +1043,7 @@
     "_N$target": {
       "__id__": 18
     },
-    "_id": "dcMyQ5U31DaK7Z1KzjxIxD"
+    "_id": "b8tyIztjxAebQqWeizebFV"
   },
   {
     "__type__": "cc.ClickEvent",
@@ -1071,8 +1052,27 @@
     },
     "component": "",
     "_componentId": "12188wrDUtGT6+DUikGtBfF",
-    "handler": "OnEndBtn",
+    "handler": "EndButton",
     "customEventData": ""
+  },
+  {
+    "__type__": "cc.Animation",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 18
+    },
+    "_enabled": true,
+    "_defaultClip": {
+      "__uuid__": "8122014a-c5f9-41d8-ac9a-8902b4b95b7e"
+    },
+    "_clips": [
+      {
+        "__uuid__": "8122014a-c5f9-41d8-ac9a-8902b4b95b7e"
+      }
+    ],
+    "playOnLoad": true,
+    "_id": "18mn4Ux59Hxr1LEj0hN9tl"
   },
   {
     "__type__": "cc.Sprite",
@@ -1124,12 +1124,8 @@
         "__uuid__": "d2a2a66d-938c-4fc7-803f-ffb94df737e3"
       }
     ],
-    "podarEnd": {
-      "__uuid__": "fd3c3bf1-0ab0-4006-8cc2-35184d621727"
-    },
-    "jaipuriaEnd": {
-      "__uuid__": "100ff61f-6f95-4a0e-a0d5-4c5e6b361d7b"
-    },
+    "podarEnd": null,
+    "jaipuriaEnd": null,
     "_id": "49kBSRX51J4KpX1AFElryd"
   },
   {

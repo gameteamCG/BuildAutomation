@@ -1003,7 +1003,7 @@
     "_lineHeight": 130,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "cff63584-90db-4244-9aa3-ba7bb8db0a73"
+      "__uuid__": "6ab3b22a-9b9b-43ca-be6a-b4027e0ca850"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -1571,8 +1571,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 250,
-      "height": 250
+      "width": 350,
+      "height": 350
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1583,7 +1583,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -125,
+        -135,
         0,
         0,
         0,
@@ -1855,8 +1855,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 250,
-      "height": 250
+      "width": 350,
+      "height": 350
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1867,7 +1867,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        125,
+        135,
         0,
         0,
         0,
@@ -2043,9 +2043,6 @@
       "__id__": 5
     },
     "_enabled": true,
-    "extraImg": {
-      "__uuid__": "fe7bee84-c27e-4e2c-bfe9-4452ad2d6dae"
-    },
     "dropNode": {
       "__id__": 15
     },
@@ -2054,11 +2051,6 @@
     "popSound": [
       {
         "__uuid__": "34f9d273-9dff-4094-bcdb-4e79ee69dcbf"
-      }
-    ],
-    "popSound2": [
-      {
-        "__uuid__": "e6008246-c683-4a2e-98ed-55c5032d805c"
       }
     ],
     "questionSound": [
@@ -2079,74 +2071,61 @@
     ],
     "positiveAudio": [
       {
-        "__uuid__": "e0d9f6fb-f075-4f14-9342-effd057f68ec"
+        "__uuid__": "0c82da20-9c30-4ad4-8e32-1b4a2728a8c3"
       },
       {
-        "__uuid__": "d7f6ddc8-9dff-4cb0-9132-3886f72b5e4b"
+        "__uuid__": "d1d69ba1-d5f7-4f90-8a8c-d992c24bd677"
       },
       {
-        "__uuid__": "6702bcb6-1561-48b8-96bf-e3a05e722fb0"
+        "__uuid__": "afea733d-3d30-44ce-abe6-36c0a3969f2c"
       },
       {
-        "__uuid__": "f186e8c7-cbe1-4699-8da7-92a1c464d09b"
+        "__uuid__": "44ddfa1e-480c-44b2-97fd-59b22d363e5a"
       },
       {
-        "__uuid__": "da16b95f-2850-42ba-b4b3-a1c1d42340b9"
+        "__uuid__": "c9a6a221-a0fc-43ff-92ac-aace002d8c48"
       },
       {
-        "__uuid__": "41e04b5f-b821-4709-b6a0-069ed45da528"
+        "__uuid__": "58a216dd-cf4b-405f-966a-a2d7e6768e35"
       },
       {
-        "__uuid__": "d4818062-c1d5-4449-875b-b22b75e46e24"
+        "__uuid__": "871c6dad-a124-4673-99b9-421325ddc116"
       },
       {
-        "__uuid__": "0451fd4c-9cb5-48f6-97d3-8ef8ecb1297a"
+        "__uuid__": "43c6af35-2b9c-4ae8-8fc2-52660709fe78"
       },
       {
-        "__uuid__": "ddff93ee-ab4d-4e5e-9515-0e68ec0a6a5f"
+        "__uuid__": "736b9e5b-19c4-42ef-b145-78b58f130256"
       },
       {
-        "__uuid__": "23c6311d-448a-4a60-a912-b3188f8b503d"
+        "__uuid__": "f90b29fc-25c6-4b3d-92e8-23268b0472e9"
       }
     ],
     "negativeAudio": [
       {
-        "__uuid__": "e6e865ee-cbcf-49fb-aa96-43c85a2bd095"
+        "__uuid__": "1084b322-efca-4eba-a81a-edb27b9421f9"
       },
       {
-        "__uuid__": "b024bef8-99b4-4d58-8a4a-10f203bf3f4b"
+        "__uuid__": "8163120e-7981-48ad-8300-211afa7f1834"
       },
       {
-        "__uuid__": "dfc6c35d-f5e1-4ca9-89df-3739e1d71b67"
+        "__uuid__": "78b6f2e7-b2d4-4c16-993a-9e375c4beecd"
       },
       {
-        "__uuid__": "caccd092-a8d6-4f28-8ee1-7e7f1507d467"
+        "__uuid__": "4b65d017-07dd-4175-9d86-29507e4d25fc"
       },
       {
-        "__uuid__": "32b4734f-f142-4081-b008-95698bc7c7ca"
+        "__uuid__": "4d075fc2-1141-4603-a247-d8564ecc8033"
       },
       {
-        "__uuid__": "1f9f9bc6-6174-4231-a38a-3061d4fe0225"
+        "__uuid__": "8163120e-7981-48ad-8300-211afa7f1834"
       },
       {
-        "__uuid__": "07d88c20-a52c-4c0b-88bc-815947ccfabb"
+        "__uuid__": "4b65d017-07dd-4175-9d86-29507e4d25fc"
       }
     ],
-    "stallionPositive": [],
-    "stallionNegative": [],
-    "bagPositive": [],
-    "bagNegative": [],
-    "cryonPositive": [],
-    "cryonNegative": [],
-    "tlcPositive": [],
-    "tlcNegative": [],
     "supercubPositive": [],
     "supercubNegative": [],
-    "tlc_birdFlying": null,
-    "supercub_Pos1": null,
-    "supercub_Pos2": null,
-    "supercub_Neg1": null,
-    "supercub_Neg2": null,
     "tlc_font": null,
     "supercub_font": null,
     "defaultMat": {

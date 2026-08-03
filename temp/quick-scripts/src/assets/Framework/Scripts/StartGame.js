@@ -69,6 +69,8 @@ var startGame = /** @class */ (function (_super) {
         _this.jockeyName = "";
         _this.questions = [];
         _this.templateType = "";
+        _this.loading = null;
+        _this.play_audio = null;
         return _this;
         // blobToDataURL(blobUrl, callback) {
         //     var xhr = new XMLHttpRequest();
@@ -93,7 +95,13 @@ var startGame = /** @class */ (function (_super) {
         enumerable: false,
         configurable: true
     });
-    // LIFE-CYCLE CALLBACKS:
+    startGame.prototype.OnStartGame = function (_event) {
+        cc.audioEngine.playEffect(this.play_audio, false);
+        this.loading.active = true;
+        _event.target.active = false;
+        _event.target.getComponent(cc.Button).interactable = false;
+        cc.director.loadScene(this.NextSceneName);
+    };
     startGame.prototype.onLoad = function () {
         var _this = this;
         cc.game.addPersistRootNode(this.node);
@@ -328,7 +336,7 @@ var startGame = /** @class */ (function (_super) {
             }
             if (_this.jockeyName != "bag" && _this.jockeyName != "cryon") {
                 _this.scheduleOnce(function () {
-                    cc.director.loadScene(_this.NextSceneName);
+                    // cc.director.loadScene(this.NextSceneName);
                 }, 2);
             }
         }, 1);
@@ -421,6 +429,12 @@ var startGame = /** @class */ (function (_super) {
     __decorate([
         property(Number)
     ], startGame.prototype, "totalLevels", void 0);
+    __decorate([
+        property(cc.Node)
+    ], startGame.prototype, "loading", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], startGame.prototype, "play_audio", void 0);
     startGame = startGame_1 = __decorate([
         ccclass
     ], startGame);
