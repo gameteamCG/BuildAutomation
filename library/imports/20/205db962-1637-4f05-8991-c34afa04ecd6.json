@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "game_data",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "AdditionalData": {
+      "GameID": "Nursery_SB3_Language_23: Letters and sounds Rr",
+      "VideoLink": "https://s3.ap-south-1.amazonaws.com/cg-dynamic-games.creativegalileo.com/Thumbnail/Rsong_1740398665672.mp4",
+      "TitleImageName": "Letter Rr.png",
+      "IntroAudio1Name": "",
+      "IntroAudio2Name": "",
+      "JockeyName": "crayon",
+      "TotalLevel": "3"
+    },
+    "QuestionData": [
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "identify",
+        "QuestionImageName": "",
+        "QuestionAudioName": "identify-the-letter-with-the-letter-sound_rrr.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Rr",
+          "Ff"
+        ],
+        "ReiterationAudioName": "RsaysRR.mp3",
+        "CorrectAudioName": "positive_1.mp3",
+        "WrongAudioName": "negative_1.mp3",
+        "CorrectAnswer": "1"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": true,
+        "QuestionText": "Rr",
+        "QuestionImageName": "",
+        "QuestionAudioName": "taponpicR.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": false,
+        "NumberOfOptions": 2,
+        "Options": [
+          "250x250_0004_sun.png",
+          "rainbow.png"
+        ],
+        "ReiterationAudioName": "26469398_12_rainbow.mp3",
+        "CorrectAudioName": "positive_2.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "2"
+      },
+      {
+        "QuestionAppearTime": "99999",
+        "IsQuestionText": false,
+        "QuestionText": "",
+        "QuestionImageName": "Qrose.png",
+        "QuestionAudioName": "identifytheletterforthegivenpicture.mp3",
+        "PlayQuestionAudio": true,
+        "IsOptionText": true,
+        "NumberOfOptions": 2,
+        "Options": [
+          "Rr",
+          "Uu"
+        ],
+        "ReiterationAudioName": "27915064_6_rose.mp3",
+        "CorrectAudioName": "positive_3.mp3",
+        "WrongAudioName": "negative_2.mp3",
+        "CorrectAnswer": "1"
+      }
+    ]
+  }
+}

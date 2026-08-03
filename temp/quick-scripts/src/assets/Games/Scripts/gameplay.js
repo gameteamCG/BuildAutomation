@@ -521,7 +521,7 @@ var NewClass = /** @class */ (function (_super) {
                 _this.callJockey();
             }, this.magicalSound.duration);
         }
-        else if ("negative") {
+        else if (type == "negative") {
             cc.tween(this.node.getChildByName("podium"))
                 .to(0.5, { x: -400 }, { easing: 'sineInOut' }).start();
             this.node.getChildByName("podium").getChildByName("Puzzle").getComponent(cc.Animation).play("puzzleNegative");
@@ -545,7 +545,7 @@ var NewClass = /** @class */ (function (_super) {
                 _this.playSound(_this.ReinforementSound[globalVariables_1.default.Instance.currentLevel - 2]);
             }, 0.5);
         }
-        else if ("none") {
+        else if (type == "none") {
             this.popupTime = 0;
         }
     };
