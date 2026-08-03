@@ -276,7 +276,6 @@ export default class Gameplay extends cc.Component {
     }
 
     PlayQVoButton(_event: cc.Event) {
-
         cc.audioEngine.stopAllEffects();
         cc.audioEngine.playEffect(this.questionAudio, false);
         _event.target.getComponent(cc.Button).interactable = false;
