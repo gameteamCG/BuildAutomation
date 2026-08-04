@@ -40,6 +40,11 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class startGame extends cc.Component {
+    @property(cc.ProgressBar)
+    loadingBar: cc.ProgressBar = null;
+
+    @property(cc.AudioClip)
+    play_audio: cc.AudioClip = null;
     @property(cc.AudioClip)
     BGM_audio: cc.AudioClip = null;
     @property(Number)
@@ -118,28 +123,32 @@ export default class startGame extends cc.Component {
                 this.JockeyNode = element;
             }
         });
-        this.scheduleOnce(() => {
-            let backBtn = this.node.getChildByName("back");
-            // :fire: music button
-            let musicBtn = this.node.getChildByName("music");
-            backBtn.scale = 1;
-            musicBtn.scale = 1;
-            let nodes = [
 
-                backBtn,
-                musicBtn,
-            ];
-            TVInputManager.Instance.setCanSelect(true);
-
-            TVInputManager.Instance.init(nodes);
-        }, 0.5);
         // const storedJSONData = cc.sys.localStorage.getItem('gameData');
 
         // if (storedJSONData) {
         //     const jsonData = JSON.parse(storedJSONData);
         // }
     }
+    OnStartGame(_event: cc.Event) {
+        cc.audioEngine.playEffect(this.play_audio, false);
+        _event.target.getComponent(cc.Button).interactable = false;
+        _event.target.active = false;
+        this.loadSceneWithProgress();
+    }
 
+
+    loadSceneWithProgress() {
+        if (this.loadingBar) {
+            this.loadingBar.node.active = true;
+        }
+        cc.director.preloadScene(this.NextSceneName, (completedCount: number, totalCount: number) => {
+            let progress = completedCount / totalCount;
+            this.loadingBar.progress = progress;
+        }, () => {
+            cc.director.loadScene(this.NextSceneName);
+        })
+    }
     logData() {
         console.log("Game ID:", this.gameID);
         console.log("Total Levels:", this.totalLevels);
@@ -263,11 +272,11 @@ export default class startGame extends cc.Component {
                 this.questions = jsonData.questionData;
                 // this.titleImageName = this.removeExtension(this.titleImageName);
                 this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.TitleImageName), (spriteFrame) => {
-                    cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // cc.find("Canvas").getChildByName("bg").getChildByName("Title").getComponent(cc.Sprite).spriteFrame = spriteFrame;
                 });
                 this.loadSpriteFrame(this.removeExtension(jsonData.additionalData.introBgName), (spriteFrame) => {
-                    cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                    this.introBG = spriteFrame;
+                    // cc.find("Canvas").getChildByName("bg").getComponent(cc.Sprite).spriteFrame = spriteFrame;
+                    // this.introBG = spriteFrame;
                 });
                 this.loadAudioClip(this.removeAudioExtension(jsonData.additionalData.bgmMusicName), (AudioClip) => {
                     this.BGM_audio = AudioClip;
@@ -383,26 +392,26 @@ export default class startGame extends cc.Component {
         this.scheduleOnce(() => {
             console.log("jockey name = ", this.jockeyName);
 
-            if (this.jockeyName == "Podar") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
-            }
-            else if (this.jockeyName == "tlc") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("tlc").active = true;
-            }
-            else if (this.jockeyName == "supercub") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("supercub").active = true;
-            }
-            else if (this.jockeyName == "stallion") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
-            }
-            else if (this.jockeyName == "bag" || this.jockeyName == "cryon") {
-                cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
-            }
+            // if (this.jockeyName == "Podar") {
+            //     cc.find("Canvas").getChildByName("bg").getChildByName("podar").active = true;
+            // }
+            // else if (this.jockeyName == "tlc") {
+            //     cc.find("Canvas").getChildByName("bg").getChildByName("tlc").active = true;
+            // }
+            // else if (this.jockeyName == "supercub") {
+            //     cc.find("Canvas").getChildByName("bg").getChildByName("supercub").active = true;
+            // }
+            // else if (this.jockeyName == "stallion") {
+            //     cc.find("Canvas").getChildByName("bg").getChildByName("stallion").active = true;
+            // }
+            // else if (this.jockeyName == "bag" || this.jockeyName == "cryon") {
+            //     cc.find("Canvas").getChildByName("bg").getChildByName("jaipuria").active = true;
+            // }
 
             if (this.jockeyName != "bag" && this.jockeyName != "cryon") {
-                this.scheduleOnce(() => {
-                    cc.director.loadScene("1");
-                }, 2);
+                // this.scheduleOnce(() => {
+                //     cc.director.loadScene("1");
+                // }, 2);
             }
         }, 1);
 

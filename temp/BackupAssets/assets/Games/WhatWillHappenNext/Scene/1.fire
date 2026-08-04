@@ -1843,7 +1843,7 @@
     "_lineHeight": 130,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "529295ef-4c17-4226-a9c0-838d9897f830"
+      "__uuid__": "b109bf26-acba-469a-81e1-019e442a53b4"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -2350,42 +2350,32 @@
     ],
     "positiveAudio": [
       {
-        "__uuid__": "815625a7-d762-4150-9fe0-804c5c42e180"
+        "__uuid__": "e74d8320-b9f1-4b19-8a84-a57bf96551e8"
       },
       {
-        "__uuid__": "e147f832-e3fa-4781-ad9d-01212fb875ff"
+        "__uuid__": "c2dd7166-8566-4373-8685-f1cdc19b7713"
       },
       {
-        "__uuid__": "31258f4b-7576-4b4d-b73f-d3031a2623f6"
+        "__uuid__": "326b80f5-a63f-4259-89ae-849d5a624660"
       },
       {
-        "__uuid__": "93374b0b-2702-45b0-8414-e5e6729dbe72"
+        "__uuid__": "84212f6b-1785-4513-9671-f3a3c9bd0265"
       },
       {
-        "__uuid__": "d8624d88-8bd7-4bd3-9501-9570990b57fa"
+        "__uuid__": "14e16130-9856-4302-9612-01305bbca4ac"
       },
       {
-        "__uuid__": "5e7485b9-78c4-48ee-8950-a3eb769c65aa"
+        "__uuid__": "4f6c7f39-4ada-4712-81d5-c504a5bf6eab"
       }
     ],
     "negativeAudio": [
       {
-        "__uuid__": "05a909f7-e9a6-4735-9be6-4d97dcd21473"
+        "__uuid__": "8a81d8dd-86ef-42bd-9b70-8ff7d8b4628f"
       },
       {
-        "__uuid__": "03ee758b-0390-4fe7-a57b-498bdb0d0f24"
+        "__uuid__": "6f541c50-b154-48e8-bc71-416a28c97e8a"
       }
     ],
-    "stallionPositive": [],
-    "stallionNegative": [],
-    "bagPositive": [],
-    "bagNegative": [],
-    "cryonPositive": [],
-    "cryonNegative": [],
-    "tlcPositive": [],
-    "tlcNegative": [],
-    "supercubPositive": [],
-    "supercubNegative": [],
     "tlc_birdFlying": null,
     "supercub_Pos1": null,
     "supercub_Pos2": null,
