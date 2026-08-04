@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "whiteboard",
+    "texture": "5c9e8505-4bc4-48ee-825b-99ec431d67f5",
+    "atlas": "",
+    "rect": [
+      6,
+      63,
+      290,
+      176
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "watermaleon",
+    "texture": "72329a4f-d9ce-45fe-bea7-157611a919d5",
+    "atlas": "",
+    "rect": [
+      38,
+      71,
+      221,
+      161
+    ],
+    "offset": [
+      -2,
+      -1
+    ],
+    "originalSize": [
+      301,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

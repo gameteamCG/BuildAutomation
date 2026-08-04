@@ -1,0 +1,103 @@
+{
+    "additionalData": {
+        "GameID": "Shape - rectangle_Nursery Course Book 2_78",
+        "totalLevel": "6",
+        "TitleImageName": "retrangleshape.png",
+        "introBgName": "tlc_bg.png",
+        "bgmMusicName": "BGMLetterT.mp3",
+        "mainBgName": "newbg.png",
+        "JockeyName": "bag"
+    },
+    "questionData": [
+        {
+            "questionText": "Rectangle",
+            "questionImageName": "newRectangle.png",
+            "questionAudioName": "q1.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Box.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "frame.png",
+                "ball.png"
+            ],
+            "correctAudioName": "rectanglephotoframe.mp3",
+            "correctAnswerNum": "1"
+        },
+        {
+            "questionText": "Rectangle",
+            "questionImageName": "newRectangle.png",
+            "questionAudioName": "q2.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Box.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "pizza.png",
+                "cuboard.png"
+            ],
+            "correctAudioName": "rectanglecuboard.mp3",
+            "correctAnswerNum": "2"
+        },
+        {
+            "questionText": "Rectangle",
+            "questionImageName": "newRectangle.png",
+            "questionAudioName": "q3.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Box.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "door.png",
+                "clock.png"
+            ],
+            "correctAudioName": "rectangledoor.mp3",
+            "correctAnswerNum": "1"
+        },
+        {
+            "questionText": "Rectangle",
+            "questionImageName": "new rec.png",
+            "questionAudioName": "q1.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Box.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "watermaleon.png",
+                "suitcase.png"
+            ],
+            "correctAudioName": "rectanglesuitecase.mp3",
+            "correctAnswerNum": "2"
+        },
+        {
+            "questionText": "Rectangle",
+            "questionImageName": "new rec.png",
+            "questionAudioName": "q1.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Box.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "whiteboard.png",
+                "grapes.png"
+            ],
+            "correctAudioName": "rectangle white board.mp3",
+            "correctAnswerNum": "1"
+        },
+        {
+            "questionText": "Rectangle",
+            "questionImageName": "new rec.png",
+            "questionAudioName": "q2.mp3",
+            "shouldPlayQuestionAudio": true,
+            "commonOptionImageName": "Box.png",
+            "isOptionText": false,
+            "numberOfOptions": 2,
+            "options": [
+                "watch.png",
+                "TV.png"
+            ],
+            "correctAudioName": "rectangletv.mp3",
+            "correctAnswerNum": "2"
+        }
+    ]
+}
